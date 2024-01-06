@@ -15,15 +15,15 @@ Yes
 #### Linux Kernel Support
 Yes, since 5.16 - `hid-nintendo`
 
-## What is the Official - Switch Pro RetroDECK profile called?
+### What is the Official - Switch Pro RetroDECK profile called?
 
 - Switch Pro: `RetroDECK: Switch Pro`
 
-### What is the Current Version Number of the profile?
+#### What is the Current Version Number of the profile?
 
 WIP
 
-### Switch Pro - Global Hotkeys: Nintendo Button Combos
+#### Switch Pro - Global Hotkeys: Nintendo Button Combos
 
 The global hotkeys are activated by pressing the `SELECT`  button and holding it while pressing the corresponding other button input.
 What follows is a list of hotkeys:
@@ -55,7 +55,7 @@ What follows is a list of hotkeys:
 | Enter                  |  `SELECT + Left Joystick - Right`          |   `Enter`               |     `Computer emulators` `OpenBOR` |
 
 
-### Right Joystick as Mouse
+#### Right Joystick as Mouse
 
 By holding `SELECT` and moving the right joystick you can use it as a mouse for various systems that uses mouse input.
 
@@ -65,7 +65,7 @@ By holding `SELECT` and moving the right joystick you can use it as a mouse for 
 | Right Click        |  `SELECT + L3`          |   `Right Click`               |     |
 | Left Click        |  `SELECT + R3`           |   `Left Click`            |     |
 
-### RetroArch: Additional Hotkeys
+#### RetroArch: Additional Hotkeys
 
 These hotkeys also work for RetroArch and are built in.
 
@@ -73,7 +73,7 @@ These hotkeys also work for RetroArch and are built in.
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Open Menu               |  `L3 + R3`               |      `RetroArch`     |            |
 
-### Arcade Systems: Additional Hotkeys
+#### Arcade Systems: Additional Hotkeys
 
 This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 
@@ -121,6 +121,7 @@ Sometimes the udev rule is missing and you will need to add it:
 1. Open a terminal window
 2. Type  `sudo echo 'SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="0337", MODE="0666"' | sudo tee -a /etc/udev/rules.d/51-gcadapter.rules > /dev/null`
 3. Type  `sudo udevadm control --reload-rules`
+4. Sometimes you will need to take out and reinsert the USB connector after you have reloaded the rules.
 
 <img src="../../wiki_images/controllers/wiiu-gcpad-adapter.png" width="250">
 

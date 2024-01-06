@@ -113,8 +113,6 @@ No
 #### Linux Kernel Support
 No
 
-### Related projects:
-
 A list of projects and drivers that try to make the Wii U controller work on Linux.
 
 [libdrc](https://github.com/rolandoislas/libdrc)

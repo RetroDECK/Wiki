@@ -21,7 +21,7 @@ Dolphin
 
 #### On third party controllers
 
-Many 3rd party controllers do not have native Linux support this is being worked on a higher level under both bluez and xwiimote.
+Many 3rd party controllers do not have native Linux support this is being worked on a higher level.
 
 Sources:
 

@@ -8,6 +8,8 @@ Nintendo Controllers are controllers made by the company Nintendo. Motion Contro
 
 <img src="../../wiki_images/controllers/switch-pro.png" width="250">
 
+Official Controller for the Nintendo Switch
+
 #### Steam Input support
 Yes
 
@@ -85,6 +87,8 @@ This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 
 <img src="../../wiki_images/controllers/joy-con.png" width="250">
 
+Official Controllers for the Nintendo Switch
+
 #### Steam Input support
 Yes
 
@@ -99,10 +103,33 @@ Note that this will be released at a later date and work has not started on it y
 
 ## Wii U GamePad
 
-
 <img src="../../wiki_images/controllers/wii-u-gamepad.png" width="250">
 
-WIP
+Official Controller for the Wii U
+
+#### Steam Input support
+No
+
+#### Linux Kernel Support
+No
+
+### Related projects:
+
+A list of projects and drivers that try to make the Wii U controller work on Linux.
+
+[libdrc](https://github.com/rolandoislas/libdrc)
+
+There has been efforts of adding by the libdrc team of add their `hid-wiiu-drc` to the Linux Kernel. <br>
+The effort seams to have stopped tho.
+
+[linux-wiiu](https://gitlab.com/linux-wiiu/linux-wiiu)
+
+Is a Linux distro that can be used on the Wii U machine. This seams to have a working `hid-wiiu-drc`
+But the efforts to add it to the kernel seams to have been stalled.
+
+[hid-wiiu-drc in linux-wiiu](https://gitlab.com/linux-wiiu/linux-wiiu/-/blob/rewrite-4.19/drivers/hid/hid-wiiu-drc.c)
+
+
 
 ## GameCube Controller Adapter for Wii U
 

@@ -77,7 +77,7 @@ This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Insert Credit           |  `SELECT`                |     `RetroArch`  `MAME` `FBNeo`     |            |
 
-## Joy-Con
+## Joy-Cons
 
 <img src="../../wiki_images/controllers/joy-con.png" width="250">
 

@@ -17,7 +17,7 @@ The main input for the Nintendo Wii.
 No
 
 #### Linux Kernel Support
-Yes, since 3.1
+Yes, since 3.1 - `hid-wiimote`
 
 #### Emulator
 Dolphin

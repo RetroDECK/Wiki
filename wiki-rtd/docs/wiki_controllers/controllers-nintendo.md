@@ -1,6 +1,7 @@
 # Nintendo Controllers
 
-Nintendo Controllers are controllers made by the company Nintendo. Motion Controllers made by Nintendo are listed under the Motion Controllers entry on the wiki.
+Nintendo Controllers are controllers made by the company Nintendo. <br>
+**Motion Controllers** made by Nintendo are listed under the Motion Controllers entry on the wiki.
 
 **Note some these inputs are part of the upcoming 0.8b update.**
 

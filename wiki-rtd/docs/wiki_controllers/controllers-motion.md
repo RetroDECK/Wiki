@@ -31,6 +31,7 @@ Sources:
 
 [bluez: issue 94](https://github.com/bluez/bluez/issues/94)
 
+[xwiimote-ng github](https://github.com/dev-0x7C6/xwiimote-ng)
 
 ---
 

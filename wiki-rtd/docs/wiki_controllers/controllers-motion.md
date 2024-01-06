@@ -69,14 +69,22 @@ WIP
 
 #### How-to configure Dolphin - Method 2: Bluetooth Passthrough
 
-This works with both 3rd party Wiimotes and Official and is a harder method.
+This works with both 3rd party and official Wiimotes. It is a harder method with some downsides. Many 3rd party controllers do not have native Linux support this is being worked on a higher level in both
+
+Sources on 3rd party wiimotes:
+
+[xwiimote github](https://github.com/xwiimote/xwiimote)
+
+[xwiimote: issue 66](https://github.com/xwiimote/xwiimote/issues/66)
+
+[bluez: issue 94](https://github.com/bluez/bluez/issues/94)
+
+
 
 **🛑 Warning 🛑**<br>
 
-- This method will make the Bluetooth adapter unusable for other devices while playing Wii Games and not other devices can connect to it except Wiimotes.
-
-- If you need other devices connected, it is recommended to buy a separate Bluetooth dongle that works on Linux and use that.
-
+This method will make the Bluetooth adapters unusable for other devices while playing Wii Games and not other devices can connect to it except Wiimotes, that means all other devices will disconnect.
+It could be good to have a second input method as backup like a wireless keyboard dongle connected.
 
 
 Source: [Dolphin Wiki: Bluetooth_Passthrough](https://wiki.dolphin-emu.org/index.php?title=Bluetooth_Passthrough)

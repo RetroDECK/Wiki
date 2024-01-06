@@ -1,0 +1,543 @@
+# RetroDECK
+
+# GameCube Controller Adapter for Wii U
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="0337", MODE="0666"
+
+# LEGO Toy Pad
+SUBSYSTEM=="usb", ATTR{idVendor}=="0e6f", ATTR{idProduct}=="0241" MODE="0666"
+
+# BATOCERA - the RUN+ file paths
+
+# Atari Classic
+
+SUBSYSTEM=="input", ACTION=="add", KERNEL=="event*", ATTRS{name}=="Atari Classic Controller", MODE="0666", ENV{ID_INPUT_JOYSTICK}="0"
+SUBSYSTEM=="input", ACTION=="add", KERNEL=="event*", ATTRS{name}=="virtual spinner", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+
+# Wheels
+
+SUBSYSTEM=="input", ATTRS{name}=="Thrustmaster F430 Force Feedback",    	    MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_WHEEL}="1", ENV{WHEEL_ROTATION_ANGLE}="270"
+SUBSYSTEM=="input", ATTRS{name}=="Driving Force GT",                    	    MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_WHEEL}="1", ENV{WHEEL_ROTATION_ANGLE}="900"
+SUBSYSTEM=="input", ATTRS{name}=="Thrustmaster Thrustmaster FFB Wheel", 	    MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_WHEEL}="1"
+SUBSYSTEM=="input", ATTRS{name}=="Thrustmaster TRS Racing wheel",       	    MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_WHEEL}="1"
+SUBSYSTEM=="input", ATTRS{name}=="G25 Racing Wheel",                    	    MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_WHEEL}="1", ENV{WHEEL_ROTATION_ANGLE}="900"
+SUBSYSTEM=="input", ATTRS{name}=="Microsoft SideWinder Force Feedback Wheel (USB)", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_WHEEL}="1", ENV{WHEEL_ROTATION_ANGLE}="220"
+SUBSYSTEM=="input", ATTRS{name}=="Thrustmaster F430 Cockpit Wireless",              MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_WHEEL}="1", ENV{WHEEL_ROTATION_ANGLE}="270"
+SUBSYSTEM=="input", ATTRS{name}=="Thrustmaster F430 Cockpit Wireless PS3",          MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_WHEEL}="1", ENV{WHEEL_ROTATION_ANGLE}="270"
+SUBSYSTEM=="input", ATTRS{name}=="Thrustmaster Thrustmaster Advance Racer",         MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_WHEEL}="1"
+SUBSYSTEM=="input", ATTRS{name}=="Logitech G29 Driving Force Racing Wheel",         MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_WHEEL}="1", ENV{WHEEL_ROTATION_ANGLE}="900"
+SUBSYSTEM=="input", ATTRS{name}=="Logitech  Logitech MOMO Racing ",                 MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_WHEEL}="1", ENV{WHEEL_ROTATION_ANGLE}="270"
+SUBSYSTEM=="input", ATTRS{name}=="Thrustmaster Thrustmaster T300RS Racing wheel",   MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_WHEEL}="1", ENV{WHEEL_ROTATION_ANGLE}="1080"
+
+# G920 Driving Force Racing Wheel for Xbox One
+ATTR{idVendor}=="046d", ATTR{idProduct}=="c261", RUN+="usb_modeswitch '%b/%k'"
+SUBSYSTEM=="input", ATTRS{name}=="G920 Driving Force Racing Wheel for Xbox One", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_WHEEL}="1", ENV{WHEEL_ROTATION_ANGLE}
+
+# NVidia Shield Controller
+SUBSYSTEM=="input", ATTRS{name}=="NVIDIA Corporation NVIDIA Controller v01.03", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+
+# IPEGA
+SUBSYSTEM=="input", ATTRS{name}=="ipega Bluetooth Gamepad", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+SUBSYSTEM=="input", ATTRS{name}=="ipega Bluetooth Gamepad   ", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+SUBSYSTEM=="input", ATTRS{name}=="PG-9021", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+SUBSYSTEM=="input", ATTRS{name}=="Gamepad", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+SUBSYSTEM=="input", ATTRS{name}=="GamePad", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+
+# Neo-Geo X Arcade Stick
+SUBSYSTEM=="input", ATTRS{name}=="TOMMO NEOGEOX Arcade Stick", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+
+# Mad Catz C.T.R.L.R gamepad
+SUBSYSTEM=="input", ATTRS{name}=="Mad Catz C.T.R.L.R", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+SUBSYSTEM=="input", ATTRS{name}=="SteelSeries Stratus XL", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+
+# X-Arcade Tankstick
+SUBSYSTEM=="input", ATTRS{name}=="Xarcade-to-Gamepad Device 1", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+SUBSYSTEM=="input", ATTRS{name}=="Xarcade-to-Gamepad Device 2", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+
+# AE Lightgun
+
+SUBSYSTEM=="input", ACTION=="add", ATTRS{name}=="Arduino LLC Arduino Micro Mouse", MODE="0666", ENV{ID_INPUT_MOUSE}="0"
+SUBSYSTEM=="input", ACTION=="add", ATTRS{name}=="Arduino LLC Arduino Micro Keyboard", MODE="0666", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+SUBSYSTEM=="input", ACTION=="add", ATTRS{name}=="AE lightgun", MODE="0666", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0", ENV{ID_INPUT_MOUSE}="1", ENV{ID_INPUT_GUN}="1"
+
+# Aimtrak Lightgun
+
+# disable raw devices to merge them
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Aimtrak ATRAK Device #*", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0"
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Aimtrak ATRAK", MODE="0666", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_GUN}="1", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0", ENV{ID_INPUT_MOUSE}="1"
+
+# 2nd firmware
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Ultimarc Ultimarc", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0"
+
+# 3rd firmware
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Ultimarc ATRAK Device #*", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0"
+
+# Anbernic GPIO
+
+## disable raw devices to merge them
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="gpio-keys-control", ENV{ID_INPUT_JOYSTICK}="0"
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="adc-keys", ENV{ID_INPUT_JOYSTICK}="0"
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="adc-joystick", ENV{ID_INPUT_JOYSTICK}="0"
+
+## virtual anbernic pad
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Anbernic pad", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1"
+
+# Batocera Gun Calibrator
+
+SUBSYSTEM=="input", ACTION=="add", ATTRS{name}=="* calibrated", MODE="0666", ENV{ID_INPUT_GUN}="1", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0", ENV{ID_INPUT_MOUSE}="1"
+
+# Dolphin Bar Guns
+
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="HJZ Mayflash Wiimote PC Adapter Mouse", MODE="0666", ENV{ID_INPUT_GUN}="1", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="1", ENV{ID_INPUT_GUN_NEED_CROSS}="1"
+
+# Fusion Lightguns
+
+## disable raw devices to merge them
+
+# player 1
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Fusion Mini P1 Keyboard", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Fusion Mini P1 Mouse", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+
+# player 2
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Fusion Mini P2 Keyboard", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Fusion Mini P2 Mouse", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+
+# virtual lightgun
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Fusion Lightgun", MODE="0666", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_GUN}="1", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0", ENV{ID_INPUT_MOUSE}="
+
+# GUN4IR Lightgun
+
+SUBSYSTEM=="input", ACTION=="add", ATTRS{name}=="Arduino LLC GUN4IR Pro Micro P*", MODE="0666", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0",
+
+SUBSYSTEM=="input", ACTION=="add", ATTRS{name}=="Gun4ir", MODE="0666", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0", ENV{ID_INPUT_MOUSE}="1", ENV{ID_INPUT_GUN}="1"
+
+## Non-Pro hardware
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Arduino LLC GUN4IR Micro P*", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_KEYBOARD}="0"
+
+# GunCon Lightgun
+
+SUBSYSTEM=="input", ACTION=="add", KERNEL=="event*", ATTRS{idVendor}=="0b9a", ATTRS{idProduct}=="016a", MODE="0666", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_GUN}="0", ENV{ID_INPUT_MOUSE}="0"
+SUBSYSTEM=="input", ACTION=="add", KERNEL=="event*", ATTRS{name}=="GunCon2-Gun", MODE="0666", ENV{ID_INPUT_GUN}="1", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="1"
+
+# GunCon 3 Lightgun
+
+SUBSYSTEM=="input", ACTION=="add", KERNEL=="event*", ATTRS{idVendor}=="0b9a", ATTRS{idProduct}=="0800", MODE="0666",ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_GUN}="0", ENV{ID_INPUT_MOUSE}="0"
+SUBSYSTEM=="input", ACTION=="add", KERNEL=="event*", ATTRS{name}=="GunCon3-Gun", MODE="0666", ENV{ID_INPUT_GUN}="1", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="1"
+
+# JammASD
+
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="ASD JammASD Interface Keyboard", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0", ENV{ID_INPUT_KEY}="0"
+
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="ASD JammASD Player 1", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="ASD JammASD Player 2", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+
+# Retroshooter Guns
+
+# disable raw devices to merge them
+
+# player 1
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="3AGAME 3A-3H Retro Shooter 1 Keyboard", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="3AGAME 3A-3H Retro Shooter 1 Mouse", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+
+# player 2
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="3AGAME 3A-3H Retro Shooter 2 Keyboard", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="3AGAME 3A-3H Retro Shooter 2 Mouse", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+
+# player 3
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="3AGAME 3A-3H Retro Shooter 3 Keyboard", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="3AGAME 3A-3H Retro Shooter 3 Mouse", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+
+# player 4
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="3AGAME 3A-3H Retro Shooter 4 Keyboard", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="3AGAME 3A-3H Retro Shooter 4 Mouse", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+
+# virtual lightgun
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Retro Shooter Lightgun", MODE="0666", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_GUN}="1", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0", ENV{ID_INPUT_MOUSE}="1"
+
+# Samco Lightgun
+
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Arduino LLC Arduino Leonardo",    ENV{ID_INPUT_GUN}="%c"
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Adafruit ItsyBitsy 32u4 3V 8MHz", ENV{ID_INPUT_GUN}="1"
+
+# Sinden Lightgun
+
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Unknown SindenLightgun Mouse", MODE="0666", ENV{ID_INPUT_MOUSE}="0"
+
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Unknown SindenLightgun Keyboard", MODE="0666", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0"
+
+SUBSYSTEM=="input", KERNEL=="event*", ACTION=="add", ATTRS{name}=="Sinden lightgun", MODE="0666", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0", ENV{ID_INPUT_MOUSE}="1", ENV{ID_INPUT_GUN}="1", ENV{ID_INPUT_GUN_NEED_BORDERS}="1"
+
+# camera
+SUBSYSTEM=="video4linux", KERNEL=="video*", ACTION=="add", ENV{ID_V4L_PRODUCT}=="SindenCam*", SYMLINK+="input/by-id/SindenCam%n"
+# Steam Deck Gun
+
+SUBSYSTEM=="input", ACTION=="add", ATTRS{name}=="Steam Deck"
+
+SUBSYSTEM=="input", ACTION=="add", ATTRS{name}=="Steam Gun", MODE="0666", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0", ENV{ID_INPUT_MOUSE}="1", ENV{ID_INPUT_GUN}="1", ENV{ID_INPUT_GUN_NEED_CROSS}="1"
+
+SUBSYSTEM=="input", ACTION=="add", ATTRS{name}=="Steam Mouse", MODE="0666", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_KEYBOARD}="0", ENV{ID_INPUT_KEY}="0", ENV{ID_INPUT_MOUSE}="1", ENV{ID_INPUT_GUN}="0"
+
+# Wii Remote
+SUBSYSTEM=="input", ACTION=="add", ATTRS{name}=="Nintendo Wii Remote Classic Controller", MODE="0666", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_KEY}="0"
+
+SUBSYSTEM=="input", ACTION=="add", KERNEL=="event*", ATTRS{name}=="Nintendo Wii Remote", MODE="0666" ENV{ID_INPUT_KEY}="0", ENV{ID_INPUT_JOYSTICK}="%c"
+
+SUBSYSTEM=="input", ACTION=="add", ATTRS{name}=="Nintendo Wii Remote IR", MODE="0666", ENV{ID_INPUT_JOYSTICK}="0"
+SUBSYSTEM=="input", ACTION=="add", ATTRS{name}=="Nintendo Wii Remote Accelerometer", ENV{ID_INPUT_JOYSTICK}="0"
+SUBSYSTEM=="input", ACTION=="add", ATTRS{name}=="Nintendo Wii Remote Motion Plus", ENV{ID_INPUT_JOYSTICK}="0"
+
+SUBSYSTEM=="input", ACTION=="add",    ATTRS{name}=="Nintendo Wii Remote Nunchuk", MODE="0666", ENV{ID_INPUT_JOYSTICK}="0"
+SUBSYSTEM=="input", ACTION=="remove", ATTRS{name}=="Nintendo Wii Remote Nunchuk",
+
+SUBSYSTEM=="input", ACTION=="add", KERNEL=="event*", ATTRS{name}=="Wii Gun", MODE="0666", ENV{ID_INPUT_GUN}="0", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0"
+SUBSYSTEM=="input", ACTION=="add", KERNEL=="event*", ATTRS{name}=="Wii Zapper", MODE="0666", ENV{ID_INPUT_GUN}="0", ENV{ID_INPUT_JOYSTICK}="0", ENV{ID_INPUT_MOUSE}="0"
+
+# XWOW
+ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="02e6"
+ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="02fe"
+ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="091e"
+
+# Steam Devices and Udev Project
+
+# 8Bitdo F30 P1
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo FC30 GamePad", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8Bitdo F30 P2
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo FC30 II", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8Bitdo N30
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo NES30 GamePad", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8Bitdo SF30
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo SFC30 GamePad", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8Bitdo SN30
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo SNES30 GamePad", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8Bitdo F30 Pro
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo FC30 Pro", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8Bitdo N30 Pro
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo NES30 Pro", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8Bitdo SF30 Pro
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo SF30 Pro", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8Bitdo SN30 Pro
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo SN30 Pro", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8BitDo SN30 Pro+; Bluetooth; USB
+SUBSYSTEM=="input", ATTRS{name}=="8BitDo SN30 Pro+", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo SF30 Pro   8BitDo SN30 Pro+", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8Bitdo F30 Arcade
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo Joy", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8Bitdo N30 Arcade
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo NES30 Arcade", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8Bitdo ZERO
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo Zero GamePad", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8Bitdo Retro-Bit xRB8-64
+SUBSYSTEM=="input", ATTRS{name}=="8Bitdo N64 GamePad", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8BitDo Pro 2; Bluetooth; USB
+SUBSYSTEM=="input", ATTRS{name}=="8BitDo Pro 2", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+SUBSYSTEM=="input", ATTR{id/vendor}=="2dc8", ATTR{id/product}=="6003", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# 8BitDo Pro 2 Wired; USB
+## X-Mode
+SUBSYSTEM=="usb", ATTR{idProduct}=="3106", ATTR{idVendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+## B-Mode
+SUBSYSTEM=="usb", ATTR{idProduct}=="3010", ATTR{idVendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+SUBSYSTEMS=="input", ATTRS{id/product}=="3010", ATTRS{id/vendor}=="2dc8", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# Betop PS4 Fun Controller
+KERNEL=="hidraw*", ATTRS{idVendor}=="11c0", ATTRS{idProduct}=="4001", MODE="0660", TAG+="uaccess"
+
+# Google Stadia Controller; Bluetooth; USB
+KERNEL=="hidraw*", KERNELS=="*18D1:9400*", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="9400", SUBSYSTEM=="hidraw", MODE="0660", TAG+="uaccess"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="9400", MODE="0660", TAG+="uaccess"
+
+# Google Stadia Controller Update
+# SDP protocol
+KERNEL=="hidraw*", ATTRS{idVendor}=="1fc9", MODE="0660", TAG+="uaccess"
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="1fc9", MODE="0660", TAG+="uaccess"
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="0d28", MODE="0660", TAG+="uaccess"
+# Flashloader
+KERNEL=="hidraw*", ATTRS{idVendor}=="15a2", MODE="0660", TAG+="uaccess"
+
+# Logitech F310 Gamepad; USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c216", MODE="0660", TAG+="uaccess"
+
+# Logitech F710 Wireless Gamepad; USB #EXPERIMENTAL
+KERNEL=="hidraw*", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c21f", MODE="0660", TAG+="uaccess"
+
+# Microsoft Xbox360 Controller; USB #EXPERIMENTAL
+SUBSYSTEM=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="028e", MODE="0660", TAG+="uaccess"
+SUBSYSTEMS=="input", ATTRS{name}=="Microsoft X-Box 360 pad", MODE="0660", TAG+="uaccess"
+
+# Microsoft Xbox 360 Wireless Receiver for Windows; USB
+SUBSYSTEM=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="0719", MODE="0660", TAG+="uaccess"
+SUBSYSTEMS=="input", ATTRS{name}=="Xbox 360 Wireless Receiver", MODE="0660", TAG+="uaccess"
+
+# Microsoft Xbox One S Controller; Bluetooth; USB #EXPERIMENTAL
+KERNEL=="hidraw*", KERNELS=="*045e:02ea*", MODE="0660", TAG+="uaccess"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="02ea", MODE="0660", TAG+="uaccess"
+
+# Grand access for some userspace tools, if connected via USB
+SUBSYSTEM=="usb", ATTR{idProduct}=="2009", ATTR{idVendor}=="057e", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# Nintendo GameCube Controller / Adapter; USB
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="0337", MODE="0660", TAG+="uaccess"
+
+# Nintendo Switch Joy-Con Charging Grip; USB
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="200e", MODE="0660", TAG+="uaccess"
+
+# Nintendo Switch Joy-Con (L); Bluetooth
+KERNEL=="hidraw*", KERNELS=="*057E:2006*", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="2006", MODE="0660", TAG+="uaccess"
+
+# Nintendo Switch Joy-Con (R); Bluetooth
+KERNEL=="hidraw*", KERNELS=="*057E:2007*", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="2007", MODE="0660", TAG+="uaccess"
+
+# NVIDIA Shield Portable (2013 - NVIDIA_Controller_v01.01 - In-Home Streaming only)
+KERNEL=="hidraw*", ATTRS{idVendor}=="0955", ATTRS{idProduct}=="7203", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_MOUSE}="", MODE="0660", TAG+="uaccess"
+
+# NVIDIA Shield Controller (2017 - NVIDIA_Controller_v01.04); Bluetooth
+KERNEL=="hidraw*", KERNELS=="*0955:7214*", MODE="0660", TAG+="uaccess"
+
+# NVIDIA Shield Controller (2015 - NVIDIA_Controller_v01.03); USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="0955", ATTRS{idProduct}=="7210", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_MOUSE}="", MODE="0660", TAG+="uaccess"
+
+# PDP Afterglow Deluxe+ Wired Controller; USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0188", MODE="0660", TAG+="uaccess"
+
+# PDP Wired Fight Pad Pro for Nintendo Switch; USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0185", MODE="0666", TAG+="uaccess"
+
+# Personal Communication Systems, Inc. Twin USB Gamepad; USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="0810", ATTRS{idProduct}=="e301", MODE="0660", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="Twin USB Gamepad*", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
+
+# Razer Raion PS4 Fightpad
+KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="1100", MODE="0660", TAG+="uaccess"
+
+# Sony PlayStation DualShock 3; Bluetooth; USB
+KERNEL=="hidraw*", KERNELS=="*054C:0268*", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="0268", MODE="0660", TAG+="uaccess"
+
+## Motion Sensors
+SUBSYSTEM=="input", KERNEL=="event*|input*", KERNELS=="*054C:0268*", TAG+="uaccess"
+
+# PlayStation VR; USB
+SUBSYSTEM=="usb", ATTR{idVendor}=="054c", ATTR{idProduct}=="09af", MODE="0660", TAG+="uaccess"
+
+# Valve USB devices
+SUBSYSTEM=="usb", ATTRS{idVendor}=="28de", MODE="0660", TAG+="uaccess"
+
+# Steam Controller udev write access
+KERNEL=="uinput", SUBSYSTEM=="misc", TAG+="uaccess", OPTIONS+="static_node=uinput"
+
+# Valve HID devices over USB hidraw
+KERNEL=="hidraw*", ATTRS{idVendor}=="28de", MODE="0660", TAG+="uaccess"
+
+# Valve HID devices over bluetooth hidraw
+KERNEL=="hidraw*", KERNELS=="*28DE:*", MODE="0660", TAG+="uaccess"
+
+# DualShock 3 over USB hidraw
+KERNEL=="hidraw*", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="0268", MODE="0660", TAG+="uaccess"
+
+# DualShock 3 over bluetooth hidraw
+KERNEL=="hidraw*", KERNELS=="*054C:0268*", MODE="0660", TAG+="uaccess"
+
+# DualShock 4 over USB hidraw
+KERNEL=="hidraw*", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="05c4", MODE="0660", TAG+="uaccess"
+
+# DualShock 4 wireless adapter over USB hidraw
+KERNEL=="hidraw*", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="0ba0", MODE="0660", TAG+="uaccess"
+
+# DualShock 4 Slim over USB hidraw
+KERNEL=="hidraw*", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="09cc", MODE="0660", TAG+="uaccess"
+
+# DualShock 4 over bluetooth hidraw
+KERNEL=="hidraw*", KERNELS=="*054C:05C4*", MODE="0660", TAG+="uaccess"
+
+# DualShock 4 Slim over bluetooth hidraw
+KERNEL=="hidraw*", KERNELS=="*054C:09CC*", MODE="0660", TAG+="uaccess"
+
+# PS5 DualSense controller over USB hidraw
+KERNEL=="hidraw*", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="0ce6", MODE="0660", TAG+="uaccess"
+
+# PS5 DualSense controller over bluetooth hidraw
+KERNEL=="hidraw*", KERNELS=="*054C:0CE6*", MODE="0660", TAG+="uaccess"
+
+# Nintendo Switch Pro Controller over USB hidraw
+KERNEL=="hidraw*", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="2009", MODE="0660", TAG+="uaccess"
+
+# Nintendo Switch Pro Controller over bluetooth hidraw
+KERNEL=="hidraw*", KERNELS=="*057E:2009*", MODE="0660", TAG+="uaccess"
+
+# Faceoff Wired Pro Controller for Nintendo Switch
+KERNEL=="hidraw*", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0180", MODE="0660", TAG+="uaccess"
+
+# PDP Wired Fight Pad Pro for Nintendo Switch
+KERNEL=="hidraw*", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0185", MODE="0660", TAG+="uaccess"
+
+# PowerA Wired Controller for Nintendo Switch
+KERNEL=="hidraw*", ATTRS{idVendor}=="20d6", ATTRS{idProduct}=="a711", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="20d6", ATTRS{idProduct}=="a713", MODE="0660", TAG+="uaccess"
+
+# PowerA Wireless Controller for Nintendo Switch we have to use
+# ATTRS{name} since VID/PID are reported as zeros. We use /bin/sh
+# instead of udevadm directly becuase we need to use '*' glob at the
+# end of "hidraw" name since we don't know the index it'd have.
+#
+KERNEL=="input*", ATTRS{name}=="Lic Pro Controller", RUN{program}+="/bin/sh -c 'udevadm test-builtin uaccess /sys/%p/../../hidraw/hidraw*'"
+
+# Afterglow Deluxe+ Wired Controller for Nintendo Switch
+KERNEL=="hidraw*", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0188", MODE="0660", TAG+="uaccess"
+
+# Nacon PS4 Revolution Pro Controller
+KERNEL=="hidraw*", ATTRS{idVendor}=="146b", ATTRS{idProduct}=="0d01", MODE="0660", TAG+="uaccess"
+
+# Razer Raiju PS4 Controller
+KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="1000", MODE="0660", TAG+="uaccess"
+
+# Razer Raiju 2 Tournament Edition
+KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="1007", MODE="0660", TAG+="uaccess"
+
+# Razer Panthera EVO Arcade Stick
+KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="1008", MODE="0660", TAG+="uaccess"
+
+# Razer Raiju PS4 Controller Tournament Edition over bluetooth hidraw
+KERNEL=="hidraw*", KERNELS=="*1532:100A*", MODE="0660", TAG+="uaccess"
+
+# Razer Raiju Ultimate over USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="1004", MODE="0660", TAG+="uaccess"
+
+# Razer Raiju Ultimate over PC Bluetooth
+KERNEL=="hidraw*", KERNELS=="*1532:1009*", MODE="0660", TAG+="uaccess"
+
+# Razer Panthera Arcade Stick
+KERNEL=="hidraw*", ATTRS{idVendor}=="1532", ATTRS{idProduct}=="0401", MODE="0660", TAG+="uaccess"
+
+# Mad Catz - Street Fighter V Arcade FightPad PRO
+KERNEL=="hidraw*", ATTRS{idVendor}=="0738", ATTRS{idProduct}=="8250", MODE="0660", TAG+="uaccess"
+
+# Mad Catz - Street Fighter V Arcade FightStick TE S+
+KERNEL=="hidraw*", ATTRS{idVendor}=="0738", ATTRS{idProduct}=="8384", MODE="0660", TAG+="uaccess"
+
+# Brooks Universal Fighting Board
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="0c30", MODE="0660", TAG+="uaccess"
+
+# EMiO Elite Controller for PS4
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="1cf6", MODE="0660", TAG+="uaccess"
+
+# ZeroPlus P4 (hitbox)
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="0ef6", MODE="0660", TAG+="uaccess"
+
+# HORI RAP4
+KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="008a", MODE="0660", TAG+="uaccess"
+
+# HORIPAD 4 FPS
+KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="0055", MODE="0660", TAG+="uaccess"
+
+# HORIPAD 4 FPS Plus
+KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="0066", MODE="0660", TAG+="uaccess"
+
+# HORIPAD for Nintendo Switch
+KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="00c1", MODE="0660", TAG+="uaccess"
+
+# HORIPAD mini 4
+KERNEL=="hidraw*", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="00ee", MODE="0660", TAG+="uaccess"
+
+# Armor Armor 3 Pad PS4
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="0e10", MODE="0660", TAG+="uaccess"
+
+# STRIKEPAD PS4 Grip Add-on
+KERNEL=="hidraw*", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="05c5", MODE="0660", TAG+="uaccess"
+
+# NVIDIA Shield Portable (2013 - NVIDIA_Controller_v01.01 - In-Home Streaming only)
+KERNEL=="hidraw*", ATTRS{idVendor}=="0955", ATTRS{idProduct}=="7203", MODE="0660", TAG+="uaccess", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_MOUSE}=""
+
+# NVIDIA Shield Controller (2015 - NVIDIA_Controller_v01.03 over USB hidraw)
+KERNEL=="hidraw*", ATTRS{idVendor}=="0955", ATTRS{idProduct}=="7210", MODE="0660", TAG+="uaccess", ENV{ID_INPUT_JOYSTICK}="1", ENV{ID_INPUT_MOUSE}=""
+
+# NVIDIA Shield Controller (2017 - NVIDIA_Controller_v01.04 over bluetooth hidraw)
+KERNEL=="hidraw*", KERNELS=="*0955:7214*", MODE="0660", TAG+="uaccess"
+
+# Astro C40
+KERNEL=="hidraw*", ATTRS{idVendor}=="9886", ATTRS{idProduct}=="0025", MODE="0660", TAG+="uaccess"
+
+# Thrustmaster eSwap Pro
+KERNEL=="hidraw*", ATTRS{idVendor}=="044f", ATTRS{idProduct}=="d00e", MODE="0660", TAG+="uaccess"
+
+# Zeroplus(ZP) appears to be a tech-provider for variouse other companies.
+# They all use the ZP ID. Because of this, they are grouped in this rule.
+
+# Armor PS4 Armor 3 Pad; USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="0e10", MODE="0660", TAG+="uaccess"
+
+# EMiO PS4 Elite Controller; USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="1cf6", MODE="0660", TAG+="uaccess"
+
+# Hit Box Arcade HIT BOX PS4/PC version; USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="0ef6", MODE="0660", TAG+="uaccess"
+
+# Nyko Xbox Controller; USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="8801", MODE="0660", TAG+="uaccess"
+
+# Unknown-Brand Xbox Controller; USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="8802", MODE="0660", TAG+="uaccess"
+
+# Unknown-Brand Xbox Controller; USB
+KERNEL=="hidraw*", ATTRS{idVendor}=="0c12", ATTRS{idProduct}=="8810", MODE="0660", TAG+="uaccess"
+
+# Steam VR - Valve Index
+
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="114d", ATTRS{idProduct}=="8a12", MODE="0660", TAG+="uaccess"
+
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="2c87", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="0306", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="0309", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="030a", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="030b", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="030c", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="030e", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="1043", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="1142", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="2000", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="2010", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="2011", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="2012", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="2021", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="2022", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="2050", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="2101", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="2102", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="2150", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="2300", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="2301", MODE="0660", TAG+="uaccess"
+
+SUBSYSTEM=="tty", ATTRS{idVendor}=="28de", ATTRS{idProduct}=="2102", MODE="0660", TAG+="uaccess"
+
+# HTC
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="2c87", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="0306", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="0309", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="030a", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="030b", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="030c", TAG+="uaccess"
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="030e", TAG+="uaccess"
+
+# HTC VIVE Cosmos; USB; https://gitlab.com/fabis_cafe/game-devices-udev/-/issues/1/ #EXPERIMENTAL
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0bb4", ATTRS{idProduct}=="0313", TAG+="uaccess"
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="0315", MODE="0660", TAG+="uaccess"
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="0323", MODE="0660", TAG+="uaccess"
+
+

@@ -124,7 +124,7 @@ Thus in this example: `Vendor ID` is `8087`:`Product ID` is `0025`.
 
 You will need root privlages for this.
 
-Type type the following command and replace `Vendor ID` and `Product ID` respectively.:
+Open a terminal and type the following command and replace `Vendor ID` and `Product ID` respectively.:
 
 `sudo echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="Vendor ID", ATTRS{idProduct}=="Product ID", TAG+="uaccess"' | sudo tee -a /etc/udev/rules.d/52-dolphin.rules > /dev/null`
 

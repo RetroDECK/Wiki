@@ -11,6 +11,10 @@ Nintendo Controllers are controllers made by the company Nintendo. Motion Contro
 #### Steam Input support
 Yes
 
+
+#### Linux Kernel Support
+Yes, since 5.16 - `hid-nintendo`
+
 ## What is the Official - Switch Pro RetroDECK profile called?
 
 - Switch Pro: `RetroDECK: Switch Pro`
@@ -81,7 +85,17 @@ This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 
 <img src="../../wiki_images/controllers/joy-con.png" width="250">
 
-WIP
+#### Steam Input support
+Yes
+
+#### Linux Kernel Support
+Yes, since 5.16 - `hid-nintendo`
+
+## What is the Official - Switch Pro RetroDECK profile called?
+
+- Switch Pro: `RetroDECK: Switch Joycons`
+
+Note that this will be released at a later date and not part of 0.8b
 
 ## Wii U GamePad
 
@@ -91,6 +105,22 @@ WIP
 WIP
 
 ## GameCube Controller Adapter for Wii U
+
+#### Steam Input support
+No, counted as Generic
+
+#### Linux Kernel Support
+Acts as a normal usb hub
+
+### How to connect?
+
+In most cases you just need to connect it via USB and put the device in PC mode on the switch.
+
+Sometimes the udev rule is missing and you will need to add it:
+
+1. Open a terminal window
+2. Type  `sudo echo 'SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="0337", MODE="0666"' | sudo tee -a /etc/udev/rules.d/51-gcadapter.rules > /dev/null`
+3. Type  `sudo udevadm control --reload-rules`
 
 <img src="../../wiki_images/controllers/wiiu-gcpad-adapter.png" width="250">
 

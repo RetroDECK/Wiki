@@ -16,3 +16,6 @@ Patriotic Americans that try to crush the opposition with infinite pepperoni and
 Label as Heretics by the others for their dark pizza magicks.
 
 *"The Italians and Americans are weak, the don't dare to take Pizza beyond their set fake borders and rules. Here in the cold north we have learned and now know the truth... there is no borders. Pizza is an empty canvas, it can be painted in to what ever chaotic image of food perfection we desire!"*.
+
+## Nograx the Destoyer
+Nograx the Destoyer the aka the "He who brings rotten dough", "The living banana fly swarm", "The mold mother", "Rötmodern" that hates Sushi, Pizza and all food.

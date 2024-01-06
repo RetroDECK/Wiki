@@ -11,12 +11,18 @@ PlayStation Controllers are controllers made by the company Sony. Motion Control
 #### Steam Input support
 Yes
 
+#### Linux Kernel Support
+Yes, 2.17  `hid-sony`
+
 ## PlayStation 4 - Dualshock 4
 
 <img src="../../wiki_images/controllers/ps4-dualshock4.png" width="250">
 
 #### Steam Input support
 Yes
+
+#### Linux Kernel Support
+Yes, 3.15  `hid-sony`, replaced in 6.2 by `hid-playstation`
 
 ## PlayStation 5 - DualSense
 
@@ -25,12 +31,18 @@ Yes
 #### Steam Input support
 Yes
 
+#### Linux Kernel Support
+Yes, since 5.14 - `hid-playstation`
+
 ## PlayStation 5 - DualSense Edge
 
 <img src="../../wiki_images/controllers/ps5-dualsense-edge.png" width="250">
 
 #### Steam Input support
 Yes
+
+#### Linux Kernel Support
+Yes, since 6.2 - `hid-playstation`
 
 ## What are the Official profiles called?
 

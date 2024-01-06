@@ -19,7 +19,7 @@ No
 #### Linux Kernel Support
 Yes, since 3.1 - `hid-wiimote`
 
-#### Emulator
+#### Emulator usecase
 Dolphin
 
 #### On third party controllers

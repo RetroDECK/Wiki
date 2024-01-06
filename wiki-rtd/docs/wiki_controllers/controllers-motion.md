@@ -36,13 +36,13 @@ Sources:
 
 #### Hardware Prerequisites for Dolphin:
 
-<img src="../../wiki_images/devices/wii-bar.png" width="250">
+<img src="../../wiki_images/devices/wii-bar.png" width="150">
 
-You will need to have a Wii Sensor Bar alternative.
+- A Wii Sensor Bar alternative that can be wireless or wired.
 
-You need to have at least one Bluetooth dongle or built-in Bluetooth adapter:
+<img src="../../wiki_images/devices/bluetooth-dongle.png" width="80">
 
-- If you have a dongle make sure it has Linux support that has a a good signal reach.
+- At least one Linux compatible Bluetooth dongle or built-in Bluetooth adapter.
 
 ##### Mod: Wii bluetooth adapter to USB
 

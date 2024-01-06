@@ -34,7 +34,6 @@ Many 3rd party controllers do not have native Linux support this is being worked
 
 #### Hardware Prerequisites for Dolphin:
 
-
 <img src="../../wiki_images/devices/wii-bar.png" width="250">
 
 You will need to have a Wii Sensor Bar alternative.
@@ -43,6 +42,13 @@ You need to have at least one Bluetooth dongle or built-in Bluetooth adapter:
 
 - If you have a dongle make sure it has Linux support that has a a good signal reach.
 
+##### Mod: Wii bluetooth adapter to USB
+
+For those people that really likes to do hardware mods it is possible to rip out the bluetooth adapter from a Wii console and wire it as an USB bluetooth adapter.
+
+Read more here:
+
+[How to wire a Wii's Bluetooth Module to a PC USB Port](https://forums.dolphin-emu.org/Thread-how-to-wire-a-wii-s-bluetooth-module-to-a-pc-usb-port)
 
 #### Steam Deck Tips:
 

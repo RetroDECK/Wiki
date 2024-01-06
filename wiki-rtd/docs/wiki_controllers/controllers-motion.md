@@ -19,6 +19,17 @@ No
 #### Emulator
 Dolphin
 
+#### On third party controllers
+
+Many 3rd party controllers do not have native Linux support this is being worked on a higher level under both bluez and xwiimote.
+
+[xwiimote github](https://github.com/xwiimote/xwiimote)
+
+[xwiimote: issue 66](https://github.com/xwiimote/xwiimote/issues/66)
+
+[bluez: issue 94](https://github.com/bluez/bluez/issues/94)
+
+
 ---
 
 #### Hardware Prerequisites for Dolphin:
@@ -69,17 +80,7 @@ WIP
 
 #### How-to configure Dolphin - Method 2: Bluetooth Passthrough
 
-This works with both 3rd party and official Wiimotes. It is a harder method with some downsides. Many 3rd party controllers do not have native Linux support this is being worked on a higher level in both
-
-Sources on 3rd party wiimotes:
-
-[xwiimote github](https://github.com/xwiimote/xwiimote)
-
-[xwiimote: issue 66](https://github.com/xwiimote/xwiimote/issues/66)
-
-[bluez: issue 94](https://github.com/bluez/bluez/issues/94)
-
-
+This works with both 3rd party and official Wiimotes. It is a harder method with some downsides.
 
 **🛑 Warning 🛑**<br>
 

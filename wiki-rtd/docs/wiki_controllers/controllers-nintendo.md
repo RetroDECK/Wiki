@@ -107,7 +107,7 @@ WIP
 ## GameCube Controller Adapter for Wii U
 
 #### Steam Input support
-No, counted as Generic Controllers
+Yes and no the connected controllers are counted as Generic Controllers
 
 #### Linux Kernel Support
 Acts as a normal usb hub

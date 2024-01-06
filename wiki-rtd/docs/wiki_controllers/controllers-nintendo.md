@@ -91,11 +91,11 @@ Yes
 #### Linux Kernel Support
 Yes, since 5.16 - `hid-nintendo`
 
-## What is the Official - Switch Pro RetroDECK profile called?
+### What is the Official - Switch Pro RetroDECK profile called?
 
 - Switch Pro: `RetroDECK: Switch Joycons`
 
-Note that this will be released at a later date and not part of 0.8b
+Note that this will be released at a later date and work has not started on it yet.
 
 ## Wii U GamePad
 
@@ -124,4 +124,8 @@ Sometimes the udev rule is missing and you will need to add it:
 
 <img src="../../wiki_images/controllers/wiiu-gcpad-adapter.png" width="250">
 
-WIP
+### What is the Official - Switch Pro RetroDECK profile called?
+
+- Switch Pro: `RetroDECK: Generic GameCube`
+
+Note that this will be released at a later date and work has not started on it yet.

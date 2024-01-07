@@ -26,15 +26,21 @@ Dolphin
 
 Many 3rd party controllers do not have native Linux support this is being worked on a higher level.
 
-Sources:
+**Sources:**
 
 [xwiimote github](https://github.com/xwiimote/xwiimote)
 
+[xwiimote-ng github](https://github.com/dev-0x7C6/xwiimote-ng) - Fork of xwiimote
+
+**Related Issues:**
+
 [xwiimote: issue 66](https://github.com/xwiimote/xwiimote/issues/66)
+
+[xwiimote: issue 73](https://github.com/xwiimote/xwiimote/issues/73)
 
 [bluez: issue 94](https://github.com/bluez/bluez/issues/94)
 
-[xwiimote-ng github](https://github.com/dev-0x7C6/xwiimote-ng)
+
 
 ---
 

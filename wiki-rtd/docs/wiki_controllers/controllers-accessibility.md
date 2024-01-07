@@ -14,13 +14,19 @@ You can also sometimes expand to more inputs as well by connecting other control
 
 > When everybody plays, we all win.
 
+#### Steam Input Support
+Unknown, our guess is it will show up as a Xbox Wireless Controller
+
+#### Linux Kernel Support
+Yes, since 3.17 - `hid-microsoft`
+Kernel Driver: [xpad](https://github.com/torvalds/linux/blob/master/drivers/input/joystick/xpad.c)
+
 ### The xone Project
 [The xone Project](https://github.com/medusalix/xone) <br>
 Has firmwares, udev rules and drivers might be needed to get it to run on your distribution to get the wireless connections working.
 
 ### How to configure?
-The Linux Kernel has had XAC support since version 3.17.<br>
-As the XAC outputs standard xinput we don't see any reason why this should not work with RetroDECK.
+As the XAC should be interpreted we Xbox Wireless Controller the RetroDECK team don't see any reason why this should not work with RetroDECK right out of the box.
 
 None on the RetroDECK Team owns a XAC, but we would love to hear from your experiences using it with RetroDECK. <br>
 

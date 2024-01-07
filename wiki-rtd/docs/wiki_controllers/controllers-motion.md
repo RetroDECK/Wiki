@@ -81,7 +81,7 @@ It can also be accessed from some controllers radial menu systems on for example
 ---
 
 
-#### How-to configure Dolphin - Method 1: Bluetooth Connection
+#### How-to configure Dolphin - Method: Bluetooth Connection
 
 This only works with the Official Wiimote controller and is the easier method.
 
@@ -90,7 +90,7 @@ WIP
 ---
 
 
-#### How-to configure Dolphin - Method 2: Bluetooth Passthrough
+#### How-to configure Dolphin - Method: Bluetooth Passthrough
 
 This works with both 3rd party and official Wiimotes. It is a harder method with some downsides.
 

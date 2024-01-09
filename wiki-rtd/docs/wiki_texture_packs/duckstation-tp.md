@@ -8,8 +8,9 @@ Some texture packs could made for a specific version or region of a game. Make s
 `TITLEID` is different for every game.
 
 ## Enable Custom Textures
-* Open up Duckstation inside `RetroDECK Configurator` by pressing `Open Emulator` - `Duckstation`.
-* Go to `Settings` -> `Advanced` -> `Tweaks/Hacks` <br>
+
+- Open up Duckstation inside `RetroDECK Configurator` by pressing `Open Emulator` - `Duckstation`.
+- Go to `Settings` -> `Advanced` -> `Tweaks/Hacks` <br>
 
 `Enable VRAM Write Texture Replacement` and set it to `On`.<br>
 

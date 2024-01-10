@@ -18,7 +18,6 @@ Yes, it is an NFC reader USB device.
 RPCS3
 
 
-
 #### How-to configure the Toypad
 
 ##### Add the udev rule for the Toypad

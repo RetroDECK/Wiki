@@ -25,7 +25,7 @@ Dolphin
 #### On third party Wiimotes
 
 Many 3rd party Wiimotes do not have native Linux support this is being worked on a higher level.
-If you own or want to try them in RetroDECK and Dolphin you should know that:
+If you own or want to try them in RetroDECK and you should know that:
 
 - Sometimes they will work with Bluetooth Passthrough mode in Dolphin (read more on this page).
 - Sometimes they will be remember the paring to the Bluetooth adapter while other times they will not and needs to be synced for every game.

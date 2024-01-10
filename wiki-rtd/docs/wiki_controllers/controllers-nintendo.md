@@ -133,10 +133,10 @@ But the efforts to add it to the kernel seams to have been stalled.
 ## GameCube Controller Adapter for Wii U
 
 #### Steam Input support
-Yes and no the connected controllers are counted as Generic Controllers
+Yes, but the connected controllers shows up as Generic Controllers
 
 #### Linux Kernel Support
-Acts as a normal usb hub
+Yes, acts a normal USB-hub.
 
 ### How to connect?
 
@@ -155,4 +155,4 @@ Sometimes the udev rule is missing and you will need to add it:
 
 - Switch Pro: `RetroDECK: Generic GameCube`
 
-Note that this will be released at a later date and work has not started on it yet.
+NOTE: That this will be released at a later date and work has not started on it yet.

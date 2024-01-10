@@ -415,6 +415,11 @@ Here we showcase the licenses of projects / functions we might use in part, got 
 
 [Licenses](https://github.com/rsn8887/capsimg/blob/master/LICENCE.txt)
 
+### BoilR
+
+[Licenses](https://github.com/PhilipK/BoilR/blob/main/LICENSE-APACHE.txt)
+[Licenses](https://github.com/PhilipK/BoilR/blob/main/LICENSE-MIT.txt)
+
 ### Pixelitos
 
 [Licenses](https://github.com/ItzSelenux/pixelitos-icon-theme/blob/main/LICENSE)

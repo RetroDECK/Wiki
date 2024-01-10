@@ -60,7 +60,7 @@ If you own or want to try them in RetroDECK and you should know that:
 
 ##### Mod: Wii bluetooth adapter to USB
 
-For those people that really likes to do hardware mods it is possible to rip out the bluetooth adapter from a Wii console and wire it as an USB bluetooth adapter.
+For those people that really likes to do hardware mods it is possible to buy the bluetooth adapter spare part from a Wii console and wire it as an USB bluetooth adapter.
 
 Read more here:
 

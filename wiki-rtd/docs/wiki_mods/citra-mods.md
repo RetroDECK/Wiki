@@ -11,10 +11,7 @@ The `~/retrodeck/mods/citra/` represents the `/load/mods/` folder in Citra.
 
 **NOTE:** On the Steam Deck this could be easier to do in `Desktop Mode`.
 
-
 There are two ways of adding mods into Citra
-
-
 
 ### From Citra
 1. Extract any mod from compressed `.zip` or any other format to folders.

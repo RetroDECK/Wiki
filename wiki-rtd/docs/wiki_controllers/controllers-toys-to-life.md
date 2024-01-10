@@ -12,7 +12,7 @@ Toys-to-life Controllers is a broad category that encompasses the vast majority 
 No
 
 #### Linux Kernel Support
-It is an NFC device usb device.
+Yes, it is an NFC reader USB device.
 
 #### Emulator usecase
 RPCS3

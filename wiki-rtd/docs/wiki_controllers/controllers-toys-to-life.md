@@ -8,22 +8,42 @@ Toys-to-life Controllers is a broad category that encompasses the vast majority 
 
 <img src="../../wiki_images/controllers/lego-toypad.png" width="250">
 
-#### Installing the Toypad
+#### Steam Input Support
+No
 
-This controller needs to set a system's udev rule, just execute this in the terminal:
+#### Linux Kernel Support
+It is an NFC device usb device.
+
+#### Emulator usecase
+RPCS3
+
+
+
+#### How-to configure the Toypad
+
+##### Add the udev rule for the Toypad
+
+You will need root privlages for this.
+
+Open a Terminal Window and execute  the following command to add the udev rule:
+
 ```bash
 echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0241", MODE="0666"' | sudo tee -a /etc/udev/rules.d/71-toypad.rules > /dev/null
 sudo udevadm control --reload-rules
 ```
 
-#### What emulator support the Toypad?
-At the moment of writing the best way to play LEGO Dimensions with the LEGO Toypad is to use the PS3 version and the RPCS3 emulator.
-Just connect the ToyPad to a USB port before starting the game.
+It should now work in RPCS3 for Lego Dimensions
 
-**Special Notes on the Steam Deck**
+##### Some tips
 
-The ToyPad must be connected to an powered USB-hub such as the a USB port of the Steam Dock. <br>
-Directly connecting the ToyPad to the Steam Deck it's not working as the Steam Deck can not give the ToyPad enought power output.
+Before you launch Lego Dimensions from RPCS3 you need to keep the following things in mind:
+
+- The ToyPad must be connected to the USB Port Before launching the game in RetroDECK and RPCS3
+- The ToyPad must be connected to a USB Port that gives it enough power to run.
+
+Additional Steam Deck information:
+
+- The Steam Deck's USB-C port does not transmit enough power for the ToyPad, you will need use dock or use a powered USB-C hub.
 
 ## Skylanders
 

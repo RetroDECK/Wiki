@@ -31,11 +31,11 @@ echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0241", MODE=
 sudo udevadm control --reload-rules
 ```
 
-It should now work in RPCS3 for Lego Dimensions
+It should now work in RetroDECK for Lego Dimensions in the RPCS3 emulator.
 
 ##### Some tips
 
-Before you launch Lego Dimensions from RPCS3 you need to keep the following things in mind:
+Before you launch Lego Dimensions from RetroDECK you need to keep the following things in mind:
 
 - The ToyPad must be connected to the USB Port Before launching the game in RetroDECK and RPCS3
 - The ToyPad must be connected to a USB Port that gives it enough power to run.

@@ -59,6 +59,9 @@ The Game Devices udev project is an effort to combine all game devices into one 
 
 The Batocera project has also combined a list of other controllers that might be missing from the two projects above.
 
+## RetroDECK and Udev
+
+Normally RetroDECK has the permissions to access all connected devices via --devices=all
 
 ## Quick tips on udev installation
 

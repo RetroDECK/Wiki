@@ -319,15 +319,16 @@ We have a unique partnership where inside the ES-DE code is a section just for R
 [Flaptak](https://docs.flatpak.org/en/latest/introduction.html) is like sandboxed application, with its own read only filesystem that is different from your computer's filesystem. That's why flatpak is safer than installing something directly in your filesystem as everything it needs is contained within the flatpak.
 
 
-#### How is a flatpak made?
+### How is a flatpak made?
 A flatpak is generated from a manifest file. A software called  flatpak-builder reads the  manifest, then starts downloading dependencies and starts building the software. After the build process is done it generates the software in a .flatpak file. This file can then be hosted on Flathub or distributed on the web.
 
 
-#### How does the RetroDECK flatpak manifest look like?
-You can find out manifest here:  https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml
+### What does the RetroDECK flatpak manifest look like?
+You can find it here: [RetroDECK Flatpak Manifest](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml)
 
-<br>
+### Why does RetroDECK need the --devices=all permission?
 
+The users can connect a plethora of various input devices for games that is all interpreted differently from Webcameras, Touchdevices, Controllers, Pointers, Lightguns and every other strange thing they want to play with. Immutable systems also sometimes resets user made input udev rules if they are not shipped by default.
 
 ## Emulation & Games
 

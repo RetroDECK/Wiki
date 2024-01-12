@@ -22,8 +22,7 @@ To get the latest updates first:
 
 ## New Features Configurator / RetroDECK Framework
 
-- Turning the Entire Configurator into a Godot Application with a controller navigable interface.
-- Turning the first setup into a godot application or part of the configurator.
+- Turning the Entire configurator and first setup into a Godot Application with a controller usable interface.
 - More BIOS Checks
 - More Compression formats
 - Steam Flatpak Support

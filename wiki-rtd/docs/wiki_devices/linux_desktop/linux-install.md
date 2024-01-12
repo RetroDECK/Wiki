@@ -21,16 +21,14 @@ Follow the official flatpak guides on how to install it for your distribution:<b
 
 - Run the following command `flatpak install Flathub net.retrodeck.retrodeck`
 
-
 ## First Run - Quick Start
 
 1. Start RetroDECK for the first time
 2. Choose where RetroDECK should create the `roms` folders `Internal`, `SDCard` or `Custom`.
-3. Put the BIOS inside `~/retrodeck/bios/` for more information read
-4. Put the ROMS inside `~/retrodeck/roms/` folder.<
-
-5. Add RetroDECK to Steam [How-to - Add RetroDECK to Steam](../../wiki_howto_faq/add-to-steam.md)
-6. Make sure you have enabled controller support in Steam [How-to - Enable Controllers in Steam ](../../wiki_howto_faq/enable-controllers-steam.md)
+3. Put the BIOS inside `~/retrodeck/bios/` folder [How to: Manage BIOS and Firmware](../../wiki_howto_faq/bios-firmware.md)
+4. Put the ROMS inside `~/retrodeck/roms/` folder.
+5. Add RetroDECK to Steam [How to: Add RetroDECK to Steam](../../wiki_howto_faq/add-to-steam.md)
+6. Make sure you have enabled controller support in Steam [How to: Enable Controllers in Steam ](../../wiki_howto_faq/enable-controllers-steam.md)
 7. Connect your controller to your Desktop.
 8. Launch RetroDECK from Steam and enjoy
 

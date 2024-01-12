@@ -22,8 +22,8 @@ To get the latest updates first:
 
 ## New Features Configurator / RetroDECK Framework
 
-- Reset ES-DE
-- Reset ES-DE Inputs
+- Turning the Entire Configurator into a Godot Application with a controller navigable interface.
+- Turning the first setup into a godot application or part of the configurator.
 - More BIOS Checks
 - More Compression formats
 - Steam Flatpak Support
@@ -32,8 +32,7 @@ To get the latest updates first:
 - Cloud Sync
 - USB Transfer / Backups
 - Multiuser mode
-- Adding RetroDECK games as Steam Entries
-- Configurator GODOT version
+- Adding RetroDECK games as Steam Entries and hopefully scraping them from SteamGridDB.
 - Disable/Enable - Quick Resume: Auto Save / Auto Load
 
 ## Wiki

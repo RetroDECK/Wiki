@@ -59,14 +59,31 @@ What follows is a list of hotkeys:
 | Save State              |  `SELECT + R1`          |   `CTRL + S`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                        |            |
 | Rewind                  |  `SELECT + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation`                     |            |
 | Fast forward            |  `SELECT + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                  |            |
-| Swap Screens    |  `SELECT + Left Joystick - Up`     |   `CTRL + TAB`        |     `Citra` `MelonDS`  `Cemu`           |
-| Escape                  |  `SELECT + Left Joystick - Down`          |   `ESC`               |     `PPSSPP` `Computer emulators` `Solarus` `IkemenGO` |
-| Enter                  |  `SELECT + Left Joystick - Right`          |   `Enter`               |     `Computer emulators` `OpenBOR` |
+| Global Radial Menu      |  `SELECT + Left Joystick`     |         |       Opens the Radial Menu      |
+
+### Global Radial Menu
+
+The Global Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+
+Radial Button |	Keyboard Command|  Emulator Support     |    Comment |
+| :---                    | :---:               | :---:                 |       :---:          |
+| Space          |   `Space`          |   `PC-Systems`  |   |
+| Escape          |   `Escape`          |  `PPSSPP` `PC-Systems`  |  On PPPSPP it opens the Menu |
+| Enter          |   `Enter`          |  `OpenBOR` `PC-Systems`  |   |
+| F1          |   `F1`          |  `PC-Systems`  |   |
+| F5          |   `F5`          |  `PC-Systems`  |   |
+| F10          |   `F10`          |  `PC-Systems`  |   |
+| Wii Sync Button          |   `ALT + W`          |  `Dolphin/Primehack`  |   |
+| Swap Dual-Screens          |   `CTRL + TAB`          |  `RetroArch` `Citra` `MelonDS` `Cemu`|   |
+| Change Dual-Screen Layout          |   `CTRL + L`          |  `Citra` |   |
+| Widescreen / Aspect Ratio        |   `CTRL + W`          |  `Dolphin/Primehack` `Duckstation` `PCSX2`	 |   |
+| Fullscreen Toggle      |   `CTRL + ENTER`          |  `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`          |        |
+| Change Disc / Next Disc        |   `CTRL + D`          |  `RetroArch` `Dolphin/Primehack` `Duckstation`|   |
 
 
 ### Right Joystick as Mouse
 
-By holding `SELECT` and moving the right joystick you can use it as a mouse for various systems that uses mouse input.
+By holding `SELECT` and moving the `Right Joystick` you can use it as a mouse for various systems that uses mouse input.
 
 | Function                 | Button / Combination| Command      | Comment     |
 | :---                    | :---:               | :---:                 |       :---:          |

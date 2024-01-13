@@ -28,7 +28,8 @@ The layout versioning do not always update with each minor patch. <br>
 Generally only the major versions comes with profile changes.
 
 ### The hotkey button
-The `HK` or `hotkey button` on the Steam Deck is `L4` or `R4` or `Select` depending on what is closest for the button combo you are trying to press, all trigger the same functions.
+The global hotkeys are activated by pressing and holding the `HKB` aka the `HotKey Button` and pressing the corresponing button togheter for the command you want to do.
+On the Steam Deck can be either `L4`, `R4` and `Select` depending on what is closest for the button combo you are trying to press.
 
 **Example:**
 
@@ -49,21 +50,21 @@ What follows is a list of hotkeys:
 
 | Function                 | Button / Combination| Command      | Emulator Support     |    Comment |
 | :---                    | :---:               | :---:                 |       :---:          |  :---:     |
-| Pause / Resume          |   `HK + A`          |   `CTRL + P`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
-| Take Screenshot         |   `HK + B`          |   `CTRL + X`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`           |            |
-| Fullscreen Toggle      |   `HK + X`          |   `CTRL + ENTER`      | `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
-| Open Menu               |  `HK + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu`                        |
-| Quit Emulator           |  `HK + Start`       |   `CTRL + Q`          |`RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`                                   |            | |
-| Previous State Slot     |  `HK + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
-| Next State Slot         |  `HK + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|
-| Increase Emulation Speed     |  `HK + D-Pad Up`  |   `CTRL + 1`          | `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
-| Decrease Emulation Speed         |  `HK + D-Pad Down` |   `CTRL + 2`          | `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`|                       |            |
-| Load State              |  `HK + L1`          |   `CTRL + A`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                          |            |
-| Save State              |  `HK + R1`          |   `CTRL + S`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                        |            |
-| Rewind                  |  `HK + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation`                     |            |
-| Fast forward            |  `HK + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                  |            |
-| Swap Screens         |  `HK + L3`          |   `CTRL + TAB`        |     `Citra` `MelonDS`  `Cemu`           |            |
-| Escape                  |  `HK + R3`          |   `ESC`               |     `PPSSPP`                 |            |
+| Pause / Resume          |   `HKB + A`          |   `CTRL + P`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
+| Take Screenshot         |   `HKB + B`          |   `CTRL + X`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`           |            |
+| Fullscreen Toggle      |   `HKB + X`          |   `CTRL + ENTER`      | `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
+| Open Menu               |  `HKB + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu`                        |
+| Quit Emulator           |  `HKB + Start`       |   `CTRL + Q`          |`RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`                                   |            | |
+| Previous State Slot     |  `HKB + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
+| Next State Slot         |  `HKB + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|
+| Increase Emulation Speed     |  `HKB + D-Pad Up`  |   `CTRL + 1`          | `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
+| Decrease Emulation Speed         |  `HKB + D-Pad Down` |   `CTRL + 2`          | `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`|                       |            |
+| Load State              |  `HKB + L1`          |   `CTRL + A`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                          |            |
+| Save State              |  `HKB + R1`          |   `CTRL + S`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                        |            |
+| Rewind                  |  `HKB + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation`                     |            |
+| Fast forward            |  `HKB + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                  |            |
+| Swap Screens         |  `HKB + L3`          |   `CTRL + TAB`        |     `Citra` `MelonDS`  `Cemu`           |            |
+| Escape                  |  `HKB + R3`          |   `ESC`               |     `PPSSPP`                 |            |
 
 
 
@@ -87,7 +88,7 @@ This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 ## RetroDECK Layout - Radial Menu System
 
 #### Is there a quick way to go back to the top of the radial menu system?
-Yes, just press  on the `HK` trigger buttons: `L4` or `R4` or `Select`
+Yes, just press  on the `HKB` trigger buttons: `L4` or `R4` or `Select`
 
 ### Radial Menus
 What follows is a breakdown of the Radial System that you access on the `Left Touchpad`.

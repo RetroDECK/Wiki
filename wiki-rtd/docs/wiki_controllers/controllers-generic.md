@@ -71,7 +71,7 @@ Radial Button |	Keyboard Command|  Emulator Support     |    Comment |
 | Fullscreen Toggle      |   `CTRL + ENTER`          |  `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`          |        |
 | Change Disc / Next Disc        |   `CTRL + D`          |  `RetroArch` `Dolphin/Primehack` `Duckstation`|   |
 
-### Right Joystick as Mouse
+### Right Joystick as Temporary Mouse
 
 By holding `SELECT` and moving the `Right Joystick` you can use it as a mouse for various systems that uses mouse input.
 

@@ -378,6 +378,11 @@ The long term answer is yes, but there are several issues that need to be addres
 
 <br>
 
+### How do I switch to side B in Famicom Games in RetroArch?
+It depends on the core you have seleected, but normally it should be on `R2` but it could also be on `R1`. `L1` `L2`.
+
+<br>
+
 ## Emulation on the Steam Deck
 
 
@@ -401,7 +406,7 @@ Press the [...] button on the Steam Deck, go into the Power menu and see if the 
 
 <br>
 
-### Fast forwarding is slow on the Steam Deck!
+### Fast forwarding is slow on the Steam Deck!f
 Same as above: Check the Power menu Framerate Limit.
 
 <br>

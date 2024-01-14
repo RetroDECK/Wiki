@@ -54,6 +54,8 @@ For more details read here:<br>
 ### Method 1: Game shortcuts .desktop files (recommended)
 
 This method can be used for all types rips/dumps both directories and .iso files.
+On devices with a dedicated `Game Mode` such as the the Steam Deck it is recommended  to do this in `Desktop Mode`.
+
 
 1. Open RPCS3 via the Configurator
 2. Click File -> Add Game -> Browse to game you want to add.

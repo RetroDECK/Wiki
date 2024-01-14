@@ -47,8 +47,9 @@ There are two ways to install the firmware:
 
 There are two methods of adding the games
 
-Read more here:<br>
-https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3
+For more details read here:<br>
+
+[ES-DE RPCS3 Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3)
 
 ### Method 1: Game shortcuts .desktop files (recommended)
 

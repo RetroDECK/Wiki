@@ -37,39 +37,38 @@ What follows is a list of hotkeys:
 
 | Function                 | Button / Combination|  Command      | Emulator Support     |    Comment |
 | :---                    | :---:               | :---:                 |       :---:          |  :---:     |
-| Pause / Resume          |   `SELECT + A`          |   `CTRL + P`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
-| Take Screenshot         |   `SELECT + B`          |   `CTRL + X`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`           |            |
-| Fullscreen Toggle      |   `SELECT + X`          |   `CTRL + ENTER`      | `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
-| Open Menu               |  `SELECT + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu`                        |
-| Quit Emulator           |  `SELECT + Start`       |   `CTRL + Q`          |`RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`                                   |            | |
-| Previous State Slot     |  `SELECT + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
-| Next State Slot         |  `SELECT + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|
-| Increase Emulation Speed     |  `SELECT + D-Pad Up`  |   `CTRL + 1`          | `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
-| Decrease Emulation Speed         |  `SELECT + D-Pad Down` |   `CTRL + 2`          | `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`|                       |            |
-| Load State              |  `SELECT + L1`          |   `CTRL + A`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                          |            |
-| Save State              |  `SELECT + R1`          |   `CTRL + S`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                        |            |
-| Rewind                  |  `SELECT + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation`                     |            |
-| Fast forward            |  `SELECT + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                  |            |
-| Global Radial Menu      |  `SELECT + Left Joystick`     |         |       Opens the Radial Menu      |
+| Pause / Resume      |   `SELECT + A`          |   `CTRL + P`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`    |            |
+| Fullscreen Toggle      |   `SELECT + X`          |   `CTRL + ENTER`      | `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |   |
+| Open Menu               |  `SELECT + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu`                                        |            |   |
+| Quit Emulator           |  `SELECT + Start`       |   `CTRL + Q`          |`RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`          |            |   |
+| Previous State Slot     |  `SELECT + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`                          |            |   |
+| Next State Slot         |  `SELECT + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`                          |            |   |
+| Increase Emulation Speed     |  `SELECT + D-Pad Up`  |   `CTRL + 1`          | `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                           |            |   |
+| Decrease Emulation Speed         |  `SELECT + D-Pad Down` |   `CTRL + 2`          | `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                      |            |   |
+| Load State              |  `SELECT + L1`          |   `CTRL + A`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                  |            |   |
+| Save State              |  `SELECT + R1`          |   `CTRL + S`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                  |            |   |
+| Rewind                  |  `SELECT + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation`                                                      |            |   |
+| Fast forward            |  `SELECT + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                   |            |   |
+| Global Radial Menu      |  `SELECT + Left Joystick`    |                                                                                                   |            |       Opens the Radial Menu  |
 
 ### Global Radial Menu
 
 The Global Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
 
-Radial Button |	Keyboard Command|  Emulator Support     |    Comment |
-| :---                    | :---:               | :---:                 |       :---:          |
-| Space          |   `Space`          |   `PC-Systems`  |   |
-| Escape          |   `Escape`          |  `PPSSPP` `PC-Systems`  |  On PPPSPP it opens the Menu |
-| Enter          |   `Enter`          |  `OpenBOR` `PC-Systems`  |   |
-| F1          |   `F1`          |  `PC-Systems`  |   |
-| F5          |   `F5`          |  `PC-Systems`  |   |
-| F10          |   `F10`          |  `PC-Systems`  |   |
-| Wii Sync Button          |   `ALT + W`          |  `Dolphin/Primehack`  |   |
-| Swap Dual-Screens          |   `CTRL + TAB`          |  `RetroArch` `Citra` `MelonDS` `Cemu`|   |
-| Change Dual-Screen Layout          |   `CTRL + L`          |  `Citra` |   |
-| Widescreen / Aspect Ratio        |   `CTRL + W`          |  `Dolphin/Primehack` `Duckstation` `PCSX2`	 |   |
-| Fullscreen Toggle      |   `CTRL + ENTER`          |  `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`          |        |
-| Change Disc / Next Disc        |   `CTRL + D`          |  `RetroArch` `Dolphin/Primehack` `Duckstation`|   |
+Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| :---                    | :---:               | :---:                 |       :---:          |       :---:          |
+| Space          |   `Space`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="20">  | |
+| Escape          |   `Escape`          |  `PPSSPP` `PC-Systems`  |<img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="20">    | On PPPSPP it opens the Menu  |
+| Enter          |   `Enter`          |  `OpenBOR` `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="20">   | |
+| F1          |   `F1`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="20">   |   |
+| F5          |   `F5`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="20">   |   |
+| F10          |   `F10`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="20">   |  |
+| Wii Sync Button          |   `ALT + W`          |  `Dolphin/Primehack`  | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="20">    |  |
+| Swap Dual-Screens          |   `CTRL + TAB`          |  `RetroArch` `Citra` `MelonDS` `Cemu`| <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="20">    |  |
+| Change Dual-Screen Layout          |   `CTRL + L`          |  `Citra` | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="20">    |  |
+| Widescreen / Aspect Ratio        |   `CTRL + W`          |  `Dolphin/Primehack` `Duckstation` `PCSX2`	 | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="20">    |  |
+| Fullscreen Toggle      |   `CTRL + ENTER`          |  `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`          |  <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="20">        |   |
+| Change Disc / Next Disc        |   `CTRL + D`          |  `RetroArch` `Dolphin/Primehack` `Duckstation`| <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="20">    |   |
 
 ### Right Joystick as Temporary Mouse
 

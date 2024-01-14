@@ -61,7 +61,9 @@ This method can be used for all types rips/dumps both directories and .iso files
 5. This will create a shortcut to the game on your Desktop.
 6. Move that shortcut into the roms/ps3 folder.
 7. Navigate to the game in the ES-DE interface and press `SELECT` or `F1` on it, open the `Edit Metadata` menu.
-8. Change the emulator to `RPCS3 Shortcut`
+8. Go to `Alternative Emulator` and change the emulator to `RPCS3 Shortcut`.
+
+NOTE: in a upcoming update this will be default so steps 7 and 8 will go away.
 
 ### Method 2: Directories as .ps3 files
 This method can only be used directory type game dumps.

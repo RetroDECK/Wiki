@@ -18,6 +18,7 @@ The Standard type has the same layout and amount of inputs as all modern control
 - Two clickable joysticks: R3 and L3
 
 Bonus:
+
 - A home/xbox/playstation button
 
 #### Steam Input support

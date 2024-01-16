@@ -254,6 +254,29 @@ Used for various titles on the Xbox 360.
 Xenia
 
 
+#### Related Projects
+
+[Open Kinect](https://openkinect.org/wiki/Main_Page)
+
+[Github - Open Kinect: libfreenect1](https://github.com/OpenKinect/libfreenect)
+
+#### Udev Rules
+```
+# ATTR{product}=="Xbox NUI Motor"
+SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02b0", MODE="0666"
+# ATTR{product}=="Xbox NUI Audio"
+SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02ad", MODE="0666"
+# ATTR{product}=="Xbox NUI Camera"
+SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02ae", MODE="0666"
+
+# Kinect for Windows
+SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02c2", MODE="0666"
+SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02be", MODE="0666"
+SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02bf", MODE="0666"
+```
+
+
+
 #### How to configure / emulate
 
 WIP
@@ -265,6 +288,21 @@ WIP
 <img src="../../wiki_images/controllers/xbox-kinect-one.png" width="250">
 
 Used for various titles on the Xbox One.
+
+#### Related Projects
+
+[Open Kinect](https://openkinect.org/wiki/Main_Page)
+
+[Github - Open Kinect: libfreenect2](https://github.com/OpenKinect/libfreenect2)
+
+#### Udev Rules
+
+```
+# ATTR{product}=="Kinect2"
+SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02c4", MODE="0666"
+SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02d8", MODE="0666"
+SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02d9", MODE="0666"
+```
 
 #### How to configure / emulate
 

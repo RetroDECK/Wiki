@@ -11,10 +11,10 @@ It is used by a lot of  `Genric` third party `PC controllers` and `Xbox Clone Co
 
 | Button Placement  | Button |Name |
 | :---              | :---:  |:---: |
-| North             |  <img src="../../wiki_icons/kenneynl-input-pixel16×/tile_0007.png" width="30">   |Y |
-| West              |  <img src="../../wiki_icons/kenneynl-input-pixel16×/tile_0006.png" width="30">    |X |
-| East              |  <img src="../../wiki_icons/kenneynl-input-pixel16×/tile_0005.png" width="30">  |B |
-| South             |  <img src="../../wiki_icons/kenneynl-input-pixel16×/tile_0004.png" width="30">   |A |
+| North             |  <img src="../../wiki_icons/binding_icons/RD-button-y.png" width="30">   |Y |
+| West              |  <img src="../../wiki_icons/binding_icons/RD-button-x.png" width="30">    |X |
+| East              |  <img src="../../wiki_icons/binding_icons/RD-button-b.png" width="30">  |B |
+| South             |  <img src="../../wiki_icons/binding_icons/RD-button-a.png" width="30">   |A |
 
 
 **Example:**<br>
@@ -28,10 +28,10 @@ It  could also be used by other `Genric` third party `Nintendo Clone Controllers
 
 | Button Placement  | Button |Name |
 | :---              | :---:  |:---: |
-| North             |  <img src="../../wiki_icons/kenneynl-input-pixel16×/tile_0006.png" width="30">   |X |
-| West              |  <img src="../../wiki_icons/kenneynl-input-pixel16×/tile_0007.png" width="30">   |Y |
-| East              |  <img src="../../wiki_icons/kenneynl-input-pixel16×/tile_0004.png" width="30">   |A |
-| South             |  <img src="../../wiki_icons/kenneynl-input-pixel16×/tile_0005.png" width="30">   |B |
+| North             |  <img src="../../wiki_icons/binding_icons/RD-button-x.png" width="30">   |X |
+| West              |  <img src="../../wiki_icons/binding_icons/RD-button-y.png" width="30">   |Y |
+| East              |  <img src="../../wiki_icons/binding_icons/RD-button-a.png" width="30">   |A |
+| South             |  <img src="../../wiki_icons/binding_icons/RD-button-b.png" width="30">   |B |
 
 
 **Example:**<br>

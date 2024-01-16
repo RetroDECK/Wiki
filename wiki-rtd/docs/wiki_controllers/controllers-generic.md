@@ -9,7 +9,16 @@ Generic Controllers is a broad category that encompasses the vast majority of th
 
 ## Generic - Standard
 
-This guide assumes that they have a similar layout as an Xbox Controller aka a Standard layout.
+The Standard type has the same layout and amount of inputs as all modern controllers aka the Standard Default.
+
+- A dpad.
+- Four top buttons: R1, R2, L1, L2
+- Four face buttons: A, B, X, Y
+- Start and Select
+- Two clickable joysticks: R3 and L3
+
+Bonus:
+- A home/xbox/playstation button
 
 #### Steam Input support
 Yes

@@ -20,13 +20,17 @@ Yes
 
 <img src="../../wiki_images/controllers/xbox-wireless.png" width="250">
 
+## Xbox One/S/X - Xbox Elite Wireless Controller Series 1/2
+
+<img src="../../wiki_images/controllers/xbox-elite-wireless-series.png" width="250">
+
 #### Steam Input support
 Yes
 
 ## What are the Official profiles called?
 
 - Xbox 360: `RetroDECK: Xbox 360`
-- Xbox Wireless Controller: `RetroDECK: Xbox Wireless>`
+- Xbox Wireless Controller: `RetroDECK: Xbox Wireless`
 
 ### What is the Current Version Number of the profile?
 

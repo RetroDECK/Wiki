@@ -253,14 +253,14 @@ Used for various titles on the Xbox 360.
 #### Emulator
 Xenia
 
-
-#### Related Projects
+#### Related Projects for Kinect usage in Linux
 
 [Open Kinect](https://openkinect.org/wiki/Main_Page)
 
 [Github - Open Kinect: libfreenect1](https://github.com/OpenKinect/libfreenect)
 
-#### Udev Rules
+#### Udev Rules for Kinect V1
+
 ```
 # ATTR{product}=="Xbox NUI Motor"
 SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02b0", MODE="0666"
@@ -275,11 +275,12 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02be", MODE="0666"
 SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02bf", MODE="0666"
 ```
 
-
-
 #### How to configure / emulate
 
-WIP
+Not supported in Xenia
+
+See issue:<br>
+[Xenia Issue: 1241](https://github.com/xenia-project/xenia/issues/1241)
 
 ---
 
@@ -289,13 +290,13 @@ WIP
 
 Used for various titles on the Xbox One.
 
-#### Related Projects
+#### Related Projects for Kinect usage in Linux
 
 [Open Kinect](https://openkinect.org/wiki/Main_Page)
 
 [Github - Open Kinect: libfreenect2](https://github.com/OpenKinect/libfreenect2)
 
-#### Udev Rules
+#### Udev Rules for Kinect V2
 
 ```
 # ATTR{product}=="Kinect2"
@@ -306,7 +307,7 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02d9", MODE="0666"
 
 #### How to configure / emulate
 
----
+Nothing
 
 ## Other Motion Controllers
 

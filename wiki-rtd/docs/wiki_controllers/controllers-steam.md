@@ -13,6 +13,25 @@ Steam Input have support for the following controllers:
 
 The first Steam Controller is nicknamed Gordon and also goes by that name in all configurations.
 
+#### Linux Kernel Support
+Yes, since 4.18 - `hid-steam`
+
+#### Udev rules
+
+```
+# Valve USB devices
+SUBSYSTEM=="usb", ATTRS{idVendor}=="28de", MODE="0666"
+
+# Steam Controller udev write access
+KERNEL=="uinput", SUBSYSTEM=="misc", MODE="0660", GROUP="input", OPTIONS+="static_node=uinput"
+
+# Valve HID devices over USB hidraw
+KERNEL=="hidraw*", ATTRS{idVendor}=="28de", MODE="0666"
+
+# Valve HID devices over bluetooth hidraw
+KERNEL=="hidraw*", KERNELS=="*28DE:*", MODE="0666"
+```
+
 #### Steam Input support
 Yes
 

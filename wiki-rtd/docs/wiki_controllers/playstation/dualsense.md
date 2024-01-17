@@ -8,7 +8,7 @@ Yes
 ### Linux Kernel Support
 Yes, since 5.14 - `hid-playstation`
 
-## What are the Official profiles called?
+## What is the Official profiles called?
 
 - DualSense: `RetroDECK: DualSense`
 

@@ -8,7 +8,7 @@ Yes
 ### Linux Kernel Support
 Yes, 3.15  `hid-sony`, replaced in 6.2 by `hid-playstation`
 
-## What are the Official profiles called?
+## What is the Official profiles called?
 
 - DualSense: `RetroDECK: DualShock 4`
 

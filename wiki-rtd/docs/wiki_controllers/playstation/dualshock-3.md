@@ -8,7 +8,7 @@ Yes
 ### Linux Kernel Support
 Yes, 2.17  `hid-sony`
 
-## What are the Official profiles called?
+## What is the Official profiles called?
 
 - Dualshock 3 / Sixaxis: `RetroDECK: Dualshock 3`
 

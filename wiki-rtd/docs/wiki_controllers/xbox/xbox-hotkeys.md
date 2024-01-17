@@ -1,40 +1,9 @@
-# Xbox Controllers
-
-**Note these inputs are part of the upcoming 0.8b update.**
-
-Xbox Controllers are controllers made by the company Microsoft. Motion Controllers made by Microsoft are listed under the Motion Controllers entry on the wiki.
-
-#### The xone Project
-[The xone Project](https://github.com/medusalix/xone) <br>
-Has firmwares, udev rules and drivers might be needed to get it to run on your distribution to get the wireless connections working.<br>
-This should not needed for the Steam Deck, SteamOS and most gaming focus Linux distroes has it included.
-
-## Xbox 360 Controller
-
-<img src="../../wiki_images/controllers/xbox-360.png" width="250">
-
-#### Steam Input support
-Yes
-
-## Xbox One/S/X - Xbox Wireless Controller
-
-<img src="../../wiki_images/controllers/xbox-wireless.png" width="250">
-
-## Xbox One/S/X - Xbox Elite Wireless Controller Series 1/2
-
-<img src="../../wiki_images/controllers/xbox-elite-wireless-series.png" width="250">
-
-#### Steam Input support
-Yes, but not fully. It registers as a Xbox Wireless Controller but the backbuttons can not be bound.
+# Xbox: RetroDECK Hotkeys
 
 ## What are the Official profiles called?
 
 - Xbox 360 Controller: `RetroDECK: Xbox 360`
 - Xbox Wireless Controller/Elite Series: `RetroDECK: Xbox Wireless`
-
-### What is the Current Version Number of the profile?
-
-WIP
 
 ## Global Hotkeys: Xbox Button Combos
 

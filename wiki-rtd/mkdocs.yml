@@ -170,7 +170,10 @@ nav:
     - Playstation 5 - DualSense Edge: wiki_controllers/playstation/dualsense-edge.md
 
   - Controllers - Xbox (WIP):
-    - Xbox - Controllers (WIP): wiki_controllers/xbox/controllers-xbox.md
+    - Xbox - RetroDECK Hotkeys: wiki_controllers/xbox/xbox-hotkeys.md
+    - Xbox 360 - Controller: wiki_controllers/xbox/xbox-360.md
+    - Xbox One/S/X - Xbox Wireless Controller: wiki_controllers/xbox/xbox-wireless.md
+    - Xbox S/X - Xbox Elite Series 2: wiki_controllers/xbox/xbox-wireless-elite.md
 
   - Controllers - Steam/Valve (WIP):
     - Steam Deck - Controller: wiki_controllers/steam/controllers-steamdeck.md

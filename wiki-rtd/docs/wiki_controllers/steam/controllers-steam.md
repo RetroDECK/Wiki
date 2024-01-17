@@ -39,10 +39,6 @@ Yes
 
 - Steam Controller - Gordon: `RetroDECK: Steam Controller - Gordon`
 
-### What is the Current Version Number of the profile?
-
-v.1b
-
 ### The hotkey button
 The global hotkeys are activated by pressing and holding the `HKB` aka the `HotKey Button` and pressing the corresponing button togheter for the command you want to do.
 For the Steam Controller Gordon the `HotKey Button` is both `SELECT` and `L4`, you can press either depending on what you feel is more confortable.

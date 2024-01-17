@@ -1,6 +1,6 @@
 ## Xbox One/S/X - Xbox Wireless Controller
 
-<img src="../../wiki_images/controllers/xbox-wireless.png" width="250">
+<img src=../../../wiki_images/controllers/xbox-wireless.png" width="250">
 
 #### Steam Input support
 Yes

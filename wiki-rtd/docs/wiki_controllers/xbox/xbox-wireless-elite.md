@@ -1,6 +1,6 @@
 # Xbox One/S/X - Xbox Elite Wireless Controller Series 1/2
 
-<img src="../../wiki_images/controllers/xbox-elite-wireless-series.png" width="250">
+<img src="../../../wiki_images/controllers/xbox-elite-wireless-series.png" width="250">
 
 #### Steam Input support
 Yes, but not fully. It registers as a Xbox Wireless Controller but the backbuttons can not be bound else i.

@@ -10,7 +10,6 @@ NOTE: These are upcomming in the 0.8b update
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |
 | Switch Pro Controller      |   `RetroDECK: Switch Pro`      |   `v.1b`          | [Nintedo Controllers](../wiki_controllers/controllers-nintendo.md)   |   `Nintendo Switch`       |  |
 
-
 ## Sony Controllers
 
 | Controller         | Profile Name |  Version      | Link     |   Original System |   Comment |

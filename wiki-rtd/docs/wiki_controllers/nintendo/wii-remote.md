@@ -37,7 +37,7 @@ If you own or want to try them in RetroDECK and you should know that:
 
 
 
-### RetroDECK Sync Wiimote Hotkey
+### RetroDECK: Sync Wiimote Button Hotkey
 
 RetorDECK has a built-in hotkey for pressing the Dolphins `Sync Wiimote` button `Alt + W` if you find yourself disconnected.<br>
 It can also be accessed from some controllers radial menu systems on for example the Steam Deck.

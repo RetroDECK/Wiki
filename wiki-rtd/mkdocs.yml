@@ -152,24 +152,28 @@ nav:
     - RetroDECK with Steam Input: wiki_controllers/about/about-steam-input.md
     - RetroDECK and Udev Rules: wiki_controllers/about/about-udev.md
 
-  - Controllers - Nintendo:
+  - Controllers - Nintendo (WIP):
     - Switch - Pro Controller: wiki_controllers/nintendo/switch-pro.md
     - Switch - Joy-Cons: wiki_controllers/nintendo/joycon.md
     - Wii U - Gamepad: wiki_controllers/nintendo/wiiu-gamepad.md
     - Wii - Wii Remote (Wiimote): wiki_controllers/nintendo/wii-remote.md
     - Gamecube - PC / WiiU Adapter: wiki_controllers/nintendo/gamecube-adapter.md
 
-  - Controllers - Playstation :
-    - Playstation - Controllers (WIP): wiki_controllers/playstation/controllers-playstation.md
+  - Controllers - Playstation (WIP):
+    - Playstation - RetroDECK Hotkeys: wiki_controllers/playstation/playstation-hotkeys.md
+    - Playstation 3 - DualShock 3: wiki_controllers/playstation/dualshock-3.md
+    - Playstation 4 - DualShock 4: wiki_controllers/playstation/dualshock-4.md
+    - Playstation 5 - DualSense: wiki_controllers/playstation/dualsense.md
+    - Playstation 5 - DualSense Edge: wiki_controllers/playstation/dualsense-edge.md
 
-  - Controllers - Xbox:
+  - Controllers - Xbox (WIP):
     - Xbox - Controllers (WIP): wiki_controllers/xbox/controllers-xbox.md
 
-  - Controllers - Steam/Valve:
+  - Controllers - Steam/Valve (WIP):
     - Steam Deck - Controller: wiki_controllers/steam/controllers-steamdeck.md
     - Steam - Steam Controller (WIP): wiki_controllers/steam/controllers-steam.md
 
-  - Controllers - WIP:
+  - Controllers - (WIP):
     - Accessibility - Controllers (WIP): wiki_controllers/controllers-accessibility.md
     - Arcade - Controllers (WIP): wiki_controllers/controllers-arcade.md
     - Flight - Controllers (WIP): wiki_controllers/controllers-flight.md

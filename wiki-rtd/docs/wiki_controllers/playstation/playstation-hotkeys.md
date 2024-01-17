@@ -1,58 +1,10 @@
-# PlayStation Controllers
-
-PlayStation Controllers are controllers made by the company Sony. Motion Controllers made by Sony are listed under the Motion Controllers entry on the wiki.
-
-**Note these inputs are part of the upcoming 0.8b update.**
-
-## PlayStation 3 - Dualshock 3 / Sixaxis
-
-<img src="../../wiki_images/controllers/ps3-dualshock3.png" width="250">
-
-#### Steam Input support
-Yes
-
-#### Linux Kernel Support
-Yes, 2.17  `hid-sony`
-
-## PlayStation 4 - Dualshock 4
-
-<img src="../../wiki_images/controllers/ps4-dualshock4.png" width="250">
-
-#### Steam Input support
-Yes
-
-#### Linux Kernel Support
-Yes, 3.15  `hid-sony`, replaced in 6.2 by `hid-playstation`
-
-## PlayStation 5 - DualSense
-
-<img src="../../wiki_images/controllers/ps5-dualsense.png" width="250">
-
-#### Steam Input support
-Yes
-
-#### Linux Kernel Support
-Yes, since 5.14 - `hid-playstation`
-
-## PlayStation 5 - DualSense Edge
-
-<img src="../../wiki_images/controllers/ps5-dualsense-edge.png" width="250">
-
-#### Steam Input support
-Yes
-
-#### Linux Kernel Support
-Yes, since 6.2 - `hid-playstation`
+# Playstation: RetroDECK Hotkeys
 
 ## What are the Official profiles called?
 
 - Dualshock 3 / Sixaxis: `RetroDECK: Dualshock 3`
 - Dualshock 4: `RetroDECK: Dualshock 4`
 - DualSense: `RetroDECK: DualSense`
-
-### What is the Current Version Number of the profiles?
-
-WIP
 
 ## Global Hotkeys: PlayStation Button Combos
 

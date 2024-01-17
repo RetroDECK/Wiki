@@ -7,7 +7,7 @@ Nintendo Controllers are controllers made by the company Nintendo. <br>
 
 ## Switch Pro
 
-<img src="../../wiki_images/controllers/switch-pro.png" width="250">
+<img src="../../../wiki_images/controllers/switch-pro.png" width="250">
 
 Official Controller for the Nintendo Switch
 

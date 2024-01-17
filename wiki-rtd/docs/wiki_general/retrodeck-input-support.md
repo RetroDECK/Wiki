@@ -1,7 +1,8 @@
-# What are the current versions of the diffrent Steam Input Profiles?
+# RetroDECK Supported Steam Input Controllers
 
-Here is a list of all the current versions of the Steam Input profiles.
-WIP
+Here is a list of all the current versions of the Steam Input profiles that RetroDECK Ship so far.
+
+NOTE: These are upcomming in the 0.8b update
 
 ## Nintendo Controllers
 

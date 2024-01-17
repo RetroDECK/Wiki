@@ -50,11 +50,35 @@ nav:
     - What is included in RetroDECK?: wiki_general/what-is-included.md
     - Supported Devices: wiki_general/supported-devices.md
     - The RetroDECK Beta: wiki_general/beta-period.md
+    - FAQ ❔:  wiki_howto_faq/faq.md
 
   - RetroDECK Configurator 🛠️:
     - Configurator Features: wiki_general/configurator.md
 
-  - FAQ ❔:  wiki_howto_faq/faq.md
+  - Bugs & Issues 🐜:
+    - Reporting: wiki_bugs/report-bugs.md
+    - Known Issues: wiki_bugs/known-issues.md
+
+  - About RetroDECK 📖:
+    - The Team & Credits: wiki_about/team-credits.md
+    - Story & Philosophy: wiki_about/story-philosophy.md
+    - Visions & Goals: wiki_about/visions-and-goals.md
+    - Boot Logos: wiki_about/boot-logos.md
+    - Donations & Licenses 🎁: wiki_about/donations-licenses.md
+
+  - Community & Helping Out ❤️:
+    - Discord: wiki_community/discord.md
+    - Lemmy/Reddit: wiki_community/lemmy-reddit.md
+    - How to Contribute to RetroDECK?: wiki_community/contibute-rd.md
+    - How to help out with testing?: wiki_community/testing-rd.md
+
+  - Development 🖥️:
+    - Current Version: wiki_rd_versions/version_0.7b/0.7.5b.md
+    - Version History (Patchnotes): wiki_rd_versions/version-history.md
+    - What are you working on?: wiki_development/what-are-you-working.on.md
+    - Folders and Filepaths: wiki_development/folders-filepaths.md
+    - CLI Guide: wiki_development/cli-guide.md
+    - Development Notes: wiki_development/general-development.md
 
   - How-to's 💬:
     - Start using RetroDECK: wiki_howto_faq/retrodeck-start.md
@@ -80,6 +104,8 @@ nav:
     - ES-DE User Guide: wiki_emulationStation_de/esde-guide.md
     - ES-DE Themes: wiki_emulationStation_de/esde-themes.md
     - ES-DE Folders and Files (WIP): wiki_emulationStation_de/esde-folders-files.md
+
+
 
   - Emulator Guides 📙:
     - RPCS3: wiki_emulator_guides/rpcs3-guide.md
@@ -118,31 +144,7 @@ nav:
     - Texture Packs - RetroArch Mesen: wiki_texture_packs/retroarch-mesen-tp.md
     - Texture Packs - RetroArch Mupen64Plus: wiki_texture_packs/retroarch-mupen64plus-tp.md
 
-  - Community & Helping Out ❤️:
-    - Discord: wiki_community/discord.md
-    - Lemmy/Reddit: wiki_community/lemmy-reddit.md
-    - How to Contribute to RetroDECK?: wiki_community/contibute-rd.md
-    - How to help out with testing?: wiki_community/testing-rd.md
 
-  - Bugs & Issues 🐜:
-    - Reporting: wiki_bugs/report-bugs.md
-    - Known Issues: wiki_bugs/known-issues.md
-
-  - Donations & Licenses 🎁: wiki_about/donations-licenses.md
-
-  - Development 🖥️:
-    - Current Version: wiki_rd_versions/version_0.7b/0.7.5b.md
-    - Version History (Patchnotes): wiki_rd_versions/version-history.md
-    - What are you working on?: wiki_development/what-are-you-working.on.md
-    - Folders and Filepaths: wiki_development/folders-filepaths.md
-    - CLI Guide: wiki_development/cli-guide.md
-    - Development Notes: wiki_development/general-development.md
-
-  - About RetroDECK 📖:
-    - The Team & Credits: wiki_about/team-credits.md
-    - Story & Philosophy: wiki_about/story-philosophy.md
-    - Visions & Goals: wiki_about/visions-and-goals.md
-    - Boot Logos: wiki_about/boot-logos.md
 
   - About Controllers 🎮:
     - Different Button Prompts in Games: wiki_controllers/about/diffrent-game-inputs.md

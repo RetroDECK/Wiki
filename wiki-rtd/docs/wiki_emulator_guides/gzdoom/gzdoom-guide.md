@@ -1,6 +1,6 @@
 # Guide: GZDoom
 
-<img src="../../wiki_images/logos/gzdoom-logo.png" width="150">
+<img src="../../../wiki_images/logos/gzdoom-logo.png" width="150">
 
 WIP
 

@@ -20,7 +20,7 @@ Yes, since 5.16 - `hid-nintendo`
 
 ### What is the Official - Switch Pro RetroDECK profile called?
 
-- Switch Pro: `RetroDECK: Switch Pro`
+- Switch Pro Controller: `RetroDECK: Switch Pro`
 
 #### What is the Current Version Number of the profile?
 

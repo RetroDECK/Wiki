@@ -37,13 +37,10 @@ If you own or want to try them in RetroDECK and you should know that:
 
 
 
-### Mod: Wii bluetooth adapter to USB
+### RetroDECK Sync Wiimote Hotkey
 
-For those people that really likes to do hardware mods it is possible to buy the bluetooth adapter spare part from a Wii console and wire it as an USB bluetooth adapter.
-
-Read more here:
-
-[How to wire a Wii's Bluetooth Module to a PC USB Port](https://forums.dolphin-emu.org/Thread-how-to-wire-a-wii-s-bluetooth-module-to-a-pc-usb-port)
+RetorDECK has a built-in hotkey for pressing the Dolphins `Sync Wiimote` button `Alt + W` if you find yourself disconnected.<br>
+It can also be accessed from some controllers radial menu systems on for example the Steam Deck.
 
 ### Steam Deck Tips:
 
@@ -61,25 +58,27 @@ The recommended method of playing is docked connected to a monitor/tv and to hav
     - Try to launch a game from `Desktop Mode` directly in Dolphin by clicking on a game in the Dolphin interface.
     - If the paring works, the Wiimotes connects and the game controls fine with the Wiimotes in `Desktop Mode` it will as intended in `Game Mode` when launched from RetroDECK.
 
+## Dolphin and Wiimotes
 
-#### RetroDECK Sync Wiimote Hotkey
+### Hardware Prerequisites for Dolphin:
 
-RetorDECK has a built-in hotkey for pressing the Dolphins `Sync Wiimote` button `Alt + W` if you find yourself disconnected.<br>
-It can also be accessed from some controllers radial menu systems on for example the Steam Deck.
-
----
-
-## Dolphin
-
-#### Hardware Prerequisites for Dolphin:
-
-<img src="../../wiki_images/devices/wii-bar.png" width="150">
+<img src="../../../wiki_images/devices/wii-bar.png" width="150">
 
 - A Wii Sensor Bar alternative that can be wireless or wired.
 
-<img src="../../wiki_images/devices/bluetooth-dongle.png" width="80">
+<img src="../../../wiki_images/devices/bluetooth-dongle.png" width="80">
 
 - At least one Linux compatible Bluetooth dongle or built-in Bluetooth adapter.
+
+
+#### Mod: Wii bluetooth adapter to USB
+
+For those people that really likes to do hardware mods it is possible to buy the bluetooth adapter spare part from a Wii console and wire it as an USB bluetooth adapter for the best compability.
+
+Read more here:
+
+[How to wire a Wii's Bluetooth Module to a PC USB Port](https://forums.dolphin-emu.org/Thread-how-to-wire-a-wii-s-bluetooth-module-to-a-pc-usb-port)
+
 
 ### How-to configure Dolphin - Method: Bluetooth Connection
 
@@ -97,7 +96,8 @@ This works with both 3rd party and official Wiimotes. It is a harder method with
 **🛑 Warning 🛑**<br>
 
 This method will make the Bluetooth adapters unusable for other devices while playing Wii Games and not other devices can connect to it except Wiimotes, that means all other devices will disconnect.
-It could be good to have a second input method as backup like a wireless keyboard dongle connected.
+
+It could be good to have a second input method connected as backup like a wireless keyboard with a dongle or a controller with a dongle/cable.
 
 
 Source: [Dolphin Wiki: Bluetooth_Passthrough](https://wiki.dolphin-emu.org/index.php?title=Bluetooth_Passthrough)
@@ -139,7 +139,7 @@ from the example above the result should look like this:
 
 Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `Controller Settings`
 
-<img src="../../wiki_images/emulators/dolphin/dolphin-bluetooth-pass.png" width="450">
+<img src="../../../wiki_images/emulators/dolphin/dolphin-bluetooth-pass.png" width="450">
 
 Change Bluetooth type:
 
@@ -147,7 +147,7 @@ Change Bluetooth type:
 
 Enable the following checkboxes:
 
-<img src="../../wiki_images/emulators/dolphin/dolphin-connect-scan.png" width="450">
+<img src="../../../wiki_images/emulators/dolphin/dolphin-connect-scan.png" width="450">
 
 - `Connect Wii Remotes for Emulated Controllers`
 - `Continous Scanning`

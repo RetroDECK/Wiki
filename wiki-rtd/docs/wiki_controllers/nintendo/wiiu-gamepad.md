@@ -13,9 +13,13 @@ No
 ### Ongoing projects
 A list of projects and drivers that try to make the Wii U controller work on Linux.
 
+#### libdrc
+
 [libdrc](https://github.com/rolandoislas/libdrc)
 
 There has been efforts of adding by the libdrc team of add their `hid-wiiu-drc` to the Linux Kernel. <br>
+
+#### Linux WiiU
 
 [linux-wiiu](https://gitlab.com/linux-wiiu/linux-wiiu)
 

@@ -7,12 +7,21 @@
 
 ## Welcome to the RetroDECK wiki!
 
-**Do you want to help to contribute to the wiki?**<br>
+**🏗️ This wiki is currently under construction 🏗️**<br>
+Some articles are marked with WIP (Work in Progress).
+
+### Going to start using RetroDECK?
+
+- [What is RetroDECK?](wiki_general/what-is-retrodeck.md)
+- [What is included in RetroDECK?](wiki_general/what-is-included.md)
+- [Supported Devices](wiki_general/supported-devices/)
+- [Getting Started](wiki_howto_faq/retrodeck-start/)
+
+### Do you want to help to contribute to the wiki?
+
 Join the Discord and post in `💙-i-want-to-help` that you want to help out.
 You will then get access to the `🖋-wiki-maintainers`channel.
 
-**🏗️ This wiki is currently under construction 🏗️**<br>
-Some articles are marked with WIP (Work in Progress).
 
 ### The RetroDECK community
 [Discord](https://discord.gg/Dz3szYsP8g)<br/>

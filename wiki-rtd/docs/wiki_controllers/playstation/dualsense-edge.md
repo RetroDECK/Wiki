@@ -8,7 +8,7 @@ Yes
 ### Linux Kernel Support
 Yes, since 6.2 - `hid-playstation`
 
-## What is the Official profiles called?
+## What is the Official RetroDECK - Steam Input Profile called?
 
 - DualSense: `RetroDECK: DualSense`
 

@@ -10,6 +10,6 @@ Yes
 ### Linux Kernel Support
 Yes, since 5.16 - `hid-nintendo`
 
-## What is the Official profiles called?
+## What is the Official RetroDECK - Steam Input Profile called?
 
 - Switch Pro Controller: `RetroDECK: Switch Pro`

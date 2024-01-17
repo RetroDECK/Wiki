@@ -1,4 +1,4 @@
-# PlayStation 3 - Dualshock 3 / Sixaxis
+# PlayStation 3 - DualShock 3 / Sixaxis
 
 <img src="../../../wiki_images/controllers/ps3-dualshock3.png" width="250">
 
@@ -8,9 +8,9 @@ Yes
 ### Linux Kernel Support
 Yes, 2.17  `hid-sony`
 
-## What is the Official profiles called?
+## What is the Official RetroDECK - Steam Input Profile called?
 
-- Dualshock 3 / Sixaxis: `RetroDECK: Dualshock 3`
+- DualShock 3 / Sixaxis: `RetroDECK: Dualshock 3`
 
 ### RetroDECK Hotkeys
 

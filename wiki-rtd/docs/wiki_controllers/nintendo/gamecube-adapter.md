@@ -19,7 +19,7 @@ Sometimes the udev rule is missing and you will need to add it:
 3. Type  `sudo udevadm control --reload-rules`
 4. Sometimes you will need to take out and reinsert the USB connector after you have reloaded the rules.
 
-### What is the Official - Switch Pro RetroDECK profile called?
+## What is the Official RetroDECK - Steam Input Profile called?
 
 - Generic Gamecube: `RetroDECK: Generic GameCube`
 

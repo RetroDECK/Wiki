@@ -1,4 +1,4 @@
-# PlayStation 4 - Dualshock 4
+# PlayStation 4 - DualShock 4
 
 <img src="../../../wiki_images/controllers/ps4-dualshock4.png" width="250">
 
@@ -8,9 +8,9 @@ Yes
 ### Linux Kernel Support
 Yes, 3.15  `hid-sony`, replaced in 6.2 by `hid-playstation`
 
-## What is the Official profiles called?
+## What is the Official RetroDECK - Steam Input Profile called?
 
-- DualSense: `RetroDECK: DualShock 4`
+- DualShock 4: `RetroDECK: DualShock 4`
 
 ### RetroDECK Hotkeys
 

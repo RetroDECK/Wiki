@@ -1,9 +1,16 @@
 # Playstation: RetroDECK Hotkeys
 
+## What Controllers are supported?
+
+- Dualshock 3 / Sixaxis
+- DualShock 4 V1/V2
+- DualSense
+- DualSense Edge
+
 ## What are the Official profiles called?
 
-- Dualshock 3 / Sixaxis: `RetroDECK: Dualshock 3`
-- Dualshock 4: `RetroDECK: Dualshock 4`
+- DualShock 3 / Sixaxis: `RetroDECK: Dualshock 3`
+- DualShock 4: `RetroDECK: Dualshock 4`
 - DualSense: `RetroDECK: DualSense`
 
 ## Global Hotkeys: PlayStation Button Combos

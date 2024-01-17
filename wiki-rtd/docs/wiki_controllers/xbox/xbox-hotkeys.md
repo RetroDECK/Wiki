@@ -1,6 +1,12 @@
 # Xbox: RetroDECK Hotkeys
 
-## What are the Official profiles called?
+## What Controllers are supported?
+
+- Xbox 360 Controller
+- Xbox Wireless Controller
+- Xbox Elite Wireless Controller Series 1/2
+
+## What are the Official RetroDECK - Steam Input Profile called?
 
 - Xbox 360 Controller: `RetroDECK: Xbox 360`
 - Xbox Wireless Controller/Elite Series: `RetroDECK: Xbox Wireless`

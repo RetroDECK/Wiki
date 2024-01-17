@@ -1,11 +1,11 @@
 # Steam Deck - Controller
 
-<img src="../../wiki_images/graphics/steamdeck/rd_sd_screen1.jpeg" width="350">
+<img src="../../../wiki_images/graphics/steamdeck/rd_sd_screen1.jpeg" width="350">
 
 
 ## Input Guide
 
-<img src="../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550">
+<img src="../../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550">
 
 
 ## RetroDECK - Steam Deck Layout
@@ -14,7 +14,7 @@
 Have the `RetroDECK: Official Controller Layout` activated from the `Templates`.
 
 If you are unsure on how to do enable it, read Step 3 on the Installation Guide:<br>
-[How do I install RetroDECK on the Steam Deck?](../../wiki_devices/steamdeck/steamdeck-start/)
+[How do I install RetroDECK on the Steam Deck?](../../../wiki_devices/steamdeck/steamdeck-start/)
 
 If you want to reinstall the controller profile or missed to activate it during first setup you can do so from the configurator.
 

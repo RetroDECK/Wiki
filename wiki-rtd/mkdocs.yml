@@ -68,7 +68,7 @@ nav:
     - Steam Deck - RetroDECK Installation and Updates: wiki_devices/steamdeck/steamdeck-start.md
     - Steam Deck - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
     - Steam Deck - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
-    - Steam Deck - Controls: wiki_controllers/controllers-steamdeck.md
+    - Steam Deck - Controls: wiki_controllers/steam/controllers-steamdeck.md
 
   - Linux Desktop 🐧:
     - Linux Desktop - Installation and Updates: wiki_devices/linux_desktop/linux-install.md
@@ -116,11 +116,26 @@ nav:
     - Texture Packs - RetroArch Mesen: wiki_texture_packs/retroarch-mesen-tp.md
     - Texture Packs - RetroArch Mupen64Plus: wiki_texture_packs/retroarch-mupen64plus-tp.md
 
-  - Controllers & Input 🎮:
-    - Different Button Prompts in Games: wiki_controllers/diffrent-game-inputs.md
-    - RetroDECK with Steam Input: wiki_controllers/about-steam-input.md
-    - RetroDECK and Udev Rules: wiki_controllers/about-udev.md
-    - RetroDECK - Controller Current Version: wiki_controllers/retrodeck-input-versions.md
+  - About Controllers 🎮:
+    - Different Button Prompts in Games: wiki_controllers/about/diffrent-game-inputs.md
+    - RetroDECK with Steam Input: wiki_controllers/about/about-steam-input.md
+    - RetroDECK and Udev Rules: wiki_controllers/about/about-udev.md
+    - RetroDECK - Controller Current Version: wiki_controllers/about/retrodeck-input-versions.md
+
+  - Controllers - Nintendo:
+      - Nintendo - Controllers (WIP): wiki_controllers/nintendo/controllers-nintendo.md
+
+  - Controllers - Playstation :
+    - Playstation - Controllers (WIP): wiki_controllers/playstation/controllers-playstation.md
+
+  - Controllers - Xbox:
+    - Xbox - Controllers (WIP): wiki_controllers/xbox/controllers-xbox.md
+
+  - Controllers - Steam/Valve:
+    - Steam Deck - Controller: wiki_controllers/steam/controllers-steamdeck.md
+    - Steam - Steam Controller (WIP): wiki_controllers/steam/controllers-steam.md
+
+  - Controllers - WIP:
     - Accessibility - Controllers (WIP): wiki_controllers/controllers-accessibility.md
     - Arcade - Controllers (WIP): wiki_controllers/controllers-arcade.md
     - Flight - Controllers (WIP): wiki_controllers/controllers-flight.md
@@ -129,13 +144,8 @@ nav:
     - Lightguns - Controllers (WIP): wiki_controllers/controllers-lightguns.md
     - Motion - Controllers (WIP): wiki_controllers/controllers-motion.md
     - Music / Rhythm - Controllers (WIP): wiki_controllers/controllers-music.md
-    - Nintendo - Controllers (WIP): wiki_controllers/controllers-nintendo.md
-    - Playstation - Controllers (WIP): wiki_controllers/controllers-playstation.md
     - Racing - Controllers (WIP): wiki_controllers/controllers-racing.md
-    - Steam Deck - Controller: wiki_controllers/controllers-steamdeck.md
-    - Valve - Steam Controller (WIP): wiki_controllers/controllers-steam.md
     - Toys-to-life - Controllers (WIP): wiki_controllers/controllers-toys-to-life.md
-    - Xbox - Controllers (WIP): wiki_controllers/controllers-xbox.md
 
   - Community & Helping Out ❤️:
     - Discord: wiki_community/discord.md

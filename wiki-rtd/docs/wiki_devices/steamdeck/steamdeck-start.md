@@ -17,7 +17,8 @@
 - Launch RetroDECK and enjoy
 
 ## Other quick tips
-- Read up on the [Steam Deck - Controls](../../wiki_controllers/controls-steamdeck.md) to ease your navigation.
+
+- Read up on the [Steam Deck - Controls](../../wiki_controllers/steam/controllers-steamdeck.md) to ease your navigation.
 - Read up on the [EmulationStation DE: User Guide](../../wiki_emulationStation_de/esde-guide.md)
 - Check out our other software recommendations for the Steam Deck [Steam Deck - Software Recommendations](../../wiki_devices/steamdeck/steamdeck-software.md).
 - Check various optional optimizations that can make some emulators run even better [Steam Deck - Optimizations](../../wiki_devices/steamdeck/steamdeck-optimize.md).
@@ -26,6 +27,7 @@
 ## Full step by step guide
 
 ### Step 1: Go to Desktop Mode
+
 - Put the Steam Deck into Desktop Mode `Steam button` > `Power` > `Switch to Desktop`
 
 ### Step 2: Install from Discover

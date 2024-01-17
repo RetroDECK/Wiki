@@ -36,7 +36,7 @@ Read and follow the:
 **NOTE:** On the Steam Deck this step needs to be done in Desktop Mode
 
 ### Information
-Read up on [Manage your BIOS/Firmware](../wiki_howto_faq/bios-firmware.md)
+Read up on [Manage your BIOS/Firmware](../wiki_management/bios-firmware.md)
 
 * The BIOS & Firmware files go into the `~/retrodeck/bios/` directory <br>
 

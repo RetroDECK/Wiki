@@ -108,7 +108,7 @@ nav:
     - ES-DE Themes: wiki_emulationStation_de/esde-themes.md
     - ES-DE Folders and Files (WIP): wiki_emulationStation_de/esde-folders-files.md
 
-  - GZDoom (WIP):
+  - Guide - GZDoom (WIP):
     - GZDoom Guide 📙: wiki_emulator_guides/gzdoom/gzdoom-guide.md
     - Get the WADs from bought DOOM / DOOM 2 (WIP): wiki_emulator_guides/gzdoom/extract-doom-wads.md
 
@@ -120,7 +120,6 @@ nav:
     - Citra (WIP): wiki_emulator_guides/citra-guide.md
     - Dolphin / Primehack (WIP): wiki_emulator_guides/dolphin-primehack-guide.md
     - Duckstation (WIP): wiki_emulator_guides/duckstation-guide.md
-
     - IkemenGO - M.U.G.E.N (WIP): wiki_emulator_guides/ikemengo-guide.md
     - MAME (WIP): wiki_emulator_guides/mame-guide.md
     - MelonDS (WIP): wiki_emulator_guides/melonds-guide.md

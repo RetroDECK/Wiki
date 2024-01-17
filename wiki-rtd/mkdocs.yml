@@ -56,7 +56,7 @@ nav:
     - Configurator Features: wiki_general/configurator.md
 
   - Bugs & Issues 🐜:
-    - Reporting: wiki_bugs/report-bugs.md
+    - Reporting Bugs: wiki_bugs/report-bugs.md
     - Known Issues: wiki_bugs/known-issues.md
 
   - About RetroDECK 📖:
@@ -104,8 +104,6 @@ nav:
     - ES-DE User Guide: wiki_emulationStation_de/esde-guide.md
     - ES-DE Themes: wiki_emulationStation_de/esde-themes.md
     - ES-DE Folders and Files (WIP): wiki_emulationStation_de/esde-folders-files.md
-
-
 
   - Emulator Guides 📙:
     - RPCS3: wiki_emulator_guides/rpcs3-guide.md

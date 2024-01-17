@@ -9,7 +9,7 @@ Steam Input have support for the following controllers:
 
 ## Steam Controller - Gordon
 
-<img src="../../wiki_images/controllers/steam-controller-gordon.png" width="250">
+<img src="../../../wiki_images/controllers/steam-controller-gordon.png" width="250">
 
 The first Steam Controller is nicknamed Gordon and also goes by that name in all configurations.
 

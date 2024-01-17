@@ -142,8 +142,6 @@ nav:
     - Texture Packs - RetroArch Mesen: wiki_texture_packs/retroarch-mesen-tp.md
     - Texture Packs - RetroArch Mupen64Plus: wiki_texture_packs/retroarch-mupen64plus-tp.md
 
-
-
   - About Controllers 🎮:
     - Different Button Prompts in Games: wiki_controllers/about/diffrent-game-inputs.md
     - RetroDECK with Steam Input: wiki_controllers/about/about-steam-input.md
@@ -151,7 +149,7 @@ nav:
     - RetroDECK - Controller Current Version: wiki_controllers/about/retrodeck-input-versions.md
 
   - Controllers - Nintendo:
-      - Nintendo - Controllers (WIP): wiki_controllers/nintendo/controllers-nintendo.md
+    - Nintendo - Controllers (WIP): wiki_controllers/nintendo/controllers-nintendo.md
 
   - Controllers - Playstation :
     - Playstation - Controllers (WIP): wiki_controllers/playstation/controllers-playstation.md

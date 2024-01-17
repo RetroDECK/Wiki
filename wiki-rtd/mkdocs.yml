@@ -93,9 +93,6 @@ nav:
     - Change controller order in Steam: wiki_steam//set-controller-order-steam.md
     - RetroDECK and Steam Input: wiki_steam//steam-input.md
 
-  - How-to's 💬:
-    - Get the WADs from bought DOOM / DOOM 2 (WIP): wiki_howto_faq/extract-doom-wads.md
-
   - Steam Deck 🕹️:
     - Steam Deck - RetroDECK Installation and Updates: wiki_devices/steamdeck/steamdeck-start.md
     - Steam Deck - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
@@ -111,7 +108,11 @@ nav:
     - ES-DE Themes: wiki_emulationStation_de/esde-themes.md
     - ES-DE Folders and Files (WIP): wiki_emulationStation_de/esde-folders-files.md
 
-  - Emulator Guides 📙:
+  - Emulator Guide - GZDoom 📙 (WIP):
+    - GZDoom (WIP): wiki_emulator_guides/gzdoom/gzdoom-guide.md
+    - Get the WADs from bought DOOM / DOOM 2 (WIP): wiki_howto_faq/gzdoom/extract-doom-wads.md
+
+  - Emulator Guides 📙 (WIP):
     - RPCS3: wiki_emulator_guides/rpcs3-guide.md
     - Yuzu: wiki_emulator_guides/yuzu-guide.md
     - ScummVM: wiki_emulator_guides/scummvm-guide.md
@@ -119,7 +120,7 @@ nav:
     - Citra (WIP): wiki_emulator_guides/citra-guide.md
     - Dolphin / Primehack (WIP): wiki_emulator_guides/dolphin-primehack-guide.md
     - Duckstation (WIP): wiki_emulator_guides/duckstation-guide.md
-    - GZDoom (WIP): wiki_emulator_guides/gzdoom-guide.md
+
     - IkemenGO - M.U.G.E.N (WIP): wiki_emulator_guides/ikemengo-guide.md
     - MAME (WIP): wiki_emulator_guides/mame-guide.md
     - MelonDS (WIP): wiki_emulator_guides/melonds-guide.md

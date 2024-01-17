@@ -10,7 +10,7 @@ No
 ### Linux Kernel Support
 Unknown
 
-#### Emulator usecase
+### Emulator usecase
 `Xenia`
 
 But is it not supported in Xenia
@@ -20,13 +20,13 @@ See issue:<br>
 
 There exists no Kinect Emulation as of this writing
 
-#### Related Projects for Kinect usage in Linux
+### Related Projects for Kinect usage in Linux
 
 [Open Kinect](https://openkinect.org/wiki/Main_Page)
 
 [Github - Open Kinect: libfreenect1](https://github.com/OpenKinect/libfreenect)
 
-#### Udev Rules for Kinect V1
+### Udev Rules for Kinect V1
 
 ```
 # ATTR{product}=="Xbox NUI Motor"
@@ -42,6 +42,6 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02be", MODE="0666"
 SUBSYSTEM=="usb", ATTR{idVendor}=="045e", ATTR{idProduct}=="02bf", MODE="0666"
 ```
 
-#### How to configure / emulate
+## How to configure / emulate
 
 Nothing yet

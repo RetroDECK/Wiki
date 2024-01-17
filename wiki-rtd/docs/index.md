@@ -8,7 +8,7 @@
 ## Welcome to the RetroDECK wiki!
 
 **🏗️ This wiki is currently under construction 🏗️**<br>
-Some articles are marked with WIP (Work in Progress).
+Some articles are marked with WIP (Work in Progress) and might be for an upcomming update or just not done.
 
 ### Going to start using RetroDECK?
 

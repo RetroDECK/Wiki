@@ -1,4 +1,4 @@
-# Steam Input
+# RetroDECK and Steam Input
 
 RetroDECK handles most of the advanced controller mapping via Steam Input.
 

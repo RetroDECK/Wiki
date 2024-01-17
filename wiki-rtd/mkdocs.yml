@@ -88,9 +88,10 @@ nav:
     - Move RetroDECK to a new device: wiki_management/retrodeck-move.md
 
   - RetroDECK and Steam 💻:
-    - Add RetroDECK to Steam: wiki_howto_faq/add-to-steam.md
-    - Enable Controllers in Steam: wiki_howto_faq/enable-controllers-steam.md
-    - Change controller order in Steam: wiki_howto_faq/set-controller-order-steam.md
+    - Add RetroDECK to Steam: wiki_steam/add-to-steam.md
+    - Enable Controllers in Steam: wiki_steam//enable-controllers-steam.md
+    - Change controller order in Steam: wiki_steam//set-controller-order-steam.md
+    - RetroDECK and Steam Input: wiki_steam//steam-input.md
 
   - How-to's 💬:
     - Get the WADs from bought DOOM / DOOM 2 (WIP): wiki_howto_faq/extract-doom-wads.md
@@ -151,6 +152,7 @@ nav:
     - Different Button Prompts in Games: wiki_controllers/about/diffrent-game-inputs.md
     - RetroDECK with Steam Input: wiki_controllers/about/about-steam-input.md
     - RetroDECK and Udev Rules: wiki_controllers/about/about-udev.md
+    - RetroDECK and Steam Input: wiki_steam//steam-input.md
 
   - Controllers - Nintendo (WIP):
     - Nintendo - RetroDECK Hotkeys: wiki_controllers/nintendo/nintendo-hotkeys.md

@@ -51,13 +51,7 @@ nav:
     - Supported Devices: wiki_general/supported-devices.md
     - The RetroDECK Beta: wiki_general/beta-period.md
     - The FAQ ❔:  wiki_howto_faq/faq.md
-
-  - RetroDECK Configurator 🛠️:
-    - Configurator Features: wiki_general/configurator.md
-
-  - Bugs & Issues 🐜:
-    - Reporting Bugs: wiki_bugs/report-bugs.md
-    - Known Issues: wiki_bugs/known-issues.md
+    - Start using RetroDECK: wiki_howto_faq/retrodeck-start.md
 
   - About RetroDECK 📖:
     - The Team & Credits: wiki_about/team-credits.md
@@ -70,6 +64,10 @@ nav:
     - Discord: wiki_community/discord.md
     - Lemmy/Reddit: wiki_community/lemmy-reddit.md
     - How to Contribute to RetroDECK?: wiki_community/contibute-rd.md
+
+  - Bugs & Issues 🐜:
+    - Reporting Bugs: wiki_bugs/report-bugs.md
+    - Known Issues: wiki_bugs/known-issues.md
     - How to help out with testing?: wiki_community/testing-rd.md
 
   - Development 🖥️:
@@ -80,14 +78,20 @@ nav:
     - CLI Guide: wiki_development/cli-guide.md
     - Development Notes: wiki_development/general-development.md
 
-  - How-to's 💬:
-    - Start using RetroDECK: wiki_howto_faq/retrodeck-start.md
+  - RetroDECK Configurator 🛠️:
+    - Configurator Features: wiki_general/configurator.md
+
+  - RetroDECK Game Mangement 💬:
     - Manage your Games: wiki_howto_faq/games-management.md
     - Manage your BIOS/Firmware: wiki_howto_faq/bios-firmware.md
     - Move RetroDECK to a new device: wiki_howto_faq/retrodeck-move.md
+
+  - RetroDECK and Steam 💬:
     - Add RetroDECK to Steam: wiki_howto_faq/add-to-steam.md
     - Enable Controllers in Steam: wiki_howto_faq/enable-controllers-steam.md
     - Change controller order in Steam: wiki_howto_faq/set-controller-order-steam.md
+
+  - How-to's 💬:
     - Get the WADs from bought DOOM / DOOM 2 (WIP): wiki_howto_faq/extract-doom-wads.md
 
   - Steam Deck 🕹️:

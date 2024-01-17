@@ -78,4 +78,4 @@ After a rule is added you will need to either reload the `udevadm` from terminal
 - The udev rule should be added when the RetroDECK or any other software that you want access to the device is not running.
 
 ### SteamOS or immutable systems
-For SteamOS or other immutable systems udev rules might or might not persistent persist over SteamOS updates (we can't say for certain).
+For SteamOS or other immutable systems udev rules might or might not persist over system updates (we can't say for certain).

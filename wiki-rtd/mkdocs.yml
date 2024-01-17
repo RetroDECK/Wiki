@@ -153,6 +153,7 @@ nav:
     - RetroDECK and Udev Rules: wiki_controllers/about/about-udev.md
 
   - Controllers - Nintendo (WIP):
+    - Nintendo - RetroDECK Hotkeys: wiki_controllers/nintendo/nintendo-hotkeys.md
     - Switch - Pro Controller: wiki_controllers/nintendo/switch-pro.md
     - Switch - Joy-Cons: wiki_controllers/nintendo/joycon.md
     - Wii U - Gamepad: wiki_controllers/nintendo/wiiu-gamepad.md

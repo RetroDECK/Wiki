@@ -48,7 +48,7 @@
 - Go into `Controller Layouts` and press `Templates`
 - Add the layout for RetroDECK  called `RetroDECK: Official Layout` with a version number.
 - You can now use RetroDECK and it's ready to populate with ROMS.
-- If you are unsure on how to add ROMS and BIOS to RetroDECK follow the [How-to - Start using RetroDECK](../../wiki_howto_faq/retrodeck-start.md)
+- If you are unsure on how to add ROMS and BIOS to RetroDECK follow the [Start using RetroDECK](../../wiki_general/retrodeck-start.md)
 
 ### Step 4 (Optional): Extras
 - Get RetroDECK Steam Grid art with BoilR or add it manually from [SteamgridDB](https://www.steamgriddb.com/search/grids?term=RetroDeck) for the Steam Grid.
@@ -59,7 +59,6 @@
 
 
 ## How do I update RetroDECK on the Steam Deck?
-
 
 ### From Desktop Mode
 - Put the Steam Deck into Desktop Mode `Steam button` > `Power` > `Switch to Desktop`

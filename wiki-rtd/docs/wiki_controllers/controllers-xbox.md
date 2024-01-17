@@ -9,7 +9,7 @@ Xbox Controllers are controllers made by the company Microsoft. Motion Controlle
 Has firmwares, udev rules and drivers might be needed to get it to run on your distribution to get the wireless connections working.<br>
 This should not needed for the Steam Deck, SteamOS and most gaming focus Linux distroes has it included.
 
-## Xbox 360
+## Xbox 360 Controller
 
 <img src="../../wiki_images/controllers/xbox-360.png" width="250">
 
@@ -25,12 +25,12 @@ Yes
 <img src="../../wiki_images/controllers/xbox-elite-wireless-series.png" width="250">
 
 #### Steam Input support
-Yes
+Yes, but not fully. It registers as a Xbox Wireless Controller but the backbuttons can not be bound.
 
 ## What are the Official profiles called?
 
-- Xbox 360: `RetroDECK: Xbox 360`
-- Xbox Wireless Controller: `RetroDECK: Xbox Wireless`
+- Xbox 360 Controller: `RetroDECK: Xbox 360`
+- Xbox Wireless Controller/Elite Series: `RetroDECK: Xbox Wireless`
 
 ### What is the Current Version Number of the profile?
 

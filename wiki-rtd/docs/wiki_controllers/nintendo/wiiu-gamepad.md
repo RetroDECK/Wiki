@@ -4,12 +4,13 @@
 
 Official Controller for the Wii U
 
-#### Steam Input support
+### Steam Input support
 No
 
-#### Linux Kernel Support
+### Linux Kernel Support
 No
 
+### Ongoing projects
 A list of projects and drivers that try to make the Wii U controller work on Linux.
 
 [libdrc](https://github.com/rolandoislas/libdrc)

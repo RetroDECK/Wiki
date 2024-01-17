@@ -1,17 +1,4 @@
-### Ring Fit
-
-<img src="../../wiki_images/controllers/ring-fit.png" width="250">
-
-Used for `Ring Fit Adventure` the fitness game on the Nintendo Switch.
-
-#### How to configure
-
-WIP
-
----
-
 ## PlayStation Motion Controllers
-
 
 ### PlayStation EyeToy
 

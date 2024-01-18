@@ -193,10 +193,14 @@ nav:
     - About Accessibility Controllers: wiki_controllers/accessibility/about-accessibility.md
     - Xbox Adaptive Controller: wiki_controllers/accessibility/xac.md
 
+  - Controllers - Arcade (WIP):
+    - About Arcade Controllers: wiki_controllers/arcade/about-arcade.md
+
+  - Controllers - Flight (WIP): wiki_controllers/controllers-flight.md
+    - About Flight Controllers (WIP): wiki_controllers/flight/about-flight.md
+
   - Controllers - (WIP):
-    - Arcade - Controllers (WIP): wiki_controllers/controllers-arcade.md
     - Flight - Controllers (WIP): wiki_controllers/controllers-flight.md
-    - Generic - Controllers (WIP): wiki_controllers/controllers-generic.md
     - Gimmick - Controllers (WIP): wiki_controllers/controllers-gimmick.md
     - Lightguns - Controllers (WIP): wiki_controllers/controllers-lightguns.md
     - Motion - Controllers (WIP): wiki_controllers/controllers-motion.md

@@ -1,7 +1,16 @@
 # RetroDECK - Supported Steam Input Controllers
 
-Here is a list of all the current versions of the Steam Input profiles that RetroDECK from the 0.8b update.<br>
+Here is a list of all the current versions of the Steam Input profiles that RetroDECK from the upcomming 0.8b update.<br>
 More controllers will be added in the future when Steam Input adds support for them.
+
+## Generic Controllers
+
+Generic Controllers encompasses the vast majority of 3rd party controllers.
+
+| Controller         | Profile Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
+| :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
+| Generic Standard Type |   `RetroDECK: Generic - Standard`      |   `v.1b`          |  Varies  |       [Generic Standard](../../wiki_controllers/generic/standard/generic-standard/)   |  [Generic Standard - Hotkeys](../../wiki_controllers/generic/standard/generic-standard-hotkeys/)| Majority of 3rd Party Controllers with a Standard Layout |
+
 
 ## Nintendo Controllers
 
@@ -10,6 +19,15 @@ Controllers made by Nintendo for the Nintendo systems.
 | Controller         | Profile Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
 | Switch Pro Controller      |   `RetroDECK: Switch Pro`      |   `v.1b`          |  Nintendo Switch  |       [Switch Pro](../../wiki_controllers/nintendo/switch-pro/)   |  [Nintendo Hotkeys](../../wiki_controllers/nintendo/nintendo-hotkeys/)  |  |
+
+## Valve/Steam Controllers
+
+Controllers made by Nintendo for the Nintendo systems.
+
+| Controller         | Profile Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
+| :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
+| Steam Deck - Controller      |   `RetroDECK: Official Controller Layout`      |   `v0.7.1b`          |  Steam Deck  |       [Steam Deck - Controller](../../wiki_controllers/steam/controllers-steamdeck/)    |  [Steam Deck Hotkeys](../../wiki_controllers/steam/controllers-steamdeck/)  |  |
+| Steam Controller - Gordon    |   `RetroDECK: Steam Controller - Gordon`      |   `v.1b`          |  Steam Devices  |       [Steam Controller - Gordon](../../wiki_controllers/steam/steam-controller-gordon/)    |  [Steam Controller - Gordon Hotkeys](../../wiki_controllers/steam/steam-controller-gordon/)  |  |
 
 ## Playstation Controllers
 
@@ -33,10 +51,3 @@ Controllers made by Microsoft for the Xbox systems.
 | Xbox Wireless Controller|   `RetroDECK: Xbox Wireless` |   `v.1b`          |  Xbox One / S / X  |       [Xbox Wireless Controller](../../wiki_controllers/xbox/xbox-wireless/)   |  [Xbox Hotkeys](../../wiki_controllers/xbox/xbox-hotkeys/)|  |
 | Xbox Elite Wireless Controller Series 1 / 2|   `RetroDECK: Xbox Wireless` |   `v.1b`          |  Xbox S / X  |       [Xbox Elite Wireless Controller Series 1 / 2](../../wiki_controllers/xbox/xbox-wireless-elite/)   |  [Xbox Hotkeys](../../wiki_controllers/xbox/xbox-hotkeys/)| Works as a normal Xbox Wireless in Steam Input|
 
-## Generic Controllers
-
-Generic Controllers encompasses the vast majority of 3rd party controllers.
-
-| Controller         | Profile Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
-| :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
-| Generic Standard Type |   `RetroDECK: Generic - Standard`      |   `v.1b`          |  Varies  |       [Generic Standard](../../wiki_controllers/generic/standard/generic-standard/)   |  [Generic Standard - Hotkeys](../../wiki_controllers/generic/standard/generic-standard-hotkeys/)| Majority of 3rd Party Controllers with a Standard Layout |

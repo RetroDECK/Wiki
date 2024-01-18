@@ -32,4 +32,4 @@ NOTE: These are upcomming in the 0.8b update
 
 | Controller         | Profile Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
-| Generic Standard |   `RetroDECK: Switch Pro`      |   `v.1b`          |  Nintendo Switch  |       [Switch Pro](../../wiki_controllers/nintendo/switch-pro/)   |  [Nintendo Hotkeys](../../wiki_controllers/nintendo/nintendo-hotkeys/)  |
+| Generic Standard Type |   `RetroDECK: Generic - Standard`      |   `v.1b`          |  Varies  |       [Generic Standard](../../wiki_controllers/generic/standard/generic-standard/)   |  [Generic Standard - Hotkeys](../../wiki_controllers/generic/standard/generic-standard-hotkeys/)| Majority of 3rd Party Controllers with a Standard Layout |

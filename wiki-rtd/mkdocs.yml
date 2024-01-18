@@ -141,6 +141,9 @@ nav:
     - Ryujinx - General Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-guide.md
     - Ryujinx - Mod Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-mod.md
 
+  - Emulator Guide - ScummVM 🖱️:
+    - ScummVM - General Guide: wiki_emulator_guides/scummvm/scummvm-guide.md
+
   - Emulator Guide - Yuzu 🔴:
     - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
     - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md

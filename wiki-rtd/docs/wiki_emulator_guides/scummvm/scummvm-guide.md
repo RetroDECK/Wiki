@@ -1,6 +1,8 @@
-# Guide: ScummVM
+# ScummVM - General Guide
 
 <img src="../../wiki_images/logos/scummvm-logo.svg" width="150">
+
+This guide works for both the `ScummVM RetroArch Core` and `ScummVM-SA`
 
 ---
 
@@ -17,10 +19,10 @@
 
 ---
 
-## Where to put the games?
+### Where to put the games?
 ScummVM games should be put into the `retrodeck/roms/scummvm/` directory.<br>
 
-## Does ScummVM require BIOS or Firmware?
+### Does ScummVM require BIOS or Firmware?
 No
 
 ## How to: Get games to show up inside the ES-DE interface

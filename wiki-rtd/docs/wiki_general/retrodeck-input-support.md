@@ -26,7 +26,7 @@ Controllers made by Nintendo for the Nintendo systems.
 
 | Controller         | Profile Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
-| Steam Deck - Controller      |   `RetroDECK: Official Controller Layout`      |   `v0.7.1b`          |  Steam Deck  |       [Steam Deck - Controller](../../wiki_controllers/steam/controllers-steamdeck/)    |  [Steam Deck Hotkeys](../../wiki_controllers/steam/controllers-steamdeck/)  |  |
+| Steam Deck - Controller      |   `RetroDECK: Official Controller Layout`      |   `v0.7.1b`          |  Steam Deck LCD/OLED  |       [Steam Deck - Controller](../../wiki_controllers/steam/controllers-steamdeck/)    |  [Steam Deck Hotkeys](../../wiki_controllers/steam/controllers-steamdeck/)  |  |
 | Steam Controller - Gordon    |   `RetroDECK: Steam Controller - Gordon`      |   `v.1b`          |  Steam Devices  |       [Steam Controller - Gordon](../../wiki_controllers/steam/steam-controller-gordon/)    |  [Steam Controller - Gordon Hotkeys](../../wiki_controllers/steam/steam-controller-gordon/)  |  |
 
 ## Playstation Controllers

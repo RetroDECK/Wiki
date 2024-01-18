@@ -17,6 +17,8 @@ theme:
     scheme: slate
     primary: "deep purple"
     accent: "white"
+  extra_css:
+   - stylesheets/extra.css
 plugins:
    - search:
    - rss:

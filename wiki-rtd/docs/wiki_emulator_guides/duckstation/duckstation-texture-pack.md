@@ -1,4 +1,4 @@
-# Texture Packs: Duckstation - PSX
+# Duckstation - Texture Pack Guide
 The `~/retrodeck/texture_packs/duckstaiton/` represents the `/duckstation/textures/` folder in Duckstation.
 
 **Note:** <br>

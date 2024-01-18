@@ -1,6 +1,5 @@
 # Yuzus - Mod Guide
 
-**Note:**<br>
 `TITLEID` is different for every game.
 
 ## How do I add mods?

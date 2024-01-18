@@ -121,7 +121,15 @@ nav:
     - Dolphin / Primehack - Mod Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-mod.md
     - Dolphin / Primehack - Texture Pack Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-texture-pack.md
 
-  - Emulator Guide - Yuzu 🍊:
+  - Emulator Guide - Duckstation 🪶:
+    - Duckstation - General Guide (WIP): wiki_emulator_guides/duckstation/duckstation-guide.md
+    - Duckstation - Texture Pack Guide: wiki_emulator_guides/duckstation/duckstation-texture-pack.md
+
+  - Emulator Guide - Ryujinx 🔵:
+    - Ryujinx - General Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-guide.md
+    - Ryujinx - Mod Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-mod.md
+
+  - Emulator Guide - Yuzu 🔴:
     - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
     - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
 
@@ -138,13 +146,9 @@ nav:
     - PICO-8 (WIP): wiki_emulator_guides/pico8-guide.md
     - PPSSPP (WIP): wiki_emulator_guides/ppsspp-guide.md
     - RetroArch (WIP): wiki_emulator_guides/retroarch-guide.md
-    - Ryujinx (WIP): wiki_emulator_guides/ryujinx-guide.md
     - Solarus (WIP): wiki_emulator_guides/solarus-guide.md
     - Vita3K: wiki_emulator_guides/vita3k-guide.md
     - Xemu (WIP): wiki_emulator_guides/xemu-guide.md
-
-  - Mod Guides ⚙️:
-    - Mods - Ryujinx (WIP): wiki_mods/ryujinx-mods.md
 
   - Texture Pack Guides 🖌️:
     - Texture Packs - Duckstation: wiki_texture_packs/duckstation-tp.md

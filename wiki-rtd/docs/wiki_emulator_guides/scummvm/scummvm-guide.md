@@ -1,6 +1,6 @@
 # ScummVM - General Guide
 
-<img src="../../wiki_images/logos/scummvm-logo.svg" width="150">
+<img src="../../../wiki_images/logos/scummvm-logo.svg" width="150">
 
 This guide works for both the `ScummVM RetroArch Core` and `ScummVM-SA`
 

@@ -1,6 +1,6 @@
 # Guide: Citra
 
-<img src="../../wiki_images/logos/citra-logo.svg" width="150">
+<img src="../../../wiki_images/logos/citra-logo.svg" width="150">
 
 WIP
 

@@ -112,12 +112,17 @@ nav:
     - GZDoom Guide: wiki_emulator_guides/gzdoom/gzdoom-guide.md
     - Get the WADs from bought DOOM / DOOM 2 (WIP): wiki_emulator_guides/gzdoom/extract-doom-wads.md
 
-  - Emulator Guides 📙 (WIP):
+  - Emulator Guides - Citra (WIP):
+    - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
+    - Citra - Mods Guide: wiki_emulator_guides/citra/citra-mods.md
+    - Citra - Texture Packs Guide: wiki_emulator_guides/citra/citra-texture-pack.md
+
+  - Emulator Guides SORT THIS📙 (WIP):
     - RPCS3: wiki_emulator_guides/rpcs3-guide.md
     - Yuzu: wiki_emulator_guides/yuzu-guide.md
     - ScummVM: wiki_emulator_guides/scummvm-guide.md
     - Cemu (WIP): wiki_emulator_guides/cemu-guide.md
-    - Citra (WIP): wiki_emulator_guides/citra-guide.md
+
     - Dolphin / Primehack (WIP): wiki_emulator_guides/dolphin-primehack-guide.md
     - Duckstation (WIP): wiki_emulator_guides/duckstation-guide.md
     - IkemenGO - M.U.G.E.N (WIP): wiki_emulator_guides/ikemengo-guide.md
@@ -134,13 +139,11 @@ nav:
     - Xemu (WIP): wiki_emulator_guides/xemu-guide.md
 
   - Mod Guides ⚙️:
-    - Mods - Citra: wiki_mods/citra-mods.md
     - Mods - Dolphin/Primehack: wiki_mods/dolphin-prime-mods.md
     - Mods - Ryujinx (WIP): wiki_mods/ryujinx-mods.md
     - Mods - Yuzu: wiki_mods/yuzu-mods.md
 
   - Texture Pack Guides 🖌️:
-    - Texture Packs - Citra: wiki_texture_packs/citra-tp.md
     - Texture Packs - Dolphin/Primehack: wiki_texture_packs/dolphing-prime-tp.md
     - Texture Packs - Duckstation: wiki_texture_packs/duckstation-tp.md
     - Texture Packs - PCSX2: wiki_texture_packs/pcsx2-tp.md

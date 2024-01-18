@@ -11,7 +11,7 @@
 
 - DualShock 3 / Sixaxis: `RetroDECK: Dualshock 3`
 - DualShock 4: `RetroDECK: Dualshock 4`
-- DualSense: `RetroDECK: DualSense`
+- DualSense / DualSense Edge: `RetroDECK: DualSense`
 
 ## Global Hotkeys: PlayStation Button Combos
 

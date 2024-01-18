@@ -1,6 +1,6 @@
 # PlayStation EyeToy
 
-<img src="../../../wiki_images/controllers/playstation-eye-toy.png" width="250">
+<img src="../../../wiki_images/controllers/playstation-eye-toy.png" width="150">
 
 Used for various titles on the PlayStation 2 the most famous being the `EyeToy` game series.
 

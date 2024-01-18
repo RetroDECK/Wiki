@@ -1,8 +1,11 @@
 # RetroDECK - Supported Steam Input Controllers
 
-Here is a list of all the current versions of the Steam Input profiles that RetroDECK from the 0.8b update.
+Here is a list of all the current versions of the Steam Input profiles that RetroDECK from the 0.8b update.<br>
+More controllers will be added in the future when Steam Input adds support for them.
 
 ## Nintendo Controllers
+
+Controllers made by Nintendo for the Nintendo systems.
 
 | Controller         | Profile Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
@@ -10,15 +13,19 @@ Here is a list of all the current versions of the Steam Input profiles that Retr
 
 ## Playstation Controllers
 
+Controllers made by Sony for the PlayStation systems.
+
 | Controller         | Profile Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
-| DualShock 3      |   `RetroDECK: DualShock 3`      |   `v.1b`          |  Playstation 3  |       [DualShock 3](../../wiki_controllers/playstation/dualshock-3/)   |  [Playstation Hotkeys](../../wiki_controllers/playstation/playstation-hotkeys/)|  |
-| DualShock 4      |   `RetroDECK: DualShock 4`      |   `v.1b`          |  Playstation 4  |       [DualShock 4](../../wiki_controllers/playstation/dualshock-4/)   |  [Playstation Hotkeys](../../wiki_controllers/playstation/playstation-hotkeys/)|  |
-| DualSense        |   `RetroDECK: DualSense`        |   `v.1b`          |  Playstation 5  |       [DualSense](../../wiki_controllers/playstation/dualsense/)   |  [Playstation Hotkeys](../../wiki_controllers/playstation/playstation-hotkeys/)|  |
-| DualSense Edge   |   `RetroDECK: Dualshock 3`      |   `v.1b`          |  Playstation 5  |       [DualSense Edge](../../wiki_controllers/playstation/dualsense-edge/)   |  [Playstation Hotkeys](../../wiki_controllers/playstation/playstation-hotkeys/)|  |
+| DualShock 3      |   `RetroDECK: DualShock 3`      |   `v.1b`          |  PlayStation 3  |       [DualShock 3](../../wiki_controllers/playstation/dualshock-3/)   |  [PlayStation Hotkeys](../../wiki_controllers/playstation/playstation-hotkeys/)|  |
+| DualShock 4      |   `RetroDECK: DualShock 4`      |   `v.1b`          |  PlayStation 4  |       [DualShock 4](../../wiki_controllers/playstation/dualshock-4/)   |  [PlayStation Hotkeys](../../wiki_controllers/playstation/playstation-hotkeys/)|  |
+| DualSense        |   `RetroDECK: DualSense`        |   `v.1b`          |  PlayStation 5  |       [DualSense](../../wiki_controllers/playstation/dualsense/)   |  [PlayStation Hotkeys](../../wiki_controllers/playstation/playstation-hotkeys/)|  |
+| DualSense Edge   |   `RetroDECK: Dualshock 3`      |   `v.1b`          |  PlayStation 5  |       [DualSense Edge](../../wiki_controllers/playstation/dualsense-edge/)   |  [PlayStation Hotkeys](../../wiki_controllers/playstation/playstation-hotkeys/)|  |
 
 
 ## Xbox Controllers
+
+Controllers made by Microsoft for the Xbox systems.
 
 | Controller         | Profile Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
@@ -27,6 +34,8 @@ Here is a list of all the current versions of the Steam Input profiles that Retr
 | Xbox Elite Wireless Controller Series 1 / 2|   `RetroDECK: Xbox Wireless` |   `v.1b`          |  Xbox S / X  |       [Xbox Elite Wireless Controller Series 1 / 2](../../wiki_controllers/xbox/xbox-wireless-elite/)   |  [Xbox Hotkeys](../../wiki_controllers/xbox/xbox-hotkeys/)| Works as a normal Xbox Wireless in Steam Input|
 
 ## Generic Controllers
+
+Generic Controllers encompasses the vast majority of 3rd party controllers.
 
 | Controller         | Profile Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |

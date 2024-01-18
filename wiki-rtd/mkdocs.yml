@@ -108,21 +108,25 @@ nav:
     - ES-DE Themes: wiki_emulationStation_de/esde-themes.md
     - ES-DE Folders and Files (WIP): wiki_emulationStation_de/esde-folders-files.md
 
-  - Engine Guide - GZDoom (WIP):
+  - Engine Guide - GZDoom (WIP) 👹:
     - GZDoom - General Guide: wiki_emulator_guides/gzdoom/gzdoom-guide.md
     - Get the WADs from bought DOOM / DOOM 2: wiki_emulator_guides/gzdoom/extract-doom-wads.md
 
-  - Emulator Guide - Citra (WIP):
+  - Emulator Guide - Citra (WIP) 🍋:
     - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
     - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
     - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md
+
+  - Emulator Guide - Dolphin / Primehack (WIP) 🐬:
+    - Dolphin / Primehack - General Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md
+    - Dolphin / Primehack - Mod Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-mod.md
+    - Dolphin / Primehack - Texture Pack Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-texture-pack.md
 
   - Emulator Guides SORT THIS📙 (WIP):
     - RPCS3: wiki_emulator_guides/rpcs3-guide.md
     - Yuzu: wiki_emulator_guides/yuzu-guide.md
     - ScummVM: wiki_emulator_guides/scummvm-guide.md
     - Cemu (WIP): wiki_emulator_guides/cemu-guide.md
-    - Dolphin / Primehack (WIP): wiki_emulator_guides/dolphin-primehack-guide.md
     - Duckstation (WIP): wiki_emulator_guides/duckstation-guide.md
     - IkemenGO - M.U.G.E.N (WIP): wiki_emulator_guides/ikemengo-guide.md
     - MAME (WIP): wiki_emulator_guides/mame-guide.md
@@ -138,12 +142,10 @@ nav:
     - Xemu (WIP): wiki_emulator_guides/xemu-guide.md
 
   - Mod Guides ⚙️:
-    - Mods - Dolphin/Primehack: wiki_mods/dolphin-prime-mods.md
     - Mods - Ryujinx (WIP): wiki_mods/ryujinx-mods.md
     - Mods - Yuzu: wiki_mods/yuzu-mods.md
 
   - Texture Pack Guides 🖌️:
-    - Texture Packs - Dolphin/Primehack: wiki_texture_packs/dolphing-prime-tp.md
     - Texture Packs - Duckstation: wiki_texture_packs/duckstation-tp.md
     - Texture Packs - PCSX2: wiki_texture_packs/pcsx2-tp.md
     - Texture Packs - PPSSPP: wiki_texture_packs/ppsspp-tp.md

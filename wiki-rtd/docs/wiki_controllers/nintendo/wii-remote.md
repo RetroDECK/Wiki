@@ -80,7 +80,7 @@ Read more here:
 [How to wire a Wii's Bluetooth Module to a PC USB Port](https://forums.dolphin-emu.org/Thread-how-to-wire-a-wii-s-bluetooth-module-to-a-pc-usb-port)
 
 
-### How-to configure Dolphin - Method: Bluetooth Connection
+### How-to configure Dolphin - Method: Emulate Wii's Bluetooth Adapter
 
 This only works with the Official Wiimote controller and is the easier method.
 

@@ -1,6 +1,6 @@
-# Guide: XEMU
+# xemu - General Guide
 
-<img src="../../wiki_images/logos/xemu-logo.png" width="150">
+<img src="../../../wiki_images/logos/xemu-logo.png" width="150">
 
 WIP
 

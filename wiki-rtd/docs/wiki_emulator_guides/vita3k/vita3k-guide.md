@@ -1,4 +1,4 @@
-# Guide: Vita3K
+# Vita3K - General Guide
 
 **Please note that the PSVita support is still experimental and it will be available starting from RetroDECK 0.8.0b**
 

@@ -179,6 +179,7 @@ nav:
     - Xbox One - Kinect V2: wiki_controllers/xbox/xbox-one-kinect.md
     - Xbox One/S/X - Xbox Wireless Controller: wiki_controllers/xbox/xbox-wireless.md
     - Xbox S/X - Xbox Elite Series 2: wiki_controllers/xbox/xbox-wireless-elite.md
+    - Xbox Adaptive Controller: wiki_controllers/accessibility/xac.md
 
   - Controllers - Steam/Valve (WIP):
     - Steam Deck - Controller: wiki_controllers/steam/controllers-steamdeck.md
@@ -188,8 +189,11 @@ nav:
     - Generic Standard - RetroDECK Hotkeys: wiki_controllers/generic/standard/generic-standard-hotkeys.md
     - About Generic Standard: wiki_controllers/generic/standard/generic-standard.md
 
+  - Accessibility - Controllers (WIP):
+    - About Accessibility Controllers: wiki_controllers/accessibility/about-accessibility.md
+    - Xbox Adaptive Controller: wiki_controllers/accessibility/xac.md
+
   - Controllers - (WIP):
-    - Accessibility - Controllers (WIP): wiki_controllers/controllers-accessibility.md
     - Arcade - Controllers (WIP): wiki_controllers/controllers-arcade.md
     - Flight - Controllers (WIP): wiki_controllers/controllers-flight.md
     - Generic - Controllers (WIP): wiki_controllers/controllers-generic.md

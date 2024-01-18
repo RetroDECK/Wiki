@@ -1,4 +1,4 @@
-# Guide: PPSSPP
+# PPSSPP - General Guide
 
 <img src="../../../wiki_images/logos/ppsspp-logo.png" width="150">
 

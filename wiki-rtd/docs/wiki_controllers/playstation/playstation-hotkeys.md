@@ -1,4 +1,4 @@
-# Playstation: RetroDECK Hotkeys
+# PlayStation: RetroDECK Hotkeys
 
 ## What Controllers are supported?
 

@@ -8,7 +8,7 @@ Here is a list of all the current versions of the Steam Input profiles that Retr
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
 | Switch Pro Controller      |   `RetroDECK: Switch Pro`      |   `v.1b`          |  Nintendo Switch  |       [Switch Pro](../../wiki_controllers/nintendo/switch-pro/)   |  [Nintendo Hotkeys](../../wiki_controllers/nintendo/nintendo-hotkeys/)  |  |
 
-## Sony Controllers
+## Playstation Controllers
 
 | Controller         | Profile Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
@@ -18,7 +18,7 @@ Here is a list of all the current versions of the Steam Input profiles that Retr
 | DualSense Edge   |   `RetroDECK: Dualshock 3`      |   `v.1b`          |  Playstation 3  |       [DualSense Edge](../../wiki_controllers/playstation/dualsense-edge/)   |  [Playstation Hotkeys](../../wiki_controllers/playstation/playstation-hotkeys/)|  |
 
 
-## Microsoft Controllers
+## Xbox Controllers
 
 | Controller         | Profile Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |

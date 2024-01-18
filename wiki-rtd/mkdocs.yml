@@ -183,7 +183,7 @@ nav:
 
   - Controllers - Steam/Valve (WIP):
     - Steam Deck - Controller: wiki_controllers/steam/controllers-steamdeck.md
-    - Steam - Steam Controller (WIP): wiki_controllers/steam/controllers-steam.md
+    - Steam - Steam Controller: wiki_controllers/steam/controllers-steam.md
 
   - Controllers - Generic - Standard Type (WIP):
     - Generic Standard - RetroDECK Hotkeys: wiki_controllers/generic/standard/generic-standard-hotkeys.md
@@ -196,8 +196,8 @@ nav:
   - Controllers - Arcade (WIP):
     - About Arcade Controllers: wiki_controllers/arcade/about-arcade.md
 
-  - Controllers - Flight (WIP): wiki_controllers/controllers-flight.md
-    - About Flight Controllers (WIP): wiki_controllers/flight/about-flight.md
+  - Controllers - Flight (WIP):
+    - About Flight Controllers: wiki_controllers/flight/about-flight.md
 
   - Controllers - (WIP):
     - Flight - Controllers (WIP): wiki_controllers/controllers-flight.md

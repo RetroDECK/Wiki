@@ -2,6 +2,8 @@
 
 <img src="../../../wiki_images/controllers/lightgun-sinden.png" width="250">
 
+The Sinden uses a software or a built in emulator overlay that adds a thin black border around the screen to navigate.
+
 [Sinden Website](https://sindenlightgun.com/)
 
 ### Steam Input support

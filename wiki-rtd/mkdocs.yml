@@ -109,14 +109,20 @@ nav:
     - ES-DE Folders and Files (WIP): wiki_emulationStation_de/esde-folders-files.md
 
   - Engine Guide - GZDoom 👹:
-    - GZDoom - General Guide (WIP): wiki_emulator_guides/gzdoom/gzdoom-guide.md
-    - Get the WADs from bought DOOM / DOOM 2: wiki_emulator_guides/gzdoom/extract-doom-wads.md
+    - GZDoom - General Guide (WIP): wiki_engine_guides/gzdoom/gzdoom-guide.md
+    - Get the WADs from bought DOOM / DOOM 2: wiki_engine_guides/gzdoom/extract-doom-wads.md
 
   - Engine Guide - IkemenGO / M.U.G.E.N 🥋:
-    - IkemenGO / M.U.G.E.N  - General Guide (WIP): wiki_emulator_guides/ikemengo/ikemengo-guide.md
+    - IkemenGO / M.U.G.E.N  - General Guide (WIP): wiki_engine_guides/ikemengo/ikemengo-guide.md
+
+  - Engine Guide - ScummVM 🖱️:
+    - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
 
   - Engine Guide - Solarus 🌞:
-    - Solarus - General Guide (WIP): wiki_emulator_guides/solarus/solarus-guide.md
+    - Solarus - General Guide (WIP): wiki_engine_guides/solarus/solarus-guide.md
+
+  - Engine Guide - OpenBOR 🌞:
+    - OpenBOR - General Guide (WIP): wiki_engine_guides/openbor/openbor-guide.md
 
   - Emulator Guide - Cemu ⬜:
     - Cemu - General Guide (WIP): wiki_emulator_guides/cemu/cemu-guide.md
@@ -155,9 +161,6 @@ nav:
     - Ryujinx - General Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-guide.md
     - Ryujinx - Mod Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-mod.md
 
-  - Emulator Guide - ScummVM 🖱️:
-    - ScummVM - General Guide: wiki_emulator_guides/scummvm/scummvm-guide.md
-
   - Emulator Guide - Yuzu 🔴:
     - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
     - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
@@ -165,7 +168,6 @@ nav:
   - Emulator Guides SORT THIS📙 (WIP):
     - MAME (WIP): wiki_emulator_guides/mame-guide.md
     - MelonDS (WIP): wiki_emulator_guides/melonds-guide.md
-    - OpenBOR (WIP): wiki_emulator_guides/openbor-guide.md
     - PICO-8 (WIP): wiki_emulator_guides/pico8-guide.md
     - Vita3K: wiki_emulator_guides/vita3k-guide.md
     - Xemu (WIP): wiki_emulator_guides/xemu-guide.md

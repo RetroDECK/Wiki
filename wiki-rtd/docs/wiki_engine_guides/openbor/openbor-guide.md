@@ -1,6 +1,6 @@
-# Guide: OpenBOR
+# OpenBOR - General Guide
 
-<img src="../../wiki_images/logos//openbor-logo.svg" width="150">
+<img src="../../../wiki_images/logos//openbor-logo.svg" width="150">
 
 WIP
 

@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/controllers/lego-toypad.png" width="250">
 
-Used for the game Lego Dimensions
+Used for the game LEGO Dimensions
 
 ### Steam Input Support
 No

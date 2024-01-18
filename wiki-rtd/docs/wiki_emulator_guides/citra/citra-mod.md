@@ -1,4 +1,4 @@
-# Mods: Citra - 3DS
+# Citra - Mod Guide
 The `~/retrodeck/mods/citra/` represents the `/load/mods/` folder in Citra.
 
 **Note:**<br>

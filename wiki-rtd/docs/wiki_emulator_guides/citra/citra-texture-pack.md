@@ -1,4 +1,4 @@
-# Texture Packs: Citra - 3DS
+# Citra - Texture Pack Guide
 The `~/retrodeck/texture_packs/citra/` represents the `/load/textures` folder in Citra.
 
 **Note:** <br>

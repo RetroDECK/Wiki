@@ -1,6 +1,6 @@
-# Guide: MAME
+# MAME - General Guide
 
-<img src="../../wiki_images/logos/mame-logo.png" width="180">
+<img src="../../../wiki_images/logos/mame-logo.png" width="180">
 
 WIP
 

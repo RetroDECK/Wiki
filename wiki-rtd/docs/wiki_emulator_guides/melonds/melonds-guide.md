@@ -1,6 +1,6 @@
 # Guide: MelondDS
 
-<img src="../../wiki_images/logos/melonds-logo.svg" width="150">
+<img src="../../../wiki_images/logos/melonds-logo.svg" width="150">
 
 WIP
 

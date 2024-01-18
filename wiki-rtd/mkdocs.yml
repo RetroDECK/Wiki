@@ -141,6 +141,12 @@ nav:
     - Duckstation - General Guide (WIP): wiki_emulator_guides/duckstation/duckstation-guide.md
     - Duckstation - Texture Pack Guide: wiki_emulator_guides/duckstation/duckstation-texture-pack.md
 
+  - Emulator Guide - MAME 💰:
+    - MAME - General Guide (WIP): wiki_emulator_guides/mame/mame-guide.md
+
+  - Emulator Guide - MelonDS 🍉:
+    - MelonDS - General Guide (WIP): wiki_emulator_guides/melonds/melonds-guide.md
+
   - Emulator Guide - PCSX2 2️⃣:
     - PCSX2 - General Guide (WIP): wiki_emulator_guides/pcsx2/pcsx2-guide.md
     - PCSX2 - Texture Pack Guide: wiki_emulator_guides/pcsx2/pcsx2-texture-pack.md

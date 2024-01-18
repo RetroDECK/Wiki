@@ -236,8 +236,10 @@ nav:
     - Singstar - Microphone: wiki_controllers/music/singstar-microphone.md
     - Taiko Drum & Bachi: wiki_controllers/music/taiko-drum-bachi.md
 
-  - SORT ME:
-    - Racing - Controllers (WIP): wiki_controllers/controllers-racing.md
-    - Toys-to-life - Controllers (WIP): wiki_controllers/controllers-toys-to-life.md
+  - Controllers - Racing (WIP) 🏎️:
+    - About Racing Controllers: wiki_controllers/racing/about-racing.md
+
+  - Controllers - Toys-to-life (WIP) 🧸:
+    -  About Toys-to-life Controllers: wiki_controllers/toystolife/about-toys-to-life.md
 
 

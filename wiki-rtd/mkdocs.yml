@@ -199,9 +199,18 @@ nav:
   - Controllers - Flight (WIP):
     - About Flight Controllers: wiki_controllers/flight/about-flight.md
 
+  - Controllers - Gimmick (WIP):
+    - About Gimmick Controllers: wiki_controllers/gimmick/about-gimmick.md
+    - Buzz - Buzzers: wiki_controllers/gimmick/buzz-buzzers.md
+    - Cycling Sports - Cyberbike: wiki_controllers/gimmick/cyberbike.md
+    - Densha de Go! - Shinkansen Cockpit: wiki_controllers/gimmick/shinkansen-cockpit.md
+    - Drawsome! - Tablet: wiki_controllers/gimmick/drawsome-tablet.md
+    - EA - Active Heart Rate Monitor: wiki_controllers/gimmick/active-heart-rate-monitor.md
+    - SEGA - Seamic Controller: wiki_controllers/gimmick/sega-seamic.md
+    - Steel Battalion  - Cockpit: wiki_controllers/gimmick/steel-battalion-cockpit.md
+    - Udraw - Tablet: wiki_controllers/gimmick/udraw-tablet.md
+
   - Controllers - (WIP):
-    - Flight - Controllers (WIP): wiki_controllers/controllers-flight.md
-    - Gimmick - Controllers (WIP): wiki_controllers/controllers-gimmick.md
     - Lightguns - Controllers (WIP): wiki_controllers/controllers-lightguns.md
     - Motion - Controllers (WIP): wiki_controllers/controllers-motion.md
     - Music / Rhythm - Controllers (WIP): wiki_controllers/controllers-music.md

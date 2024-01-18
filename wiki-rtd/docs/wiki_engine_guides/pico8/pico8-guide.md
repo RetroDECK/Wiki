@@ -1,6 +1,6 @@
-# Guide: PICO-8
+# PICO-8 - General Guide
 
-<img src="../../wiki_images/logos//pico-8-logo.png">
+<img src="../../../wiki_images/logos//pico-8-logo.png">
 
 WIP
 

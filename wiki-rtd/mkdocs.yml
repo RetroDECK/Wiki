@@ -115,6 +115,9 @@ nav:
   - Engine Guide - IkemenGO / M.U.G.E.N 🥋:
     - IkemenGO / M.U.G.E.N  - General Guide (WIP): wiki_engine_guides/ikemengo/ikemengo-guide.md
 
+  - Engine Guide - Pico-8 8️⃣:
+    - ScummVM - General Guide: wiki_engine_guides/pico8/pico8-guide.md
+
   - Engine Guide - ScummVM 🖱️:
     - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
 
@@ -172,8 +175,6 @@ nav:
     - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
 
   - Emulator Guides SORT THIS📙 (WIP):
-    - MAME (WIP): wiki_emulator_guides/mame-guide.md
-    - MelonDS (WIP): wiki_emulator_guides/melonds-guide.md
     - PICO-8 (WIP): wiki_emulator_guides/pico8-guide.md
     - Vita3K: wiki_emulator_guides/vita3k-guide.md
     - Xemu (WIP): wiki_emulator_guides/xemu-guide.md

@@ -154,7 +154,7 @@ nav:
     - RetroDECK and Udev Rules: wiki_controllers/about/about-udev.md
     - RetroDECK and Steam Input: wiki_steam/steam-input.md
 
-  - Controllers - Nintendo (WIP):
+  - Controllers - Nintendo (WIP) 🎮:
     - Nintendo - RetroDECK Hotkeys: wiki_controllers/nintendo/nintendo-hotkeys.md
     - Switch - Pro Controller: wiki_controllers/nintendo/switch-pro.md
     - Switch - Joy-Cons: wiki_controllers/nintendo/joycon.md
@@ -164,7 +164,7 @@ nav:
     - Wii - Wii Balance Board: wiki_controllers/nintendo/wii-balance-board.md
     - Gamecube - PC / WiiU Adapter: wiki_controllers/nintendo/gamecube-adapter.md
 
-  - Controllers - Playstation (WIP):
+  - Controllers - Playstation (WIP) 🎮:
     - Playstation - RetroDECK Hotkeys: wiki_controllers/playstation/playstation-hotkeys.md
     - Playstation 2 - EyeToy: wiki_controllers/playstation/eyetoy.md
     - Playstation 3 - DualShock 3: wiki_controllers/playstation/dualshock-3.md
@@ -173,7 +173,7 @@ nav:
     - Playstation 5 - DualSense: wiki_controllers/playstation/dualsense.md
     - Playstation 5 - DualSense Edge: wiki_controllers/playstation/dualsense-edge.md
 
-  - Controllers - Xbox (WIP):
+  - Controllers - Xbox (WIP) 🎮:
     - Xbox - RetroDECK Hotkeys: wiki_controllers/xbox/xbox-hotkeys.md
     - Xbox 360 - Controller: wiki_controllers/xbox/xbox-360.md
     - Xbox 360 - Kinect V1: wiki_controllers/xbox/xbox-360-kinect.md
@@ -182,25 +182,25 @@ nav:
     - Xbox S/X - Xbox Elite Series 2: wiki_controllers/xbox/xbox-wireless-elite.md
     - Xbox Adaptive Controller: wiki_controllers/accessibility/xac.md
 
-  - Controllers - Steam/Valve (WIP):
+  - Controllers - Steam/Valve (WIP) 🎮:
     - Steam Deck - Controller: wiki_controllers/steam/controllers-steamdeck.md
     - Steam - Steam Controller: wiki_controllers/steam/controllers-steam.md
 
-  - Controllers - Generic - Standard Type (WIP):
+  - Controllers - Generic - Standard Type (WIP) 🎮:
     - Generic Standard - RetroDECK Hotkeys: wiki_controllers/generic/standard/generic-standard-hotkeys.md
     - About Generic Standard: wiki_controllers/generic/standard/generic-standard.md
 
-  - Controllers - Accessibility (WIP):
+  - Controllers - Accessibility (WIP) ♿:
     - About Accessibility Controllers: wiki_controllers/accessibility/about-accessibility.md
     - Xbox Adaptive Controller: wiki_controllers/accessibility/xac.md
 
-  - Controllers - Arcade (WIP):
+  - Controllers - Arcade (WIP) 🕹️:
     - About Arcade Controllers: wiki_controllers/arcade/about-arcade.md
 
-  - Controllers - Flight (WIP):
+  - Controllers - Flight (WIP) ✈️:
     - About Flight Controllers: wiki_controllers/flight/about-flight.md
 
-  - Controllers - Gimmick (WIP):
+  - Controllers - Gimmick (WIP) 🤡:
     - About Gimmick Controllers: wiki_controllers/gimmick/about-gimmick.md
     - Buzz - Buzzers: wiki_controllers/gimmick/buzz-buzzers.md
     - Cycling Sports - Cyberbike: wiki_controllers/gimmick/cyberbike.md
@@ -211,6 +211,11 @@ nav:
     - SEGA - Seamic Controller: wiki_controllers/gimmick/sega-seamic.md
     - Steel Battalion  - Cockpit: wiki_controllers/gimmick/steel-battalion-cockpit.md
     - Udraw - Tablet: wiki_controllers/gimmick/udraw-tablet.md
+
+  - Controllers - Lightguns (WIP) 🔫:
+    - About Lightguns: wiki_controllers/lightgun/about-lightguns.md
+    - Gun4IR: wiki_controllers/lightgun/gun4ir.md
+    - Sinden: wiki_controllers/lightgun/sinden.md
 
   - Controllers - (WIP):
     - Lightguns - Controllers (WIP): wiki_controllers/controllers-lightguns.md

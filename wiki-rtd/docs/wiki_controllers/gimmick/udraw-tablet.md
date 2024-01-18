@@ -1,4 +1,4 @@
-## UDraw Tablet
+# UDraw Tablet
 
 <img src="../../../wiki_images/controllers/udraw-tablet.png" width="250">
 

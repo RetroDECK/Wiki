@@ -1,36 +1,8 @@
-# Generic Controllers
+# Generic Standard: RetroDECK Hotkeys
 
-**Note these inputs are part of the upcoming 0.8b update.**
+## What are the Official profiles called?
 
-<img src="../../wiki_images/controllers/xiaomi-controller.png" width="280">
-<img src="../../wiki_images/controllers/8bitdo-pro2.png" width="250">
-
-Generic Controllers is a broad category that encompasses the vast majority of third party controllers.<br>
-
-## Generic - Standard
-
-The Standard type has the same layout and amount of inputs as all modern controllers aka the Standard Default.
-
-- A dpad.
-- Four top buttons: R1, R2, L1, L2
-- Four face buttons: A, B, X, Y
-- Start and Select
-- Two clickable joysticks: R3 and L3
-
-Bonus:
-
-- A home/xbox/playstation button
-
-#### Steam Input support
-Yes
-
-### What is the Official profile called?
-
-- Generic - Standard : `RetroDECK: Generic - Standard`
-
-#### What is the Current Version Number of the profile?
-
-WIP
+- Generic Standard : `RetroDECK: Generic - Standard`
 
 
 ## Global Hotkeys: Generic Button Combos

@@ -184,6 +184,10 @@ nav:
     - Steam Deck - Controller: wiki_controllers/steam/controllers-steamdeck.md
     - Steam - Steam Controller (WIP): wiki_controllers/steam/controllers-steam.md
 
+  - Controllers - Generic - Standard Type (WIP):
+    - Generic Standard - RetroDECK Hotkeys: wiki_controllers/generic/standard/generic-standard-hotkeys.md
+    - About Generic Standard: wiki_controllers/generic/standard/generic-standard.md
+
   - Controllers - (WIP):
     - Accessibility - Controllers (WIP): wiki_controllers/controllers-accessibility.md
     - Arcade - Controllers (WIP): wiki_controllers/controllers-arcade.md

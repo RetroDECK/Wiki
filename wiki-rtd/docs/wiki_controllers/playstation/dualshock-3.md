@@ -10,7 +10,7 @@ Yes, 2.17  `hid-sony`
 
 ## What is the Official RetroDECK - Steam Input Profile called?
 
-- DualShock 3 / Sixaxis: `RetroDECK: Dualshock 3`
+- DualShock 3 / Sixaxis: `RetroDECK: DualShock 3`
 
 ### RetroDECK Hotkeys
 

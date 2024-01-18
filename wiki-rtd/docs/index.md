@@ -14,9 +14,9 @@ Some articles are marked with WIP (Work in Progress) and might be for an upcommi
 
 - [What is RetroDECK?](wiki_general/what-is-retrodeck.md)
 - [What is included in RetroDECK?](wiki_general/what-is-included.md)
-- [Supported Devices](wiki_general/supported-devices/)
-- [About the BETA Period](wiki_general/beta-period/)
-- [Getting Started](wiki_general/retrodeck-start/)
+- [Supported Devices](wiki_general/supported-devices.md)
+- [About the BETA Period](wiki_general/beta-period.md)
+- [Getting Started](wiki_general/retrodeck-start.md)
 
 ### Do you want to help to contribute to the wiki?
 

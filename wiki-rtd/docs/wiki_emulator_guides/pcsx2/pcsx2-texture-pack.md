@@ -1,10 +1,9 @@
-# Texture Packs: PCSX2 - Playstation 2
+#  PCSX2 - Texture Pack Guide
 The `~/retrodeck/texture_packs/PCSX2/` represents the `/PCSX2/textures/` folder in PCSX2.
 
 **Note:** <br>
 Some texture packs could made for a specific version or region of a game. Make sure you have the right game and textures for it.
 
-**Note:**<br>
 `TITLEID` is different for every game.
 
 ## Enable Custom Textures

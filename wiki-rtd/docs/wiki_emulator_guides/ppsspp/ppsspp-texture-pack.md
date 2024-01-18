@@ -1,4 +1,4 @@
-# PPSSPP - PSP
+# PPSSPP - Texture Pack Guide
 The `~/retrodeck/texture_packs/ppsspp/` represents the `/PSP/TEXTURES/` folder in PPSSPP.
 
 **Note:** <br>

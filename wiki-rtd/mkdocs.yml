@@ -120,9 +120,17 @@ nav:
     - Dolphin / Primehack - Mod Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-mod.md
     - Dolphin / Primehack - Texture Pack Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-texture-pack.md
 
-  - Emulator Guide - Duckstation 🪶:
+  - Emulator Guide - Duckstation 🐓:
     - Duckstation - General Guide (WIP): wiki_emulator_guides/duckstation/duckstation-guide.md
     - Duckstation - Texture Pack Guide: wiki_emulator_guides/duckstation/duckstation-texture-pack.md
+
+  - Emulator Guide - PCSX2 2️⃣:
+    - PCSX2 - General Guide (WIP): wiki_emulator_guides/pcsx2/pcsx2-guide.md
+    - PCSX2 - Texture Pack Guide: wiki_emulator_guides/pcsx2/pcsx2-texture-pack.md
+
+  - Emulator Guide - PPSSPP 🔺:
+    - PPSSPP - General Guide (WIP): wiki_emulator_guides/ppsspp/ppsspp-guide.md
+    - PPSSPP - Texture Pack Guide: wiki_emulator_guides/ppsspp/ppsspp-texture-pack.md
 
   - Emulator Guide - Ryujinx 🔵:
     - Ryujinx - General Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-guide.md
@@ -140,18 +148,13 @@ nav:
     - MAME (WIP): wiki_emulator_guides/mame-guide.md
     - MelonDS (WIP): wiki_emulator_guides/melonds-guide.md
     - OpenBOR (WIP): wiki_emulator_guides/openbor-guide.md
-    - PCSX2 (WIP): wiki_emulator_guides/pcsx2-guide.md
     - PICO-8 (WIP): wiki_emulator_guides/pico8-guide.md
-    - PPSSPP (WIP): wiki_emulator_guides/ppsspp-guide.md
     - RetroArch (WIP): wiki_emulator_guides/retroarch-guide.md
     - Solarus (WIP): wiki_emulator_guides/solarus-guide.md
     - Vita3K: wiki_emulator_guides/vita3k-guide.md
     - Xemu (WIP): wiki_emulator_guides/xemu-guide.md
 
   - Texture Pack Guides 🖌️:
-    - Texture Packs - Duckstation: wiki_texture_packs/duckstation-tp.md
-    - Texture Packs - PCSX2: wiki_texture_packs/pcsx2-tp.md
-    - Texture Packs - PPSSPP: wiki_texture_packs/ppsspp-tp.md
     - Texture Packs - RetroArch Mesen: wiki_texture_packs/retroarch-mesen-tp.md
     - Texture Packs - RetroArch Mupen64Plus: wiki_texture_packs/retroarch-mupen64plus-tp.md
 

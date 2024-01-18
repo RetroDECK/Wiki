@@ -107,17 +107,17 @@ nav:
     - ES-DE Themes: wiki_emulationStation_de/esde-themes.md
     - ES-DE Folders and Files (WIP): wiki_emulationStation_de/esde-folders-files.md
 
-  - Engine Guide - GZDoom (WIP) 👹:
-    - GZDoom - General Guide: wiki_emulator_guides/gzdoom/gzdoom-guide.md
+  - Engine Guide - GZDoom 👹:
+    - GZDoom - General Guide (WIP): wiki_emulator_guides/gzdoom/gzdoom-guide.md
     - Get the WADs from bought DOOM / DOOM 2: wiki_emulator_guides/gzdoom/extract-doom-wads.md
 
-  - Emulator Guide - Citra (WIP) 🍋:
-    - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
+  - Emulator Guide - Citra 🍋:
+    - Citra - General Guide (WIP): wiki_emulator_guides/citra/citra-guide.md
     - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
     - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md
 
-  - Emulator Guide - Dolphin / Primehack (WIP) 🐬:
-    - Dolphin / Primehack - General Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md
+  - Emulator Guide - Dolphin / Primehack 🐬:
+    - Dolphin / Primehack - General Guide (WIP): wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md
     - Dolphin / Primehack - Mod Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-mod.md
     - Dolphin / Primehack - Texture Pack Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-texture-pack.md
 
@@ -157,17 +157,17 @@ nav:
     - RetroDECK and Udev Rules: wiki_controllers/about/about-udev.md
     - RetroDECK and Steam Input: wiki_steam/steam-input.md
 
-  - Controllers - Nintendo (WIP) 🎮:
+  - Controllers - Nintendo 🎮:
     - Nintendo - RetroDECK Hotkeys: wiki_controllers/nintendo/nintendo-hotkeys.md
     - Switch - Pro Controller: wiki_controllers/nintendo/switch-pro.md
-    - Switch - Joy-Cons: wiki_controllers/nintendo/joycon.md
-    - Switch - Ring Fit: wiki_controllers/nintendo/ring-fit.md
+    - Switch - Joy-Cons (WIP): wiki_controllers/nintendo/joycon.md
+    - Switch - Ring Fit (WIP): wiki_controllers/nintendo/ring-fit.md
     - Wii U - Gamepad: wiki_controllers/nintendo/wiiu-gamepad.md
-    - Wii - Wii Remote (Wiimote): wiki_controllers/nintendo/wii-remote.md
-    - Wii - Wii Balance Board: wiki_controllers/nintendo/wii-balance-board.md
+    - Wii - Wii Remote (Wiimote) (WIP): wiki_controllers/nintendo/wii-remote.md
+    - Wii - Wii Balance Board (WIP): wiki_controllers/nintendo/wii-balance-board.md
     - Gamecube - PC / WiiU Adapter: wiki_controllers/nintendo/gamecube-adapter.md
 
-  - Controllers - Playstation (WIP) 🎮:
+  - Controllers - Playstation 🎮:
     - Playstation - RetroDECK Hotkeys: wiki_controllers/playstation/playstation-hotkeys.md
     - Playstation 2 - EyeToy: wiki_controllers/playstation/eyetoy.md
     - Playstation 3 - DualShock 3: wiki_controllers/playstation/dualshock-3.md
@@ -176,76 +176,76 @@ nav:
     - Playstation 5 - DualSense: wiki_controllers/playstation/dualsense.md
     - Playstation 5 - DualSense Edge: wiki_controllers/playstation/dualsense-edge.md
 
-  - Controllers - Xbox (WIP) 🎮:
+  - Controllers - Xbox 🎮:
     - Xbox - RetroDECK Hotkeys: wiki_controllers/xbox/xbox-hotkeys.md
     - Xbox 360 - Controller: wiki_controllers/xbox/xbox-360.md
     - Xbox 360 - Kinect V1: wiki_controllers/xbox/xbox-360-kinect.md
     - Xbox One - Kinect V2: wiki_controllers/xbox/xbox-one-kinect.md
     - Xbox One/S/X - Xbox Wireless Controller: wiki_controllers/xbox/xbox-wireless.md
     - Xbox S/X - Xbox Elite Series 2: wiki_controllers/xbox/xbox-wireless-elite.md
-    - Xbox Adaptive Controller: wiki_controllers/accessibility/xac.md
+    - Xbox Adaptive Controller (WIP): wiki_controllers/accessibility/xac.md
 
-  - Controllers - Steam/Valve (WIP) 🎮:
+  - Controllers - Steam/Valve 🎮:
     - Steam Deck - Controller: wiki_controllers/steam/controllers-steamdeck.md
     - Steam - Steam Controller: wiki_controllers/steam/steam-controller-gordon.md
 
-  - Controllers - Generic - Standard Type (WIP) 🎮:
+  - Controllers - Generic - Standard Type 🎮:
     - Generic Standard - RetroDECK Hotkeys: wiki_controllers/generic/standard/generic-standard-hotkeys.md
     - About Generic Standard: wiki_controllers/generic/standard/generic-standard.md
 
-  - Controllers - Accessibility (WIP) ♿:
+  - Controllers - Accessibility ♿:
     - About Accessibility Controllers: wiki_controllers/accessibility/about-accessibility.md
     - Xbox Adaptive Controller: wiki_controllers/accessibility/xac.md
 
-  - Controllers - Arcade (WIP) 🕹️:
+  - Controllers - Arcade 🕹️:
     - About Arcade Controllers: wiki_controllers/arcade/about-arcade.md
 
-  - Controllers - Flight (WIP) ✈️:
+  - Controllers - Flight ✈️:
     - About Flight Controllers: wiki_controllers/flight/about-flight.md
 
-  - Controllers - Gimmick (WIP) 🤡:
+  - Controllers - Gimmick  🤡:
     - About Gimmick Controllers: wiki_controllers/gimmick/about-gimmick.md
-    - Buzz - Buzzers: wiki_controllers/gimmick/buzz-buzzers.md
-    - Cycling Sports - Cyberbike: wiki_controllers/gimmick/cyberbike.md
-    - Densha de Go! - Shinkansen Cockpit: wiki_controllers/gimmick/shinkansen-cockpit.md
-    - Drawsome! - Tablet: wiki_controllers/gimmick/drawsome-tablet.md
-    - EA - Active Heart Rate Monitor: wiki_controllers/gimmick/active-heart-rate-monitor.md
-    - RIDE - Balance Board: wiki_controllers/gimmick/ride-balance-board.md
-    - SEGA - Seamic Controller: wiki_controllers/gimmick/sega-seamic.md
+    - Buzz - Buzzers (WIP): wiki_controllers/gimmick/buzz-buzzers.md
+    - Cycling Sports - Cyberbike (WIP): wiki_controllers/gimmick/cyberbike.md
+    - Densha de Go! - Shinkansen Cockpit (WIP): wiki_controllers/gimmick/shinkansen-cockpit.md
+    - Drawsome! - Tablet (WIP): wiki_controllers/gimmick/drawsome-tablet.md
+    - EA - Active Heart Rate Monitor (WIP): wiki_controllers/gimmick/active-heart-rate-monitor.md
+    - RIDE - Balance Board (WIP): wiki_controllers/gimmick/ride-balance-board.md
+    - SEGA - Seamic Controller (WIP): wiki_controllers/gimmick/sega-seamic.md
     - Steel Battalion  - Cockpit: wiki_controllers/gimmick/steel-battalion-cockpit.md
-    - Udraw - Tablet: wiki_controllers/gimmick/udraw-tablet.md
+    - Udraw - Tablet (WIP): wiki_controllers/gimmick/udraw-tablet.md
 
-  - Controllers - Lightguns (WIP) 🔫:
+  - Controllers - Lightguns 🔫:
     - About Lightguns: wiki_controllers/lightgun/about-lightguns.md
-    - AE Lightgun: wiki_controllers/lightgun/ae-lightgun.md
-    - Aimtrak: wiki_controllers/lightgun/aimtrak.md
-    - GUN4IR: wiki_controllers/lightgun/gun4ir.md
-    - GunCon 1/2: wiki_controllers/lightgun/guncon-1-2.md
-    - GunCon 3: wiki_controllers/lightgun/guncon-3.md
-    - SAMCO: wiki_controllers/lightgun/samco.md
-    - Sinden: wiki_controllers/lightgun/sinden.md
-    - Wii Remote Gun: wiki_controllers/lightgun/wii-remote-gun.md'
+    - AE Lightgun (WIP): wiki_controllers/lightgun/ae-lightgun.md
+    - Aimtrak (WIP): wiki_controllers/lightgun/aimtrak.md
+    - GUN4IR (WIP): wiki_controllers/lightgun/gun4ir.md
+    - GunCon 1/2 (WIP): wiki_controllers/lightgun/guncon-1-2.md
+    - GunCon 3 (WIP): wiki_controllers/lightgun/guncon-3.md
+    - SAMCO (WIP): wiki_controllers/lightgun/samco.md
+    - Sinden (WIP): wiki_controllers/lightgun/sinden.md
+    - Wii Remote Gun (WIP): wiki_controllers/lightgun/wii-remote-gun.md'
 
-  - Controllers - Music / Rhythm (WIP) 🎵:
+  - Controllers - Music / Rhythm🎵:
     - About Music / Rhythm Controllers: wiki_controllers/music/about-music.md
     - Dance Pads: wiki_controllers/music/dance-pads.md
-    - DJ Hero - Turntable: wiki_controllers/music/dj-hero-turntable.md
+    - DJ Hero - Turntable (WIP): wiki_controllers/music/dj-hero-turntable.md
     - DK Bongos: wiki_controllers/music/dk-bongos.md
-    - Guitar Hero / Rockband - Button Guitars: wiki_controllers/music/guitar-rb-gh.md
-    - Guitar Hero / Rockband - Drums: wiki_controllers/music/drums-rb-gh.md
-    - Guitar Hero / Rockband - Microphone: wiki_controllers/music/microphone-rb-gh.md
-    - Keyboardmania - Keyboard: wiki_controllers/music/keyboardmania-keyboard.md
-    - Rockband - Keyboard: wiki_controllers/music/keyboard-rb.md
-    - Singstar - Microphone: wiki_controllers/music/singstar-microphone.md
-    - Taiko Drum & Bachi: wiki_controllers/music/taiko-drum-bachi.md
+    - Guitar Hero / Rockband - Button Guitars (WIP): wiki_controllers/music/guitar-rb-gh.md
+    - Guitar Hero / Rockband - Drums (WIP): wiki_controllers/music/drums-rb-gh.md
+    - Guitar Hero / Rockband - Microphone (WIP): wiki_controllers/music/microphone-rb-gh.md
+    - Keyboardmania - Keyboard (WIP): wiki_controllers/music/keyboardmania-keyboard.md
+    - Rockband - Keyboard (WIP): wiki_controllers/music/keyboard-rb.md
+    - Singstar - Microphone (WIP): wiki_controllers/music/singstar-microphone.md
+    - Taiko Drum & Bachi (WIP): wiki_controllers/music/taiko-drum-bachi.md
 
-  - Controllers - Racing (WIP) 🏎️:
+  - Controllers - Racing 🏎️:
     - About Racing Controllers: wiki_controllers/racing/about-racing.md
 
-  - Controllers - Toys-to-life (WIP) 🧸:
+  - Controllers - Toys-to-life 🧸:
     - About Toys-to-life Controllers: wiki_controllers/toystolife/about-toys-to-life.md
-    - Disney Infinity - Infinity Base: wiki_controllers/toystolife/disney-infinity-base.md
-    - Kamen Rider Summonride - Summonrider Portal: wiki_controllers/toystolife/kamen-rider-summonrider-portal.md
+    - Disney Infinity - Infinity Base (WIP): wiki_controllers/toystolife/disney-infinity-base.md
+    - Kamen Rider Summonride - Summonrider Portal (WIP): wiki_controllers/toystolife/kamen-rider-summonrider-portal.md
     - LEGO Dimensions - LEGO ToyPad: wiki_controllers/toystolife/lego-toypad.md
-    - Skylanders - Portal of Power: wiki_controllers/toystolife/skylanders-portal-of-power.md
-    - Skylanders - Traptanium Portal: wiki_controllers/toystolife/skylanders-traptanium-portal.md
+    - Skylanders - Portal of Power (WIP): wiki_controllers/toystolife/skylanders-portal-of-power.md
+    - Skylanders - Traptanium Portal (WIP): wiki_controllers/toystolife/skylanders-traptanium-portal.md

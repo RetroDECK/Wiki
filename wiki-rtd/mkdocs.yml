@@ -109,8 +109,8 @@ nav:
     - ES-DE Folders and Files (WIP): wiki_emulationStation_de/esde-folders-files.md
 
   - Engine Guide - GZDoom (WIP):
-    - GZDoom Guide: wiki_emulator_guides/gzdoom/gzdoom-guide.md
-    - Get the WADs from bought DOOM / DOOM 2 (WIP): wiki_emulator_guides/gzdoom/extract-doom-wads.md
+    - GZDoom - General Guide: wiki_emulator_guides/gzdoom/gzdoom-guide.md
+    - Get the WADs from bought DOOM / DOOM 2: wiki_emulator_guides/gzdoom/extract-doom-wads.md
 
   - Emulator Guide - Citra (WIP):
     - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md

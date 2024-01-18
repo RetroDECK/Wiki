@@ -1,4 +1,4 @@
-# Texture Packs: RetroArch - N64 - Mupen64Plus-Next
+# RetroArch - Mupen64Plus-Next - Texture Pack Guide
 
 The `texture_packs/RetroArch-Mupen64Plus/` represents `/retroarch/system/Mupen64plus/` folder.
 

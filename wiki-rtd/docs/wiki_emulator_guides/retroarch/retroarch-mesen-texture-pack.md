@@ -1,4 +1,4 @@
-# Texture Packs: RetroArch - NES - Mesen
+# RetroArch - Mesen - Texture Pack Guide
 The `texture_packs/RetroArch-Mesen/` represents `/retroarch/system/HdPacks/` folder.
 
 **Note:** <br>

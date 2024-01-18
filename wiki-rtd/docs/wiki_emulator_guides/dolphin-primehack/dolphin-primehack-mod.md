@@ -1,4 +1,4 @@
-# Mods: Dolphin / Primehack - GC & Wii
+# Dolphin / Primehack - Mod Guide
 Primehack is based on Dolphin so the method is the same.
 
 The `~/retrodeck/mods/dolphin/` & `~/retrodeck/mods/primehack/` that represents the `/load/GraphicMods` folder.<br>

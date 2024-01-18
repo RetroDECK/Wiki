@@ -1,12 +1,9 @@
-# Texture Packs: Dolphin / Primehack - GC & Wii
+# Dolphin / Primehack - Texture Pack Guide
 Primehack is based on Dolphin so the method is the same.
 
 The `~/retrodeck/texture_packs/dolphin/` & `~/retrodeck/texture_packs/primehack/` represents the `/load/Textures` folder.<br>
 
-**Note:** <br>
-Some texture packs could made for a specific version or region of a game. Make sure you have the right game and textures for it.
-
-**Note:**<br>
+Some texture packs could made for a specific version or region of a game. Make sure you have the right game and textures for it.<br>
 `GAME_ID` is different for every game.
 
 ## Enable Custom Textures

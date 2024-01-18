@@ -121,9 +121,12 @@ nav:
     - Dolphin / Primehack - Mod Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-mod.md
     - Dolphin / Primehack - Texture Pack Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-texture-pack.md
 
+  - Emulator Guide - Yuzu 🍊:
+    - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
+    - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
+
   - Emulator Guides SORT THIS📙 (WIP):
     - RPCS3: wiki_emulator_guides/rpcs3-guide.md
-    - Yuzu: wiki_emulator_guides/yuzu-guide.md
     - ScummVM: wiki_emulator_guides/scummvm-guide.md
     - Cemu (WIP): wiki_emulator_guides/cemu-guide.md
     - Duckstation (WIP): wiki_emulator_guides/duckstation-guide.md
@@ -142,7 +145,6 @@ nav:
 
   - Mod Guides ⚙️:
     - Mods - Ryujinx (WIP): wiki_mods/ryujinx-mods.md
-    - Mods - Yuzu: wiki_mods/yuzu-mods.md
 
   - Texture Pack Guides 🖌️:
     - Texture Packs - Duckstation: wiki_texture_packs/duckstation-tp.md

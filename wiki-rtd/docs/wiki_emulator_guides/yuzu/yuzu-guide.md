@@ -1,6 +1,6 @@
-# Guide: Yuzu - Switch
+# Yuzu - General Guide
 
-<img src="../../wiki_images/logos//yuzu-logo.svg" width="150">
+<img src="../../../wiki_images/logos//yuzu-logo.svg" width="150">
 
 ---
 

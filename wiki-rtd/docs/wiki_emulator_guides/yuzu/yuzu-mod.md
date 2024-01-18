@@ -1,4 +1,4 @@
-# Mods: Yuzu - Switch
+# Yuzus - Mod Guide
 
 **Note:**<br>
 `TITLEID` is different for every game.

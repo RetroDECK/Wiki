@@ -116,7 +116,7 @@ No, as long as you don't manually don't delete the `~\retrodeck` folder and it's
 <br>
 
 ### How can I move RetroDECK do a different device like Steam Deck OLED or a new Linux PC?
-Yes, check over at [How to: Move RetroDECK to a new device](../wiki_howto_faq/retrodeck-move.md)
+Yes, check over at [How to: Move RetroDECK to a new device](../wiki_management/retrodeck-move.md)
 
 <br>
 

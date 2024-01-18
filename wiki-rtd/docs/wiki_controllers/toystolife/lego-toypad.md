@@ -10,6 +10,10 @@ No
 ### Linux Kernel Support
 Yes, it is an NFC reader USB device.
 
+### Udev rule
+
+`SUBSYSTEM=="usb", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0241", MODE="0666"`
+
 ### Emulator usecase
 `RPCS3` `Xenia`
 

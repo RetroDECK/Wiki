@@ -1,8 +1,8 @@
-# Skylanders - Portal of Power
+# Disney Infinity - Infinity Base
 
-<img src="../../../wiki_images/controllers/portal-of-power.png" width="250">
+<img src="../../../wiki_images/controllers/disney-infinity-base.png" width="250">
 
-The Portal of Power is used for the `Skylanders` game series.
+The Infinity Base is used for the `Disney Infinity` game series.
 
 ### Steam Input Support
 No

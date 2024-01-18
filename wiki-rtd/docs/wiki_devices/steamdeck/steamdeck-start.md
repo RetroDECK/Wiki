@@ -18,7 +18,7 @@
 
 ## Other quick tips
 
-- Read up on the [Steam Deck - Controls](../../wiki_controllers/steam/controllers-steamdeck.md) to ease your navigation.
+- Read up on the [Steam Deck - Controller](../../wiki_controllers/steam/controllers-steamdeck.md) to ease your navigation.
 - Read up on the [EmulationStation DE: User Guide](../../wiki_emulationStation_de/esde-guide.md)
 - Check out our other software recommendations for the Steam Deck [Steam Deck - Software Recommendations](../../wiki_devices/steamdeck/steamdeck-software.md).
 - Check various optional optimizations that can make some emulators run even better [Steam Deck - Optimizations](../../wiki_devices/steamdeck/steamdeck-optimize.md).
@@ -52,7 +52,7 @@
 
 ### Step 4 (Optional): Extras
 - Get RetroDECK Steam Grid art with BoilR or add it manually from [SteamgridDB](https://www.steamgriddb.com/search/grids?term=RetroDeck) for the Steam Grid.
-- Read up on the [Steam Deck - Controls](../../wiki_controllers/controls-steamdeck.md) to ease your navigation.
+- Read up on the [Steam Deck - Controller](../../wiki_controllers/steam/controllers-steamdeck.md)) to ease your navigation.
 - Read up on the [EmulationStation DE: User Guide](../../wiki_emulationStation_de/esde-guide.md)
 - Check out our other software recommendations for the Steam Deck [Steam Deck - Software Recommendations](../../wiki_devices/steamdeck/steamdeck-software.md).
 - Check various optional optimizations that can make some emulators run even better [Steam Deck - Optimizations](../../wiki_devices/steamdeck/steamdeck-optimize.md).

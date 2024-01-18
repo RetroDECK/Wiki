@@ -114,15 +114,14 @@ nav:
 
   - Emulator Guide - Citra (WIP):
     - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
-    - Citra - Mods Guide: wiki_emulator_guides/citra/citra-mods.md
-    - Citra - Texture Packs Guide: wiki_emulator_guides/citra/citra-texture-pack.md
+    - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
+    - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md
 
   - Emulator Guides SORT THIS📙 (WIP):
     - RPCS3: wiki_emulator_guides/rpcs3-guide.md
     - Yuzu: wiki_emulator_guides/yuzu-guide.md
     - ScummVM: wiki_emulator_guides/scummvm-guide.md
     - Cemu (WIP): wiki_emulator_guides/cemu-guide.md
-
     - Dolphin / Primehack (WIP): wiki_emulator_guides/dolphin-primehack-guide.md
     - Duckstation (WIP): wiki_emulator_guides/duckstation-guide.md
     - IkemenGO - M.U.G.E.N (WIP): wiki_emulator_guides/ikemengo-guide.md

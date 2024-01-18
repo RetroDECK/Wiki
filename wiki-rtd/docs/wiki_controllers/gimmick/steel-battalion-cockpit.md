@@ -10,6 +10,9 @@ No
 ### Linux Kernel Support
 No
 
+### Emulator usecase
+`XEMU`
+
 ## How to use with RetroDECK or a PC or anything else?
 
 There have been efforts by user `SantiagoSaldana` of `hackaday.io` to get it working on PCs via a `Teensy 3.6 / 4.1 Arduino Adapter`.

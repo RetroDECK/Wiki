@@ -10,6 +10,9 @@ No
 ### Linux Kernel Support
 Unknown
 
+### Emulator usecase
+`RPCS3` `Dolphin` `Xenia`
+
 ## How to configure
 
 WIP

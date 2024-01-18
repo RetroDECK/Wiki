@@ -12,6 +12,9 @@ Yes, 2.17  `hid-sony`
 
 They are counted as normal USB controllers.
 
+### Emulator usecase
+`RPCS3` `PCSX2`
+
 ## How to emulate / Configure
 
 ### PCSX2 - Playstation 2

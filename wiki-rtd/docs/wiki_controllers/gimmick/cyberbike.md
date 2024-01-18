@@ -10,6 +10,9 @@ No
 ### Linux Kernel Support
 Unknown
 
+### Emulator usecase
+`Dolphin`
+
 ## How to configure
 
 WIP

@@ -11,7 +11,7 @@ No
 Unknown
 
 ### Emulator usecase
-`RPCS3` `Dolphin`
+`RPCS3` `Dolphin` `Xenia`
 
 ## How to configure
 

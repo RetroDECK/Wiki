@@ -18,26 +18,26 @@ Just to be safe, it is better before you buy anything to double check if there i
 
 ## Flight Sticks - Arcade
 
-<img src="../../wiki_images/controllers/flightstick-arcade.png" width="250">
+<img src="../../../wiki_images/controllers/flightstick-arcade.png" width="250">
 
 Arcade flight sticks are used for mainly flight arcade games.
 
 
 ## Flight Sticks - Professional
 
-<img src="../../wiki_images/controllers/flightstick-pro.png" width="250">
+<img src="../../../wiki_images/controllers/flightstick-pro.png" width="250">
 
 Professional level flight sticks are used for mainly flight simulation games.
 
 ## Cockpit Style Sticks
 
-<img src="../../wiki_images/controllers/flight-cockpit.png" width="250">
+<img src="../../../wiki_images/controllers/flight-cockpit.png" width="250">
 
 
 Cockpit Style flight sticks are used for mainly flight simulation games.
 
 ## Flight Pedals
 
-<img src="../../wiki_images/controllers/flight-pedals.png" width="250">
+<img src="../../../wiki_images/controllers/flight-pedals.png" width="250">
 
 Flight Pedals are used for mainly flight simulation games.

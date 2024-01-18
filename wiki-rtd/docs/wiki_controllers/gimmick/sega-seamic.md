@@ -2,13 +2,16 @@
 
 <img src="../../../wiki_images/controllers/sega-seamic-ps2.png" width="230">
 
-Uses for the PS2 games: `Seaman: Kindan no Pet` & `Seaman 2: Peking Genjin Ikusei Kit`
+Uses for the PlayStation 2 games: `Seaman: Kindan no Pet` & `Seaman 2: Peking Genjin Ikusei Kit`
 
 ### Steam Input support
 No
 
 ### Linux Kernel Support
 Unknown
+
+### Emulator usecase
+`PCSX2`
 
 ## How to configure in PCSX2 - Playstation 2
 

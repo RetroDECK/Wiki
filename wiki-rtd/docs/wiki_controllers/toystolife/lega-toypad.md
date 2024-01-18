@@ -15,11 +15,11 @@ Yes, it is an NFC reader USB device.
 
 ## How to configure
 
-`RPCS3` is the only emulator that supports the Toypad as of this writing.
+`RPCS3` is the only emulator that supports the ToyPad as of this writing.
 
-### Prerequisite: add the udev rule for the Toypad
+### Prerequisite: add the udev rule for the ToyPad
 
-You will need root privlages for this.
+You will need root privileges for this.
 
 Open a Terminal Window and execute  the following command to add the udev rule:
 

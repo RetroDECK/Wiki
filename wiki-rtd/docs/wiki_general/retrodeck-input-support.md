@@ -1,4 +1,4 @@
-# RetroDECK Supported Steam Input Controllers
+# RetroDECK - Supported Steam Input Controllers
 
 Here is a list of all the current versions of the Steam Input profiles that RetroDECK Ship so far.
 

@@ -1,4 +1,4 @@
-# Guide: CEMU
+# CEMU - General Guide
 
 <img src="../../wiki_images/logos/cemu-logo.png" width="150">
 

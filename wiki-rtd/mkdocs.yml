@@ -112,6 +112,15 @@ nav:
     - GZDoom - General Guide (WIP): wiki_emulator_guides/gzdoom/gzdoom-guide.md
     - Get the WADs from bought DOOM / DOOM 2: wiki_emulator_guides/gzdoom/extract-doom-wads.md
 
+  - Engine Guide - IkemenGO / M.U.G.E.N 🥋:
+    - IkemenGO / M.U.G.E.N  - General Guide (WIP): wiki_emulator_guides/ikemengo/ikemengo-guide.md
+
+  - Engine Guide - Solarus 🌞:
+    - Solarus - General Guide (WIP): wiki_emulator_guides/solarus/solarus-guide.md
+
+  - Emulator Guide - Cemu ⬜:
+    - Cemu - General Guide (WIP): wiki_emulator_guides/cemu/cemu-guide.md
+
   - Emulator Guide - Citra 🍋:
     - Citra - General Guide (WIP): wiki_emulator_guides/citra/citra-guide.md
     - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
@@ -139,6 +148,9 @@ nav:
     - Mesen Core - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mesen-texture-pack.md
     - Mupen64Plus-Next Core - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mupen64plus-texture-pack.md
 
+  - Emulator Guide - RPCS3 3️⃣:
+    - RPCS3 - General Guide (WIP): wiki_emulator_guides/rpcs3/rpcs3-guide.md
+
   - Emulator Guide - Ryujinx 🔵:
     - Ryujinx - General Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-guide.md
     - Ryujinx - Mod Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-mod.md
@@ -151,15 +163,10 @@ nav:
     - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
 
   - Emulator Guides SORT THIS📙 (WIP):
-    - RPCS3: wiki_emulator_guides/rpcs3-guide.md
-    - ScummVM: wiki_emulator_guides/scummvm-guide.md
-    - Cemu (WIP): wiki_emulator_guides/cemu-guide.md
-    - IkemenGO - M.U.G.E.N (WIP): wiki_emulator_guides/ikemengo-guide.md
     - MAME (WIP): wiki_emulator_guides/mame-guide.md
     - MelonDS (WIP): wiki_emulator_guides/melonds-guide.md
     - OpenBOR (WIP): wiki_emulator_guides/openbor-guide.md
     - PICO-8 (WIP): wiki_emulator_guides/pico8-guide.md
-    - Solarus (WIP): wiki_emulator_guides/solarus-guide.md
     - Vita3K: wiki_emulator_guides/vita3k-guide.md
     - Xemu (WIP): wiki_emulator_guides/xemu-guide.md
 

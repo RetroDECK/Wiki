@@ -1,6 +1,6 @@
-# Guide: IkemenGO / M.U.G.E.N
+# IkemenGO / M.U.G.E.N - General Guide
 
-<img src="../../wiki_images/logos/ikemen-go-logo.png" width="150">
+<img src="../../../wiki_images/logos/ikemen-go-logo.png" width="150">
 
 
 WIP

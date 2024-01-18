@@ -1,6 +1,6 @@
-# Guide: Solarus
+# Solarus - General Guide
 
-<img src="../../wiki_images/logos/solarus-logo.svg" width="150">
+<img src="../../../wiki_images/logos/solarus-logo.svg" width="150">
 
 WIP
 

@@ -46,13 +46,16 @@ nav:
   - Wiki Home 🏠: index.md
   - Blog: blog/index.md
   - General Information 📰:
+    - Start using RetroDECK: wiki_general/retrodeck-start.md
+    - What is the current Version?: wiki_rd_versions/version_0.7b/0.7.5b.md
     - What is RetroDECK?: wiki_general/what-is-retrodeck.md
     - What is included in RetroDECK?: wiki_general/what-is-included.md
     - Supported Devices: wiki_general/supported-devices.md
     - RetroDECK - Steam Input Controllers (WIP): wiki_general/retrodeck-input-support.md
     - The RetroDECK Beta: wiki_general/beta-period.md
     - The FAQ ❔:  wiki_general/faq.md
-    - Start using RetroDECK: wiki_general/retrodeck-start.md
+    - Version History (Patchnotes): wiki_rd_versions/version-history.md
+    - What are you working on?: wiki_development/what-are-you-working.on.md
 
   - About RetroDECK 📖:
     - The Team & Credits: wiki_about/team-credits.md
@@ -70,14 +73,6 @@ nav:
     - Reporting Bugs: wiki_bugs/report-bugs.md
     - Known Issues: wiki_bugs/known-issues.md
     - How do I help out with testing?: wiki_community/testing-rd.md
-
-  - Development 🧪:
-    - Current Version: wiki_rd_versions/version_0.7b/0.7.5b.md
-    - Version History (Patchnotes): wiki_rd_versions/version-history.md
-    - What are you working on?: wiki_development/what-are-you-working.on.md
-    - Folders and Filepaths: wiki_development/folders-filepaths.md
-    - CLI Guide: wiki_development/cli-guide.md
-    - Development Notes: wiki_development/general-development.md
 
   - RetroDECK Configurator 🛠️:
     - Configurator Features: wiki_general/configurator.md
@@ -262,3 +257,8 @@ nav:
       - LEGO Dimensions - LEGO ToyPad: wiki_controllers/toystolife/lego-toypad.md
       - Skylanders - Portal of Power (WIP): wiki_controllers/toystolife/skylanders-portal-of-power.md
       - Skylanders - Traptanium Portal (WIP): wiki_controllers/toystolife/skylanders-traptanium-portal.md
+
+  - RetroDECK Development 🧪:
+    - Folders and Filepaths: wiki_development/folders-filepaths.md
+    - CLI Guide: wiki_development/cli-guide.md
+    - Development Notes: wiki_development/general-development.md

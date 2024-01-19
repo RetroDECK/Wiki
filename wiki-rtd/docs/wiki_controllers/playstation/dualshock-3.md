@@ -8,6 +8,17 @@ Yes
 ### Linux Kernel Support
 Yes, 2.17  `hid-sony`
 
+### Udev rules
+
+```
+# Sony PlayStation DualShock 3; Bluetooth; USB
+KERNEL=="hidraw*", KERNELS=="*054C:0268*", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="0268", MODE="0660", TAG+="uaccess"
+
+## Motion Sensors
+SUBSYSTEM=="input", KERNEL=="event*|input*", KERNELS=="*054C:0268*", TAG+="uaccess"
+```
+
 ## What is the Official RetroDECK - Steam Input Profile called?
 
 - DualShock 3 / Sixaxis: `RetroDECK: DualShock 3`

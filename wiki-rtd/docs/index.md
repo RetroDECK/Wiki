@@ -31,6 +31,7 @@ Begin by checking the following articles:
 - [About the BETA Period](wiki_general/beta-period.md)
 - [Getting Started](wiki_general/retrodeck-start.md)
 
+And check out the other articles under the `General Information 📰` section.
 
 ## The RetroDECK Community links
 

@@ -7,13 +7,13 @@ PICO-8 Fantasy Console is a game engine developed by Lexaloffle Games that you n
 
 ### Where to buy?
 
-[Itch.io - Pico-8](https://lexaloffle.itch.io/pico-8)
-[Lexaloffle Pico-8](https://www.lexaloffle.com/pico-8.php)
-[Lexaloffle Voxatron / Pico-8 Bundle](https://www.lexaloffle.com/voxatron.php)
+- [Itch.io - Pico-8](https://lexaloffle.itch.io/pico-8)
+- [Lexaloffle Pico-8](https://www.lexaloffle.com/pico-8.php)
+- [Lexaloffle Voxatron / Pico-8 Bundle](https://www.lexaloffle.com/voxatron.php)
 
-TIP:
+**TIP:**
 
-The Voxatron bundle is almost always the best deal over at Lexaloffle's website.
+The Voxatron bundle is almost always the best deal over at Lexaloffle's website as you get both engines for only 5$ more.
 
 ## Where to put the games
 PICO-8 games should be put under the `retrodeck/roms/pico8/` directory. <br>

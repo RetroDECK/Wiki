@@ -1,3 +1,5 @@
+<img src="https://github.com/XargonWan/RetroDECK-Wiki/blob/main/wiki-rtd/docs/wiki_images/logos/rd-stacked-esde-logo.png" width="500">
+
 # RetroDECK Wiki
 
 [RetroDECK Wiki](https://retrodeck.readthedocs.io/en/latest/)

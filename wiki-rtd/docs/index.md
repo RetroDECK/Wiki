@@ -32,7 +32,10 @@ Begin by checking the following articles:
 - [Getting Started](wiki_general/retrodeck-start.md)
 
 
-## The RetroDECK community
+## The RetroDECK Community links
+
+More information in the `Community & Helping Out ❤️` section
+
 [Discord](https://discord.gg/Dz3szYsP8g)<br/>
 [Lemmy](https://lemmy.zip/c/retrodeck)<br/>
 [Reddit](https://www.reddit.com/r/retrodeck)<br/>

@@ -1,6 +1,7 @@
 # RetroDECK Wiki
 
 [RetroDECK Wiki](https://retrodeck.readthedocs.io/en/latest/)
+
 [Discord](https://discord.gg/Dz3szYsP8g)
 
 ## Do you want to help to contribute to the wiki?

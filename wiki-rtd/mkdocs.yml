@@ -123,7 +123,7 @@ nav:
     - OpenBOR 🐉:
       - General Guide (WIP): wiki_engine_guides/openbor/openbor-guide.md
 
-  - Emulator Guides:
+  - Emulator Guides 📘:
     - Cemu ⬜:
       - General Guide (WIP): wiki_emulator_guides/cemu/cemu-guide.md
     - Citra 🍋:
@@ -163,7 +163,8 @@ nav:
       - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
     - xemu ✖️:
       - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
-  - Controllers:
+
+  - Controllers 🎮:
     - About 🎮:
       - Different Button Prompts in Games: wiki_controllers/about/diffrent-game-inputs.md
       - RetroDECK and Udev Rules: wiki_controllers/about/about-udev.md

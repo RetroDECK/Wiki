@@ -8,6 +8,18 @@ Yes
 ### Linux Kernel Support
 Yes
 
+### Udev rules
+
+```
+# Microsoft Xbox360 Controller; USB #EXPERIMENTAL
+SUBSYSTEM=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="028e", MODE="0660", TAG+="uaccess"
+SUBSYSTEMS=="input", ATTRS{name}=="Microsoft X-Box 360 pad", MODE="0660", TAG+="uaccess"
+
+# Microsoft Xbox 360 Wireless Receiver for Windows; USB
+SUBSYSTEM=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="0719", MODE="0660", TAG+="uaccess"
+SUBSYSTEMS=="input", ATTRS{name}=="Xbox 360 Wireless Receiver", MODE="0660", TAG+="uaccess"
+```
+
 ### Related Projects
 
 #### The xone Project

@@ -8,6 +8,15 @@ Yes, but not fully. It registers as a Xbox Wireless Controller but the back butt
 ### Linux Kernel Support
 Yes
 
+### Udev rules
+
+```
+# Microsoft Xbox One S Controller; Bluetooth; USB
+KERNEL=="hidraw*", KERNELS=="*045e:02ea*", MODE="0660", TAG+="uaccess"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="045e", ATTRS{idProduct}=="02ea", MODE="0660", TAG+="uaccess"
+```
+
+
 ### Related Projects
 
 #### The xone Project

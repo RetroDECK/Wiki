@@ -4,7 +4,7 @@
 
 The first Steam Controller is with the nickname Gordon.
 
-#### Steam Input support
+### Steam Input support
 Yes
 
 ### Linux Kernel Support

@@ -8,6 +8,13 @@ Yes, but the connected controllers shows up as Generic Controllers.
 ### Linux Kernel Support
 Yes, acts a normal USB-hub.
 
+### Udev rule
+
+```
+# Nintendo GameCube Controller / Adapter; USB
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTRS{idVendor}=="057e", ATTRS{idProduct}=="0337", MODE="0660", TAG+="uaccess"
+```
+
 ## How to connect?
 
 In most cases you just need to connect it via USB and put the device in PC mode on the switch.

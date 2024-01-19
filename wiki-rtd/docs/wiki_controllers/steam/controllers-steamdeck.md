@@ -14,7 +14,7 @@
 Have the `RetroDECK: Official Controller Layout` activated from the `Templates`.
 
 If you are unsure on how to do enable it, read Step 3 on the Installation Guide:<br>
-[How do I install RetroDECK on the Steam Deck?](../../../wiki_devices/steamdeck/steamdeck-start/)
+[How do I install RetroDECK on the Steam Deck?](../../wiki_devices/steamdeck/steamdeck-start.md)
 
 If you want to reinstall the controller profile or missed to activate it during first setup you can do so from the configurator.
 

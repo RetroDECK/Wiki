@@ -16,7 +16,7 @@ It stands for Beta.
 Cooker is a bleeding edge snapshot of the current commits, the action of uploading code to GitHub is called commit.
 As you can understand, the code may not be always reviewed and so the cooker it's unstable by its nature,  it's just suggested to testers or developer to try bleeding edge function or to contribute.
 
-More info on the pinned post in #💙-i-want-to-help on our [Discord Server](discord.gg/Dz3szYsP8g).
+More info on the pinned post in #💙-i-want-to-help on our [Discord Server](https://discord.gg/Dz3szYsP8g).
 We don't support the cooker on user side.
 
 #### Why the name cooker? 🍲
@@ -369,7 +369,7 @@ Be sure to check that the bios files are in the correct folder. Read more on the
 ### I configured RetroArch but the configuration was not saved.
 Configuring RetroArch can be dangerous for an inexperienced user, so RetroDECK is set to don't save the RetroArch configuration upon exiting.<br>
 The configuration must be saved willingly by going to: `Main Menu` -  `Configuration File` - `Save Current Configuration`.<br>
-If you find some better configurations however, you may contribute by sharing it on the `💙-i-want-to-help` channel on our [Discord Server](discord.gg/Dz3szYsP8g) that may be included in the next version.
+If you find some better configurations however, you may contribute by sharing it on the `💙-i-want-to-help` channel on our [Discord Server](https://discord.gg/Dz3szYsP8g) that may be included in the next version.
 
 <br>
 

@@ -18,7 +18,7 @@ Controllers made by Nintendo for the Nintendo systems.
 
 | Controller         | Profile Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
-| Switch Pro Controller      |   `RetroDECK: Switch Pro`      |   `v.1b`          |  Nintendo Switch  |       [Switch Pro](../wiki_controllers/nintendo/switch-pro/)   |  [Nintendo Hotkeys](../wiki_controllers/nintendo/nintendo-hotkeys.md)  |  |
+| Switch Pro Controller      |   `RetroDECK: Switch Pro`      |   `v.1b`          |  Nintendo Switch  |       [Switch Pro](../wiki_controllers/nintendo/switch-pro.md)   |  [Nintendo Hotkeys](../wiki_controllers/nintendo/nintendo-hotkeys.md)  |  |
 
 ## Valve/Steam Controllers
 

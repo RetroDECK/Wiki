@@ -5,9 +5,7 @@
 [Discord](https://discord.gg/Dz3szYsP8g)
 
 ## Do you want to help to contribute to the wiki?
-Join the Discord and post in 💙-i-want-to-help that you want to help out. 
 
-You will then get access to the 🖋-wiki-maintainers channel.
+Join the [Discord](https://discord.gg/Dz3szYsP8g) and post in `💙-i-want-to-help` channel that you want to help out with the wiki.
 
-Some articles are marked with WIP (Work in Progress) and could be expanded or you can make new articles. 
-
+You will then get access to the `🖋-wiki-maintainers`channel by one of the mods and you can discuss with your fellow contributors in that channel.

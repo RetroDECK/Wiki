@@ -17,3 +17,4 @@ Duckstation is a Playstation 1 - PSX Emulator.
 
 ## Where to put the games
 PSX games should be put under the `retrodeck/roms/psx/` directory.
+

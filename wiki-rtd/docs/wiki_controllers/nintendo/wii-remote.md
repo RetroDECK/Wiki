@@ -82,11 +82,29 @@ Read more here:
 
 ### How-to configure Dolphin - Method: Emulate Wii's Bluetooth Adapter
 
-This only works with the Official Wiimote controller and is the easier method.
+This only works with the Official Wii Remote controller and is the easier method.
 
-WIP
+#### Step 1: Open Dolphins Controller Settings
+<img src="../../../wiki_images/emulators/dolphin/emulated-bluetooth.png" width="450">
+Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `Controller Settings`
 
----
+#### Step 2: Change the Settings
+
+Under `Emulate the Wii's Bluetooth adapter`
+
+Change the values of Wii Remote dropdown lists
+
+From `Emulated Wii Remote` to `Real Wii Remote`
+
+Then enable the following checkboxes:
+
+- `Connect Wii Remotes for Emulated Controllers`
+- `Continous Scanning`
+
+#### Step 3: Syncing the Wiimotes
+
+The Wiimote can now be connected by pressing the `Sync Button` when a game is launched after changing the settings as long as the bluetooth is working correctly. <br>
+It will need to reconnect everytime when launching a new game, if everything works the reparing should be quick with the press of the `A` and without the need of pressing the `Sync Button` again.
 
 
 ### How-to configure Dolphin - Method: Bluetooth Passthrough

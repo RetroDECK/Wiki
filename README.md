@@ -1,4 +1,4 @@
-<img src="https://github.com/XargonWan/RetroDECK-Wiki/blob/main/wiki-rtd/docs/wiki_images/logos/rd-stacked-esde-logo.png" width="500">
+<img src="https://github.com/XargonWan/RetroDECK-Wiki/blob/main/wiki-rtd/docs/wiki_images/logos/rd-logo-box.png" width="500">
 
 # RetroDECK Wiki
 

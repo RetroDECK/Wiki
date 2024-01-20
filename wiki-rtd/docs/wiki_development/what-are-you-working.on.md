@@ -8,16 +8,17 @@ To get the latest updates first:
 - Follow `The RetroDECK Blog 📝`.
 - Look at [Github issues](https://github.com/XargonWan/RetroDECK/issues/) for clues.
 
+## New Engines
+- GZDoom (DOOM)
+- IkemenGO (M.U.G.E.N)
+- ScummVM-SA (standalone version)
+- Solarus (Solarus Games)
+- OpenBOR (OpenBOR Games)
 
 ## New Emulators
-- GZDoom (Doom engine)
-- MAME (Standalone)
+- MAME
 - Ryujinx (Switch)
-- Solarus (engine)
 - Vita3K (PSVita)
-- OpenBOR (engine)
-- IkemenGO (engine)
-- ScummVM (Standalone)
 - Yuzu (Custom)
 
 ## New Features Configurator / RetroDECK Framework

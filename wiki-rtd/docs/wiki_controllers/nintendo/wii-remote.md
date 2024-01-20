@@ -86,6 +86,7 @@ This only works with the Official Wii Remote controller and is the easier method
 
 #### Step 1: Open Dolphins Controller Settings
 <img src="../../../wiki_images/emulators/dolphin/emulated-bluetooth.png" width="450">
+
 Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `Controller Settings`
 
 #### Step 2: Change the Settings

@@ -34,3 +34,17 @@ https://github.com/kmicki/SteamDeckGyroDSU.
 
   Enjoy your motion controls!
 
+# How to enable Gyro working Gyro in Yuzu
+
+## Steam Deck with Gyro
+You first need to install
+
+https://github.com/kmicki/SteamDeckGyroDSU
+
+
+## Linux Desktop / Steam Deck Docked with External Controllers
+
+Prerequisites:
+
+A gyro enabled external controller.
+

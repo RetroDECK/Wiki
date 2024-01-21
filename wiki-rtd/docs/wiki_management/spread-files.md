@@ -2,6 +2,8 @@
 
 <img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
 
+## About Symbolic Links
+
 Spreading files over other:
 
 - Internal drives

@@ -19,11 +19,11 @@ A `Symbolic Link` act as the file was in the place you are linking to and the so
 
 We later plan to add tools for this in the `RetroDECK Configurator` to make it even easier.
 
-### 🛑 Warning 🛑
+### 🛑 Symbolic Link: Warnings 🛑
 
-- You can not have RetroDECK open while doing creating the `Symbolic Links` as the games are loaded on boot.
-- You should after adding a `Symbolic Links` and got it working never unplug the external drive from RetroDECK while it is running.
-- If you are making changes to the always `Symbolic Links` close down RetroDECK, make the changes and then relaunch it.
+- You should not have RetroDECK open while creating the `Symbolic Links` as the games are loaded on launch.
+- When you have successfully adding a `Symbolic Links`  to RetroDECK and got it working, remember to never unplug / disconnect the drive while RetroDECK is running.
+- If you are making changes to your `Symbolic Links` you must close down RetroDECK, make the changes and then relaunch it.
 
 ### Other recommendations
 

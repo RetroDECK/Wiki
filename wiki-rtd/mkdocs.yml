@@ -84,6 +84,7 @@ nav:
     - Manage your Multidisk/file games: wiki_management/multi-disk.md
     - Move RetroDECK to a new device: wiki_management/retrodeck-move.md
     - Scraping Game Media: wiki_management/about-scraping.md
+    - Spreading Files over multiple drives: wiki_management/spread-files.md
 
   - RetroDECK and Steam 💻:
     - Add RetroDECK to Steam: wiki_steam/add-to-steam.md

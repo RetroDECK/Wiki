@@ -1,65 +1,75 @@
-# Spreading Files
+# Spreading Files over multiple drivers
 
 <img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
 
-`~/retrodeck/roms/`
+Spreading files over other:
+
+- Internal drives
+- External drives
+- NAS
+- Other
+
+Can be done with `Symbolic Links`.
+
+For more technical details - read more about [Symbolic Links on Wikipedia](https://en.wikipedia.org/wiki/Symbolic_link)
+
+If you are used to a Windows environment `Symbolic Links` are NOT the same as  `Windows Shortcuts`-
+
+A `Symbolic Link` act as the file was in the place you are linking to and the software will interpret it as such.
+
+We later plan to add tools for this in the `RetroDECK Configurator` to make it even easier.
+
+### 🛑 Warning 🛑
+
+- You can not have RetroDECK open while doing creating the `Symbolic Links` as the games are loaded on boot.
+- You should after adding a `Symbolic Links` and got it working never unplug the external drive from RetroDECK while it is running.
+- If you are making changes to the always `Symbolic Links` close down RetroDECK, make the changes and then relaunch it.
+
+### Other recommendations
+
+- If you are on a Steam Deck, this needs to be done in `Desktop Mode`.
+- On the drive you want to add it is recommended to create a folder for in this example the Wii games so you don't need to create a symbolic link for each game and just do one link to the folder to be interpret as a subfolder within RetroDECK's ES-DE interface.
+
+## Creating Symbolic Links: Example Wii Games
+
+This example will be written from the standpoint of the KDE Desktop environment used by SteamOS and many others systems. If you are on Gnome/XFCE or any other desktop environment the procedure should be similar else consult your desktop environment website.
+
+**Example problem:**
+
+You have several backups of Wii games you want to add to `~/retrodeck/roms/wii/`.
+
+Let's say that those backups are on an external called `2nddrive` drive in in a folder called `wii games`.
+
+So the path when you go into the folder from the Desktop GUI could be (in this example):
+
+`/var/mnt/2nddrive/wii games`
 
 
-You can put all the game files inside a sub-folder in order to keep you game list clean, these folder will be seen as the game itself from RetroDECK and not as an actual folder.
+### Creating from the GUI
 
-The folder needs to have the corresponding `.m3u` file and the folder needs to be renamed to the exact filename of the `.m3u`.
+1. Go into your `~/retrodeck/roms/wii/` folder.
+2. `Right Click` on an empty space and press `Create New` - `Link to file or folder`.
+3. Press the open file browser button.
+4. Press `Folder`.
+5. Navigate to the `/var/mnt/2nddrive/wii games` folder (or where ever you store the games).
+6. Highlight the `wii games` folder and press OK.
 
-More info in the [ES-DE UserGuide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#directories-interpreted-as-files).
+Now the Symbolic Link has been created and will show up in the ES-DE interface for RetroDECK.
 
-**Example:**
+When you navigate to wii game section the `wii games` folder should be accessible from the ES-DE menu as a subfolder with all the games.
 
-In this case the folder will be viewed as a single game and it will launch `Dragon Fantasy VII.m3u` so you can easly swap the disks from RetroArch menu.
+### Other files
 
-```
-─── Dragon Fantasy VII.m3u   <--- Folder
-    ├── Dragon Fantasy VII - Disk1.chd <--- Game Disc
-    ├── Dragon Fantasy VII - Disk2.chd <--- Game Disc
-    ├── Dragon Fantasy VII - Disk3.chd <--- Game Disc
-    └── Dragon Fantasy VII.m3u <--- The .m3u file
-```
+You can also link other files this way such as individual games instead of folders or save files etc...
 
+## Advanced Usage: Replacing entire systems or functions with Symbolic Links (Not Recommended!!)
+This is not something we recommend doing as it cause link breakage with with upcoming updates to RetroDECK.
 
-## How do I create a Multidisk Directory?
+Do not do this unless you really really know what you are doing and this might be a hit or miss depending on your system.
 
-Let's use the `Dragon Fantasy VII` example as written above. It is a fake PlayStation 1 game.
+You could in theory delete a system folder lets say `~/retrodeck/roms/wii/` or even a `~/retrodeck/roms/saves/wii/` or `~/retrodeck/roms/states/wii/` or what ever folder or subfolder under `~/retrodeck/` and put is as a symbolic link to another place.
 
-### Step 1: Make a .m3u sub-folder
-Make a new sub-folder inside the `roms/psx` directory (or what ever system you are creating for) where you move and store the `Dragon Fantasy VII` files with a `.m3u` file extension in the end.
-The name of the folder will be `Dragon Fantasy VII.m3u` and the full file path will be:
+**Example Wii:**
 
-`~/retrodeck/roms/psx/Dragon Fantasy VII.m3u`
+Create a symbolic link from `~/retrodeck/roms/` to a folder on an external drive called `wii` and only have those games stored on an external drive permanently.
 
-And it should have the disc files inside of it:
-
-```
-─── Dragon Fantasy VII.m3u   <--- Folder
-    ├── Dragon Fantasy VII - Disk1.chd <--- Game Disc
-    ├── Dragon Fantasy VII - Disk2.chd <--- Game Disc
-    └── Dragon Fantasy VII - Disk3.chd <--- Game Disc
-```
-
-### Step 2: Make a .m3u file inside the folder.m3u
-Following the example above, make an empty file inside the `Dragon Fantasy VII.m3u Folder` called the exact same thing as the folder name in this case: `Dragon Fantasy VII.m3u`. Now the full file path to the newly created .m3u file should be like this:
-
-`~/retrodeck/roms/psx/Dragon Fantasy VII.m3u/Dragon Fantasy VII.m3u`
-
-### Step 3: Populate the .m3u file
-
-Open the `Dragon Fantasy VII.m3u` file with an text editor and write the filenames of all files contained in the folder, one per line.
-When you are done, the structure  of the file should look something like this:
-
-```
-Dragon Fantasy VII - Disk1.chd
-Dragon Fantasy VII - Disk2.chd
-Dragon Fantasy VII - Disk3.chd
-```
-
-Note this also works with other files types like `.bin` `.iso` `.cue` `.bin` etc.. You just need to make sure that all the files in the folders are written inside the .m3u file.
-
-### Step 4: Launch RetroDECK
-The ES-DE interface that RetroDECK uses should now pick up on the game as one file and you can change disks inside RetroArch.

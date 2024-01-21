@@ -69,11 +69,17 @@ When you navigate to wii game section the `wii games` folder should be accessibl
 
 You can also link other files this way such as individual games instead of folders or save files etc...
 
-## Advanced Usage: Replacing entire systems or functions with Symbolic Links (Not Recommended!!)
-This is not something we recommend doing as it cause link breakage with with upcoming updates to RetroDECK.
+## Advanced Usage: Replacing entire systems or functions with Symbolic Links
+
+**Disclaimer: Not Recommended!**
 
 Do not do this unless you really really know what you are doing and this might be a hit or miss depending on your system.
 
+This is not something we recommend doing as upcoming updates to RetroDECK could cause link breakage.
+
+But if you like to tinker and experiment feel free to try it on your own.
+
+### The usecase
 You could in theory delete a system folder lets say `~/retrodeck/roms/wii/` or even a `~/retrodeck/roms/saves/wii/` or `~/retrodeck/roms/states/wii/` or what ever folder or subfolder under `~/retrodeck/` and put is as a symbolic link to another place.
 
 **Example Wii:**

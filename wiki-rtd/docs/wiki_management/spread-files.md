@@ -24,7 +24,7 @@ We later plan to add tools for this in the `RetroDECK Configurator` to make it e
 ### 🛑 Symbolic Link: Warnings 🛑
 
 - You should not have RetroDECK open while creating the `Symbolic Links` as the games are loaded on launch.
-- When you have successfully adding a `Symbolic Links`  to RetroDECK and got it working, remember to never unplug / disconnect the drive while RetroDECK is running.
+- When you have successfully added a `Symbolic Links`  to RetroDECK and got it working, remember to never unplug / disconnect the drive while RetroDECK is running.
 - If you are making changes to your `Symbolic Links` you must close down RetroDECK, make the changes and then relaunch it.
 
 ### Other recommendations

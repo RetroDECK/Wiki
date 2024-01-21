@@ -13,9 +13,11 @@ If you don't have it read up on `Step 3` from the getting started guide.
 
 [Steam Deck -RetroDECK Installation](../../wiki_devices/steamdeck/steamdeck-start.md).
 
-### Step 1: Install SteamDeckGyroDSU
+#### I already have SteamDeckGyroDSU installed:
 
-**NOTE:** If you already have `SteamDeckGyroDSU` installed you can skip this step or just run the `update.sh` from `home/deck/sdgyrodsu` to make sure you have the latest version.
+If you already have `SteamDeckGyroDSU` installed you can skip Step 1 or we do recommend running the `update.sh` from `home/deck/sdgyrodsu` to make sure you have the latest version of `SteamDeckGyroDSU`.
+
+### Step 1: Install SteamDeckGyroDSU
 
 [SteamDeckGyroDSU](https://github.com/kmicki/SteamDeckGyroDSU)
 
@@ -33,9 +35,11 @@ In that folder you will find two other files that is good to know about:
 
 - `uninstall.sh` - For uninstalling SteamDeckGyroDSU
 
-### Step 2: Go back to gaming mode and launch RetroDECK
+### Step 2: Open Yuzu in Game Mode
 
+Go to `Game Mode` and launch RetroDECK.
 
+Open the `RetroDECK Configurator` and launch Yuzu from: `Main Menu` - `RetroDECK Configurator` - `Open Emulator` - `Yuzu`
 
 ## Linux Desktop or Steam Deck Docked with External Gyro Enabled Controllers
 

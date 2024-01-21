@@ -15,7 +15,18 @@ If you don't have it read up on `Step 3` from the getting started guide.
 
 #### I already have SteamDeckGyroDSU installed:
 
-If you already have `SteamDeckGyroDSU` installed you can skip Step 1 or we do recommend running the `update.sh` from `home/deck/sdgyrodsu` to make sure you have the latest version of `SteamDeckGyroDSU`.
+If you already have `SteamDeckGyroDSU` installed you can skip Step 2 or we do recommend running the `update.sh` from `home/deck/sdgyrodsu` to make sure you have the latest version of `SteamDeckGyroDSU`.
+
+### Step 0: Edit the RetroDECK Layout
+
+This step will be removed in the 0.8b update as the new profile version will have it enabled by default.
+
+Launch RetroDECK.
+
+- Press the `Steam` button - `Controller Settings` - Make sure that the RetroDECK Layout is Selected -
+- Press `Edit Layout` - You will be on the `Action Set` - `RetroDECK - Set` -
+- Go down to `Gyro` - Change it from `As Joystick` to `Directional Pad`.
+- You don't need to put in any values of the menus bellow, just go back with `B` button to RetroDECK.
 
 ### Step 1: Install SteamDeckGyroDSU
 
@@ -35,11 +46,45 @@ In that folder you will find two other files that is good to know about:
 
 - `uninstall.sh` - For uninstalling SteamDeckGyroDSU
 
-### Step 2: Open Yuzu in Game Mode
+### Step 2: Open Yuzu in Game Mode and go to Controls
 
 Go to `Game Mode` and launch RetroDECK.
 
 Open the `RetroDECK Configurator` and launch Yuzu from: `Main Menu` - `RetroDECK Configurator` - `Open Emulator` - `Yuzu`
+
+**In Yuzu:**
+
+<img src="../../../wiki_images/emulators/yuzu/yuzu-controls.png" width="600">
+
+Go to: `Emulation` - `Configure` - `Controls`
+
+
+### Step 3: Configure Controls
+Press the `Input Device` dropdown menu select `Steam Virtual Gamepad 0`.
+
+Make sure that the `Motion` is checked in the bottom left and click the `Configure` underneath the `Motion` checkbox.
+
+### Step 4: Test and Configure Motion
+
+<img src="../../../wiki_images/emulators/yuzu/yuzu-motion-configure.png" width="600">
+
+Make sure that the localhost IP-adress and port exists to the left side of the menu.
+
+If it does not exist you will need to manually add it:
+
+- Server: `127.0.0.1`
+- Port: `26760`
+- Press `Add Server`
+
+Press the `Test` button to make sure you are getting data from `SteamDeckGyroDSU`.
+
+If all has gone well you will get a message saying:
+
+`Successfully received data from the server.`
+
+### Step 5: Go back to Controls
+
+Go back
 
 ## Linux Desktop or Steam Deck Docked with External Gyro Enabled Controllers
 
@@ -47,28 +92,6 @@ Open the `RetroDECK Configurator` and launch Yuzu from: `Main Menu` - `RetroDECK
 
 - A gyro enabled external controller.
 
-
-
-Check these sources:
-
-https://youtu.be/q-ehLPk9HXI?si=banG3-fO0hxjAofs
-
-
-https://www.reddit.com/r/SteamDeck/s/kUp6w0fIJA
-
-
-https://github.com/kmicki/SteamDeckGyroDSU.
-
-
-   In Desktop mode, install SteamDeckGyroDSU either through EmuDeck (Gyroscope -> More Info in menu) or manually https://github.com/kmicki/SteamDeckGyroDSU. Restart the SteamDeck after installation regardless of which method you used.
-
-   In Gaming mode (will not work in desktop), open a game in Yuzu and open the Menu (F11 with a keyboard or bind a back button to F11)
-
-   From the menu bar select Emulation -> Configure..., then select Controls from the left side bar
-
-   In the top left select Handheld from the Connect Controller dropdown menu (others report that Pro Controller works too)
-
-   From the Input Device dropdown menu just to the right, select Steam Virtual Gamepad 0 (for some reason this defaulted to Keyboard Only for me)
 
    At the bottom to the left of the controller selector, ensure Motion is checked and click the Configure button underneath
 

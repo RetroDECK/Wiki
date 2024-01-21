@@ -156,6 +156,7 @@ nav:
     - Yuzu 🔴:
       - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
       - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
+      - Gyro Guide: wiki_emulator_guides/yuzu/yuzu-gyro.md
     - xemu ✖️:
       - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
 

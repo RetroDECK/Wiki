@@ -120,6 +120,8 @@ If all is working correctly the tiny box in the middle of the controller should 
 
 Press `OK` - Press the `Quit Emulator Hotkey` (Select + Start) or go to `File` - `Quit Yuzu`
 
+Quit the `RetroDECK Configurator`
+
 You can now play Yuzu with motion.
 
 ## Linux Desktop or Steam Deck Docked with External Gyro Enabled Controllers

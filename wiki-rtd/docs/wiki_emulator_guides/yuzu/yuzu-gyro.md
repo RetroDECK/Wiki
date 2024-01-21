@@ -5,7 +5,7 @@
 This is a step by step guide on how to get working Gyro with Yuzu utilizing the Steam Deck's built in gyro.<br>
 We are looking into building this feature into RetroDECK in the future.
 
-#### Prerequisites: RetroDECK Controller Layout
+#### Prerequisites: RetroDECK Steam Deck Controller Layout
 
 Make you have `The Official RetroDECK Steam Deck Controller Layout`  installed and enabled.
 

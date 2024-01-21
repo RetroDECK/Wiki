@@ -99,15 +99,28 @@ But on the Steam Decks screen you need to do a special maneuver.
 
 #### Step 5b: The Tiny Screen maneuver
 
-On the left touchpad open the `RetroDECK Radial Menu System` press the `Steam Deck` Menu.
+On the left touch pad open the `RetroDECK Radial Menu System` press the `Steam Deck Menu`.
 
 Here you will the buttons `Tab` and `Enter`
 
-Press `Tab` until you highlight the ZR button in the interface.
+Press `Tab` until you highlight the `ZR` button in the interface.
 
-yuzu-zr-navigation
+<img src="../../../wiki_images/emulators/yuzu/yuzu-zr-navigation.png" width="600">
 
-yuzu-rz-navigation
+Two more `Tab` from the `ZR` button is the `Motion` button, navigate to it.
+
+Then press `Enter` and `Shake the Steam Deck`.
+
+If all is working correctly the tiny box in the middle of the controller should move with your built in Gyro.
+
+
+<img src="../../../wiki_images/emulators/yuzu/yuzu-gyro-box.png" width="600">
+
+#### Step 6: Go back to RetroDECK
+
+Press `OK` - Press the `Quit Emulator Hotkey` (Select + Start) or go to `File` - `Quit Yuzu`
+
+You can now play Yuzu with motion.
 
 ## Linux Desktop or Steam Deck Docked with External Gyro Enabled Controllers
 
@@ -115,13 +128,6 @@ yuzu-rz-navigation
 
 - A gyro enabled external controller.
 
+### Step 1:
 
-   Back on the Yuzu Controls configuration page, you need to click a button that is hidden offscreen. There are two options for how to click it.
-
-  You should still have focus on the Configure button under Motion (highlighted blue), hit tab (on a keyboard or bind tab to a back button) repeatedly to move focus to the next element. Continue to do this until there is focus on the slider bar under the ZR mapping. Click tab one more time to put focus onto the offscreen button that configures the motion mapping. Click enter (on a keyboard or bind enter to a back button).
-
-   Another user found they were able to see the hidden button by setting the game resolution to 1920x1200 for both the internal and external screen, clicking the button, then setting the resolution back after the motion mapping is set. I didn't try this method so I don't know if that was done through the game settings or Yuzu settings, but worth giving it a shot if you know where to change the resolution and/or don't want to have to click tab a bunch.
-
-  Once you've clicked the button (via either method) pick up the Steam Deck and give it a little shake. If everything worked correctly, you should see a wire frame box moving above the image of the Switch/Pro Controller.
-
-  Enjoy your motion controls!
+WIP

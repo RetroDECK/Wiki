@@ -68,9 +68,9 @@ If during the installation of RetroDECK you choose the Custom option for the rom
 The roms folder where ever you choose.
 
 
-### Let's get started on ROMs:
+### Let's get started on ROMs/Games:
 
-Read up on [ES-DE Folders and Files](../wiki_emulationStation_de/esde-folders-files.md) to see what folder each system has or read the readme file in each systems folder under `~/retrodeck/roms/`
+Read up on `RetroDECK Management 🗜️` section of this wiki.
 
 * Put the corresponding roms inside the corresponding system folder
 

@@ -78,9 +78,12 @@ nav:
     - Configurator Features: wiki_general/configurator.md
 
   - RetroDECK Management 🗜️:
-    - Manage your Games: wiki_management/games-management.md
+    - Folders and Files (WIP): wiki_management/esde-folders-files.md
+    - Game Compability Lists: wiki_management/retrodeck-move.md
     - Manage your BIOS/Firmware: wiki_management/bios-firmware.md
+    - Manage your Multidisk/file games: wiki_management/multi-disk.md
     - Move RetroDECK to a new device: wiki_management/retrodeck-move.md
+    - Scraping Game Media: wiki_management/about-scraping.md
 
   - RetroDECK and Steam 💻:
     - Add RetroDECK to Steam: wiki_steam/add-to-steam.md
@@ -101,7 +104,6 @@ nav:
   - EmulationStation-DE 📘:
     - User Guide: wiki_emulationStation_de/esde-guide.md
     - Themes: wiki_emulationStation_de/esde-themes.md
-    - Folders and Files (WIP): wiki_emulationStation_de/esde-folders-files.md
   
   - Engine Guides 📘:
     - GZDoom 👹:

@@ -1,5 +1,4 @@
-# General information
-
+# Supported file extensions for each emulator
 **Disclaimer: This list is a work in progress and might contain errors, not all of these systems are enabled**
 
 What follows is a list of each systems supported file extensions and the path to the folder where to put the roms.

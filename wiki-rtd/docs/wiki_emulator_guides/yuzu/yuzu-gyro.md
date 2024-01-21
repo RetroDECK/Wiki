@@ -11,7 +11,7 @@ Make you have `The Official RetroDECK Steam Deck Controller Layout`  installed a
 
 If you don't have it read up on `Step 3` from the getting started guide.
 
-[Steam Deck -RetroDECK Installation](../../wiki_devices/steamdeck/steamdeck-start.md).
+[Steam Deck - RetroDECK Installation](../../wiki_devices/steamdeck/steamdeck-start.md).
 
 #### I already have SteamDeckGyroDSU installed:
 

@@ -82,9 +82,32 @@ If all has gone well you will get a message saying:
 
 `Successfully received data from the server.`
 
-### Step 5: Go back to Controls
+### Step 5: Go back to Controls and press the hidden motion button
 
-Go back
+<img src="../../../wiki_images/emulators/yuzu/yuzu-hidden-motion.png" width="600">
+
+Go back to `Controls`
+
+Now you need to press the `Motion` button and `Shake the Steam Deck` to bind the motion.
+
+But is the button is hidden on the Steam Decks tiny Screen as the interface is cramped. <br>
+It is right under the big controller graphics.<br>
+
+This easy can be done Docked with a bigger screen and just press the button as it will be shown on a larger screen and give the Steam Deck a shake.
+
+But on the Steam Decks screen you need to do a special maneuver.
+
+#### Step 5b: The Tiny Screen maneuver
+
+On the left touchpad open the `RetroDECK Radial Menu System` press the `Steam Deck` Menu.
+
+Here you will the buttons `Tab` and `Enter`
+
+Press `Tab` until you highlight the ZR button in the interface.
+
+yuzu-zr-navigation
+
+yuzu-rz-navigation
 
 ## Linux Desktop or Steam Deck Docked with External Gyro Enabled Controllers
 
@@ -92,11 +115,6 @@ Go back
 
 - A gyro enabled external controller.
 
-
-   At the bottom to the left of the controller selector, ensure Motion is checked and click the Configure button underneath
-
-   If not already there, add a server on 127.0.0.1:26760 and click Test to ensure the gyro DSU server is working correctly, then click OK
-    Open the Steam overlay, navigate to controller settings, click Edit Layout and set Gyro Behavior to As Directional Pad
 
    Back on the Yuzu Controls configuration page, you need to click a button that is hidden offscreen. There are two options for how to click it.
 

@@ -37,11 +37,14 @@
 - Inside Discover search for RetroDECK and press the install button.
 - After the installation is finished, launch RetroDECK from Discover or in the program menu under `Games > RetroDECK`.
 - Follow the first time setup instructions and choose where RetroDECK should create the `roms` folders `Internal` or `SDCard`.
+- You will get a choice during the Setup to Install `The Official RetroDECK Steam Deck Controller Profile` this is highly recommended.
 - Open Steam while still in desktop mode.
 - Inside Steam go to the tab `Games` press `Add non Steam game to My library` and select RetroDECK to add it into your library.
 - After this is done you can now see RetroDECK in Steam Deck's gamemode after you return to it from desktop mode.
 
-### Step 3: Configure the official controller layout
+### Step 3: Configure the official controller layout (If you installed the controller profile )
+This step is only needed if you installed the layout. If you missed installed the layout you can always reinstall it from the `RetroDECK Configurator` in `Desktop Mode` or within `Game Mode` from within RetroDECK from the `Main Menu` - `RetroDECK Configurator` - `Tools` - `Install SD Controller Profile`
+
 - Go back into gamemode by pressing the return to gamemode icon on the desktop.
 - Go to RetroDECK on the Steam Grid under `Library > Non-Steam`
 - Press the `Controller Icon`

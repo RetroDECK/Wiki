@@ -37,9 +37,29 @@ https://github.com/kmicki/SteamDeckGyroDSU.
 # How to enable Gyro working Gyro in Yuzu
 
 ## Steam Deck with Gyro
-You first need to install
 
-https://github.com/kmicki/SteamDeckGyroDSU
+This is a step by step guide on how to get working Gyro with Yuzu utslitning the Steam Deck's built in gyro.
+
+
+### Step 1: Install SteamDeckGyroDSU
+[SteamDeckGyroDSU](https://github.com/kmicki/SteamDeckGyroDSU)
+
+Go to `Desktop Mode` and open the built in terminal `Konsole` from the KDE Menu (Start Menu).
+
+Copy the following command into the terminal and hit enter:
+
+`bash <(curl -sL https://raw.githubusercontent.com/kmicki/SteamDeckGyroDSU/master/pkg/update.sh)`
+
+This will Install SteamDeckGyroDSU and also create a new folder under `HOME` `$HOME/sdgyrodsu/` aka `home/deck/sdgyrodsu`
+
+In that folder you will find two other files that is good to know about:
+
+- `update.sh` - For updating SteamDeckGyroDSU
+
+- `uninstall.sh` - For uninstalling SteamDeckGyroDSU
+
+### Step 2: Go back to gaming mode and launch RetroDECK
+
 
 
 ## Linux Desktop / Steam Deck Docked with External Controllers

@@ -29,13 +29,15 @@ We later plan to add tools for this in the `RetroDECK Configurator` to make it e
 
 ### Other recommendations
 
-If you are on a Steam Deck, this needs to be done in `Desktop Mode`.
-
 On the drive you want to add to RetroDECK. it is recommended to create a folder or folders games per system, so you don't need to create `Symbolic Link` for each game. But rather just make a link to the folder.
 
 If you want to spread games for one system over a multiple of drivers with `Symbolic Links` you can do so, but naming the folders so you understand what drive they are coming from could be a good recommendation.
 
 Each folder added will then be interpreted as a subfolder within RetroDECK's ES-DE interface under the system you have added the `Symbolic Link` to.
+
+#### Steam Deck - Desktop Mode
+
+If you are on a Steam Deck, this needs to be done in `Desktop Mode`.
 
 ## Creating Symbolic Links: Example Wii Games
 

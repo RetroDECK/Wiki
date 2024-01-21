@@ -13,7 +13,7 @@ Can be done with `Symbolic Links`.
 
 For more technical details - read more about [Symbolic Links on Wikipedia](https://en.wikipedia.org/wiki/Symbolic_link)
 
-If you are used to a Windows environment `Symbolic Links` are NOT the same as  `Windows Shortcuts`-
+If you are used to a Windows environment `Symbolic Links` are NOT the same as  `Windows Shortcuts`.
 
 A `Symbolic Link` act as the file was in the place you are linking to and the software will interpret it as such.
 

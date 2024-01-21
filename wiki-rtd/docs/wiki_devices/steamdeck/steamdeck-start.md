@@ -10,6 +10,7 @@
 - Choose where RetroDECK should create the `roms` folders `Internal` or `SDCard`.
 - Put the BIOS inside `~/retrodeck/bios/`.
 - Put the ROMS inside `~/retrodeck/roms/` or `<sdcard>/retrodeck/roms/` or a custom location.
+- Choose to install `The Official RetroDECK Steam Deck Controller Layout` (recommended and if you missed to install it check Step 3: of the in depth guide bellow)
 - In Steam desktop go to the tab `Games` press `Add non Steam game to My library` and select RetroDECK to add it into your library. If that is not working you can `Right Click` on the RetroDECK desktop icon and press `Add to Steam` in the menu.
 - **Optional way:** Get RetroDECK Steam Grid art and add it to your Steam library with BoilR. Or add the art manually from [SteamgridDB](https://www.steamgriddb.com/search/grids?term=RetroDeck) for the Steam Grid.
 - Switch over to game mode and go to RetroDECK on the Steam Grid under `Library > Non-Steam`
@@ -37,12 +38,12 @@
 - Inside Discover search for RetroDECK and press the install button.
 - After the installation is finished, launch RetroDECK from Discover or in the program menu under `Games > RetroDECK`.
 - Follow the first time setup instructions and choose where RetroDECK should create the `roms` folders `Internal` or `SDCard`.
-- You will get a choice during the Setup to Install `The Official RetroDECK Steam Deck Controller Profile` this is highly recommended.
+- You will get a choice during the Setup to Install `The Official RetroDECK Steam Deck Controller Layout` this is highly recommended.
 - Open Steam while still in desktop mode.
 - Inside Steam go to the tab `Games` press `Add non Steam game to My library` and select RetroDECK to add it into your library.
 - After this is done you can now see RetroDECK in Steam Deck's gamemode after you return to it from desktop mode.
 
-### Step 3: Configure the official controller layout (If you installed the controller profile)
+### Step 3: Configure the official controller layout (If you installed the controller layout)
 This step is only needed if you installed the layout. If you missed installed the layout you can always reinstall it from the `RetroDECK Configurator` in `Desktop Mode` or within `Game Mode` from within RetroDECK from the `Main Menu` - `RetroDECK Configurator` <br>
 Then `Tools` - `Install SD Controller Profile`.
 

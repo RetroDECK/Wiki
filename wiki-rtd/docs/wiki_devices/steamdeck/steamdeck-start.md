@@ -42,7 +42,7 @@
 - Inside Steam go to the tab `Games` press `Add non Steam game to My library` and select RetroDECK to add it into your library.
 - After this is done you can now see RetroDECK in Steam Deck's gamemode after you return to it from desktop mode.
 
-### Step 3: Configure the official controller layout (If you installed the controller profile )
+### Step 3: Configure the official controller layout (If you installed the controller profile)
 This step is only needed if you installed the layout. If you missed installed the layout you can always reinstall it from the `RetroDECK Configurator` in `Desktop Mode` or within `Game Mode` from within RetroDECK from the `Main Menu` - `RetroDECK Configurator` - `Tools` - `Install SD Controller Profile`
 
 - Go back into gamemode by pressing the return to gamemode icon on the desktop.

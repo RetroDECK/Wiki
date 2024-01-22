@@ -46,9 +46,21 @@ In that folder you will find two other files that is good to know about:
 
 - `uninstall.sh` - For uninstalling SteamDeckGyroDSU
 
-### Step 2: Open Yuzu in Game Mode and go to Controls
+### Step 2: Set RetroDECK Resolution
 
-Go to `Game Mode` and launch RetroDECK.
+Go to back to game mode `Game Mode`
+
+Go to RetroDECK.
+
+But before you launch RetroDECK click on the `⚙️` icon - `Properties` - `Shortcut` - `Game Resolution`
+
+Set the Resolution from `Default` to `1920x1080`
+
+Also turn on `Set resolution for internal and external display` (this might be hidden sometimes just go back one menu and go in again to make it show up).
+
+
+### Step 3:
+
 
 Open the `RetroDECK Configurator` and launch Yuzu from: `Main Menu` - `RetroDECK Configurator` - `Open Emulator` - `Yuzu`
 
@@ -59,12 +71,12 @@ Open the `RetroDECK Configurator` and launch Yuzu from: `Main Menu` - `RetroDECK
 Go to: `Emulation` - `Configure` - `Controls`
 
 
-### Step 3: Configure Controls
+### Step 4: Configure Controls
 Press the `Input Device` dropdown menu select `Steam Virtual Gamepad 0`.
 
 Make sure that the `Motion` is checked in the bottom left and click the `Configure` underneath the `Motion` checkbox.
 
-### Step 4: Test and Configure Motion
+### Step 5: Test and Configure Motion
 
 <img src="../../../wiki_images/emulators/yuzu/yuzu-motion-configure.png" width="600">
 
@@ -82,7 +94,7 @@ If all has gone well you will get a message saying:
 
 `Successfully received data from the server.`
 
-### Step 5: Go back to Controls and press the hidden motion button
+### Step 6: Go back to Controls and press the motion button
 
 <img src="../../../wiki_images/emulators/yuzu/yuzu-hidden-motion.png" width="600">
 
@@ -90,39 +102,30 @@ Go back to `Controls`
 
 Now you need to press the `Motion` button and `Shake the Steam Deck` to bind the motion.
 
-But is the button is hidden on the Steam Decks tiny Screen as the interface is cramped. <br>
-It is right under the big controller graphics.<br>
-
-This easy can be done Docked with a bigger screen and just press the button as it will be shown on a larger screen and give the Steam Deck a shake.
-
-But on the Steam Decks screen you need to do a special maneuver.
-
-#### Step 5b: The Tiny Screen maneuver
-
-On the left touch pad open the `RetroDECK Radial Menu System` press the `Steam Deck Menu`.
-
-Here you will the buttons `Tab` and `Enter`
-
-Press `Tab` until you highlight the `ZR` button in the interface.
-
-<img src="../../../wiki_images/emulators/yuzu/yuzu-zr-navigation.png" width="600">
-
-Two more `Tab` from the `ZR` button is the `Motion` button, navigate to it.
-
-Then press `Enter` and `Shake the Steam Deck`.
+<img src="../../../wiki_images/emulators/yuzu/yuzu-gyro-box.png" width="600">
 
 If all is working correctly the tiny box in the middle of the controller should move with your built in Gyro.
 
-
-<img src="../../../wiki_images/emulators/yuzu/yuzu-gyro-box.png" width="600">
-
-#### Step 6: Go back to RetroDECK
+### Step 6: Quit RetroDECK
 
 Press `OK` - Press the `Quit Emulator Hotkey` (Select + Start) or go to `File` - `Quit Yuzu`
 
-Quit the `RetroDECK Configurator`.
+Quit the `RetroDECK Configurator` and Quit RetorDECK.
 
-You can now play Yuzu with motion.
+### Step 7: Revert the Resolution to Default
+
+Revert the changed you made to resolution in Step 2:
+
+Click on the `⚙️` icon - `Properties` - `Shortcut` - `Game Resolution`
+
+Set the Resolution from`1920x1080`  to `Default`
+
+Also turn off `Set resolution for internal and external display`
+
+### Step 8: Launch RetroDECK
+
+You can now launch RetroDECK and play Yuzu with motion.
+
 
 ## Linux Desktop or Steam Deck Docked with External Gyro Enabled Controllers
 

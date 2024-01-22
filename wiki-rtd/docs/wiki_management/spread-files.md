@@ -1,6 +1,6 @@
 # Spreading Files over multiple drivers
 
-<img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
+<img src="../../wiki_icons/pixelitos/drive-harddisk.png" width="50">
 
 ## About Symbolic Links
 

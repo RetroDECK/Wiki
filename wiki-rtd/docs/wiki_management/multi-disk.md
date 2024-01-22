@@ -1,6 +1,6 @@
 # Multidisk/file games: Directory interpreted as files
 
-<img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
+<img src="../../wiki_icons/pixelitos/application-x-iso.png" width="50">
 
 
 You can put all the game files inside a sub-folder in order to keep you game list clean, these folder will be seen as the game itself from RetroDECK and not as an actual folder.

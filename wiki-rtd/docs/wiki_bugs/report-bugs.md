@@ -1,6 +1,6 @@
 # Reporting bugs and issues.
 
-Report all issues to the RetroDECK via the functions bellow including emulator related issues as we are putting our own framework on top of the emulators. So what looks like a emulator issue could sometimes be a framework issue.
+Report all issues to the RetroDECK via the functions below including emulator related issues as we are putting our own framework on top of the emulators. So what looks like a emulator issue could sometimes be a framework issue.
 
 Do not report any emulator related issues to the emulator developers directly and their support channels.
 

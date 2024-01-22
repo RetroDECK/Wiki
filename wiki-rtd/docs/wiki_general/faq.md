@@ -142,7 +142,10 @@ However you can run this to fix it: `flatpak remote-delete retrodeck-origin`
 <br>
 
 ### I disabled Steam Input from RetroDECK in Steam and now controls do not work anymore.
-RetroDECK is using Steam Input so for all the controller profiles disabling it is not recommend. If you can not enable Steam Input again and the Steam GUI is buggy. Remove RetroDECK as a non-steam game from the library then re add it again as a non-steam game.
+RetroDECK is using Steam Input so for all the controller profiles disabling it is not recommend. If you can not enable Steam Input again and the Steam GUI is buggy you have to do this:
+
+1. Remove RetroDECK as `A Non-Steam Game` from the `Library`
+2. Add it again via  `Library` - `Add a Non-Steam Game to My Library` (or use BoilR).
 
 <br>
 

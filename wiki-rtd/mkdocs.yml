@@ -103,65 +103,65 @@ nav:
     - Recommended Software: wiki_devices/linux_desktop/linux-software.md
 
   - EmulationStation-DE 📘:
-    - User Guide: wiki_emulationStation_de/esde-guide.md
+    - ES-DE - User Guide: wiki_emulationStation_de/esde-guide.md
     - Themes: wiki_emulationStation_de/esde-themes.md
   
   - Engine Guides 📘:
     - GZDoom 👹:
-      - General Guide (WIP): wiki_engine_guides/gzdoom/gzdoom-guide.md
+      - GZDoom - General Guide (WIP): wiki_engine_guides/gzdoom/gzdoom-guide.md
       - Get the WADs from bought DOOM / DOOM 2: wiki_engine_guides/gzdoom/extract-doom-wads.md
     - IkemenGO / M.U.G.E.N 🥋:
-      - General Guide (WIP): wiki_engine_guides/ikemengo/ikemengo-guide.md
+      - IkemenGO - General Guide (WIP): wiki_engine_guides/ikemengo/ikemengo-guide.md
     - Pico-8 8️⃣:
-      - General Guide: wiki_engine_guides/pico8/pico8-guide.md
+      - Pico-8 - General Guide: wiki_engine_guides/pico8/pico8-guide.md
     - ScummVM 🖱️:
-      - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
+      - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
     - Solarus 🌞:
-      - General Guide (WIP): wiki_engine_guides/solarus/solarus-guide.md
+      - Solarus - General Guide (WIP): wiki_engine_guides/solarus/solarus-guide.md
     - OpenBOR 🐉:
-      - General Guide (WIP): wiki_engine_guides/openbor/openbor-guide.md
+      - OpenBOR - General Guide (WIP): wiki_engine_guides/openbor/openbor-guide.md
 
   - Emulator Guides 📘:
     - Cemu ⬜:
-      - General Guide (WIP): wiki_emulator_guides/cemu/cemu-guide.md
+      - Cemu - General Guide (WIP): wiki_emulator_guides/cemu/cemu-guide.md
     - Citra 🍋:
-      - General Guide (WIP): wiki_emulator_guides/citra/citra-guide.md
-      - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
-      - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md
+      - Citra - General Guide (WIP): wiki_emulator_guides/citra/citra-guide.md
+      - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
+      - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md
     - Dolphin / Primehack 🐬:
       - General Guide (WIP): wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md
       - Mod Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-mod.md
       - Texture Pack Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-texture-pack.md
     - Duckstation 🐓:
-      - General Guide (WIP): wiki_emulator_guides/duckstation/duckstation-guide.md
-      - Texture Pack Guide: wiki_emulator_guides/duckstation/duckstation-texture-pack.md
+      - Duckstation - General Guide (WIP): wiki_emulator_guides/duckstation/duckstation-guide.md
+      - Duckstation - Texture Pack Guide: wiki_emulator_guides/duckstation/duckstation-texture-pack.md
     - MAME 💰:
-      - General Guide (WIP): wiki_emulator_guides/mame/mame-guide.md
+      - MAME - General Guide (WIP): wiki_emulator_guides/mame/mame-guide.md
     - MelonDS 🍉:
       - General Guide (WIP): wiki_emulator_guides/melonds/melonds-guide.md
     - PCSX2 2️⃣:
-      - General Guide (WIP): wiki_emulator_guides/pcsx2/pcsx2-guide.md
-      - Texture Pack Guide: wiki_emulator_guides/pcsx2/pcsx2-texture-pack.md
+      - PCSX2 - General Guide (WIP): wiki_emulator_guides/pcsx2/pcsx2-guide.md
+      - PCSX2 - Texture Pack Guide: wiki_emulator_guides/pcsx2/pcsx2-texture-pack.md
     - PPSSPP 🔺:
-      - General Guide (WIP): wiki_emulator_guides/ppsspp/ppsspp-guide.md
-      - Texture Pack Guide: wiki_emulator_guides/ppsspp/ppsspp-texture-pack.md
+      - PPSSPP - General Guide (WIP): wiki_emulator_guides/ppsspp/ppsspp-guide.md
+      - PPSSPP - Texture Pack Guide: wiki_emulator_guides/ppsspp/ppsspp-texture-pack.md
     - RetroArch 👾:
-      - General Guide (WIP): wiki_emulator_guides/retroarch/retroarch-guide.md
+      - RetroArch - General Guide (WIP): wiki_emulator_guides/retroarch/retroarch-guide.md
       - Mesen Core - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mesen-texture-pack.md
       - Mupen64Plus-Next Core - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mupen64plus-texture-pack.md
     - RPCS3 3️⃣:
-      - General Guide (WIP): wiki_emulator_guides/rpcs3/rpcs3-guide.md
+      - RPCS3 - General Guide (WIP): wiki_emulator_guides/rpcs3/rpcs3-guide.md
     - Ryujinx 🔵:
-      - General Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-guide.md
-      - Mod Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-mod.md
+      - Ryujinx - General Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-guide.md
+      - Ryujinx - Mod Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-mod.md
     - Vita3K 🤍:
-      - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
+      - Vita3K - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
     - Yuzu 🔴:
-      - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
-      - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
-      - Gyro Guide: wiki_emulator_guides/yuzu/yuzu-gyro.md
+      - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
+      - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
+      - Yuzu - Gyro Guide: wiki_emulator_guides/yuzu/yuzu-gyro.md
     - xemu ✖️:
-      - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
+      - xemu - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
 
   - Controllers 🎮:
     - About 🎮:

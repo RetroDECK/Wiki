@@ -26,7 +26,7 @@ Launch RetroDECK.
 - Press the `Steam` button - `Controller Settings` - Make sure that the RetroDECK Layout is selected.
 - Press `Edit Layout` - You will be on the `Action Set` - `RetroDECK - Set`.
 - Go down to `Gyro` - Change it from `As Joystick` to `Directional Pad`.
-- You don't need to put in any values of the menus bellow, just go back with `B` button to RetroDECK.
+- You don't need to put in any values of the menus below, just go back with `B` button to RetroDECK.
 
 ### Step 1: Install SteamDeckGyroDSU
 

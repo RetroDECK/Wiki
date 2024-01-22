@@ -121,7 +121,7 @@ Yes, check over at [How to: Move RetroDECK to a new device](../wiki_management/r
 <br>
 
 ### Where can I find the logfiles?
-In `~/retrodeck/logs/retrodeck.log`
+In `~/retrodeck/.logs/retrodeck.log`
 
 <br>
 
@@ -141,6 +141,10 @@ However you can run this to fix it: `flatpak remote-delete retrodeck-origin`
 
 <br>
 
+### I disabled Steam Input from RetroDECK in Steam and now controls do not work anymore.
+RetroDECK is using Steam Input so for all the controller profiles disabling it is not recommend. If you can not enable Steam Input again and the Steam GUI is buggy. Remove RetroDECK as a non-steam game from the library then re add it again as a non-steam game.
+
+<br>
 
 
 

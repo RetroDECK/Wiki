@@ -127,7 +127,18 @@ Also turn off `Set resolution for internal and external display`
 You can now launch RetroDECK and play Yuzu with motion.
 
 
-## Linux Desktop or Steam Deck Docked with External Gyro Enabled Controllers
+## Steam Deck with External Gyro Enabled Controllers
+
+**Prerequisites:**
+
+- A gyro enabled external controller.
+
+### Step 1:
+
+WIP
+
+
+## Linux Desktop with External Gyro Enabled Controllers
 
 **Prerequisites:**
 

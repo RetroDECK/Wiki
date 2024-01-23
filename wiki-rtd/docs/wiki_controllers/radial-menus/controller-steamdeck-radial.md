@@ -13,7 +13,7 @@ What follows is a breakdown of the Radial System that you access on the Steam De
 
 
 ## Main Menu
-The `Main Menu` gives you access to all the menus bellow.
+The `Main Menu` is the top menu and gives you access to all the menus below.
 
 ## Quick Menu
 The `Quick Menu` or `Quick Access Menu` Menu is the most populated menu. It features "best of" options from other menus.

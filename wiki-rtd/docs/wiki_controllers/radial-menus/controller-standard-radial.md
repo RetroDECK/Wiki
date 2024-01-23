@@ -4,7 +4,8 @@ The Global Radial Menu is activated by holding `SELECT` and by moving the `Left 
 
 Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Space          |   `Space`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-icon_circle_2_180x180.png" width="20">  | |
+| RetroDECK Logo          |   `/`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-icon_circle_2_180x180.png" width="20">  |  |
+| Space          |   `Space`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-space.png" width="20">  | |
 | Escape          |   `Escape`          |  `PPSSPP` `PC-Systems`  |<img src="../../../wiki_icons/binding_icons/RD-ESC.png" width="20">    | On PPPSPP it opens the Menu  |
 | Enter          |   `Enter`          |  `OpenBOR` `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-Enter.png" width="20">   | |
 | F1          |   `F1`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F1.png" width="20">   |   |

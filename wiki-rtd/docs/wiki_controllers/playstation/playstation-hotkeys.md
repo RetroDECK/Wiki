@@ -46,20 +46,7 @@ What follows is a list of hotkeys:
 
 The Global Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
 
-Radial Button |	Keyboard Command|  Emulator Support     |    Comment |
-| :---                    | :---:               | :---:                 |       :---:          |
-| Space          |   `Space`          |   `PC-Systems`  |   |
-| Escape          |   `Escape`          |  `PPSSPP` `PC-Systems`  |  On PPPSPP it opens the Menu |
-| Enter          |   `Enter`          |  `OpenBOR` `PC-Systems`  |   |
-| F1          |   `F1`          |  `PC-Systems`  |   |
-| F5          |   `F5`          |  `PC-Systems`  |   |
-| F10          |   `F10`          |  `PC-Systems`  |   |
-| Wii Sync Button          |   `ALT + W`          |  `Dolphin/Primehack`  |   |
-| Swap Dual-Screens          |   `CTRL + TAB`          |  `RetroArch` `Citra` `MelonDS` `Cemu`|   |
-| Change Dual-Screen Layout          |   `CTRL + L`          |  `Citra` |   |
-| Widescreen / Aspect Ratio        |   `CTRL + W`          |  `Dolphin/Primehack` `Duckstation` `PCSX2`	 |   |
-| Fullscreen Toggle      |   `CTRL + ENTER`          |  `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`          |        |
-| Change Disc / Next Disc        |   `CTRL + D`          |  `RetroArch` `Dolphin/Primehack` `Duckstation`|   |
+- Check the [Standard Controller: Radial Menu](../radial-menus/controller-standard-radial.md) to see all the available commands.
 
 
 ### Right Joystick as Temporary Mouse

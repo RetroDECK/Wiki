@@ -51,7 +51,7 @@ nav:
     - What is RetroDECK?: wiki_general/what-is-retrodeck.md
     - What is included in RetroDECK?: wiki_general/what-is-included.md
     - Supported Devices: wiki_general/supported-devices.md
-    - RetroDECK - Steam Controller Profiles (WIP): wiki_general/retrodeck-input-support.md
+    - RetroDECK - Controller Profiles (WIP): wiki_general/retrodeck-input-support.md
     - The RetroDECK Beta: wiki_general/beta-period.md
     - The FAQ ❔:  wiki_general/faq.md
     - Version History (Patchnotes): wiki_rd_versions/version-history.md
@@ -168,6 +168,7 @@ nav:
       - Different Button Prompts in Games: wiki_controllers/about/diffrent-game-inputs.md
       - RetroDECK and Udev Rules: wiki_controllers/about/about-udev.md
       - RetroDECK and Steam Input: wiki_steam/steam-input.md
+      - RetroDECK - Controller Profiles (WIP): wiki_general/retrodeck-input-support.md
 
     - Nintendo 🎮:
       - Nintendo - RetroDECK Hotkeys: wiki_controllers/nintendo/nintendo-hotkeys.md

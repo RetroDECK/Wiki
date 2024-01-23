@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/controllers/steam-controller-gordon.png" width="250">
 
-The first Steam Controller is with the nickname Gordon.
+The first Steam Controller with the nickname Gordon.
 
 ### Steam Input support
 Yes

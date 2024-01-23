@@ -1,4 +1,4 @@
-# Global Radial Menu for Standard Controllers
+#  Standard Controllers: RetroDECK Global Radial Menu
 
 The Global Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
 

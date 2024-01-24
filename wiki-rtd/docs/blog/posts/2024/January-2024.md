@@ -150,7 +150,7 @@ It is more of a good-to-have menu, most of the essential functions are already m
 
 The goal of the radial menu on controllers is to put commands you are not using that often there.
 
-But when you want to use them, you do not have to go all the way to your Steam Deck / PC to input them.
+But when you want to use them, you do not have to go all the way to your Steam Deck / PC to input them even if it could be a bit of a "claw-grip" to press`Select` and moving the `Left Joystick` the same time.
 
 The following wiki pages are always updated with the latest efforts of the above issue:
 

@@ -56,6 +56,18 @@ A new release of BoilR will be made with our recommended additions that will als
 
 ---
 
+## NEW: SteamDeckGyroDSU built-in
+
+We are experimenting with building in SteamDeckGyroDSU into RetroDECK so you don't have to do the entire setup for emulators like Yuzu to enable Gyro:
+
+[How to enable Gyro working Gyro in Yuzu][https://retrodeck.readthedocs.io/en/latest/wiki_emulator_guides/yuzu/yuzu-gyro/]
+
+If we can get it to work, it will be configured in the Emulators for the Steam Deck as soon as you use them.
+
+But let's see how it goes 🙂
+
+---
+
 ## Games as separate entries in Steam
 
 This function already works in our Beta testing. <br>
@@ -116,18 +128,7 @@ We are still evaluating builds, but it looks promising.
 Works without any major issues.
 
 
----
 
-
-## NEW: SteamDeckGyroDSU built in
-
-We are experimenting with building in SteamDeckGyroDSU into RetroDECK so you don't have to do the entire setup for emulators like Yuzu to enable Gyro:
-
-[How to enable Gyro working Gyro in Yuzu][https://retrodeck.readthedocs.io/en/latest/wiki_emulator_guides/yuzu/yuzu-gyro/]
-
-If we can get it to work, it will be configured in the Emulators for the Steam Deck as soon as you use them.
-
-But let's see how it goes 🙂
 
 ---
 

@@ -79,6 +79,8 @@ This first version of the function is simple but also quite elegant.
 
 ### How will it work?
 
+We hope to develop this function more in the future, but this will be the first iteration of it.
+
 **In the Configurator:**
 
 Configure SteamGridDB account (one time):
@@ -102,7 +104,7 @@ If you add or remove `Favorites ⭐` you just press the `Sync Favorites` button 
 
 As the RetroDECK Controller Profile is a global profile you will need to re-apply it for each game entry (as they are counted as a new game in Steam).
 
-We hope to develop this function more in the future, but this will be the first iteration of it.
+
 
 
 ---

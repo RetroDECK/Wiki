@@ -38,10 +38,9 @@ We are also thankful for the new people that have shown up to help with various 
 
 ## Cooperation between projects: Vita3K
 
-Parts of the RetroDECK team have been talking to the Vita3K team about hotkey improvements and giving advice (and memes) about building a flatpak.
+Parts of the RetroDECK team have been talking to the Vita3K team about hotkey improvements, flatpaks and other things.
 
-We are hopeful that these discussions lead to improvements for both projects (and maybe a flatpak version of Vita3K in the future).
-
+We are hopeful that these discussions lead to improvements for both projects.
 
 ---
 

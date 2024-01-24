@@ -12,6 +12,7 @@ Highlights:
 - Vita3K & BoilR cooperation
 - Progress report
 - Many new users
+- SteamDeckGyroDSU
 - And more!
 
 
@@ -117,6 +118,19 @@ Works without any major issues.
 
 ---
 
+
+## NEW: SteamDeckGyroDSU built in
+
+We are experimenting with building in SteamDeckGyroDSU into RetroDECK so you don't have to do the entire setup for emulators like Yuzu to enable Gyro:
+
+[How to enable Gyro working Gyro in Yuzu][https://retrodeck.readthedocs.io/en/latest/wiki_emulator_guides/yuzu/yuzu-gyro/]
+
+If we can get it to work, it will be configured in the Emulators for the Steam Deck as soon as you use them.
+
+But let's see how it goes 🙂
+
+---
+
 ## Status Update: External Controllers
 
 You can follow the work here and download the latest versions of the beta profiles there to test even now:
@@ -162,7 +176,7 @@ We are also working on translation files, and we hope to have some language opti
 
 - English (got it right now)
 
-But also experimenting with:
+But we are also experimenting with:
 
 - Italian
 

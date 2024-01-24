@@ -1,6 +1,7 @@
 ---
 date: 2023-11-23
 ---
+# November 2023 - Status Update
 
 **Please note that this was written for Lemmy/Reddit and copied over to the new RetroDECK Wiki**
 
@@ -10,11 +11,13 @@ We in the team thought we could give you a quick status update on how developmen
 
 If you don’t know what RetroDECK is or want more information check out the wiki.
 
+
+<!-- more -->
+
 # Status update 2023-11:
 
 It is the end of November and we want to give you a status update on  how things are going with RetroDECK. First off development is going  steady, and we have a lot of features in the pipeline but also some IRL  things that slow us down a bit (work, new baby etc…). But let us talk  about what we are working on and answer some questions.
 
-<!-- more -->
 
 **Note:**
 

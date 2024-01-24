@@ -2,11 +2,15 @@
 date: 2023-04-06
 ---
 
+# April 2023 - Status Update
+
 **Please note that this was written for Lemmy/Reddit and copied over to the new RetroDECK Wiki**
 
 Hello community!
 
 We in the team thought we could give you a quick status update on how development is going.
+
+<!-- more -->
 
 
 # Status update 2023-04:
@@ -17,7 +21,6 @@ Right now we are working on a huge overhaul of the Steam Deck's input profile fo
 
 The team have painstakingly made a huge map (excel) with all the emulators hotkeys, how they can be mapped and in the end classified as important, semi-important och not important.
 
-<!-- more -->
 
 *The thoughts so far:*
 

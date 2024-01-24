@@ -16,9 +16,6 @@ Highlights:
 
 <!-- more -->
 
-<img src="../../../doom-esde.png" width="550">
-
-*Theme is Alekfull NX (Revisited) by antfortytwo and fagnerpc. Also testing and feedback by Lazorne (RetroDECK).*
 
 ## Many new users - Thanks!
 
@@ -44,7 +41,8 @@ A new release of BoilR will be made with our recommended additions that will als
 
 ##  Status Update: Games as separate entries in Steam
 
-This function already works in our Beta testing. There are some minor fixes left but it works as intended thanks to the above cooperation.
+This function already works in our Beta testing. <br>
+There are some minor fixes left, but it works as intended thanks to the above cooperation.
 
 This first version of the function is simple but also quite elegant:
 
@@ -63,14 +61,44 @@ As the RetroDECK Controller Profile is a global profile you will need to reselec
 
 We hope to develop this function more in the future but this will be the first iteration of it.
 
-## We have manged to build full MAME
+## Status Update: MAME
 
 
+## Status Update: Godot Configurator
 
 
-- `Project Brutality - The Ultimate Collection.doom`
+<img src="../../../januari-2024-1.webp" width="600">
+
+The Godot Configurator still work progresses have gotten many major overhauls and improvements.
+
+<img src="../../../januari-2024-2.webp" width="600">
+
+We are also working on translation files and we hope to have some language options:
+
+- English (got it right now)
+
+But also:
+
+- Swedish
+- Italian
+- Japanese
+- Chinese (Simplified)
+- Ukrainian
+
+Later we will have the option for the community to send their translations via pull requests and create a little community translation group on the Discord.
 
 
+**The font:**
+
+One roadblock is the font.
+
+The current font we are we are using are not supporting all characters needed for the above languages.
+
+It is very hard to find a better retro inspired open font
+
+Another good thing would be if we can accommodate people dyslexia similar to https://opendyslexic.org/ but retro inspired.
+
+If you have any experience with font development or godot development and want to help out, please join the Discord and post the 💙-i-want-to-help channel
 
 **Check out our:**
 

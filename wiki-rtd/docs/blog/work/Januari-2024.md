@@ -1,6 +1,7 @@
 ---
 date:
 ---
+
 # January 2024: New Year!
 
 A new year and a new blog post!
@@ -63,13 +64,17 @@ We hope to develop this function more in the future but this will be the first i
 
 ## Status Update: MAME
 
+We have manged to build MAME, we still have several tests to be done and configurations to do.
+
 
 ## Status Update: Godot Configurator
 
 
 <img src="../../../januari-2024-1.webp" width="600">
 
-The Godot Configurator still work progresses have gotten many major overhauls and improvements.
+The Godot Configurator still a work progresses.
+
+It have gotten many major overhauls and improvements.
 
 <img src="../../../januari-2024-2.webp" width="600">
 
@@ -85,20 +90,30 @@ But also:
 - Chinese (Simplified)
 - Ukrainian
 
-Later we will have the option for the community to send their translations via pull requests and create a little community translation group on the Discord.
+Later we will have the option for the community to send their translations via pull requests and create a little translation group on the Discord.
 
 
-**The font:**
+### The font problem
 
 One roadblock is the font.
 
-The current font we are we are using are not supporting all characters needed for the above languages.
+The current font we are we are using is not supporting all characters needed for the above languages.
 
 It is very hard to find a better retro inspired open font
 
 Another good thing would be if we can accommodate people dyslexia similar to https://opendyslexic.org/ but retro inspired.
 
 If you have any experience with font development or godot development and want to help out, please join the Discord and post the 💙-i-want-to-help channel
+
+## Easter Egg: Boot Logos - Looking for Artist
+
+We have several Easter Egg - Boot Logos for various holidays that are looking for artists over here:
+
+[Looking for Artist](https://retrodeck.readthedocs.io/en/latest/wiki_about/boot-logos/)
+
+Lunar New Year - 春节 is coming up :)
+
+
 
 **Check out our:**
 

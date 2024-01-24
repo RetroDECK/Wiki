@@ -81,7 +81,7 @@ This first version of the function is simple but also quite elegant.
 
 **In the Configurator:**
 
-Configure Steam GridDB account (one time):
+Configure SteamGridDB account (one time):
 
 - Put in your `SteamGridDB API Key` from your account.
 - Checkbox if you want to use NSFW and/or Animated Art.

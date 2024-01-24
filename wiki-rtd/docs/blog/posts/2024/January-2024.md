@@ -162,13 +162,9 @@ We are also working on translation files, and we hope to have some language opti
 
 - English (got it right now)
 
-But also:
+But also experimenting with:
 
-- Swedish
 - Italian
-- Japanese
-- Chinese (Simplified)
-- Ukrainian
 
 Later we will have the option for the community to send their translations via pull requests and create a little translation group on the Discord.
 
@@ -177,7 +173,7 @@ Later we will have the option for the community to send their translations via p
 
 One roadblock is the font.
 
-The current font we are using does not support all characters needed for the above languages.
+The current font we are using does not support all characters needed for many other languages.
 
 It is ridiculously hard to find a better retro inspired open font.
 

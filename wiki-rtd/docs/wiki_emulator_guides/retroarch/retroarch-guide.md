@@ -14,6 +14,10 @@ RetroDECK ships all available cores from the stable branch and if no stable core
 
 [RetroArch - Github](https://github.com/libretro/RetroArch)
 
+## Does RetroArch require BIOS or Firmware?
+It depends on the core
+
+[RetroArch - BIOS Guide](https://docs.libretro.com/library/bios/)
 
 ## Navigation Guide
 
@@ -26,3 +30,4 @@ RetroDECK ships all available cores from the stable branch and if no stable core
 ## Shaders
 
 [RetroArch - Shaders Guide](https://docs.libretro.com/guides/shaders/)
+

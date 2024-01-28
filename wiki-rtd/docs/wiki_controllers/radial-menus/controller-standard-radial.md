@@ -24,7 +24,3 @@ Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | Change - Dual Screen Layout          |   `CTRL + L`          |  `Citra` | <img src="../../../wiki_icons/binding_icons/RD-preferences-system-windows-actions.png" width="20">    |  |
 | Widescreen / Aspect Ratio        |   `CTRL + W`          |  `Dolphin/Primehack` `Duckstation` `PCSX2`	 | <img src="../../../wiki_icons/binding_icons/RD-preferences-desktop-display.png" width="20">    |  |
 | Change Disc / Next Disc        |   `CTRL + D`          |  `RetroArch` `Dolphin/Primehack` `Duckstation`| <img src="../../../wiki_icons/binding_icons/RD-application-x-iso.png" width="20">    |   |
-
-## Standard Controllers
-
--

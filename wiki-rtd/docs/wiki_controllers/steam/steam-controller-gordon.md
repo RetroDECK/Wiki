@@ -64,7 +64,9 @@ For the Steam Controller Gordon the `HotKey Button` is both `SELECT` and `L4`, y
 
 The Global Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
 
-- Check the [Standard Controller: Radial Menu](../radial-menus/controller-standard-radial.md) to see all the available commands.
+Read more at the:
+
+[Standard Controller: Radial Menu](../radial-menus/controller-standard-radial.md) to see all the available commands.
 
 
 ### Right Touchpad as Temporary Mouse

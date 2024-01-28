@@ -1,4 +1,4 @@
-# Steam Deck: RetroDECK - Radial Menu System
+#  RetroDECK - Steam Deck: Radial Menu System
 
 ### Is there a quick way to go back to the top of the radial menu system?
 Yes, just press  on the `HKB` trigger buttons: `L4` or `R4` or `Select`

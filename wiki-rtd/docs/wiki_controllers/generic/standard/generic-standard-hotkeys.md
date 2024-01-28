@@ -39,7 +39,7 @@ The Global Radial Menu is activated by holding `SELECT` and by moving the `Left 
 
 Read more at the:
 
-[Standard Controller: Radial Menu](../radial-menus/controller-standard-radial.md) to see all the available commands.
+[Standard Controller: Radial Menu](../../radial-menus/controller-standard-radial.md) to see all the available commands.
 
 
 ### Right Joystick as Temporary Mouse

@@ -85,5 +85,4 @@ The touchpads acts as a mouse and can be used to navigate mouse based inputs.
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Full Touchpad          |             |      |         The entire touchpad acts a mouse   |
 | Right Touchpad Click         |  `Left Mouse Click`                |      |         |
-| Center Touchpad Click         |  `Center Mouse Click`                |      |         |
 | Left Touchpad Click         |  `Right Mouse Click`                |      |         |

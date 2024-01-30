@@ -8,7 +8,7 @@
 ![Discord](https://img.shields.io/discord/951662718102962256?label=discord)
 ![GitHub](https://img.shields.io/github/license/XargonWan/RetroDECK)
 
-## 🏗️ This wiki is currently under construction 🏗️**<br>
+## 🏗️ This wiki is currently under construction 🏗️
 Some articles are marked as WIP (Work in Progress).
 
 Those can either be:

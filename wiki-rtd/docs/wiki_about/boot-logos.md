@@ -16,19 +16,22 @@ Víctor R<br>
 
 ## Holiday Period
 
-
 <details><summary> Spoiler </summary>
-<img src="../../wiki_images/logos/rd-xmas-logo.svg" width="500">
+<img src="../../wiki_images/eastereggs/rd-xmas-logo.svg" width="500">
+
+Artist: Weestuarty
 </details>
 
-**Artist:**<br>
-[Weestuarty](https://github.com/Weestuarty)
+## Valentines Day
+
+<details><summary> Spoiler </summary>
+
+Artist: Weestuarty
+</details>
 
 ## Looking for Artist
 
 ### Lunar New Year - 春节
-
-### Valentines Day
 
 ### RetroDECK's Birthday AND GM's day
 

@@ -1,4 +1,4 @@
-<img src="wiki_images/logos/rd-stacked-esde-logo.png" width="600">
+<img src="wiki_images/eastereggs/rd-lunar-dragon-logo.svg" width="600">
 
 
 # Welcome to the RetroDECK wiki!

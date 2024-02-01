@@ -1,6 +1,6 @@
 # What is RetroDECK?
 
-<img src="../../wiki_images/logos/rd-stacked-esde-logo.png" width="400">
+<img src="../../wiki_images/logos/rd-esde-logo.svg" width="400">
 
 Instead of having several different software on your system for a variety of emulators and frontends you only need one: RetroDECK.
 

@@ -10,9 +10,9 @@ Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | Space          |   `Space`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-space.png" width="20">  | |
 | Tab          |   `Tab`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-Tab.png" width="20">  | |
 | Shift          |   `Shift`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-shift.png" width="20">  | |
-| Control          |   `Ctrl`          |  ``PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-ctrl.png" width="20">   | |
-| /         |   `/`          |  ``PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-frontslash.png" width="20">   | |
-| Alt          |   `Alt`          |  ``PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-alt.png" width="20">   | |
+| Control          |   `Ctrl`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-ctrl.png" width="20">   | |
+| /         |   `/`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-frontslash.png" width="20">   | |
+| Alt          |   `Alt`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-alt.png" width="20">   | |
 | F1          |   `F1`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F1.png" width="20">   |   |
 | F4          |   `F4`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F4.png" width="20">   |   |
 | F5          |   `F5`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F5.png" width="20">   |   |

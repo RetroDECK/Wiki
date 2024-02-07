@@ -3,13 +3,17 @@ What follows is a list of knows issues.
 For a list of reported bugs please check here on github: [RetroDECK issues](https://github.com/XargonWan/RetroDECK/issues/)
 
 ## Bigger issues
+
 - `Duckstation` memory cards folders are not created  making memory cards not work (default for PSX is RetroArch - Swanstation). The path is:`/retrodeck/saves/psx/duckstation/memcards/` this can problem can be solved by manually create the folders.
 
-- `Linux Desktop: Wayland` Several emulators do not work in Wayland.
+- `Linux Desktop: Wayland` Several emulators do not work in `Wayland` and we recommend using `X11` until those issues are fixed either by us or upstream.
 
 ## Minor issues
+
 - `PPSSPP` Retroachievements is in the latest version, you can login / logout / enable hardcore mode normally from the emulators interface. It is right now not configurable in the Configurator (as it works a bit different the other emulators), we hope to have a solution for it at a later date.
+
 - `RetroArch: Gambatte` Quitting the core with the `Quit` radial function makes the core swap the palette while playing GB.
+
 - `RetroArch` Borders are in some few cases disappearing in the latest RetroArch version. A possible workaround is to reset RetroArch from the Configurator.
 
 ## Hotkey and Controller Issues

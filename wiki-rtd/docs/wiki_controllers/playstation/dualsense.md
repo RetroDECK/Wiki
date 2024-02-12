@@ -8,6 +8,12 @@ Yes
 ### Linux Kernel Support
 Yes, since 5.14 - `hid-playstation`
 
+### Sony Firmware Update
+
+You can find the Windows software to update the firmware here:
+
+[Playstation: DualSense Firmware Update](https://controller.dl.playstation.net/controller/lang/en/fwupdater.html)
+
 ### Udev rules
 
 ```

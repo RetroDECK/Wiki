@@ -8,6 +8,13 @@ Yes, but not fully. It registers as a Xbox Wireless Controller but the back butt
 ### Linux Kernel Support
 Yes
 
+### Update the firmware
+
+This requires Windows:
+
+[Microsoft: Update Xbox Wireless Firmware](https://support.xbox.com/en-US/help/hardware-network/controller/update-xbox-wireless-controller)
+
+
 ### Udev rules
 
 ```

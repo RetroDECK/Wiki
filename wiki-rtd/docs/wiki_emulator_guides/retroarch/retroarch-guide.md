@@ -27,6 +27,10 @@ It depends on the core
 
 [RetroArch - Cheat Guide](https://docs.libretro.com/guides/cheat-codes/)
 
+## Arcade Systems Guide (FBNeo and MAME cores)
+
+[RetroArch - Arcade Guide](https://docs.libretro.com/guides/arcade-getting-started/)
+
 ## Shaders
 
 [RetroArch - Shaders Guide](https://docs.libretro.com/guides/shaders/)

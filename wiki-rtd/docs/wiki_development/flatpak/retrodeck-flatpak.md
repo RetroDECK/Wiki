@@ -32,6 +32,7 @@ The manifest got an header and a body.
 
 RetroDECK flatpak's name is net.retrodeck.retrodeck and it's defined in the manifest file
 
+
 **For RetroDECK:**
 
 [net.retrodeck.retrodeck.yml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) on our GitHub repository's root.
@@ -45,7 +46,6 @@ To be published on Flathub a appdata `.xml` file is needed that contains all the
 - Screenshots links
 - Version
 - Patchnotes
-- sha256 (mandatory)
 - Etc...
 
 **For RetroDECK:**
@@ -101,10 +101,10 @@ Have access to file systems paths for the entire home catalog and plugged in Dis
 ```
 
 
-## Example Flatpak's modules
+## Example Flatpak Manifests
 
 
-A good way to learn how to write modules is to search on flathub's GitHub for other modules to get an idea, however our manifest is more or less using every module type possible. What follows are two examples:
+A good way to learn how to write modules is to search on flathub's GitHub for other modules to get an idea, however our manifest is more or less using every module type possible. What follows are two examples (note that providing a sha256 is mandatory):
 
 
 ```

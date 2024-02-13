@@ -36,8 +36,25 @@ RetroDECK flatpak's name is net.retrodeck.retrodeck and it's defined in the mani
 
 [net.retrodeck.retrodeck.yml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) on our GitHub repository's root.
 
-## Permissions
+## The Appdata file
 
+To be published on Flathub a appdata `.xml` file is needed that contains all the information for the store:
+
+- Official name
+- Website links
+- Screenshots links
+- Version
+- Patchnotes
+- sha256 (mandatory)
+- Etc...
+
+**For RetroDECK:**
+
+[net.retrodeck.retrodeck.appdata.xml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.appdata.xml) on our GitHub repository's root.
+
+
+
+## Permissions
 
 Additional permissions arguments can be defined in the manifest to give access to several features of the hostsystem. Flatpak developers are always adding new permissions but the goal of a flatpak it should only request as much as it needs and not be over permissive .
 
@@ -85,13 +102,10 @@ Have access to file systems paths for the entire home catalog and plugged in Dis
 ```
 
 
-## Publication on Flathub
-
-To be published on Flathub (the Flatpak main store) an appdata is needed, the appdata, in our case net.retrodeck.retrodeck.appdata.xml contains all the information for the store, for example official name, website links, screenshots links, version notes and so on.
-
-An example of a simple module:
+## Example Flatpak's
 
 
+```
   - name: rclone
     buildsystem: simple
     build-commands:
@@ -122,7 +136,7 @@ An example of a cmake-ninja module:
         sha256: 1c4d0a5a38c8aaf89a2d7e6093be734320599f5a6775b2726beeb05b0c054e66
 ```
 
-And yes: sha256 is mandatory.
+And yes:
 This module is downloading that archive, extracting it, setting the config options, executing cmake-ninja and deleting the paths defined in the cleanup.
 
 To be published on Flathub (the Flatpak main store) an appdata file is needed, the appdata, in our case net.retrodeck.retrodeck.appdata.xml contains all the information useful for the store, for example official name, website links, screenshots links, version notes and so on.

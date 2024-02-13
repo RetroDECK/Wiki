@@ -265,7 +265,9 @@ nav:
       - Skylanders - Portal of Power (WIP): wiki_controllers/toystolife/skylanders-portal-of-power.md
       - Skylanders - Traptanium Portal (WIP): wiki_controllers/toystolife/skylanders-traptanium-portal.md
 
-  - RetroDECK Development 🧪:
+  - Development 🧪:
+    - Flatpak 📦:
+      - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
     - Folders and Filepaths: wiki_development/folders-filepaths.md
     - CLI Guide: wiki_development/cli-guide.md
     - Development Notes: wiki_development/general-development.md

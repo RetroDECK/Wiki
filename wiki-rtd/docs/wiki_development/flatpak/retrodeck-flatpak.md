@@ -53,7 +53,6 @@ To be published on Flathub a appdata `.xml` file is needed that contains all the
 [net.retrodeck.retrodeck.appdata.xml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.appdata.xml) on our GitHub repository's root.
 
 
-
 ## Permissions
 
 Additional permissions arguments can be defined in the manifest to give access to several features of the hostsystem. Flatpak developers are always adding new permissions but the goal of a flatpak it should only request as much as it needs and not be over permissive .
@@ -102,7 +101,10 @@ Have access to file systems paths for the entire home catalog and plugged in Dis
 ```
 
 
-## Example Flatpak's
+## Example Flatpak's modules
+
+
+A good way to learn how to write modules is to search on flathub's GitHub for other modules to get an idea, however our manifest is more or less using every module type possible. What follows are two examples:
 
 
 ```
@@ -116,7 +118,11 @@ Have access to file systems paths for the entire home catalog and plugged in Dis
         sha256: 6d6455e1cb69eb0615a52cc046a296395e44d50c0f32627ba8590c677ddf50a9
 ```
 
-This is just downloading the file from the defined url, unzip it (automatically as it's defined as archive) and executing the build-commands, a copy in this case.
+This module is:
+
+- Downloading the file from the defined url
+- Extracts it automatically as it's defined as a archive
+- Executing the build-commands, a copy in this case.
 
 An example of a cmake-ninja module:
 
@@ -136,10 +142,12 @@ An example of a cmake-ninja module:
         sha256: 1c4d0a5a38c8aaf89a2d7e6093be734320599f5a6775b2726beeb05b0c054e66
 ```
 
-And yes:
-This module is downloading that archive, extracting it, setting the config options, executing cmake-ninja and deleting the paths defined in the cleanup.
+This module is:
 
-To be published on Flathub (the Flatpak main store) an appdata file is needed, the appdata, in our case net.retrodeck.retrodeck.appdata.xml contains all the information useful for the store, for example official name, website links, screenshots links, version notes and so on.
+- Downloading the archive
+- Extracting it
+- Setting the config options
+- Executing cmake-ninja
+- Deleting the paths defined in the cleanup.
 
-A good way to learn how to write modules is to search on flathub's GitHub for other modules to get an idea, however our manifest is more or less using every module type possible.
 

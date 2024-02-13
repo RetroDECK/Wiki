@@ -3,10 +3,9 @@
 Flatpak is a packing method available on Linux and provides a separate sandbox environment from the main OS like chroot or a docker container.
 
 ## The Manifest file
+[Flatpak on Manifests](https://docs.flatpak.org/en/latest/manifests.html)
 
-RetroDECK flatpak's name is net.retrodeck.retrodeck and it's defined in the manifest file
-
-[Flatpak Manifests](https://docs.flatpak.org/en/latest/manifests.html)
+RetroDECK flatpak's name is `net.retrodeck.retrodeck` and it's defined in the manifest file
 
 The manifest is an `.yml` with a set of instructions to tell the flatpak-builder cli tool how to build the flatpak from the modules in the yml.
 

@@ -120,6 +120,7 @@ Have access to file systems paths for the entire home catalog and plugged in Dis
 
 A good way to learn how to write modules is to search on flathub's GitHub for other modules to get an idea, however our manifest is more or less using every module type possible. What follows are two examples (note that providing a sha256 is mandatory):
 
+### Example of rclone module
 
 ```
   - name: rclone
@@ -132,13 +133,13 @@ A good way to learn how to write modules is to search on flathub's GitHub for ot
         sha256: 6d6455e1cb69eb0615a52cc046a296395e44d50c0f32627ba8590c677ddf50a9
 ```
 
-This module is:
+**What does this module do?**
 
-- Downloading the file from the defined url
+- Downloads the file from the defined url
 - Extracts it automatically as it's defined as a archive
-- Executing the build-commands, a copy in this case.
+- Executing the build-commands (a copy in this case).
 
-An example of a cmake-ninja module:
+### Example of a cmake-ninja module
 
 ```
   - name: glslang
@@ -156,12 +157,12 @@ An example of a cmake-ninja module:
         sha256: 1c4d0a5a38c8aaf89a2d7e6093be734320599f5a6775b2726beeb05b0c054e66
 ```
 
-This module is:
+**What does this module do?**
 
-- Downloading the archive
-- Extracting it
-- Setting the config options
-- Executing cmake-ninja
-- Deleting the paths defined in the cleanup.
+- Downloads the archive
+- Extracts it
+- Sets the config options
+- Execute cmake-ninja
+- Cleanup by deleting the paths defined in the cleanup.
 
 

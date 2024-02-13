@@ -9,7 +9,7 @@ More on: [Flatpak Manifests](https://docs.flatpak.org/en/latest/manifests.html)
 
 The manifest is an `.yml` with a set of instructions to tell the flatpak-builder cli tool how to build the flatpak from the modules in the yml.
 
-The manifest got an header, a body and definitions of modules.
+The manifest got an header, a body that is the definitions of modules.
 
 Even the core application it self is a module inside the flatpak that needs to be defined.
 

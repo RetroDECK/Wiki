@@ -35,21 +35,19 @@ The real location of the `/app` folder in the hostOS is in the none writable pat
 
 In RetroDECK's case it is `/var/lib/flatpak/app/net.retrodeck.retrodeck/`
 
-### Writable folders
+### Writable folders in RetroDECK:
 
 These folder are the only folders writable by a flatpak:
 
-`/var/data` within the flatpak environment is writable in `~/.var/app/<FLATPAKNAME>/data` <br>
-`/var/config`
-`/var/config` within the flatpak environment is `~/.var/app/<FLATPAKNAME>/config`  <br>
+Within the flatpak environment:
 
-For RetroDECK:
+- `/var/data` is mapped to  `~/.var/app/<FLATPAKNAME>/data`
+- `/var/cache` is mapped to  `~/.var/app/<FLATPAKNAME>/cache`
+- `/var/config` is mapped to`~/.var/app/<FLATPAKNAME>/config`
+
+**For RetroDECK:**
 
 `~/.var/app/net.retrodeck.retrodeck/`
-
-`~/.var/app/net.retrodeck.retrodeck/config/`
-
-`~/app/net.retrodeck.retrodeck/data/`
 
 
 

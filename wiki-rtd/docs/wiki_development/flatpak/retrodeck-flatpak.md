@@ -1,6 +1,30 @@
 # About Flatpak
 
-Flatpak is a packing method available on Linux and provides a seperate sandbox environment from the main OS like chroot or a docker container.
+Flatpak is a packing method available on Linux and provides a separate sandbox environment from the main OS like chroot or a docker container.
+
+## The Manifest file
+
+RetroDECK flatpak's name is net.retrodeck.retrodeck and it's defined in the manifest file
+
+[Flatpak Manifests](https://docs.flatpak.org/en/latest/manifests.html)
+
+The manifest is an `.yml` with a set of instructions to tell the flatpak-builder cli tool how to build the flatpak from the modules in the yml.
+
+The manifest got an header, a body and definitions of modules.
+
+Even the core application it self is a module inside the flatpak that needs to be defined.
+
+
+**For RetroDECK:**
+
+[net.retrodeck.retrodeck.yml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) in our manifest the RetroDECK module is defined together with a ever growing list of other modules like our dependencies:
+
+- Emulators
+- Game Engines
+- Libraries
+- Github / Gitlab projects
+
+Are all defined in their own module and built together.
 
 
 ## The /app folder
@@ -25,19 +49,7 @@ For RetroDECK:
 
 `~/app/net.retrodeck.retrodeck/data/`
 
-## The Manifest file
 
-[Flatpak Manifests](https://docs.flatpak.org/en/latest/manifests.html)
-(
-The manifest is an `.yml` with a set of instructions to tell the flatpak-builder cli tool how to build the flatpak.
-The manifest got an header and a body.
-
-RetroDECK flatpak's name is net.retrodeck.retrodeck and it's defined in the manifest file
-
-
-**For RetroDECK:**
-
-[net.retrodeck.retrodeck.yml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) on our GitHub repository's root.
 
 ## The Appdata file
 
@@ -103,7 +115,7 @@ Have access to file systems paths for the entire home catalog and plugged in Dis
 ```
 
 
-## Example Flatpak Manifests
+## Example Modules
 
 
 A good way to learn how to write modules is to search on flathub's GitHub for other modules to get an idea, however our manifest is more or less using every module type possible. What follows are two examples (note that providing a sha256 is mandatory):

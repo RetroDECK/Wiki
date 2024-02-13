@@ -39,8 +39,8 @@ In RetroDECK's case it is `/var/lib/flatpak/app/net.retrodeck.retrodeck/`
 
 These folder are the only folders writable by a flatpak.
 
-`/var/data` is linked to `~/.var/app/<FLATPAKNAME>/data` <br>
-`/var/config` is linked to `~/.var/app/<FLATPAKNAME>/config`  <br>
+`/var/data` within the flatpak environment is  `~/.var/app/<FLATPAKNAME>/data` <br>
+`/var/config` within the flatpak environment is `~/.var/app/<FLATPAKNAME>/config`  <br>
 
 For RetroDECK:
 

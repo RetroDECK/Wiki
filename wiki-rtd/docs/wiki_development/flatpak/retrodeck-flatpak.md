@@ -15,7 +15,7 @@ The manifest got an header, a body and definitions of modules.
 Even the core application it self is a module inside the flatpak that needs to be defined.
 
 
-**For RetroDECK:**
+### RetroDECK: net.retrodeck.retrodeck.yml
 
 [net.retrodeck.retrodeck.yml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) in our manifest the RetroDECK module is defined together with a ever growing list of other modules like our dependencies:
 
@@ -62,7 +62,7 @@ To be published on Flathub a appdata `.xml` file is needed that contains all the
 - Patchnotes
 - Etc...
 
-**For RetroDECK:**
+### RetroDECK: net.retrodeck.retrodeck.appdata.xml
 
 [net.retrodeck.retrodeck.appdata.xml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.appdata.xml) on our GitHub repository's root.
 

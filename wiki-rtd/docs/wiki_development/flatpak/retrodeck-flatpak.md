@@ -5,7 +5,7 @@
 Flatpak is a application packing method available on Linux and provides a separate sandbox environment from the main OS like chroot or a docker container.
 
 ## The Manifest file
-[Flatpak on Manifests](https://docs.flatpak.org/en/latest/manifests.html)
+More on: [Flatpak Manifests](https://docs.flatpak.org/en/latest/manifests.html)
 
 The manifest is an `.yml` with a set of instructions to tell the flatpak-builder cli tool how to build the flatpak from the modules in the yml.
 
@@ -14,7 +14,7 @@ The manifest got an header, a body and definitions of modules.
 Even the core application it self is a module inside the flatpak that needs to be defined.
 
 
-### RetroDECK: net.retrodeck.retrodeck.yml
+### RetroDECK: Manifest
 
 RetroDECK flatpak's name is `net.retrodeck.retrodeck` and it's defined in the manifest file.
 
@@ -63,16 +63,16 @@ To be published on Flathub a appdata `.xml` file is needed that contains all the
 - Patchnotes
 - Etc...
 
-### RetroDECK: net.retrodeck.retrodeck.appdata.xml
+### RetroDECK: Appdata file
 
 [net.retrodeck.retrodeck.appdata.xml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.appdata.xml) on our GitHub repository's root.
 
 
 ## Permissions
 
-Additional permissions arguments can be defined in the manifest to give access to several features of the hostsystem. Flatpak developers are always adding new permissions but the goal of a flatpak it should only request as much as it needs and not be over permissive .
-
 More on [Sandbox Permissions Reference](https://docs.flatpak.org/en/latest/sandbox-permissions-reference.html)
+
+Additional permissions arguments can be defined in the manifest to give access to several features of the hostsystem. Flatpak developers are always adding new permissions but the goal of a flatpak it should only request as much as it needs and not be over permissive .
 
 All permissions can be even overridden by the user doing cli commands or using flatseal to add more permissions.
 

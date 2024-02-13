@@ -7,7 +7,7 @@ Flatpak is a application packing method available on Linux and provides a separa
 ## The Manifest file
 More on: [Flatpak Manifests](https://docs.flatpak.org/en/latest/manifests.html)
 
-The manifest is an `.yml`or `.json` with a set of instructions to tell the flatpak-builder cli tool how to build the flatpak from the modules in the yml.
+The manifest is an `.yml`or `.json` with a set of instructions to tell the flatpak-builder cli tool how to build the flatpak from the modules in the file.
 
 The manifest got an header and a body that is the definitions of modules.
 

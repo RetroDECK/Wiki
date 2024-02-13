@@ -37,9 +37,9 @@ In RetroDECK's case it is `/var/lib/flatpak/app/net.retrodeck.retrodeck/`
 
 ### Writable folders in RetroDECK:
 
-These folder are the only folders writable by a flatpak:
+These folder are the only folders writable by flatpak:
 
-Within the flatpak environment:
+(Note that these /var/ source folders are within the flatpak environment)
 
 - `/var/data` is mapped to  `~/.var/app/<FLATPAKNAME>/data`
 - `/var/cache` is mapped to  `~/.var/app/<FLATPAKNAME>/cache`

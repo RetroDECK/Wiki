@@ -27,6 +27,8 @@ For RetroDECK:
 
 ## The Manifest file
 
+[Flatpak Manifests](https://docs.flatpak.org/en/latest/manifests.html)
+(
 The manifest is an `.yml` with a set of instructions to tell the flatpak-builder cli tool how to build the flatpak.
 The manifest got an header and a body.
 

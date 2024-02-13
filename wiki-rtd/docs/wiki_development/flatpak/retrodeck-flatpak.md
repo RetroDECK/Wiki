@@ -1,5 +1,7 @@
 # About Flatpak
 
+<img src="../../../wiki_images/logos/flatpak-logo.png" width="150">
+
 Flatpak is a application packing method available on Linux and provides a separate sandbox environment from the main OS like chroot or a docker container.
 
 ## The Manifest file

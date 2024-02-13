@@ -27,6 +27,7 @@ RetroDECK flatpak's name is `net.retrodeck.retrodeck` and it's defined in the ma
 
 Are all defined in their own module and built together.
 
+*"It's modules all the way down!"*
 
 ## The /app folder
 The flatpak application is located and built inside the `/app` folder within this environment.

@@ -37,9 +37,10 @@ In RetroDECK's case it is `/var/lib/flatpak/app/net.retrodeck.retrodeck/`
 
 ### Writable folders
 
-These folder are the only folders writable by a flatpak.
+These folder are the only folders writable by a flatpak:
 
-`/var/data` within the flatpak environment is  `~/.var/app/<FLATPAKNAME>/data` <br>
+`/var/data` within the flatpak environment is writable in `~/.var/app/<FLATPAKNAME>/data` <br>
+`/var/config`
 `/var/config` within the flatpak environment is `~/.var/app/<FLATPAKNAME>/config`  <br>
 
 For RetroDECK:
@@ -167,3 +168,10 @@ A good way to learn how to write modules is to search on flathub's GitHub for ot
 - Cleanup by deleting the paths defined in the cleanup.
 
 
+## How do I browse RetroDECK flatpak enviroment?
+
+Via Debug Mode:
+
+`flatpak run --command=sh net.retrodeck.retrodeck`
+
+You can then access the full flatpak system such as `/var/` `/app/`

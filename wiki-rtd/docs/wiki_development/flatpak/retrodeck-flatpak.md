@@ -5,8 +5,6 @@ Flatpak is a packing method available on Linux and provides a separate sandbox e
 ## The Manifest file
 [Flatpak on Manifests](https://docs.flatpak.org/en/latest/manifests.html)
 
-RetroDECK flatpak's name is `net.retrodeck.retrodeck` and it's defined in the manifest file
-
 The manifest is an `.yml` with a set of instructions to tell the flatpak-builder cli tool how to build the flatpak from the modules in the yml.
 
 The manifest got an header, a body and definitions of modules.
@@ -15,6 +13,8 @@ Even the core application it self is a module inside the flatpak that needs to b
 
 
 ### RetroDECK: net.retrodeck.retrodeck.yml
+
+RetroDECK flatpak's name is `net.retrodeck.retrodeck` and it's defined in the manifest file.
 
 [net.retrodeck.retrodeck.yml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) in our manifest the RetroDECK module is defined together with a ever growing list of other modules like our dependencies:
 

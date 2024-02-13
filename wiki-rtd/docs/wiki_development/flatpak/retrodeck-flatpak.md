@@ -1,0 +1,131 @@
+# About Flatpak
+
+Flatpak is a packing method available on Linux and provides a seperate sandbox environment from the main OS like chroot or a docker container.
+
+
+## The /app folder
+The flatpak application is located and built inside the `/app` folder within this environment.
+
+The real location of the `/app` folder in the hostOS is in the none writable path: `/var/lib/flatpak/app/`
+
+In RetroDECK's case it is `/var/lib/flatpak/app/net.retrodeck.retrodeck/`
+
+### Writable folders
+
+These folder are the only folders writable by a flatpak.
+
+`/var/data` is linked to `~/.var/app/<FLATPAKNAME>/data` <br>
+`/var/config` is linked to `~/.var/app/<FLATPAKNAME>/config`  <br>
+
+For RetroDECK:
+
+`~/.var/app/net.retrodeck.retrodeck/`
+
+`~/.var/app/net.retrodeck.retrodeck/config/`
+
+`~/app/net.retrodeck.retrodeck/data/`
+
+## The Manifest file
+
+The manifest is an `.yml` with a set of instructions to tell the flatpak-builder cli tool how to build the flatpak.
+The manifest got an header and a body.
+
+RetroDECK flatpak's name is net.retrodeck.retrodeck and it's defined in the manifest file
+
+**For RetroDECK:**
+
+[net.retrodeck.retrodeck.yml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) on our GitHub repository's root.
+
+## Permissions
+
+
+Additional permissions arguments can be defined in the manifest to give access to several features of the hostsystem. Flatpak developers are always adding new permissions but the goal of a flatpak it should only request as much as it needs and not be over permissive .
+
+More on [Sandbox Permissions Reference](https://docs.flatpak.org/en/latest/sandbox-permissions-reference.html)
+
+All permissions can be even overridden by the user doing cli commands or using flatseal to add more permissions.
+
+Example arguments:
+
+
+```
+finish-args:
+  - --share=ipc
+  - --share=network
+  - --device=all
+  - --filesystem=home
+  - --filesystem=/run/media
+  - --filesystem=/media
+  - --filesystem=/media
+```
+
+
+In this example we're telling the flatpak:
+
+Enable ipc and networking
+
+```
+--share=ipc
+--share=network
+```
+
+Have access to all plugged in devices, such as controllers and webcams.
+
+```
+--device=all
+```
+
+Have access to file systems paths for the entire home catalog and plugged in Disks / SDCards and USB Storage.
+
+```
+--filesystem=home
+--filesystem=/run/media
+--filesystem=/media
+--filesystem=/mnt
+```
+
+
+## Publication on Flathub
+
+To be published on Flathub (the Flatpak main store) an appdata is needed, the appdata, in our case net.retrodeck.retrodeck.appdata.xml contains all the information for the store, for example official name, website links, screenshots links, version notes and so on.
+
+An example of a simple module:
+
+
+  - name: rclone
+    buildsystem: simple
+    build-commands:
+      - cp rclone ${FLATPAK_DEST}/bin/
+    sources:
+      - type: archive
+        url: https://github.com/rclone/rclone/releases/download/v1.61.1/rclone-v1.61.1-linux-amd64.zip
+        sha256: 6d6455e1cb69eb0615a52cc046a296395e44d50c0f32627ba8590c677ddf50a9
+```
+
+This is just downloading the file from the defined url, unzip it (automatically as it's defined as archive) and executing the build-commands, a copy in this case.
+
+An example of a cmake-ninja module:
+
+```
+  - name: glslang
+    buildsystem: cmake-ninja
+    config-opts:
+      - -DCMAKE_BUILD_TYPE=Release
+      - -DENABLE_CTEST=OFF
+      - -DENABLE_OPT=OFF
+    cleanup:
+      - /include
+      - /lib/cmake
+    sources:
+      - type: archive
+        url: https://github.com/KhronosGroup/glslang/archive/13.1.1.tar.gz
+        sha256: 1c4d0a5a38c8aaf89a2d7e6093be734320599f5a6775b2726beeb05b0c054e66
+```
+
+And yes: sha256 is mandatory.
+This module is downloading that archive, extracting it, setting the config options, executing cmake-ninja and deleting the paths defined in the cleanup.
+
+To be published on Flathub (the Flatpak main store) an appdata file is needed, the appdata, in our case net.retrodeck.retrodeck.appdata.xml contains all the information useful for the store, for example official name, website links, screenshots links, version notes and so on.
+
+A good way to learn how to write modules is to search on flathub's GitHub for other modules to get an idea, however our manifest is more or less using every module type possible.
+

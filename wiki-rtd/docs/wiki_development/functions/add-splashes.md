@@ -27,6 +27,8 @@ easter_eggs() {
   # USAGE: easter_eggs
 ```
 
+The `easter_eggs()` function is run with as part of the `start_retrodeck()` function.
+
 ## Easter Egg reference list
 
 The reference list is located under:

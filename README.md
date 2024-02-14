@@ -19,7 +19,8 @@ You need to have git, gh and python installed.
 
 1. Clone the wiki repo.
 2. Install `pip install mkdocs-material` & `pip install mkdocs-rss-plugin`
-3. In the `/wiki-rtd/` directory where the `mkdocs.yml` type from terminal `mkdocs serve` to start the local webserver.
-4. Browse to `http://127.0.0.1:8000/` and you will have a local instance of the wiki running.
-5. Submit and commit new wiki .md articles under the docs/ structure.
-6. Talk to `🖋-wiki-maintainers` before creating new subfolders under /docs
+3. Navigate to the `/wiki-rtd/` directory where the `mkdocs.yml` is located.
+4. Type in cli `mkdocs serve` to start the local webserver.
+5. Browse to `http://127.0.0.1:8000/` and you will have a local instance of the wiki running.
+6. Submit and commit new wiki .md articles under the docs/ structure and wait for a wikimaintaners review to merge the commit.
+7. Talk to `🖋-wiki-maintainers` before creating new subfolders under /docs

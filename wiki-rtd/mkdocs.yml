@@ -55,7 +55,7 @@ nav:
     - The RetroDECK Beta: wiki_general/beta-period.md
     - The FAQ ❔:  wiki_general/faq.md
     - Version History (Patchnotes): wiki_rd_versions/version-history.md
-    - What are you working on?: wiki_development/what-are-you-working.on.md
+    - What are you working on?: wiki_development/general/what-are-you-working.on.md
 
   - About RetroDECK 📖:
     - The Team & Credits: wiki_about/team-credits.md
@@ -268,6 +268,9 @@ nav:
   - Development 🧪:
     - Flatpak 📦:
       - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
-    - Folders and Filepaths: wiki_development/folders-filepaths.md
-    - CLI Guide: wiki_development/cli-guide.md
-    - Development Notes: wiki_development/general-development.md
+    - General:
+      - Folders and Filepaths: wiki_development/general/folders-filepaths.md
+      - CLI Guide: wiki_development/general/cli-guide.md
+      - Development Notes: wiki_development/general/general-development.md
+    - Functions:
+      - Add Boot Splashes: wiki_development/functions/add-splashes.md

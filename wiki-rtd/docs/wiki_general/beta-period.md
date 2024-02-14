@@ -28,7 +28,7 @@ Since the beta is the actual mainline that is in fact the stable version, the co
 
 - A list of issues and missing features can be found over at: [Known Issues](../wiki_bugs/known-issues.md)
 
-- To see what we are developing on currently check out: [What are you working on?](../wiki_development/what-are-you-working.on.md)
+- To see what we are developing on currently check out: [What are you working on?](../wiki_development/general/what-are-you-working.on.md)
 
 
 

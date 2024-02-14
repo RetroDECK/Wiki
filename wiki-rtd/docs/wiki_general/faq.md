@@ -93,7 +93,7 @@ Yes, you can reset various parts of the software using the RetroDECK Configurato
 Read more on: [RetroDECK Configurator 🛠️](../wiki_general/configurator.md)
 
 Or if you want to reset from CLI you can read up on:<br>
-`Development 🖥️` - [CLI Guide](../wiki_development/cli-guide.md)
+`Development 🖥️` - [CLI Guide](../wiki_development/general/cli-guide.md)
 
 
  <br>

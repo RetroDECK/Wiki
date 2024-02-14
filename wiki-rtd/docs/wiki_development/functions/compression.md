@@ -91,7 +91,7 @@ atari2600
 
 This is used by the `find_compatible_compression_format()` function above.
 
-The [zip_compressable_extensions.cfg](https://github.com/XargonWan/RetroDECK/blob/main/emu-configs/defaults/retrodeck/reference_lists/zip_compressable_extensions.cfg) contains the list of file exstensions that can be zipped into a .zip file and used by the systems that have enabled .zip compression in the `compression_targets.cfg`. This is to make sure only supported non-compressed formats are compressed.
+The [zip_compressable_extensions.cfg](https://github.com/XargonWan/RetroDECK/blob/main/emu-configs/defaults/retrodeck/reference_lists/zip_compressable_extensions.cfg) contains the list of file exstensions that can be zipped into a .zip file and used by the systems that have enabled .zip compression in the `compression_targets.cfg`. This is to make sure only supported file formats are compressed and remove the risk of a double compression.
 
 
 ### Example from zip_compressable_extensions.cfg

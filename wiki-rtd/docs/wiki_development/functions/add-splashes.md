@@ -59,7 +59,7 @@ Should be displayed between:
 
 1. Get a hold of the logo in .svg format and it should have a transparent background.
 2. Rename the logo so it matches the rd-logoname-splash.svg name so if as an example you want to add Easter name it: rd-easter-splash.svg
-3. Put the logo in `/RetroDECK//res/extra_splashes/`
+3. Put the logo in `/RetroDECK/res/extra_splashes/`
 4. Update the `reference_lists/easter_egg_checklist.cfg` above with a new line with the correct time and date format.
 5. Change the date of your PC to when the logo is supposed to show up to make sure it is working.
 6. Done

@@ -12,7 +12,7 @@ This is used at all times unless it is being overridden by the Easter Egg functi
 
 ## Easter Egg function
 
-The function is part of the `/RetroDECK/functions/functions.sh` shell script.
+The function is part of the `functions/functions.sh` shell script in our repo.
 
 The `easter_eggs()` function looks in the reference list and overrides the bootlogo with one of the .svg files from the referense list.
 

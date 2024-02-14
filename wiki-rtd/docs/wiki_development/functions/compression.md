@@ -3,7 +3,7 @@
 
 ## Compression shell script
 
-The location of the script is `/RetroDECK/functions/compression.sh`
+The location in our repo of the script is `functions/compression.sh`
 
 With in the script there are several functions.
 

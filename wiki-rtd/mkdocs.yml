@@ -273,4 +273,5 @@ nav:
       - CLI Guide: wiki_development/general/cli-guide.md
       - Development Notes: wiki_development/general/general-development.md
     - Functions:
-      - Add Boot Splashes: wiki_development/functions/add-splashes.md
+      - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md
+      - Compression: wiki_development/functions/compression.md

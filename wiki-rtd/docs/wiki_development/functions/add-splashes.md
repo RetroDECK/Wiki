@@ -8,11 +8,13 @@ The main retrodeck splash is located in:
 
 `/RetroDECK/res/splash.svg`
 
+This is used at all times unless it is being overridden by the Easter Egg function.
+
 ## Easter Egg function
 
-The Easter Egg function looks in the reference lists and overrides the bootlogo with one from
+The Easter Egg function looks in the reference list and overrides the bootlogo with one of the .svg files from
 
-`/RetroDECK//res/extra_splashes/`
+`/RetroDECK/res/extra_splashes/`
 
 ## Easter Egg reference list
 

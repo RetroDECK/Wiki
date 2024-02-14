@@ -6,13 +6,13 @@
 
 The main retrodeck splash is located in:
 
-`/RetroDECK/res/splash.svg`
+[res/splash.svg](https://github.com/XargonWan/RetroDECK/blob/main/res/splash.svg)
 
 This is used at all times unless it is being overridden by the Easter Egg function.
 
 ## Easter Egg function
 
-The function is part of the `functions/functions.sh` shell script in our repo.
+The function is part of the [functions/functions.sh](https://github.com/XargonWan/RetroDECK/blob/main/functions/functions.sh) shell script.
 
 The `easter_eggs()` function looks in the reference list and overrides the bootlogo with one of the .svg files from the referense list.
 
@@ -33,7 +33,7 @@ The `easter_eggs()` function is as a part of the `start_retrodeck()` bootup func
 
 The reference list is located under:
 
-`/RetroDECK/emu-configs/defaults/retrodeck/reference_lists/easter_egg_checklist.cfg`
+[emu-configs/defaults/retrodeck/reference_lists/easter_egg_checklist.cfg](https://github.com/XargonWan/RetroDECK/blob/main/emu-configs/defaults/retrodeck/reference_lists/easter_egg_checklist.cfg)
 
 The config is populated with references with dates and time on when the easter egg logo should show up in the following format with `^` as seperators.
 
@@ -55,7 +55,7 @@ The order is:
 
 ### Example rd-xmas-splash.svg
 
-The `/RetroDECK//res/extra_splashes/rd-xmas-splash.svg` exists within the extra_splashes folder.
+The [res/extra_splashes/rd-xmas-splash.svg](https://github.com/XargonWan/RetroDECK/blob/main/res/extra_splashes/rd-xmas-splash.svg) exists within the extra_splashes folder.
 
 The xmas logo splash in the reference list
 
@@ -72,7 +72,7 @@ Should be displayed between:
 
 1. Get a hold of the logo in .svg format and it should have a transparent background.
 2. Rename the logo so it matches the rd-logoname-splash.svg name so if as an example you want to add Easter name it: rd-easter-splash.svg
-3. Put the logo in `/RetroDECK/res/extra_splashes/`
-4. Update the `reference_lists/easter_egg_checklist.cfg` above with a new line with the correct time and date format.
+3. Put the logo in [extra_splashes](https://github.com/XargonWan/RetroDECK/tree/main/res/extra_splashes)
+4. Update the [easter_egg_checklist.cfg](https://github.com/XargonWan/RetroDECK/blob/main/emu-configs/defaults/retrodeck/reference_lists/easter_egg_checklist.cfg) with new information.
 5. Change the date of your PC to when the logo is supposed to show up to make sure it is working.
 6. Done

@@ -3,7 +3,9 @@
 
 ## Compression shell script
 
-The location in our repo of the script is `functions/compression.sh`
+The shell script:
+
+[functions/compression.sh](https://github.com/XargonWan/RetroDECK/blob/main/functions/compression.sh)
 
 With in the script there are several functions.
 
@@ -50,9 +52,9 @@ Description:
 
 ## Compression targets reference list
 
-The reference list is located under:
+The reference list:
 
-`/RetroDECK/emu-configs/defaults/retrodeck/reference_lists/compression_targets.cfg`
+[emu-configs/defaults/retrodeck/reference_lists/reference_lists/compression_targets.cfg](https://github.com/XargonWan/RetroDECK/blob/main/emu-configs/defaults/retrodeck/reference_lists/compression_targets.cfg)
 
 The config is populated with compression formats with within `[]` and what es-de folders that are targeted for the format compression.
 Each system can only have one format.

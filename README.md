@@ -12,3 +12,14 @@
 Join the Discord and post in `💙-i-want-to-help` channel that you want to help out with the wiki.
 
 You will then get access to the `🖋-wiki-maintainers`channel by one of the mods and you can discuss with your fellow contributors in that channel.
+
+## How to submit articles?
+
+You need to have git, gh and python installed.
+
+1. Clone the wiki repo.
+2. Install `pip install mkdocs-material` & `pip install mkdocs-rss-plugin`
+3. In the `/wiki-rtd/` directory where the `mkdocs.yml` type from terminal `mkdocs serve` to start the local webserver.
+4. Browse to `http://127.0.0.1:8000/` and you will have a local instance of the wiki running.
+5. Submit and commit new wiki .md articles under the docs/ structure.
+6. Talk to `🖋-wiki-maintainers` before creating new subfolders under /docs

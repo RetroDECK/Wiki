@@ -36,7 +36,7 @@ The order is:
 - End Date: MMDD
 - Start Time: HHMM
 - End Time: HHMM
-- The `rd-logoname-splash.svg` should match the exact filename under `/RetroDECK//res/extra_splashes/`
+- The `rd-logoname-splash.svg` should match the exact filename under `/RetroDECK/res/extra_splashes/`
 
 
 

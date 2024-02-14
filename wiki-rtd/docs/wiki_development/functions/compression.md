@@ -70,7 +70,7 @@ You want to add `gb` to the list.
 - Make sure that the subfolder under roms also called the same: `roms/gb`
 - Then add the `gb` entry to under the `[zip]`
 
-### Example
+### Example from compression_targets.cfg
 
 ```
 [chd]
@@ -94,7 +94,7 @@ This is used by the `find_compatible_compression_format()` function above.
 The [zip_compressable_extensions.cfg](https://github.com/XargonWan/RetroDECK/blob/main/emu-configs/defaults/retrodeck/reference_lists/zip_compressable_extensions.cfg) contains the list of file exstensions that can be zipped into a .zip file and used by the systems that have enabled .zip compression in the `compression_targets.cfg`. This is to make sure only supported none compressed formats are compressed.
 
 
-**Example:**
+### Example from zip_compressable_extensions.cfg
 
 List of file extensions
 

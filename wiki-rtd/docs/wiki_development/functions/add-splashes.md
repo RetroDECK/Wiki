@@ -12,9 +12,20 @@ This is used at all times unless it is being overridden by the Easter Egg functi
 
 ## Easter Egg function
 
-The Easter Egg function looks in the reference list and overrides the bootlogo with one of the .svg files from
+The function is part of the `/RetroDECK/functions/functions.sh`
 
-`/RetroDECK/res/extra_splashes/`
+The Easter Egg function looks in the reference list and overrides the bootlogo with one of the .svg files from the referense list.
+
+Decription of the function:
+
+```
+easter_eggs() {
+  # This function will replace the RetroDECK startup splash screen with a different image if the day and time match a listing in easter_egg_checklist.cfg
+  # The easter_egg_checklist.cfg file has the current format: $start_date^$end_date^$start_time^$end_time^$splash_file
+  # Ex. The line "1001^1031^0000^2359^spooky.svg" would show the file "spooky.svg" during any time of day in the month of October
+  # The easter_egg_checklist.cfg is read in order, so lines higher in the file will have higher priority in the event of an overlap
+  # USAGE: easter_eggs
+```
 
 ## Easter Egg reference list
 

@@ -35,9 +35,9 @@ The reference list is located under:
 
 [emu-configs/defaults/retrodeck/reference_lists/easter_egg_checklist.cfg](https://github.com/XargonWan/RetroDECK/blob/main/emu-configs/defaults/retrodeck/reference_lists/easter_egg_checklist.cfg)
 
-The config is populated with references with dates and time on when the easter egg logo should show up in the following format with `^` as seperators.
+The config is populated with references with dates and time on when the easter egg splash should show up in the following format with `^` as seperators.
 
-Each new logo is added as a new line.
+Each new splash logo is added as a new line.
 
 ### Example
 
@@ -55,9 +55,9 @@ The order is:
 
 ### Example rd-xmas-splash.svg
 
-The [res/extra_splashes/rd-xmas-splash.svg](https://github.com/XargonWan/RetroDECK/blob/main/res/extra_splashes/rd-xmas-splash.svg) exists within the extra_splashes folder.
+The [res/extra_splashes/rd-xmas-splash.svg](https://github.com/XargonWan/RetroDECK/blob/main/res/extra_splashes/rd-xmas-splash.svg) is the xmas splash screen.
 
-The xmas logo splash in the reference list
+The xmas splash in the reference list
 
 `1201^1231^0000^2359^rd-xmas-splash.svg`
 

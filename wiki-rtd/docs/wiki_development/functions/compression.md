@@ -63,6 +63,7 @@ This is used by the `find_compatible_compression_format()` function above.
 
 ### Example
 
+```
 [chd]
 3do
 amigacd32
@@ -70,6 +71,8 @@ amigacd32
 gc
 [zip]
 atari2600
+
+```
 
 - 3do and amigcd32 is compressed to chd
 - gc is compressed to rvz

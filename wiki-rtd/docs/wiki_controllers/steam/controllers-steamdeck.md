@@ -53,18 +53,18 @@ What follows is a list of hotkeys:
 | Pause / Resume          |   `HKB + A`          |   `CTRL + P`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
 | Take Screenshot         |   `HKB + B`          |   `CTRL + X`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`           |            |
 | Fullscreen Toggle      |   `HKB + X`          |   `CTRL + ENTER`      | `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
-| Open Menu               |  `HKB + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu`                        |
-| Quit Emulator           |  `HKB + Start`       |   `CTRL + Q`          |`RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`                                   |            | |
-| Previous State Slot     |  `HKB + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
-| Next State Slot         |  `HKB + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|
+| Open Menu               |  `HKB + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu`   `PPSSPP`                             |
+| Quit Emulator           |  `HKB + Start`       |   `CTRL + Q`          |`RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`  `PPSSPP`                                         |            | |
+| Previous State Slot     |  `HKB + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2` `PPSSPP`       |                    |            |
+| Next State Slot         |  `HKB + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2` `PPSSPP`       |
 | Increase Emulation Speed     |  `HKB + D-Pad Up`  |   `CTRL + 1`          | `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
 | Decrease Emulation Speed         |  `HKB + D-Pad Down` |   `CTRL + 2`          | `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`|                       |            |
-| Load State              |  `HKB + L1`          |   `CTRL + A`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                          |            |
-| Save State              |  `HKB + R1`          |   `CTRL + S`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                        |            |
+| Load State              |  `HKB + L1`          |   `CTRL + A`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`     `PPSSPP`                             |            |
+| Save State              |  `HKB + R1`          |   `CTRL + S`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`     `PPSSPP`                           |            |
 | Rewind                  |  `HKB + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation`                     |            |
-| Fast forward            |  `HKB + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                  |            |
+| Fast forward            |  `HKB + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`    `PPSSPP`                                      |            |
 | Swap Screens         |  `HKB + L3`          |   `CTRL + TAB`        |     `Citra` `MelonDS`  `Cemu`           |            |
-| Escape                  |  `HKB + R3`          |   `ESC`               |     `PPSSPP`                 |            |
+| Escape                  |  `HKB + R3`          |   `ESC`               |                  |            |
 
 
 
@@ -107,16 +107,16 @@ The `Quick Menu` or `Quick Access Menu` Menu is the most populated menu. It feat
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
 | :---                    | :---:                |       :---:          |  :---:     |
-| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`                     |            |
-| Open Menu               |   `Ctrl + M`         |  `RetroArch` `Duckstation` `PCSX2`  `Yuzu`                       |            |
+| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`  `PPSSPP`                           |            |
+| Open Menu               |   `Ctrl + M`         |  `RetroArch` `Duckstation` `PCSX2`  `Yuzu`  `PPSSPP`                        |            |
 | Swap Screens            |   `Ctrl + Tab`       |  `Citra` `MelonDS`  `Cemu`                     |            |
 | Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`           |            |
-| Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`                      |            |
-| Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`                     |            |
-| Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu`             |             |
+| Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`     `PPSSPP`                         |            |
+| Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`     `PPSSPP`                        |            |
+| Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu`    `PPSSPP`                 |             |
 | Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu`                      |            |
 | Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`                                   |            |
-| Escape                  |   `ESC`              |       `PPSSPP`              |            |
+| Escape                  |   `ESC`              |                  |            |
 
 #### State Menu
 The `State Menu` is the menu where you handle anything to do with saving and loading states.
@@ -124,8 +124,8 @@ The `State Menu` is the menu where you handle anything to do with saving and loa
 
 | Radial Button           | Keyboard Command     | Emulator Support     |    Comment |
 | :---                    | :---:                |       :---:          |  :---:     |
-| Previous State          |   `Ctrl + J`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`                      |            |
-| Next State              |   `Ctrl + K`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`                      |            |
+| Previous State          |   `Ctrl + J`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`    `PPSSPP`                          |            |
+| Next State              |   `Ctrl + K`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`    `PPSSPP`                          |            |
 | Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`                      |            |
 | Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`                     |            |
 | Undo Load State         |   `Ctrl + 8`         | `Dolphin/Primehack`                    |            |
@@ -137,8 +137,8 @@ The `Speed / Frames Menu` is where you find anything related to: emulation speed
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
 | :---                    | :---:                |       :---:           |  :---:     |
-| Fastforward             |   `Ctrl + +`         | `RetroArch` `Duckstation` `MelonDS` `PCSX2`                       |            |
-| Rewind                  |   `CTRL + -`         |  `RetroArch` `Duckstation`                     |            |
+| Fastforward             |   `Ctrl + +`         | `RetroArch` `Duckstation` `MelonDS` `PCSX2`  `PPSSPP`                             |            |
+| Rewind                  |   `CTRL + -`         |  `RetroArch` `Duckstation`     `PPSSPP`                        |            |
 | Increase Emulation Speed|   `CTRL + 1`         | `Citra` `Dolphin/Primehack` `Duckstation`  `PCSX2`                       |            |
 | Decrease Emulation Speed|   `CTRL + 2`         |`Citra` `Dolphin/Primehack` `Duckstation`  `PCSX2`                        |            |
 | Reset Emulation Speed   |   `CTRL + 3`         | `Duckstation`                      |            |
@@ -151,7 +151,7 @@ The `Display / Graphics Menu` is where you find anything related to: up-scaling/
 
 | Radial Button                    | Keyboard Command |  Emulator Support     |    Comment |
 | :---                             | :---:            |       :---:           |  :---:     |
-| Fullscreen Toggle                |   `Ctrl + Enter` | `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu`                      |            |
+| Fullscreen Toggle                |   `Ctrl + Enter` | `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu`  `PPSSPP`                            |            |
 | Increase Resolution / Upscale    |   `Ctrl + U`     |  `Dolphin/Primehack` `Duckstation` `PCSX2`    |            |
 | Decrease Resolution / Upscale    |   `Ctrl + Y`     | `Dolphin/Primehack` `Duckstation` `PCSX2`     |            |
 | Change Widescreen / Aspect Ratio |   `Ctrl + W`     |  `Dolphin/Primehack` `Duckstation` `PCSX2`    |            |
@@ -163,15 +163,15 @@ The `General Menu` or `General Emulation Menu` is where you find various global 
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
 | :---                    | :---:                |       :---:           |  :---:     |
-| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2` `Yuzu`                      |            |
-| Open Menu               |   `Ctrl + M`         | `RetroArch` `Duckstation` `PCSX2`  `Yuzu`                         |            |
+| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2` `Yuzu`  `PPSSPP`                            |            |
+| Open Menu               |   `Ctrl + M`         | `RetroArch` `Duckstation` `PCSX2`  `Yuzu`          `PPSSPP`                       |            |
 | Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
 | Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`                                                          |            |
 | Change Disc / Next Disc |   `CTRL + D`         | `RetroArch` `Dolphin/Primehack` `Duckstation`                      |            |
 | Cheats On/Off           |   `CTRL + C`         | `RetroArch` `Duckstation`                     |            |
 | Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
-| Turbo On/Off            |   `Ctrl + T`         | `Duckstation`                       |            |
-| Video Recording On/Off  |   `Ctrl + V`         |`RetroArch` `Dolphin/Primehack`  `PCSX2`                       |            |
+| Turbo On/Off            |   `Ctrl + T`         | `Duckstation`     `PPSSPP`                          |            |
+| Video Recording On/Off  |   `Ctrl + V`         |`RetroArch` `Dolphin/Primehack`  `PCSX2`   `PPSSPP`                            |            |
 
 #### Steam Deck Menu
 The `Steam Deck Menu` is where you find Steam Deck specific functions and general computer hotkeys: Steam Screenshot, Show Steam Deck Keyboard, Escape, Alt + F4, Tab, Enter and F1. Some of these could also be useful inside the various PC emulation emulators.

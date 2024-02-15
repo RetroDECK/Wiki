@@ -179,7 +179,7 @@ The `Steam Deck Menu` is where you find Steam Deck specific functions and genera
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
 | :---                    | :---:                |       :---:           |  :---:     |
-| Escape                  |   `ESC`              |     `PPSSPP`          |            |
+| Escape                  |   `ESC`              |                       |            |
 | Tab                     |   `Tab`              |                       |            |
 | Alt + F4                |   `Alt + F4`         |                       |            |
 | F1                      |   `F1`               |                       |            |

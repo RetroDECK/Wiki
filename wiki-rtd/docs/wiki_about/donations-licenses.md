@@ -411,6 +411,9 @@ Members of the RetroDECK Team also owns a seperate donation license.
 ## Other Licenses
 Here we showcase the licenses of projects / functions we might use in part, got inspired by the code/solutions or want to give special credit.
 
+### Pixel Sans 13
+[Licenses](https://fontstruct.com/fontstructions/show/1844233/pixel-sans-13)
+
 ### Capsimg
 
 [Licenses](https://github.com/rsn8887/capsimg/blob/master/LICENCE.txt)

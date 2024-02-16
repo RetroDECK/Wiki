@@ -38,4 +38,4 @@ It's not in our roadmap yet as now the entire buildsystem is based on the flatpa
 In the past we evaluated to migrate to **Buildstream** (or similar solutions) and build on to multiple output formats.
 
 But the team is not large enough to migrate and maintain other distribution methods, so we prefer to focus our effort on Flatpak only.
-If someone with the knowlage and passion wishes to help us with migrating to a solution and help us maintain it, we are open for discussion it at least.
+If someone with the knowledge and passion wishes to help us with migrating to a solution and help us maintain it, we are open for a discussion.

@@ -1,5 +1,7 @@
 # Development General Notes
 
+This is WIP
+
 ## Cooker
 Cooker, differently from the main (stable) branch, is what it's boiling in the pot now: the bleeding edge of the software development.
 Every time a commit or a PR is done, a GitHub action automatically compiles the snapshot with the latest changes and publish them on the [cooker repository](https://github.com/XargonWan/RetroDECK-cooker).
@@ -8,39 +10,10 @@ This can be publicly tested and if it's stable will be merged in the main branch
 Useless to say that this channel is not suggested for the end user but it's developer / alpha tester oriented.
 Expect major bugs and data loss: be warned.
 
-## Build instructions
 
-If you want to build the RetroDECK flatpak on your machine for developing or just testing purposes:
+## How to build RetroDECK?
 
-```
-cd ~
-git clone --recursive https://github.com/XargonWan/RetroDECK.git
-cd RetroDECK
-git submodule init
-git submodule update
-```
-
-install `flatpak flatpak-builder p7zip-full` with your distro's package manager, then:
-
-```
-flatpak remote-add --if-not-exists Flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak install --user -y org.kde.Sdk//5.15-21.08 org.kde.Platform//5.15-21.08 io.qt.qtwebengine.BaseApp/x86_64/5.15-21.08 org.freedesktop.Sdk.Extension.llvm13 org.freedesktop.Platform.ffmpeg-full/x86_64/21.08
-```
-
-To build the stable release:
-
-```
-flatpak-builder --user --install --install-deps-from=flathub --install-deps-from=flathub-beta --force-clean --repo=local ~/RetroDECK/retrodeck-main ~/RetroDECK/net.retrodeck.retrodeck.yml
-flatpak build-bundle local ~/RetroDECK.flatpak net.retrodeck.retrodeck
-```
-
-Or alternatively, to build the cooker (experimental) release:
-
-```
-git checkout cooker
-flatpak-builder --user --install --force-clean --repo=local ~/RetroDECK/retrodeck-cooker ~/RetroDECK/net.retrodeck.retrodeck.yml
-flatpak build-bundle local ~/RetroDECK.flatpak net.retrodeck.retrodeck
-```
+ Run `./build-local.sh`
 
 ## Debug Mode
 It's possible to enter in a sort of debug mode, it's actually the flatpak shell.
@@ -107,4 +80,38 @@ flatpak uninstall net.retrodeck.retrodeck
 ## Making your own ES-DE theme
 Please check the following link link over ES-DE <br>
 [Theme Development ](https://gitlab.com/es-de/emulationstation-de/-/blob/master/THEMES-DEV.md)
+
+## Old build instructions
+
+```
+cd ~
+git clone --recursive https://github.com/XargonWan/RetroDECK.git
+cd RetroDECK
+git submodule init
+git submodule update
+```
+
+install `flatpak flatpak-builder p7zip-full` with your distro's package manager, then:
+
+```
+flatpak remote-add --if-not-exists Flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install --user -y org.kde.Sdk//5.15-21.08 org.kde.Platform//5.15-21.08 io.qt.qtwebengine.BaseApp/x86_64/5.15-21.08 org.freedesktop.Sdk.Extension.llvm13 org.freedesktop.Platform.ffmpeg-full/x86_64/21.08
+```
+
+To build the stable release:
+
+```
+flatpak-builder --user --install --install-deps-from=flathub --install-deps-from=flathub-beta --force-clean --repo=local ~/RetroDECK/retrodeck-main ~/RetroDECK/net.retrodeck.retrodeck.yml
+flatpak build-bundle local ~/RetroDECK.flatpak net.retrodeck.retrodeck
+```
+
+Or alternatively, to build the cooker (experimental) release:
+
+```
+git checkout cooker
+flatpak-builder --user --install --force-clean --repo=local ~/RetroDECK/retrodeck-cooker ~/RetroDECK/net.retrodeck.retrodeck.yml
+flatpak build-bundle local ~/RetroDECK.flatpak net.retrodeck.retrodeck
+```
+
+
 

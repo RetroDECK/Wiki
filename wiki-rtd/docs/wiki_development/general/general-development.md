@@ -10,7 +10,9 @@ This can be publicly tested and if it's stable will be merged in the main branch
 
 ## How to build RetroDECK?
 
- Run `./build-local.sh`
+Git clone the latest cooker branch and run:
+
+`./build-locally.sh`
 
 ## Debug Mode
 It's possible to enter in a sort of debug mode, it's actually the flatpak shell.

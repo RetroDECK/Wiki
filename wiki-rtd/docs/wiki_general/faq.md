@@ -354,10 +354,9 @@ The ES-DE interface allows you to change emulators for systems that has many dif
 <br>
 
 ### Game X/Y/Z is not working or showing black screen
-- Some emulators needs BIOS and/or firmware files, first you can check if you got the `How-to's 💬` - `How to: Manage BIOS and Firmware`.<br/
+- Some emulators needs BIOS and/or firmware files, first you can check if you got the [BIOS & Firmware](../wiki_management/bios-firmware.md).
 - You could have bad backups compare them on a database site for example [no-intro](https://datomatic.no-intro.org/index.php?page=search&s=64) or even [RetroAchievements](https://retroachievements.org) if your game is supported.<br/
-- Moreover please mind that some emulator require very specific roms `How-to's 💬` - `How to: Manage your Games`
-
+- Moreover please mind that some emulator require very specific roms.
 <br>
 
 ### I'm not getting any sound
@@ -369,8 +368,7 @@ The ES-DE interface allows you to change emulators for systems that has many dif
 
 ### PS2 games are not working or buggy in the RetroArch Core.
 It's a known issue with if you are using the libretro core but you can use the the standalone pcsx2 emulator to solve this issue.<br>
-Be sure to check that the bios files are in the correct folder. Read more on the `How-to's 💬` - `How to: Manage BIOS and Firmware`
-
+Be sure to check that the bios files are in the correct folder. Read more on the [BIOS & Firmware](../wiki_management/bios-firmware.md)
 <br>
 
 ### I configured RetroArch but the configuration was not saved.

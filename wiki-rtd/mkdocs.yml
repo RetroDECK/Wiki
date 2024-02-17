@@ -72,7 +72,6 @@ nav:
   - Bugs & Issues 🐜:
     - Reporting Bugs: wiki_bugs/report-bugs.md
     - Known Issues: wiki_bugs/known-issues.md
-    - How do I help out with testing?: wiki_community/testing-rd.md
 
   - RetroDECK Configurator 🛠️:
     - Configurator Features: wiki_general/configurator.md
@@ -275,3 +274,6 @@ nav:
     - Functions:
       - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md
       - Compression: wiki_development/functions/compression.md
+    - Testing:
+      - How do I help out with testing?: wiki_development/testing//general-testing.md
+

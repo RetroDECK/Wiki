@@ -2,13 +2,10 @@
 
 This is WIP
 
-## Cooker
-Cooker, differently from the main (stable) branch, is what it's boiling in the pot now: the bleeding edge of the software development.
-Every time a commit or a PR is done, a GitHub action automatically compiles the snapshot with the latest changes and publish them on the [cooker repository](https://github.com/XargonWan/RetroDECK-cooker).
-This can be publicly tested and if it's stable will be merged in the main branch creating a new release.
+## Cooker builds
 
-Useless to say that this channel is not suggested for the end user but it's developer / alpha tester oriented.
-Expect major bugs and data loss: be warned.
+Every time a commit or a PR is done, a GitHub action automatically compiles the snapshot with the latest changes and publish them on the [cooker repository](https://github.com/XargonWan/RetroDECK-cooker).
+This can be publicly tested and if it's stable will be merged in the main branch creating a new release..
 
 
 ## How to build RetroDECK?

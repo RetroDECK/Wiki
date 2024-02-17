@@ -267,13 +267,13 @@ nav:
   - Development 🧪:
     - Flatpak 📦:
       - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
+    - Functions:
+      - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md
+      - Compression: wiki_development/functions/compression.md
     - General:
       - Folders and Filepaths: wiki_development/general/folders-filepaths.md
       - CLI Guide: wiki_development/general/cli-guide.md
       - Development Notes: wiki_development/general/general-development.md
-    - Functions:
-      - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md
-      - Compression: wiki_development/functions/compression.md
     - Testing:
       - How do I help out with testing?: wiki_development/testing//general-testing.md
 

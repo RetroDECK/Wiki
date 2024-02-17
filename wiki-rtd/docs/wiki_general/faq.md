@@ -423,7 +423,7 @@ The Steam Deck does not have the power to play all the games in those high resol
 
 <br>
 
-### I'm having problems with my brand new SD card on my Steam Deck
+### I'm having problems with my brand new SD card on my Steam Deck: It does not have the right file size
 
 SD Cards can be tricky and there are a of scam cards out there. <br>
 But when you are thinking about getting a new SD Card adhere to the following rules:
@@ -435,6 +435,17 @@ But when you are thinking about getting a new SD Card adhere to the following ru
 - If you are going to name your SD Card avoid exotic names with special characters, emojis or spaces. Stick with to A to Z and 1 to 9.
 
 There are several solutions listed online with quick search on how to test if a SD Card is fake for various OSes like the software `f3` for Linux.
+
+### I'm having problems with my SD card on my Steam Deck: It can't be found since SteamOS 3.5
+
+Some users of SteamOS have had a problem since the upgrade to SteamOS 3.5 by Valve.
+
+It changed how the SD cards where mounted and gave them a new path and in some cases this broke the auto-mounting on boot. There are several issues on Valves SteamOS github mentioning this.
+This does not only affect RetroDECK but also all games and files you could have on the SD card.
+
+The solution some found was either to reset the entire Steam Deck and reformat the card or to go into Desktop Mode on each boot and click on the card from the GUI to make sure it is mounted.
+
+But these issues might be fixed in a upcoming update to SteamOS.
 
 ## Emulationstation-DE: General Questions
 

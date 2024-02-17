@@ -447,6 +447,8 @@ The solution some found was either to reset the entire Steam Deck and reformat t
 
 But these issues might be fixed in a upcoming update to SteamOS.
 
+NOTE: Valve does not recommend users to fix it by editing fstab or using something link Gnome Disks or KDE Partition Manager to do so. This could break other things.
+
 ## Emulationstation-DE: General Questions
 
 <img src="../../wiki_images/logos/es-de-logo.png" width="150">

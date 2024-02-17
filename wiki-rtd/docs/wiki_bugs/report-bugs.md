@@ -4,8 +4,7 @@ Report all issues to the RetroDECK via the functions below including emulator re
 
 Do not report any emulator related issues to the emulator developers directly and their support channels.
 
-If it is a emulator bug and the RetroDECK Team believes it to be from the upstream emulator.
-The RetroDECK Team will then report and discuss it directly with the emulator developers.
+If it is a emulator bug and the RetroDECK Team believes it to be a real issue from a upstream emulator that has not been reported, the RetroDECK Team will then report and discuss it directly with the emulator developers.
 
 ## Before you report:
 - Check [Github issues](https://github.com/XargonWan/RetroDECK/issues/) on reported issues.

@@ -273,6 +273,6 @@ nav:
     - General 🗜️:
       - Folders and Filepaths: wiki_development/general/folders-filepaths.md
       - CLI Guide: wiki_development/general/cli-guide.md
-      - Development Notes: wiki_development/general/general-development.md
+      - Start with Development (WIP): wiki_development/general/general-development.md
     - Testing 📝:
       - How do I help out with testing?: wiki_development/testing//general-testing.md

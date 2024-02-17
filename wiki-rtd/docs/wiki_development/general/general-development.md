@@ -10,9 +10,14 @@ This can be publicly tested and if it's stable will be merged in the main branch
 
 ## How to build RetroDECK?
 
-Git clone the latest cooker branch and run:
+Git clone the latest cooker branch or any of the cooker feature branches and run.
 
 `./build-locally.sh`
+
+### Feature branches
+
+Sometimes adding a new big component to RetroDECK warrants a feature branch from that could later be merged into the main cooker branch to keep the issues related to the feature contained.
+Talk to the RetroDECK development team if you have a need to make a new feature branch for a new bigger component such as adding a new system, emulator or a major feature.
 
 ## Debug Mode
 It's possible to enter in a sort of debug mode, it's actually the flatpak shell.

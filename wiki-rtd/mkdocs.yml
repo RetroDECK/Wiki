@@ -53,7 +53,6 @@ nav:
     - Supported Devices: wiki_general/supported-devices.md
     - RetroDECK - Controller Profiles (WIP): wiki_general/retrodeck-input-support.md
     - The RetroDECK Beta: wiki_general/beta-period.md
-    - The FAQ ❔:  wiki_general/faq.md
     - Version History (Patchnotes): wiki_rd_versions/version-history.md
     - What are you working on?: wiki_development/general/what-are-you-working.on.md
 
@@ -201,6 +200,14 @@ nav:
     - Move RetroDECK to a new device: wiki_management/retrodeck-move.md
     - Scraping Game Media: wiki_management/about-scraping.md
     - Spreading Files over Multiple Drives: wiki_management/spread-files.md
+
+  - FAQ ❔:
+    - Bugs & Feature Requests: wiki_faq/faq-bug-feature.md
+    - Documentation & Wiki: wiki_faq/faq-documentation.md
+    - ES-DE Frontend: wiki_faq/faq-esde.md
+    - RetroDECK General: wiki_faq/faq-rd-general.md
+    - RetroDECK Usage: wiki_faq/faq-rd-usage.md
+    - Steam Deck: wiki_faq/faq-rd-steamdeck.md
 
   - Guides - Steam Deck 🕹️:
     - RetroDECK Installation and Updates: wiki_devices/steamdeck/steamdeck-start.md

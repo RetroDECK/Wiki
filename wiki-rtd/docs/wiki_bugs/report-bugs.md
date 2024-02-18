@@ -9,7 +9,7 @@ If it is a emulator bug and the RetroDECK Team believes it to be a real issue fr
 ## Before you report:
 - Check [Github issues](https://github.com/XargonWan/RetroDECK/issues/) on reported issues.
 - Check the [Known Issues](../wiki_bugs/known-issues.md).
-- Check the [The FAQ ❔](../wiki_general/faq.md)
+- Check the The `FAQ ❔` section of this wiki.
 
 ## How to Report?
 

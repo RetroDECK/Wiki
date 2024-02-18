@@ -1,11 +1,6 @@
-# FAQ: Feature Requests & Bug Reports
+# FAQ: Feature Requests
 
 <img src="../../wiki_icons/retrodeck/rd_icon_circle_192x192.png">
-
-## How to report bugs?
-
-Check [Reporting bugs and issues](../wiki_bugs/report-bugs.md)
-<br>
 
 ## Will you implement X/Y/Z emulator?
 Our goal is to implement and configure a selection of the best emulators for each system supported by ES-DE. If your favorite system is not integrated you can request its integration by opening an issue on this github page.

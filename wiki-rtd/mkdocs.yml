@@ -202,8 +202,8 @@ nav:
     - Spreading Files over Multiple Drives: wiki_management/spread-files.md
 
   - FAQ ❔:
-    - Bugs & Feature Requests: wiki_faq/faq-bug-feature.md
     - Documentation & Wiki: wiki_faq/faq-documentation.md
+    - Feature Requests: wiki_faq/faq-feature.md
     - ES-DE Frontend: wiki_faq/faq-esde.md
     - RetroDECK General: wiki_faq/faq-rd-general.md
     - RetroDECK Usage: wiki_faq/faq-rd-usage.md

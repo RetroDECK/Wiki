@@ -379,7 +379,7 @@ If you find some better configurations however, you may contribute by sharing it
 <br>
 
 ### Will you support Lightguns (Sinden, Gun4IR, Samco etc...)?
-The long term answer is yes, but there are several issues that need to be addressed from various dependencies that are beyond the scope of what RetroDECK can do by it self. We are talking to several projects and hope to have those issues addressed in the future. Right now the best way to use lightgun hardware is to use Batocera as they have developed native support in their OS.
+The long term answer is yes, but there are several issues that need to be addressed from various dependencies that are beyond the scope of what RetroDECK can do by it self. We are talking to several projects and hope to have those issues addressed in the future. Right now the best way to use lightgun hardware is to use Batocera as they have developed the best native support in their OS.
 
 <br>
 
@@ -387,6 +387,10 @@ The long term answer is yes, but there are several issues that need to be addres
 It depends on the core you have seleected, but normally it should be on `R2` but it could also be on `R1`. `L1` `L2`.
 
 <br>
+
+### How do I change language in Multi-Language Games?
+
+We plan to develop a language switcher tool for the configurator in the future. But right now you have to switch the language manually in each Emulator. For some Emulators the setting is in the BIOS for others it is just in the GUI.
 
 ## Emulation on the Steam Deck
 
@@ -447,7 +451,7 @@ But these issues might be fixed in a upcoming update to SteamOS.
 
 NOTE: Valve does not recommend users to fix it by editing fstab or using something link Gnome Disks or KDE Partition Manager to do so. This could break other things.
 
-## Emulationstation-DE: General Questions
+## ES-DE Frontend: General Questions
 
 <img src="../../wiki_images/logos/es-de-logo.png" width="150">
 
@@ -473,7 +477,7 @@ The solution we opted for instead is:
 - `R2` or `End` Jumps to the bottom of the menu or gamelist.
 
 
-## Emulationstation-DE: Themes
+## ES-DE Frontend: Themes
 
 <img src="https://gitlab.com/es-de/themes/themes-list/-/raw/master/screenshots/adroit-es-de/adroit-es-de_02.jpg" width="500">
 
@@ -496,7 +500,7 @@ Yes, check here: [ES-DE: Themes List](https://gitlab.com/es-de/themes/themes-lis
 - If you are trying to use a theme that was built for Batocera it will likely not be compatible.
 - ES-DE uses a unique theme engine so themes are not directly portable from Batocera.
 
-See the ES-DE's EmulationStation-DE Guide 📘 for more details.
+See the ES-DE's Guide 📘 for more details.
 
  <br>
 
@@ -511,7 +515,7 @@ See the ES-DE's EmulationStation-DE Guide 📘 for more details.
 
 
 
-## Emulationstation-DE: Scraping
+## ES-DE Frontend: Scraping
 
 <img src="https://gitlab.com/es-de/emulationstation-de/-/raw/master/images/es-de_scraper_running.png" width="500">
 

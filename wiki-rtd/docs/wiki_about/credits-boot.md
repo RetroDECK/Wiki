@@ -1,4 +1,6 @@
-# Boot Logos
+# Boot Logo Credits
+
+The Boot Logo or Boot Splashes
 
 ## Standard Logo
 

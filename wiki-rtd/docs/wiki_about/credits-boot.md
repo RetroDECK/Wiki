@@ -27,13 +27,22 @@ Artist: Weestuarty
 ## Valentines Day
 
 <details><summary> Spoiler </summary>
+<img src="../../wiki_images/eastereggs/rd-valentines-logo.svg" width="500">
+Artist: Weestuarty
+</details>
 
+## Lunar New Year - 春节
+
+<details><summary> Spoiler </summary>
+<img src="../../wiki_images/eastereggs/rd-lunar-dragon-logo.svg" width="500">
 Artist: Weestuarty
 </details>
 
 ## Looking for Artist
 
-### Lunar New Year - 春节
+You can also do an alternative to already existing logos.
+
+
 
 ### RetroDECK's Birthday AND GM's day
 

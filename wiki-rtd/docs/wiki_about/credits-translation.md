@@ -1,26 +1,31 @@
 # Community Translator Credits
 
-## Chinese Simplified
+## Chinese Simplified 🇨🇳
 
-冰棍 / ice211314
+冰棍
 
-## Japanese
+## German 🇩🇪
 
-冰棍 / ice211314
+Hugh_Kevner
 
-## Ukranian
-
-WallK
-
-## Swedish
-
-Lazorne
-
-## Italian
+## Italian 🇮🇹
 
 Xargon
 
-## German
+## Japanese 🇯🇵
 
-Hugh_Kevner / amnesia106
+冰棍
+
+## Swedish 🇸🇪
+
+Lazorne
+
+## Ukranian 🇺🇦
+
+WallK
+
+
+
+
+
 

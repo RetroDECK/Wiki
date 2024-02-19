@@ -1,6 +1,6 @@
 # Additional credits
 
-## RetroDECK helper credits
+## RetroDECK Helpers
 
 ### [Adam I](https://github.com/jiannazzone)
 Helps with the community, wiki and other things.

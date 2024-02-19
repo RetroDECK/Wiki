@@ -53,9 +53,9 @@ Maker of [pixelitos](https://github.com/ItzSelenux/pixelitos-icon-theme)
 ## Special Thanks
  We want give special thanks to:
 
-- Our Patreons and doners that keeps the build servers running and provide feedback.
+- Our Patreon and donors that keeps the build servers running and provide feedback.
 
-- All related emulation, frontend and software projects that we are dependent on.
+- All related emulation, front end and software projects that we are dependent on.
 
 - All people that have put both time and money into emulation projects.
 

@@ -1,13 +1,12 @@
 # Additional credits
 
+## RetroDECK helper credits
+
+### [Adam I](https://github.com/jiannazzone)
+Helps with the community, wiki and other things.
+
 ### [Niroku](https://github.com/Hew-ux)
 Helps with community management, is also part of [Batocera](https://batocera.org/)
-
-### [Zurdi](https://github.com/zurdi15)
-Creator of RomM and other projects.
-
-### [lilbud](https://github.com/lilbud)
-Have done some themes for ES-DE.
 
 ### [RavenKilit](https://github.com/RavenKilit)
 Did some code and testning, contributed to [AmberELEC](https://amberelec.org/)
@@ -20,6 +19,33 @@ Webmaster
 
 ### Draco
 Did Server Administration
+
+## The ES-DE Frontend Group
+
+### [Leon Styhre](https://gitlab.com/leonstyhre)
+Creator of ES-DE.
+
+### [anthonycaccese](https://github.com/anthonycaccese/)
+Theme creator for ES-DE and [AmberELEC](https://amberelec.org/).
+
+### [Weestuarty](https://github.com/Weestuarty)
+Theme creator for ES-DE.
+
+### [lilbud](https://github.com/lilbud)
+Theme creator for ES-DE.
+
+## ROMM Group
+
+### [Zurdi](https://github.com/zurdi15)
+Creator of ROMM.
+<details><summary> </summary>
+Demonio de las tapas de Oliva.
+</details>
+
+### [arcaneasada](https://github.com/gantoine)
+Cat Canadian.
+
+## Other Credits
 
 ### [ItzSelenux](https://github.com/ItzSelenux)
 Maker of [pixelitos](https://github.com/ItzSelenux/pixelitos-icon-theme)

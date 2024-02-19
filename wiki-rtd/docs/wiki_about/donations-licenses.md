@@ -435,7 +435,7 @@ Here we showcase the licenses of projects / functions we might use in part, got 
 RetroDECK Team owns a license.
 [Pixel UI Theme Itch.io](https://thowsenmedia.itch.io/pixel-ui-theme-for-godot)
 
-### Dungeon Crawl Soup
+### Dungeon Crawl Stone Soup
 
 [Titles](https://opengameart.org/content/dungeon-crawl-32x32-tiles)
 [Tiltes Supplemental](https://opengameart.org/content/dungeon-crawl-32x32-tiles-supplemental)

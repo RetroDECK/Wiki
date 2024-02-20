@@ -393,18 +393,32 @@ We have not found a donation link to this project at this time or the project do
 
 ### Kenny.nl
 
-<img src="../../wiki_images/logos/kennynl-logo.png" width="150">
-
 Over the last couple of years Kenny.nl have released [30,000+](https://kenney.nl/assets) images, audio files and 3D models for anyone to use in any kind of project, all dedicated to the public domain. Thanks to your donation Kenny.nl can create even more content and support developers, students and teachers all over the world.
 
+Licenses: CC0 & CC1 (RetroDECK Team also owns a seperate donation license).
+
 #### Where to donate / support the project?
+
 [Patreon](https://www.patreon.com/kenney)
 
 [itch.io](https://kenney.itch.io/kenney-donation)
 
-#### Licenses
-CC0 & CC1
-Members of the RetroDECK Team also owns a seperate donation license.
+### Pixel UI Theme for Godot
+
+RetroDECK Team owns a license.
+[Pixel UI Theme Itch.io](https://thowsenmedia.itch.io/pixel-ui-theme-for-godot)
+
+### Dungeon Crawl Stone Soup
+
+CC0
+
+[Titles](https://opengameart.org/content/dungeon-crawl-32x32-tiles)
+
+[Tiltes Supplemental](https://opengameart.org/content/dungeon-crawl-32x32-tiles-supplemental)
+
+### Pixelitos
+
+[Licenses](https://github.com/ItzSelenux/pixelitos-icon-theme/blob/main/LICENSE)
 
 ---
 
@@ -424,23 +438,8 @@ Here we showcase the licenses of projects / functions we might use in part, got 
 
 [Licenses](https://github.com/PhilipK/BoilR/blob/main/LICENSE-MIT.txt)
 
-### Pixelitos
-
-[Licenses](https://github.com/ItzSelenux/pixelitos-icon-theme/blob/main/LICENSE)
-
 ### Lutris
 [Licenses](https://github.com/lutris/lutris/blob/master/LICENSE)
-
-### Pixel UI Theme for Godot
-
-RetroDECK Team owns a license.
-[Pixel UI Theme Itch.io](https://thowsenmedia.itch.io/pixel-ui-theme-for-godot)
-
-### Dungeon Crawl Stone Soup
-
-[Titles](https://opengameart.org/content/dungeon-crawl-32x32-tiles)
-
-[Tiltes Supplemental](https://opengameart.org/content/dungeon-crawl-32x32-tiles-supplemental)
 
 ### Steam Deck & Steam Deck Logo
 

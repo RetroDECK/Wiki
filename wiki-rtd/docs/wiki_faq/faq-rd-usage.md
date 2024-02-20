@@ -109,7 +109,7 @@ The custom installation will still be more limited then the one we ship with Ret
 ## Do you only ship stable versions of the emulators or nightly versions?
 RetroDECK ships with the version that is the best for running the games on a case-by-case basis.
 
-For all  bleeding edge emulators like Yuzu or RPCS3 it's nightly version we ship.
+For all  bleeding edge emulators like Yuzu or RPCS3 it's nightly versyncrsion we ship.
 
 But for things like RetroArch it is only the stable release of the application we ship.
 When it comes to RetroArch Cores they always use their stable version, but if there is no stable version of a core within a stable release of RetroArch the nightly version of that core will be used instead.
@@ -119,3 +119,16 @@ Even before we release a new update for RetroDECK the nightly versions of the em
 There have been instances where the nightly version of a emulator have been completly broken and we want to avoid to ship that with RetroDECK.
 
 <br>
+
+## Will you implement Cloud Sync / Backup to various services?
+
+Yes, that is the plan in a future update. We will not do our own infrastructure but allow users to allow their own services.
+
+### What can I use now while we wait for Cloud Sync / Backup?
+
+There exist several open source options, here is a few of them:
+
+- [Rsync](https://linux.die.net/man/1/rsync)
+- [NextCloud](https://nextcloud.com/)
+- [Syncthing](https://github.com/syncthing/syncthing)
+- [Syncthing GTK GUI](https://flathub.org/apps/me.kozec.syncthingtk)

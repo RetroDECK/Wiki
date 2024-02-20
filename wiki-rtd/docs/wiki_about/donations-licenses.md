@@ -406,6 +406,7 @@ Licenses: CC0 & CC1 (RetroDECK Team also owns a seperate donation license).
 ### Pixel UI Theme for Godot
 
 RetroDECK Team owns a license.
+
 [Pixel UI Theme Itch.io](https://thowsenmedia.itch.io/pixel-ui-theme-for-godot)
 
 ### Dungeon Crawl Stone Soup

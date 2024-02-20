@@ -122,7 +122,7 @@ There have been instances where the nightly version of a emulator have been comp
 
 ## Will you implement Cloud Sync / Backup to various services?
 
-Yes, that is the plan in a future update. We will not do our own infrastructure but allow users to allow their own services.
+Yes, that is the plan in a future update. We will not do our own infrastructure but allow users to their own services via easy built-in tools in the Configurator.
 
 ### What can I use now while we wait for Cloud Sync / Backup?
 

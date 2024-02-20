@@ -391,13 +391,13 @@ We have not found a donation link to this project at this time or the project do
 
 ## Art and Assets
 
-### Kenny.nl
+### Kenney.nl
 
-Over the last couple of years Kenny.nl have released [30,000+](https://kenney.nl/assets) images, audio files and 3D models for anyone to use in any kind of project, all dedicated to the public domain. Thanks to your donation Kenny.nl can create even more content and support developers, students and teachers all over the world.
+RetroDECK Team owns a seperate donation license.
 
-Licenses: CC0 & CC1 (RetroDECK Team also owns a seperate donation license).
+Licenses: CC0 & CC1.
 
-#### Where to donate / support the project?
+[Kenney.nl](https://www.kenney.nl/)
 
 [Patreon](https://www.patreon.com/kenney)
 

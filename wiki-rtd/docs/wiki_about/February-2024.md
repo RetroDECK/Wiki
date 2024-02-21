@@ -95,7 +95,7 @@ This will allow you to do the following from your sofa for maximum laziness with
 - Use Mouse in PC-System games.
 - Play Lightgun games.
 - Navigate PC Interfaces that can not be navigated by controllers like the Emulators GUI and change settings.
-- Control the Wii Pointer and navigate Wii Menus with a normal controller (we are changing the Dolphin binds to account for this), press select and quickly capture those starbits with the right joystick.
+- Control the Wii Pointer and navigate Wii Menus with a normal controller (we are changing the Dolphin binds to account for this), press and hold `Select` and quickly capture those starbits with the right `Right Joystick`.
 
 **Standard Controllers:**
 

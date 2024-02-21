@@ -85,11 +85,23 @@ Check the following pages on how to try them today.
 ### Joystick as Mouse for maximum laziness
 This is a feature many underestimate the value of.
 
-By holding `Select` + Moving the `Right joystick` you can now simulate a mouse.
 
-Use `R3` to  `Left Click`.
+**Standard Controllers:**
 
-Use `L3` and press the the `RetroDECK Logo` in the Radial Menu to `Right Click`.
+By holding `Select` + Moving the `Right Joystick` you can now simulate a mouse on a standard controller.
+
+While holding `Select` use  `R3` to  `Left Click`.
+
+While holding `Select` use `L3` and press the the `RetroDECK Logo` in the Radial Menu to `Right Click`.
+
+
+**PS4 & PS5:**
+All these features are enabled on the fly by using the built in touchpad and there is no need to use the `Right Joystick` (but you still can if you want to).
+
+**Steam Controller:**
+For the Steam Controller the `R4` button will toggle the `Right Touchpad` between permanent `Joystick Mode` or permanent `Mouse Mode`. But you can still do the hold `Select` + `Right Touchpad`  as `Mouse Mode` if you want to.
+
+
 
 This will allow you to do the following from your sofa for maximum laziness with a external controller:
 
@@ -98,9 +110,10 @@ This will allow you to do the following from your sofa for maximum laziness with
 - Navigate PC Interfaces that can not be navigated by controllers like the Emulators GUI and change settings.
 - Control the Wii Pointer and navigate Wii Menus with a normal controller (we are changing the Dolphin binds to account for this), press select and quickly capture those starbits with the right joystick.
 
-For the PS4 and PS5 controllers all these features are enabled on the fly by using the built in touchpad and there is no need to use the right joystick.
 
-For the Steam Controller the `R4` button will toggle the right touchpad between permanent `Joystick Mode` or permanent `Mouse Mode`
+
+
+"We in the RetroDECK Team have a strong commitment to make sure that our users don't need to move out of the sofa unless absolute necessary"
 
 
 ## That is all for February

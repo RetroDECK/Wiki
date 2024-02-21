@@ -107,9 +107,11 @@ While holding `Select` use `L3` and press the the `RetroDECK Logo` in the Radial
 
 
 **PS4 & PS5:**
+
 All these features are enabled on the fly by using the built in touchpad and there is no need to use the `Right Joystick` (but you still can if you want to).
 
 **Steam Controller:**
+
 For the Steam Controller the `R4` button will toggle the `Right Touchpad` between permanent `Joystick Mode` or permanent `Mouse Mode`. But you can still do the hold `Select` + `Right Touchpad`  as `Mouse Mode` if you want to.
 
 

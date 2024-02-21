@@ -58,7 +58,9 @@ They have a one time donation purchase to buy the app and have removed their Pat
 
 ## Update: Godot Configurator Translations
 
-We have gotten several more translations in the works to the Configurator Godot Version thanks to the RetroDECK community (thanks)!
+<img src="../../../configurator-cn.webp" width="100">
+
+We have gotten several more translations in the works to the Configurator Godot Version thanks to the RetroDECK community!
 
 - English
 - Swedish
@@ -82,9 +84,18 @@ Check the following pages on how to try them today.
 - [External Controllers Information Link Page](https://retrodeck.readthedocs.io/en/latest/wiki_general/retrodeck-input-support/)
 - [External Controllers Radial](https://retrodeck.readthedocs.io/en/latest/wiki_controllers/radial-menus/controller-standard-radial/)
 
-### Joystick as Mouse for maximum laziness
+### Joystick as Mouse
 This is a feature many underestimate the value of.
 
+**What does this allow me to do?:**
+
+This will allow you to do the following from your sofa for maximum laziness with a external controller:
+
+- Play Point & Click Adventure games.
+- Use Mouse in PC-System games.
+- Play Lightgun games.
+- Navigate PC Interfaces that can not be navigated by controllers like the Emulators GUI and change settings.
+- Control the Wii Pointer and navigate Wii Menus with a normal controller (we are changing the Dolphin binds to account for this), press select and quickly capture those starbits with the right joystick.
 
 **Standard Controllers:**
 
@@ -102,18 +113,7 @@ All these features are enabled on the fly by using the built in touchpad and the
 For the Steam Controller the `R4` button will toggle the `Right Touchpad` between permanent `Joystick Mode` or permanent `Mouse Mode`. But you can still do the hold `Select` + `Right Touchpad`  as `Mouse Mode` if you want to.
 
 
-
-This will allow you to do the following from your sofa for maximum laziness with a external controller:
-
-- Play Point and Click Adventure Games.
-- Use Mouse in PC-System games.
-- Navigate PC Interfaces that can not be navigated by controllers like the Emulators GUI and change settings.
-- Control the Wii Pointer and navigate Wii Menus with a normal controller (we are changing the Dolphin binds to account for this), press select and quickly capture those starbits with the right joystick.
-
-
-
-
-"We in the RetroDECK Team have a strong commitment to make sure that our users don't need to move out of the sofa unless absolute necessary"
+*"We in the RetroDECK Team have a strong commitment to make sure that our users don't need to move out of the sofa unless absolutely necessary"* 🙃
 
 
 ## That is all for February

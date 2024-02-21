@@ -62,7 +62,9 @@ EmulationStation Desktop Edition (ES-DE) is a frontend for browsing and launchin
 
 [Website - Paypal](https://es-de.org/)
 
-[Patreon](https://www.patreon.com/EmulationStation_DE)
+Or buy the app to show them your support:
+
+[Android App](https://www.amazon.com/dp/B0CVXRHWTT/)
 
 #### Licenses
 [License](https://gitlab.com/es-de/emulationstation-de/-/blob/master/LICENSE)

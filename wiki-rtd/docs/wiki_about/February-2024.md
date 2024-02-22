@@ -39,15 +39,17 @@ Yes, we are working on 0.7.7b that will update the Emulators.
 
 ## ES-DE 3.0 in 0.8b
 
-The ES-DE Team just released a major update version 3.0 of ES-DE with a lot of cool new features and that came with big architectural changes.
+The ES-DE Team just released a major update: ES-DE version 3.0
 
-RetroDECK will need to accommodate for those changes so we can't ship a minor update with just ES-DE 3.0 but we will make it part of 0.8b as we need to verify everything and make the upgrade as safe and as smooth as possible.
+This has a lot of cool new features but it also came with with big architectural changes. RetroDECK will need to accommodate for those changes so we can't ship a minor update and just update to ES-DE 3.0.
+
+We will however ship it as part of 0.8b, as we need to verify everything and make the upgrade as safe and as smooth as possible.
 
 ### ES-DE Android Port
 
 As we are friends with the ES-DE Team we also want to highlight that they just released their Android version of the app on the Amazon Appstore. This brings your favorite launcher to Android!
 
-They have a one time donation purchase to buy the app and have removed their Patreon. So if you want to show the interface we all use some love, buy the app :)
+They have a one time purchase to buy the app and have removed their Patreon. So if you want to show the interface we all use some love, buy the app :)
 
 - [Amazon Appstore - ES-DE](https://www.amazon.com/dp/B0CVXRHWTT/)
 - [Android - User Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/ANDROID.md)
@@ -61,6 +63,8 @@ They have a one time donation purchase to buy the app and have removed their Pat
 <img src="../../../configurator-cn.webp" width="100">
 
 We have gotten several more translations in the works to the Configurator Godot Version thanks to the RetroDECK community!
+The fonts still need work but it is progress.
+
 
 - English
 - Swedish
@@ -85,37 +89,38 @@ Check the following pages on how to try them today.
 - [External Controllers Radial](https://retrodeck.readthedocs.io/en/latest/wiki_controllers/radial-menus/controller-standard-radial/)
 
 ### Joystick as Mouse
-This is a feature many underestimate the value of.
+This is a feature many underestimate the value of. Steam Deck user already have a built in Mouse on the `Right Tochpad` in our profile.
+So we want to bring that function to the external controllers as well.
 
 **What does this allow me to do?:**
 
-This will allow you to do the following from your sofa for maximum laziness with a external controller:
+This will allow you to do the following with a standard external controller:
 
-- Play Point & Click Adventure games.
-- Use Mouse in PC-System games.
-- Play Lightgun games.
-- Navigate PC Interfaces that can not be navigated by controllers like the Emulators GUI and change settings.
-- Control the Wii Pointer and navigate Wii Menus with a normal controller (we are changing the Dolphin binds to account for this), press and hold `Select` and quickly capture those starbits with the right `Right Joystick`.
+- PC-Systems: Use it as a mouse (duh) for games that requires mouse input like Point & Click Adventure games.
+- Navigate PC Interfaces: Navigate and click in interfaces that normally can not be used with a controller like several Emulators GUIs.
+- Arcade / Console: Play Lightgun games.
+- Dolphin: Control the Wii Pointer and navigate Wii Menus (we are changing the Dolphin binds to account for this).
+- Dolphin: As you can quickly switch between mouse and joystick in this allows for some manouvers in certain games like: Press and hold `Select` and quickly capture those "bits of stars" with the Wii Pointer using the `Right Joystick`.
 
 **Standard Controllers:**
 
-By holding `Select` + Moving the `Right Joystick` you can now simulate a mouse on a standard controller.
+By holding `Select` + Moving the `Right Joystick` you can now simulate a mouse.
 
-While holding `Select` use  `R3` to  `Left Click`.
+While holding `Select` pressing  `R3` sends `Left Click`.
 
-While holding `Select` use `L3` and press the the `RetroDECK Logo` in the Radial Menu to `Right Click`.
+While holding `Select` moving `Left Joystick` open the Radial Menu. By pressing the `RetroDECK Logo` it sends `Right Click`.
 
 
 **PS4 & PS5:**
 
-All these features are enabled on the fly by using the built in touchpad and there is no need to use the `Right Joystick` (but you still can if you want to).
+In addition to the commands above you can use the touchpad instead without the need of pressing `Select`.
 
 **Steam Controller:**
 
 For the Steam Controller the `R4` button will toggle the `Right Touchpad` between permanent `Joystick Mode` or permanent `Mouse Mode`. But you can still do the hold `Select` + `Right Touchpad`  as `Mouse Mode` if you want to.
 
 
-*"We in the RetroDECK Team have a strong commitment to make sure that our users don't need to move out of the sofa unless absolutely necessary"* 🙃
+*"We in the RetroDECK Team have a strong commitment to make sure that our users don't need to move out of the sofa to change the settings unless absolutely necessary"* 🙃
 
 
 ## That is all for February

@@ -6,7 +6,7 @@ date: 2024-01-24
 
 Highlights:
 
-- All Emulators for 0.8b are running.
+- Status 0.8b: All Emulators are running
 - External Controller v1b
 - ES-DE 3.0
 - ES-DE Android version
@@ -15,7 +15,7 @@ Highlights:
 
 <!-- more -->
 
-## All 0.8b Emulators are running
+## Status 0.8b: All Emulators are running
 
 Since last month all emulators we targeted are now running from within RetroDECK.
 
@@ -25,7 +25,9 @@ Since last month all emulators we targeted are now running from within RetroDECK
 - IkemanGO (M.U.G.E.N)
 - MAME
 
-What is left is to make them compatible (where possible) with some of our tools and also update the configurations and inputs. But we are closing in on the finishing line!
+What is left is to make them compatible (where possible) with some of our tools and also update the configurations and inputs.
+
+But we are closing in on the finishing line!
 
 ---
 
@@ -100,7 +102,7 @@ This will allow you to do the following with a standard external controller:
 - Navigate PC Interfaces: Navigate and click in interfaces that normally can not be used with a controller like several Emulators GUIs.
 - Arcade / Console: Play Lightgun games.
 - Dolphin: Control the Wii Pointer and navigate Wii Menus (we are changing the Dolphin binds to account for this).
-- Dolphin: As you can quickly switch between mouse and joystick in this allows for some manouvers in certain games like: Press and hold `Select` and quickly capture those "bits of stars" with the Wii Pointer using the `Right Joystick`.
+- Dolphin: As you can quickly switch between mouse and joystick in this allows for some manouvers in certain games. Press and hold `Select` and quickly capture those "bits of stars" with the Wii Pointer using the `Right Joystick` then release `Select` and keep playing.
 
 **Standard Controllers:**
 

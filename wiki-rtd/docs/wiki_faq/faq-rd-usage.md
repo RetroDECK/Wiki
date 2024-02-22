@@ -2,11 +2,11 @@
 
 <img src="../../wiki_icons/retrodeck/rd_icon_circle_192x192.png">
 
-## Saves vs States what to use?
+## What to use? In game Saves or States?
 
-Always you in-game saves before states. <br>
-The states can stop working when emulators updates as past states could not be compatible with newer versions. Treat the states as a compliment to the main save.
+Always use in-game saves and treat the states as a compliment to the main save.
 
+As emulators update with new versions states of old versions could be incompatible and simply not work. Never rely only on states!
 
 ## Do I have to partition or format my disk/sdcard to install RetroDECK?
 No, partitioning or formatting is not needed at all. RetroDECK (differently from AmberELEC, Batocera and others) comes as a flatpak. Just install it as any other application and launch it from your desktop and/or Steam library.

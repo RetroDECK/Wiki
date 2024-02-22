@@ -43,7 +43,9 @@ Yes, we are working on 0.7.7b that will update the Emulators.
 
 The ES-DE Team just released a major update: ES-DE version 3.0
 
-This has a lot of cool new features but it also came with with big architectural changes. RetroDECK will need to accommodate for those changes so we can't ship a minor update and just update to ES-DE 3.0.
+This has a lot of cool new features, they are also rebranding to just ES-DE.
+
+The update also came with with big architectural changes. RetroDECK will need to accommodate for those changes so we can't ship a minor update it.
 
 We will however ship it as part of 0.8b, as we need to verify everything and make the upgrade as safe and as smooth as possible.
 

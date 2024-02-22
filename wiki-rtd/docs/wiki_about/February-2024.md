@@ -53,7 +53,7 @@ We will however ship it as part of 0.8b, as we need to verify everything and mak
 
 As we are friends with the ES-DE Team we also want to highlight that they just released their Android version of the app on the Amazon Appstore. This brings your favorite launcher to Android!
 
-They have a one time purchase to buy the app and have removed their Patreon. So if you want to show the interface we all use some love, buy the app :)
+They have a one time purchase to buy the app. So if you want to show the interface we all use some love, buy the app :)
 
 - [Amazon Appstore - ES-DE](https://www.amazon.com/dp/B0CVXRHWTT/)
 - [Android - User Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/ANDROID.md)

@@ -86,11 +86,15 @@ Note that the Godot Configurator is not part of 0.8b but a later update.
 
 These are mostly done and ready for release in 0.8b and they have a little radial menu as well.
 
-Check the following pages on how to try them today.
+Check the following pages on how to try them today:
 
 - [RetroDECK - Issue 573](https://discord.gg/Dz3szYsP8g)
 - [External Controllers Information Link Page](https://retrodeck.readthedocs.io/en/latest/wiki_general/retrodeck-input-support/)
 - [External Controllers Radial](https://retrodeck.readthedocs.io/en/latest/wiki_controllers/radial-menus/controller-standard-radial/)
+
+We have seen that in certain Linux distributions the radial menus are sometimes hiding behind the ES-DE interface. This is bug in the Steam Overlay in Steam and does not only affect RetroDECK but all profiles that uses radials or touch menus in other games as well. The RetroDECK Team have submitted a bug report to Valve.
+
+The External Controller Radials work fine on the Steam Deck in Gamemode when connected.
 
 ### Joystick as Mouse
 This is a feature many underestimate the value of. Steam Deck user already have a built in Mouse on the `Right Tochpad` in our profile.
@@ -125,6 +129,30 @@ For the Steam Controller the `R4` button will toggle the `Right Touchpad` betwee
 
 
 *"We in the RetroDECK Team have a strong commitment to make sure that our users don't need to move out of the sofa to change the settings unless absolutely necessary"* 🙃
+
+---
+
+## Steam Deck: ScummVM Radial Menu
+
+<img src="../../../scummvm-radial.webp" width="100">
+
+On the Steam Deck we have added a new radial menu for ScummVM that allows you quick access to the various letter commands used by many ScummVM games.
+
+What you used to do is in Point & Click Adventure games:
+
+- See item you want to Pick-Up
+- Move cursor to the corner
+- Select the Pick-Up command
+- Move the cursor back to the item
+- Click on the item to pick it up
+
+What the radial allows you to do:
+
+- Hover the cursor over the item you want to Pick Up.
+- Tap the left touchpad and select the Pick Up command from the Radial.
+- Click on the item to pick it up.
+
+You will probably save at least one second from this!
 
 
 ## That is all for February

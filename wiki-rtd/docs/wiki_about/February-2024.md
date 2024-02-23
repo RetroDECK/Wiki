@@ -25,13 +25,13 @@ Since last month all emulators we targeted are now running from within RetroDECK
 - IkemanGO (M.U.G.E.N)
 - MAME
 
-What is left is to make them compatible (where possible) with some of our tools and also update the configurations and inputs.
+What is left is to make them compatible (where possible) with some of our tools and update the configurations and inputs.
 
 But we are closing in on the finishing line!
 
 ---
 
-## Will there be a Emulator Refresh soon?
+## Will there be an Emulator Refresh soon?
 
 Yes, we are working on 0.7.7b that will update the Emulators.
 
@@ -43,9 +43,9 @@ Yes, we are working on 0.7.7b that will update the Emulators.
 
 The ES-DE Team just released a major update: ES-DE version 3.0
 
-This has a lot of cool new features, they are also rebranding to just ES-DE.
+They are rebranding to just ES-DE and have a lot of cool new features.
 
-The update also came with with big architectural changes. RetroDECK will need to accommodate for those changes so we can't ship a minor update it.
+With the update also came big architectural changes. RetroDECK will need to accommodate for those changes so we cannot ship a minor update of it.
 
 We will however ship it as part of 0.8b, as we need to verify everything and make the upgrade as safe and as smooth as possible.
 
@@ -53,7 +53,7 @@ We will however ship it as part of 0.8b, as we need to verify everything and mak
 
 As we are friends with the ES-DE Team we also want to highlight that they just released their Android version of the app on the Amazon Appstore. This brings your favorite launcher to Android!
 
-They have a one time purchase to buy the app. So if you want to show the interface we all use some love, buy the app :)
+They have a one-time purchase to buy the app. So, if you want to show the interface, we all use some love, buy the app :)
 
 - [Amazon Appstore - ES-DE](https://www.amazon.com/dp/B0CVXRHWTT/)
 - [Android - User Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/ANDROID.md)
@@ -92,38 +92,39 @@ Check the following pages on how to try them today:
 - [External Controllers Information Link Page](https://retrodeck.readthedocs.io/en/latest/wiki_general/retrodeck-input-support/)
 - [External Controllers Radial](https://retrodeck.readthedocs.io/en/latest/wiki_controllers/radial-menus/controller-standard-radial/)
 
-We have seen that in certain Linux distributions the radial menus are sometimes hiding behind the ES-DE interface. This is bug in the Steam Overlay in Steam and does not only affect RetroDECK but all profiles that uses radials or touch menus in other games as well. The RetroDECK Team have submitted a bug report to Valve.
+We have seen that in certain Linux distributions the radial menus are sometimes hiding behind the ES-DE interface. This is a bug in the Steam Overlay in Steam and does not only affect RetroDECK but all profiles that use radials or touch menus in other games as well. The RetroDECK Team have submitted a bug report to Valve.
 
 The External Controller Radials work fine on the Steam Deck in Gamemode when connected.
 
 ### Joystick as Mouse
 This is a feature many underestimate the value of. Steam Deck user already have a built in Mouse on the `Right Tochpad` in our profile.
-So we want to bring that function to the external controllers as well.
 
-**What does this allow me to do?:**
+We want to bring that function to the external controllers as well.
+
+**What does this allow me to do?**
 
 This will allow you to do the following with a standard external controller:
 
-- PC-Systems: Use it as a mouse (duh) for games that requires mouse input like Point & Click Adventure games.
-- Navigate PC Interfaces: Navigate and click in interfaces that normally can not be used with a controller like several Emulators GUIs.
-- Arcade / Console: Play Lightgun games.
+- PC-Systems: Use it as a mouse for games that require mouse input like Point & Click Adventure games.
+- Navigate PC Interfaces: Navigate and click on interfaces that normally cannot be used with a controller like several Emulators GUIs.
+- Arcade / Console: Play Light gun games.
 - Dolphin: Control the Wii Pointer and navigate Wii Menus (we are changing the Dolphin binds to account for this).
-- Dolphin: As you can quickly switch between mouse and joystick in this allows for some manouvers in certain games. Press and hold `Select` and quickly capture those "bits of stars" with the Wii Pointer using the `Right Joystick` then release `Select` and keep playing.
+- Dolphin: As you can quickly switch between mouse and joystick in this allows for some maneuvers in certain games. Press and hold `Select` and quickly capture those "bits of stars" with the Wii Pointer using the `Right Joystick` then release `Select` and keep playing.
 
 **Standard Controllers:**
 
 By holding `Select` + Moving the `Right Joystick` you can now simulate a mouse.
 
-While holding `Select` pressing  `R3` sends `Left Click`.
+While holding `Select` pressing `R3` sends `Left Click`.
 
 While holding `Select` moving `Left Joystick` open the Radial Menu. By pressing the `RetroDECK Logo` it sends `Right Click`.
 
 
-**PS4 & PS5:**
+**PS4 & PS5 Controllers**
 
 In addition to the commands above you can use the touchpad instead without the need of pressing `Select`.
 
-**Steam Controller:**
+**Steam Controller**
 
 For the Steam Controller the `R4` button will toggle the `Right Touchpad` between permanent `Joystick Mode` or permanent `Mouse Mode`. But you can still do the hold `Select` + `Right Touchpad`  as `Mouse Mode` if you want to.
 
@@ -140,19 +141,19 @@ On the Steam Deck we have added a new radial menu for ScummVM that allows you qu
 
 What you used to do is in Point & Click Adventure games:
 
-- See item you want to Pick-Up
-- Move cursor to the corner
-- Select the Pick-Up command
-- Move the cursor back to the item
-- Click on the item to pick it up
+- See item you want to pick-up.
+- Move cursor to the corner where all the commands are.
+- Select the Pick-Up command.
+- Move the cursor back to the item.
+- Click on the item to pick it up.
 
 What the radial allows you to do:
 
-- Hover the cursor over the item you want to Pick Up.
-- Tap the left touchpad and select the Pick Up command from the Radial.
+- Hover the cursor over the item you want to pick-up.
+- Tap the left touchpad and select the Pick-Up command from the Radial.
 - Click on the item to pick it up.
 
-You will probably save at least one second from this!
+You will save at least one whole second to half a second from this!
 
 
 ## That is all for February

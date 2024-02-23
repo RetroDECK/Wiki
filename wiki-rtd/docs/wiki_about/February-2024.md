@@ -6,7 +6,7 @@ date: 2024-01-24
 
 Highlights:
 
-- Status 0.8b: All Emulators are running
+- Status 0.8.0b: All Emulators are running
 - External Controller v1b
 - ES-DE 3.0
 - ES-DE Android version
@@ -15,7 +15,7 @@ Highlights:
 
 <!-- more -->
 
-## Status 0.8b: All Emulators are running
+## Status 0.8.0b: All Emulators are running
 
 Since last month all emulators we targeted are now running from within RetroDECK.
 
@@ -31,15 +31,9 @@ But we are closing in on the finishing line!
 
 ---
 
-## Will there be an Emulator Refresh soon?
-
-Yes, we are working on 0.7.7b that will update the Emulators.
-
----
-
 <img src="../../../es-de-logo.png" width="100">
 
-## ES-DE 3.0 in 0.8b
+## ES-DE 3.0 in 0.8.0b
 
 The ES-DE Team just released a major update: ES-DE version 3.0
 
@@ -47,7 +41,7 @@ They are rebranding to just ES-DE and have a lot of cool new features.
 
 With the update also came big architectural changes. RetroDECK will need to accommodate for those changes so we cannot ship a minor update of it.
 
-We will however ship it as part of 0.8b, as we need to verify everything and make the upgrade as safe and as smooth as possible.
+We will however ship it as part of 0.8.0b, as we need to verify everything and make the upgrade as safe and as smooth as possible.
 
 ### ES-DE Android Port
 

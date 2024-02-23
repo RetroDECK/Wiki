@@ -45,7 +45,7 @@ We will however ship it as part of 0.8.0b, as we need to verify everything and m
 
 ### Do not update your themes!
 
-ES-DE 3.0 came with many new features for theme builders, but those features are not backward compatible and will be buggy íf used with the older versions ES-DE. Please don’t update your themes until RetroDECK 0.8.0b is out (only the themes that use the new features can  break).  😊
+ES-DE 3.0 came with many new features for theme builders, but those features are not backward compatible and will be buggy íf used with the older versions ES-DE. Please don’t update your themes until RetroDECK 0.8.0b is out (only the themes that use the new features can break).  😊
 
 ### ES-DE Android Port
 

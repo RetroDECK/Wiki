@@ -53,7 +53,9 @@ They have a one-time purchase to buy the app. So, if you want to show the interf
 - [Android - User Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/ANDROID.md)
 - [Android - FAQ](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ-ANDROID.md)
 
-But sadly, there have been a lot of fake apps posted all over since the release. The ES-DE Team is dealing with them as they pop up (like an angry game of "ES-DE Fakes" Whac-A-Mole). If you intend to buy it use the correct link (listed above and always on their website [ES-DE.org](https://es-de.org/).
+But sadly, there have been a lot of fake apps posted all over since the release. The ES-DE Team is dealing with them as they pop up (like an angry game of "ES-DE Fakes" Whac-A-Mole).
+
+If you intend to buy it use the correct link, listed above and always on their website [ES-DE.org](https://es-de.org/).
 
 ---
 

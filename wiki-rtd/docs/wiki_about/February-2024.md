@@ -43,6 +43,10 @@ With the update also came big architectural changes. RetroDECK will need to acco
 
 We will however ship it as part of 0.8.0b, as we need to verify everything and make the upgrade as safe and as smooth as possible.
 
+### Do not update your themes
+
+ES-DE 3.0 came with many new features for theme builders, but those features are not backward compatible and might be buggy. Please don’t update your themes until RetroDECK 0.8.0b is out (only the themes that use the new features will break).  😊
+
 ### ES-DE Android Port
 
 As we are friends with the ES-DE Team we also want to highlight that they just released their Android version of the app on the Amazon Appstore. This brings your favorite launcher to Android!

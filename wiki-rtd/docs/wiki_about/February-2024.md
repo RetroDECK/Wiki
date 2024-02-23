@@ -2,7 +2,7 @@
 date: 2024-01-24
 ---
 
-# February 2024: 0.8b Progress!
+# February 2024: 0.8.0b Progress!
 
 Highlights:
 

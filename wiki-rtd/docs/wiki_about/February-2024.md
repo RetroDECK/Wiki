@@ -148,7 +148,7 @@ What the radial allows you to do:
 - Tap the left touchpad and select the Pick-Up command from the Radial.
 - Click on the item to pick it up.
 
-You will save at least one whole second to half a second from this!
+*"You will save at least one whole second to half a second from this!"*
 
 
 ## That is all for February

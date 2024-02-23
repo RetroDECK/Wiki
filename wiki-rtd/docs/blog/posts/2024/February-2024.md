@@ -1,5 +1,5 @@
 ---
-date: 2024-01-24
+date: 2024-02-23
 ---
 
 # February 2024: 0.8.0b Progress!
@@ -7,7 +7,7 @@ date: 2024-01-24
 Highlights:
 
 - Status 0.8.0b: All Emulators are running
-- External Controller v1b
+- External Controllers done
 - ES-DE 3.0
 - ES-DE Android version
 - And more!
@@ -43,7 +43,7 @@ With the update also came big architectural changes. RetroDECK will need to acco
 
 We will however ship it as part of 0.8.0b, as we need to verify everything and make the upgrade as safe and as smooth as possible.
 
-### Do not update your themes
+### Do not update your themes!
 
 ES-DE 3.0 came with many new features for theme builders, but those features are not backward compatible and might be buggy íf used the older ES-DE versions. Please don’t update your themes until RetroDECK 0.8.0b is out (only the themes that use the new features can  break).  😊
 
@@ -65,7 +65,9 @@ If you intend to buy it use the correct link, listed above and always on their w
 
 ## Update: Godot Configurator Translations
 
-<img src="../../../configurator-cn.webp" width="100">
+<img src="../../../configurator-cn.webp" width="750">
+
+(Still WIP)
 
 We have gotten several more translations in the works to the Configurator Godot Version thanks to the RetroDECK community!
 The fonts still need work but it is progress.
@@ -136,7 +138,7 @@ For the Steam Controller the `R4` button will toggle the `Right Touchpad` betwee
 
 ## Steam Deck: ScummVM Radial Menu
 
-<img src="../../../scummvm-radial.webp" width="100">
+<img src="../../../scummvm-radial.webp" width="300">
 
 On the Steam Deck we have added a new radial menu for ScummVM that allows you quick access to the various letter commands used by many ScummVM games.
 

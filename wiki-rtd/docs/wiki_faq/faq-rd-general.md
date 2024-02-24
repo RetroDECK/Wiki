@@ -78,7 +78,7 @@ Yes, as RetroDECK is completely standalone.
 
 ### Why create RetroDECK when EmuDeck and other solutions exists?
 
-RetroDECK is older than EmuDeck, EmuDeck was created later, and we wanted to make a one-in-all application.
+RetroDECK is older than EmuDeck, EmuDeck was created later.
 
 ### Batocera or EmuDeck or RetroDECK I still don't get it?
 

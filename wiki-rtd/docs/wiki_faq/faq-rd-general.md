@@ -84,7 +84,7 @@ RetroDECK is older than EmuDeck, EmuDeck was created later, and we wanted to mak
 
 - Batocera is a retro emulation operative system that you need to boot into separately (like from an SDCard) or replace your current OS.  For the Steam Deck you lose access to the SteamOS features and your emulation gaming is separate from your SteamOS gamemode gaming. That said; Batocera has many years of development time, is a great mature OS with a lot of features.
 
-- EmuDeck is a shell script interface that you download and run. The interface downloads & configures all the separate emulators & plugins for you from various sources for various operative systems and create a common linked folder structure in that system from the native emulator folders.
+- EmuDeck is a shell script interface that you download and run. The interface downloads & configures all the separate emulators & plugins for you from various sources for various operative systems and create a common linked folder structure in that system from the native emulator folders.s
 
 - RetroDECK is an all-in-one application that should provide a preconfigured but modifiable environment to make it easy for both the new user and hardcore veteran to use.  The goal is to provide everything you need in one application without the need to download tons of separate apps on your system, only one thing to update. A RetroDECK is a flatpak and on Flathub, it allows the users to update the application from standard update methods already built into the operating system like KDE Discover or Gnome Software.  All the important userdata files (roms/bios/scarped things/etc..) are contained within one folder and not all over the filesystem.
 

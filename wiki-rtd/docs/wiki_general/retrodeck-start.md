@@ -25,6 +25,7 @@ Read and follow the following guide
 [Steam Deck - Installation and Updates](../wiki_devices/steamdeck/steamdeck-start.md)
 
 ### Linux Desktop - Installation
+
 Read and follow the:
 
 [Linux Desktop - Installation and Updates](../wiki_devices/linux_desktop/linux-install.md)

@@ -91,6 +91,7 @@ RetroDECK is older than EmuDeck, EmuDeck was created later, and we wanted to mak
 You can see RetroDECK as the in-between EmuDeck and Batocera. We hope that one day we can offer a complete Batocera-like experience right inside your operating system.
 
 ### What is your relationship with ES-DE?
+
 ES-DE and RetroDECK are separate projects, but we collaborate to give the best possible user experience.
 We have a unique partnership where inside the ES-DE code is a section just for RetroDECK specific features.
 

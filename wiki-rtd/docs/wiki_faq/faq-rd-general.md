@@ -3,9 +3,11 @@
 <img src="../../wiki_icons/retrodeck/rd_icon_circle_192x192.png">
 
 ## What does the "b" stand for in the versioning number?
+
 It stands for Beta.
 
 ## What is RetroDECK cooker?
+
 Cooker is a bleeding edge snapshot of the current commits, the action of uploading code to GitHub is called commit.
 
 As you can understand, the code may not be always reviewed and so the cooker it's unstable by its nature, it's just suggested to testers or developer to try bleeding edge function or to contribute.

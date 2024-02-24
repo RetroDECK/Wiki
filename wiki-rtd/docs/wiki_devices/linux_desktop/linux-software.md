@@ -8,7 +8,7 @@ The following software might enhance your RetroDECK or general gaming experience
 
 <img src="../../../wiki_images/logos/flips-logo.png" width="150">
 
-Flips is a software that let you patch romhacks IPS & BPS files onto the rom files.
+Flips is a software that lets you patch romhacks IPS & BPS files onto the rom files.
 
 [Flips Flathub](https://flathub.org/apps/details/com.github.Alcaro.Flips)
 
@@ -26,7 +26,8 @@ This more complex application allows you to manage and verify your roms via .dat
 
 <img src="../../../wiki_images/logos/romm-logo.svg" width="150">
 
-RomM is a game library roms manager focused in retro gaming. Manage and organize all of your games from a web browser.
+RomM is a game library roms manager focused on retro gaming. Manage and organize all your games from a web browser.
+
 Inspired by [Jellyfin](https://jellyfin.org/), allows you to manage all your games from a modern interface while enriching them with IGDB metadata.
 
 [RomM Github](https://github.com/zurdi15/romm)
@@ -42,7 +43,7 @@ Steam is a software distribution service with an online store, automated install
 **RetroDECK and Steam:**<br>
 RetroDECK uses several of Steam's functions like Steam Input to do advanced controller profiles. It is not required to have Steam to use RetroDECK but launching RetroDECK from Steam will enchance your experience.
 
-Steam exists as a Flatpak and or in most cases also as a built in native installation that you can download for your distribution via built-in package managers. You nee to check your distribution on how to download Steam.
+Steam exists as a Flatpak and or in most cases also as a built-in native installation that you can download for your distribution via built-in package managers. You need to check your distribution on how to download Steam.
 
 We recommend the native version of Steam over the flatpak version as running RetroDECK in the Steam flatpak version you will need to open various permissions to get everything to work.
 
@@ -71,7 +72,7 @@ A simple GOG client for Linux. Minigalaxy lets you download, install and play yo
 
 <img src="../../../wiki_images/logos/heroic-logo.png" width="150">
 
-Heroic is an Open Source Games Launcher. It supports launching games from the Epic Games Store, GOG and Amazon Games.
+Heroic is an Open-Source Games Launcher. It supports launching games from the Epic Games Store, GOG and Amazon Games.
 
 [Heroic Flathub](https://flathub.org/apps/com.heroicgameslauncher.hgl)
 
@@ -109,7 +110,7 @@ Greenlight is an open-source client for xCloud and Xbox home streaming made in T
 
 <img src="../../../wiki_images/logos/chiaki-logo.png" width="150">
 
-Chiaki is a Free and Open Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux and other systems.
+Chiaki is a Free and Open-Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux and other systems.
 
 [Chiaki Flathub](https://flathub.org/apps/re.chiaki.Chiaki)
 
@@ -117,7 +118,7 @@ Chiaki is a Free and Open Source Software Client for PlayStation 4 and PlayStati
 
 <img src="../../../wiki_images/logos/moonlight-logo.png" width="150">
 
-Moonlight allows you to play your PC games on almost any device, whether you're in another room or miles away from your gaming rig.
+Moonlight allows you to play your PC games on almost any device, whether you are in another room or miles away from your gaming rig.
 
 [Moonlight Flathub](https://flathub.org/apps/com.moonlight_stream.Moonlight)
 
@@ -144,7 +145,7 @@ Just plug in a controller, connect to a computer running Steam on the same local
 
 <img src="../../../wiki_images/logos/boilr-logo.png" width="150">
 
-BoilR will show games from other games platforms in your Steam library. It uses the Steam 3rd party shortcuts feature and does not require you to set up anything. You can also use BoilR to manually and automatically download custom art from SteamGridDB. It's already in Flathub.
+BoilR will show games from other games platforms in your Steam library. It uses the Steam 3rd party shortcuts feature and does not require you to set up anything. You can also use BoilR to download custom art manually and automatically from SteamGridDB. It is already in Flathub.
 
 [BoilR Flathub](https://flathub.org/apps/details/io.github.philipk.boilr)
 

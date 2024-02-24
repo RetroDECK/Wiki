@@ -2,12 +2,11 @@
 
 ## Steam Deck with Gyro
 
-This is a step by step guide on how to get working Gyro with Yuzu utilizing the Steam Deck's built in gyro.<br>
-We are looking into building this feature into RetroDECK in the future.
+This is a step-by-step guide on how to get to a working Gyro with Yuzu utilizing the Steam Deck's built in gyro. We are looking into building this feature into RetroDECK in the future.
 
 #### Prerequisites: RetroDECK Steam Deck Controller Layout
 
-Make you have `The Official RetroDECK Steam Deck Controller Layout`  installed and enabled.
+Make you have `RetroDECK: Steam Deck Controller Layout` installed and enabled.
 
 If you don't have it read up on `Step 3` from the getting started guide.
 
@@ -38,7 +37,7 @@ Copy the following command into the terminal and hit enter:
 
 `bash <(curl -sL https://raw.githubusercontent.com/kmicki/SteamDeckGyroDSU/master/pkg/update.sh)`
 
-This will Install SteamDeckGyroDSU and also create a new folder under `HOME` `$HOME/sdgyrodsu/` aka `home/deck/sdgyrodsu`
+This will Install SteamDeckGyroDSU and create a new folder under `HOME` `$HOME/sdgyrodsu/` aka `home/deck/sdgyrodsu`
 
 In that folder you will find two other files that is good to know about:
 
@@ -80,9 +79,9 @@ Make sure that the `Motion` is checked in the bottom left and click the `Configu
 
 <img src="../../../wiki_images/emulators/yuzu/yuzu-motion-configure.png" width="600">
 
-Make sure that the localhost IP-adress and port exists to the left side of the menu.
+Make sure that the localhost IP-adress and port exists on the left side of the menu.
 
-If it does not exist you will need to manually add it:
+If it does not exist, you will need to manually add it:
 
 - Server: `127.0.0.1`
 - Port: `26760`
@@ -90,7 +89,7 @@ If it does not exist you will need to manually add it:
 
 Press the `Test` button to make sure you are getting data from `SteamDeckGyroDSU`.
 
-If all has gone well you will get a message saying:
+If all has gone well, you will get a message saying:
 
 `Successfully received data from the server.`
 
@@ -104,7 +103,7 @@ Now you need to press the `Motion` button and `Shake the Steam Deck` to bind the
 
 <img src="../../../wiki_images/emulators/yuzu/yuzu-gyro-box.png" width="600">
 
-If all is working correctly the tiny box in the middle of the controller should move with your built in Gyro.
+If all is working correctly the tiny box in the middle of the controller should move with your built-in Gyro.
 
 ### Step 6: Quit RetroDECK
 
@@ -118,32 +117,10 @@ Revert the changed you made to resolution in Step 2:
 
 Click on the `⚙️` icon - `Properties` - `Shortcut` - `Game Resolution`
 
-Set the Resolution from`1920x1080`  to `Default`
+Set the Resolution from`1920x1080` to `Default`
 
 Also turn off `Set resolution for internal and external display`
 
 ### Step 8: Launch RetroDECK
 
 You can now launch RetroDECK and play Yuzu with motion.
-
-
-## Steam Deck with External Gyro Enabled Controllers
-
-**Prerequisites:**
-
-- A gyro enabled external controller.
-
-### Step 1:
-
-WIP
-
-
-## Linux Desktop with External Gyro Enabled Controllers
-
-**Prerequisites:**
-
-- A gyro enabled external controller.
-
-### Step 1:
-
-WIP

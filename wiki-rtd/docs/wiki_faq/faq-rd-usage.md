@@ -6,11 +6,10 @@
 
 Always use in-game saves and treat the states as a compliment to the main save.
 
-As emulators update with new versions states of old versions could be incompatible and simply not work. Never rely only on states!
+As emulators update with new versions, states of old versions could be incompatible and simply not work. Never rely only on states!
 
 ## Do I have to partition or format my disk/sdcard to install RetroDECK?
 No, partitioning or formatting is not needed at all. RetroDECK (differently from AmberELEC, Batocera and others) comes as a flatpak. Just install it as any other application and launch it from your desktop and/or Steam library.
-
 
 
 ## Where is RetroDECK installed?
@@ -32,17 +31,9 @@ There are two primary folders:
 ## Can I move the ROMs folder to another place?
 Yes, you can do so inside the configurator and the `Move RetroDECK` option.
 
-
-
 ## Is there a way to reset RetroDECK?
 Yes, you can reset various parts of the software using the RetroDECK Configurator's reset functions.
 Read more on: [RetroDECK Configurator 🛠️](../wiki_general/configurator.md)
-
-Or if you want to reset from CLI you can read up on:
-`Development 🖥️` - [CLI Guide](../wiki_development/general/cli-guide.md)
-
-
-
 
 ## How do I uninstall RetroDECK?
 **On the Steam Deck:**
@@ -55,21 +46,14 @@ Put the Steam Deck into Desktop Mode `Steam button`  `Power`  `Switch to Desktop
 * Manually backup then remove the `~\retrodeck` folder. Warning! Make a backup your data roms/bios/saves etc if you want to save them else they will be gone.
 
 
-
-## Does uninstalling RetroDECK remove my roms, bios and saves?
+## Does uninstalling RetroDECK remove my roms, bios and saves/states?
 No, as long as you don't manually don't delete the `~\retrodeck` folder and it's content your data is safe. You could uninstall RetroDECK and install it again and keep going.
-
-
 
 ## How can I move RetroDECK do a different device like Steam Deck OLED or a new Linux PC?
 Yes, check over at [How to: Move RetroDECK to a new device](../wiki_management/retrodeck-move.md)
 
-
-
 ## Where can I find the logfiles?
 In `~/retrodeck/.logs/retrodeck.log`
-
-
 
 ## Can I add a single game to my Steam Library?
 We are working on this feature. Meanwhile you can achieve this manually.
@@ -79,21 +63,15 @@ Example of a launch script to launch to launch a Wii game called Baloon World:
  flatpak run --command=dolphin-emu-wrapper net.retrodeck.retrodeck -e "/run/media/mmcblk0p1/retrodeck/roms/wii/Baloon World.rvz" -b
  ```
 
-
-
 ## After installing RetroDECK manually, Discover is not opening or giving me some errors?
 This bug is appearing only when installing RetroDECK manually and not from Discover. The discover release is suggested for all the users.
 However you can run this to fix it: `flatpak remote-delete retrodeck-origin`
-
-
 
 ## I disabled Steam Input from RetroDECK in Steam and now controls do not work anymore.
 RetroDECK is using Steam Input so for all the controller profiles disabling it is not recommend. If you can not enable Steam Input again and the Steam GUI is buggy you have to do this:
 
 1. Remove RetroDECK as `A Non-Steam Game` from the `Library`
 2. Add it again via  `Library` - `Add a Non-Steam Game to My Library` (or use BoilR).
-
-
 
 ## How do I update RetroDECK?
 Updates to RetroDECK is handled automatically via your distributions software manager when there is a new version released like KDE's Discover or Gnome Software.

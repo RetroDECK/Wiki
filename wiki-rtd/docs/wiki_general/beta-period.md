@@ -2,7 +2,7 @@
 
 **What is: RetroDECK is in BETA?**
 
-It means that the software is still under heavy development and big updates can be made that changes or adds certain features.
+It means that the software is still under heavy development and big updates can be made that change or add certain features.
 
 RetroDECK is missing some minor and major:
 
@@ -13,16 +13,17 @@ RetroDECK is missing some minor and major:
 
 That we want to add before we consider it a full release.
 
-RetroDECK is perfectly fine for daily use even during the beta period and the core application should seen as  stable. The main reason we consider it a BETA is the all the things we want to improve and add before a full 1.0 release.
+RetroDECK is perfectly fine for daily use even during the beta period and the core application should be seen as stable enough. The main reason we consider it a BETA is all the things we want to improve and add before a full 1.0 release.
 
-There are also experimental features that could be unstable but those are exclusive to the cooker builds or have to be enabled by CLI.
+There are also experimental features that could be unstable but those are exclusive to the cooker builds or must be enabled by CLI.
 
 RetroDECK during the BETA period supports the Steam Deck and the Linux Desktop. Our goal is to have the full release of RetroDECK to be as easy to use on the Linux Desktop as the Steam Deck is currently.
 
-RetroDECK will still keep developing post the full release.
+RetroDECK will keep developing post the full release.
 
-### So what's the difference between this beta and the cooker version?
-Since the beta is the actual mainline that is in fact the stable version, the cooker version is the unstable nightly version that is always under heavy development and the main development branch.
+### What is the difference between the main version and the cooker version?
+
+Since the main versions is in fact the stable version, the cooker version is the unstable version that is always under heavy development.
 
 ## Wiki Links
 

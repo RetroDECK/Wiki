@@ -5,7 +5,6 @@ RetroDECK currently officially supports two systems:
 - Steam Deck
 - Linux Desktop
 
-
 ## Steam Deck LCD/OLED
 
 RetroDECK was built for the Steam Deck in mind.

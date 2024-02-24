@@ -10,7 +10,7 @@ Follow the official flatpak guides on how to install it for your distribution:<b
 
 2. We recommend that you have the `steam-devices` and/or `game-devices-udev` package installed as it comes with udev rules for many different controllers. You will have to check your distribution on how to install it.
 
-3. We currently recommend that you add and launch RetroDECK from Steam so you can utilize the Steam Input feature to change various aspects of the external controllers. We will be looking into other alternative solutions later for those that don't want to use Steam.
+3. We currently recommend that you add and launch RetroDECK from Steam so you can utilize the Steam Input feature to change various aspects of the external controllers. We will be looking into other alternative solutions later for those that do not want to use Steam.
 
 ## From the Desktop GUI
 
@@ -34,7 +34,7 @@ Follow the official flatpak guides on how to install it for your distribution:<b
 
 ## Updates
 
-Updates to RetroDECK is handled automatically via your software manager when there is a new version released.
+Updates to RetroDECK are handled automatically via your software manager when there is an updated version released.
 
 Or if you want to update from the terminal you can type: <br>
 `flatpak update`

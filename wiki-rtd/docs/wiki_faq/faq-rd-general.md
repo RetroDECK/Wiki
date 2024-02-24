@@ -88,7 +88,7 @@ RetroDECK is older than EmuDeck, EmuDeck was created later, and we wanted to mak
 
 - RetroDECK is an all-in-one application that should provide a preconfigured but modifiable environment to make it easy for both the new user and hardcore veteran to use.  The goal is to provide everything you need in one application without the need to download tons of separate apps on your system, only one thing to update. As RetroDECK is a flatpak and on Flathub, it allows the users to update the application from standard update methods already built into the operating system like KDE Discover or Gnome Software.  All the important userdata files (roms/bios/scarped things/etc..) are contained within one folder and not all over the filesystem.
 
-You can see RetroDECK as the in-between EmuDeck and Batocera. We hope that one day we can offer a complete Batocera-like experience right inside your operating system.
+You can see RetroDECK as the in-between of EmuDeck and Batocera. We hope that one day we can offer a complete Batocera-like experience right inside your operating system.
 
 ### What is your relationship with ES-DE?
 

@@ -46,3 +46,8 @@ In the past we evaluated to migrate to **Buildstream** (or similar solutions) an
 
 But the team is not large enough to migrate and maintain other distribution methods, so we prefer to focus our effort on Flatpak only.
 If someone with knowledge and passion wishes to help us with migrating to a solution and help us maintain it, we are open for a discussion.
+
+### Will you support RISC-V?
+
+It would be a major undertaking but one day in the far-off future it could be possible as the platform matures, the idea of a widely accepted open-source architecture is exiting at least.
+

@@ -153,19 +153,3 @@ Even before we release a new update for RetroDECK the nightly versions of the em
 There have been instances where the nightly version of an emulator has been completely broken and we want to avoid shipping that with RetroDECK.
 
 
-## Will you implement Cloud Sync / Backup?
-
-Yes, that is the plan in a future update. We will not do our own infrastructure but allow users to their own services via easy built-in tools in the Configurator.
-
-### What can I use now while we wait for Cloud Sync / Backup?
-
-There exist several open-source options, here is a few of them:
-
-- [Rsync](https://linux.die.net/man/1/rsync)
-
-- [NextCloud](https://nextcloud.com/)
-
-- [Syncthing](https://github.com/syncthing/syncthing)
-
-- [Syncthing GTK GUI](https://flathub.org/apps/me.kozec.syncthingtk)
-

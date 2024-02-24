@@ -5,6 +5,7 @@
 ---
 
 ### Yuzu Links:
+
 [Yuzu Quickstart Guide](https://yuzu-emu.org/help/quickstart/)
 
 [Yuzu Wiki](https://yuzu-emu.org/wiki/)
@@ -16,13 +17,16 @@
 ---
 
 ## Where to put the games?
+
 Switch games should be put into the `retrodeck/roms/switch/` directory.<br>
 The games can come in many different formats: `XCI` `NSP` `NCA` `NSO` `NRO`.
 
 ## Does Yuzu require BIOS or Firmware?
+
 Yes, `prod.keys` `title.keys` and `nca` files.
 
 ### Where do I put the BIOS and firmware files?
+
 Yuzu needs the key files `prod.keys`, `title.keys` and the firmware files in the following directories:
 
 **Yuzu keys:** `~/retrodeck/bios/switch/keys`
@@ -52,13 +56,13 @@ You can find a complete guide in the Yuzu Wiki (link above) on how to extract th
 **NOTE:** On the Steam Deck this could be easier to do in `Desktop Mode`.
 
 1. Extract any patch or dlc files from compressed `.zip` or any other format to the true files.
-2. Open up Yuzu inside `RetroDECK Configurator` by pressing `Open Emulator` - `Yuzu`.
+2. Open Yuzu from inside `RetroDECK Configurator` by pressing `Open Emulator` - `Yuzu`.
 3. Press `File` - `Install Files to NAND`
 4. Find a DLC or Patch file from the file browser and press `Open`
 5. This will install the DLC or Patch file into the games NAND folder inside of Yuzu.
 6. Repeat step 2 to 3 for every file you need to install.
 7. Quit Yuzu
-8. Start up RetroDECK and select the game you want to play. <br>
+8. Start RetroDECK and select the game you want to play.
 
 ## How do I add shader caches?
 
@@ -67,12 +71,9 @@ You can find a complete guide in the Yuzu Wiki (link above) on how to extract th
 **NOTE:** On the Steam Deck this could be easier to do in `Desktop Mode`.
 
 1. Extract any shader cache files from compressed `.zip` or any other format to folders.
-2. Open up Yuzu inside `RetroDECK Configurator` by pressing `Open Emulator` - `Yuzu`.
+2. Open Yuzu from inside `RetroDECK Configurator` by pressing `Open Emulator` - `Yuzu`.
 3. Right click on the game you want to add mods into.
 4. Click on `Open Transferable Pipeline Cache`.
 5. Paste the files inside that directory.
-6. Start up RetroDECK and select the game. <br>
-
-## How do I add mods?
-Check: `Mod Guides ⚙️` - `Mods: Yuzu - Switch`
+6. Start RetroDECK and select the game.
 

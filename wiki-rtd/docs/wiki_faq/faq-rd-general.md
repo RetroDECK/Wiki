@@ -61,7 +61,7 @@ No, the two projects are not related.
 
 Apart of that from the user point of view EmuDeck and RetroDECK may sound similar but technically they're completely different.
 
-EmuDeck is a shell script interface that you run in the Steam Decks desktop mode that downloads and configures all the separate emulators & plugins for you from various sources using a built-in electron based gui
+EmuDeck is a shell script interface that you run in the Steam Decks desktop mode that downloads and configures all the separate emulators & plugins for you from various sources using a built-in electron based gui.
 
 RetroDECK is an all-in-one application contained in a sandboxed environment called "flatpak", that is downloaded from Discover (Flathub). This is Valves and other Linux desktops recommended way of distributing applications on the Steam Deck and Linux desktop in a safe way. It guarantees for example even if Valve makes major changes to the file system in a SteamOS update, RetroDECK and its configurations will not be touched and will be safe.
 
@@ -86,7 +86,7 @@ RetroDECK is older than EmuDeck, EmuDeck was created later, and we wanted to mak
 
 - EmuDeck is a shell script interface that you download and run. The interface downloads & configures all the separate emulators & plugins for you from various sources for various operative systems and create a common linked folder structure in that system from the native emulator folders.
 
-- RetroDECK is an all-in-one application that already provides everything you need without too many extra steps for the user. It is on Flathub and thus allows the users to update the application via standard safe operative system update methods.
+- RetroDECK is an all-in-one application that should provide a preconfigured but modifiable environment to make it easy for both the new user and hardcore veteran to use.  The goal is to provide everything you need in one application without the need to download tons of separate apps on your system, only one thing to update. A RetroDECK is a flatpak and on Flathub, it allows the users to update the application from standard update methods already built into the operating system like KDE Discover or Gnome Software.  All the important userdata files (roms/bios/scarped things/etc..) are contained within one folder and not all over the filesystem.
 
 You can see RetroDECK as the in between of EmuDeck and Batocera. We hope that one day we can offer a complete Batocera-like experience right inside your operating system.
 

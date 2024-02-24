@@ -127,7 +127,11 @@ If you want to update from the terminal, you can type:
 
 ### I have not updated RetroDECK for a very very long time, can I safely update?
 
-It is always recommended to keep RetroDECK updated. But if you have not updated in very long time (a year or more) it might be better to just uninstall and reinstall RetroDECK from your software manager instead of doing the upgrade, as it can take longer. If you are even several major versions behind (example: going from 0.4b to 0.8b) we recommend uninstalling and reinstalling.
+It is always recommended to keep RetroDECK updated.
+
+But if you have not updated in very long time (a year or more) it might be better to just uninstall and reinstall RetroDECK from your software manager instead of doing the upgrade, as it can take longer.
+
+If you are even several major versions behind (example: going from 0.4b to 0.8b) we recommend uninstalling and reinstalling.
 
 ## How do I update a specific emulator in RetroDECK?
 

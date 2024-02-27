@@ -148,16 +148,3 @@ PlayStation (PCSX ReARMed)
 ### Vectrex
 
 Vectrex (vecx)
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,5 +1,6 @@
 # Information on donations
-RetroDECK is nothing without our dependencies without them this project and many others like us cannot exist. If you do not want to donate to RetroDECK and you might want to donate to the ES-DE front-end, art assets or a specific emulator. We support you no matter what, whatever choice you take from this list will be a good one for us all.
+
+RetroDECK is nothing without our dependencies without them this project and many others like us cannot exist. Without them RetroDECK can not run any games at all, it is their software that make this possible. If you do not want to donate to RetroDECK and you might want to donate to the ES-DE front-end, art assets or a specific emulator. We support you no matter what, whatever choice you take from this list will be a good one for us all.
 
 **Please note:**
 
@@ -51,11 +52,11 @@ By donating to RetroDECK you support this project and the vision of a unified pa
 
 ## Frontend
 
-### EmulationStation Desktop Edition (ES-DE)
+### ES-DE Frontend
 
 <img src="../../wiki_images/logos/es-de-logo.png" width="150">
 
-EmulationStation Desktop Edition (ES-DE) is a frontend for browsing and launching games from your multi-platform game collection.
+ES-DE Frontend  is a frontend for browsing and launching games from your multi-platform game backup collection.
 
 
 #### Where to donate / support the project?

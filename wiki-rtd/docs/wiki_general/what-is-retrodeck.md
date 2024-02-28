@@ -8,6 +8,7 @@ RetroDECK is a [ES-DE Frontend](https://es-de.org) powered [Flatpak application]
 ### What does that mean?
 
 It means that RetroDECK builds-in all the software that is running the the games and a frontend. RetroDECK then configures them for you and puts them into an all-in-one application you can download from Flathub.
+
 By being one application RetroDECK can put all important files in one location instead of having them spread out over your entire system and even add features on top to orchestrate them seamlessly.
 
 

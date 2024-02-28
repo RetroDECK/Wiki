@@ -34,6 +34,7 @@ Yuzu needs the key files `prod.keys`, `title.keys` and the firmware files in the
 **Yuzu firmware:** `~/retrodeck/bios/switch/registered`
 
 The directory tree should look like this example:
+
 ```
 ~/retrodeck/bios/switch
 ├── keys

@@ -29,9 +29,9 @@ Yes, `prod.keys` `title.keys` and `nca` files.
 
 Yuzu needs the key files `prod.keys`, `title.keys` and the firmware files in the following directories:
 
-**Yuzu keys:** `~/retrodeck/bios/switch/keys`
+**Keys:** `~/retrodeck/bios/switch/keys`
 
-**Yuzu firmware:** `~/retrodeck/bios/switch/registered`
+**Firmware:** `~/retrodeck/bios/switch/registered`
 
 The directory tree should look like this example:
 

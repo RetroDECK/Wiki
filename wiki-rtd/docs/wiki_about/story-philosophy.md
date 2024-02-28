@@ -23,7 +23,10 @@ Valve suggests the flatpak technology to port the applications on Steam Deck so,
 
 ## What is RetroDECK's philosophy?
 
-Emulation is a global multi-generational effort of development that has lasted for decades, motivated by the pure love for video game preservation for current and future generations. RetroDECK depends on the constant development of all our dependencies (the emulators, front-end, various assets, etc…). It would be unfair to both the hard work that has been done in those projects and to the entire open-source community if we said otherwise or tried to take credit, conceal, monetize or obscure it for our own gain.
+Emulation is a global multi-generational effort of development that has lasted for decades, motivated by the pure love for video game preservation for current and future generations. RetroDECK depends on the constant development of all our dependencies (the emulators, front-end, game engines, various assets, etc…). It would be unfair to both the hard work that has been done in those projects and to the entire open-source community if we said otherwise or tried to take credit, conceal, monetize or obscure it for our own gain. As it is their software that makes running the games possible, not RetroDECK by it self as all RetroDECK is unified experience with a framework on top.
+
+We believe in free and open-source video game preservation and don't believe in the monetization or for profit models in any shape or form for this project. Everything we do should be open and we shall not offer any predatory donations schemes to gain funds
+or try to divide users into none paying vs paying users.
 
 We always strive to have the best possible relationship with the teams that generously provide and develop the third-party software we are depending on now and in the future. Everyone that works on RetroDECK is immensely grateful for the global collective effort and work that has been done. Without these projects and those passionate people RetroDECK would not be possible as it is them who runs the games not RetroDECK by it self.
 

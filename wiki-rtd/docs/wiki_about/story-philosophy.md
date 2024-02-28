@@ -22,12 +22,13 @@ Valve suggests the flatpak technology to port the applications on Steam Deck so,
 // Xargon (Project Founder)
 
 ## What is RetroDECK's philosophy?
-Emulation is a global multi-generational effort of development that has lasted for decades, motivated by the pure love for video game preservation for current and future generations. RetroDECK depends on the constant development of all our dependencies (the emulators, front-end, various assets, etc…). It would be unfair to both the hard work that has been done in those projects and to the entire open-source community if we said otherwise or tried to take credit, conceal, or obscure it for our own gain.
 
-We always strive to have the best possible relationship with the teams that generously provide and develop the third-party software we are depending on now and in the future. Everyone that works on RetroDECK is immensely grateful for the global collective effort and work that has been done. Without these projects and those passionate people RetroDECK would not be possible.
+Emulation is a global multi-generational effort of development that has lasted for decades, motivated by the pure love for video game preservation for current and future generations. RetroDECK depends on the constant development of all our dependencies (the emulators, front-end, various assets, etc…). It would be unfair to both the hard work that has been done in those projects and to the entire open-source community if we said otherwise or tried to take credit, conceal, monetize or obscure it for our own gain.
+
+We always strive to have the best possible relationship with the teams that generously provide and develop the third-party software we are depending on now and in the future. Everyone that works on RetroDECK is immensely grateful for the global collective effort and work that has been done. Without these projects and those passionate people RetroDECK would not be possible as it is them who runs the games not RetroDECK by it self.
 
 We also want to add a word for the developers of the third-party projects: Please feel free to reach out to us, talk to us for any reason and share your ideas. We value your feedback and suggestions, and our door is always open for collaboration and improvements. You are the backbone of our project, and we appreciate your contributions.
 
-You can find more about our dependencies on the wiki and how to donate to them or us under the donations page on this wiki.
+You can find more about our dependencies on the wiki and how to donate to them or us under the donations & license page on this wiki.
 
 // The RetroDECK Team

@@ -1,15 +1,6 @@
 # The Team
 
-## Community Management
-
-### [Lazorne](https://github.com/Lazorne)
-Community management/outreach, testing, documentation, feature suggestions, does controllers and some design.
-
-<details><summary> </summary>
-Meme Lord of the Wiki and also the cult leader of the NPC (The Nordic Pizza Cult) also called by the others as "The Pizza Heresy Cult" or "Harbingers of Pizza Chaos". Instigator of the internal pizza war.
-</details>
-
-## Developers
+## Project founder and creator.
 
 ### [XargonWan](https://github.com/XargonWan)
 RetroDECK project founder and also one of the founding members of [AmberELEC](https://amberelec.org/).
@@ -17,6 +8,17 @@ RetroDECK project founder and also one of the founding members of [AmberELEC](ht
 <details><summary> </summary>
 Grand General of the IPL (Italian Pizza Legion) also known as the Napoletanan Fist in the internal pizza war.
 </details>
+
+## Community Management
+
+### [Lazorne](https://github.com/Lazorne)
+Community management/outreach, testing, documentation, issue / feature suggestions handling.
+
+<details><summary> </summary>
+Meme Lord of the Wiki and also the cult leader of the NPC (The Nordic Pizza Cult) also called by the others as "The Pizza Heresy Cult" or "Harbingers of Pizza Chaos". Instigator of the internal pizza war.
+</details>
+
+## Developers
 
 ### [IceNine451](https://github.com/icenine451)
 Creator of the `RetroDECK configurator`, the `RetroDECK Framework` and various cool things.

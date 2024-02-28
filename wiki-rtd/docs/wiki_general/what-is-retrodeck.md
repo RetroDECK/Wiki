@@ -2,19 +2,22 @@
 
 <img src="../../wiki_images/logos/rd-esde-logo.svg" width="400">
 
-Instead of having several different software on your system for a variety of emulators and frontends you only need one: RetroDECK.
+Instead of having several different installs on your system for a variety of emulators and frontends you only need one: RetroDECK.
 
-RetroDECK is a [ES-DE Frontend](https://es-de.org) powered [Flatpak application](https://flathub.org/apps/net.retrodeck.retrodeck) that thanks to its `RetroDECK Framework` it builds-in a variety of emulators (the software that runs the games) and other software that allows you to play your favorite retro (and even not-so-retro) games in one complete package.
+RetroDECK is a [ES-DE Frontend](https://es-de.org) powered [Flatpak application](https://flathub.org/apps/net.retrodeck.retrodeck) that thanks to its `RetroDECK Framework` it builds-in a variety of software like emulators that runs retro games in one package.
+
 
 ### What does that mean?
 
-It means that RetroDECK provides all the emulators, systems, and a frontend. RetroDECK configures them for you and puts them into an all-in-one application you can download from Flathub .
+It means that RetroDECK builds-in all the software that is running the the games and a frontend. RetroDECK then configures them for you and puts them into an all-in-one application you can download from Flathub.
 
-By being one application RetroDECK can put all important files in one location for all the emulators, instead of having them spread out over your entire system and even add features on top to orchestrate them seamlessly.
+By being one application RetroDECK can put all important files in one location instead of having them spread out over your entire system and even add features on top to orchestrate them seamlessly.
+
+
 
 ## The RetroDECK Framework
 
-As previously mentioned, RetroDECK also adds the `RetroDECK Framework` on top of the emulators and ES-DE interface that allows deeper integrations between emulators and easier exposure to a variety of features that you otherwise need to set per emulator basis to create a uniformity between them.
+As previously mentioned, RetroDECK also adds the `RetroDECK Framework` on top of the software that allows deeper integrations between the built-in software and easier exposure to a variety of features that you otherwise need to set for example per emulator basis to create a uniformity between them.
 
 The `RetroDECK Configurator` is the `Utility` that exposes some parts of the `RetroDECK Framework` to the RetroDECK users.
 

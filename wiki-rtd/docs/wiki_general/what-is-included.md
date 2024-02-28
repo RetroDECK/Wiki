@@ -1,6 +1,6 @@
 # RetroDECK: What's included?
 
-What follows is a list of features currently included in RetroDECK
+What follows is a list of features and software currently included in RetroDECK
 
 ## Features
 
@@ -8,15 +8,15 @@ What follows is a list of features currently included in RetroDECK
 
 Is a powerful Utility that can be used to change/modify and manipulate various aspects of RetroDECK using the `RetroDECK Framework` more information in the `RetroDECK Configurator 🛠️` section.
 
-## ES-DE Frontend - RetroDECK Edition
+## ES-DE Frontend
 
 ES-DE is the base frontend for RetroDECK.
 
 RetroDECK comes with specific tweaks to the ES-DE standard setup to enable RetroDECK unique functions like the `RetroDECK Framework` and `RetroDECK Configurator`.
 
-These tweaks are possible thanks to a collaboration with the ES-DE project and the RetroDECK project.
-
 ## Emulators
+
+The emulators are the software that runs the retro games.
 
 ### Multi-Emulators
 

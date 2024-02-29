@@ -1,4 +1,5 @@
 # Inspiration for RetroDECK and goals
+
 RetroDECK is inspired by embedded emulation systems like:
 
 - AmberELEC
@@ -11,10 +12,10 @@ RetroDECK is inspired by embedded emulation systems like:
 The RetroDECK team consists of several veterans from some of the projects mentioned above as well as a bunch of other talented other individuals.
 
 
-# What are the long term vision and goals of the RetroDECK project?
+## What are the long term vision and goals of the RetroDECK project?
 
 
-The long term vision and goals of the project is an all-in-one application to manage your entire retro games library that is:
+The long term vision and goals of the project is an all-in-one application to manage your entire retro games backup library that is:
 
 - Already configured and should just work with your games.
 

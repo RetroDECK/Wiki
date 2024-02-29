@@ -110,7 +110,7 @@ This will allow you to do the following with a standard external controller:
 - Navigate PC Interfaces: Navigate and click on interfaces that normally cannot be used with a controller like several Emulators GUIs.
 - Arcade / Console: Play Light gun games.
 - Dolphin: Control the Wii Pointer and navigate Wii Menus (we are changing the Dolphin binds to account for this).
-- Dolphin: As you can quickly switch between mouse and joystick in this allows for some maneuvers in certain games. Press and hold `Select` and quickly capture those "bits of stars" with the Wii Pointer using the `Right Joystick` then release `Select` and keep playing.
+- Dolphin: As you can quickly switch between mouse and joystick in this allows for some maneuvers in certain games. Press and hold `Select` and quickly capture those "bits of stardust" with the Wii Pointer using the `Right Joystick` then release `Select` and keep playing.
 
 **Standard Controllers:**
 

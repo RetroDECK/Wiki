@@ -15,7 +15,7 @@ By donating to RetroDECK you support this project and the vision of a unified pa
 
 - Pay for upkeep: Web hosting / Build servers / Certificates / Software licenses
 - Develop better integrations, new functions and features.
-- Try to do more cooperation between projects for the betterment of Linux as a whole.
+- Try to do more cooperation between projects for the betterment of RetroDECK and sometimes Linux as a whole.
 
 **Buy new hardware and target new devices**
 

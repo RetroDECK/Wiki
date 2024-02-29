@@ -4,7 +4,7 @@ RetroDECK is nothing without our dependencies without them this project and many
 
 **Please note:**
 
-We are trying to list current and future software we want to include in RetroDECK. More things will be added all the time. There are even more emulators, software, front-ends, and assets out there that are not part of the RetroDECK project for various other systems. This is not a complete list of all Emulators or Frontends for the entire internet.
+We are trying to list current and future software we want to include in RetroDECK here. More things will be added all the time. There are even more emulators, software, front-ends, and assets out there that are not part of the RetroDECK project for various other systems. This is not a complete list of all Emulators or Frontends for the entire internet.
 
 ## RetroDECK
 <img src="../../wiki_images/logos/rd-logo-box.png" width="550">
@@ -13,33 +13,18 @@ By donating to RetroDECK you support this project and the vision of a unified pa
 
 #### We will use those funds to:
 
-- Wiki / Homepage
-- Web hosting
-- Developer accounts
-- Certificates
-- Software licenses
-- Build servers
-- Pay the running upkeep costs
+- Pay for upkeep: Web hosting / Build servers / Certificates / Software licenses
+- Develop better integrations, new functions and features.
+- Try to do more cooperation between projects for the betterment of Linux as a whole.
 
 **Buy new hardware and target new devices**
 
 - New SteamOS based devices.
 - New Linux based devices.
-- In some cases better development hardware
-
-**Buy new peripherals that we want to work out of the box**
-
 - Various big brand and small brand controllers.
 - Lightguns.
 - Special peripherals.
 
-**Make RetroDECK better**
-
-- Develop more Configurator functions
-- Develop better integrations
-- Develop broad new functions and features
-- Expose more emulator settings to the users in a easy way
-- Push for better peripherals support in Linux even beyond RetroDECK (Do more global Linux goodwill)
 
 #### Where to donate / support the project?
 

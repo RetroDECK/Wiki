@@ -212,31 +212,6 @@ We have not found a donation link to this project at this time or the project do
 #### Licenses
 [Licenses](https://github.com/Kekun/primehack/tree/master/LICENSES)
 
-### Yuzu
-
-<img src="../../wiki_images/logos//yuzu-logo.svg" width="150">
-
-Yuzu is the world's most popular, open-source, Nintendo Switch emulator — started by the creators of Citra.
-
-#### Where to donate / support the project?
-[Patreon](https://www.patreon.com/yuzuteam)
-
-#### Licenses
-[Licenses](https://github.com/yuzu-emu/yuzu/tree/master/LICENSES)
-
-### Citra
-
-<img src="../../wiki_images/logos/citra-logo.svg" width="150">
-
-Citra is the world's most popular, open-source, Nintendo 3DS emulator.
-It is written in C++ with portability in mind and builds are actively maintained for Windows, Linux, Android and macOS.
-
-#### Where to donate / support the project?
-[Patreon](https://www.patreon.com/citraemu)
-
-#### Licenses
-[Licenses](https://github.com/citra-emu/citra/blob/master/license.txt)
-
 ### Ryujinx
 
 <img src="../../wiki_images/logos/ryujinx-logo.svg" width="150">

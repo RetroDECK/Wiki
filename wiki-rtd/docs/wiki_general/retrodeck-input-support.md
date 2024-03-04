@@ -1,6 +1,6 @@
 # RetroDECK - Supported Steam Input Controllers
 
-Here is a list of all the current versions of the Steam Input profiles that RetroDECK from the upcomming 0.8b update.<br>
+Here is a list of all the current versions of the Steam Input profiles that RetroDECK from the upcoming 0.8.0b update.<br>
 More controllers will be added in the future when Steam Input adds support for them.
 
 ## Generic Controllers

@@ -30,6 +30,9 @@ There will probably be a lot of migration guides written all over the internet i
 All reference to Yuzu will be purged from the wiki and other places within our control
 
 ## For 3DS Emulation
-We don't know if there are any replacements, sadly. We are sure others will pop up in the future.
+
+We are looking into alternatives like:
+
+https://panda3ds.com/ and https://mikage.app/.
 
 Thanks for your understanding!

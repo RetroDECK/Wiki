@@ -108,7 +108,7 @@ The NES column should now be shown with our `ExampleNESGame.nes` from `Step 3`
 Do the following:
 
 1. Make an account on [Screenscraper](https://www.screenscraper.fr/)
-2. Read up on scraping and the various settings that exist for it in the [ES-DE User Guide](../wiki_emulationStation_de/esde-guide.md)
+2. Read up on scraping and the various settings that exist for it in the [ES-DE User Guide](../wiki_es_de/esde-guide.md)
 3. Login to your screenscraper account inside RetroDECK.
 4. Setup the scraping how you want it.
 5. Start scraping.

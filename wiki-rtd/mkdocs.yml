@@ -193,7 +193,6 @@ nav:
       - How do I help out with testing?: wiki_development/testing//general-testing.md
 
   - Files & Game Management 📂:
-    - Folders and Files (WIP): wiki_management/esde-folders-files.md
     - Game Compability Lists: wiki_management/retrodeck-move.md
     - Manage your BIOS/Firmware: wiki_management/bios-firmware.md
     - Manage your Multidisk/file games: wiki_management/multi-disk.md
@@ -226,8 +225,8 @@ nav:
     - RetroDECK and Steam Input: wiki_steam/steam-input.md
 
   - Guides - ES-DE Frontend 🤖:
-    - ES-DE - User Guide: wiki_emulationStation_de/esde-guide.md
-    - Themes: wiki_emulationStation_de/esde-themes.md
+    - ES-DE - User Guide: wiki_es_de/esde-guide.md
+    - Themes: wiki_es_de/esde-themes.md
   
   - Guides - Engines  🛠️:
     - GZDoom 👹:

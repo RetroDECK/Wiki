@@ -41,5 +41,11 @@ https://panda3ds.com/ and https://mikage.app/.
 - The Yuzu and Citra teams where mostly the same.
 - Yuzu and Citra shared code.
 - In the settlement both Citra and Yuzu where affected.
+- The Citra and Yuzu discord confirmed their shutdown.
+
+###  We are following the development of this and this statement might change
+
+As everything is up in the air and constantly changing, we are trying to provide the information as it is right now in the current moment as of this writing.
+Things could maybe change for Citra or there can be other solutions.
 
 Thanks for your understanding!

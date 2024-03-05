@@ -49,7 +49,7 @@ Yes
 
 ### What about the Citra Core in RetroArch?
 
-- RetroDECK synchronizes the core list of RetroArch in each update.
+- RetroDECK synchronizes the entire core list of RetroArch in each update.
 - If the Citra core is part of that it will be included in RetroDECK.
 - If Libretro is removing it later, it will be removed in the whatever the next update of RetroDECK after that.
 

@@ -3,6 +3,7 @@
 Who will prevail?
 
 ## The Factions
+
 ### The Italian Pizza Legion - IPL
 
 Conservative purists of pure Italian Pizza Force.

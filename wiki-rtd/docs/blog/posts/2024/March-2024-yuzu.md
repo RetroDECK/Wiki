@@ -21,6 +21,8 @@ As you might have heard Yuzu & Citra (stand alone version) is no more and anyone
 
 So as an effect of this, the RetroDECK Team will remove Yuzu & Citra from RetroDECK at the start of the next update 0.8.0b.
 
+We are trying to keep this topic updated with information as we get it.
+
 ### Why is Citra affected?
 
 - Citra and Yuzu where made by the same company in US.
@@ -37,7 +39,11 @@ Ryujinx will be included as the default for Switch emulation as of 0.8.0b.
 Please do an in-game save for all the games you want to transfer the save files from Yuzu.
 
 There will probably be a lot of migration guides written all over the internet in a short from all over.
-All reference to Yuzu will be purged from the wiki and other places within our control
+All reference to Yuzu will be purged from the wiki and other places within our control.
+
+## Is the planned feature of Yuzu (Custom) removed?
+
+Yes
 
 ## Regarding 3DS Emulation
 
@@ -55,6 +61,7 @@ We are looking into alternatives like:
 
 - [Panda3DS](https://panda3ds.com/)
 - [Mikage](https://mikage.app/).
+
 
 ##  We are following the development of this and this statement might change
 

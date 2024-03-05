@@ -53,7 +53,7 @@ So if the Citra core exists it will be the default for 3DS emulation.
 
 We are looking into alternatives like:
 
-- [Panda3DS](https://panda3ds.com/)]
+- [Panda3DS](https://panda3ds.com/)
 - [Mikage](https://mikage.app/).
 
 ##  We are following the development of this and this statement might change

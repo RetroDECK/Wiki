@@ -35,4 +35,11 @@ We are looking into alternatives like:
 
 https://panda3ds.com/ and https://mikage.app/.
 
+### Why is Citra affected?
+
+- Citra and Yuzu where made by the same company in US.
+- The Yuzu and Citra teams where mostly the same.
+- Yuzu and Citra shared code.
+- In the settlement both Citra and Yuzu where affected.
+
 Thanks for your understanding!

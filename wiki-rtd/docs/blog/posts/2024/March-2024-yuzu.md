@@ -47,6 +47,8 @@ All reference to Yuzu will be purged from the wiki and other places within our c
 - If the Citra core is part of that it will be included in RetroDECK.
 - If Libretro is removing it later, it will be removed in the whatever the next update of RetroDECK after that.
 
+So if the Citra core exists it will be the default for 3DS emulation.
+
 ### Standalone Alternatives
 
 We are looking into alternatives like:

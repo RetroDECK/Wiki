@@ -43,6 +43,11 @@ https://panda3ds.com/ and https://mikage.app/.
 - In the settlement both Citra and Yuzu where affected.
 - The Citra and Yuzu discord confirmed their shutdown.
 
+### What about the Citra Core in RetroArch?
+
+RetroDECK syncs the core list of RetroArch in each update, as long as the Citra core is part of that it will be included in RetroDECK.
+If Libretro is removing it at a later time, it will be removed in the what ever the next update of RetroDECK after that.
+
 ###  We are following the development of this and this statement might change
 
 As everything is up in the air and constantly changing, we are trying to provide the information as it is right now in the current moment as of this writing.

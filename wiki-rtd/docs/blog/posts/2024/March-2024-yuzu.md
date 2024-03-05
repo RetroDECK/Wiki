@@ -51,7 +51,8 @@ All reference to Yuzu will be purged from the wiki and other places within our c
 
 We are looking into alternatives like:
 
-[Panda3DS](https://panda3ds.com/)] and [Mikage](https://mikage.app/).
+- [Panda3DS](https://panda3ds.com/)]
+- [Mikage](https://mikage.app/).
 
 ##  We are following the development of this and this statement might change
 

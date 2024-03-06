@@ -14,12 +14,15 @@ flatpak run --command=sh --nosocket=fallback-x11 --socket=x11 net.retrodeck.retr
 
 This is can be used as a `RetroDECK Debug Mode`.
 
+---
+
 ## Launch ES-DE in Debug Mode:
 
 From the RetroDECK Debug Mode use the following command to open ES-DE in Debug Mode.
 
 `es-de --debug --home /var/config/`
 
+---
 
 ## List runnable components in Debug Mode
 
@@ -32,6 +35,8 @@ You can list all the available components via the command:
 ```
 ls /app/bin
 ```
+
+---
 
 ### How to run a component?
 
@@ -47,6 +52,8 @@ You can also launch specific components by running them, example:
 
 This is useful when for example a game is not starting and you want the output printed in the terminal.
 
+---
+
 ## Run a component with a specific game or content for debugging
 
 The easiest way is to run the `es-de --debug --home /var/config/`
@@ -54,6 +61,8 @@ The easiest way is to run the `es-de --debug --home /var/config/`
 Then start or try to start the game or content you want to debug.
 
 ES-DE will spit out two important values.
+
+---
 
 ###  Raw emulator launch command
 
@@ -65,6 +74,8 @@ Example output of amstrad game being launch via the RetroArch core:
 
 This tells that the Emulator that is launched is retroarch and the core is cap32 via the selected `%ROM%`
 
+---
+
 ### Expanded emulator launch command:
 
 This is the fullcommand to launch the file
@@ -72,6 +83,8 @@ This is the fullcommand to launch the file
 Example output of the game above, a game called Dank Rider:
 
 `Info:   /app/bin/retroarch -L /app/share/libretro/cores/cap32_libretro.so /home/deck/retrodeck/roms/amstradcpc/1001\ BC\ (1984)(Dank Rider)(fr).zip`
+
+---
 
 #### Use the expanded command for deeper debugging
 

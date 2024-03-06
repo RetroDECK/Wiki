@@ -38,6 +38,7 @@ And check out the other articles under the `General Information 📰` section.
 More information in the `Community & Helping Out ❤️` section
 
 [Discord](https://discord.gg/Dz3szYsP8g)<br/>
+[Matrix](https://matrix.to/#/#retrodeck:matrix.org)<br/>
 [Lemmy](https://lemmy.zip/c/retrodeck)<br/>
 [Reddit](https://www.reddit.com/r/retrodeck)<br/>
 

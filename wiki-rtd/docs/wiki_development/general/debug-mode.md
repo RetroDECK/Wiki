@@ -1,5 +1,8 @@
 # RetroDECK Debug Mode
 
+
+## RetroDECK in Debug Mode
+
 You can use the flatpak shell for debugging from bash by using the following command:
 
 ```

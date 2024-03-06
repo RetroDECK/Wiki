@@ -33,19 +33,22 @@ NOTE: on wayland in some cases it's needed to enter with the command above other
 flatpak run --command=sh --nosocket=fallback-x11 --socket=x11 net.retrodeck.retrodeck
 ```
 
-Launch ES-DE in debug mode:
+Launch ES-DE in Debug Mode:
 
 ```
 emulationstation --debug --home /var/config/emulationstation
 ```
 
-Launch an emulator in debug mode:
+Launch a component in Debug Mode:
+
+To get the list of the available binaries to launch, then just write the command:
+
 
 ```
 ls /app/bin
 ```
-To get the list of the available binaries to launch, then just write the command, such as `yuzu` or `retroarch`
 
+`retrodeck` for the whole application or certain components like `ryujinx` or `retroarch`.
 This is useful when for example a game is not starting and you want the output printed in the terminal.
 
 ## Manual installation instructions

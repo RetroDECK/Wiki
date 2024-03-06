@@ -57,7 +57,7 @@ This is useful when for example a game is not starting and you want the output p
 
 ---
 
-## Run a component with a specific game or content for debugging
+## Run a component with a specific game or content
 
 The easiest way is to run the `es-de --debug --home /var/config/`
 
@@ -65,7 +65,6 @@ Then start or try to start the game or content you want to debug.
 
 ES-DE will spit out two important values.
 
----
 
 ###  Raw emulator launch command
 
@@ -77,7 +76,6 @@ Example output of amstrad game being launch via the RetroArch core:
 
 This tells that the Emulator that is launched is retroarch and the core is cap32 via the selected `%ROM%`
 
----
 
 ### Expanded emulator launch command:
 
@@ -87,9 +85,7 @@ Example output of the game above, a game called Dank Rider:
 
 `Info:   /app/bin/retroarch -L /app/share/libretro/cores/cap32_libretro.so /home/deck/retrodeck/roms/amstradcpc/1001\ BC\ (1984)(Dank Rider)(fr).zip`
 
----
-
-#### Use the expanded command for deeper debugging
+### Deeper per game / contant debugging
 
 If we want to debug a game or content copy and run the full `Expanded emulator launch command`
 

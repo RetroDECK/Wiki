@@ -1,15 +1,18 @@
 # RetroDECK Debug Mode
 
-It's possible to enter a "debug mode" the is just flatpak shell in bash.
+You can use the flatpak shell for debugging from bash by using the following command:
 
 ```
 flatpak run --command=bash net.retrodeck.retrodeck
 ```
 
 NOTE: on wayland in some cases it's needed to enter with the command above otherwise some emulators will not run:
+
 ```
 flatpak run --command=sh --nosocket=fallback-x11 --socket=x11 net.retrodeck.retrodeck
 ```
+
+This is can be used as a RetroDECK Debug Mode.
 
 ### Launch ES-DE in Debug Mode:
 

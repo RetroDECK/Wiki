@@ -20,36 +20,8 @@ Sometimes adding a new big component to RetroDECK warrants a feature branch from
 Talk to the RetroDECK development team if you have a need to make a new feature branch for a new bigger component such as adding a new system, emulator or a major feature.
 
 ## Debug Mode
-It's possible to enter in a sort of debug mode, it's actually the flatpak shell.
 
-Enter in the flatpak shell:
-
-```
-flatpak run --command=bash net.retrodeck.retrodeck
-```
-
-NOTE: on wayland in some cases it's needed to enter with the command above otherwise some emulators will not run:
-```
-flatpak run --command=sh --nosocket=fallback-x11 --socket=x11 net.retrodeck.retrodeck
-```
-
-Launch ES-DE in Debug Mode:
-
-```
-emulationstation --debug --home /var/config/emulationstation
-```
-
-Launch a component in Debug Mode:
-
-To get the list of the available binaries to launch, then just write the command:
-
-
-```
-ls /app/bin
-```
-
-`retrodeck` for the whole application or certain components like `ryujinx` or `retroarch`.
-This is useful when for example a game is not starting and you want the output printed in the terminal.
+Read more over at [Debug Mode](debug-mode.md).
 
 ## Manual installation instructions
 This method is usually for the beta/cooker testers:

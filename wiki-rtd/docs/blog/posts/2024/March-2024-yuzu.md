@@ -62,6 +62,31 @@ We are looking into alternatives like:
 - [Panda3DS](https://panda3ds.com/)
 - [Mikage](https://mikage.app/).
 
+## Will you delete any savefiles?
+
+No, we are not trying to delete any files important to the users except for the ability to run Yuzu and Citra in RetroDECK.
+
+## Where are the Yuzu and Citra files located?
+
+~ = home catalog
+/.var/ is hidden
+
+
+```
+~/.var/app/net.retrodeck.retrodeck/cache/yuzu/
+~/.var/app/net.retrodeck.retrodeck/config/yuzu/
+~/.var/app/net.retrodeck.retrodeck/data/yuzu/
+/retrodeck/saves/switch/
+/retrodeck/mods/Yuzu/
+```
+
+```
+~/.var/app/net.retrodeck.retrodeck/config/citra-emu/
+~/.var/app/net.retrodeck.retrodeck/data/citra-emu/
+/retrodeck/saves/n3ds/
+/retrodeck/mods/Citra/
+```
+
 
 ##  We are following the development of this and this statement might change
 

@@ -13,14 +13,8 @@ flatpak run --command=sh --nosocket=fallback-x11 --socket=x11 net.retrodeck.retr
 
 ### Launch ES-DE in Debug Mode:
 
-```
-es-de --debug --home /var/config/emulationstation
+`es-de --debug --home /var/config/`
 
-or
-
-es-de --debug --home /var/config/ES-DE
-
-```
 
 ### List runnable components in Debug Mode
 

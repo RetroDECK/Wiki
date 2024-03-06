@@ -84,6 +84,7 @@ No, we are not trying to delete any files important to the users except for the 
 ~/.var/app/net.retrodeck.retrodeck/config/citra-emu/
 ~/.var/app/net.retrodeck.retrodeck/data/citra-emu/
 /retrodeck/saves/n3ds/
+/retrodeck/states/n3ds/
 /retrodeck/mods/Citra/
 ```
 

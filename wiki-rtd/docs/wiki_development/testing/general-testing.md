@@ -77,7 +77,7 @@ From CLI run:
 The `Developer Options Menu` should show up inside the Configurator.
 
 ## Debug Mode
-It's possible to enter in a sort of debug mode, it's actually the flatpak shell.
+It's possible to enter in a sort of debug mode via the flatpak shell.
 
 Enter in the flatpak shell:
 
@@ -90,13 +90,18 @@ NOTE: on wayland in some cases it's needed to enter with the command above other
 flatpak run --command=sh --nosocket=fallback-x11 --socket=x11 net.retrodeck.retrodeck
 ```
 
-Launch ES-DE in Debug Mode:
+### Launch ES-DE in Debug Mode:
 
 ```
-emulationstation --debug --home /var/config/emulationstation
+es-de --debug --home /var/config/emulationstation
+
+or
+
+es-de --debug --home /var/config/ES-DE
+
 ```
 
-Launch a component in Debug Mode:
+### Launch a component in Debug Mode:
 
 To get the list of the available binaries to launch, then just write the command:
 
@@ -107,5 +112,3 @@ ls /app/bin
 
 `retrodeck` for the whole application or certain components like `ryujinx` or `retroarch`.
 This is useful when for example a game is not starting and you want the output printed in the terminal.
-
-

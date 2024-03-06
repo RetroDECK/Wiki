@@ -12,16 +12,22 @@ NOTE: on wayland in some cases it's needed to enter with the command above other
 flatpak run --command=sh --nosocket=fallback-x11 --socket=x11 net.retrodeck.retrodeck
 ```
 
-This is can be used as a RetroDECK Debug Mode.
+This is can be used as a `RetroDECK Debug Mode`.
 
-### Launch ES-DE in Debug Mode:
+## Launch ES-DE in Debug Mode:
+
+From the RetroDECK Debug Mode use the following command to open ES-DE in Debug Mode.
 
 `es-de --debug --home /var/config/`
 
 
-### List runnable components in Debug Mode
+## List runnable components in Debug Mode
 
-You cam list all the available components via the command:
+RetroDECK consists of a variety of features all called components.
+
+These consists of emulators, game engines,  other software or functions.
+
+You can list all the available components via the command:
 
 ```
 ls /app/bin
@@ -41,7 +47,7 @@ You can also launch specific components by running them, example:
 
 This is useful when for example a game is not starting and you want the output printed in the terminal.
 
-### Run a component with a specific game or content for debugging
+## Run a component with a specific game or content for debugging
 
 The easiest way is to run the `es-de --debug --home /var/config/`
 
@@ -49,7 +55,7 @@ Then start or try to start the game or content you want to debug.
 
 ES-DE will spit out two important values.
 
-####  Raw emulator launch command
+###  Raw emulator launch command
 
 This tell you the dynamic pathing to the core file + rom file.
 
@@ -59,7 +65,7 @@ Example output of amstrad game being launch via the RetroArch core:
 
 This tells that the Emulator that is launched is retroarch and the core is cap32 via the selected `%ROM%`
 
-#### Expanded emulator launch command:
+### Expanded emulator launch command:
 
 This is the fullcommand to launch the file
 
@@ -67,7 +73,7 @@ Example output of the game above, a game called Dank Rider:
 
 `Info:   /app/bin/retroarch -L /app/share/libretro/cores/cap32_libretro.so /home/deck/retrodeck/roms/amstradcpc/1001\ BC\ (1984)(Dank Rider)(fr).zip`
 
-### Use the expanded command for deeper debugging
+#### Use the expanded command for deeper debugging
 
 If we want to debug a game or content copy and run the full `Expanded emulator launch command`
 

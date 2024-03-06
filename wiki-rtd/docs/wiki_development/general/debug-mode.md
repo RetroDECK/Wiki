@@ -1,6 +1,6 @@
 # RetroDECK Debug Mode
 
-It's possible to enter a debug mode via the flatpak shell.
+It's possible to enter a "debug mode" the is just flatpak shell in bash.
 
 ```
 flatpak run --command=bash net.retrodeck.retrodeck
@@ -38,8 +38,38 @@ You can also launch specific components by running them, example:
 
 This is useful when for example a game is not starting and you want the output printed in the terminal.
 
-### Run a component with a specific game or content
+### Run a component with a specific game or content for debugging
 
-The easiest way is to run the `retrodeck` command. Launch RetroDECK and go into the ES-DE interface and try to launch the game from there.
-In the terminal ES-DE will spit out the total runnable path to that game or content.
+The easiest way is to run the `es-de --debug --home /var/config/`
 
+Then start or try to start the game or content you want to debug.
+
+ES-DE will spit out two important values.
+
+####  Raw emulator launch command
+
+This tell you the dynamic pathing to the core file + rom file.
+
+Example output of amstrad game being launch via the RetroArch core:
+
+`Debug:  %EMULATOR_RETROARCH% -L %CORE_RETROARCH%/cap32_libretro.so %ROM%`
+
+This tells that the Emulator that is launched is retroarch and the core is cap32 via the selected `%ROM%`
+
+#### Expanded emulator launch command:
+
+This is the fullcommand to launch the file
+
+Example output of the game above, a game called Dank Rider:
+
+`Info:   /app/bin/retroarch -L /app/share/libretro/cores/cap32_libretro.so /home/deck/retrodeck/roms/amstradcpc/1001\ BC\ (1984)(Dank Rider)(fr).zip`
+
+### Use the expanded command for deeper debugging
+
+If we want to debug a game or content copy and run the full `Expanded emulator launch command`
+
+Example debugging of Dank Rider:
+
+`/app/bin/retroarch -L /app/share/libretro/cores/cap32_libretro.so /home/deck/retrodeck/roms/amstradcpc/1001\ BC\ (1984)(Dank Rider)(fr).zip`
+
+This will give you the raw RetroArch output.

@@ -70,7 +70,7 @@ es-de --debug --home /var/config/
 
 Then start or try to start the game or content you want to debug.
 
-ES-DE will spit out two important values.
+ES-DE will spit out two important values  `Raw emulator launch command` & `Expanded emulator launch command`.
 
 
 ###  Raw emulator launch command

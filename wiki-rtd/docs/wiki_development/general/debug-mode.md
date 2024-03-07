@@ -98,7 +98,7 @@ Info:   /app/bin/retroarch -L /app/share/libretro/cores/cap32_libretro.so /home/
 
 ### Deeper per game / contant debugging
 
-If we want to debug a game or content copy and run the full `Expanded emulator launch command`
+If we want to debug a game or content copy and run the full `Expanded emulator launch command` from above.
 
 Example debugging of Dank Rider:
 

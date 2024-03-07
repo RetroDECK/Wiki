@@ -80,7 +80,9 @@ This tell you the dynamic pathing to the core file + rom file.
 Example output of amstrad game being launch via the RetroArch core:
 
 ```
-Debug:  %EMULATOR_RETROARCH% -L %CORE_RETROARCH%/cap32_libretro.so %ROM%
+Raw emulator launch command:
+Debug:
+%EMULATOR_RETROARCH% -L %CORE_RETROARCH%/cap32_libretro.so %ROM%
 ```
 
 This tells that the Emulator that is launched is retroarch and the core is cap32 via the selected `%ROM%`
@@ -93,7 +95,9 @@ This is the fullcommand to launch the file
 Example output of the game above, a game called Dank Rider:
 
 ```
-Info:   /app/bin/retroarch -L /app/share/libretro/cores/cap32_libretro.so /home/deck/retrodeck/roms/amstradcpc/1001\ BC\ (1984)(Dank Rider)(fr).zip
+Expanded emulator launch command:
+Info:
+/app/bin/retroarch -L /app/share/libretro/cores/cap32_libretro.so /home/deck/retrodeck/roms/amstradcpc/1001\ BC\ (1984)(Dank Rider)(fr).zip
 ```
 
 ### Deeper per game / contant debugging

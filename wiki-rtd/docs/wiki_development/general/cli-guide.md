@@ -56,7 +56,9 @@ flatpak install Flathub net.retrodeck.retrodeck
 ### Update all flatpaks from CLI
 
 If you want to update all installed flatpaks from CLI type:<br>
-`flatpak update`
+```
+flatpak update
+```
 
 Then answer `y` on the input prompt.
 

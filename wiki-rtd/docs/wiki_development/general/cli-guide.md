@@ -1,4 +1,6 @@
-# How do I run RetroDECK CLI commands?
+# RetroDECK CLI Commmands
+
+## How do I run RetroDECK CLI commands?
 
 Open a Linux terminal on your desktop (on the Steam Deck you need to be in desktop mode). Depending on what terminal application you have installed the naming of the application can be different.<br>
 
@@ -6,7 +8,9 @@ In Linux distributions that uses KDE desktop environment as well as the Steam De
 <br>
 The default command to run retrodeck options and arguments is:
 
-`flatpak run [FLATPAK-RUN-OPTION] net.retrodeck.retrodeck [ARGUMENTS]`
+```
+flatpak run [FLATPAK-RUN-OPTION] net.retrodeck.retrodeck [ARGUMENTS]
+```
 
 Where `[FLATPAK-RUN-OPTION]` is replaced by a flatpak run option (if there is one) and `[ARGUMENTS]` is replaced by arguments.
 
@@ -14,7 +18,9 @@ Where `[FLATPAK-RUN-OPTION]` is replaced by a flatpak run option (if there is on
 
 This syntax runs the `--reset-all` argument that resets the application to default settings.
 
-`flatpak run net.retrodeck-retrodeck --reset-all`
+```
+flatpak run net.retrodeck-retrodeck --reset-all
+```
 
 Where the argument `--reset-all` replaced `[ARGUMENTS]` and `[FLATPAK-RUN-OPTION]`was not needed to it was removed.
 
@@ -30,38 +36,22 @@ Where the argument `--reset-all` replaced `[ARGUMENTS]` and `[FLATPAK-RUN-OPTION
 
 `--compress` - Compresses a specific file to .chd format. It supports .cue .iso and .gdi formats. You need to add the filepath to the file for it to work.
 
-`--reset-emulator` - Opens a new input where you can input an argument to reset a specific emulator or all emulators to the default settings. Inside the prompt you can type one of the following options to reset it;
-
-`all-emulators`
-`retroarch`
-`citra`
-`dolphin`
-`duckstation`
-`melonds`
-`pcsx2`
-`ppsspp`
-`primehack`
-`rpcs3`
-`xemu`
-`yuzu`
+`--reset-component` - Opens a new input where you can input an argument to reset a specific feature like emulators or other software to the default settings. You will get a list of all available components
 
 `--reset-retrodeck` - Resets the entirety of RetroDECK to default settings!
-<br>
-⚠️ WARNING! BACK UP YOUR DATA BEFORE RUNNING THIS ARGUMENT! ⚠️
 
 ## General flatpak commands
-
-If you want to check RetroDECK's Flathub page [click here](https://flathub.org/apps/details/net.retrodeck.retrodeck)<br>
+<br>
 Here follows some general flatpak commands that could be useful: <br>
 
 
-### Install RetroDECK from CLI
+## Install RetroDECK from CLI
 
-If you want to install RetroDECK from CLI type:<br>
-`flatpak install Flathub net.retrodeck.retrodeck`
+If you want to install RetroDECK from CLI type:
 
-NOTE! This will work on the Steam Deck out of the box.<br>
-But on the Linux desktop you need to check your distribution if it ships with both Flatpak and Flathub integration installed, if not you may need to install it. Check your distributions or flathubs documentation on how to install it on your desktop.
+```
+flatpak install Flathub net.retrodeck.retrodeck
+```
 
 ### Update all flatpaks from CLI
 
@@ -74,6 +64,8 @@ Then answer `y` on the input prompt.
 
 If you just want to update RetroDECK type: <br>
 
-`flatpak update net.retrodeck.retrodeck`
+```
+flatpak update net.retrodeck.retrodeck
+```
 
 Then answer `y` on the input prompt.

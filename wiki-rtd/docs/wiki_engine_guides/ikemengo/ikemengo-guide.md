@@ -2,51 +2,95 @@
 
 <img src="../../../wiki_images/logos/ikemen-go-logo.png" width="150">
 
+`IkemenGO` is a fighting game engine and the spiritual successor to the dead projects `Ikemen` and `M.U.G.E.N`. It strives to be compatible with games made for those engines.
 
-WIP
+
+### IkemanGO Links:
+
+[IkemanGO Github](https://github.com/ikemen-engine/Ikemen-GO)
+
+[IkemanGO Wiki](https://github.com/ikemen-engine/Ikemen-GO/wiki)
+
+[IkemanGO Webpage](https://ikemen-engine.github.io/)
+
+
+
 
 ## Where to put the games
 `IkemenGO` `Ikemen` and `M.U.G.E.N` games should be put under the `retrodeck/roms/mugen/` directory.
 
-## ES-DE Guide
+## What file formats are supported?
 
-**This needs to be rewritten**
+`.mugen`
 
-Ikemen GO and M.U.G.E.N Game Engine
-M.U.G.E.N games can be played using the  game engine which is being actively developed and is available on Linux, macOS and Windows. The original M.U.G.E.N engine which only exists for Windows has not had any updates in years and is therefore considered obsolete and won't be covered here. But it's still possible to use it on Windows via the same approach described for Ikemen GO so if you really want to use it, then you can.
-Basic setup
+### Quick notes On games
 
-These games are shipped as self-contained units with the game engine binary included in the game directory structure. On Windows .lnk files are used to launch the games and on Linux and macOS files or symlinks with the .mugen extension are required.
+- The games needs to be uncompressed to a folder.
+- Games made for `IkemenGO` has a higher success rate then those made for `M.U.G.E.N`.
+- Each game is it's own self-contained game and not overarching settings exists.
+- Depending on the age of the game you want to play it could require less or more tinkering.
+and depending on the age of the game you want to play it could require less or more tinkering.
+- `M.U.G.E.N` have existed since the 90s some very old games might not run at all without heavy tinkering.
 
-For this example we'll go with the game Ultimate Sonic Mugen.
-On Windows, go into the game directory, right click on the Ikemen_GO.exe file, select Create Shortcut followed by Create Desktop Shortcut. This will create a file with the .lnk extension. Rename the file to Ultimate Sonic Mugen.lnk and try to run this file to make sure that the game starts and runs correctly. Note that this setup is not portable, if you move your game files somewhere else you will need to manually update your shortcuts as these contain absolute paths.
-
-On Linux and macOS, go into the game directory and rename the Ikemen_GO_Linux or Ikemen_GO_MacOS binary to the name of the game and add the .mugen extension to the filename, for example Ultimate Sonic Mugen.mugen. Try to run this file to make sure that the game starts and runs correctly.
-
-Starting ES-DE and launching the game should now work fine, but a further improvement is to use the directories interpreted as files functionality to display the game as a single entry instead of a directory. To accomplish this, simply rename the game directory to the same name as the game file, which for this example would be Ultimate Sonic Mugen.lnk or Ultimate Sonic Mugen.mugen depending on which operating system you use.
-
-The setup should now look something like the following:
+### Example folder structure of a IkemanGO game
 
 ```
-~/ROMs/mugen/Ultimate Sonic Mugen.mugen/
-~/ROMs/mugen/Ultimate Sonic Mugen.mugen/chars/
-~/ROMs/mugen/Ultimate Sonic Mugen.mugen/data/
-~/ROMs/mugen/Ultimate Sonic Mugen.mugen/external/
-~/ROMs/mugen/Ultimate Sonic Mugen.mugen/font/
-~/ROMs/mugen/Ultimate Sonic Mugen.mugen/sound/
-~/ROMs/mugen/Ultimate Sonic Mugen.mugen/stages/
-~/ROMs/mugen/Ultimate Sonic Mugen.mugen/Ultimate Sonic Mugen.mugen
+~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/
+~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/chars/
+~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/data/
+~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/external/
+~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/font/
+~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/sound/
+~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/stages/
+~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/Ultimate Dank Fighter IkemanGO.mugen
 ```
+Notice the runnable Ultimate Dank Fighter Mugen.mugen
 
-Configuring M.U.G.E.N games for use with Ikemen GO
-This section is only included to provide some general understanding on how to convert M.U.G.E.N games to run with Ikemen GO, it's in no way a complete tutorial and the steps needed are likely slightly different for each game. Refer to the Ikemen GO support forums and documentation for more thorough information.
-We'll use the game Ultimate Sonic Mugen for this example.
+## IkemanGO Game How-to Setup
 
-Download Ikemen GO from [Ikemen GO Github](https://github.com/ikemen-engine/Ikemen-GO/releases) the package you want is Ikemen_GO_v0.98.2.zip or similar, depending on which version you're downloading. Unpack the file to a suitable location.
+This How-to is for games that are made with IkemanGO
 
-Download the game Ultimate Sonic Mugen and unpack it to a suitable location.
-Create a new game directory, for example `~/ROMs/mugen/Ultimate Sonic Mugen`.
-Copy the following directories from the downloaded game directory to the empty game directory you just created:
+- Extract the game if it is compressed into a new folder under `roms/mugen/`.
+- Rename the folder so it is called `<gamename>.mugen` in the end of it.
+- Open the game folder and see if the `Ikemen_GO_Linux` file is there in the root of the folder.
+- If the file is there rename it to `<gamename>.mugen`.
+- Note that BOTH the `Ikemen_GO_Linux` file and the game folder are now called the same `<gamename>.mugen`.
+
+The game should now be detected and runnable from RetroDECK.
+
+**Example on renaming:** <br>
+If the game is called Ultimate Dank Fighter IkemanGO rename the `Ikemen_GO_Linux` file & the games folder to `Ultimate Dank Fighter IkemanGO.mugen`
+
+```/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/Ultimate Dank Fighter IkemanGO.mugen```
+
+The `Ultimate Dank Fighter IkemanGO.mugen` file exists within the `Ultimate Dank Fighter IkemanGO.mugen` folder.
+
+**Ikemen_GO_Linux is missing:**
+If the `Ikemen_GO_Linux` is missing in the games folder you can download it from the [IkemanGO Github](https://github.com/ikemen-engine/Ikemen-GO) under releases called
+`Ikemen_GO-<latestversion>-linux.zip`.
+
+Open up the `.zip` file and extract ONLY the `Ikemen_GO_Linux` file into the game directory and rename it as stated above.
+
+## Guidelines on M.U.G.E.N to IkemanGO conversions
+
+This is not a full guide on conversion, as each game is different and can have been made for a different version of M.U.G.E.N or have other unique properties for just that game.
+It would be impossible to write a total guide to encompass all games and you will have to check various forums/web pages for the best approach for just that game.
+
+This is not an easy task to do in most cases.
+
+### Step 1: Prepare the files and folders
+
+In this example we are going to use a fake game called `Hockey Fighter MUGEN.zip`
+
+- Download the `Ikemen_GO-<latestversion>-linux.zip` from [IkemanGO Github](https://github.com/ikemen-engine/Ikemen-GO).
+- Extract the `Ikemen_GO-<latestversion>-linux.zip` file in some location.
+- Have a `M.U.G.E.N` game ready like `Hockey Fighter MUGEN.zip`.
+- Extract `Hockey Fighter MUGEN.zip` in some location.
+- Create a new folder under `~/retrodeck/roms/mugen/` called `Hockey Fighter MUGEN.mugen`, the end result should look like `~/retrodeck/roms/mugen/Hockey Fighter MUGEN.mugen`
+
+### Step 2: Copy the M.U.G.E.N files
+
+From the extracted `Hockey Fighter MUGEN.zip` location copy the following folders into `~/retrodeck/roms/mugen/Hockey Fighter MUGEN.mugen`
 
 ```
 chars
@@ -55,15 +99,30 @@ font
 sound
 stages
 ```
+If the folders from the above top level folder have capital letters you will need to rename them to lowercase `Chars` to `chars` and EVERY FILE in the `data` folder needs to be lower case as well also the file exertion of the file.
 
-If you're using an operating system with a case-sensitive file system like Linux, then you also need to rename every file inside the data directory to lowercase characters. This includes also the file extensions.
-Copy the following directories from the Ikemen GO directory to the game directory:
+### Step 3: Copy the IkemanGO files
+
+
+From the extracted `Ikemen_GO-<latestversion>-linux.zip` location copy the following folders into the game directory:
+
+**HEADS UP:** <br>
+DO NOT OVERWRITE WHEN COPYING OVER THE FILES! PRESS NO!
+
 
 ```
 data
 external
 font
-The game binary, either Ikemen_GO.exe, Ikemen_GO_Linux or Ikemen_GO_MacOS
+Ikemen_GO_Linux <-- file
 ```
 
-Do NOT overwrite any files when copying over the data and font directories, or the game will not work correctly.
+### Step 4: Rename the Ikemen_GO_Linux file
+
+If the game is called Hockey Fighter MUGEN rename the `Ikemen_GO_Linux` file to `Hockey Fighter MUGEN.mugen` so the end result is:
+
+```~/retrodeck/roms/mugen/Hockey Fighter MUGEN.mugen/Hockey Fighter MUGEN.mugen```
+
+### Step 5: Run the game
+
+The game should now at least show up in RetroDECK and if you are luck also work when ran. If the game does not work check out the forums or web page where you got the game for guidance.

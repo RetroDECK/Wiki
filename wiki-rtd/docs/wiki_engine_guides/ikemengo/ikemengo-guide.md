@@ -23,7 +23,7 @@
 
 `.mugen`
 
-### Quick notes On games
+### Information
 
 - The games needs to be uncompressed to a folder.
 - Games made for `IkemenGO` has a higher success rate then those made for `M.U.G.E.N`.

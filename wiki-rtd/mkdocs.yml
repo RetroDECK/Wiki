@@ -56,6 +56,16 @@ nav:
     - Version History (Patchnotes): wiki_rd_versions/version-history.md
     - What are you working on?: wiki_development/general/what-are-you-working.on.md
 
+  - Archive 🗃️:
+    - Yuzu 🔴 (Archive):
+      - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
+      - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
+      - Yuzu - Gyro Guide: wiki_emulator_guides/yuzu/yuzu-gyro.md
+    - Citra 🍋 (Archive):
+      - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
+      - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
+      - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md
+
   - About, Credits & Donations 📖:
     - Credits - Team: wiki_about/credits-team.md
     - Credits - Additional: wiki_about/credits-additional.md

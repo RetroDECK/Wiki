@@ -1,4 +1,5 @@
-# Citra - Texture Pack Guide
+# Citra - Texture Pack Guide (Legacy)
+
 The `~/retrodeck/texture_packs/citra/` represents the `/load/textures` folder in Citra.
 
 **Note:** <br>
@@ -8,6 +9,7 @@ Some texture packs could made for a specific version or region of a game. Make s
 `TITLEID` is different for every game.
 
 ## Enable Custom Textures
+
 * Open up Citra inside `RetroDECK Configurator` by pressing `Open Emulator` - `Citra`.
 * Press `Emulation` -> `Configure` -> `Graphics` -> `Use Custom Textures` and set it to `On`.
 
@@ -23,6 +25,7 @@ There are two ways of adding texture packs into Citra
 
 
 ### From Citra
+
 1. Extract any texture files from compressed `.zip` or any other format to folders.
 2. Open up Citra inside `RetroDECK Configurator` by pressing `Open Emulator` - `Citra`.
 3. Right click on the game you want to add textures into.

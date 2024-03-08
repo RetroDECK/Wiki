@@ -1,18 +1,10 @@
-# Yuzu - General Guide
+# Yuzu - General Guide (Legacy)
 
 <img src="../../../wiki_images/logos//yuzu-logo.svg" width="150">
 
 ---
 
-### Yuzu Links:
-
-[Yuzu Quickstart Guide](https://yuzu-emu.org/help/quickstart/)
-
-[Yuzu Wiki](https://yuzu-emu.org/wiki/)
-
-[Yuzu Github](https://github.com/yuzu-emu/yuzu)
-
-[Yuzu Webpage](https://yuzu-emu.org/)
+Yuzu was removed as part of the 0.8.0b update.
 
 ---
 

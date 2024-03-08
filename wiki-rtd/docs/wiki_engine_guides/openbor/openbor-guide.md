@@ -32,7 +32,7 @@ OpenBOR games should be put under the `retrodeck/roms/openbor/` directory.
 
 ### Example folder structure of a OpenBOR game
 
-Example: A fake fan game called `Heroes of Phandalin`
+A fake fan game called `Heroes of Phandalin`
 
 ```
 ~/retrodeck/roms/openbor/Heroes of Phandalin.AppImage/

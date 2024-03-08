@@ -4,8 +4,6 @@
 
 This guide works for both the `ScummVM RetroArch Core` and `ScummVM-SA`
 
----
-
 ### ScummVM Links:
 [ScummVM Guides](https://docs.scummvm.org/en/v2.7.1/)
 
@@ -17,7 +15,6 @@ This guide works for both the `ScummVM RetroArch Core` and `ScummVM-SA`
 
 [ScummVM Webpage](https://www.scummvm.org/)
 
----
 
 ### Where to put the games?
 ScummVM games should be put into the `retrodeck/roms/scummvm/` directory.<br>

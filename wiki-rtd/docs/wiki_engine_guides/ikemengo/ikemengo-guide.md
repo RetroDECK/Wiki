@@ -21,6 +21,9 @@
 
 `.mugen`
 
+## Does IkemenGO require BIOS or Firmware?
+No
+
 ### Information
 
 - The games need to be uncompressed to a folder.

@@ -18,8 +18,12 @@ Open Beats of Rage or `OpenBOR` is a beat 'em up game engine and Chronocrash is 
 [Chronocrash Forum](https://www.chronocrash.com/forum/)
 
 
+
 ## Where to put the games
 OpenBOR games should be put under the `retrodeck/roms/openbor/` directory.
+
+## Does OpenBOR require BIOS or Firmware?
+No
 
 ## What file formats are supported?
 

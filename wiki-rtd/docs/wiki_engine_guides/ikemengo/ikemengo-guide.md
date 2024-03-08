@@ -85,7 +85,7 @@ In this example we are going to use a fake game called `Hockey Fighter MUGEN.zip
 - Extract the `Ikemen_GO-<latestversion>-linux.zip` file in some location.
 - Have a `M.U.G.E.N` game ready like `Hockey Fighter MUGEN.zip`.
 - Extract `Hockey Fighter MUGEN.zip` in some location.
-- Create a new folder under `~/retrodeck/roms/mugen/` called `Hockey Fighter MUGEN.mugen`, the end result should look like `~/retrodeck/roms/mugen/Hockey Fighter MUGEN.mugen`
+- Create a new folder under `~/retrodeck/roms/mugen/` called `Hockey Fighter MUGEN.mugen`, the result should look like `~/retrodeck/roms/mugen/Hockey Fighter MUGEN.mugen`
 
 ### Step 2: Copy the M.U.G.E.N files
 
@@ -98,7 +98,8 @@ font
 sound
 stages
 ```
-If the folders from the above top level folder have capital letters you will need to rename them to lowercase `Chars` to `chars` and EVERY FILE in the `data` folder needs to be lower case as well also the file exertion of the file.
+
+If the folders from the above top-level folder have capital letters you will need to rename them to lowercase `Chars` to `chars` and EVERY FILE in the `data` folder needs to be lower case as including the file extension.
 
 ### Step 3: Copy the IkemanGO files
 
@@ -118,10 +119,10 @@ Ikemen_GO_Linux <-- file
 
 ### Step 4: Rename the Ikemen_GO_Linux file
 
-If the game is called Hockey Fighter MUGEN rename the `Ikemen_GO_Linux` file to `Hockey Fighter MUGEN.mugen` so the end result is:
+If the game is called Hockey Fighter MUGEN rename the `Ikemen_GO_Linux` file to `Hockey Fighter MUGEN.mugen` so the result is:
 
 ```~/retrodeck/roms/mugen/Hockey Fighter MUGEN.mugen/Hockey Fighter MUGEN.mugen```
 
 ### Step 5: Run the game
 
-The game should now at least show up in RetroDECK and if you are luck also work when ran. If the game does not work check out the forums or web page where you got the game for guidance.
+The game should now at least show up in RetroDECK and if you are lucky also work when run. If the game does not work check out the forums or web page where you got the game for guidance.

@@ -2,43 +2,85 @@
 
 <img src="../../../wiki_images/logos//openbor-logo.svg" width="150">
 
-WIP
+Open Beats of Rage or `OpenBOR` is a beat 'em up game engine and Chronocrash is the main community of OpenBOR.
+
+
+### OpenBOR Links:
+
+[OpenBOR Github](https://github.com/DCurrent/openbor)
+
+[OpenBOR Wiki](https://github.com/DCurrent/openbor/wiki)
+
+[Chronocrash Community](https://www.chronocrash.com/)
+
+[Chronocrash Wiki](https://chronocrash.com/obor/wiki/)
+
+[Chronocrash Forum](https://www.chronocrash.com/forum/)
+
 
 ## Where to put the games
 OpenBOR games should be put under the `retrodeck/roms/openbor/` directory.
 
-## ES-DE Guide
+## What file formats are supported?
 
-**This needs to be rewritten**
+`.AppImage `
 
-The Open Beats of Rage (OpenBOR) game engine is available on Windows and Linux. Unfortunately the macOS ports seems to have been abandoned.
-These games are often but not always distributed together with the game engine as specific engine versions may be required for some games. The setup is slightly different between Windows and Linux so they are described separately here.
+### Information
 
-On Linux you need to supply your own game engine binary as few (if any) games are distributed with the Linux release of OpenBOR. <br>
-Download the .7z archive from the [OpenBOR Github](https://github.com/DCurrent/openbor) repository.
+- The games need to be uncompressed to a folder.
+- Each game is its own self-contained game, and no overarching settings exist.
 
-The file you want is `OpenBOR<Versionnumber>.AppImage` which is located inside the LINUX/OpenBOR folder. If you need an older engine for some specific game, then you may need to download an earlier release instead.
+### Example folder structure of a OpenBOR game
 
-Copy this file to the game directory and make it executable using the command chmod +x `OpenBOR<Versionnumber>.AppImage`
-
-Using the same game example as for the Windows instructions above, the directory structure should look like the following:
+Example: A fake fan game called `Heroes of Phandalin`
 
 ```
-/ROMs/openbor/D&D - K&D - The Endless Quest LNS/
-/ROMs/openbor/D&D - K&D - The Endless Quest LNS/Logs/
-/ROMs/openbor/D&D - K&D - The Endless Quest LNS/Paks/
-/ROMs/openbor/D&D - K&D - The Endless Quest LNS/Saves/
-/ROMs/openbor/D&D - K&D - The Endless Quest LNS/ScreenShots/
-/ROMs/openbor/D&D - K&D - The Endless Quest LNS/OpenBOR_3.0_6391.AppImage
-/ROMs/openbor/D&D - K&D - The Endless Quest LNS/OpenBOR.exe
+~/retrodeck/roms/openbor/Heroes of Phandalin.AppImage/
+~/retrodeck/roms/openbor/Heroes of Phandalin.AppImage/Logs/
+~/retrodeck/roms/openbor/Heroes of Phandalin.AppImage/Paks/
+~/retrodeck/roms/openbor/Heroes of Phandalin.AppImage/Saves/
+~/retrodeck/roms/openbor/Heroes of Phandalin.AppImage/ScreenShots/
+~/retrodeck/roms/openbor/Heroes of Phandalin.AppImage/Heroes of Phandalin.AppImage
 ```
 
-You can delete the OpenBOR.exe file since you don't need it, and it's recommended to rename the `OpenBOR<Versionnumber>.AppImage` file to the name of the game, such as:
+## OpenBOR How-to add a game
 
-`~/ROMs/openbor/D&D - K&D - The Endless Quest LNS/The Endless Quest.AppImage`
+- Extract the game if it is compressed into a new folder under `roms/openbor/`.
+- Rename the folder so it is called `<gamename>.AppImage` in the end of it.
+- Open the game folder and see if the `OpenBOR-Linux-x64-<versionnumber>.AppImage` file is there in the root of the folder.
+- If the file is there rename it to `<gamename>.AppImage`.
 
-Starting ES-DE and launching the game should now work fine, but a further improvement is to use the directories interpreted as files functionality to display the game as a single entry instead of a directory. To accomplish this, simply rename the game directory to the same name as the .AppImage file, such as:
+The game should now be detected and runnable from RetroDECK.
 
-`~/ROMs/openbor/The Endless Quest.AppImage/The Endless Quest.AppImage`
+### Example on renaming:
 
-Doing this will make the game show up as if it was a single file inside ES-DE and it can be included in automatic collections, custom collections and so on.
+If the game is called Heroes of Phandalin rename the `OpenBOR-Linux-x64-<versionnumber>.AppImage` file & the games folder to `Heroes of Phandalin.AppImage`
+
+```
+~/retrodeck/roms/openbor/Heroes of Phandalin.AppImage/Heroes of Phandalin.AppImage
+```
+
+The `Heroes of Phandalin.AppImage` file exists within the `Heroes of Phandalin.AppImage` folder.
+
+### OpenBOR.AppImage is missing:
+
+If the `OpenBOR-Linux-x64-<versionnumber>.AppImage` is missing from the games folder you will need to download it from [OpenBOR Github](https://github.com/DCurrent/openbor) releases page and add it to the game folder.
+
+Copy the file the games folder and rename it as stated above then make it executable.
+
+**NOTE: On compatibly** <br>
+Some games might only be compatible with certain version of OpenBOR. Try the latest version first and if that does not work check the games folder for clues on what version it was made for and download the correct .AppImage version from [OpenBOR Github](https://github.com/DCurrent/openbor) releases page.
+
+#### Make the file executable
+
+**Using the terminal:**
+
+```
+chmod +x OpenBOR-Linux-x64-<versionnumber>.AppImage
+```
+
+**Using the Systems GUI**
+
+This example is from KDE:
+
+Right Click on `OpenBOR-Linux-x64-<versionnumber>.AppImage` -> Properties -> Permissions -> Check the `Is executable` checkbox.

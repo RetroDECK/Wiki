@@ -57,7 +57,7 @@ This How-to is for games that are made with IkemanGO
 
 The game should now be detected and runnable from RetroDECK.
 
-**Example on renaming:** <br>
+### Example on renaming:
 If the game is called Ultimate Dank Fighter IkemanGO rename the `Ikemen_GO_Linux` file & the games folder to `Ultimate Dank Fighter IkemanGO.mugen`
 
 ```
@@ -66,7 +66,8 @@ If the game is called Ultimate Dank Fighter IkemanGO rename the `Ikemen_GO_Linux
 
 The `Ultimate Dank Fighter IkemanGO.mugen` file exists within the `Ultimate Dank Fighter IkemanGO.mugen` folder.
 
-**Ikemen_GO_Linux is missing:**
+### Ikemen_GO_Linux is missing:
+
 If the `Ikemen_GO_Linux` is missing in the games folder you can download it from the [IkemanGO Github](https://github.com/ikemen-engine/Ikemen-GO) under releases called
 `Ikemen_GO-<latestversion>-linux.zip`.
 

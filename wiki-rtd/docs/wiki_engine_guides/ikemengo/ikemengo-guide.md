@@ -73,4 +73,4 @@ Open up the `.zip` file and extract ONLY the `Ikemen_GO_Linux` file into the gam
 
 ## M.U.G.E.N Games
 
-Read the [Guidelines on M.U.G.E.N to IkemanGO conversion](../mugen-conversion.md)
+Read the [Guidelines on M.U.G.E.N to IkemanGO conversion](../../mugen-conversion.md)

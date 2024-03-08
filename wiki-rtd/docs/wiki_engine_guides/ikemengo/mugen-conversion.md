@@ -1,4 +1,4 @@
-# Guidelines on M.U.G.E.N to IkemanGO conversion
+# IkemenGO - M.U.G.E.N Convertion Guidelines
 
 This is not a full guide on conversion, as each game is different and can have been made for a different version of M.U.G.E.N or have other unique properties for just that game.
 It would be impossible to write a total guide to encompass all games and you will have to check various forums/web pages for the best approach for just that game.

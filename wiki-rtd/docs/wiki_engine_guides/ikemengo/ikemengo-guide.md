@@ -25,12 +25,11 @@
 
 ### Information
 
-- The games needs to be uncompressed to a folder.
-- Games made for `IkemenGO` has a higher success rate then those made for `M.U.G.E.N`.
-- Each game is it's own self-contained game and no overarching settings exists.
+- The games need to be uncompressed to a folder.
+- Games made for `IkemenGO` have a higher success rate than those made for `M.U.G.E.N`.
+- Each game is its own self-contained game, and no overarching settings exist.
 - Depending on the age of the game you want to play it could require less or more tinkering.
-and depending on the age of the game you want to play it could require less or more tinkering.
-- `M.U.G.E.N` have existed since the 90s some very old games might not run at all without heavy tinkering.
+- `M.U.G.E.N` have existed since the 90s and some incredibly old games might not run at all without heavy tinkering.
 
 ### Example folder structure of a IkemanGO game
 

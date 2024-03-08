@@ -2,6 +2,8 @@
 
 <img src="../../../wiki_images/logos//yuzu-logo.svg" width="150">
 
+Yuzu was a Switch emulator.
+
 ---
 
 Yuzu was removed as part of the 0.8.0b update.

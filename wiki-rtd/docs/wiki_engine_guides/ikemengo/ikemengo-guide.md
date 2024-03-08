@@ -60,7 +60,9 @@ The game should now be detected and runnable from RetroDECK.
 **Example on renaming:** <br>
 If the game is called Ultimate Dank Fighter IkemanGO rename the `Ikemen_GO_Linux` file & the games folder to `Ultimate Dank Fighter IkemanGO.mugen`
 
-```/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/Ultimate Dank Fighter IkemanGO.mugen```
+```
+/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/Ultimate Dank Fighter IkemanGO.mugen
+```
 
 The `Ultimate Dank Fighter IkemanGO.mugen` file exists within the `Ultimate Dank Fighter IkemanGO.mugen` folder.
 
@@ -121,7 +123,9 @@ Ikemen_GO_Linux <-- file
 
 If the game is called Hockey Fighter MUGEN rename the `Ikemen_GO_Linux` file to `Hockey Fighter MUGEN.mugen` so the result is:
 
-```~/retrodeck/roms/mugen/Hockey Fighter MUGEN.mugen/Hockey Fighter MUGEN.mugen```
+```
+~/retrodeck/roms/mugen/Hockey Fighter MUGEN.mugen/Hockey Fighter MUGEN.mugen
+```
 
 ### Step 5: Run the game
 

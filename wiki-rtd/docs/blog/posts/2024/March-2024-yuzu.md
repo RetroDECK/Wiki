@@ -115,10 +115,6 @@ No new configs will be developed, no long term improvements and no bugfixes, the
 
 Yes
 
-### Why the name Ponzu?
-
-Ponzu is a seasoning made of fruits of the citrus family: Yuzu, Lime, Lemon.
-
 ##  We are following the development of this and this statement might change
 
 As everything is up in the air and constantly changing, we are trying to provide the information as it is right now in the current moment as of this writing.

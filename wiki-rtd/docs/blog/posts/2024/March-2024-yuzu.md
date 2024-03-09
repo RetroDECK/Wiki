@@ -97,11 +97,11 @@ They have been moved to the Archive Section for preservation.
 
 ## Is the planned feature of Yuzu (Custom) removed?
 
-Yes, the planned feature has been removed. But it still lives on with a changed and expanded scope with the goal of historical preservation instead of the latest EA Builds.
+Yes, the planned feature has been removed, but not all the effort was lost as this turned into Ponzu. The scope has been expanded and the use case has been changed, instead of targeting early-access builds its new purpose is historical preservation.
 
-### I have personal backups of the AppImages containing the last versions of the Emulators, can I integrate them with RetroDECK for historical curiosity?
+## What is Ponzu?
 
-Yes, the RetroDECK Team believes there is value in looking back into the past, even in the future. There will be a way for you to integrate them with RetroDECK in 0.8.0b.
+Ponzu is the former Yuzu (Custom) AppImage loader. That allows those with keen historical interest to go back into the past, even in the future.  If the user has personal backups of the last versions of the now dead emulators in AppImage format. Ponzu will allow them to be picked up by RetroDECK and used as they were pre-0.8.0b, your own personal little RetroDECK time capsule.
 
 ##  We are following the development of this and this statement might change
 

@@ -58,9 +58,16 @@ We are looking into alternatives like:
 - [Panda3DS](https://panda3ds.com/)
 - [Mikage](https://mikage.app/).
 
+
 ## Will you delete any savefiles?
 
 No, we are not trying to delete any files important to the users except for the ability to run Yuzu and Citra in RetroDECK.
+
+## What are the new Defaults?
+
+- Ryujinx
+- Citra-core in RetroArch
+
 
 ## Where are the Yuzu and Citra files located?
 
@@ -84,10 +91,9 @@ No, we are not trying to delete any files important to the users except for the 
 /retrodeck/mods/Citra/
 ```
 
-## What are the new Defaults?
+## Where did all the Yuzu and Citra guides go on the Wiki?
 
-- Ryujinx
-- Citra-core in RetroArch
+They have been moved to the Archive Section for preservation.
 
 ## Is the planned feature of Yuzu (Custom) removed?
 
@@ -96,10 +102,6 @@ Yes, the planned feature has been removed. But it still lives on with a changed 
 ### I have personal backups of the AppImages containing the last versions of the Emulators, can I integrate them with RetroDECK for historical curiosity?
 
 Yes, the RetroDECK Team believes there is value in looking back into the past, even in the future. There will be a way for you to integrate them with RetroDECK in 0.8.0b.
-
-## Where did all the Yuzu and Citra guides go on the Wiki?
-
-They have been moved to the Archive Section for preservation.
 
 ##  We are following the development of this and this statement might change
 

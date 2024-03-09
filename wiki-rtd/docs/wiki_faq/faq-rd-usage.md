@@ -48,7 +48,7 @@ Yes, you can do so inside the configurator and the `Move RetroDECK` option.
 
 Yes, you can reset various parts of the software using the RetroDECK Configurator's reset functions.
 
-Read more on: [RetroDECK Configurator 🛠️](../wiki_general/configurator.md)
+Read more on: [RetroDECK Configurator 🛠️](../wiki_configurator/configurator.md)
 
 
 

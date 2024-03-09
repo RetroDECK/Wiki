@@ -95,7 +95,7 @@ Yes, the planned feature have been removed. But it still lives on with a changed
 
 ### I have the AppImages of last versions the Emulators, can I integrate them with RetroDECK for historical curiosity?
 
-Yes, the RetroDECK Team believes there is value in looking back into the past even in the future. There will be a way for you to integrate them with RetroDECK in 0.8.0b.
+Yes, the RetroDECK Team believes there is value in looking back into the past even in the future. Even tho RetroDECK will not provide the emulators anymore, there will be a way for you to integrate them with RetroDECK in 0.8.0b.
 
 ##  We are following the development of this and this statement might change
 

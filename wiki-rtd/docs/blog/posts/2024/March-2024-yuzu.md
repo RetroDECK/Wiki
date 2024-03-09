@@ -41,10 +41,6 @@ Please do an in-game save for all the games you want to transfer the save files 
 There will probably be a lot of migration guides written all over the internet in a short from all over.
 All reference to Yuzu will be purged from the wiki and other places within our control.
 
-## Is the planned feature of Yuzu (Custom) removed?
-
-Yes
-
 ## Regarding 3DS Emulation
 
 ### What about the Citra Core in RetroArch?
@@ -88,6 +84,13 @@ No, we are not trying to delete any files important to the users except for the 
 /retrodeck/mods/Citra/
 ```
 
+## Is the planned feature of Yuzu (Custom) removed?
+
+Yes, the planned feature has been removed. But it still lives on with a changed scope with the goal of historical preservation instead of latest EA Builds.
+
+## I have the AppImages of last versions the Emulators, can I integrate them with RetroDECK for historical curiosity?
+
+Yes, the RetroDECK Team believes there is value in looking back into the past even in the future. There will be a way for you to integrate them with RetroDECK in 0.8.0b.
 
 ##  We are following the development of this and this statement might change
 

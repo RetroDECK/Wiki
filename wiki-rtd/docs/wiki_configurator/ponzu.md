@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/ponzu.png" width="150">
 
-Ponzu is an as-is function that is searching for user provided (Legacy) Citra and Yuzu AppImages and make them available emulators inside RetroDECK.
+Ponzu is an as-is function that is searching for user provided (Defunct) Citra and Yuzu AppImages and make them available emulators inside if possible RetroDECK.
 
 Yuzu and Citra was included in RetroDECK until update 0.8.0b where they where removed.
 
@@ -10,7 +10,7 @@ Yuzu and Citra was included in RetroDECK until update 0.8.0b where they where re
 
 No, this is a tool to point towards those versions from RetroDECK and some parts to be used from within RetroDECK and the ES-DE Frontend.
 
-There will be no new: configs, bugfixes, improvements and support. If future updates breaks the AppImages it will not be fixed, this is a as-is solution.
+RetroDECK will not provide any new: configs, bugfixes, improvements and support towards this function or the AppImages. If future updates breaks the AppImages it will not be fixed, this is a as-is solution.
 
 ## Where to put the AppImages
 

@@ -1,13 +1,22 @@
-# Guide: Ponzu
+# Guide: Ponzu (Legacy AppImage Loader)
 
 <img src="../../../wiki_images/logos/ponzu.png" width="150">
 
-Ponzu is a RetroDECK Framework function that is searching for Citra and Yuzu AppImages and integrates them into the RetroDECK framework, the result is that if a user provides their own AppImages, these will be available as emulators inside RetroDECK.
+Ponzu is an as-is function that is searching for user provided (Legacy) Citra and Yuzu AppImages and make them available emulators inside RetroDECK.
+
+Yuzu and Citra was included in RetroDECK until update 0.8.0b
+
+### Should this be seen as alternative official support for the removed emulators?
+
+No, this is a tool to point towards those versions from RetroDECK and some parts to be used from within RetroDECK and the ES-DE Frontend.
+
+There will be no new: configs, bugfixes, improvements and support. If future updates breaks the AppImages it will not be fixed, this is a as-is solution.
 
 ## Where to put the AppImages
+
 Ponzu is looking for the AppImages in the `retrodeck/ponzu/` directory (lowercase).
 
-### Accepted filenames
+### Accepted filenames & versions
 
 - Yuzu*.AppImage
 - yuzu*.AppImage
@@ -15,24 +24,20 @@ Ponzu is looking for the AppImages in the `retrodeck/ponzu/` directory (lowercas
 - citra*.Appimage
 Where `*` means that there can be a combination of any character.
 
-## Accepted version
-
-Ponzu was tested only with the latest versions of both the emulators.
+Only the last versions will work.
 
 ## How to:
 
-- Quit RetroDECK
-- Put the dsired AppImages into `retrodeck/ponzu/`
-- Open RetroDECK and wait
-When RetroDECK will be started you will see the new Citra and Yuzu entries in the Configurator, such as Open Emulator and Reset Emulator. After this the emulators will be working like before, with the difference that now they are no more the default emulators.
-
-## How to make them defaults?
-
-WIP
+- Create the `retrodeck/ponzu/` folder
+- Put the AppImages in there
+- Open RetroDECK and wait.
+- When RetroDECK is loaded you can point towards the AppImages (if they still work)
 
 ## How to uninstall the emulators
 
 - Open Configurator
 - Navigate to RetroDECK Tools
-- Run Ponzu - Remove Citra or Ponzu - Remove Yuzu
+- Run Ponzu - Remove Ponzu
+- This removes the AppImages
+
 Your saves and games will not be deleted, so if you decide to re-install them everything will be as you left, except for the configurations that they will reset as RetroDECK defaults.

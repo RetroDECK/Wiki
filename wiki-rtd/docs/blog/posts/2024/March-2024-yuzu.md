@@ -97,7 +97,7 @@ They have been moved to the Archive Section for preservation.
 
 ## Is the planned feature of Yuzu (Custom) removed?
 
-Yes, the planned feature has been removed. But it still lives on with a changed scope with the goal of historical preservation instead of the latest EA Builds.
+Yes, the planned feature has been removed. But it still lives on with a changed and expanded scope with the goal of historical preservation instead of the latest EA Builds.
 
 ### I have personal backups of the AppImages containing the last versions of the Emulators, can I integrate them with RetroDECK for historical curiosity?
 

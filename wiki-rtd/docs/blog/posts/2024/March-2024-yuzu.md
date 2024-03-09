@@ -93,17 +93,15 @@ No, we are not trying to delete any files important to the users except for the 
 
 ## Where did all the Yuzu and Citra guides go on the Wiki?
 
-They have been moved to the Archive Section for preservation.
+They have been moved to the Archive Section.
 
 ## Is the planned feature of Yuzu (Custom) removed?
 
-Yes, the planned feature has been removed, but not all the effort was lost as this turned into Ponzu. The scope has been expanded and the use case has been changed, instead of targeting early-access builds its new purpose is historical preservation.
+Yes, the planned feature has been removed, but not all the effort was lost as this turned into Ponzu.
 
 ## What is Ponzu?
 
-Ponzu is the former but vastly exapanded Yuzu (Custom) AppImage loader and tool. That allows those with keen historical interest to go back into the past, even in the future. If the user has personal backups of the last versions of the now dead emulators in AppImage format. Ponzu will allow them to be picked up by RetroDECK and used as they were pre-0.8.0b, your own personal little RetroDECK time capsule.
-
-It will allow your own backup copies of the Citra and Yuzu AppImages into the RetroDECK framework to then be used with RetroDECK (if you have made some custom settings in the emulators, they will be reset to default at first).
+Ponzu is the former Yuzu (Custom) AppImage loader and tool. If the user has personal backups of the last versions of the now dead emulators in AppImage format they can temporarily be used with RetroDECK as-is.
 
 ## Will Ponzu be a part of 0.8.0b?
 
@@ -116,6 +114,5 @@ Ponzu is a seasoning made of fruits of the citrus family: Yuzu, Lime, Lemon.
 ##  We are following the development of this and this statement might change
 
 As everything is up in the air and constantly changing, we are trying to provide the information as it is right now in the current moment as of this writing.
-Things could maybe change for Citra or there can be other solutions.
 
 Thanks for your understanding!

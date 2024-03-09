@@ -106,7 +106,8 @@ Ponzu is the former Yuzu (Custom) AppImage loader and tool. If the user has pers
 ### Should this be seen as official support for the removed emulators?
 
 No, this is more of a tool to point towards those version from RetroDECK and some parts to be used from within RetroDECK.
-The defaults are still Ryujinx and Citra-core in RetroArch from 0.8.0b, but you can choose to run those systems against the AppImages instead from the ES-DE interface.
+
+The defaults are still Ryujinx and Citra-core in RetroArch from 0.8.0b, but you can choose to run those systems against the AppImages instead from the ES-DE interface via Ponzu.
 
 ## Will Ponzu be a part of 0.8.0b?
 

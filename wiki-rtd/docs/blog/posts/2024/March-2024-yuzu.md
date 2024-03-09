@@ -84,6 +84,11 @@ No, we are not trying to delete any files important to the users except for the 
 /retrodeck/mods/Citra/
 ```
 
+## What are the new Defaults?
+
+- Ryujinx
+- Citra-core in RetroArch
+
 ## Is the planned feature of Yuzu (Custom) removed?
 
 Yes, the planned feature has been removed. But it still lives on with a changed scope with the goal of historical preservation instead of latest EA Builds.

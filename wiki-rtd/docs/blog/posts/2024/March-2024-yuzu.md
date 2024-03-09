@@ -109,7 +109,7 @@ No, this is more of a tool to point towards those version from RetroDECK and som
 
 The official defaults are Ryujinx and Citra-core in RetroArch from 0.8.0b, but the user can choose to run those systems against the AppImages instead from the ES-DE interface.
 
-RetroDECK will not provide any new: configs, bugfixes, improvements and support towards this function or the AppImages. If future updates breaks the AppImages it will not be fixed, this is a as-is solution.
+RetroDECK will not provide any new: configs, bugfixes, improvements and support towards this function or the AppImages. If future updates breaks the AppImages it probably will not be fixed, this is a as-is solution.
 
 ## Will Ponzu be a part of 0.8.0b?
 

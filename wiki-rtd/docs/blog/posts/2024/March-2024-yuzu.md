@@ -109,6 +109,10 @@ It will allow your own backup copies of the Citra and Yuzu AppImages into the Re
 
 Yes
 
+### Why the name Ponzu?
+
+Ponzu is a seasoning made of fruits of the citrus family: Yuzu, Lime, Lemon.
+
 ##  We are following the development of this and this statement might change
 
 As everything is up in the air and constantly changing, we are trying to provide the information as it is right now in the current moment as of this writing.

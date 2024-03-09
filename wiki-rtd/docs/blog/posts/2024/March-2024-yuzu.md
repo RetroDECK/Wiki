@@ -91,11 +91,11 @@ No, we are not trying to delete any files important to the users except for the 
 
 ## Is the planned feature of Yuzu (Custom) removed?
 
-Yes, the planned feature have been removed. But it still lives on with a changed scope with the goal of historical preservation instead of latest EA Builds.
+Yes, the planned feature has been removed. But it still lives on with a changed scope with the goal of historical preservation instead of the latest EA Builds.
 
-### I have personal backups of the AppImages containing the last versions the Emulators, can I integrate them with RetroDECK for historical curiosity?
+### I have personal backups of the AppImages containing the last versions of the Emulators, can I integrate them with RetroDECK for historical curiosity?
 
-Yes, the RetroDECK Team believes there is value in looking back into the past even in the future. There will be a way for you to integrate them with RetroDECK in 0.8.0b.
+Yes, the RetroDECK Team believes there is value in looking back into the past, even in the future. There will be a way for you to integrate them with RetroDECK in 0.8.0b.
 
 ##  We are following the development of this and this statement might change
 

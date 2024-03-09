@@ -103,6 +103,10 @@ Yes, the planned feature has been removed, but not all the effort was lost as th
 
 Ponzu is the former Yuzu (Custom) AppImage loader. That allows those with keen historical interest to go back into the past, even in the future.  If the user has personal backups of the last versions of the now dead emulators in AppImage format. Ponzu will allow them to be picked up by RetroDECK and used as they were pre-0.8.0b, your own personal little RetroDECK time capsule.
 
+## Will Ponzu be a part of 0.8.0b?
+
+Yes
+
 ##  We are following the development of this and this statement might change
 
 As everything is up in the air and constantly changing, we are trying to provide the information as it is right now in the current moment as of this writing.

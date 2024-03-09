@@ -97,6 +97,10 @@ Yes, the planned feature has been removed. But it still lives on with a changed 
 
 Yes, the RetroDECK Team believes there is value in looking back into the past, even in the future. There will be a way for you to integrate them with RetroDECK in 0.8.0b.
 
+## Where did all the Yuzu and Citra guides go on the Wiki?
+
+They have been moved to the Archive Section for preservation.
+
 ##  We are following the development of this and this statement might change
 
 As everything is up in the air and constantly changing, we are trying to provide the information as it is right now in the current moment as of this writing.

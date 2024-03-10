@@ -242,6 +242,7 @@ nav:
   - Guides - Engines  🛠️:
     - GZDoom 👹:
       - GZDoom - General Guide (WIP): wiki_engine_guides/gzdoom/gzdoom-guide.md
+      - RetroDECK's .doom files: wiki_engine_guides/gzdoom/retrodeck-doomfile.md
       - Get the WADs from bought DOOM / DOOM 2: wiki_engine_guides/gzdoom/extract-doom-wads.md
     - IkemenGO / M.U.G.E.N 🥋:
       - IkemenGO - General Guide: wiki_engine_guides/ikemengo/ikemengo-guide.md

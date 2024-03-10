@@ -4,7 +4,7 @@ The RetroDECK `.doom` file is a feature for easy loading of doom files with mods
 
 ## The RetroDECK .doom Parser
 
-The `.doom` parser will look for any of the core doom iwads files that could be required to run a DOOM mod in the `/retrodeck/roms/doom/` directory.<br>
+The `.doom` parser will look for any of the `CORE IWADS` files that could be required to run a DOOM mod in the `/retrodeck/roms/doom/` directory.<br>
 
 Here is what files it is currently looking for:
 
@@ -17,57 +17,6 @@ IWAD_FILES=("DOOM1.WAD" "DOOM.WAD" "DOOM2.WAD" "DOOM2F.WAD" "DOOM64.WAD" "TNT.WA
             )
 ```
 
-### What are core doom iwads?
-
-It is just how the RetroDECK Team defines the [IWADS](https://doomwiki.org/wiki/IWAD) Gzdoom is looking for to be able to run.
-
-| File                     |                      What is it?                  | Comments |
-| :---                     | :---:                                             |  :---:   |
-| DOOM1.WAD                |   Doom 1 -   Shareware Version                    |          |
-| DOOM2.WAD                |   Doom 2                                          |          |
-| DOOM2F.WAD               |   Doom 2 - French Version                         |          |
-| DOOM64.WAD               |   Doom 64                                         |          |
-| TNT.WAD                  |   Final Doom - TNT: Evilution                     |          |
-| PLUTONIA.WAD             |   Final Doom - The Plutonia Experiment            |          |
-| HERETIC1.WAD             |   Heretic - Shareware Version                     |          |
-| HERETIC.WAD              |    Heretic: Shadow of the Serpent Riders          |          |
-| HEXEN.WAD                |   Hexen                                           |          |
-| HEXDD.WAD                |   Hexen: Deathkings of the Dark Citadel           | Needs to be loaded with HEXEN.WAD to be played |
-| STRIFE0.WAD              |   Strife: Quest for the Sigil - Demo Version      |          |
-| STRIFE1.WAD              |   Strife: Quest for the Sigil - Commercial Version |          |
-| VOICES.WAD               |   Extra Voices for Strife                          |       Needs to be loaded with STRIFE1.WAD to be used    |
-| CHEX.WAD                 |   Chex Quest                                       |          |
-| CHEX3.WAD                |   Chex Quest 3                                     |          |
-| HACX.WAD                 |   Hacx                                             |          |
-| freedoom1.wad            |   Freedoom: Phase 1                                             |          |
-| freedoom2.wad            |   Freedoom: Phase 2                                             |          |
-| freedm.wad               |   FreeDM                                             |          |
-| doom_complete.pk3        |   WadSmoosh combined file                                             |          |
-
-### What is doom_complete.pk3?
-
-`doom_complete.pk3` is a file made by [WadSmoosh](https://jp.itch.io/wadsmoosh). It can combine all of the "DOOM + DOOM 2 + Official addons" into one file where you can select from all the campaigns without needing to load each separate wad.
-
-## Where can I find more WADs?
-
-None-official wads (mods) are all over the internet from old forums, github and various websites.
-
-**Doomworld:**
-
-The oldest DOOM community on the web and hosts of the annual [Cacowards](https://www.doomworld.com/cacowards).
-
-Doomworld is the lifeblood of DOOM community, generations of knowledge and a vast collections of wads exist within it.
-
-- [Doomworld Files](https://www.doomworld.com/files/)
-- [Doomworld ID Games(Legacy)](https://www.doomworld.com/idgames/)
-
-**Doomwiki:**
-
-[List of notable WADs](https://doomwiki.org/wiki/List_of_notable_WAD)
-
-**ModDB:**
-
-- [ModDB](https://www.moddb.com/games/doom/mods)
 
 ## Recommended folder structure in retrodeck/roms/doom?
 

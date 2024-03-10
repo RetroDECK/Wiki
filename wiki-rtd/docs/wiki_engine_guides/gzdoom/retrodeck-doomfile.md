@@ -46,8 +46,6 @@ In this example you have already downloaded a bunch of mods and have the core do
 
 You want to play [Project Brutality](https://www.moddb.com/mods/project-brutality) on DOOM 2 levels.
 
-On the ModDB Page of Project Brutality they say that the order to run it is:
-
 All you need to do is create an empty file called `Project Brutality.doom` in `/retrodeck/roms/doom/`.
 
 Each line the the file will be the order the mods are loaded, make each lines value is called exactly what the file name is called.
@@ -63,7 +61,7 @@ PB_Staging_9f2561c.pk3
 
 The DOOM2.WAD is first loaded then the Project Brutality PB_Staging_9f2561c.pk3 file and the game starts.
 
-`Project Brutality.doom` is now accessible from the ES-DE interface.
+`Project Brutality.doom` is accessible from the ES-DE interface.
 
 
 ### Another Example: Doom Infinite

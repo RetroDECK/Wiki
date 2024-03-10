@@ -24,7 +24,7 @@ We recommend that you at buy both `DOOM 1993` and `DOOM 2`.
 - [DOOM 3 - Steam](https://store.steampowered.com/app/208200/DOOM_3/)
 
 
-## Where are the base wads?
+## Where are the base core iwads?
 
 ### Steam
 

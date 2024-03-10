@@ -47,6 +47,27 @@ It is just how the RetroDECK Team defines the [IWADS](https://doomwiki.org/wiki/
 
 `doom_complete.pk3` is a file made by [WadSmoosh](https://jp.itch.io/wadsmoosh). It can combine all of the "DOOM + DOOM 2 + Official addons" into one file where you can select from all the campaigns without needing to load each separate wad.
 
+## Where can I find more WADs?
+
+None-official wads (mods) are all over the internet from old forums, github and various websites.
+
+**Doomworld:**
+
+The oldest DOOM community on the web and hosts of the annual [Cacowards](https://www.doomworld.com/cacowards).
+
+Doomworld is the lifeblood of DOOM community, generations of knowledge and a vast collections of wads exist within it.
+
+- [Doomworld Files](https://www.doomworld.com/files/)
+- [Doomworld ID Games(Legacy)](https://www.doomworld.com/idgames/)
+
+**Doomwiki:**
+
+[List of notable WADs](https://doomwiki.org/wiki/List_of_notable_WAD)
+
+**ModDB:**
+
+- [ModDB](https://www.moddb.com/games/doom/mods)
+
 ## Recommended folder structure in retrodeck/roms/doom?
 
 WIP
@@ -148,4 +169,3 @@ Be sure to name the .doom files so you understand what it is and you are done:
 - `Project Brutality - Chex Quest with a Vengeance.doom`
 
 It is that easy.
-

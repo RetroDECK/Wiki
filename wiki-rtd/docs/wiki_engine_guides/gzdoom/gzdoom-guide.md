@@ -2,8 +2,6 @@
 
 <img src="../../../wiki_images/logos/gzdoom-logo.png" width="150">
 
-WIP
-
 GZDoom is the open source game engine for ID Software's older games like DOOM, DOOM2, HEXEN and HERETIC or it's own unique games.
 
 ### GZDoom Links:
@@ -13,6 +11,28 @@ GZDoom is the open source game engine for ID Software's older games like DOOM, D
 [GZDoom Github](https://github.com/ZDoom/gzdoom)
 
 [ZDoom Forums](https://forum.zdoom.org/)
+
+### Where to buy DOOM?
+
+We recommend that you at buy both `DOOM 1993` and `DOOM 2`.
+
+`DOOM 3` and `DOOM 64` are not needed but we list them here because it is sometimes cheaper to buy the whole bundle.
+
+**GOG Links:**
+
+- [DOOM 1993 - GOG](https://www.gog.com/en/game/doom_1993)
+- [DOOM 2 - GOG](https://www.gog.com/en/game/doom_ii)
+- [DOOM 64 - GOG](https://www.gog.com/en/game/doom_64)
+- [DOOM 3 - GOG](https://www.gog.com/en/game/doom_3)
+
+**Steam Links:**
+
+- [DOOM Classic Bundle - Steam](https://store.steampowered.com/bundle/27490/DOOM_Classic_Bundle/)
+- [DOOM 1993 - Steam](https://store.steampowered.com/app/2280/DOOM_1993/)
+- [DOOM 2 - Steam](https://store.steampowered.com/app/2300/DOOM_II/)
+- [DOOM 64 - Steam](https://store.steampowered.com/app/1148590/DOOM_64/)
+- [DOOM 3 - Steam](https://store.steampowered.com/app/208200/DOOM_3/)
+
 
 ## Where to put the games
 GZDoom games should be put under the `retrodeck/roms/doom/` directory.
@@ -36,25 +56,17 @@ GZDoom games should be put under the `retrodeck/roms/doom/` directory.
 ### Does GZDoom require BIOS or Firmware?
 No
 
+## I have bought the games how do I get my files?
 
+Read the:
 
-## Where can I find more WADs?
+[How to: Extract Doom iWads](extract-doom-wads.md)
 
-None-official wads (mods) are all over the internet from old forums, github and various websites.
+## I only want to play standard doom and have no interest in modding or customization
+Do as said above put the .WAD files directly into `retrodeck/roms/doom/` and they will run as normal, enjoy.
 
-**Doomworld:**
+## I want to play doom with mods
 
-The oldest DOOM community on the web and hosts of the annual [Cacowards](https://www.doomworld.com/cacowards).
+Read the:
 
-Doomworld is the lifeblood of DOOM community, generations of knowledge and a vast collections of wads exist within it.
-
-- [Doomworld Files](https://www.doomworld.com/files/)
-- [Doomworld ID Games(Legacy)](https://www.doomworld.com/idgames/)
-
-**Doomwiki:**
-
-[List of notable WADs](https://doomwiki.org/wiki/List_of_notable_WAD)
-
-**ModDB:**
-
-- [ModDB](https://www.moddb.com/games/doom/mods)
+[RetroDECK .doom file for modding](retrodeck-doomfile.md)

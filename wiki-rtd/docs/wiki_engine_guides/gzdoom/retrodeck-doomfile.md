@@ -117,3 +117,11 @@ Be sure to name the .doom files so you understand what it is and you are done:
 - `Project Brutality - Chex Quest with a Vengeance.doom`
 
 It is that easy.
+
+## Sharing is caring
+
+Have you made a cool `.doom` file modpack?
+
+Maybe you have found the perfect combination of over 50 + mods in one `.doom` file?
+
+Share the `.doom` file and where to download the mods with the RetroDECK Community!

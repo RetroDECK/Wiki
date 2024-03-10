@@ -44,7 +44,7 @@ We recommend that you at buy both `DOOM 1993` and `DOOM 2`.
 
 ## What are core doom iwads gzdoom is looking for?
 
-The [IWADS](https://doomwiki.org/wiki/IWAD) Gzdoom is looking for to be able to run are the following. The RetroDECK Team calls them `The CORE IWADS`.
+The [IWADS](https://doomwiki.org/wiki/IWAD) Gzdoom is looking for to be able to run are the following (The RetroDECK Team calls this grouping the `CORE IWADS`):
 
 | File                     |                      What is it?                  | Comments |
 | :---                     | :---:                                             |  :---:   |

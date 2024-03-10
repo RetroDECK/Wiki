@@ -2,28 +2,6 @@
 
 <img src="../../../wiki_images/logos/gzdoom-logo.png" width="150">
 
-## Where to buy DOOM?
-
-We recommend that you at buy both `DOOM 1993` and `DOOM 2`.
-
-`DOOM 3` and `DOOM 64` are not needed but we list them here because it is sometimes cheaper to buy the whole bundle.
-
-**GOG Links:**
-
-- [DOOM 1993 - GOG](https://www.gog.com/en/game/doom_1993)
-- [DOOM 2 - GOG](https://www.gog.com/en/game/doom_ii)
-- [DOOM 64 - GOG](https://www.gog.com/en/game/doom_64)
-- [DOOM 3 - GOG](https://www.gog.com/en/game/doom_3)
-
-**Steam Links:**
-
-- [DOOM Classic Bundle - Steam](https://store.steampowered.com/bundle/27490/DOOM_Classic_Bundle/)
-- [DOOM 1993 - Steam](https://store.steampowered.com/app/2280/DOOM_1993/)
-- [DOOM 2 - Steam](https://store.steampowered.com/app/2300/DOOM_II/)
-- [DOOM 64 - Steam](https://store.steampowered.com/app/1148590/DOOM_64/)
-- [DOOM 3 - Steam](https://store.steampowered.com/app/208200/DOOM_3/)
-
-
 ## Where are the base core iwads?
 
 ### Steam

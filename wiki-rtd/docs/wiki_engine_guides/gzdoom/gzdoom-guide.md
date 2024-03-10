@@ -12,7 +12,13 @@ GZDoom is the open source game engine for ID Software's older games like DOOM, D
 
 [ZDoom Forums](https://forum.zdoom.org/)
 
-### Where to buy DOOM?
+### Freedoom
+
+The Freedoom project aims to provide all the content needed to form a complete, entirely free/libre game for the Doom engine. It is designed to be compatible with most custom levels, music, graphics and other modifications (“mods”) made for the original Doom games by Doom fans and artists over the decades.
+
+[FreeDOOM](https://freedoom.github.io/)
+
+### Where to buy official DOOM?
 
 We recommend that you at buy both `DOOM 1993` and `DOOM 2`.
 

@@ -20,4 +20,4 @@ RetroDECK uses [ES-DE](https://www.es-de.org) for its interface so any theme tha
 Go into `Main Menu` - `UI Settings` - `Theme Downloader` from there you can download a wide array of themes.
 
 ### From the Internet
-If you find a theme you would like to use that is not in the `Theme Downloader` please download it and place it in `~/retrodeck/themes` (make sure the theme has its own folder in that directory).
+If you find a theme you would like to use that is not in the `Theme Downloader` download it and place it in `~/retrodeck/themes` (make sure the theme has its own folder in that directory).

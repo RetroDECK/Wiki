@@ -102,19 +102,19 @@ GZDoom games should be put under the `retrodeck/roms/doom/` directory.
 
 | File type                    |                      What is it?                  | Comments |
 | :---                     | :---:                                             |  :---:   |
-|.wad | `Where's All the Data?` | |
-|.iwad | `internal wad`|  |
-|.pwad | `patch wad` | Have a priority over .wad |
-|.pk3 | `.zip` file archive | |
-|.ipk3 |  `internal pk3` file | |
-| .pk4 |`.zip` file archive | |
-|.pk7 | `.7zip` file archive | |
-| .pke | `.zip` file archive | Made for the the Eternity Engine |
-| .epk | `.zip` file archive | Made for the EDGE engine |
-| .deh | `DeHackEd file`| Edits hardcoded parts of the DOOM engine. |
-| .bex | `Enhanced DeHackEd` | Has more features then `.deh` and used by various ports. |
-| .lev | A file that renames levels of a `.pwad` | |
-| .mus | `Music file` format file | used by `DOOM`, `Heretic`, `Hexen` and `Strife` |
+|.wad | Where's All the Data? | |
+|.iwad | internal wad|  |
+|.pwad | patch wad | Have a priority over .wad |
+|.pk3 | .zip file archive | |
+|.ipk3 |  internal pk3 | |
+| .pk4 |.zip file archive | |
+|.pk7 | .7zip file archive | |
+| .pke | .zip file archive | Made for the the Eternity Engine |
+| .epk | .zip file archive | Made for the EDGE engine |
+| .deh | DeHackEd file| Edits hardcoded parts of the DOOM engine. |
+| .bex | Enhanced DeHackEd | Has more features then .deh and used by various ports. |
+| .lev | A file that renames levels of a .pwad | |
+| .mus | Music file | Used by `DOOM`, `Heretic`, `Hexen` and `Strife` |
 
 
 ### Does GZDoom require BIOS or Firmware?

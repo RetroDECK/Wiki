@@ -20,31 +20,37 @@ IWAD_FILES=("DOOM1.WAD" "DOOM.WAD" "DOOM2.WAD" "DOOM2F.WAD" "DOOM64.WAD" "TNT.WA
 
 ## Recommended folder structure in retrodeck/roms/doom
 
-It does not really matter where the files are under the `/retrodeck/roms/doom/`, the parser will scan all files and subfolders. <br>
-But you need to make sure you don't have any files called the same thing in the folder structure. <br>
-You make whatever structure you feel comfortable with or use our example:
+- It does not really matter where the files are under `/roms/doom/` the parser will scan all files and subfolders.
+- Make sure you don't have any files that share the same thing in any subfolder under `/roms/doom/`.
+- You make whatever structure you feel comfortable with or use our example.
 
-**Example Structure:**
+**Example two folder structure:**
 
-A good structure can be to separate the core iwads and mods into two separate folders.
-
----
-
-`/retrodeck/roms/doom/core_iwads`
-
-Here you can put all the official files core `IWAD_FILES=( )` made by ID/Bethesda and their partners that the parser users, like the full versions of doom: `DOOM.WAD`, `DOOM2.WAD`
+In this example we are making two folders under the `/roms/doom/` folder, with the goal of just using .doom files as the primary way to play doom games.
 
 ---
 
-`/retrodeck/roms/doom/mods`
+`/retrodeck/roms/doom/core_iwads/`
 
-Here you put all the extracted mod files like Project Brutality's `PB_Staging_9f2561c.pk3` file and other mods. By putting them all into one folder and no more subfolders you can make sure you are not having any duplicates of files that have the same file name.
+In the `core_iwads` folder you can put one or all of the official files game wads made by ID Software/Bethesda their addons and/or freedom so they are not mixed up with the mods.
+
+---
+
+`/retrodeck/roms/doom/mods/`
+
+In the `mods` folder you can put all the extracted mod files. By putting them all into one folder and no subfolders you easily make sure you have no duplicate files as they would be in conflict.
 
 ---
 
 `/retrodeck/roms/doom/`
 
-In the root of the `roms/doom/` folder put all the `.doom` files you will create or download. When you launch the ES-DE interface from RetroDECK and navigate to DOOM category, the first thing that you will be listed are just the `.doom` files and the two folders.
+In the root of the `roms/doom/` folder put all the `.doom` files you will create or download.
+
+---
+
+Result
+
+When you launch the ES-DE interface from RetroDECK and navigate to DOOM category, all the `.doom` files will be listed first as your primary game list while the rest of the files are in their respective subfolder.
 
 
 

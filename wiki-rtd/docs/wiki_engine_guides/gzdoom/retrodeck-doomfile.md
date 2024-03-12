@@ -18,9 +18,33 @@ IWAD_FILES=("DOOM1.WAD" "DOOM.WAD" "DOOM2.WAD" "DOOM2F.WAD" "DOOM64.WAD" "TNT.WA
 ```
 
 
-## Recommended folder structure in retrodeck/roms/doom?
+## Recommended folder structure in retrodeck/roms/doom
 
-WIP
+It does not really matter where the files are under the `/retrodeck/roms/doom/` folder, the parser will scan all files and subfolders. But you need to make sure you don't have any files called the same thing in the folder structure. You make what ever structure you feel comfortable with or use our example:
+
+**Example Structure:**
+
+A good structure can be to separate the core iwads and mods into two separate folders.
+
+---
+
+`/retrodeck/roms/doom/core_iwads`
+
+Here you can put all the official files core `IWAD_FILES=( )` made by ID/Bethesda and their partners that the parser users, like the full versions of doom: `DOOM.WAD`, `DOOM2.WAD`
+
+---
+
+`/retrodeck/roms/doom/mods`
+
+Here you put all the extracted mod files like Project Brutality's `PB_Staging_9f2561c.pk3` file and other mods. By putting them all into one folder and no more subfolders you can make sure you are not having any duplicates of files that have the same file name.
+
+---
+
+`/retrodeck/roms/doom/`
+
+In the root of the `roms/doom/` folder put all the `.doom` files you will create or download. When you launch the ES-DE interface from RetroDECK and navigate to DOOM category, the first thing that you will be listed are just the `.doom` files and the two folders.
+
+
 
 ## What is the .doom file and how do you create it?
 

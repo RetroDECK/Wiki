@@ -44,7 +44,7 @@ We recommend that you at buy both `DOOM 1993` and `DOOM 2`.
 
 ## What are core doom iwads gzdoom is looking for?
 
-The [IWADS](https://doomwiki.org/wiki/IWAD) Gzdoom is looking for to be able to run are the following (The RetroDECK Team calls this grouping the `CORE IWADS`):
+The [IWADS](https://doomwiki.org/wiki/IWAD) Gzdoom is looking for to be able to run are the following (The RetroDECK Team calls this grouping the `CORE WADS`):
 
 | File                     |                      What is it?                  | Comments |
 | :---                     | :---:                                             |  :---:   |
@@ -99,19 +99,22 @@ Doomworld is the lifeblood of DOOM community, generations of knowledge and a vas
 GZDoom games should be put under the `retrodeck/roms/doom/` directory.
 
 ### Supported file types
-- .wad - `Where's All the Data?` file
-- .iwad - `internal wad`
-- .pwad - `patch wad` have priority over iwad
-- .pk3 - is a `.zip` file archive
-- .ipk3 - `internal pk3` file
-- .pk4 - is a `.zip` file archive
-- .pk7 - is a `.7zip` file archive
-- .pke - is a `.zip` file archive made for the the Eternity Engine
-- .epk - is a `.zip` file archive made for the EDGE engine
-- .deh — `DeHackEd file`, edits hardcoded parts of the DOOM engine.
-- .bex — `Enhanced DeHackEd` file has more features then `.deh` and used by various ports.
-- .lev — A file that renames levels of a `.pwad`
-- .mus — `Music file` format of `DOOM`, `Heretic`, `Hexen` and `Strife`
+
+| File type                    |                      What is it?                  | Comments |
+| :---                     | :---:                                             |  :---:   |
+|.wad | `Where's All the Data?` | |
+|.iwad | `internal wad`|  |
+|.pwad | `patch wad` | Have a priority over .wad |
+|.pk3 | `.zip` file archive | |
+|.ipk3 |  `internal pk3` file | |
+| .pk4 |`.zip` file archive | |
+|.pk7 | `.7zip` file archive | |
+| .pke | `.zip` file archive | Made for the the Eternity Engine |
+| .epk | `.zip` file archive | Made for the EDGE engine |
+| .deh | `DeHackEd file`| Edits hardcoded parts of the DOOM engine. |
+| .bex | `Enhanced DeHackEd` | Has more features then `.deh` and used by various ports. |
+| .lev | A file that renames levels of a `.pwad` | |
+| .mus | `Music file` format file | used by `DOOM`, `Heretic`, `Hexen` and `Strife` |
 
 
 ### Does GZDoom require BIOS or Firmware?

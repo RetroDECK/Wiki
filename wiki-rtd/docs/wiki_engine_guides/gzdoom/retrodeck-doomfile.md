@@ -4,7 +4,7 @@ The RetroDECK `.doom` file is a feature for easy loading of doom files with mods
 
 ## The RetroDECK .doom Parser
 
-The `.doom` parser will look for any of the `CORE IWADS` files that could be required to run a DOOM mod in the `/retrodeck/roms/doom/` directory.<br>
+The `.doom` parser will look for any of the `CORE WADS` files that could be required to run a DOOM mod in the `/retrodeck/roms/doom/` directory.<br>
 
 Here is what files it is currently looking for:
 
@@ -30,9 +30,9 @@ In this example we are making two folders under the `/roms/doom/` folder, with t
 
 ---
 
-`/retrodeck/roms/doom/core_iwads/`
+`/retrodeck/roms/doom/core_wads/`
 
-In the `core_iwads` folder you can put one or all of the official files game wads made by ID Software/Bethesda their addons and/or freedom so they are not mixed up with the mods.
+In the `core_wads` folder you can put one or all of the official files game wads made by ID Software/Bethesda their addons and/or freedom so they are not mixed up with the mods.
 
 ---
 

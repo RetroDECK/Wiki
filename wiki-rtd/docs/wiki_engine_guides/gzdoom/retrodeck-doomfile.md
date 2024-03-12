@@ -20,7 +20,9 @@ IWAD_FILES=("DOOM1.WAD" "DOOM.WAD" "DOOM2.WAD" "DOOM2F.WAD" "DOOM64.WAD" "TNT.WA
 
 ## Recommended folder structure in retrodeck/roms/doom
 
-It does not really matter where the files are under the `/retrodeck/roms/doom/` folder, the parser will scan all files and subfolders. But you need to make sure you don't have any files called the same thing in the folder structure. You make what ever structure you feel comfortable with or use our example:
+It does not really matter where the files are under the `/retrodeck/roms/doom/`, the parser will scan all files and subfolders. <br>
+But you need to make sure you don't have any files called the same thing in the folder structure. <br>
+You make whatever structure you feel comfortable with or use our example:
 
 **Example Structure:**
 

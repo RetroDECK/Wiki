@@ -1,7 +1,7 @@
 # Discord
 
 The Discord can be found here:<br>
-[Discord](https://discord.gg/Dz3szYsP8g)
+[Discord](https://discord.gg/WDc5C9YWMx)
 
 ## Information
 

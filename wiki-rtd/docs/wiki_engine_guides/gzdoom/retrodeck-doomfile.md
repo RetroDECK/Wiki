@@ -1,10 +1,10 @@
-# The RetroDECK .doom file
+# The .doom file
 
-The RetroDECK `.doom` file is a feature for easy loading of doom files with mods.
+The `.doom` file is a feature for easy loading of doom files with mods, it is based on the work done by [AmberELEC .doom](https://amberelec.org/systems/doom.html) and others with additional improvements made by RetroDECK.
 
 ## The RetroDECK .doom Parser
 
-The `.doom` parser will look for any of the `CORE WADS` files that could be required to run a DOOM mod in the `/retrodeck/roms/doom/` directory.<br>
+The `.doom` parser will look for any of the `iwads` files that could be required to run a DOOM mod in the `/retrodeck/roms/doom/` directory.<br>
 
 Here is what files it is currently looking for:
 
@@ -30,9 +30,9 @@ In this example we are making two folders under the `/roms/doom/` folder, with t
 
 ---
 
-`/retrodeck/roms/doom/core_wads/`
+`/retrodeck/roms/doom/iwads/`
 
-In the `core_wads` folder you can put one or all of the official files game wads made by ID Software/Bethesda their addons and/or freedom so they are not mixed up with the mods.
+In the `iwads` folder you can put one or all of the official files game wads made by ID Software/Bethesda their addons and/or freedom so they are not mixed up with the mods.
 
 ---
 
@@ -74,7 +74,7 @@ But this can be different, check the where you download the mods if they have an
 
 ## Project Brutality .doom example:
 
-In this example you have already downloaded a bunch of mods and have the core doom iwads already somewhere under the `/retrodeck/roms/doom/` folder.
+In this example you have already downloaded a bunch of mods and have the iwads already somewhere under the `/retrodeck/roms/doom/` folder.
 
 You want to play [Project Brutality](https://www.moddb.com/mods/project-brutality) on DOOM 2 levels.
 

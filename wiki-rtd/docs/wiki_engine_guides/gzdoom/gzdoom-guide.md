@@ -42,9 +42,9 @@ We recommend that you at buy both `DOOM 1993` and `DOOM 2`.
 - [DOOM 3 - Steam](https://store.steampowered.com/app/208200/DOOM_3/)
 
 
-## What are core doom wads gzdoom is looking for?
+## What are iwads gzdoom is looking for?
 
-The [IWADS](https://doomwiki.org/wiki/IWAD) Gzdoom is looking for to be able to run are the following (The RetroDECK Team calls this grouping the `CORE WADS`):
+The [IWADS](https://doomwiki.org/wiki/IWAD) Gzdoom is looking for to be able to run are the following:
 
 | File                     |                      What is it?                  | Comments |
 | :---                     | :---:                                             |  :---:   |

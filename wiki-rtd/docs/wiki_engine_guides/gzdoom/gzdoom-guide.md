@@ -120,6 +120,12 @@ GZDoom games should be put under the `retrodeck/roms/doom/` directory.
 ### Does GZDoom require BIOS or Firmware?
 No
 
+## What are the controls
+
+Read the:
+
+[GZDoom - Controls](gzdoom-controls.md)
+
 ## I have bought the games how do I get my files?
 
 Read the:

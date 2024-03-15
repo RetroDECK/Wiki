@@ -10,7 +10,7 @@
 
 ## Controls
 
-The controls are semi based on the inputs from Timesplitters: Future Perfect for the Playstation 2
+The controls are semi based on the inputs from `Timesplitters: Future Perfect` for the Playstation 2.
 
 The controls here are described as an Xbox Layout style controller. Many mods have also more inputs then what is bindable on a controller, `L1` and `L2` are mostly free for those types of actions.
 
@@ -36,10 +36,10 @@ The controls here are described as an Xbox Layout style controller. Many mods ha
 
 ### Mod Extras
 
-Optional extra binds that come into play on Project Brutality or Brutal Doom based mods.
+Optional extra binds that can come into play on Project Brutality or Brutal Doom based mods that is shipped with RetroDECK.
 
 |  Action                                    |    Button        |    Comment      |
 | :---                                      | :---:           |         :---:   |
 | Quick Melee / Quick Kick                  |   `L1`          |                 |
-| Throw Grenade                             |   `L2`          |                 |
-| Dash                                      |   `R3`          |      Replaces Quick Turn           |
+| Throw Grenade                             |   `L2`          |    Replaces Zoom (must mods use Secondary Fire for this anyhow)          |
+| Dash                                      |   `R3`          |    Replaces Quick Turn           |

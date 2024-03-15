@@ -62,6 +62,10 @@ You should name the `.doom` file so you understand what it is, for example: `Pro
 
 Each line represent one file, as long as the mods are compatible with each other you can add how lines as you want.
 
+**NOTE: No spaces in mod file names**
+
+The parser does not allow spaces currently in the mod files so if your modfile is called for example `PB Staging 9f2561c.pk3` rename it to `PB_Staging_9f2561c.pk3` with `_` instead of spaces.
+
 ### What is the recommended load order of mods the .doom file?
 
 The general guidelines on most mod pages is:
@@ -72,10 +76,14 @@ The general guidelines on most mod pages is:
 
 But this can be different, check the where you download the mods if they have any recommended order requirement.
 
+### I come from one of the ELEC's what does RetroDECK do different with the .doom file, can I migrate?
+
+RetroDECK have written a new parser from the ground up. You no longer need to write the path in the .doom files. RetroDECK scans all folders and subfolders of `/roms/doom/` only put the name of the mod file. If you are migrating to RetroDECK all you need to do is remove the path in your .doom files.
+
+
 ## Project Brutality .doom example:
 
-**NOTE: No spaces in mod file names**
-The parser does not allow spaces currently in the mod files so if your modfile is called for example `PB Staging 9f2561c.pk3` rename it to `PB_Staging_9f2561c.pk3` with `_` instead of spaces.
+
 
 ---
 

@@ -126,14 +126,15 @@ Read the:
 
 [GZDoom - Controls](gzdoom-controls.md)
 
+## I only want to play standard doom and have no interest in modding or customization
+Do as said above put the .WAD files directly into `retrodeck/roms/doom/` and they will run as normal, enjoy.
+
 ## I have bought the games how do I get my files?
 
 Read the:
 
 [How to: Extract Doom iWads](extract-doom-wads.md)
 
-## I only want to play standard doom and have no interest in modding or customization
-Do as said above put the .WAD files directly into `retrodeck/roms/doom/` and they will run as normal, enjoy.
 
 ## I want to play doom with mods
 

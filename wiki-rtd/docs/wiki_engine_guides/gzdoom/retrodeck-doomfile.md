@@ -74,6 +74,11 @@ But this can be different, check the where you download the mods if they have an
 
 ## Project Brutality .doom example:
 
+**NOTE: No spaces in mod file names**
+The parser does not allow spaces currently in the mod files so if your modfile is called for example `PB Staging 9f2561c.pk3` rename it to `PB_Staging_9f2561c.pk3` with `_` instead of spaces.
+
+---
+
 In this example you have already downloaded a bunch of mods and have the iwads already somewhere under the `/retrodeck/roms/doom/` folder.
 
 You want to play [Project Brutality](https://www.moddb.com/mods/project-brutality) on DOOM 2 levels.
@@ -81,6 +86,8 @@ You want to play [Project Brutality](https://www.moddb.com/mods/project-brutalit
 All you need to do is create an empty file called `Project Brutality.doom` in `/retrodeck/roms/doom/`.
 
 Each line the the file will be the order the mods are loaded, make each lines value is called exactly what the file name is called.
+
+
 
 So in the case of `Project Brutality.doom`
 

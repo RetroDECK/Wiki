@@ -18,7 +18,6 @@ The controls here are described as an Xbox Layout style controller. Many mods ha
 | :---                                      | :---:           |         :---:   |
 | Primary Fire                              |   `R2`          |                 |
 | Secondary Fire                            |   `R1`          |                |
-| Zoom                                      |   `L1`          |              |
 | Action / Open                             |   `A`     |                |
 | Jump                                      |   `B`     |                |
 | Reload                                    |   `Y`     |                |
@@ -40,6 +39,6 @@ Optional extra binds that can come into play on Project Brutality or Brutal Doom
 
 |  Action                                    |    Button        |    Comment      |
 | :---                                      | :---:           |         :---:   |
-| Quick Melee / Quick Kick                  |   `L1`          |                 |
-| Throw Grenade                             |   `L2`          |    Replaces Zoom (must mods use Secondary Fire for this anyhow)          |
+| Quick Melee / Special Action              |   `L1`          |                 |
+| Throw Grenade / Second Special Action     |   `L2`          |    Replaces Zoom (must mods use Secondary Fire for this anyhow)          |
 | Dash                                      |   `R3`          |    Replaces Quick Turn           |

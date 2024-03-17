@@ -20,16 +20,16 @@ The `Quick Menu` or `Quick Access Menu` Menu is the most populated menu. It feat
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
 | :---                    | :---:                |       :---:          |  :---:     |
-| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`                     |            |
-| Open Menu               |   `Ctrl + M`         |  `RetroArch` `Duckstation` `PCSX2`  `Yuzu`                       |            |
-| Swap Screens            |   `Ctrl + Tab`       |  `Citra` `MelonDS`  `Cemu`                     |            |
-| Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`           |            |
-| Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`                      |            |
-| Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`                     |            |
-| Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu`             |             |
-| Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu`                      |            |
-| Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`                                   |            |
-| Escape                  |   `ESC`              |       `PPSSPP`              |            |
+| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`  `PPSSPP`                   |            |
+| Open Menu               |   `Ctrl + M`         |  `RetroArch` `Duckstation` `PCSX2`  `Yuzu (Legacy)` `PPSSPP`                      |            |
+| Swap Screens            |   `Ctrl + Tab`       |  `Citra (Legacy)` `MelonDS`  `Cemu`                     |            |
+| Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`           |            |
+| Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2` `PPSSPP`                     |            |
+| Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`  `PPSSPP`                   |            |
+| Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu (Legacy)`             |             |
+| Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu (Legacy)`                      |            |
+| Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`                                   |            |
+| Escape                  |   `ESC`              |                     |            |
 
 ## State Menu
 The `State Menu` is the menu where you handle anything to do with saving and loading states.
@@ -52,11 +52,11 @@ The `Speed / Frames Menu` is where you find anything related to: emulation speed
 | :---                    | :---:                |       :---:           |  :---:     |
 | Fastforward             |   `Ctrl + +`         | `RetroArch` `Duckstation` `MelonDS` `PCSX2`                       |            |
 | Rewind                  |   `CTRL + -`         |  `RetroArch` `Duckstation`                     |            |
-| Increase Emulation Speed|   `CTRL + 1`         | `Citra` `Dolphin/Primehack` `Duckstation`  `PCSX2`                       |            |
-| Decrease Emulation Speed|   `CTRL + 2`         |`Citra` `Dolphin/Primehack` `Duckstation`  `PCSX2`                        |            |
+| Increase Emulation Speed|   `CTRL + 1`         | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation`  `PCSX2`                       |            |
+| Decrease Emulation Speed|   `CTRL + 2`         |`Citra (Legacy)` `Dolphin/Primehack` `Duckstation`  `PCSX2`                        |            |
 | Reset Emulation Speed   |   `CTRL + 3`         | `Duckstation`                      |            |
 | Disable Emulation Speed Limit  |   `CTRL + 0`  |`Dolphin/Primehack`                       |            |
-| Frame limit On/Off     |   `CTRL + Z`          | `PCSX2`  `Yuzu`                       |            |
+| Frame limit On/Off     |   `CTRL + Z`          | `PCSX2`  `Yuzu (Legacy)`                       |            |
 
 
 ## Display / Graphics Menu
@@ -64,35 +64,35 @@ The `Display / Graphics Menu` is where you find anything related to: up-scaling/
 
 | Radial Button                    | Keyboard Command |  Emulator Support     |    Comment |
 | :---                             | :---:            |       :---:           |  :---:     |
-| Fullscreen Toggle                |   `Ctrl + Enter` | `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu`                      |            |
+| Fullscreen Toggle                |   `Ctrl + Enter` | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu (Legacy)`                      |            |
 | Increase Resolution / Upscale    |   `Ctrl + U`     |  `Dolphin/Primehack` `Duckstation` `PCSX2`    |            |
 | Decrease Resolution / Upscale    |   `Ctrl + Y`     | `Dolphin/Primehack` `Duckstation` `PCSX2`     |            |
 | Change Widescreen / Aspect Ratio |   `Ctrl + W`     |  `Dolphin/Primehack` `Duckstation` `PCSX2`    |            |
-| Swap Screens                     |   `Ctrl + Tab`   |`Citra` `MelonDS`  `Cemu`                        |    |
-| Change Dual Screens Layout       |   `Ctrl + L`     |   `Citra`|                    |        |
+| Swap Screens                     |   `Ctrl + Tab`   |`Citra (Legacy)` `MelonDS`  `Cemu`                        |    |
+| Change Dual Screens Layout       |   `Ctrl + L`     |   `Citra (Legacy)`|                    |        |
 
 ## General Menu
 The `General Menu` or `General Emulation Menu` is where you find various global generic emulation hotkeys: Quit/Exit, Restart, Take Screenshot, Change CD, Pause, Turbo Input, Cheats and Video Recording.
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
 | :---                    | :---:                |       :---:           |  :---:     |
-| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2` `Yuzu`                      |            |
-| Open Menu               |   `Ctrl + M`         | `RetroArch` `Duckstation` `PCSX2`  `Yuzu`                         |            |
-| Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
-| Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`                                                          |            |
+| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2` `Yuzu (Legacy)`                      |            |
+| Open Menu               |   `Ctrl + M`         | `RetroArch` `Duckstation` `PCSX2`  `Yuzu (Legacy)`                         |            |
+| Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |
+| Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`                                                          |            |
 | Change Disc / Next Disc |   `CTRL + D`         | `RetroArch` `Dolphin/Primehack` `Duckstation`                      |            |
 | Cheats On/Off           |   `CTRL + C`         | `RetroArch` `Duckstation`                     |            |
-| Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
+| Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |
 | Turbo On/Off            |   `Ctrl + T`         | `Duckstation`                       |            |
 | Video Recording On/Off  |   `Ctrl + V`         |`RetroArch` `Dolphin/Primehack`  `PCSX2`                       |            |
 
 ## Steam Deck Menu
-The `Steam Deck Menu` is where you find Steam Deck specific functions and general computer hotkeys: Steam Screenshot, Show Steam Deck Keyboard, Escape, Alt + F4, Tab, Enter and F1. Some of these could also be useful inside the various PC emulation emulators.
+The `Steam Deck Menu` is where you find Steam Deck specific functions and general PC hotkeys.
 
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
 | :---                    | :---:                |       :---:           |  :---:     |
-| Escape                  |   `ESC`              |     `PPSSPP`          |            |
+| Escape                  |   `ESC`              |                       |            |
 | Tab                     |   `Tab`              |                       |            |
 | Alt + F4                |   `Alt + F4`         |                       |            |
 | F1                      |   `F1`               |                       |            |
@@ -110,14 +110,12 @@ The `Switch Menu` here you find hotkeys related to Switch emulation: Change GPU 
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
 | :---                    | :---:                |       :---:           |  :---:     |
-| Change GPU Accuracy     |   `Alt + G`          |   `Yuzu`              |            |
-| Load / Remove Amiibo    |   `Alt + M`          |   `Yuzu`              |            |
-| Docked / Undocked Mode  |   `Alt + D`          |   `Yuzu`              |            |
+| Change GPU Accuracy     |   `Alt + G`          |   `Yuzu (Legacy)`     |     Ryujinx is working on better hotkeys     |
+| Load / Remove Amiibo    |   `Alt + M`          |   `Yuzu (Legacy)`     |     Ryujinx is working on better hotkeys       |
+| Docked / Undocked Mode  |   `Alt + D`          |   `Yuzu (Legacy)`     |     Ryujinx is working on better hotkeys       |
 
 ### MAME Menu
-The `MAME Menu` here find hotkeys related to the MAME standalone emulator: Servicemode and buttons 1-4, Insert None Bills (not credits that is Select) and tilt.
-
-**MAME SUPPORT IS NOT IN YET WILL BE IN A LATER UPDATE**
+The `MAME Menu` here find hotkeys related to the MAME (Standalone) emulator.
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
 | :---                    | :---:                |       :---:           |  :---:     |
@@ -128,9 +126,13 @@ The `MAME Menu` here find hotkeys related to the MAME standalone emulator: Servi
 | Service Button 4        |   `Alt + 4`          |    `MAME`                   |            |
 | Insert Bill / Note      |   `Alt + 5`          |    `MAME`                  |            |
 | Tilt                    |   `Alt + 6`          |     `MAME`                  |            |
+| Tilt - Player 1         |   `Alt + 6`          |     `MAME`                  |            |
+| Tilt - Player 1         |   `Alt + 6`          |     `MAME`                  |            |
+| Tilt - Player 1         |   `Alt + 6`          |     `MAME`                  |            |
+| Tilt - Player 1         |   `Alt + 6`          |     `MAME`                  |            |
 
 ### RetroArch Menu
-The `RetroArch Menu` here you find hotkeys related to the RetroArch emulator: RetroArch Cheat Mangement, AI Service and Netplay Host.
+The `RetroArch Menu` in here you find hotkeys related to the RetroArch emulator.
 
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
@@ -142,7 +144,7 @@ The `RetroArch Menu` here you find hotkeys related to the RetroArch emulator: Re
 | Netplay Host On/Off     |   `Ctrl + H`         |  `RetroArch`                     |            |
 
 ### Gamecube / Wii Menu
-The `Gamecube / Wii Menu` here you find hotkeys related to the Dolphin standalone emulator: Golf Mode, Freelook Mode On/Off/Reset, Wii Sync Button and Wii Mote Sideways / Upright.
+The `Gamecube / Wii Menu` in here you find hotkeys related to the Dolphin standalone emulator.
 
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
@@ -153,10 +155,13 @@ The `Gamecube / Wii Menu` here you find hotkeys related to the Dolphin standalon
 | Wii Sync Button         |   `Alt + W`          | `Dolphin/Primehack`                      |            |
 | Wiimote Upright         |   `Alt + Z`          | `Dolphin/Primehack`                      |            |
 | Wiimote Sideways        |   `Alt + X`          | `Dolphin/Primehack`                      |            |
-
+| Wiimote Sync - Player 1 |   `Alt + X`          | `Dolphin/Primehack`                      |            |
+| Wiimote Sync - Player 2 |   `Alt + X`          | `Dolphin/Primehack`                      |            |
+| Wiimote Sync - Player 3 |   `Alt + X`          | `Dolphin/Primehack`                      |            |
+| Wiimote Sync - Player 4 |   `Alt + X`          | `Dolphin/Primehack`                      |            |
 
 ### NDS Menu
-The `NDS Menu` here you find hotkeys related to the MelonDS standalone emulator: Send Close/Open Lid, Send Play Microphone and Sunlight + / -.
+The `NDS Menu` in here you find hotkeys related to the MelonDS standalone emulator: Send Close/Open Lid, Send Play Microphone and Sunlight + / -.
 
 
 | Radial Button           | Keyboard Command     | Emulator Support     |    Comment |
@@ -167,9 +172,17 @@ The `NDS Menu` here you find hotkeys related to the MelonDS standalone emulator:
 | Close/Open Lid          |   `Alt + L`          | `MelonDS`                       |            |
 
 ### 3DS Menu
-The `3DS Menu` here you find hotkeys related to the Citra standalone emulator: Load and Remove Amiibo
+The `3DS Menu` in here you find hotkeys related to the Citra (Legacy Standalone) and Citra-core.
 
 | Radial Button           | Keyboard Command     | Emulator Support     |    Comment |
 | :---                    | :---:                |      :---:           |  :---:     |
-| Load Amiibo             |   `Alt + M`          |`Citra`               |            |
-| Remove Amiibo           |   `Alt + N`          |`Citra`               |            |
+| Load Amiibo             |   `Alt + M`          |`Citra (Legacy)`               |            |
+| Remove Amiibo           |   `Alt + N`          |`Citra (Legacy)`               |            |
+
+### GZDoom Menu
+The `GZDoom Menu` in here you find cheat hotkeys for DOOM.
+
+| Radial Button           | Keyboard Command     | Engine Support     |    Comment |
+| :---                    | :---:                |      :---:         |  :---:     |
+| Give all Items          |   `IDFA`             |`GZDOOM`            |            |
+| Give all Items + Keys   |   `IDQFA`            |`GZDOOM`            |            |

@@ -87,9 +87,9 @@ nav:
       - Different Button Prompts in Games: wiki_controllers/about/diffrent-game-inputs.md
       - RetroDECK and Udev Rules: wiki_controllers/about/about-udev.md
       - RetroDECK and Steam Input: wiki_steam/steam-input.md
-      - RetroDECK - Controller Profiles (WIP): wiki_general/retrodeck-input-support.md
+      - RetroDECK - Controller Profiles: wiki_general/retrodeck-input-support.md
       - RetroDECK - Standard Controllers - Radial Menu: wiki_controllers/radial-menus/controller-standard-radial.md
-      -  RetroDECK - Steam Deck - Radial Menu: wiki_controllers/radial-menus/controller-steamdeck-radial.md
+      - RetroDECK - Steam Deck - Full Radial Menu: wiki_controllers/radial-menus/controller-steamdeck-full-radial.md
 
     - Nintendo 🎮:
       - Nintendo - RetroDECK Hotkeys: wiki_controllers/nintendo/nintendo-hotkeys.md

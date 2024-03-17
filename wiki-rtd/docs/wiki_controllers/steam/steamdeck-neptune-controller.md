@@ -37,11 +37,11 @@ The Steam Deck comes with several built-in hotkeys that you can use in Desktop M
 |  Arrow Key - Right  |   `D-Pad Right` / `Left Stick Right`            |               |
 
 
-## RetroDECK - Steam Deck Hotkey Profiles
+## RetroDECK - Steam Deck Hotkey Layouts
 
-RetroDECK from the 0.8.0b ships with two different profiles for the Steam Deck: `RetroDECK: Steam Deck - Neptune <version number> SIMPLE` and `RetroDECK: Steam Deck - Neptune <version number> FULL` with the only difference being the complexity of the built in radial menus and the amount of options at your disposal on the left touchpad.
+RetroDECK from the 0.8.0b ships with two different layouts for the Steam Deck: `RetroDECK: Steam Deck - Neptune <version number> SIMPLE` and `RetroDECK: Steam Deck - Neptune <version number> FULL` with the only difference being the complexity of the built in radial menus and the amount of options at your disposal on the left touchpad.
 
-Both profiles have the same button hotkeys seen on this page.
+Both layouts have the same button hotkeys seen on this page.
 
 ### The hotkey button
 The global hotkeys are activated by pressing and holding the `HKB` aka the `HotKey Button` and pressing the corresponing button togheter for the command you want to do.
@@ -100,14 +100,14 @@ This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 
 ## Radial Menu System
 
-The radial menu system is located on the left touchpad on the Steam Deck with layout depending on what profile you choose.
+The radial menu system is located on the left touchpad on the Steam Deck with layout depending on what layout you choose.
 
-### The FULL Profile
+### The FULL Layout
 
 [RetroDECK: Steam Deck - Neptune FULL](../radial-menus/controller-steamdeck-full-radial.md)
 
-### The SIMPLE Profile
+### The SIMPLE Layout
 
-The SIMPLE profile got the same menu as the external controllers.
+The SIMPLE layout got the same menu as the external controllers.
 
 [RetroDECK: Steam Deck - Neptune SIMPLE](../radial-menus/controller-standard-radial.md)

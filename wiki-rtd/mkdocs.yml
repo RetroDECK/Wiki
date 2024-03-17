@@ -120,7 +120,7 @@ nav:
       - Xbox Adaptive Controller (WIP): wiki_controllers/accessibility/xac.md
 
     - Steam/Valve 🎮:
-      - Steam Deck - Controller: wiki_controllers/steam/controllers-steamdeck.md
+      - Steam Deck - Controller: wiki_controllers/steam/steamdeck-neptune-controller.md
       - Steam - Steam Controller - Gordon: wiki_controllers/steam/steam-controller-gordon.md
 
     - Generic - Standard Type 🎮:
@@ -223,7 +223,8 @@ nav:
     - RetroDECK Installation and Updates: wiki_devices/steamdeck/steamdeck-start.md
     - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
     - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
-    - Controls: wiki_controllers/steam/controllers-steamdeck.md
+    - RetroDECK Controls: wiki_controllers/steam/steamdeck-neptune-controller.md
+    - Built-in Controls: wiki_controllers/steam/steamdeck-neptune-builtin.md
 
   - Guides - Linux Desktop 🐧:
     - Installation and Updates: wiki_devices/linux_desktop/linux-install.md

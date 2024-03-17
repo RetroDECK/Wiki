@@ -15,11 +15,49 @@ For a list of reported bugs please check here on github: [RetroDECK issues](http
 
 - `RetroArch` Borders are in some few cases disappearing in the latest RetroArch version. A workaround is to reset RetroArch from the Configurator.
 
-## Exnternal Input Issues - Linux Desktop
+## External Controller issues
 
-## External Input Issues - Steam Deck
+### Known Issues: External Controllers - Steam Deck
 
-- Sometimes the systems gets confused what controller is player one and takes the docked Steam Deck and not the external contrller. You can solve this by going into the Reorder Controllers interface in Steam and switching between Player 1 or Player 2.
+- Sometimes the emulators / engines gets confused on what controller is player 1 and takes the docked Steam Deck as player 1 and not the external contrller. You can solve this by going into the Reorder Controllers interface in Steam and try switching between Player 1 or Player 2.
+
+### Known Issues: External Controllers - Linux Desktop
+
+Linux Desktop via Steam Input is complex. There are a lot of variables and the RetroDECK Team don't have the ability to test for all of them:
+
+- What kind of packages are installed.
+- What kind of drivers you have installed.
+- What distro you are using.
+- What desktop you are using.
+- If you are running X11 or Wayland.
+- If you have a Steam Deck based Distro with Valves "Game Mode".
+
+We are trying to keep track of all the issues here and have reported several to Valve:
+
+https://github.com/XargonWan/RetroDECK/issues/716
+
+**Bug: Destop Profiles take preset over Game Profile**
+
+Since the one of the recent Steam Client updates, there is a bug that causes Steam to take the Desktop Profile instead of the Game Profile. Sometimes it even takes both inputs and sends double inputs for every action.
+
+Possible solutions by our users and team members:
+
+- Try and use the RetroDECK Profile as the Desktop Profile and turning off the Game Profile.
+- Going into big picture and launching RetroDECK from there.
+- Starting big picture, exiting big picture and then launching RetroDECK from the Desktop Client.
+
+**Bug: Missing Radials in certain systems**
+
+The radial menus on certain Linux Systems are hidden behind the game window or the Steam overlay (they still work and you can navigate them).
+
+We thought about doing a temporary none radial profiles for each controller to get around this bug.<br>
+But later changed our minds as we would have even more input configs to maintain, with a risk they become permanent.
+
+### External Controller Issues - GZDOOM
+
+GZDOOM have some kind of conflict with Steam Input in when more then one controller that causes input looping in menus. Make sure that the controller you are using is set as Player 1 else use Reorder Controllers interface in Steam to make it Player 1.
+
+We are still investigation the cause of it, if you know of a solution please contact the RetroDECK Team.
 
 
 ## Hotkey Issues

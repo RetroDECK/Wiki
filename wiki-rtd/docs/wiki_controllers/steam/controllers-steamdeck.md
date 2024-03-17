@@ -100,8 +100,14 @@ This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 
 ## Radial Menu System
 
-The radial menu system is located on the left touchpad on the Steam Deck with layout depending on what profile you choose you:
+The radial menu system is located on the left touchpad on the Steam Deck with layout depending on what profile you choose.
 
-For the FULL profile radial menu system click here: [RetroDECK: Steam Deck - Neptune FULL](../radial-menus/controller-steamdeck-full-radial.md)
+### The FULL Profile
 
-For the SIMPLE profile radial menu system click here: [RetroDECK: Steam Deck - Neptune SIMPLE](../radial-menus/controller-standard-radial.md)
+[RetroDECK: Steam Deck - Neptune FULL](../radial-menus/controller-steamdeck-full-radial.md)
+
+### The SIMPLE Profile
+
+The SIMPLE profile got the same menu as the external controllers.
+
+[RetroDECK: Steam Deck - Neptune SIMPLE](../radial-menus/controller-standard-radial.md)

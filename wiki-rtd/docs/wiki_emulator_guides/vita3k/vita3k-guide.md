@@ -2,7 +2,7 @@
 
 **Please note that the PSVita support is still experimental and it will be available starting from RetroDECK 0.8.0b**
 
-<img src="../../wiki_images/logos/vita3k-logo.png" width="150">
+<img src="../../../wiki_images/logos/vita3k-logo.png" width="150">
 
 ---
 
@@ -66,7 +66,7 @@ Install the patches and DLC the same way as the game by repeating Step 1 to 1b f
 
 ### Step 2: Check the Title ID of the game
 
-<img src="../../wiki_images/emulators/vita3k/vita3k-titleid.png">
+<img src="../../../wiki_images/emulators/vita3k/vita3k-titleid.png">
 
 In the Vita3K interface the third colum you can see the Title ID of the game you just installed. <br>
 You can also check [Vita3K Game Compatibility and ID List](https://vita3k.org/compatibility.html?lang=en).

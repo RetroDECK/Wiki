@@ -1,6 +1,6 @@
-#  RetroDECK - Standard Controllers: Global Radial Menu
+#  RetroDECK: Simple Radial Menu
 
-The Global Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
 
 Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |

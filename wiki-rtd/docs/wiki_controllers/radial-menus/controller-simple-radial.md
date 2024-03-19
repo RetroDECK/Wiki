@@ -1,6 +1,10 @@
 #  RetroDECK: Simple Radial Menu
 
-The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+The Simple Radial Menu
+
+On controlleres it is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+
+On the Steam Deck it exists on the `Left Touchpad` as part of the SIMPLE Layout.
 
 Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |

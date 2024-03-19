@@ -110,4 +110,4 @@ The radial menu system is located on the left touchpad on the Steam Deck with la
 
 The SIMPLE layout got the same menu as the external controllers.
 
-[RetroDECK: Steam Deck - Neptune SIMPLE](../radial-menus/controller-standard-radial.md)
+[RetroDECK: Steam Deck - Neptune SIMPLE](../radial-menus/controller-simple-radial.md)

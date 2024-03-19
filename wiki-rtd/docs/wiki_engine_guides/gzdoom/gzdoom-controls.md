@@ -35,7 +35,7 @@ The controls here are described as an Xbox Layout style controller. Many mods ha
 
 ### Mod Extras
 
-Optional extra binds that can come into play on Project Brutality or Brutal Doom based mods that is shipped with RetroDECK.
+Optional extra binds that can come into play for certain Project Brutality or Brutal Doom based mods.
 
 |  Action                                    |    Button        |    Comment      |
 | :---                                      | :---:           |         :---:   |

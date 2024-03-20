@@ -15,8 +15,6 @@ Highlights:
 
 Hello everyone!
 
-First this is not the real development blog post but a tiny extra one to adress one key issue:
-
 As you might have heard Yuzu & Citra (stand alone version) is no more and anyone supplying Yuzu or Citra is breaking the court settlement and could be targeted for litigation.
 
 So as an effect of this, the RetroDECK Team will remove Yuzu & Citra from RetroDECK at the start of the next update 0.8.0b.

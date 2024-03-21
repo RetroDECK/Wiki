@@ -97,19 +97,29 @@ They have been moved to the Archive Section.
 
 Yes, the planned feature has been removed, but not all the effort was lost as this turned into Ponzu.
 
-## What is Ponzu?
+### Q: What is Ponzu?
+Ponzu is in part the former Yuzu (Custom) AppImage Loader and tool that we had planned for 0.8.0b with a changed scope.
 
-Ponzu is in part the former Yuzu (Custom) AppImage loader and tool. If the user has personal backups of the last versions of the now defunct emulators in AppImage format they can temporarily be used with RetroDECK as-is.
+If the user has personal backups of any dead emulators in AppImage format, they can temporarily be used with RetroDECK as a safe way to migrate to other solutions.
 
-### Should this be seen as official support for the removed emulators?
+### Q: Should this be seen as official support for the removed emulators?
 
-No, this is more of a tool to point towards those version from RetroDECK and some parts to be used from within RetroDECK and the ES-DE Frontend.
+No, the the only official emulators we support for those systems are Ryujinx and Citra-core in RetroArch.
 
-The official defaults are `Ryujinx` and `Citra-core in RetroArch` from 0.8.0b.
+Since day one of our announcements of both Citras and Yuzus removal we updated our social rules to reflect that any type of discussion about these emulators will come with a warning first and then a ban.
 
-But the user can choose to run those systems against the AppImages instead from the ES-DE interface.
+RetroDECK will not provide any new: configurations, bug fixes, improvements, or any kind of support at all for the AppImages. There is also a very substantial risk that future updates can break the compatibility, this to be seen as a temporary as-is solution.
 
-RetroDECK will not provide any new: configs, bugfixes, improvements and support towards this function or the AppImages. There is also a risk that future updates can break the compatibility with the AppImages, this is a as-is solution.
+We strongly recommend everyone to just use Ponzu as the intended safe way to migrate to Ryujinx or the Citra-core (finish, save and move).
+
+
+### Q: Will you be looking in into other forks of Citra & Yuzu later and add into RetroDECK?
+
+First, this type of event makes it ripe for scammers.
+
+We would urge all users to be extra careful and not blindly downloading solutions and any type of fan patches/tweaks for the dead emulators that we have seen circulating.
+
+If good, ethical, lasting and safe forks can even arise, that also have been vetted by the FOSS community, then we will investigate it.
 
 ## Will Ponzu be a part of 0.8.0b?
 

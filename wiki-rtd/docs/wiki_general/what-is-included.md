@@ -14,22 +14,18 @@ ES-DE is the base frontend for RetroDECK.
 
 RetroDECK comes with specific tweaks to the ES-DE standard setup to enable RetroDECK unique functions like the `RetroDECK Framework` and `RetroDECK Configurator`.
 
-## Emulators
+## Multi-Emulators
 
-The emulators are the software that runs the retro games.
-
-### Multi-Emulators
-
-#### RetroArch
+### RetroArch
 
 RetroDECK ships will all cores under the stable branch of RetroArch.
 If there is no stable version of a core the nightly version will be used instead.
 
-#### MAME (Standalone)
+### MAME (Standalone)
 
 The full version of mame
 
-### Standalone Emulators
+## Standalone Emulators
 
 - Cemu (WiiU)
 - Dolphin (GameCube/Wii)
@@ -42,13 +38,17 @@ The full version of mame
 - Xemu (XBOX)
 - Ryujinx (Switch)
 
-### Standalone Engine
+## Standalone Engine
 
 - Solarus
 - GZDoom
 - IkemanGO (M.U.G.E.N)
 - Pico-8
 - OpenBOR
+
+## RetroDECK Controller profiles
+
+Steam Deck and External Controllers
 
 ## RetroDECK: Included ES-DE Themes
 

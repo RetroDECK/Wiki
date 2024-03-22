@@ -37,6 +37,7 @@ These bindings are usually set in the interface or in the file `<gamename>/save/
 - Each game is its own self-contained game, and no overarching settings exist.
 - Depending on the age of the game you want to play it could require less or more tinkering.
 - `M.U.G.E.N` have existed since the 90s and some incredibly old games might not run at all without heavy tinkering.
+- You will need to make the game executable.
 
 ### Example folder structure of a IkemanGO game
 
@@ -60,6 +61,7 @@ This How-to is for games that are made with IkemanGO
 - Rename the folder so it is called `<gamename>.mugen` in the end of it.
 - Open the game folder and see if the `Ikemen_GO_Linux` file is there in the root of the folder.
 - If the file is there rename it to `<gamename>.mugen`.
+- Make the game executable.
 - Note that BOTH the `Ikemen_GO_Linux` file and the game folder are now called the same `<gamename>.mugen`.
 
 The game should now be detected and runnable from RetroDECK.

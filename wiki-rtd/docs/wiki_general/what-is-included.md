@@ -1,6 +1,6 @@
 # RetroDECK: What's included?
 
-What follows is a list of features and software currently included in RetroDECK
+What follows is a list of features and software currently included in RetroDECK from update 0.8b
 
 ## Features
 
@@ -23,15 +23,15 @@ The emulators are the software that runs the retro games.
 #### RetroArch
 
 RetroDECK ships will all cores under the stable branch of RetroArch.
-
 If there is no stable version of a core the nightly version will be used instead.
+
+#### MAME (Standalone)
+
+The full version of mame
 
 ### Standalone Emulators
 
-The following standalone emulators are currently included:
-
 - Cemu (WiiU)
-- Citra (3DS)
 - Dolphin (GameCube/Wii)
 - Duckstation (PSX)
 - MelondDS (DS)
@@ -40,7 +40,15 @@ The following standalone emulators are currently included:
 - Primehack (Metroid Prime - Dolphin Fork)
 - RPCS3 (PS3)
 - Xemu (XBOX)
-- Yuzu (Switch)
+- Ryujinx (Switch)
+
+### Standalone Engine
+
+- Solarus
+- GZDoom
+- IkemanGO (M.U.G.E.N)
+- Pico-8
+- OpenBOR
 
 ## RetroDECK: Included ES-DE Themes
 

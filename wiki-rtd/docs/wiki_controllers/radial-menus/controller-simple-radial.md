@@ -1,6 +1,10 @@
-#  RetroDECK - Standard Controllers: Global Radial Menu
+#  RetroDECK: Simple Radial Menu
 
-The Global Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+The Simple Radial Menu
+
+On controlleres it is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+
+On the Steam Deck it exists on the `Left Touchpad` as part of the SIMPLE Layout.
 
 Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
@@ -19,9 +23,9 @@ Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | F7          |   `F7`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F7.png" width="20">   |  |
 | F8          |   `F8`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F8.png" width="20">   |   |
 | F10          |   `F10`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F10.png" width="20">   |  |
-| Restart / Reset      |   `CTRL + R`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`          |  <img src="../../../wiki_icons/binding_icons/RD-system-reboot.png" width="20">        |   |
+| Restart / Reset      |   `CTRL + R`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`          |  <img src="../../../wiki_icons/binding_icons/RD-system-reboot.png" width="20">        |   |
 | Wii Sync Button          |   `ALT + W`          |  `Dolphin/Primehack`  | <img src="../../../wiki_icons/binding_icons/RD-notification-network-wireless.png" width="20">    |  |
-| Swap - Dual Screens          |   `CTRL + TAB`          |  `RetroArch` `Citra` `MelonDS` `Cemu`| <img src="../../../wiki_icons/binding_icons/RD-system-switch-user.png" width="20">    |  |
-| Change - Dual Screen Layout          |   `CTRL + L`          |  `Citra` | <img src="../../../wiki_icons/binding_icons/RD-preferences-system-windows-actions.png" width="20">    |  |
+| Swap - Dual Screens          |   `CTRL + TAB`          |  `RetroArch` `Citra (Legacy)` `MelonDS` `Cemu`| <img src="../../../wiki_icons/binding_icons/RD-system-switch-user.png" width="20">    |  |
+| Change - Dual Screen Layout          |   `CTRL + L`          |  `Citra (Legacy)` | <img src="../../../wiki_icons/binding_icons/RD-preferences-system-windows-actions.png" width="20">    |  |
 | Widescreen / Aspect Ratio        |   `CTRL + W`          |  `Dolphin/Primehack` `Duckstation` `PCSX2`	 | <img src="../../../wiki_icons/binding_icons/RD-preferences-desktop-display.png" width="20">    |  |
 | Change Disc / Next Disc        |   `CTRL + D`          |  `RetroArch` `Dolphin/Primehack` `Duckstation`| <img src="../../../wiki_icons/binding_icons/RD-application-x-iso.png" width="20">    |   |

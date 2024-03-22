@@ -2,7 +2,7 @@
 
 ## What are the Official profiles called?
 
-- Switch Pro Controller: `RetroDECK: Switch Pro`
+- Switch Pro Controller: `RetroDECK: Switch Pro v.1b`
 
 ## Global Hotkeys: Nintendo Button Combos
 
@@ -18,29 +18,28 @@ What follows is a list of hotkeys:
 
 | Function                 | Button / Combination|  Command      | Emulator Support     |    Comment |
 | :---                    | :---:               | :---:                 |       :---:          |  :---:     |
-| Pause / Resume          |   `SELECT + B`          |   `CTRL + P`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
-| Take Screenshot         |   `SELECT + A`          |   `CTRL + X`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`           |            |
-| Fullscreen Toggle      |   `SELECT + Y`          |   `CTRL + ENTER`      | `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
-| Open Menu               |  `SELECT + X`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu`                        |
-| Quit Emulator           |  `SELECT + Start`       |   `CTRL + Q`          |`RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`                                   |            | |
+| Pause / Resume          |   `SELECT + B`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |
+| Take Screenshot         |   `SELECT + A`          |   `CTRL + X`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`           |            |
+| Fullscreen Toggle      |   `SELECT + Y`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |
+| Open Menu               |  `SELECT + X`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu (Legacy)`                        |
+| Quit Emulator           |  `SELECT + Start`       |   `CTRL + Q`          |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`                                   |            | |
 | Previous State Slot     |  `SELECT + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
 | Next State Slot         |  `SELECT + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|
-| Increase Emulation Speed     |  `SELECT + D-Pad Up`  |   `CTRL + 1`          | `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
-| Decrease Emulation Speed         |  `SELECT + D-Pad Down` |   `CTRL + 2`          | `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`|                       |            |
-| Load State              |  `SELECT + L1`          |   `CTRL + A`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                          |            |
-| Save State              |  `SELECT + R1`          |   `CTRL + S`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                        |            |
+| Increase Emulation Speed     |  `SELECT + D-Pad Up`  |   `CTRL + 1`          | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
+| Decrease Emulation Speed         |  `SELECT + D-Pad Down` |   `CTRL + 2`          | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`|                       |            |
+| Load State              |  `SELECT + L1`          |   `CTRL + A`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`                          |            |
+| Save State              |  `SELECT + R1`          |   `CTRL + S`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`                        |            |
 | Rewind                  |  `SELECT + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation`                     |            |
 | Fast forward            |  `SELECT + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                  |            |
-| Global Radial Menu      |  `SELECT + Left Joystick`     |         |       Opens the Radial Menu      |
+| Simple Radial Menu      |  `SELECT + Left Joystick`    |                                                                                                   |            |       Opens the Radial Menu  |
 
-### Global Radial Menu
+### Simple Radial Menu
 
-The Global Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
 
 Read more at the:
 
-[Standard Controller: Radial Menu](../radial-menus/controller-standard-radial.md) to see all the available commands.
-
+[Standard Controller: Simple Radial Menu](../radial-menus/controller-simple-radial.md) to see all the available commands.
 
 ### Right Joystick as Temporary Mouse
 

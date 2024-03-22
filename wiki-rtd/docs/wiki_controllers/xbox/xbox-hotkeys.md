@@ -8,8 +8,8 @@
 
 ## What are the Official RetroDECK - Steam Input Profile called?
 
-- Xbox 360 Controller: `RetroDECK: Xbox 360`
-- Xbox Wireless Controller/Elite Series: `RetroDECK: Xbox Wireless`
+- Xbox 360 Controller: `RetroDECK: Xbox 360 v.1b`
+- Xbox Wireless Controller/Elite Series: `RetroDECK: Xbox Wireless v.1b`
 
 ## Global Hotkeys: Xbox Button Combos
 
@@ -38,15 +38,16 @@ What follows is a list of hotkeys:
 | Save State              |  `SELECT + R1`          |   `CTRL + S`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`                        |            |
 | Rewind                  |  `SELECT + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation`                     |            |
 | Fast forward            |  `SELECT + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                  |            |
-| Global Radial Menu      |  `SELECT + Left Joystick`     |         |       Opens the Radial Menu      |
+| Simple Radial Menu      |  `SELECT + Left Joystick`    |                                                                                                   |            |       Opens the Radial Menu  |
 
-### Global Radial Menu
+### Simple Radial Menu
 
-The Global Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
 
 Read more at the:
 
-[Standard Controller: Radial Menu](../radial-menus/controller-standard-radial.md) to see all the available commands.
+[Standard Controller: Simple Radial Menu](../radial-menus/controller-simple-radial.md) to see all the available commands.
+
 
 
 ### Right Joystick as Temporary Mouse

@@ -123,10 +123,6 @@ ares is a cross-platform, open source, multi-system emulator, focusing on accura
 The world's first free and open-source PlayStation 3 emulator/debugger, written in C++ for Windows, Linux, macOS and FreeBSD.
 
 #### Where to donate / support the project?
-**NOTE:**
-
-Since the beginning of the Ukraine war, RPCS3 became unable to manage funds from the Patreon directly due to sanctions imposed on Russia.
-Before donating check the current status on their Patreon.
 
 [Patreon](https://patreon.com/Nekotekina)
 
@@ -389,6 +385,10 @@ CC0
 
 [Licenses](https://fontstruct.com/fontstructions/show/1844233/pixel-sans-13)
 
+### Freedoom
+
+[Licenses](https://github.com/freedoom/freedoom?tab=License-1-ov-file)
+
 ---
 
 ## Other Licenses
@@ -406,6 +406,7 @@ Here we showcase the licenses of projects / functions we might use in part, got 
 
 ### Lutris
 [Licenses](https://github.com/lutris/lutris/blob/master/LICENSE)
+
 
 ### Steam Deck & Steam Deck Logo
 

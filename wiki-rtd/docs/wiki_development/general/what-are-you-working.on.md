@@ -9,25 +9,16 @@ To get the latest updates first:
 - Look at [Github issues](https://github.com/XargonWan/RetroDECK/issues/) for clues.
 
 ## New Engines
-- GZDoom (DOOM)
-- IkemenGO (M.U.G.E.N)
-- ScummVM-SA (standalone version)
-- Solarus (Solarus Games)
-- OpenBOR (OpenBOR Games)
+- MORE!
 
 ## New Emulators
-- MAME
-- Ryujinx (Switch)
-- Vita3K (PSVita)
-- Yuzu (Custom)
+- EVEN MORE!
 
 ## New Features Configurator / RetroDECK Framework
 
 - Turning the Entire configurator and first setup into a Godot Application with a controller usable interface.
 - More BIOS Checks
 - More Compression formats
-- Steam Flatpak Support
-- External Controllers Support (CUP Project)
 - SFTP
 - Cloud Sync
 - USB Transfer / Backups
@@ -42,4 +33,4 @@ To get the latest updates first:
 
 ## Other
 
-- Develop Rekku the RetroDECK Mascot with Tyson Tan
+- Develop Rekku the RetroDECK Mascot

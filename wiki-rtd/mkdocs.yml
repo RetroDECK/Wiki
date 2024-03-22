@@ -79,17 +79,18 @@ nav:
     - Reporting Bugs: wiki_bugs/report-bugs.md
     - Known Issues: wiki_bugs/known-issues.md
 
-  - Configurator 🧰:
+  - Configurator & Tools 🧰:
     - Configurator Features: wiki_configurator/configurator.md
+    - Configurator Features: wiki_configurator/ponzu.md
 
   - Controllers 🎮:
     - About 🎮:
       - Different Button Prompts in Games: wiki_controllers/about/diffrent-game-inputs.md
       - RetroDECK and Udev Rules: wiki_controllers/about/about-udev.md
       - RetroDECK and Steam Input: wiki_steam/steam-input.md
-      - RetroDECK - Controller Profiles (WIP): wiki_general/retrodeck-input-support.md
-      - RetroDECK - Standard Controllers - Radial Menu: wiki_controllers/radial-menus/controller-standard-radial.md
-      -  RetroDECK - Steam Deck - Radial Menu: wiki_controllers/radial-menus/controller-steamdeck-radial.md
+      - RetroDECK - Controller Layouts: wiki_general/retrodeck-input-support.md
+      - RetroDECK - Controllers - Simple Radial Menu: wiki_controllers/radial-menus/controller-simple-radial.md
+      - RetroDECK - Steam Deck - Full Radial Menu: wiki_controllers/radial-menus/controller-steamdeck-full-radial.md
 
     - Nintendo 🎮:
       - Nintendo - RetroDECK Hotkeys: wiki_controllers/nintendo/nintendo-hotkeys.md
@@ -120,7 +121,7 @@ nav:
       - Xbox Adaptive Controller (WIP): wiki_controllers/accessibility/xac.md
 
     - Steam/Valve 🎮:
-      - Steam Deck - Controller: wiki_controllers/steam/controllers-steamdeck.md
+      - Steam Deck - Controller: wiki_controllers/steam/steamdeck-neptune-controller.md
       - Steam - Steam Controller - Gordon: wiki_controllers/steam/steam-controller-gordon.md
 
     - Generic - Standard Type 🎮:
@@ -223,7 +224,8 @@ nav:
     - RetroDECK Installation and Updates: wiki_devices/steamdeck/steamdeck-start.md
     - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
     - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
-    - Controls: wiki_controllers/steam/controllers-steamdeck.md
+    - RetroDECK Controls: wiki_controllers/steam/steamdeck-neptune-controller.md
+    - Built-in Controls: wiki_controllers/steam/steamdeck-neptune-builtin.md
 
   - Guides - Linux Desktop 🐧:
     - Installation and Updates: wiki_devices/linux_desktop/linux-install.md
@@ -241,11 +243,13 @@ nav:
   
   - Guides - Engines  🛠️:
     - GZDoom 👹:
-      - GZDoom - General Guide (WIP): wiki_engine_guides/gzdoom/gzdoom-guide.md
-      - Get the WADs from bought DOOM / DOOM 2: wiki_engine_guides/gzdoom/extract-doom-wads.md
+      - GZDoom - General Guide: wiki_engine_guides/gzdoom/gzdoom-guide.md
+      - GZDoom - Controls Guide: wiki_engine_guides/gzdoom/gzdoom-controls.md
+      - GZDoom - Get started on .doom files: wiki_engine_guides/gzdoom/retrodeck-doomfile.md
+      - GZDoom - Get the WADs from bought games: wiki_engine_guides/gzdoom/extract-doom-wads.md
     - IkemenGO / M.U.G.E.N 🥋:
       - IkemenGO - General Guide: wiki_engine_guides/ikemengo/ikemengo-guide.md
-      - IkemenGO - M.U.G.E.N Convertion Guidelines: wiki_engine_guides/ikemengo/ikemengo-guide.md
+      - IkemenGO - M.U.G.E.N Convertion Guidelines: wiki_engine_guides/ikemengo/mugen-conversion.md
     - Pico-8 8️⃣:
       - Pico-8 - General Guide: wiki_engine_guides/pico8/pico8-guide.md
     - ScummVM 🖱️:

@@ -100,7 +100,7 @@ Info:
 /app/bin/retroarch -L /app/share/libretro/cores/cap32_libretro.so /home/deck/retrodeck/roms/amstradcpc/1001\ BC\ (1984)(Dank Rider)(fr).zip
 ```
 
-### Deeper per game / contant debugging
+### Deeper per game / content debugging
 
 If we want to debug a game or content copy and run the full `Expanded emulator launch command` from above.
 

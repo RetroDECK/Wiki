@@ -27,7 +27,7 @@ The RetroDECK Team tries our best to spread any knowledge, tips, or clarificatio
 
 ### Discord
 
-[Discord](https://discord.gg/Dz3szYsP8g)
+[Discord](https://discord.gg/WDc5C9YWMx)
 
 Discord is used for more guidance type issues and community support.
 

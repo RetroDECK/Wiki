@@ -31,7 +31,7 @@ Gamecube games should be put under the `retrodeck/roms/gc/` directory.<br>
 
 Wii games should be put under the `retrodeck/roms/wii/` directory.
 The supported formats are `CISO`, `DFF`, `DOL`, `ELF`, `GCM`, `GCZ`, `ISO`, `JSON`, `M3U`, `RVZ`, `TGC`, `WAD`, `WBFS`, `WIA`, `7Z` `ZIP`. <br>
-**NOTE:** `WBFS` is even the format supported by the original console when loading via USB.
+**NOTE:** `WBFS` and `WAD` are the original format supported by the Wii console.
 
 ## How do I use a Real Wii Remote with RetroDECK and Dolphin / Primehack?
 

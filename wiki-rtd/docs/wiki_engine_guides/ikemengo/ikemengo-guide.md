@@ -24,7 +24,13 @@
 ## Does IkemenGO require BIOS or Firmware?
 No
 
-### Information
+## All M.U.G.E.N and IkemanGO games have their own input bindings
+
+As every game it's own unique instance and input bindings they need to be manually rebound per game so they fit how the game works and how you want to play.
+These bindings are usually set in the interface or in the file `<gamename>/save/config.json`.
+
+
+## Information
 
 - The games need to be uncompressed to a folder.
 - Games made for `IkemenGO` have a higher success rate than those made for `M.U.G.E.N`.

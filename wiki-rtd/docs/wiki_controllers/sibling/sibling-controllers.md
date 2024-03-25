@@ -100,11 +100,13 @@ GameCube had its fair share of controller but no one more legendary then
 
 <img src= "../madcatz-gc.png" width="200">
 
-This legendary controller has caused several family tragedies over the years. There you were, with your gameplan set and you only allowed your little sibling this awful and broken piece of controller while you were playing Smash.
+This legendary controller has caused several family tragedies over the years.
+
+There you were, with your gameplan set and you only allowed your little sibling this awful and broken piece of controller while you were playing Smash.
 
 Everything was going well until that one day some years later your mom got you a second official GameCube controller for your sibling to use.
 
-You realized in horror of the monster you had created, like Goku from Dragonball caring rocks on his backs for years... you had unleashed a beast upon the world. Your sibling decimated you in Smash with his/her ungodly skills with a real controller and quickly rose to fame in the Smash community beating everyone in local tournaments.
+You realized in horror of the monster you had created, like Goku from Dragonball caring rocks on his backs for years... you had unleashed a beast upon the world. Your sibling quickly decimated you in Smash with his/her ungodly skills using an official controller and quickly rose to fame in the Smash community beating everyone in local tournaments.
 
 Now you sit here 15 years later with chronic back pain, arthritis, and resentment of what you have created, pondering of those days of yore when you beat your sibling in Smash.
 
@@ -112,7 +114,7 @@ You no longer speak to your sibling except for the mandatory yearly BBQ your fat
 
 ## The Ultimate Sibling Controller
 
-Of all controllers on the market there is only one that reigns supreme and has stood victorious for several console generations. It still holds the throne to this day as the ultimate sibling controller.
+There exists one controller on the market that had supreme reigned supreme several console generations. It still holds the throne to this day as the ultimate sibling controller, nothing can come close to claiming its throne.
 
 ### Fisher Price: Laugh & Learn - Game Controller
 

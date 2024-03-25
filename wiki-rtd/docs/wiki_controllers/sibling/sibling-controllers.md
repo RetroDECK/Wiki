@@ -69,6 +69,13 @@ The Ascii Pad SNES is a bit unconformable but your sibling that was struggling i
 
 Well Brad... you say you are the BEST in the world at Halo and you keep repeating it over recess in school and won't just keep your mouth shut about it. Here you go Brad... WIN WITH THIS!
 
+
+### MadCatz Xbox
+
+<img src= "../madcatz-xbox.png" width="200">
+
+MadCatz took on the challenge of making a even more chungus version of OG Xbox Controller that also breaks easily, a perfect fit for your sibling with small hands.
+
 ## Nintendo 64
 
 ### UltraRacer 64
@@ -84,3 +91,22 @@ So you told dad that I took the last Mars from the candy drawer when in fact it 
 You really need to win this Ready 2 Rumble Boxing match against your sibling, the looser get to clean the room.. give him / her this.
 
 ## GameCube
+
+GameCube had it's fare share of controller but no one more legendary then
+
+### MadCatz GameCube
+
+<img src= "../madcatz-gc.png" width="200">
+
+This legendary controller has caused several family tragedies over the years. There you where, with your gameplan set and you only allowed your little sibling this awful and broken piece of controller while your where playing Smash. Everything was going well until that one day some years later your mom got you a second real GameCube controller for your sibling to use. You realized in horror of the beast you had unleshed, like Goku from Dragonball caring rocks on his backs for years... you had created a monster. Your sibling decimated you in Smash with his/her ungodly skills with a real controller and quickly rose to fame in the Smash community beating everyone in local tournaments.
+
+Now you sit here 15 years later with chronic back pain, arthritis and resentment of what you have created, pondering of those days of yore when you beat your sibling in Smash. You no longer speak to your sibling except for the mandatory yearly BBQ your father desperately host to keep the family together. Every time your sibling pulls up the in your fathers driveway with his/her new car filled to the brim with Smash trophies and victory money... all you can do is communicate with grunts.
+
+
+## The Ultimate Sibling Controller
+
+Of all controllers on the market there is only one that raging supreme and have stood victorious for several console generations. It still holds the throne to this day as the ultimate sibling controller.
+
+<img src= "../fisher-price-laugh-and-learn.png" width="200">
+
+

@@ -98,9 +98,15 @@ GameCube had it's fare share of controller but no one more legendary then
 
 <img src= "../madcatz-gc.png" width="200">
 
-This legendary controller has caused several family tragedies over the years. There you where, with your gameplan set and you only allowed your little sibling this awful and broken piece of controller while your where playing Smash. Everything was going well until that one day some years later your mom got you a second real GameCube controller for your sibling to use. You realized in horror of the beast you had unleshed, like Goku from Dragonball caring rocks on his backs for years... you had created a monster. Your sibling decimated you in Smash with his/her ungodly skills with a real controller and quickly rose to fame in the Smash community beating everyone in local tournaments.
+This legendary controller has caused several family tragedies over the years. There you where, with your gameplan set and you only allowed your little sibling this awful and broken piece of controller while your where playing Smash.
 
-Now you sit here 15 years later with chronic back pain, arthritis and resentment of what you have created, pondering of those days of yore when you beat your sibling in Smash. You no longer speak to your sibling except for the mandatory yearly BBQ your father desperately host to keep the family together. Every time your sibling pulls up the in your fathers driveway with his/her new car filled to the brim with Smash trophies and victory money... all you can do is communicate with grunts.
+Everything was going well until that one day some years later your mom got you a second official GameCube controller for your sibling to use.
+
+You realized in horror of the beast you had unleshed, like Goku from Dragonball caring rocks on his backs for years... you had created a monster. Your sibling decimated you in Smash with his/her ungodly skills with a real controller and quickly rose to fame in the Smash community beating everyone in local tournaments.
+
+Now you sit here 15 years later with chronic back pain, arthritis and resentment of what you have created, pondering of those days of yore when you beat your sibling in Smash.
+
+You no longer speak to your sibling except for the mandatory yearly BBQ your father desperately host to keep the family together. Every time your sibling pulls up the in your fathers driveway with his/her new car filled to the brim with Smash trophies and victory money... all you can do is communicate with grunts.
 
 
 ## The Ultimate Sibling Controller

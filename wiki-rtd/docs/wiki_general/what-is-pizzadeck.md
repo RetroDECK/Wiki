@@ -46,7 +46,7 @@ It features cutting edge Pizza integration tech that is only possible on PizzaDE
 - [Grocy ERP](/https://grocy.info) for smart ingredient reminders and dynamic shopping lists. Plan the entire day, month and life for Pizza making.
 - We got Docker and Kubernetes support. We also have support for even better containers, like the cans you inherited from your grandma for storing the Pizza Sauce (Thanks Gram!).
 - Smart IOT devices, follow the Pizza the entire way: Smart Fridge, Smart Oven / BBQ, Smart Temperature, Smart Utensils, Smart Plates and Smart Toilet.
-- PizzaDECK will work with whatever the next new monthly communication IOT standards are: Wireless, Z-Wave, Bee-Wave, LoRa, Lora from accounting, Zigbee, Zigfly, Zigtick, Bigby's Hand of IOT, Going back to wireless because nothing else works again.
+- PizzaDECK will work with whatever the next new monthly communication IOT standards are: Wireless, Z-Wave, Bee-Wave, LoRa, Lora from accounting, Zigbee, Zigfly, Zigtick, Bigby's Hand of IOT, Going back to wireless because nothing else works... again.
 - [Home Assistant](https://www.home-assistant.io/) for all your Pizza IOT needs, start making the Pizza when you open your smart garage port that you spent way too much money on.
 - It also features several other important buzzwords such as: Blockchain, Trianglerope, Generative AI, Degenerate AI, Deep Learning, Creep Learning.
 

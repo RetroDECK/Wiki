@@ -155,10 +155,10 @@ The `Gamecube / Wii Menu` in here you find hotkeys related to the Dolphin standa
 | Wii Sync Button         |   `Alt + W`          | `Dolphin/Primehack`                      |            |
 | Wiimote Upright         |   `Alt + Z`          | `Dolphin/Primehack`                      |            |
 | Wiimote Sideways        |   `Alt + X`          | `Dolphin/Primehack`                      |            |
-| Wiimote Sync - Player 1 |   `Alt + X`          | `Dolphin/Primehack`                      |            |
-| Wiimote Sync - Player 2 |   `Alt + X`          | `Dolphin/Primehack`                      |            |
-| Wiimote Sync - Player 3 |   `Alt + X`          | `Dolphin/Primehack`                      |            |
-| Wiimote Sync - Player 4 |   `Alt + X`          | `Dolphin/Primehack`                      |            |
+| Wiimote Sync - Player 1 |   `Alt + W + 1`      | `Dolphin/Primehack`                      |            |
+| Wiimote Sync - Player 2 |   `Alt + W + 2`      | `Dolphin/Primehack`                      |            |
+| Wiimote Sync - Player 3 |   `Alt + W + 3`      | `Dolphin/Primehack`                      |            |
+| Wiimote Sync - Player 4 |   `Alt + W + 4`      | `Dolphin/Primehack`                      |            |
 
 ### NDS Menu
 The `NDS Menu` in here you find hotkeys related to the MelonDS standalone emulator: Send Close/Open Lid, Send Play Microphone and Sunlight + / -.

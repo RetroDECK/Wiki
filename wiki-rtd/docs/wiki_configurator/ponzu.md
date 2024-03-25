@@ -1,16 +1,20 @@
 # Guide: Ponzu (Legacy AppImage Loader)
 
-<img src="../../../wiki_images/logos/ponzu.png" width="150">
+<img src="../../../wiki_images/logos/ponzu-logo.png" width="150">
 
 Ponzu is an temporary as-is function that is searching for user provided Citra and Yuzu AppImages and make them available as emulators inside RetroDECK.
 
-### Should this be seen as official support for the removed emulators?
+### Q: Should this be seen as official support for the removed emulators?
 
-No, the only official and supported defaults are Ryujinx and Citra-core in RetroArch.
+No we provide zero support, the the only official emulators we support for those systems are Ryujinx and Citra-core in RetroArch (as long as it is shipped as part of RetroArch).
 
-RetroDECK will not provide any new: configs, bugfixes, improvements or support towards the AppImages. There is also a risk that future updates can break the compatibility with the AppImages (because they are no longer maintained and dead), this is a as-is solution.
+Since the first day of our announcement on both Citra's and Yuzu's removal, we made it extremely clear that we will not provide any new: configurations, bug fixes, improvements, or any kind of support at all, for the these removed emulators. There is also a very substantial risk that future updates of RetroDECK will break the current temporary compatibility, this to be seen as a temporary as-is solution.
 
-We strongly recommenced everyone to just use Ponzu as a way to safely migrate to Ryujinx or the Citra-core (save and move).
+At the same moment we also updated our social rules to reflect that any type of discussion about these emulators will come with a warning first and then a ban.
+
+The only recommended use case of Ponzu is the intended function as safe way to migrate to Ryujinx or the Citra-core (finish up, save and move).
+
+We urge everyone to stop using these emulators.
 
 ## Where to put the AppImages
 

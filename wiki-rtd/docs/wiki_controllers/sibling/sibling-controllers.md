@@ -106,7 +106,7 @@ You realized in horror of the beast you had unleshed, like Goku from Dragonball 
 
 Now you sit here 15 years later with chronic back pain, arthritis and resentment of what you have created, pondering of those days of yore when you beat your sibling in Smash.
 
-You no longer speak to your sibling except for the mandatory yearly BBQ your father desperately host to keep the family together. Every time your sibling pulls up the in your fathers driveway with his/her new car filled to the brim with Smash trophies and victory money... all you can do is communicate with grunts.
+You no longer speak to your sibling except for the mandatory yearly BBQ your father desperately host to keep the family together. Every time your sibling pulls up the in your fathers driveway with his/her new car filled to the brim with Smash trophies and victory money... all you can do is communicate with grunts and pain.
 
 
 ## The Ultimate Sibling Controller

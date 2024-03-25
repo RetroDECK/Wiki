@@ -113,7 +113,7 @@ Everything was going well until that one day some years later your mom got you a
 
 You realized in horror of the monster you had created, like Goku from Dragonball that had rocks tied to his backs for years... you had unleashed a beast upon the world. Your sibling quickly decimated you in Smash with his/her ungodly skills using an official controller and quickly rose to fame in the Smash community beating everyone in local tournaments.
 
-Now you sit here 15 years later with chronic back pain, arthritis, and resentment of what you have created, pondering of those days of yore when you beat your sibling in Smash.
+Now you sit here 20 years later with chronic back pain, arthritis, and resentment of what you have created, pondering of those days of yore when you beat your sibling in Smash.
 
 You no longer speak to your sibling except for the mandatory yearly BBQ your father desperately hosts to keep the family together. Every time your sibling pulls up in your father's driveway with his/her new car filled to the brim with Smash trophies and victory money... all you can do is communicate with grunts and pain.
 

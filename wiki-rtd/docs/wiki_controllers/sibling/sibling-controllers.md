@@ -2,7 +2,7 @@
 
 Sibling Controllers is a broad category that encompasses the some parts of the third party controller space. <br>
 They are often controllers that are unconformable to hold, break easy or just look weird.<br>
-So you hand them over to your sibling or friend to make sure you win all the games.
+So you passive aggressively hand them over to your sibling or friend to make sure you win all the games.
 
 
 
@@ -76,3 +76,11 @@ Well Brad... you say you are the BEST in the world at Halo and you keep repeatin
 <img src= "../ultraracer-64.png" width="200">
 
 So you told dad that I took the last Mars from the candy drawer when in fact it was you... play with this little brother / sister.
+
+### The Super Pad
+
+<img src= "../super-pad-n64.png" width="200">
+
+You really need to win this Ready 2 Rumble Boxing match against your sibling, the looser get to clean the room.. give him / her this.
+
+## GameCube

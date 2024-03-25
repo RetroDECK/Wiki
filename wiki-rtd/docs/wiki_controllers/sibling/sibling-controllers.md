@@ -84,13 +84,15 @@ MadCatz took on the challenge of making an even more chungus version of OG Xbox 
 
 <img src= "../ultraracer-64.png" width="200">
 
-So, you told dad that I took the last Mars from the candy drawer when in fact it was you... play with this little brother / sister.
+Your sibling told your dad that you took the last Mars bar from the candy drawer in the kitchen, when in fact it was your sibling that took it...
+
+"OK...play with this from now on....  1 v 1, I'll be Oddjob as usual"".
 
 ### The Super Pad
 
 <img src= "../super-pad-n64.png" width="200">
 
-You really need to win this Ready 2 Rumble Boxing match against your sibling, the loser gets to clean the room... give him / her this.
+You really need to win this Ready 2 Rumble Boxing match against your sibling, the loser gets to clean the room... so you gave him / her this.
 
 ## GameCube
 
@@ -122,11 +124,11 @@ There exists one controller on the market that had supreme reigned supreme sever
 
 Of all the controllers on this list, no one gives you as much power and joy as the Fisher Price: Laugh & Learn - Game Controller. This controller is in fact designed by the top engineers at Fisher Price to be a sibling controller.
 
-Can you believe the audacity?! They designed the entire product around the premise of playing pranks and tricking your younger siblings to think that they are “good gamers” and playing with big brother / sister.
+Can you believe the audacity?! They designed the entire product around the premise of playing pranks and tricking your younger siblings to think that they are “good gamers” and gaming with big brother / sister.
 
 It is the ultimate sibling con, and nothing can ever top its place as the number one sibling controller of all time.
 
 
 **Little Sis/Bro:** I am the best at this game!
 
-**You:** Sure...sure... little sis/bro you are the best at this game! (You are not even playing, git gud MUHAHAHAHAHA!!!)"
+**You:** Sure...sure... little sis/bro you are the best at this game! (You are not even playing, MUHAHAHAHAHA!!!)"

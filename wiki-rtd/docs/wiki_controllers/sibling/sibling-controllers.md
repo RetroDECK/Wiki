@@ -34,7 +34,7 @@ This is the perfect controller for that friend that just cannot stop talking whe
 
 This is the controller for the one person that everyone in the friend group hated except for your best friend. Because this person was his/her friend and a major annoyance to your perfect friendship dynamic.
 
-When you told your mom you did not want to invite him/her you got sternly yelled at and you needed to invite everyone to play, even the toxic people. So as petty revenge you gave Brad?? this controller... good luck... Brad!
+When you told your mom you did not want to invite him/her you got sternly yelled at and you needed to invite everyone to play, even the toxic people. So as petty revenge you gave.. ?Brad? this controller... good luck... Brad!
 
 
 ### Samurai PS2

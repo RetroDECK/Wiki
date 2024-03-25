@@ -6,11 +6,13 @@ The creators of RetroDECK proudly present:
 
 PizzaDECK
 
-## Pizza Hub & PizzaBoxes
+## PizzaBoxes
 
-We at RetroDECK have teamed up with the creators of Flathub to bring the next generation of Open-Source Pizza packing solutions, PizzaBoxes.
+We at RetroDECK have intend to bring you the next generation of Open-Source Pizza packing solutions, PizzaBoxes.
 
-The two expert's teams bring years of flatness expertise of to the Open-Source market, we will make sure that the PizzaBox format is as flat as possible:
+RetroDECKs team of experts bring years of flatness expertise to the Open-Source community. We will make sure that the PizzaBox format is as flat as possible.
+
+The team has several key skillsets that other teams lack:
 
 - Italian knowledge of how to make Pizza even flatter.
 - Vast American expertise of running things over with monster trucks.
@@ -18,10 +20,14 @@ The two expert's teams bring years of flatness expertise of to the Open-Source m
 - Japanese mastery of the flattening of sea weeds.
 - The Chinese art of making Guo Kui.
 
-You can get all the recipes via PizzaBoxes with the new delivery system called Pizza Hub. We guarantee you Pizza recipes within 30 minutes or less.
+All of these things make the RetroDECK team... the best team to tackle this problem.
+
+## Pizza Hub
+
+You can get all the recipes via PizzaBoxes with the new delivery system called Pizza Hub. We guarantee you Pizza Open-Source recipes within 30 minutes or less.
 
 
-## What is PizzaDECK
+## What is PizzaDECK?
 
 PizzaDECK is a **ES**panol-**DE**utsch Fronend powered PizzaBox application that thanks to its `RetroDECK Ovenwork` builds-in a variety of cooking solutions, recipes and IOT integrations that is running in one package on the Steam Deck.
 

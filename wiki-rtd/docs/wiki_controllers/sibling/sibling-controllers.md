@@ -22,7 +22,7 @@ This is a trap style controller to stop your sibling from ruining all the import
 
 ### Nyko Airflow 2
 
-<img src= "../nyko-wireless-back-ps2.png" width="200"> <img src= "../nyko-airflow-ps2.png" width="150">
+<img src= "../nyko-wireless-back-ps2.png" width="200"> <img src= "../nyko-airflow-ps2.png" width="200">
 
 This is the perfect controller for that friend that just cannot stop talking when you play. The extremely loud fan will dampen out any vocal annoyances and allow you to concentrate on winning Tekken Tag Tournament.
 

@@ -18,7 +18,9 @@ Famous for being the core example of what a sibling controller is. Breaks easily
 
 <img src= "../nyko-ityp2-ps2.png" width="200">
 
-This is a trap style controller to stop your sibling from ruining all the important buttons on other controllers. As your sibling likes to press all the buttons all the time, this is the perfect option as there are so many options to press so he/she cannot break them all?... Hopefully!
+Your sibling likes to press all the buttons, all the time and keeps ruining all the good controllers! The NYKO iType 2 got you covered.
+
+It offers the perfect solution from saving your precious controllers from your siblings grubby little hands, there are so many options to press so he/she cannot break them all?! Right?! Please??!
 
 ### Nyko Airflow 2
 

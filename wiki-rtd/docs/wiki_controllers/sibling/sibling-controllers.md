@@ -4,6 +4,8 @@ Sibling Controllers is a broad category that encompasses the some parts of the t
 They are often controllers that are unconformable to hold, break easy or just look weird.<br>
 So you hand them over to your sibling or friend to make sure you win all the games.
 
+
+
 ## PlayStation 2
 
 The PS2 had a vast selection of sibling controllers
@@ -63,4 +65,14 @@ The Ascii Pad SNES is a bit unconformable but your sibling that was struggling i
 
 ### Gamemaster FPS
 
-<img src= "../asciipad-snes.png" width="200">
+<img src= "../gamemaster-fps-xbox.png" width="200">
+
+Well Brad... you say you are the BEST in the world at Halo and you keep repeating it over recess in school and won't just keep your mouth shut about it. Here you go Brad... WIN WITH THIS!
+
+## Nintendo 64
+
+### UltraRacer 64
+
+<img src= "../ultraracer-64.png" width="200">
+
+So you told dad that I took the last Mars from the candy drawer when in fact it was you... play with this little brother / sister.

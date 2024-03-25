@@ -1,10 +1,8 @@
 # Sibling Controllers
 
-Sibling Controllers is a broad category that encompasses the some parts of the third party controller space. <br>
-They are often controllers that are unconformable to hold, break easy or just look weird.<br>
-So you passive aggressively hand them over to your sibling or friend to make sure you win all the games.
-
-
+Sibling Controllers is a broad category that encompasses some parts of the third-party controller space. <br>
+They are often controllers that are unconformable to hold, break easy or just look weird. <br>
+So, you passively aggressively hand them over to your sibling or friend to make sure you win all the games.
 
 ## PlayStation 2
 
@@ -14,38 +12,40 @@ The PS2 had a vast selection of sibling controllers
 
 <img src= "../madcatz-ps2.png" width="200">
 
-Famous for being the mold example of what a sibling controller is. Breaks easily, is extremely unconformable and will increase your chances of winning by 50%.
+Famous for being the core example of what a sibling controller is. Breaks easily, is extremely uncomfortable and will increase your chances of winning by 50%.
 
 ### NYKO iType 2
 
 <img src= "../nyko-ityp2-ps2.png" width="200">
 
-This is a trap style controller to stop your sibling from ruining all the important buttons on other controllers. As your sibling likes to press all the buttons all the time, this is the perfect options as there is so many options to press so he/she can't break them all?... Right?!
+This is a trap style controller to stop your sibling from ruining all the important buttons on other controllers. As your sibling likes to press all the buttons all the time, this is the perfect option as there are so many options to press so he/she cannot break them all?... Hopefully!
 
 ### Nyko Airflow 2
 
 <img src= "../nyko-wireless-back-ps2.png" width="200"> <img src= "../nyko-airflow-ps2.png" width="150">
 
-This is the perfect controller for that friend that just can't stop talking when you play. The extremely loud fan will dampen out any vocal annoyances and allow you to concentrate on winning Tekken Tag Tournament.
+This is the perfect controller for that friend that just cannot stop talking when you play. The extremely loud fan will dampen out any vocal annoyances and allow you to concentrate on winning Tekken Tag Tournament.
 
 ### HyperMax 3
 
 <img src= "../hypermax3-ps2.png" width="200">
 
-This is the controller for the one person that everyone in the friend group hated except for your best friend. Because this person was his/her friend and a major annoyance to your perfect friendship dynamic. When you told your mom you did not want to invite him/her you got sternly yelled at and  you need to invite everyone to play even the toxic people. So as petty revenge you gave Brad?? this controller... good luck... Brad!
+This is the controller for the one person that everyone in the friend group hated except for your best friend. Because this person was his/her friend and a major annoyance to your perfect friendship dynamic.
+
+When you told your mom you did not want to invite him/her you got sternly yelled at and you needed to invite everyone to play, even the toxic people. So as petty revenge you gave Brad?? this controller... good luck... Brad!
 
 
 ### Samurai PS2
 
 <img src= "../samurai-ps2.png" width="200">
 
-One of your friends is extremely good at games and no matter what controller you throw at him/her...you loose. So you gave him/her the most unconformable controller you could find... the Samurai. If that friend still won you moved on to the one of your ultimate weapons.
+One of your friends is extremely good at games and no matter what controller you throw at him/her...you lose. So, you gave him/her the most unconformable controller you could find... the Samurai. If that friend still won, you moved on to one of your ultimate weapons.
 
 ### Resident Evil 4 - Chainsaw
 
 <img src= "../re4-chainsaw-ps2.png" width="200">
 
-So you just lost to your friend again on using the Samurai PS2 controller, this time you will not loose... you gave him/her this the scion of ultimate uncomfortablility for the PS2. The Resident Evil 4 Chainsaw controller:
+You just lost to your friend again on using the Samurai PS2 controller, this time you will not loose... you gave him/her this the scion of ultimate uncomfortablility for the PS2. The Resident Evil 4 Chainsaw controller:
 
 - It is big
 - It is bulky
@@ -59,7 +59,7 @@ This time you will win for sure!
 
 <img src= "../asciipad-snes.png" width="200">
 
-The Ascii Pad SNES is a bit unconformable but your sibling that was struggling in CO-OP games for the SNES needed a bit of a turbo boost... you would never use the this kind of turbo controller against your sibling right? To spam in Street Fighter 2??? RIGHT?!
+The Ascii Pad SNES is a bit unconformable but your sibling that was struggling in CO-OP games for the SNES needed a bit of a turbo boost... you would never use this kind of turbo controller against your sibling, right? To spam in Street Fighter 2??? RIGHT?!
 
 ## Xbox
 
@@ -67,14 +67,14 @@ The Ascii Pad SNES is a bit unconformable but your sibling that was struggling i
 
 <img src= "../gamemaster-fps-xbox.png" width="200">
 
-Well Brad... you say you are the BEST in the world at Halo and you keep repeating it over recess in school and won't just keep your mouth shut about it. Here you go Brad... WIN WITH THIS!
+Well Brad... you say you are the BEST in the world at Halo and you keep repeating it over recess in school and will not just keep your mouth shut about it. Here you go, Brad... WIN WITH THIS!
 
 
 ### MadCatz Xbox
 
 <img src= "../madcatz-xbox.png" width="200">
 
-MadCatz took on the challenge of making a even more chungus version of OG Xbox Controller that also breaks easily, a perfect fit for your sibling with small hands.
+MadCatz took on the challenge of making an even more chungus version of OG Xbox Controller that also breaks easily, a perfect fit for your sibling with small hands.
 
 ## Nintendo 64
 

@@ -116,6 +116,8 @@ Of all controllers on the market there is only one that reigns supreme and has s
 
 <img src= "../fisher-price-laugh-and-learn.png" width="200">
 
-Of all the controllers on this list no one gives you as the sibling more joy than tricking your younger sibling that he/she is playing with you, thinking they are the kings / queens of gaming... when in fact they are not. It is the ultimate sibling con, and nothing can ever top its place as the number 1 sibling controller of all time.
+Of all the controllers on this list no one gives you as the sibling more joy than tricking your younger sibling that he/she is playing with you, thinking they are the kings / queens of gaming... when in fact they are not.
+
+It is the ultimate sibling con, and nothing can ever top its place as the number 1 sibling controller of all time.
 
 "Sure...sure... little brother / sister look how good you are in this game... (You are not even playing MUHAHAHAHAHA)"

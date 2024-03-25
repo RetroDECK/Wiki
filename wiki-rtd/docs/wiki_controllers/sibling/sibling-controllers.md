@@ -105,7 +105,7 @@ Now you sit here 15 years later with chronic back pain, arthritis and resentment
 
 ## The Ultimate Sibling Controller
 
-Of all controllers on the market there is only one that raging supreme and have stood victorious for several console generations. It still holds the throne to this day as the ultimate sibling controller.
+Of all controllers on the market there is only one that reign supreme and have stood victorious for several console generations. It still holds the throne to this day as the ultimate sibling controller.
 
 ### Fisher Price: Laugh & Learn - Game Controller
 

@@ -1,6 +1,6 @@
 # PizzaDECK
 
-<img src="../../wiki_images/logos/rd-esde-logo.svg" width="400">
+<img src="../pizzadeck.png" width="400">
 
 The creators of RetroDECK proudly present:
 

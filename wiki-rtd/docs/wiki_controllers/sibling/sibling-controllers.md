@@ -38,7 +38,7 @@ This is the controller for the one person that everyone in the friend group hate
 
 When you told your mom you did not want to invite him/her you got sternly yelled at, and you got reminded that you need to invite everyone to play games, even the toxic people (thanks mom!).
 
-So as petty revenge you gave... Brad? this controller... good luck... Brad!
+So as petty revenge you gave... Brad... this controller... good luck... Brad!
 
 ### Samurai PS2
 

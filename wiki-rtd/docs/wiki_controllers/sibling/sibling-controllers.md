@@ -111,7 +111,7 @@ There you were, with your gameplan set and you only allowed your little sibling 
 
 Everything was going well until that one day some years later your mom got you a second official GameCube controller for your sibling to use.
 
-You realized in horror of the monster you had created, like Goku from Dragonball caring rocks on his backs for years... you had unleashed a beast upon the world. Your sibling quickly decimated you in Smash with his/her ungodly skills using an official controller and quickly rose to fame in the Smash community beating everyone in local tournaments.
+You realized in horror of the monster you had created, like Goku from Dragonball that had rocks tied to his backs for years... you had unleashed a beast upon the world. Your sibling quickly decimated you in Smash with his/her ungodly skills using an official controller and quickly rose to fame in the Smash community beating everyone in local tournaments.
 
 Now you sit here 15 years later with chronic back pain, arthritis, and resentment of what you have created, pondering of those days of yore when you beat your sibling in Smash.
 

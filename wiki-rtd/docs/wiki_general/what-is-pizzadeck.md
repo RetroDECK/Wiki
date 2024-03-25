@@ -37,7 +37,9 @@ Instead of having all different cookbooks and apps to cook Pizza, you only need 
 It features cutting edge Pizza integration tech that is only possible on the Steam Deck:
 
 - [Grocy ERP](/https://grocy.info) for smart ingredient and shopping lists. Plan the entire day, month and life for Pizza making.
-- Docker support and support for other containers like cans your grandma gave your for tomato sauce.
+- Docker and support for other containers, like the cans you inherited from your grandma for storing the Pizza Sauce (Thanks Gram!).
 - Smart IOT: Oven, BBQ, Temperature measurement and toilets.
 - PizzaDECK will work with the what ever the next new monthly communication IOT standards are: Wireless, Z-Wave, Bee-Wave, LoRa, Lora from accounting, Zigbee, Zigfly, Zigtick, Bigby's Hand of IOT, Going back to wireless because nothing else works again.
-- [Home Assistant](https://www.home-assistant.io/) for all your Pizza IOT needs, start making the Pizza when you open your smart garageport that you spent way to much money on.
+- [Home Assistant](https://www.home-assistant.io/) for all your Pizza IOT needs, start making the Pizza when you open your smart garage port that you spent way to much money on.
+
+

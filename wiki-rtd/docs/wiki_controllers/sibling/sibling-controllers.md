@@ -132,6 +132,11 @@ Can you believe the audacity?! They designed the entire product around the premi
 It is the ultimate sibling con, and nothing can ever top its place as the number one sibling controller of all time.
 
 
-**Little Sis/Bro:** I am the best at this game!
+"**Little Sis/Bro:** I am the best at this game!"
 
-**You:** Sure...sure... little sis/bro you are the best at this game! (You are not even playing, MUHAHAHAHAHA!!!)"
+"**You:** Sure...sure... little sis/bro you are the best at this game! (You are not even playing, MUHAHAHAHAHA!!!)"
+
+
+**Trivia:**
+
+Did you know that the Konami Code works on the Fisher Price: Laugh & Learn - Game Controller? It does!

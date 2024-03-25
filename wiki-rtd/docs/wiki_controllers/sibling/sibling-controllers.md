@@ -26,7 +26,9 @@ It offers the perfect solution from saving your precious controllers from your s
 
 <img src= "../nyko-wireless-back-ps2.png" width="200"> <img src= "../nyko-airflow-ps2.png" width="200">
 
-This is the perfect controller for that friend that just cannot stop talking when you play. The extremely loud fan will dampen out any vocal annoyances and allow you to concentrate on winning Tekken Tag Tournament.
+This is the perfect controller for that friend that just cannot stop talking when you play.
+
+The extremely loud fan will dampen out any vocal annoyances and allow you to concentrate on winning Tekken Tag Tournament.
 
 ### HyperMax 3
 
@@ -34,8 +36,9 @@ This is the perfect controller for that friend that just cannot stop talking whe
 
 This is the controller for the one person that everyone in the friend group hated except for your best friend. Because this person was his/her friend and a major annoyance to your perfect friendship dynamic.
 
-When you told your mom you did not want to invite him/her you got sternly yelled at and you needed to invite everyone to play, even the toxic people. So as petty revenge you gave.. ?Brad? this controller... good luck... Brad!
+When you told your mom you did not want to invite him/her you got sternly yelled at, and you got reminded that you need to invite everyone to play games, even the toxic people (thanks mom!).
 
+So as petty revenge you gave... Brad? this controller... good luck... Brad!
 
 ### Samurai PS2
 

@@ -8,7 +8,7 @@ PizzaDECK
 
 ## PizzaBoxes
 
-We at RetroDECK have intend to bring you the next generation of Open-Source Pizza packing solutions, PizzaBoxes.
+We at RetroDECK have intend to bring you the next generation of Open-Source Pizza contained packing solutions, PizzaBoxes.
 
 RetroDECKs team of experts bring years of flatness expertise to the Open-Source community. We will make sure that the PizzaBox format is as flat as possible.
 

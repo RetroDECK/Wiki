@@ -1,34 +1,42 @@
-# What is PizzaDECK?
+# PizzaDECK
 
 <img src="../../wiki_images/logos/rd-esde-logo.svg" width="400">
 
-PizzaDECK is a ESpanol-DEutsch Fronend powered PizzaBox application that thanks to its `RetroDECK Ovenwork` it builds-in a variety of cooking solutions recipes and IOT integrations that is running in one package on the SteamDeck.
+The creators of RetroDECK proudly present:
+
+PizzaDECK
+
+## Pizza Hub
+
+We at RetroDECK have teamed up with the creators of Flathub to bring the next generation of Open Source Pizza packing solutions, PizzaBoxes.
+
+The two experts teams brings years of flatness expertise of to the Open-Source market, we will make sure  that the PizzaBox format is as flat as possible:
+
+- Italian knowledge of how to make Pizza even flatter.
+- Vast American expertise of running things over with monster trucks.
+- Swedish dark wizardry of furniture packaging.
+- Japanese mastery of the flattening of sea weeds.
+
+You can get them all via the new delivery system called Pizza Hub and we garantuee you Pizza recipes within 30 minutues or less.
+
+
+
+
+## What is PizzaDECK
+
+PizzaDECK is a **ES**panol-**DE**utsch Fronend powered PizzaBox application that thanks to its `RetroDECK Ovenwork` builds-in a variety of cooking solutions, recipes and IOT integrations that is running in one package on the Steam Deck.
 
 
 ### What does that mean?
 
-It means that RetroDECK builds-in all the software that is running the the games and a frontend. RetroDECK then configures them for you and puts them into an all-in-one application you can download from Flathub.
+It means that PizzaDECK builds-in all the recipes and integrations needed for cooking the Pizza and a frontend. PizzaDECK then sends the relevant Pizza cooking data to various integrations via `RetroDECK Ovenwork` to make your perfect Pizza a reailtiy.
 
-By being one application RetroDECK can put all important files in one location instead of having them spread out over your entire system and even add features on top to orchestrate them seamlessly.
+Instead of having all diffrent cookbooks and apps to cook the Pizza, you only need one PizzaDECK.
 
 
 
-## The RetroDECK Framework
 
-As previously mentioned, RetroDECK also adds the `RetroDECK Framework` on top of the software that allows deeper integrations between the built-in software and easier exposure to a variety of features that you otherwise need to set for example per emulator basis to create a uniformity between them.
 
-The `RetroDECK Configurator` is the `Utility` that exposes some parts of the `RetroDECK Framework` to the RetroDECK users.
+## The RetroDECK Ovenwork
 
-**What can the RetroDECK Framework and by extent the RetroDECK Configurator do?**
-
-It can help with:
-
-- Compressing games
-- Easier `Texture Pack` and `Mod` management
-- File management
-- Tools for troubleshooting (BIOS Checker, Multi-File Structure Checker, Partial or full reset of functions)
-- Auto installing some free BIOSes
-- Install prebuilt Steam Input profiles for devices like the Steam Deck and external controllers
-- Easier management of `mods`, `roms`, `texture_packs`, `scraped media`, `screenshots`, `saves / states` `gamelists` and more
-- Give access to global presets that can be acitivated to configure things over many emulators in one go like: `RetroAchievements`
-  `Borders` `Widescreen Mode` `Swaping A/B X/Y for Nintendo Games`
+It features sed

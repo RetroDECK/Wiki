@@ -1,6 +1,6 @@
 # CEMU - General Guide
 
-<img src="../../wiki_images/logos/cemu-logo.png" width="150">
+<img src="../../../wiki_images/logos/cemu-logo.png" width="150">
 
 WIP
 
@@ -14,7 +14,7 @@ This will be changed in a later update to the BIOS folder.
 
 ## ES-DE Guide
 
-**This needs to be rewritten**
+**This needs to be rewritten for RetroDECK**
 
 The .wua archive format is the preferred method to use for Wii U games, but the method of using unpacked games is also documented here for reference.
 .wud and .wux files are supported as well, but these two formats are not discussed here as the .wua format is clearly the way to go in the future.

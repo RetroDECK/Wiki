@@ -1,10 +1,19 @@
 # PizzaDECK
 
-<img src="../pizzadeck.png" width="400">
-
 The creators of RetroDECK proudly present:
 
-PizzaDECK
+<img src="../../wiki_images/logos/pizzadeck-logo.png" width="400">
+
+
+## What is PizzaDECK?
+
+PizzaDECK is a **ES**panol-**DE**utsch Fronend powered PizzaBox application that thanks to its `RetroDECK Ovenwork` builds-in a variety of cooking solutions, recipes and IOT integrations that is running in one package on the Steam Deck.
+
+### What does that mean?
+
+It means that PizzaDECK builds in all the recipes and integrations needed for cooking the Pizza and a frontend. PizzaDECK then sends the relevant Pizza cooking data to various integrations via `RetroDECK Ovenwork` to make your perfect Pizza a reality.
+
+Instead of having all different cookbooks and apps to cook Pizza, you only need one PizzaDECK.
 
 ## PizzaBoxes
 
@@ -25,18 +34,6 @@ All of these things make the RetroDECK team... the best team to tackle this prob
 ## Pizza Hub
 
 You can get all the recipes via PizzaBoxes with the new delivery system called Pizza Hub. We guarantee you Pizza Open-Source recipes within 30 minutes or less.
-
-
-## What is PizzaDECK?
-
-PizzaDECK is a **ES**panol-**DE**utsch Fronend powered PizzaBox application that thanks to its `RetroDECK Ovenwork` builds-in a variety of cooking solutions, recipes and IOT integrations that is running in one package on the Steam Deck.
-
-
-### What does that mean?
-
-It means that PizzaDECK builds in all the recipes and integrations needed for cooking the Pizza and a frontend. PizzaDECK then sends the relevant Pizza cooking data to various integrations via `RetroDECK Ovenwork` to make your perfect Pizza a reality.
-
-Instead of having all different cookbooks and apps to cook Pizza, you only need one PizzaDECK.
 
 
 ## The RetroDECK Ovenwork

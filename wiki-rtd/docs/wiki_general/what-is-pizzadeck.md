@@ -6,7 +6,7 @@ The creators of RetroDECK proudly present:
 
 PizzaDECK
 
-## Pizza Hub
+## Pizza Hub & PizzaBoxes
 
 We at RetroDECK have teamed up with the creators of Flathub to bring the next generation of Open Source Pizza packing solutions, PizzaBoxes.
 
@@ -17,9 +17,7 @@ The two experts teams brings years of flatness expertise of to the Open-Source m
 - Swedish dark wizardry of furniture packaging.
 - Japanese mastery of the flattening of sea weeds.
 
-You can get them all via the new delivery system called Pizza Hub and we garantuee you Pizza recipes within 30 minutues or less.
-
-
+You can get all the recipes via PizzaBoxes with the new delivery system called Pizza Hub. We guarantee you Pizza recipes within 30 minutes or less.
 
 
 ## What is PizzaDECK

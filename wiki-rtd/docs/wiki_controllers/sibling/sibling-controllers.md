@@ -82,41 +82,40 @@ MadCatz took on the challenge of making a even more chungus version of OG Xbox C
 
 <img src= "../ultraracer-64.png" width="200">
 
-So you told dad that I took the last Mars from the candy drawer when in fact it was you... play with this little brother / sister.
+So, you told dad that I took the last Mars from the candy drawer when in fact it was you... play with this little brother / sister.
 
 ### The Super Pad
 
 <img src= "../super-pad-n64.png" width="200">
 
-You really need to win this Ready 2 Rumble Boxing match against your sibling, the looser get to clean the room.. give him / her this.
+You really need to win this Ready 2 Rumble Boxing match against your sibling, the loser gets to clean the room... give him / her this.
 
 ## GameCube
 
-GameCube had it's fare share of controller but no one more legendary then
+GameCube had its fair share of controller but no one more legendary then
 
 ### MadCatz GameCube
 
 <img src= "../madcatz-gc.png" width="200">
 
-This legendary controller has caused several family tragedies over the years. There you where, with your gameplan set and you only allowed your little sibling this awful and broken piece of controller while your where playing Smash.
+This legendary controller has caused several family tragedies over the years. There you were, with your gameplan set and you only allowed your little sibling this awful and broken piece of controller while you were playing Smash.
 
 Everything was going well until that one day some years later your mom got you a second official GameCube controller for your sibling to use.
 
-You realized in horror of the beast you had unleshed, like Goku from Dragonball caring rocks on his backs for years... you had created a monster. Your sibling decimated you in Smash with his/her ungodly skills with a real controller and quickly rose to fame in the Smash community beating everyone in local tournaments.
+You realized in horror of the beast you had unleashed, like Goku from Dragonball caring rocks on his backs for years... you had created a monster. Your sibling decimated you in Smash with his/her ungodly skills with a real controller and quickly rose to fame in the Smash community beating everyone in local tournaments.
 
-Now you sit here 15 years later with chronic back pain, arthritis and resentment of what you have created, pondering of those days of yore when you beat your sibling in Smash.
+Now you sit here 15 years later with chronic back pain, arthritis, and resentment of what you have created, pondering of those days of yore when you beat your sibling in Smash.
 
-You no longer speak to your sibling except for the mandatory yearly BBQ your father desperately host to keep the family together. Every time your sibling pulls up the in your fathers driveway with his/her new car filled to the brim with Smash trophies and victory money... all you can do is communicate with grunts and pain.
-
+You no longer speak to your sibling except for the mandatory yearly BBQ your father desperately hosts to keep the family together. Every time your sibling pulls up in your father's driveway with his/her new car filled to the brim with Smash trophies and victory money... all you can do is communicate with grunts and pain.
 
 ## The Ultimate Sibling Controller
 
-Of all controllers on the market there is only one that reign supreme and have stood victorious for several console generations. It still holds the throne to this day as the ultimate sibling controller.
+Of all controllers on the market there is only one that reigns supreme and has stood victorious for several console generations. It still holds the throne to this day as the ultimate sibling controller.
 
 ### Fisher Price: Laugh & Learn - Game Controller
 
 <img src= "../fisher-price-laugh-and-learn.png" width="200">
 
-Of all the controllers on this list no one gives you as the sibling more joy then tricking your younger sibling that he/she is playing with you, thinging they are the kings / queens of gaming... when in fact they are not. It is the ultimate sibling con and nothing can ever top it's place as the number 1 sibling controller of all time.
+Of all the controllers on this list no one gives you as the sibling more joy than tricking your younger sibling that he/she is playing with you, thinking they are the kings / queens of gaming... when in fact they are not. It is the ultimate sibling con, and nothing can ever top its place as the number 1 sibling controller of all time.
 
 "Sure...sure... little brother / sister look how good you are in this game... (You are not even playing MUHAHAHAHAHA)"

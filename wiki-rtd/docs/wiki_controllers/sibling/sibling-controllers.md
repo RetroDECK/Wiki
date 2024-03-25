@@ -107,6 +107,10 @@ Now you sit here 15 years later with chronic back pain, arthritis and resentment
 
 Of all controllers on the market there is only one that raging supreme and have stood victorious for several console generations. It still holds the throne to this day as the ultimate sibling controller.
 
+### Fisher Price: Laugh & Learn - Game Controller
+
 <img src= "../fisher-price-laugh-and-learn.png" width="200">
 
+Of all the controllers on this list no one gives you as the sibling more joy then tricking your younger sibling that he/she is playing with you, thinging they are the kings / queens of gaming... when in fact they are not. It is the ultimate sibling con and nothing can ever top it's place as the number 1 sibling controller of all time.
 
+"Sure...sure... little brother / sister look how good you are in this game... (You are not even playing MUHAHAHAHAHA)"

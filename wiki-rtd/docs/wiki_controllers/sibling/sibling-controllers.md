@@ -118,8 +118,13 @@ Of all controllers on the market there is only one that reigns supreme and has s
 
 <img src= "../fisher-price-laugh-and-learn.png" width="200">
 
-Of all the controllers on this list no one gives you as the sibling more joy than tricking your younger sibling that he/she is playing with you, thinking they are the kings / queens of gaming... when in fact they are not.
+Of all the controllers on this list, no one gives you as much power and joy as the Fisher Price: Laugh & Learn - Game Controller. This controller is in fact designed by the top engineers at Fisher Price to be a sibling controller.
+
+Can you believe the audacity?! They designed the entire product around the premise of playing pranks and tricking your younger siblings to think that they are “good gamers” and playing with big brother / sister.
 
 It is the ultimate sibling con, and nothing can ever top its place as the number one sibling controller of all time.
 
-"Sure...sure... little brother / sister look how good you are in this game... (You are not even playing MUHAHAHAHAHA)"
+
+**Little Sis/Bro:** I am the best at this game!
+
+**You:** Sure...sure... little sis/bro you are the best at this game! (You are not even playing, git gud MUHAHAHAHAHA!!!)"

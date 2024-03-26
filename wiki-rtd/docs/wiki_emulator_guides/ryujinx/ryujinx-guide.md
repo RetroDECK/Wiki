@@ -35,3 +35,4 @@ The directory tree should look like this example:
 │   └── title.keys
 └── registered
     └── XXX amount of .nca files goes here
+```

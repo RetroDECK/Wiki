@@ -23,8 +23,8 @@ Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | F10          |   `F10`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F10.png" width="20">   |  |
 | Restart / Reset      |   `CTRL + R`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`          |  <img src="../../../wiki_icons/binding_icons/RD-system-reboot.png" width="20">        |   |
 | Wii Sync Button          |   `ALT + W`          |  `Dolphin/Primehack`  | <img src="../../../wiki_icons/binding_icons/RD-notification-network-wireless.png" width="20">    |  |
-| Wiimote Upright          |   `ALT + Z`          |  `Dolphin/Primehack`  | <img src="../../../wiki_icons/binding_icons/RD-mote-up.png" width="20">    |  |
-| Wiimote Sideways          |   `ALT + X`          |  `Dolphin/Primehack`  | <img src="../../../wiki_icons/binding_icons/RD-mote-side.png" width="20">    |  |
+| Wiimote Upright          |   `ALT + Z`          |  `Dolphin/Primehack`  | <img src="../../../wiki_icons/binding_icons/RD-wiimote-up.png" width="20">    |  |
+| Wiimote Sideways          |   `ALT + X`          |  `Dolphin/Primehack`  | <img src="../../../wiki_icons/binding_icons/RD-wiimote-side.png" width="20">    |  |
 | Swap - Dual Screens          |   `CTRL + TAB`          |  `RetroArch` `Citra (Legacy)` `MelonDS` `Cemu`| <img src="../../../wiki_icons/binding_icons/RD-system-switch-user.png" width="20">    |  |
 | Change - Dual Screen Layout          |   `CTRL + L`          |  `Citra (Legacy)` | <img src="../../../wiki_icons/binding_icons/RD-preferences-system-windows-actions.png" width="20">    |  |
 | Widescreen / Aspect Ratio        |   `CTRL + W`          |  `Dolphin/Primehack` `Duckstation` `PCSX2`	 | <img src="../../../wiki_icons/binding_icons/RD-preferences-desktop-display.png" width="20">    |  |

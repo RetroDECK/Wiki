@@ -18,7 +18,7 @@ This will be changed in a later update to the BIOS folder.
 
 > *As of Cemu Flatpak version 2.0-72 experimental, connection results are still mixed. Steps are applicable, just waiting on a more favorable release*
 
-1. To create a Pretendo Network account, [follow this link] (https://pretendo.network/account/register)
+1. To create a Pretendo Network account, [follow this link] (https://pretendo.network/account/register) and then follow [these instructions](https://pretendo.network/docs/install/wiiu) to log in with your Pretendo Network account on a Wii U
 
     - Existing NNID are not usable on Pretendo Network, you must create a Pretendo account for Pretendo Network
 
@@ -26,7 +26,7 @@ This will be changed in a later update to the BIOS folder.
 
 **RetroDECK specific file locations:**
 
--  Wii U User Account’s usr and sys folders
+-  Wii U User Account’s `usr` and `sys` folders
     - Whatever `MLC Path` in `Options` -> `General settings` is configured to
     - by default it’s `<RetroDECK install location>/retrodeck/bios/Cemu`
   

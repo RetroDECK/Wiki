@@ -119,17 +119,17 @@ The `MAME Menu` here find hotkeys related to the MAME (Standalone) emulator.
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
 | :---                    | :---:                |       :---:           |  :---:     |
-| Service Mode            |   `Alt + 0`          |   `MAME`              |            |
-| Service Button 1        |   `Alt + 1`          |   `MAME`              |             |
-| Service Button 2        |   `Alt + 2`          |   `MAME`                    |            |
-| Service Button 3        |   `Alt + 3`          |   `MAME`                    |            |
-| Service Button 4        |   `Alt + 4`          |    `MAME`                   |            |
-| Insert Bill / Note      |   `Alt + 5`          |    `MAME`                  |            |
-| Tilt                    |   `Alt + 6`          |     `MAME`                  |            |
-| Tilt - Player 1         |   `Alt + 6`          |     `MAME`                  |            |
-| Tilt - Player 1         |   `Alt + 6`          |     `MAME`                  |            |
-| Tilt - Player 1         |   `Alt + 6`          |     `MAME`                  |            |
-| Tilt - Player 1         |   `Alt + 6`          |     `MAME`                  |            |
+| Service Mode            |   `Alt + S + 0`         |   `MAME`              |            |
+| Service Button 1        |   `Alt + S + 1`        |   `MAME`              |             |
+| Service Button 2        |   `Alt + S + 2`         |   `MAME`                    |            |
+| Service Button 3        |   `Alt + S + 3`         |   `MAME`                    |            |
+| Service Button 4        |   `Alt + S + 4`         |    `MAME`                   |            |
+| Insert Bill / Note      |   `Alt + B + 1`          |    `MAME`                  |            |
+| Tilt                    |   `Alt + T + 0`          |     `MAME`                  |            |
+| Tilt - Player 1         |   `Alt + T + 1`         |     `MAME`                  |            |
+| Tilt - Player 1         |   `Alt + T + 2`         |     `MAME`                  |            |
+| Tilt - Player 1         |   `Alt + T + 3`          |     `MAME`                  |            |
+| Tilt - Player 1         |   `Alt + T + 4`         |     `MAME`                  |            |
 
 ### RetroArch Menu
 The `RetroArch Menu` in here you find hotkeys related to the RetroArch emulator.

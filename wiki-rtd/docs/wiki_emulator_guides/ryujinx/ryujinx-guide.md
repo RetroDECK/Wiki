@@ -21,22 +21,17 @@ WIP
 
 ## Does Ryujinx require BIOS or Firmware?
 
+Needs the key files `prod.keys`, `title.keys` and the firmware files in the following directories:
 
 **Keys:** `~/retrodeck/bios/switch/keys`
 
 **Firmware:** `~/retrodeck/bios/switch/registered`
 
 The directory tree should look like this example:
-
 ```
 ~/retrodeck/bios/switch
 ├── keys
 │   ├── prod.keys
 │   └── title.keys
 └── registered
-    ├── 02259fd41066eddbc64e0fdd217d9d2f.nca
-    ├── 02582a2cd46cc226ce72c8a52504cd97.nca
-    ├── 02b1dd519a6df4de1b11871851d328a1.nca
-    ├── other 217 files...
-    └── fd0d23003ea5602c24ac4e41101c16fd.nca
-```
+    └── XXX amount of .nca files goes here

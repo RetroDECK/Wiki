@@ -1,9 +1,9 @@
 # RetroDECK Versions
 
-## Version 0.8b - (In Development)
+## 0.8.0b Branch
 - SOON
 
-## Version 0.7b
+## 0.7.0b Branch
 - [0.7.6b](version_0.7.0b/0.7.6b.md)
 - [0.7.5b](version_0.7.0b/0.7.5b.md)
 - [0.7.4b](version_0.7.0b/0.7.4b.md)
@@ -12,7 +12,7 @@
 - [0.7.1b](version_0.7.0b/0.7.1b.md)
 - [0.7.0b](version_0.7.0b/0.7.0b.md)
 
-## Version 0.6b
+## 0.6.0b Branch
 - [0.6.6b](version_0.6.0b/0.6.6b.md)
 - [0.6.5b](version_0.6.0b/0.6.5b.md)
 - [0.6.4b](version_0.6.0b/0.6.4b.md)
@@ -21,7 +21,7 @@
 - [0.6.1b](version_0.6.0b/0.6.1b.md)
 - [0.6.0b](version_0.6.0b/0.6.0b.md)
 
-## Version 0.5b
+## 0.5.0b Branch
 
 - [0.5.3b](version_0.5.0b/0.5.3b.md)
 - [0.5.2b](version_0.5.0b/0.5.2b.md)

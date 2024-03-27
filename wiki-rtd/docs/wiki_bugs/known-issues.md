@@ -1,7 +1,7 @@
 # Known issues
 
 What follows is a list of known issues.
-For a list of reported bugs please check here on github: [RetroDECK issues](https://github.com/XargonWan/RetroDECK/issues/)
+For a list of reported bugs please check here on github: [RetroDECK issues](https://github.com/XargonWan/RetroDECK/issues?q=is%3Aissue+is%3Aopen+label%3A%22Bug+%F0%9F%95%B7%EF%B8%8F%22)
 
 ## Emulator / Engine Issues
 

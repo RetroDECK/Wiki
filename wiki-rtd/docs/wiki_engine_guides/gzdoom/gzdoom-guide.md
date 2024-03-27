@@ -88,7 +88,7 @@ Doomworld is the lifeblood of DOOM community, generations of knowledge and a vas
 
 **Doomwiki:**
 
-[List of notable WADs](https://doomwiki.org/wiki/List_of_notable_WAD)
+[List of notable WADs](https://doomwiki.org/wiki/List_of_notable_WADs)
 
 **ModDB:**
 

@@ -40,7 +40,7 @@ Optional extra binds that can come into play for certain Project Brutality or Br
 |  Action                                    |    Button        |    Comment      |
 | :---                                      | :---:           |         :---:   |
 | Quick Melee / Special Action              |   `L1`          |                 |
-| Throw Grenade / Second Special Action     |   `L2`          |    Replaces Zoom (must mods use Secondary Fire for this anyhow)          |
+| Throw Grenade / Second Special Action     |   `L2`          |    Replaces Zoom (most DOOM mods use Secondary Fire for this anyhow)          |
 | Dash                                      |   `R3`          |    Replaces Quick Turn           |
 
 ### The mod needs more or other extra inputs

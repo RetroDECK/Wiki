@@ -4,7 +4,6 @@
 - SOON
 
 ## Version 0.7b
-- [0.7.7b](version_0.7.0b/0.7.7b.md)
 - [0.7.6b](version_0.7.0b/0.7.6b.md)
 - [0.7.5b](version_0.7.0b/0.7.5b.md)
 - [0.7.4b](version_0.7.0b/0.7.4b.md)

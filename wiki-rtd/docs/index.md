@@ -1,8 +1,4 @@
-{% if READTHEDOCS %}
 <img src="{% if BRANCH_NAME == 'cooker' %}wiki-rtd/docs/wiki_images/logos/rd-esde-logo-cooker.png{% else %}wiki_images/logos/rd-esde-logo.svg{% endif %}" width="600">
-{% endif %}
-
-
 
 # Welcome to the RetroDECK wiki!
 

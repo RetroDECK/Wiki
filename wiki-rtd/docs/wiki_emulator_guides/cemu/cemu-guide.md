@@ -35,11 +35,11 @@ This will be changed in a later update to the BIOS folder.
 
 ## ES-DE Guide
 
-The .wua archive format is the preferred method to use for Wii U games, but the method of using unpacked games is also documented here for reference.
-.wud and .wux files are supported as well, but these two formats are not discussed here as the .wua format is clearly the way to go in the future.
+The `.wua` archive format is the preferred method to use for Wii U games, but the method of using unpacked games is also documented here for reference.
+`.wud` and `.wux` files are supported as well, but these two formats are not discussed here as the `.wua` format is clearly the way to go in the future.
 
 **Method 1, using .wua files**<br>
-Start Cemu and install the game, any updates as well as optional DLCs to the Cemu NAND. After the installation is completed, open the Title Manager from the Tools menu, select your game, right click and select Convert to compressed Wii U archive (.wua) and select your wiiu system directory as the target. You can modify the file name if you want to, or keep it at its default value. Press the Save button and the game will be automatically packaged as a .wua file.
+Start Cemu and install the game, any updates as well as optional DLCs to the Cemu NAND. After the installation is completed, open the Title Manager from the Tools menu, select your game, right click and select Convert to compressed Wii U archive (`.wua`) and select your wiiu system directory as the target. You can modify the file name if you want to, or keep it at its default value. Press the Save button and the game will be automatically packaged as a `.wua` file.
 Following this, just start ES-DE and the game should be shown as a single entry that can be launched using Cemu.
 
 **Method 2, unpacked games**<br>
@@ -59,4 +59,4 @@ It should now look something like the following:
 - `/run/media/<SD card name>/retrodeck/roms/wiiu/Super Mario 3D World/content`
 - `/run/media/<SD card name>/retrodeck/roms/wiiu/Super Mario 3D World/meta`
 
-Starting ES-DE should now show the Super Mario 3D World entry for the Wii U system. The actual game file with the extension .rpx is stored inside the code directory, and does not normally match the name of the game. For this example it's named RedCarpet.rpx. When scraping the .rpx file you therefore need to refine the search and manually enter the game name. ES-DE fully supports scraping of directories, so you can scrape the Super Mario 3D World folder as well.
+Starting ES-DE should now show the Super Mario 3D World entry for the Wii U system. The actual game file with the extension `.rpx` is stored inside the code directory, and does not normally match the name of the game. For this example it's named `RedCarpet.rpx`. When scraping the `.rpx` file you therefore need to refine the search and manually enter the game name. ES-DE fully supports scraping of directories, so you can scrape the Super Mario 3D World folder as well.

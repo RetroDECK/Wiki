@@ -13,7 +13,7 @@ Generally the bios files should be put in `~/retrodeck/bios` but there could be 
 Some cores may need some BIOS files to work or run correctly.
 [Official Libretro BIOS Guide](https://docs.libretro.com/guides/bios/)
 
-## Yuzu (Legacy) & Ryujinx
+## Ryujinx / Yuzu (Legacy)
 
 Needs the key files `prod.keys`, `title.keys` and the firmware files in the following directories:
 
@@ -28,11 +28,7 @@ The directory tree should look like this example:
 │   ├── prod.keys
 │   └── title.keys
 └── registered
-    ├── 02259fd41066eddbc64e0fdd217d9d2f.nca
-    ├── 02582a2cd46cc226ce72c8a52504cd97.nca
-    ├── 02b1dd519a6df4de1b11871851d328a1.nca
-    ├── other 217 files...
-    └── fd0d23003ea5602c24ac4e41101c16fd.nca
+    └── XXX amount of .nca files goes here
 ```
 
 ## XEMU (Xbox)

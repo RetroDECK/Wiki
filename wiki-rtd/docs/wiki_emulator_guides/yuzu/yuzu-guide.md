@@ -2,13 +2,7 @@
 
 <img src="../../../wiki_images/logos//yuzu-logo.svg" width="150">
 
-Yuzu was a Switch emulator.
-
----
-
-Yuzu was removed as part of the 0.8.0b update.
-
----
+Yuzu was a Switch emulator and was removed as part of the 0.8.0b update.
 
 ## Where to put the games?
 
@@ -19,9 +13,10 @@ The games can come in many different formats: `XCI` `NSP` `NCA` `NSO` `NRO`.
 
 Yes, `prod.keys` `title.keys` and `nca` files.
 
-### Where do I put the BIOS and firmware files?
 
-Yuzu needs the key files `prod.keys`, `title.keys` and the firmware files in the following directories:
+## Yuzu
+
+Needs the key files `prod.keys`, `title.keys` and the firmware files in the following directories:
 
 **Keys:** `~/retrodeck/bios/switch/keys`
 
@@ -35,11 +30,7 @@ The directory tree should look like this example:
 │   ├── prod.keys
 │   └── title.keys
 └── registered
-    ├── 02259fd41066eddbc64e0fdd217d9d2f.nca
-    ├── 02582a2cd46cc226ce72c8a52504cd97.nca
-    ├── 02b1dd519a6df4de1b11871851d328a1.nca
-    ├── other 217 files...
-    └── fd0d23003ea5602c24ac4e41101c16fd.nca
+    └── XXX amount of .nca files goes here
 ```
 
 ## How do I install DLC and Updates?

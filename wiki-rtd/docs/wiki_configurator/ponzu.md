@@ -32,7 +32,7 @@ Where `*` means that there can be a combination of any character.
 - Run Ponzu - Remove Ponzu
 - This removes the Emulators.
 
-Your saves and games will not be deleted, so if you decide to re-install them everything will be as you left, except for the configurations that they will reset as RetroDECK legacy defaults.
+Your saves and games will not be deleted, so if you decide to re-install them everything will be as you left, except for the configurations those will be defaulted.
 
 ## A Full Reset will remove the Emulators
 

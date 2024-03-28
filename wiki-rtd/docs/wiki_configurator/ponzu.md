@@ -1,6 +1,6 @@
 # Guide: Ponzu (Legacy AppImage Loader)
 
-<img src="../../../wiki_images/logos/ponzu-logo.png" width="150">
+<img src="../../wiki_images/logos/ponzu-logo.png" width="150">
 
 Ponzu is an temporary as-is function that is searching for user provided Citra and Yuzu AppImages and make them available as emulators inside RetroDECK.
 

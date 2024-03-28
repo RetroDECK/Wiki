@@ -38,7 +38,7 @@ Since the one of the recent Steam Client updates, there is a bug that causes Ste
 
 Possible solutions by our users and team members:
 
-- Try and use the RetroDECK Profile as the Desktop Profile and turning off the Game Profile.
+- Try to turn off the RetroDECK's Steam Input: `Select RetroDECK in Steam` -> `Properties` -> `Controller` -> `Disable Steam Input`. Then go to `Steam` -> `Settings` -> `Controller` -> `Desktop Profile` and `Apply the RetroDECK Layout` under Templates for the controller you are using.
 - Going into big picture and launching RetroDECK from there.
 - Starting big picture, exiting big picture and then launching RetroDECK from the Desktop Client.
 

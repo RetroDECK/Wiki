@@ -21,7 +21,7 @@ Where `*` means that there can be a combination of any character.
 ## How to:
 
 - Create the `retrodeck/ponzu/` folder
-- COPY the AppImages into the folder.
+- COPY the AppImages into the folder (as they will be deleted during the process).
 - Open RetroDECK and wait.
 - When RetroDECK starts and the ES-DE Frontend is loaded go to `Other Settings` -> `Alternative Emulators` to set the new defaults.
 

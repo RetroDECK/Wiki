@@ -202,7 +202,8 @@ nav:
       - Folders and Filepaths: wiki_development/general/folders-filepaths.md
       - Start with Development (WIP): wiki_development/general/general-development.md
     - Testing 📝:
-      - How do I help out with testing?: wiki_development/testing//general-testing.md
+      - How do I help out with testing?: wiki_development/testing/general-testing.md
+      - Release Candidate Testing: wiki_development/testing/release-candidate-testing
 
   - Files & Game Management 📂:
     - Game Compability Lists: wiki_management/retrodeck-move.md

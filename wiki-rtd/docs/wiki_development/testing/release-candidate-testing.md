@@ -1,6 +1,9 @@
 # Release Candidate: Cooker Testing
 
-If you are on SteamOS make sure you are in `Desktop Mode` before you begin, you must also have set a sudo password.
+If you are on SteamOS make sure you are in `Desktop Mode` before you begin.
+
+**Do not use the the Rowan Skye Method**
+We do not recommend to blindly install the Cooker without reading this guide and just hope for the best aka the `Rowan Skye Method`. This is only recommended for chaotic blue dragonic wolfkin testers living on the edge.
 
 ## Step 1: Take some Backups
 

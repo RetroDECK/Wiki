@@ -46,7 +46,7 @@ You should just be able to double click on the .`flatpak` file and what ever app
 #### CLI
 
 Run the following command from where you have downloaded the `.flatpak` file. <br>
-`flatpak install RetroDECK.flatpak`
+`flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak`
 
 
 ## How do I uninstall RetroDECK Cooker?

@@ -47,7 +47,7 @@ The upgrade process will now start.
 
 **IMPORTANT:**
 
-Under NO circumstances press the `Full Wipe and Fresh Install` button. That is not to be confused with Configurators `Reset RetroDECK` option, but this a `Nuke Everything` option. Ut will remove all of RetroDECK including all ROMS/BIOS/Downloaded Media and everything else you have forever.
+Under NO circumstances press the `Full Wipe and Fresh Install` button. That is not to be confused with Configurators `Reset RetroDECK` option, but this a `Nuke Everything` option. It will remove all of RetroDECK including all ROMS/BIOS/Downloaded Media and everything else you have forever.
 
 ### Upgrading:
 

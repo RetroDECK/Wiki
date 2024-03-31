@@ -1,6 +1,6 @@
 # Release Candidate: Cooker Testing
 
-If you are on SteamOS make sure you are in `Desktop Mode` before you begin.
+If you are on `SteamOS` like on the Steam Deck make sure you are in `Desktop Mode` before you begin.
 
 **Do not use the the Rowan Skye Method**
 
@@ -92,7 +92,9 @@ This is what should happend in the post migration.
 
 ## Step 5: Start testing
 
-On the SteamOS return to `Game Mode` for this step.
+If you are on `SteamOS` like on the Steam Deck return to `Game Mode` for this step.
+
+If you are on `Linux Desktop` make sure you launch RetroDECK via Steam, else Steam Input won't work.
 
 Now feel free to test all the new features of the update and report any issues, check the patch notes for what is new.
 

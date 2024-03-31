@@ -7,7 +7,7 @@ The creators of RetroDECK proudly present:
 
 ## What is PizzaDECK?
 
-PizzaDECK is a **ES**panol-**DE**utsch Fronend powered PizzaBox application that thanks to its `RetroDECK Ovenwork` builds-in a variety of cooking solutions, recipes and IOT integrations that is running in one package on the Steam Deck.
+PizzaDECK is a **ES**panol-**DE**utsch Fronend powered PizzaBox application that thanks to its `RetroDECK Ovenwork` builds-in a variety of cooking solutions, recipes and IOT integrations that is running in one package on the Steam Deck or your Linux PC.
 
 ### What does that mean?
 
@@ -17,9 +17,9 @@ Instead of having all different cookbooks and apps to cook Pizza, you only need 
 
 ## PizzaBoxes
 
-We at RetroDECK have the intention to bring you the next generation of Open-Source Pizza contained packing solutions, PizzaBoxes.
+We at RetroDECK have the intention to bring you the next generation of Open-Source Pizza contained packing solutions, `PizzaBoxes`.
 
-RetroDECKs team of experts bring years of flatness expertise to the Open-Source community. We will make sure that the PizzaBox format is as flat as possible.
+RetroDECKs team of experts bring years of flatness expertise to the Open-Source community. We will make sure that the `PizzaBox format` is as flat as possible.
 
 The team has several key skillsets that other teams lack:
 
@@ -29,11 +29,11 @@ The team has several key skillsets that other teams lack:
 - Japanese mastery of the flattening of sea weeds.
 - The Chinese art of making Guo Kui.
 
-All of these things make the RetroDECK team... the best team to tackle this problem.
+All of these things make the RetroDECK team... The best team in Open-Source to tackle the flatness problem.
 
 ## Pizza Hub
 
-You can get all the recipes via PizzaBoxes with the new delivery system called Pizza Hub. We guarantee you Open-Source Pizza recipes within 30 minutes or less.
+In addition you can get all the recipes via the `PizzaBoxes` with the new delivery system called `Pizza Hub`. We guarantee you Open-Source Pizza recipes within 30 minutes or less.
 
 
 ## The RetroDECK Ovenwork

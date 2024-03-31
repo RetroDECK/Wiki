@@ -20,11 +20,11 @@ Generally, very few things would target the roms folder, but the other folders c
 
 **Disclamer:**
 
-The RetroDECK Team also had never had any major data loss so far and we do cooker updates almost daily.
+The RetroDECK Team also had never had any major data loss so far and we do Cooker updates almost daily.
 
 ## Step 2: Download the Cooker
 
-- Download the latest cooker release from: [RetroDECK Cooker: Latest](https://github.com/XargonWan/RetroDECK-cooker/releases/latest) to your download folder.
+- Download the latest Cooker release from: [RetroDECK Cooker: Latest](https://github.com/XargonWan/RetroDECK-cooker/releases/latest) to your download folder.
 - Make a note of the `<version_id>` that is a randomly generated word, example: `cooker-X.X.Xb-HelloWorld`, in this example it's `HelloWorld`.
 
 ## Step 3: Terminal
@@ -42,16 +42,31 @@ Open the terminal window.
 
 Under **NO** circumstances press the `Full Wipe and Fresh Install` button. That is **NOT** to be confused with Configurators `Reset RetroDECK` option. This in fact a `Nuke Everything` option, it will remove all of RetroDECK including all ROMS/BIOS/Downloaded Media and everything else you have in RetroDECK's folders...forever.
 
-### Upgrading:
+### Upgrading RetroDECK
 
 - After the installation is complete type:  `flatpak run --command=sh net.retrodeck.retrodeck` followed by `retrodeck`.
 - Press the `Upgrade` button and keep the installation moving until all the steps are complete and RetroDECK will launch.
 - Quit RetroDECK again and save all the output from the terminal into a text file.
 
+### Upgrading from Cooker to Cooker.
+
+Always stay on the latest Cooker release, note that the Cooker auto updater might be bug out sometimes. It might be better just to download the latest Cooker file github.
+
+After doing the upgrade make sure you are on the right Cooker version via the ES-DE menu.
+
+Minor releases are released to fix reported issues / bugs.
+
+If a new minor release is out test if the issues are still there and if they are report to the RetroDECK Team via the Beta-Testing channel on discord.
+
+You can always follow the lastest Cooker releases there as well, with direct links to download them.
 
 ---
 
 ## 0.8.0b upgrade & testing
+
+Check the [0.8.0b Patch Notes](../../wiki_rd_versions/version_0.8.0b/0.8.0b.md) for all the changes.
+
+### When upgrading from 0.7.6b Stable to 0.8.0b Cooker
 
 **IMPORTANT:**
 
@@ -87,6 +102,7 @@ This is what should happend in the post migration.
 - Rename the folder ~/retrodeck/bios/switch/registered to ~/retrodeck/bios/switch/firmware
 - Default ROMs folders should be recreated by ES-DE to add new systems
 ```
+
 
 ---
 

@@ -203,7 +203,7 @@ nav:
       - Start with Development (WIP): wiki_development/general/general-development.md
     - Testing 📝:
       - How do I help out with testing?: wiki_development/testing/general-testing.md
-      - Release Candidate Testing: wiki_development/testing/release-candidate-testing
+      - Release Candidate Testing: wiki_development/testing/release-candidate-testing.md
 
   - Files & Game Management 📂:
     - Game Compability Lists: wiki_management/retrodeck-move.md

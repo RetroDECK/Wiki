@@ -14,9 +14,9 @@ First take some backups:
 - Make a copy of `~/.var/app/net.retrodeck.retrodeck/` folder and name it `old.net.retrodeck.retrodeck`
 - Make a full back up or partial backups of the retrodeck folder normally under `~/retrodeck` or sdcard/other drive.
 
-**Notes on the retrodeck folder back up:**
+**On retrodeck folder backups:**
 
-Generally, very few things would target the roms folder, but the other folders could be targeted for various scripts. Our recommendation would be to back up the full `/retrodeck` folder, but as a tester you can decide how much you want to risk.
+Generally, very few things would target the roms folder, but the other folders could be targeted for various scripts. Our recommendation would be to back up the full `~/retrodeck` folder, but as a tester you can decide how much you want to risk.
 
 **Disclamer:**
 
@@ -24,8 +24,8 @@ The RetroDECK Team also had never had any major data loss so far and we do cooke
 
 ## Step 2: Download the Cooker
 
-- Download the latest cooker release from: https://github.com/XargonWan/RetroDECK-cooker/releases/latest to your download folder
-- Make a note of the version id, is a randomly generated word written like cooker-0.8.0b-**HelloWorld**, in this example it's "HelloWorld"
+- Download the latest cooker release from: [RetroDECK Cooker: Latest](https://github.com/XargonWan/RetroDECK-cooker/releases/latest) to your download folder.
+- Make a note of the <version_id>, is a randomly generated word written like cooker-0.8.0b-<HelloWorld>, in this example it's `HelloWorld`.
 
 ## Step 3: Terminal
 
@@ -48,7 +48,10 @@ Under **NO** circumstances press the `Full Wipe and Fresh Install` button. That 
 - Press the `Upgrade` button and keep the installation moving until all the steps are complete and RetroDECK will launch.
 - Quit RetroDECK again and save all the output from the terminal into a text file.
 
-#### When upgrading
+
+---
+
+## 0.8.0b upgrade & testing
 
 **IMPORTANT:**
 
@@ -84,6 +87,7 @@ This is what should happend in the post migration.
 - Rename the folder ~/retrodeck/bios/switch/registered to ~/retrodeck/bios/switch/firmware
 - Default ROMs folders should be recreated by ES-DE to add new systems
 ```
+---
 
 ## Step 5: Start testing
 

@@ -3,7 +3,9 @@
 If you are on SteamOS make sure you are in `Desktop Mode` before you begin.
 
 **Do not use the the Rowan Skye Method**
-We do not recommend to blindly install the Cooker without reading this guide and just hope for the best aka the `Rowan Skye Method`. This is only recommended for chaotic blue dragonic wolfkin testers living on the edge.
+
+We do not recommend to blindly install the Cooker without reading this guide and just hope for the best aka the `Rowan Skye Method`. <br>
+This is only recommended for chaotic blue draconic wolfkin testers living on the edge with nothing to lose.
 
 ## Step 1: Take some Backups
 

@@ -9,7 +9,7 @@ On the Steam Deck it exists on the `Left Touchpad` as part of the SIMPLE Layout.
 Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | RetroDECK Logo          |   `Right Click`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-icon_circle_2_180x180.png" width="20">  |  |
-| Escape          |   `Escape`          |   `Engine-Systems` `PC-Systems`  |<img src="../../../wiki_icons/binding_icons/RD-ESC.png" width="20">    |  |
+| Escape          |   `Escape`          |  `Engine-Systems` `PC-Systems`  |<img src="../../../wiki_icons/binding_icons/RD-ESC.png" width="20">    |  |
 | Enter          |   `Enter`          |  `Engine-Systems` `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-Enter.png" width="20">   | |
 | Space          |   `Space`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-space.png" width="20">  | |
 | Tab          |   `Tab`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-Tab.png" width="20">  | |

@@ -25,7 +25,7 @@ The RetroDECK Team also had never had any major data loss so far and we do cooke
 ## Step 2: Download the Cooker
 
 - Download the latest cooker release from: [RetroDECK Cooker: Latest](https://github.com/XargonWan/RetroDECK-cooker/releases/latest) to your download folder.
-- Make a note of the <version_id>, is a randomly generated word written like cooker-0.8.0b-<HelloWorld>, in this example it's `HelloWorld`.
+- Make a note of the `<version_id>` that is a randomly generated word, example: `cooker-X.X.Xb-HelloWorld`, in this example it's `HelloWorld`.
 
 ## Step 3: Terminal
 
@@ -87,17 +87,14 @@ This is what should happend in the post migration.
 - Rename the folder ~/retrodeck/bios/switch/registered to ~/retrodeck/bios/switch/firmware
 - Default ROMs folders should be recreated by ES-DE to add new systems
 ```
+
 ---
 
 ## Step 5: Start testing
 
 On the SteamOS return to `Game Mode` for this step.
 
-Feel free to test all the new features of 0.8.0b and report any issues.
-
-- Configurator functions
-- Controller Layouts
-- Emulators / Engines
+Now feel free to test all the new features of the update and report any issues, check the patch notes for what is new.
 
 All logs will be saved in the new `retrodeck/logs` folder
 

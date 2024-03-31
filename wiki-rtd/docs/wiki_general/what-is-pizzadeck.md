@@ -33,7 +33,7 @@ All of these things make the RetroDECK team... the best team to tackle this prob
 
 ## Pizza Hub
 
-You can get all the recipes via PizzaBoxes with the new delivery system called Pizza Hub. We guarantee you Pizza Open-Source recipes within 30 minutes or less.
+You can get all the recipes via PizzaBoxes with the new delivery system called Pizza Hub. We guarantee you Open-Source Pizza recipes within 30 minutes or less.
 
 
 ## The RetroDECK Ovenwork

@@ -40,10 +40,19 @@ You can get all the recipes via PizzaBoxes with the new delivery system called P
 
 It features cutting edge Pizza integration tech that is only possible on PizzaDECK:
 
-- [Grocy ERP](https://grocy.info) for smart ingredient reminders and dynamic shopping lists. Plan the entire day, month and life for Pizza making.
-- We got Docker and Kubernetes support. We also have support for even better containers, like the cans you inherited from your grandma for storing the Pizza Sauce.
+- Integrate with [Grocy ERP](https://grocy.info) for smart ingredient reminders and dynamic shopping lists. Plan the entire day, month and life for Pizza making.
+- We got `Docker` and `Kubernetes` support. We also have support for even better containers, like the `Cans` you inherited from your grandma for storing the Pizza Sauce.
 - We got support for smart IOT devices, follow the Pizza the entire way: Smart Fridge, Smart Oven / BBQ, Smart Temperature, Smart Utensils, Smart Plates and Smart Toilet.
-- We also got a "Fantasy Measurements" toggle that allow the display of a faux measurement we call "Imperial", great for TRPG roleplaying games while cooking the Pizza.
-- PizzaDECK will work with whatever the next new monthly communication IOT standards are: Wireless, Z-Wave, Bee-Wave, LoRa, Lora from accounting, Zigbee, Zigfly, Zigtick, Bigby's Hand of IOT, Going back to wireless because nothing else works... again.
-- [Home Assistant](https://www.home-assistant.io/) for all your Pizza IOT needs, start making the Pizza when you open your smart garage port that you spent way too much money on.
-- It also features several other important buzzwords such as: Blockchain, Trianglerope, Generative AI, Degenerate AI, Deep Learning, Creep Learning.
+- We also got a `Fantasy Measurements Mode` toggle that allow the display of a faux measurement we call `Imperial`, great for TRPG roleplaying games while cooking the Pizza.
+- PizzaDECK will work with whatever the next new monthly communication IOT standards are: `Wireless`, `Z-Wave`, `Bee-Wave`, `LoRa`, `Lora from accounting`, `Zigbee`, `Zigfly`, `Zigtick`, `Bigby's Hand of IOT` and `Going back to wireless because nothing else works... again`.
+- Integrate with [Home Assistant](https://www.home-assistant.io/) for all your Pizza IOT needs. Start making the Pizza when you open your smart garage port that you spent way too much money on.
+- PizzaDECK also features several other important buzzwords such as: `Blockchain`, `Trianglerope`, `Generative AI`, `Degenerate AI`, `Deep Learning` and `Creep Learning`.
+
+## Thank you!
+
+We hope you all enjoy PizzaDECK as much as we have loved making it.
+
+❤️
+
+RetroDECK / PizzaDECK Team
+

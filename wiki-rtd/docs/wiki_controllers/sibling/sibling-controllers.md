@@ -22,7 +22,7 @@ Your sibling likes to press all the buttons, all the time and keeps ruining all 
 
 It offers the perfect solution from saving your precious controllers from your siblings grubby little hands, there are so many options to press so he/she cannot break them all?! Right?! Please??!
 
-### Nyko Airflow 2
+### NYKO Airflow 2
 
 <img src= "../nyko-wireless-back-ps2.png" width="200"> <img src= "../nyko-airflow-ps2.png" width="200">
 

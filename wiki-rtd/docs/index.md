@@ -1,7 +1,7 @@
-<img src="wiki_images/logos/rd-esde-logo.svg" width="600">
+<img src="wiki_images/logos/pizzadeck-logo.png" width="600">
 
 
-# Welcome to the RetroDECK wiki!
+# Welcome to the PizzaDECK wiki!
 
 ![Flathub](https://img.shields.io/flathub/downloads/net.retrodeck.retrodeck)
 ![Flathub](https://img.shields.io/flathub/v/net.retrodeck.retrodeck)
@@ -21,9 +21,17 @@ Those can either be:
 Join the [Discord](https://discord.gg/WDc5C9YWMx) and post in `💙-i-want-to-help` channel that you want to help with the wiki.<br>
 You will then get access to the `🖋-wiki-maintainers`channel by one of the mods and you can discuss with your fellow contributors in that channel.
 
-## Start using RetroDECK
+## Start using PizzaDECK
 
 Begin by checking the following articles:
+
+- [What is PizzaDECK?](wiki_general/what-is-pizzadeck.md)
+
+## New Articles
+
+- [Sibling Controllers](wiki_controllers/sibling/sibling-controllers.md)
+
+### If you are intressted in RetroDECK check here
 
 - [What is RetroDECK?](wiki_general/what-is-retrodeck.md)
 - [What is included in RetroDECK?](wiki_general/what-is-included.md)
@@ -33,7 +41,7 @@ Begin by checking the following articles:
 
 And check out the other articles under the `General Information 📰` section.
 
-## The RetroDECK Community links
+## The PizzaDECK Community links
 
 More information in the `Community & Helping Out ❤️` section
 

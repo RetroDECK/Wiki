@@ -1,7 +1,7 @@
 <img src="wiki_images/logos/rd-esde-logo.svg" width="600">
 
 
-# Welcome to the PizzaDECK wiki!
+# Welcome to the RetroDECK wiki!
 
 ![Flathub](https://img.shields.io/flathub/downloads/net.retrodeck.retrodeck)
 ![Flathub](https://img.shields.io/flathub/v/net.retrodeck.retrodeck)
@@ -31,7 +31,7 @@ You will then get access to the `🖋-wiki-maintainers`channel by one of the mod
 
 And check out the other articles under the `General Information 📰` section.
 
-## The PizzaDECK Community links
+## The RetroDECK Community links
 
 More information in the `Community & Helping Out ❤️` section
 

@@ -49,7 +49,6 @@ nav:
     - Start using RetroDECK: wiki_general/retrodeck-start.md
     - What is the current Version?: wiki_rd_versions/version_0.7.0b/0.7.6b.md
     - What is RetroDECK?: wiki_general/what-is-retrodeck.md
-    - What is PizzaDECK?: wiki_general/what-is-pizzadeck.md
     - What is included in RetroDECK?: wiki_general/what-is-included.md
     - Supported Devices: wiki_general/supported-devices.md
     - RetroDECK - Controller Profiles (WIP): wiki_general/retrodeck-input-support.md
@@ -185,8 +184,6 @@ nav:
       - LEGO Dimensions - LEGO ToyPad: wiki_controllers/toystolife/lego-toypad.md
       - Skylanders - Portal of Power (WIP): wiki_controllers/toystolife/skylanders-portal-of-power.md
       - Skylanders - Traptanium Portal (WIP): wiki_controllers/toystolife/skylanders-traptanium-portal.md
-
-    - Sibling 🧒🧒: wiki_controllers/sibling/sibling-controllers.md
 
   - Community & Helping Out ❤️:
     - Discord: wiki_community/discord.md

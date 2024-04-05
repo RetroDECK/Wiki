@@ -14,6 +14,10 @@ RetroDECK ships all available cores from the stable branch and if no stable core
 
 [RetroArch - Github](https://github.com/libretro/RetroArch)
 
+## Where is the RetroArch folder located?
+
+`/.var/app/net.retrodeck.retrodeck/config/retroarch/`
+
 ## Does RetroArch require BIOS or Firmware?
 It depends on the core
 

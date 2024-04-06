@@ -87,4 +87,4 @@ The SIMPLE layout got the same menu as the external controllers.
 
 The Steam Deck also comes with several built-in global hotkeys that you can use:
 
-[Steam Deck: Built-in Hotkeys](../radial-menus/steamdeck-neptune-builtin.md)
+[Steam Deck: Built-in Hotkeys](steamdeck-neptune-builtin.md)

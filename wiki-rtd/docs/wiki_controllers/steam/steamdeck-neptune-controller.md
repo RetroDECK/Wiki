@@ -8,35 +8,6 @@
 <img src="../../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550">
 
 
-### Steam Deck - Built-in Desktop Mode Hotkeys and Navigation
-
-The Steam Deck comes with several built-in hotkeys that you can use in Desktop Mode.
-
-| Function                 | Button / Combination |  Comment |
-| :---                    | :---:               |     :---:     |
-|  Joystick Mouse     |  `Right Stick`         |               |
-| Touchpad as Mouse |     `Right Touchpad`        |               |
-|  Left Mouse Click |   `R3` / `Right Touchpad Click` /  `R2`        |               |
-|  Middle Mouse Click |   `Left Touchpad Click`         |               |
-|  Right Mouse Click |   `L2`         |               |
-|  Horizontal and Vertical Scrolling |   `Left Touchpad`         |               |
-|  Left Ctrl |   `L1`         |               |
-|  Left Alt |   `R1`         |               |
-|  Space |   `Y`         |               |
-|  Show Keyboard |   `X`         |               |
-|  Escape  |   `B`   /  `Start`      |               |
-|  Tab  |   `Select`      |               |
-|  Enter  |   `A`         |               |
-|  Left Shift  |   `L4`         |               |
-|  Super Key   |   `L5`         |               |
-|  Page Up  |   `R4`         |               |
-|  Page Down  |   `R5`         |               |
-|  Arrow Key - Up  |   `D-Pad Up` / `Left Stick Up`       |               |
-|  Arrow Key - Down  |   `D-Pad Down` / `Left Stick Down`            |               |
-|  Arrow Key - Left  |   `D-Pad Left` / `Left Stick Left`         |               |
-|  Arrow Key - Right  |   `D-Pad Right` / `Left Stick Right`            |               |
-
-
 ## RetroDECK - Steam Deck Hotkey Layouts
 
 RetroDECK from the 0.8.0b ships with two different layouts for the Steam Deck: `RetroDECK: Steam Deck - Neptune <version number> SIMPLE` and `RetroDECK: Steam Deck - Neptune <version number> FULL` with the only difference being the complexity of the built in radial menus and the amount of options at your disposal on the left touchpad.
@@ -111,3 +82,9 @@ The radial menu system is located on the left touchpad on the Steam Deck with la
 The SIMPLE layout got the same menu as the external controllers.
 
 [RetroDECK: Steam Deck - Neptune SIMPLE](../radial-menus/controller-simple-radial.md)
+
+## Built-in Hotkeys and Navigation
+
+The Steam Deck also comes with several built-in global hotkeys that you can use:
+
+[Steam Deck: Built-in Hotkeys](../radial-menus/steamdeck-neptune-builtin.md)

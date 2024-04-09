@@ -10,7 +10,7 @@
 
 ## RetroDECK - Steam Deck Hotkey Layouts
 
-RetroDECK from the 0.8.0b ships with two different layouts for the Steam Deck: `RetroDECK: Steam Deck - Neptune <version number> SIMPLE` and `RetroDECK: Steam Deck - Neptune <version number> FULL` with the only difference being the complexity of the built in radial menus and the amount of options at your disposal on the left touchpad.
+RetroDECK from the 0.8.0b ships with two different layouts for the Steam Deck: `RetroDECK: Steam Deck - Neptune SIMPLE` and `RetroDECK: Steam Deck - Neptune FULL` with the only difference being the complexity of the built in radial menus and the amount of options at your disposal on the left touchpad.
 
 Both layouts have the same button hotkeys seen on this page.
 
@@ -50,7 +50,7 @@ What follows is a list of hotkeys:
 | Rewind                  |  `HKB + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation`                     |            |
 | Fast forward            |  `HKB + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`    `PPSSPP`                                      |            |
 | Swap Screens         |  `HKB + L3`          |   `CTRL + TAB`        |     `Citra (Legacy)` `MelonDS`  `Cemu`           |            |
-| Escape                  |  `HKB + R3`          |   `ESC`      |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`      |            |
+| Escape                  |  `HKB + R3`          |   `ESC`      |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`     |            |
 
 
 ### RetroArch: Additional Hotkeys

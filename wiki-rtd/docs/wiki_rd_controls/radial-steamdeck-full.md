@@ -29,7 +29,7 @@ The `Quick Menu` or `Quick Access Menu` Menu is the most populated menu. It feat
 | Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu (Legacy)`             |             |
 | Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu (Legacy)`                      |            |
 | Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`                                   |            |
-| Escape                  |   `ESC`              |                     |            |
+| Escape                  |   `ESC`              |        `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`               |            |
 
 ## State Menu
 The `State Menu` is the menu where you handle anything to do with saving and loading states.
@@ -92,11 +92,11 @@ The `Steam Deck Menu` is where you find Steam Deck specific functions and genera
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
 | :---                    | :---:                |       :---:           |  :---:     |
-| Escape                  |   `ESC`              |                       |            |
+| Escape                  |   `ESC`              |  `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`                       |            |
 | Tab                     |   `Tab`              |                       |            |
 | Alt + F4                |   `Alt + F4`         |                       |            |
 | F1                      |   `F1`               |                       |            |
-| Enter                   |   `Enter`            |                       |            |
+| Enter                   |   `Enter`            |      `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`                   |            |
 | Take Steam Screenshot   |   `none`             |                       |            |
 | Show Steam Deck Keyboard|   `none`             |                       |            |
 

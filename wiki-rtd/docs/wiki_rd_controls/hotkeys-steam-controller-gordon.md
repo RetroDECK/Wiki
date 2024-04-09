@@ -1,38 +1,14 @@
-# Steam Controller - Gordon
-
-<img src="../../../wiki_images/controllers/steam-controller-gordon.png" width="250">
-
-The first Steam Controller with the nickname Gordon.
-
-### Steam Input support
-Yes
-
-### Linux Kernel Support
-Yes, since 4.18 - `hid-steam`
-
-### Udev rules
-
-```
-# Valve USB devices
-SUBSYSTEM=="usb", ATTRS{idVendor}=="28de", MODE="0666"
-
-# Steam Controller udev write access
-KERNEL=="uinput", SUBSYSTEM=="misc", MODE="0660", GROUP="input", OPTIONS+="static_node=uinput"
-
-# Valve HID devices over USB hidraw
-KERNEL=="hidraw*", ATTRS{idVendor}=="28de", MODE="0666"
-
-# Valve HID devices over bluetooth hidraw
-KERNEL=="hidraw*", KERNELS=="*28DE:*", MODE="0666"
-```
+# Steam Controller - Gordon: RetroDECK Hotkeys
 
 ## What is the Official - Steam Controller: Gordon RetroDECK profile called?
 
 - Steam Controller - Gordon: `RetroDECK: Steam Controller - Gordon`
 
-### The hotkey button
+### The hotkey button (HKB)
+
 The global hotkeys are activated by pressing and holding the `HKB` aka the `HotKey Button` and pressing the corresponing button togheter for the command you want to do.
-For the Steam Controller Gordon the `HotKey Button` is both `SELECT` and `L4`, you can press either depending on what you feel is more confortable.
+
+For the Steam Controller - Gordon the `Hotkey Button` is both `SELECT` and `L4`, you can press either depending on what you feel is more confortable.
 
 ### Global Hotkeys: Steam Controller Gordon Button Combos
 

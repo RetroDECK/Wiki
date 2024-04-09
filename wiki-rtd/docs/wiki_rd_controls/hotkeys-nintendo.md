@@ -2,7 +2,7 @@
 
 ## What are the Official profiles called?
 
-- Switch Pro Controller: `RetroDECK: Switch Pro v.1b`
+- Switch Pro Controller: `RetroDECK: Switch Pro`
 
 ## Global Hotkeys: Nintendo Button Combos
 

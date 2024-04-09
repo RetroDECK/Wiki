@@ -30,4 +30,4 @@ KERNEL=="hidraw*", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="0df2", MODE="0660
 
 The same hotkeys are used for PS3, PS4, PS5 controllers. Read more here:
 
-[Playstation: RetroDECK Hotkeys](playstation-hotkeys.md)
+[Playstation: RetroDECK Hotkeys](../../wiki_rd_controls/hotkeys-playstation.md)

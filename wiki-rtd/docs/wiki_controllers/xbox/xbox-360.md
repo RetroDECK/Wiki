@@ -30,3 +30,9 @@ This should not needed for the Steam Deck, SteamOS and most gaming focus Linux d
 ## What is the Official RetroDECK - Steam Input Profile called?
 
 - Xbox 360 Controller: `RetroDECK: Xbox 360`
+
+### RetroDECK Hotkeys
+
+The same hotkeys are used for Xbox controllers. Read more here:
+
+[Xbox: RetroDECK Hotkeys](../../wiki_rd_controls/hotkeys-xbox.md)

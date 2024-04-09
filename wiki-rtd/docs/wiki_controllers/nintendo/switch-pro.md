@@ -27,3 +27,9 @@ SUBSYSTEM=="usb", ATTR{idProduct}=="2009", ATTR{idVendor}=="057e", ENV{ID_INPUT_
 ## What is the Official RetroDECK - Steam Input Profile called?
 
 - Switch Pro Controller: `RetroDECK: Switch Pro`
+
+### RetroDECK Hotkeys
+
+Read more here:
+
+[Nintendo: RetroDECK Hotkeys](../../wiki_rd_controls/hotkeys-nintendo.md)

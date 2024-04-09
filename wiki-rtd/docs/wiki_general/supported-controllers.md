@@ -8,7 +8,8 @@ Generic Controllers encompasses the vast majority of 3rd party controllers.
 
 | Controller         | Layout Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
-| Generic Standard Type |   `RetroDECK: Generic - Standard`      |   `v.1b`          |  Varies  |       [Generic Standard](../wiki_controllers/generic/standard/generic-standard.md)   |  [Generic Standard - Hotkeys](../wiki_controllers/generic/standard/generic-standard-hotkeys.md)| Majority of 3rd Party Controllers with a Standard Layout |
+| Generic Standard Type |   `RetroDECK: Generic - Standard`      |   `v.1b`          |  Varies  |       [Generic Standard](../wiki_controllers/generic/standard/generic-standard.md)   |
+[Generic Standard: RetroDECK Hotkeys](../wiki_rd_controls/hotkeys-generic-standard.md)| Majority of 3rd Party Controllers with a Standard Layout |
 
 
 ## Nintendo Controllers
@@ -17,7 +18,7 @@ Controllers made by Nintendo for the Nintendo systems.
 
 | Controller         | Layout Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
-| Switch Pro Controller      |   `RetroDECK: Switch Pro`      |   `v.1b`          |  Nintendo Switch  |       [Switch Pro](../wiki_controllers/nintendo/switch-pro.md)   |  [Nintendo Hotkeys](../wiki_controllers/nintendo/nintendo-hotkeys.md)  |  |
+| Switch Pro Controller      |   `RetroDECK: Switch Pro`      |   `v.1b`          |  Nintendo Switch  |       [Switch Pro](../wiki_controllers/nintendo/switch-pro.md)   |  [Nintendo: Hotkeys](../wiki_rd_controls/hotkeys-nintendo.md)  |  |
 
 ## Valve/Steam Controllers
 
@@ -34,10 +35,10 @@ Controllers made by Sony for the PlayStation systems.
 
 | Controller         | Layout Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
-| DualShock 3      |   `RetroDECK: DualShock 3`      |   `v.1b`          |  PlayStation 3  |       [DualShock 3](../wiki_controllers/playstation/dualshock-3.md)   |  [PlayStation Hotkeys](../wiki_controllers/playstation/playstation-hotkeys.md)|  |
-| DualShock 4      |   `RetroDECK: DualShock 4`      |   `v.1b`          |  PlayStation 4  |       [DualShock 4](../wiki_controllers/playstation/dualshock-4.md)   |  [PlayStation Hotkeys](../wiki_controllers/playstation/playstation-hotkeys.md)|  |
-| DualSense        |   `RetroDECK: DualSense`        |   `v.1b`          |  PlayStation 5  |       [DualSense](../wiki_controllers/playstation/dualsense.md)   |  [PlayStation Hotkeys](../wiki_controllers/playstation/playstation-hotkeys.md)|  |
-| DualSense Edge   |   `RetroDECK: Dualshock 3`      |   `v.1b`          |  PlayStation 5  |       [DualSense Edge](../wiki_controllers/playstation/dualsense-edge.md)   |  [PlayStation Hotkeys](../wiki_controllers/playstation/playstation-hotkeys.md)|  |
+| DualShock 3      |   `RetroDECK: DualShock 3`      |   `v.1b`          |  PlayStation 3  |       [DualShock 3](../wiki_controllers/playstation/dualshock-3.md)   |  [Playstation: Hotkeys](../wiki_rd_controls/hotkeys-playstation.md) |  |
+| DualShock 4      |   `RetroDECK: DualShock 4`      |   `v.1b`          |  PlayStation 4  |       [DualShock 4](../wiki_controllers/playstation/dualshock-4.md)   |  [Playstation: Hotkeys](../wiki_rd_controls/hotkeys-playstation.md) |  |
+| DualSense        |   `RetroDECK: DualSense`        |   `v.1b`          |  PlayStation 5  |       [DualSense](../wiki_controllers/playstation/dualsense.md)   |  [Playstation: Hotkeys](../wiki_rd_controls/hotkeys-playstation.md) |  |
+| DualSense Edge   |   `RetroDECK: Dualshock 3`      |   `v.1b`          |  PlayStation 5  |       [DualSense Edge](../wiki_controllers/playstation/dualsense-edge.md)   |  [Playstation: Hotkeys](../wiki_rd_controls/hotkeys-playstation.md) |  |
 
 
 ## Xbox Controllers

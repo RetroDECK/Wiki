@@ -25,7 +25,14 @@ Yes, in most cases depending on controller age.
 ### Linux Kernel Support
 Yes, in most cases depending on controller age.
 
-### What is the Official profile called?
+## What is the Official profile called?
 
 - Generic Standard : `RetroDECK: Generic - Standard`
 
+
+### RetroDECK Hotkeys
+
+Read more here:
+
+
+[Generic Standard: RetroDECK Hotkeys](../../../wiki_rd_controls/hotkeys-generic-standard.md)

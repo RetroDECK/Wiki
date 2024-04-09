@@ -39,7 +39,7 @@ The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left 
 
 Read more at the:
 
-[Standard Controller: Simple Radial Menu](../../radial-menus/controller-simple-radial.md) to see all the available commands.
+[Standard Controller: Simple Radial Menu](radial-simple.md) to see all the available commands.
 
 
 ### Right Joystick as Temporary Mouse

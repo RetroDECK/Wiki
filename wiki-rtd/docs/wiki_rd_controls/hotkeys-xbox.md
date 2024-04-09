@@ -1,19 +1,17 @@
-# PlayStation: RetroDECK Hotkeys
+# Xbox: RetroDECK Hotkeys
 
 ## What Controllers are supported?
 
-- Dualshock 3 / Sixaxis
-- DualShock 4 V1/V2
-- DualSense
-- DualSense Edge
+- Xbox 360 Controller
+- Xbox Wireless Controller
+- Xbox Elite Wireless Controller Series 1/2
 
-## What are the Official profiles called?
+## What are the Official RetroDECK - Steam Input Profile called?
 
-- DualShock 3 / Sixaxis: `RetroDECK: Dualshock 3`
-- DualShock 4: `RetroDECK: Dualshock 4`
-- DualSense / DualSense Edge: `RetroDECK: DualSense`
+- Xbox 360 Controller: `RetroDECK: Xbox 360 v.1b`
+- Xbox Wireless Controller/Elite Series: `RetroDECK: Xbox Wireless v.1b`
 
-## Global Hotkeys: PlayStation Button Combos
+## Global Hotkeys: Xbox Button Combos
 
 The global hotkeys are activated by pressing the `SELECT`  button and holding it while pressing the corresponding other button input.
 What follows is a list of hotkeys:
@@ -27,10 +25,10 @@ What follows is a list of hotkeys:
 
 | Function                 | Button / Combination|  Command      | Emulator Support     |    Comment |
 | :---                    | :---:               | :---:                 |       :---:          |  :---:     |
-| Pause / Resume          |   `SELECT + Cross`          |   `CTRL + P`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
-| Take Screenshot         |   `SELECT + Circle`          |   `CTRL + X`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`           |            |
-| Fullscreen Toggle      |   `SELECT + Square`          |   `CTRL + ENTER`      | `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
-| Open Menu               |  `SELECT + Triangle`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu`                        |
+| Pause / Resume          |   `SELECT + A`          |   `CTRL + P`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
+| Take Screenshot         |   `SELECT + B`          |   `CTRL + X`          | `RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`           |            |
+| Fullscreen Toggle      |   `SELECT + X`          |   `CTRL + ENTER`      | `Citra` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu`             |            |
+| Open Menu               |  `SELECT + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu`                        |
 | Quit Emulator           |  `SELECT + Start`       |   `CTRL + Q`          |`RetroArch` `Citra` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu`                                   |            | |
 | Previous State Slot     |  `SELECT + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
 | Next State Slot         |  `SELECT + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|
@@ -48,7 +46,7 @@ The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left 
 
 Read more at the:
 
-[Standard Controller: Simple Radial Menu](../radial-menus/controller-simple-radial.md) to see all the available commands.
+[Standard Controller: Simple Radial Menu](radial-simple.md) to see all the available commands.
 
 
 ### Right Joystick as Temporary Mouse
@@ -77,12 +75,3 @@ This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Insert Credit           |  `SELECT`                |     `RetroArch`  `MAME` `FBNeo`     |            |
 
-### PS4 Dualshock 4 and PS5 DualSense: Additional Hotkeys
-
-The touchpads acts as a mouse and can be used to navigate mouse based inputs.
-
-| Function                 | Button / Combination     | Emulator Support     |    Comment |
-| :---                    | :---:                    |       :---:          |  :---:     |
-| Full Touchpad          |             |      |         The entire touchpad acts a mouse   |
-| Right Touchpad Click         |  `Left Mouse Click`                |      |         |
-| Left Touchpad Click         |  `Right Mouse Click`                |      |         |

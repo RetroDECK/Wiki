@@ -21,6 +21,10 @@ theme:
    - stylesheets/extra.css
 plugins:
    - search:
+#  - mkdocs-video:
+#      is_video: True
+#      video_muted: True
+#      video_controls: True
    - rss:
       match_path: blog/posts/.* 
       date_from_meta:

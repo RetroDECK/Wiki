@@ -35,6 +35,21 @@ By donating to RetroDECK you support this project and the vision of a unified pa
 
 ---
 
+
+## Flatpak
+
+<img src="../../wiki_images/logos/flatpak-logo.png" width="150">
+
+As a flatpak we are nothing without the technology.
+
+#### Where to donate / support the project?
+
+[Flatpak collective](https://opencollective.com/flatpak)
+
+[Flathub Donate](https://flathub.org/donate)
+
+---
+
 ## Frontend
 
 ### ES-DE Frontend

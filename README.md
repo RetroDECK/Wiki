@@ -5,7 +5,7 @@
 ## Links
 [RetroDECK Wiki](https://retrodeck.readthedocs.io/en/latest/)
 
-[Discord](https://discord.gg/Dz3szYsP8g)
+[Discord](https://discord.gg/WDc5C9YWMx)
 
 ## Do you want to help to contribute to the wiki?
 

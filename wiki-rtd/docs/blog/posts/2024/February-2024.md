@@ -89,7 +89,7 @@ These are mostly done and ready for release in 0.8b and they have a little radia
 
 Check the following pages on how to try them today:
 
-- [RetroDECK - Issue 573](https://discord.gg/Dz3szYsP8g)
+- [RetroDECK - Issue 573](https://discord.gg/WDc5C9YWMx)
 - [External Controllers Information Link Page](https://retrodeck.readthedocs.io/en/latest/wiki_general/retrodeck-input-support/)
 - [External Controllers Radial](https://retrodeck.readthedocs.io/en/latest/wiki_controllers/radial-menus/controller-standard-radial/)
 
@@ -164,7 +164,7 @@ Thanks everyone!
 
 //The RetroDECK Team
 
-[Discord](https://discord.gg/Dz3szYsP8g)
+[Discord](https://discord.gg/WDc5C9YWMx)
 
 [Github](https://github.com/XargonWan/RetroDECK)
 

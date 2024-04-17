@@ -22,7 +22,7 @@ Highlights:
 
 We are in our small team very are humble and happy for the recent uptick of RetroDECK users.
 
-Come join the [Discord](https://discord.gg/Dz3szYsP8g) and say Hi!
+Come join the [Discord](https://discord.gg/WDc5C9YWMx) and say Hi!
 
 Or just read up on the [Wiki](https://retrodeck.readthedocs.io/en/latest/) (we are updating it almost every day with new information).
 
@@ -137,7 +137,7 @@ Works without any major issues.
 
 You can follow the work here and download the latest versions of the beta profiles there to test even now:
 
-- [RetroDECK - Issue 573](https://discord.gg/Dz3szYsP8g)
+- [RetroDECK - Issue 573](https://discord.gg/WDc5C9YWMx)
 
 ### A Radial for the Controllers
 
@@ -218,7 +218,7 @@ Thanks everyone!
 
 //The RetroDECK Team
 
-[Discord](https://discord.gg/Dz3szYsP8g)
+[Discord](https://discord.gg/WDc5C9YWMx)
 
 [Github](https://github.com/XargonWan/RetroDECK)
 

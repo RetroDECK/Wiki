@@ -105,7 +105,7 @@ See you next month.
 
 Check out our:
 
-[Discord](https://discord.gg/Dz3szYsP8g)
+[Discord](https://discord.gg/WDc5C9YWMx)
 
 [Github](https://github.com/XargonWan/RetroDECK)
 

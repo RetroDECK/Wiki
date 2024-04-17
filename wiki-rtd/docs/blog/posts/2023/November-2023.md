@@ -146,7 +146,7 @@ We are always looking for more people to help us with the project.
 
 **Check out our:**
 
-[Discord](https://discord.gg/Dz3szYsP8g)
+[Discord](https://discord.gg/WDc5C9YWMx)
 
 [Github](https://github.com/XargonWan/RetroDECK)
 

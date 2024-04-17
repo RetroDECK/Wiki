@@ -4,7 +4,7 @@ What is presented here is just a short list of currently announced projects to g
 
 To get the latest updates first:
 
-- Be a member of the [Discord](https://discord.gg/Dz3szYsP8g) and keep an eye on the `Open Development` channels.
+- Be a member of the [Discord](https://discord.gg/WDc5C9YWMx) and keep an eye on the `Open Development` channels.
 - Follow `The RetroDECK Blog 📝`.
 - Look at [Github issues](https://github.com/XargonWan/RetroDECK/issues/) for clues.
 

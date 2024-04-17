@@ -12,7 +12,7 @@ Cooker is a bleeding edge snapshot of the current commits, the action of uploadi
 
 As you can understand, the code may not be always reviewed and so the cooker it's unstable by its nature, it's just suggested to testers or developer to try bleeding edge function or to contribute.
 
-More info on the pinned post in #💙-i-want-to-help on our [Discord Server](https://discord.gg/Dz3szYsP8g).
+More info on the pinned post in #💙-i-want-to-help on our [Discord Server](https://discord.gg/WDc5C9YWMx).
 We don't support the cooker on user side.
 
 ### Why the name cooker? 🍲

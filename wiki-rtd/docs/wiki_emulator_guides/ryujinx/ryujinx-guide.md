@@ -36,3 +36,8 @@ The directory tree should look like this example:
 └── registered
     └── XXX amount of .nca files goes here
 ```
+
+### Install the firmware
+
+Ryujinx also requires the firmware to be installed via `Tools` -> `Install Firmware`
+

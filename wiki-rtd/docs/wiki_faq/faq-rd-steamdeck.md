@@ -71,6 +71,4 @@ Set the Resolution from `Default` to `1920x1080`
 
 Also turn on `Set resolution for internal and external display` (this might be hidden sometimes just go back one menu and go in again to make it show up).
 
-After you are done quit RetroDECK and reset `Game Resolution` to Default else you could have performance issues.
-
-Make your changes
+After you are done making your changes, quit RetroDECK and reset `Game Resolution` to Default else you could have performance issues.

@@ -13,7 +13,15 @@ Highlights:
 
 ## Bonsai Banana - Released
 
-We thank everyone for your patience
+We thank everyone for your patience.
+
+The update was hard to get out as it needed major back-end changeds to accommodate both Ponzu and all the major structural changes brought by the ES-DE 3.0 update.
+
+We opted for an more extended testing period as well to make sure everything was as safe as possible, but as always there will be bugs we have missed and no software is bug free.
+
+One such thing we missed in testing was those people that had made custom ES-DE Collections, as they where never handled by RetroDECK proper and moved into the /retrodeck folder but we plan to address them in an upcoming update and move them to a safer location.
+
+
 
 ## PortMaster ❤️ RetroDECK
 
@@ -48,9 +56,9 @@ For a full gamelist check here:
 
 Yes, there exists many ways to run these ports and games outside of PortMaster.
 
-PortMaster was born from the handeld gaming devices as a way to play these games on something like the Miyoo Mini.
+PortMaster was born from the scope of arm based handheld gaming devices as a way to play games not available for those systems.
 
-For certain ports it might make more sense to install them directly via options and their runners:
+For certain ports it might make more sense to install them directly via:
 
 - [Luxtorpeda](https://github.com/dreamer/luxtorpeda)
 - [Lutris](https://lutris.net/)
@@ -59,9 +67,9 @@ For certain ports it might make more sense to install them directly via options 
 - [Heroic](https://heroicgameslauncher.com/)
 - [MiniGalaxy](https://sharkwouter.github.io/minigalaxy/)
 
-Some ports are however very hard to install for the avarage user and PortMaster makes it a breeze to install most of them.
+Some ports are however very hard to install for the avarage user and PortMaster makes it a breeze to install.
 
-What are doing is proving you with a new option within RetroDECK.
+What we are doing is proving you with a new option within RetroDECK.
 
 ## That is all for April
 

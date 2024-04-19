@@ -1,7 +1,7 @@
 # RetroDECK Versions
 
 ## 0.8.0b Branch
-- [0.8.0b](version_0.8.0b/0.8.0b.md) Still in Development
+- [0.8.0b](version_0.8.0b/0.8.0b.md)
 
 ## 0.7.0b Branch
 - [0.7.6b](version_0.7.0b/0.7.6b.md)

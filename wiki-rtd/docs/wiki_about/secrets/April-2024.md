@@ -15,26 +15,20 @@ Highlights:
 
 We thank everyone for your patience.
 
-The update was hard to get out as it needed major back-end changeds to accommodate both Ponzu and all the major structural changes brought by the ES-DE 3.0 update.
+The update was hard to get out as it needed major back-end changes to accommodate both Ponzu and all the major structural changes brought by the ES-DE 3.0 update.
 
-We opted for an more extended testing period as well to make sure everything was as safe as possible, but as always there will be bugs we have missed and no software is bug free.
+We opted for a more extended testing period as well to make sure everything was as safe as possible. But as always there will be bugs as no software is bug free.
 
-We are montitoring the issues people are having on Discord, Matrix, Reddit, Lemmy and other places. So far no severe  issues have been reported (application crashes, loss of data, etc).
-
-We have have complied a list of issues to look into for the bugfix a 0.8.1b.
+Everyone is watching and documenting the issues people are having on Discord, Matrix, Reddit, Lemmy and other places and added to a list. So far, no severe issues have been reported (application crashes, loss of data, etc.).
 
 
 ## PortMaster and RetroDECK
 
 The RetroDECK Team have been working with parts of PortMaster Team and other passionate developers that want to bring [PortMaster](https://portmaster.games/index.html) to RetroDECK and x86_64 systems.
 
-Here is a video of an early POC one developer made from within RetroDECK.
+In this video we display an early POC one developer made from PortMaster running within RetroDECK.
 
-The scaling is wrong and not everything works... but some things do work.
-
-This is still very early and if or when this will fully ship we don't know yet!
-
-We still did want to show the community that we are not sitting back idle, but working on cool new features all the time.
+This is still incredibly early and if or when this will fully ship, we don't know yet. The scaling is also wrong and not everything works...
 
 
 ![type:video](pm-retrodeck.mp4)
@@ -44,18 +38,18 @@ We still did want to show the community that we are not sitting back idle, but w
 
 ### What is PortMaster?
 
-It is a Linux Port Manager to easy download, manage, create and play various Linux game ports.
-In many of the ports you will need to own game and take files from the original game for the ports to work.
+It is a Linux Port Manager to easily download, manage, create and play various Linux game ports.
+In many of the ports you will need to own the game and take files from the original game for the ports to work.
 
-For a full gamelist check here:
+For a full game list check here:
 
 [PortMaster Gamelist](https://portmaster.games/games.html)
 
-### There exists other ways to run the same games?!
+### There exist other ways to run the same games?
 
 Yes, there exists many ways to run these ports and games outside of PortMaster.
 
-PortMaster was born from the scope of arm based handheld gaming devices as a way to play games not available for those systems.
+PortMaster was born from the scope of arm based handheld gaming devices to play games not available for those systems.
 
 For certain ports it might make more sense to install them directly via:
 
@@ -66,15 +60,15 @@ For certain ports it might make more sense to install them directly via:
 - [Heroic](https://heroicgameslauncher.com/)
 - [MiniGalaxy](https://sharkwouter.github.io/minigalaxy/)
 
-Some ports are however very hard to install for the avarage user and PortMaster makes it a breeze to install.
+Some ports are extremely hard to install for the average user and PortMaster makes it a breeze to install.
 
-What we are doing is proving you with a new option within RetroDECK.
+What we are doing is providing you with a new possibility within RetroDECK.
 
 ## I don't care about any of this, I just want to add my games to Steam!
 
-The team is working on integrating a already pre-configured micro version of SRM (Steam ROM Manager) within RetroDECK with several functions exposed in the configurator.
+The team is working on integrating an already pre-configured micro version of SRM (Steam ROM Manager) within RetroDECK with several functions exposed in the configurator.
 
-And...we know how you feel, it is by far the:
+We know how you feel, it is by far the:
 
 [Most Requested Feature](https://soundcloud.com/lazorne/the-most-requested-feature-1/s-ZU517nfk95h?si=82f784da8bae467f8655d43fdadb15a8)
 

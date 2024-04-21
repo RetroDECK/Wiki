@@ -31,10 +31,11 @@ Everyone is watching and documenting the issues people are having on Discord, Ma
 - Wii U sound not working after reset on a Steam Deck.
 - Wii U Mic Command not working &/ missing.
 - Amstrad RetroArch inputs not working.
-- Some OpenBOR are games not loading.
+- Some OpenBOR games are not loading.
 - For certain users the Ryujinx post-update is not triggering as it should causing: save folders not being to be created and firmware folders not recognized. (You can try manually putting in the firmware via the config folder /.var/net.retrodeck.retrodeck/config/Ryujinx/)
 
 **Steam Input**
+
 - Switch Menu goes to ScummVM Menu in Radials
 
 **Framework**

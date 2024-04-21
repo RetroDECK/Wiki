@@ -19,22 +19,21 @@ The update was hard to get out as it needed major back-end changeds to accommoda
 
 We opted for an more extended testing period as well to make sure everything was as safe as possible, but as always there will be bugs we have missed and no software is bug free.
 
-One such thing we missed in testing was those people that had made custom ES-DE Collections, as they where never handled by RetroDECK proper and moved into the /retrodeck folder but we plan to address them in an upcoming update and move them to a safer location.
+We are montitoring the issues people are having on Discord, Matrix, Reddit, Lemmy and other places. We have have complied a list of things to look into for the bugfix a 0.8.1b . So far no severe totaly application colappsing issues have been reported.
 
+Custom ES-DE Collections, as they where never handled by RetroDECK proper and moved into the /retrodeck folder but we plan to address them in an upcoming update and move them to a safer location.
 
+## PortMaster and RetroDECK
 
-## PortMaster ❤️ RetroDECK
+We have been working with parts of PortMaster Team and other passionate developers that want to bring [PortMaster](https://portmaster.games/index.html) to RetroDECK and x86_64 systems.
 
-We are proud to announce that the parts of the RetroDECK Team, Batocera Team and PortMaster Team is going bring [PortMaster](https://portmaster.games/index.html) to x86_64 systems.
-
-RetroDECK's goal is to have it ship natively and built-in... and guess what?!
-
-It already works in our early POC!
+Here is a video of an early POC one developer made
 
 ![type:video](pm-retrodeck.mp4)
 
+This is still very early and if or even when this will fully ship we don't know yet :)
 
-Not all ports have x86_64 versions but more will be added over time and a lot of work left to do for all of us.
+We still did want to show the community that we are not sitting back idle, but working on cool stuff behind the scenes.
 
 ### What is PortMaster?
 
@@ -63,6 +62,16 @@ For certain ports it might make more sense to install them directly via:
 Some ports are however very hard to install for the avarage user and PortMaster makes it a breeze to install.
 
 What we are doing is proving you with a new option within RetroDECK.
+
+## I don't care about any of this, I just want to add my games to Steam!
+
+The team is working on integrating a already pre-configured SRM (Steam Rom Manager) within RetroDECK with several functions exposed in the configurator.
+
+And...we know how you feel, it is by far the:
+
+[Most Requested Feature](https://soundcloud.com/lazorne/the-most-requested-feature-1/s-ZU517nfk95h?si=82f784da8bae467f8655d43fdadb15a8)
+
+
 
 ## That is all for April
 

@@ -28,13 +28,19 @@ We have have complied a list of issues to look into for the bugfix a 0.8.1b.
 
 The RetroDECK Team have been working with parts of PortMaster Team and other passionate developers that want to bring [PortMaster](https://portmaster.games/index.html) to RetroDECK and x86_64 systems.
 
-Here is a video of an early POC one developer made
+Here is a video of an early POC one developer made from within RetroDECK.
 
-![type:video](pm-retrodeck.mp4)
+The scaling is wrong and not everything works... but some things do work.
 
 This is still very early and if or when this will fully ship we don't know yet!
 
 We still did want to show the community that we are not sitting back idle, but working on cool new features all the time.
+
+
+![type:video](pm-retrodeck.mp4)
+
+
+
 
 ### What is PortMaster?
 
@@ -66,7 +72,7 @@ What we are doing is proving you with a new option within RetroDECK.
 
 ## I don't care about any of this, I just want to add my games to Steam!
 
-The team is working on integrating a already pre-configured SRM (Steam Rom Manager) within RetroDECK with several functions exposed in the configurator.
+The team is working on integrating a already pre-configured micro version of SRM (Steam ROM Manager) within RetroDECK with several functions exposed in the configurator.
 
 And...we know how you feel, it is by far the:
 

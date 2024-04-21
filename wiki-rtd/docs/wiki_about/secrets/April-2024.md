@@ -19,21 +19,22 @@ The update was hard to get out as it needed major back-end changeds to accommoda
 
 We opted for an more extended testing period as well to make sure everything was as safe as possible, but as always there will be bugs we have missed and no software is bug free.
 
-We are montitoring the issues people are having on Discord, Matrix, Reddit, Lemmy and other places. We have have complied a list of things to look into for the bugfix a 0.8.1b . So far no severe totaly application colappsing issues have been reported.
+We are montitoring the issues people are having on Discord, Matrix, Reddit, Lemmy and other places. So far no severe  issues have been reported (application crashes, loss of data, etc).
 
-Custom ES-DE Collections, as they where never handled by RetroDECK proper and moved into the /retrodeck folder but we plan to address them in an upcoming update and move them to a safer location.
+We have have complied a list of issues to look into for the bugfix a 0.8.1b.
+
 
 ## PortMaster and RetroDECK
 
-We have been working with parts of PortMaster Team and other passionate developers that want to bring [PortMaster](https://portmaster.games/index.html) to RetroDECK and x86_64 systems.
+The RetroDECK Team have been working with parts of PortMaster Team and other passionate developers that want to bring [PortMaster](https://portmaster.games/index.html) to RetroDECK and x86_64 systems.
 
 Here is a video of an early POC one developer made
 
 ![type:video](pm-retrodeck.mp4)
 
-This is still very early and if or even when this will fully ship we don't know yet :)
+This is still very early and if or when this will fully ship we don't know yet!
 
-We still did want to show the community that we are not sitting back idle, but working on cool stuff behind the scenes.
+We still did want to show the community that we are not sitting back idle, but working on cool new features all the time.
 
 ### What is PortMaster?
 

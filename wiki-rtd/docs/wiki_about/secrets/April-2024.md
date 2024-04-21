@@ -21,8 +21,13 @@ We opted for a more extended testing period as well to make sure everything was 
 
 Everyone is watching and documenting the issues people are having on Discord, Matrix, Reddit, Lemmy and other places and added to a list. So far, no severe issues have been reported (application crashes, loss of data, etc.).
 
-### Reported issues
+### Reported issues from our community
 
+We still need to test an verify these with the beta testers and we will have a 0.8.1b out shortly.
+
+**None Issues:**
+
+- Citra (Legacy) Hotkeys don't work in RetroArch Citra Core. This is true as the core don't support the same hotkeys as Citra.
 
 **Emulators:**
 
@@ -33,17 +38,11 @@ Everyone is watching and documenting the issues people are having on Discord, Ma
 - Amstrad RetroArch inputs not working.
 - Some OpenBOR games are not loading.
 - For certain users the Ryujinx post-update is not triggering as it should causing: save folders not being to be created and firmware folders not recognized. (You can try manually putting in the firmware via the config folder /.var/net.retrodeck.retrodeck/config/Ryujinx/)
+- For certain users Ponzu is not respecting config changes or showing in the configurator.
 
 **Steam Input**
 
-- Switch Menu goes to ScummVM Menu in Radials
-
-**Framework**
-
-- When publishing from cooker -> Main -> flathub empty patch notes when release went from cooker to main.
-- post-update scrip for certain users: Ryujinx save folder is not created or nothing working - One user - Fixed on reset
-- For certain users Ponzu is not respecting config changes or showing in the configurator.
-
+- Switch Menu goes to ScummVM Menu in Radials - Confirmed
 
 ## PortMaster and RetroDECK
 

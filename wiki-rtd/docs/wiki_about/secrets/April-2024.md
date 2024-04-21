@@ -31,14 +31,7 @@ RetroDECK's goal is to have it ship natively and built-in... and guess what?!
 
 It already works in our early POC!
 
-PICTURES / Video
-
-<figure class="video_container">
-  <video controls="true" width="640" poster="/path/to/poster.png">
-    <source src="pm-retrodeck.mp4" type="video/mp4">
-  </video>
-</figure>
-
+![type:video](pm-retrodeck.mp4)
 
 
 Not all ports have x86_64 versions but more will be added over time and a lot of work left to do for all of us.

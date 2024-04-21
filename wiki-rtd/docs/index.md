@@ -16,7 +16,7 @@ Those can either be:
 - Preparation articles for an upcoming update
 - They could also be articles we have not had the time to fully write yet.
 
-![type:video](https://www.youtube.com/watch?v=Ao7aaJaTpRc)
+![type:video](https://www.youtube.com/embed/Ao7aaJaTpRc)
 
 ### Do you want to help to contribute to the wiki?
 

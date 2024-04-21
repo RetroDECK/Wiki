@@ -16,6 +16,8 @@ Those can either be:
 - Preparation articles for an upcoming update
 - They could also be articles we have not had the time to fully write yet.
 
+![type:video](https://www.youtube.com/watch?v=Ao7aaJaTpRc)
+
 ### Do you want to help to contribute to the wiki?
 
 Join the [Discord](https://discord.gg/WDc5C9YWMx) and post in `💙-i-want-to-help` channel that you want to help with the wiki.<br>

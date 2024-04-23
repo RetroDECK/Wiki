@@ -1,13 +1,13 @@
 ---
-date: 2024-04-20
+date: 2024-04-23
 ---
 
-# April 2024: Porting things
+# April 2024: A Master of Ports
 
 Highlights:
 
 - Bonsai Banana Released
-- 0.8.1b
+- 0.8.1b - fixes
 - PortMaster
 - The Most Requested Feature
 
@@ -33,7 +33,7 @@ There will be a tiny update 0.8.1b in normal fashion after a big release sometim
 
 The RetroDECK Team have been working with parts of PortMaster Team and other passionate developers that want to bring [PortMaster](https://portmaster.games/index.html) to RetroDECK and x86_64 systems.
 
-In the following video we display an early POC one developer made from PortMaster running within RetroDECK.
+In the following video we display an early proof of concept one developer made from PortMaster running within RetroDECK.
 
 ![type:video](pm-retrodeck.mp4)
 
@@ -72,7 +72,7 @@ For certain ports/games it might make more sense to install them directly via:
 
 <img src="../add-to-steam.jpg" width="150">
 
-The team is working on integrating an already pre-configured version of SRM (Steam ROM Manager) within RetroDECK with functions exposed in the configurator.
+The team is working on integrating an already pre-configured proof of concept version of SRM (Steam ROM Manager) within RetroDECK with functions exposed in the configurator.
 
 We know how you feel, it is by far:
 

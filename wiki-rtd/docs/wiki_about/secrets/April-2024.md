@@ -64,8 +64,6 @@ For certain ports/games it might make more sense to install them directly via:
 - [Steam](https://store.steampowered.com/)
 - [Heroic](https://heroicgameslauncher.com/)
 - [MiniGalaxy](https://sharkwouter.github.io/minigalaxy/)
-- Other
-
 
 
 ## I don't care about any of this, I just want to add my games to Steam!

@@ -17,7 +17,11 @@ Highlights:
 
 <img src="../../../bonsai-banana.png" width="250">
 
-We thank everyone for your patience.
+We thank everyone for your patience!
+
+One thing we did not know was that KDE and many others planned to release new versions of their software on same day on Flathub. This caused some minor delays in publication (poor Flathub servers). 🙃
+
+We have added donation links to both Flathub and Flatpak on the donation page on this wiki.
 
 The update was hard to get out as it needed major back-end changes to accommodate both Ponzu and all the major structural changes brought by the ES-DE 3.0 update.
 

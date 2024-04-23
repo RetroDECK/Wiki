@@ -17,7 +17,7 @@
 Switch games should be put into the `retrodeck/roms/switch/` directory.<br>
 The games can come in many different formats: `XCI` `NSP` `NCA` `NSO` `NRO`.
 
-## Open Ryujinx
+## How-to Open the Ryujinx interface?
 
 `RetroDECK Configurator` ->  `Open Emulator` -> `Ryujinx`
 

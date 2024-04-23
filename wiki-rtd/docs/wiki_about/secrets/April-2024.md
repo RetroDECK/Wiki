@@ -21,9 +21,9 @@ We opted for a more extended testing period as well to make sure everything was 
 
 ### 0.8.1b
 
-Everyone on the Team is watching and documenting the issues people are having on Discord, Matrix, Reddit, Lemmy and other places and have compiled a list.
+Everyone on the Team is watching and documenting the issues people are having on Discord, Matrix, Reddit, Lemmy and other places.
 
-There will be a tiny update in normal fashion after a big release sometime this week with bunch of bug fixes.
+There will be a tiny update  0.8.1b  in normalfashion after a big release sometime this week with bunch of bug fixes.
 
 ## PortMaster and RetroDECK
 
@@ -68,11 +68,11 @@ What we are doing is providing you with a new possibility within RetroDECK.
 
 ## I don't care about any of this, I just want to add my games to Steam!
 
-The team is working on integrating an already pre-configured  version of SRM (Steam ROM Manager) within RetroDECK with functions exposed in the configurator.
+The team is working on integrating an already pre-configured version of SRM (Steam ROM Manager) within RetroDECK with functions exposed in the configurator.
 
-We know how you feel, it is by far the:
+We know how you feel, it is by far:
 
-[Most Requested Feature](https://soundcloud.com/lazorne/the-most-requested-feature-1/s-ZU517nfk95h?si=82f784da8bae467f8655d43fdadb15a8)
+[The Most Requested Feature](https://soundcloud.com/lazorne/the-most-requested-feature-1/s-ZU517nfk95h?si=82f784da8bae467f8655d43fdadb15a8)
 
 
 ## That is all for April

@@ -104,8 +104,12 @@ Thanks everyone!
 
 [Discord](https://discord.gg/WDc5C9YWMx)
 
+[Matrix](https://matrix.to/#/#retrodeck:matrix.org)
+
 [Github](https://github.com/XargonWan/RetroDECK)
 
 [Wiki](https://github.com/XargonWan/RetroDECK/wiki)
 
 [Donations](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)
+
+[Lemmy](https://lemmy.zip/c/retrodeck)<br/>

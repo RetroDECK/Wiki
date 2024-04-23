@@ -11,7 +11,9 @@ Highlights:
 
 <!-- more -->
 
-## Bonsai Banana - Released
+## Bonsai Banana 0.8.0b - Was released
+
+<img src="../bonsai-banana.png" width="250">
 
 We thank everyone for your patience.
 
@@ -23,7 +25,7 @@ We opted for a more extended testing period as well to make sure everything was 
 
 Everyone on the Team is watching and documenting the issues people are having on Discord, Matrix, Reddit, Lemmy and other places.
 
-There will be a tiny update  0.8.1b  in normalfashion after a big release sometime this week with bunch of bug fixes.
+There will be a tiny update  0.8.1b  in normal fashion after a big release sometime this week with bunch of bug fixes.
 
 ## PortMaster and RetroDECK
 
@@ -33,10 +35,9 @@ In the following video we display an early POC one developer made from PortMaste
 
 ![type:video](pm-retrodeck.mp4)
 
-- This is still incredibly early
-- The scaling is wrong
-- Many bugs
-- Not the final design
+- This is still incredibly early.
+- The scaling is wrong in games.
+- Not the final design.
 
 ### What is PortMaster?
 
@@ -49,11 +50,13 @@ For a full game list check here:
 
 ### There exist other ways to run the same games?
 
-Yes, there exists many ways to run these ports and games outside of PortMaster.
+Yes, there exists many ways to run these ports/games outside of PortMaster.
+
+Some ports are extremely hard to install for the average user and PortMaster makes them a breeze to install.
+What we are doing is providing you with a new possibility within RetroDECK.
 
 PortMaster was born from the scope of arm based handheld gaming devices to play games not available for those systems.
-
-For certain ports it might make more sense to install them directly via:
+For certain ports/games it might make more sense to install them directly via:
 
 - [Luxtorpeda](https://github.com/dreamer/luxtorpeda)
 - [Lutris](https://lutris.net/)
@@ -61,12 +64,13 @@ For certain ports it might make more sense to install them directly via:
 - [Steam](https://store.steampowered.com/)
 - [Heroic](https://heroicgameslauncher.com/)
 - [MiniGalaxy](https://sharkwouter.github.io/minigalaxy/)
+- Other
 
-Some ports are extremely hard to install for the average user and PortMaster makes it a breeze to install.
 
-What we are doing is providing you with a new possibility within RetroDECK.
 
 ## I don't care about any of this, I just want to add my games to Steam!
+
+<img src="../add-to-steam.jpg" width="250">
 
 The team is working on integrating an already pre-configured version of SRM (Steam ROM Manager) within RetroDECK with functions exposed in the configurator.
 

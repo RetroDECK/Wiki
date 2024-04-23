@@ -68,7 +68,7 @@ For certain ports/games it might make more sense to install them directly via:
 
 ## I don't care about any of this, I just want to add my games to Steam!
 
-<img src="../add-to-steam.jpg" width="250">
+<img src="../add-to-steam.jpg" width="150">
 
 The team is working on integrating an already pre-configured version of SRM (Steam ROM Manager) within RetroDECK with functions exposed in the configurator.
 

@@ -39,13 +39,21 @@ The directory tree should look like this example:
     └── XXX amount of .nca files goes here
 ```
 
-### Install the firmware
+It also have installation requirements
+
+### How-to: Install the firmware
 
 Ryujinx also requires the firmware to be installed via `RetroDECK Configurator` ->  `Open Emulator` -> `Ryujinx` ->  `Tools` -> `Install Firmware` -> `Install from XCI or ZIP`
 
-The installed firmware must have have the same version at your keys and .nca files, you can't mix and match as that can lead to crashes.
-
 Read more on: [Ryujinx Configuraton Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
+
+### Notice: Do not mix and match versions firmware and keys
+
+The installed firmware must have have the same version at your keys and .nca files, you can't mix and match as that can lead to crashes and black screens!
+
+You need to make sure that the keys and firmware are from the same version.
+
+Generally do not install the firmware from games. Instead provide your own firmware and keys from your own device.
 
 ## Add game patches
 

@@ -19,44 +19,24 @@ The update was hard to get out as it needed major back-end changes to accommodat
 
 We opted for a more extended testing period as well to make sure everything was as safe as possible. But as always there will be bugs as no software is bug free.
 
-Everyone is watching and documenting the issues people are having on Discord, Matrix, Reddit, Lemmy and other places and added to a list. So far, no severe issues have been reported (application crashes, loss of data, etc.).
+### 0.8.1b
 
-### Reported issues from our community
+Everyone on the Team is watching and documenting the issues people are having on Discord, Matrix, Reddit, Lemmy and other places and have compiled a list.
 
-We still need to test an verify these with the beta testers and we will have a 0.8.1b out shortly.
-
-**None Issues:**
-
-- Citra (Legacy) Hotkeys don't work in RetroArch Citra Core. This is true as the core don't support the same hotkeys as Citra.
-
-**Emulators:**
-
-- GB Inputs don't work in the RetroArch Core.
-- Weird performance in RetroArch Citra Core.
-- Wii U sound not working after reset on a Steam Deck.
-- Wii U Mic Command not working &/ missing.
-- Amstrad RetroArch inputs not working.
-- Some OpenBOR games are not loading.
-- For certain users the Ryujinx post-update is not triggering as it should causing: save folders not being to be created and firmware folders not recognized. (You can try manually putting in the firmware via the config folder /.var/net.retrodeck.retrodeck/config/Ryujinx/)
-- For certain users Ponzu is not respecting config changes or showing in the configurator.
-
-**Steam Input**
-
-- Switch Menu goes to ScummVM Menu in Radials - Confirmed
+There will be a tiny update in normal fashion after a big release sometime this week with bunch of bug fixes.
 
 ## PortMaster and RetroDECK
 
 The RetroDECK Team have been working with parts of PortMaster Team and other passionate developers that want to bring [PortMaster](https://portmaster.games/index.html) to RetroDECK and x86_64 systems.
 
-In this video we display an early POC one developer made from PortMaster running within RetroDECK.
-
-This is still incredibly early and if or when this will fully ship, we don't know yet. The scaling is also wrong and not everything works...
-
+In the following video we display an early POC one developer made from PortMaster running within RetroDECK.
 
 ![type:video](pm-retrodeck.mp4)
 
-
-
+- This is still incredibly early
+- The scaling is wrong
+- Many bugs
+- Not the final design
 
 ### What is PortMaster?
 
@@ -88,12 +68,11 @@ What we are doing is providing you with a new possibility within RetroDECK.
 
 ## I don't care about any of this, I just want to add my games to Steam!
 
-The team is working on integrating an already pre-configured micro version of SRM (Steam ROM Manager) within RetroDECK with several functions exposed in the configurator.
+The team is working on integrating an already pre-configured  version of SRM (Steam ROM Manager) within RetroDECK with functions exposed in the configurator.
 
 We know how you feel, it is by far the:
 
 [Most Requested Feature](https://soundcloud.com/lazorne/the-most-requested-feature-1/s-ZU517nfk95h?si=82f784da8bae467f8655d43fdadb15a8)
-
 
 
 ## That is all for April

@@ -15,7 +15,7 @@ Highlights:
 
 ## Bonsai Banana 0.8.0b - Was released
 
-<img src="../bonsai-banana.png" width="250">
+<img src="../../../bonsai-banana.png" width="250">
 
 We thank everyone for your patience.
 
@@ -70,7 +70,7 @@ For certain ports/games it might make more sense to install them directly via:
 
 ## I don't care about any of this, I just want to add my games to Steam!
 
-<img src="../add-to-steam.jpg" width="150">
+<img src="../../..//add-to-steam.jpg" width="150">
 
 The team is working on integrating an already pre-configured proof of concept version of SRM (Steam ROM Manager) within RetroDECK with functions exposed in the configurator.
 

@@ -76,7 +76,7 @@ For certain ports/games it might make more sense to install them directly via:
 
 <img src="../../..//add-to-steam.jpg" width="150">
 
-The team is working on integrating working proof of concept version of SRM (Steam ROM Manager), BoilR or another solution within RetroDECK with functions exposed in the configurator that allow you to sync your favorites to Steam.
+The team is working on integrating working proof of concept version of SRM (Steam ROM Manager), BoilR or another solution within RetroDECK with functions exposed in the configurator that allow you to synchronize your favorites to Steam.
 
 We know how you feel, it is by far:
 

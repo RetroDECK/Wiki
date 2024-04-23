@@ -25,7 +25,7 @@ We opted for a more extended testing period as well to make sure everything was 
 
 Everyone on the Team is watching and documenting the issues people are having on Discord, Matrix, Reddit, Lemmy and other places.
 
-There will be a tiny update  0.8.1b  in normal fashion after a big release sometime this week with bunch of bug fixes.
+There will be a tiny update 0.8.1b in normal fashion after a big release sometime this week with bunch of bug fixes.
 
 ## PortMaster and RetroDECK
 
@@ -52,7 +52,7 @@ For a full game list check here:
 
 Yes, there exists many ways to run these ports/games outside of PortMaster.
 
-Some ports are extremely hard to install for the average user and PortMaster makes them a breeze to install.
+Some ports are extremely hard to install for the average user and PortMaster makes it a breeze to install.
 What we are doing is providing you with a new possibility within RetroDECK.
 
 PortMaster was born from the scope of arm based handheld gaming devices to play games not available for those systems.
@@ -79,11 +79,13 @@ We know how you feel, it is by far:
 [The Most Requested Feature](https://soundcloud.com/lazorne/the-most-requested-feature-1/s-ZU517nfk95h?si=82f784da8bae467f8655d43fdadb15a8)
 
 
-## That is all for April
+## That is all for now
 
 Thanks everyone!
 
 //The RetroDECK Team
+
+### Links
 
 [Discord](https://discord.gg/WDc5C9YWMx)
 

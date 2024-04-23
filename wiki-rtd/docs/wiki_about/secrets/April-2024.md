@@ -8,6 +8,7 @@ Highlights:
 
 - Bonsai Banana Released
 - PortMaster
+- The Most Requested Feature
 
 <!-- more -->
 
@@ -71,7 +72,7 @@ For certain ports/games it might make more sense to install them directly via:
 <img src="../add-to-steam.jpg" width="150">
 
 The team is working on integrating an already pre-configured version of SRM (Steam ROM Manager) within RetroDECK with functions exposed in the configurator.
-
+https://retrodeck.readthedocs.io/en/latest/wiki_about/secrets/April-2024/
 We know how you feel, it is by far:
 
 [The Most Requested Feature](https://soundcloud.com/lazorne/the-most-requested-feature-1/s-ZU517nfk95h?si=82f784da8bae467f8655d43fdadb15a8)

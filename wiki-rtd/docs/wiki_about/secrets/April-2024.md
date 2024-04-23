@@ -7,6 +7,7 @@ date: 2024-04-20
 Highlights:
 
 - Bonsai Banana Released
+- 0.8.1b
 - PortMaster
 - The Most Requested Feature
 

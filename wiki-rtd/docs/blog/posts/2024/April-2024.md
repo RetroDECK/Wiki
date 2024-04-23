@@ -19,7 +19,7 @@ Highlights:
 
 We thank everyone for your patience!
 
-One thing we did not know was that KDE and many others planned to release new versions of their software on same day on Flathub. This caused some minor delays in publication (poor Flathub servers), but we are thankful a. 🙃
+One thing we did not know was that KDE and many others planned to release new versions of their software on the same day on Flathub. This caused some minor delays in publication (poor Flathub servers), but we are thankful the others were so inspired by RetroDECK’s 0.8.0b update that they felt the need to release on the same day 🙃.
 
 We have added donation links to both Flathub and Flatpak on the donation page on this wiki.
 
@@ -76,7 +76,7 @@ For certain ports/games it might make more sense to install them directly via:
 
 <img src="../../..//add-to-steam.jpg" width="150">
 
-The team is working on integrating an already pre-configured proof of concept version of SRM (Steam ROM Manager) or another solution within RetroDECK with functions exposed in the configurator.
+The team is working on integrating working proof of concept version of SRM (Steam ROM Manager), BoilR or another solution within RetroDECK with functions exposed in the configurator that allow you to sync your favorites to Steam.
 
 We know how you feel, it is by far:
 

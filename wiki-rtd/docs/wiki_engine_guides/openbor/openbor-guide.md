@@ -4,6 +4,11 @@
 
 Open Beats of Rage or `OpenBOR` is a beat 'em up game engine and Chronocrash is the main community of OpenBOR.
 
+## Notice: OPENBOR IS BROKEN
+
+The current standard OpenBOR solution is not working as well as we hoped. We are going redesign the implementation and ship it with another minor update later within the 0.8.X line.
+
+Sorry Beat 'em up fans, you will have to wait for the fix.
 
 ### OpenBOR Links:
 

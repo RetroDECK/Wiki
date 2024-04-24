@@ -11,6 +11,8 @@ For a list of reported bugs please check here on github: [RetroDECK issues](http
 
 - `RetroArch` Borders are in some few cases disappearing in the latest RetroArch version. A workaround is to reset RetroArch from the Configurator.
 
+- `OpenBOR` The standard implementation RetroDECK uses does not work, we are going to redesign it in a minor update.
+
 ## External Controller issues
 
 ### Known Issues: External Controllers - Steam Deck

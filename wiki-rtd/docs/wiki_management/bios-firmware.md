@@ -31,6 +31,8 @@ The directory tree should look like this example:
     └── XXX amount of .nca files goes here
 ```
 
+Ryujinx also need it's firmware installed.
+
 ## XEMU (Xbox)
 
 These files must be placed with the correct name in the given folders:
@@ -99,7 +101,8 @@ For Apple II the following bios needs to exist in: `~/retrodeck/roms/apple2/`
 a2diskiing.zip
 apple2e.zip
 d2fdc.zip
-votrax.zip
+votrsc01.zip
+votrsc01a.zip
 ```
 
 ## Apple IIGS

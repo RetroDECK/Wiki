@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/ryujinx-logo.svg" width="150">
 
-### Yuzu Links:
+### Ryujinx Links:
 
 [Ryujinx Configuraton Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
 

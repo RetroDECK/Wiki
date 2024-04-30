@@ -88,3 +88,25 @@ For more information on how to load the games check the [official quickstart gui
 - `neogeo.zip`
 
 Should go into the `~/retrodeck/roms/neogeo/` folder and the `~/retrodeck/bios` folder. Depending on what emulator you use, the emulator looks for the BIOS in different directories. So the safest way it to just copy the BIOS and put it into both places.
+
+## Apple II
+
+
+For Apple II the following bios needs to exist in: `~/retrodeck/roms/apple2/`
+
+
+```
+a2diskiing.zip
+apple2e.zip
+d2fdc.zip
+votrax.zip
+```
+
+## Apple IIGS
+
+For Apple IIGS the following bios needs to exist in: `~/retrodeck/roms/apple2gs/`
+
+
+```
+apple2gs.zip
+```

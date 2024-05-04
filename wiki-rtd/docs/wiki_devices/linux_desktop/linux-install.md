@@ -38,3 +38,23 @@ Updates to RetroDECK are handled automatically via your software manager when th
 
 Or if you want to update from the terminal you can type: <br>
 `flatpak update`
+
+## I got a distribution that have implemented Steam Deck's Game Mode, can I utilize that?
+
+Yes, you can.
+
+Specific hardware requirements apply if you want `Game Mode` to work.
+
+`Game Mode` on your PC will mitgate several issues with Steam Input that exists in various distributions and will probably give you the best RetroDECK experince and playing Steam Games with controllers out of the box.
+
+### Bazzite
+
+[Bazzite: Steam Gaming Mode](https://universal-blue.discourse.group/t/steam-gaming-mode-overview-for-handheld-htpc-images/)
+
+For Bazzite you install the HTPC / Steam Deck image on your PC.
+
+### Chimera OS
+
+[ChimeraOS Webpage](https://chimeraos.org/)
+
+[ChimeraOS Wiki](https://github.com/ChimeraOS/chimeraos/wiki)

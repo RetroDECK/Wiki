@@ -51,7 +51,7 @@ Specific hardware requirements apply if you want `Game Mode` to work.
 
 [Bazzite Webpage](https://bazzite.gg/)
 
-[Bazzite: Steam Gaming Mode](https://universal-blue.discourse.group/t/steam-gaming-mode-overview-for-handheld-htpc-images/)
+[Bazzite: Steam Game Mode](https://universal-blue.discourse.group/t/steam-gaming-mode-overview-for-handheld-htpc-images/)
 
 For Bazzite you install the HTPC / Steam Deck image on your PC.
 

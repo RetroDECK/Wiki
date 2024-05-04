@@ -45,7 +45,7 @@ Yes, you can.
 
 Specific hardware requirements apply if you want `Game Mode` to work.
 
-`Game Mode` on your PC will mitgate several issues with Steam Input that exists in various distributions and will probably give you the best RetroDECK experince and playing Steam Games with controllers out of the box.
+`Game Mode` on your PC will mitgate several issues with Steam Input that exists in various distributions and will probably give you the best RetroDECK experience and playing Steam Games with controllers out of the box.
 
 ### Bazzite
 

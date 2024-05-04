@@ -26,8 +26,9 @@ Controllers made by Nintendo for the Nintendo systems.
 
 | Controller         | Layout Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
-| Steam Deck - Controller      |   `RetroDECK: Official Controller Layout`      |   `v.1b`          |  Steam Deck LCD/OLED  |       [Steam Deck - Controller](../wiki_controllers/steam/steamdeck-neptune-controller.md)    |  [Steam Deck Hotkeys](../wiki_controllers/steam/steamdeck-neptune-controller.md)  |  |
-| Steam Controller - Gordon    |   `RetroDECK: Steam Controller - Gordon`      |   `v.1b`          |  Steam Devices  |       [Steam Controller - Gordon](../wiki_controllers/steam/steam-controller-gordon.md)    |  [Steam Controller - Gordon Hotkeys](../wiki_controllers/steam/steam-controller-gordon.md)  |  |
+| Steam Deck - Controller      |   `RetroDECK: RetroDECK: Steam Deck - Neptune FULL`|   `v.1.1b`          |  Steam Deck LCD/OLED  |       [Steam Deck - Controller](../wiki_controllers/steam/steamdeck-neptune-controller.md)    |  [Steam Deck Hotkeys](../wiki_controllers/steam/steamdeck-neptune-controller.md)  | FULL Radial Menu System |
+| Steam Deck - Controller      |   `RetroDECK: RetroDECK: Steam Deck - Neptune SIMPLE`|   `v.1b`          |  Steam Deck LCD/OLED  |       [Steam Deck - Controller](../wiki_controllers/steam/steamdeck-neptune-controller.md)    |  [Steam Deck Hotkeys](../wiki_controllers/steam/steamdeck-neptune-controller.md)  | SIMPLE Radial Menu System |
+| Steam Controller - Gordon    |   `RetroDECK: Steam Controller - Gordon`      |   `v.1b`          |  Steam Devices  |       [Steam Controller - Gordon](../wiki_controllers/steam/s| Steam Deck - Controller      |   `RetroDECK: RetroDECK: Steam Deck - Neptune`|   `v.1b`          |  Steam Deck LCD/OLED  |       [Steam Deck - Controller](../wiki_controllers/steam/steamdeck-neptune-controller.md)    |  [Steam Deck Hotkeys](../wiki_controllers/steam/steamdeck-neptune-controller.md)  |  |team-controller-gordon.md)    |  [Steam Controller - Gordon Hotkeys](../wiki_controllers/steam/steam-controller-gordon.md)  |  |
 
 ## Playstation Controllers
 

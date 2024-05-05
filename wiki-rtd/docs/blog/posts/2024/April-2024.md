@@ -31,7 +31,7 @@ We opted for a more extended testing period as well to make sure everything was 
 
 Everyone on the Team is watching and documenting the issues people are having on Discord, Matrix, Reddit, Lemmy and other places.
 
-There will be a tiny update 0.8.1b in normal fashion after a big release sometime this week with bunch of bug fixes.
+There will be a tiny update 0.8.1b in normal fashion after a big release sometime soon with a bunch of bug fixes.
 
 ## PortMaster and RetroDECK
 

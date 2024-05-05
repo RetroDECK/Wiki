@@ -422,6 +422,9 @@ Here we showcase the licenses of projects / functions we might use in part, got 
 ### Lutris
 [Licenses](https://github.com/lutris/lutris/blob/master/LICENSE)
 
+### Pugsy's Cheats for MAME
+[mamecheat.co.uk](https://www.mamecheat.co.uk/)
+
 
 ### Steam Deck & Steam Deck Logo
 

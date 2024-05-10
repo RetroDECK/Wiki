@@ -23,10 +23,9 @@ The solution we opted for instead is:
 - `L2` or `Home` Jumps to the top of the menu or gamelist.
 - `R2` or `End` Jumps to the bottom of the menu or gamelist.
 
-
 ## How can I add more themes?
 
-ES-DE comes with a built in Theme Downloader `UI Settings - Theme Downloader`. But you can also add themes manually in the: `~/retrodeck/themes` folder.
+ES-DE comes with a built in Theme Downloader `UI Settings - Theme Downloader`. But you can also add themes manually in the: `~/retrodeck/ES-DE/themes` folder.
 
 
 ## Is there a list of themes?
@@ -46,7 +45,6 @@ You can switch between them by opening the menu and then navigate to `UI Setting
 See the ES-DE's Guide 📘 for more details.
 
 
-
 ## Why does the theme layout look squished?
 
 - The Steam Deck has a screen aspect ratio of `16:10` and most themes that you will find are built for an aspect ratio of `16:9`.  Depending on the theme's design this may cause the layout to appear squished when using it on the Steam Deck's display.
@@ -56,19 +54,15 @@ See the ES-DE's Guide 📘 for more details.
 - There are 2 ways to fix this if it does occur: (1) see if a specific version was built for `16:10` aspect ratio and use that instead or (2) edit the theme to make it compatible with that aspect ratio.
 
 
-
-
 ## Can I manually add custom game images/videos/media for games that I can not scrape?
 
 Yes, check the file structure over at Emulationstation DE's user guide on gitlab.
 [Manually copying game media files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#manually-copying-game-media-files)
 
 
-
 ## Where is my scraped data?
 
-In: `~/retrodeck/downloaded_media` folder.
-
+In: `~/retrodeck/ES-DE/downloaded_media` folder.
 
 
 ## I got some weird error message about quota after scraping!
@@ -77,40 +71,36 @@ The error message mentions something about quota. You have a quota limit on how 
 You can pay them to get a bit more daily quota and show your support or just wait 24 hours.
 
 
-
 ## The Scraper said: The Server or Service is down?
 
 The service is down, check [Screenscraper](https://www.screenscraper.fr/) when they get back up.
-
 
 
 ## Can I only scrape one game or can I narrow down the scraping method?
 Yes, check the `EmulationStation-DE Guide 📘`  for more details.
 
 
-
 ## Can I move the downloaded_media folder?
  You can move it with the the move RetroDECK option inside the configurator.
-
 
 
 ## Can I copy the downloaded_media folder to another device?
 Yes, just copy it into the other device RetroDECK folder.
 
 
-
 ## The scraping is very slow...
 [Screenscraper](https://www.screenscraper.fr/) offers different types of donations that can increase your speed with extra threads.
-
 
 
 ## My systems storage ran out after scraping...
 You can clean out images and videos that takes a lot of space under: `~/retrodeck/downloaded_media`.
 
 
-
-
 ### But I still want them...
 The only way to still keep them is either delete something else from the storage or buy more storage.
 
+## Can I launch a speicifc game with another emulator then default, but keep the rest on the default?
 
+Yes, if you want for example launch one of the PSX games with Duckstation instead of RetroArch.
+
+First navigate to the game in the gamelist, then open the  `Gamelist Options Menu` - `Edit This Game's Metadata` - `Alternative Emulator` - `Set the emulator here`.

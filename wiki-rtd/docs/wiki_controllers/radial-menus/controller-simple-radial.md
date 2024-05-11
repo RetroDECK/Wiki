@@ -18,7 +18,7 @@ Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | /         |   `/`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-frontslash.png" width="20">   | |
 | Alt          |   `Alt`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-alt.png" width="20">   | |
 | F1          |   `F1`          |  `PC-Systems`   |  <img src="../../../wiki_icons/binding_icons/RD-F1.png" width="20">   |   |
-| F4          |   `F4`          |  `PC-Systems` `Ryujinx`  |  <img src="../../../wiki_icons/binding_icons/RD-F4.png" width="20">   |   |
+| F4          |   `F4`          |  `PC-Systems` `Ryujinx`  |  <img src="../../../wiki_icons/binding_icons/RD-F4.png" width="20">   |  Open Ryujinx Menu |
 | F8          |   `F8`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F8.png" width="20">   |   |
 | F10          |   `F10`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F10.png" width="20">   |  |
 | Alt + F4     |   `ALT + F4`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-alt-f4.png" width="20">   |  |

@@ -91,7 +91,7 @@ The `Steam Deck Menu` is where you find Steam Deck specific functions and genera
 
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Icon  |  Comment    |
-| :---                    | :---:                |       :---:           |  :---:     |
+| :---                    | :---:                |       :---:           |  :---:     | :---:    |
 | Escape          |   `Escape`          |  `Engine-Systems` `PC-Systems`  |<img src="../../../wiki_icons/binding_icons/RD-ESC.png" width="20">    |  |
 | Enter          |   `Enter`          |  `Engine-Systems` `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-Enter.png" width="20">   | |
 | Space          |   `Space`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-space.png" width="20">  | |
@@ -101,7 +101,7 @@ The `Steam Deck Menu` is where you find Steam Deck specific functions and genera
 | /         |   `/`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-frontslash.png" width="20">   | |
 | Alt          |   `Alt`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-alt.png" width="20">   | |
 | F1          |   `F1`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F1.png" width="20">   |   |
-| F4          |   `F4`          |  `PC-Systems` `Ryujinx`  |  <img src="../../../wiki_icons/binding_icons/RD-F4.png" width="20">   |   |
+| F4          |   `F4`          |  `PC-Systems` `Ryujinx`  |  <img src="../../../wiki_icons/binding_icons/RD-F4.png" width="20">   | Open Ryujinx Menu   |
 | F8          |   `F8`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F8.png" width="20">   |   |
 | F10          |   `F10`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F10.png" width="20">   |  |
 | Alt + F4     |   `ALT + F4`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-alt-f4.png" width="20">   |  |
@@ -116,11 +116,12 @@ The `Specific Menu` or ` Emulator Specific Menu` opens up several system/emulato
 ### Switch Menu
 The `Switch Menu` here you find hotkeys related to Switch emulation: Change GPU Accuracy, Change Docked/Undocked Mode, Add/Remove Amiibo
 
-| Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
-| :---                    | :---:                |       :---:           |  :---:     |
+| Radial Button           | Keyboard Command     |  Emulator Support     |    Icon |    Comment |
+| :---                    | :---:                |       :---:           |  :---:      | :---:     |
 | Change GPU Accuracy     |   `Alt + G`          |   `Yuzu (Legacy)`     |     Ryujinx is working on better hotkeys     |
 | Load / Remove Amiibo    |   `Alt + M`          |   `Yuzu (Legacy)`     |     Ryujinx is working on better hotkeys       |
 | Docked / Undocked Mode  |   `Alt + D`          |   `Yuzu (Legacy)`     |     Ryujinx is working on better hotkeys       |
+| F4          |   `F4`          |  `PC-Systems` `Ryujinx`  |  <img src="../../../wiki_icons/binding_icons/RD-F4.png" width="20">   | Open Ryujinx Menu  |
 
 ### MAME Menu
 The `MAME Menu` here find hotkeys related to the MAME (Standalone) emulator.

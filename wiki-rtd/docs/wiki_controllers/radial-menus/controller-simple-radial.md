@@ -17,10 +17,11 @@ Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | Control          |   `Ctrl`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-ctrl.png" width="20">   | |
 | /         |   `/`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-frontslash.png" width="20">   | |
 | Alt          |   `Alt`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-alt.png" width="20">   | |
-| F1          |   `F1`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F1.png" width="20">   |   |
-| F4          |   `F4`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F4.png" width="20">   |   |
+| F1          |   `F1`          |  `PC-Systems`   |  <img src="../../../wiki_icons/binding_icons/RD-F1.png" width="20">   |   |
+| F4          |   `F4`          |  `PC-Systems` `Ryujinx`  |  <img src="../../../wiki_icons/binding_icons/RD-F4.png" width="20">   |   |
 | F8          |   `F8`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F8.png" width="20">   |   |
 | F10          |   `F10`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F10.png" width="20">   |  |
+| Alt + F4     |   `ALT + F4`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-alt-f4.png" width="20">   |  |
 | Restart / Reset      |   `CTRL + R`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`          |  <img src="../../../wiki_icons/binding_icons/RD-system-reboot.png" width="20">        |   |
 | Wii Sync Button          |   `ALT + W`          |  `Dolphin/Primehack`  | <img src="../../../wiki_icons/binding_icons/RD-notification-network-wireless.png" width="20">    |  |
 | Wiimote Upright          |   `ALT + Z`          |  `Dolphin/Primehack`  | <img src="../../../wiki_icons/binding_icons/RD-wiimote-up.png" width="20">    |  |

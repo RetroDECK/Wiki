@@ -90,15 +90,23 @@ The `General Menu` or `General Emulation Menu` is where you find various global 
 The `Steam Deck Menu` is where you find Steam Deck specific functions and general PC hotkeys.
 
 
-| Radial Button           | Keyboard Command     |  Emulator Support     |    Comment |
+| Radial Button           | Keyboard Command     |  Emulator Support     |    Icon  |  Comment    |
 | :---                    | :---:                |       :---:           |  :---:     |
-| Escape                  |   `ESC`              |                       |            |
-| Tab                     |   `Tab`              |                       |            |
-| Alt + F4                |   `Alt + F4`         |                       |            |
-| F1                      |   `F1`               |                       |            |
-| Enter                   |   `Enter`            |                       |            |
-| Take Steam Screenshot   |   `none`             |                       |            |
-| Show Steam Deck Keyboard|   `none`             |                       |            |
+| Escape          |   `Escape`          |  `Engine-Systems` `PC-Systems`  |<img src="../../../wiki_icons/binding_icons/RD-ESC.png" width="20">    |  |
+| Enter          |   `Enter`          |  `Engine-Systems` `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-Enter.png" width="20">   | |
+| Space          |   `Space`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-space.png" width="20">  | |
+| Tab          |   `Tab`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-Tab.png" width="20">  | |
+| Shift          |   `Shift`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-shift.png" width="20">  | |
+| Control          |   `Ctrl`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-ctrl.png" width="20">   | |
+| /         |   `/`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-frontslash.png" width="20">   | |
+| Alt          |   `Alt`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-alt.png" width="20">   | |
+| F1          |   `F1`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F1.png" width="20">   |   |
+| F4          |   `F4`          |  `PC-Systems` `Ryujinx`  |  <img src="../../../wiki_icons/binding_icons/RD-F4.png" width="20">   |   |
+| F8          |   `F8`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F8.png" width="20">   |   |
+| F10          |   `F10`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F10.png" width="20">   |  |
+| Alt + F4     |   `ALT + F4`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-alt-f4.png" width="20">   |  |
+| Take Steam Screenshot   |              |                       |            |   |
+| Show Steam Deck Keyboard|               |                       |            |  |
 
 
 ## Emulator Specific Menu

@@ -68,3 +68,7 @@ From within Ryujinx `Right Click` on a game and select `Manage DLC` and then nav
 
 Read more on: [Ryujinx Configuraton Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
 
+
+## Open Menu - Hotkey
+
+Ryujinx has a very little capabilities for hotkeys currently. The key to Open the Ryujinx Menu is `F4` and you can access it on the radial menus on the Steam Deck or External Controllers.

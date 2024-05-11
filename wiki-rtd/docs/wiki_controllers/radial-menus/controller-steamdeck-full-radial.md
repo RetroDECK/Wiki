@@ -117,10 +117,10 @@ The `Specific Menu` or ` Emulator Specific Menu` opens up several system/emulato
 The `Switch Menu` here you find hotkeys related to Switch emulation: Change GPU Accuracy, Change Docked/Undocked Mode, Add/Remove Amiibo
 
 | Radial Button           | Keyboard Command     |  Emulator Support     |    Icon |    Comment |
-| :---                    | :---:                |       :---:           |  :---:      | :---:     |
-| Change GPU Accuracy     |   `Alt + G`          |   `Yuzu (Legacy)`     |     Ryujinx is working on better hotkeys     |
-| Load / Remove Amiibo    |   `Alt + M`          |   `Yuzu (Legacy)`     |     Ryujinx is working on better hotkeys       |
-| Docked / Undocked Mode  |   `Alt + D`          |   `Yuzu (Legacy)`     |     Ryujinx is working on better hotkeys       |
+| :---                    | :---:                |       :---:           |  :---:  | :---:     |
+| Change GPU Accuracy     |   `Alt + G`          |   `Yuzu (Legacy)`     |         |   |
+| Load / Remove Amiibo    |   `Alt + M`          |   `Yuzu (Legacy)`     |        |   |
+| Docked / Undocked Mode  |   `Alt + D`          |   `Yuzu (Legacy)`     |        |    |
 | F4          |   `F4`          |  `PC-Systems` `Ryujinx`  |  <img src="../../../wiki_icons/binding_icons/RD-F4.png" width="20">   | Open Ryujinx Menu  |
 
 ### MAME Menu

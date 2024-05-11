@@ -9,10 +9,18 @@ To get the latest updates first:
 - Look at [Github issues](https://github.com/XargonWan/RetroDECK/issues/) for clues.
 
 ## New Engines
-- MORE!
+
+- Visual Pinball X
+- ScummVM
 
 ## New Emulators
-- EVEN MORE!
+
+- Xenia Canary (Under evaluation)
+- Ruffle
+
+## Other features
+
+- Adding PortMaster to RetroDECK together with PortMaster Team.
 
 ## New Features Configurator / RetroDECK Framework
 
@@ -24,13 +32,10 @@ To get the latest updates first:
 - USB Transfer / Backups
 - Multiuser mode
 - Adding RetroDECK games as Steam Entries and hopefully scraping them from SteamGridDB.
-- Disable/Enable - Quick Resume: Auto Save / Auto Load
+- Godot Configurator
 
 ## Wiki
 
 - Emulator Guides
 - Cleaning up the Wiki
 
-## Other
-
-- Develop Rekku the RetroDECK Mascot

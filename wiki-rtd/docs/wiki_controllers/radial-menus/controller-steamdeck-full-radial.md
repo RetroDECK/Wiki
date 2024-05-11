@@ -121,7 +121,7 @@ The `Switch Menu` here you find hotkeys related to Switch emulation: Change GPU 
 | Change GPU Accuracy     |   `Alt + G`          |   `Yuzu (Legacy)`     |         |   |
 | Load / Remove Amiibo    |   `Alt + M`          |   `Yuzu (Legacy)`     |        |   |
 | Docked / Undocked Mode  |   `Alt + D`          |   `Yuzu (Legacy)`     |        |    |
-| F4          |   `F4`          |  `PC-Systems` `Ryujinx`  |  <img src="../../../wiki_icons/binding_icons/RD-F4.png" width="20">   | Open Ryujinx Menu  |
+| Open Ryujinx Menu       |   `F4`          |  `PC-Systems` `Ryujinx`  |  <img src="../../../wiki_icons/binding_icons/RD-F4.png" width="20">   | Open Ryujinx Menu  |
 
 ### MAME Menu
 The `MAME Menu` here find hotkeys related to the MAME (Standalone) emulator.

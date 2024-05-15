@@ -32,7 +32,7 @@ You will then get access to the `🖋-wiki-maintainers`channel by one of the mod
 
 And check out the other articles under the `General Information 📰` section.
 
-## The RetroDECK Community links
+## The RetroDECK links
 
 More information in the `Community & Helping Out ❤️` section
 
@@ -40,8 +40,10 @@ More information in the `Community & Helping Out ❤️` section
 [Matrix](https://matrix.to/#/#retrodeck:matrix.org)<br/>
 [Lemmy](https://lemmy.zip/c/retrodeck)<br/>
 [Reddit](https://www.reddit.com/r/retrodeck)<br/>
-
-### Other links
 [Website](https://retrodeck.net) <br/>
 [Github](https://github.com/XargonWan/) <br/>
 [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck)<br>
+
+### Service Status
+[Github - Status](https://www.githubstatus.com/)<br>
+[Flathub - Status](https://status.flathub.org/)<br>

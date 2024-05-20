@@ -38,3 +38,10 @@ The supported formats are `CISO`, `DFF`, `DOL`, `ELF`, `GCM`, `GCZ`, `ISO`, `JSO
 To get a Wii Remote working on Dolphin / Primehack and Linux read more here in this in-depth guide:
 
 [Wii Remote - Guide](../../wiki_controllers/nintendo/wii-remote.md)
+
+## Where do I change the language of Dolphin / Primehack?
+
+1. In the `Configurator` open either `Dolphin` or `Primehack`.
+2. Navigate to `Options` -> `Configuration` -> `Interface` .
+3. Select preferred language in the drop-down menu.
+4. Close the Emulator, Configurator and return to RetroDECK.

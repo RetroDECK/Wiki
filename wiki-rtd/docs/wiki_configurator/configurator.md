@@ -23,6 +23,13 @@ What follows are the commands you can use inside the Configurator (more commands
 ## Presets & Settings
 In this menu you can set various presets.
 
+#### Widescreen: Enable/Disable
+Enables or disables Widescreen in all supported emulators and cores.
+
+#### Ask to Exit prompt: Enable/Disable
+Enables or disables ask to exit prompts in all supported emulators and cores.
+Note: If you disable this, the emulators will directly exit.
+
 ### Global: Presets & Settings
 In this menu you will find presets and settings that span over multiple emulators.
 
@@ -35,15 +42,11 @@ Logut from RetroAchievements in all supported emulators and cores.
 #### RetroAchivements: Hardcore Mode
 Enables `Hardcore Mode` from RetroAchievements in all supported emulators and cores.
 
-#### Widescreen: Enable/Disable
-Enables or disables Widescreen in all supported emulators and cores.
-
 #### Swap A/B and X/Y: Enable/Disable
-Swaps `A/B` `X/Y` in all supported emulators and cores.
+Swaps `A/B` `X/Y` in supported emulators and cores.
 
-#### Ask to Exit prompt: Enable/Disable
-Enables or disables ask to exit prompts in all supported emulators and cores.
-Note: If you disable this, the emulators will directly exit.
+#### Quick Resume: Enable/Disable
+Enables `Quick Resume` aka  `Auto Save` + `Auto Load` on exit in supported emulators and cores.
 
 ### RetroArch: Presets & Settings
 In this menu you will find presets and settings for RetroArch.

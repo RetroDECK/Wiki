@@ -7,7 +7,7 @@ More controllers will be added in the future when Steam Input adds support for t
 Generic Controllers encompasses the vast majority of 3rd party controllers.
 
 | Controller         | Layout Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
-| :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
+| :---               | :---:   | :---:   |     :---:    |  :---:     |   :---:     |    :---:     |
 | Generic Standard Type |   `RetroDECK: Generic - Standard`      |   `v.1b`          |  Varies  | [Generic Standard](../wiki_controllers/generic/standard/generic-standard.md)   |[Generic Standard: RetroDECK Hotkeys](../wiki_rd_controls/hotkeys-generic-standard.md)| Majority of 3rd Party Controllers with a Standard Layout |
 
 

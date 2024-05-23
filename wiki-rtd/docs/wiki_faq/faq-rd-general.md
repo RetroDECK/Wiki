@@ -55,6 +55,10 @@ No, but RetroDECK had some dialog before the project started with some of the Ba
 
 RetroDECK and Batocera also have good dialog together with representatives of each project inside the internal development channels.
 
+## How do I connect my Pateron to Discord?
+
+Check the [Pateron Article](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access)
+
 ## Are you related to EmuDeck?
 
 No, the two projects are not related.

@@ -12,7 +12,7 @@ Grand General of the IPL (Italian Pizza Legion) also known as the Napoletanan Fi
 ## Community Management
 
 ### [Lazorne](https://github.com/Lazorne)
-Community management/outreach, testing, documentation, issue / feature suggestions handling.
+Community management/outreach, testing, documentation, emulator configurations, Steam Input and feature request / issue management.
 
 <details><summary> </summary>
 Meme Lord of the Wiki and also the cult leader of the NPC (The Nordic Pizza Cult) also called by the others as "The Pizza Heresy Cult" or "Harbingers of Pizza Chaos". Instigator of the internal pizza war.

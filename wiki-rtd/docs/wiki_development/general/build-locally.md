@@ -2,7 +2,7 @@
 This is a WIP document to help build RetroDECK locally. It is based on notes taken while adding the Ruffle(Flash Emulator) to the RetroDECK project. 
 
 ## Overview
-RetroDECK is a big project in terms of scope and build size! The build process creates a 1.4GB flatpak file and the build folder is about 23GB.
+RetroDECK is a big project in terms of scope and build size! The build process creates a 1.6GB flatpak file and the build folder is about 23GB.
 It takes about 3 hours to build on an 8 core PC.
 
 This document was initially based on adding a new function to RetroDECK as part of the build process. The person that wrote this as a hobbyist coder/developer, decided that it was better to cover just building RetroDECK before moving onto to adding/changing RetroDECK.

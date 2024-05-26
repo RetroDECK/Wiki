@@ -48,7 +48,7 @@ developer_toolbox/build_retrodeck_locally.sh
 
 Have a look at what the script does first and look at the corresponding automation_tools/ folder that the script above references for the build
 
-The build will take about 3 hours on a relatively 8 core pc/laptop.
+The build will take about 3 hours on an eight core pc/laptop.
 
 Creates this folder when building locally
 RetroDECK/.flatpak-builder/

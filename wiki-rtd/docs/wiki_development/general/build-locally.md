@@ -21,6 +21,10 @@ In order to save project resources. Please try and use a self-hosted runner to t
 Please do not forget that RetroDECK is a volunteer based open source project. If you would like to support the build environment that is provided as part of the project. Then please consider making a donation to [the RetroDECk project or other projects involved.](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)
 
 ## Build Process
+The build process is intensive and time consuming. About three hours on a machine with 8 cores. 
+
+From time to time to it can appear to lockup up your device especially during the build process.
+
 
 ### Download/Clone RetroDeck
 Clone the repository. The --recursive option is used to ensure the RetroDECK sub modules are download(ie Emulators from other projects). The only element that is not downloaded for changing/editing is the [RetroDECK fork of ES-DE](https://github.com/XargonWan/RetroDECK-ES-DE). That should only be needed if you wish to add a new emulator via ES-DE.
@@ -115,7 +119,7 @@ Check SHA placeholders
 
 When a build is started locally it overwrites to yml as part of build with populated sha value and branch. Somme of the modules pulled in change daily and given the long build time. Then a mismatch can occur. Mismatch also caused by pull in from another repo.
 
-Pulling from remote repo causes issues with SHA values being different and an unmatched branch error as that branch does not exists on Xaargon
+Pulling from remote repo causes issues with SHA values being different and an unmatched branch error as that branch does not exists on Xargon
 
 Show reference to pulling in Xargon version of yml as part of the build.
 
@@ -144,6 +148,7 @@ The manifest file is what builds the application after downloads all the relevan
 ## FAQ
 ### Crash during local sh build?
 - Stay Calm!
+- Wait 5 to 10 minutes and see if device starts responding again.
 - Restart the PC/laptop.
 - re run command below it should hopefully continue from the last good build action.
 
@@ -153,5 +158,6 @@ developer_toolbox/build_retrodeck_locally.sh
 
 ### Crash during local github runner build?
 - Stay Calm!
+- Wait 5 to 10 minutes and see if device starts responding again. 
 - Restart the PC/laptop.
 - make sure runner started and then re run the failed Github action

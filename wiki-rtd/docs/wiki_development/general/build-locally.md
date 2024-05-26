@@ -36,18 +36,11 @@ git submodule update --init --recursive
 
 Then use ```git checkout cooker-x.x.xx``` to select the latest cooker branch. Tab complete should help select the version to download
 
+You can also create your own branch with
 
-Need branch that matches origin and remote hence not use Xargon
-Check SHA placeholders
-
-When a build is started locally it overwrites to yml as part of build with populated sha value and branch. Somme of the modules pulled in change daily and given the long build time. Then a mismatch can occur. Mismatch also caused by pull in from another repo.
-
-Pulling from remote repo causes issues with SHA values being different and an unmatched branch error as that branch does not exists on Xaargon
-
-Temp Note
-
-Raise an issue to pass repo name or edit before build
-
+```bash
+git checkout -b branchname
+```
 
 ### Build locally via bash script
 
@@ -58,7 +51,6 @@ Looking at the local build process is good to look at how the build process work
 ```bash
 developer_toolbox/build_retrodeck_locally.sh
 ```
-
 Have a look at what the script does first and look at the corresponding automation_tools/ folder that the script above references for the build
 
 The build will take about 3 hours on an eight core pc/laptop.
@@ -68,9 +60,32 @@ RetroDECK/.flatpak-builder/
 
 Produces RetroDECK-cooker.flatpak in the RetroDeck folder. 
 
-### Build locally installed github runner
+The flatpak build file can be installed/updated following this [guide.](https://retrodeck.readthedocs.io/en/latest/wiki_development/general/cli-guide/#install-retrodeck-from-cli)
 
-Advantages of this process.
+### Build locally installed github runner
+This section covers installing and using self-hosted [github runners.](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners) 
+
+#### Github actions and runners
+[Github actions](https://docs.github.com/en/actions) allow automated build to be created that are built via a self-hosted or hosted runner. The RetroDECK project uses self-hosted runners that can be installed on a cloud machine or a local machine.  
+ 
+  - Advantages can Monitor, log, debug, cancel and restart. Via github app or a browser. 
+  - Greater stability for build process.
+
+The RetroDECK project has created this Github action. You should have a cloned version of this [workflow file.](https://github.com/XargonWan/RetroDECK/blob/main/.github/workflows/cooker-selfhosted.yml) This file is used for cooker builds and manual builds. If you build against a cooker build it should auto build when you push your changes to your own repo
+
+
+[Link to an actual cooker build.](https://github.com/XargonWan/RetroDECK/actions/runs/8940312603)
+
+[Link to full log off the build.](https://github.com/XargonWan/RetroDECK/actions/runs/8940312603/job/24558182428)
+
+The image below shows that the build is complete and that an artifact file has been created that can be downloaded for testing. The Action also creates a local flatpak build file. 
+
+```bash
+actions-runner/_work/RetroDECK/RetroDECK/RetroDECK-cooker.flatpak
+```
+
+<img src="../../../wiki_images/graphics/development/github_retrodeck_action.png" width="600">
+
 
 #### Install self-hosted github runner
 [Add a self-hosted runner](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners#adding-a-self-hosted-runner-to-a-repository) to a repository.
@@ -78,33 +93,29 @@ Advantages of this process.
 #### Setup runner to run as a service(optional)
 [Create the self-hosted runner](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/configuring-the-self-hosted-runner-application-as-a-service) as a service. 
 
-#### 
+If using your own branch it can create an issue with the build process. Please refer to the [RetroDECK Manifest section](#retrodeck-flatpak-manifest)
 
-Creates an artifact on Github and a local file in actions-runners
+On starting the build process via the runner it will create the following folder in the location you installed the self-hosted runner.
 
-Explain local runner
-
-https://github.com/monkeyx-net/RetroDECK/settings/actions/runners
-
-
-Creates 
-
+```bash
 actions-runner/_work/RetroDECK/RetroDECK/
+```
 
-File RetroDECK-cooker.flatpak
+On completing the build you can use the locally produced file or download/share the artifact file produced by the self-hosted runner.
 
-Also can download as an artifact from Github
+```bash
+actions-runner/_work/RetroDECK/RetroDECK/RetroDECK-cooker.flatpak
+```
 
 ## RetroDECK flatpak manifest
-```bash 
-net.retrodeck.retrodeck.yml
-```
-The manifest file is what builds the application after downloads all the relevant modules and dependencies.  See the [Flatpak manifest guide here](https://docs.flatpak.org/en/latest/manifests.html) 
+This may get moved to a github issue. 
 
+Need branch that matches origin and remote hence not use Xargon
+Check SHA placeholders
 
-Links to following build progress via app or website
+When a build is started locally it overwrites to yml as part of build with populated sha value and branch. Somme of the modules pulled in change daily and given the long build time. Then a mismatch can occur. Mismatch also caused by pull in from another repo.
 
-Restart/cancel remotely etc
+Pulling from remote repo causes issues with SHA values being different and an unmatched branch error as that branch does not exists on Xaargon
 
 Show reference to pulling in Xargon version of yml as part of the build.
 
@@ -125,12 +136,13 @@ bottom
       - type: git
         url: https://github.com/monkeyx-net/RetroDECK.git
 
-
-
+```bash 
+net.retrodeck.retrodeck.yml
+```
+The manifest file is what builds the application after downloads all the relevant modules and dependencies.  See the [Flatpak manifest guide here](https://docs.flatpak.org/en/latest/manifests.html) 
 
 ## FAQ
 ### Crash during local sh build?
-
 - Stay Calm!
 - Restart the PC/laptop.
 - re run command below it should hopefully continue from the last good build action.
@@ -140,7 +152,6 @@ developer_toolbox/build_retrodeck_locally.sh
 ```
 
 ### Crash during local github runner build?
-
 - Stay Calm!
 - Restart the PC/laptop.
 - make sure runner started and then re run the failed Github action

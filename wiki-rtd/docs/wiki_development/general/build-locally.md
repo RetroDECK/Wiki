@@ -1,5 +1,5 @@
 # Development Build Locally Notes
-This is WIP to help build RetroDECK locally. 
+This is a WIP document to help build RetroDECK locally. 
 
 It is based on notes taken while adding the Ruffle(Flash Emulator) to the RetroDECK project. 
 

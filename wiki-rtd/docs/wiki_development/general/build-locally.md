@@ -1,6 +1,8 @@
 # Development Build Locally Notes
 
-This is WIP to help build RetroDECK locally. It wsa notes taken while adding the Flash Emulator Ruffle to the project. 
+This is WIP to help build RetroDECK locally. 
+
+It is based on notes taken while adding the Ruffle(Flash Emulator) to the RetroDECK project. 
 
 ## Overview
 
@@ -11,7 +13,10 @@ It would also be worth running RetroDECK in [debug mode](https://retrodeck.readt
 
 <img src="../../../wiki_images/graphics/development/retrodeck-overview.png" width="500">
 
-### Download RetroDeck
+
+## Build Process
+
+### Download/Clone RetroDeck
 
 Clone the repository. The --recursive option is used to ensure the RetroDECK sub modules are download(ie Emulators from other projects). The only element that is not downloaded for changing/editing is the [RetroDECK fork of ES-DE](https://github.com/XargonWan/RetroDECK-ES-DE). That should only be needed if you wish to add a new emulator via ES-DE.
 
@@ -25,6 +30,7 @@ git submodule update --init --recursive
 ```
 
 Then use git checkout to select the latest cooker branch.
+
 
 ### Build locally via bash script
 
@@ -40,7 +46,7 @@ The build will take about 3 hours on a relatively pc/laptop.
 The build process creates a flatpak_builder file.
 
 
-### Build locally installed github runner.
+### Build locally installed github runner
 
 
 Creates an artifact on Guthub and a local file in actions-runners
@@ -52,6 +58,7 @@ Crash during local sh build?
 - Stay Calm!
 - Restart the PC/laptop.
 - re run command below it should hopefully continue from the last good build action.
+
 ```bash 
 developer_toolbox/build_retrodeck_locally.sh
 ```

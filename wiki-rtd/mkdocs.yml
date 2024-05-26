@@ -214,6 +214,7 @@ nav:
       - Debug Mode: wiki_development/general/debug-mode.md
       - Folders and Filepaths: wiki_development/general/folders-filepaths.md
       - Start with Development (WIP): wiki_development/general/general-development.md
+      - Build Locally (WIP): wiki_development/general/build-locally.md
     - Testing 📝:
       - How do I help out with testing?: wiki_development/testing/general-testing.md
       - Release Candidate Testing: wiki_development/testing/release-candidate-testing.md

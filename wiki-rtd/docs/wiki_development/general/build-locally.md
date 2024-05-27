@@ -72,7 +72,8 @@ This section covers installing and using self-hosted [github runners.](https://d
 #### Github actions and runners
 [Github actions](https://docs.github.com/en/actions) allow automated build to be created that are built via a self-hosted or hosted runner. The RetroDECK project uses self-hosted runners that can be installed on a cloud machine or a local machine.  
  
-  - Advantages can Monitor, log, debug, cancel and restart. Via github app or a browser. 
+  - Advantages can Monitor, log, debug, cancel and restart. Via github app or a browser.
+  - Also logs progress to actions-runner/_diag/ 
   - Greater stability for build process.
 
 The RetroDECK project has created this Github action. You should have a cloned version of this [workflow file.](https://github.com/XargonWan/RetroDECK/blob/main/.github/workflows/cooker-selfhosted.yml) This file is used for cooker builds and manual builds. If you build against a cooker build it should auto build when you push your changes to your own repository.
@@ -162,7 +163,9 @@ This can lead to0
   -sha values in the RetroDECK net.retrodeck.retrodeck.yml not matching the file sha values that were download on your repo as part of the build. 
   -If there is not a corresponding remote branch to your origin this has also led to the build failing. So pointing to your own repo removes this issue.
 
-So far I have changed the two references below. I am currently testing whether one or both need changing.(It looks like it might just reference 1 that needs changing) Then I am going to see if passing the local rather RetroDECK repo  can be changed via a variable etc 
+So far I have changed the two references below. I am currently testing whether one or both need changing.(It looks like it might just reference 1 that needs changing) Then I am going to see if passing the local rather RetroDECK repo  can be changed via a variable etc
+
+Now going back to reference 1 and referee 2 as would not build. 
 
 Reference 1 change.
 ```bash

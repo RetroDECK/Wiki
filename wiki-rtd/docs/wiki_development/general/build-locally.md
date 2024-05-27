@@ -1,4 +1,4 @@
-# Development Build Locally Notes
+# Development and Build Locally Notes
 This is a WIP document to help build RetroDECK locally. It is based on notes taken while adding the Ruffle(Flash Emulator) to the RetroDECK project. 
 
 ## Overview
@@ -75,11 +75,12 @@ This section covers installing and using self-hosted [github runners.](https://d
   - Advantages can Monitor, log, debug, cancel and restart. Via github app or a browser. 
   - Greater stability for build process.
 
-The RetroDECK project has created this Github action. You should have a cloned version of this [workflow file.](https://github.com/XargonWan/RetroDECK/blob/main/.github/workflows/cooker-selfhosted.yml) This file is used for cooker builds and manual builds. If you build against a cooker build it should auto build when you push your changes to your own repo
+The RetroDECK project has created this Github action. You should have a cloned version of this [workflow file.](https://github.com/XargonWan/RetroDECK/blob/main/.github/workflows/cooker-selfhosted.yml) This file is used for cooker builds and manual builds. If you build against a cooker build it should auto build when you push your changes to your own repository.
+
+The links provided below are for an actual build on the RetroDECK repository and give a useful view of what to expect during the build process.
 
 
 [Link to an actual cooker build.](https://github.com/XargonWan/RetroDECK/actions/runs/8940312603)
-
 [Link to full log off the build.](https://github.com/XargonWan/RetroDECK/actions/runs/8940312603/job/24558182428)
 
 The image below shows that the build is complete and that an artifact file has been created that can be downloaded for testing. The Action also creates a local flatpak build file. 
@@ -112,39 +113,89 @@ actions-runner/_work/RetroDECK/RetroDECK/RetroDECK-cooker.flatpak
 ```
 
 ## RetroDECK flatpak manifest
-This may get moved to a github issue. 
 
-Need branch that matches origin and remote hence not use Xargon
-Check SHA placeholders
+The manifest file is what builds the application after downloads all the relevant modules and dependencies.  See the [Flatpak manifest guide here](https://docs.flatpak.org/en/latest/manifests.html)
 
-When a build is started locally it overwrites to yml as part of build with populated sha value and branch. Somme of the modules pulled in change daily and given the long build time. Then a mismatch can occur. Mismatch also caused by pull in from another repo.
+For most builds you probably will not need to change the manifest file. It would need to be changed to add a new emulator or update a newer version of an emulator.
 
-Pulling from remote repo causes issues with SHA values being different and an unmatched branch error as that branch does not exists on Xargon
+A link to the RetroDECK manifest yml can be found below. If you have download RetroDECK then it is stored here. 
+```bash 
+RetroDECK/net.retrodeck.retrodeck.yml
+```
 
-Show reference to pulling in Xargon version of yml as part of the build.
+[RetroDECK current manifest](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml)
 
-SHA reference issues if doing this. 
 
-Need SHA pointers not values
+An example of a simple build is shown below. Which downloads the Vita3K emulator latest zip and then copies/links the files for use within RetroDECK.
 
-Need to update net.retrodeck.retrodeck.yml to point at your own repo.
+Please note the sha256 this is populated by this [script.](https://github.com/XargonWan/RetroDECK/blob/main/automation_tools/pre_build_automation.sh) Which pulls in this [cfg file.](https://github.com/XargonWan/RetroDECK/blob/main/automation_tools/automation_task_list.cfg) 
 
-line 95 ish
-   sources:
-      - type: git
-        url: https://github.com/monkeyx-net/RetroDECK.git
+If you want to add a new emulator then this also a basic/simple example how this works.
 
-bottom
+```bash
+  # Vita3K - START
 
+  - name: vita3k
+    buildsystem: simple
+    build-commands:
+      # Copying the user icon
+      - mkdir -p ${FLATPAK_DEST}/retrodeck
+      - cp retrodeck.png ${FLATPAK_DEST}/retrodeck
+      - unzip "ubuntu-latest.zip" -d "${FLATPAK_DEST}/share/Vita3K"
+      - chmod +x "${FLATPAK_DEST}/share/Vita3K/Vita3K"
+      - rm -f "${FLATPAK_DEST}/share/Vita3K/update-vita3k.sh"
+      - ln -s ${FLATPAK_DEST}/share/Vita3K/Vita3K ${FLATPAK_DEST}/bin/Vita3K
+    sources:
+      - type: file
+        url: https://github.com/Vita3K/Vita3K/releases/download/continuous/ubuntu-latest.zip
+        sha256: VITA3KSHAPLACEHOLDER
+      - type: file
+        path: res/retrodeck.png
+
+  # Vita3K - END
+```
+
+### Possible Issue  
+Problems with build consistency on my local repository. I tracked this down to the fact the yml pulls in another copy of the RetroDECK repository which then overwrites the yml file. Given the long build time or needing to restart a build. 
+
+This can lead to0 
+  -sha values in the RetroDECK net.retrodeck.retrodeck.yml not matching the file sha values that were download on your repo as part of the build. 
+  -If there is not a corresponding remote branch to your origin this has also led to the build failing. So pointing to your own repo removes this issue.
+
+So far I have changed the two references below. I am currently testing whether one or both need changing.(It looks like it might just reference 1 that needs changing) Then I am going to see if passing the local rather RetroDECK repo  can be changed via a variable etc 
+
+Reference 1 change.
+```bash
+ - name: version-initialization
+    buildsystem: simple
+    build-commands:
+      - |
+
+        # on main please update this with the version variable, eg: VERSION=0.8.0b
+        # on cooker will be THISBRANCH
+        VERSION=0.8.1b
+
+        git checkout ${GITHUB_REF_NAME}
+        mkdir -p ${FLATPAK_DEST}/retrodeck/
+        if [[ $VERSION == *"cooker"* ]];
+        then
+          VERSION="$VERSION-VERSIONPLACEHOLDER"
+        fi
+        echo $VERSION >> ${FLATPAK_DEST}/retrodeck/version
+        cat ${FLATPAK_DEST}/retrodeck/version
+        echo "Version is $VERSION"
     sources:
       - type: git
         url: https://github.com/monkeyx-net/RetroDECK.git
-
-```bash 
-net.retrodeck.retrodeck.yml
+        branch: THISBRANCH
 ```
-The manifest file is what builds the application after downloads all the relevant modules and dependencies.  See the [Flatpak manifest guide here](https://docs.flatpak.org/en/latest/manifests.html) 
-
+Reference 2 change.
+```bash
+    sources:
+      - type: git
+        url: https://github.com/monkeyx-net/RetroDECK.git
+        branch: THISBRANCH
+```
 ## FAQ
 ### Crash during local sh build?
 - Stay Calm!

@@ -295,6 +295,21 @@ A free and open-source application that emulates the original Microsoft Xbox gam
 
 ---
 
+## Emulators: Other
+
+### BigPEmu
+
+BigPEmu is the first Atari Jaguar emulator to feature compatibility with the entire retail library, along with excellent performance and a wide variety of unique features.
+
+#### Where to donate / support the project?
+[Patreon](https://www.patreon.com/richwhitehouse)
+
+#### Licenses
+BigPEmu is closed source
+
+---
+
+
 ## Software
 
 ### OpenBOR

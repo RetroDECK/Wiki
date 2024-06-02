@@ -110,23 +110,3 @@ But later changed our minds as we would have even more input configs to maintain
 GZDOOM have some kind of conflict with Steam Input in when more then one controller that causes input looping in menus. Make sure that the controller you are using is set as Player 1 else use Reorder Controllers interface in Steam to make it Player 1.
 
 We are still investigation the cause of it, if you know of a solution please contact the RetroDECK Team.
-
-
-## Missing Features
-
-We are working on implementing all these features over the big releases. Some will take longer time than others and we will also add more things to this list when needed.
-
-**Missing features:**
-
-- Cloud sync
-- USB transfer
-- STFP / FTP
-- Better External controller support.
-- Better gyro support.
-- Dynamic external display resolution support for borders and viewports.
-- All Emulators & Engines supported by ES-DE so there at least is one per system in RetroDECK.
-- PortMaster integration.
-- A rebuilt Configurator that is a Godot application that supports controller navigation.
-- A rebuilt first run installer and updater in Godot.
-- Better art: Mascot, Easter Eggs, Logos.
-- A multi-user system with user profiles.

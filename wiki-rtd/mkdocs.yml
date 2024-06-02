@@ -52,7 +52,7 @@ plugins:
 
 nav:
   - Wiki Home 🏠: index.md
-  - Blog: blog/index.md+
+  - Blog: blog/index.md
 
   - Archive 🗃️:
     - Yuzu 🔴 (Archive):

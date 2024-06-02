@@ -308,7 +308,7 @@ BigPEmu is the first Atari Jaguar emulator to feature compatibility with the ent
 #### Licenses
 BigPEmu is closed source check the:
 
-[BigPEmu FAQ]](https://www.richwhitehouse.com/jaguar/index.php?content=faq)
+[BigPEmu FAQ](https://www.richwhitehouse.com/jaguar/index.php?content=faq)
 
 ---
 

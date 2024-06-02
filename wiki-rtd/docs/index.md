@@ -24,8 +24,8 @@ You will then get access to the `🖋-wiki-maintainers`channel by one of the mod
 
 ## Start here
 
-- [What is RetroDECK?](wiki_general/what-is-retrodeck.md)
-- [What is included in RetroDECK?](wiki_general/what-is-included.md)
+- [What is RetroDECK?](wiki_about/what-is-retrodeck.md)
+- [What is included in RetroDECK?](wiki_about/what-is-included.md)
 - [Supported Devices](wiki_general/supported-devices.md)
 - [About the BETA Period](wiki_general/beta-period.md)
 - [Getting Started](wiki_general/retrodeck-start.md)

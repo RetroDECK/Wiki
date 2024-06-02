@@ -53,12 +53,14 @@ plugins:
 nav:
   - Wiki Home 🏠: index.md
   - Blog: blog/index.md
+
   - About 📜:
-    - The RetroDECK Beta: wiki_about/beta-period.md
+    - RetroDECK Beta: wiki_about/beta-period.md
     - What is RetroDECK?: wiki_about/what-is-retrodeck.md
     - What is included in RetroDECK?: wiki_about/what-is-included.md
     - Story & Philosophy: wiki_about/story-philosophy.md
     - Visions & Goals: wiki_about/visions-and-goals.md
+
   - Archive 🗃️:
     - Yuzu 🔴 (Archive):
       - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
@@ -68,6 +70,7 @@ nav:
       - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
       - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
       - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md
+
   - General Information 📰:
     - Start using RetroDECK: wiki_general/retrodeck-start.md
     - What is the current Version?: wiki_rd_versions/version_0.8.0b/0.8.1b.md
@@ -75,12 +78,6 @@ nav:
     - Supported Controllers: wiki_general/supported-controllers.md
     - Version History (Patchnotes): wiki_rd_versions/version-history.md
     - What are you working on?: wiki_development/general/what-are-you-working.on.md
-  - Credits & Donations 📖:
-    - Credits - Team: wiki_credits/credits-team.md
-    - Credits - Additional: wiki_credits/credits-additional.md
-    - Credits - Boot Logo: wiki_credits/credits-boot.md
-    - Credits - Translations: wiki_credits/credits-translation.md
-    - Donations & Licenses 🎁: wiki_credits/donations-licenses.md
 
   - Bugs & Issues 🐜:
     - Reporting Bugs: wiki_bugs/report-bugs.md
@@ -201,6 +198,13 @@ nav:
     - Discord: wiki_community/discord.md
     - Lemmy/Reddit: wiki_community/lemmy-reddit.md
     - How to Contribute to RetroDECK?: wiki_community/contibute-rd.md
+
+  - Credits & Donations 📖:
+    - Credits - Team: wiki_credits/credits-team.md
+    - Credits - Additional: wiki_credits/credits-additional.md
+    - Credits - Boot Logo: wiki_credits/credits-boot.md
+    - Credits - Translations: wiki_credits/credits-translation.md
+    - Donations & Licenses 🎁: wiki_credits/donations-licenses.md
 
   - Development 🧪:
     - Flatpak 📦:

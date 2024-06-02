@@ -52,14 +52,7 @@ plugins:
 
 nav:
   - Wiki Home 🏠: index.md
-  - Blog: blog/index.md
-
-  - About 📜:
-    - RetroDECK Beta: wiki_about/beta-period.md
-    - What is RetroDECK?: wiki_about/what-is-retrodeck.md
-    - What is included in RetroDECK?: wiki_about/what-is-included.md
-    - Story & Philosophy: wiki_about/story-philosophy.md
-    - Visions & Goals: wiki_about/visions-and-goals.md
+  - Blog: blog/index.md+
 
   - Archive 🗃️:
     - Yuzu 🔴 (Archive):
@@ -70,6 +63,13 @@ nav:
       - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
       - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
       - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md
+
+  - About 📜:
+    - RetroDECK Beta: wiki_about/beta-period.md
+    - What is RetroDECK?: wiki_about/what-is-retrodeck.md
+    - What is included in RetroDECK?: wiki_about/what-is-included.md
+    - Story & Philosophy: wiki_about/story-philosophy.md
+    - Visions & Goals: wiki_about/visions-and-goals.md
 
   - General Information 📰:
     - Start using RetroDECK: wiki_general/retrodeck-start.md

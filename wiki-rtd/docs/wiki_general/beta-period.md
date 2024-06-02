@@ -13,7 +13,7 @@ RetroDECK is missing some minor and major:
 
 That we want to add before we consider it a full release.
 
-RetroDECK is perfectly fine for daily use even during the beta period and the core application should be seen as stable enough. The main reason we consider it a BETA is all the things we want to improve and add before a full 1.0 release.
+RetroDECK is perfectly fine for daily use even during the beta period and the core application should be seen as stable. The main reason we consider it a BETA is all the things we want to improve and add before a full 1.0 release (see the missing features list).
 
 There are also experimental features that could be unstable but those are exclusive to the cooker builds or must be enabled by CLI.
 
@@ -37,7 +37,7 @@ We are working on implementing all these features over the big releases. Some wi
 - Better External controller support.
 - Better gyro support.
 - Dynamic external display resolution support for borders and viewports.
-- All Emulators & Engines supported by ES-DE so there at least is one per system in RetroDECK.
+- Emulators & Engines supported by default ES-DE (there at least one option per system in RetroDECK).
 - PortMaster integration.
 - A rebuilt Configurator that is a Godot application that supports controller navigation.
 - A rebuilt first run installer and updater in Godot.

@@ -19,7 +19,7 @@ We don't support the cooker on user side.
 That's what cooking in the pot at this moment and not yet ready to be served (released). This name was also used by Linux Mandrake and Mandriva for the bleeding edge channel.
 
 ## What emulators and software is included in RetroDECK?
-Check: [RetroDECK: What's included?](../wiki_general/what-is-included.md)
+Check: [RetroDECK: What's included?](../wiki_about/what-is-included.md)
 
 ## Does RetroDECK include any games?
 

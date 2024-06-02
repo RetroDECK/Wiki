@@ -25,11 +25,25 @@ RetroDECK will keep developing post the full release.
 
 Since the main versions is in fact the stable version, the cooker version is the unstable version that is always under heavy development.
 
+## Missing Features
+
+We are working on implementing all these features over the big releases. Some will take longer time than others and we will also add more things to this list when needed.
+
+**Missing features:**
+
+- Cloud sync
+- USB transfer
+- STFP / FTP
+- Better External controller support.
+- Better gyro support.
+- Dynamic external display resolution support for borders and viewports.
+- All Emulators & Engines supported by ES-DE so there at least is one per system in RetroDECK.
+- PortMaster integration.
+- A rebuilt Configurator that is a Godot application that supports controller navigation.
+- A rebuilt first run installer and updater in Godot.
+- Better art: Mascot, Easter Eggs, Logos.
+- A multi-user system with user profiles.
+
 ## Wiki Links
 
-- A list of issues and missing features can be found over at: [Known Issues](../wiki_bugs/known-issues.md)
-
 - To see what we are developing on currently check out: [What are you working on?](../wiki_development/general/what-are-you-working.on.md)
-
-
-

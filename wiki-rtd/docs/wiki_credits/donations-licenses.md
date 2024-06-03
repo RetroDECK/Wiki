@@ -1,6 +1,6 @@
 # Information on donations
 
-RetroDECK is nothing without our dependencies without them this project and many others like us cannot exist. Without them RetroDECK can not run any games at all, it is their software that make this possible. If you do not want to donate to RetroDECK and you might want to donate to the ES-DE Frontend, art assets or a specific emulator. We support you no matter what, whatever choice you take from this list will be a good one for us all.
+RetroDECK is nothing without our dependencies without them this project and many others like us cannot exist. Without them RetroDECK can not run any games at all, it is their software that make this possible. If you do not want to donate to RetroDECK and you might want to donate to the Frontend, art assets, a specific emulator or engine. We support you no matter what, whatever choice you take from this list will be a good one for us all.
 
 **Please note:**
 
@@ -61,11 +61,10 @@ ES-DE Frontend  is a frontend for browsing and launching games from your multi-p
 
 #### Where to donate / support the project?
 
-[Website - Paypal](https://es-de.org/)
-
-Or buy the app to show them your support:
+Buy the app to show them your support:
 
 [Patreon - Android App](https://www.patreon.com/es_de/)
+
 
 #### Licenses
 [License](https://gitlab.com/es-de/emulationstation-de/-/blob/master/LICENSE)

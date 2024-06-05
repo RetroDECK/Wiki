@@ -15,7 +15,7 @@ Yes, it is an NFC reader USB device.
 `SUBSYSTEM=="usb", ATTRS{idVendor}=="0e6f", ATTRS{idProduct}=="0241", MODE="0666"`
 
 ### Emulator usecase
-`RPCS3` `Xenia`
+`RPCS3` `Xenia` `CEMU`
 
 ## How to configure
 

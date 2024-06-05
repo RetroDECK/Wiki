@@ -44,3 +44,9 @@ Before you launch Lego Dimensions from RetroDECK you need to keep the following 
 Additional Steam Deck information:
 
 - The Steam Deck's USB-C port does not transmit enough power for the ToyPad, you will need use dock or use a powered USB-C hub.
+
+## Emulated ToyPad (W.I.P)
+
+Berny23's that can use an VM or an Raspberry PI might be an alternative solution.
+
+[Lego ToyPad Emulator](https://github.com/Berny23/LD-ToyPad-Emulator)

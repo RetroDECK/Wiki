@@ -1,0 +1,104 @@
+---
+date: 2024-04-23
+---
+
+# April 2024: A Master of Ports
+
+Highlights:
+
+- Bonsai Banana Released
+- 0.8.1b - fixes
+- PortMaster
+- The Most Requested Feature
+
+<!-- more -->
+
+## Bonsai Banana 0.8.0b - Was released
+
+<img src="../../../bonsai-banana.png" width="250">
+
+We thank everyone for your patience!
+
+One thing we did not know was that KDE and many others planned to release new versions of their software on the same day on Flathub. This caused some minor delays in publication (poor Flathub servers), but we are thankful the others were so inspired by RetroDECK’s 0.8.0b update that they felt the need to release on the same day 🙃.
+
+We have added donation links to both Flathub and Flatpak on the donation page on this wiki.
+
+The update was hard to get out as it needed major back-end changes to accommodate both Ponzu and all the major structural changes brought by the ES-DE 3.0 update.
+
+We opted for a more extended testing period as well to make sure everything was as safe as possible. But as always there will be bugs as no software is bug free.
+
+### 0.8.1b
+
+Everyone on the Team is watching and documenting the issues people are having on Discord, Matrix, Reddit, Lemmy and other places.
+
+There will be a tiny update 0.8.1b in normal fashion after a big release sometime soon with a bunch of bug fixes.
+
+## PortMaster and RetroDECK
+
+The RetroDECK Team have been working with parts of PortMaster Team and other passionate developers that want to bring [PortMaster](https://portmaster.games/index.html) to RetroDECK and x86_64 systems.
+
+In the following video we display an early proof of concept one developer made from PortMaster running within RetroDECK.
+
+![type:video](pm-retrodeck.mp4)
+
+- This is still incredibly early.
+- The scaling is wrong in games.
+- Not the final design.
+
+### What is PortMaster?
+
+It is a Linux Port Manager to easily download, manage, create and play various Linux game ports.
+In many of the ports you will need to own the game and take files from the original game for the ports to work.
+
+For a full game list check here:
+
+[PortMaster Gamelist](https://portmaster.games/games.html)
+
+### There exist other ways to run the same games?
+
+Yes, there exists many ways to run these ports/games outside of PortMaster.
+
+Some ports are extremely hard to install for the average user and PortMaster makes it a breeze to install.
+What we are doing is providing you with a new possibility within RetroDECK.
+
+PortMaster was born from the scope of arm based handheld gaming devices to play games not available for those systems.
+For certain ports/games it might make more sense to install them directly via:
+
+- [Luxtorpeda](https://github.com/dreamer/luxtorpeda)
+- [Lutris](https://lutris.net/)
+- [Flathub](https://flathub.org/en)
+- [Steam](https://store.steampowered.com/)
+- [Heroic](https://heroicgameslauncher.com/)
+- [MiniGalaxy](https://sharkwouter.github.io/minigalaxy/)
+
+
+## I don't care about any of this, I just want to add my games to Steam!
+
+<img src="../../..//add-to-steam.jpg" width="150">
+
+The team is working on integrating working proof of concept version of SRM (Steam ROM Manager), BoilR or another solution within RetroDECK with functions exposed in the configurator that allow you to synchronize your favorites to Steam.
+
+We know how you feel, it is by far:
+
+[The Most Requested Feature](https://soundcloud.com/lazorne/the-most-requested-feature-1/s-ZU517nfk95h?si=82f784da8bae467f8655d43fdadb15a8)
+
+
+## That is all for now
+
+Thanks everyone!
+
+//The RetroDECK Team
+
+### Links
+
+[Discord](https://discord.gg/WDc5C9YWMx)
+
+[Matrix](https://matrix.to/#/#retrodeck:matrix.org)
+
+[Github](https://github.com/XargonWan/RetroDECK)
+
+[Wiki](https://github.com/XargonWan/RetroDECK/wiki)
+
+[Donations](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)
+
+[Lemmy](https://lemmy.zip/c/retrodeck)<br/>

@@ -35,9 +35,11 @@ How ever if you install a Linux distribution on your device instead you can try 
 
 ARM devices are not supported currently. ES-DE does support the ARM emulators, but it is a vastly different landscape.
 
-It would be a major undertaking but one day in the far-off future it could be possible. But it would need to be a unique experience as the emulators, other underlying systems would not be the same and would need to be rewritten.
+It would be a major undertaking but one day in the future it could be possible. But it would need to be a unique experience as the emulators, other underlying systems would not be the same and would need to be rewritten.
 
-For Android we believe that it is not possible to right now bundle and preconfigure emulators on Android unfortunately as the licensing is different of both the ES-DE frontend and several emulators in the Android versions on the various appstores.
+We would also need more developers with ARM experience to help us with this effort.
+
+For Android we believe that it is not possible to right now bundle and preconfigure emulators on Android unfortunately as the licensing is different of both the ES-DE frontend and several emulators in the Android versions on the various app-stores.
 
 ### Will you support other Linux distribution methods such as Snap or AppImage?
 

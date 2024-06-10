@@ -1,21 +1,25 @@
 # Can I contribute to the project?
+
 Yes! Everybody is welcome to contribute in any way possible if it is personal time or funds.
 
-- Do you know how to code and want to contribute? Please join the development team!
+- Do you know how to code and want to contribute? Be part of the new developer helpers.
 
-- Maybe you know graphics, art or UI & UX design? Join the discussion!
+- Maybe you know graphics, art or UI & UX design? Join the creators corner.
 
-- You can just help by helping others in the support or guide people on various social media and communication platforms.
+- Know how to communicate? Help us populate the wiki or do community maintenance.
 
-- You can also help by just finding and testing the best configurations for the emulators and the roms.
+- Know how to provide support? You can just help by helping others and guide people on various communication platforms.
 
-- Or just help us by doing bug reports on all the issues you find (please check old issues first before submitting a new one).
+- Do you love early testing? You can help by finding bugs, issues and provide suggestions on cooker releases.
+
+- Do you love experimenting and tweaking?  You can help us by finding and the best configurations for the emulators and engines.
 
 - You can also choose do donate to the project over at [Donations & Licenses 🎁](../wiki_credits/donations-licenses.md).
 
 ## Any specific examples of what you need help with?
 
 ### Artist/Creators:
+
 - Create new pixel art for the Radial menus.
 
 - Create easter egg art for various holidays and functions.
@@ -33,6 +37,7 @@ Yes! Everybody is welcome to contribute in any way possible if it is personal ti
 - Help us make RetroDECK better.
 
 ### Developers:
+
 - Help us put in and make new features.
 
 - Help us make the Configurator a godot application with full controller support.
@@ -41,7 +46,10 @@ Yes! Everybody is welcome to contribute in any way possible if it is personal ti
 
 - Help us make RetroDECK better.
 
+- Help us make an ARM version down the line.
+
 ### Testers:
+
 - Help us test cooker builds and submit bugs and feedback.
 -
 - Help us make RetroDECK better.

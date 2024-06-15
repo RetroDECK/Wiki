@@ -212,6 +212,7 @@ nav:
     - Functions ⚙️:
       - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md
       - Compression: wiki_development/functions/compression.md
+      - Creating Emulator/Engine Presets: wiki_development/functions/emulator-presets.md
     - General 🗜️:
       - CLI Guide: wiki_development/general/cli-guide.md
       - Debug Mode: wiki_development/general/debug-mode.md

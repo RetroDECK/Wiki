@@ -34,7 +34,6 @@ We are working on implementing all these features over the big releases. Some wi
 - Cloud sync
 - USB transfer
 - STFP / FTP
-- Better External controller support.
 - Better gyro support.
 - Dynamic external display resolution support for borders and viewports.
 - Emulators & Engines supported by default ES-DE (there at least one option per system in RetroDECK).

@@ -18,6 +18,11 @@ Community management/outreach, testing, documentation, emulator configurations, 
 Meme Lord of the Wiki and also the cult leader of the NPC (The Nordic Pizza Cult) also called by the others as "The Pizza Heresy Cult" or "Harbingers of Pizza Chaos". Instigator of the internal pizza war.
 </details>
 
+## Web Development
+
+### [jiannazzone](https://github.com/jiannazzone)
+Web Development, Community management/outreach, testing, documentation.
+
 ## Developers
 
 ### [IceNine451](https://github.com/icenine451)

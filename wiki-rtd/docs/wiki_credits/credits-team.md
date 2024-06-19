@@ -57,3 +57,21 @@ Does bleeding edge cooker testing (lives in the danger zone), some feature sugge
 <details><summary> </summary>
 2nd Commander of the IPL (Italian Pizza Legion) nicknamed The Wrath of Siciliana in the internal pizza war. .
 </details>
+
+
+## Special Thanks
+ We want give special thanks to:
+
+- Our Patreon and donors that keeps the build servers running and provide feedback.
+
+- All related emulation, front end and software projects that we are dependent on.
+
+- All people that have put both time and money into emulation projects.
+
+- All the users who help others with support, guidance and good spirit.
+
+- All the users who help with testing and reporting issues.
+
+- All the community creators who creates various art and assets for the community.
+
+You are all the ones that makes this project possible.

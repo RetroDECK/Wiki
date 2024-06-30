@@ -3,7 +3,9 @@ This is a WIP document to help build RetroDECK locally. It is based on notes tak
 
 ## Overview
 RetroDECK is a big project in terms of scope and build size! The build process creates a 1.6GB flatpak file and the build folder is about 23GB.
-It takes about 3 hours to build on an 8 core PC.
+It takes about 3 hours to build on an 8 core PC. 
+
+One contributor ran into some stability problems building RetroDeck on their Linux Desktop with 16GB of ram installed. If the laptop was being used during the build it would often crash at least once. Upgrading the memory on the laptop to 32GB, not only stopped the crashes. The build process was reduced by at least 30 minutes per build too.
 
 This document was initially based on adding a new function to RetroDECK as part of the build process. The person that wrote this as a hobbyist coder/developer, decided that it was better to cover just building RetroDECK before moving onto to adding/changing RetroDECK.
 
@@ -24,7 +26,6 @@ Please do not forget that RetroDECK is a volunteer based open source project. If
 The build process is intensive and time consuming. About three hours on a machine with 8 cores. 
 
 From time to time to it can appear to lockup up your device especially during the build process.
-
 
 ### Download/Clone RetroDeck
 Clone the repository. The --recursive option is used to ensure the RetroDECK sub modules are download(ie Emulators from other projects). The only element that is not downloaded for changing/editing is the [RetroDECK fork of ES-DE](https://github.com/XargonWan/RetroDECK-ES-DE). That should only be needed if you wish to add a new emulator via ES-DE.
@@ -126,7 +127,6 @@ RetroDECK/net.retrodeck.retrodeck.yml
 
 [RetroDECK current manifest](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml)
 
-
 An example of a simple build is shown below. Which downloads the Vita3K emulator latest zip and then copies/links the files for use within RetroDECK.
 
 Please note the sha256 this is populated by this [script.](https://github.com/XargonWan/RetroDECK/blob/main/automation_tools/pre_build_automation.sh) Which pulls in this [cfg file.](https://github.com/XargonWan/RetroDECK/blob/main/automation_tools/automation_task_list.cfg) 
@@ -156,61 +156,21 @@ If you want to add a new emulator then this also a basic/simple example how this
   # Vita3K - END
 ```
 
-### Possible Issue  
-Problems with build consistency on my local repository. I tracked this down to the fact the yml pulls in another copy of the RetroDECK repository which then overwrites the yml file. Given the long build time or needing to restart a build. 
-
-This can lead to0 
-  -sha values in the RetroDECK net.retrodeck.retrodeck.yml not matching the file sha values that were download on your repo as part of the build. 
-  -If there is not a corresponding remote branch to your origin this has also led to the build failing. So pointing to your own repo removes this issue.
-
-So far I have changed the two references below. I am currently testing whether one or both need changing.(It looks like it might just reference 1 that needs changing) Then I am going to see if passing the local rather RetroDECK repo  can be changed via a variable etc
-
-Now going back to reference 1 and referee 2 as would not build. 
-
-Reference 1 change.
-```bash
- - name: version-initialization
-    buildsystem: simple
-    build-commands:
-      - |
-
-        # on main please update this with the version variable, eg: VERSION=0.8.0b
-        # on cooker will be THISBRANCH
-        VERSION=0.8.1b
-
-        git checkout ${GITHUB_REF_NAME}
-        mkdir -p ${FLATPAK_DEST}/retrodeck/
-        if [[ $VERSION == *"cooker"* ]];
-        then
-          VERSION="$VERSION-VERSIONPLACEHOLDER"
-        fi
-        echo $VERSION >> ${FLATPAK_DEST}/retrodeck/version
-        cat ${FLATPAK_DEST}/retrodeck/version
-        echo "Version is $VERSION"
-    sources:
-      - type: git
-        url: https://github.com/monkeyx-net/RetroDECK.git
-        branch: THISBRANCH
-```
-Reference 2 change.
-```bash
-    sources:
-      - type: git
-        url: https://github.com/monkeyx-net/RetroDECK.git
-        branch: THISBRANCH
-```
 ## FAQ
 ### Crash during local sh build?
 - Stay Calm!
+- Have you got at least 32GB of ram installed
 - Wait 5 to 10 minutes and see if device starts responding again.
 - Restart the PC/laptop.
-- re run command below it should hopefully continue from the last good build action.
+- re run the command below it should hopefully continue from the last good build action.
 
 ```bash 
 developer_toolbox/build_retrodeck_locally.sh
 ```
 
 ### Crash during local github runner build?
+- Have you got at least 32GB of ram installed
+- Issues with your internet connection
 - Stay Calm!
 - Wait 5 to 10 minutes and see if device starts responding again. 
 - Restart the PC/laptop.

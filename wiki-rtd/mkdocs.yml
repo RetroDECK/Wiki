@@ -13,6 +13,7 @@ theme:
   logo: wiki_icons/retrodeck/rd_icon_circle_32x32.png
   features:
    - navigation.path
+   - content.code.copy
   palette:
     scheme: slate
     primary: "deep purple"
@@ -20,7 +21,12 @@ theme:
   extra_css:
    - stylesheets/extra.css
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+  - pymdownx.superfences
   - attr_list
+
 plugins:
    - search:
    - mkdocs-video:
@@ -220,6 +226,7 @@ nav:
       - Folders and Filepaths: wiki_development/general/folders-filepaths.md
       - Start with Development (WIP): wiki_development/general/general-development.md
       - Build Locally (WIP): wiki_development/general/build-locally.md
+      - Add System (WIP) &#x271A: wiki_development/general/add-system.md
     - Testing 📝:
       - How do I help out with testing?: wiki_development/testing/general-testing.md
       - Release Candidate Testing: wiki_development/testing/release-candidate-testing.md

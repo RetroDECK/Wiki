@@ -19,7 +19,7 @@ Playstation 2 games should be put under the `retrodeck/roms/ps2/` directory.
 PCSX2 supports the following formats: `ISO` `BIN with CUE files` `CHD`
 
 
-## Does Ryujinx require BIOS or Firmware?
+## Does PCSX2 require BIOS or Firmware?
 
 Yes, they need to be put directly into the `retrodeck/roms/bios/` without any subfolder.
 

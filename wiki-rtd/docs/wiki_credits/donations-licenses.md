@@ -437,7 +437,7 @@ All trademarks, logos, controller images and brand names are the property of the
 
 ---
 
-## Property Emulators
+## Propriety Emulators
 
 ### BigPEmu
 
@@ -449,7 +449,7 @@ BigPEmu is the first Atari Jaguar emulator to feature compatibility with the ent
 
 #### Licenses
 
-BigPEmu is property:
+BigPEmu is propriety:
 
 [BigPEmu FAQ](https://www.richwhitehouse.com/jaguar/index.php?content=faq)
 
@@ -462,6 +462,6 @@ ReDream is a Sega Dreamcast emulator.
 
 #### Where to donate / support the project?
 
-ReDream is property:
+ReDream is propriety:
 [Website](https://redream.io/)
 [Premium Upgrade](https://redream.io/premium)

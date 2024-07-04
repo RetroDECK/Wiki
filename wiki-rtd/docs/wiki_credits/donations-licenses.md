@@ -437,7 +437,7 @@ All trademarks, logos, controller images and brand names are the property of the
 
 ---
 
-## Propriety Emulators
+## Propriety / Closed Source Emulators
 
 ### BigPEmu
 

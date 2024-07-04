@@ -444,7 +444,9 @@ All trademarks, logos, controller images and brand names are the property of the
 BigPEmu is the first Atari Jaguar emulator to feature compatibility with the entire retail library, along with excellent performance and a wide variety of unique features.
 
 #### Where to donate / support the project?
+
 [Patreon](https://www.patreon.com/richwhitehouse)
+
 [Website](https://www.richwhitehouse.com/jaguar/)
 
 #### Licenses
@@ -463,5 +465,7 @@ ReDream is a Sega Dreamcast emulator.
 #### Where to donate / support the project?
 
 ReDream is propriety:
+
 [Website](https://redream.io/)
+
 [Premium Upgrade](https://redream.io/premium)

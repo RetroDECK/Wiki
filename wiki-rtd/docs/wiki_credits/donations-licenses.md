@@ -294,23 +294,6 @@ A free and open-source application that emulates the original Microsoft Xbox gam
 
 ---
 
-## Emulators: Other
-
-### BigPEmu
-
-BigPEmu is the first Atari Jaguar emulator to feature compatibility with the entire retail library, along with excellent performance and a wide variety of unique features.
-
-#### Where to donate / support the project?
-[Patreon](https://www.patreon.com/richwhitehouse)
-[Website](https://www.richwhitehouse.com/jaguar/)
-
-#### Licenses
-BigPEmu is closed source check the:
-
-[BigPEmu FAQ](https://www.richwhitehouse.com/jaguar/index.php?content=faq)
-
----
-
 
 ## Software
 
@@ -452,3 +435,33 @@ The Steam Deck logo and Steam Deck device is a registered trademark of Valve Cor
 All trademarks, logos, controller images and brand names are the property of their respective owners. All company, product and service names used in this project are for identification purposes only. Use of these names, trademarks and brands does not imply endorsement.
 
 
+---
+
+## Property Emulators
+
+### BigPEmu
+
+BigPEmu is the first Atari Jaguar emulator to feature compatibility with the entire retail library, along with excellent performance and a wide variety of unique features.
+
+#### Where to donate / support the project?
+[Patreon](https://www.patreon.com/richwhitehouse)
+[Website](https://www.richwhitehouse.com/jaguar/)
+
+#### Licenses
+
+BigPEmu is property:
+
+[BigPEmu FAQ](https://www.richwhitehouse.com/jaguar/index.php?content=faq)
+
+
+## ReDream
+
+### ReDream
+
+ReDream is a Sega Dreamcast emulator.
+
+#### Where to donate / support the project?
+
+ReDream is property:
+[Website](https://redream.io/)
+[Premium Upgrade](https://redream.io/premium)

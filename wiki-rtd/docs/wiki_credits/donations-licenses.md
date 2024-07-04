@@ -451,8 +451,6 @@ BigPEmu is the first Atari Jaguar emulator to feature compatibility with the ent
 
 #### Licenses
 
-BigPEmu is propriety:
-
 [BigPEmu FAQ](https://www.richwhitehouse.com/jaguar/index.php?content=faq)
 
 
@@ -463,8 +461,6 @@ BigPEmu is propriety:
 ReDream is a Sega Dreamcast emulator.
 
 #### Where to donate / support the project?
-
-ReDream is propriety:
 
 [Website](https://redream.io/)
 

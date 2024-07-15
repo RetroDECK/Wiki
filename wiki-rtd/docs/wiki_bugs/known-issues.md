@@ -18,10 +18,10 @@ This means that Ryujinx don't recognize any keys and firmware as it cannot resol
 In the time that we will set up a proper working and safe workaround this issue might be already fixed so is not worth investigating it further.
 An user-sided workaround could be to replace the symlinks with actual folders but users should backup them as the next version (or an emulator reset) will remove the real folders and replace them with symlinks again, and in this case will erease all the saves, keys and firmware. 
 The manual work around, if wished, should be to replace:
-- saves folder `bis` with `retrodeck/saves/switch/ryujinx/nand`
-- `sdcard` with `retrodeck/saves/switch/ryujinx/sdcard`
-- "firmware" folder `system` with `retrodeck/bios/switchch/keys`
-- actual firmware folder `bis/system/Contents/` with `retrodeck/bios/switch/firmware`
+    - saves folder `bis` with `retrodeck/saves/switch/ryujinx/nand`
+    - `sdcard` with `retrodeck/saves/switch/ryujinx/sdcard`
+    - "firmware" folder `system` with `retrodeck/bios/switchch/keys`
+    - actual firmware folder `bis/system/Contents/` with `retrodeck/bios/switch/firmware`
 However, keep in mind that RetroDECK Team will not assume any responsibility for data loss.
 
 ## External Controller issues

@@ -31,7 +31,7 @@ We are working on implementing all these features over the big releases. Some wi
 
 **Missing features:**
 
-- Add games as seperate game entries in Steam
+- Add games as separate game entries in Steam
 - Cloud sync
 - USB transfer
 - STFP / FTP

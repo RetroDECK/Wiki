@@ -11,6 +11,7 @@ It means that RetroDECK builds-in all the software that is running the the games
 
 By being one application RetroDECK can put all important files in one location instead of having them spread out over your entire system and even add features on top to orchestrate them seamlessly.
 
+## What is included in RetroDECK?
 
 
 ## The RetroDECK Framework

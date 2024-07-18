@@ -1,31 +1,52 @@
 # RetroDECK: What's included?
 
-What follows is a list of features and software currently included in RetroDECK from update 0.8b
+What follows is a list of features and software currently included in RetroDECK.
 
-## Features
+## The RetroDECK Framework
 
-### The RetroDECK Configurator
+As previously mentioned, RetroDECK also adds the `RetroDECK Framework` on top of the software that allows deeper integrations between the built-in software and easier exposure to a variety of features that you otherwise need to set for example per emulator basis to create a uniformity between them.
 
-Is a powerful Utility that can be used to change/modify and manipulate various aspects of RetroDECK using the `RetroDECK Framework` more information in the `RetroDECK Configurator 🛠️` section.
+## The RetroDECK Configurator
+
+Is a powerful Utility that can be used to change/modify and manipulate various aspects of RetroDECK.
+
+The `RetroDECK Configurator` is the `Utility` that exposes some parts of the `RetroDECK Framework` to the RetroDECK users.
+
+**What can the RetroDECK Framework and by extent the RetroDECK Configurator do?**
+
+It can help with:
+
+- Compressing games
+- Easier `Texture Pack` and `Mod` management
+- File management
+- Tools for troubleshooting (BIOS Checker, Multi-File Structure Checker, Partial or full reset of functions)
+- Auto installing some free BIOSes
+- Install prebuilt Steam Input profiles for devices like the Steam Deck and external controllers
+- Easier management of `mods`, `roms`, `texture_packs`, `scraped media`, `screenshots`, `saves / states` `gamelists` and more
+- Give access to global presets that can be acitivated to configure things over many emulators in one go like: `RetroAchievements`
+  `Borders` `Widescreen Mode` `Swaping A/B X/Y for Nintendo Games`
+- And more!
+
+Read more here:  [RetroDECK Configurator](../wiki_configurator/configurator.md).
+
 
 ## ES-DE Frontend
 
 ES-DE is the base frontend for RetroDECK.
 
-RetroDECK comes with specific tweaks to the ES-DE standard setup to enable RetroDECK unique functions like the `RetroDECK Framework` and `RetroDECK Configurator`.
+RetroDECK comes with specific tweaks to the ES-DE standard setup to enable RetroDECK unique functions like and `RetroDECK Configurator` that can be accessed via the ES-DE Main Menu.
 
-## Multi-Emulators
+## Included: Multi-Emulators
 
 ### RetroArch
 
-RetroDECK ships will all cores under the stable branch of RetroArch.
-If there is no stable version of a core the nightly version will be used instead.
+RetroDECK ships will all cores under the stable branch of RetroArch. If there is no stable version of a core the nightly version will be used instead.
 
 ### MAME (Standalone)
 
-The full version of mame
+The full version of MAME
 
-## Standalone Emulators
+## Included: Standalone Emulators
 
 - Cemu (WiiU)
 - Dolphin (GameCube/Wii)
@@ -38,50 +59,39 @@ The full version of mame
 - Xemu (XBOX)
 - Ryujinx (Switch)
 
-## Standalone Engine
+## Supported: Standalone Engines
 
 - Solarus
 - GZDoom
 - IkemanGO (M.U.G.E.N)
 - Pico-8
-- OpenBOR
 
-## RetroDECK Controller profiles
+## Steam Input Controller layouts
 
-Steam Deck and External Controllers
+For all inputs layouts included in RetroDECK.
 
-## RetroDECK: Included ES-DE Themes
+Read more here: [Supported Controllers](../wiki_general/supported-controllers.md).
 
-RetroDECK includes the following themes.
 
-**Note:**<br>
+## Supported Devices
 
-More themes can be easily be added, check: `EmulationStation-DE Guide 📘` - `ES-DE Themes` for details.
+RetroDECK currently supports Linux Desktop and the Steam Deck.
 
-### Art Book Next
+Read more here: [Supported Devices](../wiki_general/supported-devices.md)
 
-| System View | Gamelist View |
-|----|----|
-| ![rd-theme-ArtBookNext-SystemView](https://gitlab.com/es-de/themes/themes-list/-/raw/master/screenshots/art-book-next-es-de/art-book-next-es-de_01.jpg) | ![rd-theme-ArtBookNext-GamelistView](https://gitlab.com/es-de/themes/themes-list/-/raw/master/screenshots/art-book-next-es-de/art-book-next-es-de_04.jpg) |
 
-### Slate
-
-| System View | Gamelist View |
-|----|----|
-| ![rd-theme-ArtBookNext-SystemView](https://gitlab.com/es-de/themes/themes-list/-/raw/master/screenshots/slate-es-de/slate-es-de_01.jpg) | ![rd-theme-ArtBookNext-GamelistView](https://gitlab.com/es-de/themes/themes-list/-/raw/master/screenshots/slate-es-de/slate-es-de_04.jpg) |
-
-### Modern
-
-| System View | Gamelist View |
-|----|----|
-| ![rd-theme-ArtBookNext-SystemView](https://gitlab.com/es-de/themes/themes-list/-/raw/master/screenshots/modern-es-de/modern-es-de_01.jpg) | ![rd-theme-ArtBookNext-GamelistView](https://gitlab.com/es-de/themes/themes-list/-/raw/master/screenshots/modern-es-de/modern-es-de_02.jpg) |
-
-## Missing Features
+## Missing Features and BETA Period
 
 We plan to add more emulators, engines, systems, and functions over the course of the development cycle.
 
-We do not have any plans to ship all emulators, engines, or systems in existence for each game system or console. The goal is to ship those that handle that system the best with the most features.
+We do not have any plans to ship all emulators, engines, or systems in existence for each game system or console. The goal is to ship those that handle that system the best with the most features and we are allowed to ship.
 
-For the latest things The RetroDECK Team is working on check:
+For more information check:
 
-`General Information 📰` - `What are you working on?` and `Version History (Patchnotes)`
+[What are you working on?](../wiki_development/general/what-are-you-working.on.md)
+
+[Beta period](../wiki_about/beta-period.md)
+
+[Version history](../wiki_rd_versions/version-history.md)
+
+

@@ -42,11 +42,15 @@ RetroDECK comes with specific tweaks to the ES-DE standard setup to enable Retro
 
 ### RetroArch
 
-RetroDECK ships will all cores under the stable branch of RetroArch. If there is no stable version of a core the nightly version will be used instead.
+RetroArch supports many systems via it's cores and RetroDECK ships will all cores under the stable branch of RetroArch. If there is no stable version of a core the nightly version will be used instead.
+
+For a full list of supported systems see here:
+
+[RetroArch - General Guide](../wiki_emulator_guides/retroarch/retroarch-guide.md)
 
 ### MAME (Standalone)
 
-The full version of MAME
+The full version of MAME (Arcade games and more)
 
 ## Included: Standalone Emulators
 

@@ -6,21 +6,29 @@ For a quick overview check the website.
 
 [retrodeck.net]( https://retrodeck.net/)
 
-**But in short:**
+## What is RetroDECK?
 
 RetroDECK is a [ES-DE Frontend](https://es-de.org) powered [Flatpak](https://flathub.org/apps/net.retrodeck.retrodeck) all-in-one game application that is still in development. Thanks to its `RetroDECK Framework` it builds-in a variety of software (that runs your games) like emulators and game engines in one package that is pre-configured.
 
-RetroDECK is easy to install as all you need is to download it from flathub via your software center like KDE Discover or Gnome Software.
+### RetroDECK is easy to install
 
-RetroDECK is easy to update as it updates from your software center like all other system updates.
+As all you need is to download it from flathub via your software center like KDE Discover or Gnome Software.
+
+### RetroDECK is easy to update
+
+As it updates from your software center like all other system updates.
+
+### RetroDECK is contained
 
 By being an all-in-one flatpak application RetroDECK is sandboxed and contained. Thus put all important files from all software in a minimal amount of locations, instead of having them spread out over your entire system. That also makes RetroDECK very easy to remove and clean-up (if you so wish).
 
-RetroDECK adds features via the RetroDECK Configurator to allow you to change things across many emulators / systems from one interface.
+### RetroDECK Configurator
+
+RetroDECK features the RetroDECK Configurator that is accessible from the ES-DE main menu to allow you to change / configure settings across many systems from one interface. You can read more about the RetroDECK Configurator in the `RetroDECK: What is included?` down the page.
+
+### RetroDECK saves space
 
 RetroDECK also saves space comparing to installing all emulators separately as we can cross reference libraries and functions the Emulators / Engines have in common and only ship one instead of several.
-
-For more information check the `About 📜` and `General Information 📰` sections of this wiki.
 
 ## What software and features are included in RetroDECK?
 

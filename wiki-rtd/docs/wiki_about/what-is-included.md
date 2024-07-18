@@ -96,8 +96,8 @@ We do not have any plans to ship all emulators, engines, or systems in existence
 
 [What are you working on?](../wiki_development/general/what-are-you-working.on.md)
 
-[Beta period](../wiki_about/beta-period.md)
+[Beta Period](../wiki_about/beta-period.md)
 
-[Version history](../wiki_rd_versions/version-history.md)
+[Version History](../wiki_rd_versions/version-history.md)
 
-
+[Known Issues](../wiki_bugs/known-issues.md)

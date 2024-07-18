@@ -63,8 +63,7 @@ For a full list of supported systems in RetroArch follow the link and check the 
 
 [RetroArch - General Guide](../wiki_emulator_guides/retroarch/retroarch-guide.md)
 
-### MAME (Standalone)
-
+### MAME
 
 <img src="../../wiki_images/logos/mame-logo.png" width="180">
 

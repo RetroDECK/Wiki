@@ -17,7 +17,7 @@ By being one application RetroDECK can put all important files in one location i
 For more information check the `About 📜` and `General Information 📰` sections of this wiki.
 
 
-## What software and features is included in RetroDECK?
+## What software and features are included in RetroDECK?
 
 **Read more here:**
 

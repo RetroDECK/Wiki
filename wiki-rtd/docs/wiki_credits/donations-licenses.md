@@ -97,6 +97,7 @@ The LibreRetro Team makes RetroArch, Libretro and Lakka
 [Licenses](https://docs.libretro.com/development/licenses/)
 
 ### MAME
+
 <img src="../../wiki_images/logos/mame-logo.png" width="180">
 
 
@@ -314,7 +315,7 @@ We have not found a donation link to this project at this time or the project do
 
 <img src="../../wiki_images/logos/gzdoom-logo.png" width="150">
 
-GZDoom is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities
+GZDoom is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.
 
 #### Where to donate / support the project?
 We have not found a donation link to this project at this time or the project does not support donations.

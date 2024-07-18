@@ -142,7 +142,7 @@ The Switch emulator Ryujinx.
 
 ### Solarus
 
-<img src="../../wiki_images/logos/solarus-logo.svg" width="100">
+<img src="../../wiki_images/logos/solarus-logo.svg" width="130">
 
 Solarus is a free and open-source 2D game engine written in C++, that can run games scripted in Lua. It has been designed with 16-bit classic Action-RPGs in mind, and is available on a wide range of platforms.
 

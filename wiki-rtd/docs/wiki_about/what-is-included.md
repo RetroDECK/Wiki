@@ -27,7 +27,9 @@ It can help with:
   `Borders` `Widescreen Mode` `Swaping A/B X/Y for Nintendo Games`
 - And more!
 
-Read more here:  [RetroDECK Configurator](../wiki_configurator/configurator.md).
+**Read more here:**
+
+[RetroDECK Configurator](../wiki_configurator/configurator.md).
 
 
 ## ES-DE Frontend
@@ -70,14 +72,18 @@ The full version of MAME
 
 For all inputs layouts included in RetroDECK.
 
-Read more here: [Supported Controllers](../wiki_general/supported-controllers.md).
+**Read more here:**
+
+[Supported Controllers](../wiki_general/supported-controllers.md).
 
 
 ## Supported Devices
 
 RetroDECK currently supports Linux Desktop and the Steam Deck.
 
-Read more here: [Supported Devices](../wiki_general/supported-devices.md)
+**Read more here:**
+
+[Supported Devices](../wiki_general/supported-devices.md)
 
 
 ## Missing Features and BETA Period
@@ -86,7 +92,7 @@ We plan to add more emulators, engines, systems, and functions over the course o
 
 We do not have any plans to ship all emulators, engines, or systems in existence for each game system or console. The goal is to ship those that handle that system the best with the most features and we are allowed to ship.
 
-For more information check:
+**Read more here:**
 
 [What are you working on?](../wiki_development/general/what-are-you-working.on.md)
 

@@ -13,24 +13,24 @@ Some articles are marked as WIP (Work in Progress).
 
 Those can either be:
 
-- Preparation articles for an upcoming update
+- Preparation articles for an upcoming update.
 - They could also be articles we have not had the time to fully write yet.
 
+## What is RetroDECK?
 
-### Do you want to help to contribute to the wiki?
-
-Join the [Discord](https://discord.gg/WDc5C9YWMx) and post in `💙-i-want-to-help` channel that you want to help with the wiki.<br>
-You will then get access to the `🖋-wiki-maintainers`channel by one of the mods and you can discuss with your fellow contributors in that channel.
-
-## Start here
-
-- [Getting Started](wiki_general/retrodeck-start.md)
-- [Supported Devices](wiki_general/supported-devices.md)
 - [What is RetroDECK?](wiki_about/what-is-retrodeck.md)
 - [What is included in RetroDECK?](wiki_about/what-is-included.md)
 - [About the BETA Period](wiki_about/beta-period.md)
+- [Supported Devices](wiki_general/supported-devices.md)
+- [Supported Controllers](../wiki_general/supported-controllers.md).
 
-And check out the other articles under the `General Information 📰` section.
+For even more information check out the other articles under the ``About 📜` ` section.
+
+## Getting Started with RetroDECK
+
+- [Guide: Getting Started](wiki_general/retrodeck-start.md)
+
+For even more information check out the other articles under the `General Information 📰` section.
 
 ## The RetroDECK links
 
@@ -47,3 +47,11 @@ More information in the `Community & Helping Out ❤️` section
 ### Service Status
 [Github - Status](https://www.githubstatus.com/)<br>
 [Flathub - Status](https://status.flathub.org/)<br>
+
+
+
+
+## Do you want to help to contribute to the wiki?
+
+Join the [Discord](https://discord.gg/WDc5C9YWMx) and post in `💙-i-want-to-help` channel that you want to help with the wiki.<br>
+You will then get access to the `🖋-wiki-maintainers`channel by one of the mods and you can discuss with your fellow contributors in that channel.

@@ -27,7 +27,7 @@ Cannot handle the symlinks correctly (it never could do it perfect before) in th
 
 The RetroDECK Team is working with the Ryujinx Team to fix this permanently in Ryujinx and hopefully got a solution soon and will push a 0.8.3b with the fixes.
 
-The consequences is that: Ryujinx don't recognize any keys and firmware as it cannot resolve the symlink, so the games are not starting.
+The consequences are that: Ryujinx don't recognize any keys and firmware as it cannot resolve the symlink, so the games are not starting.
 
 A temporary but very dangerous workaround we really don't recommend doing is to manually replace the symlinks with actual folders. But you must backup them as the next version or if you reset Ryujinx via the Configurator will remove the real folders and replace them with symlinks again, and in this case will erase all the saves, keys and firmware!
 

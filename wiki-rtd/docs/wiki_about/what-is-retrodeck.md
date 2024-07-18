@@ -17,5 +17,5 @@ For more information check the `About 📜` section of this wiki.
 
 **Read more here:**
 
-[What is included?](../wiki_about/what-is-included/)
+[What is included?](../wiki_about/what-is-included.md)
 

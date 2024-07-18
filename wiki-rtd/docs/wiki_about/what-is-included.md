@@ -4,7 +4,7 @@ What follows is a list of features and software currently included in RetroDECK.
 
 ## The RetroDECK Framework
 
-As previously mentioned, RetroDECK also adds the `RetroDECK Framework` on top of the software that allows deeper integrations between the built-in software and easier exposure to a variety of features that you otherwise need to set for example per emulator basis to create a uniformity between them.
+RetroDECK adds the `RetroDECK Framework` on top of the software that allows deeper integrations between the built-in software and easier exposure to a variety of features that you otherwise need to set for example per emulator basis to create a uniformity between them.
 
 ## The RetroDECK Configurator
 

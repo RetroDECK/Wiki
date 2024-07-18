@@ -44,7 +44,7 @@ RetroDECK comes with specific tweaks to the ES-DE standard setup to enable Retro
 
 RetroArch supports many systems via it's cores and RetroDECK ships will all cores under the stable branch of RetroArch. If there is no stable version of a core the nightly version will be used instead.
 
-For a full list of supported systems see here:
+For a full list of supported systems in RetroArch follow the link and check the `Core List`:
 
 [RetroArch - General Guide](../wiki_emulator_guides/retroarch/retroarch-guide.md)
 

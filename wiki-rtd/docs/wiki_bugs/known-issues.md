@@ -25,7 +25,7 @@ The standard implementation RetroDECK uses does not work and is currently not co
 
 Cannot handle the symlinks correctly (it never could do it perfect before) in the new updates (this affects all of Linux). Thus our saves, firmware (nand) and keys folder are currently symlinked in retrodeck folders do not work.
 
-The RetroDECK Team is working with the Ryujinx Team to fix this permanently in Ryujinx and hopefully got a solution soon.
+The RetroDECK Team is working with the Ryujinx Team to fix this permanently in Ryujinx and hopefully got a solution soon and will push a 0.8.3b with the fixes.
 
 The consequences is that: Ryujinx don't recognize any keys and firmware as it cannot resolve the symlink, so the games are not starting.
 

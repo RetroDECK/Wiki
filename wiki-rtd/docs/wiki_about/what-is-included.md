@@ -180,20 +180,3 @@ RetroDECK currently supports Linux Desktop and the Steam Deck.
 **Read more here:**
 
 [Supported Devices](../wiki_general/supported-devices.md)
-
-
-## Missing Features and BETA Period
-
-We plan to add more emulators, engines, systems, and functions over the course of the development cycle.
-
-We do not have any plans to ship all emulators, engines, or systems in existence for each game system or console. The goal is to ship those that handle that system the best with the most features and we are allowed to ship.
-
-**Read more here:**
-
-[What are you working on?](../wiki_development/general/what-are-you-working.on.md)
-
-[Beta Period](../wiki_about/beta-period.md)
-
-[Version History](../wiki_rd_versions/version-history.md)
-
-[Known Issues](../wiki_bugs/known-issues.md)

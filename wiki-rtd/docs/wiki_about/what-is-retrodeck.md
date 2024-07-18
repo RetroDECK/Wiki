@@ -21,6 +21,6 @@ For more information check the `About 📜` and `General Information 📰` secti
 
 **Read more here:**
 
-[What is included?](../wiki_about/what-is-included.md)
+[RetroDECK: What is included?](../wiki_about/what-is-included.md)
 
 

@@ -50,7 +50,7 @@ Could answers several questions you might have about the project as well.
 
 [FAQ: Feature Requests](../wiki_faq/faq-feature.md)
 
-[FAQ: Feature Requests](../wiki_faq/faq-documentation.md)
+[FAQ: Documentation Questions](../wiki_faq/faq-documentation.md)
 
 ## Missing Features and BETA Period
 

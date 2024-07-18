@@ -4,9 +4,9 @@ This is a WIP document to show how the Ruffle emulator was added RetroDeck. From
 
 ## Overview
 
-Article assumes that the defaults path for RetroDECK are
+Article assumes that the defaults path for RetroDECK are the standard paths.
 
-That you have looked at [the build local](build-locally.md) document as this continues from that introduction.
+It also assumes that that you have looked at [Development and Build Locally](build-locally.md) article as this continues from that introduction.
 
 ## Preparation
 
@@ -24,10 +24,10 @@ How well do you know the emulator you are looking to add to RetroDECK.
 
 ### Clone RetroDeck
 
-- Fork and clone the main [RetroDeck project.](https://github.com/XargonWan/RetroDECK/fork)
+- Fork and clone the main project [RetroDeck Github](https://github.com/XargonWan/RetroDECK/fork)
 - Adding an emulator would be classed as a **new feature** so create a branch based of the label feat, ie: `feat/new_emulator_name`
-- An example for **ruffle** can be seen [here](https://github.com/monkeyx-net/RetroDECK_UK/tree/feat/ruffle)
-- Initial testing can be done via the [debug mode](/wiki_development/general/debug-mode/#retrodeck-in-debug-mode)
+- An example for **ruffle** can be seen [Github: Feat Ruffle](https://github.com/monkeyx-net/RetroDECK_UK/tree/feat/ruffle)
+- Initial testing can be done via the [Debug Mode](debug-mode.md)
 - You will be able to manually run via emulator and test functionality
 - To get the emulator added to the manifest an example of ruffle is shown below as simple example manifest
 
@@ -61,7 +61,7 @@ How well do you know the emulator you are looking to add to RetroDECK.
    - sha256: the sha256sum of the file, this is mandatory
 
 > **NOTE:** In some rare cases we might don't know the sha (or even the url) in advance, for example when an emulator is having only one release on GitHub that is being kept updated without a release history.
-[This guide](wiki-rtd/docs/wiki_development/general/automate-emulator-with-placeholders.md) is explaining how to use the placeholders instead of urls or sha in case the this data cannot be foreseen.
+[Guide: Automate emulator updates with placeholders](automate-emulator-with-placeholders.md) is explaining how to use the placeholders instead of urls or sha in case the this data cannot be foreseen.
 Fort his purpose we have implemented an automation to get that data from the repository itself to being used only as a final resource as we prefer to control the version of each module for proper troubleshooting and version control.
 
 ### Build the RetroDECK Flatpak
@@ -72,7 +72,7 @@ Move you new yml code to just after key dependencies in the manifest. So that yo
 
 Not even ES-DE should be needed to test the additional emulator. In fact it will not show up in ES-DE. See [here for more.](#add-emulatorsystem-to-es-de)
 
-Build using  [self hosted runner](build-locally/#build-locally-installed-github-runner) is the recommended method. Can also build via a [bash script](build-locally/#build-locally-via-bash-script)
+Build using [Build Locally](build-locally.md) with a `self hosted runner` is the recommended method, but you can also build via a `bash script`.
 
 If you run via self hosted it easier to track the build and any issues/errors are logged. 
 Other than human error with the code the most frequent issue is with sha256 issues due to issue with download or a version change. So there sha256 no longer matches.
@@ -107,7 +107,7 @@ If it then asks to upgrade the cooker as well. Then say no.
 
 In order for your new system to show in ES-DE it need to be added to ES-DE, which has been forked by the project.
 
-Fork and clone the RetroDECK ES-DE [Repo](https://github.com/XargonWan/RetroDECK-ES-DE/fork)
+Fork and clone the RetroDECK ES-DE [Github: ES-DE Fork](https://github.com/XargonWan/RetroDECK-ES-DE/fork)
 
 Once cloned cd into your cloned directory and create a new branch and then 
 
@@ -131,7 +131,7 @@ There are two files in that folder and the relevant ruffle sections are shown be
 </system>
 ```
 
-In the rules file I added an entry for the ruffle-wrapper.sh and added the <!-- RetroDECK --> remark to make it easier to compare for differences when merges are made from ES-De source project. A wrapper script was required as ruffle has most options set from cli switches. The wrapper script is documented [below.](emu-configs)
+In the rules file I added an entry for the ruffle-wrapper.sh and added the <!-- RetroDECK --> remark to make it easier to compare for differences when merges are made from ES-De source project. A wrapper script was required as ruffle has most options set from cli switches. The wrapper script is documented below.
 
 `es_find_rules.xml`
 ```xml

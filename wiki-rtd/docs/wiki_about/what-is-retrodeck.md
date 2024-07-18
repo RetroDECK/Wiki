@@ -42,7 +42,7 @@ Could answers several questions you might have about the project as well.
 
 [FAQ: General Questions](../wiki_faq/faq-rd-general.md)
 
-[FAQ: Usage Questions](../wiki_faq/faq-rd-usagel.md)
+[FAQ: Usage Questions](../wiki_faq/faq-rd-usage.md)
 
 [FAQ: ES-DE Questions](../wiki_faq/faq-esde.md)
 

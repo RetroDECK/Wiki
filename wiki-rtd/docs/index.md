@@ -22,7 +22,7 @@ Those can either be:
 - [What is included in RetroDECK?](wiki_about/what-is-included.md)
 - [About the BETA Period](wiki_about/beta-period.md)
 - [Supported Devices](wiki_general/supported-devices.md)
-- [Supported Controllers](../wiki_general/supported-controllers.md).
+- [Supported Controllers](wiki_general/supported-controllers.md)
 
 For even more information check out the other articles under the ``About 📜` ` section.
 

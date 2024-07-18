@@ -5,24 +5,40 @@ For a list of reported bugs please check here on github: [RetroDECK issues](http
 
 ## Emulator / Engine Issues
 
-- `PPSSPP` Retroachievements is in the latest version, you can login / logout / enable hardcore mode normally from the emulators interface. It is right now not configurable in the Configurator (as it works a bit differently than the other emulators), we hope to have a solution for it later.
+### PPSSPP
 
-- `RetroArch: Gambatte` Quitting the core with the `Quit` radial function makes the core swap the palette while playing GB.
+Retroachievements you can login / logout / enable hardcore mode normally from the emulators interface. It is right now not configurable in the Configurator (as it works a bit differently than the other emulators), we hope to have a solution for it later.
 
-- `RetroArch` Borders are in some few cases disappearing in the latest RetroArch version. A workaround is to reset RetroArch from the Configurator.
+### RetroArch
 
-- `OpenBOR` The standard implementation RetroDECK uses does not work, we are going to redesign it in a minor update.
+Borders are in some few cases disappearing in the latest RetroArch version. A workaround is to reset RetroArch from the Configurator
 
-- `Ryujinx` now cannot handle the symlinks correctly, our saves, firmware (nand) and keys folder are symlinked in retrodeck folders.
-This means that Ryujinx don't recognize any keys and firmware as it cannot resolve the symlink, so the games are not starting.
-In the time that we will set up a proper working and safe workaround this issue might be already fixed so is not worth investigating it further.
-An user-sided workaround could be to replace the symlinks with actual folders but users should backup them as the next version (or an emulator reset) will remove the real folders and replace them with symlinks again, and in this case will erease all the saves, keys and firmware. 
-The manual work around, if wished, should be to replace:
-    - saves folder `bis` with `retrodeck/saves/switch/ryujinx/nand`
-    - `sdcard` with `retrodeck/saves/switch/ryujinx/sdcard`
-    - "firmware" folder `system` with `retrodeck/bios/switchch/keys`
-    - actual firmware folder `bis/system/Contents/` with `retrodeck/bios/switch/firmware`
-However, keep in mind that RetroDECK Team will not assume any responsibility for data loss.
+#### RetroArch: Gambatte
+
+Quitting the core with the `Quit` radial function makes the core swap the palette while playing GB.
+
+### OpenBOR
+
+The standard implementation RetroDECK uses does not work and is currently not compatible. We are going to redesign it in an future update.
+
+### Ryujinx - Warning
+
+Cannot handle the symlinks correctly (it never could do it perfect before) in the new updates (this affects all of Linux). Thus our saves, firmware (nand) and keys folder are currently symlinked in retrodeck folders do not work.
+
+The RetroDECK Team is working with the Ryujinx Team to fix this permanently in Ryujinx and hopefully got a solution soon.
+
+The consequences is that: Ryujinx don't recognize any keys and firmware as it cannot resolve the symlink, so the games are not starting.
+
+A temporary but very dangerous workaround we really don't recommend doing is to manually replace the symlinks with actual folders. But you must backup them as the next version or if you reset Ryujinx via the Configurator will remove the real folders and replace them with symlinks again, and in this case will erase all the saves, keys and firmware!
+
+The manual work around should be to replace:
+
+    - Saves folder `bis` with `retrodeck/saves/switch/ryujinx/nand`
+    - The `sdcard` with `retrodeck/saves/switch/ryujinx/sdcard`
+    - The "firmware" folder `system` with `retrodeck/bios/switchch/keys`
+    - The actual firmware folder `bis/system/Contents/` with `retrodeck/bios/switch/firmware`
+
+However, keep in mind that RetroDECK Team will not assume any responsibility for data loss and we recommend our users to wait until Ryujinx have fixed it on their side.
 
 ## External Controller issues
 

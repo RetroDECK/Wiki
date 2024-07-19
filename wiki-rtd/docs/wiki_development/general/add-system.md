@@ -14,19 +14,39 @@ This article assumes that the RetroDECK uses it's default standard paths.
 
 It also assumes that that you have looked at [Development and Build Locally](build-locally.md) article as this continues from that introduction.
 
-## Preparation and check functions
+## Do you know the system you are trying to add?
 
-How well do you know the emulator you are looking to add to RetroDECK. Take a look at the following question and try to answer them
+How well do you know the system you are looking to add to RetroDECK?
+
+Take a look at the following question and try to answer them
+
+### General Questions
 
 - Can it run fullscreen?
-- Does it save config files?
-- Does it need a default config files and how many?
-- What libraries and assets does it need?
 - Does it need bios files?
-- Controller support?
-- Does it support hotkeys/keybinds for emulator functions like saving/loading/quiting and more?
-- Command line arguments for redirecting configs or saves etc?
+- What type of input does it need?
+- How is controller support?
+- Does it have a separate menu you open in game to access the emulator / engines settings or do you access them via minimizing fullscreen?
 - Does it support having it's folders symlinked?
+
+### Hotkeys and Keybinds
+
+- Does it support hotkeys/keybinds for emulator functions like saving/loading/quiting and more?
+- If it has hotkey support - does it have hotkeys are the hardbound or they can be rebound by the user?
+- If they are hardbound keys - can they be changed during the buildprocess with changing the code with a light edit in the emulator?
+- If they are bindable - does it support keyboard combo inputs (Example: CTRL + A)?
+
+### Configs and CLI
+
+- Does it need a default config files and how many?
+- How does it save config files after you edit the default settings?
+- Does the configs support redirecting of save folders or other directories?
+- Does it have command line arguments for redirecting configs, folders, saves or more?
+
+### Dependencies
+
+- What libraries and assets does it need?
+
 
 ## Tasks Involved
 

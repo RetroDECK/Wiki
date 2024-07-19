@@ -10,7 +10,7 @@ With this article we try to showcase how how to add a new system to RetroDECK. W
 
 This article assumes that the RetroDECK uses it's default standard paths.
 
-It also assumes that that you have looked at [Development and Build Locally](build-locally.md) article as this continues from that introduction.
+It also assumes that that you have looked at [Build Locally](build-locally.md) article as this continues from that introduction.
 
 ## Do you know the system you are trying to add?
 

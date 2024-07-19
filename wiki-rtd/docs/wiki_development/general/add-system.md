@@ -1,6 +1,6 @@
 # Add a new system to RetroDECK (WIP)
 
-With this article we try to showcase how how to add a new system to RetroDECK. We will use the Ruffle emulator as an example for this process and go trough:
+With this article we try to showcase how to add a new system to RetroDECK. We will use the Ruffle emulator as an example for this process and go trough:
 
 - Initial testing of the emulator.
 - Integrating Ruffle into Flatpack build process.

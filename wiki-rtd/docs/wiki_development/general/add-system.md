@@ -1,24 +1,32 @@
-# Add a new system to RetroDECK
+# Add a new system to RetroDECK (WIP)
 
-This is a WIP document to show how the Ruffle emulator was added RetroDeck. From initial testing of the emulator, to integrating Ruffle into Flatpack build process and then how to integrate Ruffle into RetroDeck Configuration system for saving game data, resetting/moving config etc.
+With this article we try to showcase how how to add a new system to RetroDECK. We will use the Ruffle emulator as an example for this process.
 
-## Overview
+From
 
-Article assumes that the defaults path for RetroDECK are the standard paths.
+- Initial testing of the emulator.
+- Integrating Ruffle into Flatpack build process.
+- How to integrate Ruffle into `RetroDeck Framework` and `RetroDECK Configurator` (for saving game data, resetting/moving config etc).
+
+## Overview and prerequisites
+
+This article assumes that the RetroDECK uses it's default standard paths.
 
 It also assumes that that you have looked at [Development and Build Locally](build-locally.md) article as this continues from that introduction.
 
-## Preparation
+## Preparation and check functions
 
-How well do you know the emulator you are looking to add to RetroDECK. 
+How well do you know the emulator you are looking to add to RetroDECK. Take a look at the following question and try to answer them
 
- * Can it run fullscreen
- * Does it save config files
- * Does it need a default config file
- * What libraries and assets does it need.
- * Does it need bios files
- * Controller support
- * Command line arguments for redirecting configs or saves etc
+- Can it run fullscreen?
+- Does it save config files?
+- Does it need a default config files and how many?
+- What libraries and assets does it need?
+- Does it need bios files?
+- Controller support?
+- Does it support hotkeys/keybinds for emulator functions like saving/loading/quiting and more?
+- Command line arguments for redirecting configs or saves etc?
+- Does it support having it's folders symlinked?
 
 ## Tasks Involved
 

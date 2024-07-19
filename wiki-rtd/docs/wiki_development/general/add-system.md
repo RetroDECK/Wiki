@@ -21,7 +21,7 @@ Take a look at the following question and try to answer them
 ### General Questions
 
 - Can it run fullscreen?
-- Does it need bios files?
+- Does it need bios / firmware files?
 - What type of input does it need?
 - Does it have a separate menu you open in game to access the emulator / engines settings or do you access them via minimizing fullscreen?
 - Does it support having it's folders / files symlinked?

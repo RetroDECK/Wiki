@@ -23,10 +23,13 @@ Take a look at the following question and try to answer them
 - Can it run fullscreen?
 - Does it need bios files?
 - What type of input does it need?
-- How is controller support?
-- How does it handle Steam Input? (Add the system to Steam and try launching it via Steam)
 - Does it have a separate menu you open in game to access the emulator / engines settings or do you access them via minimizing fullscreen?
 - Does it support having it's folders symlinked?
+
+### Controllers
+
+- How is controller support? Is it SDL or something else?
+- How does it handle Steam Input? (Add the system to Steam and try launching it via Steam)
 
 ### Hotkeys and Keybinds
 

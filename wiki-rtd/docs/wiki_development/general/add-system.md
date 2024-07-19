@@ -24,7 +24,7 @@ Take a look at the following question and try to answer them
 - Does it need bios files?
 - What type of input does it need?
 - Does it have a separate menu you open in game to access the emulator / engines settings or do you access them via minimizing fullscreen?
-- Does it support having it's folders symlinked?
+- Does it support having it's folders / files symlinked?
 
 ### Controllers
 

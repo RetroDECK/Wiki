@@ -5,6 +5,17 @@
 ## Where to put the games
 Games that you want to run with MAME should be put under the `retrodeck/roms/mame/` directory.
 
+## Enable cheats
+
+RetroDECK already ships the cheat file from [Pugsy's Cheats]](https://www.mamecheat.co.uk/) as part of the cheat folder.
+
+To enable cheats open MAME via the Configurator (we plan to make this easier later).
+
+In the MAME interface go to -> `General Settings` -> `Miscellaneous Options` -> `Cheats` and toggle it to `On` -> go back and click `Save Settings` and leave MAME.
+
+When you launch a game open the `Quick Menu` and go to the `Cheat` menu to toggle cheats for that game.
+
+
 ## MAME Standalone Folders
 
 MAME Standalone comes with several folders for various assets and files.

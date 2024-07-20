@@ -37,9 +37,14 @@ MAME Standalone comes with several folders for various assets and files.
 
 `~/.var/app/net.retrodeck.retrodeck/config/mame/cfg`
 
+This is where the `default.cfg` is and also any custom game configs are saved.
+
 **INI**
 
 `~/.var/app/net.retrodeck.retrodeck/config/mame/ini`
+
+This is where `ui.ini` and `mame.ini` files are located. But they should not be touched unless you know what you are doing.
+You can always reset via the configurator if you mess things up.
 
 **INP**
 

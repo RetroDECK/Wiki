@@ -1,6 +1,6 @@
 # The RetroDECK Configurator
 
-**Please note that we are going to rebuild the configurator into a controller friendly GODOT application and that the current version is not the final design.**
+**Please note that we are going to rebuild the Configurator into a controller friendly GODOT application and that the current version is not the final design.**
 
 <img src="../../wiki_images/graphics/configurator/configurator.png" width="500">
 
@@ -80,6 +80,15 @@ Here you launch and configure each emulator's settings, the option you choose wi
 
 
 ## RetroDECK: Tools
+
+
+### Tool: Remove empty ROM folders
+
+This tool removes all the roms folders under retrodeck/roms/ that are empty to only leave those that are populated with content.
+
+### Tool: Rebuild all ROM folders
+
+This tool rebuilds rom folders you have accidentally removed or used the `Remove empty ROM folders` tool.
 
 ### Tool: Move files
 This option lets you choose the installation path of the RetroDECK folder that handles ROMS, Saves, BIOS, etc... to a new location.

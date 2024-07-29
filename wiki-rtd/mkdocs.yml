@@ -232,7 +232,7 @@ nav:
       - Release Candidate Testing: wiki_development/testing/release-candidate-testing.md
 
   - Files & Game Management 📂:
-    - Game Compability Lists: wiki_management/retrodeck-move.md
+    - Game Compability Lists: wiki_management/compatibility-lists.md
     - Manage your BIOS/Firmware: wiki_management/bios-firmware.md
     - Manage your Multidisk/file games: wiki_management/multi-disk.md
     - Move RetroDECK to a new device: wiki_management/retrodeck-move.md

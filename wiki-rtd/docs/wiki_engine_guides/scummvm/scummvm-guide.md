@@ -34,7 +34,7 @@ The result should be: `retrodeck/roms/scummvm/Beneath a Steel Sky/`
 
 ### Step 2: Check the ScummVM ID of the game
 
-<img src="../../wiki_images/emulators/scummvm/scummvm-sky.png">
+<img src="../../../wiki_images/emulators/scummvm/scummvm-sky.png">
 
 Go into [ScummVM Game Compatibility and ID List](https://www.scummvm.org/compatibility)<br>
 Search for `Beneath a Steel Sky` make a note of the ScummVM ID in this case called: `sky`

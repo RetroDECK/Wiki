@@ -69,16 +69,6 @@ nav:
   - What is the story and goals? 📖: wiki_about/story-goals.md
   - Version History 📁: wiki_rd_versions/version-history.md
 
-  - Archive 🗃️:
-    - Yuzu 🔴 (Archive):
-      - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
-      - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
-      - Yuzu - Gyro Guide: wiki_emulator_guides/yuzu/yuzu-gyro.md
-    - Citra 🍋 (Archive):
-      - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
-      - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
-      - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md
-
   - Bugs & Known Issues 🐜: wiki_bugs/known-issues.md
 
   - Configurator & Tools 🧰:
@@ -314,5 +304,15 @@ nav:
       - Vita3K - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
     - xemu ✖️:
       - xemu - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
+
+  - Archive 🗃️:
+    - Yuzu 🔴 (Archive):
+      - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
+      - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
+      - Yuzu - Gyro Guide: wiki_emulator_guides/yuzu/yuzu-gyro.md
+    - Citra 🍋 (Archive):
+      - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
+      - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
+      - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md
 
 

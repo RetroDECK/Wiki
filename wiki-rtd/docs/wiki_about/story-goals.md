@@ -1,6 +1,6 @@
 # RetroDECK ‐ Story & Philosophy
 
-## How RetroDECK was born?
+## Story: How RetroDECK was born?
 
 <img src="../../wiki_images/logos/351e-deck-logo.png" width="550">
 
@@ -21,7 +21,7 @@ Valve suggests the flatpak technology to port the applications on Steam Deck so,
 
 // Xargon (Project Founder)
 
-## What is RetroDECK's philosophy?
+## What is RetroDECK's development philosophy?
 
 Emulation is a global multi-generational effort of development that has lasted for decades, motivated by the pure love for video game preservation for current and future generations. RetroDECK depends on the constant development of all our dependencies (the emulators, front-end, game engines, various assets, etc…). It would be unfair to both the hard work that has been done in those projects and to the entire open-source community if we said otherwise or tried to take credit, conceal, monetize or obscure it for our own gain. As it is their software that makes running the games possible, not RetroDECK by it self as all RetroDECK is unified experience with a framework on top.
 
@@ -35,3 +35,49 @@ We also want to add a word for the developers of the third-party projects: Pleas
 You can find more about our dependencies on the wiki and how to donate to them or us under the donations & license page on this wiki.
 
 // The RetroDECK Team
+
+## Inspiration for RetroDECK
+
+RetroDECK is inspired by embedded emulation systems like:
+
+- AmberELEC
+- EmuELEC
+- CoreELEC
+- Lakka
+- Batocera
+
+
+The RetroDECK team consists of several veterans from some of the projects mentioned above as well as a bunch of other talented other individuals.
+
+## What are the long term vision and goals of the RetroDECK project?
+
+
+The long term vision and goals of the project is an all-in-one application to manage your entire retro games backup library that is:
+
+- Already configured and should just work with your games.
+
+- Has disaster recovery and multi device support: with cloud saves and syncs.
+
+- Easy to install with one click installation.
+
+- Easy to use and provide a "Console-like / Batocera-like" featured user experience.
+
+- Easy to manage your collections of roms, mods and romhacks.
+
+- As much as possible should be configurable from inside RetroDECK itself without needing to exiting the application.
+
+- Make tighter integrations with bundled emulators and expose more features and ways to handle them to the end users.
+
+- Should be secure, safe, and stable.
+
+- Should have an easy way to mange external controllers and other inputs.
+
+- Should support a majority of all supported Emulators in ES-DE, so at least you have one good option per system.
+
+- Should in the long run support applications outside of the scope of ES-DE via a ports manager.
+
+- Should be plug and play and fill the need for a portable retro gaming solution that you can bring on the go to a friend’s/family/others house. Just dock into the TV and get going!
+
+- Should fully support Steam Deck, Linux Desktop, other SteamOS or Linux based devices.
+
+- AND MORE

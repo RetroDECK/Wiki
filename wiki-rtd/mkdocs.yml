@@ -60,6 +60,15 @@ nav:
   - Wiki Home 🏠: index.md
   - Blog: blog/index.md
 
+
+  - What is RetroDECK? ❔: wiki_about/what-is-retrodeck.md
+  - What is included in RetroDECK? 📦: wiki_about/what-is-included.md
+  - Start using RetroDECK 🏎️: wiki_general/retrodeck-start.md
+  - Supported Devices 📺: wiki_general/supported-devices.md
+  - Supported Controllers 🕹️: wiki_general/supported-controllers.md
+  - What is the story and goals? 📖: wiki_about/story-goals.md
+  - Version History 📁: wiki_rd_versions/version-history.md
+
   - Archive 🗃️:
     - Yuzu 🔴 (Archive):
       - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
@@ -69,21 +78,6 @@ nav:
       - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
       - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
       - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md
-
-  - About 📜:
-    - What is RetroDECK?: wiki_about/what-is-retrodeck.md
-    - What is included in RetroDECK?: wiki_about/what-is-included.md
-    - RetroDECK Beta: wiki_about/beta-period.md
-    - Story & Philosophy: wiki_about/story-philosophy.md
-    - Visions & Goals: wiki_about/visions-and-goals.md
-
-  - General Information 📰:
-    - Start using RetroDECK: wiki_general/retrodeck-start.md
-    - What is the current Version?: wiki_rd_versions/version_0.8.0b/0.8.2b.md
-    - Supported Devices: wiki_general/supported-devices.md
-    - Supported Controllers: wiki_general/supported-controllers.md
-    - Version History (Patchnotes): wiki_rd_versions/version-history.md
-    - What are you working on?: wiki_development/general/what-are-you-working.on.md
 
   - Bugs & Known Issues 🐜: wiki_bugs/known-issues.md
 
@@ -212,6 +206,7 @@ nav:
     - Donations & Licenses 🎁: wiki_credits/donations-licenses.md
 
   - Development 🧪:
+    - What are you working on?: wiki_development/general/what-are-you-working.on.md
     - Flatpak 📦:
       - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
     - Functions ⚙️:

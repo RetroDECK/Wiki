@@ -20,7 +20,6 @@ Those can either be:
 
 - [What is RetroDECK?](wiki_about/what-is-retrodeck.md)
 - [What is included in RetroDECK?](wiki_about/what-is-included.md)
-- [About the BETA Period](wiki_about/beta-period.md)
 - [Supported Devices](wiki_general/supported-devices.md)
 - [Supported Controllers](wiki_general/supported-controllers.md)
 

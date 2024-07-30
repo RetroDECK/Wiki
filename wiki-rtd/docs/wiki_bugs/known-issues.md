@@ -1,9 +1,56 @@
-# Known issues
+# Reporting Issues and Known Issues
+
+
+## How to Report?
+
+🛑 **Do not!** 🛑
+
+Report any emulator/engine related issues directly to the developers of those systems, report it to RetroDECK. If RetroDECK Team believes that the issue is caused by the engine or emulator then the RetroDECK Team will then report and discuss it directly with the developers.
+
+---
+
+**Before you report**
+
+
+- Check [Github issues](https://github.com/XargonWan/RetroDECK/issues/) on reported issues.
+- Check if it is a known issue in the emulator/engine you are using on their bug reporting channels.
+- Check the The `FAQ ❔` section of this wiki.
+
+
+---
+
+**Reporting an issue**
+
+RetroDECK's main issue tracker is on GitHub and we try to keep it clean and just have “real” issues.
+General guidance or help is what Discord, Wiki and the rest of the RetroDECK community are for.
+
+The general rule of thumb is:
+
+- If it is something you want to discuss, do not understand, want to ask a question, or just need general guidance start with `🤝-community-support` channel on Discord or Matrix. Things submitted here will be answered by the community or sometimes the RetroDECK Team.
+- If you think it is something bigger or semi-certain what the issue is but lack the technical knowledge and want to have a deeper discussion do it the `🆘-support` channel on Discord. Things submitted here are mostly discussed with the RetroDECK Team but certain community members might join.
+- If you know what the issue is and maybe even have found a solution for it submit it directly on Github.
+
+The RetroDECK Team tries our best to spread any knowledge, tips, or clarifications from Discord or other RetroDECK communities, so it ends up on the Wiki via either separate articles or updating the FAQ.
+
+**Discord & Matrix**
+
+[Discord](https://discord.gg/WDc5C9YWMx)
+
+[Matrix](https://matrix.to/#/#retrodeck:matrix.org)
+
+Discord and Matrix is used for more guidance type issues and community support.
+
+**GitHub**
+
+[GitHub issues](https://github.com/XargonWan/RetroDECK/issues/)
+
+GitHub is RetroDECK's main issue tracker where development and known issues are submitted by the community and by the RetroDECK team from reports on Discord or other community channels.
+
+
+## Known issues
 
 What follows is a list of known issues.
 For a list of reported bugs please check here on github: [RetroDECK issues](https://github.com/XargonWan/RetroDECK/issues?q=is%3Aissue+is%3Aopen+label%3A%22Bug+%F0%9F%95%B7%EF%B8%8F%22)
-
-## Emulator / Engine Issues
 
 ### PPSSPP
 
@@ -13,7 +60,7 @@ Retroachievements you can login / logout / enable hardcore mode normally from th
 
 Borders are in some few cases disappearing in the latest RetroArch version. A workaround is to reset RetroArch from the Configurator
 
-#### RetroArch: Gambatte
+**RetroArch: Gambatte**
 
 Quitting the core with the `Quit` radial function makes the core swap the palette while playing GB.
 
@@ -21,11 +68,11 @@ Quitting the core with the `Quit` radial function makes the core swap the palett
 
 The standard implementation RetroDECK uses does not work and is currently not compatible. We are going to redesign it in an future update.
 
-### Ryujinx - Warning
+### Ryujinx
 
 Cannot handle the symlinks correctly in the new updates (it never could do it perfect before, this affects all of Linux). Thus our saves, firmware (nand) and keys folder are currently symlinked in retrodeck folders do not work.
 
-The RetroDECK Team is working with the Ryujinx Team to fix this permanently in Ryujinx and hopefully got a solution soon and will push a 0.8.4b with the fixes.
+The RetroDECK Team is working with the Ryujinx Team to fix this permanently in Ryujinx.
 
 The consequences are that: Ryujinx don't recognize any keys and firmware as it cannot resolve the symlink, so the games are not starting.
 
@@ -40,28 +87,14 @@ The manual work around should be to replace:
 
 However, keep in mind that RetroDECK Team will not assume any responsibility for data loss and we recommend our users to wait until Ryujinx have fixed it on their side.
 
-## External Controller issues
+### GZDOOM
 
-### Known Issues: External Controllers - Steam Deck
+GZDOOM have some kind of conflict with Steam Input in when more then one controller that causes input looping in menus. Make sure that the controller you are using is set as Player 1 else use Reorder Controllers interface in Steam to make it Player 1.
 
-Sometimes the emulators / engines gets confused on what controller is player 1 and takes the docked Steam Deck as player 1 and not the external controller. You can solve this by going into the Reorder Controllers interface in Steam and try switching between Player 1 or Player 2.
+We are still investigation the cause of it, if you know of a solution please contact the RetroDECK Team.
 
-It can easily happen if you go from docked to undocked or vice versa on the Steam Deck.
 
-### Known Issues: External Controllers - Linux Desktop
-
-Linux Desktop via Steam Input is complex. There are a lot of variables and the RetroDECK Team don't have the ability to test for all of them:
-
-- What kind of packages are installed.
-- What kind of drivers you have installed.
-- What distro you are using.
-- What desktop you are using.
-- If you are running X11 or Wayland.
-- If you have a Steam Deck based Distro with Valves "Game Mode".
-
-We are trying to keep track of all the issues here and have reported several to Valve:
-
-https://github.com/XargonWan/RetroDECK/issues/716
+### Linux Desktop
 
 #### Bug: Destop Profiles take preset over Game Profile
 
@@ -80,13 +113,30 @@ The radial menus on certain Linux Systems are hidden behind the game window or t
 We thought about doing a temporary none radial profiles for each controller to get around this bug.<br>
 But later changed our minds as we would have even more input configs to maintain, with a risk they become permanent.
 
-### External Controller Issues - GZDOOM
+#### External Controllers - Linux Desktop
 
-GZDOOM have some kind of conflict with Steam Input in when more then one controller that causes input looping in menus. Make sure that the controller you are using is set as Player 1 else use Reorder Controllers interface in Steam to make it Player 1.
+Linux Desktop via Steam Input is complex. There are a lot of variables and the RetroDECK Team don't have the ability to test for all of them:
 
-We are still investigation the cause of it, if you know of a solution please contact the RetroDECK Team.
+- What kind of packages are installed.
+- What kind of drivers you have installed.
+- What distro you are using.
+- What desktop you are using.
+- If you are running X11 or Wayland.
+- If you have a Steam Deck based Distro with Valves "Game Mode".
 
-## Hotkey Issues
+We are trying to keep track of all the issues here and have reported several to Valve:
+
+https://github.com/XargonWan/RetroDECK/issues/716
+
+### SteamOS / Steam Deck / Gamemode
+
+#### Known Issues: External Controllers - Steam Deck
+
+Sometimes the emulators / engines gets confused on what controller is player 1 and takes the docked Steam Deck as player 1 and not the external controller. You can solve this by going into the Reorder Controllers interface in Steam and try switching between Player 1 or Player 2.
+
+It can easily happen if you go from docked to undocked or vice versa on the Steam Deck.
+
+### Hotkeys
 
 **Not all Emulators has hotkey support; some have partial support; some has none and some has a majority implemented**
 

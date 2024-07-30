@@ -38,18 +38,16 @@ RetroDECK also saves space comparing to installing all emulators separately as w
 
 ## RetroDECK is currently in in BETA
 
-**What is: RetroDECK is in BETA?**
+The software is still under heavy development and big updates can be made that change or add certain features.
 
-It means that the software is still under heavy development and big updates can be made that change or add certain features.
-
-RetroDECK is missing some minor and major:
+RetroDECK is missing some minor and major features that we want to add before we consider it a full release:
 
 - Emulators
 - Systems
 - Features
 - Configurations
+- More
 
-That we want to add before we consider it a full release.
 
 RetroDECK is perfectly fine for daily use even during the beta period and the core application should be seen as stable. The main reason we consider it a BETA is all the things we want to improve and add before a full 1.0 release (see the missing features list).
 

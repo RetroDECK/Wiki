@@ -92,39 +92,6 @@ nav:
         - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
         - Steam Deck - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
 
-  - Development 🧪:
-    - What are you working on?: wiki_development/general/what-are-you-working.on.md
-    - Social Rules ❤️:
-      - Discord/Matrix: wiki_community/discord-matrix.md
-      - Lemmy/Reddit: wiki_community/lemmy-reddit.md
-
-    - Credits & Donations 📖:
-      - Credits - RetroDECK Team: wiki_credits/credits-team.md
-      - Credits - Additional: wiki_credits/credits-additional.md
-      - Credits - Boot Logos: wiki_credits/credits-boot.md
-      - Credits - Collaborators: wiki_credits/credits-collaborators.md
-      - Credits - Translations: wiki_credits/credits-translation.md
-      - Donations & Licenses 🎁: wiki_credits/donations-licenses.md
-
-    - Flatpak 📦:
-      - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
-
-    - Functions ⚙️:
-      - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md
-      - Compression: wiki_development/functions/compression.md
-      - Creating Emulator/Engine Presets: wiki_development/functions/emulator-presets.md
-
-    - General 🗜️:
-      - CLI Guide: wiki_development/general/cli-guide.md
-      - Debug Mode: wiki_development/general/debug-mode.md
-      - Folders and Filepaths: wiki_development/general/folders-filepaths.md
-      - Start with Development (WIP): wiki_development/general/general-development.md
-      - Build Locally (WIP): wiki_development/general/build-locally.md
-      - Add System (WIP): wiki_development/general/add-system.md
-
-    - Testing 📝:
-      - How do I help out with testing?: wiki_development/testing/general-testing.md
-      - Release Candidate Testing: wiki_development/testing/release-candidate-testing.md
 
   - Files & Game Management 📂:
     - Game Compability Lists: wiki_management/compatibility-lists.md
@@ -322,6 +289,40 @@ nav:
       - Xbox One/S/X - Xbox Wireless Controller: wiki_controllers/xbox/xbox-wireless.md
       - Xbox S/X - Xbox Elite Series 2: wiki_controllers/xbox/xbox-wireless-elite.md
       - Xbox Adaptive Controller (WIP): wiki_controllers/accessibility/xac.md
+
+  - Development 🧪:
+    - What are you working on?: wiki_development/general/what-are-you-working.on.md
+    - Social Rules ❤️:
+      - Discord/Matrix: wiki_community/discord-matrix.md
+      - Lemmy/Reddit: wiki_community/lemmy-reddit.md
+
+    - Credits & Donations 📖:
+      - Credits - RetroDECK Team: wiki_credits/credits-team.md
+      - Credits - Additional: wiki_credits/credits-additional.md
+      - Credits - Boot Logos: wiki_credits/credits-boot.md
+      - Credits - Collaborators: wiki_credits/credits-collaborators.md
+      - Credits - Translations: wiki_credits/credits-translation.md
+      - Donations & Licenses 🎁: wiki_credits/donations-licenses.md
+
+    - Flatpak 📦:
+      - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
+
+    - Functions ⚙️:
+      - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md
+      - Compression: wiki_development/functions/compression.md
+      - Creating Emulator/Engine Presets: wiki_development/functions/emulator-presets.md
+
+    - General 🗜️:
+      - CLI Guide: wiki_development/general/cli-guide.md
+      - Debug Mode: wiki_development/general/debug-mode.md
+      - Folders and Filepaths: wiki_development/general/folders-filepaths.md
+      - Start with Development (WIP): wiki_development/general/general-development.md
+      - Build Locally (WIP): wiki_development/general/build-locally.md
+      - Add System (WIP): wiki_development/general/add-system.md
+
+    - Testing 📝:
+      - How do I help out with testing?: wiki_development/testing/general-testing.md
+      - Release Candidate Testing: wiki_development/testing/release-candidate-testing.md
 
   - Archive 🗃️:
     - Yuzu 🔴 (Archive):

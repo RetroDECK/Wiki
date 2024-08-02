@@ -87,3 +87,6 @@ Make sure you don't add any spaces or linebreaks and the file should just contai
 
 ### Step 5: The game should now run
 The game should now be added to the ES-DE interface from the `retrodeck/roms/psvita/OutWipe 4820.psvita` file you just created and can be played after you reload RetroDECK from the Configurator or re-launch the application.
+
+### Step 6: Cleanup
+The game is now installed, so if wished, the package file can be deleted, only the `.psvita` file is needed at this point.

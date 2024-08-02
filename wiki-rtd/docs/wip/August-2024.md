@@ -17,7 +17,7 @@ Highlights:
 
 ## 0.8.3 Scraping data issue
 
-There was a scraping data issue we tried to fix in 0.8.3 data issue affecting some systems that did not move the folders like downloaded_media correctly or it did not update the variables where the data was located after the move.
+There was a scraping data issue that we tried to fix in 0.8.3. It affected some systems that did not move the folders like downloaded_media correctly or did not update the variables for the new data location.
 
 ### Better testing
 

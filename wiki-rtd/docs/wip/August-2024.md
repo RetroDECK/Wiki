@@ -7,8 +7,8 @@ date: 2024-08-18
 Highlights:
 
 - 0.8.3 Scraping data issue & testing
-- Godot Configurator
 - Lighter Manifest
+- Godot Configurator
 
 
 <!-- more -->

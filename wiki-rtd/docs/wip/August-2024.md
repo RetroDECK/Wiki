@@ -39,27 +39,24 @@ In short what we have done is separated the build from what was a monolithic app
 
 It will also make it easier overall to add more systems to RetroDECK.
 
-**The results so far are:**
+### The results so far are 🥁
 
-🥁🥁🥁
-
-RetroDECK's build time has been reduced:
+**RetroDECK's build time has been reduced:**
 
 We have cut down the average buildtime by a whopping **70-75%** from 3.30 hours to about 45 minutes!
 
-We saved space:
+**We saved space:**
 
 Between **350mb to 500mb** of data have been freed from the finished project to use for other activites. Note: This will probably be eaten up later by the new systems we will add 0.9.0b.
 
 
 ## Godot Configurator
 
+![type:video](ConfiguratorGodot.mp4)
+
 Yes, we are still working on it and much more!
 
 This video is still heavy early W.I.P and things **will** change.
-
-![type:video](ConfiguratorGodot.mp4)
-
 
 - BIOS checker in a table format (might change).
 - A font selector where you can now choose a font you like.

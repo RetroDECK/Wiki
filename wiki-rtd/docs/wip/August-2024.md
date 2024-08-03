@@ -15,13 +15,13 @@ Highlights:
 
 <img src="../../../rd-circle.png" width="150">
 
-## 0.8.3 Scraping data issue
+## 0.8.0+ Scraping data issue
 
-There was a scraping data issue that we tried to fix in 0.8.3. It affected some systems that did not move the folders like downloaded_media correctly or did not update the variables for the new data location.
+There was a scraping data issue that we tried to fix in 0.8.3b then in 0.8.4b. It affected some systems that did not move the folders like downloaded_media correctly or did not update the variables for the new data location.
 
 ### Better testing
 
-We always try our best to test various features, but the change was quite complex, and we missed a few scenarios, and we are looking over our testing routines to make things even better. The team hopes eventually we have more community beta testers volunteering and we have developed some automated testing tools.
+We always try our best to test various features, but the change was quite complex, and we missed a few scenarios, and we are looking over our testing routines and volunteering tester program to make things even better. The team hopes eventually we have more community beta testers volunteering and we have developed some automated testing tools.
 
 If you want to help with testing contact us on Discord or Matrix.
 
@@ -29,7 +29,9 @@ The 0.8.0 branch is also on the old manifest. Regarding that...
 
 ## NEWS: Lighter Manifest for 0.9b
 
-Now this might not be so exciting for the majority of our userbase, but we have begun rewriting the entire RetroDECK flatpak manifest for 0.9.0b (it's not done yet). This allows us to:
+You did not think we just spent all summer on the beach did you?!
+
+Now this might not be so exciting for the majority of our userbase, but we have begun rewriting the entire RetroDECK flatpak manifest for 0.9.0b (it's not done yet, but getting close). This allows us to:
 
 - Make even better synergies between emulator/engine dependencies with less overhead.
 - Cut down build time.

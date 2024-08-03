@@ -6,7 +6,7 @@ date: 2024-08-18
 
 Highlights:
 
-- 0.8.3 Scraping data issue & testing
+- 0.8.X Scraping data issue & testing
 - Lighter Manifest
 - Godot Configurator
 
@@ -15,7 +15,7 @@ Highlights:
 
 <img src="../../../rd-circle.png" width="150">
 
-## 0.8.0+ Scraping data issue
+## 0.8.X Scraping data issue
 
 There was a scraping data issue that we tried to fix in 0.8.3b then in 0.8.4b. It affected some systems that did not move the folders like downloaded_media correctly or did not update the variables for the new data location.
 

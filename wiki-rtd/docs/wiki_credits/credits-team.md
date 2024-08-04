@@ -46,7 +46,7 @@ Develops various new features, functions and tools.
 </details>
 
 
-### WallK
+### [WallK](https://github.com/WallK)
 
 Godot and scipting!
 
@@ -55,7 +55,7 @@ Godot and scipting!
 Pizza Mercenary
 </details>
 
-### MonkeyX
+### [MonkeyX](https://github.com/monkeyx-net)
 
 Godot, Emulators and more things!
 

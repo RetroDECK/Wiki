@@ -3,6 +3,7 @@
 ## Project founder and creator.
 
 ### [XargonWan](https://github.com/XargonWan)
+
 RetroDECK project founder and also one of the founding members of [AmberELEC](https://amberelec.org/).
 
 <details><summary> </summary>
@@ -12,6 +13,7 @@ Grand General of the IPL (Italian Pizza Legion) also known as the Napoletanan Fi
 ## Community Management
 
 ### [Lazorne](https://github.com/Lazorne)
+
 Community management/outreach, testing, documentation, emulator configurations, Steam Input and feature request / issue management.
 
 <details><summary> </summary>
@@ -21,11 +23,13 @@ Meme Lord of the Wiki and also the cult leader of the NPC (The Nordic Pizza Cult
 ## Web Development
 
 ### [jiannazzone](https://github.com/jiannazzone)
+
 Web Development, Community management/outreach, testing, documentation.
 
 ## Developers
 
 ### [IceNine451](https://github.com/icenine451)
+
 Creator of the `RetroDECK configurator`, the `RetroDECK Framework` and various cool things.
 
 <details><summary> </summary>
@@ -33,6 +37,7 @@ Freedom loving leader of the MCCP (Murican Cheese Crust Patriots) in the interna
 </details>
 
 ### [Lx32](https://github.com/Lx32)
+
 Develops various new features, functions and tools.
 
 
@@ -42,16 +47,26 @@ Develops various new features, functions and tools.
 
 
 ### WallK
-Checks GODOT and other things.
+
+Godot and scipting!
 
 
 <details><summary> </summary>
 Pizza Mercenary
 </details>
 
+### MonkeyX
+
+Godot, Emulators and more things!
+
+<details><summary> </summary>
+Wartime Pizza peace broker.
+</details>
+
 ## Testers
 
 ### [dottormac](https://github.com/redeemer666)
+
 Does bleeding edge cooker testing (lives in the danger zone), some feature suggestions and design.
 
 <details><summary> </summary>

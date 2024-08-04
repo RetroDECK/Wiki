@@ -34,6 +34,7 @@ You did not think we just spent all summer on the beach did you?!
 Now this might not be so exciting for the majority of our userbase, but we have begun rewriting the entire RetroDECK flatpak manifest for 0.9.0b (it's not done yet, but getting close). This allows us to:
 
 - Make even better synergies between emulator/engine dependencies with less overhead.
+- Make several optimizations.
 - Cut down build time.
 - Reduce space.
 
@@ -49,7 +50,11 @@ We have cut down the average buildtime by a whopping **70-75%** from 3.30 hours 
 
 **We saved space:**
 
-Between **350mb to 500mb** of data have been freed from the finished project to use for other activites. Note: This will probably be eaten up later by the new systems we will add 0.9.0b.
+Between **350mb to 500mb** of data have been freed from the finished project to use for other activites.
+
+That is about **1/5** of the entire application trimmed.
+
+**Note:** A majority of this freed space will probably be eaten up later by the new systems we will add in 0.9.0b.
 
 
 ## Godot Configurator

@@ -16,30 +16,10 @@ SteamOS the operative system will always be supported but as of today there are 
 ## Linux Desktop
 
 It is working, but the user experience might not be that great it as we want it to be just yet.
-You will also need to manually configure the input to match your desktop and might need to tweak more settings. If you want to try it make sure that your distribution has flatpak support (else you will need to install it).
 
-### Putting Linux on Windows Gaming Device and running RetroDECK
+You will also need to manually configure the input to match your desktop and might need to tweak more settings.
 
-We have user confirmation that RetroDECK does work on the other handhelds. Our community is highly creative and likes putting RetroDECK on new things like Legion Go and ROG Ally.
-
-## Q&A Supported Systems
-
-### Will you support Windows?
-
-No, RetroDECK doesn't support Windows currently and there are no plans to do so.
-
-As an alternative you could try [RetroBat](https://www.retrobat.org/) that offers similar functionality in a Windows environment.
-How ever if you install a Linux distribution on your device instead you can try out RetroDECK.
-
-### Will you support ARM devices like iOS, MacOS and Android?
-
-ARM devices are not supported currently. ES-DE does support the ARM emulators, but it is a vastly different landscape.
-
-It would be a major undertaking but one day in the future it could be possible. But it would need to be a unique experience as the emulators, other underlying systems would not be the same and would need to be rewritten.
-
-We would also need more developers with ARM experience to help us with this effort.
-
-For Android we believe that it is not possible to right now bundle and preconfigure emulators on Android unfortunately as the licensing is different of both the ES-DE frontend and several emulators in the Android versions on the various app-stores.
+If you want to try it make sure that your distribution has flatpak support (else you will need to install it).
 
 ### Will you support other Linux distribution methods such as Snap or AppImage?
 
@@ -49,7 +29,37 @@ In the past we evaluated to migrate to **Buildstream** (or similar solutions) an
 But the team is not large enough to migrate and maintain other distribution methods, so we prefer to focus our effort on Flatpak only.
 If someone with knowledge and passion wishes to help us with migrating to a solution and help us maintain it, we are open for a discussion.
 
-### Will you support RISC-V?
+### Putting Linux on Windows Gaming Device and running RetroDECK
 
-It would be a major undertaking but one day in the far-off future it could be possible as the platform matures, the idea of a widely accepted open-source architecture is exiting at least.
+We have user confirmation that RetroDECK does work on the other handhelds.
 
+Our community is highly creative and likes putting RetroDECK on new things like Legion Go and ROG Ally.
+
+## Will you support Windows?
+
+No, RetroDECK doesn't support Windows currently.
+
+As an alternative you could try [RetroBat](https://www.retrobat.org/) that offers similar functionality in a Windows environment.
+How ever if you install a Linux distribution on your device instead you can try out RetroDECK.
+
+ES-DE does support the Windows as does the emulators, but it is a vastly different landscape.
+
+It would be a major undertaking but maybe one day in the future it could be possible.
+
+We would also need more developers with Windows experience to help us with this effort.
+
+## Will you support ARM devices like iOS, MacOS and Android?
+
+No, RetroDECK doesn't support ARM devices currently.
+
+It would be a major undertaking but maybe one day in the future it could be possible.
+
+We would also need more developers with ARM experience to help us with this effort.
+
+But it would need to be a unique experience as the emulators, other underlying systems would not be the same and would need to be rewritten from the ground up.
+
+It is a vastly different landscape with other licensing models for several of the emulators/systems specially on Android where the X86_64 binary is FOSS while the Android version is closed source.
+
+## Will you support RISC-V?
+
+The idea of a widely accepted open-source architecture is exiting at least. It would be a major undertaking but one day in the far-off future it could be possible as the platform matures and more systems gets compatibility.

@@ -27,6 +27,8 @@ If you want to help with testing contact us on Discord or Matrix.
 
 The 0.8.0 branch is also on the old manifest. Regarding that...
 
+---
+
 ## NEWS: Lighter Manifest for 0.9b
 
 You did not think we just spent all summer on the beach did you?!
@@ -42,6 +44,8 @@ In short what we have done is separated the build from what was a monolithic app
 
 It will also make it easier overall to add more systems to RetroDECK.
 
+---
+
 ### The results so far are 🥁
 
 **RetroDECK's build time has been reduced:**
@@ -56,18 +60,40 @@ That is about **1/5** of the entire application trimmed.
 
 **Note:** A majority of this freed space will probably be eaten up later by the new systems we will add in 0.9.0b.
 
+---
 
 ## Godot Configurator
 
-![type:video](ConfiguratorGodot.mp4)
-
 Yes, we are still working on it and much more!
 
-This video is still heavy early W.I.P and things **will** change.
+Both of these videos is still early W.I.P and things **will** change.
+
+
+---
+
+
+
+
+![type:video](ConfiguratorGodot.mp4)
+
+**In this video:**
 
 - BIOS checker in a table format (might change).
-- A font selector where you can now choose a font you like.
-- In the font selector we want to highlight the Accessible font. This is something we talked about for a long time and was the driving force behind the font selector. It uses the [OpenDyslexic](https://opendyslexic.org/) font. For many it is a trivial feature to change a font but for those that truly need something that is easier to read, it could be a game changer.
+
+- A font selector but also showcase the **Accessible** font. <br>
+    - This is something we talked about for a long time and was the driving force behind the font selector. It uses the [OpenDyslexic](https://opendyslexic.org/) font.<br>
+For many users it is a trivial feature to change a font but for those that truly need something that is easier to read, it could be a game changer.
+
+
+---
+
+
+![type:video](ConfiguratorLogs.mp4)
+
+**In this video::**
+
+- Access various logs directly from the Configurator (Emulators, Engines, Systems, RetroDECK Features)
+
 
 ## That is all for now
 

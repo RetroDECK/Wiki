@@ -37,7 +37,9 @@ Now this might not be so exciting for most of our users, but we have begun rewri
 
 **In short what we have done:**
 
-Moved RetroDECK from a monolithic approach where everything was built in one instance to a modular approach where each subsystem/emulator/engine/feature has its own building environment and the main RetroDECK project just builds together all those modules.
+Moved RetroDECK from a monolithic approach where everything was built in one instance to a modular approach where each subsystem/emulator/engine/feature has its own building environment in its own repo and the main RetroDECK project just builds together all those modules.
+
+The change did require us to change RetroDECK to an organization on GitHub to manage all the new "sub-repos" in a better way, as having them all under one developers GitHub profile was a bit unwieldy (it also made it easier for the entire team to contribute in a more organized manner).
 
 **This allows us to:**
 

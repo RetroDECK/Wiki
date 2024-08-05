@@ -66,7 +66,7 @@ That is about **1/5** of the entire application trimmed.
 
 Yes, we are still working on it and much more!
 
-Both of these videos is still early W.I.P and things **will** change.
+Both of these videos is still early W.I.P, things **will** change and nothing in these videos should be seen as final.
 
 
 ---
@@ -78,7 +78,7 @@ Both of these videos is still early W.I.P and things **will** change.
 
 **In this video:**
 
-- BIOS checker in a table format (might change).
+- Shows the BIOS checker in a table format.
 
 - A font selector but also showcase the **Accessible** font. <br>
     - This is something we talked about for a long time and was the driving force behind the font selector. It uses the [OpenDyslexic](https://opendyslexic.org/) font.<br>
@@ -90,9 +90,14 @@ For many users it is a trivial feature to change a font but for those that truly
 
 ![type:video](ConfiguratorLogs.mp4)
 
-**In this video::**
+**In this video:**
 
-- Access various logs directly from the Configurator (Emulators, Engines, Systems, RetroDECK Features)
+- Access various logs directly from the Configurator (Emulators, Engines, Systems, RetroDECK Features) only a few have been added as a POC. This is great for troubleshooting but also a good tool for users that loves to tweak.
+- We are experimenting with the ability to open both the Wiki and the Website from within the Configurator.
+    - Too add to that we are looking into an option to sync/download the entire Wiki via a button to have as an local copy when you are offline.
+
+
+---
 
 
 ## That is all for now

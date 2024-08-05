@@ -72,9 +72,7 @@ A majority of this freed space will probably be eaten up later by the new system
 
 Yes, we are still working on it and much more!
 
-Both videos are still early W.I.P.
-
-Things will change and nothing in these videos should be seen as final.
+🛑 **W.I.P** Things will change and nothing in these videos should be seen as final. 🛑
 
 
 

@@ -35,6 +35,10 @@ You did not think we just spent all summer on the beach, did you?! 🏖️
 
 Now this might not be so exciting for most of our users, but we have begun rewriting the entire RetroDECK flatpak manifest for 0.9.0b (it is not done yet but getting close).
 
+In short what we have done is separated the build from what was a monolithic approach where everything was built in one instance to a modular approach where each subsystem/emulator/engine has its own building environment and the main RetroDECK project just builds together all those modules.
+
+It will also make it easier overall to add more systems to RetroDECK.
+
 **This allows us to:**
 
 - Make even better synergies between emulator/engine dependencies with less overhead.
@@ -45,14 +49,6 @@ Now this might not be so exciting for most of our users, but we have begun rewri
 
 - Reduce space.
 
-In short what we have done is separated the build from what was a monolithic approach where everything was built in one instance to a modular approach where each subsystem/emulator/engine has its own building environment and the main RetroDECK project just builds together all those modules.
-
-
-
-It will also make it easier overall to add more systems to RetroDECK.
-
-
----
 
 ### The results so far are 🥁
 
@@ -79,11 +75,6 @@ Yes, we are still working on it and much more!
 Both videos are still early W.I.P.
 
 Things will change and nothing in these videos should be seen as final.
-
-
-
-
----
 
 
 

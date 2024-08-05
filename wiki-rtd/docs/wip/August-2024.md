@@ -31,34 +31,44 @@ The 0.8.0 branch is also on the old manifest. Regarding that...
 
 ## NEWS: Lighter Manifest for 0.9b
 
-You did not think we just spent all summer on the beach did you?!
+You did not think we just spent all summer on the beach, did you?! 🏖️
 
-Now this might not be so exciting for the majority of our userbase, but we have begun rewriting the entire RetroDECK flatpak manifest for 0.9.0b (it's not done yet, but getting close). This allows us to:
+Now this might not be so exciting for most of our users, but we have begun rewriting the entire RetroDECK flatpak manifest for 0.9.0b (it is not done yet but getting close).
+
+**This allows us to:**
 
 - Make even better synergies between emulator/engine dependencies with less overhead.
+
 - Make several optimizations.
+
 - Cut down build time.
+
 - Reduce space.
 
 In short what we have done is separated the build from what was a monolithic approach where everything was built in one instance to a modular approach where each subsystem/emulator/engine has its own building environment and the main RetroDECK project just builds together all those modules.
 
+
+
 It will also make it easier overall to add more systems to RetroDECK.
+
 
 ---
 
 ### The results so far are 🥁
 
-**RetroDECK's build time has been reduced:**
+#### RetroDECK's build time has been reduced:
 
-We have cut down the average buildtime by a whopping **70-75%** from 3.30 hours to about 45 minutes!
+- We have cut down the average buildtime by a whopping **70-75%**.
+- From **3.30 hours** to about **45 minutes**.
 
-**We saved space:**
+#### We saved space:
 
-Between **350mb to 500mb** of data have been freed from the finished project to use for other activites.
+A majority of this freed space will probably be eaten up later by the new systems we will add in 0.9.0b.
 
-That is about **1/5** of the entire application trimmed.
+- Between **350mb to 500mb** of data have been freed from the finished project to use for other activites.
 
-**Note:** A majority of this freed space will probably be eaten up later by the new systems we will add in 0.9.0b.
+- That is about **1/5** of the entire application trimmed.
+
 
 ---
 
@@ -66,7 +76,11 @@ That is about **1/5** of the entire application trimmed.
 
 Yes, we are still working on it and much more!
 
-Both of these videos is still early W.I.P, things **will** change and nothing in these videos should be seen as final.
+Both videos are still early W.I.P.
+
+Things will change and nothing in these videos should be seen as final.
+
+
 
 
 ---
@@ -78,11 +92,11 @@ Both of these videos is still early W.I.P, things **will** change and nothing in
 
 **In this video:**
 
-- Shows the BIOS checker in a table format.
+- We show an early version of the BIOS checker in a table format.
 
-- A font selector but also showcase the **Accessible** font. <br>
-    - This is something we talked about for a long time and was the driving force behind the font selector. It uses the [OpenDyslexic](https://opendyslexic.org/) font.<br>
-For many users it is a trivial feature to change a font but for those that truly need something that is easier to read, it could be a game changer.
+- The font selector and highlighting the **Accessible** font.
+
+    - This is something we talked about for a long time and was the driving force behind the font selector. It uses the [OpenDyslexic](https://opendyslexic.org/) font. For many users it is a trivial feature to change a font but for those that truly need something that is easier to read, it could be a game changer.
 
 
 ---
@@ -92,15 +106,22 @@ For many users it is a trivial feature to change a font but for those that truly
 
 **In this video:**
 
-- Access various logs directly from the Configurator (Emulators, Engines, Systems, RetroDECK Features) only a few have been added as a POC. This is great for troubleshooting but also a good tool for users that loves to tweak.
-- We are experimenting with the ability to open both the Wiki and the Website from within the Configurator.
-    - Too add to that we are looking into an option to sync/download the entire Wiki via a button to have as an local copy when you are offline.
+- Access various logs directly from the Configurator only a few have been added as a POC. This is great for troubleshooting but also a useful tool for users that love to tweak.
+
+- Experimenting with the ability to open both the Wiki and the Website from within the Configurator.
+
+    - We are also looking into an option to sync/download the entire Wiki via a button to have as a local copy when you are offline for ease-of-access when you are out traveling.
+
+
 
 
 ---
 
 
+
 ## That is all for now
+
+There are more things we are working on but you will see them future blog updates!
 
 Thanks everyone!
 

@@ -4,11 +4,11 @@ If you are on `SteamOS` like on the Steam Deck make sure you are in `Desktop Mod
 
 🛑 **Do install cooker without following this guide** 🛑
 
-We do not recommend to blindly install the Cooker without reading **THIS GUIDE** and **FOLLOW THE INSTRUCTIONS** written here.
+We do not recommend blindly installing the Cooker without reading **THIS GUIDE** and **FOLLOW THE INSTRUCTIONS** written here.
 
-To just install RetroDECK Cooker and hope for the best is now known the `Rowan Skye Method`.
+To just install RetroDECK Cooker and hope for the best is now known as the `Rowan Skye Method`.
 
-Because of mistakes that where made from a chaotic blue draconic wolfkin tester living on the edge with nothing to lose.
+Because of mistakes that were made from a chaotic blue draconic wolfkin tester living on the edge with nothing to lose.
 
 ## Step 1: Take some Backups
 
@@ -23,7 +23,7 @@ Generally, very few things would target the roms folder, but the other folders c
 
 **Disclamer:**
 
-The RetroDECK Team also had never had any major data loss so far and we do Cooker updates almost daily.
+The RetroDECK Team also has never had any major data loss so far and we do Cooker updates almost daily.
 
 ## Step 2: Download the Cooker
 
@@ -36,7 +36,7 @@ Open the terminal window.
 
 ### Remove and Install
 
-- `flatpak remove net.retrodeck.retrodeck` and press (y) yes to remove RetroDECK. If you have more then one version installed for some reason choose to remove all versions.
+- `flatpak remove net.retrodeck.retrodeck` and press (y) yes to remove RetroDECK. If you have more than one version installed for some reason choose to remove all versions.
 - `flatpak install --user --bundle --noninteractive -y "~/Downloads/RetroDECK-cooker.flatpak"` this will install RetroDECK Cooker.
 
 ## Step 4: Upgrade

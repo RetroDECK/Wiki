@@ -26,7 +26,7 @@ Anyone can always download the cooker builds without telling the team as they ar
 
 ## How do I start with testing?
 
-Read the [Cooker Testing - Guide](../cooker-testing.md)
+Read the [Cooker Testing - Guide](cooker-testing.md)
 
 ## How do I upgrade from Cooker to Cooker?
 

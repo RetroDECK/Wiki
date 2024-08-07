@@ -6,18 +6,6 @@
 
 It stands for Beta.
 
-## What is RetroDECK cooker?
-
-Cooker is a bleeding edge snapshot of the current commits, the action of uploading code to GitHub is called commit.
-
-As you can understand, the code may not be always reviewed and so the cooker it's unstable by its nature, it's just suggested to testers or developer to try bleeding edge function or to contribute.
-
-More info on the pinned post in #💙-i-want-to-help on our [Discord Server](https://discord.gg/WDc5C9YWMx).
-We don't support the cooker on user side.
-
-### Why the name cooker? 🍲
-That's what cooking in the pot at this moment and not yet ready to be served (released). This name was also used by Linux Mandrake and Mandriva for the bleeding edge channel.
-
 ## What emulators and software is included in RetroDECK?
 Check: [RetroDECK: What's included?](../wiki_about/what-is-included.md)
 

@@ -321,8 +321,9 @@ nav:
       - Add System (WIP): wiki_development/general/add-system.md
 
     - Testing 📝:
-      - How do I help out with testing?: wiki_development/testing/general-testing.md
-      - Release Candidate Testing: wiki_development/testing/release-candidate-testing.md
+      - Cooker Testing - FAQ: wiki_development/testing/faq-cooker.md
+      - Cooker Testing - Guide: wiki_development/testing/cooker-testing.md
+      - Expermental Features: wiki_development/testing/experimental-features.md
 
   - Archive 🗃️:
     - Yuzu 🔴 (Archive):

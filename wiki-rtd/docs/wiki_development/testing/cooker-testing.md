@@ -36,7 +36,7 @@ You will need to open the terminal for this step.
 
 ### Remove and Install
 
-1. Open the terminal window where you have downloaded the `RetroDECK-cooker.flatpak` normally it's under `~/Downloads/RetroDECK-cooker.flatpak` file. **Note:** The Downloads folder can have a different name depending on your language settings.
+1. Open the terminal window where you have downloaded the `RetroDECK-cooker.flatpak` file, normally it's under `~/Downloads/RetroDECK-cooker.flatpak`. **Note:** The Downloads folder can have a different name depending on your language settings.
 
 2. Type `flatpak remove net.retrodeck.retrodeck -y` to remove RetroDECK. **Note:** If you have more than one version installed for some reason choose to remove all versions.
 

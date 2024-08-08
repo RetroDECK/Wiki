@@ -32,12 +32,15 @@ The RetroDECK Team also has never had any major data loss so far and we do Cooke
 
 ## Step 3: Terminal
 
-Open the terminal window.
+You will need to open the terminal for this step.
 
 ### Remove and Install
 
-- `flatpak remove net.retrodeck.retrodeck` and press (y) yes to remove RetroDECK. If you have more than one version installed for some reason choose to remove all versions.
-- `flatpak install --user --bundle --noninteractive -y "~/Downloads/RetroDECK-cooker.flatpak"` this will install RetroDECK Cooker.
+1. Open the terminal window where you have downloaded the `RetroDECK-cooker.flatpak` normally it's under `~/Downloads/RetroDECK-cooker.flatpak` file. **Note:** The Downloads folder can have a different name depending on your language settings.
+
+2. Type `flatpak remove net.retrodeck.retrodeck -y` to remove RetroDECK. **Note:** If you have more than one version installed for some reason choose to remove all versions.
+
+3. `flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak` this will install RetroDECK Cooker.
 
 ## Step 4: Upgrade
 

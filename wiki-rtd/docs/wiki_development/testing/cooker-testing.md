@@ -1,4 +1,4 @@
-# RetroDECK Cooker Guide: Testing Builds
+# RetroDECK Cooker Guide: Start Testing Builds
 
 If you are on `SteamOS` like on the Steam Deck make sure you are in `Desktop Mode` before you begin.
 
@@ -60,8 +60,6 @@ You will get several warnings if you accidentally press it.
 - Press the `Upgrade` button and keep the installation moving until all the steps are complete and RetroDECK will launch.
 - Quit RetroDECK again and save all the output from the terminal into a text file.
 
-
-
 ## Step 5: Start testing
 
 If you are on `SteamOS` like on the Steam Deck return to `Game Mode` for this step.
@@ -73,3 +71,15 @@ Now feel free to test all the new features of the update and report any issues, 
 All logs will be saved in the new `retrodeck/logs` folder
 
 Thank you! ❤️
+
+## Trigger post-update manually
+
+If you want to trigger the upgrade script again between a version upgrade to try something out.
+
+Go to and edit the cfg file:
+
+`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/retrodeck.cfg`
+
+Find the `version=` value and change it to an older versions value and press save.
+
+Next time you start RetroDECK the post-update should trigger again.

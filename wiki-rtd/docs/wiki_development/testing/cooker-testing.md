@@ -72,14 +72,16 @@ All logs will be saved in the new `retrodeck/logs` folder
 
 Thank you! ❤️
 
-## Trigger post-update manually
+## T.I.P: Trigger post-update manually
 
 If you want to trigger the upgrade script again between a version upgrade to try something out.
 
-Go to and edit the cfg file:
+Do the following command
 
-`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/retrodeck.cfg`
+`flatpak run net.retrodeck.retrodeck --test-upgrade <version>`
 
-Find the `version=` value and change it to an older versions value and press save.
+Example:
 
-Next time you start RetroDECK the post-update should trigger again.
+`flatpak run net.retrodeck.retrodeck --test-upgrade 0.8.0b`
+
+This will trigger all the post-updates from `0.8.0b` to the current version you got installed.

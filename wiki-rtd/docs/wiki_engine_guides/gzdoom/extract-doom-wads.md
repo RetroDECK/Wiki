@@ -14,7 +14,17 @@ W.I.P
 
 ### Steam
 
+The KEX Engine version of DOOM + DOOM II have spread out the files a bit more.
+
 #### Where are the base core iwads?
+
+`/Steam/steamapps/common/Ultimate Doom/rerelease/`
+
+
+### Prerequisite: Download the Official Addons
+
+Go from the `Main Menu` -> `Mods Menu` -> `Featured Mods`  subscribe to them all.
+
 
 #### Steam DOOM DLC Location
 
@@ -52,15 +62,11 @@ DOOM 1:
 
 - `Steam/steamapps/common/Ultimate Doom/base/`
 
-
 ### Prerequisite: Download the Official Addons
 
-🛑 DO NOT DOWNLOAD THE ADDONS FOR BOTH DOOM AND DOOM 2 🛑
+You first need to download the addons from within the 2019 Unity Version.
 
-You first need to download the addons from within the 2022 `Unity Versions` of either `DOOM 2` or `DOOM 1993`.
-
-Launch either of the titles and go from the `Main Menu` into the `Addons Menu` Download them all.
-
+Go from the `Main Menu` into the `Addons Menu` download them all.
 
 #### Steam DOOM DLC Location
 

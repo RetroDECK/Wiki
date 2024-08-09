@@ -6,11 +6,28 @@
 
 [Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
 
+## 2024 KEX Engine Version
+
+Bethesta updated the DOOM + DOOM II listing to a new KEX Engine as of **2024-08-08**
+
+W.I.P
+
+### Steam
+
+#### Where are the base core iwads?
+
+#### Steam DOOM DLC Location
+
+
+### GOG
+
+
+
 ## Unity versions 2019
 
 ### Steam
 
-Bethesta updated and removed several of the the unity version as of **2024-08-08**
+Bethesta updated and removed the unity version as of **2024-08-08**
 
 On Steam you can still access them on the Beta Branch (as of now) by:
 

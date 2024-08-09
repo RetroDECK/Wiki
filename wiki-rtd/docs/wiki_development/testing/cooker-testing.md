@@ -76,12 +76,33 @@ Thank you! ❤️
 
 If you want to trigger the upgrade script again between a version upgrade to try something out.
 
+You can do it via CLI (recommend) or Manually by editing the CFG file
+
+### CLI
+
 Do the following command
 
 `flatpak run net.retrodeck.retrodeck --test-upgrade <version>`
 
-Example:
+**Example:**
 
 `flatpak run net.retrodeck.retrodeck --test-upgrade 0.8.0b`
+
+This will trigger all the post-updates from `0.8.0b` to the current version you got installed.
+
+
+### Manually via CFG
+
+ Go to and edit the `.cfg` file:
+
+`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/retrodeck.cfg`
+
+Find the `version=` value and change it to an older versions value and press save.
+
+Next time you start RetroDECK the post-update should trigger again.
+
+**Example:**
+
+Edit the `.cfg` so the value is `version=0.8.0b`.
 
 This will trigger all the post-updates from `0.8.0b` to the current version you got installed.

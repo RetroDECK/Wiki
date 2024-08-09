@@ -2,9 +2,26 @@
 
 <img src="../../../wiki_images/logos/gzdoom-logo.png" width="150">
 
-## Where are the base core iwads?
+## Where are the Official Addons wads?
+
+[Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
+
+## Unity versions 2019
 
 ### Steam
+
+Bethesta updated and removed several of the the unity version as of **2024-08-08**
+
+On Steam you can still access them on the Beta Branch (as of now) by:
+
+1. `Right Click` on `DOOM + DOOM II` in Steam.
+2. Press `Properties`.
+3. Go to the `Betas` tab.
+4. Beta Patrticipation change to `Previous re-release 2019 version`
+5. Launch the game and keep following the guide
+
+
+#### Where are the base core iwads?
 
 DOOM 2:
 
@@ -18,9 +35,6 @@ DOOM 1:
 
 - `Steam/steamapps/common/Ultimate Doom/base/`
 
-## Where are the Official Addons wads?
-
-[Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
 
 ### Prerequisite: Download the Official Addons
 
@@ -30,11 +44,8 @@ You first need to download the addons from within the 2022 `Unity Versions` of e
 
 Launch either of the titles and go from the `Main Menu` into the `Addons Menu` Download them all.
 
-### GOG Location
 
-WIP
-
-### Steam Location
+#### Steam DOOM DLC Location
 
 **DOOM 2:**
 
@@ -53,8 +64,11 @@ Steam:
 If you got the Flatpak version of Steam the Links the `Steam/steamapps/` folder is located in:<br>
 `home/<username>/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/`
 
+### GOG
 
-## Addon List
+W.I.P
+
+### Addon List - Unity version
 
 | Name                     |                      Creator                        |     WAD name         | ADDON ID |
 | :---                     | :---                                                |        :---:         |  :---:   |
@@ -94,7 +108,7 @@ That `4` file is the `SIGIL.WAD` file.
 All you need to do is copy the ``/WADs/4/4` file to `retrodeck/roms/doom` then rename it `SIGIL.WAD`.
 
 
-## Extra: Windows tips
+### Extra: Windows tips
 
 If you want to move the WADs from a Windows installations instead you can use this software:
 [Unity Doom Ripper](https://github.com/kevansevans/Unity-Doom-Ripper)

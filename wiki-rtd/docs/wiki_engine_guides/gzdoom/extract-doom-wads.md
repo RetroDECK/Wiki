@@ -3,16 +3,16 @@
 <img src="../../../wiki_images/logos/gzdoom-logo.png" width="150">
 
 
-
-## Where are the Official Addons wads?
-
-[Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
-
-## Notice: Steam Flatpak Version - steamapps/ location
+### Notice: Steam Flatpak Version - steamapps/ location
 
 If you got the Flatpak version of Steam the `~/.local/share/Steam/steamapps/` folder is located in:
 
 `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/` when you follow this guide.
+
+
+## What are the Official Addons wads?
+
+[Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
 
 ## 2024 KEX Engine Version
 
@@ -85,13 +85,15 @@ It reveals that `585d6a05-e50c-4ad7-aac7-726d35d23a50.wad` is in fact `SIGILII.W
 
 You can then copy and paste it into `retrodeck/roms/doom/` and rename it to `SIGILII.WAD`.
 
-### GOG
+### GOG - W.I.P
 
+W.I.P
 
-
-## Unity versions 2019
+## Unity version 2019
 
 ### Steam
+
+#### Unity version 2019 - Via the Beta Branch
 
 Bethesta updated and removed the unity version as of **2024-08-08**
 
@@ -104,7 +106,7 @@ On Steam you can still access them on the Beta Branch (as of now) by:
 5. Launch the game and keep following the guide
 
 
-#### Where are the base core iwads?
+#### Steam - Where are the base core iwads?
 
 DOOM 2:
 
@@ -118,13 +120,7 @@ DOOM 1:
 
 - `~/.local/share/Steam/steamapps/common/Ultimate Doom/base/`
 
-### Prerequisite: Download the Official Addons
-
-You first need to download the addons from within the 2019 Unity Version.
-
-Go from the `Main Menu` into the `Addons Menu` download them all.
-
-#### Steam DOOM DLC Location
+#### Steam - DOOM DLC Location
 
 **DOOM 2:**
 
@@ -138,13 +134,25 @@ Steam:
 
 `~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM Classic/WADs/`
 
-
-
 ### GOG
 
 W.I.P
 
-### Addon List - Unity version
+#### GOG - Where are the base core iwads?
+
+W.I.P
+
+#### GOG - DOOM DLC Location
+
+W.I.P
+
+### Untity 2019 Version - Get the Official Addons
+
+**Prerequisite:** You first need to download the addons from within the 2019 Unity Version.
+
+Go from the `Main Menu` into the `Addons Menu` download them all.
+
+#### Addon List - Unity version
 
 | Name                     |                      Creator                        |     WAD name         | ADDON ID |
 | :---                     | :---                                                |        :---:         |  :---:   |
@@ -170,11 +178,11 @@ W.I.P
 | TNT: Evilution           |   Team TNT                                          |   `TNT.WAD`          |  `1`     |
 | The Troopers' Playground |   Matthias Worch                                    |   `TTP.WAD`          |  `20`    |
 
-### How to extract them?
+#### How to extract them?
 
 Each file is located in the `WADs/` folder from the step above with an ID number that you can check on the list.
 
-#### Example: Sigil
+**Example: Sigil**
 
 Sigil has the ID of `4` and is then located in the `/WADs/4/` folder.
 
@@ -184,7 +192,7 @@ That `4` file is the `SIGIL.WAD` file.
 All you need to do is copy the ``/WADs/4/4` file to `retrodeck/roms/doom` then rename it `SIGIL.WAD`.
 
 
-### Extra: Windows tips
+#### DOOM Unity Version - Extra: Windows tips
 
 If you want to move the WADs from a Windows installations instead you can use this software:
 [Unity Doom Ripper](https://github.com/kevansevans/Unity-Doom-Ripper)

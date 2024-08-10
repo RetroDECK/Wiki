@@ -33,16 +33,17 @@ You can also find the location by
 3. Go to the `Installed Files` tab.
 4. Press the `Browse` button.
 
-This folder does not only contain the base versions of DOOM + DOOM 2 but also:
+This folder does not only contain the base versions of `DOOM.WAD` + `DOOM2.WAD` but also:
 
 | Name                     |                      Creator                        |     WAD name         |
 | :---                     | :---                                                |        :---:         |
-| Extras                   |   ID Software / Nerve Software                      | `EXTRAS.WAD`         |
-| Master Levels            |   ID Software                                       | `MASTERLEVELS.WAD`   |
+| Extras                   |   id Software, Nerve Software                       | `EXTRAS.WAD`         |
+| Master Levels            |   id Software                                       | `MASTERLEVELS.WAD`   |
 | No Rest for the Living   |   Nerve Software                                    |   `NERVE.WAD`        |
 | The Plutonia Experiment  |   Dario Casali & Milo Casali                        |   `PLUTONIA.WAD`     |
 | SIGIL                    |   Romero Games                                      |   `SIGIL.WAD`        |
 | TNT: Evilution           |   Team TNT                                          |   `TNT.WAD`          |
+| Legacy of Rust           |   id Software, Nightdive Studios, MachineGames      |   `ID1.WAD`,  `ID1-WEAP.WAD`, `ID1-RES.WAD`, `ID24RES.WAD`, `IDDM1.WAD`
 
 
 ### Prerequisite: Download the Official Addons

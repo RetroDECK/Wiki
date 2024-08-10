@@ -2,32 +2,87 @@
 
 <img src="../../../wiki_images/logos/gzdoom-logo.png" width="150">
 
+
+
 ## Where are the Official Addons wads?
 
 [Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
+
+## Notice: Steam Flatpak Version - steamapps/ location
+
+If you got the Flatpak version of Steam the `~/.local/share/Steam/steamapps/` folder is located in:
+
+`~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/` when you follow this guide.
 
 ## 2024 KEX Engine Version
 
 Bethesta updated the DOOM + DOOM II listing to a new KEX Engine as of **2024-08-08**
 
-W.I.P
+The KEX Engine version of `DOOM + DOOM II` have spread out the files and assigned a random BethestaNet ID number to wads as their filename.
 
-### Steam
-
-The KEX Engine version of DOOM + DOOM II have spread out the files a bit more.
+### Steam - KEX
 
 #### Where are the base core iwads?
 
-`/Steam/steamapps/common/Ultimate Doom/rerelease/`
+`~/.local/share/Steam/steamapps/common/Ultimate Doom/rerelease/`
+
+You can also find the location by
+
+1. `Right Click` on `DOOM + DOOM II` in Steam.
+2. Press `Properties`.
+3. Go to the `Installed Files` tab.
+4. Press the `Browse` button.
+
+This folder does not only contain the base versions of DOOM + DOOM 2 but also:
+
+| Name                     |                      Creator                        |     WAD name         |
+| :---                     | :---                                                |        :---:         |
+| Extras                   |   ID Software / Nerve Software                      | `EXTRAS.WAD`         |
+| Master Levels            |   ID Software                                       | `MASTERLEVELS.WAD`   |
+| No Rest for the Living   |   Nerve Software                                    |   `NERVE.WAD`        |
+| The Plutonia Experiment  |   Dario Casali & Milo Casali                        |   `PLUTONIA.WAD`     |
+| SIGIL                    |   Romero Games                                      |   `SIGIL.WAD`        |
+| TNT: Evilution           |   Team TNT                                          |   `TNT.WAD`          |
 
 
 ### Prerequisite: Download the Official Addons
 
-Go from the `Main Menu` -> `Mods Menu` -> `Featured Mods`  subscribe to them all.
+Go from the `Main Menu` -> `Mods Menu` -> `Featured Mods`  for most of the big mods like SIGIL 2.
 
 
-#### Steam DOOM DLC Location
+#### Steam DOOM DLC Mods Location
 
+All of the BethestaNet Wads are located in:
+
+`~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/Nightdive Studios/DOOM/bnetwads/`
+
+Each .wad downloaded have it's own sub-folder based on an internal ID and contains the `.wad` file and a `index.json` file.
+
+Opening the `index.json` file in each folder will tell you what game the `.wad` is.
+
+
+**Example SIGILII:**
+
+`~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/Nightdive Studios/DOOM/bnetwads/585d6a05-e50c-4ad7-aac7-726d35d23a50/`
+
+Contains the `index.json` and `585d6a05-e50c-4ad7-aac7-726d35d23a50.wad`
+
+Opening the `index.json`:
+
+
+```
+{
+	"id" : "585d6a05-e50c-4ad7-aac7-726d35d23a50",      <-- Mod's BethestaNet ID
+	"title" : "SIGIL II",                               <-- Mod Title
+	"version" : "2ed265fd-6fdf-45a5-a078-35811549ce3b", <-- Current uploaded version (for updates)
+	"wad" : "585d6a05-e50c-4ad7-aac7-726d35d23a50.wad"  <-- The Wad file
+}
+
+```
+
+It reveals that `585d6a05-e50c-4ad7-aac7-726d35d23a50.wad` is in fact `SIGILII.WAD`.
+
+You can then copy and paste it into `retrodeck/roms/doom/` and rename it to `SIGILII.WAD`.
 
 ### GOG
 
@@ -52,15 +107,15 @@ On Steam you can still access them on the Beta Branch (as of now) by:
 
 DOOM 2:
 
-- `Steam/steamapps/common/Doom 2/masterbase/doom2/`
-- `Steam/steamapps/common/Doom 2/masterbase/master/wads/`
-- `Steam/steamapps/common/Doom 2/masterbase/Doom 2/masterbase/doom2/`
+- `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/doom2/`
+- `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/master/wads/`
+- `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/Doom 2/masterbase/doom2/`
 
 DOOM 1:
 
 `DOOM.WAD`
 
-- `Steam/steamapps/common/Ultimate Doom/base/`
+- `~/.local/share/Steam/steamapps/common/Ultimate Doom/base/`
 
 ### Prerequisite: Download the Official Addons
 
@@ -74,18 +129,15 @@ Go from the `Main Menu` into the `Addons Menu` download them all.
 
 Steam:
 
-`Steam/steamapps/compatdata/2300/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM 2/WADs/`
+`~/.local/share/Steam/steamapps/compatdata/2300/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM 2/WADs/`
 
 **DOOM 1:**
 
 Steam:
 
-`Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM Classic/WADs/`
+`~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM Classic/WADs/`
 
-#### Flatpak steamapps/ location
 
-If you got the Flatpak version of Steam the Links the `Steam/steamapps/` folder is located in:<br>
-`home/<username>/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/`
 
 ### GOG
 

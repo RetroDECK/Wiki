@@ -1,4 +1,5 @@
 # Adding RetroDECK to Steam
+
 What follows are two ways to add RetroDECK to Steam and what settings you need to enable after you added it. If you have the Flatpak Version of Steam installed you need to do some extra steps for everything to work.
 
 

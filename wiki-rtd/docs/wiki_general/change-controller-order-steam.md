@@ -1,4 +1,4 @@
-# Set Controller Order in Steam
+# Change Controller Order in Steam
 
 <img src="../../wiki_images/steam/steam-controller-order.png" width="300">:
 

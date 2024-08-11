@@ -145,3 +145,5 @@ The plan is to map as much as we can into the RetroDECK Hotkey System below. We 
 - `RPCS3` hotkeys/shortcuts do not work and they are a new experimental feature. To exit you must shut down RPCS3 from the `Switch Window` inside the Steam Deck interface or quit the application on Desktop.
 - `CEMU` has almost no hotkey support.
 - `XEMU` has no hotkey support.
+- `Vita3k` has no hotkey support.
+- `Ryujinx` has almost no hotkey support.

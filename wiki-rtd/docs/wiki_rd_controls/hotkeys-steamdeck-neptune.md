@@ -2,16 +2,17 @@
 
 <img src="../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550">
 
-
-## RetroDECK - Steam Deck Hotkey Templates
-
-RetroDECK ships with two different templates for the Steam Deck: `RetroDECK: Steam Deck - Neptune SIMPLE` and `RetroDECK: Steam Deck - Neptune FULL` with the only difference being the complexity of the built in radial menus and the amount of options at your disposal on the left touchpad.
-
-Both layouts have the same button hotkeys seen on this page.
-
 ## Radial Menu System
 
 The radial menu system is located on the left touchpad on the Steam Deck with layout depending on what layout you choose.
+
+RetroDECK ships with two different templates for the Steam Deck:
+
+`RetroDECK: Steam Deck - Neptune SIMPLE`
+
+`RetroDECK: Steam Deck - Neptune FULL`
+
+The only difference being the complexity of the built-in radial menus and the amount of options at your disposal on the left touchpad.
 
 ### The FULL Layout
 

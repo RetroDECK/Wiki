@@ -63,12 +63,12 @@ nav:
   - What is the story and goals behind RetroDECK 📽️: wiki_about/story-goals.md
   - What is included in RetroDECK 📦: wiki_about/what-is-included.md
   - Start using RetroDECK 🏎️: wiki_general/retrodeck-start.md
+  - RetroDECK Configurator 🧰: wiki_configurator/configurator.md
+  - Add RetroDECK to Steam ✅: wiki_general/add-to-steam.md
   - Supported Devices 📺: wiki_general/supported-devices.md
   - Supported Controllers 🕹️: wiki_general/supported-controllers.md
-  - Add RetroDECK to Steam ✅: wiki_general/add-to-steam.md
-  - Change Controller Order 4️⃣: wiki_general/change-controller-order-steam.md
-  - RetroDECK Configurator 🧰: wiki_configurator/configurator.md
-  - Different Button Prompts in Games ❓: wiki_general/diffrent-game-inputs.md
+  - Change Controller Order 4️⃣: wiki_rd_controls/change-controller-order-steam.md
+  - Different Button Prompts in Games ❓: wiki_rd_controls/diffrent-game-inputs.md
   - Version History 📖: wiki_rd_versions/version-history.md
   - How to Contribute? ❤️: wiki_community/contibute-rd.md
   - Bugs & Known Issues 🐜: wiki_bugs/known-issues.md

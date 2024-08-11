@@ -74,8 +74,6 @@ What follows is a list of hotkeys:
 
 ### Steam Deck: Desktop Mode Hotkeys
 
-<img src="../../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550">
-
 The Steam Deck comes with several built-in hotkeys that you can use in Desktop Mode.
 
 | Function                 | Button / Combination |  Comment |

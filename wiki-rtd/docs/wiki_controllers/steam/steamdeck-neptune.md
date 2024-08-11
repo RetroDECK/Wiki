@@ -1,8 +1,8 @@
-# Steamdeck
+# Steam Deck - Neptune
 
 <img src="../../../wiki_images/graphics/steamdeck/rd_sd_screen1.jpeg" width="350">
 
-The Valve Steam Deck LCD / OLD
+The Valve Steam Deck LCD / OLD Controller also known as Neptune
 
 ### Steam Input support
 Yes

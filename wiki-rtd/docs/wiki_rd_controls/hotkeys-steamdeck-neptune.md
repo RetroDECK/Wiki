@@ -1,6 +1,6 @@
 # Steam Deck: RetroDECK Hotkeys
 
-<img src="../../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550">
+<img src="../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550">
 
 
 ## RetroDECK - Steam Deck Hotkey Templates

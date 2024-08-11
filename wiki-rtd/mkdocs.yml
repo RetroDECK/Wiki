@@ -73,30 +73,6 @@ nav:
   - How to Contribute? ❤️: wiki_community/contibute-rd.md
   - Bugs & Known Issues 🐜: wiki_bugs/known-issues.md
 
-
-  - Controls & Hotkeys for RetroDECK 🎮:
-
-    - RetroDECK and Udev Rules: wiki_controllers/about/about-udev.md
-
-    - Hotkeys & Layouts 🔥:
-        - Generic Standard - Hotkeys & Layout: wiki_rd_controls/hotkeys-generic-standard.md
-        - Nintendo - Hotkeys & Layout: wiki_rd_controls/hotkeys-nintendo.md
-        - Playstation - Hotkeys & Layout: wiki_rd_controls/hotkeys-playstation.md
-        - Xbox - Hotkeys & Layout: wiki_rd_controls/hotkeys-xbox.md
-
-    - Radial Menus ⭕:
-        - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
-        - Steam Deck - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
-
-
-  - Files & Game Management 📂:
-    - Game Compability Lists: wiki_management/compatibility-lists.md
-    - Manage your BIOS/Firmware: wiki_management/bios-firmware.md
-    - Manage your Multidisk/file games: wiki_management/multi-disk.md
-    - Move RetroDECK to a new device: wiki_management/retrodeck-move.md
-    - Scraping Game Media: wiki_management/about-scraping.md
-    - Spreading Files over Multiple Drives: wiki_management/spread-files.md
-
   - FAQ ❔:
     - Documentation & Wiki: wiki_faq/faq-documentation.md
     - Feature Requests: wiki_faq/faq-feature.md
@@ -106,7 +82,32 @@ nav:
     - RetroDECK Usage: wiki_faq/faq-rd-usage.md
     - Steam Deck: wiki_faq/faq-rd-steamdeck.md
 
+  - Guides - RetroDECK Controls & Hotkeys 🎮:
+
+    - RetroDECK and Udev Rules: wiki_rd_controls/about-udev.md
+    - Generic Standard - Hotkeys & Layout: wiki_rd_controls/hotkeys-generic-standard.md
+    - Nintendo - Hotkeys & Layout: wiki_rd_controls/hotkeys-nintendo.md
+    - Playstation - Hotkeys & Layout: wiki_rd_controls/hotkeys-playstation.md
+    - Xbox - Hotkeys & Layout: wiki_rd_controls/hotkeys-xbox.md
+    - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
+    - RetroDECK - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
+
+  - Guides - RetroDECK Configurator 🧰:
+
+    - RetroDECK Configurator 🧰: wiki_configurator/configurator.md
+    - Ponzu: wiki_configurator/ponzu.md
+
+  - Guides - Files & Game Management 📂:
+
+    - Game Compability Lists: wiki_management/compatibility-lists.md
+    - Manage your BIOS/Firmware: wiki_management/bios-firmware.md
+    - Manage your Multidisk/file games: wiki_management/multi-disk.md
+    - Move RetroDECK to a new device: wiki_management/retrodeck-move.md
+    - Scraping Game Media: wiki_management/about-scraping.md
+    - Spreading Files over Multiple Drives: wiki_management/spread-files.md
+
   - Guides - Steam Deck 🕹️:
+
     - RetroDECK Installation and Updates: wiki_devices/steamdeck/steamdeck-start.md
     - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
     - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
@@ -114,14 +115,17 @@ nav:
     - Built-in Controls: wiki_controllers/steam/steamdeck-neptune-builtin.md
 
   - Guides - Linux Desktop 🐧:
+
     - Installation and Updates: wiki_devices/linux_desktop/linux-install.md
     - Recommended Software: wiki_devices/linux_desktop/linux-software.md
 
   - Guides - ES-DE Frontend 🤖:
+
     - ES-DE - User Guide: wiki_es_de/esde-guide.md
     - Themes: wiki_es_de/esde-themes.md
   
   - Guides - Engines  🛠️:
+
     - GZDoom 👹:
       - GZDoom - General Guide: wiki_engine_guides/gzdoom/gzdoom-guide.md
       - GZDoom - Controls Guide: wiki_engine_guides/gzdoom/gzdoom-controls.md
@@ -145,6 +149,7 @@ nav:
       - OpenBOR - General Guide: wiki_engine_guides/openbor/openbor-guide.md
 
   - Guides - Emulators  📘:
+
     - Cemu ⬜:
       - Cemu - General Guide (WIP): wiki_emulator_guides/cemu/cemu-guide.md
 
@@ -189,10 +194,6 @@ nav:
 
     - xemu ✖️:
       - xemu - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
-
-  - Guides - RetroDECK Configurator 🧰:
-    - RetroDECK Configurator 🧰: wiki_configurator/configurator.md
-    - Ponzu: wiki_configurator/ponzu.md
 
   - The Controller Vault 🎮:
 
@@ -320,6 +321,7 @@ nav:
       - Expermental Features: wiki_development/testing/experimental-features.md
 
   - Archive 🗃️:
+
     - Yuzu 🔴 (Archive):
       - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
       - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md

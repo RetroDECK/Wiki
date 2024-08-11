@@ -2,6 +2,10 @@
 
 <img src="../../wiki_images/steam/steam-controller-order.png" width="300">:
 
+**Note:**
+
+You must have added RetroDECK to Steam for this to work.
+
 ## Quick Guide via Hotkey
 
 1. Launch `RetroDECK`

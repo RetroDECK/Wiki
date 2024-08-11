@@ -7,15 +7,24 @@
 - DualSense
 - DualSense Edge
 
-## What are the Official profiles called?
+## What are the RetroDECK Steam Input Templates called?
 
 - DualShock 3 / Sixaxis: `RetroDECK: Dualshock 3`
 - DualShock 4: `RetroDECK: Dualshock 4`
 - DualSense / DualSense Edge: `RetroDECK: DualSense`
 
+##  Simple Radial Menu
+
+The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+
+Read more at the:
+
+[Standard Controller: Simple Radial Menu](radial-simple.md) to see all the available commands.
+
 ## Global Hotkeys: PlayStation Button Combos
 
 The global hotkeys are activated by pressing the `SELECT`  button and holding it while pressing the corresponding other button input.
+
 What follows is a list of hotkeys:
 
 `Function` Shows what the hotkey does. <br>
@@ -42,14 +51,18 @@ What follows is a list of hotkeys:
 | Fast forward            |  `SELECT + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                  |            |
 | Simple Radial Menu      |  `SELECT + Left Joystick`    |                                                                                                   |            |       Opens the Radial Menu  |
 
-### Simple Radial Menu
 
-The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+## Additional Hotkeys
 
-Read more at the:
+### PS4 Dualshock 4 and PS5 DualSense
 
-[Standard Controller: Simple Radial Menu](radial-simple.md) to see all the available commands.
+The touchpads acts as a mouse and can be used to navigate mouse based inputs.
 
+| Function                 | Button / Combination     | Emulator Support     |    Comment |
+| :---                    | :---:                    |       :---:          |  :---:     |
+| Full Touchpad          |             |      |         The entire touchpad acts a mouse   |
+| Right Touchpad Click         |  `Left Mouse Click`                |      |         |
+| Left Touchpad Click         |  `Right Mouse Click`                |      |         |
 
 ### Right Joystick as Temporary Mouse
 
@@ -61,28 +74,20 @@ By holding `SELECT` and moving the `Right Joystick` you can use it as a mouse fo
 | Right Click        |  `SELECT + L3`          |   `Right Click`               |     |
 | Left Click        |  `SELECT + R3`           |   `Left Click`            |     |
 
-### RetroArch: Additional Hotkeys
+### RetroArch
 
-These hotkeys also work for RetroArch and are built in.
+These hotkeys also work for `RetroArch` and are built in.
 
 | Function                 | Button / Combination     | Emulator Support     |    Comment |
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Open Menu               |  `L3 + R3`               |      `RetroArch`     |            |
 
-### Arcade Systems: Additional Hotkeys
+### Arcade Systems
 
-This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
+This hotkey work for `RetroArch`, `MAME`, `FBNEO` and other arcade systems.
 
 | Function                 | Button / Combination     | Emulator Support     |    Comment |
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Insert Credit           |  `SELECT`                |     `RetroArch`  `MAME` `FBNeo`     |            |
 
-### PS4 Dualshock 4 and PS5 DualSense: Additional Hotkeys
 
-The touchpads acts as a mouse and can be used to navigate mouse based inputs.
-
-| Function                 | Button / Combination     | Emulator Support     |    Comment |
-| :---                    | :---:                    |       :---:          |  :---:     |
-| Full Touchpad          |             |      |         The entire touchpad acts a mouse   |
-| Right Touchpad Click         |  `Left Mouse Click`                |      |         |
-| Left Touchpad Click         |  `Right Mouse Click`                |      |         |

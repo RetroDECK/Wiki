@@ -4,13 +4,22 @@
 
 - Steam Controller - Gordon: `RetroDECK: Steam Controller - Gordon`
 
-### The hotkey button (HKB)
+## Simple Radial Menu
+
+The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+
+Read more at the:
+
+[Standard Controller: Simple Radial Menu](radial-simple.md) to see all the available commands.
+
+## Global Hotkeys: Steam Controller Gordon
+
+
+**The hotkey button (HKB):**
 
 The global hotkeys are activated by pressing and holding the `HKB` aka the `HotKey Button` and pressing the corresponing button togheter for the command you want to do.
 
 For the Steam Controller - Gordon the `Hotkey Button` is both `SELECT` and `L4`, you can press either depending on what you feel is more confortable.
-
-### Global Hotkeys: Steam Controller Gordon Button Combos
 
 `Function` Shows what the hotkey does. <br>
 `Button / Combination` Shows the input you need to make to trigger the command. <br>
@@ -36,14 +45,7 @@ For the Steam Controller - Gordon the `Hotkey Button` is both `SELECT` and `L4`,
 | Fast forward            |  `HKB + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                  |            |
 | Simple Radial Menu      |  `HKB + Left Joystick`    |                                                                                                   |            |       Opens the Radial Menu  |
 
-### Simple Radial Menu
-
-The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
-
-Read more at the:
-
-[Standard Controller: Simple Radial Menu](radial-simple.md) to see all the available commands.
-
+## Additional Hotkeys
 
 ### Right Touchpad as Temporary Mouse
 
@@ -77,7 +79,7 @@ This function is useful for games that the primary input is a mouse as you don't
 | Touchpad as Mouse  / Joystick Switch      |  `R4`         |            |     |
 | Left Click - Mouse Mode       |  `R3`           |   `Left Click`            |     |
 
-### RetroArch: Additional Hotkeys
+### RetroArch
 
 These hotkeys also work for RetroArch and are built in.
 
@@ -85,7 +87,7 @@ These hotkeys also work for RetroArch and are built in.
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Open Menu               |  `L3 + R3`               |      `RetroArch`     |            |
 
-### Arcade Systems: Additional Hotkeys
+### Arcade Systems
 
 This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 

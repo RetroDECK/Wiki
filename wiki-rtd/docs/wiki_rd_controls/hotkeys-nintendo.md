@@ -1,12 +1,21 @@
 # Nintendo: RetroDECK Hotkeys
 
-## What are the Official profiles called?
+## What is the RetroDECK Steam Input Templates called?
 
 - Switch Pro Controller: `RetroDECK: Switch Pro`
 
-## Global Hotkeys: Nintendo Button Combos
+## Simple Radial Menu
+
+The Simple Radial Menu is activated by holding `MINUS (SELECT) ` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+
+Read more at the:
+
+[Standard Controller: Simple Radial Menu](radial-simple.md) to see all the available commands.
+
+## Global Hotkeys: Nintendo
 
 The global hotkeys are activated by pressing the `MINUS (SELECT) `  button and holding it while pressing the corresponding other button input.
+
 What follows is a list of hotkeys:
 
 `Function` Shows what the hotkey does. <br>
@@ -33,13 +42,8 @@ What follows is a list of hotkeys:
 | Fast forward            |  `MINUS (SELECT)  + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                  |            |
 | Simple Radial Menu      |  `MINUS (SELECT)  + Left Joystick`    |                                                                                                   |            |       Opens the Radial Menu  |
 
-### Simple Radial Menu
 
-The Simple Radial Menu is activated by holding `MINUS (SELECT) ` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
-
-Read more at the:
-
-[Standard Controller: Simple Radial Menu](radial-simple.md) to see all the available commands.
+## Additional Hotkeys
 
 ### Right Joystick as Temporary Mouse
 
@@ -51,18 +55,18 @@ By holding `MINUS (SELECT) ` and moving the `Right Joystick` you can use it as a
 | Right Click        |  `MINUS (SELECT)  + L3`          |   `Right Click`               |     |
 | Left Click        |  `MINUS (SELECT)  + R3`           |   `Left Click`            |     |
 
-### RetroArch: Additional Hotkeys
+### RetroArch
 
-These hotkeys also work for RetroArch and are built in.
+These hotkeys also work for `RetroArch` and are built in.
 
 | Function                 | Button / Combination     | Emulator Support     |    Comment |
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Open Menu               |  `L3 + R3`               |      `RetroArch`     |            |
 
-### Arcade Systems: Additional Hotkeys
+### Arcade Systems
 
-This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
+This hotkey work for `RetroArch`, `MAME`, `FBNEO` and other arcade systems.
 
 | Function                 | Button / Combination     | Emulator Support     |    Comment |
 | :---                    | :---:                    |       :---:          |  :---:     |
-| Insert Credit           |  `MINUS (SELECT) `                |     `RetroArch`  `MAME` `FBNeo`     |            |
+| Insert Credit           |  `MINUS (SELECT)`                |     `RetroArch`  `MAME` `FBNeo`     |            |

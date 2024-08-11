@@ -1,13 +1,21 @@
 # Generic Standard: RetroDECK Hotkeys
 
-## What are the Official profiles called?
+## What is the RetroDECK Steam Input Template called?
 
 - Generic Standard : `RetroDECK: Generic - Standard`
 
+## Simple Radial Menu
 
-## Global Hotkeys: Generic Button Combos
+The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+
+Read more at the:
+
+[Standard Controller: Simple Radial Menu](radial-simple.md) to see all the available commands.
+
+## Global Hotkeys: Generic
 
 The global hotkeys are activated by pressing the `SELECT`  button and holding it while pressing the corresponding other button input.
+
 What follows is a list of hotkeys:
 
 `Function` Shows what the hotkey does. <br>
@@ -33,14 +41,7 @@ What follows is a list of hotkeys:
 | Fast forward            |  `SELECT + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                   |            |   |
 | Simple Radial Menu      |  `SELECT + Left Joystick`    |                                                                                                   |            |       Opens the Radial Menu  |
 
-### Simple Radial Menu
-
-The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
-
-Read more at the:
-
-[Standard Controller: Simple Radial Menu](radial-simple.md) to see all the available commands.
-
+## Additional Hotkeys
 
 ### Right Joystick as Temporary Mouse
 

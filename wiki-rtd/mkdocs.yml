@@ -63,7 +63,6 @@ nav:
   - What is the story and goals behind RetroDECK 📽️: wiki_about/story-goals.md
   - What is included in RetroDECK 📦: wiki_about/what-is-included.md
   - Start using RetroDECK 🏎️: wiki_general/retrodeck-start.md
-  - RetroDECK Configurator 🧰: wiki_configurator/configurator.md
   - Add RetroDECK to Steam ✅: wiki_general/add-to-steam.md
   - Supported Devices 📺: wiki_general/supported-devices.md
   - Supported Controllers 🕹️: wiki_general/supported-controllers.md
@@ -89,6 +88,8 @@ nav:
     - Nintendo - Hotkeys & Layout: wiki_rd_controls/hotkeys-nintendo.md
     - Playstation - Hotkeys & Layout: wiki_rd_controls/hotkeys-playstation.md
     - Xbox - Hotkeys & Layout: wiki_rd_controls/hotkeys-xbox.md
+    - Steam Deck - Hotkeys & Layout: wiki_rd_controls/hotkeys-steamdeck-neptune.md
+    - Steam Controller - Hotkeys & Layout: wiki_rd_controls/hotkeys-steamdeck-neptune.md
     - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
     - RetroDECK - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
 
@@ -111,8 +112,7 @@ nav:
     - RetroDECK Installation and Updates: wiki_devices/steamdeck/steamdeck-start.md
     - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
     - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
-    - RetroDECK Controls: wiki_controllers/steam/steamdeck-neptune-controller.md
-    - Built-in Controls: wiki_controllers/steam/steamdeck-neptune-builtin.md
+    - Steam Deck - Hotkeys & Layout: wiki_rd_controls/hotkeys-steamdeck-neptune.md
 
   - Guides - Linux Desktop 🐧:
 
@@ -266,8 +266,8 @@ nav:
       - About Racing Controllers: wiki_controllers/racing/about-racing.md
 
     - Steam/Valve 🎮:
-      - Steam Deck - Controller: wiki_controllers/steam/steamdeck-neptune-controller.md
-      - Steam - Steam Controller - Gordon: wiki_controllers/steam/steam-controller-gordon.md
+      - Steam Deck - Neptune: wiki_controllers/steam/steamdeck-neptune.md
+      - Steam Controller - Gordon: wiki_controllers/steam/steam-controller-gordon.md
 
     - Toys-to-life 🧸:
       - About Toys-to-life Controllers: wiki_controllers/toystolife/about-toys-to-life.md

@@ -164,3 +164,12 @@ Install and manage Wine- and Proton-based compatibility tools for both Steam, Bo
 Flatseal is a graphical utility to review and modify permissions from your Flatpak applications.
 
 [Flatseal Flathub](https://flathub.org/apps/com.github.tchx84.Flatseal)
+
+
+### Flatsweep
+
+<img src="../../../wiki_images/logos/flatsweep-logo.svg" width="150">
+
+If you are using many flatpaks they sometimes leave data behind. You can use Flatsweep to clean that from your system.
+
+[Flatsweep Flathub](https://flathub.org/apps/io.github.giantpinkrobots.flatsweep)

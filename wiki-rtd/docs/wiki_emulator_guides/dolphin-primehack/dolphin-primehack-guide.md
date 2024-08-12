@@ -38,7 +38,7 @@ Should be put under the `retrodeck/roms/gc/` directory.
 
 Should be put under the `retrodeck/roms/wii/` directory.
 
-## What file formats does Doplhin support?
+## What file formats does Dolphin / Primehack support?
 
 The supported formats are `CISO`, `DFF`, `DOL`, `ELF`, `GCM`, `GCZ`, `ISO`, `JSON`, `M3U`, `RVZ`, `TGC`, `WAD`, `WBFS`, `WIA`, `7Z` `ZIP`.
 

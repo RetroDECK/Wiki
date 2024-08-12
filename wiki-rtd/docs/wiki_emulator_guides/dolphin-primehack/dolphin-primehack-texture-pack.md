@@ -1,4 +1,5 @@
 # Dolphin / Primehack - Texture Pack Guide
+
 Primehack is based on Dolphin so the method is the same.
 
 The `~/retrodeck/texture_packs/dolphin/` & `~/retrodeck/texture_packs/primehack/` represents the `/load/Textures` folder.<br>
@@ -7,6 +8,7 @@ Some texture packs could made for a specific version or region of a game. Make s
 `GAME_ID` is different for every game.
 
 ## Enable Custom Textures
+
 * Open up Dolphin or Primehack inside `RetroDECK Configurator` by pressing `Open Emulator` - `Dolphin` or `Primehack`.
 * Press `Options` -> `Graphic Settings`
 

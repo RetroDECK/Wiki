@@ -2,7 +2,9 @@
 
 <img src="../../../wiki_images/logos/dolphin-logo.png" width="150">  <img src="../../../wiki_images/logos/primehack-logo.png" width="150">
 
-Dolphin feature rich a GameCube and Wii Emulator. Primehack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouselook controls.
+Dolphin feature rich a GameCube and Wii Emulator.
+
+Primehack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouselook controls and other improvements.
 
 ### Dolphin Links:
 
@@ -27,11 +29,22 @@ Dolphin feature rich a GameCube and Wii Emulator. Primehack is a fork of Dolphin
 
 
 ## Where to put the games
-Gamecube games should be put under the `retrodeck/roms/gc/` directory.<br>
 
-Wii games should be put under the `retrodeck/roms/wii/` directory.
-The supported formats are `CISO`, `DFF`, `DOL`, `ELF`, `GCM`, `GCZ`, `ISO`, `JSON`, `M3U`, `RVZ`, `TGC`, `WAD`, `WBFS`, `WIA`, `7Z` `ZIP`. <br>
-**NOTE:** `WBFS` and `WAD` are the original format supported by the Wii console.
+**Gamecube:**
+
+Should be put under the `retrodeck/roms/gc/` directory.
+
+**Wii:**
+
+Should be put under the `retrodeck/roms/wii/` directory.
+
+## What file formats does Doplhin support?
+
+The supported formats are `CISO`, `DFF`, `DOL`, `ELF`, `GCM`, `GCZ`, `ISO`, `JSON`, `M3U`, `RVZ`, `TGC`, `WAD`, `WBFS`, `WIA`, `7Z` `ZIP`.
+
+**NOTE:**
+
+`WBFS` and `WAD` are the original format supported by the Wii console.
 
 ## How do I use a Real Wii Remote with RetroDECK and Dolphin / Primehack?
 

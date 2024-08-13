@@ -6,28 +6,16 @@ date: 2024-08-18
 
 Highlights:
 
-- 0.8.X Scraping data issue & testing
-- Lighter Manifest
-- Godot Configurator
+- Lighter Manifest: What is it?
+- Lighter Manifest: Results
+- Godot Configurator: Font Selector & Accessible
+- Godot Configurator: Logs & Wiki
 
 
 <!-- more -->
 
 <img src="../../../rd-circle.png" width="150">
 
-## 0.8.X Scraping data issue
-
-There was a scraping data issue that we tried to fix in 0.8.3b then in 0.8.4b. It affected some systems that did not move the folders like downloaded_media correctly or did not update the variables for the new data location.
-
-### Better testing
-
-We always try our best to test various features, but the change was quite complex, and we missed a few scenarios, and we are looking over our testing routines and volunteering tester program to make things even better. The team hopes eventually we have more community beta testers volunteering and we have developed some automated testing tools.
-
-If you want to help with testing contact us on Discord or Matrix.
-
-The 0.8.0 branch is also on the old manifest. Regarding that...
-
----
 
 ## NEWS: Lighter Manifest for 0.9b
 
@@ -67,9 +55,9 @@ The results so far 🥁
 
 A majority of this freed space will probably be eaten up later by the new systems we will add in 0.9.0b.
 
-- Between **350mb to 500mb** of data have been freed from the finished project to use for other activites.
+- Around **500mb** of data have been freed from the finished project to use for other activites.
 
-- That is about **1/5** of the entire application trimmed.
+- That is about **1/6** of the entire application trimmed.
 
 
 ---

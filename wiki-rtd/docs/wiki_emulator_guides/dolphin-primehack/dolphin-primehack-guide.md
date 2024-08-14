@@ -27,6 +27,9 @@ Primehack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouse
 
 [Primehack - Github](https://github.com/shiiion/dolphin)
 
+## Does Dolphin require BIOS or Firmware?
+
+No
 
 ## Where to put the games
 
@@ -45,6 +48,35 @@ The supported formats are `CISO`, `DFF`, `DOL`, `ELF`, `GCM`, `GCZ`, `ISO`, `JSO
 **NOTE:**
 
 `WBFS` and `WAD` are the original format supported by the Wii console.
+
+## What other folders are used?
+
+### Dolphin
+
+| Type | Folder                 | Flatpak Source |  Emulator Folder      |    Comment |
+|  :---:   | :---:                   | :---:               | :---:           |      :---:     |
+| GameCube Saves EU|`retrodeck/saves/gc/dolphin/EU/` |     `/var/data/dolphin-emu/GC/EUR/`       |    `/dolphin-emu/GC/EUR/`         |  |
+| GameCube Saves US|`retrodeck/saves/gc/dolphin/US/`         |     `/var/data/dolphin-emu/GC/USA/`       |    `/dolphin-emu/GC/USA/`         |   |
+| GameCube Saves JP| `retrodeck/saves/gc/dolphin/JP/`         |     `/var/data/dolphin-emu/GC/JAP/`       |    `/dolphin-emu/GC/JAP/`         |  |
+| Wii Saves |`retrodeck/saves/wii/dolphin/`         |     `/var/data/dolphin-emu/Wii/`       |    `/dolphin-emu/Wii/`         |   |
+| States |`retrodeck/states/dolphin/`         |     `/var/data/dolphin-emu/StateSaves/`       |    `/dolphin-emu/StateSaves/`         |   |
+| Mods |`retrodeck/mods/Dolphin/`         |     `/var/data/dolphin-emu/Load/GraphicMods`       |    `/dolphin-emu/Load/GraphicMods/`         |   |
+| Texture Packs |`retrodeck/mods/Dolphin/`         |     `/var/data/dolphin-emu/Load/Textures/`       |    `/dolphin-emu/Load/Textures/`         |   |
+| Screenshots |`retrodeck/screenshots/`         |     `/var/data/dolphin-emu/ScreenShots/`       |    `/dolphin-emu/ScreenShots/`         |   |
+
+### PrimeHack
+
+| Type | Folder                 | Flatpak Source |  Emulator Folder      |    Comment |
+|  :---:   | :---:                   | :---:               | :---:           |      :---:     |
+| GameCube Saves EU|`retrodeck/saves/gc/primehack/EU/` |     `/var/data/primehack/GC/EUR/`       |    `/primehack/GC/EUR/`         |  |
+| GameCube Saves US|`retrodeck/saves/gc/primehack/US/`         |     `/var/data/primehack/GC/USA/`       |    `/primehack/GC/USA/`         |   |
+| GameCube Saves JP| `retrodeck/saves/gc/primehack/JP/`         |     `/var/data/primehack/GC/JAP/`       |    `/primehack/GC/JAP/`         |  |
+| Wii Saves |`retrodeck/saves/wii/primehack/`         |     `/var/data/primehack/Wii/`       |    `/primehack/Wii/`         |   |
+| States |`retrodeck/states/primehack/`         |     `/var/data/primehack/StateSaves/`       |    `/primehack/StateSaves/`         |   |
+| Mods |`retrodeck/mods/Primehack/`         |     `/var/data/primehack/Load/GraphicMods`       |    `/primehack/Load/GraphicMods/`         |   |
+| Texture Packs |`retrodeck/mods/Primehack/`         |     `/var/data/primehack/Load/Textures/`       |    `/primehack/Load/Textures/`         |   |
+| Screenshots |`retrodeck/screenshots/`         |     `/var/data/primehack/ScreenShots/`       |    `/primehack/ScreenShots/`         |   |
+
 
 ## How do I use a Real Wii Remote with RetroDECK and Dolphin / Primehack?
 

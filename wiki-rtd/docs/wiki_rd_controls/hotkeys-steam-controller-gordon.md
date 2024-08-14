@@ -60,7 +60,8 @@ By holding `HKB` and moving the `Right Touchpad` you can use it as a mouse for v
 
 ### Right Touchpad: Joystick Mode / Mouse Mode Switch
 
-By pressing `R4` and you can switch the right between semi-permanent Joystick Mode or Mouse Mode.<br>
+By pressing `R4` you can switch the right touchpad between semi-permanent `Right Joystick Mode` or `Mouse Mode`.
+
 This function is useful for games that the primary input is a mouse as you don't need to hold either of `SELECT` or `L4`.<br>
 
 **Example usecases:**

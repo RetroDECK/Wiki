@@ -77,13 +77,6 @@ The supported formats are `CISO`, `DFF`, `DOL`, `ELF`, `GCM`, `GCZ`, `ISO`, `JSO
 | Texture Packs |`retrodeck/mods/Primehack/`         |     `var/data/primehack/Load/Textures/`       |    `primehack/Load/Textures/`         |   |
 | Screenshots |`retrodeck/screenshots/`         |     `var/data/primehack/ScreenShots/`       |    `primehack/ScreenShots/`         |   |
 
-
-## How do I use a Real Wii Remote with RetroDECK and Dolphin / Primehack?
-
-To get a Wii Remote working on Dolphin / Primehack and Linux read more here in this in-depth guide:
-
-[Wii Remote - Guide](../../wiki_controllers/nintendo/wii-remote.md)
-
 ## Where do I change the language of Dolphin / Primehack?
 
 1. In the `Configurator` open either `Dolphin` or `Primehack`.

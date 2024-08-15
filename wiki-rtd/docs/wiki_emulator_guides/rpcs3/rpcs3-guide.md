@@ -53,9 +53,12 @@ For more details read here:<br>
 
 [ES-DE RPCS3 Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3)
 
-### Method 1: Game shortcuts .desktop files (recommended)
+### Method 1: Game shortcuts .desktop files (recommended and default)
 
 This method can be used for all types rips/dumps both directories and installed digital titles.<br>
+
+It's the default method for RetroDECK.
+
 On devices with a dedicated `Game Mode` such as the the Steam Deck it is recommended  to do this in `Desktop Mode`.
 
 
@@ -67,16 +70,24 @@ On devices with a dedicated `Game Mode` such as the the Steam Deck it is recomme
 6. Move that shortcut into the roms/ps3 folder.
 
 ### Method 2: Directories as .ps3 files (not recommended)
+
 This method can only be used directory type game dumps.
 To get the games to show up you need to rename the directory to end with a `.ps3` file extension.
 
+You will need to change the ES-DE Settings from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)` in ES-DE:
+
+1. `Other Settings` -> `Alternative Emulators` -> `PS3` -> `RPCS3 Directory (Standalone)`
+
 _Example:_
+
 
 You have directory dump of the a game Blu-ray PlayStation 3 game called Hockey World, the directory is called `Hockey World`.
 
 To get the it to show up you need to rename and add `.ps3` in the end of the directory name.
 
 The directory `Hockey World` becomes `Hockey World.ps3` and the game will show up.
+
+
 
 
 ## How to: Install DLC or patches on disc based games

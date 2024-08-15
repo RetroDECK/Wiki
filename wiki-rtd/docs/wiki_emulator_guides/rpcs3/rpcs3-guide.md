@@ -64,7 +64,8 @@ It's the default method for RetroDECK.
 3. The game will now show up in the RPCS3 game list.
 4. `Right Click` on a game on that list -> `Create Shortcut` -> `Create Desktop Shortcut`
 5. This will create a shortcut to the game on your Desktop.
-6. Move that shortcut into the roms/ps3 folder.
+6. Move that shortcut into the `retrodeck/roms/ps3` folder.
+7. It should now show up in ES-DE Frontend in RetroDECK and can be played.
 
 ### Method 2: Directories as .ps3 files (not recommended)
 
@@ -72,19 +73,18 @@ This method can only be used directory type game dumps. To get the games to show
 
 You will need to change the ES-DE Settings from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)` in ES-DE:
 
-Go to `Other Settings` -> `Alternative Emulators` -> `PS3` -> `RPCS3 Directory (Standalone)`
+1. Open RetroDECK and in the ES-DE Frontend go to `Other Settings` -> `Alternative Emulators` -> `PS3`.
+2. Change the value from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)`.
+3. Go to the `retrodeck/roms/ps3` and put in your directory dumps.
+4. Change the name of the directory so they end with `.ps3` (see example)
 
 **Example:**
-
 
 You have directory dump of the a game Blu-ray PlayStation 3 game called Hockey World, the directory is called `Hockey World`.
 
 To get the it to show up you need to rename and add `.ps3` in the end of the directory name.
 
 The directory `Hockey World` becomes `Hockey World.ps3` and the game will show up.
-
-
-
 
 ## How to: Install DLC or patches on disc based games
 

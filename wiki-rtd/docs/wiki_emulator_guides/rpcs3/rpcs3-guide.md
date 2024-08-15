@@ -47,6 +47,8 @@ There are two ways to install the firmware:
 
 There are two methods of adding the games.
 
+**Note:** On the Steam Deck you will need to do this in `Desktop Mode`.
+
 For more details read here:<br>
 
 [ES-DE RPCS3 Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3)

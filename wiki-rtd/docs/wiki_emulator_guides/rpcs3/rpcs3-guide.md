@@ -17,7 +17,8 @@
 ---
 
 ## Where to put the games?
-PS3 games comes either as a Blu-ray rip directory (folder) with a bunch of different files or a digital PSN title that needs to be installed (see guide on this page).
+
+PS3 games comes either as a Blu-ray rip directory with a bunch of different files or a digital PSN title that needs to be installed (see guide on this page).
 
 PS3 games should be put under the `retrodeck/roms/ps3/` directory.
 
@@ -32,7 +33,7 @@ There are two ways to install the firmware:
 
 1. Open RPCS3 `RetroDECK Configurator` - `RetroDECK: Tools` - `Install: PS3 Firmware`.
 2. Press `OK` and this will download the PS3 Firmware and open RPCS3.
-3. You will get a prompt asking if you want to install the firmware from the /tmp/ folder, say `Yes`
+3. You will get a prompt asking if you want to install the firmware from the /tmp/ directory, say `Yes`
 4. Wait for the installation to finish
 5. Exit RPCS3 from the GUI under `File -> Exit`
 
@@ -64,7 +65,7 @@ It's the default method for RetroDECK.
 3. The game will now show up in the RPCS3 game list.
 4. `Right Click` on a game on that list -> `Create Shortcut` -> `Create Desktop Shortcut`
 5. This will create a shortcut to the game on your Desktop.
-6. Move that shortcut into the `retrodeck/roms/ps3` folder.
+6. Move that shortcut into the `retrodeck/roms/ps3` directory.
 7. It should now show up in ES-DE Frontend in RetroDECK and can be played.
 
 ### Method 2: Directories as .ps3 files (not recommended)
@@ -80,7 +81,7 @@ You will need to change the ES-DE Settings from `RPCS3 Shortcut (Standalone)` to
 2. Change the value from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)`.
 3. Exit RetroDECK
 
-#### Rename the folder .ps3
+#### Rename the directory .ps3
 
 1. Go to the `retrodeck/roms/ps3` and put in your directory dumps.
 2. Change the name of the directory so they end with `.ps3` (see example)
@@ -106,7 +107,7 @@ If you want to install some DLC or patch you can do that trough RPCS3 itself.
 
 ### (OPTIONAL) How to include the DLC or PATCH in the main game files
 
-Some users may want to include their DLC or PATCH files inside the game folder for achiving purposes, or just to don't have to keep these contents spread in the RPCS3 filesystem.
+Some users may want to include their DLC or PATCH files inside the game directory for achiving purposes, or just to don't have to keep these contents spread in the RPCS3 filesystem.
 It's fully optional but to do so the steps are:
 
 1. The files will be installed inside the a new game directory on the RPCS3 hard drive under
@@ -138,7 +139,8 @@ If you want to install some PSN tiltes you can do that trough RPCS3 itself.
 5. Install any patches or DLC for the game by repeating step .2 and .3 for each file.
 6. The game should now show up and be playable inside the ES-DE interface.
 
-### (OPTIONAL) Move the digital contents into a game folder
+### (OPTIONAL) Move the digital contents into a game directory
+
 Similarly on how written above with the DLC and PATCHES the user can decide to move the digital games outside the RPCS3 filesystem, in order to do so:
 
 1. After the game is ready move the digital games directory from `retrodeck/bios/rpcs3/dev_hdd0/game/GAMEID` to `retrodeck/roms/ps3`

@@ -71,12 +71,19 @@ It's the default method for RetroDECK.
 
 This method can only be used directory type game dumps. To get the games to show up you need to rename the directory to end with a `.ps3` file extension.
 
-You will need to change the ES-DE Settings from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)` in ES-DE:
+#### Change the ES-DE Settings - RPCS3 Directory (Standalone)
+
+**Prerequisite:**
+You will need to change the ES-DE Settings from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)` in ES-DE.
 
 1. Open RetroDECK and in the ES-DE Frontend go to `Other Settings` -> `Alternative Emulators` -> `PS3`.
 2. Change the value from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)`.
-3. Go to the `retrodeck/roms/ps3` and put in your directory dumps.
-4. Change the name of the directory so they end with `.ps3` (see example)
+3. Exit RetroDECK
+
+#### Rename the folder .ps3
+
+1. Go to the `retrodeck/roms/ps3` and put in your directory dumps.
+2. Change the name of the directory so they end with `.ps3` (see example)
 
 **Example:**
 

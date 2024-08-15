@@ -138,7 +138,7 @@ If you want to install some PSN tiltes you can do that trough RPCS3 itself.
 5. Install any patches or DLC for the game by repeating step .2 and .3 for each file.
 6. The game should now show up and be playable inside the ES-DE interface.
 
-### (OPTIONAL) Move the digital contents into a .ps3 folder
+### (OPTIONAL) Move the digital contents into a game folder
 Similarly on how written above with the DLC and PATCHES the user can decide to move the digital games outside the RPCS3 filesystem, in order to do so:
 
 1. After the game is ready move the digital games directory from `retrodeck/bios/rpcs3/dev_hdd0/game/GAMEID` to `retrodeck/roms/ps3`

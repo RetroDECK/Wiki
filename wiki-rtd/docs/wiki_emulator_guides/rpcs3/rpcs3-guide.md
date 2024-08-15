@@ -47,7 +47,7 @@ There are two ways to install the firmware:
 
 There are two methods of adding the games.
 
-**Note:** On the Steam Deck you will need to do this in `Desktop Mode`.
+**Note:**  On devices with a dedicated `Game Mode` such as the the Steam Deck it is recommended  to do this in `Desktop Mode`.
 
 For more details read here:<br>
 
@@ -59,9 +59,6 @@ This method can be used for all types rips/dumps both directories and installed 
 
 It's the default method for RetroDECK.
 
-On devices with a dedicated `Game Mode` such as the the Steam Deck it is recommended  to do this in `Desktop Mode`.
-
-
 1. Open RPCS3 via the Configurator
 2. Click File -> Add Game -> Browse to game you want to add.
 3. The game will now show up in the RPCS3 game list.
@@ -71,14 +68,13 @@ On devices with a dedicated `Game Mode` such as the the Steam Deck it is recomme
 
 ### Method 2: Directories as .ps3 files (not recommended)
 
-This method can only be used directory type game dumps.
-To get the games to show up you need to rename the directory to end with a `.ps3` file extension.
+This method can only be used directory type game dumps. To get the games to show up you need to rename the directory to end with a `.ps3` file extension.
 
 You will need to change the ES-DE Settings from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)` in ES-DE:
 
-1. `Other Settings` -> `Alternative Emulators` -> `PS3` -> `RPCS3 Directory (Standalone)`
+Go to `Other Settings` -> `Alternative Emulators` -> `PS3` -> `RPCS3 Directory (Standalone)`
 
-_Example:_
+**Example:**
 
 
 You have directory dump of the a game Blu-ray PlayStation 3 game called Hockey World, the directory is called `Hockey World`.

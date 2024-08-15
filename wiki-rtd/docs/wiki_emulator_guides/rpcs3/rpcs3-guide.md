@@ -45,7 +45,7 @@ There are two ways to install the firmware:
 
 ## How to: Get games to show up inside the ES-DE interface
 
-There are two methods of adding the games
+There are two methods of adding the games.
 
 For more details read here:<br>
 
@@ -60,11 +60,11 @@ On devices with a dedicated `Game Mode` such as the the Steam Deck it is recomme
 1. Open RPCS3 via the Configurator
 2. Click File -> Add Game -> Browse to game you want to add.
 3. The game will now show up in the RPCS3 game list.
-4. Rightclick on that list.
+4. `Right Click` on a game on that list -> `Create Shortcut` -> `Create Desktop Shortcut`
 5. This will create a shortcut to the game on your Desktop.
 6. Move that shortcut into the roms/ps3 folder.
 
-### Method 2: Directories as .ps3 files
+### Method 2: Directories as .ps3 files (not recommended)
 This method can only be used directory type game dumps.
 To get the games to show up you need to rename the directory to end with a `.ps3` file extension.
 
@@ -96,15 +96,15 @@ It's fully optional but to do so the steps are:
 1. The files will be installed inside the a new game directory on the RPCS3 hard drive under
   `retrodeck/bios/rpcs3/dev_hdd0/game/GAMEID` where `GAMEID` is unique for each game [PS3GAMEID-List](https://www.gametdb.com/PS3/List).
 2. The patches or dlc should now be installed inside the `GAMEID` directory.
-3. Move the content of the GAMEID directory into the games directory inside the `retrodeck/roms/ps3/GAMENAME.ps3` directory and overwrite & replace the files.
+3. Move the content of the GAMEID directory into the games directory inside the `retrodeck/roms/ps3/GAMENAME` directory and overwrite & replace the files.
 4. You can now remove the `retrodeck/bios/rpcs3/dev_hdd0/game/GAMEID` directory as the files have been moved.
 
 Example:
 
-- The game `Hockey World.ps3` inside the `retrodeck/roms/ps3/` has some DLC & and a patch you want to install.
+- The game `Hockey World` inside the `retrodeck/roms/ps3/` has some DLC & and a patch you want to install.
 - You follow the above guide and install the files.
 - The installation made a newly created directory called `BCA111111` under `retrodeck/bios/rpcs3/dev_hdd0/game/`.
-- You open up the directory `retrodeck/bios/rpcs3/dev_hdd0/game/BCA111111` and copy all of it's content and paste it into `retrodeck/roms/ps3/Hockey World.ps3` directory and replace/overwrite the files.
+- You open up the directory `retrodeck/bios/rpcs3/dev_hdd0/game/BCA111111` and copy all of it's content and paste it into `retrodeck/roms/ps3/Hockey World` directory and replace/overwrite the files.
 - You can then remove the `BCA111111` directory in `retrodeck/bios/rpcs3/dev_hdd0/game/`
 
 ## How to: Install digital PSN titles

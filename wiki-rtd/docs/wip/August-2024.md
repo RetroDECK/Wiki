@@ -66,7 +66,7 @@ A majority of this freed space will probably be eaten up later by the new system
 
 Yes, we are still working on it and much more!
 
-🛑 **W.I.P** Things will change and nothing in these videos should be seen as final. 🛑
+🛑 **W.I.P** Things will change and nothing in these videos should be seen as final and is more akin to a pre-alpha. 🛑
 
 
 

@@ -68,7 +68,7 @@ Yes, we are still working on it and much more!
 
 🛑 **W.I.P** Things will change and nothing in these videos should be seen as final and is more akin to a pre-alpha. 🛑
 
-The goal of the Godot Configurator is the same:
+The goal of the Godot Configurator are the same:
 
 - Replaces the current configurator.
 - Can us controllers to navigate.

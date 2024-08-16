@@ -14,7 +14,7 @@ Highlights:
 
 <!-- more -->
 
-<img src="../../../rd-circle.png" width="150">
+<img src="rd-circle.png" width="150">
 
 
 ## NEWS: Lighter Manifest for 0.9b
@@ -68,8 +68,11 @@ Yes, we are still working on it and much more!
 
 🛑 **W.I.P** Things will change and nothing in these videos should be seen as final and is more akin to a pre-alpha. 🛑
 
+The goal of the Godot Configurator is the same:
 
-
+- Replaces the current configurator.
+- Can us controllers to navigate.
+- Populate it with more features then before and make it easy to expand.
 
 ![type:video](ConfiguratorGodot.mp4)
 
@@ -100,6 +103,17 @@ Yes, we are still working on it and much more!
 
 ---
 
+
+<img src="../submenu-ra.png" width="750">
+
+**In this screenshot:**
+
+This is a prototype sub-menu for RetroArch.
+
+- Where you can have some information about RetroArch.
+- Open RetroArch
+- Quick Settings Menu: That allows you do some things without needing to open the entire RetroArch interface.
+- We are also Experimentinging with button inputs.
 
 
 ## That is all for now

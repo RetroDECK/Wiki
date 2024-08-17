@@ -1,14 +1,16 @@
-#  RetroDECK - Steam Deck: Radial Menu System
+#  RetroDECK - Steam Deck: Full Radial Menu System
 
 ### Is there a quick way to go back to the top of the radial menu system?
 Yes, just press  on the `HKB` trigger buttons: `L4` or `R4` or `Select`
 
 ## Radial Menus
-What follows is a breakdown of the Radial System that you access on the Steam Decks `Left Touchpad`.
+
+What follows is a breakdown of the Full Radial Menu System that you access on the Steam Decks `Left Touchpad` and by pressing the touchpad you activate the selected radial button.
 
 `Radial Button` Shows what the hotkey does. <br>
 `Keyboard Command` Shows what is being sent to the emulator.<br>
-`System Support` Shows what emulators support the command. <br>
+`System Support` Shows what systems support the command. <br>
+`Icon` Shows what icon is used. <br>
 `Comment` Just extra comments. <br>
 
 
@@ -25,16 +27,16 @@ The `Quick Menu` or `Quick Access Menu` Menu is the most populated menu. It feat
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`  `PPSSPP`  |   <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="20"> |   |
-| Open Menu               |   `Ctrl + M`         |  `RetroArch` `Duckstation` `PCSX2`  `Yuzu (Legacy)` `PPSSPP`  |   <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="20">  |       |
-| Swap Screens            |   `Ctrl + Tab`       |  `Citra (Legacy)` `MelonDS`  `Cemu`                     |   <img src="../../wiki_icons/binding_icons/RD-system-switch-user.png" width="20">  |       |
-| Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2` `PPSSPP`                     |   <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="20">  |       |
-| Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`  `PPSSPP`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="20">  |       |
-| Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="20">  |       |
-| Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="20">  |       |
-| Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`  `PPSSPP`        |   <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="20">  |       |
-| Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu (Legacy)`             |             |  |
-| Escape                  |   `ESC`              |        `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`               | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="20">  | Can be used to Quick / Open Menu on certain systems  |
+| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`  `PPSSPP`  |   <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> |   |
+| Open Menu               |   `Ctrl + M`         |  `RetroArch` `Duckstation` `PCSX2`  `Yuzu (Legacy)` `PPSSPP`  |   <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30">  |       |
+| Swap Screens            |   `Ctrl + Tab`       |  `Citra (Legacy)` `MelonDS`  `Cemu`                     |   <img src="../../wiki_icons/binding_icons/RD-system-switch-user.png" width="30">  |       |
+| Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2` `PPSSPP`                     |   <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30">  |       |
+| Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`  `PPSSPP`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30">  |       |
+| Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  |       |
+| Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30">  |       |
+| Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`  `PPSSPP`        |   <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  |       |
+| Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu (Legacy)`             |   <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30">  |       |
+| Escape                  |   `ESC`              |        `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`               | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="30">  | Can be used to Quick / Open Menu on certain systems  |
 
 ## <img src="../../wiki_icons/binding_icons/RD-folder-blue-games.png" width="30"> State Menu
 
@@ -43,12 +45,13 @@ The `State Menu` is the menu where you handle anything to do with saving and loa
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Previous State          |   `Ctrl + J`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`    `PPSSPP`                   |            |
-| Next State              |   `Ctrl + K`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`  `PPSSPP`                     |            |
-| Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`   `PPSSPP`                    |            |
-| Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`     `PPSSPP`                 |            |
-| Undo Load State         |   `Ctrl + 8`         | `Dolphin/Primehack`                    |            |
-| Undo Save State         |   `Ctrl + 9`         |  `Dolphin/Primehack` `Duckstation`                   |            |
+| Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`  `PPSSPP` |<img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  | |
+| Previous State          |   `Ctrl + J`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`    `PPSSPP`   |   <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30"> | |
+| Undo Save State         |   `Ctrl + 9`         |  `Dolphin/Primehack` `Duckstation`      |   <img src="../../wiki_icons/binding_icons/RD-Arrow-34.png" width="30">  |       |
+| Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2` `PPSSPP`  |   <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30">  |   |
+| Next State              |   `Ctrl + K`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`  `PPSSPP` |   <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30">  |   |
+| Undo Load State         |   `Ctrl + 8`         | `Dolphin/Primehack` |   <img src="../../wiki_icons/binding_icons/RD-Arrow-33.png" width="30">  |   |
+
 
 
 ## <img src="../../wiki_icons/binding_icons/RD-supertuxkart.png" width="30"> Speed / Frames Menu
@@ -101,22 +104,22 @@ The `Steam Deck Menu` is where you find Steam Deck specific functions and genera
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Escape                  |   `ESC`              |  `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`                       | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="20">  | Can be used to Quick / Open Menu on certain systems  |
-| Enter                   |   `Enter`            |      `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`                   | <img src="../../wiki_icons/binding_icons/RD-Enter.png" width="20">  |   |
-| Space          |   `Space`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-space.png" width="20">  | |                   |            |
-| Tab          |   `Tab`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-Tab.png" width="20">  | |
-| Shift          |   `Shift`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-shift.png" width="20">  | |
-| Control          |   `Ctrl`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-ctrl.png" width="20">   | |
-| /         |   `/`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-frontslash.png" width="20">   | |
-| Alt          |   `Alt`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-alt.png" width="20">   | |
-| F1          |   `F1`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F1.png" width="20">   |   |
-| F4          |   `F4`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F4.png" width="20">   |   |
-| F5          |   `F5`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F5.png" width="20">   |   |
-| F8          |   `F8`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F8.png" width="20">   |   |
-| F10          |   `F10`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/rd-pc-call.png" width="20">   |  |
+| Escape                  |   `ESC`              |  `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`                       | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="30">  | Can be used to Quick / Open Menu on certain systems  |
+| Enter                   |   `Enter`            |      `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`                   | <img src="../../wiki_icons/binding_icons/RD-Enter.png" width="30">  |   |
+| Space          |   `Space`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-space.png" width="30">  | |                   |            |
+| Tab          |   `Tab`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-Tab.png" width="30">  | |
+| Shift          |   `Shift`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-shift.png" width="30">  | |
+| Control          |   `Ctrl`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-ctrl.png" width="30">   | |
+| /         |   `/`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-frontslash.png" width="30">   | |
+| Alt          |   `Alt`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-alt.png" width="30">   | |
+| F1          |   `F1`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F1.png" width="30">   |   |
+| F4          |   `F4`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F4.png" width="30">   |   |
+| F5          |   `F5`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F5.png" width="30">   |   |
+| F8          |   `F8`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F8.png" width="30">   |   |
+| F10          |   `F10`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/rd-pc-call.png" width="30">   |  |
 | Take Steam Screenshot   |   `none`             |                       |  |   |
 | Show Steam Deck Keyboard|   `none`             |                       |   |   |
-| Alt + F4                |   `Alt + F4`         |                       | <img src="../../wiki_icons/binding_icons/RD-alt-f4.png" width="20">  |   |
+| Alt + F4                |   `Alt + F4`         |                       | <img src="../../wiki_icons/binding_icons/RD-alt-f4.png" width="30">  |   |
 
 
 ## <img src="../../wiki_icons/binding_icons/RD-folder-applications.png" width="30"> Emulator Specific Menu
@@ -219,13 +222,13 @@ The `ScummVM Menu` in here you find general hotkeys for ScummVM games.
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Open         |   `O`             |`ScummVM`            |  <img src="../../wiki_icons/binding_icons/rd-pc-open.png" width="20">   |  |
-| Close   |   `C`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-close.png" width="20">   |  |
-| Fight          |   `F`             |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-fight.png" width="20">   |  |
-| Use   |   `U`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-use.png" width="20">   |  |
-| Pick-Up   |   `P`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-pickup.png" width="20">   |  |
-| Push / Shove   |   `S`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-push.png" width="20">   |  |
-| Pull / Yank   |   `Y`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-pull.png" width="20">   |  |
-| Look-At   |   `L`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-look.png" width="20">   |  |
-| Give   |   `G`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-give.png" width="20">   |  |
-| Move   |   `M`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-move.png" width="20">   |  |
+| Open         |   `O`             |`ScummVM`            |  <img src="../../wiki_icons/binding_icons/rd-pc-open.png" width="30">   |  |
+| Close   |   `C`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-close.png" width="30">   |  |
+| Fight          |   `F`             |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-fight.png" width="30">   |  |
+| Use   |   `U`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-use.png" width="30">   |  |
+| Pick-Up   |   `P`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-pickup.png" width="30">   |  |
+| Push / Shove   |   `S`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-push.png" width="30">   |  |
+| Pull / Yank   |   `Y`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-pull.png" width="30">   |  |
+| Look-At   |   `L`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-look.png" width="30">   |  |
+| Give   |   `G`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-give.png" width="30">   |  |
+| Move   |   `M`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-move.png" width="30">   |  |

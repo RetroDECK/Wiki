@@ -60,13 +60,13 @@ The `Speed / Frames Menu` is where you find anything related to: emulation speed
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Fastforward             |   `Ctrl + +`         | `RetroArch` `Duckstation` `MelonDS` `PCSX2`                       |            |
-| Rewind                  |   `CTRL + -`         |  `RetroArch` `Duckstation`                     |            |
-| Increase Emulation Speed|   `CTRL + 1`         | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation`  `PCSX2`                       |            |
-| Decrease Emulation Speed|   `CTRL + 2`         |`Citra (Legacy)` `Dolphin/Primehack` `Duckstation`  `PCSX2`                        |            |
-| Reset Emulation Speed   |   `CTRL + 3`         | `Duckstation`                      |            |
-| Disable Emulation Speed Limit  |   `CTRL + 0`  |`Dolphin/Primehack`                       |            |
-| Frame limit On/Off     |   `CTRL + Z`          | `PCSX2`  `Yuzu (Legacy)`                       |            |
+| Fastforward             |   `Ctrl + +`         | `RetroArch` `Duckstation` `MelonDS` `PCSX2` |   <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30">  |   |
+| Rewind                  |   `CTRL + -`         |  `RetroArch` `Duckstation` |   <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30">  |   |
+| Increase Emulation Speed|   `CTRL + 1`         | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation`  `PCSX2` |   <img src="../../wiki_icons/binding_icons/RD-zoom-in.png" width="30">  |   |
+| Decrease Emulation Speed|   `CTRL + 2`         |`Citra (Legacy)` `Dolphin/Primehack` `Duckstation`  `PCSX2` |   <img src="../../wiki_icons/binding_icons/RD-zoom-out.png" width="30">  |   |
+| Reset Emulation Speed   |   `CTRL + 3`         | `Duckstation` |   <img src="../../wiki_icons/binding_icons/RD-zoom-original.png" width="30">  |   |
+| Disable Emulation Speed Limit  |   `CTRL + 0`  |`Dolphin/Primehack` |   <img src="../../wiki_icons/binding_icons/RD-battery-missing.png" width="30">  |   |
+| Frame limit On/Off     |   `CTRL + Z`          | `PCSX2`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-battery-full-charging.png" width="30">  |   |
 
 
 ## <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-display.png" width="30"> Display / Graphics Menu
@@ -75,12 +75,12 @@ The `Display / Graphics Menu` is where you find anything related to: up-scaling/
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Fullscreen Toggle                |   `Ctrl + Enter` | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `PPSSPP`  `Yuzu (Legacy)`                      |            |
-| Increase Resolution / Upscale    |   `Ctrl + U`     |  `Dolphin/Primehack` `Duckstation` `PCSX2`    |            |
-| Decrease Resolution / Upscale    |   `Ctrl + Y`     | `Dolphin/Primehack` `Duckstation` `PCSX2`     |            |
-| Change Widescreen / Aspect Ratio |   `Ctrl + W`     |  `Dolphin/Primehack` `Duckstation` `PCSX2`    |            |
-| Swap Screens                     |   `Ctrl + Tab`   |`Citra (Legacy)` `MelonDS`  `Cemu`                        |    |
-| Change Dual Screens Layout       |   `Ctrl + L`     |   `Citra (Legacy)`|                    |        |
+| Increase Resolution / Upscale    |   `Ctrl + U`     |  `Dolphin/Primehack` `Duckstation` `PCSX2` |   <img src="../../wiki_icons/binding_icons/RD-list-add.png" width="30">  |   |
+| Decrease Resolution / Upscale    |   `Ctrl + Y`     | `Dolphin/Primehack` `Duckstation` `PCSX2`  |   <img src="../../wiki_icons/binding_icons/RD-list-remove.png" width="30">  |   |
+| Change Widescreen / Aspect Ratio |   `Ctrl + W`     |  `Dolphin/Primehack` `Duckstation` `PCSX2` |   <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-display.png" width="30">  |   |
+| Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30">  |       |
+| Swap Screens            |   `Ctrl + Tab`       |  `Citra (Legacy)` `MelonDS`  `Cemu`        |   <img src="../../wiki_icons/binding_icons/RD-system-switch-user.png" width="30">  |       |
+| Change Dual Screens Layout       |   `Ctrl + L`     |   `Citra (Legacy)`       |   <img src="../../wiki_icons/binding_icons/RD-preferences-system-windows-actions.png" width="30">  |   |
 
 ## <img src="../../wiki_icons/binding_icons/RD-io.github.antimicrox.antimicrox.png" width="30">  General Menu
 

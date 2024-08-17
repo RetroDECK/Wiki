@@ -27,15 +27,15 @@ The `Quick Menu` or `Quick Access Menu` Menu is the most populated menu. It feat
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``PCSX2 (Standalone)`   `Yuzu (Legacy)`  `PPSSPP (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> |   |
-| Open Menu               |   `Ctrl + M`         |  `RetroArch` `Duckstation (Standalone)``PCSX2 (Standalone)`  `Yuzu (Legacy)` `PPSSPP (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30">  |       |
+| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`  `PPSSPP (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> |   |
+| Open Menu               |   `Ctrl + M`         |  `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)` `PPSSPP (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30">  |       |
 | Swap Screens            |   `Ctrl + Tab`       |  `Citra (Legacy)` `MelonDS (Standalone)` `Cemu (Standalone)`                     |   <img src="../../wiki_icons/binding_icons/RD-system-switch-user.png" width="30">  |       |
-| Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``PCSX2 (Standalone)` `PPSSPP (Standalone)`                     |   <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30">  |       |
-| Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``PCSX2 (Standalone)`  `PPSSPP (Standalone)`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30">  |       |
-| Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``MelonDS (Standalone)``PCSX2 (Standalone)`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  |       |
-| Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``MelonDS (Standalone)``PCSX2 (Standalone)`   `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30">  |       |
-| Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``PCSX2 (Standalone)`  `PPSSPP (Standalone)`        |   <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  |       |
-| Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``MelonDS (Standalone)``PCSX2 (Standalone)`   `Yuzu (Legacy)`             |   <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30">  |       |
+| Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` `PPSSPP (Standalone)`                     |   <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30">  |       |
+| Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`  `PPSSPP (Standalone)`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30">  |       |
+| Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  |       |
+| Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30">  |       |
+| Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`  `PPSSPP (Standalone)`        |   <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  |       |
+| Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`             |   <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30">  |       |
 | Escape                  |   `ESC`              |        `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)`               | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="30">  | Can be used to Quick / Open Menu on certain systems  |
 
 ## <img src="../../wiki_icons/binding_icons/RD-folder-blue-games.png" width="30"> State Menu
@@ -45,11 +45,11 @@ The `State Menu` is the menu where you handle anything to do with saving and loa
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``PCSX2 (Standalone)`  `PPSSPP (Standalone)` |<img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  | |
-| Previous State          |   `Ctrl + J`         |`RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``PCSX2 (Standalone)`    `PPSSPP (Standalone)`   |   <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30"> | |
+| Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`  `PPSSPP (Standalone)` |<img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  | |
+| Previous State          |   `Ctrl + J`         |`RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`    `PPSSPP (Standalone)`   |   <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30"> | |
 | Undo Save State         |   `Ctrl + 9`         |  `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)`     |   <img src="../../wiki_icons/binding_icons/RD-Arrow-34.png" width="30">  |       |
-| Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``PCSX2 (Standalone)` `PPSSPP (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30">  |   |
-| Next State              |   `Ctrl + K`         |`RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``PCSX2 (Standalone)`  `PPSSPP (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30">  |   |
+| Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` `PPSSPP (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30">  |   |
+| Next State              |   `Ctrl + K`         |`RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`  `PPSSPP (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30">  |   |
 | Undo Load State         |   `Ctrl + 8`         | `Dolphin/Primehack (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-Arrow-33.png" width="30">  |   |
 
 
@@ -60,7 +60,7 @@ The `Speed / Frames Menu` is where you find anything related to: emulation speed
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Fastforward             |   `Ctrl + +`         | `RetroArch` `Duckstation (Standalone)``MelonDS (Standalone)``PCSX2 (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30">  |   |
+| Fastforward             |   `Ctrl + +`         | `RetroArch` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30">  |   |
 | Rewind                  |   `CTRL + -`         |  `RetroArch` `Duckstation (Standalone)`|   <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30">  |   |
 | Increase Emulation Speed|   `CTRL + 1`         | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-zoom-in.png" width="30">  |   |
 | Decrease Emulation Speed|   `CTRL + 2`         |`Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-zoom-out.png" width="30">  |   |
@@ -75,10 +75,10 @@ The `Display / Graphics Menu` is where you find anything related to: up-scaling/
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Increase Resolution / Upscale    |   `Ctrl + U`     |  `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``PCSX2 (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-list-add.png" width="30">  |   |
-| Decrease Resolution / Upscale    |   `Ctrl + Y`     | `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``PCSX2 (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-list-remove.png" width="30">  |   |
-| Change Widescreen / Aspect Ratio |   `Ctrl + W`     |  `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``PCSX2 (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-display.png" width="30">  |   |
-| Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``MelonDS (Standalone)``PCSX2 (Standalone)`   `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30">  |       |
+| Increase Resolution / Upscale    |   `Ctrl + U`     |  `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-list-add.png" width="30">  |   |
+| Decrease Resolution / Upscale    |   `Ctrl + Y`     | `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-list-remove.png" width="30">  |   |
+| Change Widescreen / Aspect Ratio |   `Ctrl + W`     |  `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-display.png" width="30">  |   |
+| Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30">  |       |
 | Swap Screens            |   `Ctrl + Tab`       |  `Citra (Legacy)` `MelonDS (Standalone)` `Cemu (Standalone)`        |   <img src="../../wiki_icons/binding_icons/RD-system-switch-user.png" width="30">  |       |
 | Change Dual Screens Layout       |   `Ctrl + L`     |   `Citra (Legacy)`       |   <img src="../../wiki_icons/binding_icons/RD-preferences-system-windows-actions.png" width="30">  |   |
 
@@ -88,13 +88,13 @@ The `General Menu` or `General Emulation Menu` is where you find various global 
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``PCSX2 (Standalone)` `Yuzu (Legacy)`  |   <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> |   |
+| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` `Yuzu (Legacy)`  |   <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> |   |
 | Open Menu               |   `Ctrl + M`         | `RetroArch` `Duckstation (Standalone)``PCSX2 (Standalone)`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30">  |       |
-| Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``PPSSPP (Standalone)`  `MelonDS (Standalone)``PCSX2 (Standalone)`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30">  |       |
-| Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``MelonDS (Standalone)``PCSX2 (Standalone)`  `Yuzu (Legacy)`  |   <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  |       |
+| Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PPSSPP (Standalone)`  `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30">  |       |
+| Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`  |   <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  |       |
 | Change Disc / Next Disc |   `CTRL + D`         | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-application-x-iso.png" width="30">  |       |  |
 | Cheats On/Off           |   `CTRL + C`         | `RetroArch` `Duckstation (Standalone)`     |   <img src="../../wiki_icons/binding_icons/RD-utilities-terminal.png" width="30">  |       |
-| Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)``MelonDS (Standalone)``PCSX2 (Standalone)`  `Yuzu (Legacy)`     |   <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30">  |       |
+| Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`     |   <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30">  |       |
 | Turbo On/Off            |   `Ctrl + T`         | `Duckstation (Standalone)`     |   <img src="../../wiki_icons/binding_icons/RD-pcsxr-icon.png" width="30">  |       |
 | Video Recording On/Off  |   `Ctrl + V`         |`RetroArch` `Dolphin/Primehack (Standalone)`   `PCSX2 (Standalone)`  `PPSSPP (Standalone)`     |   <img src="../../wiki_icons/binding_icons/RD-video-x-generic.png" width="30">  |       |
 

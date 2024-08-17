@@ -30,19 +30,19 @@ For the Steam Controller - Gordon the `Hotkey Button` is both `SELECT` and `L4`,
 
 | Function                 | Button / Combination|  Command      | System Support     |    Comment |
 | :---                    | :---:               | :---:                 |       :---:          |  :---:     |
-| Pause / Resume          |   `HKB + A`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |
-| Take Screenshot         |   `HKB + B`          |   `CTRL + X`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`           |            |
-| Fullscreen Toggle      |   `HKB + X`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |
-| Open Menu               |  `HKB + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu (Legacy)`                        |
-| Quit Emulator           |  `HKB + Start`       |   `CTRL + Q`          |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`                                   |            | |
-| Previous State Slot     |  `HKB + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
-| Next State Slot         |  `HKB + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|
-| Increase Emulation Speed     |  `HKB + D-Pad Up`  |   `CTRL + 1`          | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
-| Decrease Emulation Speed         |  `HKB + D-Pad Down` |   `CTRL + 2`          | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`|                       |            |
-| Load State              |  `HKB + L1`          |   `CTRL + A`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`                          |            |
-| Save State              |  `HKB + R1`          |   `CTRL + S`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`                        |            |
-| Rewind                  |  `HKB + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation`                     |            |
-| Fast forward            |  `HKB + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                  |            |
+| Pause / Resume          |   `HKB + A`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`             |            |
+| Take Screenshot         |   `HKB + B`          |   `CTRL + X`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`           |            |
+| Fullscreen Toggle      |   `HKB + X`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`             |            |
+| Open Menu               |  `HKB + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`                        |
+| Quit Emulator           |  `HKB + Start`       |   `CTRL + Q`          |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`                                   |            | |
+| Previous State Slot     |  `HKB + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2`|                    |            |
+| Next State Slot         |  `HKB + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2`|
+| Increase Emulation Speed     |  `HKB + D-Pad Up`  |   `CTRL + 1`          | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2`|                    |            |
+| Decrease Emulation Speed         |  `HKB + D-Pad Down` |   `CTRL + 2`          | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2`|                       |            |
+| Load State              |  `HKB + L1`          |   `CTRL + A`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`                          |            |
+| Save State              |  `HKB + R1`          |   `CTRL + S`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`                        |            |
+| Rewind                  |  `HKB + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation (Standalone)`                     |            |
+| Fast forward            |  `HKB + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`                                  |            |
 | Simple Radial Menu      |  `HKB + Left Joystick`    |                                                                                                   |            |       Opens the Radial Menu  |
 
 ## Additional Hotkeys
@@ -94,5 +94,5 @@ This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 
 | Function                 | Button / Combination     | System Support     |    Comment |
 | :---                    | :---:                    |       :---:          |  :---:     |
-| Insert Credit           |  `HKB`                |     `RetroArch`  `MAME` `FBNeo`     |            |
+| Insert Credit           |  `HKB`                |     `RetroArch`  `MAME (Standalone)` `FBNeo`     |            |
 

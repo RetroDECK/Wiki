@@ -36,19 +36,19 @@ What follows is a list of hotkeys:
 
 | Function                 | Button / Combination|  Command      | System Support     |    Comment |
 | :---                    | :---:               | :---:                 |       :---:          |  :---:     |
-| Pause / Resume          |   `SELECT + Cross`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |
-| Take Screenshot         |   `SELECT + Circle`          |   `CTRL + X`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`           |            |
-| Fullscreen Toggle      |   `SELECT + Square`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |
-| Open Menu               |  `SELECT + Triangle`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu (Legacy)`                        |
-| Quit Emulator           |  `SELECT + Start`       |   `CTRL + Q`          |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`                                   |            | |
-| Previous State Slot     |  `SELECT + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
-| Next State Slot         |  `SELECT + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|
-| Increase Emulation Speed     |  `SELECT + D-Pad Up`  |   `CTRL + 1`          | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
-| Decrease Emulation Speed         |  `SELECT + D-Pad Down` |   `CTRL + 2`          | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`|                       |            |
-| Load State              |  `SELECT + L1`          |   `CTRL + A`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`                          |            |
-| Save State              |  `SELECT + R1`          |   `CTRL + S`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`                        |            |
-| Rewind                  |  `SELECT + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation`                     |            |
-| Fast forward            |  `SELECT + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                  |            |
+| Pause / Resume          |   `SELECT + Cross`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)`  `PCSX2 (Standalone)`   `Yuzu (Legacy)`             |            |
+| Take Screenshot         |   `SELECT + Circle`          |   `CTRL + X`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`    `Yuzu (Legacy)`           |            |
+| Fullscreen Toggle      |   `SELECT + Square`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)`  `PCSX2 (Standalone)`   `Yuzu (Legacy)`             |            |
+| Open Menu               |  `SELECT + Triangle`         |   `CTRL + M`          | `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`                        |
+| Quit Emulator           |  `SELECT + Start`       |   `CTRL + Q`          |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`    `Yuzu (Legacy)`                                   |            | |
+| Previous State Slot     |  `SELECT + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` |                    |            |
+| Next State Slot         |  `SELECT + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` |
+| Increase Emulation Speed     |  `SELECT + D-Pad Up`  |   `CTRL + 1`          | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` |                    |            |
+| Decrease Emulation Speed         |  `SELECT + D-Pad Down` |   `CTRL + 2`          | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` |                       |            |
+| Load State              |  `SELECT + L1`          |   `CTRL + A`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`                           |            |
+| Save State              |  `SELECT + R1`          |   `CTRL + S`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`                         |            |
+| Rewind                  |  `SELECT + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation (Standalone)`                     |            |
+| Fast forward            |  `SELECT + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation (Standalone)` `MelonDS (Standalone)`  `PCSX2 (Standalone)`                                   |            |
 | Simple Radial Menu      |  `SELECT + Left Joystick`    |                                                                                                   |            |       Opens the Radial Menu  |
 
 
@@ -88,6 +88,6 @@ This hotkey work for `RetroArch`, `MAME`, `FBNEO` and other arcade systems.
 
 | Function                 | Button / Combination     | System Support     |    Comment |
 | :---                    | :---:                    |       :---:          |  :---:     |
-| Insert Credit           |  `SELECT`                |     `RetroArch`  `MAME` `FBNeo`     |            |
+| Insert Credit           |  `SELECT`                |     `RetroArch`  `MAME (Standalone)` `FBNeo`     |            |
 
 

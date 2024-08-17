@@ -27,19 +27,19 @@ What follows is a list of hotkeys:
 
 | Function                 | Button / Combination|  Command      | System Support     |    Comment |
 | :---                    | :---:               | :---:                 |       :---:          |  :---:     |
-| Pause / Resume          |   `MINUS (SELECT)  + B`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |
-| Take Screenshot         |   `MINUS (SELECT)  + A`          |   `CTRL + X`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`           |            |
-| Fullscreen Toggle      |   `MINUS (SELECT)  + Y`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |
-| Open Menu               |  `MINUS (SELECT)  + X`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu (Legacy)`                        |
-| Quit Emulator           |  `MINUS (SELECT)  + Start`       |   `CTRL + Q`          |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`                                   |            | |
-| Previous State Slot     |  `MINUS (SELECT)  + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
-| Next State Slot         |  `MINUS (SELECT)  + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`|
-| Increase Emulation Speed     |  `MINUS (SELECT)  + D-Pad Up`  |   `CTRL + 1`          | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
-| Decrease Emulation Speed         |  `MINUS (SELECT)  + D-Pad Down` |   `CTRL + 2`          | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`|                       |            |
-| Load State              |  `MINUS (SELECT)  + L1`          |   `CTRL + A`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`                          |            |
-| Save State              |  `MINUS (SELECT)  + R1`          |   `CTRL + S`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`                        |            |
-| Rewind                  |  `MINUS (SELECT)  + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation`                     |            |
-| Fast forward            |  `MINUS (SELECT)  + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`                                  |            |
+| Pause / Resume          |   `MINUS (SELECT)  + B`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)`  `MelonDS (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`             |            |
+| Take Screenshot         |   `MINUS (SELECT)  + A`          |   `CTRL + X`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)`  `PCSX2 (Standalone)`    `Yuzu (Legacy)`           |            |
+| Fullscreen Toggle      |   `MINUS (SELECT)  + Y`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)`  `MelonDS (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`             |            |
+| Open Menu               |  `MINUS (SELECT)  + X`         |   `CTRL + M`          | `RetroArch` `Duckstation (Standalone)`  `PCSX2 (Standalone)`   `Yuzu (Legacy)`                        |
+| Quit Emulator           |  `MINUS (SELECT)  + Start`       |   `CTRL + Q`          |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)`  `PCSX2 (Standalone)`    `Yuzu (Legacy)`                                   |            | |
+| Previous State Slot     |  `MINUS (SELECT)  + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)`  `PCSX2 (Standalone)` |                    |            |
+| Next State Slot         |  `MINUS (SELECT)  + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)`  `PCSX2 (Standalone)` |
+| Increase Emulation Speed     |  `MINUS (SELECT)  + D-Pad Up`  |   `CTRL + 1`          | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)`  `PCSX2 (Standalone)` |                    |            |
+| Decrease Emulation Speed         |  `MINUS (SELECT)  + D-Pad Down` |   `CTRL + 2`          | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)`  `PCSX2 (Standalone)` |                       |            |
+| Load State              |  `MINUS (SELECT)  + L1`          |   `CTRL + A`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)`  `PCSX2 (Standalone)`                           |            |
+| Save State              |  `MINUS (SELECT)  + R1`          |   `CTRL + S`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)`  `PCSX2 (Standalone)`                         |            |
+| Rewind                  |  `MINUS (SELECT)  + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation (Standalone)`                      |            |
+| Fast forward            |  `MINUS (SELECT)  + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation (Standalone)`  `MelonDS (Standalone)` `PCSX2 (Standalone)`                                   |            |
 | Simple Radial Menu      |  `MINUS (SELECT)  + Left Joystick`    |                                                                                                   |            |       Opens the Radial Menu  |
 
 
@@ -69,4 +69,4 @@ This hotkey work for `RetroArch`, `MAME`, `FBNEO` and other arcade systems.
 
 | Function                 | Button / Combination     | System Support     |    Comment |
 | :---                    | :---:                    |       :---:          |  :---:     |
-| Insert Credit           |  `MINUS (SELECT)`                |     `RetroArch`  `MAME` `FBNeo`     |            |
+| Insert Credit           |  `MINUS (SELECT)`                |     `RetroArch`  `MAME (Standalone)` `FBNeo`     |            |

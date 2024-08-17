@@ -6,7 +6,7 @@ On controlleres it is activated by holding `SELECT` and by moving the `Left Joys
 
 On the Steam Deck it exists on the `Left Touchpad` as part of the SIMPLE Layout.
 
-Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | RetroDECK Logo          |   `Right Click`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-icon_circle_2_180x180.png" width="20">  |  |
 | Escape          |   `Escape`          |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`   |<img src="../../../wiki_icons/binding_icons/RD-ESC.png" width="20">    |  |

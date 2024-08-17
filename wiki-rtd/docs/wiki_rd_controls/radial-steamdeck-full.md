@@ -23,8 +23,6 @@ The `Main Menu` is the top menu and gives you access to all the menus below.
 The `Quick Menu` or `Quick Access Menu` Menu is the most populated menu. It features "best of" options from other menus.
 
 
-
-
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`  `PPSSPP (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> |   |

@@ -137,7 +137,7 @@ The `Switch Menu` here you find hotkeys related to `Yuzu (Legacy)` and soon `Ryu
 | Change GPU Accuracy     |   `Alt + G`          |   `Yuzu (Legacy)`     |   <img src="../../wiki_icons/binding_icons/RD-emblem-new.png" width="30">  |       |
 | Load / Remove Amiibo    |   `Alt + M`          |   `Yuzu (Legacy)`     |   <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-accessibility.png" width="30">  |       |
 | Docked / Undocked Mode  |   `Alt + D`          |   `Yuzu (Legacy)`     |   <img src="../../wiki_icons/binding_icons/RD-emblem-unlocked.png" width="30">  |       |
-| Open Menu Ryujinx - F4  |   `F4`          |   `Ryujinx (Standalone)`    |   <img src="../../wiki_icons/binding_icons/D-F4.png" width="30">  |       |
+| Open Menu Ryujinx - F4  |   `F4`          |   `Ryujinx (Standalone)`    |   <img src="../../wiki_icons/binding_icons/RD-F4.png" width="30">  |       |
 
 ### <img src="../../wiki_icons/binding_icons/RD-mame.png" width="30">  MAME Menu
 

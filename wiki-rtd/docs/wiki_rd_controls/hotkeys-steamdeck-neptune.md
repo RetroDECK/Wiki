@@ -55,21 +55,21 @@ What follows is a list of hotkeys:
 
 | Function                 | Button / Combination| Command      | System Support     |    Comment |
 | :---                    | :---:               | :---:                 |       :---:          |  :---:     |
-| Pause / Resume          |   `HKB + A`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |
-| Take Screenshot         |   `HKB + B`          |   `CTRL + X`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`           |            |
-| Fullscreen Toggle      |   `HKB + X`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |
-| Open Menu               |  `HKB + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation` `PCSX2`  `Yuzu (Legacy)`   `PPSSPP`                             |
-| Quit Emulator           |  `HKB + Start`       |   `CTRL + Q`          |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`  `PPSSPP`                                         |            | |
-| Previous State Slot     |  `HKB + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2` `PPSSPP`       |                    |            |
-| Next State Slot         |  `HKB + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2` `PPSSPP`       |
-| Increase Emulation Speed     |  `HKB + D-Pad Up`  |   `CTRL + 1`          | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`|                    |            |
-| Decrease Emulation Speed         |  `HKB + D-Pad Down` |   `CTRL + 2`          | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`|                       |            |
-| Load State              |  `HKB + L1`          |   `CTRL + A`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`     `PPSSPP`                             |            |
-| Save State              |  `HKB + R1`          |   `CTRL + S`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`     `PPSSPP`                           |            |
-| Rewind                  |  `HKB + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation`                     |            |
-| Fast forward            |  `HKB + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation` `MelonDS` `PCSX2`    `PPSSPP`                                      |            |
-| Swap Screens         |  `HKB + L3`          |   `CTRL + TAB`        |     `Citra (Legacy)` `MelonDS`  `Cemu`           |            |
-| Escape                  |  `HKB + R3`          |   `ESC`      |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`     |            |
+| Pause / Resume          |   `HKB + A`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`             |            |
+| Take Screenshot         |   `HKB + B`          |   `CTRL + X`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`           |            |
+| Fullscreen Toggle      |   `HKB + X`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`             |            |
+| Open Menu               |  `HKB + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`   `PPSSPP`                             |
+| Quit Emulator           |  `HKB + Start`       |   `CTRL + Q`          |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`  `PPSSPP`                                         |            | |
+| Previous State Slot     |  `HKB + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)` `PPSSPP`       |                    |            |
+| Next State Slot         |  `HKB + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)` `PPSSPP`       |
+| Increase Emulation Speed     |  `HKB + D-Pad Up`  |   `CTRL + 1`          | `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)`|                    |            |
+| Decrease Emulation Speed         |  `HKB + D-Pad Down` |   `CTRL + 2`          | `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)`|                       |            |
+| Load State              |  `HKB + L1`          |   `CTRL + A`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)`     `PPSSPP`                             |            |
+| Save State              |  `HKB + R1`          |   `CTRL + S`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)`     `PPSSPP`                           |            |
+| Rewind                  |  `HKB + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation (Standalone)`                     |            |
+| Fast forward            |  `HKB + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`    `PPSSPP`                                      |            |
+| Swap Screens         |  `HKB + L3`          |   `CTRL + TAB`        |     `Citra (Legacy)` `MelonDS (Standalone)`  `Cemu (Standalone)`           |            |
+| Escape                  |  `HKB + R3`          |   `ESC`      |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)`     |            |
 
 ## Additional Hotkeys
 
@@ -115,5 +115,5 @@ This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 
 | Function                 | Button / Combination     | System Support     |    Comment |
 | :---                    | :---:                    |       :---:          |  :---:     |
-| Insert Credit           |  `Select`                |     `RetroArch`  `MAME` `FBNeo`    |            |
+| Insert Credit           |  `Select`                |     `RetroArch`  `MAME (Standalone)` `FBNeo`    |            |
 

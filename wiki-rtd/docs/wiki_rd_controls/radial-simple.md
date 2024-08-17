@@ -20,7 +20,7 @@ What follows is a breakdown of the Radial System that you access on:
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | RetroDECK Logo          |   `Right Click`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-icon_circle_2_180x180.png" width="30">  |  |
-| Escape          |   `Escape`          |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`   |<img src="../../wiki_icons/binding_icons/RD-ESC.png" width="30">    |  |
+| Escape          |   `Escape`          |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)`   |<img src="../../wiki_icons/binding_icons/RD-ESC.png" width="30">    |  |
 | Enter          |   `Enter`          |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`   |  <img src="../../wiki_icons/binding_icons/RD-Enter.png" width="30">   | |
 | Space          |   `Space`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-space.png" width="30">  | |
 | Tab          |   `Tab`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-Tab.png" width="30">  | |
@@ -32,11 +32,11 @@ What follows is a breakdown of the Radial System that you access on:
 | F4          |   `F4`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F4.png" width="30">   |   |
 | F8          |   `F8`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F8.png" width="30">   |   |
 | F10          |   `F10`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F10.png" width="30">   |  |
-| Restart / Reset      |   `CTRL + R`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`          |  <img src="../../wiki_icons/binding_icons/RD-system-reboot.png" width="30">        |   |
-| Wii Sync Button          |   `ALT + W`          |  `Dolphin/Primehack`  | <img src="../../wiki_icons/binding_icons/RD-notification-network-wireless.png" width="30">    |  |
-| Wiimote Upright          |   `ALT + Z`          |  `Dolphin/Primehack`  | <img src="../../wiki_icons/binding_icons/RD-wiimote-up.png" width="30">    |  |
-| Wiimote Sideways          |   `ALT + X`          |  `Dolphin/Primehack`  | <img src="../../wiki_icons/binding_icons/RD-wiimote-side.png" width="30">    |  |
-| Swap - Dual Screens          |   `CTRL + TAB`          |  `RetroArch` `Citra (Legacy)` `MelonDS` `Cemu`| <img src="../../wiki_icons/binding_icons/RD-system-switch-user.png" width="30">    |  |
+| Restart / Reset      |   `CTRL + R`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`          |  <img src="../../wiki_icons/binding_icons/RD-system-reboot.png" width="30">        |   |
+| Wii Sync Button          |   `ALT + W`          |  `Dolphin/Primehack (Standalone)`  | <img src="../../wiki_icons/binding_icons/RD-notification-network-wireless.png" width="30">    |  |
+| Wiimote Upright          |   `ALT + Z`          |  `Dolphin/Primehack (Standalone)`  | <img src="../../wiki_icons/binding_icons/RD-wiimote-up.png" width="30">    |  |
+| Wiimote Sideways          |   `ALT + X`          |  `Dolphin/Primehack (Standalone)`  | <img src="../../wiki_icons/binding_icons/RD-wiimote-side.png" width="30">    |  |
+| Swap - Dual Screens          |   `CTRL + TAB`          |  `RetroArch` `Citra (Legacy)` `MelonDS (Standalone)` `Cemu (Standalone)`| <img src="../../wiki_icons/binding_icons/RD-system-switch-user.png" width="30">    |  |
 | Change - Dual Screen Layout          |   `CTRL + L`          |  `Citra (Legacy)` | <img src="../../wiki_icons/binding_icons/RD-preferences-system-windows-actions.png" width="30">    |  |
-| Widescreen / Aspect Ratio        |   `CTRL + W`          |  `Dolphin/Primehack` `Duckstation` `PCSX2`	 | <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-display.png" width="30">    |  |
-| Change Disc / Next Disc        |   `CTRL + D`          |  `RetroArch` `Dolphin/Primehack` `Duckstation`| <img src="../../wiki_icons/binding_icons/RD-application-x-iso.png" width="30">    |   |
+| Widescreen / Aspect Ratio        |   `CTRL + W`          |  `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)`	 | <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-display.png" width="30">    |  |
+| Change Disc / Next Disc        |   `CTRL + D`          |  `RetroArch` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)`| <img src="../../wiki_icons/binding_icons/RD-application-x-iso.png" width="30">    |   |

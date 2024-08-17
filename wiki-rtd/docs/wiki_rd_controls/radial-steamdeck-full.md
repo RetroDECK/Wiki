@@ -214,7 +214,7 @@ The `GZDoom Menu` in here you find cheat hotkeys for DOOM.
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Give all Items          |   `IDFA`             |`GZDOOM`            |   <img src="../../wiki_icons/binding_icons/RD-freedoom-pack.png" width="30">  |       |
-| Give all Items + Keys   |   `IDQFA`            |`GZDOOM`            |   <img src="../../wiki_icons/binding_icons/RD-freedoom-pack2.png" width="30">  |       |
+| Give all Items + Keys   |   `IDKFA`            |`GZDOOM`            |   <img src="../../wiki_icons/binding_icons/RD-freedoom-pack2.png" width="30">  |       |
 
 ### <img src="../../wiki_icons/binding_icons/rd-scummvm.png" width="30"> ScummVM Menu
 

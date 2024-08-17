@@ -24,11 +24,11 @@ For the Steam Controller - Gordon the `Hotkey Button` is both `SELECT` and `L4`,
 `Function` Shows what the hotkey does. <br>
 `Button / Combination` Shows the input you need to make to trigger the command. <br>
 `Command` Shows what is being sent to the emulator. <br>
-`Emulator Support` Shows what emulators support the command. <br>
+`System Support` Shows what emulators support the command. <br>
 `Comment` Just extra comments. <br>
 
 
-| Function                 | Button / Combination|  Command      | Emulator Support     |    Comment |
+| Function                 | Button / Combination|  Command      | System Support     |    Comment |
 | :---                    | :---:               | :---:                 |       :---:          |  :---:     |
 | Pause / Resume          |   `HKB + A`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |
 | Take Screenshot         |   `HKB + B`          |   `CTRL + X`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`           |            |
@@ -84,7 +84,7 @@ This function is useful for games that the primary input is a mouse as you don't
 
 These hotkeys also work for RetroArch and are built in.
 
-| Function                 | Button / Combination     | Emulator Support     |    Comment |
+| Function                 | Button / Combination     | System Support     |    Comment |
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Open Menu               |  `L3 + R3`               |      `RetroArch`     |            |
 
@@ -92,7 +92,7 @@ These hotkeys also work for RetroArch and are built in.
 
 This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 
-| Function                 | Button / Combination     | Emulator Support     |    Comment |
+| Function                 | Button / Combination     | System Support     |    Comment |
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Insert Credit           |  `HKB`                |     `RetroArch`  `MAME` `FBNeo`     |            |
 

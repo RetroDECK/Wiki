@@ -8,7 +8,7 @@ What follows is a breakdown of the Radial System that you access on the Steam De
 
 `Radial Button` Shows what the hotkey does. <br>
 `Keyboard Command` Shows what is being sent to the emulator.<br>
-`Emulator Support` Shows what emulators support the command. <br>
+`System Support` Shows what emulators support the command. <br>
 `Comment` Just extra comments. <br>
 
 
@@ -23,7 +23,7 @@ The `Quick Menu` or `Quick Access Menu` Menu is the most populated menu. It feat
 
 
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`  `PPSSPP`  |   <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="20"> |   |
 | Open Menu               |   `Ctrl + M`         |  `RetroArch` `Duckstation` `PCSX2`  `Yuzu (Legacy)` `PPSSPP`  |   <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="20">  |       |
@@ -41,7 +41,7 @@ The `Quick Menu` or `Quick Access Menu` Menu is the most populated menu. It feat
 The `State Menu` is the menu where you handle anything to do with saving and loading states.
 
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Previous State          |   `Ctrl + J`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`    `PPSSPP`                   |            |
 | Next State              |   `Ctrl + K`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`  `PPSSPP`                     |            |
@@ -55,7 +55,7 @@ The `State Menu` is the menu where you handle anything to do with saving and loa
 
 The `Speed / Frames Menu` is where you find anything related to: emulation speed, frame limits, fast forwarding and rewinding.
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Fastforward             |   `Ctrl + +`         | `RetroArch` `Duckstation` `MelonDS` `PCSX2`                       |            |
 | Rewind                  |   `CTRL + -`         |  `RetroArch` `Duckstation`                     |            |
@@ -70,7 +70,7 @@ The `Speed / Frames Menu` is where you find anything related to: emulation speed
 
 The `Display / Graphics Menu` is where you find anything related to: up-scaling/resolution scaling, widescreen or change aspect ratio, fullscreen, swap or change dual screen layout.
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Fullscreen Toggle                |   `Ctrl + Enter` | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `PPSSPP`  `Yuzu (Legacy)`                      |            |
 | Increase Resolution / Upscale    |   `Ctrl + U`     |  `Dolphin/Primehack` `Duckstation` `PCSX2`    |            |
@@ -83,7 +83,7 @@ The `Display / Graphics Menu` is where you find anything related to: up-scaling/
 
 The `General Menu` or `General Emulation Menu` is where you find various global generic emulation hotkeys: Quit/Exit, Restart, Take Screenshot, Change CD, Pause, Turbo Input, Cheats and Video Recording.
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2` `Yuzu (Legacy)`                      |            |
 | Open Menu               |   `Ctrl + M`         | `RetroArch` `Duckstation` `PCSX2`  `Yuzu (Legacy)`                         |            |
@@ -99,7 +99,7 @@ The `General Menu` or `General Emulation Menu` is where you find various global 
 
 The `Steam Deck Menu` is where you find Steam Deck specific functions and general PC hotkeys.
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Escape                  |   `ESC`              |  `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`                       | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="20">  | Can be used to Quick / Open Menu on certain systems  |
 | Enter                   |   `Enter`            |      `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`                   | <img src="../../wiki_icons/binding_icons/RD-Enter.png" width="20">  |   |
@@ -129,7 +129,7 @@ The `Switch Menu` here you find hotkeys related to Switch emulation: Change GPU 
 
 **Note:** Ryujinx is working on better hotkeys and no support yet.
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Change GPU Accuracy     |   `Alt + G`          |   `Yuzu (Legacy)`     |         |
 | Load / Remove Amiibo    |   `Alt + M`          |   `Yuzu (Legacy)`     |           |
@@ -139,7 +139,7 @@ The `Switch Menu` here you find hotkeys related to Switch emulation: Change GPU 
 
 The `MAME Menu` here find hotkeys related to the MAME (Standalone) emulator.
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Service Mode            |   `Alt + S + 0`         |   `MAME`              |            |
 | Service Button 1        |   `Alt + S + 1`        |   `MAME`              |             |
@@ -157,7 +157,7 @@ The `MAME Menu` here find hotkeys related to the MAME (Standalone) emulator.
 The `RetroArch Menu` in here you find hotkeys related to the RetroArch emulator.
 
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Next Cheat              |   `Ctrl + G`         | `RetroArch`                      |            |
 | Previous Cheat          |   `Ctrl + F`         | `RetroArch`                      |            |
@@ -170,7 +170,7 @@ The `RetroArch Menu` in here you find hotkeys related to the RetroArch emulator.
 The `Gamecube / Wii Menu` in here you find hotkeys related to the Dolphin standalone emulator.
 
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Golf Mode On/Off        |   `Alt + H`          |  `Dolphin/Primehack`                     |            |
 | Freelook Mode On/Off    |   `Alt + F`          |`Dolphin/Primehack`                       |            |
@@ -188,7 +188,7 @@ The `Gamecube / Wii Menu` in here you find hotkeys related to the Dolphin standa
 The `NDS Menu` in here you find hotkeys related to the MelonDS standalone emulator: Send Close/Open Lid, Send Play Microphone and Sunlight + / -.
 
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Sunlight +              |   `Alt + +`          |`MelonDS`                      |            |
 | Sunlight -              |   `Alt + -`          | `MelonDS`                     |            |
@@ -199,7 +199,7 @@ The `NDS Menu` in here you find hotkeys related to the MelonDS standalone emulat
 
 The `3DS Menu` in here you find hotkeys related to the Citra (Legacy Standalone) and Citra-core.
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Load Amiibo             |   `Alt + M`          |`Citra (Legacy)`               |            |
 | Remove Amiibo           |   `Alt + N`          |`Citra (Legacy)`               |            |
@@ -208,7 +208,7 @@ The `3DS Menu` in here you find hotkeys related to the Citra (Legacy Standalone)
 
 The `GZDoom Menu` in here you find cheat hotkeys for DOOM.
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Give all Items          |   `IDFA`             |`GZDOOM`            |            |
 | Give all Items + Keys   |   `IDQFA`            |`GZDOOM`            |            |
@@ -217,7 +217,7 @@ The `GZDoom Menu` in here you find cheat hotkeys for DOOM.
 
 The `ScummVM Menu` in here you find general hotkeys for ScummVM games.
 
-| Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
+| Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Open         |   `O`             |`ScummVM`            |  <img src="../../wiki_icons/binding_icons/rd-pc-open.png" width="20">   |  |
 | Close   |   `C`            |`ScummVM`           |  <img src="../../wiki_icons/binding_icons/rd-pc-close.png" width="20">   |  |

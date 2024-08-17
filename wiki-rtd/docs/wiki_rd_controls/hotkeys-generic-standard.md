@@ -21,11 +21,11 @@ What follows is a list of hotkeys:
 `Function` Shows what the hotkey does. <br>
 `Button / Combination` Shows the input you need to make to trigger the command. <br>
 `Command` Shows what is being sent to the emulator. <br>
-`Emulator Support` Shows what emulators support the command. <br>
+`System Support` Shows what emulators support the command. <br>
 `Comment` Just extra comments. <br>
 
 
-| Function                 | Button / Combination|  Command      | Emulator Support     |    Comment |
+| Function                 | Button / Combination|  Command      | System Support     |    Comment |
 | :---                    | :---:               | :---:                 |       :---:          |  :---:     |
 | Pause / Resume      |   `SELECT + A`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`    |            |
 | Fullscreen Toggle      |   `SELECT + X`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`             |            |   |
@@ -57,7 +57,7 @@ By holding `SELECT` and moving the `Right Joystick` you can use it as a mouse fo
 
 These hotkeys also work for RetroArch and are built in.
 
-| Function                 | Button / Combination     | Emulator Support     |    Comment |
+| Function                 | Button / Combination     | System Support     |    Comment |
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Open Menu               |  `L3 + R3`               |      `RetroArch`     |            |
 
@@ -65,7 +65,7 @@ These hotkeys also work for RetroArch and are built in.
 
 This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 
-| Function                 | Button / Combination     | Emulator Support     |    Comment |
+| Function                 | Button / Combination     | System Support     |    Comment |
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Insert Credit           |  `SELECT`                |     `RetroArch`  `MAME` `FBNeo`     |            |
 

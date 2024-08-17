@@ -52,6 +52,18 @@ GitHub is RetroDECK's main issue tracker where development and known issues are 
 What follows is a list of known issues.
 For a list of reported bugs please check here on github: [RetroDECK issues](https://github.com/XargonWan/RetroDECK/issues?q=is%3Aissue+is%3Aopen+label%3A%22Bug+%F0%9F%95%B7%EF%B8%8F%22)
 
+### KDE Discover
+
+**This is a none RetroDECK Issue**
+
+KDE Discover can sometimes show the wrong version when updating Flatpak applications in it's interface and this can be confusing.
+
+This is caused by a cashing error in Discover that displays old data instead of the latest updates information.
+
+It usually fixes itself after awhile or if you force a cache update by going to `Discover` -> `Settings` -> and uncheck and check Flathub again.
+
+Discover will always download the latest version no matter if the information is wrong or not, there is no harm updating and it will not be downgraded (unless someone has posted a downgrade and pulled an update away).
+
 ### PPSSPP
 
 Retroachievements you can login / logout / enable hardcore mode normally from the emulators interface. It is right now not configurable in the Configurator (as it works a bit differently than the other emulators), we hope to have a solution for it later.

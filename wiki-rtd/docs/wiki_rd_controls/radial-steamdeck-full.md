@@ -22,16 +22,16 @@ The `Quick Menu` or `Quick Access Menu` Menu is the most populated menu. It feat
 
 | Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`  `PPSSPP`  |   <img src="../../../wiki_icons/binding_icons/RD-process-stop.png" width="20"> |   |
-| Open Menu               |   `Ctrl + M`         |  `RetroArch` `Duckstation` `PCSX2`  `Yuzu (Legacy)` `PPSSPP`  |   <img src="../../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="20">  |       |
-| Swap Screens            |   `Ctrl + Tab`       |  `Citra (Legacy)` `MelonDS`  `Cemu`                     |   <img src="../../../wiki_icons/binding_icons/RD-system-switch-user.png" width="20">  |       |
-| Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`  `PPSSPP`  `Yuzu (Legacy)` |   <img src="../../../wiki_icons/binding_icons/RD-camera-photo.png" width="20">  |       |
+| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`   `Yuzu (Legacy)`  `PPSSPP`  |   <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="20"> |   |
+| Open Menu               |   `Ctrl + M`         |  `RetroArch` `Duckstation` `PCSX2`  `Yuzu (Legacy)` `PPSSPP`  |   <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="20">  |       |
+| Swap Screens            |   `Ctrl + Tab`       |  `Citra (Legacy)` `MelonDS`  `Cemu`                     |   <img src="../../wiki_icons/binding_icons/RD-system-switch-user.png" width="20">  |       |
+| Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `PCSX2`  `PPSSPP`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="20">  |       |
 | Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2` `PPSSPP`                     |            |   |
 | Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack` `Duckstation` `PCSX2`  `PPSSPP`                   |            |   |
 | Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu (Legacy)`             |             |  |
 | Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`   `Yuzu (Legacy)`                      |            |   |
 | Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack` `Duckstation` `MelonDS` `PCSX2`  `Yuzu (Legacy)`                                   |            |  |
-| Escape                  |   `ESC`              |        `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`               | <img src="../../../wiki_icons/binding_icons/RD-ESC.png" width="20">  | Can be used to Quick / Open Menu on certain systems  |
+| Escape                  |   `ESC`              |        `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`               | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="20">  | Can be used to Quick / Open Menu on certain systems  |
 
 ## State Menu
 
@@ -98,22 +98,22 @@ The `Steam Deck Menu` is where you find Steam Deck specific functions and genera
 
 | Radial Button |	Keyboard Command|  Emulator Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Escape                  |   `ESC`              |  `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`                       | <img src="../../../wiki_icons/binding_icons/RD-ESC.png" width="20">  | Can be used to Quick / Open Menu on certain systems  |
-| Enter                   |   `Enter`            |      `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`                   | <img src="../../../wiki_icons/binding_icons/RD-Enter.png" width="20">  |   |
-| Space          |   `Space`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-space.png" width="20">  | |                   |            |
-| Tab          |   `Tab`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-Tab.png" width="20">  | |
-| Shift          |   `Shift`          |   `PC-Systems`  | <img src="../../../wiki_icons/binding_icons/RD-shift.png" width="20">  | |
-| Control          |   `Ctrl`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-ctrl.png" width="20">   | |
-| /         |   `/`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-frontslash.png" width="20">   | |
-| Alt          |   `Alt`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-alt.png" width="20">   | |
-| F1          |   `F1`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F1.png" width="20">   |   |
-| F4          |   `F4`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F4.png" width="20">   |   |
-| F5          |   `F5`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F5.png" width="20">   |   |
-| F8          |   `F8`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F8.png" width="20">   |   |
-| F10          |   `F10`          |  `PC-Systems`  |  <img src="../../../wiki_icons/binding_icons/RD-F10.png" width="20">   |  |
+| Escape                  |   `ESC`              |  `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`                       | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="20">  | Can be used to Quick / Open Menu on certain systems  |
+| Enter                   |   `Enter`            |      `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx`                   | <img src="../../wiki_icons/binding_icons/RD-Enter.png" width="20">  |   |
+| Space          |   `Space`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-space.png" width="20">  | |                   |            |
+| Tab          |   `Tab`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-Tab.png" width="20">  | |
+| Shift          |   `Shift`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-shift.png" width="20">  | |
+| Control          |   `Ctrl`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-ctrl.png" width="20">   | |
+| /         |   `/`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-frontslash.png" width="20">   | |
+| Alt          |   `Alt`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-alt.png" width="20">   | |
+| F1          |   `F1`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F1.png" width="20">   |   |
+| F4          |   `F4`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F4.png" width="20">   |   |
+| F5          |   `F5`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F5.png" width="20">   |   |
+| F8          |   `F8`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F8.png" width="20">   |   |
+| F10          |   `F10`          |  `PC-Systems`  |  <img src="../../wiki_icons/binding_icons/RD-F10.png" width="20">   |  |
 | Take Steam Screenshot   |   `none`             |                       |  |   |
 | Show Steam Deck Keyboard|   `none`             |                       |   |   |
-| Alt + F4                |   `Alt + F4`         |                       | <img src="../../../wiki_icons/binding_icons/RD-alt-f4.png" width="20">  |   |
+| Alt + F4                |   `Alt + F4`         |                       | <img src="../../wiki_icons/binding_icons/RD-alt-f4.png" width="20">  |   |
 
 
 ## Emulator Specific Menu

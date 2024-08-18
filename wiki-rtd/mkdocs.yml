@@ -60,11 +60,11 @@ nav:
   - Wiki Home 🏠: index.md
   - Blog: blog/index.md
 
-  - What is RetroDECK? : wiki_about/what-is-retrodeck.md
+  - What is RetroDECK? <img src="wiki_icons/retrodeck/icon-rd.svg" width="20">: wiki_about/what-is-retrodeck.md
 
   - What is the story & goals behind RetroDECK? <img src="wiki_icons/pixelitos/video-x-generic.png" width="20">: wiki_about/story-goals.md
 
-  - What is included in RetroDECK <img src="wiki_icons/pixelitos/folder-blue-games.png" width="20">: wiki_about/what-is-included.md
+  - Systems included in RetroDECK <img src="wiki_icons/pixelitos/folder-blue-games.png" width="20">: wiki_about/what-is-included.md
 
   - Start using RetroDECK <img src="wiki_icons/pixelitos/retrodeck.png" width="20">: wiki_general/retrodeck-start.md
 
@@ -82,9 +82,9 @@ nav:
 
   - How to Contribute? ❤️: wiki_community/contibute-rd.md
 
-  - Bugs & Known Issues 🐜: wiki_bugs/known-issues.md
+  - Bugs & Known Issues <img src="wiki_icons/pixelitos/distributor-logo-dragonflybsd.png" width="20">: wiki_bugs/known-issues.md
 
-  - FAQ ❔:
+  - FAQ <img src="wiki_icons/pixelitos/emblem-question.png" width="20">:
     - Documentation & Wiki: wiki_faq/faq-documentation.md
     - Feature Requests: wiki_faq/faq-feature.md
     - ES-DE Frontend: wiki_faq/faq-esde.md
@@ -136,79 +136,79 @@ nav:
     - ES-DE - User Guide: wiki_es_de/esde-guide.md
     - Themes: wiki_es_de/esde-themes.md
   
-  - Guides - Engines  🛠️:
+  - Guides - Engines  <img src="wiki_icons/pixelitos/start-here.png" width="20">:
 
-    - GZDoom 👹:
+    - GZDoom <img src="wiki_icons/pixelitos/GZDoom.png" width="20">:
       - GZDoom - General Guide: wiki_engine_guides/gzdoom/gzdoom-guide.md
       - GZDoom - Controls Guide: wiki_engine_guides/gzdoom/gzdoom-controls.md
       - GZDoom - Get started on .doom files: wiki_engine_guides/gzdoom/retrodeck-doomfile.md
       - GZDoom - Get the WADs from bought games: wiki_engine_guides/gzdoom/extract-doom-wads.md
 
-    - IkemenGO / M.U.G.E.N 🥋:
+    - IkemenGO / M.U.G.E.N <img src="wiki_icons/pixelitos/ikemego.png" width="20">:
       - IkemenGO - General Guide: wiki_engine_guides/ikemengo/ikemengo-guide.md
       - IkemenGO - M.U.G.E.N Convertion Guidelines: wiki_engine_guides/ikemengo/mugen-conversion.md
 
-    - Pico-8 8️⃣:
+    - Pico-8 <img src="wiki_icons/other/pico-8.png" width="20">:
       - Pico-8 - General Guide: wiki_engine_guides/pico8/pico8-guide.md
 
-    - ScummVM 🖱️:
+    - ScummVM <img src="wiki_icons/pixelitos/scummvm.png" width="20">:
       - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
 
-    - Solarus 🌞:
+    - Solarus <img src="wiki_icons/pixelitos/solarus.png" width="20">:
       - Solarus - General Guide: wiki_engine_guides/solarus/solarus-guide.md
 
-    - OpenBOR 🐉:
+    - OpenBOR <img src="wiki_icons/pixelitos/openbor.png" width="20">:
       - OpenBOR - General Guide: wiki_engine_guides/openbor/openbor-guide.md
 
-  - Guides - Emulators  📘:
+  - Guides - Emulators <img src="wiki_icons/pixelitos/applications-all.png" width="20">:
 
-    - Cemu ⬜:
+    - Cemu <img src="wiki_icons/pixelitos/Cemu.png" width="20">:
       - Cemu - General Guide (WIP): wiki_emulator_guides/cemu/cemu-guide.md
 
-    - Dolphin / Primehack 🐬:
+    - Dolphin / Primehack <img src="wiki_icons/pixelitos/dolphin-emu.png" width="20">:
       - General Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md
       - Dolphin Controls: wiki_emulator_guides/dolphin-primehack/dolphin-controls.md
       - Mod Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-mod.md
       - Texture Pack Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-texture-pack.md
 
-    - Duckstation 🐓:
+    - Duckstation <img src="wiki_icons/pixelitos/duckstation.png" width="20">:
       - Duckstation - General Guide (WIP): wiki_emulator_guides/duckstation/duckstation-guide.md
       - Duckstation - Texture Pack Guide: wiki_emulator_guides/duckstation/duckstation-texture-pack.md
 
-    - MAME 💰:
+    - MAME <img src="wiki_icons/pixelitos/MAME.png" width="20">:
       - MAME - General Guide (WIP): wiki_emulator_guides/mame/mame-guide.md
 
-    - melonDS 🍉:
+    - melonDS <img src="wiki_icons/pixelitos/melonDS.png" width="20">:
       - General Guide (WIP): wiki_emulator_guides/melonds/melonds-guide.md
 
-    - PCSX2 2️⃣:
+    - PCSX2 <img src="wiki_icons/pixelitos/PCSX2.png" width="20">:
       - PCSX2 - General Guide (WIP): wiki_emulator_guides/pcsx2/pcsx2-guide.md
       - PCSX2 - Texture Pack Guide: wiki_emulator_guides/pcsx2/pcsx2-texture-pack.md
 
-    - PPSSPP 🔺:
+    - PPSSPP <img src="wiki_icons/pixelitos/PPSSPP.png" width="20">:
       - PPSSPP - General Guide (WIP): wiki_emulator_guides/ppsspp/ppsspp-guide.md
       - PPSSPP - Texture Pack Guide: wiki_emulator_guides/ppsspp/ppsspp-texture-pack.md
 
-    - RetroArch 👾:
+    - RetroArch <img src="wiki_icons/pixelitos/retroarch.png" width="20">:
       - RetroArch - General Guide: wiki_emulator_guides/retroarch/retroarch-guide.md
       - RetroArch - Cores with Rewind support: wiki_emulator_guides/retroarch/retroarch-rewind.md
       - Mesen Core - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mesen-texture-pack.md
       - Mupen64Plus-Next Core - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mupen64plus-texture-pack.md
 
-    - RPCS3 3️⃣:
+    - RPCS3 <img src="wiki_icons/pixelitos/RPCS3.png" width="20">:
       - RPCS3 - General Guide: wiki_emulator_guides/rpcs3/rpcs3-guide.md
 
-    - Ryujinx 🔵:
+    - Ryujinx <img src="wiki_icons/pixelitos/Ryujinx.png" width="20">:
       - Ryujinx - General Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-guide.md
       - Ryujinx - Mod Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-mod.md
 
-    - Vita3K 🤍:
+    - Vita3K <img src="wiki_icons/pixelitos/vita3k.png" width="20">:
       - Vita3K - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
 
-    - xemu ✖️:
+    - xemu <img src="wiki_icons/pixelitos/xemu.png" width="20">:
       - xemu - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
 
-  - The Controller Vault 🏦:
+  - The Controller Vault <img src="wiki_icons/pixelitos/accessories-safe.png" width="20">:
 
     - Accessibility ♿:
       - About Accessibility Controllers: wiki_controllers/accessibility/about-accessibility.md
@@ -298,7 +298,7 @@ nav:
       - Xbox S/X - Xbox Elite Series 2: wiki_controllers/xbox/xbox-wireless-elite.md
       - Xbox Adaptive Controller (WIP): wiki_controllers/accessibility/xac.md
 
-  - Development 🧪:
+  - Development <img src="wiki_icons/pixelitos/folder-red-development.png" width="20">:
     - What are you working on?: wiki_development/general/what-are-you-working.on.md
     - Social Rules ❤️:
       - Discord/Matrix: wiki_community/discord-matrix.md
@@ -333,14 +333,14 @@ nav:
       - Cooker Testing - Guide: wiki_development/testing/cooker-testing.md
       - Expermental Features: wiki_development/testing/experimental-features.md
 
-  - Archive 🗃️:
+  - Archive <img src="wiki_icons/pixelitos/emblem-readonly.png" width="20">:
 
-    - Yuzu 🔴 (Archive):
+    - Yuzu <img src="wiki_icons/pixelitos/yuzu.png" width="20">:
       - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
       - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
       - Yuzu - Gyro Guide: wiki_emulator_guides/yuzu/yuzu-gyro.md
 
-    - Citra 🍋 (Archive):
+    - Citra <img src="wiki_icons/pixelitos/citra.png" width="20">:
       - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
       - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
       - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md

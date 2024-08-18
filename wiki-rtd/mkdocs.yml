@@ -60,13 +60,13 @@ nav:
   - Wiki Home 🏠: index.md
   - Blog: blog/index.md
 
-  - What is RetroDECK <img src="../wiki_icons/retrodeck/icon-rd.svg" width="20"> : wiki_about/what-is-retrodeck.md
+  - What is RetroDECK <img src="/docs/wiki_icons/retrodeck/icon-rd.svg" width="20"> : wiki_about/what-is-retrodeck.md
 
   - What is the story & goals behind RetroDECK <img src="../../../wiki_icons/pixelitos/video-x-generic.png" width="20">: wiki_about/story-goals.md
 
   - What is included in RetroDECK <img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="20">: wiki_about/what-is-included.md
 
-  - Start using RetroDECK <img src="../../wiki_icons/pixelitos/retrodeck.png" width="20"> : wiki_general/retrodeck-start.md
+  - Start using RetroDECK <img src="../wiki_icons/pixelitos/retrodeck.png" width="20"> : wiki_general/retrodeck-start.md
 
   - Add RetroDECK to Steam <img src="../../wiki_icons/pixelitos/steam.png" width="20">: wiki_general/add-to-steam.md
 

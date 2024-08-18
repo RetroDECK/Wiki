@@ -62,7 +62,7 @@ nav:
 
   - What is RetroDECK <img src="../../wiki_icons/retrodeck/icon-rd.svg" width="20"> : wiki_about/what-is-retrodeck.md
 
-  - What is the story & goals behind RetroDECK <img src="../../wiki_icons/pixelitos/video-x-generic.png" width="20">: wiki_about/story-goals.md
+  - What is the story & goals behind RetroDECK <img src="../../../wiki_icons/pixelitos/video-x-generic.png" width="20">: wiki_about/story-goals.md
 
   - What is included in RetroDECK <img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="20">: wiki_about/what-is-included.md
 
@@ -131,7 +131,7 @@ nav:
     - Installation and Updates: wiki_devices/linux_desktop/linux-install.md
     - Recommended Software: wiki_devices/linux_desktop/linux-software.md
 
-  - Guides - ES-DE Frontend 🤖:
+  - Guides - ES-DE Frontend <img src="../../wiki_images/logos/es-de-logo.png" width="20">:
 
     - ES-DE - User Guide: wiki_es_de/esde-guide.md
     - Themes: wiki_es_de/esde-themes.md

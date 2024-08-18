@@ -60,7 +60,7 @@ nav:
   - Wiki Home 🏠: index.md
   - Blog: blog/index.md
 
-  - What is RetroDECK <img src="/docs/wiki_icons/retrodeck/icon-rd.svg" width="20"> : wiki_about/what-is-retrodeck.md
+  - What is RetroDECK <img src="../wiki_icons/retrodeck/icon-rd.svg" width="20"> : wiki_about/what-is-retrodeck.md
 
   - What is the story & goals behind RetroDECK <img src="../../../wiki_icons/pixelitos/video-x-generic.png" width="20">: wiki_about/story-goals.md
 

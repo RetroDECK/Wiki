@@ -105,7 +105,7 @@ nav:
     - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
     - RetroDECK - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
 
-  - Guides - RetroDECK Configurator  <img src="../wiki_icons/retrodeck/icon-configurator.svg" width="20">:
+  - Guides - RetroDECK Configurator  <img src="wiki_icons/retrodeck/icon-configurator.svg" width="20">:
 
     - RetroDECK Configurator 🧰: wiki_configurator/configurator.md
     - Ponzu: wiki_configurator/ponzu.md
@@ -126,12 +126,12 @@ nav:
     - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
     - Steam Deck - Hotkeys & Layout: wiki_rd_controls/hotkeys-steamdeck-neptune.md
 
-  - Guides - Linux Desktop <img src="wiki_icons/pixelitos/linux.png" width="20">:
+  - Guides - Linux Desktop <img src="wiki_icons/pixelitos/linux.png" width="15">:
 
     - Installation and Updates: wiki_devices/linux_desktop/linux-install.md
     - Recommended Software: wiki_devices/linux_desktop/linux-software.md
 
-  - Guides - ES-DE Frontend <img src="wiki_images/logos/es-de-logo.png" width="20">:
+  - Guides - ES-DE Frontend <img src="wiki_images/logos/es-de-logo.png" width="25">:
 
     - ES-DE - User Guide: wiki_es_de/esde-guide.md
     - Themes: wiki_es_de/esde-themes.md

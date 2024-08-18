@@ -60,9 +60,9 @@ nav:
   - Wiki Home 🏠: index.md
   - Blog: blog/index.md
 
-  - What is RetroDECK <img src="wiki_icons/retrodeck/icon-rd.svg" width="20"> : wiki_about/what-is-retrodeck.md
+  - What is RetroDECK? : wiki_about/what-is-retrodeck.md
 
-  - What is the story & goals behind RetroDECK <img src="wiki_icons/pixelitos/video-x-generic.png" width="20">: wiki_about/story-goals.md
+  - What is the story & goals behind RetroDECK? <img src="wiki_icons/pixelitos/video-x-generic.png" width="20">: wiki_about/story-goals.md
 
   - What is included in RetroDECK <img src="wiki_icons/pixelitos/folder-blue-games.png" width="20">: wiki_about/what-is-included.md
 
@@ -119,7 +119,7 @@ nav:
     - Scraping Game Media: wiki_management/about-scraping.md
     - Spreading Files over Multiple Drives: wiki_management/spread-files.md
 
-  - Guides - Steam Deck <img src="../wiki_icons/kennynl/controllers/controller_steamdeck.png" width="30">:
+  - Guides - Steam Deck <img src="wiki_icons/kennynl/controllers/controller_steamdeck.png" width="30">:
 
     - RetroDECK Installation and Updates: wiki_devices/steamdeck/steamdeck-start.md
     - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md

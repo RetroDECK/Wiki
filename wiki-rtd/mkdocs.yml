@@ -64,21 +64,21 @@ nav:
 
   - What is the story & goals behind RetroDECK <img src="wiki_icons/pixelitos/video-x-generic.png" width="20">: wiki_about/story-goals.md
 
-  - What is included in RetroDECK <img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="20">: wiki_about/what-is-included.md
+  - What is included in RetroDECK <img src="wiki_icons/pixelitos/folder-blue-games.png" width="20">: wiki_about/what-is-included.md
 
   - Start using RetroDECK <img src="../wiki_icons/pixelitos/retrodeck.png" width="20"> : wiki_general/retrodeck-start.md
 
-  - Add RetroDECK to Steam <img src="../../wiki_icons/pixelitos/steam.png" width="20">: wiki_general/add-to-steam.md
+  - Add RetroDECK to Steam <img src="wiki_icons/pixelitos/steam.png" width="20">: wiki_general/add-to-steam.md
 
-  - Supported Devices <img src="../../wiki_icons/pixelitos/preferences-system-splash.png" width="20">: wiki_general/supported-devices.md
+  - Supported Devices <img src="wiki_icons/pixelitos/preferences-system-splash.png" width="20">: wiki_general/supported-devices.md
 
-  - Supported Controllers <img src="../../wiki_icons/pixelitos/antimicrox.png" width="20">: wiki_general/supported-controllers.md
+  - Supported Controllers <img src="wiki_icons/pixelitos/antimicrox.png" width="20">: wiki_general/supported-controllers.md
 
-  - Change Controller Order <img src="../../wiki_icons/pixelitos/list-add.png" width="20">: wiki_rd_controls/change-controller-order-steam.md
+  - Change Controller Order <img src="wiki_icons/pixelitos/list-add.png" width="20">: wiki_rd_controls/change-controller-order-steam.md
 
   - Different Button Prompts in Games ❓: wiki_rd_controls/diffrent-game-inputs.md
 
-  - Version History <img src="../../wiki_icons/pixelitos/text-x-generic.png" width="20">: wiki_rd_versions/version-history.md
+  - Version History <img src="wiki_icons/pixelitos/text-x-generic.png" width="20">: wiki_rd_versions/version-history.md
 
   - How to Contribute? ❤️: wiki_community/contibute-rd.md
 
@@ -93,7 +93,7 @@ nav:
     - RetroDECK Usage: wiki_faq/faq-rd-usage.md
     - Steam Deck: wiki_faq/faq-rd-steamdeck.md
 
-  - Guides - RetroDECK Controls & Hotkeys <img src="../../wiki_icons/pixelitos/pcsxr-icon.png" width="20">:
+  - Guides - RetroDECK Controls & Hotkeys <img src="wiki_icons/pixelitos/pcsxr-icon.png" width="20">:
 
     - RetroDECK & Udev Rules: wiki_rd_controls/about-udev.md
     - Generic Standard - Hotkeys & Layout: wiki_rd_controls/hotkeys-generic-standard.md
@@ -110,7 +110,7 @@ nav:
     - RetroDECK Configurator 🧰: wiki_configurator/configurator.md
     - Ponzu: wiki_configurator/ponzu.md
 
-  - Guides - Files & Game Management <img src="../../wiki_icons/pixelitos/folder-green-open.png" width="20">:
+  - Guides - Files & Game Management <img src="wiki_icons/pixelitos/folder-green-open.png" width="20">:
 
     - Game Compability Lists: wiki_management/compatibility-lists.md
     - Manage your BIOS/Firmware: wiki_management/bios-firmware.md
@@ -119,19 +119,19 @@ nav:
     - Scraping Game Media: wiki_management/about-scraping.md
     - Spreading Files over Multiple Drives: wiki_management/spread-files.md
 
-  - Guides - Steam Deck <img src="../../../wiki_icons/kennynl/controllers/controller_steamdeck.png" width="30">:
+  - Guides - Steam Deck <img src="../wiki_icons/kennynl/controllers/controller_steamdeck.png" width="30">:
 
     - RetroDECK Installation and Updates: wiki_devices/steamdeck/steamdeck-start.md
     - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
     - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
     - Steam Deck - Hotkeys & Layout: wiki_rd_controls/hotkeys-steamdeck-neptune.md
 
-  - Guides - Linux Desktop <img src="../../wiki_icons/pixelitos/linux.png" width="20">:
+  - Guides - Linux Desktop <img src="wiki_icons/pixelitos/linux.png" width="20">:
 
     - Installation and Updates: wiki_devices/linux_desktop/linux-install.md
     - Recommended Software: wiki_devices/linux_desktop/linux-software.md
 
-  - Guides - ES-DE Frontend <img src="../../wiki_images/logos/es-de-logo.png" width="20">:
+  - Guides - ES-DE Frontend <img src="wiki_images/logos/es-de-logo.png" width="20">:
 
     - ES-DE - User Guide: wiki_es_de/esde-guide.md
     - Themes: wiki_es_de/esde-themes.md

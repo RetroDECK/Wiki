@@ -10,7 +10,7 @@ copyright: "&copy; 2024 RetroDECK Team"
 theme:
   name: "material"
   language: "en"
-  logo: wiki_icons/retrodeck/rd_icon_circle_32x32.png
+  logo: ../wiki_icons/retrodeck/rd_icon_circle_32x32.png
   features:
    - navigation.path
    - content.code.copy
@@ -59,10 +59,10 @@ plugins:
 nav:
   - Wiki Home 🏠: index.md
   - Blog: blog/index.md
-  - What is RetroDECK <img src="wiki_icons/retrodeck/icon-rd.svg" width="20"> : wiki_about/what-is-retrodeck.md
-  - What is the story & goals behind RetroDECK <img src="wiki_icons/pixelitos/folder-blue-video.png" width="20">: wiki_about/story-goals.md
-  - What is included in RetroDECK <img src="wiki_icons/pixelitos/folder-blue-games.png" width="20">: wiki_about/what-is-included.md
-  - Start using RetroDECK <img src="wiki_icons/retrodeck/rd_icon_circle_180x180.png" width="20"> : wiki_general/retrodeck-start.md
+  - What is RetroDECK <img src="..../../wiki_icons/retrodeck/icon-rd.svg" width="20"> : wiki_about/what-is-retrodeck.md
+  - What is the story & goals behind RetroDECK <img src="../wiki_icons/pixelitos/folder-blue-video.png" width="20">: wiki_about/story-goals.md
+  - What is included in RetroDECK <img src="../wiki_icons/pixelitos/folder-blue-games.png" width="20">: wiki_about/what-is-included.md
+  - Start using RetroDECK <img src="../wiki_icons/retrodeck/rd_icon_circle_180x180.png" width="20"> : wiki_general/retrodeck-start.md
   - Add RetroDECK to Steam ✅: wiki_general/add-to-steam.md
   - Supported Devices 📺: wiki_general/supported-devices.md
   - Supported Controllers 🕹️: wiki_general/supported-controllers.md
@@ -93,7 +93,7 @@ nav:
     - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
     - RetroDECK - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
 
-  - Guides - RetroDECK Configurator  <img src="wiki_icons/retrodeck/icon-configurator.svg" width="20">:
+  - Guides - RetroDECK Configurator  <img src="../wiki_icons/retrodeck/icon-configurator.svg" width="20">:
 
     - RetroDECK Configurator 🧰: wiki_configurator/configurator.md
     - Ponzu: wiki_configurator/ponzu.md

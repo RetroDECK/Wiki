@@ -10,7 +10,7 @@ copyright: "&copy; 2024 RetroDECK Team"
 theme:
   name: "material"
   language: "en"
-  logo: ../wiki_icons/retrodeck/rd_icon_circle_32x32.png
+  logo: wiki_icons/retrodeck/rd_icon_circle_32x32.png
   features:
    - navigation.path
    - content.code.copy
@@ -60,9 +60,9 @@ nav:
   - Wiki Home 🏠: index.md
   - Blog: blog/index.md
 
-  - What is RetroDECK <img src="../wiki_icons/retrodeck/icon-rd.svg" width="20"> : wiki_about/what-is-retrodeck.md
+  - What is RetroDECK <img src="wiki_icons/retrodeck/icon-rd.svg" width="20"> : wiki_about/what-is-retrodeck.md
 
-  - What is the story & goals behind RetroDECK <img src="../../../wiki_icons/pixelitos/video-x-generic.png" width="20">: wiki_about/story-goals.md
+  - What is the story & goals behind RetroDECK <img src="wiki_icons/pixelitos/video-x-generic.png" width="20">: wiki_about/story-goals.md
 
   - What is included in RetroDECK <img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="20">: wiki_about/what-is-included.md
 

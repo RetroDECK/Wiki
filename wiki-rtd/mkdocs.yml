@@ -57,34 +57,49 @@ plugins:
 # Sidebar Navigation
 
 nav:
-  - Wiki Home 🏠: index.md
-  - Blog: blog/index.md
 
-  - What is RetroDECK? <img src="wiki_icons/retrodeck/icon-rd.svg" width="20">: wiki_about/what-is-retrodeck.md
-
-  - What is the story & goals behind RetroDECK? <img src="wiki_icons/pixelitos/video-x-generic.png" width="20">: wiki_about/story-goals.md
-
-  - Systems included in RetroDECK <img src="wiki_icons/pixelitos/folder-blue-games.png" width="20">: wiki_about/what-is-included.md
-
-  - Start using RetroDECK <img src="wiki_icons/pixelitos/retrodeck.png" width="20">: wiki_general/retrodeck-start.md
-
-  - Add RetroDECK to Steam <img src="wiki_icons/pixelitos/steam.png" width="20">: wiki_general/add-to-steam.md
-
-  - Supported Devices <img src="wiki_icons/pixelitos/preferences-system-splash.png" width="20">: wiki_general/supported-devices.md
-
-  - Supported Controllers <img src="wiki_icons/pixelitos/antimicrox.png" width="20">: wiki_general/supported-controllers.md
-
-  - Change Controller Order <img src="wiki_icons/pixelitos/list-add.png" width="20">: wiki_rd_controls/change-controller-order-steam.md
-
-  - Different Button Prompts in Games ❓: wiki_rd_controls/diffrent-game-inputs.md
-
-  - Version History <img src="wiki_icons/pixelitos/text-x-generic.png" width="20">: wiki_rd_versions/version-history.md
-
+  - What is RetroDECK? ❔: wiki_about/what-is-retrodeck.md
+  - What is included in RetroDECK? 📦: wiki_about/what-is-included.md
+  - Start using RetroDECK 🏎️: wiki_general/retrodeck-start.md
+  - Supported Devices 📺: wiki_general/supported-devices.md
+  - Supported Controllers 🕹️: wiki_general/supported-controllers.md
+  - Add RetroDECK to Steam: wiki_general/add-to-steam.md
+  - Change Controller Order in Steam: wiki_general/change-controller-order-steam.md
+  - What is the story and goals? 📖: wiki_about/story-goals.md
+  - Version History 📁: wiki_rd_versions/version-history.md
   - How to Contribute? ❤️: wiki_community/contibute-rd.md
+  - Bugs & Known Issues 🐜: wiki_bugs/known-issues.md
 
-  - Bugs & Known Issues <img src="wiki_icons/pixelitos/distributor-logo-dragonflybsd.png" width="20">: wiki_bugs/known-issues.md
+  - Configurator & Tools 🧰:
+    - Configurator Features: wiki_configurator/configurator.md
+    - Ponzu: wiki_configurator/ponzu.md
 
-  - FAQ <img src="wiki_icons/pixelitos/emblem-question.png" width="20">:
+  - Controls & Hotkeys for RetroDECK 🎮:
+
+    - About ℹ️:
+        - Different Button Prompts in Games: wiki_controllers/about/diffrent-game-inputs.md
+        - RetroDECK and Udev Rules: wiki_controllers/about/about-udev.md
+
+    - Hotkeys & Layouts 🔥:
+        - Generic Standard - Hotkeys & Layout: wiki_rd_controls/hotkeys-generic-standard.md
+        - Nintendo - Hotkeys & Layout: wiki_rd_controls/hotkeys-nintendo.md
+        - Playstation - Hotkeys & Layout: wiki_rd_controls/hotkeys-playstation.md
+        - Xbox - Hotkeys & Layout: wiki_rd_controls/hotkeys-xbox.md
+
+    - Radial Menus ⭕:
+        - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
+        - Steam Deck - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
+
+
+  - Files & Game Management 📂:
+    - Game Compability Lists: wiki_management/compatibility-lists.md
+    - Manage your BIOS/Firmware: wiki_management/bios-firmware.md
+    - Manage your Multidisk/file games: wiki_management/multi-disk.md
+    - Move RetroDECK to a new device: wiki_management/retrodeck-move.md
+    - Scraping Game Media: wiki_management/about-scraping.md
+    - Spreading Files over Multiple Drives: wiki_management/spread-files.md
+
+  - FAQ ❔:
     - Documentation & Wiki: wiki_faq/faq-documentation.md
     - Feature Requests: wiki_faq/faq-feature.md
     - ES-DE Frontend: wiki_faq/faq-esde.md
@@ -93,122 +108,91 @@ nav:
     - RetroDECK Usage: wiki_faq/faq-rd-usage.md
     - Steam Deck: wiki_faq/faq-rd-steamdeck.md
 
-  - Guides - RetroDECK Controls & Hotkeys <img src="wiki_icons/pixelitos/pcsxr-icon.png" width="20">:
-
-    - RetroDECK & Udev Rules: wiki_rd_controls/about-udev.md
-    - Generic Standard - Hotkeys & Layout: wiki_rd_controls/hotkeys-generic-standard.md
-    - Nintendo - Hotkeys & Layout: wiki_rd_controls/hotkeys-nintendo.md
-    - Playstation - Hotkeys & Layout: wiki_rd_controls/hotkeys-playstation.md
-    - Xbox - Hotkeys & Layout: wiki_rd_controls/hotkeys-xbox.md
-    - Steam Deck - Hotkeys & Layout: wiki_rd_controls/hotkeys-steamdeck-neptune.md
-    - Steam Controller - Hotkeys & Layout: wiki_rd_controls/hotkeys-steam-controller-gordon.md
-    - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
-    - RetroDECK - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
-
-  - Guides - RetroDECK Configurator  <img src="wiki_icons/retrodeck/icon-configurator.svg" width="20">:
-
-    - RetroDECK Configurator 🧰: wiki_configurator/configurator.md
-    - Ponzu: wiki_configurator/ponzu.md
-
-  - Guides - Files & Game Management <img src="wiki_icons/pixelitos/folder-green-open.png" width="20">:
-
-    - Game Compability Lists: wiki_management/compatibility-lists.md
-    - Manage your BIOS/Firmware: wiki_management/bios-firmware.md
-    - Manage your Multidisk/file games: wiki_management/multi-disk.md
-    - Move RetroDECK to a new device: wiki_management/retrodeck-move.md
-    - Scraping Game Media: wiki_management/about-scraping.md
-    - Spreading Files over Multiple Drives: wiki_management/spread-files.md
-
-  - Guides - Steam Deck <img src="wiki_icons/kennynl/controllers/controller_steamdeck.png" width="30">:
-
+  - Guides - Steam Deck 🕹️:
     - RetroDECK Installation and Updates: wiki_devices/steamdeck/steamdeck-start.md
     - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
     - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
-    - Steam Deck - Hotkeys & Layout: wiki_rd_controls/hotkeys-steamdeck-neptune.md
+    - RetroDECK Controls: wiki_controllers/steam/steamdeck-neptune-controller.md
+    - Built-in Controls: wiki_controllers/steam/steamdeck-neptune-builtin.md
 
-  - Guides - Linux Desktop <img src="wiki_icons/pixelitos/linux.png" width="15">:
-
+  - Guides - Linux Desktop 🐧:
     - Installation and Updates: wiki_devices/linux_desktop/linux-install.md
     - Recommended Software: wiki_devices/linux_desktop/linux-software.md
 
-  - Guides - ES-DE Frontend <img src="wiki_images/logos/es-de-logo.png" width="25">:
-
+  - Guides - ES-DE Frontend 🤖:
     - ES-DE - User Guide: wiki_es_de/esde-guide.md
     - Themes: wiki_es_de/esde-themes.md
-  
-  - Guides - Engines  <img src="wiki_icons/pixelitos/start-here.png" width="20">:
 
-    - GZDoom <img src="wiki_icons/pixelitos/GZDoom.png" width="20">:
+  - Guides - Engines  🛠️:
+    - GZDoom 👹:
       - GZDoom - General Guide: wiki_engine_guides/gzdoom/gzdoom-guide.md
       - GZDoom - Controls Guide: wiki_engine_guides/gzdoom/gzdoom-controls.md
       - GZDoom - Get started on .doom files: wiki_engine_guides/gzdoom/retrodeck-doomfile.md
       - GZDoom - Get the WADs from bought games: wiki_engine_guides/gzdoom/extract-doom-wads.md
 
-    - IkemenGO / M.U.G.E.N <img src="wiki_icons/pixelitos/ikemego.png" width="20">:
+    - IkemenGO / M.U.G.E.N 🥋:
       - IkemenGO - General Guide: wiki_engine_guides/ikemengo/ikemengo-guide.md
       - IkemenGO - M.U.G.E.N Convertion Guidelines: wiki_engine_guides/ikemengo/mugen-conversion.md
 
-    - Pico-8 <img src="wiki_icons/other/pico-8.png" width="20">:
+    - Pico-8 8️⃣:
       - Pico-8 - General Guide: wiki_engine_guides/pico8/pico8-guide.md
 
-    - ScummVM <img src="wiki_icons/pixelitos/scummvm.png" width="20">:
+    - ScummVM 🖱️:
       - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
 
-    - Solarus <img src="wiki_icons/pixelitos/solarus.png" width="20">:
+    - Solarus 🌞:
       - Solarus - General Guide: wiki_engine_guides/solarus/solarus-guide.md
 
-    - OpenBOR <img src="wiki_icons/pixelitos/openbor.png" width="20">:
+    - OpenBOR 🐉:
       - OpenBOR - General Guide: wiki_engine_guides/openbor/openbor-guide.md
 
-  - Guides - Emulators <img src="wiki_icons/pixelitos/applications-all.png" width="20">:
-
-    - Cemu <img src="wiki_icons/pixelitos/Cemu.png" width="20">:
+  - Guides - Emulators  📘:
+    - Cemu ⬜:
       - Cemu - General Guide (WIP): wiki_emulator_guides/cemu/cemu-guide.md
 
-    - Dolphin / Primehack <img src="wiki_icons/pixelitos/dolphin-emu.png" width="20">:
-      - General Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md
-      - Dolphin Controls: wiki_emulator_guides/dolphin-primehack/dolphin-controls.md
+    - Dolphin / Primehack 🐬:
+      - General Guide (WIP): wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md
       - Mod Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-mod.md
       - Texture Pack Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-texture-pack.md
 
-    - Duckstation <img src="wiki_icons/pixelitos/duckstation.png" width="20">:
+    - Duckstation 🐓:
       - Duckstation - General Guide (WIP): wiki_emulator_guides/duckstation/duckstation-guide.md
       - Duckstation - Texture Pack Guide: wiki_emulator_guides/duckstation/duckstation-texture-pack.md
 
-    - MAME <img src="wiki_icons/pixelitos/MAME.png" width="20">:
+    - MAME 💰:
       - MAME - General Guide (WIP): wiki_emulator_guides/mame/mame-guide.md
 
-    - melonDS <img src="wiki_icons/pixelitos/melonDS.png" width="20">:
+    - melonDS 🍉:
       - General Guide (WIP): wiki_emulator_guides/melonds/melonds-guide.md
 
-    - PCSX2 <img src="wiki_icons/pixelitos/PCSX2.png" width="20">:
+    - PCSX2 2️⃣:
       - PCSX2 - General Guide (WIP): wiki_emulator_guides/pcsx2/pcsx2-guide.md
       - PCSX2 - Texture Pack Guide: wiki_emulator_guides/pcsx2/pcsx2-texture-pack.md
 
-    - PPSSPP <img src="wiki_icons/pixelitos/PPSSPP.png" width="20">:
+    - PPSSPP 🔺:
       - PPSSPP - General Guide (WIP): wiki_emulator_guides/ppsspp/ppsspp-guide.md
       - PPSSPP - Texture Pack Guide: wiki_emulator_guides/ppsspp/ppsspp-texture-pack.md
 
-    - RetroArch <img src="wiki_icons/pixelitos/retroarch.png" width="20">:
+    - RetroArch 👾:
       - RetroArch - General Guide: wiki_emulator_guides/retroarch/retroarch-guide.md
       - RetroArch - Cores with Rewind support: wiki_emulator_guides/retroarch/retroarch-rewind.md
       - Mesen Core - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mesen-texture-pack.md
       - Mupen64Plus-Next Core - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mupen64plus-texture-pack.md
 
-    - RPCS3 <img src="wiki_icons/pixelitos/RPCS3.png" width="20">:
+    - RPCS3 3️⃣:
       - RPCS3 - General Guide: wiki_emulator_guides/rpcs3/rpcs3-guide.md
 
-    - Ryujinx <img src="wiki_icons/pixelitos/Ryujinx.png" width="20">:
+    - Ryujinx 🔵:
       - Ryujinx - General Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-guide.md
       - Ryujinx - Mod Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-mod.md
 
-    - Vita3K <img src="wiki_icons/pixelitos/vita3k.png" width="20">:
+    - Vita3K 🤍:
       - Vita3K - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
 
-    - xemu <img src="wiki_icons/pixelitos/xemu.png" width="20">:
+    - xemu ✖️:
       - xemu - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
 
-  - The Controller Vault <img src="wiki_icons/pixelitos/accessories-safe.png" width="20">:
+  - The Controller Vault 🎮:
 
     - Accessibility ♿:
       - About Accessibility Controllers: wiki_controllers/accessibility/about-accessibility.md
@@ -279,8 +263,8 @@ nav:
       - About Racing Controllers: wiki_controllers/racing/about-racing.md
 
     - Steam/Valve 🎮:
-      - Steam Deck - Neptune: wiki_controllers/steam/steamdeck-neptune.md
-      - Steam Controller - Gordon: wiki_controllers/steam/steam-controller-gordon.md
+      - Steam Deck - Controller: wiki_controllers/steam/steamdeck-neptune-controller.md
+      - Steam - Steam Controller - Gordon: wiki_controllers/steam/steam-controller-gordon.md
 
     - Toys-to-life 🧸:
       - About Toys-to-life Controllers: wiki_controllers/toystolife/about-toys-to-life.md
@@ -298,7 +282,7 @@ nav:
       - Xbox S/X - Xbox Elite Series 2: wiki_controllers/xbox/xbox-wireless-elite.md
       - Xbox Adaptive Controller (WIP): wiki_controllers/accessibility/xac.md
 
-  - Development <img src="wiki_icons/pixelitos/folder-red-development.png" width="20">:
+  - Development 🧪:
     - What are you working on?: wiki_development/general/what-are-you-working.on.md
     - Social Rules ❤️:
       - Discord/Matrix: wiki_community/discord-matrix.md
@@ -333,14 +317,13 @@ nav:
       - Cooker Testing - Guide: wiki_development/testing/cooker-testing.md
       - Expermental Features: wiki_development/testing/experimental-features.md
 
-  - Archive <img src="wiki_icons/pixelitos/emblem-readonly.png" width="20">:
-
-    - Yuzu <img src="wiki_icons/pixelitos/yuzu.png" width="20">:
+  - Archive 🗃️:
+    - Yuzu 🔴 (Archive):
       - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
       - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
       - Yuzu - Gyro Guide: wiki_emulator_guides/yuzu/yuzu-gyro.md
 
-    - Citra <img src="wiki_icons/pixelitos/citra.png" width="20">:
+    - Citra 🍋 (Archive):
       - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
       - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
       - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md

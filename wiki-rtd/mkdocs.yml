@@ -8,7 +8,7 @@ copyright: "&copy; 2024 RetroDECK Team"
 
 # Theme Configuration
 theme:
-  name: "material"
+  name: material
   language: "en"
   logo: wiki_icons/retrodeck/rd_icon_circle_32x32.png
   features:
@@ -20,39 +20,47 @@ theme:
     accent: "white"
   extra_css:
    - stylesheets/extra.css
+  custom_dir: overrides
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       pygments_lang_class: true
+
+# Used to create custom emoji/icons using .svg files. See link for usage information
+# https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#additional-icons
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.superfences
   - attr_list
 
 plugins:
-   - search:
-   - mkdocs-video:
-       is_video: True
-#       video_muted: True
-       video_controls: True
-#        css_style:
-#                width: "50%"
-   - rss:
+  - search
+  - mkdocs-video:
+      is_video: True
+      video_controls: True
+  - rss:
       match_path: blog/posts/.* 
       date_from_meta:
         as_creation: date
       categories:
         - categories
         - tags 
-   - blog:
-       enabled: true
-       post_url_date_format: yyyy/MM/dd
-       post_date_format: full
-       blog_toc: true
-       archive: true
-       archive_date_format: yyyy
-       pagination: false
-       pagination: false
-       post_excerpt: required
-       post_excerpt_separator: <!-- more -->
+  - blog:
+      enabled: true
+      post_url_date_format: yyyy/MM/dd
+      post_date_format: full
+      blog_toc: true
+      archive: true
+      archive_date_format: yyyy
+      pagination: false
+      pagination: false
+      post_excerpt: required
+      post_excerpt_separator: <!-- more -->
 
 # Sidebar Navigation
 
@@ -253,7 +261,7 @@ nav:
       - Singstar - Microphone (WIP): wiki_controllers/music/singstar-microphone.md
       - Taiko Drum & Bachi (WIP): wiki_controllers/music/taiko-drum-bachi.md
 
-    - Nintendo 🎮:
+    - Nintendo:
       - Switch - Joy-Cons (WIP): wiki_controllers/nintendo/joycon.md
       - Switch - Ring Fit (WIP): wiki_controllers/nintendo/ring-fit.md
       - Wii U - Gamepad: wiki_controllers/nintendo/wiiu-gamepad.md

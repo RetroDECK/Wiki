@@ -4,7 +4,7 @@ RetroDECK is nothing without our dependencies without them this project and many
 
 **Please note:**
 
-We are trying to list current and future software we want to include in RetroDECK here. More things will be added all the time. There are even more emulators, software, front-ends, and assets out there that are not part of the RetroDECK project for various other systems. This is not a complete list of all Emulators or Frontends for the entire internet.
+We are trying to list current and future software we want to include in RetroDECK here and not everything is added to RetroDECK proper yet. More things will be added all the time. There are even more emulators, software, front-ends, and assets out there that are not part of the RetroDECK project for various other systems. This is not a complete list of all Emulators or Frontends for the entire internet.
 
 ## RetroDECK
 <img src="../../wiki_images/logos/rd-logo-box.png" width="550">
@@ -384,13 +384,6 @@ RetroDECK Team owns a license.
 
 [Pixel UI Theme Itch.io](https://thowsenmedia.itch.io/pixel-ui-theme-for-godot)
 
-### Dungeon Crawl Stone Soup
-
-CC0
-
-[Titles](https://opengameart.org/content/dungeon-crawl-32x32-tiles)
-
-[Tiltes Supplemental](https://opengameart.org/content/dungeon-crawl-32x32-tiles-supplemental)
 
 ### Pixelitos
 
@@ -401,15 +394,12 @@ CC0
 
 [Licenses](https://fontstruct.com/fontstructions/show/1844233/pixel-sans-13)
 
-### Freedoom
 
-[Licenses](https://github.com/freedoom/freedoom?tab=License-1-ov-file)
-
-## Mini Banner 2.0.0
+## Mini Banner
 
 [Source](https://forums.launchbox-app.com/files/file/4084-mini-banner/?tab=comments#comment-17029)
 
-Made by the group: Weestuarty, DerSchlachter, Dan Patrick.
+Pixel Art is made by the group: Weestuarty, DerSchlachter (LaunchBox), Dan Patrick.
 
 Permission by Weestuarty to use in RetroDECK.
 
@@ -417,6 +407,18 @@ Permission by Weestuarty to use in RetroDECK.
 
 ## Other Licenses
 Here we showcase the licenses of projects / functions we might use in part, got inspired by the code/solutions or want to give special credit.
+
+### Dungeon Crawl Stone Soup
+
+CC0
+
+[Titles](https://opengameart.org/content/dungeon-crawl-32x32-tiles)
+
+[Tiltes Supplemental](https://opengameart.org/content/dungeon-crawl-32x32-tiles-supplemental)
+
+### Freedoom
+
+[Licenses](https://github.com/freedoom/freedoom?tab=License-1-ov-file)
 
 ### Capsimg
 

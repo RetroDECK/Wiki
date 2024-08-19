@@ -395,7 +395,7 @@ RetroDECK Team owns a license.
 [Licenses](https://fontstruct.com/fontstructions/show/1844233/pixel-sans-13)
 
 
-## Mini Banner
+### Mini Banner
 
 [Source](https://forums.launchbox-app.com/files/file/4084-mini-banner/?tab=comments#comment-17029)
 

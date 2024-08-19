@@ -405,6 +405,14 @@ CC0
 
 [Licenses](https://github.com/freedoom/freedoom?tab=License-1-ov-file)
 
+## Mini Banner 2.0.0
+
+[Source](https://forums.launchbox-app.com/files/file/4084-mini-banner/?tab=comments#comment-17029)
+
+Made by the group: Weestuarty, DerSchlachter, Dan Patrick.
+
+Permission by Weestuarty to use in RetroDECK.
+
 ---
 
 ## Other Licenses

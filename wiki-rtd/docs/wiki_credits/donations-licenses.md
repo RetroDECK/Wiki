@@ -1,10 +1,16 @@
 # Information on donations
 
-RetroDECK is nothing without our dependencies without them this project and many others like us cannot exist. Without them RetroDECK can not run any games at all, it is their software that make this possible. If you do not want to donate to RetroDECK and you might want to donate to the Frontend, art assets, a specific emulator or engine. We support you no matter what, whatever choice you take from this list will be a good one for us all.
+RetroDECK is nothing without our dependencies without them this project and many others like us cannot exist. Without them RetroDECK can not run any games at all, it is their software that make this possible. We always strive to do more cooperation between projects for the betterment of RetroDECK and Linux as a whole.
 
-**Please note:**
+If you do not want to donate to RetroDECK and you might want to donate to the Frontend, art assets, a specific emulator or engine. We support you no matter what, whatever choice you take from this list will be a good one for us all.
 
-We are trying to list current and future software we want to include in RetroDECK here and not everything is added to RetroDECK proper yet. More things will be added all the time. There are even more emulators, software, front-ends, and assets out there that are not part of the RetroDECK project for various other systems. This is not a complete list of all Emulators or Frontends for the entire internet.
+**If you feel passionate about a specific emulator / engine / other always make sure you donate to them directly and not via proxy. No FOSS project should be the arbiter of another projects funds.**
+
+### About this page
+
+We are trying to list current and some future software and functions we want to include in RetroDECK here and their licenses (not everything is added to RetroDECK proper yet). More things will be added all the time in upcoming updates on this page and in RetroDECK.
+
+There are even more emulators, software, front-ends, and assets out there that are not part of the RetroDECK project for various other systems. This is not a complete list of all Emulators or Frontends for the entire internet.
 
 ## RetroDECK
 <img src="../../wiki_images/logos/rd-logo-box.png" width="550">
@@ -13,17 +19,12 @@ By donating to RetroDECK you support this project and the vision of a unified pa
 
 #### We will use those funds to:
 
-- Pay for upkeep: Web hosting / Build servers / Certificates / Software licenses
-- Develop better integrations, new functions and features.
-- Try to do more cooperation between projects for the betterment of RetroDECK and sometimes Linux as a whole.
-
-**Buy new hardware and target new devices**
-
-- New SteamOS based devices.
-- New Linux based devices.
+- Web hosting / Build servers and other hosting costs.
+- Development software, other type of licenses: UI elements and art (we always strive for use much open-source and creative commons as possible).
+- Develop better Integrations, new functions and features for RetroDECK.
+- New SteamOS / Linux devices or Windows based Devices to install Linux on (and try with RetroDECK).
 - Various big brand and small brand controllers.
-- Lightguns.
-- Special peripherals.
+- Other special peripherals to target for RetroDECK: Lightguns, Wheels, XAC, Vboard, Arcade Cabinet etc..
 
 
 #### Where to donate / support the project?

@@ -4,7 +4,7 @@ RetroDECK is nothing without our dependencies without them this project and many
 
 If you do not want to donate to RetroDECK and you might want to donate to the Frontend, art assets, a specific emulator or engine. We support you no matter what, whatever choice you take from this list will be a good one for us all.
 
-**If you feel passionate about a specific emulator / engine / other always make sure you donate to them directly and not via proxy. No FOSS project should be the arbiter of another projects funds.**
+**If you feel passionate about a specific emulator / engine / other always make sure you donate to them directly and not via proxy. No project should be the arbiter of another projects funds.**
 
 ### About this page
 

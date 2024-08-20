@@ -8,9 +8,9 @@ Highlights:
 
 - Lighter Manifest: What is it?
 - Lighter Manifest: Results
-- Godot Configurator: Font Selector & Accessible
+- Godot Configurator: Font Selector & Bios Checker
 - Godot Configurator: Logs & Wiki
-
+- Godot Configurator: Logs & Wiki
 
 <!-- more -->
 
@@ -74,7 +74,7 @@ The goal of the Godot Configurator are the same:
 - Can us controllers to navigate.
 - Populate it with more features then before and make it easy to expand.
 
-![type:video](ConfiguratorGodot.mp4)
+![type:video](Configurator-Bios-OpenDys.mp4)
 
 **In this video:**
 
@@ -88,7 +88,7 @@ The goal of the Godot Configurator are the same:
 ---
 
 
-![type:video](ConfiguratorLogs.mp4)
+![type:video](Configurator-Logs-Website.mp4)
 
 **In this video:**
 
@@ -112,8 +112,12 @@ This is a prototype sub-menu for RetroArch.
 
 - Where you can have some information about RetroArch.
 - Open RetroArch
-- Quick Settings Menu: That allows you do some things without needing to open the entire RetroArch interface.
-- We are also Experimentinging with button inputs.
+- Quick Settings: It allows you do some things without needing to open the entire RetroArch interface.
+- We are also experimenting with button inputs and placeholder placements.
+
+---
+
+<img src="../buttons2.webp" width="750">
 
 
 ## That is all for now

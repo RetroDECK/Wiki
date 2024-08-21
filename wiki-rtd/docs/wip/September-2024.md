@@ -2,7 +2,7 @@
 date: 2024-09-18
 ---
 
-# September 2024: Summer report
+# September 2024: Post-summer report
 
 Highlights:
 
@@ -17,9 +17,13 @@ Highlights:
 <img src="rd-circle.png" width="150">
 
 
-## NEWS: Lighter Manifest for 0.9b
+## Post-summer report
 
 You did not think we just spent all summer on the beach, did you?! 🏖️
+
+## NEWS: Lighter Manifest for 0.9b
+
+
 
 Now this might not be so exciting for most of our users, but we have begun rewriting the entire RetroDECK flatpak manifest for 0.9.0b (it is not done yet but getting close).
 
@@ -55,28 +59,33 @@ The results so far 🥁
 
 A majority of this freed space will probably be eaten up later by the new systems we will add in 0.9.0b.
 
-- Around **500mb** of data have been freed from the finished project to use for other activites.
+- Around **400mb-600mb** of data have been freed from the finished project to use for other activites.
 
-- That is about **1/6** of the entire application trimmed.
+- That is about **1/5** of the entire application trimmed.
 
 
 ---
 
 ## Godot Configurator
 
-Yes, we are still working on it and much more!
+Yes, we are still working on it and much more! But we are now ready to showcase more of what we have been working on for so long.
 
-🛑 **W.I.P** Things will change and nothing in these videos should be seen as final and is more akin to a pre-alpha. 🛑
+#### This is W.I.P 🛑
 
-The goal of the Godot Configurator are the same:
+Things are changing daily and nothing in these videos should be seen as final and is more akin to a pre-alpha.
 
-- Replaces the current configurator.
+Also note that the name "Godot Configurator" is just the working name, it will be called RetroDECK Configurator when it is released and replaces the old version.
+
+The goal of the new RetroDECK Configurator are the same:
+
+- Replaces the current RetroDECK Configurator.
 - Can us controllers to navigate.
 - Populate it with more features then before and make it easy to expand.
 
+### BIOS Checker, Font Selector
+
 ![type:video](Configurator-Bios-OpenDys.mp4)
 
-**In this video:**
 
 - We show an early version of the BIOS checker in a table format.
 
@@ -85,12 +94,11 @@ The goal of the Godot Configurator are the same:
     - This is something we talked about for a long time and was the driving force behind the font selector. It uses the [OpenDyslexic](https://opendyslexic.org/) font. For many users it is a trivial feature to change a font but for those that truly need something that is easier to read, it could be a game changer.
 
 
----
 
+### Logs Viewer, Wiki / Website
 
 ![type:video](Configurator-Logs-Website.mp4)
 
-**In this video:**
 
 - Access various logs directly from the Configurator only a few have been added as a POC. This is great for troubleshooting but also a useful tool for users that love to tweak.
 
@@ -99,14 +107,9 @@ The goal of the Godot Configurator are the same:
     - We are also looking into an option to sync/download the entire Wiki via a button to have as a local copy when you are offline for ease-of-access when you are out traveling.
 
 
-
-
----
-
+### POC: RetroArch submenu
 
 <img src="../submenu-ra.png" width="750">
-
-**In this screenshot:**
 
 This is a prototype sub-menu for RetroArch.
 
@@ -115,12 +118,19 @@ This is a prototype sub-menu for RetroArch.
 - Quick Settings: It allows you do some things without needing to open the entire RetroArch interface.
 - We are also experimenting with button inputs and placeholder placements.
 
----
+### POC: Border Selection
 
-<img src="../buttons.png" width="750">
+<img src="../buttons.png" width="450">
+<img src="../newbutton.webp" width="150">
 
-<img src="../buttons2.webp" width="750">
+We want to present graphical buttons on what you have selected that are shown when you enable in this example Borders with both text and a graphical icon with a check mark or a cross.
 
+
+### Do you want to help out?
+
+If you want to help out with our efforts please post your interest in the 💙-i-want-to-help in either Matrix or Discord.
+
+We are always looking for more developers, artists or testers that can contribute to RetroDECK.
 
 ## That is all for now
 

@@ -1,8 +1,8 @@
 ---
-date: 2024-08-18
+date: 2024-09-18
 ---
 
-# August 2024: Summer report
+# September 2024: Summer report
 
 Highlights:
 
@@ -116,6 +116,8 @@ This is a prototype sub-menu for RetroArch.
 - We are also experimenting with button inputs and placeholder placements.
 
 ---
+
+<img src="../buttons.png" width="750">
 
 <img src="../buttons2.webp" width="750">
 

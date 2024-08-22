@@ -112,7 +112,7 @@ The goal of the new RetroDECK Configurator are the same:
     - We are also looking into an option to sync/download the entire Wiki via a button to have as a local copy when you are offline for ease-of-access when you are out traveling.
 
 
-### POC: RetroArch submenu
+### POC: RetroArch sub-menu
 
 <img src="../submenu-ra.png" width="750">
 
@@ -123,12 +123,17 @@ This is a prototype sub-menu for RetroArch.
 - Quick Settings: It allows you do some things without needing to open the entire RetroArch interface.
 - We are also experimenting with button inputs and placeholder placements.
 
-### POC: Border Selection
+### POC: Border Selection and buttons
 
 <img src="../buttons.png" width="450">
 <img src="../newbutton.webp" width="150">
 
-We want to present graphical buttons on what you have selected that are shown when you enable in this example Borders with both text and a graphical icon with a check mark or a cross.
+We want to present graphical buttons all over the Configurator.
+
+In this example we are showing our thoughts on one example selection of borders and how it could look like.
+
+The check mark or crosses shows you what systems you have activated/deactivated when you have enabled borders menu.
+
 
 ## Q&A - Godot Configurator
 

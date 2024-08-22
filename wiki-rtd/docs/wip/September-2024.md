@@ -8,9 +8,11 @@ Highlights:
 
 - Lighter Manifest: What is it?
 - Lighter Manifest: Results
-- Godot Configurator: Font Selector & Bios Checker
-- Godot Configurator: Logs & Wiki
-- Godot Configurator: Logs & Wiki
+- Godot Configurator - POC: Font Selector & Bios Checker
+- Godot Configurator - POC: Logs & Wiki
+- Godot Configurator - POC: Border Selection
+- Godot Configurator - POC: RetroArch submenu
+
 
 <!-- more -->
 

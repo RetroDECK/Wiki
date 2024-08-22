@@ -23,6 +23,8 @@ Highlights:
 
 You did not think we just spent all summer on the beach, did you?! 🏖️
 
+---
+
 ## NEWS: Lighter Manifest for 0.9.0b
 
 Now this might not be so exciting for most of our users, but we have begun rewriting the entire RetroDECK flatpak manifest for 0.9.0b (it is not done yet but getting close).
@@ -134,6 +136,7 @@ In this example we are showing our thoughts on one example selection of borders 
 
 The check mark or crosses shows you what systems you have activated/deactivated when you have enabled borders menu.
 
+---
 
 ## Q&A - Godot Configurator
 

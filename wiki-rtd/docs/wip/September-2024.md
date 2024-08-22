@@ -129,7 +129,9 @@ This is a prototype sub-menu for RetroArch.
 
 We want to present graphical buttons on what you have selected that are shown when you enable in this example Borders with both text and a graphical icon with a check mark or a cross.
 
-## Do you plan to ship the new Configurator as part of 0.9.0b?
+## Q&A - Godot Configurator
+
+### Do you plan to ship the new Configurator as part of 0.9.0b?
 
 Yes that is the goal, it should at least match the current Configurator in features.
 
@@ -139,11 +141,20 @@ FOSS development is volunteer work and the RetroDECK Team is doing our best to t
 
 But sometimes other things in life takes priority (good and bad).
 
-### Do you READER want to help out?
+### Can you test it now?
+
+<img src="../ES-DECooker.png" width="450">
+
+We have enabled the Godot Configurator, but as of this writing nothing is bound to any functions and it won't do anything except allow you to click around.
+
+
+### How can I help out?
 
 If you want to help out with our efforts please post your interest in the 💙-i-want-to-help in either Matrix or Discord.
 
 We are always looking for more developers, artists or testers that can contribute to RetroDECK.
+
+
 
 ## That is all for now
 

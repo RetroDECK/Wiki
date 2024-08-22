@@ -16,7 +16,7 @@ Highlights:
 
 <!-- more -->
 
-<img src="rd-circle.png" width="150">
+<img src="../rd-circle.png" width="150">
 
 
 ## Post-summer blog

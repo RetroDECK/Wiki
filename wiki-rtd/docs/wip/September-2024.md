@@ -70,7 +70,7 @@ A majority of this freed space will probably be eaten up later by the new system
 
 Yes, we are still working on it and much more! But we are now ready to showcase more of what we have been working on for so long.
 
-#### This is W.I.P 🛑
+#### This is W.I.P! All is subject to change! 🛑
 
 Things are changing daily and nothing in these videos should be seen as final and is more akin to a pre-alpha.
 
@@ -100,7 +100,7 @@ The goal of the new RetroDECK Configurator are the same:
 ![type:video](Configurator-Logs-Website.mp4)
 
 
-- Access various logs directly from the Configurator only a few have been added as a POC. This is great for troubleshooting but also a useful tool for users that love to tweak.
+- Access various logs directly from the Configurator only a few have been added as . This is great for troubleshooting but also a useful tool for users that love to tweak.
 
 - Experimenting with the ability to open both the Wiki and the Website from within the Configurator.
 

@@ -35,6 +35,8 @@ Moved RetroDECK from a monolithic approach where everything was built in one ins
 
 The change did require us to change RetroDECK to an organization on GitHub to manage all the new "sub-repos" in a better way, as having them all under one developers GitHub profile was a bit unwieldy (it also made it easier for the entire team to contribute in a more organized manner).
 
+It was also something we wanted to do before we shipped any of the bigger newer features (better to build a good foundation before you build the house).
+
 **This allows us to:**
 
 - Make even better synergies between emulator/engine dependencies with less overhead.
@@ -70,11 +72,11 @@ A majority of this freed space will probably be eaten up later by the new system
 
 ## Godot Configurator
 
-Yes, we are still working on it and much more! But we are now ready to showcase more of what we have been working on for so long.
+Yes, we are still working on it and much more! But we are now ready to showcase more of what we have been working on..
 
 #### This is W.I.P! All is subject to change! 🛑
 
-Things are changing daily and nothing in these videos should be seen as final and is more akin to a pre-alpha.
+Things are changing daily and nothing in these videos / screenshots should be seen as final. It is more akin to a pre-alpha with several POC (proof of concept).
 
 Also note that the name "Godot Configurator" is just the working name, it will be called RetroDECK Configurator when it is released and replaces the old version.
 
@@ -84,7 +86,7 @@ The goal of the new RetroDECK Configurator are the same:
 - Can us controllers to navigate.
 - Populate it with more features then before and make it easy to expand.
 
-### BIOS Checker, Font Selector
+### POC: BIOS Checker, Font Selector
 
 ![type:video](Configurator-Bios-OpenDys.mp4)
 
@@ -97,7 +99,7 @@ The goal of the new RetroDECK Configurator are the same:
 
 
 
-### Logs Viewer, Wiki / Website
+### POC: Logs Viewer, Wiki / Website
 
 ![type:video](Configurator-Logs-Website.mp4)
 
@@ -127,8 +129,17 @@ This is a prototype sub-menu for RetroArch.
 
 We want to present graphical buttons on what you have selected that are shown when you enable in this example Borders with both text and a graphical icon with a check mark or a cross.
 
+## Do you plan to ship the new Configurator as part of 0.9.0b?
 
-### Do you want to help out?
+Yes that is the goal, it should at least match the current Configurator in features.
+
+But this is as long as everything goes to plan and we can keep the current momentum.
+
+FOSS development is volunteer work and the RetroDECK Team is doing our best to try to make this happen.
+
+But sometimes other things in life takes priority (good and bad).
+
+### Do you READER want to help out?
 
 If you want to help out with our efforts please post your interest in the 💙-i-want-to-help in either Matrix or Discord.
 

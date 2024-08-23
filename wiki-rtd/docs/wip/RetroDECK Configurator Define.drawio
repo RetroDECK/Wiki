@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-08-23T11:45:16.456Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="fgGDY7olNH2SPTV6q-PT" version="24.6.4" type="device">
+<mxfile host="Electron" modified="2024-08-23T12:31:39.338Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="mVORHrU73RqUDKC-JPZ8" version="24.6.4" type="device">
   <diagram name="Sida-1" id="gSIfw9zQXfcrWEp0lnWM">
-    <mxGraphModel dx="1016" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2795" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
           <mxGeometry x="1030" y="370" width="350" height="140" as="geometry" />
         </mxCell>
         <mxCell id="OeQAsLI4CRxNG_kXlPez-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Developer Tier User -&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Users that are not severed by the configurator or emulators. They edit config files and makes their own solutions to put into RetroDECK.&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="510" width="350" height="140" as="geometry" />
+          <mxGeometry x="1030" y="640" width="350" height="140" as="geometry" />
         </mxCell>
         <mxCell id="OeQAsLI4CRxNG_kXlPez-9" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Definitions&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="10" width="120" height="60" as="geometry" />
@@ -142,7 +142,7 @@
           <mxGeometry x="1145" y="1310" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="OeQAsLI4CRxNG_kXlPez-37" value="&lt;div&gt;Quit Configurator&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="640" y="1020" width="120" height="60" as="geometry" />
+          <mxGeometry x="2030" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OeQAsLI4CRxNG_kXlPez-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OeQAsLI4CRxNG_kXlPez-39" target="OeQAsLI4CRxNG_kXlPez-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -166,19 +166,25 @@
           <mxGeometry x="330" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OeQAsLI4CRxNG_kXlPez-47" value="Have to Decide" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1718" y="160" width="700" height="450" as="geometry" />
+          <mxGeometry x="1700" y="160" width="700" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="OeQAsLI4CRxNG_kXlPez-48" value="&lt;div&gt;SFTP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1930" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="OeQAsLI4CRxNG_kXlPez-48" value="&lt;div&gt;SFTP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="810" y="740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OeQAsLI4CRxNG_kXlPez-49" value="&lt;div&gt;USB Transfer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1850" y="390" width="120" height="60" as="geometry" />
+        <mxCell id="OeQAsLI4CRxNG_kXlPez-49" value="&lt;div&gt;USB Transfer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="810" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OeQAsLI4CRxNG_kXlPez-53" value="&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Settings Submenu:&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Several things might need submenus with cloud, steam sync and others because of the many options you can tweak&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1145" y="1800" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="JEs1dsopejIUp05Sd-Fs-1" value="There will be many in the future" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="480" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JEs1dsopejIUp05Sd-Fs-3" value="&lt;div&gt;Chevos&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JEs1dsopejIUp05Sd-Fs-4" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Developer Tab (Hidden. Only in Cooker)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="1300" width="350" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

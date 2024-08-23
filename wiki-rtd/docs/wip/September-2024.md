@@ -12,7 +12,7 @@ Highlights:
 - Godot Configurator - POC: Logs & Wiki
 - Godot Configurator - POC: Border Selection
 - Godot Configurator - POC: RetroArch submenu
-
+- Godot Configurator - Mini Q&A
 
 <!-- more -->
 
@@ -138,7 +138,7 @@ The check mark or crosses shows you what systems you have activated/deactivated 
 
 ---
 
-## Q&A - Godot Configurator
+## Godot Configurator: Mini Q&A
 
 ### Do you plan to ship the new Configurator as part of 0.9.0b?
 

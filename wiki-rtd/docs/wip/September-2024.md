@@ -59,14 +59,14 @@ The results so far 🥁
 
 #### RetroDECK's build time has been reduced:
 
-- We have cut down the average buildtime by a whopping **70-75%**.
+- We have cut down the average build time by a whopping **70-75%**.
 - From **3.30 hours** to about **45 minutes**.
 
 #### We saved space:
 
-A majority of this freed space will probably be eaten up later by the new systems we will add in 0.9.0b.
+The majority of this freed space will probably be eaten up later by the new systems we will add in 0.9.0b.
 
-- Around **400mb-600mb** of data have been freed from the finished project to use for other activites.
+- Around **400mb-600mb** of data have been freed from the finished project to use for other activities.
 
 - That is about **1/5** of the entire application trimmed.
 
@@ -75,7 +75,7 @@ A majority of this freed space will probably be eaten up later by the new system
 
 ## Godot Configurator
 
-Yes, we are still working on it and much more! But we are now ready to showcase more of what we have been working on..
+Yes, we are still working on it and much more! But we are now ready to showcase more of what we have been working on.
 
 #### This is W.I.P! All is subject to change! 🛑
 
@@ -83,11 +83,11 @@ Things are changing daily and nothing in these videos / screenshots should be se
 
 Also note that the name "Godot Configurator" is just the working name, it will be called RetroDECK Configurator when it is released and replaces the old version.
 
-The goal of the new RetroDECK Configurator are the same:
+The goals of the new RetroDECK Configurator are the same:
 
 - Replaces the current RetroDECK Configurator.
-- Can us controllers to navigate.
-- Populate it with more features then before and make it easy to expand.
+- Can use controllers to navigate.
+- Populate it with more features than before and make it easy to expand.
 
 ### POC: BIOS Checker, Font Selector
 
@@ -107,7 +107,7 @@ The goal of the new RetroDECK Configurator are the same:
 ![type:video](Configurator-Logs-Website.mp4)
 
 
-- Access various logs directly from the Configurator only a few have been added as . This is great for troubleshooting but also a useful tool for users that love to tweak.
+- Access various logs directly from the Configurator only a few have been added as. This is great for troubleshooting but also a useful tool for users that love to tweak.
 
 - Experimenting with the ability to open both the Wiki and the Website from within the Configurator.
 
@@ -120,10 +120,10 @@ The goal of the new RetroDECK Configurator are the same:
 
 This is a prototype sub-menu for RetroArch.
 
-- Where you can have some information about RetroArch.
+- Where you can get some information about RetroArch.
 - Open RetroArch
-- Quick Settings: It allows you do some things without needing to open the entire RetroArch interface.
-- We are also experimenting with button inputs and placeholder placements.
+- Quick Settings: It allows you to do some things without needing to open the entire RetroArch interface.
+- We are also experimenting with button input and placeholder placements.
 
 ### POC: Border Selection and buttons
 
@@ -142,32 +142,37 @@ The check mark or crosses shows you what systems you have activated/deactivated 
 
 ### Do you plan to ship the new Configurator as part of 0.9.0b?
 
-Yes that is the goal, it should at least match the current Configurator in features.
+Yes, that is the goal.
 
-But this is as long as everything goes to plan and we can keep the current momentum.
+It should at least match the current Configurator in features.
+
+But this is as long as everything goes to plan, and we can keep the current momentum.
 
 FOSS development is volunteer work and the RetroDECK Team is doing our best to try to make this happen.
 
-But sometimes other things in life takes priority (good and bad).
+But sometimes other things in life take priority (good and bad).
+
 
 ### Can you test it now?
 
 <img src="../ES-DECooker.png" width="450">
 
-We have enabled the Godot Configurator, but as of this writing nothing is bound to any functions and it won't do anything except allow you to click around.
+We have enabled the Godot Configurator in our Cooker Builds as a separate ES-DE menu entry.
 
+But as of this writing nothing is bound to any functions, and it won't do anything except allow you to click around.
+
+It’s changing daily and will be in a state of constant flux until we are happy with the design.
 
 ### How can I help out?
 
-If you want to help out with our efforts please post your interest in the 💙-i-want-to-help in either Matrix or Discord.
+If you want to help out with our efforts, please post your interest in the 💙-i-want-to-help in either Matrix or Discord.
 
 We are always looking for more developers, artists or testers that can contribute to RetroDECK.
 
 
-
 ## That is all for now
 
-There are more things we are working on but you will see them future blog updates!
+There are more things we are working on, but you will see them in future blog updates!
 
 Thanks everyone!
 

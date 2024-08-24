@@ -22,9 +22,9 @@ Bethesta updated the DOOM + DOOM II listing to a new KEX Engine as of **2024-08-
 
 The KEX Engine version of `DOOM + DOOM II` have spread out the files and assigned a random BethestaNet ID number to wads as their filename.
 
-### Steam - KEX
+### KEX Engine - Steam Version
 
-#### Where are the base core iwads?
+### Where are the base core iwads?
 
 Some are located in:
 
@@ -37,10 +37,36 @@ You can also find the location by
 3. Go to the `Installed Files` tab.
 4. Press the `Browse` button.
 
-This folder does not only contain the base versions of `DOOM.WAD` + `DOOM2.WAD` but also:
+#### Where are the downloaded bnetwads?
+
+All of the downloaded bnetwads are located in:
+
+`~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/Nightdive Studios/DOOM/bnetwads/`
+
+### KEX Engine - GOG Version
+
+W.I.P
+
+#### Where are the base core iwads?
+
+Some are located in:
+
+W.I.P
+
+#### Where are the downloaded bnetwads?
+
+All of the downloaded bnetwads are located in:
+
+W.I.P
+
+### KEX Engine - Shipped by Default
+
+The main game folder contains the following (Master Levels in one wad and Legacy of Rust are new for the release):
 
 | Name                     |                      Creator                        |     WAD name         |   Comment  |
 | :---                     | :---                                                |        :---:         |        :---:   |
+| DOOM (1993)              |   id Software                                       | `DOOM.WAD`           | |
+| DOOM II                  |   id Software                                       | `DOOM2.WAD`          | |
 | Extras                   |   id Software, Nerve Software                       | `EXTRAS.WAD`         | [Extra.Wad](https://doomwiki.org/wiki/Extras.wad)|
 | Master Levels            |   id Software                                       | `MASTERLEVELS.WAD`   | |
 | No Rest for the Living   |   Nerve Software                                    |   `NERVE.WAD`        | |
@@ -49,20 +75,8 @@ This folder does not only contain the base versions of `DOOM.WAD` + `DOOM2.WAD` 
 | TNT: Evilution           |   Team TNT                                          |   `TNT.WAD`          | |
 | Legacy of Rust           |   id Software, Nightdive Studios, MachineGames      |   `ID1.WAD`,  `ID1-WEAP.WAD`, `ID1-RES.WAD`, `ID24RES.WAD`, `IDDM1.WAD` | Uses the new ID24 Standard|
 
-Both Master Levels in one wad and Legacy of Rust are new for the release.
 
-#### Steam DOOM - BethestaNet - DLCs / Mods folder
-
-All of the BethestaNet Wads are located in:
-
-`~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/Nightdive Studios/DOOM/bnetwads/`
-
-### GOG - W.I.P
-
-W.I.P
-
-
-### KEX - Getting the mod wads
+### KEX Engine - Getting the downloaded bnetwads
 
 **Prerequisite:** You first need to download the addons from the featured mods list.
 
@@ -71,8 +85,7 @@ Go from the `Main Menu` -> Select a game like DOOM II -> `Mods Menu` -> `Feature
 Some of the mods you will also need to click on `Mods Menu` -> `Browse` and search for them if they are no longer on the `Featured Mods`
 list to match the Unity set.
 
-#### Where are the .wads located?
-
+#### Where are the bnetwads located?
 
 Each `.wad` downloaded have it's own sub-folder based on an internal ID and contains the `.wad` file and a `index.json` file.
 
@@ -102,18 +115,11 @@ It reveals that `585d6a05-e50c-4ad7-aac7-726d35d23a50.wad` is in fact `SIGILII.W
 
 You can then copy and paste it into `retrodeck/roms/doom/` and rename it to `SIGILII.WAD`.
 
-#### Addon List - KEX version
+#### Addon List - KEX Engine version
 
+This list only shows you some of the bnetwads (to match the content of the Unity version).
 
-This list only shows you the major `Featured Mods` and Mods from  and not all mods.
-
-The BID WAD should tell you where the file is located as well the as the BID WAD is always the same as the folder.
-
-**Example**:
-
-`/bnetwads/1d7e0be3-15ef-4227-8f57-12b8fc4540e8/1d7e0be3-15ef-4227-8f57-12b8fc4540e8.wad - Is Anomaly Report's folder and WAD`
-
-| Name                     |                      Creator                        |    True WAD Name     | BID WAD     |   Comment  |
+| Name                     |                      Creator                        |    True WAD Name     | bnetwad id     |   Comment  |
 | :---                     | :---                                                |        :---:         |  :---:   |       :---:   |
 | Anomaly Report           |   Michael Jan Krizik (valkiriforce)                 |   `AR.WAD`           |  `1d7e0be3-15ef-4227-8f57-12b8fc4540e8.wad`    | |
 | Arrival                  |   Walker Wright (Pavera) and Brayden Hart (AD_79)   |   `ARRIVAL.WAD`      |  `d00614a1-68a6-4c1b-a389-50d1e4342cc9.wad`    | |
@@ -132,6 +138,13 @@ The BID WAD should tell you where the file is located as well the as the BID WAD
 | SIGIL II                 |   Romero Games                                      |   `SIGILII.WAD`      |  `585d6a05-e50c-4ad7-aac7-726d35d23a50.wad`    | |
 | Syringe                  |   Pavera, Tarnsman, Marcaek, & Xaser                |   `SYRINGE.WAD`      |  `d1b4f278-55b5-4597-9f66-b17176e0843d.wad`    | |
 | The Troopers' Playground |   Matthias Worch                                    |   `TTP.WAD`          |  `a6d72845-9449-45ba-9322-98c66362ab09.wad`    | |
+
+The `bnetwad id` should tell you what the file is called and also where the file is located as the `bnetwad id` always match the contaning folders name.
+
+**Example**:
+
+`/bnetwads/1d7e0be3-15ef-4227-8f57-12b8fc4540e8/1d7e0be3-15ef-4227-8f57-12b8fc4540e8.wad - Is Anomaly Report's folder and WAD`
+
 
 ---
 

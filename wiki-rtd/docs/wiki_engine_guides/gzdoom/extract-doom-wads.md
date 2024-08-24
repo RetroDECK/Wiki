@@ -62,7 +62,7 @@ All of the BethestaNet Wads are located in:
 W.I.P
 
 
-### KEX Engine 2024 Version
+### KEX - Getting the mod wads
 
 **Prerequisite:** You first need to download the addons from the featured mods list.
 
@@ -74,7 +74,7 @@ list to match the Unity set.
 #### Where are the .wads located?
 
 
-Each .wad downloaded have it's own sub-folder based on an internal ID and contains the `.wad` file and a `index.json` file.
+Each `.wad` downloaded have it's own sub-folder based on an internal ID and contains the `.wad` file and a `index.json` file.
 
 Opening the `index.json` file in each folder will tell you what game the `.wad` is.
 

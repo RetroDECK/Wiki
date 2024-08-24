@@ -46,7 +46,8 @@ The [IWADS](https://doomwiki.org/wiki/IWAD) Gzdoom is looking for to be able to 
 
 | File                     |                      What is it?                  | Comments |
 | :---                     | :---:                                             |  :---:   |
-| DOOM1.WAD                |   Doom 1 -   Shareware Version                    |          |
+| DOOM.WAD                 |   Doom (1993)                                     |          |
+| DOOM1.WAD                |   Doom (1993) - Shareware Version                 |          |
 | DOOM2.WAD                |   Doom 2                                          |          |
 | DOOM2F.WAD               |   Doom 2 - French Version                         |          |
 | DOOM64.WAD               |   Doom 64                                         |          |

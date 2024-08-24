@@ -14,6 +14,8 @@ If you got the Flatpak version of Steam the `~/.local/share/Steam/steamapps/` fo
 
 [Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
 
+---
+
 ## 2024 KEX Engine Version
 
 Bethesta updated the DOOM + DOOM II listing to a new KEX Engine as of **2024-08-08**

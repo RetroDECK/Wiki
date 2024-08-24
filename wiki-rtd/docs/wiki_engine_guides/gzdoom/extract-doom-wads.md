@@ -24,7 +24,7 @@ The KEX Engine version of `DOOM + DOOM II` have spread out the files and assigne
 
 ### KEX Engine - Steam Version
 
-### Where are the base core iwads?
+#### Where are the base core iwads?
 
 Some are located in:
 

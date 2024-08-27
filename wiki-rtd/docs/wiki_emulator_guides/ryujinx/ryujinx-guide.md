@@ -68,6 +68,15 @@ From within Ryujinx `Right Click` on a game and select `Manage DLC` and then nav
 
 Read more on: [Ryujinx Configuraton Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
 
+## Add mods
+
+From within Ryujinx `Right Click` on a game and select `Open Mods Folder` and put the mods you need in it's correct folder then go back to enable via the interface.
+
+The current mapping for the mods folder is:
+
+`~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/mods/`
+
+**NOTE:** it will change in a later update to `retrodeck/mods/Ryujinx/`
 
 ## Open Menu - Hotkey
 

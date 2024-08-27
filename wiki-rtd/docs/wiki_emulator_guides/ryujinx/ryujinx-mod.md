@@ -10,3 +10,4 @@
 
 
 WIP
+~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/mods/

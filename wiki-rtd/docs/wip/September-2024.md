@@ -11,6 +11,7 @@ Highlights:
 - Godot Configurator - POC: Font Selector & Bios Checker
 - Godot Configurator - POC: Logs & Wiki
 - Godot Configurator - POC: Border Selection
+- Godot Configurator - POC: System Selection
 - Godot Configurator - POC: RetroArch submenu
 - Godot Configurator - Mini Q&A
 

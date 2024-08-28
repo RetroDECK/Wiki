@@ -79,7 +79,7 @@ Yes, we are still working on it and much more! But we are now ready to showcase 
 
 #### This is W.I.P! All is subject to change! 🛑
 
-Things are changing daily and nothing in these videos / screenshots should be seen as final. It is more akin to a pre-alpha with several POC (proof of concept).
+Things are changing daily and nothing in these videos / screenshots should be seen as final and come from different stages of development so they might not match each other in design/layout. They are more akin to a pre-alpha with several POCs (proof of concepts) that we are trying to bring into a cohesive whole.
 
 Also note that the name "Godot Configurator" is just the working name, it will be called RetroDECK Configurator when it is released and replaces the old version.
 
@@ -87,7 +87,7 @@ The goals of the new RetroDECK Configurator are the same:
 
 - Replaces the current RetroDECK Configurator.
 - Can use controllers to navigate.
-- Populate it with more features than before and make it easy to expand.
+- Expose more features and make it easy to expand.
 
 ### POC: BIOS Checker, Font Selector
 
@@ -113,6 +113,15 @@ The goals of the new RetroDECK Configurator are the same:
 
     - We are also looking into an option to sync/download the entire Wiki via a button to have as a local copy when you are offline for ease-of-access when you are out traveling.
 
+
+### POC: System Selection
+
+![type:video](Configurator-Logs-Website.mp4)
+
+
+- Here we are showing of a system selection menu with underlying functions.
+
+    - Here we are showing of a system selection menu with underlying functions like opening the System and the Wiki.
 
 ### POC: RetroArch sub-menu
 

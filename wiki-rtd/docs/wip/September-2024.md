@@ -26,6 +26,8 @@ You did not think we just spent all summer on the beach, did you?! 🏖️
 
 ---
 
+<img src="../disk-usage-analyzer.png" width="80">
+
 ## NEWS: Lighter Manifest for 0.9.0b
 
 Now this might not be so exciting for most of our users, but we have begun rewriting the entire RetroDECK flatpak manifest for 0.9.0b (it is not done yet but getting close).
@@ -73,6 +75,8 @@ The majority of this freed space will probably be eaten up later by the new syst
 
 
 ---
+
+<img src="../godot.png" width="80">
 
 ## Godot Configurator
 

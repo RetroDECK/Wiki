@@ -117,7 +117,7 @@ The goals of the new RetroDECK Configurator are the same:
 
 ### POC: System Selection
 
-![type:video](Configurator-SystemMenu.mp44)
+![type:video](Configurator-SystemMenu.mp4)
 
 
 - Here we are showing of a system selection menu with underlying functions.

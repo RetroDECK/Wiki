@@ -6,10 +6,6 @@ How to get the Steam Deck working with [SteamDeckGyroDSU](https://github.com/kmi
 
 Make you have `RetroDECK: Steam Deck Controller Layout` installed and enabled.
 
-If you don't have it read up on `Step 3` from the getting started guide.
-
-[Steam Deck - RetroDECK Installation](../../wiki_devices/steamdeck/steamdeck-start.md).
-
 ### What emulators support SteamDeckGyroDSU?
 
 The DSU hook should be enabled by default.

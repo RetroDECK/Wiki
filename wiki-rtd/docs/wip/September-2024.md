@@ -174,7 +174,7 @@ But as of this writing nothing is bound to any functions, and it won't do anythi
 It’s changing daily and will be in a state of constant flux until we are happy with the design.
 
 ### How can I help out?
-### POC:
+
 If you want to help out with our efforts, please post your interest in the 💙-i-want-to-help in either Matrix or Discord.
 
 We are always looking for more developers, artists or testers that can contribute to RetroDECK.

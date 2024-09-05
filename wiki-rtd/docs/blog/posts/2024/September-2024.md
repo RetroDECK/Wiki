@@ -130,9 +130,6 @@ The goals of the new RetroDECK Configurator are the same:
 
 - Here we are showing of a system selection menu with underlying functions.
 
-    - Here we are showing of a system selection menu with underlying functions like opening the System and the Wiki.
-
-
 ### POC: System Reset
 
 ![type:video](Configurator-Reset.mp4)

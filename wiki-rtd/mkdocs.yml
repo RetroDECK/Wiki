@@ -65,6 +65,8 @@ plugins:
 
 nav:
 
+  - Blog:
+    - blog/index.md
   - What is RetroDECK? ❔: wiki_about/what-is-retrodeck.md
   - What is the story & goals behind RetroDECK?: wiki_about/story-goals.md
   - Systems included in RetroDECK 📦: wiki_about/what-is-included.md

@@ -1,5 +1,5 @@
 ---
-date: 2024-09-04
+date: 2024-09-06
 ---
 
 # September 2024: Post-summer report

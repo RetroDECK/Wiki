@@ -51,7 +51,6 @@ plugins:
       archive: true
       archive_date_format: yyyy
       pagination: false
-      pagination: false
       post_excerpt: required
       post_excerpt_separator: <!-- more -->
   - rss:
@@ -66,7 +65,6 @@ plugins:
 
 nav:
 
-  - The RetroDECK Blog 📝: /blog
   - What is RetroDECK? ❔: wiki_about/what-is-retrodeck.md
   - What is the story & goals behind RetroDECK?: wiki_about/story-goals.md
   - Systems included in RetroDECK 📦: wiki_about/what-is-included.md

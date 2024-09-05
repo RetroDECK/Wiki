@@ -45,7 +45,7 @@ plugins:
       video_controls: True
   - blog:
       enabled: true
-      post_url_date_format: yyyy/mm/dd
+      post_url_date_format: yyyy/MM/dd
       post_date_format: full
       blog_toc: true
       archive: true

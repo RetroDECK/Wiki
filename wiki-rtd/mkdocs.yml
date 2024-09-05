@@ -43,16 +43,9 @@ plugins:
   - mkdocs-video:
       is_video: True
       video_controls: True
-  - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags 
   - blog:
       enabled: true
-      post_url_date_format: yyyy/MM/dd
+      post_url_date_format: yyyy/mm/dd
       post_date_format: full
       blog_toc: true
       archive: true
@@ -61,11 +54,19 @@ plugins:
       pagination: false
       post_excerpt: required
       post_excerpt_separator: <!-- more -->
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
 
 # Sidebar Navigation
 
 nav:
 
+  - The RetroDECK Blog 📝: /blog
   - What is RetroDECK? ❔: wiki_about/what-is-retrodeck.md
   - What is the story & goals behind RetroDECK?: wiki_about/story-goals.md
   - Systems included in RetroDECK 📦: wiki_about/what-is-included.md

@@ -47,7 +47,7 @@ You can also create your own branch with
 git checkout -b branchname
 ```
 
-### Build locally via bash script
+### Build locally via bash script & install hooks
 
 Although it possible to build via this method. Option 2 is more reliable and has more options for tracking and restarting the build if required. 
 
@@ -55,8 +55,8 @@ Looking at the local build process is good to look at how the build process work
 
 ```bash
 developer_toolbox/build_retrodeck_locally.sh
+developer_toolbox/install_hooks.sh
 ```
-Have a look at what the script does first and look at the corresponding automation_tools/ folder that the script above references for the build
 
 The build will take about 3 hours on an eight core pc/laptop.
 

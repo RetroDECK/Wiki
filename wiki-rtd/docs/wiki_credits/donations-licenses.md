@@ -2,7 +2,7 @@
 
 RetroDECK is nothing without our dependencies without them this project and many others like us cannot exist. Without them RetroDECK can not run any games at all, it is their software that make this possible. We always strive to do more cooperation between projects for the betterment of RetroDECK and Linux as a whole.
 
-If you do not want to donate to RetroDECK and you might want to donate to the Frontend, art assets, a specific emulator or engine. We support you no matter what, whatever choice you take from this list will be a good one for us all.
+If you do not want to donate to RetroDECK and you might want to donate to the Frontend, art assets, a specific emulator or engine. We support you no matter what, whatever choice you take from this list will be a good one for us all. The goal of the RetroDECK project is not to make money for profit, this is just a pure passion project.
 
 **If you feel passionate about a specific emulator / engine / other always make sure you donate to them directly and not via proxy. No project should be the arbiter of another projects funds.**
 
@@ -19,13 +19,13 @@ By donating to RetroDECK you support this project and the vision of a unified pa
 
 #### We will use those funds to:
 
-- Web hosting / Build servers and other hosting costs.
-- Development software, other type of licenses: UI elements and art (we always strive for use much open-source and creative commons as possible).
-- Develop better Integrations, new functions and features for RetroDECK.
-- New SteamOS / Linux devices or Windows based Devices to install Linux on (and try with RetroDECK).
-- Various big brand and small brand controllers.
-- Other special peripherals to target for RetroDECK: Lightguns, Wheels, XAC, Vboard, Arcade Cabinet etc..
-
+- Pay for web hosting / build servers and other such costs that comes with hosting.
+- Pay for development software, other type of licenses: (we always strive for use much FOSS and CC licences as possible).
+- Pay for UI elements and art from artists: (we always strive for use much FOSS and CC licences as possible).
+- Buy new devices and hardware that can be targeted or used for RetroDECK development and future usage examples:
+  - Gaming Devices such as the Steam Deck or Rog Ally or other such types.
+  - Various big brand and small brand controllers for development purposes.
+  - Other special peripherals to target for RetroDECK: Lightguns, Wheels, XAC, Vboard, Arcade Cabinet etc..
 
 #### Where to donate / support the project?
 
@@ -116,6 +116,9 @@ We have not found a donation link to this project at this time or the project do
 [Licenses](https://github.com/mamedev/mame#license)
 
 ### ares
+
+Not yet added to RetroDECK
+
 <img src="../../wiki_images/logos/ares-logo.png" width="180">
 
 ares is a cross-platform, open source, multi-system emulator, focusing on accuracy and preservation.
@@ -271,6 +274,8 @@ Cemu, a Wii U emulator that is able to run most Wii U games and homebrew in a pl
 ## Emulators: Microsoft
 
 ### Xenia
+
+Not yet added to RetroDECK
 
 <img src="../../wiki_images/logos/xenia-logo.png" width="150">
 
@@ -451,6 +456,8 @@ All trademarks, logos, controller images and brand names are the property of the
 
 ## Propriety / Closed Source Emulators
 
+These are not yet added to RetroDECK.
+
 ### BigPEmu
 
 BigPEmu is the first Atari Jaguar emulator to feature compatibility with the entire retail library, along with excellent performance and a wide variety of unique features.
@@ -477,3 +484,5 @@ ReDream is a Sega Dreamcast emulator.
 [Website](https://redream.io/)
 
 [Premium Upgrade](https://redream.io/premium)
+
+

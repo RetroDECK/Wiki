@@ -442,6 +442,13 @@ CC0
 ### Pugsy's Cheats for MAME
 [mamecheat.co.uk](https://www.mamecheat.co.uk/)
 
+### Batocera
+
+[Licenses](https://github.com/batocera-linux/batocera.linux?tab=License-1-ov-file#readme)
+
+### Steam Rom Manager (SRM)
+
+[Licenses](https://github.com/SteamGridDB/steam-rom-manager?tab=GPL-3.0-1-ov-file#readme)
 
 ### Steam Deck & Steam Deck Logo
 

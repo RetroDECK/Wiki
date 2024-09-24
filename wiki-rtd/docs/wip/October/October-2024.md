@@ -88,11 +88,11 @@ Note: That you will need to accept or deny that we add RetroDECK to Steam during
 
 Right now we don't know it is still quite complex, no promises.
 
-**Question: If all settings are in the backend how do I change GridArt type?**
+**Question: If all settings are in the back-end how do I change GridArt type?**
 
 We plan to expose all those important settings inside the Godot Configurator instead. With various dropdowns menus or checkboxes.
 
-Examples:
+**Examples:**
 
 - Grid Style: any, alternate, blurred, white logo, material, no logo
 - Hero Style: any, alternate, blurred, material

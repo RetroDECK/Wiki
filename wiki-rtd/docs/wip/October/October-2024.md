@@ -84,37 +84,55 @@ In addition SRM will allow us to Add RetroDECK to Steam directly on first instal
 
 Note: That you will need to accept or deny that we add RetroDECK to Steam during first install.
 
-**Question: Will this be part of 0.9.0b?**
+---
+
+### Question - SRM: Will this be part of 0.9.0b?
 
 Right now we don't know it is still quite complex, no promises.
 
-**Question: If all settings are in the back-end how do I change GridArt type?**
+---
+
+### Question - SRM: If all settings are in the back-end how do I change GridArt type?
 
 We plan to expose all those important settings inside the Godot Configurator instead. With various dropdowns menus or checkboxes.
 
 **Examples:**
 
-- Grid Style: any, alternate, blurred, white logo, material, no logo
-- Hero Style: any, alternate, blurred, material
-- Icon Style: any, official
+Grid Style:
 
+- any
+- alternate
+- blurred
+- white logo
+- material
+- no logo
 
+Hero Style:
 
-**Question: I consider myself a man/woman/anthropomorphic animal/etc.. of culture will ALL the SRM Toggles be exposed in the Configuror?**
+- any
+- alternate
+- blurred
+- material
+
+Icon Style:
+
+- any
+- official
+
+#### I consider myself a man/woman/anthropomorphic animal/vtuber/etc.. of CULTURE. Will ALL the SRM Toggles be exposed in the Configuror?
 
 We are fully aware that SRM features more toggles and yes we plan to make them all available.
 
-The Toggles:
+Including the toggles for:
+
 - NSFW
 - Static or Animated
-
-Will also be there.
 
 Stop bothering us on Discord, you know who you are.
 
 ---
 
-### How can I help out?
+## How can I help out?
 
 If you want to help out with our efforts, please post your interest in the 💙-i-want-to-help in either Matrix or Discord.
 

@@ -21,9 +21,11 @@ Captain Comeback
 
 ---
 
-<img src="../godot.png" width="80">
+
 
 ## Godot Configurator - Status
+
+<img src="../godot.png" width="80">
 
 ![type:video](GodotNavigation.mp4)
 
@@ -33,24 +35,24 @@ Developer MonkeyX of the RetroDECK Team is hard at work with his Godot Magic (we
 - More colorful.
 
 
----
-
-<img src="../portmaster-logo.png" width="80">
-
 
 ## PortMaster - Status
 
-<img src="../homm3.png" width="450">
+<img src="../portmaster.png" width="80">
 
-The PortMaster X86_64 version is coming along slow and steady. We are working togheter with the PortMaster team to make this happen. It offers a plethora of FOSS games, game engines and other custom games.
+<img src="../homm3.png" width="450"> <img src="../mm.png" width="450">
+
+The [PortMaster](https://portmaster.games/games.html) `x86_64` version is coming along slow and steady.
+
+We are working togheter with the PortMaster team to make this happen. It offers a plethora of FOSS games, game engines and other custom games.
 
 Thanks PortMaster Team ❤️
 
 **Question: How many ports are available currently in development?**
 
-So far there about 40-50 ports already for X86_64.
+So far there about 40-50 ports already for x86-64.
 
-As stated in a previous blog the goal is NOT to have all 600+ ports in X86_64 as it does not makes sense. Only games that have
+As stated in a previous blog the goal is NOT to have all 600+ ports in x86-64 as it does not makes sense. Only games that have
 
 **Question: Where will the portmaster ports directory be?**
 
@@ -64,7 +66,11 @@ We *hope* to ship is as part of the update. But it is also a quite big feature i
 
 ## Ryujinx Issues - Status
 
-We are still working with and having open dialog with the Ryujinx Team on this. They hope to make their pathing more dynamic to solve that the Emulator can't find several files in an upcoming Ryujinx update. But the problem is quite complex.
+<img src="../Ryujinx.png" width="80">
+
+We are still working with and having open dialog with the Ryujinx Team on this.
+
+They hope to make their pathing more dynamic to solve that the Emulator can't find several files in an upcoming Ryujinx update. But the problem is quite complex.
 
 In any case 0.9.0b will have fixes for this either via a custom Ryujinx RetroDECK build or that the main application has been updated with the dynamic pathing.
 
@@ -90,43 +96,45 @@ Thanks SRM Team ❤️
 
 Right now we don't know it is still quite complex, no promises. We are working on so many things as you can see.
 
-### Question - SRM: If all settings are in the back-end how do I change GridArt type?
+### Question - SRM: If all settings are in the back-end how do I change GridArt Types?
 
 We plan to expose all those important settings inside the Godot Configurator instead. With various dropdowns menus or checkboxes.
 
-**Examples:**
+**Example:**
 
-Grid Style:
+`Grid Style`
 
-- any
-- alternate
-- blurred
-- white logo
-- material
-- no logo
+- Any
+- Alternate
+- Blurred
+- White logo
+- Material
+- No logo
 
-Hero Style:
+A toggle for `Static` or `Animated` images.
 
-- any
-- alternate
-- blurred
-- material
+We plan to expose all of those values in the Configurator for ease of access and more.
 
-Icon Style:
 
-- any
-- official
+#### But what about that ONE toggle?
 
-#### I consider myself a man/woman/anthropomorphic animal/vtuber/etc.. of CULTURE. Will ALL the SRM Toggles be exposed in the Configuror?
+We are aware that we have community members that consider themselves a:
 
-We are fully aware that SRM features more toggles and yes we plan to make them all available.
+```
+Person of CULTURE.
+Man of CULTURE.
+Woman of CULTURE.
+Anthropomorphic Animal of CULTURE.
+Sentient Furniture of CULTURE.
+Virtual Avatar of CULTURE.
+Undead Creature of CULTURE.
+Italian.
+<Custom Value> of CULTURE.
+```
 
-Including the toggles for:
+Yes, as stated above if it is part of SRM we will expose it including the toggle for NSFW images.
 
-- NSFW
-- Static or Animated
-
-Stop bothering us on Discord, you know who you are.
+🤌 Stop bothering us on Discord, you know who you are. 🤌
 
 ---
 

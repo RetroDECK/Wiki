@@ -97,13 +97,19 @@ Thanks SRM Team ❤️
 
 Right now we don't know it is still quite complex, no promises. We are working on so many things as you can see.
 
-### Question - SRM: If all settings are in the back-end how do I change GridArt Types?
+### Question - SRM: If all settings are in the back-end can I enable the filters?
 
-We plan to expose all those important settings inside the Godot Configurator instead. With various dropdowns menus or checkboxes.
+You will not be able to choose what artwork is pulled for each game if many exists as it will just grab the first one.
+
+If possible we plan to expose all those important filter values inside the Godot Configurator. With various dropdowns menus, toggles and checkboxes.
+
+SRM filters:
+
+<img src="../SRM-filters.png" width="800">
 
 **Example:**
 
-`Grid Style`
+The `Grid Style` filter has the values of:
 
 - Any
 - Alternate
@@ -112,9 +118,7 @@ We plan to expose all those important settings inside the Godot Configurator ins
 - Material
 - No logo
 
-A toggle for `Static` or `Animated` images.
-
-We plan to expose all of those values in the Configurator for ease of access and more.
+We plan to expose all of those values in some graphical form inside the Configurator (if possible).
 
 
 #### But what about that ONE toggle?
@@ -126,6 +130,7 @@ Person of CULTURE.
 Man of CULTURE.
 Woman of CULTURE.
 Anthropomorphic Animal of CULTURE.
+Anthropomorphic Blue Dragonkin of CULTURE.
 Sentient Furniture of CULTURE.
 Virtual Avatar of CULTURE.
 Undead Creature of CULTURE.
@@ -133,7 +138,7 @@ Italian.
 <Custom Value> of CULTURE.
 ```
 
-Yes, as stated above if it is part of SRM we will expose it including the toggle for NSFW images.
+Yes, as stated above if it is part of SRM's filters we will expose it including the toggle for NSFW artwork.
 
 🤌 Stop bothering us on Discord, you know who you are. 🤌
 

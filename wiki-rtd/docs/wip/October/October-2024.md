@@ -21,11 +21,9 @@ Captain Comeback
 
 ---
 
-
+<img src="../godot.png" width="80">
 
 ## Godot Configurator - Status
-
-<img src="../godot.png" width="80">
 
 ![type:video](GodotNavigation.mp4)
 
@@ -34,11 +32,11 @@ Developer MonkeyX of the RetroDECK Team is hard at work with his Godot Magic (we
 - Here we show a more updated navigation.
 - More colorful.
 
-
-
-## PortMaster - Status
+---
 
 <img src="../portmaster.png" width="80">
+
+## PortMaster - Status
 
 <img src="../homm3.png" width="450"> <img src="../mm.png" width="450">
 
@@ -64,9 +62,11 @@ We *hope* to ship is as part of the update. But it is also a quite big feature i
 
 ---
 
+<img src="../Ryujinx.png" width="80">
+
 ## Ryujinx Issues - Status
 
-<img src="../Ryujinx.png" width="80">
+
 
 We are still working with and having open dialog with the Ryujinx Team on this.
 
@@ -78,6 +78,7 @@ Thanks Ryujinx Team ❤️
 
 ---
 
+<img src="../srm-logo.png" width="80">
 
 ## Steam ROM Manager - SRM (Add to Steam) - Status
 

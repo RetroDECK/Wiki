@@ -69,9 +69,48 @@ Depending on where we and they are in development
 ---
 
 
-## SRM (Add to Steam) - Status
+## Steam ROM Manager - SRM (Add to Steam) - Status
 
-We have had good dialog and cooperation with the SRM Team to make this feature a reality. But RetroDECK's implementation is quite different as we don't plan to let the users open the SRM interface at all.
+We have had good dialog and cooperation with the SRM Team to make this feature a reality. But RetroDECK's implementation is quite different as we don't plan to let the users open the SRM interface at all as it will be preconfigured in the back-end.
+
+The goal is the same as a blogpost from way in the past with a much more seamless and elegant solution.
+
+1. You enable the system from the Configurator.
+2. Games you mark as ⭐ favorites in the ES-DE interface will be synced to Steam as separate game entries in your library.
+3. The sync will scrape the art from SteamGridDB and add our controller profile on the games.
+4. You can launch the game as an individual entry.
+
+In addition SRM will allow us to Add RetroDECK to Steam directly on first install with SteamGridDB art and the controller profile, so we can cut down that entire step from the installation process.
+
+Note: That you will need to accept or deny that we add RetroDECK to Steam during first install.
+
+**Question: Will this be part of 0.9.0b?**
+
+Right now we don't know it is still quite complex, no promises.
+
+**Question: If all settings are in the backend how do I change GridArt type?**
+
+We plan to expose all those important settings inside the Godot Configurator instead. With various dropdowns menus or checkboxes.
+
+Examples:
+
+- Grid Style: any, alternate, blurred, white logo, material, no logo
+- Hero Style: any, alternate, blurred, material
+- Icon Style: any, official
+
+
+
+**Question: I consider myself a man/woman/anthropomorphic animal/etc.. of culture will ALL the SRM Toggles be exposed in the Configuror?**
+
+We are fully aware that SRM features more toggles and yes we plan to make them all available.
+
+The Toggles:
+- NSFW
+- Static or Animated
+
+Will also be there.
+
+Stop bothering us on Discord, you know who you are.
 
 ---
 

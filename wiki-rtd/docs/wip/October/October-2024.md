@@ -44,6 +44,8 @@ Developer MonkeyX of the RetroDECK Team is hard at work with his Godot Magic (we
 
 The PortMaster X86_64 version is coming along slow and steady. We are working togheter with the PortMaster team to make this happen. It offers a plethora of FOSS games, game engines and other custom games.
 
+Thanks PortMaster Team ❤️
+
 **Question: How many ports are available currently in development?**
 
 So far there about 40-50 ports already for X86_64.
@@ -64,7 +66,9 @@ We *hope* to ship is as part of the update. But it is also a quite big feature i
 
 We are still working with and having open dialog with the Ryujinx Team on this. They hope to make their pathing more dynamic to solve that the Emulator can't find several files in an upcoming Ryujinx update. But the problem is quite complex.
 
-Depending on where we and they are in development
+In any case 0.9.0b will have fixes for this either via a custom Ryujinx RetroDECK build or that the main application has been updated with the dynamic pathing.
+
+Thanks Ryujinx Team ❤️
 
 ---
 
@@ -80,17 +84,11 @@ The goal is the same as a blogpost from way in the past with a much more seamles
 3. The sync will scrape the art from SteamGridDB and add our controller profile on the games.
 4. You can launch the game as an individual entry.
 
-In addition SRM will allow us to Add RetroDECK to Steam directly on first install with SteamGridDB art and the controller profile, so we can cut down that entire step from the installation process.
-
-Note: That you will need to accept or deny that we add RetroDECK to Steam during first install.
-
----
+Thanks SRM Team ❤️
 
 ### Question - SRM: Will this be part of 0.9.0b?
 
-Right now we don't know it is still quite complex, no promises.
-
----
+Right now we don't know it is still quite complex, no promises. We are working on so many things as you can see.
 
 ### Question - SRM: If all settings are in the back-end how do I change GridArt type?
 

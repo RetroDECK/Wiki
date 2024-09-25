@@ -51,7 +51,7 @@ We are showing off:
 
 We also want to thank [ItzSelenux / ItsZariep](https://github.com/ItzSelenux/) for helping us making all of the pixelart icons and logos.
 
-We mostly ItzSelenux art for both the Steam Input radial menus and Godot Configurator via his Pixelitos Icon Theme for the Linux Desktop.
+We mostly use ItzSelenux pixelart for both the Steam Input radial menus and Godot Configurator via his Pixelitos Icon Theme for the Linux Desktop.
 
 If you are Spanish speaking you might want to follow his YouTube channel various FOSS topics do so here:
 

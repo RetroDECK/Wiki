@@ -37,6 +37,23 @@ After the upcoming version.
 
 In the future.
 
+## Why does RetroDECK need the filesystem=host permission?
+
+`filesystem=host` is the only permission that allows you full access to `/media` and `/mnt`.
+
+The users wants to be able to move or use files in different directories, sdcards and external disks in the file system.
+
+We had a lower level permission before but with access to all the gaming devices and more things the flathub developers recommend us to raise the permission level.
+
+The best solution would be if there where more granular permissions in flatpak and flathub:
+
+- External storage devices
+- General usb devices
+- Gaming devices (often needs even more access).
+- ETC..
+
+We have provided feedback to the developers regarding this and they are looking into it for the future. As soon as more granular permissions are available we will switch to those.
+
 ## Are you related anyway to Batocera?
 
 No, but RetroDECK had some dialog before the project started with some of the Batocera crew if there were any plans to start a Batocera non-OS application (there were no plans at that moment and their focus is to make the best retro gaming operative system).

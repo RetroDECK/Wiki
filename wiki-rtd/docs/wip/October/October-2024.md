@@ -47,7 +47,17 @@ We are showing off:
 - Navigation sounds.
 - Description windows that descibe the function.
 
-We also want to thank ItzSelenux for helping us making all of the pixelart logos.
+### ItzSelenux special thanks
+
+We also want to thank [ItzSelenux / ItsZariep](https://github.com/ItzSelenux/) for helping us making all of the pixelart icons and logos.
+
+We mostly ItzSelenux art for both the Steam Input radial menus and Godot Configurator via his Pixelitos Icon Theme for the Linux Desktop.
+
+If you are Spanish speaking you might want to follow his YouTube channel various FOSS topics do so here:
+
+[ItzSelenux - Youtube](https://www.youtube.com/ItzSelenux)
+
+If you like our radial menus please give him a follow on YouTube and/or a Star on GitHub.
 
 ---
 

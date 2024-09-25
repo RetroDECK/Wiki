@@ -46,11 +46,21 @@ We are working togheter with the PortMaster team to make this happen. It offers 
 
 Thanks PortMaster Team ❤️
 
-**Question: How many ports are available currently in development?**
+**Question: How many ports are available currently being ported to x86_64?**
 
-So far there about 40-50 ports already for x86-64.
+So far there about 40-50 ports are already done.
 
-As stated in a previous blog the goal is NOT to have all 600+ ports in x86-64 as it does not makes sense. Only games that have
+**Question: Will all ports be available in the long run?**
+
+As stated in a previous blog-post the goal is NOT to have all 600+ ports available.
+
+The primary goal of PortMaster is to port to ARM devices.
+
+Several of the ports are redundant to offer for x86_64 and you already have a better way to play them directly via Steam, Epic (Heroic) or GOG directly.
+
+But there could be some overlap for some games as it only offers an option to install them via PortMaster instead.
+
+Linux already offers several ways: Flathub, Snapcraft, Luxtorpeda runner on Steam, Lutris, Heroic, etc...
 
 **Question: Where will the portmaster ports directory be?**
 

@@ -100,9 +100,9 @@ Thanks Ryujinx Team! ❤️
 
 ## Steam ROM Manager - SRM (Add to Steam) - Status
 
-We have had good dialog and cooperation with the SRM Team to make this feature a reality. But RetroDECK's implementation is quite different as we don't plan to let the users open the SRM interface at all as it will be preconfigured in the back end.
+We have had good dialog and cooperation with the SRM Team to make this feature a reality. But RetroDECK's implementation is quite different and you should not feel the need to open the SRM interface at all (unless you really want to) as it is all preconfigured in the back end.
 
-The goal is the same as a blogpost from way in the past with a much more seamless and elegant solution.
+The goal is the same as an old blogpost with a much more seamless and elegant solution.
 
 1. You enable the system from the Configurator.
 2. Games you mark as ⭐ favorites in the ES-DE interface will be synced to Steam as separate game entries in your library.
@@ -117,15 +117,17 @@ Right now we don't know it is still quite complex as it also need to be integrat
 
 ### Question: Will I be able to choose what artwork that are used if there are multiple?
 
-You will not be able to choose what artwork is grabbed from SteamGridDB it will grab the first version. But we plan to expose the SRM filters at least.
+You will not be able to choose what artwork is grabbed from SteamGridDB it will grab the first version. We plan to expose the filter settings in the Godot Configurator for ease of access (if possible).
 
-### Question: If all settings are in the back end can I enable the SRM filters?
+If you want that high level of customization you will need to open the SRM interface.
+
+### Question: Can I quickly change the SRM filters?
 
 SRM filters:
 
 <img src="../SRM-filters.png" width="800">
 
-If possible, we plan to expose all those important filter settings inside the Godot Configurator. With various dropdowns menus, toggles and checkboxes.
+The goal is to expose them inside the Godot Configurator. With various dropdowns menus, toggles and checkboxes.
 
 **Example:**
 

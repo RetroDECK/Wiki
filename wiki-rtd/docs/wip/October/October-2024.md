@@ -123,8 +123,6 @@ If you want that high level of customization you will need to open the SRM inter
 
 ### Question: Can I quickly change the SRM filters?
 
-SRM filters:
-
 <img src="../SRM-filters.png" width="800">
 
 The goal is to expose them inside the Godot Configurator. With various dropdowns menus, toggles and checkboxes.

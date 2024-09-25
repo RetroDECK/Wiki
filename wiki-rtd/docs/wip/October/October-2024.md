@@ -8,6 +8,8 @@ Highlights:
 
 - Godot Configurator - Status
 - PortMaster - Status
+- Ryujinx Issues - Status
+- Steam ROM Manager - SRM (Add to Steam) - Status
 
 <!-- more -->
 
@@ -15,9 +17,15 @@ Highlights:
 
 It's once again time for a blogpost on what we have been working on for the past month.
 
----
 
-Captain Comeback
+## Captain Comeback - 0.9.0b
+
+As we hit the CC letters with this update, we internally debated long on what the name of the update should be.
+
+The official name for 0.9.0b is now: `Captain Comeback`.
+
+As we have rewritten the entire application from the ground up with the new `Lighter Manifest` in addition to shipping the new `Godot Configurator`.
+It does feel like a comeback.
 
 ---
 
@@ -44,7 +52,7 @@ The [PortMaster](https://portmaster.games/games.html) `x86_64` version is coming
 
 We are working togheter with the PortMaster team to make this happen. It offers a plethora of FOSS games, game engines and other custom games.
 
-Thanks PortMaster Team ❤️
+Thanks PortMaster Team! ❤️
 
 **Question: How many ports are available currently being ported to x86_64?**
 
@@ -52,7 +60,7 @@ So far there about 40-50 ports are already done.
 
 **Question: Will all ports be available in the long run?**
 
-As stated in a previous blog-post the goal is NOT to have all 600+ ports available.
+As stated in a previous blogpost the goal is NOT to have all 600+ ports available.
 
 The primary goal of PortMaster is to port to ARM devices.
 
@@ -84,7 +92,7 @@ They hope to make their pathing more dynamic to solve that the Emulator can't fi
 
 In any case 0.9.0b will have fixes for this either via a custom Ryujinx RetroDECK build or that the main application has been updated with the dynamic pathing.
 
-Thanks Ryujinx Team ❤️
+Thanks Ryujinx Team! ❤️
 
 ---
 
@@ -92,7 +100,7 @@ Thanks Ryujinx Team ❤️
 
 ## Steam ROM Manager - SRM (Add to Steam) - Status
 
-We have had good dialog and cooperation with the SRM Team to make this feature a reality. But RetroDECK's implementation is quite different as we don't plan to let the users open the SRM interface at all as it will be preconfigured in the back-end.
+We have had good dialog and cooperation with the SRM Team to make this feature a reality. But RetroDECK's implementation is quite different as we don't plan to let the users open the SRM interface at all as it will be preconfigured in the back end.
 
 The goal is the same as a blogpost from way in the past with a much more seamless and elegant solution.
 
@@ -101,21 +109,23 @@ The goal is the same as a blogpost from way in the past with a much more seamles
 3. The sync will scrape the art from SteamGridDB and add our controller profile on the games.
 4. You can launch the game as an individual entry.
 
-Thanks SRM Team ❤️
+Thanks SRM Team! ❤️
 
-### Question - SRM: Will this be part of 0.9.0b?
+### Question: Will this be part of 0.9.0b?
 
-Right now we don't know it is still quite complex, no promises. We are working on so many things as you can see.
+Right now we don't know it is still quite complex as it also need to be integrated into the Godot Configurator, no promises . We are working on so many things as you can see.
 
-### Question - SRM: If all settings are in the back-end can I enable the filters?
+### Question: Will I be able to choose what artwork that are used if there are multiple?
 
-You will not be able to choose what artwork is pulled for each game if many exists as it will just grab the first one.
+You will not be able to choose what artwork is grabbed from SteamGridDB it will grab the first version. But we plan to expose the SRM filters at least.
 
-If possible we plan to expose all those important filter values inside the Godot Configurator. With various dropdowns menus, toggles and checkboxes.
+### Question: If all settings are in the back end can I enable the SRM filters?
 
 SRM filters:
 
 <img src="../SRM-filters.png" width="800">
+
+If possible, we plan to expose all those important filter settings inside the Godot Configurator. With various dropdowns menus, toggles and checkboxes.
 
 **Example:**
 
@@ -150,7 +160,7 @@ Italian.
 
 Yes, as stated above if it is part of SRM's filters we will expose it including the toggle for NSFW artwork.
 
-🤌 Stop bothering us on Discord, you know who you are. 🤌
+🤌 Stop asking us on Discord, you know who you are. 🤌
 
 ---
 

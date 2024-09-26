@@ -6,10 +6,12 @@ date: 2024-09-06
 
 Highlights:
 
+- Captain Comeback - 0.9.0b
 - Godot Configurator - Status
 - PortMaster - Status
 - Ryujinx Issues - Status
 - Steam ROM Manager - SRM (Add to Steam) - Status
+- Q&A - Other Questions
 
 <!-- more -->
 

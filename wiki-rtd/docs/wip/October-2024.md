@@ -81,6 +81,14 @@ We are working togheter with the PortMaster team to make this happen. It offers 
 Thanks PortMaster Team! ❤️
 
 
+### Question: Will PortMaster be part of 0.9.0b?
+
+We *hope* to ship is as part of the update. But it is also a quite big feature in addition to the Godot Configuror (let's see where we are when the time comes).
+
+### Question: Where will the portmaster ports directory be?
+
+It will be under `roms/portmaster/`
+
 ### Question: How many ports are available currently being ported to x86_64?
 
 So far there about **40-50** ports are already done.
@@ -88,7 +96,12 @@ So far there about **40-50** ports are already done.
 ### Question: How do you launch the ports?
 
 In the ES-DE interface there is a new PortMaster submenu, from there you can launch PortMaster.
-Within PortMaster you can download and manage your ports. After you have downloaded a port it will show up in the ES-DE interface upon exit.
+
+Within PortMaster you can download and manage your ports.
+
+After you have downloaded a port it will show up in the ES-DE interface upon exit ready to be launched.
+
+Note that some ports require additional steps like adding the purchased gamefiles inside.
 
 
 ### Question: Will all ports be available in the long run?
@@ -103,13 +116,6 @@ But there could be some overlap for some games.
 
 Linux already offers several ways to install big chunk of these ports: Flathub, Snapcraft, Luxtorpeda runner on Steam, Lutris, Heroic, etc...
 
-### Question: Where will the portmaster ports directory be?
-
-It will be under `roms/portmaster/`
-
-### Question: Will PortMaster be part of 0.9.0b?
-
-We *hope* to ship is as part of the update. But it is also a quite big feature in addition to the Godot Configuror (let's see where we are when the time comes).
 
 ---
 

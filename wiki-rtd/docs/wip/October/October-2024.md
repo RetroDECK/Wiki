@@ -13,14 +13,16 @@ Highlights:
 
 <!-- more -->
 
-## Spooky update
+## Spooky lights update
 
 It's once again time for a blogpost on what we have been working on for the past month.
+
+First we wish the community a 🎃 Happy Halloween 🎃 and/or a 🕯️ Happy Diwali 🕯️ for those that celebrate it.
 
 
 ## Captain Comeback - 0.9.0b
 
-As we hit the CC letters with this update, we internally debated long on what the name of the update should be.
+As we hit the `CC` letters with this update, we internally debated long on what the name of the update should be.
 
 The official name for 0.9.0b is now: `Captain Comeback`.
 
@@ -180,15 +182,23 @@ Italian.
 
 Yes, as stated above if it is part of SRM's filters we will expose it including the toggle for NSFW artwork.
 
-🤌 Stop asking us on Discord, you know who you are. 🤌
+🤌 Stop asking us on Discord, you know who you are! 🤌
 
 ---
 
-## How can I help out?
+## Q&A - Other Questions
 
-If you want to help out with our efforts, please post your interest in the 💙-i-want-to-help in either Matrix or Discord.
+### Question: Will you update the 0.8.0b branch more?
+
+No the goal is go straight to 0.9.0b from 0.8.4b. The 0.8.0b branch is on the old codebase and as we have rewritten the application with the light manifest it would waste development resources to do a 0.8.5b update.
+
+### Question: How can I help out?
+
+If you want to help out with our efforts, please post your interest in the 💙`-i-want-to-help` in either Matrix or Discord.
 
 We are always looking for more developers, artists or testers that can contribute to RetroDECK.
+
+---
 
 
 ## That is all for now

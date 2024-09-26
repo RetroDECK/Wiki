@@ -2,7 +2,7 @@
 date: 2024-09-06
 ---
 
-# October 2024: Spooky Update
+# October 2024: Spooky Lights Update
 
 Highlights:
 
@@ -13,12 +13,15 @@ Highlights:
 
 <!-- more -->
 
-## Spooky lights update
+## Spooky Lights Update
 
 It's once again time for a blogpost on what we have been working on for the past month.
 
-First we wish the community a 🎃 Happy Halloween 🎃 and/or a 🕯️ Happy Diwali 🕯️ for those that celebrate it.
+First we wish the community a happy:
 
+🎃 Halloween 🎃 / 🕯️ Diwali 🕯️ / 🪦  Día de los Muertos 🪦
+
+for those that celebrate it.
 
 ## Captain Comeback - 0.9.0b
 

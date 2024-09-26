@@ -52,6 +52,8 @@ We are showing off:
 - Navigation sounds.
 - Description windows that descibe the function.
 
+WE also would like even more help with Beta Testing as this is a huge feature. If you are interested post in 💙`-i-want-to-help` channel in either Matrix or Discord.
+
 ### ItzSelenux special thanks
 
 We also want to thank [ItzSelenux / ItsZariep](https://github.com/ItzSelenux/) for helping us making all of the pixelart icons and logos.
@@ -193,7 +195,7 @@ Yes, as stated above if it is part of SRM's filters we will expose it including 
 
 ### Question: Will you update the 0.8.0b branch more?
 
-No the goal is go straight to 0.9.0b from 0.8.4b. The 0.8.0b branch is on the old codebase and as we have rewritten the application with the light manifest it would waste development resources to do a 0.8.5b update.
+No the goal is go straight from 0.8.4b to 0.9.0b. The 0.8.0b branch is on the old codebase and as we have rewritten the application with the light manifest it would waste development resources to do a 0.8.5b update.
 
 ### Question: How can I help out?
 

@@ -4,7 +4,7 @@ date: 2024-09-06
 
 # October 2024: Spooky Lights Update
 
-Highlights:
+**Highlights:**
 
 - Captain Comeback - 0.9.0b
 - Godot Configurator - Status

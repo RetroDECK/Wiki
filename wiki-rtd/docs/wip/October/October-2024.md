@@ -17,11 +17,9 @@ Highlights:
 
 It's once again time for a blogpost on what we have been working on for the past month.
 
-First we wish the community a happy:
+First we wish the community a happy upcoming:
 
 🎃 Halloween 🎃 / 🕯️ Diwali 🕯️ / 🪦  Día de los Muertos 🪦
-
-for those that celebrate it.
 
 ## Captain Comeback - 0.9.0b
 

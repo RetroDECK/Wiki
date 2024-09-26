@@ -2,7 +2,7 @@
 date: 2024-09-06
 ---
 
-# October 2024: Spooky Lights Update
+# October 2024: Spooky Lights
 
 **Highlights:**
 
@@ -15,7 +15,7 @@ date: 2024-09-06
 
 <!-- more -->
 
-## Spooky Lights Update
+## Spooky Lights Blogpost
 
 It's once again time for a blogpost on what we have been working on for the past month.
 
@@ -110,8 +110,6 @@ We *hope* to ship is as part of the update. But it is also a quite big feature i
 <img src="../Ryujinx.png" width="80">
 
 ## Ryujinx Issues - Status
-
-
 
 We are still working with and having open dialog with the Ryujinx Team on this.
 

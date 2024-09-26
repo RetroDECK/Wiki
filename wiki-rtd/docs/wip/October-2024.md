@@ -85,6 +85,12 @@ Thanks PortMaster Team! ❤️
 
 So far there about **40-50** ports are already done.
 
+### Question: How do you launch the ports?
+
+In the ES-DE interface there is a new PortMaster submenu, from there you can launch PortMaster.
+Within PortMaster you can download and manage your ports. After you have downloaded a port it will show up in the ES-DE interface upon exit.
+
+
 ### Question: Will all ports be available in the long run?
 
 As stated in a previous blogpost the goal is NOT to have all 600+ ports available.

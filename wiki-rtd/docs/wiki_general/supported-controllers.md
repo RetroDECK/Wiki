@@ -107,6 +107,6 @@ Controllers made by Microsoft for the Xbox systems.
 
 | Controller         | Layout Name |  Version      |   Original System   |   Controller Link |  Hotkeys Link   |  Comment  |
 | :---                     | :---:               | :---:                 |       :---:          |  :---:     |   :---:     |    :---:     |
-| Xbox 360      |   `RetroDECK: Xbox 360`      |   `v.1b`          |  Xbox 360  |       [Xbox 360 Controller](../wiki_controllers/xbox/xbox-360.md)   |  [Xbox: Hotkeys](../wiki_controllers/xbox/xbox-hotkeys.md)|  |
-| Xbox Wireless |   `RetroDECK: Xbox Wireless` |   `v.1b`          |  Xbox One / S / X  |       [Xbox Wireless Controller](../wiki_controllers/xbox/xbox-wireless.md)   |  [Xbox: Hotkeys](../wiki_controllers/xbox/xbox-hotkeys.md)|  |
-| Xbox Elite Wireless Series 1 / 2|   `RetroDECK: Xbox Wireless` |   `v.1b`          |  Xbox S / X  |       [Xbox Elite Wireless Controller Series 1 / 2](../wiki_controllers/xbox/xbox-wireless-elite.md)   |  [Xbox: Hotkeys](../wiki_controllers/xbox/xbox-hotkeys.md)| Works as a normal Xbox Wireless in Steam Input|
+| Xbox 360      |   `RetroDECK: Xbox 360`      |   `v.1b`          |  Xbox 360  |       [Xbox 360 Controller](../wiki_controllers/xbox/xbox-360.md)   |  [Xbox: Hotkeys](../wiki_rd_controls/hotkeys-xbox.md)|  |
+| Xbox Wireless |   `RetroDECK: Xbox Wireless` |   `v.1b`          |  Xbox One / S / X  |       [Xbox Wireless Controller](../wiki_controllers/xbox/xbox-wireless.md)   |  [Xbox: Hotkeys](../wiki_rd_controls/hotkeys-xbox.md)|  |
+| Xbox Elite Wireless Series 1 / 2|   `RetroDECK: Xbox Wireless` |   `v.1b`          |  Xbox S / X  |       [Xbox Elite Wireless Controller Series 1 / 2](../wiki_controllers/xbox/xbox-wireless-elite.md)   |  [Xbox: Hotkeys](../wiki_rd_controls/hotkeys-xbox.md)| Works as a normal Xbox Wireless in Steam Input|

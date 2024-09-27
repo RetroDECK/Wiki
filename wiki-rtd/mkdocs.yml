@@ -165,6 +165,7 @@ nav:
       - Cemu - General Guide (WIP): wiki_emulator_guides/cemu/cemu-guide.md
 
     - Dolphin / Primehack 🐬:
+      - Controls Guide: wiki_emulator_guides/dolphin-primehack/dolphin-controls.md
       - General Guide (WIP): wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md
       - Mod Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-mod.md
       - Texture Pack Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-texture-pack.md
@@ -260,6 +261,7 @@ nav:
     - Nintendo:
       - Switch - Joy-Cons (WIP): wiki_controllers/nintendo/joycon.md
       - Switch - Ring Fit (WIP): wiki_controllers/nintendo/ring-fit.md
+      - Switch - Pro (WIP): wiki_controllers/nintendo/switch-pro.md
       - Wii U - Gamepad: wiki_controllers/nintendo/wiiu-gamepad.md
       - Wii - Wii Remote (Wiimote): wiki_controllers/nintendo/wii-remote.md
       - Wii - Wii Balance Board (WIP): wiki_controllers/nintendo/wii-balance-board.md

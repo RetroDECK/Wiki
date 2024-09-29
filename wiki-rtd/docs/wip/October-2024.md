@@ -72,7 +72,7 @@ If you like our radial menus please give him a follow on YouTube and/or a Star o
 
 ## PortMaster - Status
 
-<img src="../homm3.png" width="450"> <img src="../mm.png" width="450">
+![type:video](PortMaster.mp4)
 
 The [PortMaster](https://portmaster.games/games.html) `x86_64` version is coming along slow and steady.
 

@@ -180,7 +180,7 @@ We plan to expose all of those values in some graphical form inside the Configur
 
 #### But what about that ONE toggle?
 
-We are aware that we have community members that consider themselves a:
+We are aware that we have some community members that consider themselves a:
 
 ```
 Person of CULTURE.
@@ -188,11 +188,11 @@ Man of CULTURE.
 Woman of CULTURE.
 Anthropomorphic Animal of CULTURE.
 Anthropomorphic Blue Dragonkin of CULTURE.
+Italian
 Sentient Furniture of CULTURE.
 Virtual Avatar of CULTURE.
+Goon Squad V.I.P
 Undead Creature of CULTURE.
-Italian.
-Goon Squad V.I.P.
 <Custom Value> of CULTURE.
 ```
 

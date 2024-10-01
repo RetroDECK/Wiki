@@ -50,7 +50,7 @@ We are showing off:
 - Updated keygrid.
 - More colors.
 - Navigation sounds.
-- Description windows that descibe the function.
+- Description windows that describes the function.
 
 WE also would like even more help with Beta Testing as this is a huge feature. If you are interested post in 💙`-i-want-to-help` channel in either Matrix or Discord.
 

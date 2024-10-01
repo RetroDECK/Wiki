@@ -52,7 +52,7 @@ We are showing off:
 - Navigation sounds.
 - Description windows that describes the function.
 
-WE also would like even more help with Beta Testing as this is a huge feature. If you are interested post in 💙`-i-want-to-help` channel in either Matrix or Discord.
+We also would like even more help with Beta Testing as this is a huge feature. If you are interested post in 💙`-i-want-to-help` channel in either Matrix or Discord.
 
 ### ItzSelenux special thanks
 

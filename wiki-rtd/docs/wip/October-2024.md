@@ -192,6 +192,7 @@ Sentient Furniture of CULTURE.
 Virtual Avatar of CULTURE.
 Undead Creature of CULTURE.
 Italian.
+Goon Squad V.I.P.
 <Custom Value> of CULTURE.
 ```
 

@@ -1,5 +1,5 @@
 ---
-date: 2024-09-06
+date: 2024-10-01
 ---
 
 # October 2024: Spooky Lights
@@ -91,7 +91,7 @@ So far there about **40-50** ports are already done and more to come.
 
 ### Question: How do you launch the ports?
 
-In the ES-DE interface there is a new PortMaster submenu, from there you can launch PortMaster.
+In the ES-DE interface there is a new PortMaster system menu, from there you can launch PortMaster.
 
 Within PortMaster you can download and manage your ports.
 
@@ -110,7 +110,7 @@ Several of the ports are redundant to offer for x86_64 and you already have a be
 
 But there could be some overlap for some games.
 
-Linux already offers several ways to install big chunk of these ports: Flathub, Snapcraft, Luxtorpeda runner on Steam, Lutris, Heroic, etc...
+Linux already offers several ways to install big chunk of these ports: Flathub, Snap Store, Luxtorpeda, Lutris, Heroic, etc...
 
 ### Question: How will port and PM updates work?
 
@@ -139,12 +139,10 @@ Thanks Ryujinx Team! ❤️
 
 We have had good dialog and cooperation with the SRM Team to make this feature a reality. But RetroDECK's implementation is quite different and you should not feel the need to open the SRM interface at all (unless you really want to) as it is all preconfigured in the back end.
 
-The goal is the same as an old blogpost with a much more seamless and elegant solution.
+The goal is the same as an old blog post with a much more seamless and elegant solution:
 
-1. You enable the system from the Configurator.
-2. Games you mark as ⭐ favorites in the ES-DE interface will be synced to Steam as separate game entries in your library.
-3. The sync will scrape the art from SteamGridDB and add our controller profile on the games.
-4. You can launch the game as an individual entry.
+Enable Steam Sync from the Configurator. The games you mark as ⭐ favorites in the ES-DE interface will be synced to Steam as separate game entries in your library on launch or exit of RetroDECK and should apply our controller profile automatically.
+
 
 Thanks SRM Team! ❤️
 
@@ -180,7 +178,7 @@ We plan to expose all of those values in some graphical form inside the Configur
 
 #### But what about that ONE toggle?
 
-We are aware that we have some community members that consider themselves a:
+We are aware that we have *some* community members that consider themselves a:
 
 ```
 Person of CULTURE.
@@ -188,10 +186,10 @@ Man of CULTURE.
 Woman of CULTURE.
 Anthropomorphic Animal of CULTURE.
 Anthropomorphic Blue Dragonkin of CULTURE.
-Italian
+Italian.
 Sentient Furniture of CULTURE.
 Virtual Avatar of CULTURE.
-Goon Squad V.I.P
+V.I.P member of the Goon Squad.
 Undead Creature of CULTURE.
 <Custom Value> of CULTURE.
 ```

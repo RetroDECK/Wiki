@@ -401,13 +401,13 @@ RetroDECK Team owns a license.
 [Licenses](https://fontstruct.com/fontstructions/show/1844233/pixel-sans-13)
 
 
-### Mini Banner
+### Mini Banner / RetroDECK Theme (Remixed Mini Banner)
 
 [Source](https://forums.launchbox-app.com/files/file/4084-mini-banner/?tab=comments#comment-17029)
 
-Pixel Art is made by the group: Weestuarty, DerSchlachter (LaunchBox), Dan Patrick.
+Mini Banner is a LaunchBox theme with several pixelart made by the artist group: Weestuarty, DerSchlachter (LaunchBox), Dan Patrick.
 
-Permission by Weestuarty to use in RetroDECK.
+Weestuarty of the group made the remix version of their LaunchBox theme for usage in RetroDECK.
 
 ---
 

@@ -150,6 +150,8 @@ Thanks SRM Team! ❤️
 
 Right now, we don't know it is still quite complex as it also need to be integrated into the Godot Configurator, no promises. We are working on so many things as you can see.
 
+[We know you have been waiting](https://soundcloud.com/lazorne/the-most-requested-feature-1)
+
 ### Question: Will I be able to choose what artwork that are used if there are multiple?
 
 You will not be able to choose what artwork is grabbed from SteamGridDB it will grab the first version. We plan to expose the filter settings in the Godot Configurator for ease of access (if possible).

@@ -42,7 +42,7 @@ It does feel like a comeback.
 
 As always everything is W.I.P and subject to change.
 
-The RetroDECK Team have kept working on Godot since last month. MonkeyX have put his heart and soul into this and we are happy to have him :)
+The RetroDECK Team have kept working on Godot since last month. MonkeyX has put his heart and soul into this and we are happy to have him :)
 
 We are showing off:
 
@@ -64,7 +64,7 @@ If you are Spanish speaking you might want to follow his YouTube channel various
 
 [ItzSelenux - Youtube](https://www.youtube.com/ItzSelenux)
 
-If you like our radial menus please give him a follow on YouTube and/or a Star on GitHub.
+If you like our radial menus, please give follow him on YouTube and/or a Star on GitHub
 
 ---
 
@@ -83,15 +83,11 @@ Thanks PortMaster Team! ❤️
 
 ### Question: Will PortMaster be part of 0.9.0b?
 
-We *hope* to ship is as part of the update. But it is also a quite big feature in addition to the Godot Configuror (let's see where we are when the time comes).
-
-### Question: Where will the portmaster ports directory be?
-
-It will be under `roms/portmaster/`
+The current goal is that we *hope* ship it as part of the update. It is also a quite big feature in addition to the Godot Configuror.
 
 ### Question: How many ports are available currently being ported to x86_64?
 
-So far there about **40-50** ports are already done.
+So far there about **40-50** ports are already done and more to come.
 
 ### Question: How do you launch the ports?
 
@@ -99,7 +95,7 @@ In the ES-DE interface there is a new PortMaster submenu, from there you can lau
 
 Within PortMaster you can download and manage your ports.
 
-After you have downloaded a port it will show up in the ES-DE interface upon exit ready to be launched.
+After you have downloaded a port, it will show up in the ES-DE interface upon exit ready to be launched.
 
 Note that some ports require additional steps like adding the purchased gamefiles inside.
 
@@ -116,6 +112,10 @@ But there could be some overlap for some games.
 
 Linux already offers several ways to install big chunk of these ports: Flathub, Snapcraft, Luxtorpeda runner on Steam, Lutris, Heroic, etc...
 
+### Question: How will port and PM updates work?
+
+PortMaster will have its own subsystem in RetroDECK and will have the ability to update itself and the ports.
+Just launch PortMaster and it will update itself if needed.
 
 ---
 
@@ -150,7 +150,7 @@ Thanks SRM Team! ❤️
 
 ### Question: Will this be part of 0.9.0b?
 
-Right now we don't know it is still quite complex as it also need to be integrated into the Godot Configurator, no promises . We are working on so many things as you can see.
+Right now, we don't know it is still quite complex as it also need to be integrated into the Godot Configurator, no promises. We are working on so many things as you can see.
 
 ### Question: Will I be able to choose what artwork that are used if there are multiple?
 

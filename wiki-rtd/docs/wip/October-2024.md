@@ -15,7 +15,7 @@ date: 2024-10-01
 
 <!-- more -->
 
-<img src="../Ryujinx.png" width="80">
+<img src="../Ryujinx.png" width="80"> <img src="../edit-delete.png" width="80">
 
 ## Ryujinx Shutdown
 
@@ -40,7 +40,7 @@ It's once again time for a blogpost on what we have been working on for the past
 
 First we wish the community a happy upcoming:
 
-🎃 Halloween 🎃 / 🕯️ Diwali 🕯️ / 🪦  Día de los Muertos 🪦
+🎃 Halloween 🎃 / 🕯️ Diwali 🕯️ / 🪦  Día de los Muertos 🪦It does not mean we will remove the emulator currently but it will be considered Legacy and stuck in it's current "not perfect" state as part of 0.9.0b (unless something else happens in emulation space).
 
 ## Captain Comeback - 0.9.0b
 

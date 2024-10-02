@@ -7,9 +7,9 @@ date: 2024-10-01
 **Highlights:**
 
 - Captain Comeback - 0.9.0b
+- Ryujinx Takedown
 - Godot Configurator - Status
 - PortMaster - Status
-- Ryujinx Issues - Status
 - Steam ROM Manager - SRM (Add to Steam) - Status
 - Q&A - Other Questions
 
@@ -31,6 +31,15 @@ The official name for 0.9.0b is now: `Captain Comeback`.
 
 As we have rewritten the entire application from the ground up with the new `Lighter Manifest` in addition to shipping the new `Godot Configurator`.
 It does feel like a comeback.
+
+---
+
+
+<img src="../Ryujinx.png" width="80">
+
+## Ryujinx Takedown
+
+We are sadden by this outcome.
 
 ---
 
@@ -119,17 +128,7 @@ Just launch PortMaster and it will update itself if needed.
 
 ---
 
-<img src="../Ryujinx.png" width="80">
 
-## Ryujinx Issues - Status
-
-We are still working with and having open dialog with the Ryujinx Team on this.
-
-They hope to make their pathing more dynamic to solve that the Emulator can't find several files in an upcoming Ryujinx update. But the problem is quite complex.
-
-In any case 0.9.0b will have fixes for this either via a custom Ryujinx RetroDECK build or that the main application has been updated with the dynamic pathing.
-
-Thanks Ryujinx Team! ❤️
 
 ---
 

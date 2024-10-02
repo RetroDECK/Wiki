@@ -6,14 +6,33 @@ date: 2024-10-01
 
 **Highlights:**
 
+- Ryujinx - Comment
 - Captain Comeback - 0.9.0b
-- Ryujinx Takedown
 - Godot Configurator - Status
 - PortMaster - Status
 - Steam ROM Manager - SRM (Add to Steam) - Status
 - Q&A - Other Questions
 
 <!-- more -->
+
+<img src="../Ryujinx.png" width="80">
+
+## Ryujinx - Comment
+
+We wanted to begin the blog with something more joyful, but with the big news that Ryujinx got shut down we felt the need to comment on that.
+
+Ryujinx can't be considered "officially supported" by RetroDECK as we can no longer get bugfixes from the Ryujinx developers. It is just stuck in it's current not perfect state.
+
+We were giving feedback on a bugfix to them with the goal of fixing some underlying issues with custom paths in Linux but sadly as of now those will never be delivered.
+
+It does not mean we will remove the emulator currently and it is not in a perfect state as is anyhow. The emulator will be marked and considered (Legacy) as part of 0.9.0b unless something else happens.
+
+We will update you in the future when more information is available and we have no more information than you.
+
+Now on to the rest of the blog.
+
+---
+
 
 ## Spooky Lights Blogpost
 
@@ -34,19 +53,6 @@ It does feel like a comeback.
 
 ---
 
-
-<img src="../Ryujinx.png" width="80">
-
-## Ryujinx Takedown
-
-We are sadden by this outcome.
-
-It will mean that Ryujinx is no longer official supported by RetroDECK as we can no longer get bugfixes from the Ryujinx developers that can fix the underlying issues we where having (they where supposed to come in a later patch we where giving feedback on).
-
-The emulator will be marked as legacy as part of 0.9.0b.
-
-
----
 
 <img src="../godot.png" width="80">
 
@@ -143,6 +149,8 @@ We have had good dialog and cooperation with the SRM Team to make this feature a
 The goal is the same as an old blog post with a much more seamless and elegant solution:
 
 Enable Steam Sync from the Configurator. The games you mark as ⭐ favorites in the ES-DE interface will be synced to Steam as separate game entries in your library on launch or exit of RetroDECK and should apply our controller profile automatically.
+
+We also want to automatically add RetroDECK itself upon first install with the controller profile added with this as well.
 
 
 Thanks SRM Team! ❤️

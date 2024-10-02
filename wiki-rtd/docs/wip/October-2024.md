@@ -41,6 +41,11 @@ It does feel like a comeback.
 
 We are sadden by this outcome.
 
+It will mean that Ryujinx is no longer official supported by RetroDECK as we can no longer get bugfixes from the Ryujinx developers that can fix the underlying issues we where having (they where supposed to come in a later patch we where giving feedback on).
+
+The emulator will be marked as legacy as part of 0.9.0b.
+
+
 ---
 
 <img src="../godot.png" width="80">

@@ -17,17 +17,17 @@ date: 2024-10-01
 
 <img src="../Ryujinx.png" width="80">
 
-## Ryujinx - Comment
+## Ryujinx Shutdown
 
 We wanted to begin the blog with something more joyful, but with the big news that Ryujinx got shut down we felt the need to comment on that.
 
-Ryujinx can't be considered "officially supported" by RetroDECK as we can no longer get bugfixes from the Ryujinx developers. It is just stuck in it's current not perfect state.
+Ryujinx now can't be considered "officially supported" by RetroDECK as we can no longer get bugfixes from the Ryujinx developers.
 
 We were giving feedback on a bugfix to them with the goal of fixing some underlying issues with custom paths in Linux but sadly as of now those will never be delivered.
 
-It does not mean we will remove the emulator currently and it is not in a perfect state as is anyhow. The emulator will be marked and considered (Legacy) as part of 0.9.0b unless something else happens.
+It does not mean we will remove the emulator currently but it will be considered and marked Legacy. It will be stuck in its current "not perfect" state as part of 0.9.0b (unless something else happens in emulation space).
 
-We will update you in the future when more information is available and we have no more information than you.
+We will update you in the future when more information is available or if things change (we have no more information than you).
 
 Now on to the rest of the blog.
 

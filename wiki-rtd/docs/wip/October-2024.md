@@ -15,11 +15,13 @@ date: 2024-10-01
 
 <!-- more -->
 
+---
+
 <img src="../Ryujinx.png" width="80"> <img src="../edit-delete.png" width="80">
 
 ## Ryujinx Shutdown
 
-We wanted to begin the blog with something more joyful, but with the big news that Ryujinx got shut down we felt the need to comment on that.
+With the big news that Ryujinx got shut down we felt the need to comment on that.
 
 Ryujinx now can't be considered "officially supported" by RetroDECK as we can no longer get bugfixes from the Ryujinx developers.
 

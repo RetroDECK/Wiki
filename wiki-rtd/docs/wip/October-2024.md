@@ -96,7 +96,7 @@ The current goal is that we *hope* ship it as part of the update. It is also a q
 
 ### Question: How many ports are available currently being ported to x86_64?
 
-So far there about **40-50** ports are already done and more to come.
+So far there about **90** ports are already done and more to come.
 
 ### Question: How do you launch the ports?
 
@@ -128,9 +128,6 @@ Just launch PortMaster and it will update itself if needed.
 
 ---
 
-
-
----
 
 <img src="../srm-logo.png" width="80">
 

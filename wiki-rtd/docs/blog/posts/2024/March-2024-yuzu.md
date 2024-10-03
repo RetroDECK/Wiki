@@ -4,7 +4,7 @@ date: 2024-03-04
 
 # March 2024: Tiny update - Yuzu Removal
 
-Highlights:
+## Highlights
 
 - Yuzu & Citra is getting removed in 0.8.0b
 

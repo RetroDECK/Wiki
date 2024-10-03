@@ -1,36 +1,30 @@
 ---
-date: 2024-10-01
+date: 2024-10-03
 ---
 
 # October 2024: Spooky Lights
 
-**Highlights:**
+## Ryujinx Shutdown
 
-- Ryujinx - Comment
+With the big news that Ryujinx got shut down we felt the need to comment on that.
+
+It does not mean we will remove the emulator currently but it will be considered not supported from now on. It will be marked as **Legacy** as of 0.9.0b as it will and can't not be updated anymore. Thus, stuck forever in its not perfect state and in the end will stop working as time passes. All the Ryujinx information on the wiki will also be moved into the archive from that point.
+
+We will update you in the future when or if more information is available (we don't know more then you).
+
+With that out of the way... on to the rest of the blog!
+
+## Highlights
+
 - Captain Comeback - 0.9.0b
 - Godot Configurator - Status
 - PortMaster - Status
 - Steam ROM Manager - SRM (Add to Steam) - Status
 - Q&A - Other Questions
 
+
+
 <!-- more -->
-
----
-
-<img src="../Ryujinx.png" width="80"> <img src="../edit-delete.png" width="80">
-
-## Ryujinx Shutdown
-
-With the big news that Ryujinx got shut down we felt the need to comment on that.
-
-It does not mean we will remove the emulator currently but it will be considered not supported from now. It will be marked as **Legacy** as of 0.9.0b as it will and can't not be updated anymore. Thus, stuck forever in its not perfect state and in the end will stop working as time passes. All the Ryujinx information on the wiki will also be moved into the archive from that point.
-
-We will update you in the future when or if more information is available (we don't know more then you).
-
-With that out of the way... on to the rest of the blog!
-
----
-
 
 ## Spooky Lights Blogpost
 
@@ -52,7 +46,7 @@ It does feel like a comeback.
 ---
 
 
-<img src="../godot.png" width="80">
+<img src="../../../godot.png" width="80">
 
 ## Godot Configurator - Status
 
@@ -86,7 +80,7 @@ If you like our radial menus, please give follow him on YouTube and/or a Star on
 
 ---
 
-<img src="../portmaster.png" width="80">
+<img src="../../../portmaster.png" width="80">
 
 ## PortMaster - Status
 
@@ -108,6 +102,8 @@ Yes, the current goal is that we *hope* ship it as part of the update. It is als
 So far there about **90+** ports are already done and been ported with more to come. As with everything within RetroDECK and PortMaster to play the proprietary game ports you will need to own them to get the game files. But there exists a plethora of free games / fan games / foss games for you to enjoy right from the start.
 
 Look out for sales on Steam or GOG to complete your PortMaster collection!
+
+<img src="../../../mm.png" width="650">
 
 ### Question: How do you launch the ports?
 
@@ -137,7 +133,7 @@ Just launch PortMaster and it will update itself and its ports if needed.
 ---
 
 
-<img src="../srm-logo.png" width="80">
+<img src="../../../srm-logo.png" width="80">
 
 ## Steam ROM Manager - SRM (Add to Steam) - Status
 
@@ -166,7 +162,7 @@ If you want that a high level of customization you will need to open the SRM int
 
 ### Question: Can I quickly change the SRM filters?
 
-<img src="../SRM-filters.png" width="800">
+<img src="../../../SRM-filters.png" width="800">
 
 The goal is to expose them inside the Godot Configurator. With various dropdowns menus, toggles and checkboxes.
 
@@ -184,7 +180,7 @@ The `Grid Style` filter has the values of:
 We plan to expose all of those values in some graphical form inside the Configurator (if possible).
 
 
-#### But what about that ONE toggle?
+#### But will you expose that ONE toggle as well?
 
 We are aware that we have *some* community members that consider themselves a:
 
@@ -202,7 +198,7 @@ Undead Creature of CULTURE.
 <Custom Value> of CULTURE.
 ```
 
-Yes, as stated above if it is part of SRM's filters we will expose it including the toggle for NSFW artwork.
+Yes, as stated above if it is part of SRM's filters we will expose it in the Godot Configurator including the toggle for `Allow NSFW Artwork`.
 
 🤌 Stop asking us on Discord, you know who you are! 🤌
 

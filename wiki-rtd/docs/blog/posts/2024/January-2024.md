@@ -6,7 +6,7 @@ date: 2024-01-24
 
 A new year and a new blog post!
 
-Highlights:
+## Highlights
 
 - External Controller - Radial Menus
 - Vita3K & BoilR cooperation

@@ -4,7 +4,7 @@ date: 2024-02-23
 
 # February 2024: 0.8.0b Progress!
 
-Highlights:
+## Highlights
 
 - Status 0.8.0b: All Emulators are running
 - External Controllers done

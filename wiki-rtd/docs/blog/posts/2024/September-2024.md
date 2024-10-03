@@ -4,7 +4,7 @@ date: 2024-09-06
 
 # September 2024: Post-summer report
 
-Highlights:
+## Highlights
 
 - Lighter Manifest: What is it?
 - Lighter Manifest: Results

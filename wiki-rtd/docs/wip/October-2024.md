@@ -25,7 +25,7 @@ With the big news that Ryujinx got shut down we felt the need to comment on that
 
 It does not mean we will remove the emulator currently but it will be considered not supported from now. It will be marked as **Legacy** as of 0.9.0b as it will and can't not be updated anymore. Thus, stuck forever in its not perfect state and in the end will stop working as time passes. All the Ryujinx information on the wiki will also be moved into the archive from that point.
 
-We will update you in the future when more information is available or something changes (we have no more information than you).
+We will update you in the future when more information is available.
 
 With that out of the way... on to the rest of the blog!
 
@@ -105,7 +105,7 @@ The current goal is that we *hope* ship it as part of the update. It is also a q
 
 ### Question: How many ports are available currently being ported to x86_64?
 
-So far there about **90** ports are already done and more to come.
+So far there about **90** ports are already done and more to come. As with everything within RetroDECK and PortMaster you will to own proprietary ports source games to get them to work. But
 
 ### Question: How do you launch the ports?
 

@@ -25,7 +25,7 @@ With the big news that Ryujinx got shut down we felt the need to comment on that
 
 It does not mean we will remove the emulator currently but it will be considered not supported from now. It will be marked as **Legacy** as of 0.9.0b as it will and can't not be updated anymore. Thus, stuck forever in its not perfect state and in the end will stop working as time passes. All the Ryujinx information on the wiki will also be moved into the archive from that point.
 
-We will update you in the future when more information is available.
+We will update you in the future when or if more information is available (we don't know more then you).
 
 With that out of the way... on to the rest of the blog!
 

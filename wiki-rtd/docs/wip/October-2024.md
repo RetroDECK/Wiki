@@ -94,18 +94,20 @@ If you like our radial menus, please give follow him on YouTube and/or a Star on
 
 The [PortMaster](https://portmaster.games/games.html) `x86_64` version is coming along slow and steady.
 
-We are working togheter with the PortMaster team to make this happen. It offers a plethora of FOSS games, game engines and other custom games.
+We are working togheter with the PortMaster Team to make this happen.
 
 Thanks PortMaster Team! ❤️
 
 
 ### Question: Will PortMaster be part of 0.9.0b?
 
-The current goal is that we *hope* ship it as part of the update. It is also a quite big feature in addition to the Godot Configuror.
+Yes, the current goal is that we *hope* ship it as part of the update. It is also a quite big feature in addition to the Godot Configuror.
 
-### Question: How many ports are available currently being ported to x86_64?
+### Question: How many ports are available to x86_64 currently?
 
-So far there about **90** ports are already done and more to come. As with everything within RetroDECK and PortMaster you will to own proprietary ports source games to get them to work. But
+So far there about **90+** ports are already done and been ported with more to come. As with everything within RetroDECK and PortMaster to play the proprietary game ports you will need to own them to get the game files. But there exists a plethora of free games / fan games / foss games for you to enjoy right from the start.
+
+Look out for sales on Steam or GOG to complete your PortMaster collection!
 
 ### Question: How do you launch the ports?
 
@@ -113,10 +115,7 @@ In the ES-DE interface there is a new PortMaster system menu, from there you can
 
 Within PortMaster you can download and manage your ports.
 
-After you have downloaded a port, it will show up in the ES-DE interface upon exit ready to be launched.
-
-Note that some ports require additional steps like adding the purchased gamefiles inside.
-
+After you have downloaded a port, it will show up in the ES-DE interface upon exit ready to be launched (you will need to restart ES-DE or RetroDECK as entries are added on boot).
 
 ### Question: Will all ports be available in the long run?
 
@@ -133,7 +132,7 @@ Linux already offers several ways to install big chunk of these ports: Flathub, 
 ### Question: How will port and PM updates work?
 
 PortMaster will have its own subsystem in RetroDECK and will have the ability to update itself and the ports.
-Just launch PortMaster and it will update itself if needed.
+Just launch PortMaster and it will update itself and its ports if needed.
 
 ---
 
@@ -155,7 +154,7 @@ Thanks SRM Team! ❤️
 
 ### Question: Will this be part of 0.9.0b?
 
-Right now, we don't know it is still quite complex as it also need to be integrated into the Godot Configurator, no promises. We are working on so many things as you can see.
+Right now, we don't know it is still quite complex as it also need to be integrated into the Godot Configurator, no promises. We are working on so many things as you can see. But it is in a semi-working state, we just need to improve it more.
 
 [We know you have been waiting](https://soundcloud.com/lazorne/the-most-requested-feature-1)
 

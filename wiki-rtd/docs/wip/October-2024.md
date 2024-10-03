@@ -25,7 +25,7 @@ With the big news that Ryujinx got shut down we felt the need to comment on that
 
 Ryujinx now can't be considered "officially supported" by RetroDECK as the emulator no long exists and will not be updated anymore.
 
-It does not mean we will remove the emulator currently but it will be considered and marked Legacy as of 0.9.0b. Stuck forever in its not perfect state and in the end will stop working as time passes. All the Ryujinx guides on the wiki will also be moved into the archive from that point.
+It does not mean we will remove the emulator currently but it will be considered and marked Legacy as of 0.9.0b. Thus stuck forever in its not perfect state and in the end will stop working as time passes. All the Ryujinx guides on the wiki will also be moved into the archive from that point.
 
 We will update you in the future when more information is available or if things change (we have no more information than you).
 

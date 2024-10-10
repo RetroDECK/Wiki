@@ -21,7 +21,7 @@ PCSX2 supports the following formats: `ISO` `BIN with CUE files` `CHD`
 
 ## Does PCSX2 require BIOS or Firmware?
 
-Yes, they need to be put directly into the `retrodeck/roms/bios/` without any subfolder.
+Yes, they need to be put directly into the `retrodeck/bios/` without any subfolder.
 
 
 ## How to enable/disable Multitap?

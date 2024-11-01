@@ -129,7 +129,7 @@ nav:
   - Guides - Linux Desktop 🐧:
 
     - Installation and Updates: wiki_devices/linux_desktop/linux-install.md
-    - Recommended Software: wiki_devices/linux_desktop/linux-software.md
+    - Recommended Software: wiki_devices/linux_updating-components.mddesktop/linux-software.md
 
   - Guides - ES-DE Frontend 🤖:
 
@@ -328,6 +328,7 @@ nav:
       - Start with Development (WIP): wiki_development/general/general-development.md
       - Build Locally (WIP): wiki_development/general/build-locally.md
       - Add System (WIP): wiki_development/general/add-system.md
+      - Updating Systems (components): wiki_development/general/updating-components.md
 
     - Testing 📝:
       - Cooker Testing - FAQ: wiki_development/testing/faq-cooker.md

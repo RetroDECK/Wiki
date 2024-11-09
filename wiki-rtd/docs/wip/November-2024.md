@@ -70,7 +70,7 @@ We had secret plans to include Lime3DS into the release of 0.9b.
 
 But as the big Citra forks are merging into one, it feels better to wait until they have sorted everything out.
 
-It is better to get the best project into RetroDECK proper. 
+It is better to get the best project into RetroDECK. 
 
 When their new repo is up and running, we will target that. 
 

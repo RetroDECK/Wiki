@@ -77,7 +77,9 @@ We are looking into utilizing [UMU Launcher](https://github.com/Open-Wine-Compon
 
 Instead of pulling in all vanilla Wine into RetroDECK and configuring it, UMU Launcher feels like a better architectural choice that can give more synergies in the future. 
 
-We are waiting for the magnificent Open Wine Components Team (Heroic Game Launcher, Lutris, Bottles, Lutris, Proton-GE and more) to finish their Flatpak version.  
+We are waiting for the magnificent Open Wine Components Team (Heroic Game Launcher, Lutris, Bottles, Lutris, Proton-GE and more) to finish their Flatpak version. 
+
+Xenia will not be part of 0.9b. 
 
 --- 
 

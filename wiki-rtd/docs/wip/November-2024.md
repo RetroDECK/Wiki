@@ -22,8 +22,7 @@ This month we will discuss
 
 - Godot Configurator - status 
 
-- Merged Cooker 
-
+- Merged Chungus Cooker 
   
 
 <!-- more --> 
@@ -124,6 +123,9 @@ The current cooker now features most of 0.9b:
 
 - Ruffle 
 
+
+There is still plenty of work to do and we always do need more people testing and developing. 
+
 If you want to help with parts of development or testing, please contact us on `Matrix` / `Discord` in the `💙-i-want-to-help` channel. 
 
 --- 
@@ -132,9 +134,7 @@ If you want to help with parts of development or testing, please contact us on `
 
 ## Known issues in cooker 
 
-There is still plenty of work to do and we always do need more people testing and developing. 
-
-This is a list of significant issues we are investigating. 
+This is a list of significant smaller and bigger issues we are investigating. 
 
 <img src="../folder-blue-games.png" width="30"> 
 

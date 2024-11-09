@@ -52,7 +52,7 @@ We are secretly soft launched our new website during Halloween.
 
 Check it out and give feedback on the Discord on Lemmy.  
 
-Thanks Adam Iannazzone for all his hard work on contributing his free time to the RetroDECK project and the new website.  
+Thanks `Adam Iannazzone` for all his hard work on contributing his free time to the RetroDECK project and the new website.  
 
 --- 
 

@@ -124,6 +124,8 @@ The current cooker now features most of 0.9b:
 
 - Ruffle 
 
+If you want to help with parts of development or testing, please contact us on `Matrix` / `Discord` in the `💙-i-want-to-help` channel. 
+
 --- 
 
 <img src="../utilities-system-monitor.png" width="80"> 
@@ -133,8 +135,6 @@ The current cooker now features most of 0.9b:
 There is still plenty of work to do and we always do need more people testing and developing. 
 
 This is a list of significant issues we are investigating. 
-
-If you want to help with parts of development or testing, please contact us on `Matrix` / `Discord` in the `💙-i-want-to-help` channel. 
 
 <img src="../folder-blue-games.png" width="30"> 
 

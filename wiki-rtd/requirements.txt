@@ -1,3 +1,4 @@
 mkdocs-material
 mkdocs-rss-plugin
 mkdocs-video
+mkdocs-audio

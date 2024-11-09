@@ -33,15 +33,21 @@ This month we will discuss
 
 ## Development is a bit slower  
   
-Please note that this is a big release with several features that requires coordination of several people that spends their free time doing this.
+Please note that this is a big release with several big features that requires coordination of many people that spends their free time doing this.
 
 We had an internal goal of December but sometimes IRL issues happen that takes away that time (work, family, life, death, love, etc..). 
 
-It is a huge endeavor as we are rewriting several aspects of RetroDECK and adding tons of new features. Thus we cannot give any ETA's on when 0.9b will be released and done. 
+It is a huge endeavor as we are rewriting huge aspects of RetroDECK and adding tons of new features. 
+
+We cannot give any ETA's on when 0.9b will be released and done. 
+
+But if you are following our GitHub you can see things are happening almost everyday and no one is sitting idle. 
 
 --- 
 
-<img src="../internet-web-browser.png" width="80"> 
+
+
+<img src="../website.png" width="800"> 
 
 ## New website 
 
@@ -52,6 +58,7 @@ We are secretly soft launched our new website during Halloween.
 Check it out and give feedback on the Discord on Lemmy.  
 
 Thanks `Adam Iannazzone` for all his hard work on contributing his free time to the RetroDECK project and the new website.  
+
 
 --- 
 
@@ -166,8 +173,6 @@ This is a list of significant smaller and bigger issues we are investigating.
 
 ### Emulators / Components 
 
-
-
 - Not all emulators have been updated yet as some have added additional dependencies we need to build. 
 
 - Ryujinx is disabled at this moment, because of bugs. 
@@ -176,10 +181,7 @@ This is a list of significant smaller and bigger issues we are investigating.
 
 ### PortMaster  
 
-
-
 - No reported issues 
-
 
 <img src="../ruffle.png" width="30"> 
 
@@ -206,7 +208,7 @@ Thanks everyone!
 
 [Matrix](https://matrix.to/#/#retrodeck:matrix.org) 
 
-[Github](https://github.com/XargonWan/RetroDECK) 
+[GitHub](https://github.com/XargonWan/RetroDECK) 
 
 [Wiki](https://github.com/XargonWan/RetroDECK/wiki) 
 

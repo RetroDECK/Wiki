@@ -92,11 +92,11 @@ The general thought is if we can provide an option to manually synchronize the e
 
 --- 
 
-<img src="../big-chungus.png" width="70"> 
+<img src="../big-chungus.png" width="100"> 
 
-## Merged Cooker 
+## Merged Chungus Cooker 
 
-Several of the big feature branches are now merged into Cooker proper (creating one big chunky boi). 
+Several of the big feature branches are now merged into Cooker proper (creating one chunky boi). 
 
 Having one big cooker now will make it easier to test everything that 0.9b has to offer. 
 

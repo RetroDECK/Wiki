@@ -1,159 +1,191 @@
----
-date: 2024-10-03
----
+--- 
 
-# November 2024: Merged winter
+date: 2024-11-09 
 
-This month we will discuss
+--- 
 
-## Highlights
+  
 
-- Development is a bit slower 
-- New website
-- 3DS Emulation - status
-- Xenia - status
-- Godot Configurator - status
-- Merged Cooker
+# November 2024: Merged winter 
 
-<!-- more -->
+This month we will discuss 
 
-## Development is a bit slower 
+## Highlights 
 
-Please note that this is a big release with several features that requires coordination of several people that spends their free time doing this. 
-It is a huge endeavor and we can't give any ETA's on when 0.9b will be released and done. We had an internal goal of December but...
+- Development is a bit slower
 
-sometimes IRL issues happen that takes away that time (work, family, life, death, love, etc..). 
+- New website 
 
-Everyone in FOSS have to always balance their commitment to free software and still do everything life entails.
+- 3DS Emulation - status 
 
----
+- Xenia - status 
 
-## New website
+- Godot Configurator - status 
 
-We secretly soft launched our new website during Halloween.
+- Merged Cooker 
 
-https://retrodeck.net/ 
+  
 
-Check it out and give feedback on the Discord on Lemmy. 
+<!-- more --> 
 
-Thanks Adam Iannazzone for all his hard work on contributing his free time to the RetroDECK project and the new website. 
+  
 
----
+## Development is a bit slower  
+  
+Please note that this is a big release with several features that requires coordination of several people that spends their free time doing this.
 
-## 3DS Emulation - status
+We had an internal goal of December but sometimes IRL issues happen that takes away that time (work, family, life, death, love, etc..). 
+
+It is a huge endeavor as we are rewriting several aspects of RetroDECK and adding tons of new features. Thus we cannot give any ETA's on when 0.9b will be released and done. 
+
+--- 
+
+## New website 
+
+We are secretly soft launched our new website during Halloween. 
+
+[RetroDECK NEW Website](https://retrodeck.net/)
+
+Check it out and give feedback on the Discord on Lemmy.  
+
+Thanks Adam Iannazzone for all his hard work on contributing his free time to the RetroDECK project and the new website.  
+
+--- 
+
+## 3DS Emulation - status 
 
 We had secret plans to include Lime3DS into the release of 0.9b. 
 
-But as the big Citra forks are merging into one, it feels better to wait until they have sorted everything sorted out and get the best project into RetroDECK proper. When their new repo is up and running we will target that.
+But as the big Citra forks are merging into one, it feels better to wait until they have sorted everything out.
 
----
+It is better to get the best project into RetroDECK proper. 
 
-## Xenia - status
+When their new repo is up and running, we will target that. 
+
+--- 
+
+## Xenia - status 
 
 We are looking into utilizing [UMU Launcher](https://github.com/Open-Wine-Components/umu-launcher) for Xenia (and other Wine based systems in the future). 
 
-Instead of pulling in all of vanilla Wine into RetroDECK and configuring it, UMU Launcher feels like a better architectural choice that can give more synergies in the future.
+Instead of pulling in all vanilla Wine into RetroDECK and configuring it, UMU Launcher feels like a better architectural choice that can give more synergies in the future. 
 
-We are waiting for the Open Wine Components Team (Heroic Game Launcher, Lutris, Bottles, Lutris, Proton-GE and more) to finish up their flatpak version (they do great work!). 
+We are waiting for the magnificent Open Wine Components Team (Heroic Game Launcher, Lutris, Bottles, Lutris, Proton-GE and more) to finish their Flatpak version.  
 
----
+--- 
 
-<img src="../godot.png" width="80">
+<img src="../godot.png" width="80"> 
 
-## Godot Configurator - status
+## Godot Configurator - status 
 
-On the Steam Deck, Game Mode has no included web browser that can be launched via flatpak thus rendering the the wiki links and website links useless in Game Mode. We will probably keep the buttons but only have them shown in Desktop Mode (or any normal Linux Desktop). 
+### Game Mode – No web browser / markdown viewer
 
-We currently don't feel like we want to ship an entire web browser inside of RetroDECK to remedy it. 
+Game Mode has no included web browser that can be called via Flatpak thus rendering the wiki links and website links useless in Game Mode.  
+ 
+The buttons that go to the website and wiki will be kept but only shown in Desktop Mode / Linux Desktop.  
+ 
+We currently do not feel like we want to ship an entire web browser inside of RetroDECK to remedy it.  
+ 
+Instead of a web browser, we are looking into a sophisticated markdown viewer instead to integrate into RetroDECK.  
+ 
+The general thought is if we can provide an option to manually synchronize the entire wiki down to local storage with the click of a button and have it readable no matter if you are online or offline and viewed via the markdown viewer.  
 
-Instead we are looking into a sophisticated markdown viewer instead. That will give you the ability to sync the entire wiki down to local storage with the click of a button and have it readable no matter if you are online or offline. 
+--- 
 
----
+<img src="../big-chungus.png" width="70"> 
 
-<img src="../big-chungus.png" width="70">
+## Merged Cooker 
 
-## Merged Cooker
+Several of the big feature branches are now merged into Cooker proper (creating one big chunky boi). 
 
-Several of the big feature branches are now merged into Cooker proper (creating one big chunky boi).
+Having one big cooker now will make it easier to test everything in one go that 0.9b has to offer. 
 
-Having one big cooker now will make it easier to test everything in one go. 
+In the future we might utilize the Flathub-beta remote to facilitate easy testing when the cooker is more stable. 
 
-In the future we might utilize the flathub-beta remote to facilitate easy testing when the cooker is more stable.
+The current cooker now features: 
 
-The current cooker now features:
+- SRM (Add to Steam) 
 
-- SRM (Add to Steam)
-- Godot Configurator
-- Updated Emulators / Components
-- PortMaster
-- Lighter Manifest
-- Ruffle
+- Godot Configurator 
 
----
+- Updated Emulators / Components 
 
-## Known issues in cooker
+- PortMaster 
 
-There is still plenty of work to do and we always do need more people testing and developing.
+- Lighter Manifest 
 
-This is a list of major issues we are investigating.
+- Ruffle 
 
-If you want to help with parts of development or testing please contact us on `Matrix` / `Discord` in the `💙-i-want-to-help` channel.
+--- 
 
+## Known issues in cooker 
 
-### SRM
+There is still plenty of work to do and we always do need more people testing and developing. 
 
-<img src="../srm-logo.png" width="30">
+This is a list of significant issues we are investigating. 
 
-- Is not yet added to Godot Configurator and need to be enabled from Legacy Configurator.
-- Not all systems are adding the games as they should.
+If you want to help with parts of development or testing, please contact us on `Matrix` / `Discord` in the `💙-i-want-to-help` channel. 
+  
+### SRM 
 
-### Godot Configurator
+<img src="../srm-logo.png" width="30"> 
 
-<img src="../godot.png" width="30">
+- Is not yet added to Godot Configurator and need to be enabled from Legacy Configurator. 
 
-- Bash slowdown for certain scripts if launched via Godot Configurator via Steam.
-- Need to add some more menus / buttons.
-- Needs more testing of all the features.
+- Not all systems are adding the games as they should. 
+  
+### Godot Configurator 
 
-### Emulators / Components
+<img src="../godot.png" width="30"> 
 
-<img src="../Ryujinx.png" width="30">
+- Bash slowdown for certain scripts if launched via Godot Configurator via Steam. 
 
-- Not all emulators have been updated yet as some have added additional dependencies we need to build.
-- Ryujinx is disabled at the moment.
+- Need to add some more menus / buttons. 
 
-### PortMaster 
+- Needs more testing of all the features. 
 
-<img src="../portmaster.png" width="30">
+### Emulators / Components 
 
-- No reported issues
+<img src="../Ryujinx.png" width="30"> 
 
-### Ruffle
+- Not all emulators have been updated yet as some have added additional dependencies we need to build. 
 
-<img src="../ruffle.png" width="30">
+- Ryujinx is disabled at this moment, because of bugs. 
 
-- Need to do a configuration pass on settings and controls.
+### PortMaster  
 
----
+<img src="../portmaster.png" width="30"> 
 
-## That is all for now
+- No reported issues 
+
+### Ruffle 
+
+<img src="../ruffle.png" width="30"> 
+
+- Need to do a configuration pass on settings and controls. 
+
+--- 
+
+## That is all for now 
 
 There are more things we are working on, but you will see them in future blog updates!
+  
+Thanks everyone! 
 
-Thanks everyone!
+//The RetroDECK Team 
 
-//The RetroDECK Team
+### Links 
 
-### Links
+[RetroDECK Website](https://retrodeck.net/)  
+  
+[Discord](https://discord.gg/WDc5C9YWMx) 
 
-[Discord](https://discord.gg/WDc5C9YWMx)
+[Matrix](https://matrix.to/#/#retrodeck:matrix.org) 
 
-[Matrix](https://matrix.to/#/#retrodeck:matrix.org)
+[Github](https://github.com/XargonWan/RetroDECK) 
 
-[Github](https://github.com/XargonWan/RetroDECK)
+[Wiki](https://github.com/XargonWan/RetroDECK/wiki) 
 
-[Wiki](https://github.com/XargonWan/RetroDECK/wiki)
+[Donations](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/) 
 
-[Donations](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)
-
-[Lemmy](https://lemmy.zip/c/retrodeck)
+[Lemmy](https://lemmy.zip/c/retrodeck) 

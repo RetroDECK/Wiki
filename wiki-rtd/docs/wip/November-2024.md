@@ -98,11 +98,11 @@ The general thought is if we can provide an option to manually synchronize the e
 
 Several of the big feature branches are now merged into Cooker proper (creating one big chunky boi). 
 
-Having one big cooker now will make it easier to test everything in one go that 0.9b has to offer. 
+Having one big cooker now will make it easier to test everything that 0.9b has to offer. 
 
 In the future we might utilize the Flathub-beta remote to facilitate easy testing when the cooker is more stable. 
 
-The current cooker now features: 
+The current cooker now features most of 0.9b: 
 
 - SRM (Add to Steam) 
 
@@ -125,7 +125,11 @@ There is still plenty of work to do and we always do need more people testing an
 This is a list of significant issues we are investigating. 
 
 If you want to help with parts of development or testing, please contact us on `Matrix` / `Discord` in the `💙-i-want-to-help` channel. 
-  
+
+### Lighter Manifest 
+
+- There still are some issues when building certain systems and features via the new pipelines. Not all systems are updated yet. 
+
 ### SRM 
 
 <img src="../srm-logo.png" width="30"> 

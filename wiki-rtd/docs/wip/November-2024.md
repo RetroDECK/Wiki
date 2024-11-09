@@ -126,7 +126,7 @@ The current cooker now features most of 0.9b:
 
 --- 
 
-<img src="../utilities-system-monitor.png" width="100"> 
+<img src="../utilities-system-monitor.png" width="80"> 
 
 ## Known issues in cooker 
 
@@ -135,6 +135,8 @@ There is still plenty of work to do and we always do need more people testing an
 This is a list of significant issues we are investigating. 
 
 If you want to help with parts of development or testing, please contact us on `Matrix` / `Discord` in the `💙-i-want-to-help` channel. 
+
+<img src="../folder-blue-games.png" width="30"> 
 
 ### Lighter Manifest 
 

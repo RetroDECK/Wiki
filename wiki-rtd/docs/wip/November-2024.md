@@ -45,8 +45,6 @@ But if you are following our GitHub you can see things are happening almost ever
 
 --- 
 
-
-
 <img src="../website.png" width="800"> 
 
 ## New website 

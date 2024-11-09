@@ -28,6 +28,8 @@ This month we will discuss
 
 <!-- more --> 
 
+---
+
 <img src="../battery-low-charging.png" width="80"> 
 
 ## Development is a bit slower  

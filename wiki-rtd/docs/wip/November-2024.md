@@ -42,7 +42,7 @@ It is a huge endeavor as we are rewriting several aspects of RetroDECK and addin
 
 --- 
 
-<img src="../firefox.png" width="80"> 
+<img src="../internet-web-browser.png" width="80"> 
 
 ## New website 
 
@@ -126,6 +126,8 @@ The current cooker now features most of 0.9b:
 
 --- 
 
+<img src="../utilities-system-monitor.png" width="100"> 
+
 ## Known issues in cooker 
 
 There is still plenty of work to do and we always do need more people testing and developing. 
@@ -138,17 +140,17 @@ If you want to help with parts of development or testing, please contact us on `
 
 - There still are some issues when building certain systems and features via the new pipelines. Not all systems are updated yet. 
 
-### SRM 
-
 <img src="../srm-logo.png" width="30"> 
+
+### SRM 
 
 - Is not yet added to Godot Configurator and need to be enabled from Legacy Configurator. 
 
 - Not all systems are adding the games as they should. 
   
+<img src="../godot.png" width="30">   
+  
 ### Godot Configurator 
-
-<img src="../godot.png" width="30"> 
 
 - Bash slowdown for certain scripts if launched via Godot Configurator via Steam. 
 
@@ -156,23 +158,29 @@ If you want to help with parts of development or testing, please contact us on `
 
 - Needs more testing of all the features. 
 
+<img src="../Ryujinx.png" width="30"> 
+
 ### Emulators / Components 
 
-<img src="../Ryujinx.png" width="30"> 
+
 
 - Not all emulators have been updated yet as some have added additional dependencies we need to build. 
 
 - Ryujinx is disabled at this moment, because of bugs. 
 
+<img src="../portmaster.png" width="30"> 
+
 ### PortMaster  
 
-<img src="../portmaster.png" width="30"> 
+
 
 - No reported issues 
 
-### Ruffle 
 
 <img src="../ruffle.png" width="30"> 
+
+### Ruffle 
+
 
 - Need to do a configuration pass on settings and controls. 
 

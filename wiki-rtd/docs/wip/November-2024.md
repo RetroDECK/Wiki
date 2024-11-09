@@ -28,7 +28,7 @@ This month we will discuss
 
 <!-- more --> 
 
-  
+<img src="../battery-low-charging.png" width="80"> 
 
 ## Development is a bit slower  
   
@@ -39,6 +39,8 @@ We had an internal goal of December but sometimes IRL issues happen that takes a
 It is a huge endeavor as we are rewriting several aspects of RetroDECK and adding tons of new features. Thus we cannot give any ETA's on when 0.9b will be released and done. 
 
 --- 
+
+<img src="../firefox.png" width="80"> 
 
 ## New website 
 
@@ -52,6 +54,8 @@ Thanks Adam Iannazzone for all his hard work on contributing his free time to th
 
 --- 
 
+<img src="../citra.png" width="80"> 
+
 ## 3DS Emulation - status 
 
 We had secret plans to include Lime3DS into the release of 0.9b. 
@@ -63,6 +67,8 @@ It is better to get the best project into RetroDECK proper.
 When their new repo is up and running, we will target that. 
 
 --- 
+
+<img src="../xenia.png" width="80"> 
 
 ## Xenia - status 
 
@@ -78,7 +84,7 @@ We are waiting for the magnificent Open Wine Components Team (Heroic Game Launch
 
 ## Godot Configurator - status 
 
-### Game Mode – No web browser / markdown viewer
+**Game Mode – No web browser / markdown viewer**
 
 Game Mode has no included web browser that can be called via Flatpak thus rendering the wiki links and website links useless in Game Mode.  
  

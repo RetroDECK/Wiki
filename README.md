@@ -18,7 +18,7 @@ You will then get access to the `🖋-wiki-maintainers`channel by one of the mod
 You need to have git, gh and python installed.
 
 1. Clone the wiki repo.
-2. Install `pip install mkdocs-material` & `pip install mkdocs-rss-plugin` & `pip install mkdocs-video`
+2. Install `pip install mkdocs-material mkdocs-rss-plugin mkdocs-video mkdocs-audio`
 3. Navigate to the `/wiki-rtd/` directory where the `mkdocs.yml` is located.
 4. Type in cli `mkdocs serve` to start the local webserver.
 5. Browse to `http://127.0.0.1:8000/` and you will have a local instance of the wiki running.

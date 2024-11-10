@@ -41,9 +41,9 @@ The team had an internal goal of December but sometimes IRL issues happen that t
 
 We also do understand that people want more updated systems then current stable. 
 
-0.9b is a huge endeavor as we are rewriting huge aspects of RetroDECK and adding tons of new features. 
+0.9.0b is a huge endeavor as we are rewriting huge aspects of RetroDECK and adding tons of new features. 
 
-As such we cannot give any ETA's on when 0.9b will be released and done
+As such we cannot give any ETA's on when 0.9.0b will be released and done
 
 If you are following our GitHub you can see things are happening almost everyday and no one is sitting idle. 
 
@@ -70,7 +70,7 @@ Thanks `Adam Iannazzone` for all his hard work on contributing his free time to 
 
 ## 3DS Emulation - status 
 
-We had secret plans to include Lime3DS into the release of 0.9b. 
+We had secret plans to include Lime3DS into the release of 0.9.0b. 
 
 But as the big Citra forks are merging into one, it feels better to wait until they have sorted everything out.
 
@@ -91,7 +91,7 @@ Instead of pulling in all vanilla Wine into RetroDECK and configuring it, UMU La
 
 We are waiting for the magnificent Open Wine Components Team (Heroic Game Launcher, Lutris, Bottles, Lutris, Proton-GE and more) to finish their Flatpak version. 
 
-Xenia will not be part of 0.9b. 
+Xenia will not be part of 0.9.0b. 
 
 --- 
 
@@ -111,7 +111,7 @@ The general thought is if we can provide an option to manually synchronize the e
 
 ## New - RetroDECK ES-DE Theme
 
-In 0.9b we are shipping a new exclusive ES-DE theme with RetroDECK.
+In 0.9.0b we are shipping a new exclusive ES-DE theme with RetroDECK.
 
 The theme is a remix on the themes: Mini Banner made for Launchbox and ES-DE-Mini made for ES-DE.
 
@@ -137,11 +137,11 @@ The original themes Mini Banner and ES-DE-Mini are made by: `Weestuarty`, `DerSc
 
 Several of the big feature branches are now merged into Cooker proper (creating one chunky boi). 
 
-Having one big cooker now will make it easier to test everything that 0.9b has to offer. 
+Having one big cooker now will make it easier to test everything that 0.9.0b has to offer. 
 
 In the future we might utilize the Flathub-beta remote to facilitate easy testing when the cooker is more stable. 
 
-The current cooker now features most of 0.9b: 
+The current cooker now features most of 0.9.0b: 
 
 - SRM (Add to Steam) 
 
@@ -166,7 +166,7 @@ If you want to help with parts of development or testing, please contact us on `
 
 ## Known issues in cooker 
 
-This is a list of significant smaller and bigger issues we are investigating (in addition to all of the other 0.9b issues). 
+This is a list of significant smaller and bigger issues we are investigating (in addition to all of the other 0.9.0b issues). 
 
 <img src="../../../folder-blue-games.png" width="30"> 
 

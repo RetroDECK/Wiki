@@ -22,6 +22,8 @@ This month we will discuss
 
 - Godot Configurator - status 
 
+- RetroDECK ES-DE Theme
+
 - Merged Chungus Cooker 
   
 
@@ -105,8 +107,27 @@ The general thought is if we can provide an option to manually synchronize the e
 
 --- 
 
-## New RetroDECK Theme
+<img src="../preferences-desktop-theme.png" width="80"> 
 
+## New - RetroDECK ES-DE Theme
+
+In 0.9b we are shipping a new exclusive ES-DE theme with RetroDECK.
+
+The theme is a remix on two themes: Mini Banner made for Launchbox and ES-DE-Mini made for ES-DE.
+
+But the RetroDECK Theme features:
+
+- Other types of sub-menus and layout.
+- Icons for RetroDECK features like PortMaster.
+- RetroDECK colors / graphics. 
+
+<img src="../RetroDECKESDE1.webp" width="800">
+
+<img src="../RetroDECKESDE2.webp" width="800"> 
+
+The original themes Mini Banner and ES-DE-Mini are made by: `Weestuarty`, `DerSchlachter`, `Dan Patrick`.
+
+`Weestuarty` of the group made us the RetroDECK Theme (thanks! 💕).
 
 ---
 

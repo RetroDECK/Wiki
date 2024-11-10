@@ -1,6 +1,6 @@
 --- 
 
-date: 2024-11-09 
+date: 2024-11-10 
 
 --- 
 
@@ -35,13 +35,16 @@ This month we will discuss
   
 Please note that this is a big release with several big features that requires coordination of many people that spends their free time doing this.
 
-We had an internal goal of December but sometimes IRL issues happen that takes away that time (work, family, life, death, love, etc..). 
+The team had an internal goal of December but sometimes IRL issues happen that takes away that time (work, family, life, death, love, etc..). 
 
-It is a huge endeavor as we are rewriting huge aspects of RetroDECK and adding tons of new features. 
+We also do understand that people want more updated systems then current stable. 
 
-We cannot give any ETA's on when 0.9b will be released and done. 
+0.9b is a huge endeavor as we are rewriting huge aspects of RetroDECK and adding tons of new features. 
 
-But if you are following our GitHub you can see things are happening almost everyday and no one is sitting idle. 
+As such we cannot give any ETA's on when 0.9b will be released and done
+
+If you are following our GitHub you can see things are happening almost everyday and no one is sitting idle. 
+
 
 --- 
 
@@ -55,8 +58,9 @@ We are secretly soft launched our new website during Halloween.
 
 Check it out and give feedback on the Discord on Lemmy.  
 
-Thanks `Adam Iannazzone` for all his hard work on contributing his free time to the RetroDECK project and the new website.  
+[Steam Deck HQ](https://steamdeckhq.com/retrodeck-new-website-custom-es-de-theme/) also did an article about it.
 
+Thanks `Adam Iannazzone` for all his hard work on contributing his free time to the RetroDECK project and the new website.  
 
 --- 
 
@@ -68,9 +72,10 @@ We had secret plans to include Lime3DS into the release of 0.9b.
 
 But as the big Citra forks are merging into one, it feels better to wait until they have sorted everything out.
 
+When their new repo is up and running, we will target that. 
+
 It is better to get the best project into RetroDECK. 
 
-When their new repo is up and running, we will target that. 
 
 --- 
 
@@ -92,19 +97,18 @@ Xenia will not be part of 0.9b.
 
 ## Godot Configurator - status 
 
-**Game Mode – No web browser / markdown viewer**
+**Game Mode – Markdown viewer**
 
-Game Mode has no included web browser that can be called via Flatpak thus rendering the wiki links and website links useless in Game Mode.  
- 
-The buttons that go to the website and wiki will be kept but only shown in Desktop Mode / Linux Desktop.  
- 
-We currently do not feel like we want to ship an entire web browser inside of RetroDECK to remedy it.  
- 
-Instead of a web browser, we are looking into a sophisticated markdown viewer instead to integrate into RetroDECK.  
+We are looking into a sophisticated markdown viewer to integrate into RetroDECK.  
  
 The general thought is if we can provide an option to manually synchronize the entire wiki down to local storage with the click of a button and have it readable no matter if you are online or offline and viewed via the markdown viewer.  
 
 --- 
+
+## New RetroDECK Theme
+
+
+---
 
 <img src="../big-chungus.png" width="100"> 
 

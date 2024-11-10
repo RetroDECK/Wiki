@@ -166,7 +166,7 @@ If you want to help with parts of development or testing, please contact us on `
 
 ## Known issues in cooker 
 
-This is a list of significant smaller and bigger issues we are investigating. 
+This is a list of significant smaller and bigger issues we are investigating (in addition to all of the other 0.9b issues). 
 
 <img src="../folder-blue-games.png" width="30"> 
 
@@ -181,6 +181,8 @@ This is a list of significant smaller and bigger issues we are investigating.
 - Is not yet added to Godot Configurator and need to be enabled from Legacy Configurator. 
 
 - Not all systems are adding the games as they should. 
+
+- Does not work with the flatpak version of Steam.
   
 <img src="../godot.png" width="30">   
   

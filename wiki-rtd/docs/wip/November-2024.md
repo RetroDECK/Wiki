@@ -113,7 +113,7 @@ The general thought is if we can provide an option to manually synchronize the e
 
 In 0.9b we are shipping a new exclusive ES-DE theme with RetroDECK.
 
-The theme is a remix on two themes: Mini Banner made for Launchbox and ES-DE-Mini made for ES-DE.
+The theme is a remix on the themes: Mini Banner made for Launchbox and ES-DE-Mini made for ES-DE.
 
 But the RetroDECK Theme features:
 

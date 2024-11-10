@@ -8,7 +8,7 @@ date: 2024-11-10
 
 # November 2024: Merged winter 
 
-This month we will discuss 
+It's a new month and more things to talk about!
 
 ## Highlights 
 
@@ -31,7 +31,7 @@ This month we will discuss
 
 ---
 
-<img src="../battery-low-charging.png" width="80"> 
+<img src="../../../battery-low-charging.png" width="80"> 
 
 ## Development is a bit slower  
   
@@ -50,7 +50,7 @@ If you are following our GitHub you can see things are happening almost everyday
 
 --- 
 
-<img src="../website.png" width="800"> 
+<img src="../../../website.png" width="800"> 
 
 ## New website 
 
@@ -66,7 +66,7 @@ Thanks `Adam Iannazzone` for all his hard work on contributing his free time to 
 
 --- 
 
-<img src="../citra.png" width="80"> 
+<img src="../../../citra.png" width="80"> 
 
 ## 3DS Emulation - status 
 
@@ -81,7 +81,7 @@ It is better to get the best project into RetroDECK.
 
 --- 
 
-<img src="../xenia.png" width="80"> 
+<img src="../../../xenia.png" width="80"> 
 
 ## Xenia - status 
 
@@ -95,7 +95,7 @@ Xenia will not be part of 0.9b.
 
 --- 
 
-<img src="../godot.png" width="80"> 
+<img src="../../../godot.png" width="80"> 
 
 ## Godot Configurator - status 
 
@@ -107,7 +107,7 @@ The general thought is if we can provide an option to manually synchronize the e
 
 --- 
 
-<img src="../preferences-desktop-theme.png" width="80"> 
+<img src="../../../preferences-desktop-theme.png" width="80"> 
 
 ## New - RetroDECK ES-DE Theme
 
@@ -121,9 +121,9 @@ But the RetroDECK Theme features:
 - Icons for RetroDECK features like PortMaster.
 - RetroDECK colors / graphics. 
 
-<img src="../RetroDECKESDE1.webp" width="800">
+<img src="../../../RetroDECKESDE1.webp" width="800">
 
-<img src="../RetroDECKESDE2.webp" width="800"> 
+<img src="../../../RetroDECKESDE2.webp" width="800"> 
 
 The original themes Mini Banner and ES-DE-Mini are made by: `Weestuarty`, `DerSchlachter`, `Dan Patrick`.
 
@@ -131,7 +131,7 @@ The original themes Mini Banner and ES-DE-Mini are made by: `Weestuarty`, `DerSc
 
 ---
 
-<img src="../big-chungus.png" width="100"> 
+<img src="../../../big-chungus.png" width="100"> 
 
 ## Merged Chungus Cooker 
 
@@ -162,19 +162,19 @@ If you want to help with parts of development or testing, please contact us on `
 
 --- 
 
-<img src="../utilities-system-monitor.png" width="80"> 
+<img src="../../../utilities-system-monitor.png" width="80"> 
 
 ## Known issues in cooker 
 
 This is a list of significant smaller and bigger issues we are investigating (in addition to all of the other 0.9b issues). 
 
-<img src="../folder-blue-games.png" width="30"> 
+<img src="../../../folder-blue-games.png" width="30"> 
 
 ### Lighter Manifest 
 
 - There still are some issues when building certain systems and features via the new pipelines. Not all systems are updated yet. 
 
-<img src="../srm-logo.png" width="30"> 
+<img src="../../../srm-logo.png" width="30"> 
 
 ### SRM 
 
@@ -184,7 +184,7 @@ This is a list of significant smaller and bigger issues we are investigating (in
 
 - Does not work with the flatpak version of Steam.
   
-<img src="../godot.png" width="30">   
+<img src="../../../godot.png" width="30">   
   
 ### Godot Configurator 
 
@@ -194,7 +194,7 @@ This is a list of significant smaller and bigger issues we are investigating (in
 
 - Needs more testing of all the features. 
 
-<img src="../Ryujinx.png" width="30"> 
+<img src="../../../Ryujinx.png" width="30"> 
 
 ### Emulators / Components 
 
@@ -202,13 +202,13 @@ This is a list of significant smaller and bigger issues we are investigating (in
 
 - Ryujinx is disabled at this moment, because of bugs. 
 
-<img src="../portmaster.png" width="30"> 
+<img src="../../../portmaster.png" width="30"> 
 
 ### PortMaster  
 
 - No reported issues 
 
-<img src="../ruffle.png" width="30"> 
+<img src="../../../ruffle.png" width="30"> 
 
 ### Ruffle 
 

@@ -63,16 +63,6 @@ Godot, Emulators and more things!
 Wartime Pizza peace broker.
 </details>
 
-## Testers
-
-### [dottormac](https://github.com/redeemer666)
-
-Does bleeding edge cooker testing (lives in the danger zone), some feature suggestions and design.
-
-<details><summary> </summary>
-2nd Commander of the IPL (Italian Pizza Legion) nicknamed The Wrath of Siciliana in the internal pizza war. .
-</details>
-
 
 ## Special Thanks
  We want give special thanks to:

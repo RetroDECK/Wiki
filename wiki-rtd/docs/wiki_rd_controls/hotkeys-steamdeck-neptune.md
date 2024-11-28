@@ -24,8 +24,6 @@ The SIMPLE layout got the same menu as the external controllers.
 
 [RetroDECK: Steam Deck - Neptune SIMPLE](radial-simple.md)
 
-### The hotkey button
-
 
 ### Global Hotkeys: Steam Deck
 
@@ -71,12 +69,29 @@ What follows is a list of hotkeys:
 | Swap Screens         |  `HKB + L3`          |   `CTRL + TAB`        |     `Citra (Legacy)` `MelonDS (Standalone)`  `Cemu (Standalone)`           |            |
 | Escape                  |  `HKB + R3`          |   `ESC`      |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)`     |            |
 
+### RetroArch
+
+These hotkeys also work for RetroArch and are built-in.
+
+| Function                 | Button / Combination     | System Support     |    Comment |
+| :---                    | :---:                    |       :---:          |  :---:     |
+| Open Menu               |  `L3 + R3`               |      `RetroArch`     |            |
+
+### Arcade Systems
+
+This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
+
+| Function                 | Button / Combination     | System Support     |    Comment |
+| :---                    | :---:                    |       :---:          |  :---:     |
+| Insert Credit           |  `Select`                |     `RetroArch`  `MAME (Standalone)` `FBNeo`    |            |
+
+
 ## Additional Built-In Hotkeys
 
 
 The Steam Deck comes with several built-in hotkeys
 
-### Steam Deck: Game Mode Hotkeys
+### Game Mode Hotkeys
 
 These hotkeys can be used in Game Mode
 
@@ -98,12 +113,12 @@ These hotkeys can be used in Game Mode
 |  Take Screenshot      |  `STEAM + R1`         |               |
 |  Left Mouse Click       |  `STEAM + R2`         |               |
 |  Right Mouse Click       |  `STEAM + L2`         |               |
-|  Game Recording - Start/Stop |   `STEAM + A`            |        needs to be enabled       |
-|  Game Recording - Add timeline marker |   `STEAM + Y`            |       needs to be enabled       |
-|  Game Recording - Make a clip |   `STEAM + D-pad Up`            |    needs to be enabled          |
+|  Game Recording - Start/Stop |   `STEAM + A`            |               |
+|  Game Recording - Add timeline marker |   `STEAM + Y`            |              |
+|  Game Recording - Make a clip |   `STEAM + D-pad Up`            |              |
 
 
-### Steam Deck: Desktop Mode Hotkeys
+### Desktop Mode Hotkeys
 
 The Steam Deck comes with several built-in hotkeys that you can use in Desktop Mode.
 
@@ -133,20 +148,3 @@ The Steam Deck comes with several built-in hotkeys that you can use in Desktop M
 |  Game Recording - Start/Stop |   `CTRL + F11`            |      Can be rebound, needs to be enabled         |
 |  Game Recording - Add timeline marker |   `CTRL + F12`            |       Can be rebound, needs to be enabled       |
 |  Game Recording - Take screenshot |   `F12`            |        Can be rebound, needs to be enabled       |
-
-### RetroArch
-
-These hotkeys also work for RetroArch and are built in.
-
-| Function                 | Button / Combination     | System Support     |    Comment |
-| :---                    | :---:                    |       :---:          |  :---:     |
-| Open Menu               |  `L3 + R3`               |      `RetroArch`     |            |
-
-### Arcade Systems
-
-This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
-
-| Function                 | Button / Combination     | System Support     |    Comment |
-| :---                    | :---:                    |       :---:          |  :---:     |
-| Insert Credit           |  `Select`                |     `RetroArch`  `MAME (Standalone)` `FBNeo`    |            |
-

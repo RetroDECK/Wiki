@@ -97,7 +97,6 @@ These hotkeys can be used in Game Mode
 |  Magnifier Toggle      |  `STEAM + L1`         |               |
 |  Take Screenshot      |  `STEAM + R1`         |               |
 |  Left Mouse Click       |  `STEAM + R2`         |               |
-|  Left Mouse Click       |  `STEAM + L2`         |               |
 |  Right Mouse Click       |  `STEAM + L2`         |               |
 |  Game Recording - Start/Stop |   `STEAM + A`            |        needs to be enabled       |
 |  Game Recording - Add timeline marker |   `STEAM + Y`            |       needs to be enabled       |

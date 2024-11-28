@@ -71,7 +71,38 @@ What follows is a list of hotkeys:
 | Swap Screens         |  `HKB + L3`          |   `CTRL + TAB`        |     `Citra (Legacy)` `MelonDS (Standalone)`  `Cemu (Standalone)`           |            |
 | Escape                  |  `HKB + R3`          |   `ESC`      |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)`     |            |
 
-## Additional Hotkeys
+## Additional Built-In Hotkeys
+
+
+The Steam Deck comes with several built-in hotkeys
+
+### Steam Deck: Game Mode Hotkeys
+
+These hotkeys can be used in Game Mode
+
+
+| Function                 | Button / Combination |  Comment |
+| :---                    | :---:               |     :---:     |
+|  Joystick Mouse     |  `STEAM + Right Stick`         |               |
+|  Joystick Mouse - Left Click    |  `STEAM + R3`         |               |
+|  Touchpad Mouse                     |  `STEAM + Right Touchpad`         |               |
+|  Touchpad Mouse - Left Click    |  `STEAM + Right Touchpad Click`         |               |
+|  Screen Brightness - Increase     |  `STEAM + Left Stick Up`         |               |
+|  Screen Brightness - Decrease     |  `STEAM + Left Stick Down`         |               |
+|  Enter     |  `STEAM + D-pad Right`         |               |
+|  Tab     |  `STEAM + D-pad Down`         |               |
+|  Escape     |  `STEAM + D-pad Left`         |               |
+|  Force Quit Application     |  `STEAM + B (long press)`         |               |
+|  Keyboard - Show / Hide      |  `STEAM + X`         |               |
+|  Magnifier Toggle      |  `STEAM + L1`         |               |
+|  Take Screenshot      |  `STEAM + R1`         |               |
+|  Left Mouse Click       |  `STEAM + R2`         |               |
+|  Left Mouse Click       |  `STEAM + L2`         |               |
+|  Right Mouse Click       |  `STEAM + L2`         |               |
+|  Game Recording - Start/Stop |   `STEAM + A`            |        needs to be enabled       |
+|  Game Recording - Add timeline marker |   `STEAM + Y`            |       needs to be enabled       |
+|  Game Recording - Make a clip |   `STEAM + D-pad Up`            |    needs to be enabled          |
+
 
 ### Steam Deck: Desktop Mode Hotkeys
 
@@ -88,7 +119,7 @@ The Steam Deck comes with several built-in hotkeys that you can use in Desktop M
 |  Left Ctrl |   `L1`         |               |
 |  Left Alt |   `R1`         |               |
 |  Space |   `Y`         |               |
-|  Show Keyboard |   `X`         |               |
+|  Keyboard - Show / Hide  |   `X`         |               |
 |  Escape  |   `B`   /  `Start`      |               |
 |  Tab  |   `Select`      |               |
 |  Enter  |   `A`         |               |
@@ -100,6 +131,9 @@ The Steam Deck comes with several built-in hotkeys that you can use in Desktop M
 |  Arrow Key - Down  |   `D-Pad Down` / `Left Stick Down`            |               |
 |  Arrow Key - Left  |   `D-Pad Left` / `Left Stick Left`         |               |
 |  Arrow Key - Right  |   `D-Pad Right` / `Left Stick Right`            |               |
+|  Game Recording - Start/Stop |   `CTRL + F11`            |      Can be rebound, needs to be enabled         |
+|  Game Recording - Add timeline marker |   `CTRL + F12`            |       Can be rebound, needs to be enabled       |
+|  Game Recording - Take screenshot |   `F12`            |        Can be rebound, needs to be enabled       |
 
 ### RetroArch
 

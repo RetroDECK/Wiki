@@ -26,6 +26,10 @@ Meme Lord of the Wiki and also the cult leader of the NPC (The Nordic Pizza Cult
 
 Web Development, Community management/outreach, testing, documentation.
 
+<details><summary> </summary>
+MCCP branch operative against the NPC faction and have a loose alliance with the IPL. 
+</details>
+
 ## Developers
 
 ### [IceNine451](https://github.com/icenine451)

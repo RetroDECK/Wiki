@@ -21,7 +21,7 @@ We are looking into a ports downloader for a future update.
 
 RetroDECK only includes those BIOS and Firmware that are Open-Source. All others can never be done for legal reasons and the users needs to provide their own backups of Firmware or BIOS.
 
-### Can you at least point me towards where I can find: Games, Firmeware or BIOS?
+### Can you at least point me towards where I can find: Games, Firmware or BIOS?
 
 For purchased titles we recommend that you use your own game backups and investigate how to extract the Firmware or BIOS from your own consoles.
 

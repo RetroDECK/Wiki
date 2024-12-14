@@ -363,10 +363,24 @@ Solarus is a free and open-source 2D game engine written in C++, that can run ga
 IKEMEN Go is a remake of the IKEMEN (open source fighting games engine that supports M.U.G.E.N resources) in Google’s Programming Language “Go”.
 
 #### Where to donate / support the project?
-We have not found a donation link to this project at this time or the project does not support donations.
+[We have not found a donation link to this project at this time or the project does not support donations.]
 
 #### Licenses
 [Licenses](https://github.com/ikemen-engine/Ikemen-GO/blob/master/License.txt)
+
+### Godot
+
+<img src="../../wiki_images/logos/godot-logo.svg" width="150">
+
+
+Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel. 
+
+#### Where to donate / support the project?
+[Donations](https://godotengine.org/donate/)
+
+#### Licenses
+[Licenses](https://github.com/godotengine/godot?tab=MIT-1-ov-file)
+
 
 ---
 

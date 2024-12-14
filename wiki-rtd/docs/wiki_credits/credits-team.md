@@ -40,15 +40,6 @@ Creator of the `RetroDECK configurator`, the `RetroDECK Framework` and various c
 Freedom loving leader of the MCCP (Murican Cheese Crust Patriots) in the internal pizza war.
 </details>
 
-### [Lx32](https://github.com/Lx32)
-
-Develops various new features, functions and tools.
-
-
-<details><summary> </summary>
-1st Commander of the IPL (Italian Pizza Legion) nicknamed Paladin al Taglio in the internal pizza war.
-</details>
-
 
 ### [WallK](https://github.com/WallK)
 

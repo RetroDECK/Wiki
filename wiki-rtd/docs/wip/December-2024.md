@@ -44,7 +44,7 @@ Both of them made contributions to RetroDECK over it's lifespan. Sometimes thing
 They have both graduated to RetroDECK Alumni and have a special role on Discord.
 Us in the rest of the Team wishes them happy journey going forward. 
 
-Keep in touch you two! 🤌🍕🍝🍌🤌 ❤️
+Keep in touch you two, Itakatta! 🤌🍕🍝🍌🤌 ❤️
 
 ## Framework - status
 

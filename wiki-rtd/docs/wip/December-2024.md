@@ -1,6 +1,6 @@
 --- 
 
-date: 2024-11-10 
+date: 2024-12-17 
 
 --- 
 
@@ -13,20 +13,9 @@ The team wishes everyone a happy winter season and happy holidays.
 
 ## Highlights 
 
-- Development is a bit slower
+- Thanks Lx32 and dottormac
 
-- New website 
-
-- 3DS Emulation - status 
-
-- Xenia - status 
-
-- Godot Configurator - status 
-
-- RetroDECK ES-DE Theme
-
-- Merged Chungus Cooker 
-  
+- Framework - status
 
 <!-- more --> 
 
@@ -46,24 +35,32 @@ Us in the rest of the Team wishes them happy journey going forward.
 
 Keep in touch you two, Itakatta! 🤌🍕🍝🍌🤌 ❤️
 
+--- 
+
 ## Framework - status
 
 - RetroDECK can now pickup logged in Steam profiles to inject into systems like SRM that require it. 
 - Several light manifest pipeline issues have been resolved. 
 - Piped even more logs into the central retrodeck.log
 
+--- 
+
 <img src="../../../portmaster.png" width="30"> 
 
-### PortMaster 
+### PortMaster - Status
 
 - No reported issues and it works as it should in cooker. ✅ 
+
+--- 
 
 <img src="../../../srm.png" width="30">   
 
 ## SRM - Status 
 
 - SRM is now working with your Steam username and is syncing your favorite games to Steam. ✅
-  
+
+--- 
+
 <img src="../../../godot.png" width="30">   
   
 ## Godot Configurator 

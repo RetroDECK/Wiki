@@ -8,14 +8,27 @@ date: 2024-12-17
 
 # December 2024: Merged winter 
 
-It's the last month the year. 
+It's the last month the year! 
+
 The team wishes everyone a happy winter season and happy holidays. 
+
+🎅
 
 ## Highlights 
 
 - Thanks Lx32 and dottormac
 
-- Framework - status
+- Development - 0.9.0b Status updates 
+
+- Framework
+
+- PortMaster Integration
+
+- Steam ROM Manager (SRM) Integration 
+
+- Godot Configurator
+
+- What is left for 0.9.0b release?
 
 <!-- more --> 
 
@@ -35,7 +48,17 @@ We wish them a happy journey ahead. Keep in touch, Itakatta! 🤌🍕🍝🍌�
 
 --- 
 
-## Framework - status
+<img src="../../../folder-blue-games.png" width="30"> 
+
+## Development - 0.9.0b Status updates 
+
+What has happend since last month? 
+
+--- 
+
+<img src="../../../utilities-system-monitor.png" width="30"> 
+
+### Framework 
 
 - RetroDECK can now pick up logged-in Steam profiles for systems like SRM.
 - Several light manifest pipeline issues resolved.
@@ -45,7 +68,7 @@ We wish them a happy journey ahead. Keep in touch, Itakatta! 🤌🍕🍝🍌�
 
 <img src="../../../portmaster.png" width="30"> 
 
-### PortMaster - Status
+### PortMaster Integration
 
 - No reported issues; it works as expected in cooker. ✅ 
 
@@ -53,7 +76,7 @@ We wish them a happy journey ahead. Keep in touch, Itakatta! 🤌🍕🍝🍌�
 
 <img src="../../../srm.png" width="30">   
 
-## SRM - Status 
+### Steam ROM Manager (SRM) Integration 
 
 - SRM is now working with your Steam username and syncing your favorite games to Steam.  ✅
 
@@ -61,7 +84,7 @@ We wish them a happy journey ahead. Keep in touch, Itakatta! 🤌🍕🍝🍌�
 
 <img src="../../../godot.png" width="30">   
   
-## Godot Configurator - status
+### Godot Configurator
 
 - More menus and buttons added.
 - Added the ability to launch SRM for tweaking settings or images.
@@ -73,8 +96,8 @@ We wish them a happy journey ahead. Keep in touch, Itakatta! 🤌🍕🍝🍌�
 - All big features are implemented but need more testing.
 - Emulators/Components updates and resolving any issues.
 - Godot Configurator - some missing tools from the Legacy Configurator still need to be implemented.
-- Godot Configurator - design improvements for some menus are planned.
-
+- Godot Configurator - design improvements for some buttons/sub-menus.
+- Minor tweaks and bugfixes. 
 
 ## That is all for now 
 

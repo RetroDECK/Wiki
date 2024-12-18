@@ -57,18 +57,25 @@ Keep in touch you two, Itakatta! 🤌🍕🍝🍌🤌 ❤️
 
 ## SRM - Status 
 
-- SRM is now working with your Steam username and is syncing your favorite games to Steam. ✅
+- SRM is now working (from initial tests) with your Steam username and is syncing your favorite games to Steam. ✅
 
 --- 
 
 <img src="../../../godot.png" width="30">   
   
-## Godot Configurator 
+## Godot Configurator - status
 
 - More menus and buttons have been added.
 - Added the ability to launch SRM for those that want to tweak settings or images. 
 
 --- 
+
+## What is left for 0.9.0b release?
+
+- As of now all the big features are implemented but they need more testing by the team and the community testers. 
+- Emulators / Components updates and resolve any issues that comes from that.
+- The Godot Configurator still have some missing tools from the Legacy Configurator not implemented yet such as: move folders, bios checker with the new format and compression. 
+
 
 ## That is all for now 
 

@@ -50,15 +50,32 @@ We wish them a happy journey ahead. Keep in touch, Itakatta! 🤌🍕🍝🍌�
 
 <img src="../../../folder-blue-games.png" width="30"> 
 
-## Development - 0.9.0b Status updates 
+## Open with RetroDECK - New function
 
-What has happend since last month? 
+<img src="../owr_appselect.png" width="600"> 
+
+On the Linux Desktop (or desktop mode) we added the option of open and run various files directly with RetroDECK.
+In these examples we will be using the [Little Medusa - Demo](https://megacatstudios.com/pages/little-medusa) a `.nes` file called `LittleMedusa_8bitdemo.nes` from Mega Cat Studios.
+
+### Example 1: The game inside the correct roms folder
+
+<img src="../owr_infolder.png" width="300"> 
+
+in this example the `LittleMedusa_8bitdemo.nes` file is inside the `retrodeck/roms/nes` folder and when clicking on it RetroDECK opens it with the Nintendo Entertainment System emulator and the game starts.
+
+RetroDECK knows that because you opened it from the `/roms/nes` foler the game must correspond to that system.
+
+### Example 2: The game is outside the roms folder
+
+<img src="../owr_nonedir.png" width="600"> 
+
+In this example the `LittleMedusa_8bitdemo.nes` file is is not inside the `retrodeck/roms/nes` but in the ` download` folder. When clicked RetroDECK will prompt a dialog window and ask what system the file belongs to and then run it. 
 
 --- 
 
 <img src="../../../utilities-system-monitor.png" width="30"> 
 
-### Framework 
+## Framework 
 
 - RetroDECK can now pick up logged-in Steam profiles for systems like SRM.
 - Several light manifest pipeline issues resolved.
@@ -68,7 +85,7 @@ What has happend since last month?
 
 <img src="../../../portmaster.png" width="30"> 
 
-### PortMaster Integration
+## PortMaster Integration
 
 - No reported issues; it works as expected in cooker. ✅ 
 
@@ -76,7 +93,7 @@ What has happend since last month?
 
 <img src="../../../srm.png" width="30">   
 
-### Steam ROM Manager (SRM) Integration 
+## Steam ROM Manager (SRM) Integration 
 
 - SRM is now working with your Steam username and syncing your favorite games to Steam.  ✅
 
@@ -84,7 +101,7 @@ What has happend since last month?
 
 <img src="../../../godot.png" width="30">   
   
-### Godot Configurator
+## Godot Configurator
 
 - More menus and buttons added.
 - Added the ability to launch SRM for tweaking settings or images.

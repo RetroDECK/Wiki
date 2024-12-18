@@ -23,25 +23,23 @@ The team wishes everyone a happy winter season and happy holidays.
 
 ## Thanks Lx32 and dottormac
 
-We want to give a special thanks to our former RetroDECK Team members Lx32 & dottormac. 
+Special thanks to former RetroDECK Team members Lx32 & dottormac for their contributions.
+They are now RetroDECK Alumni with special roles on Discord. 
 
-Both of them made contributions to RetroDECK over it's lifespan. Sometimes things in-real-life takes away your time to contribute to a open source project. 
+Life can sometimes pull us away from contributing to open source projects. We want to extend our heartfelt thanks to:
 
-- dottormac helped a lot of with early testing of RetroDECK.
-- Lx32 focused on the SRM implemention (but started with BoilR back in the day) for adding games to Steam. 
+- dottormac for their significant help with early testing of RetroDECK.
+- Lx32 for focusing on the SRM implementation, and for his earlier work on BoilR to finally add games to Steam.
 
-They have both graduated to RetroDECK Alumni and have a special role on Discord.
-Us in the rest of the Team wishes them happy journey going forward. 
-
-Keep in touch you two, Itakatta! 🤌🍕🍝🍌🤌 ❤️
+We wish them a happy journey ahead. Keep in touch, Itakatta! 🤌🍕🍝🍌🤌 ❤️
 
 --- 
 
 ## Framework - status
 
-- RetroDECK can now pickup logged in Steam profiles to inject into systems like SRM that require it. 
-- Several light manifest pipeline issues have been resolved. 
-- Piped even more logs into the central retrodeck.log
+- RetroDECK can now pick up logged-in Steam profiles for systems like SRM.
+- Several light manifest pipeline issues resolved.
+- More logs piped into the central retrodeck.log.
 
 --- 
 
@@ -49,7 +47,7 @@ Keep in touch you two, Itakatta! 🤌🍕🍝🍌🤌 ❤️
 
 ### PortMaster - Status
 
-- No reported issues and it works as it should in cooker. ✅ 
+- No reported issues; it works as expected in cooker. ✅ 
 
 --- 
 
@@ -57,7 +55,7 @@ Keep in touch you two, Itakatta! 🤌🍕🍝🍌🤌 ❤️
 
 ## SRM - Status 
 
-- SRM is now working (from initial tests) with your Steam username and is syncing your favorite games to Steam. ✅
+- SRM is now working with your Steam username and syncing your favorite games to Steam.  ✅
 
 --- 
 
@@ -65,16 +63,17 @@ Keep in touch you two, Itakatta! 🤌🍕🍝🍌🤌 ❤️
   
 ## Godot Configurator - status
 
-- More menus and buttons have been added.
-- Added the ability to launch SRM for those that want to tweak settings or images. 
+- More menus and buttons added.
+- Added the ability to launch SRM for tweaking settings or images.
 
 --- 
 
 ## What is left for 0.9.0b release?
 
-- As of now all the big features are implemented but they need more testing by the team and the community testers. 
-- Emulators / Components updates and resolve any issues that comes from that.
-- The Godot Configurator still have some missing tools from the Legacy Configurator not implemented yet such as: move folders, bios checker with the new format and compression. 
+- All big features are implemented but need more testing.
+- Emulators/Components updates and resolving any issues.
+- Godot Configurator - some missing tools from the Legacy Configurator still need to be implemented.
+- Godot Configurator - design improvements for some menus are planned.
 
 
 ## That is all for now 

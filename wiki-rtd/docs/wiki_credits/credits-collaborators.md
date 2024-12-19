@@ -8,7 +8,9 @@ Creator of ES-DE.
 ## ROMM
 
 ### [Zurdi](https://github.com/zurdi15)
+
 Creator of ROMM.
+
 <details><summary> </summary>
 Demonio de las tapas de Oliva.
 </details>
@@ -27,6 +29,5 @@ Creator of the Pixelitos icon theme.
 Theme creator for ES-DE and AmberELEC.
 
 ### [Weestuarty](https://github.com/Weestuarty)
-Theme creator for ES-DE.
 
 Theme creator for ES-DE.

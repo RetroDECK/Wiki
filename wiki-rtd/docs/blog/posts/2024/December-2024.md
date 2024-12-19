@@ -99,7 +99,7 @@ When clicked, RetroDECK will prompt a dialog window asking which system the file
 
 --- 
 
-<img src="../../../srm.png" width="30">   
+<img src="../../../srm-logo.png" width="30">   
 
 ## Steam ROM Manager (SRM) Integration 
 

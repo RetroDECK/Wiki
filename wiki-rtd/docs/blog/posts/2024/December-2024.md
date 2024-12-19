@@ -105,7 +105,7 @@ When clicked, RetroDECK will prompt a dialog window asking which system the file
 
 ## Steam ROM Manager (SRM) Integration 
 
-- SRM is now working with your Steam username and syncing your favorite games to Steam.  ✅
+- SRM is now working with your Steam username and syncing your favorite games to Steam. ✅
 
 --- 
 

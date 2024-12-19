@@ -107,6 +107,10 @@ When clicked, RetroDECK will prompt a dialog window asking which system the file
 
 - SRM is now working with your Steam username and syncing your favorite games to Steam. ✅
 
+We know how you feel:
+
+![type:audio](Blessed be Steam.mp3)
+
 --- 
 
 <img src="../../../godot.png" width="30">   

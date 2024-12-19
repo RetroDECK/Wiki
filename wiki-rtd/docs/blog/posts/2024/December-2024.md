@@ -1,6 +1,6 @@
 --- 
 
-date: 2024-12-17 
+date: 2024-12-19
 
 --- 
 
@@ -78,7 +78,6 @@ RetroDECK knows that because you opened it from the `/roms/nes` folder, the game
 In this example, the `LittleMedusa_8bitdemo.nes` file is not inside the `retrodeck/roms/nes` folder but in the `download` folder. 
 
 When clicked, RetroDECK will prompt a dialog window asking which system the file belongs to and then run it.
-
 
 --- 
 

@@ -34,6 +34,8 @@ The team wishes everyone a happy winter season and happy holidays.
 
 --- 
 
+<img src="../../../rd-xmas-logo.svg" width="300"> 
+
 ## Thanks Lx32 and dottormac
 
 Special thanks to former RetroDECK Team members Lx32 & dottormac for their contributions.

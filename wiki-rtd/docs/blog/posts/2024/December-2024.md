@@ -6,7 +6,7 @@ date: 2024-12-19
 
   
 
-# December 2024: Right clicking caroling
+# December 2024: Right Clicking Caroling
 
 It's the last month the year! 
 

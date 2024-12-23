@@ -16,7 +16,7 @@ The team wishes everyone a happy winter season and happy holidays.
 
 ## Highlights 
 
-- Thanks Lx32 and dottormac
+- Thanks Lx32, MonkeyX and dottormac
 
 - Development - 0.9.0b Status updates 
 

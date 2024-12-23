@@ -43,21 +43,11 @@ Freedom loving leader of the MCCP (Murican Cheese Crust Patriots) in the interna
 
 ### [WallK](https://github.com/WallK)
 
-Godot and scipting!
-
+Godot and scripting!
 
 <details><summary> </summary>
 Pizza Mercenary
 </details>
-
-### [MonkeyX](https://github.com/monkeyx-net)
-
-Godot, Emulators and more things!
-
-<details><summary> </summary>
-Wartime Pizza peace broker.
-</details>
-
 
 ## Special Thanks
  We want give special thanks to:

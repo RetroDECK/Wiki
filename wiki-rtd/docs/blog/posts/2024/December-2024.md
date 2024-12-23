@@ -36,17 +36,20 @@ The team wishes everyone a happy winter season and happy holidays.
 
 <img src="../../../rd-xmas-logo.svg" width="300"> 
 
-## Thanks Lx32 and dottormac
+## Thanks Lx32, MonkeyX and dottormac
 
-Special thanks to former RetroDECK Team members Lx32 & dottormac for their contributions.
+Special thanks to former RetroDECK Team members Lx32, MonkeyX and dottormac for their contributions.
 They are now RetroDECK Alumni with special roles on Discord. 
 
 Life can sometimes pull us away from contributing to open source projects. We want to extend our heartfelt thanks to:
 
 - dottormac for their significant help with early testing of RetroDECK.
 - Lx32 for focusing on the SRM implementation, and for his earlier work on BoilR to finally add games to Steam.
+- MonkeyX for his contributions to the Godot Configurator and more.
 
-We wish them a happy journey ahead. Keep in touch, Itakatta! 🤌🍕🍝🍌🤌 ❤️
+We wish them a happy journey ahead and for those who just got into entrepreneurship ventures we hope for a big success. 
+
+Keep in touch, Itakatta! 🤌🍕🍝🍌🤌 ❤️
 
 --- 
 

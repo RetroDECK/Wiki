@@ -127,11 +127,12 @@ We know how you feel:
 
 ## What is left for 0.9.0b release?
 
-- All big features are implemented but need more testing.
 - Emulators/Components updates and resolving any issues.
-- Godot Configurator - some missing tools from the Legacy Configurator still need to be implemented.
-- Godot Configurator - design improvements for some buttons/sub-menus.
 - Minor tweaks and bugfixes. 
+- Godot Configurator - some missing tools from the Legacy Configurator still need to be implemented.
+- Godot Configurator - design improvements (this might take more time).
+
+But as always anything is subject to change. 
 
 ## That is all for now 
 

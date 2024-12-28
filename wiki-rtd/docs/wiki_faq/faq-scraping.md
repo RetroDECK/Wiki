@@ -14,6 +14,8 @@ There's a handy spreadsheet that explains each media type:
 
 [Spreadsheet: Media Types in ES-DE](https://docs.google.com/spreadsheets/d/18VJAL44aNxsFOd4pVAONmdWwa7srCSzr2Z2SJEiNKnE/edit?gid=1812680930#gid=1812680930)
 
+Check the following guide:
+
 ### Manually copying game media files
 
 If you already have a library of game media (images, videos and PDF manuals) you can manually copy these files into RetroDECK (ES-DE). 

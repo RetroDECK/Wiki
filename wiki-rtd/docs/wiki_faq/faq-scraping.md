@@ -6,6 +6,10 @@ Scraping is done via [Screenscraper](https://www.screenscraper.fr/) or [TGBD](ht
 
 In: `~/retrodeck/ES-DE/downloaded_media` folder.
 
+## Can I add my own images, manuals, or other media?
+
+The ES-DE Wiki has [instructions](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md?ref_type=heads#manually-copying-game-media-files) on adding your own media.
+
 ## I got some weird error message about quota after scraping!
 
 The error message mentions something about quota. You have a quota limit on how much you can scrape each day from [Screenscraper](https://www.screenscraper.fr/) where each item you scrape counts as 1 quota of the daily total.

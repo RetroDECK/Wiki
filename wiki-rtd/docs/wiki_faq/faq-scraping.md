@@ -59,8 +59,9 @@ You want to add a screenshot and a video to the game:
 
 Then the media files structure needs to be the following:
 
-`~/retrodeck/ES-DE/downloaded_media/c64/screenshots/Multidisk/Last Ninja 2/Last Ninja 2.jpg`
-`~/retrodeck/ES-DE/downloaded_media/c64/videos/Multidisk/Last Ninja 2/Last Ninja 2.mp4`
+Screenshots: `~/retrodeck/ES-DE/downloaded_media/c64/screenshots/Multidisk/Last Ninja 2/Last Ninja 2.jpg`
+
+Videos: `~/retrodeck/ES-DE/downloaded_media/c64/videos/Multidisk/Last Ninja 2/Last Ninja 2.mp4`
 
 **A Directories interpreted as files game:**
 
@@ -70,9 +71,9 @@ You want to add a screenshot and a video to the game:
 
 The media files for this directory which is interpreted as a file will be:
 
-`~/retrodeck/ES-DE/downloaded_media/scummvm/screenshots/dig.scummvm.png`
+Screenshots: `~/retrodeck/ES-DE/downloaded_media/scummvm/screenshots/dig.scummvm.png`
 
-`~/retrodeck/ES-DE/downloaded_media/scummvm/videos/dig.scummvm.mp4`
+Videos: `~/retrodeck/ES-DE/downloaded_media/scummvm/videos/dig.scummvm.mp4`
 
 
 ## I got some weird error message about quota after scraping!

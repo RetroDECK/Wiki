@@ -20,13 +20,14 @@ Check the following guide.
 
 If you already have a library of game media (images, videos and PDF manuals) you can manually copy these files into RetroDECK (ES-DE). 
 
-**Requirements:**
+**Requirements & Tips:**
 
 - Remember that on Linux filenames are case sensitive.
 - The file extensions must be in lower case in ES-DE (`.png` instead of `.PNG` / `.Png`).
 - The media files names must correspond exactly to the game files name.
 - For directories interpreted as files games (like ScummVM) you will need to add the folder file extension to the media file name example: `dig.scummvm.png`.
 - Supported image file extensions are: `.jpg` and `.png`.
+- Supported document file extensions are: `.pdf`.
 - Supported video file extensions are: `.avi` , `.mkv` , `.mov` , `.mp4` and `.wmv`.
 
 The default media directory is: `~/retrodeck/ES-DE/downloaded_media/<system name>/<media type>/<files goes here>`

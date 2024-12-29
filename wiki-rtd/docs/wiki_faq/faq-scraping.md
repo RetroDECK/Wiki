@@ -14,13 +14,13 @@ There's a handy spreadsheet that explains each media type:
 
 [Spreadsheet: Media Types in ES-DE](https://docs.google.com/spreadsheets/d/18VJAL44aNxsFOd4pVAONmdWwa7srCSzr2Z2SJEiNKnE/edit?gid=1812680930#gid=1812680930)
 
-Check the following guide:
+Check the following guide.
 
-### Manually copying game media files
+### Guide: Manually adding game media files
 
 If you already have a library of game media (images, videos and PDF manuals) you can manually copy these files into RetroDECK (ES-DE). 
 
-Requirements: 
+**Requirements:**
 
 - Remember that on Linux filenames are case sensitive.
 - The file extensions must be in lower case in ES-DE (`.png` instead of `.PNG` / `.Png`).

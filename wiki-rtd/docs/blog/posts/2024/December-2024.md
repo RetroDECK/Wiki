@@ -130,7 +130,7 @@ We know how you feel:
 - Emulators/Components updates and resolving any issues.
 - Minor tweaks and bugfixes. 
 - Godot Configurator - some missing tools from the Legacy Configurator still need to be implemented.
-- Godot Configurator - design improvements (this might take more time).
+- Godot Configurator - design improvements (this might take more time and we might need to push Godot to a new version).
 
 But as always anything is subject to change. 
 

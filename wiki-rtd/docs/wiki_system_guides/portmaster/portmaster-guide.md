@@ -43,7 +43,9 @@ This contains the auto generated launch scripts for ES-DE as `.sh` files.
 
 You go into the PortMaster menu in ES-DE and Open `PortMaster`. 
 
-The application will auto update to the latest version and from there a library of ports will be shown. You go to a port and press the download button and it will downloaded and added to the ES-DE interface under the PortMaster menu.
+The application will auto update to the latest version and from there a library of ports will be shown. 
+
+You go to a port and press the download button and it will downloaded and added to the ES-DE interface under the PortMaster menu.
 
 
 

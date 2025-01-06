@@ -168,7 +168,7 @@ nav:
       - Mod Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-mod.md
       - Texture Pack Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-texture-pack.md
 
-    - Duckstation 🐓:
+    - Duckstation 🐓 (Legacy):
       - Duckstation - General Guide (WIP): wiki_emulator_guides/duckstation/duckstation-guide.md
       - Duckstation - Texture Pack Guide: wiki_emulator_guides/duckstation/duckstation-texture-pack.md
 
@@ -195,15 +195,26 @@ nav:
     - RPCS3 3️⃣:
       - RPCS3 - General Guide: wiki_emulator_guides/rpcs3/rpcs3-guide.md
 
-    - Ryujinx 🔵:
-      - Ryujinx - General Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-guide.md
-      - Ryujinx - Mod Guide (WIP): wiki_emulator_guides/ryujinx/ryujinx-mod.md
+    - Ruffle 🌩️:
+      - Ruffle - General Guide (WIP): wiki_emulator_guides/ruffle/ruffle-guide.md
+
+    - Ryujinx (Legacy) 🔵:
+      - Ryujinx - General Guide: wiki_emulator_guides/ryujinx/ryujinx-guide.md
+      - Ryujinx - Mod Guide: wiki_emulator_guides/ryujinx/ryujinx-mod.md
 
     - Vita3K 🤍:
       - Vita3K - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
 
     - xemu ✖️:
       - xemu - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
+
+  - Guides - Systems 🗃️:
+
+    - PortMaster 🚢:
+      - PortMaster - General Guide: wiki_system_guides/portmaster/portmaster-guide.md
+
+    - Steam Rom Manager 🚂:
+      - SRM - General Guide: wiki_system_guides/srm/srm-guide.md
 
   - The Controller Vault 🎮:
 

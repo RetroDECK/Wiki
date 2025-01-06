@@ -14,25 +14,39 @@
 [CEMU Webpage](https://cemu.info/)
 
 
-## Where to put the games
+## Where to put the games?
+
 WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 
-The supported file formats are: `.wua` and is the preferred method to use for Wii U games. But it also supports `.wud` `.wux` and `.rpx`.
+## What file formats are supported?
 
-## Where to put the keys.txt files
+```
+.wua
+.wud 
+.wux
+.rpx
+```
+
+`.wua` is the preferred method to use for Wii U games. 
+
+## Does CEMU require BIOS or Firmware?
+
+Yes, `keys.txt`
+
+### Where to put the keys.txt files
+
 `~/.var/app/net.retrodeck.retrodeck/data/Cemu`
 
 This will be changed in a later update to the BIOS folder.
 
-## How to add games
+## Guide - How to add games
 
 (This needs to be rewritten)
-Start Cemu and install the game, any updates as well as optional DLCs to the Cemu NAND. After the installation is completed, open the Title Manager from the Tools menu, select your game, right click and select Convert to compressed Wii U archive (`.wua`) and select your wiiu system directory as the target. You can modify the file name if you want to, or keep it at its default value. Press the Save button and the game will be automatically packaged as a `.wua` file.
+
+Start Cemu and install the game, any updates as well as optional DLCs to the Cemu NAND. After the installation is completed, open the Title Manager from the Tools menu, select your game, right click and select Convert to compressed Wii U archive (`.wua`) and select your wiiu system directory as the target. 
+
+You can modify the file name if you want to, or keep it at its default value. Press the Save button and the game will be automatically packaged as a `.wua` file.
 Following this, just start ES-DE and the game should be shown as a single entry that can be launched using Cemu.
-
-## Set up Online Play (2.0-72 WIP)
-
-**NOTE: As of April 8th, 2024, the official Nintendo Network servers will be taken offline. Any means of connecting to those official servers will not be possible past this date. <br>Please proceed with these steps only with a Pretendo Network account for best results.**
 
 > *As of Cemu Flatpak version 2.0-72 experimental, connection results are still mixed. Steps are applicable, just waiting on a more favorable release*
 

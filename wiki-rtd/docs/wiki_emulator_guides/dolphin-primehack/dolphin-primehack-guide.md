@@ -27,11 +27,8 @@ Primehack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouse
 
 [Primehack - Github](https://github.com/shiiion/dolphin)
 
-## Does Dolphin require BIOS or Firmware?
 
-No
-
-## Where to put the games
+## Where to put the games?
 
 **Gamecube:**
 
@@ -43,11 +40,32 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 ## What file formats does Dolphin / Primehack support?
 
-The supported formats are `CISO`, `DFF`, `DOL`, `ELF`, `GCM`, `GCZ`, `ISO`, `JSON`, `M3U`, `RVZ`, `TGC`, `WAD`, `WBFS`, `WIA`, `7Z` `ZIP`.
+```
+.ciso
+.dff
+.dol
+.elf
+.gcm
+.gcz
+.iso
+.json
+.m3u
+.rvz
+.tgc
+.wad
+.wbfs
+.wia
+.7z
+.zip
+```
 
 **NOTE:**
 
-`WBFS` and `WAD` are the original format supported by the Wii console.
+`.wbfs` and `.wad` are the original format supported by the Wii console.
+
+## Does Dolphin require BIOS or Firmware?
+
+No
 
 ## What other folders are used?
 

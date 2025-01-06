@@ -6,15 +6,23 @@ Yuzu was a Switch emulator and was removed as part of the 0.8.0b update.
 
 ## Where to put the games?
 
-Switch games should be put into the `retrodeck/roms/switch/` directory.<br>
-The games can come in many different formats: `XCI` `NSP` `NCA` `NSO` `NRO`.
+Switch games should be put into the `retrodeck/roms/switch/` directory.
+
+## What file formats are supported?
+
+```
+.xci
+.nsp
+.nca
+.nso
+.nro
+```
 
 ## Does Yuzu require BIOS or Firmware?
 
 Yes, `prod.keys` `title.keys` and `nca` files.
 
-
-## Yuzu
+### Where to put the firmware files?
 
 Needs the key files `prod.keys`, `title.keys` and the firmware files in the following directories:
 

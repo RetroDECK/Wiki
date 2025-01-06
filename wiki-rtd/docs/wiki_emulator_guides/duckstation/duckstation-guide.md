@@ -14,7 +14,43 @@ Duckstation is a Playstation 1 - PSX Emulator.
 
 [Duckstation - Github](https://github.com/stenzek/duckstation)
 
+**Note: Legacy Emulator**
 
-## Where to put the games
+As of RetroDECK 0.9.0b Duckstation have made licensing changes and is marked as Legacy. It will no longer receive any updates and is working as-is. 
+
+## Where to put the games?
+
 PSX games should be put under the `retrodeck/roms/psx/` directory.
+
+## What file formats are supported?
+
+```
+.bin + .cue
+.img
+.iso
+.chd
+.mds
+.pbp
+.ecm 
+```
+
+## Does Duckstation require BIOS or Firmware?
+
+Yes, it needs BIOS a PSX BIOS to run games.
+
+There exists several PSX BIOS from different regions and hardware versions.
+
+[PSX BIOS Guide on Github](https://github.com/LiquidSevens/psx-models-bios-guide)
+
+
+### Where to put the PSX BIOS?
+
+Directly into the folder
+
+`retrodeck/bios/`
+
+**Example:**
+
+`retrodeck/bios/Scph1001.bin`
+
 

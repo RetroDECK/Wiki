@@ -13,15 +13,39 @@
 [Ryujinx Webpage](https://ryujinx.org/)
 
 
+**Note: Legacy Emulator**
+
+As of RetroDECK 0.9.0b Ryujinx have made stopped development and is marked as Legacy. It will no longer receive any updates or support more and is working as-is. 
+
+
 ## Where to put the games?
-Switch games should be put into the `retrodeck/roms/switch/` directory.<br>
-The games can come in many different formats: `XCI` `NSP` `NCA` `NSO` `NRO`.
 
-## How-to Open the Ryujinx interface?
+Switch games should be put into the `retrodeck/roms/switch/` directory.
 
-`RetroDECK Configurator` ->  `Open Emulator` -> `Ryujinx`
+## What file formats are supported?
 
-## Does Ryujinx require BIOS or Firmware?
+```
+.xci
+.nsp
+.nca
+.nso
+.nro
+```
+
+
+## Does Ryujinx require BIOS / Firmware / other files?
+
+Yes `.keys` and `.nca` files.
+
+**Notice: Do not mix and match versions firmware and keys**
+
+The installed firmware must have have the same version at your keys and .nca files, you can't mix and match as that can lead to crashes and black screens!
+
+You need to make sure that the keys and firmware are from the same version.
+
+Generally do not install the firmware from games. Instead provide your own firmware and keys from your own device.
+
+### Where to put the firmware files?
 
 Needs the key files `prod.keys`, `title.keys` and the firmware files in the following directories:
 
@@ -47,13 +71,10 @@ Ryujinx also requires the firmware to be installed via `RetroDECK Configurator` 
 
 Read more on: [Ryujinx Configuraton Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
 
-### Notice: Do not mix and match versions firmware and keys
 
-The installed firmware must have have the same version at your keys and .nca files, you can't mix and match as that can lead to crashes and black screens!
+## How-to Open the Ryujinx interface?
 
-You need to make sure that the keys and firmware are from the same version.
-
-Generally do not install the firmware from games. Instead provide your own firmware and keys from your own device.
+`RetroDECK Configurator` ->  `Open Emulator` -> `Ryujinx`
 
 ## Add game patches
 

@@ -33,9 +33,9 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 ```
 
 
-## Does Ryujinx require BIOS / Firmware / other files?
+## Does Ryujinx require BIOS or Firmware?
 
-Yes `.keys` and `.nca` files.
+Yes, `prod.keys` `title.keys` and `.nca` files.
 
 **Notice: Do not mix and match versions firmware and keys**
 

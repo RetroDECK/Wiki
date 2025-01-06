@@ -20,7 +20,7 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 ## Does Yuzu require BIOS or Firmware?
 
-Yes, `prod.keys` `title.keys` and `nca` files.
+Yes, `prod.keys` `title.keys` and `.nca` files.
 
 ### Where to put the firmware files?
 

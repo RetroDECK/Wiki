@@ -67,14 +67,12 @@ We are working on implementing all these features over the big releases. Some wi
 
 **Missing features:**
 
-- Add games as separate game entries in Steam
 - Cloud sync
 - USB transfer
 - STFP / FTP
 - Better gyro support.
 - Dynamic external display resolution support for borders and viewports.
 - Emulators & Engines supported by default ES-DE (there at least one option per system in RetroDECK).
-- PortMaster integration.
 - A rebuilt Configurator that is a Godot application that supports controller navigation.
 - A rebuilt first run installer and updater in Godot.
 - Better art: Mascot, Easter Eggs, Logos.

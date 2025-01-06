@@ -8,7 +8,7 @@ Games that you want to run with MAME should be put under the `retrodeck/roms/mam
 
 ## What file formats are supported?
 
-Too many to list here but generally `.zip` files are the recommended format. 
+Too many to list here but generally `.zip` files is the recommended format that bundles the firmware and bios files with the game. 
 
 ## Does MAME require BIOS or Firmware?
 

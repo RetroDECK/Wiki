@@ -9,12 +9,15 @@
 ![GitHub](https://img.shields.io/github/license/XargonWan/RetroDECK)
 
 ## 🏗️ This wiki is currently under construction 🏗️
+
 Some articles are marked as WIP (Work in Progress).
 
 Those can either be:
 
 - Preparation articles for an upcoming update.
 - They could also be articles we have not had the time to fully write yet.
+
+We are currently also updating the wiki for the next version of RetroDECK.
 
 ## What is RetroDECK?
 

@@ -1,6 +1,6 @@
-# OpenBOR - General Guide
+# SRM - General Guide
 
-<img src="../../../wiki_images/logos//openbor-logo.svg" width="150">
+<img src="../../../wiki_images/logos/srm-logo.png" width="150">
 
 Open Beats of Rage or `OpenBOR` is a beat 'em up game engine and Chronocrash is the main community of OpenBOR.
 

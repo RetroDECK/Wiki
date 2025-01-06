@@ -89,12 +89,6 @@ The Wii and GameCube Emulator Dolphin.
 
 The Metroid Prime fork of Dolphin.
 
-### Duckstation
-
-<img src="../../wiki_images/logos/duckstation-logo.png" width="100">
-
-Playstation 1 (PSX) emulator Duckstation.
-
 ### melonDS
 
 <img src="../../wiki_images/logos/melonds-logo.svg" width="100">
@@ -119,6 +113,12 @@ The PSP emulator PPSSPP.
 
 The PS3 emulator RPCS3.
 
+### Ruffle
+
+<img src="../../wiki_images/logos/ruffle-logo.svg" width="100">
+
+The flash emulator Ruffle.
+
 ### Vita3k
 
 <img src="../../wiki_images/logos/vita3k-logo.png" width="100">
@@ -131,12 +131,25 @@ The PSVita emulator Vita3k.
 
 The Xbox emulator XEMU.
 
+## Included: Legacy Emulators
+
+Legacy Emulators are emulators that are included but no longer supported because of ceased development on the Emulators part or other things.
+
 ### Ryujinx
 
 <img src="../../wiki_images/logos/ryujinx-logo.svg" width="100">
 
 The Switch emulator Ryujinx.
 
+Has stopped development.
+
+### Duckstation
+
+<img src="../../wiki_images/logos/duckstation-logo.png" width="100">
+
+Playstation 1 (PSX) emulator Duckstation.
+
+Has made licensing changes.
 
 ## Supported: Standalone Engines
 
@@ -163,6 +176,22 @@ IKEMEN Go is a remake of the IKEMEN (open source fighting games engine that supp
 <img src="../../wiki_images/logos/pico-8-logo.svg" width="200">
 
 The fantasy console Pico-8.
+
+## Supported: Other Systems
+
+### PortMaster
+
+<img src="../../wiki_images/logos/portmaster-logo.png" width="200">
+
+PortMaster is a simple GUI tool designed to facilitate the downloading and installation of game ports for Linux devices and is self contained.
+
+### Steam Rom Manger
+
+<img src="../../../wiki_images/logos/srm-logo.png" width="150">
+
+Steam ROM Manager a bulk game importer and artwork manager for Steam.
+
+It adds separate games to Steam, adds artwork and configures the steam input profiles. 
 
 ## Steam Input Controller layouts
 

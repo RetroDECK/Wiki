@@ -80,7 +80,7 @@ Where different types of art assets and metadata are stored
 
 RetroDECK already ships the cheat file from [Pugsy's Cheats](https://www.mamecheat.co.uk/) as part of the cheat folder.
 
-To enable cheats open MAME via the Configurator (we plan to make this easier later).
+To enable cheats open MAME via the Configurator or open the interface when inside a MAME game.
 
 In the MAME interface go to -> `General Settings` -> `Miscellaneous Options` -> `Cheats` and toggle it to `On` -> go back and click `Save Settings` and leave MAME.
 
@@ -90,8 +90,6 @@ When you launch a game open the `Quick Menu` and go to the `Cheat` menu to toggl
 ## Applying effects such as Shaders and Scanlines
 
 First read up on BGFX effects on [BGFX MAMEdev](https://docs.mamedev.org/advanced/bgfx.html)
-
-We
 
 1. Go to `~/.var/app/net.retrodeck.retrodeck/config/mame/ini`
 2. Open the `mame.ini` with your text editor of choice.

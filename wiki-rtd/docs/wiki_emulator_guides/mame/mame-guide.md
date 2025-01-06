@@ -2,30 +2,17 @@
 
 <img src="../../../wiki_images/logos/mame-logo.png" width="180">
 
-## Where to put the games
+## Where to put the games?
+
 Games that you want to run with MAME should be put under the `retrodeck/roms/mame/` directory.
 
-## Enable cheats
+## What file formats are supported?
 
-RetroDECK already ships the cheat file from [Pugsy's Cheats](https://www.mamecheat.co.uk/) as part of the cheat folder.
+Too many to list here but generally `.zip` files are the recommended format. 
 
-To enable cheats open MAME via the Configurator (we plan to make this easier later).
+## Does MAME require BIOS or Firmware?
 
-In the MAME interface go to -> `General Settings` -> `Miscellaneous Options` -> `Cheats` and toggle it to `On` -> go back and click `Save Settings` and leave MAME.
-
-When you launch a game open the `Quick Menu` and go to the `Cheat` menu to toggle cheats for that game.
-
-
-## Applying effects such as Shaders and Scanlines
-
-First read up on BGFX effects on [BGFX MAMEdev](https://docs.mamedev.org/advanced/bgfx.html)
-
-We
-
-1. Go to `~/.var/app/net.retrodeck.retrodeck/config/mame/ini`
-2. Open the `mame.ini` with your text editor of choice.
-3. Find `OSD VIDEO OPTIONS` and edit the value: `video` from `opengl` to `bgfx`.
-4. Find `GFX POST-PROCESSING OPTIONS` and edit the value: `bgfx_screen_chains` fron `nothing` to `what ever value you want` from the BGFX link. Example value from MAME: `bgfx_screen_chains`: `crt-geom`,`pillarbox_left_horizontal`,`pillarbox_right_horizontal`.
+Yes, but in most cases the firmware or BIOS is bundled inside the games `.zip` with the game files.
 
 ## MAME Standalone Folders
 
@@ -181,3 +168,25 @@ You can always reset via the configurator if you mess things up.
 **Versus**
 
 `~/.var/app/net.retrodeck.retrodeck/data/mame/assets/versus`
+
+## How-to enable cheats?
+
+RetroDECK already ships the cheat file from [Pugsy's Cheats](https://www.mamecheat.co.uk/) as part of the cheat folder.
+
+To enable cheats open MAME via the Configurator (we plan to make this easier later).
+
+In the MAME interface go to -> `General Settings` -> `Miscellaneous Options` -> `Cheats` and toggle it to `On` -> go back and click `Save Settings` and leave MAME.
+
+When you launch a game open the `Quick Menu` and go to the `Cheat` menu to toggle cheats for that game.
+
+
+## Applying effects such as Shaders and Scanlines
+
+First read up on BGFX effects on [BGFX MAMEdev](https://docs.mamedev.org/advanced/bgfx.html)
+
+We
+
+1. Go to `~/.var/app/net.retrodeck.retrodeck/config/mame/ini`
+2. Open the `mame.ini` with your text editor of choice.
+3. Find `OSD VIDEO OPTIONS` and edit the value: `video` from `opengl` to `bgfx`.
+4. Find `GFX POST-PROCESSING OPTIONS` and edit the value: `bgfx_screen_chains` fron `nothing` to `what ever value you want` from the BGFX link. Example value from MAME: `bgfx_screen_chains`: `crt-geom`,`pillarbox_left_horizontal`,`pillarbox_right_horizontal`.

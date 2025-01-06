@@ -4,6 +4,7 @@
 
 What follows is a list of features and software currently included in RetroDECK.
 
+NOTE THIS IS BEING UPDATED FOR AN UPCOMING UPDATE AND MIGHT NOT REFLECT CURRENT STABLE
 
 ### Note: RetroDECK does not include any games, proprietary BIOS or Firmware
 

@@ -14,33 +14,45 @@
 
 [melonDS - Github](https://github.com/melonDS-emu/melonDS)
 
+## Where to put the games
+
+NDS games should be put under the `retrodeck/roms/nds/` directory.
+
+
+## What file formats are supported?
+
+```
+.nds
+.app
+```
 
 ## Does MelonDS require BIOS or Firmware?
 
-Yes,
+There exists several optional BIOS and FIrmware:,
 
-The firmware can come in three flavors:
+**Nintendo DS:** 
+```
+bios7.bin
+bios9.bin
+firmware.bin
+```
 
-    DSi/3DS DS-mode firmware: 128KB
-    regular DS firmware: 256KB
-    iQue DS firmware: 512KB
+**Nintendo DSI:** 
+```
+dsi_bios9.bin
+dsi_bios7.bin
+dsi_firmware.bin
+dsi_nand.bin
+```
 
-DS Emulation
+### Where to put the BIOS and Firmware?
 
-    bios9.bin - 4KB - ARM9 BIOS
-    bios7.bin - 16KB - ARM7 BIOS
-    firmware.bin - 128/256/512KB - firmware dump
+Directly into the folder
 
+`retrodeck/bios/`
 
-DSi Emulation
+**Example:**
 
-    DSi ARM9 BIOS: 64KB
-    DSi ARM7 BIOS: 64KB
-    DSi Firmware: 128KB
-    DSi NAND image: ~240MB
+`retrodeck/bios/bios9.bin`
 
-
-
-## Where to put the games
-NDS games should be put under the `retrodeck/roms/nds/` directory.
 

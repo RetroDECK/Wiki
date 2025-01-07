@@ -159,8 +159,14 @@ nav:
       - Solarus - General Guide: wiki_engine_guides/solarus/solarus-guide.md
 
   - Guides - Emulators  📘:
+
     - Cemu ⬜:
       - Cemu - General Guide (WIP): wiki_emulator_guides/cemu/cemu-guide.md
+
+    - Citra 🍋 (Archive):
+      - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
+      - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
+      - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md
 
     - Dolphin / Primehack 🐬:
       - Controls Guide: wiki_emulator_guides/dolphin-primehack/dolphin-controls.md
@@ -207,6 +213,11 @@ nav:
 
     - xemu ✖️:
       - xemu - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
+
+    - Yuzu 🔴 (Archive):
+      - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
+      - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
+      - Yuzu - Gyro Guide: wiki_emulator_guides/yuzu/yuzu-gyro.md
 
   - Guides - Systems 🗃️:
 
@@ -343,16 +354,3 @@ nav:
       - Cooker Testing - FAQ: wiki_development/testing/faq-cooker.md
       - Cooker Testing - Guide: wiki_development/testing/cooker-testing.md
       - Expermental Features: wiki_development/testing/experimental-features.md
-
-  - Archive 🗃️:
-    - Yuzu 🔴 (Archive):
-      - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
-      - Yuzu - Mod Guide: wiki_emulator_guides/yuzu/yuzu-mod.md
-      - Yuzu - Gyro Guide: wiki_emulator_guides/yuzu/yuzu-gyro.md
-
-    - Citra 🍋 (Archive):
-      - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
-      - Citra - Mod Guide: wiki_emulator_guides/citra/citra-mod.md
-      - Citra - Texture Pack Guide: wiki_emulator_guides/citra/citra-texture-pack.md
-
-

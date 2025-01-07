@@ -22,11 +22,11 @@ We have not added support yet for the Flatpak version of Steam.
 
 ## How-to enable Steam Sync?
 
-<img src="../../../wiki_images/srm/sync-config.png" width="800">
+<img src="../../../wiki_images/systems/srm/sync-config.png" width="800">
 
 You can enable the Steam Sync feature inside the Configurator.
 
-<img src="../../../wiki_images/srm/sync-prompt.png" width="800">
+<img src="../../../wiki_images/systems/srm/sync-prompt.png" width="800">
 
 All the games you have marked as favorites in ES-DE (marked with a ⭐) will be Synced to Steam upon application exist with art.
 
@@ -39,7 +39,7 @@ Depending on your device Steam might need to be restarted before the games show 
 
 Yes, you can open the entire SRM interface from the Configurator as all other components and tweak to your hearts content. 
 
-<img src="../../../wiki_images/srm/srm-window.png" width="800">
+<img src="../../../wiki_images/systems/srm/srm-window.png" width="800">
 
 
 ### Help - I broke everything after my tweaking

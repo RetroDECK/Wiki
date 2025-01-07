@@ -57,8 +57,8 @@ Directly into the folder
 
 ## Folder structure
 
-| Type    | Folder                 |  Emulator Folder      |    Comment     | 
-|  :---:  | :---:                  | :---:                 |      :---:     |
+| Type    | Folder                 |      Comment     | 
+|  :---:  |  :---:                 |      :---:     |
 | Saves Folder |`retrodeck/saves/nds/melonds/` |                               |  
 | States Folder |`retrodeck/states/nds/melonds/` |                               |
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/melonDS/`         |   `melonDS.ini`|
@@ -76,6 +76,3 @@ Directly into the folder
 1. Open `Configurator` -> `MelonDS`
 2. Click `Config` -> `Emu settings` -> `DS-Mode` ->  Enable `Use external BIOS/firmware files`
 3. Click `File` -> `Boot firmware` -> `DS icon` (bottom of the screen) -> `⚙️` -> `🌍` -> Set language.
-
-
-

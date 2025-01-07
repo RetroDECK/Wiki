@@ -42,7 +42,7 @@ Yes, you can open the entire SRM interface from the Configurator as all other co
 <img src="../../../wiki_images/srm/srm-window.png" width="800">
 
 
-### I broke everything 
+### Help - I broke everything after my tweaking
 
 If you break things you could always reset it to default via:
 

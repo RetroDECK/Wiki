@@ -8,7 +8,7 @@ Citra was a Nintendo 3DS Emulator.
 
 Citra Standalone was removed as part of the `0.8.0b` update.
 
-It can still be temporally installed via:
+It can still be temporarily installed via:
 
 [Ponzu](../../wiki_configurator/ponzu.md)
 

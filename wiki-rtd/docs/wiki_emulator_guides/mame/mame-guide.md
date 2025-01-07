@@ -8,11 +8,30 @@ Games that you want to run with MAME should be put under the `retrodeck/roms/mam
 
 ## What file formats are supported?
 
-Too many to list here but generally `.zip` files is the recommended format that bundles the firmware and bios files with the game. 
+```
+.zip
+.chd
+```
 
 ## Does MAME require BIOS or Firmware?
 
-Yes, but in most cases the firmware or BIOS is bundled inside the games `.zip` with the game files.
+Yes, it depends on the game.
+
+You can do a detailed search over at:
+
+[Arcadeitalia - Mame List](http://adb.arcadeitalia.net/lista_mame.php)
+
+### Where to put the PSX BIOS?
+
+Directly into the folder
+
+`retrodeck/bios/`
+
+For some ROMs it needs to be in the same folder as the roms 
+
+`retrodeck/roms/mame/` 
+
+It all depends on the game.
 
 ## MAME Standalone Folders
 
@@ -75,6 +94,14 @@ Where different types of art assets and metadata are stored
 | Titles |`~/.var/app/net.retrodeck.retrodeck/data/mame/assets/titles`|    |
 | UI |`~/.var/app/net.retrodeck.retrodeck/data/mame/assets/ui`|    |
 | Versus |`~/.var/app/net.retrodeck.retrodeck/data/mame/assets/versus`|    |
+
+## Maintaining ROM Sets
+
+As MAME is updated so are the ROM Sets.
+
+It is important to keep using the same ROM Set as the current version shipped with RetroDECK.
+
+Read more on: [Maintaning ROM Sets](https://docs.mamedev.org/usingmame/aboutromsets.html)
 
 ## How-to enable cheats?
 

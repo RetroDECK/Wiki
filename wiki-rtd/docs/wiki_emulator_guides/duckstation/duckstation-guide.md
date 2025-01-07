@@ -36,9 +36,7 @@ PSX games should be put under the `retrodeck/roms/psx/` directory.
 
 ## Does Duckstation require BIOS or Firmware?
 
-Yes, it needs BIOS a PSX BIOS to run games.
-
-There exists several PSX BIOS from different regions and hardware versions.
+Yes, there exists several PSX BIOS from different regions and hardware versions.
 
 [PSX BIOS Guide on Github](https://github.com/LiquidSevens/psx-models-bios-guide)
 

@@ -53,7 +53,20 @@ You can also manually update it by going to `Options` -> `Update PortMaster` and
 
 <img src="../../../wiki_images/portmaster/pm-banana.png" width="800">
 
-Open `PortMaster` -> `All Ports` and choose the port you want to install, some ports might require additional files.
+Open `PortMaster` -> `All Ports` and choose the port you want to install (some ports might require additional files).
+
+After you have downloaded the games you want to play exit PortMaster.
+
+**ES-DE: Rescan Rom Directory**
+
+In the ES-DE Frontend go to the Utilities Menu
+
+<img src="../../../wiki_images/portmaster/pm-rescan.png" width="800">
+
+<img src="../../../wiki_images/esde/esde-utilities.png" width="800">
+
+Press the `Rescan Rom Directory` to have the games show up (you could also just restart RetroDECK).
+
 
 ### If the game requires additional files
 

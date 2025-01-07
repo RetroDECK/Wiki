@@ -37,11 +37,6 @@ Directly into the folder
 
 `retrodeck/bios/`
 
-**Example:**
-
-`retrodeck/bios/Scph1001.bin`
-
-
 
 ## How to enable/disable Multitap?
 

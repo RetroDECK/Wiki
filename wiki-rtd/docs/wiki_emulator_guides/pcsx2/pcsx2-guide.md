@@ -12,16 +12,18 @@
 
 [PCSX2 Compability List](https://pcsx2.net/compat/)
 
+
+## Does PCSX2 require BIOS or Firmware?
+
+Yes, they need to be put directly into the `retrodeck/bios/` without any subfolder.
+
+
 ## Where to put the games
 
 Playstation 2 games should be put under the `retrodeck/roms/ps2/` directory.
 
 PCSX2 supports the following formats: `ISO` `BIN with CUE files` `CHD`
 
-
-## Does PCSX2 require BIOS or Firmware?
-
-Yes, they need to be put directly into the `retrodeck/bios/` without any subfolder.
 
 
 ## How to enable/disable Multitap?

@@ -75,6 +75,7 @@ Then `Tools` - `Install: RetroDECK Controller Layouts`.
 - Click on the `Update` or `Update all` buttons.
 
 ### Decky: AutoFlatpaks
+
 If you have Decky installed and the AutoFlatpaks plugin. You can update RetroDECK from gamemode. <br>
 Read more here: [Steam Deck - Software Recommendations](../../wiki_devices/steamdeck/steamdeck-software.md).
 

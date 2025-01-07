@@ -20,7 +20,7 @@ We have not added support yet for the Flatpak version of Steam.
 
 [SteamGridDB](https://www.steamgriddb.com/)
 
-### How-to enable Steam Sync?
+## How-to enable Steam Sync?
 
 You can enable the Steam Sync feature inside the Configurator.
 
@@ -28,6 +28,6 @@ All the games you have marked as favorites in ES-DE (marked with a ⭐) will be 
 
 Depending on your device Steam might need to be restarted before the games show up.
 
-### Can I tweak images or other settings in SRM?
+## Can I tweak images or other settings in SRM?
 
 Yes, you can open the entire SRM interface from the Configurator as all other components and tweak to your hearts content. 

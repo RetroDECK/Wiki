@@ -8,7 +8,7 @@ One of the goals of PortMaster is to not install or upgrade any existing OS libr
 
 **Note:** 
 
-That not all 800+ ports are available for the X86_64 system, but the list keeps growing all the time.
+That not all 800+ ports are available for the `X86_64` system, but the list keeps growing all the time.
 
 
 ### PortMaster Links:
@@ -31,15 +31,15 @@ Check the [PortMaster Games List](https://portmaster.games/games.html) for detai
 
 There are two main directories: 
 
-`retrodeck/PortMaster/ports/` 
+| Folder                 |    Comment |
+| :---:               |      :---:     |
+| `retrodeck/roms/portmaster/`   |  This contains the auto generated launch scripts for ES-DE as `.sh` files.   |
+| `retrodeck/PortMaster/ports/`  |  This contains the game files, savefiles and directories. This is also where you add any required game files.  |
 
-This contains the game files, savefiles and directories. This is also where you add any required game files.
-
-`retrodeck/roms/portmaster/` 
-
-This contains the auto generated launch scripts for ES-DE as `.sh` files. 
 
 ## How-to launch PortMaster?
+
+<img src="../../../wiki_images/portmaster/pm-mainwindow.png" width="800">
 
 You go into the PortMaster menu in ES-DE and Open `PortMaster`. 
 
@@ -51,13 +51,15 @@ You can also manually update it by going to `Options` -> `Update PortMaster` and
 
 ## How-to add games to RetroDECK
 
+<img src="../../../wiki_images/portmaster/pm-banana.png" width="800">
+
 Open `PortMaster` -> `All Ports` and choose the port you want to install, some ports might require additional files.
 
 ### If the game requires additional files
 
-Check the [PortMaster Games List](https://portmaster.games/games.html) for details of the specific files needed for that game.
+Check the [PortMaster Games List](https://portmaster.games/games.html) for details of the specific files needed for that game and you might need to create new folders as well.
 
-The required files should be put inside the `retrodeck/PortMaster/ports/<gamefolder>`. 
+The required files and/or folders should be put inside the `retrodeck/PortMaster/`. 
 
 ## Will more games be added?
 

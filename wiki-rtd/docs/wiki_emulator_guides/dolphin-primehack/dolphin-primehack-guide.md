@@ -71,6 +71,8 @@ No
 
 ### Dolphin
 
+This shows what folder corresponds to each folder in the standard Dolphin structure 
+
 | Type | Folder                 | Flatpak Source |  Emulator Folder      |    Comment |
 |  :---:   | :---:                   | :---:               | :---:           |      :---:     |
 | GameCube Saves EU|`retrodeck/saves/gc/dolphin/EU/` |     `var/data/dolphin-emu/GC/EUR/`       |    `dolphin-emu/GC/EUR/`         |  |
@@ -83,6 +85,8 @@ No
 | Screenshots |`retrodeck/screenshots/`         |     `var/data/dolphin-emu/ScreenShots/`       |    `dolphin-emu/ScreenShots/`         |   |
 
 ### PrimeHack
+
+This shows what folder corresponds to each folder in the standard PrimeHack structure 
 
 | Type | Folder                 | Flatpak Source |  Emulator Folder      |    Comment |
 |  :---:   | :---:                   | :---:               | :---:           |      :---:     |

@@ -1,17 +1,17 @@
-# CEMU - General Guide
+# Cemu - General Guide
 
 <img src="../../../wiki_images/logos/cemu-logo.png" width="150">
 
 
-### CEMU Links:
+### Cemu Links:
 
-[CEMU Compatibility Guide](https://compat.cemu.info/)
+[Cemu Compatibility Guide](https://compat.cemu.info/)
 
-[CEMU Wiki](https://wiki.cemu.info/wiki/Main_Page)
+[Cemu Wiki](https://wiki.cemu.info/wiki/Main_Page)
 
-[CEMU Github](https://github.com/cemu-project/Cemu)
+[Cemu Github](https://github.com/cemu-project/Cemu)
 
-[CEMU Webpage](https://cemu.info/)
+[Cemu Webpage](https://cemu.info/)
 
 
 ## Where to put the games?
@@ -20,47 +20,91 @@ WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 
 ## What file formats are supported?
 
+**Encrypted formats:**
+
 ```
-.wua
 .wud 
-.wux
-.rpx
+.wux 
 ```
 
-`.wua` is the preferred method to use for Wii U games. 
+**Decrypted formats**
 
-## Does CEMU require BIOS or Firmware?
+```
+.wua 
+.rpx 
+```
 
-Yes, `keys.txt`
+**Note:** 
 
-### Where to put the keys.txt files
+`.wua` is the preferred format to use for Wii U games. 
+
+## Does Cemu require BIOS or Firmware?
+
+Yes, `keys.txt` if the file format is encrypted.
+
+`otp.bin` and `seeprom.bin` if you want to play Online.
+
+### Where to put the BIOS / Firmware files?
 
 `~/.var/app/net.retrodeck.retrodeck/data/Cemu`
 
-This will be changed in a later update to the BIOS folder.
+This will be changed in a later update to the `retrodeck/bios/cemu` folder.
 
-## Guide - How to add games
+## Folder structure
 
-(This needs to be rewritten)
+| Type    | Folder                 |  Emulator Folder      |    Comment     | 
+|  :---:  | :---:                  | :---:                 |      :---:     |
+| Saves Folder |`retrodeck/saves/wiiu/cemu/` |                               |  
+| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/Cemu/`         |   `settings.xml`, `gameProfiles` folder, `controllerProfiles` folder|
+| BIOS Folder | `retrodeck/bios/Cemu` | Contains `usr` and `sys` folders |
+| Data folder |`~/.var/app/org.retrodeck.retrodeck/data/Cemu` |     |
 
-Start Cemu and install the game, any updates as well as optional DLCs to the Cemu NAND. After the installation is completed, open the Title Manager from the Tools menu, select your game, right click and select Convert to compressed Wii U archive (`.wua`) and select your wiiu system directory as the target. 
+## Guide - How to install DLC and Updates
 
-You can modify the file name if you want to, or keep it at its default value. Press the Save button and the game will be automatically packaged as a `.wua` file.
-Following this, just start ES-DE and the game should be shown as a single entry that can be launched using Cemu.
+**NOTE:**
 
-> *As of Cemu Flatpak version 2.0-72 experimental, connection results are still mixed. Steps are applicable, just waiting on a more favorable release*
+Do not keep DLC and Update files in: `retrodeck/roms/wiiu/`
 
-1. To create a Pretendo Network account, [follow this link] (https://pretendo.network/account/register) and then follow [these instructions](https://pretendo.network/docs/install/wiiu) to log in with your Pretendo Network account on a Wii U
+**Instructions:**
 
-    - Existing NNID are not usable on Pretendo Network, you must create a Pretendo account for Pretendo Network
+1. Open the `Configurator` and Open `Cemu`
+2. `Press File` -> `Install game title, update, or DLC...`
+3. Navigate to where you have your files.
+4. Choose the DLC or Update file and press `Open` and it will install.
+5. Repeat for each DLC / Update you want to install.
 
-2. Follow the [Cemu Online Play Guide](https://cemu.cfw.guide/online-play.html) to generate and dump the required user files for your Pretendo Account
+## Guide - How make .wua files and install the games
+
+**NOTE:** 
+
+- Encrypted ROMs can't be converted to `.wua`. 
+- Before you make the `.wua` install any updates or DLC first to the base game. 
+
+**Instructions:**
+
+1. Open the `Configurator` and Open `Cemu`
+2. `Press Tools` -> `Title Manager`
+3. Search for the game you want to convert and check so the `Type` colum says: `base`.
+4. Right click and press the `Convert to compressed Wii U archive`.
+5. Verify in the prompt that everything you want is there: base game, updates and DLC.
+6. Select the output target folder: `retrodeck/roms/wiiu/`.
+
+
+## Pretendo Account for online play
+
+To create a Pretendo Network account use the following link: [Pretendo: Register Account](https://pretendo.network/account/register).
+
+Then follow the following link: [Pretendo: Install WiiU](https://pretendo.network/docs/install/wiiu) to log in with your Pretendo Network account on a Wii U.
+
+- Existing NNID are not usable on Pretendo Network, you must create a Pretendo account for Pretendo Network.
+
+Follow the [Cemu: Online Play Guide](https://cemu.cfw.guide/online-play.html) to generate and dump the required user files for your Pretendo Account.
 
 **RetroDECK specific file locations:**
 
 -  Wii U User Account’s `usr` and `sys` folders
     - Whatever `MLC Path` in `Options` -> `General settings` is configured to
-    - by default it’s `<RetroDECK install location>/retrodeck/bios/Cemu`
+    - by default it’s `retrodeck/bios/cemu`
   
 - `otp.bin` and `seeprom.bin`
     - `~/.var/app/org.retrodeck.retrodeck/data/Cemu` 

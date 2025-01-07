@@ -28,7 +28,7 @@ NDS games should be put under the `retrodeck/roms/nds/` directory.
 
 ## Does MelonDS require BIOS or Firmware?
 
-There exists several optional BIOS and FIrmware:,
+There exists several optional BIOS and FIrmware:
 
 **Nintendo DS:** 
 ```

@@ -1,4 +1,4 @@
-# Yuzu - General Guide (Legacy)
+# Yuzu - General Guide (Archive)
 
 <img src="../../../wiki_images/logos//yuzu-logo.svg" width="150">
 

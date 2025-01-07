@@ -1,4 +1,4 @@
-# Citra - General Guide (Legacy)
+# Citra - General Guide (Archive)
 
 <img src="../../../wiki_images/logos/citra-logo.svg" width="150">
 

@@ -1,4 +1,4 @@
-# Citra - Texture Pack Guide (Legacy)
+# Citra - Texture Pack Guide (Archive)
 
 The `~/retrodeck/texture_packs/citra/` represents the `/load/textures` folder in Citra.
 

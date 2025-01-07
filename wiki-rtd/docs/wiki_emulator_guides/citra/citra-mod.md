@@ -1,4 +1,4 @@
-# Citra - Mod Guide (Legacy)
+# Citra - Mod Guide (Archive)
 
 The `~/retrodeck/mods/citra/` represents the `/load/mods/` folder in Citra.
 

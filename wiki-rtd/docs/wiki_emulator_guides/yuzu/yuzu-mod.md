@@ -1,4 +1,4 @@
-# Yuzus - Mod Guide (Legacy)
+# Yuzus - Mod Guide (Archive)
 
 `TITLEID` is different for every game.
 

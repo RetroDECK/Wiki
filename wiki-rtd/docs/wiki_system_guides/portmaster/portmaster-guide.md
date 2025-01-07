@@ -13,11 +13,11 @@ That not all 800+ ports are available for the X86_64 system, but the list keeps 
 
 ### PortMaster Links:
 
+[PortMaster Webpage](https://portmaster.games/index.html)
+
 [PortMaster Github](https://github.com/PortsMaster)
 
 [PortMaster Gamelist](https://portmaster.games/games.html)
-
-[PortMaster Webpage](https://portmaster.games/index.html)
 
 [PortMaster FAQ](https://portmaster.games/faq.html)
 
@@ -29,7 +29,7 @@ Check the [PortMaster Games List](https://portmaster.games/games.html) for detai
 
 ## Where are the files located?
 
-There are two main directories:
+There are two main directories: 
 
 `retrodeck/PortMaster/ports/` 
 
@@ -39,15 +39,26 @@ This contains the game files, savefiles and directories. This is also where you 
 
 This contains the auto generated launch scripts for ES-DE as `.sh` files. 
 
-## How to use PortMaster?
+## How-to launch PortMaster?
 
 You go into the PortMaster menu in ES-DE and Open `PortMaster`. 
 
-The application will auto update to the latest version and from there a library of ports will be shown. 
+## How-to update PortMaster?
 
-You go to a port and press the download button and it will downloaded and added to the ES-DE interface under the PortMaster menu.
+PortMaster is self-contained and will auto-update by itself when launched. 
 
+You can also manually update it by going to `Options` -> `Update PortMaster` and `Update Ports`
 
+## How-to add games to RetroDECK
 
+Open `PortMaster` -> `All Ports` and choose the port you want to install, some ports might require additional files.
 
+### If the game requires additional files
 
+Check the [PortMaster Games List](https://portmaster.games/games.html) for details of the specific files needed for that game.
+
+The required files should be put inside the `retrodeck/PortMaster/ports/<gamefolder>`. 
+
+## Will more games be added?
+
+Yes, the PortMaster team is always updating the Ports list. As the application is updated more ports will be added all the time for `X86_64` systems.

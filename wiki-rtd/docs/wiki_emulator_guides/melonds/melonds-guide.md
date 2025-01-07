@@ -55,4 +55,27 @@ Directly into the folder
 
 `retrodeck/bios/bios9.bin`
 
+## Folder structure
+
+| Type    | Folder                 |  Emulator Folder      |    Comment     | 
+|  :---:  | :---:                  | :---:                 |      :---:     |
+| Saves Folder |`retrodeck/saves/nds/melonds/` |                               |  
+| States Folder |`retrodeck/states/nds/melonds/` |                               |
+| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/melonDS/`         |   `melonDS.ini`|
+| BIOS Folder | `retrodeck/bios/` | |
+
+## Change Language in games
+
+**Requirements:** 
+
+- Check if the game has multiple language support over at this link [GamesTDB: DS](https://www.gametdb.com/DS/Downloads).
+- You need to have your bios ion the `retrodeck/bios/` folder.
+
+**Instructions:**
+
+1. Open `Configurator` -> `MelonDS`
+2. Click `Config` -> `Emu settings` -> `DS-Mode` ->  Enable `Use external BIOS/firmware files`
+3. Click `File` -> `Boot firmware` -> `DS icon` (bottom of the screen) -> `⚙️` -> `🌍` -> Set language.
+
+
 

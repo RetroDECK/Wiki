@@ -111,19 +111,8 @@ Follow the [Cemu: Online Play Guide](https://cemu.cfw.guide/online-play.html) to
 
 ## Known issues
     
-### Certain Cemu UI elements are cramped on the Steam Deck
+### Certain UI elements of emulators GUI are cramped / outside of the screen on the Steam Deck
 
-If you are trying to change settings in Cemu on a Steam Deck in Game Mode, some UI elements might be cramped or the buttons are outside of the screen. 
+Check the following link for `Certain UI elements of emulators GUI are cramped / outside of the screen on the Steam Deck`:
 
-This has to do with resolution scaling of the Cemu application and the Steam Deck's resolution, to solve it you can temporally increase the resolution in Steam of RetroDECK:
-
-1. Exit RetroDECK.
-2. Go to RetroDECK in Steam.
-3. Click on the `⚙️` icon - `Properties` - `Shortcut` - `Game Resolution`
-4. Set the Resolution from `Default` to `1920x1080`
-5. Also turn on `Set resolution for internal and external display` (this might be hidden sometimes just go back one menu and go in again to make it show up).
-6. Open `Configurator` - `Cemu`
-7. Make the changes you want and save.
-8. Exit RetroDECK and revert the display changes.
-9. Click on the `⚙️` icon - `Properties` - `Shortcut` - `Game Resolution`.
-10. Set the Resolution from `1920x1080` to `Default`.
+[Steam Deck - FAQ](../../wiki_faq/faq-rd-steamdeck.md) 

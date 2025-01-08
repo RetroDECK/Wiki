@@ -57,7 +57,13 @@ But these issues might be fixed in an upcoming update to SteamOS.
 
 NOTE: Valve does not recommend users to fix it by editing fstab or using something link Gnome Disks or KDE Partition Manager to do so. This could break other things.
 
-## Certain Cemu UI elements of the emulators / applications GUI are cramped on the Steam Deck
+## Certain UI elements of emulators GUI are cramped / outside of the screen on the Steam Deck
+
+If you are trying to change settings in an emulator on a Steam Deck in Game Mode, some UI elements might be cramped or the buttons are outside of the screen. 
+
+This has to do with resolution scaling of the application vs the Steam Deck's resolution. 
+
+To solve it you can temporally increase the resolution in Steam of RetroDECK:
 
 1. Exit RetroDECK.
 2. Go to RetroDECK in Steam.
@@ -69,5 +75,6 @@ NOTE: Valve does not recommend users to fix it by editing fstab or using somethi
 8. Exit RetroDECK and revert the display changes.
 9. Click on the `⚙️` icon - `Properties` - `Shortcut` - `Game Resolution`.
 10. Set the Resolution from `1920x1080` to `Default`.
+11. Start RetroDECK. 
 
 

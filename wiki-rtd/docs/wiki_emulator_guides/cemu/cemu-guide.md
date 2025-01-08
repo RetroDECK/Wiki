@@ -111,7 +111,7 @@ Follow the [Cemu: Online Play Guide](https://cemu.cfw.guide/online-play.html) to
 
 ## Known issues
     
-### Certain Cemu UI elements are cramped in Steam Deck - Game Mode
+### Certain Cemu UI elements are cramped on the Steam Deck
 
 If you are trying to change settings in Cemu on a Steam Deck in Game Mode, some UI elements might be cramped or the buttons are outside of the screen. 
 

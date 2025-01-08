@@ -57,7 +57,7 @@ But these issues might be fixed in an upcoming update to SteamOS.
 
 NOTE: Valve does not recommend users to fix it by editing fstab or using something link Gnome Disks or KDE Partition Manager to do so. This could break other things.
 
-## I need to access a setting emulators GUI but the interface is to cramped in game mode / desktop mode
+## Certain Cemu UI elements of the emulators / applications GUI are cramped on the Steam Deck
 
 1. Exit RetroDECK.
 2. Go to RetroDECK in Steam.

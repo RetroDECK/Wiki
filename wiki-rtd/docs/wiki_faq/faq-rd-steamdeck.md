@@ -57,19 +57,17 @@ But these issues might be fixed in an upcoming update to SteamOS.
 
 NOTE: Valve does not recommend users to fix it by editing fstab or using something link Gnome Disks or KDE Partition Manager to do so. This could break other things.
 
-## I need to access a setting emulators GUI but the interface is to cramped
+## I need to access a setting emulators GUI but the interface is to cramped in game mode / desktop mode
 
-The recommend method is to do this in `Desktop Mode` and open the emulator via the `Configurator` to make changes.
+1. Exit RetroDECK.
+2. Go to RetroDECK in Steam.
+3. Click on the `⚙️` icon - `Properties` - `Shortcut` - `Game Resolution`
+4. Set the Resolution from `Default` to `1920x1080`
+5. Also turn on `Set resolution for internal and external display` (this might be hidden sometimes just go back one menu and go in again to make it show up).
+6. Open `Configurator` - `<application>`
+7. Make the changes you want and save.
+8. Exit RetroDECK and revert the display changes.
+9. Click on the `⚙️` icon - `Properties` - `Shortcut` - `Game Resolution`.
+10. Set the Resolution from `1920x1080` to `Default`.
 
-But it is possible to do in `Game Mode`
-
-Go to RetroDECK in Steam.
-
-But before you launch RetroDECK click on the `⚙️` icon - `Properties` - `Shortcut` - `Game Resolution`
-
-Set the Resolution from `Default` to `1920x1080`
-
-Also turn on `Set resolution for internal and external display` (this might be hidden sometimes just go back one menu and go in again to make it show up).
-
-After you are done making your changes, quit RetroDECK and reset `Game Resolution` to Default else you could have performance issues.
 

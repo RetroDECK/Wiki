@@ -28,16 +28,15 @@ You can enable the Steam Sync feature inside the Configurator.
 
 <img src="../../../wiki_images/systems/srm/sync-prompt.png" width="800">
 
-All the games you have marked as favorites in ES-DE (marked with a ⭐) will be Synced to Steam upon application exist with art.
+All the games you have marked as favorites in ES-DE (marked with a ⭐) will be synced to Steam upon exiting the application, along with their artwork.
 
-Depending on your device Steam might need to be restarted before the games show up in Steam.
-
+Depending on your device, Steam might need to be restarted before the games show up in your library.
 
 ## Can I tweak images or other settings in SRM?
 
 `Configurator` -> `Open Emulator / Component` -> `Steam Rom Manager`. 
 
-Yes, you can open the entire SRM interface from the Configurator as all other components and tweak to your hearts content. 
+Yes, you can open the entire SRM interface from the Configurator, just like all other components, and tweak it to your heart's content.
 
 <img src="../../../wiki_images/systems/srm/srm-window.png" width="800">
 

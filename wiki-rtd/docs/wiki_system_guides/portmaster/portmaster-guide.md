@@ -8,7 +8,7 @@ One of the goals of PortMaster is to not install or upgrade any existing OS libr
 
 **Note:** 
 
-That not all 800+ ports are available for the `X86_64` system, but the list keeps growing all the time.
+Not all `800+` ports are available for the `X86_64` system, but the list is continuously growing.
 
 
 ### PortMaster Links:
@@ -70,10 +70,10 @@ Press the `Rescan Rom Directory` to have the games show up (you could also just 
 
 ### If the game requires additional files
 
-Check the [PortMaster Games List](https://portmaster.games/games.html) for details of the specific files needed for that game and you might need to create new folders as well.
+Check the [PortMaster Games List]https://portmaster.games/games.html) for details on the specific files needed for each game. You might also need to create new subfolders.
 
 The required files and/or folders should be put inside the `retrodeck/PortMaster/`. 
 
 ## Will more games be added?
 
-Yes, the PortMaster team is always updating the Ports list. As the application is updated more ports will be added all the time for `X86_64` systems.
+Yes, the PortMaster team is continuously updating the Ports list. As the application is updated, more ports will be added for `X86_64` systems.

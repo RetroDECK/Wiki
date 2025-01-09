@@ -2,15 +2,15 @@
 
 <img src="../../../wiki_images/logos/srm-logo.png" width="150">
 
-Steam ROM Manager a bulk game importer and artwork manager for Steam.
+Steam ROM Manager is a bulk game importer and artwork manager for Steam. It has been built into RetroDECK since version 0.9.0b.
 
-It adds separate games to Steam, adds artwork from SteamGridDB and configures the RetroDECK Steam Input layouts. 
+It adds separate games to Steam, incorporates artwork from SteamGridDB, and configures the RetroDECK Steam Input layouts. 
 
-RetroDECK uses it as part of it's backend for the Steam Sync feature.
+RetroDECK uses Steam ROM Manager as part of its backend for the Steam Sync feature.
 
-**Notice: Flatpak Steam not yet supported**
+**Notice: Flatpak Steam Not Yet Supported**
 
-We have not added support yet for the Flatpak version of Steam.
+We have not yet added support for the Flatpak version of Steam.
 
 ### SRM Links:
 

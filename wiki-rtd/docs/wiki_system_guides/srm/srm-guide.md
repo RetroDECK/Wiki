@@ -4,7 +4,7 @@
 
 Steam ROM Manager is a bulk game importer and artwork manager for Steam. It has been built into RetroDECK since version 0.9.0b.
 
-It adds separate games to Steam, incorporates artwork from SteamGridDB, and configures the RetroDECK Steam Input layouts. 
+It adds separate games to Steam, incorporates artwork from [SteamGridDB](https://www.steamgriddb.com/) , and configures the RetroDECK Steam Input layouts. 
 
 RetroDECK uses Steam ROM Manager as part of its backend for the Steam Sync feature.
 

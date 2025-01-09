@@ -49,21 +49,30 @@ git checkout -b branchname
 
 ### Build locally via bash script & install hooks
 
-Although it possible to build via this method. Option 2 is more reliable and has more options for tracking and restarting the build if required. 
-
 Looking at the local build process is good to look at how the build process works. This helps understand the self-hosted runner option.
+The build will take about 1 hour on an eight core pc/laptop.
 
+From the project root directory, run
 ```bash
 developer_toolbox/build_retrodeck_locally.sh
-developer_toolbox/install_hooks.sh
 ```
 
-The build will take about 3 hours on an eight core pc/laptop.
+It wil lask if you:
+- want to clear the hashes cache, this will make the build quicker if you need to repeat the build often, but is suggested to don't use ti after 24h or if the builds fails because of the hash checking
+- want to clear the previous artifact and start clean. By cleaning the artifacts the build is slower but might fix some issues
 
-Creates this folder when building locally
-RetroDECK/.flatpak-builder/
+The builder creates these folders and files when building locally:
 
-Produces RetroDECK-cooker.flatpak in the RetroDeck folder. 
+| File/Folder Name                        | Description |
+|-----------------------------------------|-|
+| .flatpak-builder                        | Folder where the flatpak builder is writing sources |
+| retrodeck-flatpak-cooker                | Folder where the flatpak builder is writing built files |
+| retrodeck-repo                          | Folder where the flatpak builder mimicking the flatpak environment |
+| net.retrodeck.retrodeck.appdata.xml.bak | Backup of the appdata file  |
+| net.retrodeck.retrodeck.yml.bak         | Backup of the manifest file |
+| placeholders.cache                      | Cache for the fetched hashes to be reused later |
+| RetroDECK-cooker.flatpak.sha            | File containing the flatpak bundle hash |
+| **RetroDECK-cooker.flatpak**            | **The actual product of the build: the flatpak bundle that can be installed** |
 
 The flatpak build file can be installed/updated following this [guide.](https://retrodeck.readthedocs.io/en/latest/wiki_development/general/cli-guide/#install-retrodeck-from-cli)
 

@@ -113,7 +113,7 @@ nav:
     - Manage your BIOS/Firmware: wiki_management/bios-firmware.md
     - Manage your Multidisk/file games: wiki_management/multi-disk.md
     - Move RetroDECK to a new device: wiki_management/retrodeck-move.md
-    - Scraping Game Media: wiki_management/about-scraping.md
+    - ES-DE - Scraping Game Media: wiki_system_guides/es-de/esde-scraping.md
     - Spreading Files over Multiple Drives: wiki_management/spread-files.md
 
   - Guides - Steam Deck 🕹️:
@@ -214,7 +214,7 @@ nav:
       - ES-DE - User Guide: wiki_system_guides/es-de/esde-guide.md
       - ES-DE - Themes: wiki_system_guides/es-de/esde-themes.md
       - ES-DE - FAQ: wiki_system_guides/es-de/esde-faq.md
-      - ES-DE - Scraping: wiki_system_guides/es-de/esde-scraping.md
+      - ES-DE - Scraping Game Media: wiki_system_guides/es-de/esde-scraping.md
 
     - PortMaster 🚢:
       - PortMaster - General Guide: wiki_system_guides/portmaster/portmaster-guide.md

@@ -1,6 +1,24 @@
-# Scraping in ES-DE
+# ES-DE Scraping
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-downloads.png" width="50">
 
 Scraping is done via [Screenscraper](https://www.screenscraper.fr/) or [TGBD](https://thegamesdb.net/) in the ES-DE interface under scraping.
+
+Scraping allows you to make the games look "pretty" with coverarts, icons, discimages and more.
+
+Read up on the ES-DE userguide on scraping here:
+
+[ES-DE Scraper guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#scraping)
+
+### Quick tips
+
+- On most occasions you want to use ScreenScraper and not TheGamesDB. But for PC titles scraping from TheGamesDB might be better.
+- You will need to register an account on [ScreenScraper.fr](https://www.screenscraper.fr/) to scrape (support them on Patreon for faster downloads, more scrapes per day and priority scraping).
+- Login to your Screenscraper.fr account inside of the ES-DE interface in RetroDECK
+- Choose what content you want to scrape (remember that each content you choose could take up several mb of data per game).
+- Do an initial scrape of all the games you want to scrape.
+- If some games are missed do a more narrow scraping by enabling `Scraper -> Other Settings -> Interactive Mode -> On`& Scraper -> `Other Settings -> Auto-Accept Single Game Matches -> On` and choose to scrape by games missing metadata. This will allow you to select each game from a list and also tweak the searches of the missing games.
+- In some cases you need to remove certain aspects of the name like if a rom comes both with a Japanese name and English name, you could try to remove one of the names to find a better result.
 
 ## Where is my scraped data?
 
@@ -76,42 +94,44 @@ Screenshots: `~/retrodeck/ES-DE/downloaded_media/scummvm/screenshots/dig.scummvm
 Videos: `~/retrodeck/ES-DE/downloaded_media/scummvm/videos/dig.scummvm.mp4`
 
 
-## I got some weird error message about quota after scraping!
+## ES-DE Scraping FAQ
+
+### I got some weird error message about quota after scraping!
 
 The error message mentions something about quota. You have a quota limit on how much you can scrape each day from [Screenscraper](https://www.screenscraper.fr/) where each item you scrape counts as 1 quota of the daily total.
 You can pay them to get a bit more daily quota and show your support or just wait 24 hours.
 
 
-## The Scraper said: The Server or Service is down?
+### The Scraper said: The Server or Service is down?
 
 The service is down, check [Screenscraper](https://www.screenscraper.fr/) when they get back up.
 
 
-## Can I only scrape one game or can I narrow down the scraping method?
+### Can I only scrape one game or can I narrow down the scraping method?
 Yes, check the `Guides - ES-DE Frontend 🤖`  for more details.
 
-## Can I move the downloaded_media folder?
+### Can I move the downloaded_media folder?
  You can move it with the the move RetroDECK option inside the configurator.
 
-## Can I copy the downloaded_media folder to another device?
+### Can I copy the downloaded_media folder to another device?
 Yes, just copy it into the other device RetroDECK folder.
 
-## I have donated to Screenscraper how do I get faster scraping?
+### I have donated to Screenscraper how do I get faster scraping?
 
 You have to associate your Screenscraper Account with your Pateron Account.
 
 Check [Screenscraper Pateron](https://www.patreon.com/screenscraper) for instructions.
 
-## The scraping is very slow...
+### The scraping is very slow...
 [Screenscraper](https://www.screenscraper.fr/) offers different types of donations that can increase your speed with extra threads.
 
-## My systems storage ran out after scraping...
+### My systems storage ran out after scraping...
 You can clean out images and videos that takes a lot of space under: `~/retrodeck/downloaded_media`.
 
-### But I still want them...
+#### But I still want them...
 The only way to still keep them is either delete something else from the storage or buy more storage.
 
-## Can I launch a speicifc game with another emulator then default, but keep the rest on the default?
+### Can I launch a speicifc game with another emulator then default, but keep the rest on the default?
 
 Yes, if you want for example launch one of the PSX games with Duckstation instead of RetroArch.
 

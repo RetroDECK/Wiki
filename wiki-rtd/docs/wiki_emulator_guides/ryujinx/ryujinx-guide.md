@@ -63,6 +63,7 @@ Ryujinx also requires the firmware to be installed via `RetroDECK Configurator` 
 | Saves Folder |`retrodeck/saves/switch/ryujinx/` |      Contains the `nand`, `sdcard` folders                       |  
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/`         |   Contains most of Ryujinx internal folders|
 | BIOS Folder | `retrodeck/bios/switch/` | Contains the `firmware`, `keys` folders  |
+| Mods  Folder | `~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/mods/` |  |
 
 
 ## Guide - Adding game patches

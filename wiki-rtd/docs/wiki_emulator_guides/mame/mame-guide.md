@@ -2,9 +2,20 @@
 
 <img src="../../../wiki_images/logos/mame-logo.png" width="180">
 
+### melonDS Links:
+
+[MAME - Webpage](https://www.mamedev.org/)
+
+[MAME - Forum](https://forum.mamedev.org/)
+
+[MAME - Wiki](https://wiki.mamedev.org/index.php?title=Main_Page)
+
+[MAME - Documentation](https://docs.mamedev.org/)
+
+
 ## Where to put the games?
 
-Games that you want to run with MAME should be put under the `retrodeck/roms/mame/` directory.
+Games that you want to run with MAME should be put under the `retrodeck/roms/mame/` (recommended) or `retrodeck/roms/arcade/` directory.
 
 ## What file formats are supported?
 
@@ -43,6 +54,7 @@ Where different types of configurations are stored
 
 | Type | Folder                 |    Comment |
 | :---:   | :---:               |      :---:     |
+| Roms folder |`retrodeck/roms/mame/` / `retrodeck/roms/arcade/`  |    |
 | Saves diff |`retrodeck/saves/mame-sa/diff/` |    |
 | Saves hiscore |`retrodeck/saves/mame-sa/hiscore/` |    |
 | Saves nvram |`retrodeck/saves/mame-sa/nvram/` |    |
@@ -101,7 +113,7 @@ As MAME is updated so are the ROM Sets.
 
 It is important to keep using the same ROM Set as the current version shipped with RetroDECK.
 
-Read more on: [Maintaning ROM Sets](https://docs.mamedev.org/usingmame/aboutromsets.html)
+Read more on: [MAME - Maintaning ROM Sets](https://docs.mamedev.org/usingmame/aboutromsets.html)
 
 ## How-to enable cheats?
 

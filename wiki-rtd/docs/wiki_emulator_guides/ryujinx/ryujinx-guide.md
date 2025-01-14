@@ -15,7 +15,7 @@
 
 **Note: Legacy Emulator**
 
-As of RetroDECK 0.9.0b Ryujinx have made stopped development and is marked as Legacy. It will no longer receive any updates or support more and is working as-is. 
+Ryujinx have stopped it's development and is marked as Legacy as of RetroDECK 0.9.0b. It will no longer receive any updates or support more and is working as-is. 
 
 
 ## Where to put the games?

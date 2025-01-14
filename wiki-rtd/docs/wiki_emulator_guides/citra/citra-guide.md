@@ -25,9 +25,22 @@ It can still be temporarily installed via:
 
 ## Does Citra require BIOS or Firmware?
 
-No
+Yes, if the games are encrypted then keyfiles are needed: `aes_keys.txt`
 
-## How do I add mods?
+
+## Folder structure
+
+| Type    | Folder                 |          Comment     | 
+|  :---:  | :---:                  |             :---:     |
+| ROMs Folder |`retrodeck/roms/3ds/` |                               |  
+| Saves Folder |`retrodeck/saves/n3ds/citra/` |                               |  
+| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/citra/`         |  |
+| BIOS Folder | `/retrodeck/bios/citra/` |  |
+| Data Folder |`~/.var/app/org.retrodeck.retrodeck/data/citra` |     |
+| Mods Folder |`retrodeck/mods/citra/` |     |
+| Texture Packs Folder |`retrodeck/texture_packs/citra/`|     |
+
+## Guide - Adding mods
 
 **Note:**<br>
 
@@ -54,7 +67,7 @@ There are two ways of adding mods into Citra
 3. Past the mods into the right `~/retrodeck/mods/yuzu/<TITLEID>` folder.
 
 
-## How do I add texture packs?
+## Guide - Adding texture packs
 
 **Note:** <br>
 

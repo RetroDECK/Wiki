@@ -1,6 +1,6 @@
 # EmulationStation Desktop Edition: User Guide
 
-<img src="../../wiki_images/logos/es-de-logo.png" width="150">
+<img src="../../../wiki_images/logos/es-de-logo.png" width="150">
 
 RetroDECK uses EmulationStation Desktop Edition (ES-DE) as frontend.
 

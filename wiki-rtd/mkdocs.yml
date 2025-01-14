@@ -86,8 +86,6 @@ nav:
 
     - Documentation & Wiki: wiki_faq/faq-documentation.md
     - Feature Requests: wiki_faq/faq-feature.md
-    - ES-DE Frontend: wiki_faq/faq-esde.md
-    - ES-DE Scraping: wiki_faq/faq-scraping.md
     - RetroDECK General: wiki_faq/faq-rd-general.md
     - RetroDECK Usage: wiki_faq/faq-rd-usage.md
     - Steam Deck: wiki_faq/faq-rd-steamdeck.md
@@ -131,11 +129,6 @@ nav:
 
     - Installation and Updates: wiki_devices/linux_desktop/linux-install.md
     - Recommended Software: wiki_devices/linux_desktop/linux-software.md
-
-  - Guides - ES-DE Frontend 🤖:
-
-    - ES-DE - User Guide: wiki_es_de/esde-guide.md
-    - Themes: wiki_es_de/esde-themes.md
 
   - Guides - Engines  🛠️:
 
@@ -215,7 +208,13 @@ nav:
       - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
       - Yuzu - Gyro Guide: wiki_emulator_guides/yuzu/yuzu-gyro.md
 
-  - Guides - Systems 🗃️:
+  - Guides - ES-DE & Other Systems 🗃️:
+
+    - ES-DE 📺:
+      - ES-DE User Guide: wiki_system_guides/es-de/esde-guide.md
+      - ES-DE Themes: wiki_system_guides/es-de/esde-themes.md
+      - ES-DE FAQ: wiki_faq/faq-esde.md
+      - ES-DE Scraping FAQ: wiki_faq/faq-scraping.md
 
     - PortMaster 🚢:
       - PortMaster - General Guide: wiki_system_guides/portmaster/portmaster-guide.md

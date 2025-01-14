@@ -1,7 +1,5 @@
 # FAQ: ES-DE Frontend General - Questions
 
-<img src="../../wiki_images/logos/es-de-logo.png" width="150">
-
 ## Why can't I press the up button in menus to jump to the bottom row and vice versa?
 
 [Source](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md#why-cant-i-press-the-up-button-in-menus-to-jump-to-the-bottom-row-and-vice-versa)

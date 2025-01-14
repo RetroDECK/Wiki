@@ -1,40 +1,27 @@
-# FAQ: RetroDECK on Steam Deck
-
-<img src="../..//wiki_images/graphics/steamdeck/rd_sd_screen6.jpeg" width="300">
-
-<br>
+# Steam Deck - FAQ
 
 ## Can I launch RetroDECK from inside of the Steam Decks gamemode?
 
 Yes, RetroDECK currently only supports Steam Deck's gamemode as it relies on Steam Controller configs.
 To add it into Steam please check the second step of `Steam Deck 🕹️` - `Steam Deck - Installation and Updates`.
 
-<br>
-
 ## XBOX games are slow on the Steam Deck
 
 Unfortunately, thanks to missing optimizations, focusing on the Steam Deck and the hardware is limited in scope makes performance not great. Like most emulators they will make improvements over time, and we will follow the XBOX emulators' progress with great interest.
 
-<br>
-
 ## The games are stuck at 30FPS on the Steam Deck
 Press the [...] button on the Steam Deck, go into the Power menu and see if the Framerate Limit is set to 30FPS and set it to 60FPS or off.
-
-<br>
 
 ## Fast forwarding is slow on the Steam Deck
 Same as above: Check the Power menu Framerate Limit.
 
-<br>
-
 ## Some emulators run slow when I got my Steam Deck docked to a 4k, 8k or above resolution monitor.
 The Steam Deck does not have the power to play all the games in those high resolutions with a stable framerate. What you could do is go into desktop mode while docked and lower the resolution of the display to 1080p or 720p then return to gamemode.
 
-<br>
-
 ## I am having problems with my brand-new SD card on my Steam Deck: It does not have the right file size
 
-SD Cards can be tricky and there are a of scam cards out there. <br>
+SD Cards can be tricky and there are a of scam cards out there. 
+
 But when you are thinking about getting a new SD Card adhere to the following rules:
 
 - Buy a reputable brand.

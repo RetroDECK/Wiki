@@ -52,8 +52,8 @@ This will be changed in a later update to the `retrodeck/bios/cemu` folder.
 
 ## Folder structure
 
-| Type    | Folder                 |  Emulator Folder      |    Comment     | 
-|  :---:  | :---:                  | :---:                 |      :---:     |
+| Type    | Folder                 |          Comment     | 
+|  :---:  | :---:                  |             :---:     |
 | Saves Folder |`retrodeck/saves/wiiu/cemu/` |                               |  
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/Cemu/`         |   `settings.xml`, `gameProfiles` folder, `controllerProfiles` folder|
 | BIOS Folder | `retrodeck/bios/Cemu` | Contains `usr` and `sys` folders |

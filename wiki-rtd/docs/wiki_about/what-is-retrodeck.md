@@ -94,9 +94,11 @@ Could answers several questions you might have about the project as well.
 
 [FAQ: Usage Questions](../wiki_faq/faq-rd-usage.md)
 
-[FAQ: ES-DE Questions](../wiki_faq/faq-esde.md)
+[FAQ: ES-DE Questions](../wiki_system_guides/es-de/esde-faq.md)
 
-[FAQ: Scraping Questions](../wiki_faq/faq-scraping.md)
+[FAQ: Steam Deck Questions](../wiki_devices/steamdeck/steamdeck-faq.md)
+
+[FAQ: Scraping Questions](../wiki_system_guides/es-de/esde-scraping.md)
 
 [FAQ: Feature Requests](../wiki_faq/faq-feature.md)
 

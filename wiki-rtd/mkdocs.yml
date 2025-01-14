@@ -88,7 +88,6 @@ nav:
     - Feature Requests: wiki_faq/faq-feature.md
     - RetroDECK General: wiki_faq/faq-rd-general.md
     - RetroDECK Usage: wiki_faq/faq-rd-usage.md
-    - Steam Deck: wiki_faq/faq-rd-steamdeck.md
 
   - Guides - RetroDECK Controls & Hotkeys 🎮:
 
@@ -124,6 +123,7 @@ nav:
     - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
     - Steam Deck - Hotkeys & Layout: wiki_rd_controls/hotkeys-steamdeck-neptune.md
     - Steam Deck - Gyro: wiki_rd_controls/gyro-steamdeck-neptune.md
+    - Steam Deck FAQ: wiki_devices/steamdeck/steamdeck-faq.md
 
   - Guides - Linux Desktop 🐧:
 
@@ -213,8 +213,8 @@ nav:
     - ES-DE 📺:
       - ES-DE User Guide: wiki_system_guides/es-de/esde-guide.md
       - ES-DE Themes: wiki_system_guides/es-de/esde-themes.md
-      - ES-DE FAQ: wiki_faq/faq-esde.md
-      - ES-DE Scraping FAQ: wiki_faq/faq-scraping.md
+      - ES-DE FAQ: wiki_system_guides/es-de/esde-faq.md
+      - ES-DE Scraping: wiki_system_guides/es-de/esde-scraping.md
 
     - PortMaster 🚢:
       - PortMaster - General Guide: wiki_system_guides/portmaster/portmaster-guide.md

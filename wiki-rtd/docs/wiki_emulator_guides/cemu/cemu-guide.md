@@ -115,4 +115,4 @@ Follow the [Cemu: Online Play Guide](https://cemu.cfw.guide/online-play.html) to
 
 Check the following link for `Certain UI elements of emulators GUI are cramped / outside of the screen on the Steam Deck`:
 
-[Steam Deck - FAQ](../../wiki_faq/faq-rd-steamdeck.md) 
+[Steam Deck - FAQ](../../wiki_devices/steamdeck/steamdeck-faq.md) 

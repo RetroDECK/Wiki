@@ -70,3 +70,6 @@ Player 2: Steam Virtual Gamepad 2
 Player 3: Steam Virtual Gamepad 3
 Player 4: Steam Virtual Gamepad 4
 ```
+## LithiumX - Xbox Manager
+
+[LithiumX](https://github.com/Ryzee119/LithiumX) is a simple dashboard Xbox Manger with various features. It can allow you to browse your savefiles and have other features.

@@ -2,17 +2,6 @@
 
 <img src="../../../wiki_images/logos/ryujinx-logo.svg" width="150">
 
-### Ryujinx Links:
-
-[Ryujinx Configuraton Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
-
-[Ryujinx Wiki](https://github.com/Ryujinx/Ryujinx/wiki)
-
-[Ryujinx Github](https://github.com/Ryujinx/Ryujinx)
-
-[Ryujinx Webpage](https://ryujinx.org/)
-
-
 **Note: Legacy Emulator**
 
 Ryujinx have stopped it's development and is marked as Legacy as of RetroDECK 0.9.0b. It will no longer receive any updates or support more and is working as-is. 

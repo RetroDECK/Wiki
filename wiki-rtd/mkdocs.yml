@@ -123,7 +123,7 @@ nav:
     - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
     - Steam Deck - Hotkeys & Layout: wiki_rd_controls/hotkeys-steamdeck-neptune.md
     - Steam Deck - Gyro: wiki_rd_controls/gyro-steamdeck-neptune.md
-    - Steam Deck FAQ: wiki_devices/steamdeck/steamdeck-faq.md
+    - Steam Deck - FAQ: wiki_devices/steamdeck/steamdeck-faq.md
 
   - Guides - Linux Desktop 🐧:
 
@@ -211,10 +211,10 @@ nav:
   - Guides - ES-DE & Other Systems 🗃️:
 
     - ES-DE 📺:
-      - ES-DE User Guide: wiki_system_guides/es-de/esde-guide.md
-      - ES-DE Themes: wiki_system_guides/es-de/esde-themes.md
-      - ES-DE FAQ: wiki_system_guides/es-de/esde-faq.md
-      - ES-DE Scraping: wiki_system_guides/es-de/esde-scraping.md
+      - ES-DE - User Guide: wiki_system_guides/es-de/esde-guide.md
+      - ES-DE - Themes: wiki_system_guides/es-de/esde-themes.md
+      - ES-DE - FAQ: wiki_system_guides/es-de/esde-faq.md
+      - ES-DE - Scraping: wiki_system_guides/es-de/esde-scraping.md
 
     - PortMaster 🚢:
       - PortMaster - General Guide: wiki_system_guides/portmaster/portmaster-guide.md

@@ -55,7 +55,7 @@ Needs the key files `prod.keys`, `title.keys` and the firmware files in the foll
 
 The directory tree should look like this example:
 ```
-~/retrodeck/bios/switch
+retrodeck/bios/switch
 ├── keys
 │   ├── prod.keys
 │   └── title.keys
@@ -63,33 +63,30 @@ The directory tree should look like this example:
     └── XXX amount of .nca files goes here
 ```
 
-It also have installation requirements
-
-### How-to: Install the firmware
+### How-to - Install the firmware
 
 Ryujinx also requires the firmware to be installed via `RetroDECK Configurator` ->  `Open Emulator` -> `Ryujinx` ->  `Tools` -> `Install Firmware` -> `Install from XCI or ZIP`
 
-Read more on: [Ryujinx Configuraton Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
+## Folder structure
+
+| Type    | Folder                 |          Comment     | 
+|  :---:  | :---:                  |             :---:     |
+| Saves Folder |`retrodeck/saves/switch/ryujinx/` |      Contains the `nand`, `sdcard` folders                       |  
+| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/`         |   Contains most of Ryujinx internal folders|
+| BIOS Folder | `retrodeck/bios/switch/` | Contains the `firmware`, `keys` folders  |
 
 
-## How-to Open the Ryujinx interface?
-
-`RetroDECK Configurator` ->  `Open Emulator` -> `Ryujinx`
-
-## Add game patches
+## Guide - Adding game patches
 
 From within Ryujinx `Right Click` on a game and select `Manage Title Updates` and then navigate to the update files you would like to install and press `Save`.
 
-Read more on: [Ryujinx Configuraton Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
 
-
-## Add DLC
+## Guide - Adding DLC
 
 From within Ryujinx `Right Click` on a game and select `Manage DLC` and then navigate to the update files you would like to install and press `Save`.
 
-Read more on: [Ryujinx Configuraton Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
 
-## Add mods
+## Guide - Adding mods
 
 From within Ryujinx `Right Click` on a game and select `Open Mods Folder` and put the mods you need in it's correct folder then go back to enable via the interface.
 
@@ -97,8 +94,4 @@ The current mapping for the mods folder is:
 
 `~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/mods/`
 
-**NOTE:** it will change in a later update to `retrodeck/mods/Ryujinx/`
 
-## Open Menu - Hotkey
-
-Ryujinx has a very little capabilities for hotkeys currently. The key to Open the Ryujinx Menu is `F4` and you can access it on the radial menus on the Steam Deck or External Controllers.

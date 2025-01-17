@@ -14,6 +14,8 @@
 
 [RPCS3 Webpage](https://rpcs3.net/)
 
+[RPCS3 Save States](https://wiki.rpcs3.net/index.php?title=Help:Save_State)
+
 ---
 
 ## Where to put the games?
@@ -152,3 +154,11 @@ Similarly on how written above with the DLC and PATCHES the user can decide to m
 - You installed a file that contained the digital game Hockey World 2, it created a directory called `BCA123456` under `retrodeck/bios/rpcs3/dev_hdd0/game/`
 - After that you moved `BCA123456` from `retrodeck/bios/rpcs3/dev_hdd0/game/` to `retrodeck/roms/ps3`.
 The directory `BCA123456` is renamed to `Hockey World 2.ps3`.
+
+## RPCS3 and Save States
+
+Save States don't work the same as other emulators you might be used to and are `disabled by default` in RetroDECK. 
+
+You can enable them but first read up on the lastest information and how-to's on RPCS3 wiki page.
+
+Link: [RPCS3 Save States](https://wiki.rpcs3.net/index.php?title=Help:Save_State)

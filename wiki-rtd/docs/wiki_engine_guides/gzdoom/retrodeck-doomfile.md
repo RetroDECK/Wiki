@@ -1,5 +1,7 @@
 # The .doom file
 
+<img src="../../../wiki_images/logos/gzdoom-logo.png" width="70">
+
 The `.doom` file is a feature for easy loading of doom files with mods, it is based on the work done by [AmberELEC .doom](https://amberelec.org/systems/doom.html) and others with additional improvements made by RetroDECK.
 
 ## The RetroDECK .doom Parser
@@ -80,12 +82,23 @@ But this can be different, check the where you download the mods if they have an
 
 RetroDECK have written a new parser from the ground up. You no longer need to write the path in the .doom files. RetroDECK scans all folders and subfolders of `/roms/doom/` only put the name of the mod file. If you are migrating to RetroDECK all you need to do is remove the path in your .doom files.
 
+## SteamGridDB - Grid and Tear Project
+
+
+<img src="../../../wiki_images/logos/steamgriddb-doom-logo.png" width="150">
+
+[SteamGridDB: Grid and Tear](https://www.steamgriddb.com/projects/grid-and-tear)
+
+
+If you plan to use RetroDECK's built-in `Steam Sync` function for `.doom` files to add them to Steam as seperate games.
+
+You need to match the names of the `.doom` files with how they are called on `SteamGridDB` for the art to be correctly scraped.
+
+Use the the link above to search for what mods are supported currently with art. 
+
+[Example - SteamGridDB: Project Brutality](https://www.steamgriddb.com/game/5320302)
 
 ## Project Brutality .doom example:
-
-
-
----
 
 In this example you have already downloaded a bunch of mods and have the iwads already somewhere under the `/retrodeck/roms/doom/` folder.
 
@@ -165,10 +178,12 @@ Be sure to name the .doom files so you understand what it is and you are done:
 
 It is that easy.
 
-## Sharing is caring
+**Sharing is caring**
 
 Have you made a cool `.doom` file modpack?
 
 Maybe you have found the perfect combination of over 50 + mods in one `.doom` file?
 
 Share the `.doom` file and where to download the mods with the RetroDECK Community!
+
+

@@ -24,7 +24,7 @@ We have not yet added support for the Flatpak version of Steam.
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| Launch Scripts Folder | `retrodeck/roms/.sync/`   |  This hidden folder contains the auto generated launch scripts for ES-DE as `.sh` files.   |         | 
+| Launch Scripts Folder | `retrodeck/roms/.sync/`   |  This hidden folder contains the auto generated launch scripts for Steam as `.sh` files.   |         | 
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/config/steam-rom-manager/`         |   |
 
 ## How-to enable Steam Sync?

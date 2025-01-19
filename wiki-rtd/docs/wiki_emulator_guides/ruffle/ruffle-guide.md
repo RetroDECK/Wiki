@@ -42,7 +42,9 @@ No
 
 Most flash games where made for Mouse and Keyboard. 
 
-There is no standard universal Input Solution to account for all the variables in all the games as they are all different .
+All games are all different in how you control them and there is no standard universal Input Solution to account for all games.
+
+There could be games that uses Keyboard: WASD, Arrow Keys, Numpad, Mouse and much more.
 
 You can via RetroDECK's Steam Input Layouts:
 
@@ -52,4 +54,4 @@ You can via RetroDECK's Steam Input Layouts:
 - Use built-in virtual keyboards in SteamOS or your Linux distribution that can be summoned with a button combo. 
 - Play with a real keyboard and mouse.
 
-Check the controller guides on the wiki for more information on the controller / device you have. 
+Check the controller guides on the wiki for more information on the controller / device. 

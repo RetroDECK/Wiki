@@ -82,8 +82,9 @@ The oldest DOOM community on the web and hosts of the annual [Cacowards](https:/
 
 Doomworld is the lifeblood of DOOM community, generations of knowledge and a vast collections of wads exist within it.
 
-- [Doomworld Files](https://www.doomworld.com/files/)
-- [Doomworld ID Games(Legacy)](https://www.doomworld.com/idgames/)
+[Doomworld Files](https://www.doomworld.com/files/)
+
+[Doomworld ID Games(Legacy)](https://www.doomworld.com/idgames/)
 
 **Doomwiki:**
 
@@ -91,7 +92,7 @@ Doomworld is the lifeblood of DOOM community, generations of knowledge and a vas
 
 **ModDB:**
 
-- [ModDB](https://www.moddb.com/games/doom/mods)
+[ModDB](https://www.moddb.com/games/doom/mods)
 
 
 ## Where to put the games

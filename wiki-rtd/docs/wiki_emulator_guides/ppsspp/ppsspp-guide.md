@@ -12,35 +12,60 @@
 
 [PPSSPP - Blog](https://www.ppsspp.org/blog/)
 
+[PPSSPP - FAQ](https://www.ppsspp.org/docs/faq/)
+
 [PPSSPP - Game Compatibility](https://report.ppsspp.org/games)
 
 [PPSSPP - Github](https://github.com/hrydgard/ppsspp)
 
-## Where to put the games
+## Where to put the games?
+
 PSP games should be put under the `retrodeck/roms/psp/` directory.
 
-### Supported fileformats
+## What file formats are supported?
 
-`.elf` `.cso` `.iso` `.pbp` `.prx` `.chd`
+```
+.elf
+.cso
+.iso
+.pbp
+.prx
+.chd
+```
 
-## PPSSPP folders
+## Does PPSSPP require BIOS or Firmware?
 
-### Where is the main folder located?
+No
 
-`/.var/app/net.retrodeck.retrodeck/config/ppsspp/PSP/`
+## Folder structure
 
-###  TEXTURES folder
+| Type    | Folder                 |          Comment     | 
+|  :---:  | :---:                  |             :---:     |
+| ROMs Folder |`retrodeck/roms/psp/` |                               |  
+| Saves Folder |`retrodeck/saves/PSP/PPSSPP-SA/` |                               |  
+| States Folder |`retrodeck/states//PSP/PPSSPP-SA/` |                               |  
+| Texture Packs Folder |`retrodeck/texture_packs/ppsspp/` |       Corresponds to `PSP/TEXTURES/` folder                        | 
+| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/ppsspp/PSP/`         |  |
+
+## How to add Texture Packs?
+
 The `~/retrodeck/texture_packs/ppsspp/` represents the `/PSP/TEXTURES/` folder in PPSSPP.
 
-The full link is: `/.var/app/net.retrodeck.retrodeck/config/ppsspp/PSP/TEXTURES/`
+**Note:** <br>
+Some texture packs could made for a specific version or region of the game. Make sure you have the right rom and textures for it.
 
-### SAVEDATA
-The `~/retrodeck/saves/PSP/PPSSPP-SA/` represents the `/PSP/SAVEDATA/` folder in PPSSPP
+**Note:**<br>
+`TITLEID` is different for every game.
 
-The full link is: `/.var/app/net.retrodeck.retrodeck/config/ppsspp/PSP/SAVEDATA/`
 
-### PPSSPP_STATE
-The `~/retrodeck/saves/PSP/PPSSPP-SA/` represents the `/PSP/PPSSPP-SA/ ` folder in PPSSPP
+### Enable Custom Textures
 
-The full link is: `/.var/app/net.retrodeck.retrodeck/config/ppsspp/PSP/PPSSPP_STATE/`
+1. Open up PPSSPP inside `RetroDECK Configurator` by pressing `Open Emulator` - `PPSSPP`.
+2. Press `Settings` -> `Tools` -> `Developer Tools` -> `Replace Textures` and set it to `On`.
 
+### How do I add texture packs?
+
+1. Extract any texture pack files from compressed `.zip` or any other format into folders.
+2. Go into `~/retrodeck/texture_packs/ppsspp/`. The folders are all named by `TITLEID`.
+3. Paste the textures into right folder `~/retrodeck/texture_packs/ppsspp/<TITLEID>`
+4. If the textures match the game they should be loaded on next time you launch the game.

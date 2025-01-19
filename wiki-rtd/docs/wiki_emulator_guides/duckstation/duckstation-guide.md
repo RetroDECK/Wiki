@@ -55,6 +55,7 @@ Directly into the folder
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
+| ROMs Folder |`retrodeck/roms/psx/` |                               |  
 | Saves Folder |`retrodeck/saves/psx/duckstation/` |                               |  
 | States Folder |`retrodeck/states/psx/duckstation/` |                               |  
 | Texture Packs Folder |`retrodeck/texture_packs/Duckstation/` |       Corresponds to `duckstation/textures` folder                        | 

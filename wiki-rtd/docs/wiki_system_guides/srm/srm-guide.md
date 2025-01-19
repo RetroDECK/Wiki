@@ -20,7 +20,7 @@ We have not yet added support for the Flatpak version of Steam.
 
 [SteamGridDB](https://www.steamgriddb.com/)
 
-## Where are the files located? 
+## Folder structure
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

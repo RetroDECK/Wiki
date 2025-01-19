@@ -179,8 +179,7 @@ nav:
       - PCSX2 - Texture Pack Guide: wiki_emulator_guides/pcsx2/pcsx2-texture-pack.md
 
     - PPSSPP 🔺:
-      - PPSSPP - General Guide (WIP): wiki_emulator_guides/ppsspp/ppsspp-guide.md
-      - PPSSPP - Texture Pack Guide: wiki_emulator_guides/ppsspp/ppsspp-texture-pack.md
+      - PPSSPP - General Guide: wiki_emulator_guides/ppsspp/ppsspp-guide.md
 
     - RetroArch 👾:
       - RetroArch - General Guide: wiki_emulator_guides/retroarch/retroarch-guide.md

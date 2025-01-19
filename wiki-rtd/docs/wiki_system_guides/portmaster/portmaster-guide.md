@@ -25,7 +25,7 @@ PortMaster does not require BIOS or Firmware but depending on the game you might
 
 Check the [PortMaster Games List](https://portmaster.games/games.html) for details.
 
-## Where are the files located?
+## Folder structure
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

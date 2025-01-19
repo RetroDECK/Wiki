@@ -54,7 +54,7 @@ Where different types of configurations are stored
 
 | Type | Folder                 |    Comment |
 | :---:   | :---:               |      :---:     |
-| Roms folder |`retrodeck/roms/mame/` / `retrodeck/roms/arcade/`  |    |
+| ROMs folder |`retrodeck/roms/mame/` / `retrodeck/roms/arcade/`  |    |
 | Saves diff |`retrodeck/saves/mame-sa/diff/` |    |
 | Saves hiscore |`retrodeck/saves/mame-sa/hiscore/` |    |
 | Saves nvram |`retrodeck/saves/mame-sa/nvram/` |    |

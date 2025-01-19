@@ -58,7 +58,7 @@ This will be changed in a later update to the `retrodeck/bios/cemu` folder.
 | Saves Folder |`retrodeck/saves/wiiu/cemu/` |                               |  
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/Cemu/`         |   `settings.xml`, `gameProfiles` folder, `controllerProfiles` folder|
 | BIOS Folder | `retrodeck/bios/Cemu` | Contains `usr` and `sys` folders |
-| Data folder |`~/.var/app/org.retrodeck.retrodeck/data/Cemu` |     |
+| Data Folder |`~/.var/app/org.retrodeck.retrodeck/data/Cemu` |     |
 
 ## Guide - How to install DLC and Updates
 

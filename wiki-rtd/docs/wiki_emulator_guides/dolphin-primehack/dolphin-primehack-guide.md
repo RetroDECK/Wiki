@@ -75,6 +75,8 @@ This shows what folder corresponds to each folder in the standard Dolphin struct
 
 | Type | Folder                 | Flatpak Source |  Emulator Folder      |    Comment |
 |  :---:   | :---:                   | :---:               | :---:           |      :---:     |
+| ROMs Gamecube Folder |`retrodeck/roms/gc/` |                               |  
+| ROMs Wii Folder |`retrodeck/roms/wii/` |                               |  
 | GameCube Saves EU|`retrodeck/saves/gc/dolphin/EU/` |     `var/data/dolphin-emu/GC/EUR/`       |    `dolphin-emu/GC/EUR/`         |  |
 | GameCube Saves US|`retrodeck/saves/gc/dolphin/US/`         |     `var/data/dolphin-emu/GC/USA/`       |    `dolphin-emu/GC/USA/`         |   |
 | GameCube Saves JP| `retrodeck/saves/gc/dolphin/JP/`         |     `var/data/dolphin-emu/GC/JAP/`       |    `dolphin-emu/GC/JAP/`         |  |
@@ -90,6 +92,8 @@ This shows what folder corresponds to each folder in the standard PrimeHack stru
 
 | Type | Folder                 | Flatpak Source |  Emulator Folder      |    Comment |
 |  :---:   | :---:                   | :---:               | :---:           |      :---:     |
+| ROMs Gamecube Folder |`retrodeck/roms/gc/` |                               |  
+| ROMs Wii Folder |`retrodeck/roms/wii/` |                               |  
 | GameCube Saves EU|`retrodeck/saves/gc/primehack/EU/` |     `var/data/primehack/GC/EUR/`       |    `primehack/GC/EUR/`         |  |
 | GameCube Saves US|`retrodeck/saves/gc/primehack/US/`         |     `var/data/primehack/GC/USA/`       |    `primehack/GC/USA/`         |   |
 | GameCube Saves JP| `retrodeck/saves/gc/primehack/JP/`         |     `var/data/primehack/GC/JAP/`       |    `primehack/GC/JAP/`         |  |

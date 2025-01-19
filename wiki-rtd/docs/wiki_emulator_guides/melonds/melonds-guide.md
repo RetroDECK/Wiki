@@ -59,6 +59,7 @@ Directly into the folder
 
 | Type    | Folder                 |      Comment     | 
 |  :---:  |  :---:                 |      :---:     |
+| ROMs Folder |`retrodeck/roms/nds/` |                               |  
 | Saves Folder |`retrodeck/saves/nds/melonds/` |                               |  
 | States Folder |`retrodeck/states/nds/melonds/` |                               |
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/melonDS/`         |   `melonDS.ini`|

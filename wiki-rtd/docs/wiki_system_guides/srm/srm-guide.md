@@ -46,3 +46,31 @@ Yes, you can open the entire SRM interface from the Configurator, just like all 
 If you break things you could always reset it to default via:
 
 `Configurator` -> `Troubleshooting` -> `Reset` -> `Component` -> `Steam Rom Manager`. 
+
+## How does it work? 
+
+When the sync function is activated launch scripts are generated in a hidden folder:
+
+`retrodeck/.sync/`  those scripts are then added to Steam with the ability to launch your games.
+
+Inside the script there are two types of launch commands:
+
+`flatpak run net.retrodeck.retrodeck 'retrodeck/roms/<system>/<game>`'
+
+This is the regular launch command 
+
+`flatpak-spawn --host flatpak run net.retrodeck.retrodeck 'retrodeck/roms/<system>/<game>'`
+
+This one is for future Steam Flatpak support, as they need the `flatpak-spawn` permission to launch the games and have to be manually enabled by the user. 
+
+Currently the games are not added to Flatpak Steam via Steam Sync. 
+
+## Warning - Exotic ROMS filenames can break the scripts
+
+Some games have exotic symbols in their name that could break so the parser and the game won't launch, `( ) [ ]` are fine. 
+
+The symbols that could cause issues are: 
+
+/ \ { } < > ' * `
+
+It might be worth to rename those games if it contains them.

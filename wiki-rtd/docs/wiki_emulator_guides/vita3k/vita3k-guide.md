@@ -86,8 +86,6 @@ During installation the Vita3K could call for a Licence File or Key
 
 Either add the `.bin` or `.rif` files or input the `zRif` key in the prompt.
 
-Check more above in the **Licence Files and Keys** section.
-
 #### Step 1c: Install any DLCs or patches
 
 Install the patches and DLC the same way as the game by repeating Step 1 to 1b for the filetype the patch/DLC is in `pkg`, `zip`, `vpk`.

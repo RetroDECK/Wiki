@@ -1,4 +1,4 @@
-# SRM - General Guide
+# Steam ROM Manager (SRM) - General Guide
 
 <img src="../../../wiki_images/logos/srm-logo.png" width="150">
 

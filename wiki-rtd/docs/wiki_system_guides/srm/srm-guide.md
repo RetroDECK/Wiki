@@ -20,6 +20,13 @@ We have not yet added support for the Flatpak version of Steam.
 
 [SteamGridDB](https://www.steamgriddb.com/)
 
+## Where are the files located? 
+
+| Type    | Folder                 |          Comment     | 
+|  :---:  | :---:                  |             :---:     |
+| Scripts Folder | `retrodeck/roms/.sync/`   |  This hidden folder contains the auto generated launch scripts for ES-DE as `.sh` files.   |         | 
+| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/config/steam-rom-manager/`         |   |
+
 ## How-to enable Steam Sync?
 
 <img src="../../../wiki_images/systems/srm/sync-config.png" width="800">

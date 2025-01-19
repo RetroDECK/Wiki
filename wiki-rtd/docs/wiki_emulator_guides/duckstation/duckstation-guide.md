@@ -58,7 +58,7 @@ Directly into the folder
 | Saves Folder |`retrodeck/saves/psx/duckstation/` |                               |  
 | States Folder |`retrodeck/states/psx/duckstation/` |                               |  
 | Texture Packs Folder |`retrodeck/texture_packs/Duckstation/` |       Corresponds to `duckstation/textures` folder                        | 
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/duckstation/`         |   `settings.xml`, `gameProfiles` folder, `controllerProfiles` folder|
+| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/duckstation/`         |   `settings.xml`, `gameProfiles` folder, `controllerProfiles` folder|
 | BIOS Folder | `retrodeck/bios/` | |
 
 ## Guide - Adding Texture Packs

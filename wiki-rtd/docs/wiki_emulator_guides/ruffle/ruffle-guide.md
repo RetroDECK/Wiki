@@ -4,6 +4,12 @@
 
 An open source Flash Player emulator
 
+**Note:** 
+
+Ruffle is very much a W.I.P emulator that is under heavy development. 
+
+Some games might not control right or work at all.
+
 ---
 
 ### Ruffle Links:
@@ -39,6 +45,7 @@ No
 | Data Folder |`~/.var/app/net.retrodeck.retrodeck/data/ruffle/`         |   |
 
 ## Controls in Games
+
 
 Most flash games where made for Mouse and Keyboard. 
 

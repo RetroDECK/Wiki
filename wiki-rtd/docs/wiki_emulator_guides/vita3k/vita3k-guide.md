@@ -80,7 +80,7 @@ Open the Vita3K emulator via Configurator and press `File` and either `Install .
 
 In our example `OutWipe 4820` is a `.pkg` file so we chose the `Install .pkg` option and navigate to the file to install it.
 
-#### Step 1b: Add Licences (not always needed)
+#### Step 1b: Add Licences
 
 During installation the Vita3K could call for a Licence File or Key
 

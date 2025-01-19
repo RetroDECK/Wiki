@@ -18,20 +18,35 @@
 
 ---
 
+
+
+
 ## Where to put the games?
 
 PS3 games comes either as a Blu-ray rip directory with a bunch of different files or a digital PSN title that needs to be installed (see guide on this page).
 
-PS3 games should be put under the `retrodeck/roms/ps3/` directory.
+PS3 games should be put under the `retrodeck/roms/ps3/` folder.
+
+
+## What file formats are supported?
+
+```
+.desktop
+.ps3 
+.PS3 
+.ps3dir 
+.PS3DIR
+```
 
 ## Does RPCS3 require BIOS or Firmware?
-Yes, the `PS3UPDAT.PUP` firmware
 
-### How to: Install the PS3UPDAT.PUP firmware
+Yes, the `PS3UPDAT.PUP` firmware needs to be installed in the emulator.
+
+### How-to: Install the PS3UPDAT.PUP firmware
 
 There are two ways to install the firmware:
 
-#### Install PS3 firmware from RetroDECK Configurator
+**Install PS3 firmware from RetroDECK Configurator**
 
 1. Open RPCS3 `RetroDECK Configurator` - `RetroDECK: Tools` - `Install: PS3 Firmware`.
 2. Press `OK` and this will download the PS3 Firmware and open RPCS3.
@@ -39,12 +54,23 @@ There are two ways to install the firmware:
 4. Wait for the installation to finish
 5. Exit RPCS3 from the GUI under `File -> Exit`
 
-#### Manual Download
+**Manual Download**
+
 1. Download the latest PS3 firmware `PS3UPDAT.PUP` from Sony [here](https://www.playstation.com/en-us/support/hardware/ps3/system-software/)
 2. Open RPCS3 `RetroDECK Configurator -> Open Emulator -> RPCS3`.
 3. In the RPCS3 interface navigate to `File -> Install Firmware`.
 4. In the file browser navigate and select the file `PS3UPDAT.PUP` file.
 5. The firmware should now be installed.
+
+## Folder structure
+
+| Type    | Folder                 |          Comment     | 
+|  :---:  | :---:                  |             :---:     |
+| ROMs Folder |`retrodeck/roms/ps3/` |                               |  
+| Saves Folder |`retrodeck/saves/ps3/rpcs3/` |                               |  
+| States Folder |`retrodeck/states/ps3/rpcs3/` |                               |  
+| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/rpcs3/`         |  Various config `.yml` and system folders |
+
 
 ## How to: Get games to show up inside the ES-DE interface
 

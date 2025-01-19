@@ -29,3 +29,27 @@ Flash games should be put under the `retrodeck/roms/flash/` directory.
 ## Does Ruffle require BIOS or Firmware?
 
 No
+
+## Folder structure
+
+| Type    | Folder                 |          Comment     | 
+|  :---:  | :---:                  |             :---:     |
+| ROMs Folder |`retrodeck/roms/flash/` |                               | 
+| Saves Folder |`retrodeck/saves/flash/` |                               | 
+| Data Folder |`~/.var/app/net.retrodeck.retrodeck/data/ruffle/`         |   |
+
+## Controls in Games
+
+Most flash games where made for Mouse and Keyboard. 
+
+There is no standard universal Input Solution to account for all the variables in all the games as they are all different .
+
+You can via RetroDECK's Steam Input Layouts:
+
+- Emulate mouse input via joystick.
+- Use built-in touchpads on the controller / devices like the DualSense or the Steam Deck.
+- Use built-in touchscreens on devices like the Steam Deck.
+- Use built-in virtual keyboards in SteamOS or your Linux distribution that can be summoned with a button combo. 
+- Play with a real keyboard and mouse.
+
+Check the controller guides on the wiki for more information on the controller / device you have. 

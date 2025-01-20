@@ -14,18 +14,27 @@ Solarus is an open-source adventure game engine.
 
 [Solarus Web page](https://www.solarus-games.org/)
 
-## Where to put the games
+## Where to put the games?
+
 Solarus games should be put under the `retrodeck/roms/solarus/` directory.
 
 ## Does Solarus require BIOS or Firmware?
+
 No
 
 ## What file format is supported?
 
-`.solarus`
+```
+.solarus
+```
 
-## Solarus TIPS
+## Folder structure
 
-- Each game is its own self-contained game, and no overarching settings exist.
+| Type    | Folder                 |          Comment     | 
+|  :---:  | :---:                  |             :---:     |
+| ROMs Folder |`retrodeck/roms/solarus/` |                               |  
+
+## Solarus Tips and Tricks
+
 - Some games don't autostart in Fullscreen so you need to either `Select + West (X, Square)` or press ` CTRL + Enter`  or ` Alt + Enter`
 - To quit games you need to press `Escape` that exists on in the radial menu system for the controllers.

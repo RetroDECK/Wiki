@@ -1,8 +1,8 @@
 # IkemenGO / M.U.G.E.N - General Guide
 
-<img src="../../../wiki_images/logos/ikemen-go-logo.png" width="150">
+<img src="../../../wiki_images/logos/ikemen-go-logo.png" width="150"> <img src="../../../wiki_images/logos/mugen-logo.png" width="350">
 
-`IkemenGO` is a fighting game engine and the spiritual successor to the dead projects `Ikemen` and `M.U.G.E.N`. 
+`IkemenGO` is a fighting game engine and the spiritual successor to the projects `Ikemen` and `M.U.G.E.N`. 
 
 It strives to be compatible with games made for those engines.
 
@@ -52,9 +52,7 @@ The example game `Ultimate Dank Fighter Mugen.mugen` has this folder structure:
 ~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/Ultimate Dank Fighter IkemanGO.mugen
 ```
 
-## About M.U.G.E.N and IkemanGO
-
-Here are some tips:
+## IkemanGO: Tips and Tricks
 
 - The games need to be uncompressed to a folder.
 - Games made for `IkemenGO` have a higher success rate than those made for `M.U.G.E.N`.

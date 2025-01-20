@@ -38,6 +38,9 @@ No
 
 ### Example folder structure of a IkemanGO game
 
+The example game `Ultimate Dank Fighter Mugen.mugen` has this folder structure:
+
+
 ```
 ~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/
 ~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/chars/
@@ -48,8 +51,6 @@ No
 ~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/stages/
 ~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/Ultimate Dank Fighter IkemanGO.mugen
 ```
-Notice the runnable Ultimate Dank Fighter Mugen.mugen
-
 
 ## About M.U.G.E.N and IkemanGO
 

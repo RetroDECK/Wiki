@@ -18,9 +18,6 @@ PICO-8 Fantasy Console is a game engine developed by Lexaloffle Games that you n
 
 PICO-8 games should be put under the `retrodeck/roms/pico8/` directory. 
 
-
-
-
 ## What file formats are supported?
 
 ```

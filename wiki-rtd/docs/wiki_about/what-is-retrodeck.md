@@ -86,7 +86,7 @@ We are working on implementing all these features over the big releases. Some wi
 
 [Known Issues](../wiki_bugs/known-issues.md)
 
-### The FAQ ❔
+### The FAQ & Guides ❔
 
 Could answers several questions you might have about the project as well.
 
@@ -94,11 +94,9 @@ Could answers several questions you might have about the project as well.
 
 [FAQ: Usage Questions](../wiki_faq/faq-rd-usage.md)
 
-[FAQ: ES-DE Questions](../wiki_system_guides/es-de/esde-faq.md)
+[Guide: ES-DE](../wiki_system_guides/es-de/esde-guide.md)
 
 [FAQ: Steam Deck Questions](../wiki_devices/steamdeck/steamdeck-faq.md)
-
-[FAQ: Scraping Questions](../wiki_system_guides/es-de/esde-scraping.md)
 
 [FAQ: Feature Requests](../wiki_faq/faq-feature.md)
 

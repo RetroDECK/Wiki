@@ -1,4 +1,10 @@
-# FAQ: ES-DE Frontend General - Questions
+# ES-DE Frontend - FAQ
+
+## How do I switch language in ES-DE?
+
+ES-DE is by default set to respect your systems language if supported by the frontend. 
+
+If you want to change the locale go to: `UI Settings - Application Language`
 
 ## Why can't I press the up button in menus to jump to the bottom row and vice versa?
 
@@ -29,6 +35,8 @@ ES-DE comes with a built in Theme Downloader `UI Settings - Theme Downloader`. B
 ## Is there a list of themes?
 
 Yes, check here: [ES-DE: Themes List](https://gitlab.com/es-de/themes/themes-list).
+
+
 
 ## How do you switch between themes inside of RetroDECK?
 

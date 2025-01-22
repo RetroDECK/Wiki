@@ -128,15 +128,18 @@ See the ES-DE's Guide 📘 for more details.
 
 ## ES-DE Scraping
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-downloads.png" width="50">
-
-Scraping is done via [Screenscraper](https://www.screenscraper.fr/) or [TGBD](https://thegamesdb.net/) in the ES-DE interface under scraping.
-
 Scraping allows you to make the games look "pretty" with coverarts, icons, discimages and more.
+
+ES-DE supports two scraping services:
+
+- [Screenscraper](https://www.screenscraper.fr/)
+- [THEGAMESDB](https://thegamesdb.net/) 
 
 Read up on the ES-DE userguide on scraping here:
 
 [ES-DE Scraper guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#scraping)
+
+You can find the scraping settings in the ES-DE interface under `ES-DE Menu` ->  `Scraping`.
 
 ### Tips on Scraping
 

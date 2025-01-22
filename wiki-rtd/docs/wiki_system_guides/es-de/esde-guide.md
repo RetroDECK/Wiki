@@ -1,4 +1,4 @@
-# EmulationStation Desktop Edition: User Guide
+# ES-DE: General Guide
 
 <img src="../../../wiki_images/logos/es-de-logo.png" width="150">
 

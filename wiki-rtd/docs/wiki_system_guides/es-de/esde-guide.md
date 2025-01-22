@@ -152,17 +152,41 @@ Read up on the ES-DE userguide on scraping here:
 
 In: `~/retrodeck/ES-DE/downloaded_media` folder.
 
-### Can I add my own images, manuals, or other media?
+### Can I move the downloaded_media folder?
 
-The ES-DE Wiki has [Instructions: Manually copying game media files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md?ref_type=heads#manually-copying-game-media-files) on adding your own media.
+You can move it with the the move RetroDECK option inside the configurator.
 
-There's a handy spreadsheet that explains each media type:
+### Can I copy the downloaded_media folder to another device?
 
-[Spreadsheet: Media Types in ES-DE](https://docs.google.com/spreadsheets/d/18VJAL44aNxsFOd4pVAONmdWwa7srCSzr2Z2SJEiNKnE/edit?gid=1812680930#gid=1812680930)
+Yes, just copy it into the other device RetroDECK folder.
 
-Check the following guide.
+### My systems storage ran out after scraping...
 
-## How-to: Add manual game media files
+**Try an automatic cleanup:**
+
+`ES-DE Menu` -> `Utilties` - `Orphaned Data Cleanup`
+
+This will remove media files that have no games associated with them.
+
+**Try manual cleanup:**
+
+You can clean out images and videos that takes a lot of space under: `~/retrodeck/ES-DE/downloaded_media`.
+
+**But I still want them all...**.
+
+The only way to still keep them is either delete something else from the storage or buy more storage.
+
+
+### How-to: Add manual game media files without scraping
+
+**TIP**
+
+The ES-DE User Guide has their own guide and a handy speadsheet:
+
+- [Instructions: Manually copying game media files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md?ref_type=heads#manually-copying-game-media-files) 
+- [Spreadsheet: Media Types in ES-DE](https://docs.google.com/spreadsheets/d/18VJAL44aNxsFOd4pVAONmdWwa7srCSzr2Z2SJEiNKnE/edit?gid=1812680930#gid=1812680930)
+
+**The Guide:**
 
 If you already have a library of game media (images, videos and PDF manuals) you can manually copy these files into RetroDECK (ES-DE). 
 
@@ -199,8 +223,7 @@ titlescreens
 videos
 ```
 
-
-### Example adding media files to games 
+#### Example adding media files to games
 
 **A multi-disk game or a single game:**
 
@@ -246,29 +269,7 @@ Videos:
 ~/retrodeck/ES-DE/downloaded_media/scummvm/videos/dig.scummvm.mp4
 ```
 
-### Can I move the downloaded_media folder?
 
-You can move it with the the move RetroDECK option inside the configurator.
-
-### Can I copy the downloaded_media folder to another device?
-
-Yes, just copy it into the other device RetroDECK folder.
-
-### My systems storage ran out after scraping...
-
-**Try an automatic cleanup:**
-
-`ES-DE Menu` -> `Utilties` - `Orphaned Data Cleanup`
-
-This will remove media files that have no games associated with them.
-
-**Try manual cleanup:**
-
-You can clean out images and videos that takes a lot of space under: `~/retrodeck/ES-DE/downloaded_media`.
-
-**But I still want them all...**.
-
-The only way to still keep them is either delete something else from the storage or buy more storage.
 
 
 

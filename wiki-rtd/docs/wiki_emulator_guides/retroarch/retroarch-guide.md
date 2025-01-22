@@ -14,42 +14,63 @@ RetroDECK ships all available cores from the stable branch and if no stable core
 
 [RetroArch - Github](https://github.com/libretro/RetroArch)
 
-## Where is the RetroArch folder located?
+[ES-DE User Guide: Supported Game Systems](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#supported-game-systems)
 
-`/.var/app/net.retrodeck.retrodeck/config/retroarch/`
+## Where to put the games?
+
+RetroArch supports a multiple of systems under:
+
+`retrodeck/roms/`
+
+The ES-DE User Guide has an updated list on what subfolder under `retrodeck/roms/` corresponds to what RetroArch core.
+
+## What file formats are supported?
+
+Different for each system / core.
+
+Check each system on the RetroArch Docs and the ES-DE User Guide for the latest information. 
 
 ## Does RetroArch require BIOS or Firmware?
-It depends on the core
+
+It depends on the core.
+
+Check each system on the RetroArch Docs and the ES-DE User Guide for the latest information. 
+
+## Folder structure
+
+| Type    | Folder                 |          Comment     | 
+|  :---:  | :---:                  |             :---:     |
+| ROMs Folder |`retrodeck/roms/<multiple>` |                               |          |
+| Saves Folder |`retrodeck/saves/<multiple>` |                               |        |
+| States Folder |`retrodeck/states/<multiple>` |                               |  Save States depends on the core if it has support or not | 
+| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retroarch/`         |  Various config `.yml` and system folders |
+
+## RetroArch Docs Links
 
 [RetroArch - BIOS Guide](https://docs.libretro.com/library/bios/)
 
-## Navigation Guide
-
 [RetroArch - Navigation Guide](https://docs.libretro.com/guides/navigating/)
-
-## How to enable Cheats
 
 [RetroArch - Cheat Guide](https://docs.libretro.com/guides/cheat-codes/)
 
-## Arcade Systems Guide (FBNeo and MAME cores)
-
 [RetroArch - Arcade Guide](https://docs.libretro.com/guides/arcade-getting-started/)
-
-## Shaders
 
 [RetroArch - Shaders Guide](https://docs.libretro.com/guides/shaders/)
 
 ## Core List
 
+RetroDECK always try to ship all cores in RetroArch
+
 [RetroArch - Core List](https://docs.libretro.com/meta/core-list/)
 
 | Core                      | System/Machine         | Notes              |
-| :---                      | :---                   | :---               |
+|  :---:  | :---:                  |             :---:     |
 | [2048](https://docs.libretro.com/library/2048/)                      | Game                   | A port of the popular puzzle game 2048 to libretro |
 | 3D Engine                 | -                      | This is a test core; it demonstrates how to create a hardware-rendered core in a libretro context |
 | [4DO](https://docs.libretro.com/library/opera/)                       | 3DO                    |                    |
 | a5200                     | Atari 5200             |                    |
 | Anarch                    | Game                   | A port of Anarch, 90s-style Doom clone shooter game |
+| Ardens                    | Arduboy                | A simulator for the Arduboy FX |
 | Arduous                   | Arduboy                | A emulator for Arduboy, a handheld game console with open source software, based on the Arduino hardware platform |
 | [Atari800](https://docs.libretro.com/library/atari800/)                  | Atari 5200             |                    |
 | Beetle bsnes              | Nintendo SNES/SFC      |                    |
@@ -101,6 +122,7 @@ It depends on the core
 | DOSBox-core               | DOS                    | Provides some improvements over the DOSBox-SVN trunk, including native MIDI support, cycle-accurate OPL3 (YMF262) emulation, MT-32 emulation and experimental 3dfx Voodoo support |
 | DOSBox-Pure               | DOS                    | A port of DOSBox with a goal of simplicty and ease of use and gameplay. This core includes a streamlined workflow for launching games directly from ZIP archives with automated mapping of controls to gamepads and a native onscreen keyboard. |
 | DOSBox-SVN                | DOS                    | This core is based on DOSBox-SVN trunk and allows on-the-fly configuration and different sync methods |
+| doukutsu-rs             | Game engine            | An open-source reimplementation of the Cave Story engine compatible with all official (and some unofficial) releases of Cave Story |
 | DuckStation               | Sony PlayStation       |                    |
 | Dungeon Crawl Stone Soup  | Game                   | A preliminary port of the Dungeon Crawl Stone Soup strategy game |
 | EasyRPG                   | RPG Maker 2000/2003    |                    |
@@ -154,6 +176,7 @@ It depends on the core
 | Kronos                    | Sega Saturn/ST-V       | A port of the Kronos, which is itself a fork of Yabause emulator |
 | LowRes NX                 | Game engine            | A port of the LowRes NX fantasy console to libretro |
 | Lutro                     | Game engine            | An experimental Lua game framework for libretro, based on a subset of the LOVE API |
+| M2000                     | Philips P2000T         | A port of M2000, the portable Philips P2000 emulator to libretro |
 | MAME (Current)            | Arcade/Console/various | Based on MAME development branch. Full list of supported systems: http://adb.arcadeitalia.net/mame.php |
 | MAME 2000                 | Arcade/Console/various | (See MAME note)    |
 | MAME 2003                 | Arcade/Console/various | (See MAME note)    |
@@ -163,7 +186,8 @@ It depends on the core
 | MAME 2010                 | Arcade/Console/various | (See MAME note)    |
 | MAME 2015                 | Arcade/Console/various | (See MAME note)    |
 | MAME 2016                 | Arcade/Console/various | (See MAME note)    |
-| melonDS                   | Nintendo DS            |                    |
+| melonDS 2021              | Nintendo DS            |                    |
+| melonDS DS                | Nintendo DS/DSi        | Enhanced remake of the melonDS core based on a newer version of the emulator. |
 | Mesen                     | Nintendo NES/Famicom   |                    |
 | Mesen-S                   | Nintendo SNES/SFC/Game Boy/Color |          |
 | MESS 2015                 | Multi (various)        | (See MAME note)    |
@@ -180,11 +204,11 @@ It depends on the core
 | Neko Project II           | NEC PC-98              |                    |
 | Neko Project II Kai       | NEC PC-98              |                    |
 | NeoCD                     | Neo Geo CD             |                    |
-| Nestopia UE                | Nintendo NES/Famicom   |                    |
+| Nestopia                  | Nintendo NES/Famicom   |                    |
 | nSide Balanced            | Nintendo SNES/SFC/Game Boy/Color |          |
 | Numero                  | TI-83            | A TI-83 Emulator for Libretro |
 | NXEngine                  | Game engine            | An open-source reimplementation of the Cave Story / Doukutsu engine |
-| O2EM                      | Magnavox Odyssey2/Phillips Videopac+ |      |
+| O2EM                      | Magnavox Odyssey2/Philips Videopac+ |      |
 | Oberon                    | Oberon RISC machine    | An emulator for the Oberon RISC machine, ported to libretro |
 | OpenLara                  | Game engine            | A port of the OpenLara free/open re-implementation of the engine used by the original Tomb Raider series |
 | OpenTyrian                | Game                   | A port of the OpenTyrian clone of the classic Tyrian shmup, ported to libretro |
@@ -267,3 +291,91 @@ It depends on the core
 | XRick                     | Game engine            | A port of the XRick, an open-source clone of the Rick Dangerous engine |
 | YabaSanshiro              | Sega Saturn            | A port of the YabaSanshiro, which is itself a fork of Yabause emulator |
 | Yabause                   | Sega Saturn            |                    |
+
+##  Cores with rewind support
+
+**Note:** Enabling rewinding can cause a big performance hit.
+
+The following cores support the `Rewind` function.
+
+| System/Machine      |    Core     |
+|  :---:              |  :---:     |        
+|  3DO                | Opera       | 
+|  Amstrad - CPC                | Caprice32       | 
+|  Amstrad - CPC                | CrocoDS       | 
+|  Arcade                | FinalBurn Neo       | 
+|  Arcade                | MAME 2003       | 
+|  Arcade                | MAME 2003-Plus       | 
+|  Arcade                | Arcade (MAME 2010)       | 
+|  Atari - 2600                | Stella      | 
+|  Atari - 7800                | ProSystem      | 
+|  Atari - Lynx                | Beetle Lynx      | 
+|  Atari - Lynx                | Handy      | 
+|  Bandai                | WonderSwan/Color      | 
+|  Commodore - 8-bit               | VICE     | 
+|  Commodore - Amiga               | PUAE     | 
+|  ColecoVision               | GearColeco     | 
+|  DOS               | DOSBox Pure     | 
+|  Enterprise - 64/128               | ep128emu     | 
+|  Elektronika - BK-0010/BK-0011              | bk     | 
+|  Magnavox - Odyssey2  / Phillips - Videopac+             | O2EM     | 
+|  Mega Duck / Cougar Boy              | SameDuck     |
+|  MSX              | fMSX     |
+|  Nintendo - Game Boy / Color              | SameBoy     |
+|  Nintendo - Game Boy / Color              | Gambatte     |
+|  Nintendo - Game Boy / Color              | TGB Dual     |
+|  Nintendo - Game Boy / Color              | Gearboy     |
+|  Nintendo - Game Boy Advance              | Beetle GBA     |
+|  Nintendo - Game Boy Advance              | gpSP     |
+|  Nintendo - Game Boy Advance              | Meteor     |
+|  Nintendo - Game Boy Advance              | TempGBA     |
+|  Nintendo - Game Boy Advance              | VBA Next     |
+|  Nintendo - Game Boy Advance              | VBA-M     |
+|  Nintendo - Gamecube/Wii              | Dolphin     |
+|  Nintendo - NES / Famicom              | bnes     |
+|  Nintendo - NES / Famicom              | FCEUmm     |
+|  Nintendo - NES / Famicom              | Mesen     |
+|  Nintendo - NES / Famicom              | Nestopia UE     |
+|  Nintendo - NES / Famicom              | QuickNES     |
+|  Nintendo 64             | Mupen64Plus-Next     |
+|  Nintendo - DS              | DeSmuME 2015     |
+|  Nintendo - DS              | DeSmuME     |
+|  Nintendo - DS              | melonDS     |
+|  Nintendo - Pokémon Mini              | PokeMini     |
+|  Nintendo - SNES / Famicom               | Beetle bsnes     |
+|  Nintendo - SNES / Famicom               | bsnes Accuracy     |
+|  Nintendo - SNES / Famicom              | bsnes Balanced    |
+|  Nintendo - SNES / Famicom               | bsnes C++98 v085     |
+|  Nintendo - SNES / Famicom              | bsnes Performance     |
+|  Nintendo - SNES / Famicom               | bsnes-mercury Accuracy     |
+|  Nintendo - SNES / Famicom               | bsnes-mercury Balanced     |
+|  Nintendo - SNES / Famicom               | bsnes-mercury Performanced     |
+|  Nintendo - SNES / Famicom               | higan Accuracy     |
+|  Nintendo - SNES / Famicom               | nSide Balance     |
+|  Nintendo - SNES / Famicom               | Snes9x 2002     |
+|  Nintendo - SNES / Famicom               | Snes9x 2005      |
+|  Nintendo - SNES / Famicom               | Snes9x 2005 Plus   |
+|  Nintendo - SNES / Famicom               | Snes9x 2010     |
+|  Nintendo - SNES / Famicom               | Snes9x     |
+|  Nintendo - SNES / SFC / Game Boy / Color              | Mesen-S     |
+|  Nintendo - Virtual Boy              | Beetle VB     |
+|  NEC PC-8000 / PC-8800 series              | QUASI88     |
+|  NEC - PC-98             | Neko Project II Kai     |
+|  NEC - PC Engine SuperGrafxy              | Beetle SuperGrafx     |
+|  NEC - PC Engine / CD             | Beetle PCE FAS     |
+|  NEC - PC-FX              | Beetle PC-FX     |
+|  Thomson - MO/TO             | Theodore    |
+|  SEGA - MS/GG             | SMS Plus GX    |
+|  SEGA - MS/GG             | Gearsystem    |
+|  SEGA - MS/GG/MD/CD             | Genesis Plus GX    |
+|  SEGA - MS/MD/CD/32X             | PicoDrive    |
+|  SEGA - Saturn             | Beetle Saturn    |
+|  Neo Geo AES / MVS            | Geolith    |
+|  Neo Geo Pocket / Color             | Beetle NeoPop    |
+|  Neo Geo Pocket / Color             | RACE   |
+|  PlayStation             | Beetle PSX   |
+|  PlayStation             | Beetle PSX HW   |
+|  PlayStation             | PCSX ReARMed   |
+|  Vectrex             | vecx   |
+| ZX 81             | EightyOne    |
+|   ZX Spectrum            | Fuse    |

@@ -177,7 +177,6 @@ nav:
 
     - RetroArch 👾:
       - RetroArch - General Guide: wiki_emulator_guides/retroarch/retroarch-guide.md
-      - RetroArch - Cores with Rewind support: wiki_emulator_guides/retroarch/retroarch-rewind.md
       - Mesen Core - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mesen-texture-pack.md
       - Mupen64Plus-Next Core - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mupen64plus-texture-pack.md
 

@@ -176,7 +176,11 @@ If you already have a library of game media (images, videos and PDF manuals) you
 - Supported document file extensions are: `.pdf`.
 - Supported video file extensions are: `.avi` , `.mkv` , `.mov` , `.mp4` and `.wmv`.
 
-The default media directory is: `~/retrodeck/ES-DE/downloaded_media/<system name>/<media type>/<files goes here>`
+The default media directory is: 
+
+```
+~/retrodeck/ES-DE/downloaded_media/<system name>/<media type>/<files goes here>
+```
 
 The following media type directories are supported: 
 
@@ -202,25 +206,45 @@ videos
 
 You want to add a screenshot and a video to the game:
 
-`~/retrodeck/roms/c64/Multidisk/Last Ninja 2/Last Ninja 2.m3u`
+```
+~/retrodeck/roms/c64/Multidisk/Last Ninja 2/Last Ninja 2.m3u
+```
 
 Then the media files structure needs to be the following:
 
-Screenshots: `~/retrodeck/ES-DE/downloaded_media/c64/screenshots/Multidisk/Last Ninja 2/Last Ninja 2.jpg`
+Screenshots: 
 
-Videos: `~/retrodeck/ES-DE/downloaded_media/c64/videos/Multidisk/Last Ninja 2/Last Ninja 2.mp4`
+```
+~/retrodeck/ES-DE/downloaded_media/c64/screenshots/Multidisk/Last Ninja 2/Last Ninja 2.jpg
+```
+
+Videos: 
+
+```
+`~/retrodeck/ES-DE/downloaded_media/c64/videos/Multidisk/Last Ninja 2/Last Ninja 2.mp4`
+```
 
 **A Directories interpreted as files game:**
 
 You want to add a screenshot and a video to the game:
 
-`~/retrodeck/roms/scummvm/dig.scummvm`
+```
+~/retrodeck/roms/scummvm/dig.scummvm
+```
 
 The media files for this directory which is interpreted as a file will be:
 
-Screenshots: `~/retrodeck/ES-DE/downloaded_media/scummvm/screenshots/dig.scummvm.png`
+Screenshots:
 
-Videos: `~/retrodeck/ES-DE/downloaded_media/scummvm/videos/dig.scummvm.mp4`
+```
+`~/retrodeck/ES-DE/downloaded_media/scummvm/screenshots/dig.scummvm.png
+```
+
+Videos:
+
+```
+~/retrodeck/ES-DE/downloaded_media/scummvm/videos/dig.scummvm.mp4
+```
 
 ### Can I move the downloaded_media folder?
 

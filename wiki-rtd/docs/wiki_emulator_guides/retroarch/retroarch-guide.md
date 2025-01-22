@@ -6,7 +6,7 @@ RetroArch is a multi-emulator that play games with emulator cores.
 
 RetroDECK ships all available cores from the stable branch and if no stable core exist RetroDECK will take the latest Beta version of the core.
 
-### RetroArch Links:
+### RetroArch Links
 
 [Libretro - Webpage](https://www.libretro.com//)
 
@@ -16,25 +16,41 @@ RetroDECK ships all available cores from the stable branch and if no stable core
 
 [ES-DE User Guide: Supported Game Systems](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#supported-game-systems)
 
+### RetroArch Docs - Guide Links
+
+Here follows various quick bookmarks to specific section of the RetroArch Docs that is good to read and always updated with the lastest information.
+
+[RetroArch - BIOS Guide](https://docs.libretro.com/library/bios/)
+
+[RetroArch - Navigation Guide](https://docs.libretro.com/guides/navigating/)
+
+[RetroArch - Cheat Guide](https://docs.libretro.com/guides/cheat-codes/)
+
+[RetroArch - Arcade Systems Guide](https://docs.libretro.com/guides/arcade-getting-started/)
+
+[RetroArch - Shaders Guide](https://docs.libretro.com/guides/shaders/)
+
 ## Where to put the games?
 
 RetroArch supports a multiple of systems under:
 
-`retrodeck/roms/`
+`retrodeck/roms/<multiple>`
 
-The ES-DE User Guide has an updated list on what subfolder under `retrodeck/roms/` corresponds to what RetroArch core.
+RetroDECK follows the ES-DE folder layout:
+
+The `ES-DE User Guide` (above) has an always updated list on what subfolder under `retrodeck/roms/` corresponds to what RetroArch core.
 
 ## What file formats are supported?
 
 Different for each system / core.
 
-Check each system on the RetroArch Docs and the ES-DE User Guide for the latest information. 
+Check each system on the `RetroArch Docs` and the `ES-DE User Guide` for the latest information (above). 
 
 ## Does RetroArch require BIOS or Firmware?
 
 It depends on the core.
 
-Check each system on the RetroArch Docs and the ES-DE User Guide for the latest information. 
+Check each system on the `RetroArch Docs` and the `ES-DE User Guide` for the latest information (above). 
 
 ## Folder structure
 
@@ -43,19 +59,7 @@ Check each system on the RetroArch Docs and the ES-DE User Guide for the latest 
 | ROMs Folder |`retrodeck/roms/<multiple>` |                               |          |
 | Saves Folder |`retrodeck/saves/<multiple>` |                               |        |
 | States Folder |`retrodeck/states/<multiple>` |                               |  Save States depends on the core if it has support or not | 
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retroarch/`         |  Various config `.yml` and system folders |
-
-## RetroArch Docs Links
-
-[RetroArch - BIOS Guide](https://docs.libretro.com/library/bios/)
-
-[RetroArch - Navigation Guide](https://docs.libretro.com/guides/navigating/)
-
-[RetroArch - Cheat Guide](https://docs.libretro.com/guides/cheat-codes/)
-
-[RetroArch - Arcade Guide](https://docs.libretro.com/guides/arcade-getting-started/)
-
-[RetroArch - Shaders Guide](https://docs.libretro.com/guides/shaders/)
+| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retroarch/`         |   |
 
 ## Core List
 

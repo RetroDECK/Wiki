@@ -2,10 +2,11 @@
 
 <img src="../../../wiki_images/logos/ryujinx-logo.svg" width="150">
 
-**Note: Legacy Emulator**
+**Note: Archived Emulator**
 
-Ryujinx have stopped it's development and is marked as Legacy as of RetroDECK 0.9.0b. It will no longer receive any updates or support more and is working as-is. 
+Ryujinx was a Switch emulator and was removed as part of the `0.9.0b` update.
 
+The last version that shipped with Ryujinx was `0.8.4b`.
 
 ## Where to put the games?
 

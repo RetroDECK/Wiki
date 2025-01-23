@@ -2,13 +2,11 @@
 
 <img src="../../../wiki_images/logos//yuzu-logo.svg" width="150">
 
-**Note:** 
+**Note: Archived Emulator**
 
 Yuzu was a Switch emulator and was removed as part of the `0.8.0b` update.
 
-It can still be temporarily installed via:
-
-[Ponzu](../../wiki_configurator/ponzu.md)
+The last version that shipped with Yuzu was `0.7.6b`.
 
 ## Where to put the games?
 

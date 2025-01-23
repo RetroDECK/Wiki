@@ -2,7 +2,9 @@
 
 <img src="../../wiki_images/logos/ponzu-logo.png" width="150">
 
-Ponzu can be used an temporary as-is function that is searching for user provided Citra and Yuzu AppImages and make them available as emulators inside RetroDECK.
+Note this will not work in the future.
+
+Ponzu could be used an temporary as-is function that is searching for user provided Citra and Yuzu AppImages and make them available as emulators inside RetroDECK.
 
 ## Where to put the AppImages
 

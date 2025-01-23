@@ -105,7 +105,6 @@ nav:
   - Guides - RetroDECK Configurator 🧰:
 
     - Configurator Features: wiki_configurator/configurator.md
-    - Ponzu: wiki_configurator/ponzu.md
 
   - Guides - Files & Game Management 📂:
 
@@ -154,9 +153,6 @@ nav:
     - Cemu ⬜:
       - Cemu - General Guide: wiki_emulator_guides/cemu/cemu-guide.md
 
-    - Citra 🍋 (Archive):
-      - Citra - General Guide: wiki_emulator_guides/citra/citra-guide.md
-
     - Dolphin / Primehack 🐬:
       - Dolphin / Primehack - General Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md
 
@@ -186,18 +182,11 @@ nav:
     - Ruffle 🌩️:
       - Ruffle - General Guide: wiki_emulator_guides/ruffle/ruffle-guide.md
 
-    - Ryujinx 🔵 (Legacy):
-      - Ryujinx - General Guide: wiki_emulator_guides/ryujinx/ryujinx-guide.md
-
     - Vita3K 🤍:
       - Vita3K - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
 
     - xemu ✖️:
       - xemu - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
-
-    - Yuzu 🔴 (Archive):
-      - Yuzu - General Guide: wiki_emulator_guides/yuzu/yuzu-guide.md
-      - Yuzu - Gyro Guide: wiki_emulator_guides/yuzu/yuzu-gyro.md
 
   - Guides - ES-DE & Other Systems 🗃️:
 
@@ -340,3 +329,18 @@ nav:
       - Cooker Testing - FAQ: wiki_development/testing/faq-cooker.md
       - Cooker Testing - Guide: wiki_development/testing/cooker-testing.md
       - Expermental Features: wiki_development/testing/experimental-features.md
+
+
+  - Archive 📂:
+
+    - Citra 🍋 (Archive):
+      - Citra - General Guide: wiki_archive/citra/citra-guide.md
+
+    - Ryujinx 🔵 (Archive):
+      - Ryujinx - General Guide: wiki_archive/ryujinx/ryujinx-guide.md
+
+    - Yuzu 🔴 (Archive):
+      - Yuzu - General Guide: wiki_archive/yuzu/yuzu-guide.md
+      - Yuzu - Gyro Guide: wiki_archive/yuzu/yuzu-gyro.md
+
+    - Ponzu (Archive): wiki_archive/ponzu.md

@@ -4,13 +4,11 @@
 
 Citra was a Nintendo 3DS Emulator.
 
-**Note:** 
+**Note: Archived Emulator**
 
-Citra Standalone was removed as part of the `0.8.0b` update.
+Citra was a Switch emulator and was removed as part of the `0.8.0b` update.
 
-It can still be temporarily installed via:
-
-[Ponzu](../../wiki_configurator/ponzu.md)
+The last version that shipped with Citra was `0.7.6b`.
 
 ## Where to put the games
 3DS games should be put under the `retrodeck/roms/3ds/` directory.

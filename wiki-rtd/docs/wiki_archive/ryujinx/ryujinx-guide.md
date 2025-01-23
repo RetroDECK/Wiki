@@ -2,12 +2,6 @@
 
 <img src="../../../wiki_images/logos/ryujinx-logo.svg" width="150">
 
-**Note: Archived Emulator**
-
-Ryujinx was a Switch emulator and was removed as part of the `0.9.0b` update.
-
-The last version that shipped with Ryujinx was `0.8.4b`.
-
 ## Where to put the games?
 
 Switch games should be put into the `retrodeck/roms/switch/` directory.

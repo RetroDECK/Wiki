@@ -2,6 +2,8 @@
 
 <img src="../../../wiki_images/logos/ryujinx-logo.svg" width="150">
 
+**Note: Archived Emulator**
+
 ## Where to put the games?
 
 Switch games should be put into the `retrodeck/roms/switch/` directory.

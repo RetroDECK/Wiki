@@ -85,20 +85,6 @@ Just go into the Configurator and press Steam Sync if you got it enabled it will
 
 This will also remove your favorites from Steam. 
 
-## Can I tweak images or other settings in SRM?
-
-`Configurator` -> `Open Emulator / Component` -> `Steam Rom Manager`. 
-
-Yes, you can open the entire SRM interface from the Configurator, just like all other components, and tweak it to your heart's content.
-
-<img src="../../../wiki_images/systems/srm/srm-window.png" width="800">
-
-### Help - I broke everything after my tweaking
-
-If you break things you could always reset it to default via:
-
-`Configurator` -> `Troubleshooting` -> `Reset` -> `Component` -> `Steam Rom Manager`. 
-
 ## Adding RetroDECK .doom files to Steam - Grid and Tear Project
 
 <img src="../../../wiki_images/systems/srm/brutaldoom.png" width="800">
@@ -126,6 +112,20 @@ The file in this case is called `Brutal Doom.doom`.
 **If you are unsure on how to create doom files**
 
 [Guide: How to create RetroDECK .doom file](../../wiki_engine_guides/gzdoom/retrodeck-doomfile.md)
+
+## Can I do advanced tweaking in SRM?
+
+<img src="../../../wiki_images/systems/srm/srm-window.png" width="800">
+
+Yes, you can open the entire SRM interface from the Configurator.
+
+Just like all other components you tweak it to your heart's content.
+
+`Configurator` -> `Open Emulator / Component` -> `Steam Rom Manager`. 
+
+If you break things you could always reset it to default via:
+
+`Configurator` -> `Troubleshooting` -> `Reset` -> `Component` -> `Steam Rom Manager`. 
 
 ## How does it work? 
 

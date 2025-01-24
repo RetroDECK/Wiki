@@ -65,7 +65,7 @@ Press the `Rescan Rom Directory` to have the games show up (you could also just 
 
 ### If the game requires additional files
 
-Check the [PortMaster Games List]https://portmaster.games/games.html) for details on the specific files needed for each game. You might also need to create new subfolders.
+Check the [PortMaster Games List](https://portmaster.games/games.html) for details on the specific files needed for each game. You might also need to create new subfolders.
 
 The required files and/or folders should be put inside the `retrodeck/PortMaster/`. 
 

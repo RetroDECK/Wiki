@@ -41,13 +41,13 @@ It might be worth to rename those games if it contains them.
 
 All the games you have marked as favorites in ES-DE (marked with a ⭐ or another icon depending on theme) will be synced to Steam upon exiting the application, along with their artwork and will show up after Steam is restarted.
 
-### Mark games as ⭐ favorites in ES-DE
+### Step 1: Mark games as ⭐ favorites in ES-DE
 
 <img src="../../../wiki_images/systems/srm/es-de-favorite.png" width="800">
 
 Navigate to a game in ES-DE and press the press the `north button` to mark a game as favorite in ES-DE (Xbox `Y` button, Playstation `Triangle`, Nintendo `X`).
 
-### Enable in Configurator
+### Step 2: Enable in Configurator
 
 <img src="../../../wiki_images/systems/srm/sync-config.png" width="800">
 
@@ -56,7 +56,7 @@ Navigate to a game in ES-DE and press the press the `north button` to mark a gam
 
 Enable the Steam Sync feature inside the Configurator by pressing `Yes`.
 
-### Exit RetroDECK to start the Sync
+### Step 3: Exit RetroDECK to start the Sync
 
 <img src="../../../wiki_images/systems/srm/sync-loading.png" width="800">
 
@@ -65,7 +65,7 @@ Enable the Steam Sync feature inside the Configurator by pressing `Yes`.
 Just wait until the Sync is finished and the window closes.
 
 
-### Restart / Reload Steam
+### Step 4: Restart / Reload Steam
 
 Steam needs to be restarted before the games show up in your library.
 
@@ -76,6 +76,8 @@ If you are on a PC just `Exit Steam` and relaunch it as normal.
 ## How do I disable Steam Sync?
 
 Just go into the Configurator and press Steam Sync if you got it enabled it will now ask if you want to disable it. Just press `Yes` in the prompt.
+
+This will also remove your favorites from Steam. 
 
 ## Can I tweak images or other settings in SRM?
 
@@ -97,19 +99,27 @@ If you break things you could always reset it to default via:
 
 [SteamGridDB: Grid and Tear](https://www.steamgriddb.com/projects/grid-and-tear) is a project for adding art for various doom mods. 
 
-They work with RetroDECK's `.doom` files.
+The Steam Sync feature can be used to add RetroDECK doom files 
 
-[Guide: RetroDECK .doom file](../../wiki_engine_guides/gzdoom/retrodeck-doomfile.md)
+To add the `.doom` files you just do the same as everything else:
 
-### How-to add .doom files with art?
+Just mark them as ⭐ favorites in ES-DE for the `Steam Sync` to pick them up. 
+
+**Search if the mod has art**
+
+Go to [SteamGridDB: Grid and Tear](https://www.steamgriddb.com/projects/grid-and-tear) and search for what mods are supported currently with art. 
+
+**Give the .doom file a matching name**
 
 You need to match the names of the `.doom` files with how they are called on `SteamGridDB` for the art to be correctly scraped.
-
-Use the the link above to search for what mods are supported currently with art. 
 
 [Example - SteamGridDB: Brutal DOOM](https://www.steamgriddb.com/game/5249817)
 
 The file in this case is called `Brutal Doom.doom`. 
+
+**If you are unsure on how to create doom files**
+
+[Guide: How to create RetroDECK .doom file](../../wiki_engine_guides/gzdoom/retrodeck-doomfile.md)
 
 ## How does it work? 
 

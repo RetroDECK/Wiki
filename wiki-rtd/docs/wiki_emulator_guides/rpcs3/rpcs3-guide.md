@@ -2,6 +2,8 @@
 
 <img src="../../../wiki_images/logos/rpcs3-logo.png" width="150">
 
+RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger.
+
 ---
 
 ### RPCS3 Links:

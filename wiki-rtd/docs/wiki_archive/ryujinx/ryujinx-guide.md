@@ -4,6 +4,8 @@
 
 **Note: Archived Emulator**
 
+Ryujinx was a Switch emulator. 
+
 ## Where to put the games?
 
 Switch games should be put into the `retrodeck/roms/switch/` directory.

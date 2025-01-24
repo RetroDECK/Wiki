@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/ruffle-logo.svg" width="150">
 
-An open source Flash Player emulator
+An open source Flash Player emulator.
 
 **Note:** 
 

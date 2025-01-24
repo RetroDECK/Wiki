@@ -2,6 +2,10 @@
 
 <img src="../../../wiki_images/logos/xemu-logo.png" width="150">
 
+A free and open-source application that emulates the original Microsoft Xbox game console.
+
+---
+
 ### xemu Links:
 
 [xemu Compatibility Guide](https://xemu.app/#compatibility)
@@ -12,6 +16,7 @@
 
 [xemu Webpage](https://xemu.app/)
 
+---
 
 ## Where to put the games
 Xbox games should be put under the `retrodeck/roms/xbox/` directory.

@@ -4,6 +4,8 @@
 
 GZDoom is the open source game engine for ID Software's older games like DOOM, DOOM2, HEXEN and HERETIC or it's own unique games.
 
+---
+
 ### GZDoom Links:
 
 [ZDoom Web Page](https://zdoom.org/index)
@@ -12,15 +14,9 @@ GZDoom is the open source game engine for ID Software's older games like DOOM, D
 
 [ZDoom Forums](https://forum.zdoom.org/)
 
-### Freedoom
+---
 
-The Freedoom project aims to provide all the content needed to form a complete, entirely free/libre game for the Doom engine.
-
-It is designed to be compatible with most custom levels, music, graphics and other modifications (“mods”) made for the original Doom games by Doom fans and artists over the decades.
-
-[FreeDOOM](https://freedoom.github.io/)
-
-### Where to buy official DOOM?
+## Where to buy official DOOM?
 
 You will need `DOOM + DOOM II`.
 
@@ -39,6 +35,14 @@ The games `DOOM 3` and `DOOM 64` are not needed but we list them here because it
 - [DOOM 64 - Steam](https://store.steampowered.com/app/1148590/DOOM_64/)
 - [DOOM 3 - Steam](https://store.steampowered.com/app/208200/DOOM_3/)
 
+
+### Freedoom
+
+The Freedoom project aims to provide all the content needed to form a complete, entirely free/libre game for the Doom engine.
+
+It is designed to be compatible with most custom levels, music, graphics and other modifications (“mods”) made for the original Doom games by Doom fans and artists over the decades.
+
+[FreeDOOM](https://freedoom.github.io/)
 
 ## What are iwads gzdoom is looking for?
 

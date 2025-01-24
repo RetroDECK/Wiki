@@ -6,8 +6,11 @@ PortMaster is a simple GUI tool designed to facilitate the downloading and insta
 
 One of the goals of PortMaster is to not install or upgrade any existing OS libraries for any ports. Any of the ports that need a particular non-standard library are maintained within the ports' folder and made available specifically to that port during execution. 
 
+**Note:**
+
 Not all ports are available for the `X86_64` system, but the list is continuously growing.
 
+---
 
 ### PortMaster Links:
 
@@ -18,6 +21,8 @@ Not all ports are available for the `X86_64` system, but the list is continuousl
 [PortMaster Gamelist](https://portmaster.games/games.html)
 
 [PortMaster FAQ](https://portmaster.games/faq.html)
+
+---
 
 ### Does PortMaster require BIOS / Firmware / Other files?
 

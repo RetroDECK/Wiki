@@ -2,6 +2,9 @@
 
 <img src="../../../wiki_images/logos/cemu-logo.png" width="150">
 
+Cemu is a Wii U emulator that is able to run most Wii U games and homebrew.
+
+---
 
 ### Cemu Links:
 
@@ -13,6 +16,7 @@
 
 [Cemu Webpage](https://cemu.info/)
 
+---
 
 ## Where to put the games?
 

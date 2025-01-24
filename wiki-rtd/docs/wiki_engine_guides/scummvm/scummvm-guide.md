@@ -2,11 +2,13 @@
 
 <img src="../../../wiki_images/logos/scummvm-logo.svg" width="150">
 
-This guide works for both the `ScummVM RetroArch Core` and `ScummVM-SA`
+ScummVM is a engine which allows you to run certain classic graphical adventure and role-playing games.
 
 **Note:** 
 
-`ScummVM-SA` is not implemented in RetroDECK yet. But will be available in a future version.
+`ScummVM-SA` is not implemented in RetroDECK yet. But will be available in a future version, only the `ScummVM RetroArch Core` exists for now.
+
+---
 
 ### ScummVM Links:
 
@@ -20,6 +22,7 @@ This guide works for both the `ScummVM RetroArch Core` and `ScummVM-SA`
 
 [ScummVM Webpage](https://www.scummvm.org/)
 
+---
 
 ### Where to put the games?
 
@@ -44,6 +47,8 @@ No
 | ROMs Folder |`retrodeck/roms/scummvm/` |                               |  
 
 ## How-to: Create .scummvm files that run in ES-DE
+
+This guide works for both the  `ScummVM-SA` and `ScummVM RetroArch Core`.
 
 **Example:** 
 

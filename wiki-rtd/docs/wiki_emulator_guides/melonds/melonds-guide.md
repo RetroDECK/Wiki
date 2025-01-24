@@ -2,6 +2,10 @@
 
 <img src="../../../wiki_images/logos/melonds-logo.svg" width="150">
 
+melonDS, a Nintendo DS emulator.
+
+---
+
 ### melonDS Links:
 
 [melonDS - Webpage](https://melonds.kuribo64.net/)
@@ -13,6 +17,8 @@
 [melonDS - Wiki](https://github.com/melonDS-emu/melonDS/wiki)
 
 [melonDS - Github](https://github.com/melonDS-emu/melonDS)
+
+---
 
 ## Where to put the games
 

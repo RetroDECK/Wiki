@@ -4,7 +4,7 @@
 
 RetroArch is a multi-emulator that play games with emulator cores.
 
-RetroDECK ships all available cores from the stable branch and if no stable core exist RetroDECK will take the latest Beta version of the core.
+---
 
 ### RetroArch Links
 
@@ -15,6 +15,7 @@ RetroDECK ships all available cores from the stable branch and if no stable core
 [RetroArch - Github](https://github.com/libretro/RetroArch)
 
 [ES-DE User Guide: Supported Game Systems](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#supported-game-systems)
+
 
 ### RetroArch Docs - Guide Links
 
@@ -29,6 +30,9 @@ Here follows various quick bookmarks to specific section of the RetroArch Docs t
 [RetroArch - Arcade Systems Guide](https://docs.libretro.com/guides/arcade-getting-started/)
 
 [RetroArch - Shaders Guide](https://docs.libretro.com/guides/shaders/)
+
+---
+
 
 ## Where to put the games?
 

@@ -6,6 +6,9 @@ Dolphin feature rich a GameCube and Wii Emulator.
 
 Primehack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouselook controls and other improvements.
 
+---
+
+
 ### Dolphin Links:
 
 [Dolphin - Webpage](https://dolphin-emu.org/)
@@ -26,6 +29,8 @@ Primehack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouse
 [Primehack - FAQ](https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questions)
 
 [Primehack - Github](https://github.com/shiiion/dolphin)
+
+---
 
 
 ## Where to put the games?

@@ -1,8 +1,15 @@
-# ES-DE: General Guide
+# ES-DE Frontend: General Guide
 
 <img src="../../../wiki_images/logos/es-de-logo.png" width="150">
 
-ES-DE is RetroDECK's primary frontend.
+ES-DE Frontend (EmulationStation Desktop Edition) is a frontend for browsing and launching games from your multi-platform collection. 
+
+**Note:**
+
+ES-DE is the default frontend used in RetroDECK.
+
+---
+
 
 ### ES-DE Links:
 
@@ -19,6 +26,9 @@ ES-DE is RetroDECK's primary frontend.
 [ES-DE Development: Translations](https://gitlab.com/es-de/emulationstation-de/-/blob/master/TRANSLATIONS.mdl)
 
 [ES-DE Development: Roadmap](https://gitlab.com/es-de/emulationstation-de/-/blob/master/ROADMAP.md)
+
+---
+
 
 ## Folder structure
 

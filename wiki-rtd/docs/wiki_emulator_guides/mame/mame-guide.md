@@ -2,7 +2,13 @@
 
 <img src="../../../wiki_images/logos/mame-logo.png" width="180">
 
-### melonDS Links:
+MAME is a multi-purpose emulation framework.
+
+MAME’s purpose is to preserve decades of software history. As electronic technology continues to rush forward, MAME prevents this important "vintage" software from being lost and forgotten. 
+
+---
+
+### MAME Links:
 
 [MAME - Webpage](https://www.mamedev.org/)
 
@@ -12,6 +18,7 @@
 
 [MAME - Documentation](https://docs.mamedev.org/)
 
+---
 
 ## Where to put the games?
 

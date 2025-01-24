@@ -6,6 +6,7 @@
 
 It strives to be compatible with games made for those engines.
 
+---
 
 ### IkemanGO Links:
 
@@ -15,6 +16,7 @@ It strives to be compatible with games made for those engines.
 
 [IkemanGO Webpage](https://ikemen-engine.github.io/)
 
+---
 
 ## Where to put the games
 

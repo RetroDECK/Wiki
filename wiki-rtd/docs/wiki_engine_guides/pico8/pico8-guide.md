@@ -4,7 +4,9 @@
 
 PICO-8 Fantasy Console is a game engine developed by Lexaloffle Games that you need to buy a license to use.
 
-### Cemu Links:
+---
+
+### Pico-8 Links:
 
 [Pico-8 FAQ](https://www.lexaloffle.com/pico-8.php?page=faq)
 
@@ -13,6 +15,8 @@ PICO-8 Fantasy Console is a game engine developed by Lexaloffle Games that you n
 [Pico-8 Website](https://www.lexaloffle.com/pico-8.php)
 
 [Itch.io - Pico-8](https://lexaloffle.itch.io/pico-8)
+
+---
 
 ## Where to put the games?
 

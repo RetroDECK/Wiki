@@ -2,11 +2,13 @@
 
 <img src="../../../wiki_images/logos/srm-logo.png" width="150">
 
-Steam ROM Manager is a bulk game importer and artwork manager for Steam. It has been built into RetroDECK since version 0.9.0b.
+Steam ROM Manager is a tool that helps you import games in bulk and manage artwork for Steam. It has been integrated into RetroDECK since version 0.9.0b. 
 
-It adds separate games to Steam, incorporates artwork from [SteamGridDB](https://www.steamgriddb.com/) , and configures the RetroDECK Steam Input layouts. 
+This tool adds individual games to Steam, incorporates artwork from [SteamGridDB](https://www.steamgriddb.com/), and configures the RetroDECK Steam Input layouts.
 
-RetroDECK uses Steam ROM Manager as part of its backend for the `Steam Sync` feature.
+Additionally, RetroDECK uses Steam ROM Manager as part of its backend for the Steam Sync feature.
+
+
 
 ### SRM Links:
 
@@ -18,17 +20,15 @@ RetroDECK uses Steam ROM Manager as part of its backend for the `Steam Sync` fea
 
 ### Warning - Flatpak Steam not yet supported
 
-We have not yet added support for the Flatpak version of Steam.
+We haven't added support for the Flatpak version of Steam yet.
 
-### Warning - Exotic ROMS filenames can break the scripts
+### Warning - Exotic ROMs filenames can break the scripts
 
-Some games have exotic symbols in their name that could break so the parser and the game won't launch, `( ) [ ]` are fine. 
-
-The symbols that could cause issues are: 
+Some games have symbols in their names that can cause issues with the parser, preventing the game from launching. Symbols like ( ) [ ] are fine, but avoid using:
 
 / \ { } < > ' * `
 
-It might be worth to rename those games if it contains them.
+Consider renaming games that contain these symbols.
 
 ## Folder structure
 
@@ -39,13 +39,13 @@ It might be worth to rename those games if it contains them.
 
 ## How-to enable Steam Sync?
 
-All the games you have marked as favorites in ES-DE (marked with a ⭐ or another icon depending on theme) will be synced to Steam upon exiting the application, along with their artwork and will show up after Steam is restarted.
+Games marked as favorites in ES-DE (with a ⭐ or another icon depending on theme) will sync to Steam with their artwork when you exit the application. They will appear in Steam after you restart it.
 
 ### Step 1: Mark games as ⭐ favorites in ES-DE
 
 <img src="../../../wiki_images/systems/srm/es-de-favorite.png" width="800">
 
-Navigate to a game in ES-DE and press the press the `north button` to mark a game as favorite in ES-DE (Xbox `Y` button, Playstation `Triangle`, Nintendo `X`).
+Navigate to a game in ES-DE and press the `north button` to mark it as a favorite. This corresponds to the `Y` button on Xbox, the `Triangle` button on PlayStation, and the `X` button on Nintendo.
 
 ### Step 2: Enable in Configurator
 
@@ -60,42 +60,47 @@ Enable the Steam Sync feature inside the Configurator by pressing `Yes`.
 
 <img src="../../../wiki_images/systems/srm/sync-loading.png" width="800">
 
-**Note:** If you have a massive roms library this can take a while. But you can leave the sync window in the background and play other things while it runs. The speed also depends on the Device you are using.
 
-Just wait until the Sync is finished and the window closes.
+**Note:** This process might take a while based on your hardware and game library size.
 
+You can leave the sync window running in the background and use another app or play another game.
 
 ### Step 4: Restart / Reload Steam
 
 Steam needs to be restarted before the games show up in your library.
 
-For the Steam Deck you can either restart the Steam Deck or from `Game Mode`  enter `Desktop Mode` and directly go back to `Game Mode` as this will also relaunch Steam.  
+For the Steam Deck, you can either restart the device or switch from `Game Mode` to `Desktop Mode` and back to `Game Mode` to relaunch Steam.
 
-If you are on a PC just `Exit Steam` and relaunch it as normal. 
+On a PC, simply `Exit Steam` and relaunch it as usual.
+
+
 
 ### Step 5: Results
 
 <img src="../../../wiki_images/systems/srm/steam-burger.png" width="800">
 
-If all have gone correctly you should have the game added to Steam.
+If everything went correctly, the games should now be added to Steam.
 
-## How do I disable Steam Sync?
+## How-to disable Steam Sync?
 
-Just go into the Configurator and press Steam Sync if you got it enabled it will now ask if you want to disable it. Just press `Yes` in the prompt.
+Go into the Configurator and press Steam Sync. 
 
-This will also remove your favorites from Steam. 
+If it's enabled, it will ask if you want to disable it. 
 
-## Adding RetroDECK .doom files to Steam - Grid and Tear Project
+Just press `Yes` in the prompt. 
+
+This will also remove your favorites from Steam.
+
+## How to add RetroDECK doom files using Steam Sync - Grid and Tear Project
 
 <img src="../../../wiki_images/systems/srm/brutaldoom.png" width="800">
 
 [SteamGridDB: Grid and Tear](https://www.steamgriddb.com/projects/grid-and-tear) is a project for adding art for various doom mods. 
 
-The Steam Sync feature can be used to add RetroDECK doom files 
+The Steam Sync feature can be used to add RetroDECK doom files. 
 
-To add the `.doom` files you just do the same as everything else:
+To add the `.doom` files, simply mark them as ⭐ favorites in ES-DE, and `Steam Sync` will pick them up.
 
-Just mark them as ⭐ favorites in ES-DE for the `Steam Sync` to pick them up. 
 
 **Search if the mod has art**
 
@@ -103,7 +108,7 @@ Go to [SteamGridDB: Grid and Tear](https://www.steamgriddb.com/projects/grid-and
 
 **Give the .doom file a matching name**
 
-You need to match the names of the `.doom` files with how they are called on `SteamGridDB` for the art to be correctly scraped.
+Match the names of the `.doom` files with how they are called on SteamGridDB for the art to be correctly scraped.
 
 [Example - SteamGridDB: Brutal DOOM](https://www.steamgriddb.com/game/5249817)
 
@@ -117,30 +122,27 @@ The file in this case is called `Brutal Doom.doom`.
 
 <img src="../../../wiki_images/systems/srm/srm-window.png" width="800">
 
-Yes, you can open the entire SRM interface from the Configurator.
+Yes, you can open the entire SRM interface from the Configurator. You can tweak it as much as you like.
 
-Just like all other components you tweak it to your heart's content.
+To access it, go to: 
 
 `Configurator` -> `Open Emulator / Component` -> `Steam Rom Manager`. 
 
-If you break things you could always reset it to default via:
+If you break something, you can reset it to default via:
 
 `Configurator` -> `Troubleshooting` -> `Reset` -> `Component` -> `Steam Rom Manager`. 
 
 ## How does it work? 
 
-When the sync function is activated launch scripts are generated in a hidden folder:
+When you activate the sync function, launch scripts are created in a hidden folder: `retrodeck/.sync/`. 
 
-`retrodeck/.sync/`  those scripts are then added to Steam with the ability to launch your games.
+These scripts are then added to Steam to launch your games.
 
-Inside the script there are two types of launch commands:
+There are two types of launch commands in the script:
 
-`flatpak run net.retrodeck.retrodeck 'retrodeck/roms/<system>/<game>`'
+1. Regular launch command: `flatpak run net.retrodeck.retrodeck 'retrodeck/roms/<system>/<game>`
+2. Future Steam Flatpak support command: `flatpak-spawn --host flatpak run net.retrodeck.retrodeck 'retrodeck/roms/<system>/<game>`
 
-This is the regular launch command 
+The second command is for future Steam Flatpak support, as it requires the flatpak-spawn permission to launch the games and must be manually enabled by the user.
 
-`flatpak-spawn --host flatpak run net.retrodeck.retrodeck 'retrodeck/roms/<system>/<game>'`
-
-This one is for future Steam Flatpak support, as they need the `flatpak-spawn` permission to launch the games and have to be manually enabled by the user. 
-
-Currently the games are not added to Flatpak Steam via Steam Sync. 
+Currently, games are not added to Flatpak Steam via Steam Sync.

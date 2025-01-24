@@ -82,21 +82,6 @@ But this can be different, check the where you download the mods if they have an
 
 RetroDECK have written a new parser from the ground up. You no longer need to write the path in the .doom files. RetroDECK scans all folders and subfolders of `/roms/doom/` only put the name of the mod file. If you are migrating to RetroDECK all you need to do is remove the path in your .doom files.
 
-## SteamGridDB - Grid and Tear Project
-
-
-<img src="../../../wiki_images/logos/steamgriddb-doom-logo.png" width="150">
-
-[SteamGridDB: Grid and Tear](https://www.steamgriddb.com/projects/grid-and-tear)
-
-
-If you plan to use RetroDECK's built-in `Steam Sync` function for `.doom` files to add them to Steam as seperate games.
-
-You need to match the names of the `.doom` files with how they are called on `SteamGridDB` for the art to be correctly scraped.
-
-Use the the link above to search for what mods are supported currently with art. 
-
-[Example - SteamGridDB: Project Brutality](https://www.steamgriddb.com/game/5320302)
 
 ## Project Brutality .doom example:
 
@@ -186,4 +171,13 @@ Maybe you have found the perfect combination of over 50 + mods in one `.doom` fi
 
 Share the `.doom` file and where to download the mods with the RetroDECK Community!
 
+## Adding .doom files to Steam as seperate games
+
+<img src="../../../wiki_images/systems/srm/brutaldoom.png" width="800">
+
+You can use the built in `Steam Sync` function to add .doom files as seperate games in Steam with art. 
+
+**Check the:**
+
+[SRM Guide](../../wiki_system_guides/srm/srm-guide.md) for more information.
 

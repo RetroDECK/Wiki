@@ -73,6 +73,12 @@ For the Steam Deck you can either restart the Steam Deck or from `Game Mode`  en
 
 If you are on a PC just `Exit Steam` and relaunch it as normal. 
 
+### Step 5: Results
+
+<img src="../../../wiki_images/systems/srm/steam-burger.png" width="800">
+
+If all have gone correctly you should have the game added to Steam.
+
 ## How do I disable Steam Sync?
 
 Just go into the Configurator and press Steam Sync if you got it enabled it will now ask if you want to disable it. Just press `Yes` in the prompt.

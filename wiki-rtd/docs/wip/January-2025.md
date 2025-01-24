@@ -15,6 +15,8 @@ A new year and a new blog post!
 
 <!-- more -->
 
+<img src="../rd-lunar-snake-cn-logo.svg" width="600"> 
+
 ## The bad news - Moving Godot Configurator
 
 We are also postponing the release of the Godot Configurator to a later major version to incorporate valuable feedback from both our team members and testers. 
@@ -27,6 +29,7 @@ The good news is then that 0.9.0b is coming very soon.
 
 We are in fact in the final stages of testing with the community testers squashing minor bugs and tweaking things.
 
+If you want to help out the testing effort go to the 💙-i-want-to-help channel on Discord.
 
 
 ## That is all for now 

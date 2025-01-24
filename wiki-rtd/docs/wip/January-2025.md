@@ -4,26 +4,30 @@ date: 2025-12-19
 
 --- 
 
-  
+# January 2025: A New Year of RetroDECK!
 
-# January 2025: Captain Comeback?
+A new year and a new blog post!
 
-WIP
+## Highlights
 
-## Highlights 
+- Moving Godot Configurator
+- Captain Comeback soon?
 
-- WIP
+<!-- more -->
+
+## The bad news - Moving Godot Configurator
+
+We are also postponing the release of the Godot Configurator to a later major version to incorporate valuable feedback from both our team members and testers. 
+
+As we already delayed 0.9.0b long enough, we decided to move the Godot Configurator to a future version.
+
+## The good news - 0.9.0 Captain Comeback soon!
+
+The good news is then that 0.9.0b is coming very soon.
+
+We are in fact in the final stages of testing with the community testers squashing minor bugs and tweaking things.
 
 
-<!-- more --> 
-
---- 
-
-<img src="../../../rd-xmas-logo.svg" width="300"> 
-
-## W
-
-WIP
 
 ## That is all for now 
 

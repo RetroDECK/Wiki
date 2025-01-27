@@ -18,29 +18,27 @@ A new year and a new blog post!
 
 <img src="../rd-lunar-snake-cn-logo.svg" width="600"> 
 
-## The bad news - Moving Godot Configurator
+## The bad news - Postponing Godot Configurator
 
-We are also postponing the release of the Godot Configurator to a later major version to incorporate valuable feedback from both our team members and community testers. 
+We are postponing the release of the Godot Configurator to a later major version to incorporate valuable feedback from our team and community testers. 
 
-As we already delayed 0.9.0b long enough, we decided to move the Godot Configurator to a future version.
+Since we have already delayed version 0.9.0b for a long time, we decided to move the Godot Configurator to a future version. 
 
-We really want to get the next major update out the the public!
+We are eager to release the next major update to the public!
 
-## The good news - 0.9.0 Captain Comeback soon
+## The good news - 0.9.0 Captain Comeback very soon
 
-The good news is then that 0.9.0b is coming very very soon.
+The good news is that version 0.9.0b is coming very soon! 
 
-We are in fact in the final stages of testing with the community testers.
+We are in the final stages of testing with our community testers, squashing minor bugs and tweaking small things based on feedback. 
 
-We are squashing minor bugs and tweaking some small things based on feedback.
-
-If you want to help out the testing effort go to the 💙-i-want-to-help channel on Discord.
+If you want to help with the testing effort, join the 💙-i-want-to-help channel on Discord.
 
 ## We have updated the wiki with new content
 
-If you are an avid visitor to the wiki you might have noticed we have restructured some things and added more information in various articles. 
+If you are an avid visitor to the wiki, you might have noticed that we have restructured some sections and added more information to various articles. 
 
-But even more important we have added all the new guides for 0.9.0b!
+More importantly, we have added all the new guides for version 0.9.0b:
 
 [PortMaster Guide](https://retrodeck.readthedocs.io/en/latest/wiki_system_guides/portmaster/portmaster-guide/)
 

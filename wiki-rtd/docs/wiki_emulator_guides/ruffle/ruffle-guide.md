@@ -46,19 +46,17 @@ No
 
 ## Controls in Games
 
+Most flash games were designed for mouse and/or keyboard controls, with each game having its own unique setup. 
 
-Most flash games where made for Mouse and Keyboard. 
+There's no one-size-fits-all solution for game inputs. 
 
-All games are all different in how you control them and there is no standard universal Input Solution to account for all games.
+Some games might use the keyboard (WASD, arrow keys, numpad), the mouse, or a combination of these.
 
-There could be games that uses Keyboard: WASD, Arrow Keys, Numpad, Mouse and much more.
+Suggestions on how to control games:
 
-You can via RetroDECK's Steam Input Layouts:
+- Use a real keyboard and mouse.
+- Use RetroDECK's Steam Input Layouts to emulate mouse input using a joystick.
+- Use the built-in touchpads on controllers or devices like the DualSense, DualShock 4, Steam Deck and Steam Controller.
+- Use the built-in touchscreens on devices like the Steam Deck.
+- Summon built-in virtual keyboards in SteamOS or your Linux distribution with a button combo.
 
-- Emulate mouse input via joystick.
-- Use built-in touchpads on the controller / devices like the DualSense or the Steam Deck.
-- Use built-in touchscreens on devices like the Steam Deck.
-- Use built-in virtual keyboards in SteamOS or your Linux distribution that can be summoned with a button combo. 
-- Play with a real keyboard and mouse.
-
-Check the controller guides on the wiki for more information on the controller / device. 

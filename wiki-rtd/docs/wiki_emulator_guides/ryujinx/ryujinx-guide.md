@@ -2,9 +2,9 @@
 
 <img src="../../../wiki_images/logos/ryujinx-logo.svg" width="150">
 
-**Note: Archived Emulator**
+**Note: Legacy Emulator**
 
-Ryujinx was a Switch emulator. 
+As of RetroDECK 0.9.0b Ryujinx is marked as Legacy and has stopped it's development.
 
 ## Where to put the games?
 

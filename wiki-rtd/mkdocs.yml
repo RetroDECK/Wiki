@@ -182,6 +182,9 @@ nav:
     - Ruffle 🌩️:
       - Ruffle - General Guide: wiki_emulator_guides/ruffle/ruffle-guide.md
 
+    - Ryujinx 🔵 (Legacy):
+      - Ryujinx - General Guide: wiki_emulator_guides/ryujinx/ryujinx-guide.md
+
     - Vita3K 🤍:
       - Vita3K - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
 
@@ -335,9 +338,6 @@ nav:
 
     - Citra 🍋 (Archive):
       - Citra - General Guide: wiki_archive/citra/citra-guide.md
-
-    - Ryujinx 🔵 (Archive):
-      - Ryujinx - General Guide: wiki_archive/ryujinx/ryujinx-guide.md
 
     - Yuzu 🔴 (Archive):
       - Yuzu - General Guide: wiki_archive/yuzu/yuzu-guide.md

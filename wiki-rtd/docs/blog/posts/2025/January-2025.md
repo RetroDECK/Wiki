@@ -4,7 +4,7 @@ date: 2025-12-27
 
 --- 
 
-# January 2025: A crawling 2025 blogpost
+# January 2025: A crawling snakey blogpost
 
 A new year and a new blog post!
 

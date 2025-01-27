@@ -44,7 +44,7 @@ But even more important we have added all the new guides for 0.9.0b!
 
 [PortMaster Guide](https://retrodeck.readthedocs.io/en/latest/wiki_system_guides/portmaster/portmaster-guide/)
 
-[SRM Guide](https://retrodeck.readthedocs.io/en/latest/wiki_system_guides/srm/srm-guide/)
+[SRM / Steam Sync Guide](https://retrodeck.readthedocs.io/en/latest/wiki_system_guides/srm/srm-guide/)
 
 [RetroENGINE Guide](https://retrodeck.readthedocs.io/en/latest/wiki_system_guides/retroengine/retroengine-guide/)
 

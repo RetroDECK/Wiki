@@ -1,10 +1,10 @@
 --- 
 
-date: 2025-12-19
+date: 2025-12-27
 
 --- 
 
-# January 2025: A New Year of RetroDECK!
+# January 2025: A crawling 2025 blogpost
 
 A new year and a new blog post!
 
@@ -16,21 +16,21 @@ A new year and a new blog post!
 
 <!-- more -->
 
-<img src="../rd-lunar-snake-cn-logo.svg" width="600"> 
+<img src="../../../rd-lunar-snake-cn-logo.svg" width="600"> 
+
+🐍 We wish everyone a happy Chinese New Year / Lunar New Year to those who celebrate it! 🎇
 
 ## The bad news - Postponing Godot Configurator
 
-We are postponing the release of the Godot Configurator to a later major version to incorporate valuable feedback from our team and community testers. 
-
-Since we have already delayed version 0.9.0b for a long time, we decided to move the Godot Configurator to a future version. 
-
-We are eager to release the next major update to the public!
+Since we have already delayed version 0.9.0b for a long time, we decided to postponing the release of the Godot Configurator to a later major version to incorporate valuable new feedback from our team and community testers. 
 
 ## The good news - 0.9.0 Captain Comeback very soon
 
-The good news is that version 0.9.0b is coming very soon! 
+The good news is that we have delayed the next major version 0.9.0b long enough.
 
 We are in the final stages of testing with our community testers, squashing minor bugs and tweaking small things based on feedback. 
+
+The goal is to have it out very soon.
 
 If you want to help with the testing effort, join the 💙-i-want-to-help channel on Discord.
 
@@ -51,7 +51,9 @@ More importantly, we have added all the new guides for version 0.9.0b:
 ## That is all for now 
 
 There are more things we are working on, but you will see them in future blog updates!
-  
+
+And as always if you want to help with development join the 💙-i-want-to-help channel on Discord.
+
 Thanks everyone! 
 
 //The RetroDECK Team 

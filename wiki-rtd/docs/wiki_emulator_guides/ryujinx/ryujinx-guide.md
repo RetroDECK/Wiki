@@ -35,27 +35,28 @@ You need to make sure that the keys and firmware are from the same version.
 
 Generally do not install the firmware from games. Instead provide your own firmware and keys from your own device.
 
-### Where to put the firmware files?
+### Where to put the key files?
 
-Needs the key files `prod.keys`, `title.keys` and the firmware files in the following directories:
+Needs the key files `prod.keys`, `title.keys`.
 
-**Keys:** `~/retrodeck/bios/switch/keys`
+**Keys:** 
 
-**Firmware:** `~/retrodeck/bios/switch/registered`
+`~/retrodeck/bios/switch/keys`
 
-The directory tree should look like this example:
-```
-retrodeck/bios/switch
-├── keys
-│   ├── prod.keys
-│   └── title.keys
-└── registered
-    └── XXX amount of .nca files goes here
-```
+or 
+
+`~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/system/`
+
 
 ### How-to - Install the firmware
 
-Ryujinx also requires the firmware to be installed via `RetroDECK Configurator` ->  `Open Emulator` -> `Ryujinx` ->  `Tools` -> `Install Firmware` -> `Install from XCI or ZIP`
+You can put the firmware inside the:
+
+`~/retrodeck/bios/switch/firmware/`
+
+Or you can put them anywhere as they need to be installed via:
+
+`RetroDECK Configurator` ->  `Open Emulator` -> `Ryujinx` ->  `Tools` -> `Install Firmware` -> `Install from XCI or ZIP`
 
 ## Folder structure
 
@@ -64,6 +65,7 @@ Ryujinx also requires the firmware to be installed via `RetroDECK Configurator` 
 | Saves Folder |`retrodeck/saves/switch/ryujinx/` |      Contains the `nand`, `sdcard` folders                       |  
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/`         |   Contains most of Ryujinx internal folders|
 | BIOS Folder | `retrodeck/bios/switch/` | Contains the `firmware`, `keys` folders  |
+| Alternate Keys Folder | `~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/system/` |  |
 | Mods  Folder | `~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/mods/` |  |
 
 

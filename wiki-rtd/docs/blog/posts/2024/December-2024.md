@@ -34,7 +34,7 @@ The team wishes everyone a happy winter season and happy holidays.
 
 --- 
 
-<img src="../../../rd-xmas-logo.svg" width="300"> 
+<img src="../../../rd-xmas-logo.svg" width="600"> 
 
 ## Thanks Lx32, MonkeyX and dottormac
 

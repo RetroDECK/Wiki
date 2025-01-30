@@ -52,9 +52,9 @@ These folder are the only folders writable by flatpak:
 
 
 
-## The Appdata file
+## The Metainfo file
 
-To be published on Flathub a appdata `.xml` file is needed that contains all the information for the store:
+To be published on Flathub a metainfo `.xml` file is needed that contains all the information for the store:
 
 - Official name
 - Website links
@@ -63,9 +63,9 @@ To be published on Flathub a appdata `.xml` file is needed that contains all the
 - Patchnotes
 - Etc...
 
-### RetroDECK: Appdata file
+### RetroDECK: Metainfo file
 
-[net.retrodeck.retrodeck.appdata.xml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.appdata.xml) on our GitHub repository's root.
+[net.retrodeck.retrodeck.metainfo.xml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.metainfo.xml) on our GitHub repository's root.
 
 
 ## Permissions

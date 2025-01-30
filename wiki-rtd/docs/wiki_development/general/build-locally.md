@@ -68,7 +68,7 @@ The builder creates these folders and files when building locally:
 | .flatpak-builder                        | Folder where the flatpak builder is writing sources |
 | retrodeck-flatpak-cooker                | Folder where the flatpak builder is writing built files |
 | retrodeck-repo                          | Folder where the flatpak builder mimicking the flatpak environment |
-| net.retrodeck.retrodeck.appdata.xml.bak | Backup of the appdata file  |
+| net.retrodeck.retrodeck.metainfo.xml.bak | Backup of the metainfo file  |
 | net.retrodeck.retrodeck.yml.bak         | Backup of the manifest file |
 | placeholders.cache                      | Cache for the fetched hashes to be reused later |
 | RetroDECK-cooker.flatpak.sha            | File containing the flatpak bundle hash |

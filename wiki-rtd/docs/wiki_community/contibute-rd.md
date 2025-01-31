@@ -2,65 +2,46 @@
 
 Yes! Everybody is welcome to contribute in any way possible if it is personal time or funds.
 
-- Do you know how to code and want to contribute? Be part of the new developer helpers.
-
-- Maybe you know graphics, art or UI & UX design? Join the creators corner.
-
-- Know how to communicate? Help us populate the wiki or do community maintenance.
-
-- Know how to provide support? You can just help by helping others and guide people on various communication platforms.
-
-- Do you love early testing? You can help by finding bugs, issues and provide suggestions on cooker releases.
-
-- Do you love experimenting and tweaking?  You can help us by finding and the best configurations for the emulators and engines.
-
-- You can also choose do donate to the project over at [Donations & Licenses 🎁](../wiki_credits/donations-licenses.md).
+- **Developers:** Submit PRs and feedback.
+- **Graphics, Art, UI & UX Design:** Join the creators corner.
+- **Communication:** Help populate the wiki or do community maintenance.
+- **Support:** Guide people on various communication platforms.
+- **Early Testing:** Find bugs, issues, and provide suggestions on cooker releases.
+- **Experimenting and Tweaking:** Find the best configurations for emulators and engines.
+- **Donations:** Donate to the project over at [Donations & Licenses 🎁](../wiki_credits/donations-licenses.md)..
 
 ## Any specific examples of what you need help with?
 
-### Artist/Creators:
+### Graphics, Art, UI & UX Design:
 
-- Create new pixel art for the Radial menus.
-
-- Create easter egg art for various holidays and functions.
-
-- Create menu art for a new Configurator.
-
-- Create input art that can be shown when you start a game.
-
-- Create input art guides for the wiki for the Steam Deck and later various controllers.
-
-- Create patch note and hype videos.
-
-- Create instruction videos.
-
-- Help us make RetroDECK better.
+- Create our Vtuber Mascot Genie: Rekku. 
+- New pixel art for Radial menus.
+- Easter egg art for holidays and functions.
+- Menu art for a new Configurator.
+- Input art for when you start a game.
+- Input art guides for the wiki (Steam Deck and other controllers).
+- Patch note and hype videos.
+- Instruction videos.
 
 ### Developers:
 
-- Help us put in and make new features.
-
-- Help us make the Configurator a godot application with full controller support.
-
-- Help us get releases out faster.
-
-- Help us make RetroDECK better.
-
-- Help us make an ARM version down the line.
+- Add new features and improve RetroDECK
+- Speed up releases.
+- Improve the Godot Configurator and make it release-ready.
+- Create versions for new OSes/architectures (e.g., ARM).
+- Any other crazy ideas you might have.
 
 ### Testers:
 
-- Help us test cooker builds and submit bugs and feedback.
--
-- Help us make RetroDECK better.
+- Test cooker and pre-release builds.
+- Submit bugs reports and feedback.
 
 ### Everyone:
 
+
 - Be kind and follow the rules.
+- Spread the word about RetroDECK.
+- Share suggestions on GitHub or discuss on Discord / Matrix.
+- Engage with the community.
 
-- Spread the word of RetroDECK if you like it, if you don't like it or have suggestions put them on github into issues or discuss them on discord.
-
-- Engage with the rest of the community.
-
-- Help us make RetroDECK better.
 

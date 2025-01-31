@@ -1,34 +1,39 @@
 # RetroDECK Cooker Guide: Start Testing Builds
 
-If you are on `SteamOS` like on the Steam Deck make sure you are in `Desktop Mode` before you begin.
+If you are using `SteamOS` on the Steam Deck, make sure you are in `Desktop Mode` before you begin.
 
-🛑 **Do install cooker without following this guide** 🛑
+🛑 **Do not install the Cooker without following this guide** 🛑
 
-We do not recommend blindly installing the Cooker without reading **THIS GUIDE** and **FOLLOW THE INSTRUCTIONS** written here.
-
-To just install RetroDECK Cooker and hope for the best is now known as the `Rowan Skye Method`.
-
-Because of mistakes that were made from a chaotic blue draconic wolfkin tester living on the edge with nothing to lose.
+We strongly recommend reading **THIS GUIDE** and **FOLLOWING THESE INSTRUCTIONS** carefully. Simply installing the RetroDECK Cooker without following the guide is now known as the Rowan Skye Method.
 
 ## Step 1: Take some Backups
 
-First take some backups:
 
-- Make a copy of `~/.var/app/net.retrodeck.retrodeck/` folder and name it `old.net.retrodeck.retrodeck`
-- Make a full back up or partial backups of the retrodeck folder normally under `~/retrodeck` or sdcard/other drive.
+**First, take some backups:**
 
-**On retrodeck folder backups:**
+- Make a copy of the `~/.var/app/net.retrodeck.retrodeck/` folder and name it old.net.retrodeck.retrodeck.
+- Make a full backup or partial backups of the RetroDECK folder, usually found under `~/retrodeck` or on an SD card/other drive.
 
-Generally, very few things would target the roms folder, but the other folders could be targeted for various scripts. Our recommendation would be to back up the full `~/retrodeck` folder, but as a tester you can decide how much you want to risk.
+**On RetroDECK folder backups:**
 
-**Disclamer:**
+Generally, very few things target the ROMs folder, but other folders could be targeted by various scripts. We recommend backing up the entire `~/retrodeck` folder, but as a tester, you can decide how much you want to risk.
 
-The RetroDECK Team also has never had any major data loss so far and we do Cooker updates almost daily.
+**Disclaimer:**
+
+The RetroDECK Team has never experienced any major data loss so far, and we perform Cooker updates almost daily.
+
 
 ## Step 2: Download the Cooker
 
+
 - Download the latest Cooker release from: [RetroDECK Cooker: Latest](https://github.com/XargonWan/RetroDECK-cooker/releases/latest) to your download folder.
-- Make a note of the `<version_id>` that is a randomly generated word, example: `cooker-X.X.Xb-HelloWorld`, in this example it's `HelloWorld`.
+- Make a note of the `<version_id>`, which is a randomly generated word. For example, in `RetroDECK-Cooker-X.X.Xb-HelloWorld`, the `<version_id>` is `HelloWorld`.
+
+**Note on Pre-Releases:**
+
+If you are testing a Pre-Release that is published on `Main`. 
+
+Download the latest pre-release from: [RetroDECK: Latest](https://github.com/RetroDECK/RetroDECK/releases/)to your download folder.
 
 ## Step 3: Terminal
 
@@ -41,6 +46,12 @@ You will need to open the terminal for this step.
 2. Type `flatpak remove net.retrodeck.retrodeck -y` to remove RetroDECK. **Note:** If you have more than one version installed for some reason choose to remove all versions.
 
 3. `flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak` this will install RetroDECK Cooker.
+
+**Note on Pre-Releases:**
+
+If you are testing a pre-release and the build have left cooker to main the name is different of the flatpak file:
+
+`flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak` 
 
 ## Step 4: Upgrade
 

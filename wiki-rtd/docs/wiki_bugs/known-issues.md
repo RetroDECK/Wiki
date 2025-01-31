@@ -105,6 +105,13 @@ GZDOOM have some kind of conflict with Steam Input in when more then one control
 
 We are still investigation the cause of it, if you know of a solution please contact the RetroDECK Team.
 
+### Steam Sync
+
+Sometimes fails to associate controller templates to Steam entries. Users must set it manually if needed.
+
+### ES-DE
+
+The `ES-DE Configurations` submenu in RetroDECK's ES-DE doesn't support translations yet. We hope to implement all translations in the future.
 
 ### Linux Desktop
 
@@ -154,7 +161,6 @@ It can easily happen if you go from docked to undocked or vice versa on the Stea
 
 The plan is to map as much as we can into the RetroDECK Hotkey System below. We are also patching in Emulator Hotkeys with the `RetroDECK Framework` (if possible) to be compatible with the system. If an emulator later adds better hotkey support, we plan to map it towards the same functions for a unified experience across as many emulators as possible.
 
-- `RPCS3` hotkeys/shortcuts do not work and they are a new experimental feature. To exit you must shut down RPCS3 from the `Switch Window` inside the Steam Deck interface or quit the application on Desktop.
 - `CEMU` has almost no hotkey support.
 - `XEMU` has no hotkey support.
 - `Vita3k` has no hotkey support.

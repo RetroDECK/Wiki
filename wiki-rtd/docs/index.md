@@ -38,12 +38,12 @@ Those can either be:
 
 ## The RetroDECK Community Links
 
-- [RetroDECK: Blog](https://retrodeck.readthedocs.io/en/latest/blog/)
-- [RetroDECK: Discord](https://discord.gg/WDc5C9YWMx)
-- [RetroDECK: Matrix](https://matrix.to/#/#retrodeck:matrix.org)
-- [RetroDECK: Lemmy](https://lemmy.zip/c/retrodeck)
-- [RetroDECK: Reddit](https://www.reddit.com/r/retrodeck)
-- [RetroDECK: Blusky](https://bsky.app/profile/retrodeck.net)
+- [Blog](https://retrodeck.readthedocs.io/en/latest/blog/)
+- [Discord](https://discord.gg/WDc5C9YWMx)
+- [Matrix](https://matrix.to/#/#retrodeck:matrix.org)
+- [Lemmy](https://lemmy.zip/c/retrodeck)
+- [Reddit](https://www.reddit.com/r/retrodeck)
+- [Blusky](https://bsky.app/profile/retrodeck.net)
 
 ---
 

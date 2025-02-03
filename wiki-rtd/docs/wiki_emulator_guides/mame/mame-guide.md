@@ -139,4 +139,4 @@ First read up on BGFX effects on [BGFX MAMEdev](https://docs.mamedev.org/advance
 1. Go to `~/.var/app/net.retrodeck.retrodeck/config/mame/ini`
 2. Open the `mame.ini` with your text editor of choice.
 3. Find `OSD VIDEO OPTIONS` and edit the value: `video` from `opengl` to `bgfx`.
-4. Find `GFX POST-PROCESSING OPTIONS` and edit the value: `bgfx_screen_chains` fron `nothing` to `<yourchoice>` from the BGFX link. Example value from MAME: `bgfx_screen_chains`: `crt-geom`,`pillarbox_left_horizontal`,`pillarbox_right_horizontal`.
+4. Find `GFX POST-PROCESSING OPTIONS` and edit the value: `bgfx_screen_chains` from `nothing` to `<yourchoice>` from the BGFX link. Example value from MAME: `bgfx_screen_chains`: `crt-geom`,`pillarbox_left_horizontal`,`pillarbox_right_horizontal`.

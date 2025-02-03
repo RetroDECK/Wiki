@@ -55,7 +55,9 @@ Those can either be:
 
 ---
 
-## Service Status Links
+## Services Links
 
 - [Github: Service Status](https://www.githubstatus.com/)
 - [Flathub: Service Status](https://status.flathub.org/)
+- [Flathub: Buildbot](https://buildbot.flathub.org/#/)
+

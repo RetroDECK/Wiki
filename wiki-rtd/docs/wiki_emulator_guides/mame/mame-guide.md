@@ -116,22 +116,21 @@ Where different types of art assets and metadata are stored
 
 ## Maintaining ROM Sets
 
-As MAME is updated so are the ROM Sets.
-
-It is important to keep using the same ROM Set as the current version shipped with RetroDECK.
+As MAME updates, so do the ROM Sets. It's important to use the same ROM Set as the current version shipped with RetroDECK.
 
 Read more on: [MAME - Maintaning ROM Sets](https://docs.mamedev.org/usingmame/aboutromsets.html)
 
 ## How-to enable cheats?
 
-RetroDECK already ships the cheat file from [Pugsy's Cheats](https://www.mamecheat.co.uk/) as part of the cheat folder.
+RetroDECK already includes the cheat file from [Pugsy's Cheats](https://www.mamecheat.co.uk/) in the cheat folder.
 
-To enable cheats open MAME via the Configurator or open the interface when inside a MAME game.
+To enable cheats:
 
-In the MAME interface go to -> `General Settings` -> `Miscellaneous Options` -> `Cheats` and toggle it to `On` -> go back and click `Save Settings` and leave MAME.
+1. Open MAME via the Configurator or while in a MAME game.
+2. In the MAME interface, go to `General Settings` -> `Miscellaneous Options` -> `Cheats` and toggle it to On.
+3. Go back, click `Save Settings`, and exit MAME.
 
-When you launch a game open the `Quick Menu` and go to the `Cheat` menu to toggle cheats for that game.
-
+When you launch a game, open the `Quick Menu` and go to the `Cheat Menu` to toggle cheats for that game.
 
 ## Applying effects such as Shaders and Scanlines
 
@@ -140,4 +139,4 @@ First read up on BGFX effects on [BGFX MAMEdev](https://docs.mamedev.org/advance
 1. Go to `~/.var/app/net.retrodeck.retrodeck/config/mame/ini`
 2. Open the `mame.ini` with your text editor of choice.
 3. Find `OSD VIDEO OPTIONS` and edit the value: `video` from `opengl` to `bgfx`.
-4. Find `GFX POST-PROCESSING OPTIONS` and edit the value: `bgfx_screen_chains` fron `nothing` to `what ever value you want` from the BGFX link. Example value from MAME: `bgfx_screen_chains`: `crt-geom`,`pillarbox_left_horizontal`,`pillarbox_right_horizontal`.
+4. Find `GFX POST-PROCESSING OPTIONS` and edit the value: `bgfx_screen_chains` fron `nothing` to `<yourchoice>` from the BGFX link. Example value from MAME: `bgfx_screen_chains`: `crt-geom`,`pillarbox_left_horizontal`,`pillarbox_right_horizontal`.

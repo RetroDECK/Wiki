@@ -64,9 +64,9 @@ Suggestions on how to control games:
 
 ## Can I use Ruffle to play Flash videos and not just games?
 
-Yes, as they are `.sfw` files you can just add flash videos to the `retrodeck/roms/flash/` folder to have them play as normal. 
+Yes, you can add Flash videos (.sfw files) to the `retrodeck/roms/flash/` folder to play them.
 
-It might be a good thing to seperate out videos from games with subfolders, but that is up to you. 
+You might want to organize videos and games into separate subfolders, but it's optional.
 
 **Example:**
 

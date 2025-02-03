@@ -32,8 +32,8 @@ For the Steam Controller - Gordon the `Hotkey Button` is both `SELECT` and `L4`,
 | :---                    | :---:               | :---:                 |       :---:          |  :---:     |
 | Pause / Resume          |   `HKB + A`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`             |            |
 | Take Screenshot         |   `HKB + B`          |   `CTRL + X`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`           |            |
-| Fullscreen Toggle      |   `HKB + X`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`             |            |
-| Open Menu               |  `HKB + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`                        |
+| Fullscreen Toggle      |   `HKB + X`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)` `RPCS3`            |            |
+| Open Menu               |  `HKB + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`   `RPCS3`                     |
 | Quit Emulator           |  `HKB + Start`       |   `CTRL + Q`          |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`                                   |            | |
 | Previous State Slot     |  `HKB + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2`|                    |            |
 | Next State Slot         |  `HKB + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2`|

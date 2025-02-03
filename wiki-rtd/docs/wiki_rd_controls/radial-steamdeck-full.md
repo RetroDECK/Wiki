@@ -25,16 +25,16 @@ The `Quick Menu` or `Quick Access Menu` Menu is the most populated menu. It feat
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`  `PPSSPP (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> |   |
-| Open Menu               |   `Ctrl + M`         |  `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)` `PPSSPP (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30">  |       |
+| Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`  `PPSSPP (Standalone)` `Ruffle`   |   <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> |   |
+| Open Menu               |   `Ctrl + M`         |  `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)` `PPSSPP (Standalone)` `RPCS3` |   <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30">  |       |
 | Swap Screens            |   `Ctrl + Tab`       |  `Citra (Legacy)` `MelonDS (Standalone)` `Cemu (Standalone)`                     |   <img src="../../wiki_icons/binding_icons/RD-system-switch-user.png" width="30">  |       |
 | Save State              |   `Ctrl + S`         |`RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` `PPSSPP (Standalone)`                     |   <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30">  |       |
 | Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`  `PPSSPP (Standalone)`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30">  |       |
 | Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  |       |
-| Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30">  |       |
+| Fullscreen Toggle       |   `Ctrl + Enter`     |`Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)` `RPCS3` |   <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30">  |       |
 | Load State              |   `Ctrl + A`         | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`  `PPSSPP (Standalone)`        |   <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  |       |
 | Pause / Resume          |   `Ctrl + P`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`             |   <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30">  |       |
-| Escape                  |   `ESC`              |        `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)`               | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="30">  | Can be used to Quick / Open Menu on certain systems  |
+| Escape                  |   `ESC`              |        `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)`    `Ruffle`           | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="30">  | Can be used to Quick / Open Menu on certain systems  |
 
 ## <img src="../../wiki_icons/binding_icons/RD-folder-blue-games.png" width="30"> State Menu
 
@@ -87,7 +87,7 @@ The `General Menu` or `General Emulation Menu` is where you find various global 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | Quit Emulator           |   `Ctrl + Q`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` `Yuzu (Legacy)`  |   <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> |   |
-| Open Menu               |   `Ctrl + M`         | `RetroArch` `Duckstation (Standalone)``PCSX2 (Standalone)`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30">  |       |
+| Open Menu               |   `Ctrl + M`         | `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)` `RPCS3` |   <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30">  |       |
 | Take Screenshot         |   `Ctrl + X`         | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PPSSPP (Standalone)`  `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)` |   <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30">  |       |
 | Restart / Reset         |   `CTRL + R`         |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`  |   <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30">  |       |
 | Change Disc / Next Disc |   `CTRL + D`         | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)`  |   <img src="../../wiki_icons/binding_icons/RD-application-x-iso.png" width="30">  |       |  |
@@ -102,7 +102,7 @@ The `Steam Deck Menu` is where you find Steam Deck specific functions and genera
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Escape                  |   `ESC`              |  `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)`                       | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="30">  | Can be used to Quick / Open Menu on certain systems  |
+| Escape                  |   `ESC`              |  `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)`  `Ruffle`                      | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="30">  | Can be used to Quick / Open Menu on certain systems  |
 | Enter                   |   `Enter`            |      `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)`                   | <img src="../../wiki_icons/binding_icons/RD-Enter.png" width="30">  |   |
 | Space          |   `Space`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-space.png" width="30">  | |                   |            |
 | Tab          |   `Tab`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-Tab.png" width="30">  | |

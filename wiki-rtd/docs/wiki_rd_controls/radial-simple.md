@@ -20,7 +20,7 @@ What follows is a breakdown of the Radial System that you access on:
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
 | RetroDECK Logo          |   `Right Click`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-icon_circle_2_180x180.png" width="30">  |  |
-| Escape          |   `Escape`          |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)`   |<img src="../../wiki_icons/binding_icons/RD-ESC.png" width="30">    |  |
+| Escape          |   `Escape`          |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)` `Ruffle`   |<img src="../../wiki_icons/binding_icons/RD-ESC.png" width="30">    |  |
 | Enter          |   `Enter`          |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`   |  <img src="../../wiki_icons/binding_icons/RD-Enter.png" width="30">   | |
 | Space          |   `Space`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-space.png" width="30">  | |
 | Tab          |   `Tab`          |   `PC-Systems`  | <img src="../../wiki_icons/binding_icons/RD-Tab.png" width="30">  | |

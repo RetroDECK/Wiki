@@ -38,8 +38,8 @@ What follows is a list of hotkeys:
 | :---                    | :---:               | :---:                 |       :---:          |  :---:     |
 | Pause / Resume          |   `SELECT + Cross`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)`  `PCSX2 (Standalone)`   `Yuzu (Legacy)`             |            |
 | Take Screenshot         |   `SELECT + Circle`          |   `CTRL + X`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`    `Yuzu (Legacy)`           |            |
-| Fullscreen Toggle      |   `SELECT + Square`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)`  `PCSX2 (Standalone)`   `Yuzu (Legacy)`             |            |
-| Open Menu               |  `SELECT + Triangle`         |   `CTRL + M`          | `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`                        |
+| Fullscreen Toggle      |   `SELECT + Square`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `MelonDS (Standalone)`  `PCSX2 (Standalone)`   `Yuzu (Legacy)`    `RPCS3`         |            |
+| Open Menu               |  `SELECT + Triangle`         |   `CTRL + M`          | `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`    `RPCS3`                    |
 | Quit Emulator           |  `SELECT + Start`       |   `CTRL + Q`          |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)`    `Yuzu (Legacy)`                                   |            | |
 | Previous State Slot     |  `SELECT + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` |                    |            |
 | Next State Slot         |  `SELECT + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` |

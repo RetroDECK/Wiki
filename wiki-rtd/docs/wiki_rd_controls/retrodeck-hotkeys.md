@@ -1,18 +1,4 @@
-# Generic Standard: RetroDECK Hotkeys
-
-## What is the RetroDECK Steam Input Template called?
-
-- Generic Standard : `RetroDECK: Generic - Standard`
-
-## Simple Radial Menu
-
-The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
-
-Read more at the:
-
-[Standard Controller: Simple Radial Menu](radial-simple.md) to see all the available commands.
-
-## Global Hotkeys: Generic
+# RetroDECK Hotkeys
 
 The global hotkeys are activated by pressing the `SELECT`  button and holding it while pressing the corresponding other button input.
 
@@ -69,3 +55,33 @@ This hotkey work for RetroArch, MAME, FBNEO and other arcade systems.
 | :---                    | :---:                    |       :---:          |  :---:     |
 | Insert Credit           |  `SELECT`                |     `RetroArch`  `MAME (Standalone)` `FBNeo`     |            |
 
+
+## Radial Menu System
+
+The radial menu system is located on the left touchpad on the Steam Deck with layout depending on what layout you choose.
+
+RetroDECK ships with two different templates for the Steam Deck:
+
+`RetroDECK: Steam Deck - Neptune SIMPLE`
+
+`RetroDECK: Steam Deck - Neptune FULL`
+
+The only difference being the complexity of the built-in radial menus and the amount of options at your disposal on the left touchpad.
+
+### SteamDeck - The FULL Layout
+
+[RetroDECK: Steam Deck - Neptune FULL](radial-steamdeck-full.md)
+
+### The SIMPLE Layout
+
+The SIMPLE layout got the same menu as the external controllers.
+
+[RetroDECK: Steam Deck - Neptune SIMPLE](radial-simple.md)
+
+## Simple Radial Menu
+
+The Simple Radial Menu is activated by holding `SELECT` and by moving the `Left Joystick`, then by pressing `L3` allows you press the selected radial button.
+
+Read more at the:
+
+[Standard Controller: Simple Radial Menu](radial-simple.md) to see all the available commands.

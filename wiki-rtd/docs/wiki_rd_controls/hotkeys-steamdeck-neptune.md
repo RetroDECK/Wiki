@@ -55,8 +55,8 @@ What follows is a list of hotkeys:
 | :---                    | :---:               | :---:                 |       :---:          |  :---:     |
 | Pause / Resume          |   `HKB + A`          |   `CTRL + P`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`             |            |
 | Take Screenshot         |   `HKB + B`          |   `CTRL + X`          | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`           |            |
-| Fullscreen Toggle      |   `HKB + X`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`             |            |
-| Open Menu               |  `HKB + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`   `PPSSPP`                             |
+| Fullscreen Toggle      |   `HKB + X`          |   `CTRL + ENTER`      | `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`  `RPCS3`            |            |
+| Open Menu               |  `HKB + Y`         |   `CTRL + M`          | `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)`  `Yuzu (Legacy)`   `PPSSPP`   `RPCS3`                          |
 | Quit Emulator           |  `HKB + Start`       |   `CTRL + Q`          |`RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)`   `Yuzu (Legacy)`  `PPSSPP`                                         |            | |
 | Previous State Slot     |  `HKB + D-Pad Left`  |   `CTRL + J`          | `RetroArch` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)` `PPSSPP`       |                    |            |
 | Next State Slot         |  `HKB + D-Pad Right` |   `CTRL + K`          | `RetroArch` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)` `PPSSPP`       |
@@ -67,7 +67,7 @@ What follows is a list of hotkeys:
 | Rewind                  |  `HKB + L2`          |   `CTRL + -`          | `RetroArch` `Duckstation (Standalone)`                     |            |
 | Fast forward            |  `HKB + R2`          |   `CTRL + +`          |  `RetroArch` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)`    `PPSSPP`                                      |            |
 | Swap Screens         |  `HKB + L3`          |   `CTRL + TAB`        |     `Citra (Legacy)` `MelonDS (Standalone)`  `Cemu (Standalone)`           |            |
-| Escape                  |  `HKB + R3`          |   `ESC`      |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)`     |            |
+| Escape                  |  `HKB + R3`          |   `ESC`      |   `PC-Systems` `OpenBOR` `GZDoom`  `Solarus`  `IkemanGO`  `Ryujinx (Standalone)`    `Ruffle`   |            |
 
 ### RetroArch
 

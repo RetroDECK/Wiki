@@ -6,9 +6,9 @@ An open source Flash Player emulator.
 
 **Note:** 
 
-Ruffle is very much a W.I.P emulator that is under heavy development. 
+Ruffle is a W.I.P emulator that is under heavy development. 
 
-Some games might not control right or work at all.
+Some games might not work at all or control right.
 
 ---
 
@@ -62,9 +62,9 @@ Suggestions on how to control games:
 - Use the built-in touchscreens on devices like the Steam Deck.
 - Summon built-in virtual keyboards in SteamOS or your Linux distribution with a button combo.
 
-## Can I use ruffle to play Flash videos?
+## Can I use Ruffle to play Flash videos and not just games?
 
-Yes, as they are `.sfw` files you can just add flash videos to the `retrodeck/roms/flash/` to have them play as normal. 
+Yes, as they are `.sfw` files you can just add flash videos to the `retrodeck/roms/flash/` folder to have them play as normal. 
 
 It might be a good thing to seperate out videos from games with subfolders, but that is up to you. 
 

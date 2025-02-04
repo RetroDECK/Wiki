@@ -8,8 +8,8 @@
 - Install RetroDECK from Discover.
 - Start RetroDECK for the first time in Desktop Mode.
 - Choose where RetroDECK should create the main folder `retrodeck/`: `Internal Storage`,  `SD Card` or `Custom Location`.
-- Put the BIOS files inside  `retrodeck/bios/`.
-- Put the ROMs & game fiels inside`retrodeck/roms/`.
+- Put the BIOS files inside `retrodeck/bios/`.
+- Put the ROMs & game files inside `retrodeck/roms/`.
 - Choose to install Steam Controller Templates for RetroDECK (this should be checked by default) during installation.
 - In Steam desktop, go to the `Games` tab, press `Add non-Steam game to My library`, and select RetroDECK to add it to your library. If that doesn't work, right-click on the RetroDECK desktop icon and press Add to Steam in the menu.
 - Switch to game mode and go to RetroDECK on the Steam Grid under `Library > Non-Steam`

@@ -1,21 +1,27 @@
-# RetroDECK Debug Mode
+# RetroDECK: Debugging
 
 
-## RetroDECK in Debug Mode
+## Debug Log
 
-You can use the flatpak shell for debugging from bash by using the following command:
-
-```
-flatpak run --command=bash net.retrodeck.retrodeck
-```
-
-NOTE: on wayland in some cases it's needed to enter with the command above otherwise some emulators will not run:
+This command gives you a more indepth log and terminal output:
 
 ```
-flatpak run --command=sh --nosocket=fallback-x11 --socket=x11 net.retrodeck.retrodeck
+flatpak run net.retrodeck.retrodeck --debug
 ```
 
-This is can be used as a `RetroDECK Debug Mode`.
+## Debug Mode in Flatpak Shell
+
+You can use the Flatpak shell for debugging individual components from bash in RetroDECK by using the following command:
+
+```
+flatpak run --command=bash net.retrodeck.retrodeck --debug
+```
+
+On Wayland it is in some cases needed to add additional parameters to get all the components GUI's to show up that have not yet transitioned into Wayland:'  
+
+```
+flatpak run --command=sh --nosocket=fallback-x11 --socket=x11 net.retrodeck.retrodeck --debug
+```
 
 ---
 

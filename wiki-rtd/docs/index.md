@@ -31,7 +31,7 @@ Those can either be:
 
 ## What devices and operating systems are supported?
 
-- [Supported Devices](wiki_general/supported-devices.md)
+- [Supported Devices & OS](wiki_general/supported-devices.md)
 - [Supported Controllers](wiki_general/supported-controllers.md)
 
 ---

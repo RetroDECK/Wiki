@@ -38,7 +38,7 @@ Those can either be:
 
 ## The RetroDECK Community Links
 
-- [RetroDECK:_Blog](https://retrodeck.readthedocs.io/en/latest/blog/)
+- [RetroDECK: Blog](https://retrodeck.readthedocs.io/en/latest/blog/)
 - [RetroDECK: Discord](https://discord.gg/WDc5C9YWMx)
 - [RetroDECK: Matrix](https://matrix.to/#/#retrodeck:matrix.org)
 - [RetroDECK: Lemmy](https://lemmy.zip/c/retrodeck)

@@ -1,58 +1,61 @@
 # Adding RetroDECK to Steam
 
-What follows are two ways to add RetroDECK to Steam and what settings you need to enable after you added it. If you have the Flatpak Version of Steam installed you need to do some extra steps for everything to work.
+Here are two ways to add RetroDECK to Steam and the settings you need to enable after adding it. If you have the Flatpak version of Steam installed, you need to do some extra steps for everything to work.
 
+We plan to allow the user to automatically add RetroDECK to Steam in a future update from within the application. 
 
-## Add with BoilR (Recommended)
+## Add with BoilR 
 
 <img src="../../wiki_images/logos/boilr-logo.png" width="150">
 
-If you don't have [BoilR](https://flathub.org/apps/io.github.philipk.boilr) you can just install it from Flathub.
-BoilR will add RetroDECK to Steam (flatpak or standard versions), it will also add the Steam Grid art.
+If you don't have [BoilR](https://flathub.org/apps/io.github.philipk.boilr) you can just install it from Flathub. BoilR will add RetroDECK to Steam (Flatpak or standard versions) and also add the Steam Grid art.
 
-First make sure that you have fully closed Steam then do the following:
+On the Steam Deck do this in Desktop Mode-
 
-1. Open BoilR
-2. Make sure RetroDECK is marked in the `Import Games` Section
-3. Go to `Settings`
-4. Check `Download Images`
-5. Put in your `Authentication Key` from `SteamGridDB` (if you don't have one press the link in BoilR and get one).
-6. Check if you want animated images or other types of images.
+1. Close Steam completely.
+2. Open BoilR.
+3. Make sure RetroDECK is marked in the Import Games section.
+4. Go to Settings.
+4. Check Download Images.
+5. Enter your Authentication Key from SteamGridDB.
+6. Choose if you want animated images or other types of images.
 7. Go back to `Import Games`.
 8. Press the `Import Button`.
-9. When the import is done you can close BoilR and Open Steam.
-10. The RetroDECK entry should now be there
+9. Close BoilR and open Steam. The RetroDECK entry should now be there.
 
-## Add manually
+## Add Manually
 
-1. Open Steam
-2. Inside Steam go to the tab Games press `Add non Steam game to My library` and you should be able to see all installed applications select `RetroDECK` to add it into your library.
-3. Go to SteamGridDB and manually download all the art.
-4. Follow the guides on SteamGridDB on how to set up each art piece correctly.
+1. Open Steam.
+2. Go to the `Games` tab, press `Add non Steam game to My library`, and select RetroDECK from the list of installed applications.
+3. Visit SteamGridDB and manually download the art.
+4. Follow the guides on SteamGridDB to set up each art piece correctly.
 
-## Steam - Flatpak version extras
+## Steam Flatpak Version - Extras
 
 <img src="../../wiki_images/logos/flatpak-logo.png" width="150">
 
-If you have the [Steam Flatpak](https://flathub.org/apps/com.valvesoftware.Steam) version installed some extra steps apply.
+If you have the [Steam Flatpak](https://flathub.org/apps/com.valvesoftware.Steam) version installed, some extra steps apply.
 
 ### Prerequisites
 
-To make a flatpak launch other flatpaks it needs a special permission called `org.freedesktop.Flatpak`.
-Take note that this opens up the Flatpak more then normal, as flatpaks are not allowed to run many system commands from the sandbox. You can add the permission from the software Flatseal or directly from the terminal.
+To make a flatpak launch other flatpaks, it needs a special permission called `org.freedesktop.Flatpak`. 
 
-**With Flatseal (Recommended):**
+This opens up the Flatpak more than normal, as flatpaks are not allowed to run many system commands from the sandbox. 
 
-If you don't have [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal) you can just install it from Flathub
+You can add the permission using Flatseal or directly from the terminal.
 
-1. Open Flatseal
-2. Click on Steam
-3. Scroll down to the section called `Session Bus`
-4. Press the `+` sign
-5. Paste in `org.freedesktop.Flatpak`
-6. Launch Steam
+**Flatseal:**
 
-**From Terminal:**
+If you don't have [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal) you can install it from Flathub.
+
+1. Open Flatseal.
+2. Click on Steam.
+3. Scroll down to `Session Bus`.
+4. Press the `+` sign.
+5. Paste in `org.freedesktop.Flatpak`.
+6. Launch Steam.
+
+**Terminal:**
 
 Copy the following into the terminal:
 
@@ -60,17 +63,17 @@ Copy the following into the terminal:
 
 ### Add RetroDECK to Steam
 
-Add RetroDECK to Steam with BoilR or manually by following the guides above.
+Add RetroDECK to Steam with by following the guides above.
 
-**Special notes on the manual install:**
+**Special Notes on Manual Install:**
 
-Steam won't find the application directlyy and you will need to manually browse to the desktop file to add it in:
+Steam won't find the application directly, so you will need to manually browse to the desktop file to add it:
 
 `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/export/share/applications/`
 
 ### Configuring RetroDECK in Steam Flatpak
 
-After RetroDECK is added to Steam, right click on the RetroDECK entry and change the shortcut values to:
+After adding RetroDECK to Steam, right-click on the RetroDECK entry and change the shortcut values to:
 
 **Target:**
 

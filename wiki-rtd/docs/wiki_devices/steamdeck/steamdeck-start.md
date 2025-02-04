@@ -4,25 +4,25 @@
 
 ## Quickstart guide
 
-- Put the Steam Deck into Desktop Mode `Steam button` > `Power` > `Switch to Desktop`
-- Install RetroDECK from Discover
-- Start RetroDECK first time in Desktop Mode
-- Choose where RetroDECK should create the `roms` folders `Internal` or `SDCard`.
-- Put the BIOS inside `~/retrodeck/bios/`.
-- Put the ROMS inside `~/retrodeck/roms/` or `<sdcard>/retrodeck/roms/` or a custom location.
-- Choose to install Steam Controller Layouts for RetroDECK, it should be checked from the start.
-- In Steam desktop go to the tab `Games` press `Add non-Steam game to My library` and select RetroDECK to add it into your library. If that is not working, you can `Right Click` on the RetroDECK desktop icon and press `Add to Steam` in the menu.
-- **Optional way:** Get RetroDECK Steam Grid art and add it to your Steam library with BoilR. Or add the art manually from [SteamgridDB](https://www.steamgriddb.com/search/grids?term=RetroDeck) for the Steam Grid.
-- Switch over to game mode and go to RetroDECK on the Steam Grid under `Library > Non-Steam`
-- Add any of the the Official Layouts under `Controller Settings` -> `Controller Layouts` -> `Templates` in the Steam Deck called `RetroDECK: Steam Deck - Neptune` SIMPLE or FULL with a version number. and apply
-- Launch RetroDECK and enjoy
+- Switch the Steam Deck to Desktop Mode: `Steam button` -> `Power` -> `Switch to Desktop`.
+- Install RetroDECK from Discover.
+- Start RetroDECK for the first time in Desktop Mode.
+- Choose where RetroDECK should create the main folder `retrodeck/`: Internal, Custom or SDCard.
+- Put the BIOS files inside  `retrodeck/bios/`.
+- Put the ROMs & game fiels inside`retrodeck/roms/`.
+- Choose to install Steam Controller Templates for RetroDECK (this should be checked by default) during installation.
+- In Steam desktop, go to the `Games` tab, press `Add non-Steam game to My library`, and select RetroDECK to add it to your library. If that doesn't work, right-click on the RetroDECK desktop icon and press Add to Steam in the menu.
+- **Optional SteamgridDB Art:** Get RetroDECK Steam Grid art and add it to your Steam library with BoilR, or add the art manually from [SteamgridDB](https://www.steamgriddb.com/search/grids?term=RetroDeck).
+- Switch to game mode and go to RetroDECK on the Steam Grid under `Library > Non-Steam`
+- Add the  `RetroDECK: Steam Deck - Neptune` Official Template under `Controller Settings` -> `Controller Layouts` -> `Templates`. Choose either the SIMPLE raidal layout or FULL radial layout. 
+- Launch RetroDECK and enjoy!
 
-## Other quick tips
+**Other quick tips**
 
-- Read up on the [Steam Deck - Controller](../../wiki_rd_controls/hotkeys-steamdeck-neptune.md) to ease your navigation (controller layout required).
-- Read up on the [EmulationStation DE: User Guide](../../wiki_system_guides/es-de/esde-guide.md).
-- Check out our other software recommendations for the Steam Deck [Steam Deck - Software Recommendations](../../wiki_devices/steamdeck/steamdeck-software.md).
-- Check various optional optimizations that can make some emulators run even better [Steam Deck - Optimizations](../../wiki_devices/steamdeck/steamdeck-optimize.md).
+- Read up on the: [RetroDECK: Steam Deck - Hotkeys](../../wiki_rd_controls/hotkeys-steamdeck-neptune.md).
+- Read up on the: [ES-DE: User Guide](../../wiki_system_guides/es-de/esde-guide.md).
+- Explore our other software recommendations for the Steam Deck: [Steam Deck: Software Recommendations](../../wiki_devices/steamdeck/steamdeck-software.md).
+- Check various optional optimizations that can make some systems run even better: [Steam Deck: Optimizations](../../wiki_devices/steamdeck/steamdeck-optimize.md).
 
 
 ## Full step by step guide

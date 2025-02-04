@@ -14,9 +14,9 @@ Read more on:
 
 
 | Folder                     |      Comment     | 
-|  :---:  |                  |      :---:     |
-| `lib/udev/rules.d/` | This directory contains the default `.rules` files provided by your system. These files should not be edited.                              |  
-|  `etc/udev/rules.d/` or `run/udev/rules.d`  |                  |      This directory contains custom `.rules` files added by the administrator. These files supplement those in `lib/udev/rules.d/`.    |
+|  :---:                   |      :---:     |
+| `lib/udev/rules.d/` | This directory contains the default `.rules` files provided by your system. These files should not be edited.|                                
+|  `etc/udev/rules.d/` or `run/udev/rules.d`  |          This directory contains custom `.rules` files added by the administrator. These files supplement those in `lib/udev/rules.d/`     |
 
 If a `.rules` file exists for the same device in both directories, the version in `/etc/udev/rules.d/` will take precedence over the one in `/lib/udev/rules.d/`.
 

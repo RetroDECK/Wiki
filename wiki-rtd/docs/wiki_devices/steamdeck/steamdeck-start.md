@@ -59,7 +59,7 @@ This step is only needed if you installed the profiles. If you missed installed 
 - Add one of the layouts for RetroDECK called `RetroDECK: Steam Deck - Neptune` SIMPLE or FULL.
 - You can now use RetroDECK and it's ready to populate with ROMS. If you are unsure on how to add ROMS and BIOS to RetroDECK follow the [RetroDECK: Start Using](../../wiki_general/retrodeck-start.md)
 
-**(Optional): Extras**
+**Other quick tips**
 
 - Get RetroDECK Steam Grid art and add it to your Steam library with BoilR, or add the art manually from [SteamgridDB](https://www.steamgriddb.com/search/grids?term=RetroDeck).
 - Read up on the: [RetroDECK: Steam Deck - Hotkeys](../../wiki_rd_controls/hotkeys-steamdeck-neptune.md).

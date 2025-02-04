@@ -9,10 +9,10 @@ Before you start, make sure you have:
 - A device to install RetroDECK on.
 - Related BIOS & Firmware ready.
 - Game backups of various formats or purchased titles ready to play.
-- On the Steam Deck, this guide needs to be done in Desktop Mode until a later step.
+- On the Steam Deck, this guide needs to be done in Desktop Mode until step 4.
 
 ## Step 1: Installation & Configuration
-
+`ES-DE Configurations` 
 ### Steam Deck - Installation
 
 Follow the guide: [Steam Deck - Installation and Updates](../wiki_devices/steamdeck/steamdeck-start.md)

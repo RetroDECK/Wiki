@@ -1,63 +1,49 @@
 # RetroDECK - Steam Input Templates
 
-RetroDECK handles most of the advanced controller mapping via Steam Input.
-More controllers will be added in the future when Steam Input adds support for them.
+RetroDECK handles advanced controller mapping via Steam Input. More controllers will be added as Steam Input supports them.
 
-### All controls in RetroDECK can be changed
+### Customizing Controls
 
-Everyone is free to rebind the buttons as you see fit in the any of the RetroDECK's Steam Input profiles, inside the emulators or both.
-You can make your own profile to better suite your needs and combine it with input changes you make in each emulator.
+You can rebind buttons in RetroDECK's Steam Input Templates and emulators.
 
-But always remember if you rebind the keys inside RetroDECK in both Steam Input and the Emulators there will always be a risk that an upcoming update of either Steam or RetroDECK (thus including new versions of the built in Emulators) can come with changes that breaks your profiles.
+Create your own profile to suit your needs, but be aware that updates to Steam or RetroDECK might break your profiles. 
 
-Also note that if you break your controller template with your tinkering you can always revert to the Official Controller Profiles or reinstall them from the Configurator.
+If this happens, you can revert to the Official Controller Profiles or reinstall them from the RetroDECK Configurator.
 
-## Prerequisite for Steam Input work
+## Prerequisites for Steam Input
 
-There exists some prerequisites for making Steam Input to work with RetroDECK.
+### RetroDECK must be added to Steam for Steam Input
 
-### RetroDECK must be added to Steam
+In Steam, go to the `Games` tab, press `Add non Steam game to My library`, and select RetroDECK. You can also add it manually or via software like `BoilR`.
 
-In Steam go to the tab `Games` press `Add non Steam game to My library` and select RetroDECK to add it into your library or add it manually or via a software like `BoilR`.
+### Linux Desktop - steam-devices:
 
-### Linux Desktop - Extras:
+The `steam-devices` package is usually part of the Steam installation for many distributions, but it may vary. This package is required for Steam to recognize controllers. 
+
+Steam will warn you if `steam-devices` is missing. 
+
+Check your distribution's instructions to install it if needed.
 
 **Note:**
 
-On SteamOS or SteamOS based devices like the Steam Deck this is not needed.
+This is not needed for SteamOS-based devices like the Steam Deck or most gaming distributions like Bazzite, Chimera, Nobara and more.
 
 
-#### Make sure you have installed the steam-devices package
-
-Normally `steam-devices` is a part of the Steam installation for many distrubtions, but it could be diffrent depending on what you are running.
-
-Steam usually complains with warnings if `steam-devices` is missing.
-
-If `steam-devices` is not installed, please check your distrubtion on how to do so.
-
-
-#### You must have enable all Steam Input in Steam
-
+### Enable All Steam Input in Steam
 
 1. In Steam press the `Steam` top menu
 2. Go to `Settings`.
 3. Press `🎮 Controller`.
-4. Press and enable all Steam Inputs for: `Xbox` `PlayStation` `Switch Pro` `Generic`
+4. Enable all Steam Inputs for `Xbox` `PlayStation` `Switch Pro` `Generic`
 5. Close the `Settings`
 
-## About Templates:
+### Where to find the templates?
 
-### Steam Deck Templates
+`Select RetroDECK in Steam` -> `🎮 Controller Settings` -> `Controller Layouts` -> `Templates` 
 
-Devices like the Steam Deck with a built-in controller you will be able to find the profile under `🎮 Controller Settings` -> `Controller Layouts` -> `Templates`.
+**Note: Linux Desktop and External Controllers:**
 
-### External Controller Templates
-
-You will need to connect the external controllers to find the templates for the controller templates to show up automatically.
-
-Connect via: `Cable` / `Bluetooth` / `Wireless`.
-
-You will find the profile under `🎮 Controller Settings` -> `Controller Layouts` -> `Templates`.
+On Linux Desktop you will need to connect an external controller via cable, Bluetooth, or wireless for the `🎮 Controller Settings` icon to show up. 
 
 ## Template Lists
 

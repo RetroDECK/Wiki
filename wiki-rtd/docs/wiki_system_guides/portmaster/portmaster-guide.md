@@ -77,3 +77,9 @@ The required files and/or folders should be put inside the `retrodeck/PortMaster
 ## Will more games be added?
 
 Yes, the PortMaster team is continuously updating the Ports list. As the application is updated, more ports will be added for `X86_64` systems.
+
+## Can I hide PortMaster in ES-DE? 
+
+Currently there is no easy way to do so from within RetroDECK.
+
+The quickest solution is just to rename the `retrodeck/roms/portmaster/` folder into something else like `retrodeck/roms/Aportmaster/`.

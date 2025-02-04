@@ -49,13 +49,13 @@ Those can either be:
 
 ## RetroDECK Links
 
-- [RetroDECK: Website](https://retrodeck.net) 
-- [RetroDECK: Github](https://github.com/XargonWan/) 
-- [RetroDECK: Flathub](https://flathub.org/apps/net.retrodeck.retrodeck)
+- [Website: retrodeck.net](https://retrodeck.net) 
+- [Github: RetroDECK ](https://github.com/RetroDECK) 
+- [Flathub: net.retrodeck.retrodeck](https://flathub.org/apps/net.retrodeck.retrodeck)
 
 ---
 
 ## Service Status Links
 
-- [Github - Service Status](https://www.githubstatus.com/)
-- [Flathub - Service Status](https://status.flathub.org/)
+- [Github: Service Status](https://www.githubstatus.com/)
+- [Flathub: Service Status](https://status.flathub.org/)

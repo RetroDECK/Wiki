@@ -68,19 +68,19 @@ nav:
 
   - Blog:
     - blog/index.md
-  - What is RetroDECK? ❔: wiki_about/what-is-retrodeck.md
-  - What is the story & goals behind RetroDECK?: wiki_about/story-goals.md
-  - Systems included in RetroDECK 📦: wiki_about/what-is-included.md
-  - Start using RetroDECK 🏎️: wiki_general/retrodeck-start.md
-  - Add RetroDECK to Steam: wiki_general/add-to-steam.md
-  - Supported Devices 📺: wiki_general/supported-devices.md
-  - Supported Controllers 🕹️: wiki_general/supported-controllers.md
-  - Change Controller Order: wiki_rd_controls/change-controller-order-steam.md
-  - Different Button Prompts in Games ❓: wiki_rd_controls/diffrent-game-inputs.md
-  - Version History 📁: wiki_rd_versions/version-history.md
-  - How to Contribute? ❤️: wiki_community/contibute-rd.md
-  - Bugs & Known Issues 🐜: wiki_bugs/known-issues.md
 
+  - Start using RetroDECK 🏎️: wiki_general/retrodeck-start.md
+
+  - About RetroDECK 📦:
+
+    - What is RetroDECK?: wiki_about/what-is-retrodeck.md
+    - What is the story & goals behind RetroDECK?: wiki_about/story-goals.md
+    - Systems included in RetroDECK: wiki_about/what-is-included.md
+    - Supported Devices & OS: wiki_general/supported-devices.md
+    - Supported Controllers: wiki_general/supported-controllers.md
+    - How to Contribute?: wiki_community/contibute-rd.md
+    - Bugs & Known Issues: wiki_bugs/known-issues.md
+    - Version History: wiki_rd_versions/version-history.md
 
   - FAQ ❔:
 
@@ -92,6 +92,8 @@ nav:
   - Guides - RetroDECK Controls & Hotkeys 🎮:
 
     - RetroDECK & Udev Rules: wiki_rd_controls/about-udev.md
+    - Different Button Prompts in Games: wiki_rd_controls/diffrent-game-inputs.md
+    - Change Controller Order: wiki_rd_controls/change-controller-order-steam.md
     - Generic Standard - Hotkeys & Layout: wiki_rd_controls/hotkeys-generic-standard.md
     - Nintendo - Hotkeys & Layout: wiki_rd_controls/hotkeys-nintendo.md
     - Playstation - Hotkeys & Layout: wiki_rd_controls/hotkeys-playstation.md
@@ -108,6 +110,7 @@ nav:
 
   - Guides - Files & Game Management 📂:
 
+    - Add RetroDECK to Steam: wiki_general/add-to-steam.md
     - Game Compability Lists: wiki_management/compatibility-lists.md
     - Manage your BIOS/Firmware: wiki_management/bios-firmware.md
     - Manage your Multidisk/file games: wiki_management/multi-disk.md

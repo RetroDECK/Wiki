@@ -12,12 +12,12 @@ Before you start, make sure you have:
 - On the Steam Deck, this guide needs to be done in Desktop Mode until step 4.
 
 ## Step 1: Installation & Configuration
-`ES-DE Configurations` 
-### Steam Deck - Installation
+
+**Steam Deck - Installation**
 
 Follow the guide: [Steam Deck - Installation and Updates](../wiki_devices/steamdeck/steamdeck-start.md)
 
-### Linux Desktop - Installation
+**Linux Desktop - Installation**
 
 Follow the guide: [Linux Desktop - Installation and Updates](../wiki_devices/linux_desktop/linux-install.md)
 

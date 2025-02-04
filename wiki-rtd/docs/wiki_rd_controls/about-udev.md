@@ -1,8 +1,8 @@
 # About udev
 
-udev is a device manager for the Linux kernel that gives the system access to various running hardware via device `.rules` files also known as `udev rules`.
+udev is a device manager for the Linux kernel. It helps the system interact with different hardware devices using special files called udev rules.
 
-udev rules are used to allow and manage the access to a specific devices, so without a proper udev rule some devices such as custom controller could not be used by RetroDECK nor by Steam or any other part of the system.
+These udev rules manage access to specific devices. Without the right udev rule, some devices, like custom controllers, might not work with RetroDECK, Steam, or other parts of the system.
 
 Read more on:
 
@@ -10,25 +10,24 @@ Read more on:
 - [Arch Wiki](https://wiki.archlinux.org/title/udev)
 - [Wikipedia](https://en.wikipedia.org/wiki/Udev)
 
-## Important directories
+## Folder Structure
 
-### /lib/udev/rules.d/
-This directory contains the default `.rules file` shipped by your system. <br>
-They should not be edited.
 
-### /etc/udev/rules.d/ or /run/udev/rules.d (depending on the system)
-This directory contains custom `.rules file` additions to those shipped in `/lib/udev/rules.d/` and the administrator can add more rules into this directory.
+| Folder                     |      Comment     | 
+|  :---:  |                  |      :---:     |
+| `lib/udev/rules.d/` | This directory contains the default `.rules` files provided by your system. These files should not be edited.                              |  
+|  `etc/udev/rules.d/` or `run/udev/rules.d`  |                  |      This directory contains custom `.rules` files added by the administrator. These files supplement those in `lib/udev/rules.d/`.    |
 
-If a  `.rules file` exist for the same device under `/lib/udev/rules.d/` and `/etc/udev/rules.d/` the `/etc` version will always take preset over the `lib` version.
+If a `.rules` file exists for the same device in both directories, the version in `/etc/udev/rules.d/` will take precedence over the one in `/lib/udev/rules.d/`.
 
 ## Example of a .rules file
 
-The content of a Merlin UTMS modem .rules file.
+Here is an example of a .rules file for a Merlin UTMS modem:
 ```
 ATTRS{prod_id2}=="Merlin UMTS Modem", ATTRS{prod_id1}=="Novatel Wireless", SYMLINK+="MerlinUMTS"
 ```
 
-A .rules file can also contain more the one devices example multiple 8Bitdo controllers:
+A .rules file can also contain multiple devices. For example, here are rules for two 8Bitdo controllers:
 ```
 # 8Bitdo F30 P1
 SUBSYSTEM=="input", ATTRS{name}=="8Bitdo FC30 GamePad", ENV{ID_INPUT_JOYSTICK}="1", TAG+="uaccess"
@@ -38,6 +37,7 @@ SUBSYSTEM=="input", ATTRS{name}=="8Bitdo FC30 II", ENV{ID_INPUT_JOYSTICK}="1", T
 ```
 
 ## Controller udev projects
+
 **Valve's - Steam Devices**
 
 [steam-devices github](https://github.com/ValveSoftware/steam-devices)

@@ -97,22 +97,29 @@ Do not keep DLC and Update files in: `retrodeck/roms/wiiu/`
 
 ## Pretendo Account for online play
 
-To create a Pretendo Network account use the following link: [Pretendo: Register Account](https://pretendo.network/account/register).
+To create a Pretendo Network account.
 
-Then follow the following link: [Pretendo: Install WiiU](https://pretendo.network/docs/install/wiiu) to log in with your Pretendo Network account on a Wii U.
+1. Use the provided link to register:
 
-- Existing NNID are not usable on Pretendo Network, you must create a Pretendo account for Pretendo Network.
+[Pretendo: Register Account](https://pretendo.network/account/register).
 
-Follow the [Cemu: Online Play Guide](https://cemu.cfw.guide/online-play.html) to generate and dump the required user files for your Pretendo Account.
+2. Then, follow the instructions to log in with your Pretendo Network account on a Wii U.
+
+[Pretendo: Install WiiU](https://pretendo.network/docs/install/wiiu) 
+
+- Note: Existing NNIDs are not usable on Pretendo Network, so you must create a Pretendo account.
+
+3. Follow the guide to generate and dump the required user files for your Pretendo Account: 
+
+[Cemu: Online Play Guide](https://cemu.cfw.guide/online-play.html) 
 
 **RetroDECK specific file locations:**
 
 -  Wii U User Account’s `usr` and `sys` folders
-    - Whatever `MLC Path` in `Options` -> `General settings` is configured to
-    - by default it’s `retrodeck/bios/cemu`
+    - Located in the `MLC Path` configured in `RetroDECK Configurator` -> `Open Cemu` -> `Options` -> `General settings`  (default: `retrodeck/bios/cemu`) 
   
-- `otp.bin` and `seeprom.bin`
-    - `~/.var/app/org.retrodeck.retrodeck/data/Cemu` 
+- `otp.bin` and `seeprom.bin`:
+    - Located at `~/.var/app/org.retrodeck.retrodeck/data/Cemu`.
 
 ## Known issues
     

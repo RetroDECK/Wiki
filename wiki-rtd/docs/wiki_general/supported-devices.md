@@ -1,6 +1,6 @@
 # What devices and OS does RetroDECK currently support?
 
-RetroDECK currently only works on x86_64 architecture.
+RetroDECK supports x86_64 architecture.
 
 ## Steam Deck
 
@@ -8,61 +8,50 @@ RetroDECK was built for the Steam Deck in mind and started as a project towards 
 
 ## Linux Desktop
 
-It works, but RetroDECK is still reliant on Steam Input for advanced hotkeys. 
+RetroDECK works on Linux desktops but relies on Steam Input for advanced hotkeys. For the best experience, use a distribution with built-in Game Mode like SteamOS, Bazzite, or ChimeraOS and more.
 
-For the best experience we recommend a distribution that has built in Game Mode like Valves SteamOS, Bazzite, ChimeraOS and so forth. 
-
-Game Mode fixes several Steam issues that are present in standard Linux Desktop such as the radials are rendered correctly on screen. 
 
 ## Other x86_64 Linux Handhelds / Devices
 
-Our community is highly creative and likes putting RetroDECK on new devices. 
+Our community is highly creative and likes putting RetroDECK on new devices.
 
-Many devices are emulating a Playstation, Steam Deck or Xbox controller this it should work out of the box and be able to hook into that corresponding Steam Input Layout. 
-
-If it does not show up as any known input, The RetroDECK Team might not have been able to create a input profile for a new device as it needs to be bought by the team to add it. 
-
-If you own a device that has custom inputs and want to create a Steam Input profile for it, please get it touch with the Team and so we can ship it in a later update.
+RetroDECK can work on various devices emulating PlayStation, Steam Deck, or Xbox controllers in Steam Input. If a device has custom inputs, contact the RetroDECK Team to help us create a Steam Input profile.
 
 ### Installing Linux & RetroDECK on x86_64 Windows Handelds
 
-We have user confirmation that RetroDECK does work on the other handhelds that was released with Windows.
+RetroDECK has been confirmed to work on handhelds released with Windows initially.
 
 ## FAQ Devices / OS
 
 ### Will you support Windows?
 
-No, RetroDECK doesn't support Windows currently.
+No, RetroDECK doesn't support Windows currently. 
 
-As an alternative you could try [RetroBat](https://www.retrobat.org/) that offers similar functionality in a Windows environment.
-How ever if you install a Linux distribution on your device instead you can try out RetroDECK.
+You can try [RetroBat](https://www.retrobat.org/) for similar functionality on Windows.
 
-ES-DE does support the Windows as does the emulators, but it is a vastly different landscape.
-
-It would be a major undertaking but maybe one day in the future it could be possible.
-
-We would also need more developers with Windows experience to help us with this effort.
+Alternatively, you can install a Linux distribution on your device to use RetroDECK. Supporting Windows would be a major undertaking and would require more developers with Windows experience.
 
 ### Will you support ARM devices like iOS, MacOS and Android?
 
-No, RetroDECK doesn't support ARM devices currently.
+No, RetroDECK doesn't support ARM devices currently. 
 
-It would be a major undertaking but maybe one day in the future it could be possible.
+The underlying systems would need to be rewritten due to different emulators and licensing models,
+especially on Android where some emulators are open source on x86_64 but closed source on ARM.
 
-We would also need more developers with ARM experience to help us with this effort.
-
-But it would need to be a unique experience as the emulators, other underlying systems would not be the same and would need to be rewritten from the ground up.
-
-It is a vastly different landscape with other licensing models for several of the emulators/systems specially on Android where the X86_64 binary is FOSS while the Android version is closed source.
+Supporting ARM devices would be a major undertaking and would require more developers with ARM experience.
 
 ### Will you support RISC-V?
 
-The idea of a widely accepted open-source architecture is exiting at least. It would be a major undertaking but one day in the far-off future it could be possible as the platform matures and more systems gets compatibility.
+The idea of supporting RISC-V is exciting, but it as everything else would be a major undertaking.
+
+It might be possible in the far-off future as the platform matures and gains more compatibility.
+
+But supporting RISC-V devices would be a major undertaking and would require more developers with RISC-V experience.
 
 ### Will you support other Linux distribution methods such as Snap or AppImage?
 
-It's not in our roadmap yet as now the entire buildsystem is based on the flatpak-build that builds the software via the flatpak manifest.
-In the past we evaluated to migrate to **Buildstream** (or similar solutions) and build on to multiple output formats.
+It's not in our roadmap yet. Currently, the entire build system is based on flatpak-build. 
 
-But the team is not large enough to migrate and maintain other distribution methods, so we prefer to focus our effort on Flatpak only.
-If someone with knowledge and passion wishes to help us with migrating to a solution and help us maintain it, we are open for a discussion.
+The team is not large enough to migrate and maintain other distribution methods. 
+
+However, if someone with knowledge and passion wishes to help with migrating and maintaining it, we are open to discussion.

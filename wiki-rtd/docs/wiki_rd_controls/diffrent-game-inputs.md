@@ -1,13 +1,13 @@
 # Different button prompts in games
 
-Depending on what system you are playing the button prompt inputs might not correspond to the one you have on your physical controller or device you have in your hand.
+Depending on the system you are playing, the button prompts might not match the buttons on your physical controller.
 
 ## Xbox Games
-The Xbox layout is used by `Xbox Controllers`.<br>
-Is also used by devices like the `Steam Deck` `Rog Alley`.<br>
-It is used by a lot of  `Genric` third party `PC controllers` and `Xbox Clone Controllers`.
 
-**Xbox - Button Layout:**<br>
+
+The Xbox layout is used by Xbox Controllers, Steam Deck, Rog Alley, and many generic third-party PC controllers and Xbox clone controllers.
+
+**Xbox - Button Layout:**
 
 | Button Placement  | Button |Name |
 | :---              | :---:  |:---: |
@@ -17,12 +17,13 @@ It is used by a lot of  `Genric` third party `PC controllers` and `Xbox Clone Co
 | South             |  <img src="../../wiki_icons/binding_icons/RD-button-a.png" width="30">   |A |
 
 
-**Example:**<br>
-So if you are emulating a Xbox game that calls for the button `B` to be pressed it corresponds to the right button.
+**Example:**
+
+If you are playing a Xbox game that calls for the button `B` to be pressed, it corresponds to the right button.
 
 ## Nintendo Games
-The Nintendo layout is used by `Nintendo Controllers`.<br>
-It  could also be used by other `Genric` third party `Nintendo Clone Controllers`.
+
+The Nintendo layout is used by Nintendo Controllers and other generic third-party Nintendo clone controllers.
 
 **Nintendo - Button Layout**<br>
 
@@ -34,12 +35,13 @@ It  could also be used by other `Genric` third party `Nintendo Clone Controllers
 | South             |  <img src="../../wiki_icons/binding_icons/RD-button-b.png" width="30">   |B |
 
 
-**Example:**<br>
-So if you are emulating a Nintendo game that calls for the button `A` to be pressed it corresponds to the right button.
+**Example:** 
 
-## Sony PlayStation Games
-The Playstation layout is used by `Playstation Controllers`. <br>
-It could also be used by other `Genric` third party `Playstation Clone Controllers`.
+If you are playing a Nintendo game that calls for the button `A` to be pressed, it corresponds to the right button.
+
+## PlayStation Games
+
+The PlayStation layout is used by PlayStation Controllers and other generic third-party PlayStation clone controllers.
 
 **Playstation - Button Layout**<br>
 
@@ -50,17 +52,13 @@ It could also be used by other `Genric` third party `Playstation Clone Controlle
 | East              |  <img src="../../wiki_icons/playstation/playstation-circle.png" width="20">   |Circle |
 | South             |  <img src="../../wiki_icons/playstation/playstation-cross.png" width="20">    |Cross |
 
-**Example:**
+**Example:** 
 
-If you are emulating a PlayStation game that calls for the button `Square` to be pressed it corresponds to the left button.
+If you are emulating a PlayStation game that calls for the button `Circle` to be pressed, it corresponds to the right button.
 
 **Regional differences:**
 
+Depending on the region of your PlayStation game, the buttons `Circle` and `Cross` switch the meaning for confirm and cancel, but they remain in the same physical location. 
 
-In games from the EU/US `Cross` is confirm while in Japan `Cross` is cancel:
-
-Depending on the region of your Playstation game, the buttons `Circle` and `Cross` switches the meaning for confirm and cancel (they are still at the same physical location).
-
-But it is good to keep in mind if you are used to exiting out of menus with a certain button and wondering why it works in some games while others not.
-
+Keep this in mind if you are used to exiting menus with a certain button and it works differently in some games.
 

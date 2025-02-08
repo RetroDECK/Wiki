@@ -2377,3 +2377,9 @@ The order is:
 
 </p>
     </details>
+
+### Can I help update the List?
+
+Yes, you can help update the list by submitting pull requests on our GitHub. Follow the same structure to add more BIOS or correct any mistakes.
+
+[RetroDECK Cooker - bios.json](https://github.com/RetroDECK/RetroDECK/blob/cooker/config/retrodeck/reference_lists/bios.json)

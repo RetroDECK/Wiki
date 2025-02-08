@@ -8,7 +8,7 @@ Some emulators require BIOS and Firmware files to work correctly or at all. Gene
 
 ### Check the Wiki Guides for Instructions
 
-Each system, engine, or emulator guide on this wiki has detailed instructions on how to install BIOS and firmware for that specific emulator.
+Each system, engine, or emulator guide on this wiki has detailed instructions on how to install BIOS and firmware for that specific system.
 
 ## RetroDECK BIOS Checker list
 
@@ -16,7 +16,7 @@ This list includes all BIOS that the Configurator looks for, taken from the BIOS
 
 The order is:
 
-- <BIOS Name>: The name of the file. 
+- BIOS Name: The name of the file. 
 - md5: MD5 Hash
 - system: The system that is supported.
 - description: Describes what it is.

@@ -2,7 +2,7 @@
 
 <img src="../../wiki_icons/pixelitos/folder-blue-sync.png" width="50">
 
-### Information on moving RetroDECK
+## Information on moving RetroDECK
 
 RetroDECK mainly contains two folders:
 
@@ -40,7 +40,7 @@ No first setup is needed. Just move and play, and all custom emulator settings y
 
 - Ensure your old device is running the latest version of RetroDECK and has been started at least once.
 - If your device has a battery (like a Steam Deck or Laptop), make sure it has enough charge to complete the file transfer. It's best to stay plugged in to avoid data loss. (If your old device is broken but you can still access the data, you can skip this step.)
-- If you're using a new SD Card, it's always a requirement to format it before use.
+- If you're using a new SD Card, you must reformat it to EXT4 before the first use.
 
 ## The Ultra Quickguide
 

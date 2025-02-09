@@ -1,90 +1,59 @@
-# Spreading Files over multiple drivers
+# Spreading Files over Multiple Drives
 
 <img src="../../wiki_icons/pixelitos/drive-harddisk.png" width="50">
 
-## About Symbolic Links
+## Information about Symbolic Links
 
-Spreading files over other:
+To spread files over different drives (internal, external, NAS, etc.), you can use Symbolic Links. 
 
-- Internal drives
-- External drives
-- NAS
-- Other
+These links act as if the file is in the place you are linking to, and the software will interpret it as such.
 
-Can be done with `Symbolic Links`.
+**Warnings and Recommendations**
 
-For more technical details - read more about [Symbolic Links on Wikipedia](https://en.wikipedia.org/wiki/Symbolic_link)
+- Do not have RetroDECK open while creating the `Symbolic Links` as the games are loaded on launch. Close RetroDECK before making changes to your `Symbolic Links`, then relaunch it.
+- Never unplug/disconnect the drive while RetroDECK is running if you have added a `Symbolic Links`.
+- Create a folder for each system on the drive you want to add to RetroDECK, so you don't need to create a `Symbolic Links` for each game.
+- Name the folders clearly to understand which drive they are coming from.
+- Each folder added will be interpreted as a subfolder within RetroDECK's ES-DE interface under the system you have added the `Symbolic Links` to.
+- You can also link other files this way, such as individual games instead of folders or save files, etc.
 
-If you are used to a Windows environment `Symbolic Links` are NOT the same as  `Windows Shortcuts`.
+## Guide - Creating Symbolic Linked Folders
 
-A `Symbolic Link` act as the file was in the place you are linking to and the software will interpret it as such.
+**Example Wii Games**
 
-We later plan to add tools for this in the `RetroDECK Configurator` to make it even easier.
+You have several backups of Wii games you want to add to `~/retrodeck/roms/wii/`. 
 
-### 🛑 Symbolic Link: Warnings 🛑
+These backups are on an external drive called `2nddrive` in a folder called `wii games`.
 
-- You should not have RetroDECK open while creating the `Symbolic Links` as the games are loaded on launch.
-- When you have successfully added a `Symbolic Link` to RetroDECK and got it working, remember to never unplug / disconnect the drive while RetroDECK is running.
-- If you are making changes to your `Symbolic Links` you must close down RetroDECK, make the changes and then relaunch it.
-
-### Other recommendations
-
-On the drive you want to add to RetroDECK. it is recommended to create a folder or folders games per system, so you don't need to create `Symbolic Link` for each game. But rather just make a link to the folder.
-
-If you want to spread games for one system over a multiple of drivers with `Symbolic Links` you can do so, but naming the folders so you understand what drive they are coming from could be a good recommendation.
-
-Each folder added will then be interpreted as a subfolder within RetroDECK's ES-DE interface under the system you have added the `Symbolic Link` to.
-
-#### Steam Deck - Desktop Mode
-
-If you are on a Steam Deck, this needs to be done in `Desktop Mode`.
-
-## Creating Symbolic Links: Example Wii Games
-
-This example will be written from the standpoint of the KDE Desktop environment used by SteamOS and many others systems. If you are on Gnome/XFCE or any other desktop environment the procedure should be similar else consult your desktop environment website.
-
-**Example problem:**
-
-You have several backups of Wii games you want to add to `~/retrodeck/roms/wii/`.
-
-Let's say that those backups are on an external called `2nddrive` drive in in a folder called `wii games`.
-
-So the path when you go into the folder from the Desktop GUI could be (in this example):
-
-`/var/mnt/2nddrive/wii games`
+The full path to `2nddrive` is `/var/mnt/2nddrive/wii games`.
 
 
 ### Creating from the GUI
 
-1. Go into your `~/retrodeck/roms/wii/` folder.
-2. `Right Click` on an empty space and press `Create New` - `Link to file or folder`.
-3. Press the open file browser button.
-4. Press `Folder`.
-5. Navigate to the `/var/mnt/2nddrive/wii games` folder (or where ever you store the games).
-6. Highlight the `wii games` folder and press OK.
+1. Go to `~/retrodeck/roms/wii/`.
+2. Right-click on an empty space and select `Create New` - `Link to file or folder`.
+3. Press the open file browser button and select `Folder`.
+4. Navigate to `/var/mnt/2nddrive/wii games` and highlight the wii games folder, then press OK.
 
-Now the Symbolic Link has been created and will show up in the ES-DE interface for RetroDECK.
+**Result** 
 
-When you navigate to wii game section the `wii games` folder should be accessible from the ES-DE menu as a subfolder with all the games.
+Now the Symbolic Link has been created and will show up in the ES-DE interface for RetroDECK. When you navigate to the Wii game section, the wii games folder should be accessible from the ES-DE menu as a subfolder with all the games.
 
-### Other files
+**Path:** `~/retrodeck/roms/wii/wii games`
 
-You can also link other files this way such as individual games instead of folders or save files etc...
+**Note:**
 
-## Advanced Usage: Replacing entire systems or functions with Symbolic Links
+If you have many games over several different drives, you can keep adding symbolic links and point them towards subfolders under the main folder.
+
+
+## Replacing Entire ROMS Systems Folders with Symbolic Links
 
 **Disclaimer: Not Recommended!**
 
-Do not do this unless you really really know what you are doing and this might be a hit or miss depending on your system.
+Do not do this unless you really know what you are doing, as upcoming updates to RetroDECK could cause link breakage. If you like to tinker and experiment, feel free to try it on your own.
 
-This is not something we recommend doing as upcoming updates to RetroDECK could cause link breakage.
+**What's the Use Case?**
 
-But if you like to tinker and experiment feel free to try it on your own.
+Instead of creating a link from `2nddrive` as a subfolder `/var/mnt/2nddrive/wii games` to `~/retrodeck/roms/wii/wii games`, you can replace the entire `~/retrodeck/roms/wii/` with the `2nddrive` and only store your Wii games on the second drive.
 
-### The usecase
-You could in theory delete a system folder lets say `~/retrodeck/roms/wii/` or even a `~/retrodeck/roms/saves/wii/` or `~/retrodeck/roms/states/wii/` or what ever folder or subfolder under `~/retrodeck/` and put is as a symbolic link to another place.
-
-**Example Wii:**
-
-Create a symbolic link from `~/retrodeck/roms/` to a folder on an external drive called `wii` and only have those games stored on an external drive permanently.
-
+Just create a symbolic link from `~/retrodeck/roms/` to a folder on an external drive called `wii` and point it towards `/var/mnt/2nddrive/wii games`. This way, you will have those games stored on an external drive permanently.

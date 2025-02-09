@@ -1,26 +1,16 @@
 # Steam Deck - Recommended Software
 
-The following software works great with the Steam Deck and might enhance your RetroDECK or general gaming experience.
+These software options work great with the Steam Deck and can enhance your RetroDECK or general gaming experience.
 
-### Tip: Linux Desktop - Recommended Software
-Also visit [Linux Desktop - Recommended Software](../linux_desktop/linux-software.md) as many of Linux recommendations also work on the Steam Deck.
+**Tip:**
 
-## Improvement software
-
-### CryoUtilities
-
-<img src="../../../wiki_images/logos/cryoutilities-logo.png" width="150">
-
-Scripts and utilities to improve performance and manage storage on the Steam Deck.
-
-[CryoUtilities Github](https://github.com/CryoByte33/steam-deck-utilities)
-
+Also visit [Linux Desktop - Recommended Software](../linux_desktop/linux-software.md) recommendations also work on the Steam Deck.
 
 ## Decky Loader
 
 <img src="../../../wiki_images/logos/decky-loader-logo.png" width="450">
 
-It is a great piece of software that allows custom plugins inside Steam Deck's gamemode. It can add more advanced features than the standard Steam Deck experience offers. But it is a bit more technical to install, please follow the guide on their github.
+Allows custom plugins inside Steam Deck's gamemode for advanced features. Follow the guide on their GitHub for installation.
 
 [Decky Loader Github](https://github.com/SteamDeckHomebrew/decky-loader)
 
@@ -29,35 +19,43 @@ It is a great piece of software that allows custom plugins inside Steam Deck's g
 
 <img src="../../../wiki_images/logos/powertools-logo.png" width="150">
 
-PowerTools lets you do advanced tweaking of the Steam Decks hardware. This can improve performance on certain games in the PS2, GC and above generations.
+Lets you tweak Steam Deck's hardware for better performance on certain games.
 
-[PowerTools Git](https://git.ngni.us/NG-SD-Plugins/PowerTools)
+[PowerTools](https://git.ngni.us/NG-SD-Plugins/PowerTools)
 
 
 ### Plugin: AutoFlatpaks
 
-AutoFlatpaks lets you update/install/manage flatpaks directly from gamemode. You can for example update RetroDECK directly from gamemode.
+Update/install/manage flatpaks directly from gamemode, including RetroDECK.
 
-[AutoFlatpaks Github](https://github.com/jurassicplayer/decky-autoflatpaks)
+[AutoFlatpaks](https://github.com/jurassicplayer/decky-autoflatpaks)
 
+### Plugin: Decky SteamgridDB 
 
-## Other Software
+Browse and manage Steam artwork from SteamGridDB or local files within gaming mode.
 
-### Chiaki4deck
+[Decky SteamgridDB](https://github.com/SteamGridDB/decky-steamgriddb)
+
+## CryoUtilities
+
+<img src="../../../wiki_images/logos/cryoutilities-logo.png" width="150">
+
+A utility to improve performance and help manage storage on Steam Deck. 
+
+[CryoUtilities Github](https://github.com/CryoByte33/steam-deck-utilities)
+
+## Chiaki4deck
 
 <img src="../../../wiki_images/logos/chiaki4deck-logo.png" width="150">
 
-Chiaki4deck is a fork of Chiaki, adding features for the Steam Deck. <br>
-It is a free and Open-Source Client for PlayStation 4 and PlayStation 5 Remote Play. <br>
-It can be used to play in real time on a PlayStation if there is a network connection.
+A fork of Chiaki for Steam Deck, allowing PlayStation 4 and 5 Remote Play.
 
 [Chiaki4deck Flathub](https://flathub.org/apps/io.github.streetpea.Chiaki4deck)
 
-### Discover Overlay
+## Discover Overlay
 
 <img src="../../../wiki_images/logos/discover-overlay-logo.svg" width="150">
 
-If you use Discord this is a program that adds Discord integration into the Steam Deck's gamemode UI.
-It is already on Flathub and downloadable in Discover. Note that you need to install and login to Discord as well.
+Adds Discord integration into Steam Deck's gamemode UI.
 
 [Discover Overlay Flathub](https://flathub.org/apps/io.github.trigg.discover_overlay)

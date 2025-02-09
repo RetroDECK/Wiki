@@ -2,33 +2,29 @@
 
 <img src="../../wiki_icons/retrodeck/rd_icon_circle_192x192.png">
 
-## Will you implement X/Y/Z emulator?
+## Will you implement X/Y/Z system?
 
-Our goal is to implement and configure a selection of the best emulators for each system supported by ES-DE. If your favorite system is not integrated, you can request its integration by opening an issue on GitHub.
-
-## Will you implement other software (that is not emulators and engines) inside of RetroDECK like Batocera?
-
-We do have plans for a ports downloader / manager in the future.
+Our goal is to implement and configure the best version, for each system supported by ES-DE. If your favorite system is not integrated, you can request its integration by opening an issue on GitHub. There are already several suggestions [RetroDECK Github - New Components](https://github.com/RetroDECK/RetroDECK/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22New%20Component%20%F0%9F%92%BE%22)
 
 ## I have an innovative idea on a new feature, how do I suggest it?
 
-Check if the request already exists in the issue list on GitHub, if not you can make a new issue and suggest it.
-If you want to discuss before submitting feel free to post your ideas in our Discord community.
+Check if the request already exists in the issue list on GitHub. 
 
-## Will you add Windows versions of the emulators as well and run them via Wine/Proton?
+If not, you can create a new issue and suggest it. 
 
-We know that some emulators like CEMU run better with the Windows version via Proton, but the entirety of Proton/Wine and DXVK must be added to the project and then configured to get it to work at all.
-This is no easy feat, and most emulators are better and equally performant as their Windows counterparts with the Linux versions.
+You can also discuss your ideas in our community before submitting.
 
-There are no plans currently to support this and it also comes with a lot of risk adding such big dependencies as Wine into the project.
+## Will you add Windows versions of the emulators and run them via Wine/Proton?
 
-## Will you implement Cloud Sync / Backup?
+Currently, there are no plans to support this.
 
-Yes, that is the plan in a future update. We will not do our own infrastructure but allow users to their own services via easy built-in tools in the Configurator.
+## Will you implement Cloud Sync/Backup?
 
-### What can I use now while we wait for Cloud Sync / Backup?
+Yes, that is planned for a future update. We will allow users to use their own services via easy built-in tools in the Configurator.
 
-There exist several open-source options, here is a few of them:
+### What can I use now while waiting for Cloud Sync/Backup?
+
+Here are some open-source options:
 
 - [Rsync](https://linux.die.net/man/1/rsync)
 

@@ -84,7 +84,7 @@ We are working on implementing all these features over the big releases. Some wi
 
 [Version History](../wiki_rd_versions/version-history.md)
 
-[Known Issues](../wiki_bugs/known-issues.md)
+[Known Issues](../wiki_general/known-issues.md)
 
 ### The FAQ & Guides ❔
 

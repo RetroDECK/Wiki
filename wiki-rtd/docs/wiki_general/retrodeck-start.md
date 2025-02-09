@@ -14,7 +14,7 @@ Before you start, make sure you have:
 
 **Steam Deck - Installation**
 
-Most of the initial setup needs to be done in Desktop Mode.
+Most of the initial setup needs to be done in `Desktop Mode`.
 
 Follow the guide: [Steam Deck - Installation](../wiki_devices/steamdeck/steamdeck-start.md)
 
@@ -24,7 +24,7 @@ Follow the guide: [Linux Desktop - Installation](../wiki_devices/linux_desktop/l
 
 ## Step 2: Place BIOS & Firmware
 
-Read up on: [Manage your BIOS/Firmware](../wiki_management/bios-firmware.md)
+Read up on: [BIOS/Firmware](../wiki_management/bios-firmware.md)
 
 Place BIOS & Firmware files in the `~/retrodeck/bios/` directory.
 

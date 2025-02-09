@@ -9,11 +9,12 @@ Before you start, make sure you have:
 - A device to install RetroDECK on.
 - Related BIOS & Firmware ready.
 - Game backups of various formats or purchased titles ready to play.
-- On the Steam Deck, this guide needs to be done in Desktop Mode until step 4.
 
 ## Step 1: Installation & Configuration
 
 **Steam Deck - Installation**
+
+Most of the initial setup needs to be done in Desktop Mode.
 
 Follow the guide: [Steam Deck - Installation and Updates](../wiki_devices/steamdeck/steamdeck-start.md)
 
@@ -48,7 +49,7 @@ Start RetroDECK via Steam or by itself. The systems you placed ROM files for sho
 The NES category should now be shown in the ES-DE Frontend with `ExampleNESGame.nes` from `Step 3`.
 
 
-## Step 5: Making the Games "Pretty" with Videos, Images, and Art
+## Step 5: Making the Games and Interface "Pretty" with Videos, Images, and Art
 
 Do the following:
 

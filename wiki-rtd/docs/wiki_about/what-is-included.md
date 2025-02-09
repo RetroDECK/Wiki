@@ -186,7 +186,7 @@ PortMaster is a simple GUI tool designed to facilitate the downloading and insta
 
 ### Steam Rom Manger
 
-<img src="../../../wiki_images/logos/srm-logo.png" width="150">
+<img src="../../wiki_images/logos/srm-logo.png" width="150">
 
 Steam ROM Manager a bulk game importer and artwork manager for Steam.
 

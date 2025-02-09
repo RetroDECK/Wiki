@@ -1,6 +1,6 @@
 # How-to: Install RetroDECK on the Linux Desktop
 
-<img src="../../../wiki_images/logos/linux-tux-logo.svg" width="150">
+<img src="../../../wiki_images/logos/linux-tux-logo.svg" width="75">
 
 ## Prerequisites
 

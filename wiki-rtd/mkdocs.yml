@@ -74,7 +74,7 @@ nav:
   - About RetroDECK 📦:
 
     - What is RetroDECK?: wiki_about/what-is-retrodeck.md
-    - What is the story behind RetroDECK?: wiki_about/story-goals.md
+    - What is the Story Behind RetroDECK?: wiki_about/story-goals.md
     - Systems included in RetroDECK: wiki_about/what-is-included.md
     - Supported Devices & OS: wiki_general/supported-devices.md
     - Supported Controllers: wiki_general/supported-controllers.md
@@ -115,7 +115,7 @@ nav:
   - Guides - Files & Game Management 📂:
 
     - BIOS/Firmware: wiki_management/bios-firmware.md
-    - Multidisk/file games: wiki_management/multi-disk.md
+    - Multidisk/file Games: wiki_management/multi-disk.md
     - Spreading Files over Multiple Drives: wiki_management/spread-files.md
 
   - Guides - Steam Deck 🕹️:

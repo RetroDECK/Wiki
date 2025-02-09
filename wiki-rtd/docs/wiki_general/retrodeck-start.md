@@ -73,7 +73,7 @@ Launch RetroDECK via Steam or by itself. The systems you placed ROM files for sh
 
 The NES category should now be shown in the ES-DE Frontend with `ExampleNESGame.nes` from `Step 3`.
 
-### The Optional Step: Be Part of the Community & Explore
+### The Optional Step: Explore & Be Part of the Community 
 
 <img src="../../wiki_icons/pixelitos/distributor-logo-knoppix.png" width="50">
 

@@ -152,7 +152,7 @@ Playstation 1 (PSX) emulator Duckstation.
 
 Has made licensing changes.
 
-## Supported: Standalone Engines
+## Standalone Engines
 
 ### Solarus
 
@@ -178,7 +178,7 @@ IKEMEN Go is a remake of the IKEMEN (open source fighting games engine that supp
 
 The fantasy console Pico-8.
 
-## Other Systems
+## Systems
 
 ### PortMaster
 

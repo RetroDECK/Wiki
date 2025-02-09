@@ -19,6 +19,10 @@ These links act as if the file is in the place you are linking to, and the softw
 
 ## Guide - Creating Symbolic Linked Folders
 
+**Note:**
+
+If you have many games over several different drives, you can keep adding symbolic links and point them towards subfolders under the main folder.
+
 **Example Wii Games**
 
 You have several backups of Wii games you want to add to `~/retrodeck/roms/wii/`. 
@@ -40,11 +44,6 @@ The full path to `2nddrive` is `/var/mnt/2nddrive/wii games`.
 Now the Symbolic Link has been created and will show up in the ES-DE interface for RetroDECK. When you navigate to the Wii game section, the wii games folder should be accessible from the ES-DE menu as a subfolder with all the games.
 
 **Path:** `~/retrodeck/roms/wii/wii games`
-
-**Note:**
-
-If you have many games over several different drives, you can keep adding symbolic links and point them towards subfolders under the main folder.
-
 
 ## Replacing Entire ROMS Systems Folders with Symbolic Links
 

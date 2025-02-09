@@ -10,7 +10,7 @@ Depending on what language you have set in `Desktop Mode`, things might be named
 
 - Switch to `Desktop Mode`: Press the `Steam button` -> `Power` -> `Switch to Desktop`
 - Install RetroDECK: Open the Discover application and search for RetroDECK. Press the install button.
-- First-Time Setup: Launch RetroDECK from Discover or the KDE program menu under `Games` -> `RetroDECK`.
+- First-Time Setup: Launch RetroDECK from Discover or the KDE program menu under Games -> RetroDECK.
 - Choose where to create the main folder `retrodeck/`: `Internal Storage`, `SD Card` or `Custom Location`.
 - Install Steam Controller Templates: During installation, choose to install Steam Controller Templates for RetroDECK (this should be checked by default).
 - Add RetroDECK to Steam Library: In Steam desktop, go to the `Games` tab, press `Add non-Steam game to My library`, and select RetroDECK. If that doesn't work, right-click on the RetroDECK desktop icon and press `Add to Steam`.

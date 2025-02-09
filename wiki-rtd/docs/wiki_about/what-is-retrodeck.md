@@ -78,9 +78,16 @@ We are working on implementing all these features over the big releases. Some wi
 - Better art: Mascot, Easter Eggs, Logos.
 - A multi-user system with user profiles.
 
-## Wiki Links for more information
+##  What are you working on right now?
 
-[What are you working on?](../wiki_development/general/what-are-you-working.on.md)
+To get the latest updates first:
+
+- Be a member of the [Discord](https://discord.gg/WDc5C9YWMx) or [Matrix](https://matrix.to/#/#retrodeck:matrix.org). Most of the community is on Discord. 
+- Follow `The RetroDECK Blog 📝` on this wiki.
+- We also sometimes post news on [Lemmy](https://lemmy.zip/c/retrodeck) / [Reddit](https://www.reddit.com/r/retrodeck).
+- Look at [Github issues](https://github.com/XargonWan/RetroDECK/issues/) for clues.
+
+## Wiki Links for more information
 
 [Version History](../wiki_rd_versions/version-history.md)
 

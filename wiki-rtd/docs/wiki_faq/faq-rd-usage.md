@@ -16,7 +16,7 @@ Always use in-game saves and treat the states as a compliment to the main save. 
 
 No, partitioning or formatting is not needed at all. RetroDECK (differently from AmberELEC, Batocera and others) comes as a flatpak. Just install it as any other application and launch it from your desktop and/or Steam library.
 
-## Where is RetroDECK installed?
+## Where is RetroDECK installed? 
 
 There are two primary folders:
 
@@ -57,7 +57,7 @@ Read more on: [RetroDECK Configurator 🛠️](../wiki_system_guides/configurato
 On the Steam Deck first put itinto Desktop Mode `Steam button`  `Power`  `Switch to Desktop`
 
 * Go into Discover or you software manager.
-
+ 
 * Press the `Installed` tab and find RetroDECK
 
 * Press the `Uninstall` button

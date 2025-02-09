@@ -42,7 +42,7 @@ It can help with:
 
 **Read more here:**
 
-[RetroDECK Configurator](../wiki_configurator/configurator.md).
+[RetroDECK Configurator](../wiki_system_guides/configurator/configurator.md).
 
 ## ES-DE Frontend
 

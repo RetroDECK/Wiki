@@ -44,13 +44,15 @@ It can help with:
 
 [RetroDECK Configurator](../wiki_system_guides/configurator/configurator.md).
 
-## ES-DE Frontend
+## Frontends
+
+### ES-DE
 
 <img src="../../wiki_images/logos/es-de-logo.png" width="100">
 
 ES-DE is the base frontend for RetroDECK. RetroDECK includes specific tweaks to the ES-DE standard setup to enable unique functions like the `RetroDECK Configurator`, which can be accessed via the ES-DE Menu.
 
-## Included: Multi-Emulators
+## Multi-Emulators
 
 ### RetroArch
 
@@ -68,7 +70,7 @@ For a full list of supported systems in RetroArch, follow the link and check the
 
 The full version of the multi-arcade emulator MAME.
 
-## Included: Standalone Emulators
+## Standalone Emulators
 
 ### CEMU
 
@@ -176,11 +178,11 @@ IKEMEN Go is a remake of the IKEMEN (open source fighting games engine that supp
 
 The fantasy console Pico-8.
 
-## Supported: Other Systems
+## Other Systems
 
 ### PortMaster
 
-<img src="../../wiki_images/logos/portmaster-logo.png" width="200">
+<img src="../../wiki_images/logos/portmaster-logo.png" width="150">
 
 PortMaster is a simple GUI tool designed to facilitate the downloading and installation of game ports for Linux devices and is self contained.
 

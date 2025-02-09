@@ -4,53 +4,51 @@
 
 What follows is a list of features and software currently included in RetroDECK.
 
-NOTE THIS IS BEING UPDATED FOR AN UPCOMING UPDATE AND MIGHT NOT REFLECT CURRENT STABLE
+**Note: RetroDECK does not include any games, proprietary BIOS or Firmware** 
 
-### Note: RetroDECK does not include any games, proprietary BIOS or Firmware
+- The user needs to provide their own purchased backups / game files to play.
+- The user needs to provide their own purchased BIOS / Firmware files from their own consoles or purchased engines files (for example Pico-8) for the systems that needs them.
 
-The user needs to provide their own purchased backups / game files to play.
 
-The user needs to provide their own purchased BIOS / Firmware files from their own consoles or purchased engines files (for example Pico-8) for the systems that needs them.
-
-## The RetroDECK Framework
-
-RetroDECK adds the `RetroDECK Framework` on top of the software that allows deeper integrations between the built-in software and easier exposure to a variety of features that you otherwise need to set for example per emulator basis to create a uniformity between them.
-
-## The RetroDECK Configurator
+## RetroDECK Configurator & RetroDECK Framework
 
 <img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="100">
 
-Is a powerful Utility that can be used to change/modify and manipulate various aspects of RetroDECK.
+**The RetroDECK Framework**
 
-The `RetroDECK Configurator` is the `Utility` that exposes some parts of the `RetroDECK Framework` to the RetroDECK users.
+RetroDECK comes with the `RetroDECK Framework` that allows deeper integrations between the built-in software and easier exposure to a variety of features that you otherwise need to set for example per system basis to create a uniformity between them.
 
-**What can the RetroDECK Framework and by extent the RetroDECK Configurator do?**
+**The RetroDECK Configurator**
+
+The RetroDECK Configurator is a powerful `Utility` that exposes some parts of the `RetroDECK Framework` to the RetroDECK users.
+
+It can be used to change/modify and manipulate various aspects of RetroDECK.
+
+**What can RetroDECK Configurator & RetroDECK Framework do?**
 
 It can help with:
 
-- Compressing games
-- Easier `Texture Pack` and `Mod` management
-- File management
-- Tools for troubleshooting (BIOS Checker, Multi-File Structure Checker, Partial or full reset of functions)
-- Auto installing some free BIOSes
+- Compressing games.
+- Easier `Texture Pack` and `Mod` management.
+- File management.
+- Tools for troubleshooting (BIOS Checker, Multi-File Structure Checker, Partial or full reset of functions).
+- Auto installing some free BIOS / Firmware.
 - Install prebuilt Steam Input profiles for devices like the Steam Deck and external controllers
 - Easier management of `mods`, `roms`, `texture_packs`, `scraped media`, `screenshots`, `saves / states` `gamelists` and more
 - Give access to global presets that can be acitivated to configure things over many emulators in one go like: `RetroAchievements`
-  `Borders` `Widescreen Mode` `Swaping A/B X/Y for Nintendo Games`
+  `Borders` `Widescreen Mode` `Swaping A/B X/Y for Nintendo Games`.
+- Enable `Steam Sync` to synchronize your favorites with Steam.
 - And more!
 
 **Read more here:**
 
 [RetroDECK Configurator](../wiki_configurator/configurator.md).
 
-
 ## ES-DE Frontend
 
 <img src="../../wiki_images/logos/es-de-logo.png" width="100">
 
-ES-DE is the base frontend for RetroDECK.
-
-RetroDECK comes with specific tweaks to the ES-DE standard setup to enable RetroDECK unique functions like and `RetroDECK Configurator` that can be accessed via the ES-DE Main Menu.
+ES-DE is the base frontend for RetroDECK. RetroDECK includes specific tweaks to the ES-DE standard setup to enable unique functions like the `RetroDECK Configurator`, which can be accessed via the ES-DE Menu.
 
 ## Included: Multi-Emulators
 
@@ -58,9 +56,9 @@ RetroDECK comes with specific tweaks to the ES-DE standard setup to enable Retro
 
 <img src="../../wiki_images/logos/retroarch-logo.png" width="100">
 
-RetroArch supports many systems via it's cores and RetroDECK ships will all cores under the stable branch of RetroArch. If there is no stable version of a core the nightly version will be used instead.
+RetroArch supports many systems via its cores, and RetroDECK ships with all cores under the stable branch of RetroArch. If there is no stable version of a core, the nightly version will be used instead.
 
-For a full list of supported systems in RetroArch follow the link and check the `Core List`:
+For a full list of supported systems in RetroArch, follow the link and check the Core List:
 
 [RetroArch - General Guide](../wiki_emulator_guides/retroarch/retroarch-guide.md)
 

@@ -6,7 +6,7 @@
 
 1. Ensure you have flatpak support installed on your Linux desktop. Follow the official flatpak guides for your distribution: [Flatpak Setup Guide](https://flatpak.org/setup/).
 
-2.  Install the `steam-device` package for udev rules for various controllers (most gaming focused distribution have this already). Check your distribution's instructions for how to install it.
+2. Install the `steam-device` package for udev rules for various controllers (most gaming focused distribution have this already). Check your distribution's instructions for how to install it.
 
 3. It's recommended to add and launch RetroDECK from Steam to utilize the Steam Input feature for external controllers.
 
@@ -30,7 +30,7 @@ Run the following command:
 3. Put the BIOS files inside `retrodeck/bios/`.
 4. Put the ROMs & game files inside `retrodeck/roms/`.
 5. Choose to install Steam Controller Templates for RetroDECK (this should be checked by default) during installation.
-5. Add RetroDECK to Steam: [How-to: Add RetroDECK to Steam](../../wiki_general/add-to-steam.md).
+5. Add RetroDECK to Steam: [How-to: Add RetroDECK to Steam](../../wiki_management/add-to-steam.md).
 6. Enable controller support in Steam: [How-to: Enable Controllers in Steam ](../../wiki_general/supported-controllers.md).
 7. Connect your controller to your desktop.
 8. Navigate to RetroDECK in Steam

@@ -1,7 +1,6 @@
-# Reporting Issues and Known Issues
+# RetroDECK Bugs and Known Issues
 
-
-## How to Report?
+## How to Report a Problem?
 
 🛑 **Do not!** 🛑
 

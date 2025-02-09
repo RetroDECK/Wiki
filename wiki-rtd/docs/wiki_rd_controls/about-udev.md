@@ -1,5 +1,9 @@
 # About udev
 
+<img src="../../wiki_icons/pixelitos/utilities-tweak-tool.png" width="75">
+
+## Information 
+
 udev is a device manager for the Linux kernel. It helps the system interact with different hardware devices using special files called udev rules.
 
 These udev rules manage access to specific devices. Without the right udev rule, some devices, like custom controllers, might not work with RetroDECK, Steam, or other parts of the system.
@@ -61,7 +65,7 @@ The Batocera project has also combined a list of other controllers that might be
 
 ## RetroDECK and Udev
 
-Normally RetroDECK has the permissions to access all connected devices via --devices=all
+Normally RetroDECK has the permissions to access all connected devices via `--devices=all`
 
 ## Quick tips on udev installation
 

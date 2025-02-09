@@ -1,5 +1,9 @@
 # Different button prompts in games
 
+<img src="../../wiki_icons/pixelitos/game-input.png" width="75">
+
+## Information
+
 Depending on the system you are playing, the button prompts might not match the buttons on your physical controller.
 
 ## Xbox Games

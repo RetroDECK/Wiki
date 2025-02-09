@@ -10,52 +10,51 @@ Also visit [Linux Desktop - Recommended Software](../linux_desktop/linux-softwar
 
 <img src="../../../wiki_images/logos/decky-loader-logo.png" width="450">
 
+[Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader)
+
 Allows custom plugins inside Steam Deck's gamemode for advanced features. Follow the guide on their GitHub for installation.
-
-[Decky Loader Github](https://github.com/SteamDeckHomebrew/decky-loader)
-
 
 ### Plugin: PowerTools
 
 <img src="../../../wiki_images/logos/powertools-logo.png" width="150">
 
-Lets you tweak Steam Deck's hardware for better performance on certain games.
-
 [PowerTools](https://git.ngni.us/NG-SD-Plugins/PowerTools)
 
+Lets you tweak Steam Deck's hardware for better performance on certain games.
 
 ### Plugin: AutoFlatpaks
 
-Update/install/manage flatpaks directly from gamemode, including RetroDECK.
-
 [AutoFlatpaks](https://github.com/jurassicplayer/decky-autoflatpaks)
+
+Update/install/manage flatpaks directly from gamemode, including RetroDECK.
 
 ### Plugin: Decky SteamgridDB 
 
-Browse and manage Steam artwork from SteamGridDB or local files within gaming mode.
-
 [Decky SteamgridDB](https://github.com/SteamGridDB/decky-steamgriddb)
+
+Browse and manage Steam artwork from SteamGridDB or local files within gaming mode.
 
 ## CryoUtilities
 
 <img src="../../../wiki_images/logos/cryoutilities-logo.png" width="150">
 
-A utility to improve performance and help manage storage on Steam Deck. 
+[CryoUtilities](https://github.com/CryoByte33/steam-deck-utilities)
 
-[CryoUtilities Github](https://github.com/CryoByte33/steam-deck-utilities)
+A utility to improve performance and help manage storage on Steam Deck. 
 
 ## Chiaki4deck
 
 <img src="../../../wiki_images/logos/chiaki4deck-logo.png" width="150">
 
-A fork of Chiaki for Steam Deck, allowing PlayStation 4 and 5 Remote Play.
+[Chiaki4deck](https://flathub.org/apps/io.github.streetpea.Chiaki4deck)
 
-[Chiaki4deck Flathub](https://flathub.org/apps/io.github.streetpea.Chiaki4deck)
+A fork of Chiaki for Steam Deck, allowing PlayStation 4 and 5 Remote Play.
 
 ## Discover Overlay
 
 <img src="../../../wiki_images/logos/discover-overlay-logo.svg" width="150">
 
+[Discover Overlay](https://flathub.org/apps/io.github.trigg.discover_overlay)
+
 Adds Discord integration into Steam Deck's gamemode UI.
 
-[Discover Overlay Flathub](https://flathub.org/apps/io.github.trigg.discover_overlay)

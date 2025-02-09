@@ -202,6 +202,6 @@ This enables or disables the Steam Sync feature.
 
 Read more here: 
 
-[SRM Guide](../../../wiki_system_guides/srm/srm-guide.md) 
+[SRM Guide](../srm/srm-guide.md) 
 
 

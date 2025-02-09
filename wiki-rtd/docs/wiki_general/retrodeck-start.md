@@ -38,7 +38,7 @@ Place ROM files in their corresponding system directory inside the roms folder. 
 
 You have an example NES game called: `ExampleNESGame.nes`
 
-Place `ExampleNESGame.nes` in the `/retrodeck/roms/nes` folder.
+Place `ExampleNESGame.nes` in the `retrodeck/roms/nes` folder.
 
 ## Step 4: Read the ES-DE Frontend Guide
 

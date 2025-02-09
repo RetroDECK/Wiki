@@ -28,7 +28,7 @@ These backups are on an external drive called `2nddrive` in a folder called `wii
 The full path to `2nddrive` is `/var/mnt/2nddrive/wii games`.
 
 
-### Creating from the GUI
+### How-to: Creating the Links
 
 1. Go to `~/retrodeck/roms/wii/`.
 2. Right-click on an empty space and select `Create New` - `Link to file or folder`.

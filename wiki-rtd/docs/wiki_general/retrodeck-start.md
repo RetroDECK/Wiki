@@ -10,15 +10,15 @@ Before you start, make sure you have:
 - Related BIOS & Firmware ready.
 - Game backups of various formats or purchased titles ready to play.
 
-## Step 1: Installation & Configuration
+## Step 1: Installation
 
-**Steam Deck - Installation**
+### Steam Deck - Installation
 
 Most of the initial setup needs to be done in `Desktop Mode`.
 
 Follow the guide: [Steam Deck - Installation](../wiki_devices/steamdeck/steamdeck-start.md)
 
-**Linux Desktop - Installation**
+### Linux Desktop - Installation
 
 Follow the guide: [Linux Desktop - Installation](../wiki_devices/linux_desktop/linux-install.md)
 

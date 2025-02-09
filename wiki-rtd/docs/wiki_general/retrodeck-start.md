@@ -49,23 +49,25 @@ Start RetroDECK via Steam or by itself. The systems you placed ROM files for sho
 The NES category should now be shown in the ES-DE Frontend with `ExampleNESGame.nes` from `Step 3`.
 
 
-## Step 5: Making the Games and Interface "Pretty" with Videos, Images, and Art
+## Step 5: Making the Games and Interface "Pretty" 
 
-Do the following:
+You can enhance your experience by adding videos, images, manuals, and art to your games. ES-DE also offers several different themes to choose from.
 
-1. Make an account on [Screenscraper](https://www.screenscraper.fr/)
-2. Read up on scraping and the various settings in the [ES-DE User Guide](../wiki_system_guides/es-de/esde-guide.md).
-3. Log in to your Screenscraper account inside RetroDECK.
-4. Set up the scraping how you want it.
+### Scraping and Screenscraper
+
+1. Read the [ES-DE User Guide](../wiki_system_guides/es-de/esde-guide.md) on scraping.
+2. Create an account on [Screenscraper](https://www.screenscraper.fr/).
+3. Log in to your Screenscraper account inside RetroDECK `ES-DE Menu` -> `Scraper` -> `Account Settings`.
+4. Set up the scraping how you want it under `ES-DE Menu` -> `Scraper` -> `Content Settings`.
 5. Start scraping.
-6. Enjoy your nice, pretty games.
+6. Enjoy your nicely decorated games.
 
-**ES-DE Themes**
+### ES-DE Themes
 
-You can download more themes for ES-DE's frontend with the built-in theme downloader found in:
+You can download more themes for ES-DE's frontend with the built-in theme downloader:
 
 `ES-DE Configurations` -> `UI Settings` -> `Theme Downloader`
 
-Switch between them in:
+Switch between themes in:
 
 `ES-DE Configurations` -> `UI Settings` -> `Theme Set`

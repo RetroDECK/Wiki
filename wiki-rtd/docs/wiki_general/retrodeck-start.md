@@ -30,7 +30,7 @@ Follow the guide: [Linux Desktop - Installation](../wiki_devices/linux_desktop/l
 
 Read up on: [BIOS/Firmware](../wiki_management/bios-firmware.md)
 
-Place BIOS & Firmware files in the `~/retrodeck/bios/` directory.
+Place BIOS & Firmware files in the `retrodeck/bios/` directory.
 
 ## Step 3: Place ROMs and Games
 
@@ -51,6 +51,8 @@ You have an example NES game called: `ExampleNESGame.nes`
 
 <img src="../../wiki_images/logos/es-de-logo.png" width="55">
 
+ES-DE is the main user interface for RetroDECK.
+
 Read up on: [ES-DE Frontend: General Guide](../wiki_system_guides/es-de/esde-guide.md)
 
 ## Step 5: Playing the Games
@@ -62,3 +64,16 @@ Launch RetroDECK via Steam or by itself. The systems you placed ROM files for sh
 **Example:**
 
 The NES category should now be shown in the ES-DE Frontend with `ExampleNESGame.nes` from `Step 3`.
+
+## The Optional Step: Be Part of the Community
+
+The RetroDECK community is active and widespread.
+
+- You can find our social links on the start page of the wiki.
+- Read the Blog: Stay updated with development updates.
+- Explore the Wiki: Learn how to tweak certain systems.
+- Contribute: If you wish to contribute to the project, all the necessary information is available on the wiki.
+
+❤️ 
+
+// RetroDECK Team

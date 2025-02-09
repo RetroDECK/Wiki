@@ -108,7 +108,7 @@ Prism Launcher is a custom client for Minecraft Java that allows you to easily m
 
 <img src="../../../wiki_images/logos/greenlight-logo.png" width="150">
 
-[Greenlight](https://github.com/unknownskl/greenlight)
+[Greenlight](https://flathub.org/apps/io.github.unknownskl.greenlight)
 
 Greenlight is an open-source client for xCloud and Xbox home streaming made in Typescript.
 

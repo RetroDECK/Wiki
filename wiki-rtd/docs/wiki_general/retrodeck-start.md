@@ -67,13 +67,12 @@ The NES category should now be shown in the ES-DE Frontend with `ExampleNESGame.
 
 ## The Optional Step: Be Part of the Community
 
+<img src="../../wiki_icons/pixelitos/distributor-logo-knoppix.png" width="50">
+
 The RetroDECK community is active and widespread.
 
 - You can find our social links on the start page of the wiki.
-- Read the Blog: Stay updated with development updates.
+- Read the Blog: Stay updated with development updates by reading the blog, which is available on the wiki.
 - Explore the Wiki: Learn how to tweak certain systems.
 - Contribute: If you wish to contribute to the project, all the necessary information is available on the wiki.
 
-❤️ 
-
-// RetroDECK Team

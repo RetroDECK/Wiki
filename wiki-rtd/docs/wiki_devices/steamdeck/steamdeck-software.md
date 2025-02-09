@@ -42,13 +42,6 @@ Browse and manage Steam artwork from SteamGridDB or local files within gaming mo
 
 A utility to improve performance and help manage storage on Steam Deck. 
 
-## Chiaki4deck
-
-<img src="../../../wiki_images/logos/chiaki4deck-logo.png" width="150">
-
-[Chiaki4deck](https://flathub.org/apps/io.github.streetpea.Chiaki4deck)
-
-A fork of Chiaki for Steam Deck, allowing PlayStation 4 and 5 Remote Play.
 
 ## Discover Overlay
 

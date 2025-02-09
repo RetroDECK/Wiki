@@ -114,13 +114,13 @@ Greenlight is an open-source client for xCloud and Xbox home streaming made in T
 
 
 
-### Chiaki
+### Chiaki-NG
 
-<img src="../../../wiki_images/logos/chiaki-logo.png" width="150">
+<img src="../../../wiki_images/logos/chiaki-ng-logo.webp" width="150">
 
-[Chiaki](https://flathub.org/apps/re.chiaki.Chiaki)
+[Chiaki-NG](https://flathub.org/apps/io.github.streetpea.Chiaki4deck)
 
-Chiaki is a Free and Open-Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux and other systems.
+Chiaki-NG is a Free and Open-Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux and other systems.
 
 
 

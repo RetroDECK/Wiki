@@ -107,31 +107,30 @@ nav:
   - Guides - RetroDECK Management 🧰:
 
     - RetroDECK Configurator: wiki_system_guides/configurator/configurator.md
+    - Add RetroDECK to Steam: wiki_management/add-to-steam.md
     - Move RetroDECK to another Device: wiki_management/retrodeck-move.md
     - Update RetroDECK : wiki_management/retrodeck-update.md
     - Remove RetroDECK: wiki_management/retrodeck-remove.md
 
   - Guides - Files & Game Management 📂:
 
-    - Add RetroDECK to Steam: wiki_management/add-to-steam.md
-    - Manage your BIOS/Firmware: wiki_management/bios-firmware.md
-    - Manage your Multidisk/file games: wiki_management/multi-disk.md
-    - ES-DE - General Guide: wiki_system_guides/es-de/esde-guide.md
+    - BIOS/Firmware: wiki_management/bios-firmware.md
+    - Multidisk/file games: wiki_management/multi-disk.md
     - Spreading Files over Multiple Drives: wiki_management/spread-files.md
 
   - Guides - Steam Deck 🕹️:
 
-    - RetroDECK Installation and Updates: wiki_devices/steamdeck/steamdeck-start.md
-    - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
-    - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
+    - Steam Deck - Installation: wiki_devices/steamdeck/steamdeck-start.md
+    - Steam Deck - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
+    - Steam Deck - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
     - Steam Deck - Hotkeys & Layout: wiki_rd_controls/hotkeys-steamdeck-neptune.md
     - Steam Deck - Gyro: wiki_rd_controls/gyro-steamdeck-neptune.md
     - Steam Deck - FAQ: wiki_devices/steamdeck/steamdeck-faq.md
 
   - Guides - Linux Desktop 🐧:
 
-    - Installation and Updates: wiki_devices/linux_desktop/linux-install.md
-    - Recommended Software: wiki_devices/linux_desktop/linux-software.md
+    - Linux - Installation: wiki_devices/linux_desktop/linux-install.md
+    - Linux - Recommended Software: wiki_devices/linux_desktop/linux-software.md
 
   - Guides - Engines  🛠️:
 

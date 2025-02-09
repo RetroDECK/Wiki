@@ -1,6 +1,6 @@
 # How to: Manage BIOS and Firmware
 
-<img src="../../wiki_icons/pixelitos/cpu.png" width="50">
+<img src="../../wiki_icons/pixelitos/cpu.png" width="75">
 
 A BIOS or firmware is like the brain of a computer or electronic device. It helps the device start up and ensures all its parts work together smoothly. In emulation, having the correct BIOS/firmware is crucial because it allows the software to mimic the real device and function properly.
 

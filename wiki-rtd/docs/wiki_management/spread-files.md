@@ -1,6 +1,6 @@
 # Spreading Files over Multiple Drives
 
-<img src="../../wiki_icons/pixelitos/drive-harddisk.png" width="50">
+<img src="../../wiki_icons/pixelitos/drive-harddisk.png" width="75">
 
 ## Information about Symbolic Links
 

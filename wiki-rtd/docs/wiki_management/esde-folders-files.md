@@ -1,7 +1,10 @@
 # Supported file extensions for each emulator
-**Disclaimer: This list is a work in progress and might contain errors, not all of these systems are enabled**
 
-What follows is a list of each systems supported file extensions and the path to the folder where to put the roms.
+**Disclaimer:**
+
+This list is a work in progress and might contain errors. Not all of these systems are enabled.
+
+Here is a list of each system's supported file extensions and the path to the folder where you should put the ROMs:
 
 # 3DO
 - **Roms path:**<br>  ~/retrodeck/roms/3do

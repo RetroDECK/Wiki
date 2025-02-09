@@ -16,11 +16,11 @@ Before you start, make sure you have:
 
 Most of the initial setup needs to be done in Desktop Mode.
 
-Follow the guide: [Steam Deck - Installation and Updates](../wiki_devices/steamdeck/steamdeck-start.md)
+Follow the guide: [Steam Deck - Installation](../wiki_devices/steamdeck/steamdeck-start.md)
 
 **Linux Desktop - Installation**
 
-Follow the guide: [Linux Desktop - Installation and Updates](../wiki_devices/linux_desktop/linux-install.md)
+Follow the guide: [Linux Desktop - Installation](../wiki_devices/linux_desktop/linux-install.md)
 
 ## Step 2: Place BIOS & Firmware
 

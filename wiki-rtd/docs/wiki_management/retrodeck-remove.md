@@ -8,6 +8,6 @@
 - Open Discover or your software manager.
 - Go to the Installed tab, find RetroDECK, and press Uninstall.
 
-### Question - Does Uninstalling RetroDECK Remove User Data: ROMs, BIOS, Saves/States, etc?
+### Does Uninstalling RetroDECK Remove User Data: ROMs, BIOS, Saves/States, etc?
 
 No, you need to manually delete the `retrodeck/` folder to remove these files.

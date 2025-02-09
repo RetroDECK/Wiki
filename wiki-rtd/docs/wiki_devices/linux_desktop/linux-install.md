@@ -37,11 +37,10 @@ Run the following command:
 9. Go to `🎮 Controller Settings` -> `Controller Layouts` -> `Templates` and enable the template for the controller you are using.
 10. Launch RetroDECK and enjoy!
 
-## Updates
+## Other Tips
 
-Updates to RetroDECK are handled automatically via your software manager when a new version is released. To update from the terminal, type:
-
-`flatpak update`
+- Check on: [How-to: Update RetroDECK](../../wiki_management/retrodeck-update.md). 
+- If you no longer want RetroDECK, you can find the removal guide at: [How-to: Remove RetroDECK](../../wiki_management/retrodeck-remove.md). 
 
 ## Game Mode on Your Linux PC?
 

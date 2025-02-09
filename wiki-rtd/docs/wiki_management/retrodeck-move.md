@@ -1,6 +1,6 @@
 # How do I move RetroDECK to a new device
 
-<img src="../../wiki_icons/pixelitos/folder-blue-sync.png" width="50">
+<img src="../../wiki_icons/pixelitos/system-switch-user.png" width="75">
 
 ## Information on moving RetroDECK
 

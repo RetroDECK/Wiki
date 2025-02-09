@@ -2,7 +2,7 @@
 
 **Please note that we are going to rebuild the Configurator into a controller friendly GODOT application and that the current version is not the final design.**
 
-<img src="../../wiki_images/graphics/configurator/configurator.png" width="500">
+<img src="../../../wiki_images/graphics/configurator/configurator.png" width="500">
 
 The `RetroDECK Configurator` is a unique multi-use utility that exists within RetroDECK to manage many aspects of the application and exposes functions from the `RetroDECK Framework` to the user.
 
@@ -10,11 +10,11 @@ The `RetroDECK Configurator` can be opened from:
 
 - The main menu inside the ES-DE interface and choose `RetroDECK Configurator`.
 
-<img src="../../wiki_images/graphics/configurator/configurator-esde.png" width="500">
+<img src="../../../wiki_images/graphics/configurator/configurator-esde.png" width="500">
 
 * From the `RetroDECK Configurator.desktop` desktop shortcut, available in your application menu.
 
-<img src="../../wiki_images/graphics/configurator/configurator-kde.png" width="500">
+<img src="../../../wiki_images/graphics/configurator/configurator-kde.png" width="500">
 
 * From CLI by calling `flatpak run net.retrodeck.retrodeck --configurator`
 
@@ -198,6 +198,6 @@ This enables or disables the Steam Sync feature.
 
 Read more here: 
 
-[SRM Guide](../../wiki_system_guides/srm/srm-guide.md) 
+[SRM Guide](../../../wiki_system_guides/srm/srm-guide.md) 
 
 

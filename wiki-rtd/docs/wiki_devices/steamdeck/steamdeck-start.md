@@ -21,11 +21,6 @@ Depending on what language you have set in `Desktop Mode`, things might be named
 - Read up on the [RetroDECK: Steam Deck - Hotkeys](../../wiki_rd_controls/hotkeys-steamdeck-neptune.md).
 - Launch RetroDECK and Enjoy!
 
-**Other Quick Tips:**
-
-- Explore our other software recommendations for the Steam Deck: [Steam Deck: Software Recommendations](../../wiki_devices/steamdeck/steamdeck-software.md).
-- Check various optional optimizations that can make some systems run even better: [Steam Deck: Optimizations](../../wiki_devices/steamdeck/steamdeck-optimize.md).
-
 ## Step-by-Step Guide to Install RetroDECK on the Steam Deck
 
 ### Step 1: Go to Desktop Mode
@@ -46,7 +41,6 @@ Put the Steam Deck into `Desktop Mode`:
 
 - Read the guide on: [How-to: Add RetroDECK to Steam](../../wiki_management/add-to-steam.md). 
 - Add BIOS and ROMs: Put the BIOS files inside `retrodeck/bios/` and ROMs & game files inside `retrodeck/roms/`. If you are unsure how to add ROMs and BIOS to RetroDECK [RetroDECK: Start Using](../../wiki_general/retrodeck-start.md).
-
 - After this, you can see RetroDECK in Steam Deck's `Game Mode` after returning from `Desktop Mode`.
 
 ### Step 4: Configure the Steam Controller Profiles
@@ -59,23 +53,9 @@ This step is only needed if you installed the profiles. If you missed installing
 - Add one of the layouts for RetroDECK called `RetroDECK: Steam Deck - Neptune` SIMPLE or FULL.
 - Read up on the [RetroDECK: Steam Deck - Hotkeys](../../wiki_rd_controls/hotkeys-steamdeck-neptune.md).
 
-**Other quick tips**
+## Other Tips
 
 - Explore our other software recommendations for the Steam Deck: [Steam Deck: Software Recommendations](../../wiki_devices/steamdeck/steamdeck-software.md).
 - Check various optional optimizations that can make some systems run even better: [Steam Deck: Optimizations](../../wiki_devices/steamdeck/steamdeck-optimize.md).
-
-## How-to: Update RetroDECK on the Steam Deck
-
-
-- Put the Steam Deck into `Desktop Mode`: `Steam button` -> `Power` -> `Switch to Desktop`.
-- Open the Discover application.
-- Click on the updates tab.
-- If there are any updates available, they will be shown here.
-- Click on the `Update` or `Update all` button.
-
-### Decky: AutoFlatpaks
-
-If you have Decky installed and the AutoFlatpaks plugin, you can update RetroDECK from `Game Mode`.
-
-Read more here: [Steam Deck: Software Recommendations](../../wiki_devices/steamdeck/steamdeck-software.md).
-
+- Check on: [How-to: Update RetroDECK](../../wiki_management/retrodeck-update.md). 
+- If you no longer want RetroDECK, you can find the removal guide at: [How-to: Remove RetroDECK](../../wiki_management/retrodeck-remove.md). 

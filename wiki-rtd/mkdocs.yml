@@ -104,16 +104,18 @@ nav:
     - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
     - RetroDECK - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
 
-  - Guides - RetroDECK Configurator 🧰:
+  - Guides - RetroDECK Management 🧰:
 
-    - Configurator Features: wiki_system_guides/configurator/configurator.md
+    - RetroDECK Configurator: wiki_system_guides/configurator/configurator.md
+    - Move RetroDECK to another Device: wiki_management/retrodeck-move.md
+    - Update RetroDECK : wiki_management/retrodeck-update.md
+    - Remove RetroDECK: wiki_management/retrodeck-remove.md
 
   - Guides - Files & Game Management 📂:
 
     - Add RetroDECK to Steam: wiki_management/add-to-steam.md
     - Manage your BIOS/Firmware: wiki_management/bios-firmware.md
     - Manage your Multidisk/file games: wiki_management/multi-disk.md
-    - Move RetroDECK to a new device: wiki_management/retrodeck-move.md
     - ES-DE - General Guide: wiki_system_guides/es-de/esde-guide.md
     - Spreading Files over Multiple Drives: wiki_management/spread-files.md
 

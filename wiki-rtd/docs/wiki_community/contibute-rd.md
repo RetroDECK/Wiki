@@ -1,4 +1,6 @@
-# Can I contribute to the project?
+# How-to: Contribute to RetroDECK
+
+Can I contribute to the project?
 
 Yes! Everybody is welcome to contribute in any way possible if it is personal time or funds.
 

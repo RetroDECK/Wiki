@@ -10,7 +10,7 @@ Yes! Everybody is welcome to contribute in any way possible if it is personal ti
 - **Support:** Guide people on various communication platforms.
 - **Early Testing:** Find bugs, issues, and provide suggestions on cooker releases.
 - **Experimenting and Tweaking:** Find the best configurations for emulators and engines.
-- **Donations:** Donate to the project over at [Donations & Licenses 🎁](../wiki_credits/donations-licenses.md)..
+- **Donations:** Donate to the project over at [Donations & Licenses 🎁](../wiki_about/donations-licenses.md)..
 
 ## Any specific examples of what you need help with?
 

@@ -81,6 +81,6 @@ Feel free to explore the wiki!
 
 - The RetroDECK community is active and widespread. You can find our social links on the start page of the wiki. 
 - You can learn how to tweak certain systems from various articles.
-- You can read [The RetroDECK Blog](../../blog/) to stay updated with development updates.
-- You can contribute to the project: [How-to: Contribute to RetroDECK](../wiki_community/contibute-rd.md)
+- You can read [The RetroDECK Blog](../blog/index.md) to stay updated with development updates.
+- You can contribute to the project: [How-to: Contribute to RetroDECK](../wiki_about/contibute-retrodeck.md)
 

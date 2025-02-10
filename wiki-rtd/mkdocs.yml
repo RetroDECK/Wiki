@@ -209,6 +209,9 @@ nav:
     - RetroENGINE 👨‍🔧:
       - RetroENGINE - General Guide: wiki_system_guides/retroengine/retroengine-guide.md
 
+    - Ponzu 🍶:
+      - Ponzu - General Guide: wiki_system_guides/ponzu/ponzu-guide.md
+
   - The Controller Vault 🎮:
 
     - Accessibility ♿:
@@ -344,5 +347,3 @@ nav:
     - Yuzu 🔴 (Archive):
       - Yuzu - General Guide: wiki_archive/yuzu/yuzu-guide.md
       - Yuzu - Gyro Guide: wiki_archive/yuzu/yuzu-gyro.md
-
-    - Ponzu (Archive): wiki_archive/ponzu.md

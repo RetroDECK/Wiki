@@ -22,7 +22,7 @@ Those can either be:
 
 ## How-to get started with RetroDECK?
 
-- [How-to: Get Started with RetroDECK](wiki_general/retrodeck-start.md)
+- [How-to: Start using RetroDECK](wiki_general/retrodeck-start.md)
 
 ## What is RetroDECK?
 

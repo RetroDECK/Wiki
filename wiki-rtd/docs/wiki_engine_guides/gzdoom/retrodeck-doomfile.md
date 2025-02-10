@@ -1,6 +1,6 @@
 # The .doom file
 
-<img src="../../../wiki_images/logos/gzdoom-logo.png" width="70">
+<img src="../../../wiki_images/logos/gzdoom-logo.png" width="150">
 
 The `.doom` file is a feature for easy loading of doom files with mods, it is based on the work done by [AmberELEC .doom](https://amberelec.org/systems/doom.html) and others with additional improvements made by RetroDECK.
 

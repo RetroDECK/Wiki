@@ -1,4 +1,4 @@
-# Start using RetroDECK
+# How-to: Start using RetroDECK
 
 <img src="../../wiki_icons/retrodeck/rd_icon_circle_512x512.png" width="75">
 

@@ -37,7 +37,9 @@ We aim to have better FOSS donation methods in the future.
 
 ### Licenses
 
-[Licenses](https://github.com/XargonWan/RetroDECK/blob/main/LICENSE)
+[Licenses](https://github.com/RetroDECK/RetroDECK/blob/main/LICENSE)
+
+[Other Licenses](https://github.com/RetroDECK/RetroDECK/blob/main/other_licenses.txt)
 
 ---
 

@@ -107,7 +107,7 @@ What follows is a list of known issues.
 
 **Solution:** Has been reported to Valve by RetroDECK Team.
 
-### Steam Input: - Who is Player 1?
+### Who is Player 1?
 
 **Issue:** Emulators/engines/systems get confused about which controller is player 1, sometimes taking the docked Steam Deck as player 1 instead of the external controller.
 

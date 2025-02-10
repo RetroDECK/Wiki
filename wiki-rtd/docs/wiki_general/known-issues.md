@@ -59,32 +59,33 @@ What follows is a list of known issues.
 ### PPSSPP
 
 **Issue:** Retroachievements login/logout and hardcore mode are not configurable in the Configurator.
+
 **Solution:** Currently, it can be managed from the emulator's interface.
 
 ### RetroArch
 
-**RetroArch: Gambatte**
-
-**Issue:** Quitting the core with the `Quit` radial function makes the core swap the palette while playing GB.
+**Gambatte Issue:** Quitting the core with the `Quit` radial function makes the core swap the palette while playing GB.
 
 ### Ryujinx
 
 **Issue:** Cannot handle symlinks correctly, affecting saves, firmware, and keys.
-**Solution:** TBA
 
 ### GZDOOM
 
 **Issue:** Conflict with Steam Input causing input looping in menus.
+
 **Solution:** Ensure the controller is set as Player 1 or use the Reorder Controllers interface in Steam.
 
 ### Steam Sync
 
 **Issue:** Sometimes fails to associate controller templates to Steam entries.
+
 **Solution:** Users must set it manually if needed.
 
 ### ES-DE
 
 **Issue:** ES-DE Configurations submenu doesn't support translations yet.
+
 **Solution:**  Translations will be implemented in the future.
 
 ## Known issues - Steam Input
@@ -92,6 +93,7 @@ What follows is a list of known issues.
 ### RetroDECK Hotkeys
 
 **Issue:** Not all emulators have hotkey support; some have partial support, some have none, and some have a majority implemented.
+
 **Solution:** The plan is to map as much as possible into the RetroDECK Hotkey System and patch in Emulator Hotkeys with the RetroDECK Framework to be compatible with the system as they get the functionality .
 
 - `CEMU` has almost no hotkey support.
@@ -102,11 +104,13 @@ What follows is a list of known issues.
 ### Missing Radials in Linux Desktop
 
 **Issue:** Radial menus are hidden behind the game window or Steam overlay on certain Linux systems.
+
 **Solution:** Has been reported to Valve by RetroDECK Team.
 
 ### Steam Input: - Who is Player 1?
 
 **Issue:** Emulators/engines/systems get confused about which controller is player 1, sometimes taking the docked Steam Deck as player 1 instead of the external controller.
+
 **Solution:** Use the Reorder Controllers interface in Steam to switch between Player 1 and Player 2.
 
 ## Known issues - Linux Desktop
@@ -114,4 +118,5 @@ What follows is a list of known issues.
 ### KDE Discover
 
 **Issue:** Shows the wrong version when updating Flatpak applications due to a caching error.
+
 **Solution:**  Force a cache update by going to `Discover` -> `Settings` -> and unchecking and checking Flathub again.

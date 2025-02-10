@@ -12,7 +12,7 @@ If you don't know what RetroDECK is, read:
 
 ### Step 0: Prerequisites
 
-<img src="../../wiki_icons/pixelitos/retrodeck.png" width="50">
+<img src="../../wiki_icons/pixelitos/emblem-default.png" width="50">
 
 Before you start, make sure you have:
 

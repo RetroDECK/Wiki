@@ -2,7 +2,7 @@
 
 ## RetroDECK's Story: How RetroDECK was born?
 
-<img src="../../wiki_images/logos/351e-deck-logo.png" width="500">
+<img src="../../wiki_images/logos/351e-deck-logo.png" width="400">
 
 
 ```
@@ -20,9 +20,11 @@ In the beginning I opted for a simple shell script, in fact RetroDECK aka 351EDE
 However I had bad feedbacks from the community because someone was feeling unsafe to give my script the root privileges so evaluating the Steam Deck use case I felt like it was not the right direction to take, the people was not feeling comfortable to give the sudo to a random script downloaded from the internet, so they asked to packetize it in some way.
 
 Valve suggests the flatpak technology to port the applications on Steam Deck so, I decided to follow their guidelines, and I created the `RetroDECK` that you know today, starting from a Manjaro virtual machine as a development environment because I did not have a Steam Deck yet.
-```
 
 // Xargon (Project Founder)
+```
+
+
 
 ## RetroDECK's Development Philosophy
 

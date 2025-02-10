@@ -28,19 +28,17 @@ Yes, you can reset various parts of the software using the RetroDECK Configurato
 
 Read more on: [RetroDECK Configurator 🛠️](../wiki_system_guides/configurator/configurator.md)
 
-## How Do I Uninstall RetroDECK?
+## How Do I Update RetroDECK?
 
-- **Optional Steam Deck Step** Switch to Desktop Mode: `Steam button` -> `Power` -> `Switch to Desktop`
-- Open Discover or your software manager.
-- Go to the Installed tab, find RetroDECK, and press Uninstall.
+Check the guide at: [How-to: Update RetroDECK](../wiki_management/retrodeck-update.md)
 
-### Does Uninstalling RetroDECK Remove User Data: ROMs, BIOS, Saves/States, etc?
+## How Do I Remove RetroDECK?
 
-No, you need to manually delete the `retrodeck/` folder to remove these files.
+Check the guide at: [How-to: Remove RetroDECK ](../wiki_management/retrodeck-remove.md)
 
 ## How do I move RetroDECK to a New Device?
 
-Check the guide at: [How-to Move RetroDECK to a New Device](../wiki_management/retrodeck-move.md)
+Check the guide at: [How-to: Move RetroDECK to a New Device](../wiki_management/retrodeck-move.md)
 
 ## Where to Find Logfiles?
 

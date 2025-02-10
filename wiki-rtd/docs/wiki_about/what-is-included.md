@@ -10,7 +10,9 @@ What follows is a list of features and software currently included in RetroDECK.
 - The user needs to provide their own purchased BIOS / Firmware files from their own consoles or purchased engines files (for example Pico-8) for the systems that needs them.
 
 
-## RetroDECK Configurator & RetroDECK Framework
+## RetroDECK Features
+
+### RetroDECK Configurator & RetroDECK Framework
 
 <img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="100">
 
@@ -18,7 +20,7 @@ What follows is a list of features and software currently included in RetroDECK.
 
 RetroDECK comes with the `RetroDECK Framework` that allows deeper integrations between the built-in software and easier exposure to a variety of features that you otherwise need to set for example per system basis to create a uniformity between them.
 
-**The RetroDECK Configurator**
+**RetroDECK Configurator**
 
 The RetroDECK Configurator is a powerful `Utility` that exposes some parts of the `RetroDECK Framework` to the RetroDECK users.
 
@@ -43,6 +45,19 @@ It can help with:
 **Read more here:**
 
 [RetroDECK Configurator](../wiki_system_guides/configurator/configurator.md).
+
+### RetroENGINE
+
+<img src="../../wiki_icons/retrodeck/icon-engine.svg" width="100">
+
+RetroENGINE allows you to run various game files directly with RetroDECK from the desktop without starting the application.
+
+It supports the association of common game file extensions with RetroDECK. Additionally, you can run games directly via RetroENGINE using the CLI.
+
+**Read more here:**
+
+[RetroDECK's RetroENGINE](../wiki_system_guides/retroengine/retroengine-guide.md).
+
 
 ## Frontends
 

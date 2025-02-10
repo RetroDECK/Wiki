@@ -1,6 +1,6 @@
 # RetroDECK Configurator
 
-<img src="../../../wiki_icons/retrodeck/rd-configurator.png" width="75">
+<img src="../../../wiki_icons/retrodeck/icon-configurator.svg" width="100">
 
 **Please note that we are going to rebuild the Configurator into a controller friendly GODOT application and that the current version is not the final design.**
 

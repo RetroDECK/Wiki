@@ -1,6 +1,6 @@
 # How-to: Start using RetroDECK
 
-<img src="../../wiki_icons/retrodeck/rd_icon_circle_512x512.png" width="75">
+<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="100">
 
 ## Information
 
@@ -11,6 +11,8 @@ If you don't know what RetroDECK is, read:
 ## Step-by-step Getting Started Guide
 
 ### Step 0: Prerequisites
+
+<img src="../../wiki_icons/pixelitos/retrodeck.png" width="50">
 
 Before you start, make sure you have:
 

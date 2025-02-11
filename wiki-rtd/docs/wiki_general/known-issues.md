@@ -157,11 +157,11 @@ SD cards can be tricky, and there are many scam cards out there. Follow these ru
 - Avoid using special characters, emojis, or spaces in the card's name. Stick to A-Z and 1-9.
 - There are online solutions to test if an SD card is fake, like the software `f3` for Linux.
 
-### XBOX games are slow
+### Bleeding Edge Emulator (like XEMU, RPCS3) are Games Are Slow
 
-**Issue:** XBOX games are slow on the Steam Deck
+**Issue:** XBOX, PS3 and other bleeding edge emulator games are slow
 
-**Solution:** Due to missing optimizations and hardware limitations, XBOX games may not perform well on the Steam Deck. Improvements are expected over time as emulators get better.
+**Solution:** This is due to missing optimizations and hardware limitations. Performance should improve as emulators get better. Some games may need specific tweaks or profiles. Check each emulator's website for compatibility and optimized settings for each game.
 
 
 ### Games are stuck at 30FPS or Fast forwarding is slow

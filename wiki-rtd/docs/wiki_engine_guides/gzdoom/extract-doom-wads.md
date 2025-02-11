@@ -76,18 +76,17 @@ The main game folder contains the following (Master Levels in one wad and Legacy
 | Legacy of Rust           |   id Software, Nightdive Studios, MachineGames      |   `ID1.WAD`,  `ID1-WEAP.WAD`, `ID1-RES.WAD`, `ID24RES.WAD`, `IDDM1.WAD` | Uses the new ID24 Standard|
 
 
-### KEX Engine - Getting the downloaded bnetwads
+### KEX Engine - Getting the Downloaded bnetwads
 
-**Prerequisite:** You first need to download the addons from the featured mods list.
+**Prerequisite:** First, download the addons from the featured mods list.
 
-Go from the `Main Menu` -> Select a game like DOOM II -> `Mods Menu` -> `Featured Mods`
+Navigate from the `Main Menu` -> Select a game like DOOM II -> `Mods Menu` -> `Featured Mods`.
 
-Some of the mods you will also need to click on `Mods Menu` -> `Browse` and search for them if they are no longer on the `Featured Mods`
-list to match the Unity set.
+For some mods, you may need to click on `Mods Menu` -> `Browse` and search for them if they are no longer on the `Featured Mods` list to match the Unity Version set.
 
 #### Where are the bnetwads located?
 
-Each `.wad` downloaded have it's own sub-folder based on an internal ID and contains the `.wad` file and a `index.json` file.
+Each `.wad` downloaded has its own sub-folder based on an internal ID and contains the .wad file and an `index.json` file.
 
 Opening the `index.json` file in each folder will tell you what game the `.wad` is.
 

@@ -88,8 +88,6 @@ Could answers several questions you might have about the project as well.
 
 [Guide: ES-DE](../wiki_system_guides/es-de/esde-guide.md)
 
-[FAQ: Steam Deck Questions](../wiki_devices/steamdeck/steamdeck-faq.md)
-
 [FAQ: Feature Requests](../wiki_faq/faq-feature.md)
 
 [FAQ: Documentation Questions](../wiki_faq/faq-documentation.md)

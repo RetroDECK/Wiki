@@ -125,6 +125,6 @@ To create a Pretendo Network account.
     
 ### Certain UI elements of emulators GUI are cramped / outside of the screen on the Steam Deck
 
-Check the following link for `Certain UI elements of emulators GUI are cramped / outside of the screen on the Steam Deck`:
+Check the following link for `Certain UI elements of emulators GUI are cramped / outside of the screen`:
 
-[Steam Deck - FAQ](../../wiki_devices/steamdeck/steamdeck-faq.md) 
+[Known Issues](../../wiki_general/known-issues.md) 

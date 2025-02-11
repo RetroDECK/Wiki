@@ -18,9 +18,9 @@ GZDoom is the open source game engine for ID Software's older games like DOOM, D
 
 ## Where to buy official DOOM?
 
-You will need `DOOM + DOOM II`.
+To get started, you will need to purchase `DOOM` and `DOOM II`.
 
-The games `DOOM 3` and `DOOM 64` are not needed but we list them here because it is sometimes cheaper to buy the whole bundle.
+While `DOOM 3` and `DOOM 64` 64 are not necessary, sometimes it's more cost-effective to buy the entire bundle.
 
 **GOG Links:**
 
@@ -40,7 +40,7 @@ The games `DOOM 3` and `DOOM 64` are not needed but we list them here because it
 
 The Freedoom project aims to provide all the content needed to form a complete, entirely free/libre game for the Doom engine.
 
-It is designed to be compatible with most custom levels, music, graphics and other modifications (“mods”) made for the original Doom games by Doom fans and artists over the decades.
+It is designed to be compatible with most custom levels, music, graphics, and other modifications ("mods") made for the original Doom games by Doom fans and artists over the decades.
 
 [FreeDOOM](https://freedoom.github.io/)
 
@@ -78,23 +78,21 @@ The [IWADS](https://doomwiki.org/wiki/IWAD) Gzdoom is looking for to be able to 
 
 ## Where can I find more WADs?
 
-None-official wads (mods) are all over the internet from old forums, github and various websites.
+Non-official WADs (mods) are available across the internet on old forums, GitHub, and various websites.
 
-**Doomworld:**
+### Doomworld
 
-The oldest DOOM community on the web and hosts of the annual [Cacowards](https://www.doomworld.com/cacowards).
-
-Doomworld is the lifeblood of DOOM community, generations of knowledge and a vast collections of wads exist within it.
+Doomworld is the oldest DOOM community on the web and hosts the annual [Cacowards](https://www.doomworld.com/cacowards). It is the lifeblood of the DOOM community, containing generations of knowledge and a vast collection of WADs.
 
 [Doomworld Files](https://www.doomworld.com/files/)
 
 [Doomworld ID Games(Legacy)](https://www.doomworld.com/idgames/)
 
-**Doomwiki:**
+### Doomwiki
 
 [List of notable WADs](https://doomwiki.org/wiki/List_of_notable_WADs)
 
-**ModDB:**
+### ModDB
 
 [ModDB](https://www.moddb.com/games/doom/mods)
 
@@ -140,15 +138,13 @@ No
 
 **Known Issues**
 
-- Multiple controllers for local multiplayer don't really work as there are bugs between GZDoom and Steam Input.
-- You need to have set the primary controller as player one as all the other players input will cause the inputs to loop sometimes. For example if you are docking the Steam Deck and want to use an external controller, set that controller as player 1 via Steam Input and not the Steam Deck.
-- Pressing "Save configuration" within the GZDOOM options menu and you have mods that adds extra controls will wipe those extra controls. It is better just to set the inputs without pressing save as they still will be saved.
+- Multiple controllers for local multiplayer don't work well due to bugs between GZDoom and Steam Input.
+- Set the primary controller as player one, especially if using an external controller with the Steam Deck. This prevents input loops.
+- Avoid pressing "Save configuration" in the GZDoom options menu if you have mods that add extra controls, as it will wipe those extra controls. Inputs will still be saved without pressing save.
 
 ### Standard Controls
 
-The controls are semi based on the inputs from `Timesplitters: Future Perfect` for the Playstation 2.
-
-The controls here are described as an Xbox Layout style controller.
+The controls are semi-based on the inputs from `Timesplitters: Future Perfect` for the PlayStation 2 and are described as an Xbox Layout style controller.
 
 |  Action                                    |    Button        |    Comment      |
 | :---                                      | :---:           |         :---:   |
@@ -171,7 +167,7 @@ The controls here are described as an Xbox Layout style controller.
 
 ### Mod Controls - Extras
 
-Optional extra binds that can come into play for certain `Project Brutality` or `Brutal Doom` based mods.
+Optional extra binds for certain `Project Brutality` or `Brutal Doom` based mods.
 
 |  Action                                    |    Button        |    Comment      |
 | :---                                      | :---:           |         :---:   |
@@ -179,16 +175,15 @@ Optional extra binds that can come into play for certain `Project Brutality` or 
 | Throw Grenade / Second Special Action     |   `L2`          |    Replaces Zoom (most DOOM mods use Secondary Fire for this anyhow)          |
 | Dash                                      |   `R3`          |    Replaces Quick Turn           |
 
-**The mod needs more inputs**
+### The Mod Needs More Inputs
 
-Many mods have also more inputs then what is bind-able on a controller, `L1`,  `L2`, `Dpad - Up`, `Dpad - Down`  are mostly free for those types of actions.
+Many mods have more inputs than what is bindable on a controller. `L1`,  `L2`, `Dpad - Up`, `Dpad - Down` are mostly free for those types of actions.
 
-Try to bind `L1`,  `L2` to more action orientated things you need to use more often. While `Dpad - Up`, `Dpad - Down` for things you use less often like Extra Menus.
+- Bind `L1` and `L2` to more action-oriented things you need to use more often.
+- Use `Dpad - Up`, `Dpad - Down` for things you use less often, like Extra Menus.
+- If it is a new movement type that can replace quick turn, bind it on `R3` and replace Quick Turn or either of the `L1` or `L2`.
 
-If it is a new movement type that can replace quick turn try to bind it on `R3` and replace Quick Turn or either of the `L1` or `L2`.
-
-You are also free to change any of the Default binds shipped by RetroDECK and if you mess something up you can always reset GZDoom via the Configurator.
-
+You are also free to change any of the default binds shipped by RetroDECK, and if you mess something up, you can always reset GZDoom via the Configurator.
 
 ## I have bought the games how do I get my files?
 

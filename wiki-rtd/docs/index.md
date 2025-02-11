@@ -1,6 +1,6 @@
-# Welcome to the RetroDECK wiki!
+# Welcome to the RetroDECK Wiki!
 
-<img src="wiki_images/logos/rd-esde-logo.svg" width="600">
+<img src="wiki_images/logos/rd-esde-logo.svg" width="500">
 
 ![Flathub](https://img.shields.io/flathub/downloads/net.retrodeck.retrodeck)
 ![Flathub](https://img.shields.io/flathub/v/net.retrodeck.retrodeck)

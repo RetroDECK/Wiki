@@ -68,9 +68,8 @@ Experimental features may be unstable and are exclusive to cooker builds or must
 
 To get the latest updates first:
 
-- Join the [Discord](https://discord.gg/WDc5C9YWMx) or [Matrix](https://matrix.to/#/#retrodeck:matrix.org). Most of the community is on Discord. 
-- Follow `The RetroDECK Blog 📝` on this wiki.
-- We also sometimes post news on [Lemmy](https://lemmy.zip/c/retrodeck) / [Reddit](https://www.reddit.com/r/retrodeck).
+- Follow us on socials, you can find the links on the [Wiki Start Page](../index.md).
+- Follow [The RetroDECK Blog](../blog/index.md).
 - Look at [Github issues](https://github.com/XargonWan/RetroDECK/issues/) for clues.
 
 ## Wiki Links for more information

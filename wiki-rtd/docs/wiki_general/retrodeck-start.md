@@ -81,7 +81,7 @@ The NES category should now be shown in the ES-DE Frontend with `ExampleNESGame.
 
 Feel free to explore the wiki!
 
-- The RetroDECK community is active and widespread. You can find our social links on the start page of the wiki. 
+- The RetroDECK community is active and widespread. You can find our social links on the [Wiki Start Page](../index.md). 
 - You can learn how to tweak certain systems from various articles.
 - You can read [The RetroDECK Blog](../blog/index.md) to stay updated with development updates.
 - You can contribute to the project: [How-to: Contribute to RetroDECK](../wiki_about/contibute-retrodeck.md)

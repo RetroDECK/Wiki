@@ -108,13 +108,11 @@ nav:
   - Guides - RetroDECK Management 🧰:
 
     - RetroDECK Configurator: wiki_system_guides/configurator/configurator.md
-    - Add RetroDECK to Steam: wiki_management/add-to-steam.md
-    - Move RetroDECK to another Device: wiki_management/retrodeck-move.md
+    - RetroDECK Folders : wiki_management/retrodeck-folders.md
     - Update RetroDECK : wiki_management/retrodeck-update.md
     - Remove RetroDECK: wiki_management/retrodeck-remove.md
-
-  - Guides - Files & Game Management 📂:
-
+    - Add RetroDECK to Steam: wiki_management/add-to-steam.md
+    - Move RetroDECK to another Device: wiki_management/retrodeck-move.md
     - BIOS/Firmware: wiki_management/bios-firmware.md
     - Multidisk/file Games: wiki_management/multi-disk.md
     - Spreading Files over Multiple Drives: wiki_management/spread-files.md

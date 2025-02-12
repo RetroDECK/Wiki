@@ -6,7 +6,7 @@ Here is the entire RetroDECK top-level folder structure.
 
 ## Main Folders
 
-| Type    | Folder                 |          Comment     |          
+| **Type**    |  **Folder**                 |          **Comment**     |         
 |  :---:  | :---:                  |             :---:     |
 | Userdata Folder  |`retrodeck/` |   Contains userdata. Has a dynamic location, chosen by the user.         |         
 | User Var Folder |`~/.var/app/net.retrodeck.retrodeck/`         | Exposes configuration, cache, and system data from the Flatpak environment.   |
@@ -14,7 +14,7 @@ Here is the entire RetroDECK top-level folder structure.
 
 ## Userdata Folder - retrodeck/
 
-| Type    | Folder                 |          Comment     |          
+| **Type**    |  **Folder**                 |          **Comment**     |          
 |  :---:  | :---:                  |             :---:     |
 | Sync Folder  |`retrodeck/.sync` |   Hidden folder for the Steam Sync feature contains sync .sh files       |         
 | BIOS Folder | `retrodeck/bios`        | BIOS folder, follows the RetroArch BIOS structure |

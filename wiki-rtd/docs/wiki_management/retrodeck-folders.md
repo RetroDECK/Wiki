@@ -95,10 +95,10 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 | Atomiswave Folder | atomiswave | An arcade system board developed by Sammy Corporation. |
 | BBC Micro Folder | bbcmicro | A series of microcomputers developed by Acorn Computers for the BBC. |
 | C64 Folder | c64 | One of the best-selling home computers of all time. |
-| Cdimono1 Folder | cdimono1 | A multimedia CD-ROM game console developed by Philips. |
-| Cdtv Folder | cdtv | A multimedia platform based on the Amiga computer. |
-| Chailove Folder | chailove | A retro game framework for creating games in Lua. |
-| Channelf Folder | channelf | A second-generation home video game console released by Fairchild. |
+| CD-i Mono-I Folder | cdimono1 | A multimedia CD-ROM game console developed by Philips. |
+| CDTV Folder | cdtv | A multimedia platform based on the Amiga computer. |
+| ChaiLove Folder | chailove | A retro game framework for creating games in Lua. |
+| Channel F Folder | channelf | A second-generation home video game console released by Fairchild. |
 | Colecovision Folder | colecovision | A second-generation home video game console known for its arcade ports. |
 | Consolearcade Folder | consolearcade | A general folder for home consoles that play arcade-style games. |
 | Cps Folder | cps | Capcom's arcade system board used for many popular games. |
@@ -149,11 +149,11 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 | MESS Folder | mess | Multi Emulator Super System, an emulator for various consoles and computers. |
 | Model2 Folder | model2 | An arcade system board developed by Sega. |
 | Moto Folder | moto | A folder containing files related to motorcycle games. |
-| Msx Folder | msx | A standardized home computer architecture. |
-| Msx1 Folder | msx1 | The first generation of the MSX computer standard. |
-| Msx2 Folder | msx2 | The second generation of the MSX computer standard. |
-| Msxturbor Folder | msxturbor | An enhanced version of the MSX2 computer standard. |
-| Mugen Folder | mugen | A customizable fighting game engine. |
+| MSX Folder | msx | A standardized home computer architecture. |
+| MSX1 Folder | msx1 | The first generation of the MSX computer standard. |
+| MSX2 Folder | msx2 | The second generation of the MSX computer standard. |
+| MSX turbo R Folder | msxturbor | An enhanced version of the MSX2 computer standard. |
+| M.U.G.E.N Folder | mugen | IkemanGO a customizable fighting game engine. |
 | Multivision Folder | multivision | A home computer and game console hybrid developed by Samsung. |
 | N3DS Folder | n3ds | Nintendo 3DS, a handheld game console developed by Nintendo. |
 | N64 Folder | n64 | Nintendo 64, a 64-bit game console developed by Nintendo. |
@@ -162,22 +162,22 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 | Naomi2 Folder | naomi2 | An enhanced version of the Sega Naomi arcade system board. |
 | Naomigd Folder | naomigd | A GD-ROM add-on for the Sega Naomi arcade system board. |
 | NDS Folder | nds | Nintendo DS, a handheld game console developed by Nintendo. |
-| Neogeo Folder | neogeo | A cartridge-based arcade and home video game system developed by SNK. |
-| Neogeocd Folder | neogeocd | A CD-ROM based version of the Neo Geo system. |
-| Neogeocdjp Folder | neogeocdjp | The Japanese version of the Neo Geo CD system. |
-| Nes Folder | nes | Nintendo Entertainment System, an 8-bit home video game console. |
-| Ngp Folder | ngp | Neo Geo Pocket, a handheld game console developed by SNK. |
-| Ngpc Folder | ngpc | Neo Geo Pocket Color, an upgraded version of the Neo Geo Pocket. |
+| Neo Geo Folder | neogeo | A cartridge-based arcade and home video game system developed by SNK. |
+| Neo Geo CD Folder | neogeocd | A CD-ROM based version of the Neo Geo system. |
+| Neo Geo CD JP Folder | neogeocdjp | The Japanese version of the Neo Geo CD system. |
+| NES Folder | nes | Nintendo Entertainment System, an 8-bit home video game console. |
+| NGP Folder | ngp | Neo Geo Pocket, a handheld game console developed by SNK. |
+| NGPC Folder | ngpc | Neo Geo Pocket Color, an upgraded version of the Neo Geo Pocket. |
 | Odyssey2 Folder | odyssey2 | A second-generation home video game console developed by Magnavox. |
 | Openbor Folder | openbor | Open Beats of Rage, a customizable beat 'em up game engine. |
 | Palm Folder | palm | A folder containing files related to Palm OS devices. |
-| Pc Folder | pc | Personal computer, a general-purpose computer. |
-| Pc88 Folder | pc88 | A series of home computers developed by NEC. |
-| Pc98 Folder | pc98 | An upgraded series of home computers developed by NEC. |
-| Pcarcade Folder | pcarcade | A folder containing files related to PC arcade games. |
-| Pcengine Folder | pcengine | A home video game console developed by NEC. |
-| Pcenginecd Folder | pcenginecd | A CD-ROM add-on for the PC Engine. |
-| Pcfx Folder | pcfx | A 32-bit home video game console developed by NEC. |
+| PC Folder | pc | Uses for some PC game ports. |
+| PC88 Folder | pc88 | A series of home computers developed by NEC. |
+| PC98 Folder | pc98 | An upgraded series of home computers developed by NEC. |
+| PCArcade Folder | pcarcade | A folder containing files related to PC arcade games. |
+| PC Engine Folder | pcengine | A home video game console developed by NEC. |
+| PC Engine CD Folder | pcenginecd | A CD-ROM add-on for the PC Engine. |
+| PCFX Folder | pcfx | A 32-bit home video game console developed by NEC. |
 | Pico8 Folder | pico8 | A fantasy console for making, sharing, and playing tiny games. |
 | Plus4 Folder | plus4 | A home computer developed by Commodore. |
 | Pokemini Folder | pokemini | An emulator for the Pokémon Mini handheld game console. |
@@ -186,15 +186,15 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 | PS2 Folder | ps2 | PlayStation 2, a home video game console developed by Sony. |
 | PS3 Folder | ps3 | PlayStation 3, a home video game console developed by Sony. |
 | PSP Folder | psp | PlayStation Portable, a handheld game console developed by Sony. |
-| Psvita Folder | psvita | PlayStation Vita, a handheld game console developed by Sony. |
-| Psx Folder | psx | PlayStation, a home video game console developed by Sony. |
+| PSVita Folder | psvita | PlayStation Vita, a handheld game console developed by Sony. |
+| PSX Folder | psx | PlayStation, a home video game console developed by Sony. |
 | Pv1000 Folder | pv1000 | A home video game console developed by Casio. |
 | Quake Folder | quake | A folder containing files related to the Quake series of games. |
 | Satellaview Folder | satellaview | A satellite modem add-on for the Super Famicom. |
 | Saturn Folder | saturn | A 32-bit home video game console developed by Sega. |
 | Satun JP Folder | saturnjp | The Japanese version of the Sega Saturn. |
 | SCUMMVM Folder | scummvm | An emulator for classic point-and-click adventure games. |
-| Scv Folder | scv | Super Cassette Vision, a home video game console developed by Epoch. |
+| SCV Folder | scv | Super Cassette Vision, a home video game console developed by Epoch. |
 | Sega32x Folder | sega32x | A 32-bit add-on for the Sega Genesis. |
 | Sega32x JP Folder | sega32xjp | The Japanese version of the Sega 32X add-on. |
 | Sega 32x NA Folder | sega32xna | The North American version of the Sega 32X add-on. |

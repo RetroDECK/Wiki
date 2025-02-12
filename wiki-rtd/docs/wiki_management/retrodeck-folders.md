@@ -2,7 +2,7 @@
 
 <img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="75">
 
-Here is the entire RetroDECK top-level folder structure.
+Here is the RetroDECK folder structure.
 
 ## Main Folders
 

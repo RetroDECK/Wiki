@@ -70,7 +70,7 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 
 | **Type** | **Folder** | **Comment** |
 |  :---:  | :---:       |   :---:     |
-| 3do Folder | 3do | A 32-bit console known for its high price and multimedia capabilities. |
+| 3DO Folder | 3do | A 32-bit console known for its high price and multimedia capabilities. |
 | Adam Folder | adam | A home computer and game console hybrid released by Coleco. |
 | Amiga Folder | amiga | A family of personal computers known for their graphics and sound capabilities. |
 | Amiga1200 Folder | amiga1200 | An advanced model of the Amiga computer with improved graphics and processing power. |

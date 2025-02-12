@@ -33,6 +33,8 @@ Here is the entire RetroDECK top-level folder structure.
 
 ## Roms Folder
 
+RetroDECK Follows the ES-DE ROMs Folder Structure. 
+
 | **Type** | **Folder** | **Comment** |
 |  :---:  | :---:       |   :---:     |
 | 3do Folder | 3do | |

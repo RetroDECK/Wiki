@@ -48,4 +48,8 @@ You can find the logfiles in the `retrodeck/.logs/` folder.
 
 RetroDECK ships with the best version for running games. For bleeding-edge emulators like RPCS3, it ships nightly versions. For RetroArch, it ships stable releases, but uses nightly versions of cores if no stable version exists.
 
+## Recovering Deleted Folders
+
+If you've accidentally deleted folders (BIOS, Saves, etc.) under `retrodeck/`, you can get them back by doing a Full Reset and redoing the initial setup.
+
 

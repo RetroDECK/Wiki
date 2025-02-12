@@ -39,7 +39,7 @@ Here is the RetroDECK folder structure.
 | Collections Folder | collections | Custom ES-DE Collection |
 | Custom Systems Folder | custom_systems |Custom Systems |
 | Downloaded Media Folder | downloaded_media | Scraping data |
-| Gamelists Folder | gamelists | |
+| Gamelists Folder | gamelists | ES-DE gamelist.xml files|
 | Themes Folder | themes | ES-DE Themes |
 
 ## BIOS Folder

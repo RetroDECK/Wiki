@@ -16,7 +16,6 @@ Here is the RetroDECK folder structure.
 
 | **Type**    |  **Folder**                 |          **Comment**     |          
 |  :---:  | :---:                  |             :---:     |
-       
 | BIOS Folder | `retrodeck/bios`        | BIOS folder (follows the RetroArch BIOS structure). |
 | Borders Folder | `retrodeck/borders`  | Border files for supported systems  |
 | Shaders Folder | `retrodeck/cheats`  | Cheat folders for supported systems |

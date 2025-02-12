@@ -16,7 +16,16 @@ GZDoom is the open source game engine for ID Software's older games like DOOM, D
 
 ---
 
-## Where to buy official DOOM?
+## Where to put the games?
+
+DOOM games should be put under the `retrodeck/roms/doom/` directory.
+
+
+## Does GZDOOM require BIOS or Firmware?
+
+No, but will need copies of DOOM. 
+
+### Where to buy official DOOM?
 
 To get started, you will need to purchase `DOOM` and `DOOM II`.
 
@@ -35,7 +44,6 @@ While `DOOM 3` and `DOOM 64` 64 are not necessary, sometimes it's more cost-effe
 - [DOOM 64 - Steam](https://store.steampowered.com/app/1148590/DOOM_64/)
 - [DOOM 3 - Steam](https://store.steampowered.com/app/208200/DOOM_3/)
 
-
 ### Freedoom
 
 The Freedoom project aims to provide all the content needed to form a complete, entirely free/libre game for the Doom engine.
@@ -43,6 +51,15 @@ The Freedoom project aims to provide all the content needed to form a complete, 
 It is designed to be compatible with most custom levels, music, graphics, and other modifications ("mods") made for the original Doom games by Doom fans and artists over the decades.
 
 [FreeDOOM](https://freedoom.github.io/)
+
+## Folder structure
+
+| Type    | Folder                 |          Comment     | 
+|  :---:  | :---:                  |             :---:     |
+| ROMs Folder |`retrodeck/roms/doom/` |                               |  
+| Saves Folder |`retrodeck/saves/wiiu/doom/` |                               |  
+| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/gzdoom/`         |   `gzdoom.ini`|
+| Data Folder |`~/.var/app/org.retrodeck.retrodeck/data/gzdoom` |   |
 
 ## What are iwads gzdoom is looking for?
 
@@ -140,7 +157,10 @@ No
 
 - Multiple controllers for local multiplayer don't work well due to bugs between GZDoom and Steam Input.
 - Set the primary controller as player one, especially if using an external controller with the Steam Deck. This prevents input loops.
-- Avoid pressing "Save configuration" in the GZDoom options menu if you have mods that add extra controls, as it will wipe those extra controls. Inputs will still be saved without pressing save.
+- Avoid pressing "Save configur## Where to put the games?
+
+WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
+ation" in the GZDoom options menu if you have mods that add extra controls, as it will wipe those extra controls. Inputs will still be saved without pressing save.
 
 ### Standard Controls
 

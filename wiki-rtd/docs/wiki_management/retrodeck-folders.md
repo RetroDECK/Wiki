@@ -183,9 +183,9 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 | Pokemini Folder | pokemini | An emulator for the Pokémon Mini handheld game console. |
 | PortMaster Folder | portmaster | A folder containing files related to PortMaster. |
 | Ports Folder | ports | A folder containing files related to game ports. |
-| Ps2 Folder | ps2 | PlayStation 2, a home video game console developed by Sony. |
-| Ps3 Folder | ps3 | PlayStation 3, a home video game console developed by Sony. |
-| Psp Folder | psp | PlayStation Portable, a handheld game console developed by Sony. |
+| PS2 Folder | ps2 | PlayStation 2, a home video game console developed by Sony. |
+| PS3 Folder | ps3 | PlayStation 3, a home video game console developed by Sony. |
+| PSP Folder | psp | PlayStation Portable, a handheld game console developed by Sony. |
 | Psvita Folder | psvita | PlayStation Vita, a handheld game console developed by Sony. |
 | Psx Folder | psx | PlayStation, a home video game console developed by Sony. |
 | Pv1000 Folder | pv1000 | A home video game console developed by Casio. |

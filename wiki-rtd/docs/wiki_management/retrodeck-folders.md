@@ -17,20 +17,20 @@ Here is the RetroDECK folder structure.
 | **Type**    |  **Folder**                 |          **Comment**     |          
 |  :---:  | :---:                  |             :---:     |
        
-| BIOS Folder | `retrodeck/bios`        | BIOS folder, follows the RetroArch BIOS structure |
-| Borders Folder | `retrodeck/borders`  | Contains various border files for supported systems  |
-| Shaders Folder | `retrodeck/cheats`  | Contains various cheat folders for supported systems |
-| ES-DE Folder | `retrodeck/ES-DE`  | Contains userdata files from ES-DE |
-| Logs Folder | `retrodeck/logs`  | Contains RetroDECK logfiles |
-| Mods Folder | `retrodeck/mods`  | Contains various mods folders for supported systems  |
-| PortMaster Folder | `retrodeck/PortMaster`  | Contains PortMaster downloaded games data|
-| ROMs Folder | `retrodeck/roms`  | Contains various ROMs folders for supported systems |
-| Saves Folder | `retrodeck/saves`  | Contains various save folders for supported systems |
-| Screenshots Folder | `retrodeck/saves`  | Contains various screenshots folders for supported systems |
-| Shaders Folder | `retrodeck/shaders`  | Contains various shader folders for supported systems |
-| States Folder | `retrodeck/states`  | Contains various state (save state) folders for supported systems |
+| BIOS Folder | `retrodeck/bios`        | BIOS folder (follows the RetroArch BIOS structure). |
+| Borders Folder | `retrodeck/borders`  | Border files for supported systems  |
+| Shaders Folder | `retrodeck/cheats`  | Cheat folders for supported systems |
+| ES-DE Folder | `retrodeck/ES-DE`  | Userdata from ES-DE |
+| Logs Folder | `retrodeck/logs`  | RetroDECK logfiles |
+| Mods Folder | `retrodeck/mods`  | Mods folders for supported systems  |
+| PortMaster Folder | `retrodeck/PortMaster`  | PortMaster downloaded games data|
+| ROMs Folder | `retrodeck/roms`  |  ROMs folders |
+| Saves Folder | `retrodeck/saves`  |  Save folders for supported systems |
+| Screenshots Folder | `retrodeck/saves`  |  Screenshots folders for supported systems |
+| Shaders Folder | `retrodeck/shaders`  |  Shader folders for supported systems |
+| States Folder | `retrodeck/states`  |  State (save state) folders for supported systems |
 | Sync Folder  |`retrodeck/.sync` |   Hidden folder for the Steam Sync feature contains sync .sh files       |  
-| Texture Packs Folder | `retrodeck/texture_packs`  | Contains various Texture Packs folders for supported systems |
+| Texture Packs Folder | `retrodeck/texture_packs`  |  Texture Packs folders for supported systems |
 
 
 ## ES-DE Folder
@@ -44,6 +44,8 @@ Here is the RetroDECK folder structure.
 | Themes Folder | themes | ES-DE Themes |
 
 ## BIOS Folder
+
+Most BIOS files are put in the root of the folder. 
 
 | **Type** | **Folder** | **Comment** |
 |  :---:  | :---:       |   :---:     |
@@ -66,7 +68,7 @@ Here is the RetroDECK folder structure.
 | Themes Folder | themes | |
 | Vita3K Folder | Vita3K | |
 
-## Roms Folder
+## ROMs Folder
 
 RetroDECK Follows the ES-DE ROMs Folder Structure. 
 

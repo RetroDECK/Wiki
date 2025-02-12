@@ -28,19 +28,23 @@ Before you start, make sure you have:
 
 Most of the initial setup needs to be done in `Desktop Mode`.
 
-Follow the guide: [Steam Deck - Installation](../wiki_devices/steamdeck/steamdeck-start.md)
+**Follow the guide:** [Steam Deck - Installation](../wiki_devices/steamdeck/steamdeck-start.md)
 
 #### Linux Desktop - Installation
 
-Follow the guide: [Linux Desktop - Installation](../wiki_devices/linux_desktop/linux-install.md)
+**Follow the guide:** 
+
+[Linux Desktop - Installation](../wiki_devices/linux_desktop/linux-install.md)
 
 ### Step 2: Place BIOS & Firmware
 
 <img src="../../wiki_icons/pixelitos/cpu.png" width="50">
 
-Read up on: [BIOS/Firmware](../wiki_management/bios-firmware.md)
-
 Place BIOS & Firmware files in the `retrodeck/bios/` directory.
+
+**Read up on:** 
+
+[BIOS/Firmware](../wiki_management/bios-firmware.md)
 
 ### Step 3: Place ROMs and Games
 
@@ -57,13 +61,19 @@ You have an example NES game called: `ExampleNESGame.nes`
 - Place `ExampleNESGame.nes` in the `retrodeck/roms/nes/` folder.
 - The result should be: `retrodeck/roms/nes/ExampleNESGame.nes`
 
+**Read up on:** 
+
+[RetroDECK Folders](../wiki_management/retrodeck-folders.md)
+
 ### Step 4: Read the ES-DE Frontend Guide
 
 <img src="../../wiki_images/logos/es-de-logo.png" width="55">
 
 ES-DE is the main user interface for RetroDECK.
 
-Read up on: [ES-DE Frontend: General Guide](../wiki_system_guides/es-de/esde-guide.md)
+**Read up on:** 
+
+[ES-DE Frontend: General Guide](../wiki_system_guides/es-de/esde-guide.md)
 
 ### Step 5: Playing the Games
 

@@ -16,19 +16,21 @@ Here is the RetroDECK folder structure.
 
 | **Type**    |  **Folder**                 |          **Comment**     |          
 |  :---:  | :---:                  |             :---:     |
-| Sync Folder  |`retrodeck/.sync` |   Hidden folder for the Steam Sync feature contains sync .sh files       |         
+       
 | BIOS Folder | `retrodeck/bios`        | BIOS folder, follows the RetroArch BIOS structure |
-| Borders Folder | `retrodeck/borders`  | Artfiles for RetroArch borders. |
+| Borders Folder | `retrodeck/borders`  | Contains various border files for supported systems  |
+| Shaders Folder | `retrodeck/cheats`  | Contains various cheat folders for supported systems |
 | ES-DE Folder | `retrodeck/ES-DE`  | Contains userdata files from ES-DE |
 | Logs Folder | `retrodeck/logs`  | Contains RetroDECK logfiles |
-| Mods Folder | `retrodeck/mods`  | Contains various mods folders for all supported systems  |
+| Mods Folder | `retrodeck/mods`  | Contains various mods folders for supported systems  |
 | PortMaster Folder | `retrodeck/PortMaster`  | Contains PortMaster downloaded games data|
-| ROMs Folder | `retrodeck/roms`  | Contains various ROMs folders for all supported systems |
-| Saves Folder | `retrodeck/saves`  | Contains various save folders for all supported systems |
-| Screenshots Folder | `retrodeck/saves`  | Contains various screenshots folders for all supported systems |
-| Shaders Folder | `retrodeck/shaders`  | Contains various shader folders for all supported systems |
-| States Folder | `retrodeck/states`  | Contains various state (save state) folders for all supported systems |
-| Texture Packs Folder | `retrodeck/texture_packs`  | Contains various Texture Packs folders for all supported systems |
+| ROMs Folder | `retrodeck/roms`  | Contains various ROMs folders for supported systems |
+| Saves Folder | `retrodeck/saves`  | Contains various save folders for supported systems |
+| Screenshots Folder | `retrodeck/saves`  | Contains various screenshots folders for supported systems |
+| Shaders Folder | `retrodeck/shaders`  | Contains various shader folders for supported systems |
+| States Folder | `retrodeck/states`  | Contains various state (save state) folders for supported systems |
+| Sync Folder  |`retrodeck/.sync` |   Hidden folder for the Steam Sync feature contains sync .sh files       |  
+| Texture Packs Folder | `retrodeck/texture_packs`  | Contains various Texture Packs folders for supported systems |
 
 
 ## ES-DE Folder

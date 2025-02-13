@@ -1,6 +1,6 @@
 # FAQ: Feature Requests
 
-<img src="../../wiki_icons/retrodeck/rd_icon_circle_192x192.png"width="75">
+<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="75">
 
 ## Will you implement X/Y/Z system?
 

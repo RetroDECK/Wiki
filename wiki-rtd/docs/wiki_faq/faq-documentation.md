@@ -1,6 +1,6 @@
 # FAQ: Documentation & Wiki
 
-<img src="../../wiki_images/logos/mkdocs-material-logo.svg" width="75">
+<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="75">
 
 ## What is sudo?
 

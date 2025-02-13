@@ -1,4 +1,6 @@
-# RetroDECK - Steam Input Templates
+# RetroDECK - Supported Controllers
+
+<img src="../../wiki_icons/pixelitos/game-input.png" width="75">
 
 RetroDECK handles advanced controller mapping via Steam Input. More controllers will be added as Steam Input supports them.
 

@@ -1,4 +1,4 @@
-# FAQ: Emulation Questions
+# FAQ: Emulation
 
 ## What is a ROM File Used by Emulators?
 

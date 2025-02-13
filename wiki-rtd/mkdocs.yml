@@ -4,7 +4,7 @@ site_name: RetroDECK Wiki
 site_description: The Official RetroDECK Wiki
 
 # Copyright
-copyright: "CC BY-SA 4.0 - RetroDECK Team"
+copyright: "GPL3 - RetroDECK Team"
 
 # Theme Configuration
 theme:

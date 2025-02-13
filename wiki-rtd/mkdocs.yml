@@ -174,8 +174,9 @@ nav:
 
     - RetroArch 👾:
       - RetroArch - General Guide: wiki_emulator_guides/retroarch/retroarch-guide.md
-      - Mesen Core - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mesen-texture-pack.md
-      - Mupen64Plus-Next Core - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mupen64plus-texture-pack.md
+      - Mesen (NES) - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mesen-texture-pack.md
+      - Beetle (PSX) HW - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-beetlehw-texture-pack.md
+      - Mupen64Plus-Next (N64) - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mupen64plus-texture-pack.md
 
     - RPCS3 3️⃣:
       - RPCS3 - General Guide: wiki_emulator_guides/rpcs3/rpcs3-guide.md

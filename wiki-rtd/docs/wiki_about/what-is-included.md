@@ -20,6 +20,8 @@ RetroDECK comes with the `RetroDECK Framework` that allows deeper integrations b
 
 ### RetroDECK Configurator 
 
+<img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="100">
+
 The RetroDECK Configurator is a powerful `Utility` that exposes some parts of the `RetroDECK Framework` to the RetroDECK users.
 
 It can be used to change/modify and manipulate various aspects of RetroDECK.

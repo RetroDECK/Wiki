@@ -1,5 +1,44 @@
 # RetroDECK Hotkeys
 
+## The HotKey Button
+
+The global hotkeys are activated by pressing and holding the HKB (HotKey Button) and pressing the corresponding button together for the command you want to execute.
+
+- On the Steam Deck, the HKB can be either `L4`, `R4`, or `Select`, depending on what is closest for the button combo you are trying to press.
+- For the PlayStation, the `HKB` is `Select`.
+- For Nintendo, the `HKB` is `Minus`.
+- For Xbox, the `HKB` is `Select`.
+
+**Example:**
+
+To execute the Pause / Resume command, press and hold either L4, R4, or Select on the Steam Deck, and press A. For PlayStation, press and hold Select and press Cross. For Nintendo, press and hold Minus and press B. For Xbox, press and hold Select and press A.
+
+## Hotkey list
+
+Function: Shows what the hotkey does.
+Button / Combination: Shows the input you need to make to trigger the command.
+Command: Shows what is being sent to the emulator.
+System Support: Shows what emulators support the command.
+Comment: Extra comments.
+
+| Function                 | Xbox / Steam Deck | Nintendo | Playstation | Command      | System Support     |    Comment |
+| :---                    | :---:               | :---:    | :---:       | :---:        | :---:              |  :---:     |
+| Pause / Resume          | `HKB + A`           | `HKB + B` | `HKB + Cross` | `CTRL + P`   | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)` `Yuzu (Legacy)` |            |
+| Take Screenshot         |                     | `HKB + A` | `HKB + Circle` | `CTRL + X`   | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)` `Yuzu (Legacy)` |            |
+| Fullscreen Toggle       | `HKB + X`           | `HKB + Y` | `HKB + Square` | `CTRL + ENTER` | `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)` `Yuzu (Legacy)` `RPCS3` |            |
+| Open Menu               | `HKB + Y`           | `HKB + X` | `HKB + Triangle` | `CTRL + M`   | `RetroArch` `Duckstation (Standalone)` `PCSX2 (Standalone)` `Yuzu (Legacy)` `RPCS3` |            |
+| Quit Emulator           | `HKB + Start`       | `HKB + Start` | `HKB + Start` | `CTRL + Q`   | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)` `Yuzu (Legacy)` |            |
+| Previous State Slot     | `HKB + D-Pad Left`  | `HKB + D-Pad Left` | `HKB + D-Pad Left` | `CTRL + J`   | `RetroArch` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)` |            |
+| Next State Slot         | `HKB + D-Pad Right` | `HKB + D-Pad Right` | `HKB + D-Pad Right` | `CTRL + K`   | `RetroArch` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)` |            |
+| Increase Emulation Speed | `HKB + D-Pad Up`   | `HKB + D-Pad Up` | `HKB + D-Pad Up` | `CTRL + 1`   | `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)` |            |
+| Decrease Emulation Speed | `HKB + D-Pad Down` | `HKB + D-Pad Down` | `HKB + D-Pad Down` | `CTRL + 2`   | `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)` |            |
+| Load State              | `HKB + L1`          | `HKB + L1` | `HKB + L1` | `CTRL + A`   | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)` |            |
+| Save State              | `HKB + R1`          | `HKB + R1` | `HKB + R1` | `CTRL + S`   | `RetroArch` `Citra (Legacy)` `Dolphin/Primehack (Standalone)` `Duckstation (Standalone)` `PCSX2 (Standalone)` |            |
+| Rewind                  | `HKB + L2`          | `HKB + L2` | `HKB + L2` | `CTRL + -`   | `RetroArch` `Duckstation (Standalone)` |            |
+| Fast forward            | `HKB + R2`          | `HKB + R2` | `HKB + R2` | `CTRL + +`   | `RetroArch` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)` |            |
+
+---
+
 The global hotkeys are activated by pressing the `SELECT`  button and holding it while pressing the corresponding other button input.
 
 What follows is a list of hotkeys:

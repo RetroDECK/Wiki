@@ -58,7 +58,7 @@ The `Speed / Frames Menu` is where you find anything related to: emulation speed
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Fastforward             |   `Ctrl + +`         | `RetroArch` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30">  |   |
+| Fast Forward             |   `Ctrl + +`         | `RetroArch` `Duckstation (Standalone)` `MelonDS (Standalone)` `PCSX2 (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30">  |   |
 | Rewind                  |   `CTRL + -`         |  `RetroArch` `Duckstation (Standalone)`|   <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30">  |   |
 | Increase Emulation Speed|   `CTRL + 1`         | `Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-zoom-in.png" width="30">  |   |
 | Decrease Emulation Speed|   `CTRL + 2`         |`Citra (Legacy)` `Dolphin/Primehack (Standalone)`  `Duckstation (Standalone)` `PCSX2 (Standalone)` |   <img src="../../wiki_icons/binding_icons/RD-zoom-out.png" width="30">  |   |

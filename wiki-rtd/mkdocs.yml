@@ -78,8 +78,8 @@ nav:
     - What is the Story Behind RetroDECK?: wiki_about/story-goals.md
     - Supported Devices & OS: wiki_general/supported-devices.md
     - Supported Controllers: wiki_general/supported-controllers.md
-    - Bugs & Known Issues: wiki_general/known-issues.md
     - Version History: wiki_rd_versions/version-history.md
+    - Report a Problem & Known Issues: wiki_general/known-issues.md
     - How to Contribute?: wiki_about/contibute-retrodeck.md
     - Donations & Licenses: wiki_about/donations-licenses.md
 

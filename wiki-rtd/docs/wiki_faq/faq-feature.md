@@ -39,3 +39,41 @@ Here are some open-source options:
 - [Syncthing](https://github.com/syncthing/syncthing)
 
 - [Syncthing GTK GUI](https://flathub.org/apps/me.kozec.syncthingtk)
+
+
+## Will you support Windows?
+
+<img src="../../wiki_icons/pixelitos/distributor-logo-windows.png" width="50">
+
+No, RetroDECK doesn't support Windows currently. 
+
+You can try [RetroBat](https://www.retrobat.org/) for similar functionality on Windows.
+
+Alternatively, you can install a Linux distribution on your device to use RetroDECK. Supporting Windows would be a major undertaking and would require more developers with Windows experience.
+
+## Will you support ARM devices like iOS, MacOS and Android?
+
+<img src="../../wiki_icons/pixelitos/distributor-logo-macos.png" width="50"> <img src="../../wiki_icons/pixelitos/android.png" width="50">
+
+No, RetroDECK doesn't support ARM devices currently. 
+
+The underlying systems would need to be rewritten due to different emulators and licensing models,
+especially on Android where some emulators are open source on x86_64 but closed source on ARM.
+
+Supporting ARM devices would be a major undertaking and would require more developers with ARM experience.
+
+## Will you support RISC-V?
+
+The idea of supporting RISC-V is exciting, but it as everything else would be a major undertaking.
+
+It might be possible in the far-off future as the platform matures and gains more compatibility.
+
+But supporting RISC-V devices would be a major undertaking and would require more developers with RISC-V experience.
+
+## Will you support other Linux distribution methods such as Snap, AppImage, AUR, etc...?
+
+It's not in our roadmap yet. Currently, the entire build system is based on flatpak-build. 
+
+The team is not large enough to migrate and maintain other distribution methods. 
+
+However, if someone with knowledge and passion wishes to help with migrating and maintaining it, we are open to discussion.

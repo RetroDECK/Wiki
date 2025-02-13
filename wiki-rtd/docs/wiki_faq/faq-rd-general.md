@@ -2,43 +2,47 @@
 
 <img src="../../wiki_icons/retrodeck/icon-rd.svg" width="75">
 
-## What does the "b" stand for in the versioning number?
+## Mixed Questions
+
+### What does the "b" stand for in the versioning number?
 
 It stands for Beta.
 
-## What software is included in RetroDECK?
+### What software is included in RetroDECK?
 
 Check: [RetroDECK: What's included?](../wiki_about/what-is-included.md)
 
-## Does RetroDECK include any games?
+### Does RetroDECK include any games?
 
 No, RetroDECK does not include any games at this moment.
 
-## Does RetroDECK include any Firmware or BIOS?
+### Does RetroDECK include any Firmware or BIOS?
 
 RetroDECK only includes those BIOS and Firmware that are Open-Source or Free to use. All others must be provided by the user.
 
-### Can you at least point me towards where I can find: Games, Firmware, or BIOS?
+#### Can you at least point me towards where I can find: Games, Firmware, or BIOS?
 
 For purchased titles, we recommend using your own game backups and investigating how to extract the Firmware or BIOS from your own consoles. Some games can be bought from itch.io, GOG, and Steam.
 
-## When does the next version of RetroDECK come out?
+### When does the next version of RetroDECK come out?
 
 When it's ready.
 
-### When does the version after the upcoming version come out?
+#### When does the version after the upcoming version come out?
 
 After the upcoming version.
 
-### When will version 1.0 of RetroDECK come out?
+#### When will version 1.0 of RetroDECK come out?
 
 In the future.
 
-## How do I connect my Patreon to Discord?
+### How do I connect my Patreon to Discord?
 
 Check the: [Pateron Article](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access)
 
-## What is flatpak?
+## Flatpak Questions
+
+### What is flatpak?
 
 Flatpak is a framework and application packaging method for distributing sandboxed desktop applications across various Linux distributions. 
 
@@ -48,7 +52,6 @@ Read more here: [Introduction to Flatpak](https://docs.flatpak.org/en/latest/int
 
 ### RetroDECK is a sandbox?
 
-
 RetroDECK only writes in two folders: `~/retrodeck/` for userdata and a hidden folder located in`~/.var/net.retrodeck.retrodeck/`where all the config files and defaults are stored. 
 
 This containment ensures no conflicts with other systems you may install. 
@@ -57,7 +60,7 @@ If you uninstall RetroDECK, all userdata files remain safe until you manually re
 
 This all-in-one package approach allows RetroDECK to integrate tightly with each bundled systems and expose all settings within the application itself.
 
-## Why does RetroDECK need the filesystem=host permission?
+### Why does RetroDECK need the filesystem=host permission?
 
 `filesystem=host` is the only permission that allows full access to `/media` and `/mnt`. 
 
@@ -67,7 +70,7 @@ The best solution would be more granular permissions in Flatpak and Flathub, suc
 
 We have provided feedback to the developers, and they are looking into it for the future. As soon as more granular permissions are available, we will switch to those.
 
-## On other Emulation / Retro gaming solutions
+## Other Emulation / Retro gaming solutions Questions
 
 ### Are you related anyway to ES-DE?
 
@@ -127,3 +130,4 @@ Maybe, but we recommend doing it system by system, not the entire folder.
 - EmuDeck is a shell script interface that downloads and configures separate emulators and plugins for you from various sources, creating a common linked folder structure.
 
 - RetroDECK is an all-in-one application that provides a preconfigured but modifiable environment. It allows users to update the application from standard update methods built into the operating system. All important user data files are contained within one folder `~/retrodeck/`. The core design philosophy is that everything should be contained within the application itself.
+

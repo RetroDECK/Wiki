@@ -14,13 +14,13 @@ What follows is a list of features and software currently included in RetroDECK.
 
 ### RetroDECK Framework
 
-<img src="../../wiki_icons/retrodeck/icon-framework.svg" width="100">
+<img src="../../wiki_icons/retrodeck/icon-framework.svg" width="50">
 
 RetroDECK comes with the `RetroDECK Framework` that allows deeper integrations between the built-in software and easier exposure to a variety of features that you otherwise need to set for example per system basis to create a uniformity between them.
 
 ### RetroDECK Configurator 
 
-<img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="100">
+<img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="50">
 
 The RetroDECK Configurator is a powerful `Utility` that exposes some parts of the `RetroDECK Framework` to the RetroDECK users.
 
@@ -48,7 +48,7 @@ It can help with:
 
 ### RetroENGINE
 
-<img src="../../wiki_icons/retrodeck/icon-engine.svg" width="100">
+<img src="../../wiki_icons/retrodeck/icon-engine.svg" width="50">
 
 RetroENGINE allows you to run various game files directly with RetroDECK from the desktop without starting the application.
 
@@ -63,7 +63,7 @@ It supports the association of common game file extensions with RetroDECK. Addit
 
 ### ES-DE
 
-<img src="../../wiki_images/logos/es-de-logo.png" width="100">
+<img src="../../wiki_images/logos/es-de-logo.png" width="50">
 
 ES-DE is the base frontend for RetroDECK. RetroDECK includes specific tweaks to the ES-DE standard setup to enable unique functions like the `RetroDECK Configurator`, which can be accessed via the ES-DE Menu.
 
@@ -71,7 +71,7 @@ ES-DE is the base frontend for RetroDECK. RetroDECK includes specific tweaks to 
 
 ### RetroArch
 
-<img src="../../wiki_images/logos/retroarch-logo.png" width="100">
+<img src="../../wiki_images/logos/retroarch-logo.png" width="50">
 
 RetroArch supports many systems via its cores, and RetroDECK ships with all cores under the stable branch of RetroArch. If there is no stable version of a core, the nightly version will be used instead.
 
@@ -81,7 +81,7 @@ For a full list of supported systems in RetroArch, follow the link and check the
 
 ### MAME
 
-<img src="../../wiki_images/logos/mame-logo.png" width="180">
+<img src="../../wiki_images/logos/mame-logo.png" width="100">
 
 The full version of the multi-arcade emulator MAME.
 
@@ -91,7 +91,7 @@ The full version of the multi-arcade emulator MAME.
 
 ### CEMU
 
-<img src="../../wiki_images/logos/cemu-logo.png" width="100">
+<img src="../../wiki_images/logos/cemu-logo.png" width="50">
 
 The WiiU Emulator CEMU.
 
@@ -100,7 +100,7 @@ The WiiU Emulator CEMU.
 
 ### Dolphin & Primehack
 
-<img src="../../wiki_images/logos/dolphin-logo.png" width="100"> <img src="../../wiki_images/logos/primehack-logo.png" width="100">
+<img src="../../wiki_images/logos/dolphin-logo.png" width="50"> <img src="../../wiki_images/logos/primehack-logo.png" width="50">
 
 The Wii and GameCube Emulator Dolphin and The Metroid Prime fork of Dolphin.
 
@@ -109,7 +109,7 @@ The Wii and GameCube Emulator Dolphin and The Metroid Prime fork of Dolphin.
 
 ### melonDS
 
-<img src="../../wiki_images/logos/melonds-logo.svg" width="100">
+<img src="../../wiki_images/logos/melonds-logo.svg" width="50">
 
 The Nintendo DS emulator melonDS.
 
@@ -118,7 +118,7 @@ The Nintendo DS emulator melonDS.
 
 ### PCSX2
 
-<img src="../../wiki_images/logos/pcsx2-logo.png" width="180">
+<img src="../../wiki_images/logos/pcsx2-logo.png" width="125">
 
 The Playstation 2 emulator PCSX2.
 
@@ -126,7 +126,7 @@ The Playstation 2 emulator PCSX2.
 
 ### PPSSPP
 
-<img src="../../wiki_images/logos/ppsspp-logo.png" width="100">
+<img src="../../wiki_images/logos/ppsspp-logo.png" width="50">
 
 The PSP emulator PPSSPP.
 
@@ -134,7 +134,7 @@ The PSP emulator PPSSPP.
 
 ### RPCS3
 
-<img src="../../wiki_images/logos/rpcs3-logo.png" width="100">
+<img src="../../wiki_images/logos/rpcs3-logo.png" width="50">
 
 The PS3 emulator RPCS3.
 
@@ -142,7 +142,7 @@ The PS3 emulator RPCS3.
 
 ### Ruffle
 
-<img src="../../wiki_images/logos/ruffle-logo.svg" width="100">
+<img src="../../wiki_images/logos/ruffle-logo.svg" width="50">
 
 The flash emulator Ruffle.
 
@@ -150,7 +150,7 @@ The flash emulator Ruffle.
 
 ### Vita3k
 
-<img src="../../wiki_images/logos/vita3k-logo.png" width="100">
+<img src="../../wiki_images/logos/vita3k-logo.png" width="50">
 
 The PSVita emulator Vita3k.
 
@@ -158,7 +158,7 @@ The PSVita emulator Vita3k.
 
 ### XEMU
 
-<img src="../../wiki_images/logos/xemu-logo.png" width="100">
+<img src="../../wiki_images/logos/xemu-logo.png" width="50">
 
 The Xbox emulator XEMU.
 
@@ -170,7 +170,7 @@ Legacy Emulators are emulators that are included but no longer supported because
 
 ### Ryujinx (Legacy)
 
-<img src="../../wiki_images/logos/ryujinx-logo.svg" width="100">
+<img src="../../wiki_images/logos/ryujinx-logo.svg" width="50">
 
 The Switch emulator Ryujinx, (has stopped development).
 
@@ -178,7 +178,7 @@ The Switch emulator Ryujinx, (has stopped development).
 
 ### Duckstation (Legacy)
 
-<img src="../../wiki_images/logos/duckstation-logo.png" width="100">
+<img src="../../wiki_images/logos/duckstation-logo.png" width="50">
 
 Playstation 1 (PSX) emulator Duckstation (has made licensing changes).
 
@@ -196,7 +196,7 @@ Solarus is a free and open-source 2D game engine written in C++, that can run ga
 
 ### GZDoom
 
-<img src="../../wiki_images/logos/gzdoom-logo.png" width="100">
+<img src="../../wiki_images/logos/gzdoom-logo.png" width="50">
 
 GZDoom is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.
 
@@ -204,7 +204,7 @@ GZDoom is a feature centric port for all Doom engine games, based on ZDoom, addi
 
 ### IKEMEN Go (M.U.G.E.N)
 
-<img src="../../wiki_images/logos/ikemen-go-logo.png" width="100">
+<img src="../../wiki_images/logos/ikemen-go-logo.png" width="50">
 
 IKEMEN Go is a remake of the IKEMEN (open source fighting games engine that supports M.U.G.E.N resources) in Google’s Programming Language “Go”.
 
@@ -212,7 +212,7 @@ IKEMEN Go is a remake of the IKEMEN (open source fighting games engine that supp
 
 ### Pico-8
 
-<img src="../../wiki_images/logos/pico-8-logo.svg" width="200">
+<img src="../../wiki_images/logos/pico-8-logo.svg" width="125">
 
 The fantasy console Pico-8.
 
@@ -222,21 +222,21 @@ The fantasy console Pico-8.
 
 ### PortMaster
 
-<img src="../../wiki_images/logos/portmaster-logo.png" width="150">
+<img src="../../wiki_images/logos/portmaster-logo.png" width="75">
 
 PortMaster is a simple GUI tool designed to facilitate the downloading and installation of game ports for Linux devices and is self contained.
 
-[PortMaster - General Guide](../wiki_engine_guides/portmaster/portmaster-guide.md)
+[PortMaster - General Guide](../wiki_system_guides/portmaster/portmaster-guide.md)
 
 ### Steam Rom Manger 
 
-<img src="../../wiki_images/logos/srm-logo.png" width="150">
+<img src="../../wiki_images/logos/srm-logo.png" width="50">
 
 Steam ROM Manager (SRM) a bulk game importer and artwork manager for Steam.
 
 It adds separate games to Steam, adds artwork and configures the steam input profiles. 
 
-[SRM - General Guide](../wiki_engine_guides/srm/srm-guide.md)
+[SRM - General Guide](../wiki_system_guides/srm/srm-guide.md)
 
 ## Steam Input Controller layouts
 

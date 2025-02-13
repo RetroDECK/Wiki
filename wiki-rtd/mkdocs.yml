@@ -10,7 +10,7 @@ copyright: "&copy; 2025 RetroDECK Team"
 theme:
   name: material
   language: "en"
-  logo: wiki_icons/retrodeck/rd_icon_circle_32x32.png
+  logo: wiki_icons/retrodeck/icon-rd.svg
   features:
    - navigation.path
    - content.code.copy

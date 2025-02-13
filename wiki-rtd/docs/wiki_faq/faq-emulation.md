@@ -1,4 +1,4 @@
-# FAQ: Emulation Requests
+# FAQ: Emulation Questions
 
 ## What are CD Image Formats and Disc Images?
 

@@ -1,4 +1,8 @@
-# Information on donations
+# Donations & Licenses 
+
+<img src="../../wiki_icons/svgrepo/donate.svg" width="100">
+
+## Information
 
 RetroDECK relies on its dependencies to function. Without them, RetroDECK and similar projects cannot exist. We aim to collaborate with other projects to improve RetroDECK and Linux as a whole.
 
@@ -12,7 +16,7 @@ There are many emulators, software, front-ends, and assets not part of RetroDECK
 
 ## RetroDECK
 
-<img src="../../wiki_images/logos/rd-logo-box.png" width="550">
+<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="75">
 
 By donating to RetroDECK, you support the project and the vision of a unified experience.
 

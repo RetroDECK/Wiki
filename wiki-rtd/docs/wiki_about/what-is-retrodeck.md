@@ -72,21 +72,19 @@ To get the latest updates first:
 - Follow [The RetroDECK Blog](../blog/index.md).
 - Look at [Github issues](https://github.com/XargonWan/RetroDECK/issues/) for clues.
 
-## Wiki Links for more information
+## Patch Notes and Known Issues
 
 [Version History](../wiki_rd_versions/version-history.md)
 
-[Known Issues](../wiki_general/known-issues.md)
+[Known Issues & Reporting a Problem](../wiki_general/known-issues.md)
 
-### The FAQ & Guides ❔
+### The FAQs❔
 
 Could answers several questions you might have about the project as well.
 
 [FAQ: General Questions](../wiki_faq/faq-rd-general.md)
 
 [FAQ: Usage Questions](../wiki_faq/faq-rd-usage.md)
-
-[Guide: ES-DE](../wiki_system_guides/es-de/esde-guide.md)
 
 [FAQ: Feature Requests](../wiki_faq/faq-feature.md)
 

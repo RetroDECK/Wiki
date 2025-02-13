@@ -12,15 +12,13 @@ What follows is a list of features and software currently included in RetroDECK.
 
 ## RetroDECK Features
 
-### RetroDECK Configurator & RetroDECK Framework
+### RetroDECK Framework
 
-<img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="100">
-
-**The RetroDECK Framework**
+<img src="../../wiki_icons/retrodeck/icon-framework.svg" width="100">
 
 RetroDECK comes with the `RetroDECK Framework` that allows deeper integrations between the built-in software and easier exposure to a variety of features that you otherwise need to set for example per system basis to create a uniformity between them.
 
-**RetroDECK Configurator**
+### RetroDECK Configurator 
 
 The RetroDECK Configurator is a powerful `Utility` that exposes some parts of the `RetroDECK Framework` to the RetroDECK users.
 
@@ -85,6 +83,8 @@ For a full list of supported systems in RetroArch, follow the link and check the
 
 The full version of the multi-arcade emulator MAME.
 
+[MAME - General Guide](../wiki_emulator_guides/mame/mame-guide.md)
+
 ## Standalone Emulators
 
 ### CEMU
@@ -93,17 +93,17 @@ The full version of the multi-arcade emulator MAME.
 
 The WiiU Emulator CEMU.
 
-### Dolphin
+[Cemu - General Guide](../wiki_emulator_guides/cemu/cemu-guide.md)
 
-<img src="../../wiki_images/logos/dolphin-logo.png" width="100">
 
-The Wii and GameCube Emulator Dolphin.
+### Dolphin & Primehack
 
-### Primehack
+<img src="../../wiki_images/logos/dolphin-logo.png" width="100"> <img src="../../wiki_images/logos/primehack-logo.png" width="100">
 
-<img src="../../wiki_images/logos/primehack-logo.png" width="100">
+The Wii and GameCube Emulator Dolphin and The Metroid Prime fork of Dolphin.
 
-The Metroid Prime fork of Dolphin.
+[Dolphin / Primehack - General Guide](../wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md)
+
 
 ### melonDS
 
@@ -111,11 +111,16 @@ The Metroid Prime fork of Dolphin.
 
 The Nintendo DS emulator melonDS.
 
+[melonDS - General Guide](../wiki_emulator_guides/melonds/melonds-guide.md)
+
+
 ### PCSX2
 
 <img src="../../wiki_images/logos/pcsx2-logo.png" width="180">
 
 The Playstation 2 emulator PCSX2.
+
+[PCSX2 - General Guide](../wiki_emulator_guides/pcsx2/pcsx2-guide.md)
 
 ### PPSSPP
 
@@ -123,11 +128,15 @@ The Playstation 2 emulator PCSX2.
 
 The PSP emulator PPSSPP.
 
+[PPSSPP - General Guide](../wiki_emulator_guides/ppsspp/ppsspp-guide.md)
+
 ### RPCS3
 
 <img src="../../wiki_images/logos/rpcs3-logo.png" width="100">
 
 The PS3 emulator RPCS3.
+
+[RPCS3 - General Guide](../wiki_emulator_guides/rpcs3/rpcs3-guide.md)
 
 ### Ruffle
 
@@ -135,11 +144,15 @@ The PS3 emulator RPCS3.
 
 The flash emulator Ruffle.
 
+[Ruffle - General Guide](../wiki_emulator_guides/ruffle/ruffle-guide.md)
+
 ### Vita3k
 
 <img src="../../wiki_images/logos/vita3k-logo.png" width="100">
 
 The PSVita emulator Vita3k.
+
+[Vita3k - General Guide](../wiki_emulator_guides/vita3k/vita3k-guide.md)
 
 ### XEMU
 
@@ -147,25 +160,27 @@ The PSVita emulator Vita3k.
 
 The Xbox emulator XEMU.
 
+[XEMU - General Guide](../wiki_emulator_guides/xemu/xemu-guide.md)
+
 ## Included: Legacy Emulators
 
 Legacy Emulators are emulators that are included but no longer supported because of ceased development on the Emulators part or other things.
 
-### Ryujinx
+### Ryujinx (Legacy)
 
 <img src="../../wiki_images/logos/ryujinx-logo.svg" width="100">
 
-The Switch emulator Ryujinx.
+The Switch emulator Ryujinx, (has stopped development).
 
-Has stopped development.
+[Ryujinx - General Guide](../wiki_emulator_guides/ryujinx/ryujinx-guide.md)
 
-### Duckstation
+### Duckstation (Legacy)
 
 <img src="../../wiki_images/logos/duckstation-logo.png" width="100">
 
-Playstation 1 (PSX) emulator Duckstation.
+Playstation 1 (PSX) emulator Duckstation (has made licensing changes).
 
-Has made licensing changes.
+[Duckstation - General Guide](../wiki_emulator_guides/duckstation/duckstation-guide.md)
 
 ## Standalone Engines
 
@@ -175,11 +190,15 @@ Has made licensing changes.
 
 Solarus is a free and open-source 2D game engine written in C++, that can run games scripted in Lua. It has been designed with 16-bit classic Action-RPGs in mind, and is available on a wide range of platforms.
 
+[Solarus - General Guide](../wiki_engine_guides/solarus/solarus-guide.md)
+
 ### GZDoom
 
 <img src="../../wiki_images/logos/gzdoom-logo.png" width="100">
 
 GZDoom is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.
+
+[GZDoom - General Guide](../wiki_engine_guides/gzdoom/gzdoom-guide.md)
 
 ### IKEMEN Go (M.U.G.E.N)
 
@@ -187,11 +206,15 @@ GZDoom is a feature centric port for all Doom engine games, based on ZDoom, addi
 
 IKEMEN Go is a remake of the IKEMEN (open source fighting games engine that supports M.U.G.E.N resources) in Google’s Programming Language “Go”.
 
+[IKEMEN Go - General Guide](../wiki_engine_guides/ikemengo/ikemengo-guide.md)
+
 ### Pico-8
 
 <img src="../../wiki_images/logos/pico-8-logo.svg" width="200">
 
 The fantasy console Pico-8.
+
+[Pico-8 - General Guide](../wiki_engine_guides/pico8/pico8-guide.md)
 
 ## Systems
 
@@ -201,13 +224,17 @@ The fantasy console Pico-8.
 
 PortMaster is a simple GUI tool designed to facilitate the downloading and installation of game ports for Linux devices and is self contained.
 
-### Steam Rom Manger
+[PortMaster - General Guide](../wiki_engine_guides/portmaster/portmaster-guide.md)
+
+### Steam Rom Manger 
 
 <img src="../../wiki_images/logos/srm-logo.png" width="150">
 
-Steam ROM Manager a bulk game importer and artwork manager for Steam.
+Steam ROM Manager (SRM) a bulk game importer and artwork manager for Steam.
 
 It adds separate games to Steam, adds artwork and configures the steam input profiles. 
+
+[SRM - General Guide](../wiki_engine_guides/srm/srm-guide.md)
 
 ## Steam Input Controller layouts
 

@@ -1,5 +1,10 @@
 # Steam Deck: RetroDECK Hotkeys
 
+<img src="../../../wiki_icons/pixelitos/steam.png" width="75">
+
+
+## Steam Deck - Input Map
+
 <img src="../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550">
 
 ## Radial Menu System

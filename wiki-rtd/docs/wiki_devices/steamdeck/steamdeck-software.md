@@ -1,5 +1,7 @@
 # Steam Deck - Recommended Software
 
+<img src="../../../wiki_icons/pixelitos/steam.png" width="75">
+
 These software options work great with the Steam Deck and can enhance your RetroDECK or general gaming experience.
 
 **Tip:**
@@ -8,15 +10,13 @@ Also visit [Linux Desktop - Recommended Software](../linux_desktop/linux-softwar
 
 ## Decky Loader
 
-<img src="../../../wiki_images/logos/decky-loader-logo.png" width="450">
+<img src="../../../wiki_images/logos/decky-loader-logo.png" width="200">
 
 [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader)
 
 Allows custom plugins inside Steam Deck's gamemode for advanced features. Follow the guide on their GitHub for installation.
 
 ### Plugin: PowerTools
-
-<img src="../../../wiki_images/logos/powertools-logo.png" width="150">
 
 [PowerTools](https://git.ngni.us/NG-SD-Plugins/PowerTools)
 
@@ -36,7 +36,7 @@ Browse and manage Steam artwork from SteamGridDB or local files within gaming mo
 
 ## CryoUtilities
 
-<img src="../../../wiki_images/logos/cryoutilities-logo.png" width="150">
+<img src="../../../wiki_images/logos/cryoutilities-logo.png" width="50">
 
 [CryoUtilities](https://github.com/CryoByte33/steam-deck-utilities)
 
@@ -45,7 +45,7 @@ A utility to improve performance and help manage storage on Steam Deck.
 
 ## Discover Overlay
 
-<img src="../../../wiki_images/logos/discover-overlay-logo.svg" width="150">
+<img src="../../../wiki_images/logos/discover-overlay-logo.svg" width="50">
 
 [Discover Overlay](https://flathub.org/apps/io.github.trigg.discover_overlay)
 

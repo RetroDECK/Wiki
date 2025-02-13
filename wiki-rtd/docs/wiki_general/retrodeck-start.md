@@ -22,7 +22,7 @@ Before you start, make sure you have:
 
 ### Step 1: Installation
 
-<img src="../../wiki_images/logos/steam-deck-logo.png" width="50"> ️ <img src="../../wiki_images/logos/linux-tux-logo.svg" width="50">
+<img src="../../wiki_icons/pixelitos/steam.png" width="50"> <img src="../../wiki_icons/pixelitos/linux.png" width="50">
 
 #### Steam Deck - Installation
 

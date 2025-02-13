@@ -1,7 +1,11 @@
-# What are some optimizations for the Steam Deck to make emulation even better?
+# Steam Deck: Optimizations
+
+<img src="../../../wiki_icons/pixelitos/steam.png" width="75">
+
 These optimizations are entirely optional and but they can give you better performance on some more demanding emulators.
 
 ## Increase the VRAM to 4GB
+
 This increases the VRAM to 4GB in the BIOS, this can give you improvements in certain emulators.
 
 - Power off your Steam Deck completely
@@ -12,6 +16,7 @@ This increases the VRAM to 4GB in the BIOS, this can give you improvements in ce
 - Save and Exit
 
 ## Setup a sudo password
+
 This is a requirement for many optimizations and solutions, it also makes your Deck safer.
 It enables you to run commands/applications heighten sudo privileges.
 
@@ -22,6 +27,7 @@ It enables you to run commands/applications heighten sudo privileges.
 - After you are done you can close the terminal
 
 ## Install CryoUtilities
+
 This requires that you have set up a sudo password.
 
 This will create a 16GB SWAP file that can improve the performance for some emulators. Note that it will take up that extra space on your Steam Deck.

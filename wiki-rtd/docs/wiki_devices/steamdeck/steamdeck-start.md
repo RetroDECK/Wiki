@@ -1,6 +1,6 @@
 # How-to: Install RetroDECK on the Steam Deck
 
-<img src="../../../wiki_images/logos/steam-deck-logo.png" width="75">
+<img src="../../../wiki_icons/pixelitos/steam.png" width="75">
 
 **NOTE:** 
 

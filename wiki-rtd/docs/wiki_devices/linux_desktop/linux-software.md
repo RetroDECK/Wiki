@@ -6,7 +6,7 @@ The following software might enhance your RetroDECK or general gaming experience
 
 ### Flips
 
-<img src="../../../wiki_images/logos/flips-logo.png" width="150">
+<img src="../../../wiki_images/logos/flips-logo.png" width="50">
 
 [Flips](https://flathub.org/apps/details/com.github.Alcaro.Flips)
 
@@ -14,7 +14,7 @@ Flips lets you patch romhacks IPS & BPS files onto the rom files.
 
 ### JRomManager
 
-<img src="../../../wiki_images/logos/jrommanager-logo.png" width="150">
+<img src="../../../wiki_images/logos/jrommanager-logo.png" width="50">
 
 [JRomManager](https://flathub.org/apps/details/com.github.optyfr.JRomManager)
 
@@ -22,7 +22,7 @@ A MAME and retro gaming rom manager that allows you to manage and verify your ro
 
 ### ROMM
 
-<img src="../../../wiki_images/logos/romm-logo.svg" width="150">
+<img src="../../../wiki_images/logos/romm-logo.svg" width="50">
 
 [ROMM](https://github.com/rommapp/romm)
 
@@ -63,7 +63,7 @@ Lutris is an interface to manage and play your games on Linux. It can integrate 
 
 ### Minigalaxy
 
-<img src="../../../wiki_images/logos/minigalaxy-logo.png" width="150">
+<img src="../../../wiki_images/logos/minigalaxy-logo.png" width="50">
 
 [Minigalaxy](https://flathub.org/apps/io.github.sharkwouter.Minigalaxy)
 
@@ -73,7 +73,7 @@ Minigalaxy is a simple GOG client for Linux. It lets you download, install, and 
 
 ### Heroic Games Launcher
 
-<img src="../../../wiki_images/logos/heroic-logo.png" width="150">
+<img src="../../../wiki_images/logos/heroic-logo.png" width="50">
 
 [Heroic Games Launcher](https://flathub.org/apps/com.heroicgameslauncher.hgl)
 
@@ -82,7 +82,7 @@ Heroic is an open-source games launcher. It supports launching games from the Ep
 
 ### Bottles
 
-<img src="../../../wiki_images/logos/bottles-logo.png" width="150">
+<img src="../../../wiki_images/logos/bottles-logo.png" width="50">
 
 
 [Bottles](https://flathub.org/apps/com.usebottles.bottles)
@@ -93,7 +93,7 @@ Bottles lets you run Windows software on Linux, such as applications and games. 
 ### Prism Launcher
 
 
-<img src="../../../wiki_images/logos/prismlauncher-logo.png" width="150">
+<img src="../../../wiki_images/logos/prismlauncher-logo.png" width="50">
 
 [Prism Launcher](https://flathub.org/apps/org.prismlauncher.PrismLauncher)
 
@@ -106,7 +106,7 @@ Prism Launcher is a custom client for Minecraft Java that allows you to easily m
 
 ### Greenlight
 
-<img src="../../../wiki_images/logos/greenlight-logo.png" width="150">
+<img src="../../../wiki_images/logos/greenlight-logo.png" width="50">
 
 [Greenlight](https://flathub.org/apps/io.github.unknownskl.greenlight)
 
@@ -116,7 +116,7 @@ Greenlight is an open-source client for xCloud and Xbox home streaming made in T
 
 ### Chiaki-NG
 
-<img src="../../../wiki_images/logos/chiaki-ng-logo.webp" width="150">
+<img src="../../../wiki_images/logos/chiaki-ng-logo.webp" width="50">
 
 [Chiaki-NG](https://flathub.org/apps/io.github.streetpea.Chiaki4deck)
 
@@ -126,7 +126,7 @@ Chiaki-NG is a Free and Open-Source Software Client for PlayStation 4 and PlaySt
 
 ### Moonlight
 
-<img src="../../../wiki_images/logos/moonlight-logo.png" width="150">
+<img src="../../../wiki_images/logos/moonlight-logo.png" width="50">
 
 [Moonlight](https://flathub.org/apps/com.moonlight_stream.Moonlight)
 
@@ -135,7 +135,7 @@ Moonlight allows you to play your PC games on almost any device, whether you are
 
 ### Sunshine
 
-<img src="../../../wiki_images/logos/sunshine-logo.png" width="150">
+<img src="../../../wiki_images/logos/sunshine-logo.png" width="50">
 
 [Sunshine](https://github.com/LizardByte/Sunshine)
 
@@ -143,7 +143,7 @@ Sunshine is a self-hosted game stream host for Moonlight. It offers low latency,
 
 ### Steam Link
 
-<img src="../../../wiki_images/logos/steamlink-logo.png" width="150">
+<img src="../../../wiki_images/logos/steamlink-logo.png" width="50">
 
 [Steam Link](https://flathub.org/apps/com.valvesoftware.SteamLink)
 
@@ -154,7 +154,7 @@ The Steam Link app allows you to stream games from your other computers. Just pl
 
 ### BoilR
 
-<img src="../../../wiki_images/logos/boilr-logo.png" width="150">
+<img src="../../../wiki_images/logos/boilr-logo.png" width="50">
 
 
 [BoilR](https://flathub.org/apps/details/io.github.philipk.boilr)
@@ -164,7 +164,7 @@ BoilR will show games from other game platforms in your Steam library. It uses t
 
 ### ProtonUp-Qt
 
-<img src="../../../wiki_images/logos/protonup-qt-logo.png" width="150">
+<img src="../../../wiki_images/logos/protonup-qt-logo.png" width="50">
 
 [ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2)
 
@@ -173,7 +173,7 @@ ProtonUp-Qt allows you to install and manage Wine- and Proton-based compatibilit
 
 ### Flatseal
 
-<img src="../../../wiki_images/logos/flatseal-logo.png" width="150">
+<img src="../../../wiki_images/logos/flatseal-logo.png" width="50">
 
 [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)
 
@@ -183,7 +183,7 @@ Flatseal is a graphical utility to review and modify permissions from your Flatp
 
 ### Flatsweep
 
-<img src="../../../wiki_images/logos/flatsweep-logo.svg" width="150">
+<img src="../../../wiki_images/logos/flatsweep-logo.svg" width="50">
 
 [Flatsweep](https://flathub.org/apps/io.github.giantpinkrobots.flatsweep)
 

@@ -62,7 +62,7 @@ It might be possible in the far-off future as the platform matures and gains mor
 
 But supporting RISC-V devices would be a major undertaking and would require more developers with RISC-V experience.
 
-### Will you support other Linux distribution methods such as Snap or AppImage?
+### Will you support other Linux distribution methods such as Snap, AppImage, AUR, etc...?
 
 It's not in our roadmap yet. Currently, the entire build system is based on flatpak-build. 
 

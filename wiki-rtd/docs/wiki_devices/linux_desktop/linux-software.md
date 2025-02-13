@@ -34,7 +34,7 @@ RomM is a game library roms manager focused on retro gaming. Manage and organize
 
 ### Steam
 
-<img src="../../../wiki_images/logos/steam-logo.svg" width="130">
+<img src="../../../wiki_images/logos/steam-logo.svg" width="50">
 
 [Steam](https://store.steampowered.com/)
 
@@ -52,7 +52,7 @@ Steam is available as a Flatpak or as a native installation via built-in package
 
 ### Lutris
 
-<img src="../../../wiki_images/logos/lutris-logo.png" width="130">
+<img src="../../../wiki_images/logos/lutris-logo.png" width="50">
 
 [Lutris](https://flathub.org/apps/net.lutris.Lutris)
 

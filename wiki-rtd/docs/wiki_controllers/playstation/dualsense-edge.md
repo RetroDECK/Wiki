@@ -26,8 +26,9 @@ KERNEL=="hidraw*", ATTRS{idVendor}=="054c", ATTRS{idProduct}=="0df2", MODE="0660
 
 - DualSense: `RetroDECK: DualSense`
 
-### RetroDECK Hotkeys
 
-The same hotkeys are used for PS3, PS4, PS5 controllers. Read more here:
+## RetroDECK Hotkeys
 
-[Playstation: RetroDECK Hotkeys](../../wiki_rd_controls/hotkeys-playstation.md)
+Read more here:
+
+[RetroDECK: Controller Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md)

@@ -25,3 +25,9 @@ KERNEL=="hidraw*", ATTRS{idVendor}=="28de", MODE="0666"
 # Valve HID devices over bluetooth hidraw
 KERNEL=="hidraw*", KERNELS=="*28DE:*", MODE="0666"
 ```
+
+## RetroDECK Hotkeys
+
+Read more here:
+
+[RetroDECK: Controller Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md)

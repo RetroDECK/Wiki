@@ -18,7 +18,7 @@ Depending on what language you have set in `Desktop Mode`, things might be named
 - Add BIOS and ROMs: Put the BIOS files inside `retrodeck/bios/` and ROMs & game files inside `retrodeck/roms/`.
 - Switch back to `Game Mode`: Go to RetroDECK on the Steam Grid under `Library` -> `Non-Steam`.
 - Configure Controller Layouts: Add the RetroDECK: `Steam Deck - Neptune Official Template` under `🎮 Controller Settings` -> `Controller Layouts` -> `Templates`. Choose either the SIMPLE radial layout or FULL radial layout.
-- Read up on the [RetroDECK: Steam Deck - Hotkeys](../../wiki_rd_controls/hotkeys-steamdeck-neptune.md).
+- Read up on the [RetroDECK: Controller Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md)..
 - Launch RetroDECK and Enjoy!
 
 ## Step-by-Step Guide to Install RetroDECK on the Steam Deck
@@ -51,7 +51,7 @@ This step is only needed if you installed the profiles. If you missed installing
 - Navigate to RetroDECK `Library` -> `Non-Steam`.
 - Go to 🎮 Controller `🎮 Controller Settings` -> `Controller Layouts` -> `Templates` .
 - Add one of the layouts for RetroDECK called `RetroDECK: Steam Deck - Neptune` SIMPLE or FULL.
-- Read up on the [RetroDECK: Steam Deck - Hotkeys](../../wiki_rd_controls/hotkeys-steamdeck-neptune.md).
+- Read up on the [RetroDECK: Controller Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md).
 
 ## Other Tips
 

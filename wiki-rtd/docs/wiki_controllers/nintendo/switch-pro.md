@@ -28,8 +28,8 @@ SUBSYSTEM=="usb", ATTR{idProduct}=="2009", ATTR{idVendor}=="057e", ENV{ID_INPUT_
 
 - Switch Pro Controller: `RetroDECK: Switch Pro`
 
-### RetroDECK Hotkeys
+## RetroDECK Hotkeys
 
 Read more here:
 
-[Nintendo: RetroDECK Hotkeys](../../wiki_rd_controls/hotkeys-nintendo.md)
+[RetroDECK: Controller Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md)

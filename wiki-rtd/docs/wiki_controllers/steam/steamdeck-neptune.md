@@ -31,3 +31,12 @@ KERNEL=="hidraw*", KERNELS=="*28DE:*", MODE="0666"
 - `RetroDECK: Steam Deck - Neptune SIMPLE`
 - `RetroDECK: Steam Deck - Neptune FULL`
 
+## Input Map
+
+<img src="../../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550">
+
+## RetroDECK Hotkeys
+
+Read more here:
+
+[RetroDECK: Controller Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md)

@@ -105,38 +105,7 @@ By holding `SELECT` and moving the `Right Joystick` you can use it as a mouse fo
 
 ---
 
-## Additional Hotkeys - Steam Deck (Neptune)
 
-
-| Function                 |   Command |    Comment |
-| :---                    | :---:               | :---:   |
-| Radial Menu             | `Left Touchpad`     |    Press `Left Touchpad` to activate radial button.   |
-
-The radial menu system is located on the `Left Touchpad` on the Steam Deck with layout depending on what template you choose.
-
-The only difference being the complexity of the built-in radial menus and the amount of options at your disposal on the `Left Touchpad`.
-
-RetroDECK ships with two different templates for the Steam Deck:
-
-
-### Full Radial Menu
-
-This is the a deeper radial menu shipped as default.
-
-**Template:** `RetroDECK: Steam Deck - Neptune FULL`
-
-Read more here: [RetroDECK: Steam Deck - Neptune FULL](radial-steamdeck-full.md)
-
-
-### Simple Radial Menu
-
-This is the same radial menu as the external controllers.
-
-**Template:** `RetroDECK: Steam Deck - Neptune SIMPLE`
-
-Read more here: [RetroDECK: Radial Menu - Simple](radial-simple.md)
-
----
 
 ## Additional Hotkeys - Dualshock 4 / DualSense
 
@@ -180,3 +149,100 @@ By holding `HKB` and moving the `Right Touchpad` you can use it as a mouse for v
 | Touchpad as Mouse        |  `HKB + Right Touchpad`           |            |     |
 | Right Click        |  `HKB + L3`          |   `Right Click`               |     |
 | Left Click        |  `HKB + R3`           |   `Left Click`            |     |
+
+
+---
+
+## Additional Hotkeys - Steam Deck (Neptune)
+
+
+| Function                 |   Command |    Comment |
+| :---                    | :---:               | :---:   |
+| Radial Menu             | `Left Touchpad`     |    Press `Left Touchpad` to activate radial button.   |
+
+The radial menu system is located on the `Left Touchpad` on the Steam Deck with layout depending on what template you choose.
+
+The only difference being the complexity of the built-in radial menus and the amount of options at your disposal on the `Left Touchpad`.
+
+RetroDECK ships with two different templates for the Steam Deck:
+
+
+### Full Radial Menu
+
+This is the a deeper radial menu shipped as default.
+
+**Template:** `RetroDECK: Steam Deck - Neptune FULL`
+
+Read more here: [RetroDECK: Steam Deck - Neptune FULL](radial-steamdeck-full.md)
+
+
+### Simple Radial Menu
+
+This is the same radial menu as the external controllers.
+
+**Template:** `RetroDECK: Steam Deck - Neptune SIMPLE`
+
+Read more here: [RetroDECK: Radial Menu - Simple](radial-simple.md)
+
+
+
+
+### Built-In Hotkeys - Game Mode
+
+These hotkeys made by Valve can be used in Game Mode in all games.
+
+
+| Function                 | Button / Combination |  Comment |
+| :---                    | :---:               |     :---:     |
+|  Joystick Mouse     |  `STEAM + Right Stick`         |               |
+|  Joystick Mouse - Left Click    |  `STEAM + R3`         |               |
+|  Touchpad Mouse                     |  `STEAM + Right Touchpad`         |               |
+|  Touchpad Mouse - Left Click    |  `STEAM + Right Touchpad Click`         |               |
+|  Screen Brightness - Increase     |  `STEAM + Left Stick Up`         |               |
+|  Screen Brightness - Decrease     |  `STEAM + Left Stick Down`         |               |
+|  Enter     |  `STEAM + D-pad Right`         |               |
+|  Tab     |  `STEAM + D-pad Down`         |               |
+|  Escape     |  `STEAM + D-pad Left`         |               |
+|  Force Quit Application     |  `STEAM + B (long press)`         |               |
+|  Keyboard - Show / Hide      |  `STEAM + X`         |               |
+|  Magnifier Toggle      |  `STEAM + L1`         |               |
+|  Take Screenshot      |  `STEAM + R1`         |               |
+|  Left Mouse Click       |  `STEAM + R2`         |               |
+|  Right Mouse Click       |  `STEAM + L2`         |               |
+|  Game Recording - Start/Stop |   `STEAM + A`            |               |
+|  Game Recording - Add timeline marker |   `STEAM + Y`            |              |
+|  Game Recording - Make a clip |   `STEAM + D-pad Up`            |              |
+
+
+### Built-In Hotkeys - Desktop Mode
+
+These hotkeys made by Valve can be used in Desktop Mode.
+
+| Function                 | Button / Combination |  Comment |
+| :---                    | :---:               |     :---:     |
+|  Joystick Mouse     |  `Right Stick`         |               |
+| Touchpad as Mouse |     `Right Touchpad`        |               |
+|  Left Mouse Click |   `R3` / `Right Touchpad Click` /  `R2`        |               |
+|  Middle Mouse Click |   `Left Touchpad Click`         |               |
+|  Right Mouse Click |   `L2`         |               |
+|  Horizontal and Vertical Scrolling |   `Left Touchpad`         |               |
+|  Left Ctrl |   `L1`         |               |
+|  Left Alt |   `R1`         |               |
+|  Space |   `Y`         |               |
+|  Keyboard - Show / Hide  |   `X`         |               |
+|  Escape  |   `B`   /  `Start`      |               |
+|  Tab  |   `Select`      |               |
+|  Enter  |   `A`         |               |
+|  Left Shift  |   `L4`         |               |
+|  Super Key   |   `L5`         |               |
+|  Page Up  |   `R4`         |               |
+|  Page Down  |   `R5`         |               |
+|  Arrow Key - Up  |   `D-Pad Up` / `Left Stick Up`       |               |
+|  Arrow Key - Down  |   `D-Pad Down` / `Left Stick Down`            |               |
+|  Arrow Key - Left  |   `D-Pad Left` / `Left Stick Left`         |               |
+|  Arrow Key - Right  |   `D-Pad Right` / `Left Stick Right`            |               |
+|  Game Recording - Start/Stop |   `CTRL + F11`            |      Can be rebound, needs to be enabled         |
+|  Game Recording - Add timeline marker |   `CTRL + F12`            |       Can be rebound, needs to be enabled       |
+|  Game Recording - Take screenshot |   `F12`            |        Can be rebound, needs to be enabled       |
+
+---

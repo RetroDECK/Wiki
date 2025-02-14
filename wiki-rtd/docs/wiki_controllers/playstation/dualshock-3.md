@@ -23,9 +23,10 @@ SUBSYSTEM=="input", KERNEL=="event*|input*", KERNELS=="*054C:0268*", TAG+="uacce
 
 - DualShock 3 / Sixaxis: `RetroDECK: DualShock 3`
 
-### RetroDECK Hotkeys
-
-The same hotkeys are used for PS3, PS4, PS5 controllers. Read more here:
 
 
-[Playstation: RetroDECK Hotkeys](../../wiki_rd_controls/hotkeys-playstation.md)
+## RetroDECK Hotkeys
+
+Read more here:
+
+[RetroDECK: Controller Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md)

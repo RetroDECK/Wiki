@@ -96,15 +96,11 @@ nav:
     - About Udev Rules: wiki_rd_controls/about-udev.md
     - Different Button Prompts in Games: wiki_rd_controls/diffrent-game-inputs.md
     - Change Controller Order: wiki_rd_controls/change-controller-order-steam.md
-    - Generic Standard - Hotkeys & Layout: wiki_rd_controls/hotkeys-generic-standard.md
-    - Nintendo - Hotkeys & Layout: wiki_rd_controls/hotkeys-nintendo.md
-    - Playstation - Hotkeys & Layout: wiki_rd_controls/hotkeys-playstation.md
-    - Xbox - Hotkeys & Layout: wiki_rd_controls/hotkeys-xbox.md
-    - Steam Deck - Hotkeys & Layout: wiki_rd_controls/hotkeys-steamdeck-neptune.md
-    - Steam Deck - Gyro: wiki_rd_controls/gyro-steamdeck-neptune.md
-    - Steam Controller - Hotkeys & Layout: wiki_rd_controls/hotkeys-steam-controller-gordon.md
+    - RetroDECK - Controller Hotkeys: wiki_rd_controls/hotkeys-retrodeck.md
     - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
     - RetroDECK - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
+    - Steam Deck - Gyro: wiki_rd_controls/gyro-steamdeck-neptune.md
+
 
   - Guides - RetroDECK Management 🧰:
 
@@ -123,8 +119,6 @@ nav:
     - Steam Deck - Installation: wiki_devices/steamdeck/steamdeck-start.md
     - Steam Deck - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
     - Steam Deck - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
-    - Steam Deck - Hotkeys & Layout: wiki_rd_controls/hotkeys-steamdeck-neptune.md
-    - Steam Deck - Gyro: wiki_rd_controls/gyro-steamdeck-neptune.md
 
   - Guides - Linux Desktop 🐧:
 
@@ -224,7 +218,7 @@ nav:
       - About Flight Controllers: wiki_controllers/flight/about-flight.md
 
     - Generic 🎮:
-      - Generic Standard: wiki_controllers/generic/standard/generic-standard.md
+      - Generic Standard: wiki_controllers/generic/generic-standard.md
 
     - Gimmick  🤡:
       - About Gimmick Controllers: wiki_controllers/gimmick/about-gimmick.md

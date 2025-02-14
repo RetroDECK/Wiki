@@ -30,9 +30,9 @@ Yes, in most cases depending on controller age.
 - Generic Standard : `RetroDECK: Generic - Standard`
 
 
-### RetroDECK Hotkeys
+
+## RetroDECK Hotkeys
 
 Read more here:
 
-
-[Generic Standard: RetroDECK Hotkeys](../../../wiki_rd_controls/hotkeys-generic-standard.md)
+[RetroDECK: Controller Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md)

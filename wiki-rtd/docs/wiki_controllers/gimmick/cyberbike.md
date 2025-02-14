@@ -22,9 +22,9 @@ No
 
 `Dolphin`
 
-## How-to: Configure in Dolphin
+## Dolphin How-to: Configure the Cyberbike
 
-- Plug the Cyberbike controller into a USB port on your computer via adapter GameCube adapter.
+- Plug the Cyberbike controller into a USB port on your computer via the GameCube PC adapter.
 - Launch the Dolphin from RetroDECK Configurator.
 - Go to `Options` -> `Controller Settings`.
     - In the `Controller Settings` window, select the `Wii Remote` tab.

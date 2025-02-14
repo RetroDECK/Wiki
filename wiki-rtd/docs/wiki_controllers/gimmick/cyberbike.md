@@ -33,4 +33,4 @@ No
     - In the `Emulated Wii Remote` configuration window, map the Cyberbike inputs to the corresponding Wii Remote buttons.
     - For example, map the pedals to the `A` button and the handlebars to the `D-Pad` directions.
     Once all inputs are mapped, click `OK` to save the settings.
-- Quit Dolphin, Return to RetroDECK and Launch Cyberbike Cycling Sports.
+- Quit Dolphin and return to RetroDECK.

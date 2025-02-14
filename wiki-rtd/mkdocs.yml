@@ -218,7 +218,7 @@ nav:
       - About Flight Controllers: wiki_controllers/flight/about-flight.md
 
     - Generic 🎮:
-      - Generic Standard: wiki_controllers/generic/generic-standard.md
+      - Generic Standard Type: wiki_controllers/generic/generic-standard.md
 
     - Gimmick  🤡:
       - About Gimmick Controllers: wiki_controllers/gimmick/about-gimmick.md
@@ -328,7 +328,6 @@ nav:
       - Cooker Testing - FAQ: wiki_development/testing/faq-cooker.md
       - Cooker Testing - Guide: wiki_development/testing/cooker-testing.md
       - Expermental Features: wiki_development/testing/experimental-features.md
-
 
   - Archive 📂:
 

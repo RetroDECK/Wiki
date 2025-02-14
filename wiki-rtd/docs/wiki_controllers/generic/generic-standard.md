@@ -1,7 +1,7 @@
 # Generic - Standard Type Controllers
 
-<img src="../../../../wiki_images/controllers/xiaomi-controller.png" width="280">
-<img src="../../../../wiki_images/controllers/8bitdo-pro2.png" width="250">
+<img src="../../../wiki_images/controllers/xiaomi-controller.png" width="280">
+<img src="../../../wiki_images/controllers/8bitdo-pro2.png" width="250">
 
 Two examples of Generic Standard type controllers. The 8BitDo Pro2 and the Xiaomi Controller.
 

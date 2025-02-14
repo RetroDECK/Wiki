@@ -18,7 +18,7 @@ No
 
 `PCSX2`
 
-## How to Configure in PCSX2 - PlayStation 2
+## PCSX2 How-to: Emulate the SEGA Seamic
 
 You can map the Seamic Inputs to any input device such as a controller. The controllers need to be connected.
 

@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/controllers/sega-seamic-ps2.png" width="230">
 
-The **SEGA Seamic Controller** is a unique controller designed for the PlayStation 2 games Seaman: Kindan no Pet and Seaman 2: Peking Genjin Ikusei Kit. 
+The **SEGA Seamic Controller** is a unique controller designed for the PlayStation 2 games **Seaman: Kindan no Pet** and **Seaman 2: Peking Genjin Ikusei Kit**. 
 
 Released in **2001**, this controller features a microphone and a speaker, allowing players to interact with the virtual pet in the game through voice commands.
 
@@ -15,6 +15,7 @@ No
 No
 
 ### Emulator Use Case
+
 `PCSX2`
 
 ## How to Configure in PCSX2 - PlayStation 2

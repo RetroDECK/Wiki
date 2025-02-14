@@ -2,21 +2,16 @@
 
 <img src="../../../wiki_images/controllers/playstation-eye-toy.png" width="150">
 
-Used for various titles on the PlayStation 2 the most famous being the `EyeToy` game series.
+The EyeToy, released in late 2003, is a digital camera device developed by Sony for the PlayStation 2 console. It uses computer vision and gesture recognition to process images taken by the camera, allowing players to interact with games using motion and color detection. The EyeToy was the predecessor to the PlayStation Eye and was used in various games such as EyeToy: Play and EyeToy: Groove.
 
 ### Steam Input support
+
 No
 
 ### Linux Kernel Support
-Unknown, but any webcamera will work fine.
+
+The EyeToy does have built-in Linux kernel support. It works out of the box for basic webcam functionality,
 
 ### Emulator usecase
+
 `PSCX2`
-
-## How to emulate in PCSX2
-
-You need to have a `USB Webcam` connected or an `Integrated Webcam`.
-
-- Open `RetroDECK Configurator`
-- Open `PCSX2`
-- Go to `Settings` -> `Controllers` -> Select `USB Port` -> Select `Webcam (EyeToy)` from the Dropdown list -> Select the `Device Name` of your connected Camera from the Dropdown list.

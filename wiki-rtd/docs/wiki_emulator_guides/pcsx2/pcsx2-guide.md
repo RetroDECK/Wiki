@@ -56,8 +56,7 @@ Directly into the folder
 | Texture Pack Folder |`retrodeck/texture_packs/PCSX2/` |  Represents `PCSX2/textures/`    |
 
 
-
-## How to enable/disable Multitap?
+## How-to: Emulate the Multitap?
 
 Multitap is a way to have up to 8 players on the Playstation 2, by hooking 4 players in each controller port.
 
@@ -67,6 +66,14 @@ Most games do not support this feature and some might not even work with it enab
 2. Go to `Settings` -> `Controllers` -> `Controller Multitap`
 3. Enable/disable Multitap by clicking the checkbox for either Port 1, Port 2 or both.
 4. Several new controllers called 1A to 1D and 2A to 2D will be enabled to map.
+
+## How-to: Emulate in the EyeToy?
+
+You need to have a `USB Webcam` connected or an `Integrated Webcam`.
+
+1. Open the Configurator and open `PCSX2`.
+2. Go to `Settings` -> `Controllers` -> Select `USB Port` -> Select `Webcam (EyeToy)` from the Dropdown list -> Select the `Device Name` of your connected Camera from the Dropdown list.
+
 
 ##  Change in-game language or system language
 

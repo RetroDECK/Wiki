@@ -65,15 +65,16 @@ You have an example NES game called: `ExampleNESGame.nes`
 
 [RetroDECK Folders](../wiki_management/retrodeck-folders.md)
 
-### Step 4: Read the ES-DE Frontend Guide
+### Step 4: Read the ES-DE Frontend & RetroDECK Hotkey Guides
 
 <img src="../../wiki_images/logos/es-de-logo.png" width="55">
 
-ES-DE is the main user interface for RetroDECK.
+ES-DE is the main user interface for RetroDECK and RetroDECK uses Steam Input for it's hotkeys.
 
 **Read up on:** 
 
-[ES-DE Frontend: General Guide](../wiki_system_guides/es-de/esde-guide.md)
+- [ES-DE Frontend: General Guide](../wiki_system_guides/es-de/esde-guide.md)
+- [RetroDECK: Controller Hotkeys](../wiki_rd_controls/hotkeys-retrodeck.md)
 
 ### Step 5: Playing the Games
 

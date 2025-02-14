@@ -2,25 +2,26 @@
 
 <img src="../../../wiki_images/controllers/steel-battalion.png" width="250">
 
-The unique cockpit controller for the original Xbox game Steel Battalion.
+The **Steel Battalion Cockpit** is a unique and elaborate controller designed for the original Xbox game **Steel Battalion**. Released on **November 20, 2002**, this controller features 44 input points, including buttons, joysticks, a throttle handle, a radio channel dial, five switches, an eject button, and three foot pedals.
 
 ### Steam Input support
+
 No
 
 ### Linux Kernel Support
+
 No
 
 ### Emulator usecase
+
 `XEMU`
 
-## How to use with RetroDECK or a PC or anything else?
+## Arduino Mod: Use with Modern Hardware
 
-There have been efforts by user `SantiagoSaldana` of `hackaday.io` to get it working on PCs via a `Teensy 3.6 / 4.1 Arduino Adapter`.
+Efforts by user `SantiagoSaldana` of `hackaday.io` have made it possible to use the Steel Battalion Cockpit on PCs via a `Teensy 3.6 / 4.1 Arduino Adapter`. This adapter translates the controller's input to emulated xinput. You can read more about the project here:
 
-It translates the controllers input to emulated xinput. You can read more about the project here:
+[Hackady.io Project: Steel Battalion Adapter](https://hackaday.io/project/182810-steel-battalion-controller-teensy-adapter)
 
-[Hackady.io Project Thread](https://hackaday.io/project/182810-steel-battalion-controller-teensy-adapter)
+[Github Arduino: Steel Battalion Controller Library](https://github.com/SantiagoSaldana/SBC)
 
-[Github Steel Battalion Controller Library for Arduino](https://github.com/SantiagoSaldana/SBC)
-
-If you have this rare controller and want to try to get it running by the above methods on Linux and RetroDECK please contact the RetroDECK team on discord to inform on your efforts we will follow them with great intrest.
+If you have this rare controller and want to try to get it running by the above methods on Linux and RetroDECK, please contact the RetroDECK team on Discord to inform them of your efforts. They will follow your progress with great interest.

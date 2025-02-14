@@ -22,7 +22,7 @@ No
 
 `Dolphin`
 
-## How to configure
+## How-to: Configure in Dolphin
 
 - Plug the Cyberbike controller into a USB port on your computer via adapter GameCube adapter.
 - Launch the Dolphin from RetroDECK Configurator.

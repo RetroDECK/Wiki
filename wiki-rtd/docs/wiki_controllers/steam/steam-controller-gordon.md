@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/controllers/steam-controller-gordon.png" width="250">
 
-The first Steam Controller with the nickname Gordon.
+The Steam Controller (Gordon), released on November 10, 2015, is a gamepad developed by Valve Corporation for use with Steam and SteamOS. Featuring customizable controls, dual trackpads, and haptic feedback. It went through numerous revisions and design changes before its final release and was discontinued in 2019
 
 ### Steam Input support
 Yes

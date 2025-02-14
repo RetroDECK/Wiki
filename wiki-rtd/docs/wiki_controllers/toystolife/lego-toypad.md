@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/controllers/lego-toypad.png" width="250">
 
-Used for the game LEGO Dimensions
+The Lego Toypad, released in 2015, is an interactive NFC reader developed by LEGO for the Lego Dimensions game. It allows players to place Lego figures on the pad to bring them into the game and interact with the virtual world.
 
 ### Steam Input Support
 No

@@ -2,6 +2,10 @@
 
 <img src="../../../wiki_images/controllers/xbox-360.png" width="250">
 
+The Xbox 360 controller is a popular gamepad developed by Microsoft for the Xbox 360 console, released on November 22, 2005. It is known for its ergonomic design and compatibility with various gaming platforms. 
+
+The controller has undergone several revisions over the years, including changes to the shape of the analog stick tops, the addition of a transformable D-pad, and various color and special edition releases.
+
 ### Steam Input support
 
 Yes
@@ -26,9 +30,8 @@ SUBSYSTEMS=="input", ATTRS{name}=="Xbox 360 Wireless Receiver", MODE="0660", TAG
 
 [The xone Project](https://github.com/medusalix/xone) 
 
-Has firmwares, udev rules and drivers might be needed to get it to run on your distribution to get the wireless connections working.
-
-This should not needed for the Steam Deck, SteamOS and most gaming focus Linux distroes has it included.
+- Provides firmwares, udev rules, and drivers for wireless connections.
+- Not needed for Steam Deck, SteamOS, and most gaming-focused Linux distributions.
 
 ## What is the Official RetroDECK - Steam Input Profile called?
 

@@ -2,12 +2,18 @@
 
 <img src="../../../wiki_images/graphics/steamdeck/rd_sd_screen1.jpeg" width="350">
 
-The Valve Steam Deck LCD / OLD Controller also known as Neptune
+The Steam Deck, released on February 25, 2022, is a handheld gaming computer developed by Valve Corporation. 
+
+The Steam Deck OLED, introduced on November 16, 2023, features a brighter and larger OLED display, improved battery life, and enhanced cooling features.
+
+The Built-In Controller is known as: Neptune
 
 ### Steam Input support
+
 Yes
 
 ### Linux Kernel Support
+
 Yes, since 4.18 - `hid-steam`
 
 ### Udev rules

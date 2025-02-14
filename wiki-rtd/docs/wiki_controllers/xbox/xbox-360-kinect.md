@@ -2,13 +2,15 @@
 
 <img src="../../../wiki_images/controllers/xbox-kinect-360.png" width="250">
 
-Used for various titles on the Xbox 360.
+The Xbox 360 Kinect, released on November 4, 2010, is a motion-sensing input device developed by Microsoft for the Xbox 360 console. It has undergone several revisions, including the Xbox 360 S and E models, which feature dedicated ports for Kinect, eliminating the need for an external power supply.
 
 ### Steam Input support
+
 No
 
 ### Linux Kernel Support
-Unknown
+
+No
 
 ### Emulator usecase
 `Xenia`

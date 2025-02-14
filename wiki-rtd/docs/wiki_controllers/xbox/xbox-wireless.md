@@ -2,10 +2,14 @@
 
 <img src="../../../wiki_images/controllers/xbox-wireless.png" width="250">
 
+The Xbox Wireless controller for the Xbox One S and X, released on August 2, 2016, is an updated version of the original Xbox One controller. It features Bluetooth connectivity, a 3.5mm audio jack, and several design improvements for better ergonomics and functionality. The controller has undergone three revisions, with each revision introducing various changes to its design and functionality.
+
 ### Steam Input support
+
 Yes
 
 ### Linux Kernel Support
+
 Yes
 
 ### Update the firmware

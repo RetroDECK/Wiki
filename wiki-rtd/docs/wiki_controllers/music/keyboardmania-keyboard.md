@@ -2,9 +2,9 @@
 
 <img src="../../../wiki_images/controllers/keyboardmania-keyboard.png" width="250">
 
-Keyboardmania - Keyboard for the PlayStation 2
+**Keyboardmania** is a rhythm video game developed and published by Konami. It was released for the PlayStation 2 on **September 21, 2000**. 
 
-**Keyboardmania** is a rhythm video game developed and published by Konami. It was released for the PlayStation 2 on **September 21, 2000**. The Keyboard is a specialized hardware accessory that features a 24-key keyboard layout, allowing users to interact with compatible software in a unique and engaging way.
+The Keyboard is a specialized hardware accessory that features a 24-key keyboard layout, allowing users to interact with compatible software in a unique and engaging way.
 
 
 ### Steam Input support

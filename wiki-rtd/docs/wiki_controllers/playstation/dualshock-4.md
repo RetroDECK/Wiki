@@ -2,10 +2,14 @@
 
 <img src="../../../wiki_images/controllers/ps4-dualshock4.png" width="250">
 
+The DualShock 4 controller, released on November 15, 2013, is the wireless gamepad developed by Sony for the PlayStation 4 console. It features a touchpad, light bar, and improved ergonomics over its predecessor. The controller has undergone several revisions.
+
 ### Steam Input support
+
 Yes
 
 ### Linux Kernel Support
+
 Yes, 3.15  `hid-sony`, replaced in 6.2 by `hid-playstation`
 
 ### Udev rules

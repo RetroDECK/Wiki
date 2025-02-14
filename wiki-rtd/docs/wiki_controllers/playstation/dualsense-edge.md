@@ -2,10 +2,14 @@
 
 <img src="../../../wiki_images/controllers/ps5-dualsense-edge.png" width="250">
 
+he DualSense Edge controller, released in early 2023, is a premium variant of the DualSense. It includes several enhancements such as customizable rear paddles, two function buttons, and interchangeable thumbstick caps. The Edge also has a slightly heavier build, improved grip, and black-colored face buttons and D-pad.
+
 ### Steam Input support
+
 Yes
 
 ### Linux Kernel Support
+
 Yes, since 6.2 - `hid-playstation`
 
 ### Sony Firmware Update

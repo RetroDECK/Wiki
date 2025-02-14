@@ -40,15 +40,29 @@ In the future.
 
 Check the: [Pateron Article](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access)
 
+
+### Can I manually add a system RetroDECK doesn't support yet?
+
+Not easily. The application is sandboxed, and the design goal of RetroDECK is to provide everything within the application. The best approach is to wait for an update that includes the system or contribute code to have it properly integrated.
+
 ## Flatpak Questions
 
-### What is flatpak?
+### What is Flatpak?
 
-Flatpak is a framework and application packaging method for distributing sandboxed desktop applications across various Linux distributions. 
+**Flatpak** is a system for building, distributing, and running sandboxed desktop applications on Linux. It allows developers to package their applications with all the dependencies, ensuring they run consistently across different Linux distributions.
+Goal
 
-It is the primary recommendation for distributing desktop applications on several immutable Linux Desktop distros, including SteamOS from Valve, Bazzite, and more. It ensures that if Valve (or anyone else) makes major changes to the system in an OS update, a Flatpak like RetroDECK and its configurations will not be affected.
+The goal of Flatpak is to provide a reliable and secure way to run applications on Linux, regardless of the distribution. It aims to simplify the process of application deployment and updates, making it easier for developers and users alike.
+
+Flatpak is the recommended method for distributing desktop applications on several immutable Linux distributions, including SteamOS from Valve. It ensures that if there are major system updates, applications like RetroDECK and their configurations won't be affected.
 
 Read more here: [Introduction to Flatpak](https://docs.flatpak.org/en/latest/introduction.html)
+
+### What is Flathub?
+
+Flathub is the central repository for Flatpak applications. It provides a wide range of applications that can be easily installed and updated on any Linux distribution that supports Flatpak.
+
+Check it out here: [Flathub](https://flathub.org/) 
 
 ### RetroDECK is a sandbox?
 

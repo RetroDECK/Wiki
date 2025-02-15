@@ -49,7 +49,23 @@ PortMaster is self-contained and will auto-update by itself when launched.
 
 You can also manually update it by going to `Options` -> `Update PortMaster` and `Update Ports`
 
-## How-to add games to RetroDECK
+## How can see what ports that are available?
+
+Go to the [PortMaster Gamelist](https://portmaster.games/games.html) website. 
+
+Filter `Devices` -> `Steam Deck`
+
+You can also combine this with the filters: 
+
+`Ready to Run` - Shows games that you can just download and play.
+
+`Files Needed` - Shows games that you need to provide additional files for.
+
+### Will more games be added?
+
+Yes, the PortMaster team is continuously updating the Ports list. As the application is updated, more ports will be added for `X86_64` systems.
+
+## How-to: Add PortMaster Games to RetroDECK
 
 <img src="../../../wiki_images/systems/portmaster/pm-banana.png" width="800">
 
@@ -74,12 +90,10 @@ Check the [PortMaster Games List](https://portmaster.games/games.html) for detai
 
 The required files and/or folders should be put inside the `retrodeck/PortMaster/`. 
 
-## Will more games be added?
-
-Yes, the PortMaster team is continuously updating the Ports list. As the application is updated, more ports will be added for `X86_64` systems.
 
 ## Can I hide PortMaster in ES-DE? 
 
 Currently there is no easy way to do so from within RetroDECK.
 
 The quickest solution is just to rename the `retrodeck/roms/portmaster/` folder into something else like `retrodeck/roms/Aportmaster/`.
+

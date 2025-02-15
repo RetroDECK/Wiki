@@ -5,5 +5,5 @@
 
 ![type:audio](RetroDECK's Lament.mp3)
 
-©️ Art: Thalin the Troll
-©️ Music: Lazorne the Troll Hunter
+
+©️ Music: Lazorne the Troll Hunter (┛ಠ_ಠ)┛彡┻━┻   ©️ Art: Thalin the Troll

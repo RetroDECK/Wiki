@@ -93,14 +93,13 @@ nav:
 
   - Guides - RetroDECK Controls & Hotkeys 🎮:
 
-    - About Udev Rules: wiki_rd_controls/about-udev.md
-    - Different Button Prompts in Games: wiki_rd_controls/diffrent-game-inputs.md
-    - Change Controller Order: wiki_rd_controls/change-controller-order-steam.md
     - RetroDECK - Controller Hotkeys: wiki_rd_controls/hotkeys-retrodeck.md
     - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
     - RetroDECK - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
     - Steam Deck - Gyro: wiki_rd_controls/gyro-steamdeck-neptune.md
-
+    - Change Controller Order: wiki_rd_controls/change-controller-order-steam.md
+    - Different Button Prompts in Games: wiki_rd_controls/diffrent-game-inputs.md
+    - Udev Rules: wiki_rd_controls/about-udev.md
 
   - Guides - RetroDECK Management 🧰:
 

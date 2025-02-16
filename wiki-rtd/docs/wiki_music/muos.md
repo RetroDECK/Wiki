@@ -1,6 +1,6 @@
 # MUOS Protest
 
-<img src="../../wiki_images/ai/muos.png" width="600">
+<img src="../../wiki_images/ai/muos-opossum.png" width="600">
 
 ```
 These sloths should know we are opossums not cows. 

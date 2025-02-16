@@ -1,5 +1,7 @@
 # Just why?!
 
-<img src="../devs.png" width="600">
+<img src="../../wiki_images/ai/xargon-the-sloth.png" width="500">
 
 ![type:audio](Hello Development Team.mp3)
+
+©️ Lazorne 

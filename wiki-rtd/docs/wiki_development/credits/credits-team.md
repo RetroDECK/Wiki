@@ -2,6 +2,8 @@
 
 ## [XargonWan](https://github.com/XargonWan)
 
+<img src="../../../wiki_images/ai/xargon-the-sloth.png" width="100">
+
 RetroDECK project founder and also one of the founding members of [AmberELEC](https://amberelec.org/).
 
 <details><summary> </summary>
@@ -9,6 +11,8 @@ Grand General of the IPL (Italian Pizza Legion) also known as the Napoletanan Fi
 </details>
 
 ## [Lazorne](https://github.com/Lazorne)
+
+<img src="../../../wiki_images/ai/lazorne-the-sloth.png" width="100">
 
 Does community management/outreach, testing, documentation, emulator configurations, maestro, Steam Input and feature request / issue management.
 
@@ -18,6 +22,8 @@ Meme Lord of the Wiki and also the cult leader of the NPC (The Nordic Pizza Cult
 
 ## [jiannazzone](https://github.com/jiannazzone)
 
+<img src="../../../wiki_images/ai/adam-the-sloth.png" width="100">
+
 Web Development, Godot, Community management/outreach, testing, documentation.
 
 <details><summary> </summary>
@@ -25,6 +31,8 @@ MCCP branch operative against the NPC faction and have a loose alliance with the
 </details>
 
 ## [IceNine451](https://github.com/icenine451)
+
+<img src="../../../wiki_images/ai/icenine-the-sloth.png" width="100">
 
 Focus on scripting and creator of the `RetroDECK Configurator`, the `RetroDECK Framework` and various cool things.
 
@@ -34,6 +42,8 @@ Freedom loving leader of the MCCP (Murican Cheese Crust Patriots) in the interna
 
 
 ## [WallK](https://github.com/WallK)
+
+<img src="../../../wiki_images/ai/wallk-the-sloth.png" width="100">
 
 Does Godot and backend development.
 

@@ -4,4 +4,4 @@
 
 ![type:audio](Have you checked the wiki.mp3)
 
-©️ Lazorne 
+©️ Music Lyrics:️ Lazorne 

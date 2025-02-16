@@ -1,6 +1,6 @@
 # What will happen to RetroDECK?
 
-<img src="../thalin-the-troll.png"  width="500">
+<img src="../thalin-the-troll.png"  width="300">
 
 
 ![type:audio](RetroDECK's Lament.mp3)

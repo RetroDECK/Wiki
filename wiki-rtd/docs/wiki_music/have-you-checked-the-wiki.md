@@ -1,5 +1,5 @@
 # Have you checked the Wiki?
 
-Well, have you?
+<img src="../girlreading-rd-logo.png">
 
 ![type:audio](Have you checked the wiki.mp3)

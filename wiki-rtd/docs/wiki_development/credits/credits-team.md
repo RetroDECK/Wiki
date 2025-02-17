@@ -43,8 +43,6 @@ Freedom loving leader of the MCCP (Murican Cheese Crust Patriots) in the interna
 
 ## [WallK](https://github.com/WallK)
 
-<img src="../../../wiki_images/ai/wallk-the-sloth.png" width="100">
-
 Does Godot and backend development.
 
 <details><summary> </summary>

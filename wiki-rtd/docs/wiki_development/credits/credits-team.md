@@ -4,7 +4,16 @@
 
 <img src="../../../wiki_images/ai/xargon-the-sloth.png" width="100">
 
-RetroDECK project founder and also one of the founding members of [AmberELEC](https://amberelec.org/).
+Founder of RetroDECK and one of the founding members of [AmberELEC](https://amberelec.org/).
+
+```
+- Backend Development
+- Configurator Features
+- Good / Bad Ideas
+- RetroDECK Framework
+- Testing
+```
+
 
 <details><summary> </summary>
 Grand General of the IPL (Italian Pizza Legion) also known as the Napoletanan Fist in the internal pizza war.
@@ -14,17 +23,41 @@ Grand General of the IPL (Italian Pizza Legion) also known as the Napoletanan Fi
 
 <img src="../../../wiki_images/ai/lazorne-the-sloth.png" width="100">
 
-Does community management/outreach, testing, documentation, emulator configurations, maestro, Steam Input and feature request / issue management.
+Maestro of RetroDECK.
+
+```
+- Community Management/Outreach
+- Emulator Configurations
+- Feature Requests
+- Good / Bad Ideas
+- Issue Management
+- Management of Xargons Good / Bad Ideas
+- Memes
+- Steam Input
+- Testing
+- Wiki Documentation
+```
+
+
 
 <details><summary> </summary>
-Meme Lord of the Wiki and also the cult leader of the NPC (The Nordic Pizza Cult) also called by the others as "The Pizza Heresy Cult" or "Harbingers of Pizza Chaos". Instigator of the internal pizza war.
+Maestro of the Wiki and also the cult leader of the NPC (The Nordic Pizza Cult) also called by the others as "The Pizza Heresy Cult" or "Harbingers of Pizza Chaos". Instigator of the internal pizza war.
 </details>
 
 ## [jiannazzone](https://github.com/jiannazzone)
 
 <img src="../../../wiki_images/ai/adam-the-sloth.png" width="100">
 
-Web Development, Godot, Community management/outreach, testing, documentation.
+Front End and UI/UX Development.
+
+```
+- Community Management/Outreach
+- Front End and UI/UX
+- Godot
+- Good / Bad Ideas
+- Testing
+- Website
+```
 
 <details><summary> </summary>
 MCCP branch operative against the NPC faction and have a loose alliance with the IPL. 
@@ -34,7 +67,17 @@ MCCP branch operative against the NPC faction and have a loose alliance with the
 
 <img src="../../../wiki_images/ai/icenine-the-sloth.png" width="100">
 
-Focus on scripting and creator of the `RetroDECK Configurator`, the `RetroDECK Framework` and various cool things.
+Backend Development.
+
+Creator of the `RetroDECK Configurator`, the `RetroDECK Framework` and various cool things.
+
+
+```
+- Backend Development
+- RetroDECK Framework
+- Configurator Features
+```
+
 
 <details><summary> </summary>
 Freedom loving leader of the MCCP (Murican Cheese Crust Patriots) in the internal pizza war.
@@ -43,7 +86,13 @@ Freedom loving leader of the MCCP (Murican Cheese Crust Patriots) in the interna
 
 ## [WallK](https://github.com/WallK)
 
-Does Godot and backend development.
+Godot Development.
+
+```
+- Godot Backend Development
+- Backend Development
+```
+
 
 <details><summary> </summary>
 Pizza Mercenary

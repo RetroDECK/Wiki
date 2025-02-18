@@ -1,6 +1,6 @@
 # Music - ROMMeow - Team Hustle Meeting
 
-<img src="../../../../wiki_images/ai/romm/romm-team.png" width="600">
+<img src="../../../wiki_images/ai/romm/romm-team.png" width="600">
 
 ```
 Zurdi: 

@@ -1,4 +1,4 @@
-# Music - PortMaster - Master of Ports
+# Music - PM - The Master of Ports
 
 <img src="../../../wiki_images/ai/portmaster/portmaster-jeff.png" width="300">
 

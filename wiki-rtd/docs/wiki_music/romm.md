@@ -1,4 +1,4 @@
-# Team Meeting - ROMMeow
+# ROMMeow - Team Meeting
 
 <img src="../../wiki_images/ai/romm-team.png" width="600">
 

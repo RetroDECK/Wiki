@@ -4,6 +4,8 @@
 
 Open Beats of Rage or `OpenBOR` is a beat 'em up game engine.
 
+**NOTE THIS IS NOT IMPLEMENTED YET**
+
 ---
 
 ### OpenBOR Links:
@@ -21,7 +23,8 @@ Open Beats of Rage or `OpenBOR` is a beat 'em up game engine.
 ---
 
 ## Where to put the games
-OpenBOR games should be put under the `retrodeck/roms/openbor/` directory.
+
+OpenBOR games should be put under the  directory.
 
 ## Does OpenBOR require BIOS or Firmware?
 No
@@ -34,6 +37,13 @@ No
 
 - The games need to be uncompressed to a folder.
 - Each game is its own self-contained game, and no overarching settings exist.
+
+## Folder structure
+
+| Type    | Folder                 |          Comment     | 
+|  :---:  | :---:                  |             :---:     |
+| ROMs Folder |`retrodeck/roms/openbor/` |                               |  
+
 
 ### Example folder structure of a OpenBOR game
 

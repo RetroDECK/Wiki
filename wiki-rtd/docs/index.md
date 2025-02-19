@@ -7,17 +7,6 @@
 ![Discord](https://img.shields.io/discord/951662718102962256?label=discord)
 ![GitHub](https://img.shields.io/github/license/XargonWan/RetroDECK)
 
-
-## 🏗️ This wiki is currently under construction 🏗️
-
-Some articles are marked as WIP (Work in Progress).
-
-Those can either be:
-
-- Preparation articles for an upcoming update.
-- They could also be articles we have not had the time to fully write yet.
-
-
 ---
 
 ## How-to get started with RetroDECK?
@@ -61,3 +50,11 @@ Those can either be:
 - [Flathub: Service Status](https://status.flathub.org/)
 - [Flathub: Buildbot](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck)
 
+---
+
+## 🏗️ WIP (Work in Progress) Articles 🏗️
+
+These articles are either:
+
+- Preparation for an upcoming update.
+- Incomplete articles we haven't fully written yet.

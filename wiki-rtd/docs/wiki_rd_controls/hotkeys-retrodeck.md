@@ -14,6 +14,8 @@ RetroDECK ships with the following Steam Input Templates:
 - **Xbox 360 Controller:** `RetroDECK: Xbox 360`
 - **Xbox Wireless Controller/Elite Series:** `RetroDECK: Xbox Wireless`
 
+In Steam go to `🎮 Controller Settings` -> `Controller Layouts` -> `Templates` and enable the template for the controller you are using.
+
 ## The HotKey Button
 
 The global hotkeys are activated by pressing and holding the `HKB` (HotKey Button) and pressing the corresponding button together for the command you want to execute.

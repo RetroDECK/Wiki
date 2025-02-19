@@ -238,13 +238,13 @@ It adds separate games to Steam, adds artwork and configures the steam input pro
 
 [SRM - General Guide](../wiki_system_guides/srm/srm-guide.md)
 
-## Steam Input Controller layouts
+## Steam Input Controller Templates
 
-For all inputs layouts included in RetroDECK.
+For all Steam Inputs Templates included in RetroDECK.
 
 **Read more here:**
 
-[Supported Controllers](../wiki_general/supported-controllers.md).
+[Supported Controllers / Hotkeys](../wiki_rd_controls/hotkeys-retrodeck.md).
 
 
 ## Supported Devices

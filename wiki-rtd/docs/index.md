@@ -32,7 +32,7 @@ Those can either be:
 ## What devices and operating systems are supported?
 
 - [Supported Devices & OS](wiki_general/supported-devices.md)
-- [Supported Controllers](wiki_general/supported-controllers.md)
+- [Supported Controllers / Hotkeys](wiki_rd_controls/hotkeys-retrodeck.md)
 
 ---
 

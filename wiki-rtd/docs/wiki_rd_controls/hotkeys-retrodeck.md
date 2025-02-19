@@ -18,23 +18,6 @@ RetroDECK uses Steam Input for advanced controller mapping. More controllers wil
 
 Read more here: [How-to: Add RetroDECK to Steam](../wiki_management/add-to-steam.md)
 
-### Linux Desktop - steam-devices
-
-- The `steam-devices` package is usually part of the Steam installation for many distributions.
-- Required for Steam to recognize controllers.
-- Steam will warn you if `steam-devices` is missing.
-- Check your distribution's instructions to install it if needed.
-
-**Note:** Not needed for SteamOS-based devices like the Steam Deck or most gaming distributions like Bazzite, Chimera, Nobara, and more.
-
-### Linux Desktop - Enable All Steam Input in Steam
-
-1. In Steam, press the `Steam` top menu.
-2. Go to `Settings`.
-3. Press `🎮 Controller`.
-4. Enable all Steam Inputs for `Xbox`, `PlayStation`, `Switch Pro`, `Generic`.
-5. Close the `Settings`.
-
 ## Applying the Templates
 
 1. Select RetroDECK in Steam.
@@ -48,36 +31,35 @@ Read more here: [How-to: Add RetroDECK to Steam](../wiki_management/add-to-steam
 
 <img src="../../../wiki_images/steam/steam-controller-icon-bar.png" width="200">
 
-On Linux Desktop, connect an external controller via cable, Bluetooth, or wireless for the `🎮 Controller Settings` icon to show up.
-
+On Linux Desktop, connect an external controller via cable, Bluetooth, or wireless for the `🎮` icon to show up.
 
 <img src="../../../wiki_images/steam/steam-templates.png" width="600">
 
 ---
 
 
-## RetroDECK: Steam Input Templates
+## RetroDECK: Steam Input Templates & HotKey Button
 
 What follows is a list with links of the currently supported Steam Input Templates.
 
 
-| Controller         | Template Name |  Version      |   Original System   |   Controller Link |  Comment  |
-| :---               | :---:       | :---:         |     :---:           |  :---:            |    :---:  |
-| Generic Standard   | `RetroDECK: Generic - Standard` | `v.1b` | Varies |[Generic Standard](../wiki_controllers/generic/generic-standard.md)|  Majority of 3rd Party Controllers with a Standard Layout |
-| Switch Pro         | `RetroDECK: Switch Pro`         | `v.1b` | Nintendo Switch | [Switch Pro](../wiki_controllers/nintendo/switch-pro.md)| |
-| Steam Deck: Neptune| `RetroDECK: Steam Deck - Neptune`| `v.1.1b` | Steam Deck LCD/OLED |[Steam Deck - Neptune](../wiki_controllers/steam/steamdeck-neptune.md)  |  Has two radial menu systems |
-| Steam Controller: Gordon | `RetroDECK: Steam Controller - Gordon` | `v.1b` | Steam Devices | [Steam Controller - Gordon](../wiki_controllers/steam/steam-controller-gordon.md)|  |
-| DualShock 3        | `RetroDECK: DualShock 3`        | `v.1b` | PlayStation 3 |[DualShock 3](../wiki_controllers/playstation/dualshock-3.md) |  |
-| DualShock 4        | `RetroDECK: DualShock 4`        | `v.1b` | PlayStation 4 |[DualShock 4](../wiki_controllers/playstation/dualshock-4.md)|  |
-| DualSense          | `RetroDECK: DualSense`          | `v.1b` | PlayStation 5 |[DualSense](../wiki_controllers/playstation/dualsense.md)|  |
-| DualSense Edge     | `RetroDECK: DualSense Edge`        | `v.1b` | PlayStation 5 | [DualSense Edge](../wiki_controllers/playstation/dualsense-edge.md)|  |
-| Xbox 360           | `RetroDECK: Xbox 360`           | `v.1b` | Xbox 360 | [Xbox 360 Controller](../wiki_controllers/xbox/xbox-360.md)|  |
-| Xbox Wireless      | `RetroDECK: Xbox Wireless`      | `v.1b` | Xbox One / S / X | [Xbox Wireless Controller](../wiki_controllers/xbox/xbox-wireless.md) |  |
-| Xbox Elite Wireless Series 1 / 2 | `RetroDECK: Xbox Wireless` | `v.1b` | Xbox S / X | [Xbox Elite Wireless Controller Series 1 / 2](../wiki_controllers/xbox/xbox-wireless-elite.md) |  |
+| Controller         | Template Name |  Version      |   Original System   |   Controller Link |  HotKey Button (HKB) |  Comment  |
+| :---               | :---:       | :---:         |     :---:           |  :---:            |    :---:  |    :---:  |
+| Generic Standard   | `RetroDECK: Generic - Standard` | `v.1b` | Varies |[Generic Standard](../wiki_controllers/generic/generic-standard.md)|`Select` |  Majority of 3rd Party Controllers with a Standard Layout |
+| Switch Pro         | `RetroDECK: Switch Pro`         | `v.1b` | Nintendo Switch | [Switch Pro](../wiki_controllers/nintendo/switch-pro.md)| `Minus` | |
+| Steam Deck: Neptune| `RetroDECK: Steam Deck - Neptune`| `v.1.1b` | Steam Deck LCD/OLED |[Steam Deck - Neptune](../wiki_controllers/steam/steamdeck-neptune.md)  |`L4` `R4`  `Select` |  Has two radial menu systems |
+| Steam Controller: Gordon | `RetroDECK: Steam Controller - Gordon` | `v.1b` | Steam Devices | [Steam Controller - Gordon](../wiki_controllers/steam/steam-controller-gordon.md)| `L4` `Select` |  |
+| DualShock 3        | `RetroDECK: DualShock 3`        | `v.1b` | PlayStation 3 |[DualShock 3](../wiki_controllers/playstation/dualshock-3.md) |`Select` |  |
+| DualShock 4        | `RetroDECK: DualShock 4`        | `v.1b` | PlayStation 4 |[DualShock 4](../wiki_controllers/playstation/dualshock-4.md)|`Select` |  |
+| DualSense          | `RetroDECK: DualSense`          | `v.1b` | PlayStation 5 |[DualSense](../wiki_controllers/playstation/dualsense.md)|`Select` |  |
+| DualSense Edge     | `RetroDECK: DualSense Edge`        | `v.1b` | PlayStation 5 | [DualSense Edge](../wiki_controllers/playstation/dualsense-edge.md)|`Select` |  |
+| Xbox 360           | `RetroDECK: Xbox 360`           | `v.1b` | Xbox 360 | [Xbox 360 Controller](../wiki_controllers/xbox/xbox-360.md)| `Select`|  |
+| Xbox Wireless      | `RetroDECK: Xbox Wireless`      | `v.1b` | Xbox One / S / X | [Xbox Wireless Controller](../wiki_controllers/xbox/xbox-wireless.md) | `Select` |  |
+| Xbox Elite Wireless Series 1 / 2 | `RetroDECK: Xbox Wireless` | `v.1b` | Xbox S / X | [Xbox Elite Wireless Controller Series 1 / 2](../wiki_controllers/xbox/xbox-wireless-elite.md) |`Select` |  |
 
 ---
 
-## The HotKey Button
+### The HotKey Button
 
 The global hotkeys are activated by pressing and holding the `HKB` (HotKey Button) and pressing the corresponding button together for the command you want to execute.
 
@@ -99,7 +81,7 @@ To execute the `Pause / Resume` command:
 
 ---
 
-## Hotkey list
+## RetroDECK: Hotkey list
 
 - **Function**: Shows what the hotkey does.
 - **Icon**: Shows the icon of the corresponding function in the radial menus.

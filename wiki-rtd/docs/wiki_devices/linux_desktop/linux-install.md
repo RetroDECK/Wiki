@@ -4,13 +4,31 @@
 
 ## Prerequisites
 
-1. Ensure you have flatpak support installed on your Linux desktop. Follow the official flatpak guides for your distribution: [Flatpak Setup Guide](https://flatpak.org/setup/).
+**NOTE:** It's recommended to add and launch RetroDECK via Steam to utilize the Steam Input feature for external controllers.
 
-2. Install the `steam-device` package for udev rules for various controllers (most gaming focused distribution have this already). Check your distribution's instructions for how to install it.
+### Flatpak Support
 
-3. It's recommended to add and launch RetroDECK from Steam to utilize the Steam Input feature for external controllers.
 
-## RetroDECK Installation 
+Ensure you have flatpak support installed on your Linux desktop. Follow the official flatpak guides for your distribution: [Flatpak Setup Guide](https://flatpak.org/setup/).
+
+### Steam - steam-devices
+
+- The `steam-devices` package is usually part of the Steam installation for many distributions.
+- Required for Steam to recognize controllers.
+- Steam will warn you if `steam-devices` is missing.
+- Check your distribution's instructions to install it if needed.
+
+**Note:** Not needed for SteamOS-based devices like the Steam Deck or most gaming distributions like Bazzite, Chimera, Nobara, and more.
+
+### Steam - Enable All Steam Input in Steam
+
+1. In Steam, press the `Steam` top menu.
+2. Go to `Settings`.
+3. Press `🎮 Controller`.
+4. Enable all Steam Inputs for `Xbox`, `PlayStation`, `Switch Pro`, `Generic`.
+5. Close the `Settings`.
+
+## How-to: Install RetroDECK from Flathub
 
 **From the Desktop**
 
@@ -23,19 +41,17 @@ Run the following command:
 
 `flatpak install Flathub net.retrodeck.retrodeck`
 
-## Quickstart Guide
+## How-to: Setup RetroDECK
 
-1. Start RetroDECK for the first time
+1. Start RetroDECK for the first time.
 2. Choose where RetroDECK should create the main folder `retrodeck/`: `Internal Storage`,  `SD Card` or `Custom Location`.
 3. Put the BIOS files inside `retrodeck/bios/`.
 4. Put the ROMs & game files inside `retrodeck/roms/`.
 5. Choose to install Steam Controller Templates for RetroDECK (this should be checked by default) during installation.
-5. Add RetroDECK to Steam: [How-to: Add RetroDECK to Steam](../../wiki_management/add-to-steam.md).
-6. Enable controller support in Steam: [Supported Controllers / Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md).
-7. Connect your controller to your desktop.
-8. Navigate to RetroDECK in Steam
-9. Go to `🎮 Controller Settings` -> `Controller Layouts` -> `Templates` and enable the template for the controller you are using.
-10. Launch RetroDECK and enjoy!
+6. Add RetroDECK to Steam: [How-to: Add RetroDECK to Steam](../../wiki_management/add-to-steam.md).
+7. Connect your controller to your desktop and navigate to RetroDECK in Steam.
+8. Apply controller Templates in Steam: [Supported Controllers / Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md).
+9. Launch RetroDECK and enjoy!
 
 ## Other Tips
 

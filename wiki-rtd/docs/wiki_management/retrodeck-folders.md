@@ -6,66 +6,65 @@ Here is the RetroDECK folder structure.
 
 ## Main Folders
 
-| **Type**    |  **Folder**                 |          **Comment**     |         
-|  :---:  | :---:                  |             :---:     |
-| Userdata Folder  |`retrodeck/` |   Contains userdata. Has a dynamic location, chosen by the user.         |         
-| User Var Folder |`~/.var/app/net.retrodeck.retrodeck/`         | Exposes configuration, cache, and system data from the Flatpak environment.   |
-| Flatpak Folder | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | Contains the sandboxed flatpak environment and should not be touched. |
+| **Type**         | **Folder**                                                              | **Comment**                                                                 |
+|:----------------:|:-----------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
+| Flatpak Folder   | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/`    | Contains the sandboxed flatpak environment and should not be touched.       |
+| User Var Folder  | `~/.var/app/net.retrodeck.retrodeck/`                                   | Exposes configuration, cache, and system data from the Flatpak environment. |
+| Userdata Folder  | `retrodeck/`                                                            | Contains userdata. Has a dynamic location, chosen by the user.              |
 
 ## Userdata Folder - retrodeck/
 
-| **Type**    |  **Folder**                 |          **Comment**     |          
-|  :---:  | :---:                  |             :---:     |
-| BIOS Folder | `retrodeck/bios`        | BIOS folder (follows the RetroArch BIOS structure). |
-| Borders Folder | `retrodeck/borders`  | Border files for supported systems  |
-| Shaders Folder | `retrodeck/cheats`  | Cheat folders for supported systems |
-| ES-DE Folder | `retrodeck/ES-DE`  | Userdata from ES-DE |
-| Logs Folder | `retrodeck/logs`  | RetroDECK logfiles |
-| Mods Folder | `retrodeck/mods`  | Mods folders for supported systems  |
-| PortMaster Folder | `retrodeck/PortMaster`  | PortMaster downloaded games data|
-| ROMs Folder | `retrodeck/roms`  |  ROMs folders |
-| Saves Folder | `retrodeck/saves`  |  Save folders for supported systems |
-| Screenshots Folder | `retrodeck/saves`  |  Screenshots folders for supported systems |
-| Shaders Folder | `retrodeck/shaders`  |  Shader folders for supported systems |
-| States Folder | `retrodeck/states`  |  State (save state) folders for supported systems |
-| Sync Folder  |`retrodeck/.sync` |   Hidden folder for the Steam Sync feature contains sync .sh files       |  
-| Texture Packs Folder | `retrodeck/texture_packs`  |  Texture Packs folders for supported systems |
-
+| **Type**             | **Folder**                | **Comment**                                           |
+|:--------------------:|:-------------------------:|:-----------------------------------------------------:|
+| BIOS Folder          | `retrodeck/bios`          | BIOS folder (follows the RetroArch BIOS structure).   |
+| Borders Folder       | `retrodeck/borders`       | Border files for supported systems                    |
+| Cheats Folder        | `retrodeck/cheats`        |                                                       |
+| ES-DE Folder         | `retrodeck/ES-DE`         | Userdata from ES-DE                                   |
+| Logs Folder          | `retrodeck/logs`          | RetroDECK logfiles                                    |
+| Mods Folder          | `retrodeck/mods`          | Mods folders for supported systems                    |
+| PortMaster Folder    | `retrodeck/PortMaster`    | PortMaster downloaded games data                      |
+| ROMs Folder          | `retrodeck/roms`          | ROMs folders                                          |
+| Saves Folder         | `retrodeck/saves`         | Save folders for supported systems                    |
+| Screenshots Folder   | `retrodeck/saves`         | Screenshots folders for supported systems             |
+| Shaders Folder       | `retrodeck/cheats`        | Cheat folders for supported systems                   |
+| Shaders Folder       | `retrodeck/shaders`       | Shader folders for supported systems                  |
+| States Folder        | `retrodeck/states`        | State (save state) folders for supported systems      |
+| Texture Packs Folder | `retrodeck/texture_packs` | Texture Packs folders for supported systems           |
 
 ## ES-DE Folder
 
-| **Type** | **Folder** | **Comment** |
-|  :---:  | :---:       |   :---:     |
-| Collections Folder | collections | Custom ES-DE Collection |
-| Custom Systems Folder | custom_systems |Custom Systems |
-| Downloaded Media Folder | downloaded_media | Scraping data |
-| Gamelists Folder | gamelists | ES-DE gamelist.xml files|
-| Themes Folder | themes | ES-DE Themes |
+| **Type**               | **Folder**          | **Comment**                      |
+|:----------------------:|:-------------------:|:--------------------------------:|
+| Collections Folder     | collections         | Custom ES-DE Collection          |
+| Custom Systems Folder  | custom_systems      | Custom Systems                   |
+| Downloaded Media Folder| downloaded_media    | Scraping data                    |
+| Gamelists Folder       | gamelists           | ES-DE gamelist.xml files         |
+| Themes Folder          | themes              | ES-DE Themes                     |
 
 ## BIOS Folder
 
 Most BIOS files are put in the root of the folder. 
 
-| **Type** | **Folder** | **Comment** |
-|  :---:  | :---:       |   :---:     |
-| Cemu Folder | cemu | |
-| Citra Folder | citra | |
-| Databases Folder | Databases | |
-| Dc Folder | dc | |
-| Fbneo Folder | fbneo | |
-| Gzdoom Folder | gzdoom | |
-| HdPacks Folder | HdPacks | |
-| Machines Folder | Machines | |
-| Mame-sa Folder | mame-sa | |
-| Mupen64plus Folder | Mupen64plus | |
-| Np2kai Folder | np2kai | |
-| Pico-8 Folder | pico-8 | |
-| PPSSPP Folder | PPSSPP | |
-| Quasi88 Folder | quasi88 | |
-| Rpcs3 Folder | rpcs3 | |
-| Switch Folder | switch | |
-| Themes Folder | themes | |
-| Vita3K Folder | Vita3K | |
+| **Type**             | **Folder**          | **Comment** |
+|:--------------------:|:-------------------:|:-----------:|
+| Cemu Folder          | cemu                |             |
+| Citra Folder         | citra               |             |
+| Databases Folder     | Databases           |             |
+| Dc Folder            | dc                  |             |
+| Fbneo Folder         | fbneo               |             |
+| Gzdoom Folder        | gzdoom              |             |
+| HdPacks Folder       | HdPacks             |             |
+| Machines Folder      | Machines            |             |
+| Mame-sa Folder       | mame-sa             |             |
+| Mupen64plus Folder   | Mupen64plus         |             |
+| Np2kai Folder        | np2kai              |             |
+| Pico-8 Folder        | pico-8              |             |
+| PPSSPP Folder        | PPSSPP              |             |
+| Quasi88 Folder       | quasi88             |             |
+| Rpcs3 Folder         | rpcs3               |             |
+| Switch Folder        | switch              |             |
+| Themes Folder        | themes              |             |
+| Vita3K Folder        | Vita3K              |             |
 
 ## ROMs Folder
 

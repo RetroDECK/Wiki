@@ -25,15 +25,15 @@ Read more here: [How-to: Add RetroDECK to Steam](../wiki_management/add-to-steam
 
 **Steam Deck:** 
 
-<img src="../../../wiki_images/steam/steam-controller-icon.png" width="50">
+<img src="../../wiki_images/steam/steam-controller-icon.png" width="50">
 
 **Linux Desktop:** 
 
-<img src="../../../wiki_images/steam/steam-controller-icon-bar.png" width="200">
+<img src="../../wiki_images/steam/steam-controller-icon-bar.png" width="200">
 
 On Linux Desktop, connect an external controller via cable, Bluetooth, or wireless for the `🎮` icon to show up.
 
-<img src="../../../wiki_images/steam/steam-templates.png" width="600">
+<img src="../../wiki_images/steam/steam-templates.png" width="600">
 
 ---
 

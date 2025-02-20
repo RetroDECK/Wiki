@@ -70,7 +70,18 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 ## Does Dolphin require BIOS or Firmware?
 
-No
+Optional `IPL.bin` for GameCube boot intros.
+
+### Where to put the GameCube BIOS?
+
+Dolphin looks for the `IPL.bin` in the save folders. Put each region's `IPL.bin` in the corresponding saves folder.
+
+| Type               | Folder                              | Flatpak Source                  | Emulator Folder                | Comment |
+|:------------------:|:-----------------------------------:|:-------------------------------:|:------------------------------:|:-------:|
+| GameCube Saves EU  | `retrodeck/saves/gc/dolphin/EU/`    | `var/data/dolphin-emu/GC/EUR/`  | `dolphin-emu/GC/EUR/`          |         |
+| GameCube Saves US  | `retrodeck/saves/gc/dolphin/US/`    | `var/data/dolphin-emu/GC/USA/`  | `dolphin-emu/GC/USA/`          |         |
+| GameCube Saves JP  | `retrodeck/saves/gc/dolphin/JP/`    | `var/data/dolphin-emu/GC/JAP/`  | `dolphin-emu/GC/JAP/`          |         |
+
 
 ## Folder structure
 
@@ -78,35 +89,36 @@ No
 
 This shows what folder corresponds to each folder in the standard Dolphin structure 
 
-| Type | Folder                 | Flatpak Source |  Emulator Folder      |    Comment |
-|  :---:   | :---:                   | :---:               | :---:           |      :---:     |
-| ROMs Gamecube Folder |`retrodeck/roms/gc/` |                               |  
-| ROMs Wii Folder |`retrodeck/roms/wii/` |                               |  
-| GameCube Saves EU|`retrodeck/saves/gc/dolphin/EU/` |     `var/data/dolphin-emu/GC/EUR/`       |    `dolphin-emu/GC/EUR/`         |  |
-| GameCube Saves US|`retrodeck/saves/gc/dolphin/US/`         |     `var/data/dolphin-emu/GC/USA/`       |    `dolphin-emu/GC/USA/`         |   |
-| GameCube Saves JP| `retrodeck/saves/gc/dolphin/JP/`         |     `var/data/dolphin-emu/GC/JAP/`       |    `dolphin-emu/GC/JAP/`         |  |
-| Wii Saves |`retrodeck/saves/wii/dolphin/`         |     `var/data/dolphin-emu/Wii/`       |    `dolphin-emu/Wii/`         |   |
-| States |`retrodeck/states/dolphin/`         |     `var/data/dolphin-emu/StateSaves/`       |    `dolphin-emu/StateSaves/`         |   |
-| Mods |`retrodeck/mods/Dolphin/`         |     `var/data/dolphin-emu/Load/GraphicMods`       |    `dolphin-emu/Load/GraphicMods/`         |   |
-| Texture Packs |`retrodeck/mods/Dolphin/`         |     `var/data/dolphin-emu/Load/Textures/`       |    `dolphin-emu/Load/Textures/`         |   |
-| Screenshots |`retrodeck/screenshots/`         |     `var/data/dolphin-emu/ScreenShots/`       |    `dolphin-emu/ScreenShots/`         |   |
+| Type               | Folder                              | Flatpak Source                  | Emulator Folder                | Comment |
+|:------------------:|:-----------------------------------:|:-------------------------------:|:------------------------------:|:-------:|
+| GameCube Saves EU  | `retrodeck/saves/gc/dolphin/EU/`    | `var/data/dolphin-emu/GC/EUR/`  | `dolphin-emu/GC/EUR/`          |         |
+| GameCube Saves JP  | `retrodeck/saves/gc/dolphin/JP/`    | `var/data/dolphin-emu/GC/JAP/`  | `dolphin-emu/GC/JAP/`          |         |
+| GameCube Saves US  | `retrodeck/saves/gc/dolphin/US/`    | `var/data/dolphin-emu/GC/USA/`  | `dolphin-emu/GC/USA/`          |         |
+| Mods               | `retrodeck/mods/Dolphin/`           | `var/data/dolphin-emu/Load/GraphicMods` | `dolphin-emu/Load/GraphicMods/` |         |
+| ROMs Gamecube Folder | `retrodeck/roms/gc/`              |                                 |                                |         |
+| ROMs Wii Folder    | `retrodeck/roms/wii/`               |                                 |                                |         |
+| Screenshots        | `retrodeck/screenshots/`            | `var/data/dolphin-emu/ScreenShots/` | `dolphin-emu/ScreenShots/`     |         |
+| States             | `retrodeck/states/dolphin/`         | `var/data/dolphin-emu/StateSaves/` | `dolphin-emu/StateSaves/`      |         |
+| Texture Packs      | `retrodeck/mods/Dolphin/`           | `var/data/dolphin-emu/Load/Textures/` | `dolphin-emu/Load/Textures/`   |         |
+| Wii Saves          | `retrodeck/saves/wii/dolphin/`      | `var/data/dolphin-emu/Wii/`     | `dolphin-emu/Wii/`             |         |
 
 ### PrimeHack
 
 This shows what folder corresponds to each folder in the standard PrimeHack structure 
 
-| Type | Folder                 | Flatpak Source |  Emulator Folder      |    Comment |
-|  :---:   | :---:                   | :---:               | :---:           |      :---:     |
-| ROMs Gamecube Folder |`retrodeck/roms/gc/` |                               |  
-| ROMs Wii Folder |`retrodeck/roms/wii/` |                               |  
-| GameCube Saves EU|`retrodeck/saves/gc/primehack/EU/` |     `var/data/primehack/GC/EUR/`       |    `primehack/GC/EUR/`         |  |
-| GameCube Saves US|`retrodeck/saves/gc/primehack/US/`         |     `var/data/primehack/GC/USA/`       |    `primehack/GC/USA/`         |   |
-| GameCube Saves JP| `retrodeck/saves/gc/primehack/JP/`         |     `var/data/primehack/GC/JAP/`       |    `primehack/GC/JAP/`         |  |
-| Wii Saves |`retrodeck/saves/wii/primehack/`         |     `var/data/primehack/Wii/`       |    `primehack/Wii/`         |   |
-| States |`retrodeck/states/primehack/`         |     `var/data/primehack/StateSaves/`       |    `primehack/StateSaves/`         |   |
-| Mods |`retrodeck/mods/Primehack/`         |     `var/data/primehack/Load/GraphicMods`       |    `primehack/Load/GraphicMods/`         |   |
-| Texture Packs |`retrodeck/mods/Primehack/`         |     `var/data/primehack/Load/Textures/`       |    `primehack/Load/Textures/`         |   |
-| Screenshots |`retrodeck/screenshots/`         |     `var/data/primehack/ScreenShots/`       |    `primehack/ScreenShots/`         |   |
+
+| Type               | Folder                              | Flatpak Source                  | Emulator Folder                | Comment |
+|:------------------:|:-----------------------------------:|:-------------------------------:|:------------------------------:|:-------:|
+| GameCube Saves EU  | `retrodeck/saves/gc/primehack/EU/`  | `var/data/primehack/GC/EUR/`    | `primehack/GC/EUR/`            |         |
+| GameCube Saves JP  | `retrodeck/saves/gc/primehack/JP/`  | `var/data/primehack/GC/JAP/`    | `primehack/GC/JAP/`            |         |
+| GameCube Saves US  | `retrodeck/saves/gc/primehack/US/`  | `var/data/primehack/GC/USA/`    | `primehack/GC/USA/`            |         |
+| Mods               | `retrodeck/mods/Primehack/`         | `var/data/primehack/Load/GraphicMods` | `primehack/Load/GraphicMods/` |         |
+| ROMs Gamecube Folder | `retrodeck/roms/gc/`              |                                 |                                |         |
+| ROMs Wii Folder    | `retrodeck/roms/wii/`               |                                 |                                |         |
+| Screenshots        | `retrodeck/screenshots/`            | `var/data/primehack/ScreenShots/` | `primehack/ScreenShots/`       |         |
+| States             | `retrodeck/states/primehack/`       | `var/data/primehack/StateSaves/` | `primehack/StateSaves/`        |         |
+| Texture Packs      | `retrodeck/mods/Primehack/`         | `var/data/primehack/Load/Textures/` | `primehack/Load/Textures/`     |         |
+| Wii Saves          | `retrodeck/saves/wii/primehack/`    | `var/data/primehack/Wii/`       | `primehack/Wii/`               |         |
 
 ## Where do I change the language of Dolphin / Primehack?
 
@@ -115,58 +127,52 @@ This shows what folder corresponds to each folder in the standard PrimeHack stru
 3. Select preferred language in the drop-down menu.
 4. Close the Emulator, Configurator and return to RetroDECK.
 
-## Dolphin Controls
-
-### Gamecube Controls
+## Gamecube Controls
 
 The controls here are described as an Xbox Layout style controller.
 
-|  Action                                    |    Button        |    Comment      |
-| :---                                      | :---:           |         :---:   |
-| A                             |   `A `          |                 |
-| B                              |   `B`          |                 |
-| X                              |   `X`          |                 |
-| Y                              |   `Y`          |                 |
-| Z                              |   `R2 or L2`          |                 |
-| START                          |   `START`          |                 |
-| Control Stick                   |   `Left Stick`          |                 |
-| C Stick                   |   `Right Stick`          |                 |
-| D-Pad Up                             |   `D-Pad Up`          |                 |
-| D-Pad Down                               |   `D-Pad Down`          |                 |
-| D-Pad Left                              |   `D-Pad Left`          |                 |
-| D-Pad Right                               |   `D-Pad Right`          |                 |
+| Action          | Button       | Comment |
+|:---------------:|:------------:|:-------:|
+| A               | `A`          |         |
+| B               | `B`          |         |
+| X               | `X`          |         |
+| Y               | `Y`          |         |
+| Z               | `R2 or L2`   |         |
+| START           | `START`      |         |
+| Control Stick   | `Left Stick` |         |
+| C Stick         | `Right Stick`|         |
+| D-Pad Up        | `D-Pad Up`   |         |
+| D-Pad Down      | `D-Pad Down` |         |
+| D-Pad Left      | `D-Pad Left` |         |
+| D-Pad Right     | `D-Pad Right`|         |
 
 
 
-### Wii - How do I use a Real Wii Remote with RetroDECK and Dolphin / Primehack?
 
-To get a Wii Remote working on Dolphin / Primehack and Linux read more here in this in-depth guide:
 
-[Wii Remote - Guide](../../wiki_controllers/nintendo/wii-remote.md)
-
-### Wii Controls for Controllers
+## Wii Controls for Controllers
 
 The controls here are described as an Xbox Layout style controller.
 
 There are hotkeys in the Radial Menus to change the Wii Mote from Upright / Sidways.
 
-|  Action                                    |    Button        |    Comment      |
-| :---                                      | :---:           |         :---:   |
-| A                              |   `A` or `Left Mouse Click`         |                 |
-| B                              |   `B`         |                 |
-| 1                              |   `Y`         |                 |
-| 2                              |   `X`         |                 |
-| -                              |   `Select`         |                 |
-| +                              |   `Start`         |                 |
-| C                              |   `R1`         |                 |
-| Z                              |   `R2 or L2`         |                 |
-| Shake Wii Mote                 |   `L1`         |                 |
-| Shake Nunchuck                 |   `L1 + L2`         |                 |
-| D-Pad Up                             |   `D-Pad Up`          |                 |
-| D-Pad Down                               |   `D-Pad Down`          |                 |
-| D-Pad Left                              |   `D-Pad Left`          |                 |
-| D-Pad Right                               |   `D-Pad Right`          |                 |
-| Home                   |   `R3`         |                 |
+| Action            | Button                | Comment |
+|:-----------------:|:---------------------:|:-------:|
+| 1                 | `Y`                   |         |
+| 2                 | `X`                   |         |
+| A                 | `A` or `Left Mouse Click` |         |
+| B                 | `B`                   |         |
+| C                 | `R1`                  |         |
+| D-Pad Down        | `D-Pad Down`          |         |
+| D-Pad Left        | `D-Pad Left`          |         |
+| D-Pad Right       | `D-Pad Right`         |         |
+| D-Pad Up          | `D-Pad Up`            |         |
+| Home              | `R3`                  |         |
+| +                 | `Start`               |         |
+| -                 | `Select`              |         |
+| Shake Nunchuck    | `L1 + L2`             |         |
+| Shake Wii Mote    | `L1`                  |         |
+| Z                 | `L2`                  |         |
 
 ### Wii Motion - Pointer Emulation  
 
@@ -180,19 +186,20 @@ For all external controllers without a touchpad (this can also be used for those
 
 By holding `SELECT` and moving the `Right Joystick` you can use it as a mouse for various systems that uses mouse input.
 
-| Function                 | Button / Combination|      Comment     |
-| :---                    | :---:     |           :---:          |
-| Joystick as Mouse        |  `SELECT + Right Stick`                       |  Cursor Movement  |
-| Right Mouse Click       |  `SELECT + L3`          |                      |
-| Left Mouse Click        |  `SELECT + R3`           |                  |
+
+| Function            | Button / Combination       | Comment          |
+|:-------------------:|:--------------------------:|:----------------:|
+| Joystick as Mouse   | `SELECT + Right Stick`     | Cursor Movement  |
+| Right Mouse Click   | `SELECT + L3`              |                  |
+| Left Mouse Click    | `SELECT + R3`              |                  |
 
 
 #### Steam Deck
 
-| Function                 | Button / Combination     |    Comment |
-| :---                    | :---:                    |    :---:     |
-| Right Touchpad         |             |               The entire touchpad acts a mouse   |
-| Right Touchpad Press   |    `Left Mouse Click`  |                 |
+| Function            | Button / Combination       | Comment                          |
+|:-------------------:|:--------------------------:|:--------------------------------:|
+| Right Touchpad      |                            | The entire touchpad acts as a mouse |
+| Right Touchpad Press| `Left Mouse Click`         |                                  |
 
 The Steam Deck uses the `Right Touchpad` for mouse movement and `Wii Pointer` emulation, clicking on the Touchpad will produce a `Left Click` and send the press of the `A` button.
 
@@ -200,11 +207,11 @@ The Steam Deck uses the `Right Touchpad` for mouse movement and `Wii Pointer` em
 
 The touchpads acts as a mouse and can be used to navigate mouse based inputs and be used for Dolphin.
 
-| Function                 | Button / Combination     |    Comment |
-| :---                    | :---:                    |    :---:     |
-| Full Touchpad          |             |  The entire touchpad acts a mouse   |
-| Right Touchpad Click         |  `Left Mouse Click`     |         |
-| Left Touchpad Click         |  `Right Mouse Click`      |         |
+| Function            | Button / Combination       | Comment                          |
+|:-------------------:|:--------------------------:|:--------------------------------:|
+| Full Touchpad       |                            | The entire touchpad acts as a mouse |
+| Left Touchpad Click | `Right Mouse Click`        |                                  |
+| Right Touchpad Click| `Left Mouse Click`         |                                  |
 
 
 #### Steam Controller - Gordon
@@ -217,24 +224,30 @@ Hold `SELECT` or `L4` and move the `Right Touchpad` while holding if you don't w
 
 By pressing `R4` you can switch the right touchpad between semi-permanent `Right Joystick Mode` or `Mouse Mode`.
 
-| Function                 | Button / Combination  | Comment     |
-| :---                    | :---:               |       :---:          |
-| Touchpad as Mouse  / Joystick Switch      |  `R4`         | The entire touchpad acts a mouse or the right joystick    |
-| Left Click - Mouse Mode       |  `R3`           |   `Left Click`            |     |
+| Function                          | Button / Combination  | Comment                                      |
+|:---------------------------------:|:---------------------:|:--------------------------------------------:|
+| Left Click - Mouse Mode           | `R3`                  | `Left Click`                                 |
+| Touchpad as Mouse / Joystick Switch| `R4`                 | The entire touchpad acts as a mouse or the right joystick |
 
 
 ### Wii Motion - Tilt Emulation
 
 Tilt emulation is made possible by holding the `L2` button and moving the `Right Joystick`.
 
-|  Action                                    |    Button        |    Comment      |
-| :---                                      | :---:           |         :---:   |
-| Tilt Up                             |   `L2 + Right Joystick Up`          |                 |
-| Tilt Down                               |   `L2 + Right Joystick Down`         |                 |
-| Tilt Left                              |   `L2 + Right Joystick Left`        |                 |
-| Tilt Right                               |   `L2 + Right Joystick Right`          |                 |
+| Action          | Button                    | Comment |
+|:---------------:|:-------------------------:|:-------:|
+| Tilt Down       | `L2 + Right Joystick Down`|         |
+| Tilt Left       | `L2 + Right Joystick Left`|         |
+| Tilt Right      | `L2 + Right Joystick Right`|        |
+| Tilt Up         | `L2 + Right Joystick Up`  |         |
 
-## How-to add mods?
+## How-to: Use a Real Wii Remote with Dolphin / Primehack?
+
+To get a Wii Remote working on Dolphin / Primehack and Linux read more here in this in-depth guide:
+
+[Wii Remote - Guide](../../wiki_controllers/nintendo/wii-remote.md)
+
+## How-to: Adding Mods
 
 The `~/retrodeck/mods/dolphin/` / `~/retrodeck/mods/primehack/` that represents the `/load/GraphicMods` folder.
 
@@ -265,7 +278,7 @@ Make sure you have the right game and textures for it.
 
 If all is correct the mods should be loaded on next game launch.
 
-## How-to add texture packs?
+## How-to: Add Texture Packs?
 
 Primehack is based on Dolphin so the method is the same.
 
@@ -293,3 +306,10 @@ Some texture packs could made for a specific version or region of a game. Make s
 **Primehack:** `~/retrodeck/texture_packs/primehack/<GAME_ID>` <br>
 
 If all is correct the textures should be loaded on next game launch.
+
+## How-to: Enable GameCube Boot Main Menu
+
+**Prerequisite:** Place the GameCube `IPL.bin` BIOS in the save folders (see above).
+
+1. Open Dolphin or Primehack in `RetroDECK Configurator` by selecting `Open Emulator` -> `Dolphin` / `Primehack`.
+2. Go to `Options` -> `Configuration` -> `GameCube` and uncheck `Skip Main Menu`.

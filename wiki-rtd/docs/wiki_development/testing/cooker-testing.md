@@ -67,7 +67,7 @@ You will get several warnings if you accidentally press it.
 
 ### Upgrading RetroDECK
 
-- After the installation is complete type:  `flatpak run --command=sh net.retrodeck.retrodeck` followed by `retrodeck`.
+- After the installation is complete type:  `flatpak run net.retrodeck.retrodeck --debug`.
 - Press the `Upgrade` button and keep the installation moving until all the steps are complete and RetroDECK will launch.
 - Quit RetroDECK again and save all the output from the terminal into a text file.
 

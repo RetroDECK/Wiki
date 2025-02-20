@@ -24,11 +24,11 @@ Playstation 2 games should be put under the `retrodeck/roms/ps2/` directory.
 
 ## What file formats are supported?
 
-```
-.iso
-.bin
-.chd
-```
+| File Format | Description |
+|-------------|-------------|
+| .iso        | Standard ISO disc image |
+| .bin        | Binary disc image file |
+| .chd        | Compressed Hunks of Data |
 
 ## Does PCSX2 require BIOS or Firmware?
 

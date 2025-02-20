@@ -30,14 +30,15 @@ PSP games should be put under the `retrodeck/roms/psp/` directory.
 
 ## What file formats are supported?
 
-```
-.elf
-.cso
-.iso
-.pbp
-.prx
-.chd
-```
+
+| File Format | Description |
+|-------------|-------------|
+| .elf        | Executable and Linkable Format |
+| .cso        | Compressed ISO image file |
+| .iso        | Standard ISO disc image |
+| .pbp        | PlayStation Portable Update file |
+| .prx        | PlayStation Portable executable file |
+| .chd        | Compressed Hunks of Data |
 
 ## Does PPSSPP require BIOS or Firmware?
 

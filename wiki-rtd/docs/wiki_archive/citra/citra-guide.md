@@ -15,11 +15,11 @@ The last version that shipped with Citra was `0.7.6b`.
 
 ## What file formats are supported?
 
-```
-.3ds
-.cxi
-.cia
-```
+| File Format | Description |
+|-------------|-------------|
+| .3ds        | Nintendo 3DS ROM file |
+| .cxi        | Nintendo 3DS executable file |
+| .cia        | Nintendo 3DS installable file |
 
 ## Does Citra require BIOS or Firmware?
 

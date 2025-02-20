@@ -30,7 +30,9 @@ Flash games should be put under the `retrodeck/roms/flash/` directory.
 
 ## What file formats are supported?
 
-`.swf`
+| File Format | Description |
+|-------------|-------------|
+| .swf        | Shockwave Flash file |
 
 ## Does Ruffle require BIOS or Firmware?
 

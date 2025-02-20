@@ -23,9 +23,9 @@ Xbox games should be put under the `retrodeck/roms/xbox/` directory.
 
 ## What file formats are supported?
 
-```
-.iso (formated as xiso)
-```
+| File Format | Description |
+|-------------|-------------|
+| .iso (formatted as xiso) | Standard ISO disc image formatted as Xbox ISO |
 
 ### What is xiso's and how to create them? 
 

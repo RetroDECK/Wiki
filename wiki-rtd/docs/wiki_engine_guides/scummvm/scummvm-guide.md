@@ -30,9 +30,9 @@ ScummVM games should be put into the `retrodeck/roms/scummvm/` directory.
 
 ## What file formats are supported?
 
-```
-.scummvm
-```
+| File Format | Description |
+|-------------|-------------|
+| .scummvm    | ScummVM game folder |
 
 
 ### Does ScummVM require BIOS or Firmware?

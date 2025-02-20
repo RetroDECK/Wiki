@@ -24,9 +24,9 @@ It strives to be compatible with games made for those engines.
 
 ## What file formats are supported?
 
-```
-.mugen
-```
+| File Format | Description |
+|-------------|-------------|
+| .mugen      | M.U.G.E.N / IkemenGO game engine folder |
 
 ## Does IkemenGO require BIOS or Firmware?
 

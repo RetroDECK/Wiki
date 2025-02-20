@@ -31,7 +31,10 @@ No
 
 ## What file formats are supported?
 
-`.AppImage `
+| File Format | Description |
+|-------------|-------------|
+| .AppImage   | Linux application package |
+| .openbor    | RetroDECK Open Beats of Rage folder |
 
 ### Information
 

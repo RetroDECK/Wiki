@@ -30,9 +30,9 @@ No
 
 ## What file format is supported?
 
-```
-.solarus
-```
+| File Format | Description |
+|-------------|-------------|
+| .solarus    | Solarus game engine file |
 
 ## Folder structure
 

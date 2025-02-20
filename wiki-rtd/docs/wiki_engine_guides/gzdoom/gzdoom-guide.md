@@ -20,6 +20,28 @@ GZDoom is the open source game engine for ID Software's older games like DOOM, D
 
 DOOM games should be put under the `retrodeck/roms/doom/` directory.
 
+## What file formats does GZDoom support?
+
+| File Format | Description |
+|-------------|-------------|
+| .wad        | Doom level resource file |
+| .iwad       | Internal WAD file |
+| .pwad       | Patch WAD file |
+| .gzdoom     | GZDoom specific file |
+| .kpf        | KEX Engine zip replacement |
+| .pk3        | Enhanced engine zip container |
+| .pk4        | id Tech 4 zip container |
+| .pk7        | 7-Zip compressed container |
+| .pke        | Eternity Engine mod zip |
+| .lmp        | Doom data unit |
+| .dsg        | Doom save game |
+| .hsg        | Heretic save game |
+| .hxs        | Hexen save game |
+| .ssg        | Strife save game |
+| .deh        | DeHackEd file |
+| .bex        | Enhanced DeHackEd file |
+| .mus        | Doom music file |
+| .doom       | RetroDECK DOOM parser file (Only in RetroDECK) |
 
 ## Does GZDOOM require BIOS or Firmware?
 

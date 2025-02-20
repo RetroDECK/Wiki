@@ -16,13 +16,14 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 ## What file formats are supported?
 
-```
-.xci
-.nsp
-.nca
-.nso
-.nro
-```
+| File Format | Description |
+|-------------|-------------|
+| .xci        | Nintendo Switch Cartridge Image |
+| .nsp        | Nintendo Submission Package |
+| .nca        | Nintendo Content Archive |
+| .nso        | Nintendo Switch Executable |
+| .nro        | Nintendo Switch Homebrew |
+
 
 ## Does Yuzu require BIOS or Firmware?
 

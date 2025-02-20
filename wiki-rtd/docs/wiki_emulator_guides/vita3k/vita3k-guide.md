@@ -27,11 +27,11 @@ Vita3K games should be put into the `retrodeck/roms/psvita/` directory.
 
 ## What file formats are supported?
 
-```
-.pkg
-.zip
-.vpk
-```
+| File Format | Description |
+|-------------|-------------|
+| .pkg        | Package file |
+| .zip        | Compressed archive file |
+| .vpk        | Vita Package file |
 
 ## Does Vita3K require BIOS or Firmware?
 

@@ -31,15 +31,15 @@ PSX games should be put under the `retrodeck/roms/psx/` directory.
 
 ## What file formats are supported?
 
-```
-.bin + .cue
-.img
-.iso
-.chd
-.mds
-.pbp
-.ecm 
-```
+| File Format | Description |
+|-------------|-------------|
+| .bin + .cue | Binary disc image file with cue sheet |
+| .img        | Disc image file |
+| .iso        | Standard ISO disc image |
+| .chd        | Compressed Hunks of Data |
+| .mds        | Media Descriptor File |
+| .pbp        | PlayStation Portable Update file |
+| .ecm        | ECM compressed file |
 
 ## Does Duckstation require BIOS or Firmware?
 

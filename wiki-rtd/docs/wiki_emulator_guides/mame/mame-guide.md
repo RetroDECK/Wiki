@@ -26,10 +26,10 @@ Games that you want to run with MAME should be put under the `retrodeck/roms/mam
 
 ## What file formats are supported?
 
-```
-.zip
-.chd
-```
+| File Format | Description |
+|-------------|-------------|
+| .zip        | Compressed archive file |
+| .chd        | Compressed Hunks of Data |
 
 ## Does MAME require BIOS or Firmware?
 

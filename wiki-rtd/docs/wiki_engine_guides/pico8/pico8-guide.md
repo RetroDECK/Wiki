@@ -24,9 +24,9 @@ PICO-8 games should be put under the `retrodeck/roms/pico8/` directory.
 
 ## What file formats are supported?
 
-```
-.png 
-```
+| File Format | Description |
+|-------------|-------------|
+| .png        | PICO-8 game file |
 
 ## Does Pico-8 require BIOS or Firmware?
 

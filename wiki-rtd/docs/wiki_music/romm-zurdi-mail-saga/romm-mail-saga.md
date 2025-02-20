@@ -2,12 +2,13 @@
 
 <img src="../zurdi-mail.png" width="400">
 
-Some idiot cat forgot to put his name on the mailbox when the community sends him a package.
+The community sends the lead developer a package.
+But the idiot cat forgot to put his name on the mailbox.
+Causing it to end up in another country months later.
 
 **What happend:**
 
-WIP
-
+![type:audio](Lost in the Mail Country.mp3)
 
 **How it went:**
 

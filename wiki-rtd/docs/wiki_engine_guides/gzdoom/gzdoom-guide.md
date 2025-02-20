@@ -27,17 +27,12 @@ DOOM games should be put under the `retrodeck/roms/doom/` directory.
 | .wad        | Doom level resource file |
 | .iwad       | Internal WAD file |
 | .pwad       | Patch WAD file |
-| .gzdoom     | GZDoom specific file |
 | .kpf        | KEX Engine zip replacement |
 | .pk3        | Enhanced engine zip container |
 | .pk4        | id Tech 4 zip container |
 | .pk7        | 7-Zip compressed container |
 | .pke        | Eternity Engine mod zip |
 | .lmp        | Doom data unit |
-| .dsg        | Doom save game |
-| .hsg        | Heretic save game |
-| .hxs        | Hexen save game |
-| .ssg        | Strife save game |
 | .deh        | DeHackEd file |
 | .bex        | Enhanced DeHackEd file |
 | .mus        | Doom music file |

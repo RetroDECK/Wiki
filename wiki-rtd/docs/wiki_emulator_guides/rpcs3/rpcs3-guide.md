@@ -35,8 +35,8 @@ PS3 games should be put under the `retrodeck/roms/ps3/` folder.
 | File Format | Description |
 |-------------|-------------|
 | .desktop    | Desktop entry file |
-| .ps3  / .PS3       | PlayStation 3 game file |
-| .ps3dir / .PS3DIR    | PlayStation 3 directory file |
+| .ps3  / .PS3       | PlayStation 3 Directory |
+| .ps3dir / .PS3DIR    | PlayStation 3 Directory (alternative)  |
 
 ## Does RPCS3 require BIOS or Firmware?
 

@@ -45,24 +45,24 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 ## What file formats does Dolphin / Primehack support?
 
-```
-.ciso
-.dff
-.dol
-.elf
-.gcm
-.gcz
-.iso
-.json
-.m3u
-.rvz
-.tgc
-.wad
-.wbfs
-.wia
-.7z
-.zip
-```
+| File Format | Description |
+|-------------|-------------|
+| .ciso       | Compressed ISO image file |
+| .dff        | Digital Forensics File |
+| .dol        | GameCube executable file |
+| .elf        | Executable and Linkable Format |
+| .gcm        | GameCube disc image file |
+| .gcz        | Compressed GameCube disc image |
+| .iso        | Standard ISO disc image |
+| .json       | JavaScript Object Notation file |
+| .m3u        | Playlist file |
+| .rvz        | Compressed GameCube/Wii disc image |
+| .tgc        | GameCube disc image format |
+| .wad        | WiiWare and Virtual Console game file |
+| .wbfs       | Wii Backup File System image |
+| .wia        | Compressed Wii disc image |
+| .7z         | Compressed archive file |
+| .zip        | Compressed archive file |
 
 **NOTE:**
 

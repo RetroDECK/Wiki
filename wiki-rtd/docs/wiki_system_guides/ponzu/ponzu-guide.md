@@ -18,8 +18,8 @@ Ponzu looks for the AppImages in the `retrodeck/ponzu/` folder (lowercase).
 
 | Component | Supported Files Names |
 |----------|-----------------|
-| Yuzu `*`     | `Yuzu<X>.AppImage`, `yuzu*.AppImage` |
-| Citra `*`   | `Citra<X>.AppImage`, `citra*.AppImage` |
+| Yuzu `*`     | `Yuzu<X>.AppImage`, `yuzu<X>.AppImage` |
+| Citra `*`   | `Citra<X>.AppImage`, `citra<X>.AppImage` |
 
 Where `<X>` means any combination of characters.
 

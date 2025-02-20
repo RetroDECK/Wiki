@@ -14,21 +14,5 @@ Causing it to end up in another country months later.
 
 ![type:audio](Package Miracle Blues.mp3)
 
-<details>
-    <summary>Show the crappy OG's from the prehistoric era</summary>
-    <p>
-
-**What happend:**
-
-![type:audio](Lost in the Mail.mp3)
-
-
-**How it went:**
-
-![type:audio](Package Miracle.mp3)
-
-</p>
-    </details>
-
 ©️ Music Lyrics:️ Lazorne 
 

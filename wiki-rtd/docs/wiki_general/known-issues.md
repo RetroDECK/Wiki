@@ -65,6 +65,8 @@ What follows is a list of known issues.
 ### RetroArch
 
 **Gambatte Issue:** Quitting the core with the `Quit` radial function makes the core swap the palette while playing GB.
+**Multi-File Game Save Location:** Bug in RetroArch [GitHub libretro: Bug 17589](https://github.com/RetroDECK/RetroDECK/issues/1048).
+
 
 ### Ryujinx
 

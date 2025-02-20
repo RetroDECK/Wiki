@@ -14,7 +14,7 @@ If you do a Factory Reset of RetroDECK, you will need to repeat the Ponzu proces
 
 Ponzu looks for the AppImages in the `retrodeck/ponzu/` folder (lowercase).
 
-## What Components are supported in Ponzu?
+## What Components can be used in Ponzu?
 
 | Component | Supported Files Names |
 |----------|-----------------|

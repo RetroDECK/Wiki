@@ -23,7 +23,7 @@ Ponzu looks for the AppImages in the `retrodeck/ponzu/` folder (lowercase).
 
 Where `<X>` means any combination of characters.
 
-`*` These are not supported is to be seen as a temporary as-is solution and will stop working in the end, check the statement on this page.
+`*` This is an temporary as-is none supported solution and will stop working in the end, check the statement on this page.
 
 ## How to Use Ponzu
 

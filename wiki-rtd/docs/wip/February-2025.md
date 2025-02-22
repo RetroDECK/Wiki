@@ -1,40 +1,52 @@
 --- 
 
-date: 2025-02-27
+date: 2025-01-27
 
 --- 
 
-# February 2025: New Users, Bugs and Renovations 
+# February 2025: Stonks
 
 A new year and a new blog post!
 
 ## Highlights
 
-- 
+- Stonks
+- 0.9.1b
+- SRM and Steam Sync 2.0
 
 <!-- more -->
 
-<img src="../logo_stacked_merged.svg" width="600"> 
+<img src="../icon-rd.svg" width="600"> 
 
-## Adding RetroDECK Directly to Steam
+## Stonks
 
-## Adding RetroDECK Directly to Steam
+<img src="../RetroDECK_Stonks.png" width="600"> 
+
+Let's just say we have had a bit of a spike in both users and reported issues after the Retro Game Corps bump.
+
+Thanks Russ ❤️ 
+
+Thanks all new Community Members ❤️
+
+## 0.9.1b
+
+We have been vigilant in monitoring all socials: Discord, Matrix, Lemmy, Reddit, Blusky, etc., for reported issues even with a bigger userbase. Most of the things we have been working on since the release of 0.9.0b for two weeks have been tweaking and bug fixing.
+
+## SRM and Steam Sync 2.0
+
+The first step of Steam Sync was to get the functionality working and released inside of RetroDECK as we did as part of update 0.9.0b. We always wanted to do several improvements to it. 
+
+The New Steam Sync will first be a lot smarter and faster than it is today. It will only do the sync when there have been any changes to the favorites lists and not at every shutdown of the application. Second, there will be two modes of Steam Sync: Automatic and Manual.
+
+**Automatic**
+
+Automatic Sync is as said above, it does it on application shutdown, but only when there have been favorite list changes.
+
+**Manual**
+
+Disables the Sync on Shutdown function and lets the user sync manually with the click of a button instead inside of the Configurator.
 
 
-
-## Steam Sync Version 2.0 in the Works
-
-The Steam Sync function we released in version one 
-
-## That is all for now 
-
-There are more things we are working on, but you will see them in future blog updates!
-
-And as always if you want to help with development join the 💙-i-want-to-help channel on Discord.
-
-Thanks everyone! 
-
-//The RetroDECK Team 
 
 ### Links 
 

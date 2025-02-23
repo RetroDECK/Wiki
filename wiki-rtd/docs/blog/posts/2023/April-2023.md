@@ -2,7 +2,7 @@
 date: 2023-04-06
 ---
 
-# April 2023 - Status Update
+# April 2023: Status Update
 
 **Please note that this was written for Lemmy/Reddit and copied over to the new RetroDECK Wiki**
 

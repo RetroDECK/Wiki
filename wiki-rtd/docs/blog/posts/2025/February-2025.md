@@ -1,54 +1,60 @@
 --- 
 
-date: 2025-02-25
+date: 2025-02-23
 
 --- 
 
-# February 2025: Stonks
+# February 2025: Major Stonks
 
-
-
-A new year and a new blog post!
+That sure is a lot of users.
 
 ## Highlights
 
-- Stonks
+- Major Stonks
 - 0.9.1b
 - SRM and Steam Sync 2.0
+- Still Working on a Mascot
 
 <!-- more -->
 
 ---
 
+## Major Stonks
 
+Let's just say we have had ***a bit*** of a spike in both users and reported issues after the Retro Game Corps bump:
 
-## Stonks
+[Video Here](https://www.youtube.com/watch?v=bXS00Wcbwt4)
 
-Let's just say we have had "a bit" of a spike in both users and reported issues after the Retro Game Corps bump.
+❤️ Thanks Russ and Thanks all new Community Members ❤️
 
-Thanks Russ ❤️ 
-
-Thanks all new Community Members ❤️
-
-<img src="../RetroDECK_Stonks.png" width="800"> 
+<img src="../../../RetroDECK_Stonks.png" width="800"> 
 
 ---
 
 ## 0.9.1b
 
-<img src="../logo_stacked_merged.svg" width="400"> 
+<img src="../../../logo_stacked_merged.svg" width="400"> 
 
-We have been vigilant in monitoring all socials: Discord, Matrix, Lemmy, Reddit, Blusky, etc., for reported issues even with a bigger userbase. Most of the things we have been working on since the release of 0.9.0b for two weeks have been tweaking and bug fixing.
+We have been vigilant in monitoring all socials: Discord, Matrix, Lemmy, Reddit, Blusky, etc... for reported issues even with a bigger userbase. 
 
-We are always lookin for more community RetroDECK-Cooker testers, do you want to sign up? 
+Most of the things we have been working on since the release of 0.9.0b have been tweaking and bug fixing. 
 
-Join in the 💙-i-want-to-help channel on Discord.
+We hope to get 0.9.1b out as soon as possible (but as always no ETAs), we have also added some new features such as easier cheat management, ability to hide PortMaster and other things based on community feedback.
+
+Read more here: [Patch 0.9.1b Notes - Preview](https://retrodeck.readthedocs.io/en/latest/wiki_rd_versions/version_0.9.0b/0.9.1b/)
+
+As always we are always looking for more community RetroDECK-Cooker testers, do you want to sign up? 
+
+Tell us in the 💙-i-want-to-help channel on Discord.
+
+It's also good to read the: [Cooker Testing Guide](https://retrodeck.readthedocs.io/en/latest/wiki_development/testing/cooker-testing/)
+
 
 ---
 
 ## SRM and Steam Sync 2.0
 
-<img src="../srm-logo.png" width="75"> 
+<img src="../../../srm-logo.png" width="75"> 
 
 The first step of Steam Sync was to get the functionality working and released inside of RetroDECK as we did as part of update 0.9.0b. We always wanted to do several improvements to it. 
 
@@ -64,15 +70,15 @@ Disables the Sync on Shutdown function and lets the user sync manually with the 
 
 ---
 
-## Still working on a Mascot
+## Still Working on a Mascot
 
-<img src="../rekku-no.png" width="150">
+<img src="../../../rekku-no.png" width="150">
 
-<img src="../rekku-yes.png" width="150"> 
+<img src="../../../rekku-yes.png" width="150"> 
 
 We have a concept for our project mascot made in VRoid Studio. We want a "Genie of Games 😉" named Rekku, who comes out of an old game cartridge. 
 
-She should be inspired by classic Djinn characters like I Dream of Jeannie, Jeannie (The Hanna-Barbera Show), and Hakushon Daimaō (The Genie Family). 
+She should be inspired by classic Djinn characters like: I Dream of Jeannie, Jeannie (The Hanna-Barbera Show), Hakushon Daimaō (The Genie Family) and more. 
 
 If you have 3D modeling skills and want to help, please contact the RetroDECK Team on Discord in the 💙-i-want-to-help channel.
 

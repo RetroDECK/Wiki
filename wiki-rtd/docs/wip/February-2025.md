@@ -6,6 +6,8 @@ date: 2025-02-25
 
 # February 2025: Stonks
 
+
+
 A new year and a new blog post!
 
 ## Highlights
@@ -16,19 +18,25 @@ A new year and a new blog post!
 
 <!-- more -->
 
-<img src="../icon-rd.svg" width="100"> 
+---
+
+
 
 ## Stonks
 
-<img src="../RetroDECK_Stonks.png" width="800"> 
-
-Let's just say we have had a bit of a spike in both users and reported issues after the Retro Game Corps bump.
+Let's just say we have had "a bit" of a spike in both users and reported issues after the Retro Game Corps bump.
 
 Thanks Russ ❤️ 
 
 Thanks all new Community Members ❤️
 
+<img src="../RetroDECK_Stonks.png" width="800"> 
+
+---
+
 ## 0.9.1b
+
+<img src="../logo_stacked_merged.svg" width="400"> 
 
 We have been vigilant in monitoring all socials: Discord, Matrix, Lemmy, Reddit, Blusky, etc., for reported issues even with a bigger userbase. Most of the things we have been working on since the release of 0.9.0b for two weeks have been tweaking and bug fixing.
 
@@ -36,7 +44,11 @@ We are always lookin for more community RetroDECK-Cooker testers, do you want to
 
 Join in the 💙-i-want-to-help channel on Discord.
 
+---
+
 ## SRM and Steam Sync 2.0
+
+<img src="../srm-logo.png" width="75"> 
 
 The first step of Steam Sync was to get the functionality working and released inside of RetroDECK as we did as part of update 0.9.0b. We always wanted to do several improvements to it. 
 
@@ -49,6 +61,24 @@ Automatic Sync is as said above, it does it on application shutdown, but only wh
 **Manual**
 
 Disables the Sync on Shutdown function and lets the user sync manually with the click of a button instead inside of the Configurator.
+
+---
+
+## Still working on a Mascot
+
+<img src="../rekku-no.png" width="150">
+
+<img src="../rekku-yes.png" width="150"> 
+
+We have a concept for our project mascot made in VRoid Studio. We want a "Genie of Games 😉" named Rekku, who comes out of an old game cartridge. 
+
+She should be inspired by classic Djinn characters like I Dream of Jeannie, Jeannie (The Hanna-Barbera Show), and Hakushon Daimaō (The Genie Family). 
+
+If you have 3D modeling skills and want to help, please contact the RetroDECK Team on Discord in the 💙-i-want-to-help channel.
+
+
+
+---
 
 ## That is all for now 
 

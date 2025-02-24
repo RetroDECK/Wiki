@@ -4,7 +4,7 @@
 
 Applications that are not native on Steam get a random AppID number.
 
-## Folder structure
+## Steam Folder structure
 
 | Type    | Folder                 | Comment     | 
 |  :---:  | :---:                  | :---:     |
@@ -12,7 +12,7 @@ Applications that are not native on Steam get a random AppID number.
 | Application Templates Folder |`~/.steam/steam/steamapps/common/Steam Controller Configs/<AppID>/config/retrodeck/` | Temporary changes are stored here |
 | Steam Binding Icons Folder |`~/.steam/steam/tenfoot/resource/images/library/controller/binding_icons/` |                               |                             |  
 
-## What Controllers does Steam Input Support?
+### What Controllers does Steam Input Support?
 
 | Manufacturer | System              | Controller                | .vdf file                                 | RetroDECK Support | Comment |
 |--------------|---------------------|---------------------------|-------------------------------------------|------------|---------|

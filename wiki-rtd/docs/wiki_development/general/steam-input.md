@@ -16,11 +16,12 @@ Applications that are not native on Steam gets a random AppID number.
 
 ## Data Mangement 
 
-
-	"creator"		""
-	"progenitor"		""
-	"url"		""
-	"export_type"		""
+```
+"creator"		""
+"progenitor"		""
+"url"		""
+"export_type"		""
+```
 
 Should be empty as it is not relevant to the usecase of RetroDECK. Neither should the creator be shown as that hardlinks to the real SteamID of the person that makes the changes.
 

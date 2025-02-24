@@ -1,33 +1,15 @@
-# RetroDECK Collaborators
+# RetroDECK Collaborators Special Thanks
 
-## ES-DE
+## ES-DE Team
 
-### [Leon Styhre](https://gitlab.com/leonstyhre)
-Creator of ES-DE.
+Leon Styhre, Weestuarty and anthonycaccese and all others on the Team.
 
-## ROMM
+## ROMM Team
 
-### [Zurdi](https://github.com/zurdi15)
-
-Creator of ROMM.
-
-<details><summary> </summary>
-Demonio de las tapas de Oliva.
-</details>
-
-### [arcaneasada](https://github.com/gantoine)
-Cat Canadian.
+Zurdi, Arcaneasada, Mr.Moon and all others on the Team.
 
 ## Artists
 
 ### [ItzSelenux / ItsZariep](https://github.com/ItzSelenux/)
 
 Creator of the Pixelitos icon theme.
-
-### [anthonycaccese](https://github.com/anthonycaccese/)
-
-Theme creator for ES-DE and AmberELEC.
-
-### [Weestuarty](https://github.com/Weestuarty)
-
-Theme creator for ES-DE.

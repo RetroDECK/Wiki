@@ -12,45 +12,7 @@ Applications that are not native on Steam get a random AppID number.
 | Application Templates Folder |`~/.steam/steam/steamapps/common/Steam Controller Configs/<AppID>/config/retrodeck/` | Temporary changes are stored here |
 | Steam Binding Icons Folder |`~/.steam/steam/tenfoot/resource/images/library/controller/binding_icons/` |                               |                             |  
 
-### What Controllers does Steam Input Support?
 
-| Manufacturer | System              | Controller                | .vdf file                                 | RetroDECK Support | Comment |
-|--------------|---------------------|---------------------------|-------------------------------------------|------------|---------|
-| Android      | Cellphones / Tables | Touchscreen               | `controller_android.vdf`                  | No         |         |
-| Apple        | Cellphones / Tables | Touchscreen               | `controller_apple.vdf`                    | No         |         |
-| Generic      | Off Brand / 3rd Party|                           | `controller_generic.vdf`                  | Yes        |         |
-| Generic Mobile| Cellphones / Tables | Touchscreen               | `controller_mobile_touch`                 | No         |         |
-| Microsoft    | Xbox 360            | Xbox 360 Controller       | `controller_xbox360.vdf`                  | Yes        |         |
-| Microsoft    | Xbox One            | Xbox One Controller       | `controller_xboxone.vdf`                  | Yes        |         |
-| Microsoft    | Xbox Series X       | Xbox Series X Controller  | `controller_xboxone.vdf`                  | Yes        |         |
-| Nintendo     | Nintendo Switch     | Nintendo Switch Pro       | `controller_switch_pro.vdf`               | Yes        |         |
-| Nintendo     | Nintendo Switch     | Switch Joycons            | `controller_switch_joycon_left.vdf` and `controller_switch_joycon_right.vdf` | No         |         |
-| Sony         | PlayStation 5       | DualSense                 | `controller_ps5.vdf`                      | Yes        |         |
-| Sony         | PlayStation 3       | DualShock 3               | `controller_ps3.vdf`                      | Yes        |         |
-| Sony         | PlayStation 4       | DualShock 4               | `controller_ps4.vdf`                      | Yes        |         |
-| Valve        | Steam               | Steam Controller          | `controller_steamcontroller_gordon.vdf`   | Yes        |         |
-| Valve        | Steam Deck          | Steam Deck Controller     | `controller_neptune.vdf`                  | Yes        |         |
-
-## How does RetroDECK Inject the Templates and Custom Icons?
-
-If the user chooses to install the Steam Input Templates for RetroDECK:
-
-- Templates are injected into: `~/.steam/steam/controller_base/templates/`
-- Icons are injected into: `~/.steam/steam/tenfoot/resource/images/library/controller/binding_icons/` 
-
-## What Happens when you enable a Template from Steam? 
-
-When a template is selected from the Template Menu in Steam, it is copied from `~/.steam/steam/controller_base/templates/` to `~/.steam/steam/steamapps/common/Steam Controller Configs/<AppID>/config/retrodeck/` with the same name.
-
-## What happens when I make changes to a template?
-
-If the user or developer makes changes to the template via the Steam Input GUI, a new template .vdf file is created in `~/.steam/steam/steamapps/common/Steam Controller Configs/<AppID>/config/retrodeck/`.
-
-The name is based on the device used.
-
-**Example:**
-
-If you are editing the RetroDECK Steam Deck template, a new template with the edits will be called `controller_neptune.vdf`.
 
 ## File Naming Standard
 
@@ -194,3 +156,45 @@ The Steam Deck is so far the only device that ships with two different templates
 ```
 
 We add the template type by the end of the title and description.
+
+## FAQ
+
+### What Controllers does Steam Input Support?
+
+| Manufacturer | System              | Controller                | .vdf file                                 | RetroDECK Support | Comment |
+|--------------|---------------------|---------------------------|-------------------------------------------|------------|---------|
+| Android      | Cellphones / Tables | Touchscreen               | `controller_android.vdf`                  | No         |         |
+| Apple        | Cellphones / Tables | Touchscreen               | `controller_apple.vdf`                    | No         |         |
+| Generic      | Off Brand / 3rd Party|                           | `controller_generic.vdf`                  | Yes        |         |
+| Generic Mobile| Cellphones / Tables | Touchscreen               | `controller_mobile_touch.vdf`                 | No         |         |
+| Microsoft    | Xbox 360            | Xbox 360 Controller       | `controller_xbox360.vdf`                  | Yes        |         |
+| Microsoft    | Xbox One            | Xbox One Controller       | `controller_xboxone.vdf`                  | Yes        |         |
+| Microsoft    | Xbox Series X       | Xbox Series X Controller  | `controller_xboxone.vdf`                  | Yes        |         |
+| Nintendo     | Nintendo Switch     | Nintendo Switch Pro       | `controller_switch_pro.vdf`               | Yes        |         |
+| Nintendo     | Nintendo Switch     | Switch Joycons            | `controller_switch_joycon_left.vdf` and `controller_switch_joycon_right.vdf` | No         |         |
+| Sony         | PlayStation 5       | DualSense                 | `controller_ps5.vdf`                      | Yes        |         |
+| Sony         | PlayStation 3       | DualShock 3               | `controller_ps3.vdf`                      | Yes        |         |
+| Sony         | PlayStation 4       | DualShock 4               | `controller_ps4.vdf`                      | Yes        |         |
+| Valve        | Steam               | Steam Controller          | `controller_steamcontroller_gordon.vdf`   | Yes        |         |
+| Valve        | Steam Deck          | Steam Deck Controller     | `controller_neptune.vdf`                  | Yes        |         |
+
+### How does RetroDECK Inject the Templates and Custom Icons?
+
+If the user chooses to install the Steam Input Templates for RetroDECK:
+
+- Templates are injected into: `~/.steam/steam/controller_base/templates/`
+- Icons are injected into: `~/.steam/steam/tenfoot/resource/images/library/controller/binding_icons/` 
+
+### What Happens when you enable a Template from Steam? 
+
+When a template is selected from the Template Menu in Steam, it is copied from `~/.steam/steam/controller_base/templates/` to `~/.steam/steam/steamapps/common/Steam Controller Configs/<AppID>/config/retrodeck/` with the same name.
+
+### What happens when I make changes to a template?
+
+If the user or developer makes changes to the template via the Steam Input GUI, a new template .vdf file is created in `~/.steam/steam/steamapps/common/Steam Controller Configs/<AppID>/config/retrodeck/`.
+
+The name is based on the device used.
+
+**Example:**
+
+If you are editing the RetroDECK Steam Deck template, a new template with the edits will be called `controller_neptune.vdf`.

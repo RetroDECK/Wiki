@@ -163,10 +163,10 @@ We add the template type by the end of the title and description.
 
 | Manufacturer | System              | Controller                | .vdf file                                 | RetroDECK Support | Comment |
 |--------------|---------------------|---------------------------|-------------------------------------------|------------|---------|
+| 3rd Party / Generic    | Many      |                           | `controller_generic.vdf`                  | Yes        |         |
 | Android      | Cellphones / Tables | Touchscreen               | `controller_android.vdf`                  | No         |         |
 | Apple        | Cellphones / Tables | Touchscreen               | `controller_apple.vdf`                    | No         |         |
-| Generic      | Off Brand / 3rd Party|                           | `controller_generic.vdf`                  | Yes        |         |
-| Generic Mobile| Cellphones / Tables | Touchscreen               | `controller_mobile_touch.vdf`                 | No         |         |
+| Generic Mobile| Cellphones / Tables | Touchscreen               | `controller_mobile_touch.vdf`            | No         |         |
 | Microsoft    | Xbox 360            | Xbox 360 Controller       | `controller_xbox360.vdf`                  | Yes        |         |
 | Microsoft    | Xbox One            | Xbox One Controller       | `controller_xboxone.vdf`                  | Yes        |         |
 | Microsoft    | Xbox Series X       | Xbox Series X Controller  | `controller_xboxone.vdf`                  | Yes        |         |

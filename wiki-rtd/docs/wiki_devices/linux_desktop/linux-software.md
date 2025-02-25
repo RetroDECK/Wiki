@@ -1,5 +1,7 @@
 # Linux Desktop - Recommended Software
 
+<img src="../../../wiki_icons/pixelitos/linux.png" width="75">
+
 The following software might enhance your RetroDECK or general gaming experience on Linux.
 
 ## Emulation Management

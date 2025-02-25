@@ -1,6 +1,6 @@
 # MAME - General Guide
 
-<img src="../../../wiki_images/logos/mame-logo.png" width="180">
+<img src="../../../wiki_images/logos/mame-logo.png" width="100">
 
 MAME is a multi-purpose emulation framework.
 

@@ -1,5 +1,7 @@
 # RetroArch:  Mupen64Plus-Next - Texture Pack Guide
 
+<img src="../../../wiki_images/logos/retroarch-logo.png" width="75">
+
 The `texture_packs/RetroArch-Mupen64Plus/` represents `/retroarch/system/Mupen64plus/` folder.
 
 **Note:**

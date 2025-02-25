@@ -1,4 +1,7 @@
 # RetroArch - Mesen - Texture Pack Guide
+
+<img src="../../../wiki_images/logos/retroarch-logo.png" width="75">
+
 The `texture_packs/RetroArch-Mesen/` represents `/retroarch/system/HdPacks/` folder.
 
 **Note:** <br>

@@ -1,6 +1,6 @@
 # IkemenGO / M.U.G.E.N - General Guide
 
-<img src="../../../wiki_images/logos/ikemen-go-logo.png" width="150"> <img src="../../../wiki_images/logos/mugen-logo.png" width="350">
+<img src="../../../wiki_images/logos/ikemen-go-logo.png" width="75">
 
 `IkemenGO` is a fighting game engine and the spiritual successor to the projects `Ikemen` and `M.U.G.E.N`. 
 

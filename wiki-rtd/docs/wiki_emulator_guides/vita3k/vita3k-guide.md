@@ -1,6 +1,6 @@
 # Vita3K - General Guide
 
-<img src="../../../wiki_images/logos/vita3k-logo.png" width="150">
+<img src="../../../wiki_images/logos/vita3k-logo.png" width="75">
 
 Vita3K is an experimental open-source Sony PlayStation Vita emulator.
 

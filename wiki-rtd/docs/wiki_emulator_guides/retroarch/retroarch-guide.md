@@ -1,6 +1,6 @@
 #  RetroArch - General Guide
 
-<img src="../../../wiki_images/logos/retroarch-logo.png" width="150">
+<img src="../../../wiki_images/logos/retroarch-logo.png" width="75">
 
 RetroArch is a multi-emulator that play games with emulator cores.
 

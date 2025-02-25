@@ -1,6 +1,6 @@
 # Ryujinx - General Guide
 
-<img src="../../../wiki_images/logos/ryujinx-logo.svg" width="150">
+<img src="../../../wiki_images/logos/ryujinx-logo.svg" width="75">
 
 Ryujinx was a Switch emulator. 
 

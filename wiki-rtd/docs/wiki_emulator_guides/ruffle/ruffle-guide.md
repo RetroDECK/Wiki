@@ -1,6 +1,6 @@
 # Ruffle - General Guide
 
-<img src="../../../wiki_images/logos/ruffle-logo.svg" width="150">
+<img src="../../../wiki_images/logos/ruffle-logo.svg" width="75">
 
 An open source Flash Player emulator.
 

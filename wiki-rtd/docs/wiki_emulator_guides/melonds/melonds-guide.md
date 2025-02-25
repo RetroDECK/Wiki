@@ -1,6 +1,6 @@
 # Guide: melonDS
 
-<img src="../../../wiki_images/logos/melonds-logo.svg" width="150">
+<img src="../../../wiki_images/logos/melonds-logo.svg" width="75">
 
 melonDS, a Nintendo DS emulator.
 

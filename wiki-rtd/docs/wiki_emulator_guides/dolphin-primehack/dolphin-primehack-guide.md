@@ -1,6 +1,6 @@
 # Dolphin / Primehack - General Guide
 
-<img src="../../../wiki_images/logos/dolphin-logo.png" width="150">  <img src="../../../wiki_images/logos/primehack-logo.png" width="150">
+<img src="../../../wiki_images/logos/dolphin-logo.png" width="75">  <img src="../../../wiki_images/logos/primehack-logo.png" width="75">
 
 Dolphin feature rich a GameCube and Wii Emulator.
 

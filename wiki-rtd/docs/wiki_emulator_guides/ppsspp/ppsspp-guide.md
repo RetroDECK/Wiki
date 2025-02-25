@@ -1,6 +1,6 @@
 # PPSSPP - General Guide
 
-<img src="../../../wiki_images/logos/ppsspp-logo.png" width="150">
+<img src="../../../wiki_images/logos/ppsspp-logo.png" width="75">
 
 A PSP emulator that can also upscale textures to make them sharper, and you can enable post-processing shaders to adjust color and brightness the way you like, and other effects. 
 

@@ -1,6 +1,6 @@
 # PCSX2 - General Guide
 
-<img src="../../../wiki_images/logos/pcsx2-logo.png" width="180">
+<img src="../../../wiki_images/logos/pcsx2-logo.png" width="100">
 
 PCSX2 is a free and open-source PlayStation 2 (PS2) emulator.
 

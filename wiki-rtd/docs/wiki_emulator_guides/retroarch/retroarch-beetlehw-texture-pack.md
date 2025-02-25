@@ -1,5 +1,7 @@
 # RetroArch:  Beetle PSX HW - Texture Pack Guide (Vulkan Only)
 
+<img src="../../../wiki_images/logos/retroarch-logo.png" width="75">
+
 This guide will help you set up texture replacements for the Beetle PSX HW core using the Vulkan renderer. Texture replacements can enhance the visual quality of your games by replacing the original textures with high-resolution ones.
 
 Source: [Beetle PSX HW](https://docs.libretro.com/library/beetle_psx_hw/#texture-replacements-vulkan-only)

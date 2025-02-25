@@ -172,9 +172,9 @@ We add the template type by the end of the title and description.
 | Microsoft    | Xbox Series X       | Xbox Series X Controller  | `controller_xboxone.vdf`                  | Yes        |         |
 | Nintendo     | Nintendo Switch     | Nintendo Switch Pro       | `controller_switch_pro.vdf`               | Yes        |         |
 | Nintendo     | Nintendo Switch     | Switch Joycons            | `controller_switch_joycon_left.vdf` and `controller_switch_joycon_right.vdf` | No         |         |
-| Sony         | PlayStation 5       | DualSense                 | `controller_ps5.vdf`                      | Yes        |         |
 | Sony         | PlayStation 3       | DualShock 3               | `controller_ps3.vdf`                      | Yes        |         |
 | Sony         | PlayStation 4       | DualShock 4               | `controller_ps4.vdf`                      | Yes        |         |
+| Sony         | PlayStation 5       | DualSense                 | `controller_ps5.vdf`                      | Yes        |         |
 | Valve        | Steam               | Steam Controller          | `controller_steamcontroller_gordon.vdf`   | Yes        |         |
 | Valve        | Steam Deck          | Steam Deck Controller     | `controller_neptune.vdf`                  | Yes        |         |
 

@@ -11,6 +11,7 @@ Citra was a Switch emulator and was removed as part of the `0.8.0b` update.
 The last version that shipped with Citra was `0.7.6b`.
 
 ## Where to put the games
+
 3DS games should be put under the `retrodeck/roms/3ds/` directory.
 
 ## What file formats are supported?
@@ -18,8 +19,14 @@ The last version that shipped with Citra was `0.7.6b`.
 | File Format | Description |
 |-------------|-------------|
 | .3ds        | Nintendo 3DS ROM file |
+| .3dsx       | Nintendo 3DS homebrew file |
+| .app        | Nintendo 3DS application file |
+| .axf        | Nintendo 3DS ARM executable file |
+| .cci        | Nintendo 3DS cartridge image file **(Recommended)** |
 | .cxi        | Nintendo 3DS executable file |
-| .cia        | Nintendo 3DS installable file |
+| .elf        | Executable and Linkable Format file |
+| .7z         | Compressed archive file |
+| .zip        | Compressed archive file |
 
 ## Does Citra require BIOS or Firmware?
 

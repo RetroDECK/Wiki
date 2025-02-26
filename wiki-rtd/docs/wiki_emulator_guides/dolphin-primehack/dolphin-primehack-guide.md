@@ -56,7 +56,7 @@ Should be put under the `retrodeck/roms/wii/` directory.
 | .iso        | Standard ISO disc image |
 | .json       | JavaScript Object Notation file |
 | .m3u        | Playlist file |
-| .rvz        | Compressed GameCube/Wii disc image |
+| .rvz        | Compressed GameCube/Wii disc image **(Recommended)** |
 | .tgc        | GameCube disc image format |
 | .wad        | WiiWare and Virtual Console game file |
 | .wbfs       | Wii Backup File System image |

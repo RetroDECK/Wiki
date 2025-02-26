@@ -38,7 +38,7 @@ PSP games should be put under the `retrodeck/roms/psp/` directory.
 | .iso        | Standard ISO disc image |
 | .pbp        | PlayStation Portable Update file |
 | .prx        | PlayStation Portable executable file |
-| .chd        | Compressed Hunks of Data |
+| .chd        | Compressed Hunks of Data  **(Recommended)**|
 
 ## Does PPSSPP require BIOS or Firmware?
 

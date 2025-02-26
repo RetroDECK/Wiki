@@ -27,7 +27,7 @@ Playstation 2 games should be put under the `retrodeck/roms/ps2/` directory.
 | File Format | Description |
 |-------------|-------------|
 | .iso        | Standard ISO disc image |
-| .bin        | Binary disc image file |
+| .bin + .cue | Binary disc image file with cue sheet |
 | .chd        | Compressed Hunks of Data **(Recommended)** |
 
 ## Does PCSX2 require BIOS or Firmware?

@@ -34,7 +34,7 @@ PS3 games should be put under the `retrodeck/roms/ps3/` folder.
 
 | File Format | Description |
 |-------------|-------------|
-| .desktop    | Desktop entry file |
+| .desktop    | Desktop entry file **(Recommended)** |
 | .ps3  / .PS3       | PlayStation 3 Directory |
 | .ps3dir / .PS3DIR    | PlayStation 3 Directory (alternative)  |
 

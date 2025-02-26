@@ -19,7 +19,7 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 | File Format | Description |
 |-------------|-------------|
 | .xci        | Nintendo Switch Cartridge Image |
-| .nsp        | Nintendo Submission Package |
+| .nsp        | Nintendo Submission Package **(Recommended)** |
 | .nca        | Nintendo Content Archive |
 | .nso        | Nintendo Switch Executable |
 | .nro        | Nintendo Switch Homebrew |

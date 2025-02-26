@@ -36,7 +36,7 @@ PSX games should be put under the `retrodeck/roms/psx/` directory.
 | .bin + .cue | Binary disc image file with cue sheet |
 | .img        | Disc image file |
 | .iso        | Standard ISO disc image |
-| .chd        | Compressed Hunks of Data |
+| .chd        | Compressed Hunks of Data **(Recommended)** |
 | .mds        | Media Descriptor File |
 | .pbp        | PlayStation Portable Update file |
 | .ecm        | ECM compressed file |

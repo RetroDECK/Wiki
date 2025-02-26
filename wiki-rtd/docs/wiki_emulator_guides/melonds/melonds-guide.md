@@ -27,10 +27,13 @@ NDS games should be put under the `retrodeck/roms/nds/` directory.
 
 ## What file formats are supported?
 
+
 | File Format | Description |
 |-------------|-------------|
-| .nds        | Nintendo DS ROM file |
-| .app        | Application file |
+| .app        | Nintendo DS application file |
+| .bin        | Binary file |
+| .nds        | Nintendo DS ROM file **(Recommended)**|
+| .7z         | Compressed archive file |
 
 ## Does MelonDS require BIOS or Firmware?
 

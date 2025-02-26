@@ -28,7 +28,7 @@ WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 |-------------|-------------|
 | .wud        | Encrypted Wii U disc image |
 | .wux        | Compressed Wii U disc image |
-| .wua        | Decrypted Wii U disc image (preferred format) |
+| .wua        | Decrypted Wii U disc image **(Recommended)** |
 | .rpx        | Wii U executable file |
 
 ## Does Cemu require BIOS or Firmware?

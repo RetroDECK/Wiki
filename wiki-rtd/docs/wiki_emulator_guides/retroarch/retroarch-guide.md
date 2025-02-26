@@ -50,6 +50,14 @@ Different for each system / core.
 
 Check each system on the `RetroArch Docs` and the `ES-DE User Guide` for the latest information (above). 
 
+A general guideline is to use compressed formats:
+
+| File Format | Description | Comments |
+|-------------|-------------|----------|
+| .zip        | Compressed archive file | For non-disc systems like 8-bit or 16-bit consoles (e.g., NES, SNES) |
+| .chd        | Compressed Hunks of Data file | For disc systems (e.g., PlayStation, Sega CD) |
+
+
 ## Does RetroArch require BIOS or Firmware?
 
 It depends on the core.

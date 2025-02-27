@@ -143,9 +143,9 @@ Enable / Disable the Update Notification for new RetroDECK versions.
 
 A tool that adds RetroDECK to Steam with Art.
 
-### Verify Multi-file Structure
+### Multi File Structure Verifier
 
-A tool that checks the validity of .m3u files.
+A tool that checks the validity of `.m3u` files.
 
 ## Steam Sync
 

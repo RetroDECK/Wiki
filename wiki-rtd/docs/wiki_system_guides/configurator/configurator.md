@@ -24,177 +24,128 @@ The `RetroDECK Configurator` can be opened from:
 
 What follows are the commands you can use inside the Configurator (more commands will be added during development).
 
-## Presets & Settings
+## Settings
 
-In this menu you can set various presets.
+In this menu you can set various settings.
 
-#### Widescreen: Enable/Disable
-
-Enables or disables Widescreen in all supported emulators and cores.
-
-#### Ask to Exit prompt: Enable/Disable
-
-Enables or disables ask to exit prompts in all supported emulators and cores.
-
-If you disable this, the emulators will directly exit.
-
-### Global: Presets & Settings
-
-In this menu you will find presets and settings that span over multiple emulators.
-
-#### RetroAchivements: Login
-
-Login to RetroAchievements in all supported emulators and cores.
-
-#### RetroAchivements: Logut
-
-Logut from RetroAchievements in all supported emulators and cores.
-
-#### RetroAchivements: Hardcore Mode
-
-Enables `Hardcore Mode` from RetroAchievements in all supported emulators and cores.
-
-#### Swap A/B and X/Y: Enable/Disable
-
-Swaps `A/B` `X/Y` in supported emulators and cores.
-
-#### Quick Resume: Enable/Disable
-
-Enables `Quick Resume` aka  `Auto Save` + `Auto Load` on exit in supported emulators and cores.
-
-### RetroArch: Presets & Settings
-
-In this menu you will find presets and settings for RetroArch.
-
-#### Borders: Enable/Disable
+### Borders
 
 Enable / Disable borders across the RetroArch cores you choose.
 
-#### Rewind: Enable/Disable
+### Widescreen
 
-Enable / Disable rewind across all of RetroArch (this may impact performance on some more demanding systems).
+Enable / Disable Widescreen in all supported emulators and cores.
 
-### Wii & Gamecube: Presets & Settings
+### Ask-to-Exit 
 
-In this menu you will find presets and settings for Dolphin and Primehack.
+Enable / Disable Ask-to-Exit prompts in all supported emulators and cores.
+
+If you disable this, the emulators will directly exit.
+
+### Rewind
+
+Enable / Disable rewind across of RetroArch (this may impact performance on some more demanding systems).
 
 
-#### Dolphin Textures: Universal Dynamic Input
+### RetroAchivements: Login
+
+Login to RetroAchievements in all supported emulators and cores.
+
+### RetroAchivements: Logut
+
+Logut from RetroAchievements in all supported emulators and cores.
+
+### RetroAchivements: Hardcore Mode
+
+Enable / Disable `Hardcore Mode` from RetroAchievements in all supported emulators and cores.
+
+### Swap A/B and X/Y
+
+Swaps `A/B` `X/Y` in supported emulators and cores.
+
+### Quick Resume
+
+Enable / Disable `Quick Resume` aka  `Auto Save` + `Auto Load` on exit in supported emulators and cores.
+
+### Universal Dynamic Input: Dolphin
 
 Enable / Disable Venomalias's Universal Dynamic Input Texture for Dolphin.
 
-
-
-#### Primehack Textures: Universal Dynamic Input
+### Universal Dynamic Input: Primehack
 
 Enable / Disable Venomalias's Universal Dynamic Input Texture for Primehack.
 
-## Open Emulator / Component
+### PortMaster: Hide
 
-Here you launch and configure each emulator's settings, the option you choose will open that emulators GUI. For documentation on how to change the settings of each emulator's settings please check the website of each emulator.
+Enable / Disable the PortMaster entry in ES-DE. 
 
-(Please note that most of the emulator interfaces where not designed with controller input in mind for handling the applications GUI, just the games. You might need to use other inputs like the Steam Decks touchscreen or a mouse and keyboard to navigate properly).
+## Open Component
 
+Launch and configure each components settings. The chosen option opens the components GUI. 
 
-## RetroDECK: Tools
+The Components are all:
 
+- Emulators 
+- Systems
+- Engines
 
-### Tool: Remove empty ROM folders
+Shipped with RetroDECK.
 
-This tool removes all the roms folders under retrodeck/roms/ that are empty to only leave those that are populated with content.
+**Steam Deck Note:**  
 
-### Tool: Rebuild all ROM folders
-
-This tool rebuilds rom folders you have accidentally removed or used the `Remove empty ROM folders` tool.
-
-### Tool: Move files
-
-This option lets you choose the installation path of the RetroDECK folder that handles ROMS, Saves, BIOS, etc... to a new location.
-You get the following three options.
-
-`Internal Storage` - Moves the folder to the internal storage.
-`SD CARD` - Moves the folder to the SD CARD
-`Custom Location` - Choose where you want the RetroDECK folder to be.
+Most component interfaces are not designed for controller input for the GUI. You may need to use the Steam Deck's touchscreen or a mouse and keyboard.
 
 
+## Reset Component
 
-### Tool: Compress games
+This menu allows you to reset various components in RetroDECK or reset the entire application to its default settings. There is also a factory reset option.
 
-This option enables you to compress disc-based game image files `.gdi` `.iso` `.bin` `.cue` to the less space demanding `.chd` format.
-You can choose either a single game or many.
+## Tools
 
-
-
-### Install: RetroDECK SD Controller Profile
-
-This option installs the Steam controller profiles that RetroDECK into Steam.
-
-
-### Install: PS3 Firmware
-
-This option downloads and installs the latest PS3 firmware. At the end of the download, RPCS3 will open requesting the user to install it (just press OK).
-
-
-
-### RetroDECK: Change update settings (cooker only)
-
-This option lets you turn on or off automatic updates on launch.
-
-
-
-## RetroDECK: Troubleshooting
-
-Various troubleshooting options.
-
-
-### Backup: RetroDECK Userdata
+### Backup  Userdata
 
 Creates backups of the user data folders
 
+### BIOS Checker
+
+Launches the `BIOS Checker` tool that scans for needed BIOS files.
 
 
-### Check & Verify: Multi-file structure
+### Games Compressor
 
-Verifies the structure of multi disc/file games that uses `.m3u` files.
+Launches the `Games Compressor` tool that compresses games into smaller formats.
 
+You can compress into:
 
+- CHD
+- ZIP
+- RVZ
 
-### Check & Verify: BIOS
-Shows a detailed BIOS list of missing and current BIOS.
+You can choose to compress one game or many. 
 
+### Install: RetroDECK Controller Layouts
 
+This option installs the RetroDECK Steam Input Controller Templates into Steam. 
 
-### RetroDECK: Reset
-The reset menu resets various features
+### Install: PS3 Firmware
 
+This option downloads and installs the latest PS3 firmware. After the download, RPCS3 will prompt you to install it.
 
+### Install: PS Vita Firmware
 
-#### Reset Specific Emulator
+This option downloads and installs the latest PS Vita firmware. 
 
-Opens a menu where you can reset a specific emulator
+### Update Notification 
 
+Enable / Disable the Update Notification for new RetroDECK versions.
 
-#### Reset All Emulators
+### Add RetroDECK to Steam
 
-Resets all the emulators at once
+A tool that adds RetroDECK to Steam with Art.
 
+### Verify Multi-file Structure
 
-
-#### Reset RetroDECK
-
-Resets the entirety of RetroDECK.
-`⚠️ WARNING! BACK UP YOUR DATA BEFORE RUNNING THIS! ⚠️`
-
-
-
-## RetroDECK: About
-
-This menu contains information about RetroDECK
-
-
-### Credits
-
-Displays the credits
+A tool that checks the validity of .m3u files.
 
 ## Steam Sync
 
@@ -203,5 +154,36 @@ This enables or disables the Steam Sync feature.
 Read more here: 
 
 [SRM Guide](../srm/srm-guide.md) 
+
+## Data Mangement
+
+### Move Tools
+
+Several move tools allow you to move specific folders to a new location.
+
+`Internal Storage` - Moves the folder to the internal storage.
+`SD CARD` - Moves the folder to the SD CARD
+`Custom Location` - Choose where you want the RetroDECK folder to be.
+
+### Clean Empty ROM Folders
+
+This tool removes some or all the ROM folders under `retrodeck/roms/` that are empty, leaving only those populated with content.
+
+### Rebuild All ROM Folders
+
+This tool rebuilds ROM folders you have accidentally removed or used the `Clean Empty ROM Folders` tool.
+
+## About RetroDECK
+
+### Credits
+
+Displays Credits.
+
+### Version History
+
+Menu for Patch Notes.
+
+(Note: The patch notes are always more detailed on the wiki due to character limits during publication.)
+
 
 

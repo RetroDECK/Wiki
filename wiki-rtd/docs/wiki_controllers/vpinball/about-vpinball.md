@@ -1,5 +1,7 @@
 # Virtual Pinball (VPin / Vboard) Controllers
 
+<img src="../../../wiki_images/controllers/vpinball.png" width="250">
+
 Virtual pinball machines are digital recreations of traditional pinball machines, designed to provide an immersive pinball experience using modern technology. These machines typically feature a large screen to display the playfield, along with various physical controls and feedback mechanisms to simulate the feel of a real pinball machine.
 
 ## Types of virtual pinball machines
@@ -24,9 +26,9 @@ Designed for portability, these machines are smaller and more compact, making th
 
 These machines are designed to mimic the look and feel of classic arcade pinball machines. They often feature large cabinets, vibrant artwork, and high-quality sound systems to create an authentic arcade experience.
 
-## Inputs for Virtual Pinball Machines
+## Inputs and Outputs in Virtual Pinball Machines
 
-Virtual pinball machines have a variety of inputs to simulate the experience of playing a real pinball machine. These inputs include:
+Virtual pinball machines have a variety of inputs and outputs to simulate the experience of playing a real pinball machine. 
 
 - **Flipper Buttons**: These are used to control the flippers on the pinball table, allowing the player to hit the ball.
 - **Plunger**: This is used to launch the ball into play. It can be a physical plunger that mimics the action of a real pinball machine or a digital button.
@@ -51,4 +53,6 @@ Virtual pinball machines have a variety of inputs to simulate the experience of 
 
 ## Does RetroDECK Support Virtual Pinball?
 
-Currently, RetroDECK does not support Virtual Pinball due to the complexity and variety of inputs. We hope to achieve compatibility with VPin hardware in the future, starting with implementing a Virtual Pinball System.
+Currently, RetroDECK does not support Virtual Pinball due to the complexity and variety of inputs and outputs. We hope to achieve some compatibility with VPin hardware in the far future.
+
+First, we will need to implement a Virtual Pinball System to enable running the games.

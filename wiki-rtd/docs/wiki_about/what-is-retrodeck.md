@@ -8,7 +8,7 @@ For a quick overview check the website.
 
 ## What is RetroDECK?
 
-RetroDECK is an all-in-one game application powered by [ES-DE Frontend](https://es-de.org) and available as a [Flatpak](https://flathub.org/apps/net.retrodeck.retrodeck). It includes various pre-configured software like emulators, systems and game engines.
+RetroDECK is an All-in-One Retro Gaming Platform powered by [ES-DE Frontend](https://es-de.org) and available as a [Flatpak](https://flathub.org/apps/net.retrodeck.retrodeck). It includes various pre-configured software like emulators, systems and game engines.
 
 ### Easy to Install
 

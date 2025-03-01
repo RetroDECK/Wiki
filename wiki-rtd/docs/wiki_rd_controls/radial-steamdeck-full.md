@@ -123,7 +123,7 @@ Steam Deck specific hotkeys and PC hotkeys.
 
 ## <img src="../../wiki_icons/binding_icons/RD-folder-applications.png" width="30"> Emulator Specific Menu
 
-The `Specific Menu` or ` Emulator Specific Menu` opens up several system/emulator specific sub-menus. Here you will find hotkeys not so commonly used but could be good to have easy access to:
+The `Specific Menu` or ` Emulator Specific Menu` opens up several system/emulator specific sub-menus.
 
 ### <img src="../../wiki_icons/binding_icons/RD-ryujinx.png" width="30">  Switch Menu
 
@@ -209,7 +209,7 @@ Hotkeys for `Citra-SA (Archived)` and `Citra-Core`.
 
 ### <img src="../../wiki_icons/binding_icons/RD-gzdoom.png" width="30"> GZDoom Menu
 
-POC cheat hotkeys for GZDoom.
+Cheat hotkeys for GZDoom.
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
@@ -218,7 +218,7 @@ POC cheat hotkeys for GZDoom.
 
 ### <img src="../../wiki_icons/binding_icons/rd-scummvm.png" width="30"> ScummVM Menu
 
-General hotkeys for ScummVM.
+Hotkeys for ScummVM.
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |

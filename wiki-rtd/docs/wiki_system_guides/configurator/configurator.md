@@ -6,7 +6,7 @@
 
 ## Information 
 
-<img src="../../../wiki_images/graphics/configurator/configurator.png" width="500">
+<img src="../../../wiki_images/graphics/configurator/classic-configurator.png" width="500">
 
 The `RetroDECK Configurator` is a unique multi-use utility that exists within RetroDECK to manage many aspects of the application and exposes functions from the `RetroDECK Framework` to the user.
 
@@ -25,6 +25,8 @@ The `RetroDECK Configurator` can be opened from:
 What follows are the commands you can use inside the Configurator (more commands will be added during development).
 
 ## Settings
+
+<img src="../../../wiki_images/graphics/configurator/classic-configurator-settings.png" width="500">
 
 In this menu you can set various settings.
 
@@ -81,6 +83,8 @@ Enable / Disable the PortMaster entry in ES-DE.
 
 ## Open Component
 
+<img src="../../../wiki_images/graphics/configurator/classic-configurator-open.png" width="500">
+
 Launch and configure each components settings. The chosen option opens the components GUI. 
 
 The Components are all:
@@ -98,9 +102,13 @@ Most component interfaces are not designed for controller input for the GUI. You
 
 ## Reset Component
 
+<img src="../../../wiki_images/graphics/configurator/classic-configurator-reset.png" width="500">
+
 This menu allows you to reset various components in RetroDECK or reset the entire application to its default settings. There is also a factory reset option.
 
 ## Tools
+
+<img src="../../../wiki_images/graphics/configurator/classic-configurator-tools.png" width="500">
 
 ### Backup  Userdata
 
@@ -157,6 +165,8 @@ Read more here:
 
 ## Data Mangement
 
+<img src="../../../wiki_images/graphics/configurator/classic-configurator-data.png" width="500">
+
 ### Move Tools
 
 Several move tools allow you to move specific folders to a new location.
@@ -174,6 +184,8 @@ This tool removes some or all the ROM folders under `retrodeck/roms/` that are e
 This tool rebuilds ROM folders you have accidentally removed or used the `Clean Empty ROM Folders` tool.
 
 ## About RetroDECK
+
+<img src="../../../wiki_images/graphics/configurator/classic-configurator-about.png" width="500">
 
 ### Credits
 

@@ -1,6 +1,7 @@
 #  RetroDECK - Steam Deck: Full Radial Menu System
 
 ### Is there a quick way to go back to the top of the radial menu system?
+
 Yes, just press  on the `HKB` trigger buttons: `L4` or `R4` or `Select`
 
 ## Radial Menus
@@ -20,7 +21,7 @@ The `Main Menu` is the top menu and gives you access to all the menus below.
 
 ## <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30"> Quick Menu
 
-The `Quick Menu` or `Quick Access Menu` Menu is the most populated menu. It features "best of" options from other menus.
+Features "best of" hotkeys from other menus.
 
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
@@ -38,7 +39,7 @@ The `Quick Menu` or `Quick Access Menu` Menu is the most populated menu. It feat
 
 ## <img src="../../wiki_icons/binding_icons/RD-folder-blue-games.png" width="30"> State Menu
 
-The `State Menu` is the menu where you handle anything to do with saving and loading states.
+Hotkeys related to saving and loading states.
 
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
@@ -69,7 +70,7 @@ The `Speed / Frames Menu` is where you find anything related to: emulation speed
 
 ## <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-display.png" width="30"> Display / Graphics Menu
 
-The `Display / Graphics Menu` is where you find anything related to: up-scaling/resolution scaling, widescreen or change aspect ratio, fullscreen, swap or change dual screen layout.
+Hotkeys related to `Display / Graphics`. 
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
@@ -82,7 +83,7 @@ The `Display / Graphics Menu` is where you find anything related to: up-scaling/
 
 ## <img src="../../wiki_icons/binding_icons/RD-io.github.antimicrox.antimicrox.png" width="30">  General Menu
 
-The `General Menu` or `General Emulation Menu` is where you find various global generic emulation hotkeys: Quit/Exit, Restart, Take Screenshot, Change CD, Pause, Turbo Input, Cheats and Video Recording.
+Generic and General Hotkeys 
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
@@ -98,7 +99,7 @@ The `General Menu` or `General Emulation Menu` is where you find various global 
 
 ## <img src="../../wiki_icons/binding_icons/RD-steam.png" width="30"> Steam Deck Menu
 
-The `Steam Deck Menu` is where you find Steam Deck specific functions and general PC hotkeys.
+Steam Deck specific hotkeys and PC hotkeys.
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
@@ -126,9 +127,7 @@ The `Specific Menu` or ` Emulator Specific Menu` opens up several system/emulato
 
 ### <img src="../../wiki_icons/binding_icons/RD-ryujinx.png" width="30">  Switch Menu
 
-The `Switch Menu` here you find hotkeys related to `Yuzu (Legacy)` and soon `Ryujinx`.
-
-**Note:** Ryujinx is working on better hotkeys and no support yet and Yuzu have been removed from RetroDECK.
+Hotkeys for `Yuzu (Archive)` or `Ryujinx`.
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
@@ -139,7 +138,7 @@ The `Switch Menu` here you find hotkeys related to `Yuzu (Legacy)` and soon `Ryu
 
 ### <img src="../../wiki_icons/binding_icons/RD-mame.png" width="30">  MAME Menu
 
-The `MAME Menu` here find hotkeys related to the `MAME (Standalone)` multi-emulator.
+Hotkeys for `MAME-SA`.
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
@@ -156,7 +155,8 @@ The `MAME Menu` here find hotkeys related to the `MAME (Standalone)` multi-emula
 | Tilt                    |   `Alt + T + 0`          |     `MAME (Standalone)`       |  <img src="../../wiki_icons/binding_icons/rd-tilt.png" width="30">   |  |
 
 ### <img src="../../wiki_icons/binding_icons/RD-retroarch.png" width="30">  RetroArch Menu
-The `RetroArch Menu` in here you find hotkeys related to the `RetroArch` multi-emulator.
+
+Hotkeys for `RetroArch`.
 
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
@@ -169,7 +169,7 @@ The `RetroArch Menu` in here you find hotkeys related to the `RetroArch` multi-e
 
 ### <img src="../../wiki_icons/binding_icons/RD-dolphin.png" width="30">  Gamecube / Wii Menu
 
-The `Gamecube / Wii Menu` in here you find hotkeys related to the `Dolphin / Primehack (Standalone)` emulator.
+Hotkeys for `Dolphin-SA` and `Primehack`.
 
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
@@ -187,7 +187,7 @@ The `Gamecube / Wii Menu` in here you find hotkeys related to the `Dolphin / Pri
 
 ### <img src="../../wiki_icons/binding_icons/RD-melonds.png" width="30"> NDS Menu
 
-The `NDS Menu` in here you find hotkeys related to the `MelonDS (Standalone)` emulator.
+Hotkeys for `MelonDS-SA`.
 
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
@@ -195,12 +195,12 @@ The `NDS Menu` in here you find hotkeys related to the `MelonDS (Standalone)` em
 | Close/Open Lid          |   `Alt + L`          | `MelonDS (Standalone)`     |   <img src="../../wiki_icons/binding_icons/RD-emblem-downloads.png" width="30">  |       |
 | Sunlight +              |   `Alt + +`          | `MelonDS (Standalone)`     |   <img src="../../wiki_icons/binding_icons/RD-list-add.png" width="30">  |       |
 | Sunlight -              |   `Alt + -`          | `MelonDS (Standalone)`     |   <img src="../../wiki_icons/binding_icons/RD-list-remove.png" width="30">  |       |
-| Play Microphone         |   `Alt + P`          | `MelonDS (Standalone)`      |   <img src="../../wiki_icons/binding_icons/RD-media-playback-start.png" width="30">  |       |
+| Play Microphone         |   `Alt + P`          | `MelonDS (Standalone)`      |   <img src="../../wiki_icons/binding_icons/RD-media-playback-start.png" width="15">  |       |
 
 
 ### <img src="../../wiki_icons/binding_icons/RD-citra.png" width="30"> 3DS Menu
 
-The `3DS Menu` in here you find hotkeys related to the Citra (Legacy Standalone) and Citra-core.
+Hotkeys for `Citra-SA (Archived)` and `Citra-Core`.
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
@@ -209,7 +209,7 @@ The `3DS Menu` in here you find hotkeys related to the Citra (Legacy Standalone)
 
 ### <img src="../../wiki_icons/binding_icons/RD-gzdoom.png" width="30"> GZDoom Menu
 
-The `GZDoom Menu` in here you find cheat hotkeys for DOOM.
+POC cheat hotkeys for GZDoom.
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
@@ -218,17 +218,17 @@ The `GZDoom Menu` in here you find cheat hotkeys for DOOM.
 
 ### <img src="../../wiki_icons/binding_icons/rd-scummvm.png" width="30"> ScummVM Menu
 
-The `ScummVM Menu` in here you find general hotkeys for ScummVM games.
+General hotkeys for ScummVM.
 
 | Radial Button |	Keyboard Command|  System Support     |    Icon |  Comment  |
 | :---                    | :---:               | :---:                 |       :---:          |       :---:          |
-| Open         |   `O`             |`ScummVM` `ScummVM (Standalone)`   |  <img src="../../wiki_icons/binding_icons/rd-pc-open.png" width="30">   |  |
-| Close   |   `C`            |`ScummVM` `ScummVM (Standalone)`   | <img src="../../wiki_icons/binding_icons/rd-pc-close.png" width="30">   |  |
-| Fight          |   `F`            |`ScummVM` `ScummVM (Standalone)`   | <img src="../../wiki_icons/binding_icons/rd-pc-fight.png" width="30">   |  |
-| Use   |   `U`            |`ScummVM` `ScummVM (Standalone)`   | <img src="../../wiki_icons/binding_icons/rd-pc-use.png" width="30">   |  |
-| Pick-Up   |   `P`            |`ScummVM` `ScummVM (Standalone)`   |  <img src="../../wiki_icons/binding_icons/rd-pc-pickup.png" width="30">   |  |
-| Push / Shove   |   `S`            |`ScummVM` `ScummVM (Standalone)`   |  <img src="../../wiki_icons/binding_icons/rd-pc-push.png" width="30">   |  |
-| Pull / Yank   |   `Y`            |`ScummVM` `ScummVM (Standalone)`   |  <img src="../../wiki_icons/binding_icons/rd-pc-pull.png" width="30">   |  |
-| Look-At   |   `L`            |`ScummVM` `ScummVM (Standalone)`   | <img src="../../wiki_icons/binding_icons/rd-pc-look.png" width="30">   |  |
-| Give   |   `G`            |`ScummVM` `ScummVM (Standalone)`   |  <img src="../../wiki_icons/binding_icons/rd-pc-give.png" width="30">   |  |
-| Move   |   `M`            |`ScummVM` `ScummVM (Standalone)`   |  <img src="../../wiki_icons/binding_icons/rd-pc-move.png" width="30">   |  |
+| Open         |   `O`             |`ScummVM`    |  <img src="../../wiki_icons/binding_icons/rd-pc-open.png" width="30">   |  |
+| Close   |   `C`            |`ScummVM`    | <img src="../../wiki_icons/binding_icons/rd-pc-close.png" width="30">   |  |
+| Fight          |   `F`            |`ScummVM`    | <img src="../../wiki_icons/binding_icons/rd-pc-fight.png" width="30">   |  |
+| Use   |   `U`            |`ScummVM`    | <img src="../../wiki_icons/binding_icons/rd-pc-use.png" width="30">   |  |
+| Pick-Up   |   `P`            |`ScummVM`    |  <img src="../../wiki_icons/binding_icons/rd-pc-pickup.png" width="30">   |  |
+| Push / Shove   |   `S`            |`ScummVM`    |  <img src="../../wiki_icons/binding_icons/rd-pc-push.png" width="30">   |  |
+| Pull / Yank   |   `Y`            |`ScummVM`    |  <img src="../../wiki_icons/binding_icons/rd-pc-pull.png" width="30">   |  |
+| Look-At   |   `L`            |`ScummVM`    | <img src="../../wiki_icons/binding_icons/rd-pc-look.png" width="30">   |  |
+| Give   |   `G`            |`ScummVM`    |  <img src="../../wiki_icons/binding_icons/rd-pc-give.png" width="30">   |  |
+| Move   |   `M`            |`ScummVM`    |  <img src="../../wiki_icons/binding_icons/rd-pc-move.png" width="30">   |  |

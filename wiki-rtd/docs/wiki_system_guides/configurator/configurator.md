@@ -151,7 +151,7 @@ Enable / Disable the Update Notification for new RetroDECK versions.
 
 A tool that adds RetroDECK to Steam with Art.
 
-### Multi File Structure Verifier
+### M3U Multi-File Validator
 
 A tool that checks the validity of `.m3u` files.
 

@@ -48,7 +48,7 @@ or
 `~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/system/`
 
 
-### How-to - Install the firmware
+### How-to: Install the firmware
 
 You can put the firmware inside the:
 
@@ -69,22 +69,32 @@ Or you can put them anywhere as they need to be installed via:
 | Mods  Folder | `~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/mods/` |  |
 
 
-## Guide - Adding game patches
+## How-to: Add Game Patches
 
 From within Ryujinx `Right Click` on a game and select `Manage Title Updates` and then navigate to the update files you would like to install and press `Save`.
 
 
-## Guide - Adding DLC
+## How-to: Add DLC
 
 From within Ryujinx `Right Click` on a game and select `Manage DLC` and then navigate to the update files you would like to install and press `Save`.
 
 
-## Guide - Adding mods
+## How-to: Add Modss
 
-From within Ryujinx `Right Click` on a game and select `Open Mods Folder` and put the mods you need in it's correct folder then go back to enable via the interface.
+From within Ryujinx `Right Click` on a game and select `Open Mods Directory` and put the mods you need in it's correct folder then go back to enable via the interface.
 
-The current mapping for the mods folder is:
+The current mapping for the mods directory is:
 
 `~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/mods/`
 
+You can also manged the mods by `Right Click` on a game and select `Manage Mods`
+
+## How-to: Move in-game saves from Yuzu to Ryujinx
+
+Open both applications and  `Right Click` on a game and select:
+
+- **Ryujinx:**`Open User Save Directory` 
+- **Yuzu:** `Save Data Destination`
+
+Then simply copy the files from one directory to the other.
 

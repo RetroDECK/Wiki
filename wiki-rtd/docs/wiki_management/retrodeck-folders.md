@@ -26,7 +26,6 @@ Here is the RetroDECK folder structure.
 | ROMs Folder          | `retrodeck/roms`          | ROMs folders                                          |
 | Saves Folder         | `retrodeck/saves`         | Save folders for supported systems                    |
 | Screenshots Folder   | `retrodeck/saves`         | Screenshots folders for supported systems             |
-| Shaders Folder       | `retrodeck/cheats`        | Cheat folders for supported systems                   |
 | Shaders Folder       | `retrodeck/shaders`       | Shader folders for supported systems                  |
 | States Folder        | `retrodeck/states`        | State (save state) folders for supported systems      |
 | Texture Packs Folder | `retrodeck/texture_packs` | Texture Packs folders for supported systems           |

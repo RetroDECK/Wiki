@@ -6,11 +6,11 @@
 
 Depending on what language you have set in `Desktop Mode`, things might be named differently.
 
-### SDCard Tips
+### SD Card Tips
 
-If you plan to use RetroDECK on your SD Card know that SD cards can be tricky and there are many scam cards out there. 
+If you plan to use RetroDECK on your SD Card know that SD cards can be tricky and there are many scams out there. 
 
-Follow these tips when buying a new SD card:
+Follow these tips when buying a new SD Card:
 
 - Buy from a reputable brand and store.
 - Ensure the card has good read and write speeds (check current reviews online).

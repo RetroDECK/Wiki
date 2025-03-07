@@ -6,6 +6,18 @@
 
 Depending on what language you have set in `Desktop Mode`, things might be named differently.
 
+### SDCard Tips
+
+If you plan to use RetroDECK on your SD Card know that SD cards can be tricky and there are many scam cards out there. 
+
+Follow these tips when buying a new SD card:
+
+- Buy from a reputable brand and store.
+- Ensure the card has good read and write speeds (check current reviews online).
+- Format the card when you get it: Press `Steam` - `Storage` - `Select the Card` - Press `Y` for Options - `Format Drive`.
+- Avoid using special characters, emojis, or spaces in the card's name. Stick to A-Z and 1-9.
+- There are online solutions to test if an SD card is fake, like the software `f3` for Linux.
+
 ## Quickstart Guide
 
 - Switch to `Desktop Mode`: Press the `Steam button` -> `Power` -> `Switch to Desktop`

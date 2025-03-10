@@ -52,7 +52,7 @@ Directly into the folder
 | Saves Folder |`retrodeck/saves/ps2/pcsx2/memcards/` |                               |  
 | States Folder |`retrodeck/states/ps2/pcsx2/` |                               |  
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/PCSX2/`         |  |
-| BIOS Folder | `retrodeck/bios/Cemu` | Contains `usr` and `sys` folders |
+| BIOS Folder | `retrodeck/bios/` ||
 | Texture Pack Folder |`retrodeck/texture_packs/PCSX2/` |  Represents `PCSX2/textures/`    |
 
 

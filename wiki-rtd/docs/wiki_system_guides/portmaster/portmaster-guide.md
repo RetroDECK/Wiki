@@ -93,7 +93,4 @@ The required files and/or folders should be put inside the `retrodeck/PortMaster
 
 ## Can I hide PortMaster in ES-DE? 
 
-Currently there is no easy way to do so from within RetroDECK.
-
-The quickest solution is just to rename the `retrodeck/roms/portmaster/` folder into something else like `retrodeck/roms/Aportmaster/`.
-
+Yes, there is a hide PortMaster tool in the Configurator. 

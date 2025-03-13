@@ -53,7 +53,13 @@ First, create the .desktop file as mentioned above with the game name and put it
 
 ### Step 3: Populate the .desktop file
 
-Open the Desktop file and copy this entry.
+Open the .desktop file and populate it.
+
+#### Lutris (Native)
+
+This for Lutris that is installed natively.
+
+Copy this:
 
 ```
 [Desktop Entry]
@@ -63,12 +69,11 @@ Icon=lutris_IDENTIFIERHERE
 Exec=env LUTRIS_SKIP_INIT=1 flatpak-spawn --host lutris lutris:rungameid/INTERNALIDHERE
 Categories=Game
 ```
+Change the values of:
 
-Change the values to the `Game Name`, `Internal ID`, `Identifier`
-
-Name= NAMEHERE
-Icon= lutris_IDENTIFIERHERE
-Exec= rungameid/INTERNALIDHERE
+- **Name=** NAMEHERE
+- **Icon=** lutris_IDENTIFIERHERE
+- **Exec=** rungameid/INTERNALIDHERE
 
 **Example: Ultima 1**
 
@@ -80,6 +85,38 @@ Icon=lutris_ultima-i
 Exec=env LUTRIS_SKIP_INIT=1 flatpak-spawn --host lutris lutris:rungameid/2
 Categories=Game
 ```
+
+#### Lutris (Flatpak)
+
+This for Lutris that is installed via Flatpak.
+
+Copy this:
+
+```
+[Desktop Entry]
+Type=Application
+Name=NAMEHERE
+Icon=lutris_IDENTIFIERHERE
+Exec=env LUTRIS_SKIP_INIT=1 flatpak-spawn --host flatpak run net.lutris.Lutris lutris:rungameid/INTERNALIDHERE
+Categories=Game
+```
+Change the values of:
+
+- **Name=** NAMEHERE
+- **Icon=** lutris_IDENTIFIERHERE
+- **Exec=** rungameid/INTERNALIDHERE
+
+**Example: Ultima 1**
+
+```
+[Desktop Entry]
+Type=Application
+Name=Ultima I
+Icon=lutris_ultima-i
+Exec=env LUTRIS_SKIP_INIT=1 flatpak-spawn --host flatpak run net.lutris.Lutris lutris:rungameid/2
+Categories=Game
+```
+
 
 ### Step 4: Start RetroDECK
 
@@ -109,31 +146,69 @@ First, create the .desktop file as mentioned above with the game name and put it
 
 ### Step 3: Populate the .desktop file
 
-Open the Desktop file and copy this entry.
+Open the .desktop file and populate it.
+
+#### Steam (Native)
+
+This for Steam that is installed natively.
+
+Copy this:
 
 ```
 [Desktop Entry]
 Type=Application
 Name=G NAMEHERE
-Icon=steam_APPIDHERE
-Exec=flatpak-spawn --host steam steam://rungameid/APPIDHERE
+Icon=steam_icon_APPIDHERE
+Exec=flatpak-spawn --host steam -silent steam://rungameid/APPIDHERE
 Categories=Game
 ```
 
-Change the values to the `Game Name`, `Internal ID`, `Identifier`
+Change the values of:
 
-Name= NAMEHERE
-Icon= steam_APPIDHERE
-Exec= rungameid/APPIDHERE
+- **Name=** NAMEHERE
+- **Icon=** steam_APPIDHERE
+- **Exec=** rungameid/APPIDHERE
 
-**Example: Ultima 1**
+**Example: ASTLIBRA Revision**
 
 ```
 [Desktop Entry]
 Type=Application
 Name=ASTLIBRA Revision
-Icon=steam_1718570
+Icon=steam_icon_1718570
 Exec=flatpak-spawn --host steam steam://rungameid/1718570
+Categories=Game
+```
+
+#### Steam (Flatpak)
+
+This for Steam that is installed via Flatpak.
+
+Copy this:
+
+```
+[Desktop Entry]
+Type=Application
+Name=G NAMEHERE
+Icon=steam_icon_APPIDHERE
+Exec=flatpak-spawn --host flatpak run com.valvesoftware.Steam -silent steam://rungameid/APPIDHERE
+Categories=Game
+```
+
+Change the values of:
+
+- **Name=** NAMEHERE
+- **Icon=** steam_APPIDHERE
+- **Exec=** rungameid/APPIDHERE
+
+**Example: ASTLIBRA Revision**
+
+```
+[Desktop Entry]
+Type=Application
+Name=ASTLIBRA Revision
+Icon=steam_icon_1718570
+Exec=flatpak-spawn --host flatpak run com.valvesoftware.Steam -silent steam://rungameid/1718570
 Categories=Game
 ```
 

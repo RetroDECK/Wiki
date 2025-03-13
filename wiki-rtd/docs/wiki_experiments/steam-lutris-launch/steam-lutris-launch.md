@@ -119,12 +119,6 @@ Exec=env LUTRIS_SKIP_INIT=1 flatpak-spawn --host flatpak run net.lutris.Lutris l
 Categories=Game
 ```
 
-
-### Step 4: Start RetroDECK
-
-If all is working as excepted RetroDECK will now pickup the `.desktop` file next time you start.
-
-
 ## How-to: Launch Steam Games 
 
 ### Step 1: Create an empty desktop file
@@ -216,6 +210,6 @@ Exec=flatpak-spawn --host flatpak run com.valvesoftware.Steam -silent steam://ru
 Categories=Game
 ```
 
-### Step 4: Start RetroDECK
+## Launch the Games RetroDECK & Scrape
 
-If all is working as excepted RetroDECK will now pickup the `.desktop` file next time you start.
+After the `.desktop` files have been created and everything is working as expected, RetroDECK will recognize the `.desktop` file the next time you start it. The games will appear under the Windows tab in ES-DE. If you have named the games correctly, there is a good chance that the scraper will identify them.

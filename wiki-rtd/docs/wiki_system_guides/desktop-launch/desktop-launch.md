@@ -176,7 +176,7 @@ Change the values of:
 Type=Application
 Name=ASTLIBRA Revision
 Icon=steam_icon_1718570
-Exec=flatpak-spawn --host steam steam://rungameid/1718570
+Exec=flatpak-spawn --host steam -silent steam://rungameid/1718570
 Categories=Game
 ```
 
@@ -212,27 +212,83 @@ Exec=flatpak-spawn --host flatpak run com.valvesoftware.Steam -silent steam://ru
 Categories=Game
 ```
 
-## How-to: Launch Flatpak Games / Applications 
+## How-to: Launch Flatpak Games 
 
-### Step 1: Create an empty desktop file
+You can either copy and edit the desktop files or make your own.
+
+### Copy and Edit desktop files (Recommended)
+
+#### Step 1: Find the files
+
+**Note:** All files here are symlinks, but the export folders contains them all in a conventient way.
+
+Depending if you how you have installed the application they can either be under:
+
+- **System Wide:** `/var/lib/flatpak/exports/share/applications/` 
+- **Local User:** `~/.local/share/flatpak/exports/share/applications/`
+
+#### Step 2: Show Target
+
+`Right Click` on the symlinked `.desktop` file in the folder and press `Show Target`.
+
+This will take you to the real `.desktop` shortcut.
+
+Example `eu.vcmi.VCMI.desktop`:
+
+- **System Wide:** `/var/lib/flatpak/app/eu.vcmi.VCMI/current/active/export/share/applications/`
+- **Local User:** `~/.local/share/flatpak/app/eu.vcmi.VCMI/current/active/export/share/applications/`
+
+#### Step 3: Copy the .desktop file
+
+Copy the `.desktop` file to `retrodeck/roms/windows/`
+
+#### Step 4: Rename the file
+
+Rename the file to something more fitting.
+
+**Examples:**
+
+`net.openra.OpenRA.desktop` -> `OpenRA.desktop` or `Red Alert.desktop`
+
+`eu.vcmi.VCMI.desktop` -> `VCMI.desktop` or `Heroes of Might and Magic III.desktop`
+
+#### Step 5: Edit the file
+
+Open the `.desktop` file and edit the **Exec=** values so they are changed to `flatpak-spawn --host flatpak run`.
+
+**Example VCMI.desktop:**
+
+- **Before:** `Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=vcmilauncher eu.vcmi.VCMI`
+- **After:** `Exec=flatpak-spawn --host flatpak run --branch=stable --arch=x86_64 --command=vcmilauncher eu.vcmi.VCMI`
+
+### Make your own desktop files
+
+#### Step 1: Create an empty desktop file
 
 First, create the `.desktop` file as mentioned above with the game name and put it in the `retrodeck/roms/windows/` folder.
 
-### Step 2: Go to flathub and get the Run command
+#### Step 2: Get the Run Command and Full Flatpak Name.
 
-1. Go to [Flathub](https://flathub.org/).
-2. On flathub go to a the application you want to add, press the `Down Arrow` next to `Download Button` to get the `Run command` and `Full Flatpak Name`.
+**Find them on Desktop**
 
+Note this was done in KDE
+
+- `Right Click` in on the Application in the `Application Launcher Menu` and press `Edit Application`. 
+- `Command-line arguments` should contain the `Full Flatpak Name` and `Run Command`.
+
+**Find them on Flathub:**
+
+- Go to [Flathub](https://flathub.org/).
+- On flathub go to a the application you want to add, press the `Down Arrow` next to `Download Button` to get the `Run Command` and `Full Flatpak Name`.
 
 **Example: OpenRA.desktop**
 
-[OpenRA - Flathub]](https://flathub.org/apps/net.openra.OpenRA)
+[OpenRA - Flathub](https://flathub.org/apps/net.openra.OpenRA)
 
 <img src="../openra.png" width="800">
 
 - **Run command:** flatpak run net.openra.OpenRA
 - **Full Flatpak Name:** net.openra.OpenRA
-
 
 ### Step 3: Populate the .desktop file
 
@@ -265,6 +321,26 @@ Icon=net.openra.OpenRA
 Exec=flatpak-spawn --host flatpak run net.openra.OpenRA
 Categories=Game
 ```
+
+## How-to: Launch Native Games 
+
+**W.I.P**
+
+You can either copy and edit the desktop files or make your own.
+
+### Copy and Edit desktop files
+
+
+#### Step 1: Find the files
+
+The desktop files should be located under
+
+`/usr/share/applications/`
+
+## How-to: Launch Heroic Games 
+
+**W.I.P**
+
 
 ## The Last Step: Launch the Games via RetroDECK & Scrape
 

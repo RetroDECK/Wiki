@@ -216,7 +216,7 @@ Categories=Game
 
 You can either copy and edit the desktop files or make your own.
 
-### Copy and Edit desktop files (Recommended)
+### Copy and Edit .desktop files (Recommended)
 
 #### Step 1: Find the files
 
@@ -322,25 +322,68 @@ Exec=flatpak-spawn --host flatpak run net.openra.OpenRA
 Categories=Game
 ```
 
+## How-to: Launch Heroic Games 
+
+#### Step 1: Create and move .desktop file from Heroic
+
+1. Open Heroic
+2. Install the game 
+3. Go to the `Library` -> `Your Game` -> Press the `Three Dotted Menu`
+4. Press `Add Shortcut`
+5. A shortcut will now be created on the Desktop.
+6. Move that to `retrodeck/roms/windows/`.
+
+<img src="../heroic-shortcut.png" width="800">
+
+### Step 2: Edit the .desktop file
+
+Open the `.desktop` file and edit it.
+
+The files are different if you have the native version of Heroic installed or the Flatpak version. 
+
+### Step 2b: Heroic (Flatpak)
+
+Edit the file original file.
+
+- **Exec=** Add the `flatpak-spawn --host flatpak run com.heroicgameslauncher.hgl --no-gui --no-sandbox` instead of `xdg-open`.
+
+**Example: Original - Flight of the Amazon Queen.desktop**
+
+
+```
+[Desktop Entry]
+Name=Flight of the Amazon Queen
+Exec=xdg-open heroic://launch?appName=1207659723&runner=gog
+Terminal=false
+Type=Application
+Icon=/home/deck/Games/Heroic/Flight of the Amazon Queen/goggame-1207659723.ico
+Categories=Game;
+```
+
+**Example: Edited - Flight of the Amazon Queen.desktop**
+
+```
+[Desktop Entry]
+Name=Flight of the Amazon Queen
+Exec=flatpak-spawn --host flatpak run com.heroicgameslauncher.hgl --no-gui --no-sandbox heroic://launch?appName=1207659723
+Terminal=false
+Type=Application
+Icon=/home/deck/Games/Heroic/Flight of the Amazon Queen/goggame-1207659723.ico
+Categories=Game;
+```
 ## How-to: Launch Native Games 
 
 **W.I.P**
 
 You can either copy and edit the desktop files or make your own.
 
-### Copy and Edit desktop files
-
+### Copy and Edit .desktop files (Recommended)
 
 #### Step 1: Find the files
 
 The desktop files should be located under
 
 `/usr/share/applications/`
-
-## How-to: Launch Heroic Games 
-
-**W.I.P**
-
 
 ## The Last Step: Launch the Games via RetroDECK & Scrape
 

@@ -1,6 +1,6 @@
 # Ponzu - AppImage Loader: General Guide
 
-<img src="../../../wiki_images/logos/ponzu-logo.png" width="100">
+<img src="../../../wiki_icons/retrodeck/icon-ponzu.svg" width="100">
 
 Ponzu is an AppImage Loader that can be used to search for user-provided AppImages and add them to RetroDECK.
 

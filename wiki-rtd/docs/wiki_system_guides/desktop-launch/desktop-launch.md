@@ -1,6 +1,6 @@
 # Launching Desktop Games with RetroDECK
 
-This is a experiment made by the user **murkl**
+This is an experiment made by the user **murkl** and later expanded on with the RetroDECK Team togheter.
 
 ## Prerequisites
 

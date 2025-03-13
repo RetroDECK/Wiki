@@ -1,4 +1,4 @@
-# Experiment: Launching Lutris & Steam Games from RetroDECK
+# Launching Lutris & Steam Games from RetroDECK
 
 This is a experiment made by the user **Muraki**
 

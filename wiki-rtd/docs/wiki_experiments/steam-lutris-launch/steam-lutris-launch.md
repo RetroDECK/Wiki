@@ -34,7 +34,7 @@ Make an empty file with the `<gamename>.desktop`.
 
 ### Step 1: Create an empty desktop file
 
-First, create the .desktop file as mentioned above with the game name and put it in the `retrodeck/roms/windows/` folder.
+First, create the `.desktop` file as mentioned above with the game name and put it in the `retrodeck/roms/windows/` folder.
 
 ### Step 2: Get Identifier and Internal ID
 
@@ -53,7 +53,7 @@ First, create the .desktop file as mentioned above with the game name and put it
 
 ### Step 3: Populate the .desktop file
 
-Open the .desktop file and populate it.
+Open the `.desktop` file and populate it.
 
 #### Lutris (Native)
 
@@ -120,14 +120,14 @@ Categories=Game
 
 ### Step 4: Start RetroDECK
 
-If all is working as excepted RetroDECK will now pickup the .desktop file next time you start.
+If all is working as excepted RetroDECK will now pickup the `.desktop` file next time you start.
 
 
 ## How-to: Launch Steam Games 
 
 ### Step 1: Create an empty desktop file
 
-First, create the .desktop file as mentioned above with the game name and put it in the `retrodeck/roms/windows/` folder.
+First, create the `.desktop` file as mentioned above with the game name and put it in the `retrodeck/roms/windows/` folder.
 
 
 ### Step 2: Get the Steam AppID
@@ -214,4 +214,4 @@ Categories=Game
 
 ### Step 4: Start RetroDECK
 
-If all is working as excepted RetroDECK will now pickup the .desktop file next time you start.
+If all is working as excepted RetroDECK will now pickup the `.desktop` file next time you start.

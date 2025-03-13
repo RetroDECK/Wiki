@@ -6,7 +6,7 @@ This is a experiment made by the user **murkl**
 
 **Information:**
 
-Information: This experiment requires the `flatpak-spawn` permission, which breaks the sandbox environment that RetroDECK operates in. Therefore, we do not recommend attempting this unless you are confident in your understanding of the process and its implications.
+This experiment requires the `flatpak-spawn` permission, which breaks the sandbox environment that RetroDECK operates in. Therefore, we do not recommend attempting this unless you are confident in your understanding of the process and its implications.
 
 ### Flatpak Spawn Permission
 

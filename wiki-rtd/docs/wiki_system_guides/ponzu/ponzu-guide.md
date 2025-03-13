@@ -10,6 +10,12 @@ In the future, Ponzu might support other systems not shipped by default in Retro
 
 If you do a Factory Reset of RetroDECK, you will need to repeat the Ponzu process.
 
+## Folder structure
+
+| Type    | Folder                 |          Comment     | 
+|  :---:  | :---:                  |             :---:     |
+| Ponzu Folder | `retrodeck/ponzu/`   | Temporary folder, manually created |
+
 ## Where to Put the AppImages
 
 Ponzu looks for the AppImages in the `retrodeck/ponzu/` folder (lowercase).

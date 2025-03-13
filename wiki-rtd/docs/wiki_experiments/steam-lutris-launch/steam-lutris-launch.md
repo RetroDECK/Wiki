@@ -55,7 +55,9 @@ First, create the `.desktop` file as mentioned above with the game name and put 
 
 Open the `.desktop` file and populate it.
 
-#### Lutris (Native)
+The files are different if you have the native version of Lutris installed or the Flatpak version. 
+
+### Lutris (Native)
 
 This for Lutris that is installed natively.
 
@@ -86,7 +88,7 @@ Exec=env LUTRIS_SKIP_INIT=1 flatpak-spawn --host lutris lutris:rungameid/2
 Categories=Game
 ```
 
-#### Lutris (Flatpak)
+### Lutris (Flatpak)
 
 This for Lutris that is installed via Flatpak.
 
@@ -146,9 +148,11 @@ First, create the `.desktop` file as mentioned above with the game name and put 
 
 ### Step 3: Populate the .desktop file
 
-Open the .desktop file and populate it.
+Open the `.desktop` file and populate it.
 
-#### Steam (Native)
+The files are different if you have the native version of Steam installed or the Flatpak version. 
+
+### Steam (Native)
 
 This for Steam that is installed natively.
 
@@ -180,7 +184,7 @@ Exec=flatpak-spawn --host steam steam://rungameid/1718570
 Categories=Game
 ```
 
-#### Steam (Flatpak)
+### Steam (Flatpak)
 
 This for Steam that is installed via Flatpak.
 

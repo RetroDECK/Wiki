@@ -6,7 +6,7 @@ This is a experiment made by the user **Muraki**
 
 **Information:**
 
-This experiment requires the **flatpak-spawn** permission and thus breaks the sandbox RetroDECK is in. We do not recommend people to do this, unless they know what they are doing. 
+Information: This experiment requires the `flatpak-spawn` permission, which breaks the sandbox environment that RetroDECK operates in. Therefore, we do not recommend attempting this unless you are confident in your understanding of the process and its implications.
 
 ### Flatpak Spawn Permission
 
@@ -26,38 +26,117 @@ flatpak override --user --talk-name=org.freedesktop.Flatpak net.retrodeck.retrod
 
 ## How-to Make .desktop files
 
-Make an empty file with the `<gamename>.desktop`
+Make an empty file with the `<gamename>.desktop`.
 
-**Example:** 
+**Example:** `UltimaI.desktop` and put it into the `retrodeck/roms/windows/` folder.
 
-`UltimaI.desktop` and put it into the `retrodeck/roms/windows/` folder
+## How-to: Launch Lutris Games
 
-## Lutris .desktop file
+### Step 1: Create an empty desktop file
 
-1. First create the .desktop file as said above.
-2. Get your `Internal ID` for the game by opening Lutris.
-3. In Lutris `Right Click` the game -> `Configure` and make a note of your `Internal ID` under `Identifier`. 
+First, create the .desktop file as mentioned above with the game name and put it in the `retrodeck/roms/windows/` folder.
 
-<img src="../lutris.png" width="500">
+### Step 2: Get Identifier and Internal ID
 
-Find your gameID
+1. Open Lutris.
+2. In Lutris, `Right Click` the game -> `Configure` and make a note of your `Internal ID` under `Identifier`.
+3. Make a note of the `Identifier` as well.
 
+
+**Example:** Ultima I
+
+<img src="../lutris.png" width="800">
+
+**Internal ID:** 2
+
+**Identifier:** ultima-i
+
+### Step 3: Populate the .desktop file
+
+Open the Desktop file and copy this entry.
+
+```
 [Desktop Entry]
 Type=Application
-Name=Days Gone
-Icon=lutris_days-gone
-Exec=env LUTRIS_SKIP_INIT=1 flatpak-spawn --host lutris lutris:rungameid/11
+Name=NAMEHERE
+Icon=lutris_IDENTIFIERHERE
+Exec=env LUTRIS_SKIP_INIT=1 flatpak-spawn --host lutris lutris:rungameid/INTERNALIDHERE
 Categories=Game
+```
 
-### Steam Desktop File
+Change the values to the `Game Name`, `Internal ID`, `Identifier`
 
-Example desktop file (for native lutris installation) placed in retrodeck/roms/windows:
+Name= NAMEHERE
+Icon= lutris_IDENTIFIERHERE
+Exec= rungameid/INTERNALIDHERE
 
+**Example: Ultima 1**
+
+```
 [Desktop Entry]
 Type=Application
-Name=Days Gone
-Icon=lutris_days-gone
-Exec=env LUTRIS_SKIP_INIT=1 flatpak-spawn --host lutris lutris:rungameid/11
+Name=Ultima I
+Icon=lutris_ultima-i
+Exec=env LUTRIS_SKIP_INIT=1 flatpak-spawn --host lutris lutris:rungameid/2
 Categories=Game
+```
 
-By the way, this is the same way i start steam (native steam installation) games but with command Exec=flatpak-spawn --host steam steam://rungameid/274190
+### Step 4: Start RetroDECK
+
+If all is working as excepted RetroDECK will now pickup the .desktop file next time you start.
+
+
+## How-to: Launch Steam Games 
+
+### Step 1: Create an empty desktop file
+
+First, create the .desktop file as mentioned above with the game name and put it in the `retrodeck/roms/windows/` folder.
+
+
+### Step 2: Get the Steam AppID
+
+1. Open Steam.
+2. In Steam, go to `Library` -> `Right Click` the game -> `Properties` -> `Updates`.
+3. Make a note of the `AppID`.
+
+
+**Example:** ASTLIBRA Revision
+
+<img src="../steam.png" width="800">
+
+**App ID:** 1718570
+
+
+### Step 3: Populate the .desktop file
+
+Open the Desktop file and copy this entry.
+
+```
+[Desktop Entry]
+Type=Application
+Name=G NAMEHERE
+Icon=steam_APPIDHERE
+Exec=flatpak-spawn --host steam steam://rungameid/APPIDHERE
+Categories=Game
+```
+
+Change the values to the `Game Name`, `Internal ID`, `Identifier`
+
+Name= NAMEHERE
+Icon= steam_APPIDHERE
+Exec= rungameid/APPIDHERE
+
+**Example: Ultima 1**
+
+```
+[Desktop Entry]
+Type=Application
+Name=ASTLIBRA Revision
+Icon=steam_1718570
+Exec=flatpak-spawn --host steam steam://rungameid/1718570
+Categories=Game
+```
+
+### Step 4: Start RetroDECK
+
+If all is working as excepted RetroDECK will now pickup the .desktop file next time you start.

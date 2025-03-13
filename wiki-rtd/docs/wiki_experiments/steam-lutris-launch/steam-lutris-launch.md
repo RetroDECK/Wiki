@@ -28,7 +28,9 @@ flatpak override --user --talk-name=org.freedesktop.Flatpak net.retrodeck.retrod
 
 Make an empty file with the `<gamename>.desktop`.
 
-**Example:** `UltimaI.desktop` and put it into the `retrodeck/roms/windows/` folder.
+**Example:** 
+
+`Ultima I.desktop` and put it into the `retrodeck/roms/windows/` folder.
 
 ## How-to: Launch Lutris Games
 

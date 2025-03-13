@@ -57,7 +57,7 @@ Open the `.desktop` file and populate it.
 
 The files are different if you have the native version of Lutris installed or the Flatpak version. 
 
-### Lutris (Native)
+### Step 3a: Lutris (Native)
 
 This for Lutris that is installed natively.
 
@@ -88,7 +88,7 @@ Exec=env LUTRIS_SKIP_INIT=1 flatpak-spawn --host lutris lutris:rungameid/2
 Categories=Game
 ```
 
-### Lutris (Flatpak)
+### Step 3b: Lutris (Flatpak)
 
 This for Lutris that is installed via Flatpak.
 
@@ -152,7 +152,7 @@ Open the `.desktop` file and populate it.
 
 The files are different if you have the native version of Steam installed or the Flatpak version. 
 
-### Steam (Native)
+### Step 3a: Steam (Native)
 
 This for Steam that is installed natively.
 
@@ -184,7 +184,7 @@ Exec=flatpak-spawn --host steam steam://rungameid/1718570
 Categories=Game
 ```
 
-### Steam (Flatpak)
+### Step 3b: Steam (Flatpak)
 
 This for Steam that is installed via Flatpak.
 

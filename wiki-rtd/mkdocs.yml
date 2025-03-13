@@ -191,6 +191,9 @@ nav:
     - ES-DE 📺:
       - ES-DE - General Guide: wiki_system_guides/es-de/esde-guide.md
 
+    - Desktop Games:
+      - Experiment - Launch Full Desktop Games: wiki_system_guides/desktop-launch/desktop-launch.md
+
     - PortMaster 🚢:
       - PortMaster - General Guide: wiki_system_guides/portmaster/portmaster-guide.md
 
@@ -202,6 +205,8 @@ nav:
 
     - Ponzu 🍶:
       - Ponzu - General Guide: wiki_system_guides/ponzu/ponzu-guide.md
+
+
 
   - The Controller Vault 🎮:
 
@@ -328,9 +333,6 @@ nav:
       - Cooker Testing - FAQ: wiki_development/testing/faq-cooker.md
       - Cooker Testing - Guide: wiki_development/testing/cooker-testing.md
       - Expermental Features: wiki_development/testing/experimental-features.md
-
-  - Experiments ⚗️:
-    - RetroDECK - Launch Steam & Lutris Games: wiki_experiments/steam-lutris-launch/steam-lutris-launch.md
 
   - Archive 📂:
 

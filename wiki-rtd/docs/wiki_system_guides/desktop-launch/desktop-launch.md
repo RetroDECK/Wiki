@@ -1,4 +1,4 @@
-# Launching Lutris & Steam Games from RetroDECK
+# Launching Desktop Games with RetroDECK
 
 This is a experiment made by the user **murkl**
 
@@ -79,7 +79,7 @@ Change the values of:
 - **Icon=** lutris_IDENTIFIERHERE
 - **Exec=** rungameid/INTERNALIDHERE
 
-**Example: Ultima 1**
+**Example: Ultima I.desktop**
 
 ```
 [Desktop Entry]
@@ -110,7 +110,7 @@ Change the values of:
 - **Icon=** lutris_IDENTIFIERHERE
 - **Exec=** rungameid/INTERNALIDHERE
 
-**Example: Ultima 1**
+**Example: Ultima I.desktop**
 
 ```
 [Desktop Entry]
@@ -169,7 +169,7 @@ Change the values of:
 - **Icon=** steam_APPIDHERE
 - **Exec=** rungameid/APPIDHERE
 
-**Example: ASTLIBRA Revision**
+**Example: ASTLIBRA Revision.desktop**
 
 ```
 [Desktop Entry]
@@ -201,7 +201,7 @@ Change the values of:
 - **Icon=** steam_APPIDHERE
 - **Exec=** rungameid/APPIDHERE
 
-**Example: ASTLIBRA Revision**
+**Example: ASTLIBRA Revision.desktop**
 
 ```
 [Desktop Entry]
@@ -209,6 +209,60 @@ Type=Application
 Name=ASTLIBRA Revision
 Icon=steam_icon_1718570
 Exec=flatpak-spawn --host flatpak run com.valvesoftware.Steam -silent steam://rungameid/1718570
+Categories=Game
+```
+
+## How-to: Launch Flatpak Games / Applications 
+
+### Step 1: Create an empty desktop file
+
+First, create the `.desktop` file as mentioned above with the game name and put it in the `retrodeck/roms/windows/` folder.
+
+### Step 2: Go to flathub and get the Run command
+
+1. Go to [Flathub](https://flathub.org/).
+2. On flathub go to a the application you want to add, press the `Down Arrow` next to `Download Button` to get the `Run command` and `Full Flatpak Name`.
+
+
+**Example: OpenRA.desktop**
+
+[OpenRA - Flathub]](https://flathub.org/apps/net.openra.OpenRA)
+
+<img src="../openra.png" width="800">
+
+- **Run command:** flatpak run net.openra.OpenRA
+- **Full Flatpak Name:** net.openra.OpenRA
+
+
+### Step 3: Populate the .desktop file
+
+Open the `.desktop` file and populate it.
+
+Copy this:
+
+```
+[Desktop Entry]
+Type=Application
+Name=NAMEHERE
+Icon=FULLFLATPAKNAMEHERE
+Exec=flatpak-spawn --host flatpak run RUNCOMMMANDHERE
+Categories=Game
+```
+
+Change the values of:
+
+- **Name=** NAMEHERE
+- **Icon=** FULLFLATPAKNAMEHERE
+- **Exec=** RUNCOMMMANDHERE
+
+**Example: OpenRA.desktop**
+
+```
+[Desktop Entry]
+Type=Application
+Name=OpenRA
+Icon=net.openra.OpenRA
+Exec=flatpak-spawn --host flatpak run net.openra.OpenRA
 Categories=Game
 ```
 

@@ -52,4 +52,6 @@ RetroDECK ships with the best version for running games. For bleeding-edge emula
 
 If you've accidentally deleted folders (BIOS, Saves, etc.) under `retrodeck/`, you can get them back by doing a Full Reset and redoing the initial setup.
 
+## I have .bin + .cue files and the games shows up twice in ES-DE
 
+We recommend that you use the built-in compression tool in the configurator to compress the games into another format like `.chd`. You will only get one entry and you will also save space.

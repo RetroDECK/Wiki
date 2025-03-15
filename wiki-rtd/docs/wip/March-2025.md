@@ -55,10 +55,14 @@ If you break the RetroDECK sandbox the user **murkl** has provided instructions 
 
 How-to use the `retrodeck/roms/windows/` folder to launch full Desktop Apps via RetroDECK.
 
-**murkl** together with the RetroDECK Team expanded it to a full guide.
+**murkl** together with the RetroDECK Team expanded it to a full guide:
 
 [Launching Desktop Games & Apps with RetroDECK](https://retrodeck.readthedocs.io/en/latest/wiki_experiments/desktop-launch/desktop-launch/)
 
+
+---
+
+## Lahrs Icon Packs
 
 
 

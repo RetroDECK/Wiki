@@ -4,6 +4,9 @@ This experiment was initiated by the user **murkl** and later expanded upon by t
 
 **Note:** RetroDECK was never intended to be used in this manner, so things like inputs may work as expected.
 
+![type:video](vcmi-retrodeck.mp4)
+
+
 ## Prerequisites
 
 ### Flatpak Spawn Permission

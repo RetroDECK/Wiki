@@ -29,6 +29,7 @@
 
 - [The RetroDECK Blog](https://retrodeck.readthedocs.io/en/latest/blog/)
 - [Discord](https://discord.gg/WDc5C9YWMx)
+- [Revolt](https://rvlt.gg/StVaEc0w) 
 - [Matrix](https://matrix.to/#/#retrodeck:matrix.org)
 - [Lemmy](https://lemmy.zip/c/retrodeck)
 - [Reddit](https://www.reddit.com/r/retrodeck)

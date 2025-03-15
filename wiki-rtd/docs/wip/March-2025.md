@@ -64,8 +64,13 @@ How-to use the `retrodeck/roms/windows/` folder to launch full Desktop Apps via 
 
 ## Lahrs Icon Packs
 
+User Lahrs 
 
 
+<img src="../lahrs1.webp" width="400"> 
+<img src="../lahrs2.webp" width="400"> 
+<img src="../lahrs3.webp" width="400"> 
+<img src="../lahrs4.webp" width="400"> 
 ---
 
 ## That is all for now 

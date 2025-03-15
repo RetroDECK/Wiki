@@ -2,23 +2,25 @@
 
 This experiment was initiated by the user **murkl** and later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching desktop games and apps within RetroDECK.
 
-**Note:** RetroDECK was never intended to be used in this manner, so not all inputs may work as expected.
+**Note:** RetroDECK was never intended to be used in this manner, so things like inputs may work as expected.
 
 ## Prerequisites
+
+### Flatpak Spawn Permission
 
 **Information:**
 
 This experiment requires the `flatpak-spawn` permission, which breaks the sandbox environment that RetroDECK operates in. Therefore, we do not recommend attempting this unless you are confident in your understanding of the process and its implications.
-
-
-
-### Flatpak Spawn Permission
 
 You can enable it by running this command in the terminal.
 
 ```
 flatpak override --user --talk-name=org.freedesktop.Flatpak net.retrodeck.retrodeck
 ```
+
+### Add RetroDECK to Steam
+
+You also need to add RetroDECK to Steam to utilize Steam Input.
 
 ## Folder structure
 

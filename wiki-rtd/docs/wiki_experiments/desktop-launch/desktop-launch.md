@@ -23,7 +23,7 @@ flatpak override --user --talk-name=org.freedesktop.Flatpak net.retrodeck.retrod
 
 ### Add RetroDECK to Steam
 
-You also need to add RetroDECK to Steam to utilize Steam Input.
+You also need to add RetroDECK to Steam to utilize Steam Input as some built-in hotkeys in the radials like Alt+F4 might help you close windows.
 
 ## Folder structure
 

@@ -225,6 +225,8 @@ Categories=Game
 
 You can either copy and edit the desktop files or make your own.
 
+<img src="../discover.png" width="800">
+
 ### Copy and Edit .desktop files (Recommended)
 
 #### Step 1: Find the files

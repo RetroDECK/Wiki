@@ -49,28 +49,31 @@ Essentially, it runs the same process as the Configurator, rebuilding symlinks a
 
 We have added an **Experiments** ⚗️ section to the wiki. This section showcases creative projects made by users that are a bit out of scope and not supported within the standard RetroDECK experience. We try to provide guides or showcase these projects to help and inspire others who likes to tinker.
 
-### The first experiment - Launching Desktop Apps with RetroDECK
+### murkl's experiment - Launching Desktop Apps with RetroDECK
 
-If you break the RetroDECK sandbox the user **murkl** has provided instructions on: 
+Community member **murkl** showcased that if you break the RetroDECK sandbox, you can use the `retrodeck/roms/windows/` folder to launch full Desktop Apps via RetroDECK.
 
-How-to use the `retrodeck/roms/windows/` folder to launch full Desktop Apps via RetroDECK.
-
-**murkl** together with the RetroDECK Team expanded it to a full guide:
+**murkl** together with the RetroDECK Team wrote a guide:
 
 [Launching Desktop Games & Apps with RetroDECK](https://retrodeck.readthedocs.io/en/latest/wiki_experiments/desktop-launch/desktop-launch/)
 
 
 ---
 
-## Lahrs Icon Packs
+## Lahrs Folder Icon Packs
 
-User Lahrs 
+Community member **Lahrs** is working on ES-DE + RetroDECK folder icon packs, we think they are neat! 
 
+<img src="../Retro_Deck_Flat.webp" width="400"> 
 
 <img src="../lahrs1.webp" width="400"> 
 <img src="../lahrs2.webp" width="400"> 
 <img src="../lahrs3.webp" width="400"> 
 <img src="../lahrs4.webp" width="400"> 
+
+
+
+
 ---
 
 ## That is all for now 

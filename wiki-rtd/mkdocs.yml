@@ -191,9 +191,6 @@ nav:
     - ES-DE 📺:
       - ES-DE - General Guide: wiki_system_guides/es-de/esde-guide.md
 
-    - Desktop Games:
-      - Experiment - Launch Full Desktop Games: wiki_system_guides/desktop-launch/desktop-launch.md
-
     - PortMaster 🚢:
       - PortMaster - General Guide: wiki_system_guides/portmaster/portmaster-guide.md
 
@@ -206,7 +203,9 @@ nav:
     - Ponzu 🍶:
       - Ponzu - General Guide: wiki_system_guides/ponzu/ponzu-guide.md
 
+  - Experiments ⚗️:
 
+    - Launch Desktop Games & Apps: wiki_experiments/desktop-launch/desktop-launch.md
 
   - The Controller Vault 🎮:
 

@@ -1,12 +1,16 @@
-# Launching Desktop Games with RetroDECK
+# Launching Desktop Games & Apps with RetroDECK
 
-This is an experiment made by the user **murkl** and later expanded on with the RetroDECK Team togheter.
+This experiment was initiated by the user **murkl** and later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching desktop games and apps within RetroDECK.
+
+**Note:** RetroDECK was never intended to be used in this manner, so not all inputs may work as expected.
 
 ## Prerequisites
 
 **Information:**
 
 This experiment requires the `flatpak-spawn` permission, which breaks the sandbox environment that RetroDECK operates in. Therefore, we do not recommend attempting this unless you are confident in your understanding of the process and its implications.
+
+
 
 ### Flatpak Spawn Permission
 
@@ -326,12 +330,12 @@ Categories=Game
 
 #### Step 1: Create and move .desktop file from Heroic
 
-1. Open Heroic
-2. Install the game 
-3. Go to the `Library` -> `Your Game` -> Press the `Three Dotted Menu`
-4. Press `Add Shortcut`
+1. Open Heroic.
+2. Install the game .
+3. Go to the `Library` -> `Your Game` -> Press the `Three Dotted Menu`.
+4. Press `Add Shortcut`.
 5. A shortcut will now be created on the Desktop.
-6. Move that to `retrodeck/roms/windows/`.
+6. Move or copy that to `retrodeck/roms/windows/`.
 
 <img src="../heroic-shortcut.png" width="800">
 

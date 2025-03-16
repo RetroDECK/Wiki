@@ -400,4 +400,9 @@ Categories=Game;
 
 ## The Last Step: Launch the Games via RetroDECK & Scrape
 
-After the `.desktop` files have been created and everything is working as expected, RetroDECK will recognize the `.desktop` file the next time you start it. The games will appear under the Windows tab in ES-DE. If you have named the games correctly, there is a good chance that the scraper will identify them.
+
+<img src="../windows-es-de.png" width="100">
+
+After the `.desktop` files have been created and everything is working as expected, RetroDECK will recognize the `.desktop` file the next time you start it. 
+
+The games will appear under the Windows tab in ES-DE. If you have named the games correctly, there is a good chance that the scraper will identify them.

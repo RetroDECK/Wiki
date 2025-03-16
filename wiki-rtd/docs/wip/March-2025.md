@@ -10,7 +10,11 @@ That sure is a lot of users.
 
 ## Highlights
 
-- 0.9.1b Released & More in the Works!
+- RetroDECK 0.9.1b was Released
+- Repair-Paths Tool
+- Experiments ⚗️ on the Wiki
+- murkl's experiment - Launching Desktop Apps with RetroDECK
+- Lahrs Folder Icon Packs
 
 
 <!-- more -->
@@ -18,7 +22,7 @@ That sure is a lot of users.
 ---
 
 
-## 0.9.1b Released!
+## RetroDECK 0.9.1b was Released
 
 <img src="../../../logo_stacked_merged.svg" width="400"> 
 
@@ -45,7 +49,7 @@ Essentially, it runs the same process as the Configurator, rebuilding symlinks a
 
 ---
 
-## Experiment ⚗️ on the Wiki
+## Experiments ⚗️ on the Wiki
 
 We have added an **Experiments** ⚗️ section to the wiki. This section showcases creative projects made by users that are a bit out of scope and not supported within the standard RetroDECK experience. We try to provide guides or showcase these projects to help and inspire others who likes to tinker.
 
@@ -62,20 +66,19 @@ Community member **murkl** showcased that if you break the RetroDECK sandbox, yo
 
 ## Lahrs Folder Icon Packs
 
-Community member **Lahrs** is working on RetroDECK folder icon packs, we think they are neat! 
+Community member **Lahrs** is working on RetroDECK folder icon packs in various different styles.
 
-<img src="../RetroDECK_Flat.webp" width="75"> 
+The goal is to have a nice icon on most of the folders shipped with RetroDECK.
 
-<img src="../RetroDECK_Flat.webp" width="75"> 
-
-<img src="../RetroDECK_Flat.webp" width="75"> 
+<img src="../RetroDECK_Flat.webp" width="75">  <img src="../n64-wip.webp" width="75">  <img src="../xbox.webp" width="75"> 
 
 <img src="../lahrs1.webp" width="400"> 
 <img src="../lahrs2.webp" width="400"> 
-<img src="../lahrs3.webp" width="400"> 
 <img src="../lahrs4.webp" width="400"> 
 
+These are still very early in the making, but us in the RetroDECK Team think they are really neat! 
 
+When the packs are finished we will probably create an Configurator Tool make the installation of the the pack you want a breeze.
 
 
 ---
@@ -92,7 +95,7 @@ Thanks everyone!
 
 ### Links 
 
-[RetroDECK Website](https://retrodeck.net/)  
+[retrodeck.net](https://retrodeck.net/)  
   
 [Discord](https://discord.gg/WDc5C9YWMx) 
 

@@ -382,19 +382,6 @@ Type=Application
 Icon=/home/deck/Games/Heroic/Flight of the Amazon Queen/goggame-1207659723.ico
 Categories=Game;
 ```
-## How-to: Launch Native Games 
-
-**W.I.P**
-
-You can either copy and edit the desktop files or make your own.
-
-### Copy and Edit .desktop files (Recommended)
-
-#### Step 1: Find the files
-
-The desktop files should be located under
-
-`/usr/share/applications/`
 
 ## The Last Step: Launch the Games via RetroDECK & Scrape
 

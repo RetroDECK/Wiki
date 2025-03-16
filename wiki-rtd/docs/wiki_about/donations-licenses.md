@@ -429,6 +429,10 @@ Mini Banner is a LaunchBox theme with several pixelart made by the artist group:
 
 Weestuarty of the group made the remix version of their LaunchBox theme for usage in RetroDECK.
 
+### SVG Repo
+
+[SVG Repo](https://www.svgrepo.com/)
+
 ---
 
 ## Other Licenses
@@ -468,7 +472,6 @@ CC0
 ### Batocera
 
 [Licenses](https://github.com/batocera-linux/batocera.linux?tab=License-1-ov-file#readme)
-
 
 
 ### Steam Deck & Steam Deck Logo

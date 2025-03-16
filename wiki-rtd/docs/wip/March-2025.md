@@ -62,9 +62,13 @@ Community member **murkl** showcased that if you break the RetroDECK sandbox, yo
 
 ## Lahrs Folder Icon Packs
 
-Community member **Lahrs** is working on ES-DE + RetroDECK folder icon packs, we think they are neat! 
+Community member **Lahrs** is working on RetroDECK folder icon packs, we think they are neat! 
 
-<img src="../Retro_Deck_Flat.webp" width="400"> 
+<img src="../RetroDECK_Flat.webp" width="75"> 
+
+<img src="../RetroDECK_Flat.webp" width="75"> 
+
+<img src="../RetroDECK_Flat.webp" width="75"> 
 
 <img src="../lahrs1.webp" width="400"> 
 <img src="../lahrs2.webp" width="400"> 

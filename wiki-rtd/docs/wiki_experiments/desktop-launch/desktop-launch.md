@@ -27,6 +27,7 @@ We also recommend that you add RetroDECK to Steam to utilize Steam Input as ther
 
 Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you close windows.
 
+
 ## Folder structure
 
 | Type    | Folder                 |          Comment     | 
@@ -229,6 +230,16 @@ You can either copy and edit the desktop files or make your own.
 
 <img src="../discover.png" width="800">
 
+**Tips on Applications with Launchers:** 
+
+If the application has a launcher and you don't want to boot into it. 
+
+When editing the `Exec=` in the `.desktop` files, check the applications documentation if there is a way to launch it without the launcher via cli.
+
+Add that to the `Exec=` command. 
+
+**Example:** Steam uses `-silent` and Heroic `--no-gui`.
+
 ### Copy and Edit .desktop files (Recommended)
 
 #### Step 1: Find the files
@@ -334,6 +345,8 @@ Icon=net.openra.OpenRA
 Exec=flatpak-spawn --host flatpak run net.openra.OpenRA
 Categories=Game
 ```
+
+
 
 ## How-to: Launch Heroic Games 
 

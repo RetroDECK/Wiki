@@ -1,12 +1,12 @@
 --- 
 
-date: 2025-02-23
+date: 2025-03-16
 
 --- 
 
-# February March: Community Showcase
+# March 2025: Community Showcase
 
-That sure is a lot of users.
+Things are happening in the community.
 
 ## Highlights
 
@@ -24,7 +24,7 @@ That sure is a lot of users.
 
 ## RetroDECK 0.9.1b was Released
 
-<img src="../../../logo_stacked_merged.svg" width="400"> 
+<img src="../../../icon-rd.svg" width="75"> 
 
 The huge bugfix and quality-of-life changes patch, version 0.9.1b, has been released.
 
@@ -35,6 +35,9 @@ Additionally, we are in the early planning stages for the next major update, 0.1
 ---
 
 ## Repair-Paths Tool
+
+
+<img src="../../../icon-configurator.svg" width="75"> 
 
 We are currently experimenting with a new Configurator Tool: **Repair-Paths Tool**. 
 
@@ -70,15 +73,15 @@ Community member **Lahrs** is working on RetroDECK folder icon packs in various 
 
 The goal is to have a nice icon on most of the folders shipped with RetroDECK.
 
-<img src="../RetroDECK_Flat.webp" width="75">  <img src="../n64-wip.webp" width="75">  <img src="../xbox.webp" width="75"> 
+<img src="../../../RetroDECK_Flat.webp" width="75">  <img src="../../../n64-wip.webp" width="75">  <img src="../../../xbox.webp" width="75"> 
 
-<img src="../lahrs1.webp" width="400"> 
-<img src="../lahrs2.webp" width="400"> 
-<img src="../lahrs4.webp" width="400"> 
+<img src="../../../lahrs1.webp" width="400"> 
+<img src="../../../lahrs2.webp" width="400"> 
+<img src="../../../lahrs4.webp" width="400"> 
 
 These are still very early in the making, but us in the RetroDECK Team think they are really neat! 
 
-When the packs are finished we will probably create an Configurator Tool make the installation of the the pack you want a breeze.
+When the packs are finished we will probably create an Configurator Tool make the installation these optional packs a breeze.
 
 
 ---

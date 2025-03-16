@@ -30,9 +30,10 @@ If you don't know what RetroDECK is check here:
 
 Name:
 
-RetroDECK Blog - February 2025: Major Stonks 
+RetroDECK Blog - Retro Gaming Flatpak  - <Month>: <Post Name>
 
-RetroDECK Blog - <Month>: <Post Name>
+RetroDECK Blog - Retro Gaming Flatpak - February 2025: Major Stonks 
+
 
 
 --- 
@@ -41,7 +42,7 @@ date: 20XX-XX-XX
 
 --- 
 
-## <Month Year>: <Post Name>
+# <Month Year>: <Post Name>
 
 Short desciption
 
@@ -73,11 +74,13 @@ Thanks everyone!
 
 //The RetroDECK Team 
 
-#### Links 
+### Links 
 
-[RetroDECK Website](https://retrodeck.net/)  
+[retrodeck.net](https://retrodeck.net/)  
   
 [Discord](https://discord.gg/WDc5C9YWMx) 
+
+[Revolt](https://rvlt.gg/StVaEc0w) 
 
 [Matrix](https://matrix.to/#/#retrodeck:matrix.org) 
 

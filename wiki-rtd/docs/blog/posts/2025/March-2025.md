@@ -77,7 +77,7 @@ The goal is to have a nice icon on most of the folders shipped with RetroDECK.
 
 <img src="../../../lahrs1.webp" width="400"> 
 <img src="../../../lahrs2.webp" width="400"> 
-<img src="../../../lahrs4.webp" width="400"> 
+
 
 These are still very early in the making, but us in the RetroDECK Team think they are really neat! 
 

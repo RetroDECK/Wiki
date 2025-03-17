@@ -71,11 +71,18 @@ Community member **murkl** showcased that if you break the RetroDECK sandbox, yo
 
 Community member **Lahrs** is working on RetroDECK folder icon packs in various different styles.
 
-The goal is to have a nice icon on most of the folders shipped with RetroDECK.
+The goal is to have a nice icon on most of the folders shipped within RetroDECK.
+
+**Frames:** 
 
 <img src="../../../RetroDECK_Flat.webp" width="75">  <img src="../../../n64-wip.webp" width="75">  <img src="../../../xbox.webp" width="75"> 
 
+<img src="../../../lahrs3.webp" width="400"> 
+
+**Themes:** 
+
 <img src="../../../lahrs1.webp" width="400"> 
+
 <img src="../../../lahrs2.webp" width="400"> 
 
 

@@ -4,6 +4,20 @@
 
 Azahar is a Nintendo 3DS Emulator.
 
+---
+
+### Cemu Links:
+
+[Azahar Webpage](https://azahar-emu.org/)
+
+[Azahar Blog](https://azahar-emu.org/pages/bloglist/)
+
+[Azahar Github](https://azahar-emu.org/pages/bloglist/)
+
+[Azahar - Game Loading Changes from Citra](https://azahar-emu.org/blog/game-loading-changes/)
+
+---
+
 ## Where to put the games
 
 3DS games should be put under the `retrodeck/roms/3ds/` directory.

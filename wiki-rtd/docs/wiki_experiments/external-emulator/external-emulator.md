@@ -1,6 +1,10 @@
 # Launching External Emulators 
 
-This experiment was initiated by the user **TopHatCat:** and later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching desktop games and apps within RetroDECK.
+This experiment was initiated by the user **TopHatCat:** and later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external emulators games and via RetroDECK of ES-DE supported systems.
+
+The main downside of this is that you are getting none of the RetroDECK Features for these emulator: Hotkeys, Configurator, Unified Folders, Backups etc.. etc...
+
+You are bound by each emulators defaults and you will need to personally change them to your liking. 
 
 ### Disclaimer on Experiments 
 
@@ -23,31 +27,31 @@ flatpak override --user --talk-name=org.freedesktop.Flatpak net.retrodeck.retrod
 
 ### Add RetroDECK to Steam
 
-We also recommend that you add RetroDECK to Steam to utilize Steam Input as there is a higher chance of inputs working from the external source.
+We also recommend that you add RetroDECK to Steam to utilize Steam Input if you need to rebind the emulators hotkeys manually.
 
-Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you close windows.
+## Folder Structure
 
-## 
+Depending how you installed RetroDECK the Flatpak paths are different.
+
+You can either install it as a system or user application.
+
+| Type    | Folder                 |          Comment     | 
+|  :---:  | :---:                  |             :---:     |
+| **User Application:** ES-DE Linux Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` |  
+| **System Application:** ES-DE Linux Folder  |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` |  
+
+## How-to add an Flathub installed Emulator
 
 
-To add external emulators to retrodeck:
+1. Go to the ES-DE Linux Folder via the path above (depending how you installed RetroDECK). 
+2. Find and open `es_find_rules.xml` (if you have RetroDECK installed as a System Application, you will need more permissions).
+3. At the end of file add a new ruleset
 
-Go to your root directory and search for the file es_systems.xml through your whole system.
-
-There will be multiple copies, go to the one in a dir called "Linux". Go to the directory, not the file specifically.
-
-Next to es_systems.xml is es_find_rules.xml. open that file. This will have commands to run different emulators.
-
-Add a new emulator with whichever name you want that has a system path rule with only one entry of flatpak-spawn, but you have to remember that name. This is merely a bridge.
-
-My example:
 ```
-xml
 <emulator name="HOST">
-<rule type="systempath">
-<entry>flatpak-spawn</entry>
-</rule>
-
+    <rule type="systempath">
+        <entry>flatpak-spawn</entry>
+    </rule>
 </emulator>
 ```
 

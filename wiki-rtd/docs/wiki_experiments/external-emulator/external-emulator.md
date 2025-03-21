@@ -1,8 +1,8 @@
-# Launching External Emulators 
+# Launching External System 
 
-This experiment was initiated by the user **TopHatCat** and later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external emulator games via RetroDECK for ES-DE supported systems. 
+This experiment was initiated by the user **TopHatCat** and later expanded upon by the RetroDECK Team. **TopHatCat's** goal was to explore the possibility of launching games against external systems like Emulators from within RetroDECK (limited to the systems ES-DE supports). 
 
-**However, doing this defeats the entire purpose of RetroDECK.** 
+**However, doing this defeats the entire purpose of RetroDECK** 
 
 You will not get any of the RetroDECK features for these systems, such as: 
 
@@ -11,7 +11,7 @@ You will not get any of the RetroDECK features for these systems, such as:
 - Configurator
 - Unified Folders
 - Backups
-- and everything else 
+- and everything else!
 
 Essentially, you are creating an Anti-RetroDECK / Bizzaro-RetroDECK inside of RetroDECK. 
 
@@ -19,9 +19,11 @@ Essentially, you are creating an Anti-RetroDECK / Bizzaro-RetroDECK inside of Re
 
 Your system will be cluttered, and you will be bound by each emulator's defaults, which you will need to change to your liking.
 
-There is no good reason to launch external emulators via RetroDECK (unless you really like to tinker). 
+**There is no good reason to launch external emulators via RetroDECK**
 
 You can simply install ES-DE from their website and install the emulators as normal, running just ES-DE. 
+
+The files `es_find_rules.xml` `es_systems.xml` you are editing will also be overwritten when RetroDECK updates, so you will need to update them over the updates with your changes.
 
 
 ### Disclaimer on Experiments 
@@ -45,7 +47,7 @@ flatpak override --user --talk-name=org.freedesktop.Flatpak net.retrodeck.retrod
 
 ### Add RetroDECK to Steam
 
-We also recommend that you add RetroDECK to Steam to utilize Steam Input if you need to rebind the emulators hotkeys manually.
+We also recommend that you add RetroDECK to Steam to utilize Steam Input if you need to rebind the system hotkeys manually.
 
 ## Folder Structure
 
@@ -53,21 +55,25 @@ Depending how you installed RetroDECK the Flatpak paths are different.
 
 You can either install it as a system or user application.
 
+**Note:** If you have installed RetroDECK as a system application you will need increased privileges to edit the files.
+
+
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
 | **User Application:** ES-DE Linux Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` |  
 | **System Application:** ES-DE Linux Folder  |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` |  
 
-## How-to add an Flathub installed Emulator
+## Requirement: Add the FLATPAKSPAWN System
 
-Step one: es_find_rules.xml
+**Edit the es_find_rules.xml**
 
 1. Go to the ES-DE Linux Folder via the path above (depending how you installed RetroDECK). 
-2. Find and open `es_find_rules.xml` (if you have RetroDECK installed as a System Application, you will need more permissions).
+2. Find and open `es_find_rules.xml`.
+3. Edit `es_find_rules.xml`:
 
-Step two: Edit es_find_rules.xml
+At the end of file but before </ruleList> end add a new emulator `FLATPAKSPAWN`:
 
-At the end of file add a new ruleset
+Copy & paste:
 
 ```
 <emulator name="FLATPAKSPAWN">
@@ -76,6 +82,15 @@ At the end of file add a new ruleset
     </rule>
 </emulator>
 ```
+
+4. Save and close the file.
+
+## How-to: Add a Flatpak Emulator
+
+1. Go to the ES-DE Linux Folder via the path above (depending how you installed RetroDECK). 
+2. Find and open `es_systems.xml`.
+3. Search for and find the system entry you want to add and external system to. 
+
 
 
 Local APP:

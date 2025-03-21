@@ -1,6 +1,6 @@
 # Launching External Emulator 
 
-This experiment was initiated by the user **TopHatCat** and later expanded upon by the RetroDECK Team. **TopHatCat's** goal was to explore the possibility of launching games against external systems like Emulators from within RetroDECK (limited to the systems ES-DE supports). 
+This experiment was initiated by the user **TopHatCat** and later expanded upon by the RetroDECK Team. **TopHatCats** goal was to explore the possibility of launching games against external Emulators from within RetroDECK (limited to the systems ES-DE supports). 
 
 **However, doing this defeats the entire purpose of RetroDECK** 
 

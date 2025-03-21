@@ -31,7 +31,6 @@ If you have installed RetroDECK from flathub as a user application.
 | retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | contains various extra files and features like icons, the system config files  |  
 
 
-
 ## RetroDECK installed as System Application
 
 If you have installed RetroDECK from flathub as a system application.

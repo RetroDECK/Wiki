@@ -2,8 +2,6 @@
 
 ## [XargonWan](https://github.com/XargonWan)
 
-<img src="../../../wiki_images/ai/xargon-the-sloth.png" width="100">
-
 Founder of RetroDECK and one of the founding members of [AmberELEC](https://amberelec.org/).
 
 ```
@@ -21,18 +19,14 @@ Grand General of the IPL (Italian Pizza Legion) also known as the Napoletanan Fi
 
 ## [Lazorne](https://github.com/Lazorne)
 
-<img src="../../../wiki_images/ai/lazorne-the-sloth.png" width="100">
-
 Maestro of RetroDECK.
 
 ```
 - Community Management/Outreach
 - Emulator Configurations
 - Feature Requests
-- Good / Bad Ideas
 - Issue Management
 - Management of Xargons Good / Bad Ideas
-- Memes
 - Steam Input
 - Testing
 - Wiki Documentation
@@ -45,8 +39,6 @@ Maestro of the Wiki and also the cult leader of the NPC (The Nordic Pizza Cult) 
 </details>
 
 ## [jiannazzone](https://github.com/jiannazzone)
-
-<img src="../../../wiki_images/ai/adam-the-sloth.png" width="100">
 
 Front End and UI/UX Development.
 
@@ -64,8 +56,6 @@ MCCP branch operative against the NPC faction and have a loose alliance with the
 </details>
 
 ## [IceNine451](https://github.com/icenine451)
-
-<img src="../../../wiki_images/ai/icenine-the-sloth.png" width="100">
 
 Backend Development.
 

@@ -85,57 +85,67 @@ Copy & paste:
 
 4. Save and close the file.
 
-## How-to: Add a Flatpak Emulator
+## How-to: Edit es_systems.xml file
 
 1. Go to the ES-DE Linux Folder via the path above (depending how you installed RetroDECK). 
 2. Find and open `es_systems.xml`.
 3. Search for and find the system entry you want to add and external system to. 
 
 
+**Example:** GameCube
 
-Local APP:
-
-```
-<command label="Dolphin (External)">
-%EMULATOR_HOST% --host /usr/bin/dolphin-emu -b -e %ROM%
-</command>
-```
-
-
-```
-<command label="Dolphin (External)">
-%EMULATOR_HOST% --host /usr/bin/dolphin-emu -b -e %ROM%
-</command>
-```
-
-
-Example of full:
 ```
     <system>
-        <name>supracan</name>
-        <fullname>Funtech Super A'Can</fullname>
-        <path>%ROMPATH%/supracan</path>
-        <extension>.bin .BIN .7z .7Z .zip .ZIP</extension>
-        <command label="MAME - Current">%EMULATOR_RETROARCH% -L %CORE_RETROARCH%/mame_libretro.so "supracan -rompath \"%GAMEDIRRAW%;%ROMPATH%/supracan\" -cart \"%ROMRAW%\""</command>
-        <command label="MAME (Standalone)">%EMULATOR_MAME% -inipath /var/config/mame/ini -rompath %GAMEDIR%\;%ROMPATH%/supracan supracan -cart %ROM%</command>
-        <platform>supracan</platform>
-        <theme>supracan</theme>
+        <name>gc</name>
+        <fullname>Nintendo GameCube</fullname>
+        <path>%ROMPATH%/gc</path>
+        <extension>.ciso .CISO .dff .DFF .dol .DOL .elf .ELF .gcm .GCM .gcz .GCZ .iso .ISO .json .JSON .m3u .M3U .rvz .RVZ .tgc .TGC .wad .WAD .wbfs .WBFS .wia .WIA .7z .7Z .zip .ZIP</extension>
+        <command label="Dolphin (Standalone)">%INJECT%=%BASENAME%.esprefix %EMULATOR_DOLPHIN% -b -e %ROM%</command>
+        <command label="Dolphin">%EMULATOR_RETROARCH% -L %CORE_RETROARCH%/dolphin_libretro.so %ROM%</command>
+        <command label="PrimeHack (Standalone)">%INJECT%=%BASENAME%.esprefix %EMULATOR_PRIMEHACK% -b -e %ROM%</command>
+        <!-- <command label="Triforce (Standalone)">%INJECT%=%BASENAME%.esprefix %EMULATOR_TRIFORCE% -b -e %ROM%</command> -->
+        <platform>gc</platform>
+        <theme>gc</theme>
     </system>
 ```
+
+4. Copy and paste one of <command label=> entries and add one or more additional entries.
+
+5. Modify the command labels values:
+
+- Point it towards the `%EMULATOR_FLATPAKSPAWN% --host` system.
+- Add the real path of the external emulator (check the .desktop files on your system to where they are pointing towards).
+- Change the label="" so it ends with (External) or any other name you want.
+
+6. Examples and results:
+
+**Dolphin Installed as an Native Application:**
+
+<command label="Dolphin (External Native)"> %EMULATOR_HOST% --host /usr/bin/dolphin-emu -b -e %ROM% </command>
+
+**Dolphin Installed as an Flatpak Application:**
+
+<command label="Dolphin (External Flatpak)"> %EMULATOR_HOST% --host flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu -b -e %ROM% </command>
+
+**Combined Results:** 
+
 ```
     <system>
-        <name>switch</name>
-        <fullname>Nintendo Switch</fullname>
-        <path>%ROMPATH%/switch</path>
-        <extension>.nca .NCA .nro .NRO .nso .NSO .nsp .NSP .xci .XCI</extension>
-        <command label="Ryujinx (Legacy) (Standalone)">%EMULATOR_RYUJINX% %ROM%</command>
-        <command label="Yuzu (via Ponzu)">%INJECT%=%BASENAME%.esprefix %EMULATOR_YUZU% -f -g %ROM%</command>
-        <command label="Ryubing (External)">%EMULATOR_FLATPAKSPAWN% --host flatpak run --branch=stable --arch=x86_64 --command=ryujinx-wrapper --file-forwarding io.github.ryubing.Ryujinx %ROM%</command>
-        <platform>switch</platform>
-        <theme>switch</theme>
+        <name>gc</name>
+        <fullname>Nintendo GameCube</fullname>
+        <path>%ROMPATH%/gc</path>
+        <extension>.ciso .CISO .dff .DFF .dol .DOL .elf .ELF .gcm .GCM .gcz .GCZ .iso .ISO .json .JSON .m3u .M3U .rvz .RVZ .tgc .TGC .wad .WAD .wbfs .WBFS .wia .WIA .7z .7Z .zip .ZIP</extension>
+        <command label="Dolphin (Standalone)">%INJECT%=%BASENAME%.esprefix %EMULATOR_DOLPHIN% -b -e %ROM%</command>
+        <command label="Dolphin">%EMULATOR_RETROARCH% -L %CORE_RETROARCH%/dolphin_libretro.so %ROM%</command>
+        <command label="PrimeHack (Standalone)">%INJECT%=%BASENAME%.esprefix %EMULATOR_PRIMEHACK% -b -e %ROM%</command>
+        <command label="Dolphin (External Flatpak)"> %EMULATOR_HOST% --host flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu -b -e %ROM% </command>
+        <command label="Dolphin (External Native)"> %EMULATOR_HOST% --host /usr/bin/dolphin-emu -b -e %ROM% </command>
+        <!-- <command label="Triforce (Standalone)">%INJECT%=%BASENAME%.esprefix %EMULATOR_TRIFORCE% -b -e %ROM%</command> -->
+        <platform>gc</platform>
+        <theme>gc</theme>
     </system>
 ```
-run --branch=stable --arch=x86_64 --command=ryujinx-wrapper --file-forwarding io.github.ryubing.Ryujinx 
 
-<entry>/var/lib/flatpak/exports/bin/org.ryujinx.Ryujinx</entry>
-<entry>~/.local/share/flatpak/exports/bin/org.ryujinx.Ryujinx</entry>
+7. Save the file and launch RetroDECK.
+ 
+8. Set the alternative emulators to one of your new entries to try it out, they should popup in the Alternative Emulators Menu per game or per system.

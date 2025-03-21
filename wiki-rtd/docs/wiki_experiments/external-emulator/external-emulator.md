@@ -89,6 +89,8 @@ Copy & paste:
 
 ## How-to: Edit es_systems.xml file
 
+### Step One: Open es_systems.xml
+
 1. Go to the ES-DE Linux Folder via the path above (depending how you installed RetroDECK). 
 
 2. Find and open `es_systems.xml`.
@@ -113,25 +115,27 @@ Copy & paste:
     </system>
 ```
 
-4. Copy and paste one of <command label=> entries and add one or more additional entries.
+### Step Two: Modify es_systems.xml
 
-5. Modify the command labels values:
+1. Copy and paste one of <command label=> entries and add one or more additional entries.
+
+2. **Modify the command labels values:**
 
 - Point it towards the `%EMULATOR_FLATPAKSPAWN% --host` system.
-- Add the real path of the external emulator (check the .desktop files on your system to where they are pointing towards).
+- Add the real path of the external emulator (check the .desktop files on your system to see where they are pointing).
 - Change the label="" so it ends with (External) or any other name you want.
 
-6. Examples and results:
+**Examples and results:**
 
-**Dolphin Installed as an Native Application:**
+#### Dolphin (Native Application)
 
 `<command label="Dolphin (External Native)"> %EMULATOR_HOST% --host /usr/bin/dolphin-emu -b -e %ROM% </command>`
 
-**Dolphin Installed as an Flatpak Application:**
+#### Dolphin (Flatpak Application)
 
 `<command label="Dolphin (External Flatpak)"> %EMULATOR_HOST% --host flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu -b -e %ROM% </command>`
 
-**Combined Results:** 
+#### Combined Results
 
 ```
     <system>
@@ -150,11 +154,13 @@ Copy & paste:
     </system>
 ```
 
-
-7. Save the file and launch RetroDECK.
-
-8. Set the alternative emulators to one of your new entries. They should appear in the Alternative Emulators Menu for each game or system.
-
-9. If everything is correct, the game should launch with the External System.
+### Step Three: Save and Launch
 
 **Note:** If you make an error, close RetroDECK before editing the `es_find_rules.xml` or `es_systems.xml` files. Save the files and relaunch RetroDECK, as the files are loaded when the application starts.
+
+1. Save the file and launch RetroDECK.
+
+2. Set the alternative emulators to one of your new entries. They should appear in the Alternative Emulators Menu for each game or system.
+
+3. If everything is correct, the game should launch with the External System.
+

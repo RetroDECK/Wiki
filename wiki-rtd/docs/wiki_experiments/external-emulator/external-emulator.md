@@ -10,6 +10,7 @@ You will not get any of the RetroDECK features for these systems, such as:
 - Working Inputs 
 - Configurator
 - Unified Folders
+- Preconfigured 
 - Backups
 - and everything else!
 

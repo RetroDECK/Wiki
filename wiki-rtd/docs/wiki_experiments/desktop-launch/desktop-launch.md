@@ -6,6 +6,9 @@ This experiment was initiated by the user **murkl** and later expanded upon by t
 
 ![type:video](vcmi-retrodeck.mp4)
 
+### Disclaimer on Experiments 
+
+These experiments are created by the RetroDECK Team and/or Community. The guides are intended for people with technical knowledge and a passion for tinkering. Using these guides *might* put RetroDECK and your data at risk. The RetroDECK Team can't provide any support for these experiments or fix any issues they might cause on your system or RetroDECK installation.
 
 ## Prerequisites
 

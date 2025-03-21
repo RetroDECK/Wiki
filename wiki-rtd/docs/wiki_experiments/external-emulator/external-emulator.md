@@ -1,14 +1,28 @@
 # Launching External Emulators 
 
-This experiment was initiated by the user **TopHatCat:** and later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external emulators games and via RetroDECK of ES-DE supported systems.
+This experiment was initiated by the user **TopHatCat** and later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external emulator games via RetroDECK for ES-DE supported systems. 
 
-The main downside of this is that you are defeating the entire purpuse of RetroDECK and keeping everything togheter. 
+**However, doing this defeats the entire purpose of RetroDECK.** 
 
-You are also not getting any of the RetroDECK Features for these systems: Hotkeys, Configurator, Unified Folders, Backups etc.. etc...
+You will not get any of the RetroDECK features for these systems, such as: 
 
-You are creating an Anti-RetroDECK inside of RetroDECK.
+- Hotkeys
+- Working Inputs 
+- Configurator
+- Unified Folders
+- Backups
+- and everything else 
 
-Your system will be cluttered and you are are bound by each emulators defaults and you will need to personally change them to your liking. 
+Essentially, you are creating an Anti-RetroDECK / Bizzaro-RetroDECK inside of RetroDECK. 
+
+>! Absolute Heresy! 
+
+Your system will be cluttered, and you will be bound by each emulator's defaults, which you will need to change to your liking.
+
+There is no good reason to launch external emulators via RetroDECK (unless you really like to tinker). 
+
+You can simply install ES-DE from their website and install the emulators as normal, running just ES-DE. 
+
 
 ### Disclaimer on Experiments 
 

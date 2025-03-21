@@ -149,3 +149,7 @@ Copy & paste:
 7. Save the file and launch RetroDECK.
  
 8. Set the alternative emulators to one of your new entries to try it out, they should popup in the Alternative Emulators Menu per game or per system.
+
+9. If all is correct the game should launch with the External System.
+
+**Note:** If you have made an error somewhere you must close RetroDECK before you do any edits in the `es_find_rules.xml` `es_systems.xml`files, then save the files and relaunch RetroDECK as the files are loaded on application launch.

@@ -25,7 +25,11 @@ If you have installed RetroDECK from flathub as a user application.
 | ES-DE Unix Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/unix/` | `es_find_rules.xml`  `es_systems.xml`  |  
 | ES-DE Linux Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` |  
 | SRM Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/srm/` | SRM Folder |  
-| BIN Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Mapped to /app/bin inside the flatpak. Contains: wrappers, scripts, retrodeck.sh and more |  
+| Bin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Mapped to /app/bin inside the flatpak. Contains: wrappers, scripts, retrodeck.sh and more |  
+| Lib Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` | Libraries |  
+| Libexec Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | Various script functions like post_update.sh |  
+| retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | contains various extra files and features like icons, the system config files  |  
+
 
 
 ## RetroDECK installed as System Application
@@ -39,4 +43,8 @@ If you have installed RetroDECK from flathub as a system application.
 | ES-DE Unix Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/unix/` | `es_find_rules.xml`  `es_systems.xml`  |  
 | ES-DE Linux Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` |  
 | SRM Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/srm/` | SRM Folder |  
-| BIN Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Mapped to /app/bin inside the flatpak. Contains: wrappers, scripts, retrodeck.sh and more |  
+| Bin Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Mapped to /app/bin inside the flatpak. Contains: wrappers, scripts, retrodeck.sh and more |  
+| Lib Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` | Libraries |  
+| Libexec Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | Various script functions like post_update.sh |  
+| retrodeck Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/retrodeck/` | contains various extra files and features like icons, the system config files  |  
+

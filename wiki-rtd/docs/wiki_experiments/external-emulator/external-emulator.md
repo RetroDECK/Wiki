@@ -13,9 +13,7 @@ You will not get any of the RetroDECK features for these systems, such as:
 - Backups
 - and everything else!
 
-Essentially, you are creating an Anti-RetroDECK / Bizzaro-RetroDECK inside of RetroDECK. 
-
->! Absolute Heresy! 
+Essentially, you are creating an Anti-RetroDECK / Bizzaro-RetroDECK / Absolute Heresy inside of RetroDECK. 
 
 Your system will be cluttered, and you will be bound by each emulator's defaults, which you will need to change to your liking.
 

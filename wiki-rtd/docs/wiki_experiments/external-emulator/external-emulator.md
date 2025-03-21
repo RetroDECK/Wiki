@@ -68,7 +68,9 @@ You can either install it as a system or user application.
 **Edit the es_find_rules.xml**
 
 1. Go to the ES-DE Linux Folder via the path above (depending how you installed RetroDECK). 
+
 2. Find and open `es_find_rules.xml`.
+
 3. Edit `es_find_rules.xml`:
 
 At the end of file but before </ruleList> end add a new emulator `FLATPAKSPAWN`:
@@ -88,7 +90,9 @@ Copy & paste:
 ## How-to: Edit es_systems.xml file
 
 1. Go to the ES-DE Linux Folder via the path above (depending how you installed RetroDECK). 
+
 2. Find and open `es_systems.xml`.
+
 3. Search for and find the system entry you want to add and external system to. 
 
 
@@ -146,10 +150,11 @@ Copy & paste:
     </system>
 ```
 
+
 7. Save the file and launch RetroDECK.
- 
-8. Set the alternative emulators to one of your new entries to try it out, they should popup in the Alternative Emulators Menu per game or per system.
 
-9. If all is correct the game should launch with the External System.
+8. Set the alternative emulators to one of your new entries. They should appear in the Alternative Emulators Menu for each game or system.
 
-**Note:** If you have made an error somewhere you must close RetroDECK before you do any edits in the `es_find_rules.xml` `es_systems.xml`files, then save the files and relaunch RetroDECK as the files are loaded on application launch.
+9. If everything is correct, the game should launch with the External System.
+
+**Note:** If you make an error, close RetroDECK before editing the `es_find_rules.xml` or `es_systems.xml` files. Save the files and relaunch RetroDECK, as the files are loaded when the application starts.

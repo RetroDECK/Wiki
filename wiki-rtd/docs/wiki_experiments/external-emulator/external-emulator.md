@@ -42,13 +42,17 @@ You can either install it as a system or user application.
 
 ## How-to add an Flathub installed Emulator
 
+Step one: es_find_rules.xml
 
 1. Go to the ES-DE Linux Folder via the path above (depending how you installed RetroDECK). 
 2. Find and open `es_find_rules.xml` (if you have RetroDECK installed as a System Application, you will need more permissions).
-3. At the end of file add a new ruleset
+
+Step two: Edit es_find_rules.xml
+
+At the end of file add a new ruleset
 
 ```
-<emulator name="HOST">
+<emulator name="FLATPAKSPAWN">
     <rule type="systempath">
         <entry>flatpak-spawn</entry>
     </rule>
@@ -56,29 +60,49 @@ You can either install it as a system or user application.
 ```
 
 
-This is the hard part. Now for the easy part.
-
-
-To add an external emulator:
-
-Go to your root directory to search for es_systems.xml
-
-There will be multiple copies, find the one in a directory called Linux. Go to the directory, not the file.
-[8:36 AM]TopHatCat: .
-You'll find in the directory a file named es_find_rules.xml
-
-Open the file. And start adding a new emulator with a memorable, but generic name
-
-Here's my example
+Local APP:
 
 ```
-XML
 <command label="Dolphin (External)">
 %EMULATOR_HOST% --host /usr/bin/dolphin-emu -b -e %ROM%
 </command>
 ```
 
- Replace the EMULATOR_HOST with whichever name you picked before and viola.
 
-You will need to know the path to your emulator's executable if a similar emulator exists in retrodeck cause, despite not trying it, I'm 99% sure it'll prioritize the local one than the host's 
-[8:44 AM]TopHatCat: That's why I used /usr/bin/dolphin-emu
+```
+<command label="Dolphin (External)">
+%EMULATOR_HOST% --host /usr/bin/dolphin-emu -b -e %ROM%
+</command>
+```
+
+
+Example of full:
+```
+    <system>
+        <name>supracan</name>
+        <fullname>Funtech Super A'Can</fullname>
+        <path>%ROMPATH%/supracan</path>
+        <extension>.bin .BIN .7z .7Z .zip .ZIP</extension>
+        <command label="MAME - Current">%EMULATOR_RETROARCH% -L %CORE_RETROARCH%/mame_libretro.so "supracan -rompath \"%GAMEDIRRAW%;%ROMPATH%/supracan\" -cart \"%ROMRAW%\""</command>
+        <command label="MAME (Standalone)">%EMULATOR_MAME% -inipath /var/config/mame/ini -rompath %GAMEDIR%\;%ROMPATH%/supracan supracan -cart %ROM%</command>
+        <platform>supracan</platform>
+        <theme>supracan</theme>
+    </system>
+```
+```
+    <system>
+        <name>switch</name>
+        <fullname>Nintendo Switch</fullname>
+        <path>%ROMPATH%/switch</path>
+        <extension>.nca .NCA .nro .NRO .nso .NSO .nsp .NSP .xci .XCI</extension>
+        <command label="Ryujinx (Legacy) (Standalone)">%EMULATOR_RYUJINX% %ROM%</command>
+        <command label="Yuzu (via Ponzu)">%INJECT%=%BASENAME%.esprefix %EMULATOR_YUZU% -f -g %ROM%</command>
+        <command label="Ryubing (External)">%EMULATOR_FLATPAKSPAWN% --host flatpak run --branch=stable --arch=x86_64 --command=ryujinx-wrapper --file-forwarding io.github.ryubing.Ryujinx %ROM%</command>
+        <platform>switch</platform>
+        <theme>switch</theme>
+    </system>
+```
+run --branch=stable --arch=x86_64 --command=ryujinx-wrapper --file-forwarding io.github.ryubing.Ryujinx 
+
+<entry>/var/lib/flatpak/exports/bin/org.ryujinx.Ryujinx</entry>
+<entry>~/.local/share/flatpak/exports/bin/org.ryujinx.Ryujinx</entry>

@@ -114,9 +114,11 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
 
 2. **Modify the command labels values:**
 
-- Point it towards the `%EMULATOR_FLATPAKSPAWN% --host` system.
-- Add the real path of the external emulator (check the .desktop files on your system to see where they are pointing).
-- Change the label="" so it ends with (External) or any other name you want.
+Point it towards the `%EMULATOR_FLATPAKSPAWN% --host` system.
+
+Add the real path of the external emulator (check the .desktop files on your system to see where they are pointing).
+
+Change the label="" so it ends with (External) or any other name you want.
 
 **Examples and results:**
 

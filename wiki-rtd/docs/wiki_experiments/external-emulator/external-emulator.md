@@ -121,11 +121,11 @@ Copy & paste:
 
 **Dolphin Installed as an Native Application:**
 
-<command label="Dolphin (External Native)"> %EMULATOR_HOST% --host /usr/bin/dolphin-emu -b -e %ROM% </command>
+`<command label="Dolphin (External Native)"> %EMULATOR_HOST% --host /usr/bin/dolphin-emu -b -e %ROM% </command>`
 
 **Dolphin Installed as an Flatpak Application:**
 
-<command label="Dolphin (External Flatpak)"> %EMULATOR_HOST% --host flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu -b -e %ROM% </command>
+`<command label="Dolphin (External Flatpak)"> %EMULATOR_HOST% --host flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu -b -e %ROM% </command>`
 
 **Combined Results:** 
 

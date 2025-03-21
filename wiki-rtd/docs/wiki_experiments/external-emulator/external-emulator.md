@@ -21,9 +21,9 @@ Your system will be cluttered, and you will be bound by each emulator's defaults
 
 **There is no good reason to launch external emulators via RetroDECK**
 
-You can simply install ES-DE from their website and install the emulators as normal, running just ES-DE. 
+Instead, you can install ES-DE from their website and set up the emulators as usual. 
 
-The files `es_find_rules.xml` `es_systems.xml` you are editing will also be overwritten when RetroDECK updates, so you will need to update them over the updates with your changes.
+Note that the `es_find_rules.xml` and `es_systems.xml` files you are editing will be overwritten when RetroDECK updates, so you'll need to reapply your changes after each update.
 
 
 ### Disclaimer on Experiments 
@@ -51,11 +51,9 @@ We also recommend that you add RetroDECK to Steam to utilize Steam Input if you 
 
 ## Folder Structure
 
-Depending how you installed RetroDECK the Flatpak paths are different.
+The Flatpak paths for RetroDECK vary based on how you installed it. You can install it as either a system or user application.
 
-You can either install it as a system or user application.
-
-**Note:** If you have installed RetroDECK as a system application you will need increased privileges to edit the files.
+**Note:**  If you installed RetroDECK as a system application, you will need increased privileges to edit the files.
 
 
 | Type    | Folder                 |          Comment     | 
@@ -67,36 +65,32 @@ You can either install it as a system or user application.
 
 **Edit the es_find_rules.xml**
 
-1. Go to the ES-DE Linux Folder via the path above (depending how you installed RetroDECK). 
+1. Go to the ES-DE Linux Folder via the path above (depending on how you installed RetroDECK).
 
 2. Find and open `es_find_rules.xml`.
 
 3. Edit `es_find_rules.xml`:
-
-At the end of file but before </ruleList> end add a new emulator `FLATPAKSPAWN`:
-
-Copy & paste:
-
-```
-<emulator name="FLATPAKSPAWN">
-    <rule type="systempath">
-        <entry>flatpak-spawn</entry>
-    </rule>
-</emulator>
-```
-
+    - At the end of the file but before `</ruleList>`, add a new system `FLATPAKSPAWN`:
+    - Copy & paste:
+      ```
+      <emulator name="FLATPAKSPAWN">
+          <rule type="systempath">
+              <entry>flatpak-spawn</entry>
+          </rule>
+      </emulator>
+      ```
 4. Save and close the file.
+
 
 ## How-to: Edit es_systems.xml file
 
 ### Step One: Open es_systems.xml
 
-1. Go to the ES-DE Linux Folder via the path above (depending how you installed RetroDECK). 
+1. Go to the ES-DE Linux Folder via the path above (depending on how you installed RetroDECK).
 
 2. Find and open `es_systems.xml`.
 
-3. Search for and find the system entry you want to add and external system to. 
-
+3. Search for and find the system entry you want to add an external system to.
 
 **Example:** GameCube
 
@@ -158,9 +152,10 @@ Copy & paste:
 
 **Note:** If you make an error, close RetroDECK before editing the `es_find_rules.xml` or `es_systems.xml` files. Save the files and relaunch RetroDECK, as the files are loaded when the application starts.
 
-1. Save the file and launch RetroDECK.
+1. Save and close the files.
 
-2. Set the alternative emulators to one of your new entries. They should appear in the Alternative Emulators Menu for each game or system.
+2. Launch RetroDECK.
 
-3. If everything is correct, the game should launch with the External System.
+3. Set the alternative emulators to one of your new entries. They should appear in the Alternative Emulators Menu for each game or system.
 
+4. If everything is correct, the game should launch with the External System. You will need to manually configure it, considering all the drawbacks listed.

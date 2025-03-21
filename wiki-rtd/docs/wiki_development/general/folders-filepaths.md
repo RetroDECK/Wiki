@@ -6,7 +6,7 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| RetroDECK Folder |`retrodeck/` |   Dynamic path, Contains userdata: `roms`, `bios` etc...    |  
+| RetroDECK Userdata Folder |`retrodeck/` |   Dynamic path, Contains userdata: `roms`, `bios` etc...    |  
 | Flatpak Folder |`~/.var/app/net.retrodeck.retrodeck` |  contains: `cache` `config` and `data`     |  
 | Flatpak Cache Folder |`~/.var/app/net.retrodeck.retrodeck/cache/` |  cache files and temp data   |  
 | Flatpak Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/` | configuration files for various systems    |  

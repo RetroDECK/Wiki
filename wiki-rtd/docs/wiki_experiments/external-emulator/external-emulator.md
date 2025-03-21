@@ -84,7 +84,7 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
 
 ## How-to: Edit es_systems.xml file
 
-### Step One: Open es_systems.xml
+### Step 1: Open es_systems.xml
 
 1. Go to the ES-DE Linux Folder via the path above (depending on how you installed RetroDECK).
 
@@ -109,7 +109,7 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
     </system>
 ```
 
-### Step Two: Modify es_systems.xml
+### Step 2: Modify es_systems.xml
 
 1. Copy and paste one of <command label=> entries and add one or more additional entries.
 
@@ -148,7 +148,7 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
     </system>
 ```
 
-### Step Three: Save and Launch
+### Step 3: Save and Launch
 
 **Note:** If you make an error, close RetroDECK before editing the `es_find_rules.xml` or `es_systems.xml` files. Save the files and relaunch RetroDECK, as the files are loaded when the application starts.
 

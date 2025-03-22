@@ -1,5 +1,7 @@
 # Launching External Emulator 
 
+<img src="../dolphin-result.png" width="800">
+
 This experiment was initiated by the user **TopHatCat** and later expanded upon by the RetroDECK Team. **TopHatCats** goal was to explore the possibility of launching games against external Emulators from within RetroDECK (limited to the systems ES-DE supports). 
 
 **However, doing this defeats the entire purpose of RetroDECK** 
@@ -69,6 +71,7 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
 2. Find and open `es_find_rules.xml`.
 
 3. Edit `es_find_rules.xml`:
+
     - At the end of the file but before `</ruleList>`, add a new system `FLATPAKSPAWN`:
     - Copy & paste:
       ```
@@ -112,25 +115,51 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
 
 1. Copy and paste one of <command label=> entries and add one or more additional entries.
 
-2. **Modify the command labels values:**
+2. Modify the command labels values:
 
-Point it towards the `%EMULATOR_FLATPAKSPAWN% --host` system.
+    - Point it towards the `%EMULATOR_FLATPAKSPAWN% --host` system.
+    - Add the `Launch Command` of the external emulator (check How-to). 
+    - Change the label="" so it ends with (External) or any other name you want.
+    
+3. Save and close the file.
 
-Add the real path of the external emulator (check the .desktop files on your system to see where they are pointing).
+##### How-to: Finding the Launch Command
 
-Change the label="" so it ends with (External) or any other name you want.
+<img src="../dolphin-emu-flatpak.png" width="800">
 
-**Examples and results:**
+**Note:** This was done in KDE.
 
-#### Dolphin (Native Application)
+The easiest way is just to:
 
-`<command label="Dolphin (External Native)"> %EMULATOR_HOST% --host /usr/bin/dolphin-emu -b -e %ROM% </command>`
+- Open the `Application Launcher Menu` (Start Menu).
+- `Right Click` in on the Application in the `Application Launcher Menu` and press `Edit Application`.
+- `Command-line arguments` should contain the `Launch Command`.
 
-#### Dolphin (Flatpak Application)
+#### Examples & Results
 
-`<command label="Dolphin (External Flatpak)"> %EMULATOR_HOST% --host flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu -b -e %ROM% </command>`
 
-#### Combined Results
+
+**Dolphin (Native Application)**
+
+- Launch Command: `/usr/bin/dolphin-emu`
+
+New command label: 
+
+`<command label="Dolphin (External Native)"> %EMULATOR_FLATPAKSPAWN% --host /usr/bin/dolphin-emu -b -e %ROM% </command>`
+
+**Dolphin (Flatpak Application)**
+
+- You need to add `flatpak` infront of `run` in the `Launch Command`.
+
+- Launch Command: `flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu`
+
+New command label:  
+
+`<command label="Dolphin (External Flatpak)"> %EMULATOR_FLATPAKSPAWN% --host flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu -b -e %ROM% </command>`
+
+
+
+**Combined Results**
 
 ```
     <system>
@@ -141,22 +170,22 @@ Change the label="" so it ends with (External) or any other name you want.
         <command label="Dolphin (Standalone)">%INJECT%=%BASENAME%.esprefix %EMULATOR_DOLPHIN% -b -e %ROM%</command>
         <command label="Dolphin">%EMULATOR_RETROARCH% -L %CORE_RETROARCH%/dolphin_libretro.so %ROM%</command>
         <command label="PrimeHack (Standalone)">%INJECT%=%BASENAME%.esprefix %EMULATOR_PRIMEHACK% -b -e %ROM%</command>
-        <command label="Dolphin (External Flatpak)"> %EMULATOR_HOST% --host flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu -b -e %ROM% </command>
-        <command label="Dolphin (External Native)"> %EMULATOR_HOST% --host /usr/bin/dolphin-emu -b -e %ROM% </command>
+        <command label="Dolphin (External Flatpak)"> %EMULATOR_FLATPAKSPAWN% --host flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu -b -e %ROM% </command>
+        <command label="Dolphin (External Native)"> %EMULATOR_FLATPAKSPAWN% --host /usr/bin/dolphin-emu -b -e %ROM% </command>
         <!-- <command label="Triforce (Standalone)">%INJECT%=%BASENAME%.esprefix %EMULATOR_TRIFORCE% -b -e %ROM%</command> -->
         <platform>gc</platform>
         <theme>gc</theme>
     </system>
 ```
 
-### Step 3: Save and Launch
+### Step 3: Launch RetroDECK
 
 **Note:** If you make an error, close RetroDECK before editing the `es_find_rules.xml` or `es_systems.xml` files. Save the files and relaunch RetroDECK, as the files are loaded when the application starts.
 
-1. Save and close the files.
+1. Launch RetroDECK.
 
-2. Launch RetroDECK.
+2. Check the [ES-DE Frontend: General Guide](../../wiki_system_guides/es-de/esde-guide.md) on How-to set alternative emulators either per game or per system.
 
-3. Set the alternative emulators to one of your new entries. They should appear in the Alternative Emulators Menu for each game or system.
+3. If everything is correct, the game should launch with the External System. You will need to manually configure it, considering all the drawbacks listed.
 
-4. If everything is correct, the game should launch with the External System. You will need to manually configure it, considering all the drawbacks listed.
+

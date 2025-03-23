@@ -47,22 +47,22 @@ Games marked as favorites in ES-DE (with a ⭐ or another icon depending on them
 
 ### Step 1: Mark games as ⭐ favorites in ES-DE
 
-<img src="../../../wiki_images/systems/srm/es-de-favorite.png" width="800">
+<img src="../es-de-favorite.png" width="800">
 
 Navigate to a game in ES-DE and press the `north button` to mark it as a favorite. This corresponds to the `Y` button on Xbox, the `Triangle` button on PlayStation, and the `X` button on Nintendo.
 
 ### Step 2: Enable in Configurator
 
-<img src="../../../wiki_images/systems/srm/sync-config.png" width="800">
+<img src="../sync-config.png" width="800">
 
-<img src="../../../wiki_images/systems/srm/sync-prompt.png" width="800">
+<img src="../sync-prompt.png" width="800">
 
 
 Enable the Steam Sync feature inside the Configurator by pressing `Yes`.
 
 ### Step 3: Exit RetroDECK to start the Sync
 
-<img src="../../../wiki_images/systems/srm/sync-loading.png" width="800">
+<img src="../sync-loading.png" width="800">
 
 
 **Note:** This process might take a while based on your hardware and game library size.
@@ -81,7 +81,7 @@ On a PC, simply `Exit Steam` and relaunch it as usual.
 
 ### Step 5: Results
 
-<img src="../../../wiki_images/systems/srm/steam-burger.png" width="800">
+<img src="../steam-burger.png" width="800">
 
 If everything went correctly, the games should now be added to Steam.
 
@@ -97,7 +97,7 @@ This will also remove your favorites from Steam.
 
 ## How to add RetroDECK doom files using Steam Sync - Grid and Tear Project
 
-<img src="../../../wiki_images/systems/srm/brutaldoom.png" width="800">
+<img src="../brutaldoom.png" width="800">
 
 [SteamGridDB: Grid and Tear](https://www.steamgriddb.com/projects/grid-and-tear) is a project for adding art for various doom mods. 
 
@@ -124,7 +124,7 @@ The file in this case is called `Brutal Doom.doom`.
 
 ## Can I do advanced tweaking in SRM?
 
-<img src="../../../wiki_images/systems/srm/srm-window.png" width="800">
+<img src="../srm-window.png" width="800">
 
 Yes, you can open the entire SRM interface from the Configurator. You can tweak it as much as you like.
 

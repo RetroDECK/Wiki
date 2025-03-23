@@ -39,7 +39,7 @@ Check the [PortMaster Games List](https://portmaster.games/games.html) for detai
 
 ## How-to launch PortMaster?
 
-<img src="../../../wiki_images/systems/portmaster/pm-mainwindow.png" width="800">
+<img src="../pm-mainwindow.png" width="800">
 
 You go into the PortMaster menu in ES-DE and Open `PortMaster`. 
 
@@ -67,7 +67,7 @@ Yes, the PortMaster team is continuously updating the Ports list. As the applica
 
 ## How-to: Add PortMaster Games to RetroDECK
 
-<img src="../../../wiki_images/systems/portmaster/pm-banana.png" width="800">
+<img src="../pm-banana.png" width="800">
 
 Open `PortMaster` -> `All Ports` and choose the port you want to install (some ports might require additional files).
 
@@ -77,7 +77,7 @@ After you have downloaded the games you want to play exit PortMaster.
 
 In the ES-DE Frontend go to the Utilities Menu
 
-<img src="../../../wiki_images/systems/portmaster/pm-rescan.png" width="800">
+<img src="../pm-rescan.png" width="800">
 
 <img src="../../../wiki_images/esde/esde-utilities.png" width="800">
 

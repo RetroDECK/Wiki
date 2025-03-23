@@ -69,7 +69,7 @@ This step is only needed if you installed the profiles. If you missed installing
 
 ## Other Tips
 
-- Explore our other software recommendations for the Steam Deck: [Steam Deck: Software Recommendations](../../wiki_devices/steamdeck/steamdeck-software.md).
+- Explore our: [Software Recommendations](../../wiki_management/software-recommendations.md).
 - Check various optional optimizations that can make some systems run even better: [Steam Deck: Optimizations](../../wiki_devices/steamdeck/steamdeck-optimize.md).
 - Check on: [How-to: Update RetroDECK](../../wiki_management/retrodeck-update.md). 
 - If you no longer want RetroDECK, you can find the removal guide at: [How-to: Remove RetroDECK](../../wiki_management/retrodeck-remove.md). 

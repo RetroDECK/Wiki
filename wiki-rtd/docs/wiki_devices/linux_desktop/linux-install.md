@@ -55,6 +55,7 @@ Run the following command:
 
 ## Other Tips
 
+- Explore our: [Software Recommendations](../../wiki_management/software-recommendations.md).
 - Check on: [How-to: Update RetroDECK](../../wiki_management/retrodeck-update.md). 
 - If you no longer want RetroDECK, you can find the removal guide at: [How-to: Remove RetroDECK](../../wiki_management/retrodeck-remove.md). 
 

@@ -22,7 +22,7 @@ Type, `flatpak update -y` to update all installed flatpaks.
 
 If you have Decky installed and the AutoFlatpaks plugin, you can update RetroDECK from there via `Game Mode`.
 
-Read more here: [Steam Deck: Software Recommendations](../wiki_devices/steamdeck/steamdeck-software.md).
+Read more here: [Software Recommendations](../wiki_management/software-recommendations.md).
 
 ## Questions
 

@@ -116,12 +116,10 @@ nav:
 
     - Steam Deck - Installation: wiki_devices/steamdeck/steamdeck-start.md
     - Steam Deck - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
-    - Steam Deck - Recommended Software: wiki_devices/steamdeck/steamdeck-software.md
 
   - Guides - Linux Desktop 🐧:
 
     - Linux - Installation: wiki_devices/linux_desktop/linux-install.md
-    - Linux - Recommended Software: wiki_devices/linux_desktop/linux-software.md
 
   - Guides - Engines  🛠️:
 
@@ -202,6 +200,10 @@ nav:
 
     - Ponzu 🍶:
       - Ponzu - General Guide: wiki_system_guides/ponzu/ponzu-guide.md
+
+  - Other Guides 💭:
+
+    - Software Recommendations: wiki_management/software-recommendations.md
 
   - Experiments ⚗️:
 

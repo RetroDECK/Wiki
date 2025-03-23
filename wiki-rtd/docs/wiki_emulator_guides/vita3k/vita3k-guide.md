@@ -92,7 +92,7 @@ Install the patches and DLC the same way as the game by repeating Step 1 to 1b f
 
 <img src="../../../wiki_images/emulators/vita3k/vita3k-titleid.png">
 
-In the Vita3K interface the third colum you can see the Title ID of the game you just installed. 
+In the Vita3K interface the third colum you can see the `Title_ID` of the game you just installed. 
 
 You can also check [Vita3K Game Compatibility and ID List](https://vita3k.org/compatibility.html?lang=en).
 
@@ -100,9 +100,8 @@ In our example we find out that the Title ID of `OutWipe 4820` is `PCSF00007`
 
 ### Step 3: Create the .psvita file
 
-- The `.psvita` file starts as a empty textfile that needs to be created in roms folder `retrodeck/roms/psvita/`
-- Name the file `<gamename>.psvita`
-- In our example the file will be called `OutWipe 4820.psvita`
+- The `.psvita` file starts as a empty text file that needs to be created in roms folder `retrodeck/roms/psvita/`
+- Name the file `GameNameHere.psvita` -> In our example the file will be called `OutWipe 4820.psvita`
 
 The end result should look like:
 
@@ -110,8 +109,9 @@ The end result should look like:
 
 ### Step 4: Open the pstvita file and add the Title ID
 
-Open up the empty `OutWipe 4820.psvita` file and just type in the `<Title_ID>` in the first row of the file and save, in this example you enter `PCSF00007`.<br>
-Make sure you don't add any spaces or linebreaks and the file should just contain the word `PCSF00007`.
+Open up the empty `OutWipe 4820.psvita` file with the text editor and just type in the `Title_ID` in the first row of the file and save, in this example you enter `PCSF00007`.
+
+Make sure you don't add any spaces or line-breaks and the file should just contain the word `PCSF00007`.
 
 ### Step 5: The game should now run
 

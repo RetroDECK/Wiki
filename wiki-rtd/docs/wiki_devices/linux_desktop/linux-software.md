@@ -1,4 +1,4 @@
-# Linux Desktop - Recommended Software
+# Linux Desktop - Recommended Software & Tips
 
 <img src="../../../wiki_icons/pixelitos/linux.png" width="75">
 
@@ -12,7 +12,7 @@ The following software might enhance your RetroDECK or general gaming experience
 
 [Flips](https://flathub.org/apps/details/com.github.Alcaro.Flips)
 
-Flips lets you patch romhacks IPS & BPS files onto the rom files.
+Floating IPS (or Flips) is a patcher for IPS and BPS files, aiming for a simple interface yet plenty of power under the hood. 
 
 ### JRomManager
 
@@ -20,15 +20,15 @@ Flips lets you patch romhacks IPS & BPS files onto the rom files.
 
 [JRomManager](https://flathub.org/apps/details/com.github.optyfr.JRomManager)
 
-A MAME and retro gaming rom manager that allows you to manage and verify your roms via .dat files.
+A Rom Manager written in java that allows you to manage and verify your roms via .dat files.
 
-### ROMM
+### RomM
 
 <img src="../../../wiki_images/logos/romm-logo.svg" width="50">
 
 [ROMM](https://github.com/rommapp/romm)
 
-RomM is a game library roms manager focused on retro gaming. Manage and organize all your games from a web browser.
+RomM (ROM Manager) allows you to scan, enrich, browse and play your game collection with a clean and responsive interface. With support for multiple platforms, various naming schemes, and custom tags, RomM is a must-have for anyone who plays on emulators.
 
 ## Games
 
@@ -46,7 +46,7 @@ RomM is a game library roms manager focused on retro gaming. Manage and organize
 
 The lists contains different open-source video games and commercial video games open-source remakes.
 
-### Prism Launcher
+### Prism Launcher (Minecraft)
 
 <img src="../../../wiki_images/logos/prismlauncher-logo.png" width="50">
 
@@ -54,7 +54,7 @@ The lists contains different open-source video games and commercial video games 
 
 Prism Launcher is a custom client for Minecraft Java that allows you to easily manage multiple different installations of Minecraft at once and features easy mod management.
 
-### Minecraft Bedrock Launcher - mcpelauncher
+### mcpelauncher (Minecraft Bedrock)
 
 <img src="../../../wiki_images/logos/mcpelauncher-logo.webp" width="50"> 
 

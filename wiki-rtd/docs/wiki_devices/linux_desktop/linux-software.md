@@ -104,18 +104,15 @@ Minigalaxy is a simple GOG client for Linux. It lets you download, install, and 
 
 [Heroic Games Launcher](https://flathub.org/apps/com.heroicgameslauncher.hgl)
 
-Heroic is an open-source games launcher. It supports launching games from the Epic Games Store, GOG, and Amazon Games.
+Heroic is an Open Source Games Launcher. Right now it supports launching games from the Epic Games Store using Legendary, GOG Games using our custom implementation with gogdl and Amazon Games using Nile.
 
 
 ### itch
 
 <img src="../../../wiki_images/logos/itchio-logo.png" width="50">
 
-The itch.io app, itch, lets you effortlessly download and run games and software from itch.io. All of your downloads are kept in a single place and are automatically updated. 
-
+The unofficial itch.io app, itch, lets you effortlessly download and run games and software from itch.io. All of your downloads are kept in a single place and are automatically updated. 
 Access your collections and purchases, or browse for new games via the in-app browser. 
-
-**NOTICE:** This package is not verified by, affiliated with, or supported by itch.io. 
 
 ### Bottles
 

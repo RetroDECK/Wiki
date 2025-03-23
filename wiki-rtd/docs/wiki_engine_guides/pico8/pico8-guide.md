@@ -54,7 +54,7 @@ It should look like:
 
 ## How to download the games?
 
-<img src="../../../wiki_images/engines/pico-8/pico-8-vampire.png" width="600">
+<img src="../pico-8-vampire.png" width="600">
 
 1. Go to [Pico-8 Carts](https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2).
 2. Go to a game page.

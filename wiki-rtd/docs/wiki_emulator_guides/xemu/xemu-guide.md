@@ -60,7 +60,7 @@ Directly into the folder
 
 ## Guide - Enable Multiplayer 
 
-<img src="../../../wiki_images/emulators/xemu/xemu-input-menu.png" width="600">
+<img src="../xemu-input-menu.png" width="600">
 
 1. Open `RetroDECK Configurator` -> `xemu`
 2. Navigate to `Machine` -> `Settings` -> `Input`

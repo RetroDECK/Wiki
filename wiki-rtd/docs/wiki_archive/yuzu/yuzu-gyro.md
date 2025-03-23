@@ -65,7 +65,7 @@ Open the `RetroDECK Configurator` and launch Yuzu from: `Main Menu` - `RetroDECK
 
 **In Yuzu:**
 
-<img src="../../../wiki_images/emulators/yuzu/yuzu-controls.png" width="600">
+<img src="../yuzu-controls.png" width="600">
 
 Go to: `Emulation` - `Configure` - `Controls`
 
@@ -77,7 +77,7 @@ Make sure that the `Motion` is checked in the bottom left and click the `Configu
 
 ### Step 5: Test and Configure Motion
 
-<img src="../../../wiki_images/emulators/yuzu/yuzu-motion-configure.png" width="600">
+<img src="../yuzu-motion-configure.png" width="600">
 
 Make sure that the localhost IP-adress and port exists on the left side of the menu.
 
@@ -95,13 +95,13 @@ If all has gone well, you will get a message saying:
 
 ### Step 6: Go back to Controls and press the motion button
 
-<img src="../../../wiki_images/emulators/yuzu/yuzu-hidden-motion.png" width="600">
+<img src="..yuzu-hidden-motion.png" width="600">
 
 Go back to `Controls`
 
 Now you need to press the `Motion` button and `Shake the Steam Deck` to bind the motion.
 
-<img src="../../../wiki_images/emulators/yuzu/yuzu-gyro-box.png" width="600">
+<img src="..yuzu-gyro-box.png" width="600">
 
 If all is working correctly the tiny box in the middle of the controller should move with your built-in Gyro.
 

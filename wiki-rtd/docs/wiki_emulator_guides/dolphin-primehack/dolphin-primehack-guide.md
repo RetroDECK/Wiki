@@ -406,7 +406,7 @@ Some texture packs could made for a specific version or region of a game. Make s
 
 `GAME_ID` is different for every game.
 
-## Enable Custom Textures
+### Enable Custom Textures
 
 1. Open up Dolphin or Primehack inside `RetroDECK Configurator` by pressing `Open Emulator` - `Dolphin` / `Primehack`.
 2. Press `Options` -> `Graphic Settings`

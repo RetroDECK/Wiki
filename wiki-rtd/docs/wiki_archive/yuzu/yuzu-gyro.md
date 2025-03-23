@@ -1,4 +1,4 @@
-# How to enable Gyro working Gyro in Yuzu (Archive)
+# How-to: Enable Gyro working Gyro in Yuzu 
 
 ## Steam Deck with Gyro
 

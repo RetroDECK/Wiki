@@ -65,7 +65,7 @@ Often when a guide tells you to create an empty file, for example:
 - `.scumm`
 - `.m3u`
 
-**This was done in KDE**
+**Note:** This was done in KDE
 
 What you need to do is:
 

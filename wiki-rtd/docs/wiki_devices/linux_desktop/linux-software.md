@@ -178,7 +178,7 @@ Flatseal is a graphical utility to review and modify permissions from your Flatp
 
 ### Warehouse
 
-<img src="../../../wiki_images/logos/warehouse-logo.png" width="50">
+<img src="../../../wiki_images/logos/warehouse-logo.svg" width="50">
 
 [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)
 

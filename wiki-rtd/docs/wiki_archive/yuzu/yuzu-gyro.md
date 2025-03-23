@@ -95,13 +95,13 @@ If all has gone well, you will get a message saying:
 
 ### Step 6: Go back to Controls and press the motion button
 
-<img src="..yuzu-hidden-motion.png" width="600">
+<img src="../yuzu-hidden-motion.png" width="600">
 
 Go back to `Controls`
 
 Now you need to press the `Motion` button and `Shake the Steam Deck` to bind the motion.
 
-<img src="..yuzu-gyro-box.png" width="600">
+<img src="../yuzu-gyro-box.png" width="600">
 
 If all is working correctly the tiny box in the middle of the controller should move with your built-in Gyro.
 

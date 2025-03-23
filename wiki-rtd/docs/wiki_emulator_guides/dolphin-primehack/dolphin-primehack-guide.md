@@ -205,7 +205,7 @@ RetroDECK has a built-in hotkey for pressing the Dolphin `Sync Wiimote` button (
 
 ### Hardware Prerequisites
 
-<img src="../../../wiki_images/devices/wii-bar.png" width="150"> <img src="../bluetooth-dongle.png" width="80">
+<img src="../../../wiki_images/devices/wii-bar.png" width="150"> <img src="../../../wiki_images/devices/bluetooth-dongle.png" width="80">
 
 - A Wii Sensor Bar alternative (wireless or wired).
 - A Linux compatible Bluetooth dongle or built-in Bluetooth adapter.

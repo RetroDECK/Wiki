@@ -2,9 +2,46 @@
 
 <img src="../../../wiki_icons/pixelitos/linux.png" width="75">
 
-The following software might enhance your RetroDECK or general gaming experience on Linux.
+The following software might enhance your RetroDECK or general experience on Linux.
 
-## Emulation Management
+
+## Cleanup 
+
+### Flatsweep
+
+<img src="../../../wiki_images/logos/flatsweep-logo.svg" width="50">
+
+[Flatsweep](https://flathub.org/apps/io.github.giantpinkrobots.flatsweep)
+
+If you are using many flatpaks, they sometimes leave data behind. You can use Flatsweep to clean that from your system.
+
+### BleachBit
+
+<img src="../../../wiki_images/logos/bleachbit-logo.png" width="50">
+
+[BleachBit](https://flathub.org/apps/org.bleachbit.BleachBit)
+
+BleachBit quickly frees disk space and tirelessly guards your privacy. Free cache, delete cookies, clear Internet history, shred temporary files, delete logs, and discard junk you didn't know was there. It wipes clean a thousand applications including Firefox, Adobe Flash, Google Chrome, Opera, and more. 
+
+## Flatpak Mangement 
+
+### Flatseal
+
+<img src="../../../wiki_images/logos/flatseal-logo.svg" width="50">
+
+[Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)
+
+Flatseal is a graphical utility to review and modify permissions from your Flatpak applications.
+
+### Warehouse
+
+<img src="../../../wiki_images/logos/warehouse-logo.svg" width="50">
+
+[Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)
+
+Warehouse is a versatile toolbox and provides a simple UI to control complex Flatpak options, all without resorting to the command line.
+
+## Game & Emulation Management
 
 ### Flips
 
@@ -29,6 +66,23 @@ A Rom Manager written in java that allows you to manage and verify your roms via
 [RomM](https://github.com/rommapp/romm)
 
 RomM (ROM Manager) allows you to scan, enrich, browse and play your game collection with a clean and responsive interface. With support for multiple platforms, various naming schemes, and custom tags, RomM is a must-have for anyone who plays on emulators.
+
+### ProtonUp-Qt
+
+<img src="../../../wiki_images/logos/protonup-qt-logo.png" width="50">
+
+[ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2)
+
+Install and manage Wine- and Proton-based compatibility tools for Steam and Lutris with this graphical user interface. 
+
+### BoilR
+
+<img src="../../../wiki_images/logos/boilr-logo.png" width="50">
+
+[BoilR](https://flathub.org/apps/details/io.github.philipk.boilr)
+
+BoilR will show games from other game platforms in your Steam library. It uses the Steam 3rd party shortcuts feature and does not require you to set up anything. You can also use BoilR to download custom art manually and automatically from SteamGridDB (RetroDECK comes with built-in SRM  that has similar features).
+
 
 ## Games
 
@@ -140,7 +194,6 @@ Greenlight is an open-source client for xCloud and Xbox home streaming made in T
 
 Chiaki-NG is a Free and Open-Source Software Client for PlayStation 4 and PlayStation 5 Remote Play for Linux and other systems.
 
-
 ### Moonlight
 
 <img src="../../../wiki_images/logos/moonlight-logo.png" width="50">
@@ -164,57 +217,4 @@ Sunshine is a self-hosted game stream host for Moonlight. It offers low latency,
 [Steam Link](https://flathub.org/apps/com.valvesoftware.SteamLink)
 
 The Steam Link app allows you to stream games from your other computers. Just plug in a controller, connect to a computer running Steam on the same local network, and start playing your existing Steam games.
-
-
-## Flatpak Software
-
-### Flatseal
-
-<img src="../../../wiki_images/logos/flatseal-logo.svg" width="50">
-
-[Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)
-
-Flatseal is a graphical utility to review and modify permissions from your Flatpak applications.
-
-### Warehouse
-
-<img src="../../../wiki_images/logos/warehouse-logo.svg" width="50">
-
-[Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal)
-
-Warehouse is a versatile toolbox and provides a simple UI to control complex Flatpak options, all without resorting to the command line.
-
-### Flatsweep
-
-<img src="../../../wiki_images/logos/flatsweep-logo.svg" width="50">
-
-[Flatsweep](https://flathub.org/apps/io.github.giantpinkrobots.flatsweep)
-
-If you are using many flatpaks, they sometimes leave data behind. You can use Flatsweep to clean that from your system.
-
-## Other Software
-
-### ProtonUp-Qt
-
-<img src="../../../wiki_images/logos/protonup-qt-logo.png" width="50">
-
-[ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2)
-
-Install and manage Wine- and Proton-based compatibility tools for Steam and Lutris with this graphical user interface. 
-
-### BoilR
-
-<img src="../../../wiki_images/logos/boilr-logo.png" width="50">
-
-[BoilR](https://flathub.org/apps/details/io.github.philipk.boilr)
-
-BoilR will show games from other game platforms in your Steam library. It uses the Steam 3rd party shortcuts feature and does not require you to set up anything. You can also use BoilR to download custom art manually and automatically from SteamGridDB (RetroDECK comes with built-in SRM  that has similar features).
-
-### BleachBit
-
-<img src="../../../wiki_images/logos/bleachbit-logo.png" width="50">
-
-[BleachBit](https://flathub.org/apps/org.bleachbit.BleachBit)
-
-BleachBit quickly frees disk space and tirelessly guards your privacy. Free cache, delete cookies, clear Internet history, shred temporary files, delete logs, and discard junk you didn't know was there. It wipes clean a thousand applications including Firefox, Adobe Flash, Google Chrome, Opera, and more. 
 

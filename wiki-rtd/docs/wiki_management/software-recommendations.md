@@ -1,10 +1,12 @@
-# Recommended Software
+# Software Recommendations
 
 <img src="../../../wiki_icons/pixelitos/linux.png" width="75">
 
 The following software might enhance your RetroDECK or general experience on Linux.
 
-## Steam Deck - Software
+It is just a big list curated by the RetroDECK Team.
+
+## Steam Deck - Recommendations
 
 ### Decky Loader
 

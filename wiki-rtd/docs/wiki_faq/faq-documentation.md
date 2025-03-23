@@ -31,3 +31,19 @@ SA stands for Standalone, meaning the emulator is not a core inside RetroArch bu
 ## What does the CLI acronym mean?
 
 CLI stands for command-line interface and refers to commands you can run in the Linux Terminal.
+
+## When a guide tells me to create a .XYZ file what does that mean?
+
+Often when a guide tells you to create an empty file, for example:
+
+- `.ps3`
+- `.psvita`
+- `.scumm`
+- `.m3u`
+
+**Note:** This was done in KDE
+
+What you need to do is:
+
+1. `Right Click` -> `Create New` -> `Text File`
+2. Open and edit it with a text editor like: Kate, Kwrite, or the text editor of your choice.

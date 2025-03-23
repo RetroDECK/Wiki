@@ -55,19 +55,3 @@ If you've accidentally deleted folders (BIOS, Saves, etc.) under `retrodeck/`, y
 ## I have .bin + .cue files and the games shows up twice in ES-DE
 
 We recommend that you use the built-in compression tool in the configurator to compress the games into another format like `.chd`. You will only get one entry and you will also save space.
-
-## When a guide tells me to create a .XYZ file what does that mean?
-
-Often when a guide tells you to create an empty file, for example:
-
-- `.ps3`
-- `.psvita`
-- `.scumm`
-- `.m3u`
-
-**Note:** This was done in KDE
-
-What you need to do is:
-
-1. `Right Click` -> `Create New` -> `Text File`
-2. Open and edit it with a text editor like: Kate, Kwrite, or the text editor of your choice.

@@ -32,13 +32,19 @@ RomM is a game library roms manager focused on retro gaming. Manage and organize
 
 ## Games
 
-### The Open Source Games List
+### Open Source Games Lists
 
 <img src="../../../wiki_images/logos/open-source-logo.svg" width="50"> 
 
-[Open Source Games List](https://github.com/bobeff/open-source-games)
+- [bobeff: Open Source Games List](https://github.com/bobeff/open-source-games)
+- [leereilly: Games on GithHub](https://github.com/leereilly/games) 
+- [radek-sprta: Awesome Game Remakes](https://github.com/radek-sprta/awesome-game-remakes) 
+- [Open source games list (OSGL)](https://trilarion.github.io/opensourcegames)
+- [LibreGameWiki](https://libregamewiki.org/Main_Page) 
+- [Open Source Game Clones](https://osgameclones.com/) 
+- [WikiPedia: Open Source Games](https://en.wikipedia.org/wiki/List_of_open-source_video_games) 
 
-This is a list of different open-source video games and commercial video games open-source remakes.
+The lists contains different open-source video games and commercial video games open-source remakes.
 
 ### Prism Launcher
 

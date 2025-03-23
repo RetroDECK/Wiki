@@ -70,4 +70,4 @@ Often when a guide tells you to create an empty file, for example:
 What you need to do is:
 
 1. `Right Click` -> `Create New` -> `Text File`
-2. Open and edit it with a text editor like Kate, Kwrite, or the text editor of your choice.
+2. Open and edit it with a text editor like: Kate, Kwrite, or the text editor of your choice.

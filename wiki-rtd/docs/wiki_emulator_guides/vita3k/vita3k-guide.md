@@ -70,13 +70,14 @@ They need to be installed by pressing `File - Install Licence` then either `Sele
 
 **Example:** <br>
 
-In this example we got a game we want to add: `OutWipe 4820`
+In this guide will have an example fake game we want to add: `OutWipe 4820`.
 
 ### Step 1: Install the Game
 
-Open the Vita3K emulator via Configurator and press `File` and either `Install .pkg` or `Install .zip, .vpk` depending on what game file you have.
+1. Open the Vita3K emulator via Configurator
+2. Press `File` and either: `Install .pkg` or `Install .zip, .vpk` (depending on what game file you have).
 
-In our example `OutWipe 4820` is a `.pkg` file so we chose the `Install .pkg` option and navigate to the file to install it.
+In our example `OutWipe 4820` is a `.pkg` file so we chose the `Install .pkg` option and navigate to where we have the file on the system to install it.
 
 #### Step 1b: Add Licences
 
@@ -88,11 +89,11 @@ Either add the `.bin` or `.rif` files or input the `zRif` key in the prompt.
 
 Install the patches and DLC the same way as the game by repeating Step 1 to 1b for the filetype the patch/DLC is in `pkg`, `zip`, `vpk`.
 
-### Step 2: How-to: Get the Title_ID
+### Step 2: How-to: Get the Title ID
 
-<img src="../../../wiki_images/emulators/vita3k/vita3k-titleid.png">
+<img src="../vita3k-titleid.png" width="800">
 
-In the Vita3K interface the third colum you can see the `Title_ID` of the game you just installed. 
+Inside the Vita3K interface the third column you can see the `Title ID` of the game you just installed. 
 
 This is unique to every game.
 
@@ -110,7 +111,7 @@ In our example we find out that the Title ID of `OutWipe 4820` is `PCSF00007`
 
 <img src="../psvita-kate.png" width="800">
 
-Open up the empty `OutWipe 4820.psvita` file with the text editor and just type in the `Title_ID` in the first row of the file and save, in this example you enter `PCSF00007`.
+Open up the empty `OutWipe 4820.psvita` file with the text editor and just type in the `Title ID` in the first row of the file and save, in this example you enter `PCSF00007`.
 
 Make sure you don't add any spaces or line-breaks and the file should just contain the word `PCSF00007`.
 

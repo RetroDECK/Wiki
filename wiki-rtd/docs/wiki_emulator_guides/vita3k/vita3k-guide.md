@@ -68,7 +68,7 @@ They need to be installed by pressing `File - Install Licence` then either `Sele
 
 ## How-to: Get games to show up inside RetroDECK
 
-**Example:** <br>
+**Example:**
 
 In this guide will have an example fake game we want to add: `OutWipe 4820`.
 
@@ -110,20 +110,24 @@ Another method is to check the: [Vita3K Game Compatibility and ID List](https://
 ### Step 3: Create the .psvita file
 
 1. Create a new empty `.psvita` file in `retrodeck/roms/psvita/` 
-2. Name it according to your game: `GameNameHere.psvita` (in our example the file will be called `OutWipe 4820.psvita`). 
-3. The end result should look like: `retrodeck/roms/psvita/OutWipe 4820.psvita`.
+2. Name it according to your game: `GameNameHere.psvita`, avoid using exotic characters like: `/ \ () [] < > , .`  etc..
+3. The end result should look like: `retrodeck/roms/psvita/GameNameHere.psvita`.
+
+
+**Example:**
+
+`retrodeck/roms/psvita/OutWipe 4820.psvita`.
 
 ### Step 4: Open the pstvita file and add the Title ID
-
-<img src="../psvita-kate.png" width="800">
-
 
 1. Open up the empty `GameNameHere.psvita` file with the text editor.
 2. Type in the `Title ID`the the first row. Make sure you don't add any spaces or line-breaks and the file should just contain the `Title ID`.
 
 **Example:**
 
-Open up the empty`OutWipe 4820.psvita` file with the text editor and just type in the `Title ID` in the first row of the file and save, in this example you enter `PCSF00007`.
+<img src="../psvita-kate.png" width="800">
+
+The `OutWipe 4820.psvita` file contains only the word: `PCSF00007` and nothing else.
 
 
 ### Step 5: Quit and Launch RetroDECK

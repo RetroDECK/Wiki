@@ -51,6 +51,8 @@ Create an empty file in the `Dragon Fantasy VII.m3u` folder with the same name a
 
 Open the `Dragon Fantasy VII.m3u` file with a text editor and write the filenames of all files in the folder, one per line and save.
 
+The file should have Unix line endings (LF), not Windows (CR+LF).
+
 **Result:**
 
 This shows the content of the`Dragon Fantasy VII.m3u` file:

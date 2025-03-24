@@ -4,32 +4,11 @@
 
 There are several ways to add RetroDECK to Steam. If you have the Flatpak version of Steam installed, you need to do some extra steps for everything to work.
 
-## Add with BoilR 
+## Built-in: RetroDECK to Steam
 
-<img src="../../wiki_images/logos/boilr-logo.png" width="50">
+Since version 0.9.1b RetroDECK has an option to add it to Steam with art via the Configurator or during first setup. 
 
-If you don't have  you can just install it from Flathub. BoilR will add RetroDECK to Steam (Flatpak or standard versions) and also add the Steam Grid art.
-
-On the Steam Deck do this in Desktop Mode-
-
-1. Close Steam completely.
-2. Open [BoilR](https://flathub.org/apps/io.github.philipk.boilr) (install it from Flathub if you don't have it).
-3. Make sure RetroDECK is marked in the Import Games section.
-4. Go to Settings, check Download Images, and enter your Authentication Key from SteamGridDB.
-5. Choose if you want animated images or other types of images.
-6. Go back to `Import Games` and press the `Import Button`.
-7. Close BoilR and open Steam. The RetroDECK entry should now be there.
-
-## Add Manually
-
-1. Open Steam.
-2. Go to the `Games` tab, press `Add non Steam game to My library`, and select RetroDECK from the list of installed applications.
-3. Visit SteamGridDB and manually download the art.
-4. Follow the guides on SteamGridDB to set up each art piece correctly.
-
-## Add Manually from SteamOS
-
-In SteamOS, you can just right-click on RetroDECK on the desktop, and you will have an option to add it to Steam.
+---
 
 ## Steam Flatpak Version
 
@@ -84,3 +63,36 @@ After adding RetroDECK to Steam, right-click on the RetroDECK entry and change t
 `--host flatpak run --branch=stable --arch=x86_64 net.retrodeck.retrodeck`
 
 This should now be enough for you to launch RetroDECK.
+
+--- 
+
+## Older Information
+
+
+### Add with BoilR 
+
+<img src="../../wiki_images/logos/boilr-logo.png" width="50">
+
+If you don't have  you can just install it from Flathub. BoilR will add RetroDECK to Steam (Flatpak or standard versions) and also add the Steam Grid art.
+
+On the Steam Deck do this in Desktop Mode-
+
+1. Close Steam completely.
+2. Open [BoilR](https://flathub.org/apps/io.github.philipk.boilr) (install it from Flathub if you don't have it).
+3. Make sure RetroDECK is marked in the Import Games section.
+4. Go to Settings, check Download Images, and enter your Authentication Key from SteamGridDB.
+5. Choose if you want animated images or other types of images.
+6. Go back to `Import Games` and press the `Import Button`.
+7. Close BoilR and open Steam. The RetroDECK entry should now be there.
+
+### Add Manually
+
+1. Open Steam.
+2. Go to the `Games` tab, press `Add non Steam game to My library`, and select RetroDECK from the list of installed applications.
+3. Visit SteamGridDB and manually download the art.
+4. Follow the guides on SteamGridDB to set up each art piece correctly.
+
+### Add Manually from SteamOS
+
+In SteamOS, you can just right-click on RetroDECK on the desktop, and you will have an option to add it to Steam.
+

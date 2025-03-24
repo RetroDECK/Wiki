@@ -38,19 +38,18 @@ We have seen some users having issues because they have bought scam cards, here 
 
 ## Quickstart Guide
 
-- Switch to `Desktop Mode`: Press the `Steam button` -> `Power` -> `Switch to Desktop`
-- Install RetroDECK: Open the Discover application and search for RetroDECK. Press the install button.
-- First-Time Setup: Launch RetroDECK from Discover or the KDE program menu under Games -> RetroDECK.
-- Choose where to create the main folder `retrodeck/`: `Internal Storage`, `SD Card` or `Custom Location`.
-- Install Steam Controller Templates: During installation, choose to install Steam Controller Templates for RetroDECK (this should be checked by default).
-- Add RetroDECK to Steam Library: In Steam desktop, go to the `Games` tab, press `Add non-Steam game to My library`, and select RetroDECK. If that doesn't work, right-click on the RetroDECK desktop icon and press `Add to Steam`.
-- **Optional** Get RetroDECK Steam Grid art and add it to your Steam library with BoilR, or add the art manually from [SteamgridDB](https://www.steamgriddb.com/search/grids?term=RetroDeck).
-- Add BIOS and ROMs: Put the BIOS files inside `retrodeck/bios/` and ROMs & game files inside `retrodeck/roms/`.
-- Switch back to `Game Mode`: Go to RetroDECK on the Steam Grid under `Library` -> `Non-Steam`.
--  Configure Controller Layouts: Add the RetroDECK: `Steam Deck - Neptune Official Template` under `🎮 Controller Settings` -> `Controller Layouts` -> `Templates`. Choose either the SIMPLE radial layout or FULL radial layout.
-- **Optional** If you have external controllers connected you can also apply those templates via `🎮 Controller Settings` -> `Controller Layouts` -> `Templates`. 
-- Read up on the [RetroDECK: Controller Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md)..
-- Launch RetroDECK and Enjoy!
+- **Switch to Desktop Mode**: Press the `Steam button` -> `Power` -> `Switch to Desktop`.
+- **Install RetroDECK**: Open the Discover application and search for RetroDECK. Press the install button.
+- **First-Time Setup**: Launch RetroDECK from Discover or the KDE program menu under Games -> RetroDECK.
+- **Choose where to create the main folder `retrodeck/`**: `Internal Storage`, `SD Card` or `Custom Location`.
+- **Install Steam Controller Templates**: During installation, choose to install Steam Controller Templates for RetroDECK (this should be checked by default).
+- **Add RetroDECK to Steam Library**: In Steam desktop, go to the `Games` tab, press `Add non-Steam game to My library`, and select RetroDECK. If that doesn't work, right-click on the RetroDECK desktop icon and press `Add to Steam`.
+- **Add BIOS and ROMs**: Put the BIOS files inside `retrodeck/bios/` and ROMs & game files inside `retrodeck/roms/`.
+- **Switch back to Game Mode**: Go to RetroDECK on the Steam Grid under `Library` -> `Non-Steam`.
+- **Configure Controller Layouts**: Add the RetroDECK: `Steam Deck - Neptune Official Template` under `🎮 Controller Settings` -> `Controller Layouts` -> `Templates`. Choose either the SIMPLE radial layout or FULL radial layout.
+- **Enable Templates Optional**: If you have external controllers connected you can also apply those templates via `🎮 Controller Settings` -> `Controller Layouts` -> `Templates`.
+- **Read up on the RetroDECK: Controller Hotkeys**:  [RetroDECK: Controller Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md).
+- **Launch RetroDECK and Enjoy!**
 
 ## Step-by-Step Guide to Install RetroDECK on the Steam Deck
 

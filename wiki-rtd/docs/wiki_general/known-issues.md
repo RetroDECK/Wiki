@@ -115,6 +115,15 @@ What follows is a list of known issues.
 
 **Solution:** Use the Reorder Controllers interface in Steam to switch between Player 1 and Player 2.
 
+
+### Desktop Layout conflict with Game Layout in Linux Desktop
+
+**Issue:** This issue is sometimes fixed by Valve, but we have seen it coming back. The root cause of it that the Desktop Layout somehow take preset over the Game Layout in Linux Desktop. Thus the inputs don't work or gets scrambled. 
+
+**Solution:** Disable Steam Input for the Desktop Layout in `Steam` -> `Settings` -> `Controller` -> `Desktop Layout` -> `Edit`.
+
+<img src="../../wiki_images/steam/steam-desktop-layout.png" width="600">
+
 ## Known Issues - Linux Desktop
 
 ### KDE Discover

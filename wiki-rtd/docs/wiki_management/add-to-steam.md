@@ -68,6 +68,7 @@ This should now be enough for you to launch RetroDECK.
 
 ## Older Information
 
+The following information could still provide useful if the built-in add to Steam  does not work.
 
 ### Add with BoilR 
 

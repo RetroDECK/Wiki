@@ -43,7 +43,7 @@ We have seen some users having issues because they have bought scam cards, here 
 - **First-Time Setup**: Launch RetroDECK from Discover or the KDE program menu under Games -> RetroDECK.
 - **Choose where to create the main folder `retrodeck/`**: `Internal Storage`, `SD Card` or `Custom Location`.
 - **Install Steam Controller Templates**: During installation, choose to install Steam Controller Templates for RetroDECK (this should be checked by default).
-- **Add RetroDECK to Steam Library**: In Steam desktop, go to the `Games` tab, press `Add non-Steam game to My library`, and select RetroDECK. If that doesn't work, right-click on the RetroDECK desktop icon and press `Add to Steam`.
+- **Add RetroDECK to Steam Library**: You will be prompted to Add RetroDECK to Steam, press `Yes`.
 - **Add BIOS and ROMs**: Put the BIOS files inside `retrodeck/bios/` and ROMs & game files inside `retrodeck/roms/`.
 - **Switch back to Game Mode**: Go to RetroDECK on the Steam Grid under `Library` -> `Non-Steam`.
 - **Configure Controller Layouts**: Add the RetroDECK: `Steam Deck - Neptune Official Template` under `🎮 Controller Settings` -> `Controller Layouts` -> `Templates`. Choose either the SIMPLE radial layout or FULL radial layout.
@@ -65,11 +65,11 @@ Put the Steam Deck into `Desktop Mode`:
 - Search for RetroDECK and press the install button.
 - After installation, launch RetroDECK from Discover or the KDE program menu under `Games` -> `RetroDECK`.
 - Follow the first-time setup instructions and choose where RetroDECK should create the `retrodeck/` folder: `Internal Storage`, `SD Card` or `Custom Location`.
-- During setup, choose to install `RetroDECK Steam Controller Profiles`s (highly recommended) and optional BIOS files.
+- During setup, choose to install `RetroDECK Steam Controller Profiles`.
 
 #### Step 3: Add to Steam & Add files
 
-- Read the guide on: [How-to: Add RetroDECK to Steam](../../wiki_management/add-to-steam.md). 
+- You will be prompted to Add RetroDECK to Steam, press `Yes`. 
 - Add BIOS and ROMs: Put the BIOS files inside `retrodeck/bios/` and ROMs & game files inside `retrodeck/roms/`. If you are unsure how to add ROMs and BIOS to RetroDECK [RetroDECK: Start Using](../../wiki_general/retrodeck-start.md).
 - After this, you can see RetroDECK in Steam Deck's `Game Mode` after returning from `Desktop Mode`.
 

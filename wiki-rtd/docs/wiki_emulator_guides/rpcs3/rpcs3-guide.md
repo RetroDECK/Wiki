@@ -83,7 +83,6 @@ There are two methods of adding the games. For more details read here: [ES-DE RP
 
 <img src="../rpcs3-create-shortcut.png" width="800">
 
-
 This method can be used for all types of rips/dumps, both directories and installed digital titles. It's the default method for RetroDECK.
 
 1. **Open RPCS3 via the Configurator:** Launch the RPCS3 emulator using the RetroDECK Configurator.
@@ -91,25 +90,28 @@ This method can be used for all types of rips/dumps, both directories and instal
 3. **Verify the game in RPCS3:** The game will now appear in the RPCS3 game list.
 4. **Create a desktop shortcut:** `Right-click` on the game in the RPCS3 game list, select `Manage Game`, and click on `Create Desktop Shortcut`.
 5. **Move the shortcut to the roms/ps3 folder:** This will create a shortcut to the game on your Desktop. Move that shortcut into the `retrodeck/roms/ps3` folder.
+6. **Launch RetroDECK:** The game will now show up in RetroDECK.
 
 ### Method 2: Folders as .ps3 files (not recommended)
 
 This method can only be used for folder type game dumps. To get the games to show up, you need to rename the folder to end with a `.ps3` file extension.
-
-#### Change the ES-DE Settings - RPCS3 Directory (Standalone)
 
 **Prerequisite:** You will need to change the ES-DE Settings from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)` in ES-DE.
 
 1. **Open RetroDECK and access ES-DE settings:** Launch RetroDECK and in the ES-DE Frontend, navigate to **ES-DE Configurations**.
 2. **Modify the PS3 emulator settings:** Go to **Other Settings**, select **Alternative Emulators**, and choose **PS3**.
 3. **Change the emulator type:** Change the value from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)`, and exit RetroDECK to save the changes.
+4. **Locate the game folder:** Go to the `retrodeck/roms/ps3` folder and place your folder dumps there.
+5. **Rename the folder:** Change the name of the folder so it ends with `.ps3`.
+6. **Launch RetroDECK:** The game will now show up in RetroDECK.
 
-#### Rename the folder .ps3
+**Example:** 
 
-1. **Locate the game folder:** Go to the `retrodeck/roms/ps3` folder and place your folder dumps there.
-2. **Rename the folder:** Change the name of the folder so it ends with `.ps3`.
+You have a folder dump of a Blu-ray PlayStation 3 game called Hockey World. 
 
-**Example:** You have a folder dump of a Blu-ray PlayStation 3 game called Hockey World. The folder is named `Hockey World`. To get it to show up, you need to rename it to `Hockey World.ps3`. The game will then appear in RetroDECK.
+The folder is named `Hockey World`. To get it to show up, you need to rename it to `Hockey World.ps3`. 
+
+The game will then appear in RetroDECK.
 
 
 ---
@@ -123,7 +125,7 @@ If you want to install some DLC or patch you can do that through RPCS3 itself.
 3. **Select the file to install:** In the file browser, navigate and select the file you want to install.
 4. **Launch the game:** The game can be launched via RetroDECK with patches and DLC already installed.
 
-### (OPTIONAL) How to include the DLC or PATCH in the main game files
+### (OPTIONAL) If you use .ps3 folders
 
 Some users may want to include their DLC or PATCH files inside the game folder for archiving purposes, or just to avoid having these contents spread in the RPCS3 filesystem. It's fully optional but to do so, follow these steps:
 

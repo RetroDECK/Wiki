@@ -417,7 +417,7 @@ The makers of Steam Rom Manger and SteamGridDB.
 
 ## Ruffle
 
-<img src="../../wiki_images/logos/ruffle-logo.png" width="75">
+<img src="../../wiki_images/logos/ruffle-logo.svg" width="75">
 
 ### Where to donate / support the project?
 

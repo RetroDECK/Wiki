@@ -221,6 +221,15 @@ Bottles lets you run Windows software on Linux, such as applications and games. 
 
 Prism Launcher is a custom client for Minecraft Java that allows you to easily manage multiple different installations of Minecraft at once and features easy mod management.
 
+#### Minecraft Java Flags & Optimizations
+
+[Minecraft Java Flags](https://github.com/Mukul1127/Minecraft-Java-Flags) 
+
+Mukul1127 has created a great GitHub page for various Java Flags and Optimizations on how to make your Minecraft Java experience more performanant. 
+
+These can be added to Prism Launcher or the Launcher of your choice.
+
+
 ### mcpelauncher (Minecraft Bedrock)
 
 <img src="../../wiki_images/logos/mcpelauncher-logo.webp" width="50"> 

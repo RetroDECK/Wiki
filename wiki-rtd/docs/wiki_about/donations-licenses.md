@@ -154,19 +154,23 @@ The world's first free and open-source PlayStation 3 emulator/debugger, written 
 
 [Alipay](https://rpcs3.net/alipay)
 
+---
+
 ## Duckstation
 
 <img src="../../wiki_images/logos/duckstation-logo.png" width="75">
 
 DuckStation is an simulator/emulator of the Sony PlayStation(TM) console, focusing on playability, speed, and long-term maintainability. The goal is to be as accurate as possible while maintaining performance suitable for low-end devices. "Hack" options are discouraged, the default configuration should support all playable games with only some of the enhancements having compatibility issues.
 
-#### Where to donate / support the project?
+### Where to donate / support the project?
 
 We have not found a donation link to this project at this time or the project does not support donations.
 
-#### Licenses
+### Licenses
 
 [Licenses](https://github.com/stenzek/duckstation/blob/master/LICENSE)
+
+---
 
 ## PPSSPP
 
@@ -180,6 +184,8 @@ PPSSPP can run your PSP games on your PC or Android phone in full HD resolution 
 ### Licenses
 [Licenses](https://github.com/hrydgard/ppsspp/blob/master/LICENSE.TXT)
 
+---
+
 ## PCSX2
 
 <img src="../../wiki_images/logos/pcsx2-logo.png" width="180">
@@ -192,6 +198,8 @@ PCSX2 is a free and open-source PlayStation 2 (PS2) emulator. Its purpose is to 
 
 ### Licenses
 [Licenses](https://github.com/PCSX2/pcsx2/blob/master/COPYING.GPLv3)
+
+---
 
 ## Vita3K
 
@@ -216,11 +224,14 @@ Vita3K is an experimental PlayStation Vita emulator for Windows, Linux, macOS an
 Dolphin is an emulator for two recent Nintendo video game consoles: the GameCube and the Wii. It allows PC gamers to enjoy games for these two consoles in full HD (1080p) with several enhancements: compatibility with all PC controllers, turbo speed, networked multiplayer, and even more!
 
 ### Where to donate / support the project?
+
 We have not found a donation link to this project at this time or the project does not support donations.
 
 ### Licenses
 
 [Licenses](https://github.com/dolphin-emu/dolphin/tree/master/LICENSES)
+
+---
 
 ## Primehack
 
@@ -235,6 +246,8 @@ We have not found a donation link to this project at this time or the project do
 ### Licenses
 
 [Licenses](https://github.com/Kekun/primehack/tree/master/LICENSES)
+
+---
 
 ## melonDS
 
@@ -251,6 +264,8 @@ melonDS aims at providing fast and accurate Nintendo DS emulation. While it is s
 ### Licenses
 
 [Licenses](https://github.com/melonDS-emu/melonDS/blob/master/LICENSE)
+
+---
 
 ## Cemu
 
@@ -284,6 +299,8 @@ Xenia is an experimental emulator for the Xbox 360.
 
 [Licenses](https://github.com/xenia-project/xenia/blob/master/LICENSE)
 
+---
+
 ## Xemu
 
 <img src="../../wiki_images/logos/xemu-logo.png" width="75">
@@ -315,6 +332,8 @@ We have not found a donation link to this project at this time or the project do
 
 [Licenses](https://github.com/DCurrent/openbor/blob/master/LICENSE)
 
+---
+
 ## GZDoom
 
 <img src="../../wiki_images/logos/gzdoom-logo.png" width="75">
@@ -327,6 +346,8 @@ We have not found a donation link to this project at this time or the project do
 
 ### Licenses
 [Licenses](https://github.com/ZDoom/gzdoom/blob/master/LICENSE)
+
+---
 
 ## ScummVM
 
@@ -344,6 +365,7 @@ ScummVM allows you to play classic graphic point-and-click adventure games, text
 
 [Licenses](https://github.com/scummvm/scummvm/blob/master/COPYING)
 
+---
 
 ## Solarus
 
@@ -358,6 +380,8 @@ Solarus is a free and open-source 2D game engine written in C++, that can run ga
 ### Licenses
 
 [Licenses](https://gitlab.com/solarus-games/solarus/-/blob/dev/license.txt)
+
+---
 
 ## IKEMEN Go
 
@@ -379,6 +403,8 @@ We have not found a donation link to this project at this time or the project do
 
 <img src="../../wiki_images/logos/srm-logo.png" width="75">
 
+The makers of Steam Rom Manger and SteamGridDB.
+
 ### Where to donate / support the project?
 
 [Patreon](https://www.patreon.com/steamgriddb) 
@@ -388,6 +414,35 @@ We have not found a donation link to this project at this time or the project do
 [Licenses](https://github.com/SteamGridDB/steam-rom-manager?tab=GPL-3.0-1-ov-file#readme)
 
 ---
+
+## Ruffle
+
+<img src="../../wiki_images/logos/ruffle-logo.png" width="75">
+
+### Where to donate / support the project?
+
+[opencollective](https://opencollective.com/ruffle) 
+
+### Licenses
+
+[Licenses](https://github.com/ruffle-rs/ruffle/blob/master/LICENSE.md)
+
+---
+
+## Wine
+
+<img src="../../wiki_images/logos/wine-logo.png" width="75">
+
+### Where to donate / support the project?
+
+[Wine Development Fund](https://www.winehq.org/donate) 
+
+### Licenses
+
+[Licenses](https://gitlab.winehq.org/wine)
+
+---
+
 
 
 ## Art and Assets
@@ -447,13 +502,19 @@ CC0
 
 [Tiltes Supplemental](https://opengameart.org/content/dungeon-crawl-32x32-tiles-supplemental)
 
+---
+
 ### Freedoom
 
 [Licenses](https://github.com/freedoom/freedoom?tab=License-1-ov-file)
 
+---
+
 ### Capsimg
 
 [Licenses](https://github.com/rsn8887/capsimg/blob/master/LICENCE.txt)
+
+---
 
 ### BoilR
 
@@ -461,18 +522,27 @@ CC0
 
 [Licenses](https://github.com/PhilipK/BoilR/blob/main/LICENSE-MIT.txt)
 
+---
+
 ### Lutris
 
 [Licenses](https://github.com/lutris/lutris/blob/master/LICENSE)
+
+
+---
 
 ### Pugsy's Cheats for MAME
 
 [mamecheat.co.uk](https://www.mamecheat.co.uk/)
 
+
+---
+
 ### Batocera
 
 [Licenses](https://github.com/batocera-linux/batocera.linux?tab=License-1-ov-file#readme)
 
+---
 
 ### Steam Deck & Steam Deck Logo
 
@@ -484,6 +554,15 @@ All trademarks, logos, controller images, and brand names are the property of th
 
 
 ---
+
+## Not yet Part of RetroDECK
+
+### mGBA
+
+#### Where to donate / support the project?
+
+[Patreon](https://www.patreon.com/mgba)
+
 
 ## Propriety / Closed Source Emulators
 

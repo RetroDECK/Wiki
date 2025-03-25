@@ -34,7 +34,7 @@ If you have installed RetroDECK from flathub as a User Application.
 | PortMaster Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/PortMaster/` |  Used by PortMaster  |  
 | Share Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` | Shared resources  | 
 | Tools Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/tools/` | Configurator and Wrapper  | 
-
+| .desktop Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/export/share/applications/` | .desktop files  | 
 
 ## RetroDECK installed as System Application
 
@@ -56,3 +56,6 @@ If you have installed RetroDECK from flathub as a System Application.
 | PortMaster Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/PortMaster/` |  Used by PortMaster  |  
 | Share Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` | Shared resources  | 
 | Tools Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` | Configurator and Wrapper  | 
+| .desktop Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/export/share/applications/` | .desktop files  | 
+
+

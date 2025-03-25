@@ -38,7 +38,7 @@ If you have installed RetroDECK from flathub as a User Application.
 | Controller Configs Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/controller_configs/` | Steam Input Templates  | 
 | Helper Files Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/helper_files/` | Helper Text Files  | 
 | Presets Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/presets/` | Presets Files  | 
-| Reference Lists Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/reference_lists/` | Various lists  | 
+| Reference Lists Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/reference_lists/` | Various lists `bios.json` `features.json`   | 
 
 
 
@@ -66,7 +66,7 @@ If you have installed RetroDECK from flathub as a System Application.
 | Controller Configs Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/controller_configs/` | Steam Input Templates  | 
 | Helper Files Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/helper_files/` | Helper Text Files  | 
 | Presets Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/presets/` | Presets Files  | 
-| Reference Lists Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/reference_lists/` | Various lists  | 
+| Reference Lists Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/reference_lists/` | Various lists `bios.json` `features.json`  | 
 
 ## Steam Folder structure
 

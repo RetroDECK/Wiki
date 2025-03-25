@@ -35,6 +35,12 @@ If you have installed RetroDECK from flathub as a User Application.
 | Share Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` | Shared resources  | 
 | Tools Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/tools/` | Configurator and Wrapper  | 
 | .desktop Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/export/share/applications/` | .desktop files  | 
+| Controller Configs Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/controller_configs/` | Steam Input Templates  | 
+| Helper Files Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/helper_files/` | Helper Text Files  | 
+| Presets Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/presets/` | Presets Files  | 
+| Reference Lists Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/reference_lists/` | Various lists  | 
+
+
 
 ## RetroDECK installed as System Application
 
@@ -56,6 +62,16 @@ If you have installed RetroDECK from flathub as a System Application.
 | PortMaster Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/PortMaster/` |  Used by PortMaster  |  
 | Share Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` | Shared resources  | 
 | Tools Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` | Configurator and Wrapper  | 
-| .desktop Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/export/share/applications/` | .desktop files  | 
+| .desktop Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/controller_configs/` | .desktop files  | 
+| Controller Configs Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/controller_configs/` | Steam Input Templates  | 
+| Helper Files Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/helper_files/` | Helper Text Files  | 
+| Presets Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/presets/` | Presets Files  | 
+| Reference Lists Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/reference_lists/` | Various lists  | 
 
+## Steam Folder structure
 
+| Type    | Folder                 | Comment     | 
+|  :---:  | :---:                  | :---:     |
+| Steam Default Templates Folder |`~/.steam/steam/controller_base/templates/` |        RetroDECK injects Steam Input Templates here                   |  
+| Application Templates Folder |`~/.steam/steam/steamapps/common/Steam Controller Configs/<AppID>/config/retrodeck/` | Temporary changes are stored here if the user makes them|
+| Steam Binding Icons Folder |`~/.steam/steam/tenfoot/resource/images/library/controller/binding_icons/` |               etroDECK injects Steam Input Templates here                        |  

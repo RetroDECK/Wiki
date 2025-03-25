@@ -28,7 +28,7 @@ If you have installed RetroDECK from flathub as a User Application.
 | bin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Mapped to /app/bin inside the flatpak. Contains: wrappers, scripts, retrodeck.sh and more |  
 | lib Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` | Libraries |  
 | libexec Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | Various script functions like post_update.sh |  
-| retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | contains various extra files and features like icons, the system config files  |  
+| retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | `retrodeck.cfg`  `net.retrodeck.retrodeck.mime.xml` `retrodeck-mimetype.xml` |  
 | binding_icons Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/binding_icons/` |  Steam: Radial Icons  |  
 | steam_grid Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/steam_grid/` |   Steam: Grid Art |  
 | PortMaster Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/PortMaster/` |  Used by PortMaster  |  
@@ -55,7 +55,7 @@ If you have installed RetroDECK from flathub as a System Application.
 | SRM Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/srm/` | Used by Steam Rom Manager |  
 | bin Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Mapped to /app/bin inside the flatpak. Contains: wrappers, scripts, retrodeck.sh and more |  
 | lib Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` | Libraries |  
-| libexec Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | Various script functions like post_update.sh |  
+| libexec Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | `retrodeck.cfg`  `net.retrodeck.retrodeck.mime.xml` `retrodeck-mimetype.xml` |  
 | retrodeck Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | contains various extra files and features like icons, the system config files  |  
 | binding_icons Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/binding_icons/` |  Steam: Radial Icons  |  
 | steam_grid Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/steam_grid/` |   Steam: Grid Art |  

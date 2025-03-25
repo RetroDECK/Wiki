@@ -58,9 +58,9 @@ We have added an **Experiments** ⚗️ section to the wiki. This section showca
 
 ### murkl's experiment - Launching Desktop Apps with RetroDECK
 
-Community member **murkl** showcased that if you break the RetroDECK sandbox, you can use the `retrodeck/roms/windows/` folder to launch full Desktop Apps via RetroDECK.
+Community members **murkl** and **Daeymon** showcased that if you break the RetroDECK sandbox, you can use the `retrodeck/roms/windows/` folder to launch full Desktop Apps via RetroDECK.
 
-**murkl** together with the RetroDECK Team wrote a guide:
+**murkl** and **Daeymon** together with the RetroDECK Team wrote a guide:
 
 [Launching Desktop Games & Apps with RetroDECK](https://retrodeck.readthedocs.io/en/latest/wiki_experiments/desktop-launch/desktop-launch/)
 

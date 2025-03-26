@@ -114,7 +114,7 @@ The COD 360 Lobby Gamer
 
 - Will spend most of the time screaming loudly.
 - Suck at games.
-- When confronted will be talking about depraved things he will do to your mom (this is the true Retro Experience). 
+- When confronted will be talking about all the depraved things he will do to your mom.
 
 #### The Ghost of Mourning
 

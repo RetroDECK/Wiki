@@ -1,7 +1,8 @@
 # Sibling Controllers
 
-Sibling Controllers is a broad category that encompasses some parts of the third-party controller space. <br>
-They are often controllers that are unconformable to hold, break easy or just look weird. <br>
+Sibling Controllers is a broad category that encompasses some parts of the third-party controller space. 
+They are often controllers that are unconformable to hold, break easy or just look weird. 
+
 So, you passively aggressively hand them over to your sibling or friend to make sure you win all the games.
 
 ## PlayStation 2

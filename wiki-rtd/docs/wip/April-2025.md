@@ -20,7 +20,7 @@ Things are happening in the community.
 ---
 
 
-## Sibling Controllers
+## Sibling Controllers Returns
 
 By popular demand RetroDECK is once again opening the vault of the unknown category of controllers: Sibling Controllers.
 
@@ -39,13 +39,20 @@ We are proud to introduce the next big feature of RetroDECK:
 
 **AI Powered Gameplay Assist and Voice Reaction** 
 
-Connect RetroDECK to your favorite local or cloud native generative AI solutions. Have several character profiles to choose from that will talk to you, assist and comment on your gameplay no matter what the game.
+Connect RetroDECK to your favorite local or cloud native generative AI solutions. 
+
+We have several built-in  character profiles to choose from that will talk to you, assist and comment on your gameplay no matter what the game.
+
+The future is now!
 
 ### Character Profiles
 
+Here is a tiny selection of all the characters we will offer. 
+
 #### Raid Leader
 
-The Raid Leader will do quick comments and remarks that you can only get better no matter what to do, like a real old school Raid Leader. 
+The Raid Leader will do quick passive aggressive comments and remarks about your gameplay because you are not playing it perfectly. But in truth you can never be perfect and thus you are in for a constant torrent of remarks / comments and the feeling of being constantly degraded (just like a real Raid Leader).
+
 
 **When you are playing:** 
 
@@ -55,11 +62,10 @@ The Raid Leader will do quick comments and remarks that you can only get better 
 
 #### Drunk Hunter
 
-The Drunk Hunter only communicates in semi drunken grunts, hisses, random words, sounds of pouring glasses, opening cans and keyboard noises. 
+The Drunk Hunter only communicates in semi drunken grunts, hisses, random words, sounds of pouring glasses, opening cans and keyboard noises. The drunken hunter will assist your gameplay like a auto player or aimbot, playing at your game at a scaling level. 
 
 **When you are playing:** 
 
-The drunken hunter will assist your gameplay like a auto player or aimbot, playing at your game at an scaling level. 
 
 - **Level 1**: The assist starts slow at first playing at an average level until about 1.30 hours in. You will hear the sounds of cans opening and glasses being poured.
 

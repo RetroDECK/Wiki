@@ -122,7 +122,7 @@ The Ghost of Mourning offers sudden whispers of ghostly haunting greeting phrase
 
 This AI character simulates the feeling of the dread, loss and loneliness of the player that still is always looking and yearning endlessly in vein for his long dead guild/clan/group/team have ceased to exist over a more then a decade ago.
 
-Every day he:
+Every day the ghost:
 
 - Keeps logging in everyday to the game itself.
 - Keeps logging in everyday to the old empty communication server (Ventrilo, TeamSpeak, Mumble, etc..).

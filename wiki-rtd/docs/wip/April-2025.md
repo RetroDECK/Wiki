@@ -10,8 +10,8 @@ Things are happening in the community.
 
 ## Highlights
 
-- Sibiling Controllers Returns
-- AI Powered Game Play Assist and Voice Simulation.
+- Sibling Controllers
+- AI Powered Gameplay Assist and Voice Reaction  
 
 
 
@@ -20,13 +20,16 @@ Things are happening in the community.
 ---
 
 
-## Sibiling Controllers
+## Sibling Controllers
 
+By popular demand RetroDECK is once again opening the vault of the unknown category of controllers: Sibling Controllers.
+
+The RetroDECK Team has been hard at work documenting and tracking down this elusive controller type.
 
 
 ---
 
-##  AI Powered Game Play Assist and Voice Simulation  
+##  AI Powered Gameplay Assist and Voice Reaction  
 
 Many of our users are looking to the past to escape the harsh realities of the modern world. 
 
@@ -34,7 +37,7 @@ But they are missing one key aspect of the retro experience truly authentic.
 
 We are proud to introduce the next big feature of RetroDECK:
 
-**AI Powered Game Play Assist and Voice Simulation** 
+**AI Powered Gameplay Assist and Voice Reaction** 
 
 Connect RetroDECK to your favorite local or cloud native generative AI solutions. Have several character profiles to choose from that will talk to you, assist and comment on your gameplay no matter what the game.
 
@@ -112,6 +115,12 @@ The Bigger Sibling operates under special guidelines.
 The COD 360 Lobby Gamer brings you all the best experiences from early online console gaming.
 
 **When you are playing:** 
+
+The COD 360 Lobby Gamer 
+
+- Will spend most of the time screaming loudly.
+- Suck at games.
+- When confronted will be talking about depraved things he will do to your mom (this is the true Retro Experience). 
 
 #### Ventrilo Squad
 

@@ -64,12 +64,11 @@ The Drunk Hunter only communicates in semi drunken grunts, hisses, random words,
 
 #### Bigger Sibling
 
-#### Xbox 360: Xbox Live - COD Lobby Gamer
+#### Xbox Live - COD 360 Lobby Gamer
 
 #### Steam - The Lost Gamer
 
-
-#### PlayStation 3: PSN - Connection Chaos
+#### PSN - PS3 Connection Chaos Gamer
 
 ---
 

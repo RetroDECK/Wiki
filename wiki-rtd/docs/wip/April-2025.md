@@ -120,12 +120,14 @@ The COD 360 Lobby Gamer
 
 The Ghost of Mourning offers sudden whispers of ghostly haunting greeting phrases not related to your gameplay before going silent again. 
 
-This AI character simulates the feeling of the dread, loss and loneliness of the player that still to this day
+This AI character simulates the feeling of the dread, loss and loneliness of the player that still is always looking and yearning endlessly in vein for his long dead guild/clan/group/team have ceased to exist over a more then a decade ago.
+
+Every day he:
 
 - Keeps logging in everyday to the game itself.
 - Keeps logging in everyday to the old empty communication server (Ventrilo, TeamSpeak, Mumble, etc..).
 
-Always looking and yearning endlessly in vein for his long dead guild/clan/group/team have ceased to exist over a more then a decade ago. Stuck in forever in a endless perpetual login torment.
+Stuck in forever in a endless perpetual login torment.
 
 **When you are playing:** 
 
@@ -135,9 +137,10 @@ As you are playing, in certain days you will see hear an simulated social login 
 - "Hey, long time no see" 
 - "Wow this place is totally empty"
 - "Good to you again!"
+- "I got purples / diamonds / kill streak last night!"
 - "Do you remember when we did this the raid / tournament / build / match together, those where the days"
 
-Before you can even say a word back, the disconnect sound is played and it is once again silent for days.
+Before you can even say a word back... the disconnect sound is played and it is once again silent for days.
 
 ##### The Trauma Center
 
@@ -147,7 +150,7 @@ The RetroDECK Team have created a 🏥-trauma-center channel on the Discord that
 
 **One user**: I still see her everytime I login right there in my friends list on Steam. Been offline for 13 years, my brain tells me... I need to remove this dead account. But everytime I move the cursor I just can't... I need that avatar still in my life. "PEELSSSSS HERE FOREVER OMEGAKILLER9999".
 
-**Another**: We where building blocks, I was making a train station and TheDuckMan0910 was making a stupid statue in the middle of the road, blocking everything in sight and polluting the landscape, like an eye sour. But the TheDuckMan0910 never returned after the last nightly logout. His stupid statue still stands in the middle of the landscape never to be touched but as a monument to all the diamonds we got in the end.
+**Another**: We where building blocks, I was making a train station and TheDuckMan0910 was making a stupid statue in the middle of the road, blocking everything in sight and polluting the landscape, like an eyesore. But the TheDuckMan0910 never returned after the last nightly logout. His stupid statue still stands in the middle of the landscape never to be touched but as a monument to all the diamonds we got in the end. I miss that stupid man of a duck...
 
 **Another One**: WHERE THE BOYS AT?!...Where the boys?... Boys?... :(
 

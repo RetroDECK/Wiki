@@ -44,7 +44,9 @@ Connect RetroDECK to your favorite local or cloud native generative AI solutions
 
 The Raid Leader will do quick comments and remarks that you can only get better no matter what to do. 
 
-**When you are playing:** He will constantly remind you that you are playing at below-shit-tier-level and each time you do the slightest misstep he will go into rage mode and reduce your DKP by at least 50. 
+**When you are playing:** 
+
+He will constantly remind you that you are playing at below-shit-tier-level and each time you do the slightest misstep he will go into rage mode and reduce your DKP by at least 50. 
 
 #### Drunk Hunter
 
@@ -78,7 +80,28 @@ Before you can even say a word back, the disconnect sound is played and it is on
 
 #### Bigger Sibling
 
+The Bigger Sibling will join you in multiplayer as the second player.
 
+**When you are playing:** 
+
+The Bigger Sibling operates under special guidelines. 
+
+**If you are playing a PVP game:**
+
+- The bigger sibling will always pick the most cheesy and broken character. 
+- If the most cheesy and broken character is taken, he/she will call your parents.
+
+
+**If you are playing a CO-OP game:**
+
+- The bigger sibling will always pick the most cheesy and broken character if there is one. 
+- If there is some cooperative puzzle like grabbing you and taking your over an edge, the sibling will always drop you two to five times first on purpse with an annoying laughter.
+- If you are in a obstacle course and needs to jump over pits, the bigger sibling will auto adapt and try to block your path so you fall into the pit in about 50% of the time.
+    - If you are blocking your sibling and pushing him/her into pits, he/she will call your parents.
+
+**If parents are called:**
+    
+- If the parents are called, they will ask you both to go to your room and RetroDECK will shutdown automatically and abruptly, all progress will be lost.
 
 #### Xbox Live - COD 360 Lobby Gamer
 

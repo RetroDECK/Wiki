@@ -99,7 +99,7 @@ The Bigger Sibling operates under special guidelines.
 - If you are in a obstacle course and needs to jump over pits, the bigger sibling will auto adapt and try to block your path so you fall into the pit in about 50% of the time.
     - If you are blocking your sibling and pushing him/her into pits, he/she will call your parents.
 
-**If parents are called:**
+**What happens if the parents are called?**
     
 - If the parents are called, they will ask you both to go to your room and RetroDECK will shutdown automatically and abruptly, all progress will be lost.
 

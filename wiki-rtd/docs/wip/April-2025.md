@@ -71,13 +71,19 @@ The Drunk Hunter only communicates in semi drunken grunts, hisses, random words,
 
 - **Level 2**: Between 1.31 hours to 2.30 hours, you will have perfect gameplay with the with the sound of him rolling his head all over the the keyboard back and forth for maximum gameplay DPS.
 
-- **Level 3**: Post the 2.31 hours mark, the AI assist will collapse and keep failing with the sounds of random drunk noises, mentioning of something called Aimed Shot and dropping things on the floor.
+- **Level 3**: Post the 2.31 hours mark, the AI assist will collapse and keep failing the slightest tasks accompanied by: 
 
-#### Depression Guild / Clan
+    - The sounds of random drunk noises.
+    - Drunk mentioning of something called Aimed Shot.
+    - The sounds dropping things on the floor and broken glass.
 
-The Depression Guild / Clan offers sudden whispers of ghostly haunting greeting phrases not related to your gameplay before going silent. 
+#### Depression Guild / Clan / Group
 
-This AI simulates the feeling of the player that still to this day keeps logging in to the empty old TeamSpeak server and the game itself everyday, always looking endlessly for his guild/clain that ceased to exist over a more then a decade ago. Stuck in perpetual guild torment, like a ghost in his/her former shell. 
+The Depression Guild / Clan / Group offers sudden whispers of ghostly haunting greeting phrases not related to your gameplay before going silent. 
+
+This AI simulates the feeling of the player that still to this day keeps logging in to the empty old communication server (Ventrilo, TeamSpeak, Mumble, etc..) and the game itself everyday always looking endlessly in vein for his guild/clan/group that ceased to exist over a more then a decade ago. 
+
+Stuck in an perpetual login torment without an ending.
 
 **When you are playing:** 
 
@@ -86,9 +92,15 @@ As you are playing, in certain days you will see hear an simulated social login 
 - "Hey, are you playing?!" 
 - "Hey, long time no see" 
 - "Wow this place is totally empty"
-- "Do you remember when we did this the raid / tournament together, those where the days"
+- "Do you remember when we did this the raid / tournament / build / match together, those where the days"
 
 Before you can even say a word back, the disconnect sound is played and it is once again silent for days.
+
+**Disclaimer:** 
+
+As this character is the most traumatizing of all characters. The RetroDECK Team have created a 🏥-trauma-center channel on the Discord that will be populated by a vast network community none-experts experts and be a place where people can talk about their long lost Guild / Clan / Group.  
+----
+
 
 
 #### Bigger Sibling

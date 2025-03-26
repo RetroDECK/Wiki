@@ -66,17 +66,19 @@ This AI simulates the feeling of the player that still to this day keeps logging
 
 Always looking endlessly for his guild/clain that ceased to exist over a more then a decade ago.
 
-**When you are playing:** As you are playing, in certain days you will see hear an simulated social login sound and have different men and women whispers to you in this fashion: 
+**When you are playing:** As you are playing, in certain days you will see hear an simulated social login sound and have different people make ghostly whispers to you:
 
 - "Hey, are you playing?!" 
 - "Hey, long time no see" 
 - "Wow this place is totally empty"
-- "Do you remember when we did this XYZ together, those where the days"
+- "Do you remember when we did this the raid / tournament together, those where the days"
 
-Before you can even say a word back, the disconnect sound and it is once again silent for days.
+Before you can even say a word back, the disconnect sound is played and it is once again silent for days.
 
 
 #### Bigger Sibling
+
+
 
 #### Xbox Live - COD 360 Lobby Gamer
 

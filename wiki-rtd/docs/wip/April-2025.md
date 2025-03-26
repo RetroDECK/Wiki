@@ -40,13 +40,13 @@ Connect RetroDECK to your favorite local or cloud native generative AI solutions
 
 ### Character Profiles
 
-#### World of Warcraft - Raid Leader
+#### Raid Leader
 
 The Raid Leader will do quick comments and remarks that you can only get better no matter what to do. 
 
 **When you are playing:** He will constantly remind you that you are playing at below-shit-tier-level and each time you do the slightest misstep he will go into rage mode and reduce your DKP by at least 50. 
 
-#### World of Warcraft - Drunk Hunter
+#### Drunk Hunter
 
 The Drunk Hunter only communicates in semi drunken grunts, hisses, random words, sounds of pouring glasses, opening cans and keyboard noises. 
 

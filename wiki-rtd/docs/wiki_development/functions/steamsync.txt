@@ -1,0 +1,9 @@
+Assuming this isn't the first time Steam Sync has been run, the process is:
+Look through all gamelists and build a full list of all favorites in all systems
+Build a JSON object for each favorite, which prepares to make a shortcut in Steam with the command "flatpak run net.retrodeck.retrodeck -s <system> <game path>" which leverages the new RetroDECK option to launch a ROM directly.
+Write these JSON objects to a new temporary file
+Check the new temporary file vs the existing favorites manifest. If different, continue, if the same, nothing has changed and can stop.
+If files are different, find out if the original has entries the new one does not (meaning a favorite was removed). If so, build another temporary manifest of only games that were removed from favorites.
+Load "removed games" manifest and run SRM to remove only those shortcuts.
+Load new favorites list manifest and run SRM to add those shortcuts.
+Temporary new favorites list becomes current favorites manifest, all other temp files removed.

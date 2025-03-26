@@ -10,11 +10,9 @@ Things are happening in the community.
 
 ## Highlights
 
-- RetroDECK 0.9.1b was Released
-- Repair-Paths Tool
-- Experiments ⚗️ on the Wiki
-- murkl's experiment - Launching Desktop Apps with RetroDECK
-- Lahrs Folder Icon Packs
+- Sibiling Controllers Returns
+- AI Powered Game Play Assist and Voice Simulation.
+
 
 
 <!-- more -->
@@ -28,7 +26,7 @@ Things are happening in the community.
 
 ---
 
-## NEW - AI Powered Game Play Assist and Voice Simulation  
+##  AI Powered Game Play Assist and Voice Simulation  
 
 Many of our users are looking to the past to escape the harsh realities of the modern world. 
 
@@ -52,7 +50,7 @@ The Raid Leader will do quick comments and remarks that you can only get better 
 
 The Drunk Hunter only communicates in semi drunken grunts, hisses, random words, sounds of pouring glasses, opening cans and keyboard noises. 
 
-**When you are playing:** The drunken hunter will assist your gameplay, playing at scaling level. 
+**When you are playing:** The drunken hunter will assist your gameplay, playing at your game at an scaling level. 
 
 - **Level 1**: The assist starts slow at first playing at an average level until about 1.30 hours in. You will hear the sounds of cans opening and glasses being poured.
 
@@ -60,13 +58,27 @@ The Drunk Hunter only communicates in semi drunken grunts, hisses, random words,
 
 - **Level 3**: Post the 2.31 hours mark, the AI assist will collapse and keep failing with the sounds of random drunk noises and dropping things on the floor.
 
-#### World of Warcraft - Depression Guild
+#### Depression Guild / Clan
+
+The Depression Guild / Clan offers sudden whispers of ghostly haunting greeting phrases not related to your gameplay before going silent. 
+
+This AI simulates the feeling of the player that still to this day keeps logging in to the empty old TeamSpeak server and the game itself everyday. 
+
+Always looking endlessly for his guild/clain that ceased to exist over a more then a decade ago.
+
+**When you are playing:** As you are playing, in certain days you will see hear an simulated social login sound and have different men and women whispers to you in this fashion: 
+
+- "Hey, are you playing?!" 
+- "Hey, long time no see" 
+- "Wow this place is totally empty"
+- "Do you remember when we did this XYZ together, those where the days"
+
+Before you can even say a word back, the disconnect sound and it is once again silent for days.
+
 
 #### Bigger Sibling
 
 #### Xbox Live - COD 360 Lobby Gamer
-
-#### Steam - The Lost Gamer
 
 #### PSN - PS3 Connection Chaos Gamer
 

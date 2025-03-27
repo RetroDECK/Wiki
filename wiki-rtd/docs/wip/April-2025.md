@@ -153,7 +153,7 @@ Before you can even say a word back... the disconnect sound is played and it is 
 
 As The Ghost of Mourning is the most traumatizing of all characters. 
 
-The RetroDECK Team have created a `🏥-trauma-center channel` on the Discord that will be populated by a vast network community none-experts for it to be a place where people can talk about their long lost `Guild/Clan/Group/Team`. 
+The RetroDECK Team have created a `🏥-trauma-center` channel on the Discord that will be populated by a vast network community none-experts for it to be a place where people can talk about their long lost `Guild/Clan/Group/Team`. 
 
 **One user**: 
 

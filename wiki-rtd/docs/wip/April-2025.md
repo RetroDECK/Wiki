@@ -146,11 +146,14 @@ As you are playing, in certain days you will see hear an simulated social login 
 
 Before you can even say a word back... the disconnect sound is played and it is once again silent for days.
 
-##### The Trauma Center
+
+---
+
+### The Ghost of Mourning: Trauma Center
 
 As The Ghost of Mourning is the most traumatizing of all characters. 
 
-The RetroDECK Team have created a `🏥-trauma-center channel` on the Discord that will be populated by a vast network community none-experts for it to be a place where people can talk about their long lost Guild/Clan/Group/Team. 
+The RetroDECK Team have created a `🏥-trauma-center channel` on the Discord that will be populated by a vast network community none-experts for it to be a place where people can talk about their long lost `Guild/Clan/Group/Team`. 
 
 **One user**: 
 
@@ -160,7 +163,7 @@ I still see her everytime I login right there in my friends list on Steam.
 
 Been offline for 13 years, my brain tells me... I need to remove this dead account. 
 
-But everytime I move the cursor I just can't... I need that avatar still in my life. 
+But everytime I move the cursor... I just can't... I need that avatar still in my life. 
 
 PEELS HERE!! FOREVER... OMEGAKILLER9999.
 

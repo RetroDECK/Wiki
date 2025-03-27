@@ -154,9 +154,13 @@ As The Ghost of Mourning is the most traumatizing of all characters.
 
 The RetroDECK Team have created a `🏥-trauma-center` channel on the Discord that will be populated by a vast network community none-experts for it to be a place where people can talk about their long lost `Guild/Clan/Group/Team`. 
 
+We have gotten several touching stories such as:
+
+
+---
+
 **One user**: 
 
-```
 
 I still see her everytime I login right there in my friends list on Steam. 
 
@@ -166,11 +170,11 @@ But everytime I move the cursor... I just can't... I need that avatar still in m
 
 PEELS HERE!! FOREVER... OMEGAKILLER9999.
 
-```
+
+---
 
 **Another**: 
 
-```
 
 We where building blocks, I was making a train station and TheDuckMan0910 was making a stupid statue in the middle of the road, blocking everything in sight and polluting the landscape, like an eyesore. 
 
@@ -180,13 +184,13 @@ His stupid statue still stands in the middle of the landscape never to be touche
 
 I still miss that stupid man of a duck...
 
-```
+
+---
 
 **Another One**: 
 
-```
 
-"WHERE THE BOYS AT?!...
+WHERE THE BOYS AT?!...
 
 The boys?... 
 
@@ -194,7 +198,6 @@ Boys?...
 
 :(
 
-```
 
 ---
 

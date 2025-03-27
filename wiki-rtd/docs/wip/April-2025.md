@@ -30,7 +30,7 @@ The RetroDECK Team has been on an epic quest to document and track down these el
 ---
 
 
-# AI Powered Gameplay Assist and Voice Reaction
+## AI Powered Gameplay Assist and Voice Reaction
 
 Looking for a blast from the past to escape the modern world? We've got you covered!
 

@@ -124,14 +124,13 @@ The COD 360 Lobby Gamer will:
 
 The Ghost of Mourning offers sudden whispers of ghostly haunting greeting phrases not related to your gameplay before going silent again. 
 
-This AI character simulates the feeling of the dread, loss and loneliness of the player that still is always looking and yearning endlessly in vein for his long dead guild/clan/group/team have ceased to exist over a more then a decade ago.
+This AI character simulates the feeling of the dread, loss and loneliness of the player that still is always looking and yearning endlessly in vein for his long dead `guild/clan/group/team` have ceased to exist over a more then a decade ago.
 
 The person that:
 
 - Keeps logging in everyday to the game itself.
 - Keeps logging in everyday to the old empty communication server (Ventrilo, TeamSpeak, Mumble, etc..).
-
-Stuck in forever in a endless perpetual login torment.
+- Is forever stuck in a endless perpetual login torment like a modern day Sisyphus.
 
 **When you are playing:** 
 

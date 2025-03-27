@@ -1,19 +1,22 @@
 # Sibling Controllers
 
-Sibling Controllers is a broad category that encompasses some parts of the third-party controller space. 
-They are often controllers that are unconformable to hold, break easy or just look weird. 
+Ever had that one controller that feels like it was designed by a toddler? 
 
-So, you passively aggressively hand them over to your sibling or friend to make sure you win all the games.
+Welcome to the world of Sibling Controllers! 
+
+These gems are the ones you hand over to your sibling or friend when you want to win every game. 
 
 ## PlayStation 2
 
-The PS2 had a vast selection of sibling controllers
+The PS2 was a treasure trove of these hilarious disasters.
 
 ### MadCatz PS2
 
 <img src= "../madcatz-ps2.png" width="200">
 
-Famous for being the core example of what a sibling controller is. Breaks easily, is extremely uncomfortable and will increase your chances of winning by 50%.
+The legend of sibling controllers! Breaks if you look at it funny, feels like holding a cactus, and boosts your winning chances by 50%. 
+
+Perfect for sabotaging your sibling's gaming experience!
 
 ### NYKO iType 2
 
@@ -21,43 +24,48 @@ Famous for being the core example of what a sibling controller is. Breaks easily
 
 Your sibling likes to press all the buttons, all the time and keeps ruining all the good controllers! The NYKO iType 2 got you covered.
 
-It offers the perfect solution from saving your precious controllers from your siblings grubby little hands, there are so many options to press so he/she cannot break them all?! Right?! Please??!
+Got a sibling who loves mashing buttons and breaking your precious controllers? The NYKO iType 2 is your savior! With so many buttons to press, your sibling will be too busy to break them all... Right?! Please??!!
 
 ### NYKO Airflow 2
 
 <img src= "../nyko-wireless-back-ps2.png" width="200"> <img src= "../nyko-airflow-ps2.png" width="200">
 
-This is the perfect controller for that friend that just cannot stop talking when you play.
+Perfect for that chatty friend who won't stop talking during games.
 
-The extremely loud fan will dampen out any vocal annoyances and allow you to concentrate on winning Tekken Tag Tournament.
+The NYKO Airflow 2's built-in loud fan will drown out their voice, letting you focus on winning Tekken Tag Tournament.
+
 
 ### HyperMax 3
 
 <img src= "../hypermax3-ps2.png" width="200">
 
-This is the controller for the one person that everyone in the friend group hated except for your best friend. Because this person was his/her friend and a major annoyance to your perfect friendship dynamic.
+Got that one friend everyone secretly dislikes but has to invite because your mom said so? Hand them the HyperMax 3!
 
-When you told your mom you did not want to invite him/her you got sternly yelled at, and you got reminded that you need to invite everyone to play games, even the toxic people (thanks mom!).
+Even if you protested, your mom sternly reminded you to invite everyone to play games, even the annoying ones (thanks mom!).
 
-So as petty revenge you gave... Brad... this controller... good luck... Brad!
+So, as petty revenge, you handed that "friend" this controller. 
+
+Good luck, Brad!
 
 ### Samurai PS2
 
 <img src= "../samurai-ps2.png" width="200">
 
-One of your friends is extremely good at games and no matter what controller you throw at him/her...you lose. So, you gave him/her the most unconformable controller you could find... the Samurai. If that friend still won, you moved on to one of your ultimate weapons.
+Got a friend who's unbeatable no matter what controller they use? 
+
+Give them the Samurai PS2! It's the most uncomfortable controller you could find. 
+
+If they still win, it's time for the ultimate weapon...
 
 ### Resident Evil 4 - Chainsaw
 
 <img src= "../re4-chainsaw-ps2.png" width="200">
 
-You just lost to your friend again on using the Samurai PS2 controller, this time you will not loose... you gave him/her this the scion of ultimate uncomfortablility for the PS2. The Resident Evil 4 Chainsaw controller:
+Lost again with the Samurai PS2? Time to bring out the big guns – the Resident Evil 4 Chainsaw controller! 
 
-- It is big
-- It is bulky
-- It is unwieldy
+It's big, bulky, and unwieldy. 
 
-This time you will win for sure!
+This time, victory is yours for sure!
 
 ## Super Nintendo
 
@@ -65,7 +73,10 @@ This time you will win for sure!
 
 <img src= "../asciipad-snes.png" width="200">
 
-The Ascii Pad SNES is a bit unconformable but your sibling that was struggling in CO-OP games for the SNES needed a bit of a turbo boost... you would never use this kind of turbo controller against your sibling, right? To spam in Street Fighter 2??? RIGHT?!
+
+The Ascii Pad SNES is a bit uncomfortable, but your sibling struggling in CO-OP games needs a turbo boost. 
+
+You'd never use this turbo controller to spam in Street Fighter 2 against your sibling, right? RIGHT?!
 
 ## Xbox
 
@@ -73,14 +84,19 @@ The Ascii Pad SNES is a bit unconformable but your sibling that was struggling i
 
 <img src= "../gamemaster-fps-xbox.png" width="200">
 
-Well Brad... you say you are the BEST in the world at Halo and you keep repeating it over recess in school and will not just keep your mouth shut about it. Here you go, Brad... WIN WITH THIS!
+Brad, you claim to be the BEST at Halo and won't stop bragging about it. 
 
+WIN WITH THIS THEN!
+
+Here you go, Brad... 
 
 ### MadCatz Xbox
 
 <img src= "../madcatz-xbox.png" width="200">
 
-MadCatz took on the challenge of making an even more chungus version of OG Xbox Controller that also breaks easily, a perfect fit for your sibling with small hands.
+MadCatz made an even chunkier version of the OG Xbox Controller that breaks easily. 
+
+Perfect for your sibling with small hands.
 
 ## Nintendo 64
 
@@ -88,58 +104,65 @@ MadCatz took on the challenge of making an even more chungus version of OG Xbox 
 
 <img src= "../ultraracer-64.png" width="200">
 
-Your sibling told your dad that you took the last Mars bar from the candy drawer in the kitchen, when in fact it was your sibling that took it...
+Your sibling told your dad you took the last Mars bar, but it was actually them. 
 
-"OK...play with this from now on....  1 v 1, I'll be Oddjob as usual"".
+"OK... little bro/sis... you play with this from now on. 1 v 1 duel, I'll be Oddjob as usual."
 
 ### The Super Pad
 
 <img src= "../super-pad-n64.png" width="200">
 
-You really need to win this Ready 2 Rumble Boxing match against your sibling, the loser gets to clean the room... so you gave him / her this.
+You need to win this Ready 2 Rumble Boxing match against your sibling. 
+
+The loser cleans the room, so you gave them this controller
 
 ## GameCube
 
-GameCube had its fair share of controller but no one more legendary then
+GameCube had its fair share of sibling controllers, but none more legendary than...
 
 ### MadCatz GameCube
 
 <img src= "../madcatz-gc.png" width="200">
 
-This legendary controller has caused several family tragedies over the years.
 
-There you were, with your gameplan set and you only allowed your little sibling this awful and broken piece of controller while you were playing Smash.
+This legendary controller has caused several family tragedies over the years. 
 
-Everything was going well until that one day some years later your mom got you a second official GameCube controller for your sibling to use.
+You had your game plan set and only allowed your little sibling to use this awful, broken controller while you played Smash.
 
-You realized in horror of the monster you had created, like Goku from Dragonball that had rocks tied to his backs for years... you had unleashed a beast upon the world. Your sibling quickly decimated you in Smash with his/her ungodly skills using an official controller and quickly rose to fame in the Smash community beating everyone in local tournaments.
+Everything was going well until one day, years later, your mom got a second official GameCube controller for your sibling. 
 
-Now you sit here 20+ years later with chronic back pain, arthritis, and resentment of what you have created, pondering of those days of yore when you beat your sibling in Smash.
+You realized in horror the monster you had created. Like Goku training with weighted clothes, your sibling quickly decimated you in Smash with their ungodly skills using an official controller and rose to fame in the Smash community, beating everyone in local tournaments.
 
-You no longer speak to your sibling except for the mandatory yearly BBQ your father desperately hosts to keep the family together. Every time your sibling pulls up in your father's driveway with his/her new car filled to the brim with Smash trophies and victory money... all you can do is communicate with grunts and pain.
+Now, 20+ years later, you sit with chronic back pain, arthritis, and resentment, pondering those days when you beat your sibling in Smash. 
+
+You no longer speak to your sibling except for the mandatory yearly BBQ your father desperately hosts to keep the family together. 
+
+Every time your sibling pulls up in your father's driveway with their new car filled with Smash trophies and victory money, all you can do is communicate with grunts and pain.
 
 ## The Ultimate Sibling Controller
 
-There exists one controller on the market that had supreme reigned supreme several console generations. It still holds the throne to this day as the ultimate sibling controller, nothing can come close to claiming its throne.
+There exists one controller that has reigned supreme across several console generations. It still holds the throne as the ultimate sibling controller, and nothing can come close to claiming its title.
 
 ### Fisher Price: Laugh & Learn - Game Controller
 
 <img src= "../fisher-price-laugh-and-learn.png" width="200">
 
-Of all the controllers on this list, no one gives you as much power and joy as the Fisher Price: Laugh & Learn - Game Controller. This controller is in fact designed by the top engineers at Fisher Price to be a sibling controller.
+Of all the controllers on this list, none gives you as much power and joy as the Fisher Price: Laugh & Learn - Game Controller. 
+
+This controller is designed by the top engineers at Fisher Price to be the ultimate sibling controller.
 
 Can you believe the audacity?!
 
-They designed the entire product around the premise of playing pranks and tricking your younger siblings to think that they are “good gamers” and "gaming" with big brother / sister.
+They designed the entire product around the premise of playing pranks and tricking your younger siblings into thinking they are “good gamers” and "gaming" with big brother/sister.
 
 It is the ultimate sibling con, and nothing can ever top its place as the number one sibling controller of all time.
 
-
 "**Little Sis/Bro:** I am the best at this game!"
 
-"**You:** Sure...sure... little sis/bro you are the best at this game! (You are not even playing, MUHAHAHAHAHA!!!)"
+"**You:** Sure...sure... little sis/bro, you are the best at this game! (You are not even playing, MUHAHAHAHAHA!!!)"
 
+#### The Konami Code
 
-**Trivia:**
+<img src= "../konami-code.svg" width="200">
 
 Did you know that the Konami Code works on the Fisher Price: Laugh & Learn - Game Controller? It does!

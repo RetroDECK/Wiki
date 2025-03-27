@@ -145,15 +145,19 @@ I still see her everytime I login right there in my friends list on Steam.
 
 Been offline for 13 years, my brain tells me... I need to remove this dead account. 
 
-But everytime I move the cursor I just can't... I need that avatar still in my life. "PEELSSSSS HERE FOREVER OMEGAKILLER9999".
+But everytime I move the cursor I just can't... I need that avatar still in my life. 
+
+PEELS HERE!! FOREVER... OMEGAKILLER9999.
 
 **Another**: 
 
 We where building blocks, I was making a train station and TheDuckMan0910 was making a stupid statue in the middle of the road, blocking everything in sight and polluting the landscape, like an eyesore. 
 
-But the TheDuckMan0910 never returned after the last nightly logout. His stupid statue still stands in the middle of the landscape never to be touched but as a monument to all the diamonds we got in the end. 
+But the TheDuckMan0910 never returned. 
 
-I miss that stupid man of a duck...
+His stupid statue still stands in the middle of the landscape never to be touched but as a monument to all the diamonds we got in the end. 
+
+I still miss that stupid man of a duck...
 
 **Another One**: 
 
@@ -161,7 +165,9 @@ WHERE THE BOYS AT?!...
 
 The boys?... 
 
-Boys?... :(
+Boys?... 
+
+:(
 
 ---
 

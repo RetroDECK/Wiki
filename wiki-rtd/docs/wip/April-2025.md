@@ -48,6 +48,8 @@ The future is now!
 
 Here's a sneak peek at some of the characters we will offer:
 
+---
+
 #### Raid Leader
 
 The Raid Leader is here to make sure you never feel good about your gameplay. Expect quick, passive-aggressive comments and constant reminders that you're not perfect. Just like a real Raid Leader!
@@ -57,6 +59,8 @@ The Raid Leader is here to make sure you never feel good about your gameplay. Ex
 - The Raid Leader will constantly remind you that you're playing at a below-shit-tier level, no matter what you play or how you play.
 - The Raid Leader will inform you that the only way to get better is to quit your job, class, family, and friends and dedicate your entire life to the game.
 - Each time you make the slightest misstep, the Raid Leader will go into *rage mode*, cussing at you and reducing your DKP by at least 50 points (that's a lot of points).
+
+---
 
 #### Drunk Hunter
 
@@ -71,6 +75,9 @@ The Drunk Hunter only communicates in semi-drunken grunts, hisses, random words,
     - Drunk mentioning of something called Aimed Shot.
     - The sounds of dropping things on the floor and broken glass.
 
+---
+    
+    
 #### Bigger Sibling
 
 The Bigger Sibling will join you in multiplayer games as the second player.
@@ -95,17 +102,23 @@ The Bigger Sibling operates under special guidelines.
 
 - If the parents are called, they will ask you both to go to your room and RetroDECK will shut down automatically and abruptly, all progress will be lost.
 
+---
+
+
 #### COD 360 Lobby Gamer
 
 The COD 360 Lobby Gamer brings you all the best experiences from early online console gaming.
 
 **When you are playing:**
 
-The COD 360 Lobby Gamer:
+The COD 360 Lobby Gamer will:
 
-- Will spend most of the time screaming loudly.
-- Sucks at games.
+- Spend most of the time screaming loudly.
+- Will suck at games you throw at it.
 - When confronted, will talk about all the depraved things they will do to your mom.
+
+---
+
 
 #### The Ghost of Mourning
 

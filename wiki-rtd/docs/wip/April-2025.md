@@ -58,7 +58,7 @@ The Raid Leader is here to make sure you never feel good about your gameplay. Ex
 
 - The Raid Leader will constantly remind you that you're playing at a below-shit-tier level, no matter what you play or how you play.
 - The Raid Leader will inform you that the only way to get better is to quit your job, class, family, and friends and dedicate your entire life to the game.
-- Each time you make the slightest misstep, the Raid Leader will go into *rage mode*, cussing at you and reducing your DKP by at least 50 points (that's a lot of points).
+- Each time you make the slightest misstep, the Raid Leader will go into `rage mode`, cussing at you and reducing your DKP by at least 50 points (that's a lot of points).
 
 ---
 
@@ -68,9 +68,9 @@ The Drunk Hunter only communicates in semi-drunken grunts, hisses, random words,
 
 **When you are playing:**
 
-- **Level 1**: The assist starts slow, playing at an average level until about 1.30 hours in. You will hear the sounds of cans opening and glasses being poured.
-- **Level 2**: Between 1.31 hours to 2.30 hours, you will have perfect gameplay with the sound of the Drunk Hunter rolling their head all over the keyboard for maximum DPS.
-- **Level 3**: Post the 2.31 hours mark, the AI assist will collapse and keep failing the slightest tasks accompanied by:
+- **Level 1**: The assist starts slow, playing at an average level until about `1.30 hours` in. You will hear the sounds of cans opening and glasses being poured.
+- **Level 2**: Between `1.31 hours` to `2.30 hours`, you will have perfect gameplay with the sound of the Drunk Hunter rolling their head all over the keyboard for maximum DPS.
+- **Level 3**: Post the `2.31 hours` mark, the AI assist will collapse and keep failing the slightest tasks accompanied by:
     - The sounds of random drunk noises.
     - Drunk mentioning of something called Aimed Shot.
     - The sounds of dropping things on the floor and broken glass.
@@ -139,10 +139,10 @@ As you are playing, in certain days you will see hear an simulated social login 
 
 - "Hey, are you playing?!" 
 - "Hey, long time no see" 
-- "Wow this place is totally empty"
+- "Wow this place is totally empty!"
 - "Good to you again!"
-- "I got purples / diamonds / kill streak last night!"
-- "Do you remember when we did this the raid / tournament / build / match together, those where the days"
+- "I got `purples / diamonds / kill streak` last night!"
+- "Do you remember when we did this the `raid / tournament / build / match` together, those where the days"
 
 Before you can even say a word back... the disconnect sound is played and it is once again silent for days.
 
@@ -150,9 +150,11 @@ Before you can even say a word back... the disconnect sound is played and it is 
 
 As The Ghost of Mourning is the most traumatizing of all characters. 
 
-The RetroDECK Team have created a 🏥-trauma-center channel on the Discord that will be populated by a vast network community none-experts for it to be a place where people can talk about their long lost Guild/Clan/Group/Team. 
+The RetroDECK Team have created a `🏥-trauma-center channel` on the Discord that will be populated by a vast network community none-experts for it to be a place where people can talk about their long lost Guild/Clan/Group/Team. 
 
 **One user**: 
+
+```
 
 I still see her everytime I login right there in my friends list on Steam. 
 
@@ -162,7 +164,11 @@ But everytime I move the cursor I just can't... I need that avatar still in my l
 
 PEELS HERE!! FOREVER... OMEGAKILLER9999.
 
+```
+
 **Another**: 
+
+```
 
 We where building blocks, I was making a train station and TheDuckMan0910 was making a stupid statue in the middle of the road, blocking everything in sight and polluting the landscape, like an eyesore. 
 
@@ -172,15 +178,21 @@ His stupid statue still stands in the middle of the landscape never to be touche
 
 I still miss that stupid man of a duck...
 
+```
+
 **Another One**: 
 
-WHERE THE BOYS AT?!...
+```
+
+"WHERE THE BOYS AT?!...
 
 The boys?... 
 
 Boys?... 
 
 :(
+
+```
 
 ---
 

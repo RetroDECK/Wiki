@@ -169,8 +169,6 @@ The RetroDECK Team have created a `🏥-trauma-center` channel on the Discord th
 We have gotten several touching stories such as:
 
 
----
-
 **One user**: 
 
 

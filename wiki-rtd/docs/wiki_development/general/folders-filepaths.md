@@ -39,8 +39,7 @@ If you have installed RetroDECK from flathub as a User Application.
 | Helper Files Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/helper_files/` | Helper Text Files  | 
 | Presets Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/presets/` | Presets Files  | 
 | Reference Lists Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/reference_lists/` | Various lists `bios.json` `features.json`   | 
-
-
+| MIME Folder |`~/.local/share/flatpak/exports/share/mime/packages/` | `net.retrodeck.retrodeck.mime.xml`  | 
 
 ## RetroDECK installed as System Application
 
@@ -67,6 +66,9 @@ If you have installed RetroDECK from flathub as a System Application.
 | Helper Files Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/helper_files/` | Helper Text Files  | 
 | Presets Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/presets/` | Presets Files  | 
 | Reference Lists Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/reference_lists/` | Various lists `bios.json` `features.json`  | 
+| MIME Folder |`~/.local/share/flatpak/exports/share/mime/packages/` | `net.retrodeck.retrodeck.mime.xml`  | 
+
+
 
 ## Steam Folder structure
 

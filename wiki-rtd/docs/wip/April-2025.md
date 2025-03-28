@@ -27,6 +27,8 @@ By popular demand, RetroDECK is reopening the vault to bring back the legendary 
 
 The RetroDECK Team has been on an epic quest to document and track down these elusive controllers. Get ready to relive the sibling rivalry and nostalgia!
 
+**Read More here:** [Sibling Controllers](https://retrodeck.readthedocs.io/en/latest/wiki_controllers/sibling/sibling-controllers/)
+
 ---
 
 

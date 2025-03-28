@@ -90,6 +90,13 @@ What follows is a list of known issues.
 
 **Solution:**  Translations will be implemented in the future.
 
+
+### Dolphin / Primehack 
+
+**Issue:** Some input mapping and GUI elements have problems with Wayland in the emulators. 
+
+**Solution:** You can disable the "Wayland Windowing System" via flatseal in RetroDECK.
+
 ## Known Issues - Steam Input
 
 ### RetroDECK Hotkeys
@@ -131,6 +138,8 @@ What follows is a list of known issues.
 **Issue:** Shows the wrong version when updating Flatpak applications due to a caching error.
 
 **Solution:**  Force a cache update by going to `Discover` -> `Settings` -> and unchecking and checking Flathub again.
+
+
 
 ## Knows Issues - Steam Deck
 

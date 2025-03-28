@@ -320,10 +320,12 @@ nav:
       - Compression: wiki_development/functions/compression.md
       - Creating Emulator/Engine Presets: wiki_development/functions/emulator-presets.md
 
+
     - General 🗜️:
       - About Flatpak: wiki_development/general/retrodeck-flatpak.md
       - CLI Guide: wiki_development/general/cli-guide.md
       - Debug Mode: wiki_development/general/debug-mode.md
+      - Editing MIME Types: wiki_development/general/edit-mime.md
       - Steam Input: wiki_development/general/steam-input.md
       - Folders and Filepaths: wiki_development/general/folders-filepaths.md
       - Start with Development (WIP): wiki_development/general/general-development.md

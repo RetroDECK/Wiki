@@ -86,7 +86,7 @@ The Drunk Hunter only communicates in semi-drunken grunts, hisses, random words,
     
 #### Bigger Sibling
 
-<img src="../sibling-fight.png" width="200">
+<img src="../sibling-fight.png" width="250">
 
 The Bigger Sibling will join you in multiplayer games as the second player.
 
@@ -115,7 +115,7 @@ The Bigger Sibling operates under special guidelines.
 
 #### COD 360 Lobby Gamer
 
-<img src="../angry-gamer.png" width="200">
+<img src="../angry-gamer.png" width="150">
 
 The COD 360 Lobby Gamer brings you all the best experiences from early online console gaming.
 
@@ -132,7 +132,7 @@ The COD 360 Lobby Gamer will:
 
 #### The Ghost of Mourning
 
-<img src="../ghost-mourning.jpg" width="200">
+<img src="../ghost-mourning.jpg" width="300">
 
 The Ghost of Mourning offers sudden whispers of ghostly haunting greeting phrases not related to your gameplay before going silent again. 
 

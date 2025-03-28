@@ -23,7 +23,7 @@ Big things are happening in the RetroDECK community!
 
 ## Sibling Controllers Are Back!
 
-By popular demand, RetroDECK is reopening the vault to bring back the legendary Sibling Controllers. 
+By popular demand, RetroDECK is reopening the vault to bring back the legendary Sibling Controllers to the wiki with expanded information. 
 
 The RetroDECK Team has been on an epic quest to document and track down these elusive controllers. Get ready to relive the sibling rivalry and nostalgia!
 

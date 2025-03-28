@@ -136,7 +136,7 @@ The COD 360 Lobby Gamer will:
 
 The Ghost of Mourning offers sudden whispers of ghostly haunting greeting phrases not related to your gameplay before going silent again. 
 
-This character simulates the feeling of the dread, loss and loneliness of the player that still is always looking and yearning endlessly in vein for his long dead `guild/clan/group/team` have ceased to exist over a more then a decade ago.
+This character simulates the feeling of the dread, loss and loneliness of the player that still is always looking and yearning endlessly in vein for his long dead `guild/clan/group/team` that have ceased to exist over a more then a decade ago.
 
 - The player that keeps logging in everyday to the game itself.
 - The player that keeps logging in everyday to the old empty communication server (Ventrilo, TeamSpeak, Mumble, etc..) and sitting there in alone.

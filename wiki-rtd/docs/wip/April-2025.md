@@ -52,6 +52,8 @@ Here's a sneak peek at some of the characters we will offer:
 
 #### Raid Leader
 
+<img src="../raid-leader.png" width="600">
+
 The Raid Leader is here to make sure you never feel good about your gameplay. Expect quick, passive-aggressive comments and constant reminders that you're not perfect. Just like a real Raid Leader!
 
 **When you are playing:**
@@ -63,6 +65,8 @@ The Raid Leader is here to make sure you never feel good about your gameplay. Ex
 ---
 
 #### Drunk Hunter
+
+<img src="../drunk-hunter.png" width="600">
 
 The Drunk Hunter only communicates in semi-drunken grunts, hisses, random words, sounds of pouring glasses, opening cans, and keyboard noises. The Drunk Hunter will assist your gameplay like an auto player or aimbot, playing at your game at a scaling level.
 
@@ -79,6 +83,8 @@ The Drunk Hunter only communicates in semi-drunken grunts, hisses, random words,
     
     
 #### Bigger Sibling
+
+<img src="../sibling-fight.png" width="600">
 
 The Bigger Sibling will join you in multiplayer games as the second player.
 
@@ -107,6 +113,8 @@ The Bigger Sibling operates under special guidelines.
 
 #### COD 360 Lobby Gamer
 
+<img src="../angry-gamer.png" width="600">
+
 The COD 360 Lobby Gamer brings you all the best experiences from early online console gaming.
 
 **When you are playing:**
@@ -121,6 +129,8 @@ The COD 360 Lobby Gamer will:
 
 
 #### The Ghost of Mourning
+
+<img src="../ghost-mourning.jpg" width="600">
 
 The Ghost of Mourning offers sudden whispers of ghostly haunting greeting phrases not related to your gameplay before going silent again. 
 

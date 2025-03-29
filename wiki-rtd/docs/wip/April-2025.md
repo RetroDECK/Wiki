@@ -5,15 +5,14 @@ date: 2025-04-01
 ---
 
 
-# April 2025: The True Retro Experience
+# April 2025: The AI Retro Revolution
 
-Big things are happening in the RetroDECK community!
+Big things are happening in the RetroDEC!
 
 ## Highlights
 
-- Sibling Controllers
 - AI-Powered Gameplay Assist and Voice Reactions
-
+- Sibling Controllers
 
 
 <!-- more -->
@@ -21,24 +20,13 @@ Big things are happening in the RetroDECK community!
 ---
 
 
-## Sibling Controllers Are Back!
-
-By popular demand, RetroDECK is reopening the vault to bring back the legendary Sibling Controllers to the wiki with expanded information. 
-
-The RetroDECK Team has been on an epic quest to document and track down these elusive controllers. Get ready to relive the sibling rivalry and nostalgia!
-
-**Read More here:** [Sibling Controllers](https://retrodeck.readthedocs.io/en/latest/wiki_controllers/sibling/sibling-controllers/)
-
----
-
-
-## AI Powered Gameplay Assist and Voice Reaction
+## AI-Powered Gameplay Assist and Voice Reaction
 
 Looking for a blast from the past to escape the modern world? We've got you covered!
 
 Introducing the next big thing for RetroDECK:
 
-**AI Powered Gameplay Assist and Voice Reaction**
+**AI-Powered Gameplay Assist and Voice Reaction**
 
 Connect RetroDECK to your favorite AI solutions, whether local or cloud-based.
 
@@ -208,6 +196,17 @@ Boys?...
 
 :(
 
+
+---
+
+
+## Sibling Controllers Are Back!
+
+By popular demand, RetroDECK is reopening the vault to bring back the legendary Sibling Controllers to the wiki with expanded information. 
+
+The RetroDECK Team has been on an epic quest to document and track down these elusive controllers. Get ready to relive the sibling rivalry and nostalgia!
+
+**Read More here:** [Sibling Controllers](https://retrodeck.readthedocs.io/en/latest/wiki_controllers/sibling/sibling-controllers/)
 
 ---
 

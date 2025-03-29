@@ -2,10 +2,6 @@
 
 <img src="../../wiki_icons/retrodeck/icon-rd.svg" width="75">
 
-## What to Use: Saves or States?
-
-Always use in-game saves and treat states as a backup. States from older emulator versions might not work with updates, so don't rely solely on them.
-
 ## Do I Need to Partition or Format My Disk/SD Card for RetroDECK?
 
 No, RetroDECK installs as a flatpak. Just install it like any other app and launch it from your desktop or Steam library.

@@ -56,3 +56,37 @@ Even if they are disc images, emulation games are often called ROMs because:
 - **Disc Images**: Disc-based games are often called ISOs, but in emulation, they are still referred to as ROMs.
 
 So, "ROM" is used as a catch-all term for game files in emulation, even if they come from discs.
+
+## Save States or In-Game Saves, what should I use?
+
+Always use **In-Game Saves** they are generally more reliable and less prone to corruption compared to **Save states** . 
+
+**Save states** can be affected by emulator errors or just normal version updates of the emulator.
+
+**What is the difference?**
+
+- **Save States**: Facilitated by the emulator, capturing the game state at any point, often that specific version of the emulator.
+- **In-Game Saves**: Built into the game, usually with specific save points or conditions.
+
+## What are Save States in Emulation?
+
+**Save states** in emulators allow you to save the exact state of a game at any moment. 
+
+This feature is useful because it goes beyond the in-game saving mechanics available in many classic games. 
+
+When you use a save state, the emulator records the game's current state, including progress, character health, items collected, and settings.
+
+Loading a save state restores the game to that exact point, letting you continue playing from where you left off, even in the middle of a level or battle.
+
+### Benefits of Save States
+
+- **Convenience**: Easily manage game progress and try different strategies without replaying from the start.
+- **Experimentation**: Test different settings without risking the original game.
+
+### Drawbacks of Save States
+
+- **Game Integrity**: Regular in-game saves are designed to maintain the integrity of the game's progression and mechanics. Save states can bypass these mechanics, potentially leading to unintended consequences for good or bad.
+- **Reliability**: In-game saves are generally more reliable and less prone to corruption compared to save states, which can be affected by emulator errors or just normal updates of the emulator.
+- **Fair Play**: Using save states can give players an unfair advantage, especially in competitive gaming scenarios. Regular in-game saves ensure a level playing field for all players.
+
+

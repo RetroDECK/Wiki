@@ -62,6 +62,8 @@ steam "$@" steam://rungameid/<RetroDECK_gameid>
 steam "$@" steam://rungameid/14508945201516511232
 ```
 
-5. Save the file.
-6. Reboot the Steam Deck.
-7. The Steam Deck should now directly boot into RetroDECK.
+### Step 3: Save and reboot into RetroDECK
+
+1. Save the `devkit-steam` file.
+2. Reboot the Steam Deck.
+3. The Steam Deck should now directly boot into RetroDECK.

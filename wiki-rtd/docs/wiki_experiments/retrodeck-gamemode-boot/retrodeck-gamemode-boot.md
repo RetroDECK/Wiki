@@ -51,7 +51,6 @@ The easiest way to get the game ID for non-Steam games is to go to the RetroDECK
 
 
 ```
-```bash
 #!/bin/bash
 steam "$@" steam://rungameid/<RetroDECK_gameid>
 ```
@@ -59,10 +58,10 @@ steam "$@" steam://rungameid/<RetroDECK_gameid>
 **Example:**
 
 ```
-```bash
 #!/bin/bash
 steam "$@" steam://rungameid/14508945201516511232
 ```
+
 5. Save the file.
 6. Reboot the Steam Deck.
-7. RetroDECK and it should now directly boot into RetroDECK.
+7. The Steam Deck should now directly boot into RetroDECK.

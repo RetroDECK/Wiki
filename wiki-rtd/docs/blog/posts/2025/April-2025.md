@@ -7,7 +7,7 @@ date: 2025-04-01
 
 # April 2025: The AI Retro Revolution
 
-Big things are happening in the RetroDEC!
+Big things are happening in the RetroDECK!
 
 ## Highlights
 
@@ -42,7 +42,7 @@ Here's a sneak peek at some of the characters we will offer:
 
 #### Raid Leader
 
-<img src="../raid-leader.png" width="200">
+<img src="../../../raid-leader.png" width="200">
 
 The Raid Leader is here to make sure you never feel good about your gameplay. Expect quick, passive-aggressive comments and constant reminders that you're not perfect. Just like a real Raid Leader!
 
@@ -56,7 +56,7 @@ The Raid Leader is here to make sure you never feel good about your gameplay. Ex
 
 #### Drunk Hunter
 
-<img src="../drunk-hunter.png" width="200">
+<img src="../../../drunk-hunter.png" width="200">
 
 The Drunk Hunter only communicates in semi-drunken grunts, hisses, random words, sounds of pouring glasses, opening cans, and keyboard noises. The Drunk Hunter will assist your gameplay like an auto player or aimbot, playing at your game at a scaling level.
 
@@ -74,7 +74,7 @@ The Drunk Hunter only communicates in semi-drunken grunts, hisses, random words,
     
 #### Bigger Sibling
 
-<img src="../sibling-fight.png" width="250">
+<img src="../../../sibling-fight.png" width="250">
 
 The Bigger Sibling will join you in multiplayer games as the second player.
 
@@ -103,7 +103,7 @@ The Bigger Sibling operates under special guidelines.
 
 #### COD 360 Lobby Gamer
 
-<img src="../angry-gamer.png" width="150">
+<img src="../../../angry-gamer.png" width="150">
 
 The COD 360 Lobby Gamer brings you all the best experiences from early online console gaming.
 
@@ -120,7 +120,7 @@ The COD 360 Lobby Gamer will:
 
 #### The Ghost of Mourning
 
-<img src="../ghost-mourning.jpg" width="300">
+<img src="../../../ghost-mourning.jpg" width="300">
 
 The Ghost of Mourning offers sudden whispers of ghostly haunting greeting phrases not related to your gameplay before going silent again. 
 
@@ -148,7 +148,7 @@ Before you can even say a word back... the disconnect sound is played and it is 
 
 ### The Ghost of Mourning: Trauma Center
 
-<img src="../trauma-center.png" width="200">
+<img src="../../../trauma-center.png" width="200">
 
 As The Ghost of Mourning is the most traumatizing of all characters. 
 

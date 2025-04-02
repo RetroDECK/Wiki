@@ -5,7 +5,7 @@ date: 2025-04-01
 ---
 
 
-# April 2025: The AI Retro Revolution
+# April FOOLS 2025: The AI Retro Revolution
 
 Big things are happening in the RetroDECK!
 
@@ -19,6 +19,9 @@ Big things are happening in the RetroDECK!
 
 ---
 
+## GOT 'EM!
+
+You got fooled!
 
 ## AI-Powered Gameplay Assist and Voice Reaction
 

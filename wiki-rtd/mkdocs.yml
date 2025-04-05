@@ -88,7 +88,7 @@ nav:
     - Feature Requests: wiki_faq/faq-feature.md
     - Emulation: wiki_faq/faq-emulation.md
     - RetroDECK General: wiki_faq/faq-rd-general.md
-    - RetroDECK Usage: wiki_faq/faq-rd-usage.
+    - RetroDECK Usage: wiki_faq/faq-rd-usage.md
     - SD Cards: wiki_faq/faq-sdcard.md
 
   - Guides - RetroDECK Controls & Hotkeys 🎮:
@@ -148,6 +148,7 @@ nav:
 
     - Dolphin / Primehack 🐬:
       - Dolphin / Primehack - General Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md
+      - Dolphin / Primehack - Using Real Wii Remotes: wiki_emulator_guides/dolphin-primehack/dolphin-wii-remote.md
 
     - Duckstation 🐓 (Legacy):
       - Duckstation - General Guide: wiki_emulator_guides/duckstation/duckstation-guide.md

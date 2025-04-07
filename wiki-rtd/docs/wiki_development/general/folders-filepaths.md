@@ -40,6 +40,11 @@ If you have installed RetroDECK from flathub as a User Application.
 | Presets Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/presets/` | Presets Files  | 
 | Reference Lists Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/reference_lists/` | Various lists `bios.json` `features.json`   | 
 | MIME Folder |`~/.local/share/flatpak/exports/share/mime/packages/` | `net.retrodeck.retrodeck.mime.xml`  | 
+| Libretro Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/libretro/` | Used by RetroArch `assets`, `autoconfig`, `cores`, `database`, `filters`, `overlays`, `shaders`, `system`| 
+| RetroArch Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retroarch/` | Used by RetroArch `retroarch.cfg`, `retroarch-core-options.cfg`, `scummvm.ini`, `borders`, `core-overrides`| 
+
+
+
 
 ## RetroDECK installed as System Application
 
@@ -67,6 +72,8 @@ If you have installed RetroDECK from flathub as a System Application.
 | Presets Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/presets/` | Presets Files  | 
 | Reference Lists Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/reference_lists/` | Various lists `bios.json` `features.json`  | 
 | MIME Folder |`/var/lib/flatpak/exports/share/mime/packages/` | `net.retrodeck.retrodeck.mime.xml`  | 
+| Libretro Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/libretro/` | Used by RetroArch `assets`, `autoconfig`, `cores`, `database`, `filters`, `overlays`, `shaders`, `system`| 
+| RetroArch Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retroarch/` | Used by RetroArch `retroarch.cfg`, `retroarch-core-options.cfg`, `scummvm.ini`, `borders`, `core-overrides`| 
 
 ## Steam Folder structure
 

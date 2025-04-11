@@ -21,6 +21,7 @@ These experiments are created by the RetroDECK Team and/or Community. The guides
 ```
 wsl --install
 ```
+
 - Restart your computer if prompted.
 
 ### Step 2: Install a Distro
@@ -48,6 +49,7 @@ sudo apt update && sudo apt upgrade --yes
 ```
 sudo apt install flatpak
 ```
+
 - Install flathub:
 
 ```

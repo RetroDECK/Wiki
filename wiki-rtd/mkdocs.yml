@@ -213,6 +213,7 @@ nav:
     - Launch Desktop Games & Apps: wiki_experiments/desktop-launch/desktop-launch.md
     - Launch External Emulators: wiki_experiments/external-emulator/external-emulator.md
     - Autoboot into RetroDECK not Game Mode: wiki_experiments/retrodeck-gamemode-boot/retrodeck-gamemode-boot.md
+    - Run RetroDECK in WSL:  wiki_experiments/retrodeck-wsl/retrodeck-wsl.md
 
   - The Controller Vault 🎮:
 

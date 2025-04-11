@@ -51,7 +51,16 @@ You can try [RetroBat](https://www.retrobat.org/) for similar functionality on W
 
 Alternatively, you can install a Linux distribution on your device to use RetroDECK. Supporting Windows would be a major undertaking and would require more developers with Windows experience.
 
-## Will you support ARM devices like iOS, MacOS and Android?
+## Will you support MacOS?
+
+No, RetroDECK doesn't support Windows currently. 
+
+You can try [OpenEmu](https://openemu.org/) for MacOS.
+
+Alternatively, you can install a Linux distribution on your device to use RetroDECK. Supporting MacOS would be a major undertaking and would require more developers with MacOS experience.
+
+
+## Will you support ARM mobile devices like iOS and Android?
 
 <img src="../../wiki_icons/pixelitos/distributor-logo-macos.png" width="50"> <img src="../../wiki_icons/pixelitos/android.png" width="50">
 

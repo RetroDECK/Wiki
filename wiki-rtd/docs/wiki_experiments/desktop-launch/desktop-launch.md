@@ -382,11 +382,22 @@ Icon=/home/deck/Games/Heroic/Flight of the Amazon Queen/goggame-1207659723.ico
 Categories=Game;
 ```
 
-## How-to: Launch PrismLauncher Minecraft Instances
+## How-to: Launch Prism Launcher - Minecraft Instances
 
-### Step 1: Create .desktop file from PrismLauncher
+### Smooth Settings
 
-1. Open PrismLauncher.
+For a smoother experience enable these settings in Prism Launcher:
+
+1. Open Prism Launcher.
+2. Go to `Settings` -> `Minecraft`
+3. Enable ` Start Minecraft maximized` , ` Close Launcher after game window opens` and ` Quit Launcher after game window closes`.
+4. Exit Settings
+
+<img src="../prism-settings.png" width="800">
+
+### Step 1: Create .desktop file from Prism Launcher
+
+1. Open Prism Launcher.
 2. Make sure you are logged in.
 3. Install a game (specific version or a modpack).
 4. `Right Click` the game -> `Create Shortcut`.

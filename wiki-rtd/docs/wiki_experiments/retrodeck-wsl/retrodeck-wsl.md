@@ -3,7 +3,7 @@
 <img src="../../../wiki_icons/pixelitos/windows.png" width="75">
 
 
-This experiment was initiated by the a stupid idea in the RetroDECK Team. 
+This experiment was initiated by a stupid idea in the RetroDECK Team. 
 
 **Note:** RetroDECK was never intended to be used in this manner and the performance is horrible. It is better to us a solution that is made for Windows like RetroBat.
 

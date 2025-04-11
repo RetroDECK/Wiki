@@ -74,7 +74,7 @@ flatpak install --user --noninteractive -y net.retrodeck.retrodeck
 flatpak run net.retrodeck.retrodeck
 ```
 
-- RetroDECK will then boot, except horrible performance.
+- RetroDECK will then boot with horrible performance.
 - Run the following command:
 
 ### Updating Flatpaks & RetroDECK

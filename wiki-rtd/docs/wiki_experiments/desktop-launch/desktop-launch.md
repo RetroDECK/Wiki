@@ -39,7 +39,7 @@ Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you
 
 
 
-## How-to Make .desktop files
+## How-to: Make .desktop files
 
 Make an empty file with the `<gamename>.desktop`.
 
@@ -368,28 +368,9 @@ Categories=Game
 
 Open the `.desktop` file and edit it.
 
-The files are different if you have the native version of Heroic installed or the Flatpak version. 
-
-### Step 2b: Heroic (Flatpak)
-
-Edit the file original file.
-
 - **Exec=** Add the `flatpak-spawn --host flatpak run com.heroicgameslauncher.hgl --no-gui --no-sandbox` instead of `xdg-open`.
 
-**Example: Original - Flight of the Amazon Queen.desktop**
-
-
-```
-[Desktop Entry]
-Name=Flight of the Amazon Queen
-Exec=xdg-open heroic://launch?appName=1207659723&runner=gog
-Terminal=false
-Type=Application
-Icon=/home/deck/Games/Heroic/Flight of the Amazon Queen/goggame-1207659723.ico
-Categories=Game;
-```
-
-**Example: Edited - Flight of the Amazon Queen.desktop**
+**Example: Heroic Flatpak - Flight of the Amazon Queen.desktop**
 
 ```
 [Desktop Entry]
@@ -401,8 +382,48 @@ Icon=/home/deck/Games/Heroic/Flight of the Amazon Queen/goggame-1207659723.ico
 Categories=Game;
 ```
 
-## The Last Step: Launch the Games via RetroDECK & Scrape
+## How-to: Launch PrismLauncher Minecraft Instances
 
+### Step 1: Create .desktop file from PrismLauncher
+
+1. Open PrismLauncher.
+2. Make sure you are logged in.
+3. Install a game (specific version or a modpack).
+4. `Right Click` the game -> `Create Shortcut`.
+5. Save the shortcut to: `retrodeck/roms/windows/`.
+
+<img src="../prism-shortcut.png" width="800">
+
+### Step 2: Edit the .desktop file
+
+Open the `.desktop` file and edit it.
+
+- **Exec=** Add the ``"flatpak-spawn" --host'` in front of `"flatpak" 'run'`.
+
+**Example: Original - Fabulously Optimized**
+
+
+```
+[Desktop Entry]
+Type=Application
+Categories=Game;ActionGame;AdventureGame;Simulation
+Exec="flatpak" 'run' 'org.prismlauncher.PrismLauncher' '--launch' 'Fabulously Optimized'
+Name=Fabulously Optimized
+Icon=/var/home/deck/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Fabulously Optimized/icon.png
+```
+
+**Example: Edited - Fabulously Optimized**
+
+```
+[Desktop Entry]
+Type=Application
+Categories=Game;ActionGame;AdventureGame;Simulation
+Exec="flatpak-spawn" --host "flatpak" 'run' 'org.prismlauncher.PrismLauncher' '--launch' 'Fabulously Optimized'
+Name=Fabulously Optimized
+Icon=/var/home/deck/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Fabulously Optimized/icon.png
+```
+
+## The Last Step: Launch the Games via RetroDECK & Scrape
 
 <img src="../windows-es-de.png" width="100">
 

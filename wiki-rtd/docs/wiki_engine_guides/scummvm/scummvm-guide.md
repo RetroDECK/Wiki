@@ -1,6 +1,6 @@
 # ScummVM - General Guide
 
-<img src="../../../wiki_images/logos/scummvm-logo.svg" width="150">
+<img src="../../../wiki_images/logos/scummvm-logo.svg" width="100">
 
 ScummVM is a engine which allows you to run certain classic graphical adventure and role-playing games.
 

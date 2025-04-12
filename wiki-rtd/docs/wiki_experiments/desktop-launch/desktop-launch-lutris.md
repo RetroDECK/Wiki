@@ -1,10 +1,10 @@
 # Launching Lutris Games with RetroDECK
 
+<img src="../../../wiki_images/logos/lutris-logo.png" width="100">
+
 This experiment was initiated by the users **murkl** and **Daeymon**. Then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external desktop games and apps within RetroDECK.
 
 **Note:** RetroDECK was never intended to be used in this manner, so things like inputs may work as expected.
-
-![type:video](vcmi-retrodeck.mp4)
 
 ### Disclaimer on Experiments 
 

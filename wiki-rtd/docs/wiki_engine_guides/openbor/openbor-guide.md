@@ -1,6 +1,6 @@
 # OpenBOR - General Guide
 
-<img src="../../../wiki_images/logos//openbor-logo.svg" width="75">
+<img src="../../../wiki_images/logos/openbor-logo.svg" width="100">
 
 Open Beats of Rage or `OpenBOR` is a beat 'em up game engine.
 

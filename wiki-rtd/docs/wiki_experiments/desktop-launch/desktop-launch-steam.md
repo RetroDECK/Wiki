@@ -138,7 +138,7 @@ Exec=flatpak-spawn --host flatpak run com.valvesoftware.Steam -silent steam://ru
 Categories=Game
 ```
 
-### The Last Step: Launch the Games via RetroDECK & Scrape
+## The Last Step: Launch the Games via RetroDECK & Scrape
 
 <img src="../windows-es-de.png" width="100">
 

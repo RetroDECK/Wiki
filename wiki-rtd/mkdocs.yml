@@ -210,7 +210,12 @@ nav:
   - Experiments ⚗️:
 
     - About Experiments: wiki_experiments/about-experiments.md
-    - Launch Desktop Games & Apps: wiki_experiments/desktop-launch/desktop-launch.md
+    - Launch Desktop Games & Apps:
+      - Launch Flatpak - Games & Apps: wiki_experiments/desktop-launch/desktop-launch-flatpak.md
+      - Launch Prism Launcher - Minecraft Instances: wiki_experiments/desktop-launch/desktop-launch-prism.md
+      - Launch Heroic (GOG, Amazon, Epic) - Games: wiki_experiments/desktop-launch/desktop-launch-heroic.md
+      - Launch Steam - Games: wiki_experiments/desktop-launch/desktop-launch-steam.md
+      - Launch Lutris - Games: wiki_experiments/desktop-launch/desktop-launch-lutris.md
     - Launch External Emulators: wiki_experiments/external-emulator/external-emulator.md
     - Autoboot into RetroDECK not Game Mode: wiki_experiments/retrodeck-gamemode-boot/retrodeck-gamemode-boot.md
     - Run RetroDECK in WSL:  wiki_experiments/retrodeck-wsl/retrodeck-wsl.md
@@ -324,7 +329,6 @@ nav:
       - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md
       - Compression: wiki_development/functions/compression.md
       - Creating Emulator/Engine Presets: wiki_development/functions/emulator-presets.md
-
 
     - General 🗜️:
       - About Flatpak: wiki_development/general/retrodeck-flatpak.md

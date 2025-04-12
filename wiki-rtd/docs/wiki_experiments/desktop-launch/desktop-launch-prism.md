@@ -89,7 +89,7 @@ Name=Fabulously Optimized
 Icon=/var/home/deck/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Fabulously Optimized/icon.png
 ```
 
-### The Last Step: Launch the Games via RetroDECK & Scrape
+## The Last Step: Launch the Games via RetroDECK & Scrape
 
 <img src="../windows-es-de.png" width="100">
 

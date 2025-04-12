@@ -1,4 +1,4 @@
-# Launching Desktop Games & Apps with RetroDECK
+# Launching Flatpak Games & Apps with RetroDECK
 
 This experiment was initiated by the users **murkl** and **Daeymon**. Then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external desktop games and apps within RetroDECK.
 

@@ -75,7 +75,6 @@ flatpak run net.retrodeck.retrodeck
 ```
 
 - RetroDECK will then boot with horrible performance.
-- Run the following command:
 
 ### Updating Flatpaks & RetroDECK
 

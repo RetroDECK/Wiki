@@ -1,3 +1,9 @@
+# Release Tag - Main Release
+
+**EXAMPLE 0.9.2B**
+
+RetroDECK 0.9.2b 
+
 ## RetroDECK Version: 0.9.2b 
 
 A minor patch.

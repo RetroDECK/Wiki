@@ -34,7 +34,6 @@ RetroDECK releases only become officially available to everyone only after it is
 - Always upgrade through Flathub using your distribution's built-in app store.
 - Avoid upgrading from GitHub unless you're assisting with testing. 
 
-
 ---
 
 ### Do you want to help out with RetroDECK? 

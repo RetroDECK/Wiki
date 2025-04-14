@@ -12,7 +12,9 @@ Read the patch notes on the wiki here:
 
 RetroDECK's releases are not officially considered **"released"** until it is out on:
 
-- **Flathub:** 🔗  [RetroDECK: Flathub](https://flathub.org/apps/net.retrodeck.retrodeck)
+- **Flathub:** 🔗 [RetroDECK: Flathub](https://flathub.org/apps/net.retrodeck.retrodeck)
+
+**Please Note:**
 
 If you are using RetroDECK always upgrade from Flathub via your distributions built in app-store and not GitHub.
 
@@ -24,9 +26,9 @@ GitHub releases are only for those who want to help out with testing.
 
 Do you want to contribute to RetroDECK, read more here: 
 
-- **RetroDECK Wiki:** [How to Contribute?](https://retrodeck.readthedocs.io/en/latest/wiki_community/contibute-rd/)
+- **RetroDECK Wiki:** 🔗 [How to Contribute?](https://retrodeck.readthedocs.io/en/latest/wiki_community/contibute-rd/)
 
-- **Donations:** [Patreon](https://www.patreon.com/RetroDECK)
+- **Donations:** 🔗 [Patreon](https://www.patreon.com/RetroDECK)
 
 - **Visit our Website:** 🔗 [retrodeck.net](https://retrodeck.net/)
 

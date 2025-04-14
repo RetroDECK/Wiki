@@ -1,8 +1,9 @@
 # Release Tag - Main Release
 
-**EXAMPLE 0.9.2B**
-
 RetroDECK 0.9.2b 
+
+---
+
 
 ## RetroDECK Version: 0.9.2b 
 
@@ -45,6 +46,5 @@ If you want to contribute to RetroDECK, read more here:
 - **Donations:** 🔗 [Patreon](https://www.patreon.com/RetroDECK)
 
 - **Website:** 🔗 [retrodeck.net](https://retrodeck.net/)
-
 
 // ❤️ RetroDECK Team

@@ -8,25 +8,31 @@ RetroDECK 0.9.2b
 
 A minor patch.
 
+---
+
 ### Patch Notes
 
-Read the full patch notes on the wiki here: 
-
 - **RetroDECK Wiki - Patch Notes:** 🔗 [RetroDECK 0.9.2b](https://retrodeck.readthedocs.io/en/latest/wiki_rd_versions/version_0.9.0b/0.9.2b/)
-
-RetroDECK is also **NOT** considered **"released"** until it is published on:
-
-- **Flathub:** 🔗 [RetroDECK: Flathub](https://flathub.org/apps/net.retrodeck.retrodeck)
-
 
 ---
 
 ### About: RetroDECK GitHub Releases
 
+RetroDECK is **NOT** considered **"released"** until it is published on Flathub. 
+
+That is because GitHub releases can on rare occasions break in the publication process between:
+
+`Cooker (GitHub)` -> `Main (GitHub)` -> `Flathub Testing` -> `Flathub`.
+
+The release might need more tweaking and Flathub fixes before the publication happens.
+
+- **Flathub:** 🔗 [RetroDECK: Flathub](https://flathub.org/apps/net.retrodeck.retrodeck)
+
 RetroDECK releases only become officially available to everyone only after it is published on Flathub. 
 
 - Always upgrade through Flathub using your distribution's built-in app store.
-- Avoid upgrading from GitHub unless you're assisting with testing.
+- Avoid upgrading from GitHub unless you're assisting with testing. 
+
 
 ---
 
@@ -34,7 +40,7 @@ RetroDECK releases only become officially available to everyone only after it is
 
 If you want to contribute to RetroDECK, read more here: 
 
-- **RetroDECK Wiki:** 🔗 [How to Contribute?](https://retrodeck.readthedocs.io/en/latest/wiki_community/contibute-rd/)
+- **RetroDECK Wiki:** 🔗 [How-to: Contribute to RetroDECK](https://retrodeck.readthedocs.io/en/latest/wiki_community/contibute-rd/)
 
 - **Donations:** 🔗 [Patreon](https://www.patreon.com/RetroDECK)
 

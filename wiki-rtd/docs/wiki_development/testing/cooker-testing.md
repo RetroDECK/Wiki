@@ -6,6 +6,36 @@ If you are using `SteamOS` on the Steam Deck, make sure you are in `Desktop Mode
 
 We strongly recommend reading **THIS GUIDE** and **FOLLOWING THESE INSTRUCTIONS** carefully. Simply installing the RetroDECK Cooker without following the guide is now known as the Rowan Skye Method.
 
+
+### Combined Commands - Cheat Sheet
+
+**Remove Installed and Install Downloaded Cooker:** 
+
+```
+flatpak remove net.retrodeck.retrodeck -y
+flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak
+```
+
+**Remove Installed and Install Downloaded Pre-Release:** 
+
+```
+flatpak remove net.retrodeck.retrodeck -y
+flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak
+```
+
+**Remove Installed and Install Flathub Stable:** 
+
+```
+flatpak remove net.retrodeck.retrodeck -y
+flatpak install --user --noninteractive -y net.retrodeck.retrodeck
+```
+**Simulating the post_update between versions**
+
+```
+flatpak run net.retrodeck.retrodeck --test-upgrade <version>
+```
+
+
 ## Step 1: Take some Backups
 
 
@@ -53,6 +83,7 @@ If you are testing a pre-release and the build have left cooker to main the name
 
 `flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak` 
 
+
 ## Step 4: Upgrade
 
 🛑 **IMPORTANT WARNING:** 🛑
@@ -83,7 +114,7 @@ All logs will be saved in the new `retrodeck/logs` folder
 
 Thank you! ❤️
 
-## T.I.P: Trigger post-update manually
+## Simulating the post_update between versions
 
 If you want to trigger the upgrade script again between a version upgrade to try something out.
 

@@ -337,10 +337,9 @@ nav:
       - Editing MIME Types: wiki_development/general/edit-mime.md
       - Steam Input: wiki_development/general/steam-input.md
       - Folders and Filepaths: wiki_development/general/folders-filepaths.md
-      - Start with Development (WIP): wiki_development/general/general-development.md
-      - Build Locally (WIP): wiki_development/general/build-locally.md
-      - Add System (WIP): wiki_development/general/add-system.md
-      - Updating Systems (components): wiki_development/general/updating-components.md
+      - Start with Development (W.I.P): wiki_development/general/general-development.md
+      - Build Locally (W.I.P): wiki_development/general/build-locally.md
+      - GitHub Runners: wiki_development/general/github-runners.md
 
     - Testing 📝:
       - Cooker Testing - FAQ: wiki_development/testing/faq-cooker.md

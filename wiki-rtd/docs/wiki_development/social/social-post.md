@@ -1,13 +1,13 @@
 # Social Posts
 
 
-## New Version
+## New Version - Title
 
 **Minor version:**
 
-RetroDECK v0.9.1b -  Retro Gaming Flatpak - Released!
+RetroDECK v0.9.1b - Retro Gaming Flatpak - Released!
 
-RetroDECK v0.X.Xb -  Retro Gaming Flatpak - Released!
+RetroDECK v0.X.Xb - Retro Gaming Flatpak - Released!
 
 **Major version:**
 
@@ -17,7 +17,7 @@ RetroDECK v0.9.0b - <Major Version Name> - Retro Gaming Flatpak - Released!
 
 ---
 
-**Comment in thread:**
+### New Version - Body
 
 Report any issues or bugs in ⁠🤝-community-support on [Discord](https://discord.gg/WDc5C9YWMx).
 
@@ -30,7 +30,7 @@ If you don't know what RetroDECK is check here:
 
 Name:
 
-RetroDECK Blog - Retro Gaming Flatpak  - <Month>: <Post Name>
+RetroDECK Blog - Retro Gaming Flatpak - <Month>: <Post Name>
 
 RetroDECK Blog - Retro Gaming Flatpak - February 2025: Major Stonks 
 

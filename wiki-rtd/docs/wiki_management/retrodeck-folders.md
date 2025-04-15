@@ -200,6 +200,7 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 | Sega32x JP Folder | sega32xjp | The Japanese version of the Sega 32X add-on. |
 | Sega 32x NA Folder | sega32xna | The North American version of the Sega 32X add-on. |
 | Sega CD Folder | segacd | A CD-ROM add-on for the Sega Genesis. |
+| Sega Mark III Folder | mark3 | Japanese version of the Master System. |
 | SFC Folder | sfc | Super Famicom, the Japanese version of the Super Nintendo. |
 | SG-1000 Folder | sg-1000 | A home video game console developed by Sega. |
 | SGB Folder | sgb | Super Game Boy, an adapter for playing Game Boy games on the SNES. |
@@ -221,6 +222,7 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 | Uzebox Folder | uzebox | An open-source retro-minimalist game console. |
 | Vectrex Folder | vectrex | A vector display-based home video game console. |
 | Vic20 Folder | vic20 | A home computer developed by Commodore. |
+| Vircon32 Folder | vircon32 | Vircon32 is a 32-bit virtual console. |
 | Videopac Folder | videopac | The European version of the Magnavox Odyssey². |
 | Virtualboy Folder | virtualboy | A 3D gaming console developed by Nintendo. |
 | Vsmile Folder | vsmile | An educational game console developed by VTech. |

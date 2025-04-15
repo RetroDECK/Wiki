@@ -2,6 +2,8 @@
 
 ## 0.9.0b Branch
 
+
+- [0.9.3b](version_0.9.0b/0.9.3b.md)
 - [0.9.2b](version_0.9.0b/0.9.2b.md)
 - [0.9.1b](version_0.9.0b/0.9.1b.md)
 - [0.9.0b](version_0.9.0b/0.9.0b.md)

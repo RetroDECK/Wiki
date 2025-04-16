@@ -110,14 +110,9 @@ This menu allows you to reset various components in RetroDECK or reset the entir
 
 <img src="../classic-configurator-tools.png" width="800">
 
-### Backup  Userdata
-
-Creates backups of the user data folders
-
 ### BIOS Checker
 
 Launches the `BIOS Checker` tool that scans for needed BIOS files.
-
 
 ### Games Compressor
 
@@ -147,15 +142,25 @@ This option downloads and installs the latest PS Vita firmware.
 
 Enable / Disable the Update Notification for new RetroDECK versions.
 
-### Add RetroDECK to Steam
-
-A tool that adds RetroDECK to Steam with Art.
-
 ### M3U Multi-File Validator
 
 A tool that checks the validity of `.m3u` files.
 
-## Steam Sync
+### Repair Paths
+
+A tool that Repairs RetroDECK's folder paths without needing a reset. 
+
+### Change logging level 
+
+A tool that lets the user generate more or less logs.
+
+## Steam Tools
+
+### Add RetroDECK to Steam
+
+A tool that adds RetroDECK to Steam with Art.
+
+### Automatic Steam Sync
 
 This enables or disables the Steam Sync feature.
 
@@ -163,9 +168,27 @@ Read more here:
 
 [SRM Guide](../srm/srm-guide.md) 
 
+### Manual Steam Sync
+
+Performs a Manual Steam Sync.
+
+Read more here: 
+
+[SRM Guide](../srm/srm-guide.md) 
+
+
+### Purge Steam Sync Shortcuts
+
+A tool that removes all Steam Synced Shortcuts. This is useful if something is wrong and you want to resync again. 
+
+
 ## Data Mangement
 
 <img src="../classic-configurator-data.png" width="800">
+
+### Backup RetroDECK
+
+Creates backup .zip files of various userdata you choose in RetroDECK.
 
 ### Move Tools
 

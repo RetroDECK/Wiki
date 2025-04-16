@@ -22,15 +22,9 @@ RetroDECK updates through your software center, just like other system updates.
 
 By being an all-in-one flatpak application RetroDECK is sandboxed and contained. Thus put all important files from all software in a minimal amount of locations, instead of having them spread out over your entire system. That also makes RetroDECK very easy to remove and clean-up (if you so wish).
 
-
-### Saves Space
-
-RetroDECK also saves space comparing to installing all emulators separately as we can cross reference libraries and functions the Emulators / Engines have in common and only ship one instead of several.
-
 ### RetroDECK Configurator
 
 The RetroDECK Configurator, accessible from the ES-DE main menu, allows you to change and configure settings across many systems from one interface.
-
 
 ## What software and features are included in RetroDECK?
 
@@ -53,7 +47,7 @@ Some features that are still being worked on include:
 - STFP / FTP
 - Better gyro support
 - Dynamic external display resolution support
-- Emulators & Engines supported by default ES-DE
+- Adding most systems that are supported by ES-DE (Emulators, Engines, Other)
 - A rebuilt Configurator and first run installer in Godot
 - Better art: Mascot, Easter Eggs, Logos
 - A multi-user system with user profiles

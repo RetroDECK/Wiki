@@ -57,17 +57,13 @@ Navigate to a game in ES-DE and press the `north button` to mark it as a favorit
 
 <img src="../sync-prompt.png" width="800">
 
-
-Enable the Steam Sync feature inside the Configurator by pressing `Yes`.
+Enable the Automatic Steam Sync feature inside the Configurator by pressing `Yes`.
 
 ### Step 3: Exit RetroDECK to start the Sync
 
 <img src="../sync-loading.png" width="800">
 
-
-**Note:** This process might take a while based on your hardware and game library size.
-
-You can leave the sync window running in the background and use another app or play another game.
+This process might take a while based on your hardware and game library size. The Steam Sync will only happen when changes are made to the favorite lists. 
 
 ### Step 4: Restart / Reload Steam
 
@@ -76,8 +72,6 @@ Steam needs to be restarted before the games show up in your library.
 For the Steam Deck, you can either restart the device or switch from `Game Mode` to `Desktop Mode` and back to `Game Mode` to relaunch Steam.
 
 On a PC, simply `Exit Steam` and relaunch it as usual.
-
-
 
 ### Step 5: Results
 

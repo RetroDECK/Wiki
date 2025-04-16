@@ -14,3 +14,20 @@ But that decision will show up in the logs, as
 
  ".bin file NOT found at $file_path/$line"
  ".cue file could not be validated. Please verify your .cue file contains the correct corresponding .bin file information and retry."
+
+ And for reference on chd compression, the list we have approved is:
+
+"3do",
+ "amigacd32",
+ "dreamcast",
+ "megacd",
+ "neogeocd",
+ "pcenginecd",
+ "pcfx",
+ "psp",
+ "psx",
+ "ps2",
+ "saturn",
+ "saturnjp",
+ "segacd",
+ "tg-cd"

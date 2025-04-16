@@ -41,7 +41,7 @@ Consider renaming games that contain these symbols.
 | Launch Scripts Folder | `retrodeck/roms/.sync/`   |  This hidden folder contains the auto generated launch scripts for Steam as `.sh` files.   |         | 
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/config/steam-rom-manager/`         |   |
 
-## How-to enable Steam Sync?
+## How-to: Enable Steam Sync
 
 Games marked as favorites in ES-DE (with a ⭐ or another icon depending on theme) will sync to Steam with their artwork when you exit the application. They will appear in Steam after you restart it.
 
@@ -53,11 +53,11 @@ Navigate to a game in ES-DE and press the `north button` to mark it as a favorit
 
 ### Step 2: Enable in Configurator
 
-<img src="../sync-config.png" width="800">
+<img src="../steam-tools-menu.png" width="800">
 
 <img src="../sync-prompt.png" width="800">
 
-Enable the Automatic Steam Sync feature inside the Configurator by pressing `Yes`.
+Navigate to -> `RetroDECK Configurator` -> `Steam Tools` -> `Automatic Steam Sync` and enable it by pressing `Yes`.
 
 ### Step 3: Exit RetroDECK to start the Sync
 
@@ -79,7 +79,7 @@ On a PC, simply `Exit Steam` and relaunch it as usual.
 
 If everything went correctly, the games should now be added to Steam.
 
-## How-to disable Steam Sync?
+## How-to: Disable Steam Sync
 
 Go into the Configurator and press Steam Sync. 
 
@@ -89,7 +89,23 @@ Just press `Yes` in the prompt.
 
 This will also remove your favorites from Steam.
 
-## How to add RetroDECK doom files using Steam Sync - Grid and Tear Project
+## Steam Sync Tips
+
+### Purge Tool
+
+If you have for some reason messed up the synced games.
+
+Then you can perform a purge of all synced games with the purge tool and then sync again.
+
+Navigate to -> `RetroDECK Configurator` -> `Steam Tools` -> `Automatic Steam Sync` and enable it by pressing `Yes`.
+
+### Manual Sync
+
+If you don't want to have `Automatic Steam Sync` you can then perform an `Manual Steam Sync` each time you want instead. 
+
+Navigate to -> `RetroDECK Configurator` -> `Steam Tools` -> `Manual Steam Sync`.
+
+## How-to: Grid and Tear Project - Add RetroDECK .doom files
 
 <img src="../brutaldoom.png" width="800">
 
@@ -124,7 +140,7 @@ Yes, you can open the entire SRM interface from the Configurator. You can tweak 
 
 To access it, go to: 
 
-`Configurator` -> `Open Emulator / Component` -> `Steam Rom Manager`. 
+`Configurator` -> `Open Component` -> `Steam Rom Manager`. 
 
 If you break something, you can reset it to default via:
 

@@ -156,6 +156,8 @@ A tool that lets the user generate more or less logs.
 
 ## Steam Tools
 
+<img src="../classic-configurator-steam-tools.png" width="800">
+
 ### Add RetroDECK to Steam
 
 A tool that adds RetroDECK to Steam with Art.

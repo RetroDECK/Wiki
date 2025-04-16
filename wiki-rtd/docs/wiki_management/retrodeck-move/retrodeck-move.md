@@ -1,6 +1,6 @@
 # How do I move RetroDECK to a new device
 
-<img src="../../wiki_icons/pixelitos/system-switch-user.png" width="75">
+<img src="../../../wiki_icons/pixelitos/system-switch-user.png" width="75">
 
 ## Information on moving RetroDECK
 
@@ -61,7 +61,7 @@ Depending on how comfortable you are using the Steam Deck controller to navigate
 5. Copy the backup folder to the same (or new) location on the new device.
 6. Launch RetroDECK on the new device and point it to the `retrodeck/` folder location during installation. If you moved `retrodeck/` to the SD card, select the SD card option. If you moved it to internal storage (home/), select that option. Otherwise, choose the custom option.
 
-[Steam Deck - Installation and Updates](../wiki_devices/steamdeck/steamdeck-start.md)
+[Steam Deck - Installation and Updates](../../wiki_devices/steamdeck/steamdeck-start.md)
 
 ## Quickguide - Linux Desktop
 
@@ -73,7 +73,7 @@ Depending on how comfortable you are using the Steam Deck controller to navigate
 
 After that, you can continue following the installation guide if you are unsure on progress the installation, here:
 
-[Linux Desktop - Installation and Updates](../wiki_devices/linux_desktop/linux-install.md) if you are unsure on progress the installation.
+[Linux Desktop - Installation and Updates](../../wiki_devices/linux_desktop/linux-install.md) if you are unsure on progress the installation.
 
 
 ## Full step by step guide - Steam Deck - Only Move retrodeck/
@@ -94,7 +94,7 @@ Depending on how comfortable you are using the Steam Deck controller to navigate
 
 ### Step 2:  Install RetroDECK on Your New Steam Deck
 
-Follow the installation guide over at: [Steam Deck - Installation and Updates](../wiki_devices/steamdeck/steamdeck-start.md)
+Follow the installation guide over at: [Steam Deck - Installation and Updates](../../wiki_devices/steamdeck/steamdeck-start.md)
 
 ### Step 3: Restore Your Backed-Up Files
 
@@ -134,7 +134,7 @@ files to the new Steam Deck. Or use a transfer software like warpinator to send 
 
 Follow the installation guide over at: but don't open RetroDECK at all after you have installed it form Discover. 
 
-Follow the installation guide over at: [Steam Deck - Installation and Updates](../wiki_devices/steamdeck/steamdeck-start.md)  but don't open RetroDECK at all after you have installed it from Discover.
+Follow the installation guide over at: [Steam Deck - Installation and Updates](../../wiki_devices/steamdeck/steamdeck-start.md)  but don't open RetroDECK at all after you have installed it from Discover.
 
 
 ### Step 3: Restore your backed up files

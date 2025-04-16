@@ -104,15 +104,15 @@ nav:
   - Guides - RetroDECK Management 🧰:
 
     - RetroDECK Configurator: wiki_system_guides/configurator/configurator.md
-    - RetroDECK Folders : wiki_management/retrodeck-folders.md
-    - Backup RetroDECK : wiki_management/retrodeck-backup.md
-    - Update RetroDECK : wiki_management/retrodeck-update.md
-    - Remove RetroDECK: wiki_management/retrodeck-remove.md
-    - Add RetroDECK to Steam: wiki_management/add-to-steam.md
-    - Move RetroDECK to Another Device: wiki_management/retrodeck-move.md
-    - BIOS/Firmware: wiki_management/bios-firmware.md
-    - Multidisk/file Games: wiki_management/multi-disk.md
-    - Spreading Files over Multiple Drives: wiki_management/spread-files.md
+    - RetroDECK Folders : wiki_management/retrodeck-folders/retrodeck-folders.md
+    - Backup RetroDECK : wiki_management/retrodeck-backup/retrodeck-backup.md
+    - Update RetroDECK : wiki_management/retrodeck-update/retrodeck-update.md
+    - Remove RetroDECK: wiki_management/retrodeck-remove/retrodeck-remove.md
+    - Add RetroDECK to Steam: wiki_management/add-to-steam/add-to-steam.md
+    - Move RetroDECK to Another Device: wiki_management/retrodeck-move/retrodeck-move.md
+    - BIOS/Firmware: wiki_management/bios-firmware/bios-firmware.md
+    - Multidisk/file Games: wiki_management/multi-disk/multi-disk.md
+    - Spreading Files over Multiple Drives: wiki_management/spread-files/spread-files.md
 
   - Guides - Steam Deck 🕹️:
 
@@ -206,7 +206,7 @@ nav:
 
   - Other Guides 💭:
 
-    - Software Recommendations: wiki_management/software-recommendations.md
+    - Software Recommendations: wiki_management/software-recommendations/software-recommendations.md
 
   - Experiments ⚗️:
 

@@ -44,7 +44,7 @@ Place BIOS & Firmware files in the `retrodeck/bios/` directory.
 
 **Read up on:** 
 
-[BIOS/Firmware](../wiki_management/bios-firmware.md)
+[BIOS/Firmware](../wiki_management/bios-firmware/bios-firmware.md)
 
 ### Step 3: Place ROMs and Games
 
@@ -63,7 +63,7 @@ You have an example NES game called: `ExampleNESGame.nes`
 
 **Read up on:** 
 
-[RetroDECK Folders](../wiki_management/retrodeck-folders.md)
+[RetroDECK Folders](../wiki_management/retrodeck-folders/retrodeck-folders.md)
 
 ### Step 4: Read the ES-DE Frontend & RetroDECK Hotkey Guides
 

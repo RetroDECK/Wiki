@@ -26,15 +26,15 @@ Read more on: [RetroDECK Configurator 🛠️](../wiki_system_guides/configurato
 
 ## How Do I Update RetroDECK?
 
-Check the guide at: [How-to: Update RetroDECK](../wiki_management/retrodeck-update.md)
+Check the guide at: [How-to: Update RetroDECK](../wiki_management/retrodeck-update/retrodeck-update.md)
 
 ## How Do I Remove RetroDECK?
 
-Check the guide at: [How-to: Remove RetroDECK ](../wiki_management/retrodeck-remove.md)
+Check the guide at: [How-to: Remove RetroDECK ](../wiki_management/retrodeck-remove/retrodeck-remove.md)
 
 ## How do I move RetroDECK to a New Device?
 
-Check the guide at: [How-to: Move RetroDECK to a New Device](../wiki_management/retrodeck-move.md)
+Check the guide at: [How-to: Move RetroDECK to a New Device](../wiki_management/retrodeck-move/retrodeck-move.md)
 
 ## Where to Find Logfiles?
 

@@ -1,6 +1,6 @@
 # How-to: Backup RetroDECK
 
-<img src="../../wiki_icons/pixelitos/folder-blue-backup.png" width="75">
+<img src="../../../wiki_icons/pixelitos/folder-blue-backup.png" width="75">
 
 ## The Backup RetroDECK Tool
 

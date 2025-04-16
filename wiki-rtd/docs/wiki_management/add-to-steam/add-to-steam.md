@@ -1,6 +1,6 @@
 # Adding RetroDECK to Steam
 
-<img src="../../wiki_icons/pixelitos/steam.png" width="75">
+<img src="../../../wiki_icons/pixelitos/steam.png" width="75">
 
 There are several ways to add RetroDECK to Steam. If you have the Flatpak version of Steam installed, you need to do some extra steps for everything to work.
 

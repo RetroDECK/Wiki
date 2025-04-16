@@ -1,6 +1,6 @@
 # How-to: Update RetroDECK
 
-<img src="../../wiki_icons/pixelitos/folder-blue-sync.png" width="75">
+<img src="../../../wiki_icons/pixelitos/folder-blue-sync.png" width="75">
 
 There are several ways to update RetroDECK.
 
@@ -22,7 +22,7 @@ Type, `flatpak update -y` to update all installed flatpaks.
 
 If you have Decky installed and the AutoFlatpaks plugin, you can update RetroDECK from there via `Game Mode`.
 
-Read more here: [Software Recommendations](../wiki_management/software-recommendations.md).
+Read more here: [Software Recommendations](../../wiki_management/software-recommendations/software-recommendations.md).
 
 ## Questions
 

@@ -1,6 +1,6 @@
 # RetroDECK Folder Structure
 
-<img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="75">
+<img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="75">
 
 Here is the RetroDECK folder structure.
 

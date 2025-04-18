@@ -48,7 +48,7 @@ Run the following command:
 3. Put the BIOS files inside `retrodeck/bios/`.
 4. Put the ROMs & game files inside `retrodeck/roms/`.
 5. Choose to install Steam Controller Templates for RetroDECK (this should be checked by default) during installation.
-6. Add RetroDECK to Steam: [How-to: Add RetroDECK to Steam](../../wiki_management/add-to-steam/add-to-steam.md).
+6. Add RetroDECK to Steam: [How-to: Add RetroDECK to Steam](../../wiki_tool_guides/add-to-steam/add-to-steam.md).
 7. Connect your controller to your desktop and navigate to RetroDECK in Steam.
 8. Apply controller Templates in Steam: [Supported Controllers / Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md).
 9. Launch RetroDECK and enjoy!

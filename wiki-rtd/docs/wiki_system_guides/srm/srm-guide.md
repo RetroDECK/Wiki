@@ -1,6 +1,6 @@
 # Steam ROM Manager (SRM) - General Guide
 
-<img src="../../../wiki_images/logos/srm-logo.png" width="150">
+<img src="../../../wiki_images/logos/srm-logo.png" width="100">
 
 Steam ROM Manager is a tool that helps you import games in bulk and manage artwork for Steam. It has been integrated into RetroDECK since version 0.9.0b. 
 
@@ -34,12 +34,18 @@ Some games have symbols in their names that can cause issues with the parser, pr
 
 Consider renaming games that contain these symbols.
 
+---
+
 ## Folder structure
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
 | Launch Scripts Folder | `retrodeck/roms/.sync/`   |  This hidden folder contains the auto generated launch scripts for Steam as `.sh` files.   |         | 
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/config/steam-rom-manager/`         |   |
+
+
+---
+
 
 ## How-to: Enable Steam Sync
 
@@ -78,6 +84,7 @@ On a PC, simply `Exit Steam` and relaunch it as usual.
 <img src="../steam-burger.png" width="800">
 
 If everything went correctly, the games should now be added to Steam.
+---
 
 ## How-to: Disable Steam Sync
 
@@ -89,7 +96,19 @@ Just press `Yes` in the prompt.
 
 This will also remove your favorites from Steam.
 
-## Steam Sync Tips
+
+---
+
+
+### How-to: Do a Manual Sync
+
+If you don't want to have `Automatic Steam Sync` you can then perform an `Manual Steam Sync` each time you want instead. 
+
+Navigate to -> `RetroDECK Configurator` -> `Steam Tools` -> `Manual Steam Sync`.
+
+---
+
+## Steam Sync Tips & Troubleshooting
 
 ### Purge Tool
 
@@ -99,13 +118,22 @@ Then you can perform a purge of all synced games with the purge tool and then sy
 
 Navigate to -> `RetroDECK Configurator` -> `Steam Tools` -> `Automatic Steam Sync` and enable it by pressing `Yes`.
 
-### Manual Sync
 
-If you don't want to have `Automatic Steam Sync` you can then perform an `Manual Steam Sync` each time you want instead. 
+### Games don't sync
 
-Navigate to -> `RetroDECK Configurator` -> `Steam Tools` -> `Manual Steam Sync`.
+If games don't sync check the following:
 
-## How-to: Grid and Tear Project - Add RetroDECK .doom files
+- Is [SteamGridDB](https://www.steamgriddb.com/) up?
+- Are the games supported in [SteamGridDB](https://www.steamgriddb.com/) ?
+- Sometimes SteamGridDB also only have one region of a game usually the US version in the database and you might need to rename the game to that name.
+- Have you restarted Steam?
+- Do the games contain any problematic symbols (check above)?
+- Have you tried to used the purge tool and resynced? 
+- Check
+
+---
+
+## How-to: Add RetroDECK .doom files with the Grid and Tear Project 
 
 <img src="../brutaldoom.png" width="800">
 
@@ -132,6 +160,8 @@ The file in this case is called `Brutal Doom.doom`.
 
 [Guide: How to create RetroDECK .doom file](../../wiki_engine_guides/gzdoom/retrodeck-doomfile.md)
 
+---
+
 ## Can I do advanced tweaking in SRM?
 
 <img src="../srm-window.png" width="800">
@@ -145,6 +175,8 @@ To access it, go to:
 If you break something, you can reset it to default via:
 
 `Configurator` -> `Troubleshooting` -> `Reset` -> `Component` -> `Steam Rom Manager`. 
+
+---
 
 ## How does it work? 
 

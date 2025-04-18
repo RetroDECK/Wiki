@@ -44,7 +44,7 @@ It can help with:
 
 **Read more here:**
 
-[RetroDECK Configurator](../wiki_system_guides/configurator/configurator.md).
+[RetroDECK Configurator](../wiki_tool_guides/configurator/configurator.md).
 
 ### RetroENGINE
 

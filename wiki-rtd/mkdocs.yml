@@ -101,14 +101,18 @@ nav:
     - Different Button Prompts in Games: wiki_rd_controls/diffrent-game-inputs.md
     - Udev Rules: wiki_rd_controls/about-udev.md
 
-  - Guides - RetroDECK Management 🧰:
+  - Guides - RetroDECK Tools 🧰:
 
-    - RetroDECK Configurator: wiki_system_guides/configurator/configurator.md
+    - RetroDECK Configurator: wiki_tool_guides/configurator/configurator.md
+    - Backup RetroDECK : wiki_tool_guides/retrodeck-backup/retrodeck-backup.md
+    - Add RetroDECK to Steam: wiki_tool_guides/add-to-steam/add-to-steam.md
+    - Ponzu AppImage Loader: wiki_tool_guides/ponzu/ponzu-guide.md
+
+  - Guides - RetroDECK Management 📁:
+
     - RetroDECK Folders : wiki_management/retrodeck-folders/retrodeck-folders.md
-    - Backup RetroDECK : wiki_management/retrodeck-backup/retrodeck-backup.md
     - Update RetroDECK : wiki_management/retrodeck-update/retrodeck-update.md
     - Remove RetroDECK: wiki_management/retrodeck-remove/retrodeck-remove.md
-    - Add RetroDECK to Steam: wiki_management/add-to-steam/add-to-steam.md
     - Move RetroDECK to Another Device: wiki_management/retrodeck-move/retrodeck-move.md
     - BIOS/Firmware: wiki_management/bios-firmware/bios-firmware.md
     - Multidisk/file Games: wiki_management/multi-disk/multi-disk.md
@@ -201,8 +205,6 @@ nav:
     - RetroENGINE 👨‍🔧:
       - RetroENGINE - General Guide: wiki_system_guides/retroengine/retroengine-guide.md
 
-    - Ponzu 🍶:
-      - Ponzu - General Guide: wiki_system_guides/ponzu/ponzu-guide.md
 
   - Other Guides 💭:
 

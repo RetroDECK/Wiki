@@ -16,7 +16,7 @@ RetroDECK uses Steam Input for advanced controller mapping. More controllers wil
 
 ### Add RetroDECK to Steam
 
-Read more here: [How-to: Add RetroDECK to Steam](../wiki_management/add-to-steam/add-to-steam.md)
+Read more here: [How-to: Add RetroDECK to Steam](../wiki_tool_guides/add-to-steam/add-to-steam.md)
 
 ## Applying the Templates
 

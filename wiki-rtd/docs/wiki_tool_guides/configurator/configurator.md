@@ -168,7 +168,7 @@ This enables or disables the Steam Sync feature.
 
 Read more here: 
 
-[SRM Guide](../srm/srm-guide.md) 
+[SRM Guide](../../wiki_system_guides/srm/srm-guide.md) 
 
 ### Manual Steam Sync
 
@@ -176,7 +176,7 @@ Performs a Manual Steam Sync.
 
 Read more here: 
 
-[SRM Guide](../srm/srm-guide.md) 
+[SRM Guide](../../wiki_system_guides/srm/srm-guide.md) 
 
 
 ### Purge Steam Sync Shortcuts

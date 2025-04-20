@@ -8,6 +8,8 @@ Ryujinx was a Switch emulator.
 
 As of RetroDECK `0.9.0b` Ryujinx is marked as Legacy and has stopped it's development.
 
+It also does not work a 100% as it should as the update that where supposed to fix symlink issues never materialized. 
+
 ## Where to put the games?
 
 Switch games should be put into the `retrodeck/roms/switch/` directory.
@@ -62,7 +64,7 @@ Or you can put them anywhere as they need to be installed via:
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| Saves Folder |`retrodeck/saves/switch/ryujinx/` |      Contains the `nand`, `sdcard` folders                       |  
+| Saves Folder |`retrodeck/saves/switch/ryujinx/` or `~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/bis/user/save/`|      Contains the `nand`, `sdcard` folders, suffers sometimes from symlink issues    |  
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/`         |   Contains most of Ryujinx internal folders|
 | BIOS Folder | `retrodeck/bios/switch/` | Contains the `firmware`, `keys` folders  |
 | Alternate Keys Folder | `~/.var/app/net.retrodeck.retrodeck/config/Ryujinx/system/` |  |

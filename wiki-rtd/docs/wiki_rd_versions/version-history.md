@@ -42,3 +42,30 @@
 - [0.5.2b](version_0.5.0b/0.5.2b.md)
 - [0.5.1b](version_0.5.0b/0.5.1b.md)
 - [0.5.0b](version_0.5.0b/0.5.0b.md)
+
+## 0.4.0b Branch
+
+- [0.4.5b](version_0.4.0b/0.4.5b.md)
+- [0.4.4b](version_0.4.0b/0.4.4b.md)
+- [0.4.3b](version_0.4.0b/0.4.3b.md)
+- [0.4.2b](version_0.4.0b/0.4.2b.md)
+- [0.4.1b](version_0.4.0b/0.4.1b.md)
+- [0.4.0b](version_0.4.0b/0.4.0b.md)
+
+## 0.3.0b Branch
+
+- [0.3.1b](version_0.3.0b/0.3.1b.md)
+- [0.3.0b](version_0.3.0b/0.3.0b.md)
+
+## 0.2.0b Branch
+
+- [0.2.0b](version_0.2.0b/0.2.0b.md)
+
+## 0.1.0b Branch
+
+- [0.1.1b](version_0.1.0b/0.1.1b.md)
+- [0.1.0b](version_0.1.0b/0.1.0b.md)
+
+## 0.1.0a Branch
+
+- [0.1.0a](version_0.1.0a/0.1.0a.md)

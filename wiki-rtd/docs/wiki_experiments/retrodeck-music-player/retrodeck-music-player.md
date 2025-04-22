@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_icons/pixelitos/applications-multimedia.png" width="75">
 
-This experiment was initiated by the user **Partack** and later expanded upon by the RetroDECK Team. **Partack** goal was to explore the possibility of doing custom scripts to enable very basic music playback in ES-DE.
+This experiment was initiated by the users **Partack** and **TopHatCat**, then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of doing custom scripts to enable very basic music playback in ES-DE.
 
 **Note:** That ES-DE is working on a built-in Music Player already that will arrive in an upcoming update (it will be better then this).
 
@@ -16,7 +16,7 @@ The scripts supports `.mp3`, `.ogg`, `.flac` and `.wav` music files.
 
 ## Prerequisites 
 
-- Create the `retrodeck/music` folder.
+- Manually create the `retrodeck/music` folder.
 - Enable the Custom Event Scripts in ES-DE: Go to the `ES-DE Main Menu` -> `ES-DE Configurations` -> `Other Settings` -> `Enable Custom Event Scripts`.
 
 ## How-to: Play Music

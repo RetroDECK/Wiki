@@ -306,6 +306,8 @@ nav:
   - RetroDECK Experiments ⚗️:
 
     - About Experiments: wiki_experiments/about-experiments.md
+    - Autoboot into RetroDECK not Game Mode: wiki_experiments/retrodeck-gamemode-boot/retrodeck-gamemode-boot.md
+    - ES-DE Background Music:  wiki_experiments/retrodeck-music-player/retrodeck-music-player.md
     - Launch Desktop Games & Apps:
       - Launch Flatpak - Games & Apps: wiki_experiments/desktop-launch/desktop-launch-flatpak.md
       - Launch Prism Launcher - Minecraft Instances: wiki_experiments/desktop-launch/desktop-launch-prism.md
@@ -313,7 +315,6 @@ nav:
       - Launch Steam - Games: wiki_experiments/desktop-launch/desktop-launch-steam.md
       - Launch Lutris - Games: wiki_experiments/desktop-launch/desktop-launch-lutris.md
     - Launch External Emulators: wiki_experiments/external-emulator/external-emulator.md
-    - Autoboot into RetroDECK not Game Mode: wiki_experiments/retrodeck-gamemode-boot/retrodeck-gamemode-boot.md
     - Run RetroDECK in WSL:  wiki_experiments/retrodeck-wsl/retrodeck-wsl.md
 
   - RetroDECK Development 🧪:

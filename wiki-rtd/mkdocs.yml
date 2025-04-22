@@ -77,151 +77,9 @@ nav:
     - What is systems are included in RetroDECK?: wiki_about/what-is-included.md
     - What is the Story Behind RetroDECK?: wiki_about/story-goals.md
     - Supported Devices & OS: wiki_general/supported-devices.md
-    - Report a Problem & Known Issues: wiki_general/known-issues.md
     - Version History: wiki_rd_versions/version-history.md
 
-  - FAQ ❔:
-
-    - Documentation & Wiki: wiki_faq/faq-documentation.md
-    - Feature Requests: wiki_faq/faq-feature.md
-    - Emulation: wiki_faq/faq-emulation.md
-    - RetroDECK General: wiki_faq/faq-rd-general.md
-    - RetroDECK Usage: wiki_faq/faq-rd-usage.md
-    - SD Cards: wiki_faq/faq-sdcard.md
-
-  - Guides - RetroDECK Controls & Hotkeys 🎮:
-
-    - RetroDECK - Controller Hotkeys: wiki_rd_controls/hotkeys-retrodeck.md
-    - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
-    - RetroDECK - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
-    - Steam Deck - Gyro: wiki_rd_controls/gyro-steamdeck-neptune.md
-    - Change Controller Order: wiki_rd_controls/change-controller-order-steam.md
-    - Different Button Prompts in Games: wiki_rd_controls/diffrent-game-inputs.md
-    - Udev Rules: wiki_rd_controls/about-udev.md
-
-  - Guides - RetroDECK Tools 🧰:
-
-    - RetroDECK Configurator: wiki_tool_guides/configurator/configurator.md
-    - Backup RetroDECK : wiki_tool_guides/retrodeck-backup/retrodeck-backup.md
-    - Add RetroDECK to Steam: wiki_tool_guides/add-to-steam/add-to-steam.md
-    - Ponzu AppImage Loader: wiki_tool_guides/ponzu/ponzu-guide.md
-
-  - Guides - RetroDECK Management 📁:
-
-    - RetroDECK Folders : wiki_management/retrodeck-folders/retrodeck-folders.md
-    - Update RetroDECK : wiki_management/retrodeck-update/retrodeck-update.md
-    - Remove RetroDECK: wiki_management/retrodeck-remove/retrodeck-remove.md
-    - Move RetroDECK to Another Device: wiki_management/retrodeck-move/retrodeck-move.md
-    - BIOS/Firmware: wiki_management/bios-firmware/bios-firmware.md
-    - Multidisk/file Games: wiki_management/multi-disk/multi-disk.md
-    - Spreading Files over Multiple Drives: wiki_management/spread-files/spread-files.md
-
-  - Guides - Steam Deck 🕹️:
-
-    - Steam Deck - Installation: wiki_devices/steamdeck/steamdeck-start.md
-    - Steam Deck - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
-
-  - Guides - Linux Desktop 🐧:
-
-    - Linux - Installation: wiki_devices/linux_desktop/linux-install.md
-
-  - Guides - Engines  🛠️:
-
-    - GZDoom 👹:
-      - GZDoom - General Guide: wiki_engine_guides/gzdoom/gzdoom-guide.md
-      - GZDoom - Get started on .doom files: wiki_engine_guides/gzdoom/retrodeck-doomfile.md
-      - GZDoom - Get the WADs from bought games: wiki_engine_guides/gzdoom/extract-doom-wads.md
-
-    - IkemenGO / M.U.G.E.N 🥋:
-      - IkemenGO - General Guide: wiki_engine_guides/ikemengo/ikemengo-guide.md
-
-    - Pico-8 8️⃣:
-      - Pico-8 - General Guide: wiki_engine_guides/pico8/pico8-guide.md
-
-    - ScummVM 🖱️:
-      - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
-
-    - Solarus 🌞:
-      - Solarus - General Guide: wiki_engine_guides/solarus/solarus-guide.md
-
-  - Guides - Emulators  📘:
-
-    - Cemu ⬜:
-      - Cemu - General Guide: wiki_emulator_guides/cemu/cemu-guide.md
-
-    - Dolphin / Primehack 🐬:
-      - Dolphin / Primehack - General Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md
-      - Dolphin / Primehack - Using Real Wii Remotes: wiki_emulator_guides/dolphin-primehack/dolphin-wii-remote.md
-
-    - Duckstation 🐓 (Legacy):
-      - Duckstation - General Guide: wiki_emulator_guides/duckstation/duckstation-guide.md
-
-    - MAME 💰:
-      - MAME - General Guide: wiki_emulator_guides/mame/mame-guide.md
-
-    - melonDS 🍉:
-      - melonDS - General Guide: wiki_emulator_guides/melonds/melonds-guide.md
-
-    - PCSX2 2️⃣:
-      - PCSX2 - General Guide: wiki_emulator_guides/pcsx2/pcsx2-guide.md
-
-    - PPSSPP 🔺:
-      - PPSSPP - General Guide: wiki_emulator_guides/ppsspp/ppsspp-guide.md
-
-    - RetroArch 👾:
-      - RetroArch - General Guide: wiki_emulator_guides/retroarch/retroarch-guide.md
-      - Mesen (NES) - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mesen-texture-pack.md
-      - Beetle (PSX) HW - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-beetlehw-texture-pack.md
-      - Mupen64Plus-Next (N64) - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mupen64plus-texture-pack.md
-
-    - RPCS3 3️⃣:
-      - RPCS3 - General Guide: wiki_emulator_guides/rpcs3/rpcs3-guide.md
-
-    - Ruffle 🌩️:
-      - Ruffle - General Guide: wiki_emulator_guides/ruffle/ruffle-guide.md
-
-    - Ryujinx 🔵 (Legacy):
-      - Ryujinx - General Guide: wiki_emulator_guides/ryujinx/ryujinx-guide.md
-
-    - Vita3K 🤍:
-      - Vita3K - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
-
-    - xemu ✖️:
-      - xemu - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
-
-  - Guides - ES-DE & Other Systems 🗃️:
-
-    - ES-DE 📺:
-      - ES-DE - General Guide: wiki_system_guides/es-de/esde-guide.md
-
-    - PortMaster 🚢:
-      - PortMaster - General Guide: wiki_system_guides/portmaster/portmaster-guide.md
-
-    - Steam Rom Manager 🚂:
-      - SRM - General Guide: wiki_system_guides/srm/srm-guide.md
-
-    - RetroENGINE 👨‍🔧:
-      - RetroENGINE - General Guide: wiki_system_guides/retroengine/retroengine-guide.md
-
-
-  - Other Guides 💭:
-
-    - Software Recommendations: wiki_management/software-recommendations/software-recommendations.md
-
-  - Experiments ⚗️:
-
-    - About Experiments: wiki_experiments/about-experiments.md
-    - Launch Desktop Games & Apps:
-      - Launch Flatpak - Games & Apps: wiki_experiments/desktop-launch/desktop-launch-flatpak.md
-      - Launch Prism Launcher - Minecraft Instances: wiki_experiments/desktop-launch/desktop-launch-prism.md
-      - Launch Heroic (GOG, Amazon, Epic) - Games: wiki_experiments/desktop-launch/desktop-launch-heroic.md
-      - Launch Steam - Games: wiki_experiments/desktop-launch/desktop-launch-steam.md
-      - Launch Lutris - Games: wiki_experiments/desktop-launch/desktop-launch-lutris.md
-    - Launch External Emulators: wiki_experiments/external-emulator/external-emulator.md
-    - Autoboot into RetroDECK not Game Mode: wiki_experiments/retrodeck-gamemode-boot/retrodeck-gamemode-boot.md
-    - Run RetroDECK in WSL:  wiki_experiments/retrodeck-wsl/retrodeck-wsl.md
-
-  - The Controller Vault 🎮:
+  - Controller Vault 🎮:
 
     - Accessibility ♿:
       - About Accessibility Controllers: wiki_controllers/accessibility/about-accessibility.md
@@ -313,7 +171,152 @@ nav:
       - Xbox One/S/X - Xbox Wireless Controller: wiki_controllers/xbox/xbox-wireless.md
       - Xbox S/X - Xbox Elite Series 2: wiki_controllers/xbox/xbox-wireless-elite.md
 
-  - Development 🧪:
+  - Contributing & Donations 🤝:
+      - How to Contribute?: wiki_about/contibute-retrodeck.md
+      - Donations & Licenses: wiki_about/donations-licenses.md
+
+
+  - FAQ ❔:
+
+    - Documentation & Wiki: wiki_faq/faq-documentation.md
+    - Feature Requests: wiki_faq/faq-feature.md
+    - Emulation: wiki_faq/faq-emulation.md
+    - RetroDECK General: wiki_faq/faq-rd-general.md
+    - RetroDECK Usage: wiki_faq/faq-rd-usage.md
+    - SD Cards: wiki_faq/faq-sdcard.md
+
+  - Guides - RetroDECK Controls & Hotkeys 🎮:
+
+    - RetroDECK - Controller Hotkeys: wiki_rd_controls/hotkeys-retrodeck.md
+    - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
+    - RetroDECK - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
+    - Steam Deck - Gyro: wiki_rd_controls/gyro-steamdeck-neptune.md
+    - Change Controller Order: wiki_rd_controls/change-controller-order-steam.md
+    - Different Button Prompts in Games: wiki_rd_controls/diffrent-game-inputs.md
+    - Udev Rules: wiki_rd_controls/about-udev.md
+
+  - Guides - RetroDECK Tools 🧰:
+
+    - RetroDECK Configurator: wiki_tool_guides/configurator/configurator.md
+    - Backup RetroDECK : wiki_tool_guides/retrodeck-backup/retrodeck-backup.md
+    - Add RetroDECK to Steam: wiki_tool_guides/add-to-steam/add-to-steam.md
+    - Ponzu AppImage Loader: wiki_tool_guides/ponzu/ponzu-guide.md
+
+  - Guides - RetroDECK Management 📁:
+
+    - RetroDECK Folders : wiki_management/retrodeck-folders/retrodeck-folders.md
+    - Update RetroDECK : wiki_management/retrodeck-update/retrodeck-update.md
+    - Remove RetroDECK: wiki_management/retrodeck-remove/retrodeck-remove.md
+    - Move RetroDECK to Another Device: wiki_management/retrodeck-move/retrodeck-move.md
+    - BIOS/Firmware: wiki_management/bios-firmware/bios-firmware.md
+    - Multidisk/file Games: wiki_management/multi-disk/multi-disk.md
+    - Spreading Files over Multiple Drives: wiki_management/spread-files/spread-files.md
+    - Report a Problem & Known Issues: wiki_general/known-issues.md
+    - Software Recommendations: wiki_management/software-recommendations/software-recommendations.md
+
+  - Guides - Devices 🕹️:
+
+    - Linux Desktop:
+      - Linux - Installation: wiki_devices/linux_desktop/linux-install.md
+
+    - Steam Deck:
+      - Steam Deck - Installation: wiki_devices/steamdeck/steamdeck-start.md
+      - Steam Deck - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
+
+  - Guides - Engines 🛠️:
+
+    - GZDoom 👹:
+      - GZDoom - General Guide: wiki_engine_guides/gzdoom/gzdoom-guide.md
+      - GZDoom - Get started on .doom files: wiki_engine_guides/gzdoom/retrodeck-doomfile.md
+      - GZDoom - Get the WADs from bought games: wiki_engine_guides/gzdoom/extract-doom-wads.md
+
+    - IkemenGO / M.U.G.E.N 🥋:
+      - IkemenGO - General Guide: wiki_engine_guides/ikemengo/ikemengo-guide.md
+
+    - Pico-8 8️⃣:
+      - Pico-8 - General Guide: wiki_engine_guides/pico8/pico8-guide.md
+
+    - ScummVM 🖱️:
+      - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
+
+    - Solarus 🌞:
+      - Solarus - General Guide: wiki_engine_guides/solarus/solarus-guide.md
+
+  - Guides - Emulators  📘:
+
+    - Cemu ⬜:
+      - Cemu - General Guide: wiki_emulator_guides/cemu/cemu-guide.md
+
+    - Dolphin / Primehack 🐬:
+      - Dolphin / Primehack - General Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md
+      - Dolphin / Primehack - Using Real Wii Remotes: wiki_emulator_guides/dolphin-primehack/dolphin-wii-remote.md
+
+    - Duckstation 🐓 (Legacy):
+      - Duckstation - General Guide: wiki_emulator_guides/duckstation/duckstation-guide.md
+
+    - MAME 💰:
+      - MAME - General Guide: wiki_emulator_guides/mame/mame-guide.md
+
+    - melonDS 🍉:
+      - melonDS - General Guide: wiki_emulator_guides/melonds/melonds-guide.md
+
+    - PCSX2 2️⃣:
+      - PCSX2 - General Guide: wiki_emulator_guides/pcsx2/pcsx2-guide.md
+
+    - PPSSPP 🔺:
+      - PPSSPP - General Guide: wiki_emulator_guides/ppsspp/ppsspp-guide.md
+
+    - RetroArch 👾:
+      - RetroArch - General Guide: wiki_emulator_guides/retroarch/retroarch-guide.md
+      - Mesen (NES) - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mesen-texture-pack.md
+      - Beetle (PSX) HW - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-beetlehw-texture-pack.md
+      - Mupen64Plus-Next (N64) - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mupen64plus-texture-pack.md
+
+    - RPCS3 3️⃣:
+      - RPCS3 - General Guide: wiki_emulator_guides/rpcs3/rpcs3-guide.md
+
+    - Ruffle 🌩️:
+      - Ruffle - General Guide: wiki_emulator_guides/ruffle/ruffle-guide.md
+
+    - Ryujinx 🔵 (Legacy):
+      - Ryujinx - General Guide: wiki_emulator_guides/ryujinx/ryujinx-guide.md
+
+    - Vita3K 🤍:
+      - Vita3K - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
+
+    - xemu ✖️:
+      - xemu - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
+
+  - Guides - Systems 🗃️:
+
+    - ES-DE Frontend 📺:
+      - ES-DE - General Guide: wiki_system_guides/es-de/esde-guide.md
+
+    - PortMaster 🚢:
+      - PortMaster - General Guide: wiki_system_guides/portmaster/portmaster-guide.md
+
+    - Steam Rom Manager 🚂:
+      - SRM - General Guide: wiki_system_guides/srm/srm-guide.md
+
+    - RetroENGINE 👨‍🔧:
+      - RetroENGINE - General Guide: wiki_system_guides/retroengine/retroengine-guide.md
+
+
+
+  - RetroDECK Experiments ⚗️:
+
+    - About Experiments: wiki_experiments/about-experiments.md
+    - Launch Desktop Games & Apps:
+      - Launch Flatpak - Games & Apps: wiki_experiments/desktop-launch/desktop-launch-flatpak.md
+      - Launch Prism Launcher - Minecraft Instances: wiki_experiments/desktop-launch/desktop-launch-prism.md
+      - Launch Heroic (GOG, Amazon, Epic) - Games: wiki_experiments/desktop-launch/desktop-launch-heroic.md
+      - Launch Steam - Games: wiki_experiments/desktop-launch/desktop-launch-steam.md
+      - Launch Lutris - Games: wiki_experiments/desktop-launch/desktop-launch-lutris.md
+    - Launch External Emulators: wiki_experiments/external-emulator/external-emulator.md
+    - Autoboot into RetroDECK not Game Mode: wiki_experiments/retrodeck-gamemode-boot/retrodeck-gamemode-boot.md
+    - Run RetroDECK in WSL:  wiki_experiments/retrodeck-wsl/retrodeck-wsl.md
+
+  - RetroDECK Development 🧪:
 
     - Social Rules ❤️:
       - Discord/Matrix: wiki_development/social/discord-matrix.md
@@ -347,11 +350,6 @@ nav:
       - Cooker Testing - Guide: wiki_development/testing/cooker-testing.md
       - Expermental Features: wiki_development/testing/experimental-features.md
 
-  - Contributing & Donations 🤝:
-
-      - How to Contribute?: wiki_about/contibute-retrodeck.md
-      - Donations & Licenses: wiki_about/donations-licenses.md
-
   - Archive 📂:
 
     - Citra 🍋 (Archive):
@@ -359,3 +357,5 @@ nav:
 
     - Yuzu 🔴 (Archive):
       - Yuzu - General Guide: wiki_archive/yuzu/yuzu-guide.md
+
+

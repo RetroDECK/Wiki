@@ -36,18 +36,28 @@ Extract them into:
 ~/.var/app/net.retrodeck.retrodeck/config/ES-DE/scripts/
 ```
 
-- Open the terminal and run the following command (makes the scripts executable): `chmod +x ~/.var/app/net.retrodeck.retrodeck/config/ES-DE/scripts/**/*.sh`.
-- Place your music files into the `retrodeck/music` folder.
+Open the terminal and run the following command (makes the scripts executable): `chmod +x
+
+```
+~/.var/app/net.retrodeck.retrodeck/config/ES-DE/scripts/**/*.sh
+
+```
+
+Place your music files into the `retrodeck/music` folder.
 
 
 ### Additional Options
 
 There are some options in the `music_startup.sh` script (in the startup folder):
 
+
+```
 MUSIC_DIR="$rdhome/music"
 CROSSFADE=true          # true or false
 CROSSFADE_DURATION=2    # in seconds
 VOLUME=0.2              # from 0.0 to 1.0
+
+```
 
 ## Uninstalling the Scripts
 

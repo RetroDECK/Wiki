@@ -23,6 +23,7 @@ theme:
   custom_dir: overrides
 
 markdown_extensions:
+  - attr_list:
   - pymdownx.highlight:
       anchor_linenums: true
       pygments_lang_class: true

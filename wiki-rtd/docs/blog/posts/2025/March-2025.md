@@ -52,9 +52,9 @@ Essentially, it runs the same process as the Configurator, rebuilding symlinks a
 
 ---
 
-## Experiments ⚗️ on the Wiki
+## RetroDECK Experiments ⚗️ on the Wiki
 
-We have added an **Experiments** ⚗️ section to the wiki. This section showcases creative projects made by users that are a bit out of scope and not supported within the standard RetroDECK experience. We try to provide guides or showcase these projects to help and inspire others who likes to tinker.
+We have added an **RetroDECK Experiments** ⚗️ section to the wiki. This section showcases creative projects made by users that are a bit out of scope and not supported within the standard RetroDECK experience. We try to provide guides or showcase these projects to help and inspire others who likes to tinker.
 
 ### murkl's experiment - Launching Desktop Apps with RetroDECK
 

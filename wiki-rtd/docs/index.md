@@ -27,13 +27,13 @@
 
 ## The RetroDECK Community Links
 
-- [The RetroDECK Blog](https://retrodeck.readthedocs.io/en/latest/blog/)
+- [RetroDECK Blog](https://retrodeck.readthedocs.io/en/latest/blog/)
+- [Blusky](https://bsky.app/profile/retrodeck.net)
 - [Discord](https://discord.gg/WDc5C9YWMx)
-- [Revolt](https://rvlt.gg/StVaEc0w) 
 - [Matrix](https://matrix.to/#/#retrodeck:matrix.org)
 - [Lemmy](https://lemmy.zip/c/retrodeck)
 - [Reddit](https://www.reddit.com/r/retrodeck)
-- [Blusky](https://bsky.app/profile/retrodeck.net)
+- [Revolt](https://rvlt.gg/StVaEc0w) 
 
 ---
 

@@ -56,13 +56,13 @@ Essentially, it runs the same process as the Configurator, rebuilding symlinks a
 
 We have added an **RetroDECK Experiments** ⚗️ section to the wiki. This section showcases creative projects made by users that are a bit out of scope and not supported within the standard RetroDECK experience. We try to provide guides or showcase these projects to help and inspire others who likes to tinker.
 
-### murkl's experiment - Launching Desktop Apps with RetroDECK
+### murkl's experiment - Launching Flatpak Apps with RetroDECK
 
-Community members **murkl** and **Daeymon** showcased that if you break the RetroDECK sandbox, you can use the `retrodeck/roms/windows/` folder to launch full Desktop Apps via RetroDECK.
+Community members **murkl** and **Daeymon** showcased that if you break the RetroDECK sandbox, you can use the `retrodeck/roms/windows/` folder to launch full Flatpak Apps via RetroDECK.
 
 **murkl** and **Daeymon** together with the RetroDECK Team wrote a guide:
 
-[Launching Desktop Games & Apps with RetroDECK](https://retrodeck.readthedocs.io/en/latest/wiki_experiments/desktop-launch/desktop-launch/)
+[Launching Flatpak Games & Apps with RetroDECK](https://retrodeck.readthedocs.io/en/latest/wiki_experiments/desktop-launch/desktop-launch-flatpak/)
 
 
 ---

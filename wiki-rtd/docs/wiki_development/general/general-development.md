@@ -2,11 +2,14 @@
 
 This is WIP
 
-| Name                    | Link                                            |
-|-------------------------|------------------------------------------------|
-| Github: Service Status  | [Link](https://www.githubstatus.com/)          |
-| Flathub: Service Status | [Link](https://status.flathub.org/)            |
-| Flathub: Buildbot       | [Link](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck) |
+!!! Tip 
+    | Name                    | Link                                            |
+    |-------------------------|------------------------------------------------|
+    | Github: Service Status  | [Link](https://www.githubstatus.com/)          |
+    | Flathub: Service Status | [Link](https://status.flathub.org/)            |
+    | Flathub: Buildbot       | [Link](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck) | 
+
+
 
 
 ## Cooker builds

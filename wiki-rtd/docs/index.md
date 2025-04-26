@@ -4,12 +4,11 @@
 
 ![Flathub](https://img.shields.io/flathub/downloads/net.retrodeck.retrodeck)
 ![Flathub](https://img.shields.io/flathub/v/net.retrodeck.retrodeck)
-![Discord](https://img.shields.io/discord/951662718102962256?label=discord)
 ![GitHub](https://img.shields.io/github/license/XargonWan/RetroDECK)
 
 ## Welcome
 
-The wiki contains a lot of information 
+Take a moment to explore the wiki! There’s tons of information waiting for you. To help you get started, here are a few useful links.
 
 ### How-to get started with RetroDECK?
 
@@ -24,9 +23,7 @@ The wiki contains a lot of information
 
 - [Supported Devices & OS](wiki_general/supported-devices.md)
 - [Supported Controllers / Hotkeys](wiki_rd_controls/hotkeys-retrodeck.md)
-
-
-
+    
 ### Links
 
 **Community**

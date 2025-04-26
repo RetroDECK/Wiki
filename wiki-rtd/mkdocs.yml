@@ -2,6 +2,11 @@
 
 site_name: RetroDECK Wiki
 site_description: The Official RetroDECK Wiki
+site_url: https://retrodeck.readthedocs.io
+site_author: RetroDECK Team
+site_description: All-in-One Retro Gaming Platform
+repo_url: https://github.com/RetroDECK/RetroDECK
+repo_name: RetroDECK/RetroDECK
 
 # Copyright
 copyright: "GPL3 - RetroDECK Team"

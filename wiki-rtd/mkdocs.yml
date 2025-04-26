@@ -31,7 +31,6 @@ theme:
    - content.tabs.link
    - content.code.annotation
    - content.code.copy
-   - version
   language: en
 
   palette:

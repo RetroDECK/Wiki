@@ -1,4 +1,4 @@
-# Welcome to the RetroDECK Wiki!
+# The RetroDECK Wiki
 
 <img src="wiki_images/logos/rd-esde-logo.svg" width="500">
 
@@ -7,55 +7,46 @@
 ![Discord](https://img.shields.io/discord/951662718102962256?label=discord)
 ![GitHub](https://img.shields.io/github/license/XargonWan/RetroDECK)
 
----
+## Welcome
 
-## How-to get started with RetroDECK?
+The wiki contains a lot of information 
+
+### How-to get started with RetroDECK?
 
 - [How-to: Start using RetroDECK](wiki_general/retrodeck-start.md)
 
-## What is RetroDECK?
+### What is RetroDECK?
 
 - [What is RetroDECK?](wiki_about/what-is-retrodeck.md)
 - [What is included in RetroDECK?](wiki_about/what-is-included.md)
 
-## What devices and operating systems are supported?
+### What devices and operating systems are supported?
 
 - [Supported Devices & OS](wiki_general/supported-devices.md)
 - [Supported Controllers / Hotkeys](wiki_rd_controls/hotkeys-retrodeck.md)
 
----
 
-## The RetroDECK Community Links
 
-- [RetroDECK Blog](https://retrodeck.readthedocs.io/en/latest/blog/)
-- [Blusky](https://bsky.app/profile/retrodeck.net)
-- [Discord](https://discord.gg/WDc5C9YWMx)
-- [Matrix](https://matrix.to/#/#retrodeck:matrix.org)
-- [Lemmy](https://lemmy.zip/c/retrodeck)
-- [Reddit](https://www.reddit.com/r/retrodeck)
-- [Revolt](https://rvlt.gg/StVaEc0w) 
+### Links
 
----
+**Community**
 
-## RetroDECK Links
+| Name                    | Link                                            |
+|-------------------------|------------------------------------------------|
+| RetroDECK Blog          | [Link](https://retrodeck.readthedocs.io/en/latest/blog/)|
+| Blusky                  | [Link](https://bsky.app/profile/retrodeck.net) |
+| Discord                 | [Link](https://discord.gg/WDc5C9YWMx)          |
+| Matrix                  | [Link](https://matrix.to/#/#retrodeck:matrix.org) |
+| Lemmy                   | [Link](https://lemmy.zip/c/retrodeck)          |
+| Reddit                  | [Link](https://www.reddit.com/r/retrodeck)     |
+| Revolt                  | [Link](https://rvlt.gg/StVaEc0w)               |
+| Github                  | [Link](https://github.com/RetroDECK/RetroDECK)          |
 
-- [Website: retrodeck.net](https://retrodeck.net) 
-- [Github: RetroDECK ](https://github.com/RetroDECK) 
-- [Flathub: net.retrodeck.retrodeck](https://flathub.org/apps/net.retrodeck.retrodeck)
+**Services**
 
----
+| Name                    | Link                                            |
+|-------------------------|------------------------------------------------|
+| Github: Service Status  | [Link](https://www.githubstatus.com/)          |
+| Flathub: Service Status | [Link](https://status.flathub.org/)            |
+| Flathub: Buildbot       | [Link](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck) |
 
-## Services Links
-
-- [Github: Service Status](https://www.githubstatus.com/)
-- [Flathub: Service Status](https://status.flathub.org/)
-- [Flathub: Buildbot](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck)
-
----
-
-## 🏗️ WIP (Work in Progress) Articles 🏗️
-
-These articles are either:
-
-- Preparation for an upcoming update.
-- Incomplete articles we haven't fully written yet.

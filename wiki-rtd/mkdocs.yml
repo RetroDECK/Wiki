@@ -2,14 +2,16 @@
 
 site_name: RetroDECK Wiki
 site_description: The Official RetroDECK Wiki
+docs_dir: docs
 site_url: https://retrodeck.readthedocs.io
 site_author: RetroDECK Team
 site_description: All-in-One Retro Gaming Platform
 repo_url: https://github.com/RetroDECK/RetroDECK
 repo_name: RetroDECK/RetroDECK
+edit_uri: edit/main/docs/
 
 # Copyright
-copyright: "GPL3 - RetroDECK Team"
+copyright: "Copyright &copy; 2025 RetroDECK Team"
 
 # Theme Configuration
 theme:
@@ -19,30 +21,90 @@ theme:
   features:
    - navigation.path
    - content.code.copy
+   - navigation.instant
+   - navigation.instant.prefetch
+   - navigation.indexes
+   - navigation.tracking
+   - navigation.top
+   - search.suggest
+   - search.highlight
+   - content.tabs.link
+   - content.code.annotation
+   - content.code.copy
+   - version
+  language: en
+
   palette:
     scheme: slate
     primary: "deep purple"
     accent: "white"
-  extra_css:
-   - stylesheets/extra.css
-  custom_dir: overrides
+
+extra:
+ social:
+  - icon: fontawesome/brands/github
+    link: https://github.com/RetroDECK/RetroDECK
+    name: RetroDECK/RetroDECK
+  - icon: fontawesome/brands/discord
+    link: https://discord.gg/hkEwSMGcvu
+    name: RetroDECK Discord
+  - icon: fontawesome/brands/reddit
+    link: https://www.reddit.com/r/RetroDeck/
+    name: RetroDECK Subreddit
+  - icon: fontawesome/brands/bluesky
+    link: https://bsky.app/profile/retrodeck.net
+    name: RetroDECK Bluesky
+  - icon: fontawesome/solid/l
+    link: https://lemmy.zip/c/retrodeck
+    name: RetroDECK Lemmy
+  - icon: fontawesome/solid/m
+    link: https://matrix.to/#/#retrodeck:matrix.org
+    name: RetroDECK Matrix
+  - icon: fontawesome/solid/r
+    link: https://rvlt.gg/StVaEc0w
+    name: RetroDECK Revolt
+  - icon: fontawesome/solid/box
+    link: https://flathub.org/apps/net.retrodeck.retrodeck
+    name: Flathub net.retrodeck.retrodeck
+  - icon: fontawesome/solid/boxes-stacked
+    link: https://flathub.org/apps/net.retrodeck.retrodeck
+    name: Flathub RetroDECK Builtbot
+  - icon: fontawesome/solid/blog
+    link: https://retrodeck.readthedocs.io/en/latest/blog/
+    name: The RetroDECK Blog
+  - icon: fontawesome/solid/globe
+    link: https://retrodeck.net/
+    name: retrodeck.net
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - attr_list:
   - pymdownx.highlight:
       anchor_linenums: true
       pygments_lang_class: true
-
-# Used to create custom emoji/icons using .svg files. See link for usage information
-# https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#additional-icons
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.blocks.caption
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      base_path:
+        - docs
+        - docs/resources/snippets
+      check_paths: true
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
           - overrides/.icons
-  - pymdownx.superfences
-  - attr_list
 
 plugins:
   - search
@@ -72,8 +134,8 @@ plugins:
 
 nav:
 
-  - Blog:
-    - blog/index.md
+  - Welcome:
+    - index.md
 
   - Start using RetroDECK 🏎️: wiki_general/retrodeck-start.md
 
@@ -84,6 +146,9 @@ nav:
     - What is the Story Behind RetroDECK?: wiki_about/story-goals.md
     - Supported Devices & OS: wiki_general/supported-devices.md
     - Version History: wiki_rd_versions/version-history.md
+
+  - RetroDECK Blog:
+    - blog/index.md
 
   - Controller Vault 🎮:
 
@@ -180,7 +245,6 @@ nav:
   - Contributing & Donations 🤝:
       - How to Contribute?: wiki_about/contibute-retrodeck.md
       - Donations & Licenses: wiki_about/donations-licenses.md
-
 
   - FAQ ❔:
 

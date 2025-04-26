@@ -47,3 +47,10 @@ What you need to do is:
 
 1. `Right Click` -> `Create New` -> `Text File`
 2. Open and edit it with a text editor like: Kate, Kwrite, or the text editor of your choice.
+
+## 🏗️ WIP (Work in Progress) Articles 🏗️
+
+These articles are either:
+
+- Preparation for an upcoming update.
+- Incomplete articles we haven't fully written yet.

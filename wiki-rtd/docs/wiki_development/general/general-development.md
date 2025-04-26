@@ -2,6 +2,13 @@
 
 This is WIP
 
+| Name                    | Link                                            |
+|-------------------------|------------------------------------------------|
+| Github: Service Status  | [Link](https://www.githubstatus.com/)          |
+| Flathub: Service Status | [Link](https://status.flathub.org/)            |
+| Flathub: Buildbot       | [Link](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck) |
+
+
 ## Cooker builds
 
 Every time a commit or a PR is done, a GitHub action automatically compiles the snapshot with the latest changes and publish them on the [cooker repository](https://github.com/XargonWan/RetroDECK-cooker).

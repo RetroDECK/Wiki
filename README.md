@@ -2,11 +2,6 @@
 
 # RetroDECK Wiki
 
-## Links
-[RetroDECK Wiki](https://retrodeck.readthedocs.io/en/latest/)
-
-[Discord](https://discord.gg/WDc5C9YWMx)
-
 ## Do you want to help to contribute to the wiki?
 
 Join the Discord and post in `💙-i-want-to-help` channel that you want to help out with the wiki.
@@ -25,7 +20,11 @@ You need to have git, gh and python installed.
 6. Submit and commit new wiki .md articles under the docs/ structure and wait for a wikimaintaners review to merge the commit.
 7. Talk to `🖋-wiki-maintainers` before creating new subfolders under /docs
 
-## Our repositories:
+---
+
+## Links 
+
+### Our repositories:
 
 | Name                                                                                   | Description                                           |
 |----------------------------------------------------------------------------------------|-------------------------------------------------------|
@@ -37,3 +36,29 @@ You need to have git, gh and python installed.
 | [RetroDECK/RetroDECK-theme](https://github.com/RetroDECK/RetroDECK-theme)              | Theme Repo: RetroDECK's ES-DE Theme                   |
 | [flathub/net.retrodeck.retrodeck](https://github.com/flathub/net.retrodeck.retrodeck)  | Flathub Repo: net.retrodeck.retrodeck                 |
 | [RetroDECK/repositories](https://github.com/orgs/RetroDECK/repositories)               | Full Org Repo : All other repos in RetroDECK          |
+
+---
+
+### Community Links 
+
+| Name                    | Description                                            |
+|-------------------------|------------------------------------------------|
+| [RetroDECK Blog](https://retrodeck.readthedocs.io/en/latest/blog/)   | The RetroDECK Blog |
+| [RetroDECK Wiki](https://retrodeck.readthedocs.io/en/latest/)      | RetroDECK Wiki   |
+| [Bluesky](https://bsky.app/profile/retrodeck.net) | RetroDECK Bluesky|
+| [Discord](https://discord.gg/WDc5C9YWMx)    |  RetroDECK Discord Server    |
+| [Matrix](https://matrix.to/#/#retrodeck:matrix.org) | RetroDECK Matrix Server |
+| [Lemmy](https://lemmy.zip/c/retrodeck)         | RetroDECK Lemmy Community |
+| [Revolt](https://rvlt.gg/StVaEc0w)              | RetroDECK Revolt Server |
+
+---
+
+### Services Links 
+
+| Name                    | Link                                            |
+|-------------------------|------------------------------------------------|
+| [Github: Service](https://www.githubstatus.com/)     |  Github Service Status   |
+| [Flathub: Service](https://status.flathub.org/)      |  Flathub Service Status    |
+| [Flathub: Buildbot](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck) | Flathub RetroDECK Builtbot |
+
+

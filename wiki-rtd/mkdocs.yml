@@ -106,6 +106,7 @@ markdown_extensions:
           - overrides/.icons
 
 plugins:
+  - awesome-nav
   - search
   - mkdocs-audio:
   - mkdocs-video:

@@ -23,27 +23,45 @@ Take a moment to explore the wiki! There’s tons of information waiting for you
 
 - [Supported Devices & OS](wiki_general/supported-devices.md)
 - [Supported Controllers / Hotkeys](wiki_rd_controls/hotkeys-retrodeck.md)
-    
-### Links
 
-**Community**
+---
+
+## Links 
+
+### Community 
+
+| Name                    | Description                                            |
+|-------------------------|------------------------------------------------|
+| [RetroDECK Blog](https://retrodeck.readthedocs.io/en/latest/blog/)   | The RetroDECK Blog |
+| [RetroDECK Wiki](https://retrodeck.readthedocs.io/en/latest/)      | RetroDECK Wiki   |
+| [Bluesky](https://bsky.app/profile/retrodeck.net) | RetroDECK Bluesky|
+| [Discord](https://discord.gg/WDc5C9YWMx)    |  RetroDECK Discord Server    |
+| [Matrix](https://matrix.to/#/#retrodeck:matrix.org) | RetroDECK Matrix Server |
+| [Lemmy](https://lemmy.zip/c/retrodeck)         | RetroDECK Lemmy Community |
+| [Revolt](https://rvlt.gg/StVaEc0w)              | RetroDECK Revolt Server |
+
+---
+
+### Repositories
+
+| Name                                                                                   | Description                                           |
+|----------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [RetroDECK/RetroDECK](https://github.com/RetroDECK/RetroDECK)                          | RetroDECK Repo: Main repo of the RetroDECK Project    |
+| [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker)                                | Cooker Repo: Cooker Build publication repo            |
+| [RetroDECK/Wiki](https://github.com/RetroDECK/Wiki)                                    | Wiki Repo: RetroDECK mkdocs-material Wiki source code |
+| [RetroDECK/RetroDECK-website](https://github.com/RetroDECK/RetroDECK-website)          | Website Repo: Retrodeck.net source code               |
+| [RetroDECK/ES-DE](https://github.com/RetroDECK/ES-DE)                                  | ES-DE Repo: RetroDECK's light fork of ES-DE           |
+| [RetroDECK/RetroDECK-theme](https://github.com/RetroDECK/RetroDECK-theme)              | Theme Repo: RetroDECK's ES-DE Theme                   |
+| [flathub/net.retrodeck.retrodeck](https://github.com/flathub/net.retrodeck.retrodeck)  | Flathub Repo: net.retrodeck.retrodeck                 |
+| [RetroDECK/repositories](https://github.com/orgs/RetroDECK/repositories)               | Full Org Repo : All other repos in RetroDECK          |
+
+---
+
+### Services 
 
 | Name                    | Link                                            |
 |-------------------------|------------------------------------------------|
-| RetroDECK Blog          | [Link](https://retrodeck.readthedocs.io/en/latest/blog/)|
-| Blusky                  | [Link](https://bsky.app/profile/retrodeck.net) |
-| Discord                 | [Link](https://discord.gg/WDc5C9YWMx)          |
-| Matrix                  | [Link](https://matrix.to/#/#retrodeck:matrix.org) |
-| Lemmy                   | [Link](https://lemmy.zip/c/retrodeck)          |
-| Reddit                  | [Link](https://www.reddit.com/r/retrodeck)     |
-| Revolt                  | [Link](https://rvlt.gg/StVaEc0w)               |
-| Github                  | [Link](https://github.com/RetroDECK/RetroDECK)          |
-
-**Services**
-
-| Name                    | Link                                            |
-|-------------------------|------------------------------------------------|
-| Github: Service Status  | [Link](https://www.githubstatus.com/)          |
-| Flathub: Service Status | [Link](https://status.flathub.org/)            |
-| Flathub: Buildbot       | [Link](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck) |
+| [Github: Service](https://www.githubstatus.com/)     |  Github Service Status   |
+| [Flathub: Service](https://status.flathub.org/)      |  Flathub Service Status    |
+| [Flathub: Buildbot](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck) | Flathub RetroDECK Builtbot |
 

@@ -56,6 +56,12 @@ GitHub is RetroDECK's main issue tracker where development and known issues are 
 
 What follows is a list of known issues.
 
+### Dolphin
+
+**Issue:** Some games are flickering on the Steam Deck OLED.
+
+**Solution:** Some titles don't like the 90HZ mode on the OLED, lower it to 60HZ. 
+
 ### PPSSPP
 
 **Issue:** Retroachievements login/logout and hardcore mode are not configurable in the Configurator.

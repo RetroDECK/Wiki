@@ -21,6 +21,8 @@ If you have installed RetroDECK from flathub as a User Application.
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
 | Flatpak Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | This is mapped as the `/app` inside the flatpak.  |  
+| Graphics Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/graphics/` |  Contains some graphical assets used by ES-DE and the `splash.svg` RetroDECK startup image  |  
+| Extra Splashes Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/graphics/extra_splashes/` |  Contains extra RetroDECK startup images (splashes)     |  
 | ES-DE Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/` | Top Level ES-DE Folder |  
 | ES-DE Linux Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` |  
 | SRM Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/srm/` | Used by Steam Rom Manager |  
@@ -52,6 +54,8 @@ If you have installed RetroDECK from flathub as a System Application.
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
 | Flatpak Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` |  This is mapped as the `/app` inside the flatpak.     |  
+| Graphics Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/graphics/` |  Contains some graphical assets used by ES-DE and the `splash.svg` RetroDECK startup image  |  
+| Extra Splashes Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/graphics/extra_splashes/` |  Contains extra RetroDECK startup images (splashes)    |  
 | ES-DE Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/` | Top Level ES-DE Folder |  
 | ES-DE Linux Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` |  
 | SRM Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/srm/` | Used by Steam Rom Manager |  

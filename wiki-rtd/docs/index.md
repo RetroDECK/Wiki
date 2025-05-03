@@ -33,7 +33,7 @@ Take a moment to explore the wiki! There’s tons of information waiting for you
 | Name                    | Description                                            |
 |-------------------------|------------------------------------------------|
 | [RetroDECK Blog](https://retrodeck.readthedocs.io/en/latest/blog/)   | The RetroDECK Blog |
-| [RetroDECK Wiki](https://retrodeck.readthedocs.io/en/latest/)      | RetroDECK Wiki   |
+| [RetroDECK Website](https://retrodeck.net)      | RetroDECK Wiki   |
 | [Bluesky](https://bsky.app/profile/retrodeck.net) | RetroDECK Bluesky|
 | [Discord](https://discord.gg/WDc5C9YWMx)    |  RetroDECK Discord Server    |
 | [Matrix](https://matrix.to/#/#retrodeck:matrix.org) | RetroDECK Matrix Server |

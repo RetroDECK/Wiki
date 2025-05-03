@@ -8,7 +8,7 @@ This is WIP
     | Github: Service Status  | [Link](https://www.githubstatus.com/)          |
     | Flathub: Service Status | [Link](https://status.flathub.org/)            |
     | Flathub: Buildbot       | [Link](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck) | 
-
+    | ES-DE: Resources Linux  | [Link](https://gitlab.com/es-de/emulationstation-de/-/tree/master/resources/systems/linux) | 
 
 
 

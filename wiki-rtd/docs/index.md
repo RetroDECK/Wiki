@@ -57,11 +57,10 @@ Take a moment to explore the wiki! There’s tons of information waiting for you
 
 ---
 
-### Services 
+### Services & Other
 
 | Name                    | Link                                            |
 |-------------------------|------------------------------------------------|
 | [Github: Service](https://www.githubstatus.com/)     |  Github Service Status   |
 | [Flathub: Service](https://status.flathub.org/)      |  Flathub Service Status    |
 | [Flathub: Buildbot](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck) | Flathub RetroDECK Builtbot |
-

@@ -17,15 +17,18 @@ ES-DE is the default frontend used in RetroDECK.
 
 [ES-DE Gitlab](https://gitlab.com/es-de/emulationstation-de)
 
-[ES-DE User Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md)
+[ES-DE Userguide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md)
 
 [ES-DE FAQ](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md)
 
 [ES-DE: Theme List](https://gitlab.com/es-de/themes/themes-list)
 
-[ES-DE Development: Translations](https://gitlab.com/es-de/emulationstation-de/-/blob/master/TRANSLATIONS.mdl)
+[ES-DE: Translations](https://gitlab.com/es-de/emulationstation-de/-/blob/master/TRANSLATIONS.mdl)
 
-[ES-DE Development: Roadmap](https://gitlab.com/es-de/emulationstation-de/-/blob/master/ROADMAP.md)
+[ES-DE: Roadmap](https://gitlab.com/es-de/emulationstation-de/-/blob/master/ROADMAP.md)
+
+[ES-DE: Changelog](https://gitlab.com/es-de/emulationstation-de/-/blob/master/CHANGELOG.md) 
+
 
 ---
 

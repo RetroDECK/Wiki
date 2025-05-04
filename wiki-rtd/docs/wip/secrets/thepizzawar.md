@@ -12,7 +12,7 @@ Conservative purist forces of Italian Pizza Legionnaires.
 
 *Hear us citizens of imperium! Our mothers and fathers gave everything to the keep the purity and sanctity of the Napoletana! We all must serve!*
 
-*Pax Romanum Imperium! Pax Pizza Imperium!"*
+*Pax Imperium Romanum ! Pax Imperium Pizzaum!"*
 
 ### The Murican Cheese Crust Patriots - MCCP
 

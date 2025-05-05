@@ -6,6 +6,8 @@
 ![Flathub](https://img.shields.io/flathub/v/net.retrodeck.retrodeck)
 ![GitHub](https://img.shields.io/github/license/XargonWan/RetroDECK)
 
+---
+
 ## Welcome
 
 Take a moment to explore the wiki! There’s tons of information waiting for you. To help you get started, here are a few useful links.

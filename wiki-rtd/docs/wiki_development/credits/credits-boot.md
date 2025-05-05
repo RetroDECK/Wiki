@@ -4,7 +4,7 @@ The Boot Logo or Boot Splashes
 
 ## Standard Logo
 
-<img src="../../wiki_images/logos/rd-logo-box.png" width="500">
+<img src="../../../wiki_images/logos/rd-logo-box.png" width="500">
 
 **Artists that contributed:**<br>
 
@@ -16,10 +16,10 @@ Everyone here contributed in various ways in the first and second iterations of 
 [MorGuux](https://github.com/MorGuux)<br>
 Víctor R<br>
 
-## Holiday Period
+## Xmas Holiday Period
 
 <details><summary> Spoiler </summary>
-<img src="../../wiki_images/eastereggs/rd-xmas-logo.svg" width="500">
+<img src="../../../wiki_images/eastereggs/rd-xmas-logo.svg" width="500">
 
 Artist: Weestuarty
 </details>
@@ -27,38 +27,63 @@ Artist: Weestuarty
 ## Valentines Day
 
 <details><summary> Spoiler </summary>
-<img src="../../wiki_images/eastereggs/rd-valentines-logo.svg" width="500">
+<img src="../../../wiki_images/eastereggs/rd-valentines-logo.svg" width="500">
 Artist: Weestuarty
 </details>
 
 ## Lunar New Year - 春节
 
 <details><summary> Spoiler </summary>
-<img src="../../wiki_images/eastereggs/rd-lunar-dragon-logo.svg" width="500">
+<img src="../../../wiki_images/eastereggs/rd-lunar-dragon-cn-logo.svg" width="500">
+Artist: Weestuarty and XargonWan
+</details>
+
+## St Patrick's Day
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/eastereggs/rd-stpatricks-logo.svg" width="500">
+Artist: Weestuarty
+</details>
+
+## Kodomo no Hi - こどもの日
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/eastereggs/rd-kodomo-golden.svg" width="500">
+Artist: XargonWan
+</details>
+
+## RetroDECK's Birthday & GM's day
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/eastereggs/rd-gm-bday-splash.svg" width="500">
+Artist: Weestuarty
+</details>
+
+## Tanabata
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/eastereggs/rd-tanabata.svg" width="500">
+Artist: XargonWan
+</details>
+
+## Pride
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/eastereggs/rd-pride.svg" width="500">
 Artist: Weestuarty
 </details>
 
 ## Looking for Artist
 
-You can also do an alternative to already existing logos.
-
-
-
-### RetroDECK's Birthday AND GM's day
-
-### St Patrick's Day
+You can also do an alternative to already existing logos or other holidays.
 
 ### April Fools' Day
 
 ### Hanami - 花見
 
-### Star Wars Day
-
-### Kodomo no Hi - こどもの日
-
 ### Towel's Day
 
-### Swedish Midsummer - Midsommarafton
+### Midsommarafton
 
 ### Halloween
 

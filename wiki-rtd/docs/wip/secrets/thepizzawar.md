@@ -4,7 +4,7 @@ Who will prevail?
 
 ## The Factions
 
-## La Legione Della Pizza Italiana - LDPI
+### La Legione Della Pizza Italiana - LDPI
 
 Conservative purist forces of Italian Pizza Legionnaires.
 
@@ -54,7 +54,6 @@ Label as Heretics and called "The Heresy Pizza Cult" by the others factions for 
 ### Nograx the Destoyer
 
 Nograx the Destoyer the aka the "He who brings rotten dough", "The living banana fly swarm", "The mold mother", "Rötmodern" that hates Sushi, Pizza, and all food.
-
 
 ### Fredinando - Demonio de las tapas de Oliva
 

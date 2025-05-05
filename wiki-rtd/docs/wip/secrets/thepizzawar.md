@@ -8,11 +8,17 @@ Who will prevail?
 
 Conservative purist forces of Italian Pizza Legionnaires.
 
-*"Pizza is Italian and everything else is a facsimile, a mockery of Italian perfection and an affront to the very foundation of the imperium* 
+*"We invented it and made the first ovens to bake it.*
 
-*Hear us citizens of imperium! Our mothers and fathers gave everything to the keep the purity and sanctity of the Napoletana! We all must serve!*
+*Pizza is Italian and everything else is a facsimile, a mockery of Italian perfection and an affront to the very foundation of the imperium.* 
 
-*Pax Imperium Romanum ! Pax Imperium Pizzaum!"*
+*Hear us citizens of imperium!*
+
+*Our mothers and fathers gave everything to the keep the purity and sanctity of the Napoletana.*
+
+*Sisters and brothers, the Legione calls your name, serve the imperium against the those that defile us!*
+
+*Pax Imperium Romanum! Pax Imperium Pizzaum!"*
 
 ### The Murican Cheese Crust Patriots - MCCP
 
@@ -31,15 +37,17 @@ Patriotic Muricans bakers that try to crush the opposition with infinite peppero
 
 ### The Nordic Pizza Cult - NPC
 
-Label as Heretics by the others for their dark pizza viking magicks. 
+Free thinking viking pizza makers of the cold north. 
+
+Label as Heretics and called "The Heresy Pizza Cult" by the others factions for their so called dark pizza viking magicks. 
 
 *"The Italians and Americans are weak, they do not dare to take Pizza beyond their set fake borders and so called rules.* 
 
-*Here in the cold north, we have learned and now know the truth... there are no borders.* 
+*Here in the cold north, we have learned and know the truth... there are no borders.* 
 
-*Here us brothers and sisters Pizza is an empty canvas; it can be painted into whatever glorious image of food perfection we desire!*
+*Pizza is an empty canvas; it can be painted into whatever glorious image of food perfection we desire!*
 
-*When their oven grows cold...our ovens burns eternal...not even endless winter will quench these flames"*
+*When their oven grows cold...our ovens burns eternal...not even endless winter will quench Eldhrímnir's flames!"*
 
 ## External Forces of Chaos
 

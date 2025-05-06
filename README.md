@@ -4,9 +4,7 @@
 
 ## Do you want to help to contribute to the wiki?
 
-Join the Discord and post in `💙-i-want-to-help` channel that you want to help out with the wiki.
-
-You will then get access to the `🖋-wiki-maintainers`channel by one of the mods and you can discuss with your fellow contributors in that channel.
+Join the Discord / Matrix or Revolt and post in `💙-i-want-to-help` channel that you want to help out with the wiki.
 
 ## How to submit articles?
 
@@ -18,7 +16,6 @@ You need to have git, gh and python installed.
 4. Type in cli `mkdocs serve` to start the local webserver.
 5. Browse to `http://127.0.0.1:8000/` and you will have a local instance of the wiki running.
 6. Submit and commit new wiki .md articles under the docs/ structure and wait for a wikimaintaners review to merge the commit.
-7. Talk to `🖋-wiki-maintainers` before creating new subfolders under /docs
 
 ---
 

@@ -14,7 +14,7 @@ Founder of RetroDECK and one of the founding members of [AmberELEC](https://ambe
 
 
 <details><summary> </summary>
-Grand General of the IPL (Italian Pizza Legion) also known as the Napoletanan Fist in the internal pizza war.
+Grand General of the LDPI (La Legione Della Pizza Italiana) also known as the Napoletanan Fist in the internal pizza war.
 </details>
 
 ## [Lazorne](https://github.com/Lazorne)

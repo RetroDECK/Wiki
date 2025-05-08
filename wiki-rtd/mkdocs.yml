@@ -388,8 +388,8 @@ nav:
   - RetroDECK Development (W.I.P) 🧪:
 
     - Flatpak:
-      - About Flatpak: wiki_development/general/retrodeck-flatpak.md
-      - Flathub Publication: wiki_development/functions/flathub-publication.md
+      - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
+      - Flathub Publication: wiki_development/flatpak/flathub-publication.md
 
     - Functions:
       - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md

@@ -30,6 +30,7 @@ Are all defined in their own module and built together.
 *"It's modules all the way down!"*
 
 ## The /app folder
+
 The flatpak application is located and built inside the `/app` folder within this environment.
 
 The real location of the `/app` folder in the hostOS is in the none writable path: `/var/lib/flatpak/app/`

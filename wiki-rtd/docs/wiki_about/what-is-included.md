@@ -226,7 +226,7 @@ The fantasy console Pico-8.
 
 PortMaster is a simple GUI tool designed to facilitate the downloading and installation of game ports for Linux devices and is self contained.
 
-[PortMaster - General Guide](../wiki_system_guides/portmaster/portmaster-guide.md)
+[PortMaster - General Guide](../wiki_port_guides/portmaster/portmaster-guide.md)
 
 ### Steam Rom Manger 
 

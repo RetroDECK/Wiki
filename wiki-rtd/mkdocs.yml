@@ -361,15 +361,16 @@ nav:
     - ES-DE Frontend:
       - ES-DE - General Guide: wiki_system_guides/es-de/esde-guide.md
 
-    - PortMaster:
-      - PortMaster - General Guide: wiki_system_guides/portmaster/portmaster-guide.md
-
     - Steam Rom Manager:
       - SRM - General Guide: wiki_system_guides/srm/srm-guide.md
 
     - RetroENGINE:
       - RetroENGINE - General Guide: wiki_system_guides/retroengine/retroengine-guide.md
 
+  - Guides - Ports ⛵:
+
+    - PortMaster:
+      - PortMaster - General Guide: wiki_port_guides/portmaster/portmaster-guide.md
 
   - RetroDECK Experiments ⚗️:
 

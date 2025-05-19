@@ -31,7 +31,7 @@ Xbox games should be put under the `retrodeck/roms/xbox/` directory.
 
 Read more here: [xemu - Disc Images ](https://xemu.app/docs/disc-images/)
 
-## Does MelonDS require BIOS or Firmware?
+## Does xemu require BIOS or Firmware?
 
 ```
 mcpx_1.0.bin

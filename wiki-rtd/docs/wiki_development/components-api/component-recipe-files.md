@@ -315,6 +315,7 @@ These entries can contain variable names (such as sourced config file paths) or 
 
 ```
 
+
 ### Example: manifest.json for internal component RetroDECK
 
 Even an Internal Component like RetroDECK will also have `manifest.json`.
@@ -354,6 +355,7 @@ Which contain any related information used in menus or API data gathering. As mo
 }
 
 ```
+
 ---
 
 ## functions.sh

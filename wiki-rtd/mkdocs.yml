@@ -388,6 +388,12 @@ nav:
 
   - RetroDECK Development (W.I.P) 🧪:
 
+    - Development Glossary: wiki_development/development-glossary.md
+
+    - Components & API:
+      - API Development: wiki_development/components-api/retrodeck-flatpak.md
+      - Component Build Files: wiki_development/components-api/component-build-files.md
+
     - Flatpak:
       - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
       - Flathub Publication: wiki_development/flatpak/flathub-publication.md

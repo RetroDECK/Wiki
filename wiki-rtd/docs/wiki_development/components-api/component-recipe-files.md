@@ -1,6 +1,6 @@
-# RetroDECK Required Components Build Files
+# Components Recipe Files
 
-**What are Components Build Files?**
+**What are Components Recipe Files?**
 
 The packaged files with a RetroDECK component are the information center for that component made from various scripts and json files. 
 
@@ -15,7 +15,7 @@ As these files are read in an iterative way by the code, it is imperative that t
 - Internal components, such as RetroDECK itself will also have manifest.json files, which contain any related information used in menus or API data gathering. As most internal components won't support things like presets, they will generally be shorter than actual emulator components.
 
 
-## What are the component build files?
+## What are the component Recipe files?
 
 These files will be stored along side the rest of the component data in specific location.
 

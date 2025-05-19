@@ -162,7 +162,7 @@ It's that easy!
 
 ## Adding .doom Files to Steam as Separate Games
 
-<img src="../../../wiki_images/systems/srm/brutaldoom.png" width="800">
+<img src="../../../wiki_system_guides/srm/brutaldoom.png" width="800">
 
 You can use the built-in `Steam Sync` function to add .doom files as separate games in Steam with art.
 

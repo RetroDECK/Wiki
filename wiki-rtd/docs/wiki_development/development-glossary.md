@@ -6,11 +6,9 @@ Here we are listing the lingo of the RetroDECK Project.
 
 Feature Branches -> Cooker (GitHub) -> Main (GitHub) -> Main (GitHub) Pre-Release Testing ->  Flathub Testing -> Flathub Publication.
 
-## RetroDECK Releases
+## RetroDECK Stable Releases
 
-A version of RetroDECK is only considered released when it is published on Flathub.
-
-https://flathub.org/apps/net.retrodeck.retrodeck
+A version of RetroDECK is only considered released when it is published on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck).
 
 ## RetroDECK Github: Main / Main Releases
 
@@ -59,17 +57,51 @@ That is also shipped with Component Recipe Files that tells RetroDECK how to bui
 
 ### What is an Engine?
 
-A Game Engine is a program that allows you to run many games with our without mods with it.
+A game engine is a software framework primarily designed for the development of video games which generally includes relevant libraries and support programs such as a level editor.
 
-Examples are GZDoom, 
+A Game Engine also in the context of RetroDECK is a program that allows you to run games files against that engine or via the engine executable itself:
+
+**Examples:** 
+
+- Solarus
+- Ikemen GO 
+- SCUMMVM
 
 ### What is an Emulator?
 
-A emulator emulates certain hardware or software to run games and mods. 
+A video game console emulator is a type of emulator that allows a computing device to emulate a video game console's hardware and play its games on the emulating platform.
+
+**Examples:**
+
+- RetroArch
+- PPSSPP
+
+### What is an Port?
+
+A source port is a software project based on the source code of a game engine that allows the game to be played on operating systems or computing platforms with which the game was not originally compatible. 
+
+In the context of RetroDECK it is usually single games that are managed by the PortMaster system. 
+
+On rare occasions RetroDECK can choose to build-in a port directly as an component, the Port are in need of the following:
+
+- Online Multiplayer.
+- Launchers.
+- Speedy Updates or Updates (sometimes they just add the port once, to have it running).
+- Mod Support / Downloader.
+- Certain Tech PortMaster can't support (Newer SDL/OpenGL, Vulkan, Wine etc...).
+
 
 ### What is an System?
 
-### What is an Engine?
+A system in the context of RetroDECK is a piece of software that is not running games but adding additional functionality in other ways.
+
+**Examples:**
+
+- Steam ROM Manager
+- ES-DE
+- PortMaster
+- RetroEngine
+
 
 ## Component Recipe Files
 

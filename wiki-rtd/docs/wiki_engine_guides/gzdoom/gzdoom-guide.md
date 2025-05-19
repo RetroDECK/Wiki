@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/gzdoom-logo.png" width="75">
 
-GZDoom is the open source game engine for ID Software's older games like DOOM, DOOM2, HEXEN and HERETIC or it's own unique games.
+GZDoom is the open source source port / game engine for ID Software's older games like DOOM, DOOM2, HEXEN and HERETIC or it's own unique games.
 
 ---
 

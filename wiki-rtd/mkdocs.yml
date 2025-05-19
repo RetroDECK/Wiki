@@ -391,8 +391,8 @@ nav:
     - Development Glossary: wiki_development/development-glossary.md
 
     - Components & API:
-      - API Development: wiki_development/components-api/retrodeck-flatpak.md
-      - Component Build Files: wiki_development/components-api/component-build-files.md
+      - API Development: wiki_development/components-api/api-development.md
+      - Component Build Files: wiki_development/components-api/component-recipe-files.md
 
     - Flatpak:
       - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md

@@ -44,9 +44,10 @@ The feature rep of the RetroDECK Project.
 
 A component is a packaged executable:
 
-- Engine
-- System
 - Emulator
+- Engine
+- Port
+- System
 
 That is also shipped with Component Recipe Files that tells RetroDECK how to build / use them and what features the component has. 
 
@@ -55,6 +56,20 @@ That is also shipped with Component Recipe Files that tells RetroDECK how to bui
 - External components are stored within the external component space within writable userspace. `/app/retrodeck/components/<component name>/`
 
 - Internal components, such as RetroDECK itself are stored on the read-only filesystem.
+
+### What is an Engine?
+
+A Game Engine is a program that allows you to run many games with our without mods with it.
+
+Examples are GZDoom, 
+
+### What is an Emulator?
+
+A emulator emulates certain hardware or software to run games and mods. 
+
+### What is an System?
+
+### What is an Engine?
 
 ## Component Recipe Files
 

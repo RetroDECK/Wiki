@@ -42,7 +42,7 @@ RetroDECK is made with components.
 
 ### What are components?
 
-A component is a packaged executable:
+A component is a packaged executable of a:
 
 - Emulator
 - Engine

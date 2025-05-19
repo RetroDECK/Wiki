@@ -42,14 +42,19 @@ RetroDECK is made with components.
 
 ### What are components?
 
-A component is a packaged executable of a:
+A component is a packaged executable of:
 
 - Emulator
 - Engine
 - Port
 - System
+- RetroDECK: Features & Functions (RetroDECK itself is also an component)
 
-That is also shipped with Component Recipe Files that tells RetroDECK how to build / use them and what features the component has. 
+A component is shipped with Component Recipe Files in addition to the libaries and binaries that make up the software that tells RetroDECK:
+
+- How RetroDECK should build them.
+- How RetroDECK should use them.
+- What features/functions it has.
 
 ### Internal vs External components
 
@@ -104,6 +109,9 @@ A system in the context of RetroDECK is a piece of software that is not running 
 - PortMaster
 - RetroEngine
 
+### What is RetroDECK: Features & Functions?
+
+RetroDECK itself with it's various tools (Configurator) and features (Compressor) is also an component.
 
 ## Component Recipe Files
 
@@ -113,6 +121,8 @@ They are packaged files with an RetroDECK component are the information center f
 
 It tells what tells RetroDECK how to build / use them and what features the component has. 
 
+Even RetroDECK itself has Component Recipe Files
+
 **Example of features:**
 
 - Contain human-friendly information shown in menus
@@ -121,9 +131,6 @@ It tells what tells RetroDECK how to build / use them and what features the comp
 - Config file path information and more. 
 
 As these files are read in an iterative way by the code, it is imperative that their structure be correct.
-
-
-Even the internal Component RetroDECK will also have manifest.json files, which contain any related information used in menus or API data gathering. As most internal components won't support things like presets, they will generally be shorter than actual emulator components.
 
 **Read more over at:**
 

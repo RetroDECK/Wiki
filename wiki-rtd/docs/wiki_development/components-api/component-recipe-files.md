@@ -4,6 +4,8 @@ These files will be stored along side the rest of the component data in specific
 
 Currently this location is `/app/retrodeck/components/<component name>/` but can be changed in the future.
 
+## The four Components Recipe Files
+
 - **manifest.json** - JSON file containing general information about the component, preset and menu compatibility, preset action information, core information (as applicable).
 
 - **functions.sh** - A Bash file containing config file paths (the kind previously found in the global.sh library) and defined functions relating to the component. If the component has a function that is specific to it, such as installing firmware or advanced functions found in the Configurator menus, they should be here.

@@ -392,7 +392,7 @@ nav:
 
     - Components & API:
       - API Development: wiki_development/components-api/api-development.md
-      - Component Build Files: wiki_development/components-api/component-recipe-files.md
+      - Component Recipe Files: wiki_development/components-api/component-recipe-files.md
 
     - Flatpak:
       - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md

@@ -4,7 +4,7 @@
 
 [RetroDECK Cooker](https://github.com/XargonWan/RetroDECK-cooker) are the bleeding edge development builds of [RetroDECK](https://github.com/XargonWan/RetroDECK). These builds are only for development and testing purposes.
 
-Cooker is a bleeding edge snapshot of the current commits, the action of uploading code to GitHub is called commit.
+Cooker is a bleeding edge snapshot of the current commits (the action of uploading code to GitHub is called a commit).
 
 The code may not be always reviewed and so the cooker it's unstable by its nature, it's just suggested to testers or developer to try bleeding edge functions.
 

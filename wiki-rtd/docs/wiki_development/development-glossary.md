@@ -2,33 +2,37 @@
 
 Here we are listing the lingo of the RetroDECK Project.
 
-## RetroDECK Publication Process 
+## RetroDECK Development to Publication Process 
 
-Feature Branches -> Cooker (GitHub) -> Main (GitHub) -> Main (GitHub) Pre-Release Testing ->  Flathub Testing -> Flathub Publication.
+How the process works:
+
+`Feature Branches` -> `Cooker (GitHub)` -> `Main (GitHub)` -> `Main (GitHub) Pre-Release Testing` ->  `Flathub Testing` -> `Flathub Stable Publication`.
 
 ## RetroDECK Stable Releases
 
 A version of RetroDECK is only considered released when it is published on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck).
 
-## RetroDECK Github: Main / Main Releases
+## Github Repos
+
+### Main / Main Releases
 
 The main repo of the RetroDECK Project.
 
-Is contains the feature freezed stable releases of the RetroDECK Application. 
+Is contains the feature freezed stable releases of the RetroDECK application. 
 
 All releases here are considered as Pre-Releases, the full release is always on Flathub.
 
-## RetroDECK Github: Cooker / Cooker Releases
+### Cooker / Cooker Releases
 
 The cooker repo of the RetroDECK Project.
 
-Cooker is RetroDECK's bleeding edge "nightly" releases. 
+Cooker is a bleeding edge snapshot of the current commits (the action of uploading code to GitHub is called a commit).
 
-Done feature branches get merged into cooker.
+The code may not be always reviewed and so the cooker it's unstable by its nature, it's just suggested to testers or developer to try bleeding edge functions.
 
-## RetroDECK feat/ branches
+### Feature branches
 
-The feature rep of the RetroDECK Project.
+The feature rep of the RetroDECK Project, are subbranches where specific component/feature/other development is happening before it gets merged into cooker proper.
 
 ## RetroDECK API
 
@@ -55,6 +59,14 @@ A component is shipped with Component Recipe Files in addition to the libaries a
 - How RetroDECK should build them.
 - How RetroDECK should use them.
 - What features/functions it has.
+
+**Communication:**
+
+When they are communicated about they are referred to as: 
+
+- **Components** 
+- **<Component Name> Component** 
+- **<Component Name>** 
 
 ### Internal vs External components
 
@@ -121,7 +133,7 @@ They are packaged files with an RetroDECK component are the information center f
 
 It tells what tells RetroDECK how to build / use them and what features the component has. 
 
-Even RetroDECK itself has Component Recipe Files
+Even RetroDECK itself has Component Recipe Files.
 
 **Example of features:**
 
@@ -131,6 +143,13 @@ Even RetroDECK itself has Component Recipe Files
 - Config file path information and more. 
 
 As these files are read in an iterative way by the code, it is imperative that their structure be correct.
+
+**Communication:**
+
+When they are communicated about they are referred to as: 
+
+- **Recipes**
+- **<Component Name> Recipe** 
 
 **Read more over at:**
 

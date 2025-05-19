@@ -38,7 +38,9 @@ The feature rep of the RetroDECK Project.
 
 ## Components
 
-**What are components?**
+RetroDECK is made with components.
+
+### What are components?
 
 A component is a packaged executable:
 

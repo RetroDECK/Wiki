@@ -60,6 +60,9 @@ A component is shipped with Component Recipe Files in addition to the libaries a
 - How RetroDECK should use them.
 - What features/functions it has.
 
+Inside: `/app/retrodeck/components/<component name>/`.
+
+
 **Communication:**
 
 When they are communicated about they are referred to as: 
@@ -67,12 +70,6 @@ When they are communicated about they are referred to as:
 - **Components** 
 - **<Component Name> Component** 
 - **<Component Name>** 
-
-### Internal vs External components
-
-- External components are stored within the external component space within writable userspace: `/app/retrodeck/components/<component name>/`.
-
-- Internal components, such as RetroDECK itself are stored on the read-only filesystem.
 
 ### What is an Engine?
 

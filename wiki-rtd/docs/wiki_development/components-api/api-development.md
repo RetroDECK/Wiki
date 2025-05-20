@@ -832,6 +832,7 @@ It is possible to use known variable names (such as $rd_conf) for the setting_fi
 
 ### setting_value - example request
 
+
 ```
 
 {
@@ -850,8 +851,8 @@ It is possible to use known variable names (such as $rd_conf) for the setting_fi
 
 ```
 
-Example responses:
-Success response:
+### setting_value - success response
+
 
 ```
 
@@ -865,7 +866,7 @@ Success response:
 }
 
 ```
-Failure response:
+### setting_value - failure response
 
 ```
 
@@ -879,20 +880,24 @@ Failure response:
 
 ```
 
-"retrodeck_setting"
+### retrodeck_setting
 
-Description:
+**Description:**
+
 This is an extension of the call "set setting_value", made to simplify changing internal RetroDECK settings. The process is the same but the data key set is simplified. All the current RetroDECK settings can be retrieved through the API call "get retrodeck_settings".
 
-Applicable data keys:
-setting_name - The specific setting name to reference.
-setting_value - The new value to set the given setting to.
-section_name (optional) - The section of the config file where the setting_name is found. Can be left blank or omitted entirely if the setting is not found in a specific section.
+**Applicable data keys:**
+
+- **setting_name** - The specific setting name to reference.
+
+- **setting_value** - The new value to set the given setting to.
+
+- **section_name** - (Optional) The section of the config file where the setting_name is found. Can be left blank or omitted entirely if the setting is not found in a specific section.
 
 Additional considerations:
 Although this call can alter the state of preset setting values in the retrodeck.cfg file directly, it will not actually apply the preset settings themselves, so should not be used in this way. The requested change will also be validated to have actually happened, and an error message returned if it could not be.
 
-Example request:
+### retrodeck_setting - example request
 
 ```
 
@@ -910,8 +915,7 @@ Example request:
 
 ```
 
-Example responses:
-Success response:
+### retrodeck_setting - success response
 
 ```
 
@@ -926,7 +930,8 @@ Success response:
 
 ```
 
-Failure response:
+### retrodeck_setting - failure response
+
 
 ```
 
@@ -940,22 +945,29 @@ Failure response:
 
 ```
 
-API Request Group - DO
-"compress_games"
+## API Request Group - DO
 
-Description:
+### compress_games
+
+**Description:**
+
 This call will compress one or more provided games into the specified compression format. The provided data will include single key/value pairs as well as game objects containing their own keys and values, matching the output structure of the API call "get compressible_games".
 
-Applicable data keys:
-post_compression_cleanup (optional) - Either "true" or "false", setting this value to "true" will have the compression process remove the original game files once they are compressed and validated that the compression completed successfully. This key can be blank or omitted entirely and will default to "false" unless specified as "true".
-games [ ] - This is a parent array of objects for the games to be compressed.
-game - This is the path to the game to be compressed, in its own object within the games[] array.
-format - This is the specified format to compress the game into, held within the same object as the desired game.
+**Applicable data keys:**
 
-Additional considerations:
+- **post_compression_cleanup** - (Optional) either "true" or "false", setting this value to "true" will have the compression process remove the original game files once they are compressed and validated that the compression completed successfully. This key can be blank or omitted entirely and will default to "false" unless specified as "true".
+
+- **games [ ]** - This is a parent array of objects for the games to be compressed.
+
+- **game** - This is the path to the game to be compressed, in its own object within the games[] array.
+
+- **format** - This is the specified format to compress the game into, held within the same object as the desired game.
+
+**Additional considerations:**
+
 No compatibility checks are performed for this part of the compression process, so ensure the games you specify match a compatible compression format, or incorrect compressions may occur. Compression validation can be performed on all games with the API call "get compressible_games", and additional information on what systems support what compression formats can be found on the RetroDECK wiki.
 
-Example request:
+#### compress_games - example request
 
 ```
 
@@ -979,8 +991,8 @@ Example request:
 
 ```
 
-Example responses:
-Success response:
+#### compress_games - success response
+
 
 ```
 {
@@ -990,7 +1002,7 @@ Success response:
 }
 
 ```
-Failure response:
+#### compress_games - failure response
 
 ```
 {
@@ -1001,17 +1013,19 @@ Failure response:
 
 ```
 
-"reset_component"
+### reset_component
 
-Description:
+**Description:**
+
 This call will perform a "reset" on the given component. The reset actions are component-specific and can be found in the matching "prepare_component.sh" file.
 
-Applicable data keys:
-component - The name of the component, using the internal system name as referenced by other API calls such as "get all_components".
+**Applicable data keys:**
 
-Additional considerations: None
+- **component** - The name of the component, using the internal system name as referenced by other API calls such as "get all_components".
 
-Example request:
+**Additional considerations:** None
+
+#### reset_component - example request
 
 ```
 
@@ -1027,8 +1041,8 @@ Example request:
 
 ```
 
-Example responses:
-Success response:
+#### reset_component - success response
+
 
 ```
 
@@ -1040,7 +1054,7 @@ Success response:
 
 ```
 
-Failure response:
+#### reset_component - failure response
 
 ```
 
@@ -1052,17 +1066,18 @@ Failure response:
 
 ```
 
-"install"
+### install
 
-Description:
+**Description:**
 This call will perform an "install" for the provided RetroDECK package, such as the Steam Controller Profile. A list of the available packages is maintained on the RetroDECK wiki.
 
-Applicable data keys:
-package_name - The internal name of the package to be installed.
+Applicable data keys:**
 
-Additional considerations: None
+- **package_name** - The internal name of the package to be installed.
 
-Example request:
+**Additional considerations:** None
+
+#### install - example request
 
 ```
 
@@ -1078,8 +1093,8 @@ Example request:
 
 ```
 
-Example responses:
-Success response:
+#### install - success response
+
 
 ```
 
@@ -1091,7 +1106,7 @@ Success response:
 
 ```
 
-Failure response:
+#### install - failure response
 
 ```
 
@@ -1103,19 +1118,22 @@ Failure response:
 
 ```
 
-"cheevos_login"
+### cheevos_login
 
-Description:
+**Description:**
+
 This call will attempt to perform a RetroAchivements login with the provided information and return the supplied information from the RetroAchivements API, as well as a login timestamp. This information can then be used to enable RetroAchivements-related presets directly.
 
 Applicable data keys:
-username - The RetroAchivements username to be used in the login attempt.
-password - The RetroAchivements password to be used in the login attempt.
 
-Additional considerations:
+- **username** - The RetroAchivements username to be used in the login attempt.
+- **password** - The RetroAchivements password to be used in the login attempt.
+
+**Additional considerations:**
+
 If the login information provided is accepted by the RetroAchievements login system, the returned result will include a login token and timestamp, which most RA-capable components will require for the "cheevos" preset. That information can then be passed along to the "set preset_state" RetroDECK API call in the appropriate keys.
-
-Example request:
+ 
+#### cheevos_login - example request
 
 ```
 
@@ -1132,8 +1150,8 @@ Example request:
 
 ```
 
-Example responses:
-Success response:
+#### cheevos_login - success response
+
 
 ```
 
@@ -1156,7 +1174,8 @@ Success response:
 
 ```
 
-Failure response:
+
+#### cheevos_login - failure response
 
 
 ```

@@ -392,7 +392,22 @@ nav:
     - Development Glossary: wiki_development/development-glossary.md
 
     - API:
-      - API Development: wiki_development/api/about-api-development.md
+      - About API Development: wiki_development/api/about-api-development.md
+      - DO cheevos_login: wiki_development/api/do-cheevos-login.md
+      - DO compress_games: wiki_development/api/do-compress-games.md
+      - DO install: wiki_development/api/do-install.md
+      - DO reset_component: wiki_development/api/do-reset-component.md
+      - GET bios_file_status: wiki_development/api/get-bios-file-status.md
+      - GET components: wiki_development/api/get-components.md
+      - GET compressible_games: wiki_development/api/get-compressible-games.md
+      - GET current_preset_state: wiki_development/api/get-current-preset-state.md
+      - GET incompatible_presets: wiki_development/api/get-incompatible-presets.md
+      - GET multifile_game_structure: wiki_development/api/get-multifile-game-structure.md
+      - GET retrodeck_settings: wiki_development/api/get-retrodeck-settings.md
+      - GET setting_value: wiki_development/api/get-setting-value.md
+      - SET preset_state: wiki_development/api/set-preset-state.md
+      - SET retrodeck_setting: wiki_development/api/set-retrodeck-setting.md
+      - SET setting_value: wiki_development/api/set-setting-value.md
 
     - Components:
       - Component Recipe Files: wiki_development/components/component-recipe-files.md

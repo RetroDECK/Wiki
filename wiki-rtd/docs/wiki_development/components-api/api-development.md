@@ -5,6 +5,8 @@ The RetroDECK API is a way for outside applications to get any information or pe
 Currently the API is only accessible either through named pipes or internally in the Framework itself. Future methods of message transport may be added in the future.
 Communication
 
+---
+
 ## Communication with the API
 
 If you would like to communicate with the RetroDECK API, follow this process:
@@ -21,6 +23,8 @@ The client making the request must then generate a unique (but arbitrary) "reque
     `~/.var/app/net.retrodeck.retrodeck/config/retrodeck/api/response_{request_id}`
 
 After the API server has completed its response, it will remove this response pipe itself.
+
+---
 
 ## API Request Structure
 
@@ -86,7 +90,7 @@ In this structure, these keys have the following meaning:
 
 If using named pipes for communication, after a response is processed the API server will remove the response pipe, indicating that the API transaction is complete.
 
-### Example response:
+### Example responses
 
 Here is an example of a full response for the RetroDECK API, responding to the previous example request for zip-compressible games data.
 
@@ -110,7 +114,7 @@ Here is an example of a full response for the RetroDECK API, responding to the p
 ```
 
 In this example, the "result" information is an array of objects, each with their own key/value pairs. The result data will vary depending on request, but will always reside within the "result" key.
-Additional Request / Response Examples:
+
 Here is another example request, for the value of a setting named "rdhome" in the "paths" section of the "retrodeck.cfg" file, using the config file format "retrodeck":
 
 ```
@@ -141,7 +145,10 @@ and the response for that request:
 
 ```
 
+----
+
 API Command Reference:
+
 API Request Group - GET
 "compressible_games"
 
@@ -152,11 +159,17 @@ Applicable data keys:
 format
 
 - Additional details for applicable data keys: 
+
 Valid values for key "format":
-chd - CHD compression, typically used by disc-based systems such as PSP
-rvz - RVZ compression, specific to Dolphin-based systems such as GameCube
-zip - ZIP compression, compatible with many systems
-all - Will check all files for compatibility with all types of compression
+
+- **chd** - CHD compression, typically used by disc-based systems such as PSP
+
+- **rvz** - RVZ compression, specific to Dolphin-based systems such as GameCube
+
+- **zip** - ZIP compression, compatible with many systems
+
+- **all** - Will check all files for compatibility with all types of compression
+
 Additional details on what systems are compatible with what compression formats can be found on the RetroDECK wiki.
 
 Additional considerations:

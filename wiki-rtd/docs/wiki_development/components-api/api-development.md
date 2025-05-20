@@ -196,7 +196,7 @@ Depending on the size of the library, this process can take a lot of time, so co
 
 ```
 
-### compressible_games - success response
+#### compressible_games - success response
 
 ```
 
@@ -245,7 +245,7 @@ This call will return an array of objects containing basic information for every
 
 **Additional considerations:** None
 
-### compressible_games - example request
+#### compressible_games - example request
 
 
 ```
@@ -259,7 +259,7 @@ This call will return an array of objects containing basic information for every
 
 ```
 
-### compressible_games - success response
+#### compressible_games - success response
 
 
 ```
@@ -374,7 +374,7 @@ This call will return all the current settings in the retrodeck.cfg config file.
 ```
 
 
-### retrodeck_settings - success response
+#### retrodeck_settings - success response
 
 
 ```
@@ -475,7 +475,7 @@ This call will return a key/value list of all known incompatible presets. As som
 
 **Additional considerations:** None
 
-### incompatible_presets -  example request
+#### incompatible_presets -  example request
 
 ```
 
@@ -830,7 +830,7 @@ This call will change the value of any given setting name in any given setting f
 
 It is possible to use known variable names (such as $rd_conf) for the setting_file key value as well, as they will be resolved to the true path internally. These names must be in Bash-compatible format and start with a $. The requested change will also be validated to have actually happened, and an error message returned if it could not be.
 
-### setting_value - example request
+#### setting_value - example request
 
 
 ```
@@ -851,7 +851,7 @@ It is possible to use known variable names (such as $rd_conf) for the setting_fi
 
 ```
 
-### setting_value - success response
+#### setting_value - success response
 
 
 ```
@@ -866,7 +866,7 @@ It is possible to use known variable names (such as $rd_conf) for the setting_fi
 }
 
 ```
-### setting_value - failure response
+#### setting_value - failure response
 
 ```
 
@@ -897,7 +897,7 @@ This is an extension of the call "set setting_value", made to simplify changing 
 Additional considerations:
 Although this call can alter the state of preset setting values in the retrodeck.cfg file directly, it will not actually apply the preset settings themselves, so should not be used in this way. The requested change will also be validated to have actually happened, and an error message returned if it could not be.
 
-### retrodeck_setting - example request
+#### retrodeck_setting - example request
 
 ```
 
@@ -915,7 +915,7 @@ Although this call can alter the state of preset setting values in the retrodeck
 
 ```
 
-### retrodeck_setting - success response
+#### retrodeck_setting - success response
 
 ```
 
@@ -930,7 +930,7 @@ Although this call can alter the state of preset setting values in the retrodeck
 
 ```
 
-### retrodeck_setting - failure response
+#### retrodeck_setting - failure response
 
 
 ```

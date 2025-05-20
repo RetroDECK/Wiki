@@ -253,6 +253,7 @@ nav:
     - RetroDECK General: wiki_faq/faq-rd-general.md
     - RetroDECK Usage: wiki_faq/faq-rd-usage.md
     - SD Cards: wiki_faq/faq-sdcard.md
+    - RetroDECK Cooker: wiki_faq/faq-cooker.md
 
   - Guides - RetroDECK Controls & Hotkeys 🎮:
 
@@ -410,7 +411,6 @@ nav:
       - Folders and Filepaths: wiki_development/general/folders-filepaths.md
 
     - Testing:
-      - Cooker Testing - FAQ: wiki_development/testing/faq-cooker.md
       - Cooker Testing - Guide: wiki_development/testing/cooker-testing.md
       - Experimental Features: wiki_development/testing/experimental-features.md
 

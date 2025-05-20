@@ -1,31 +1,31 @@
 # Components Recipe Files
 
-These files will be stored along side the rest of the component data in specific location.
+The "Recipe" files purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source (AppImage, Flatpak, Binary, etc...) and turn it into a RetroDECK Component.
 
-Currently this location is `/app/retrodeck/components/<component name>/` but can be changed in the future.
+The recipe files is are included in the final component package. 
 
 ## The four Components Recipe Files
 
-- **manifest.json** - JSON file containing general information about the component, preset and menu compatibility, preset action information, core information (as applicable).
+- **component_manifest.json** - JSON file containing general information about the component, preset and menu compatibility, preset action information, core information (as applicable).
 
-- **functions.sh** - A Bash file containing config file paths (the kind previously found in the global.sh library) and defined functions relating to the component. If the component has a function that is specific to it, such as installing firmware or advanced functions found in the Configurator menus, they should be here.
+- **component_functions.sh** - A Bash file containing config file paths (the kind previously found in the global.sh library) and defined functions relating to the component. If the component has a function that is specific to it, such as installing firmware or advanced functions found in the Configurator menus, they should be here.
 
-- **prepare_component.sh** - A Bash file containing the segment of code formerly found in the prepare_component.sh core library. The structure is identical, and the code is used for performing actions on the component like resets and folder moves.
+- **component_prepare.sh** - A Bash file containing the segment of code formerly found in the prepare_component.sh core library. The structure is identical, and the code is used for performing actions on the component like resets and folder moves.
 
 - **component_launcher.sh** - A Bash file acting as a launcher wrapper for the component. Settings will include changing environmental variables etc. or whatever else is needed to launch the component in the sub-sandbox setup.
 
 
 ---
 
-## manifest.json 
+## component_component_manifest.json
 
-The `manifest.json` file contains both "informational" contents, values that will be used in Configurator menus or API code to find the capabilities of the component: what system is runs, it's features, what presets it is compatible with etc.
+The `component_manifest.json` file contains both "informational" contents, values that will be used in Configurator menus or API code to find the capabilities of the component: what system is runs, it's features, what presets it is compatible with etc.
 
 
 
-### manifest.json structure
+### component_manifest.json structure
 
-The basic structure of the `manifest.json` file is
+The basic structure of the `component_manifest.json` file is
 
 ```
 
@@ -98,7 +98,7 @@ The basic structure of the `manifest.json` file is
 
 ### component_name
 
-**component_name** - This is the internal name for this component as used in the Framework. This name must also match the component folder name. From the current path for these files listed above, this means this manifest file would be found at /app/retrodeck/components/component_name/manifest.json
+**component_name** - This is the internal name for this component as used in the Framework. This name must also match the component folder name. From the current path for these files listed above, this means this manifest file would be found at /app/retrodeck/components/component_name/component_manifest.json
 
 - **name** - A human-friendly name for this component, as shown in menu dialogs
 
@@ -120,7 +120,7 @@ The basic structure of the `manifest.json` file is
 
 - **description** - A human-friendly description of the menu entry, as shown in menu dialogs
 
-- **command** - The command that will be run when the menu entry is selected. This can be a single line command if it is a simple action, or an internally defined function (with optional arguments) for more complex actions. Any component-specific function referenced here should be defined in that components functions.sh file.
+- **command** - The command that will be run when the menu entry is selected. This can be a single line command if it is a simple action, or an internally defined function (with optional arguments) for more complex actions. Any component-specific function referenced here should be defined in that components component_functions.sh file.
 
 ### compatible_presets
 
@@ -163,7 +163,7 @@ These entries can contain variable names (such as sourced config file paths) or 
 
 - **system_friendly_name** - A human-friendly name of the system(s) emulated by this core, as shown in menus.
 
-### Example: manifest.json for external component RetroArch
+### Example: component_manifest.json for external component RetroArch
 
 ```
 
@@ -318,9 +318,9 @@ These entries can contain variable names (such as sourced config file paths) or 
 ```
 
 
-### Example: manifest.json for internal component RetroDECK
+### Example: component_manifest.json for internal component RetroDECK
 
-Even an Internal Component like RetroDECK will also have `manifest.json`.
+Even an Internal Component like RetroDECK will also have `component_manifest.json`.
 
 Which contain any related information used in menus or API data gathering. As most internal components won't support things like presets, they will generally be shorter than actual emulator components.
 
@@ -360,17 +360,17 @@ Which contain any related information used in menus or API data gathering. As mo
 
 ---
 
-## functions.sh
+## component_functions.sh
 
 This file will contain the component-specific path variables as well as any component-specific function definitions needed. 
 
 The component path variables are what would have been found in the legacy global.sh file. This way we don't need to maintain a massive monolithic global.sh file as new components are added. 
 
-Every functions.sh file will be iteratively sourced on boot, so all the paths and defined functions will always be available and don't need to be maintained in any list as new components are added.
+Every component_functions.sh file will be iteratively sourced on boot, so all the paths and defined functions will always be available and don't need to be maintained in any list as new components are added.
 
-### Example: functions.sh PPSSPP
+### Example: component_functions.sh PPSSPP
 
-Here is an example of a `specific functions.sh` file for the PPSSPP component:
+Here is an example of a `specific component_functions.sh` file for the PPSSPP component:
 
 ```
 #!/bin/bash
@@ -384,7 +384,7 @@ ppsspp_test_function() {
 
 ---
 
-## prepare_component.sh
+## component_prepare.sh
 
 This file will contain the contents of the section of the legacy prepare_component library that apply to only this component. This way all prepare_component actions are broken out on a per-component basis, and we won't have a massive monolithic file to maintain as new components are added. 
 
@@ -392,7 +392,7 @@ The structure of each file is the same as was used before, to maintain the "rese
 
 The internal code process is that whenever the "prepare_component" function is called, every installed components file will be sourced, so each file will decide if it needs to trigger or not.
 
-### Example: prepare_component.sh PPSSPP
+### Example: component_prepare.sh PPSSPP
 
 ```
 

@@ -115,7 +115,7 @@ Here is an example of a full response for the RetroDECK API, responding to the p
 
 In this example, the "result" information is an array of objects, each with their own key/value pairs. The result data will vary depending on request, but will always reside within the "result" key.
 
-Here is another example request, for the value of a setting named "rdhome" in the "paths" section of the "retrodeck.cfg" file, using the config file format "retrodeck":
+Here is another example request, for the value of a setting named `rdhome` in the `paths` section of the `retrodeck.cfg` file, using the config file format retrodeck:
 
 ```
 
@@ -147,18 +147,23 @@ and the response for that request:
 
 ----
 
-API Command Reference:
+## API Request Group - GET
 
-API Request Group - GET
-"compressible_games"
+The GET group
 
-Description:
-This call will retrurn an array of objects of any game found to be compatible with the compression system for the provided format. If "all" is specified for the format, all compatible compression methods will be checked.
+---
 
-Applicable data keys: 
-format
+### compressible_games
 
-- Additional details for applicable data keys: 
+**Description:**
+
+This call will return an array of objects of any game found to be compatible with the compression system for the provided format. If "all" is specified for the format, all compatible compression methods will be checked.
+
+**Applicable data keys:** 
+
+- format
+
+**Additional details for applicable data keys:**
 
 Valid values for key "format":
 
@@ -175,7 +180,7 @@ Additional details on what systems are compatible with what compression formats 
 Additional considerations:
 Depending on the size of the library, this process can take a lot of time, so consider wrapping it in some kind of spinner so the user knows to wait.
 
-Example request:
+#### compressible_games - example request
 
 ```
 
@@ -191,10 +196,7 @@ Example request:
 
 ```
 
-Example responses:
-
-
-Success response:
+### compressible_games - success response
 
 ```
 
@@ -219,7 +221,7 @@ Success response:
 
 ```
 
-Failure response:
+#### compressible_games - failure response
 
 ```
 
@@ -231,16 +233,20 @@ Failure response:
 
 ```
 
-"components"
+---
 
-Description:
+### components
+
+**Description:**
+
 This call will return an array of objects containing basic information for every installed component. Returned information includes the internal "machine-readable" name for the component, a human-friendly name and description and a list of all systems emulated by the component.
 
-Applicable data keys: None
+**Applicable data keys:** None
 
-Additional considerations: None
+**Additional considerations:** None
 
-Example request:
+### compressible_games - example request
+
 
 ```
 
@@ -253,8 +259,8 @@ Example request:
 
 ```
 
-Example responses:
-Success response:
+### compressible_games - success response
+
 
 ```
 
@@ -342,16 +348,19 @@ Failure response:
 
 ```
 
-"retrodeck_settings"
+---
 
-Description:
+### retrodeck_settings
+
+**Description:**
+
 This call will return all the current settings in the retrodeck.cfg config file. This will include internal paths to locations like the ROMs folder, the Saves folder, the BIOS folder etc. As these locations can be somewhat arbitrary, this is a useful call if the client is planning to reference them directly later. The output will also contain all of the internal RetroDECK setting options (such as logging level) as well as the current state for every preset for every component.
 
-Applicable data keys: None
+**Applicable data keys:** None
 
-Additional considerations: None
+**Additional considerations:** None
 
-Example request:
+#### retrodeck_settings - example request
 
 ```
 
@@ -364,9 +373,9 @@ Example request:
 
 ```
 
-Example responses:
 
-Success response:
+### retrodeck_settings - success response
+
 
 ```
 
@@ -454,16 +463,19 @@ Failure response:
 
 ```
 
-"incompatible_presets"
+---
 
-Description:
+### incompatible_presets
+
+**Description:**
+
 This call will return a key/value list of all known incompatible presets. As some presets cannot be enabled at the same time as other presets (such as "borders" and "widescreen"), the output can be used to take these incompatibilities into account in a GUI environment. For example, a user could be pre-warned about trying to enable a preset while another incompatible preset is already enabled.
 
-Applicable data keys: None
+**Applicable data keys:** None
 
-Additional considerations: None
+**Additional considerations:** None
 
-Example request:
+### incompatible_presets -  example request
 
 ```
 
@@ -476,8 +488,8 @@ Example request:
 
 ```
 
-Example responses:
-Success response
+#### incompatible_presets - success response
+
 
 ```
 
@@ -492,7 +504,7 @@ Success response
 
 ```
 
-Failure response:
+#### incompatible_presets - failure response
 
 ```
 
@@ -504,24 +516,29 @@ Failure response:
 
 ```
 
-"setting_value"
+---
 
-Description:
+### setting_value
+
+**Description:**
 
 This call allows for getting the value of a specific setting name from any known config file. The name of the config file must be known, along with the setting name, any applicable setting file section header and the internal "system" name of the component.
 
 Applicable data keys:
 
-setting_file - A full path or known variable name to the setting file to reference.
-setting_name - The specific setting name to reference.
-system_name - The RetroDECK-internal name of the system being referenced. This will match the component name from API functions such as "get all_components".
-section_name (optional) - The section of the config file where the setting_name is found. Can be left blank or omitted entirely if the setting is not found in a specific section.
+- **setting_file** - A full path or known variable name to the setting file to reference.
 
-Additional considerations:
+- **setting_name** - The specific setting name to reference.
+
+- **system_name** - The RetroDECK-internal name of the system being referenced. This will match the component name from API functions such as "get all_components".
+
+- **section_name** - (Optional) the section of the config file where the setting_name is found. Can be left blank or omitted entirely if the setting is not found in a specific section.
+
+**Additional considerations:**
 
 It is possible to use known variable names (such as $rd_conf) for the setting_file key value as well, as they will be resolved to the true path internally. These names must be in Bash-compatible format and start with a $.
 
-Example request:
+#### setting_value - example request
 
 ```
 
@@ -557,37 +574,43 @@ Failure response:
 
 ```
 
-"current_preset_state"
+---
 
-Description:
+### current_preset_state
+
+**Description:**
 
 This call will return the current information for any given preset, component or combination of both. A value of "any" is also acceptable for the "preset" key value, and if the component key value is omitted it will return a list of all components compatible with the given preset. Specifying "all" for the preset with no specified component will return the state of all presets for all components.
 
-Applicable data keys:
+**Applicable data keys:**
 
-preset - A specific preset name, or "any" to gather data for all presets.
-component (optional) - A specific component to gather data for given preset. Can be left blank or omitted entirely, at which point data will be gathered for all applicable components.
+- **preset** - A specific preset name, or "any" to gather data for all presets.
 
-Additional considerations:  None
+- **component** - (Optional) A specific component to gather data for given preset. Can be left blank or omitted entirely, at which point data will be gathered for all applicable components.
 
-Example request:
+**Additional considerations:**  None
 
-
-Example responses:
+#### current_preset_state - example request
 
 
-"bios_file_status"
+#### current_preset_state - example response 
 
-Description:
+
+---
+
+### bios_file_status
+
+**Description:**
 
 This call will return an array of objects containing information regarding the state of all known BIOS files under the intention of this data being shown in some kind of menu list. The returned information includes BIOS file name, what systems the BIOS file applies to, if the BIOS file was found in the required location, if the BIOS file matches a known-good MD5 hash, a desription of the files use, what paths the file is expected at and a list of any known MD5 hashes for that specific file. The files being checked and all their related data comes from an internal RetroDECK database.
 
-Applicable data keys: None
+**Applicable data keys:** None
 
-Additional considerations:
+**Additional considerations:**
+
 Depending on the number of BIOS files the user has, this process can take a lot of time, so consider wrapping it in some kind of spinner so the user knows to wait.
 
-Example request:
+#### bios_file_status - example request
 
 ```
 
@@ -600,8 +623,7 @@ Example request:
 
 ```
 
-Example responses:
-Successful response:
+### bios_file_status - successful response
 
 ```
 
@@ -633,7 +655,8 @@ Successful response:
 
 ```
 
-Failure response:
+#### bios_file_status - failure response
+
 
 ```
 
@@ -647,18 +670,22 @@ Failure response:
 
 ```
 
-"multifile_game_structure"
+---
 
-Description:
+###  multifile_game_structure
+
+**Description:**
 
 This call will check for any common multi-file game structure issues and return an array of objects of any that are found. If none are found, the command will complete with a "success" status, if issues are found it will complete with an "error" status.
 
-Applicable data keys: None
+**Applicable data keys:** None
 
-Additional considerations:
+**Additional considerations:**
+
 The output of this function is non-exhaustive and represents a best-effort to identify common multi-file game structure issues. Additional information regarding proper multi-file game strutures can be found on the RetroDECK wiki.
 
-Example request:
+
+####  multifile_game_structure - example request
 
 ```
 
@@ -671,8 +698,9 @@ Example request:
 
 ```
 
-Example response:
-Success response:
+
+####  multifile_game_structure - success response
+
 
 ```
 
@@ -684,7 +712,7 @@ Success response:
 
 ```
 
-Failure response:
+####  multifile_game_structure - failure response
 
 ```
 
@@ -703,23 +731,37 @@ Failure response:
 
 ```
 
-API Request Group - SET
-"preset_state"
+---
 
-Description:
+## API Request Group - SET
+
+The SET Group.
+
+---
+
+### preset_state
+
+**Description:**
+
 This call will set the state of any given preset for any given component to any given value, after performing compatibility prechecks. Supported components are any that are compatible with any number of presets. Supported presets are whatever the given component supports. Supported values are whatever are defined in that components manifest for that preset. As value state names can be arbitrary, this will vary from component to component, but all possible options are listed in the results of the API call "get all_components".
 
-Applicable data keys:
-component - The name of the component, using the internal system name as referenced by other API calls such as "get all_components".
-preset - The name of the preset to be changed, using the internal preset name as referenced by other API calls such as "get current_preset_state".
-state - The new desired state to set the preset to.
-cheevos_username (optional) - Only needed if enabling a RetroAchivements-related preset, the username as provided by the user to log into the RetroAchivements system.
-cheevos_token (optional) - Only needed if enabling a RetroAchivements-related preset, the token is provided upon successful login to the RetroAchivements system through the RetroDECK API call "do cheevos_login".
+**Applicable data keys:**
 
-Additional considerations:
+- **component** - The name of the component, using the internal system name as referenced by other API calls such as "get all_components".
+
+- **preset** - The name of the preset to be changed, using the internal preset name as referenced by other API calls such as "get current_preset_state".
+
+- **state** - The new desired state to set the preset to.
+
+- **cheevos_username** - (Optional) only needed if enabling a RetroAchivements-related preset, the username as provided by the user to log into the RetroAchivements system.
+
+- **cheevos_token** -  (Optional) only needed if enabling a RetroAchivements-related preset, the token is provided upon successful login to the RetroAchivements system through the RetroDECK API call "do cheevos_login".
+
+**Additional considerations:**
+
 This call performs several compatibility prechecks prior to actually changing anything, such as if the supplied information is correct and that there are no other incompatible presets already enabled. An error message will be returned explaining why the request was rejected if any of the prechecks fail.
 
-Example request:
+#### preset_state - example request
 
 ```
 
@@ -739,8 +781,8 @@ Example request:
 
 ```
 
-Example responses:
-Success response:
+#### preset_state - success response
+
 
 ```
 
@@ -752,7 +794,7 @@ Success response:
 
 ```
 
-Failure response:
+#### preset_state - failure response
 
 ```
 
@@ -766,23 +808,29 @@ Failure response:
 
 ```
 
-"setting_value"
+### setting_value
 
-Description:
+**Description:**
 
 This call will change the value of any given setting name in any given setting file. The structure is similar to the API call "get setting_value" only with an additional key for the new setting value.
 
-Applicable data keys:
-setting_file - A full path or known variable name to the setting file to reference.
-setting_name - The specific setting name to reference.
-setting_value - The new value to set the given setting to.
-system_name - The RetroDECK-internal name of the system being referenced. This will match the component name from API functions such as "get all_components".
-section_name (optional) - The section of the config file where the setting_name is found. Can be left blank or omitted entirely if the setting is not found in a specific section.
+**Applicable data keys:**
 
-Additional considerations:
+- setting_file** - A full path or known variable name to the setting file to reference.
+
+- **setting_name** - The specific setting name to reference.
+
+- **setting_value** - The new value to set the given setting to.
+
+- **system_name** - The RetroDECK-internal name of the system being referenced. This will match the component name from API functions such as "get all_components".
+
+- **section_name** - (Optional) the section of the config file where the setting_name is found. Can be left blank or omitted entirely if the setting is not found in a specific section.
+
+**Additional considerations:**
+
 It is possible to use known variable names (such as $rd_conf) for the setting_file key value as well, as they will be resolved to the true path internally. These names must be in Bash-compatible format and start with a $. The requested change will also be validated to have actually happened, and an error message returned if it could not be.
 
-Example request:
+### setting_value - example request
 
 ```
 

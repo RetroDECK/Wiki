@@ -24,17 +24,17 @@ All releases here are considered as Pre-Releases, the full release is always on 
 
 ### Cooker / Cooker Releases
 
-The cooker repo of the RetroDECK Project.
-
-Cooker is a bleeding edge snapshot of the current commits (the action of uploading code to GitHub is called a commit).
+Cooker is a bleeding edge snapshot repository of the current commits (the action of uploading code to GitHub is called a commit).
 
 The code may not be always reviewed and so the cooker it's unstable by its nature, it's just suggested to testers or developer to try bleeding edge functions.
 
 ### Feature branches
 
-The feature rep of the RetroDECK Project, are subbranches where specific component/feature/other development is happening before it gets merged into cooker proper.
+The feature branches repositories of the RetroDECK Project, are subbranches where specific component/feature/other development is happening before it gets merged into cooker proper.
 
 ## RetroDECK API
+
+## RetroDECK Framework
 
 ## RetroEngine
 
@@ -42,7 +42,7 @@ The feature rep of the RetroDECK Project, are subbranches where specific compone
 
 ## Components
 
-RetroDECK is made with components.
+RetroDECK is made by assembling various components.
 
 ### What are components?
 
@@ -52,7 +52,7 @@ A component is a packaged executable of:
 - Engine
 - Port
 - System
-- RetroDECK: Features & Functions (RetroDECK itself is also an component)
+- RetroDECK: Features & Functions
 
 A component is shipped with Component Recipe Files in addition to the libaries and binaries that make up the software that tells RetroDECK:
 
@@ -70,7 +70,7 @@ When they are communicated about they are referred to as:
 
 ### Internal vs External components
 
-- External components are stored within the external component space within writable userspace. `/app/retrodeck/components/<component name>/`
+- External components are stored within the external component space within writable userspace: `/app/retrodeck/components/<component name>/`.
 
 - Internal components, such as RetroDECK itself are stored on the read-only filesystem.
 

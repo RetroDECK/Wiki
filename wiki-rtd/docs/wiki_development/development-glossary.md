@@ -165,13 +165,19 @@ A system in the context of RetroDECK is a piece of software that is not running 
 
 RetroDECK itself with it's various tools (Configurator) and features (Compressor) is also an component.
 
-## Component Recipe Files
+## Component Recipe File
 
-**What are Component Recipe Files?**
+The **Component Recipe File** purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source (AppImage, Flatpak, Binary, etc...) and turn it into a RetroDECK Component.
 
-The **Components Recipe Files** purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source (AppImage, Flatpak, Binary, etc...) and turn it into a RetroDECK Component.
+The recipe file is **NOT** included in the final component package. 
 
-The recipe files is are **NOT** included in the final component package. 
+- `recipe.json`
+
+## Component Ingredient Files
+
+**What are Component Ingredient Files?**
+
+The **Components Ingredient Files** is to feed details about the Component to the RetroDECK Framework on it's features and functions.
 
 **Example of features:**
 
@@ -186,14 +192,14 @@ As these files are read in an iterative way by the code, it is imperative that t
 
 When they are communicated about they are referred to as: 
 
-- `Recipes`
-- `<Component Name> Recipe` 
+- `Ingredients`
+- `<Component Name> Ingredient` 
 
 **Read more over at:**
 
-[Component Recipe Files](../wiki_development/components-api/component-recipe-files.md)
+[Component Ingredient Files](../wiki_development/components-api/component-recipe-files.md)
 
-### What are the four component Recipe files?
+### What are the four component Ingredient files?
 
 These files will be stored along side the rest of the component data in specific location.
 
@@ -206,6 +212,8 @@ The following four files are required by every component:
 - `component_prepare.sh`
 
 - `component_launcher.sh`
+
+
 
 
 

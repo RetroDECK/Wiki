@@ -21,9 +21,9 @@ Each component will have several standardized files included in the component su
 
 
 
-The **Components Recipe File** purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source (AppImage, Flatpak, Binary, etc...) and turn it into a RetroDECK Component.
+The **Component Recipe File** purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source (AppImage, Flatpak, Binary, etc...) and turn it into a RetroDECK Component.
 
-The recipe files is are **NOT** included in the final component package. 
+The recipe file is **NOT** included in the final component package. 
 
 
 Additionally there is a recipe.sh file containing the automation commands to transform the component from its original source form into a RetroDECK-compatible structure.

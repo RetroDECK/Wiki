@@ -4,13 +4,15 @@
 
 **Description:**
 
-This call will perform a "reset" on the given component. The reset actions are component-specific and can be found in the matching "prepare_component.sh" file.
+This API call performs a reset operation on the specified component. The reset behavior is specific to each component and is defined in the corresponding `prepare_component.sh` script.
+
 
 **Applicable data keys:**
 
-- **component** - The name of the component, using the internal system name as referenced by other API calls such as "get all_components".
+- **component** - The internal system name of the component to reset, as referenced in other API calls such as `get all_components`.
 
-**Additional considerations:** None
+
+**Additional Notes** None
 
 ## reset_component - example request
 

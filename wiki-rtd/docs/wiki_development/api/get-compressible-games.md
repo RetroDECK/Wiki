@@ -4,28 +4,27 @@
 
 **Description:**
 
-This call will return an array of objects of any game found to be compatible with the compression system for the provided format. If "all" is specified for the format, all compatible compression methods will be checked.
+This API call returns an array of objects representing games that are compatible with the specified compression format. 
 
 **Applicable data keys:** 
 
-- format
+- **format** – Specifies the compression format to check for compatibility
 
 **Additional details for applicable data keys:**
 
 Valid values for key "format":
 
-- **chd** - CHD compression, typically used by disc-based systems such as PSP
+- **chd** – CHD compression, commonly used for disc-based systems (e.g., PSP).
+- **rvz** – RVZ compression, specific to Dolphin-based systems (e.g., GameCube).
+- **zip** – ZIP compression, supported by many systems.
+- **all** – Checks compatibility for all supported compression formats.
 
-- **rvz** - RVZ compression, specific to Dolphin-based systems such as GameCube
+If `all` is provided as the format, the system will evaluate compatibility across all supported compression types.
 
-- **zip** - ZIP compression, compatible with many systems
+**Additional Notes:**
 
-- **all** - Will check all files for compatibility with all types of compression
-
-Additional details on what systems are compatible with what compression formats can be found on the RetroDECK wiki.
-
-Additional considerations:
-Depending on the size of the library, this process can take a lot of time, so consider wrapping it in some kind of spinner so the user knows to wait.
+- For system-specific compression support, refer to the RetroDECK wiki.
+- Depending on the size of the game library, this process may take some time. It is recommended to use a loading spinner or progress indicator in the UI.
 
 ## compressible_games - example request
 

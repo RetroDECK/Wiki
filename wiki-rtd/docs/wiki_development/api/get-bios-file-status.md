@@ -4,13 +4,26 @@
 
 **Description:**
 
-This call will return an array of objects containing information regarding the state of all known BIOS files under the intention of this data being shown in some kind of menu list. The returned information includes BIOS file name, what systems the BIOS file applies to, if the BIOS file was found in the required location, if the BIOS file matches a known-good MD5 hash, a desription of the files use, what paths the file is expected at and a list of any known MD5 hashes for that specific file. The files being checked and all their related data comes from an internal RetroDECK database.
+
+This API call retrieves an array of objects representing the current status of all known BIOS files. The data is intended for display in a menu or list format and includes:
+
+- BIOS file name
+- Associated systems
+- Presence in the expected location
+- MD5 hash match status
+- Description of the file’s purpose
+- Expected file paths
+- List of known MD5 hashes
+
+All information is sourced from the internal RetroDECK BIOS database.
+
 
 **Applicable data keys:** None
 
-**Additional considerations:**
+**Additional Notes**
 
-Depending on the number of BIOS files the user has, this process can take a lot of time, so consider wrapping it in some kind of spinner so the user knows to wait.
+The process may take a significant amount of time depending on the number of BIOS files present. It is recommended to use a loading spinner or similar UI element to indicate progress to the user.
+
 
 ## bios_file_status - example request
 

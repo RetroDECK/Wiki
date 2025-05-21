@@ -4,13 +4,15 @@
 
 **Description:**
 
-This call will check for any common multi-file game structure issues and return an array of objects of any that are found. If none are found, the command will complete with a "success" status, if issues are found it will complete with an "error" status.
+This API call checks for common issues in multi-file game structures and returns an array of objects describing any problems found. If no issues are detected, the call completes with a `success` status. If issues are found, it returns an `error` status.
+
 
 **Applicable data keys:** None
 
-**Additional considerations:**
+**Additional Notes:**
 
-The output of this function is non-exhaustive and represents a best-effort to identify common multi-file game structure issues. Additional information regarding proper multi-file game strutures can be found on the RetroDECK wiki.
+- The output is a best-effort analysis and may not capture all possible issues.
+- For detailed guidance on proper multi-file game structures, refer to the RetroDECK wiki.
 
 
 ## multifile_game_structure - example request

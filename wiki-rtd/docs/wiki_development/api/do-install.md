@@ -3,13 +3,14 @@
 **API Request Group:** DO
 
 **Description:**
-This call will perform an "install" for the provided RetroDECK package, such as the Steam Controller Profile. A list of the available packages is maintained on the RetroDECK wiki.
+This API call installs a specified RetroDECK package, such as the Steam Controller Profile. A list of available packages is maintained on the RetroDECK wiki.
+
 
 **Applicable data keys:**
 
-- **package_name** - The internal name of the package to be installed.
+- **package_name** - The internal identifier of the package to be installed.
 
-**Additional considerations:** None
+**Additional Notes** None
 
 ## install - example request
 

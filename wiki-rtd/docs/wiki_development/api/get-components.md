@@ -4,11 +4,16 @@
 
 **Description:**
 
-This call will return an array of objects containing basic information for every installed component. Returned information includes the internal "machine-readable" name for the component, a human-friendly name and description and a list of all systems emulated by the component.
+This API call returns an array of objects containing basic information about all installed components. Each object includes:
+
+- The internal (machine-readable) name of the component
+- A human-friendly name
+- A description of the component
+- A list of all systems supported by the component
 
 **Applicable data keys:** None
 
-**Additional considerations:** None
+**Additional Notes:** None
 
 ## components - example request
 

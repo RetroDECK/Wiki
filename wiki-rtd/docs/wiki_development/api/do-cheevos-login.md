@@ -4,16 +4,16 @@
 
 **Description:**
 
-This call will attempt to perform a RetroAchivements login with the provided information and return the supplied information from the RetroAchivements API, as well as a login timestamp. This information can then be used to enable RetroAchivements-related presets directly.
+This API call attempts to authenticate a user with RetroAchievements using the provided credentials. Upon successful login, it returns user information from the RetroAchievements API along with a login timestamp. This data can be used to activate RetroAchievements-related presets.
 
 **Applicable data keys:**
 
 - **username** - The RetroAchivements username to be used in the login attempt.
 - **password** - The RetroAchivements password to be used in the login attempt.
 
-**Additional considerations:**
+**Additional Notes**
 
-If the login information provided is accepted by the RetroAchievements login system, the returned result will include a login token and timestamp, which most RA-capable components will require for the "cheevos" preset. That information can then be passed along to the "set preset_state" RetroDECK API call in the appropriate keys.
+If the login is successful, the response will include a login token and timestamp. These are essential for enabling the `cheevos` preset in RA-compatible components. The token and timestamp should be passed to the set `preset_state` endpoint of the RetroDECK API using the appropriate keys.
  
 ## cheevos_login - example request
 

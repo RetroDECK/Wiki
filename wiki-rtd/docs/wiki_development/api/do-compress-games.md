@@ -4,21 +4,24 @@
 
 **Description:**
 
-This call will compress one or more provided games into the specified compression format. The provided data will include single key/value pairs as well as game objects containing their own keys and values, matching the output structure of the API call "get compressible_games".
+This API call compresses one or more specified games into a chosen format. Input data includes both individual key-value pairs and game objects, structured similarly to the output of the `get compressible_games` API call
 
 **Applicable data keys:**
 
-- **post_compression_cleanup** - (Optional) either "true" or "false", setting this value to "true" will have the compression process remove the original game files once they are compressed and validated that the compression completed successfully. This key can be blank or omitted entirely and will default to "false" unless specified as "true".
+- **post_compression_cleanup** *(Optional)* - Accepts `"true"` or `"false"`. When set to `"true"`, the original game files will be deleted after successful compression and validation. If omitted or left blank, this defaults to `"false"`.
 
-- **games [ ]** - This is a parent array of objects for the games to be compressed.
+- **games [ ]** - An array of objects, each representing a game to be compressed.
 
-- **game** - This is the path to the game to be compressed, in its own object within the games[] array.
+- **game** - The file path to the game. This key must be included within each object in the `games[]` array.
 
-- **format** - This is the specified format to compress the game into, held within the same object as the desired game.
+- **format** - The desired compression format. This must be specified within the same object as the game path.
 
-**Additional considerations:**
 
-No compatibility checks are performed for this part of the compression process, so ensure the games you specify match a compatible compression format, or incorrect compressions may occur. Compression validation can be performed on all games with the API call "get compressible_games", and additional information on what systems support what compression formats can be found on the RetroDECK wiki.
+**Additional Notes**
+
+- This API does **not** perform compatibility checks. Ensure that the selected compression format is appropriate for each game to avoid errors.
+- To validate compatibility and compression readiness, use the `get compressible_games` API call.
+- For more details on supported formats by system, refer to the RetroDECK wiki
 
 #### compress_games - example request
 

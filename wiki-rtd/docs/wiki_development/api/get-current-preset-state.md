@@ -4,12 +4,18 @@
 
 **Description:**
 
-This call will return the current information for any given preset, component or combination of both. A value of "any" is also acceptable for the "preset" key value, and if the component key value is omitted it will return a list of all components compatible with the given preset. Specifying "all" for the preset with no specified component will return the state of all presets for all components.
+This API call retrieves the current state information for a specified preset, component, or a combination of both. It supports flexible querying:
+
+- If `any` is specified for the `preset` key, the API will return data for all presets.
+- If the `component` key is omitted, the API will return all components compatible with the specified preset.
+- If `all` is specified for the `preset` and no component is provided, the API will return the state of all presets across all components.
+
 
 **Applicable data keys:**
 
-- **preset** - A specific preset name, or "any" to gather data for all presets.
+- **preset** – The name of a specific preset, `any` for all presets, or `all` to retrieve the state of all presets for all components.
 
-- **component** - (Optional) A specific component to gather data for given preset. Can be left blank or omitted entirely, at which point data will be gathered for all applicable components.
+- **component** *(Optional)* – The internal name of a specific component. If omitted, data will be returned for all applicable components.
 
-**Additional considerations:**  None
+
+**Additional Notes:** None

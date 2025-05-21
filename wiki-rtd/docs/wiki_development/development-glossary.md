@@ -87,7 +87,7 @@ In the future, Ponzu might support other systems not shipped by default in Retro
 
 RetroDECK is made by assembling various components.
 
-### What are components?
+### What are Components?
 
 A component is a packaged executable of:
 

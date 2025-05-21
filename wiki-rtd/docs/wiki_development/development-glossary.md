@@ -15,6 +15,15 @@ How the process works:
 
 A version of RetroDECK is only considered released when it is published on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck).
 
+**Communication:**
+
+If a user asks:
+
+Is a new version of RetroDECK out?
+
+You can only answer **YES** when it has been verified that it is out on Flathub. 
+
+
 ## Github Repos
 
 <img src="../../wiki_icons/pixelitos/github.png" width="50">
@@ -101,9 +110,9 @@ Inside: `/app/retrodeck/components/<component name>/`.
 
 When they are communicated about they are referred to as: 
 
-- **Components** 
-- **<Component Name> Component** 
-- **<Component Name>** 
+- `Components`
+- `<Component Name> Component`
+- `<Component Name>`
 
 ### What is a Engine?
 
@@ -177,8 +186,8 @@ As these files are read in an iterative way by the code, it is imperative that t
 
 When they are communicated about they are referred to as: 
 
-- **Recipes**
-- **<Component Name> Recipe** 
+- `Recipes`
+- `<Component Name> Recipe` 
 
 **Read more over at:**
 
@@ -190,13 +199,13 @@ These files will be stored along side the rest of the component data in specific
 
 The following four files are required by every component:
 
-- **component_manifest.json**
+- `component_manifest.json`
 
-- **component_functions.sh** 
+- `component_functions.sh` 
 
-- **component_prepare.sh**
+- `component_prepare.sh`
 
-- **component_launcher.sh**
+- `component_launcher.sh`
 
 
 

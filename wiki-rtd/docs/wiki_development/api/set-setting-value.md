@@ -2,27 +2,30 @@
 
 **API Request Group:** SET
 
-**Description:**
+### Description
 
-This call will change the value of any given setting name in any given setting file. The structure is similar to the API call "get setting_value" only with an additional key for the new setting value.
+This API call updates the value of a specified setting within a given configuration file. It functions similarly to the `get setting_value` call, but includes an additional key to define the new value.
 
-**Applicable data keys:**
+### Applicable Data Keys
 
-- setting_file** - A full path or known variable name to the setting file to reference.
+- **setting_file** – The full path or a known variable name (e.g., `$rd_conf`) referencing the configuration file. Variable names must be Bash-compatible and begin with `$`.
 
-- **setting_name** - The specific setting name to reference.
+- **setting_name** – The name of the setting to be updated.
 
-- **setting_value** - The new value to set the given setting to.
+- **setting_value** – The new value to assign to the specified setting.
 
-- **system_name** - The RetroDECK-internal name of the system being referenced. This will match the component name from API functions such as "get all_components".
+- **system_name** – The internal RetroDECK system name, matching the component name used in API calls like `get all_components`.
 
-- **section_name** - (Optional) the section of the config file where the setting_name is found. Can be left blank or omitted entirely if the setting is not found in a specific section.
+- **section_name** *(Optional)* – The section of the configuration file where the setting is located. Can be omitted if the setting is not sectioned
 
-**Additional considerations:**
+### Additional Notes
 
-It is possible to use known variable names (such as $rd_conf) for the setting_file key value as well, as they will be resolved to the true path internally. These names must be in Bash-compatible format and start with a $. The requested change will also be validated to have actually happened, and an error message returned if it could not be.
+- Known variable names will be resolved internally to their actual file paths.
+- The system will validate that the change was successfully applied. If not, an error message will be returned.
 
-## setting_value - example request
+## Examples: setting_value 
+
+### Example request: setting_value 
 
 
 ```
@@ -43,7 +46,8 @@ It is possible to use known variable names (such as $rd_conf) for the setting_fi
 
 ```
 
-## setting_value - success response
+
+### Success Response: setting_value 
 
 
 ```
@@ -58,7 +62,7 @@ It is possible to use known variable names (such as $rd_conf) for the setting_fi
 }
 
 ```
-## setting_value - failure response
+### Failure Response: preset_state
 
 ```
 

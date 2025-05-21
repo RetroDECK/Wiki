@@ -2,27 +2,33 @@
 
 **API Request Group:** SET
 
-**Description:**
+### Description
 
-This call will set the state of any given preset for any given component to any given value, after performing compatibility prechecks. Supported components are any that are compatible with any number of presets. Supported presets are whatever the given component supports. Supported values are whatever are defined in that components manifest for that preset. As value state names can be arbitrary, this will vary from component to component, but all possible options are listed in the results of the API call "get all_components".
+This API call sets the state of a specified preset for a given component. It performs compatibility prechecks before applying the change to ensure the request is valid and does not conflict with other active presets.
 
-**Applicable data keys:**
+Supported components and presets are defined per component and can be retrieved using the `get all_components` API call. The accepted values for each preset are also defined in the component's manifest and may vary.
 
-- **component** - The name of the component, using the internal system name as referenced by other API calls such as "get all_components".
+### Applicable Data Keys
 
-- **preset** - The name of the preset to be changed, using the internal preset name as referenced by other API calls such as "get current_preset_state".
+- **component** – The internal system name of the component (as used in `get all_components`).
 
-- **state** - The new desired state to set the preset to.
+- **preset** – The internal name of the preset to be modified (as used in `get current_preset_state`).
 
-- **cheevos_username** - (Optional) only needed if enabling a RetroAchivements-related preset, the username as provided by the user to log into the RetroAchivements system.
+- **state** – The desired new state for the preset.
 
-- **cheevos_token** -  (Optional) only needed if enabling a RetroAchivements-related preset, the token is provided upon successful login to the RetroAchivements system through the RetroDECK API call "do cheevos_login".
+- **cheevos_username** *(Optional)* – Required only when enabling a RetroAchievements-related 
+preset. This is the username used to log into the RetroAchievements system.
 
-**Additional considerations:**
+- **cheevos_token** *(Optional)* – Also required for RetroAchievements presets. This token is obtained via the `do cheevos_login` API call.
 
-This call performs several compatibility prechecks prior to actually changing anything, such as if the supplied information is correct and that there are no other incompatible presets already enabled. An error message will be returned explaining why the request was rejected if any of the prechecks fail.
 
-## preset_state - example request
+### Additional Notes
+
+Compatibility checks are performed before applying changes. If the request fails, an error message will explain the reason (e.g., invalid input, conflicting presets).
+
+## Examples: preset_state
+
+### Example request: preset_state
 
 ```
 
@@ -42,7 +48,7 @@ This call performs several compatibility prechecks prior to actually changing an
 
 ```
 
-## preset_state - success response
+### Success Response: preset_state
 
 
 ```
@@ -55,7 +61,8 @@ This call performs several compatibility prechecks prior to actually changing an
 
 ```
 
-## preset_state - failure response
+### Failure Response: preset_state
+
 
 ```
 

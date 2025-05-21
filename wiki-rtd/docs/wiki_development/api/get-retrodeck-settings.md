@@ -4,11 +4,19 @@
 
 **Description:**
 
-This call will return all the current settings in the retrodeck.cfg config file. This will include internal paths to locations like the ROMs folder, the Saves folder, the BIOS folder etc. As these locations can be somewhat arbitrary, this is a useful call if the client is planning to reference them directly later. The output will also contain all of the internal RetroDECK setting options (such as logging level) as well as the current state for every preset for every component.
+
+This API call retrieves all current settings from the `retrodeck.cfg` configuration file. The response includes:
+
+- Internal paths (e.g., ROMs, Saves, BIOS folders)
+- All internal RetroDECK configuration options (e.g., logging level)
+- The current state of every preset for every component
+
+This information is especially useful when the client needs to reference these paths or settings in subsequent operations.
+
 
 **Applicable data keys:** None
 
-**Additional considerations:** None
+**Additional Notes** None
 
 ## retrodeck_settings - example request
 

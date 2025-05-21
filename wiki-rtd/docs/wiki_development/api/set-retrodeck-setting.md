@@ -2,22 +2,32 @@
 
 **API Request Group:** SET
 
-**Description:**
+## Description
 
-This is an extension of the call "set setting_value", made to simplify changing internal RetroDECK settings. The process is the same but the data key set is simplified. All the current RetroDECK settings can be retrieved through the API call "get retrodeck_settings".
+This API call is a simplified extension of the `set setting_value` function, designed specifically for modifying internal RetroDECK settings. It streamlines the process by requiring fewer parameters. All current RetroDECK settings can be retrieved using the `get retrodeck_settings` API call.
 
-**Applicable data keys:**
+## Applicable Data Keys
 
-- **setting_name** - The specific setting name to reference.
+- **setting_name** – The name of the setting to be updated.
 
-- **setting_value** - The new value to set the given setting to.
+- **setting_value** – The new value to assign to the specified setting.
 
-- **section_name** - (Optional) The section of the config file where the setting_name is found. Can be left blank or omitted entirely if the setting is not found in a specific section.
+- **section_name** *(Optional)* – The section of the configuration file where the setting resides. This can be omitted if the setting is not sectioned.
 
-Additional considerations:
-Although this call can alter the state of preset setting values in the retrodeck.cfg file directly, it will not actually apply the preset settings themselves, so should not be used in this way. The requested change will also be validated to have actually happened, and an error message returned if it could not be.
 
-## retrodeck_setting - example request
+
+## Additional Notes
+
+Although this call can modify preset-related values in the `retrodeck.cfg` file, it does **not** 
+apply the presets themselves.
+
+The system will validate that the change was successfully applied. If not, an error message will be returned.
+
+
+## Examples: retrodeck_setting
+
+### Example request: retrodeck_setting 
+
 
 ```
 
@@ -35,7 +45,7 @@ Although this call can alter the state of preset setting values in the retrodeck
 
 ```
 
-## retrodeck_setting - success response
+### Success Response: retrodeck_setting 
 
 ```
 
@@ -50,7 +60,8 @@ Although this call can alter the state of preset setting values in the retrodeck
 
 ```
 
-## retrodeck_setting - failure response
+
+### Failure Response: retrodeck_setting 
 
 
 ```

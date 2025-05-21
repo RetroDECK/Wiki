@@ -2,23 +2,29 @@
 
 **API Request Group:** GET
 
-**Description:**
+### Description
 
-This call allows for getting the value of a specific setting name from any known config file. The name of the config file must be known, along with the setting name, any applicable setting file section header and the internal "system" name of the component.
+This API call retrieves the value of a specific setting from a known configuration file. To perform the lookup, the following information must be provided:
 
-Applicable data keys:
+- The name configuration file
+- The name of the setting
+- Applicable setting file section header 
+- The internal system name of the component
 
-- **setting_file** - A full path or known variable name to the setting file to reference.
+### Applicable Data Keys
 
-- **setting_name** - The specific setting name to reference.
+- **setting_file** – The full path or a known variable name (e.g., `$rd_conf`) for the reference.
 
-- **system_name** - The RetroDECK-internal name of the system being referenced. This will match the component name from API functions such as "get all_components".
+- **setting_name** - The name of the setting to retrieve.
 
-- **section_name** - (Optional) the section of the config file where the setting_name is found. Can be left blank or omitted entirely if the setting is not found in a specific section.
+- **system_name** - The internal RetroDECK system name, matching the component name used in other API calls such as `get all_components`.
 
-**Additional considerations:**
+- **section_name** - *(Optional)* – The section of the config file where the setting is located. Can be omitted if the setting is not sectioned.
 
-It is possible to use known variable names (such as $rd_conf) for the setting_file key value as well, as they will be resolved to the true path internally. These names must be in Bash-compatible format and start with a $.
+### Additional Notes
+
+It is possible to use known variable names for the `setting_fil` key value as wel. As they will be resolved to the true path internally. Ensure variable names are Bash-compatible and prefixed with `$` (e.g., `$rd_conf`).
+
 
 ## setting_value - example request
 

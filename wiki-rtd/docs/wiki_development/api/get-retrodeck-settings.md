@@ -2,8 +2,7 @@
 
 **API Request Group:** GET
 
-**Description:**
-
+### Description
 
 This API call retrieves all current settings from the `retrodeck.cfg` configuration file. The response includes:
 
@@ -14,11 +13,17 @@ This API call retrieves all current settings from the `retrodeck.cfg` configurat
 This information is especially useful when the client needs to reference these paths or settings in subsequent operations.
 
 
-**Applicable data keys:** None
+### Applicable Data Keys
 
-**Additional Notes** None
+None
 
-## retrodeck_settings - example request
+### Additional Notes
+
+None
+
+## Examples: retrodeck_settings
+
+### Example Request: retrodeck_settings
 
 ```
 
@@ -32,7 +37,7 @@ This information is especially useful when the client needs to reference these p
 ```
 
 
-## retrodeck_settings - success response
+### Success Response: retrodeck_settings
 
 
 ```
@@ -112,7 +117,12 @@ This information is especially useful when the client needs to reference these p
   },
   "request_id": "<request_id>"
 }
-Failure response:
+
+```
+
+### Failure Response: retrodeck_settings
+
+```
 {
   "status": "error",
   "result": "the retrodeck config file could not be read",

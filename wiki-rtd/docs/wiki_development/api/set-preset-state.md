@@ -28,7 +28,7 @@ Compatibility checks are performed before applying changes. If the request fails
 
 ## Examples: preset_state
 
-### Example request: preset_state
+### Example Request: preset_state
 
 ```
 

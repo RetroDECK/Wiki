@@ -45,9 +45,24 @@ Optional keys:
 
 ---
 
-## Example request
+## Example: compressible_games
 
-Here is an example of a full request for the RetroDECK API. The request is for a list of all games that can be identified as being compressible into the zip format.
+Here is an example of a full request for the RetroDECK API. The request is for a list of all games that can be identified as being compressible into the zip format via `compressible_games`.
+
+In this example structure, these keys have the following meaning:
+
+- **status** - Will return either "success" or "error", depending on the outcome of the request.
+
+- **result** - Will be a single or array of objects containing the response information.
+
+- **message** - Only for error responses, will contain some information about the nature of the error.
+
+- **request_id** - The request ID of the request that prompted this response.
+
+If using named pipes for communication, after a response is processed the API server will remove the response pipe, indicating that the API transaction is complete.
+
+### Example Request: compressible_games
+
 
 ```
 {
@@ -60,8 +75,14 @@ Here is an example of a full request for the RetroDECK API. The request is for a
   "request_id": "12345"
 }
 
-API Response Structure
+
+```
+
+### Success Response: compressible_games
+
 After receiving a proper request, the RetroDECK API will respond with this structure for a successful response:
+
+```
 
 {
   "status": "<status_report>",
@@ -71,7 +92,13 @@ After receiving a proper request, the RetroDECK API will respond with this struc
   "request_id": "<request_id>"
 }
 
-or this structure in the case of an error:
+```
+
+### Failure Response: compressible_games
+
+In the case of an error:
+
+```
 
 {
   "status": "error",
@@ -81,21 +108,11 @@ or this structure in the case of an error:
 
 ```
 
-In this structure, these keys have the following meaning:
 
-- **status** - Will return either "success" or "error", depending on the outcome of the request.
-
-- **result** - Will be a single or array of objects containing the response information.
-
-- **message** - Only for error responses, will contain some information about the nature of the error.
-
-- **request_id** - The request ID of the request that prompted this response.
-
-If using named pipes for communication, after a response is processed the API server will remove the response pipe, indicating that the API transaction is complete.
 
 ---
 
-## Example response
+### Full Response: compressible_games
 
 Here is an example of a full response for the RetroDECK API, responding to the previous example request for zip-compressible games data.
 
@@ -137,8 +154,11 @@ Here is another example request, for the value of a setting named `rdhome` in th
   "request_id": "54321"
 }
 
+```
+
 and the response for that request:
 
+```
 {
   "status": "success",
   "result": {
@@ -149,6 +169,8 @@ and the response for that request:
 }
 
 ```
+
+---
 
 ## API Request Index
 

@@ -2,7 +2,7 @@
 
 **API Request Group:** GET
 
-**Description:**
+### Description
 
 This API call returns an array of objects containing basic information about all installed components. Each object includes:
 
@@ -11,11 +11,17 @@ This API call returns an array of objects containing basic information about all
 - A description of the component
 - A list of all systems supported by the component
 
-**Applicable data keys:** None
+### Applicable Data Keys
 
-**Additional Notes:** None
+None
 
-## components - example request
+### Additional Notes
+
+None
+
+## Examples: components
+
+### Example Request: components
 
 
 ```
@@ -29,7 +35,7 @@ This API call returns an array of objects containing basic information about all
 
 ```
 
-## components - success response
+### Success Response: components
 
 
 ```
@@ -109,7 +115,12 @@ This API call returns an array of objects containing basic information about all
   ],
   "request_id": "<request_id>"
 }
-Failure response:
+
+```
+
+### Failure Response: components
+
+```
 {
   "status": "error",
   "result": "the current component information could not be read",

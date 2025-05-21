@@ -26,7 +26,10 @@ This API call retrieves the value of a specific setting from a known configurati
 It is possible to use known variable names for the `setting_fil` key value as wel. As they will be resolved to the true path internally. Ensure variable names are Bash-compatible and prefixed with `$` (e.g., `$rd_conf`).
 
 
-## setting_value - example request
+## Examples: setting_value
+
+### Example Request: setting_value
+
 
 ```
 
@@ -45,7 +48,7 @@ It is possible to use known variable names for the `setting_fil` key value as we
 
 ```
 
-## setting_value - success response
+### Success Response: setting_value
 
 ```
 
@@ -60,7 +63,8 @@ It is possible to use known variable names for the `setting_fil` key value as we
 
 ```
 
-## setting_value - failure response
+
+### Failure Response: setting_value
 
 ```
 {

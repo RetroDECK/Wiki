@@ -26,7 +26,7 @@ The system will validate that the change was successfully applied. If not, an er
 
 ## Examples: retrodeck_setting
 
-### Example request: retrodeck_setting 
+### Example Request: retrodeck_setting 
 
 
 ```

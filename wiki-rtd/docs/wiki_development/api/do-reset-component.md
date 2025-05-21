@@ -2,19 +2,23 @@
 
 **API Request Group:** DO
 
-**Description:**
+### Description
 
 This API call performs a reset operation on the specified component. The reset behavior is specific to each component and is defined in the corresponding `prepare_component.sh` script.
 
 
-**Applicable data keys:**
+### Applicable Data Keys
 
 - **component** - The internal system name of the component to reset, as referenced in other API calls such as `get all_components`.
 
 
-**Additional Notes** None
+### Additional Notes
 
-## reset_component - example request
+None
+
+## Examples: reset_component
+
+### Example Request: reset_component
 
 ```
 
@@ -30,7 +34,8 @@ This API call performs a reset operation on the specified component. The reset b
 
 ```
 
-## reset_component - success response
+
+### Success Response: reset_component
 
 
 ```
@@ -43,7 +48,7 @@ This API call performs a reset operation on the specified component. The reset b
 
 ```
 
-## reset_component - failure response
+### Failure Response: reset_component
 
 ```
 

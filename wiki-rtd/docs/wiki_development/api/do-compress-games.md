@@ -2,11 +2,11 @@
 
 **API Request Group:** DO
 
-**Description:**
+### Description
 
 This API call compresses one or more specified games into a chosen format. Input data includes both individual key-value pairs and game objects, structured similarly to the output of the `get compressible_games` API call
 
-**Applicable data keys:**
+### Applicable Data Keys
 
 - **post_compression_cleanup** *(Optional)* - Accepts `"true"` or `"false"`. When set to `"true"`, the original game files will be deleted after successful compression and validation. If omitted or left blank, this defaults to `"false"`.
 
@@ -16,14 +16,15 @@ This API call compresses one or more specified games into a chosen format. Input
 
 - **format** - The desired compression format. This must be specified within the same object as the game path.
 
-
-**Additional Notes**
+### Additional Notes
 
 - This API does **not** perform compatibility checks. Ensure that the selected compression format is appropriate for each game to avoid errors.
 - To validate compatibility and compression readiness, use the `get compressible_games` API call.
 - For more details on supported formats by system, refer to the RetroDECK wiki
 
-#### compress_games - example request
+## Examples: compress_games
+
+### Example Request: compress_games
 
 ```
 
@@ -47,7 +48,7 @@ This API call compresses one or more specified games into a chosen format. Input
 
 ```
 
-## compress_games - success response
+### Success Response: compress_games
 
 
 ```
@@ -58,7 +59,8 @@ This API call compresses one or more specified games into a chosen format. Input
 }
 
 ```
-## compress_games - failure response
+
+### Failure Response: compress_games
 
 ```
 {

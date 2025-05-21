@@ -25,7 +25,7 @@ This API call updates the value of a specified setting within a given configurat
 
 ## Examples: setting_value 
 
-### Example request: setting_value 
+### Example Request: setting_value 
 
 
 ```

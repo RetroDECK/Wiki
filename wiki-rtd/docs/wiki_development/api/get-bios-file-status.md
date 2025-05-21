@@ -2,7 +2,7 @@
 
 **API Request Group:** GET
 
-**Description:**
+### Description
 
 
 This API call retrieves an array of objects representing the current status of all known BIOS files. The data is intended for display in a menu or list format and includes:
@@ -18,14 +18,19 @@ This API call retrieves an array of objects representing the current status of a
 All information is sourced from the internal RetroDECK BIOS database.
 
 
-**Applicable data keys:** None
+### Applicable Data Keys 
 
-**Additional Notes**
+None
+
+### Additional Notes
 
 The process may take a significant amount of time depending on the number of BIOS files present. It is recommended to use a loading spinner or similar UI element to indicate progress to the user.
 
 
-## bios_file_status - example request
+
+## Examples: bios_file_status
+
+### Example Request: bios_file_status
 
 ```
 
@@ -38,7 +43,7 @@ The process may take a significant amount of time depending on the number of BIO
 
 ```
 
-## bios_file_status - successful response
+### Success Response: bios_file_status
 
 ```
 
@@ -70,7 +75,7 @@ The process may take a significant amount of time depending on the number of BIO
 
 ```
 
-## bios_file_status - failure response
+### Failure Response: bios_file_status
 
 
 ```

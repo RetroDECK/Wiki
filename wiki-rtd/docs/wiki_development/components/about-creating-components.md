@@ -17,7 +17,7 @@ The general component repo can be found at https://github.com/RetroDECK/componen
 
 Each component will have several standardized files included in the component sub-folder.
 
-**Read more here:** [about-component-recipe-files.md](about-component-recipe-files.md)
+**Read more here:** [about-component-recipe-files.md](about-component-ingredient-files)
 
 
 

@@ -87,19 +87,21 @@ In the future, Ponzu might support other systems not shipped by default in Retro
 
 RetroDECK is made by assembling various components.
 
+
 ### What are Components?
 
-A component is a packaged executable of:
+A component is a complete packaged executable of a:
 
 - Emulator
 - Engine
 - Port
 - System
-- RetroDECK: Features & Functions
+- RetroDECK: Feature & Functions
 
-A component is shipped with Component Recipe Files in addition to the libaries and binaries that make up the software that tells RetroDECK:
+How-to build and pull from the original source is done by the each components `recipe.sh` file. 
 
-- How RetroDECK should build them.
+A component is shipped with `Component Ingredient Files` in addition to the libraries and binaries that make up the software that tells RetroDECK:
+
 - How RetroDECK should use them.
 - What features/functions it has.
 
@@ -108,11 +110,18 @@ Inside: `/app/retrodeck/components/<component name>/`.
 
 **Communication:**
 
-When they are communicated about they are referred to as: 
+When Components are communicated about they are referred to as (in their done packaged format): 
 
 - `Components`
 - `<Component Name> Component`
-- `<Component Name>`
+
+By the end-user it will just be referred as the original source.
+
+The `recipe.sh` file is called:
+
+- `Recipe`
+- `<Component Name> Recipe`.
+
 
 ### What is a Engine?
 
@@ -171,7 +180,7 @@ The **Component Recipe File** purpose is to tell the RetroDECK build automation 
 
 The recipe file is **NOT** included in the final component package. 
 
-- `recipe.json`
+- `recipe.sh`
 
 ## Component Ingredient Files
 
@@ -197,13 +206,13 @@ When they are communicated about they are referred to as:
 
 **Read more over at:**
 
-[Component Ingredient Files](../wiki_development/components-api/component-recipe-files.md)
+[Component Ingredient Files](../wiki_development/components-api/about-component-ingredient-files)
 
-### What are the four component Ingredient files?
+### What are the Component Ingredient Files?
 
 These files will be stored along side the rest of the component data in specific location.
 
-The following four files are required by every component:
+The following files are required by every component:
 
 - `component_manifest.json`
 

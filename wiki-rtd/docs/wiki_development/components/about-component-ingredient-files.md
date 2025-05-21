@@ -1,6 +1,6 @@
 # Components Ingredient Files
 
-The **Components Ingredient Files** is to feed details about the Component to the RetroDECK Framework on it's features and functions.
+The **Components Ingredient Files** feed details about the Component to the RetroDECK Framework to be used with various features and functions.
 
 ## Index: Components Ingredient Files 
 

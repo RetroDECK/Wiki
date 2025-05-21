@@ -24,6 +24,7 @@ Each manifest includes:
 
 ## Example Structure: component_manifest.json
 
+
 ```
 
 {
@@ -92,6 +93,7 @@ Each manifest includes:
 }
 
 ```
+
 ---
 
 ## Key Sections
@@ -145,9 +147,7 @@ target_file
 defaults_file
 ```
 
-
 These entries can contain variable names (such as sourced config file paths) or be omitted entirely if not needed, such as if the target file does not use sections the "section" line can be left out, or just left empty.
-
 
 ### cores
 

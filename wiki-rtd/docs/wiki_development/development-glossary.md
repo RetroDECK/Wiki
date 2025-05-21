@@ -4,7 +4,7 @@ Here we are listing the lingo of the RetroDECK Project.
 
 ## RetroDECK Development to Publication Process 
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
+<img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
 
 
 How the process works:
@@ -17,7 +17,7 @@ A version of RetroDECK is only considered released when it is published on [Flat
 
 ## Github Repos
 
-<img src="../../../wiki_icons/pixelitos/github.png" width="50">
+<img src="../../wiki_icons/pixelitos/github.png" width="50">
 
 ### Main / Main Releases
 
@@ -39,7 +39,7 @@ The feature branches repositories of the RetroDECK Project, are subbranches wher
 
 ## RetroDECK API
 
-<img src="../../../wiki_icons/retrodeck/icon-api.svg" width="50">
+<img src="../../wiki_icons/retrodeck/icon-api.svg" width="50">
 
 The **RetroDECK API** enables external applications to access information and perform actions through the RetroDECK Framework, allowing them to function as the RetroDECK Configurator.
 
@@ -47,13 +47,13 @@ Currently, the API is accessible only via named pipes or internally within the *
 
 ## RetroDECK Framework
 
-<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="50">
+<img src="../../wiki_icons/retrodeck/icon-framework.svg" width="50">
 
 The RetroDECK Framework is the entire back-end of RetroDECK. The build-system, all the: functions, code, scripts, etc... 
 
 ## RetroEngine
 
-<img src="../../../wiki_icons/retrodeck/icon-engine.svg" width="50">
+<img src="../../wiki_icons/retrodeck/icon-engine.svg" width="50">
 
 RetroENGINE allows you to run various game files directly with RetroDECK from the desktop without starting the application.
 
@@ -61,14 +61,14 @@ It supports the association of common game file extensions with RetroDECK. Addit
 
 ## RetroDECK Configurator
 
-<img src="../../../wiki_icons/retrodeck/icon-configurator.svg" width="50">
+<img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="50">
 
 The RetroDECK Configurator is a unique multi-use utility front-end that exists within RetroDECK to manage many aspects of the application and exposes functions from the `RetroDECK Framework` and it's features / functions to the end-user.
 
 
 ## Ponzu
 
-<img src="../../../wiki_icons/retrodeck/icon-ponzu.svg" width="50">
+<img src="../../wiki_icons/retrodeck/icon-ponzu.svg" width="50">
 
 Ponzu is an AppImage Loader that can be used to search for user-provided legacy AppImages and add them to RetroDECK.
 

@@ -1,10 +1,8 @@
-# Components Recipe Files
+# Components Ingredient Files
 
-The **Components Recipe Files** purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source (AppImage, Flatpak, Binary, etc...) and turn it into a RetroDECK Component.
+The **Components Ingredient Files** is to feed details about the Component to the RetroDECK Framework on it's features and functions.
 
-The recipe files is are **NOT** included in the final component package. 
-
-## Index: Components Recipe Files 
+## Index: Components Ingredient Files 
 
 ### component_functions.sh
 

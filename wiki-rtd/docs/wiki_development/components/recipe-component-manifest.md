@@ -1,31 +1,28 @@
-# Components Recipe Files
+# component_manifest.json
 
-The **Components Recipe Files** purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source (AppImage, Flatpak, Binary, etc...) and turn it into a RetroDECK Component.
+A JSON file that defines metadata, capabilities, and configuration logic for a RetroDECK component. This includes system compatibility, supported presets, menu integration, and core-specific settings.
 
-The recipe files is are **NOT** included in the final component package. 
 
-## The four Components Recipe Files
+### Legacy Notes
 
-- **component_manifest.json** - JSON file containing general information about the component, preset and menu compatibility, preset action information, core information (as applicable).
+It replaces static preset lists and centralizes component-specific logic.
 
-- **component_functions.sh** - A Bash file containing config file paths (the kind previously found in the global.sh library) and defined functions relating to the component. If the component has a function that is specific to it, such as installing firmware or advanced functions found in the Configurator menus, they should be here.
+## Description
 
-- **component_prepare.sh** - A Bash file containing the segment of code formerly found in the prepare_component.sh core library. The structure is identical, and the code is used for performing actions on the component like resets and folder moves.
+The `component_manifest.json` file provides both informational and functional data used by the RetroDECK Framework, Configurator menus, and API calls. 
 
-- **component_launcher.sh** - A Bash file acting as a launcher wrapper for the component. Settings will include changing environmental variables etc. or whatever else is needed to launch the component in the sub-sandbox setup.
+Each manifest includes:
 
+- Component metadata (name, description, supported systems)
+- Configurator menu entries
+- Compatible presets and their possible states
+- Actions required to apply presets
+- Core-specific metadata (if applicable)
 
 ---
 
-## component_component_manifest.json
 
-The `component_manifest.json` file contains both "informational" contents, values that will be used in Configurator menus or API code to find the capabilities of the component: what system is runs, it's features, what presets it is compatible with etc.
-
-
-
-### component_manifest.json structure
-
-The basic structure of the `component_manifest.json` file is
+## Example Structure: component_manifest.json
 
 ```
 
@@ -95,6 +92,9 @@ The basic structure of the `component_manifest.json` file is
 }
 
 ```
+---
+
+## Key Sections
 
 ### component_name
 
@@ -163,7 +163,9 @@ These entries can contain variable names (such as sourced config file paths) or 
 
 - **system_friendly_name** - A human-friendly name of the system(s) emulated by this core, as shown in menus.
 
-### Example: component_manifest.json for external component RetroArch
+---
+
+## Example: component_manifest.json for the RetroArch Component
 
 ```
 
@@ -317,10 +319,11 @@ These entries can contain variable names (such as sourced config file paths) or 
 
 ```
 
+---
 
-### Example: component_manifest.json for internal component RetroDECK
+## Example: component_manifest.json for the RetroDECK Component
 
-Even an Internal Component like RetroDECK will also have `component_manifest.json`.
+Even an Component like RetroDECK will also have `component_manifest.json`.
 
 Which contain any related information used in menus or API data gathering. As most internal components won't support things like presets, they will generally be shorter than actual emulator components.
 
@@ -356,103 +359,4 @@ Which contain any related information used in menus or API data gathering. As mo
   }
 }
 
-```
-
----
-
-## component_functions.sh
-
-This file will contain the component-specific path variables as well as any component-specific function definitions needed. 
-
-The component path variables are what would have been found in the legacy global.sh file. This way we don't need to maintain a massive monolithic global.sh file as new components are added. 
-
-Every component_functions.sh file will be iteratively sourced on boot, so all the paths and defined functions will always be available and don't need to be maintained in any list as new components are added.
-
-### Example: component_functions.sh PPSSPP
-
-Here is an example of a `specific component_functions.sh` file for the PPSSPP component:
-
-```
-#!/bin/bash
-ppssppconf="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/ppsspp.ini"
-ppssppcontrolsconf="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/controls.ini"
-ppssppcheevosconf="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/ppsspp_retroachievements.dat"
-ppsspp_test_function() {
-  log d "PPSSPP function test confirmed! contents: $1"
-}
-```
-
----
-
-## component_prepare.sh
-
-This file will contain the contents of the section of the legacy prepare_component library that apply to only this component. This way all prepare_component actions are broken out on a per-component basis, and we won't have a massive monolithic file to maintain as new components are added. 
-
-The structure of each file is the same as was used before, to maintain the "reset a specific component, or all components" functionality. 
-
-The internal code process is that whenever the "prepare_component" function is called, every installed components file will be sourced, so each file will decide if it needs to trigger or not.
-
-### Example: component_prepare.sh PPSSPP
-
-```
-
-#!/bin/bash
-if [[ "$component" =~ ^(ppsspp|all)$ ]]; then
-  component_found="true"
-  if [[ "$action" == "reset" ]]; then # Run reset-only commands
-    log i "------------------------"
-    log i "Preparing PPSSPPSDL"
-    log i "------------------------"
-    if [[ $multi_user_mode == "true" ]]; then # Multi-user actions
-      create_dir -d "$multi_user_data_folder/$SteamAppUser/config/ppsspp/PSP/SYSTEM/"
-      cp -fv "$config/ppssppsdl/"* "$multi_user_data_folder/$SteamAppUser/config/ppsspp/PSP/SYSTEM/"
-      set_setting_value "$multi_user_data_folder/$SteamAppUser/config/ppsspp/PSP/SYSTEM/ppsspp.ini" "CurrentDirectory" "$roms_folder/psp" "ppsspp" "General"
-      dir_prep "$multi_user_data_folder/$SteamAppUser/config/ppsspp" "$XDG_CONFIG_HOME/ppsspp"
-    else # Single-user actions
-      create_dir -d "$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/"
-      cp -fv "$config/ppssppsdl/"* "$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/"
-      set_setting_value "$ppssppconf" "CurrentDirectory" "$roms_folder/psp" "ppsspp" "General"
-    fi
-    # Shared actions
-    dir_prep "$saves_folder/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/SAVEDATA"
-    dir_prep "$states_folder/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/PPSSPP_STATE"
-    dir_prep "$texture_packs_folder/PPSSPP" "$XDG_CONFIG_HOME/ppsspp/PSP/TEXTURES"
-    create_dir -d "$cheats_folder/PPSSPP"
-    dir_prep "$cheats_folder/PPSSPP" "$XDG_CONFIG_HOME/ppsspp/PSP/Cheats"
-    if [[ -d "$cheats_folder/PPSSPP" && "$(ls -A "$cheats_folder"/PPSSPP)" ]]; then
-      backup_file="$backups_folder/cheats/PPSSPP-$(date +%y%m%d).tar.gz"
-      create_dir "$(dirname "$backup_file")"
-      tar -czf "$backup_file" -C "$cheats_folder" PPSSPP
-      log i "PPSSPP cheats backed up to $backup_file"
-    fi
-    tar -xzf "/app/retrodeck/cheats/ppsspp.tar.gz" -C "$cheats_folder/PPSSPP" --overwrite
-  fi
-  if [[ "$action" == "postmove" ]]; then # Run only post-move commands
-    set_setting_value "$ppssppconf" "CurrentDirectory" "$roms_folder/psp" "ppsspp" "General"
-    dir_prep "$saves_folder/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/SAVEDATA"
-    dir_prep "$states_folder/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/PPSSPP_STATE"
-    dir_prep "$texture_packs_folder/PPSSPP" "$XDG_CONFIG_HOME/ppsspp/PSP/TEXTURES"
-    dir_prep "$cheats_folder/PPSSPP" "$XDG_CONFIG_HOME/ppsspp/PSP/Cheats"
-  fi
-fi
-
-```
-
----
-
-## component_launcher.sh
-
-This file will contain the specific code needed to launch a component in its sub-sandbox. The contents will vary depending on the needs of the component and where it may be looking for its own packaged information.
-
-As binaries are no longer being packaged into `/app/bin`, this file is also what is called when the given component should be launched, either by ES-DE or a Configurator / CLI argument. 
-
-When launching any component, it will be done by `/app/retrodeck/components/<component name>/component_launcher.sh`
-
-### Example: component_launcher.sh PPSSPP
-
-```
-#!/bin/bash
-RD_MODULES="/app/retrodeck/components"
-LD_LIBRARY_PATH="$RD_MODULES/ppsspp/lib:${LD_LIBRARY_PATH}"
-exec "$RD_MODULES/ppsspp/bin/PPSSPPSDL" "$@"
 ```

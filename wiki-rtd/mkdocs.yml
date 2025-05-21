@@ -410,7 +410,11 @@ nav:
       - SET setting_value: wiki_development/api/set-setting-value.md
 
     - RetroDECK Components:
-      - Component Recipe Files: wiki_development/components/component-recipe-files.md
+      - About Component RECIPE Files: wiki_development/components/about-component-recipe-files.md
+      - RECIPE component_functions.sh: wiki_development/components/recipe-component-functions.md
+      - RECIPE component_launcher.sh: wiki_development/components/recipe-component-launcher.md
+      - RECIPE component_manifest.json: wiki_development/components/recipe-component-manifest.md
+      - RECIPE component_prepare.sh: wiki_development/components/recipe-component-prepare.md
 
     - RetroDECK Functions:
       - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md

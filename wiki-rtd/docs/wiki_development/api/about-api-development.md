@@ -1,9 +1,10 @@
 # About RetroDECK API Development
 
-The **RetroDECK API** is a way for outside applications to get any information or perform any actions they need through the code Framework to be functional as a Configurator.
+<img src="../../../wiki_images/logos/rd-api.svg" width="150">
 
-Currently the API is only accessible either through named pipes or internally in the **RetroDECK Framework** itself. Future methods of message transport may be added in the future.
-Communication
+The **RetroDECK API** enables external applications to access information and perform actions through the RetroDECK Framework, allowing them to function as the RetroDECK Configurator.
+
+Currently, the API is accessible only via named pipes or internally within the **RetroDECK Framework**. Additional communication methods may be introduced in the future.
 
 ---
 

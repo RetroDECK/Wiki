@@ -8,6 +8,34 @@ Currently, the API is accessible only via named pipes or internally within the *
 
 ---
 
+## API Request Index
+
+### Request Group: DO
+
+- [cheevos_login](do-cheevos-login.md)
+- [compress_games](do-compress-games.md)
+- [install](do-install.md)
+- [reset_component](do-reset-component.md)
+
+### Request Group: GET
+
+- [bios_file_status](get-bios-file-status.md)
+- [components](get-components.md)
+- [compressible_games](get-compressible-games.md)
+- [current_preset_state](get-current-preset-state.md)
+- [incompatible_presets](get-incompatible-presets.md)
+- [multifile_game_structure](get-multifile-game-structure.md)
+- [retrodeck_settings](get-retrodeck-settings.md)
+- [setting_value](get-setting-value.md)
+
+### Request Group: SET
+
+- [preset_state](set-preset-state.md)
+- [retrodeck_setting](set-retrodeck-setting.md)
+- [setting_value](set-setting-value.md)
+
+---
+
 ## Communication with the API
 
 If you would like to communicate with the RetroDECK API, follow this process:
@@ -170,30 +198,3 @@ and the response for that request:
 
 ```
 
----
-
-## API Request Index
-
-### Request Group: DO
-
-- [cheevos_login](do-cheevos-login.md)
-- [compress_games](do-compress-games.md)
-- [install](do-install.md)
-- [reset_component](do-reset-component.md)
-
-### Request Group: GET
-
-- [bios_file_status](get-bios-file-status.md)
-- [components](get-components.md)
-- [compressible_games](get-compressible-games.md)
-- [current_preset_state](get-current-preset-state.md)
-- [incompatible_presets](get-incompatible-presets.md)
-- [multifile_game_structure](get-multifile-game-structure.md)
-- [retrodeck_settings](get-retrodeck-settings.md)
-- [setting_value](get-setting-value.md)
-
-### Request Group: SET
-
-- [preset_state](set-preset-state.md)
-- [retrodeck_setting](set-retrodeck-setting.md)
-- [setting_value](set-setting-value.md)

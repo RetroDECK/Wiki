@@ -4,15 +4,20 @@ Here we are listing the lingo of the RetroDECK Project.
 
 ## RetroDECK Development to Publication Process 
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
+
+
 How the process works:
 
 `Feature Branches` -> `Cooker (GitHub)` -> `Main (GitHub)` -> `Main (GitHub) Pre-Release Testing` ->  `Flathub Testing` -> `Flathub Stable Publication`.
 
-## RetroDECK Stable Releases
+### RetroDECK Stable Releases
 
 A version of RetroDECK is only considered released when it is published on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck).
 
 ## Github Repos
+
+<img src="../../../wiki_icons/pixelitos/github.png" width="50">
 
 ### Main / Main Releases
 
@@ -34,23 +39,42 @@ The feature branches repositories of the RetroDECK Project, are subbranches wher
 
 ## RetroDECK API
 
+<img src="../../../wiki_icons/retrodeck/icon-api.svg" width="50">
+
+The **RetroDECK API** enables external applications to access information and perform actions through the RetroDECK Framework, allowing them to function as the RetroDECK Configurator.
+
+Currently, the API is accessible only via named pipes or internally within the **RetroDECK Framework**. Additional communication methods may be introduced in the future.
+
 ## RetroDECK Framework
+
+<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="50">
 
 The RetroDECK Framework is the entire back-end of RetroDECK. The build-system, all the: functions, code, scripts, etc... 
 
 ## RetroEngine
 
+<img src="../../../wiki_icons/retrodeck/icon-engine.svg" width="50">
+
 RetroENGINE allows you to run various game files directly with RetroDECK from the desktop without starting the application.
 
 It supports the association of common game file extensions with RetroDECK. Additionally, you can run games directly via RetroENGINE using CLI.
 
+## RetroDECK Configurator
+
+<img src="../../../wiki_icons/retrodeck/icon-configurator.svg" width="50">
+
+The RetroDECK Configurator is a unique multi-use utility front-end that exists within RetroDECK to manage many aspects of the application and exposes functions from the `RetroDECK Framework` and it's features / functions to the end-user.
+
+
 ## Ponzu
 
-Ponzu is an AppImage Loader that can be used to search for user-provided AppImages and add them to RetroDECK.
+<img src="../../../wiki_icons/retrodeck/icon-ponzu.svg" width="50">
 
-In the future, Ponzu might support other systems not shipped by default in RetroDECK, such as proprietary emulators. We hope to get custom licenses for them so they can be installed via Ponzu as an option if we can't build them via RetroDECK directly (nothing yet).
+Ponzu is an AppImage Loader that can be used to search for user-provided legacy AppImages and add them to RetroDECK.
 
-## Components
+In the future, Ponzu might support other systems not shipped by default in RetroDECK, such as proprietary emulators. 
+
+## RetroDECK Components
 
 RetroDECK is made by assembling various components.
 
@@ -81,7 +105,7 @@ When they are communicated about they are referred to as:
 - **<Component Name> Component** 
 - **<Component Name>** 
 
-### What is an Engine?
+### What is a Engine?
 
 A game engine is a software framework primarily designed for the development of video games which generally includes relevant libraries and support programs such as a level editor.
 
@@ -93,7 +117,7 @@ A Game Engine also in the context of RetroDECK is a program that allows you to r
 - Ikemen GO 
 - SCUMMVM
 
-### What is an Emulator?
+### What is a Emulator?
 
 A video game console emulator is a type of emulator that allows a computing device to emulate a video game console's hardware and play its games on the emulating platform.
 
@@ -102,7 +126,7 @@ A video game console emulator is a type of emulator that allows a computing devi
 - RetroArch
 - PPSSPP
 
-### What is an Port?
+### What is a Port?
 
 A source port is a software project based on the source code of a game engine that allows the game to be played on operating systems or computing platforms with which the game was not originally compatible. 
 
@@ -117,7 +141,7 @@ On rare occasions RetroDECK can choose to build-in a port directly as an compone
 - Certain Tech PortMaster can't support (Newer SDL/OpenGL, Vulkan, Wine etc...).
 
 
-### What is an System?
+### What is a System?
 
 A system in the context of RetroDECK is a piece of software that is not running games but adding additional functionality in other ways.
 

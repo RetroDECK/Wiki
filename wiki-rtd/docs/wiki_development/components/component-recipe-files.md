@@ -1,8 +1,8 @@
 # Components Recipe Files
 
-The "Recipe" files purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source (AppImage, Flatpak, Binary, etc...) and turn it into a RetroDECK Component.
+The **Components Recipe Files** purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source (AppImage, Flatpak, Binary, etc...) and turn it into a RetroDECK Component.
 
-The recipe files is are included in the final component package. 
+The recipe files is are **NOT** included in the final component package. 
 
 ## The four Components Recipe Files
 

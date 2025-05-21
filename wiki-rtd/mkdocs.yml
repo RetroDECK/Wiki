@@ -391,7 +391,7 @@ nav:
 
     - Development Glossary: wiki_development/development-glossary.md
 
-    - API:
+    - RetroDECK API:
       - About API Development: wiki_development/api/about-api-development.md
       - DO cheevos_login: wiki_development/api/do-cheevos-login.md
       - DO compress_games: wiki_development/api/do-compress-games.md
@@ -409,18 +409,18 @@ nav:
       - SET retrodeck_setting: wiki_development/api/set-retrodeck-setting.md
       - SET setting_value: wiki_development/api/set-setting-value.md
 
-    - Components:
+    - RetroDECK Components:
       - Component Recipe Files: wiki_development/components/component-recipe-files.md
+
+    - RetroDECK Functions:
+      - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md
+      - Compression: wiki_development/functions/compression.md
 
     - Flatpak:
       - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
       - Flathub Publication: wiki_development/flatpak/flathub-publication.md
 
-    - Functions:
-      - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md
-      - Compression: wiki_development/functions/compression.md
-
-    - General:
+    - Development General:
       - CLI Guide: wiki_development/general/cli-guide.md
       - Debug Mode: wiki_development/general/debug-mode.md
       - Editing MIME Types: wiki_development/general/edit-mime.md

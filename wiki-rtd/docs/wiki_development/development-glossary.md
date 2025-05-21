@@ -28,7 +28,7 @@ Cooker is a bleeding edge snapshot repository of the current commits (the action
 
 The code may not be always reviewed and so the cooker it's unstable by its nature, it's just suggested to testers or developer to try bleeding edge functions.
 
-### Feature branches
+### Feature Branches
 
 The feature branches repositories of the RetroDECK Project, are subbranches where specific component/feature/other development is happening before it gets merged into cooker proper.
 
@@ -36,9 +36,19 @@ The feature branches repositories of the RetroDECK Project, are subbranches wher
 
 ## RetroDECK Framework
 
+The RetroDECK Framework is the entire back-end of RetroDECK. The build-system, all the: functions, code, scripts, etc... 
+
 ## RetroEngine
 
+RetroENGINE allows you to run various game files directly with RetroDECK from the desktop without starting the application.
+
+It supports the association of common game file extensions with RetroDECK. Additionally, you can run games directly via RetroENGINE using CLI.
+
 ## Ponzu
+
+Ponzu is an AppImage Loader that can be used to search for user-provided AppImages and add them to RetroDECK.
+
+In the future, Ponzu might support other systems not shipped by default in RetroDECK, such as proprietary emulators. We hope to get custom licenses for them so they can be installed via Ponzu as an option if we can't build them via RetroDECK directly (nothing yet).
 
 ## Components
 
@@ -126,11 +136,9 @@ RetroDECK itself with it's various tools (Configurator) and features (Compressor
 
 **What are Component Recipe Files?**
 
-They are packaged files with an RetroDECK component are the information center for that component made from various scripts and json files.
+The **Components Recipe Files** purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source (AppImage, Flatpak, Binary, etc...) and turn it into a RetroDECK Component.
 
-It tells what tells RetroDECK how to build / use them and what features the component has. 
-
-Even RetroDECK itself has Component Recipe Files.
+The recipe files is are **NOT** included in the final component package. 
 
 **Example of features:**
 
@@ -158,13 +166,13 @@ These files will be stored along side the rest of the component data in specific
 
 The following four files are required by every component:
 
-- **manifest.json** 
+- **component_manifest.json**
 
-- **functions.sh** 
+- **component_functions.sh** 
 
-- **prepare_component.sh** 
+- **component_prepare.sh**
 
-- **component_launcher.sh** 
+- **component_launcher.sh**
 
 
 

@@ -18,11 +18,13 @@ The base philosophy is to make a new component is:
 
 2. Add the ingredients: `component_manifest.json`, `component_functions.sh`, `component_prepare.sh`, `component_launcher.sh` (Details about the Component on it's features and functions).
 
-3. Put it all together `tar -czf "component-artifact.tar.gz" "component"` and put it on the [RetroDECK/components](https://github.com/RetroDECK/components) ready to cook.
+3. Put it all together `tar -czf "component-artifact.tar.gz" "component"` and put it on the [RetroDECK/components](https://github.com/RetroDECK/components) ready to be assembled.
 
-4. Later it will be part of the build process of [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repo. 
+4. The can then `RetroDECK Assembler` (like assembling a layered cake) be started to to build (assemble) all components and other files into a release.
 
-5. In the end it will be served as your favorite dish on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck) as part of RetroDECK Stable.
+5. The components will be part of the [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repo. 
+
+6. In the end it will be served as your favorite dish on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck) as part of RetroDECK Stable.
 
 ## Source Format Prioritization
 

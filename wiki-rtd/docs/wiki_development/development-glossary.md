@@ -50,7 +50,7 @@ The feature branches repositories of the RetroDECK Project, are subbranches wher
 
 <img src="../../wiki_icons/retrodeck/icon-api.svg" width="50">
 
-The **RetroDECK API** enables external applications to access information and perform actions through the RetroDECK Framework, allowing them to function as the RetroDECK Configurator.
+The `RetroDECK API` enables external applications to access information and perform actions through the RetroDECK Framework, allowing them to function as the RetroDECK Configurator.
 
 Currently, the API is accessible only via named pipes or internally within the **RetroDECK Framework**. Additional communication methods may be introduced in the future.
 
@@ -58,7 +58,7 @@ Currently, the API is accessible only via named pipes or internally within the *
 
 <img src="../../wiki_icons/retrodeck/icon-framework.svg" width="50">
 
-The RetroDECK Framework is the entire back-end of RetroDECK. The build-system, all the: functions, code, scripts, etc... 
+The `RetroDECK Framework` is the entire back-end of RetroDECK aka the build-system, all the: functions, code, scripts, etc... 
 
 ## RetroEngine
 
@@ -74,14 +74,19 @@ It supports the association of common game file extensions with RetroDECK. Addit
 
 The RetroDECK Configurator is a unique multi-use utility front-end that exists within RetroDECK to manage many aspects of the application and exposes functions from the `RetroDECK Framework` and it's features / functions to the end-user.
 
-
 ## Ponzu
 
 <img src="../../wiki_icons/retrodeck/icon-ponzu.svg" width="50">
 
 Ponzu is an AppImage Loader that can be used to search for user-provided legacy AppImages and add them to RetroDECK.
 
-In the future, Ponzu might support other systems not shipped by default in RetroDECK, such as proprietary emulators. 
+In the future, Ponzu might support other systems not shipped by default in RetroDECK, such as systems we can't ship into the base of RetroDECK for various reasons. 
+
+## RetroDECK Assembler
+
+The `RetroDECK Assembler` just the build process of the `RetroDECK Framework`.
+
+It's what builds components into the RetroDECK releases and publishes them.
 
 ## RetroDECK Components
 

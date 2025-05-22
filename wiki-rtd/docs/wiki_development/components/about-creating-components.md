@@ -37,10 +37,10 @@ When multiple source formats are available for a component, prioritize them in t
 
 Components can broadly be categorized by from the application you want to add:
 
-- Emulator
-- Engine
-- Port
-- System
+- **Emulator**
+- **Engine**
+- **Port**
+- **System**
 
 Read the Development Glossary for more details here: [Development Glossary](../development-glossary.md) 
 

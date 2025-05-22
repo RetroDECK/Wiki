@@ -97,9 +97,9 @@ In rare cases, it may be beneficial to include a port directly in RetroDECK if o
 - The port supports **modding or includes a mod downloader**.
 - The port depends on **technologies not supported by PortMaster**, such as: Newer versions of SDL/OpenGL, Vulkan, Wine or other.
 
-## Requirements
+## Guides: Building Components
 
-You will need to create the check the licences, add ingredients and recipe files for a component in addition to the folder structure as structured on the components repo.
+You will need to create the check the licences, add ingredients and recipe files for a component in addition to the folder structure as structured on the Components Repository.
 
 ### Check the Licences
 

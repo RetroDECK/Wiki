@@ -150,13 +150,7 @@ A source port is a software project based on the source code of a game engine th
 
 In the context of RetroDECK it is usually single games that are managed by the PortMaster system. 
 
-On rare occasions RetroDECK can choose to build-in a port directly as an component, the Port are in need of the following:
-
-- Online Multiplayer.
-- Launchers.
-- Speedy Updates or Updates (sometimes they just add the port once, to have it running).
-- Mod Support / Downloader.
-- Certain Tech PortMaster can't support (Newer SDL/OpenGL, Vulkan, Wine etc...).
+On rare occasions RetroDECK can choose to build-in a port directly as an component.
 
 
 ### What is a System?

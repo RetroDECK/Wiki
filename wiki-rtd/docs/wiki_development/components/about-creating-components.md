@@ -1,8 +1,12 @@
 # About RetroDECK Component Creation
 
-## Overview
+### Decription
 
 Creating a new RetroDECK component is a flexible process that varies depending on the source of the component. However, the final structure of the component remains consistent, regardless of its origin.
+
+### Prerequisites 
+
+Before adding a new component talk to the RetroDECK Team about your intention. Some components might not fit the Teams design intent of the project.
 
 ## Component Building: Cooking Philosophy
 
@@ -16,7 +20,7 @@ The base philosophy is to make a new component is:
 
 4. Later it will be part of the build process of [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repo. 
 
-5. In the end it will be served as your favorite dish on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck)     as part of RetroDECK Stable.
+5. In the end it will be served as your favorite dish on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck) as part of RetroDECK Stable.
 
 ## Source Format Prioritization
 
@@ -27,11 +31,47 @@ When multiple source formats are available for a component, prioritize them in t
 3. **Precompiled Binary**
 4. **Build from Source**
 
+## Component Types
 
+Components can broadly be categorized by from the application you want to add:
+
+- Emulator
+- Engine
+- Port
+- System
+
+Read the Development Glossary for more details here: [Development Glossary](../development-glossary.md) 
+
+### On Adding Ports
+
+[PortMaster](https://portmaster.games/) is the standard way to add a Port into RetroDECK. It's better to contribute to that PortMaster then to add a port directly into RetroDECK to reduce bloat and more people will benefit outside of RetroDECK. 
+
+Follow the [PortMaster: Porting Guide](https://portmaster.games/porting.html).
+
+**BUT that said**
+
+In rare occasions there could be a benifit to add a port into RetroDECK if the following criteria are met.
+
+The Port is in need of one or more of the following:
+
+- Online Multiplayer.
+- Launchers.
+- Speedy Updates or Updates (sometimes they just add the port once, to have it running).
+- Mod Support / Downloader.
+- Certain Tech PortMaster can't support (Newer SDL/OpenGL, Vulkan, Wine etc...).
 
 ## Requirements
 
-You will need to create the ingredients and recipe files for a component in addition to the folder structure as structured on the components repo.
+You will need to create the check the licences, add ingredients and recipe files for a component in addition to the folder structure as structured on the components repo.
+
+### Check the Licences
+
+Check the licence of the component you want to add, also check any other licences within the project website/repo/within the application itself. 
+
+If all is **OK** make a note and it will need to be added in full to:
+
+[other_licenses.txt](https://github.com/RetroDECK/RetroDECK/blob/main/other_licenses.txt) 
+
 
 ### RetroDECK Components Repository
 

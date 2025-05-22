@@ -10,9 +10,9 @@ Before adding a new component talk to the RetroDECK Team about your intention. S
 
 ## Component Building: Cooking Philosophy
 
-The base philosophy is to make a new component is:
+The base philosophy to make a new component is:
 
-0. Mise en place: Check with the RetroDECK Team and check the licences of the Component you want to add.
+0. **Mise en place:** Before you start check with the RetroDECK Team and check the licences of the Component you want to add.
 
 1. Make a `recipe.sh` (tells RetroDECK where the source is and how-to build it).
 

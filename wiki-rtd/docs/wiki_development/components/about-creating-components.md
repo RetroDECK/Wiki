@@ -21,11 +21,13 @@ Building a new component in RetroDECK is like preparing a gourmet dish.
 
 Before you begin, check in with the RetroDECK Team and verify the licenses of the component you want to add.
 
-1. **Write the Recipe**
+
+**Step 1: Write the Recipe**
 
 Create a `recipe.sh` file — this tells RetroDECK where to find the source and how to cook (build) it.
 
-2. **Add the Ingredients**
+
+**Step 2: Add the Ingredients**
 
 Include the following files in your component folder:
 
@@ -36,7 +38,9 @@ Include the following files in your component folder:
 
 These define the component’s features and how it behaves.
 
-3. **Package It Up**
+
+
+**Step 3: Put It Together**
 
 Bundle everything together:
 
@@ -46,17 +50,21 @@ tar -czf "component-artifact.tar.gz" "component"
 
 Then upload it to the [RetroDECK/components](https://github.com/RetroDECK/components).
 
-4. **Assemble the Release**
 
-The `RetroDECK Assembler` building process (think of it like a cake assembler) takes all your ingredients and layers them into as a part of a RetroDECK release.
+**Step 4: Assemble the Release**
 
-5. **Into the Cooker**
+The `RetroDECK Assembler` building process (think of it like a cake assembler). Follows the recipe and takes all your ingredients and puts into a RetroDECK Release.
 
-Your component becomes part of the [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repository.
 
-6. **Serve to Flathub**
+**Step 5: Into the Cooker**
+
+Later your component becomes part of the [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repository. This is used by the RetroDECK Community Beta (Taste) Testers and the RetroDECK Team. 
+
+
+**Step 6: Serve to Flathub**
 
 Finally, your creation is served to users as part of the stable RetroDECK release on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck).
+
 
 ## Source Format Prioritization
 

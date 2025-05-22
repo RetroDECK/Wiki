@@ -4,7 +4,12 @@ The **Component Recipe File**  `recipe.sh` purpose is to tell the RetroDECK buil
 
 The recipe file is **NOT** included in the final component package. 
 
-## 
+## Examples
+
+- [RetroDECK/components](https://github.com/RetroDECK/components).
+
+
+### Flatpak Solarus: recipe.sh
 
 ```
 #!/bin/bash
@@ -20,6 +25,8 @@ grab flatpak_id "org.solarus_games.solarus.Launcher"
 finalize
 ```
 
+### AppImage PCSX2: recipe.sh
+
 ```
 #!/bin/bash
 
@@ -32,3 +39,9 @@ grab appimage "https://github.com/PCSX2/pcsx2/releases/latest/download/pcsx2-*-l
 finalize
 
 ```
+
+
+### Binary X: recipe.sh
+
+
+### Source X: recipe.sh

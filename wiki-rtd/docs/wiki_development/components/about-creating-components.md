@@ -98,17 +98,23 @@ Bundle everything together:
 tar -czf "component-artifact.tar.gz" "component"
 ```
 
-Then upload it to the [RetroDECK/components](https://github.com/RetroDECK/components).
+Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components).
 
 
 ### Step 4: Assemble the Release
 
-The `RetroDECK Assembler` building process (think of it like a cake assembler). Follows the recipe and takes all your ingredients and puts into a RetroDECK Release.
+The `RetroDECK Assembler` building process (think of it like a cake assembler). Follows the recipe and takes all your ingredients and puts into a release with each separate component artifact under:
+
+[RetroDECK/components/releases](https://github.com/RetroDECK/components/releases) 
 
 
 ### Step 5: Into the Cooker
 
-Later your component becomes part of the [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repository. This is used by the RetroDECK Community Beta (Taste) Testers. 
+The `RetroDECK Assembler` will take the finished component artifacts and they becomes part of the:
+
+[RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repository. 
+
+At this stage the RetroDECK Community Beta (Taste) Testers and the RetroDECK Team will check for bugs, tweak configurations and more.
 
 
 ### Step 6: Serve to Flathub

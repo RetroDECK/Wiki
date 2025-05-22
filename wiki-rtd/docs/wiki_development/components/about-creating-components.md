@@ -20,7 +20,7 @@ The base philosophy to make a new component is:
 
 3. Put it all together `tar -czf "component-artifact.tar.gz" "component"` and put it on the [RetroDECK/components](https://github.com/RetroDECK/components) ready to be assembled.
 
-4. The can then `RetroDECK Assembler` (like assembling a layered cake) be started to to build (assemble) all components and other files into a release.
+4. The `RetroDECK Assembler` (like assembling a layered cake) can then be started to to build (assemble) all components and other files into a release.
 
 5. The components will be part of the [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repo. 
 

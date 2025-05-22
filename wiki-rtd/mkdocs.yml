@@ -410,6 +410,7 @@ nav:
       - SET setting_value: wiki_development/api/set-setting-value.md
 
     - RetroDECK Components:
+      - About Creating Components: wiki_development/components/about-creating-components.md
       - About Component INGREDIENT Files: wiki_development/components/about-component-ingredient-files.md
       - INGREDIENT component_functions.sh: wiki_development/components/ing-component-functions.md
       - INGREDIENT component_launcher.sh: wiki_development/components/ing-component-launcher.md

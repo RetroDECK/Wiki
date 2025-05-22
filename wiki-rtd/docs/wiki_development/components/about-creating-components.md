@@ -92,7 +92,7 @@ The **Component Recipe File** `recipe.sh` purpose is to tell the RetroDECK build
 
 The recipe file is **NOT** included in the final component package. 
 
-📄 **Read more here:** [recipe.sh](component-recipe.md)
+**Read more here:** [recipe.sh](component-recipe.md)
 
 ### Component Ingredient Files
 
@@ -110,4 +110,4 @@ The following files are required by every component:
 
 - `component_launcher.sh`
 
-📄 **Read more here:** [About Component Ingredient Files](about-component-ingredient-files.md)
+**Read more here:** [About Component Ingredient Files](about-component-ingredient-files.md)

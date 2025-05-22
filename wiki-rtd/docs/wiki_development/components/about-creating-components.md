@@ -1,155 +1,66 @@
-# About Creating Components
+# About RetroDECK Component Creation
 
-Overview
-Creating a new RetroDECK component is a variable process that is going to be different on a per-component basis, but there are some similarities in the process depending on the original source for the component being integrated. The final result will always be the same structure regardless of where the original component comes from.
+## Overview
 
-Original Source Priorities
-Some components may have multiple sources to choose from in the RetroDECK adaptation process, and some formats are easier to convert than others.
+Creating a new RetroDECK component is a flexible process that varies depending on the source of the component. However, the final structure of the component remains consistent, regardless of its origin.
 
-The current priority guidance is:
+## Component Building: Cooking Philosophy
 
-AppImage > Flatpak > Precompiled Binary > Build from Source
+The base philosophy is to make a new component is:
 
-Creating a New Component
-The general component repo can be found at https://github.com/RetroDECK/components
+1. Make a `recipe.sh` (tells RetroDECK where the source is and how-to build it).
+
+2. Add the ingredients: `component_manifest.json`, `component_functions.sh`, `component_prepare.sh`, `component_launcher.sh` (Details about the Component on it's features and functions).
+
+3. Put it all together `tar -czf "component-artifact.tar.gz" "component"` and put it on the [RetroDECK/components](https://github.com/RetroDECK/components) ready to cook.
+
+4. Later it will be part of the build process of [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repo. 
+
+5. In the end it will be served as your favorite dish on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck)     as part of RetroDECK Stable.
+
+## Source Format Prioritization
+
+When multiple source formats are available for a component, prioritize them in the following order for ease of integration:
+
+1. **AppImage**
+2. **Flatpak**
+3. **Precompiled Binary**
+4. **Build from Source**
 
 
 
-Each component will have several standardized files included in the component sub-folder.
+## Requirements
 
-**Read more here:** [about-component-recipe-files.md](about-component-ingredient-files)
+You will need to create the ingredients and recipe files for a component in addition to the folder structure as structured on the components repo.
 
+### RetroDECK Components Repository
 
+The general component repository is available at:
 
-The **Component Recipe File** purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source (AppImage, Flatpak, Binary, etc...) and turn it into a RetroDECK Component.
+🔗 [RetroDECK/components](https://github.com/RetroDECK/components)
+
+### Component Recipe File
+
+The **Component Recipe File** `recipe.sh` purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source and turn it into a RetroDECK Component.
 
 The recipe file is **NOT** included in the final component package. 
 
+📄 **Read more here:** [recipe.sh](component-recipe.md)
 
-Additionally there is a recipe.sh file containing the automation commands to transform the component from its original source form into a RetroDECK-compatible structure.
+### Component Ingredient Files
 
-Creating a Component from an AppImage
-This is the basic process for converting an AppImage into a RetroDECK-compatible component.
+The **Components Ingredient Files** is to feed details about the Component to the RetroDECK Framework on it's features and functions.
 
-There may also be other included information that will need to be checked on a per-component basis to decide if it is required for use in the RetroDECK environment.
+These files will be stored along side the rest of the component data in specific location.
 
-As an example, here are the commands that are used in the Cemu component creation process, with added comments explaining each step:
+The following files are required by every component:
 
-We are going to use the CEMU AppImage as an Example:
+- `component_manifest.json`
 
+- `component_functions.sh` 
 
-1) Download the AppImage from the original source.
+- `component_prepare.sh`
 
-wget "https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_64.AppImage"
+- `component_launcher.sh`
 
-2) Extract the AppImage into a basic folder structure.
-
-Typically, an AppImage will extract into this standard structure:
-
-squashfs-root
-    - AppRun (a script, binary or symlink)
-    - usr
-        - bin
-        - lib
-        - share
-
---appimage-extract or use PeaZip https://flathub.org/apps/io.github.peazip.PeaZip 
-
-chmod +x "Cemu-2.6-x86_64.AppImage"
-
-$(realpath "Cemu-2.6-x86_64.AppImage") --appimage-extract
-
-
-3) Move the required data out of the AppImage structure into the RetroDECK target directory.
-
-Create a cemu directory that will be used by RetroDECK.
-
-mkdir -p cemu
-
-mv squashfs-root/apprun-hooks cemu/
-mv squashfs-root/usr/* cemu/
-
-# This component appears to run fine with only this library included, so removing all others to save on space
-find cemu/lib/ -not -name 'libGLU.so.1' -delete
-
-4) (optional) Remove any duplicate libraries that may be included in the AppImage which also exist in the RetroDECK flatpak runtime.
-
-5) Copy the RetroDECK component-specific files (listed above) into the RetroDECK target directory.
-
-cp component_launcher.sh manifest.json functions.sh prepare_component.sh cemu/
-chmod +x cemu/component_launcher.sh
-
-
-6) Compress the RetroDECK target directory into the final tar.gz artifact that will be used in the RetroDECK core flatpak.
-
-tar -czf "cemu-artifact.tar.gz" "cemu"
-
-7) Cleanup temp files.
-
-rm -rf squashfs-root
-
-rm -rf cemu
-
-
-Creating a Component from a Flatpak
-
-Typically, a Flatpak will extract into this standard structure:
-
-<cloned repo directory>
-    <flatpak-build-dir>
-        - files
-            - bin
-            - lib
-            - share
-
-There may also be other included information that will need to be checked on a per-component basis to decide if it is required for use in the RetroDECK environment.
-
-As an example, here are the commands that are used in the GZDOOM component creation process, with added comments explaining each step:
-
-The basic process for converting an Flatpak into a RetroDECK-compatible component is:
-
-1) Clone the Flatpak repo from its original source, or download a premade RetroDECK artifact.
-
-mkdir gzdoom
-
-git clone https://github.com/flathub/org.zdoom.GZDoom.git
-
-cd org.zdoom.GZDoom
-
-2) Either extract the premade artifact or build the Flatpak files from the cloned repo.
-
-git submodule init
-
-git submodule update
-
-flatpak-builder --user --force-clean --install-deps-from=flathub --install-deps-from=flathub-beta --repo=gzdoom-repo "gzdoom-build-dir" "org.zdoom.GZDoom.yaml"
-
-rm -rf gzdoom-build-dir/files/lib/debug
-
-3) Copy the required data into the RetroDECK target directory
-
-cd ..
-
-mv org.zdoom.GZDoom/gzdoom-build-dir/files/bin gzdoom/
-mv org.zdoom.GZDoom/gzdoom-build-dir/files/include gzdoom/
-mv org.zdoom.GZDoom/gzdoom- build-dir/files/lib gzdoom/
-mv org.zdoom.GZDoom/gzdoom-build-dir/files/share gzdoom/
-
-4) (optional) Add any required libraries needed to the shared_libs component runtime sandbox, if the Flatpak is compiled in a non-freedesktop runtime originally.
-
-5) Copy the RetroDECK component-specific files (listed above) into the RetroDECK target directory
-
-cp component_launcher.sh manifest.json functions.sh prepare_component.sh gzdoom/
-
-chmod +x gzdoom/component_launcher.sh
-
-6) Compress the RetroDECK target directory into the final artifact that will be used in the RetroDECK core flatpak.
-
-tar -czf "gzdoom-artifact.tar.gz" "gzdoom"
-
-
-Step 7) Cleanup temp files
-
-rm -rf gzdoom
-rm -rf org.zdoom.GZDoom
-
+📄 **Read more here:** [About Component Ingredient Files](about-component-ingredient-files.md)

@@ -19,7 +19,7 @@ A version of RetroDECK is only considered released when it is published on [Flat
 
 If a user asks:
 
-Is a new version of RetroDECK out?
+*Is a new version of RetroDECK out?*
 
 You can only answer **YES** when it has been verified that it is out on Flathub. 
 
@@ -176,11 +176,9 @@ RetroDECK itself with it's various tools (Configurator) and features (Compressor
 
 ## Component Recipe File
 
-The **Component Recipe File** purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source (AppImage, Flatpak, Binary, etc...) and turn it into a RetroDECK Component.
+The **Component Recipe File:** `recipe.sh`'purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source from: **AppImage**, **Flatpak**, **Precompiled Binary** or **Built from Source** and turn it into a RetroDECK Component.
 
 The recipe file is **NOT** included in the final component package. 
-
-- `recipe.sh`
 
 ## Component Ingredient Files
 

@@ -53,6 +53,7 @@ Take a moment to explore the wiki! There’s tons of information waiting for you
 | [RetroDECK/Wiki](https://github.com/RetroDECK/Wiki)                                    | Wiki Repo: RetroDECK mkdocs-material Wiki source code |
 | [RetroDECK/RetroDECK-website](https://github.com/RetroDECK/RetroDECK-website)          | Website Repo: Retrodeck.net source code               |
 | [RetroDECK/ES-DE](https://github.com/RetroDECK/ES-DE)                                  | ES-DE Repo: RetroDECK's light fork of ES-DE           |
+| [RetroDECK/components](https://github.com/RetroDECK/components)                        | Components Repo: RetroDECK's central for Components   |
 | [RetroDECK/RetroDECK-theme](https://github.com/RetroDECK/RetroDECK-theme)              | Theme Repo: RetroDECK's ES-DE Theme                   |
 | [flathub/net.retrodeck.retrodeck](https://github.com/flathub/net.retrodeck.retrodeck)  | Flathub Repo: net.retrodeck.retrodeck                 |
 | [RetroDECK/repositories](https://github.com/orgs/RetroDECK/repositories)               | Full Org Repo : All other repos in RetroDECK          |
@@ -64,5 +65,8 @@ Take a moment to explore the wiki! There’s tons of information waiting for you
 | Name                    | Link                                            |
 |-------------------------|------------------------------------------------|
 | [Github: Service](https://www.githubstatus.com/)     |  Github Service Status   |
+| [RetroDECK on Flathub](https://flathub.org/apps/net.retrodeck.retrodeck)      |  RetroDECK's Flathub Page    |
 | [Flathub: Service](https://status.flathub.org/)      |  Flathub Service Status    |
 | [Flathub: Buildbot](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck) | Flathub RetroDECK Builtbot |
+
+

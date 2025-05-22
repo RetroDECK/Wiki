@@ -8,7 +8,14 @@
 
 <img src="../classic-configurator.png" width="800">
 
-The `RetroDECK Configurator` is a unique multi-use utility that exists within RetroDECK to manage many aspects of the application and exposes functions from the `RetroDECK Framework` to the user.
+The `RetroDECK Configurator` is a unique, multi-purpose utility built into RetroDECK.
+
+- Manages many aspects of the RetroDECK application
+- Gives users access to features and functions from the `RetroDECK Framework`
+
+It acts as the main interface between the user and the powerful tools behind the scenes.
+
+## How-to open the RetroDECK Configurator?
 
 The `RetroDECK Configurator` can be opened from:
 
@@ -16,11 +23,11 @@ The `RetroDECK Configurator` can be opened from:
 
 <img src="../configurator-esde.png" width="500">
 
-* From the `RetroDECK Configurator.desktop` desktop shortcut, available in your application menu.
+- From the `RetroDECK Configurator.desktop` desktop shortcut, available in your application menu.
 
 <img src="../configurator-kde.png" width="500">
 
-* From CLI by calling `flatpak run net.retrodeck.retrodeck --configurator`
+- From CLI by calling `flatpak run net.retrodeck.retrodeck --configurator`
 
 What follows are the commands you can use inside the Configurator (more commands will be added during development).
 

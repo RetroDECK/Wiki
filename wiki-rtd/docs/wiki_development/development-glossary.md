@@ -9,9 +9,9 @@ Here we are listing the lingo of the RetroDECK Project.
 
 How the process works:
 
-`Feature Branches` -> `Cooker (GitHub)` -> `Main (GitHub)` -> `Main (GitHub) Pre-Release Testing` ->  `Flathub Testing` -> `Flathub Stable Publication`.
+`Feature Branches (GitHub)` / `Component Branch (GitHub)` -> `Cooker (GitHub)` -> `Main (GitHub)` -> `Main (GitHub) Pre-Release Testing` ->  `Flathub Testing` -> `Flathub Stable Publication`.
 
-### RetroDECK Stable Releases
+### When is RetroDECK considered Released?
 
 A version of RetroDECK is only considered released when it is published on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck).
 
@@ -24,55 +24,100 @@ If a user asks:
 You can only answer **YES** when it has been verified that it is out on Flathub. 
 
 
-## Github Repos
+## Github Repositories
 
 <img src="../../wiki_icons/pixelitos/github.png" width="50">
+
+#### Repositories
+
+| Name                                                                                   | Description                                           |
+|----------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [RetroDECK/RetroDECK](https://github.com/RetroDECK/RetroDECK)                          | RetroDECK Repo: Main repo of the RetroDECK Project    |
+| [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker)                                | Cooker Repo: Cooker Build publication repo            |
+| [RetroDECK/Wiki](https://github.com/RetroDECK/Wiki)                                    | Wiki Repo: RetroDECK mkdocs-material Wiki source code |
+| [RetroDECK/RetroDECK-website](https://github.com/RetroDECK/RetroDECK-website)          | Website Repo: Retrodeck.net source code               |
+| [RetroDECK/ES-DE](https://github.com/RetroDECK/ES-DE)                                  | ES-DE Repo: RetroDECK's light fork of ES-DE           |
+| [RetroDECK/components](https://github.com/RetroDECK/components)                        | Components Repo: RetroDECK's central for Components   |
+| [RetroDECK/RetroDECK-theme](https://github.com/RetroDECK/RetroDECK-theme)              | Theme Repo: RetroDECK's ES-DE Theme                   |
+| [flathub/net.retrodeck.retrodeck](https://github.com/flathub/net.retrodeck.retrodeck)  | Flathub Repo: net.retrodeck.retrodeck                 |
+| [RetroDECK/repositories](https://github.com/orgs/RetroDECK/repositories)               | Full Org Repo : All other repos in RetroDECK          |
+
+
 
 ### Main / Main Releases
 
 The main repo of the RetroDECK Project.
 
-Is contains the feature freezed stable releases of the RetroDECK application. 
-
-All releases here are considered as Pre-Releases, the full release is always on Flathub.
+Stable, feature-frozen versions of RetroDECK. Pre-releases only; full releases are on Flathub.
 
 ### Cooker / Cooker Releases
 
-Cooker is a bleeding edge snapshot repository of the current commits (the action of uploading code to GitHub is called a commit).
-
-The code may not be always reviewed and so the cooker it's unstable by its nature, it's just suggested to testers or developer to try bleeding edge functions.
+Unstable, cutting-edge development branch. Best for testers and developers.
 
 ### Feature Branches
 
-The feature branches repositories of the RetroDECK Project, are subbranches where specific component/feature/other development is happening before it gets merged into cooker proper.
+Where new features are developed before merging into Cooker.
 
-## RetroDECK API
+### Component Branch
 
-<img src="../../wiki_icons/retrodeck/icon-api.svg" width="50">
-
-The `RetroDECK API` enables external applications to access information and perform actions through the RetroDECK Framework, allowing them to function as the RetroDECK Configurator.
-
-Currently, the API is accessible only via named pipes or internally within the **RetroDECK Framework**. Additional communication methods may be introduced in the future.
+Stores all component-related artifacts used across the project.
 
 ## RetroDECK Framework
 
 <img src="../../wiki_icons/retrodeck/icon-framework.svg" width="50">
 
-The `RetroDECK Framework` is the entire back-end of RetroDECK aka the build-system, all the: functions, code, scripts, etc... 
+The `RetroDECK Framework` is the entire back-end system of RetroDECK.  
+It includes everything that powers the platform, such as:
+
+- Build system
+- Functions
+- Code
+- Scripts
+- And more...
+
+In short, it's the engine that makes RetroDECK run.
+
+## RetroDECK API
+
+<img src="../../wiki_icons/retrodeck/icon-api.svg" width="50">
+
+The `RetroDECK API` allows external applications to interact with the `RetroDECK Framework`, enabling them to operate like the RetroDECK Configurator.
+
+Currently, the API is only accessible through:
+
+- **Named pipes**.
+- **Internal calls** within the `RetroDECK Framework`.
 
 ## RetroEngine
 
 <img src="../../wiki_icons/retrodeck/icon-engine.svg" width="50">
 
-RetroENGINE allows you to run various game files directly with RetroDECK from the desktop without starting the application.
+`RetroENGINE` lets you launch games directly from your desktop using RetroDECK — no need to open the full application.
 
-It supports the association of common game file extensions with RetroDECK. Additionally, you can run games directly via RetroENGINE using CLI.
+- Supports file associations for common game file types.
+- Allows launching games via the command line (CLI).
+
+**Read more here:**
 
 ## RetroDECK Configurator
 
 <img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="50">
 
-The RetroDECK Configurator is a unique multi-use utility front-end that exists within RetroDECK to manage many aspects of the application and exposes functions from the `RetroDECK Framework` and it's features / functions to the end-user.
+The `RetroDECK Configurator` is a unique, multi-purpose utility built into RetroDECK.
+
+- Manages many aspects of the RetroDECK application
+- Gives users access to features and functions from the `RetroDECK Framework`
+
+It acts as the main interface between the user and the powerful tools behind the scenes.
+
+### RetroDECK Tool 
+
+A `RetroDECK Tool` is the name given to a function (or group of functions) that is exposed to the end-user through the `RetroDECK Configurator`.
+
+**Example:** `BIOS Checker Tool` - While it consists of many back-end functions, users simply know it as the `BIOS Checker Tool` in the Configurator.
+
+These tools simplify complex back-end operations into user-friendly features.
+
 
 ## Ponzu
 
@@ -87,6 +132,7 @@ In the future, Ponzu might support other systems not shipped by default in Retro
 The `RetroDECK Assembler` just the build process of the `RetroDECK Framework`.
 
 It's what builds components into the RetroDECK releases and publishes them.
+
 
 ## RetroDECK Components
 
@@ -169,7 +215,7 @@ A system in the context of RetroDECK is a piece of software that is not running 
 - PortMaster
 - RetroEngine
 
-### What is RetroDECK: Features & Functions?
+### RetroDECK?!
 
 RetroDECK itself with it's various tools (Configurator) and features (Compressor) is also an component.
 

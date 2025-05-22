@@ -1,30 +1,62 @@
 # About RetroDECK Component Creation
 
-### Decription
+### Description
 
-Creating a new RetroDECK component is a flexible process that varies depending on the source of the component. However, the final structure of the component remains consistent, regardless of its origin.
+Creating a new RetroDECK component is a flexible process that can vary depending on the source of the component. However, the final structure remains consistent across all components.
 
 ### Prerequisites 
 
-Before adding a new component talk to the RetroDECK Team about your intention. Some components might not fit the Teams design intent of the project.
+Before adding a new component:
 
-## Component Building: Cooking Philosophy
+- **Talk to the RetroDECK Team** - Share your idea and get feedback. Some components may not align with the project's design goals or technical direction.
 
-The base philosophy to make a new component is:
+- **Check Licensing** - Check the licensing of the component.
 
-0. **Mise en place:** Before you start check with the RetroDECK Team and check the licences of the Component you want to add.
 
-1. Make a `recipe.sh` (tells RetroDECK where the source is and how-to build it).
+## 🍳 Component Building: Cooking Philosophy
 
-2. Add the ingredients: `component_manifest.json`, `component_functions.sh`, `component_prepare.sh`, `component_launcher.sh` (Details about the Component on it's features and functions).
+Building a new component in RetroDECK is like preparing a gourmet dish. 
 
-3. Put it all together `tar -czf "component-artifact.tar.gz" "component"` and put it on the [RetroDECK/components](https://github.com/RetroDECK/components) ready to be assembled.
+### 🥄 0. Mise en place
 
-4. The `RetroDECK Assembler` (like assembling a layered cake) can then be started to to build (assemble) all components and other files into a release.
+Before you begin, check in with the RetroDECK Team and verify the licenses of the component you want to add.
 
-5. The components will be part of the [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repo. 
+### 📜 1. Write the Recipe
 
-6. In the end it will be served as your favorite dish on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck) as part of RetroDECK Stable.
+Create a `recipe.sh` file — this tells RetroDECK where to find the source and how to cook (build) it.
+
+### 🧂 2. Add the Ingredients
+
+Include the following files in your component folder:
+
+- `component_manifest.json`
+- `component_functions.sh`
+- `component_prepare.sh`
+- `component_launcher.sh`
+
+These define the component’s features and how it behaves.
+
+### 🍲 3. Package It Up
+
+Bundle everything together:
+
+```
+tar -czf "component-artifact.tar.gz" "component"
+```
+
+Then upload it to the [RetroDECK/components](https://github.com/RetroDECK/components).
+
+### 🎂 4. Assemble the Release
+
+The `RetroDECK Assembler` building process (think of it like a cake assembler) takes all your ingredients and layers them into as a part of a RetroDECK release.
+
+### 🔥 5. Into the Cooker
+
+Your component becomes part of the [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repository.
+
+### 🍝 6. Serve
+
+Finally, your creation is served to users as part of the stable RetroDECK release on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck).
 
 ## Source Format Prioritization
 

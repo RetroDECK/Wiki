@@ -17,15 +17,15 @@ Before adding a new component:
 
 Building a new component in RetroDECK is like preparing a gourmet dish. 
 
-0. Mise en place
+0. **Mise en place**
 
 Before you begin, check in with the RetroDECK Team and verify the licenses of the component you want to add.
 
-1. Write the Recipe
+1. **Write the Recipe**
 
 Create a `recipe.sh` file — this tells RetroDECK where to find the source and how to cook (build) it.
 
-2. Add the Ingredients
+2. **Add the Ingredients**
 
 Include the following files in your component folder:
 
@@ -36,7 +36,7 @@ Include the following files in your component folder:
 
 These define the component’s features and how it behaves.
 
-3. Package It Up
+3. **Package It Up**
 
 Bundle everything together:
 
@@ -46,15 +46,15 @@ tar -czf "component-artifact.tar.gz" "component"
 
 Then upload it to the [RetroDECK/components](https://github.com/RetroDECK/components).
 
-4. Assemble the Release
+4. **Assemble the Release**
 
 The `RetroDECK Assembler` building process (think of it like a cake assembler) takes all your ingredients and layers them into as a part of a RetroDECK release.
 
-5. Into the Cooker
+5. **Into the Cooker**
 
 Your component becomes part of the [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repository.
 
-6. Serve to Flathub
+6. **Serve to Flathub**
 
 Finally, your creation is served to users as part of the stable RetroDECK release on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck).
 

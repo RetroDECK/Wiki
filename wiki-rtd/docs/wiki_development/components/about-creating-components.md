@@ -61,11 +61,7 @@ In rare cases, it may be beneficial to include a port directly in RetroDECK if o
 - The port benefits from **custom launchers**.
 - The port needs **frequent or rapid updates**.
 - The port supports **modding or includes a mod downloader**.
-- The port depends on **technologies not supported by PortMaster**, such as:
-  - Newer versions of SDL/OpenGL
-  - Vulkan
-  - Wine
-
+- The port depends on **technologies not supported by PortMaster**, such as: Newer versions of SDL/OpenGL, Vulkan, Wine or other.
 
 ## Requirements
 

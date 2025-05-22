@@ -46,21 +46,26 @@ Read the Development Glossary for more details here: [Development Glossary](../d
 
 ### On Adding Ports
 
-[PortMaster](https://portmaster.games/) is the standard way to add a Port into RetroDECK. It's better to contribute to that PortMaster then to add a port directly into RetroDECK to reduce bloat and more people will benefit outside of RetroDECK. 
+[PortMaster](https://portmaster.games/) is the recommended method for integrating ports into RetroDECK. Contributing to PortMaster instead of directly adding a port to RetroDECK helps:
+
+- Reduce bloat in the RetroDECK ecosystem.
+- Broaden the benefit to users beyond RetroDECK.
 
 Follow the [PortMaster: Porting Guide](https://portmaster.games/porting.html).
 
-**BUT that said**
+**When to Add a Port Directly to RetroDECK?**
 
-In rare occasions there could be a benifit to add a port into RetroDECK if the following criteria are met.
+In rare cases, it may be beneficial to include a port directly in RetroDECK if one or more of the following criteria are met:
 
-The Port is in need of one or more of the following:
+- The port requires **online multiplayer** support.
+- The port benefits from **custom launchers**.
+- The port needs **frequent or rapid updates**.
+- The port supports **modding or includes a mod downloader**.
+- The port depends on **technologies not supported by PortMaster**, such as:
+  - Newer versions of SDL/OpenGL
+  - Vulkan
+  - Wine
 
-- Online Multiplayer.
-- Launchers.
-- Speedy Updates or Updates (sometimes they just add the port once, to have it running).
-- Mod Support / Downloader.
-- Certain Tech PortMaster can't support (Newer SDL/OpenGL, Vulkan, Wine etc...).
 
 ## Requirements
 

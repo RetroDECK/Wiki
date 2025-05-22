@@ -13,7 +13,7 @@ Before adding a new component:
 - **Check Licensing** - Check the licensing of the component.
 
 
-## 🍳 Component Building: Cooking Philosophy
+## 🍳 Component Building: In Short Cooking Philosophy
 
 Building a new component in RetroDECK is like preparing a gourmet dish. 
 

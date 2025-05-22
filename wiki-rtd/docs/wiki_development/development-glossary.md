@@ -28,7 +28,7 @@ You can only answer **YES** when it has been verified that it is out on Flathub.
 
 <img src="../../wiki_icons/pixelitos/github.png" width="50">
 
-#### Repositories
+#### Selected Repositories
 
 | Name                                                                                   | Description                                           |
 |----------------------------------------------------------------------------------------|-------------------------------------------------------|
@@ -116,23 +116,21 @@ A `RetroDECK Tool` is the name given to a function (or group of functions) that 
 
 **Example:** `BIOS Checker Tool` - While it consists of many back-end functions, users simply know it as the `BIOS Checker Tool` in the Configurator.
 
-These tools simplify complex back-end operations into user-friendly features.
-
-
 ## Ponzu
 
 <img src="../../wiki_icons/retrodeck/icon-ponzu.svg" width="50">
 
-Ponzu is an AppImage Loader that can be used to search for user-provided legacy AppImages and add them to RetroDECK.
+Ponzu is an Legacy AppImage Loader / Integrator.
 
-In the future, Ponzu might support other systems not shipped by default in RetroDECK, such as systems we can't ship into the base of RetroDECK for various reasons. 
+Lets users add certain specific legacy AppImages to RetroDECK and integrates these AppImages directly into the RetroDECK environment.
 
 ## RetroDECK Assembler
 
-The `RetroDECK Assembler` just the build process of the `RetroDECK Framework`.
+The `RetroDECK Assembler` is just the build process part the `RetroDECK Framework`.
 
-It's what builds components into the RetroDECK releases and publishes them.
-
+- Builds all components of RetroDECK.
+- Packages them into official RetroDECK releases.
+- Publishes the final builds for distribution on Flathub.
 
 ## RetroDECK Components
 

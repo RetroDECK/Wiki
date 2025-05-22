@@ -1,11 +1,10 @@
 # Development Glossary 
 
-Here we are listing the lingo of the RetroDECK Project.
+Here we are listing all the development lingo and features of the RetroDECK Project.
 
 ## RetroDECK Development to Publication Process 
 
 <img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
-
 
 How the process works:
 
@@ -88,6 +87,8 @@ Currently, the API is only accessible through:
 - **Named pipes**.
 - **Internal calls** within the `RetroDECK Framework`.
 
+**Read more here:**
+
 ## RetroEngine
 
 <img src="../../wiki_icons/retrodeck/icon-engine.svg" width="50">
@@ -110,6 +111,8 @@ The `RetroDECK Configurator` is a unique, multi-purpose utility built into Retro
 
 It acts as the main interface between the user and the powerful tools behind the scenes.
 
+**Read more here:**
+
 ### RetroDECK Tool 
 
 A `RetroDECK Tool` is the name given to a function (or group of functions) that is exposed to the end-user through the `RetroDECK Configurator`.
@@ -124,6 +127,8 @@ Ponzu is an Legacy AppImage Loader / Integrator.
 
 Lets users add certain specific legacy AppImages to RetroDECK and integrates these AppImages directly into the RetroDECK environment.
 
+**Read more here:**
+
 ## RetroDECK Assembler
 
 The `RetroDECK Assembler` is just the build process part the `RetroDECK Framework`.
@@ -132,10 +137,13 @@ The `RetroDECK Assembler` is just the build process part the `RetroDECK Framewor
 - Packages them into official RetroDECK releases.
 - Publishes the final builds for distribution on Flathub.
 
+**Read more here:**
+
 ## RetroDECK Components
 
 RetroDECK is made by assembling various components.
 
+**Read more here:**
 
 ### What are Components?
 
@@ -223,6 +231,8 @@ The **Component Recipe File:** `recipe.sh`'purpose is to tell the RetroDECK buil
 
 The recipe file is **NOT** included in the final component package. 
 
+**Read more here:**
+
 ## Component Ingredient Files
 
 **What are Component Ingredient Files?**
@@ -245,7 +255,7 @@ When they are communicated about they are referred to as:
 - `Ingredients`
 - `<Component Name> Ingredient` 
 
-**Read more over at:**
+**Read more here:**
 
 [Component Ingredient Files](../wiki_development/components-api/about-component-ingredient-files)
 

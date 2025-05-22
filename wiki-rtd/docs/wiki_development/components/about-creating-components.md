@@ -12,6 +12,8 @@ Before adding a new component talk to the RetroDECK Team about your intention. S
 
 The base philosophy is to make a new component is:
 
+0. Mise en place: Check with the RetroDECK Team and check the licences of the Component you want to add.
+
 1. Make a `recipe.sh` (tells RetroDECK where the source is and how-to build it).
 
 2. Add the ingredients: `component_manifest.json`, `component_functions.sh`, `component_prepare.sh`, `component_launcher.sh` (Details about the Component on it's features and functions).

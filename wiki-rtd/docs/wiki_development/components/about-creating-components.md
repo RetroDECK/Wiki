@@ -56,11 +56,9 @@ Building a new component in RetroDECK is like preparing a gourmet dish.
 
 ### Step 0: Mise en place
 
-- **Talk to the RetroDECK Team** - Share your idea and get feedback. Some components may not align with the project's design goals or technical direction. You can do this by creating an issue on Github.
+- **Talk to the RetroDECK Team** - Share your idea and get feedback. Some components may not align with the project's design goals or technical direction. You can do this by creating an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) and also communicating on social platforms.
 
-- **Check Licensing** - Check the licensing of the component. If all is **OK** make a note and it will need to be added in full to before a stable release is made:
-
-[other_licenses.txt](https://github.com/RetroDECK/RetroDECK/blob/main/other_licenses.txt) 
+- **Check Licensing** - Check the licensing of the component. If all is **OK** make a note and it will need to be added in full to before a stable release is made: [other_licenses.txt](https://github.com/RetroDECK/RetroDECK/blob/main/other_licenses.txt).
 
 ### Step 1: Write the Recipe
 
@@ -68,12 +66,12 @@ The **Component Recipe File** `recipe.sh` purpose is to tell the RetroDECK build
 
 The recipe file is **NOT** included in the final component package. 
 
-**Read more here:** [recipe.sh](component-recipe.md)
+**Read more here:** 
 
+- [recipe.sh](component-recipe.md)
+- [RetroDECK/components](https://github.com/RetroDECK/components).
 
 ### Step 2: Add the Ingredients
-
-Include the following files in your component folder:
 
 The **Components Ingredient Files** is to feed details about the Component to the RetroDECK Framework on it's features and functions.
 
@@ -110,7 +108,7 @@ The `RetroDECK Assembler` building process (think of it like a cake assembler). 
 
 ### Step 5: Into the Cooker
 
-Later your component becomes part of the [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repository. This is used by the RetroDECK Community Beta (Taste) Testers and the RetroDECK Team. 
+Later your component becomes part of the [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repository. This is used by the RetroDECK Community Beta (Taste) Testers. 
 
 
 ### Step 6: Serve to Flathub

@@ -6,7 +6,23 @@ Creating a new RetroDECK component is a flexible process that can vary depending
 
 ---
 
-## Component Types
+## Prerequisites: Before you start
+
+---
+
+### Communicate & Licensing
+
+**Talk to the RetroDECK Team**
+
+Share your idea and get feedback. Some components may not align with the project's design goals or technical direction. You can do this by creating an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) and also communicating on social platforms.
+
+**Check Licensing** 
+
+Check the licensing of the component you want to include. 
+
+---
+
+### Component Type: What is it?
 
 Components can broadly be categorized by from the application you want to add:
 
@@ -17,7 +33,7 @@ Components can broadly be categorized by from the application you want to add:
 
 Read the Development Glossary for more details here: [Development Glossary](../development-glossary.md) 
 
-### On Adding Ports
+#### On Adding Ports
 
 [PortMaster](https://portmaster.games/) is the recommended method for integrating ports into RetroDECK. Contributing to PortMaster instead of directly adding a port to RetroDECK helps:
 
@@ -36,36 +52,19 @@ In rare cases, it may be beneficial to include a port directly in RetroDECK if o
 - The port supports **modding or includes a mod downloader**.
 - The port depends on **technologies not supported by PortMaster**, such as: Newer versions of SDL/OpenGL, Vulkan, Wine or other.
 
-**Where can the user access it in ES-DE?**
-
-Generally ports should be accessed from the Ports Menu in ES-DE
-
 ---
 
-## Component Source Format Prioritization
+### Test & Research the Component
 
-When multiple source formats are available for a component, prioritize them in the following order for ease of integration:
+Always download & install the source component files locally and check how it behaves in it's normal environment. 
 
-1. **AppImage**
-2. **Flatpak**
-3. **Precompiled Binary**
-4. **Build from Source**
+- **Check what settings it support:** Look into the settings and see what it supports and make a note of settings of interest such as: Hotkeys, Fullscreen, Widescreen, Close the Launcher when the game is launched or other of note. 
 
+- **Check what CLI or launch commands there is:** See if there are any specific launch commands or CLI documentation. 
+
+- **Check how configurations are saved** Check what config files there are that used to save various settings used by the component. 
 
 ---
-
-
-## Before you start
-
-### Communicate & Licensing
-
-**Talk to the RetroDECK Team**
-
-Share your idea and get feedback. Some components may not align with the project's design goals or technical direction. You can do this by creating an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) and also communicating on social platforms.
-
-**Check Licensing** 
-
-Check the licensing of the component you want to include. 
 
 ### How does the users interact with it?
 
@@ -83,21 +82,20 @@ Check the licensing of the component you want to include.
 
 - What kind of files are there and how can the RetroDECK Folder structure be used with the component?
 
-### Test the Component 
-
-Always download & install the source component files locally and check how it behaves in it's normal environment. 
-
-- **Check what settings it support:** Look into the settings and see what it supports and make a note of settings of interest such as: Hotkeys, Fullscreen, Widescreen, Close the Launcher when the game is launched or other of note. 
-
-- **Check what CLI or launch commands there is:** See if there are any specific launch commands or CLI documentation. 
-
-- **Check how configurations are saved** Check what config files there are that used to save various settings used by the component. 
+---
 
 ## How-to: Guidelines on adding a Component
 
 **Note:** It's impossible to write a 100% correct guide on how-to add a component as each of them are unique.
 
-### Step X: 
+#### Component Source Format Prioritization
+
+When multiple source formats are available for a component, prioritize them in the following order for ease of integration with RetroDECK:
+
+1. **AppImage**
+2. **Flatpak**
+3. **Precompiled Binary**
+4. **Build from Source**
 
 ### Step X: Prepare the component_launcher.sh wrapper (Ingredient File)
 

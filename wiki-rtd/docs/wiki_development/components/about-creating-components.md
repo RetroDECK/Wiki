@@ -1,8 +1,8 @@
-# About RetroDECK Component Creation
+# About Building Components: A Cooking Philosophy
 
 ### Description
 
-Creating a new RetroDECK component is a flexible process that can vary depending on the source of the component. However, the final structure remains consistent across all components.
+Creating a new RetroDECK component is a flexible process that can vary depending on the source of the component. However, the final structure remains consistent across all components. Building a new component in RetroDECK is like preparing a gourmet dish.
 
 ---
 
@@ -36,6 +36,10 @@ In rare cases, it may be beneficial to include a port directly in RetroDECK if o
 - The port supports **modding or includes a mod downloader**.
 - The port depends on **technologies not supported by PortMaster**, such as: Newer versions of SDL/OpenGL, Vulkan, Wine or other.
 
+**Where can the user access it in ES-DE?**
+
+Generally ports should be accessed from the Ports Menu in ES-DE
+
 ---
 
 ## Component Source Format Prioritization
@@ -47,22 +51,41 @@ When multiple source formats are available for a component, prioritize them in t
 3. **Precompiled Binary**
 4. **Build from Source**
 
+
 ---
 
 
-## 🍳 Building Components: A Cooking Philosophy 
+## Before you start
 
-Building a new component in RetroDECK is like preparing a gourmet dish. 
+### Communicate & Licensing
 
-### Step 0: Before you start 
+**Talk to the RetroDECK Team**
 
-- **Talk to the RetroDECK Team** - Share your idea and get feedback. Some components may not align with the project's design goals or technical direction. You can do this by creating an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) and also communicating on social platforms.
+Share your idea and get feedback. Some components may not align with the project's design goals or technical direction. You can do this by creating an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) and also communicating on social platforms.
 
-- **Check Licensing** - Check the licensing of the component. If all is **OK** make a note and it will need to be added in full to before a stable release is made: [other_licenses.txt](https://github.com/RetroDECK/RetroDECK/blob/main/other_licenses.txt).
+**Check Licensing** 
 
-### Step X: Test the Component 
+Check the licensing of the component you want to include. 
 
-Download & install the source component files locally and check how it behaves in it's intended environment. 
+### How does the users interact with it?
+
+**How do you vision it accessed within RetroDECK?** 
+
+- Is it a already supported emulator / engine within ES-DE that RetroDECK has not added yet?
+
+- Is it a new component that is not supported by standard ES-DE and needs custom menu entries in the RetroDECK ES-DE Theme and custom formats? 
+
+- Is it a port that needs to go into the port menu of ES-DE?
+
+- Is it a system that should be launched via the Configurator? 
+
+**Where are the files stored within the retrodeck/ folder**
+
+- What kind of files are there and how can the RetroDECK Folder structure be used with the component?
+
+### Test the Component 
+
+Always download & install the source component files locally and check how it behaves in it's normal environment. 
 
 - **Check what settings it support:** Look into the settings and see what it supports and make a note of settings of interest such as: Hotkeys, Fullscreen, Widescreen, Close the Launcher when the game is launched or other of note. 
 
@@ -70,7 +93,13 @@ Download & install the source component files locally and check how it behaves i
 
 - **Check how configurations are saved** Check what config files there are that used to save various settings used by the component. 
 
-### Step X: Prepare the component_launcher.sh Ingredient File
+## How-to: Guidelines on adding a Component
+
+**Note:** It's impossible to write a 100% correct guide on how-to add a component as each of them are unique.
+
+### Step X: 
+
+### Step X: Prepare the component_launcher.sh wrapper (Ingredient File)
 
 **Read more here:** 
 
@@ -88,7 +117,7 @@ Create component_launcher.sh script and verify that component can launch properl
 
 **Read more here:**
 
-### Step X: Prepare the Metadata Ingredient Files
+### Step X: Prepare the Metadata (Ingredient Files)
 
 **Read more here:** 
 

@@ -54,17 +54,15 @@ When multiple source formats are available for a component, prioritize them in t
 
 Building a new component in RetroDECK is like preparing a gourmet dish. 
 
-### Step 0: Mise en place
+### Step 0: Before you start 
 
 - **Talk to the RetroDECK Team** - Share your idea and get feedback. Some components may not align with the project's design goals or technical direction. You can do this by creating an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) and also communicating on social platforms.
 
 - **Check Licensing** - Check the licensing of the component. If all is **OK** make a note and it will need to be added in full to before a stable release is made: [other_licenses.txt](https://github.com/RetroDECK/RetroDECK/blob/main/other_licenses.txt).
 
-### Step X: Do a taste test
+### Step X: Test the Component 
 
-Before you begin the entire cooking process of creating a component and having it being part of the cooker branch. 
-
-Download & install the component files (AppImage, Flatpak files, binary etc.) locally and check how it behaves in it's intended environment. 
+Download & install the source component files locally and check how it behaves in it's intended environment. 
 
 - **Check what settings it support:** Look into the settings and see what it supports and make a note of settings of interest such as: Hotkeys, Fullscreen, Widescreen, Close the Launcher when the game is launched or other of note. 
 
@@ -72,7 +70,13 @@ Download & install the component files (AppImage, Flatpak files, binary etc.) lo
 
 - **Check how configurations are saved** Check what config files there are that used to save various settings used by the component. 
 
-### Step X: Do a test serving 
+### Step X: Prepare the component_launcher.sh
+
+**Read more here:** 
+
+[component_launcher.sh](ing-component-launcher.md)
+
+### Step X: Test the Component inside the Flatpak
 
 Now it's time to test it inside the RetroDECK Flatpak Environment. 
 
@@ -84,30 +88,27 @@ Create component_launcher.sh script and verify that component can launch properl
 
 **Read more here:**
 
-### Step X: Prepare the Ingredients
+### Step X: Prepare the Metadata Files
 
-The **Components Ingredient Files** are used to feed details about the Component to the RetroDECK Framework on it's features, functions and how to launch it.
+**Read more here:** 
 
-These files will be stored along side the rest of the component data in specific location.
+-[component_functions.sh](ing-component-functions.md)
 
-**Read more here:** [About Component Ingredient Files](about-component-ingredient-files.md)
+-[component_manifest.json](ing-component-manifest.md)
 
-### Step X: Finishing Touches 
+-[component_prepare.sh](ing-component-prepare.md)
 
-Configure component settings to make sure controls work, performance is good on Steam Deck etc. When done, the components config file will become the shipped "RetroDECK defaults" config.,
+### Step X: Tweak Configurations
 
-### Step X: Write the Recipe
+Configure initial component settings to make sure controls work, performance is good on Steam Deck etc. When done, the components config file will become the shipped "RetroDECK defaults" config.,
 
-The **Component Recipe File** `recipe.sh` purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source and turn it into a RetroDECK Component.
-
-The recipe file is **NOT** included in the final component package. 
+### Step X: Write the recipe.sh Build File
 
 **Read more here:** 
 
 - [recipe.sh](component-recipe.md)
-- [RetroDECK/components](https://github.com/RetroDECK/components).
 
-### Step X: Put It Together
+### Step X: Compress the Artifact
 
 Bundle everything together:
 
@@ -120,7 +121,7 @@ Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components
 
 ### Step X: Assemble the Release
 
-The `RetroDECK Assembler` building process (think of it like a cake assembler). Follows the recipe and takes all your ingredients and puts into a release with each separate component artifact under:
+The `RetroDECK Assembler` building process follows the recipe.sh and builds the artifact with the ingredients files into:
 
 [RetroDECK/components/releases](https://github.com/RetroDECK/components/releases) 
 
@@ -134,7 +135,7 @@ The `RetroDECK Assembler` will take the finished component artifacts and they be
 At this stage the RetroDECK Community Beta (Taste) Testers and the RetroDECK Team will check for bugs, tweak configurations, give feedback and more.
 
 
-### Step X: Serve to Flathub
+### Step X: Publish to Flathub
 
-Finally, your creation is served to users as part of the stable RetroDECK release on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck).
+Finally, your component is served to users as part of the stable RetroDECK release on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck).
 

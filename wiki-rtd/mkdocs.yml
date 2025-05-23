@@ -411,11 +411,16 @@ nav:
 
     - RetroDECK Components:
       - About Creating Components: wiki_development/components/about-creating-components.md
-      - About Component INGREDIENT Files: wiki_development/components/about-component-ingredient-files.md
+      - About Component Ingredient Files: wiki_development/components/about-component-ingredient-files.md
+      - Component from AppImage: wiki_development/components/component-create-appimage.md
+      - Component from Flatpak: wiki_development/components/component-create-flatpak.md
+      - Component from Binary: wiki_development/components/component-create-binary.md
+      - Component from Source: wiki_development/components/component-create-source.md
       - INGREDIENT component_functions.sh: wiki_development/components/ing-component-functions.md
       - INGREDIENT component_launcher.sh: wiki_development/components/ing-component-launcher.md
       - INGREDIENT component_manifest.json: wiki_development/components/ing-component-manifest.md
       - INGREDIENT component_prepare.sh: wiki_development/components/ing-component-prepare.md
+      - RECIPE reicpe.sh: wiki_development/components/component-recipe.md
 
     - RetroDECK Functions:
       - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md

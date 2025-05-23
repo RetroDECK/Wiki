@@ -420,7 +420,7 @@ nav:
       - INGREDIENT component_launcher.sh: wiki_development/components/ing-component-launcher.md
       - INGREDIENT component_manifest.json: wiki_development/components/ing-component-manifest.md
       - INGREDIENT component_prepare.sh: wiki_development/components/ing-component-prepare.md
-      - RECIPE reicpe.sh: wiki_development/components/component-recipe.md
+      - RECIPE recipe.sh: wiki_development/components/component-recipe.md
 
     - RetroDECK Functions:
       - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md

@@ -23,8 +23,6 @@ Here we are listing all the development lingo and features of the RetroDECK Proj
 | [flathub/net.retrodeck.retrodeck](https://github.com/flathub/net.retrodeck.retrodeck)  | Flathub Repo: net.retrodeck.retrodeck                 |
 | [RetroDECK/repositories](https://github.com/orgs/RetroDECK/repositories)               | Full Org Repo : All other repos in RetroDECK          |
 
-
-
 ### Main / Main Releases
 
 The main repo of the RetroDECK Project.

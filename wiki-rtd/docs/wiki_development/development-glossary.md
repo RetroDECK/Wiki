@@ -2,25 +2,7 @@
 
 Here we are listing all the development lingo and features of the RetroDECK Project.
 
-## RetroDECK Development to Publication Process 
-
-<img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
-
-How the process works:
-
-`Feature Branches (GitHub)` / `Component Branch (GitHub)` -> `Cooker (GitHub)` -> `Main (GitHub)` -> `Main (GitHub) Pre-Release Testing` ->  `Flathub Testing` -> `Flathub Stable Publication`.
-
-### When is RetroDECK considered Released?
-
-A version of RetroDECK is only considered released when it is published on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck).
-
-**Communication:**
-
-If a user asks:
-
-*Is a new version of RetroDECK out?*
-
-You can only answer **YES** when it has been verified that it is out on Flathub. 
+*"RetroDECK uses a lot of words from Cooking / Foods in combination with Technology Jargon / Technobabble."*
 
 
 ## Github Repositories
@@ -60,6 +42,30 @@ Where new features are developed before merging into Cooker.
 ### Component Branch
 
 Stores all component-related artifacts used across the project.
+
+## RetroDECK Development to Publication Process 
+
+<img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
+
+How the publication process works:
+
+1. **Feature Branches (GitHub)** / **Component Branch (GitHub)** - Initial local testing of a specific feature branch or testing a specific new component.
+2. **Cooker (GitHub)** -  Merged and publication of the cooker build. Testing starts with the help of Community Testers and the rest of the RetroDECK Team. When the cooker is stable (mostly bug free 🙏) and feature complete for the scope of the release it moves on to main.
+3. **Main (GitHub)** - The main release is a pre-release. After everything looks good a RetroDECK Team member will trigger the flathub publication process.
+4. **Flathub Testing** - RetroDECK will first do a testbuild on flathub, the testbuild can be downloaded for the final test to verify that everything was built correctly on flathub. If all goes well it will redo the build on stable and publish.
+5. **Flathub Stable** - RetroDECK is out!
+
+### When is RetroDECK considered Released?
+
+A version of RetroDECK is only considered released when it is published on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck).
+
+**Communication:**
+
+If a user asks:
+
+*Is a new version of RetroDECK out?*
+
+You can only answer **YES** when it has been verified that it is out on Flathub. 
 
 ## RetroDECK Framework
 
@@ -131,11 +137,11 @@ Lets users add certain specific legacy AppImages to RetroDECK and integrates the
 
 ## RetroDECK Assembler
 
-The `RetroDECK Assembler` is just the build process part the `RetroDECK Framework`.
+The `RetroDECK Assembler` is just the building engine part of the `RetroDECK Framework`.
 
-- Builds all components of RetroDECK.
-- Packages them into official RetroDECK releases.
-- Publishes the final builds for distribution on Flathub.
+- It builds all aspects of RetroDECK.
+- Packages them into official RetroDECK releases in various repositories.
+- Publishes the final builds for distribution on Flathub Stable channels.
 
 **Read more here:**
 
@@ -223,7 +229,7 @@ A system in the context of RetroDECK is a piece of software that is not running 
 
 ### RetroDECK?!
 
-RetroDECK itself with it's various tools (Configurator) and features (Compressor) is also an component.
+RetroDECK itself with it's various tools and features is also an component.
 
 ## Component Recipe File
 
@@ -241,10 +247,11 @@ The **Components Ingredient Files** is to feed details about the Component to th
 
 **Example of features:**
 
-- Contain human-friendly information shown in menus
-- Actions to be taken when changing presets
-- Per-component one-off Bash functions
+- Contain human-friendly information shown in menus.
+- Actions to be taken when changing presets.
+- Per-component one-off Bash functions.
 - Config file path information and more. 
+- Tells RetroDECK how-to launch it.
 
 As these files are read in an iterative way by the code, it is imperative that their structure be correct.
 

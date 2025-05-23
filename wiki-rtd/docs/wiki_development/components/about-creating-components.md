@@ -84,22 +84,11 @@ Create component_launcher.sh script and verify that component can launch properl
 
 **Read more here:**
 
-### Step X: Add the Metadata Ingredients
+### Step X: Prepare the Ingredients
 
-The **Components Ingredient Files** is to feed details about the Component to the RetroDECK Framework on it's features, functions and how to launch it.
+The **Components Ingredient Files** are used to feed details about the Component to the RetroDECK Framework on it's features, functions and how to launch it.
 
 These files will be stored along side the rest of the component data in specific location.
-
-The following files are required by every component:
-
-- `component_launcher.sh` (begin with this)
-
-- `component_manifest.json`
-
-- `component_functions.sh` 
-
-- `component_prepare.sh`
-
 
 **Read more here:** [About Component Ingredient Files](about-component-ingredient-files.md)
 

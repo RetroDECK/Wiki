@@ -70,7 +70,7 @@ Download & install the source component files locally and check how it behaves i
 
 - **Check how configurations are saved** Check what config files there are that used to save various settings used by the component. 
 
-### Step X: Prepare the component_launcher.sh
+### Step X: Prepare the component_launcher.sh Ingredient File
 
 **Read more here:** 
 
@@ -88,7 +88,7 @@ Create component_launcher.sh script and verify that component can launch properl
 
 **Read more here:**
 
-### Step X: Prepare the Metadata Files
+### Step X: Prepare the Metadata Ingredient Files
 
 **Read more here:** 
 

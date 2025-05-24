@@ -33,6 +33,20 @@ You will now have two folders:
 - `retrodeck/components/gzdoom`
 - `retrodeck/components/org.zdoom.GZDoom`
 
+## Step 2: Clone the repo from Flathub
+
+
+
+
+
+
+
+
+
+
+----
+
+## FIX THIS
 
 Example:
 
@@ -53,13 +67,6 @@ As an example, here are the commands that are used in the GZDOOM component creat
 
 The basic process for converting an Flatpak into a RetroDECK-compatible component is:
 
-1) Clone the Flatpak repo from its original source, or download a premade RetroDECK artifact.
-
-mkdir gzdoom
-
-git clone https://github.com/flathub/org.zdoom.GZDoom.git
-
-cd org.zdoom.GZDoom
 
 2) Either extract the premade artifact or build the Flatpak files from the cloned repo.
 

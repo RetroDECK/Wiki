@@ -8,7 +8,6 @@ Creating a new RetroDECK component is a flexible process that can vary depending
 
 ## Prerequisites: Before you start
 
-
 ### Communicate & Licensing
 
 **Create an Issue & Talk to the RetroDECK Team**
@@ -94,11 +93,24 @@ When multiple source formats are available for a component, prioritize them in t
 
 ---
 
+### Install Development Tools
+
+You will need to have installed 
+
+- `flatpak-builder`
+- `git`
+- `gh` *(optional)* 
+
+to the distribution you are using.
+
+
+---
+
 ## How-to: Guidelines on adding a Component
 
 **Note:** It's impossible to write a 100% correct guide on how-to add a component as each of them are unique.
 
-### Step X: Make a testitestingng folder 
+### Step X: Make a testing folder 
 
 1. Have a local copy of RetroDECK Cooker installed.
 2. Create a components folder under retrodeck/ userdata folder.

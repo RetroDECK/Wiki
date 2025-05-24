@@ -1,62 +1,75 @@
-Creating a Component from an AppImage
-This is the basic process for converting an AppImage into a RetroDECK-compatible component.
+# Creating a Component from an AppImage
 
-There may also be other included information that will need to be checked on a per-component basis to decide if it is required for use in the RetroDECK environment.
+This a part of the How-to: Create Components Guide
 
-As an example, here are the commands that are used in the Cemu component creation process, with added comments explaining each step:
+We are going to use CEMU as an example.
 
-We are going to use the CEMU AppImage as an Example:
+### Structure of an AppImage
 
 
-1) Download the AppImage from the original source.
+        
+## Step 1: Download the AppImage from Source
 
-wget "https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_64.AppImage"
+1. Download the file from Github/Website or where every you find it.
+2. Put it into `retrodeck/components/`.
+3. Create a folder in `retrodeck/components/<component_name>` that matches the name of the component you want to add.
 
-2) Extract the AppImage into a basic folder structure.
+**Example:**
 
-Typically, an AppImage will extract into this standard structure:
+`wget "https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_64.AppImage"` via Terminal.
 
+1. Put it into `retrodeck/components/Cemu-2.6-x86_64.AppImage`.
+2. Create a folder called `retrodeck/components/cemu`.
+
+
+## Step 2: Permissions & Extract 
+
+1. Open a terminal window in `retrodeck/components/`
+2. Set the AppImage permissions by typing: `chmod +x "XXX.AppImage"` 
+3. Then extract it by typing: `./XXX.AppImage --appimage-extract`
+
+**Example:**
+
+```
+chmod +x "Cemu-2.6-x86_64.AppImage"`
+./Cemu-2.6-x86_64.AppImage --appimage-extract
+```
+
+## Step 3: New folder and move.
+
+A new folder called `retrodeck/components/squashfs-root` has been created.
+
+The structure could be different from each AppImage.
+
+**Example:**
+
+Cemu
+
+```
 squashfs-root
     - AppRun (a script, binary or symlink)
     - usr
         - bin
         - lib
         - share
+```
+        
+## Step 4: Identify Key Parts in squashfs-root
 
---appimage-extract or use PeaZip https://flathub.org/apps/io.github.peazip.PeaZip 
+**Example:**
 
-chmod +x "Cemu-2.6-x86_64.AppImage"
+Cemu
 
-$(realpath "Cemu-2.6-x86_64.AppImage") --appimage-extract
+In the terminal move out key parts 
 
-
-3) Move the required data out of the AppImage structure into the RetroDECK target directory.
-
-Create a cemu directory that will be used by RetroDECK.
-
-mkdir -p cemu
-
+```
 mv squashfs-root/apprun-hooks cemu/
 mv squashfs-root/usr/* cemu/
+```
 
- 
 This component appears to run fine with only this library included, so removing all others to save on space
 find cemu/lib/ -not -name 'libGLU.so.1' -delete
+ 
+### Step 5: (Optional) Remove unneeded libraries
 
-4) (optional) Remove any duplicate libraries that may be included in the AppImage which also exist in the RetroDECK flatpak runtime.
-
-5) Copy the RetroDECK component-specific files (listed above) into the RetroDECK target directory.
-
-cp component_launcher.sh manifest.json functions.sh prepare_component.sh cemu/
-chmod +x cemu/component_launcher.sh
-
-
-6) Compress the RetroDECK target directory into the final tar.gz artifact that will be used in the RetroDECK core flatpak.
-
-tar -czf "cemu-artifact.tar.gz" "cemu"
-
-7) Cleanup temp files.
-
-rm -rf squashfs-root
-
-rm -rf cemu
+Remove any duplicate libraries that may be included in the AppImage which also exist in the RetroDECK flatpak runtime.

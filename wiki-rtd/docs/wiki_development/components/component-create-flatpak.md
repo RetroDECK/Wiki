@@ -1,3 +1,41 @@
+# Creating a Component from a Flatpak
+
+This a part of the How-to: Create Components Guide
+
+We are going to use GZDOOM as an example and remember that each Flatpak is different from another. 
+
+## Step 1: Clone the repo from Flathub
+
+1. Go to: `retrodeck/components/`.
+2. Create a folder in `retrodeck/components/<component_name>` that matches the name of the component you want to add.
+3. Go to: [Github:Flathub](https://github.com/flathub/) find the repo you want to clone.
+4. Open a terminal window from the component folder.
+5. Clone the repo with clone `https://github.com/flathub/<Application>`
+6. You will now a repo folder under `retrodeck/components/`.
+
+**Example:**
+
+Make the folder:
+
+`retrodeck/components/gzdoom`
+
+Open a terminal window in 
+
+`retrodeck/components/`.
+
+Type:
+
+```
+git clone https://github.com/flathub/org.zdoom.GZDoom.git
+```
+You will now have two folders:
+
+- `retrodeck/components/gzdoom`
+- `retrodeck/components/org.zdoom.GZDoom`
+
+
+Example:
+
 Creating a Component from a Flatpak
 
 Typically, a Flatpak will extract into this standard structure:

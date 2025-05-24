@@ -1,4 +1,4 @@
-# Creating a Component from an AppImage
+# Creating a Component from a AppImage
 
 This a part of the How-to: Create Components Guide
 
@@ -57,6 +57,17 @@ The structure is different in each AppImage.
 - Symlink (to the main binary).
 
 Other standard files such as: **icons**, **.desktop** also exist in every AppImage. 
+
+Most follow this structure (with additional folders and files depending on the app):
+
+```
+squashfs-root
+    - AppRun (a script, binary or symlink)
+    - usr
+        - bin (contains the binary)
+        - lib   
+        - share
+```
 
 ### Examples of AppImage Structures
 

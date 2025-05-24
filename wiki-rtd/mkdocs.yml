@@ -390,6 +390,9 @@ nav:
   - RetroDECK Development (W.I.P) 🧪:
 
     - Development Glossary: wiki_development/development-glossary.md
+    - CLI Guide: wiki_development/general/cli-guide.md
+    - Debug Mode: wiki_development/general/debug-mode.md
+    - Folders & Filepaths: wiki_development/general/folders-filepaths.md
 
     - RetroDECK API:
       - About API Development: wiki_development/api/about-api-development.md
@@ -430,12 +433,9 @@ nav:
       - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
       - Flathub Publication: wiki_development/flatpak/flathub-publication.md
 
-    - Development General:
-      - CLI Guide: wiki_development/general/cli-guide.md
-      - Debug Mode: wiki_development/general/debug-mode.md
+    - Development Other:
       - Editing MIME Types: wiki_development/general/edit-mime.md
       - Steam Input: wiki_development/general/steam-input.md
-      - Folders and Filepaths: wiki_development/general/folders-filepaths.md
 
     - Testing:
       - Cooker Testing - Guide: wiki_development/testing/cooker-testing.md

@@ -8,19 +8,18 @@ Creating a new RetroDECK component is a flexible process that can vary depending
 
 ## Prerequisites: Before you start
 
----
 
 ### Communicate & Licensing
 
-**Talk to the RetroDECK Team**
+**Create an Issue & Talk to the RetroDECK Team**
 
-Share your idea and get feedback. Some components may not align with the project's design goals or technical direction. You can do this by creating an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) and also communicating on social platforms.
+Share your idea and get feedback and by creating an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) of the component you want to add. 
+
+Some components may not align with the project's design goals or technical direction. The RetroDECK Team decides if a component should be included or not and has the final say on this matter. 
 
 **Check Licensing** 
 
 Check the licensing of the component you want to include. 
-
----
 
 ### Component Type: What is it?
 
@@ -63,8 +62,6 @@ Always download & install the source component files locally and check how it be
 - **Check what CLI or launch commands there is:** See if there are any specific launch commands or CLI documentation. 
 
 - **Check how configurations are saved** Check what config files there are that used to save various settings used by the component. 
-
----
 
 ### How does the users interact with it?
 
@@ -109,9 +106,7 @@ Now it's time to test it inside the RetroDECK Flatpak Environment.
 
 1. Have a local copy of RetroDECK Cooker installed.
 
-Create a new component folder in the RetroDECK Flatpak files.,
-Structure the new component application files as they would be when unpacked from a component artifact (.../retrodeck/components/<component name>/bin, lib and share folders etc. as needed.,
-Create component_launcher.sh script and verify that component can launch properly when run through the launcher script while inside the flatpak (flatpak run --command=bash net.retrodeck.retrodeck),
+
 
 **Read more here:**
 
@@ -161,3 +156,20 @@ The `RetroDECK Assembler` will take the finished component artifacts and they be
 
 At this stage the RetroDECK Community Beta (Taste) Testers and the RetroDECK Team will check for bugs, tweak configurations, give feedback and more. Until it leaves cooker into a Stable Release of RetroDECK.
 
+
+
+## TODO / Ask Tweedledee and Tweedledum 
+
+- How-to: Enable it in the ES-DE menu if it exists.
+- How-to: Enable it in the ES-DE menu if does not exists.
+- How-to: Make a custom format that is read by ES-DE like .doom
+- If Where to create symlinks and map it to folders? 
+- If folders how-to make them work with functions.
+
+**Tweedledee:**
+
+"Create a new component folder in the RetroDECK Flatpak files.,
+Structure the new component application files as they would be when unpacked from a component artifact (.../retrodeck/components/<component name>/bin, lib and share folders etc. as needed.,
+Create component_launcher.sh script and verify that component can launch properly when run through the launcher script while inside the flatpak (flatpak run --command=bash net.retrodeck.retrodeck)"
+
+Rewrite this...

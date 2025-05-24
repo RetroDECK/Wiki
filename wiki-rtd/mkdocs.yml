@@ -413,7 +413,7 @@ nav:
       - SET setting_value: wiki_development/api/set-setting-value.md
 
     - RetroDECK Components:
-      - About Creating Components: wiki_development/components/about-creating-components.md
+      - Creating Components Guide: wiki_development/components/creating-components-guide.md
       - About Component Ingredient Files: wiki_development/components/about-component-ingredient-files.md
       - Component from AppImage: wiki_development/components/component-create-appimage.md
       - Component from Flatpak: wiki_development/components/component-create-flatpak.md

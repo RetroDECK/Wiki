@@ -1,4 +1,4 @@
-# Creating Components Guide: A Cooking Philosophy
+# How-to: Add a Component to RetroDECK - A Cooking Philosophy
 
 ### Description
 
@@ -78,6 +78,10 @@ Always download & install the source component files locally and check how it be
 **Where are the files stored within the retrodeck/ folder**
 
 - What kind of files are there and how can the RetroDECK Folder structure be used with the component?
+
+**What files needs to be exposed to the enduser?**
+
+- What config files, folders or other files needs to be exposed to the end user to edit/populate within userspace. `/home/<user>/.var/app/net.retrodeck.retrodeck/` data, cache or config.
 
 ### Component Source Format: What to Prioritize?
 
@@ -175,12 +179,20 @@ At this stage the RetroDECK Community Beta (Taste) Testers and the RetroDECK Tea
 
 ## TODO / Ask Tweedledee and Tweedledum 
 
-- How-to: Enable it in the ES-DE menu if it exists.
-- How-to: Enable it in the ES-DE menu if does not exists.
-- How-to: Make a custom format that is read by ES-DE like .doom
-- If Where to create symlinks and map it to folders? 
-- If folders how-to make them work with functions.
+To answer the "How-to add a component to RetroDECK" 
 
+We also need to go into how to modify the ES-DE file and other things.
+
+We need to answer:
+
+- How-to make it showup in ES-DE in general. 
+- How-to: add an component that is already supported by ES-DE? (Just remove the #) 
+- How-to: add an component that is NOT supported by ES-DE? It needs new folders? How does folder creation work in ES-DE?
+- How-to: add an component needs a custom format or wrapper like GZDoom and have it work in ES-DE?
+- How-to: add a launch able port script under  roms/ports like PortMaster or other ports we want to include. 
+- How-to: Edit configurations to setup folders and what do look out for? (How does $RDHome work?)
+- IF that is not possible how to create the symlinks when RetroDECK is installed.
+- How-to: Expose config files, caches and folders into the userspace /home/<user>/.var/app/net.retrodeck.retrodeck/
 
 
 Structure the new component application files as they would be when unpacked from a component artifact (.../retrodeck/components/<component name>/bin, lib and share folders etc. as needed.

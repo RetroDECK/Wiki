@@ -2,11 +2,7 @@
 
 This a part of the How-to: Create Components Guide
 
-We are going to use CEMU as an example.
-
-### Structure of an AppImage
-
-
+We are going to use CEMU as an example and remember that each AppImage is different from another. 
         
 ## Step 1: Download the AppImage from Source
 
@@ -39,18 +35,62 @@ chmod +x "Cemu-2.6-x86_64.AppImage"`
 
 A new folder called `retrodeck/components/squashfs-root` has been created.
 
-The structure could be different from each AppImage.
+The structure is different in each AppImage.
 
-**Example:**
+### Examples of structures
 
-Cemu
+**Cemu**
+
+```
+squashfs-root
+    - AppRun (a script, binary or symlink)
+    - <icons files>
+    - checkrt
+    - usr
+        - bin (contains the cemu binary)
+        - lib   
+        - share
+```
+
+**Azahar**
+
+```
+squashfs-root
+    - AppRun (a script, binary or symlink)
+    - <icons files>
+    - checkrt
+    - usr
+        - bin (contains the cemu binary)
+        - lib   
+        - share
+        - plugins
+        - translations
+```
+
+**Mudlet**
+
+```
+squashfs-root
+    - AppRun (a script, binary or symlink)
+    - <icon files>
+    - <translation files>
+    - doc (licences)
+    - lcf
+    - lib
+    - mudlet (binary)
+    - mudlet-lua
+    - plugins
+    - translations
+```
+
+**Ship of Harkinian**
 
 ```
 squashfs-root
     - AppRun (a script, binary or symlink)
     - usr
-        - bin
-        - lib
+        - bin (contains the cemu binary)
+        - lib   
         - share
 ```
         

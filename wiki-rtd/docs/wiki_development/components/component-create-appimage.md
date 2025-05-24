@@ -12,7 +12,10 @@ We are going to use CEMU as an example and remember that each AppImage is differ
 
 **Example:**
 
-`wget "https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_64.AppImage"` via Terminal.
+
+```
+wget "https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_64.AppImage"
+```
 
 1. Put it into `retrodeck/components/Cemu-2.6-x86_64.AppImage`.
 2. Create a folder called `retrodeck/components/cemu`.
@@ -20,9 +23,19 @@ We are going to use CEMU as an example and remember that each AppImage is differ
 
 ## Step 2: Permissions & Extract 
 
-1. Open a terminal window in `retrodeck/components/`
-2. Set the AppImage permissions by typing: `chmod +x "XXX.AppImage"` 
-3. Then extract it by typing: `./XXX.AppImage --appimage-extract`
+Open a terminal window in `retrodeck/components/`
+
+**Set Permissions:**
+
+```
+chmod +x "XXX.AppImage"
+```
+
+**Extract it:**
+
+```
+./XXX.AppImage --appimage-extract
+```
 
 **Example:**
 
@@ -37,17 +50,27 @@ A new folder called `retrodeck/components/squashfs-root` has been created.
 
 The structure is different in each AppImage.
 
-### Examples of structures
+**AppRun** exists in every AppImage and it can be either a:
+
+- Script (that launches the binary).
+- Binary (separate but launches the main binary).
+- Symlink (to the main binary).
+
+Other standard files such as: **icons**, **.desktop** also exist in every AppImage. 
+
+### Examples of AppImage Structures
+
+#### Emulators 
 
 **Cemu**
 
 ```
 squashfs-root
-    - AppRun (a script, binary or symlink)
-    - <icons files>
+    - AppRun
+    - apprun-hooks
     - checkrt
     - usr
-        - bin (contains the cemu binary)
+        - bin (contains the binary)
         - lib   
         - share
 ```
@@ -56,23 +79,24 @@ squashfs-root
 
 ```
 squashfs-root
-    - AppRun (a script, binary or symlink)
-    - <icons files>
+    - AppRun 
+    - apprun-hooks
     - checkrt
     - usr
-        - bin (contains the cemu binary)
+        - bin (contains the binary)
         - lib   
         - share
         - plugins
         - translations
 ```
 
+#### Engines 
+
 **Mudlet**
 
 ```
 squashfs-root
-    - AppRun (a script, binary or symlink)
-    - <icon files>
+    - AppRun 
     - <translation files>
     - doc (licences)
     - lcf
@@ -83,18 +107,61 @@ squashfs-root
     - translations
 ```
 
+#### Systems
+
+**ES-DE:**
+
+```
+squashfs-root
+    - AppRun (a script, binary or symlink)
+    - usr
+        - bin (contains the binary)
+        - lib   
+        - share
+```
+
+#### Ports 
+
+**OpenGOAL:**
+
+```
+squashfs-root
+    - AppRun
+    - apprun-hooks
+    - checkrt
+    - usr
+        - bin (contains the binary)
+        - lib   
+        - share
+```
+
 **Ship of Harkinian**
 
 ```
 squashfs-root
     - AppRun (a script, binary or symlink)
     - usr
-        - bin (contains the cemu binary)
+        - bin (contains the binary)
         - lib   
+        - share
+```
+
+**Osu!**
+
+```
+squashfs-root
+    - AppRun (a script, binary or symlink)
+    - usr
+        - bin (contains the binary)  
         - share
 ```
         
 ## Step 4: Identify Key Parts in squashfs-root
+
+Identify the:
+
+- Binary
+- Libraries
 
 **Example:**
 

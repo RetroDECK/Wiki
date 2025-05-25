@@ -1,9 +1,15 @@
-# Creating a Component from a AppImage
+# Creating Component: AppImage
 
 This a part of the How-to: Create Components Guide
 
 We are going to use CEMU as an example and remember that each AppImage is different from another. 
-        
+
+## Step 0: Make a testing folder 
+
+1. Have a local copy of RetroDECK Cooker installed.
+2. Create a components folder under retrodeck/ userdata folder.
+3. **Result:** `retrodeck/components/`
+
 ## Step 1: Download the AppImage from Source
 
 1. Download the file from Github/Website or where every you find it.

@@ -1,3 +1,3 @@
-# Creating a Component from a Binary
+# Creating Component: Binary
 
 W.I.P

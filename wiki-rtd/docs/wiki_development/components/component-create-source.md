@@ -1,4 +1,4 @@
-# Creating a Component from a Source
+# Creating Component: Build Source
 
 W.I.P
 

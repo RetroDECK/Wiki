@@ -1,4 +1,4 @@
-# Creating a Component from a Flatpak
+# Creating Component: Flatpak
 
 This a part of the How-to: Create Components Guide
 

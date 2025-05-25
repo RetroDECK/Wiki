@@ -1,4 +1,11 @@
+# Creating Component Ingredient Files Guide
 
+Read the Development Glossary a more shot general explanation of each file: [Development Glossary](../development-glossary.md) 
+
+## Prerequisites: A prepared component
+
+
+## Step by Step Guide: A prepared component
 
 ### Step X: Prepare the component_launcher.sh wrapper (Ingredient File)
 

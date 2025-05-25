@@ -260,23 +260,36 @@ When they are communicated about they are referred to as:
 - `Ingredients`
 - `<Component Name> Ingredient` 
 
-**Read more here:**
-
-[Component Ingredient Files](../wiki_development/components-api/about-component-ingredient-files)
-
 ### What are the Component Ingredient Files?
 
-These files will be stored along side the rest of the component data in specific location.
+**component_launcher.sh**
 
-The following files are required by every component:
+A Bash script that serves as the launcher wrapper for a specific RetroDECK component. It is responsible for setting up the environment and executing the component within its sub-sandbox.
 
-- `component_manifest.json`
+**component_functions.sh**
 
-- `component_functions.sh` 
+A Bash script that defines configuration file paths and component-specific functions. Component-specific path variables and functions unique to the component (e.g., firmware installation, advanced functions found in the Configurator menus).
 
-- `component_prepare.sh`
+**component_manifest.json**
 
-- `component_launcher.sh`
+The JSON file provides both informational and functional data used by the RetroDECK Framework, Configurator menus, and API calls. 
+
+Each manifest includes:
+
+- Component metadata (name, description, supported systems)
+- Configurator menu entries
+- Compatible presets and their possible states
+- Actions required to apply presets
+- Core-specific metadata (if applicable)
+
+**component_prepare.sh**
+
+A Bash script that is responsible for handling setup tasks unique to a specific component, such as:
+
+- Resetting configuration files
+- Preparing directories
+- Moving or backing up data
+- Post-move adjustments
 
 
 

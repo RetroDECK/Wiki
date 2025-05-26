@@ -92,12 +92,6 @@ components/<component_name>/component_functions.sh
 components/<component_name>/component_prepare.sh
 ```
 
-Make sure that `component_launcher.sh` is executable: 
-
-```
-chmod +x component_launcher.sh`
-```
-
 **Example:**
 
 ```
@@ -105,10 +99,6 @@ components/cemu/component_launcher.sh
 components/cemu/component_manifest.json
 components/cemu/component_functions.sh
 components/cemu/component_prepare.sh
-```
-
-```
-chmod +x cemu/component_launcher.sh
 ```
 
 ## Step 7: Compress the artifact

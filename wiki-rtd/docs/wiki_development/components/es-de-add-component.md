@@ -152,6 +152,7 @@ RetroDECK also commits into the RetroDECK's version of `es_systems.xml` and adds
 ### What does it include?
 
 Each game system entry in the file defines:
+
 - **System name** (short name)
 - **Full name** (display name)
 - **ROM path** (where your games are stored)
@@ -173,6 +174,7 @@ Each game system entry in the file defines:
 ```
 <command>~/App*/xemu*.AppImage %ROM%</command>
 ```
+
 ### Variable Reference Table
 
 | Variable           | Description |

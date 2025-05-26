@@ -10,11 +10,15 @@ We are going to use CEMU as an example and remember that each AppImage is differ
 
 This assumes you have read [Creating Component: Guide](creating-components-guide.md).
 
+---
+
 ## Step 0: Make a testing folder 
 
 1. Have a local copy of RetroDECK Cooker installed.
 2. Create a components folder under retrodeck/ userdata folder.
 3. **Result:** `retrodeck/components/`
+
+---
 
 ## Step 1: Download the AppImage from Source
 
@@ -32,6 +36,7 @@ wget "https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_6
 1. Put it into `retrodeck/components/Cemu-2.6-x86_64.AppImage`.
 2. Create a folder called `retrodeck/components/cemu`.
 
+---
 
 ## Step 2: Permissions & Extract 
 
@@ -55,6 +60,8 @@ chmod +x "XXX.AppImage"
 chmod +x "Cemu-2.6-x86_64.AppImage"`
 ./Cemu-2.6-x86_64.AppImage --appimage-extract
 ```
+
+---
 
 ## Step 3: New folder and move.
 
@@ -80,6 +87,8 @@ squashfs-root
         - lib   
         - share
 ```
+
+---
 
 ### Examples of AppImage Structures
 
@@ -113,6 +122,8 @@ squashfs-root
         - translations
 ```
 
+---
+
 #### Engines 
 
 **Mudlet**
@@ -130,6 +141,8 @@ squashfs-root
     - translations
 ```
 
+---
+
 #### Systems
 
 **ES-DE:**
@@ -142,6 +155,8 @@ squashfs-root
         - lib   
         - share
 ```
+
+---
 
 #### Ports 
 
@@ -178,7 +193,9 @@ squashfs-root
         - bin (contains the binary)  
         - share
 ```
-        
+
+---
+
 ## Step 4: Identify Key Parts in squashfs-root
 
 Identify the:
@@ -198,10 +215,13 @@ mv squashfs-root/apprun-hooks cemu/
 mv squashfs-root/usr/* cemu/
 ```
 
- 
+---
+
 ## Step 5: (Optional) Remove unneeded libraries
 
 Remove any duplicate libraries that may be included in the AppImage which also exist in the RetroDECK flatpak runtime.
+
+---
 
 ## Step 6: Creating Component: Ingredient Files
 

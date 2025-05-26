@@ -10,11 +10,15 @@ We are going to use GZDOOM as an example and remember that each Flatpak is diffe
 
 This assumes you have read [Creating Component: Guide](creating-components-guide.md).
 
+---
+
 ## Step 0: Make a testing folder 
 
 1. Have a local copy of RetroDECK Cooker installed.
 2. Create a components folder under retrodeck/ userdata folder.
 3. **Result:** `retrodeck/components/`
+
+---
 
 ## Step 1: Clone the repo from Flathub
 
@@ -46,6 +50,8 @@ You will now have two folders:
 - `retrodeck/components/gzdoom`
 - `retrodeck/components/org.zdoom.GZDoom`
 
+---
+
 ## Step 2: Extract or build the repo
 
 The structure is different in each Flatpak.
@@ -64,7 +70,9 @@ Typically, a Flatpak will extract into this standard structure:
 
 ```
 
-### Compressed Artifact
+
+
+### Step 2a: Compressed Artifact
 
 If the flatpak has a premade compressed artifact you can just extract that to the structure under:
 
@@ -74,7 +82,7 @@ If the flatpak has a premade compressed artifact you can just extract that to th
 
 - `retrodeck/components/gzdoom-artifact`
 
-### Build with flatpak-builder
+### Step 2b: Build with flatpak-builder
 
 If there is no artifact you will need to build the it with: `flatpak-builder` into a new folder: `<Application>-build-dir`
 
@@ -106,6 +114,8 @@ rm -rf gzdoom-build-dir/files/lib/debug
 
 ```
 
+---
+
 ## Step 3: Copy into retrodeck/components/<component_name>
 
 Identify the:
@@ -131,11 +141,15 @@ mv org.zdoom.GZDoom/gzdoom-build-dir/files/share gzdoom/
 
 All the important files are now located in `retrodeck/components/gzdoom`
 
+---
+
 ## Step 4: (Optional) Add to libraries shared_libs
 
 Add any required libraries needed to the `shared_libs` component runtime sandbox, if the Flatpak is compiled in a non-freedesktop runtime originally.
 
 `UPDATE THIS ON HOW`
+
+---
 
 ## Step 5: Creating Component: Ingredient Files
 

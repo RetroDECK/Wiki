@@ -40,18 +40,20 @@ This assumes you have already prepared a component folder from:
 
 Keep iterering until the file launches and works as excepted.
 
-## Step 3: Try to Optimize Configurations
+## Step 3: Configurations: Try to Optimize (If possible) 
 
 Do a first pass and try to tweak configurations:
 
 - **Tweak Controls:** Test the controls with Steam Input (if possible) and tweak from there.
 - **Tweak Performance:** Check the performance: RetroDECK standard is the Steam Deck hardware as default.
 
-## Step 4: Folders and Filepaths Configurations
+## Step 4: Configurations: Set Folders & Filepaths
 
-Tweak the configurations to where they should be used within RetroDECK.
+### Step 4a: Configure: Folders & Filepaths (If possible) 
 
-Use `$RDHome` variable for the filepaths you want to tweak. 
+See if you can set filepaths / folderpaths within the configuration files.
+
+Use `$RDHome` variable for the filepaths / folderpaths.
 
 **Examples:**
 
@@ -59,17 +61,17 @@ If the configuration allows you to specify several folders:
 
 ```
 $RDHome/roms/<your component rom directory>
-$RDHome/bios/<your component bios directory>
-$RDHome/mods/<your component mod directory>
+$RDHome/bios/<your component bios directory><subdirectory it might need>
+$RDHome/mods/<your component mod directory>/<subdirectory it might need>
 $RDHome/saves/<your component saves directory>
 $RDHome/states/<your component states directory>
 
 etc...
 ```
 
-### Step 4a: Symlinks
+### Step 4b: Symlinks (If possible) 
 
-If you can't tweak folders and filepaths from the config files
+If you can't configure filepaths / folderpaths from the config files you might need to create symlinks instead.
 
 ## Step 5: Prepare the Metadata Ingredients
 

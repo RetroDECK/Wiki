@@ -417,6 +417,7 @@ nav:
       - Step 2a - Component AppImage: wiki_development/components/component-create-appimage.md
       - Step 2b - Component Flatpak: wiki_development/components/component-create-flatpak.md
       - Step 3 - Recipe & Ingredient Files: wiki_development/components/creating-components-ingredients-guide.md
+      - Step 4 - Edit ES-DE: wiki_development/components/es-de-add-component.md
       - INGREDIENT component_functions.sh: wiki_development/components/ing-component-functions.md
       - INGREDIENT component_launcher.sh: wiki_development/components/ing-component-launcher.md
       - INGREDIENT component_manifest.json: wiki_development/components/ing-component-manifest.md

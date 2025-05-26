@@ -1,5 +1,7 @@
 # RetroDECK Flathub Publication
 
+<img src="../../../wiki_images/logos/flathub-logo.svg" width="100">
+
 ## Process to Publish
 
 1. **Update Metainfo**: On cooker, ensure the metainfo is updated with the latest changes and today's date.

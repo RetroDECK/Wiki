@@ -1,5 +1,7 @@
 # Creating Component: Flatpak
 
+<img src="../../../wiki_images/logos/flatpak-logo.svg" width="100">
+
 This a part of the How-to: Create Components Guide
 
 We are going to use GZDOOM as an example and remember that each Flatpak is different from another. 

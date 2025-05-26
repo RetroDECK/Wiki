@@ -1,5 +1,7 @@
 # Creating Component: AppImage
 
+<img src="../../../wiki_images/logos/appimage-logo.svg" width="100">
+
 This a part of the How-to: Create Components Guide
 
 We are going to use CEMU as an example and remember that each AppImage is different from another. 

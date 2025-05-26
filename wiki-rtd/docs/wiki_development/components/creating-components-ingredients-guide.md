@@ -150,7 +150,7 @@ The RetroDECK Team and Community (Taste) Testers will:
 - Test and bug report
 - Tweak configurations 
 
-## Step 11: How-to access your component? 
+## Step 11: How-to access your component and run game/games (Engines, Emulators, Ports)? 
 
 If the component is not a System that is only available via the Configurator. 
 

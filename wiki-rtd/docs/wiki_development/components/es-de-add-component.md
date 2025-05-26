@@ -38,9 +38,9 @@ In RetroDECK we use the neutral name of **Component**.
 
 RetroDECK Maintains a very light fork of ES-DE with some customizations: 
 
-- Hide systems RetroDECK don't support yet.
-- Add systems ES-DE don't support (Example: GZDoom).
-- Adds and changes some menu entires (Adds RetroDECK Configurator).
+- Hides specific emulators or systems that RetroDECK don't support yet (Example: Dragon Data Dragon 32).
+- Adds systems to ES-DE that it don't support (Example: GZDoom).
+- Adds and changes some main menu entries (Example: RetroDECK Configurator, ES-DE Configurations).
 
 ## es_find_rules.xml
 

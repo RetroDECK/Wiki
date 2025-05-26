@@ -131,13 +131,13 @@ mv org.zdoom.GZDoom/gzdoom-build-dir/files/share gzdoom/
 
 All the important files are now located in `retrodeck/components/gzdoom`
 
-### Step 5: (Optional) Add to libraries shared_libs
+## Step 4: (Optional) Add to libraries shared_libs
 
 Add any required libraries needed to the `shared_libs` component runtime sandbox, if the Flatpak is compiled in a non-freedesktop runtime originally.
 
 `UPDATE THIS ON HOW`
 
-## Step 6: Creating Component: Ingredient Files
+## Step 5: Creating Component: Ingredient Files
 
 You now will need to move on to the next step:
 

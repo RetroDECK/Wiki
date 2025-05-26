@@ -413,10 +413,10 @@ nav:
       - SET setting_value: wiki_development/api/set-setting-value.md
 
     - RetroDECK Components:
-      - Creating Components Start: wiki_development/components/creating-components-guide.md
-      - Create Component - AppImage: wiki_development/components/component-create-appimage.md
-      - Create Component - Flatpak: wiki_development/components/component-create-flatpak.md
-      - Creating Ingredient Files: wiki_development/components/creating-components-ingredients-guide.md
+      - Step 1 - Creating Components: wiki_development/components/creating-components-guide.md
+      - Step 2a - Component AppImage: wiki_development/components/component-create-appimage.md
+      - Step 2b - Component Flatpak: wiki_development/components/component-create-flatpak.md
+      - Step 3 - Recipe & Ingredient Files: wiki_development/components/creating-components-ingredients-guide.md
       - INGREDIENT component_functions.sh: wiki_development/components/ing-component-functions.md
       - INGREDIENT component_launcher.sh: wiki_development/components/ing-component-launcher.md
       - INGREDIENT component_manifest.json: wiki_development/components/ing-component-manifest.md

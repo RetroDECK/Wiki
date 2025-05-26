@@ -32,7 +32,7 @@ In RetroDECK we use the neutral name of **Component**.
 
 [ES-DE: Development Install](https://gitlab.com/es-de/emulationstation-de/-/blob/master/INSTALL-DEV.md)
 
-## RetroDECK Repo ES-DE
+## RetroDECK Repository: RetroDECK/ES-DE
 
 [RetroDECK/ES-DE](https://github.com/RetroDECK/ES-DE)
 
@@ -66,7 +66,11 @@ It defines **rules** that tell ES-DE where to look for:
     
 ### Where is it in RetroDECK?
 
-**Repo:** [RetroDECK/ES-DE: linux/es_find_rules.xml](https://github.com/RetroDECK/ES-DE/blob/retrodeck-main/resources/systems/linux/es_find_rules.xml)
+**RetroDECK Repository Location:** 
+
+[RetroDECK/ES-DE: linux/es_find_rules.xml](https://github.com/RetroDECK/ES-DE/blob/retrodeck-main/resources/systems/linux/es_find_rules.xml)
+
+**Installed Location:**
 
 | Type    | Folder                 | 
 |  :---:  | :---:                  | 
@@ -208,7 +212,11 @@ Each game system entry in the file defines:
 
 ### Where is it in RetroDECK?
 
-**Repo:** [RetroDECK/ES-DE : linux/es_systems.xml](https://github.com/RetroDECK/ES-DE/blob/retrodeck-main/resources/systems/linux/es_systems.xml)
+**RetroDECK Repository Location:** 
+
+[RetroDECK/ES-DE: linux/es_systems.xml](https://github.com/RetroDECK/ES-DE/blob/retrodeck-main/resources/systems/linux/es_systems.xml)
+
+**Installed Location:**
 
 | Type    | Folder                 | 
 |  :---:  | :---:                  | 

@@ -68,9 +68,9 @@ It defines **rules** that tell ES-DE where to look for:
 
 [RetroDECK/ES-DE: linux/es_find_rules.xml](https://github.com/RetroDECK/ES-DE/blob/retrodeck-main/resources/systems/linux/es_find_rules.xml)
 
-#### Examples of Entries
+### Examples of Entries
 
-**Primehack**
+#### Primehack
 
 ```
     <emulator name="PRIMEHACK">
@@ -87,7 +87,7 @@ It defines **rules** that tell ES-DE where to look for:
     </emulator>
 ```
 
-**RetroArch:**
+####  RetroArch
 
 ```
     <core name="RETROARCH">
@@ -113,7 +113,8 @@ It defines **rules** that tell ES-DE where to look for:
         </rule>
     </core>
 ```
-**CEMU:**
+
+####  CEMU
 
 ```
     <emulator name="CEMU">
@@ -205,7 +206,15 @@ Each game system entry in the file defines:
 [RetroDECK/ES-DE : linux/es_systems.xml](https://github.com/RetroDECK/ES-DE/blob/retrodeck-main/resources/systems/linux/es_systems.xml)
 
 
-### Example: Sega Mark III (Added but not all emulators)
+
+### Examples of Entries
+
+#### Example: Sega Mark III 
+
+- Supported in ES-DE by default.
+- Added support in RetroDECK.
+- Not all Emulators are included in RetroDECK, those that are not included have been committed out like `Mednafen (Standalone)`.
+
 
 ```
     <system>
@@ -227,10 +236,13 @@ Each game system entry in the file defines:
     </system>
 ```
 
-Sega Mark III has support in RetroDECK but not all supported systems are added, those have been committed out like Mednafen (Standalone).
+#### Example: GZDoom 
 
+- DOOM is supported via other Emulators but not GZDoom in ES-DE by default.
+- Added support in RetroDECK.
+- Adds a custom format: `<extension>.doom .DOOM` 
+- Launches against RetroDECK's own GZDoom Wrapper: `<command label="GZDoom (Standalone)">gzdoom.sh %ROM%</command>` 
 
-### Example GZDoom (None Standard & Needs a Wrapper)
 
 ```
     <system>
@@ -250,18 +262,11 @@ Sega Mark III has support in RetroDECK but not all supported systems are added, 
 
 ```
 
-ES-DE don't have standard support for GZDoom.
+#### Example: Dragon Data Dragon 32 
 
-Here we have added our format to the extension: 
+- Supported in ES-DE by default.
+- Not yet supported in RetroDECK and have been committed out.
 
-`<extension>.doom .DOOM` 
-
-We also added a custom wrapper to launch against: 
-
-`<command label="GZDoom (Standalone)">gzdoom.sh %ROM%</command>`
-
-
-### Example: Dragon Data Dragon 32 (Not Added)
 
 ```
 <!--
@@ -281,8 +286,6 @@ We also added a custom wrapper to launch against:
     </system>
 -->
 ```
-
-Is not yet added to RetroDECK yet, it's committed out from the file.
 
 
 

@@ -201,22 +201,33 @@ Remove any duplicate libraries that may be included in the AppImage which also e
 
 ### Step 5: Create the INGREDIENT files
 
-Add the:
+Add the INGREDIENT files to: `retrodeck/components/<component_name>`
 
-- `component_launcher.sh` 
-- `component_manifest.json` 
-- `component_functions.sh`  
-- `component_prepare.sh` 
+```
+components/<component_name>/component_launcher.sh 
+components/<component_name>/component_manifest.json
+components/<component_name>/component_functions.sh
+components/<component_name>/component_prepare.sh
+```
 
-To: `retrodeck/components/<component_name>`
+Make sure that `component_launcher.sh` is executable: 
 
-Make sure that `component_launcher.sh` is executable: `chmod +x component_launcher.sh`
+```
+chmod +x component_launcher.sh`
+```
 
 **Example:**
 
-`retrodeck/components/cemu/<All the files + ingredient files>`
+```
+components/cemu/component_launcher.sh 
+components/cemu/component_manifest.json
+components/cemu/component_functions.sh
+components/cemu/component_prepare.sh
+```
 
-`chmod +x cemu/component_launcher.sh`
+```
+chmod +x cemu/component_launcher.sh
+```
 
 ### Step 6: Compress the artifact
 

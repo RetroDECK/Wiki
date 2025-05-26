@@ -130,22 +130,33 @@ Add any required libraries needed to the `shared_libs` component runtime sandbox
 
 ### Step 6: Create the INGREDIENT files
 
-Add the:
+Add the INGREDIENT files to: `retrodeck/components/<component_name>`
 
-- `component_launcher.sh` 
-- `component_manifest.json` 
-- `component_functions.sh`  
-- `component_prepare.sh` 
+```
+components/<component_name>/component_launcher.sh 
+components/<component_name>/component_manifest.json
+components/<component_name>/component_functions.sh
+components/<component_name>/component_prepare.sh
+```
 
-To: `retrodeck/components/<component_name>`
+Make sure that `component_launcher.sh` is executable: 
 
-Make sure that `component_launcher.sh` is executable: `chmod +x component_launcher.sh`
+```
+chmod +x component_launcher.sh`
+```
 
 **Example:**
 
-`retrodeck/components/gzdoom/<All the files + ingredient files>`
+```
+components/gzdoom/component_launcher.sh 
+components/gzdoom/component_manifest.json
+components/gzdoom/component_functions.sh
+components/gzdoom/component_prepare.sh
+```
 
-`chmod +x gzdoom/component_launcher.sh`
+```
+chmod +x gzdoom/component_launcher.sh
+```
 
 ### Step 6: Compress the artifact
 

@@ -1,5 +1,7 @@
 # How-to: Add a Component to RetroDECK - A Cooking Philosophy
 
+<img src="../../../wiki_icons/pixelitos/cs-extensions.png" width="100">
+
 ### Description
 
 Creating a new RetroDECK component is a flexible process that can vary depending on the source of the component. However, the final structure remains consistent across all components. Building a new component in RetroDECK is like preparing a gourmet dish.

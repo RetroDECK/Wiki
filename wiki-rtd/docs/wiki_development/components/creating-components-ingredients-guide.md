@@ -1,27 +1,77 @@
-# Creating Component: Ingredient Files Guide
+# Creating Component: Ingredient and Recipe Files Guide
 
 Read the Development Glossary a more shot general explanation of each file: [Development Glossary](../development-glossary.md) 
 
+**The Ingredient files:**
+
+```
+component_launcher.sh
+component_functions.sh
+component_manifest.json
+component_prepare.sh
+```
+
+**The Recipe file:**
+
+```
+recipe.sh
+```
+
 ## Prerequisites: A prepared component
 
+**Note:**
 
-## Step by Step Guide: A prepared component
+This assumes you have already prepared a component folder from:
 
-### Step X: Prepare the component_launcher.sh wrapper (Ingredient File)
+- **Source: AppImage:** [Creating Component: AppImage](component-create-appimage.md)
+
+- **Source: Flatpak:** [Creating Component: Flatpak](component-create-flatpak.md)
+
+## Step 1: Prepare the component_launcher.sh ingredient
 
 **Read more here:** 
 
 - [component_launcher.sh](ing-component-launcher.md)
 
+## Step 2: Do a test run of component_launcher.sh 
 
-### Step X: Test run of component_launcher.sh 
+1. Run: `flatpak run --command=bash net.retrodeck.retrodeck`.
+2. Then from the terminal shell try to run your newly created `component_launcher.sh`.
 
-1. Run: `flatpak run --command=bash net.retrodeck.retrodeck`
-2. Then from the terminal shell try to run your newly created `component_launcher.sh`
+Keep iterering until the file launches and works as excepted.
 
-**Read more here:**
+## Step 3: Try to Optimize Configurations
 
-### Step X: Prepare the Metadata (Ingredient Files)
+Do a first pass and try to tweak configurations:
+
+- **Tweak Controls:** Test the controls with Steam Input (if possible) and tweak from there.
+- **Tweak Performance:** Check the performance: RetroDECK standard is the Steam Deck hardware as default.
+
+## Step 4: Folders and Filepaths Configurations
+
+Tweak the configurations to where they should be used within RetroDECK.
+
+Use `$RDHome` variable for the filepaths you want to tweak. 
+
+**Examples:**
+
+If the configuration allows you to specify several folders:
+
+```
+$RDHome/roms/<your component rom directory>
+$RDHome/bios/<your component bios directory>
+$RDHome/mods/<your component mod directory>
+$RDHome/saves/<your component saves directory>
+$RDHome/states/<your component states directory>
+
+etc...
+```
+
+### Step 4a: Symlinks
+
+If you can't tweak folders and filepaths from the config files
+
+## Step 5: Prepare the Metadata Ingredients
 
 **Read more here:** 
 
@@ -31,17 +81,7 @@ Read the Development Glossary a more shot general explanation of each file: [Dev
 
 - [component_prepare.sh](ing-component-prepare.md)
 
-### Step X: Tweak Configurations
-
-Configure initial component settings to make sure controls work, performance is good on Steam Deck etc. When done, the components config file will become the shipped "RetroDECK defaults" config.,
-
-### Step X: Write the recipe.sh Build File
-
-**Read more here:** 
-
-- [recipe.sh](component-recipe.md)
-
-### Step 5: Add the INGREDIENT files
+## Step 6: Add the INGREDIENT files
 
 Add the INGREDIENT files to: `retrodeck/components/<component_name>`
 
@@ -71,7 +111,7 @@ components/cemu/component_prepare.sh
 chmod +x cemu/component_launcher.sh
 ```
 
-### Step 6: Compress the artifact
+## Step 7: Compress the artifact
 
 Compress the RetroDECK: `retrodeck/components/<component_name>` folder into tar.gz. 
 
@@ -89,48 +129,43 @@ tar -czf "<component_name>-artifact.tar.gz" "<component_name>"
 tar -czf "cemu-artifact.tar.gz" "cemu"
 ```
 
-Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components).
+Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components) in it's own folder.
+
+## Step 8: Write the recipe.sh Build File
+
+**Read more here:** 
+
+- [recipe.sh](component-recipe.md)
+
+Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components) next to the artifact.
 
 
-### Step X: Assemble the Release
+## Step 9: Assemble the Release
 
 The `RetroDECK Assembler` building process follows the recipe.sh and builds the artifact with the ingredients files into:
 
 [RetroDECK/components/releases](https://github.com/RetroDECK/components/releases) 
 
-
-### Step X: Into the Cooker
+## Step 10: Into the Cooker
 
 The `RetroDECK Assembler` will take the finished component artifacts and they becomes part of the:
 
 [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repository. 
 
-At this stage the RetroDECK Community Beta (Taste) Testers and the RetroDECK Team will check for bugs, tweak configurations, give feedback and more. Until it leaves cooker into a Stable Release of RetroDECK.
+The RetroDECK Team and Community (Taste) Testers will:
 
+- Give you feedback
+- Test and bug report
+- Tweak configurations 
 
+## Step 11: How-to access your component? 
 
-## TODO / Ask Tweedledee and Tweedledum 
+If the component is not a System that is only available via the Configurator. 
 
-To answer the "How-to add a component to RetroDECK" 
+You need to make it accessible within ES-DE
 
-We also need to go into how to modify the ES-DE file and other things.
+**Read more:** ES-DE Edits
 
-We need to answer:
+**Read more:** Custom Wrapper like GZDoom
 
-- How-to make it showup in ES-DE in general. 
-- How-to: add an component that is already supported by ES-DE? (Just remove the #) 
-- How-to: add an component that is NOT supported by ES-DE? It needs new folders? How does folder creation work in ES-DE?
-- How-to: add an component needs a custom format or wrapper like GZDoom and have it work in ES-DE?
-- How-to: add a launch able port script under  roms/ports like PortMaster or other ports we want to include. 
-- How-to: Edit configurations to setup folders and what do look out for? (How does $RDHome work?)
-- IF that is not possible how to create the symlinks when RetroDECK is installed.
-- How-to: Expose config files, caches and folders into the userspace /home/<user>/.var/app/net.retrodeck.retrodeck/
-
-
-Structure the new component application files as they would be when unpacked from a component artifact (.../retrodeck/components/<component name>/bin, lib and share folders etc. as needed.
-Create component_launcher.sh script and verify that component can launch properly when run through the launcher script while inside the flatpak (flatpak run --command=bash net.retrodeck.retrodeck)
-
-Close, I'll clarify a little. I guess it doesn't really matter where the <component name> folder is, as long as it is somewhere accessible to the Flatpak (which is pretty much anywhere right now). I've just been putting it in the Flatpak files (what would be the RO space when the Flatpak is running) for my own testing. That location differs depending on if the Flatpak is installed in user mode or not. The <component name> folder could just as easily be in $HOME. The structure of the folders inside the <component name> folder will depend completely on what the component needs. It should always have a "bin" folder where the binary will be, for consistency. It will only need a "lib" folder if the component needs libraries that are not included in the Flatpak runtime. There may not be a "share" folder either, if the component doesn't use one. All this depends on how the component was written, and needs to be evaluated on a per-component basis. Generally, if the component is coming from an AppImage, whatever structure is used in the AppImage will also work in the <component name> folder as well, but not always. I have been determining if the component needs extra libraries by trying to launch it from inside the Flatpak and see if it complains about missing libraries or otherwise fails to launch. Find the missing libraries (I've been pulling them from other Flatpak runtimes and making a note of what I pulled) and include them in the "lib" folder. Making sure to launch from the component wrapper (which will update the LD_LIBRARY_PATH env var), just keep doing that until the component runs.
-
-Unfortunately there in no "one size fits all" process for this, because each components needs are a little bit different. But ultimately we are determining what structure and files need to be included in the <component name> folder for it to be able to launch.
-[5:06 PM]IceNine451 | RetroDECK 🇺🇸(EST): I guess I should clarify that the <component name> folder can be anywhere for testing if the component launches, for testing if things like the manifest menu entries work it will need to be in the correct specific location.
+ 

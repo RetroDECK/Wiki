@@ -116,7 +116,7 @@ to the distribution you are using.
 
 ---
 
-##  Guidelines for Component Creation
+##  Guides for Component Creation
 
 After you have taken all into account follow the one of these General Guides and begin the second step of your journey to add a Component into RetroDECK:
 

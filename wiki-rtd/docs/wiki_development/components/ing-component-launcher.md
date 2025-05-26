@@ -14,6 +14,14 @@ This file is also what is called when the given component should be launched, ei
 
 When launching any component, it will be done by `/app/retrodeck/components/<component name>/component_launcher.sh`
 
+## Executable
+
+Make sure the `component_launcher.sh` is executable: 
+
+```
+chmod +x component_launcher.sh
+```
+
 ## Example: component_launcher.sh for the PPSSPP Component
 
 ```

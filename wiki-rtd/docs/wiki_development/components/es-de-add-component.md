@@ -66,7 +66,12 @@ It defines **rules** that tell ES-DE where to look for:
     
 ### Where is it in RetroDECK?
 
-[RetroDECK/ES-DE: linux/es_find_rules.xml](https://github.com/RetroDECK/ES-DE/blob/retrodeck-main/resources/systems/linux/es_find_rules.xml)
+**Repo:** [RetroDECK/ES-DE: linux/es_find_rules.xml](https://github.com/RetroDECK/ES-DE/blob/retrodeck-main/resources/systems/linux/es_find_rules.xml)
+
+| Type    | Folder                 | 
+|  :---:  | :---:                  | 
+| ES-DE Linux Folder (Local Install) |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | 
+| ES-DE Linux Folder (System Install)|`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | 
 
 ### Examples of Entries
 
@@ -203,7 +208,12 @@ Each game system entry in the file defines:
 
 ### Where is it in RetroDECK?
 
-[RetroDECK/ES-DE : linux/es_systems.xml](https://github.com/RetroDECK/ES-DE/blob/retrodeck-main/resources/systems/linux/es_systems.xml)
+**Repo:** [RetroDECK/ES-DE : linux/es_systems.xml](https://github.com/RetroDECK/ES-DE/blob/retrodeck-main/resources/systems/linux/es_systems.xml)
+
+| Type    | Folder                 | 
+|  :---:  | :---:                  | 
+| ES-DE Linux Folder (Local Install) |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | 
+| ES-DE Linux Folder (System Install)|`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | 
 
 
 

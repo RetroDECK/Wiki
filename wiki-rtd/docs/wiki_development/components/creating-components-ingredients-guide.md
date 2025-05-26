@@ -38,7 +38,7 @@ This assumes you have already prepared a component folder from:
 1. Run: `flatpak run --command=bash net.retrodeck.retrodeck`.
 2. Then from the terminal shell try to run your newly created `component_launcher.sh`.
 
-Keep iterering until the file launches and works as excepted.
+Keep tinkering until the file launches and works as excepted.
 
 ## Step 3: Configurations: Try to Optimize (If possible) 
 
@@ -47,17 +47,17 @@ Do a first pass and try to tweak configurations:
 - **Tweak Controls:** Test the controls with Steam Input (if possible) and tweak from there.
 - **Tweak Performance:** Check the performance: RetroDECK standard is the Steam Deck hardware as default.
 
-## Step 4: Configurations: Set Folders & Filepaths
+## Step 4: Configurations: Set Folders & Filepaths (If possible) 
 
-### Step 4a: Configure: Folders & Filepaths (If possible) 
+### Step 4a: Configure: Folders & File Paths 
 
-See if you can set filepaths / folderpaths within the configuration files.
+See if you can set file paths / folder paths within the configuration files.
 
-Use `$RDHome` variable for the filepaths / folderpaths.
+Use `$RDHome` variable for the file paths / folder paths.
 
 **Examples:**
 
-If the configuration allows you to specify several folders:
+If the configuration files allows you to specify several folders:
 
 ```
 $RDHome/roms/<your component rom directory>
@@ -69,11 +69,11 @@ $RDHome/states/<your component states directory>
 etc...
 ```
 
-### Step 4b: Symlinks (If possible) 
+### Step 4b: Symlinks
 
-If you can't configure filepaths / folderpaths from the config files you might need to create symlinks instead.
+If you can't configure file paths / folder paths from the configuration files you might need to create symlinks instead.
 
-## Step 5: Prepare the Metadata Ingredients
+## Step 5: Create the Metadata Ingredient Files
 
 **Read more here:** 
 
@@ -83,9 +83,9 @@ If you can't configure filepaths / folderpaths from the config files you might n
 
 - [component_prepare.sh](ing-component-prepare.md)
 
-## Step 6: Add the INGREDIENT files
+## Step 6: Add the Ingredient files
 
-Add the INGREDIENT files to: `retrodeck/components/<component_name>`
+Add the Ingredient files to: `retrodeck/components/<component_name>`
 
 ```
 components/<component_name>/component_launcher.sh 
@@ -107,9 +107,11 @@ components/cemu/component_prepare.sh
 
 Compress the RetroDECK: `retrodeck/components/<component_name>` folder into tar.gz. 
 
-Name it: `<component_name>-artifact.tar.gz`
+**Name:** 
 
-Command:
+`<component_name>-artifact.tar.gz`
+
+**Command:**
 
 ```
 tar -czf "<component_name>-artifact.tar.gz" "<component_name>"
@@ -121,7 +123,7 @@ tar -czf "<component_name>-artifact.tar.gz" "<component_name>"
 tar -czf "cemu-artifact.tar.gz" "cemu"
 ```
 
-Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components) in it's own folder.
+Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components) into it's own folder.
 
 ## Step 8: Write the recipe.sh Build File
 
@@ -129,35 +131,33 @@ Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components
 
 - [recipe.sh](component-recipe.md)
 
-Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components) next to the artifact.
+Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components) next to the artifact in the folder.
 
 
-## Step 9: Assemble the Release
+## Step 9: Assemble the Release & Into the Cooker
 
-The `RetroDECK Assembler` building process follows the recipe.sh and builds the artifact with the ingredients files into:
+The `RetroDECK Assembler` building process follows the `recipe.sh` and builds the artifact with the ingredients files into:
 
 [RetroDECK/components/releases](https://github.com/RetroDECK/components/releases) 
 
-## Step 10: Into the Cooker
+After that the `RetroDECK Assembler`  will take the finished component artifacts and make them part of: 
 
-The `RetroDECK Assembler` will take the finished component artifacts and they becomes part of the:
-
-[RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker) and published to the [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) repository. 
+- [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker)
+- [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker)
 
 The RetroDECK Team and Community (Taste) Testers will:
 
-- Give you feedback
-- Test and bug report
-- Tweak configurations 
+- Give you feedback.
+- Test and bug report.
+- Ask you to tweak configurations. 
 
-## Step 11: How-to access your component and run game/games (Engines, Emulators, Ports)? 
+## Step 11: How-to: Access your component? 
 
-If the component is not a System that is only available via the Configurator. 
+Now your component have been added into RetroDECK, but how do the users access it?
 
-You need to make it accessible within ES-DE
+You need to make it accessible within ES-DE (unless your component is a system that should only be part of the Configurator)-
 
-**Read more:** ES-DE Edits
+**Read more:** 
 
-**Read more:** Custom Wrapper like GZDoom
-
+[Component: Add to ES-DE](es-de-add-component.md)
  

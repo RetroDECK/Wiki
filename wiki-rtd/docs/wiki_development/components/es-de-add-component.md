@@ -209,7 +209,7 @@ Each game system entry in the file defines:
 
 ### Examples of Entries
 
-#### Example: Sega Mark III 
+#### Sega Mark III 
 
 - Supported in ES-DE by default.
 - Added support in RetroDECK.
@@ -236,7 +236,7 @@ Each game system entry in the file defines:
     </system>
 ```
 
-#### Example: GZDoom 
+#### GZDoom 
 
 - DOOM is supported via other Emulators but not GZDoom in ES-DE by default.
 - Added support in RetroDECK.
@@ -262,7 +262,7 @@ Each game system entry in the file defines:
 
 ```
 
-#### Example: Dragon Data Dragon 32 
+#### Dragon Data Dragon 32 
 
 - Supported in ES-DE by default.
 - Not yet supported in RetroDECK and have been committed out.

@@ -33,43 +33,56 @@ You will now have two folders:
 - `retrodeck/components/gzdoom`
 - `retrodeck/components/org.zdoom.GZDoom`
 
-## Step 2: Clone the repo from Flathub
+## Step 2: Extract or build the repo
 
-
-
-
-
-
-
-
-
-
-----
-
-## FIX THIS
-
-Example:
-
-Creating a Component from a Flatpak
+The structure is different in each Flatpak.
 
 Typically, a Flatpak will extract into this standard structure:
 
+```
 <cloned repo directory>
     <flatpak-build-dir>
+        - export
+        - var
         - files
-            - bin
+            - bin (contains the binary)
             - lib
             - share
 
-There may also be other included information that will need to be checked on a per-component basis to decide if it is required for use in the RetroDECK environment.
+```
 
-As an example, here are the commands that are used in the GZDOOM component creation process, with added comments explaining each step:
+### Compressed Artifact
 
-The basic process for converting an Flatpak into a RetroDECK-compatible component is:
+If the flatpak has a premade compressed artifact you can just extract that to the structure under:
+
+- `retrodeck/components/<artifact>`
+
+**Example:**
+
+- `retrodeck/components/gzdoom-artifact`
+
+### Build with flatpak-builder
+
+If there is no artifact you will need to build the it with: `flatpak-builder` into a new folder: `<Application>-build-dir`
 
 
-2) Either extract the premade artifact or build the Flatpak files from the cloned repo.
+```
+git submodule init
 
+git submodule update
+
+flatpak-builder --user --force-clean --install-deps-from=flathub --install-deps-from=flathub-beta --repo=<Application>-repo "<Application>-build-dir" "<Application>.yaml" ## Input the <Application> sources
+
+rm -rf <Application>-build-dir/files/lib/debug ## Remove debug files, the location could be diffrent
+```
+
+**Example:**
+
+Go to: `retrodeck/components/org.zdoom.GZDoom`
+
+Run the following:
+
+```
 git submodule init
 
 git submodule update
@@ -78,29 +91,74 @@ flatpak-builder --user --force-clean --install-deps-from=flathub --install-deps-
 
 rm -rf gzdoom-build-dir/files/lib/debug
 
-3) Copy the required data into the RetroDECK target directory
+```
 
-cd ..
+## Step 3: Copy into retrodeck/components/<component_name>
 
+Identify the:
+
+- Binary
+- Libraries
+- Other important files
+
+Move needed files into `retrodeck/components/<component_name>`
+
+From either the prebuilt flatpak OR artifact.
+
+**Example:**
+
+From: `retrodeck/components/`
+
+```
 mv org.zdoom.GZDoom/gzdoom-build-dir/files/bin gzdoom/
 mv org.zdoom.GZDoom/gzdoom-build-dir/files/include gzdoom/
 mv org.zdoom.GZDoom/gzdoom- build-dir/files/lib gzdoom/
 mv org.zdoom.GZDoom/gzdoom-build-dir/files/share gzdoom/
+```
 
-4) (optional) Add any required libraries needed to the shared_libs component runtime sandbox, if the Flatpak is compiled in a non-freedesktop runtime originally.
+All the important files are now located in `retrodeck/components/gzdoom`
 
-5) Copy the RetroDECK component-specific files (listed above) into the RetroDECK target directory
+### Step 5: (Optional) Add to libraries shared_libs
 
-cp component_launcher.sh manifest.json functions.sh prepare_component.sh gzdoom/
+Add any required libraries needed to the `shared_libs` component runtime sandbox, if the Flatpak is compiled in a non-freedesktop runtime originally.
 
-chmod +x gzdoom/component_launcher.sh
+`UPDATE THIS ON HOW`
 
-6) Compress the RetroDECK target directory into the final artifact that will be used in the RetroDECK core flatpak.
 
+
+### Step 6: Create the INGREDIENT files
+
+Add the:
+
+- `component_launcher.sh` 
+- `component_manifest.json` 
+- `component_functions.sh`  
+- `component_prepare.sh` 
+
+To: `retrodeck/components/<component_name>`
+
+Make sure that `component_launcher.sh` is executable: `chmod +x component_launcher.sh`
+
+**Example:**
+
+`retrodeck/components/gzdoom/<All the files + ingredient files>`
+
+`chmod +x gzdoom/component_launcher.sh`
+
+### Step 6: Compress the artifact
+
+Compress the RetroDECK: `retrodeck/components/<component_name>` folder into tar.gz. 
+
+Name it: `<component_name>-artifact.tar.gz`
+
+Command:
+
+```
+tar -czf "<component_name>-artifact.tar.gz" "<component_name>"
+```
+
+**Example:**
+
+```
 tar -czf "gzdoom-artifact.tar.gz" "gzdoom"
-
-
-Step 7) Cleanup temp files
-
-rm -rf gzdoom
-rm -rf org.zdoom.GZDoom
+```

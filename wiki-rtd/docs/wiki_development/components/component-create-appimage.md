@@ -179,6 +179,7 @@ Identify the:
 
 - Binary
 - Libraries
+- Other important files
 
 **Example:**
 
@@ -191,9 +192,43 @@ mv squashfs-root/apprun-hooks cemu/
 mv squashfs-root/usr/* cemu/
 ```
 
-This component appears to run fine with only this library included, so removing all others to save on space
-find cemu/lib/ -not -name 'libGLU.so.1' -delete
  
 ### Step 5: (Optional) Remove unneeded libraries
 
 Remove any duplicate libraries that may be included in the AppImage which also exist in the RetroDECK flatpak runtime.
+
+### Step 5: Create the INGREDIENT files
+
+Add the:
+
+- `component_launcher.sh` 
+- `component_manifest.json` 
+- `component_functions.sh`  
+- `component_prepare.sh` 
+
+To: `retrodeck/components/<component_name>`
+
+Make sure that `component_launcher.sh` is executable: `chmod +x component_launcher.sh`
+
+**Example:**
+
+`retrodeck/components/cemu/<All the files + ingredient files>`
+
+`chmod +x cemu/component_launcher.sh`
+
+### Step 6: Compress the artifact
+
+Compress the RetroDECK: `retrodeck/components/<component_name>` folder into tar.gz. 
+
+Name it: `<component_name>-artifact.tar.gz`
+
+Command:
+
+```
+tar -czf "<component_name>-artifact.tar.gz" "<component_name>"
+```
+
+**Example:**
+
+```
+tar -czf "cemu-artifact.tar.gz" "cemu"

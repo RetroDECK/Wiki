@@ -6,6 +6,16 @@ This a part of the How-to: Create Components Guide
 
 We are going to use GZDOOM as an example and remember that each Flatpak is different from another. 
 
+**Note:**
+
+This assumes you have read [Creating Component: Guide](creating-components-guide.md).
+
+## Step 0: Make a testing folder 
+
+1. Have a local copy of RetroDECK Cooker installed.
+2. Create a components folder under retrodeck/ userdata folder.
+3. **Result:** `retrodeck/components/`
+
 ## Step 1: Clone the repo from Flathub
 
 1. Go to: `retrodeck/components/`.
@@ -13,7 +23,7 @@ We are going to use GZDOOM as an example and remember that each Flatpak is diffe
 3. Go to: [Github:Flathub](https://github.com/flathub/) find the repo you want to clone.
 4. Open a terminal window from the component folder.
 5. Clone the repo with clone `https://github.com/flathub/<Application>`
-6. You will now a repo folder under `retrodeck/components/`.
+6. You will now a repo folder under `retrodeck/components/<Cloned Repo>`.
 
 **Example:**
 
@@ -30,6 +40,7 @@ Type:
 ```
 git clone https://github.com/flathub/org.zdoom.GZDoom.git
 ```
+
 You will now have two folders:
 
 - `retrodeck/components/gzdoom`
@@ -126,52 +137,9 @@ Add any required libraries needed to the `shared_libs` component runtime sandbox
 
 `UPDATE THIS ON HOW`
 
+## Step 6: Creating Component: Ingredient Files
 
+You now will need to move on to the next step:
 
-### Step 6: Create the INGREDIENT files
+**Read more here:** [Creating Component: Ingredient Files Guide](creating-components-ingredients-guide.md)
 
-Add the INGREDIENT files to: `retrodeck/components/<component_name>`
-
-```
-components/<component_name>/component_launcher.sh 
-components/<component_name>/component_manifest.json
-components/<component_name>/component_functions.sh
-components/<component_name>/component_prepare.sh
-```
-
-Make sure that `component_launcher.sh` is executable: 
-
-```
-chmod +x component_launcher.sh`
-```
-
-**Example:**
-
-```
-components/gzdoom/component_launcher.sh 
-components/gzdoom/component_manifest.json
-components/gzdoom/component_functions.sh
-components/gzdoom/component_prepare.sh
-```
-
-```
-chmod +x gzdoom/component_launcher.sh
-```
-
-### Step 6: Compress the artifact
-
-Compress the RetroDECK: `retrodeck/components/<component_name>` folder into tar.gz. 
-
-Name it: `<component_name>-artifact.tar.gz`
-
-Command:
-
-```
-tar -czf "<component_name>-artifact.tar.gz" "<component_name>"
-```
-
-**Example:**
-
-```
-tar -czf "gzdoom-artifact.tar.gz" "gzdoom"
-```

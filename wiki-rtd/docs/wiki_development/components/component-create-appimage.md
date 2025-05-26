@@ -6,6 +6,10 @@ This a part of the How-to: Create Components Guide
 
 We are going to use CEMU as an example and remember that each AppImage is different from another. 
 
+**Note:**
+
+This assumes you have read [Creating Component: Guide](creating-components-guide.md).
+
 ## Step 0: Make a testing folder 
 
 1. Have a local copy of RetroDECK Cooker installed.
@@ -195,53 +199,13 @@ mv squashfs-root/usr/* cemu/
 ```
 
  
-### Step 5: (Optional) Remove unneeded libraries
+## Step 5: (Optional) Remove unneeded libraries
 
 Remove any duplicate libraries that may be included in the AppImage which also exist in the RetroDECK flatpak runtime.
 
-### Step 5: Create the INGREDIENT files
+## Step 6: Creating Component: Ingredient Files
 
-Add the INGREDIENT files to: `retrodeck/components/<component_name>`
+You now will need to move on to the next step:
 
-```
-components/<component_name>/component_launcher.sh 
-components/<component_name>/component_manifest.json
-components/<component_name>/component_functions.sh
-components/<component_name>/component_prepare.sh
-```
+**Read more here:** [Creating Component: Ingredient Files Guide](creating-components-ingredients-guide.md)
 
-Make sure that `component_launcher.sh` is executable: 
-
-```
-chmod +x component_launcher.sh`
-```
-
-**Example:**
-
-```
-components/cemu/component_launcher.sh 
-components/cemu/component_manifest.json
-components/cemu/component_functions.sh
-components/cemu/component_prepare.sh
-```
-
-```
-chmod +x cemu/component_launcher.sh
-```
-
-### Step 6: Compress the artifact
-
-Compress the RetroDECK: `retrodeck/components/<component_name>` folder into tar.gz. 
-
-Name it: `<component_name>-artifact.tar.gz`
-
-Command:
-
-```
-tar -czf "<component_name>-artifact.tar.gz" "<component_name>"
-```
-
-**Example:**
-
-```
-tar -czf "cemu-artifact.tar.gz" "cemu"

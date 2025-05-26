@@ -2,6 +2,8 @@
 
 <img src="../../../wiki_icons/pixelitos/cs-extensions.png" width="100">
 
+This is the first step of creating a component and adding it into RetroDECK.
+
 ### Description
 
 Creating a new RetroDECK component is a flexible process that can vary depending on the source of the component. However, the final structure remains consistent across all components. Building a new component in RetroDECK is like preparing a gourmet dish.
@@ -114,10 +116,10 @@ to the distribution you are using.
 
 ---
 
-## Guidelines for Component Creation
+##  Guidelines for Component Creation
 
-Follow the one of these General Guides and start your journey of adding a Component into RetroDECK:
+After you have taken all into account follow the one of these General Guides and begin the second step of your journey to add a Component into RetroDECK:
 
-- **AppImage:** [Creating Component: AppImage](component-create-appimage.md)
+- **Source: AppImage:** [Creating Component: AppImage](component-create-appimage.md)
 
-- **Flatpak:** [Creating Component: Flatpak](component-create-flatpak.md)
+- **Source: Flatpak:** [Creating Component: Flatpak](component-create-flatpak.md)

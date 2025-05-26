@@ -1,4 +1,4 @@
-# Creating Component Ingredient Files Guide
+# Creating Component: Ingredient Files Guide
 
 Read the Development Glossary a more shot general explanation of each file: [Development Glossary](../development-glossary.md) 
 
@@ -41,12 +41,52 @@ Configure initial component settings to make sure controls work, performance is 
 
 - [recipe.sh](component-recipe.md)
 
-### Step X: Compress the Artifact
+### Step 5: Add the INGREDIENT files
 
-Bundle everything together:
+Add the INGREDIENT files to: `retrodeck/components/<component_name>`
 
 ```
-tar -czf "component-artifact.tar.gz" "component"
+components/<component_name>/component_launcher.sh 
+components/<component_name>/component_manifest.json
+components/<component_name>/component_functions.sh
+components/<component_name>/component_prepare.sh
+```
+
+Make sure that `component_launcher.sh` is executable: 
+
+```
+chmod +x component_launcher.sh`
+```
+
+**Example:**
+
+```
+components/cemu/component_launcher.sh 
+components/cemu/component_manifest.json
+components/cemu/component_functions.sh
+components/cemu/component_prepare.sh
+```
+
+```
+chmod +x cemu/component_launcher.sh
+```
+
+### Step 6: Compress the artifact
+
+Compress the RetroDECK: `retrodeck/components/<component_name>` folder into tar.gz. 
+
+Name it: `<component_name>-artifact.tar.gz`
+
+Command:
+
+```
+tar -czf "<component_name>-artifact.tar.gz" "<component_name>"
+```
+
+**Example:**
+
+```
+tar -czf "cemu-artifact.tar.gz" "cemu"
 ```
 
 Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components).

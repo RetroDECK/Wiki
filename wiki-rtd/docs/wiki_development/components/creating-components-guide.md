@@ -8,9 +8,9 @@ This is the first step of creating a component and adding it into RetroDECK.
 
 Creating a new RetroDECK component is a flexible process that can vary depending on the source of the component. However, the final structure remains consistent across all components. Building a new component in RetroDECK is like preparing a gourmet dish.
 
-**Note:** 
+**Note:**
 
-It's impossible to write a 100% correct guide on how-to add a component as each of them are unique piece of software.
+There’s no one-size-fits-all guide for adding a component. Each component is unique software with its own quirks, requirements, and integration challenges. Use this guide as a starting point, but expect to adapt based on the specifics of what you're working with.
 
 ---
 
@@ -51,68 +51,72 @@ In rare cases, it may be beneficial to include a port directly in RetroDECK if o
 
 When multiple source formats are available for a component, prioritize them in the following order for ease of integration with RetroDECK:
 
-1. **AppImage**
-2. **Flatpak**
-3. **Precompiled Binary**
-4. **Build from Source**
+
+| Priority | Format              | Description                                                                 |
+|----------|---------------------|-----------------------------------------------------------------------------|
+| 1        | AppImage            | A portable, self-contained executable that runs without installation        |
+| 2        | Flatpak             | A sandboxed package format commonly used on Linux for app distribution      |
+| 3        | Precompiled Binary  | A ready-to-run executable built for a specific platform                     |
+| 4        | Build from Source   | Raw source code that must be compiled manually before use                   |
+
+
 
 ---
 
 ## Beginning: Issue, Vision, Goals and Research
 
-### Add an Issue, Communicate and Check Licensing
+### Create an Issue and Talk to the Team
 
-**Create an Issue & Talk to the RetroDECK Team**
+If you want to add a new component, start by opening an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) in the appropriate repo. Use this to explain your idea and get feedback from the RetroDECK team.
 
-Share your idea and get feedback and by creating an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) of the component you want to add. Read up on GitHub on how to add issues and submit pull-requests if you need to.
+Some components might not fit with RetroDECK’s design goals or technical direction. The RetroDECK team will review each proposal and has the final say on whether a component gets included or not.
 
-Some components may not align with the project's design goals or technical direction. The RetroDECK Team decides if a component should be included or not and has the final say on this matter. 
 
-**Check Licensing** 
+### Check Licensing
 
-Check the licensing of the component you want to include. 
+Make sure the component you're suggesting has a license that is compatible with RetroDECK.
+
 
 ### Test & Research the Component
 
-Always download & install the source component files locally and check how it behaves in it's normal environment. 
+Before proposing anything, download and run the component locally. Understand how it behaves in its native environment.
 
-- **Check what settings it support:** Look into the settings and see what it supports and make a note of settings of interest such as: Hotkeys, Fullscreen, Widescreen, Close the Launcher when the game is launched or other of note. 
+- **Settings**: What options does it support? Look for things like hotkeys, fullscreen, widescreen, auto-close launcher, etc.
+- **CLI/Launch Commands**: Are there any command-line options or launch arguments?
+- **Configuration**: Where are settings saved? Identify any config files or folders used.
 
-- **Check what CLI or launch commands there is:** See if there are any specific launch commands or CLI documentation. 
 
-- **Check how configurations are saved** Check what config files there are that used to save various settings used by the component. 
+### How should users access it?
 
-### How does the users interact with it?
+- Is it an emulator/engine already supported by ES-DE but not yet added to RetroDECK?
+- Is it a new component that needs custom menu entries and formats?
+- Is it a port that should go into the ES-DE port menu?
+- Should it be launched via the Configurator?
 
-**How do you vision it accessed within RetroDECK?** 
+### Where do the files go?
 
-- Is it a already supported emulator / engine within ES-DE that RetroDECK has not added yet?
+- What files does the component use?
+- How can you map them into the `retrodeck/` folder structure?
 
-- Is it a new component that is not supported by standard ES-DE and needs custom menu entries in the RetroDECK ES-DE Theme and custom formats? 
 
-- Is it a port that needs to go into the port menu of ES-DE?
+### What needs to be user-editable?
 
-- Is it a system that should be launched via the Configurator? 
+- Which files or folders should be exposed to the user?
+- Think about what should go into `/home/<user>/.var/app/net.retrodeck.retrodeck/` — under `data`, `cache`, or `config`.
 
-**Where are the files stored within the retrodeck/ folder**
-
-- What kind of files are there and how can the RetroDECK Folder structure be used with the component?
-
-**What files needs to be exposed to the end-user?**
-
-- What config files, folders or other files needs to be exposed to the end-user to edit/populate within userspace. `/home/<user>/.var/app/net.retrodeck.retrodeck/` data, cache or config.
 
 ---
 
 ## Prerequisites: Install Development Tools
 
-You will need to have installed 
+Make sure the following tools are installed on your system:
 
 - `flatpak-builder`
 - `git`
-- `gh` *(optional)* 
+- `gh` *(optional, for GitHub CLI tasks)*
 
-to the distribution you are using.
+Install them using your distribution’s package manager (e.g. `apt`, `dnf`, `pacman`, etc.).
+
 
 ---
 

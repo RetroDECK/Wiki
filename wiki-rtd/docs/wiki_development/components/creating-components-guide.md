@@ -67,7 +67,9 @@ When multiple source formats are available for a component, prioritize them in t
 
 ### Create an Issue and Talk to the Team
 
-If you want to add a new component, start by opening an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) in the appropriate repo. Use this to explain your idea and get feedback from the RetroDECK team.
+If you want to add a new component, start by opening an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) or check if there already is an issue of the component you want to add. 
+
+Use the issue to explain your idea and get feedback from the RetroDECK team.
 
 Some components might not fit with RetroDECK’s design goals or technical direction. The RetroDECK team will review each proposal and has the final say on whether a component gets included or not.
 

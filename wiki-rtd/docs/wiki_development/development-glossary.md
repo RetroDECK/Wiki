@@ -80,7 +80,7 @@ It includes everything that powers the platform, such as:
 
 In short, it's the engine that makes RetroDECK run.
 
-## RetroDECK API
+### RetroDECK API
 
 <img src="../../wiki_icons/retrodeck/icon-api.svg" width="50">
 
@@ -93,7 +93,7 @@ Currently, the API is only accessible through:
 
 **Read more here:**
 
-## RetroEngine
+### RetroEngine
 
 <img src="../../wiki_icons/retrodeck/icon-engine.svg" width="50">
 
@@ -104,7 +104,7 @@ Currently, the API is only accessible through:
 
 **Read more here:**
 
-## RetroDECK Configurator
+### RetroDECK Configurator
 
 <img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="50">
 
@@ -117,23 +117,23 @@ It acts as the main interface between the user and the powerful tools behind the
 
 **Read more here:**
 
-### RetroDECK Tool 
+#### RetroDECK Tool 
 
 A `RetroDECK Tool` is the name given to a function (or group of functions) that is exposed to the end-user through the `RetroDECK Configurator`.
 
 **Example:** `BIOS Checker Tool` - While it consists of many back-end functions, users simply know it as the `BIOS Checker Tool` in the Configurator.
 
-## Ponzu
+### Ponzu
 
 <img src="../../wiki_icons/retrodeck/icon-ponzu.svg" width="50">
 
-Ponzu is an Legacy AppImage Loader / Integrator.
+Ponzu is an Legacy AppImage Loader / Integrator part of the `RetroDECK Framework`.
 
 Lets users add certain specific legacy AppImages to RetroDECK and integrates these AppImages directly into the RetroDECK environment.
 
 **Read more here:**
 
-## RetroDECK Assembler
+### RetroDECK Assembler
 
 The `RetroDECK Assembler` is just the building engine part of the `RetroDECK Framework`.
 
@@ -142,6 +142,22 @@ The `RetroDECK Assembler` is just the building engine part of the `RetroDECK Fra
 - Publishes the final builds for distribution on Flathub Stable channels.
 
 **Read more here:**
+
+### LibMan
+
+The library manager or `LibMan` is the part of the `RetroDECK Framework`. 
+
+It's purpose is to reduce library dependency conflicts between components when libraries could be shared.
+
+In internal jargon, LibMan is often depicted as an American Style Super Hero fighting an endless army of clones. 
+
+## Rekku
+
+Is [Rekku](https://github.com/apps/rekku-retrodeck) RetroDECK virtual assistant and the mascot of the RetroDECK Project.
+
+She does GitHub bot announcements and will be more integrated into the project in the future **hopefully**.
+
+Rekku is depicted as a "manga style blue cat girl blue retro genie".  
 
 ## RetroDECK Components
 

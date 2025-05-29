@@ -135,6 +135,8 @@ Lets users add certain specific legacy AppImages to RetroDECK and integrates the
 
 ### RetroDECK Assembler
 
+<img src="../../wiki_icons/retrodeck/icon-assembler.svg" width="50">
+
 The `RetroDECK Assembler` is just the building engine part of the `RetroDECK Framework`.
 
 - It builds all aspects of RetroDECK.
@@ -160,6 +162,8 @@ She does GitHub bot announcements and will be more integrated into the project i
 Rekku is depicted as a "manga style blue cat girl blue retro genie".  
 
 ## RetroDECK Components
+
+<img src="../../wiki_icons/retrodeck/icon-component.svg" width="50">
 
 RetroDECK is made by assembling various components.
 

@@ -74,8 +74,8 @@ It defines **rules** that tell ES-DE where to look for:
 
 | Type    | Folder                 | 
 |  :---:  | :---:                  | 
-| ES-DE Linux Folder (Local Install) |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | 
-| ES-DE Linux Folder (System Install)|`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | 
+| ES-DE Linux Folder (Local Install) |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/retrodeck/components/es-de/share/es-de/resources/systems/linux/` | 
+| ES-DE Linux Folder (System Install)|`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/es-de/share/es-de/resources/systems/linux/` | 
 
 ### Examples of Entries
 

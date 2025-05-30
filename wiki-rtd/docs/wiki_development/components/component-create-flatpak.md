@@ -143,11 +143,11 @@ All the important files are now located in `retrodeck/components/gzdoom`
 
 ---
 
-## Step 4: (Optional) Add to libraries shared_libs
+## Step 4: (Optional) Remove Unneeded Libraries
 
-Add any required libraries needed to the `shared_libs` component runtime sandbox, if the Flatpak is compiled in a non-freedesktop runtime originally.
+Remove any duplicate libraries that may be included in the AppImage which also exist in the RetroDECK flatpak runtime.
 
-`UPDATE THIS ON HOW`
+**Read more here:** [RetroDECK Libraries](../general/retrodeck-libraries.md)
 
 ---
 

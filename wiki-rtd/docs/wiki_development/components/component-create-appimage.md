@@ -217,9 +217,18 @@ mv squashfs-root/usr/* cemu/
 
 ---
 
-## Step 5: (Optional) Remove unneeded libraries
+## Step 5: (Optional) Remove Unneeded Libraries
 
 Remove any duplicate libraries that may be included in the AppImage which also exist in the RetroDECK flatpak runtime.
+
+**Note**
+
+Just because it's an AppImage doesn't mean it has *everything* it needs. 
+
+Sometimes, a library might be missing from the AppImage **and** the Flatpak runtime. 
+It might work on your host OS, but fail inside Flatpak.
+
+**Read more here:** [RetroDECK Libraries](../general/retrodeck-libraries.md)
 
 ---
 

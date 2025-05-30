@@ -393,6 +393,7 @@ nav:
     - CLI Guide: wiki_development/general/cli-guide.md
     - Debug Mode: wiki_development/general/debug-mode.md
     - Folders & Filepaths: wiki_development/general/folders-filepaths.md
+    - RetroDECK Libraries: wiki_development/general/retrodeck-libraries.md
 
     - RetroDECK API:
       - About API Development: wiki_development/api/about-api-development.md

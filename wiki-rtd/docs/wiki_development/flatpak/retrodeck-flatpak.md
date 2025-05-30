@@ -43,8 +43,6 @@ The flatpak application is located and built inside the `/app` folder.
 
 The real location of the `/app` folder in the hostOS is different depending on how you installed it. 
 
-*See link above*
-
 ### The Writable /var/ folder:
 
 These folder are the only folders writable by flatpak and corresponds to `/var` inside the Flatpak Environment.

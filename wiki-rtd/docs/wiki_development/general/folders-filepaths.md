@@ -9,7 +9,7 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 | **Folder Name**     | **Folder Path**                 |          **Comment**     | 
 |  :---:  | :---:                  |             :---:     |
 | retrodeck/ (userdata) Folder |`<Dynamic Path>/retrodeck/` |  **Read more here:** [RetroDECK: Userdata Folder Structure](../../wiki_management/retrodeck-folders/retrodeck-folders.md)    |  
-| /.var/app/net.retrodeck.retrodeck Folder |`~/.var/app/net.retrodeck.retrodeck` |  Exposes configuration, cache, and system data from the Flatpak environment.   |  
+| /.var/app/net.retrodeck.retrodeck Folder |`~/.var/app/net.retrodeck.retrodeck` |  This is mapped as `/var` inside the flatpak. Exposes configuration, cache, and system data from the Flatpak environment.   |  
 | cache Folder |`~/.var/app/net.retrodeck.retrodeck/cache/` |  cache files and temp data  for components |  
 | config Folder |`~/.var/app/net.retrodeck.retrodeck/config/` | copied configuration files for components    |  
 | data Folder |`~/.var/app/net.retrodeck.retrodeck/data/` |  data structures for components      |  
@@ -32,7 +32,7 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 
 | **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     | 
 |  :---:  | :---:                  |             :---:     | :---:  | 
-| RetroDECK's Flatpak Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | This is mapped as the `/app` inside the flatpak. `manifest.json` is also located here  |
+| RetroDECK's Flatpak Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | This is mapped as `/app` inside the flatpak. `manifest.json` is also located here  |
 | bin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Symlinked binaries, other binaries, `retrodeck.sh`  |
 | lib Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Freedesktop Runtime Libraries |  
 | libexec Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | Various script functions  `post_update.sh` |  

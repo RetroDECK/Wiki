@@ -110,9 +110,3 @@ rm -f "$WORK_DIR/capsimg.zip"
 finalize
 
 ```
-
-
-### Binary X: recipe.sh
-
-
-### Source X: recipe.sh

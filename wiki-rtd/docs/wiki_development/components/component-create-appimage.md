@@ -226,9 +226,15 @@ Just because it's an AppImage doesn't mean it has *everything* it needs.
 Sometimes, a library might be missing from the AppImage **and** the Flatpak runtime. 
 It might work on your host OS, but fail inside Flatpak.
 
-Always test the Component within the flatpak shell againto see if any libraries are missing.
+Always test the Component within the flatpak shell to see if any libraries are missing. 
 
-**Read more here for general information on libraries:** [RetroDECK Libraries](../general/retrodeck-libraries.md)
+LibMan can help but don't 100% rely on it to figure it out. 
+
+If they are missing try to add them to the components lib or the shared-libs. 
+
+**Read more here for general information on libraries:** 
+
+[RetroDECK Libraries](../general/retrodeck-libraries.md)
 
 ---
 

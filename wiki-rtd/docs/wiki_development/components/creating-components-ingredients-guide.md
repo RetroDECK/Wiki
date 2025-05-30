@@ -123,7 +123,7 @@ tar -czf "<component_name>-artifact.tar.gz" "<component_name>"
 tar -czf "cemu-artifact.tar.gz" "cemu"
 ```
 
-Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components) into it's own folder.
+Then PR it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/components/tree/cooker) into it's own folder.
 
 ## Step 8: Write the recipe.sh Build File
 
@@ -131,7 +131,7 @@ Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components
 
 - [recipe.sh](component-recipe.md)
 
-Then PR it to the [RetroDECK/components](https://github.com/RetroDECK/components) next to the artifact in the folder.
+Then PR it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/components/tree/cooker) next to the artifact in the folder.
 
 
 ## Step 9: Assemble the Release & Into the Cooker

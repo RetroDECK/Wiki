@@ -133,7 +133,7 @@ Each components important default configs are stored here and extra files like:
 
 The structure mostly reflects the `retrodeck/components/` folder.
 
-Many of these are later copied over to `~/.var/app/net.retrodeck.retrodeck/config/` to be user editable from within RetroDECK by the end-user via it's corresponding component.
+Many of these are later copied over to `~/.var/app/net.retrodeck.retrodeck/config/` to be editable from within RetroDECK by the end-user via it's corresponding component.
 
 They have been grouped by type in the lists.
 

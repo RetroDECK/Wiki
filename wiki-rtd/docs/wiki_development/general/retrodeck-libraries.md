@@ -1,12 +1,14 @@
-# RetroDECK Library Structure
+# RetroDECK Libraries
 
 Libraries in RetroDECK can live in three main places. This structure helps keep things clean, efficient, and modular.
 
+## Library Structure
+
 | Location                        | Purpose                                                                                          | Notes                                                                                          |
 |--------------------------------|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| **1. Freedesktop Runtime: lib/** | Acts like an **OS layer** for Flatpak. Most common libraries are already available here.         | You can browse these from inside the Flatpak shell or from the host OS.                        |
-| **2. shared-libs/ folder**     | Holds **shared libraries** used by multiple components (like Qt). Helps avoid duplication.        | Organized into subfolders by version (e.g. `qt5/`, `qt6/`) to prevent version conflicts.       |
-| **3. Component lib/ folder**   | Contains **component-specific libraries** not found in the runtime or shared-libs.               | Usually includes libraries built with the app in its original Flatpak manifest.                |
+| **1. lib/** | Acts like an **OS layer** for Flatpak. Most common libraries are already available here.         | You can browse these **Freedesktop Runtime** libraries from inside the Flatpak shell or from the host OS.                       |
+| **2. components/shared-libs/**     | Holds **shared libraries** used by multiple components (like Qt). Helps avoid duplication.        | Organized into subfolders by version (e.g. `qt5/`, `qt6/`) to prevent version conflicts.       |
+| **3. components/<component>/lib/**   | Contains **component-specific libraries** not found in the runtime or shared-libs.               | Usually includes libraries built with the app in its original Flatpak manifest.                |
 
 **Read more here:** [Folders & Filepaths](../general/folders-filepaths.md)
 
@@ -16,16 +18,23 @@ Libraries in RetroDECK can live in three main places. This structure helps keep 
 
 `LibMan` is RetroDECK's automated `Library Manager`.
 
-Works against a **priority order** for where libraries should go:
+If a library is already in the `lib/` or `components/shared-libs/`.
 
-1. **Freedesktop Runtime: lib/** 
-2. **shared-libs/**
-3. **Component: lib/**
+It will remove it from the `components/<component>/lib/` and add a symlink to avoid duplication.
 
-If a Library exists it removes it in the lower layers and replaces it with a symlink instead.
+`LibMan` works against a **priority order** for where libraries should go:
 
-**Example:**
+1. **lib/** 
+2. **components/shared-libs/**
+3. **components/<component>/lib/**
 
-If a library is already in the `runtime` or `shared-libs`.
+**Example:** 
 
-`LibMan` will remove it from the `component: lib/` and add a symlink to avoid duplication.
+`LibExample.so.7` is missing from `component/examplecomponent/lib`.
+
+But it is in `lib/LibExample.so.7`.
+
+LibMan will symlink `lib/LibExample.so.7` to `component/examplecomponent/lib/LibExample.so.7`.
+
+
+If it would exist at both places, LibMan would remove the component `LibExample.so.7` and symlink it instead.

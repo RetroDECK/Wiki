@@ -153,7 +153,7 @@ It's purpose is to reduce library dependency conflicts between components when l
 
 In internal jargon, LibMan is often depicted as an American Style Super Hero fighting an endless army of clones. 
 
-## Rekku
+### Rekku
 
 Is [Rekku](https://github.com/apps/rekku-retrodeck) RetroDECK virtual assistant and the mascot of the RetroDECK Project.
 

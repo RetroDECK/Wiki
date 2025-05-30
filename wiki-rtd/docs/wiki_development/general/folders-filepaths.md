@@ -14,6 +14,32 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 | Flatpak RetroDECK Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/` | `retrodeck.cfg`, `godot` and `changelog.xml` files    |  
 
 
+
+## RetroDECK installed as User Application
+
+If you have installed RetroDECK from Flathub as a User Application (this also corresponds to Flatpak Shell `app/`):
+
+- **Folder Local:** If RetroDECK is installed as a local application.
+- **Folder System:** If RetroDECK is installed as a system application.
+
+### Top Level
+
+| Type    | Folder Local           | Folder System           |          Comment     | 
+|  :---:  | :---:                  |             :---:     | :---:  | 
+| RetroDECK's Flatpak Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | This is mapped as the `/app` inside the flatpak.  |
+| bin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | Symlinked binaries, other binaries, `retrodeck.sh`  |
+| lib Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` | Freedesktop Runtime Libraries |  
+| libexec Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | Various script functions like post_update.sh |  
+| retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | RetroDECK Structure Subfolders |  
+| share Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` | Shared resources  | 
+| tools Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/tools/` | Configurator and Wrapper  | 
+
+
+---
+
+EDIT THIS
+
+
 ## RetroDECK installed as User Application
 
 If you have installed RetroDECK from Flathub as a User Application (this also corresponds to Flatpak Shell `app/`):
@@ -30,7 +56,7 @@ If you have installed RetroDECK from Flathub as a User Application (this also co
 | lib Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` | Freedesktop Runtime Libraries |  
 | Components Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/components/` | Components Folders |  
 | shared-libs Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/components/shared-libs/` | Components Shared Libraries | 
-| libexec Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | Various script functions like post_update.sh |  
+
 | retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | `retrodeck.cfg`  `net.retrodeck.retrodeck.mime.xml` `retrodeck-mimetype.xml` |  
 | binding_icons Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/binding_icons/` |  Steam: Radial Icons  |  
 | steam_grid Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/steam_grid/` |   Steam: Grid Art |  

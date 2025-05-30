@@ -2,7 +2,7 @@
 
 RetroDECK is a Flatpak a sandboxed bundle of different applications and configurations. 
 
-## User Accessible Folders 
+## RetroDECK Flatpak: Userdata Accessible Folders 
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
@@ -14,17 +14,9 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 | Flatpak RetroDECK Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/` | `retrodeck.cfg`, `godot` and `changelog.xml` files    |  
 
 
+## RetroDECK Flatpak: Folder Structure 
 
-## RetroDECK installed as User Application
-
-If you have installed RetroDECK from Flathub as a User Application (this also corresponds to Flatpak Shell `app/`):
-
-- **Folder Local:** If RetroDECK is installed as a local application.
-- **Folder System:** If RetroDECK is installed as a system application.
-
-### Top Level
-
-| Type    | Folder Local           | Folder System           |          Comment     | 
+| Folder Name    | Path Local           | Path System           |          Comment     | 
 |  :---:  | :---:                  |             :---:     | :---:  | 
 | RetroDECK's Flatpak Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` |  | This is mapped as the `/app` inside the flatpak.  |
 | bin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` |  | Symlinked binaries, other binaries, `retrodeck.sh`  |
@@ -34,6 +26,10 @@ If you have installed RetroDECK from Flathub as a User Application (this also co
 | share Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` |  | Shared resources  | 
 | tools Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/tools/` |  | Configurator and Wrapper  | 
 
+- **Folder Name:** Name of the folder
+- **Path Local:** If RetroDECK is installed as a local application.
+- **Path System:** If RetroDECK is installed as a system application.
+- **Comment:** Comments
 
 ---
 

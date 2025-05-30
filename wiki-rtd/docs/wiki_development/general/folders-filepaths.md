@@ -26,13 +26,13 @@ If you have installed RetroDECK from Flathub as a User Application (this also co
 
 | Type    | Folder Local           | Folder System           |          Comment     | 
 |  :---:  | :---:                  |             :---:     | :---:  | 
-| RetroDECK's Flatpak Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | This is mapped as the `/app` inside the flatpak.  |
-| bin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | Symlinked binaries, other binaries, `retrodeck.sh`  |
-| lib Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` | Freedesktop Runtime Libraries |  
-| libexec Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | Various script functions like post_update.sh |  
-| retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | RetroDECK Structure Subfolders |  
-| share Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` | Shared resources  | 
-| tools Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/tools/` | Configurator and Wrapper  | 
+| RetroDECK's Flatpak Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` |  | This is mapped as the `/app` inside the flatpak.  |
+| bin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` |  | Symlinked binaries, other binaries, `retrodeck.sh`  |
+| lib Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` |  | Freedesktop Runtime Libraries |  
+| libexec Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | | Various script functions like post_update.sh |  
+| retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` |  | RetroDECK Structure Subfolders |  
+| share Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` |  | Shared resources  | 
+| tools Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/tools/` |  | Configurator and Wrapper  | 
 
 
 ---

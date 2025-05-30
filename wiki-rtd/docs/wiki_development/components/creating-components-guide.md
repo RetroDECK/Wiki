@@ -109,7 +109,9 @@ Before proposing anything, download and run the component locally. Understand ho
 
 ---
 
-## Prerequisites: Install Development Tools 
+## Prerequisites
+
+### Install Development Tools 
 
 Make sure the following tools are installed on your system:
 
@@ -119,7 +121,16 @@ Make sure the following tools are installed on your system:
 
 Install them using your distribution’s package manager (e.g. `apt`, `dnf`, `pacman`, etc.).
 
-## How-to: Enter the Flatpak Shell & Folders
+### Install Latest RetroDECK Cooker
+
+[RetroDECK/Cooker](https://github.com/RetroDECK/Cooker)
+
+```
+flatpak remove net.retrodeck.retrodeck -y
+flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak 
+```
+
+### How-to: Enter the Flatpak Shell & Folders
 
 ```
 flatpak run --command=bash net.retrodeck.retrodeck --debug
@@ -127,7 +138,10 @@ flatpak run --command=bash net.retrodeck.retrodeck --debug
 
 `app/` corresponds to your local Flatpak environment.
 
-**Read more here:** [Folders & Filepaths](../general/folders-filepaths.md)
+**Read more here:** 
+
+- [Folders & Filepaths](../general/folders-filepaths.md)
+- [Debug Mode](../general/debug-mode.md)
 
 ---
 

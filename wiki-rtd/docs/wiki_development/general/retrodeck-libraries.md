@@ -20,6 +20,16 @@ This structure helps keep things clean, efficient, and modular. It also defines 
 2. **shared-libs/** – If the library is used by multiple components, put it here.
 3. **Component: lib/** – If it’s only used by one component, keep it local.
 
-If a library is already in the runtime or shared-libs, **remove it from the component** to avoid duplication.  
-If you think a library might be useful for other components, consider moving it to `shared-libs/`.  
+**Example:**
+
+If a library is already in the `runtime` or `shared-libs`, **remove it from the component** to avoid duplication.
+
+If you think a library might be useful for other components, consider moving it to `shared-libs/`.
+
 Otherwise, keep it in the component’s own `lib/` folder.
+
+---
+
+## Library Manager (LibMan)
+
+W.I.P

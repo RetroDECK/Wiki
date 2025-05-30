@@ -1,6 +1,6 @@
 # RetroDECK: Flatpak Folder Structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="75">
+<img src="../../../wiki_icons/pixelitos/folder-red-games.png" width="75">
 
 RetroDECK is a Flatpak a sandboxed bundle of different applications and configurations. 
 
@@ -8,14 +8,14 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 
 | **Folder Name**     | **Folder Path**                 |          **Comment**     | 
 |  :---:  | :---:                  |             :---:     |
-| retrodeck/ (userdata) Folder |`<Dynamic Path>/retrodeck/` |  Read more here:    |  
+| retrodeck/ (userdata) Folder |`<Dynamic Path>/retrodeck/` |  **Read more here:** [RetroDECK: Userdata Folder Structure](../../wiki_management/retrodeck-folders/retrodeck-folders.md)    |  
 | /.var/app/net.retrodeck.retrodeck Folder |`~/.var/app/net.retrodeck.retrodeck` |  Exposes configuration, cache, and system data from the Flatpak environment.   |  
 | cache Folder |`~/.var/app/net.retrodeck.retrodeck/cache/` |  cache files and temp data  for components |  
 | config Folder |`~/.var/app/net.retrodeck.retrodeck/config/` | configuration files for components    |  
 | data Folder |`~/.var/app/net.retrodeck.retrodeck/data/` |  data structures for components      |  
 | config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/` | `retrodeck.cfg`   |  
 
-[RetroDECK: Userdata Folder Structure](../../../wiki_management/retrodeck-folders/retrodeck-folders.md)
+
 
 ---
 

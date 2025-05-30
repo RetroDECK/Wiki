@@ -394,9 +394,9 @@ nav:
     - Debug Mode: wiki_development/general/debug-mode.md
     - RetroDECK Flatpak Folders: wiki_development/general/folders-filepaths.md
     - RetroDECK Libraries: wiki_development/general/retrodeck-libraries.md
+    - RetroDECK API Development: wiki_development/api/about-api-development.md
 
-    - RetroDECK API:
-      - About API Development: wiki_development/api/about-api-development.md
+    - RetroDECK API Requests:
       - DO cheevos_login: wiki_development/api/do-cheevos-login.md
       - DO compress_games: wiki_development/api/do-compress-games.md
       - DO install: wiki_development/api/do-install.md

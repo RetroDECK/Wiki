@@ -24,7 +24,7 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 - **Folder Name:** Name of the folder
 - **Path Local**: If RetroDECK is installed as a local application.
 - **Path System**: If RetroDECK is installed as a system application.
-- ****Comment**: Comments and notes.
+- **Comment**: Comments and notes.
 
 ---
 

@@ -2,9 +2,24 @@
 
 <img src="../../../wiki_images/logos/flatpak-logo.svg" width="100">
 
+This is general information about the Flatpak packing format.
+
 Flatpak is a application packing method available on Linux and provides a separate sandbox environment from the main OS like chroot or a docker container.
 
-## The Manifest file
+
+### How do I browse RetroDECK flatpak enviroment?
+
+Via Debug Mode you can access the full flatpak system such as `/var` `/app`.
+
+
+**Read more here:** 
+
+[RetroDECK: Debug Mode](../general/debug-mode.md)
+
+
+
+## The Manifest File
+
 More on: [Flatpak Manifests](https://docs.flatpak.org/en/latest/manifests.html)
 
 The manifest is an `.yml`or `.json` with a set of instructions to tell the flatpak-builder cli tool how to build the flatpak from the modules in the file.
@@ -14,43 +29,35 @@ The manifest got an header and a body that is the definitions of modules.
 Even the core application it self is a module inside the flatpak that needs to be defined.
 
 
-### RetroDECK: Manifest
+### RetroDECK: net.retrodeck.retrodeck.yml
 
 RetroDECK flatpak's name is `net.retrodeck.retrodeck` and it's defined in the manifest file.
 
-[net.retrodeck.retrodeck.yml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) in our manifest the RetroDECK module is defined together with a ever growing list of other modules like our dependencies:
+[net.retrodeck.retrodeck.yml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) in our manifest the RetroDECK.
 
-- Emulators
-- Game Engines
-- Libraries
-- Github / Gitlab projects
+## Flatpak Folder Structure
 
-Are all defined in their own module and built together.
+### The /app folder
 
-*"It's modules all the way down!"*
+The flatpak application is located and built inside the `/app` folder.
 
-## The /app folder
+The real location of the `/app` folder in the hostOS is different depending on how you installed it. 
 
-The flatpak application is located and built inside the `/app` folder within this environment.
+*See link above*
 
-The real location of the `/app` folder in the hostOS is in the none writable path: `/var/lib/flatpak/app/`
+### The Writable /var/ folder:
 
-In RetroDECK's case it is `/var/lib/flatpak/app/net.retrodeck.retrodeck/`
-
-### Writable folders in RetroDECK:
-
-These folder are the only folders writable by flatpak:
-
-(Note that these /var/ source folders are within the flatpak environment)
+These folder are the only folders writable by flatpak and corresponds to `/var` inside the Flatpak Environment.
 
 - `/var/data` is mapped to  `~/.var/app/<FLATPAKNAME>/data`
 - `/var/cache` is mapped to  `~/.var/app/<FLATPAKNAME>/cache`
 - `/var/config` is mapped to`~/.var/app/<FLATPAKNAME>/config`
 
-**For RetroDECK:**
+### RetroDECK: Flatpak Folder Structure
 
-`~/.var/app/net.retrodeck.retrodeck/`
+**Read more here:**
 
+[RetroDECK: Flatpak Folder Structure](../general/folders-filepaths.md)
 
 
 ## The Metainfo file
@@ -63,6 +70,7 @@ To be published on Flathub a metainfo `.xml` file is needed that contains all th
 - Version
 - Patchnotes
 - Etc...
+
 
 ### RetroDECK: Metainfo file
 
@@ -168,10 +176,3 @@ A good way to learn how to write modules is to search on flathub's GitHub for ot
 - Cleanup by deleting the paths defined in the cleanup.
 
 
-## How do I browse RetroDECK flatpak enviroment?
-
-Via Debug Mode:
-
-`flatpak run --command=sh net.retrodeck.retrodeck`
-
-You can then access the full flatpak system such as `/var/` `/app/`

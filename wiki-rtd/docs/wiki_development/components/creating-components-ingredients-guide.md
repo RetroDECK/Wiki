@@ -155,7 +155,7 @@ The RetroDECK Team and Community (Taste) Testers will:
 
 Now your component have been added into RetroDECK, but how do the users access it?
 
-You need to make it accessible within ES-DE (unless your component is a system that should only be part of the Configurator)-
+You need to make it accessible within ES-DE (unless your component is a system that should only be part of the Configurator).
 
 **Read more:** 
 

@@ -1,5 +1,9 @@
 # Creating Component: Ingredient and Recipe Files Guide
 
+<img src="../../../wiki_icons/retrodeck/icon-assembler.svg" width="75">
+
+## Description 
+
 Read the Development Glossary a more shot general explanation of each file: [Development Glossary](../development-glossary.md) 
 
 **The Ingredient files:**

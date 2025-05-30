@@ -1,5 +1,8 @@
 # RetroDECK Libraries
 
+
+<img src="../../../wiki_icons/pixelitos/folder-red-activities.png" width="75">
+
 Libraries in RetroDECK can live in three main places. This structure helps keep things clean, efficient, and modular.
 
 ## Library Structure
@@ -36,5 +39,9 @@ But it is in `lib/LibExample.so.7`.
 
 LibMan will symlink `lib/LibExample.so.7` to `component/examplecomponent/lib/LibExample.so.7`.
 
-
 If it would exist at both places, LibMan would remove the component `LibExample.so.7` and symlink it instead.
+
+**Note:**
+
+LibMan is not 100% fool proof.
+

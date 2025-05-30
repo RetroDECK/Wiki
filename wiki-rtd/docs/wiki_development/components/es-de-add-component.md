@@ -1,6 +1,8 @@
 # Component: Add to ES-DE
 
-<img src="../../../wiki_images/logos/es-de-logo.png" width="150">
+<img src="../../../wiki_images/logos/es-de-logo.png" width="75">
+
+## Description 
 
 **Note:**
 

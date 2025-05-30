@@ -1,6 +1,6 @@
 # How-to: Add a Component to RetroDECK - A Cooking Philosophy
 
-<img src="../../../wiki_icons/pixelitos/cs-extensions.png" width="75">
+<img src="../../../wiki_icons/retrodeck/icon-component.svg" width="75">
 
 This is the first step of creating a component and adding it into RetroDECK.
 

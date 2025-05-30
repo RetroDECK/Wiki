@@ -1,5 +1,7 @@
 # Steam Input - Development
 
+<img src="../../../wiki_icons/pixelitos/folder-red-steam.png" width="75">
+
 **Note:** 
 
 Applications that are not native on Steam get a random AppID number.

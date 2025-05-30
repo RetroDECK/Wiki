@@ -1,4 +1,6 @@
-# RetroDECK: Debugging
+# RetroDECK: Debug Mode
+
+<img src="../../../wiki_icons/pixelitos/folder-red-android.png" width="75">
 
 ## Debug Log
 

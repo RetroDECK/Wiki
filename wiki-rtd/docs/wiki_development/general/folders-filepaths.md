@@ -6,12 +6,12 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 
 | Folder Type:    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| RetroDECK Userdata Folder |`retrodeck/` |   Dynamic path, Contains userdata: `roms`, `bios` etc...    |  
-| Flatpak .var/app/ Folder |`~/.var/app/net.retrodeck.retrodeck` |  contains: `cache` `config` and `data`     |  
-| Flatpak cache Folder |`~/.var/app/net.retrodeck.retrodeck/cache/` |  cache files and temp data   |  
-| Flatpak config Folder |`~/.var/app/net.retrodeck.retrodeck/config/` | configuration files for various systems    |  
-| Flatpak data Folder |`~/.var/app/net.retrodeck.retrodeck/data/` |  data structures and files need by some systems      |  
-| Flatpak RetroDECK config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/` | `retrodeck.cfg`, `godot` and `changelog.xml` files    |  
+| retrodeck/ Userdata Folder |`retrodeck/` |   Dynamic path, Contains userdata: `roms`, `bios` etc...    |  
+| /.var/app/net.retrodeck.retrodeck Folder |`~/.var/app/net.retrodeck.retrodeck` |  contains: `cache` `config` and `data`     |  
+| cache Folder |`~/.var/app/net.retrodeck.retrodeck/cache/` |  cache files and temp data  for components |  
+| config Folder |`~/.var/app/net.retrodeck.retrodeck/config/` | configuration files for components    |  
+| data Folder |`~/.var/app/net.retrodeck.retrodeck/data/` |  data structures for components      |  
+| config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/` | `retrodeck.cfg`   |  
 
 ---
 

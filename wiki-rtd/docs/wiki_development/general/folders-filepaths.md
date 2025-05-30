@@ -16,7 +16,7 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 
 ## RetroDECK installed as User Application
 
-If you have installed RetroDECK from flathub as a User Application.
+If you have installed RetroDECK from flathub as a User Application `app/` is:
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
@@ -28,6 +28,8 @@ If you have installed RetroDECK from flathub as a User Application.
 | SRM Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/srm/` | Used by Steam Rom Manager |  
 | bin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Mapped to /app/bin inside the flatpak. Contains: wrappers, scripts, retrodeck.sh and more |  
 | lib Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` | Freedesktop Runtime Libraries |  
+| Components Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/components/` | Components Folders |  
+| shared-libs Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/components/shared-libs/` | Components Shared Libraries | 
 | libexec Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | Various script functions like post_update.sh |  
 | retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | `retrodeck.cfg`  `net.retrodeck.retrodeck.mime.xml` `retrodeck-mimetype.xml` |  
 | binding_icons Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/binding_icons/` |  Steam: Radial Icons  |  
@@ -49,7 +51,7 @@ If you have installed RetroDECK from flathub as a User Application.
 
 ## RetroDECK installed as System Application
 
-If you have installed RetroDECK from flathub as a System Application.
+If you have installed RetroDECK from flathub as a System Application `app/` is:
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
@@ -61,6 +63,8 @@ If you have installed RetroDECK from flathub as a System Application.
 | SRM Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/srm/` | Used by Steam Rom Manager |  
 | bin Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Mapped to /app/bin inside the flatpak. Contains: wrappers, scripts, retrodeck.sh and more |  
 | lib Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` | Freedesktop Runtime Libraries |  
+| Components Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/components/` | Components Folders |  
+| shared-libs Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/components/shared-libs/` | Components Shared Libraries | 
 | libexec Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | `retrodeck.cfg`  `net.retrodeck.retrodeck.mime.xml` `retrodeck-mimetype.xml` |  
 | retrodeck Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | contains various extra files and features like icons, the system config files  |  
 | binding_icons Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/binding_icons/` |  Steam: Radial Icons  |  

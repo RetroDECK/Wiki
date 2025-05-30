@@ -109,7 +109,7 @@ Before proposing anything, download and run the component locally. Understand ho
 
 ---
 
-## Prerequisites: Install Development Tools
+## Prerequisites: Install Development Tools 
 
 Make sure the following tools are installed on your system:
 
@@ -119,6 +119,15 @@ Make sure the following tools are installed on your system:
 
 Install them using your distribution’s package manager (e.g. `apt`, `dnf`, `pacman`, etc.).
 
+### How-to: Enter the Flatpak Shell
+
+```
+flatpak run --command=bash net.retrodeck.retrodeck --debug
+```
+
+`app/` corresponds to your local Flatpak environment.
+
+**Read more here:** [Folders & Filepaths](../general/folders-filepaths.md)
 
 ---
 

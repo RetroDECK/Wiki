@@ -191,9 +191,9 @@ They have been grouped by type in the lists.
 
 | Folder  Name    | Path Local           | Path System           |          Comment     |
 |  :---:  | :---:                  |             :---:     | :---:  |
-| metainfo Folder |``~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/metainfo/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/metainfo/`  |  `net.retrodeck.retrodeck.metainfo.xml`  | 
-| mime Folder |``~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/mime/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/mime/`  |  `net.retrodeck.retrodeck.mime.xml`  | 
-| icons Folder |``~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/icons/hicolor/scalable/apps/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/icons/hicolor/scalable/apps/`  |  Icons svg | 
+| metainfo Folder | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/metainfo/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/metainfo/`  |  `net.retrodeck.retrodeck.metainfo.xml`  | 
+| mime Folder | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/mime/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/mime/`  |  `net.retrodeck.retrodeck.mime.xml`  | 
+| icons Folder | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/icons/hicolor/scalable/apps/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/icons/hicolor/scalable/apps/`  |  Icons svg | 
 
 ## Steam Folder structure
 

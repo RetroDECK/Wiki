@@ -16,7 +16,7 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 
 ## RetroDECK installed as User Application
 
-If you have installed RetroDECK from flathub as a User Application `app/` is:
+If you have installed RetroDECK from Flathub as a User Application (this also corresponds to Flatpak Shell `app/`):
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
@@ -51,7 +51,7 @@ If you have installed RetroDECK from flathub as a User Application `app/` is:
 
 ## RetroDECK installed as System Application
 
-If you have installed RetroDECK from flathub as a System Application `app/` is:
+If you have installed RetroDECK from Flathub as a System Application (this also corresponds to Flatpak Shell `app/`):
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

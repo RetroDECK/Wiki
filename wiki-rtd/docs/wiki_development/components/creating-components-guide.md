@@ -119,7 +119,7 @@ Make sure the following tools are installed on your system:
 
 Install them using your distribution’s package manager (e.g. `apt`, `dnf`, `pacman`, etc.).
 
-### How-to: Enter the Flatpak Shell
+## How-to: Enter the Flatpak Shell & Folders
 
 ```
 flatpak run --command=bash net.retrodeck.retrodeck --debug

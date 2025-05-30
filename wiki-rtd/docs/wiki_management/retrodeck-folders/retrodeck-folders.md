@@ -1,20 +1,23 @@
-# RetroDECK Folder Structure
+# RetroDECK: Userdata Folder Structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="75">
 
-Here is the RetroDECK folder structure.
+Here is the RetroDECK folder structure for userdata.
 
 ## Main Folders
 
-| **Type**         | **Folder**                                                              | **Comment**                                                                 |
+| **Folder Name**         | **Folder Path**                                                              | **Comment**                                                                 |
 |:----------------:|:-----------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
-| Flatpak Folder   | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/`    | Contains the sandboxed flatpak environment and should not be touched.       |
-| User Var Folder  | `~/.var/app/net.retrodeck.retrodeck/`                                   | Exposes configuration, cache, and system data from the Flatpak environment. |
-| Userdata Folder  | `retrodeck/`                                                            | Contains userdata. Has a dynamic location, chosen by the user.              |
+| userdata Folder  | `retrodeck/`                                                            | Contains userdata. Has a dynamic location, chosen by the user.              |
+| /.var/app/net.retrodeck.retrodeck/ Folder  | `~/.var/app/net.retrodeck.retrodeck/`                                   | Exposes configuration, cache, and system data from the Flatpak environment. |
+| cache Folder |`~/.var/app/net.retrodeck.retrodeck/cache/` |  cache files and temp data  for components |  
+| config Folder |`~/.var/app/net.retrodeck.retrodeck/config/` | configuration files for components    |  
+| data Folder |`~/.var/app/net.retrodeck.retrodeck/data/` |  data structures for components      |  
+| config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/` | `retrodeck.cfg`   |  
 
 ## Userdata Folder - retrodeck/
 
-| **Type**             | **Folder**                | **Comment**                                           |
+| **Folder Name**             | **Folder Path**                 | **Comment**                                           |
 |:--------------------:|:-------------------------:|:-----------------------------------------------------:|
 | BIOS Folder          | `retrodeck/bios`          | BIOS folder (follows the RetroArch BIOS structure).   |
 | Borders Folder       | `retrodeck/borders`       | Border files for supported systems                    |
@@ -32,7 +35,7 @@ Here is the RetroDECK folder structure.
 
 ## ES-DE Folder
 
-| **Type**               | **Folder**          | **Comment**                      |
+| **Folder Name**               | **Folder Path**            | **Comment**                      |
 |:----------------------:|:-------------------:|:--------------------------------:|
 | Collections Folder     | collections         | Custom ES-DE Collection          |
 | Custom Systems Folder  | custom_systems      | Custom Systems                   |
@@ -44,7 +47,7 @@ Here is the RetroDECK folder structure.
 
 Most BIOS files are put in the root of the folder. 
 
-| **Type**             | **Folder**          | **Comment** |
+| **Folder Name**             | **Folder Path**            | **Comment** |
 |:--------------------:|:-------------------:|:-----------:|
 | Cemu Folder          | cemu                |             |
 | Citra Folder         | citra               |             |
@@ -69,7 +72,7 @@ Most BIOS files are put in the root of the folder.
 
 RetroDECK Follows the ES-DE ROMs Folder Structure. 
 
-| **Type** | **Folder** | **Comment** |
+| **Folder Name** | **Folder Path**   | **Comment** |
 |  :---:  | :---:       |   :---:     |
 | 3DO Folder | 3do | A 32-bit console known for its high price and multimedia capabilities. |
 | Adam Folder | adam | A home computer and game console hybrid released by Coleco. |

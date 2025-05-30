@@ -1,32 +1,36 @@
-# What are the various folders and filepaths in RetroDECK?
+# RetroDECK: Flatpak Folder Structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="75">
 
 RetroDECK is a Flatpak a sandboxed bundle of different applications and configurations. 
 
-## RetroDECK Flatpak: Userdata Accessible Folders 
+## RetroDECK Flatpak: User Accessible Folders 
 
-| Folder Name    | Path                 |          Comment     | 
+| **Folder Name**     | **Folder Path**                 |          **Comment**     | 
 |  :---:  | :---:                  |             :---:     |
-| retrodeck/ Userdata Folder |`<Dynamic Path>/retrodeck/` |  User decides the folder location. Contains userdata: `roms`, `bios` etc...    |  
-| /.var/app/net.retrodeck.retrodeck Folder |`~/.var/app/net.retrodeck.retrodeck` |  contains: `cache` `config` and `data`     |  
+| retrodeck/ (userdata) Folder |`<Dynamic Path>/retrodeck/` |  Read more here:    |  
+| /.var/app/net.retrodeck.retrodeck Folder |`~/.var/app/net.retrodeck.retrodeck` |  Exposes configuration, cache, and system data from the Flatpak environment.   |  
 | cache Folder |`~/.var/app/net.retrodeck.retrodeck/cache/` |  cache files and temp data  for components |  
 | config Folder |`~/.var/app/net.retrodeck.retrodeck/config/` | configuration files for components    |  
 | data Folder |`~/.var/app/net.retrodeck.retrodeck/data/` |  data structures for components      |  
 | config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/` | `retrodeck.cfg`   |  
+
+[RetroDECK: Userdata Folder Structure](../../../wiki_management/retrodeck-folders/retrodeck-folders.md)
 
 ---
 
 ## RetroDECK Flatpak: Folder Structure 
 
 - **Folder Name:** Name of the folder
-- **Path Local:** If RetroDECK is installed as a local application.
-- **Path System:** If RetroDECK is installed as a system application.
-- **Comment:** Comments
+- ****Path Local**:** If RetroDECK is installed as a local application.
+- ****Path System**:** If RetroDECK is installed as a system application.
+- ****Comment**:** Comments and notes.
 
 ---
 
 ### flatpak/app/net.retrodeck.retrodeck/ - Top Level
 
-| Folder  Name    | Path Local           | Path System           |          Comment     | 
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     | 
 |  :---:  | :---:                  |             :---:     | :---:  | 
 | RetroDECK's Flatpak Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | This is mapped as the `/app` inside the flatpak. `manifest.json` is also located here  |
 | bin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Symlinked binaries, other binaries, `retrodeck.sh`  |
@@ -41,7 +45,7 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 
 ### retrodeck/
 
-| Folder  Name    | Path Local           | Path System           |          Comment     | 
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     | 
 |  :---:  | :---:                  |             :---:     | :---:  | 
 | binding_icons Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/binding_icons/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/binding_icons/` |  Steam: Radial Icons  |  
 | components Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/` | Components sub-folders |
@@ -55,7 +59,7 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 #### retrodeck/graphics/
 
 
-| Folder  Name    | Path Local           | Path System           |          Comment     | 
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     | 
 |  :---:  | :---:                  |             :---:     | :---:  | 
 | Extra Splashes Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/graphics/extra_splashes/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/graphics/extra_splashes/` |  Contains extra RetroDECK startup images (splashes)     |  
 
@@ -69,7 +73,7 @@ They have been grouped by type in the lists.
 
 ##### Emulators
 
-| Folder  Name    | Path Local           | Path System           |          Comment     | 
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     | 
 |  :---:  | :---:                  |             :---:     | :---:  | 
 | cemu Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/cemu/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/cemu/` |  cemu  |
 | dolphin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/dolphin/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/dolphin/` |  dolphin  |  
@@ -88,14 +92,14 @@ They have been grouped by type in the lists.
 
 ##### Engines
 
-| Folder  Name    | Path Local           | Path System           |          Comment     | 
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     | 
 |  :---:  | :---:                  |             :---:     | :---:  | 
 | gzdoom Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/gzdoom/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/gzdoom/` |  gzdoom  |  
 | solarus Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/solarus/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/solarus/` |  solarus  |  
 
 ##### Ports
 
-| Folder  Name    | Path Local           | Path System           |          Comment     | 
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     | 
 |  :---:  | :---:                  |             :---:     | :---:  | 
 | portX Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/` |  portx  |  
 
@@ -104,7 +108,7 @@ They have been grouped by type in the lists.
 
 ##### Systems
 
-| Folder  Name    | Path Local           | Path System           |          Comment     | 
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     | 
 |  :---:  | :---:                  |             :---:     | :---:  | 
 | es-de Main Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/es-de/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/es-de/` |  ES-DE  |  
 | es-de Linux Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/retrodeck/components/es-de/share/es-de/resources/systems/linux/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/es-de/share/es-de/resources/systems/linux/`  | `es_find_rules.xml` `es_systems.xml` |  
@@ -113,7 +117,7 @@ They have been grouped by type in the lists.
 
 ##### Other 
 
-| Folder  Name    | Path Local           | Path System           |          Comment     | 
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     | 
 |  :---:  | :---:                  |             :---:     | :---:  | 
 | shared-libs Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/shared-libs/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/shared-libs/` |  Shared Libraries  |  
 
@@ -133,7 +137,7 @@ They have been grouped by type in the lists.
 
 ##### Emulators
 
-| Folder  Name    | Path Local           | Path System           |          Comment     |
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     |
 |  :---:  | :---:                  |             :---:     | :---:  |
 | cemu Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/cemu/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/cemu/` |  cemu  |
 | dolphin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/dolphin/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/dolphin/` |  dolphin  |
@@ -154,7 +158,7 @@ They have been grouped by type in the lists.
 
 ##### Engines
 
-| Folder  Name    | Path Local           | Path System           |          Comment     |
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     |
 |  :---:  | :---:                  |             :---:     | :---:  |
 | gzdoom Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/gzdoom/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/gzdoom/` |  gzdoom wrapper |
 | solarus Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/solarus/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/solarus/` |  solarus  |
@@ -162,7 +166,7 @@ They have been grouped by type in the lists.
 
 ##### Ports
 
-| Folder  Name    | Path Local           | Path System           |          Comment     |
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     |
 |  :---:  | :---:                  |             :---:     | :---:  |
 | portX Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/` |  portx  |
 
@@ -171,7 +175,7 @@ They have been grouped by type in the lists.
 
 ##### Systems
 
-| Folder  Name    | Path Local           | Path System           |          Comment     |
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     |
 |  :---:  | :---:                  |             :---:     | :---:  |
 | es-de Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/es-de/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/es-de/` |  ES-DE  |
 | portmaster Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/portmaster/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/portmaster` |  portmaster  |
@@ -179,7 +183,7 @@ They have been grouped by type in the lists.
 
 ##### retrodeck/config/retrodeck
 
-| Folder  Name    | Path Local           | Path System           |          Comment     |
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     |
 |  :---:  | :---:                  |             :---:     | :---:  |
 | retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/` |  RetroDECK's config folder `retrodeck.cfg`  `net.retrodeck.retrodeck.mime.xml` `retrodeck-mimetype.xml` |
 | controller configs Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/controller_configs/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/controller_configs/` |  Steam Input Templates   |
@@ -189,16 +193,20 @@ They have been grouped by type in the lists.
 
 ### share/
 
-| Folder  Name    | Path Local           | Path System           |          Comment     |
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     |
 |  :---:  | :---:                  |             :---:     | :---:  |
 | metainfo Folder | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/metainfo/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/metainfo/`  |  `net.retrodeck.retrodeck.metainfo.xml`  | 
 | mime Folder | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/mime/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/mime/`  |  `net.retrodeck.retrodeck.mime.xml`  | 
 | icons Folder | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/icons/hicolor/scalable/apps/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/icons/hicolor/scalable/apps/`  |  Icons svg | 
 
-## Steam Folder structure
+## Steam: Folder Structure
 
-| Type    | Folder                 | Comment     | 
+**Note:** 
+
+We only list the folders used by RetroDECK.
+
+| **Folder Name**    | **Folder Path**                  | **Comment**     | 
 |  :---:  | :---:                  | :---:     |
 | Steam Default Templates Folder |`~/.steam/steam/controller_base/templates/` |        RetroDECK injects Steam Input Templates here                   |  
 | Application Templates Folder |`~/.steam/steam/steamapps/common/Steam Controller Configs/<AppID>/config/retrodeck/` | Temporary changes are stored here if the user makes them|
-| Steam Binding Icons Folder |`~/.steam/steam/tenfoot/resource/images/library/controller/binding_icons/` |               etroDECK injects Steam Input Templates here                        |  
+| Steam Binding Icons Folder |`~/.steam/steam/tenfoot/resource/images/library/controller/binding_icons/` |               RetroDECK injects Steam Input Templates here                        |  

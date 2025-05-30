@@ -274,7 +274,7 @@ nav:
 
   - Guides - RetroDECK Management 📁:
 
-    - RetroDECK Folders : wiki_management/retrodeck-folders/retrodeck-folders.md
+    - RetroDECK Userdata Folders : wiki_management/retrodeck-folders/retrodeck-folders.md
     - Update RetroDECK : wiki_management/retrodeck-update/retrodeck-update.md
     - Remove RetroDECK: wiki_management/retrodeck-remove/retrodeck-remove.md
     - Move RetroDECK to Another Device: wiki_management/retrodeck-move/retrodeck-move.md
@@ -392,7 +392,7 @@ nav:
     - Development Glossary: wiki_development/development-glossary.md
     - CLI Guide: wiki_development/general/cli-guide.md
     - Debug Mode: wiki_development/general/debug-mode.md
-    - Folders & Filepaths: wiki_development/general/folders-filepaths.md
+    - RetroDECK Flatpak Folders: wiki_development/general/folders-filepaths.md
     - RetroDECK Libraries: wiki_development/general/retrodeck-libraries.md
 
     - RetroDECK API:

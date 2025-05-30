@@ -7,30 +7,49 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
 | RetroDECK Userdata Folder |`retrodeck/` |   Dynamic path, Contains userdata: `roms`, `bios` etc...    |  
-| Flatpak Folder |`~/.var/app/net.retrodeck.retrodeck` |  contains: `cache` `config` and `data`     |  
-| Flatpak Cache Folder |`~/.var/app/net.retrodeck.retrodeck/cache/` |  cache files and temp data   |  
-| Flatpak Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/` | configuration files for various systems    |  
-| Flatpak Data Folder |`~/.var/app/net.retrodeck.retrodeck/data/` |  data structures and files need by some systems      |  
-| Flatpak RetroDECK Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/` | `retrodeck.cfg`, `godot` and `changelog.xml` files    |  
+| Flatpak .var/app/ Folder |`~/.var/app/net.retrodeck.retrodeck` |  contains: `cache` `config` and `data`     |  
+| Flatpak cache Folder |`~/.var/app/net.retrodeck.retrodeck/cache/` |  cache files and temp data   |  
+| Flatpak config Folder |`~/.var/app/net.retrodeck.retrodeck/config/` | configuration files for various systems    |  
+| Flatpak data Folder |`~/.var/app/net.retrodeck.retrodeck/data/` |  data structures and files need by some systems      |  
+| Flatpak RetroDECK config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/` | `retrodeck.cfg`, `godot` and `changelog.xml` files    |  
 
 
 ## RetroDECK Flatpak: Folder Structure 
-
-| Folder Name    | Path Local           | Path System           |          Comment     | 
-|  :---:  | :---:                  |             :---:     | :---:  | 
-| RetroDECK's Flatpak Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` |  | This is mapped as the `/app` inside the flatpak.  |
-| bin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` |  | Symlinked binaries, other binaries, `retrodeck.sh`  |
-| lib Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` |  | Freedesktop Runtime Libraries |  
-| libexec Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | | Various script functions like post_update.sh |  
-| retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` |  | RetroDECK Structure Subfolders |  
-| share Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` |  | Shared resources  | 
-| tools Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/tools/` |  | Configurator and Wrapper  | 
 
 - **Folder Name:** Name of the folder
 - **Path Local:** If RetroDECK is installed as a local application.
 - **Path System:** If RetroDECK is installed as a system application.
 - **Comment:** Comments
 
+### flatpak/app/net.retrodeck.retrodeck/ - Top Level
+
+| Folder  Name    | Path Local           | Path System           |          Comment     | 
+|  :---:  | :---:                  |             :---:     | :---:  | 
+| RetroDECK's Flatpak Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | This is mapped as the `/app` inside the flatpak. `manifest.json` is also located here  |
+| bin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Symlinked binaries, other binaries, `retrodeck.sh`  |
+| lib Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Freedesktop Runtime Libraries |  
+| libexec Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/libexec/` | Various script functions  `post_update.sh` |  
+| retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | RetroDECK Structure sub-folders and version file |  
+| share Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` | Shared resources  | 
+| tools Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/tools/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/tools/` | `configurator.sh` `retrodeck_function_wrapper.sh`  | 
+
+### retrodeck/
+
+| Folder  Name    | Path Local           | Path System           |          Comment     | 
+|  :---:  | :---:                  |             :---:     | :---:  | 
+| binding_icons Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/binding_icons/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/binding_icons/` |  Steam: Radial Icons  |  
+| components Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/` | Components sub-folders |
+| config Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/`| Exposed Component Configs sub-folders |  
+| graphics Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/graphics/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/graphics/` | Contains some graphical assets used by ES-DE and the `splash.svg` RetroDECK startup image  |  
+| steam_grid Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/steam_grid/` |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/steam_grid/` |  Grid art for Steam | 
+
+
+#### retrodeck/graphics/
+
+
+| Folder  Name    | Path Local           | Path System           |          Comment     | 
+|  :---:  | :---:                  |             :---:     | :---:  | 
+| Extra Splashes Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/graphics/extra_splashes/` | |  Contains extra RetroDECK startup images (splashes)     |  
 ---
 
 EDIT THIS
@@ -42,20 +61,19 @@ If you have installed RetroDECK from Flathub as a User Application (this also co
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| Flatpak Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | This is mapped as the `/app` inside the flatpak.  |  
 | Graphics Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/graphics/` |  Contains some graphical assets used by ES-DE and the `splash.svg` RetroDECK startup image  |  
-| Extra Splashes Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/graphics/extra_splashes/` |  Contains extra RetroDECK startup images (splashes)     |  
+
 | ES-DE Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/` | Top Level ES-DE Folder |  
 | ES-DE Linux Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` |  
 | SRM Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/srm/` | Used by Steam Rom Manager |  
 | bin Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/bin/` | Mapped to /app/bin inside the flatpak. Contains: wrappers, scripts, retrodeck.sh and more |  
 | lib Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/lib/` | Freedesktop Runtime Libraries |  
-| Components Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/components/` | Components Folders |  
+
 | shared-libs Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/components/shared-libs/` | Components Shared Libraries | 
 
 | retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | `retrodeck.cfg`  `net.retrodeck.retrodeck.mime.xml` `retrodeck-mimetype.xml` |  
-| binding_icons Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/binding_icons/` |  Steam: Radial Icons  |  
-| steam_grid Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/steam_grid/` |   Steam: Grid Art |  
+
+ 
 | PortMaster Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/PortMaster/` |  Used by PortMaster  |  
 | Share Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` | Shared resources  | 
 | Tools Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/tools/` | Configurator and Wrapper  | 
@@ -77,7 +95,6 @@ If you have installed RetroDECK from Flathub as a System Application (this also 
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| Flatpak Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` |  This is mapped as the `/app` inside the flatpak.     |  
 | Graphics Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/graphics/` |  Contains some graphical assets used by ES-DE and the `splash.svg` RetroDECK startup image  |  
 | Extra Splashes Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/graphics/extra_splashes/` |  Contains extra RetroDECK startup images (splashes)    |  
 | ES-DE Folder |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/` | Top Level ES-DE Folder |  

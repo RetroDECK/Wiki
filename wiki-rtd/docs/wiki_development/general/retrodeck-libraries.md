@@ -40,3 +40,4 @@ But it is in `lib/LibExample.so.7`.
 LibMan will symlink `lib/LibExample.so.7` to `component/examplecomponent/lib/LibExample.so.7`.
 
 If it would exist at both places, LibMan would remove the component `LibExample.so.7` and symlink it instead.
+

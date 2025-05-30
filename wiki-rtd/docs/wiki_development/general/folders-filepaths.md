@@ -11,7 +11,7 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 | retrodeck/ (userdata) Folder |`<Dynamic Path>/retrodeck/` |  **Read more here:** [RetroDECK: Userdata Folder Structure](../../wiki_management/retrodeck-folders/retrodeck-folders.md)    |  
 | /.var/app/net.retrodeck.retrodeck Folder |`~/.var/app/net.retrodeck.retrodeck` |  Exposes configuration, cache, and system data from the Flatpak environment.   |  
 | cache Folder |`~/.var/app/net.retrodeck.retrodeck/cache/` |  cache files and temp data  for components |  
-| config Folder |`~/.var/app/net.retrodeck.retrodeck/config/` | configuration files for components    |  
+| config Folder |`~/.var/app/net.retrodeck.retrodeck/config/` | copied configuration files for components    |  
 | data Folder |`~/.var/app/net.retrodeck.retrodeck/data/` |  data structures for components      |  
 | config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/` | `retrodeck.cfg`   |  
 
@@ -128,12 +128,16 @@ They have been grouped by type in the lists.
 Each components important default configs are stored here and extra files like:
 
 - Wrappers
-- Borders
+- Graphical assets like borders
 - Other things related to a component. 
 
 The structure mostly reflects the `retrodeck/components/` folder.
 
+A many of these are later copied over to `~/.var/app/net.retrodeck.retrodeck/config/` to be user editable from within RetroDECK by the end-user via it's corresponding component.
+
 They have been grouped by type in the lists.
+
+
 
 ##### Emulators
 

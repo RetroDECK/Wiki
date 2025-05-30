@@ -123,7 +123,11 @@ tar -czf "<component_name>-artifact.tar.gz" "<component_name>"
 tar -czf "cemu-artifact.tar.gz" "cemu"
 ```
 
-Then PR it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/components/tree/cooker) into it's own folder.
+Then pull-request it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/components/tree/cooker) into it's own folder.
+
+**Note**
+
+The Components Repo also got it's own Main and Cooker version. Always pull-request into cooker.
 
 ## Step 8: Write the recipe.sh Build File
 
@@ -151,7 +155,7 @@ The RetroDECK Team and Community (Taste) Testers will:
 - Test and bug report.
 - Ask you to tweak configurations. 
 
-## Step 11: How-to: Access your component? 
+## Step 10: How-to: Access your component? 
 
 Now your component have been added into RetroDECK, but how do the users access it?
 

@@ -1,6 +1,6 @@
 # Creating Component: AppImage
 
-<img src="../../../wiki_images/logos/appimage-logo.svg" width="100">
+<img src="../../../../wiki_images/logos/appimage-logo.svg" width="100">
 
 This a part of the How-to: Create Components Guide
 

@@ -4,7 +4,7 @@
 
 ## Description 
 
-Read the Development Glossary a more shot general explanation of each file: [Development Glossary](../development-glossary.md) 
+Read the Development Glossary a more shot general explanation of each file: [Development Glossary](../../development-glossary.md) 
 
 **The Ingredient files:**
 
@@ -35,7 +35,7 @@ This assumes you have already prepared a component folder from:
 
 **Read more here:** 
 
-- [component_launcher.sh](ing-component-launcher.md)
+- [component_launcher.sh](../component-files/component-ingredient-launcher.md)
 
 ## Step 2: Do a test run of component_launcher.sh 
 
@@ -81,11 +81,11 @@ If you can't configure file paths / folder paths from the configuration files yo
 
 **Read more here:** 
 
-- [component_functions.sh](ing-component-functions.md)
+- [component_functions.sh](../component-files/component-ingredient-functions.md)
 
-- [component_manifest.json](ing-component-manifest.md)
+- [component_manifest.json](../component-files/component-ingredient-manifest.md)
 
-- [component_prepare.sh](ing-component-prepare.md)
+- [component_prepare.sh](../component-files/component-ingredient-prepare.md)
 
 ## Step 6: Add the Ingredient files
 
@@ -137,7 +137,7 @@ The Components Repo also got it's own Main and Cooker version. Always pull-reque
 
 **Read more here:** 
 
-- [recipe.sh](component-recipe.md)
+- [recipe.sh](../component-files/component-recipe.md)
 
 Then PR it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/components/tree/cooker) next to the artifact in the folder.
 
@@ -167,5 +167,5 @@ You need to make it accessible within ES-DE (unless your component is a system t
 
 **Read more:** 
 
-[Component: Add to ES-DE](es-de-add-component.md)
+[Component: Add to ES-DE](component-add-to-es-de.md)
  

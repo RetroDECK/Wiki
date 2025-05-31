@@ -25,7 +25,7 @@ Components can broadly be categorized by from the application you want to add:
 - **Port**
 - **System**
 
-Read the Development Glossary for more details here: [Development Glossary](../development-glossary.md) 
+Read the Development Glossary for more details here: [Development Glossary](../../development-glossary.md) 
 
 #### On Adding Ports
 
@@ -140,8 +140,8 @@ flatpak run --command=bash net.retrodeck.retrodeck --debug
 
 **Read more here:** 
 
-- [Folders & Filepaths](../general/folders-filepaths.md)
-- [Debug Mode](../general/debug-mode.md)
+- [Folders & Filepaths](../../general/folders-filepaths.md)
+- [Debug Mode](../../general/debug-mode.md)
 
 ---
 

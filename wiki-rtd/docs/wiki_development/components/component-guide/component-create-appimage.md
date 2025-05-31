@@ -234,7 +234,7 @@ If they are missing try to add them to the components lib or the shared-libs.
 
 **Read more here for general information on libraries:** 
 
-[RetroDECK Libraries](../general/retrodeck-libraries.md)
+[RetroDECK Libraries](../../general/retrodeck-libraries.md)
 
 ---
 

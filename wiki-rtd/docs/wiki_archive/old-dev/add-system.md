@@ -10,7 +10,7 @@ With this article we try to showcase how to add a new system to RetroDECK. We wi
 
 This article assumes that the RetroDECK uses it's default standard paths.
 
-It also assumes that that you have looked at [Build Locally](build-locally.md) article as this continues from that introduction.
+It also assumes that that you have looked at Build Locally article as this continues from that introduction.
 
 ## Do you know the system you are trying to add?
 
@@ -57,7 +57,7 @@ Take a look at the following question and try to answer them
 - Fork and clone the main project [RetroDeck Github](https://github.com/XargonWan/RetroDECK/fork)
 - Adding an emulator would be classed as a **new feature** so create a branch based of the label feat, ie: `feat/new_emulator_name`
 - An example for **ruffle** can be seen [Github: Feat Ruffle](https://github.com/monkeyx-net/RetroDECK_UK/tree/feat/ruffle)
-- Initial testing can be done via the [Debug Mode](debug-mode.md)
+- Initial testing can be done via the Debug Mode
 - You will be able to manually run via emulator and test functionality
 - To get the emulator added to the manifest an example of ruffle is shown below as simple example manifest
 

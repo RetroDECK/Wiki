@@ -15,15 +15,20 @@ The `component_functions.sh` file contains:
 
 Each component has its own `component_functions.sh` file. These files are automatically sourced during system boot, ensuring all paths and functions are globally available without requiring manual inclusion or centralized maintenance.
 
-## Example: component_functions.sh for the PPSSPP Component
+## Examples
+
+**Check More Examples:**
+
+[RetroDECK Components/Cooker](https://github.com/RetroDECK/components/tree/cooker)
+
+### PPSSPP
 
 
 ```
 #!/bin/bash
+
 ppssppconf="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/ppsspp.ini"
 ppssppcontrolsconf="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/controls.ini"
 ppssppcheevosconf="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/ppsspp_retroachievements.dat"
-ppsspp_test_function() {
-  log d "PPSSPP function test confirmed! contents: $1"
-}
+ppssppcheatsdb="$rd_components/ppsspp/cheat.db"
 ```

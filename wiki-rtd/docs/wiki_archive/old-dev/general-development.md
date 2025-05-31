@@ -31,7 +31,7 @@ Talk to the RetroDECK development team if you have a need to make a new feature 
 
 ## Debug Mode
 
-Read more over at [Debug Mode](debug-mode.md).
+Read more over at Debug Mode
 
 ## Manual installation instructions
 This method is usually for the beta/cooker testers:

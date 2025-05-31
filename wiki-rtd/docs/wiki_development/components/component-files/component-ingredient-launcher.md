@@ -22,7 +22,12 @@ Make sure the `component_launcher.sh` is executable:
 chmod +x component_launcher.sh
 ```
 
-## Example: component_launcher.sh
+## Examples:
+
+
+**Check More Examples:**
+
+[RetroDECK Components/Cooker](https://github.com/RetroDECK/components/tree/cooker)
 
 
 ### PPSSPP

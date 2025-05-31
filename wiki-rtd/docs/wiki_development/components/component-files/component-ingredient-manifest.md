@@ -167,6 +167,11 @@ These entries can contain variable names (such as sourced config file paths) or 
 
 ## Example: component_manifest.json
 
+
+**Check More Examples:**
+
+[RetroDECK Components/Cooker](https://github.com/RetroDECK/components/tree/cooker)
+
 ### PPSSPP
 
 

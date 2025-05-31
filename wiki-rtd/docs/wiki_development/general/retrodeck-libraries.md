@@ -19,11 +19,13 @@ Libraries in RetroDECK can live in three main places. This structure helps keep 
 
 ## Library Manager (LibMan) 
 
-`LibMan` is RetroDECK's automated `Library Manager`.
+`LibMan` is RetroDECK's semi-automated `Library Manager`.
 
-If a library is already in the `lib/` or `components/shared-libs/`.
+It scans against automated and manually populated lists of known libraries in `lib/` or `components/shared-libs/`. 
 
-It will remove it from the `components/<component>/lib/` and add a symlink to avoid duplication.
+[Components: Shared-Libs Lists](https://github.com/RetroDECK/components/tree/cooker/shared-libs)
+
+If a library is already referenced it will remove it from the `components/<component>/lib/` and add a symlink to avoid duplication.
 
 `LibMan` works against a **priority order** for where libraries should go:
 

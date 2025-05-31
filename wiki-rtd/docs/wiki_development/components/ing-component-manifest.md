@@ -165,153 +165,88 @@ These entries can contain variable names (such as sourced config file paths) or 
 
 ---
 
-## Example: component_manifest.json for the RetroArch Component
+## Example: component_manifest.json
+
+### PPSSPP
+
 
 ```
 
 {
-  "retroarch": {
-    "name": "RetroArch",
-    "description": "Libretro Multi-emulator Frontend",
-    "url": "https://retrodeck.readthedocs.io/en/latest/wiki_emulator_guides/retroarch/retroarch-guide/",
-    "system": "retroarch",
-    "system_friendly_name": "Multiple Retro Systems",
+  "ppsspp": {
+    "name": "PPSSPP",
+    "description": "PlayStation Portable Emulator",
+    "url": "https://retrodeck.readthedocs.io/en/latest/wiki_emulator_guides/ppsspp/ppsspp-guide/",
+    "system": "psp",
+    "system_friendly_name": "Sony Playstation Portable",
     "configurator_menus": {
-        "settings": {
-          "ra_setting_1": {
-            "name": "Do a RetroArch thing",
-            "description": "Enable / Disable: RetroArch stuff",
-            "command": "configurator_rastuff_toggle_dialog"
-          }
+      "tools": {
+        "test_function": {
+          "name": "PPSSPP Test Function",
+          "description": "A test function",
+          "command": "ppsspp_test arg"
         },
-        "tools": {
-          "test_function": {
-            "name": "RetroArch Test Function",
-            "description": "A test function",
-            "command": "ra_test extraarg"
-          },
-          "test_function2": {
-            "name": "RetroArch Test Function2",
-            "description": "A test function 2",
-            "command": "retroarch_test2"
-          }
+        "test_function2": {
+          "name": "PPSSPP Test Function2",
+          "description": "A test function 2",
+          "command": "ppsspp_test2"
         }
-      },
+      }
+    },
     "compatible_presets": {
       "cheevos": [ "false", "true" ],
       "cheevos_hardcore": [ "false", "true" ],
-      "snes9x-current_libretro": {
-        "borders": [ "false", "true" ],
-        "widescreen": [ "false", "true" ]
-      },
-      "gambatte_libretro": {
-        "borders": [ "false", "true" ],
-        "rewind": [ "false", "true" ]
-      }
+      "test_preset": [ "false", "true" ]
     },
     "preset_actions": {
-      "config_file_format": "retroarch-all",
+      "config_file_format": "ppsspp",
+      "savestate_auto_load": {
+        "AutoLoadSaveState": {
+          "action": "change",
+          "new_setting_value": "2",
+          "section": "General",
+          "target_file": "$ppssppconf",
+          "defaults_file": "$config/ppssppsdl/ppsspp.ini"
+        }
+      },
       "cheevos": {
-        "cheevos_enable": {
+        "AchievementsEnable": {
           "action": "change",
           "new_setting_value": "True",
+          "section": "Achievements",
+          "target_file": "$ppssppconf",
+          "defaults_file": "$config/ppssppsdl/ppsspp.ini"
+        },
+        "AchievementsUserName": {
+          "action": "change",
+          "new_setting_value": "$cheevos_username",
+          "section": "Achievements",
+          "target_file": "$ppssppconf",
+          "defaults_file": "$config/ppssppsdl/ppsspp.ini"
+        },
+        "cheevos_token": {
+          "action": "change",
+          "new_setting_value": "$cheevos_token",
           "section": "",
-          "target_file": "$ra_conf",
-          "defaults_file": "$config/retroarch/retroarch.cfg"
+          "target_file": "$ppssppcheevosconf",
+          "defaults_file": "$ppssppcheevosconf"
         }
       },
-      "snes9x-current_libretro": {
-        "config_file_format": "retroarch",
-        "borders": {
-          "input_overlay": {
-            "action": "change",
-            "new_setting_value": "/var/config/retroarch/overlays/borders/pegasus/snes87.cfg",
-            "section": "",
-            "target_file": "/var/config/retroarch/config/Snes9x/snes.cfg",
-            "defaults_file": "$config/retroarch/retroarch.cfg"
-          }
+      "cheevos_hardcore": {
+        "AchievementsChallengeMode": {
+          "action": "change",
+          "new_setting_value": "True",
+          "section": "Achievements",
+          "target_file": "$ppssppconf",
+          "defaults_file": "$config/ppssppsdl/ppsspp.ini"
         }
-      }
-    },
-    "cores": {
-      "citra_libretro": {
-        "description": "Nintendo 3DS Libretro Core",
-        "name": "Citra",
-        "system": "n3ds"
       },
-      "mame_libretro": {
-        "description": "MAME: Multiple Arcade Machine Libretro Core",
-        "name": "MAME",
-        "system": "arcade"
-      },
-      "desmume_libretro": {
-        "description": "DeSmuME Nintendo DS Libretro Core",
-        "name": "desmume",
-        "system": "nds"
-      },
-      "melonds_libretro": {
-        "description": "MelonDS Nintendo DS Libretro Core",
-        "name": "melonds",
-        "system": "nds"
-      },
-      "swanstation_libretro": {
-        "name": "SwanStation",
-        "description": "Swanstation Libretro Core",
-        "system": "psx"
-      },
-      "picodrive_libretro": {
-        "name": "PicoDrive",
-        "description": "SEGA MS/MD/CD/32X Libretro Core",
-        "system": [
-          "ms",
-          "md",
-          "cd",
-          "32x"
-        ]
-      },
-      "genesisplusgx_libretro": {
-        "name": "Genesis Plus GX",
-        "description": "SEGA MS/GG/MD/CD Libretro Core",
-        "system": [
-          "ms",
-          "gg",
-          "mc",
-          "cd"
-        ]
-      },
-      "genesisplusgxwide_libretro": {
-        "name": "Genesis Plus GX Wide",
-        "description": "SEGA MS/GG/MD/CD Libretro Core for Wide Screen",
-        "system": [
-          "ms",
-          "gg",
-          "mc",
-          "cd"
-        ]
-      },
-      "mupen64plus-next_libretro": {
-        "name": "Mupen64Plus-Next",
-        "description": "Nintendo 64 Libretro Core",
-        "system": "n64"
-      },
-      "snes9x-current_libretro": {
-        "name": "Snes9x - Current",
-        "description": "Super Nintendo Libretro Core",
-        "system": "snes",
-        "system_friendly_name": "Nintendo SNES"
-      },
-      "gambatte_libretro": {
-        "name": "Gambatte",
-        "description": "Game Boy/Color Libretro Core",
-        "system": [
-          "gb",
-          "gbc"
-        ]
-      },
-      "mgba_libretro": {
-        "name": "mGBA",
-        "description": "Game Boy Advance Libretro Core",
-        "system": "gba"
+      "test_preset": {
+        "test_files": {
+          "action": "install",
+          "source": "/app/retrodeck/test_files/",
+          "destination": "/home/deck/test_files/"
+        }
       }
     }
   }
@@ -337,26 +272,235 @@ Which contain any related information used in menus or API data gathering. As mo
     "url": "https://retrodeck.net",
     "configurator_menus": {
       "settings": {
-        "portmaster": {
+        "portmaster_show_hide": {
           "name": "Portmaster: Show / Hide",
-          "description": "Enable / Disable: PortMaster in ES-DE.",
-          "command": "configurator_portmaster_toggle_dialog"
+          "description": "Enable / Disable: PortMaster in ES-DE",
+          "command": {
+            "zenity": "configurator_portmaster_toggle_dialog"
+          }
         }
       },
       "tools": {
-        "test_function": {
-          "name": "RetroDECK Test Function",
-          "description": "A test function",
-          "command": "retrodeck_test arg"
+        "bios_checker": {
+          "name": "BIOS Checker",
+          "description": "Checks and shows information about BIOS files",
+          "command": {
+            "zenity": "configurator_bios_checker_dialog"
+          }
         },
-        "test_function2": {
-          "name": "RetroDECK Test Function2",
-          "description": "A test function 2",
-          "command": "retrodeck_test2"
+        "games_compressor": {
+          "name": "Games Compressor",
+          "description": "Compress games to save space for supported systems",
+          "command": {
+            "zenity": "configurator_compression_tool_dialog"
+          }
+        },
+        "install_retrodeck_controller_layouts": {
+          "name": "Install: RetroDECK Controller Layouts",
+          "description": "Install RetroDECK controller templates into Steam",
+          "command": {
+            "zenity": "configurator_install_retrodeck_controller_profile_dialog"
+          }
+        },
+        "update_notification": {
+          "name": "Update Notification",
+          "description": "Enable / Disable: Notifications for new RetroDECK versions",
+          "command": {
+            "zenity": "configurator_update_notify_dialog"
+          }
+        },
+        "m3u_multi_file_validator": {
+          "name": "M3U Multi-File Validator",
+          "description": "Verify the proper structure of multi-file or multi-disc games",
+          "command": {
+            "zenity": "configurator_check_multifile_game_structure_dialog"
+          }
+        },
+        "repair_retrodeck_paths": {
+          "name": "Repair RetroDECK Paths",
+          "description": "Repair RetroDECK folder path configs for unexpectedly missing folders",
+          "command": {
+            "zenity": "configurator_repair_paths_dialog"
+          }
+        },
+        "change_logging_level": {
+          "name": "Change Logging Level",
+          "description": "Change the RetroDECK logging level, for debugging purposes",
+          "command": {
+            "zenity": "configurator_change_logging_level_dialog"
+          }
+        }
+      },
+      "data_management": {
+        "backup_retrodeck": {
+          "name": "Backup RetroDECK",
+          "description": "Backup & Compress RetroDECK userdata folders into a zip file",
+          "command": {
+            "zenity": "configurator_retrodeck_backup_dialog"
+          }
+        },
+        "clean_empty_systems": {
+          "name": "ROMS Folder: Clean Empty Systems",
+          "description": "Removes some or all of the empty system folders in ROMS folder",
+          "command": {
+            "zenity": "configurator_clean_empty_systems_dialog"
+          }
+        },
+        "rebuild_esde_systems": {
+          "name": "ROMS Folder: Rebuild Systems",
+          "description": "Rebuilds any missing system folders in the ROMS folder",
+          "command": {
+            "zenity": "configurator_rebuild_esde_systems"
+          }
+        },
+        "move_all": {
+          "name": "Move: All of RetroDECK",
+          "description": "Move the entire RetroDECK folder to a new location",
+          "command": {
+            "zenity": "configurator_move_folder_dialog \"rdhome\""
+          }
+        },
+        "move_roms": {
+          "name": "Move: ROMS folder",
+          "description": "Move the ROMS folder to a new location",
+          "command": {
+            "zenity": "configurator_move_folder_dialog \"roms_folder\""
+          }
+        },
+        "move_bios": {
+          "name": "Move: BIOS folder",
+          "description": "Move the BIOS folder to a new location",
+          "command": {
+            "zenity": "configurator_move_folder_dialog \"bios_folder\""
+          }
+        },
+        "move_media": {
+          "name": "Move: Downloaded Media folder",
+          "description": "Move the Downloaded Media folder to a new location",
+          "command": {
+            "zenity": "configurator_move_folder_dialog \"media_folder\""
+          }
+        },
+        "move_saves": {
+          "name": "Move: Saves folder",
+          "description": "Move the Saves folder to a new location",
+          "command": {
+            "zenity": "configurator_move_folder_dialog \"saves_folder\""
+          }
+        },
+        "move_states": {
+          "name": "Move: States folder",
+          "description": "Move the States folder to a new location",
+          "command": {
+            "zenity": "configurator_move_folder_dialog \"states_folder\""
+          }
+        },
+        "move_themes": {
+          "name": "Move: Themes folder",
+          "description": "Move the Themes folder to a new location",
+          "command": {
+            "zenity": "configurator_move_folder_dialog \"themes_folder\""
+          }
+        },
+        "move_screenshots": {
+          "name": "Move: Screenshots folder",
+          "description": "Move the Screenshots folder to a new location",
+          "command": {
+            "zenity": "configurator_move_folder_dialog \"screenshots_folder\""
+          }
+        },
+        "move_mods": {
+          "name": "Move: Mods folder",
+          "description": "Move the Mods folder to a new location",
+          "command": {
+            "zenity": "configurator_move_folder_dialog \"mods_folder\""
+          }
+        },
+        "move_texture_packs": {
+          "name": "Move: Texture Packs folder",
+          "description": "Move the Texture Packs folder to a new location",
+          "command": {
+            "zenity": "configurator_move_folder_dialog \"texture_packs_folder\""
+          }
+        },
+        "move_cheats": {
+          "name": "Move: Cheats folder",
+          "description": "Move the Cheats folder to a new location",
+          "command": {
+            "zenity": "configurator_move_folder_dialog \"cheats_folder\""
+          }
+        },
+        "move_shaders": {
+          "name": "Move: Shaders folder",
+          "description": "Move the Shaders folder to a new location",
+          "command": {
+            "zenity": "configurator_move_folder_dialog \"shaders_folder\""
+          }
+        }
+      },
+      "about_retrodeck": {
+        "version_history": {
+          "name": "RetroDECK Version History",
+          "description": "View the version changelogs for RetroDECK",
+          "command": {
+            "zenity": "configurator_version_history_dialog"
+          }
+        },
+        "retrodeck_credits": {
+          "name": "RetroDECK Credits",
+          "description": "View the contribution credits for RetroDECK",
+          "command": {
+            "zenity": "configurator_retrodeck_credits_dialog"
+          }
+        }
+      },
+      "developer_options": {
+        "multi_user_mode": {
+          "name": "Change Multi-User Mode",
+          "description": "Enable/Disable: Multi-user support",
+          "command": {
+            "zenity": "configurator_retrodeck_multiuser_dialog"
+          }
+        },
+        "install_specific_release": {
+          "name": "Install Specific RetroDECK Release",
+          "description": "Install any cooker release or the latest main available",
+          "command": {
+            "zenity": "configurator_online_update_channel_dialog"
+          }
+        },
+        "browse_wiki": {
+          "name": "Browse the RetroDECK Wiki",
+          "description": "Browse the RetroDECK wiki online",
+          "command": {
+            "zenity": "configurator_browse_retrodeck_wiki_dialog"
+          }
+        },
+        "install_retrodeck_starter_pack": {
+          "name": "Install: RetroDECK Starter Pack",
+          "description": "Install the optional RetroDECK starter pack",
+          "command": {
+            "zenity": "configurator_version_history_dialog"
+          }
+        },
+        "usb_import": {
+          "name": "Tool: USB Import",
+          "description": "Use a USB device for RetroDECK data export / import",
+          "command": {
+            "zenity": "configurator_version_history_dialog"
+          }
+        },
+        "godot_configurator": {
+          "name": "Open Godot Configurator",
+          "description": "Open Godot Configurator",
+          "command": {
+            "zenity": "godot-configurator.sh"
+          }
         }
       }
     }
   }
+}
 }
 
 ```

@@ -22,11 +22,64 @@ Make sure the `component_launcher.sh` is executable:
 chmod +x component_launcher.sh
 ```
 
-## Example: component_launcher.sh for the PPSSPP Component
+## Example: component_launcher.sh
+
+
+### PPSSPP
 
 ```
 #!/bin/bash
+
 RD_MODULES="/app/retrodeck/components"
+
 LD_LIBRARY_PATH="$RD_MODULES/ppsspp/lib:${LD_LIBRARY_PATH}"
+
 exec "$RD_MODULES/ppsspp/bin/PPSSPPSDL" "$@"
+```
+
+
+### PPSSPP
+
+```
+#!/bin/bash
+
+RD_MODULES="/app/retrodeck/components"
+
+exec "$RD_MODULES/retroarch/bin/retroarch" "$@"
+
+```
+
+### RPCS3 
+
+
+```
+#!/bin/bash
+
+COMPONENT_NAME="rpcs3"
+RD_MODULES="/app/retrodeck/components"
+
+# This ensures the application can find its resources
+export APPDIR="$RD_MODULES/$COMPONENT_NAME"
+
+LD_LIBRARY_PATH="$RD_MODULES/$COMPONENT_NAME/lib:${LD_LIBRARY_PATH}"
+
+# NOTE: AppRun is not working for RPCS3
+exec "$RD_MODULES/$COMPONENT_NAME/bin/rpcs3" "$@"
+```
+
+### Steam Rom Manager (SRM) 
+
+```
+#!/bin/bash
+
+RD_MODULES="/app/retrodeck/components"
+COMPONENT_NAME="steam-rom-manager"
+IN_FLATPAK=1
+
+# This ensures the application can find its resources
+export APPDIR="$RD_MODULES/$COMPONENT_NAME"
+
+LD_LIBRARY_PATH="$RD_MODULES/$COMPONENT_NAME/lib:${LD_LIBRARY_PATH}"
+
+exec "$RD_MODULES/$COMPONENT_NAME/AppRun" --no-sandbox "$@"
 ```

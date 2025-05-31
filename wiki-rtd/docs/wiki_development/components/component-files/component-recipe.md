@@ -6,10 +6,14 @@ The recipe file is **NOT** included in the final component package.
 
 ## Examples
 
-- [RetroDECK/components](https://github.com/RetroDECK/components).
+**Check More Examples:**
+
+[RetroDECK Components/Cooker](https://github.com/RetroDECK/components/tree/cooker)
 
 
-### Flatpak PPSSPP: recipe.sh
+
+### Flatpak: PPSSPP 
+
 
 ```
 #!/bin/bash
@@ -40,7 +44,7 @@ finalize
 
 ```
 
-### AppImage RetroArch: recipe.sh
+### AppImage: RetroArch
 
 ```
 #!/bin/bash

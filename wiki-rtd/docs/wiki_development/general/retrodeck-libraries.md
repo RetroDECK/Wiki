@@ -23,8 +23,6 @@ Libraries in RetroDECK can live in three main places. This structure helps keep 
 
 It scans against automated and manually populated lists of known libraries in `lib/` or `components/shared-libs/`. 
 
-[Components: Shared-Libs Lists](https://github.com/RetroDECK/components/tree/cooker/shared-libs)
-
 If a library is already referenced it will remove it from the `components/<component>/lib/` and add a symlink to avoid duplication.
 
 `LibMan` works against a **priority order** for where libraries should go:
@@ -33,13 +31,4 @@ If a library is already referenced it will remove it from the `components/<compo
 2. **components/shared-libs/**
 3. **components/<component>/lib/**
 
-**Example:** 
-
-`LibExample.so.7` is missing from `component/examplecomponent/lib`.
-
-But it is in `lib/LibExample.so.7`.
-
-LibMan will symlink `lib/LibExample.so.7` to `component/examplecomponent/lib/LibExample.so.7`.
-
-If it would exist at both places, LibMan would remove the component `LibExample.so.7` and symlink it instead.
-
+[Components: Shared-Libs Lists](https://github.com/RetroDECK/components/tree/cooker/shared-libs)

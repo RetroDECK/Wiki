@@ -124,22 +124,6 @@ Identify the:
 - Libraries
 - Other important files
 
-Move needed files into `retrodeck/components/<component_name>`
-
-From either the prebuilt flatpak OR artifact.
-
-**Example:**
-
-From: `retrodeck/components/`
-
-```
-mv org.zdoom.GZDoom/gzdoom-build-dir/files/bin gzdoom/
-mv org.zdoom.GZDoom/gzdoom-build-dir/files/include gzdoom/
-mv org.zdoom.GZDoom/gzdoom- build-dir/files/lib gzdoom/
-mv org.zdoom.GZDoom/gzdoom-build-dir/files/share gzdoom/
-```
-
-All the important files are now located in `retrodeck/components/gzdoom`
 
 ---
 

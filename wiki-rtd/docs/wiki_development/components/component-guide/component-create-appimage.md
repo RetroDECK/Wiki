@@ -204,16 +204,6 @@ Identify the:
 - Libraries
 - Other important files
 
-**Example:**
-
-Cemu
-
-In the terminal move out key parts 
-
-```
-mv squashfs-root/apprun-hooks cemu/
-mv squashfs-root/usr/* cemu/
-```
 
 ---
 

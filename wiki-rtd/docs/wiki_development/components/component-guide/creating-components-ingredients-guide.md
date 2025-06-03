@@ -107,33 +107,7 @@ components/cemu/component_functions.sh
 components/cemu/component_prepare.sh
 ```
 
-## Step 7: Compress the artifact
-
-Compress the RetroDECK: `retrodeck/components/<component_name>` folder into tar.gz. 
-
-**Name:** 
-
-`<component_name>-artifact.tar.gz`
-
-**Command:**
-
-```
-tar -czf "<component_name>-artifact.tar.gz" "<component_name>"
-```
-
-**Example:**
-
-```
-tar -czf "cemu-artifact.tar.gz" "cemu"
-```
-
-Then pull-request it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/components/tree/cooker) into it's own folder.
-
-**Note**
-
-The Components Repo also got it's own Main and Cooker version. Always pull-request into cooker.
-
-## Step 8: Write the recipe.sh Build File
+## Step 7: Write the recipe.sh Build File
 
 **Read more here:** 
 
@@ -142,7 +116,7 @@ The Components Repo also got it's own Main and Cooker version. Always pull-reque
 Then PR it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/components/tree/cooker) next to the artifact in the folder.
 
 
-## Step 9: Assemble the Release & Into the Cooker
+## Step 8: Assemble the Release & Into the Cooker
 
 The `RetroDECK Assembler` building process follows the `recipe.sh` and builds the artifact with the ingredients files into:
 

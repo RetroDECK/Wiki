@@ -116,7 +116,7 @@ rm -rf gzdoom-build-dir/files/lib/debug
 
 ---
 
-## Step 3: Copy into retrodeck/components/<component_name>
+## Step 3: Testing
 
 Identify the:
 
@@ -124,14 +124,20 @@ Identify the:
 - Libraries
 - Other important files
 
+Try to launch the binary from RetroDECK's flatpak shell:
 
----
+`flatpak run --command=bash net.retrodeck.retrodeck --debug`
 
-## Step 4: Libraries
+Make notes on what works and what does and does not work.
 
-**Read more here for general information on libraries:** 
+**Example:**
 
-[RetroDECK Libraries](../../general/retrodeck-libraries.md)
+Does it complain about missing libraries? 
+
+Does it crash?
+
+Is everything working?
+
 
 ---
 

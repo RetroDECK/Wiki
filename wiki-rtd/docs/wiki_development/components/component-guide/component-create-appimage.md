@@ -196,7 +196,7 @@ squashfs-root
 
 ---
 
-## Step 4: Identify Key Parts in squashfs-root
+## Step 5: Testing
 
 Identify the:
 
@@ -204,29 +204,19 @@ Identify the:
 - Libraries
 - Other important files
 
+Try to launch the binary from RetroDECK's flatpak shell:
 
----
+`flatpak run --command=bash net.retrodeck.retrodeck --debug`
 
-## Step 5: AppImages & Libraries
+Make notes on what works and what does and does not work.
 
-**Note**
+**Example:**
 
-Just because it's an AppImage doesn't mean it has *everything* it needs. 
+Does it complain about missing libraries? 
+Does it crash?
+Is everything working?
 
-Sometimes, a library might be missing from the AppImage **and** the Flatpak runtime. 
-It might work on your host OS, but fail inside Flatpak.
 
-Always test the Component within the flatpak shell to see if any libraries are missing. 
-
-LibMan can help but don't 100% rely on it to figure it out. 
-
-If they are missing try to add them to the components lib or the shared-libs. 
-
-**Read more here for general information on libraries:** 
-
-[RetroDECK Libraries](../../general/retrodeck-libraries.md)
-
----
 
 ## Step 6: Creating Component: Ingredient Files
 

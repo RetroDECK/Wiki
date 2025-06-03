@@ -136,7 +136,9 @@ flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak
 flatpak run --command=bash net.retrodeck.retrodeck --debug
 ```
 
-`app/` corresponds to your local Flatpak environment.
+`app/` corresponds to your local Flatpak system environment.
+
+`var/` corresponds to your local Flatpak user environment.
 
 **Read more here:** 
 

@@ -81,10 +81,17 @@ It defines **rules** that tell ES-DE where to look for:
 
 ### Examples of Entries
 
+The standard syntax of adding a find rule is:
+
+```
+$rd_components/<component name>/component_launcher.sh
+```
+Each of them points towards the components `component_launcher.sh`.
+
 #### Primehack
 
 ```
-    <emulator name="PRIMEHACK">
+  <emulator name="PRIMEHACK">
         <!-- PrimeHack, fork of Nintendo GameCube and Wii emulator Dolphin -->
         <rule type="systempath">
             <entry>primehack-wrapper</entry>
@@ -94,6 +101,7 @@ It defines **rules** that tell ES-DE where to look for:
         <rule type="staticpath">
             <entry>/var/lib/flatpak/exports/bin/io.github.shiiion.primehack</entry>
             <entry>~/.local/share/flatpak/exports/bin/io.github.shiiion.primehack</entry>
+            <entry>$rd_components/primehack/component_launcher.sh</entry>
         </rule>
     </emulator>
 ```

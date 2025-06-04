@@ -63,8 +63,26 @@ It defines **rules** that tell ES-DE where to look for:
 | `staticpath`  | Looks in specific folders you define (absolute paths)                       |
 | `corepath`    | Looks for emulator cores (used by RetroArch)                                |
 
+### Adding rules for RetroDECK
 
+#### staticpath
 
+The standard syntax of adding `staticpath` find rule is:
+
+```
+<!-- RetroDECK -->
+<entry>/app/retrodeck/components/<component_name>/component_launcher.sh</entry>
+```
+Each of them points towards the components `component_launcher.sh`.
+
+#### systempath
+
+If the system needs a wrapper `systempath` entry is also needed:
+
+```
+<!-- RetroDECK -->
+<entry>Cemu-wrapper</entry>
+```
     
 ### Where is it in RetroDECK?
 
@@ -81,13 +99,9 @@ It defines **rules** that tell ES-DE where to look for:
 
 ### Examples of Entries
 
-The standard syntax of adding a find rule is:
 
-```
-<!-- RetroDECK -->
-<entry>/app/retrodeck/components/<component_name>/component_launcher.sh</entry>
-```
-Each of them points towards the components `component_launcher.sh` and we add the `<!-- RetroDECK -->`.
+
+
 
 #### Primehack
 
@@ -95,9 +109,10 @@ Each of them points towards the components `component_launcher.sh` and we add th
   <emulator name="PRIMEHACK">
         <!-- PrimeHack, fork of Nintendo GameCube and Wii emulator Dolphin -->
         <rule type="systempath">
-            <entry>primehack-wrapper</entry>
             <entry>primehack</entry>
             <entry>io.github.shiiion.primehack</entry>
+            <!-- RetroDECK -->
+            <entry>primehack-wrapper</entry>
         </rule>
         <rule type="staticpath">
             <entry>/var/lib/flatpak/exports/bin/io.github.shiiion.primehack</entry>
@@ -143,9 +158,10 @@ Each of them points towards the components `component_launcher.sh` and we add th
     <emulator name="CEMU">
         <!-- Nintendo Wii U emulator Cemu -->
         <rule type="systempath">
-            <entry>Cemu-wrapper</entry> <!-- RetroDECK -->
             <entry>cemu</entry>
             <entry>Cemu</entry>
+            <!-- RetroDECK -->
+            <entry>Cemu-wrapper</entry>
         </rule>
         <rule type="staticpath">
             <entry>~/Applications/Cemu*.AppImage</entry>

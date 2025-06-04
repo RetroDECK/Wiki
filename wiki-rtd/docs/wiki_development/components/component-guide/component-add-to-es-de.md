@@ -84,9 +84,10 @@ It defines **rules** that tell ES-DE where to look for:
 The standard syntax of adding a find rule is:
 
 ```
-$rd_components/<component name>/component_launcher.sh
+<!-- RetroDECK -->
+<entry>/app/retrodeck/components/<component_name>/component_launcher.sh</entry>
 ```
-Each of them points towards the components `component_launcher.sh`.
+Each of them points towards the components `component_launcher.sh` and we add the `<!-- RetroDECK -->`.
 
 #### Primehack
 
@@ -101,7 +102,8 @@ Each of them points towards the components `component_launcher.sh`.
         <rule type="staticpath">
             <entry>/var/lib/flatpak/exports/bin/io.github.shiiion.primehack</entry>
             <entry>~/.local/share/flatpak/exports/bin/io.github.shiiion.primehack</entry>
-            <entry>$rd_components/primehack/component_launcher.sh</entry>
+            <!-- RetroDECK -->
+            <entry>/app/retrodeck/components/primehack/component_launcher.sh</entry>
         </rule>
     </emulator>
 ```
@@ -129,6 +131,8 @@ Each of them points towards the components `component_launcher.sh`.
             <entry>/usr/lib64/libretro</entry>
             <!-- Manjaro repository -->
             <entry>/usr/lib/libretro</entry>
+            <!-- RetroDECK -->
+            <entry>/app/retrodeck/components/retroarch/component_launcher.sh</entry>
         </rule>
     </core>
 ```
@@ -154,6 +158,8 @@ Each of them points towards the components `component_launcher.sh`.
             <entry>~/bin/Cemu/Cemu</entry>
             <entry>/var/lib/flatpak/exports/bin/info.cemu.Cemu</entry>
             <entry>~/.local/share/flatpak/exports/bin/info.cemu.Cemu</entry>
+            <!-- RetroDECK -->
+            <entry>/app/retrodeck/components/cemu/component_launcher.sh</entry>
         </rule>
     </emulator>
 ```

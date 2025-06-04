@@ -75,9 +75,15 @@ The standard syntax of adding `staticpath` find rule is:
 ```
 Each of them points towards the components `component_launcher.sh`.
 
+**Example:**
+
+`<entry>/app/retrodeck/components/primehack/component_launcher.sh</entry>`
+
 #### systempath
 
-If the system needs a wrapper `systempath` entry is also needed:
+If the system needs a wrapper `systempath` entry is also needed with the wrapper name:
+
+**Example:**
 
 ```
 <!-- RetroDECK -->

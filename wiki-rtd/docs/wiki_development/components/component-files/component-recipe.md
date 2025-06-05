@@ -4,12 +4,40 @@ The **Component Recipe File**  `recipe.sh` purpose is to tell the RetroDECK buil
 
 The recipe file is **NOT** included in the final component package. 
 
+## How-to: Create the recipe.sh
+
+All `recipe.sh` files consists at it's most basic level an assemble command and extra commands what the the RetroDECK Assembler what to do:
+
+
+```
+#!/bin/bash
+
+source "automation-tools/assembler.sh"
+
+assemble <assemble_type> "<link to source>"
+
+# Custom Commands
+```
+
+### assemble flatpak_id
+
+`assemble flatpak_id "<flatpak_id>"` 
+
+Is used if the source is a flatpak and it will try to build with the source from flathub and is part of the applink for the component. 
+
+**Example: PPSSPP**
+
+[https://flathub.org/apps/org.ppsspp.PPSSPP](https://flathub.org/apps/org.ppsspp.PPSSPP )
+
+`org.ppsspp.PPSSPP` is the and you use it as such:
+
+`assemble flatpak_id "org.ppsspp.PPSSPP"` 
+
 ## Examples
 
 **Check More Examples:**
 
 [RetroDECK Components/Cooker](https://github.com/RetroDECK/components/tree/cooker)
-
 
 
 ### Flatpak: PPSSPP 
@@ -20,7 +48,7 @@ The recipe file is **NOT** included in the final component package.
 
 source "automation-tools/assembler.sh"
 
-grab flatpak_id "org.ppsspp.PPSSPP"
+assemble flatpak_id "org.ppsspp.PPSSPP"
 
 # Custom Commands
 
@@ -31,14 +59,13 @@ mv "$WORK_DIR/share/ppsspp/assets" "$component/artifacts/"
 log i "Downloading PPSSPP BIOS..." "$logfile"
 wget "https://github.com/hrydgard/ppsspp/archive/refs/heads/master.zip" -O "$WORK_DIR/ppsspp-bios.zip"
 unzip -o "$WORK_DIR/ppsspp-bios.zip" -d "$WORK_DIR/ppsspp-bios"
-mkdir -p "$WORK_DIR/ppsspp-bios/assets/PPSSPP"
-cp -rf "$WORK_DIR/ppsspp-bios/ppsspp-master/assets/PPSSPP"/* "$WORK_DIR/ppsspp-bios/assets/PPSSPP/"
-rm -f "$WORK_DIR/ppsspp-bios.zip"
-rm -rf "$WORK_DIR/ppsspp-bios"
+mkdir -p "$component/artifacts/ppsspp-bios/"
+cp -rf "$WORK_DIR/ppsspp-bios/ppsspp-master/assets/PPSSPP"/* "$component/artifacts/ppsspp-bios/"
 
 # PPSSPP Cheats
 log i "Downloading PPSSPP cheat database..." "$logfile"
-wget -O "$WORK_DIR/cheat.db" https://github.com/Saramagrean/CWCheat-Database-Plus-/raw/master/cheat.db
+mkdir -p "$component/artifacts/cheats"
+wget -O "$component/artifacts/cheats/cheat.db" https://github.com/Saramagrean/CWCheat-Database-Plus-/raw/master/cheat.db
 
 finalize
 
@@ -51,7 +78,7 @@ finalize
 
 source "automation-tools/assembler.sh"
 
-grab appimage "https://buildbot.libretro.com/stable/*/linux/x86_64/RetroArch.7z"
+assemble appimage "https://buildbot.libretro.com/stable/*/linux/x86_64/RetroArch.7z"
 
 # Custom Commands
 
@@ -113,4 +140,18 @@ rm -f "$WORK_DIR/capsimg.zip"
 
 finalize
 
+```
+
+### Binary / Genric: Xenia
+
+```
+#!/bin/bash
+
+source "automation-tools/assembler.sh"
+
+assemble generic "https://github.com/xenia-canary/xenia-canary-releases/releases/latest/download/xenia_canary_linux.tar.gz"
+
+# Custom Commands
+
+finalize
 ```

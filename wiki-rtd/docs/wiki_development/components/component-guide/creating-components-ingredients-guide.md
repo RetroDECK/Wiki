@@ -52,43 +52,16 @@ Keep tinkering until the file launches and works as excepted.
 
 [RetroDECK Libraries](../../general/retrodeck-libraries.md)
 
-## Step 4: Configurations: Try to Optimize (If possible) 
+## Step 4: Write the recipe.sh Build File
 
-Do a first pass and try to tweak configurations:
+**Read more here:** 
 
-- **Tweak Controls:** Test the controls with Steam Input (if possible) and tweak from there.
-- **Tweak Performance:** Check the performance: RetroDECK standard is the Steam Deck hardware as default.
+- [recipe.sh](../component-files/component-recipe.md)
+
+Then PR it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/components/tree/cooker) next to the artifact in the folder.
 
 
-
-
-## Step 5: Configurations: Set Folders & Filepaths (If possible) 
-
-### Step 6a: Configure: Folders & File Paths 
-
-See if you can set file paths / folder paths within the configuration files.
-
-Use `$RDHome` variable for the file paths / folder paths.
-
-**Examples:**
-
-If the configuration files allows you to specify several folders:
-
-```
-$RDHome/roms/<your component rom directory>
-$RDHome/bios/<your component bios directory><subdirectory it might need>
-$RDHome/mods/<your component mod directory>/<subdirectory it might need>
-$RDHome/saves/<your component saves directory>
-$RDHome/states/<your component states directory>
-
-etc...
-```
-
-### Step 6b: Symlinks
-
-If you can't configure file paths / folder paths from the configuration files you might need to create symlinks instead.
-
-## Step 6: Create the Metadata Ingredient Files
+## Step 5: Create the rest of the  Ingredient Files
 
 **Read more here:** 
 
@@ -98,7 +71,7 @@ If you can't configure file paths / folder paths from the configuration files yo
 
 - [component_prepare.sh](../component-files/component-ingredient-prepare.md)
 
-## Step 7: Add the Ingredient files
+## Step 6: Add the Ingredient files
 
 Add the Ingredient files to: `retrodeck/components/<component_name>`
 
@@ -118,13 +91,13 @@ components/cemu/component_functions.sh
 components/cemu/component_prepare.sh
 ```
 
-## Step 8: Write the recipe.sh Build File
 
-**Read more here:** 
+## Step 7: Configurations: Try to Optimize (If possible) 
 
-- [recipe.sh](../component-files/component-recipe.md)
+Do a first pass and try to tweak configurations:
 
-Then PR it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/components/tree/cooker) next to the artifact in the folder.
+- **Tweak Controls:** Test the controls with Steam Input (if possible) and tweak from there.
+- **Tweak Performance:** Check the performance: RetroDECK standard is the Steam Deck hardware as default.
 
 
 ## Step 8: Assemble the Release & Into the Cooker

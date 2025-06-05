@@ -33,6 +33,36 @@ Is used if the source is a flatpak and it will try to build with the source from
 
 `assemble flatpak_id "org.ppsspp.PPSSPP"` 
 
+
+### assemble appimage
+
+`assemble appimage "<link to appimage>"` 
+
+Is used if the source is an appimage and it will try to extract the AppImage from the source via the `--appimage-extract` command.
+
+**Example: RetroArch**
+
+Link to RetroArch download of AppImage: https://buildbot.libretro.com/stable/*/linux/x86_64/RetroArch.7z
+
+`assemble appimage "https://buildbot.libretro.com/stable/*/linux/x86_64/RetroArch.7z"` 
+
+### assemble appimage
+
+`assemble generic "<link to generic binary>"` 
+
+Is used if the source is an generic binary it will try to extract it.
+
+**Example: Xenia**
+
+Link to RetroArch download of AppImage: https://github.com/xenia-canary/xenia-canary-releases/releases/latest/download/xenia_canary_linux.tar.gz
+
+`assemble generic "https://github.com/xenia-canary/xenia-canary-releases/releases/latest/download/xenia_canary_linux.tar.gz""` 
+
+### Custom Commands
+
+Here you put all extra commands you might need for the application to work. It could be extra files to download, creating extra folders or file, something else.
+
+
 ## Examples
 
 **Check More Examples:**

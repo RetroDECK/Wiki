@@ -11,8 +11,6 @@ The Home folder
 
 `~`
 
-### $HOME
-
 ## Flatpak XDG 
 
 ### $XDG_SESSION_DESKTOP

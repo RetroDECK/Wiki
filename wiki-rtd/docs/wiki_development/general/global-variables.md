@@ -1,6 +1,6 @@
-# RetroDECK Global Variables
+# RetroDECK Global Variables List
 
-Variables used by RetroDECK
+A collection of variables used by RetroDECK
 
 
 ## Flatpak XDG 
@@ -17,7 +17,7 @@ Session Type
 
 Non-essential user-specific data
     
-**Corresponds to:**
+
 
 `.var/app/net.retrodeck.retrodeck/cache/`
 
@@ -25,15 +25,11 @@ Non-essential user-specific data
 
 User-specific configuration files
 
-**Corresponds to:**
-
 `.var/app/net.retrodeck.retrodeck/config/`
 
 ### $XDG_DATA_HOME
 
 User-specific data
-
-**Corresponds to:**
 
 `.var/app/net.retrodeck.retrodeck/data/`
 
@@ -43,75 +39,95 @@ State data such as undo history
 
 `.var/app/net.retrodeck.retrodeck/.local/state/`
 
-## RetroDECK Folder Variables
+## RetroDECK Pathing Variables
 
 
+### $backups_folder
+
+`retrodeck/backups`
 
 ### $bios_folder
 
-**Corresponds to:**
-
 `retrodeck/bios/`
 
-### $cheats_folder
+### $borders_folder
 
-**Corresponds to:**
+`retrodeck/borders`
+
+### $config
+
+Folder with all the default emulator configs
+
+`/app/retrodeck/config`
+
+### $cheats_folder
 
 `retrodeck/cheats/`
 
 ### $es-de_folder
 
-**Corresponds to:**
-
 `retrodeck/ES-DE/`
 
 ### $logs_folder
 
-$rd_logs_folder?
-
-**Corresponds to:**
-
 `retrodeck/logs/`
 
-### $roms_folder
+### $media_folder
 
-**Corresponds to:**
+`retrodeck/ES-DE/downloaded_media`
+
+### $themes_folder
+
+`retrodeck/ES-DE/themes`
+
+### $roms_folder
 
 `retrodeck/roms/`
 
 ### $saves_folder
 
-**Corresponds to:**
-
 `retrodeck/saves/`
 
 ### $screenshots_folder
 
-**Corresponds to:**
-
 `retrodeck/screenshots/`
 
-### $shaders_folder
+### $sdcard
 
-**Corresponds to:**
+**Example:**
+
+`/run/media/mmcblk0p1`
+
+### $shaders_folder
 
 `retrodeck/shaders/`
 
 ### $states_folder
 
-**Corresponds to:**
-
 `retrodeck/states/`
+
+### $splashscreen_dir
+
+The default location of extra splash screens
+
+`$XDG_CONFIG_HOME/ES-DE/resources/graphics/extra_splashes`                                   
 
 ### $texture_packs_folder
 
-**Corresponds to:**
-
 `retrodeck/texture_packs/`
 
-### $rd_api_dir
+### $rdhome 
 
-RetroDECK API folder
+`retrodeck/`
+
+### $rd_components
+
+`/app/retrodeck/components`
+
+### $rd_shared_libs
+
+`/app/retrodeck/components/shared-libs`
+
 
 ## RetroDECK Component Function Variables
 
@@ -159,11 +175,95 @@ else
 fi
 ```
 
-## SORT
+## Static variables
 
-$rd_defaults
-$rd_conf
-$rdhome
+### $bios_checklist
+
+A config file listing BIOS file information that can be verified
+
+`$config/retrodeck/reference_lists/bios.json`
+
+### $current_splash_file
+
+The active ES-DE splash file that will be shown on boot
+
+`$XDG_CONFIG_HOME/ES-DE/resources/graphics/splash.svg`
+
+### $default_splash_file
+
+The default RetroDECK ES-DE splash file.
+
+`$XDG_CONFIG_HOME/ES-DE/resources/graphics/splash-orig.svg`   
+
+### $input_validation
+
+A config file listing valid CLI inputs
+
+`$config/retrodeck/reference_lists/input_validation.cfg`
+
+### $finit_options_list
+
+A config file listing available optional installs during finit
+
+`$config/retrodeck/reference_lists/finit_options_list.cfg`
+
+### $rd_conf
+
+RetroDECK config file path
+
+`$XDG_CONFIG_HOME/retrodeck/retrodeck.cfg`
+
+### $rd_conf_backup
+
+Backup of RetroDECK config file from update
+
+`$XDG_CONFIG_HOME/retrodeck/retrodeck.bak`
+
+
+### $rd_defaults
+
+A default RetroDECK config file
+
+`$config/retrodeck/retrodeck.cfg`
+
+### $rd_update_patch
+
+A static location for the temporary patch file used during retrodeck.cfg updates
+
+`$XDG_CONFIG_HOME/retrodeck/rd_update.patch`
+
+
+## API-related variables
+
+### $rd_api_dir
+
+RetroDECK API folder
+
+`$XDG_CONFIG_HOME/retrodeck/api`
+
+
+### $REQUEST_PIPE
+
+`$rd_api_dir/retrodeck_api_pipe`
+
+### $PID_FILE
+
+`$rd_api_dir/retrodeck_api_server.pid`
+
+### $rd_api_socket
+
+`$rd_api_dir/retrodeck_api_server.sock`
+
+### $RD_FILE_LOCK
+
+File lock file for multi-threaded write operations to the same file
+
+`$rd_api_dir/retrodeck_api_server.sock`
+
+
+
+
+## TODO SORT W.I.P
 
 $new_home_path
 $hard_version
@@ -173,6 +273,38 @@ $version
 $RD_FILE_LOCK
 $lockfile
 
+rd_logs_folder 
 
 $HOME
+TODO: instead of this maybe we can iterate the features.json
+multi_user_emulator_config_dirs="$config/retrodeck/reference_lists/multi_user_emulator_config_dirs.cfg"  # A list of emulator config folders that can be safely linked/unlinked entirely in multi-user mode
+rd_es_themes="/app/share/es-de/themes"                                                                   # The directory where themes packaged with RetroDECK are stored
+lockfile="$XDG_CONFIG_HOME/retrodeck/.lock"                                                                   # Where the lockfile is located
+default_sd="/run/media/mmcblk0p1"                                                                        # Steam Deck SD default path
+hard_version="$(cat '/app/retrodeck/version')"                                                           # hardcoded version (in the readonly filesystem)
+rd_repo="https://github.com/RetroDECK/RetroDECK"                                                         # The URL of the main RetroDECK GitHub repo
+es_themes_list="https://gitlab.com/es-de/themes/themes-list/-/raw/master/themes.json"                    # The URL of the ES-DE 2.0 themes list
+remote_network_target_1="https://flathub.org"                                                            # The URL of a common internet target for testing network access
+remote_network_target_2="$rd_repo"                                                                       # The URL of a common internet target for testing network access
+remote_network_target_3="https://one.one.one.one"                                                        # The URL of a common internet target for testing network access
+helper_files_folder="$config/retrodeck/helper_files"                                                     # The parent folder of RetroDECK documentation files for deployment
+rd_metainfo="/app/share/metainfo/net.retrodeck.retrodeck.metainfo.xml"                                   # The shipped metainfo XML file for this version
+rpcs3_firmware="http://dus01.ps3.update.playstation.net/update/ps3/image/us/2024_0227_3694eb3fb8d9915c112e6ab41a60c69f/PS3UPDAT.PUP" # RPCS3 Firmware download location
+RA_API_URL="https://retroachievements.org/dorequest.php"                                                 # API URL for RetroAchievements.org
+presets_dir="$config/retrodeck/presets"                                                                  # Repository for all system preset config files
+git_organization_name="RetroDECK"                                                                        # The name of the organization in our git repository such as GitHub
+cooker_repository_name="Cooker"                                                                          # The name of the cooker repository under RetroDECK organization
+main_repository_name="RetroDECK"                                                                         # The name of the main repository under RetroDECK organization
+features="$config/retrodeck/reference_lists/features.json"                                               # A file where all the RetroDECK and component capabilities are kept for querying
+es_systems="/app/share/es-de/resources/systems/linux/es_systems.xml"                                     # ES-DE supported system list
+es_find_rules="/app/share/es-de/resources/systems/linux/es_find_rules.xml"                               # ES-DE emulator find rules
+
+
+
+
+
+
+
+
+
 

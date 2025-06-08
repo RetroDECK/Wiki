@@ -376,7 +376,7 @@ RPCS3 Firmware download location
 
 `http://dus01.ps3.update.playstation.net/update/ps3/image/us/2024_0227_3694eb3fb8d9915c112e6ab41a60c69f/PS3UPDAT.PUP`
 
-### $RA_API_URLe
+### $RA_API_URL
 
 API URL for RetroAchievements.org
 

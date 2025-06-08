@@ -3,6 +3,16 @@
 A collection of variables used by RetroDECK
 
 
+## Linux
+
+### $HOME
+
+The Home folder
+
+`~`
+
+### $HOME
+
 ## Flatpak XDG 
 
 ### $XDG_SESSION_DESKTOP
@@ -73,6 +83,9 @@ The parent folder of RetroDECK documentation files for deployment
 ### $logs_folder
 
 `retrodeck/logs/`
+
+**Was:** $rd_logs_folder
+
 
 ### $media_folder
 
@@ -191,7 +204,11 @@ fi
 Hardcoded version (in the readonly filesystem)
 
 `$(cat '/app/retrodeck/version')`
-                                                          
+                    
+                    
+### $version                  
+
+Prints current RetroDECK version
 
 ## Static variables
 
@@ -276,6 +293,9 @@ The shipped metainfo XML file for this version
 
 `/app/share/metainfo/net.retrodeck.retrodeck.metainfo.xml`
 
+### $new_home_path
+
+Pathing of the home folder post move action.
 
 
 ## API-related variables
@@ -402,15 +422,10 @@ The URL of a common internet target for testing network access: 3rd
 
 `https://one.one.one.one`
 
-## TODO SORT W.I.P
 
-$new_home_path
 
-$version
 
-$rd_logs_folder 
 
-$HOME
 
 
 

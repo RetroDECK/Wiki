@@ -405,9 +405,11 @@ The URL of a common internet target for testing network access: 3rd
 ## TODO SORT W.I.P
 
 $new_home_path
+
 $version
-$lockfile
-rd_logs_folder 
+
+$rd_logs_folder 
+
 $HOME
 
 

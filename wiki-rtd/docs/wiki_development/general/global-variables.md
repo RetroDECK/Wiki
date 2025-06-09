@@ -168,7 +168,7 @@ https://github.com/RetroDECK/components/blob/cooker/
 
 ### $distro_version
 
-`distro_version=$(flatpak-spawn --host grep '^VERSION_ID=' /etc/os-release | cut -d'=' -f2)`
+`distro_version=$(flatpak-spawn --host grep '^VERSIONgi_ID=' /etc/os-release | cut -d'=' -f2)`
 
 ### $gpu_info
 

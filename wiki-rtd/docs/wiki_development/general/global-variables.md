@@ -321,7 +321,7 @@ RetroDECK API folder
 
 File lock file for multi-threaded write operations to the same file
 
-`$rd_api_dir/retrodeck_api_server.sock`
+`$rd_api_dir/retrodeck_file_lock`
 
 ### $lockfile
 

@@ -182,13 +182,21 @@ https://github.com/RetroDECK/components/blob/cooker/
 
 `max_threads=$(echo $(($(nproc) / 2)))`
 
+### $width
+
+`grep -oP '\d+(?=x)' /sys/class/graphics/fb0/modes`
+
+### $height
+
+
+`height=$(grep -oP '(?<=x)\d+' /sys/class/graphics/fb0/modes`
+
 ### $native_resolution
 
 Used for detecting the Steam Deck resolution.
 
 ```
-width=$(grep -oP '\d+(?=x)' /sys/class/graphics/fb0/modes)
-height=$(grep -oP '(?<=x)\d+' /sys/class/graphics/fb0/modes)
+
 if [[ $width -ne 1280 ]] || [[ $height -ne 800 ]]; then
   native_resolution=false
 else

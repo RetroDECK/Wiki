@@ -1,4 +1,4 @@
-# RetroDECK Global Variables List
+# RetroDECK Variables List
 
 A collection of variables used by RetroDECK
 
@@ -7,9 +7,13 @@ A collection of variables used by RetroDECK
 
 ### $HOME
 
-The Home folder
+Contains the location of the user's home directory.
 
 `~`
+
+### LD_LIBRARY_PATH
+
+Is an environment variable on Unix systems that specifies a list of directories for the dynamic linker to search for shared libraries before searching the default directories. It helps ensure that the correct versions of libraries are used when running applications.
 
 ## Flatpak XDG 
 
@@ -46,6 +50,16 @@ User-specific data
 State data such as undo history
 
 `.var/app/net.retrodeck.retrodeck/.local/state/`
+
+## QT
+
+### QT_PLUGIN_PATH
+
+### QT_QPA_PLATFORM
+
+### QT_QPA_PLATFORM_PLUGIN_PATH
+
+### QT_QPA_PLATFORMTHEME
 
 ## RetroDECK Pathing Variables
 
@@ -148,9 +162,17 @@ The default location of extra splash screens
 `retrodeck/ES-DE/themes`
 
 
+## Components
 
+### $component_name
 
-## RetroDECK Component Function Variables
+Name of the component
+
+### component_folder_path=
+
+`"$(cd "$(dirname "${BASH_SOURCE[0]}" )" && pwd)"`
+
+### Component Function Variables
 
 Are defined by each components component_functions.sh.
 

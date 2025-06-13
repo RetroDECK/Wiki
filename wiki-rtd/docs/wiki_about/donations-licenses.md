@@ -35,7 +35,7 @@ On rare occasions, the RetroDECK Team might need to buy new devices and hardware
   
 ### Where to donate / support the project?
 
-[Patreon](https://www.patreon.com/RetroDECK)
+[Open Collective: RetroDECK](https://opencollective.com/retrodeck)
 
 We aim to have better FOSS donation methods in the future.
 

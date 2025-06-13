@@ -447,6 +447,14 @@ The makers of Steam Rom Manger and SteamGridDB.
 
 ## Art and Assets
 
+### Lahrs Folder Icons 
+
+User Lahrs on contributed and made a vast .ico set to be used within RetroDECK.
+
+Thank you! 
+
+//RetroDECK Team
+
 ### Kenney.nl
 
 RetroDECK Team owns a seperate donation license.

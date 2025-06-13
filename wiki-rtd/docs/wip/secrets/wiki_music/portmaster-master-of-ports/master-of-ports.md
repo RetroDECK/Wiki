@@ -1,6 +1,6 @@
 # Music - PM - The Master of Ports
 
-<img src="../../../wiki_images/ai/portmaster/portmaster-jeff.png" width="300">
+<img src="../portmaster-jeff.png" width="300">
 
 ![type:audio](Master of Ports.mp3)
 

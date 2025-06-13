@@ -1,6 +1,6 @@
 # Music - MUOS Jingle
 
-<img src="../../../wiki_images/ai/muos/muos-opossum.png" width="300">
+<img src="../muos-opossum.png" width="300">
 
 ```
 These sloths should know we are opossums not cows. 

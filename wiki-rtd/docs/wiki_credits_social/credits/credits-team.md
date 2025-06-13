@@ -92,7 +92,7 @@ Pizza Mercenary
 
  We want give special thanks to:
 
-- Our Patreon and donors that keeps the build servers running and provide feedback.
+- Our donors that keeps the build servers running and provide feedback.
 
 - All related emulation, front end and software projects that we are dependent on.
 

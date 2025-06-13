@@ -41,7 +41,7 @@ If you want to contribute to RetroDECK, read more here:
 
 - **RetroDECK Wiki:** 🔗 [How-to: Contribute to RetroDECK](https://retrodeck.readthedocs.io/en/latest/wiki_community/contibute-rd/)
 
-- **Donations:** 🔗 [Patreon](https://www.patreon.com/RetroDECK)
+- **Donations:** 🔗 [Open Collective: RetroDECK](https://opencollective.com/RetroDECK)
 
 - **Website:** 🔗 [retrodeck.net](https://retrodeck.net/)
 

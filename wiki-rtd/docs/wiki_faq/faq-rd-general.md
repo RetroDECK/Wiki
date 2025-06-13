@@ -36,11 +36,6 @@ After the upcoming version.
 
 In the future.
 
-### How do I connect my Patreon to Discord?
-
-Check the: [Pateron Article](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access)
-
-
 ### Can I manually add a system RetroDECK doesn't support yet?
 
 Not easily. The application is sandboxed, and the design goal of RetroDECK is to provide everything within the application. The best approach is to wait for an update that includes the system or contribute code to have it properly integrated.

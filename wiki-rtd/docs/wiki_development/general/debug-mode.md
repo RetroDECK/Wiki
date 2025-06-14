@@ -38,33 +38,20 @@ es-de --debug --home /var/config/
 
 ---
 
-## List runnable components in Debug Mode
 
-RetroDECK consists of a variety of features all called components.
+## How to run retrodeck from shell?
 
-These consists of emulators, game engines,  other software or functions.
+Just type `retrodeck` and it launches full RetroDECK.
 
-You can list all the available components via the command:
+## How to run a component?
 
-```
-ls /app/bin
-```
+You can also launch specific components by typing `retrodeck --open <componentname>`
 
----
 
-### How to run a component?
+**Example:**
 
-Just type the compoants name directly into the flatpak shell CLI.
+`retrodeck --open retroarch` launches RetroArch.
 
-Example:
-
-- `retrodeck` launches full RetroDECK.
-
-You can also launch specific components by running them, example:
-
-- `retroarch` launches RetroArch.
-
-This is useful when for example a game is not starting and you want the output printed in the terminal.
 
 ---
 

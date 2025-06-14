@@ -6,7 +6,8 @@ Copy into your `~/.bashrc`
 alias rddebug="flatpak run --command=bash net.retrodeck.retrodeck --debug"
 
 alias rdinstc="flatpak remove net.retrodeck.retrodeck -y
-flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak"
+flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak
+rm -f RetroDECK-cooker.flatpak.7z*"
 
 alias rdinstm="flatpak remove net.retrodeck.retrodeck -y
 flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak"

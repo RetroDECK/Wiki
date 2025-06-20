@@ -24,9 +24,6 @@ Your system will be cluttered, and you will be bound by each emulator's defaults
 
 Instead, you can install ES-DE from their website and set up the emulators as usual. 
 
-Note that the `es_find_rules.xml` and `es_systems.xml` files you are editing will be overwritten when RetroDECK updates, so you'll need to reapply your changes after each update.
-
-
 ### Disclaimer on Experiments 
 
 These experiments are created by the RetroDECK Team and/or Community. The guides are intended for people with technical knowledge and a passion for tinkering. Using these guides *might* put RetroDECK and your data at risk. The RetroDECK Team can't provide any support for these experiments or fix any issues they might cause on your system or RetroDECK installation.
@@ -60,7 +57,8 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
 | **User Application:** ES-DE Linux Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` |  
-| **System Application:** ES-DE Linux Folder  |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` |  
+| **System Application:** ES-DE Linux Folder  |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` | 
+| **Custom Systems:**   |`retrodeck/ES-DE/custom_systems/` | `es_find_rules.xml` `es_systems.xml` |  
 
 ## Requirement: Add the FLATPAKSPAWN System
 
@@ -68,9 +66,9 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
 
 1. Go to the ES-DE Linux Folder via the path above (depending on how you installed RetroDECK).
 
-2. Find and open `es_find_rules.xml`.
+2. Find and open `es_find_rules.xml` and copy it to `retrodeck/ES-DE/custom_systems/`
 
-3. Edit `es_find_rules.xml`:
+3. Edit the new `es_find_rules.xml` `retrodeck/ES-DE/custom_systems/`:
 
     - At the end of the file but before `</ruleList>`, add a new system `FLATPAKSPAWN`:
     - Copy & paste:
@@ -88,11 +86,11 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
 
 ### Step 1: Open es_systems.xml
 
-1. Go to the ES-DE Linux Folder via the path above (depending on how you installed RetroDECK).
+1. Go to the ES-DE Linux Folder via the path above (depending on how you installed RetroDECK) and `retrodeck/ES-DE/custom_systems/`.
 
-2. Find and open `es_systems.xml`.
+2. Find and open `es_systems.xml` in both places.
 
-3. Search for and find the system entry you want to add an external system to.
+3. Search for and find the system entry you want to add an external system to in the ES-DE Linux Folder.
 
 **Example:** GameCube
 
@@ -113,7 +111,7 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
 
 ### Step 2: Modify es_systems.xml
 
-1. Copy and paste one of <command label=> entries and add one or more additional entries.
+1. Copy and paste one the full entries you want to edit into the `es_systems.xml` in `retrodeck/ES-DE/custom_systems/`.
 
 2. Modify the command labels values:
 

@@ -66,18 +66,22 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
 
 1. Go to the ES-DE Linux Folder via the path above (depending on how you installed RetroDECK).
 
-2. Find and open `es_find_rules.xml` and copy it to `retrodeck/ES-DE/custom_systems/`
+2. Find `es_find_rules.xml` and copy a it to `retrodeck/ES-DE/custom_systems/`.
 
-3. Edit the new `es_find_rules.xml` `retrodeck/ES-DE/custom_systems/`:
+3. Erase everything in the new file in `retrodeck/ES-DE/custom_systems/` and edit it. 
+
+4. 
 
     - At the end of the file but before `</ruleList>`, add a new system `FLATPAKSPAWN`:
     - Copy & paste:
       ```
+      <ruleList>
       <emulator name="FLATPAKSPAWN">
           <rule type="systempath">
               <entry>flatpak-spawn</entry>
           </rule>
       </emulator>
+      </ruleList>
       ```
 4. Save and close the file.
 

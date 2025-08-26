@@ -16,6 +16,15 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 | config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/` | `retrodeck.cfg`   |  
 
 
+---
+
+## Flatpak: General Folders
+
+| **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     | 
+|  :---:  | :---:                  |             :---:     | :---:  | 
+| Flatpak Runtimes |`~/.local/.local/share/flatpak/runtime/` | `/var/lib/flatpak/runtime/` | Runtimes like: `org.kde.Platform`, `org.freedesktop.Platform`, `org.gnome.Platform`  |
+|  :---:  | :---:                  |             :---:     | :---:  | 
+| Flatpak Overrides |`~/.local/.local/share/flatpak/overrides/` | `/var/lib/flatpak/overrides/` | Flatpak specific overrides  |
 
 ---
 
@@ -39,6 +48,7 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 | retrodeck Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/` | RetroDECK Structure sub-folders and `version` file |  
 | share Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/` | Shared resources  | 
 | tools Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/tools/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/tools/` | `configurator.sh` `retrodeck_function_wrapper.sh`  | 
+
 
 
 ---

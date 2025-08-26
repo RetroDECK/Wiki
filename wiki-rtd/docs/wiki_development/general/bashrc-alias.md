@@ -7,6 +7,8 @@ alias rddebugcli="flatpak run --command=bash net.retrodeck.retrodeck --debug"
 
 alias rddebuglaunch="flatpak run net.retrodeck.retrodeck --debug"
 
+alias rdlaunch="flatpak run net.retrodeck.retrodeck"
+
 alias rdinstallcooker="flatpak remove net.retrodeck.retrodeck -y
 flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak
 rm -f RetroDECK-cooker.flatpak.7z*"

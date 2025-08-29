@@ -27,4 +27,7 @@ alias rdgitclonecooker="git clone -b cooker https://github.com/RetroDECK/RetroDE
 alias rdgitclonewiki="git clone https://github.com/RetroDECK/Wiki"
 
 alias rdgitcloneesde="git clone -b retrodeck-main https://github.com/RetroDECK/ES-DE"
+
+alias rdrmvarfolder="rm -rf ~/.var/app/net.retrodeck.retrodeck/"
+
 ```

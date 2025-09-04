@@ -36,12 +36,11 @@ RetroDECK 0.10.0b is advancing under the “Project Neo” umbrella, that we
 
 We’re still addressing component‑specific issues, so the final release will take additional time. In effect, we’re rebuilding large portions of the application and its build pipeline from the ground up—making this effort feel more like **RetroDECK II** or **RetroDECK Neo**, which explains the project name.
 
-The development cycle is:
-
-1. **Migrate all components** to the new architecture. <- We are here (this is the part that takes the longest).
+1. **Add new and old components** to the new architecture and make them run. <- We are focused here currently.
 2. **Update configuration files** for each component to align with the new structure.  
-3. **Adapt all tooling** so it respects the redesigned layout.  
+3. Adapt all Configurator Tools and functions. 
 4. Conduct extensive **testing and bug‑fixing**.
+5. Writing documentation for the wiki.
 
 We’re also integrating numerous new components, with the update’s focus centered on these enhancements.
 

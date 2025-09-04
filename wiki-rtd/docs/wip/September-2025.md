@@ -12,12 +12,16 @@ The RetroDECK Team have been hard at work.
 
 ## Highlights
 
-- Development Status
+- ImCoKeMaN & PortMaster Team - Added more ports
+- RetroDECK 0.10.0b - Status
+- New Components Under Development
+- Storage folder
+- Lahrs folder Icons
 
 <!-- more -->
 
 
-## ImCoKeMaN & PM Team - Added more ports
+## ImCoKeMaN & PortMaster Team - Added more ports
 
 <img src="../portmaster-logo.png" width="75"> 
 
@@ -73,11 +77,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 
 
-### Lindbergh Loader  
 
-<img src="../lindbergh-loader-logo.png" width="75"> 
-
-*SEGA Lindbergh arcade emulator Lindbergh Loader .*
 
 
 ### Flycast  
@@ -94,7 +94,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 *Mudlet the MUD client / Engine.*
 
-> **RetroDECK Team Note:**  You will be able to directly connect to specific mud servers as seperate games in ES-DE with usermade .mud files.
+> **RetroDECK Team Comment:** You will be able to directly connect to specific mud servers as seperate games in ES-DE with usermade .mud files.
 
 
 ### OpenBOR  
@@ -103,7 +103,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 *Engine for OpenBOR games.*
 
-> **RetroDECK Team Note:**  We have tried to add it before but it never did work quite right. But it works now with with usermade .bor or .openbor files.
+> **RetroDECK Team Comment:** We have tried to add it before but it never did work quite right. But it works now with with usermade .bor or .openbor files.
 
 ### Ryubing
 
@@ -111,7 +111,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 *Ryujinx fork Ryubing.*
 
-> **RetroDECK Team Note:**  Replacement for the semi‑broken Ryujinx legacy build. The old Ryujinx will be removed.
+> **RetroDECK Team Comment:** Replacement for the semi‑broken Ryujinx legacy build. The old Ryujinx will be removed.
 
 ### SimCoupe  
 
@@ -126,15 +126,13 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 *Full standalone version of the ScummVM engine.*
 
- 
-
 ### VPinballX  
 
 <img src="../vpinballx-logo.png" width="75"> 
 
 *Virtual pinball engine (VP/VPin) VPinballX.*
 
-> **RetroDECK Team Note:**  If you have experience configuring VPinballX, please reach out to the team—we’d love your input on optimal settings.
+> **RetroDECK Team Comment:**  If you have experience configuring VPinballX, please reach out to the team—we’d love your input on optimal settings.
 
 ### XRoar  
 
@@ -146,7 +144,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 ## Other Components
 
-There are also other components that are not just in current cooker but we have experimented with.
+There are also other components that are not just in current cooker but are experimenting with.
 
 ### Ares  
 
@@ -158,7 +156,21 @@ There are also other components that are not just in current cooker but we have 
 
 <img src="../gargoyle-logo.webp" width="75"> 
 
-*Interactive‑Fiction player Gargoyle (used primarily as a Infocom Z-machine emulator inside RetroDECK). It supports a wide range of interpreters: AdvSys, Agility, Alan 2/3, Bocfel, Git, Glulxe, Hugo, JACL, Level 9, Magnetic, Scare, ScottFree, TADS 2/3.*
+*Interactive‑Fiction player Gargoyle (used primarily as a Infocom Z-machine emulator inside RetroDECK).* 
+
+*It supports a wide range of interpreters: AdvSys, Agility, Alan 2/3, Bocfel, Git, Glulxe, Hugo, JACL, Level 9, Magnetic, Scare, ScottFree, TADS 2/3.*
+
+### Hypseus Singe
+
+<img src="../hypseus-logo.png" width="150"> 
+
+*LaserDisc arcade emulator Hypseus Singe.*
+
+### Lindbergh Loader  
+
+<img src="../lindbergh-loader-logo.png" width="75"> 
+
+*SEGA Lindbergh arcade emulator Lindbergh Loader .*
 
 ### KEGS  
 
@@ -200,11 +212,13 @@ We are planning a new core‑system folder under **retrodeck/** called **storage
 
 ### Lahrs folder Icons
 
-Starting with **RetroDeck 0.10.0b**, we’ll ship custom Lahrs folder icons for every RetroDeck folder. 
+The goal is that we in **RetroDeck 0.10.0b** ship Lahrs custom folder icons for every RetroDeck folder. 
 
 They will be enabled by default and the new icons should appear automatically after the update. 
 
-We also plan to make a Configurator Tool to turn them on or off. 
+There are plans to make a Configurator Tool to turn them on or off. 
+
+We thank Lahrs for his tremendous effort creating specific icons for each folder.
 
 
 ---

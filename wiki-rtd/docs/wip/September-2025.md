@@ -193,9 +193,8 @@ We are planning a new core‑system folder under **retrodeck/** called **storage
 
 - **DLC / Updates** - For the components that have that.
 - **Plugins** - Plugin folders that are not game mods.
-- **MAME Assets** - Some emulators like MAME have several folders that can be put here like: GameOver screens and more.   
-- **Workable Writable Space** - temporary or persistent writable areas (e.g., for the DOSBox‑X sandbox).  
-- **Accelerated Data** - any additional data the user must store for performance‑critical operations.
+- **Specific Assets** - Some components like MAME have several folders that can be put here like: GameOver screens and more.   
+- **Workable Writable Space** - Temporary or persistent writable areas (e.g., for the DOSBox‑X sandbox).  
 
 > **RetroDECK Team Note:** This probably will not might not make it into 0.10.0b. The exact structure of the folder will evolve as we gather feedback and identify further use‑cases. 
 

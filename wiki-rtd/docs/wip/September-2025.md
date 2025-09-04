@@ -16,9 +16,9 @@ The RetroDECK Team have been hard at work.
 
 <!-- more -->
 
-<img src="../../../icon-assembler.svg" width="75"> 
+<img src="../icon-assembler.svg" width="75"> 
 
-<img src="../../../icon-api.svg" width="75"> 
+<img src="../icon-api.svg" width="75"> 
 
 ## ImCoKeMaN & PM Team - Added more ports
 
@@ -30,7 +30,7 @@ We give ImCoKeMaN and the PortMaster Team our biggest thanks.
 
 ## RetroDECK 0.10.0b - Status
 
-<img src="../../../icon-component.svg" width="75"> 
+<img src="../icon-component.svg" width="75"> 
 
 RetroDECK 0.10.0b is advancing under the “Project Neo” umbrella, that we first talked about in June.
 
@@ -50,69 +50,138 @@ We’re also integrating numerous new components, with the update’s focus cent
 
 ## New Components Under Development
 
-We’re experimenting with several components simultaneously. Some may be deferred to later updates if they prove too time‑consuming. The list below reflects our current status in cooker (subject to change).
+We’re experimenting with several components simultaneously. Some may be deferred to later updates if they prove too time‑consuming. The list below reflects our current status in cooker as of today (subject to change).
 
 ### Azahar  
-*Nintendo 3DS emulator.*
+
+<img src="../azahar-logo.svg" width="75"> 
+
+*Nintendo 3DS emulator Azahar.*
+
 
 ### Dosbox‑X  
-*A standalone DOS emulator.*
+
+<img src="../dosbox-x-logo.webp" width="75"> 
+
+*Standalone DOS emulator Dosbox‑X.*
+
 
 ### EKA2L1  
-*Emulator for N‑Gage, N‑Gage II, and Symbian devices.*
+
+<img src="../eka2l1-logo.png" width="75"> 
+
+*N‑Gage, N‑Gage II, and Symbian devices emulator EKA2L1.*
+
+
 
 ### Lindbergh Loader  
-*SEGA Lindbergh arcade emulator.*
+
+<img src="../lindbergh-loader-logo.png" width="75"> 
+
+*SEGA Lindbergh arcade emulator Lindbergh Loader .*
+
 
 ### Flycast  
-*Standalone emulator for the SEGA Dreamcast.*
+
+<img src="../flycast-logo.webp" width="75"> 
+
+*Standalone emulator Flycast for the SEGA Dreamcast.*
+
+
 
 ### Mudlet  
-*MUD client that will expose active MUD servers from ES‑DE as separate games.*
+
+<img src="../mudlet-logo.png" width="100"> 
+
+*Mudlet the MUD client / Engine.*
+
+
 
 ### OpenBOR  
+
+<img src="../openbor-logo.svg" width="100"> 
+
 *Engine for OpenBOR games.*
 
-### Ryubing (Ryujinx)  
-*Replacement for the semi‑broken Ryujinx legacy build.*
+
+### Ryubing
+
+<img src="../ryubing-logo.webp" width="75"> 
+
+*Ryujinx fork Ryubing.*
+
+> **Note:** Replacement for the semi‑broken Ryujinx legacy build. The old Ryujinx will be removed.
 
 ### SimCoupe  
-*SAM Coupé emulator.*
+
+<img src="../simcoupe-logo.png" width="75"> 
+
+
+*SAM Coupé emulator SimCoupe.*
 
 ### ScummVM‑SA  
+
+<img src="../scummvm-logo.svg" width="75">
+
 *Full standalone version of the ScummVM engine.*
 
+ 
+
 ### VPinballX  
+
+<img src="../vpinballx-logo.png" width="75"> 
+
 *Virtual pinball engine (VP/VPin).*
 
 > **Note:** If you have experience configuring VPinballX, please reach out to the team—we’d love your input on optimal settings.
 
 ### XRoar  
-*Emulates Dragon 32, Dragon 64, Tano Dragon, Tandy CoCo 1 & 2.*
+
+<img src="../xroar-tano64-logo.jpg" width="150">
+
+*Dragon 32, Dragon 64, Tano Dragon, Tandy CoCo 1 & 2 emulator XRoar.*
 
 ---
 
-## Future Components 
+## Future Components
 
-These are also things we are looking into and might or might not make it into 0.10.0b
+There are also other components that are not just in current cooker we have experimented on.
 
 ### Ares  
-*Multi‑emulator front‑end, positioned as an alternative to RetroArch.*
+
+<img src="../ares-logo.png" width="75"> 
+
+*Multi‑emulator as an alternative to RetroArch.*
 
 ### Gargoyle  
-*Interactive‑Fiction player supporting a wide range of interpreters (AdvSys, Agility, Alan 2/3, Bocfel, Git, Glulxe, Hugo, JACL, Level 9, Magnetic, Scare, ScottFree, TADS 2/3).*
+
+<img src="../gargoyle-logo.webp" width="75"> 
+
+*Interactive‑Fiction player Gargoyle. Supporting a wide range of interpreters: AdvSys, Agility, Alan 2/3, Bocfel, Git, Glulxe, Hugo, JACL, Level 9, Magnetic, Scare, ScottFree, TADS 2/3.*
 
 ### KEGS  
-*Apple IIgs emulator.*
+
+<img src="../kegs-apple2gs-logo.svg" width="150"> 
+
+*Apple IIgs emulator KEGS.*
 
 ### RAZE  
-*Build‑engine based engine derived from ZDOOM (supports Duke Nukem, Redneck Rampage, Blood, etc.).*
+
+<img src="../raze-logo.png" width="75"> 
+
+*Build‑engine based engine RAZE derived from ZDOOM (supports Duke Nukem, Redneck Rampage, Blood, etc.).*
 
 ### ShadPS4  
-*PlayStation 4 emulator.*
+
+<img src="../shadps4-logo.png" width="75"> 
+
+*PlayStation 4 emulator ShadPS4.*
 
 ### SuperModel  
-*Sega Model 3 arcade emulator.*
+
+<img src="../supermodel-logo.webp" width="75"> 
+
+*Sega Model 3 arcade emulator SuperModel.*
 
 ---
 

@@ -24,78 +24,88 @@ The RetroDECK Team have been hard at work.
 
 <img src="../../../icon-component.svg" width="75"> 
 
-RetroDECK 0.10.0b is slowly progressing, under the umbrella "Project Neo" as we explained in back in June.
+RetroDECK 0.10.0b is advancing under the “Project Neo” umbrella, that we first talked about in June.
 
-We are still resolving various issues per component basis and it will still take a while to get over the finish line. 
+We’re still addressing component‑specific issues, so the final release will take additional time. In effect, we’re rebuilding large portions of the application and its build pipeline from the ground up—making this effort feel more like **RetroDECK II** or **RetroDECK Neo**, which explains the project name.
 
-In a sense we are rebuilding many parts of the application and build process from scratch, it's more akin to a RetroDECK II or RetroDECK Neo (hence the name Project Neo).
+The development cycle is:
 
-We are also trying to cram a lot of new components into it, where the focus of the update is. 
+1. **Migrate all components** to the new architecture. <- We are here (this is the part that takes the longest).
+2. **Update configuration files** for each component to align with the new structure.  
+3. **Adapt all tooling** so it respects the redesigned layout.  
+4. Conduct extensive **testing and bug‑fixing**.
 
-The plan is:
-
-1. Make all components run in the new structure.
-2. Configure all the config files that each component to match the new structure. 
-3. Make all the tools respect the new structure.
-4. Tons of testing and bugfixing.
+We’re also integrating numerous new components, with the update’s focus centered on these enhancements.
 
 ---
 
-## So what new components are you trying to add?
+## New Components Under Development
 
-We are experimenting with several components at once and we might hold some back to a later update if they are taking too much time.
+We’re experimenting with several components simultaneously. Some may be deferred to later updates if they prove too time‑consuming. The list below reflects our current priorities (subject to change).
 
-These are not 100% set in stone. 
+### Azahar  
+*Nintendo 3DS emulator.*
 
-But the current list of new components cooker are the following.
+### Dosbox‑X  
+*A standalone DOS emulator.*
 
-### Azahar
+### EKA2L1  
+*Emulator for N‑Gage, N‑Gage II, and Symbian devices.*
 
-### Dosbox-X
+### Lindbergh Loader  
+*SEGA Lindbergh arcade emulator.*
 
-### EKA2L1 
+### Flycast  
+*Standalone emulator for the SEGA Dreamcast.*
 
-### Lindbergh Loader
+### Mudlet  
+*MUD client that will expose active MUD servers from ES‑DE as separate games.*
 
-### Flycast
+### OpenBOR  
+*Engine for OpenBOR games.*
 
-### Mudlet
+### Ryujinx (Ryubing)  
+*Replacement for the semi‑broken Ryujinx legacy build.*
 
-### OpenBOR
+### SimCoupe  
+*SAM Coupé emulator.*
 
-### Ryubing
+### ScummVM‑SA  
+*Full standalone version of the ScummVM engine.*
 
-Replaces the semi-broken Ryujinx legacy build. 
+### VPinballX  
+*Virtual pinball engine (VP/VPin).*
 
-### Simcoupe
+> **Note:** If you have experience configuring VPinballX, please reach out to the team—we’d love your input on optimal settings.
 
-### ScummVM-SA
-
-The full Standalone version of ScummVM
-
-### VpinballX
-
-### XRoar
+### XRoar  
+*Dragon and Tandy 8‑bit computer emulator.*
 
 ---
 
-## What components are after that?
+## Future Components (Post‑Release)
 
-### Ares
+### Ares  
+*Multi‑emulator front‑end, positioned as an alternative to RetroArch.*
 
-### Gargoyle
+### Gargoyle  
+*Interactive‑Fiction player supporting a wide range of interpreters (AdvSys, Agility, Alan 2/3, Bocfel, Git, Glulxe, Hugo, JACL, Level 9, Magnetic, Scare, ScottFree, TADS 2/3).*
 
-### KEGS
+### KEGS  
+*Apple IIgs emulator.*
 
-### RAZE
+### RAZE  
+*Build‑engine based engine derived from ZDOOM (supports Duke Nukem, Redneck Rampage, Blood, etc.).*
 
-### ShadPS4
+### ShadPS4  
+*PlayStation 4 emulator.*
 
-### SuperModel
+### SuperModel  
+*Sega Model 3 arcade emulator.*
 
-### Xenia
+### Medafen  
+*Legacy Sega emulator.*
 
-### Medafen
 
 ## That is all for now 
 

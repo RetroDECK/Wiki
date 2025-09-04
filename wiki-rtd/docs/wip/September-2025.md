@@ -186,6 +186,26 @@ There are also other components that are not just in current cooker but we have 
 
 ---
 
+## Anything Else You Are Working On?
+
+### Storage folder
+We are planning a new core‑system folder under **retrodeck/** called **storage**. This folder will house several types of user added data:
+
+- **DLC / Updates** - For the components that have that.
+- **Plugins** - Plugin folders that are not game mods.
+- **MAME Assets** - Some emulators like MAME have several folders that can be put here like: GameOver screens and more.   
+- **Workable Writable Space** - temporary or persistent writable areas (e.g., for the DOSBox‑X sandbox).  
+- **Accelerated Data** - any additional data the user must store for performance‑critical operations.
+
+> **RetroDECK Team Note:** This probably will not might not make it into 0.10.0b. The exact structure of the folder will evolve as we gather feedback and identify further use‑cases. 
+
+### Lahrs folder Icons
+
+Starting with **RetroDeck 0.10.0b**, we’ll ship custom Lahrs folder icons for every RetroDeck folder. They will be enabled by default and the new icons should appear automatically after the update. We also plan to make a Configurator Tool to turn them on or off. 
+
+
+---
+
 ## That is all for now 
 
 There are more things we are working on, but you will see them in future blog updates!

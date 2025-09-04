@@ -73,7 +73,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 ### OpenBOR  
 *Engine for OpenBOR games.*
 
-### Ryujinx (Ryubing)  
+### Ryubing (Ryujinx)  
 *Replacement for the semi‑broken Ryujinx legacy build.*
 
 ### SimCoupe  
@@ -88,7 +88,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 > **Note:** If you have experience configuring VPinballX, please reach out to the team—we’d love your input on optimal settings.
 
 ### XRoar  
-*Dragon and Tandy 8‑bit computer emulator.*
+*Emulates Dragon 32, Dragon 64, Tano Dragon, Tandy CoCo 1 & 2.*
 
 ---
 
@@ -113,9 +113,6 @@ These are also things we are looking into and might or might not make it into 0.
 
 ### SuperModel  
 *Sega Model 3 arcade emulator.*
-
-### Medafen  
-*Legacy Sega emulator.*
 
 ---
 

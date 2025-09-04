@@ -16,21 +16,20 @@ The RetroDECK Team have been hard at work.
 
 <!-- more -->
 
-<img src="../icon-assembler.svg" width="75"> 
-
-<img src="../icon-api.svg" width="75"> 
 
 ## ImCoKeMaN & PM Team - Added more ports
 
+<img src="../portmaster-logo.png" width="75"> 
+
 Community member ImCoKeMaN have helped the PortMaster Team getting more X86_64 ports available and thus they are in RetroDECK.
 
-So far about 30 new ports have appeared.
+So far about 30 new ports have been added.
 
 We give ImCoKeMaN and the PortMaster Team our biggest thanks. 
 
 ## RetroDECK 0.10.0b - Status
 
-<img src="../icon-component.svg" width="75"> 
+<img src="../icon-rd.svg" width="75"> 
 
 RetroDECK 0.10.0b is advancing under the “Project Neo” umbrella, that we first talked about in June.
 
@@ -95,6 +94,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 *Mudlet the MUD client / Engine.*
 
+> **RetroDECK Team Note:**  You will be able to directly connect to specific mud servers as seperate games in ES-DE with usermade .mud files.
 
 
 ### OpenBOR  
@@ -103,6 +103,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 *Engine for OpenBOR games.*
 
+> **RetroDECK Team Note:**  We have tried to add it before but it never did work quite right. But it works now with with usermade .bor or .openbor files.
 
 ### Ryubing
 
@@ -110,7 +111,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 *Ryujinx fork Ryubing.*
 
-> **Note:** Replacement for the semi‑broken Ryujinx legacy build. The old Ryujinx will be removed.
+> **RetroDECK Team Note:**  Replacement for the semi‑broken Ryujinx legacy build. The old Ryujinx will be removed.
 
 ### SimCoupe  
 
@@ -133,7 +134,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 *Virtual pinball engine (VP/VPin) VPinballX.*
 
-> **Note:** If you have experience configuring VPinballX, please reach out to the team—we’d love your input on optimal settings.
+> **RetroDECK Team Note:**  If you have experience configuring VPinballX, please reach out to the team—we’d love your input on optimal settings.
 
 ### XRoar  
 
@@ -143,9 +144,9 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 ---
 
-## Future Components
+## Other Components
 
-There are also other components that are not just in current cooker we have experimented on.
+There are also other components that are not just in current cooker but we have experimented on.
 
 ### Ares  
 

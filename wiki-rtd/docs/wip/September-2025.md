@@ -34,13 +34,15 @@ We give ImCoKeMaN and the PortMaster Team our biggest thanks.
 
 RetroDECK 0.10.0b is advancing under the “Project Neo” umbrella, that we first talked about in June.
 
-We’re still addressing component‑specific issues, so the final release will take additional time. In effect, we’re rebuilding large portions of the application and its build pipeline from the ground up—making this effort feel more like **RetroDECK II** or **RetroDECK Neo**, which explains the project name.
+We’re still addressing component‑specific issues, so the final release will take additional time and no ETAs. We’re rebuilding large portions of the application and its build pipeline from the ground up—making this effort feel more like **RetroDECK II** or **RetroDECK Neo**, which explains the project name.
 
-1. **Add new and old components** to the new architecture and make them run. <- We are focused here currently.
-2. **Update configuration files** for each component to align with the new structure.  
-3. Adapt all Configurator Tools and functions. 
-4. Conduct extensive **testing and bug‑fixing**.
-5. Writing documentation for the wiki.
+We are doing a mix of:
+
+- **Adding new and old components** to the new architecture and make them run. <- We are focused here currently.
+- **Updating configuration files** for each component to align with the new structure. 
+- **Adapt all** Configurator Tools and functions. 
+- Conduct extensive **testing and bug‑fixing**.
+- **Writing documentation** for the wiki.
 
 We’re also integrating numerous new components, with the update’s focus centered on these enhancements.
 
@@ -48,7 +50,7 @@ We’re also integrating numerous new components, with the update’s focus cent
 
 ## New Components Under Development
 
-We’re experimenting with several components simultaneously. Some may be deferred to later updates if they prove too time‑consuming. The list below reflects our current priorities (subject to change).
+We’re experimenting with several components simultaneously. Some may be deferred to later updates if they prove too time‑consuming. The list below reflects our current status in cooker (subject to change).
 
 ### Azahar  
 *Nintendo 3DS emulator.*
@@ -92,7 +94,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 ## Future Components 
 
-These are also things we are looking into.
+These are also things we are looking into and might or might not make it into 0.10.0b
 
 ### Ares  
 *Multi‑emulator front‑end, positioned as an alternative to RetroArch.*

@@ -4,7 +4,7 @@ date: 2025-09-08
 
 --- 
 
-# September 2025: Components, Components, Components
+# September 2025: Components, Components, Components!
 
 Lots of development focused RetroDECK 0.10.0b news. 
 

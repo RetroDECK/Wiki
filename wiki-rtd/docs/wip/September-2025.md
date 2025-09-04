@@ -131,7 +131,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 <img src="../vpinballx-logo.png" width="75"> 
 
-*Virtual pinball engine (VP/VPin).*
+*Virtual pinball engine (VP/VPin) VPinballX.*
 
 > **Note:** If you have experience configuring VPinballX, please reach out to the team—we’d love your input on optimal settings.
 

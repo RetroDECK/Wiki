@@ -20,6 +20,14 @@ The RetroDECK Team have been hard at work.
 
 <img src="../../../icon-api.svg" width="75"> 
 
+## ImCoKeMaN - Added more ports
+
+Community member ImCoKeMaN have helped the PortMaster Team getting more X86_64 ports available in RetroDECK.
+
+So far about 30 new ports have appeared.
+
+We give ImCoKeMaN and the PortMaster Team our biggest thanks. 
+
 ## RetroDECK 0.10.0b - Status
 
 <img src="../../../icon-component.svg" width="75"> 
@@ -83,7 +91,9 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 ---
 
-## Future Components (Post‑Release)
+## Future Components 
+
+These are also things we are looking into.
 
 ### Ares  
 *Multi‑emulator front‑end, positioned as an alternative to RetroArch.*

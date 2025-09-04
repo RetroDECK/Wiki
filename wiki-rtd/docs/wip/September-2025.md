@@ -116,6 +116,7 @@ These are also things we are looking into.
 ### Medafen  
 *Legacy Sega emulator.*
 
+---
 
 ## That is all for now 
 

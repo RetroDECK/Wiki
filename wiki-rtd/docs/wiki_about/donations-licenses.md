@@ -4,15 +4,23 @@
 
 ## Information
 
-RetroDECK relies on its dependencies to function. Without them, RetroDECK and similar projects cannot exist. We aim to collaborate with other projects to improve RetroDECK and Linux as a whole.
+RetroDECK thrives thanks to the open‑source community and depends on a wide range of third‑party libraries, systems and tools. 
 
-If you prefer to donate to the frontend, art assets, a specific emulator, or engine instead of RetroDECK, we support your choice. The goal of RetroDECK is not to make a big profit but to pursue a passion project.
+Without those dependencies, neither RetroDECK nor many similar projects could exist. 
 
-If you feel passionate about a specific emulator/engine/other, always donate to them directly and not via proxy. No project should control another project's funds.
+Our philosophy is to collaborate openly with other projects to improve both RetroDECK and the broader Linux ecosystem.
 
 We list current and future software and functions we want to include in RetroDECK and their licenses. More items will be added in upcoming updates.
 
 There are many emulators, software, front-ends, and assets not part of RetroDECK. This is not a complete list of all emulators or frontends on the internet.
+
+### Support the right place
+
+If you want to fund a specific frontend, art asset, emulator, engine, or other we always encourage you to donate directly to that project/person and not via proxy. 
+
+No other project should control another projects funds. 
+
+Always make sure that the funds are getting to the right person. Direct contributions to the projects you care about are always preferred.
 
 ## RetroDECK
 
@@ -20,18 +28,26 @@ There are many emulators, software, front-ends, and assets not part of RetroDECK
 
 By donating to RetroDECK, you support the project and the vision of a unified experience.
 
-### We will use those funds to:
+> **Important:** Donations do **not** grant any special privileges, perks, or such things. They simply support the ongoing development and maintenance of the hobby project. We also don't want excessive donations, donate to our dependencies instead. 
 
+### How We Use Your Contributions
 
-- Pay for web hosting, build servers, and other hosting costs.
-- Pay for development software and licenses (we strive to use FOSS and CC licenses as much as possible).
-- Pay for UI elements and art from artists (we strive to use FOSS and CC licenses as much as possible).
+| ✅ Area                         | 📌 What It Funds |
+|--------------------------------|------------------|
+| **Infrastructure**            | Web hosting, build servers, and other hosting costs |
+| **Development Tools**         | Software licenses (we prioritize FOSS and Creative‑Commons whenever possible) |
+| **UI & Artwork**              | Commissioned UI elements and artwork from artists (again, favoring FOSS/CC‑licensed assets) |
+| **Hardware (rarely)**   | New devices for testing and development (see details below) |
 
-On rare occasions, the RetroDECK Team might need to buy new devices and hardware for RetroDECK development (we will inform the community before doing so):
+#### Rare Hardware Purchases
 
-- Gaming devices like the Steam Deck or Rog Ally.
-- Various big brand and small brand controllers for development.
-- Special peripherals: Lightguns, Wheels, XAC, Vboard, etc.
+From time to time the RetroDECK team may need to acquire new hardware to test compatibility or develop new features. We will always ask the community beforehand if we plan to make such a purchases.
+
+- **Gaming handhelds** – e.g., Steam Deck, ROG Ally.
+- **Controllers** – both major‑brand and niche options for comprehensive testing and making profiles for.
+- **Exotic Special peripherals** – light guns, racing wheels, X‑Arcade cabinets, V‑Boards, XAC, rythm etc.
+
+> **Important:** As of now no such purchases have been made, all hardware and have been bought by RetroDECK Team members personal funds.
   
 ### Where to donate / support the project?
 

@@ -12,6 +12,7 @@ The RetroDECK Team have been hard at work.
 
 ## Highlights
 
+- Switched from Patreon to OpenCollective
 - ImCoKeMaN & PortMaster Team - Added more ports
 - RetroDECK 0.10.0b - Status
 - New Components Under Development
@@ -19,6 +20,15 @@ The RetroDECK Team have been hard at work.
 - Lahrs folder Icons
 
 <!-- more -->
+
+## Note: We have switched from Patreon to OpenCollective
+
+We already did the switch months ago. But in short OpenCollective is more akin to our values then Patreon.
+
+The Patreon is still open, but our plan is to migrate fully later and close it. 
+
+**Read more here:** [Donations & Licenses](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)
+
 
 
 ## ImCoKeMaN & PortMaster Team - Added more ports
@@ -222,6 +232,8 @@ We thank Lahrs for his tremendous effort creating specific icons for each folder
 
 
 ---
+
+
 
 ## That is all for now 
 

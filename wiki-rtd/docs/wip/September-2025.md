@@ -200,7 +200,11 @@ We are planning a new core‑system folder under **retrodeck/** called **storage
 
 ### Lahrs folder Icons
 
-Starting with **RetroDeck 0.10.0b**, we’ll ship custom Lahrs folder icons for every RetroDeck folder. They will be enabled by default and the new icons should appear automatically after the update. We also plan to make a Configurator Tool to turn them on or off. 
+Starting with **RetroDeck 0.10.0b**, we’ll ship custom Lahrs folder icons for every RetroDeck folder. 
+
+They will be enabled by default and the new icons should appear automatically after the update. 
+
+We also plan to make a Configurator Tool to turn them on or off. 
 
 
 ---

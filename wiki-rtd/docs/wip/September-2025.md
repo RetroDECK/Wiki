@@ -4,7 +4,7 @@ date: 2025-09-08
 
 --- 
 
-# September 2025: Putting Together all the Components
+# September 2025: Components, Components, Components
 
 Lots of development focused RetroDECK 0.10.0b news. 
 
@@ -157,7 +157,7 @@ There are also other components that are not just in current cooker we have expe
 
 <img src="../gargoyle-logo.webp" width="75"> 
 
-*Interactive‑Fiction player Gargoyle. Supporting a wide range of interpreters: AdvSys, Agility, Alan 2/3, Bocfel, Git, Glulxe, Hugo, JACL, Level 9, Magnetic, Scare, ScottFree, TADS 2/3.*
+*Interactive‑Fiction player Gargoyle (used primarily as a Infocom Z-machine emulator inside RetroDECK). It supports a wide range of interpreters: AdvSys, Agility, Alan 2/3, Bocfel, Git, Glulxe, Hugo, JACL, Level 9, Magnetic, Scare, ScottFree, TADS 2/3.*
 
 ### KEGS  
 

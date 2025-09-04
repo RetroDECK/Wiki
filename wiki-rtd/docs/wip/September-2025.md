@@ -29,8 +29,6 @@ The Patreon is still open, but our plan is to migrate fully later and close it.
 
 **Read more here:** [Donations & Licenses](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)
 
-> **RetroDECK Team Comment:** RetroDECK is not a donation heavy project, it's not about money. Please read the information under 
-
 
 ## ImCoKeMaN & PortMaster Team - Added more ports
 

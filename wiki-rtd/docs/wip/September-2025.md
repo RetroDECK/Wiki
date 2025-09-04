@@ -20,7 +20,7 @@ The RetroDECK Team have been hard at work.
 
 <img src="../../../icon-api.svg" width="75"> 
 
-## ImCoKeMaN - Added more ports
+## ImCoKeMaN & PM Team - Added more ports
 
 Community member ImCoKeMaN have helped the PortMaster Team getting more X86_64 ports available in RetroDECK.
 

@@ -209,6 +209,8 @@ There are also other components that are not just in current cooker but we are e
 
 ## Anything Else You Are Working On?
 
+---
+
 ### Storage folder
 We are planning a new core‑system folder under **retrodeck/** called **storage**. This folder will house several types of user added data:
 
@@ -219,16 +221,19 @@ We are planning a new core‑system folder under **retrodeck/** called **storage
 
 > **RetroDECK Team Note:** This probably will not might not make it into 0.10.0b. The exact structure of the folder will evolve as we gather feedback and identify further use‑cases. 
 
+---
+
 ### Lahrs folder Icons
 
-The goal is that we in **RetroDeck 0.10.0b** ship Lahrs custom folder icons for every RetroDeck folder. 
+<img src="../intellivision.ico" width="75"> <img src="../logs.ico" width="75"> <img src="../mame.ico" width="75">  <img src="../megacdjp.ico" width="75"> 
+
+The goal is that we in **RetroDeck 0.10.0b** ship community mod Lahrs custom folder icons for every RetroDeck folder. 
 
 They will be enabled by default and the new icons should appear automatically after the update. 
 
 There are plans to make a Configurator Tool to turn them on or off. 
 
-We thank Lahrs for his tremendous effort creating specific icons for each folder.
-
+> **RetroDECK Team Note:** We thank Lahrs for his tremendous effort creating specific icons for each folder.
 
 ---
 

@@ -22,7 +22,7 @@ The RetroDECK Team have been hard at work.
 
 ## ImCoKeMaN & PM Team - Added more ports
 
-Community member ImCoKeMaN have helped the PortMaster Team getting more X86_64 ports available in RetroDECK.
+Community member ImCoKeMaN have helped the PortMaster Team getting more X86_64 ports available and thus they are in RetroDECK.
 
 So far about 30 new ports have appeared.
 

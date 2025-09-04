@@ -146,7 +146,7 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 ## Other Components
 
-There are also other components that are not just in current cooker but we have experimented on.
+There are also other components that are not just in current cooker but we have experimented with.
 
 ### Ares  
 

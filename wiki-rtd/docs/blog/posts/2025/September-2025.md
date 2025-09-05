@@ -1,6 +1,6 @@
 --- 
 
-date: 2025-09-08
+date: 2025-09-05
 
 --- 
 
@@ -23,16 +23,18 @@ The RetroDECK Team have been hard at work.
 
 ## Note: We have switched from Patreon to OpenCollective
 
-We already did the switch months ago. But in short OpenCollective is more akin to our values then Patreon.
+We already did the stealth switch months ago. 
 
-The Patreon is still open, but our plan is to migrate fully later and close it. 
+But in short OpenCollective is more akin to our values then Patreon.
+
+The Patreon is still open, but our plans are to migrate fully later and close it. 
 
 **Read more here:** [Donations & Licenses](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)
 
 
 ## ImCoKeMaN & PortMaster Team - Added more ports
 
-<img src="../portmaster-logo.png" width="75"> 
+<img src="../../../portmaster-logo.png" width="75"> 
 
 Community member ImCoKeMaN have helped the PortMaster Team getting more X86_64 ports available and thus they are in RetroDECK.
 
@@ -42,7 +44,7 @@ We give ImCoKeMaN and the PortMaster Team our biggest thanks.
 
 ## RetroDECK 0.10.0b - Status
 
-<img src="../icon-rd.svg" width="75"> 
+<img src="../../../icon-rd.svg" width="75"> 
 
 RetroDECK 0.10.0b is advancing under the “Project Neo” umbrella, that we first talked about in June.
 
@@ -67,41 +69,41 @@ We’re experimenting with several components simultaneously, thanks the the new
 
 ### Ares  
 
-<img src="../ares-logo.png" width="75"> 
+<img src="../../../ares-logo.png" width="75"> 
 
 *Multi‑emulator as an alternative to RetroArch.*
 
 
 ### Azahar  
 
-<img src="../azahar-logo.svg" width="75"> 
+<img src="../../../azahar-logo.svg" width="75"> 
 
 *Nintendo 3DS emulator Azahar.*
 
 
 ### Dosbox‑X  
 
-<img src="../dosbox-x-logo.webp" width="75"> 
+<img src="../../../dosbox-x-logo.webp" width="75"> 
 
 *Standalone DOS emulator Dosbox‑X.*
 
 
 ### EKA2L1  
 
-<img src="../eka2l1-logo.png" width="75"> 
+<img src="../../../eka2l1-logo.png" width="75"> 
 
 *N‑Gage, N‑Gage II, and Symbian devices emulator EKA2L1.*
 
 ### Flycast  
 
-<img src="../flycast-logo.webp" width="75"> 
+<img src="../../../flycast-logo.webp" width="75"> 
 
 *Standalone emulator Flycast for the SEGA Dreamcast.*
 
 
 ### Gargoyle  
 
-<img src="../gargoyle-logo.webp" width="75"> 
+<img src="../../../gargoyle-logo.webp" width="75"> 
 
 *Interactive‑Fiction player Gargoyle (used primarily as a Infocom Z-machine emulator inside RetroDECK).* 
 
@@ -111,26 +113,26 @@ We’re experimenting with several components simultaneously, thanks the the new
 
 ### Hypseus Singe
 
-<img src="../hypseus-logo.png" width="150"> 
+<img src="../../../hypseus-logo.png" width="150"> 
 
 *LaserDisc arcade emulator Hypseus Singe.*
 
 ### KEGS  
 
-<img src="../kegs-apple2gs-logo.svg" width="150"> 
+<img src="../../../kegs-apple2gs-logo.svg" width="150"> 
 
 *Apple IIgs emulator KEGS.*
 
 
 ### Lindbergh Loader  
 
-<img src="../lindbergh-loader-logo.png" width="75"> 
+<img src="../../../lindbergh-loader-logo.png" width="75"> 
 
 *SEGA Lindbergh arcade emulator Lindbergh Loader .*
 
 ### Mudlet  
 
-<img src="../mudlet-logo.png" width="100"> 
+<img src="../../../mudlet-logo.png" width="100"> 
 
 *Mudlet the MUD client / Engine.*
 
@@ -139,7 +141,7 @@ We’re experimenting with several components simultaneously, thanks the the new
 
 ### OpenBOR  
 
-<img src="../openbor-logo.svg" width="100"> 
+<img src="../../../openbor-logo.svg" width="100"> 
 
 *Engine for OpenBOR games.*
 
@@ -147,14 +149,14 @@ We’re experimenting with several components simultaneously, thanks the the new
 
 ### RAZE  
 
-<img src="../raze-logo.png" width="75"> 
+<img src="../../../raze-logo.png" width="75"> 
 
 *Build‑engine based engine RAZE derived from ZDOOM (supports Duke Nukem, Redneck Rampage, Blood, etc.).*
 
 
 ### Ryubing
 
-<img src="../ryubing-logo.webp" width="75"> 
+<img src="../../../ryubing-logo.webp" width="75"> 
 
 *Ryujinx fork Ryubing.*
 
@@ -163,34 +165,34 @@ We’re experimenting with several components simultaneously, thanks the the new
 
 ### ScummVM‑SA  
 
-<img src="../scummvm-logo.svg" width="75">
+<img src="../../../scummvm-logo.svg" width="75">
 
 *Full standalone version of the ScummVM engine.*
 
 ### ShadPS4  
 
-<img src="../shadps4-logo.png" width="75"> 
+<img src="../../../shadps4-logo.png" width="75"> 
 
 *PlayStation 4 emulator ShadPS4.*
 
 
 ### SimCoupe  
 
-<img src="../simcoupe-logo.png" width="75"> 
+<img src="../../../simcoupe-logo.png" width="75"> 
 
 
 *SAM Coupé emulator SimCoupe.*
 
 ### SuperModel  
 
-<img src="../supermodel-logo.webp" width="75"> 
+<img src="../../../supermodel-logo.webp" width="75"> 
 
 *Sega Model 3 arcade emulator SuperModel.*
 
 
 ### VPinballX  
 
-<img src="../vpinballx-logo.png" width="75"> 
+<img src="../../../vpinballx-logo.png" width="75"> 
 
 *Virtual pinball engine (VP/VPin) VPinballX.*
 
@@ -198,7 +200,7 @@ We’re experimenting with several components simultaneously, thanks the the new
 
 ### XRoar  
 
-<img src="../xroar-tano64-logo.jpg" width="150">
+<img src="../../../xroar-tano64-logo.jpg" width="150">
 
 *Dragon 32, Dragon 64, Tano Dragon, Tandy CoCo 1 & 2 emulator XRoar.*
 
@@ -226,7 +228,7 @@ These are our toughts so far:
 
 ### Lahrs folder Icons
 
-<img src="../intellivision.ico" width="75"> <img src="../logs.ico" width="75"> <img src="../mame.ico" width="75">  <img src="../megacdjp.ico" width="75"> 
+<img src="../../../intellivision.ico" width="75"> <img src="../../../logs.ico" width="75"> <img src="../../../mame.ico" width="75">  <img src="../../../megacdjp.ico" width="75"> 
 
 The goal is that we in **RetroDeck 0.10.0b** ship community mod Lahrs custom folder icons for every RetroDeck folder. 
 

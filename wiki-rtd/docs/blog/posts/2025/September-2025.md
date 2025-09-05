@@ -85,7 +85,7 @@ We’re experimenting with several components simultaneously, thanks the the new
 
 <img src="../../../dosbox-x-logo.webp" width="75"> 
 
-*Standalone DOS emulator Dosbox‑X.*
+*Standalone DOS and Windows 9x emulator Dosbox‑X.*
 
 
 ### EKA2L1  

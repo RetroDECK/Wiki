@@ -71,7 +71,7 @@ We’re experimenting with several components simultaneously, thanks the the new
 
 <img src="../../../ares-logo.png" width="75"> 
 
-*Multi‑emulator as an alternative to RetroArch.*
+*Ares is a Multi‑emulator that is an alternative to RetroArch for those that want to use that instead.*
 
 
 ### Azahar  

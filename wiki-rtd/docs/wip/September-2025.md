@@ -238,6 +238,27 @@ There are plans to make a Configurator Tool to turn them on or off.
 
 ---
 
+### When?!
+
+```
+Mr. A User:
+"Holy moley, RetroDECK Team! When can we get this update?"
+
+RetroDECK Team:
+"Well, as usual we give no ETA and we still have quite a bit to go."
+
+Mr. A User:
+"Fine… will all other components be updated as well with the update?"
+
+RetroDECK Team:
+"Yes."
+
+Mrs. A User:
+"Is there anything we can do to help?"
+
+RetroDECK Team:
+"All contributions are always welcome. If you want to help out with development, testing, community, or other things, feel free to do so."
+```
 
 
 ## That is all for now 

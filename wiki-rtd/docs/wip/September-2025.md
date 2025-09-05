@@ -62,7 +62,7 @@ We are doing a mix of:
 
 We’re experimenting with several components simultaneously, thanks the the new component system.
 
-> **RetroDECK Team Comment:**  The final scope of what will be included in 0.10.0b is not set yet. Some will be deferred to later updates if they prove too time‑consuming.
+> **RetroDECK Team Comment:**  The final scope of what will be included in 0.10.0b is not set yet. Some will be deferred to later updates.
 
 
 ### Ares  

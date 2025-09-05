@@ -46,23 +46,31 @@ We give ImCoKeMaN and the PortMaster Team our biggest thanks.
 
 RetroDECK 0.10.0b is advancing under the “Project Neo” umbrella, that we first talked about in June.
 
-We’re still addressing component‑specific issues, so the final release will take additional time and no ETAs. We’re rebuilding large portions of the application and its build pipeline from the ground up—making this effort feel more like **RetroDECK II** or **RetroDECK Neo**, which explains the project name.
+We’re still addressing component‑specific issues, so the final release will take additional time and no ETAs. We’re rebuilding large portions of the application and its build pipeline from the ground up—making this effort feel more like **RetroDECK II** or **RetroDECK Neo**, which explains the name.
 
 We are doing a mix of:
 
-- **Adding new and old components** to the new architecture and make them run. <- We are focused here currently.
+- **Adding new and old components** to the new architecture and make them run.
 - **Updating configuration files** for each component to align with the new structure. 
-- **Adapt all** Configurator Tools and functions. 
+- **Adapt all** Configurator Tools, framework and functions. 
 - Conduct extensive **testing and bug‑fixing**.
 - **Writing documentation** for the wiki.
-
-We’re also integrating numerous new components, with the update’s focus centered on these enhancements.
 
 ---
 
 ## New Components Under Development
 
-We’re experimenting with several components simultaneously. Some may be deferred to later updates if they prove too time‑consuming. The list below reflects our current status in cooker as of today (subject to change).
+We’re experimenting with several components simultaneously, thanks the the new component system.
+
+> **RetroDECK Team Comment:**  The final scope of what will be included in 0.10.0b is not set yet. Some will be deferred to later updates if they prove too time‑consuming.
+
+
+### Ares  
+
+<img src="../ares-logo.png" width="75"> 
+
+*Multi‑emulator as an alternative to RetroArch.*
+
 
 ### Azahar  
 
@@ -84,11 +92,6 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 *N‑Gage, N‑Gage II, and Symbian devices emulator EKA2L1.*
 
-
-
-
-
-
 ### Flycast  
 
 <img src="../flycast-logo.webp" width="75"> 
@@ -96,6 +99,34 @@ We’re experimenting with several components simultaneously. Some may be deferr
 *Standalone emulator Flycast for the SEGA Dreamcast.*
 
 
+### Gargoyle  
+
+<img src="../gargoyle-logo.webp" width="75"> 
+
+*Interactive‑Fiction player Gargoyle (used primarily as a Infocom Z-machine emulator inside RetroDECK).* 
+
+*It supports a wide range of interpreters: AdvSys, Agility, Alan 2/3, Bocfel, Git, Glulxe, Hugo, JACL, Level 9, Magnetic, Scare, ScottFree, TADS 2/3.*
+
+
+
+### Hypseus Singe
+
+<img src="../hypseus-logo.png" width="150"> 
+
+*LaserDisc arcade emulator Hypseus Singe.*
+
+### KEGS  
+
+<img src="../kegs-apple2gs-logo.svg" width="150"> 
+
+*Apple IIgs emulator KEGS.*
+
+
+### Lindbergh Loader  
+
+<img src="../lindbergh-loader-logo.png" width="75"> 
+
+*SEGA Lindbergh arcade emulator Lindbergh Loader .*
 
 ### Mudlet  
 
@@ -114,6 +145,13 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 > **RetroDECK Team Comment:** We have tried to add it before but it never did work quite right. But it works now with with usermade .bor or .openbor files.
 
+### RAZE  
+
+<img src="../raze-logo.png" width="75"> 
+
+*Build‑engine based engine RAZE derived from ZDOOM (supports Duke Nukem, Redneck Rampage, Blood, etc.).*
+
+
 ### Ryubing
 
 <img src="../ryubing-logo.webp" width="75"> 
@@ -122,6 +160,20 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 > **RetroDECK Team Comment:** Replacement for the semi‑broken Ryujinx legacy build. The old Ryujinx will be removed.
 
+
+### ScummVM‑SA  
+
+<img src="../scummvm-logo.svg" width="75">
+
+*Full standalone version of the ScummVM engine.*
+
+### ShadPS4  
+
+<img src="../shadps4-logo.png" width="75"> 
+
+*PlayStation 4 emulator ShadPS4.*
+
+
 ### SimCoupe  
 
 <img src="../simcoupe-logo.png" width="75"> 
@@ -129,11 +181,12 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 *SAM Coupé emulator SimCoupe.*
 
-### ScummVM‑SA  
+### SuperModel  
 
-<img src="../scummvm-logo.svg" width="75">
+<img src="../supermodel-logo.webp" width="75"> 
 
-*Full standalone version of the ScummVM engine.*
+*Sega Model 3 arcade emulator SuperModel.*
+
 
 ### VPinballX  
 
@@ -151,67 +204,10 @@ We’re experimenting with several components simultaneously. Some may be deferr
 
 ---
 
-## Other Components
-
-There are also other components that are not just in current cooker but we are experimenting with.
-
-### Ares  
-
-<img src="../ares-logo.png" width="75"> 
-
-*Multi‑emulator as an alternative to RetroArch.*
-
-### Gargoyle  
-
-<img src="../gargoyle-logo.webp" width="75"> 
-
-*Interactive‑Fiction player Gargoyle (used primarily as a Infocom Z-machine emulator inside RetroDECK).* 
-
-*It supports a wide range of interpreters: AdvSys, Agility, Alan 2/3, Bocfel, Git, Glulxe, Hugo, JACL, Level 9, Magnetic, Scare, ScottFree, TADS 2/3.*
-
-### Hypseus Singe
-
-<img src="../hypseus-logo.png" width="150"> 
-
-*LaserDisc arcade emulator Hypseus Singe.*
-
-### Lindbergh Loader  
-
-<img src="../lindbergh-loader-logo.png" width="75"> 
-
-*SEGA Lindbergh arcade emulator Lindbergh Loader .*
-
-### KEGS  
-
-<img src="../kegs-apple2gs-logo.svg" width="150"> 
-
-*Apple IIgs emulator KEGS.*
-
-### RAZE  
-
-<img src="../raze-logo.png" width="75"> 
-
-*Build‑engine based engine RAZE derived from ZDOOM (supports Duke Nukem, Redneck Rampage, Blood, etc.).*
-
-### ShadPS4  
-
-<img src="../shadps4-logo.png" width="75"> 
-
-*PlayStation 4 emulator ShadPS4.*
-
-### SuperModel  
-
-<img src="../supermodel-logo.webp" width="75"> 
-
-*Sega Model 3 arcade emulator SuperModel.*
-
----
-
 ## Anything Else You Are Working On?
 
----
-
 ### Storage folder
+
 We are planning a new core‑system folder under **retrodeck/** called **storage**. This folder will house several types of user added data:
 
 - **DLC / Updates** - For the components that have that.

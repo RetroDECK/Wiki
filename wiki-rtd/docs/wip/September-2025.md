@@ -208,12 +208,17 @@ We’re experimenting with several components simultaneously, thanks the the new
 
 ### Storage folder
 
-We are planning a new core‑system folder under **retrodeck/** called **storage**. This folder will house several types of user added data:
+We are planning at least one new core‑system folder under **retrodeck/** called **storage**. 
 
-- **DLC / Updates** - For the components that have that.
-- **Plugins** - Plugin folders that are not game mods.
-- **Specific Assets** - Some components like MAME have several folders that can be put here like: GameOver screens and more.   
-- **Workable Writable Space** - Temporary or persistent writable areas (e.g., for the DOSBox‑X sandbox).  
+The goal of the folder will house several types of misc user added data and expose some folders from the components there for ease of aceess.
+
+These are our toughts so far:
+
+- **Expose DLC / Updates Installations Paths** - For the components that have that.
+- **Expose Plugins Paths** - Plugin folders that are not game mods.
+- **Expose Other Assets** - Some components like MAME have several folders that can be put here like: gameover, ends, flyers and more.
+- **DLC / Updates Storage** - A place where to put loose files.
+- **Workable Writable Space** - Temporary or persistent writable areas (e.g., for the DOSBox‑X sandbox).
 
 > **RetroDECK Team Note:** This probably will not might not make it into 0.10.0b. The exact structure of the folder will evolve as we gather feedback and identify further use‑cases. 
 

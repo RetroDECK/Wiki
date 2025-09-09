@@ -259,7 +259,15 @@ Mrs. A User:
 "Is there anything we can do to help?"
 
 RetroDECK Team:
-"All contributions are always welcome. If you want to help out with development, testing, community, or other things, feel free to do so, even if you're just curious on what is under the hood."
+"All contributions are always welcome. 
+If you want to help out with:
+
+- Development 
+- Testing
+- Community
+- Other things
+
+Feel free to do so, even if you're just curious on what is under the hood."
 ```
 
 

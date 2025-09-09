@@ -25,6 +25,14 @@ alias rdinstallmain="flatpak remove net.retrodeck.retrodeck -y | 7z x RetroDECK.
 
 alias rdrmvarfolder="rm -rf ~/.var/app/net.retrodeck.retrodeck/"
 
+# Remove RetroDECK Flatpak
+
+alias rdrmretrodeck="flatpak remove net.retrodeck.retrodeck -y"
+
+# Remove RetroDECK Flatpak and net.retrodeck.retrodeck/ folder
+
+alias rdrmall="flatpak remove net.retrodeck.retrodeck -y | rm -rf ~/.var/app/net.retrodeck.retrodeck/"
+
 # Download latest cooker 7z parts
 
 alias rddownloadcooker="wget "https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak.7z.001" "https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak.7z.002""
@@ -44,4 +52,5 @@ alias rdgitcloneneo="git clone -b neo https://github.com/RetroDECK/RetroDECK"
 alias rdgitclonewiki="git clone https://github.com/RetroDECK/Wiki"
 
 alias rdgitcloneesde="git clone -b retrodeck-main https://github.com/RetroDECK/ES-DE"
+
 ```

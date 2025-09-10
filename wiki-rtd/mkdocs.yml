@@ -391,7 +391,7 @@ nav:
 
     - Development Glossary: wiki_development/development-glossary.md
     - CLI Guide: wiki_development/general/cli-guide.md
-    - Debug Mode: wiki_development/general/debug-mode.md
+    - Debugging: wiki_development/general/debug-mode.md
     - Global Variables List: wiki_development/general/global-variables.md
     - RetroDECK Flatpak Folders: wiki_development/general/folders-filepaths.md
     - RetroDECK Libraries: wiki_development/general/retrodeck-libraries.md

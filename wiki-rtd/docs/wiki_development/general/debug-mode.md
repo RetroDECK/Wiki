@@ -116,7 +116,7 @@ Info:
 
 If we want to debug a game or content copy and run the full `Expanded emulator launch command` from above.
 
-Example debugging of Dank Rider:
+Example debugging of a fake game called Dank Rider for the Amstrad:
 
 ```
 /app/bin/retroarch -L /app/share/libretro/cores/cap32_libretro.so /home/deck/retrodeck/roms/amstradcpc/1001\ BC\ (1984)(Dank Rider)(fr).zip

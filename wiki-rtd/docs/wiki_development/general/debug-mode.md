@@ -1,18 +1,21 @@
-# RetroDECK: Debug Mode
+# RetroDECK: Debugging
 
 <img src="../../../wiki_icons/pixelitos/folder-red-android.png" width="75">
 
-## Debug Log
+---
 
-This command gives you a more in-depth log and terminal output:
+## Launch RetroDECK with debug log level
+
+This command sets Log Level to Debug and gives you a as much data in the logs and terminal as possible.
 
 ```
 flatpak run net.retrodeck.retrodeck --debug
 ```
 
-Or use the Configurator to change the Log Level to Debug.
+---
 
-## Flatpak Shell: Debug Mode
+
+## Flatpak CLI Shell: Debug Mode
 
 You can use the Flatpak shell for debugging individual components from bash in RetroDECK by using the following command:
 
@@ -25,6 +28,36 @@ On Wayland it is in some cases needed to add additional parameters to get all th
 ```
 flatpak run --command=sh --nosocket=fallback-x11 --socket=x11 net.retrodeck.retrodeck --debug
 ```
+
+This is what we refer to as `Debug Mode`.
+
+
+
+### How to run retrodeck from shell?
+
+Just type `retrodeck` and it launches full RetroDECK.
+
+### How to run a component?
+
+You can also launch specific components by typing `retrodeck --open <componentname>`
+
+
+**Example:**
+
+`retrodeck --open retroarch` launches RetroArch.
+
+Typing retrodeck --open without a component will give you a list of currently installed components.
+
+---
+
+## Flatpak CLI Shell Folders Paths
+
+`/var` and `/app` links to other folders then the normal Linux host system.
+
+| **Sandbox Path** | **Corresponding Host Path** | **Description** |
+|------------------|-----------------------------|-----------------|
+| `/app` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/`<br>or<br>`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | Read‑only runtime environment supplied by the Flatpak package. Contains the executable and its supporting files: `bin`, `lib`, `libexec`, `manifest-base-1.json`, `manifest.json`, `retrodeck`, `share`, `tools`. |
+| `/var` | `~/.var/app/net.retrodeck.retrodeck/ cache, config, data`, `db`, `home`, `mnt`, `opt`, `run`, `srv`, `tmp` | Writable portion of the sandbox. |
 
 ---
 
@@ -39,29 +72,13 @@ es-de --debug --home /var/config/
 ---
 
 
-## How to run retrodeck from shell?
-
-Just type `retrodeck` and it launches full RetroDECK.
-
-## How to run a component?
-
-You can also launch specific components by typing `retrodeck --open <componentname>`
-
-
-**Example:**
-
-`retrodeck --open retroarch` launches RetroArch.
-
-
----
-
-## Run a component with a specific game or content
+## Debugging a specific game via ES-DE in Debug Mode
 
 The easiest way is to run:
 
 
 ```
-es-de --debug --home /var/config/
+retrodeck --open es-de --debug --home /var/config/
 ```
 
 Then start or try to start the game or content you want to debug.
@@ -86,7 +103,7 @@ This tells that the Emulator that is launched is retroarch and the core is cap32
 
 ### Expanded emulator launch command:
 
-This is the fullcommand to launch the file
+This is the full-command to launch the file
 
 Example output of the game above, a game called Dank Rider:
 
@@ -107,3 +124,6 @@ Example debugging of Dank Rider:
 ```
 
 This will give you the raw RetroArch output.
+
+---
+

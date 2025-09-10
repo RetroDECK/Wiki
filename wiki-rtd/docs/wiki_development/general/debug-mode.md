@@ -2,7 +2,6 @@
 
 <img src="../../../wiki_icons/pixelitos/folder-red-android.png" width="75">
 
----
 
 ## Launch RetroDECK with debug log level
 
@@ -124,6 +123,4 @@ Example debugging of Dank Rider:
 ```
 
 This will give you the raw RetroArch output.
-
----
 

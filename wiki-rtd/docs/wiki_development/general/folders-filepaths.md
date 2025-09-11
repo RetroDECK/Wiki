@@ -23,7 +23,6 @@ RetroDECK is a Flatpak a sandboxed bundle of different applications and configur
 | **Folder Name**    | **Path Local**           | **Path System**           |          **Comment**     | 
 |  :---:  | :---:                  |             :---:     | :---:  | 
 | Flatpak Runtimes |`~/.local/.local/share/flatpak/runtime/` | `/var/lib/flatpak/runtime/` | Runtimes like: `org.kde.Platform`, `org.freedesktop.Platform`, `org.gnome.Platform`  |
-|  :---:  | :---:                  |             :---:     | :---:  | 
 | Flatpak Overrides |`~/.local/.local/share/flatpak/overrides/` | `/var/lib/flatpak/overrides/` | Flatpak specific overrides  |
 
 
@@ -39,10 +38,10 @@ flatpak run --command=bash net.retrodeck.retrodeck --debug
 
 `/var` and `/app` links to other folders then the normal Linux host system.
 
-| **Sandbox Path** | **Corresponding Host Path** | **Description** |
+| **Sandbox Path** | **Corresponding Host Path** | **Comment** |
 |------------------|-----------------------------|-----------------|
-| `/app` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/`<br>or<br>`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | Read‑only runtime environment supplied by the Flatpak package. Contains the executable and its supporting files: `bin`, `lib`, `libexec`, `manifest-base-1.json`, `manifest.json`, `retrodeck`, `share`, `tools`. |
-| `/var` | `~/.var/app/net.retrodeck.retrodeck/ cache, config, data`, `db`, `home`, `mnt`, `opt`, `run`, `srv`, `tmp` | Writable portion of the sandbox. |
+| `/app` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/`<br>or<br>`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` Contains: `bin`, `lib`, `libexec`, `manifest-base-1.json`, `manifest.json`, `retrodeck`, `share`, `tools`. | Read‑only runtime environment supplied by the Flatpak package.  |
+| `/var` | `~/.var/app/net.retrodeck.retrodeck/[cache, config, data]`, `db`, `home`, `mnt`, `opt`, `run`, `srv`, `tmp` | Writable portion of the sandbox. |
 
 ---
 

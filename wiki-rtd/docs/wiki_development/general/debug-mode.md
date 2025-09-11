@@ -51,12 +51,14 @@ Typing retrodeck --open without a component will give you a list of currently in
 
 ## Flatpak CLI Shell Folders Paths
 
+
 `/var` and `/app` links to other folders then the normal Linux host system.
 
-| **Sandbox Path** | **Corresponding Host Path** | **Description** |
+| **Sandbox Path** | **Corresponding Host Path** | **Comment** |
 |------------------|-----------------------------|-----------------|
-| `/app` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/`<br>or<br>`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | Read‑only runtime environment supplied by the Flatpak package. Contains the executable and its supporting files: `bin`, `lib`, `libexec`, `manifest-base-1.json`, `manifest.json`, `retrodeck`, `share`, `tools`. |
-| `/var` | `~/.var/app/net.retrodeck.retrodeck/ cache, config, data`, `db`, `home`, `mnt`, `opt`, `run`, `srv`, `tmp` | Writable portion of the sandbox. |
+| `/app` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/`<br>or<br>`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` Contains: `bin`, `lib`, `libexec`, `manifest-base-1.json`, `manifest.json`, `retrodeck`, `share`, `tools`. | Read‑only runtime environment supplied by the Flatpak package.  |
+| `/var` | `~/.var/app/net.retrodeck.retrodeck/[cache, config, data]`, `db`, `home`, `mnt`, `opt`, `run`, `srv`, `tmp` | Writable portion of the sandbox. |
+
 
 ---
 

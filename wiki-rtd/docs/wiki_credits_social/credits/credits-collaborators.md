@@ -13,3 +13,7 @@ Zurdi, Arcaneasada, Mr.Moon and all others on the Team.
 ### [ItzSelenux / ItsZariep](https://github.com/ItzSelenux/)
 
 Creator of the Pixelitos icon theme.
+
+###  @﹒⪩⪨﹒moth﹒⪩⪨﹒
+
+Helping with the RetroDECK Mascot 

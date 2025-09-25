@@ -9,7 +9,23 @@ Here we are listing all the development lingo and features of the RetroDECK Proj
 
 <img src="../../../wiki_icons/pixelitos/github.png" width="50">
 
-#### Selected Repositories
+**Main / Main Releases**
+
+Stable, feature‑frozen builds (pre‑releases). Full releases are on Flathub.
+
+**Cooker / Cooker Releases**
+
+Unstable, cutting‑edge branch for testers and developers.
+
+**Feature Branches**
+
+New features are developed here before merging into Cooker.
+
+**Component Branch**
+
+Holds shared component artifacts used throughout the project.
+
+### Selected Repositories
 
 | Name                                                                                   | Description                                           |
 |----------------------------------------------------------------------------------------|-------------------------------------------------------|
@@ -23,23 +39,6 @@ Here we are listing all the development lingo and features of the RetroDECK Proj
 | [flathub/net.retrodeck.retrodeck](https://github.com/flathub/net.retrodeck.retrodeck)  | Flathub Repo: net.retrodeck.retrodeck                 |
 | [RetroDECK/repositories](https://github.com/orgs/RetroDECK/repositories)               | Full Org Repo : All other repos in RetroDECK          |
 
-### Main / Main Releases
-
-The main repo of the RetroDECK Project.
-
-Stable, feature-frozen versions of RetroDECK. Pre-releases only; full releases are on Flathub.
-
-### Cooker / Cooker Releases
-
-Unstable, cutting-edge development branch. Best for testers and developers.
-
-### Feature Branches
-
-Where new features are developed before merging into Cooker.
-
-### Component Branch
-
-Stores all component-related artifacts used across the project.
 
 ## RetroDECK Development to Publication Process 
 

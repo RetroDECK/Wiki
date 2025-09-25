@@ -43,7 +43,7 @@ Stores all component-related artifacts used across the project.
 
 ## RetroDECK Development to Publication Process 
 
-<img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
+<img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
 
 How the publication process works:
 
@@ -67,7 +67,7 @@ You can only answer **YES** when it has been verified that it is out on Flathub.
 
 ## RetroDECK Framework
 
-<img src="../../wiki_icons/retrodeck/icon-framework.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="50">
 
 The `RetroDECK Framework` is the entire back-end system of RetroDECK.  
 It includes everything that powers the platform, such as:
@@ -82,7 +82,7 @@ In short, it's the engine that makes RetroDECK run.
 
 ### RetroDECK API
 
-<img src="../../wiki_icons/retrodeck/icon-api.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-api.svg" width="50">
 
 The `RetroDECK API` allows external applications to interact with the `RetroDECK Framework`, enabling them to operate like the RetroDECK Configurator.
 
@@ -95,7 +95,7 @@ Currently, the API is only accessible through:
 
 ### RetroEngine
 
-<img src="../../wiki_icons/retrodeck/icon-engine.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-engine.svg" width="50">
 
 `RetroENGINE` lets you launch games directly from your desktop using RetroDECK — no need to open the full application.
 
@@ -106,7 +106,7 @@ Currently, the API is only accessible through:
 
 ### RetroDECK Configurator
 
-<img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-configurator.svg" width="50">
 
 The `RetroDECK Configurator` is a unique, multi-purpose utility built into RetroDECK.
 
@@ -125,7 +125,7 @@ A `RetroDECK Tool` is the name given to a function (or group of functions) that 
 
 ### Ponzu
 
-<img src="../../wiki_icons/retrodeck/icon-ponzu.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-ponzu.svg" width="50">
 
 Ponzu is an Legacy AppImage Loader / Integrator part of the `RetroDECK Framework`.
 
@@ -135,7 +135,7 @@ Lets users add certain specific legacy AppImages to RetroDECK and integrates the
 
 ### RetroDECK Assembler
 
-<img src="../../wiki_icons/retrodeck/icon-assembler.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-assembler.svg" width="50">
 
 The `RetroDECK Assembler` is just the building engine part of the `RetroDECK Framework`.
 
@@ -167,7 +167,7 @@ Her design is not finished and just a concept.
 
 ## RetroDECK Components
 
-<img src="../../wiki_icons/retrodeck/icon-component.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-component.svg" width="50">
 
 RetroDECK is made by assembling various components.
 

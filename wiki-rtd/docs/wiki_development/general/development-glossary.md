@@ -183,29 +183,11 @@ A component is a complete packaged executable of a:
 - System
 - RetroDECK: Feature & Functions
 
-How-to build and pull from the original source is done by the each components `recipe.sh` file. 
+They are built via a `recipe.sh` (the **Recipe**) that pulls and compiles the original source.
 
-A component is shipped with `Component Ingredient Files` in addition to the libraries and binaries that make up the software that tells RetroDECK:
+A component includes **Component Ingredient Files** that tell RetroDECK how to use it.
 
-- How RetroDECK should use them.
-- What features/functions it has.
-
-Inside: `/app/retrodeck/components/<component name>/`.
-
-
-**Communication:**
-
-When Components are communicated about they are referred to as (in their done packaged format): 
-
-- `Components`
-- `<Component Name> Component`
-
-By the end-user it will just be referred as the original source.
-
-The `recipe.sh` file is called:
-
-- `Recipe`
-- `<Component Name> Recipe`.
+A component is stored in it's own isolated file structure under `/app/retrodeck/components/<component‑name>/`.
 
 
 ### What is a Engine?
@@ -253,71 +235,37 @@ A system in the context of RetroDECK is a piece of software that is not running 
 
 RetroDECK itself with it's various tools and features is also an component.
 
-## Component Recipe File
+## Component Recipe File (a.k.a. "Recipe")
 
-The **Component Recipe File:** `recipe.sh`'purpose is to tell the RetroDECK build automation system what needs to happen to take the components base source from: **AppImage**, **Flatpak**, **Precompiled Binary** or **Built from Source** and turn it into a RetroDECK Component.
+**Purpose** 
 
-The recipe file is **NOT** included in the final component package. 
+Directs RetroDECK’s build automation on how to transform a component’s original source—whether an AppImage, Flatpak, pre‑compiled binary, or source code—into a fully packaged RetroDECK component.
 
-**Read more here:**
+**Note** 
 
-## Component Ingredient Files
+`recipe.sh` is used only during the build process and is **not** shipped with the final component package.
 
-**What are Component Ingredient Files?**
+## Component Ingredient Files (a.k.a. “Ingredients”)
 
-The **Components Ingredient Files** is to feed details about the Component to the RetroDECK Framework on it's features and functions.
+**Purpose**
 
-**Example of features:**
+Provide the RetroDECK framework with all the metadata, scripts, and library info a component needs to be displayed, configured, and launched correctly.
 
-- Contain human-friendly information shown in menus.
-- Actions to be taken when changing presets.
-- Per-component one-off Bash functions.
-- Config file path information and more. 
-- Tells RetroDECK how-to launch it.
+**Key Contents**
 
-As these files are read in an iterative way by the code, it is imperative that their structure be correct.
+- **Human‑readable info** (name, description, menu text) for UI menus.  
+- **Preset actions** – steps to run when a user changes a preset.  
+- **Component‑specific Bash helpers** (setup, firmware install, etc.).  
+- **Config‑file paths** and other environment details.  
+- **Launch instructions** – how RetroDECK should start the component.
 
-**Communication:**
-
-When they are communicated about they are referred to as: 
-
-- `Ingredients`
-- `<Component Name> Ingredient` 
 
 ### What are the Component Ingredient Files?
 
-**component_launcher.sh**
-
-A Bash script that serves as the launcher wrapper for a specific RetroDECK component. It is responsible for setting up the environment and executing the component within its sub-sandbox.
-
-**component_functions.sh**
-
-A Bash script that defines configuration file paths and component-specific functions. Component-specific path variables and functions unique to the component (e.g., firmware installation, advanced functions found in the Configurator menus).
-
-**component_manifest.json**
-
-The JSON file provides both informational and functional data used by the RetroDECK Framework, Configurator menus, and API calls. 
-
-Each manifest includes:
-
-- Component metadata (name, description, supported systems)
-- Configurator menu entries
-- Compatible presets and their possible states
-- Actions required to apply presets
-- Core-specific metadata (if applicable)
-
-**component_prepare.sh**
-
-A Bash script that is responsible for handling setup tasks unique to a specific component, such as:
-
-- Resetting configuration files
-- Preparing directories
-- Moving or backing up data
-- Post-move adjustments
-
-**component_libs.json**
-
-- Is an auto generated json file made by the `Library Hunter` during the component specific build process that contains a list of specific libraries used by the component that needs to be handled via shared_libs, internal libs or manually added libs.
-- The list is used by the `Library Gatherer` during the final RetroDCK build process, to Gather all the libraries the component needs.
-
-
+| Ingredient File                     | Role |
+|--------------------------|------------------------------------------------------------|
+| **component_launcher.sh** | Sets up the environment and launches the component in its sandbox. |
+| **component_functions.sh** | Declares config‑file paths and component‑specific helper functions (e.g., firmware install, configurator actions). |
+| **component_manifest.json** | Stores metadata and functional data for RetroDECK: name, description, supported systems, menu entries, preset options, actions, and optional core info. |
+| **component_prepare.sh** | Handles one‑time setup: reset configs, prepare directories, move/backup data, and apply post‑move tweaks. |
+| **component_libs.json** | Auto‑generated list of required libraries by `Library Gatherer`:  `shared_libs`, internal, or manual; used by `Library Hunter` to "hunt down" them in the final build. |

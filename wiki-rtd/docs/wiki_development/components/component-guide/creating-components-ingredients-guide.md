@@ -13,6 +13,7 @@ component_launcher.sh
 component_functions.sh
 component_manifest.json
 component_prepare.sh
+component_libs.json
 ```
 
 **The Recipe file:**

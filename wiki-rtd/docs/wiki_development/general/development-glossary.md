@@ -145,13 +145,15 @@ The `RetroDECK Assembler` is just the building engine part of the `RetroDECK Fra
 
 **Read more here:**
 
-### LibMan
+### Gather & Hunter
 
-The library manager or `LibMan` is the part of the `RetroDECK Framework`. 
+The library managers or `The Gatherer & The Hunter` are the part of the `RetroDECK Framework`. 
 
-It's purpose is to reduce library dependency conflicts between components when libraries could be shared.
+Their purpose is to reduce library dependency conflicts between components when libraries could be shared.
 
-In internal jargon, LibMan is often depicted as an American Style Super Hero fighting an endless army of clones. 
+The Gatherer tries to gather all required libraries used by an component and output them into a structured json filed called: component_libs.json
+
+The Hunter then reads the component_libs.json and tries to "hunt" the location of the libraries.
 
 ### Rekku
 

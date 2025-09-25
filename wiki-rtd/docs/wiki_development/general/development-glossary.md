@@ -145,15 +145,15 @@ The `RetroDECK Assembler` is just the building engine part of the `RetroDECK Fra
 
 **Read more here:**
 
-### Gather & Hunter
+### Library Gather & Library Hunter
 
-The library managers or `The Gatherer & The Hunter` are the part of the `RetroDECK Framework`. 
+The library managers or `Library Gatherer & Library Hunter` are the part of the `RetroDECK Framework`. 
 
 Their purpose is to reduce library dependency conflicts between components when libraries could be shared.
 
-The Gatherer tries to gather all required libraries used by an component and output them into a structured json filed called: component_libs.json
+`The Gatherer` tries to gather all required extra libraries used by an component and output them into a structured json ingredient file called: `component_libs.json`
 
-The Hunter then reads the component_libs.json and tries to "hunt" the location of the libraries.
+`The Hunter` then reads the `component_libs.json` and tries to "hunt" the location of the libraries and connect them.
 
 ### Rekku
 
@@ -161,7 +161,9 @@ Is [Rekku](https://github.com/apps/rekku-retrodeck) RetroDECK virtual assistant 
 
 She does GitHub bot announcements and will be more integrated into the project in the future **hopefully**.
 
-Rekku is depicted as a "manga style blue cat girl blue retro genie".  
+Rekku is depicted as a "retro genie". 
+
+Her design is not finished and just a concept. 
 
 ## RetroDECK Components
 
@@ -313,8 +315,9 @@ A Bash script that is responsible for handling setup tasks unique to a specific 
 - Moving or backing up data
 - Post-move adjustments
 
+**component_libs.json**
 
-
-
+- Is an auto generated json file made by the `Library Hunter` during the component specific build process that contains a list of specific libraries used by the component that needs to be handled via shared_libs, internal libs or manually added libs.
+- The list is used by the `Library Gatherer` during the final RetroDCK build process, to Gather all the libraries the component needs.
 
 

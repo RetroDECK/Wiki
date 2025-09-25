@@ -389,7 +389,7 @@ nav:
 
   - RetroDECK Development (W.I.P) 🧪:
 
-    - Development Glossary: wiki_development/development-glossary.md
+    - Development Glossary: wiki_development/general/development-glossary.md
     - CLI Guide: wiki_development/general/cli-guide.md
     - Debugging: wiki_development/general/debug-mode.md
     - Global Variables List: wiki_development/general/global-variables.md

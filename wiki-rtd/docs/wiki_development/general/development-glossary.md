@@ -7,7 +7,7 @@ Here we are listing all the development lingo and features of the RetroDECK Proj
 
 ## Github Repositories
 
-<img src="../../wiki_icons/pixelitos/github.png" width="50">
+<img src="../../../wiki_icons/pixelitos/github.png" width="50">
 
 #### Selected Repositories
 

@@ -183,3 +183,26 @@ Save States don't work the same as other emulators you might be used to and are 
 You can enable them but first read up on the lastest information and how-to's on RPCS3 wiki page.
 
 Link: [RPCS3 Save States](https://wiki.rpcs3.net/index.php?title=Help:Save_State)
+
+---
+
+## Failed to set RLIMIT_MEMLOCK size to 2 GiB
+
+Some Linux distributions gets this error.
+
+To solve it
+
+1. Edit this limits.conf file under 
+
+`/etc/security/limits.conf`
+
+(You need sudo and can use a text editor like nano: `sudo nano /etc/security/limits.conf`)
+
+2. Add the following at the end of the file, save and exit.
+
+```
+*        hard    memlock        unlimited
+*        soft    memlock        unlimited
+```
+
+3. Reboot your device

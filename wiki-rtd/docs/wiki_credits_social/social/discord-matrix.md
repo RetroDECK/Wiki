@@ -1,9 +1,9 @@
-# Discord & Matrix & Revolt
+# Discord & Matrix & Stoat
 
 [Discord](https://discord.gg/WDc5C9YWMx)
 [Matrix](https://matrix.to/#/#retrodeck:matrix.org)<br/>
 
-## Discord / Matrix / Revolt Rules
+## Discord / Matrix / Stoat Rules
 
 The RetroDECK community spans worldwide and we in the team are grateful for that. We want everyone to feel welcome here no matter who you are, with that said:
 

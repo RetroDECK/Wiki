@@ -88,6 +88,14 @@ Godot Development.
 Pizza Mercenary
 </details>
 
+## Lahrs 
+
+```
+- Community Management/Outreach
+- Good / Bad Ideas
+- Testing
+```
+
 ## Special Thanks
 
  We want give special thanks to:

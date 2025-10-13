@@ -56,7 +56,7 @@
           <mxGeometry x="1084" y="673" width="244" height="98" as="geometry" />
         </mxCell>
         <mxCell id="LUuH9SyjZkvYcnt7Q3XS-6" value="ES-DE Data:&lt;div&gt;Gamelists&lt;/div&gt;&lt;div&gt;Scraped Data&lt;/div&gt;&lt;div&gt;Collections etc..&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="943" y="879" width="120" height="60" as="geometry" />
+          <mxGeometry x="873.5" y="879" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LUuH9SyjZkvYcnt7Q3XS-7" value="BIOS" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="474" y="879" width="79" height="32" as="geometry" />
@@ -89,7 +89,7 @@
           <mxGeometry x="569" y="973" width="79" height="32" as="geometry" />
         </mxCell>
         <mxCell id="LUuH9SyjZkvYcnt7Q3XS-22" value="Future things" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="943" y="953" width="120" height="60" as="geometry" />
+          <mxGeometry x="873.5" y="954" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LUuH9SyjZkvYcnt7Q3XS-23" value="Writable user retrodeck/ directory that&lt;div&gt;&amp;nbsp;contains all the imporant userdata&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1085" y="925" width="218" height="41" as="geometry" />
@@ -246,9 +246,6 @@
             <mxPoint x="-151" y="609" as="sourcePoint" />
             <mxPoint x="-136" y="796" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="PcwapTqyj1EnNx2tt5-G-30" value="Storage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="852" y="879" width="79" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

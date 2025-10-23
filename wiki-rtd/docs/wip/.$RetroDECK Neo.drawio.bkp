@@ -23,7 +23,7 @@
           <mxGeometry x="449" y="598" width="971.5" height="347.75" as="geometry" />
         </mxCell>
         <mxCell id="OuoUqL45pFMJoiZTeWef-33" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Component&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Enviroment&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1214" y="684" width="106" height="48" as="geometry" />
+          <mxGeometry x="1219" y="619" width="106" height="48" as="geometry" />
         </mxCell>
         <mxCell id="E18kY99cR1AIvhlSoEy2-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qwhE0w0FxsXlQZNN2_wr-2" target="R8GE2cncRJ5NsJc9hilz-14">
           <mxGeometry relative="1" as="geometry" />
@@ -65,7 +65,7 @@
           <mxGeometry x="951" y="418" width="95" height="95" as="geometry" />
         </mxCell>
         <mxCell id="74874o3dXP4FYjgvOYhN-87" value="- Seperated pre-built writable&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;components.&lt;/span&gt;&lt;div&gt;- &quot;Sub-Sandboxed&quot; in their own folderenviroment&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Modular &amp;amp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Contained&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- No more library / depedency conflicts&lt;/div&gt;&lt;div&gt;- Libraries are contained within&amp;nbsp;&lt;/div&gt;&lt;div&gt;the Runtime / Shared Libs&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1136" y="772" width="277" height="113" as="geometry" />
+          <mxGeometry x="1133.5" y="674" width="277" height="113" as="geometry" />
         </mxCell>
         <mxCell id="LUuH9SyjZkvYcnt7Q3XS-6" value="ES-DE Data:&lt;div&gt;Gamelists&lt;/div&gt;&lt;div&gt;Scraped Data&lt;/div&gt;&lt;div&gt;Collections etc..&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="941.5" y="966" width="120" height="60" as="geometry" />

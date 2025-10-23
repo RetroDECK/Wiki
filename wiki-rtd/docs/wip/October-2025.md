@@ -49,7 +49,7 @@ RetroDECK 0.10.0b is advancing under the “Project Neo” umbrella it's ver
 
 This is what we are discussing and working on so far. 
 
-### component_extras.sh (name pending)
+## component_extras.sh (name pending)
 
 Some components require custom steps (patches, post‑install actions). Rather than embedding these in the main recipe, we retain a lightweight script that allows the core recipe declarative while allowing per‑component customisation.
 
@@ -71,7 +71,7 @@ _finish.sh (As in "finishing touch" not you Mr.Sauna....perkele)
 ```
 
 
-### Merger of component_libs and component_recipe
+## Merger of component_libs and component_recipe
 
 Previously we maintained two separate JSON files:
 
@@ -82,7 +82,7 @@ Previously we maintained two separate JSON files:
 
 Both describe the same entities, so we now combine them into a single component_recipe.json. 
 
-### Plugin‑Based Assembler (Cooker)
+## Plugin‑Based Assembler (Cooker)
 
 The original assembler was monolithic. Refactoring it into a plugin system (named Cooker) provides:
 
@@ -94,6 +94,8 @@ The original assembler was monolithic. Refactoring it into a plugin system (name
 ```
 
 ## Library Hunter & Gatherer Improvements
+
+The Hunter & Gatherer replaced the overly complex Libman for easier library management as part of the component_recipe.§
 
 The hunter now always records runtime_name and runtime_version for any library found in a runtime (Qt, GNOME, etc.). This removes the previous Qt‑only special case and makes the downstream processing runtime‑agnostic.
 
@@ -112,10 +114,9 @@ shared-libs/
 Libraries not associated with a known runtime (e.g., bundled inside an AppImage) can be placed at the top level of shared-libs or in a custom specified sub‑folder.
 
 
-Example component_libs.json
+**Example**
 
 ```
-[
   {
     "library": "libQt6Widgets.so.6",
     "runtime_name": "org.kde.Platform",
@@ -133,20 +134,21 @@ Example component_libs.json
     "source": "squashfs-root/usr/lib",
     "dest": "shared-libs"
   }
-]
+
 
 ```
-    Runtime libraries are automatically placed under shared-libs/<runtime>/<version>/.
-    Non‑runtime libraries remain at the root of shared-libs (or another location you define).
 
-4.4 Gatherer Behaviour
+- Runtime libraries are automatically placed under shared-libs/<runtime>/<version>/.
+- Non‑runtime libraries remain at the root of shared-libs (or another location you define).
+
+###  Gatherer Behaviour
 
 
 - Runtime libraries are copied into the unified hierarchy.
 - Custom/AppImage libraries are copied to the exact destination you declare.
 - Paths in source are stored relative to the directory where the hunter is executed, ensuring portability across CI agents and developer machines.
 
-5. Resulting Component Directory Layout
+### Resulting Component Directory Layout
 
 If libaom.so.3 is marked as a unique, non‑runtime library (dest: "shared-libs"), the final artifact looks like:
 
@@ -196,10 +198,8 @@ Upcoming work:
 
 ```
     
-## Conclusion
+## Full Example: Combined component_recipe.json
 
-By consolidating library metadata, standardising the storage layout, and moving to a modular assembler, the build process becomes more reliable and easier to maintain. The approach reduces duplicate libraries, improves reproducibility, and prepares the pipeline for future extensions.
-Full Example: Combined component_recipe.json
 
 
 ```

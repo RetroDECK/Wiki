@@ -243,7 +243,9 @@ All components shared-libs are merged into the single shared-libs componment upo
 ## That is all for now 
 
 ```
-Meanwhile on RetroDECK Socials
+Meanwhile on RetroDECK Socials...
+
+---
 
 Mr. Average User: 
 WOW... this was a lot of things I don't understand. 
@@ -251,17 +253,19 @@ WOW... this was a lot of things I don't understand.
 Mrs. Angry User:
 Listen, I don't care about all this tech junk. Just update now! 
 
-Mr. Sauna:
-Perkele
-
 Mrs. Tech User:
 I use Arch BTW
 
 Thalin:
 What will happen to RetroDECK?!
 
-Mrs/Mr/Other Developer User:
-Just do as I do, everything in Rust. Even my toaster runs Rust now. 
+X Developer User:
+Just redo everything in Rust?! GOSH!
+
+Mr. Sauna:
+Perkele
+
+---
 
 ```
 

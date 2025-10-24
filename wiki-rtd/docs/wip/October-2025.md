@@ -39,15 +39,17 @@ Some of the RetroDECK Team where invited to be guests at SDHQs Podcast.
 
 Marvel at Xargons broken Italian Japanese English as he tries to pronounce hard words such as "Firmware" and "Pay".
 
-Enjoy Lazorne's stupid antics 
+Enjoy Lazorne's stupid antics and semi breaking microphone.
 
 ## RetroDECK 0.10.0b - Status
 
 <img src="../../../icon-rd.svg" width="75"> 
 
-RetroDECK 0.10.0b is advancing under the “Project Neo” umbrella it's very complex with tons of architectural discussions internally, some POC's that ended in dead ends. 
+RetroDECK 0.10.0b is advancing under the “Project Neo” umbrella it's very complex with tons of architectural discussions and changes. 
 
-This is what we are discussing and working on so far. 
+This is a tiny showcase on what we are working on so far. 
+
+**Warning Technobabble!**
 
 ## component_extras.sh (name pending)
 
@@ -64,8 +66,8 @@ component
 _additions.sh 
 _additives.sh
 _msg.sh (FUIYOH!)
-_spice.sh
-_garnish.sh
+_spice.sh (Must flow)
+_garnish.sh 
 _flavor.sh
 _finish.sh (As in "finishing touch" not you Mr.Sauna....perkele)
 ```
@@ -75,10 +77,8 @@ _finish.sh (As in "finishing touch" not you Mr.Sauna....perkele)
 
 Previously we maintained two separate JSON files:
 
-```
-    component_libs.json – raw library listings
-    component_recipe.json – build instructions
-```
+- component_libs.json – raw library listings
+- component_recipe.json – build instructions
 
 Both describe the same entities, so we now combine them into a single component_recipe.json. 
 
@@ -96,9 +96,9 @@ The original assembler was monolithic. Refactoring it into a plugin system provi
 
 ## Library Hunter & Gatherer
 
-The Hunter & Gatherer scripts replaced the overly complex first POC Libman for easier library management.
+The Hunter & Gatherer scripts replaced the overly complex first POC Libman for easier library management ealier.
 
-###  Gatherer Behaviour
+###  New Gatherer Behaviour
 
 - Runtime libraries are copied into the unified hierarchy.
 - Custom/AppImage libraries are copied to the exact destination you declare.
@@ -151,6 +151,7 @@ Libraries not associated with a known runtime (e.g., bundled inside an AppImage)
 - Non‑runtime libraries remain at the root of shared-libs (or another location you define).
 
 
+
 ### Resulting Component Directory Layout
 
 If libaom.so.3 is marked as a unique, non‑runtime library (dest: "shared-libs"), the final artifact looks like:
@@ -179,18 +180,9 @@ azahar/
 
 The shared-libs tree can be processed uniformly in the backend for deduplication, while component‑specific libraries remain isolated.
 
-
-### Next Steps
-
-Upcoming work:
-
-
-- Implement incremental updates for individual components.
-- Extend the plugin ecosystem for containerised builds and cross‑architecture packaging.
-- Add monitoring dashboards to visualise library reuse across components.
+All components shared-libs are merged into the single shared-libs componment upon RetroDECK flatpak creation.
 
 ### Full Example: Combined component_recipe.json for Azahar
-
 
 
 ```
@@ -240,10 +232,38 @@ Upcoming work:
 
 ```
 
+## Assembler Next Steps 
+
+- Implement incremental updates for individual components.
+- Extend the plugin ecosystem for containerised builds and cross‑architecture packaging.
+- Add monitoring dashboards to visualise library reuse across components.
 
 
 
 ## That is all for now 
+
+```
+Meanwhile on RetroDECK Socials
+
+Mr. Average User: 
+WOW... this was a lot of things I don't understand. 
+
+Mrs. Angry User:
+Listen, I don't care about all this tech junk. Just update now! 
+
+Mr. Sauna:
+Perkele
+
+Mrs. Tech User:
+I use Arch BTW
+
+Thalin:
+What will happen to RetroDECK?!
+
+Mrs/Mr/Other Developer User:
+Just do as I do, everything in Rust. Even my toaster runs Rust now. 
+
+```
 
 There are more things we are working on, but you will see them in future blog updates!
 

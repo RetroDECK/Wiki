@@ -12,20 +12,31 @@ The RetroDECK Team have been hard at work.
 
 ## Highlights
 
+**News**
+
 - Lahrs joined the Team
 - SDHQ Podcast
-- RetroDECK 0.10.0b - Status
+
+**RetroDECK 0.10.0b - Status**
+
+- component_extras.sh (name pending)
+- Merger of component_libs and component_recipe
+- Plugin‑Based Assembler
+- Library Hunter & Gatherer
+- Assembler Next Steps 
 
 <!-- more -->
 
 ## Note: We have switched from Patreon to OpenCollective
 
-**Read more here:** [Donations & Licenses](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)
+**Read more here:** 
+
+[Donations & Licenses](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)
 
 
 ## Lahrs joined the Team
 
-<img src="../../../intellivision.ico" width="75">
+<img src="../astrocde.ico" width="75">
 
 Lahrs has been an invaluable contributor to our RetroDECK for several months, consistently delivering high‑quality support, helping and overseeing the community. 
 
@@ -35,15 +46,17 @@ We are pleased to formally welcome Lahrs to the team.
 
 ## SDHQ Podcast
 
+<img src="../sdhq-holographic-logo.svg" width="100"> 
+
 Some of the RetroDECK Team where invited to be guests at SDHQs Podcast.
 
-Marvel at Xargons broken Italian Japanese English as he tries to pronounce hard words such as "Firmware" and "Pay".
+Marvel at Xargons broken Italian Japanese English dialect (Known as the Pasta-CheeseCrust-Sashmi) as he tries to pronounce hard words such as "Firmware" and "Pay".
 
 Enjoy Lazorne's stupid antics and semi breaking microphone.
 
 ## RetroDECK 0.10.0b - Status
 
-<img src="../../../icon-rd.svg" width="75"> 
+<img src="../icon-rd.svg" width="75"> 
 
 RetroDECK 0.10.0b is advancing under the “Project Neo” umbrella it's very complex with tons of architectural discussions and changes. 
 
@@ -254,7 +267,7 @@ Mrs. Angry User:
 Listen, I don't care about all this tech junk. Just update now! 
 
 Mrs. Tech User:
-I use Arch BTW
+I use Arch BTW!
 
 Thalin:
 What will happen to RetroDECK?!

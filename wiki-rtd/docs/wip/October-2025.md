@@ -69,7 +69,7 @@ _msg.sh (FUIYOH!)
 _spice.sh (Must flow)
 _garnish.sh 
 _flavor.sh
-_finish.sh (As in "finishing touch" not you Mr.Sauna....perkele)
+_finish.sh (As in "finishing touch" not you Mr.Sauna....)
 ```
 
 
@@ -265,7 +265,6 @@ Just redo everything in Rust?! GOSH!
 Mr. Sauna:
 Perkele
 
----
 
 ```
 

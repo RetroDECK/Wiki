@@ -82,22 +82,31 @@ Previously we maintained two separate JSON files:
 
 Both describe the same entities, so we now combine them into a single component_recipe.json. 
 
-## Plugin‑Based Assembler (Cooker)
+## Plugin‑Based Assembler
 
-The original assembler was monolithic. Refactoring it into a plugin system (named Cooker) provides:
+<img src="../alchemist.png">
 
-```
-    Extensibility: add support for new source layouts without modifying core code.
-    Maintainability: isolated plugins are easier to test and update.
-    Performance: independent plugins can run in parallel.
+The original assembler was monolithic. Refactoring it into a plugin system provides:
 
-```
 
-## Library Hunter & Gatherer Improvements
+-  Extensibility: add support for new source layouts without modifying core code.
+-  Maintainability: isolated plugins are easier to test and update.
+-  Performance: independent plugins can run in parallel.
 
-The Hunter & Gatherer replaced the overly complex Libman for easier library management as part of the component_recipe.§
 
-The hunter now always records runtime_name and runtime_version for any library found in a runtime (Qt, GNOME, etc.). This removes the previous Qt‑only special case and makes the downstream processing runtime‑agnostic.
+## Library Hunter & Gatherer
+
+The Hunter & Gatherer scripts replaced the overly complex first POC Libman for easier library management.
+
+###  Gatherer Behaviour
+
+- Runtime libraries are copied into the unified hierarchy.
+- Custom/AppImage libraries are copied to the exact destination you declare.
+- Paths in source are stored relative to the directory where the hunter is executed, ensuring portability across CI agents and developer machines.
+
+### Library Hunter Improvements
+
+The hunter always records runtime_name and runtime_version for any library found in a runtime (Qt, GNOME, etc.). This removes the previous Qt‑only special case and makes the downstream processing runtime‑agnostic.
 
 All runtime‑provided libraries follow a single hierarchy:
 
@@ -111,7 +120,7 @@ shared-libs/
 
 ```
         
-Libraries not associated with a known runtime (e.g., bundled inside an AppImage) can be placed at the top level of shared-libs or in a custom specified sub‑folder.
+Libraries not associated with a known runtime (e.g., bundled inside an AppImage) can be placed at the top level of shared-libs or in a custom specified sub‑folder. This standardised shared-libs hierarchy simplifies backend deduplication.
 
 
 **Example**
@@ -141,12 +150,6 @@ Libraries not associated with a known runtime (e.g., bundled inside an AppImage)
 - Runtime libraries are automatically placed under shared-libs/<runtime>/<version>/.
 - Non‑runtime libraries remain at the root of shared-libs (or another location you define).
 
-###  Gatherer Behaviour
-
-
-- Runtime libraries are copied into the unified hierarchy.
-- Custom/AppImage libraries are copied to the exact destination you declare.
-- Paths in source are stored relative to the directory where the hunter is executed, ensuring portability across CI agents and developer machines.
 
 ### Resulting Component Directory Layout
 
@@ -162,7 +165,6 @@ azahar/
 ├── component_recipe.json
 ├── rd_config/
 │   └── qt-config.ini
-├── recipe.sh
 └── shared-libs/
     ├── libaom.so.3                         ← unique, non‑runtime lib
     ├── org.gnome.Platform/
@@ -178,27 +180,16 @@ azahar/
 The shared-libs tree can be processed uniformly in the backend for deduplication, while component‑specific libraries remain isolated.
 
 
-## Recent Progress and Next Steps
-
-Milestone	Benefit
-Robust hunter/gatherer	Supports parallel execution and handles edge cases
-Unified JSON schema	Reduces file count and simplifies version control
-Plugin‑based Cooker	Enables easy addition of new source formats
-Runtime‑agnostic metadata	Works with any installed runtime (KDE, GNOME, etc.)
-Standardised shared-libs hierarchy	Simplifies backend deduplication
+### Next Steps
 
 Upcoming work:
 
 
-```
+- Implement incremental updates for individual components.
+- Extend the plugin ecosystem for containerised builds and cross‑architecture packaging.
+- Add monitoring dashboards to visualise library reuse across components.
 
-    Implement incremental updates for individual components.
-    Extend the plugin ecosystem for containerised builds and cross‑architecture packaging.
-    Add monitoring dashboards to visualise library reuse across components.
-
-```
-    
-## Full Example: Combined component_recipe.json
+### Full Example: Combined component_recipe.json for Azahar
 
 
 

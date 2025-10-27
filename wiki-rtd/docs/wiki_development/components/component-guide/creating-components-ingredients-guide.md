@@ -4,7 +4,7 @@
 
 ## Description 
 
-Read the Development Glossary a more shot general explanation of each file: [Development Glossary](../../development-glossary.md) 
+Read the Development Glossary a more shot general explanation of each file: [Development Glossary](../../general/development-glossary.md) 
 
 **The Ingredient files:**
 

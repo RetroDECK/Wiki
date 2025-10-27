@@ -25,7 +25,7 @@ Components can broadly be categorized by from the application you want to add:
 - **Port**
 - **System**
 
-Read the Development Glossary for more details here: [Development Glossary](../../development-glossary.md) 
+Read the Development Glossary for more details here: [Development Glossary](../../general/development-glossary.md) 
 
 #### On Adding Ports
 

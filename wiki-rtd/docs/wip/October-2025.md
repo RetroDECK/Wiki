@@ -50,9 +50,9 @@ We are pleased to formally welcome Lahrs to the team.
 
 Some of the RetroDECK Team where invited to be guests at SDHQs Podcast.
 
-Marvel at Xargons broken Italian Japanese English dialect (Known as the Pasta-CheeseCrust-Sashmi) as he tries to pronounce hard words such as "Firmware" and "Pay".
+Marvel at Xargons broken Italian-Japanese dialect as he tries to pronounce hard words such as "Firmware" and "Pay".
 
-Enjoy Lazorne's stupid antics and semi breaking microphone.
+Enjoy Lazorne's stupid Swedish-Chinese antics and semi breaking microphone.
 
 ## RetroDECK 0.10.0b - Status
 

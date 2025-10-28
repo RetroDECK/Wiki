@@ -64,7 +64,7 @@ This is a tiny showcase on what we are working on so far.
 
 **Warning Technobabble!**
 
-## component_extras.sh (name pending)
+### component_extras.sh (name pending)
 
 Some components require custom steps (patches, post‑install actions). Rather than embedding these in the main recipe, we retain a lightweight script that allows the core recipe declarative while allowing per‑component customisation.
 
@@ -86,7 +86,7 @@ _finish.sh (As in "finishing touch" not you Mr.Sauna....)
 ```
 
 
-## Merger of component_libs and component_recipe
+### Merger of component_libs and component_recipe
 
 Previously we maintained two separate JSON files:
 
@@ -95,107 +95,7 @@ Previously we maintained two separate JSON files:
 
 Both describe the same entities, so we now combine them into a single component_recipe.json. 
 
-## Plugin‑Based Assembler
-
-<img src="../alchemist.png">
-
-The original assembler was monolithic. Refactoring it into a plugin system provides:
-
-
--  Extensibility: add support for new source layouts without modifying core code.
--  Maintainability: isolated plugins are easier to test and update.
--  Performance: independent plugins can run in parallel.
-
-
-## Library Hunter & Gatherer
-
-The Hunter & Gatherer scripts replaced the overly complex first POC Libman for easier library management ealier.
-
-###  New Gatherer Behaviour
-
-- Runtime libraries are copied into the unified hierarchy.
-- Custom/AppImage libraries are copied to the exact destination you declare.
-- Paths in source are stored relative to the directory where the hunter is executed, ensuring portability across CI agents and developer machines.
-
-### Library Hunter Improvements
-
-The hunter always records runtime_name and runtime_version for any library found in a runtime (Qt, GNOME, etc.). This removes the previous Qt‑only special case and makes the downstream processing runtime‑agnostic.
-
-All runtime‑provided libraries follow a single hierarchy:
-
-
-```
-
-shared-libs/
-└── <runtime-name>/
-    └── <runtime-version>/
-        └── <library>.so
-
-```
-        
-Libraries not associated with a known runtime (e.g., bundled inside an AppImage) can be placed at the top level of shared-libs or in a custom specified sub‑folder. This standardised shared-libs hierarchy simplifies backend deduplication.
-
-
-**Example**
-
-```
-  {
-    "library": "libQt6Widgets.so.6",
-    "runtime_name": "org.kde.Platform",
-    "runtime_version": "6.9",
-    "dest": "shared-libs"
-  },
-  {
-    "library": "libgtk-4.so.1",
-    "runtime_name": "org.gnome.Platform",
-    "runtime_version": "44",
-    "dest": "shared-libs"
-  },
-  {
-    "library": "libaom.so.3",
-    "source": "squashfs-root/usr/lib",
-    "dest": "shared-libs"
-  }
-
-
-```
-
-- Runtime libraries are automatically placed under shared-libs/<runtime>/<version>/.
-- Non‑runtime libraries remain at the root of shared-libs (or another location you define).
-
-
-
-### Resulting Component Directory Layout
-
-If libaom.so.3 is marked as a unique, non‑runtime library (dest: "shared-libs"), the final artifact looks like:
-
-```
-azahar/
-├── component_functions.sh
-├── component_launcher.sh
-├── component_libs.json
-├── component_manifest.json
-├── component_prepare.sh
-├── component_recipe.json
-├── rd_config/
-│   └── qt-config.ini
-└── shared-libs/
-    ├── libaom.so.3                         ← unique, non‑runtime lib
-    ├── org.gnome.Platform/
-    │   └── 44/
-    │       └── libgtk-4.so.1
-    └── org.kde.Platform/
-        └── 6.9/
-            ├── libQt6Widgets.so → libQt6Widgets.so.6.9.3
-            └── … (other Qt libs)
-
-```
-
-The shared-libs tree can be processed uniformly in the backend for deduplication, while component‑specific libraries remain isolated.
-
-All components shared-libs are merged into the single shared-libs componment upon RetroDECK flatpak creation.
-
-### Full Example: Combined component_recipe.json for Azahar
+#### Full Example: Combined component_recipe.json for Azahar
 
 
 ```
@@ -245,7 +145,109 @@ All components shared-libs are merged into the single shared-libs componment upo
 
 ```
 
-## Assembler Next Steps 
+### Plugin‑Based Assembler
+
+<img src="../alchemist.png">
+
+The original assembler was monolithic. Refactoring it into a plugin system provides:
+
+
+-  Extensibility: add support for new source layouts without modifying core code.
+-  Maintainability: isolated plugins are easier to test and update.
+-  Performance: independent plugins can run in parallel.
+
+
+### Library Hunter & Gatherer
+
+The Hunter & Gatherer scripts replaced the overly complex first POC Libman for easier library management ealier.
+
+####  New Gatherer Behaviour
+
+- Runtime libraries are copied into the unified hierarchy.
+- Custom/AppImage libraries are copied to the exact destination you declare.
+- Paths in source are stored relative to the directory where the hunter is executed, ensuring portability across CI agents and developer machines.
+
+#### Library Hunter Improvements
+
+The hunter always records runtime_name and runtime_version for any library found in a runtime (Qt, GNOME, etc.). This removes the previous Qt‑only special case and makes the downstream processing runtime‑agnostic.
+
+All runtime‑provided libraries follow a single hierarchy:
+
+
+```
+
+shared-libs/
+└── <runtime-name>/
+    └── <runtime-version>/
+        └── <library>.so
+
+```
+        
+Libraries not associated with a known runtime (e.g., bundled inside an AppImage) can be placed at the top level of shared-libs or in a custom specified sub‑folder. This standardised shared-libs hierarchy simplifies backend deduplication.
+
+
+**Example**
+
+```
+  {
+    "library": "libQt6Widgets.so.6",
+    "runtime_name": "org.kde.Platform",
+    "runtime_version": "6.9",
+    "dest": "shared-libs"
+  },
+  {
+    "library": "libgtk-4.so.1",
+    "runtime_name": "org.gnome.Platform",
+    "runtime_version": "44",
+    "dest": "shared-libs"
+  },
+  {
+    "library": "libaom.so.3",
+    "source": "squashfs-root/usr/lib",
+    "dest": "shared-libs"
+  }
+
+
+```
+
+- Runtime libraries are automatically placed under shared-libs/<runtime>/<version>/.
+- Non‑runtime libraries remain at the root of shared-libs (or another location you define).
+
+
+
+#### Resulting Component Directory Layout
+
+If libaom.so.3 is marked as a unique, non‑runtime library (dest: "shared-libs"), the final artifact looks like:
+
+```
+azahar/
+├── component_functions.sh
+├── component_launcher.sh
+├── component_libs.json
+├── component_manifest.json
+├── component_prepare.sh
+├── component_recipe.json
+├── rd_config/
+│   └── qt-config.ini
+└── shared-libs/
+    ├── libaom.so.3                         ← unique, non‑runtime lib
+    ├── org.gnome.Platform/
+    │   └── 44/
+    │       └── libgtk-4.so.1
+    └── org.kde.Platform/
+        └── 6.9/
+            ├── libQt6Widgets.so → libQt6Widgets.so.6.9.3
+            └── … (other Qt libs)
+
+```
+
+The shared-libs tree can be processed uniformly in the backend for deduplication, while component‑specific libraries remain isolated.
+
+All components shared-libs are merged into the single shared-libs componment upon RetroDECK flatpak creation.
+
+
+
+### Assembler Next Steps 
 
 - Implement incremental updates for individual components.
 - Extend the plugin ecosystem for containerised builds and cross‑architecture packaging.

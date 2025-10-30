@@ -1,3 +1,202 @@
+# The Alchemist
+
+*The Alchemist is a magician. One who, when given the proper instruction, can transmute one or more base source ingredients into the perfect gem of a component artifact.*
+
+> **Alchemy** – *noun* – “A power or process that changes or transforms something in a mysterious or impressive way”
+
+---
+
+## ⚠️ HEREBE WARNED
+
+Alchemy is, by definition, delicate.  
+
+- The ingredients must be **known** and **pure**.  
+- The recipe must be **exact**.  
+
+Any deviation can be **disastrous**.
+
+---
+
+## 📜 The Recipe
+
+All alchemical recipes consist of at least **four parts**:
+
+| Part | Description |
+|------|-------------|
+| **Name** | The root key of the `component_recipe.json` file, indicating the component’s name. The artifact name and certain source paths are derived from this name, so it must stay consistent. |
+| **Source** | Each component has a single source from which files are pulled to build the final artifact. |
+| **Asset** | Every source includes at least one asset—the file(s) actually fetched from the source ingredient. |
+| **Extras** | Minimum extras include the component launcher, component manifest, and shipped default config. Additional extras may be symlinks or other locally‑available files that don’t come from the downloaded source. |
+
+### Optional Inclusions
+
+- **Additional sources** – Needed when a component requires more than one download or when a nested archive demands multiple extraction passes. |
+- **Additional assets** – Each source can define its own set of assets, pointing the recipe to specific files within that source. |
+- **Libraries** – Most sources need extra libraries to run in the base Flatpak environment. Use `hunt_libraries.sh` to bootstrap a list of required binaries. |
+
+---
+
+## The Ingredients
+
+> “Garbage in, garbage out.” – <https://en.wikipedia.org/wiki/Garbage_in,_garbage_out>
+
+To achieve a perfect output, the input must be **precise** and **immutable**. Pulling from a moving target (e.g., a `latest` tag) introduces unpredictability and can break the recipe.
+
+- **Pin to a specific release** – Guarantees stability and reproducibility.  
+- **Stable source list** – All “stable” sources are enumerated in `desired_versions.sh`. Those versions can be referenced as placeholders in component recipes, reducing churn when a newer stable version appears.
+
+### Execution Context
+
+- The `alchemist.sh` script is invoked from the `…/components` directory of the repository cloned from <https://github.com/RetroDECK/components.git>.  
+- The script’s location is flexible, but **the working directory matters**:  
+  - If run inside a Git repo, `$REPO_ROOT` points to the repo root.  
+  - Otherwise, `$REPO_ROOT` defaults to the directory containing `alchemist.sh`.
+
+---
+
+## 🔎 Example Recipe Fragment
+
+Only a single downloaded source is shown here:
+
+```
+{
+  "azahar": {
+    "source_url": "https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage",
+    "source_type": "github-release",
+    "version": "$AZAHAR_DESIRED_VERSION",
+    "extraction_type": "appimage"
+  }
+}
+```
+
+### Breakdown
+
+| Field               | Meaning                                                                                                                                                                                                 |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **JSON root key** (`azahar`) | Component name; creates the placeholder variable `$COMPONENT_NAME`.                                                                                                                            |
+| **source_url** (`{SOURCE_URL}`) | URL/path to download or copy. Accepts direct HTTP(S) links, redirects, GitHub repo URLs, or local filesystem paths. `{VERSION}` placeholder is replaced by the `version` field.                |
+| **source_type** (`{SOURCE_TYPE}`) | Determines which downloader plugin handles the fetch (e.g., `github-release`).                                                                                                                |
+| **version** (`{VERSION}`) | Specific version to retrieve. For local sources, `latest` can be used when no version is required.                                                                                                |
+| **extraction_type** (`{EXTRACTION_TYPE}`) | Method used to unpack the downloaded artifact (e.g., `appimage`).                                                                                                                          |
+
+### Omitted (but optional) keys
+
+- `dest` – Destination directory for the download. If missing, defaults to `$WORKDIR`.
+- `additional_sources` – Array of extra source objects, each following the same structure as the primary source.
+
+
+## Putting It All Together
+
+When authoring a new component recipe:
+
+1. **Define the component name** – Consistent across all related files.  
+2. **Specify the primary source** – Include `source_url`, `source_type`, `version`, and `extraction_type`.  
+3. **Add assets** – List the files you need from that source.  
+4. **Include extras** – Launcher, manifest, default config, etc.  
+5. **Optionally add** additional sources, assets, or library requirements.  
+6. **Pin versions** using entries from `desired_versions.sh` to keep builds reproducible.  
+
+
+---
+
+# Azahar Component Recipe
+
+This document describes how the **Azahar** component is fetched, extracted, and packaged.
+
+## Overview  
+
+| Item               | Description                                                                                                      |
+|--------------------|------------------------------------------------------------------------------------------------------------------|
+| **Component name** | `azahar`                                                                                                         |
+| **Source URL**     | `https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage`                                   |
+| **Source type**    | `github-release` (uses the *github‑release* downloader plugin)                                                   |
+| **Version variable** | `$AZAHAR_DESIRED_VERSION` – taken from `desired_versions.sh` (e.g., `export AZAHAR_DESIRED_VERSION="2123.3"` ) |
+| **Downloader output** | Path stored in `$DOWNLOADED_FILE`                                                                              |
+| **Extraction plugin** | `appimage`                                                                                                      |
+| **Extractor output** | Path stored in `$EXTRACTED_PATH`                                                                                |
+
+## Step‑by‑Step Logic  
+
+1. **Identify component** – The component is named **azahar**.  
+2. **Construct download URL** – Replace `{VERSION}` in the URL with the value of `$AZAHAR_DESIRED_VERSION`.  
+3. **Select downloader** – Use the *github‑release* plugin because the source type is `github-release`.  
+4. **Determine version** – Pull `$AZAHAR_DESIRED_VERSION` from `desired_versions.sh`. Example line:  
+
+```
+   export AZAHAR_DESIRED_VERSION="2123.3"
+
+    Download – Store the resulting file path in $DOWNLOADED_FILE.
+    Extract – Run the appimage extraction plugin on $DOWNLOADED_FILE.
+    Return extraction path – The extracted location is saved in $EXTRACTED_PATH.
+```
+
+Expanded Recipe (Assets & Libraries)
+
+The following JSON expands the basic recipe to also collect assets from the extracted AppImage and required libraries.
+
+```
+{
+  "azahar": {
+    "source_url": "https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage",
+    "source_type": "github-release",
+    "version": "$AZAHAR_DESIRED_VERSION",
+    "extraction_type": "appimage",
+    "assets": [
+      {
+        "type": "dir",
+        "source": "usr/bin",
+        "dest": "bin"
+      }
+    ],
+    "libs": [
+      {
+        "library": "libQt6Widgets.so.6",
+        "runtime_name": "org.kde.Platform",
+        "runtime_version": "6.9",
+        "dest": "shared-libs"
+      }
+    ]
+  }
+}
+```
+
+## Assets
+
+- **Purpose** – Define files/directories to pull from the extracted AppImage.  
+- **Structure** – Each asset object contains:
+
+| Key    | Meaning |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------|
+| `type` | `"file"` or `"dir"` – indicates whether a single file or a whole directory is collected. |
+| `source` | Path **relative to** `$EXTRACTED_PATH`. |
+| `dest`   | Destination path **relative to** `$COMPONENT_ARTIFACT_ROOT` (where the final artifact will be assembled). |
+
+## Libraries
+
+- **Purpose** – Gather runtime libraries needed by the component.  
+- **Structure** – Each library object contains:
+
+| Key                | Meaning |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| `library`          | Name of the library file (e.g., `libQt6Widgets.so.6`). The system will glob `libQt6Widgets.so*` to capture symlinks. |
+| `runtime_name` *(optional)* | Flatpak runtime providing the library (e.g., `org.kde.Platform`). |
+| `runtime_version` *(optional)* | Version of the runtime (e.g., `6.9`). |
+| `dest`             | Destination directory **relative to** `$COMPONENT_ARTIFACT_ROOT`. |
+| `source` *(optional)* | Specific source location if the library must be taken from a particular asset instead of a Flatpak runtime. |
+
+## Summary
+
+- **Download** using the GitHub release URL, inserting the version from `desired_versions.sh`.  
+- **Extract** the AppImage with the `appimage` plugin.  
+- **Collect assets** (e.g., `usr/bin`) and **libraries** (e.g., Qt6 widgets) according to the definitions above.  
+- All paths are resolved relative to `$EXTRACTED_PATH` (for source) and `$COMPONENT_ARTIFACT_ROOT` (for final placement).  
+
+Feel free to adjust the `assets` and `libs` arrays to match any additional files or dependencies your component requires.
+
+
+---
+
+
 The Alchemist
 
 The Alchemist is a magician. One who, when given the proper instruction, can transmute one or more base source ingredients into the perfect gem of a component artifact.

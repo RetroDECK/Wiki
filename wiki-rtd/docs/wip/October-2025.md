@@ -10,6 +10,8 @@ Lots of development focused RetroDECK 0.10.0b news.
 
 The RetroDECK Team have been hard at work. 
 
+We also wish you a 🎃 Happy Halloween 🎃 for those that celebrate it.
+
 ## Highlights
 
 **News**
@@ -19,9 +21,8 @@ The RetroDECK Team have been hard at work.
 
 **RetroDECK 0.10.0b - Status**
 
-- component_extras.sh (name pending)
 - Merger of component_libs and component_recipe
-- Plugin‑Based Assembler
+- RetroDECK Alchemist: Plugin‑Based Component Assembler
 - Library Hunter & Gatherer
 - Assembler Next Steps 
 
@@ -50,9 +51,11 @@ We are pleased to formally welcome Lahrs to the team.
 
 Some of the RetroDECK Team where invited to be guests at SDHQs Podcast.
 
-Marvel at Xargons broken Italian-Japanese dialect as he tries to pronounce hard words such as "Firmware" and "Pay".
+Marvel at Xargons broken Italian-Japanese-English dialect as he tries to pronounce hard words such as "Firmware" and "Pay".
 
-Enjoy Lazorne's stupid Swedish-Chinese antics and semi breaking microphone.
+Enjoy Lazorne's stupid Swedish antics and semi breaking microphone.
+
+It will be available soonish over at the SDHQ site (we will add the link when it's posted).
 
 ## RetroDECK 0.10.0b - Status
 
@@ -64,36 +67,34 @@ This is a tiny showcase on what we are working on so far.
 
 **Warning Technobabble!**
 
-### component_extras.sh (name pending)
-
-Some components require custom steps (patches, post‑install actions). Rather than embedding these in the main recipe, we retain a lightweight script that allows the core recipe declarative while allowing per‑component customisation.
-
-We still have not decided the name for this as we want it to fit with the "cooking" lingo. 
-
-
-Suggestions have been:
-
-```
-component
-
-_additions.sh 
-_additives.sh
-_msg.sh (FUIYOH!)
-_spice.sh (Must flow)
-_garnish.sh 
-_flavor.sh
-_finish.sh (As in "finishing touch" not you Mr.Sauna....)
-```
 
 
 ### Merger of component_libs and component_recipe
 
-Previously we maintained two separate JSON files:
+Previously we maintained two separate two files:
 
 - component_libs.json – raw library listings
-- component_recipe.json – build instructions
+- recipe.sh – build instructions
 
 Both describe the same entities, so we now combine them into a single component_recipe.json. 
+
+Several new arguments have also been added one being the **"extras":** (name pending).
+
+We still have not decided the name for this as we want it to fit with the "magical cooking" lingo. 
+
+
+**Suggestions have been:**
+
+```
+"additions"
+"additives"
+"msg" (FUIYOH!)
+"spice" (Must flow)
+"garnish" 
+"flavor"
+"finish" (As in "finishing touch" not you Mr.Sauna...)
+"extras" (Just stick with it!)
+```
 
 #### Full Example: Combined component_recipe.json for Azahar
 
@@ -145,17 +146,17 @@ Both describe the same entities, so we now combine them into a single component_
 
 ```
 
-### Plugin‑Based Assembler
+### RetroDECK Alchemist: Plugin‑Based Component Assembler
 
 <img src="../alchemist.png">
 
 The original assembler was monolithic. Refactoring it into a plugin system provides:
 
-
 -  Extensibility: add support for new source layouts without modifying core code.
 -  Maintainability: isolated plugins are easier to test and update.
 -  Performance: independent plugins can run in parallel.
 
+[Read more here](https://retrodeck.readthedocs.io/en/latest/wiki_development/components/alchemist/component-alchemist-guide/)
 
 ### Library Hunter & Gatherer
 
@@ -247,12 +248,18 @@ All components shared-libs are merged into the single shared-libs componment upo
 
 
 
-### Assembler Next Steps 
+## Assembler Next Steps 
 
 - Implement incremental updates for individual components.
 - Extend the plugin ecosystem for containerised builds and cross‑architecture packaging.
 - Add monitoring dashboards to visualise library reuse across components.
 
+## Development Next Steps 
+
+- Start making new recipe & ingredient files
+- Put everything togheter 
+- Tons of testing by our panel of expert community taste testers
+- Serve
 
 
 ## That is all for now 
@@ -268,6 +275,9 @@ WOW... this was a lot of things I don't understand.
 Mrs. Angry User:
 Listen, I don't care about all this tech junk. Just update now! 
 
+Mr. Angry at User User:
+Stop pestering the devs! *Insert rule breaking language here*
+
 Mrs. Tech User:
 I use Arch BTW!
 
@@ -275,12 +285,10 @@ Thalin:
 What will happen to RetroDECK?!
 
 X Developer User:
-Just redo everything in Rust?! GOSH!
+Just redo everything in Rust! GOSH!
 
 Mr. Sauna:
 Perkele
-
-
 ```
 
 There are more things we are working on, but you will see them in future blog updates!

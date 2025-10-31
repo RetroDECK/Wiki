@@ -213,9 +213,8 @@ azahar
 ├── component_manifest.json
 ├── component_prepare.sh
 ├── component_recipe.json
-├── rd_config
-│   └── qt-config.ini
-└── recipe.sh
+└── rd_config
+    └── qt-config.ini
 
 As the contents of this directory are copied to '$COMPONENT_ARTIFACT_ROOT', combined with the actions of other asset and library gathering,
 the final structure of the '$COMPONENT_NAME-artifact' directory, which is now ready to be compressed into the final artifact:
@@ -233,7 +232,6 @@ azahar-artifact
 ├── component_recipe.json
 ├── rd_config
 │   └── qt-config.ini
-├── recipe.sh
 └── shared-libs
     └── org.kde.Platform
         └── 6.9

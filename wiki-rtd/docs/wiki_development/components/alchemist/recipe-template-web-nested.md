@@ -1,3 +1,6 @@
+## Template: component_recipe.json - Web Nested
+
+```
 {
 "<component name>": {
     "source_url": "https://url.to.source/{VERSION}/archive1.zip",
@@ -41,3 +44,5 @@
     ]
   }
 }
+
+```

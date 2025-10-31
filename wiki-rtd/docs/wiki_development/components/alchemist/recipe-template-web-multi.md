@@ -1,3 +1,6 @@
+## Template: component_recipe.json - Web Multiple Sources
+
+```
 {
 "<component name>": {
     "source_url": "https://url.to.source/{VERSION}/archive1.zip",
@@ -42,3 +45,5 @@
     ]
   }
 }
+
+```

@@ -12,7 +12,8 @@
 
 **HEREBY BE WARNED**
 
-Alchemy is, by definition, delicate.  
+Alchemy and cooking is, by definition, delicate.  
+
 - The ingredients must be known and pure.  
 - The recipe must be exact.  
 
@@ -21,6 +22,15 @@ Any deviation from this process can be **disastrous**.
 To achieve a perfect output, the input must be equally well‑known.  
 Only by pulling input from a **specific moment in time** can we guarantee consistency.  
 Dynamic sources that use “latest” versions change without review, making them unreliable for reproducible builds.
+
+
+### TIP: TEMPLATES and EXAMPLES of component_recipe.json 
+
+On the wiki (next to this guide) we list some examples and templates of `component_recipe.json`.
+
+If you want to make a new one use them as your baseline.
+
+More examples will be added over time.
 
 ---
 
@@ -441,5 +451,6 @@ azahar-artifact
             ├── libQt6Widgets.so.6 -> libQt6Widgets.so.6.9.3
             └── libQt6Widgets.so.6.9.3
 ```
+
 
 

@@ -421,8 +421,15 @@ nav:
       - Step 3 - Component Recipe & Ingredients: wiki_development/components/component-guide/creating-components-ingredients-guide.md
       - Step 4 - Component Add to ES-DE: wiki_development/components/component-guide/component-add-to-es-de.md
 
-    - Components Alchemist & Recipe:
-      - RetroDECK Alchemist & component_recipe.json: wiki_development/components/alchemist/component-alchemist-guide.md
+    - Components Alchemist & Component Recipe:
+      - Guide - RetroDECK Alchemist & component_recipe.json: wiki_development/components/alchemist/component-alchemist-guide.md
+      - EXAMPLE component_recipe - Azahar: wiki_development/components/alchemist/recipe-example-azahar.md
+      - TEMPLATE component_recipe - Web source: wiki_development/components/alchemist/recipe-template-web.md
+      - TEMPLATE component_recipe - Web nested source: wiki_development/components/alchemist/recipe-template-web-nested.md
+      - TEMPLATE component_recipe - Web multi source: wiki_development/components/alchemist/recipe-template-web-multi.md
+      - TEMPLATE component_recipe - GitHub source: wiki_development/components/alchemist/recipe-template-github.md
+      - TEMPLATE component_recipe - Flathub source: wiki_development/components/alchemist/recipe-template-flathub.md
+
 
     - Components Ingredient Files:
       - component_functions.sh: wiki_development/components/component-files/component-ingredient-functions.md

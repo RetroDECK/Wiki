@@ -1,3 +1,6 @@
+## Example: component_recipe.json - Azahar
+
+```
 {
   "azahar": {
     "source_url": "https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage",
@@ -64,3 +67,4 @@
     ]
   }
 }
+```

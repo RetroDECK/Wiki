@@ -1,3 +1,6 @@
+## Template: component_recipe.json - Flathub
+
+```
 {
   "<component name>": {
     "source_url": "<flatapak ID>",
@@ -14,3 +17,5 @@
     }
   }
 }
+
+```

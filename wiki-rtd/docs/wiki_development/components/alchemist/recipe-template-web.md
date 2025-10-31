@@ -1,9 +1,12 @@
+## Template: component_recipe.json - Web
+
+```
 {
   "<component name>": {
-    "source_url": "https://github.com/component-dev/component-name/releases/download/{VERSION}/*.AppImage",
-    "source_type": "github-release",
+    "source_url": "https://url.to.source/{VERSION}/archive.zip",
+    "source_type": "http",
     "version": "$COMPONENT_DESIRED_VERSION",
-    "extraction_type": "appimage",
+    "extraction_type": "archive",
     "assets": [
       {
         "type": "dir",
@@ -27,18 +30,10 @@
     "extras": [
       {
         "type": "dir",
-        "source": "$PWD",
+        "source": "$REPO_ROOT/$component_name",
         "dest": "$COMPONENT_ARTIFACT_ROOT"
-      },
-      {
-        "type": "symlink",
-        "source": "/var/config/copmponent",
-        "dest": "$COMPONENT_ARTIFACT_ROOT/portable"
-      },
-      {
-        "type": "create",
-        "dest": "$COMPONENT_ARTIFACT_ROOT/portable.txt"
       }
     ]
   }
 }
+```

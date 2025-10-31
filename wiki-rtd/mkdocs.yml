@@ -422,7 +422,7 @@ nav:
       - Step 4 - Component Add to ES-DE: wiki_development/components/component-guide/component-add-to-es-de.md
 
     - Components Alchemist & Recipe:
-      - component_functions.sh: wiki_development/components/alchemist/component-alchemist-guide.md
+      - RetroDECK Alchemist & component_recipe.json: wiki_development/components/alchemist/component-alchemist-guide.md
 
     - Components Ingredient Files:
       - component_functions.sh: wiki_development/components/component-files/component-ingredient-functions.md

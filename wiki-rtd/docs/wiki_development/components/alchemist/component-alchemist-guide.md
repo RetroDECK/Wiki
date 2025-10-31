@@ -203,112 +203,6 @@ An array of objects defining extra content to be gathered or created for the fin
 
 ---
 
-
-
-## Reusable Environmental Variable Reference
-
-### Core Paths
-
-| Variable | Description |
-|---------|-------------|
-| **$REPO_ROOT** | Set to the root of the git‑cloned repository if `alchemist.sh` is invoked inside one. Otherwise, defaults to the directory from which the script is called. |
-| **$WORKDIR** | Working directory for the current component build. Holds downloaded sources, extracted files, and the temporary artifact directory. Can be overridden via an argument to **alchemist.sh**; otherwise falls back to **$DEFAULT_WORKDIR** defined in `defaults.sh`. |
-| **$COMPONENT_NAME** | Name of the component currently being processed. Should match the component directory name in the components repository for consistency. |
-| **$COMPONENT_ARTIFACT_ROOT** | Path to the final artifact directory where all files destined for the archive are placed. Computed as: **$WORKDIR/$COMPONENT_NAME-artifact**. |
-
-### Download & Extraction Helpers
-
-| Variable | Description |
-|---------|-------------|
-| **$DOWNLOADED_FILE** | Stores the full path of the most recently downloaded file. Populated by the `download.sh` plugin (via **echo "DOWNLOADED_FILE=..."**). |
-| **$EXTRACTED_PATH** | Stores the full path of the most recently extracted archive. Populated by the `extract.sh` plugin (via **echo "EXTRACTED_PATH=..."**). For **local** extractions (no real archive), a dummy plugin returns the same path as **$DOWNLOADED_FILE**. |
-
-### Flatpak‑Related Variables
-
-| Variable | Description |
-|---------|-------------|
-| **$FLATPAK_USER_ROOT** | Default user‑install location (**$HOME/.local/share/flatpak/app**). Defined in `defaults.sh`. |
-| **$FLATPAK_SYSTEM_ROOT** | Default system‑install location (**/var/lib/flatpak/app**). Defined in `defaults.sh`. |
-| **$FLATPAK_DEFAULT_INSTALL_MODE** | Default install mode for Flatpak packages (**user**). System mode may require **sudo**. |
-| **$FLATHUB_REPO** | URL of the Flathub repository (**https://flathub.org/repo/flathub.flatpakrepo**). Adjust if the repo changes. |
-
-### Version Management
-
-| Variable | Description |
-|---------|-------------|
-| **$DESIRED_VERSIONS** | Path to the `desired_versions.sh` script containing the catalog of desired component versions. Used to resolve version placeholders in component recipes. Can be overridden per **alchemist.sh** run via an input argument, enabling separate “stable” and “beta” version sets. |
-
-
----
-
-## Alchemist Execution Logic
-
-1. **Component Name** – Set to `azahar`.  
-2. **Download URL** – `https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage`.  
-3. **Downloader Plugin** – `github-release` (selected via `source_type`).  
-4. **Version Resolution** – `$AZAHAR_DESIRED_VERSION` is read from `desired_versions.sh` (e.g., `export AZAHAR_DESIRED_VERSION="2123.3"`). This value replaces `{VERSION}` in the URL.  
-5. **Downloaded File Path** – Stored in `$DOWNLOADED_FILE`.  
-6. **Extraction Plugin** – `appimage`, applied to `$DOWNLOADED_FILE`.  
-7. **Extracted Destination** – Path returned in `$EXTRACTED_PATH`.  
-8. **Copy the full directory** from `$EXTRACTED_PATH/usr/bin` to `$COMPONENT_ARTIFACT_ROOT/bin`.  
-9. **Flatpak Runtime** – Install the required runtime (name and version) if it isn’t already present.  
-10. **Gather Library** – Retrieve `libQt6Widgets.so.6` from the specified Flatpak runtime and place it in the appropriate location within the artifact.  
-
-### Alchemist Process Abstraction
-
-At a high level, the Alchemist processes information in this loop:
-
-1. **Read** `component_recipe.json` file.  
-2. **Read** component name from the root key.  
-3. **Generate** a set of *parent objects* to be processed.  
-   - Each parent object contains download sources, extraction commands, asset‑gathering instructions, library‑gathering instructions, and extras‑gathering instructions.  
-4. **Process** each object sequentially.  
-5. **Compress** the contents of the `*-artifact` directory for storage.
-
-### Example: Final Artifact Layout ($COMPONENT_NAME-artifact) for Azahar
-
-```
-azahar-artifact
-├── bin
-│   ├── azahar
-│   └── qt.conf
-├── component_extras.sh
-├── component_functions.sh
-├── component_launcher.sh
-├── component_libs.json
-├── component_manifest.json
-├── component_prepare.sh
-├── component_recipe.json
-├── rd_config
-│   └── qt-config.ini
-└── shared-libs
-    └── org.kde.Platform
-        └── 6.9
-            ├── libQt6Concurrent.so -> libQt6Concurrent.so.6
-            ├── libQt6Concurrent.so.6 -> libQt6Concurrent.so.6.9.3
-            ├── libQt6Concurrent.so.6.9.3
-            ├── libQt6Core.so -> libQt6Core.so.6
-            ├── libQt6Core.so.6 -> libQt6Core.so.6.9.3
-            ├── libQt6Core.so.6.9.3
-            ├── libQt6DBus.so -> libQt6DBus.so.6
-            ├── libQt6DBus.so.6 -> libQt6DBus.so.6.9.3
-            ├── libQt6DBus.so.6.9.3
-            ├── libQt6Gui.so -> libQt6Gui.so.6
-            ├── libQt6Gui.so.6 -> libQt6Gui.so.6.9.3
-            ├── libQt6Gui.so.6.9.3
-            ├── libQt6Multimedia.so -> libQt6Multimedia.so.6
-            ├── libQt6Multimedia.so.6 -> libQt6Multimedia.so.6.9.3
-            ├── libQt6Multimedia.so.6.9.3
-            ├── libQt6Network.so -> libQt6Network.so.6
-            ├── libQt6Network.so.6 -> libQt6Network.so.6.9.3
-            ├── libQt6Network.so.6.9.3
-            ├── libQt6Widgets.so -> libQt6Widgets.so.6
-            ├── libQt6Widgets.so.6 -> libQt6Widgets.so.6.9.3
-            └── libQt6Widgets.so.6.9.3
-```
-
----
-
 ## Nested Archives & additional_sources
 
 - A *nested archive* creates a new archive that also needs extraction.  
@@ -432,7 +326,6 @@ By ordering the `additional_sources` array this way, the Alchemist ensures that 
 ```
 
 
-
 ### Why This Verbose Multi‑Object Approach?
 
 - **Fine‑grained control:** Each object can specify its own assets, libraries, and extras, ensuring precise handling of files.  
@@ -441,5 +334,112 @@ By ordering the `additional_sources` array this way, the Alchemist ensures that 
 
 By processing each source object sequentially, the Alchemist maintains strict control over every step, guaranteeing deterministic results across builds.
 
+
+
+
+
+---
+
+## Reusable Environmental Variable Reference
+
+### Core Paths
+
+| Variable | Description |
+|---------|-------------|
+| **$REPO_ROOT** | Set to the root of the git‑cloned repository if `alchemist.sh` is invoked inside one. Otherwise, defaults to the directory from which the script is called. |
+| **$WORKDIR** | Working directory for the current component build. Holds downloaded sources, extracted files, and the temporary artifact directory. Can be overridden via an argument to **alchemist.sh**; otherwise falls back to **$DEFAULT_WORKDIR** defined in `defaults.sh`. |
+| **$COMPONENT_NAME** | Name of the component currently being processed. Should match the component directory name in the components repository for consistency. |
+| **$COMPONENT_ARTIFACT_ROOT** | Path to the final artifact directory where all files destined for the archive are placed. Computed as: **$WORKDIR/$COMPONENT_NAME-artifact**. |
+
+### Download & Extraction Helpers
+
+| Variable | Description |
+|---------|-------------|
+| **$DOWNLOADED_FILE** | Stores the full path of the most recently downloaded file. Populated by the `download.sh` plugin (via **echo "DOWNLOADED_FILE=..."**). |
+| **$EXTRACTED_PATH** | Stores the full path of the most recently extracted archive. Populated by the `extract.sh` plugin (via **echo "EXTRACTED_PATH=..."**). For **local** extractions (no real archive), a dummy plugin returns the same path as **$DOWNLOADED_FILE**. |
+
+### Flatpak‑Related Variables
+
+| Variable | Description |
+|---------|-------------|
+| **$FLATPAK_USER_ROOT** | Default user‑install location (**$HOME/.local/share/flatpak/app**). Defined in `defaults.sh`. |
+| **$FLATPAK_SYSTEM_ROOT** | Default system‑install location (**/var/lib/flatpak/app**). Defined in `defaults.sh`. |
+| **$FLATPAK_DEFAULT_INSTALL_MODE** | Default install mode for Flatpak packages (**user**). System mode may require **sudo**. |
+| **$FLATHUB_REPO** | URL of the Flathub repository (**https://flathub.org/repo/flathub.flatpakrepo**). Adjust if the repo changes. |
+
+### Version Management
+
+| Variable | Description |
+|---------|-------------|
+| **$DESIRED_VERSIONS** | Path to the `desired_versions.sh` script containing the catalog of desired component versions. Used to resolve version placeholders in component recipes. Can be overridden per **alchemist.sh** run via an input argument, enabling separate “stable” and “beta” version sets. |
+
+
+---
+
+## Alchemist Execution Logic
+
+1. **Component Name** – Set to `azahar`.  
+2. **Download URL** – `https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage`.  
+3. **Downloader Plugin** – `github-release` (selected via `source_type`).  
+4. **Version Resolution** – `$AZAHAR_DESIRED_VERSION` is read from `desired_versions.sh` (e.g., `export AZAHAR_DESIRED_VERSION="2123.3"`). This value replaces `{VERSION}` in the URL.  
+5. **Downloaded File Path** – Stored in `$DOWNLOADED_FILE`.  
+6. **Extraction Plugin** – `appimage`, applied to `$DOWNLOADED_FILE`.  
+7. **Extracted Destination** – Path returned in `$EXTRACTED_PATH`.  
+8. **Copy the full directory** from `$EXTRACTED_PATH/usr/bin` to `$COMPONENT_ARTIFACT_ROOT/bin`.  
+9. **Flatpak Runtime** – Install the required runtime (name and version) if it isn’t already present.  
+10. **Gather Library** – Retrieve `libQt6Widgets.so.6` from the specified Flatpak runtime and place it in the appropriate location within the artifact.  
+
+### Alchemist Process Abstraction
+
+At a high level, the Alchemist processes information in this loop:
+
+1. **Read** `component_recipe.json` file.  
+2. **Read** component name from the root key.  
+3. **Generate** a set of *parent objects* to be processed.  
+   - Each parent object contains download sources, extraction commands, asset‑gathering instructions, library‑gathering instructions, and extras‑gathering instructions.  
+4. **Process** each object sequentially.  
+5. **Compress** the contents of the `*-artifact` directory for storage.
+
+### Example: Final Artifact Layout ($COMPONENT_NAME-artifact) for Azahar
+
+```
+azahar-artifact
+├── bin
+│   ├── azahar
+│   └── qt.conf
+├── component_extras.sh
+├── component_functions.sh
+├── component_launcher.sh
+├── component_libs.json
+├── component_manifest.json
+├── component_prepare.sh
+├── component_recipe.json
+├── rd_config
+│   └── qt-config.ini
+└── shared-libs
+    └── org.kde.Platform
+        └── 6.9
+            ├── libQt6Concurrent.so -> libQt6Concurrent.so.6
+            ├── libQt6Concurrent.so.6 -> libQt6Concurrent.so.6.9.3
+            ├── libQt6Concurrent.so.6.9.3
+            ├── libQt6Core.so -> libQt6Core.so.6
+            ├── libQt6Core.so.6 -> libQt6Core.so.6.9.3
+            ├── libQt6Core.so.6.9.3
+            ├── libQt6DBus.so -> libQt6DBus.so.6
+            ├── libQt6DBus.so.6 -> libQt6DBus.so.6.9.3
+            ├── libQt6DBus.so.6.9.3
+            ├── libQt6Gui.so -> libQt6Gui.so.6
+            ├── libQt6Gui.so.6 -> libQt6Gui.so.6.9.3
+            ├── libQt6Gui.so.6.9.3
+            ├── libQt6Multimedia.so -> libQt6Multimedia.so.6
+            ├── libQt6Multimedia.so.6 -> libQt6Multimedia.so.6.9.3
+            ├── libQt6Multimedia.so.6.9.3
+            ├── libQt6Network.so -> libQt6Network.so.6
+            ├── libQt6Network.so.6 -> libQt6Network.so.6.9.3
+            ├── libQt6Network.so.6.9.3
+            ├── libQt6Widgets.so -> libQt6Widgets.so.6
+            ├── libQt6Widgets.so.6 -> libQt6Widgets.so.6.9.3
+            └── libQt6Widgets.so.6.9.3
+```
 
 

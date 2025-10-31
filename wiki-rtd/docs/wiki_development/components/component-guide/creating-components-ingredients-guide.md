@@ -48,22 +48,16 @@ Look at at the examples of other components and just copy from the one closest a
 
 Keep tinkering until the file launches and works as excepted.
 
-## Step 3: Libraries
-
-**Read more here for general information on libraries:** 
-
-[RetroDECK Libraries](../../general/retrodeck-libraries.md)
-
-## Step 4: Write the component_recipe.json File
+## Step 3: RetroDECK Alchemist & component_recipe.json 
 
 **Read more here:** 
 
-- [component_recipe.json](../component-files/component-recipe.md)
+- [Guide: Alchemist & component_recipe.json](../alchemist/component-alchemist-guide.md)
 
 Then PR it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/components/tree/cooker) next to the artifact in the folder.
 
 
-## Step 5: Create the rest of the  Ingredient Files
+## Step 4: Create the rest of the  Ingredient Files
 
 **Read more here:** 
 
@@ -73,7 +67,7 @@ Then PR it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/com
 
 - [component_prepare.sh](../component-files/component-ingredient-prepare.md)
 
-## Step 6: Add the Ingredient files
+## Step 5: Add the Ingredient files
 
 Add the Ingredient files to: `retrodeck/components/<component_name>`
 
@@ -94,7 +88,7 @@ components/cemu/component_prepare.sh
 ```
 
 
-## Step 7: Configurations: Try to Optimize (If possible) 
+## Step 6: Configurations: Try to Optimize (If possible) 
 
 Do a first pass and try to tweak configurations:
 
@@ -102,9 +96,9 @@ Do a first pass and try to tweak configurations:
 - **Tweak Performance:** Check the performance: RetroDECK standard is the Steam Deck hardware as default.
 
 
-## Step 8: Assemble the Release & Into the Cooker
+## Step 7: Assemble the Release & Into the Cooker
 
-The `RetroDECK Alchemist` building process follows the `component_recipe.sh` and builds the artifact with the ingredients files into:
+The `RetroDECK Alchemist` building process follows the `component_recipe.json` and builds the artifact with the ingredients files into:
 
 [RetroDECK/components/releases](https://github.com/RetroDECK/components/releases) 
 

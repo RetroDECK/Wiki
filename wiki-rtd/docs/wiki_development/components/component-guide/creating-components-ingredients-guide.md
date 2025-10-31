@@ -6,6 +6,13 @@
 
 Read the Development Glossary a more shot general explanation of each file: [Development Glossary](../../general/development-glossary.md) 
 
+**The Recipe file:**
+
+```
+component_recipe.json
+```
+
+
 **The Ingredient files:**
 
 ```
@@ -13,14 +20,8 @@ component_launcher.sh
 component_functions.sh
 component_manifest.json
 component_prepare.sh
-component_libs.json
 ```
 
-**The Recipe file:**
-
-```
-recipe.sh
-```
 
 ## Prerequisites: A tested component
 
@@ -53,11 +54,11 @@ Keep tinkering until the file launches and works as excepted.
 
 [RetroDECK Libraries](../../general/retrodeck-libraries.md)
 
-## Step 4: Write the recipe.sh Build File
+## Step 4: Write the component_recipe.json File
 
 **Read more here:** 
 
-- [recipe.sh](../component-files/component-recipe.md)
+- [component_recipe.json](../component-files/component-recipe.md)
 
 Then PR it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/components/tree/cooker) next to the artifact in the folder.
 
@@ -103,11 +104,11 @@ Do a first pass and try to tweak configurations:
 
 ## Step 8: Assemble the Release & Into the Cooker
 
-The `RetroDECK Assembler` building process follows the `recipe.sh` and builds the artifact with the ingredients files into:
+The `RetroDECK Alchemist` building process follows the `component_recipe.sh` and builds the artifact with the ingredients files into:
 
 [RetroDECK/components/releases](https://github.com/RetroDECK/components/releases) 
 
-After that the `RetroDECK Assembler`  will take the finished component artifacts and make them part of: 
+After that the `RetroDECK Alchemist`  will take the finished component artifacts and make them part of: 
 
 - [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker)
 - [RetroDECK: Cooker Branch](https://github.com/RetroDECK/RetroDECK/tree/cooker)

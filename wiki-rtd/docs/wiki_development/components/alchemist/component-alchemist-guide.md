@@ -1,325 +1,78 @@
-# The Alchemist
+# RetroDECK Alchemist & component_recipe.json
 
-*The Alchemist is a magician. One who, when given the proper instruction, can transmute one or more base source ingredients into the perfect gem of a component artifact.*
+**The RetroDECK Alchemist**  (`alchemist.sh` builder) is a magician / chef / bartender who , when given the proper instruction, can transmute one or more base source ingredients into the perfect gem of a component artifact.
 
-> **Alchemy** – *noun* – “A power or process that changes or transforms something in a mysterious or impressive way”
+*Alchemy* — *noun* — “A power or process that changes or transforms something in a mysterious or impressive way.”
 
 ---
 
-## ⚠️ HEREBE WARNED
+### Concistency
+
+> **Garbage in, garbage out** – [Wikipedia](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out)
+
+**HEREBY BE WARNED**
 
 Alchemy is, by definition, delicate.  
+- The ingredients must be known and pure.  
+- The recipe must be exact.  
 
-- The ingredients must be **known** and **pure**.  
-- The recipe must be **exact**.  
+Any deviation from this process can be **disastrous**.
 
-Any deviation can be **disastrous**.
-
----
-
-## 📜 The Recipe
-
-All alchemical recipes consist of at least **four parts**:
-
-| Part | Description |
-|------|-------------|
-| **Name** | The root key of the `component_recipe.json` file, indicating the component’s name. The artifact name and certain source paths are derived from this name, so it must stay consistent. |
-| **Source** | Each component has a single source from which files are pulled to build the final artifact. |
-| **Asset** | Every source includes at least one asset—the file(s) actually fetched from the source ingredient. |
-| **Extras** | Minimum extras include the component launcher, component manifest, and shipped default config. Additional extras may be symlinks or other locally‑available files that don’t come from the downloaded source. |
-
-### Optional Inclusions
-
-- **Additional sources** – Needed when a component requires more than one download or when a nested archive demands multiple extraction passes. |
-- **Additional assets** – Each source can define its own set of assets, pointing the recipe to specific files within that source. |
-- **Libraries** – Most sources need extra libraries to run in the base Flatpak environment. Use `hunt_libraries.sh` to bootstrap a list of required binaries. |
+To achieve a perfect output, the input must be equally well‑known.  
+Only by pulling input from a **specific moment in time** can we guarantee consistency.  
+Dynamic sources that use “latest” versions change without review, making them unreliable for reproducible builds.
 
 ---
 
-## The Ingredients
+## Repository Context
 
-> “Garbage in, garbage out.” – <https://en.wikipedia.org/wiki/Garbage_in,_garbage_out>
-
-To achieve a perfect output, the input must be **precise** and **immutable**. Pulling from a moving target (e.g., a `latest` tag) introduces unpredictability and can break the recipe.
-
-- **Pin to a specific release** – Guarantees stability and reproducibility.  
-- **Stable source list** – All “stable” sources are enumerated in `desired_versions.sh`. Those versions can be referenced as placeholders in component recipes, reducing churn when a newer stable version appears.
-
-### Execution Context
-
-- The `alchemist.sh` script is invoked from the `…/components` directory of the repository cloned from <https://github.com/RetroDECK/components.git>.  
-- The script’s location is flexible, but **the working directory matters**:  
-  - If run inside a Git repo, `$REPO_ROOT` points to the repo root.  
+- The `alchemist.sh` script is invoked from the `…/components` directory of the cloned repository:  
+  <https://github.com/RetroDECK/components.git>
+- The script’s location is flexible, but **the calling directory matters**:
+  - If run inside a Git repo, `$REPO_ROOT` points to the repo’s root.
   - Otherwise, `$REPO_ROOT` defaults to the directory containing `alchemist.sh`.
 
 ---
 
-## 🔎 Example Recipe Fragment
+## Parts of component_recipe.json
 
-Only a single downloaded source is shown here:
+All `component_recipe.json` contain at least four parts:
 
-```
-{
-  "azahar": {
-    "source_url": "https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage",
-    "source_type": "github-release",
-    "version": "$AZAHAR_DESIRED_VERSION",
-    "extraction_type": "appimage"
-  }
-}
-```
+1. **Name**  
+   - The root key of the `component_recipe.json` file, indicating the component’s name.  
+   - The artifact name and some source paths (e.g., the directory name in the components repo) are derived from this name, so it should be consistent across the component.
 
-### Breakdown
+2. **Source**  
+   - Each component has a single source from which files are pulled to be stored in the final artifact.
 
-| Field               | Meaning                                                                                                                                                                                                 |
-|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **JSON root key** (`azahar`) | Component name; creates the placeholder variable `$COMPONENT_NAME`.                                                                                                                            |
-| **source_url** (`{SOURCE_URL}`) | URL/path to download or copy. Accepts direct HTTP(S) links, redirects, GitHub repo URLs, or local filesystem paths. `{VERSION}` placeholder is replaced by the `version` field.                |
-| **source_type** (`{SOURCE_TYPE}`) | Determines which downloader plugin handles the fetch (e.g., `github-release`).                                                                                                                |
-| **version** (`{VERSION}`) | Specific version to retrieve. For local sources, `latest` can be used when no version is required.                                                                                                |
-| **extraction_type** (`{EXTRACTION_TYPE}`) | Method used to unpack the downloaded artifact (e.g., `appimage`).                                                                                                                          |
+3. **Asset**  
+   - Every component source includes at least one asset—the file(s) pulled from the source ingredient.
 
-### Omitted (but optional) keys
+4. **Extras**  
+   - Minimum extras: component launcher, component manifest, and shipped default config.  
+   - May also include prepared symlinks or other locally‑available files that do **not** come from downloaded sources.
 
-- `dest` – Destination directory for the download. If missing, defaults to `$WORKDIR`.
-- `additional_sources` – Array of extra source objects, each following the same structure as the primary source.
+### Optional Inclusions
 
+- **Additional Sources**  
+  - Used when a component requires more than one download to gather all needed files, or when the original source is a nested archive requiring multiple extraction passes.
 
-## Putting It All Together
+- **Additional Assets**  
+  - Each source can have its own set of assets, directing the recipe to pull specific files from specific sources.
 
-When authoring a new component recipe:
-
-1. **Define the component name** – Consistent across all related files.  
-2. **Specify the primary source** – Include `source_url`, `source_type`, `version`, and `extraction_type`.  
-3. **Add assets** – List the files you need from that source.  
-4. **Include extras** – Launcher, manifest, default config, etc.  
-5. **Optionally add** additional sources, assets, or library requirements.  
-6. **Pin versions** using entries from `desired_versions.sh` to keep builds reproducible.  
+- **Libraries**  
+  - Most sources need extra libraries to function within the base Flatpak environment.  
+  - The `hunt_libraries.sh` script can bootstrap a list of requirements for every binary.
 
 
----
+### Key Principles
 
-# Azahar Component Recipe
+- **Pin to a Release** – All ingredients must be taken from a fixed release to preserve quality and avoid unpredictable changes.  
+- **Stable Versions List** – The `desired_versions.sh` file enumerates all “stable” source versions. These can be referenced in component recipes as placeholders, reducing the need for frequent edits when a new stable version appears.
 
-This document describes how the **Azahar** component is fetched, extracted, and packaged.
-
-## Overview  
-
-| Item               | Description                                                                                                      |
-|--------------------|------------------------------------------------------------------------------------------------------------------|
-| **Component name** | `azahar`                                                                                                         |
-| **Source URL**     | `https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage`                                   |
-| **Source type**    | `github-release` (uses the *github‑release* downloader plugin)                                                   |
-| **Version variable** | `$AZAHAR_DESIRED_VERSION` – taken from `desired_versions.sh` (e.g., `export AZAHAR_DESIRED_VERSION="2123.3"` ) |
-| **Downloader output** | Path stored in `$DOWNLOADED_FILE`                                                                              |
-| **Extraction plugin** | `appimage`                                                                                                      |
-| **Extractor output** | Path stored in `$EXTRACTED_PATH`                                                                                |
-
-## Step‑by‑Step Logic  
-
-1. **Identify component** – The component is named **azahar**.  
-2. **Construct download URL** – Replace `{VERSION}` in the URL with the value of `$AZAHAR_DESIRED_VERSION`.  
-3. **Select downloader** – Use the *github‑release* plugin because the source type is `github-release`.  
-4. **Determine version** – Pull `$AZAHAR_DESIRED_VERSION` from `desired_versions.sh`. Example line:  
+## Example - Recipe Breakdown: Azahar
 
 ```
-   export AZAHAR_DESIRED_VERSION="2123.3"
-
-    Download – Store the resulting file path in $DOWNLOADED_FILE.
-    Extract – Run the appimage extraction plugin on $DOWNLOADED_FILE.
-    Return extraction path – The extracted location is saved in $EXTRACTED_PATH.
-```
-
-Expanded Recipe (Assets & Libraries)
-
-The following JSON expands the basic recipe to also collect assets from the extracted AppImage and required libraries.
-
-```
-{
-  "azahar": {
-    "source_url": "https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage",
-    "source_type": "github-release",
-    "version": "$AZAHAR_DESIRED_VERSION",
-    "extraction_type": "appimage",
-    "assets": [
-      {
-        "type": "dir",
-        "source": "usr/bin",
-        "dest": "bin"
-      }
-    ],
-    "libs": [
-      {
-        "library": "libQt6Widgets.so.6",
-        "runtime_name": "org.kde.Platform",
-        "runtime_version": "6.9",
-        "dest": "shared-libs"
-      }
-    ]
-  }
-}
-```
-
-## Assets
-
-- **Purpose** – Define files/directories to pull from the extracted AppImage.  
-- **Structure** – Each asset object contains:
-
-| Key    | Meaning |
-|--------|-----------------------------------------------------------------------------------------------------------------------------------|
-| `type` | `"file"` or `"dir"` – indicates whether a single file or a whole directory is collected. |
-| `source` | Path **relative to** `$EXTRACTED_PATH`. |
-| `dest`   | Destination path **relative to** `$COMPONENT_ARTIFACT_ROOT` (where the final artifact will be assembled). |
-
-## Libraries
-
-- **Purpose** – Gather runtime libraries needed by the component.  
-- **Structure** – Each library object contains:
-
-| Key                | Meaning |
-|--------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| `library`          | Name of the library file (e.g., `libQt6Widgets.so.6`). The system will glob `libQt6Widgets.so*` to capture symlinks. |
-| `runtime_name` *(optional)* | Flatpak runtime providing the library (e.g., `org.kde.Platform`). |
-| `runtime_version` *(optional)* | Version of the runtime (e.g., `6.9`). |
-| `dest`             | Destination directory **relative to** `$COMPONENT_ARTIFACT_ROOT`. |
-| `source` *(optional)* | Specific source location if the library must be taken from a particular asset instead of a Flatpak runtime. |
-
-## Summary
-
-- **Download** using the GitHub release URL, inserting the version from `desired_versions.sh`.  
-- **Extract** the AppImage with the `appimage` plugin.  
-- **Collect assets** (e.g., `usr/bin`) and **libraries** (e.g., Qt6 widgets) according to the definitions above.  
-- All paths are resolved relative to `$EXTRACTED_PATH` (for source) and `$COMPONENT_ARTIFACT_ROOT` (for final placement).  
-
-Feel free to adjust the `assets` and `libs` arrays to match any additional files or dependencies your component requires.
-
-
----
-
-
-The Alchemist
-
-The Alchemist is a magician. One who, when given the proper instruction, can transmute one or more base source ingredients into the perfect gem of a component artifact.
-
-Alchemy - noun - "A power or process that changes or transforms something in a mysterious or impressive way"
-
-HEREBY BE WARNED
-
-Alchemy is, by definition, delicate. The ingredients must be known and pure, and the recipe must be exact. Any deviation from this process can be disasterous.
-
-
-The Recipe:
-
-All alchemic recipes will have at least four parts:
-
-- The name (The root key of the component_recipe.json file, indicating the name of the component. The artifact name and some source paths (such as the name of the directory in the components repo) are derived from this name, so it should be consistent across the component)
-- The source (All components will have one source, where from files are pulled in order to be stored in the final artifact)
-- The asset (All component sources will have at least one asset, that being the file(s) being pulled from the source ingredient)
-- Extras (All sources will, at minimum, include extras such as the component launcher, component manifest and shipped default config. Other extras may include prepared symlinks or other locally-available files that do not come from downloaded sources)
-
-Other optional inclusions are:
-
-- Additional sources (If a component needs more than one download to include all needed files, or if the original source is a nested archive needing more than one extraction pass, these will be listed as additional sources)
-- Additional assets (Every source has its own set of assets, directing the recipe to pull specific files from specific sources)
-- Libraries (Most sources will need additional libraries included to support it in the base Flatpak environment. The hunt_libraries.sh script can be used to bootstrap a list of requirements for every binary)
-
-
-The Ingredients:
-
-https://en.wikipedia.org/wiki/Garbage_in,_garbage_out
-
-In order to gain a perfect output, the input must also be equally known. Pulling input from a specific moment in time is the only way to accomplish this, as sources that change over time cannot be reliably predicted.
-Pulling from dynamic sources using "latest" versions is therefore a recipe for disaster, as the source ingredients are changing without proper review, and hence cannot be guaranteed to be compatible with the recipe.
-
-All ingredients must be plucked from a specific release in order to maintain quality, and to avoid unknown and unpredictable changes into the final artifacts. In order to simplify ingredient version management, 
-all "stable" sources are listed in the desired_versions.sh file. These listed versions can be used as placeholders in component recipes, in an effort to reduce the number of changes needed when a new "stable" version is found.
-
-For all examples here, the alchemist.sh script is called from the path '.../components' as cloned from https://github.com/RetroDECK/components.git The actual script location is arbitrary, but the location the script is called from is important.
-If it is called from inside of a git repo, the repo root will be assigned to the variable '$REPO_ROOT' for processing use, otherwise the '$REPO_ROOT' will be defaulted to the directory the alchemist.sh script is called from.
-
-Here is an example recipe fragment containing only a single downloaded source.
-
-{
-  "azahar": {
-    "source_url": "https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage",
-    "source_type": "github-release",
-    "version": "$AZAHAR_DESIRED_VERSION",
-    "extraction_type": "appimage"
-  }
-}
-
-Breaking down this ingredient gives us the following information used by the Alchemist:
-
-JSON root key: 'azahar' - The Alchemist now knows the name of this component, used in various other stages of the artifact building as well as creating the reusable placeholder variable '$COMPONENT_NAME'.
-source_url: '{SOURCE_URL}' - The URL / path to be downloaded/copied for this component source. Acceptable URLS include a direct HTTP(S) link, HTTP(S) redirect links, GitHub repo URL or relative/absolute local filesystem paths.
-                             The URL can use the {VERSION} placeholder, which will be replaced with the contents of the JSON "version" key.
-source_type: '{SOURCE_TYPE}' - The download type, which dictates which downloader plugin is used to aquire the source.
-version: '{VERSION}' - The specific version to be grabbed from the source, used in GitHub release resolution or as a placeholder in a URL. For 'local' source types, if no version is needed, this value can be 'latest'.
-extraction_type: '{EXTRACTION_TYPE}' - The specific type of extraction to be used on this download.
-
-Omitted from this recipe is the optional 'dest' key, which is meant to allow for manual control over the destination of the download, if needed. If the 'dest' key is omitted or empty, the value will be defaulted to '$WORKDIR'.
-Also omitted is the 'additional_sources' key, which is used to process multiple sources in the same way as the core source is. The key is an array of objects containing the same information, in the same sub-structure as the core ingredient contents.
-
-The logic for this recipe then breaks down to:
-
-1. The name of this component is 'azahar'.
-2. The URL I should use for this download is 'https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage'.
-3. The type of this download source, and therefor the downloader plugin which should be used, is 'github-release'.
-4. The version of this source to be downloaded is '$AZAHAR_DESIRED_VERSION', which will be pulled from the 'desired_versions.sh' file and inserted into the '{VERSION}' placeholder in the URL.
-   An example line from the desired_version.sh file for this value would be 'export AZAHAR_DESIRED_VERSION="2123.3"'
-5. The path to the downloaded file is then returned to the Alchemist in the '$DOWNLOADED_FILE' variable.
-6. After downloading, the extractor should use the 'appimage' extraction plugin on the downloaded file.
-7. The file is extracted from the source '$DOWNLOADED_FILE' and the path to the extracted destination is then returned to the Alchemist in the '$EXTRACTED_PATH' variable.
-
-An expansion of this recipe to include asset gathering, including files from the extracted AppImage as well as needed libraries would be:
-
-{
-  "azahar": {
-    "source_url": "https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage",
-    "source_type": "github-release",
-    "version": "$AZAHAR_DESIRED_VERSION",
-    "extraction_type": "appimage",
-    "assets": [
-      {
-        "type": "dir",
-        "source": "usr/bin",
-        "dest": "bin"
-      }
-    ],
-    "libs": [
-      {
-        "library": "libQt6Widgets.so.6",
-        "runtime_name": "org.kde.Platform",
-        "runtime_version": "6.9",
-        "dest": "shared-libs"
-      }
-    ]
-  }
-}
-
-Breaking down the new additions gives us the following information used by the Alchemist:
-
-assets: This is an array of objects which defines what files should be gathered from the current source.
-[asset type:] The 'type' key for each asset object defines if the data to be gathered is a specific file or a whole directory.
-[asset source:] The source path for the desired file or directory. This path is relative to the '$EXTRACTED_PATH' variable provided from the extraction stage.
-[asset dest:] The destination path for the desired file or directory. This path is relative to the '$COMPONENT_ARTIFACT_ROOT' path, so is stored in the structure that should be in the final artifact archive.
-libs: This is an array of objects which defines what library files should be gathered for the current component.
-[lib library:] The 'library' key for each library object defines the name of the library to be gathered. Libraries are gathered by stripping the file name down to the base extension in order to capture dynamic symlinks for compatibility. eg. Defining 'libQt6Widgets.so.6' would really gather 'libQt6Widgets.so*' from the source.
-[lib runtime_name:] The optional 'runtime_name' key defines the name of the Flatpak runtime the library should be gathered from.
-[lib runtime_version:] The optional 'runtime_version' key defines which version of the given Flatpak runtime the library should be gathered from.
-[lib dest:] The 'dest' key defines the destination directory the library should be put in. This path is relative to the '$COMPONENT_ARTIFACT_ROOT' path.
-
-Omitted from this recipe is the optional [lib source:] key, which defines a specific source location to gather a library from. This is to be used when libraries must come from a specific asset and cannot be pulled from a Flatpak runtime.
-
-The logic for this recipe then breaks down to:
-
-<Component naming, asset downloading, asset extraction logic from above>
-8. Copy the full directory from '$EXTRACTED_PATH/usr/bin' to '$COMPONENT_ARTIFACT_ROOT/bin'
-9. As the defined library is from a Flatpak runtime, install the defined runtime name and version if needed.
-10. Gather the library 'libQt6Widgets.so.6' from the defined runtime name and version.
-
-An expansion of this recipe to a complete version, which would result in a finalized component artifact would be:
-
 {
   "azahar": {
     "source_url": "https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage",
@@ -386,39 +139,82 @@ An expansion of this recipe to a complete version, which would result in a final
     ]
   }
 }
+```
 
-Breaking down the new additions gives us the following information used by the Alchemist:
+## Recipe: Core Component Information
 
-libs: Additional lib objects are provided here, each is processed in the same way.
-extras: This is an array of objects defining "extras" to be gathered or created for the final artifact.
-[extra type:] The 'type' key for each extra object defines what kind of extra content it is.
-[extra source:] The optional 'source' key is used to define a source path for the extra. The path can be either absolute or relative. If a relative path is provided, it will be expanded to '$WORKDIR/source'
-[extra dest:] The optional 'dest' key is used to define a destination path for the extra. The path can be either absolute or relative. If a relative path is provided, it will be expanded to '$COMPONENT_ARTIFACT_ROOT/dest'
+| Field               | Description |
+|---------------------|-------------|
+| **JSON root key**   | `azahar` – defines the component name and creates the placeholder variable `$COMPONENT_NAME`. |
+| **source_url**      | `{SOURCE_URL}` – URL/path to download the source. Acceptable forms: direct HTTP(S) link, redirect, GitHub repo URL, or local filesystem path. Can contain a `{VERSION}` placeholder that will be replaced by the value of the `version` key. |
+| **source_type**     | `{SOURCE_TYPE}` – Determines which downloader plugin to use (e.g., `github-release`). |
+| **version**         | `{VERSION}` – Specific version to fetch. For non‑local sources, this replaces `{VERSION}` in `source_url`. For `local` sources, `latest` can be used if no version is required. |
+| **extraction_type**| `{EXTRACTION_TYPE}` – Extraction plugin to apply to the downloaded file (e.g., `appimage`). |
+| **dest**| *(Optional)* Destination directory for the download. If omitted or empty, defaults to `$WORKDIR`.|
+| **additional_sources**| *(Optional)* Array of extra source objects with the same structure, allowing multiple downloads to be processed similarly. |
 
-Omitted here is the optional [extra contents:] key, which is used to insert provided information into the destination file.
+### assets
 
-The logic for this recipe then breaks down to:
+| Field               | Description |
+|---------------------|-------------|
+| **type**   | Defines whether the asset is a single file (`file`) or an entire directory (`dir`). |
+| **source**       | Path to the desired file or directory, **relative to** the `$EXTRACTED_PATH` variable produced during the extraction stage. |
+| **dest**       | Path where the asset should be placed, **relative to** `$COMPONENT_ARTIFACT_ROOT`. This determines the layout inside the final artifact archive. |
 
-<Component naming, asset downloading, asset extraction, asset file gathering, library gathering logic from above, now with multiple library objects>
-11. Copy the contents of the directory '$REPO_ROOT/$COMPONENT_NAME' to the destination '$COMPONENT_ARTIFACT_ROOT'
 
-For this example, the contents of the '$REPO_ROOT/$COMPONENT_NAME' are:
+### libs
 
-azahar
-├── component_extras.sh
-├── component_functions.sh
-├── component_launcher.sh
-├── component_libs.json
-├── component_manifest.json
-├── component_prepare.sh
-├── component_recipe.json
-├── rd_config
-│   └── qt-config.ini
-└── recipe.sh
+Additional library objects are listed here, each processed identically to the previously described library entries.
 
-As the contents of this directory are copied to '$COMPONENT_ARTIFACT_ROOT', combined with the actions of other asset and library gathering,
-the final structure of the '$COMPONENT_NAME-artifact' directory, which is now ready to be compressed into the final artifact:
+| Field               | Description |
+|---------------------|-------------|
+| **library**   | Name of the library to collect. Libraries are resolved by stripping the filename to its base extension to capture dynamic symlinks. Example: specifying `libQt6Widgets.so.6` actually gathers all matching files like `libQt6Widgets.so*` from the source.|
+| **runtime_name**       | *(Optional)* Name of the Flatpak runtime from which to obtain the library. |
+| **runtime_version**       | *(Optional)* Specific version of the Flatpak runtime to target. |
+| **dest**       | Directory where the library should be placed, **relative to** `$COMPONENT_ARTIFACT_ROOT`. |
+| **lib_source**       | *(Optional)* If present, specifies a concrete source location for the library, used when the library must be taken from a particular asset rather than a Flatpak runtime. |
 
+
+### extras
+
+An array of objects defining extra content to be gathered or created for the final artifact.
+
+| Field | Description |
+|-------|-------------|
+| **type** | Defines the kind of extra content (e.g., `dir`, `file`). |
+| **source** *(optional)* | Source path for the extra. Can be absolute or relative. If relative, it expands to `$WORKDIR/source`. |
+| **dest** *(optional)* | Destination path for the extra. Can be absolute or relative. If relative, it expands to `$COMPONENT_ARTIFACT_ROOT/dest`. |
+| **contents** *(optional, omitted here)* | Allows inserting provided information directly into the destination file. |
+
+---
+
+## Alchemist Execution Logic
+
+1. **Component Name** – Set to `azahar`.  
+2. **Download URL** – `https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage`.  
+3. **Downloader Plugin** – `github-release` (selected via `source_type`).  
+4. **Version Resolution** – `$AZAHAR_DESIRED_VERSION` is read from `desired_versions.sh` (e.g., `export AZAHAR_DESIRED_VERSION="2123.3"`). This value replaces `{VERSION}` in the URL.  
+5. **Downloaded File Path** – Stored in `$DOWNLOADED_FILE`.  
+6. **Extraction Plugin** – `appimage`, applied to `$DOWNLOADED_FILE`.  
+7. **Extracted Destination** – Path returned in `$EXTRACTED_PATH`.  
+8. **Copy the full directory** from `$EXTRACTED_PATH/usr/bin` to `$COMPONENT_ARTIFACT_ROOT/bin`.  
+9. **Flatpak Runtime** – Install the required runtime (name and version) if it isn’t already present.  
+10. **Gather Library** – Retrieve `libQt6Widgets.so.6` from the specified Flatpak runtime and place it in the appropriate location within the artifact.  
+
+### Alchemist Process Abstraction
+
+At a high level, the Alchemist processes information in this loop:
+
+1. **Read** `component_recipe.json` file.  
+2. **Read** component name from the root key.  
+3. **Generate** a set of *parent objects* to be processed.  
+   - Each parent object contains download sources, extraction commands, asset‑gathering instructions, library‑gathering instructions, and extras‑gathering instructions.  
+4. **Process** each object sequentially.  
+5. **Compress** the contents of the `*-artifact` directory for storage.
+
+### Example: Final Artifact Layout ($COMPONENT_NAME-artifact) for Azahar
+
+```
 azahar-artifact
 ├── bin
 │   ├── azahar
@@ -432,7 +228,6 @@ azahar-artifact
 ├── component_recipe.json
 ├── rd_config
 │   └── qt-config.ini
-├── recipe.sh
 └── shared-libs
     └── org.kde.Platform
         └── 6.9
@@ -457,30 +252,22 @@ azahar-artifact
             ├── libQt6Widgets.so -> libQt6Widgets.so.6
             ├── libQt6Widgets.so.6 -> libQt6Widgets.so.6.9.3
             └── libQt6Widgets.so.6.9.3
-
-Thus ends the processing for this specific component. The Alchemist has taken an array of data from various sources, processed it in a structured method and generated a predictable output. Individual keys can be updated or changed
-as needed, making future updates straightforward and controlled.
+```
 
 
-Alchemist Process Abstraction:
 
-At a high level, the Alchemist processes information in this loop:
-1. Read component_recipe.json file.
-2. Read component name from root key.
-3. Generate set of parent objects to be processed.
-   - Each parent object contains download sources, extractions commands, asset gathering instructions, library gathering instructions and extras gathering instructions.
-4. Process each object sequentially.
-5. Compress contents of '<component name>-artifact' directory for storage.
+## Nested Archives & additional_sources
 
-Understanding how the parent objects are gathered and processed is an important concept, expecially for nested archives. By definition, a nested archive creates a new archive which will also need to be extracted.
-This process can be controlled through the ordering of the 'additional_sources' array. The 'additional_sources' array is an array of objects that contains the same keys and arrays as the "core" recipe.
-Each object, starting with the "core" object are processed in the order they are listed in the recipe. This way, one additional source object can download an extract a nested archive, and a second additional source object
-can then use data from the first object, as it was processed first.
+- A *nested archive* creates a new archive that also needs extraction.  
+- Control the order of extraction via the `additional_sources` array.  
+- `additional_sources` is an array of objects that contain the same keys and arrays as the **core** recipe.  
+- Objects are processed **in the order they appear** in the recipe, allowing later sources to depend on earlier ones.
 
-Here is an example of a simplified recipe showing extracting a nested archive:
+### Simplified Example: Extracting a Nested Archive
 
+```
 {
-"retroarch": {
+  "retroarch": {
     "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch.7z",
     "source_type": "http",
     "version": "1.21.0",
@@ -515,232 +302,211 @@ Here is an example of a simplified recipe showing extracting a nested archive:
   }
 }
 
-This recipe therefor contains three "source" objects to be processed:
-  1. An archive, downloaded from an internet URL.
-  
-  {
-    "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch.7z",
-    "source_type": "http",
-    "version": "1.21.0",
-    "extraction_type": "archive"
-  }
+```
 
-  2. An appimage file, extracted from a local source, with an asset to gather.
-  
-  {
-    "source_url": "RetroArch.7z-extracted/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage",
-    "source_type": "local",
-    "extraction_type": "appimage",
-    "assets": [
-      {
-        "type": "dir",
-        "source": "usr/bin",
-        "dest": "bin"
-      }
-    ]
-  }
+**Explanation**
 
-  3. Another archive, downloaded from an internet URL, also with an asset to gather.
-  
-  {
-    "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
-    "source_type": "http",
-    "version": "1.21.0",
-    "extraction_type": "archive",
-    "assets": [
-      {
-        "type": "dir",
-        "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
-        "dest": "cores"
-      }
-    ]
-  }
+1. **Core source** – Downloads `RetroArch.7z` and extracts it as an archive.  
+2. **First additional source** – Treats the already‑extracted AppImage (`RetroArch-Linux-x86_64.AppImage`) as a *local* source, extracts it, and copies its `usr/bin` directory to the artifact’s `bin` folder.  
+3. **Second additional source** – Downloads a second archive (`RetroArch_cores.7z`), extracts it, and copies the cores directory into the artifact’s `cores` folder.
 
-The order these would be processed is as follows:
-  Object 1. The archive 'RetroArch.7z' is downloaded from the internet and placed into '$WORKDIR'. It is then extracted as an 'archive', into the default destination directory of '$WORKDIR/RetroArch.7z-extracted'.
-     As this source has no other actions (no asset / lib / extra gathering), the Alchemist moves on to the next object.
-  Object 2. The local appimage '$WORKDIR/RetroArch.7z-extracted/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage' (as extracted from the previous step) is then extracted, and the defined asset '$WORKDIR/$EXTRACTED_PATH/usr/bin/' is gathered to '$COMPONENT_ARTIFACT_ROOT/bin/'.
-  Object 3. A wholly new archive is downloaded from the internet, extracted, and the asset '$WORKDIR/$EXTRACTED_PATH/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores/' is gathered to '$COMPONENT_ARTIFACT_ROOT/cores/'
+By ordering the `additional_sources` array this way, the Alchemist ensures that each step has the necessary data from the previous step before proceeding.
 
-While this process of extracting a nested archive as separate objects may appear to be overly verbose,
-it is necessary in order to maintain control over the files being manipulated, and avoids blob-matching issues such as if a parent archive has multiple extracted files with the same extensions.
-This method of multiple object processing is also useful as different classes of files (assets / libs) may come from multiple different sources. In this structure,
-every object (the "core" recipe object and any listed in 'additional_sources') can have its own set of asset gathering and library gathering instructions as needed. This gives the Alchemist the level of control needed to produce consistent results.
+---
 
+# Recipe – Three Source Objects
 
-Valid Key Value Reference:
+## 1️⃣ Core Archive (downloaded)
 
-.<root key>
-  The root key of the JSON file is the component name. The value is assigned to the reusable variable '$COMPONENT_NAME'.
+```
+{
+  "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch.7z",
+  "source_type": "http",
+  "version": "1.21.0",
+  "extraction_type": "archive"
+}
+```
 
-.<root key>.source_url
-  This value can be any HTTP(S) URL, including direct download links (including redirects, although the {VERSION} placeholder is used in the resolved URL), GitHub repo URLs or local relative/absolute paths for local sources.
-  For local sources, if a relative path is provided it will be expanded into '$WORKDIR/<source>', complete with {VERSION} placeholder replacements if used in the path.
+## 2️⃣ Local AppImage (extracted from the first archive)
 
-.<root key>.source_type
-  Currently supported ingredients (file sources) are:
+```
+{
+  "source_url": "RetroArch.7z-extracted/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage",
+  "source_type": "local",
+  "extraction_type": "appimage",
+  "assets": [
+    {
+      "type": "dir",
+      "source": "usr/bin",
+      "dest": "bin"
+    }
+  ]
+}
+```
 
-    - http (Normal web downloads. Web redirects are supported in the event that direct download links are not available)
-    - github-release (Releases hosted on GitHub, where the {VERSION} can be determined using the GitHub API or will be replaced directly by the 'version' recipe key value)
-    - git (Cloning of a desired git repo)
-    - flatpak-id (Downloading a flatpak application from the Flathub repo and installing it into host system for file extraction)
-    - local (Used in multi-step extractions (such as nested archives) or for pulling files which otherwise already exist on the build host)
+## 3️⃣ Additional Cores Archive (downloaded)
 
-  Additional types can be supported through the creation of new "downloaders" plugins. The plugin code structure is generally consistent, so refer to existing plugins for information on creating new ones.
+```
+{
+  "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
+  "source_type": "http",
+  "version": "1.21.0",
+  "extraction_type": "archive",
+  "assets": [
+    {
+      "type": "dir",
+      "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
+      "dest": "cores"
+    }
+  ]
+}
+```
 
-.<root key>.version
-  This is an semi-optional key where the value will be used to download a specific version of the source.
-  The key is required for all types except for 'local'.
-  If a {VERSION} placeholder is used in a 'source_url', this value will be substituted.
-  Currently supported 'version' values for different 'source_type' are:
+# Processing Order for the Three Source Objects
 
-    - 'http' : Specific version string, used to replace {VERSION} placeholders in the source URL.
-    - 'github-release' : Specific version string, used to replace {VERSION} placeholders in the source URL.
-                     A value of 'latest' is also supported, which will use the GitHub API to determine the current latest release.
-                     NOTE: USE OF THE 'latest' VALUE IS NOT RECOMMENDED AS THE VERSION DOWNLOADED IS UNCONTROLLED.
-    - 'git' : Specific git commit hash to download and checkout.
-    - 'flatpak-id' : Specific flatpak commit hash to download.
-                     NOTE: Flatpak commit hash information can be found using the command 'flatpak remote-info --log flathub <flatpak ID>'
-    - 'local' : For a 'local' source type, the key can be omitted entirely.
+## Object 1 – Core Archive
 
-.<root key>.extraction_type
-  Currently supposed extraction methods are:
+- **Download:** `RetroArch.7z` is fetched from the internet and placed into `$WORKDIR`.  
+- **Extraction:** Treated as an `archive`; it is extracted to the default destination `$WORKDIR/RetroArch.7z-extracted`.  
+- **Post‑extract actions:** None (no assets, libs, or extras).  
+- **Next step:** The Alchemist proceeds to Object 2.
 
-    - appimage (Extracting a provided AppImage file. The root of the AppImage exctraction, typically 'squash-fs' is moved to '<dest>/<AppImage filename>-extracted' and that path is returned as '$EXTRACTED_PATH')
-    - archive (Extracting a provided compressed archive. Supports most compression types, determined automatically by file extension. The contents of the archive are extracted to the path '<dest>/<Archive filename>-extracted' and that path is returned as '$EXTRACTED_PATH')
-    - local (As local files do not need further extraction, this is a dummy plugin which returns '$DOWNLOADED_FILE' as '$EXTRACTED_PATH')
-    - git (As local git-cloned files do not need further extraction, this is a dummy plugin which returns '$DOWNLOADED_FILE' as '$EXTRACTED_PATH')
-    - flatpak (As local Flatpak files do not need further extraction, this is a dummy plugin which returns '$DOWNLOADED_FILE' as '$EXTRACTED_PATH')
+## Object 2 – Local AppImage
 
-  Additional types can be supported through the creation of new "extractor" plugins. The plugin code structure is generally consistent, so refer to existing plugins for information on creating new ones.
+- **Source:** The AppImage located at `$WORKDIR/RetroArch.7z-extracted/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage` (produced by Object 1).  
+- **Extraction:** Handled as an `appimage`.  
+- **Asset gathering:** The directory `$WORKDIR/$EXTRACTED_PATH/usr/bin/` is collected and copied to `$COMPONENT_ARTIFACT_ROOT/bin/`.
 
-.<root key>.additional_sources
-  This is an array of objects for additional sources that may be needed for the component to be completed.
-  Each object in this array contains all the same keys and arrays as the "core" recipe, so all keys in this reference are equally valid within those objects.
-  See the "Alchemist Process Abstraction" section for more information on proper 'additional_sources' usage.
+## Object 3 – Additional Cores Archive
 
-.<root key>.dest
-  The destination of a given download or extraction can be provided using this key. The path provided here is absolute, so be sure to use placeholders appropriately.
-  This key is optional, and if omitted or empty it will be defaulted to '$WORKDIR'.
-  This key also has a unique use for 'flatpak_id' source types, where it defines the install type (user/system) for the Flatpak install. If the key is empty or omitted the Flatpak install type will default to 'user'.
-  NOTE: Flatpak 'system' mode installs may require sudo depending on the environemt, so should be used with caution.
+- **Download:** A new archive `RetroArch_cores.7z` is retrieved from the internet.  
+- **Extraction:** Treated as an `archive`.  
+- **Asset gathering:** The path `$WORKDIR/$EXTRACTED_PATH/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores/` is collected and placed into `$COMPONENT_ARTIFACT_ROOT/cores/`.
 
-.<root key>.assets.[]
-  This is an array of objects containing any data that should be copied out of the current asset into '$COMPONENT_ARTIFACT_ROOT'.
+---
 
-.<root key>.assets.[{<asset obj>.type}]
-  Currently supported asset types are:
+## Why This Verbose Multi‑Object Approach?
 
-    - file (A single file, to be copied from one location to another)
-    - dir (A directory, which will be entirely copied from one location to another)
+- **Fine‑grained control:** Each object can specify its own assets, libraries, and extras, ensuring precise handling of files.  
+- **Avoids conflicts:** Prevents issues where a parent archive contains multiple files with the same extensions (blob‑matching problems).  
+- **Flexibility:** Different classes of files (assets, libs, etc.) can originate from distinct sources, allowing consistent and reproducible builds.  
 
-.<root key>.assets.[{<asset obj>.source}]
-  A relative path used as the source for asset file(s) to be copied from.
-  The 'source' path is always relative to '$EXTRACTED_PATH' for the current extracted source. A value of 'usr/bin' will pull files from '$EXTRACTED_PATH/usr/bin'.
-
-.<root key>.assets.[{<asset obj>.dest}]
-  A relative path used as the destination for asset file(s) to be copied to.
-  The 'dest' path is always relative to '$COMPONENT_ARTIFACT_ROOT'. A value of 'bin' will copy the file(s) to '$COMPONENT_ARTIFACT_ROOT/bin'.
-
-.<root key>.libs.[]
-  This is an array of objects containing any libraries that should be gathered for the current component.
-  It is highly recommended to use the hunt_libraries.sh script in order to bootstrap this array, as the contents from the output of that script can be pasted directly into a recipe in this 'libs' section.
-
-.<root key>.libs.[{<lib obj>.library}]
-  The name of the library to be gathered. In order to gather all associated versioned links for the given library, the gathering process strips the file to the extension, meaning that 'libName.so.1.2.3' will actually be gathering 'libName.so*'.
-
-.<root key>.libs.[{<lib obj>.runtime_name}]
-  This is an optional key containing the name of the Flatpak runtime that the library should be gathered from.
-  If this key is provided, the 'runtime_version' key is also required and the 'source' key becomes unnecessary.
-
-.<root key>.libs.[{<lib obj>.runtime_version}]
-  This is an optional key containing the version of the Flatpak runtime that the library should be gathered from.
-  If this key is provided, the 'runtime_name' key is also required and the 'source' key becomes unnecessary.
-
-.<root key>.libs.[{<lib obj>.source}]
-  This is an optional key containing the relative path used to gather this library file.
-  The path is relative to '$EXTRACTED_PATH', so if a path of 'usr/lib' is provided, the library will be looked for at '$EXTRACTED_PATH/usr/lib/<library name>'.
-  If the 'runtime_name' and 'runtime_version' keys are not provided for this object, this key becomes required.
-
-.<root key>.libs.[{<lib obj>.dest}]
-  This is the relative path to store this library at in the final artifact.
-  The path is relative to '$COMPONENT_ARTIFACT_ROOT', and additional paths are created for objects using the 'runtime_name' and 'runtime_version' keys.
-  If Flatpak-related keys are provided, the 'dest' path provided is expanded to '$COMPONENT_ARTIFACT_ROOT/<dest>/<runtime_name>/<runtime_version>/<library name>'.
-  If a 'source' key is provided, the 'dest' path is expanded to '$COMPONENT_ARTIFACT_ROOT/<dest>/<library name>'.
-
-.<root key>.extras.[]
-  This is an array of objects containing any extras that should be included in the final artifact.
-
-.<root key>.extras.[{<extra obj>.type}]
-  Current supported extras types are:
-
-    - dir (A directory that should be gathered from the build host. Used to gather directories from locations such as the component git repo)
-    - file (A file that should be gathered from the build host. Used to gather files from locations such as the component git repo)
-    - symlink (Create a prepared symlink to be included with the component artifact)
-    - create (Create a new file to be included with the component artifact, optionally with a content string)
-
-.<root key>.extras.[{<extra obj>.source}]
-  This is a semi-optional key where the value will be used to define a specific source, depending on the 'type' used.
-  The key is required for all types except for 'create'.
-  The currently supported 'source' values for different extra 'type' are:
-
-    - 'dir' : An absolute or relative path to use as the source directory for the extra. The directory will be copied entirely to the 'dest'. If a relative path is provided, it will be expanded to '$WORKDIR/<source>/'.
-    - 'file' : An absolute or relative path to use as the source file for the extra. If a relative path is provided, it will be expanded to '$WORKDIR/<source>'.
-    - 'symlink' : An absolute or relative path to use as the link creation location for ths symlink. If a relative path is provided, it will be expanded to '$COMPONENT_ARTIFACT_ROOT/<source>'.
-    - 'create' : The 'source' key can be omitted for 'create' type extras.
-
-.<root key>.extras.[{<extra obj>.dest}]
-  This is the relative path where the extra will be copied, created or linked.
-  The currently supported 'dest' values for different extra 'type' are:
-
-    - 'dir' : A relative path to where the extra directory should be copied to. The path is relative to '$COMPONENT_ARTIFACT_ROOT', so a provided 'dest' will be expanded to '$COMPONENT_ARTIFACT_ROOT/<dest>/'.
-    - 'file' : A relative path to where the extra file should be copied to. The path is relative to '$COMPONENT_ARTIFACT_ROOT', so a provided 'dest' will be expanded to '$COMPONENT_ARTIFACT_ROOT/<dest>'.
-    - 'symlink' : An absolute path to where the created symlink should be pointed. As these paths may not exist during creation and are being prepared for the Flatpak environment, make sure your 'dest' path is valid within that environment.
-    - 'create' : A relative path to where the created file should be made. The path is relative to '$COMPONENT_ARTIFACT_ROOT', so a provided dest will be expanded to '$COMPONENT_ARTIFACT_ROOT/<dest>'.
-
-.<root key>.extras.[{<extra obj>.contents}]
-  This is an optional key, used only for the 'create' extra 'type'.
-  The value of this key will be echoed into the created file.
+By processing each source object sequentially, the Alchemist maintains strict control over every step, guaranteeing deterministic results across builds.
 
 
-Reusable Envronmental Variable Reference:
 
-$REPO_ROOT
-  If the alchemist.sh script is called from within a git-cloned repo, this is set to the root path of that repo. If the script is called from elsewhere, this is set to the location the script was called from.
+# Valid Key‑Value Reference for Component Recipes
 
-$WORKDIR
-  The working directory for the current component artifact creation. This will include any downloaded sources, extracted files as well as the final artifact temporary directory which will be compressed at the end of the Alchemist work.
-  The $WORKDIR can be set by passing an argument to the alchemist.sh script, or will be defaulted to the value of the $DEFAULT_WORKDIR variable, which is set in the defaults.sh script.
+## Root
 
-$COMPONENT_NAME
-  This is the name string of the currently-processing component recipe. This string should match the name of the component directory in the components repo for simplicity and reusability.
+- **Root key** – Component name. Assigned to `$COMPONENT_NAME`.
 
-$COMPONENT_ARTIFACT_ROOT
-  This shared variable stores the path to the final artifact directory, where all files that should be included in the artifact archive go.
-  The value of this path for every Alchemist run is '$WORKDIR/$COMPONENT_NAME-artifact'.
+## Source Definition
 
-$DOWNLOADED_FILE
-  This shared value stores the path to the most recently downloaded file. It is generally only referred to by the subsequent extraction stage.
-  The value of this variable is provided by the download.sh script plugin used to download the file, in the form of the output of the line 'echo "DOWNLOADED_FILE=<download path>"' from a downloader plugin which is then read by alchemist.sh.
+| Key | Description |
+|-----|-------------|
+| `source_url` | Any HTTP(S) URL, GitHub repo URL, or local path. Supports `{VERSION}` placeholder. Relative local paths expand to `$WORKDIR/`. |
+| `source_type` | Supported types:<br>• `http` – Normal web download (redirects allowed)<br>• `github-release` – GitHub releases (uses API for `latest`)<br>• `git` – Clone a repo<br>• `flatpak-id` – Download a Flatpak from Flathub<br>• `local` – Existing file on the host (used for nested archives) |
+| `version` | Required for all types except `local`. Substituted for `{VERSION}` in `source_url`.<br>• `http` / `github-release` – Specific version string (or `latest` for GitHub)<br>• `git` – Commit hash<br>• `flatpak-id` – Flatpak commit hash |
+| `dest` *(optional)* | Absolute destination for download/extraction. Defaults to `$WORKDIR`. For `flatpak-id` it also selects install scope (`user` / `system`). |
 
-$EXTRACTED_PATH
-  This shared value stores the path to the most recently extracted archive. It is generally only referred to by the subsequent assembly stage, which gathers required files from that archive.
-  The value of this variable is provided by the extract.sh script plugin used to extract the file, in the form of the output of the line 'echo "EXTRACTED_PATH=<extracted path>"' from an extractor plugin and then read by alchemist.sh.
-  In the case of a "local" extraction (which does not involve any actually compressed files, such as for local or flatpak sources), a dummy plugin is used to return the same path as was provided by the downloader.
+## Extraction
 
-$FLATPAK_USER_ROOT
-  This is a default value to denote the path to the "user" install location for Flatpaks (typically '$HOME/.local/share/flatpak/app'). This value is defined in the defaults.sh file and can be adjusted to as needed depending on the environment.
+| Key | Description |
+|-----|-------------|
+| `extraction_type` | Supported methods:<br>• `appimage` – Extract AppImage (`$EXTRACTED_PATH` = `<dest>/<AppImage‑name>-extracted`)<br>• `archive` – Extract any archive (`$EXTRACTED_PATH` = `<dest>/<archive‑name>-extracted`)<br>• `local` / `git` / `flatpak` – Dummy plugins returning `$DOWNLOADED_FILE` as `$EXTRACTED_PATH` |
 
-$FLATPAK_SYSTEM_ROOT
-  This is a default value to denote the path to the "system" install location for Flatpaks (typically '/var/lib/flatpak/app'). This value is defined in the defaults.sh file and can be adjusted to as needed depending on the environment.
+## Additional Sources
 
-$FLATPAK_DEFAULT_INSTALL_MODE
-  This sets the default install "mode" used for local Flatpak installed. It defaults to 'user' as 'system' mode installs may require sudo depending on the environment.
+- `additional_sources` – Array of objects, each with the same keys as the core recipe (allows nested archives, multi‑step builds).
 
-$FLATHUB_REPO
-  This is the current repo for the Flathub distribution system (currently 'https://flathub.org/repo/flathub.flatpakrepo'). Can be adjusted as needed if the default repo ever changes.
-  This repo is validated to be configured any time a Flatpak install is attempted.
+## Assets
 
-$DESIRED_VERSIONS
-  This is the path to the included 'desired_versions.sh' script, which contains a catalog of all the desired versions for all components. It is used to translate variable placeholders in component recpies.
-  This desired_versions.sh catalog can be overridden for a specific alchemist.sh script run using an input argument. The intention of this so that a 'stable' set of versions can be maintaned and a 'beta' set of versions can be tested against as needed. 
+- `assets[]` – Items to copy from the extracted source into the final artifact.
+
+| Sub‑key | Meaning |
+|---------|----------|
+| `type` | `file` or `dir` |
+| `source` | Path **relative to** `$EXTRACTED_PATH` (e.g., `usr/bin`). |
+| `dest` | Path **relative to** `$COMPONENT_ARTIFACT_ROOT` (e.g., `bin`). |
+
+## Libraries
+
+- `libs[]` – Libraries to gather for the component.
+
+| Sub‑key | Meaning |
+|---------|----------|
+| `library` | Library name (e.g., `libQt6Widgets.so.6`). The collector strips to the base (`libQt6Widgets.so*`). |
+| `runtime_name` *(optional)* | Flatpak runtime name (requires `runtime_version`). |
+| `runtime_version` *(optional)* | Runtime version (requires `runtime_name`). |
+| `source` *(optional)* | Path **relative to** `$EXTRACTED_PATH` if not using a runtime. |
+| `dest` | Destination **relative to** `$COMPONENT_ARTIFACT_ROOT`. When a runtime is specified, expands to `$COMPONENT_ARTIFACT_ROOT/<runtime_name>/<runtime_version>/`. Otherwise expands to `$COMPONENT_ARTIFACT_ROOT/`. |
+
+> **Tip:** Use `hunt_libraries.sh` to auto‑generate the `libs[]` array.
+
+## Extras
+
+- `extras[]` – Additional items to include in the final artifact.
+
+| Sub‑key | Meaning |
+|---------|----------|
+| `type` | `dir`, `file`, `symlink`, or `create`. |
+| `source` *(semi‑optional)* | Depends on `type`:<br>• `dir` / `file` – Absolute or relative path (relative expands to `$WORKDIR/`).<br>• `symlink` – Path where the symlink will be created (relative expands to `$COMPONENT_ARTIFACT_ROOT/`).<br>• `create` – Omitted. |
+| `dest` | Destination **relative to** `$COMPONENT_ARTIFACT_ROOT` for `dir`, `file`, and `create`. For `symlink` it is an absolute target path. |
+| `contents` *(optional, only for `create`)* | Text to write into the newly created file. |
+
+## Summary Workflow
+
+1. **Read** `component_recipe.json`.  
+2. **Identify** root component name → `$COMPONENT_NAME`.  
+3. **Iterate** over core source + any `additional_sources` in order.  
+   - Download according to `source_type` & `version`.  
+   - Extract using `extraction_type`.  
+   - Gather `assets`, `libs`, and `extras` as defined.  
+4. **Compress** the resulting `*-artifact` directory for distribution.
+
+# Reusable Environmental Variable Reference
+
+## Core Paths
+
+- **`$REPO_ROOT`**  
+  - Set to the root of the git‑cloned repository if `alchemist.sh` is invoked inside one.  
+  - Otherwise, defaults to the directory from which the script is called.
+
+- **`$WORKDIR`**  
+  - Working directory for the current component build.  
+  - Holds downloaded sources, extracted files, and the temporary artifact directory.  
+  - Can be overridden via an argument to `alchemist.sh`; otherwise falls back to `$DEFAULT_WORKDIR` defined in `defaults.sh`.
+
+- **`$COMPONENT_NAME`**  
+  - Name of the component currently being processed.  
+  - Should match the component directory name in the components repository for consistency.
+
+- **`$COMPONENT_ARTIFACT_ROOT`**  
+  - Path to the final artifact directory where all files destined for the archive are placed.  
+  - Computed as: `"$WORKDIR/$COMPONENT_NAME-artifact"`.
+
+## Download & Extraction Helpers
+
+- **`$DOWNLOADED_FILE`**  
+  - Stores the full path of the most recently downloaded file.  
+  - Populated by the `download.sh` plugin (via `echo "DOWNLOADED_FILE=..."`).
+
+- **`$EXTRACTED_PATH`**  
+  - Stores the full path of the most recently extracted archive.  
+  - Populated by the `extract.sh` plugin (via `echo "EXTRACTED_PATH=..."`).  
+  - For `local` extractions (no real archive), a dummy plugin returns the same path as `$DOWNLOADED_FILE`.
+
+## Flatpak‑Related Variables
+
+- **`$FLATPAK_USER_ROOT`** – Default user‑install location (`$HOME/.local/share/flatpak/app`). Defined in `defaults.sh`.  
+- **`$FLATPAK_SYSTEM_ROOT`** – Default system‑install location (`/var/lib/flatpak/app`). Defined in `defaults.sh`.  
+- **`$FLATPAK_DEFAULT_INSTALL_MODE`** – Default install mode for Flatpak packages (`user`). System mode may require `sudo`.  
+- **`$FLATHUB_REPO`** – URL of the Flathub repository (`https://flathub.org/repo/flathub.flatpakrepo`). Adjust if the repo changes.
+
+## Version Management
+
+- **`$DESIRED_VERSIONS`**  
+  - Path to the `desired_versions.sh` script containing the catalog of desired component versions.  
+  - Used to resolve version placeholders in component recipes.  
+  - Can be overridden per `alchemist.sh` run via an input argument, enabling separate “stable” and “beta” version sets.

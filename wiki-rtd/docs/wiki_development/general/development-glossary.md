@@ -136,13 +136,15 @@ Lets users add certain specific legacy AppImages to RetroDECK and integrates the
 
 <img src="../../../wiki_icons/retrodeck/icon-assembler.svg" width="50">
 
-The `RetroDECK Assembler` is just the building engine part of the `RetroDECK Framework`.
+The `RetroDECK Assembler` is the total sum of the building engine part of the `RetroDECK Framework`.
 
-- It builds all aspects of RetroDECK.
+- It builds RetroDECK into a flatpak.
 - Packages them into official RetroDECK releases in various repositories.
 - Publishes the final builds for distribution on Flathub Stable channels.
 
-**Read more here:**
+#### RetroDECK Alchemist
+
+The `RetroDECK Alchemist` is the part of the `RetroDECK Assembler` that handles everything to do with component sourcing and building.
 
 ### Library Gather & Library Hunter
 
@@ -182,7 +184,7 @@ A component is a complete packaged executable of a:
 - System
 - RetroDECK: Feature & Functions
 
-They are built via a `recipe.sh` (the **Recipe**) that pulls and compiles the original source.
+They are built via a `component_recipe.sh` (the **Recipe**) that pulls and compiles the original source.
 
 A component includes **Component Ingredient Files** that tell RetroDECK how to use it.
 
@@ -242,7 +244,7 @@ Directs RetroDECK’s build automation on how to transform a component’s origi
 
 **Note** 
 
-`recipe.sh` is used only during the build process and is **not** shipped with the final component package.
+`component_recipe.sh` is used only during the build process and is **not** shipped with the final component package.
 
 ## Component Ingredient Files (a.k.a. “Ingredients”)
 
@@ -267,4 +269,3 @@ Provide the RetroDECK framework with all the metadata, scripts, and library info
 | **component_functions.sh** | Declares config‑file paths and component‑specific helper functions (e.g., firmware install, configurator actions). |
 | **component_manifest.json** | Stores metadata and functional data for RetroDECK: name, description, supported systems, menu entries, preset options, actions, and optional core info. |
 | **component_prepare.sh** | Handles one‑time setup: reset configs, prepare directories, move/backup data, and apply post‑move tweaks. |
-| **component_libs.json** | Auto‑generated list of required libraries by `Library Gatherer`:  `shared_libs`, internal, or manual; used by `Library Hunter` to "hunt down" them in the final build. |

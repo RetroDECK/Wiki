@@ -141,7 +141,7 @@ Is everything working?
 
 ---
 
-## Step 5: Creating Component: Ingredient Files
+## Step 4: Creating Component: Ingredient Files
 
 You now will need to move on to the next step:
 

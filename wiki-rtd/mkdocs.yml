@@ -389,15 +389,21 @@ nav:
 
   - RetroDECK Development (W.I.P) 🧪:
 
-    - Development Glossary: wiki_development/general/development-glossary.md
-    - CLI Guide: wiki_development/general/cli-guide.md
-    - Debugging: wiki_development/general/debug-mode.md
-    - Global Variables List: wiki_development/general/global-variables.md
-    - RetroDECK Flatpak Folders: wiki_development/general/folders-filepaths.md
-    - RetroDECK Libraries: wiki_development/general/retrodeck-libraries.md
-    - RetroDECK API Development: wiki_development/api/about-api-development.md
+    - Development General:
+      - Development Glossary: wiki_development/general/development-glossary.md
+      - CLI Guide: wiki_development/general/cli-guide.md
+      - Debugging: wiki_development/general/debug-mode.md
+      - .bashrc Alias: wiki_development/general/bashrc-alias.md
+      - Editing MIME Types: wiki_development/general/edit-mime.md
+      - Steam Input: wiki_development/general/steam-input.md
 
-    - RetroDECK API Requests:
+    - Development Structures and Lists:
+      - Global Variables List: wiki_development/general/global-variables.md
+      - RetroDECK Flatpak Folders & Filepaths: wiki_development/general/folders-filepaths.md
+      - RetroDECK Library Structure: wiki_development/general/retrodeck-library-structure.md
+
+    - RetroDECK API:
+      - RetroDECK API Development: wiki_development/api/about-api-development.md
       - DO cheevos_login: wiki_development/api/do-cheevos-login.md
       - DO compress_games: wiki_development/api/do-compress-games.md
       - DO install: wiki_development/api/do-install.md
@@ -423,7 +429,7 @@ nav:
 
     - Components Alchemist & Component Recipe:
       - Guide - RetroDECK Alchemist & component_recipe.json: wiki_development/components/alchemist/component-alchemist-guide.md
-      - EXAMPLE component_recipe - Azahar: wiki_development/components/alchemist/recipe-example-azahar.md
+      - EXAMPLE component_recipe - Azahar - GitHub source: wiki_development/components/alchemist/recipe-example-azahar.md
       - TEMPLATE component_recipe - Web source: wiki_development/components/alchemist/recipe-template-web.md
       - TEMPLATE component_recipe - Web nested source: wiki_development/components/alchemist/recipe-template-web-nested.md
       - TEMPLATE component_recipe - Web multi source: wiki_development/components/alchemist/recipe-template-web-multi.md
@@ -444,11 +450,6 @@ nav:
     - Flatpak:
       - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
       - Flathub Publication: wiki_development/flatpak/flathub-publication.md
-
-    - Development Other:
-      - .bashrc Alias: wiki_development/general/bashrc-alias.md
-      - Editing MIME Types: wiki_development/general/edit-mime.md
-      - Steam Input: wiki_development/general/steam-input.md
 
     - Testing:
       - Cooker Testing - Guide: wiki_development/testing/cooker-testing.md
@@ -473,5 +474,3 @@ nav:
 
     - Yuzu (Archive):
       - Yuzu - General Guide: wiki_archive/yuzu/yuzu-guide.md
-
-

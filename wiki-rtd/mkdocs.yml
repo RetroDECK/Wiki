@@ -387,7 +387,7 @@ nav:
     - Launch External Emulators: wiki_experiments/external-emulator/external-emulator.md
     - Run RetroDECK in WSL:  wiki_experiments/retrodeck-wsl/retrodeck-wsl.md
 
-  - RetroDECK Development (W.I.P) 🧪:
+  - RetroDECK Development 🧪:
 
     - Development General:
       - Development Glossary: wiki_development/general/development-glossary.md
@@ -427,7 +427,7 @@ nav:
       - Step 3 - Component Recipe & Ingredients: wiki_development/components/component-guide/creating-components-ingredients-guide.md
       - Step 4 - Component Add to ES-DE: wiki_development/components/component-guide/component-add-to-es-de.md
 
-    - Components Alchemist & Component Recipe:
+    - Component Alchemist & Component Recipe:
       - Guide - RetroDECK Alchemist & component_recipe.json: wiki_development/components/alchemist/component-alchemist-guide.md
       - EXAMPLE component_recipe - Azahar - GitHub source: wiki_development/components/alchemist/recipe-example-azahar.md
       - TEMPLATE component_recipe - Web source: wiki_development/components/alchemist/recipe-template-web.md
@@ -436,14 +436,13 @@ nav:
       - TEMPLATE component_recipe - GitHub source: wiki_development/components/alchemist/recipe-template-github.md
       - TEMPLATE component_recipe - Flathub source: wiki_development/components/alchemist/recipe-template-flathub.md
 
-
     - Components Ingredient Files:
       - component_functions.sh: wiki_development/components/component-files/component-ingredient-functions.md
       - component_launcher.sh: wiki_development/components/component-files/component-ingredient-launcher.md
       - component_manifest.json: wiki_development/components/component-files/component-ingredient-manifest.md
       - component_prepare.sh: wiki_development/components/component-files/component-ingredient-prepare.md
 
-    - RetroDECK Functions:
+    - RetroDECK Tools & Functions:
       - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md
       - Compression: wiki_development/functions/compression.md
 

@@ -7,28 +7,6 @@
         "source_type": "http",
         "version": "$COMPONENT_DESIRED_VERSION",
         "extraction_type": "archive",
-        "additional_sources": [
-            {
-                "source_url": "https://url.to.other.source/{VERSION}/archive2.zip",
-                "source_type": "http",
-                "version": "$COMPONENT_OTHER_DESIRED_VERSION",
-                "extraction_type": "archive",
-                "assets": [
-                    {
-                        "type": "dir",
-                        "source": "share/cores",
-                        "dest": "cores"
-                    }
-                ],
-                "libs": [
-                    {
-                        "library": "runtimeLib2.so.6",
-                        "source": "libs",
-                        "dest": "shared-libs"
-                    }
-                ]
-            }
-        ],
         "assets": [
             {
                 "type": "dir",
@@ -39,6 +17,26 @@
         "libs": [
             {
                 "library": "runtimeLib1.so.6",
+                "source": "libs",
+                "dest": "shared-libs"
+            }
+        ]
+    },
+    {
+        "source_url": "https://url.to.other.source/{VERSION}/archive2.zip",
+        "source_type": "http",
+        "version": "$COMPONENT_OTHER_DESIRED_VERSION",
+        "extraction_type": "archive",
+        "assets": [
+            {
+                "type": "dir",
+                "source": "share/cores",
+                "dest": "cores"
+            }
+        ],
+        "libs": [
+            {
+                "library": "runtimeLib2.so.6",
                 "source": "libs",
                 "dest": "shared-libs"
             }

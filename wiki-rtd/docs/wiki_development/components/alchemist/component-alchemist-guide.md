@@ -93,70 +93,70 @@ All `component_recipe.json` contain at least four parts:
 
 ```
 {
-  "azahar": {
-    "source_url": "https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage",
-    "source_type": "github-release",
-    "version": "$AZAHAR_DESIRED_VERSION",
-    "extraction_type": "appimage",
-    "assets": [
-      {
-        "type": "dir",
-        "source": "usr/bin",
-        "dest": "bin"
-      }
-    ],
-    "libs": [
-      {
-        "library": "libQt6Widgets.so.6",
-        "runtime_name": "org.kde.Platform",
-        "runtime_version": "6.9",
-        "dest": "shared-libs"
-      },
-      {
-        "library": "libQt6Gui.so.6",
-        "runtime_name": "org.kde.Platform",
-        "runtime_version": "6.9",
-        "dest": "shared-libs"
-      },
-      {
-        "library": "libQt6Core.so.6",
-        "runtime_name": "org.kde.Platform",
-        "runtime_version": "6.9",
-        "dest": "shared-libs"
-      },
-      {
-        "library": "libQt6Multimedia.so.6",
-        "runtime_name": "org.kde.Platform",
-        "runtime_version": "6.9",
-        "dest": "shared-libs"
-      },
-      {
-        "library": "libQt6Network.so.6",
-        "runtime_name": "org.kde.Platform",
-        "runtime_version": "6.9",
-        "dest": "shared-libs"
-      },
-      {
-        "library": "libQt6DBus.so.6",
-        "runtime_name": "org.kde.Platform",
-        "runtime_version": "6.9",
-        "dest": "shared-libs"
-      },
-      {
-        "library": "libQt6Concurrent.so.6",
-        "runtime_name": "org.kde.Platform",
-        "runtime_version": "6.9",
-        "dest": "shared-libs"
-      }
-    ],
-    "extras": [
-      {
-        "type": "dir",
-        "source": "$REPO_ROOT/$component_name",
-        "dest": "$COMPONENT_ARTIFACT_ROOT"
-      }
-    ]
-  }
+    "azahar": {
+        "source_url": "https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage",
+        "source_type": "github-release",
+        "version": "$AZAHAR_DESIRED_VERSION",
+        "extraction_type": "appimage",
+        "assets": [
+            {
+                "type": "dir",
+                "source": "usr/bin",
+                "dest": "bin"
+            }
+        ],
+        "libs": [
+            {
+                "library": "libQt6Widgets.so.6",
+                "runtime_name": "org.kde.Platform",
+                "runtime_version": "6.9",
+                "dest": "shared-libs"
+            },
+            {
+                "library": "libQt6Gui.so.6",
+                "runtime_name": "org.kde.Platform",
+                "runtime_version": "6.9",
+                "dest": "shared-libs"
+            },
+            {
+                "library": "libQt6Core.so.6",
+                "runtime_name": "org.kde.Platform",
+                "runtime_version": "6.9",
+                "dest": "shared-libs"
+            },
+            {
+                "library": "libQt6Multimedia.so.6",
+                "runtime_name": "org.kde.Platform",
+                "runtime_version": "6.9",
+                "dest": "shared-libs"
+            },
+            {
+                "library": "libQt6Network.so.6",
+                "runtime_name": "org.kde.Platform",
+                "runtime_version": "6.9",
+                "dest": "shared-libs"
+            },
+            {
+                "library": "libQt6DBus.so.6",
+                "runtime_name": "org.kde.Platform",
+                "runtime_version": "6.9",
+                "dest": "shared-libs"
+            },
+            {
+                "library": "libQt6Concurrent.so.6",
+                "runtime_name": "org.kde.Platform",
+                "runtime_version": "6.9",
+                "dest": "shared-libs"
+            }
+        ],
+        "extras": [
+            {
+                "type": "dir",
+                "source": "$REPO_ROOT/$component_name",
+                "dest": "$COMPONENT_ARTIFACT_ROOT"
+            }
+        ]
+    }
 }
 ```
 
@@ -216,8 +216,6 @@ An array of objects defining extra content to be gathered or created for the fin
 ## Nested Archives & additional_sources
 
 - A *nested archive* creates a new archive that also needs extraction.  
-- Control the order of extraction via the `additional_sources` array.  
-- `additional_sources` is an array of objects that contain the same keys and arrays as the **core** recipe.  
 - Objects are processed **in the order they appear** in the recipe, allowing later sources to depend on earlier ones.
 
 ### Simplified Example: Extracting a Nested Archive
@@ -229,36 +227,33 @@ An array of objects defining extra content to be gathered or created for the fin
     "source_type": "http",
     "version": "1.21.0",
     "extraction_type": "archive",
-    "additional_sources": [
+  },
+  {
+    "source_url": "RetroArch.7z-extracted/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage",
+    "source_type": "local",
+    "extraction_type": "appimage",
+    "assets": [
       {
-        "source_url": "RetroArch.7z-extracted/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage",
-        "source_type": "local",
-        "extraction_type": "appimage",
-        "assets": [
-          {
-            "type": "dir",
-            "source": "usr/bin",
-            "dest": "bin"
-          }
-        ]
-      },
+        "type": "dir",
+        "source": "usr/bin",
+        "dest": "bin"
+      }
+    ]
+  },
+  {
+    "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
+    "source_type": "http",
+    "version": "1.21.0",
+    "extraction_type": "archive",
+    "assets": [
       {
-        "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
-        "source_type": "http",
-        "version": "1.21.0",
-        "extraction_type": "archive",
-        "assets": [
-          {
-            "type": "dir",
-            "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
-            "dest": "cores"
-          }
-        ]
+        "type": "dir",
+        "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
+        "dest": "cores"
       }
     ]
   }
 }
-
 ```
 
 **Explanation**
@@ -267,7 +262,7 @@ An array of objects defining extra content to be gathered or created for the fin
 2. **First additional source** – Treats the already‑extracted AppImage (`RetroArch-Linux-x86_64.AppImage`) as a *local* source, extracts it, and copies its `usr/bin` directory to the artifact’s `bin` folder.  
 3. **Second additional source** – Downloads a second archive (`RetroArch_cores.7z`), extracts it, and copies the cores directory into the artifact’s `cores` folder.
 
-By ordering the `additional_sources` array this way, the Alchemist ensures that each step has the necessary data from the previous step before proceeding.
+By ordering the additional sources array this way, the Alchemist ensures that each step has the necessary data from the previous step before proceeding.
 
 
 ### Object 1 - Core Archive (downloaded)
@@ -293,16 +288,16 @@ By ordering the `additional_sources` array this way, the Alchemist ensures that 
 
 ```
 {
-  "source_url": "RetroArch.7z-extracted/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage",
-  "source_type": "local",
-  "extraction_type": "appimage",
-  "assets": [
-    {
-      "type": "dir",
-      "source": "usr/bin",
-      "dest": "bin"
-    }
-  ]
+    "source_url": "RetroArch.7z-extracted/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage",
+    "source_type": "local",
+    "extraction_type": "appimage",
+    "assets": [
+        {
+            "type": "dir",
+            "source": "usr/bin",
+            "dest": "bin"
+        }
+    ]
 }
 ```
 
@@ -321,17 +316,17 @@ By ordering the `additional_sources` array this way, the Alchemist ensures that 
 
 ```
 {
-  "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
-  "source_type": "http",
-  "version": "1.21.0",
-  "extraction_type": "archive",
-  "assets": [
-    {
-      "type": "dir",
-      "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
-      "dest": "cores"
-    }
-  ]
+    "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
+    "source_type": "http",
+    "version": "1.21.0",
+    "extraction_type": "archive",
+    "assets": [
+        {
+            "type": "dir",
+            "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
+            "dest": "cores"
+        }
+    ]
 }
 ```
 

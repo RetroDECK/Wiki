@@ -2,20 +2,22 @@
 
 ```
 {
-    "<component name>": {
-        "source_url": "<flatapak ID>",
-        "source_type": "flatpak_id",
-        "version": "$COMPONENT_DESIRED_VERSION",
-        "dest": "user",
-        "extraction_type": "flatpak",
-        "assets": {
-            "binary": {
-                "type": "dir",
-                "source": "bin",
-                "dest": "bin"
-            }
+  "<component name>": [
+    {
+      "source_url": "<flatapak ID>",
+      "source_type": "flatpak_id",
+      "version": "$COMPONENT_DESIRED_VERSION",
+      "dest": "user",
+      "extraction_type": "flatpak",
+      "assets": {
+        "binary": {
+          "type": "dir",
+          "source": "bin",
+          "dest": "bin"
         }
+      }
     }
+  ]
 }
 
 ```

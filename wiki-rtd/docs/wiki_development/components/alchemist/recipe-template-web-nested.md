@@ -1,46 +1,48 @@
-## Template: component_recipe.json - Web Nested
+## Template: component_recipe.json - Web Single Nested
 
 ```
 {
-    "<component name>": {
-        "source_url": "https://url.to.source/{VERSION}/archive1.zip",
-        "source_type": "http",
-        "version": "$COMPONENT_DESIRED_VERSION",
-        "extraction_type": "archive",
+  "<component name>": [
+    {
+      "source_url": "https://url.to.source/{VERSION}/archive1.zip",
+      "source_type": "http",
+      "version": "$COMPONENT_DESIRED_VERSION",
+      "extraction_type": "archive"
     },
     {
-        "source_url": "$EXTRACTED_PATH/component.AppImage",
-        "source_type": "local",
-        "extraction_type": "appimage",
-        "assets": [
-            {
-                "type": "dir",
-                "source": "usr/bin",
-                "dest": "bin"
-            }
-        ],
-        "libs": [
-            {
-                "library": "runtimeLib.so.6",
-                "runtime_name": "org.kde.Platform",
-                "runtime_version": "6.9",
-                "dest": "shared-libs"
-            }
-        ],
+      "source_url": "$EXTRACTED_ROOT/component.AppImage",
+      "source_type": "local",
+      "extraction_type": "appimage",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "usr/bin",
+          "dest": "bin"
+        }
+      ],
+      "libs": [
+        {
+          "library": "runtimeLib.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        }
+      ]
     },
     {
-        "source_url": "https://url.to.source/{VERSION}/archive-extras.zip",
-        "source_type": "http",
-        "version": "$COMPONENT_EXTRAS_DESIRED_VERSION",
-        "extraction_type": "archive",
-        "assets": [
-            {
-                "type": "dir",
-                "source": "files/other_files",
-                "dest": "some_more_files"
-            }
-        ]
+      "source_url": "https://url.to.source/{VERSION}/archive-extras.zip",
+      "source_type": "http",
+      "version": "$COMPONENT_EXTRAS_DESIRED_VERSION",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "files/other_files",
+          "dest": "some_more_files"
+        }
+      ]
     }
+  ]
 }
 
 ```

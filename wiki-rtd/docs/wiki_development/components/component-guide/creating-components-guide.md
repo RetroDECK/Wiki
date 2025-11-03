@@ -51,15 +51,12 @@ In rare cases, it may be beneficial to include a port directly in RetroDECK if o
 
 When multiple source formats are available for a component, prioritize them in the following order for ease of integration with RetroDECK:
 
-
 | Priority | Format              | Description                                                                 |
 |----------|---------------------|-----------------------------------------------------------------------------|
-| 1        | AppImage            | A portable, self-contained executable that runs without installation        |
-| 2        | Flatpak             | A sandboxed package format commonly used on Linux for app distribution      |
+| 1        | Flatpak             | A sandboxed package format commonly used on Linux for app distribution , published on flathub     |
+| 2       | AppImage            | A portable, self-contained executable that runs without installation        |
 | 3        | Precompiled Binary  | A ready-to-run executable built for a specific platform                     |
 | 4        | Build from Source   | Raw source code that must be compiled manually before use                   |
-
-
 
 ---
 

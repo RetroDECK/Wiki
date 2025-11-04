@@ -1,12 +1,14 @@
 # RetroDECK Alchemist & component_recipe.json
 
+## The RetroDECK Alchemist
+
 **The RetroDECK Alchemist**  (`alchemist.sh` builder) is a magician / chef / bartender who , when given the proper instruction, can transmute one or more base source ingredients into the perfect gem of a component artifact.
 
 *Alchemy* — *noun* — “A power or process that changes or transforms something in a mysterious or impressive way.”
 
 ---
 
-### Concistency
+### Tip 1: Concistency
 
 > **Garbage in, garbage out** – [Wikipedia](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out)
 
@@ -24,15 +26,7 @@ Only by pulling input from a **specific moment in time** can we guarantee consis
 Dynamic sources that use “latest” versions change without review, making them unreliable for reproducible builds.
 
 
-### TIP: TEMPLATES and EXAMPLES of component_recipe.json 
-
-On the wiki (next to this guide) we list some examples and templates of `component_recipe.json`.
-
-If you want to make a new one use them as your baseline.
-
-More examples will be added over time.
-
-### TIP: Component Source Format: What to Prioritize?
+### Tip 2: Component Source Format: What to Prioritize?
 
 When multiple source formats are available for a component, prioritize them in the following order for ease of integration with RetroDECK:
 
@@ -43,9 +37,17 @@ When multiple source formats are available for a component, prioritize them in t
 | 3        | Precompiled Binary  | A ready-to-run executable built for a specific platform                     |
 | 4        | Build from Source   | Raw source code that must be compiled manually before use                   |
 
+### Tip 3: TEMPLATES and EXAMPLES of component_recipe.json 
+
+On the wiki (next to this guide) we list some examples and templates of `component_recipe.json`.
+
+If you want to make a new one use them as your baseline.
+
+More examples will be added over time.
+
 ---
 
-## Repository Context
+### Repository Context
 
 - The `alchemist.sh` script is invoked from the `…/components` directory of the cloned repository:  
   <https://github.com/RetroDECK/components.git>

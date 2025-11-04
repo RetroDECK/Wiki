@@ -391,16 +391,18 @@ By processing each source object sequentially, the Alchemist maintains strict co
 
 ## Alchemist Execution Logic
 
+Take the Azahar example for above:
+
 1. **Component Name** – Set to `azahar`.  
-2. **Download URL** – `https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage`.  
-3. **Downloader Plugin** – `github-release` (selected via `source_type`).  
+2. **Download URL** – `org.azahar_emu.Azahar`.  
+3. **Downloader Plugin** – `flatpak_id` (selected via `source_type`).  
 4. **Version Resolution** – `$AZAHAR_DESIRED_VERSION` is read from `desired_versions.sh` (e.g., `export AZAHAR_DESIRED_VERSION="2123.3"`). This value replaces `{VERSION}` in the URL.  
 5. **Downloaded File Path** – Stored in `$DOWNLOADED_FILE`.  
-6. **Extraction Plugin** – `appimage`, applied to `$DOWNLOADED_FILE`.  
+6. **Extraction Plugin** – `flatpak`, applied to `$DOWNLOADED_FILE`.  
 7. **Extracted Destination** – Path returned in `$EXTRACTED_PATH`.  
 8. **Copy the full directory** from `$EXTRACTED_PATH/usr/bin` to `$COMPONENT_ARTIFACT_ROOT/bin`.  
 9. **Flatpak Runtime** – Install the required runtime (name and version) if it isn’t already present.  
-10. **Gather Library** – Retrieve `libQt6Widgets.so.6` from the specified Flatpak runtime and place it in the appropriate location within the artifact.  
+10. **Gather Library** – Retrieve `libQt6Widgets.so.6` from the specified Flatpak runtime and place it in the appropriate location within the artifact. 
 
 ### Alchemist Process Abstraction
 
@@ -457,3 +459,4 @@ azahar-artifact
 
 
 
+release

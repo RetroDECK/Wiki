@@ -93,70 +93,73 @@ All `component_recipe.json` contain at least four parts:
 
 ```
 {
-    "azahar": {
-        "source_url": "https://github.com/azahar-emu/azahar/releases/download/{VERSION}/*.AppImage",
-        "source_type": "github-release",
-        "version": "$AZAHAR_DESIRED_VERSION",
-        "extraction_type": "appimage",
-        "assets": [
-            {
-                "type": "dir",
-                "source": "usr/bin",
-                "dest": "bin"
-            }
-        ],
-        "libs": [
-            {
-                "library": "libQt6Widgets.so.6",
-                "runtime_name": "org.kde.Platform",
-                "runtime_version": "6.9",
-                "dest": "shared-libs"
-            },
-            {
-                "library": "libQt6Gui.so.6",
-                "runtime_name": "org.kde.Platform",
-                "runtime_version": "6.9",
-                "dest": "shared-libs"
-            },
-            {
-                "library": "libQt6Core.so.6",
-                "runtime_name": "org.kde.Platform",
-                "runtime_version": "6.9",
-                "dest": "shared-libs"
-            },
-            {
-                "library": "libQt6Multimedia.so.6",
-                "runtime_name": "org.kde.Platform",
-                "runtime_version": "6.9",
-                "dest": "shared-libs"
-            },
-            {
-                "library": "libQt6Network.so.6",
-                "runtime_name": "org.kde.Platform",
-                "runtime_version": "6.9",
-                "dest": "shared-libs"
-            },
-            {
-                "library": "libQt6DBus.so.6",
-                "runtime_name": "org.kde.Platform",
-                "runtime_version": "6.9",
-                "dest": "shared-libs"
-            },
-            {
-                "library": "libQt6Concurrent.so.6",
-                "runtime_name": "org.kde.Platform",
-                "runtime_version": "6.9",
-                "dest": "shared-libs"
-            }
-        ],
-        "extras": [
-            {
-                "type": "dir",
-                "source": "$REPO_ROOT/$component_name",
-                "dest": "$COMPONENT_ARTIFACT_ROOT"
-            }
-        ]
+  "azahar": [
+    {
+      "source_url": "org.azahar_emu.Azahar",
+      "source_type": "flatpak_id",
+      "version": "$AZAHAR_DESIRED_VERSION",
+      "dest": "user",
+      "extraction_type": "flatpak",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "usr/bin",
+          "dest": "bin"
+        }
+      ],
+      "libs": [
+        {
+          "library": "libQt6Widgets.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Gui.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Core.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Multimedia.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Network.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6DBus.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Concurrent.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        }
+      ],
+      "extras": [
+        {
+          "type": "dir",
+          "source": "$REPO_ROOT/$COMPONENT_NAME",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        }
+      ]
     }
+  ]
 }
 ```
 

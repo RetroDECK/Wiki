@@ -32,6 +32,17 @@ If you want to make a new one use them as your baseline.
 
 More examples will be added over time.
 
+### TIP: Component Source Format: What to Prioritize?
+
+When multiple source formats are available for a component, prioritize them in the following order for ease of integration with RetroDECK:
+
+| Priority | Format              | Description                                                                 |
+|----------|---------------------|-----------------------------------------------------------------------------|
+| 1        | Flatpak             | A sandboxed package format commonly used on Linux for app distribution , published on flathub     |
+| 2       | AppImage            | A portable, self-contained executable that runs without installation        |
+| 3        | Precompiled Binary  | A ready-to-run executable built for a specific platform                     |
+| 4        | Build from Source   | Raw source code that must be compiled manually before use                   |
+
 ---
 
 ## Repository Context

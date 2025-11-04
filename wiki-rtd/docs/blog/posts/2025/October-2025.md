@@ -102,50 +102,75 @@ We still have not decided the name for this as we want it to fit with the "magic
 
 
 ```
-
 {
-  "azahar": {
-    "version": "latest",
-    "type": "appimage",
-    "source_url": "https://github.com/azahar-emu/azahar/releases/latest/download/azahar.AppImage",
-    "archive": false,
-    "gather_libs": true,
-    "assets": {
-      "binary": {
-        "type": "dir",
-        "source": "/usr/bin",
-        "dest": "/bin"
-      }
-    },
-    "libs": [
-      {
-        "library": "libQt6Widgets.so.6",
-        "runtime_name": "org.kde.Platform",
-        "runtime_version": "6.9",
-        "dest": "shared-libs"
-      },
-      {
-        "library": "libgtk-4.so.1",
-        "runtime_name": "org.gnome.Platform",
-        "runtime_version": "44",
-        "dest": "shared-libs"
-      },
-      {
-        "library": "libaom.so.3",
-        "source": "squashfs-root/usr/lib",
-        "dest": "shared-libs"
-      }
-    ],
-    "extras": {
-      "rd_config": {
-        "type": "dir",
-        "source": "/rd_config",
-        "dest": "/rd_config"
-      }
+  "azahar": [
+    {
+      "source_url": "org.azahar_emu.Azahar",
+      "source_type": "flatpak_id",
+      "version": "$AZAHAR_DESIRED_VERSION",
+      "dest": "user",
+      "extraction_type": "flatpak",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "usr/bin",
+          "dest": "bin"
+        }
+      ],
+      "libs": [
+        {
+          "library": "libQt6Widgets.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Gui.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Core.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Multimedia.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Network.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6DBus.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Concurrent.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "shared-libs"
+        }
+      ],
+      "extras": [
+        {
+          "type": "dir",
+          "source": "$REPO_ROOT/$COMPONENT_NAME",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        }
+      ]
     }
-  }
+  ]
 }
-
 ```
 
 ### RetroDECK Alchemist: Plugin‑Based Component Assembler
@@ -167,7 +192,7 @@ The original assembler was monolithic. Refactoring it into a plugin system provi
 
 The Hunter & Gatherer scripts replaced the overly complex first POC Libman for easier library management ealier.
 
-####  New Gatherer Behaviour
+####  New Gatherer Behavior
 
 - Runtime libraries are copied into the unified hierarchy.
 - Custom/AppImage libraries are copied to the exact destination you declare.

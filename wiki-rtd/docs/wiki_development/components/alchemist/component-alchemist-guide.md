@@ -222,37 +222,39 @@ An array of objects defining extra content to be gathered or created for the fin
 
 ```
 {
-  "retroarch": {
-    "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch.7z",
-    "source_type": "http",
-    "version": "1.21.0",
-    "extraction_type": "archive",
-  },
-  {
-    "source_url": "RetroArch.7z-extracted/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage",
-    "source_type": "local",
-    "extraction_type": "appimage",
-    "assets": [
-      {
-        "type": "dir",
-        "source": "usr/bin",
-        "dest": "bin"
-      }
-    ]
-  },
-  {
-    "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
-    "source_type": "http",
-    "version": "1.21.0",
-    "extraction_type": "archive",
-    "assets": [
-      {
-        "type": "dir",
-        "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
-        "dest": "cores"
-      }
-    ]
-  }
+  "retroarch": [
+    {
+      "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch.7z",
+      "source_type": "http",
+      "version": "1.21.0",
+      "extraction_type": "archive"
+    },
+    {
+      "source_url": "RetroArch.7z-extracted/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage",
+      "source_type": "local",
+      "extraction_type": "appimage",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "usr/bin",
+          "dest": "bin"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
+      "source_type": "http",
+      "version": "1.21.0",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
+          "dest": "cores"
+        }
+      ]
+    }
+  ]
 }
 ```
 
@@ -287,17 +289,20 @@ By ordering the additional sources array this way, the Alchemist ensures that ea
 ### Object 2 - Local AppImage (extracted from the first archive)
 
 ```
-{
-    "source_url": "RetroArch.7z-extracted/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage",
-    "source_type": "local",
-    "extraction_type": "appimage",
-    "assets": [
+    {
+      "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
+      "source_type": "http",
+      "version": "1.21.0",
+      "extraction_type": "archive",
+      "assets": [
         {
-            "type": "dir",
-            "source": "usr/bin",
-            "dest": "bin"
+          "type": "dir",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
+          "dest": "cores"
         }
-    ]
+      ]
+    }
+  ]
 }
 ```
 

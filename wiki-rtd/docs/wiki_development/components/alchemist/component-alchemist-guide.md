@@ -2,13 +2,13 @@
 
 ## The RetroDECK Alchemist
 
-**The RetroDECK Alchemist**  (`alchemist.sh` builder) is a magician / chef / bartender who , when given the proper instruction, can transmute one or more base source ingredients into the perfect gem of a component artifact.
+**The RetroDECK Alchemist** is a magician / chef / bartender who , when given the proper instruction, can transmute one or more base source ingredients into the perfect gem of a component artifact .
 
 *Alchemy* — *noun* — “A power or process that changes or transforms something in a mysterious or impressive way.”
 
----
+(The `alchemist.sh` it is a Plugin‑Based Component Assembler).
 
-### Tip 1: Concistency
+**Concistency is important**
 
 > **Garbage in, garbage out** – [Wikipedia](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out)
 
@@ -25,27 +25,7 @@ To achieve a perfect output, the input must be equally well‑known.
 Only by pulling input from a **specific moment in time** can we guarantee consistency.  
 Dynamic sources that use “latest” versions change without review, making them unreliable for reproducible builds.
 
-
-### Tip 2: Component Source Format: What to Prioritize?
-
-When multiple source formats are available for a component, prioritize them in the following order for ease of integration with RetroDECK:
-
-| Priority | Format              | Description                                                                 |
-|----------|---------------------|-----------------------------------------------------------------------------|
-| 1        | Flatpak             | A sandboxed package format commonly used on Linux for app distribution , published on flathub     |
-| 2       | AppImage            | A portable, self-contained executable that runs without installation        |
-| 3        | Precompiled Binary  | A ready-to-run executable built for a specific platform                     |
-| 4        | Build from Source   | Raw source code that must be compiled manually before use                   |
-
-### Tip 3: TEMPLATES and EXAMPLES of component_recipe.json 
-
-On the wiki (next to this guide) we list some examples and templates of `component_recipe.json`.
-
-If you want to make a new one use them as your baseline.
-
-More examples will be added over time.
-
----
+(Be careful with versioning of components for stable builds).
 
 ### Repository Context
 
@@ -56,8 +36,37 @@ More examples will be added over time.
   - Otherwise, `$REPO_ROOT` defaults to the directory containing `alchemist.sh`.
 
 ---
+  
+## Creating a new componment_recipe.json tips
 
-## Parts of component_recipe.json
+### Tip 1: Component Source Format: What to Prioritize?
+
+When multiple source formats are available for a component, prioritize them in the following order for ease of integration with RetroDECK:
+
+| Priority | Format              | Description                                                                 |
+|----------|---------------------|-----------------------------------------------------------------------------|
+| 1        | Flatpak             | A sandboxed package format commonly used on Linux for app distribution , published on flathub     |
+| 2       | AppImage            | A portable, self-contained executable that runs without installation        |
+| 3        | Precompiled Binary  | A ready-to-run executable built for a specific platform                     |
+| 4        | Build from Source   | Raw source code that must be compiled manually before use                   |
+
+### Tip 2: TEMPLATES and EXAMPLES of component_recipe.json 
+
+On the wiki (next to this guide) we list some examples and templates of `component_recipe.json`.
+
+If you want to make a new one use them as your baseline.
+
+More examples will be added over time.
+
+### Tip 3: Hunt the libraries
+
+Use `hunt_libraries.sh` to auto‑generate the `libs[]` array.
+
+[Guide: Library Hunter & Gatherer]() <- W.I.P
+
+---
+
+## Structure of component_recipe.json
 
 All `component_recipe.json` contain at least four parts:
 
@@ -183,9 +192,9 @@ All `component_recipe.json` contain at least four parts:
 | Field               | Description |
 |---------------------|-------------|
 | **JSON root key**   | Defines the component name and creates the placeholder variable `$COMPONENT_NAME`. |
-| **source_url**      | `{SOURCE_URL}` – URL/path to download the source. Acceptable forms: direct HTTP(S) link, redirect, GitHub repo URL, or local filesystem path. Can contain a `{VERSION}` placeholder that will be replaced by the value of the `version` key. Relative local paths expand to `$WORKDIR/`. |
-| **source_type**     | `{SOURCE_TYPE}` – Determines which downloader plugin to use (e.g., `github-release`). |
-| **version**         | `{VERSION}` – Specific version to fetch. For non‑local sources, this replaces `{VERSION}` in `source_url`. For `local` sources, `latest` can be used if no version is required. Required for all types except `local`. Substituted for `{VERSION}` in `source_url`.<br>• `http` / `github-release` – Specific version string (or `latest` for GitHub)<br>• `git` – Commit hash<br>• `flatpak-id` – Flatpak commit hash  |
+| **source_url**      | `{SOURCE_URL}` – URL/path to download the source. Acceptable forms: direct HTTP(S) link, redirect, GitHub repo URL, flathub ID or local filesystem path. Can contain a `{VERSION}` placeholder that will be replaced by the value of the `version` key. Relative local paths expand to `$WORKDIR/`. |
+| **source_type**     | `{SOURCE_TYPE}` – Determines which downloader plugin to use <br>• - `flatpak-id` – Flathub ID  <br> - `github-release` - Github Releases <br> - `http` - Web download  |
+| **version**         | `{VERSION}` – Specific version to fetch. For non‑local sources, this replaces `{VERSION}` in `source_url`. For `local` sources, `latest` can be used if no version is required. Required for all types except `local`. Substituted for `{VERSION}` in `source_url`.<br>• `http` / `github-release` – Specific version string (or `latest` for GitHub) |
 | **extraction_type**| `{EXTRACTION_TYPE}` – Extraction plugin to apply to the downloaded file. Supported methods:<br>• `appimage` – Extract AppImage (`$EXTRACTED_PATH` = `<dest>/<AppImage‑name>-extracted`)<br>• `archive` – Extract any archive (`$EXTRACTED_PATH` = `<dest>/<archive‑name>-extracted`)<br>• `local` / `git` / `flatpak` – Dummy plugins returning `$DOWNLOADED_FILE` as `$EXTRACTED_PATH` |
 | **dest**| *(Optional)*  Absolute destination for download/extraction. Defaults to `$WORKDIR`. For `flatpak-id` it also selects install scope (`user` / `system`).|
 | **additional_sources**| *(Optional)* Array of extra source objects with the same structure, allowing multiple downloads to be processed similarly. |
@@ -205,7 +214,7 @@ Items to copy from the extracted source into the final artifact.
 
 Additional library objects are listed here, each processed identically to the previously described library entries.
 
-**Tip:** Use `hunt_libraries.sh` to auto‑generate the `libs[]` array.
+
 
 | Field               | Description |
 |---------------------|-------------|

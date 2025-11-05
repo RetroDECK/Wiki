@@ -176,7 +176,7 @@ We still have not decided the name for this as we want it to fit with the "magic
 ### RetroDECK Alchemist: Plugin‑Based Component Assembler
 
 
-<img src="../../../alchemist.png">
+<img src="../../../icon-alchemist.svg">
 
 The original assembler was monolithic. Refactoring it into a plugin system provides:
 
@@ -188,7 +188,7 @@ The original assembler was monolithic. Refactoring it into a plugin system provi
 
 ### Library Hunter & Gatherer
 
-<img src="../../../icon-assembler.svg" width="75"> 
+<img src="../../../icon-hunter.svg" width="75"> 
 
 The Hunter & Gatherer scripts replaced the overly complex first POC Libman for easier library management ealier.
 

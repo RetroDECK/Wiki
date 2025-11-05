@@ -164,7 +164,7 @@ We still have not decided the name for this as we want it to fit with the "magic
 ### RetroDECK Alchemist: Plugin‑Based Component Assembler
 
 
-<img src="../../../icon-alchemist.svg">
+<img src="../../../icon-alchemist.svg" width="75">
 
 The original assembler was monolithic. Refactoring it into a plugin system provides:
 

@@ -17,7 +17,6 @@ We also wish you a 🎃 Happy Halloween 🎃 for those that celebrate it.
 **News**
 
 - Lahrs joined the Team
-- SDHQ Podcast
 
 **RetroDECK 0.10.0b - Status**
 
@@ -45,17 +44,6 @@ He have also created artistic assets, most notably his collection of custom fold
 
 We are pleased to formally welcome Lahrs to the team.
 
-## SDHQ Podcast
-
-<img src="../../../sdhq-holographic-logo.svg" width="100"> 
-
-Some of the RetroDECK Team where invited to be guests at SDHQs Podcast.
-
-Marvel at Xargons broken Italian-Japanese-English dialect as he tries to pronounce hard words such as "Firmware" and "Pay".
-
-Enjoy Lazorne's stupid Swedish fika antics and semi breaking microphone.
-
-It will be available soonish over at the SDHQ site (we will add the link when it's posted).
 
 ## RetroDECK 0.10.0b - Status
 

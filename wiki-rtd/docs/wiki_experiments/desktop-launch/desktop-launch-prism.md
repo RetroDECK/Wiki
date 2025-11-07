@@ -10,6 +10,7 @@ This experiment was initiated by the users **murkl** and **Daeymon**. Then later
 
 These experiments are created by the RetroDECK Team and/or Community. The guides are intended for people with technical knowledge and a passion for tinkering. Using these guides *might* put RetroDECK and your data at risk. The RetroDECK Team can't provide any support for these experiments or fix any issues they might cause on your system or RetroDECK installation.
 
+
 ## Prerequisites
 
 ### Flatpak Spawn Permission
@@ -89,10 +90,29 @@ Name=Fabulously Optimized
 Icon=/var/home/deck/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/Fabulously Optimized/icon.png
 ```
 
-## The Last Step: Launch the Games via RetroDECK & Scrape
+## The Last Step: Launch the Games via RetroDECK 
 
 <img src="../windows-es-de.png" width="100">
 
 After the `.desktop` files have been created and everything is working as expected, RetroDECK will recognize the `.desktop` file the next time you start it. 
 
-The games will appear under the Windows tab in ES-DE. If you have named the games correctly, there is a good chance that the scraper will identify them.
+The games will appear under the Windows tab in ES-DE. 
+
+## Minecraft Tips
+
+### Controlify (Controller support)
+
+For a seamless experince on a handheld gaming device use the mod:
+
+[Controlify)](https://modrinth.com/mod/controlify)
+
+You can manually add it to your modpacks via (but more then often its already included).
+
+
+### Minecraft JVM Arguments & Optimizations
+
+[Minecraft JVM Arguments](https://github.com/Mukul1127/Minecraft-Java-Flags) 
+
+Mukul1127 has created a great GitHub page for various Java versions JVM arguments and Optimizations on how to make your Minecraft Java experience more performanant. 
+
+These can be added to Prism Launcher per Minecraft instance or Globally under `Settings` -> `Java` -> `JVM arguments`.

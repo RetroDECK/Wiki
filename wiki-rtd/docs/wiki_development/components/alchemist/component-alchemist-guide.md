@@ -125,8 +125,38 @@ All `component_recipe.json` contain at least four parts:
       "assets": [
         {
           "type": "dir",
-          "source": "usr/bin",
+          "source": "bin",
           "dest": "bin"
+        },
+        {
+          "type": "dir",
+          "source": "$REPO_ROOT/$COMPONENT_NAME",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "create",
+          "dest": "component_version",
+          "contents": "$SOURCE_VERSION"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_functions.sh",
+           "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_launcher.sh",
+           "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_manifest.json",
+           "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_prepare.sh",
+           "dest": "$COMPONENT_ARTIFACT_ROOT"
         }
       ],
       "libs": [
@@ -172,17 +202,11 @@ All `component_recipe.json` contain at least four parts:
           "runtime_version": "6.9",
           "dest": "shared-libs"
         }
-      ],
-      "extras": [
-        {
-          "type": "dir",
-          "source": "$REPO_ROOT/$COMPONENT_NAME",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
-        }
       ]
     }
   ]
 }
+
 ```
 
 ---
@@ -205,10 +229,10 @@ Items to copy from the extracted source into the final artifact.
 
 | Field               | Description |
 |---------------------|-------------|
-| **type**   | Defines whether the asset is a single file (`file`) or an entire directory (`dir`). |
+| **type** | Defines the kind of asset an entire directory `dir`, a single file `file`, to create a `symlink`, or `create` a file. | 
 | **source**       | Path to the desired file or directory, **relative to** the `$EXTRACTED_PATH` variable produced during the extraction stage (e.g., `usr/bin`). |
-| **dest**       | Path where the asset should be placed, **relative to** `$COMPONENT_ARTIFACT_ROOT` (e.g., `bin`). This determines the layout inside the final artifact archive. |
-
+| **dest**  | Destination **relative to** `$COMPONENT_ARTIFACT_ROOT` for `dir`, `file`, and `create`. For `symlink` it is an absolute target path. If relative, it expands to `$COMPONENT_ARTIFACT_ROOT/dest`. |
+| **contents**  | *(optional)* Allows inserting provided information directly into the destination file. |
 
 ### libs
 
@@ -223,18 +247,6 @@ Additional library objects are listed here, each processed identically to the pr
 | **runtime_version**       | *(Optional)* Specific version of the Flatpak runtime to target (requires `runtime_name`). |
 | **dest**       | Directory where the library should be placed, **relative to** `$COMPONENT_ARTIFACT_ROOT`.  When a runtime is specified, expands to `$COMPONENT_ARTIFACT_ROOT/<runtime_name>/<runtime_version>/`. Otherwise expands to `$COMPONENT_ARTIFACT_ROOT/`. |
 | **source**       | *(Optional)* If present, specifies a concrete source location for the library **relative to** `$EXTRACTED_PATH` if not using a runtime. Used when the library must be taken from a particular asset rather than a Flatpak runtime. |
-
-
-### extras
-
-An array of objects defining extra content to be gathered or created for the final artifact.
-
-| Field | Description |
-|-------|-------------|
-| **type** | Defines the kind of extra content `dir`, `file`, `symlink`, or `create`. |
-| **source** | *(semi‑optional)* Source path for the extra. Can be absolute or relative. Depends on `type`:<br>• `dir` / `file` – Absolute or relative path (relative expands to `$WORKDIR/`).<br>• `symlink` – Path where the symlink will be created (relative expands to `$COMPONENT_ARTIFACT_ROOT/`).<br>• `create` – Omitted. |
-| **dest**  | *(optional)* Destination **relative to** `$COMPONENT_ARTIFACT_ROOT` for `dir`, `file`, and `create`. For `symlink` it is an absolute target path. If relative, it expands to `$COMPONENT_ARTIFACT_ROOT/dest`. |
-| **contents**  | *(optional)* Allows inserting provided information directly into the destination file. |
 
 ---
 

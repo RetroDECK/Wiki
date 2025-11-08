@@ -429,12 +429,16 @@ nav:
 
     - Component Alchemist & Component Recipe:
       - Guide - RetroDECK Alchemist & component_recipe.json: wiki_development/components/alchemist/component-alchemist-guide.md
-      - EXAMPLE component_recipe - Azahar - GitHub source: wiki_development/components/alchemist/recipe-example-azahar.md
       - TEMPLATE component_recipe - Web source: wiki_development/components/alchemist/recipe-template-web.md
-      - TEMPLATE component_recipe - Web nested source: wiki_development/components/alchemist/recipe-template-web-nested.md
-      - TEMPLATE component_recipe - Web multi source: wiki_development/components/alchemist/recipe-template-web-multi.md
+      - EXAMPLE component_recipe - Web source - KEGS: wiki_development/components/alchemist/recipe-example-web-kegs.md
+      - TEMPLATE component_recipe - Nested source: wiki_development/components/alchemist/recipe-template-web-nested.md
+      - EXAMPLE component_recipe - Nested source - VPinballX: wiki_development/components/alchemist/recipe-example-nested-vpinballx.md
+      - TEMPLATE component_recipe - Multi source: wiki_development/components/alchemist/recipe-template-web-multi.md
+      - EXAMPLE component_recipe - Multi source - RetroArch: wiki_development/components/alchemist/recipe-example-multi-retroarch.md
       - TEMPLATE component_recipe - GitHub source: wiki_development/components/alchemist/recipe-template-github.md
+      - EXAMPLE component_recipe - Github source - eka2l1: wiki_development/components/alchemist/recipe-example-github-eka2l1.md
       - TEMPLATE component_recipe - Flathub source: wiki_development/components/alchemist/recipe-template-flathub.md
+      - EXAMPLE component_recipe - Flathub source - Azahar: wiki_development/components/alchemist/recipe-example-flathub-azahar.md
 
     - Components Ingredient Files:
       - component_functions.sh: wiki_development/components/component-files/component-ingredient-functions.md

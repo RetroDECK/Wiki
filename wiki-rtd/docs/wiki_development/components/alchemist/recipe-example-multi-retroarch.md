@@ -1,0 +1,260 @@
+## Example: component_recipe.json - Multi Source - RetroArch
+
+```
+{
+  "retroarch": [
+    {
+      "source_url": "org.libretro.RetroArch",
+      "source_type": "flatpak_id",
+      "version": "$RETROARCH_DESIRED_VERSION",
+      "dest": "user",
+      "extraction_type": "flatpak",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "bin",
+          "dest": "bin"
+        },
+        {
+          "type": "dir",
+          "source": "share/libretro/assets",
+          "dest": "share/libretro/assets"
+        },
+        {
+          "type": "dir",
+          "source": "share/libretro/autoconfig",
+          "dest": "share/libretro/autoconfig"
+        },
+        {
+          "type": "dir",
+          "source": "share/libretro/database",
+          "dest": "share/libretro/database"
+        },
+        {
+          "type": "dir",
+          "source": "share/libretro/info",
+          "dest": "share/libretro/info"
+        },
+        {
+          "type": "tar.gz",
+          "source": "share/libretro/shaders",
+          "dest": "extras/shaders"
+        },
+        {
+          "type": "tar.gz",
+          "source": "share/libretro/overlays",
+          "dest": "extras/overlays"
+        },
+        {
+          "type": "dir",
+          "source": "lib/retroarch",
+          "dest": "lib/retroarch"
+        },
+        {
+          "type": "create",
+          "dest": "component_version",
+          "contents": "$SOURCE_VERSION"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_functions.sh",
+           "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_launcher.sh",
+           "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_manifest.json",
+           "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_prepare.sh",
+           "dest": "$COMPONENT_ARTIFACT_ROOT"
+        }
+      ],
+      "libs": [
+        {
+          "library": "libQt6Core.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "$DESIRED_QT6_RUNTIME_VERSION",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Gui.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "$DESIRED_QT6_RUNTIME_VERSION",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Widgets.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "$DESIRED_QT6_RUNTIME_VERSION",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Concurrent.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "$DESIRED_QT6_RUNTIME_VERSION",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libQt6Network.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "$DESIRED_QT6_RUNTIME_VERSION",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libCg.so",
+          "source": "lib",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libCgGL.so",
+          "source": "lib",
+          "dest": "shared-libs"
+        }
+      ],
+      "extras": [
+        {
+          "type": "dir",
+          "source": "$REPO_ROOT/$COMPONENT_NAME",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "create",
+          "dest": "component_version",
+          "contents": "$SOURCE_VERSION"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
+      "source_type": "http",
+      "version": "1.21.0",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/citra_libretro.so.zip",
+      "source_type": "http",
+      "version": "nightly",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "citra_libretro.so",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/sameduck_libretro.so.zip",
+      "source_type": "http",
+      "version": "nightly",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "sameduck_libretro.so",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://github.com/RapidEdwin08/Genesis-Plus-GX-Expanded-Rom-Size",
+      "source_type": "git",
+      "version": "latest",
+      "dest": "Genesis-Plus-GX-Expanded-Rom-Size",
+      "extraction_type": "local",
+      "assets": [
+        {
+          "type": "file",
+          "source": "builds/Linux_so64/genesis_plus_gx_libretro.so",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/RetroArch_cores.7z",
+      "source_type": "http",
+      "version": "nightly",
+      "dest": "nightly-cores",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "merge",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://github.com/libretro/libretro-database",
+      "source_type": "git",
+      "version": "latest",
+      "extraction_type": "local",
+      "assets": [
+        {
+          "type": "merge",
+          "source": "cht",
+          "dest": "share/libretro/database/cht"
+        }
+      ]
+    },
+    {
+      "source_url": "http://bluemsx.msxblue.com/rel_download/blueMSXv{VERSION}full.zip",
+      "source_type": "http",
+      "version": "282",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "Machines",
+          "dest": "extras/MSX/Machines"
+        },
+        {
+          "type": "dir",
+          "source": "Databases",
+          "dest": "extras/MSX/Databases"
+        }
+      ]
+    },
+    {
+      "source_url": "https://github.com/rsn8887/capsimg/releases/download/{VERSION}/Capsimg_for_Retroarch.zip",
+      "source_type": "github-release",
+      "version": "1.1",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "Linux/x86-64/capsimg.so",
+          "dest": "extras/Amiga"
+        }
+      ]
+    },
+    {
+      "source_url": "cores",
+      "source_type": "local",
+      "extraction_type": "local",
+      "assets": [
+        {
+          "type": "tar.gz",
+          "source": "",
+          "dest": "extras/cores"
+        }
+      ]
+    }
+  ]
+}
+
+```

@@ -101,8 +101,38 @@ We still have not decided the name for this as we want it to fit with the "magic
       "assets": [
         {
           "type": "dir",
-          "source": "usr/bin",
+          "source": "bin",
           "dest": "bin"
+        },
+        {
+          "type": "dir",
+          "source": "$REPO_ROOT/$COMPONENT_NAME",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "create",
+          "dest": "component_version",
+          "contents": "$SOURCE_VERSION"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_functions.sh",
+           "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_launcher.sh",
+           "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_manifest.json",
+           "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_prepare.sh",
+           "dest": "$COMPONENT_ARTIFACT_ROOT"
         }
       ],
       "libs": [
@@ -148,17 +178,11 @@ We still have not decided the name for this as we want it to fit with the "magic
           "runtime_version": "6.9",
           "dest": "shared-libs"
         }
-      ],
-      "extras": [
-        {
-          "type": "dir",
-          "source": "$REPO_ROOT/$COMPONENT_NAME",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
-        }
       ]
     }
   ]
 }
+
 ```
 
 ### RetroDECK Alchemist: Plugin‑Based Component Assembler

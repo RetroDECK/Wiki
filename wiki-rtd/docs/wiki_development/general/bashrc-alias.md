@@ -9,20 +9,20 @@ Copy and paste the following lines to the end of your `~/.bashrc` file on any Li
 # RetroDECK – Core launch shortcuts
 # --------------------------------------------------------
 
-# Usage:  rdlrd
+# Usage:  rdl
 #   • Launches RetroDECK
 
-alias rdlrd='flatpak run net.retrodeck.retrodeck'
+alias rdl='flatpak run net.retrodeck.retrodeck'
 
-# Usage:  rdldrd
+# Usage:  rddrd
 #   • Launches RetroDECK in debug mode
 
-alias rdldrd='flatpak run net.retrodeck.retrodeck --debug'
+alias rddrd='flatpak run net.retrodeck.retrodeck --debug'
 
-# Usage:  rdldcli
+# Usage:  rddcli
 #   • Launches RetroDECK in debug mode with an interactive Bash shell inside the sandbox.
 
-alias rdldcli='flatpak run --command=bash net.retrodeck.retrodeck -debug'
+alias rddcli='flatpak run --command=bash net.retrodeck.retrodeck -debug'
 
 # --------------------------------------------------------
 # RetroDECK – Install / Update helpers (auto‑download latest releases)

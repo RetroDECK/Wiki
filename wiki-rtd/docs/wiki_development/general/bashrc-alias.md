@@ -119,7 +119,6 @@ alias rdrm-all='flatpak remove net.retrodeck.retrodeck -y && rm -rf ~/.var/app/n
 # RetroDECK – Git‑clone shortcuts: Components
 # -----------------------------------------------------------
 
-
 # Usage: rdg-cook-comp
 #   • Clones the `cooker` branch of the components repo
 
@@ -156,7 +155,6 @@ alias rdg-main-rd='git clone -b main https://github.com/RetroDECK/RetroDECK'
 # -----------------------------------------------------------
 # RetroDECK – Git‑clone shortcut: ES-DE
 # -----------------------------------------------------------
-
 
 # Usage:  rdg-esde
 #   • Clones the RetroDECK‑specific ES‑DE fork

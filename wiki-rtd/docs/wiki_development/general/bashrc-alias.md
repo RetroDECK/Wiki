@@ -9,20 +9,20 @@ Copy and paste the following lines to the end of your `~/.bashrc` file on any Li
 # RetroDECK – Core launch shortcuts
 # --------------------------------------------------------
 
-# Usage:  rdl
-#   • Starts RetroDECK normally
+# Usage:  rdlrd
+#   • Launches RetroDECK
 
-alias rdl='flatpak run net.retrodeck.retrodeck'
+alias rdlrd='flatpak run net.retrodeck.retrodeck'
+
+# Usage:  rdldrd
+#   • Launches RetroDECK in debug mode
+
+alias rdldrd='flatpak run net.retrodeck.retrodeck --debug'
 
 # Usage:  rdldcli
-#   • Launches RetroDECK in debug mode with an interactive Bash shell inside the sandbox
+#   • Launches RetroDECK in debug mode with an interactive Bash shell inside the sandbox.
+
 alias rdldcli='flatpak run --command=bash net.retrodeck.retrodeck -debug'
-
-# Usage:  rdldgui
-#   • Launches RetroDECK in debug mode (GUI only)
-
-alias rdldgui='flatpak run net.retrodeck.retrodeck --debug'
-
 
 # --------------------------------------------------------
 # RetroDECK – Install / Update helpers (auto‑download latest releases)
@@ -73,6 +73,7 @@ alias rdi-c='\
 # --------------------------------------------------------
 # RetroDECK Cooker – Full cleanup + Cooker reinstall
 # --------------------------------------------------------
+
 # Usage:  rdi-c-clean
 #   • Removes the flatpak package AND the ~/.var/app data folder
 #   • Downloads the latest Cooker bundle, extracts, installs, and cleans up
@@ -97,6 +98,7 @@ alias rdi-c-clean='\
 # -------------------------------------------------------
 # RetroDECK – Cleanup helpers
 # -------------------------------------------------------
+
 # Usage:  rdrmv
 #   • Deletes only the per‑user data folder (~/.var/app/net.retrodeck.retrodeck/)
 
@@ -114,13 +116,23 @@ alias rdrm-all='flatpak remove net.retrodeck.retrodeck -y && rm -rf ~/.var/app/n
 
 
 # -----------------------------------------------------------
-# RetroDECK – Git‑clone shortcuts (branch‑specific)
+# RetroDECK – Git‑clone shortcuts: Components
 # -----------------------------------------------------------
+
 
 # Usage: rdg-cook-comp
 #   • Clones the `cooker` branch of the components repo
 
 alias rdg-cook-comp='git clone -b cooker https://github.com/RetroDECK/components'
+
+# Usage: rdg-main-comp
+#   • Clones the `main` branch of the components repo
+
+alias rdg-main-comp='git clone -b main https://github.com/RetroDECK/components'
+
+# -----------------------------------------------------------
+# RetroDECK – Git‑clone shortcuts: Cooker
+# -----------------------------------------------------------
 
 # Usage:  rdg-cook-neo
 #   • Clones the `neo` branch of the main RetroDECK repo
@@ -132,20 +144,28 @@ alias rdg-cook-neo='git clone -b neo https://github.com/RetroDECK/RetroDECK'
 
 alias rdg-cook-rd='git clone -b cooker https://github.com/RetroDECK/RetroDECK'
 
-# Usage: rdg-rd-main
-#   • Clones the `main` branch of the components repo
-
-alias rdg-main-comp='git clone -b main https://github.com/RetroDECK/components'
+# -----------------------------------------------------------
+# RetroDECK – Git‑clone shortcuts: Main
+# -----------------------------------------------------------
 
 # Usage:  rdg-main-rd
 #   • Clones the `main` branch of the main RetroDECK repo
 
 alias rdg-main-rd='git clone -b main https://github.com/RetroDECK/RetroDECK'
 
+# -----------------------------------------------------------
+# RetroDECK – Git‑clone shortcut: ES-DE
+# -----------------------------------------------------------
+
+
 # Usage:  rdg-esde
 #   • Clones the RetroDECK‑specific ES‑DE fork
 
 alias rdg-esde='git clone -b retrodeck-main https://github.com/RetroDECK/ES-DE'
+
+# -----------------------------------------------------------
+# RetroDECK – Git‑clone shortcut: Wiki
+# -----------------------------------------------------------
 
 # Usage:  rdg-wiki
 #   • Clones the RetroDECK wiki repository

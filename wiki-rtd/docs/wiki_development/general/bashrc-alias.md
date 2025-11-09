@@ -3,23 +3,26 @@
 Copy into your `~/.bashrc`
 
 ```
-# Enter Debug Mode Cli
 
-alias rddebugcli="flatpak run --command=bash net.retrodeck.retrodeck --debug"
-
-# Launch RetroDECK Debug Mode
-
-alias rddebuglaunch="flatpak run net.retrodeck.retrodeck --debug"
-
-# Launch RetroDECK Normal
+# Launch RetroDECK: Standard
 
 alias rdlaunch="flatpak run net.retrodeck.retrodeck"
 
-# Extract & Install RetroDECK .flatpak files
+# Launch RetroDECK: Debug Mode - CLI
 
-alias rdinstallcooker="flatpak remove net.retrodeck.retrodeck -y | 7z x RetroDECK-cooker.flatpak.7z.001 | flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak | rm RetroDECK-cooker.flatpak.7z*"
+alias rddebugcli="flatpak run --command=bash net.retrodeck.retrodeck --debug"
 
-alias rdinstallmain="flatpak remove net.retrodeck.retrodeck -y | 7z x RetroDECK.flatpak.7z.001 | flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak | rm RetroDECK.flatpak.7z*"
+# Launch RetroDECK: Debug Mode - Interface
+
+alias rddebuglaunch="flatpak run net.retrodeck.retrodeck --debug"
+
+# Extract & Install Latest: RetroDECK Cooker
+
+alias rdinstallrdcooker="flatpak remove net.retrodeck.retrodeck -y | 7z x RetroDECK-cooker.flatpak.7z.001 | flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak | rm RetroDECK-cooker.flatpak.7z*"
+
+# Extract & Install Latest: RetroDECK Main
+
+alias rdinstallrdmain="flatpak remove net.retrodeck.retrodeck -y | 7z x RetroDECK.flatpak.7z.001 | flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak | rm RetroDECK.flatpak.7z*"
 
 # Removes the net.retrodeck.retrodeck/ folder
 
@@ -27,30 +30,40 @@ alias rdrmvarfolder="rm -rf ~/.var/app/net.retrodeck.retrodeck/"
 
 # Remove RetroDECK Flatpak
 
-alias rdrmretrodeck="flatpak remove net.retrodeck.retrodeck -y"
+alias rdrmrd="flatpak remove net.retrodeck.retrodeck -y"
 
 # Remove RetroDECK Flatpak and net.retrodeck.retrodeck/ folder
 
-alias rdrmall="flatpak remove net.retrodeck.retrodeck -y | rm -rf ~/.var/app/net.retrodeck.retrodeck/"
+alias rdrmrdall="flatpak remove net.retrodeck.retrodeck -y | rm -rf ~/.var/app/net.retrodeck.retrodeck/"
 
 # Download latest cooker 7z parts
 
 alias rddownloadcooker="wget "https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak.7z.001" "https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak.7z.002""
 
-# Git clone commands
+# Git Clone: Cooker Components
 
-alias rdgitclonecooker="git clone -b cooker https://github.com/RetroDECK/RetroDECK"
+alias rdgitclonecomponentscooker="git clone -b cooker https://github.com/RetroDECK/components"
 
-alias rdgitclonemain="git clone https://github.com/RetroDECK/RetroDECK"
+# Git Clone: Cooker Branch
 
-alias rdgitclonecomponents="git clone -b cooker https://github.com/RetroDECK/components"
+alias rdgitclonerdneo="git clone -b neo https://github.com/RetroDECK/RetroDECK"
 
-alias rdgitclonecooker="git clone -b cooker https://github.com/RetroDECK/RetroDECK"
+alias rdgitclonerdcooker="git clone -b cooker https://github.com/RetroDECK/RetroDECK"
 
-alias rdgitcloneneo="git clone -b neo https://github.com/RetroDECK/RetroDECK"
+# Git Clone: Main Components
 
-alias rdgitclonewiki="git clone https://github.com/RetroDECK/Wiki"
+alias rdgitclonecomponentsmain="git clone -b main https://github.com/RetroDECK/components"
+
+# Git Clone: Main Branch
+
+alias rdgitclonerdmain="git clone -b main https://github.com/RetroDECK/RetroDECK"
+
+# Git Clone: RetroDECK ES-DE
 
 alias rdgitcloneesde="git clone -b retrodeck-main https://github.com/RetroDECK/ES-DE"
+
+# Git Clone: RetroDECK Wiki
+
+alias rdgitclonewiki="git clone https://github.com/RetroDECK/Wiki"
 
 ```

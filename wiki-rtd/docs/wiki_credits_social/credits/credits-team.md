@@ -7,7 +7,7 @@ Founder of RetroDECK and one of the founding members of [AmberELEC](https://ambe
 Without him the project would not exist. 
 
 ```
-- Backend Development
+- Back end Development
 - Configurator 
 - Good / Bad Ideas
 - RetroDECK Framework
@@ -46,7 +46,7 @@ Front end  and UI/UX Development.
 
 ```
 - Community Outreach
-- Front End and UI/UX
+- Front end and UI/UX
 - Godot
 - Website
 - Art & Assets
@@ -65,7 +65,7 @@ Creator of the `RetroDECK Configurator`, the `RetroDECK Framework` and various c
 
 ```
 - Rewriting Xargons Good / Bad Ideas
-- Backend Development
+- Back end Development
 - RetroDECK Framework
 - Configurator 
 - RetroDECK API

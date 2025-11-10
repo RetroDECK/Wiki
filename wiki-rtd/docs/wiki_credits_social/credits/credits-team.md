@@ -4,12 +4,14 @@
 
 Founder of RetroDECK and one of the founding members of [AmberELEC](https://amberelec.org/).
 
+Without him the project would not exist. 
+
 ```
 - Backend Development
-- Configurator Features
+- Configurator 
 - Good / Bad Ideas
 - RetroDECK Framework
-- Testing
+- RetroENGINE
 ```
 
 
@@ -23,7 +25,7 @@ Maestro of RetroDECK.
 
 ```
 - Community Management/Outreach
-- Emulator Configurations
+- Component Configurations
 - Feature Requests
 - Issue Management
 - Management of Xargons Good / Bad Ideas
@@ -40,15 +42,14 @@ Maestro of the Wiki and also the cult leader of the NPC (The Nordic Pizza Cult) 
 
 ## [jiannazzone](https://github.com/jiannazzone)
 
-Front End and UI/UX Development.
+Front end  and UI/UX Development.
 
 ```
-- Community Management/Outreach
+- Community Outreach
 - Front End and UI/UX
 - Godot
-- Good / Bad Ideas
-- Testing
 - Website
+- Art & Assets
 ```
 
 <details><summary> </summary>
@@ -57,15 +58,17 @@ MCCP branch operative against the NPC faction and have a loose alliance with the
 
 ## [IceNine451](https://github.com/icenine451)
 
-Backend Development.
+Lead Technical Architect.
 
 Creator of the `RetroDECK Configurator`, the `RetroDECK Framework` and various cool things.
 
 
 ```
+- Rewriting Xargons Good / Bad Ideas
 - Backend Development
 - RetroDECK Framework
-- Configurator Features
+- Configurator 
+- RetroDECK API
 ```
 
 
@@ -79,8 +82,7 @@ Freedom loving leader of the MCCP (Murican Cheese Crust Patriots) in the interna
 Godot Development.
 
 ```
-- Godot Backend Development
-- Backend Development
+- Godot Development
 ```
 
 
@@ -90,11 +92,24 @@ Pizza Mercenary
 
 ## Lahrs 
 
+Arcade veteran, deep knowledge of all things retro.
+
 ```
-- Community Management/Outreach
-- Good / Bad Ideas
+- Component Configurations
+- Community Management
+- Community Support
+- Feature Requests
+- Issue Management
 - Testing
+- Art & Assets
+- Wiki Documentation
 ```
+
+<details><summary> </summary>
+MCCP champion of the Pizza buffét.
+</details>
+
+
 
 ## Special Thanks
 

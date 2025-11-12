@@ -4,6 +4,7 @@ Here we list some quick terminal shortcuts for RetroDECK development.
 
 Copy and paste the following lines to the end of your `~/.bashrc` file on any Linux system.
 
+
 ```
 # -----------------------------------------------------------
 # RetroDECK – Core launch shortcuts

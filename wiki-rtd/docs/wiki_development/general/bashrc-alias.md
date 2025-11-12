@@ -39,7 +39,7 @@ echo "Fetching latest Main Flatpak…" && \
 wget -q --show-progress \
 "https://github.com/RetroDECK/RetroDECK/releases/latest/download/RetroDECK.flatpak" && \
 echo "Installing Cooker…" && \
-flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak && \
+flatpak install RetroDECK.flatpak --user --bundle --noninteractive -y  && \
 echo "Cleaning temporary files…" && \
 rm -f RetroDECK-cooker.flatpak && \
 echo "✅ Cooker reinstalled after full cleanup."'
@@ -55,15 +55,15 @@ alias rdi-7m='\
   echo "Extracting bundle…" && \
   7z x RetroDECK.flatpak.7z.001 && \
   echo "Installing…" && \
-  flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak && \
+  flatpak install RetroDECK.flatpak --user --bundle --noninteractive -y  && \
   echo "Cleaning up…" && \
   rm -f RetroDECK.flatpak.7z* RetroDECK.flatpak && \
   echo "✅ RetroDECK (main) installed/updated."'
 
 # --------------------------------------------------------
 # RetroDECK – Install / Update helpers COOKER (auto‑download latest releases)
-# -------------------------------------------------------  
-  
+# -------------------------------------------------------
+
 # Usage:  rdi-c
 #   • Removes any existing RetroDECK installation
 #   • Downloads the newest Cooker‑branch flatpak
@@ -74,11 +74,11 @@ echo "Fetching latest Main Flatpak…" && \
 wget -q --show-progress \
 "https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak" && \
 echo "Installing Cooker…" && \
-flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak && \
+flatpak install RetroDECK.flatpak --user --bundle --noninteractive -y  && \
 echo "Cleaning temporary files…" && \
 rm -f RetroDECK-cooker.flatpak && \
 echo "✅ Cooker reinstalled after full cleanup."'
-  
+
 
 # Usage:  rdi-c-clean
 #   • Removes the flatpak package AND the ~/.var/app data folder
@@ -92,7 +92,7 @@ echo "Cleanup complete. Fetching latest Cooker bundle…" && \
 wget -q --show-progress \
 "https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak" && \
 echo "Installing Cooker…" && \
-flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak && \
+flatpak install RetroDECK-cooker.flatpak --user --bundle --noninteractive -y  && \
 echo "Cleaning temporary files…" && \
 rm -f RetroDECK-cooker.flatpak && \
 echo "✅ Cooker reinstalled after full cleanup."'
@@ -114,7 +114,7 @@ alias rdi-7c='\
   echo "Extracting bundle…" && \
   7z x RetroDECK-cooker.flatpak.7z.001 && \
   echo "Installing…" && \
-  flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak && \
+  flatpak install RetroDECK-cooker.flatpak --user --bundle --noninteractive -y  && \
   echo "Cleaning up…" && \
   rm -f RetroDECK-cooker.flatpak.7z* RetroDECK-cooker.flatpak && \
   echo "✅ RetroDECK Cooker installed/updated."'
@@ -135,13 +135,13 @@ alias rdi-7c-clean='\
   echo "Extracting Cooker bundle…" && \
   7z x RetroDECK-cooker.flatpak.7z.001 && \
   echo "Installing Cooker…" && \
-  flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak && \
+  flatpak install RetroDECK-cooker.flatpak --user --bundle --noninteractive -y && \
   echo "Cleaning temporary files…" && \
   rm -f RetroDECK-cooker.flatpak.7z* RetroDECK-cooker.flatpak && \
   echo "✅ Cooker reinstalled after full cleanup."'
 
 
-  
+
 # --------------------------------------------------------
 # RetroDECK Local Installs + Full cleanup
 # --------------------------------------------------------
@@ -149,13 +149,11 @@ alias rdi-7c-clean='\
 # Usage:  rdi-l-c
 #   • Removes the flatpak package AND the ~/.var/app data folder and installs local cooker file
 
-  
+
 alias rdi-l-c='\
-echo "Performing full RetroDECK cleanup…" && \
-flatpak remove net.retrodeck.retrodeck -y && \
 rm -rf ~/.var/app/net.retrodeck.retrodeck/ && \
 echo "Cleanup complete. Installing Cooker from existing bundle…" && \
-flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak && \
+flatpak install RetroDECK-cooker.flatpak --user --bundle --noninteractive -y  && \
 echo "Cleaning temporary files…" && \
 rm -f RetroDECK-cooker.flatpak && \
 echo "✅ Cooker reinstalled after full cleanup."'
@@ -165,15 +163,13 @@ echo "✅ Cooker reinstalled after full cleanup."'
 #   • Removes the flatpak package AND the ~/.var/app data folder and installs local main file
 
 alias rdi-l-m='\
-echo "Performing full RetroDECK cleanup…" && \
-flatpak remove net.retrodeck.retrodeck -y && \
 rm -rf ~/.var/app/net.retrodeck.retrodeck/ && \
 echo "Cleanup complete. Installing Cooker from existing bundle…" && \
-flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak && \
+flatpak install RetroDECK-cooker.flatpak --user --bundle --noninteractive -y  && \
 echo "Cleaning temporary files…" && \
 rm -f RetroDECK-cooker.flatpak && \
 echo "✅ Cooker reinstalled after full cleanup."'
-  
+
 # -------------------------------------------------------
 # RetroDECK – Cleanup helpers
 # -------------------------------------------------------

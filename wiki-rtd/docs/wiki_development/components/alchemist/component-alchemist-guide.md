@@ -229,10 +229,10 @@ Items to copy from the extracted source into the final artifact.
 
 | Field               | Description |
 |---------------------|-------------|
-| **type** | Defines the kind of asset an entire directory `dir`, a single file `file`, to create a `symlink`, or `create` a file. | 
-| **source**       | Path to the desired file or directory, **relative to** the `$EXTRACTED_PATH` variable produced during the extraction stage (e.g., `usr/bin`). |
-| **dest**  | Destination **relative to** `$COMPONENT_ARTIFACT_ROOT` for `dir`, `file`, and `create`. For `symlink` it is an absolute target path. If relative, it expands to `$COMPONENT_ARTIFACT_ROOT/dest`. |
-| **contents**  | *(optional)* Allows inserting provided information directly into the destination file. |
+| **type** | Defines the kind of asset operation. Pull an an entire directory `dir`. A single file `file`. Create a symlink with `symlink`. Create a file with `create`. Create an archive with `archive`. Merge files with `merge`. Rename files with `file-rename`. Run a bash script with `script`.| 
+| **source**       | Path to the desired / created file, script or directory, **relative to** the `$EXTRACTED_PATH` variable produced during the extraction stage (e.g., `usr/bin`).  |
+| **dest**  | Destination **relative to** `$COMPONENT_ARTIFACT_ROOT` for `dir`, `file`, and `create`. For `symlink` it is an absolute target path. If relative, it expands to `$COMPONENT_ARTIFACT_ROOT/dest`. For `archive` specify rchivea output type `7z,zip,tar.gz,tgz,tar.bz2,tbz2,tar.xz,txz,tar`. |
+| **contents**  | *(optional)* Allows inserting provided information directly into the destination file. Or arguments for scripts like `--verbose`.|
 
 ### libs
 

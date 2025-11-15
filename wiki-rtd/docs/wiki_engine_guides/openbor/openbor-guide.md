@@ -80,22 +80,18 @@ The game should now be detected by RetroDECK.
 
 ```
 Folder: Heroes of Phandalin.bor
+
 Text file inside folder: Heroes of Phandalin.bor
-```
 
+End result: ~/retrodeck/roms/openbor/Heroes of Phandalin.bor/Heroes of Phandalin.bor
 
 ```
-~/retrodeck/roms/openbor/Heroes of Phandalin.bor/Heroes of Phandalin.bor
-```
-
 
 ```
 Folder: Heroes of Phandalin.openbor
+
 Text file inside folder: Heroes of Phandalin.openbor
-```
 
-
-```
-~/retrodeck/roms/openbor/Heroes of Phandalin.openbor/Heroes of Phandalin.openbor
+End result: ~/retrodeck/roms/openbor/Heroes of Phandalin.openbor/Heroes of Phandalin.openbor
 ```
 

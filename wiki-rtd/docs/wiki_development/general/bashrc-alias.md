@@ -6,243 +6,289 @@ Copy and paste the following lines to the end of your `~/.bashrc` file on any Li
 
 
 ```
-# -----------------------------------------------------------
-# RetroDECK – Core launch shortcuts
-# --------------------------------------------------------
-
-# Usage:  rdl
-#   • Launches RetroDECK
-
-alias rdl='flatpak run net.retrodeck.retrodeck'
-
-# Usage:  rddrd
-#   • Launches RetroDECK in debug mode
-
-alias rddrd='flatpak run net.retrodeck.retrodeck --debug'
-
-# Usage:  rddcli
-#   • Launches RetroDECK in debug mode with an interactive Bash shell inside the sandbox.
-
-alias rddcli='flatpak run --command=bash net.retrodeck.retrodeck -debug'
+# ========================================================
+# RetroDECK – Main and Cooker Installer Setup
+# ========================================================
 
 # --------------------------------------------------------
-# RetroDECK – Install / Update helpers MAIN (auto‑download latest releases)
-# -------------------------------------------------------
-
-# Usage:  rdi-m
-#   • Removes any existing RetroDECK installation
-#   • Downloads the newest main‑branch flatpak
-#   • Extracts, installs, and cleans up temporary files
-
-alias rdi-m='\
-echo "Fetching latest Main Flatpak…" && \
-wget -q --show-progress \
-"https://github.com/RetroDECK/RetroDECK/releases/latest/download/RetroDECK.flatpak" && \
-echo "Installing Cooker…" && \
-flatpak install RetroDECK.flatpak --user --bundle --noninteractive -y  && \
-echo "Cleaning temporary files…" && \
-rm -f RetroDECK-cooker.flatpak && \
-echo "✅ Cooker reinstalled after full cleanup."'
-
-
-alias rdi-7m='\
-  echo "Fetching latest Main RetroDECK bundle…" && \
-  wget -q --show-progress \
-    "https://github.com/RetroDECK/RetroDECK/releases/latest/download/RetroDECK.flatpak.7z.001" \
-    "https://github.com/RetroDECK/RetroDECK/releases/latest/download/RetroDECK.flatpak.7z.002" && \
-  echo "Removing any existing installation…" && \
-  flatpak remove net.retrodeck.retrodeck -y && \
-  echo "Extracting bundle…" && \
-  7z x RetroDECK.flatpak.7z.001 && \
-  echo "Installing…" && \
-  flatpak install RetroDECK.flatpak --user --bundle --noninteractive -y  && \
-  echo "Cleaning up…" && \
-  rm -f RetroDECK.flatpak.7z* RetroDECK.flatpak && \
-  echo "✅ RetroDECK (main) installed/updated."'
-
-# --------------------------------------------------------
-# RetroDECK – Install / Update helpers COOKER (auto‑download latest releases)
-# -------------------------------------------------------
-
-# Usage:  rdi-c
-#   • Removes any existing RetroDECK installation
-#   • Downloads the newest Cooker‑branch flatpak
-#   • Extracts, installs, and cleans up temporary files
-
-alias rdi-c='\
-echo "Fetching latest Main Flatpak…" && \
-wget -q --show-progress \
-"https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak" && \
-echo "Installing Cooker…" && \
-flatpak install RetroDECK.flatpak --user --bundle --noninteractive -y  && \
-echo "Cleaning temporary files…" && \
-rm -f RetroDECK-cooker.flatpak && \
-echo "✅ Cooker reinstalled after full cleanup."'
-
-
-# Usage:  rdi-c-clean
-#   • Removes the flatpak package AND the ~/.var/app data folder
-#   • Downloads the latest Cooker flatpak, extracts, installs, and cleans up
-
-alias rdi-c-clean='\
-echo "Performing full RetroDECK cleanup…" && \
-flatpak remove net.retrodeck.retrodeck -y && \
-rm -rf ~/.var/app/net.retrodeck.retrodeck/ && \
-echo "Cleanup complete. Fetching latest Cooker bundle…" && \
-wget -q --show-progress \
-"https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak" && \
-echo "Installing Cooker…" && \
-flatpak install RetroDECK-cooker.flatpak --user --bundle --noninteractive -y  && \
-echo "Cleaning temporary files…" && \
-rm -f RetroDECK-cooker.flatpak && \
-echo "✅ Cooker reinstalled after full cleanup."'
-
-
-
-# Usage:  rdi-7c
-#   • Removes any existing RetroDECK installation
-#   • Downloads the newest Cooker‑branch flatpak bundle (2‑part 7z)
-#   • Extracts, installs, and cleans up temporary files
-
-alias rdi-7c='\
-  echo "Fetching latest Cooker bundle…" && \
-  wget -q --show-progress \
-    "https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak.7z.001" \
-    "https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak.7z.002" && \
-  echo "Removing any existing installation…" && \
-  flatpak remove net.retrodeck.retrodeck -y && \
-  echo "Extracting bundle…" && \
-  7z x RetroDECK-cooker.flatpak.7z.001 && \
-  echo "Installing…" && \
-  flatpak install RetroDECK-cooker.flatpak --user --bundle --noninteractive -y  && \
-  echo "Cleaning up…" && \
-  rm -f RetroDECK-cooker.flatpak.7z* RetroDECK-cooker.flatpak && \
-  echo "✅ RetroDECK Cooker installed/updated."'
-
-
-# Usage:  rdi-7c-clean
-#   • Removes the flatpak package AND the ~/.var/app data folder
-#   • Downloads the latest Cooker bundle, extracts, installs, and cleans up
-
-alias rdi-7c-clean='\
-  echo "Performing full RetroDECK cleanup…" && \
-  flatpak remove net.retrodeck.retrodeck -y && \
-  rm -rf ~/.var/app/net.retrodeck.retrodeck/ && \
-  echo "Cleanup complete. Fetching latest Cooker bundle…" && \
-  wget -q --show-progress \
-    "https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak.7z.001" \
-    "https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak.7z.002" && \
-  echo "Extracting Cooker bundle…" && \
-  7z x RetroDECK-cooker.flatpak.7z.001 && \
-  echo "Installing Cooker…" && \
-  flatpak install RetroDECK-cooker.flatpak --user --bundle --noninteractive -y && \
-  echo "Cleaning temporary files…" && \
-  rm -f RetroDECK-cooker.flatpak.7z* RetroDECK-cooker.flatpak && \
-  echo "✅ Cooker reinstalled after full cleanup."'
-
-
-
-# --------------------------------------------------------
-# RetroDECK Local Installs + Full cleanup
+# Function: Cleanup RetroDECK
 # --------------------------------------------------------
 
-# Usage:  rdi-l-c
-#   • Removes the flatpak package AND the ~/.var/app data folder and installs local cooker file
+# This function removes both the RetroDECK flatpak package and the associated user data directory (~/.var/app/net.retrodeck.retrodeck/).
+# It prompts the user for confirmation before proceeding with the removal to avoid accidental data loss.
 
+cleanup_retrodeck() {
+  # Check if RetroDECK flatpak is installed
+  if flatpak info net.retrodeck.retrodeck &>/dev/null; then
+    echo "RetroDECK is currently installed."
 
-alias rdi-l-c='\
-rm -rf ~/.var/app/net.retrodeck.retrodeck/ && \
-echo "Cleanup complete. Installing Cooker from existing bundle…" && \
-flatpak install RetroDECK-cooker.flatpak --user --bundle --noninteractive -y  && \
-echo "Cleaning temporary files…" && \
-rm -f RetroDECK-cooker.flatpak && \
-echo "✅ Cooker reinstalled after full cleanup."'
+    # Ask the user if they want to remove the flatpak package
+    read -p "Do you want to remove the RetroDECK flatpak? (y/n): " remove_fp
+    if [[ "$remove_fp" == "y" || "$remove_fp" == "Y" ]]; then
+      echo "Removing RetroDECK flatpak..."
+      flatpak remove net.retrodeck.retrodeck -y
+    else
+      echo "Skipping flatpak removal."
+    fi
+  else
+    echo "RetroDECK flatpak is not installed. Skipping removal."
+  fi
 
+  # Check if the user data directory exists
+  local path="$HOME/.var/app/net.retrodeck.retrodeck"
+  if [[ -d "$path" ]]; then
+    # Ask the user if they want to remove the user data directory
+    read -p "Do you want to remove the RetroDECK user data directory (~/.var/app/net.retrodeck.retrodeck)? (y/n): " remove_data
+    if [[ "$remove_data" == "y" || "$remove_data" == "Y" ]]; then
+      echo "Removing data directory..."
+      rm -rf "$path"
+    else
+      echo "Skipping data directory removal."
+    fi
+  else
+    echo "RetroDECK user data directory not found. Skipping."
+  fi
+}
 
-# Usage:  rdi-l-m
-#   • Removes the flatpak package AND the ~/.var/app data folder and installs local main file
+# --------------------------------------------------------
+# Main Installer Function: rdi_main
+# --------------------------------------------------------
 
-alias rdi-l-m='\
-rm -rf ~/.var/app/net.retrodeck.retrodeck/ && \
-echo "Cleanup complete. Installing Cooker from existing bundle…" && \
-flatpak install RetroDECK-cooker.flatpak --user --bundle --noninteractive -y  && \
-echo "Cleaning temporary files…" && \
-rm -f RetroDECK-cooker.flatpak && \
-echo "✅ Cooker reinstalled after full cleanup."'
+# This function handles both direct flatpak installation and 7z multi-part bundle installation for the main RetroDECK.
+# It checks if the flatpak is available, and if not, it falls back to the 7z method.
 
-# -------------------------------------------------------
-# RetroDECK – Cleanup helpers
-# -------------------------------------------------------
+rdi_main() {
+  # Define the URLs for the main RetroDECK flatpak and 7z parts
+  FLATPAK_URL="https://github.com/RetroDECK/RetroDECK/releases/latest/download/RetroDECK.flatpak"
+  PART1_URL="https://github.com/RetroDECK/RetroDECK/releases/latest/download/RetroDECK.flatpak.7z.001"
+  PART2_URL="https://github.com/RetroDECK/RetroDECK/releases/latest/download/RetroDECK.flatpak.7z.002"
 
-# Usage:  rdrmv
-#   • Deletes only the per‑user data folder (~/.var/app/net.retrodeck.retrodeck/)
+  echo "Checking for direct flatpak availability..."
 
+  # Check if the flatpak file is available and download it if so
+  if wget --spider -q "$FLATPAK_URL"; then
+    echo "Downloading flatpak..."
+    wget -q --show-progress "$FLATPAK_URL" -O RetroDECK.flatpak
+
+    echo "Installing flatpak..."
+    flatpak install RetroDECK.flatpak --user --bundle --noninteractive -y
+
+    echo "Cleaning up..."
+    rm -f RetroDECK.flatpak
+
+    echo "Main installation complete using flatpak."
+    return
+  fi
+
+  echo "Flatpak not available. Trying 7z parts..."
+
+  # Download the 7z parts if flatpak is not available
+  echo "Downloading 7z bundle..."
+  wget -q --show-progress "$PART1_URL" "$PART2_URL"
+
+  cleanup_retrodeck  # Cleanup before installation
+
+  # Extract the 7z bundle
+  echo "Extracting 7z bundle..."
+  7z x RetroDECK.flatpak.7z.001
+
+  # Install the extracted flatpak
+  echo "Installing extracted flatpak..."
+  flatpak install RetroDECK.flatpak --user --bundle --noninteractive -y
+
+  # Clean up the 7z and flatpak files
+  echo "Cleaning up..."
+  rm -f RetroDECK.flatpak.7z.* RetroDECK.flatpak
+
+  echo "Main installation complete using 7z bundle."
+}
+
+alias rdi-main='rdi_main'  # Alias for the main installer
+
+# --------------------------------------------------------
+# Local Main Installer Function: rdi_local_main
+# --------------------------------------------------------
+
+# This function installs RetroDECK from a local flatpak file.
+# It also performs cleanup before installation.
+
+rdi_local_main() {
+    echo "Starting full cleanup before local main installation..."
+    cleanup_retrodeck  # Perform cleanup before installation
+
+    # Install the local flatpak file
+    echo "Installing local main flatpak..."
+    flatpak install RetroDECK.flatpak --user --bundle --noninteractive -y
+
+    echo "Cleaning temporary files..."
+    rm -f RetroDECK.flatpak  # Clean up the flatpak file after installation
+
+    echo "Local main installation complete."
+}
+
+alias rdi-l-main='rdi_local_main'  # Alias for the local main installer
+
+# --------------------------------------------------------
+# Cooker Installer Function: rdi_cooker
+# --------------------------------------------------------
+
+# This function handles both the flatpak and 7z multi-part bundle installation for RetroDECK Cooker.
+# It first checks if the flatpak is available, then falls back to 7z if not.
+
+rdi_cooker() {
+  # Define URLs for the RetroDECK Cooker flatpak and 7z parts
+  FLATPAK_URL="https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak"
+  PART1_URL="https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak.7z.001"
+  PART2_URL="https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak.7z.002"
+
+  echo "Checking for direct cooker flatpak availability..."
+
+  # Check if the cooker flatpak is available and download it if so
+  if wget --spider -q "$FLATPAK_URL"; then
+    echo "Downloading cooker flatpak..."
+    wget -q --show-progress "$FLATPAK_URL" -O RetroDECK-cooker.flatpak
+
+    echo "Installing cooker flatpak..."
+    flatpak install RetroDECK-cooker.flatpak --user --bundle --noninteractive -y
+
+    echo "Cleaning up..."
+    rm -f RetroDECK-cooker.flatpak
+
+    echo "Cooker installation complete using flatpak."
+    return
+  fi
+
+  echo "Cooker flatpak not available. Trying 7z parts..."
+
+  # Download the cooker 7z parts if flatpak is not available
+  echo "Downloading cooker 7z bundle..."
+  wget -q --show-progress "$PART1_URL" "$PART2_URL"
+
+  cleanup_retrodeck  # Cleanup before installation
+
+  # Extract the cooker 7z bundle
+  echo "Extracting cooker 7z bundle..."
+  7z x RetroDECK-cooker.flatpak.7z.001
+
+  # Install the extracted cooker flatpak
+  echo "Installing extracted cooker flatpak..."
+  flatpak install RetroDECK-cooker.flatpak --user --bundle --noninteractive -y
+
+  # Clean up the 7z and flatpak files
+  echo "Cleaning up..."
+  rm -f RetroDECK-cooker.flatpak.7z.* RetroDECK-cooker.flatpak
+
+  echo "Cooker installation complete using 7z bundle."
+}
+
+alias rdi-cook='rdi_cooker'  # Alias for the cooker installer
+
+# --------------------------------------------------------
+# Local Cooker Installer Function: rdi_local_cooker
+# --------------------------------------------------------
+
+# This function installs RetroDECK Cooker from a local flatpak file.
+# It also performs cleanup before installation.
+
+rdi_local_cooker() {
+    echo "Starting full cleanup before local cooker installation..."
+    cleanup_retrodeck  # Perform cleanup before installation
+
+    # Install the local cooker flatpak file
+    echo "Installing local cooker flatpak..."
+    flatpak install RetroDECK-cooker.flatpak --user --bundle --noninteractive -y
+
+    echo "Cleaning temporary files..."
+    rm -f RetroDECK-cooker.flatpak  # Clean up the cooker flatpak file after installation
+
+    echo "Local cooker installation complete."
+}
+
+alias rdi-l-cook='rdi_local_cooker'  # Alias for the local cooker installer
+
+# ========================================================
+# RetroDECK – Cleanup Helpers
+# ========================================================
+
+# Usage: rdrmv
+# Deletes only the user data folder (~/.var/app/net.retrodeck.retrodeck)
 alias rdrmv='rm -rf ~/.var/app/net.retrodeck.retrodeck/'
 
-# Usage:  rdrmflat
-#   • Removes only the RetroDECK flatpak package
-
+# Usage: rdrmflat
+# Removes only the RetroDECK flatpak package
 alias rdrmflat='flatpak remove net.retrodeck.retrodeck -y'
 
-# Usage:  rdrm-all
-#   • Removes both the flatpak package AND its data folder
-
+# Usage: rdrm-all
+# Removes both the RetroDECK flatpak package AND its user data folder
 alias rdrm-all='flatpak remove net.retrodeck.retrodeck -y && rm -rf ~/.var/app/net.retrodeck.retrodeck/'
 
-
-# -----------------------------------------------------------
-# RetroDECK – Git‑clone shortcuts: Components
-# -----------------------------------------------------------
+# --------------------------------------------------------
+# RetroDECK – Git Clone Shortcuts: Components
+# --------------------------------------------------------
 
 # Usage: rdg-cook-comp
-#   • Clones the `cooker` branch of the components repo
-
+# Clones the `cooker` branch of the components repo
 alias rdg-cook-comp='git clone -b cooker https://github.com/RetroDECK/components'
 
 # Usage: rdg-main-comp
-#   • Clones the `main` branch of the components repo
-
+# Clones the `main` branch of the components repo
 alias rdg-main-comp='git clone -b main https://github.com/RetroDECK/components'
 
-# -----------------------------------------------------------
-# RetroDECK – Git‑clone shortcuts: Cooker
-# -----------------------------------------------------------
+# --------------------------------------------------------
+# RetroDECK – Git Clone Shortcuts: Cooker Branches
+# --------------------------------------------------------
 
-# Usage:  rdg-cook-neo
-#   • Clones the `neo` branch of the main RetroDECK repo
-
+# Usage: rdg-cook-neo
+# Clones the `neo` branch of the main RetroDECK repo
 alias rdg-cook-neo='git clone -b neo https://github.com/RetroDECK/RetroDECK'
 
-# Usage:  rdg-cook-rd
-#   • Clones the `cooker` branch of the main RetroDECK repo
-
+# Usage: rdg-cook-rd
+# Clones the `cooker` branch of the main RetroDECK repo
 alias rdg-cook-rd='git clone -b cooker https://github.com/RetroDECK/RetroDECK'
 
-# -----------------------------------------------------------
-# RetroDECK – Git‑clone shortcuts: Main
-# -----------------------------------------------------------
+# --------------------------------------------------------
+# RetroDECK – Git Clone Shortcuts: Main Branch
+# --------------------------------------------------------
 
-# Usage:  rdg-main-rd
-#   • Clones the `main` branch of the main RetroDECK repo
-
+# Usage: rdg-main-rd
+# Clones the `main` branch of the main RetroDECK repo
 alias rdg-main-rd='git clone -b main https://github.com/RetroDECK/RetroDECK'
 
-# -----------------------------------------------------------
-# RetroDECK – Git‑clone shortcut: ES-DE
-# -----------------------------------------------------------
+# --------------------------------------------------------
+# RetroDECK – Git Clone Shortcuts: ES-DE Fork
+# --------------------------------------------------------
 
-# Usage:  rdg-esde
-#   • Clones the RetroDECK‑specific ES‑DE fork
-
+# Usage: rdg-esde
+# Clones the RetroDECK-specific ES-DE fork
 alias rdg-esde='git clone -b retrodeck-main https://github.com/RetroDECK/ES-DE'
 
-# -----------------------------------------------------------
-# RetroDECK – Git‑clone shortcut: Wiki
-# -----------------------------------------------------------
+# --------------------------------------------------------
+# RetroDECK – Git Clone Shortcuts: Wiki
+# --------------------------------------------------------
 
-# Usage:  rdg-wiki
-#   • Clones the RetroDECK wiki repository
-
+# Usage: rdg-wiki
+# Clones the RetroDECK wiki repository
 alias rdg-wiki='git clone https://github.com/RetroDECK/Wiki'
+
+# --------------------------------------------------------
+# RetroDECK – Core Launch Shortcuts
+# --------------------------------------------------------
+
+# Usage: rdl
+# Launches RetroDECK
+alias rdl='flatpak run net.retrodeck.retrodeck'
+
+# Usage: rddrd
+# Launches RetroDECK in debug mode
+alias rddrd='flatpak run net.retrodeck.retrodeck --debug'
+
+# Usage: rddcli
+# Launches RetroDECK in debug mode with an interactive Bash shell inside the sandbox
+alias rddcli='flatpak run --command=bash net.retrodeck.retrodeck -debug'
+
+# ========================================================
+# END RETRODECK
+# ========================================================
+
 
 ```

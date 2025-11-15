@@ -210,13 +210,13 @@ alias rdi-l-cook='rdi_local_cooker'  # Alias for the local cooker installer
 # RetroDECK – Cleanup Helpers
 # ========================================================
 
-# Usage: rdrmv
+# Usage: rdrm-var
 # Deletes only the user data folder (~/.var/app/net.retrodeck.retrodeck)
-alias rdrmv='rm -rf ~/.var/app/net.retrodeck.retrodeck/'
+alias rdrm-var='rm -rf ~/.var/app/net.retrodeck.retrodeck/'
 
-# Usage: rdrmflat
+# Usage: rdrm-flat
 # Removes only the RetroDECK flatpak package
-alias rdrmflat='flatpak remove net.retrodeck.retrodeck -y'
+alias rdrm-flat='flatpak remove net.retrodeck.retrodeck -y'
 
 # Usage: rdrm-all
 # Removes both the RetroDECK flatpak package AND its user data folder

@@ -7,7 +7,7 @@ Copy and paste the following lines to the end of your `~/.bashrc` file on any Li
 
 ```
 # ========================================================
-# RetroDECK – Main and Cooker Installer Setup
+#                      RetroDECK
 # ========================================================
 
 # --------------------------------------------------------
@@ -17,7 +17,7 @@ Copy and paste the following lines to the end of your `~/.bashrc` file on any Li
 # This function removes both the RetroDECK flatpak package and the associated user data directory (~/.var/app/net.retrodeck.retrodeck/).
 # It prompts the user for confirmation before proceeding with the removal to avoid accidental data loss.
 
-cleanup_retrodeck() {
+rdrm-cleanup() {
   # Check if RetroDECK flatpak is installed
   if flatpak info net.retrodeck.retrodeck &>/dev/null; then
     echo "RetroDECK is currently installed."
@@ -51,13 +51,13 @@ cleanup_retrodeck() {
 }
 
 # --------------------------------------------------------
-# Main Installer Function: rdi_main
+# Main Installer Function: rdi-main
 # --------------------------------------------------------
 
 # This function handles both direct flatpak installation and 7z multi-part bundle installation for the main RetroDECK.
 # It checks if the flatpak is available, and if not, it falls back to the 7z method.
 
-rdi_main() {
+rdi-main() {
   # Define the URLs for the main RetroDECK flatpak and 7z parts
   FLATPAK_URL="https://github.com/RetroDECK/RetroDECK/releases/latest/download/RetroDECK.flatpak"
   PART1_URL="https://github.com/RetroDECK/RetroDECK/releases/latest/download/RetroDECK.flatpak.7z.001"
@@ -86,7 +86,7 @@ rdi_main() {
   echo "Downloading 7z bundle..."
   wget -q --show-progress "$PART1_URL" "$PART2_URL"
 
-  cleanup_retrodeck  # Cleanup before installation
+  rdrm-cleanup  # Cleanup before installation
 
   # Extract the 7z bundle
   echo "Extracting 7z bundle..."
@@ -103,18 +103,16 @@ rdi_main() {
   echo "Main installation complete using 7z bundle."
 }
 
-alias rdi-main='rdi_main'  # Alias for the main installer
-
 # --------------------------------------------------------
-# Local Main Installer Function: rdi_local_main
+# Local Main Installer Function: rdi-l-main
 # --------------------------------------------------------
 
 # This function installs RetroDECK from a local flatpak file.
 # It also performs cleanup before installation.
 
-rdi_local_main() {
+rdi-l-main() {
     echo "Starting full cleanup before local main installation..."
-    cleanup_retrodeck  # Perform cleanup before installation
+    rdrm-cleanup  # Perform cleanup before installation
 
     # Install the local flatpak file
     echo "Installing local main flatpak..."
@@ -126,16 +124,14 @@ rdi_local_main() {
     echo "Local main installation complete."
 }
 
-alias rdi-l-main='rdi_local_main'  # Alias for the local main installer
-
 # --------------------------------------------------------
-# Cooker Installer Function: rdi_cooker
+# Cooker Installer Function: rdi-cook
 # --------------------------------------------------------
 
 # This function handles both the flatpak and 7z multi-part bundle installation for RetroDECK Cooker.
 # It first checks if the flatpak is available, then falls back to 7z if not.
 
-rdi_cooker() {
+rdi-cook() {
   # Define URLs for the RetroDECK Cooker flatpak and 7z parts
   FLATPAK_URL="https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak"
   PART1_URL="https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak.7z.001"
@@ -164,7 +160,7 @@ rdi_cooker() {
   echo "Downloading cooker 7z bundle..."
   wget -q --show-progress "$PART1_URL" "$PART2_URL"
 
-  cleanup_retrodeck  # Cleanup before installation
+  rdrm-cleanup  # Cleanup before installation
 
   # Extract the cooker 7z bundle
   echo "Extracting cooker 7z bundle..."
@@ -181,18 +177,16 @@ rdi_cooker() {
   echo "Cooker installation complete using 7z bundle."
 }
 
-alias rdi-cook='rdi_cooker'  # Alias for the cooker installer
-
 # --------------------------------------------------------
-# Local Cooker Installer Function: rdi_local_cooker
+# Local Cooker Installer Function: rdi-l-cooker
 # --------------------------------------------------------
 
 # This function installs RetroDECK Cooker from a local flatpak file.
 # It also performs cleanup before installation.
 
-rdi_local_cooker() {
+rdi-l-cooker() {
     echo "Starting full cleanup before local cooker installation..."
-    cleanup_retrodeck  # Perform cleanup before installation
+    rdrm-cleanup  # Perform cleanup before installation
 
     # Install the local cooker flatpak file
     echo "Installing local cooker flatpak..."
@@ -204,7 +198,21 @@ rdi_local_cooker() {
     echo "Local cooker installation complete."
 }
 
-alias rdi-l-cook='rdi_local_cooker'  # Alias for the local cooker installer
+# --------------------------------------------------------
+# RetroDECK – Core Launch Shortcuts
+# --------------------------------------------------------
+
+# Usage: rdl
+# Launches RetroDECK
+alias rdl='flatpak run net.retrodeck.retrodeck'
+
+# Usage: rddebrd
+# Launches RetroDECK in debug mode
+alias rddebrd='flatpak run net.retrodeck.retrodeck --debug'
+
+# Usage: rddebcli
+# Launches RetroDECK in debug mode with an interactive Bash shell inside the sandbox
+alias rddebcli='flatpak run --command=bash net.retrodeck.retrodeck -debug'
 
 # ========================================================
 # RetroDECK – Cleanup Helpers
@@ -270,25 +278,8 @@ alias rdg-esde='git clone -b retrodeck-main https://github.com/RetroDECK/ES-DE'
 # Clones the RetroDECK wiki repository
 alias rdg-wiki='git clone https://github.com/RetroDECK/Wiki'
 
-# --------------------------------------------------------
-# RetroDECK – Core Launch Shortcuts
-# --------------------------------------------------------
-
-# Usage: rdl
-# Launches RetroDECK
-alias rdl='flatpak run net.retrodeck.retrodeck'
-
-# Usage: rddrd
-# Launches RetroDECK in debug mode
-alias rddrd='flatpak run net.retrodeck.retrodeck --debug'
-
-# Usage: rddcli
-# Launches RetroDECK in debug mode with an interactive Bash shell inside the sandbox
-alias rddcli='flatpak run --command=bash net.retrodeck.retrodeck -debug'
-
 # ========================================================
-# END RETRODECK
+#                   END RETRODECK
 # ========================================================
-
 
 ```

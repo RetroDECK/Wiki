@@ -1,5 +1,5 @@
-# RetroDECK .bashrc Alias
-
+# RetroDECK .bashrc Alias &
+ 
 Here we list some quick terminal shortcuts and functions for RetroDECK development.
 
 Copy and paste the following lines to the end of your `~/.bashrc` file on any Linux system.
@@ -222,6 +222,14 @@ alias rdflat-update='flatpak update && flatpak update --user'
 # Run Flatpak’s repair routine for both system-wide and user-installed Flatpaks.
 alias rdflat-repair='flatpak repair && flatpak repair --user'
 
+# rdflat-reset-user
+# Reset Flatpak overrides for RetroDECK (user-level)
+# NOTE: This can fix Flatpak errors caused by broken or outdated overrides,
+# such as:
+#   "bwrap: execvp ... No such file or directory"
+# which often happen after app updates or incorrect Flatpak permissions.
+alias rdflat-reset-user='flatpak override --user net.retrodeck.retrodeck --reset'
+
 # --------------------------------------------------------
 # RetroDECK – Debug Shortcuts
 # --------------------------------------------------------
@@ -241,10 +249,6 @@ alias rddeb-devel='flatpak run --devel --command=sh net.retrodeck.retrodeck -deb
 # rddeb-strace
 # Launch RetroDECK in debug mode with --devel, opening an interactive shell inside the sandbox, while tracing system calls using strace.
 alias rddeb-strace='strace -o flatpak run --devel --command=sh net.retrodeck.retrodeck -debug'
-
-# --------------------------------------------------------
-# RetroDECK – Flatpak Launch Shortcuts
-# --------------------------------------------------------
 
 # ========================================================
 # RetroDECK – Cleanup Helpers

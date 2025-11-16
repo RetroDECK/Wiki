@@ -1,4 +1,4 @@
-# RetroDECK .bashrc Alias &
+# RetroDECK: Alias & Functions for .bashrc 
  
 Here we list some quick terminal shortcuts and functions for RetroDECK development.
 

@@ -206,13 +206,22 @@ rdi-l-cooker() {
 # Launches RetroDECK
 alias rdl='flatpak run net.retrodeck.retrodeck'
 
-# Usage: rddebrd
+# Usage: rddeb-rd
 # Launches RetroDECK in debug mode
-alias rddebrd='flatpak run net.retrodeck.retrodeck --debug'
+alias rddeb-rd='flatpak run net.retrodeck.retrodeck --debug'
 
-# Usage: rddebcli
+# Usage: rddeb-cli
 # Launches RetroDECK in debug mode with an interactive Bash shell inside the sandbox
-alias rddebcli='flatpak run --command=bash net.retrodeck.retrodeck -debug'
+alias rddeb-cli='flatpak run --command=bash net.retrodeck.retrodeck -debug'
+
+# Usage: rddeb-devel
+# Launches RetroDECK in debug mode with an interactive Bash shell inside the sandbox with --devel and putting out a log.
+alias rddeb-devel='log -f flatpak run --devel --command=sh net.retrodeck.retrodeck -debug'
+
+# Usage: rddeb-strace
+# Launches RetroDECK in debug mode with an interactive Bash shell inside the sandbox, while running strace, --devel and putting out a log.
+alias rddeb-strace='strace -o log -f flatpak run --devel --command=sh net.retrodeck.retrodeck -debug'
+
 
 # ========================================================
 # RetroDECK – Cleanup Helpers

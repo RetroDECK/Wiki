@@ -8,55 +8,96 @@ For a quick overview check the website.
 
 ## What is RetroDECK?
 
-RetroDECK is an **All-in-One Retro Gaming Platform** powered by [ES-DE Frontend](https://es-de.org) and available as a [Flatpak](https://flathub.org/apps/net.retrodeck.retrodeck). It includes various pre-configured software like emulators, systems and game engines.
+RetroDECK is a powerful all-in-one retro gaming platform designed for handheld gaming PCs like the Steam Deck, full Linux desktops, Linux HTPC setups, and Linux-based PC consoles such as the Steam Machine. Delivered as a self-contained Flatpak app, it gives you everything you need for retro gaming right out of the box, no manual setup required. By integrating a wide range of components such as emulators, game engines, ports, and built-in tools, RetroDECK brings all your favorite games together in one streamlined, easy-to-use package.
 
-### Easy to Install
+### Key Components
 
-You can easily download RetroDECK from Flathub via your software center, such as KDE Discover or Gnome Software.
+- **RetroDECK Framework** – Enhances emulators and the ES-DE interface for deeper integration and expanded functionality.  
+- **RetroDECK RetroENGINE** – A headless game runner designed for power users and developers.  
+- **RetroDECK Configurator** – A multi-tool utility that lets you adjust system settings without navigating individual emulator menus.
 
-### Easy to Update
+---
 
-RetroDECK updates through your software center, just like other system updates.
+## Features of the RetroDECK Framework & Configurator
 
-### RetroDECK is contained
+RetroDECK helps you:
 
-By being an all-in-one flatpak application RetroDECK is sandboxed and contained. Thus put all important files from all software in a minimal amount of locations, instead of having them spread out over your entire system. That also makes RetroDECK very easy to remove and clean-up (if you so wish).
+- Sync your favorite games with Steam.
+- Run games with a double-click using RetroENGINE.
+- Check for and auto-install certain BIOS files.
+- Compress games.
+- Easily manage texture packs and mods.
+- Use powerful file-management tools.
+- Troubleshoot with tools like the Multi-File Structure Checker and reset functions.
+- Install prebuilt Steam Input profiles (Steam Deck, external controllers, etc.).
+- Manage ROMs, scraped media, screenshots, saves/states, gamelists, and more.
+- Access global presets to configure multiple emulators at once, including:
+  - RetroAchievements  
+  - Borders  
+  - Widescreen mode  
+  - Swapped A/B or X/Y buttons for Nintendo systems  
+  - and more!
 
-### RetroDECK Configurator
+---
 
-The RetroDECK Configurator, accessible from the ES-DE main menu, allows you to change and configure settings across many systems from one interface.
+## Easy to Install
 
-## What software and features are included in RetroDECK?
+You can download RetroDECK from Flathub using your preferred software center, such as **KDE Discover**, **Bazaar**, or **GNOME Software**.
 
-**Read more here:**
+---
 
-[RetroDECK: What is included?](../wiki_about/what-is-included.md)
+## Easy to Update
 
-## RetroDECK is currently in in BETA
+RetroDECK updates automatically through your software center, just like any other Flatpak application.
 
-RetroDECK is still under development, and big updates can change or add features. 
+---
 
-It is fine for daily use, but some minor and major features are still being added before we consider it a full release. 
+## RetroDECK Is Contained
 
-### Missing Features
+As a Flatpak, RetroDECK is **sandboxed and self-contained**.  
+All important files are stored in a minimal number of locations instead of being scattered across your system. This makes RetroDECK both easier to maintain and simple to remove or clean up.
 
-Some features that are still being worked on include:
+---
 
-- Cloud sync
-- USB transfer
-- STFP / FTP
-- Better gyro support
-- Dynamic external display resolution support
-- Adding most systems that are supported by ES-DE (Emulators, Engines, Other)
-- A rebuilt Configurator and first run installer in Godot
-- Better art: Mascot, Easter Eggs, Logos
-- A multi-user system with user profiles
+## RetroDECK Configurator
 
-### What is the difference between the main version and the cooker version?
+Accessible from the ES-DE main menu, the Configurator allows you to adjust and manage settings across multiple systems from a single interface.
 
-The main version of RetroDECK is the stable version, while the cooker version is the unstable version that is always under heavy development.
+---
 
-Experimental features may be unstable and are exclusive to cooker builds or must be enabled by CLI.
+## What Software and Features Are Included?
+
+To see the full list, read:
+
+**[RetroDECK: What is included?](../wiki_about/what-is-included.md)**
+
+---
+
+## RetroDECK Is Currently in BETA
+
+RetroDECK is under active development. While it is suitable for daily use, major updates may introduce changes or new features.
+
+### Missing Features (In Progress)
+
+- Cloud sync  
+- USB transfer  
+- STFP / FTP support  
+- Improved gyro support  
+- Dynamic external display resolution  
+- Additional systems supported by ES-DE (emulators, engines, ports)  
+- A rebuilt Configurator and first-run installer (in Godot)  
+- Improved art assets (mascot, logos, easter eggs)  
+- A multi-user profile system  
+
+---
+
+## Main Version vs. Cooker Version
+
+- **Main Version** – Stable, recommended for most users.  
+- **Cooker Version** – Unstable, updated frequently, includes experimental features.  
+  - Some experimental features are exclusive to cooker builds or require command-line activation.
+
+---
 
 ##  What are you working on right now?
 
@@ -66,11 +107,15 @@ To get the latest updates first:
 - Follow [The RetroDECK Blog](../blog/index.md).
 - Look at [Github issues](https://github.com/XargonWan/RetroDECK/issues/) for clues.
 
+---
+
 ## Patch Notes and Known Issues
 
 [Version History](../wiki_rd_versions/version-history.md)
 
 [Known Issues & Reporting a Problem](../wiki_general/known-issues.md)
+
+---
 
 ### The FAQs❔
 

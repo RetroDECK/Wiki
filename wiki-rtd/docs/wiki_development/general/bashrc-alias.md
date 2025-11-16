@@ -1,6 +1,6 @@
 # RetroDECK .bashrc Alias
 
-Here we list some quick terminal shortcuts for RetroDECK development.
+Here we list some quick terminal shortcuts and functions for RetroDECK development.
 
 Copy and paste the following lines to the end of your `~/.bashrc` file on any Linux system.
 
@@ -199,12 +199,32 @@ rdi-l-cooker() {
 }
 
 # --------------------------------------------------------
-# RetroDECK – Core Launch Shortcuts
+# RetroDECK – Launch Shortcut
 # --------------------------------------------------------
 
 # Usage: rdl
 # Launches RetroDECK
 alias rdl='flatpak run net.retrodeck.retrodeck'
+
+# --------------------------------------------------------
+# RetroDECK – Flatpak Shortcuts
+# --------------------------------------------------------
+
+# Usage: rdflat-info
+# Prints flatpak information
+alias rdflat-info='flatpak info -e net.retrodeck.retrodeck'
+
+# Usage: rdflat-update
+# Updates all flatpaks
+alias rdflat-update='flatpak update && flatpak update --user'
+
+# Usage: rdflat-repair
+# Updates all flatpaks
+alias rdflat-repair='flatpak repair && flatpak repair --user'
+
+# --------------------------------------------------------
+# RetroDECK – Debug Shortcuts
+# --------------------------------------------------------
 
 # Usage: rddeb-rd
 # Launches RetroDECK in debug mode
@@ -222,6 +242,9 @@ alias rddeb-devel='log -f flatpak run --devel --command=sh net.retrodeck.retrode
 # Launches RetroDECK in debug mode with an interactive Bash shell inside the sandbox, while running strace, --devel and putting out a log.
 alias rddeb-strace='strace -o log -f flatpak run --devel --command=sh net.retrodeck.retrodeck -debug'
 
+# --------------------------------------------------------
+# RetroDECK – Flatpak Launch Shortcuts
+# --------------------------------------------------------
 
 # ========================================================
 # RetroDECK – Cleanup Helpers

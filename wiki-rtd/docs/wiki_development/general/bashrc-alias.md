@@ -203,11 +203,11 @@ rdi-l-cooker() {
 # --------------------------------------------------------
 
 # Usage: rdl-rd
-# Launches RetroDECK
+# Launches RetroDECK.
 alias rdl-rd='flatpak run net.retrodeck.retrodeck'
 
 # Usage: rdl-conf
-# Launches RetroDECK Configurator
+# Launches RetroDECK Configurator.
 alias rdl-conf='flatpak run net.retrodeck.retrodeck --configurator'
 
 # --------------------------------------------------------
@@ -227,11 +227,9 @@ alias rdflat-update='flatpak update && flatpak update --user'
 alias rdflat-repair='flatpak repair && flatpak repair --user'
 
 # rdflat-reset-user
-# Reset Flatpak overrides for RetroDECK (user-level)
-# NOTE: This can fix Flatpak errors caused by broken or outdated overrides,
-# such as:
-#   "bwrap: execvp ... No such file or directory"
-# which often happen after app updates or incorrect Flatpak permissions.
+# Reset Flatpak overrides for RetroDECK (user-level).
+# NOTE: This can fix Flatpak errors caused by broken or outdated overrides, such as: "bwrap: execvp ... No such file or directory".
+# Which often happen after app updates or incorrect Flatpak permissions.
 alias rdflat-reset-user='flatpak override --user net.retrodeck.retrodeck --reset'
 
 # --------------------------------------------------------
@@ -243,7 +241,7 @@ alias rdflat-reset-user='flatpak override --user net.retrodeck.retrodeck --reset
 alias rddeb-rd='flatpak run net.retrodeck.retrodeck --debug'
 
 # rddeb-conf
-# Launch RetroDECK Configurator in debug mode
+# Launch RetroDECK Configurator in debug mode.
 alias rddeb-conf='flatpak run net.retrodeck.retrodeck --debug --configurator'
 
 # rddeb-cli
@@ -263,15 +261,15 @@ alias rddeb-strace='strace -o flatpak run --devel --command=sh net.retrodeck.ret
 # ========================================================
 
 # Usage: rdrm-var
-# Deletes only the user data folder (~/.var/app/net.retrodeck.retrodeck)
+# Deletes only the user data folder (~/.var/app/net.retrodeck.retrodeck).
 alias rdrm-var='rm -rf ~/.var/app/net.retrodeck.retrodeck/'
 
 # Usage: rdrm-flat
-# Removes only the RetroDECK flatpak package
+# Removes only the RetroDECK flatpak package.
 alias rdrm-flat='flatpak remove net.retrodeck.retrodeck -y'
 
 # Usage: rdrm-all
-# Removes both the RetroDECK flatpak package AND its user data folder
+# Removes both the RetroDECK flatpak package AND its user data folder.
 alias rdrm-all='flatpak remove net.retrodeck.retrodeck -y && rm -rf ~/.var/app/net.retrodeck.retrodeck/'
 
 # --------------------------------------------------------
@@ -279,11 +277,11 @@ alias rdrm-all='flatpak remove net.retrodeck.retrodeck -y && rm -rf ~/.var/app/n
 # --------------------------------------------------------
 
 # Usage: rdg-cook-comp
-# Clones the `cooker` branch of the components repo
+# Clones the `cooker` branch of the components repo.
 alias rdg-cook-comp='git clone -b cooker https://github.com/RetroDECK/components'
 
 # Usage: rdg-main-comp
-# Clones the `main` branch of the components repo
+# Clones the `main` branch of the components repo.
 alias rdg-main-comp='git clone -b main https://github.com/RetroDECK/components'
 
 # --------------------------------------------------------
@@ -291,11 +289,11 @@ alias rdg-main-comp='git clone -b main https://github.com/RetroDECK/components'
 # --------------------------------------------------------
 
 # Usage: rdg-cook-neo
-# Clones the `project-neo` feature branch of the main RetroDECK repo
+# Clones the `project-neo` feature branch of the main RetroDECK repo.
 alias rdg-cook-neo='git clone -b feat/project-neo https://github.com/RetroDECK/RetroDECK'
 
 # Usage: rdg-cook-rd
-# Clones the `cooker` branch of the main RetroDECK repo
+# Clones the `cooker` branch of the main RetroDECK repo.
 alias rdg-cook-rd='git clone -b cooker https://github.com/RetroDECK/RetroDECK'
 
 # --------------------------------------------------------
@@ -303,7 +301,7 @@ alias rdg-cook-rd='git clone -b cooker https://github.com/RetroDECK/RetroDECK'
 # --------------------------------------------------------
 
 # Usage: rdg-main-rd
-# Clones the `main` branch of the main RetroDECK repo
+# Clones the `main` branch of the main RetroDECK repo.
 alias rdg-main-rd='git clone -b main https://github.com/RetroDECK/RetroDECK'
 
 # --------------------------------------------------------
@@ -311,7 +309,7 @@ alias rdg-main-rd='git clone -b main https://github.com/RetroDECK/RetroDECK'
 # --------------------------------------------------------
 
 # Usage: rdg-esde
-# Clones the RetroDECK-specific ES-DE fork
+# Clones the RetroDECK-specific ES-DE fork.
 alias rdg-esde='git clone -b retrodeck-main https://github.com/RetroDECK/ES-DE'
 
 # --------------------------------------------------------
@@ -319,7 +317,7 @@ alias rdg-esde='git clone -b retrodeck-main https://github.com/RetroDECK/ES-DE'
 # --------------------------------------------------------
 
 # Usage: rdg-wiki
-# Clones the RetroDECK wiki repository
+# Clones the RetroDECK wiki repository.
 alias rdg-wiki='git clone https://github.com/RetroDECK/Wiki'
 
 # ========================================================

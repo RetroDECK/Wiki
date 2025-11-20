@@ -23,7 +23,7 @@ The RetroDECK community is global, and we are grateful for that. We want everyon
 
 ## Commercial & Promotional Activity  
 
-**DO NOT:** Try to sell or promote your products and/or services. This server is not a marketplace.  Sharing experiences, seeking advice, or reviewing gaming‑related products is allowed, but selling or promoting your own goods or services is not.  
+**DO NOT:** Try to sell or promote your products and/or services. This server is not a marketplace.  Sharing experiences, seeking advice, or reviewing gaming‑related products is allowed, but selling or promoting your own goods or services is not. Unless it is in #🎥-self-promo channel but only in concise announcements only and they should be related to Retro Gaming. No spam, no repeated posts, and keep everything rule‑friendly.
 
 ## Spoilers
 

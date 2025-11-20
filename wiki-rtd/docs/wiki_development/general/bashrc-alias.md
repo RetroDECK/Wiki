@@ -7,7 +7,7 @@ Copy and paste the following lines to the end of your `~/.bashrc` file on any Li
 
 ```
 # ========================================================
-#                      RetroDECK
+#                                                   RetroDECK
 # ========================================================
 
 # --------------------------------------------------------
@@ -202,9 +202,13 @@ rdi-l-cooker() {
 # RetroDECK – Launch Shortcut
 # --------------------------------------------------------
 
-# Usage: rdl
+# Usage: rdl-rd
 # Launches RetroDECK
-alias rdl='flatpak run net.retrodeck.retrodeck'
+alias rdl-rd='flatpak run net.retrodeck.retrodeck'
+
+# Usage: rdl-conf
+# Launches RetroDECK Configurator
+alias rdl-conf='flatpak run net.retrodeck.retrodeck --configurator'
 
 # --------------------------------------------------------
 # RetroDECK – Flatpak Shortcuts
@@ -235,8 +239,12 @@ alias rdflat-reset-user='flatpak override --user net.retrodeck.retrodeck --reset
 # --------------------------------------------------------
 
 # rddeb-rd
-# Launch RetroDECK in debug mode (standard runtime environment).
+# Launch RetroDECK in debug mode.
 alias rddeb-rd='flatpak run net.retrodeck.retrodeck --debug'
+
+# rddeb-conf
+# Launch RetroDECK Configurator in debug mode
+alias rddeb-conf='flatpak run net.retrodeck.retrodeck --debug --configurator'
 
 # rddeb-cli
 # Launch RetroDECK in debug mode and open an interactive Bash shell inside the Flatpak sandbox.
@@ -315,7 +323,7 @@ alias rdg-esde='git clone -b retrodeck-main https://github.com/RetroDECK/ES-DE'
 alias rdg-wiki='git clone https://github.com/RetroDECK/Wiki'
 
 # ========================================================
-#                   END RETRODECK
+#                                           END RETRODECK
 # ========================================================
 
 ```

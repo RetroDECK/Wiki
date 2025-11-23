@@ -7,7 +7,7 @@ Copy and paste the following lines to the end of your `~/.bashrc` file on any Li
 
 ```
 # ========================================================
-#                                                   RetroDECK
+#                      RetroDECK
 # ========================================================
 
 # --------------------------------------------------------
@@ -210,6 +210,16 @@ alias rdl-rd='flatpak run net.retrodeck.retrodeck'
 # Launches RetroDECK Configurator.
 alias rdl-conf='flatpak run net.retrodeck.retrodeck --configurator'
 
+
+# --------------------------------------------------------
+# RetroDECK – Upgrade Simulated
+# --------------------------------------------------------
+
+# Usage: rdu-test
+# Simulates an upgrade Between RetroDECK Versions argument with <version>: rdu-test 0.9.4b.
+alias rdu-test='flatpak run net.retrodeck.retrodeck --test-upgrade'
+
+
 # --------------------------------------------------------
 # RetroDECK – Flatpak Shortcuts
 # --------------------------------------------------------
@@ -321,7 +331,7 @@ alias rdg-esde='git clone -b retrodeck-main https://github.com/RetroDECK/ES-DE'
 alias rdg-wiki='git clone https://github.com/RetroDECK/Wiki'
 
 # ========================================================
-#                                           END RETRODECK
+#                    END RETRODECK
 # ========================================================
 
 ```

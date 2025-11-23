@@ -41,6 +41,18 @@ Here are some open-source options:
 - [Syncthing GTK GUI](https://flathub.org/apps/me.kozec.syncthingtk)
 
 
+## Will you support ARM Linux Devices like the Steam Frame or Nvidia N1X? 
+
+The RetroDECK Team is investigating the possibility to support this platform. 
+
+## Will you support RISC-V?
+
+The idea of supporting RISC-V is exciting, but it as everything else would be a major undertaking.
+
+It might be possible in the future as the platform matures and gains more compatibility.
+
+But supporting RISC-V devices would be a major undertaking and would require more developers with RISC-V experience.
+
 ## Will you support Windows?
 
 <img src="../../wiki_icons/pixelitos/distributor-logo-windows.png" width="50">
@@ -53,12 +65,11 @@ Alternatively, you can install a Linux distribution on your device to use RetroD
 
 ## Will you support MacOS?
 
-No, RetroDECK doesn't support Windows currently. 
+No, RetroDECK doesn't support MacOS currently. 
 
 You can try [OpenEmu](https://openemu.org/) for MacOS.
 
 Alternatively, you can install a Linux distribution on your device to use RetroDECK. Supporting MacOS would be a major undertaking and would require more developers with MacOS experience.
-
 
 ## Will you support ARM mobile devices like iOS and Android?
 
@@ -67,21 +78,13 @@ Alternatively, you can install a Linux distribution on your device to use RetroD
 No, RetroDECK doesn't support ARM devices currently. 
 
 The underlying systems would need to be rewritten due to different emulators and licensing models,
-especially on Android where some emulators are open source on x86_64 but closed source on ARM.
+especially on Android where some emulators are open source on x86_64 but closed source on android.
 
-Supporting ARM devices would be a major undertaking and would require more developers with ARM experience.
-
-## Will you support RISC-V?
-
-The idea of supporting RISC-V is exciting, but it as everything else would be a major undertaking.
-
-It might be possible in the far-off future as the platform matures and gains more compatibility.
-
-But supporting RISC-V devices would be a major undertaking and would require more developers with RISC-V experience.
+Supporting mobile ARM devices would be a major undertaking and would require more developers with ARM experience.
 
 ## Will you support other Linux distribution methods such as Snap, AppImage, AUR, etc...?
 
-It's not in our roadmap yet. Currently, the entire build system is based on flatpak-build. 
+It's not in our roadmap. Currently, the entire build system is based on flatpak-build and we are reliant on Flathub for publication. 
 
 The team is not large enough to migrate and maintain other distribution methods. 
 

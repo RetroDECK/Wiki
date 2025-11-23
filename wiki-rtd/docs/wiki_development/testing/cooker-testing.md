@@ -1,126 +1,30 @@
 # RetroDECK Cooker Guide: Start Testing Builds
 
-If you are using `SteamOS` on the Steam Deck, make sure you are in `Desktop Mode` before you begin.
+## Start Testing
 
-🛑 **Do not install the Cooker without following this guide** 🛑
+**⚠️ Absolutely DO NOT install the Cooker without following this guide ⚠️**
 
-We strongly recommend reading **THIS GUIDE** and **FOLLOWING THESE INSTRUCTIONS** carefully. Simply installing the RetroDECK Cooker without following the guide is now known as the Rowan Skye Method.
+Skipping steps is known as the *“Rowan Skye Method”* and it **will break things**.
+Please read carefully.
 
+> **On Cooker Builds:** Are designed for testers who want early access to new features and can report bugs. Not recommended for regular use, these builds **will** destabilize your RetroDeck experience.
 
-### Combined Commands - Cheat Sheet
+---
 
-**Remove Installed and Install Downloaded Cooker:** 
+### 📌 Quick Tip: Use our bash aliases/functions
 
-```
-flatpak remove net.retrodeck.retrodeck -y
-flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak
-```
+Use the RetroDECK `bashrc` aliases/functions instead of typing full commands manually.
+Copy the alias definitions from:  [RetroDECK: bashrc Functions and Aliases](../general/bashrc-alias.md) into your `~/.bashrc`.
 
-**Remove Installed and Install Downloaded Pre-Release:** 
+---
 
-```
-flatpak remove net.retrodeck.retrodeck -y
-flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak
-```
-
-**Remove Installed and Install Flathub Stable:** 
-
-```
-flatpak remove net.retrodeck.retrodeck -y
-flatpak install --user --noninteractive -y net.retrodeck.retrodeck
-```
-**Simulating the post_update between versions**
-
-```
-flatpak run net.retrodeck.retrodeck --test-upgrade <version>
-```
-
-
-## Step 1: Take some Backups
-
-
-**First, take some backups:**
-
-- Make a copy of the `~/.var/app/net.retrodeck.retrodeck/` folder and name it old.net.retrodeck.retrodeck.
-- Make a full backup or partial backups of the RetroDECK folder, usually found under `~/retrodeck` or on an SD card/other drive.
-
-**On RetroDECK folder backups:**
-
-Generally, very few things target the ROMs folder, but other folders could be targeted by various scripts. We recommend backing up the entire `~/retrodeck` folder, but as a tester, you can decide how much you want to risk.
-
-**Disclaimer:**
-
-The RetroDECK Team has never experienced any major data loss so far, and we perform Cooker updates almost daily.
-
-
-## Step 2: Download the Cooker
-
-
-- Download the latest Cooker release from: [RetroDECK Cooker: Latest](https://github.com/XargonWan/RetroDECK-cooker/releases/latest) to your download folder.
-- Make a note of the `<version_id>`, which is a randomly generated word. For example, in `RetroDECK-Cooker-X.X.Xb-HelloWorld`, the `<version_id>` is `HelloWorld`.
-
-**Note on Pre-Releases:**
-
-If you are testing a Pre-Release that is published on `Main`. 
-
-Download the latest pre-release from: [RetroDECK: Latest](https://github.com/RetroDECK/RetroDECK/releases/)to your download folder.
-
-## Step 3: Terminal
-
-You will need to open the terminal for this step.
-
-### Remove and Install
-
-1. Open the terminal window where you have downloaded the `RetroDECK-cooker.flatpak` file, normally it's under `~/Downloads/RetroDECK-cooker.flatpak`. **Note:** The Downloads folder can have a different name depending on your language settings.
-
-2. Type `flatpak remove net.retrodeck.retrodeck -y` to remove RetroDECK. **Note:** If you have more than one version installed for some reason choose to remove all versions.
-
-3. `flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak` this will install RetroDECK Cooker.
-
-**Note on Pre-Releases:**
-
-If you are testing a pre-release and the build have left cooker to main the name is different of the flatpak file:
-
-`flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak` 
-
-
-## Step 4: Upgrade
-
-🛑 **IMPORTANT WARNING:** 🛑
-
-Under **NO** circumstances press the `Full Wipe and Fresh Install` button.
-
-That is **NOT** to be confused with Configurators `Reset RetroDECK` option.
-
-This in fact a `Nuke Everything` option for reseting everything to a clean slate. It will remove all of RetroDECK including all ROMS/BIOS/Downloaded Media and everything else you have in RetroDECK's folders...forever.
-
-You will get several warnings if you accidentally press it.
-
-### Upgrading RetroDECK
-
-- After the installation is complete type:  `flatpak run net.retrodeck.retrodeck --debug`.
-- Press the `Upgrade` button and keep the installation moving until all the steps are complete and RetroDECK will launch.
-- Quit RetroDECK again and save all the output from the terminal into a text file.
-
-## Step 5: Start testing
-
-If you are on `SteamOS` like on the Steam Deck return to `Game Mode` for this step.
-
-If you are on `Linux Desktop` make sure you launch RetroDECK via Steam, else Steam Input won't work.
-
-Now feel free to test all the new features of the update and report any issues, check the patch notes for what is new.
-
-All logs will be saved in the new `retrodeck/logs` folder
-
-Thank you! ❤️
-
-## Simulating the post_update between versions
+### 📌 Quick Tip: Simulating the post_update between versions
 
 If you want to trigger the upgrade script again between a version upgrade to try something out.
 
 You can do it via CLI (recommend) or Manually by editing the CFG file
 
-### CLI
+#### CLI
 
 Do the following command
 
@@ -133,7 +37,7 @@ Do the following command
 This will trigger all the post-updates from `0.8.0b` to the current version you got installed.
 
 
-### Manually via CFG
+#### Manually via CFG
 
  Go to and edit the `.cfg` file:
 
@@ -148,3 +52,110 @@ Next time you start RetroDECK the post-update should trigger again.
 Edit the `.cfg` so the value is `version=0.8.0b`.
 
 This will trigger all the post-updates from `0.8.0b` to the current version you got installed.
+
+---
+
+
+## Take Your Backups (Critical!)
+
+Backups are **not optional**. The Cooker can overwrite or break existing data.  
+If something goes wrong and you **did not** take backups, your ROMs, BIOS, saves, and configurations may be **lost permanently**.
+
+| What you should back up | How to do it |
+|-------------------------|--------------|
+| **RetroDECK data** (settings, configs, internal files) | `cp -r ~/.var/app/net.retrodeck.retrodeck/ old.net.retrodeck.retrodeck` |
+| **RetroDECK folder** (`~/retrodeck` or SD-card/external drive path) | Rename it to `oldretrodeck` or copy it elsewhere for safekeeping |
+
+> **Recommended:** Back up your entire `~/retrodeck` folder. Even if the Cooker normally doesn't touch everything, **scripts can modify or remove files**, and once they’re gone...they’re gone. The RetroDECK Team is not responsible for you data-loss. 
+
+---
+
+## Download the Cooker
+
+- Grab the latest release (or pre‑release) from the [RetroDECK Cooker: Latest](https://github.com/RetroDECK/Cooker/releases/latest) page and place it in `~/Downloads`.
+- Note the `<version_id>` in the filename, e.g. `RetroDECK-Cooker‑X.X.Xb‑HelloWorld` → `HelloWorld`.
+
+**Note on Pre-Releases:**
+
+If you are testing a Pre-Release that is published on `Main`. 
+
+Download the latest pre-release from: [RetroDECK: Latest](https://github.com/RetroDECK/RetroDECK/releases/latest)to your download folder.
+
+---
+
+## Open the Terminal
+
+**Navigate to the download location:**
+
+Normally under: `cd ~/Downloads`
+
+**Remove existing RetroDECK installations:**
+
+`flatpak remove net.retrodeck.retrodeck -y`  # repeat if multiple versions exist
+
+**Install the Cooker:**
+
+`flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak`
+
+**Note on Pre-Releases:**
+
+If you are testing a pre-release and the build have left cooker to main the name is different of the flatpak file:
+
+`flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak` 
+
+## Choose Your Path
+
+*Check the RetroDECK team's latest instructions for the recommended path on the current cooker releases on their socials.* 
+
+1. **Fresh Install** – Start from scratch.
+2. **Upgrade** – Keep your existing setup and update.
+
+---
+
+### Path 1: Fresh install
+
+To simulate a fresh install
+
+1. Remove the  `~/.var/app/net.retrodeck.retrodeck/` folder after you have made a backup of it *above*.
+2. Rename `~/retrodeck` to `~/oldretrodeck` or move/copy it to somewhere safe as written *above*.
+
+After that start RetroDECK first install with:
+
+`flatpak run net.retrodeck.retrodeck --debug` this will ensure that any errors that are popping up on first installation will be seen in the terminal window. 
+
+---
+
+### Path 2: Upgrading from Older Cooker or Main Versions
+
+🛑 **EXTREMELY IMPORTANT WARNING** 🛑
+
+**Do NOT press the Full Wipe and Fresh Install button.**
+
+This is *not* the same as the Configurator’s **Reset RetroDECK**.
+
+The Wipe button is a **total nuclear reset** ROMs, BIOS, artwork, saves, configs… **everything will be deleted forever.**
+
+You will get several warnings, but **do not rely on them**. Avoid the button entirely unless you have a strong valid reason to press it.
+
+#### Upgrading RetroDECK
+
+- Start RetroDECK with:  `flatpak run net.retrodeck.retrodeck --debug`.
+- Press the `Upgrade` button and keep the installation moving until all the steps are complete and RetroDECK will launch.
+- Quit RetroDECK again and save all the output from the terminal into a text file.
+
+---
+
+## Start testing
+
+
+If you are on `SteamOS` like on the Steam Deck return to `Game Mode` for this step.
+
+If you are on `Linux Desktop` make sure you launch RetroDECK via Steam, else Steam Input won't work.
+
+Now feel free to test all the new features of the update and report any issues, check the patch notes for what is new.
+
+All logs will be saved in the new `retrodeck/logs` folder
+
+Thank you! ❤️
+
+

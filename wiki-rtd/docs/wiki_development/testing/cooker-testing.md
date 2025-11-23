@@ -76,8 +76,9 @@ This will trigger all the post-updates from `0.8.0b` to the current version you 
 
 ---
 
+## Setup the Testing Environment 
 
-## Take Your Backups (Critical!)
+### Take Your Backups (Critical!)
 
 Backups are **not optional**. The Cooker can overwrite or break existing data.  
 If something goes wrong and you **did not** take backups, your ROMs, BIOS, saves, and configurations may be **lost permanently**.
@@ -91,7 +92,7 @@ If something goes wrong and you **did not** take backups, your ROMs, BIOS, saves
 
 ---
 
-## Download the Cooker or Pre-Release
+### Download the Cooker or Pre-Release
 
 - Grab the latest cooker release from the [RetroDECK Cooker: Latest](https://github.com/RetroDECK/Cooker/releases/latest) page and place it in `~/Downloads`.
 - Note the `<version_id>` in the filename, e.g. `RetroDECK-Cooker‑X.X.Xb‑HelloWorld` → `HelloWorld`.
@@ -103,7 +104,7 @@ If something goes wrong and you **did not** take backups, your ROMs, BIOS, saves
 
 ---
 
-## Open the Terminal
+### Open the Terminal
 
 **Navigate to the download location:**
 
@@ -123,9 +124,9 @@ If you are testing a pre-release and the build have left cooker to main the name
 
 `flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak` 
 
-## Choose Your Path
+### Choose Your Path
 
-*Check the RetroDECK team's latest instructions for the recommended path on the current cooker releases on their socials.* 
+> **What does the Team Recommended?** Check the RetroDECK team's latest instructions for the recommended path on the current cooker releases on their socials.
 
 1. **Fresh Install** – Start from scratch.
 2. **Upgrade** – Keep your existing setup and update.

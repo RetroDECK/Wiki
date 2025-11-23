@@ -70,16 +70,15 @@ If something goes wrong and you **did not** take backups, your ROMs, BIOS, saves
 
 ---
 
-## Download the Cooker
+## Download the Cooker or Pre-Release
 
-- Grab the latest release (or pre‑release) from the [RetroDECK Cooker: Latest](https://github.com/RetroDECK/Cooker/releases/latest) page and place it in `~/Downloads`.
+- Grab the latest cooker release from the [RetroDECK Cooker: Latest](https://github.com/RetroDECK/Cooker/releases/latest) page and place it in `~/Downloads`.
 - Note the `<version_id>` in the filename, e.g. `RetroDECK-Cooker‑X.X.Xb‑HelloWorld` → `HelloWorld`.
 
 **Note on Pre-Releases:**
 
-If you are testing a Pre-Release that is published on `Main`. 
-
-Download the latest pre-release from: [RetroDECK: Latest](https://github.com/RetroDECK/RetroDECK/releases/latest)to your download folder.
+- Grab the latest pre-release from: [RetroDECK Main: Latest](https://github.com/RetroDECK/RetroDECK/releases/latest) page and place it in `~/Downloads`.
+- Note the `<version_id>` in the filename, e.g. should be the same as the version that is going out to flathub aka: 0.10.b and might contain a pre-release tag.
 
 ---
 

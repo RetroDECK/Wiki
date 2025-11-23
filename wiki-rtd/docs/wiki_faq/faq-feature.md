@@ -43,9 +43,13 @@ Here are some open-source options:
 
 ## Will you support ARM Linux Devices like the Steam Frame or Nvidia N1X? 
 
+<img src="../../wiki_icons/pixelitos/distributor-logo-knoppix.png" width="50">
+
 The RetroDECK Team is investigating the possibility to support this platform. 
 
 ## Will you support RISC-V?
+
+<img src="../../wiki_icons/pixelitos/distributor-logo-debian.png" width="50">
 
 The idea of supporting RISC-V is exciting, but it as everything else would be a major undertaking.
 
@@ -65,6 +69,8 @@ Alternatively, you can install a Linux distribution on your device to use RetroD
 
 ## Will you support MacOS?
 
+<img src="../../wiki_icons/pixelitos/distributor-logo-macos.png" width="50">
+
 No, RetroDECK doesn't support MacOS currently. 
 
 You can try [OpenEmu](https://openemu.org/) for MacOS.
@@ -73,7 +79,7 @@ Alternatively, you can install a Linux distribution on your device to use RetroD
 
 ## Will you support ARM mobile devices like iOS and Android?
 
-<img src="../../wiki_icons/pixelitos/distributor-logo-macos.png" width="50"> <img src="../../wiki_icons/pixelitos/android.png" width="50">
+ <img src="../../wiki_icons/pixelitos/android.png" width="50">
 
 No, RetroDECK doesn't support ARM devices currently. 
 

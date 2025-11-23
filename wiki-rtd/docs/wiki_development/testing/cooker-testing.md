@@ -1,13 +1,34 @@
-# RetroDECK Cooker Guide: Start Testing Builds
+# RetroDECK Testing Guide
 
-## Start Testing
+---
 
-**⚠️ Absolutely DO NOT install the Cooker without following this guide ⚠️**
+## Build Types Overview
+
+### Cooker Builds  
+
+**⚠️ Absolutely DO NOT install the Cooker test builds without following this guide ⚠️**
 
 Skipping steps is known as the *“Rowan Skye Method”* and it **will break things**.
-Please read carefully.
+Please read carefully all information on this page.
 
-> **On Cooker Builds:** Are designed for testers who want early access to new features and can report bugs. Not recommended for regular use, these builds **will** destabilize your RetroDeck experience.
+> **Cooker Builds:** Are designed for testers who want early access to new features and can report bugs. Not recommended for regular use, these builds **will** destabilize your RetroDeck experience.
+
+- Include the latest features and experimental changes.
+- Intended for early testing; many may never reach a stable release.
+
+### Pre‑Release Builds  
+
+> **Pre‑Release Builds:** Builds published on the main Git release channel that still require final testing.
+
+- Serve as a bridge between cooker and official releases.
+- May undergo last‑minute QA before they’re pushed to Flathub.
+
+### Stable Releases  
+
+> **Stable Releases:** Only builds that are published on **Flathub** are considered full stable releases.
+
+- Fully vetted, stable, and ready for end‑users.
+- Represent the final, public version of the software.
 
 ---
 

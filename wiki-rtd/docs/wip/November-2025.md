@@ -150,18 +150,21 @@ You can keep your old version installed of RetroDECK installed and don't upgrade
 
 ### What's new?
 
-- All components have been updated to their latest versions and are no longer in conflict. **Note:** We'll decide which versions to lock in during the community testing phase for the bleeding-edge components.
+- **Update Everything:** All components have been updated to their latest versions and are no longer in conflict. **Note:** We'll decide which versions to lock in during the community testing phase for the bleeding-edge components.
 
-- RetroDECK is now using the latest KDE Runtime.
+- **Latest Runtime:** RetroDECK is now using the latest KDE Runtime, no more angry and quite threatening terminal messages. 
 
-- Many many many backend changes, we are so far over **1500+** commits since 0.9.4b.
+- **Changes:** Many many many backend changes, we are so far over **1500+** commits since 0.9.4b.
+
+- **Tweaks and Cleanup:** Many other tweaks and changes to configs and other cleanup. 
+
+- **Fresh Looks:** New icons for RetroDECK's folders made by the RetroDECK Team's very own iconographer Lahrs. With a function to disable the iconset (for all you icon haters out there, we got you covered) and a structure to support more community made folder iconsets in the future. 
 
 - **Ryubing** replaces legacy **Ryujinx**.
 
-- **Azahar** adds support for 3DS emulation.
+- **Azahar** adds standalone support for 3DS emulation.
 
-- **OpenBOR** is finally included, with its own wrapper.  
-  Just create `.bor` or `.openbor` files.
+- **OpenBOR** is finally included, with its own wrapper. Just create `.bor` or `.openbor` files.
 
 - **UZDoom** will replace **GZDoom** if a stable release appears soon; otherwise, we'll continue using the latest GZDoom version. Currently the **UZDoom** Team is also taking official control over their flatpak as well, as it was previously built by a third party and making it a part of their pipeline. The RetroDECK Team has offered to be of any assistance to them if needed on their flatpak journey or just answer questions.
 

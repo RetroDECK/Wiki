@@ -446,9 +446,8 @@ nav:
       - component_manifest.json: wiki_development/components/component-files/component-ingredient-manifest.md
       - component_prepare.sh: wiki_development/components/component-files/component-ingredient-prepare.md
 
-    - RetroDECK Tools & Functions:
-      - Easter Egg Splashes: wiki_development/functions/easter-egg-splashes.md
-      - Compression: wiki_development/functions/compression.md
+    - Graphics:
+        - Easter Egg Splashes: wiki_development/graphics/easter-egg-splashes.md
 
     - Flatpak:
       - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
@@ -457,6 +456,10 @@ nav:
     - Testing:
       - Cooker Testing - Guide: wiki_development/testing/cooker-testing.md
       - Experimental Features: wiki_development/testing/experimental-features.md
+
+    - Tools & Functions:
+      - Compression: wiki_development/functions/compression.md
+      - Steam Sync: wiki_development/functions/steam-sync.md
 
   - Credits ❤️:
 

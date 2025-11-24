@@ -75,7 +75,7 @@ This is RetroDECK 0.9.4 and all older versions.
 
 This is RetroDECK 0.10.0b and future versions. 
 
-This was inspired by Docker and OSTREE. 
+This was inspired by Docker and OSTree. 
 
 1. **Base Runtime** – Provides a stable, standard execution environment common to all parts, but it can be diverged if needed by components. 
 2. **Libraries Layer** – A curated collection of libraries and tools that are universally required across components.

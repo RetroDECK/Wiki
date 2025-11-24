@@ -136,9 +136,17 @@ Look at it now! Look at it! Marvel in the insanity!"
 
 ---
 
-## RetroDECK 0.10.0b - What's new?
+## RetroDECK 0.10.0b - What is in it and what is not?
 
 A this has been a huge endeavor we want to get an update out as soon as possible to update all the components, we have decided on a limited scope of new components to add in 0.10.0b.
+
+### What's not in it?
+
+**Important: On Ponzu** 
+
+Ponzu does not work in version 0.10.0b (the temporary solution for installing legacy emulators). It simply cannot function with the new system.
+
+You can keep your old version installed of RetroDECK installed and don't upgrade or block upgrades or downgrade from Flathub if needed.
 
 ### What's new?
 

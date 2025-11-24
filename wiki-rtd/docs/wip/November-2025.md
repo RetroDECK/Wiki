@@ -109,7 +109,7 @@ It's kinda like building a docker container for each component right at runtime.
 
 Thanks to the RetroDECK Alchemist pipeline introduced in last month’s blog post, each component is now compiled **independently** from its official sources. RetroDECK merely pulls these finished artifacts into its own build process as sub‑modules.
 
-The result is a fully **modular** architecture that remains packaged within a single Flatpak preserving the "one button install and everything is included approach" that people love and what RetroDECK is.
+The result is a fully **modular** architecture that remains packaged within a single Flatpak preserving the *one button install and everything is included approach* that people love and what RetroDECK is.
 
 ### RetroDECK API
 

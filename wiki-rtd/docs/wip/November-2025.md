@@ -159,7 +159,6 @@ A this has been a huge endeavor we want to get an update out as soon as possible
 
 - **Flips** A new tool, is built into RetroDECK via the Configurator. It can patch ROM hacks using `.ips` files.
 
-- **Rewritten YML with finer‑grained permissions:** The latest rewrite reduces the broad, global permissions that the RetroDECK Flatpak previously required. Instead, we now request only the specific permissions and we’ve added inline comments explaining the rationale behind every permission. Looking ahead, we’re exploring additional incremental permission changes. Our goal is to eventually enable features such as HDR support in RetroArch and light‑gun compatibility, though these things aren’t available yet. *Huzzah! Transparency!*
 - 
 ---
 

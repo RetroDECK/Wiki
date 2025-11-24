@@ -163,7 +163,7 @@ You can keep your old version installed and don't upgrade / block upgrades or do
 - **OpenBOR** is finally included, with its own wrapper.  
   Just create `.bor` or `.openbor` files.
 
-- **UZDoom** may replace **GZDoom** if a stable release appears soon; otherwise, we'll continue using the latest GZDoom version.
+- **UZDoom** will replace **GZDoom** if a stable release appears soon; otherwise, we'll continue using the latest GZDoom version. Currently the **UZDoom** Team is also taking official control over their flatpak as well, as it was previously built by a third party and making it a part of their pipeline. The RetroDECK Team has offered to be of any assistance to them if needed on their flatpak journey or just answer questions.
 
 - **Flips** A new tool, is built into RetroDECK via the Configurator. It can patch ROM hacks using `.ips` files.
 

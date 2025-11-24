@@ -107,7 +107,7 @@ It's kinda like spinning up a docker container for each component at the moment 
 
 ### RetroDECK Alchemist: Independent Component Builds
 
-Thanks to the RetroDECK Alchemist pipeline introduced in last month’s blog post, each component is now compiled **independently** from its official sources. RetroDECK merely pulls these finished artifacts into its own build process as sub‑modules.
+Thanks to the RetroDECK Alchemist pipeline introduced in last month’s blog post, each component is now compiled **independently** from its official sources. RetroDECK merely pulls these finished artifacts into its own build process as sub‑modules via our own Component Recipe and Component Ingredient files (also in a past blog post).
 
 The result is a fully **modular** architecture that remains packaged within a single Flatpak preserving the *one button install and everything is included approach* that people love and what RetroDECK is.
 

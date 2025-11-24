@@ -97,11 +97,11 @@ When traversing from the base runtime upward through a component’s flow from t
 
 Effectively, each component are isolated within their own environment kinda like AppImage‑style sandboxed pre‑extracted, containers for every component that runs within a Flatpak total environment. 
 
-It's kinda like building a docker container for each component right at runtime.
+It's kinda like spinning up a docker container for each component at the moment it runs.
 
 **Benefits**
 
-- **Isolation:** Each component receives precisely the libraries it needs without affecting others. 
+- **Isolation:** Each component receives precisely the libraries it needs without affecting others from both shared-libraries and component specific. 
 - **Flexibility:** Newer components can be integrated by adding or adjusting only their custom layers, leaving the base runtime untouched. 
 - **Scalability:** The architecture makes it much easier to add more components, keeping them updated and isolated.
 

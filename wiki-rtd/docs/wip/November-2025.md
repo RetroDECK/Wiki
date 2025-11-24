@@ -38,7 +38,7 @@ We also wish you a 🦃 Happy Thanksgiving 🦃 for those that celebrate it.
 
 **RetroDECK 0.10.0b - Dastadly Dansband**
 
-Is a total rewrite of how RetroDECK is made under the acronym: "Project Neo".  
+Is a total rewrite of how RetroDECK is made under the pseudonym/codename: "Project Neo".  
 
 Let us explain what we have created and why it has taken us so long.
 
@@ -93,21 +93,21 @@ It was inspired by Docker and OSTree.
 5. **Component Applications** - The binaries are within their own little environment. 
 6. **RetroDECK** - RetroDECK application at the top calling various components, layers and functions. 
 
-When traversing from the base runtime upward through a component’s flow from the Host OS to RetroDECK, the resulting view for that component reflects a concatenated set of libraries and dependencies specifically for that component (it only see what it wants to see).
+When traversing from the base runtime upward through a component’s flow from the Host OS to RetroDECK, the resulting view for that component reflects a concatenated set of libraries and dependencies specifically for that component (it only sees what it needs to see).
 
 Effectively, each component are isolated within their own environment kinda like AppImage‑style sandboxed pre‑extracted, containers for every component that runs within a Flatpak total environment. 
 
-It's kinda like spinning up a docker container for each component at the moment it runs.
+It's kinda like spinning up a docker container from a premade set of interchangeable layers for each component at the moment it runs.
 
 **Benefits**
 
-- **Isolation:** Each component receives precisely the libraries it needs without affecting others from both shared-libraries and component specific. 
+- **Isolation:** Each component receives precisely the libraries it needs without affecting others from either or both shared-libraries and component specific libraries. 
 - **Flexibility:** Newer components can be integrated by adding or adjusting only their custom layers, leaving the base runtime untouched. 
 - **Scalability:** The architecture makes it much easier to add more components, keeping them updated and isolated.
 
 ### RetroDECK Alchemist: Independent Component Builds
 
-Thanks to the RetroDECK Alchemist pipeline introduced in last month’s blog post, each component is now compiled **independently** from its official sources. RetroDECK merely pulls these finished artifacts into its own build process as sub‑modules via our own Component Recipe and Component Ingredient files (also in a past blog post).
+Thanks to the RetroDECK Alchemist pipeline introduced in last month’s blog post, each component is now constructed **independently** from its official sources. RetroDECK merely pulls these finished artifacts into its own build process as sub‑modules via our own Component Recipe and Component Ingredient files (also in a past blog post).
 
 The result is a fully **modular** architecture that remains packaged within a single Flatpak preserving the *one button install and everything is included approach* that people love and what RetroDECK is.
 
@@ -136,17 +136,9 @@ Look at it now! Look at it! Marvel in the insanity!"
 
 ---
 
-## RetroDECK 0.10.0b - What is in it and what is not?
+## RetroDECK 0.10.0b - What's new?
 
 A this has been a huge endeavor we want to get an update out as soon as possible to update all the components, we have decided on a limited scope of new components to add in 0.10.0b.
-
-### What's not in it?
-
-**Important: On Ponzu** 
-
-Ponzu does not work in version 0.10.0b (the temporary solution for installing legacy emulators). It simply cannot function with the new system.
-
-You can keep your old version installed and don't upgrade / block upgrades or downgrade from Flathub if needed.
 
 ### What's new?
 
@@ -167,8 +159,8 @@ You can keep your old version installed and don't upgrade / block upgrades or do
 
 - **Flips** A new tool, is built into RetroDECK via the Configurator. It can patch ROM hacks using `.ips` files.
 
-- **Rewritten YML with reduced global permissions and finer‑grained controls:** Thanks the new rewrite we have now reduced the global permissions the RetroDECK Flatpak needs. We have also added more granular permissions with motivation why we need them in the descriptions in the YML. We are looking into some other gradual permissions in the long-term to see if we can enable things like HDR in RetroArch, light guns support but it is not in yet. *Huzzah! Transparency!*
-
+- **Rewritten YML with finer‑grained permissions:** The latest rewrite reduces the broad, global permissions that the RetroDECK Flatpak previously required. Instead, we now request only the specific permissions and we’ve added inline comments explaining the rationale behind every permission. Looking ahead, we’re exploring additional incremental permission changes. Our goal is to eventually enable features such as HDR support in RetroArch and light‑gun compatibility, though these things aren’t available yet. *Huzzah! Transparency!*
+- 
 ---
 
 ## What’s coming next?

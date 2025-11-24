@@ -119,13 +119,19 @@ Looking ahead, we plan to leverage these modern APIs to develop a next‑generat
 
 ### A fatpak
 
-*"This absolutely has to be the most complicated Flatpak implementation in existence."* 
-
+```
+"This absolutely has to be the most complicated Flatpak implementation in existence."
 //IceNine - RetroDECK Team
 
-*"A fatpak!"* 
+"Once I've been told that what I wanted to do with RetroDECK Classic
+was impossible by various experts of everything flat and packaged. 
+Look at it now! Look at it! Marvel in the insanity!" 
+// Xargon - RetroDECK Team
 
+"A fatpak!"
 //Lazorne - RetroDECK Team
+```
+
 
 ---
 
@@ -143,21 +149,24 @@ You can keep your old version installed and don't upgrade / block upgrades or do
 
 ### What's new?
 
-- All components have been updated to their latest versions and are no longer in conflict.  
-  Note: We'll decide which versions to lock in during the community testing phase.
+- All components have been updated to their latest versions and are no longer in conflict. **Note:** We'll decide which versions to lock in during the community testing phase for the bleeding-edge components.
+
+- RetroDECK is now using the latest KDE Runtime.
 
 - **Ryubing** replaces legacy **Ryujinx**.
 
-- **Azahar** adds suport for 3DS emulation.
+- **Azahar** adds support for 3DS emulation.
 
 - **OpenBOR** is finally included, with its own wrapper.  
   Just create `.bor` or `.openbor` files.
 
 - **UZDoom** may replace **GZDoom** if a stable release appears soon; otherwise, we'll continue using the latest GZDoom version.
 
-- A new tool: **Flips**, is built into RetroDECK via the Configurator.  
-  It can patch ROM hacks using IPS files.
+- **Flips** A new tool, is built into RetroDECK via the Configurator. It can patch ROM hacks using `.ips` files.
 
+- **Rewritten YML with reduced global permissions and finer‑grained controls:** Thanks the new rewrite we have now reduced the global permissions the RetroDECK Flatpak needs. We have also added more granular permissions with motivation why we need them in the descriptions in the YML. We are looking into some other gradual permissions in the long-term to see if we can enable things like HDR in RetroArch, light guns support but it is not in yet. *Huzzah! Transparency!*
+
+---
 
 ## What’s coming next?
 
@@ -170,7 +179,6 @@ That update will showcase the full power of the work we’ve put into RetroDECK 
 Testing will start soon after 0.10.0b ships. There might be some extra time added for possible hot‑fixes (e.g., a 0.10.1b patch). 
 
 We’re excited to show more when the time comes!
-
 
 
 ## That is all for now 

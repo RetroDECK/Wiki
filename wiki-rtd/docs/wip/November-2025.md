@@ -183,6 +183,7 @@ Testing will start soon after 0.10.0b ships. There might be some extra time adde
 
 We’re excited to show more when the time comes!
 
+---
 
 ## That is all for now 
 
@@ -190,9 +191,10 @@ There are more things we are working on, but you will see them in future blog up
 
 And as always if you want to help with development join the 💙-i-want-to-help channel on Discord.
 
-Thanks everyone! 
+Thanks everyone, our ARMs really hurt now from all that typing! 
 
 //The RetroDECK Team 
+
 
 ### Links 
 

@@ -153,6 +153,8 @@ You can keep your old version installed and don't upgrade / block upgrades or do
 
 - RetroDECK is now using the latest KDE Runtime.
 
+- Many many many backend changes, we are so far over **1500+** commits since 0.9.4b.
+
 - **Ryubing** replaces legacy **Ryujinx**.
 
 - **Azahar** adds support for 3DS emulation.

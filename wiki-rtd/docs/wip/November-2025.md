@@ -32,13 +32,13 @@ We also wish you a 🦃 Happy Thanksgiving 🦃 for those that celebrate it.
 
 ---
 
-## What has science done: A fatpak
+## What has science done: A fatpak?
 
 <img src="../fatpak.jpg" width="500"> 
 
 **RetroDECK 0.10.0b - Dastadly Dansband**
 
-Is a total rewrite of how RetroDECK is made. 
+Is a total rewrite of how RetroDECK is made under the acronym: "Project Neo".  
 
 Let us explain what we have created and why it has taken us so long.
 
@@ -84,7 +84,7 @@ This is RetroDECK 0.9.4 and all older versions.
 
 This is RetroDECK 0.10.0b and future versions. 
 
-This was inspired by Docker and OSTree. 
+It was inspired by Docker and OSTree. 
 
 1. **Base Runtime** – Provides a stable, standard execution environment common to all parts, but it can be diverged if needed by components. 
 2. **Libraries Layer** – A curated collection of libraries and tools that are universally required across components.
@@ -128,6 +128,50 @@ Looking ahead, we plan to leverage these modern APIs to develop a next‑generat
 //Lazorne - RetroDECK Team
 
 ---
+
+## RetroDECK 0.10.0b - What is in it and what is not?
+
+A this has been a huge endeavor we want to get an update out as soon as possible to update all the components, we have decided on a limited scope of new components to add in 0.10.0b.
+
+### What's not in it?
+
+**Important: On Ponzu** 
+
+Ponzu does not work in version 0.10.0b (the temporary solution for installing legacy emulators). It simply cannot function with the new system.
+
+You can keep your old version installed and don't upgrade / block upgrades or downgrade from Flathub if needed.
+
+### What's new?
+
+- All components have been updated to their latest versions and are no longer in conflict.  
+  Note: We'll decide which versions to lock in during the community testing phase.
+
+- **Ryubing** replaces legacy **Ryujinx**.
+
+- **Azahar** adds suport for 3DS emulation.
+
+- **OpenBOR** is finally included, with its own wrapper.  
+  Just create `.bor` or `.openbor` files.
+
+- **UZDoom** may replace **GZDoom** if a stable release appears soon; otherwise, we'll continue using the latest GZDoom version.
+
+- A new tool: **Flips**, is built into RetroDECK via the Configurator.  
+  It can patch ROM hacks using IPS files.
+
+
+## What’s coming next?
+
+If you’re looking for many more components in RetroDECK, the second upcoming major release will deliver exactly that:
+
+**RetroDECK 0.11.0b - Everything Explosion** 
+
+That update will showcase the full power of the work we’ve put into RetroDECK rewrite.
+
+Testing will start soon after 0.10.0b ships. There might be some extra time added for possible hot‑fixes (e.g., a 0.10.1b patch). 
+
+We’re excited to show more when the time comes!
+
+
 
 ## That is all for now 
 

@@ -36,7 +36,7 @@ We also wish you a 🦃 Happy Thanksgiving 🦃 for those that celebrate it.
 
 Is a total rewrite of how RetroDECK is made. 
 
-Let us explain what we have created. 
+Let us explain what we have created and why it has taken us so long.
 
 
 ### Simple flatpak
@@ -60,68 +60,60 @@ This is a more advanced flatpak
 
 <img src="../flatpakrdclassic.drawio.png" width="250"> 
 
+This is RetroDECK 0.9.4 and all older versions.
+
+- The application relied solely on the libraries provided by the Flatpak runtime. 
+- This model forced a single runtime to serve all components, regardless of their divergent library requirements.
+- As individual components evolved, their library dependencies diverged significantly most notably the transition from Qt 5 to Qt 6 . 
+- Because a Flatpak can host only one runtime, updating the runtime to satisfy a newer component (e.g., PCSX2) would inevitably break compatibility with others that depend on older libraries. 
+- This incompatibility prevented us from upgrading several components to their latest releases in a easy maner and often required manual patches or custom builds.
+
+
 ### RetroDECK "New"
 
 <img src="../flatpakrdneo.drawio.png" width="250"> 
 
-### Flatpak‑Based Library Layering for Advanced Components
+This is RetroDECK 0.10.0b and future versions. 
 
-Modern components like RPCS3 often require libraries that are unavailable in any of the standard Flatpak runtimes. To accommodate these dependencies, developers introduce a custom “library layer” that supplements the runtime environment.
+This was inspired by Docker and OSTREE. 
 
-### Legacy Approach – RetroDECK Classic
+1. **Base Runtime** – Provides a stable, standard execution environment common to all parts, but it can be diverged if needed by components. 
+2. **Libraries Layer** – A curated collection of libraries and tools that are universally required across components.
+2. **Component Shared Libraries Layer** – A curated collection of libraries that are component specific but can be shared with other components, thus saving space. 
+4. **Component Specific Libraries Layer** – Unique special libraries that are only bound to that component and can not be shared. 
+5. **Component Applications** - The binaries are within their own little environment. 
+6. **RetroDECK** - RetroDECK application at the top calling various components, layers and functions. 
 
-In earlier implementations the application relied solely on the libraries provided by the Flatpak runtime. While functional, this model forced a single runtime to serve all components, regardless of their divergent library requirements.
+When traversing from the base runtime upward through a component’s flow from the Host OS to RetroDECK, the resulting view for that component reflects a concatenated set of libraries and dependencies specifically for that component (it only see what it wants to see).
 
-As individual components evolved, their library dependencies diverged significantly most notably the transition from Qt 5 to Qt 6. Because a Flatpak can host only one runtime, updating the runtime to satisfy a newer component (e.g., PCSX2) would inevitably break compatibility with others that depend on older libraries. This incompatibility prevented us from upgrading several components to their latest releases.
+Effectively, each component are isolated within their own environment kinda like AppImage‑style sandboxed pre‑extracted, containers for every component that runs within a Flatpak total environment. 
 
-### Current Architecture
+It's kinda like building a docker container for each component right at runtime.
 
-Our solution (illustrated in Figure 2) introduces a multi‑tiered environment:
-
-1. **Base Runtime** – Provides a stable, standard execution environment common to all parts. 
-2. **Shared Libraries** – A curated collection of libraries and tools that are universally required across components. 
-3. **Per‑Component Custom Layers** – Individualized environments that adjust `LD_LIBRARY_PATH` (and related variables) to inject component‑specific libraries.
-
-Effectively, each component runs within a Flatpak that bundles pre‑extracted, AppImage‑style containers for every necessary part. When traversing from the base runtime upward through a component’s stack, the resulting view reflects a concatenated set of libraries tailored specifically for that component.
-
-### Benefits
+**Benefits**
 
 - **Isolation:** Each component receives precisely the libraries it needs without affecting others. 
 - **Flexibility:** Newer components can be integrated by adding or adjusting only their custom layers, leaving the base runtime untouched. 
-- **Scalability:** The architecture is inspired by the modularity of Docker containers and OSTree.
+- **Scalability:** The architecture makes it much easier to add more components, keeping them updated and isolated.
 
-This layered strategy represents arguably the most sophisticated Flatpak implementation to date, drawing inspiration from Docker’s containerization principles while preserving the security and distribution advantages inherent to Flatpak.
----
+**Components are build separately**
 
-IceNine:
+Not only that thanks to RetroDECK Alchemist that we talked about last month blog-post all components are now built separately from each other from official sources and RetroDECK is just grabbing those completed builds into it's own build-process as sub-modules.
 
-Pic 1
+Everything is now modular, but still contained within the one flatpak you love!
 
-More advanced applications will need libraries that don't exist in any Flatpak-provided runtime, so they add their own "library layer" like this:
+*"This absolutely has to be the most complicated Flatpak implementation in existence."* 
+//IceNine - RetroDECK Team
 
+## That is all for now 
 
-RetroDECK Classic looked like this:
+There are more things we are working on, but you will see them in future blog updates!
 
-Pic 2
+And as always if you want to help with development join the 💙-i-want-to-help channel on Discord.
 
-But since the layers are squished together in the running Flatpak environment, the application sees both the runtime libraries and extra libraries in the same path, so you don't need to change how the application works internally.
+Thanks everyone! 
 
-But the problem here was that the library requirements for individual emulators kept getting farther and farther apart, and there is no way to handle the major differences, like between Qt5 and Qt6, in an environment like this because you can only have the one runtime. This is why we couldn't update to newer versions of some emulators (like PCSX2 I think), because updating the runtime to support that one would in turn break another.
-
-So now we have this:
-
-Pic 3
-
-"With a common base runtime providing the "standard environment", along with additional common libraries and tools. On top of that is the "shared-libs" which is a common set of libraries available to all emulators, and on top of that we have customized environments for each individual emulator as needed, handled by changing the LD_LIBRARY_PATH etc. as needed.
-
-So, effectively, we have built a Flatpak containing pre-extracted AppImage-like containers for every component.
-
-But basically, if you draw a line from bottom to top through any given component, you get a concatenated view of everything that it "sees" when it runs, which is different for each emulator.
-
-Kinda like building a docker container for each one right at runtime.
-
-This absolutely has to be the most complicated Flatpak implementation in existence. Inspired by Docker and ostree."
-
+//The RetroDECK Team 
 
 ### Links 
 

@@ -120,7 +120,8 @@ Looking ahead, we plan to leverage these modern APIs to develop a next‑generat
 ### A fatpak
 
 ```
-"This absolutely has to be the most complicated Flatpak implementation in existence."
+"This absolutely has to be the most complicated 
+Flatpak implementation in existence."
 //IceNine - RetroDECK Team
 
 "Once I've been told that what I wanted to do with RetroDECK Classic

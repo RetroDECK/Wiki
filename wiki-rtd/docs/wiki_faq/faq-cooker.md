@@ -20,13 +20,13 @@ The names are randomly generated to make it easy to see what build you are runni
 
 ## Can I help you with testing?
 
-Yes, post in the `💙-i-want-to-help` on our [Discord](https://discord.gg/WDc5C9YWMx) or [Matrix](https://matrix.to/#/#retrodeck:matrix.org) that you want to help with testing cooker builds.
+Yes, post in the `💙-i-want-to-help` on our [Discord](https://discord.gg/WDc5C9YWMx) that you want to help with testing cooker builds.
 
 Anyone can always download the cooker builds without telling the team as they are open to all, but we recommend that you do the RetroDECK team and flag yourself as a tester as the RetroDECK team can support you.
 
 ## How do I start with testing?
 
-Read the [Cooker Testing - Guide](../wiki_development/testing/cooker-testing.md)
+Read the [Testing - Guide](../wiki_development/testing/retrodeck-testing.md)
 
 ## How do I upgrade from Cooker to Cooker?
 

@@ -17,7 +17,10 @@ We also wish you a 🦃 Happy Thanksgiving 🦃 for those that celebrate it.
 **News**
 
 - Testing has started
-- What has science done
+- What has science done: A fatpak?
+- RetroDECK 0.10.0b - What is in it and what is not?
+- Important: On Ponzu
+- What's new?
 
 
 <!-- more -->
@@ -150,29 +153,57 @@ You can keep your old version installed of RetroDECK installed and don't upgrade
 
 ### What's new?
 
-- **Update Everything:** All components have been updated to their latest versions and are no longer in conflict. **Note:** We'll decide which versions to lock in during the community testing phase for the bleeding-edge components.
+This is a short summery and not the full list.
 
-- **Latest Runtime:** RetroDECK is now using the latest KDE Runtime, no more angry and quite threatening terminal messages. 
+**Updated Everything** 
 
-- **Changes:** Many many many backend changes, we are so far over **1500+** commits since 0.9.4b.
+All components have been updated to their latest versions and are no longer in conflict. 
 
-- **Tweaks and Cleanup:** Many other tweaks and changes to configs and other cleanup. 
+*Note:* We'll decide which versions to lock in during the community testing phase for the bleeding-edge components.
 
-- **Fresh Looks:** New icons for RetroDECK's folders made by the RetroDECK Team's very own iconographer Lahrs. With a function to disable the iconset (for all you icon haters out there, we got you covered) and a structure to support more community made folder iconsets in the future. 
+**Latest Runtime** 
 
-- **Ryubing** replaces legacy **Ryujinx**.
+RetroDECK is now using the latest KDE Runtime, no more angry and quite threatening terminal messages. 
 
-- **Azahar** adds standalone support for 3DS emulation.
+**Changes** 
 
-- **OpenBOR** is finally included, with its own wrapper. Just create `.bor` or `.openbor` files.
+Many many many backend changes, we are so far over **1500+** commits since 0.9.4b.
 
-- **UZDoom** will replace **GZDoom** if a stable release appears soon; otherwise, we'll continue using the latest GZDoom version. Currently the **UZDoom** Team is also taking official control over their flatpak as well, as it was previously built by a third party and making it a part of their pipeline. The RetroDECK Team has offered to be of any assistance to them if needed on their flatpak journey or just answer questions.
+**Tweaks and Cleanup** 
 
-- **.doom file Improvements:** The RetroDECK .doom file format now support: custom .ini files, symbolic linked files and files with spaces.
+Many other tweaks and changes to configs and other cleanup. 
 
-- **Flips** A new tool, is built into RetroDECK via the Configurator. It can patch ROM hacks using `.ips` files.
+**Fresh Folder Looks** 
 
-- **Rewritten YML with finer‑grained permissions:** The latest rewrite reduces the broad, global permissions that the RetroDECK Flatpak previously required. Instead, we now request only the specific permissions and we’ve added inline comments explaining the rationale behind every permission. Looking ahead, we’re exploring additional incremental permission changes. Our goal is to eventually enable features such as HDR support in RetroArch and light‑gun compatibility, though these things aren’t available yet. *Huzzah! Transparency!*
+New icons for RetroDECK's folders made by the RetroDECK Team's very own iconographer Lahrs. With a function to disable the iconset (for all you icon haters out there, we got you covered) and a structure to support more community made folder iconsets in the future. 
+
+**Ryubing** 
+
+replaces legacy **Ryujinx**.
+
+**Azahar** 
+
+adds standalone support for 3DS emulation, not that Azahar does not support encrypted games.
+
+**OpenBOR** 
+
+is finally included, with its own wrapper. Just create `.bor` or `.openbor` files.
+
+**GZDoom:** 
+
+`.doom` File Improvements
+
+The RetroDECK `.doom` file format now supports custom .ini files, symbolic links, and filenames that contain spaces. While we originally planned to replace it with UZDoom, we may need to postpone that transition until the 0.11.0b release. The UZDoom team is currently taking official control of their Flatpak distribution and are preparing pre‑release AppImages. Previously, their Flatpak was built by a third party; now it’s being integrated into their own build pipeline.
+
+RetroDECK is happy to assist the UZDoom team with any Flatpak‑related questions or challenges they encounter during this process.
+
+**Flips** 
+
+A new tool, is built into RetroDECK via the Configurator. It can patch ROM hacks using `.ips` files.
+
+**Rewritten YML with finer‑grained permissions** 
+
+The latest rewrite reduces the broad, global permissions that the RetroDECK Flatpak previously required. Instead, we now request only the specific permissions and we’ve added inline comments explaining the rationale behind every permission. Looking ahead, we’re exploring additional incremental permission changes. Our goal is to eventually enable features such as HDR support in RetroArch and light‑gun compatibility, though these things aren’t available yet. *Huzzah! Transparency!*
 
 ---
 

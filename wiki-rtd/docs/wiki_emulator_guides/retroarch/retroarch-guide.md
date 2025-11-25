@@ -16,6 +16,7 @@ RetroArch is a multi-emulator that play games with emulator cores.
 
 [ES-DE User Guide: Supported Game Systems](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#supported-game-systems)
 
+---
 
 ### RetroArch Docs - Guide Links
 
@@ -44,6 +45,8 @@ RetroDECK follows the ES-DE folder layout:
 
 The `ES-DE User Guide` (above) has an always updated list on what subfolder under `retrodeck/roms/` corresponds to what RetroArch core.
 
+---
+
 ## What file formats are supported?
 
 Different for each system / core.
@@ -57,12 +60,15 @@ A general guideline is to use compressed formats:
 | .zip        | Compressed archive file | For non-disc systems like 8-bit or 16-bit consoles (e.g., NES, SNES) |
 | .chd        | Compressed Hunks of Data file | For disc systems (e.g., PlayStation, Sega CD) |
 
+---
 
 ## Does RetroArch require BIOS or Firmware?
 
 It depends on the core.
 
 Check each system on the `RetroArch Docs` and the `ES-DE User Guide` for the latest information (above). 
+
+---
 
 ## Folder structure
 
@@ -72,6 +78,8 @@ Check each system on the `RetroArch Docs` and the `ES-DE User Guide` for the lat
 | Saves Folder |`retrodeck/saves/<multiple>` |                               |        |
 | States Folder |`retrodeck/states/<multiple>` |                               |  Save States depends on the core if it has support or not | 
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retroarch/`         |   |
+
+---
 
 ## Core List
 
@@ -308,6 +316,8 @@ RetroDECK always try to ship all cores in RetroArch
 | YabaSanshiro              | Sega Saturn            | A port of the YabaSanshiro, which is itself a fork of Yabause emulator |
 | Yabause                   | Sega Saturn            |                    |
 
+---
+
 ##  Cores with rewind support
 
 **Note:** Enabling rewinding can cause a big performance hit.
@@ -395,3 +405,15 @@ The following cores support the `Rewind` function.
 |  Vectrex             | vecx   |
 | ZX 81             | EightyOne    |
 |   ZX Spectrum            | Fuse    |
+
+---
+
+## How-to: Enable AI Translation in RetroArch 
+
+- Open RetroDeck Configurator → launch RetroArch → Settings.
+- Enable AI Service: Settings → AI Service → AI Service Enabled = ON.
+- Set Service URL: Settings → AI Service → Service URL → paste a working endpoint (e.g., ZTranslate URL). Ensure RetroArch can reach the endpoint (same network, correct port).
+- Choose output: Settings → AI Service → Output → select Text Overlay, Widgets, Narrator, or any combination.
+- Bind a hotkey: Settings → Input → Hotkey Binds → assign a button for AI Service.
+- Test: load a game, press the hotkey on a text screen → translation appears; press again to clear.
+- Save: Settings → Configuration → Save Current Configuration.

@@ -195,7 +195,7 @@ RetroDECK wrapper:`.doom` File Improvements
 
 The RetroDECK `.doom` file format now supports custom .ini files, symbolic links, and filenames that contain spaces. While we originally planned to replace it with UZDoom, we may need to postpone that transition until the 0.11.0b release. The UZDoom team is currently taking official control of their Flatpak distribution and are preparing pre‑release AppImages. Previously, their Flatpak was built by a third party; now it’s being integrated into their own build pipeline.
 
-RetroDECK team has offered to assist the UZDoom team with any Flatpak‑related questions or challenges they encounter during this process and they are always welcome to ask if they want to.
+RetroDECK team has told the the UZDoom team that they are happy to answer any Flatpak‑related questions or challenges they encounter.
 
 **Flips** 
 

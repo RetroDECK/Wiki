@@ -183,23 +183,23 @@ replaces legacy **Ryujinx**.
 
 **Azahar** 
 
-adds standalone support for 3DS emulation, not that Azahar does not support encrypted games.
+Adds standalone support for 3DS emulation. **Note:** that Azahar does not support encrypted games.
 
 **OpenBOR** 
 
-is finally included, with its own wrapper. Just create `.bor` or `.openbor` files.
+Is finally included, with its own RetroDECK wrapper: just create `.bor` or `.openbor` files and start fighting random dudes and dudettes.
 
 **GZDoom:** 
 
-`.doom` File Improvements
+RetroDECK wrapper:`.doom` File Improvements
 
 The RetroDECK `.doom` file format now supports custom .ini files, symbolic links, and filenames that contain spaces. While we originally planned to replace it with UZDoom, we may need to postpone that transition until the 0.11.0b release. The UZDoom team is currently taking official control of their Flatpak distribution and are preparing pre‑release AppImages. Previously, their Flatpak was built by a third party; now it’s being integrated into their own build pipeline.
 
-RetroDECK is happy to assist the UZDoom team with any Flatpak‑related questions or challenges they encounter during this process.
+RetroDECK team has offered to assist the UZDoom team with any Flatpak‑related questions or challenges they encounter during this process and they are always welcome to ask if they want to.
 
 **Flips** 
 
-A new tool, is built into RetroDECK via the Configurator. It can patch ROM hacks using `.ips` files.
+A new tool, is built into RetroDECK via the Configurator. It can patch ROM hacks using `.ips` & `.bps` files.
 
 **Rewritten YML with finer‑grained permissions** 
 

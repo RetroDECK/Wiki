@@ -11,21 +11,23 @@
 Skipping steps is known as the *“Rowan Skye Method”* and it **will break things**.
 Please read carefully all information on this page.
 
-> **Cooker Builds:** Are designed for testers who want early access to new features and can report bugs. Not recommended for regular use, these builds **will** destabilize your RetroDeck experience.
+**Cooker Builds:** 
+
+Are designed for testers who want early access to new features and can report bugs. Not recommended for regular use, these builds **will** destabilize your RetroDeck experience.
 
 - Include the latest features and experimental changes.
 - Intended for early testing; many may never reach a stable release.
 
 ### Pre‑Release Builds  
 
-> **Pre‑Release Builds:** Builds published on the main Git release channel that still require final testing.
+Builds published on the main Git release channel that still require final testing.
 
 - Serve as a bridge between cooker and official releases.
 - May undergo last‑minute QA before they’re pushed to Flathub.
 
 ### Stable Releases  
 
-> **Stable Releases:** Only builds that are published on **Flathub** are considered full stable releases.
+Only builds that are published on **Flathub** are considered full stable releases.
 
 - Fully vetted, stable, and ready for end‑users.
 - Represent the final, public version of the software.
@@ -80,15 +82,22 @@ This will trigger all the post-updates from `0.8.0b` to the current version you 
 
 ### Take Your Backups (Critical!)
 
-Backups are **not optional**. The Cooker can overwrite or break existing data.  
+Backups are **not optional**. The Cooker can overwrite or break existing data. 
+
 If something goes wrong and you **did not** take backups, your ROMs, BIOS, saves, and configurations may be **lost permanently**.
 
-| What you should back up | How to do it |
+| What you should back up | Where|
 |-------------------------|--------------|
-| **RetroDECK data** (settings, configs, internal files) | `cp -r ~/.var/app/net.retrodeck.retrodeck/ old.net.retrodeck.retrodeck` |
-| **RetroDECK folder** (`~/retrodeck` or SD-card/external drive path) | Rename it to `oldretrodeck` or copy it elsewhere for safekeeping |
+| **RetroDECK data** (settings, configs, internal files) | `~/.var/app/net.retrodeck.retrodeck/` |
+| **RetroDECK folder** (main folder)| ( `~/retrodeck` or SD-card/external drive path)  |
 
-> **Recommended:** Back up your entire `~/retrodeck` folder. Even if the Cooker normally doesn't touch everything, **scripts can modify or remove files**, and once they’re gone...they’re gone. The RetroDECK Team is not responsible for you data-loss. 
+**To be extra safe:** 
+
+Back up your entire `~/retrodeck` folder. 
+
+Even if the Cooker normally doesn't touch everything, **scripts can modify or remove files**, and once they’re gone...they’re gone.
+
+The RetroDECK Team is not responsible for you data-loss. 
 
 ---
 
@@ -126,7 +135,9 @@ If you are testing a pre-release and the build have left cooker to main the name
 
 ### Choose Your Path
 
-> **What does the Team Recommended?** Check the RetroDECK team's latest instructions for the recommended path on the current cooker releases on their socials.
+ **What does the Team Recommended?** 
+ 
+ Check the RetroDECK team's latest instructions for the recommended path on the current cooker releases on their socials.
 
 1. **Fresh Install** – Start from scratch.
 2. **Upgrade** – Keep your existing setup and update.
@@ -137,8 +148,9 @@ If you are testing a pre-release and the build have left cooker to main the name
 
 To simulate a fresh install
 
-1. Remove the  `~/.var/app/net.retrodeck.retrodeck/` folder after you have made a backup of it *above*.
-2. Rename `~/retrodeck` to `~/oldretrodeck` or move/copy it to somewhere safe as written *above*.
+1. **Optional but Recommended Backups:** Of  `~/.var/app/net.retrodeck.retrodeck/` and  `~/retrodeck` and put somewhere safe.
+2. **Rename RetroDECK data:** `~/.var/app/net.retrodeck.retrodeck/` to `old.net.retrodeck.retrodeck`.
+2. **Rename RetroDECK folder:** `~/retrodeck` to  `~/oldretrodeck`.
 
 After that start RetroDECK first install with:
 
@@ -170,11 +182,9 @@ You will get several warnings, but **do not rely on them**. Avoid the button ent
 
 
 If you are on `SteamOS` like on the Steam Deck return to `Game Mode` for this step.
-
 If you are on `Linux Desktop` make sure you launch RetroDECK via Steam, else Steam Input won't work.
 
 Now feel free to test all the new features of the update and report any issues, check the patch notes for what is new.
-
 All logs will be saved in the new `retrodeck/logs` folder
 
 Thank you! ❤️

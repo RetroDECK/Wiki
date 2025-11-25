@@ -454,7 +454,7 @@ nav:
       - Flathub Publication: wiki_development/flatpak/flathub-publication.md
 
     - Testing:
-      - Cooker Testing - Guide: wiki_development/testing/cooker-testing.md
+      - Testing - Guide: wiki_development/testing/retrodeck-testing.md
       - Experimental Features: wiki_development/testing/experimental-features.md
 
     - Tools & Functions:

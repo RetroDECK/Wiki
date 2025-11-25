@@ -4,7 +4,7 @@ date: 2025-11-25
 
 --- 
 
-# November 2025:  Finally a fatpak
+# November 2025: Finally a fatpak
 
 Lots of development focused RetroDECK 0.10.0b news. 
 

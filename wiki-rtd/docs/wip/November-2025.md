@@ -168,11 +168,15 @@ You can keep your old version installed of RetroDECK installed and don't upgrade
 
 - **UZDoom** will replace **GZDoom** if a stable release appears soon; otherwise, we'll continue using the latest GZDoom version. Currently the **UZDoom** Team is also taking official control over their flatpak as well, as it was previously built by a third party and making it a part of their pipeline. The RetroDECK Team has offered to be of any assistance to them if needed on their flatpak journey or just answer questions.
 
+- **.doom file Improvements:** The RetroDECK .doom file format now support: custom .ini files, symbolic linked files and files with spaces.
+
 - **Flips** A new tool, is built into RetroDECK via the Configurator. It can patch ROM hacks using `.ips` files.
 
 - **Rewritten YML with finer‑grained permissions:** The latest rewrite reduces the broad, global permissions that the RetroDECK Flatpak previously required. Instead, we now request only the specific permissions and we’ve added inline comments explaining the rationale behind every permission. Looking ahead, we’re exploring additional incremental permission changes. Our goal is to eventually enable features such as HDR support in RetroArch and light‑gun compatibility, though these things aren’t available yet. *Huzzah! Transparency!*
 
 ---
+
+
 
 ## What’s coming next?
 

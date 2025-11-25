@@ -21,7 +21,8 @@ We also wish you a 🦃 Happy Thanksgiving 🦃 for those that celebrate it.
 - RetroDECK 0.10.0b - What is in it and what is not?
 - Important: On Ponzu
 - What's new?
-
+- Testing will Start Soon
+- What’s coming next?
 
 <!-- more -->
 

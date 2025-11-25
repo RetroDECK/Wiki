@@ -189,7 +189,7 @@ Adds standalone support for 3DS emulation. **Note:** that Azahar does not suppor
 
 Is finally included, with its own RetroDECK wrapper: just create `.bor` or `.openbor` files and start fighting random dudes and dudettes.
 
-**GZDoom:** 
+**GZDoom/UZDoom:** 
 
 RetroDECK wrapper:`.doom` File Improvements
 

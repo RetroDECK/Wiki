@@ -295,16 +295,16 @@ alias rdg-cook-comp='git clone -b cooker https://github.com/RetroDECK/components
 alias rdg-main-comp='git clone -b main https://github.com/RetroDECK/components'
 
 # --------------------------------------------------------
-# RetroDECK – Git Clone Shortcuts: Cooker Branches
+# RetroDECK – Git Clone Shortcuts: Cooker
 # --------------------------------------------------------
 
-# Usage: rdg-cook-neo
-# Clones the `project-neo` feature branch of the main RetroDECK repo.
-alias rdg-cook-neo='git clone -b feat/project-neo https://github.com/RetroDECK/RetroDECK'
+# Usage: rdg-main-rdmain
+# Clones the `main` branch of the main RetroDECK repo.
+alias rdg-main-rdmain='git clone -b main https://github.com/RetroDECK/RetroDECK'
 
-# Usage: rdg-cook-rd
+# Usage: rdg-cook-cooker
 # Clones the `cooker` branch of the main RetroDECK repo.
-alias rdg-cook-rd='git clone -b cooker https://github.com/RetroDECK/RetroDECK'
+alias rdg-cook-cooker='git clone -b cooker https://github.com/RetroDECK/RetroDECK'
 
 # --------------------------------------------------------
 # RetroDECK – Git Clone Shortcuts: Main Branch

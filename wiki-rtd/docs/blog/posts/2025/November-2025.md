@@ -234,7 +234,9 @@ Our goal is to eventually enable features such as HDR support in RetroArch and l
 
 **Other**
 
-The Palette Swap bug for GB in RA on Quit should have been fixed (hopefully).
+- The Palette Swap bug for GB in RA on Quit should have been fixed (hopefully).
+- It got more content but it also takes a little less space, (maybe we should have said Thinpak).
+- There is a new folder under retrodeck/storage for misc data.
 
 ---
 

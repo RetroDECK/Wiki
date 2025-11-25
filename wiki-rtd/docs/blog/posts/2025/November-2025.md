@@ -1,6 +1,6 @@
 --- 
 
-date: 2025-11-26
+date: 2025-11-25
 
 --- 
 
@@ -37,7 +37,7 @@ We also wish you a 🦃 Happy Thanksgiving 🦃 for those that celebrate it.
 
 ## What has science done: A fatpak?
 
-<img src="../fatpak.jpg" width="500"> 
+<img src="../../../fatpak.jpg" width="500"> 
 
 **RetroDECK 0.10.0b - Dastadly Dansband**
 
@@ -49,7 +49,7 @@ Let us explain what we have created and why it has taken us so long.
 
 ### Simple flatpak
 
-<img src="../flatpak.drawio.png" width="250"> 
+<img src="../../../flatpak.drawio.png" width="250"> 
 
 This is a simple flatpak
 
@@ -59,7 +59,7 @@ This is a simple flatpak
 
 ### Advanced flatpak
 
-<img src="../flatpakadv.drawio.png" width="250"> 
+<img src="../../../flatpakadv.drawio.png" width="250"> 
 
 This is a more advanced flatpak
 
@@ -69,7 +69,7 @@ This is a more advanced flatpak
 
 ### RetroDECK Classic
 
-<img src="../flatpakrdclassic.drawio.png" width="250"> 
+<img src="../../../flatpakrdclassic.drawio.png" width="250"> 
 
 This is RetroDECK 0.9.4 and all older versions.
 
@@ -83,7 +83,7 @@ This is RetroDECK 0.9.4 and all older versions.
 
 ### RetroDECK "New"
 
-<img src="../flatpakrdneo.drawio.png" width="250"> 
+<img src="../../../flatpakrdneo.drawio.png" width="250"> 
 
 This is RetroDECK 0.10.0b and future versions. 
 
@@ -112,7 +112,7 @@ It's kinda like spinning up a docker container from a premade set of interchange
 
 ### RetroDECK  Alchemist: Independent Component Builds
 
-<img src="../icon-alchemist.svg" width="75"> 
+<img src="../../../icon-alchemist.svg" width="75"> 
 
 Thanks to the RetroDECK Alchemist pipeline introduced in last month’s blog post, each component is now constructed **independently** from its official sources. RetroDECK merely pulls these finished artifacts into its own build process as sub‑modules via our own Component Recipe and Component Ingredient files (also in a past blog post).
 
@@ -122,7 +122,7 @@ The result is a fully **modular** architecture that remains packaged within a si
 
 ### RetroDECK API
 
-<img src="../icon-api.svg" width="75"> 
+<img src="../../../icon-api.svg" width="75"> 
 
 As outlined in an earlier blog post, a the new of RetroDECK API is superseding several legacy functions. The configurator has been refactored to align with this modular paradigm; it now assembles itself dynamically based on the components detected at runtime.
 
@@ -151,7 +151,7 @@ Look at it now! Look at it! Marvel in the insanity!"
 
 ## RetroDECK 0.10.0b - What is in it and what is not?
 
-<img src="../icon-rd.svg" width="75"> 
+<img src="../../../icon-rd.svg" width="75"> 
 
 A this has been a huge endeavor we want to get an update out as soon as possible to update all the components, we have decided on a limited scope of new components to add in 0.10.0b.
 

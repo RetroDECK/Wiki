@@ -86,7 +86,7 @@ Backups are **highly recommend**. The Cooker can overwrite or break existing dat
 
 If something goes wrong and you **did not** take backups, your ROMs, BIOS, saves, and configurations may be **lost permanently**.
 
-The RetroDECK Team is not responsible for you data-loss. 
+The RetroDECK Team is not responsible for your data-loss. 
 
 | What you should back up | Where|
 |-------------------------|--------------|

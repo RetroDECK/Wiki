@@ -176,8 +176,6 @@ You can keep your old version installed of RetroDECK installed and don't upgrade
 
 ---
 
-
-
 ## What’s coming next?
 
 If you’re looking for many more components in RetroDECK, the second upcoming major release will deliver exactly that:

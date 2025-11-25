@@ -32,7 +32,7 @@ By donating to RetroDECK, you support the project and the vision of a unified ex
 
 ### How We Use Your Contributions
 
-| ✅ Area                         | 📌 What It Funds |
+| Area                         | What It Funds |
 |--------------------------------|------------------|
 | **Infrastructure**            | Web hosting, build servers, and other hosting costs |
 | **Development Tools**         | Software licenses (we prioritize FOSS and Creative‑Commons whenever possible) |
@@ -72,7 +72,9 @@ As a flatpak we are nothing without the technology.
 
 ### Where to donate / support the project?
 
-[Flatpak collective](https://opencollective.com/flatpak)
+[Flatpak Collective](https://opencollective.com/flatpak)
+
+[Flatpak Portals](https://opencollective.com/flatpak/projects/portals) 
 
 [Flathub Donate](https://flathub.org/donate)
 

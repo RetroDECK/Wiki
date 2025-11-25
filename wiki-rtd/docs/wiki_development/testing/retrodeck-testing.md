@@ -82,22 +82,17 @@ This will trigger all the post-updates from `0.8.0b` to the current version you 
 
 ### Take Your Backups (Critical!)
 
-Backups are **not optional**. The Cooker can overwrite or break existing data. 
+Backups are **highly recommend**. The Cooker can overwrite or break existing data. 
 
 If something goes wrong and you **did not** take backups, your ROMs, BIOS, saves, and configurations may be **lost permanently**.
+
+The RetroDECK Team is not responsible for you data-loss. 
 
 | What you should back up | Where|
 |-------------------------|--------------|
 | **RetroDECK data** (settings, configs, internal files) | `~/.var/app/net.retrodeck.retrodeck/` |
 | **RetroDECK folder** (main folder)| ( `~/retrodeck` or SD-card/external drive path)  |
 
-**To be extra safe:** 
-
-Back up your entire `~/retrodeck` folder. 
-
-Even if the Cooker normally doesn't touch everything, **scripts can modify or remove files**, and once they’re gone...they’re gone.
-
-The RetroDECK Team is not responsible for you data-loss. 
 
 ---
 
@@ -148,13 +143,10 @@ If you are testing a pre-release and the build have left cooker to main the name
 
 To simulate a fresh install
 
-1. **Optional but Recommended Backups:** Of  `~/.var/app/net.retrodeck.retrodeck/` and  `~/retrodeck` and put somewhere safe.
+1. **Recommended Backups:** Of  `~/.var/app/net.retrodeck.retrodeck/` and  `~/retrodeck` and put somewhere safe.
 2. **Rename RetroDECK data:** `~/.var/app/net.retrodeck.retrodeck/` to `old.net.retrodeck.retrodeck`.
-2. **Rename RetroDECK folder:** `~/retrodeck` to  `~/oldretrodeck`.
-
-After that start RetroDECK first install with:
-
-`flatpak run net.retrodeck.retrodeck --debug` this will ensure that any errors that are popping up on first installation will be seen in the terminal window. 
+3. **Rename RetroDECK folder:** `~/retrodeck` to  `~/oldretrodeck`.
+4. **Start RetroDECK with:**  `flatpak run net.retrodeck.retrodeck --debug` this will ensure that any errors that are popping up on first installation will be seen in the terminal window. 
 
 ---
 
@@ -165,16 +157,16 @@ After that start RetroDECK first install with:
 **Do NOT press the Full Wipe and Fresh Install button.**
 
 This is *not* the same as the Configurator’s **Reset RetroDECK**.
-
 The Wipe button is a **total nuclear reset** ROMs, BIOS, artwork, saves, configs… **everything will be deleted forever.**
 
-You will get several warnings, but **do not rely on them**. Avoid the button entirely unless you have a strong valid reason to press it.
+You will get several warnings, but **do not rely on them**. 
+Avoid the button entirely unless you have a strong valid reason to press it.
 
 #### Upgrading RetroDECK
 
-- Start RetroDECK with:  `flatpak run net.retrodeck.retrodeck --debug`.
-- Press the `Upgrade` button and keep the installation moving until all the steps are complete and RetroDECK will launch.
-- Quit RetroDECK again and save all the output from the terminal into a text file.
+1. **Recommended Backups:** Of  `~/.var/app/net.retrodeck.retrodeck/` and  `~/retrodeck` and put somewhere safe. 
+2. **Start RetroDECK with:**  `flatpak run net.retrodeck.retrodeck --debug` this will ensure that any errors that are popping up during the upgrade will be seen in the terminal window. 
+3. **Upgrade:** Press the `Upgrade` button and keep the installation moving until all the steps are complete and RetroDECK will launch.
 
 ---
 

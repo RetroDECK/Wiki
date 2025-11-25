@@ -41,7 +41,7 @@ We also wish you a 🦃 Happy Thanksgiving 🦃 for those that celebrate it.
 
 **RetroDECK 0.10.0b - Dastadly Dansband**
 
-Is a total rewrite of how RetroDECK is made under the pseudonym/codename: "Project Neo".  
+Is a total rewrite of how RetroDECK is made under the pseudonym/codename: "Project Neo".
 
 Let us explain what we have created and why it has taken us so long.
 
@@ -108,17 +108,27 @@ It's kinda like spinning up a docker container from a premade set of interchange
 - **Flexibility:** Newer components can be integrated by adding or adjusting only their custom layers, leaving the base runtime untouched. 
 - **Scalability:** The architecture makes it much easier to add more components, keeping them updated and isolated.
 
-### RetroDECK Alchemist: Independent Component Builds
+---
+
+### RetroDECK  Alchemist: Independent Component Builds
+
+<img src="../icon-alchemist.svg" width="75"> 
 
 Thanks to the RetroDECK Alchemist pipeline introduced in last month’s blog post, each component is now constructed **independently** from its official sources. RetroDECK merely pulls these finished artifacts into its own build process as sub‑modules via our own Component Recipe and Component Ingredient files (also in a past blog post).
 
 The result is a fully **modular** architecture that remains packaged within a single Flatpak preserving the *one button install and everything is included approach* that people love and what RetroDECK is.
 
+---
+
 ### RetroDECK API
+
+<img src="../icon-api.svg" width="75"> 
 
 As outlined in an earlier blog post, a the new of RetroDECK API is superseding several legacy functions. The configurator has been refactored to align with this modular paradigm; it now assembles itself dynamically based on the components detected at runtime.
 
 Looking ahead, we plan to leverage these modern APIs to develop a next‑generation RetroDECK Configurator built in **Godot**, further enhancing extensibility and user experience.
+
+---
 
 ### A fatpak
 
@@ -141,7 +151,11 @@ Look at it now! Look at it! Marvel in the insanity!"
 
 ## RetroDECK 0.10.0b - What is in it and what is not?
 
+<img src="../icon-rd.svg" width="75"> 
+
 A this has been a huge endeavor we want to get an update out as soon as possible to update all the components, we have decided on a limited scope of new components to add in 0.10.0b.
+
+
 
 ### What's not in it?
 
@@ -167,11 +181,11 @@ RetroDECK is now using the latest KDE Runtime, no more angry and quite threateni
 
 **Changes** 
 
-Many many many backend changes, we are so far over **1500+** commits since 0.9.4b.
+Way to many backend changes, we are so far over **1500+** commits since 0.9.4b.
 
-**Tweaks and Cleanup** 
+**Tweaks, Bug fixes, Cleanup and Polish** 
 
-Many other tweaks and changes to configs and other cleanup. 
+Tons of tweaks, bug fixes, cleanup and polish. 
 
 **Fresh Folder Looks** 
 
@@ -179,7 +193,7 @@ New icons for RetroDECK's folders made by the RetroDECK Team's very own iconogra
 
 **Ryubing** 
 
-replaces legacy **Ryujinx**.
+Replaces legacy **Ryujinx**.
 
 **Azahar** 
 
@@ -191,9 +205,15 @@ Is finally included, with its own RetroDECK wrapper: just create `.bor` or `.ope
 
 **GZDoom/UZDoom:** 
 
-RetroDECK wrapper:`.doom` File Improvements
+RetroDECK wrapper:`.doom` File Improvements:
 
-The RetroDECK `.doom` file format now supports custom .ini files, symbolic links, and filenames that contain spaces. While we originally planned to replace it with UZDoom, we may need to postpone that transition until the 0.11.0b release. The UZDoom team is currently taking official control of their Flatpak distribution and are preparing pre‑release AppImages. Previously, their Flatpak was built by a third party; now it’s being integrated into their own build pipeline.
+The RetroDECK `.doom` file format now supports:
+
+- `.ini` files (for the mods that need it).
+- Symbolic links.
+- Filenames that contain spaces. 
+
+While we originally planned to replace it with UZDoom, we may need to postpone that transition until the 0.11.0b release. The UZDoom team is currently taking official control of their Flatpak distribution and are preparing pre‑release AppImages. Previously, their Flatpak was built by a third party; now it’s being integrated into their own build pipeline.
 
 RetroDECK team has told the the UZDoom team that they are happy to answer any Flatpak‑related questions or challenges they encounter.
 
@@ -203,7 +223,17 @@ A new tool, is built into RetroDECK via the Configurator. It can patch ROM hacks
 
 **Rewritten YML with finer‑grained permissions** 
 
-The latest rewrite reduces the broad, global permissions that the RetroDECK Flatpak previously required. Instead, we now request only the specific permissions and we’ve added inline comments explaining the rationale behind every permission. Looking ahead, we’re exploring additional incremental permission changes. Our goal is to eventually enable features such as HDR support in RetroArch and light‑gun compatibility, though these things aren’t available yet. *Huzzah! Transparency!*
+The latest rewrite reduces the broad, global permissions that the RetroDECK Flatpak previously required. 
+
+Instead, we now request only the specific permissions and we’ve added inline comments explaining the rationale behind every permission. Looking ahead, we’re exploring additional incremental permission changes. 
+
+Our goal is to eventually enable features such as HDR support in RetroArch and light‑gun compatibility, though these things aren’t available yet. 
+
+*Huzzah! Transparency!*
+
+**Other**
+
+The Palette Swap bug for GB in RA on Quit should have been fixed (hopefully).
 
 ---
 

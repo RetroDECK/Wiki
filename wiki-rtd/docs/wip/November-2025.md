@@ -147,7 +147,7 @@ A this has been a huge endeavor we want to get an update out as soon as possible
 
 **Important: On Ponzu** 
 
-Ponzu does not work in version 0.10.0b (the temporary solution for installing legacy emulators). It simply cannot function with the new system.
+Ponzu does not work in version  0.10.0b (the temporary solution for installing legacy emulators). It simply cannot function with the new system.
 
 You can keep your old version installed of RetroDECK installed and don't upgrade or block upgrades or downgrade from Flathub if needed.
 
@@ -206,6 +206,22 @@ A new tool, is built into RetroDECK via the Configurator. It can patch ROM hacks
 The latest rewrite reduces the broad, global permissions that the RetroDECK Flatpak previously required. Instead, we now request only the specific permissions and we’ve added inline comments explaining the rationale behind every permission. Looking ahead, we’re exploring additional incremental permission changes. Our goal is to eventually enable features such as HDR support in RetroArch and light‑gun compatibility, though these things aren’t available yet. *Huzzah! Transparency!*
 
 ---
+
+## Testing will Start Soon
+
+The Community Testing Phase of 0.10.0b will start soon. 
+
+There will be tons of bugs to iron out and things to configure better. 
+
+Keep in mind that: **Cooker Builds** are for **testers only** – see [How‑to: Start Testing](https://retrodeck.readthedocs.io/en/latest/wiki_development/testing/retrodeck-testing/).
+
+1. Do not file GitHub issues for Cooker builds. 
+2. These nightly releases contain **unstable features** and may destabilize or corrupt your RetroDECK setup. 
+3. The RetroDECK team is **not liable** for any data loss for not taking correct backups.
+4. Communication of Cooker testing is primarily done on Discord in the Beta-Testing Channel. 
+
+---
+
 
 ## What’s coming next?
 

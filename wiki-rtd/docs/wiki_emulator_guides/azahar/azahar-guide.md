@@ -1,4 +1,4 @@
-# Azahar - General Guide (Archive)
+# Azahar - General Guide
 
 <img src="../../../wiki_images/logos/azahar-logo.svg" width="150">
 

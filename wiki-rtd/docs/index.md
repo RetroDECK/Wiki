@@ -12,6 +12,23 @@
 
 Take a moment to explore the wiki! There’s tons of information waiting for you. To help you get started, here are a few useful links.
 
+---
+
+### 🚧 Wiki Update in Progress – Version 0.10.0b 🏗️
+
+We’re currently revamping the wiki for the upcoming 0.10.0b release. Over the next few weeks we’ll be:
+
+- Reorganizing existing pages for easier navigation 
+- Adding new sections, guides, and resources
+- Polishing content to reflect the latest features and improvements
+
+While the site is under construction, some pages may move or be temporarily unavailable. 
+
+Thanks for your patience, exciting new content is on the way!
+
+---
+
+
 ### How-to get started with RetroDECK?
 
 - [How-to: Start using RetroDECK](wiki_general/retrodeck-start.md)

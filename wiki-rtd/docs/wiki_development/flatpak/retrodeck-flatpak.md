@@ -1,6 +1,6 @@
 # About Flatpak
 
-<img src="../../../wiki_images/logos/flatpak-logo.svg" width="100">
+<img src="../wiki_images/logos/flatpak-logo.svg" width="100">
 
 This is general information about the Flatpak packing format.
 
@@ -83,43 +83,88 @@ Additional permissions arguments can be defined in the manifest to give access t
 
 All permissions can be even overridden by the user doing cli commands or using flatseal to add more permissions.
 
-Example arguments:
-
 
 ```
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#
+#                             finish-args
+#                         Runtime permissions
+#
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 finish-args:
+  # D-Bus: Prevent screen saver from activating
+  - --talk-name=org.freedesktop.ScreenSaver
+
+  # D-Bus: Prevent power management (sleep, suspend) actions
+  - --talk-name=org.freedesktop.PowerManagement.Inhibit
+
+  # D-Bus: Manage user session (systemd-logind)
+  - --talk-name=org.freedesktop.login1.Manager
+
+  # D-Bus: Enables generic inter-process communication
+  - --talk-name=org.freedesktop.DBus
+
+  # D-Bus: Share IPC namespace for inter-process communication
   - --share=ipc
-  - --share=network
+
+  # Devices: All device access (e.g., /dev/*, used for various inputs)
   - --device=all
-  - --filesystem=home
+
+  # Devices: Bluetooth access (used for various inputs)
+  - --allow=bluetooth
+
+  # Filesystem: External Drives
   - --filesystem=/run/media
+  - --filesystem=/mnt
   - --filesystem=/media
-  - --filesystem=/media
-```
 
+  # Filesystem: Discord (For the components that has an option for Discord Rich Presence)
+  - --filesystem=xdg-run/app/com.discordapp.Discord:create
 
-In this example we're telling the flatpak:
+  # Filesystem: GTK‑3 configuration (read‑only)
+  - --filesystem=xdg-config/gtk-3.0:ro
 
-Enable ipc and networking
+  # Filesystem: Home (/home folder access)
+  - --filesystem=home
 
-```
---share=ipc
---share=network
-```
+  # Filesystem: Steam ROM Manager / Steam Integration
+  - --filesystem=~/.steam/steam:rw
+  - --filesystem=xdg-data/Steam:rw
+  - --filesystem=~/.steam:rw
+  - --filesystem=~/.var/app/com.valvesoftware.Steam:rw
 
-Have access to all plugged in devices, such as controllers and webcams.
+  # Filesystem: Udev information (read‑only, for inputs)
+  - --filesystem=/run/udev:ro
 
-```
---device=all
-```
+  # GStreamer integration
+  - --env=GST_PLUGIN_SYSTEM_PATH=/app/lib32/gstreamer-1.0:/app/lib/gstreamer-1.0:/usr/lib/i386-linux-gnu/gstreamer-1.0:/usr/lib/x86_64-linux-gnu/gstreamer-1.0
 
-Have access to file systems paths for the entire home catalog and plugged in Disks / SDCards and USB Storage.
+  # Gamescope integration
+  - --filesystem=xdg-run/gamescope-0:ro
+  - --env=LD_LIBRARY_PATH=/usr/lib/extensions/vulkan/gamescope/lib
+  
+  # Multi‑arch support (32‑bit libs on 64‑bit)
+  - --allow=multiarch
 
-```
---filesystem=home
---filesystem=/run/media
---filesystem=/media
---filesystem=/mnt
+  # Network 
+  - --share=network
+
+  # Sound: PulseAudio, PipeWire
+  - --socket=pulseaudio
+  - --filesystem=xdg-run/pipewire-0
+
+  # Wayland: Display server access, SDL window‑class, Qt platform selection
+  - --socket=wayland
+  - --env=SDL_VIDEO_WAYLAND_WMCLASS=net.retrodeck.retrodeck
+  - --env=QT_QPA_PLATFORM=wayland;wayland-egl;xcb
+
+  # X11: Display server access, SDL window‑class
+  - --socket=x11
+  - --env=SDL_VIDEO_X11_WMCLASS=net.retrodeck.retrodeck      
+
+  # Xemu: openSUSE QEMU_AUDIO_DRV fix
+  - --unset-env=QEMU_AUDIO_DRV
 ```
 
 
@@ -128,49 +173,112 @@ Have access to file systems paths for the entire home catalog and plugged in Dis
 
 A good way to learn how to write modules is to search on flathub's GitHub for other modules to get an idea, however our manifest is more or less using every module type possible. What follows are two examples (note that providing a sha256 is mandatory):
 
-### Example of rclone module
-
-```
-  - name: rclone
-    buildsystem: simple
-    build-commands:
-      - cp rclone ${FLATPAK_DEST}/bin/
-    sources:
-      - type: archive
-        url: https://github.com/rclone/rclone/releases/download/v1.61.1/rclone-v1.61.1-linux-amd64.zip
-        sha256: 6d6455e1cb69eb0615a52cc046a296395e44d50c0f32627ba8590c677ddf50a9
-```
-
-**What does this module do?**
+**What does these module do?**
 
 - Downloads the file from the defined url
 - Extracts it automatically as it's defined as a archive
-- Executing the build-commands (a copy in this case).
 
-### Example of a cmake-ninja module
+### Example of rclone module
 
 ```
-  - name: glslang
-    buildsystem: cmake-ninja
-    config-opts:
-      - -DCMAKE_BUILD_TYPE=Release
-      - -DENABLE_CTEST=OFF
-      - -DENABLE_OPT=OFF
-    cleanup:
-      - /include
-      - /lib/cmake
+  # -------------------------------------------------------------------------
+  # rclone – manage files on cloud storage.
+  # -------------------------------------------------------------------------
+
+  - name: rclone
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 rclone "${FLATPAK_DEST}/bin/rclone"
     sources:
       - type: archive
-        url: https://github.com/KhronosGroup/glslang/archive/13.1.1.tar.gz
-        sha256: 1c4d0a5a38c8aaf89a2d7e6093be734320599f5a6775b2726beeb05b0c054e66
+        url: https://github.com/rclone/rclone/releases/download/v1.69.1/rclone-v1.69.1-linux-amd64.zip
+        sha256: 231841f8d8029ae6cfca932b601b3b50d0e2c3c2cb9da3166293f1c3eae7d79c
 ```
 
-**What does this module do?**
 
-- Downloads the archive
-- Extracts it
-- Sets the config options
-- Execute cmake-ninja
-- Cleanup by deleting the paths defined in the cleanup.
+### Example of a p7zip module
 
+```
+  # -------------------------------------------------------------------------
+  # p7zip – 7‑Zip compression utilities.
+  # -------------------------------------------------------------------------
 
+  - name: p7zip
+    no-autogen: true
+    sources:
+      - type: archive
+        url: https://github.com/p7zip-project/p7zip/archive/v17.04/p7zip-v17.04.tar.gz
+        sha256: ea029a2e21d2d6ad0a156f6679bd66836204aa78148a4c5e498fe682e77127ef
+      - type: shell
+        commands:
+          - sed -i 's|/usr/local|${FLATPAK_DEST}|g' makefile.common
+    post-install:
+      - mv "${FLATPAK_DEST}/bin/7za" "${FLATPAK_DEST}/bin/7z"
+    cleanup:
+      - /man
+```
+
+## What makes the RetroDECK  Flatpak Different? 
+
+Let us explain what we have created.
+
+### Simple flatpak
+
+<img src="../flatpak.drawio.png" width="250"> 
+
+This is a simple flatpak
+
+- The application has all the things it needs in the Flatpak Runtime.
+
+---
+
+### Advanced flatpak
+
+<img src="../flatpakadv.drawio.png" width="250"> 
+
+This is a more advanced flatpak
+
+- The application needs to add additional libraries in addition to what is in the Flatpak Runtime. We internally call it the "library layer". 
+
+---
+
+### RetroDECK Classic
+
+<img src="../flatpakrdclassic.drawio.png" width="250"> 
+
+This is RetroDECK 0.9.4 and all older versions.
+
+- The application relied solely on the libraries provided by the Flatpak runtime. 
+- This model forced a single runtime to serve all components, regardless of their divergent library requirements.
+- As individual components evolved, their library dependencies diverged significantly most notably the transition from Qt 5 to Qt 6 . 
+- Because a Flatpak can host only one runtime, updating the runtime to satisfy a newer component (e.g., PCSX2) would inevitably break compatibility with others that depend on older libraries. 
+- This incompatibility prevented us from upgrading several components to their latest releases in a easy maner and often required manual patches or custom builds.
+
+---
+
+### RetroDECK "New"
+
+<img src="../flatpakrdneo.drawio.png" width="250"> 
+
+This is RetroDECK 0.10.0b and future versions. 
+
+It was inspired by Docker and OSTree. 
+
+1. **Base Runtime** – Provides a stable, standard execution environment common to all parts, but it can be diverged if needed by components. 
+2. **Libraries Layer** – A curated collection of libraries and tools that are universally required across components.
+2. **Component Shared Libraries Layer** – A curated collection of libraries that are component specific but can be shared with other components, thus saving space. 
+4. **Component Specific Libraries Layer** – Unique special libraries that are only bound to that component and can not be shared. 
+5. **Component Applications** - The binaries are within their own little environment. 
+6. **RetroDECK** - RetroDECK application at the top calling various components, layers and functions. 
+
+When traversing from the base runtime upward through a component’s flow from the Host OS to RetroDECK, the resulting view for that component reflects a concatenated set of libraries and dependencies specifically for that component (it only sees what it needs to see).
+
+Effectively, each component are isolated within their own environment kinda like AppImage‑style sandboxed pre‑extracted, containers for every component that runs within a Flatpak total environment. 
+
+It's kinda like spinning up a docker container from a premade set of interchangeable layers for each component at the moment it runs.
+
+**Benefits**
+
+- **Isolation:** Each component receives precisely the libraries it needs without affecting others from either or both shared-libraries and component specific libraries. 
+- **Flexibility:** Newer components can be integrated by adding or adjusting only their custom layers, leaving the base runtime untouched. 
+- **Scalability:** The architecture makes it much easier to add more components, keeping them updated and isolated.

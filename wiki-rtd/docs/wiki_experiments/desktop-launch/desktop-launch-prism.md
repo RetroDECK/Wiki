@@ -36,7 +36,7 @@ Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| Windows Roms Folder | `retrodeck/roms/windows/`   |  |
+| Desktop Roms Folder | `retrodeck/roms/desktop/`   |  |
 
 ## How-to: Launch Prism Launcher - Minecraft Instances
 
@@ -57,7 +57,7 @@ For a smoother experience enable these settings in Prism Launcher:
 2. Make sure you are logged in.
 3. Install a game (specific version or a modpack).
 4. `Right Click` the game -> `Create Shortcut`.
-5. Save the shortcut to: `retrodeck/roms/windows/`.
+5. Save the shortcut to: `retrodeck/roms/desktop/`.
 
 <img src="../prism-shortcut.png" width="800">
 

@@ -35,7 +35,7 @@ Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| Windows Roms Folder | `retrodeck/roms/windows/`   |  |
+| Desktop Roms Folder | `retrodeck/roms/desktop/`   |  |
 
 
 
@@ -45,13 +45,13 @@ Make an empty file with the `<gamename>.desktop`.
 
 **Example:** 
 
-`Ultima I.desktop` and put it into the `retrodeck/roms/windows/` folder.
+`Ultima I.desktop` and put it into the `retrodeck/roms/desktop/` folder.
 
 ## How-to: Launch Lutris Games
 
 ### Step 1: Create an empty desktop file
 
-First, create the `.desktop` file as mentioned above with the game name and put it in the `retrodeck/roms/windows/` folder.
+First, create the `.desktop` file as mentioned above with the game name and put it in the `retrodeck/roms/desktop/` folder.
 
 ### Step 2: Get Identifier and Internal ID
 

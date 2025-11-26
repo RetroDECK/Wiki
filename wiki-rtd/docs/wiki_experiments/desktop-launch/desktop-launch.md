@@ -35,7 +35,7 @@ Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| Windows Roms Folder | `retrodeck/roms/windows/`   |  |
+| Desktop Roms Folder | `retrodeck/roms/desktop/`   |  |
 
 
 
@@ -45,13 +45,13 @@ Make an empty file with the `<gamename>.desktop`.
 
 **Example:** 
 
-`Ultima I.desktop` and put it into the `retrodeck/roms/windows/` folder.
+`Ultima I.desktop` and put it into the `retrodeck/roms/desktop/` folder.
 
 ## How-to: Launch Lutris Games
 
 ### Step 1: Create an empty desktop file
 
-First, create the `.desktop` file as mentioned above with the game name and put it in the `retrodeck/roms/windows/` folder.
+First, create the `.desktop` file as mentioned above with the game name and put it in the `retrodeck/roms/desktop/` folder.
 
 ### Step 2: Get Identifier and Internal ID
 
@@ -140,7 +140,7 @@ Categories=Game
 
 ### Step 1: Create an empty desktop file
 
-First, create the `.desktop` file as mentioned above with the game name and put it in the `retrodeck/roms/windows/` folder.
+First, create the `.desktop` file as mentioned above with the game name and put it in the `retrodeck/roms/desktop/` folder.
 
 
 ### Step 2: Get the Steam AppID
@@ -267,7 +267,7 @@ Example `eu.vcmi.VCMI.desktop`:
 
 #### Step 3: Copy the .desktop file
 
-Copy the `.desktop` file to `retrodeck/roms/windows/`
+Copy the `.desktop` file to `retrodeck/roms/desktop/`
 
 #### Step 4: Rename the file
 
@@ -292,7 +292,7 @@ Open the `.desktop` file and edit the **Exec=** values so they are changed to `f
 
 #### Step 1: Create an empty desktop file
 
-First, create the `.desktop` file as mentioned above with the game name and put it in the `retrodeck/roms/windows/` folder.
+First, create the `.desktop` file as mentioned above with the game name and put it in the `retrodeck/roms/desktop/` folder.
 
 #### Step 2: Get the Run Command and Full Flatpak Name.
 
@@ -360,7 +360,7 @@ Categories=Game
 3. Go to the `Library` -> `Your Game` -> Press the `Three Dotted Menu`.
 4. Press `Add Shortcut`.
 5. A shortcut will now be created on the Desktop.
-6. Move or copy that to `retrodeck/roms/windows/`.
+6. Move or copy that to `retrodeck/roms/desktop/`.
 
 <img src="../heroic-shortcut.png" width="800">
 
@@ -401,7 +401,7 @@ For a smoother experience enable these settings in Prism Launcher:
 2. Make sure you are logged in.
 3. Install a game (specific version or a modpack).
 4. `Right Click` the game -> `Create Shortcut`.
-5. Save the shortcut to: `retrodeck/roms/windows/`.
+5. Save the shortcut to: `retrodeck/roms/desktop/`.
 
 <img src="../prism-shortcut.png" width="800">
 

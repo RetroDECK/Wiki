@@ -62,6 +62,8 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
 
 ## Requirement: Add the FLATPAKSPAWN System
 
+This is no longer needed post 0.10.0b
+
 **Edit the es_find_rules.xml**
 
 1. Go to the ES-DE Linux Folder via the path above (depending on how you installed RetroDECK).

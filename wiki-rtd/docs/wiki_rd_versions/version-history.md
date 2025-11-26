@@ -1,10 +1,12 @@
 # RetroDECK Versions
 
-## 0.10.0b Branch
+## 0.11.0b - Everything Explosion - Branch
 
-W.I.P
+## 0.10.0b - Dastardly Dansband - Branch
 
-## 0.9.0b Branch
+- [0.10.0b](version_0.10.0b/0.10.0b.md)
+
+## 0.9.0b - Captain Comeback - Branch 
 
 - [0.9.4b](version_0.9.0b/0.9.4b.md)
 - [0.9.3b](version_0.9.0b/0.9.3b.md)
@@ -12,7 +14,7 @@ W.I.P
 - [0.9.1b](version_0.9.0b/0.9.1b.md)
 - [0.9.0b](version_0.9.0b/0.9.0b.md)
 
-## 0.8.0b Branch
+## 0.8.0b - Bonsai Banana - Branch
 
 - [0.8.4b](version_0.8.0b/0.8.4b.md)
 - [0.8.3b](version_0.8.0b/0.8.3b.md)
@@ -20,7 +22,7 @@ W.I.P
 - [0.8.1b](version_0.8.0b/0.8.1b.md)
 - [0.8.0b](version_0.8.0b/0.8.0b.md)
 
-## 0.7.0b Branch
+## 0.7.0b - Amazing Aozora - Branch
 
 - [0.7.6b](version_0.7.0b/0.7.6b.md)
 - [0.7.5b](version_0.7.0b/0.7.5b.md)

@@ -306,6 +306,9 @@ nav:
     - Pico-8:
       - Pico-8 - General Guide: wiki_engine_guides/pico8/pico8-guide.md
 
+    - OpenBOR:
+      - OpenBOR - General Guide: wiki_engine_guides/openbor/openbor-guide.md
+
     - ScummVM:
       - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
 
@@ -313,6 +316,9 @@ nav:
       - Solarus - General Guide: wiki_engine_guides/solarus/solarus-guide.md
 
   - Guides - Emulators  📘:
+
+    - Azahar:
+      - Azahar - General Guide: wiki_emulator_guides/azahar/azahar-guide.md
 
     - Cemu:
       - Cemu - General Guide: wiki_emulator_guides/cemu/cemu-guide.md
@@ -348,8 +354,8 @@ nav:
     - Ruffle:
       - Ruffle - General Guide: wiki_emulator_guides/ruffle/ruffle-guide.md
 
-    - Ryujinx (Legacy):
-      - Ryujinx - General Guide: wiki_emulator_guides/ryujinx/ryujinx-guide.md
+    - Ryubing:
+      - Ryubing - General Guide: wiki_emulator_guides/ryubing/ryubing-guide.md
 
     - Vita3K:
       - Vita3K - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
@@ -480,3 +486,6 @@ nav:
 
     - Yuzu (Archive):
       - Yuzu - General Guide: wiki_archive/yuzu/yuzu-guide.md
+
+    - Ryujinx (Legacy):
+      - Ryujinx - General Guide: wiki_archive/ryujinx/ryujinx-guide.md

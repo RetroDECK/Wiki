@@ -1,6 +1,6 @@
 # About Flatpak
 
-<img src="../wiki_images/logos/flatpak-logo.svg" width="100">
+<img src="../../../wiki_images/flatpak/flathub-logo.svg" width="100">
 
 This is general information about the Flatpak packing format.
 
@@ -16,6 +16,72 @@ Via Debug Mode you can access the full flatpak system such as `/var` `/app`.
 
 [RetroDECK: Debug Mode](../general/debug-mode.md)
 
+---
+
+## What makes the RetroDECK Flatpak Different? 
+
+Let us explain what we have created.
+
+### Simple flatpak
+
+<img src="../../../wiki_images/flatpak/flatpak.drawio.png" width="250"> 
+
+This is a simple flatpak
+
+- The application has all the things it needs in the Flatpak Runtime.
+
+---
+
+### Advanced flatpak
+
+<img src="../../../wiki_images/flatpak/flatpakadv.drawio.png" width="250"> 
+
+This is a more advanced flatpak
+
+- The application needs to add additional libraries in addition to what is in the Flatpak Runtime. We internally call it the "library layer". 
+
+---
+
+### RetroDECK Classic
+
+<img src="../../../wiki_images/flatpak/flatpakrdclassic.drawio.png" width="250"> 
+
+This is RetroDECK 0.9.4 and all older versions.
+
+- The application relied solely on the libraries provided by the Flatpak runtime. 
+- This model forced a single runtime to serve all components, regardless of their divergent library requirements.
+- As individual components evolved, their library dependencies diverged significantly most notably the transition from Qt 5 to Qt 6 . 
+- Because a Flatpak can host only one runtime, updating the runtime to satisfy a newer component (e.g., PCSX2) would inevitably break compatibility with others that depend on older libraries. 
+- This incompatibility prevented us from upgrading several components to their latest releases in a easy maner and often required manual patches or custom builds.
+
+---
+
+### RetroDECK "New"
+
+<img src="../../../wiki_images/flatpak/flatpakrdneo.drawio.png" width="250"> 
+
+This is RetroDECK 0.10.0b and future versions. 
+
+It was inspired by Docker and OSTree. 
+
+1. **Base Runtime** – Provides a stable, standard execution environment common to all parts, but it can be diverged if needed by components. 
+2. **Libraries Layer** – A curated collection of libraries and tools that are universally required across components.
+3. **Component Shared Libraries Layer** – A curated collection of libraries that are component specific but can be shared with other components, thus saving space. 
+4. **Component Specific Libraries Layer** – Unique special libraries that are only bound to that component and can not be shared. 
+5. **Component Applications** - The binaries are within their own little environment. 
+6. **RetroDECK** - RetroDECK application at the top calling various components, layers and functions. 
+
+When traversing from the base runtime upward through a component’s flow from the Host OS to RetroDECK, the resulting view for that component reflects a concatenated set of libraries and dependencies specifically for that component (it only sees what it needs to see).
+
+Effectively, each component are isolated within their own environment kinda like AppImage‑style sandboxed pre‑extracted, containers for every component that runs within a Flatpak total environment. 
+
+It's kinda like spinning up a docker container from a premade set of interchangeable layers for each component at the moment it runs.
+
+**Benefits**
+
+- **Isolation:** Each component receives precisely the libraries it needs without affecting others from either or both shared-libraries and component specific libraries. 
+- **Flexibility:** Newer components can be integrated by adding or adjusting only their custom layers, leaving the base runtime untouched. 
+- **Scalability:** The architecture makes it much easier to add more components, keeping them updated and isolated.
 
 
 ## The Manifest File
@@ -57,6 +123,7 @@ These folder are the only folders writable by flatpak and corresponds to `/var` 
 
 [RetroDECK: Flatpak Folder Structure](../general/folders-filepaths.md)
 
+---
 
 ## The Metainfo file
 
@@ -74,6 +141,7 @@ To be published on Flathub a metainfo `.xml` file is needed that contains all th
 
 [net.retrodeck.retrodeck.metainfo.xml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.metainfo.xml) on our GitHub repository's root.
 
+---
 
 ## Permissions
 
@@ -167,8 +235,9 @@ finish-args:
   - --unset-env=QEMU_AUDIO_DRV
 ```
 
+---
 
-## Example Modules
+## Modules
 
 
 A good way to learn how to write modules is to search on flathub's GitHub for other modules to get an idea, however our manifest is more or less using every module type possible. What follows are two examples (note that providing a sha256 is mandatory):
@@ -217,68 +286,3 @@ A good way to learn how to write modules is to search on flathub's GitHub for ot
     cleanup:
       - /man
 ```
-
-## What makes the RetroDECK  Flatpak Different? 
-
-Let us explain what we have created.
-
-### Simple flatpak
-
-<img src="../flatpak.drawio.png" width="250"> 
-
-This is a simple flatpak
-
-- The application has all the things it needs in the Flatpak Runtime.
-
----
-
-### Advanced flatpak
-
-<img src="../flatpakadv.drawio.png" width="250"> 
-
-This is a more advanced flatpak
-
-- The application needs to add additional libraries in addition to what is in the Flatpak Runtime. We internally call it the "library layer". 
-
----
-
-### RetroDECK Classic
-
-<img src="../flatpakrdclassic.drawio.png" width="250"> 
-
-This is RetroDECK 0.9.4 and all older versions.
-
-- The application relied solely on the libraries provided by the Flatpak runtime. 
-- This model forced a single runtime to serve all components, regardless of their divergent library requirements.
-- As individual components evolved, their library dependencies diverged significantly most notably the transition from Qt 5 to Qt 6 . 
-- Because a Flatpak can host only one runtime, updating the runtime to satisfy a newer component (e.g., PCSX2) would inevitably break compatibility with others that depend on older libraries. 
-- This incompatibility prevented us from upgrading several components to their latest releases in a easy maner and often required manual patches or custom builds.
-
----
-
-### RetroDECK "New"
-
-<img src="../flatpakrdneo.drawio.png" width="250"> 
-
-This is RetroDECK 0.10.0b and future versions. 
-
-It was inspired by Docker and OSTree. 
-
-1. **Base Runtime** – Provides a stable, standard execution environment common to all parts, but it can be diverged if needed by components. 
-2. **Libraries Layer** – A curated collection of libraries and tools that are universally required across components.
-2. **Component Shared Libraries Layer** – A curated collection of libraries that are component specific but can be shared with other components, thus saving space. 
-4. **Component Specific Libraries Layer** – Unique special libraries that are only bound to that component and can not be shared. 
-5. **Component Applications** - The binaries are within their own little environment. 
-6. **RetroDECK** - RetroDECK application at the top calling various components, layers and functions. 
-
-When traversing from the base runtime upward through a component’s flow from the Host OS to RetroDECK, the resulting view for that component reflects a concatenated set of libraries and dependencies specifically for that component (it only sees what it needs to see).
-
-Effectively, each component are isolated within their own environment kinda like AppImage‑style sandboxed pre‑extracted, containers for every component that runs within a Flatpak total environment. 
-
-It's kinda like spinning up a docker container from a premade set of interchangeable layers for each component at the moment it runs.
-
-**Benefits**
-
-- **Isolation:** Each component receives precisely the libraries it needs without affecting others from either or both shared-libraries and component specific libraries. 
-- **Flexibility:** Newer components can be integrated by adding or adjusting only their custom layers, leaving the base runtime untouched. 
-- **Scalability:** The architecture makes it much easier to add more components, keeping them updated and isolated.

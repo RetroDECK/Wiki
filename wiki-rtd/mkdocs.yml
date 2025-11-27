@@ -456,7 +456,7 @@ nav:
         - Easter Egg Splashes: wiki_development/graphics/easter-egg-splashes.md
 
     - Flatpak:
-      - About Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
+      - About RetroDECK Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
       - Flathub Publication: wiki_development/flatpak/flathub-publication.md
 
     - Testing:

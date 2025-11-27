@@ -270,7 +270,7 @@ nav:
     - RetroDECK Configurator: wiki_tool_guides/configurator/configurator.md
     - Backup RetroDECK : wiki_tool_guides/retrodeck-backup/retrodeck-backup.md
     - Add RetroDECK to Steam: wiki_tool_guides/add-to-steam/add-to-steam.md
-    - Ponzu AppImage Loader: wiki_tool_guides/ponzu/ponzu-guide.md
+
 
   - Guides - RetroDECK Management 📁:
 
@@ -489,3 +489,5 @@ nav:
 
     - Ryujinx (Legacy):
       - Ryujinx - General Guide: wiki_archive/ryujinx/ryujinx-guide.md
+
+    - Ponzu AppImage Loader: wiki_archive/ponzu/ponzu-guide.md

@@ -53,7 +53,7 @@ As we are friends with the ES-DE Team we also want to highlight that they just r
 
 They have a one-time purchase to buy the app. So, if you want to show the interface, we all use some love, buy the app :)
 
-- [ES-DE - Pateron](https://www.patreon.com/es_de)
+- [ES-DE - Patreon](https://www.patreon.com/es_de)
 - [Android - User Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/ANDROID.md)
 - [Android - FAQ](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ-ANDROID.md)
 

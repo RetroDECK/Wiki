@@ -1,10 +1,10 @@
-# Ponzu - AppImage Loader: General Guide
+# Ponzu - AppImage Loader: General Guide (Archive)
 
 <img src="../../../wiki_icons/retrodeck/icon-ponzu.svg" width="100">
 
-Ponzu is an AppImage Loader that can be used to search for user-provided AppImages and add them to RetroDECK.
+Ponzu was an AppImage Loader that can be used to search for user-provided AppImages and add them to RetroDECK.
 
-In the future, Ponzu might support other systems not shipped by default in RetroDECK, such as proprietary emulators. We hope to get custom licenses for them so they can be installed via Ponzu as an option if we can't build them via RetroDECK directly (nothing yet).
+It was removed as part of the update 0.10.0b.
 
 **Warning: Factory Reset will remove everything Installed by Ponzu**
 
@@ -29,7 +29,7 @@ Ponzu looks for the AppImages in the `retrodeck/ponzu/` folder (lowercase).
 
 Where `<X>` means any combination of characters.
 
-`*` This is an temporary as-is none supported solution and will stop working in the end, check the statement on this page.
+`*` This is an temporary as-is none supported solution and will stop working in the end, check the statement on the bottom of this page.
 
 ## How to Use Ponzu
 
@@ -52,8 +52,10 @@ Where `<X>` means any combination of characters.
 
 No, RetroDECK does not officially support Yuzu and Citra, and we provide zero support for them. The only official emulators we support are the ones we ship.
 
-Since the removal of Citra and Yuzu, we have made it clear that there will be no new configurations, bug fixes, improvements, or support for these emulators. Future updates of RetroDECK will break the current temporary compatibility, and this is to be seen as a temporary solution.
+Since the removal of Citra and Yuzu, we have made it clear that there will be no new configurations, bug fixes, improvements, or support for these emulators. 
+
+Future updates of RetroDECK will break the current temporary compatibility, and this is to be seen as a temporary solution.
 
 We have also updated our social rules to reflect that any discussion about these emulators will result in a warning first and then a ban on where to find those AppImages.
 
-The old guides are still available in the Archive 📂 section, but they are not updated (except for rare format changes that need to be done on all of the wiki).
+The old guides are still available in the Archive 📂 section, as is Ponzu, but they are not updated (except for rare format changes that need to be done on all of the wiki).

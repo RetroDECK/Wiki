@@ -38,4 +38,4 @@ If you want to help with out with the project or just chat join the discord.
 
 [Discord Server](https://discord.gg/WDc5C9YWMx)
 
-[Patreon](https://patreon.com/RetroDECK)
+[open collective](https://opencollective.com/RetroDECK)

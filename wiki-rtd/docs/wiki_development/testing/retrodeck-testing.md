@@ -154,7 +154,7 @@ To simulate a fresh install
 
 🛑 **EXTREMELY IMPORTANT WARNING** 🛑
 
-**Do NOT press the Full Wipe and Fresh Install button.**
+**Do NOT press the ☢️ Delete Everything & Fresh Install ☢️ button.**
 
 This is *not* the same as the Configurator’s **Reset RetroDECK**.
 The Wipe button is a **total nuclear reset** ROMs, BIOS, artwork, saves, configs… **everything will be deleted forever.**

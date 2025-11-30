@@ -63,7 +63,7 @@ We aim to have better FOSS donation methods in the future.
 
 ---
 
-## Systems
+## Components: Systems
 
 ---
 
@@ -104,20 +104,6 @@ Buy the app to show them your support:
 
 [Licenses](https://gitlab.com/es-de/emulationstation-de/-/tree/master/licenses)
 
----
-
-## Wine
-
-<img src="../../wiki_images/logos/wine-logo.png" width="75">
-
-### Where to donate / support the project?
-
-[Wine Development Fund](https://www.winehq.org/donate) 
-
-### Licenses
-
-[Licenses](https://gitlab.winehq.org/wine)
-
 
 ---
 
@@ -154,7 +140,21 @@ Your Ultimate Linux Port Manager.
 
 ---
 
-## Multi-Emulators
+## Wine
+
+<img src="../../wiki_images/logos/wine-logo.png" width="75">
+
+### Where to donate / support the project?
+
+[Wine Development Fund](https://www.winehq.org/donate) 
+
+### Licenses
+
+[Licenses](https://gitlab.winehq.org/wine)
+
+---
+
+## Components: Multi-Emulators
 
 ---
 
@@ -178,6 +178,8 @@ The LibreRetro Team makes RetroArch, Libretro and Lakka
 
 ### Licenses
 [Licenses](https://docs.libretro.com/development/licenses/)
+
+---
 
 ## MAME
 
@@ -216,7 +218,7 @@ ares is a cross-platform, open source, multi-system emulator, focusing on accura
 
 ---
 
-## Emulators
+## Components: Emulators
 
 ---
 
@@ -482,7 +484,7 @@ A Symbian OS/N-Gage emulator.
 
 ---
 
-## Engines
+## Components: Engines
 
 ---
 
@@ -667,6 +669,7 @@ Weestuarty of the group made the remix version of their LaunchBox theme for usag
 
 Here we showcase the licenses of projects / functions we might use in part, got inspired by the code/solutions or want to give special credit.
 
+
 ---
 
 ### Dungeon Crawl Stone Soup
@@ -688,14 +691,6 @@ CC0
 ### Capsimg
 
 [Licenses](https://github.com/rsn8887/capsimg/blob/master/LICENCE.txt)
-
----
-
-### BoilR
-
-[Licenses](https://github.com/PhilipK/BoilR/blob/main/LICENSE-APACHE.txt)
-
-[Licenses](https://github.com/PhilipK/BoilR/blob/main/LICENSE-MIT.txt)
 
 ---
 
@@ -735,7 +730,7 @@ All trademarks, logos, controller images, and brand names are the property of th
 
 ## Propriety / Closed Source Emulators
 
-There can not be added to RetroDECK, but we want to showcase their efforts here.
+These can not be added to RetroDECK, but we want to showcase their efforts here.
 
 ---
 

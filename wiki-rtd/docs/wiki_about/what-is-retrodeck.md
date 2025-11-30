@@ -130,32 +130,6 @@ RetroDECK organizes all software as isolated components, each running within a l
 | **Flexibility**             | New components can be added or customized without altering the base runtime.                                     |
 | **Scalability**             | Easy to expand with more components, each remaining isolated yet efficiently layered.                            |
 
-
-
-
----
-
-
-## Main Version vs. Cooker Version
-
-| Version            | Description                                                                                           |
-|-------------------|-------------------------------------------------------------------------------------------------------|
-| **Main Version**   | The stable build published on Flathub, recommended for all users. Designed for reliability and everyday use. |
-| **Cooker Version** | The development build that updates frequently and includes experimental or in-progress features. Highly unstable and intended only for testers and developers. |
-
-
----
-
-## What Are We Working on Right Now?
-
-To stay up-to-date with the latest RetroDECK developments:  
-
-- **Follow us on social media** – Links are available on the [Wiki Start Page](../index.md).  
-- **Check the RetroDECK Blog** – Read updates and announcements on the [blog](../blog/index.md).  
-- **Explore GitHub issues** – See ongoing work, planned features, and community discussions on [GitHub](https://github.com/XargonWan/RetroDECK/issues/).  
-
-
-
 ---
 
 ## RetroDECK Is Currently in BETA
@@ -179,6 +153,26 @@ The following features are planned for future RetroDECK releases to enhance func
 | **Multi-user profile system**        | Support for multiple users on a single device, keeping settings, saves, and preferences separate. |
 
 ---
+
+## Main Version vs. Cooker Version
+
+What are the versions?
+
+| Version            | Description                                                                                           |
+|-------------------|-------------------------------------------------------------------------------------------------------|
+| **Main Version**   | The stable build published on Flathub, recommended for all users. Designed for reliability and everyday use. |
+| **Cooker Version** | The development build that updates frequently and includes experimental or in-progress features. Highly unstable and intended only for testers and developers. |
+
+
+---
+
+## What Are We Working on Right Now?
+
+To stay up-to-date with the latest RetroDECK developments:  
+
+- **Follow us on social media** – Links are available on the [Wiki Start Page](../index.md).  
+- **Check the RetroDECK Blog** – Read updates and announcements on the [blog](../blog/index.md).  
+- **Explore GitHub issues** – See ongoing work, planned features, and community discussions on [GitHub](https://github.com/XargonWan/RetroDECK/issues/).  
 
 ## Patch Notes and Known Issues
 

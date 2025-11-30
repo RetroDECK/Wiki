@@ -14,92 +14,103 @@ Delivered as a self-contained Flatpak app, it gives you everything you need for 
 
 By integrating a wide range of components such as emulators, game engines, ports, and built-in tools, RetroDECK brings all your favorite games together in one streamlined, easy-to-use package.
 
-### Key Components
 
-- **RetroDECK Framework** – Enhances emulators and the ES-DE interface for deeper integration and expanded functionality.  
-- **RetroDECK RetroENGINE** – A headless game runner designed for power users and developers.  
-- **RetroDECK Configurator** – A multi-tool utility that lets you adjust system settings without navigating individual emulator menus.
 
 ---
 
-## Features of the RetroDECK Framework & Configurator
+## Definition of Components
 
-RetroDECK helps you:
+RetroDECK categorizes all software inside the platform as distinct **components**, organized into the following groups:
 
-- Sync your favorite games with Steam.
-- Run games with a double-click using RetroENGINE.
-- Check for and auto-install certain BIOS files.
-- Compress games.
-- Easily manage texture packs and mods.
-- Use powerful file-management tools.
-- Troubleshoot with tools like the Multi-File Structure Checker and reset functions.
-- Install prebuilt Steam Input profiles (Steam Deck, external controllers, etc.).
-- Manage ROMs, scraped media, screenshots, saves/states, gamelists, and more.
-- Access global presets to configure multiple emulators at once, including:
-  - RetroAchievements  
-  - Borders  
-  - Widescreen mode  
-  - Swapped A/B or X/Y buttons for Nintendo systems  
-  - and more!
+### Clients
 
----
+A client is a system or application that connects to a server or online service to access multiplayer features, streaming, or remote content. Clients rely on an external host to function.
 
-## Easy to Install
+**Examples:** Mudlet
 
-You can download RetroDECK from Flathub using your preferred software center, such as **KDE Discover**, **Bazaar**, or **GNOME Software**.
+### Emulators
 
----
+An emulator is software that replicates the behavior of a specific system, whether it is real hardware (like a console or arcade machine) or a virtual/fantasy platform. Emulators allow games or applications designed for that system to run on a different device or operating environment. They aim to reproduce the original system’s behavior as accurately as possible, including its quirks, limitations, and performance characteristics.
 
-## Easy to Update
+**Examples:** RetroArch, PCSX2, Pico-8, ares, Vita3k.
 
-RetroDECK updates automatically through your software center, just like any other Flatpak application.
+### Engines
 
----
+Engines are game engines or runtime environments designed to run games built specifically for them. This can include native engines as well as **engine re-implementations** modern rewrites that replace the original engine while preserving compatibility with classic games.
 
-## RetroDECK Is Contained
+**Examples:** Solarus, UZDoom, OpenBOR.
 
-As a Flatpak, RetroDECK is **sandboxed and self-contained**.  
-All important files are stored in a minimal number of locations instead of being scattered across your system. This makes RetroDECK both easier to maintain and simple to remove or clean up.
+### Systems
 
----
+Systems are non-gaming platforms or software environments supported within RetroDECK. These may include tools, utilities, frontends, media systems, or additional runtime environments that enhance functionality but are not games themselves.
 
-## RetroDECK Configurator
+**Examples:** Steam Rom Manager, ES-DE, Flips, PortMaster.
 
-Accessible from the ES-DE main menu, the Configurator allows you to adjust and manage settings across multiple systems from a single interface.
+### Ports
 
----
+Ports are individual games that have been adapted to run natively through a specific engine, framework, or platform. They do not require emulation since the game has been reworked or recompiled to run directly on modern systems.
+
+**Examples:** All games installed via PortMaster.
+
+--- 
 
 ## What Software and Features Are Included?
 
-To see the full list, read:
+To see the full list on what is included so far, read:
 
 **[RetroDECK: What is included?](../wiki_about/what-is-included.md)**
 
 ---
 
-## RetroDECK Is Currently in BETA
+## Key Main Features of RetroDECK
 
-RetroDECK is under active development. While it is suitable for daily use, major updates may introduce changes or new features.
-
-### Missing Features (In Progress)
-
-- Cloud sync  
-- USB transfer  
-- STFP / FTP support  
-- Improved gyro support  
-- Dynamic external display resolution  
-- Additional systems supported by ES-DE (emulators, engines, ports)  
-- A rebuilt Configurator and first-run installer (in Godot)  
-- Improved art assets (mascot, logos, easter eggs)  
-- A multi-user profile system  
+| Feature / Concept                     | Description                
+|---------------------------|----------------------------------------------------------------------------------------------------------------------|
+| **RetroDECK Framework**   | Enhances emulators and the ES-DE interface for deeper integration and expanded functionality.                        |
+| **RetroDECK RetroENGINE** | A headless game runner designed for power users and developers.                                                      |
+| **RetroDECK Configurator**| A multi-tool settings utility accessible directly from the **ES-DE main menu**, allowing you to manage and adjust system configurations from a single, unified interface. |
+| **Easy to Install**       | Available on **Flathub** and installable via **KDE Discover**, **Bazaar**, and **GNOME Software**.                  |
+| **Easy to Update**        | Updates automatically through your software center like any other Flatpak application.                               |
+| **All-in-one Contained Design**      | Distributed as a **sandboxed Flatpak**, keeping all important files in minimal locations for easy maintenance and cleanup. |
 
 ---
 
+## Key Features of the RetroDECK Framework & Configurator
+
+| Feature                          | Description                                                                                                   |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Sync games with Steam**        | Seamlessly integrate your favorite titles into your Steam library via built-in SRM and ES-DE favorites integration. |
+| **Run games with RetroENGINE**   | Launch any supported title with a simple double-click through RetroDECK’s streamlined headless game runner.  |
+| **Automatic BIOS handling**      | RetroDECK can check for required BIOS files and auto-install supported ones to simplify setup.                |
+| **Game compression tools**       | Reduce file sizes with built-in compression utilities to save storage space.                                  |
+| **File-management utilities**    | Tools for organizing or moving folders and components within RetroDECK.                                       |
+| **Troubleshooting helpers**      | Diagnose issues using tools like the Multi-File Structure Checker, environment repair options, and one-click reset functions. |
+| **Prebuilt Steam Input Templates** | Quickly apply controller templates tailored for Steam Deck, external controllers, and more.                 |
+| **Full content management**      | Organize ROMs, scraped media, screenshots, save files, save states, gamelists, texture packs, mods, ports, and other data. |
+| **Global presets**               | Configure multiple components at once with universal presets, including: <br> - RetroAchievements <br> - Borders and overlays <br> - Widescreen enhancements <br> - Swapped A/B or X/Y buttons for Nintendo platforms <br> - Additional system-wide options |
+
+---
+
+### Key Component Features inside of RetroDECK
+
+| Feature / Benefit | Details |
+|-------------------|---------|
+| **Isolated Environments** | Each component only sees the libraries it needs, preventing cross-component interference and ensuring stability. |
+| **Dynamic Layer Stacking** | When a component runs, RetroDECK dynamically assembles its runtime from the base layer upward—like constructing a lightweight container on demand. |
+| **Docker-Inspired Flow**   | The architecture behaves like launching small Docker-style containers built from reusable layers, but inside Flatpak. |
+| **Flexibility**            | New components can be added or customized without altering the base runtime. |
+| **Scalability**            | Easy to expand with more components, each remaining isolated yet efficiently layered. |
+
+---
+
+
 ## Main Version vs. Cooker Version
 
-- **Main Version** – Stable, recommended for most users.  
-- **Cooker Version** – Unstable, updated frequently, includes experimental features.  
-  - Some experimental features are exclusive to cooker builds or require command-line activation.
+| Version            | Description                                                                                           |
+|-------------------|-------------------------------------------------------------------------------------------------------|
+| **Main Version**   | The stable build published on Flathub, recommended for all users. Designed for reliability and everyday use. |
+| **Cooker Version** | The development build that updates frequently and includes experimental or in-progress features. Highly unstable and intended only for testers and developers. |
+
 
 ---
 
@@ -111,17 +122,42 @@ To get the latest updates first:
 - Follow [The RetroDECK Blog](../blog/index.md).
 - Look at [Github issues](https://github.com/XargonWan/RetroDECK/issues/) for clues.
 
+
+---
+
+## RetroDECK Is Currently in BETA
+
+RetroDECK is actively evolving. It is stable enough for daily use, but major updates may still introduce significant changes, new features, or adjustments.
+
+### Missing Features 
+
+The following features are planned for future RetroDECK releases to enhance functionality, usability, and system support:
+
+| Feature                              | Description                                                                                       |
+|-------------------------------------|---------------------------------------------------------------------------------------------------|
+| **Cloud synchronization**            | Sync saves, states, configurations, and more across devices for seamless gameplay.               |
+| **USB transfer support**             | Easily transfer files and manage RetroDECK content offline via USB.                               |
+| **SFTP support**                     | Access and manage files remotely using SFTP for flexible workflow.                                |
+| **Enhanced gyro support**            | Improved motion control functionality across compatible systems.                                  |
+| **Dynamic external display resolution** | Adjust resolution automatically for docked setups or multiple displays.                          |
+| **Additional ES-DE supported systems** | Expand compatibility with more emulators, engines, and ports.                                     |
+| **Rebuilt Configurator & first-run installer** | Modernized setup experience developed in Godot for a unified, intuitive interface.          |
+| **Improved art assets**              | Updated mascot, logos, icons, and new easter eggs for a polished visual experience.               |
+| **Multi-user profile system**        | Support for multiple users on a single device, keeping settings, saves, and preferences separate. |
+
 ---
 
 ## Patch Notes and Known Issues
 
 [Version History](../wiki_rd_versions/version-history.md)
 
-[Known Issues & Reporting a Problem](../wiki_general/known-issues.md)
+[Known Issues](../wiki_general/known-issues.md)
+
+[Get help with a problem / support](../wiki_general/support-guide.md)
 
 ---
 
-### The FAQs❔
+## The FAQs❔
 
 Could answers several questions you might have about the project as well.
 
@@ -133,4 +169,4 @@ Could answers several questions you might have about the project as well.
 
 [FAQ: Documentation Questions](../wiki_faq/faq-documentation.md)
 
-
+---

@@ -64,6 +64,10 @@ To see the full list on what is included so far, read:
 
 ## Key Main Features of RetroDECK
 
+We believe that all functionality should be self-contained within the RetroDECK application, with no need for additional external software or dependencies.
+
+Below is a concise overview of RetroDECK’s major features and core concepts:
+
 | Feature / Concept                     | Description                
 |---------------------------|----------------------------------------------------------------------------------------------------------------------|
 | **RetroDECK Framework**   | Enhances emulators and the ES-DE interface for deeper integration and expanded functionality.                        |
@@ -76,6 +80,8 @@ To see the full list on what is included so far, read:
 ---
 
 ## Key Features of the RetroDECK Framework & Configurator
+
+A multi-tool with a powerful backend. 
 
 | Feature                          | Description                                                                                                   |
 |---------------------------------|---------------------------------------------------------------------------------------------------------------|
@@ -91,7 +97,9 @@ To see the full list on what is included so far, read:
 
 ---
 
-### Key Component Features inside of RetroDECK
+## Key Component Features inside of RetroDECK
+
+Our goal is to minimize conflicts and provide a stable, all-in-one application.
 
 | Feature / Benefit | Details |
 |-------------------|---------|

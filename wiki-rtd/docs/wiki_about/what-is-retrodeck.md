@@ -113,20 +113,24 @@ A multi-tool with a powerful backend.
 | **Prebuilt Steam Input Templates** | Quickly apply controller templates tailored for Steam Deck, external controllers, and more.                 |
 | **Full content management**      | Organize ROMs, scraped media, screenshots, save files, save states, gamelists, texture packs, mods, ports, and other data. |
 | **Global presets**               | Configure multiple components at once with universal presets, including: <br> - RetroAchievements <br> - Borders and overlays <br> - Widescreen enhancements <br> - Swapped A/B or X/Y buttons for Nintendo platforms <br> - Additional system-wide options |
-
+| **Unique Component Wrappers** | Some components, like **UZDoom** and **OpenBOR**, use custom wrappers to simplify launching. UZDoom supports a custom `.doom` format for easier mod integration, while OpenBOR uses `.bor` or `.openbor` formats for its games. |
 ---
 
-## Key Component Features inside of RetroDECK
+## Key Component Backend Features inside of RetroDECK
 
-Our goal is to minimize conflicts and provide a stable, all-in-one application.
+RetroDECK organizes all software as isolated components, each running within a layered, self-contained environment. This architecture provides stability, flexibility, and efficient management of emulators, engines, ports, and other systems.
 
-| Feature / Benefit | Details |
-|-------------------|---------|
-| **Isolated Environments** | Each component only sees the libraries it needs, preventing cross-component interference and ensuring stability. |
-| **Dynamic Layer Stacking** | When a component runs, RetroDECK dynamically assembles its runtime from the base layer upward—like constructing a lightweight container on demand. |
-| **Docker-Inspired Flow**   | The architecture behaves like launching small Docker-style containers built from reusable layers, but inside Flatpak. |
-| **Flexibility**            | New components can be added or customized without altering the base runtime. |
-| **Scalability**            | Easy to expand with more components, each remaining isolated yet efficiently layered. |
+
+| Feature / Benefit           | Details                                                                                                          |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------|
+| **Isolated Environments**   | Each component only sees the libraries it needs, preventing cross-component interference and ensuring stability. |
+| **Dynamic Layer Stacking**  | When a component runs, RetroDECK dynamically assembles its runtime from the base layer upward—like constructing a lightweight container on demand. |
+| **Docker-Inspired Flow**    | The architecture behaves like launching small Docker-style containers built from reusable layers, but inside Flatpak. |
+| **Flexibility**             | New components can be added or customized without altering the base runtime.                                     |
+| **Scalability**             | Easy to expand with more components, each remaining isolated yet efficiently layered.                            |
+
+
+
 
 ---
 
@@ -141,13 +145,14 @@ Our goal is to minimize conflicts and provide a stable, all-in-one application.
 
 ---
 
-##  What are you working on right now?
+## What Are We Working on Right Now?
 
-To get the latest updates first:
+To stay up-to-date with the latest RetroDECK developments:  
 
-- Follow us on socials, you can find the links on the [Wiki Start Page](../index.md).
-- Follow [The RetroDECK Blog](../blog/index.md).
-- Look at [Github issues](https://github.com/XargonWan/RetroDECK/issues/) for clues.
+- **Follow us on social media** – Links are available on the [Wiki Start Page](../index.md).  
+- **Check the RetroDECK Blog** – Read updates and announcements on the [blog](../blog/index.md).  
+- **Explore GitHub issues** – See ongoing work, planned features, and community discussions on [GitHub](https://github.com/XargonWan/RetroDECK/issues/).  
+
 
 
 ---

@@ -6,46 +6,54 @@
 
 Before you report something, read the following.
 
-### Do not! Report Directly to Third-Party System Developers 🛑  
+### ❗️ Do NOT report issues directly to third‑party developers ❗️  
 
-Report any component: `emulator` , `engine` or `system` related issues in RetroDECK directly to the developers of those systems.
+If you encounter a problem with an component: 
 
-**Example:**
+- Emulator
+- Engine
+- Port 
+- System 
+- Game
+  
+**Inside RetroDECK**, don’t contact the original developers of those components!
 
-If you find odd behavior in an emulator, don't go to the emulator's socials or support channels to report it. Instead, use the RetroDECK support channels.
+**What to do instead**
 
-If the RetroDECK Team believes the issue is caused by a built-in component, they, and not the user, will then report and discuss it with the developers of that system.
+- Use RetroDECK’s own support channels for any weird behavior.
+- If RetroDECK determines the issue comes from a built‑in component, the RetroDECK team will handle communication with the external developers.
+
+Our support is ours, and theirs are theirs! 
 
 ### Is the Problem Already Reported?
 
-- Check [RetroDECK - Github Issues](https://github.com/RetroDECK/RetroDECK/issues) for reported problems.
-- Check if it is a known issue in the emulator/engine/system you are using on their bug reporting channels and wait until RetroDECK updates the componenet in an upcomming update. 
-- Check the The `FAQ ❔` section of this wiki.
+- Check the **[RetroDECK – GitHub Issues](https://github.com/RetroDECK/RetroDECK/issues)** page for existing reports.  
+- Look at the bug‑reporting channels of the specific emulator/engine/system you’re using; wait for RetroDECK to roll out an update if it’s a known issue.  
+- Review the **FAQ ❔** section of this wiki.
 
 ## How-to: Reporting an Problem
 
-- RetroDECK's main issue tracker is on [RetroDECK - Github Issues](https://github.com/RetroDECK/RetroDECK/issues). 
-- We try to keep it clean and only have “real” issues. 
-- General guidance or help is available on the socials, wiki, and the rest of the RetroDECK community.
-
+- The primary issue tracker is **[RetroDECK – GitHub Issues](https://github.com/RetroDECK/RetroDECK/issues)**.  
+- We keep it tidy—only “real” bugs belong here.  
+- For general guidance, use the socials, wiki, or the broader RetroDECK community.
 
 ### General rule of thumb is:
 
-- If you want to discuss something, do not understand, want to ask a question, or need general guidance, start with the 🤝-community-support channel on Discord or Matrix. The community or sometimes the RetroDECK Team will answer here.
+| Situation | Where to Start |
+|-----------|----------------|
+| **Discussion, clarification, or a question** | 🤝 **Community‑Support** channel on Discord. The community (and sometimes the RetroDECK team) will respond. |
+| **Potentially serious issue, but you lack technical depth** | 🆘 **Support** channel on Discord. The RetroDECK team mainly handles these, with occasional community input. |
+| **You’ve identified the issue and possibly a fix** | Submit a detailed report directly on **GitHub**. |
 
-- If you think it is something bigger or are semi-certain about the issue but lack technical knowledge and want a deeper discussion, use the 🆘-support channel on Discord. The RetroDECK Team mostly discusses things here, but certain community members might join.
+#### The wiki is the single source of truth for all RetroDECK documentation and information.
 
-- If you know what the issue is and maybe even have found a solution, submit it directly on GitHub.
-
-The RetroDECK Team tries to spread any knowledge, tips, or clarifications from Discord or other RetroDECK communities to the Wiki via separate articles or updating the FAQ. 
+The RetroDECK team works to propagate useful tips, solutions, and clarifications from Discord or other community venues into the wiki: either as new articles or updates to the FAQ.
 
 ### Discord & Matrix
 
 Discord and Matrix are used for more guidance-type issues and community support.
 
 [Discord](https://discord.gg/WDc5C9YWMx)
-
-[Matrix](https://matrix.to/#/#retrodeck:matrix.org)
 
 ### RetroDECK - Github Issues
 
@@ -70,13 +78,7 @@ What follows is a list of known issues.
 
 ### RetroArch
 
-**Gambatte Issue:** Quitting the core with the `Quit` radial function makes the core swap the palette while playing GB.
 **Multi-File Game Save Location:** Bug in RetroArch [GitHub libretro: Bug 17589](https://github.com/RetroDECK/RetroDECK/issues/1048).
-
-
-### Ryujinx
-
-**Issue:** Cannot handle symlinks correctly, affecting saves, firmware, and keys.
 
 ### GZDOOM
 
@@ -95,7 +97,6 @@ What follows is a list of known issues.
 **Issue:** ES-DE Configurations submenu doesn't support translations yet.
 
 **Solution:**  Translations will be implemented in the future.
-
 
 ### Dolphin / Primehack 
 
@@ -144,8 +145,6 @@ What follows is a list of known issues.
 **Issue:** Shows the wrong version when updating Flatpak applications due to a caching error.
 
 **Solution:**  Force a cache update by going to `Discover` -> `Settings` -> and unchecking and checking Flathub again.
-
-
 
 ## Knows Issues - Steam Deck
 

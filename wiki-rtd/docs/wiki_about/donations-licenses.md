@@ -63,10 +63,14 @@ We aim to have better FOSS donation methods in the future.
 
 ---
 
+## Systems
+
+---
+
 
 ## Flatpak
 
-<img src="../../wiki_images/logos/flatpak-logo.png" width="75">
+<img src="../../wiki_images/logos/flatpak-logo.svg" width="95">
 
 As a flatpak we are nothing without the technology.
 
@@ -99,6 +103,58 @@ Buy the app to show them your support:
 [License](https://gitlab.com/es-de/emulationstation-de/-/blob/master/LICENSE)
 
 [Licenses](https://gitlab.com/es-de/emulationstation-de/-/tree/master/licenses)
+
+---
+
+## Wine
+
+<img src="../../wiki_images/logos/wine-logo.png" width="75">
+
+### Where to donate / support the project?
+
+[Wine Development Fund](https://www.winehq.org/donate) 
+
+### Licenses
+
+[Licenses](https://gitlab.winehq.org/wine)
+
+
+---
+
+
+## Steam Rom Manager (SRM)
+
+<img src="../../wiki_images/logos/srm-logo.png" width="75">
+
+The makers of Steam Rom Manger and SteamGridDB.
+
+### Where to donate / support the project?
+
+[Open Collective](https://www.patreon.com/steamgriddb) 
+
+### Licenses
+
+[Licenses](https://github.com/SteamGridDB/steam-rom-manager?tab=GPL-3.0-1-ov-file#readme)
+
+---
+
+## PortMaster
+
+<img src="../../wiki_images/logos/srm-logo.png" width="75">
+
+Your Ultimate Linux Port Manager.
+
+### Where to donate / support the project?
+
+[Patreon](https://opencollective.com/portmaster) 
+
+### Licenses
+
+[Licenses](https://github.com/PortsMaster/PortMaster-New?tab=MIT-1-ov-file#readme)
+
+---
+
+## Multi-Emulators
 
 ---
 
@@ -157,6 +213,10 @@ ares is a cross-platform, open source, multi-system emulator, focusing on accura
 ### License
 
 [Licenses](https://github.com/ares-emulator/ares/blob/master/LICENSE)
+
+---
+
+## Emulators
 
 ---
 
@@ -335,6 +395,25 @@ A free and open-source application that emulates the original Microsoft Xbox gam
 
 ---
 
+## Ruffle
+
+<img src="../../wiki_images/logos/ruffle-logo.svg" width="75">
+
+### Where to donate / support the project?
+
+[opencollective](https://opencollective.com/ruffle) 
+
+### Licenses
+
+[Licenses](https://github.com/ruffle-rs/ruffle/blob/master/LICENSE.md)
+
+
+---
+
+## Engines
+
+---
+
 ## OpenBOR
 
 <img src="../../wiki_images/logos/openbor-logo.svg" width="75">
@@ -352,11 +431,11 @@ We have not found a donation link to this project at this time or the project do
 
 ---
 
-## GZDoom
+## UZDoom
 
-<img src="../../wiki_images/logos/gzdoom-logo.png" width="75">
+<img src="../../wiki_images/logos/uzdoom-logo.svg" width="75">
 
-GZDoom is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.
+UZDoom is a source port for the modern era, supporting current hardware and operating systems and sporting a vast array of user options. Make Doom your own again! 
 
 ### Where to donate / support the project?
 
@@ -387,7 +466,7 @@ ScummVM allows you to play classic graphic point-and-click adventure games, text
 
 ## Solarus
 
-<img src="../../wiki_images/logos/solarus-logo.svg" width="75">
+<img src="../../wiki_images/logos/solarus-logo.svg" width="100">
 
 Solarus is a free and open-source 2D game engine written in C++, that can run games scripted in Lua. It has been designed with 16-bit classic Action-RPGs in mind, and is available on a wide range of platforms.
 
@@ -417,53 +496,26 @@ We have not found a donation link to this project at this time or the project do
 
 ---
 
-## Steam Rom Manager (SRM)
+## Adventure Game Studio 
 
-<img src="../../wiki_images/logos/srm-logo.png" width="75">
-
-The makers of Steam Rom Manger and SteamGridDB.
+<img src="../../wiki_images/logos/ags-logo.svg" width="100">
 
 ### Where to donate / support the project?
 
-[Patreon](https://www.patreon.com/steamgriddb) 
+[Donate](https://www.adventuregamestudio.co.uk/join/donate/) 
 
 ### Licenses
 
-[Licenses](https://github.com/SteamGridDB/steam-rom-manager?tab=GPL-3.0-1-ov-file#readme)
+[Licenses](https://github.com/adventuregamestudio/ags?tab=License-1-ov-file#readme)
+
+
+
 
 ---
-
-## Ruffle
-
-<img src="../../wiki_images/logos/ruffle-logo.svg" width="75">
-
-### Where to donate / support the project?
-
-[opencollective](https://opencollective.com/ruffle) 
-
-### Licenses
-
-[Licenses](https://github.com/ruffle-rs/ruffle/blob/master/LICENSE.md)
-
----
-
-## Wine
-
-<img src="../../wiki_images/logos/wine-logo.png" width="75">
-
-### Where to donate / support the project?
-
-[Wine Development Fund](https://www.winehq.org/donate) 
-
-### Licenses
-
-[Licenses](https://gitlab.winehq.org/wine)
-
----
-
-
 
 ## Art and Assets
+
+---
 
 ### Lahrs Folder Icons 
 
@@ -519,6 +571,8 @@ Weestuarty of the group made the remix version of their LaunchBox theme for usag
 ## Other Licenses
 
 Here we showcase the licenses of projects / functions we might use in part, got inspired by the code/solutions or want to give special credit.
+
+---
 
 ### Dungeon Crawl Stone Soup
 

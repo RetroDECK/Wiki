@@ -2,11 +2,9 @@
 
 <img src="../../../wiki_images/logos/mudlet-logo.png" width="150">
 
-Mudlet is a gaming platform designed for MUDs, offering tools for players and creators to enhance gameplay. MUD creators can add visual elements or features, while players can script, automate, and customize their experience. Beyond MUDs, Mudlet has also been used to automate and enhance 3D games with chat and server-console protocols.
+Mudlet is a MUD Client, offering tools for players and creators to enhance gameplay. 
 
-**Note:**
-
-ES-DE is the default frontend used in RetroDECK.
+MUD creators can add visual elements or features, while players can script, automate, and customize their experience.
 
 ---
 

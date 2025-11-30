@@ -4,19 +4,26 @@
 
 What follows is a list of features and software currently included in RetroDECK.
 
-**Note: RetroDECK does not include any games, proprietary BIOS or Firmware** 
 
-- The user needs to provide their own purchased backups / game files to play.
-- The user needs to provide their own purchased BIOS / Firmware files from their own consoles or purchased engines files (for example Pico-8) for the systems that needs them.
+## RetroDECK does NOT include any games, proprietary BIOS files, or firmware.
 
+- Users must provide their own legally obtained game files. This includes their own **console backups** or **free and open-source games** they download themselves.
+- Some titles can be obtained through RetroDECK’s **built-in PortMaster**, which offers a selection of free and open-source ports, but many still requires legally obtained game files.
+- RetroDECK also supports running fully open-source games such as **Freedoom** with **built-in engines** like **GZDoom**.
+- Users must provide any required BIOS or firmware files from their own consoles, or legally obtained files (such as those for Pico-8) for systems that require them. However, RetroDECK will try to include BIOS or firmware files if they are released under an open-source license and can be legally redistributed.
 
 ## RetroDECK Features
+
+---
 
 ### RetroDECK Framework
 
 <img src="../../wiki_icons/retrodeck/icon-framework.svg" width="50">
 
-RetroDECK comes with the `RetroDECK Framework` that allows deeper integrations between the built-in software and easier exposure to a variety of features that you otherwise need to set for example per system basis to create a uniformity between them.
+RetroDECK includes the **RetroDECK Framework**, which provides deeper integration between all built-in software.  
+It streamlines access to many features that would normally need to be configured individually for each system, helping create a consistent and unified experience across all emulators.
+
+--
 
 ### RetroDECK Configurator 
 
@@ -30,36 +37,44 @@ It can be used to change/modify and manipulate various aspects of RetroDECK.
 
 It can help with:
 
-- Compressing games.
-- Easier `Texture Pack` and `Mod` management.
-- File management.
-- Tools for troubleshooting (BIOS Checker, Multi-File Structure Checker, Partial or full reset of functions).
-- Auto installing some free BIOS / Firmware.
-- Install prebuilt Steam Input profiles for devices like the Steam Deck and external controllers
-- Easier management of `mods`, `roms`, `texture_packs`, `scraped media`, `screenshots`, `saves / states` `gamelists` and more
-- Give access to global presets that can be acitivated to configure things over many emulators in one go like: `RetroAchievements`
-  `Borders` `Widescreen Mode` `Swaping A/B X/Y for Nintendo Games`.
-- Enable `Steam Sync` to synchronize your favorites with Steam.
-- And more!
+ Feature / Tool | Description |
+|----------------|-------------|
+| **Game Compression** | Helps compress and optimize game files for storage efficiency. |
+| **Texture Pack & Mod Management** | Simplifies installing, updating, and organizing texture packs and mods. |
+| **File Management** | Provides convenient tools for organizing and handling various RetroDECK directories. |
+| **Troubleshooting Tools** | Includes a BIOS checker, multi-file structure checker, and options for partial or full resets of specific functions. |
+| **Automatic Installation of Free BIOS/Firmware** | Automatically installs BIOS or firmware that is legally redistributable under open-source licenses. |
+| **Steam Input Profile Installer** | Installs prebuilt controller profiles for devices like the Steam Deck and external gamepads. |
+| **Easy Management of User Content** | Simplifies handling of `mods`, `roms`, `texture_packs`, `scraped media`, `screenshots`, `saves/states`, `gamelists`, and more. |
+| **Global Presets** | Allows enabling presets across multiple emulators at once, such as: `RetroAchievements`, `Borders`, `Widescreen Mode`, `Swap A/B X/Y for Nintendo games`, and more. |
+| **Steam Sync** | Synchronizes RetroDECK favorites with Steam. |
+| **Additional Utilities** | More helpful tools and features to streamline the RetroDECK experience. |
+
+and more!
 
 **Read more here:**
 
 [RetroDECK Configurator](../wiki_tool_guides/configurator/configurator.md).
 
+---
+
 ### RetroENGINE
 
 <img src="../../wiki_icons/retrodeck/icon-engine.svg" width="50">
 
-RetroENGINE allows you to run various game files directly with RetroDECK from the desktop without starting the application.
+**RetroENGINE** allows you to launch supported game files directly with RetroDECK from the desktop—no need to open the full application.
 
-It supports the association of common game file extensions with RetroDECK. Additionally, you can run games directly via RetroENGINE using the CLI.
+It supports file-type associations for common game extensions, enabling you to start games with a simple double-click. You can also launch titles directly through the command line using RetroENGINE’s CLI interface.
 
 **Read more here:**
 
 [RetroDECK's RetroENGINE](../wiki_system_guides/retroengine/retroengine-guide.md).
 
+---
 
-## Frontends
+## Components: Systems
+
+---
 
 ### ES-DE
 
@@ -67,7 +82,33 @@ It supports the association of common game file extensions with RetroDECK. Addit
 
 ES-DE is the base frontend for RetroDECK. RetroDECK includes specific tweaks to the ES-DE standard setup to enable unique functions like the `RetroDECK Configurator`, which can be accessed via the ES-DE Menu.
 
-## Multi-Emulators
+---
+
+### PortMaster
+
+<img src="../../wiki_images/logos/portmaster-logo.png" width="75">
+
+PortMaster is a simple, self-contained GUI tool that makes it easy to download and install game ports on Linux devices.
+
+[PortMaster - General Guide](../wiki_port_guides/portmaster/portmaster-guide.md)
+
+---
+
+### Steam Rom Manger 
+
+<img src="../../wiki_images/logos/srm-logo.png" width="50">
+
+Steam ROM Manager (SRM) is a bulk game importer and artwork manager for Steam.
+
+It automatically adds games to Steam as individual entries, applies artwork, and configures Steam Input templates for each title.
+
+[SRM - General Guide](../wiki_system_guides/srm/srm-guide.md)
+
+---
+
+## Components: Multi-Emulators
+
+---
 
 ### RetroArch
 
@@ -79,6 +120,8 @@ For a full list of supported systems in RetroArch, follow the link and check the
 
 [RetroArch - General Guide](../wiki_emulator_guides/retroarch/retroarch-guide.md)
 
+---
+
 ### MAME
 
 <img src="../../wiki_images/logos/mame-logo.png" width="100">
@@ -87,7 +130,11 @@ The full version of the multi-arcade emulator MAME.
 
 [MAME - General Guide](../wiki_emulator_guides/mame/mame-guide.md)
 
-## Standalone Emulators
+---
+
+## Components: Standalone Emulators
+
+---
 
 ### CEMU
 
@@ -97,6 +144,7 @@ The WiiU Emulator CEMU.
 
 [Cemu - General Guide](../wiki_emulator_guides/cemu/cemu-guide.md)
 
+---
 
 ### Dolphin & Primehack
 
@@ -106,6 +154,7 @@ The Wii and GameCube Emulator Dolphin and The Metroid Prime fork of Dolphin.
 
 [Dolphin / Primehack - General Guide](../wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md)
 
+---
 
 ### melonDS
 
@@ -115,6 +164,7 @@ The Nintendo DS emulator melonDS.
 
 [melonDS - General Guide](../wiki_emulator_guides/melonds/melonds-guide.md)
 
+---
 
 ### PCSX2
 
@@ -124,6 +174,8 @@ The Playstation 2 emulator PCSX2.
 
 [PCSX2 - General Guide](../wiki_emulator_guides/pcsx2/pcsx2-guide.md)
 
+---
+
 ### PPSSPP
 
 <img src="../../wiki_images/logos/ppsspp-logo.png" width="50">
@@ -131,6 +183,8 @@ The Playstation 2 emulator PCSX2.
 The PSP emulator PPSSPP.
 
 [PPSSPP - General Guide](../wiki_emulator_guides/ppsspp/ppsspp-guide.md)
+
+---
 
 ### RPCS3
 
@@ -140,6 +194,8 @@ The PS3 emulator RPCS3.
 
 [RPCS3 - General Guide](../wiki_emulator_guides/rpcs3/rpcs3-guide.md)
 
+---
+
 ### Ruffle
 
 <img src="../../wiki_images/logos/ruffle-logo.svg" width="50">
@@ -147,6 +203,8 @@ The PS3 emulator RPCS3.
 The flash emulator Ruffle.
 
 [Ruffle - General Guide](../wiki_emulator_guides/ruffle/ruffle-guide.md)
+
+---
 
 ### Vita3k
 
@@ -156,6 +214,8 @@ The PSVita emulator Vita3k.
 
 [Vita3k - General Guide](../wiki_emulator_guides/vita3k/vita3k-guide.md)
 
+---
+
 ### XEMU
 
 <img src="../../wiki_images/logos/xemu-logo.png" width="50">
@@ -164,27 +224,13 @@ The Xbox emulator XEMU.
 
 [XEMU - General Guide](../wiki_emulator_guides/xemu/xemu-guide.md)
 
-## Included: Legacy Emulators
 
-Legacy Emulators are emulators that are included but no longer supported because of ceased development on the Emulators part or other things.
 
-### Ryujinx (Legacy)
+---
 
-<img src="../../wiki_images/logos/ryujinx-logo.svg" width="50">
+## Components: Engines
 
-The Switch emulator Ryujinx, (has stopped development).
-
-[Ryujinx - General Guide](../wiki_emulator_guides/ryujinx/ryujinx-guide.md)
-
-### Duckstation (Legacy)
-
-<img src="../../wiki_images/logos/duckstation-logo.png" width="50">
-
-Playstation 1 (PSX) emulator Duckstation (has made licensing changes).
-
-[Duckstation - General Guide](../wiki_emulator_guides/duckstation/duckstation-guide.md)
-
-## Standalone Engines
+---
 
 ### Solarus
 
@@ -218,39 +264,52 @@ The fantasy console Pico-8.
 
 [Pico-8 - General Guide](../wiki_engine_guides/pico8/pico8-guide.md)
 
-## Systems
+---
 
-### PortMaster
+## Components: Legacy
 
-<img src="../../wiki_images/logos/portmaster-logo.png" width="75">
+Legacy Components are components that remain included in RetroDECK but are no longer actively supported.  
+This may be due to halted development by their creators, licensing changes that prevent further updates, or other limiting factors.
 
-PortMaster is a simple GUI tool designed to facilitate the downloading and installation of game ports for Linux devices and is self contained.
+They are provided **as-is** and will not receive future updates or improvements.
 
-[PortMaster - General Guide](../wiki_port_guides/portmaster/portmaster-guide.md)
+### Duckstation (Legacy)
 
-### Steam Rom Manger 
+<img src="../../wiki_images/logos/duckstation-logo.png" width="50">
 
-<img src="../../wiki_images/logos/srm-logo.png" width="50">
+Playstation 1 (PSX) emulator Duckstation (has made licensing changes).
 
-Steam ROM Manager (SRM) a bulk game importer and artwork manager for Steam.
+[Duckstation - General Guide](../wiki_emulator_guides/duckstation/duckstation-guide.md)
 
-It adds separate games to Steam, adds artwork and configures the steam input profiles. 
+---
 
-[SRM - General Guide](../wiki_system_guides/srm/srm-guide.md)
+## Other
 
-## Steam Input Controller Templates
+---
 
-For all Steam Inputs Templates included in RetroDECK.
+### Global Hotkeys and Steam Input Controller Templates
+
+For all Global Hotkeys & Steam Inputs Templates included in RetroDECK.
 
 **Read more here:**
 
 [Supported Controllers / Hotkeys](../wiki_rd_controls/hotkeys-retrodeck.md).
 
+---
 
-## Supported Devices
+### Supported Devices
 
-RetroDECK currently supports Linux Desktop and the Steam Deck.
+The devices RetroDECK currently support.
 
 **Read more here:**
 
 [Supported Devices](../wiki_general/supported-devices.md)
+
+
+---
+
+### Folder Icons
+
+Custom artwork folder icons.
+
+---

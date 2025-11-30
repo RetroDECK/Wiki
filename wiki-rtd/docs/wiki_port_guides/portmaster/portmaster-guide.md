@@ -35,7 +35,7 @@ Check the [PortMaster Games List](https://portmaster.games/games.html) for detai
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
 | Launch Scripts Folder | `retrodeck/roms/portmaster/`   |  This contains the auto generated launch scripts for ES-DE as `.sh` files.   |
-| Game Data Folder | `retrodeck/PortMaster/ports/`  |  This contains the game files, savefiles and directories. This is also where you add any required game files.  |
+| Game Data Folder | `retrodeck/storage/PortMaster/ports/`  |  This contains the game files, savefiles and directories. This is also where you add any required game files.  |
 
 ## How-to launch PortMaster?
 

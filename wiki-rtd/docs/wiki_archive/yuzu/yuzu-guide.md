@@ -1,14 +1,12 @@
 # Yuzu - General Guide (Archive)
 
-<img src="../../../wiki_images/logos//yuzu-logo.svg" width="150">
+<img src="../../../wiki_images/logos//yuzu-logo.svg" width="75">
 
 Yuzu was a Switch emulator.
 
 **Note: Archived Emulator**
 
-It was removed as part of the `0.8.0b` update.
-
-The last version that shipped with Yuzu was `0.7.6b`.
+Yuzu was removed as part of the `0.8.0b` update.
 
 ## Where to put the games?
 

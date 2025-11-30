@@ -267,12 +267,20 @@ nav:
     - Different Button Prompts in Games: wiki_rd_controls/diffrent-game-inputs.md
     - Udev Rules: wiki_rd_controls/about-udev.md
 
+  - Guides - RetroDECK Devices 🕹️:
+
+    - Linux Desktop:
+      - Linux - Installation: wiki_devices/linux_desktop/linux-install.md
+
+    - Steam Deck:
+      - Steam Deck - Installation: wiki_devices/steamdeck/steamdeck-start.md
+      - Steam Deck - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
+
   - Guides - RetroDECK Tools 🧰:
 
     - RetroDECK Configurator: wiki_tool_guides/configurator/configurator.md
     - Backup RetroDECK : wiki_tool_guides/retrodeck-backup/retrodeck-backup.md
     - Add RetroDECK to Steam: wiki_tool_guides/add-to-steam/add-to-steam.md
-
 
   - Guides - RetroDECK Management 📁:
 
@@ -285,14 +293,10 @@ nav:
     - Spreading Files over Multiple Drives: wiki_management/spread-files/spread-files.md
     - Software Recommendations: wiki_management/software-recommendations/software-recommendations.md
 
-  - Guides - Devices 🕹️:
+  - Guides - Clients 📟:
 
-    - Linux Desktop:
-      - Linux - Installation: wiki_devices/linux_desktop/linux-install.md
-
-    - Steam Deck:
-      - Steam Deck - Installation: wiki_devices/steamdeck/steamdeck-start.md
-      - Steam Deck - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
+    - Mudlet:
+      - Mudlet - General Guide: wiki_client_guides/mudlet/mudlet-guide.md
 
   - Guides - Engines 🛠️:
 
@@ -394,7 +398,7 @@ nav:
     - Launch External Emulators: wiki_experiments/external-emulator/external-emulator.md
     - Run RetroDECK in WSL:  wiki_experiments/retrodeck-wsl/retrodeck-wsl.md
 
-  - RetroDECK Development 🧪:
+  - RetroDECK Development 🪄:
 
     - Development General:
       - Development Glossary: wiki_development/general/development-glossary.md
@@ -480,15 +484,15 @@ nav:
       - Credits - Additional: wiki_credits_social/credits/credits-additional.md
       - Credits - Collaborators: wiki_credits_social/credits/credits-collaborators.md
 
-  - Archive 📂:
+  - Archive 🗄️:
 
-    - Citra (Archive):
+    - Citra:
       - Citra - General Guide: wiki_archive/citra/citra-guide.md
 
-    - Yuzu (Archive):
+    - Yuzu:
       - Yuzu - General Guide: wiki_archive/yuzu/yuzu-guide.md
 
-    - Ryujinx (Legacy):
+    - Ryujinx:
       - Ryujinx - General Guide: wiki_archive/ryujinx/ryujinx-guide.md
 
     - Ponzu AppImage Loader: wiki_archive/ponzu/ponzu-guide.md

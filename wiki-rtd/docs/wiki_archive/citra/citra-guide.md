@@ -1,14 +1,12 @@
 # Citra - General Guide (Archive)
 
-<img src="../../../wiki_images/logos/citra-logo.svg" width="150">
+<img src="../../../wiki_images/logos/citra-logo.svg" width="75">
 
 Citra was a Nintendo 3DS Emulator.
 
 **Note: Archived Emulator**
 
 Citra was a Switch emulator and was removed as part of the `0.8.0b` update.
-
-The last version that shipped with Citra was `0.7.6b`.
 
 ## Where to put the games
 

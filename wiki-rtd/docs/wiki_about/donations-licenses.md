@@ -399,6 +399,8 @@ A free and open-source application that emulates the original Microsoft Xbox gam
 
 <img src="../../wiki_images/logos/ruffle-logo.svg" width="75">
 
+Flash emulator Ruffle.
+
 ### Where to donate / support the project?
 
 [opencollective](https://opencollective.com/ruffle) 
@@ -406,6 +408,76 @@ A free and open-source application that emulates the original Microsoft Xbox gam
 ### Licenses
 
 [Licenses](https://github.com/ruffle-rs/ruffle/blob/master/LICENSE.md)
+
+
+---
+
+
+## DOSBox-X
+
+<img src="../../wiki_images/logos/dosbox-x-logo.svg" width="75">
+
+DOSBox-X is an open-source DOS emulator for running DOS applications and games.
+
+### Where to donate / support the project?
+
+We have not found a donation link to this project at this time or the project does not support donations.
+
+### Licenses
+
+[Licenses](https://github.com/joncampbell123/dosbox-x?tab=GPL-2.0-1-ov-file#readme)
+
+---
+
+## Eden
+
+<img src="../../wiki_images/logos/eden-logo.svg" width="75">
+
+Eden is an open-source Switch emulator.
+
+### Where to donate / support the project?
+
+[Website](https://eden-emu.dev/donations).
+
+### Licenses
+
+[Licenses](https://git.eden-emu.dev/eden-emu/eden/src/branch/master/LICENSES)
+
+
+---
+
+## Ryubing
+
+
+<img src="../../wiki_images/logos/ryubing-logo.png" width="75">
+
+Ryubing is an open-source Switch emulator.
+
+### Where to donate / support the project?
+
+We have not found a donation link to this project at this time or the project does not support donations.
+
+### Licenses
+
+[Licenses](https://git.ryujinx.app/ryubing/ryujinx/-/blob/master/LICENSE.txt?ref_type=heads)
+
+
+---
+
+## EKA2L1
+
+
+<img src="../../wiki_images/logos/eka2l1-logo.svg" width="75">
+
+A Symbian OS/N-Gage emulator.
+
+### Where to donate / support the project?
+
+[Github - Sponsor](https://github.com/EKA2L1/EKA2L1).
+
+### Licenses
+
+[Licenses](https://github.com/EKA2L1/EKA2L1#GPL-3.0-1-ov-file)
 
 
 ---
@@ -466,7 +538,7 @@ ScummVM allows you to play classic graphic point-and-click adventure games, text
 
 ## Solarus
 
-<img src="../../wiki_images/logos/solarus-logo.svg" width="100">
+<img src="../../wiki_images/logos/solarus-logo.svg" width="200">
 
 Solarus is a free and open-source 2D game engine written in C++, that can run games scripted in Lua. It has been designed with 16-bit classic Action-RPGs in mind, and is available on a wide range of platforms.
 
@@ -498,7 +570,7 @@ We have not found a donation link to this project at this time or the project do
 
 ## Adventure Game Studio 
 
-<img src="../../wiki_images/logos/ags-logo.svg" width="100">
+<img src="../../wiki_images/logos/ags-logo.svg" width="200">
 
 ### Where to donate / support the project?
 
@@ -508,7 +580,20 @@ We have not found a donation link to this project at this time or the project do
 
 [Licenses](https://github.com/adventuregamestudio/ags?tab=License-1-ov-file#readme)
 
+---
 
+
+## EasyRPG
+
+<img src="../../wiki_images/logos/easyrpg-logo.svg" width="75">
+
+### Where to donate / support the project?
+
+We have not found a donation link to this project at this time or the project does not support donations.
+
+### Licenses
+
+[Licenses](https://github.com/EasyRPG/Player?tab=GPL-3.0-1-ov-file#readme)
 
 
 ---
@@ -525,6 +610,8 @@ Thank you!
 
 //RetroDECK Team
 
+---
+
 ### Kenney.nl
 
 RetroDECK Team owns a seperate donation license.
@@ -537,22 +624,28 @@ Licenses: CC0 & CC1.
 
 [itch.io](https://kenney.itch.io/kenney-donation)
 
+---
+
 ### Pixel UI Theme for Godot
 
 RetroDECK Team owns a license.
 
 [Pixel UI Theme Itch.io](https://thowsenmedia.itch.io/pixel-ui-theme-for-godot)
 
+---
 
 ### Pixelitos
 
 [Licenses](https://github.com/ItzSelenux/pixelitos-icon-theme/blob/main/LICENSE)
 
+---
 
 ### Pixel Sans 13
 
 [Licenses](https://fontstruct.com/fontstructions/show/1844233/pixel-sans-13)
 
+
+---
 
 ### Mini Banner / RetroDECK Theme (Remixed Mini Banner)
 
@@ -561,6 +654,8 @@ RetroDECK Team owns a license.
 Mini Banner is a LaunchBox theme with several pixelart made by the artist group: Weestuarty, DerSchlachter (LaunchBox), Dan Patrick.
 
 Weestuarty of the group made the remix version of their LaunchBox theme for usage in RetroDECK.
+
+---
 
 ### SVG Repo
 
@@ -628,6 +723,8 @@ CC0
 
 The Steam Deck logo and device are registered trademarks of Valve Corporation. This project is not officially affiliated with Valve.
 
+---
+
 ### Other Trademarks
 
 All trademarks, logos, controller images, and brand names are the property of their respective owners. All company, product, and service names used in this project are for identification purposes only. Use of these names, trademarks, and brands does not imply endorsement.
@@ -635,18 +732,12 @@ All trademarks, logos, controller images, and brand names are the property of th
 
 ---
 
-## Not yet Part of RetroDECK
-
-### mGBA
-
-#### Where to donate / support the project?
-
-[Patreon](https://www.patreon.com/mgba)
-
 
 ## Propriety / Closed Source Emulators
 
-These are not yet added to RetroDECK.
+There can not be added to RetroDECK, but we want to showcase their efforts here.
+
+---
 
 ### BigPEmu
 
@@ -662,6 +753,7 @@ BigPEmu is the first Atari Jaguar emulator to feature compatibility with the ent
 
 [BigPEmu FAQ](https://www.richwhitehouse.com/jaguar/index.php?content=faq)
 
+---
 
 ## ReDream
 
@@ -674,5 +766,15 @@ ReDream is a Sega Dreamcast emulator.
 [Website](https://redream.io/)
 
 [Premium Upgrade](https://redream.io/premium)
+
+---
+
+## 3DSen
+
+3dSen PC is a unique NES emulator that converts classic and homebrew NES games into full 3D experiences.
+
+#### Where to donate / support the project?
+
+[Website](https://geodstudio.net/)
 
 

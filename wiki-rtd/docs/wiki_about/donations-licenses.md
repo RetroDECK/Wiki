@@ -126,7 +126,7 @@ The makers of Steam Rom Manger and SteamGridDB.
 
 ## PortMaster
 
-<img src="../../wiki_images/logos/srm-logo.png" width="75">
+<img src="../../wiki_images/logos/portmaster-logo.png" width="75">
 
 Your Ultimate Linux Port Manager.
 

@@ -8,6 +8,8 @@ For a quick overview check the website.
 
 ## What is RetroDECK?
 
+<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="75">
+
 RetroDECK is a powerful all-in-one retro gaming platform designed for handheld gaming PCs like the Steam Deck, full Linux desktops, Linux HTPC setups, and Linux-based PC consoles such as the Steam Machine. 
 
 Delivered as a self-contained Flatpak app, it gives you everything you need for retro gaming right out of the box, no manual setup required. 
@@ -19,6 +21,8 @@ By integrating a wide range of components such as emulators, game engines, ports
 ---
 
 ## Definition of Components
+
+<img src="../../wiki_icons/retrodeck/icon-component.svg" width="75">
 
 RetroDECK categorizes all software inside the platform as distinct **components**, organized into the following groups:
 
@@ -83,6 +87,9 @@ To see the full list on what is included so far, read:
 
 ## Key Main Features of RetroDECK
 
+<img src="../../wiki_icons/retrodeck/icon-assembler.svg" width="75">
+
+
 We believe that all functionality should be self-contained within the RetroDECK application, with no need for additional external software or dependencies.
 
 Below is a concise overview of RetroDECK’s major features and core concepts:
@@ -99,6 +106,8 @@ Below is a concise overview of RetroDECK’s major features and core concepts:
 ---
 
 ## Key Features of the RetroDECK Framework & Configurator
+
+<img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="75">
 
 A multi-tool with a powerful backend. 
 
@@ -119,6 +128,8 @@ A multi-tool with a powerful backend.
 
 ## Key Component Backend Features inside of RetroDECK
 
+<img src="../../wiki_icons/retrodeck/icon-framework.svg" width="75">
+
 RetroDECK organizes all software as isolated components, each running within a layered, self-contained environment. This architecture provides stability, flexibility, and efficient management of emulators, engines, ports, and other systems.
 
 
@@ -133,6 +144,8 @@ RetroDECK organizes all software as isolated components, each running within a l
 ---
 
 ## RetroDECK Is Currently in BETA
+
+<img src="../../wiki_icons/retrodeck/icon-hunter.svg" width="75">
 
 RetroDECK is actively evolving. It is stable enough for daily use, but major updates may still introduce significant changes, new features, or adjustments.
 

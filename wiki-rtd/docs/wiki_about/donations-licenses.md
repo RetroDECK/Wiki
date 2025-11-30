@@ -467,7 +467,7 @@ We have not found a donation link to this project at this time or the project do
 ## EKA2L1
 
 
-<img src="../../wiki_images/logos/eka2l1-logo.svg" width="75">
+<img src="../../wiki_images/logos/eka2l1-logo.png" width="75">
 
 A Symbian OS/N-Gage emulator.
 

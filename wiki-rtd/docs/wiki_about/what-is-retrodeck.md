@@ -26,31 +26,50 @@ RetroDECK categorizes all software inside the platform as distinct **components*
 
 A client is a system or application that connects to a server or online service to access multiplayer features, streaming, or remote content. Clients rely on an external host to function.
 
-**Examples:** Mudlet
+**Examples:** 
+
+- **Mudlet** – A MUD client for connecting to text-based multiplayer servers.
 
 ### Emulators
 
 An emulator is software that replicates the behavior of a specific system, whether it is real hardware (like a console or arcade machine) or a virtual/fantasy platform. Emulators allow games or applications designed for that system to run on a different device or operating environment. They aim to reproduce the original system’s behavior as accurately as possible, including its quirks, limitations, and performance characteristics.
 
-**Examples:** RetroArch, PCSX2, Pico-8, ares, Vita3k.
+**Examples:** 
+
+- **RetroArch** – Multi-emulator frontend.  
+- **PCSX2** – PlayStation 2 emulator.  
+- **Pico-8** – Fantasy console.  
+- **Vita3k** – PSVITA emulator.  
 
 ### Engines
 
 Engines are game engines or runtime environments designed to run games built specifically for them. This can include native engines as well as **engine re-implementations** modern rewrites that replace the original engine while preserving compatibility with classic games.
 
-**Examples:** Solarus, UZDoom, OpenBOR.
+**Examples:** 
+
+- **Solarus** – Action-RPG engine.  
+- **UZDoom** – Source port for Doom-engine games.  
+- **OpenBOR** – Open-source Beat ’em Up engine.  
 
 ### Systems
 
-Systems are non-gaming platforms or software environments supported within RetroDECK. These may include tools, utilities, frontends, media systems, or additional runtime environments that enhance functionality but are not games themselves.
+Systems are non-gaming platforms or software environments supported within RetroDECK. These may include tools, utilities, frontends, media systems that enhance functionality but are not games themselves.
 
-**Examples:** Steam Rom Manager, ES-DE, Flips, PortMaster.
+**Examples:** 
+
+- **Steam Rom Manager** – Tool for managing and importing ROMs into Steam.  
+- **ES-DE** – RetroDECK’s chosen frontend.  
+- **Flips** – Tool for handling ROMs and patches.  
+- **PortMaster** – Application for managing game ports and installations.  
 
 ### Ports
 
 Ports are individual games that have been adapted to run natively through a specific engine, framework, or platform. They do not require emulation since the game has been reworked or recompiled to run directly on modern systems.
 
-**Examples:** All games installed via PortMaster.
+**Examples:** 
+
+- All games installed via **PortMaster**. 
+- Games built directly into **RetroDECK**.  
 
 --- 
 

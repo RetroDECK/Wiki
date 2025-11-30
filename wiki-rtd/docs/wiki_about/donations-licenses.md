@@ -12,7 +12,7 @@ Our philosophy is to collaborate openly with other projects to improve both Retr
 
 We list current and future software and functions we want to include in RetroDECK and their licenses. More items will be added in upcoming updates.
 
-There are many emulators, software, front-ends, and assets not part of RetroDECK. This is not a complete list of all emulators or frontends on the internet.
+There are many emulators, software, front-ends, clients and assets not part of RetroDECK. This is not a complete list of all emulators or frontends on the internet.
 
 ### Support the right place
 
@@ -597,6 +597,41 @@ We have not found a donation link to this project at this time or the project do
 
 [Licenses](https://github.com/EasyRPG/Player?tab=GPL-3.0-1-ov-file#readme)
 
+---
+
+## Components: Clients
+
+---
+
+## Mudlet
+
+<img src="../../wiki_images/logos/mudlet-logo.png" width="75">
+
+Mud Client
+
+### Where to donate / support the project?
+
+We have not found a donation link to this project at this time or the project does not support donations.
+
+### Licenses
+
+[Licenses](https://github.com/Mudlet/Mudlet?tab=GPL-2.0-1-ov-file#readme)
+
+---
+
+## Prism Launcher
+
+<img src="../../wiki_images/logos/prismlauncher-logo.png" width="75">
+
+Open Source Minecraft Client.
+
+### Where to donate / support the project?
+
+[Donate](https://opencollective.com/prismlauncher) 
+
+### Licenses
+
+[Licenses](https://github.com/PrismLauncher/PrismLauncher/blob/develop/LICENSE)
 
 ---
 

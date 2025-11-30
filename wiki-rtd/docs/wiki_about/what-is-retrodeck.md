@@ -114,6 +114,7 @@ A multi-tool with a powerful backend.
 | **Full content management**      | Organize ROMs, scraped media, screenshots, save files, save states, gamelists, texture packs, mods, ports, and other data. |
 | **Global presets**               | Configure multiple components at once with universal presets, including: <br> - RetroAchievements <br> - Borders and overlays <br> - Widescreen enhancements <br> - Swapped A/B or X/Y buttons for Nintendo platforms <br> - Additional system-wide options |
 | **Unique Component Wrappers** | Some components, like **UZDoom** and **OpenBOR**, use custom wrappers to simplify launching. UZDoom supports a custom `.doom` format for easier mod integration, while OpenBOR uses `.bor` or `.openbor` formats for its games. |
+
 ---
 
 ## Key Component Backend Features inside of RetroDECK

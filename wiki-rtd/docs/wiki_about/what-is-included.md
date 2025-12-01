@@ -114,9 +114,11 @@ Systems are non-gaming platforms or software environments supported within Retro
 
 | Component | Logo | Description | Guide |
 |----------|-------|-------------|-------|
-| **ES-DE** | <img src="../../wiki_images/logos/es-de-logo.png" width="50"> | Base frontend for RetroDECK with custom tweaks such as the RetroDECK Configurator. | — |
+| **ES-DE** | <img src="../../wiki_images/logos/es-de-logo.png" width="50"> | Base frontend for RetroDECK with custom tweaks such as the RetroDECK Configurator. | [ES-DE Frontend - General Guide](../wiki_system_guides/es-de/esde-guide.md) |
+| **Flips** | <img src="../../wiki_images/logos/flips-logo.png" width="50"> | Tiny `.ips` `.bps` patcher for ROMs (used for patching ROM Hacks). | Open from Configurator | - |
 | **PortMaster** | <img src="../../wiki_images/logos/portmaster-logo.png" width="75"> | GUI tool to download and install game ports on Linux devices. | [PortMaster - General Guide](../wiki_port_guides/portmaster/portmaster-guide.md) |
 | **Steam ROM Manager** | <img src="../../wiki_images/logos/srm-logo.png" width="50"> | Bulk game importer and artwork manager for Steam. Adds games automatically and configures Steam Input templates. | [SRM - General Guide](../wiki_system_guides/srm/srm-guide.md) |
+
 
 
 ---

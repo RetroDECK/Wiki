@@ -168,7 +168,7 @@ Things we use or have taken inspiration from or use.
 ---
 
 
-## Proprietary / Closed Source Components
+## Components: Proprietary / Closed Source 
 
 These components cannot be added to RetroDECK, but we want to recognize their work and show their donation / purchase links.
 
@@ -180,6 +180,6 @@ These components cannot be added to RetroDECK, but we want to recognize their wo
 
 ---
 
-## Legacy Components
+## Components: Legacy 
 
 | **DuckStation** | <img src="../../wiki_images/logos/duckstation-logo.png" width="75"> | A PS1 simulator/emulator focused on accuracy, speed, and long-term maintainability. | No donation link available or donations not supported. |  [Licenses](https://github.com/stenzek/duckstation/blob/master/LICENSE) |

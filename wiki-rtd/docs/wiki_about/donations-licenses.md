@@ -4,6 +4,25 @@
 
 ## Information
 
+RetroDECK thrives thanks to the support of the open-source community and relies on a wide range of third-party libraries, systems, and tools. Without these vital dependencies, RetroDECK, and many other similar projects, would not be possible.
+
+Our philosophy is to collaborate openly with other projects to enhance both RetroDECK and the broader Linux ecosystem. We believe in the power of shared knowledge and contribution to drive innovation forward for the entire FOSS ecosystem.
+
+This several lists of current and future software, features, and libraries we plan or hope to integrate into RetroDECK, including their respective licenses. These lists will continue to evolve as we add new components in future updates.
+
+We also highlight some third-party software that we **cannot** integrate due to being proprietary or otherwise incompatible with RetroDECK’s licensing. Even though they cannot be included, we still appreciate their work and want to make it easy for users to find their donation or support links—because good software deserves recognition.
+
+### Support the Right Place
+
+If you're interested in supporting a specific frontend, art asset, emulator, engine, or any other part of the ecosystem, we strongly encourage you to donate **directly** to the creators or maintainers of that project. Donating via a third party or proxy can lead to funds being misdirected, which means the project or person you're hoping to support may not receive the intended support.
+
+No other project should handle or control another project's funding. To ensure your contributions are used effectively and reach the right hands, always donate directly to the individuals or projects you care about. Direct contributions are always the most effective way to support the open-source community and ensure that your donations make the greatest impact.
+
+
+## Information
+
+
+
 RetroDECK thrives thanks to the open‑source community and depends on a wide range of third‑party libraries, systems and tools. 
 
 Without those dependencies, neither RetroDECK nor many similar projects could exist. 
@@ -20,38 +39,47 @@ No other project should control another projects funds.
 
 Always make sure that the funds are getting to the right person. Direct contributions to the projects you care about are always preferred.
 
+---
+
 ## RetroDECK
 
 <img src="../../wiki_icons/retrodeck/icon-rd.svg" width="75">
 
-By donating to RetroDECK, you support the project and the vision of a unified experience.
+RetroDECK is a passion-driven, not profit driven project created and maintained in our free time. By donating to RetroDECK, you support the project’s development and our vision of a unified, streamlined experience for retro gaming on Linux handhelds and desktops.
 
-> **Important:** Donations do **not** grant any special privileges, perks, or such things. They simply support the ongoing development and maintenance of the hobby project. We also don't want excessive donations, donate to our dependencies instead. 
+> **Important:** Donations do **not** grant any special privileges, perks, or early access. RetroDECK is a hobby project, not a commercial product. 
+
+> We only ask for donations in a limited and modest fashion and we genuinely prefer that you donate **directly to the software, projects, and creators we depend on**, as they are the foundation that makes RetroDECK possible.
+
 
 ### How We Use Your Contributions
 
 | Area                         | What It Funds |
-|--------------------------------|------------------|
-| **Infrastructure**            | Web hosting, build servers, and other hosting costs |
-| **Development Tools**         | Software licenses (we prioritize FOSS and Creative‑Commons whenever possible) |
-| **UI & Artwork**              | Commissioned UI elements and artwork from artists (again, favoring FOSS/CC‑licensed assets) |
-| **Hardware (rarely)**   | New devices for testing and development (see details below) |
+|------------------------------|----------------|
+| **Infrastructure**            | Web hosting, build servers, and other hosting-related costs |
+| **Development Tools**         | Occasional software licenses (we prioritize FOSS and Creative-Commons resources whenever possible) |
+| **UI & Artwork**              | Commissioned UI elements and artwork from artists (again, favoring FOSS/CC-licensed assets) |
+| **Hardware (rarely)**         | New devices for testing and development (details below) | 
 
-#### Rare Hardware Purchases
+### Explanation: Rare Hardware Purchases
 
-From time to time the RetroDECK team may need to acquire new hardware to test compatibility or develop new features. We will always ask the community beforehand if we plan to make such a purchases.
+From time to time, the RetroDECK team may need to acquire new hardware to test compatibility or develop new features.
+If such a purchase is ever necessary, we will **always consult the community beforehand**.
 
-- **Gaming handhelds** – e.g., Steam Deck, ROG Ally.
-- **Controllers** – both major‑brand and niche options for comprehensive testing and making profiles for.
-- **Exotic Special peripherals** – light guns, racing wheels, X‑Arcade cabinets, V‑Boards, XAC, rythm etc.
+Examples include:
 
-> **Important:** As of now no such purchases have been made, all hardware and have been bought by RetroDECK Team members personal funds.
+- **Gaming handhelds** – e.g., Steam Deck, ROG Ally, and similar devices.
+- **Controllers** – major-brand and niche models for compatibility testing and profile creation.
+- **Special peripherals** – light guns, racing wheels, X-Arcade cabinets, V-Boards, accessibility controllers, rhythm controllers, etc.
+
+> **Important:** As of now, **no hardware has ever been purchased using donations**.
+> All devices used for testing and development have been bought with **personal funds** from RetroDECK team members.
+
   
 ### Where to donate / support the project?
 
 [Open Collective: RetroDECK](https://opencollective.com/retrodeck)
 
-We aim to have better FOSS donation methods in the future.
 
 ### Licenses used in RetroDECK:
 

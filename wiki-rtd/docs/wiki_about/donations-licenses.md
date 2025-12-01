@@ -18,27 +18,6 @@ If you're interested in supporting a specific frontend, art asset, emulator, eng
 
 No other project should handle or control another project's funding. To ensure your contributions are used effectively and reach the right hands, always donate directly to the individuals or projects you care about. Direct contributions are always the most effective way to support the open-source community and ensure that your donations make the greatest impact.
 
-
-## Information
-
-
-
-RetroDECK thrives thanks to the open‑source community and depends on a wide range of third‑party libraries, systems and tools. 
-
-Without those dependencies, neither RetroDECK nor many similar projects could exist. 
-
-Our philosophy is to collaborate openly with other projects to improve both RetroDECK and the broader Linux ecosystem.
-
-We list current and future software and functions we want to include in RetroDECK and their licenses. More items will be added in upcoming updates.
-
-### Support the right place
-
-If you want to fund a specific frontend, art asset, emulator, engine, or other we always encourage you to donate directly to that project/person and not via proxy. 
-
-No other project should control another projects funds. 
-
-Always make sure that the funds are getting to the right person. Direct contributions to the projects you care about are always preferred.
-
 ---
 
 ## RetroDECK

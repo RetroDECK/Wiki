@@ -66,6 +66,7 @@ We aim to have better FOSS donation methods in the future.
 ## Components: Systems
 
 
+
 | Component | Logo | Description | Donate / Support | Licenses |
 |----------|-------|-------------|------------------|----------|
 | **Flatpak** | <img src="../../wiki_images/logos/flatpak-logo.svg" width="95"> | As a flatpak we are nothing without the technology. | - [Flatpak Collective](https://opencollective.com/flatpak) <br> - [Flatpak Portals](https://opencollective.com/flatpak/projects/portals) <br> - [Flathub Donate](https://flathub.org/donate) | — |

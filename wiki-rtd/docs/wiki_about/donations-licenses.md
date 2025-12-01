@@ -145,19 +145,19 @@ We aim to have better FOSS donation methods in the future.
 | **Pixel Sans 13** | Pixel-style font. | — | - [Licenses](https://fontstruct.com/fontstructions/show/1844233/pixel-sans-13) |
 | **Mini Banner / RetroDECK Theme (Remixed)** | A remix of the LaunchBox Mini Banner theme by Weestuarty for RetroDECK; original artwork by Weestuarty, DerSchlachter, and Dan Patrick. | - [Source](https://forums.launchbox-app.com/files/file/4084-mini-banner/?tab=comments#comment-17029) | — |
 | **SVG Repo** | Asset repository of SVG graphics. | - [Website](https://www.svgrepo.com/) | — |
+| **Dungeon Crawl Stone Soup Tiles** | CC0 tile assets used or referenced. | - [Tiles](https://opengameart.org/content/dungeon-crawl-32x32-tiles) <br> - [Supplemental Tiles](https://opengameart.org/content/dungeon-crawl-32x32-tiles-supplemental) | CC0 |
 
 ## Other Licenses & Credits
 
-Things we use or have taken inspirtion from 
+Things we use or have taken inspiration from or use.
 
 | Item | Description | Source / Donate | Licenses |
 |------|-------------|------------------|----------|
-| **Dungeon Crawl Stone Soup Tiles** | CC0 tile assets used or referenced. | - [Tiles](https://opengameart.org/content/dungeon-crawl-32x32-tiles) <br> - [Supplemental Tiles](https://opengameart.org/content/dungeon-crawl-32x32-tiles-supplemental) | CC0 |
 | **Freedoom** | Open-source Doom-compatible assets. | — | - [Licenses](https://github.com/freedoom/freedoom?tab=License-1-ov-file) |
-| **Capsimg** | Various tools/graphics referenced. | — | - [Licenses](https://github.com/rsn8887/capsimg/blob/master/LICENCE.txt) |
-| **Lutris** | Linux game management platform referenced for compatibility or inspiration. | — | - [Licenses](https://github.com/lutris/lutris/blob/master/LICENSE) |
+| **Capsimg** | Capsimg (IPF) library. | — | - [Licenses](https://github.com/rsn8887/capsimg/blob/master/LICENCE.txt) |
+| **Lutris** | Linux game management platform referenced for inspiration. | — | - [Licenses](https://github.com/lutris/lutris/blob/master/LICENSE) |
 | **Pugsy's Cheats for MAME** | MAME cheat database. | - [Website](https://www.mamecheat.co.uk/) | — |
-| **Batocera** | Open-source retro OS referenced for ideas or comparisons. | — | - [Licenses](https://github.com/batocera-linux/batocera.linux?tab=License-1-ov-file#readme) |
+| **Batocera** | Open-source retro OS referenced for ideas. | — | - [Licenses](https://github.com/batocera-linux/batocera.linux?tab=License-1-ov-file#readme) |
 | **Steam Deck & Logo** | The Steam Deck device and associated logos are trademarks or registered trademarks of Valve Corporation. RetroDECK is an independent project and is not affiliated with, endorsed by, or sponsored by Valve Corporation. | — | Trademark notice (Valve Corporation) |
 | **Other Trademarks** | All trademarks, logos, controller images, and brand names referenced in this project are the property of their respective owners. Any use of company, product, or service names is for identification and descriptive purposes only. Such use does not imply any affiliation with, sponsorship by, or endorsement from the respective trademark holders. |
 
@@ -170,7 +170,7 @@ These emulators cannot be added to RetroDECK, but we want to recognize their wor
 
 | Emulator | Description | Donate / Support | Licenses / Info |
 |----------|-------------|------------------|------------------|
-| **BigPEmu** | First Atari Jaguar emulator with full retail library compatibility, high performance, and unique features. | - [Patreon](https://www.patreon.com/richwhitehouse) <br> - [Website](https://www.richwhitehouse.com/jaguar/) | - [BigPEmu FAQ](https://www.richwhitehouse.com/jaguar/index.php?content=faq) |
+| **BigPEmu** | First Atari Jaguar emulator with full retail library compatibility, high performance, and unique features. | [Patreon](https://www.patreon.com/richwhitehouse) <br> [Website](https://www.richwhitehouse.com/jaguar/) | - [BigPEmu FAQ](https://www.richwhitehouse.com/jaguar/index.php?content=faq) |
 | **ReDream** | Sega Dreamcast emulator. | - [Website](https://redream.io/) <br> - [Premium Upgrade](https://redream.io/premium) | — |
 | **3DSen** | NES emulator that transforms classic and homebrew games into full 3D experiences. | - [Website](https://geodstudio.net/) | — |
 

@@ -111,7 +111,7 @@ An emulator is software that replicates the behavior of a specific system, wheth
 | **RPCS3** | <img src="../../wiki_images/logos/rpcs3-logo.png" width="50"> | PlayStation 3 emulator RPCS3. | [RPCS3 - General Guide](../wiki_emulator_guides/rpcs3/rpcs3-guide.md) |
 | **Ruffle** | <img src="../../wiki_images/logos/ruffle-logo.svg" width="50"> | Flash emulator Ruffle. | [Ruffle - General Guide](../wiki_emulator_guides/ruffle/ruffle-guide.md) |
 | **Vita3k** | <img src="../../wiki_images/logos/vita3k-logo.png" width="50"> | PlayStation Vita emulator Vita3k. | [Vita3k - General Guide](../wiki_emulator_guides/vita3k/vita3k-guide.md) |
-| **Pico-8** | <img src="../../wiki_images/logos/pico-8-logo.png" width="75"> | PICO-8 Fantasy Console. | [XEMU - General Guide](../wiki_emulator_guides/pico-8/pico-8-guide.md) |
+| **Pico-8** | <img src="../../wiki_images/logos/pico-8-logo.png" width="75"> | PICO-8 Fantasy Console. | [Pico-8 - General Guide](../wiki_emulator_guides/pico-8/pico-8-guide.md) |
 | **XEMU** | <img src="../../wiki_images/logos/xemu-logo.png" width="50"> | Xbox emulator XEMU. | [XEMU - General Guide](../wiki_emulator_guides/xemu/xemu-guide.md) |
 
 

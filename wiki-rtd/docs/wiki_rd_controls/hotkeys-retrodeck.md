@@ -1,5 +1,7 @@
 # RetroDECK Hotkeys
 
+<img src="../../wiki_icons/pixelitos/antimicrox.png" width="50">
+
 ## RetroDECK Controller Mapping
 
 RetroDECK uses Steam Input for advanced controller mapping. More controllers will be added as Steam Input supports them.

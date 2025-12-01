@@ -72,6 +72,42 @@ It supports file-type associations for common game extensions, enabling you to s
 
 ---
 
+### Global Hotkeys and Steam Input Controller Templates
+
+<img src="../../wiki_icons/pixelitos/antimicrox.png" width="50">
+
+For all Global Hotkeys & Steam Inputs Templates included in RetroDECK.
+
+**Read more here:**
+
+[Supported Controllers / Hotkeys](../wiki_rd_controls/hotkeys-retrodeck.md).
+
+---
+
+### Supported Devices
+
+<img src="../../wiki_icons/kennynl/controllers/controller_steamdeck.png" width="50">
+
+The devices RetroDECK currently support. 
+
+**Read more here:**
+
+[Supported Devices](../wiki_general/supported-devices.md)
+
+
+---
+
+### Folder Icons
+
+
+<img src="../../wiki_icons/folder-iconsets/lahrs-main/saves.ico" width="50">
+
+<img src="../../wiki_icons/folder-iconsets/lahrs-main/pico8.ico" width="50">
+
+Custom artwork folder icons.
+
+---
+
 ## Components: Systems
 
 Systems are non-gaming platforms or software environments supported within RetroDECK. These may include tools, utilities, frontends, media systems that enhance functionality but are not games themselves.
@@ -142,36 +178,3 @@ They are provided **as-is** and will not receive future updates or improvements.
 | **Duckstation (Legacy)** | <img src="../../wiki_images/logos/duckstation-logo.png" width="50"> | PlayStation 1 emulator; legacy due to licensing changes. Provided as-is. | [Duckstation - General Guide](../wiki_emulator_guides/duckstation/duckstation-guide.md) |
 
 
-
----
-
-## Other
-
----
-
-### Global Hotkeys and Steam Input Controller Templates
-
-For all Global Hotkeys & Steam Inputs Templates included in RetroDECK.
-
-**Read more here:**
-
-[Supported Controllers / Hotkeys](../wiki_rd_controls/hotkeys-retrodeck.md).
-
----
-
-### Supported Devices
-
-The devices RetroDECK currently support.
-
-**Read more here:**
-
-[Supported Devices](../wiki_general/supported-devices.md)
-
-
----
-
-### Folder Icons
-
-Custom artwork folder icons.
-
----

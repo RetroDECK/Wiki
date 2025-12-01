@@ -1,99 +1,154 @@
-# How-to: Start using RetroDECK
+# How-to: Start Using RetroDECK
 
 <img src="../../wiki_icons/retrodeck/icon-rd.svg" width="100">
 
-## Information
+## New to RetroDECK?
 
-If you don't know what RetroDECK is, read:
+RetroDECK is an retro gaming platform.
 
-[What is RetroDECK?](../wiki_about/what-is-retrodeck.md)
+Start here:
 
-## Step-by-step Getting Started Guide
+[**What is RetroDECK?**](../wiki_about/what-is-retrodeck.md)
 
-### Step 0: Prerequisites
+---
+
+## Quick Start Guide
+
+### **Step 0 — Prerequisites**
 
 <img src="../../wiki_icons/pixelitos/emblem-default.png" width="50">
 
-Before you start, make sure you have:
+Before installing, make sure you have everything RetroDECK needs to function correctly.
 
-- A device to install RetroDECK on.
-- Related BIOS & Firmware ready.
-- Game backups of various formats or purchased titles ready to play.
+You will need:
 
-### Step 1: Installation
+**A supported device**, such as:
 
-<img src="../../wiki_icons/pixelitos/steam.png" width="50"> <img src="../../wiki_icons/pixelitos/linux.png" width="50">
+  - Handheld gaming PCs (e.g., Steam Deck).
+  - Full Linux desktops.
+  - Linux HTPC setups.
+  - Linux-based PC consoles (e.g., Steam Machine).
+  
+**Required BIOS & firmware (only for systems that need them)**  
 
-#### Steam Deck - Installation
+  - Not all platforms require firmware and/or BIOS.
+  - When they do, it must come from **your own legally-obtained sources** (e.g., extracted from your original hardware, or purchased legally such as PICO-8).
+  
+**Your own game backups, purchased titles, native ports and open-source games**
 
-Most of the initial setup needs to be done in `Desktop Mode`.
+  - RetroDECK supports **purchased games**, **open-source titles**, **your own backups** and **native ports**, depending on the system.
 
-**Follow the guide:** [Steam Deck - Installation](../wiki_devices/steamdeck/steamdeck-start.md)
 
-#### Linux Desktop - Installation
 
-**Follow the guide:** 
+---
+
+### **Step 1 — Installation**
+
+#### Steam Deck (Desktop Mode)
+
+<img src="../../wiki_icons/pixelitos/steam.png" width="50"> 
+
+[Steam Deck - Installation](../wiki_devices/steamdeck/steamdeck-start.md)
+
+#### Linux Desktop 
+
+<img src="../../wiki_icons/pixelitos/linux.png" width="50">
 
 [Linux Desktop - Installation](../wiki_devices/linux_desktop/linux-install.md)
 
-### Step 2: Place BIOS & Firmware
+---
+
+### **Step 2 — Add BIOS & Firmware**
 
 <img src="../../wiki_icons/pixelitos/cpu.png" width="50">
 
-Place BIOS & Firmware files in the `retrodeck/bios/` directory.
+Place required BIOS/Firmware files in (if the component require it):
 
-**Read up on:** 
+`retrodeck/bios/`
 
-[BIOS/Firmware](../wiki_management/bios-firmware/bios-firmware.md)
+Read more:
 
-### Step 3: Place ROMs and Games
+[BIOS & Firmware](../wiki_management/bios-firmware/bios-firmware.md)
+
+---
+
+### **Step 3 — Add ROMs / Games / Ports**
 
 <img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
 
-RetroDECK follows ES-DE's folder structure.
+Add your games following ES-DE’s clean and organized folder structure. This ensures that systems appear correctly in the frontend.
 
-Place ROM files in their corresponding system directory inside the `retrodeck/roms/` folder (the location of the `retrodeck/roms/` folder depends on your installation location choice).
+Put ROMs / Games in the matching system folder under:
 
-**Example:**
+`retrodeck/roms/`
 
-You have an example NES game called: `ExampleNESGame.nes`
+**Examples:**
 
-- Place `ExampleNESGame.nes` in the `retrodeck/roms/nes/` folder.
-- The result should be: `retrodeck/roms/nes/ExampleNESGame.nes`
+- `retrodeck/roms/nes/ExampleNESGame.nes`
+- `retrodeck/roms/doom/DOOM.WAD`
+- `retrodeck/roms/openbor/He-Man.openbor`
 
-**Read up on:** 
+Read more:
 
 [RetroDECK Folders](../wiki_management/retrodeck-folders/retrodeck-folders.md)
 
-### Step 4: Read the ES-DE Frontend & RetroDECK Hotkey Guides
+
+**For Ports**
+
+RetroDECK’s **PortMaster component** manages native ports. You can:
+
+- Browse and download a variety of ports.
+- Install **FOSS (Free and Open Source Software) ports** directly.
+- Some ports require purchased game files. 
+
+You will find PortMaster inside the ES-DE interface or in the Configurator. 
+
+
+---
+
+### **Step 4 — Learn ES-DE Frontend**
 
 <img src="../../wiki_images/logos/es-de-logo.png" width="55">
 
-ES-DE is the main user interface for RetroDECK and RetroDECK uses Steam Input for it's hotkeys.
+ES-DE is the graphical interface where you browse, select, and launch your games.
+Understanding its basics will help you customize themes, scrape metadata, manage playlists, and more.
 
-**Read up on:** 
+Read more:
 
-- [ES-DE Frontend: General Guide](../wiki_system_guides/es-de/esde-guide.md)
-- [RetroDECK: Controller Hotkeys](../wiki_rd_controls/hotkeys-retrodeck.md)
+- [ES-DE Frontend Guide](../wiki_system_guides/es-de/esde-guide.md)
 
-### Step 5: Playing the Games
+
+---
+ 
+### **Step 5 — Learn RetroDECK’s Hotkeys**
+
+
+<img src="../../wiki_icons/pixelitos/controller-retro.png" width="50">
+
+RetroDECK uses Steam Input, and each emulator has consistent hotkeys for save states, menus, fast-forward, screenshots, and more.
+
+- [RetroDECK Hotkeys](../wiki_rd_controls/hotkeys-retrodeck.md)
+
+---
+
+### **Step 6 — Play**
 
 <img src="../../wiki_icons/pixelitos/retrodeck.png" width="50">
 
-Launch RetroDECK via Steam or by itself. The systems you placed ROM files for should be shown and playable.
+Start RetroDECK (via Steam or directly).
 
-**Example:**
+Any system with valid ROMs / Games should now appear in ES-DE and be ready to play.
 
-The NES category should now be shown in the ES-DE Frontend with `ExampleNESGame.nes` from `Step 3`.
+---
 
-### The Optional Step: Explore & Be Part of the Community 
+## Optional — Explore the Community
 
 <img src="../../wiki_icons/pixelitos/distributor-logo-knoppix.png" width="50">
 
-Feel free to explore the wiki!
 
-- The RetroDECK community is active and widespread. You can find our social links on the [Wiki Start Page](../index.md). 
-- You can learn how to tweak certain systems from various articles.
-- You can read [The RetroDECK Blog](../blog/index.md) to stay updated with development updates.
-- You can contribute to the project: [How-to: Contribute to RetroDECK](../wiki_about/contibute-retrodeck.md)
+RetroDECK is community-driven—explore, learn, or join in!
 
+- System tweaks & tips: various wiki articles
+- Development updates: [RetroDECK Blog](../blog/index.md)  
+- Social links: [Wiki Start Page](../index.md)  
+- Contribute: [How to Contribute](../wiki_about/contibute-retrodeck.md)

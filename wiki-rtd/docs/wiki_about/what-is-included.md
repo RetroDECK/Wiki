@@ -102,7 +102,7 @@ The devices RetroDECK currently support.
 
 <img src="../../wiki_icons/folder-iconsets/lahrs-main/saves.ico" width="50">
 
-<img src="../../wiki_icons/folder-iconsets/lahrs-main/pico8.ico" width="50">
+<img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/pico8.ico" width="50">
 
 Custom artwork folder icons.
 

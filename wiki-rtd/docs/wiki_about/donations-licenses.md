@@ -53,7 +53,7 @@ From time to time the RetroDECK team may need to acquire new hardware to test co
 
 We aim to have better FOSS donation methods in the future.
 
-### Licenses
+### Licenses used in RetroDECK:
 
 [Licenses](https://github.com/RetroDECK/RetroDECK/blob/main/LICENSE)
 
@@ -134,13 +134,13 @@ We aim to have better FOSS donation methods in the future.
 
 | Item | Description | Donate / Source | Licenses |
 |------|-------------|------------------|----------|
-| **Lahrs Folder Icons** | User Lahrs contributed a large set of .ico icons for RetroDECK. | — | — |
-| **Kenney.nl** | RetroDECK Team owns a separate donation license. |  [Kenney.nl](https://www.kenney.nl/)   [Patreon](https://www.patreon.com/kenney)   [itch.io](https://kenney.itch.io/kenney-donation) | CC0 & CC1 |
-| **Pixel UI Theme for Godot** | RetroDECK Team owns a license. |  [Itch.io Page](https://thowsenmedia.itch.io/pixel-ui-theme-for-godot) | — |
+| **Lahrs Folder Icons** | Lahrs contributed a large set of folder icons for RetroDECK. | — | RetroDECK Team |
+| **Kenney.nl** | RetroDECK Team owns a separate donation license. |  [Kenney.nl](https://www.kenney.nl/)   [Patreon](https://www.patreon.com/kenney)   [itch.io](https://kenney.itch.io/kenney-donation) | CC0 & CC1 and RetroDECK Team owns a purchased license. |
+| **Pixel UI Theme for Godot** |  |  [Itch.io Page](https://thowsenmedia.itch.io/pixel-ui-theme-for-godot) | RetroDECK Team owns a purchased license. |
 | **Pixelitos** | Pixel-based icon theme. | — |  [Licenses](https://github.com/ItzSelenux/pixelitos-icon-theme/blob/main/LICENSE) |
-| **Pixel Sans 13** | Pixel-style font. | — |  [Licenses](https://fontstruct.com/fontstructions/show/1844233/pixel-sans-13) |
-| **Mini Banner / RetroDECK Theme (Remixed)** | A remix of the LaunchBox Mini Banner theme by Weestuarty for RetroDECK; original artwork by Weestuarty, DerSchlachter, and Dan Patrick. | [Source](https://forums.launchbox-app.com/files/file/4084-mini-banner/?tab=comments#comment-17029) | — |
-| **SVG Repo** | Asset repository of SVG graphics. |  [Website](https://www.svgrepo.com/) | — |
+| **Pixel Sans 13** | Pixel-style font. | - |  [Licenses](https://fontstruct.com/fontstructions/show/1844233/pixel-sans-13) |
+| **Mini Banner / RetroDECK Theme (Remixed)** | A remix of the LaunchBox Mini Banner theme by Weestuarty for RetroDECK; original artwork by Weestuarty, DerSchlachter, and Dan Patrick. | [Source](https://forums.launchbox-app.com/files/file/4084-mini-banner/?tab=comments#comment-17029) | Weestuarty |
+| **SVG Repo** | Asset repository of SVG graphics. |  [Website](https://www.svgrepo.com/) | Various |
 | **Dungeon Crawl Stone Soup Tiles** | CC0 tile assets used or referenced. |  [Tiles](https://opengameart.org/content/dungeon-crawl-32x32-tiles)   [Supplemental Tiles](https://opengameart.org/content/dungeon-crawl-32x32-tiles-supplemental) | CC0 |
 
 ---
@@ -157,7 +157,7 @@ Things we use or have taken inspiration from or use.
 | **Pugsy's Cheats for MAME** | MAME cheat database. |  [Website](https://www.mamecheat.co.uk/) | — |
 | **Batocera** | Open-source retro OS referenced for ideas. | — |  [Licenses](https://github.com/batocera-linux/batocera.linux?tab=License-1-ov-file#readme) |
 | **Steam Deck & Logo** | The Steam Deck device and associated logos are trademarks or registered trademarks of Valve Corporation. RetroDECK is an independent project and is not affiliated with, endorsed by, or sponsored by Valve Corporation. | — | Trademark notice (Valve Corporation) |
-| **Other Trademarks** | All trademarks, logos, controller images, and brand names referenced in this project are the property of their respective owners. Any use of company, product, or service names is for identification and descriptive purposes only. Such use does not imply any affiliation with, sponsorship by, or endorsement from the respective trademark holders. |
+| **Other Trademarks** | All trademarks, logos, controller images, and brand names referenced in this project are the property of their respective owners. Any use of company, product, or service names is for identification and descriptive purposes only. Such use does not imply any affiliation with, sponsorship by, or endorsement from the respective trademark holders. | — | Trademark notice (Various) |
 
 ---
 
@@ -166,7 +166,7 @@ Things we use or have taken inspiration from or use.
 
 These components cannot be added to RetroDECK, but we want to recognize their work and show their donation / purchase links.
 
-| Emulator | Description | Donate / Support | Licenses / Info |
+| Component | Description | Donate / Support | Licenses / Info |
 |----------|-------------|------------------|------------------|
 | **BigPEmu** | First Atari Jaguar emulator with full retail library compatibility, high performance, and unique features. | [Patreon](https://www.patreon.com/richwhitehouse)  [Website](https://www.richwhitehouse.com/jaguar/) |  [BigPEmu FAQ](https://www.richwhitehouse.com/jaguar/index.php?content=faq) |
 | **ReDream** | Sega Dreamcast emulator. |  [Website](https://redream.io/)   [Premium Upgrade](https://redream.io/premium) | — |

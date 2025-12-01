@@ -182,4 +182,6 @@ These components cannot be added to RetroDECK, but we want to recognize their wo
 
 ## Components: Legacy 
 
+| Component | Logo | Description | Donate / Support | Licenses |
+|----------|-------|-------------|------------------|----------|
 | **DuckStation** | <img src="../../wiki_images/logos/duckstation-logo.png" width="75"> | A PS1 simulator/emulator focused on accuracy, speed, and long-term maintainability. | No donation link available or donations not supported. |  [Licenses](https://github.com/stenzek/duckstation/blob/master/LICENSE) |

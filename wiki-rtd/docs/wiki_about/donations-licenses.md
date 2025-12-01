@@ -73,7 +73,7 @@ We aim to have better FOSS donation methods in the future.
 | **ES-DE Frontend** | <img src="../../wiki_images/logos/es-de-logo.png" width="75"> | A frontend for browsing and launching games from your multi-platform game backup collection. | - Buy the app (Patreon):<br>  [Patreon - Android App](https://www.patreon.com/es_de/) | - [License](https://gitlab.com/es-de/emulationstation-de/-/blob/master/LICENSE) <br> - [Licenses](https://gitlab.com/es-de/emulationstation-de/-/tree/master/licenses) |
 | **Steam Rom Manager (SRM)** | <img src="../../wiki_images/logos/srm-logo.png" width="75"> | Makers of Steam Rom Manager and SteamGridDB. | - [Open Collective](https://www.patreon.com/steamgriddb) | - [Licenses](https://github.com/SteamGridDB/steam-rom-manager?tab=GPL-3.0-1-ov-file#readme) |
 | **PortMaster** | <img src="../../wiki_images/logos/portmaster-logo.png" width="75"> | Your Ultimate Linux Port Manager. | - [Patreon](https://opencollective.com/portmaster) | - [Licenses](https://github.com/PortsMaster/PortMaster-New?tab=MIT-1-ov-file#readme) |
-| **Wine** | <img src="../../wiki_images/logos/wine-logo.png" width="75"> | Foundtional project | - [Wine Development Fund](https://www.winehq.org/donate) | - [Licenses](https://gitlab.winehq.org/wine) |
+| **Wine** | <img src="../../wiki_images/logos/wine-logo.png" width="75"> | Wine compatibility layer. | - [Wine Development Fund](https://www.winehq.org/donate) | - [Licenses](https://gitlab.winehq.org/wine) |
 
 
 ---

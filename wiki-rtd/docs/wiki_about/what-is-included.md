@@ -23,7 +23,7 @@ What follows is a list of features and software currently included in RetroDECK.
 RetroDECK includes the **RetroDECK Framework**, which provides deeper integration between all built-in software.  
 It streamlines access to many features that would normally need to be configured individually for each system, helping create a consistent and unified experience across all emulators.
 
---
+---
 
 ### RetroDECK Configurator 
 
@@ -113,8 +113,6 @@ An emulator is software that replicates the behavior of a specific system, wheth
 | **Vita3k** | <img src="../../wiki_images/logos/vita3k-logo.png" width="50"> | PlayStation Vita emulator Vita3k. | [Vita3k - General Guide](../wiki_emulator_guides/vita3k/vita3k-guide.md) |
 | **Pico-8** | <img src="../../wiki_images/logos/pico-8-logo.png" width="75"> | PICO-8 Fantasy Console. | [XEMU - General Guide](../wiki_emulator_guides/pico-8/pico-8-guide.md) |
 | **XEMU** | <img src="../../wiki_images/logos/xemu-logo.png" width="50"> | Xbox emulator XEMU. | [XEMU - General Guide](../wiki_emulator_guides/xemu/xemu-guide.md) |
-
-
 
 
 ---

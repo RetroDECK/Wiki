@@ -10,7 +10,7 @@ Our philosophy is to collaborate openly with other projects to enhance both Retr
 
 This several lists of current and future software, features, and libraries we plan or hope to integrate into RetroDECK, including their respective licenses. These lists will continue to evolve as we add new components in future updates.
 
-We also highlight some third-party software that we **cannot** integrate due to being proprietary or otherwise incompatible with RetroDECK’s licensing. Even though they cannot be included, we still appreciate their work and want to make it easy for users to find their donation or support links—because good software deserves recognition.
+We also highlight some third-party software that we **cannot** integrate due to being proprietary or otherwise incompatible with RetroDECK’s licensing. Even though they cannot be included, we still appreciate their work and want to make it easy for users to find their donation or support links and because good software deserves recognition.
 
 ### Support the Right Place
 

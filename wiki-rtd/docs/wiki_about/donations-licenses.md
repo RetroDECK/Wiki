@@ -96,7 +96,6 @@ Examples include:
 | Component | Logo | Description | Donate / Support | Licenses |
 |----------|-------|-------------|------------------|----------|
 | **RPCS3** | <img src="../../wiki_images/logos/rpcs3-logo.png" width="75"> | Free and open-source PlayStation 3 emulator/debugger for Windows, Linux, macOS, and FreeBSD. |  [Patreon](https://patreon.com/Nekotekina)   [Alipay](https://rpcs3.net/alipay) | — |
-| **DuckStation** | <img src="../../wiki_images/logos/duckstation-logo.png" width="75"> | A PS1 simulator/emulator focused on accuracy, speed, and long-term maintainability. | No donation link available or donations not supported. |  [Licenses](https://github.com/stenzek/duckstation/blob/master/LICENSE) |
 | **PPSSPP** | <img src="../../wiki_images/logos/ppsspp-logo.png" width="75"> | PSP emulator with HD rendering, texture upscaling, shaders, and more. |  [PPSSPP Gold](https://www.ppsspp.org/buygold) |  [Licenses](https://github.com/hrydgard/ppsspp/blob/master/LICENSE.TXT) |
 | **PCSX2** | <img src="../../wiki_images/logos/pcsx2-logo.png" width="180"> | Open-source PlayStation 2 emulator with many enhancements. |  [GitHub Sponsor](https://github.com/sponsors/PCSX2) |  [Licenses](https://github.com/PCSX2/pcsx2/blob/master/COPYING.GPLv3) |
 | **Vita3K** | <img src="../../wiki_images/logos/vita3k-logo.png" width="75"> | Experimental PlayStation Vita emulator for PC and mobile. |  [Ko-fi](https://ko-fi.com/vita3k/tiers) |  [Licenses](https://github.com/Vita3K/Vita3K/blob/master/COPYING.txt) |
@@ -179,5 +178,8 @@ These components cannot be added to RetroDECK, but we want to recognize their wo
 | **ReDream** | Sega Dreamcast emulator. |  [Website](https://redream.io/)   [Premium Upgrade](https://redream.io/premium) | — |
 | **3DSen** | NES emulator that transforms classic and homebrew games into full 3D experiences. |  [Website](https://geodstudio.net/) | — |
 
+---
 
+## Legacy Components
 
+| **DuckStation** | <img src="../../wiki_images/logos/duckstation-logo.png" width="75"> | A PS1 simulator/emulator focused on accuracy, speed, and long-term maintainability. | No donation link available or donations not supported. |  [Licenses](https://github.com/stenzek/duckstation/blob/master/LICENSE) |

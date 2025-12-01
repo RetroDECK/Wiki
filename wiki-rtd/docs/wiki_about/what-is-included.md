@@ -74,155 +74,46 @@ It supports file-type associations for common game extensions, enabling you to s
 
 ## Components: Systems
 
----
+Systems are non-gaming platforms or software environments supported within RetroDECK. These may include tools, utilities, frontends, media systems that enhance functionality but are not games themselves.
 
-### ES-DE
+| Component | Logo | Description | Guide |
+|----------|-------|-------------|-------|
+| **ES-DE** | <img src="../../wiki_images/logos/es-de-logo.png" width="50"> | Base frontend for RetroDECK with custom tweaks such as the RetroDECK Configurator. | — |
+| **PortMaster** | <img src="../../wiki_images/logos/portmaster-logo.png" width="75"> | GUI tool to download and install game ports on Linux devices. | [PortMaster - General Guide](../wiki_port_guides/portmaster/portmaster-guide.md) |
+| **Steam ROM Manager** | <img src="../../wiki_images/logos/srm-logo.png" width="50"> | Bulk game importer and artwork manager for Steam. Adds games automatically and configures Steam Input templates. | [SRM - General Guide](../wiki_system_guides/srm/srm-guide.md) |
 
-<img src="../../wiki_images/logos/es-de-logo.png" width="50">
-
-ES-DE is the base frontend for RetroDECK. RetroDECK includes specific tweaks to the ES-DE standard setup to enable unique functions like the `RetroDECK Configurator`, which can be accessed via the ES-DE Menu.
-
----
-
-### PortMaster
-
-<img src="../../wiki_images/logos/portmaster-logo.png" width="75">
-
-PortMaster is a simple, self-contained GUI tool that makes it easy to download and install game ports on Linux devices.
-
-[PortMaster - General Guide](../wiki_port_guides/portmaster/portmaster-guide.md)
-
----
-
-### Steam Rom Manger 
-
-<img src="../../wiki_images/logos/srm-logo.png" width="50">
-
-Steam ROM Manager (SRM) is a bulk game importer and artwork manager for Steam.
-
-It automatically adds games to Steam as individual entries, applies artwork, and configures Steam Input templates for each title.
-
-[SRM - General Guide](../wiki_system_guides/srm/srm-guide.md)
 
 ---
 
 ## Components: Multi-Emulators
 
----
+An multi emulator is software that replicates the behavior of a multiple specific systems.
 
-### RetroArch
+| Component | Logo | Description | Guide |
+|----------|-------|-------------|-------|
+| **RetroArch** | <img src="../../wiki_images/logos/retroarch-logo.png" width="50"> | Multi-system frontend using cores. RetroDECK includes all stable cores (nightlies if no stable version exists). | [RetroArch - General Guide](../wiki_emulator_guides/retroarch/retroarch-guide.md) |
+| **MAME** | <img src="../../wiki_images/logos/mame-logo.png" width="100"> | Full version of the multi-arcade emulator MAME. | [MAME - General Guide](../wiki_emulator_guides/mame/mame-guide.md) |
 
-<img src="../../wiki_images/logos/retroarch-logo.png" width="50">
-
-RetroArch supports many systems via its cores, and RetroDECK ships with all cores under the stable branch of RetroArch. If there is no stable version of a core, the nightly version will be used instead.
-
-For a full list of supported systems in RetroArch, follow the link and check the Core List:
-
-[RetroArch - General Guide](../wiki_emulator_guides/retroarch/retroarch-guide.md)
-
----
-
-### MAME
-
-<img src="../../wiki_images/logos/mame-logo.png" width="100">
-
-The full version of the multi-arcade emulator MAME.
-
-[MAME - General Guide](../wiki_emulator_guides/mame/mame-guide.md)
 
 ---
 
 ## Components: Standalone Emulators
 
----
+An emulator is software that replicates the behavior of a specific system, whether it is real hardware (like a console or arcade machine) or a virtual/fantasy platform.
 
-### CEMU
+| Component | Logo | Description | Guide |
+|----------|-------|-------------|-------|
+| **CEMU** | <img src="../../wiki_images/logos/cemu-logo.png" width="50"> | Wii U emulator CEMU. | [Cemu - General Guide](../wiki_emulator_guides/cemu/cemu-guide.md) |
+| **Dolphin & Primehack** | <img src="../../wiki_images/logos/dolphin-logo.png" width="50"> <img src="../../wiki_images/logos/primehack-logo.png" width="50"> | Wii/GameCube emulator Dolphin and Metroid Prime–optimized fork Primehack. | [Dolphin / Primehack - General Guide](../wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md) |
+| **melonDS** | <img src="../../wiki_images/logos/melonds-logo.svg" width="50"> | Nintendo DS emulator melonDS. | [melonDS - General Guide](../wiki_emulator_guides/melonds/melonds-guide.md) |
+| **PCSX2** | <img src="../../wiki_images/logos/pcsx2-logo.png" width="125"> | PlayStation 2 emulator PCSX2. | [PCSX2 - General Guide](../wiki_emulator_guides/pcsx2/pcsx2-guide.md) |
+| **PPSSPP** | <img src="../../wiki_images/logos/ppsspp-logo.png" width="50"> | PSP emulator PPSSPP. | [PPSSPP - General Guide](../wiki_emulator_guides/ppsspp/ppsspp-guide.md) |
+| **RPCS3** | <img src="../../wiki_images/logos/rpcs3-logo.png" width="50"> | PlayStation 3 emulator RPCS3. | [RPCS3 - General Guide](../wiki_emulator_guides/rpcs3/rpcs3-guide.md) |
+| **Ruffle** | <img src="../../wiki_images/logos/ruffle-logo.svg" width="50"> | Flash emulator Ruffle. | [Ruffle - General Guide](../wiki_emulator_guides/ruffle/ruffle-guide.md) |
+| **Vita3k** | <img src="../../wiki_images/logos/vita3k-logo.png" width="50"> | PlayStation Vita emulator Vita3k. | [Vita3k - General Guide](../wiki_emulator_guides/vita3k/vita3k-guide.md) |
+| **Pico-8** | <img src="../../wiki_images/logos/pico-8-logo.png" width="75"> | PICO-8 Fantasy Console. | [XEMU - General Guide](../wiki_emulator_guides/pico-8/pico-8-guide.md) |
+| **XEMU** | <img src="../../wiki_images/logos/xemu-logo.png" width="50"> | Xbox emulator XEMU. | [XEMU - General Guide](../wiki_emulator_guides/xemu/xemu-guide.md) |
 
-<img src="../../wiki_images/logos/cemu-logo.png" width="50">
-
-The WiiU Emulator CEMU.
-
-[Cemu - General Guide](../wiki_emulator_guides/cemu/cemu-guide.md)
-
----
-
-### Dolphin & Primehack
-
-<img src="../../wiki_images/logos/dolphin-logo.png" width="50"> <img src="../../wiki_images/logos/primehack-logo.png" width="50">
-
-The Wii and GameCube Emulator Dolphin and The Metroid Prime fork of Dolphin.
-
-[Dolphin / Primehack - General Guide](../wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md)
-
----
-
-### melonDS
-
-<img src="../../wiki_images/logos/melonds-logo.svg" width="50">
-
-The Nintendo DS emulator melonDS.
-
-[melonDS - General Guide](../wiki_emulator_guides/melonds/melonds-guide.md)
-
----
-
-### PCSX2
-
-<img src="../../wiki_images/logos/pcsx2-logo.png" width="125">
-
-The Playstation 2 emulator PCSX2.
-
-[PCSX2 - General Guide](../wiki_emulator_guides/pcsx2/pcsx2-guide.md)
-
----
-
-### PPSSPP
-
-<img src="../../wiki_images/logos/ppsspp-logo.png" width="50">
-
-The PSP emulator PPSSPP.
-
-[PPSSPP - General Guide](../wiki_emulator_guides/ppsspp/ppsspp-guide.md)
-
----
-
-### RPCS3
-
-<img src="../../wiki_images/logos/rpcs3-logo.png" width="50">
-
-The PS3 emulator RPCS3.
-
-[RPCS3 - General Guide](../wiki_emulator_guides/rpcs3/rpcs3-guide.md)
-
----
-
-### Ruffle
-
-<img src="../../wiki_images/logos/ruffle-logo.svg" width="50">
-
-The flash emulator Ruffle.
-
-[Ruffle - General Guide](../wiki_emulator_guides/ruffle/ruffle-guide.md)
-
----
-
-### Vita3k
-
-<img src="../../wiki_images/logos/vita3k-logo.png" width="50">
-
-The PSVita emulator Vita3k.
-
-[Vita3k - General Guide](../wiki_emulator_guides/vita3k/vita3k-guide.md)
-
----
-
-### XEMU
-
-<img src="../../wiki_images/logos/xemu-logo.png" width="50">
-
-The Xbox emulator XEMU.
-
-[XEMU - General Guide](../wiki_emulator_guides/xemu/xemu-guide.md)
 
 
 
@@ -230,39 +121,14 @@ The Xbox emulator XEMU.
 
 ## Components: Engines
 
----
+Engines are game engines or runtime environments designed to run games built specifically for them. This can include native engines as well as engine re-implementations modern rewrites that replace the original engine while preserving compatibility with classic games.
 
-### Solarus
-
-<img src="../../wiki_images/logos/solarus-logo.svg" width="130">
-
-Solarus is a free and open-source 2D game engine written in C++, that can run games scripted in Lua. It has been designed with 16-bit classic Action-RPGs in mind, and is available on a wide range of platforms.
-
-[Solarus - General Guide](../wiki_engine_guides/solarus/solarus-guide.md)
-
-### GZDoom
-
-<img src="../../wiki_images/logos/gzdoom-logo.png" width="50">
-
-GZDoom is a feature centric port for all Doom engine games, based on ZDoom, adding an OpenGL renderer and powerful scripting capabilities.
-
-[GZDoom - General Guide](../wiki_engine_guides/gzdoom/gzdoom-guide.md)
-
-### IKEMEN Go (M.U.G.E.N)
-
-<img src="../../wiki_images/logos/ikemen-go-logo.png" width="50">
-
-IKEMEN Go is a remake of the IKEMEN (open source fighting games engine that supports M.U.G.E.N resources) in Google’s Programming Language “Go”.
-
-[IKEMEN Go - General Guide](../wiki_engine_guides/ikemengo/ikemengo-guide.md)
-
-### Pico-8
-
-<img src="../../wiki_images/logos/pico-8-logo.svg" width="125">
-
-The fantasy console Pico-8.
-
-[Pico-8 - General Guide](../wiki_engine_guides/pico8/pico8-guide.md)
+| Component | Logo | Description | Guide |
+|----------|-------|-------------|-------|
+| **Solarus** | <img src="../../wiki_images/logos/solarus-logo.svg" width="130"> | Open-source 2D engine for games scripted in Lua, inspired by 16-bit action RPGs. | [Solarus - General Guide](../wiki_engine_guides/solarus/solarus-guide.md) |
+| **GZDoom** | <img src="../../wiki_images/logos/gzdoom-logo.png" width="50"> | Feature-rich Doom engine source port with OpenGL and advanced scripting. | [GZDoom - General Guide](../wiki_engine_guides/gzdoom/gzdoom-guide.md) |
+| **IKEMEN Go (M.U.G.E.N)** | <img src="../../wiki_images/logos/ikemen-go-logo.png" width="50"> | Go-based remake of IKEMEN, supporting M.U.G.E.N-compatible fighting games. | [IKEMEN Go - General Guide](../wiki_engine_guides/ikemengo/ikemengo-guide.md) |
+| **OpenBOR** | <img src="../../wiki_images/logos/openbor-logo.svg" width="50"> | Open Beats of Rage - beat 'em up game engine. | [GZDoom - General Guide](../wiki_engine_guides/openbor/openbor-guide.md) |
 
 ---
 
@@ -273,13 +139,11 @@ This may be due to halted development by their creators, licensing changes that 
 
 They are provided **as-is** and will not receive future updates or improvements.
 
-### Duckstation (Legacy)
+| Component | Logo | Description | Guide |
+|----------|-------|-------------|-------|
+| **Duckstation (Legacy)** | <img src="../../wiki_images/logos/duckstation-logo.png" width="50"> | PlayStation 1 emulator; legacy due to licensing changes. Provided as-is. | [Duckstation - General Guide](../wiki_emulator_guides/duckstation/duckstation-guide.md) |
 
-<img src="../../wiki_images/logos/duckstation-logo.png" width="50">
 
-Playstation 1 (PSX) emulator Duckstation (has made licensing changes).
-
-[Duckstation - General Guide](../wiki_emulator_guides/duckstation/duckstation-guide.md)
 
 ---
 

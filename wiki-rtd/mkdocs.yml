@@ -308,8 +308,7 @@ nav:
     - IkemenGO / M.U.G.E.N:
       - IkemenGO - General Guide: wiki_engine_guides/ikemengo/ikemengo-guide.md
 
-    - Pico-8:
-      - Pico-8 - General Guide: wiki_engine_guides/pico8/pico8-guide.md
+
 
     - OpenBOR:
       - OpenBOR - General Guide: wiki_engine_guides/openbor/openbor-guide.md
@@ -346,6 +345,9 @@ nav:
 
     - PPSSPP:
       - PPSSPP - General Guide: wiki_emulator_guides/ppsspp/ppsspp-guide.md
+
+    - Pico-8:
+      - Pico-8 - General Guide: wiki_emulator_guides/pico-8/pico-8-guide.md
 
     - RetroArch:
       - RetroArch - General Guide: wiki_emulator_guides/retroarch/retroarch-guide.md

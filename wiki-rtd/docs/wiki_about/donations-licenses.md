@@ -114,7 +114,7 @@ Examples include:
 
 ---
 
-# Components: Engines
+## Components: Engines
 
 | Component | Logo | Description | Donate / Support | Licenses |
 |----------|-------|-------------|------------------|----------|
@@ -126,7 +126,7 @@ Examples include:
 
 ---
 
-# Components: Clients
+## Components: Clients
 
 | Component | Logo | Description | Donate / Support | Licenses |
 |----------|-------|-------------|------------------|----------|
@@ -136,7 +136,7 @@ Examples include:
 
 ---
 
-# Art and Assets
+## Art and Assets
 
 | Item | Description | Donate / Source | Licenses |
 |------|-------------|------------------|----------|

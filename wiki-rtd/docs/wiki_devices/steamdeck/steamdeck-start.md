@@ -1,6 +1,6 @@
 # How-to: Install RetroDECK on the Steam Deck
 
-<img src="../../../../wiki_icons/kennynl/controllers/controller_steamdeck.png" width="100">
+<img src="../../../wiki_icons/kennynl/controllers/controller_steamdeck.png" width="100">
 
 **NOTE:** 
 
@@ -20,7 +20,7 @@ Depending on what language you have set in `Desktop Mode`, things might be named
 
 ## Step-by-Step Guide to Install RetroDECK on the Steam Deck
 
-<img src="../../../../wiki_icons/kennynl/controllers/controller_steamdeck.png" width="50">
+<img src="../../../wiki_icons/kennynl/controllers/controller_steamdeck.png" width="50">
 
 **Start here:**
 

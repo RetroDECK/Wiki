@@ -90,7 +90,11 @@ Go to RetroDECK on the Steam Grid under `Library` → `Non-Steam` → `RetroDECK
 
 ### **(Optional) Apply templates to external controllers**.
 
-Go to RetroDECK on the Steam Grid under `Library` → `Non-Steam` → `RetroDECK` → `🎮 Controller Settings` → `Controller Layouts` → `Templates`. (This is usually automatic but for some hardware you might need apply it manually.)
+(This is usually automatic but for some hardware you might need apply it manually.)
+
+- Navigate to RetroDECK `Library` -> `Non-Steam`.
+- Go to 🎮 Controller `🎮 Controller Settings` -> `Controller Layouts` -> `Templates` .
+
    
 
 ---

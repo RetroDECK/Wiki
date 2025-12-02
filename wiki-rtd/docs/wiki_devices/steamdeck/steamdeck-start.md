@@ -30,19 +30,21 @@ Search for **RetroDECK** and click **Install**.
 
 Launch RetroDECK from: Discover, or `KDE Menu` → `Games` → `RetroDECK`
 
-3. **Launch RetroDECK** 
+3. **Launch RetroDECK for the first time** 
 
 After installation, launch RetroDECK from `Discover` or the `KDE Program Menu` under `Games` -> `RetroDECK`
 
-Choose where to create the `retrodeck/` folder: `Internal Storage`, `SD Card`, or `Custom Location`.
+4. **Choose where to create the retrodeck/ folder** 
 
-4. **Add RetroDECK to Steam and Steam Controller Templates** 
+`Internal Storage`, `SD Card`, or `Custom Location`.
+
+5. **Add RetroDECK to Steam and Steam Controller Templates** 
 
 When asked, select: **Yes**. 
 
 After this, RetroDECK will appear in Game Mode under **Library → Non-Steam**.
 
-5. **Add BIOS and ROMs/Games:**
+6. **Add BIOS and ROMs/Games:**
 
 BIOS → `retrodeck/bios/`
 
@@ -52,13 +54,13 @@ ROMs/Games → `retrodeck/roms/`
  
 [RetroDECK: Start Using](../../wiki_general/retrodeck-start.md).
 
-6. **Return to Game Mode.**
+7. **Return to Game Mode.**
 
-7. **(Optional) Apply templates to external controllers**.
+8. **(Optional) Apply templates to external controllers**.
 
 `🎮 Controller Settings` → `Controller Layouts` → `Templates`. (This is usually automatic but for some hardware you might need apply it manually.)
    
-8. **Read the hotkeys guide:** 
+9. **Read the hotkeys guide:** 
 
 **Read more:**
 

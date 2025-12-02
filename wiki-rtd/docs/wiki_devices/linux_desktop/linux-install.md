@@ -4,6 +4,11 @@
 
 ---
 
+## **Before you begin start here**
+
+- [RetroDECK: Start Using](../../wiki_general/retrodeck-start.md).
+
+---
 
 ## **TIP: Game Mode on Linux PCs**
 

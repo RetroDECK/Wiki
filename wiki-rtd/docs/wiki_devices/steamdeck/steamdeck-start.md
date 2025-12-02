@@ -202,32 +202,18 @@ Any system with valid ROMs / Games should now appear in ES-DE and be ready to pl
 
 <img src="../../../wiki_icons/pixelitos/distributor-logo-knoppix.png" width="50">
 
-**Explore the Wiki**
-
-Read up and check more documentation for the software you want to play.
-
-**Check recommended software**
-
-- [Software Recommendations](../../wiki_management/software-recommendations/software-recommendations.md)
-
-**Improve system performance**
-
-- [Steam Deck: Optimizations](../../wiki_devices/steamdeck/steamdeck-optimize.md)
-
-**Update RetroDECK** 
-
-- [How-to: Update RetroDECK](../../wiki_management/retrodeck-update/retrodeck-update.md)
-
-**Uninstall RetroDECK**
-
-- [How-to: Remove RetroDECK](../../wiki_management/retrodeck-remove/retrodeck-remove.md)
+- **Explore the Wiki:** Read up and check more documentation for the software you want to play.
+- **Check recommended other software:** [Software Recommendations](../../wiki_management/software-recommendations/software-recommendations.md)
+- **Steam Deck Tweaks:** [Steam Deck: Optimizations](../../wiki_devices/steamdeck/steamdeck-optimize.md)
+- **Update RetroDECK:** [How-to: Update RetroDECK](../../wiki_management/retrodeck-update/retrodeck-update.md)
+- **Uninstall RetroDECK:** [How-to: Remove RetroDECK](../../wiki_management/retrodeck-remove/retrodeck-remove.md)
 
 
 ### Explore the Community
 
 RetroDECK is community-driven—explore, learn, or join in!
 
-- Development updates: [RetroDECK Blog](../blog/index.md)  
-- Social links: [Wiki Start Page](../index.md)  
-- Contribute: [How to Contribute](../wiki_about/contibute-retrodeck.md)
-
+- **Development updates:** [RetroDECK Blog](../blog/index.md)  
+- **Social links:** [Wiki Start Page](../index.md)  
+- **Contribute:** [How to Contribute](../wiki_about/contibute-retrodeck.md)
+- **Donate to FOSS Space:** [How to Contribute](../wiki_about/donations-licenses.md)

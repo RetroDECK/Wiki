@@ -140,14 +140,6 @@ After this, RetroDECK will appear in Game Mode under **Library → Non-Steam**
 
 ---
 
-### **(Optional) Firmware Installation**
-
-<img src="../../../wiki_icons/pixelitos/folder-red-arduino.png" width="50">
-
-Some optional firmware can be downloaded from official websites
-
----
-
 ### **Add ROMs / Games / Ports**
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="50">

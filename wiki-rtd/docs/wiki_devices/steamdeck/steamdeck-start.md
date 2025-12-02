@@ -1,6 +1,10 @@
 # How-to: Install RetroDECK on the Steam Deck
 
-<img src="../../../wiki_icons/pixelitos/steam.png" width="75">
+<img src="../../../../wiki_icons/kennynl/controllers/controller_steamdeck.png" width="100">
+
+**NOTE:** 
+
+Depending on what language you have set in `Desktop Mode`, things might be named differently.
 
 ## **Before you begin start here**
 
@@ -16,11 +20,11 @@
 
 ## Step-by-Step Guide to Install RetroDECK on the Steam Deck
 
-<img src="../../../wiki_icons/pixelitos/antimicrox.png" width="50">
+<img src="../../../../wiki_icons/kennynl/controllers/controller_steamdeck.png" width="50">
 
-**NOTE:** 
+**Start here:**
 
-Depending on what language you have set in `Desktop Mode`, things might be named differently.
+---
 
 ### **Switch to Desktop Mode:** 
 
@@ -30,7 +34,7 @@ Depending on what language you have set in `Desktop Mode`, things might be named
  
 ### **Install RetroDECK via Discover.**
 
-<img src="../../../wiki_icons/pixelitos/antimicrox.png" width="50">
+<img src="../../../wiki_images/logos/discover-logo.png" width="50">
 
 Open **Discover**.
 
@@ -40,18 +44,20 @@ Launch RetroDECK from: Discover, or `KDE Menu` → `Games` → `RetroDECK`
 
 ---
 
-### **Launch RetroDECK for the first time** 
+### **Launch RetroDECK for the first time in Desktop Mode** 
 
-<img src="../../../wiki_icons/pixelitos/antimicrox.png" width="50">
+<img src="../../../wiki_icons/pixelitos/preferences-desktop-cursors.png" width="25">
 
-After installation, launch RetroDECK from `Discover` or the `KDE Program Menu` under `Games` → `RetroDECK`
+After installation from `Discover`
+
+Launch RetroDECK from `Discover` or the `KDE Program Menu` under `Games` → `RetroDECK`.
 
 ---
 
 ### **Choose where to create the retrodeck/ folder** 
 
 
-<img src="../../../wiki_icons/pixelitos/antimicrox.png" width="50">
+<img src="../../../wiki_icons/pixelitos/folder-blue.png" width="50">
 
 
 If you plan to install it on your SD Card 
@@ -70,7 +76,7 @@ If you plan to install it on your SD Card
 
 ### **Add RetroDECK to Steam and Steam Controller Templates** 
 
-<img src="../../../wiki_icons/pixelitos/antimicrox.png" width="50">
+<img src="../../../wiki_icons/pixelitos/steam.png" width="50">
 
 When asked, select: **Yes**. 
 
@@ -80,7 +86,7 @@ After this, RetroDECK will appear in Game Mode under **Library → Non-Steam**
 
 ### **(Optional) Firmware Installation**
 
-<img src="../../../wiki_icons/pixelitos/antimicrox.png" width="50">
+<img src="../../../wiki_icons/pixelitos/folder-red-arduino.png" width="50">
 
 Some optional firmware can be downloaded from official websites
 
@@ -88,7 +94,7 @@ Some optional firmware can be downloaded from official websites
 
 ### **RetroDECK will now start: Return to Dektop**
 
-<img src="../../../wiki_icons/pixelitos/antimicrox.png" width="50">
+<img src="../../../wiki_icons/pixelitos/preferences-desktop-cursors.png" width="25">
 
 Exit RetroDECK by pressing `START / ESCAPE` -> `QUIT RetroDECK`
 
@@ -170,7 +176,7 @@ RetroDECK uses Steam Input, and each emulator has consistent hotkeys for save st
 ###  **Return to Game Mode**
 
 
-<img src="../../../wiki_icons/pixelitos/antimicrox.png" width="50">
+<img src="../../../wiki_icons/pixelitos/preferences-desktop-icons.png" width="50">
 
 - Go back into `Game Mode` by pressing the `Return to Game Mode` icon on the desktop.
 
@@ -189,6 +195,8 @@ Any system with valid ROMs / Games should now appear in ES-DE and be ready to pl
 ---
  
 ### **(Optional) Apply templates to external controllers**.
+
+<img src="../../../wiki_icons/pixelitos/antimicrox.png" width="25"><img src="../../../wiki_icons/pixelitos/antimicrox.png" width="25"><img src="../../../wiki_icons/pixelitos/antimicrox.png" width="25"><img src="../../../wiki_icons/pixelitos/antimicrox.png" width="25">
 
 (This is usually automatic but for some hardware you might need apply it manually.)
 

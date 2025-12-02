@@ -35,19 +35,26 @@ Before installing, make sure you have everything RetroDECK needs to function cor
 
   - Not all platforms require firmware and/or BIOS.
   - When they do, it must come from **your own legally-obtained sources** (e.g., extracted from your original hardware, or purchased legally such as PICO-8).
-  
+ 
 **Your own game backups, purchased titles, native ports and open-source games**
 
   - RetroDECK supports **purchased games**, **open-source titles**, **your own backups** and **native ports**, depending on the system.
 
-#### Linux Desktop (Only) Prerequisites
-  
-**Flatpak Support**
+---  
+
+### Linux Desktop (Only) Prerequisites
+
+<img src="../../wiki_icons/pixelitos/linux.png" width="25">
+
+
+#### Flatpak Support
 
 Ensure Flatpak is installed on your Linux system. Follow the official guide for your distribution: 
 [Flatpak Setup Guide](https://flatpak.org/setup/)
 
-**Steam: steam-devices Package**
+---
+
+#### Steam: steam-devices Package
 
 > **Note:** Not required for SteamOS-based devices (e.g., Steam Deck) or gaming distributions like Bazzite, Chimera, Nobara, etc.
 
@@ -56,7 +63,9 @@ Ensure Flatpak is installed on your Linux system. Follow the official guide for 
 - Steam will warn you if it is missing.  
 - Install via your distribution's package manager if needed.  
 
-**Enable Steam Input for Controllers**
+---
+
+#### Enable Steam Input for Controllers
 
 > **Note:** Not required for SteamOS-based devices (e.g., Steam Deck) or gaming distributions like Bazzite, Chimera, Nobara, etc.
 
@@ -64,6 +73,8 @@ Ensure Flatpak is installed on your Linux system. Follow the official guide for 
 2. Navigate to **Settings → Controller**.  
 3. Enable Steam Input for all controllers: Xbox, PlayStation, Switch Pro, Generic.  
 4. Close Settings.
+
+---
 
 ####  **T.I.P Game Mode on Linux PCs**
 
@@ -77,29 +88,28 @@ Here is a list of some distributions that support Game Mode:
 
 **Bazzite**
 
-[Bazzite Webpage](https://bazzite.gg/)
-
-[Bazzite: Steam Game Mode](https://universal-blue.discourse.group/t/steam-gaming-mode-overview-for-handheld-htpc-images/)
+- [Bazzite Webpage](https://bazzite.gg/)
+- [Bazzite: Steam Game Mode](https://universal-blue.discourse.group/t/steam-gaming-mode-overview-for-handheld-htpc-images/)
 
 **Chimera OS**
 
-[ChimeraOS Webpage](https://chimeraos.org/)
-
-[ChimeraOS Wiki](https://github.com/ChimeraOS/chimeraos/wiki)
+- [ChimeraOS Webpage](https://chimeraos.org/)
+- [ChimeraOS Wiki](https://github.com/ChimeraOS/chimeraos/wiki)
 
 **Nobara**
 
-[Nobara Webpage](https://nobaraproject.org/download-nobara/)
-
-[Nobara Wiki](https://wiki.nobaraproject.org)
+- [Nobara Webpage](https://nobaraproject.org/download-nobara/)
+- [Nobara Wiki](https://wiki.nobaraproject.org)
 
 ---
 
-### **Step 1 — Installation & First Launch**
+## **Step 1 — Installation & First Launch**
 
-#### Steam Deck (Desktop Mode)
+Choose the Installation path for you device.  
 
-<img src="../../wiki_icons/pixelitos/steam.png" width="50"> 
+### Steam Deck
+
+<img src="../../wiki_icons/pixelitos/steam.png" width="25"> 
 
 **Switch to Desktop Mode:** 
 
@@ -117,10 +127,11 @@ Launch RetroDECK from: Discover, or `KDE Menu` → `Games` → `RetroDECK`
 
 After installation, launch RetroDECK from `Discover` or the `KDE Program Menu` under `Games` → `RetroDECK`
 
+---
 
-#### Linux Desktop 
+### Linux Desktop 
 
-<img src="../../wiki_icons/pixelitos/linux.png" width="50">
+<img src="../../wiki_icons/pixelitos/linux.png" width="25">
 
 **From the Desktop**
 
@@ -139,35 +150,42 @@ After installation, launch RetroDECK from your software manager or the Program M
 
 ---
 
-### **Step 2 — Choose where to create the retrodeck/ folder** 
+## **Step 2 — Choose where to create the retrodeck/ folder** 
 
-#### Steam Deck  (Desktop Mode)
+### Steam Deck
 
-Choose between:
+<img src="../../wiki_icons/pixelitos/steam.png" width="25"> 
 
-`Internal Storage`, `SD Card`, or `Custom Location`.
+If you plan to install it on your SD Card 
 
-If you plan to install it on your SD Card Read More here:
+**Read More:**
 
-- [FAQ: SD Cards](../../wiki_faq/faq-sdcard.md).
+- [FAQ: SD Cards](../../wiki_faq/faq-sdcard.md)
 
-#### Linux Desktop 
+**Choose between:**
 
-Choose between:
+- `Internal Storage`
+- `SD Card`
+- `Custom Location`
 
-`Home` or `Custom Location`.
 
-### *Step 3 — **Add RetroDECK to Steam and Steam Controller Templates** 
+
+### Linux Desktop 
+
+<img src="../../wiki_icons/pixelitos/linux.png" width="25">
+
+**Choose between:**
+
+-`Home`
+-`Custom Location`.
+
+## *Step 3 — **Add RetroDECK to Steam and Steam Controller Templates** 
 
 When asked, select we recommend this: **Yes**. 
 
 After this, RetroDECK will appear in Game Mode under **Library → Non-Steam**.
 
-### *Step 4 — **(Optional) Install Downloaded Firmwares** 
-
-The 
-
-### **Step 2 — Add BIOS & Firmware**
+## **Step 2 — Add BIOS & Firmware**
 
 <img src="../../wiki_icons/pixelitos/cpu.png" width="50">
 
@@ -182,7 +200,7 @@ Place required BIOS/Firmware files in (if the component require it):
 
 ---
 
-### **Step 3 — Add ROMs / Games / Ports**
+## **Step 3 — Add ROMs / Games / Ports**
 
 <img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
 
@@ -215,7 +233,7 @@ You will find PortMaster inside the ES-DE interface or in the Configurator.
 
 ---
 
-### **Step 4 — Learn ES-DE Frontend**
+## **Step 4 — Learn ES-DE Frontend**
 
 <img src="../../wiki_images/logos/es-de-logo.png" width="55">
 
@@ -229,7 +247,7 @@ Understanding its basics will help you customize themes, scrape metadata, manage
 
 ---
  
-### **Step 5 — Learn RetroDECK’s Hotkeys**
+## **Step 5 — Learn RetroDECK’s Hotkeys**
 
 
 <img src="../../wiki_icons/pixelitos/antimicrox.png" width="50">

@@ -6,7 +6,7 @@
 
 RetroDECK is an retro gaming platform.
 
-Start here:
+**Read more:**
 
 [**What is RetroDECK?**](../wiki_about/what-is-retrodeck.md)
 
@@ -25,8 +25,8 @@ You will need:
 **A supported device**, such as:
 
   - Handheld gaming PCs (e.g., Steam Deck).
-  - Full Linux desktops.
-  - Linux HTPC setups.
+  - Full Linux desktop.
+  - Linux HTPC setup.
   - Linux-based PC consoles (e.g., Steam Machine).
   
 **Required BIOS & firmware (only for systems that need them)**  
@@ -38,8 +38,6 @@ You will need:
 
   - RetroDECK supports **purchased games**, **open-source titles**, **your own backups** and **native ports**, depending on the system.
 
-
-
 ---
 
 ### **Step 1 — Installation**
@@ -48,11 +46,15 @@ You will need:
 
 <img src="../../wiki_icons/pixelitos/steam.png" width="50"> 
 
+**Read more:**
+
 [Steam Deck - Installation](../wiki_devices/steamdeck/steamdeck-start.md)
 
 #### Linux Desktop 
 
 <img src="../../wiki_icons/pixelitos/linux.png" width="50">
+
+**Read more:**
 
 [Linux Desktop - Installation](../wiki_devices/linux_desktop/linux-install.md)
 
@@ -66,9 +68,10 @@ Place required BIOS/Firmware files in (if the component require it):
 
 `retrodeck/bios/`
 
-Read more:
+**Read more:**
 
-[BIOS & Firmware](../wiki_management/bios-firmware/bios-firmware.md)
+- [BIOS & Firmware](../wiki_management/bios-firmware/bios-firmware.md)
+- All Component specific guides on the wiki.
 
 ---
 
@@ -88,11 +91,6 @@ Put ROMs / Games in the matching system folder under:
 - `retrodeck/roms/doom/DOOM.WAD`
 - `retrodeck/roms/openbor/He-Man.openbor`
 
-Read more:
-
-[RetroDECK Folders](../wiki_management/retrodeck-folders/retrodeck-folders.md)
-
-
 **For Ports**
 
 RetroDECK’s **PortMaster component** manages native ports. You can:
@@ -103,6 +101,10 @@ RetroDECK’s **PortMaster component** manages native ports. You can:
 
 You will find PortMaster inside the ES-DE interface or in the Configurator. 
 
+**Read more:**
+
+- [RetroDECK Folders](../wiki_management/retrodeck-folders/retrodeck-folders.md)
+- All Component specific guides on the wiki.
 
 ---
 
@@ -113,7 +115,7 @@ You will find PortMaster inside the ES-DE interface or in the Configurator.
 ES-DE is the graphical interface where you browse, select, and launch your games.
 Understanding its basics will help you customize themes, scrape metadata, manage playlists, and more.
 
-Read more:
+**Read more:**
 
 - [ES-DE Frontend Guide](../wiki_system_guides/es-de/esde-guide.md)
 
@@ -126,6 +128,8 @@ Read more:
 <img src="../../wiki_icons/pixelitos/controller-retro.png" width="50">
 
 RetroDECK uses Steam Input, and each emulator has consistent hotkeys for save states, menus, fast-forward, screenshots, and more.
+
+**Read more:**
 
 - [RetroDECK Hotkeys](../wiki_rd_controls/hotkeys-retrodeck.md)
 

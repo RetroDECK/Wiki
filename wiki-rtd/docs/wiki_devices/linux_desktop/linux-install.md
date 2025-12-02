@@ -44,15 +44,19 @@ Run the following command:
 
 `flatpak install Flathub net.retrodeck.retrodeck`
 
+---
+
 ## Setting Up RetroDECK
 
-1. **Launch RetroDECK for the first time**
+### **Launch RetroDECK for the first time** 
 
-2. **Choose where to create the retrodeck/ folder** 
+After installation, launch RetroDECK from `Discover/Bazaar/Gnome Software` or the `Software/Program Menu` under `Games` → `RetroDECK`
+
+### **Choose where to create the retrodeck/ folder** 
 
 `Internal Storage` or `Custom Location`.
 
-3. **Add RetroDECK to Steam and Steam Controller Templates** 
+### **Add RetroDECK to Steam and Steam Controller Templates** 
 
 When asked, select: **Yes**. 
 
@@ -60,11 +64,11 @@ After this, RetroDECK will appear in Game Mode under **Library → Non-Steam**.
 
 [How-to: Add RetroDECK to Steam](../../wiki_tool_guides/add-to-steam/add-to-steam.md)
 
-4. **Choose where to create the `retrodeck/` folder** 
+### **Choose where to create the retrodeck/ folder** 
 
-`Internal Storage` or `Custom Location`.
+`Home` or `Custom Location`.
 
-5. **Add BIOS and ROMs/Games:**
+### **Add BIOS and ROMs/Games:**
 
 BIOS → `retrodeck/bios/`
 
@@ -73,18 +77,21 @@ ROMs/Games → `retrodeck/roms/`
 **Read more:**
  
 [RetroDECK: Start Using](../../wiki_general/retrodeck-start.md).
-
-6. **(Optional) Apply templates to external controllers**.
-
-`🎮 Controller Settings` → `Controller Layouts` → `Templates`. (This is usually automatic but for some hardware you might need apply it manually.)
    
-7. **Read the hotkeys guide:** 
+### **Read the hotkeys guide** 
 
 **Read more:**
 
 [RetroDECK: Controller Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md)
 
-8. **Launch RetroDECK and enjoy!**
+### **Launch RetroDECK and enjoy!**
+
+Go to RetroDECK on the Steam Grid under `Library` → `Non-Steam` → `RetroDECK` 
+
+### **(Optional) Apply templates to external controllers**.
+
+Go to RetroDECK on the Steam Grid under `Library` → `Non-Steam` → `RetroDECK` → `🎮 Controller Settings` → `Controller Layouts` → `Templates`. (This is usually automatic but for some hardware you might need apply it manually.)
+   
 
 ---
 

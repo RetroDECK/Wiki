@@ -18,11 +18,11 @@ Depending on what language you have set in `Desktop Mode`, things might be named
 
 ## Step-by-Step Guide to Install RetroDECK on the Steam Deck
 
-1. **Switch to Desktop Mode:** 
+### **Switch to Desktop Mode:** 
 
  `Steam button` → `Power` → `Switch to Desktop`
 
-2. **Install RetroDECK via Discover.**
+### **Install RetroDECK via Discover.**
 
 Open **Discover**.
 
@@ -30,21 +30,21 @@ Search for **RetroDECK** and click **Install**.
 
 Launch RetroDECK from: Discover, or `KDE Menu` → `Games` → `RetroDECK`
 
-3. **Launch RetroDECK for the first time** 
+### **Launch RetroDECK for the first time** 
 
-After installation, launch RetroDECK from `Discover` or the `KDE Program Menu` under `Games` -> `RetroDECK`
+After installation, launch RetroDECK from `Discover` or the `KDE Program Menu` under `Games` → `RetroDECK`
 
-4. **Choose where to create the retrodeck/ folder** 
+### **Choose where to create the retrodeck/ folder** 
 
 `Internal Storage`, `SD Card`, or `Custom Location`.
 
-5. **Add RetroDECK to Steam and Steam Controller Templates** 
+### **Add RetroDECK to Steam and Steam Controller Templates** 
 
 When asked, select: **Yes**. 
 
 After this, RetroDECK will appear in Game Mode under **Library → Non-Steam**.
 
-6. **Add BIOS and ROMs/Games:**
+### **Add BIOS and ROMs/Games:**
 
 BIOS → `retrodeck/bios/`
 
@@ -54,19 +54,27 @@ ROMs/Games → `retrodeck/roms/`
  
 [RetroDECK: Start Using](../../wiki_general/retrodeck-start.md).
 
-7. **Return to Game Mode.**
+###  **Return to Game Mode**
 
-8. **(Optional) Apply templates to external controllers**.
+- Go back into `Game Mode` by pressing the `Return to Game Mode` icon on the desktop.
 
-`🎮 Controller Settings` → `Controller Layouts` → `Templates`. (This is usually automatic but for some hardware you might need apply it manually.)
-   
-9. **Read the hotkeys guide:** 
+### **Read the hotkeys guide** 
 
 **Read more:**
 
 [RetroDECK: Controller Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md)
 
-10. **Launch RetroDECK and enjoy!**
+### **Launch RetroDECK and enjoy!**
+
+Go to RetroDECK on the Steam Grid under `Library` → `Non-Steam` → `RetroDECK` 
+
+### **(Optional) Apply templates to external controllers**.
+
+(This is usually automatic but for some hardware you might need apply it manually.)
+
+- Navigate to RetroDECK `Library` -> `Non-Steam`.
+- Go to 🎮 Controller `🎮 Controller Settings` -> `Controller Layouts` -> `Templates` .
+   
 
 ---
 

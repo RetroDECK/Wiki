@@ -2,68 +2,107 @@
 
 <img src="../../../wiki_icons/pixelitos/linux.png" width="75">
 
+---
+
 ## Prerequisites
 
-**NOTE:** It's recommended to add and launch RetroDECK via Steam to utilize the Steam Input feature for external controllers.
+> **Note:** It's recommended to add and launch RetroDECK via Steam to utilize Steam Input for external controllers.
 
-### Flatpak Support
+### 1. Flatpak Support
 
+Ensure Flatpak is installed on your Linux system. Follow the official guide for your distribution:  
+[Flatpak Setup Guide](https://flatpak.org/setup/)
 
-Ensure you have flatpak support installed on your Linux desktop. Follow the official flatpak guides for your distribution: [Flatpak Setup Guide](https://flatpak.org/setup/).
+### 2. Steam: steam-devices Package
 
-### Steam - steam-devices
+- The `steam-devices` package is usually included with Steam on most distributions.  
+- Required for Steam to detect controllers.  
+- Steam will warn you if it is missing.  
+- Install via your distribution's package manager if needed.  
 
-- The `steam-devices` package is usually part of the Steam installation for many distributions.
-- Required for Steam to recognize controllers.
-- Steam will warn you if `steam-devices` is missing.
-- Check your distribution's instructions to install it if needed.
+> **Note:** Not required for SteamOS-based devices (e.g., Steam Deck) or gaming distributions like Bazzite, Chimera, Nobara, etc.
 
-**Note:** Not needed for SteamOS-based devices like the Steam Deck or most gaming distributions like Bazzite, Chimera, Nobara, and more.
+### 3. Enable Steam Input for Controllers
 
-### Steam - Enable All Steam Input in Steam
+1. Open Steam and click the **Steam** menu.  
+2. Navigate to **Settings → Controller**.  
+3. Enable Steam Input for all controllers: Xbox, PlayStation, Switch Pro, Generic.  
+4. Close Settings.
 
-1. In Steam, press the `Steam` top menu.
-2. Go to `Settings`.
-3. Press `🎮 Controller`.
-4. Enable all Steam Inputs for `Xbox`, `PlayStation`, `Switch Pro`, `Generic`.
-5. Close the `Settings`.
+---
 
-## How-to: Install RetroDECK from Flathub
+## Installing RetroDECK from Flathub
 
-**From the Desktop**
+### From the Desktop
 
-- Open your flatpak-supported software manager (e.g., GNOME Software for GNOME, KDE Discover for KDE).
-- Search for RetroDECK and press install.
+1. Open your Flatpak-supported software manager (e.g., GNOME Software, KDE Discover, Bazaar).  
+2. Search for `RetroDECK` and click **Install**.
 
-**From the terminal**
+### From the Terminal
 
 Run the following command:
 
 `flatpak install Flathub net.retrodeck.retrodeck`
 
-## How-to: Setup RetroDECK
+## Setting Up RetroDECK
 
-1. Start RetroDECK for the first time.
-2. Choose where RetroDECK should create the main folder `retrodeck/`: `Internal Storage`,  `SD Card` or `Custom Location`.
-3. Put the BIOS files inside `retrodeck/bios/`.
-4. Put the ROMs & game files inside `retrodeck/roms/`.
-5. Choose to install Steam Controller Templates for RetroDECK (this should be checked by default) during installation.
-6. Add RetroDECK to Steam: [How-to: Add RetroDECK to Steam](../../wiki_tool_guides/add-to-steam/add-to-steam.md).
-7. Connect your controller to your desktop and navigate to RetroDECK in Steam.
-8. Apply controller Templates in Steam: [Supported Controllers / Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md).
-9. Launch RetroDECK and enjoy!
+1. **Launch RetroDECK for the first time**
+
+2. **Choose where to create the retrodeck/ folder** 
+
+`Internal Storage` or `Custom Location`.
+
+3. **Add RetroDECK to Steam and Steam Controller Templates** 
+
+When asked, select: **Yes**. 
+
+After this, RetroDECK will appear in Game Mode under **Library → Non-Steam**.
+
+[How-to: Add RetroDECK to Steam](../../wiki_tool_guides/add-to-steam/add-to-steam.md)
+
+4. **Choose where to create the `retrodeck/` folder** 
+
+`Internal Storage` or `Custom Location`.
+
+5. **Add BIOS and ROMs/Games:**
+
+BIOS → `retrodeck/bios/`
+
+ROMs/Games → `retrodeck/roms/`
+  
+**Read more:**
+ 
+[RetroDECK: Start Using](../../wiki_general/retrodeck-start.md).
+
+6. **(Optional) Apply templates to external controllers**.
+
+`🎮 Controller Settings` → `Controller Layouts` → `Templates`. (This is usually automatic but for some hardware you might need apply it manually.)
+   
+7. **Read the hotkeys guide:** 
+
+**Read more:**
+
+[RetroDECK: Controller Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md)
+
+8. **Launch RetroDECK and enjoy!**
+
+---
 
 ## Other Tips
 
-- Explore our: [Software Recommendations](../../wiki_management/software-recommendations/software-recommendations.md).
-- Check on: [How-to: Update RetroDECK](../../wiki_management/retrodeck-update/retrodeck-update.md). 
-- If you no longer want RetroDECK, you can find the removal guide at: [How-to: Remove RetroDECK](../../wiki_management/retrodeck-remove/retrodeck-remove.md). 
+- Explore other recommended software: [Software Recommendations](../../wiki_management/software-recommendations/software-recommendations.md)  
+- Updating RetroDECK: [How-to: Update RetroDECK](../../wiki_management/retrodeck-update/retrodeck-update.md)  
+- Removing RetroDECK: [How-to: Remove RetroDECK](../../wiki_management/retrodeck-remove/retrodeck-remove.md)  
 
-## Game Mode on Your Linux PC?
+---
 
-You can utilize Steam Deck's Game Mode on your Linux PC if your distribution supports it and specific hardware requirements apply for Game Mode to work. 
+## Game Mode on Linux PCs
 
-It mitigates several issues with Steam Input and provides the best RetroDECK experience and playing Steam games with controllers out of the box.
+Steam Deck's **Game Mode** can be used on some Linux distributions. It helps:
+
+- Mitigate Input issues.
+- Provide the best RetroDECK experience.
+- Allow seamless Steam controller support.
 
 Here is a list of some distributions that support Game Mode:
 

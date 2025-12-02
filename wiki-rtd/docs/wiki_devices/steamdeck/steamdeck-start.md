@@ -180,9 +180,9 @@ RetroDECK uses Steam Input, and each emulator has consistent hotkeys for save st
 
 <img src="../../../wiki_icons/pixelitos/retrodeck.png" width="50">
 
-Go to RetroDECK on the Steam Grid under `Library` → `Non-Steam` → `RetroDECK`
+Go to RetroDECK on the Steam Grid under `Library` → `Non-Steam` → `RetroDECK`.
 
-Start RetroDECK via Steam (recommended) or directly.
+Start RetroDECK.
 
 Any system with valid ROMs / Games should now appear in ES-DE and be ready to play.
  

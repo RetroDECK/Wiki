@@ -14,7 +14,7 @@ Depending on what language you have set in `Desktop Mode`, things might be named
 
 **Read here:**
 
-[FAQ: SD Cards](../..wiki_faq/faq-sdcard.md).
+[FAQ: SD Cards](../../wiki_faq/faq-sdcard.md).
 
 ---
 
@@ -39,8 +39,6 @@ Depending on what language you have set in `Desktop Mode`, things might be named
 Open **Discover**.
 
 Search for **RetroDECK** and click **Install**.
-
-Launch RetroDECK from: Discover, or `KDE Menu` → `Games` → `RetroDECK`
 
 ---
 
@@ -128,7 +126,7 @@ You will find PortMaster inside the ES-DE interface or in the Configurator.
 
 **Read more:**
 
-- [RetroDECK Folders](../wiki_management/retrodeck-folders/retrodeck-folders.md)
+- [RetroDECK Folders](../../wiki_management/retrodeck-folders/retrodeck-folders.md)
 - All Component specific guides on the wiki.
 
 ---
@@ -143,7 +141,7 @@ Place required BIOS/Firmware files in (if the component require it):
 
 **Read more:**
 
-- [BIOS & Firmware](../wiki_management/bios-firmware/bios-firmware.md)
+- [BIOS & Firmware](../../wiki_management/bios-firmware/bios-firmware.md)
 - All Component specific guides on the wiki.
 
 ---
@@ -157,7 +155,7 @@ Understanding its basics will help you customize themes, scrape metadata, manage
 
 **Read more:**
 
-- [ES-DE Frontend Guide](../wiki_system_guides/es-de/esde-guide.md)
+- [ES-DE Frontend Guide](../../wiki_system_guides/es-de/esde-guide.md)
 
 ---
 
@@ -169,7 +167,7 @@ RetroDECK uses Steam Input, and each emulator has consistent hotkeys for save st
 
 **Read more:**
 
-- [RetroDECK Hotkeys](../wiki_rd_controls/hotkeys-retrodeck.md)
+- [RetroDECK Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md)
 
 ---
 
@@ -212,7 +210,7 @@ Any system with valid ROMs / Games should now appear in ES-DE and be ready to pl
 
 - **Explore the Wiki:** Read up and check more documentation for the software you want to play.
 - **Check recommended other software:** [Software Recommendations](../../wiki_management/software-recommendations/software-recommendations.md)
-- **Steam Deck Tweaks:** [Steam Deck: Optimizations](../../wiki_devices/steamdeck/steamdeck-optimize.md)
+- **Steam Deck Tweaks:** [Steam Deck: Optimizations](steamdeck-optimize.md)
 - **Update RetroDECK:** [How-to: Update RetroDECK](../../wiki_management/retrodeck-update/retrodeck-update.md)
 - **Uninstall RetroDECK:** [How-to: Remove RetroDECK](../../wiki_management/retrodeck-remove/retrodeck-remove.md)
 
@@ -221,7 +219,7 @@ Any system with valid ROMs / Games should now appear in ES-DE and be ready to pl
 
 RetroDECK is community-driven—explore, learn, or join in!
 
-- **Development updates:** [RetroDECK Blog](../blog/index.md)  
-- **Social links:** [Wiki Start Page](../index.md)  
-- **Contribute:** [How to Contribute](../wiki_about/contibute-retrodeck.md)
-- **Donate to FOSS Space:** [How to Contribute](../wiki_about/donations-licenses.md)
+- **Development updates:** [RetroDECK Blog](../../blog/index.md)  
+- **Social links:** [Wiki Start Page](../../index.md)  
+- **Contribute:** [How to Contribute](../../wiki_about/contibute-retrodeck.md)
+- **Donate to FOSS Space:** [How to Contribute](../../wiki_about/donations-licenses.md)

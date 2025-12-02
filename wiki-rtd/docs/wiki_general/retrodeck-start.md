@@ -125,7 +125,7 @@ Understanding its basics will help you customize themes, scrape metadata, manage
 ### **Step 5 — Learn RetroDECK’s Hotkeys**
 
 
-<img src="../../wiki_icons/pixelitos/controller-retro.png" width="50">
+<img src="../../wiki_icons/pixelitos/antimicrox.png" width="50">
 
 RetroDECK uses Steam Input, and each emulator has consistent hotkeys for save states, menus, fast-forward, screenshots, and more.
 

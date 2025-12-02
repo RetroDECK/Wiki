@@ -14,13 +14,15 @@ RetroDECK is an retro gaming platform.
 
 ## Quick Start Guide
 
+**Note:** It's recommended to add and launch RetroDECK via Steam to utilize Steam Input for external controllers.
+
 ### **Step 0 — Prerequisites**
 
 <img src="../../wiki_icons/pixelitos/emblem-default.png" width="50">
 
 Before installing, make sure you have everything RetroDECK needs to function correctly.
 
-You will need:
+#### General Prerequisites
 
 **A supported device**, such as:
 
@@ -38,27 +40,132 @@ You will need:
 
   - RetroDECK supports **purchased games**, **open-source titles**, **your own backups** and **native ports**, depending on the system.
 
+#### Linux Desktop (Only) Prerequisites
+  
+**Flatpak Support**
+
+Ensure Flatpak is installed on your Linux system. Follow the official guide for your distribution: 
+[Flatpak Setup Guide](https://flatpak.org/setup/)
+
+**Steam: steam-devices Package**
+
+> **Note:** Not required for SteamOS-based devices (e.g., Steam Deck) or gaming distributions like Bazzite, Chimera, Nobara, etc.
+
+- The `steam-devices` package is usually included with Steam on most distributions.  
+- Required for Steam to detect controllers.  
+- Steam will warn you if it is missing.  
+- Install via your distribution's package manager if needed.  
+
+**Enable Steam Input for Controllers**
+
+> **Note:** Not required for SteamOS-based devices (e.g., Steam Deck) or gaming distributions like Bazzite, Chimera, Nobara, etc.
+
+1. Open Steam and click the **Steam** menu.  
+2. Navigate to **Settings → Controller**.  
+3. Enable Steam Input for all controllers: Xbox, PlayStation, Switch Pro, Generic.  
+4. Close Settings.
+
+####  **T.I.P Game Mode on Linux PCs**
+
+Steam Deck's **Game Mode** can be used on some Linux distributions. It helps:
+
+- Mitigate Input issues.
+- Provide the best RetroDECK experience.
+- Allow seamless Steam controller support.
+
+Here is a list of some distributions that support Game Mode:
+
+**Bazzite**
+
+[Bazzite Webpage](https://bazzite.gg/)
+
+[Bazzite: Steam Game Mode](https://universal-blue.discourse.group/t/steam-gaming-mode-overview-for-handheld-htpc-images/)
+
+**Chimera OS**
+
+[ChimeraOS Webpage](https://chimeraos.org/)
+
+[ChimeraOS Wiki](https://github.com/ChimeraOS/chimeraos/wiki)
+
+**Nobara**
+
+[Nobara Webpage](https://nobaraproject.org/download-nobara/)
+
+[Nobara Wiki](https://wiki.nobaraproject.org)
+
 ---
 
-### **Step 1 — Installation**
+### **Step 1 — Installation & First Launch**
 
 #### Steam Deck (Desktop Mode)
 
 <img src="../../wiki_icons/pixelitos/steam.png" width="50"> 
 
-**Read more:**
+**Switch to Desktop Mode:** 
 
-[Steam Deck - Installation](../wiki_devices/steamdeck/steamdeck-start.md)
+ `Steam button` → `Power` → `Switch to Desktop`
+
+**Install RetroDECK via Discover.**
+
+Open **Discover**.
+
+Search for **RetroDECK** and click **Install**.
+
+Launch RetroDECK from: Discover, or `KDE Menu` → `Games` → `RetroDECK`
+
+**Launch RetroDECK for the first time** 
+
+After installation, launch RetroDECK from `Discover` or the `KDE Program Menu` under `Games` → `RetroDECK`
+
 
 #### Linux Desktop 
 
 <img src="../../wiki_icons/pixelitos/linux.png" width="50">
 
-**Read more:**
+**From the Desktop**
 
-[Linux Desktop - Installation](../wiki_devices/linux_desktop/linux-install.md)
+1. Open your Flatpak-supported software manager (e.g., GNOME Software, KDE Discover, Bazaar).
+2. Search for `RetroDECK` and click **Install**.
+
+**From the Terminal**
+
+Run the following command:
+
+`flatpak install Flathub net.retrodeck.retrodeck`
+
+**Launch RetroDECK for the first time** 
+
+After installation, launch RetroDECK from your software manager or the Program Menu under `Games` → `RetroDECK`.
 
 ---
+
+### **Step 2 — Choose where to create the retrodeck/ folder** 
+
+#### Steam Deck  (Desktop Mode)
+
+Choose between:
+
+`Internal Storage`, `SD Card`, or `Custom Location`.
+
+If you plan to install it on your SD Card Read More here:
+
+- [FAQ: SD Cards](../../wiki_faq/faq-sdcard.md).
+
+#### Linux Desktop 
+
+Choose between:
+
+`Home` or `Custom Location`.
+
+### *Step 3 — **Add RetroDECK to Steam and Steam Controller Templates** 
+
+When asked, select we recommend this: **Yes**. 
+
+After this, RetroDECK will appear in Game Mode under **Library → Non-Steam**.
+
+### *Step 4 — **(Optional) Install Downloaded Firmwares** 
+
+The 
 
 ### **Step 2 — Add BIOS & Firmware**
 
@@ -165,46 +272,8 @@ RetroDECK is community-driven—explore, learn, or join in!
 <img src="../../../wiki_icons/pixelitos/linux.png" width="75">
 
 ---
-
-## Prerequisites
-
-> **Note:** It's recommended to add and launch RetroDECK via Steam to utilize Steam Input for external controllers.
-
-### 1. Flatpak Support
-
-Ensure Flatpak is installed on your Linux system. Follow the official guide for your distribution:  
-[Flatpak Setup Guide](https://flatpak.org/setup/)
-
-### 2. Steam: steam-devices Package
-
-- The `steam-devices` package is usually included with Steam on most distributions.  
-- Required for Steam to detect controllers.  
-- Steam will warn you if it is missing.  
-- Install via your distribution's package manager if needed.  
-
-> **Note:** Not required for SteamOS-based devices (e.g., Steam Deck) or gaming distributions like Bazzite, Chimera, Nobara, etc.
-
-### 3. Enable Steam Input for Controllers
-
-1. Open Steam and click the **Steam** menu.  
-2. Navigate to **Settings → Controller**.  
-3. Enable Steam Input for all controllers: Xbox, PlayStation, Switch Pro, Generic.  
-4. Close Settings.
-
 ---
 
-## Installing RetroDECK from Flathub
-
-### From the Desktop
-
-1. Open your Flatpak-supported software manager (e.g., GNOME Software, KDE Discover, Bazaar).  
-2. Search for `RetroDECK` and click **Install**.
-
-### From the Terminal
-
-Run the following command:
-
-`flatpak install Flathub net.retrodeck.retrodeck`
 
 ---
 
@@ -269,33 +338,7 @@ Go to RetroDECK on the Steam Grid under `Library` → `Non-Steam` → `RetroDECK
 
 ---
 
-## Game Mode on Linux PCs
 
-Steam Deck's **Game Mode** can be used on some Linux distributions. It helps:
-
-- Mitigate Input issues.
-- Provide the best RetroDECK experience.
-- Allow seamless Steam controller support.
-
-Here is a list of some distributions that support Game Mode:
-
-**Bazzite**
-
-[Bazzite Webpage](https://bazzite.gg/)
-
-[Bazzite: Steam Game Mode](https://universal-blue.discourse.group/t/steam-gaming-mode-overview-for-handheld-htpc-images/)
-
-**Chimera OS**
-
-[ChimeraOS Webpage](https://chimeraos.org/)
-
-[ChimeraOS Wiki](https://github.com/ChimeraOS/chimeraos/wiki)
-
-**Nobara**
-
-[Nobara Webpage](https://nobaraproject.org/download-nobara/)
-
-[Nobara Wiki](https://wiki.nobaraproject.org)
 
 ---
 
@@ -309,35 +352,9 @@ Depending on what language you have set in `Desktop Mode`, things might be named
 
 ---
 
-## Want to use your SD Card?
-
-**Read here:**
-
-[FAQ: SD Cards](../..wiki_faq/faq-sdcard.md).
 
 ---
 
-## Step-by-Step Guide to Install RetroDECK on the Steam Deck
-
-### **Switch to Desktop Mode:** 
-
- `Steam button` → `Power` → `Switch to Desktop`
-
-### **Install RetroDECK via Discover.**
-
-Open **Discover**.
-
-Search for **RetroDECK** and click **Install**.
-
-Launch RetroDECK from: Discover, or `KDE Menu` → `Games` → `RetroDECK`
-
-### **Launch RetroDECK for the first time** 
-
-After installation, launch RetroDECK from `Discover` or the `KDE Program Menu` under `Games` → `RetroDECK`
-
-### **Choose where to create the retrodeck/ folder** 
-
-`Internal Storage`, `SD Card`, or `Custom Location`.
 
 ### **Add RetroDECK to Steam and Steam Controller Templates** 
 

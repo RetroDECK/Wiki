@@ -24,8 +24,9 @@ You will need:
 
 **A supported device**, such as:
 
-  - Handheld gaming PCs (e.g., Steam Deck).
-  - Full Linux desktop.
+  - Linux Handheld gaming PCs (e.g., Steam Deck).
+  - Linux general desktop.
+  - Linux gaming PC.
   - Linux HTPC setup.
   - Linux-based PC consoles (e.g., Steam Machine).
   

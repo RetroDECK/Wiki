@@ -82,7 +82,7 @@ Ensure Flatpak is installed on your Linux system. Follow the official guide for 
 
 <img src="../../../wiki_icons/retrodeck/icon-rd.png" width="50">
 
-For your
+**For your:**
 
 - HTPC
 - Gaming PC
@@ -91,7 +91,7 @@ For your
 
 ---
 
-### **Install RetroDECK **
+### **Install RetroDECK**
 
 <img src="../../../wiki_images/logos/discover-logo.png" width="50">
 
@@ -128,15 +128,55 @@ Launch RetroDECK from `Discover / Bazaar / Gnome Software` or the `Software / Pr
 - `Home Directory`
 - `Custom Location`
 
+<img src="../../../wiki_images/retrodeck-finit/1-RD-Finit-Start.png" width="500">
+
 ---
 
-### **Add RetroDECK to Steam and Steam Controller Templates** 
+### **(Optional, but recommended) Add RetroDECK to Steam and Steam Controller Templates** 
 
 <img src="../../../wiki_icons/pixelitos/steam.png" width="50">
 
-When asked, select: **Yes**. 
+When asked, we recommend that you select: **Yes**.
 
 After this, RetroDECK will appear in Game Mode under **Library → Non-Steam**
+
+<img src="../../../wiki_images/retrodeck-finit/2-RD-Finit-Steam.png" width="500">
+
+---
+
+### **(Optional) Download Firmware**
+
+<img src="../../../wiki_icons/pixelitos/folder-red-arduino.png" width="50">
+
+RetroDECK can download firmware **only from officially distributed sources**.
+
+An active internet connection is required.
+
+After the firmware installation is complete, be sure to **close the component’s window or it's pop-ups** to finish the process.
+
+<img src="../../../wiki_images/retrodeck-finit/5-RD-Finit-FirmWait.png" width="500">
+
+<img src="../../../wiki_images/retrodeck-finit/8-RD-Finit-RPCS3In.png" width="500">
+
+---
+
+### **Installation Complete**
+
+<img src="../../../wiki_icons/pixelitos/security-high.png" width="50">
+
+<img src="../../../wiki_images/retrodeck-finit/11-RD-Finit-Comp.png" width="500">
+
+Press **OK**.
+
+---
+
+### **RetroDECK will now start: Quit and Return to Desktop**
+
+<img src="../../../wiki_icons/pixelitos/preferences-desktop-cursors.png" width="25">
+
+Exit RetroDECK by pressing `START / ESCAPE` → `QUIT RetroDECK`
+
+<img src="../../../wiki_images/retrodeck-finit/12-RD-Finit-ES-DE.png" width="500">
 
 ---
 
@@ -217,11 +257,13 @@ RetroDECK uses Steam Input, and each emulator has consistent hotkeys for save st
 
 <img src="../../../wiki_icons/pixelitos/retrodeck.png" width="50">
 
-Go to RetroDECK on the Steam Grid under `Library` → `RetroDECK`.
+Go to RetroDECK on the Steam Grid under `Library` → `Non-Steam` → `RetroDECK`.
 
 Start RetroDECK.
 
 Any system with valid ROMs / Games should now appear in ES-DE and be ready to play.
+
+<img src="../../../wiki_images/retrodeck-finit/13-RD-Finit-SteamLaunch.png" width="500">
 
 ---
 
@@ -234,11 +276,9 @@ Any system with valid ROMs / Games should now appear in ES-DE and be ready to pl
 - Navigate to RetroDECK `Library` -> `Non-Steam`.
 - Go to 🎮 Controller `🎮 Controller Settings` -> `Controller Layouts` -> `Templates` .
    
-
+<img src="../../../wiki_images/retrodeck-finit/14-RD-Finit-SteamController.png" width="150">
    
-
 ---
-
 
 ## Additional Tips
 

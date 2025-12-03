@@ -70,23 +70,55 @@ If you plan to install it on your SD Card
 - `SD Card`
 - `Custom Location`
 
+<img src="../../../wiki_images/retrodeck-finit/1-RD-Finit-Start.png" width="500">
+
 ---
 
-### **Add RetroDECK to Steam and Steam Controller Templates** 
+### **(Optional, but recommended) Add RetroDECK to Steam and Steam Controller Templates** 
 
 <img src="../../../wiki_icons/pixelitos/steam.png" width="50">
 
-When asked, select: **Yes**. 
+When asked, we recommend that you select: **Yes**.
 
 After this, RetroDECK will appear in Game Mode under **Library → Non-Steam**
 
+<img src="../../../wiki_images/retrodeck-finit/2-RD-Finit-Steam.png" width="500">
+
 ---
 
-### **RetroDECK will now start: Return to Desktop**
+### **(Optional) Download Firmware**
+
+<img src="../../../wiki_icons/pixelitos/folder-red-arduino.png" width="50">
+
+RetroDECK can download firmware **only from officially distributed sources**.
+
+An active internet connection is required.
+
+After the firmware installation is complete, be sure to **close the component’s window or it's pop-ups** to finish the process.
+
+<img src="../../../wiki_images/retrodeck-finit/5-RD-Finit-FirmWait.png" width="500">
+
+<img src="../../../wiki_images/retrodeck-finit/8-RD-Finit-RPCS3In.png" width="500">
+
+---
+
+### **Installation Complete**
+
+<img src="../../../wiki_icons/pixelitos/security-high.png" width="50">
+
+<img src="../../../wiki_images/retrodeck-finit/11-RD-Finit-Comp.png" width="500">
+
+Press **OK**.
+
+---
+
+### **RetroDECK will now start: Quit and Return to Desktop**
 
 <img src="../../../wiki_icons/pixelitos/preferences-desktop-cursors.png" width="25">
 
-Exit RetroDECK by pressing `START / ESCAPE` -> `QUIT RetroDECK`
+Exit RetroDECK by pressing `START / ESCAPE` → `QUIT RetroDECK`
+
+<img src="../../../wiki_images/retrodeck-finit/12-RD-Finit-ES-DE.png" width="500">
 
 ---
 
@@ -181,7 +213,9 @@ Go to RetroDECK on the Steam Grid under `Library` → `Non-Steam` → `RetroDECK
 Start RetroDECK.
 
 Any system with valid ROMs / Games should now appear in ES-DE and be ready to play.
- 
+
+<img src="../../../wiki_images/retrodeck-finit/13-RD-Finit-SteamLaunch.png" width="500">
+
 ---
  
 ### **(Optional) Apply templates to external controllers**.
@@ -192,7 +226,8 @@ Any system with valid ROMs / Games should now appear in ES-DE and be ready to pl
 
 - Navigate to RetroDECK `Library` -> `Non-Steam`.
 - Go to 🎮 Controller `🎮 Controller Settings` -> `Controller Layouts` -> `Templates` .
-   
+
+<img src="../../../wiki_images/retrodeck-finit/14-RD-Finit-SteamController.png" width="150">
 
 ---
 

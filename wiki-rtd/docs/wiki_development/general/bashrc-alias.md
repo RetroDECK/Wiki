@@ -125,13 +125,13 @@ rdi-l-main() {
 }
 
 # --------------------------------------------------------
-# Cooker Installer Function: rdi-cook
+# Cooker Installer Function: rdi-cooker
 # --------------------------------------------------------
 
 # This function handles both the flatpak and 7z multi-part bundle installation for RetroDECK Cooker.
 # It first checks if the flatpak is available, then falls back to 7z if not.
 
-rdi-cook() {
+rdi-cooker() {
   # Define URLs for the RetroDECK Cooker flatpak and 7z parts
   FLATPAK_URL="https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak"
   PART1_URL="https://github.com/RetroDECK/Cooker/releases/latest/download/RetroDECK-cooker.flatpak.7z.001"

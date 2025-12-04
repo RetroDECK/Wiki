@@ -22,17 +22,16 @@ Additionally, RetroDECK uses Steam ROM Manager as part of its backend for the `S
 
 ---
 
-### Warning - Flatpak Steam not yet supported
+### ⚠️ Warning: Exotic Game Filenames Can Break Scripts
 
-We haven't added support for the Flatpak version of Steam yet.
+Some game game filenames contain symbols that may cause issues with the parser, preventing the game from launching.  
 
-### Warning - Exotic ROMs filenames can break the scripts
+✅ **Safe symbols:** `( ) [ ]`  
 
-Some games have symbols in their names that can cause issues with the parser, preventing the game from launching. Symbols like ( ) [ ] are fine, but avoid using:
+❌ **Avoid using:** `/ \ { } < > ' * `  
 
-/ \ { } < > ' * `
+If your game filenames contain any of the unsafe symbols, consider renaming them before running the scripts.
 
-Consider renaming games that contain these symbols.
 
 ---
 

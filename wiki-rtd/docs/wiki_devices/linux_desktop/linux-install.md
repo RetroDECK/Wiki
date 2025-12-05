@@ -130,6 +130,8 @@ Launch RetroDECK from `Discover / Bazaar / Gnome Software` or the `Software / Pr
 
 <img src="../../../wiki_images/retrodeck-finit/1-RD-Finit-Start.png" width="500">
 
+<img src="../../../wiki_images/retrodeck-finit/5-RD-Finit-FirmWait.png" width="500">
+
 ---
 
 ### **(Optional, but recommended) Add RetroDECK to Steam and Steam Controller Templates** 
@@ -154,9 +156,9 @@ An active internet connection is required.
 
 After the firmware installation is complete, be sure to **close the component’s window or it's pop-ups** to finish the process.
 
-<img src="../../../wiki_images/retrodeck-finit/5-RD-Finit-FirmWait.png" width="500">
 
-<img src="../../../wiki_images/retrodeck-finit/8-RD-Finit-RPCS3In.png" width="500">
+<img src="../../../wiki_images/retrodeck-finit3-RD-Finit-RPCS3.png" width="500">
+
 
 ---
 

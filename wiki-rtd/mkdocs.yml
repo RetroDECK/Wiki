@@ -308,8 +308,6 @@ nav:
     - IkemenGO / M.U.G.E.N:
       - IkemenGO - General Guide: wiki_engine_guides/ikemengo/ikemengo-guide.md
 
-
-
     - OpenBOR:
       - OpenBOR - General Guide: wiki_engine_guides/openbor/openbor-guide.md
 
@@ -369,6 +367,9 @@ nav:
 
     - xemu:
       - xemu - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
+
+    - XRoar:
+      - XRoar - General Guide: wiki_emulator_guides/xroar/xroar-guide.md
 
   - Guides - Systems 🗃️:
 

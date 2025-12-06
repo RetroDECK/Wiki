@@ -83,7 +83,9 @@ XRoar supports multiple input methods—including physical controllers, keyboard
 
 - RetroDECK includes the **SDL_GameControllerDB**, a community-maintained database of controller mappings used by SDL. XRoar is configured to use this database, ensuring wide compatibility with modern gamepads.
 - If you have a physical joystick/gamepad attached, XRoar will detect it and map it as `joy0`, `joy1`, etc. 
-- Built-in virtual joystick profiles include:  
+
+**Built-in virtual joystick profiles include:** 
+
   - `wasd` → uses **W / A / S / D** for directions, **O / P** for fire buttons.
   - `kjoy0` → uses arrow keys (“cursor keys”) plus **Left Alt** or **Left Super** as fire buttons.
   - `ijkl` → uses **I / J / K / L** for directions + **X / Z** (fire).

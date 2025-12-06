@@ -93,7 +93,7 @@ XRoar supports multiple input methods—including physical controllers, keyboard
   - `mjoy0` → mouse-based virtual joystick (mouse controls emulated joystick).
 
 
-**(Re)configure Joystick in XRoar**
+### (Re)configure Joystick in XRoar**
 
 Go to menu: **Hardware → Right Joystick** (or **Left Joystick**) to choose how XRoar should treat joystick input. 
 

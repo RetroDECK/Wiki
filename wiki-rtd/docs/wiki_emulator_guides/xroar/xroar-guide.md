@@ -34,7 +34,9 @@ Check the following links for finding the right BIOS:
 - [Colorcomputerarchive](https://colorcomputerarchive.com/)
 
 
-**NOTE:** XRoar calls the bios files **ROMS** and may of the end with **.rom**.
+**NOTE:** 
+
+XRoar calls the bios files **ROMS** and many of the files end with **.rom**.
 
 
 ---

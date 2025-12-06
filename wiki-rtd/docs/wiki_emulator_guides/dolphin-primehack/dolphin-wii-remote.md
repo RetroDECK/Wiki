@@ -4,6 +4,8 @@
 
 RetroDECK has a built-in hotkey for pressing the Dolphin `Sync Wiimote` button (`Alt + W`) if you get disconnected in Steam Input. It can also be accessed from some controller's radial menu systems.
 
+---
+
 ## Hardware Prerequisites
 
 <img src="../../../wiki_images/devices/wii-bar.png" width="150"> <img src="../../../wiki_images/devices/bluetooth-dongle.png" width="80">
@@ -16,6 +18,8 @@ RetroDECK has a built-in hotkey for pressing the Dolphin `Sync Wiimote` button (
 For hardware mod enthusiasts, you can buy a Bluetooth adapter spare part from a Wii console and wire it as a USB Bluetooth adapter for better compatibility. 
 
 [How to wire a Wii's Bluetooth Module to a PC USB Port](https://forums.dolphin-emu.org/Thread-how-to-wire-a-wii-s-bluetooth-module-to-a-pc-usb-port)
+
+---
 
 ## Information: Third Party Wii Remotes
 
@@ -37,6 +41,8 @@ Many third party Wii Remotes lack native Linux support, but several groups are w
 [xwiimote: issue 73](https://github.com/xwiimote/xwiimote/issues/73)
 
 [bluez: issue 94](https://github.com/bluez/bluez/issues/94)
+
+---
 
 ## Steam Deck Tips: Real Wii Remotes
 
@@ -81,7 +87,7 @@ Under `Emulate the Wii's Bluetooth adapter`:
 
 ---
 
-## How-to: Use a Real Wii Remote - Method 2: Bluetooth Passthrough
+## Use a Real Wii Remote - Method 2: Bluetooth Passthrough
 
 This method works with both 3rd party and official Wiimotes. It is more complex and has some downsides.
 
@@ -111,6 +117,8 @@ Bus 001 Device 004: ID 8087:0025 Intel Corp. Wireless-AC 9260 Bluetooth Adapter
 `ID 8087:0025 Intel Corp. Wireless-AC 9260 Bluetooth Adapter` is the Bluetooth Adapter in this example. The `ID 8087:0025` left value is the `Vendor ID` while the right is `Product ID`. In this example: `Vendor ID` is `8087` and `Product ID` is `0025`.
 
 
+---
+
 ### Step 2: Create the rules file
 
 You will need root privileges for this.
@@ -131,6 +139,8 @@ sudo echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="8087", ATTRS{idProduct}=="0025", 
 2. Reload udev rules with: sudo udevadm control --reload-rules.
 3. Take out and reinsert the Bluetooth adapter or reboot if a built-in was used.
 
+---
+
 ### Step 3: Enable Bluetooth Passthrough in Dolphin
 
 Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `Controller Settings`.
@@ -148,12 +158,16 @@ Enable the following checkboxes:
 - `Connect Wii Remotes for Emulated Controllers`
 - `Continuous Scanning`
 
+---
+
 ### Step 4: Syncing the Wiimotes
 
 - Connect the Wiimote when a game is launched.
 - Reconnect every time when launching a new game.
 - Press `1` and `2` together on the Wiimote or the `Sync Button` (under the backplate) when launching a game.
 - Sometimes, press the `Sync Button` on the Emulated Wii in the Dolphin Interface. RetroDECK has a built-in shortcut for this (`Alt + W`), accessible from the Steam Input Radial Menu system.
+
+---
 
 ### Extra: Troubleshooting and Tips
 

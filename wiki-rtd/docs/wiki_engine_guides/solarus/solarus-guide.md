@@ -50,8 +50,7 @@ No
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/solarus/` |           
-                    |  
+| ROMs Folder |`retrodeck/roms/solarus/` |           |
 
 ---
 

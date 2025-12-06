@@ -42,8 +42,7 @@ If your game filenames contain any of the unsafe symbols, consider renaming them
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
 | Launch Scripts Folder | `retrodeck/roms/.sync/`   |  This hidden folder contains the auto generated launch scripts for Steam as `.sh` files.   |         | 
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/config/steam-rom-manager/`         |   |
-
+| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/config/steam-rom-manager/`|   |
 
 ---
 

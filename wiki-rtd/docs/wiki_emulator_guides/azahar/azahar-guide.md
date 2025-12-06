@@ -150,3 +150,9 @@ Follow the steps below to change the UI language in Azahar:
 4. Enter a `Name` for the cheat, then paste the cheat code into the `Code` field.  
 5. Click `Save` and enable the cheat by checking the box in the `Available Cheats` pane.
 6. Press OK and and Quit Azahar.
+
+### Finding Cheat Codes
+
+- [CTRPF-AR-CHEAT-CODES](https://github.com/iSharingan/CTRPF-AR-CHEAT-CODES)
+- [Sharkive](https://github.com/FlagBrew/Sharkive/tree/master/3ds)
+- [GBATEMP: Action Replay](https://gbatemp.net/threads/ctrpluginframework-blank-plugin-now-with-action-replay.487729/)

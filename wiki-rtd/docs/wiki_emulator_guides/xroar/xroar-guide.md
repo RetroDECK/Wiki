@@ -36,7 +36,7 @@ Check the following links for finding the right BIOS:
 
 **NOTE:** 
 
-XRoar calls the bios files **ROMS** and many of the files end with **.rom**.
+XRoar calls the bios files **ROMs** and many of the files end with **.rom**.
 
 
 ---

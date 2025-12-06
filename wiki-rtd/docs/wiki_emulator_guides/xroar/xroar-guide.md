@@ -1,6 +1,6 @@
 # XRoar  - General Guide
 
-<img src="../../../wiki_images/logos/xemu-logo.png" width="75">
+<img src="../../../wiki_images/logos/xroar-tano64-logo.jpg" width="100">
 
 XRoar is a  Dragon 32, Dragon 64, Dragon 200-E, Tandy Colour Computer and Tandy MC-10 emulator.
 

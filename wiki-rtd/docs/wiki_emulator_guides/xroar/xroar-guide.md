@@ -54,10 +54,10 @@ Directly into the folder
 
 | File Format | Description |
 |-------------|-------------|
-| .cas / .CAS | Cassette / tape images |
-| .ccc / .CCC | Cartridge images |
-| .dsk / .DSK | Disk images |
-| .rom / .ROM | System / Cartridge ROM images |
+| .cas  | Cassette / tape images |
+| .ccc | Cartridge images |
+| .dsk  | Disk images |
+| .rom  | System / Cartridge ROM images |
 
 ---
 

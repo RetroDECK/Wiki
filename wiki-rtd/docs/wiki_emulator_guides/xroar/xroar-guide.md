@@ -65,11 +65,14 @@ Directly into the folder
 
 | Type    | Folder                 |      Comment     | 
 |  :---:  |  :---:                 |      :---:     |
-| Tandy Color Computer: ROMs Folder |`retrodeck/roms/coco/` | 
-| Dragon Data Dragon 32: ROMs Folder |`retrodeck/roms/dragon32/` | 
-| Tano Dragon: ROMs Folder |`retrodeck/roms/tanodragon/` | 
+| Tandy Color Computer: ROMs Folder |`retrodeck/roms/coco/` |  |
+| Dragon Data Dragon 32: ROMs Folder |`retrodeck/roms/dragon32/` |  |
+| Tano Dragon: ROMs Folder |`retrodeck/roms/tanodragon/` |  |
 | BIOS Folder | `retrodeck/bios/` | |
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/xroar/`         |   `xroar.config` |
+| Tandy Color Computer: States Folder |`retrodeck/xroar/coco/` | Manual |
+| Dragon Data Dragon 32: States Folder |`retrodeck/xroar/dragon32/` |  Manual |
+| Tano Dragon: States Folder |`retrodeck/xroar/tanodragon/` | Manual |
 
 ---
 
@@ -79,7 +82,7 @@ XRoar supports multiple input methods—including physical controllers, keyboard
 
 ### Joystick / Controller Support
 
-<img src="../XRoar-GamePad.png" width="500">
+<img src="../XRoar-GamePad.png" width="350">
 
 - RetroDECK includes the **SDL_GameControllerDB**, a community-maintained database of controller mappings used by SDL. XRoar is configured to use this database, ensuring wide compatibility with modern gamepads.
 - If you have a physical joystick/gamepad attached, XRoar will detect it and map it as `joy0`, `joy1`, etc. 
@@ -93,7 +96,7 @@ XRoar supports multiple input methods—including physical controllers, keyboard
   - `mjoy0` → mouse-based virtual joystick (mouse controls emulated joystick).
 
 
-### (Re)configure Joystick in XRoar**
+### Re-configure Joystick in XRoar
 
 Go to menu: **Hardware → Right Joystick** (or **Left Joystick**) to choose how XRoar should treat joystick input. 
 
@@ -105,7 +108,7 @@ You can choose among the built-in profiles above (keyboard-based, mouse-based, o
 
 The **Hardware → Machine** menu in XRoar lets you choose which system you want to emulate. XRoar supports several Dragon and CoCo models, each with its own hardware capabilities and compatibility differences.
 
-<img src="../XRoar-Machine.png" width="500">
+<img src="../XRoar-Machine.png" width="250">
 
 ### Machine Profiles in XRoar
 
@@ -150,7 +153,7 @@ In **Hardware → Cartridge** you can select different default cartridge types f
 
 - Cartridges might require corresponding BIOS files to be present for XRoar to load them correctly in `retrodeck/bios/`.
 
-<img src="../XRoar-Cartidge.png" width="500">
+<img src="../XRoar-Cartidge.png" width="250">
 
 | Option                              | Description                                                                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -167,5 +170,15 @@ In **Hardware → Cartridge** you can select different default cartridge types f
 | **IDE Interface**                   | This interface allows Dragon computers to connect to IDE devices, such as hard drives or CD-ROM drives, enabling more modern forms of storage.                 |
 | **NX32 Memory Cartridge**           | A memory expansion cartridge for the Dragon, offering additional RAM for use by software that requires more memory than the base system provides.               |
 | **MOOH Memory Cartridge**           | A memory expansion cartridge designed for the Dragon system, offering enhanced memory capabilities for more demanding applications.                           |
+
+---
+
+## Saving and Loading States 
+
+XRoar supports state files but does not allow saving them to a standard path. 
+
+Each time you save or load a state, you will be prompted to choose a location.  
+
+We recommend keeping your state files organized in the dedicated folder: `retrodeck/xroar/<computer_type>/`
 
 ---

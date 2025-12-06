@@ -69,77 +69,79 @@ No
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/azahar/`         |  |
 | BIOS Folder | `/retrodeck/bios/azahar/` |  |
 | Data Folder |`~/.var/app/org.retrodeck.retrodeck/data/azahar` |     |
-| Mods Folder |`retrodeck/mods/azahar/` |     |
-| Texture Packs Folder |`retrodeck/texture_packs/azahar/`|     |
+| Mods Folder |`retrodeck/mods/n3ds/azahar/` |  `/load/mods/`   |
+| Texture Packs Folder |`retrodeck/texture_packs/n3ds/azahar/`|   `/load/textures`  |
 
 ---
 
-## Adding mods
+## Adding Mods
 
-**Note:**<br>
+**Notes:**
 
-- The `~/retrodeck/mods/azahar/` represents the `/load/mods/` folder in Azahar.
-- `TITLEID` is different for every game.
+- The path `retrodeck/mods/n3ds/azahar/` corresponds to the `/load/mods/` directory inside Azahar.
+- Each game has a unique `TITLEID`.
 
-On the Steam Deck this could be easier to do in `Desktop Mode`.
+There are two ways to add mods to Azahar.
 
-There are two ways of adding mods into Azahar
 
-### Add mods from Azahar
+### Add Mods Using Azahar
 
-1. Extract any mod from compressed `.zip` or any other format to folders.
-2. Open up Azahar inside `RetroDECK Configurator` by pressing `Open Component` - `Azahar`.
-3. Right click on the game you want to add mods into.
-4. Click on `Open Mods Location`.
-5. Paste the mod files inside that directory, each folder is stored by the `TITLLEID` of the game.
-6. Quit Azahar
+1. Extract the mod from its compressed format (`.zip` or similar) so that the files are in normal folders.
+2. Open Azahar through the **RetroDECK Configurator** by selecting **Open Component** → **Azahar**.
+3. Right-click the game you want to modify.
+4. Select **Open Mods Location**.
+5. Place the mod files into the directory that opens. Each folder corresponds to a game's `TITLEID`.
+6. Close Azahar.
 
-### From the mod folder directly
 
-1. Extract any mod files from compressed `.zip` or any other format into folders.
-2. Go into `~/retrodeck/mods/azahar/`. The folders are all named by `TITLEID`.
-3. Past the mods into the right `~/retrodeck/mods/yuzu/<TITLEID>` folder.
+### Add Mods Directly from the Filesystem
+
+1. Extract the mod from its compressed format (`.zip` or similar) into folders.
+2. Navigate to `retrodeck/mods/n3ds/azahar/`. Each folder inside represents a game's `TITLEID`.
+3. Paste the mod files into the appropriate `retrodeck/mods/n3ds/azahar/<TITLEID>/` directory.
+
 
 ---
 
-## Adding texture packs
+## Adding Texture Packs
 
-**Note:** <br>
+**Note:**
 
-Some texture packs could made for a specific version or region of a game. Make sure you have the right game and textures for it.
+Some texture packs are designed for specific versions or regions of a game. Make sure you are using the correct game and corresponding texture pack.
 
-On the Steam Deck this could be easier to do in `Desktop Mode`.
+- The path `retrodeck/texture_packs/n3ds/azahar/` corresponds to the `/load/textures` folder in Azahar.  
+- Each game has a unique `TITLEID`.
 
-- The `~/retrodeck/texture_packs/azahar/` represents the `/load/textures` folder in Azahar.
-- `TITLEID` is different for every game.
+On the Steam Deck, performing these steps in **Desktop Mode** may be easier.
 
-There are two ways of adding texture packs into Azahar
+There are two ways to add texture packs to Azahar.
+
 
 ### Enable Custom Textures
 
-1. Open up Azahar inside `RetroDECK Configurator` by pressing `Open Component` - `Azahar`.
-2. Press `Emulation` -> `Configure` -> `Graphics` -> `Use Custom Textures` and set it to `On`.
+1. Open Azahar through the **RetroDECK Configurator** by selecting **Open Component** → **Azahar**.  
+2. Go to **Emulation** → **Configure** → **Graphics** → **Use Custom Textures** and set it to **On**.
 
-### Add texture packs from Azahar
+### Add Texture Packs Using Azahar
 
-1. Extract any texture files from compressed `.zip` or any other format to folders.
-2. Open up Azahar inside `RetroDECK Configurator` by pressing `Open Component` - `Azahar`.
-3. Right click on the game you want to add textures into.
-4. Click on `Open Custom Textures Location`.
-5. Paste the texture folders inside that directory, each folder is stored by the `TITLLEID` of the game.
-6. Quit Azahar
+1. Extract the texture pack from its compressed format (`.zip` or similar) into folders.  
+2. Open Azahar through the **RetroDECK Configurator**.  
+3. Right-click the game you want to add textures to.  
+4. Select **Open Custom Textures Location**.  
+5. Paste the texture folders into the directory. Each folder is organized by the game's `TITLEID`.  
+6. Close Azahar.
 
-### From the texture folder directly
+### Add Texture Packs Directly from the Filesystem
 
-1. Extract any texture pack files from compressed `.zip` or any other format into folders.
-2. Go into `~/retrodeck/texture_packs/azahar/`. The folders are all named by `TITLEID`.
-3. Move textures into the right `~/retrodeck/texture_packs/azahar/<TITLEID>` folder.
+1. Extract the texture pack from its compressed format (`.zip` or similar) into folders.  
+2. Navigate to `~/retrodeck/texture_packs/n3ds/azahar/`. Each folder corresponds to a game's `TITLEID`.  
+3. Move the extracted texture folders into the appropriate `retrodeck/texture_packs/n3ds/azahar/<TITLEID>/` directory.
 
-**Example:**
+### Example
 
-* You have a `.zip` file for a game that contains the `/load/textures/0000001000` folders.
-* All you need to do is take the TITLEID folder: `0000001000` and put it into `~/retrodeck/texture_packs/azahar/`
-* So the end result looks like: `~/retrodeck/texture_packs/azahar/0000001000`
+- Suppose you have a `.zip` file containing `/load/textures/0000001000/`.  
+- Copy the `0000001000` folder into `~/retrodeck/texture_packs/n3ds/azahar/`.  
+- The final structure should look like: `retrodeck/texture_packs/n3ds/azahar/0000001000/`
 
 ---
 

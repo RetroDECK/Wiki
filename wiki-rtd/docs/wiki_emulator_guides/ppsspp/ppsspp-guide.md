@@ -28,6 +28,8 @@ A PSP emulator that can also upscale textures to make them sharper, and you can 
 
 PSP games should be put under the `retrodeck/roms/psp/` directory.
 
+---
+
 ## What file formats are supported?
 
 
@@ -40,9 +42,13 @@ PSP games should be put under the `retrodeck/roms/psp/` directory.
 | .prx        | PlayStation Portable executable file |
 | .chd        | Compressed Hunks of Data  **(Recommended)**|
 
+---
+
 ## Does PPSSPP require BIOS or Firmware?
 
 No
+
+---
 
 ## Folder structure
 
@@ -54,7 +60,9 @@ No
 | Texture Packs Folder |`retrodeck/texture_packs/ppsspp/` |       Corresponds to `PSP/TEXTURES/` folder                        | 
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/ppsspp/PSP/`         |  |
 
-## How to add Texture Packs?
+---
+
+## Adding Texture Packs
 
 The `~/retrodeck/texture_packs/ppsspp/` represents the `/PSP/TEXTURES/` folder in PPSSPP.
 
@@ -76,3 +84,5 @@ Some texture packs could made for a specific version or region of the game. Make
 2. Go into `~/retrodeck/texture_packs/ppsspp/`. The folders are all named by `TITLEID`.
 3. Paste the textures into right folder `~/retrodeck/texture_packs/ppsspp/<TITLEID>`
 4. If the textures match the game they should be loaded on next time you launch the game.
+
+---

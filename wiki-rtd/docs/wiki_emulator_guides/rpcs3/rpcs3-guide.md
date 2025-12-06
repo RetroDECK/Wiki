@@ -48,7 +48,7 @@ There are two ways to install the firmware:
 
 **Install PS3 firmware from RetroDECK Configurator**
 
-1. Open RPCS3 `RetroDECK Configurator` - `RetroDECK: Tools` - `Install: PS3 Firmware`.
+1. Open RPCS3 `RetroDECK Configurator` - `RetroDECK: Tools` - `Install: RPCS3 Firmware`.
 2. Press `OK` and this will download the PS3 Firmware and open RPCS3.
 3. You will get a prompt asking if you want to install the firmware from the /tmp/ folder, say `Yes`
 4. Wait for the installation to finish

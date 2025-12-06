@@ -25,11 +25,15 @@ Vita3K is an experimental open-source Sony PlayStation Vita emulator.
 
 Vita3K games should be put into the `retrodeck/roms/psvita/` directory.
 
+---
+
 ## What file formats are supported?
 
 | File Format | Description |
 |-------------|-------------|
 | .psvita        | PSVita file |
+
+---
 
 ## Does Vita3K require BIOS or Firmware?
 
@@ -39,10 +43,18 @@ It also requires licence and keys files play games.
 
 ### Firmware files
 
-- The Firmware: `PSVUPDAT.PUP`
-- The Firmware Font Package: `PSP2UPDAT.PUP`
+| File | Description |
+|------|-------------|
+| `PSVUPDAT.PUP` | Main PSVita system firmware. |
+| `PSP2UPDAT.PUP` | Firmware font package required for proper UI rendering. |
 
-The firmware and font firmware can be downloaded and installed from the RetroDECK Configurator.
+**Install Vita3K firmware from RetroDECK Configurator**
+
+1. Open Vita3K `RetroDECK Configurator` - `RetroDECK: Tools` - `Install: Vita3K Firmware`.
+2. Press `OK` and this will download the Vita3K Firmware.
+
+
+**Manual Download**
 
 You can also install them manually:
 
@@ -53,9 +65,16 @@ Open Vita3K from the Configurator and press `File - Install Firmware` to install
 
 ### Licence Files and Keys
 
-Licence files `.bin` `.rif` or licence keys called a `zRif` are required for many games.
+To play many commercial PSVita games, Vita3K requires license files or keys:
 
-They need to be installed by pressing `File - Install Licence` then either `Select work.bin / rif` for the files or `Enter zRif` to input the key.
+| Type | Description | Installation Method |
+|------|-------------|-------------------|
+| `.bin` / `.rif` | Standard license files for purchased games | `File → Install License → Select work.bin / .rif` |
+| `zRif` | License key for some digital games | `File → Install License → Enter zRif` |
+
+**Note:** Make sure the license files or zRif keys match the game you intend to play. Incorrect files will prevent the game from launching.
+
+---
 
 ## Folder structure
 
@@ -66,7 +85,9 @@ They need to be installed by pressing `File - Install Licence` then either `Sele
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/Vita3K/`         | `config.yml` |
 | Data Folder |`~/.var/app/net.retrodeck.retrodeck/data/Vita3K/`         | |
 
-## How-to: Get games to show up inside RetroDECK
+---
+
+## Get games to show up inside RetroDECK
 
 **Example:**
 
@@ -81,8 +102,6 @@ In this guide will have an example fake game we want to add: `OutWipe 4820`.
 **Example:**
 
 `OutWipe 4820` is a `.pkg` file so we chose the `Install .pkg` option and navigate to where we have the file on the system to install it.
-
-
 
 #### Step 1b: Add Licences
 
@@ -134,4 +153,6 @@ The `OutWipe 4820.psvita` file contains only the word: `PCSF00007` and nothing e
 
 1. Close Vita3k, RetroDECK Configurator and RetroDECK.
 2. Open RetroDECK again.
-3. The game should now be added to the ES-DE frontend and be able to be played. 
+3. The game should now be added to the ES-DE frontend and be able to be played.
+
+--- 

@@ -28,15 +28,21 @@ Some games might not work at all or control right.
 
 Flash games should be put under the `retrodeck/roms/flash/` directory.
 
+---
+
 ## What file formats are supported?
 
 | File Format | Description |
 |-------------|-------------|
 | .swf        | Shockwave Flash file |
 
+---
+
 ## Does Ruffle require BIOS or Firmware?
 
 No
+
+---
 
 ## Folder structure
 
@@ -47,6 +53,8 @@ No
 | Data Folder |`~/.var/app/net.retrodeck.retrodeck/data/ruffle/`   | |
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/ruffle/`   | |
 | Cache Folder |`~/.var/app/net.retrodeck.retrodeck/cache/ruffle/`   | |
+
+---
 
 ## Controls in Games
 
@@ -64,6 +72,8 @@ Suggestions on how to control games:
 - Use the built-in touchscreens on devices like the Steam Deck.
 - Summon built-in virtual keyboards in SteamOS or your Linux distribution with a button combo.
 
+---
+
 ## Can I use Ruffle to play Flash videos and not just games?
 
 Yes, you can add Flash videos (.sfw files) to the `retrodeck/roms/flash/` folder to play them.
@@ -77,4 +87,4 @@ retrodeck/roms/flash/videos/
 retrodeck/roms/flash/games/
 ```
 
-
+---

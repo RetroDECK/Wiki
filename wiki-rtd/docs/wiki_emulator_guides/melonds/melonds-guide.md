@@ -24,6 +24,7 @@ melonDS, a Nintendo DS emulator.
 
 NDS games should be put under the `retrodeck/roms/nds/` directory.
 
+---
 
 ## What file formats are supported?
 
@@ -34,24 +35,31 @@ NDS games should be put under the `retrodeck/roms/nds/` directory.
 | .bin        | Binary file |
 | .nds        | Nintendo DS ROM file **(Recommended)**|
 
+---
+
 ## Does MelonDS require BIOS or Firmware?
 
-There exists several optional BIOS and FIrmware:
+MelonDS can run without BIOS or firmware files, but including them improves accuracy and compatibility. 
 
-**Nintendo DS:** 
-```
-bios7.bin
-bios9.bin
-firmware.bin
-```
+The following files are **optional:**
 
-**Nintendo DSI:** 
-```
-dsi_bios9.bin
-dsi_bios7.bin
-dsi_firmware.bin
-dsi_nand.bin
-```
+### Nintendo DS
+
+| File Name       | Description |
+|-----------------|-------------|
+| `bios7.bin`     | ARM7 BIOS, required for some homebrew and commercial games. |
+| `bios9.bin`     | ARM9 BIOS, essential for proper game execution. |
+| `firmware.bin`  | System firmware, improves compatibility and system calls. |
+
+### Nintendo DSi
+
+| File Name        | Description |
+|-----------------|-------------|
+| `dsi_bios7.bin`  | ARM7 BIOS for DSi, required for accurate execution. |
+| `dsi_bios9.bin`  | ARM9 BIOS for DSi, required for accurate execution. |
+| `dsi_firmware.bin` | DSi system firmware for enhanced compatibility. |
+| `dsi_nand.bin`   | DSi NAND dump, required for certain system-level operations and online functionality. |
+
 
 ### Where to put the BIOS and Firmware?
 
@@ -59,9 +67,7 @@ Directly into the folder
 
 `retrodeck/bios/`
 
-**Example:**
-
-`retrodeck/bios/bios9.bin`
+---
 
 ## Folder structure
 
@@ -73,7 +79,9 @@ Directly into the folder
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/melonDS/`         |   `melonDS.ini`|
 | BIOS Folder | `retrodeck/bios/` | |
 
-## Change Language in games
+---
+
+## Configuring Language Settings
 
 **Requirements:** 
 
@@ -85,3 +93,5 @@ Directly into the folder
 1. Open `Configurator` -> `MelonDS`
 2. Click `Config` -> `Emu settings` -> `DS-Mode` ->  Enable `Use external BIOS/firmware files`
 3. Click `File` -> `Boot firmware` -> `DS icon` (bottom of the screen) -> `⚙️` -> `🌍` -> Set language.
+
+---

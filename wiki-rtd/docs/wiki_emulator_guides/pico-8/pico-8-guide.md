@@ -22,6 +22,8 @@ PICO-8 Fantasy Console is a game engine developed by Lexaloffle Games that you n
 
 PICO-8 games should be put under the `retrodeck/roms/pico8/` directory. 
 
+---
+
 ## What file formats are supported?
 
 | File Format | Description |
@@ -32,17 +34,16 @@ PICO-8 games should be put under the `retrodeck/roms/pico8/` directory.
 
 Yes, it requires the Pico-8 software. 
 
-You can buy it from the the website or Itch.io.
+You can purchase it from the official [Pico-8 website](https://www.lexaloffle.com/pico-8.php) or on [Itch.io](https://lexaloffle.itch.io/pico-8).
 
 ### Where to put the BIOS / Firmware files?
 
-Extract the `pico-8_*.*.**_amd64.zip` file of the Linux version into:
+1. Download the Linux version of Pico-8: `pico-8_*.*.**_amd64.zip`.
+2. Extract the contents into the following directory: `retrodeck/bios/pico-8/`
+3. It should look like: `retrodeck/bios/pico-8/pico8`
 
-`retrodeck/bios/pico-8/`
-
-It should look like:
-
-`retrodeck/bios/pico-8/pico8 (and all the other files)`
+    
+---
 
 ## Folder structure
 
@@ -51,6 +52,8 @@ It should look like:
 | ROMs Folder |`retrodeck/roms/pico8/` |                               |  
 | Saves Folder |`retrodeck/saves/pico-8/` |                               |  
 | BIOS Folder | `retrodeck/bios/pico-8/` |  |
+
+---
 
 ## How to download the games?
 
@@ -64,3 +67,5 @@ It should look like:
 6. Give the file a name that reflects the game. In this example: Vampire vs Pope Army.png
 7. Save the game into `retrodeck/roms/pico8/` 
 8. It can now be launched from ES-DE.
+
+---

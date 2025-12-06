@@ -70,7 +70,10 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 ## Does Dolphin require BIOS or Firmware?
 
-Optional `IPL.bin` for GameCube boot intros.
+ File Name | Required For | Description |
+|-----------|--------------|-------------|
+| `IPL.bin` | GameCube boot animation (optional) | Contains the GameCube system BIOS used to display the original startup intro and system menu before launching a game. |
+
 
 ### Where to put the GameCube BIOS?
 
@@ -82,8 +85,11 @@ Dolphin looks for the `IPL.bin` in the save folders. Put each region's `IPL.bin`
 | GameCube Saves US  | `retrodeck/saves/gc/dolphin/US/`    | `var/data/dolphin-emu/GC/USA/`  | `dolphin-emu/GC/USA/`          |         |
 | GameCube Saves JP  | `retrodeck/saves/gc/dolphin/JP/`    | `var/data/dolphin-emu/GC/JAP/`  | `dolphin-emu/GC/JAP/`          |         |
 
+---
 
 ## Folder structure
+
+---
 
 ### Dolphin
 
@@ -101,6 +107,8 @@ This shows what folder corresponds to each folder in the standard Dolphin struct
 | States             | `retrodeck/states/dolphin/`         | `var/data/dolphin-emu/StateSaves/` | `dolphin-emu/StateSaves/`      |         |
 | Texture Packs      | `retrodeck/mods/Dolphin/`           | `var/data/dolphin-emu/Load/Textures/` | `dolphin-emu/Load/Textures/`   |         |
 | Wii Saves          | `retrodeck/saves/wii/dolphin/`      | `var/data/dolphin-emu/Wii/`     | `dolphin-emu/Wii/`             |         |
+
+---
 
 ### PrimeHack
 
@@ -149,7 +157,7 @@ This shows what folder corresponds to each folder in the standard PrimeHack stru
 
 ---
 
-## How-to: Add Mods
+## Adding Mods
 
 The `~/retrodeck/mods/dolphin/` / `~/retrodeck/mods/primehack/` that represents the `/load/GraphicMods` folder.
 
@@ -182,7 +190,7 @@ If all is correct the mods should be loaded on next game launch.
 
 ---
 
-## How-to: Add Texture Packs?
+## Adding Texture Packs
 
 The `~/retrodeck/texture_packs/dolphin/` & `~/retrodeck/texture_packs/primehack/` represents the `/load/Textures` folder.
 
@@ -278,11 +286,13 @@ Tilt emulation is made possible by holding the `L2` button and moving the `Right
 
 ---
 
-## Guide: Using Real Wii Remotes 
+## Using Real Wii Remotes 
 
 How-to use Real Wii Remotes and Nunchuck hardware?
 
-**Read more here:** [Using Real Wii Remotes](dolphin-wii-remote.md)
+**Read more here:** 
+
+- [Using Real Wii Remotes](dolphin-wii-remote.md)
 
 ---
 

@@ -4,9 +4,13 @@
 
 Ryubing is Switch emulator. 
 
+---
+
 ## Where to put the games?
 
 Switch games should be put into the `retrodeck/roms/switch/` directory.
+
+---
 
 ## What file formats are supported?
 
@@ -18,6 +22,7 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 | .nso        | Nintendo Switch Executable |
 | .nro        | Nintendo Switch Homebrew |
 
+---
 
 ## Does Ryubing require BIOS or Firmware?
 
@@ -54,6 +59,8 @@ Or you can put them anywhere as they need to be installed via:
 
 `RetroDECK Configurator` ->  `Open Emulator` -> `ryubing` ->  `Tools` -> `Install Firmware` -> `Install from XCI or ZIP`
 
+---
+
 ## Folder structure
 
 | Type    | Folder                 |          Comment     | 
@@ -64,18 +71,21 @@ Or you can put them anywhere as they need to be installed via:
 | Alternate Keys Folder | `~/.var/app/net.retrodeck.retrodeck/config/ryubing/system/` |  |
 | Mods  Folder | `~/.var/app/net.retrodeck.retrodeck/config/ryubing/mods/` |  |
 
+---
 
-## How-to: Add Game Patches
+## Adding Game Patches
 
 From within ryubing `Right Click` on a game and select `Manage Title Updates` and then navigate to the update files you would like to install and press `Save`.
 
+---
 
-## How-to: Add DLC
+## Adding DLC
 
 From within ryubing `Right Click` on a game and select `Manage DLC` and then navigate to the update files you would like to install and press `Save`.
 
+---
 
-## How-to: Add Mods
+## Adding Mods
 
 From within ryubing `Right Click` on a game and select `Open Mods Directory` and put the mods you need in it's correct folder then go back to enable via the interface.
 
@@ -85,3 +95,4 @@ The current mapping for the mods directory is:
 
 You can also manged the mods by `Right Click` on a game and select `Manage Mods`
 
+---

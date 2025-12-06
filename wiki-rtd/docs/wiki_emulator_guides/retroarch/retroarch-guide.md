@@ -64,9 +64,12 @@ A general guideline is to use compressed formats:
 
 ## Does RetroArch require BIOS or Firmware?
 
-It depends on the core.
+It depends on the core, check the links for the most up-to-date information.
 
-Check each system on the `RetroArch Docs` and the `ES-DE User Guide` for the latest information (above). 
+**Read more:** 
+
+- [RetroArch - BIOS Guide](https://docs.libretro.com/library/bios/)
+- [ES-DE User Guide: Supported Game Systems](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#supported-game-systems)
 
 ---
 
@@ -410,10 +413,12 @@ The following cores support the `Rewind` function.
 
 ## How-to: Enable AI Translation in RetroArch 
 
-- Open RetroDeck Configurator → launch RetroArch → Settings.
-- Enable AI Service: Settings → AI Service → AI Service Enabled = ON.
-- Set Service URL: Settings → AI Service → Service URL → paste a working endpoint (e.g., ZTranslate URL). Ensure RetroArch can reach the endpoint (same network, correct port).
-- Choose output: Settings → AI Service → Output → select Text Overlay, Widgets, Narrator, or any combination.
-- Bind a hotkey: Settings → Input → Hotkey Binds → assign a button for AI Service.
-- Test: load a game, press the hotkey on a text screen → translation appears; press again to clear.
-- Save: Settings → Configuration → Save Current Configuration.
+1. **Launch RetroArch** via RetroDeck Configurator.  
+2. **Enable AI Service:** `Settings → AI Service → AI Service Enabled = ON`.  
+3. **Set Service URL:** `Settings → AI Service → Service URL` → paste a working endpoint (e.g., ZTranslate). Ensure network access.  
+4. **Choose Output:** `Settings → AI Service → Output` → select Text Overlay, Widgets, Narrator, or a combination.  
+5. **Bind Hotkey:** `Settings → Input → Hotkey Binds` → assign a button for AI activation.  
+6. **Test:** Load a game, press hotkey to show translation; press again to clear.  
+7. **Save Configuration:** `Settings → Configuration → Save Current Configuration`.
+
+---

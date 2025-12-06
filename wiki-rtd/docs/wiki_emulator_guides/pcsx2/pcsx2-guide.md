@@ -22,6 +22,8 @@ PCSX2 is a free and open-source PlayStation 2 (PS2) emulator.
 
 Playstation 2 games should be put under the `retrodeck/roms/ps2/` directory.
 
+---
+
 ## What file formats are supported?
 
 | File Format | Description |
@@ -30,11 +32,25 @@ Playstation 2 games should be put under the `retrodeck/roms/ps2/` directory.
 | .bin + .cue | Binary disc image file with cue sheet |
 | .chd        | Compressed Hunks of Data **(Recommended)** |
 
+---
+
 ## Does PCSX2 require BIOS or Firmware?
 
-Yes check the:
+Yes, there exists several PS2 BIOS from different regions and hardware versions.
 
-[PCSX2 - BIOS Guide](https://pcsx2.net/docs/setup/bios/)
+You need at least one.
+
+
+| Region       | Typical BIOS Region / Use Case         |
+|--------------|----------------------------------------|
+| NTSC‑U (USA / North America) | Used for North American PS2 games (60 Hz, NTSC format) |
+| PAL (Europe / Australia)      | Used for European / PAL‑region games (50 Hz) |
+| NTSC‑J (Japan / Asia)         | Required for Japanese PS2 games and imports (NTSC format)|
+
+
+**Read more here:** 
+
+- [PCSX2 - BIOS Guide](https://pcsx2.net/docs/setup/bios/)
 
 
 ### Where to put the PSX BIOS?
@@ -42,6 +58,8 @@ Yes check the:
 Directly into the folder
 
 `retrodeck/bios/`
+
+---
 
 
 ## Folder structure
@@ -55,8 +73,9 @@ Directly into the folder
 | BIOS Folder | `retrodeck/bios/` ||
 | Texture Pack Folder |`retrodeck/texture_packs/PCSX2/` |  Represents `PCSX2/textures/`    |
 
+---
 
-## How-to: Emulate the Multitap?
+## Emulate the Multitap
 
 Multitap is a way to have up to 8 players on the Playstation 2, by hooking 4 players in each controller port.
 
@@ -67,7 +86,9 @@ Most games do not support this feature and some might not even work with it enab
 3. Enable/disable Multitap by clicking the checkbox for either Port 1, Port 2 or both.
 4. Several new controllers called 1A to 1D and 2A to 2D will be enabled to map.
 
-## How-to: Emulate in the EyeToy?
+---
+
+## Emulate the EyeToy
 
 You need to have a `USB Webcam` connected or an `Integrated Webcam`.
 
@@ -75,7 +96,9 @@ You need to have a `USB Webcam` connected or an `Integrated Webcam`.
 2. Go to `Settings` -> `Controllers` -> Select `USB Port` -> Select `Webcam (EyeToy)` from the Dropdown list -> Select the `Device Name` of your connected Camera from the Dropdown list.
 
 
-##  Change in-game language or system language
+---
+
+## Configuring Language Settings
 
 ### PCSX2 Interface
 
@@ -96,7 +119,9 @@ Normally it should follow your system locale if supported by PCSX2
 6. Close the BIOS go back to `Settings` -> `BIOS` -> `Options and Patches` and check `Fast Boot` checkbox again.
 7. Close `PCSX2`.
 
-## How to add texture packs?
+---
+
+## Adding texture packs
 
 The `~/retrodeck/texture_packs/PCSX2/` represents the `/PCSX2/textures/` folder in PCSX2.
 
@@ -131,3 +156,5 @@ You can either enable textures globally or per game.
 3. Find the correct `TITLEID` that mactches your game.
 4. Move textures into the right `~/retrodeck/texture_packs/PCSX2/<TITLEID>` folder.
 5. If the textures match the game they should be loaded on next time you launch the game.
+
+---

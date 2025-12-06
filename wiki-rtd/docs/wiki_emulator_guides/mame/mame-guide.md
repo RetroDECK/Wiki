@@ -24,6 +24,8 @@ MAME’s purpose is to preserve decades of software history. As electronic techn
 
 Games that you want to run with MAME should be put under the `retrodeck/roms/mame/` (recommended) or `retrodeck/roms/arcade/` directory.
 
+---
+
 ## What file formats are supported?
 
 | File Format | Description |
@@ -31,13 +33,15 @@ Games that you want to run with MAME should be put under the `retrodeck/roms/mam
 | .zip        | Compressed archive file |
 | .chd        | Compressed Hunks of Data |
 
+---
+
 ## Does MAME require BIOS or Firmware?
 
 Yes, it depends on the game.
 
 You can do a detailed search over at:
 
-[Arcadeitalia - Mame List](http://adb.arcadeitalia.net/lista_mame.php)
+- [Arcadeitalia - Mame List](http://adb.arcadeitalia.net/lista_mame.php)
 
 ### Where to put the PSX BIOS?
 
@@ -51,9 +55,11 @@ For some ROMs it needs to be in the same folder as the roms
 
 It all depends on the game.
 
-## MAME Standalone Folders
+---
 
-MAME Standalone comes with several folders for various assets and files.
+## MAME Folders
+
+MAME comes with several folders for various assets and files.
 
 ### Configuration Folders
 
@@ -69,6 +75,8 @@ Where different types of configurations are stored
 | INI |`~/.var/app/net.retrodeck.retrodeck/config/mame/ini` |  This is where `ui.ini` and `mame.ini` files are located. But they should not be touched unless you know what you are doing.  |
 | INP |`~/.var/app/net.retrodeck.retrodeck/config/mame/inp` |  |
 
+---
+
 ### Data Folders
 
 Where different types of validation data and plugins are stored
@@ -81,6 +89,8 @@ Where different types of validation data and plugins are stored
 | Hash |`~/.var/app/net.retrodeck.retrodeck/data/mame/hash` |  |
 | Plugin-Data |`~/.var/app/net.retrodeck.retrodeck/data/mame/plugin-data`|  |
 | Plugins |`~/.var/app/net.retrodeck.retrodeck/data/mame/plugins`|  |
+
+---
 
 ### Asset Folders
 
@@ -114,11 +124,15 @@ Where different types of art assets and metadata are stored
 | UI |`~/.var/app/net.retrodeck.retrodeck/data/mame/assets/ui`|    |
 | Versus |`~/.var/app/net.retrodeck.retrodeck/data/mame/assets/versus`|    |
 
+---
+
 ## Maintaining ROM Sets
 
 As MAME updates, so do the ROM Sets. It's important to use the same ROM Set as the current version shipped with RetroDECK.
 
 Read more on: [MAME - Maintaning ROM Sets](https://docs.mamedev.org/usingmame/aboutromsets.html)
+
+---
 
 ## How-to enable cheats?
 
@@ -132,6 +146,8 @@ To enable cheats:
 
 When you launch a game, open the `Quick Menu` and go to the `Cheat Menu` to toggle cheats for that game.
 
+---
+
 ## Applying effects such as Shaders and Scanlines
 
 First read up on BGFX effects on [BGFX MAMEdev](https://docs.mamedev.org/advanced/bgfx.html)
@@ -140,3 +156,5 @@ First read up on BGFX effects on [BGFX MAMEdev](https://docs.mamedev.org/advance
 2. Open the `mame.ini` with your text editor of choice.
 3. Find `OSD VIDEO OPTIONS` and edit the value: `video` from `opengl` to `bgfx`.
 4. Find `GFX POST-PROCESSING OPTIONS` and edit the value: `bgfx_screen_chains` from `nothing` to `<yourchoice>` from the BGFX link. Example value from MAME: `bgfx_screen_chains`: `crt-geom`,`pillarbox_left_horizontal`,`pillarbox_right_horizontal`.
+   
+---

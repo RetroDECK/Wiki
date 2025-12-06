@@ -19,7 +19,10 @@ A free and open-source application that emulates the original Microsoft Xbox gam
 ---
 
 ## Where to put the games
+
 Xbox games should be put under the `retrodeck/roms/xbox/` directory.
+
+---
 
 ## What file formats are supported?
 
@@ -31,12 +34,17 @@ Xbox games should be put under the `retrodeck/roms/xbox/` directory.
 
 Read more here: [xemu - Disc Images ](https://xemu.app/docs/disc-images/)
 
+---
+
 ## Does xemu require BIOS or Firmware?
 
-```
-mcpx_1.0.bin
-Complex_4627v1.03.bin
-```
+Yes
+
+| File Name | Description |
+|-----------|-------------|
+| `mcpx_1.0.bin` | Main Xbox MCPX (Media Communications Processor) firmware. |
+| `Complex_4627v1.03.bin` | Xbox security/complex firmware required for system initialization and game compatibility. |
+
 
 ### Where to put the BIOS and Firmware?
 
@@ -44,9 +52,7 @@ Directly into the folder
 
 `retrodeck/bios/`
 
-**Example:**
-
-`retrodeck/bios/mcpx_1.0.bin`
+---
 
 ## Folder structure
 
@@ -57,6 +63,8 @@ Directly into the folder
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/xemu/`         |   `xemu.toml` , shaders folder, shader_cache_list|
 | Shaders Folder |`~/.var/app/net.retrodeck.retrodeck/config/xemu/shaders/`         |   |
 | Data Folder |`~/.var/app/net.retrodeck.retrodeck/data/xemu/`         |   |
+
+---
 
 ## Guide - Enable Multiplayer 
 
@@ -75,6 +83,11 @@ Player 2: Steam Virtual Gamepad 2
 Player 3: Steam Virtual Gamepad 3
 Player 4: Steam Virtual Gamepad 4
 ```
+
+---
+
 ## LithiumX - Xbox Manager
 
 [LithiumX](https://github.com/Ryzee119/LithiumX) is a simple dashboard Xbox Manger with various features. It can allow you to browse your savefiles and have other features.
+
+---

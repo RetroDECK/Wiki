@@ -22,6 +22,8 @@ Cemu is a Wii U emulator that is able to run most Wii U games and homebrew.
 
 WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 
+---
+
 ## What file formats are supported?
 
 | File Format | Description |
@@ -31,17 +33,22 @@ WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 | .wua        | Decrypted Wii U disc image **(Recommended)** |
 | .rpx        | Wii U executable file |
 
+---
+
 ## Does Cemu require BIOS or Firmware?
 
-Yes, `keys.txt` if the file format is encrypted.
-
-`otp.bin` and `seeprom.bin` if you want to play Online.
+| File Name        | Required For                       | Description |
+|------------------|------------------------------------|-------------|
+| `keys.txt`       | Running encrypted game files        | Contains the necessary decryption keys that allow Cemu to load and run encrypted Wii U titles. |
+| `otp.bin`        | Online functionality (optional)     | A system dump containing one-time programmable console data used to properly emulate online services. |
+| `seeprom.bin`    | Online functionality (optional)     | Stores console-specific data needed for accurate online communication and identity emulation. |
 
 ### Where to put the BIOS / Firmware files?
 
-`~/.var/app/net.retrodeck.retrodeck/data/Cemu`
+`retrodeck/bios/cemu`
 
-This will be changed in a later update to the `retrodeck/bios/cemu` folder.
+
+---
 
 ## Folder structure
 
@@ -53,7 +60,11 @@ This will be changed in a later update to the `retrodeck/bios/cemu` folder.
 | BIOS Folder | `retrodeck/bios/Cemu` | Contains `usr` and `sys` folders |
 | Data Folder |`~/.var/app/org.retrodeck.retrodeck/data/Cemu` |     |
 
-## Guide - How to install DLC and Updates
+
+---
+
+
+## How to install DLC and Updates
 
 **NOTE:**
 
@@ -67,7 +78,9 @@ Do not keep DLC and Update files in: `retrodeck/roms/wiiu/`
 4. Choose the DLC or Update file and press `Open` and it will install.
 5. Repeat for each DLC / Update you want to install.
 
-## Guide - How make .wua files and install the games
+---
+
+## How make .wua files and install the games
 
 **NOTE:** 
 
@@ -83,6 +96,8 @@ Do not keep DLC and Update files in: `retrodeck/roms/wiiu/`
 5. Verify in the prompt that everything you want is there: base game, updates and DLC.
 6. Select the output target folder: `retrodeck/roms/wiiu/`.
 
+
+---
 
 ## Pretendo Account for online play
 
@@ -110,10 +125,5 @@ To create a Pretendo Network account.
 - `otp.bin` and `seeprom.bin`:
     - Located at `~/.var/app/org.retrodeck.retrodeck/data/Cemu`.
 
-## Known issues
-    
-### Certain UI elements of emulators GUI are cramped / outside of the screen on the Steam Deck
+---
 
-Check the following link for `Certain UI elements of emulators GUI are cramped / outside of the screen`:
-
-[Known Issues](../../wiki_general/known-issues.md) 

@@ -48,6 +48,12 @@ Azahar does not support the following file formats:
 
 ---
 
+## Does Azahar require BIOS or Firmware?
+
+No
+
+---
+
 ## Folder structure
 
 | Type    | Folder                 |          Comment     | 

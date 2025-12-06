@@ -140,7 +140,7 @@ Read more on: [MAME - Maintaning ROM Sets](https://docs.mamedev.org/usingmame/ab
 
 ---
 
-## Enable Chseats
+## Enable Cheats
 
 RetroDECK already includes the cheat file from [Pugsy's Cheats](https://www.mamecheat.co.uk/) in the cheat folder.
 

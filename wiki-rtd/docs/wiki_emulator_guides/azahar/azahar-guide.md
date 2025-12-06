@@ -170,3 +170,5 @@ Follow the steps below to change the UI language in Azahar:
 - [CTRPF-AR-CHEAT-CODES](https://github.com/iSharingan/CTRPF-AR-CHEAT-CODES)
 - [Sharkive](https://github.com/FlagBrew/Sharkive/tree/master/3ds)
 - [GBATEMP: Action Replay](https://gbatemp.net/threads/ctrpluginframework-blank-plugin-now-with-action-replay.487729/)
+
+---

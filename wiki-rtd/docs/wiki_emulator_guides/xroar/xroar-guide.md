@@ -1,6 +1,6 @@
 # XRoar  - General Guide
 
-<img src="../../../wiki_images/logos/xroar-tano64-logo.jpg" width="100">
+<img src="../../../wiki_images/logos/xroar-tano64-logo.jpg" width="200">
 
 XRoar is a Dragon and Tandy computer series emulator.
 

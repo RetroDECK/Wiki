@@ -30,6 +30,8 @@ PS3 games should be put under the `retrodeck/roms/ps3/` folder.
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 | File Format | Description |
 |-------------|-------------|
 | .desktop    | Desktop entry file **(Recommended)** |
@@ -39,6 +41,8 @@ PS3 games should be put under the `retrodeck/roms/ps3/` folder.
 ---
 
 ## Does RPCS3 require BIOS or Firmware?
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
 Yes, the `PS3UPDAT.PUP` firmware needs to be installed in the emulator.
 
@@ -65,6 +69,8 @@ There are two ways to install the firmware:
 ---
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

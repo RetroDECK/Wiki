@@ -26,6 +26,8 @@ XRoar games should be put in the following directories
 
 ## Does XRoar require BIOS or Firmware?
 
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+
 Yes, you'll need the BIOS for the computer you're emulating. Some operating systems and even certain programs might also require their own BIOS files.
 
 Check the following links for finding the right BIOS:
@@ -52,6 +54,8 @@ Directly into the folder
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 | File Format | Description |
 |-------------|-------------|
 | .cas  | Cassette / tape images |
@@ -62,6 +66,8 @@ Directly into the folder
 ---
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |      Comment     | 
 |  :---:  |  :---:                 |      :---:     |

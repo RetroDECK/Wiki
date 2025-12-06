@@ -32,6 +32,8 @@ PSP games should be put under the `retrodeck/roms/psp/` directory.
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 
 | File Format | Description |
 |-------------|-------------|
@@ -46,11 +48,15 @@ PSP games should be put under the `retrodeck/roms/psp/` directory.
 
 ## Does PPSSPP require BIOS or Firmware?
 
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+
 No
 
 ---
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

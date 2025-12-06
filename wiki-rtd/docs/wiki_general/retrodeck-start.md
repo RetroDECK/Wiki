@@ -41,11 +41,11 @@ You will need:
 
 ---
 
-### **RetroDECK Installation**
+## **RetroDECK Installation**
 
-Choose your path!
+*Choose your path, adventurer! The fates wait for no one.*
 
-#### Steam Deck
+### Steam Deck
 
 <img src="../../wiki_icons/pixelitos/steam.png" width="50"> 
 
@@ -53,10 +53,14 @@ Choose your path!
 
 [Steam Deck - Installation](../wiki_devices/steamdeck/steamdeck-start.md)
 
-#### Linux Desktop (HTPCs / Gaming PCs / PC-Consoles)
+---
+
+### Linux Desktop (HTPCs / Gaming PCs / PC-Consoles)
 
 <img src="../../wiki_icons/pixelitos/linux.png" width="50">
 
 **Read more:**
 
 [Linux Desktop - Installation](../wiki_devices/linux_desktop/linux-install.md)
+
+---

@@ -14,6 +14,8 @@ Citra was a Switch emulator and was removed as part of the `0.8.0b` update.
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 | File Format | Description |
 |-------------|-------------|
 | .3ds        | Nintendo 3DS ROM file |
@@ -28,10 +30,14 @@ Citra was a Switch emulator and was removed as part of the `0.8.0b` update.
 
 ## Does Citra require BIOS or Firmware?
 
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+
 Yes, if the games are encrypted then keyfiles are needed: `aes_keys.txt`
 
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

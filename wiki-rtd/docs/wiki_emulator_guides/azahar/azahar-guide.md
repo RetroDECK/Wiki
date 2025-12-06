@@ -26,6 +26,8 @@ Azahar is a Nintendo 3DS Emulator.
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 | File Format | Description |
 |-------------|-------------|
 | .app        | Nintendo 3DS application file |
@@ -50,11 +52,15 @@ Azahar does not support the following file formats:
 
 ## Does Azahar require BIOS or Firmware?
 
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+
 No
 
 ---
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

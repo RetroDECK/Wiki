@@ -49,6 +49,8 @@ The `ES-DE User Guide` (above) has an always updated list on what subfolder unde
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 Different for each system / core.
 
 Check each system on the `RetroArch Docs` and the `ES-DE User Guide` for the latest information (above). 
@@ -64,6 +66,8 @@ A general guideline is to use compressed formats:
 
 ## Does RetroArch require BIOS or Firmware?
 
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+
 It depends on the core, check the links for the most up-to-date information.
 
 **Read more:** 
@@ -74,6 +78,8 @@ It depends on the core, check the links for the most up-to-date information.
 ---
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

@@ -14,7 +14,9 @@ Read more on:
 - [Arch Wiki](https://wiki.archlinux.org/title/udev)
 - [Wikipedia](https://en.wikipedia.org/wiki/Udev)
 
-## Folder Structure
+## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 
 | Folder                     |      Comment     | 

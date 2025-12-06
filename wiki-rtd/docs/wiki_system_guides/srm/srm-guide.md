@@ -36,6 +36,8 @@ If your game filenames contain any of the unsafe symbols, consider renaming them
 ---
 
 ## Folder structure
+🌟
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
@@ -48,9 +50,9 @@ If your game filenames contain any of the unsafe symbols, consider renaming them
 
 ## Enable Steam Sync
 
-Games marked as favorites in ES-DE (with a ⭐ or another icon depending on theme) will sync to Steam with their artwork when you exit the application. They will appear in Steam after you restart it.
+Games marked as favorites in ES-DE (with a 🌟 or another icon depending on theme) will sync to Steam with their artwork when you exit the application. They will appear in Steam after you restart it.
 
-### Step 1: Mark games as ⭐ favorites in ES-DE
+### Step 1: Mark games as 🌟 favorites in ES-DE
 
 <img src="../es-de-favorite.png" width="800">
 
@@ -141,7 +143,7 @@ If games don't sync check the following:
 
 The Steam Sync feature can be used to add RetroDECK doom files. 
 
-To add the `.doom` files, simply mark them as ⭐ favorites in ES-DE, and `Steam Sync` will pick them up.
+To add the `.doom` files, simply mark them as 🌟 favorites in ES-DE, and `Steam Sync` will pick them up.
 
 
 **Search if the mod has art**

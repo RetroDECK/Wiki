@@ -28,6 +28,8 @@ NDS games should be put under the `retrodeck/roms/nds/` directory.
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 
 | File Format | Description |
 |-------------|-------------|
@@ -38,6 +40,8 @@ NDS games should be put under the `retrodeck/roms/nds/` directory.
 ---
 
 ## Does MelonDS require BIOS or Firmware?
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
 MelonDS can run without BIOS or firmware files, but including them improves accuracy and compatibility. 
 
@@ -70,6 +74,8 @@ Directly into the folder
 ---
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |      Comment     | 
 |  :---:  |  :---:                 |      :---:     |

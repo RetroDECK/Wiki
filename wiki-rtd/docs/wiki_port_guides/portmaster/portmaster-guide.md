@@ -36,6 +36,8 @@ PortMaster does not require BIOS or Firmware but depending on the game you might
 
 ## Folder structure
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
 | Launch Scripts Folder | `retrodeck/roms/portmaster/`   |  This contains the auto generated launch scripts for ES-DE as `.sh` files.   |

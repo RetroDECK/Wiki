@@ -28,6 +28,8 @@ Games that you want to run with MAME should be put under the `retrodeck/roms/mam
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 | File Format | Description |
 |-------------|-------------|
 | .zip        | Compressed archive file |
@@ -36,6 +38,8 @@ Games that you want to run with MAME should be put under the `retrodeck/roms/mam
 ---
 
 ## Does MAME require BIOS or Firmware?
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
 Yes, it depends on the game.
 
@@ -58,6 +62,8 @@ It all depends on the game.
 ---
 
 ## MAME Folders
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 MAME comes with several folders for various assets and files.
 

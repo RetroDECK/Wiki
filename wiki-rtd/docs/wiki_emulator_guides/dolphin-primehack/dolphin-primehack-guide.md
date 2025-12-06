@@ -43,7 +43,9 @@ Should be put under the `retrodeck/roms/gc/` directory.
 
 Should be put under the `retrodeck/roms/wii/` directory.
 
-## What file formats does Dolphin / Primehack support?
+## What file formats are supported?
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
 
 | File Format | Description |
 |-------------|-------------|
@@ -70,6 +72,8 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 ## Does Dolphin require BIOS or Firmware?
 
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+
  File Name | Required For | Description |
 |-----------|--------------|-------------|
 | `IPL.bin` | GameCube boot animation (optional) | Contains the GameCube system BIOS used to display the original startup intro and system menu before launching a game. |
@@ -88,6 +92,8 @@ Dolphin looks for the `IPL.bin` in the save folders. Put each region's `IPL.bin`
 ---
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 ---
 

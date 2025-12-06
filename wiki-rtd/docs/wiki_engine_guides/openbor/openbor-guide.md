@@ -22,13 +22,17 @@ OpenBOR games should be put under the `retrodeck/roms/openbor/` directory.
 
 ---
 
-## Does OpenBOR Require BIOS or Firmware?
+## Does OpenBOR require BIOS or Firmware?
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
 No, OpenBOR games are self-contained.
 
 ---
 
 ## What file formats are supported?
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
 
 | File Format | Description |
 |-------------|-------------|
@@ -43,6 +47,8 @@ No, OpenBOR games are self-contained.
 ---
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type       | Folder                     | Comment |
 |:---------:|:---------------------------|:-------|

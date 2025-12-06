@@ -47,7 +47,9 @@ flatpak override --user --talk-name=org.freedesktop.Flatpak net.retrodeck.retrod
 
 We also recommend that you add RetroDECK to Steam to utilize Steam Input if you need to rebind the system hotkeys manually.
 
-## Folder Structure
+## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 The Flatpak paths for RetroDECK vary based on how you installed it. You can install it as either a system or user application.
 

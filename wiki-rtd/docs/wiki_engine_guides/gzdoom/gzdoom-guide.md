@@ -48,6 +48,8 @@ DOOM games should be put under the `retrodeck/roms/doom/` directory.
 
 ## Does GZDOOM require BIOS or Firmware?
 
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+
 No, but will need copies of DOOM. 
 
 ### Where to buy official DOOM?
@@ -81,6 +83,8 @@ It is designed to be compatible with most custom levels, music, graphics, and ot
 
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

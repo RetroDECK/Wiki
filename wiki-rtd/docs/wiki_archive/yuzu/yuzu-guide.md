@@ -14,6 +14,8 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 | File Format | Description |
 |-------------|-------------|
 | .xci        | Nintendo Switch Cartridge Image |
@@ -24,6 +26,8 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 
 ## Does Yuzu require BIOS or Firmware?
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
 Yes, `prod.keys` `title.keys` and `.nca` files.
 

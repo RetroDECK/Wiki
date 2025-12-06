@@ -28,11 +28,15 @@ Solarus games should be put under the `retrodeck/roms/solarus/` directory.
 
 ## Does Solarus require BIOS or Firmware?
 
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+
 No
 
 ---
 
-## What file format is supported?
+## What file formats are supported?
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
 
 | File Format | Description |
 |-------------|-------------|
@@ -41,6 +45,8 @@ No
 ---
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

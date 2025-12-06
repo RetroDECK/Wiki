@@ -26,6 +26,8 @@ Playstation 2 games should be put under the `retrodeck/roms/ps2/` directory.
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 | File Format | Description |
 |-------------|-------------|
 | .iso        | Standard ISO disc image |
@@ -35,6 +37,8 @@ Playstation 2 games should be put under the `retrodeck/roms/ps2/` directory.
 ---
 
 ## Does PCSX2 require BIOS or Firmware?
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
 Yes, there exists several PS2 BIOS from different regions and hardware versions.
 
@@ -63,6 +67,8 @@ Directly into the folder
 
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

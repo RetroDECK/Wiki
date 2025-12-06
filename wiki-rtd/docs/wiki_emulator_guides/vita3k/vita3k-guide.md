@@ -29,6 +29,8 @@ Vita3K games should be put into the `retrodeck/roms/psvita/` directory.
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 | File Format | Description |
 |-------------|-------------|
 | .psvita        | PSVita file |
@@ -36,6 +38,8 @@ Vita3K games should be put into the `retrodeck/roms/psvita/` directory.
 ---
 
 ## Does Vita3K require BIOS or Firmware?
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
 Yes, it requires two firmwares. 
 
@@ -77,6 +81,8 @@ To play many commercial PSVita games, Vita3K requires license files or keys:
 ---
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

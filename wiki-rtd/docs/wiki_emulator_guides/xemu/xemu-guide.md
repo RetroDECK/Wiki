@@ -26,6 +26,8 @@ Xbox games should be put under the `retrodeck/roms/xbox/` directory.
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 | File Format | Description |
 |-------------|-------------|
 | .iso (formatted as xiso) | Standard ISO disc image formatted as Xbox ISO |
@@ -37,6 +39,8 @@ Read more here: [xemu - Disc Images ](https://xemu.app/docs/disc-images/)
 ---
 
 ## Does xemu require BIOS or Firmware?
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
 Yes
 
@@ -56,6 +60,8 @@ Directly into the folder
 
 ## Folder structure
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+
 | Type    | Folder                 |      Comment     | 
 |  :---:  |  :---:                 |      :---:     |
 | Saves Folder |`retrodeck/saves/xbox/xemu/` |                               |  
@@ -66,7 +72,7 @@ Directly into the folder
 
 ---
 
-## Guide - Enable Multiplayer 
+## Enable Multiplayer 
 
 <img src="../xemu-input-menu.png" width="600">
 

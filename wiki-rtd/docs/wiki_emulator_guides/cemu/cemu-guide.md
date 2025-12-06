@@ -26,6 +26,8 @@ WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 | File Format | Description |
 |-------------|-------------|
 | .wud        | Encrypted Wii U disc image |
@@ -36,6 +38,8 @@ WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 ---
 
 ## Does Cemu require BIOS or Firmware?
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
 | File Name        | Required For                       | Description |
 |------------------|------------------------------------|-------------|
@@ -51,6 +55,8 @@ WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 ---
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

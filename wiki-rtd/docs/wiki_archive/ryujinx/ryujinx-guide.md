@@ -18,6 +18,8 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 ## What file formats are supported?
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 | File Format | Description |
 |-------------|-------------|
 | .xci        | Nintendo Switch Cartridge Image |
@@ -28,6 +30,8 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 
 ## Does Ryujinx require BIOS or Firmware?
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
 Yes, `prod.keys` `title.keys` and `.nca` files.
 
@@ -63,6 +67,8 @@ Or you can put them anywhere as they need to be installed via:
 `RetroDECK Configurator` ->  `Open Emulator` -> `Ryujinx` ->  `Tools` -> `Install Firmware` -> `Install from XCI or ZIP`
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

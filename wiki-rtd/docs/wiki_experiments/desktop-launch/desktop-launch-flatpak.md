@@ -35,6 +35,8 @@ Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you
 
 ## Folder structure
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
 | Desktop Roms Folder | `retrodeck/roms/desktop/`   |  |

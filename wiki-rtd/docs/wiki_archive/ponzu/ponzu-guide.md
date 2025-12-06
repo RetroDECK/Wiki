@@ -12,6 +12,8 @@ If you do a Factory Reset of RetroDECK, you will need to repeat the Ponzu proces
 
 ## Folder structure
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
 | Ponzu Folder | `retrodeck/ponzu/`   | Temporary folder, manually created |

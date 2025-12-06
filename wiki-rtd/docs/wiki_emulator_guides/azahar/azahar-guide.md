@@ -6,7 +6,7 @@ Azahar is a Nintendo 3DS Emulator.
 
 ---
 
-### Cemu Links:
+### Azahar Links:
 
 [Azahar Webpage](https://azahar-emu.org/)
 
@@ -22,6 +22,8 @@ Azahar is a Nintendo 3DS Emulator.
 
 3DS games should be put under the `retrodeck/roms/3ds/` directory.
 
+---
+
 ## What file formats are supported?
 
 | File Format | Description |
@@ -34,6 +36,17 @@ Azahar is a Nintendo 3DS Emulator.
 | .7z         | Compressed archive file |
 | .zip        | Compressed archive file |
 
+### Unsupported File Formats in Azahar
+
+Azahar does not support the following file formats:
+
+| File Format | Description |
+|-------------|-------------|
+| `.3ds`      | Legacy Nintendo 3DS ROM format (requires conversion to `.cci` for use) |
+| `.3dsx`     | Homebrew executable format for 3DS (requires conversion to `.cci` for use) |
+| Encrypted ROMs | Any encrypted game dump; must be decrypted |
+
+---
 
 ## Folder structure
 
@@ -47,7 +60,9 @@ Azahar is a Nintendo 3DS Emulator.
 | Mods Folder |`retrodeck/mods/azahar/` |     |
 | Texture Packs Folder |`retrodeck/texture_packs/azahar/`|     |
 
-## Guide - Adding mods
+---
+
+## Adding mods
 
 **Note:**<br>
 
@@ -61,7 +76,7 @@ There are two ways of adding mods into Azahar
 ### Add mods from Azahar
 
 1. Extract any mod from compressed `.zip` or any other format to folders.
-2. Open up Azahar inside `RetroDECK Configurator` by pressing `Open Emulator` - `Azahar`.
+2. Open up Azahar inside `RetroDECK Configurator` by pressing `Open Component` - `Azahar`.
 3. Right click on the game you want to add mods into.
 4. Click on `Open Mods Location`.
 5. Paste the mod files inside that directory, each folder is stored by the `TITLLEID` of the game.
@@ -73,8 +88,9 @@ There are two ways of adding mods into Azahar
 2. Go into `~/retrodeck/mods/azahar/`. The folders are all named by `TITLEID`.
 3. Past the mods into the right `~/retrodeck/mods/yuzu/<TITLEID>` folder.
 
+---
 
-## Guide - Adding texture packs
+## Adding texture packs
 
 **Note:** <br>
 
@@ -89,13 +105,13 @@ There are two ways of adding texture packs into Azahar
 
 ### Enable Custom Textures
 
-1. Open up Azahar inside `RetroDECK Configurator` by pressing `Open Emulator` - `Azahar`.
+1. Open up Azahar inside `RetroDECK Configurator` by pressing `Open Component` - `Azahar`.
 2. Press `Emulation` -> `Configure` -> `Graphics` -> `Use Custom Textures` and set it to `On`.
 
 ### Add texture packs from Azahar
 
 1. Extract any texture files from compressed `.zip` or any other format to folders.
-2. Open up Azahar inside `RetroDECK Configurator` by pressing `Open Emulator` - `Azahar`.
+2. Open up Azahar inside `RetroDECK Configurator` by pressing `Open Component` - `Azahar`.
 3. Right click on the game you want to add textures into.
 4. Click on `Open Custom Textures Location`.
 5. Paste the texture folders inside that directory, each folder is stored by the `TITLLEID` of the game.
@@ -112,3 +128,25 @@ There are two ways of adding texture packs into Azahar
 * You have a `.zip` file for a game that contains the `/load/textures/0000001000` folders.
 * All you need to do is take the TITLEID folder: `0000001000` and put it into `~/retrodeck/texture_packs/azahar/`
 * So the end result looks like: `~/retrodeck/texture_packs/azahar/0000001000`
+
+---
+
+## Configuring Language Settings
+
+Follow the steps below to change the UI language in Azahar:
+
+1. Open up Azahar inside `RetroDECK Configurator` by pressing `Open Component` - `Azahar`.
+2. Press `Emulation` -> `Configure` -> `Graphics` -> `General` -> `UI`.
+3. In the UI Tab under `General`, choose the language from the dropdown menu.
+
+--- 
+
+
+## Adding and Enabling Cheats
+
+1. Open up Azahar inside `RetroDECK Configurator` by pressing `Open Component` - `Azahar`.
+2. Right-click the game you want to modify and select `Properties`.  
+3. Go to  `Cheats` -> press `Add Cheat`.  
+4. Enter a `Name` for the cheat, then paste the cheat code into the `Code` field.  
+5. Click `Save` and enable the cheat by checking the box in the `Available Cheats` pane.
+6. Press OK and and Quit Azahar.

@@ -46,7 +46,7 @@ If your game filenames contain any of the unsafe symbols, consider renaming them
 ---
 
 
-## How-to: Enable Steam Sync
+## Enable Steam Sync
 
 Games marked as favorites in ES-DE (with a ⭐ or another icon depending on theme) will sync to Steam with their artwork when you exit the application. They will appear in Steam after you restart it.
 
@@ -83,9 +83,10 @@ On a PC, simply `Exit Steam` and relaunch it as usual.
 <img src="../steam-burger.png" width="800">
 
 If everything went correctly, the games should now be added to Steam.
+
 ---
 
-## How-to: Disable Steam Sync
+## Disable Steam Sync
 
 Go into the Configurator and press Steam Sync. 
 
@@ -99,7 +100,7 @@ This will also remove your favorites from Steam.
 ---
 
 
-### How-to: Do a Manual Sync
+### Do a Manual Sync
 
 If you don't want to have `Automatic Steam Sync` you can then perform an `Manual Steam Sync` each time you want instead. 
 
@@ -132,7 +133,7 @@ If games don't sync check the following:
 
 ---
 
-## How-to: Add RetroDECK .doom files with the Grid and Tear Project 
+## Add RetroDECK .doom files with the Grid and Tear Project 
 
 <img src="../brutaldoom.png" width="800">
 
@@ -191,3 +192,5 @@ There are two types of launch commands in the script:
 The second command is for future Steam Flatpak support, as it requires the flatpak-spawn permission to launch the games and must be manually enabled by the user.
 
 Currently, games are not added to Flatpak Steam via Steam Sync.
+
+---

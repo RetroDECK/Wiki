@@ -30,17 +30,22 @@ ScummVM is a engine which allows you to run certain classic graphical adventure 
 
 ScummVM games should be put into the `retrodeck/roms/scummvm/` directory.
 
+---
+
 ## What file formats are supported?
 
 | File Format | Description |
 |-------------|-------------|
 | .scummvm    | ScummVM game folder |
 
+---
 
-### Does ScummVM require BIOS or Firmware?
+
+## Does ScummVM require BIOS or Firmware?
 
 No
 
+---
 
 ## Folder structure
 
@@ -48,7 +53,9 @@ No
 |  :---:  | :---:                  |             :---:     |
 | ROMs Folder |`retrodeck/roms/scummvm/` |                               |  
 
-## How-to: Create .scummvm files that run in ES-DE
+---
+
+## Adding ScummVM Games to RetroDECK: Creating .scummvm files
 
 This guide works for both the  `ScummVM-SA` and `ScummVM RetroArch Core`.
 
@@ -98,4 +105,6 @@ Make sure you don't add any spaces or linebreaks and the file should just contai
 
 ### Step 6: The game should now run
 
-The game should now be launchable in the ES-DE interface.
+The game should now be able to launch in RetroDECK.
+
+---

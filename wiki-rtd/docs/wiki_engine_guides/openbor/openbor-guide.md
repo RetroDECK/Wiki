@@ -20,9 +20,13 @@ Open Beats of Rage (`OpenBOR`) is a beat 'em up game engine.
 
 OpenBOR games should be put under the `retrodeck/roms/openbor/` directory.
 
+---
+
 ## Does OpenBOR Require BIOS or Firmware?
 
 No, OpenBOR games are self-contained.
+
+---
 
 ## What file formats are supported?
 
@@ -36,12 +40,13 @@ No, OpenBOR games are self-contained.
 - `.bor` and `.openbor` are uncompressed game folders. 
 - Each game is self-contained; there is no global settings file.
 
+---
+
 ## Folder structure
 
 | Type       | Folder                     | Comment |
 |:---------:|:---------------------------|:-------|
-| ROMs      | `retrodeck/roms/openbor/`  | Root folder for all OpenBOR games |
-
+| ROMs Folder     | `retrodeck/roms/openbor/`  | Root folder for all OpenBOR games |
 
 ### Example folder structure for Folder game
 
@@ -61,7 +66,7 @@ No, OpenBOR games are self-contained.
 
 ---
 
-## How to Add a Game
+## Adding OpenBOR Games to RetroDECK
 
 1. Extract the game into a new folder under `retrodeck/roms/openbor/` if it is compressed. 
 2. Rename the game folder according to its format:
@@ -94,4 +99,6 @@ Text file inside folder: Heroes of Phandalin.openbor
 
 End result: ~/retrodeck/roms/openbor/Heroes of Phandalin.openbor/Heroes of Phandalin.openbor
 ```
+
+---
 

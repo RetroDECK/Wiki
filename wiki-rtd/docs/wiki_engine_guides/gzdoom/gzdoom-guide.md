@@ -20,23 +20,31 @@ GZDoom is the open source source port / game engine for ID Software's older game
 
 DOOM games should be put under the `retrodeck/roms/doom/` directory.
 
+---
+
 ## What file formats does GZDoom support?
 
-| File Format | Description |
-|-------------|-------------|
-| .wad        | Doom level resource file |
-| .iwad       | Internal WAD file |
-| .pwad       | Patch WAD file |
-| .kpf        | KEX Engine zip replacement |
-| .pk3        | Enhanced engine zip container |
-| .pk4        | id Tech 4 zip container |
-| .pk7        | 7-Zip compressed container |
-| .pke        | Eternity Engine mod zip |
-| .lmp        | Doom data unit |
-| .deh        | DeHackEd file |
-| .bex        | Enhanced DeHackEd file |
-| .mus        | Doom music file |
-| .doom       | RetroDECK DOOM parser file (Only in RetroDECK) |
+| File Type | What is it? | Comments |
+| :--- | :---: | :---: |
+| .doom | RetroDECK DOOM parser file | Use it with other files **(recommended)** |
+| .wad | Doom level resource file | Where's All the Data? |
+| .iwad | Internal WAD file | |
+| .pwad | Patch WAD file | Has priority over .wad |
+| .kpf | KEX Engine zip replacement | |
+| .pk3 | Enhanced engine zip container | .zip file archive |
+| .ipk3 | Internal pk3 | |
+| .pk4 | id Tech 4 zip container | .zip file archive |
+| .pk7 | 7-Zip compressed container | .7zip file archive |
+| .pke | Eternity Engine mod zip | Made for the Eternity Engine |
+| .epk | EDGE Engine mod zip | Made for the EDGE engine |
+| .deh | DeHackEd file | Edits hardcoded parts of the DOOM engine |
+| .bex | Enhanced DeHackEd file | Has more features than .deh and used by various ports |
+| .lev | Level renaming file | Renames levels of a .pwad |
+| .lmp | Doom data unit | |
+| .mus | Doom music file | Used by `DOOM`, `Heretic`, `Hexen` and `Strife` |
+
+---
+
 
 ## Does GZDOOM require BIOS or Firmware?
 
@@ -69,6 +77,9 @@ It is designed to be compatible with most custom levels, music, graphics, and ot
 
 [FreeDOOM](https://freedoom.github.io/)
 
+---
+
+
 ## Folder structure
 
 | Type    | Folder                 |          Comment     | 
@@ -78,37 +89,48 @@ It is designed to be compatible with most custom levels, music, graphics, and ot
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/gzdoom/`         |   `gzdoom.ini`|
 | Data Folder |`~/.var/app/org.retrodeck.retrodeck/data/gzdoom` |   |
 
+---
+
+
 ## What are iwads gzdoom is looking for?
 
 The [IWADS](https://doomwiki.org/wiki/IWAD) Gzdoom is looking for to be able to run are the following:
 
-| File                     |                      What is it?                  | Comments |
-| :---                     | :---:                                             |  :---:   |
-| DOOM.WAD                 |   Doom (1993)                                     |          |
-| DOOM1.WAD                |   Doom (1993) - Shareware Version                 |          |
-| DOOM2.WAD                |   Doom 2                                          |          |
-| DOOM2F.WAD               |   Doom 2 - French Version                         |          |
-| DOOM64.WAD               |   Doom 64                                         |          |
-| TNT.WAD                  |   Final Doom - TNT: Evilution                     |          |
-| PLUTONIA.WAD             |   Final Doom - The Plutonia Experiment            |          |
-| HERETIC1.WAD             |   Heretic - Shareware Version                     |          |
-| HERETIC.WAD              |    Heretic: Shadow of the Serpent Riders          |          |
-| HEXEN.WAD                |   Hexen                                           |          |
-| HEXDD.WAD                |   Hexen: Deathkings of the Dark Citadel           | Needs to be loaded with HEXEN.WAD to be played |
-| STRIFE0.WAD              |   Strife: Quest for the Sigil - Demo Version      |          |
-| STRIFE1.WAD              |   Strife: Quest for the Sigil - Commercial Version |          |
-| VOICES.WAD               |   Extra Voices for Strife                          |       Needs to be loaded with STRIFE1.WAD to be used    |
-| CHEX.WAD                 |   Chex Quest                                       |          |
-| CHEX3.WAD                |   Chex Quest 3                                     |          |
-| HACX.WAD                 |   Hacx                                             |          |
-| freedoom1.wad            |   Freedoom: Phase 1                                             |          |
-| freedoom2.wad            |   Freedoom: Phase 2                                             |          |
-| freedm.wad               |   FreeDM                                             |          |
-| doom_complete.pk3        |   WadSmoosh combined file                                             |          |
+| File                     | What is it?                                      | Comments |
+| :---                     | :---:                                            | :---:    |
+| ACTION2.WAD              | Action Doom 2: Urban Brawl                       |          |
+| BLASPHEM.WAD             | Blasphemer                                       |          |
+| CHEX.WAD                 | Chex Quest                                       |          |
+| CHEX3.WAD                | Chex Quest 3                                     |          |
+| DELAWEARE.WAD            | Delaweare                                        |          |
+| DOOM.WAD                 | Doom shareware                                   |          |
+| DOOM1.WAD                | Doom                                             |          |
+| DOOM2.WAD                | Doom II: Hell on Earth                            |          |
+| DOOM2F.WAD               | Doom II French                                   |          |
+| DOOM64.WAD               | Doom 64                                          |          |
+| DOOM_COMPLETE.PK3        | WadSmoosh merged Doom                            |          |
+| FREEDOOM1.WAD            | Freedoom Phase 1                                 |          |
+| FREEDOOM2.WAD            | Freedoom Phase 2                                 |          |
+| FREEDM.WAD               | Freedoom Deathmatch                              |          |
+| HEXDD.WAD                | Hexen: Deathkings of the Dark Citadel           | Needs HEXEN.WAD to play |
+| HEXEN.WAD                | Hexen: Beyond Heretic                             |          |
+| HACX.WAD                 | HACX                                             |          |
+| HARM1.WAD                | Harmony                                          |          |
+| HERETIC.WAD              | Heretic: Shadow of the Serpent Riders           |          |
+| HERETIC1.WAD             | Heretic shareware                                |          |
+| PLUTONIA.WAD             | Plutonia Experiment                               |          |
+| ROTWB.WAD                | Rise Of The Wool Ball                             |          |
+| SQUARE1.PK3              | The Adventures of Square                           |          |
+| STRIFE0.WAD              | Strife shareware                                  |          |
+| STRIFE1.WAD              | Strife                                            |          |
+| TNT.WAD                  | TNT: Evilution                                    |          |
+| VOICES.WAD               | Strife Voices                                    | Needs STRIFE1.WAD to be used |
 
 ### What is doom_complete.pk3?
 
 `doom_complete.pk3` is a file made by [WadSmoosh](https://jp.itch.io/wadsmoosh). It can combine all of the "DOOM + DOOM 2 + Official addons" into one file where you can select from all the campaigns without needing to load each separate wad.
+
+---
 
 ## Where can I find more WADs?
 
@@ -130,43 +152,7 @@ Doomworld is the oldest DOOM community on the web and hosts the annual [Cacoward
 
 [ModDB](https://www.moddb.com/games/doom/mods)
 
-
-## Where to put the games
-
-GZDoom games should be put under the `retrodeck/roms/doom/` directory.
-
-### Supported file types
-
-| File type                    |                      What is it?                  | Comments |
-| :---                     | :---:                                             |  :---:   |
-|.wad | Where's All the Data? | |
-|.iwad | internal wad|  |
-|.pwad | patch wad | Have a priority over .wad |
-|.pk3 | .zip file archive | |
-|.ipk3 |  internal pk3 | |
-| .pk4 |.zip file archive | |
-|.pk7 | .7zip file archive | |
-| .pke | .zip file archive | Made for the the Eternity Engine |
-| .epk | .zip file archive | Made for the EDGE engine |
-| .deh | DeHackEd file| Edits hardcoded parts of the DOOM engine. |
-| .bex | Enhanced DeHackEd | Has more features then .deh and used by various ports. |
-| .lev | A file that renames levels of a .pwad | |
-| .mus | Music file | Used by `DOOM`, `Heretic`, `Hexen` and `Strife` |
-
-
-### Does GZDoom require BIOS or Firmware?
-
-No
-
-## Folder structure
-
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/doom/` |                               |  
-| Saves Folder |`retrodeck/saves/doom/gzdoom/` |                               |  
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/gzdoom/`         |   `gzdoom.ini`|
-| Data Folder |`~/.var/app/org.retrodeck.retrodeck/data/gzdoom/` | `audio` folder    |
-
+---
 
 ## GZDoom Controls
 
@@ -222,15 +208,20 @@ Many mods have more inputs than what is bindable on a controller. `L1`,  `L2`, `
 
 You are also free to change any of the default binds shipped by RetroDECK, and if you mess something up, you can always reset GZDoom via the Configurator.
 
+---
+
 ## I have bought the games how do I get my files?
 
 Read the:
 
 [How to: Extract Doom iWads](extract-doom-wads.md)
 
+---
 
 ## I want to play doom with mods
 
 Read the:
 
 [RetroDECK .doom file for modding](retrodeck-doomfile.md)
+
+---

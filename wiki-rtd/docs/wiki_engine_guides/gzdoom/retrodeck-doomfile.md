@@ -4,6 +4,8 @@
 
 The `.doom` file is a feature for easy loading of DOOM files with mods. It is based on the work done by [AmberELEC .doom](https://amberelec.org/systems/doom.html) and others, with additional improvements made by RetroDECK.
 
+---
+
 ## The RetroDECK .doom Parser
 
 The `.doom` parser will look for any of the iwads files that could be required to run a DOOM mod in the `retrodeck/roms/doom/` directory.
@@ -42,6 +44,8 @@ IWAD_FILES=(
                                             )
 ```
 
+---
+
 ## Recommended Folder Structure in retrodeck/roms/doom
 
 - The parser will scan all files and subfolders under `/roms/doom/`, so the exact location of the files doesn't matter.
@@ -70,12 +74,12 @@ In the `mods` folder, you can place all the extracted mod files. By putting them
 
 In the root of the roms/doom/ folder, place all the `.doom` files you create or download.
 
----
 
 **Result:**
 
 When you launch the ES-DE interface from RetroDECK and navigate to the DOOM category, all the .doom files will be listed first as your primary game list, while the rest of the files are in their respective subfolders.
 
+---
 
 ## What is the .doom file and how do you create it?
 
@@ -85,7 +89,9 @@ You should name the `.doom` file so you understand what it is, for example: `Pro
 
 Each line represents one file. As long as the mods are compatible with each other, you can add as many lines as you want.
 
-### What is the recommended load order of mods in the .doom file?
+---
+
+## What is the recommended load order of mods in the .doom file?
 
 The general guidelines on most mod pages are:
 
@@ -95,17 +101,9 @@ The general guidelines on most mod pages are:
 
 However, this can vary, so check where you download the mods for any recommended order requirements.
 
-### Question - I come from one of the ELEC's what does RetroDECK do different with the .doom file, can I migrate?
+---
 
-RetroDECK has written a new parser from the ground up. You no longer need to write the path in the `.doom` files. RetroDECK scans all folders and subfolders of `/roms/doom/`, so you only need to put the name of the mod file. If you are migrating to RetroDECK, all you need to do is remove the path in your `.doom` files.
-
-### Question - Can I use Symbolic Links inside the doom file?
-
-Yes, as long as you link the source file to somewhere in the `/retrodeck/roms/doom/`. 
-
-Then you can just type the name as normal into the file.
-
-## Project Brutality .doom example:
+## Example: Project Brutality .doom 
 
 
 In this example, you have already downloaded a bunch of mods and have the IWADs somewhere under the `retrodeck/roms/doom/` folder.
@@ -127,7 +125,7 @@ The DOOM2.WAD is first loaded, then the Project Brutality PB_Staging_9f2561c.pk3
 
 Project Brutality.doom is accessible from the ES-DE interface.
 
-### Another Example: Doom Infinite
+### Another Example: Doom Infinite .doom
 
 [Doom Infinite](https://www.moddb.com/mods/doom-infinite)
 
@@ -137,6 +135,8 @@ Create the `Doom Infinite.doom` file in `/retrodeck/roms/doom/`
 DOOM2.WAD
 DOOM_Infinite_DEMO_0978_6.pk3
 ```
+
+---
 
 ## Customize the RetroDECK .doom files
 
@@ -177,13 +177,31 @@ Be sure to name the `.doom` files so you understand what they are:
 
 It's that easy!
 
+---
+
+## Questions
+
+### I come from one of the ELEC's what does RetroDECK do different with the .doom file, can I migrate?
+
+RetroDECK has written a new parser from the ground up. You no longer need to write the path in the `.doom` files. RetroDECK scans all folders and subfolders of `/roms/doom/`, so you only need to put the name of the mod file. If you are migrating to RetroDECK, all you need to do is remove the path in your `.doom` files.
+
+### Can I use Symbolic Links inside the doom file?
+
+Yes, as long as you link the source file to somewhere in the `/retrodeck/roms/doom/`. 
+
+Then you can just type the name as normal into the file.
+
+---
+
 ## Sharing is Caring
 
 - Have you made a cool `.doom` file modpack? 
 - Maybe you have found the perfect combination of over 50+ mods in one .doom file? 
 - Share the .doom file and where to download the mods with the RetroDECK Community!
 
-## Adding .doom Files to Steam as Separate Games
+---
+
+## Adding .doom Files to Steam 
 
 <img src="../../../wiki_system_guides/srm/brutaldoom.png" width="800">
 
@@ -195,3 +213,5 @@ Check the SRM Guide for more information.
 
 [SRM Guide](../../wiki_system_guides/srm/srm-guide.md) for more information.
 
+
+---

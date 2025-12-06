@@ -8,6 +8,8 @@
 - Allows launching games via the command line (CLI)
 
 
+---
+
 ## Will RetroENGINE detect what system I want to launch?
 
 If you place the game file inside the corresponding `retrodeck/roms/<system>/<gamefile>` directory, RetroDECK will automatically recognize which system to launch.
@@ -16,7 +18,9 @@ If you place the game file inside the corresponding `retrodeck/roms/<system>/<ga
 
 When clicked, RetroDECK will prompt a dialog window asking which system the file belongs to and then run it.
 
-##  Launch with games via CLI
+---
+
+## Launch with games via CLI
 
 You can also launch games directly with RetroENGINE via CLI.
 
@@ -24,7 +28,9 @@ You can also launch games directly with RetroENGINE via CLI.
 
 `flatpak run net.retrodeck.retrodeck retrodeck/roms/<system>/<gamefile>` (`--help` for more information).
 
-## Examples:
+---
+
+## Examples
 
 <img src="../littlemedusa.png" width="300"> 
 
@@ -53,3 +59,5 @@ When clicked, RetroDECK will prompt a dialog window asking which system the file
 Example full syntax:
 
 `flatpak run net.retrodeck.retrodeck retrodeck/roms/nes/LittleMedusa_8bitdemo.nes`
+
+---

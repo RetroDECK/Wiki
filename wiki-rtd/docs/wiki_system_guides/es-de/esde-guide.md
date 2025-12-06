@@ -46,6 +46,8 @@ ES-DE is the default frontend used in RetroDECK.
 | Gamelists Folder | `retrodeck/ES-DE/gamelists/`  |  Gamelists  |
 | Themes Folder | `retrodeck/ES-DE/themes/`  |  Downloaded themes |
 
+---
+
 ## ES-DE General Usage
 
 ### How-to switch language in ES-DE?
@@ -95,6 +97,8 @@ The solution ES-DE opted for instead is:
 - `L2` or `Home` Jumps to the top of the menu or gamelist.
 - `R2` or `End` Jumps to the bottom of the menu or gamelist.
 
+---
+
 ## ES-DE Themes
 
 ES-DE comes with several themes ready to download.
@@ -140,6 +144,7 @@ See the ES-DE's Guide 📘 for more details.
 
 - There are 2 ways to fix this if it does occur: (1) see if a specific version was built for `16:10` aspect ratio and use that instead or (2) edit the theme to make it compatible with that aspect ratio.
 
+---
 
 ## ES-DE Scraping
 
@@ -293,7 +298,7 @@ Videos:
 ```
 
 
-
+---
 
 
 ## Screenscraper FAQ
@@ -319,7 +324,7 @@ Check [Screenscraper Pateron](https://www.patreon.com/screenscraper) for instruc
 [Screenscraper](https://www.screenscraper.fr/) offers different types of donations that can increase your speed with extra threads.
 
 
-
+---
 
 ## ES-DE User Guide Links
 
@@ -359,3 +364,4 @@ Here follows various quick bookmarks to specific section of the User Guide that 
 
 [ES-DE: Metadata editor](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#metadata-editor)
 
+---

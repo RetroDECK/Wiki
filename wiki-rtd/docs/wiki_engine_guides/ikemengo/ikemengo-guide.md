@@ -22,15 +22,22 @@ It strives to be compatible with games made for those engines.
 
 `IkemenGO` `Ikemen` and `M.U.G.E.N` games should be put under the `retrodeck/roms/mugen/` directory.
 
+---
+
 ## What file formats are supported?
 
 | File Format | Description |
 |-------------|-------------|
 | .mugen      | M.U.G.E.N / IkemenGO game engine folder |
 
+
+---
+
 ## Does IkemenGO require BIOS or Firmware?
 
 No
+
+---
 
 ## Folder structure
 
@@ -54,6 +61,8 @@ The example game `Ultimate Dank Fighter Mugen.mugen` has this folder structure:
 ~/retrodeck/roms/mugen/Ultimate Dank Fighter IkemanGO.mugen/Ultimate Dank Fighter IkemanGO.mugen
 ```
 
+---
+
 ## IkemanGO: Tips and Tricks
 
 - The games need to be uncompressed to a folder.
@@ -69,7 +78,10 @@ As every game it's own unique instance and input bindings they need to be manual
 
 These bindings are usually set in the interface or in the file `<gamename>/save/config.json`.
 
-##  How-to: Add IkemanGO Games
+
+---
+
+##  Adding IkemanGO Games to RetroDECK
 
 This How-to is for games that are made with IkemanGO Engine.
 
@@ -99,7 +111,9 @@ If the `Ikemen_GO_Linux` is missing in the games folder you can download it from
 
 Open up the `.zip` file and extract ONLY the `Ikemen_GO_Linux` file into the game directory and rename it as stated above.
 
-## How-to: Convert M.U.G.E.N Games
+---
+
+## Convert M.U.G.E.N Games
 
 This is not a full guide on conversion, as each game is different and can have been made for a different version of M.U.G.E.N or have other unique properties for just that game.
 It would be impossible to write a total guide to encompass all games and you will have to check various forums/web pages for the best approach for just that game.
@@ -155,3 +169,4 @@ If the game is called Hockey Fighter MUGEN rename the `Ikemen_GO_Linux` file to 
 
 The game should now at least show up in RetroDECK and if you are lucky also work when run. If the game does not work check out the forums or web page where you got the game for guidance.
 
+---

@@ -1,6 +1,6 @@
 # ES-DE Frontend: General Guide
 
-<img src="../../../wiki_images/logos/es-de-logo.png" width="150">
+<img src="../../../wiki_images/logos/es-de-logo.png" width="100">
 
 ES-DE Frontend (EmulationStation Desktop Edition) is a frontend for browsing and launching games from your multi-platform collection. 
 

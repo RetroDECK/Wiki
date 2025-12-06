@@ -1,6 +1,6 @@
 # Solarus - General Guide
 
-<img src="../../../wiki_images/logos/solarus-logo.svg" width="100">
+<img src="../../../wiki_images/logos/solarus-logo.svg" width="150">
 
 Solarus is an open-source adventure game engine.
 

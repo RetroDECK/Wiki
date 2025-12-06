@@ -1,6 +1,6 @@
-# RetroENGINE - Run with RetroDECK
+# RetroENGINE: Run with RetroDECK
 
-<img src="../../../wiki_icons/retrodeck/icon-engine.svg" width="100">
+<img src="../../../wiki_icons/retrodeck/icon-engine.svg" width="75">
 
 `RetroENGINE` lets you launch games directly from your desktop using RetroDECK — no need to open the full application.
 

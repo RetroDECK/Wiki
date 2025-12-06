@@ -1,6 +1,6 @@
 # Duckstation - General Guide
 
-<img src="../../../wiki_images/logos/duckstation-logo.png" width="150">
+<img src="../../../wiki_images/logos/duckstation-logo.png" width="100">
 
 Duckstation is a Playstation 1 - PSX Emulator.
 

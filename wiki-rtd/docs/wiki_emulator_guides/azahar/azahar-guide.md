@@ -1,6 +1,6 @@
 # Azahar - General Guide
 
-<img src="../../../wiki_images/logos/azahar-logo.svg" width="150">
+<img src="../../../wiki_images/logos/azahar-logo.svg" width="75">
 
 Azahar is a Nintendo 3DS Emulator.
 

@@ -1,6 +1,6 @@
 # Ruffle - General Guide
 
-<img src="../../../wiki_images/logos/ruffle-logo.svg" width="75">
+<img src="../../../wiki_images/logos/ruffle-logo.svg" width="150">
 
 An open source Flash Player emulator.
 
@@ -49,6 +49,8 @@ No
 ---
 
 ## Folder structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

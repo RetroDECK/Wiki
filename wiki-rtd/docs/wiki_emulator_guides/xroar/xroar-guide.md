@@ -18,9 +18,9 @@ XRoar is a  Dragon 32, Dragon 64, Dragon 200-E, Tandy Colour Computer and Tandy 
 
 XRoar games should be put in the following directories 
 
-`retrodeck/roms/coco/`
-`retrodeck/roms/dragon32/`
-`retrodeck/roms/tanodragon/`
+- **Tandy Color Computer:** `retrodeck/roms/coco/`
+- **Dragon Data Dragon 32:**`retrodeck/roms/dragon32/`
+- **Tano Dragon:**`retrodeck/roms/tanodragon/`
 
 ---
 
@@ -77,6 +77,8 @@ XRoar supports multiple input methods—including physical controllers, keyboard
 
 ### Joystick / Controller Support
 
+<img src="../XRoar-GamePad.png" width="500">
+
 - RetroDECK includes the **SDL_GameControllerDB**, a community-maintained database of controller mappings used by SDL. XRoar is configured to use this database, ensuring wide compatibility with modern gamepads.
 - If you have a physical joystick/gamepad attached, XRoar will detect it and map it as `joy0`, `joy1`, etc. 
 - Built-in virtual joystick profiles include:  
@@ -98,6 +100,8 @@ You can choose among the built-in profiles above (keyboard-based, mouse-based, o
 ## Machine Selection
 
 The **Hardware → Machine** menu in XRoar lets you choose which system you want to emulate. XRoar supports several Dragon and CoCo models, each with its own hardware capabilities and compatibility differences.
+
+<img src="../XRoar-Machine.png" width="500">
 
 ### Machine Profiles in XRoar
 
@@ -141,6 +145,8 @@ For general use, **Dragon 32** is the most broadly compatible starting point.
 In **Hardware → Cartridge** you can select different default cartridge types for emulation. 
 
 - Cartridges might require corresponding BIOS files to be present for XRoar to load them correctly in `retrodeck/bios/`.
+
+<img src="../XRoar-Cartidge.png" width="500">
 
 | Option                              | Description                                                                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -24,11 +24,15 @@ Not all ports are available for the `X86_64` system, but the list is continuousl
 
 ---
 
-### Does PortMaster require BIOS / Firmware / Other files?
+## Does PortMaster require BIOS / Firmware / Other files?
 
 PortMaster does not require BIOS or Firmware but depending on the game you might need to supply the official game files from purchased titles to get them to run.
 
-Check the [PortMaster Games List](https://portmaster.games/games.html) for details.
+**Read more:** 
+
+- [PortMaster Games List](https://portmaster.games/games.html)
+
+---
 
 ## Folder structure
 
@@ -37,17 +41,23 @@ Check the [PortMaster Games List](https://portmaster.games/games.html) for detai
 | Launch Scripts Folder | `retrodeck/roms/portmaster/`   |  This contains the auto generated launch scripts for ES-DE as `.sh` files.   |
 | Game Data Folder | `retrodeck/storage/PortMaster/ports/`  |  This contains the game files, savefiles and directories. This is also where you add any required game files.  |
 
-## How-to launch PortMaster?
+---
+
+## Launching PortMaster
 
 <img src="../pm-mainwindow.png" width="800">
 
 You go into the PortMaster menu in ES-DE and Open `PortMaster`. 
 
-## How-to update PortMaster?
+---
+
+## Updating PortMaster
 
 PortMaster is self-contained and will auto-update by itself when launched. 
 
 You can also manually update it by going to `Options` -> `Update PortMaster` and `Update Ports`
+
+---
 
 ## How can see what ports that are available?
 
@@ -65,7 +75,9 @@ You can also combine this with the filters:
 
 Yes, the PortMaster team is continuously updating the Ports list. As the application is updated, more ports will be added for `X86_64` systems.
 
-## How-to: Add PortMaster Games to RetroDECK
+---
+
+## Adding PortMaster Games to RetroDECK
 
 <img src="../pm-banana.png" width="800">
 
@@ -84,13 +96,17 @@ In the ES-DE Frontend go to the Utilities Menu
 Press the `Rescan Rom Directory` to have the games show up (you could also just restart RetroDECK).
 
 
+---
+
 ### If the game requires additional files
 
 Check the [PortMaster Games List](https://portmaster.games/games.html) for details on the specific files needed for each game. You might also need to create new subfolders.
 
 The required files and/or folders should be put inside the `retrodeck/PortMaster/`. 
 
+---
+
 
 ## Can I hide PortMaster in ES-DE? 
 
-Yes, there is a hide PortMaster tool in the Configurator. 
+Yes, there is a hide PortMaster tool in the RetroDECK Configurator. 

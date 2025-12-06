@@ -24,26 +24,18 @@ XRoar games should be put in the following directories
 
 ---
 
-Yes, it all depends on what computer you want to emulate. 
+## Does XRoar require BIOS or Firmware?
 
-XRoar supports many: 
+Yes, you'll need the BIOS for the computer you're emulating. Some operating systems and even certain programs might also require their own BIOS files.
 
-| System / Machine | ROM File Name(s) |
-|------------------|------------------|
-| **Dragon 32** | `d32.rom` |
-| **Dragon 64** (32K BASIC) | `d64_1.rom` |
-| **Dragon 64** (64K BASIC) | `d64_2.rom` |
-| **Dragon 200‑E** (32K BASIC) | `d200e_1.rom` |
-| **Dragon 200‑E** (64K BASIC) | `d200e_2.rom` |
-| **Dragon 200‑E** (External charset ROM) | `d200e_26.rom` |
-| **Tandy / CoCo (Colour BASIC)** | `bas13.rom`, `bas12.rom`, `bas11.rom`, `bas10.rom` |
-| **Tandy / CoCo (Extended / Super BASIC)** | `extbas11.rom`, `extbas10.rom` |
-| **Tandy CoCo 3 (Super ECB)** | `coco3.rom` |
-| **Tandy CoCo 3 (PAL)** | `coco3p.rom` |
-| **Tandy / RS‑DOS (disk‑based CoCo/Dragon)** | `disk11.rom`, optionally `disk10.rom` |
-| **Tandy / CoCo / MC‑10 / Alice (MC‑10 BASIC)** | `mc10.rom`, also `alice.rom` for some clones |
-| **DOS / Disk‑based ROMs** (DragonDOS / RS‑DOS / compatible) | `ddos10.rom`, and various DOS‑compatible ROMs such as `sdose6.rom`, `dplus49b.rom`, etc. |
-| **Alternative / Compatibility DOS ROMs / Cart ROMs** | e.g. `sdose6.rom`, `dplus49b.rom`, other community ROM‑sets for DOS / cartridge expansions |
+Check the following links for finding the right BIOS:
+
+- [XRoar Webpage](https://www.6809.org.uk/xroar/)
+- [Colorcomputerarchive](https://colorcomputerarchive.com/)
+
+
+**NOTE:** XRoar calls the bios files **ROMS** and may of the end with **.rom**.
+
 
 ---
 
@@ -140,5 +132,30 @@ For general use, **Dragon 32** is the most broadly compatible starting point.
 
 - Changing machines typically requires a reset or restart of the emulator.
 - Machine types require corresponding BIOS files to be present for XRoar to load them correctly in `retrodeck/bios/`.
+
+---
+
+
+## Cartridge Options
+
+In **Hardware → Cartridge** you can select different default cartridge types for emulation. 
+
+- Cartridges might require corresponding BIOS files to be present for XRoar to load them correctly in `retrodeck/bios/`.
+
+| Option                              | Description                                                                                                                                                  |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **None**                            | This option disables any cartridge emulation. Useful when you want to run the system without loading a specific cartridge.                                     |
+| **DragonDOS**                       | A disk operating system for the Dragon series of computers, offering a command-line interface and file management functions.                                   |
+| **RS-DOS**                          | The standard operating system for Dragon 32/64 computers. It provides disk and basic system operations.                                                       |
+| **Delta System**                    | A third-party disk operating system designed for Dragon computers, offering an alternative to the standard RS-DOS.                                             |
+| **RS-DOS with Becker port**         | A variant of RS-DOS that supports the Becker port, an additional hardware interface for Dragon computers to enhance functionality.                             |
+| **Prológica CP-450**                | A cartridge for the Brazilian Dragon series, adding additional functionality such as memory and I/O capabilities.                                               |
+| **Games Master Cartridge**          | A cartridge designed for playing games, offering enhanced performance and additional support for certain game titles.                                          |
+| **Orchestra-90 CC**                 | A cartridge designed for the Orchestra-90 sound synthesizer, providing music and sound effects capabilities for compatible Dragon systems.                     |
+| **Multi-Pak Interface**             | A hardware expansion that allows multiple cartridges to be connected at once, increasing the functionality of the system by enabling the use of several cartridges.|
+| **RACE Computer Expansion Cage**    | An expansion unit designed for the Dragon 32/64, providing additional slots for connecting various peripherals or cartridges.                                   |
+| **IDE Interface**                   | This interface allows Dragon computers to connect to IDE devices, such as hard drives or CD-ROM drives, enabling more modern forms of storage.                 |
+| **NX32 Memory Cartridge**           | A memory expansion cartridge for the Dragon, offering additional RAM for use by software that requires more memory than the base system provides.               |
+| **MOOH Memory Cartridge**           | A memory expansion cartridge designed for the Dragon system, offering enhanced memory capabilities for more demanding applications.                           |
 
 ---

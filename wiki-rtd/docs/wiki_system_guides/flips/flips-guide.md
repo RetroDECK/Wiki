@@ -2,11 +2,32 @@
 
 <img src="../../../wiki_images/logos/flips-logo.png" width="75">
 
-**Flips** (Floating IPS) is a lightweight, patcher that supports both `.ips` and `.bps` formats, allowing users to apply and create ROM hack patches.
+**Flips** (Floating IPS) is a lightweight, patcher that supports both `.ips` and `.bps` formats, allowing users to apply and create ROM Hack patches.
 
 You will find Flips inside the RetroDECK Configurator as its own component.
 
 <img src="../flips-gui.png" width="300">
+
+---
+
+## What are ROM Hacks?
+
+A **ROM Hack** is a fan-made modification of a game’s original ROM file that changes or adds content. 
+
+Some ROM Hacks can be **combined**, allowing multiple hacks to be applied to the same game for a merged or enhanced experience.  
+
+### Common Types
+
+- **Bug fixes & quality-of-life improvements** – fixing issues or adding small conveniences.  
+- **Difficulty adjustments** – making the game harder or easier.  
+- **Enhancement patches** – improving visuals, performance, or controls.  
+- **Gameplay overhauls** – changing core mechanics or abilities.  
+- **Graphic or audio changes** – updating sprites, music, or themes.  
+- **New levels or worlds** – adding new stages or maps.  
+- **Remixes** – reworking existing levels or mechanics.  
+- **Total conversions** – transforming the game into something entirely new.  
+- **Totally new games & story** – creating a brand-new narrative and experience.  
+- **Translation patches** – adding new language translations.
 
 ---
 
@@ -42,6 +63,7 @@ Here are just a few:
 3. When prompted, select the clean, unmodified ROM required for the patch.
 4. Choose where to save the patched output ROM.
 5. The patched ROM is now ready.
+6. Rename the new file according
 
 ---
 

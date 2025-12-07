@@ -12,9 +12,9 @@ You will find Flips inside the RetroDECK Configurator as its own component.
 
 ## ROM Hacks
 
-A **ROM Hack** is a fan-made modification of a game’s original ROM file that changes or adds content. 
+A **ROM Hack** is a fan-made modification (mod) of a game’s original ROM file that changes or adds content. 
 
-Some ROM hacks are **compatible with each other**, allowing multiple hacks to be applied to the same game for an integrated or enhanced experience.
+Some ROM hacks are compatible with each other, allowing multiple hacks to be applied to the same game for an integrated or enhanced experience.
 
 ### Common Types
 

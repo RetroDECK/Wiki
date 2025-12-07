@@ -18,16 +18,16 @@ Some ROM hacks are compatible with each other, allowing multiple hacks to be app
 
 ### Common Types
 
-- **Bug fixes & quality-of-life improvements** – fixing issues or adding small conveniences.  
-- **Difficulty adjustments** – making the game harder or easier.  
-- **Enhancement patches** – improving visuals, performance, or controls.  
-- **Gameplay overhauls** – changing core mechanics or abilities.  
-- **Graphic or audio changes** – updating sprites, music, or themes.  
-- **New levels or worlds** – adding new stages or maps.  
-- **Remixes** – reworking existing levels or mechanics.  
-- **Total conversions** – transforming the game into something entirely new.  
-- **Totally new games & story** – creating a brand-new narrative and experience.  
-- **Translation patches** – adding new language translations.
+| Category                          | Description                                                   |
+|-----------------------------------|---------------------------------------------------------------|
+| Bug fixes & QoL improvements      | Fixing issues or adding small conveniences.                  |
+| Difficulty adjustments            | Making the game harder or easier.                            |
+| Enhancement & audiovisual patches | Improving visuals, audio, performance, or controls.          |
+| Gameplay overhauls                | Changing core mechanics or abilities.                        |
+| New or remixed levels             | Adding new stages/maps or reworking existing levels.         |
+| Total conversions                 | Transforming the game into something entirely new.           |
+| Totally new games & story         | Creating a brand-new narrative and experience.               |
+| Translation patches               | Adding new language translations.                            |
 
 ---
 

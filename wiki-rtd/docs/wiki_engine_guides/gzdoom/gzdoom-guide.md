@@ -133,21 +133,16 @@ The [IWADS](https://doomwiki.org/wiki/IWAD) Gzdoom is looking for to be able to 
 
 Non-official WADs (mods) are available across the internet on old forums, GitHub, and various websites.
 
-### Doomworld
+Here are some popular sources:
 
-Doomworld is the oldest DOOM community on the web and hosts the annual [Cacowards](https://www.doomworld.com/cacowards). It is the lifeblood of the DOOM community, containing generations of knowledge and a vast collection of WADs.
-
-[Doomworld Files](https://www.doomworld.com/files/)
-
-[Doomworld ID Games(Legacy)](https://www.doomworld.com/idgames/)
-
-### Doomwiki
-
-[List of notable WADs](https://doomwiki.org/wiki/List_of_notable_WADs)
-
-### ModDB
-
-[ModDB](https://www.moddb.com/games/doom/mods)
+| Source       | Description                                          | Link                                                                 |
+|--------------|------------------------------------------------------|----------------------------------------------------------------------|
+| Doomworld    | Oldest DOOM community; hosts the annual Cacowards.  | [Doomworld: Cacowards](https://www.doomworld.com/cacowards)         |
+| Doomworld    | Large collection of WAD files.                      | [Doomworld: Files](https://www.doomworld.com/files/)                 |
+| Doomworld    | Legacy repository of user-submitted WADs.          | [Doomworld: ID Games (Legacy)](https://www.doomworld.com/idgames/)  |
+| Doomworld    | Community forum for discussion, help, and mods.     | [Doomworld: Forum](https://www.doomworld.com/forum/)                 |
+| Doomwiki     | Wiki listing notable WADs and mods.                 | [Doomwiki: List of notable WADs](https://doomwiki.org/wiki/List_of_notable_WADs) |
+| ModDB        | Modding community with many DOOM mods.              | [ModDB: DOOM Mods](https://www.moddb.com/games/doom/mods)            |
 
 ---
 

@@ -3,11 +3,13 @@
 <img src="../../../wiki_images/logos/gzdoom-logo.png" width="75">
 
 
-### Notice: Steam Flatpak Version - steamapps/ location
+### Notice: Steam Flatpak Version - steamapps/ Location
 
-If you got the Flatpak version of Steam the `~/.local/share/Steam/steamapps/` folder is located in:
+If you are using the **Flatpak version of Steam**, the `~/.local/share/Steam/steamapps/` folder is located at:
 
 `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/` when you follow this guide.
+
+---
 
 
 ## What are the Official Addons wads?
@@ -18,9 +20,11 @@ If you got the Flatpak version of Steam the `~/.local/share/Steam/steamapps/` fo
 
 ## 2024 KEX Engine Version
 
-Bethesta updated the DOOM + DOOM II listing to a new KEX Engine as of **2024-08-08**
+Bethesda updated the **DOOM + DOOM II** listin to the new **KEX Engine** as of **2024-08-08**.
 
-The KEX Engine version of `DOOM + DOOM II` have spread out the files and assigned a random BethestaNet ID number to wads as their filename.
+The KEX Engine version spreads out the files and assigns a random **BethesdaNet ID number** to WADs as their filenames.
+
+---
 
 ### KEX Engine - Steam Version
 
@@ -37,27 +41,16 @@ You can also find the location by
 3. Go to the `Installed Files` tab.
 4. Press the `Browse` button.
 
+---
+
 #### Where are the downloaded bnetwads?
 
 All of the downloaded bnetwads are located in:
 
 `~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/Nightdive Studios/DOOM/bnetwads/`
 
-### KEX Engine - GOG Version
 
-W.I.P
-
-#### Where are the base core iwads?
-
-Some are located in:
-
-W.I.P
-
-#### Where are the downloaded bnetwads?
-
-All of the downloaded bnetwads are located in:
-
-W.I.P
+---
 
 ### KEX Engine - Shipped by Default
 
@@ -76,45 +69,58 @@ The main game folder contains the following (Master Levels in one wad and Legacy
 | Legacy of Rust           |   id Software, Nightdive Studios, MachineGames      |   `ID1.WAD`,  `ID1-WEAP.WAD`, `ID1-RES.WAD`, `ID24RES.WAD`, `IDDM1.WAD` | Uses the new ID24 Standard|
 
 
-### KEX Engine - Getting the Downloaded bnetwads
+---
 
-**Prerequisite:** First, download the addons from the featured mods list.
+### KEX Engine - Getting the Downloaded BethesdaNet
 
-Navigate from the `Main Menu` -> Select a game like DOOM II -> `Mods Menu` -> `Featured Mods`.
+**Prerequisite:** First, download the add-ons from the featured mods list.
 
-For some mods, you may need to click on `Mods Menu` -> `Browse` and search for them if they are no longer on the `Featured Mods` list to match the Unity Version set.
+1. From the **Main Menu**, select a game (e.g., DOOM II) → **Mods Menu** → **Featured Mods**.
+2. For some mods that are no longer on the Featured Mods list, go to **Mods Menu** → **Browse** and search for them to match the Unity Version set.
 
-#### Where are the bnetwads located?
+---
 
-Each `.wad` downloaded has its own sub-folder based on an internal ID and contains the .wad file and an `index.json` file.
+#### Where are the BethesdaNet WADs located?
 
-Opening the `index.json` file in each folder will tell you what game the `.wad` is.
+Each downloaded `.wad` has its own sub-folder based on an internal ID.  
+The folder contains:
+
+- The `.wad` file  
+- An `index.json` file
 
 
 **Example SIGILII in Steam:**
 
 `~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/Nightdive Studios/DOOM/bnetwads/585d6a05-e50c-4ad7-aac7-726d35d23a50/`
 
-Contains the `index.json` and `585d6a05-e50c-4ad7-aac7-726d35d23a50.wad`
+- 585d6a05-e50c-4ad7-aac7-726d35d23a50.wad 
+- index.json
 
-Opening the `index.json`:
+
+Opening `index.json`:
 
 
 ```
 {
-	"id" : "585d6a05-e50c-4ad7-aac7-726d35d23a50",      <-- Mod's BethestaNet ID
-	"title" : "SIGIL II",                               <-- Mod Title
-	"version" : "2ed265fd-6fdf-45a5-a078-35811549ce3b", <-- Current uploaded version (for updates)
-	"wad" : "585d6a05-e50c-4ad7-aac7-726d35d23a50.wad"  <-- The Wad file
+	"id" : "585d6a05-e50c-4ad7-aac7-726d35d23a50",      // Mod's BethesdaNet ID
+	"title" : "SIGIL II",                               // Mod Title
+	"version" : "2ed265fd-6fdf-45a5-a078-35811549ce3b", // Current uploaded version
+	"wad" : "585d6a05-e50c-4ad7-aac7-726d35d23a50.wad"  // The WAD file
 }
 
 ```
 
-It reveals that `585d6a05-e50c-4ad7-aac7-726d35d23a50.wad` is in fact `SIGILII.WAD`.
+This reveals that `585d6a05-e50c-4ad7-aac7-726d35d23a50.wad` is in fact **SIGILII.WAD**.
 
-You can then copy and paste it into `retrodeck/roms/doom/` and rename it to `SIGILII.WAD`.
+**You can then copy it into:**
 
-#### Addon List - KEX Engine version
+`retrodeck/roms/doom/` and rename it to:
+
+`SIGILII.WAD`.
+
+---
+
+#### Addon List with True WAD Names - KEX Engine version
 
 This list only shows you some of the bnetwads (to match the content of the Unity version).
 
@@ -134,7 +140,6 @@ This list only shows you some of the bnetwads (to match the content of the Unity
 | REKKR                    |   Matthew Little (Revae) et al.                     |   `REKKR.WAD`        |  `b15ec9df-3db9-43dd-a733-0ca25c74fdfc.wad`    | |
 | Revolution!              |   Thomas van der Velden; MIDI pack contributors     |   `TVR!.WAD`         |  `2598592c-079b-4a3e-a7e0-6cd3fdc15b7d.wad`    | |
 | Scientist                |   Roland van der Velden                             |   `SCI.WAD`          |  `e8b69c7e-5763-49c4-8643-a8138cc397e0.wad`    | |
-| SIGIL II                 |   Romero Games                                      |   `SIGILII.WAD`      |  `585d6a05-e50c-4ad7-aac7-726d35d23a50.wad`    | |
 | Syringe                  |   Pavera, Tarnsman, Marcaek, & Xaser                |   `SYRINGE.WAD`      |  `d1b4f278-55b5-4597-9f66-b17176e0843d.wad`    | |
 | The Troopers' Playground |   Matthias Worch                                    |   `TTP.WAD`          |  `a6d72845-9449-45ba-9322-98c66362ab09.wad`    | |
 
@@ -150,6 +155,7 @@ The `bnetwad id` should tell you what the file is called and also where the file
 
 ## Unity version 2019
 
+
 ### Steam
 
 #### Unity version 2019 - Via the Beta Branch
@@ -162,56 +168,52 @@ On Steam you can still access them on the Beta Branch (as of now) by:
 2. Press `Properties`.
 3. Go to the `Betas` tab.
 4. Beta Patrticipation change to `Previous re-release 2019 version`
-5. Launch the game and keep following the guide
+5. Launch the game and keep following the guide.
+
+---
+
+#### Steam - Base Core IWADs and DLC Locations
+
+| Game     | Type        | Location                                                                                  |
+|----------|------------|-------------------------------------------------------------------------------------------|
+| DOOM 2   | Masterbase IWADs | `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/doom2/`                          |
+| DOOM 2   | Masterbase IWADs | `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/master/wads/`                   |
+| DOOM 2   | Masterbase IWADs | `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/Doom 2/masterbase/doom2/`      |
+| DOOM 2   | DLC/WADs   | `~/.local/share/Steam/steamapps/compatdata/2300/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM 2/WADs/` |
+| DOOM 1   | Base IWAD  | `~/.local/share/Steam/steamapps/common/Ultimate Doom/base/`                               |
+| DOOM 1   | DLC/WADs   | `~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM Classic/WADs/` |
 
 
-#### Steam - Where are the base core iwads?
+---
 
-DOOM 2:
+### Unity 2019 Version - Getting the Official Add-ons
 
-- `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/doom2/`
-- `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/master/wads/`
-- `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/Doom 2/masterbase/doom2/`
+**Prerequisite:** First, download the add-ons from within the 2019 Unity Version.
 
-DOOM 1:
+1. From the **Main Menu**, go to the **Add-ons Menu**.
+2. Download all available add-ons.
 
-`DOOM.WAD`
+---
 
-- `~/.local/share/Steam/steamapps/common/Ultimate Doom/base/`
+#### How to Grab the Files?
 
-#### Steam - DOOM DLC Location
+Each add-on file is located in the `WADs/` folder from the previous step. Each folder is named with an ID number that corresponds to the add-on.
 
-**DOOM 2:**
+**Example: Sigil**
 
-Steam:
+- Sigil has the ID `4`, so it is located in `/WADs/4/`.
+- Inside that folder, you will find images and a file named `4` (no extension).  
+- That `4` file is the actual `SIGIL.WAD`.
 
-`~/.local/share/Steam/steamapps/compatdata/2300/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM 2/WADs/`
+To use it:
 
-**DOOM 1:**
+1. Copy `/WADs/4/4`
+2. Into`retrodeck/roms/doom`
+3. Rename it `SIGIL.WAD`
 
-Steam:
+---
 
-`~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM Classic/WADs/`
-
-### GOG
-
-W.I.P
-
-#### GOG - Where are the base core iwads?
-
-W.I.P
-
-#### GOG - DOOM DLC Location
-
-W.I.P
-
-### Untity 2019 Version - Get the Official Addons
-
-**Prerequisite:** You first need to download the addons from within the 2019 Unity Version.
-
-Go from the `Main Menu` into the `Addons Menu` download them all.
-
-#### Addon List - Unity version
+#### Addon List with ID - Unity version 
 
 | Name                     |                      Creator                        |    True WAD name         | ADDON ID |   Comment  |
 | :---                     | :---                                                |        :---:         |  :---:   |       :---:   |
@@ -237,19 +239,8 @@ Go from the `Main Menu` into the `Addons Menu` download them all.
 | TNT: Evilution           |   Team TNT                                          |   `TNT.WAD`          |  `1`     | |
 | The Troopers' Playground |   Matthias Worch                                    |   `TTP.WAD`          |  `20`    | |
 
-#### How to extract them?
 
-Each file is located in the `WADs/` folder from the step above with an ID number that you can check on the list.
-
-**Example: Sigil**
-
-Sigil has the ID of `4` and is then located in the `/WADs/4/` folder.
-
-Within that folder there are images and also a file without an extension just called `4`.
-That `4` file is the `SIGIL.WAD` file.
-
-All you need to do is copy the ``/WADs/4/4` file to `retrodeck/roms/doom` then rename it `SIGIL.WAD`.
-
+---
 
 #### DOOM Unity Version - Extra: Windows tips
 

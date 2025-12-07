@@ -10,11 +10,11 @@ You will find Flips inside the RetroDECK Configurator as its own component.
 
 ---
 
-## What are ROM Hacks?
+## ROM Hacks
 
 A **ROM Hack** is a fan-made modification of a game’s original ROM file that changes or adds content. 
 
-Some ROM Hacks can be **combined**, allowing multiple hacks to be applied to the same game for a merged or enhanced experience.  
+Some ROM hacks are **compatible with each other**, allowing multiple hacks to be applied to the same game for an integrated or enhanced experience.
 
 ### Common Types
 
@@ -47,23 +47,25 @@ Here are just a few:
 
 ---
 
-## Before you begin
+## Before You Begin
 
-- Always back up the original ROM before patching or modifying anything.
-- BPS patches are recommended due to better accuracy and safety.
-- Ensure the ROM used is the exact version required by the patch.
-- Errors generally indicate a mismatched or modified base ROM.
+- Always back up the original ROM before patching or modifying anything.  
+- BPS patches are recommended due to better accuracy and safety.  
+- Ensure the ROM used is the exact version required by the patch.  
+- Errors generally indicate a mismatched or modified base ROM.  
+- When applying multiple ROM hacks, **check compatibility** and follow the **recommended order**, as it can vary for each hack.
 
 ---
 
 ## Applying a Patch (IPS/BPS)
 
-1. Select **Apply Patch** in the Flips window.
-2. Choose the patch file (.ips or .bps).
-3. When prompted, select the clean, unmodified ROM required for the patch.
-4. Choose where to save the patched output ROM.
-5. The patched ROM is now ready.
-6. Rename the new file according
+0. **Back up the clean, original ROM** before making any modifications.  
+1. Select **Apply Patch** in the Flips window.  
+2. Choose the patch file (.ips or .bps).  
+3. When prompted, select the clean, unmodified ROM required for the patch.  
+4. Choose where to save the patched output ROM.  
+5. The patched ROM is now ready.  
+6. Rename the new file accordingly.
 
 ---
 

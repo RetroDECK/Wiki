@@ -29,7 +29,7 @@ RetroDECK will see the folder as a **single game** and launch the `.m3u` file.
 
 ## Step 1: Create a .m3u Sub-folder
 
-1. Create a new folder in `roms/psx` (or your system folder).
+1. Create a new folder in `roms/psx/`.
 2. Move all game files into it.
 3. Name the folder `Dragon Fantasy VII.m3u`.
 

@@ -103,6 +103,7 @@ Save the configuration for this game via **Core Options → Manage Core Options 
 
 **Important:**
 
+- In **ES-DE**, assign the game to use the **Beetle PSX HW** core.
 - Works **only with Vulkan**.
 - `[game_filename]` must exactly match the game file name.
 - `[game_filename]-texture-replacements` must **not contain subfolders**.
@@ -113,13 +114,7 @@ Save the configuration for this game via **Core Options → Manage Core Options 
 
 ---
 
-## Prerequisites: Set the Beetle PSX HW Core
-
-1. In **ES-DE**, assign the game to use the **Beetle PSX HW** core.
-
----
-
-## Step 1: Enable Texture Replacements
+### Enable Texture Replacements
 
 1. Launch **RetroArch** via RetroDECK’s ES-DE frontend.
 2. Open the **Quick Menu → Options**.

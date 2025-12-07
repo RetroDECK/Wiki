@@ -1,12 +1,17 @@
-# Multidisk/File Games: Folders Interpreted as Files
+# Multidisk/File Games: Folders as Files
 
 <img src="../../../wiki_icons/pixelitos/application-x-iso.png" width="75">
 
-To keep your game list clean, you can put all the game files inside a sub-folder. This folder will be seen as the game itself in RetroDECK, not as an actual folder. The folder needs to have the corresponding `.m3u` file and be renamed to the exact filename of the `.m3u`.
+To keep your game list tidy, you can place all game files inside a **sub-folder**. RetroDECK will treat the folder as a single game, not as a regular folder. The folder must contain a `.m3u` file and be **named exactly** like the `.m3u`.
 
-For more information, you can check the: [ES-DE UserGuide: Folders as Files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#directories-interpreted-as-files).
+More info: [ES-DE UserGuide: Folders as Files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#directories-interpreted-as-files)
 
-## Guide - How do I create a Multidisk Folder?
+### Information
+
+- It is recommended to use **.chd** files because they take less disk space if the component supports it.
+- If you have **.bin / .cue** files, only list the **.cue** files in the `.m3u`.
+
+## Example: PlayStation 1 Game `Dragon Fantasy VII`
 
 Let's use the fake PlayStation 1 game `Dragon Fantasy VII` as an example.
 
@@ -19,18 +24,18 @@ Let's use the fake PlayStation 1 game `Dragon Fantasy VII` as an example.
     ├── Dragon Fantasy VII - Disk3.chd <--- Game Disc
     └── Dragon Fantasy VII.m3u <--- The .m3u file
 ```
-In this case the folder will be viewed as a single game and it will launch `Dragon Fantasy VII.m3u`.
 
-### Step 1: Create a .m3u Sub-folder
+RetroDECK will see the folder as a **single game** and launch the `.m3u` file.
 
-Make a new sub-folder in `roms/psx` (or whichever system you are creating for) and move the `Dragon Fantasy VII` files there.
-Name the folder `Dragon Fantasy VII.m3u`.
+## Step 1: Create a .m3u Sub-folder
 
-**Result:**
+1. Create a new folder in `roms/psx` (or your system folder).
+2. Move all game files into it.
+3. Name the folder `Dragon Fantasy VII.m3u`.
 
-Path: `retrodeck/roms/psx/Dragon Fantasy VII.m3u`
+**Folder Path:** `retrodeck/roms/psx/Dragon Fantasy VII.m3u`
 
-Content: 
+**Folder Content:**
 
 ```
 ─── Dragon Fantasy VII.m3u   <--- Folder
@@ -39,21 +44,21 @@ Content:
     └── Dragon Fantasy VII - Disk3.chd <--- Game Disc
 ```
 
-### Step 2: Create a .m3u File in the Sub-folder
+## Step 2: Create the .m3u File
 
-Create an empty file in the `Dragon Fantasy VII.m3u` folder with the same name as the folder: `Dragon Fantasy VII.m3u`.
+1. Inside the folder, create a file named **exactly** like the folder: `Dragon Fantasy VII.m3u`.
 
-**Result:**
+**File Path:**
 
 `retrodeck/roms/psx/Dragon Fantasy VII.m3u/Dragon Fantasy VII.m3u`
 
-### Step 3: Populate the .m3u File
+## Step 3: Populate the `.m3u` File
 
-Open the `Dragon Fantasy VII.m3u` file with a text editor and write the filenames of all files in the folder, one per line and save.
+1. Open the `.m3u` file in a text editor.
+2. List all disk filenames, one per line.
+3. Save the file with **Unix (LF) line endings**.
 
-The file should have Unix line endings (LF), not Windows (CR+LF).
-
-**Result:**
+**Example Content:*
 
 This shows the content of the`Dragon Fantasy VII.m3u` file:
 
@@ -63,6 +68,6 @@ Dragon Fantasy VII - Disk2.chd
 Dragon Fantasy VII - Disk3.chd
 ```
 
-### Step 4: Launch RetroDECK
+## Step 4: Launch RetroDECK
 
-The ES-DE interface that RetroDECK uses should now recognize the game as one file.
+RetroDECK will now recognize the folder as **one game** and launch it correctly.

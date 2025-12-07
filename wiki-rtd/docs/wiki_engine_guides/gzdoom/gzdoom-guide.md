@@ -50,34 +50,30 @@ DOOM games should be put under the `retrodeck/roms/doom/` directory.
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
-No, but will need copies of DOOM. 
+No. GZDoom does not require any BIOS or firmware files.
+
+However, you do need copies of the official **DOOM** game data (WAD files) or you can use Freedoom.
 
 ### Where to buy official DOOM?
 
-To get started, you will need to purchase `DOOM` and `DOOM II`.
+Below is a combined table containing both **Steam** and **GOG** purchase links for all relevant DOOM titles.
 
-While `DOOM 3` and `DOOM 64` 64 are not necessary, sometimes it's more cost-effective to buy the entire bundle.
+| Game / Bundle            | Steam Link                                                              | GOG Link                                                               |
+|--------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------|
+| DOOM Classic Bundle      | [Steam](https://store.steampowered.com/bundle/27490/DOOM_Classic_Bundle/)| —                                                                      |
+| DOOM + DOOM II           | [Steam](https://store.steampowered.com/app/2280/DOOM__DOOM_II/)        | [GOG](https://www.gog.com/en/game/doom_doom_ii)                       |
+| DOOM 64                  | [Steam](https://store.steampowered.com/app/1148590/DOOM_64/)            | [GOG](https://www.gog.com/en/game/doom_64)                             |
+| DOOM 3                   | [Steam](https://store.steampowered.com/app/208200/DOOM_3/)              | [GOG](https://www.gog.com/en/game/doom_3)                              |
 
-**GOG Links:**
-
-- [DOOM + DOOM II - GOG](https://www.gog.com/en/game/doom_doom_ii)
-- [DOOM 64 - GOG](https://www.gog.com/en/game/doom_64)
-- [DOOM 3 - GOG](https://www.gog.com/en/game/doom_3)
-
-**Steam Links:**
-
-- [DOOM Classic Bundle - Steam](https://store.steampowered.com/bundle/27490/DOOM_Classic_Bundle/)
-- [DOOM + DOOM II - Steam](https://store.steampowered.com/app/2280/DOOM__DOOM_II/)
-- [DOOM 64 - Steam](https://store.steampowered.com/app/1148590/DOOM_64/)
-- [DOOM 3 - Steam](https://store.steampowered.com/app/208200/DOOM_3/)
+*Note: DOOM + DOOM II is all you need for GZDoom. The others are optional.*
 
 ### Freedoom
 
-The Freedoom project aims to provide all the content needed to form a complete, entirely free/libre game for the Doom engine.
+**Freedoom** is a free, open-source project that provides all the game data needed to create a fully playable game using the Doom engine.
 
-It is designed to be compatible with most custom levels, music, graphics, and other modifications ("mods") made for the original Doom games by Doom fans and artists over the decades.
+It is compatible with most community-made levels, graphics, music, and mods created for the original DOOM games.
 
-[FreeDOOM](https://freedoom.github.io/)
+🔗 **Website:** [Freedoom](https://freedoom.github.io/)
 
 ---
 

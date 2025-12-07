@@ -128,7 +128,7 @@ The [IWADS](https://doomwiki.org/wiki/IWAD) Gzdoom is looking for to be able to 
 | STRIFE0.WAD              | Strife shareware                                  |          |
 | STRIFE1.WAD              | Strife                                            |          |
 | TNT.WAD                  | TNT: Evilution                                    |          |
-| VOICES.WAD               | Strife Voices                                    | Needs STRIFE1.WAD to be used 
+| VOICES.WAD               | Strife Voices                                    | Needs STRIFE1.WAD to be used   |
 
 
 ---

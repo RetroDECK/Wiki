@@ -241,7 +241,7 @@ This makes using mods and switching between episodes much easier.
 | doomunity.wad    | Unity Doom                                           | Unity version of Doom (rename **doom.wad** ➝ **doomunity.wad** ).              |
 | doom2.wad        | Doom II                                              | Original Doom II IWAD.              |
 | doom2bfg.wad     | Doom II BFG Edition                                  | BFG Edition extra content.          |
-| doom2unity.wad   | Unity Doom II                                        | Unity version of Doom II. (rename **doom.wad** ➝ **doomunity.wad** ).           |
+| doom2unity.wad   | Unity Doom II                                        | Unity version of Doom II. (rename **doom.wad** ➝ **doom2unity.wad** ).           |
 | doom3do.wad      | Doom 3DO Soundtrack                                  | 3DO music WAD.                      |
 | doomzero.wad     | Doom Zero                                            | Unity-released megawad.             |
 | extras.wad       | Unity Add-ons                                        | Bonus assets for Unity ports.       |

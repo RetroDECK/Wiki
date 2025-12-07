@@ -73,7 +73,7 @@ Below is a combined table containing both **Steam** and **GOG** purchase links f
 
 It is compatible with most community-made levels, graphics, music, and mods created for the original DOOM games.
 
-🔗 **Website:** [Freedoom](https://freedoom.github.io/)
+**Website:** [Freedoom](https://freedoom.github.io/)
 
 ---
 

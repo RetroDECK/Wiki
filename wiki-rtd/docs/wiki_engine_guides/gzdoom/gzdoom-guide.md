@@ -92,40 +92,39 @@ It is compatible with most community-made levels, graphics, music, and mods crea
 ---
 
 
-## What are iwads gzdoom is looking for?
+## What IWADs is GZDoom looking for?
 
-The [IWADS](https://doomwiki.org/wiki/IWAD) Gzdoom is looking for to be able to run are the following:
+The [IWADs](https://doomwiki.org/wiki/IWAD) GZDoom requires to run are listed below:
 
-| File                     | What is it?                                      | Comments |
-| :---                     | :---:                                            | :---:    |
-| ACTION2.WAD              | Action Doom 2: Urban Brawl                       |          |
-| BLASPHEM.WAD             | Blasphemer                                       |          |
-| CHEX.WAD                 | Chex Quest                                       |          |
-| CHEX3.WAD                | Chex Quest 3                                     |          |
-| DELAWEARE.WAD            | Delaweare                                        |          |
-| DOOM.WAD                 | Doom shareware                                   |          |
-| DOOM1.WAD                | Doom                                             |          |
-| DOOM2.WAD                | Doom II: Hell on Earth                            |          |
-| DOOM2F.WAD               | Doom II French                                   |          |
-| DOOM64.WAD               | Doom 64                                          |          |
-| DOOM_COMPLETE.PK3        | WadSmoosh merged Doom                            |          |
-| FREEDOOM1.WAD            | Freedoom Phase 1                                 |          |
-| FREEDOOM2.WAD            | Freedoom Phase 2                                 |          |
-| FREEDM.WAD               | Freedoom Deathmatch                              |          |
-| HEXDD.WAD                | Hexen: Deathkings of the Dark Citadel           | Needs HEXEN.WAD to play |
-| HEXEN.WAD                | Hexen: Beyond Heretic                             |          |
-| HACX.WAD                 | HACX                                             |          |
-| HARM1.WAD                | Harmony                                          |          |
-| HERETIC.WAD              | Heretic: Shadow of the Serpent Riders           |          |
-| HERETIC1.WAD             | Heretic shareware                                |          |
-| PLUTONIA.WAD             | Plutonia Experiment                               |          |
-| ROTWB.WAD                | Rise Of The Wool Ball                             |          |
-| SQUARE1.PK3              | The Adventures of Square                           |          |
-| STRIFE0.WAD              | Strife shareware                                  |          |
-| STRIFE1.WAD              | Strife                                            |          |
-| TNT.WAD                  | TNT: Evilution                                    |          |
-| VOICES.WAD               | Strife Voices                                    | Needs STRIFE1.WAD to be used   |
-
+| File                  | What is it?                                     | Comments                        |
+|-----------------------|------------------------------------------------|---------------------------------|
+| ACTION2.WAD           | Action Doom 2: Urban Brawl                     |                                 |
+| BLASPHEM.WAD          | Blasphemer                                     |                                 |
+| CHEX.WAD              | Chex Quest                                     |                                 |
+| CHEX3.WAD             | Chex Quest 3                                   |                                 |
+| DELAWEARE.WAD         | Delaweare                                      |                                 |
+| DOOM.WAD              | Doom - Shareware                                 |                                 |
+| DOOM1.WAD             | Doom                                           |                                 |
+| DOOM2.WAD             | Doom II: Hell on Earth                          |                                 |
+| DOOM2F.WAD            | Doom II French                                 |                                 |
+| DOOM64.WAD            | Doom 64                                        |                                 |
+| DOOM_COMPLETE.PK3     | WadSmoosh Merged Doom                          |                                 |
+| FREEDOOM1.WAD         | Freedoom Phase 1                               |                                 |
+| FREEDOOM2.WAD         | Freedoom Phase 2                               |                                 |
+| FREEDM.WAD            | Freedoom Deathmatch                            |                                 |
+| HEXDD.WAD             | Hexen: Deathkings of the Dark Citadel         | Needs HEXEN.WAD to play         |
+| HEXEN.WAD             | Hexen: Beyond Heretic                           |                                 |
+| HACX.WAD              | HACX                                           |                                 |
+| HARM1.WAD             | Harmony                                        |                                 |
+| HERETIC.WAD           | Heretic: Shadow of the Serpent Riders         |                                 |
+| HERETIC1.WAD          | Heretic - Shareware                              |                                 |
+| PLUTONIA.WAD          | Plutonia Experiment                            |                                 |
+| ROTWB.WAD             | Rise Of The Wool Ball                           |                                 |
+| SQUARE1.PK3           | The Adventures of Square                        |                                 |
+| STRIFE0.WAD           | Strife - Shareware                                |                                 |
+| STRIFE1.WAD           | Strife                                         |                                 |
+| TNT.WAD               | TNT: Evilution                                 |                                 |
+| VOICES.WAD            | Strife Voices                                  | Needs STRIFE1.WAD to be used    |
 
 ---
 

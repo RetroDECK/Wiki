@@ -20,7 +20,7 @@ To simplify management, RetroDECK tries to organize all texture packs under:
 
 |  Core        | texture_packs                          | Source Directory                   | Description      |
 |------------------------|-----------------------------------------------------|----------------------------------------------------------|----------------------------|
-| **Beetle PSX HW**      | `retrodeck/roms/psx/[game_filename]-texture-replacements/`*    | -               | PlayStation 1              |
+| **Beetle PSX HW**      | `retrodeck/roms/psx/[game_filename]-texture-replacements/`    | -               | PlayStation 1              |
 | **Citra**              | `retrodeck/texture_packs/retroarch/Citra/textures`           | `retroarch/saves/Citra/load/textures`                  | Nintendo 3DS               |
 | **Dolphin**            | `retrodeck/texture_packs/retroarch/Dolphin/Textures`         | `retroarch/saves/dolphin-emu/User/Load/Textures/`     | GameCube / Wii             |
 | **Flycast**            | `retrodeck/texture_packs/retroarch/Flycast/textures`         | `system/dc/textures`                                   | Sega Dreamcast             |

@@ -106,7 +106,10 @@ Save the configuration for this game via **Core Options → Manage Core Options 
 - Works **only with Vulkan**.
 - `[game_filename]` must exactly match the game file name.
 - `[game_filename]-texture-replacements` must **not contain subfolders**.
-- `[game_filename]-texture-replacements` must **not contain compressed files** (e.g., ZIPs); textures must be extracted.
+- `[game_filename]-texture-replacements` must **not contain compressed files** all textures must be extracted.
+- **Internal GPU Resolution** should be set higher than `1x (Native)`.
+- **Supersampling → Downsample to Native Resolution** should be **disabled** otherwise, differences may not be noticeable at low resolution.
+- Custom textures may **not load when using a save state**. Triggering a scene change in-game may be necessary to refresh textures.
 
 ---
 

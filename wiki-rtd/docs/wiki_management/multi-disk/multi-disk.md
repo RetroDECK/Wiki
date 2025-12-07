@@ -8,8 +8,8 @@ More info: [ES-DE UserGuide: Folders as Files](https://gitlab.com/es-de/emulatio
 
 ### Information
 
-- It is recommended to use **.chd** files because they take less disk space if the component supports it.
-- If you have **.bin / .cue** files, only list the **.cue** files in the `.m3u`.
+- It is recommended to use **.chd** files, as they take up less disk space if the component supports it. You can use the built-in compressor tool in the RetroDECK Configurator to convert other formats.
+- If you have **.bin / .cue** files, only include the **.cue** files in the `.m3u` playlist.
 
 ## Example: PlayStation 1 Game `Dragon Fantasy VII`
 

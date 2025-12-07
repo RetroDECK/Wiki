@@ -1,36 +1,37 @@
-# Can you Add DLC to Citra Core in RetroArch?
+# Citra Core: Adding DLC
 
-No, not natively. The RetroArch core does not support DLC files. 
+The RetroArch Citra core **does not natively support DLC or updates**. However, you can transfer them from a defunct standalone Citra (Citra-SA) installation.  
 
-But you can move them from Citra-SA (This is not shipped in RetroDECK). You can use an external Citra or fork to generate the files.
+**Note:** Some games may not detect DLC correctly due to limitations in the RetroArch Citra core. 
 
-Note this might not work anymore as the Citra core is quite old.
+Using a more recent standalone alternative like Azahar is recommended if updates or DLC are required.
 
-## Open Citra-SA
+---
 
-   - Open the standalone Citra or fork emulator.
-   - Go to `File` > `Install CIA...` and select the .cia file for the update or DLC.
-   - This will install the update/DLC within the standalone Citra emulator.
+## Step 1: Install DLC/Updates in Standalone Citra
 
-## Locate the Installed Update/DLC Folders 
+1. Open **Citra-SA** (standalone or fork version).
+2. Go to **File → Install CIA...** and select the `.cia` file for the update or DLC.
+3. This installs the update/DLC within the standalone emulator.
 
-   - Navigate to the Citra save directory on your system. The path is usually:
-   
-     ```
-     <Citra Install Location>/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/<titleID>/
-     ```
-   - Inside this directory, you will find three folders with numbers that corresponds to:
-     - Updates
-     - Saves & Installed Applications
-     - DLCs
+---
 
-## Copy the Update/DLC Folders to the correct RetroDECK Folder
+## Step 2: Locate the Installed DLC/Update Folders
 
-   - Copy the folders of Updates and Installed DLC from the standalone Citra directory.
-   - Paste these folders into the corresponding directory in RetroDECK's Citra core save folder. The path should be similar to the one used in standalone Citra.
-   
-   ```
-    retrodeck/saves/n3ds/citra/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/<titleID>/
-    ```
-    
-   - The game should now recognize the installed update/DLC from the copied folders in the RetroArch Core and can be used in RetroDECK.
+Navigate to the Citra save directory on your system, typically: `<Citra Install Location>/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/<titleID>/`
+
+Inside this folder, you will find subfolders corresponding to:
+
+- Updates
+- Saves & Installed Applications
+- DLCs
+
+---
+
+## Step 3: Copy Folders to RetroDECK
+
+1. Copy the **Updates** and **Installed DLC** folders from the standalone Citra directory.
+2. Paste them into the corresponding RetroDECK Citra core save folder: `retrodeck/saves/n3ds/citra/sdmc/Nintendo 3DS/00000000000000000000000000000000/00000000000000000000000000000000/<titleID>/` 
+3. Launch the game in RetroDECK. The core should now recognize the updates/DLC from the copied folders.
+
+---

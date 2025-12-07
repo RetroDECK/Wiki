@@ -349,9 +349,8 @@ nav:
 
     - RetroArch:
       - RetroArch - General Guide: wiki_emulator_guides/retroarch/retroarch-guide.md
-      - Mesen (NES) - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mesen-texture-pack.md
-      - Beetle (PSX) HW - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-beetlehw-texture-pack.md
-      - Mupen64Plus-Next (N64) - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-mupen64plus-texture-pack.md
+      - RetroArch - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-texture-pack.md
+      - RetroArch - Citra Core DLC Guide: wiki_emulator_guides/retroarch/retroarch-citra-dlc.md
 
     - RPCS3:
       - RPCS3 - General Guide: wiki_emulator_guides/rpcs3/rpcs3-guide.md

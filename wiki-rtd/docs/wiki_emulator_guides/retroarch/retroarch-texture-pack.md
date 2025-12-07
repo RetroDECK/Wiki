@@ -168,3 +168,32 @@ You can search various databases or wikis online to find the correct serial for 
 3. If the textures match the game, they should load the next time you launch it.
 
 ---
+
+
+
+## Flycast
+
+**Important:**
+  
+- **Extract the texture pack** from `.zip` or other compressed formats; do **not** leave them compressed.
+- `SERIAL` is different for every game. It's a unique code for each released game per region.
+
+**Example:**
+
+**SERIAL:** `T36802N` corresponds to the NTSC-U release of `Legacy of Kain: Soul Reaver`.
+
+You can search various databases or wikis online to find the correct serial for the version of the game you have.
+
+### Enable Texture Packs
+
+1. Open the **RetroArch Quick Menu**.
+2. Go to **Core Options → Emulation Hacks** → `Load Custom Textures` and set it to **On**.
+3. Save this configuration for the game via **Core Options → Manage Core Options → Save Game Options**.
+
+### How to Add Texture Packs
+
+1. Navigate to `retrodeck/texture_packs/retroarch/Flycast/textures`. The folders are named by `SERIAL`.
+2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch/Flycast/textures/<SERIAL>`
+3. If the textures match the game, they should load the next time you launch it.
+
+---

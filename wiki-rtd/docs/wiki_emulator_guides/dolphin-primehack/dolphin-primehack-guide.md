@@ -111,7 +111,7 @@ This shows what folder corresponds to each folder in the standard Dolphin struct
 | ROMs Wii Folder    | `retrodeck/roms/wii/`               |                                 |                                |         |
 | Screenshots        | `retrodeck/screenshots/`            | `var/data/dolphin-emu/ScreenShots/` | `dolphin-emu/ScreenShots/`     |         |
 | States             | `retrodeck/states/dolphin/`         | `var/data/dolphin-emu/StateSaves/` | `dolphin-emu/StateSaves/`      |         |
-| Texture Packs      | `retrodeck/mods/Dolphin/`           | `var/data/dolphin-emu/Load/Textures/` | `dolphin-emu/Load/Textures/`   |         |
+| Texture Packs      | `retrodeck/texture_packs/Dolphin/`  | `var/data/dolphin-emu/Load/Textures/` | `dolphin-emu/Load/Textures/`   |         |
 | Wii Saves          | `retrodeck/saves/wii/dolphin/`      | `var/data/dolphin-emu/Wii/`     | `dolphin-emu/Wii/`             |         |
 
 ---
@@ -131,7 +131,7 @@ This shows what folder corresponds to each folder in the standard PrimeHack stru
 | ROMs Wii Folder    | `retrodeck/roms/wii/`               |                                 |                                |         |
 | Screenshots        | `retrodeck/screenshots/`            | `var/data/primehack/ScreenShots/` | `primehack/ScreenShots/`       |         |
 | States             | `retrodeck/states/primehack/`       | `var/data/primehack/StateSaves/` | `primehack/StateSaves/`        |         |
-| Texture Packs      | `retrodeck/mods/Primehack/`         | `var/data/primehack/Load/Textures/` | `primehack/Load/Textures/`     |         |
+| Texture Packs      | `retrodeck/texture_packs/Primehack/`         | `var/data/primehack/Load/Textures/` | `primehack/Load/Textures/`     |         |
 | Wii Saves          | `retrodeck/saves/wii/primehack/`    | `var/data/primehack/Wii/`       | `primehack/Wii/`               |         |
 
 ---
@@ -188,9 +188,9 @@ Make sure you have the right game and textures for it.
 2. Go into mods folders, they contain folders that are all named by `GAME_ID`.
 3. Move the mods into the right folder: 
 
-**Dolphin:** `~/retrodeck/mods/dolphin/<GAME_ID>`
+**Dolphin:** `~/retrodeck/mods/dolphin/<SERIAL>`
 
-**Primehack:** `~/retrodeck/mods/primehack/<GAME_ID>`
+**Primehack:** `~/retrodeck/mods/primehack/<SERIAL>`
 
 If all is correct the mods should be loaded on next game launch.
 
@@ -217,9 +217,9 @@ Some texture packs could made for a specific version or region of a game. Make s
 2. Go into texture pack folders, they contain folders that are all named by `GAME_ID`.
 3. Move the textures into the right folder: 
 
-**Dolphin:** `~/retrodeck/texture_packs/dolphin/<GAME_ID>`
+**Dolphin:** `~/retrodeck/texture_packs/dolphin/<SERIAL>`
 
-**Primehack:** `~/retrodeck/texture_packs/primehack/<GAME_ID>` <br>
+**Primehack:** `~/retrodeck/texture_packs/primehack/<SERIAL>` <br>
 
 If all is correct the textures should be loaded on next game launch.
 

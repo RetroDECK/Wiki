@@ -36,7 +36,7 @@ If your game filenames contain any of the unsafe symbols, consider renaming them
 ---
 
 ## Folder structure
-🌟
+
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |          Comment     | 

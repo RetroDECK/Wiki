@@ -376,6 +376,9 @@ nav:
     - ES-DE Frontend:
       - ES-DE - General Guide: wiki_system_guides/es-de/esde-guide.md
 
+    - Flips:
+      - Flips - General Guide: wiki_system_guides/flips/flips-guide.md      
+
     - Steam Rom Manager:
       - SRM - General Guide: wiki_system_guides/srm/srm-guide.md
 
@@ -385,7 +388,7 @@ nav:
   - Guides - Ports ⛵:
 
     - PortMaster:
-      - PortMaster - General Guide: wiki_port_guides/portmaster/portmaster-guide.md
+      - PortMaster - General Guide: wiki_system_guides/portmaster/portmaster-guide.md
 
   - RetroDECK Experiments ⚗️:
 

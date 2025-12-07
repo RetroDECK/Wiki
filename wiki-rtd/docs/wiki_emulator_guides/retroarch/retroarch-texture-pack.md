@@ -18,7 +18,7 @@ To simplify management, RetroDECK tries to organize all texture packs under:
 ## RetroDECK - Texture Pack Directory Mapping
 
 
-|  Core        | texture_packs                          | Source Directory                   | Description (Short)        |
+|  Core        | texture_packs                          | Source Directory                   | Description      |
 |------------------------|-----------------------------------------------------|----------------------------------------------------------|----------------------------|
 | **Beetle PSX HW**      | `retrodeck/roms/psx/[game_filename]-texture-replacements/`*    | -               | PlayStation 1              |
 | **Citra**              | `retrodeck/texture_packs/retroarch/Citra/textures`           | `retroarch/saves/Citra/load/textures`                  | Nintendo 3DS               |

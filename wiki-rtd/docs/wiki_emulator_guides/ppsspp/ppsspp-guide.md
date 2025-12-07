@@ -63,32 +63,40 @@ No
 | ROMs Folder |`retrodeck/roms/psp/` |                               |  
 | Saves Folder |`retrodeck/saves/PSP/PPSSPP-SA/` |                               |  
 | States Folder |`retrodeck/states//PSP/PPSSPP-SA/` |                               |  
-| Texture Packs Folder |`retrodeck/texture_packs/ppsspp/` |       Corresponds to `PSP/TEXTURES/` folder                        | 
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/ppsspp/PSP/`         |  |
+| Texture Packs Folder |`retrodeck/texture_packs/ppsspp-sa/` |       Corresponds to `PSP/TEXTURES/` folder                        | 
+| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/ppsspp-sa/PSP/`         |  |
 
 ---
 
 ## Adding Texture Packs
 
-The `~/retrodeck/texture_packs/ppsspp/` represents the `/PSP/TEXTURES/` folder in PPSSPP.
+The `~/retrodeck/texture_packs/ppsspp-sa/` folder represents the `/PSP/TEXTURES/` folder in PPSSPP.
 
-**Note:** <br>
-Some texture packs could made for a specific version or region of the game. Make sure you have the right rom and textures for it.
+**Note:**  
+Some texture packs may be made for a specific version or region of the game. Make sure you have the correct ROM and textures for it.
 
-**Note:**<br>
-`TITLEID` is different for every game.
+`SERIAL` is different for every game. It's a unique code for each released game per region.
 
+**Example:**
+
+**SERIAL:** `ULUS-10080` corresponds to the NTSC-U release of `007-From Russia with Love`.
+
+You can search various databases or wikis online to find the correct serial for the version of the game you have for example: 
+
+- [psxdatacenter.com](https://psxdatacenter.com/). 
+- Wikipedia
 
 ### Enable Custom Textures
 
-1. Open up PPSSPP inside `RetroDECK Configurator` by pressing `Open Emulator` - `PPSSPP`.
-2. Press `Settings` -> `Tools` -> `Developer Tools` -> `Replace Textures` and set it to `On`.
+1. Open PPSSPP inside **RetroDECK Configurator** by pressing `Open Emulator` → `PPSSPP`.
+2. Go to `Settings` → `Tools` → `Developer Tools` → `Replace Textures` and set it to `On`.
 
-### How do I add texture packs?
+### How to Add Texture Packs
 
-1. Extract any texture pack files from compressed `.zip` or any other format into folders.
-2. Go into `~/retrodeck/texture_packs/ppsspp/`. The folders are all named by `TITLEID`.
-3. Paste the textures into right folder `~/retrodeck/texture_packs/ppsspp/<TITLEID>`
-4. If the textures match the game they should be loaded on next time you launch the game.
+1. Extract the texture pack files from compressed `.zip` or other formats into folders.
+2. Navigate to `retrodeck/texture_packs/ppsspp-sa/`. The folders are named by `SERIAL`.
+3. Paste the textures into the correct folder:  `retrodeck/texture_packs/ppsspp-sa/<SERIAL>`
+4. If the textures match the game, they should load the next time you launch it.
+
 
 ---

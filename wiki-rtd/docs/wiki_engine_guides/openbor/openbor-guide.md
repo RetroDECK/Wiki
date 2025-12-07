@@ -4,6 +4,12 @@
 
 Open Beats of Rage (`OpenBOR`) is a beat 'em up game engine.
 
+
+### Information:
+
+- `.bor` / `.openbor` are uncompressed game folders. 
+- Each game is self-contained; there is no global settings file.
+
 ---
 
 ### OpenBOR Links:
@@ -39,10 +45,11 @@ No, OpenBOR games are self-contained.
 | `.openbor`  | OpenBOR folder format |
 | `.bor`      | OpenBOR folder format |
 
-### Information:
+> **Note:** `.openbor` and `.bor` are functionally identical.
 
-- `.bor` and `.openbor` are uncompressed game folders. 
-- Each game is self-contained; there is no global settings file.
+Some handhelds, retro platforms, and emulation solutions use `.bor`, while others use `.openbor`. 
+
+To simplify file transfers and ensure compatibility with RetroDECK, both file extensions are supported.
 
 ---
 
@@ -54,12 +61,12 @@ No, OpenBOR games are self-contained.
 |:---------:|:---------------------------|:-------|
 | ROMs Folder     | `retrodeck/roms/openbor/`  | Root folder for all OpenBOR games |
 
-### Example folder structure for Folder game
+### Example folder structure for a game
 
-> **Important:** `.bor` or `.openbor` games require a text file inside the game folder named exactly like the folder:
-> `Heroes of Phandalin.bor` → `Heroes of Phandalin.bor` (text file).
-> `Heroes of Phandalin.openbor` → `Heroes of Phandalin.openbor` (text file).
+**Important:** `.bor` / `.openbor` require a text file inside the game folder named exactly like the folder:
 
+- `Heroes of Phandalin.bor` → `Heroes of Phandalin.bor` (text file).
+- `Heroes of Phandalin.openbor` → `Heroes of Phandalin.openbor` (text file).
 
 ```
 ~/retrodeck/roms/openbor/Heroes of Phandalin.bor/ <-- Folder has the same name as the file
@@ -74,37 +81,24 @@ No, OpenBOR games are self-contained.
 
 ## Adding OpenBOR Games to RetroDECK
 
-1. Extract the game into a new folder under `retrodeck/roms/openbor/` if it is compressed. 
-2. Rename the game folder according to its format:
-   - `.bor` → `<GameName>.bor`.
-   - `.openbor` → `<GameName>.openbor`.
-3. For `.bor` or `.openbor` games:
+Extract the game into a new folder under `retrodeck/roms/openbor/` if it is compressed. 
+
+Rename the game folder according to its format:
+
+   - `.bor` → `<GameName>.bor` / `.openbor` → `<GameName>.openbor`.
    - Ensure a text file with the same name as the folder exists inside the folder.
    - The textfile does not need to contain any data.
-   - You can either `.bor` or `.openbor`, it does not matter. RetroDECK supports both.
-   - End result should be: `<GameName>.bor/<GameName>.bor` or `<GameName>.openbor/<GameName>.openbor`.
+   - End result should be: `<GameName>.bor/<GameName>.bor` / `<GameName>.openbor/<GameName>.openbor`.
 
 The game should now be detected by RetroDECK.
 
 ### Example on Renaming
 
+**Folder:** Heroes of Phandalin.bor / Heroes of Phandalin.openbor
 
-```
-Folder: Heroes of Phandalin.bor
+**Text file inside folder:** Heroes of Phandalin.bor / Heroes of Phandalin.openbor
 
-Text file inside folder: Heroes of Phandalin.bor
-
-End result: ~/retrodeck/roms/openbor/Heroes of Phandalin.bor/Heroes of Phandalin.bor
-
-```
-
-```
-Folder: Heroes of Phandalin.openbor
-
-Text file inside folder: Heroes of Phandalin.openbor
-
-End result: ~/retrodeck/roms/openbor/Heroes of Phandalin.openbor/Heroes of Phandalin.openbor
-```
+**End result:** `~/retrodeck/roms/openbor/Heroes of Phandalin.bor/Heroes of Phandalin.bor` / `~/retrodeck/roms/openbor/Heroes of Phandalin.openbor/Heroes of Phandalin.openbor`
 
 ---
 

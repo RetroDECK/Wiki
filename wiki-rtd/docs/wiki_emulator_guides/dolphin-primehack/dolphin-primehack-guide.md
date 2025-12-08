@@ -174,7 +174,7 @@ Some texture packs could made for a specific version or region of a game.
 
 Make sure you have the right game and textures for it.
 
-`SERIAL` is different for every game.
+`GAME_ID` is different for every game.
 
 ### Enable Mods
 
@@ -185,12 +185,12 @@ Make sure you have the right game and textures for it.
 ### Adding the mods
 
 1. Extract any mod files from compressed `.zip` or any other format into folders.
-2. Go into mods folders, they contain folders that are all named by `SERIAL`.
+2. Go into mods folders, they contain folders that are all named by `GAME_ID`.
 3. Move the mods into the right folder: 
 
-**Dolphin:** `~/retrodeck/mods/dolphin/<SERIAL>`
+**Dolphin:** `~/retrodeck/mods/dolphin/<GAME_ID>`
 
-**Primehack:** `~/retrodeck/mods/primehack/<SERIAL>`
+**Primehack:** `~/retrodeck/mods/primehack/<GAME_ID>`
 
 If all is correct the mods should be loaded on next game launch.
 
@@ -202,7 +202,7 @@ The `~/retrodeck/texture_packs/dolphin/` & `~/retrodeck/texture_packs/primehack/
 
 Some texture packs could made for a specific version or region of a game. Make sure you have the right game and textures for it.
 
-`SERIAL` is different for every game.
+`GAME_ID` is different for every game.
 
 ### Enable Custom Textures
 
@@ -214,12 +214,12 @@ Some texture packs could made for a specific version or region of a game. Make s
 ### Adding the textures
 
 1. Extract any texture pack files from compressed `.zip` or any other format into folders.
-2. Go into texture pack folders, they contain folders that are all named by `SERIAL`.
+2. Go into texture pack folders, they contain folders that are all named by `GAME_ID`.
 3. Move the textures into the right folder: 
 
-**Dolphin:** `~/retrodeck/texture_packs/dolphin/<SERIAL>`
+**Dolphin:** `~/retrodeck/texture_packs/dolphin/<GAME_ID>`
 
-**Primehack:** `~/retrodeck/texture_packs/primehack/<SERIAL>` <br>
+**Primehack:** `~/retrodeck/texture_packs/primehack/<GAME_ID>` <br>
 
 If all is correct the textures should be loaded on next game launch.
 

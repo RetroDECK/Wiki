@@ -22,8 +22,7 @@ To simplify management, **RetroDECK** tries to organize all texture packs under 
 | **Dolphin**            | `retrodeck/texture_packs/retroarch/Dolphin/Textures`         | `retroarch/saves/dolphin-emu/User/Load/Textures/`     | GameCube / Wii             |
 | **Flycast**            | `retrodeck/texture_packs/retroarch/Flycast/textures`         | `system/dc/textures`                                   | Sega Dreamcast             |
 | **Mesen**              | `retrodeck/exture_packs/retroarch/Mesen/HdPacks`            | `retroarch/system/HdPacks`                              | NES                        |
-| **Mupen64Plus**        | `retrodeck/texture_packs/retroarch/Mupen64Plus/cache`        | `retroarch/system/Mupen64plus/cache`                   | Nintendo 64 cached textures               |
-| **Mupen64Plus**        | `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_texture` | `retroarch/system/Mupen64plus/hires_texture`         | Nintendo 64 high-resolution texture                |
+| **Mupen64Plus**        | `retrodeck/texture_packs/retroarch/Mupen64Plus/cache`  <br>  `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_texture`      | `retroarch/system/Mupen64plus/cache`  <br>   `retroarch/system/Mupen64plus/hires_texture`                | Nintendo 64 cached textures and high-resolution textures             |
 | **PPSSPP**             | `retrodeck/texture_packs/retroarch/PPSSPP/TEXTURES`          | `retroarch/saves/PPSSPP/PSP/TEXTURES`                  | PSP                        |
 
 ---
@@ -36,38 +35,150 @@ To simplify management, **RetroDECK** tries to organize all texture packs under 
 
 ### Troubleshooting: Textures Not Showing
 
-- Ensure that the **texture pack folder name matches the ROM name** and/or contains the **correct SERIAL**. All files must be **properly extracted** for RetroArch to recognize them.
+- Ensure that the **texture pack folder name matches the ROM name** and/or contains the  SERIAL / GAME_ID / TITLE_ID. All files must be **properly extracted** for RetroArch to recognize them.
 - Some texture packs are designed for specific **game versions or regions**. Verify that the texture pack matches the **exact version** of the game you are using.
 - Check for unnecessary subfolders. In most cases, textures should be located directly in the **root of the texture pack folder** rather than nested inside additional directories.
 
-
 ---
 
-## Mesen Core
+## Beetle PSX HW Core
 
 **Important:**
-  
-- **Folder names must exactly match the ROM filename** (excluding the extension).
 
-### Enable HD Packs
+- Works **only with Vulkan**.
+- `[game_filename]` must exactly match the game file name.
+- `[game_filename]-texture-replacements` must **not contain subfolders**.
+- `[game_filename]-texture-replacements` must **not contain compressed files** all textures must be extracted.
+- `Internal GPU Resolution` should be set higher than **1x (Native)**.
+- `Supersampling` → `Downsample to Native Resolution` should be **Disabled** otherwise, differences may not be noticeable at low resolution.
+- Custom textures may **not load when using a save state**. Triggering a scene change in-game may be necessary to refresh textures.
 
-1. Open the **RetroArch Quick Menu**.
-2. Go to **Core Options**
-3. `Enable HD Packs` and set it to **On**.
-4. Save this configuration for the game via **Core Options → Manage Core Options → Save Game Options**.
+### Enable Texture Replacements
+
+1. Launch **RetroArch** via RetroDECK’s ES-DE frontend.
+2. Open the **Quick Menu → Options**.
+3. `Load Texture Replacements` to **Enabled** .
+4. Save the configuration for the game via **Core Options → Manage Core Options → Save Game Options**.
 
 ### Adding Texture Packs
 
-1. Place extracted texture pack folders in: `retrodeck/exture_packs/retroarch/Mesen/HdPacks/<ROM filename>/<textures>`.
-2. The folder name must match the ROM filename (without the `.nes` extension).
+1. Extract your textures into a folder named: `[game_filename]-texture-replacements` next to your game in the `retrodeck/psx/<game>` directory.
+2. `[game_filename]` must match the actual game file name.
 
-### Example: Dr. Jekyll and Mr. Hyde 
+### Example
 
-For the game `Dr. Jekyll and Mr. Hyde (USA).nes` with the downloaded pack `Dr. Jekyll and Mr. Hyde TexturePACK HD.zip`:
+`retrodeck/psx/Dragon Fantasy 7/DragonFantasy7-texture-replacements/`
 
-Place the extracted folder in the following **renamed directory**:
+---
 
-`texture_packs/retroarch/Mesen/HdPacks/Dr. Jekyll and Mr. Hyde (USA)/<textures>`
+
+## Citra Core
+
+**Important:**
+  
+- `TITLE_ID` is different for every game. It's a unique code for each released game per region.
+- `TITLE_ID` must exactly match the ROM you are using.
+
+**Example:**
+
+**TITLE_ID`:** `00040000000DE200` corresponds to the NTSC-U release of `3D Shinobi III: Return of the Ninja Master`.
+
+You can search various databases or wikis online to find the correct serial for the version of the game you have for example: 
+
+- [3dsdb](https://3dsdb.com/)
+- Wikipedia
+
+### Enable Texture Packs
+
+1. Open the **RetroArch Quick Menu**.
+2. Go to **Core Options**
+3. `Enable Custom Textures` and set it to **On**.
+4. `Resolution Scale` and set it to **4x** (or more).
+5. Save this configuration for the game via **Core Options → Manage Core Options → Save Game Options**.
+
+### How to Add Texture Packs
+
+1. Navigate to `retrodeck/texture_packs/retroarch/Citra/textures`. The folders are named by `TITLE_ID`.
+2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch/Citra/textures/<TITLE_ID>/<textures>`
+
+### Example: 3D Shinobi III: Return of the Ninja Master
+
+The full folder path will be:
+
+`retrodeck/texture_packs/retroarch/Citra/textures/00040000000DE200/<textures>`
+
+---
+
+## Dolphin Core
+
+**Important:**
+  
+- `GAME_ID` is different for every game. It's a unique code for each released game per region.
+- `GAME_ID` must exactly match the ROM you are using.
+
+**Example:**
+
+**GAME_ID`:** `RPJE7U` corresponds to the NTSC-U release of `Arc Rise Fantasia`.
+
+You can search various databases or wikis online to find the correct serial for the version of the game. Alternatively, by opening **Dolphin Standalone**, you can find it directly within the emulator:
+
+1. Right-click the game.
+2. Select **Properties**.
+3. Navigate to the **Info** tab.
+4. View the **Game ID**.
+
+### Enable Texture Packs
+
+1. Open the **RetroArch Quick Menu**.
+2. Go to **Core Options**
+3. `Load Custom Texturess` and set it to **On**.
+4. Save this configuration for the game via **Core Options → Manage Core Options → Save Game Options**.
+
+
+### How to Add Texture Packs
+
+1. Navigate to `retrodeck/texture_packs/retroarch/Dolphin/Textures`. The folders are named by `GAME_ID`.
+2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch/Dolphin/Textures/<GAME_ID>/<textures>`
+
+### Example: Arc Rise Fantasia
+
+The full folder path will be:
+
+`retrodeck/texture_packs/retroarch/Dolphin/Textures/RPJE7U/<textures>`
+
+---
+
+## Flycast Core
+ 
+**Important:**
+  
+- `SERIAL` is different for every game. It's a unique code for each released game per region.
+- `SERIAL` must exactly match the ROM you are using.
+
+**Example:**
+
+**SERIAL:** `T36802N` corresponds to the NTSC-U release of `Legacy of Kain: Soul Reaver`.
+
+You can search various databases or wikis online to find the correct serial for the version of the game you have.
+
+### Enable Texture Packs
+
+1. Open the **RetroArch Quick Menu**.
+2. Go to **Core Options → Emulation Hacks**
+3. `Load Custom Textures` and set it to **On**.
+4. Save this configuration for the game via **Core Options → Manage Core Options → Save Game Options**.
+
+### How to Add Texture Packs
+
+1. Navigate to `retrodeck/texture_packs/retroarch/Flycast/textures`. The folders are named by `SERIAL`.
+2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch/Flycast/textures/<SERIAL>/<textures>`
+
+
+### Example: Legacy of Kain: Soul Reaver
+
+The full folder path will be:
+
+`retrodeck/texture_packs/retroarch/Flycast/textures/T36802N/<textures>`
 
 ---
 
@@ -112,34 +223,31 @@ Place the extracted folder in the following **renamed directory** depending on t
 
 ---
 
-## Beetle PSX HW Core
+## Mesen Core
 
 **Important:**
+  
+- **Folder names must exactly match the ROM filename** (excluding the extension).
 
-- Works **only with Vulkan**.
-- `[game_filename]` must exactly match the game file name.
-- `[game_filename]-texture-replacements` must **not contain subfolders**.
-- `[game_filename]-texture-replacements` must **not contain compressed files** all textures must be extracted.
-- `Internal GPU Resolution` should be set higher than **1x (Native)**.
-- `Supersampling` → `Downsample to Native Resolution` should be **Disabled** otherwise, differences may not be noticeable at low resolution.
-- Custom textures may **not load when using a save state**. Triggering a scene change in-game may be necessary to refresh textures.
+### Enable HD Packs
 
-### Enable Texture Replacements
-
-1. Launch **RetroArch** via RetroDECK’s ES-DE frontend.
-2. Open the **Quick Menu → Options**.
-3. `Load Texture Replacements` to **Enabled** .
-4. Save the configuration for the game via **Core Options → Manage Core Options → Save Game Options**.
+1. Open the **RetroArch Quick Menu**.
+2. Go to **Core Options**
+3. `Enable HD Packs` and set it to **On**.
+4. Save this configuration for the game via **Core Options → Manage Core Options → Save Game Options**.
 
 ### Adding Texture Packs
 
-1. Extract your textures into a folder named: `[game_filename]-texture-replacements` next to your game in the `retrodeck/psx/<game>` directory.
-2. `[game_filename]` must match the actual game file name.
+1. Place extracted texture pack folders in: `retrodeck/exture_packs/retroarch/Mesen/HdPacks/<ROM filename>/<textures>`.
+2. The folder name must match the ROM filename (without the `.nes` extension).
 
-### Example
+### Example: Dr. Jekyll and Mr. Hyde 
 
-`retrodeck/psx/Dragon Fantasy 7/DragonFantasy7-texture-replacements/`
+For the game `Dr. Jekyll and Mr. Hyde (USA).nes` with the downloaded pack `Dr. Jekyll and Mr. Hyde TexturePACK HD.zip`:
 
+Place the extracted folder in the following **renamed directory**:
+
+`texture_packs/retroarch/Mesen/HdPacks/Dr. Jekyll and Mr. Hyde (USA)/<textures>`
 
 ---
 
@@ -179,86 +287,3 @@ The full folder path will be:
 `retrodeck/texture_packs/retroarch/Flycast/textures/ULUS-10080/<textures>`
 
 ---
-
-
-
-## Flycast Core
- 
-**Important:**
-  
-- `SERIAL` is different for every game. It's a unique code for each released game per region.
-- `SERIAL` must exactly match the ROM you are using.
-
-**Example:**
-
-**SERIAL:** `T36802N` corresponds to the NTSC-U release of `Legacy of Kain: Soul Reaver`.
-
-You can search various databases or wikis online to find the correct serial for the version of the game you have.
-
-### Enable Texture Packs
-
-1. Open the **RetroArch Quick Menu**.
-2. Go to **Core Options → Emulation Hacks**
-3. `Load Custom Textures` and set it to **On**.
-4. Save this configuration for the game via **Core Options → Manage Core Options → Save Game Options**.
-
-### How to Add Texture Packs
-
-1. Navigate to `retrodeck/texture_packs/retroarch/Flycast/textures`. The folders are named by `SERIAL`.
-2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch/Flycast/textures/<SERIAL>/<textures>`
-
-
-### Example: Legacy of Kain: Soul Reaver
-
-The full folder path will be:
-
-`retrodeck/texture_packs/retroarch/Flycast/textures/T36802N/<textures>`
-
----
-
-
-## Citra Core
-
-**Important:**
-  
-- `TITLE_ID` is different for every game. It's a unique code for each released game per region.
-- `TITLE_ID` must exactly match the ROM you are using.
-
-**Example:**
-
-**TITLE_ID`:** `00040000000DE200` corresponds to the NTSC-U release of `3D Shinobi III: Return of the Ninja Master`.
-
-You can search various databases or wikis online to find the correct serial for the version of the game you have for example: 
-
-- [3dsdb](https://3dsdb.com/)
-- Wikipedia
-
-### Enable Texture Packs
-
-1. Open the **RetroArch Quick Menu**.
-2. Go to **Core Options**
-3. `Enable Custom Textures` and set it to **On**.
-4. `Resolution Scale` and set it to **4x** (or more).
-5. Save this configuration for the game via **Core Options → Manage Core Options → Save Game Options**.
-
-### How to Add Texture Packs
-
-1. Navigate to `retrodeck/texture_packs/retroarch/Citra/textures`. The folders are named by `TITLE_ID`.
-2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch/Citra/textures/<TITLE_ID>/<textures>`
-
-### Example: 3D Shinobi III: Return of the Ninja Master
-
-The full folder path will be:
-
-`retrodeck/texture_packs/retroarch/Citra/textures/00040000000DE200/<textures>`
-
-
- 
----
-
-## Dolphin Core
-
-`retrodeck/texture_packs/retroarch/Dolphin/Textures`    
-
-
---- 

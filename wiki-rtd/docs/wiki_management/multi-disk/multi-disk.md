@@ -27,7 +27,7 @@ Let's use the fake PlayStation 1 game `Dragon Fantasy VII` as an example.
 
 RetroDECK will see the folder as a **single game** and launch the `.m3u` file.
 
-## Step 1: Create a .m3u Sub-folder
+## Create a .m3u Sub-folder
 
 1. Create a new folder in `roms/psx/`.
 2. Move all game files into it.
@@ -44,15 +44,15 @@ RetroDECK will see the folder as a **single game** and launch the `.m3u` file.
     └── Dragon Fantasy VII - Disk3.chd <--- Game Disc
 ```
 
-## Step 2: Create the .m3u File
+## Create the .m3u File
 
-1. Inside the folder, create a file named **exactly** like the folder: `Dragon Fantasy VII.m3u`.
+Inside the folder, create a file named **exactly** like the folder: `Dragon Fantasy VII.m3u`.
 
 **File Path:**
 
 `retrodeck/roms/psx/Dragon Fantasy VII.m3u/Dragon Fantasy VII.m3u`
 
-## Step 3: Populate the .m3u File
+## Populate the .m3u File
 
 1. Open the `.m3u` file in a text editor.
 2. List all disk filenames, one per line.
@@ -67,7 +67,5 @@ Dragon Fantasy VII - Disk1.chd
 Dragon Fantasy VII - Disk2.chd
 Dragon Fantasy VII - Disk3.chd
 ```
-
-## Step 4: Launch RetroDECK
 
 RetroDECK will now recognize the folder as **one game** and launch it correctly.

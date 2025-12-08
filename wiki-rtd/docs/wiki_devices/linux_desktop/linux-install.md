@@ -253,6 +253,7 @@ RetroDECK uses Steam Input, and each emulator has consistent hotkeys for save st
 **Read more:**
 
 - [RetroDECK Hotkeys](../../wiki_rd_controls/hotkeys-retrodeck.md)
+
 ---
 
 ## **Play!**

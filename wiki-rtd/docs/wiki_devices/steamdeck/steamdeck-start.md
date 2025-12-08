@@ -76,13 +76,13 @@ If you plan to install it on your SD Card
 
 ---
 
-### **(Optional, but recommended) Add RetroDECK to Steam and Steam Controller Templates** 
+### **(Optional, but recommended) Add RetroDECK to Steam and Steam Controller Templates**
 
 <img src="../../../wiki_icons/pixelitos/steam.png" width="50">
 
 When asked, we recommend that you select: **Yes**.
 
-After this, RetroDECK will appear in Game Mode under **Library → Non-Steam**
+RetroDECK will appear in Game Mode under **Library → Non-Steam**
 
 <img src="../../../wiki_images/retrodeck-finit/2-RD-Finit-Steam.png" width="500">
 
@@ -98,31 +98,33 @@ An active internet connection is required.
 
 After the firmware installation is complete, be sure to **close the component’s window or it's pop-ups** to finish the process.
 
-<img src="../../../wiki_images/retrodeck-finit3-RD-Finit-RPCS3.png" width="500">
+---
+
+### **(Optional) Enable Steam Synchronization**
+
+<img src="../../../wiki_images/logos/srm-logo.png" width="55">
+
+This prompt appears **only if RetroDECK has been added to Steam**.
+
+Enabling Steam synchronization will scan your game library for any 🌟 **Favorited** 🌟 titles in ES-DE and automatically add them to your Steam library as individual entries.
+
+<img src="../../../wiki_images/retrodeck-finit/7-RD-Finit-SRM.png" width="500">
 
 ---
 
-### **Installation Complete**
+### **Installation Complete: Return to Desktop or Start RetroDECK**
 
 <img src="../../../wiki_icons/pixelitos/security-high.png" width="50">
 
 <img src="../../../wiki_images/retrodeck-finit/11-RD-Finit-Comp.png" width="500">
 
-Press **OK**.
+Press **Return to Desktop** or **Start RetroDECK**.
+
+**If you have added RetroDECK to Steam:** you will need to **restart Steam** for the changes to take effect.
 
 ---
 
-### **RetroDECK will now start: Quit and Return to Desktop**
-
-<img src="../../../wiki_icons/pixelitos/preferences-desktop-cursors.png" width="25">
-
-Exit RetroDECK by pressing `START / ESCAPE` → `QUIT RetroDECK`
-
-<img src="../../../wiki_images/retrodeck-finit/12-RD-Finit-ES-DE.png" width="500">
-
----
-
-### **Add ROMs / Games / Ports**
+## **Adding ROMs / Games / Ports**
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
 
@@ -155,7 +157,7 @@ You will find PortMaster inside the ES-DE interface or in the Configurator.
 
 ---
 
-### **Add BIOS & Firmware**
+## **Adding BIOS & Firmware**
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="50">
 
@@ -195,7 +197,7 @@ RetroDECK uses Steam Input, and each emulator has consistent hotkeys for save st
 
 ---
 
-###  **Return to Game Mode**
+##  **Return to Game Mode**
 
 
 <img src="../../../wiki_icons/pixelitos/preferences-desktop-icons.png" width="50">

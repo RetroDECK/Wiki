@@ -32,7 +32,8 @@ Each manifest includes:
     "name": "Component Name",
       "description": "A human-friendly description of the component to be shown in menus",
       "url": "<link to the pcomponents RetroDECK wiki entry>",
-      "system": "a machine-friendly value or array of values of what systems are emulated",
+      "system": "a machine-friendly value or array of values of what systems are being played/emulated/functions",
+      "component_type": "Classifies the component according to RetroDECKs types",
       "configurator_menus": {
         "settings": {
           "portmaster": {
@@ -110,6 +111,27 @@ Each manifest includes:
 
 - **system** - A single value or array of values of machine-friendly names of the systems emulated by this component
 
+### component_type
+
+Components are broadly categorized:  
+
+- **Client**
+- **Multi-Emulator**
+- **Emulator**
+- **Engine**
+- **Port**
+- **System**
+
+**Example:**
+
+"component_type": "System"
+
+**Read here for more details:** 
+
+- [Development Glossary](../../general/development-glossary.md) 
+- [What is RetroDECK](../../../wiki_about/what-is-retrodeck.md)
+
+
 ### configurator_menus
 
 **configurator_menus** - This is an optional section for components that should have component-specific settings in a given Configurator menu. This does not affect the visibility of presets, but is more used for one-off actions specific to that component (such as installing RPCS3 firmware, Showing/Hiding Portmaster or any of the internal RetroDECK tools like BIOS checking or folder moving.
@@ -170,89 +192,89 @@ These entries can contain variable names (such as sourced config file paths) or 
 
 **Check More Examples:**
 
-[RetroDECK Components/Cooker](https://github.com/RetroDECK/components/tree/cooker)
+[RetroDECK Components: Cooker](https://github.com/RetroDECK/components/tree/cooker)
 
 ### PPSSPP
 
 
 ```
-
 {
   "ppsspp": {
     "name": "PPSSPP",
-    "description": "PlayStation Portable Emulator",
-    "url": "https://retrodeck.readthedocs.io/en/latest/wiki_emulator_guides/ppsspp/ppsspp-guide/",
+    "description": "PPSSPP is a PlayStation Portable (psp) emulator.",
+    "url_rdwiki": "https://retrodeck.readthedocs.io/en/latest/wiki_emulator_guides/ppsspp/ppsspp-guide/",
+    "url_webpage": "https://www.ppsspp.org/",
+    "url_source": "https://github.com/hrydgard/ppsspp",
+    "component_type": "Emulator",
     "system": "psp",
-    "system_friendly_name": "Sony Playstation Portable",
-    "configurator_menus": {
-      "tools": {
-        "test_function": {
-          "name": "PPSSPP Test Function",
-          "description": "A test function",
-          "command": "ppsspp_test arg"
-        },
-        "test_function2": {
-          "name": "PPSSPP Test Function2",
-          "description": "A test function 2",
-          "command": "ppsspp_test2"
-        }
-      }
-    },
+    "system_friendly_name": "Playstation Portable",
     "compatible_presets": {
-      "cheevos": [ "false", "true" ],
-      "cheevos_hardcore": [ "false", "true" ],
-      "test_preset": [ "false", "true" ]
+      "savestate_auto_load": [
+        "false",
+        "true"
+      ],
+      "cheevos": [
+        "false",
+        "true"
+      ],
+      "cheevos_hardcore": [
+        "false",
+        "true"
+      ]
     },
     "preset_actions": {
       "config_file_format": "ppsspp",
-      "savestate_auto_load": {
-        "AutoLoadSaveState": {
+      "savestate_auto_load": [
+        {
+          "enabled_states": [ "true" ],
+          "setting_name": "AutoLoadSaveState",
           "action": "change",
           "new_setting_value": "2",
           "section": "General",
-          "target_file": "$ppssppconf",
-          "defaults_file": "$config/ppssppsdl/ppsspp.ini"
+          "target_file": "$ppsspp_config",
+          "defaults_file": "$ppsspp_rd_config_dir/ppsspp.ini"
         }
-      },
-      "cheevos": {
-        "AchievementsEnable": {
+      ],
+      "cheevos": [
+        {
+          "enabled_states": [ "true" ],
+          "setting_name": "AchievementsEnable",
           "action": "change",
           "new_setting_value": "True",
           "section": "Achievements",
-          "target_file": "$ppssppconf",
-          "defaults_file": "$config/ppssppsdl/ppsspp.ini"
+          "target_file": "$ppsspp_config",
+          "defaults_file": "$ppsspp_rd_config_dir/ppsspp.ini"
         },
-        "AchievementsUserName": {
+        {
+          "enabled_states": [ "true" ],
+          "setting_name": "AchievementsUserName",
           "action": "change",
           "new_setting_value": "$cheevos_username",
           "section": "Achievements",
-          "target_file": "$ppssppconf",
-          "defaults_file": "$config/ppssppsdl/ppsspp.ini"
+          "target_file": "$ppsspp_config",
+          "defaults_file": "$ppsspp_rd_config_dir/ppsspp.ini"
         },
-        "cheevos_token": {
+        {
+          "enabled_states": [ "true" ],
+          "setting_name": "cheevos_token",
           "action": "change",
           "new_setting_value": "$cheevos_token",
           "section": "",
-          "target_file": "$ppssppcheevosconf",
-          "defaults_file": "$ppssppcheevosconf"
+          "target_file": "$ppsspp_retroachievements_dat",
+          "defaults_file": "$ppsspp_rd_config_dir/ppsspp_retroachievements.dat"
         }
-      },
-      "cheevos_hardcore": {
-        "AchievementsChallengeMode": {
+      ],
+      "cheevos_hardcore": [
+        {
+          "enabled_states": [ "true" ],
+          "setting_name": "AchievementsChallengeMode",
           "action": "change",
           "new_setting_value": "True",
           "section": "Achievements",
-          "target_file": "$ppssppconf",
-          "defaults_file": "$config/ppssppsdl/ppsspp.ini"
+          "target_file": "$ppsspp_config",
+          "defaults_file": "$ppsspp_rd_config_dir/ppsspp.ini"
         }
-      },
-      "test_preset": {
-        "test_files": {
-          "action": "install",
-          "source": "/app/retrodeck/test_files/",
-          "destination": "/home/deck/test_files/"
-        }
-      }
+      ]
     }
   }
 }
@@ -261,251 +283,3 @@ These entries can contain variable names (such as sourced config file paths) or 
 
 ---
 
-## Example: component_manifest.json for the RetroDECK Component
-
-Even an Component like RetroDECK will also have `component_manifest.json`.
-
-Which contain any related information used in menus or API data gathering. As most internal components won't support things like presets, they will generally be shorter than actual emulator components.
-
-
-```
-
-{
-  "retrodeck": {
-    "name": "RetroDECK",
-    "description": "RetroDECK Framework",
-    "url": "https://retrodeck.net",
-    "configurator_menus": {
-      "settings": {
-        "portmaster_show_hide": {
-          "name": "Portmaster: Show / Hide",
-          "description": "Enable / Disable: PortMaster in ES-DE",
-          "command": {
-            "zenity": "configurator_portmaster_toggle_dialog"
-          }
-        }
-      },
-      "tools": {
-        "bios_checker": {
-          "name": "BIOS Checker",
-          "description": "Checks and shows information about BIOS files",
-          "command": {
-            "zenity": "configurator_bios_checker_dialog"
-          }
-        },
-        "games_compressor": {
-          "name": "Games Compressor",
-          "description": "Compress games to save space for supported systems",
-          "command": {
-            "zenity": "configurator_compression_tool_dialog"
-          }
-        },
-        "install_retrodeck_controller_layouts": {
-          "name": "Install: RetroDECK Controller Layouts",
-          "description": "Install RetroDECK controller templates into Steam",
-          "command": {
-            "zenity": "configurator_install_retrodeck_controller_profile_dialog"
-          }
-        },
-        "update_notification": {
-          "name": "Update Notification",
-          "description": "Enable / Disable: Notifications for new RetroDECK versions",
-          "command": {
-            "zenity": "configurator_update_notify_dialog"
-          }
-        },
-        "m3u_multi_file_validator": {
-          "name": "M3U Multi-File Validator",
-          "description": "Verify the proper structure of multi-file or multi-disc games",
-          "command": {
-            "zenity": "configurator_check_multifile_game_structure_dialog"
-          }
-        },
-        "repair_retrodeck_paths": {
-          "name": "Repair RetroDECK Paths",
-          "description": "Repair RetroDECK folder path configs for unexpectedly missing folders",
-          "command": {
-            "zenity": "configurator_repair_paths_dialog"
-          }
-        },
-        "change_logging_level": {
-          "name": "Change Logging Level",
-          "description": "Change the RetroDECK logging level, for debugging purposes",
-          "command": {
-            "zenity": "configurator_change_logging_level_dialog"
-          }
-        }
-      },
-      "data_management": {
-        "backup_retrodeck": {
-          "name": "Backup RetroDECK",
-          "description": "Backup & Compress RetroDECK userdata folders into a zip file",
-          "command": {
-            "zenity": "configurator_retrodeck_backup_dialog"
-          }
-        },
-        "clean_empty_systems": {
-          "name": "ROMS Folder: Clean Empty Systems",
-          "description": "Removes some or all of the empty system folders in ROMS folder",
-          "command": {
-            "zenity": "configurator_clean_empty_systems_dialog"
-          }
-        },
-        "rebuild_esde_systems": {
-          "name": "ROMS Folder: Rebuild Systems",
-          "description": "Rebuilds any missing system folders in the ROMS folder",
-          "command": {
-            "zenity": "configurator_rebuild_esde_systems"
-          }
-        },
-        "move_all": {
-          "name": "Move: All of RetroDECK",
-          "description": "Move the entire RetroDECK folder to a new location",
-          "command": {
-            "zenity": "configurator_move_folder_dialog \"rdhome\""
-          }
-        },
-        "move_roms": {
-          "name": "Move: ROMS folder",
-          "description": "Move the ROMS folder to a new location",
-          "command": {
-            "zenity": "configurator_move_folder_dialog \"roms_folder\""
-          }
-        },
-        "move_bios": {
-          "name": "Move: BIOS folder",
-          "description": "Move the BIOS folder to a new location",
-          "command": {
-            "zenity": "configurator_move_folder_dialog \"bios_folder\""
-          }
-        },
-        "move_media": {
-          "name": "Move: Downloaded Media folder",
-          "description": "Move the Downloaded Media folder to a new location",
-          "command": {
-            "zenity": "configurator_move_folder_dialog \"media_folder\""
-          }
-        },
-        "move_saves": {
-          "name": "Move: Saves folder",
-          "description": "Move the Saves folder to a new location",
-          "command": {
-            "zenity": "configurator_move_folder_dialog \"saves_folder\""
-          }
-        },
-        "move_states": {
-          "name": "Move: States folder",
-          "description": "Move the States folder to a new location",
-          "command": {
-            "zenity": "configurator_move_folder_dialog \"states_folder\""
-          }
-        },
-        "move_themes": {
-          "name": "Move: Themes folder",
-          "description": "Move the Themes folder to a new location",
-          "command": {
-            "zenity": "configurator_move_folder_dialog \"themes_folder\""
-          }
-        },
-        "move_screenshots": {
-          "name": "Move: Screenshots folder",
-          "description": "Move the Screenshots folder to a new location",
-          "command": {
-            "zenity": "configurator_move_folder_dialog \"screenshots_folder\""
-          }
-        },
-        "move_mods": {
-          "name": "Move: Mods folder",
-          "description": "Move the Mods folder to a new location",
-          "command": {
-            "zenity": "configurator_move_folder_dialog \"mods_folder\""
-          }
-        },
-        "move_texture_packs": {
-          "name": "Move: Texture Packs folder",
-          "description": "Move the Texture Packs folder to a new location",
-          "command": {
-            "zenity": "configurator_move_folder_dialog \"texture_packs_folder\""
-          }
-        },
-        "move_cheats": {
-          "name": "Move: Cheats folder",
-          "description": "Move the Cheats folder to a new location",
-          "command": {
-            "zenity": "configurator_move_folder_dialog \"cheats_folder\""
-          }
-        },
-        "move_shaders": {
-          "name": "Move: Shaders folder",
-          "description": "Move the Shaders folder to a new location",
-          "command": {
-            "zenity": "configurator_move_folder_dialog \"shaders_folder\""
-          }
-        }
-      },
-      "about_retrodeck": {
-        "version_history": {
-          "name": "RetroDECK Version History",
-          "description": "View the version changelogs for RetroDECK",
-          "command": {
-            "zenity": "configurator_version_history_dialog"
-          }
-        },
-        "retrodeck_credits": {
-          "name": "RetroDECK Credits",
-          "description": "View the contribution credits for RetroDECK",
-          "command": {
-            "zenity": "configurator_retrodeck_credits_dialog"
-          }
-        }
-      },
-      "developer_options": {
-        "multi_user_mode": {
-          "name": "Change Multi-User Mode",
-          "description": "Enable/Disable: Multi-user support",
-          "command": {
-            "zenity": "configurator_retrodeck_multiuser_dialog"
-          }
-        },
-        "install_specific_release": {
-          "name": "Install Specific RetroDECK Release",
-          "description": "Install any cooker release or the latest main available",
-          "command": {
-            "zenity": "configurator_online_update_channel_dialog"
-          }
-        },
-        "browse_wiki": {
-          "name": "Browse the RetroDECK Wiki",
-          "description": "Browse the RetroDECK wiki online",
-          "command": {
-            "zenity": "configurator_browse_retrodeck_wiki_dialog"
-          }
-        },
-        "install_retrodeck_starter_pack": {
-          "name": "Install: RetroDECK Starter Pack",
-          "description": "Install the optional RetroDECK starter pack",
-          "command": {
-            "zenity": "configurator_version_history_dialog"
-          }
-        },
-        "usb_import": {
-          "name": "Tool: USB Import",
-          "description": "Use a USB device for RetroDECK data export / import",
-          "command": {
-            "zenity": "configurator_version_history_dialog"
-          }
-        },
-        "godot_configurator": {
-          "name": "Open Godot Configurator",
-          "description": "Open Godot Configurator",
-          "command": {
-            "zenity": "godot-configurator.sh"
-          }
-        }
-      }
-    }
-  }
-}
-}
-
-```

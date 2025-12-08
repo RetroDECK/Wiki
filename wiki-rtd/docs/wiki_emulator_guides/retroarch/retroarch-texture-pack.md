@@ -21,7 +21,7 @@ To simplify management, **RetroDECK** tries to organize all texture packs under 
 | **Dolphin**            | `retrodeck/texture_packs/retroarch/Dolphin/Textures`         | `retroarch/saves/dolphin-emu/User/Load/Textures/`     | GameCube / Wii             |
 | **Flycast**            | `retrodeck/texture_packs/retroarch/Flycast/textures`         | `system/dc/textures`                                   | Sega Dreamcast             |
 | **Mesen**              | `retrodeck/exture_packs/retroarch/Mesen/HdPacks`            | `retroarch/system/HdPacks`                              | NES                        |
-| **Mupen64Plus**        | **Cached textures:** <br> `retrodeck/texture_packs/retroarch/Mupen64Plus/cache`  <br><br> **Hires textures:** <br> `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_texture`      | `retroarch/system/Mupen64plus/cache`  <br><br>   `retroarch/system/Mupen64plus/hires_texture`     | Nintendo 64    |
+| **Mupen64Plus**        | **Cached textures:** <br> `retrodeck/texture_packs/retroarch/Mupen64Plus/cache`  <br><br> **Hires textures:** <br> `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_texture`      | **Cached textures:** <br>  `retroarch/system/Mupen64plus/cache`  <br><br>  **Hires textures:** <br>  `retroarch/system/Mupen64plus/hires_texture`     | Nintendo 64    |
 | **PPSSPP**             | `retrodeck/texture_packs/retroarch/PPSSPP/TEXTURES`          | `retroarch/saves/PPSSPP/PSP/TEXTURES`                  | PSP                        |
 
 
@@ -104,7 +104,7 @@ Dragon Fantasy VII-texture-replacements/
 
 **Read more about .m3u files:**
 
-- [Multi Disk: Guide](../../wiki_management/multi-disk.md)
+- [Multi Disk: Guide](../../../wiki_management/multi-disk/multi-disk.md)
 
 ---
 

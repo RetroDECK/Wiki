@@ -461,6 +461,7 @@ nav:
       - component_launcher.sh: wiki_development/components/component-files/component-ingredient-launcher.md
       - component_manifest.json: wiki_development/components/component-files/component-ingredient-manifest.md
       - component_prepare.sh: wiki_development/components/component-files/component-ingredient-prepare.md
+      - component_upgrade.sh: wiki_development/components/component-files/component-ingredient-upgrade.md
 
     - Graphics:
         - Easter Egg Splashes: wiki_development/graphics/easter-egg-splashes.md

@@ -79,7 +79,7 @@ No
 **Notes:**
 
 - The path `retrodeck/mods/azahar/` corresponds to the `/load/mods/` directory inside Azahar.
-- Each game has a unique `TITLEID`.
+- Each game has a unique `TITLE_ID`.
 
 There are two ways to add mods to Azahar.
 
@@ -90,15 +90,15 @@ There are two ways to add mods to Azahar.
 2. Open Azahar through the **RetroDECK Configurator** by selecting **Open Component** → **Azahar**.
 3. Right-click the game you want to modify.
 4. Select **Open Mods Location**.
-5. Place the mod files into the directory that opens. Each folder corresponds to a game's `TITLEID`.
+5. Place the mod files into the directory that opens. Each folder corresponds to a game's `TITLE_ID`.
 6. Close Azahar.
 
 
 ### Add Mods Directly from the Filesystem
 
 1. Extract the mod from its compressed format (`.zip` or similar) into folders.
-2. Navigate to `retrodeck/mods/azahar/`. Each folder inside represents a game's `TITLEID`.
-3. Paste the mod files into the appropriate `retrodeck/mods/azahar/<TITLEID>/` directory.
+2. Navigate to `retrodeck/mods/azahar/`. Each folder inside represents a game's `TITLE_ID`.
+3. Paste the mod files into the appropriate `retrodeck/mods/azahar/<TITLE_ID>/` directory.
 
 
 ---
@@ -128,14 +128,14 @@ There are two ways to add texture packs to Azahar.
 2. Open Azahar through the **RetroDECK Configurator**.  
 3. Right-click the game you want to add textures to.  
 4. Select **Open Custom Textures Location**.  
-5. Paste the texture folders into the directory. Each folder is organized by the game's `TITLEID`.  
+5. Paste the texture folders into the directory. Each folder is organized by the game's `TITLE_ID`.  
 6. Close Azahar.
 
 ### Add Texture Packs Directly from the Filesystem
 
 1. Extract the texture pack from its compressed format (`.zip` or similar) into folders.  
-2. Navigate to `~/retrodeck/texture_packs/azahar/`. Each folder corresponds to a game's `TITLEID`.  
-3. Move the extracted texture folders into the appropriate `retrodeck/texture_packs/azahar/<TITLEID>/` directory.
+2. Navigate to `~/retrodeck/texture_packs/azahar/`. Each folder corresponds to a game's `TITLE_ID`.  
+3. Move the extracted texture folders into the appropriate `retrodeck/texture_packs/azahar/<TITLE_ID>/` directory.
 
 ### Example
 

@@ -69,9 +69,6 @@ Place the extracted folder in the following **renamed directory**:
 
 `texture_packs/retroarch/Mesen/HdPacks/Dr. Jekyll and Mr. Hyde (USA)/<textures>`
 
-
-
-
 ---
 
 ## Mupen64Plus-Next Core
@@ -108,9 +105,10 @@ Save the configuration for this game via **Core Options → Manage Core Options 
 
 For the game `Space Station Silicon Valley (USA).n64` with the downloaded pack `Space Station Silicon Valley TexturePACK HD.zip`:
 
-Place the extracted folder in the following **renamed directory**:
+Place the extracted folder in the following **renamed directory** depending on the type of textures you have:
 
-`texture_packs/retroarch/Mesen/HdPacks/Space Station Silicon Valley (USA)/<textures>`
+- `retrodeck/texture_packs/retroarch/Mupen64Plus/cache/Space Station Silicon Valley (USA)/<textures>`
+- `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_textures/Space Station Silicon Valley (USA)/<textures>`
 
 ---
 
@@ -172,7 +170,7 @@ You can search various databases or wikis online to find the correct serial for 
 
 1. Navigate to `retrodeck/texture_packs/retroarch/PPSSPP/TEXTURES/`. The folders are named by `SERIAL`.
 2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch/PPSSPP/TEXTURES/<SERIAL>/<textures>`
-3. If the textures match the game, they should load the next time you launch it.
+
 
 ### Example: 007-From Russia with Love
 
@@ -208,7 +206,7 @@ You can search various databases or wikis online to find the correct serial for 
 
 1. Navigate to `retrodeck/texture_packs/retroarch/Flycast/textures`. The folders are named by `SERIAL`.
 2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch/Flycast/textures/<SERIAL>/<textures>`
-3. If the textures match the game, they should load the next time you launch it.
+
 
 ### Example: Legacy of Kain: Soul Reaver
 
@@ -218,4 +216,49 @@ The full folder path will be:
 
 ---
 
+
+## Citra Core
+
+**Important:**
+  
+- `TITLE_ID` is different for every game. It's a unique code for each released game per region.
+- `TITLE_ID` must exactly match the ROM you are using.
+
+**Example:**
+
+**TITLE_ID`:** `00040000000DE200` corresponds to the NTSC-U release of `3D Shinobi III: Return of the Ninja Master`.
+
+You can search various databases or wikis online to find the correct serial for the version of the game you have for example: 
+
+- [3dsdb](https://3dsdb.com/)
+- Wikipedia
+
+### Enable Texture Packs
+
+1. Open the **RetroArch Quick Menu**.
+2. Go to **Core Options**
+3. `Enable Custom Textures` and set it to **On**.
+4. `Resolution Scale` and set it to **4x** (or more).
+5. Save this configuration for the game via **Core Options → Manage Core Options → Save Game Options**.
+
+### How to Add Texture Packs
+
+1. Navigate to `retrodeck/texture_packs/retroarch/Citra/textures`. The folders are named by `TITLE_ID`.
+2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch/Citra/textures/<TITLE_ID>/<textures>`
+
+### Example: 3D Shinobi III: Return of the Ninja Master
+
+The full folder path will be:
+
+`retrodeck/texture_packs/retroarch/Citra/textures/00040000000DE200/<textures>`
+
+
+ 
+---
+
 ## Dolphin Core
+
+`retrodeck/texture_packs/retroarch/Dolphin/Textures`    
+
+
+--- 

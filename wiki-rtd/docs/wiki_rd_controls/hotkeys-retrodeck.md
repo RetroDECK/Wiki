@@ -20,7 +20,7 @@ RetroDECK uses **Steam Input** for advanced controller mapping. More controllers
 
 ### Add RetroDECK to Steam
 
-Read more here: [How-to: Add RetroDECK to Steam](../wiki_tool_guides/add-to-steam/add-to-steam.md)
+Via the RetroDECK Configurator
 
 ---
 

@@ -280,7 +280,6 @@ nav:
 
     - RetroDECK Configurator: wiki_tool_guides/configurator/configurator.md
     - Backup RetroDECK : wiki_tool_guides/retrodeck-backup/retrodeck-backup.md
-    - Add RetroDECK to Steam: wiki_tool_guides/add-to-steam/add-to-steam.md
 
   - Guides - RetroDECK Management 📁:
 
@@ -292,6 +291,7 @@ nav:
     - Multidisk/file Games: wiki_management/multi-disk/multi-disk.md
     - Spreading Files over Multiple Drives: wiki_management/spread-files/spread-files.md
     - Software Recommendations: wiki_management/software-recommendations/software-recommendations.md
+    - Add RetroDECK to Steam Flatpak Version: wiki_management/flatpak-steam/retrodeck-to-flatpak-steam.md
 
   - Guides - Clients 📟:
 

@@ -35,7 +35,7 @@ Read more here: [How-to: Add RetroDECK to Steam](../wiki_tool_guides/add-to-stea
 
 **Linux Desktop:**  
 
-<img src="../../wiki_images/steam/steam-controller-icon-bar.png" width="200"_
+<img src="../../wiki_images/steam/steam-controller-icon-bar.png" width="200">
 
 
 ---

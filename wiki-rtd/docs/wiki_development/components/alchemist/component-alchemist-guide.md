@@ -191,6 +191,8 @@ All `component_recipe.json` contain at least four parts:
 | **dest**| *(Optional)*  Absolute destination for download/extraction. Defaults to `$WORKDIR`. For `flatpak-id` it also selects install scope (`user` / `system`).|
 | **additional_sources**| *(Optional)* Array of extra source objects with the same structure, allowing multiple downloads to be processed similarly. |
 
+---
+
 ### assets
 
 Items to copy from the extracted source into the final artifact.
@@ -202,11 +204,11 @@ Items to copy from the extracted source into the final artifact.
 | **dest**  | Destination **relative to** `$COMPONENT_ARTIFACT_ROOT` for `dir`, `file`, and `create`. For `symlink` it is an absolute target path. If relative, it expands to `$COMPONENT_ARTIFACT_ROOT/dest`. For `archive` specify rchivea output type `7z,zip,tar.gz,tgz,tar.bz2,tbz2,tar.xz,txz,tar`. |
 | **contents**  | *(optional)* Allows inserting provided information directly into the destination file. Or arguments for scripts like `--verbose`.|
 
+---
+
 ### libs
 
 Additional library objects are listed here, each processed identically to the previously described library entries.
-
-
 
 | Field               | Description |
 |---------------------|-------------|
@@ -215,6 +217,16 @@ Additional library objects are listed here, each processed identically to the pr
 | **runtime_version**       | *(Optional)* Specific version of the Flatpak runtime to target (requires `runtime_name`). |
 | **dest**       | Directory where the library should be placed, **relative to** `$COMPONENT_ARTIFACT_ROOT`.  When a runtime is specified, expands to `$COMPONENT_ARTIFACT_ROOT/<runtime_name>/<runtime_version>/`. Otherwise expands to `$COMPONENT_ARTIFACT_ROOT/`. |
 | **source**       | *(Optional)* If present, specifies a concrete source location for the library **relative to** `$EXTRACTED_PATH` if not using a runtime. Used when the library must be taken from a particular asset rather than a Flatpak runtime. |
+
+---
+
+### $REPO_ROOT/$COMPONENT_NAME/assets/
+
+This directory is where all custom, component-specific RetroDECK done configuration files or other assets are stored on the repo.
+
+Refer to the components cooker repository for current examples.
+
+Configuration contents differ for each component, ranging from individual files to organized subfolders.
 
 ---
 

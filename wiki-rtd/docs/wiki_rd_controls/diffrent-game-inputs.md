@@ -1,68 +1,65 @@
-# Different button prompts in games
+# Different Button Prompts in Games
 
 <img src="../../wiki_icons/pixelitos/game-input.png" width="75">
 
 ## Information
 
-Depending on the system you are playing, the button prompts might not match the buttons on your physical controller.
+Depending on the system you are playing on, the button prompts may not match the buttons on your physical controller.
+
+---
 
 ## Xbox Games
 
-
-The Xbox layout is used by Xbox Controllers, Steam Deck, Rog Alley, and many generic third-party PC controllers and Xbox clone controllers.
+The Xbox layout is used by **Xbox Controllers**, Steam Deck, Rog Alley, and many generic third-party PC or Xbox clone controllers.
 
 **Xbox - Button Layout:**
 
-| Button Placement  | Button |Name |
-| :---              | :---:  |:---: |
-| North             |  <img src="../../wiki_icons/binding_icons/RD-button-y.png" width="30">   |Y |
-| West              |  <img src="../../wiki_icons/binding_icons/RD-button-x.png" width="30">    |X |
-| East              |  <img src="../../wiki_icons/binding_icons/RD-button-b.png" width="30">  |B |
-| South             |  <img src="../../wiki_icons/binding_icons/RD-button-a.png" width="30">   |A |
+| Button Placement | Button | Name |
+| :--- | :---: | :---: |
+| North | <img src="../../wiki_icons/binding_icons/RD-button-y.png" width="30"> | Y |
+| West  | <img src="../../wiki_icons/binding_icons/RD-button-x.png" width="30"> | X |
+| East  | <img src="../../wiki_icons/binding_icons/RD-button-b.png" width="30"> | B |
+| South | <img src="../../wiki_icons/binding_icons/RD-button-a.png" width="30"> | A |
 
+**Example:**  
+If a game calls for the button `B`, it corresponds to the **right button**.
 
-**Example:**
-
-If you are playing a Xbox game that calls for the button `B` to be pressed, it corresponds to the right button.
+---
 
 ## Nintendo Games
 
-The Nintendo layout is used by Nintendo Controllers and other generic third-party Nintendo clone controllers.
+The Nintendo layout is used by **Nintendo Controllers** and other generic third-party Nintendo clone controllers.
 
-**Nintendo - Button Layout**<br>
+**Nintendo - Button Layout:**
 
-| Button Placement  | Button |Name |
-| :---              | :---:  |:---: |
-| North             |  <img src="../../wiki_icons/binding_icons/RD-button-x.png" width="30">   |X |
-| West              |  <img src="../../wiki_icons/binding_icons/RD-button-y.png" width="30">   |Y |
-| East              |  <img src="../../wiki_icons/binding_icons/RD-button-a.png" width="30">   |A |
-| South             |  <img src="../../wiki_icons/binding_icons/RD-button-b.png" width="30">   |B |
+| Button Placement | Button | Name |
+| :--- | :---: | :---: |
+| North | <img src="../../wiki_icons/binding_icons/RD-button-x.png" width="30"> | X |
+| West  | <img src="../../wiki_icons/binding_icons/RD-button-y.png" width="30"> | Y |
+| East  | <img src="../../wiki_icons/binding_icons/RD-button-a.png" width="30"> | A |
+| South | <img src="../../wiki_icons/binding_icons/RD-button-b.png" width="30"> | B |
 
+**Example:**  
+If a Nintendo game calls for the button `A`, it corresponds to the **right button**.
 
-**Example:** 
-
-If you are playing a Nintendo game that calls for the button `A` to be pressed, it corresponds to the right button.
+---
 
 ## PlayStation Games
 
-The PlayStation layout is used by PlayStation Controllers and other generic third-party PlayStation clone controllers.
+The PlayStation layout is used by **PlayStation Controllers** and other generic third-party PlayStation clone controllers.
 
-**Playstation - Button Layout**<br>
+**PlayStation - Button Layout:**
 
-| Button Placement  | Button      | Name |
-| :---              | :---:       |:---: |
-| North             |  <img src="../../wiki_icons/playstation/playstation-triangle.png" width="20"> |Triangle |
-| West              |  <img src="../../wiki_icons/playstation/playstation-square.png" width="20">   |Square |
-| East              |  <img src="../../wiki_icons/playstation/playstation-circle.png" width="20">   |Circle |
-| South             |  <img src="../../wiki_icons/playstation/playstation-cross.png" width="20">    |Cross |
+| Button Placement | Button | Name |
+| :--- | :---: | :---: |
+| North | <img src="../../wiki_icons/playstation/playstation-triangle.png" width="20"> | Triangle |
+| West  | <img src="../../wiki_icons/playstation/playstation-square.png" width="20"> | Square |
+| East  | <img src="../../wiki_icons/playstation/playstation-circle.png" width="20"> | Circle |
+| South | <img src="../../wiki_icons/playstation/playstation-cross.png" width="20"> | Cross |
 
-**Example:** 
+**Example:**  
+If a PlayStation game calls for the button `Circle`, it corresponds to the **right button**.
 
-If you are emulating a PlayStation game that calls for the button `Circle` to be pressed, it corresponds to the right button.
-
-**Regional differences:**
-
-Depending on the region of your PlayStation game, the buttons `Circle` and `Cross` switch the meaning for confirm and cancel, but they remain in the same physical location. 
-
-Keep this in mind if you are used to exiting menus with a certain button and it works differently in some games.
-
+**Regional Differences:**  
+In some regions, the meaning of `Circle` and `Cross` for **confirm** and **cancel** may be swapped, but their **physical positions remain the same**.  
+Keep this in mind if you are accustomed to exiting menus with a certain button and it behaves differently in some games.

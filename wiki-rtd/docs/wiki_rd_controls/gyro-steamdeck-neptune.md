@@ -2,38 +2,26 @@
 
 <img src="../../wiki_icons/pixelitos/steam.png" width="75">
 
+Learn how to enable Gyro on the Steam Deck using [SteamDeckGyroDSU](https://github.com/kmicki/SteamDeckGyroDSU) via the DSU protocol.
 
-How to get the Steam Deck working with [SteamDeckGyroDSU](https://github.com/kmicki/SteamDeckGyroDSU) to enable Gyro via the DSU protocol.
+---
 
 ### Prerequisites: RetroDECK Steam Deck Controller Layout
 
-Make you have `RetroDECK: Steam Deck Controller Layout` installed and enabled.
+Ensure that **RetroDECK: Steam Deck Controller Layout** is installed and enabled.
 
-### What emulators support SteamDeckGyroDSU?
-
-The DSU hook should be enabled by default.
-
-- [Dolphin](https://wiki.dolphin-emu.org/index.php?title=DSU_Client#Using_DSU_devices_in_Dolphin)
-- [Cemu](https://wiki.cemu.info/wiki/Motion_controls) - Cemu has a profile with Gyro Enabled for P1.
-- Ryujinx
-
-The following emulators where removed from RetroDECK but had support:
-
-- Yuzu (Legacy)
-- Citra (Legacy)
+---
 
 ## Installing SteamDeckGyroDSU
 
-Go to `Desktop Mode` and open the built in terminal `Konsole` from the KDE Menu (Start Menu).
+1. Visit the [SteamDeckGyroDSU: Releases](https://github.com/kmicki/SteamDeckGyroDSU/releases).  
+2. Download the latest release and run the installer.
 
-Copy the following command into the terminal and hit enter:
+This will install **SteamDeckGyroDSU** and create a folder under `$HOME/sdgyrodsu/` (usually `/home/deck/sdgyrodsu`, unless the Deck profile has been renamed).
 
-`bash <(curl -sL https://raw.githubusercontent.com/kmicki/SteamDeckGyroDSU/master/pkg/update.sh)`
+---
 
-This will Install SteamDeckGyroDSU and create a new folder under `HOME` `$HOME/sdgyrodsu/` in most cases it's `home/deck/sdgyrodsu` (unless you have renamed the deck profile).
+### Important Files in the Installation Folder
 
-In that folder you will find two other files that is good to know about:
-
-- `update.sh` - For updating SteamDeckGyroDSU
-
-- `uninstall.sh` - For uninstalling SteamDeckGyroDSU
+- `update.sh` – For updating SteamDeckGyroDSU.  
+- `uninstall.sh` – For uninstalling SteamDeckGyroDSU.

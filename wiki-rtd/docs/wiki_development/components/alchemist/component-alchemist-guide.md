@@ -659,9 +659,8 @@ azahar-artifact
 ├── component_manifest.json
 ├── component_prepare.sh
 ├── component_recipe.json
-├── assets
-│    └── rd_config
-│       └── qt-config.ini
-└── 
+└── assets
+    └── rd_config
+        └── qt-config.ini
 ```
 

@@ -12,18 +12,19 @@ To simplify management, **RetroDECK** tries to organize all texture packs under 
 
 ---
 
-## RetroDECK - Texture Pack Directory Mapping
+## RetroDECK - Texture Pack Locations
 
-
-|  Core        | retrodeck/texture_packs/                          | Source Directory                   | System      |
+|  Core        | Texture Pack Locations                          | Source Directory                   | System      |
 |------------------------|-----------------------------------------------------|----------------------------------------------------------|----------------------------|
-| **Beetle PSX HW**      | `retrodeck/roms/psx/[game_filename]-texture-replacements/`    | -               | PlayStation 1              |
+| **Beetle PSX HW**      | `retrodeck/roms/psx/<game_filename>-texture-replacements/`    | The folder is next to the game itself               | PlayStation 1              |
 | **Citra**              | `retrodeck/texture_packs/retroarch/Citra/textures`           | `retroarch/saves/Citra/load/textures`                  | Nintendo 3DS               |
 | **Dolphin**            | `retrodeck/texture_packs/retroarch/Dolphin/Textures`         | `retroarch/saves/dolphin-emu/User/Load/Textures/`     | GameCube / Wii             |
 | **Flycast**            | `retrodeck/texture_packs/retroarch/Flycast/textures`         | `system/dc/textures`                                   | Sega Dreamcast             |
 | **Mesen**              | `retrodeck/exture_packs/retroarch/Mesen/HdPacks`            | `retroarch/system/HdPacks`                              | NES                        |
-| **Mupen64Plus**        | **Cached textures:** `retrodeck/texture_packs/retroarch/Mupen64Plus/cache`  <br><br> **Hires textures:** `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_texture`      | `retroarch/system/Mupen64plus/cache`  <br><br>   `retroarch/system/Mupen64plus/hires_texture`     | Nintendo 64    |
+| **Mupen64Plus**        | **Cached textures:** <br> `retrodeck/texture_packs/retroarch/Mupen64Plus/cache`  <br><br> **Hires textures:** <br> `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_texture`      | `retroarch/system/Mupen64plus/cache`  <br><br>   `retroarch/system/Mupen64plus/hires_texture`     | Nintendo 64    |
 | **PPSSPP**             | `retrodeck/texture_packs/retroarch/PPSSPP/TEXTURES`          | `retroarch/saves/PPSSPP/PSP/TEXTURES`                  | PSP                        |
+
+
 
 ---
 
@@ -47,9 +48,9 @@ To simplify management, **RetroDECK** tries to organize all texture packs under 
 **Important:**
 
 - Works **only with Vulkan**.
-- `[game_filename]` must exactly match the game file name.
-- `[game_filename]-texture-replacements` must **not contain subfolders**.
-- `[game_filename]-texture-replacements` must **not contain compressed files** all textures must be extracted.
+- `<game_filename>` must exactly match the game file name.
+- `<game_filename>-texture-replacements` must **not contain subfolders**.
+- `<game_filename>-texture-replacements` must **not contain compressed files** all textures must be extracted.
 - `Internal GPU Resolution` should be set higher than **1x (Native)**.
 - `Supersampling` → `Downsample to Native Resolution` should be **Disabled** otherwise, differences may not be noticeable at low resolution.
 - Custom textures may **not load when using a save state**. Triggering a scene change in-game may be necessary to refresh textures.
@@ -63,12 +64,47 @@ To simplify management, **RetroDECK** tries to organize all texture packs under 
 
 ### Adding Texture Packs
 
-1. Extract your textures into a folder named: `[game_filename]-texture-replacements` next to your game in the `retrodeck/psx/<game>` directory.
-2. `[game_filename]` must match the actual game file name.
+1. Extract your textures into a folder named: `<game_filename>-texture-replacements` next to your game in the `retrodeck/psx/<game>` or `retrodeck/psx/<game subfolder>/<game>` ddirectory.
+2. `<game_filename>` must match the actual game file name.
 
-### Example
+### Example: Alundra
 
-`retrodeck/psx/Dragon Fantasy 7/DragonFantasy7-texture-replacements/`
+If the game is stored inside a subfolder:
+
+`retrodeck/psx/Alundra/Alundra-texture-replacements/`
+
+If the game file is placed directly in the main PSX directory: 
+
+`retrodeck/psx/Alundra-texture-replacements/`
+
+### Textures in .m3u files
+
+If the game uses an `.m3u` structure, create the folder `<game_filename>-texture-replacements` and place it inside the same directory as the `.m3u` file and its disc images.
+
+**Folder content:**
+
+```
+─── Dragon Fantasy VII.m3u   <--- Folder in retrodeck/roms/psx/
+    ├── Dragon Fantasy VII - Disk1.chd <--- Game Disc
+    ├── Dragon Fantasy VII - Disk2.chd <--- Game Disc
+    ├── Dragon Fantasy VII - Disk3.chd <--- Game Disc
+    ├── Dragon Fantasy VII-texture-replacements/ <--- Texture Replacement folder
+    └── Dragon Fantasy VII.m3u <--- The .m3u file
+    
+```
+
+**.m3u file content**
+
+```
+Dragon Fantasy VII - Disk1.chd
+Dragon Fantasy VII - Disk2.chd
+Dragon Fantasy VII - Disk3.chd
+Dragon Fantasy VII-texture-replacements/ 
+```
+
+**Read more about .m3u files:**
+
+- [Multi Disk: Guide](../../wiki_management/multi-disk.md)
 
 ---
 

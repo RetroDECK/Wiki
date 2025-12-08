@@ -18,7 +18,7 @@ Let's use the fake PlayStation 1 game `Dragon Fantasy VII` as an example.
 **Example:**
 
 ```
-─── Dragon Fantasy VII.m3u   <--- Folder
+─── Dragon Fantasy VII.m3u    <--- Folder in retrodeck/roms/psx/
     ├── Dragon Fantasy VII - Disk1.chd <--- Game Disc
     ├── Dragon Fantasy VII - Disk2.chd <--- Game Disc
     ├── Dragon Fantasy VII - Disk3.chd <--- Game Disc

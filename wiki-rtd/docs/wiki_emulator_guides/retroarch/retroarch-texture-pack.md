@@ -22,7 +22,7 @@ To simplify management, **RetroDECK** tries to organize all texture packs under 
 | **Dolphin**            | `retrodeck/texture_packs/retroarch/Dolphin/Textures`         | `retroarch/saves/dolphin-emu/User/Load/Textures/`     | GameCube / Wii             |
 | **Flycast**            | `retrodeck/texture_packs/retroarch/Flycast/textures`         | `system/dc/textures`                                   | Sega Dreamcast             |
 | **Mesen**              | `retrodeck/exture_packs/retroarch/Mesen/HdPacks`            | `retroarch/system/HdPacks`                              | NES                        |
-| **Mupen64Plus**        | `retrodeck/texture_packs/retroarch/Mupen64Plus/cache`  <br><br>  `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_texture`      | `retroarch/system/Mupen64plus/cache`  <br><br>   `retroarch/system/Mupen64plus/hires_texture`                | Nintendo 64 cached textures and high-resolution textures             |
+| **Mupen64Plus**        | **Cached textures:** `retrodeck/texture_packs/retroarch/Mupen64Plus/cache`  <br><br> **Hires textures:** `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_texture`      | `retroarch/system/Mupen64plus/cache`  <br><br>   `retroarch/system/Mupen64plus/hires_texture`     | Nintendo 64    |
 | **PPSSPP**             | `retrodeck/texture_packs/retroarch/PPSSPP/TEXTURES`          | `retroarch/saves/PPSSPP/PSP/TEXTURES`                  | PSP                        |
 
 ---

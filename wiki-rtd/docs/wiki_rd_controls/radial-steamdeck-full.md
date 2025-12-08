@@ -263,3 +263,4 @@ Hotkeys for ScummVM.
 | Give           | `G`              | `ScummVM`      | <img src="../../wiki_icons/binding_icons/rd-pc-give.png" width="30">   |         |
 | Move           | `M`              | `ScummVM`      | <img src="../../wiki_icons/binding_icons/rd-pc-move.png" width="30">   |         |
 
+---

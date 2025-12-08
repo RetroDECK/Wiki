@@ -1,4 +1,4 @@
-# Creating Component: AppImage
+# Creating Component: AppImage Testing
 
 <img src="../../../../wiki_images/logos/appimage-logo.svg" width="100">
 
@@ -77,10 +77,13 @@ The structure is different in each AppImage.
 
 Other standard files such as: **icons**, **.desktop** also exist in every AppImage. 
 
-Most follow this structure (with additional folders and files depending on the app):
+Most follow these structures (with additional folders and files depending on the app):
+
+
+**AppImage V2:**
 
 ```
-squashfs-root
+- squashfs-root
     - AppRun (a script, binary or symlink)
     - usr
         - bin (contains the binary)
@@ -88,11 +91,19 @@ squashfs-root
         - share
 ```
 
+**AppImage V3:**
+
+```
+squashfs-root (links to AppDir)
+AppDir 
+    - bin (contains the binary)
+    - lib   
+    - share
+```
+
 ---
 
 ### Examples of AppImage Structures
-
-#### Emulators 
 
 **Cemu**
 
@@ -105,6 +116,20 @@ squashfs-root
         - bin (contains the binary)
         - lib   
         - share
+```
+
+---
+
+**Eden**
+
+```
+squashfs-root (links to AppDir)
+AppDir
+    - bin (contains the binary)
+    - lib (link) 
+    - etc 
+    - share
+    - shared
 ```
 
 **Azahar**
@@ -124,12 +149,10 @@ squashfs-root
 
 ---
 
-#### Engines 
-
 **Mudlet**
 
 ```
-squashfs-root
+squashfs-root (contains the binary)
     - AppRun 
     - <translation files>
     - doc (licences)
@@ -142,8 +165,6 @@ squashfs-root
 ```
 
 ---
-
-#### Systems
 
 **ES-DE:**
 
@@ -158,8 +179,6 @@ squashfs-root
 
 ---
 
-#### Ports 
-
 **OpenGOAL:**
 
 ```
@@ -173,50 +192,33 @@ squashfs-root
         - share
 ```
 
-**Ship of Harkinian**
-
-```
-squashfs-root
-    - AppRun (a script, binary or symlink)
-    - usr
-        - bin (contains the binary)
-        - lib   
-        - share
-```
-
-**Osu!**
-
-```
-squashfs-root
-    - AppRun (a script, binary or symlink)
-    - usr
-        - bin (contains the binary)  
-        - share
-```
-
 ---
 
 ## Step 5: Testing
 
-Identify the:
+During this step, identify and document the following components:
 
-- Binary
-- Libraries
-- Other important files
+- **Binary**
+- **Libraries**
+- **Other important files**
 
-Try to launch the binary from RetroDECK's flatpak shell:
+To begin testing, try launching the binary from RetroDECK's Flatpak shell:
 
 `flatpak run --command=bash net.retrodeck.retrodeck --debug`
 
-Make notes on what works and what does and does not work.
+While testing, make detailed notes on what works, what partially works, and what does not work at all. 
 
-**Example:**
+Fixing these issues will be addressed later during the **Alchemist and Hunter step**. 
 
-Does it complain about missing libraries? 
-Does it crash?
-Is everything working?
+**Example Considerations** 
 
+Does the application report missing libraries? 
 
+Does it crash at startup or during use? 
+
+Are all expected features functioning correctly?
+
+---
 
 ## Step 6: Creating Component: Ingredient Files
 

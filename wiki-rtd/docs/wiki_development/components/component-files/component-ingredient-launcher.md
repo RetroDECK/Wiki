@@ -24,35 +24,64 @@ chmod +x component_launcher.sh
 
 ## Examples:
 
-
 **Check More Examples:**
 
-[RetroDECK Components/Cooker](https://github.com/RetroDECK/components/tree/cooker)
+- [RetroDECK Components/Cooker](https://github.com/RetroDECK/components/tree/cooker)
 
-
-### PPSSPP
-
-```
-#!/bin/bash
-
-RD_MODULES="/app/retrodeck/components"
-
-LD_LIBRARY_PATH="$RD_MODULES/ppsspp/lib:${LD_LIBRARY_PATH}"
-
-exec "$RD_MODULES/ppsspp/bin/PPSSPPSDL" "$@"
-```
-
+---
 
 ### PPSSPP
 
 ```
 #!/bin/bash
 
-RD_MODULES="/app/retrodeck/components"
+# Setting component name and path based on the directory name
+component_name="$(basename "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")")"
+component_path="$(cd "$(dirname "${BASH_SOURCE[0]}" )" && pwd)"
 
-exec "$RD_MODULES/retroarch/bin/retroarch" "$@"
+export LD_LIBRARY_PATH="$component_path/lib:$rd_shared_libs:$rd_shared_libs/org.kde.Platform/6.10/:$rd_shared_libs/org.gnome.Platform/49/:$rd_shared_libs/org.freedesktop.Platform/24.08/:${LD_LIBRARY_PATH}"
+export QT_PLUGIN_PATH="$rd_shared_libs/org.kde.Platform/6.10/plugins/:${QT_PLUGIN_PATH}"
+export QT_QPA_PLATFORM_PLUGIN_PATH="$rd_shared_libs/org.kde.Platform/6.10/plugins/platforms/:${QT_QPA_PLATFORM_PLUGIN_PATH}"
+
+log i "RetroDECK is now launching $component_name"
+log d "Library path is: $LD_LIBRARY_PATH"
+log d "QT plugin path is: $QT_PLUGIN_PATH"
+
+# Workaround for vDSO issues in some environments
+export LD_PRELOAD=""
+unset LD_PRELOAD
+
+log i "RetroDECK is now launching $component_name"
+log d "Library path is: $LD_LIBRARY_PATH"
+
+exec "$component_path/bin/PPSSPPSDL" "$@"
+```
+
+---
+
+### RetroArch
 
 ```
+#!/bin/bash
+
+# Setting component name and path based on the directory name
+component_name="$(basename "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")")"
+component_path="$(cd "$(dirname "${BASH_SOURCE[0]}" )" && pwd)"
+
+export LD_LIBRARY_PATH="${DEFAULT_LD_LIBRARY_PATH}"
+export QT_PLUGIN_PATH="${QT_PLUGIN_PATH}"
+export QT_QPA_PLATFORM_PLUGIN_PATH="${QT_QPA_PLATFORM_PLUGIN_PATH}"
+
+log i "RetroDECK is now launching $component_name"
+log d "Library path is: $LD_LIBRARY_PATH"
+log d "QT plugin path is: $QT_PLUGIN_PATH"
+
+log i "RetroDECK is now launching $component_name"
+
+exec "$component_path/bin/retroarch" "$@"
+```
+
+---
 
 ### RPCS3 
 
@@ -60,31 +89,47 @@ exec "$RD_MODULES/retroarch/bin/retroarch" "$@"
 ```
 #!/bin/bash
 
-COMPONENT_NAME="rpcs3"
-RD_MODULES="/app/retrodeck/components"
+# Setting component name and path based on the directory name
+component_name="$(basename "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")")"
+component_path="$(cd "$(dirname "${BASH_SOURCE[0]}" )" && pwd)"
 
-# This ensures the application can find its resources
-export APPDIR="$RD_MODULES/$COMPONENT_NAME"
+export LD_LIBRARY_PATH="$rd_shared_libs:$rd_shared_libs/org.kde.Platform/6.9/:$rd_shared_libs/org.gnome.Platform/49/:${DEFAULT_LD_LIBRARY_PATH}"
+export QT_PLUGIN_PATH="${QT_PLUGIN_PATH}"
+export QT_QPA_PLATFORM_PLUGIN_PATH="${QT_QPA_PLATFORM_PLUGIN_PATH}"
 
-LD_LIBRARY_PATH="$RD_MODULES/$COMPONENT_NAME/lib:${LD_LIBRARY_PATH}"
+log i "RetroDECK is now launching $component_name"
+log d "Library path is: $LD_LIBRARY_PATH"
+log d "QT plugin path is: $QT_PLUGIN_PATH"
 
 # NOTE: AppRun is not working for RPCS3
-exec "$RD_MODULES/$COMPONENT_NAME/bin/rpcs3" "$@"
+exec "$component_path/bin/rpcs3" "$@"
 ```
+
+---
 
 ### Steam Rom Manager (SRM) 
 
 ```
 #!/bin/bash
 
-RD_MODULES="/app/retrodeck/components"
-COMPONENT_NAME="steam-rom-manager"
+# Setting component name and path based on the directory name
+component_name="$(basename "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")")"
+component_path="$(cd "$(dirname "${BASH_SOURCE[0]}" )" && pwd)"
 IN_FLATPAK=1
 
-# This ensures the application can find its resources
-export APPDIR="$RD_MODULES/$COMPONENT_NAME"
+export LD_LIBRARY_PATH="$component_path/lib:$ffmpeg_path/25.08:$rd_shared_libs/org.gnome.Platform/49/:${DEFAULT_LD_LIBRARY_PATH}"
+export QT_PLUGIN_PATH="${QT_PLUGIN_PATH}"
+export QT_QPA_PLATFORM_PLUGIN_PATH="${QT_QPA_PLATFORM_PLUGIN_PATH}"
 
-LD_LIBRARY_PATH="$RD_MODULES/$COMPONENT_NAME/lib:${LD_LIBRARY_PATH}"
 
-exec "$RD_MODULES/$COMPONENT_NAME/AppRun" --no-sandbox "$@"
+log i "RetroDECK is now launching $component_name"
+log d "Library path is: $LD_LIBRARY_PATH"
+log d "AppDir is: $APPDIR"
+
+APPDIR="$component_path"
+
+exec "$component_path/srm/steam-rom-manager" --no-sandbox "$@"
+
 ```
+
+---

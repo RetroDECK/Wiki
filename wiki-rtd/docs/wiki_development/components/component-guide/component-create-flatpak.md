@@ -1,10 +1,10 @@
-# Creating Component: Flatpak
+# Creating Component: Flatpak Testing
 
 <img src="../../../../wiki_images/logos/flatpak-logo.svg" width="75">
 
 This a part of the How-to: Create Components Guide
 
-We are going to use GZDOOM as an example and remember that each Flatpak is different from another. 
+We are going to use uzdoom as an example and remember that each Flatpak is different from another. 
 
 **Note:**
 
@@ -24,7 +24,7 @@ This assumes you have read [Creating Component: Guide](creating-components-guide
 
 1. Go to: `retrodeck/components/`.
 2. Create a folder in `retrodeck/components/<component_name>` that matches the name of the component you want to add.
-3. Go to: [Github:Flathub](https://github.com/flathub/) find the repo you want to clone.
+3. Go to: [Github:Flathub](https://github.com/flathub/).
 4. Open a terminal window from the component folder.
 5. Clone the repo with clone `https://github.com/flathub/<Application>`
 6. You will now a repo folder under `retrodeck/components/<Cloned Repo>`.
@@ -33,7 +33,7 @@ This assumes you have read [Creating Component: Guide](creating-components-guide
 
 Make the folder:
 
-`retrodeck/components/gzdoom`
+`retrodeck/components/uzdoom`
 
 Open a terminal window in 
 
@@ -42,13 +42,13 @@ Open a terminal window in
 Type:
 
 ```
-git clone https://github.com/flathub/org.zdoom.GZDoom.git
+git clone https://github.com/flathub/org.zdoom.uzdoom.git
 ```
 
 You will now have two folders:
 
-- `retrodeck/components/gzdoom`
-- `retrodeck/components/org.zdoom.GZDoom`
+- `retrodeck/components/uzdoom`
+- `retrodeck/components/org.zdoom.uzdoom`
 
 ---
 
@@ -70,7 +70,7 @@ Typically, a Flatpak will extract into this standard structure:
 
 ```
 
-
+---
 
 ### Step 2a: Compressed Artifact
 
@@ -80,7 +80,9 @@ If the flatpak has a premade compressed artifact you can just extract that to th
 
 **Example:**
 
-- `retrodeck/components/gzdoom-artifact`
+- `retrodeck/components/uzdoom-artifact`
+
+---
 
 ### Step 2b: Build with flatpak-builder
 
@@ -99,7 +101,7 @@ rm -rf <Application>-build-dir/files/lib/debug ## Remove debug files, the locati
 
 **Example:**
 
-Go to: `retrodeck/components/org.zdoom.GZDoom`
+Go to: `retrodeck/components/org.zdoom.uzdoom`
 
 Run the following:
 
@@ -108,9 +110,9 @@ git submodule init
 
 git submodule update
 
-flatpak-builder --user --force-clean --install-deps-from=flathub --install-deps-from=flathub-beta --repo=gzdoom-repo "gzdoom-build-dir" "org.zdoom.GZDoom.yaml"
+flatpak-builder --user --force-clean --install-deps-from=flathub --install-deps-from=flathub-beta --repo=uzdoom-repo "uzdoom-build-dir" "org.zdoom.uzdoom.yaml"
 
-rm -rf gzdoom-build-dir/files/lib/debug
+rm -rf uzdoom-build-dir/files/lib/debug
 
 ```
 
@@ -118,30 +120,31 @@ rm -rf gzdoom-build-dir/files/lib/debug
 
 ## Step 3: Testing
 
-Identify the:
+During this step, identify and document the following components:
 
-- Binary
-- Libraries
-- Other important files
+- **Binary**
+- **Libraries**
+- **Other important files**
 
-Try to launch the binary from RetroDECK's flatpak shell:
+To begin testing, try launching the binary from RetroDECK's Flatpak shell:
 
 `flatpak run --command=bash net.retrodeck.retrodeck --debug`
 
-Make notes on what works and what does and does not work.
+While testing, make detailed notes on what works, what partially works, and what does not work at all. 
 
-**Example:**
+Fixing these issues will be addressed later during the **Alchemist and Hunter step**. 
 
-Does it complain about missing libraries? 
+**Example Considerations** 
 
-Does it crash?
+Does the application report missing libraries? 
 
-Is everything working?
+Does it crash at startup or during use? 
 
+Are all expected features functioning correctly?
 
 ---
 
-## Step 4: Creating Component: Ingredient Files
+## Step 4: Creating Component: Ingredient & Recipe Files 
 
 You now will need to move on to the next step:
 

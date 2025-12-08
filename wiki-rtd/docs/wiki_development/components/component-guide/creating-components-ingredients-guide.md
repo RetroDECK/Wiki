@@ -20,8 +20,11 @@ component_launcher.sh
 component_functions.sh
 component_manifest.json
 component_prepare.sh
+component_update.sh
 ```
 
+
+---
 
 ## Prerequisites: A tested component
 
@@ -29,11 +32,22 @@ component_prepare.sh
 
 This assumes you have already tested a component folder from:
 
-- **Source: AppImage:** [Creating Component: AppImage](component-create-appimage.md)
+- **Source: AppImage:** [Creating Component: AppImage Testing](component-create-appimage.md)
 
-- **Source: Flatpak:** [Creating Component: Flatpak](component-create-flatpak.md)
+- **Source: Flatpak:** [Creating Component: Flatpak Testing](component-create-flatpak.md)
 
-## Step 1: Prepare the component_launcher.sh ingredient
+
+---
+
+## Step 1: RetroDECK Alchemist & RetroDECK Hunter and component_recipe.json 
+
+**Read more here:** 
+
+- [Guide: Alchemist & component_recipe.json](../alchemist/component-alchemist-guide.md)
+
+---
+
+## Step 2: Prepare the component_launcher.sh ingredient
 
 **Read more here:** 
 
@@ -41,21 +55,18 @@ This assumes you have already tested a component folder from:
 
 Look at at the examples of other components and just copy from the one closest and start from there. 
 
-## Step 2: Do a test run of component_launcher.sh 
+---
+
+## Step 3: Do a test run of component_launcher.sh 
 
 1. Run: `flatpak run --command=bash net.retrodeck.retrodeck --debug`.
 2. Then from the terminal shell try to run your newly created `component_launcher.sh`.
 
 Keep tinkering until the file launches and works as excepted.
 
-## Step 3: RetroDECK Alchemist & component_recipe.json 
-
-**Read more here:** 
-
-- [Guide: Alchemist & component_recipe.json](../alchemist/component-alchemist-guide.md)
-
 Then PR it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/components/tree/cooker) next to the artifact in the folder.
 
+---
 
 ## Step 4: Create the rest of the  Ingredient Files
 
@@ -66,6 +77,9 @@ Then PR it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/com
 - [component_manifest.json](../component-files/component-ingredient-manifest.md)
 
 - [component_prepare.sh](../component-files/component-ingredient-prepare.md)
+
+
+---
 
 ## Step 5: Add the Ingredient files
 
@@ -88,6 +102,8 @@ components/cemu/component_prepare.sh
 ```
 
 
+---
+
 ## Step 6: Configurations: Try to Optimize (If possible) 
 
 Do a first pass and try to tweak configurations:
@@ -95,6 +111,8 @@ Do a first pass and try to tweak configurations:
 - **Tweak Controls:** Test the controls with Steam Input (if possible) and tweak from there.
 - **Tweak Performance:** Check the performance: RetroDECK standard is the Steam Deck hardware as default.
 
+
+---
 
 ## Step 7: Assemble the Release & Into the Cooker
 
@@ -112,6 +130,8 @@ The RetroDECK Team and Community (Taste) Testers will:
 - Give you feedback.
 - Test and bug report.
 - Ask you to tweak configurations. 
+
+---
 
 ## Step 10: How-to: Access your component? 
 

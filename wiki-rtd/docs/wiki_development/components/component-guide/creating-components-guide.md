@@ -14,40 +14,26 @@ There’s no one-size-fits-all guide for adding a component. Each component is u
 
 ---
 
-## About the Component
+## About the Components
 
-### Component Type: What is it?
+**Component Type: What is it?**
 
-Components can broadly be categorized by from the application you want to add:
+Components can broadly be categorized by from the application you want to add:  
 
+- **Client**
 - **Emulator**
 - **Engine**
 - **Port**
 - **System**
 
-Read the Development Glossary for more details here: [Development Glossary](../../general/development-glossary.md) 
+Read here for more details: 
 
-#### On Adding Ports
+- [Development Glossary](../../general/development-glossary.md) 
+- [What is RetroDECK](../../../wiki_about/what-is-retrodeck.md)
 
-[PortMaster](https://portmaster.games/) is the recommended method for integrating ports into RetroDECK. Contributing to PortMaster instead of directly adding a port to RetroDECK helps:
+---
 
-- Reduce bloat in the RetroDECK ecosystem.
-- Broaden the benefit to users beyond RetroDECK.
-
-Follow the [PortMaster: Porting Guide](https://portmaster.games/porting.html).
-
-#### When to Add a Port Directly to RetroDECK?
-
-In rare cases, it may be beneficial to include a port directly in RetroDECK if one or more of the following criteria are met:
-
-- The port requires **online multiplayer** support.
-- The port benefits from **custom launchers**.
-- The port needs **frequent or rapid updates**.
-- The port supports **modding or includes a mod downloader**.
-- The port depends on **technologies not supported by PortMaster**, such as: Newer versions of SDL/OpenGL, Vulkan, Wine or other.
-
-
-### Component Source Format: What to Prioritize?
+## Component Source Format: What to Prioritize?
 
 When multiple source formats are available for a component, prioritize them in the following order for ease of integration with RetroDECK:
 
@@ -57,6 +43,27 @@ When multiple source formats are available for a component, prioritize them in t
 | 2       | AppImage            | A portable, self-contained executable that runs without installation        |
 | 3        | Precompiled Binary  | A ready-to-run executable built for a specific platform                     |
 | 4        | Build from Source   | Raw source code that must be compiled manually before use                   |
+
+---
+
+## On Adding Ports
+
+[PortMaster](https://portmaster.games/) is the recommended method for integrating ports into RetroDECK. Contributing to PortMaster instead of directly adding a port to RetroDECK helps:
+
+- Reduce bloat in the RetroDECK ecosystem.
+- Broaden the benefit to users beyond RetroDECK.
+
+Follow the [PortMaster: Porting Guide](https://portmaster.games/porting.html).
+
+### When to Add a Port Directly to RetroDECK?
+
+In rare cases, it may be beneficial to include a port directly in RetroDECK if one or more of the following criteria are met:
+
+- The port requires **online multiplayer** support.
+- The port benefits from **custom launchers**.
+- The port needs **frequent or rapid updates**.
+- The port supports **modding or includes a mod downloader**.
+- The port depends on **technologies not supported by PortMaster**, such as: Newer versions of SDL/OpenGL, Vulkan, Wine or other.
 
 ---
 
@@ -74,7 +81,6 @@ Some components might not fit with RetroDECK’s design goals or technical direc
 ### Check Licensing
 
 Make sure the component you're suggesting has a license that is compatible with RetroDECK.
-
 
 ### Test & Research the Component
 

@@ -6,24 +6,17 @@
 
 <img src="../classic-configurator-backup-prompt.png" width="800">
 
-The backup tool creates a `.zip` file of your selected type of backup and puts it under: `/retrodeck/backups`
+The Backup RetroDECK tool creates a `.zip` file of your selected backup type and stores it under:  
+`/retrodeck/backups`
 
-### How-to: Use the Backup RetroDECK Tool
+### Using the Backup RetroDECK Tool
 
-Navigate to -> `RetroDECK Configurator` -> `Data Management Tools` -> `Backup RetroDECK`.
+1. Open **RetroDECK Configurator**.  
+2. Navigate to **Data Management Tools** → **Backup RetroDECK**.  
+3. Choose one of the following backup options:
 
-The Backup RetroDECK Tool comes with three choices:
-
-- **Core Backup**: Backs up only essential files, such as saves, states, and gamelists.
-
-- **Custom Backup**: Allows you to select specific folders to back up.
-
+- **Core Backup**: Backs up essential files only, such as saves, states, and gamelists.  
+- **Custom Backup**: Allows selection of specific folders to back up.  
 - **Complete Backup**: Backs up all data, including games and downloaded media.
 
-**Depending on:**
-
-- The type of backup
-- Your hardware 
-- The size and amount of what you are backing up
-
-It could take a while and take a lot of space.
+> **Note:** Backup duration and required storage space depend on the backup type, your hardware, and the amount of data being backed up.

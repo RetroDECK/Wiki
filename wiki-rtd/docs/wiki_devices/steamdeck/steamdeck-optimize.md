@@ -1,71 +1,107 @@
-# Steam Deck: Optimizations
+# Steam Deck: Optimizations & Addons
 
 <img src="../../../wiki_icons/pixelitos/steam.png" width="75">
 
-These optimizations are entirely optional and but they can give you better performance on some more demanding emulators.
+These optimizations are entirely optional, but they can provide improved performance for certain more demanding components and applications on the Steam Deck.
 
-## Increase the VRAM to 4GB
+---
 
-This increases the VRAM to 4GB in the BIOS, this can give you improvements in certain emulators.
 
-- Power off your Steam Deck completely
-- Hold the `Power Button` and `Volume Up Button` until you hear a chime/beep and release the buttons.
-- Click on `Setup Utility`
-- Click on `Advanced`
-- Change`UMA Frame buffer Size` to 4GB
-- Save and Exit
+## Increasing VRAM to 4 GB
 
-## Setup a sudo password
+Adjusting the VRAM allocation to 4 GB through the BIOS can improve performance in certain components by providing additional memory to the integrated GPU.
 
-This is a requirement for many optimizations and solutions, it also makes your Deck safer.
-It enables you to run commands/applications heighten sudo privileges.
+**Installation Steps**
 
-- Go to `Desktop Mode`
-- Open `Konsole` or another `Terminal`
-- Type `passwd`
-- You will now set your new sudo password
-- After you are done you can close the terminal
+1. Power off your Steam Deck completely.  
+2. Press and hold the **Power Button** and **Volume Up Button** simultaneously until you hear a chime/beep, then release both buttons.  
+3. In the boot menu, select **Setup Utility**.  
+4. Navigate to the **Advanced** tab.  
+5. Locate the **UMA Frame Buffer Size** setting and change it to **4 GB**.  
+6. Save your changes and exit the BIOS.
 
-## Install CryoUtilities
+Your Steam Deck will now boot with the updated VRAM allocation.
 
-This requires that you have set up a sudo password.
 
-This will create a 16GB SWAP file that can improve the performance for some emulators. Note that it will take up that extra space on your Steam Deck.
+---
 
-- Go to `Desktop Mode`
-- Open a web browser and go to the [CryoUtilities](https://github.com/CryoByte33/steam-deck-utilities) github page
-- Click on releases
-- Download the latewst `cryo_utilities` version and save to the Desktop or Home folder
-- Double click on the file and it will begin the installation
-- After installation is complete you will find a new desktop icon `CryoUtilities`
-- Click on `CryoUtilities`
-- Click on `Recommended Settings`
-- It should now be done
+## Setting a Sudo Password
 
-## Install Decky Loader
-Decky Loader is a [homebrew plugin store](https://beta.deckbrew.xyz/) for the Steam Deck.
-This requires that you have set up a sudo password.
+Configuring a sudo password is required for many optimizations and system-level tasks. It also enhances the security of your Steam Deck by enabling authenticated access to elevated privileges.
 
-- Go to `Desktop Mode`
-- Open `Konsole` or another `Terminal`
-- Type `curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh`
-- Decky Loader should now be installed and you can go back into `Game Mode`.
-- To access Decky Loader you only need to press the `Menu Button - (•••)`
+**Installation Steps**
 
-### Decky Loader: Install Power Tools
-Power Tools allows you to tweak various performance settings of the Steam Deck.
-What the best setting is differs per emulator or even per game.
+1. Switch to **Desktop Mode** on your Steam Deck.  
+2. Open **Konsole** or another terminal application.  
+3. Enter the command: `passwd` 
+4. You will now set your new sudo password.
+5. After you are done you can close the terminal.
 
-In Game Mode:
+---
 
-- `Menu Button - (•••)`
--  Go into Decky Loader
--  From the Store install Power Tools
--  This will add a 🔌 icon to the `Menu Button - (•••)` where you can access Power Tools.
+## Installing CryoUtilities
 
-### Decky Loader:  AutoFlatpaks
-AutoFlatpaks allows you to manage and update flatpaks like RetroDECK directly from Game Mode
+**Prerequisite:** A configured `sudo` password is required before installation.
 
-- `Menu Button - (•••)`
--  Go into Decky Loader
--  From the Store install AutoFlatpaks
+CryoUtilities can create a 16 GB swap file, which may improve performance for certain components. Be aware that this swap file will consume 16 GB of storage space on your Steam Deck.
+
+**Installation Steps**
+
+1. Switch to **Desktop Mode** on your Steam Deck.  
+2. Open a web browser and navigate to the official  
+   **[CryoUtilities GitHub repository](https://github.com/CryoByte33/steam-deck-utilities)**.  
+3. Open the **Releases** section.  
+4. Download the latest `cryo_utilities` release and save it to your **Desktop** or **Home** directory.  
+5. Locate and double-click the downloaded file to begin the installation process.  
+6. After installation completes, a new desktop icon labeled **CryoUtilities** will appear.  
+7. Launch **CryoUtilities**.  
+8. Select **Recommended Settings** to apply the optimized configuration.
+
+---
+
+## Installing Decky Loader
+
+**Prerequisite:** A configured `sudo` password is required before installation.
+
+Decky Loader is a [Homebrew Plugin Store](https://beta.deckbrew.xyz/) for the Steam Deck.
+
+**Installation Steps**
+
+1. Switch to **Desktop Mode** on your Steam Deck.  
+2. Open **Konsole** or another terminal application.  
+3. Run the following command:  `curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh`
+4. Decky Loader will install automatically. 
+5. Once the installation is complete, return to **Game Mode**.
+
+You can access Decky Loader at any time by pressing the **Menu Button (•••)**.
+
+---
+
+### Decky Loader: Installing Power Tools
+
+**Power Tools** provides advanced performance-tuning options for the Steam Deck.  
+Optimal settings depend on the specific hardware component and may vary between games.
+
+**Installation Steps (in Game Mode)**
+
+1. Press the **Menu Button (•••)**.  
+2. Open **Decky Loader**.  
+3. Navigate to the **Store** and install **Power Tools**.  
+4. After installation, a new **🔌 Power Tools** icon will appear within the **Menu Button (•••)** menu, giving you quick access to the plugin.
+
+---
+
+### Decky Loader: AutoFlatpaks
+
+**AutoFlatpaks** allows you to manage and update Flatpak applications—such as RetroDECK—directly from **Game Mode**.
+
+**Installation Steps (in Game Mode)**
+
+1. Press the **Menu Button (•••)**.  
+2. Open **Decky Loader**.  
+3. From the **Store**, install **AutoFlatpaks**.
+
+AutoFlatpaks will now be accessible through the Decky Loader menu for convenient Flatpak management.
+
+---
+

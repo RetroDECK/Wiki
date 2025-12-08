@@ -104,7 +104,7 @@ Dragon Fantasy VII-texture-replacements/
 
 **Read more about .m3u files:**
 
-- [Multi Disk: Guide](../../../wiki_management/multi-disk/multi-disk.md)
+- [Multi Disk: Guide](../../wiki_management/multi-disk/multi-disk.md)
 
 ---
 

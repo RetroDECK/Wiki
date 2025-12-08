@@ -22,7 +22,7 @@ To simplify management, **RetroDECK** tries to organize all texture packs under 
 | **Dolphin**            | `retrodeck/texture_packs/retroarch/Dolphin/Textures`         | `retroarch/saves/dolphin-emu/User/Load/Textures/`     | GameCube / Wii             |
 | **Flycast**            | `retrodeck/texture_packs/retroarch/Flycast/textures`         | `system/dc/textures`                                   | Sega Dreamcast             |
 | **Mesen**              | `retrodeck/exture_packs/retroarch/Mesen/HdPacks`            | `retroarch/system/HdPacks`                              | NES                        |
-| **Mupen64Plus**        | `retrodeck/texture_packs/retroarch/Mupen64Plus/cache`  <br>  `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_texture`      | `retroarch/system/Mupen64plus/cache`  <br>   `retroarch/system/Mupen64plus/hires_texture`                | Nintendo 64 cached textures and high-resolution textures             |
+| **Mupen64Plus**        | `retrodeck/texture_packs/retroarch/Mupen64Plus/cache`  <br><br>  `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_texture`      | `retroarch/system/Mupen64plus/cache`  <br><br>   `retroarch/system/Mupen64plus/hires_texture`                | Nintendo 64 cached textures and high-resolution textures             |
 | **PPSSPP**             | `retrodeck/texture_packs/retroarch/PPSSPP/TEXTURES`          | `retroarch/saves/PPSSPP/PSP/TEXTURES`                  | PSP                        |
 
 ---
@@ -35,7 +35,8 @@ To simplify management, **RetroDECK** tries to organize all texture packs under 
 
 ### Troubleshooting: Textures Not Showing
 
-- Ensure that the **texture pack folder name matches the ROM name** and/or contains the  SERIAL / GAME_ID / TITLE_ID. All files must be **properly extracted** for RetroArch to recognize them.
+- Ensure that the **texture pack folder name matches the ROM name** and/or contains the  ` SERIAL`  / ` GAME_ID`  / ` TITLE_ID` . 
+- All files must be **properly extracted** for RetroArch to recognize them.
 - Some texture packs are designed for specific **game versions or regions**. Verify that the texture pack matches the **exact version** of the game you are using.
 - Check for unnecessary subfolders. In most cases, textures should be located directly in the **root of the texture pack folder** rather than nested inside additional directories.
 

@@ -26,72 +26,40 @@
           "contents": "$SOURCE_VERSION"
         },
         {
+          "type": "dir",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_config",
+          "dest": "rd_config"
+        },
+        {
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_functions.sh",
-           "dest": "$COMPONENT_ARTIFACT_ROOT"
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_launcher.sh",
-           "dest": "$COMPONENT_ARTIFACT_ROOT"
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_manifest.json",
-           "dest": "$COMPONENT_ARTIFACT_ROOT"
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_recipe.json",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_prepare.sh",
-           "dest": "$COMPONENT_ARTIFACT_ROOT"
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
         }
       ],
-      "libs": [
-        {
-          "library": "libQt6Widgets.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Gui.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Core.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Multimedia.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Network.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6DBus.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Concurrent.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        }
-      ]
+      "libs": []
     }
   ]
 }
+
 
 ```

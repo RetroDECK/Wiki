@@ -62,7 +62,7 @@ More examples will be added over time.
 
 Use `hunt_libraries.sh` to auto‑generate the `libs[]` array.
 
-[Guide: Library Hunter & Gatherer]() <- W.I.P
+[Guide: Library Hunter]() <- W.I.P
 
 ---
 
@@ -139,73 +139,41 @@ All `component_recipe.json` contain at least four parts:
           "contents": "$SOURCE_VERSION"
         },
         {
+          "type": "dir",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_config",
+          "dest": "rd_config"
+        },
+        {
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_functions.sh",
-           "dest": "$COMPONENT_ARTIFACT_ROOT"
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_launcher.sh",
-           "dest": "$COMPONENT_ARTIFACT_ROOT"
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_manifest.json",
-           "dest": "$COMPONENT_ARTIFACT_ROOT"
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_recipe.json",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_prepare.sh",
-           "dest": "$COMPONENT_ARTIFACT_ROOT"
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
         }
       ],
-      "libs": [
-        {
-          "library": "libQt6Widgets.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Gui.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Core.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Multimedia.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Network.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6DBus.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Concurrent.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
-        }
-      ]
+      "libs": []
     }
   ]
 }
+
 
 ```
 
@@ -263,11 +231,104 @@ Additional library objects are listed here, each processed identically to the pr
     {
       "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch.7z",
       "source_type": "http",
-      "version": "1.21.0",
-      "extraction_type": "archive"
+      "version": "1.22.2",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
+          "dest": "$WORKDIR/cores"
+        },
+        {
+          "type": "dir",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/overlays",
+          "dest": "$WORKDIR/overlays"
+        },
+        {
+          "type": "merge",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_extras/borders",
+          "dest": "$WORKDIR/overlays/borders"
+        },
+        {
+          "type": "dir",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/assets",
+          "dest": "assets"
+        },
+        {
+          "type": "dir",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/autoconfig",
+          "dest": "autoconfig"
+        },
+        {
+          "type": "dir",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/database/cursors",
+          "dest": "database/cursors"
+        },
+        {
+          "type": "dir",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/database/rdb",
+          "dest": "database/rdb"
+        },
+        {
+          "type": "dir",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/filters",
+          "dest": "filters"
+        },
+        {
+          "type": "tar.gz",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/shaders/.",
+          "dest": "rd_extras/shaders"
+        },
+        {
+          "type": "dir",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_config",
+          "dest": "rd_config"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_extras/ScummVM.zip",
+          "dest": "rd_extras"
+        },
+        {
+          "type": "create",
+          "dest": "component_version",
+          "contents": "$SOURCE_VERSION"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_functions.sh",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_launcher.sh",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_manifest.json",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_recipe.json",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_prepare.sh",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_update.sh",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        }
+      ],
+      "libs": []
     },
     {
-      "source_url": "RetroArch.7z-extracted/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage",
+      "source_url": "$EXTRACTED_PATH/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage",
       "source_type": "local",
       "extraction_type": "appimage",
       "assets": [
@@ -281,18 +342,141 @@ Additional library objects are listed here, each processed identically to the pr
     {
       "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
       "source_type": "http",
-      "version": "1.21.0",
+      "version": "1.22.2",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "merge",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/citra_libretro.so.zip",
+      "source_type": "http",
+      "version": "nightly",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "citra_libretro.so",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/sameduck_libretro.so.zip",
+      "source_type": "http",
+      "version": "nightly",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "sameduck_libretro.so",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://github.com/RapidEdwin08/Genesis-Plus-GX-Expanded-Rom-Size",
+      "source_type": "git",
+      "version": "latest",
+      "dest": "Genesis-Plus-GX-Expanded-Rom-Size",
+      "extraction_type": "local",
+      "assets": [
+        {
+          "type": "file",
+          "source": "builds/Linux_so64/genesis_plus_gx_libretro.so",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/RetroArch_cores.7z",
+      "source_type": "http",
+      "version": "nightly",
+      "dest": "nightly-cores",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "merge",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://github.com/libretro/libretro-database",
+      "source_type": "git",
+      "version": "latest",
+      "extraction_type": "local",
+      "assets": [
+        {
+          "type": "tar.gz",
+          "source": "cht/.",
+          "dest": "rd_extras/cheats"
+        }
+      ]
+    },
+    {
+      "source_url": "http://bluemsx.msxblue.com/rel_download/blueMSXv{VERSION}full.zip",
+      "source_type": "http",
+      "version": "282",
       "extraction_type": "archive",
       "assets": [
         {
           "type": "dir",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
-          "dest": "cores"
+          "source": "Machines",
+          "dest": "rd_extras/MSX/Machines"
+        },
+        {
+          "type": "dir",
+          "source": "Databases",
+          "dest": "rd_extras/MSX/Databases"
+        }
+      ]
+    },
+    {
+      "source_url": "https://github.com/rsn8887/capsimg/releases/download/{VERSION}/Capsimg_for_Retroarch.zip",
+      "source_type": "github-release",
+      "version": "1.1",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "Linux/x86-64/capsimg.so",
+          "dest": "rd_extras/Amiga"
+        }
+      ]
+    },
+    {
+      "source_url": "$WORKDIR",
+      "source_type": "local",
+      "extraction_type": "local",
+      "assets": [
+        {
+          "type": "tar.gz",
+          "source": "cores",
+          "dest": "rd_extras/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "$WORKDIR",
+      "source_type": "local",
+      "extraction_type": "local",
+      "assets": [
+        {
+          "type": "tar.gz",
+          "source": "overlays/.",
+          "dest": "rd_extras/overlays"
         }
       ]
     }
   ]
 }
+
 ```
 
 **Explanation**
@@ -463,31 +647,9 @@ azahar-artifact
 ├── component_manifest.json
 ├── component_prepare.sh
 ├── component_recipe.json
-├── rd_config
-│   └── qt-config.ini
-└── shared-libs
-    └── org.kde.Platform
-        └── 6.9
-            ├── libQt6Concurrent.so -> libQt6Concurrent.so.6
-            ├── libQt6Concurrent.so.6 -> libQt6Concurrent.so.6.9.3
-            ├── libQt6Concurrent.so.6.9.3
-            ├── libQt6Core.so -> libQt6Core.so.6
-            ├── libQt6Core.so.6 -> libQt6Core.so.6.9.3
-            ├── libQt6Core.so.6.9.3
-            ├── libQt6DBus.so -> libQt6DBus.so.6
-            ├── libQt6DBus.so.6 -> libQt6DBus.so.6.9.3
-            ├── libQt6DBus.so.6.9.3
-            ├── libQt6Gui.so -> libQt6Gui.so.6
-            ├── libQt6Gui.so.6 -> libQt6Gui.so.6.9.3
-            ├── libQt6Gui.so.6.9.3
-            ├── libQt6Multimedia.so -> libQt6Multimedia.so.6
-            ├── libQt6Multimedia.so.6 -> libQt6Multimedia.so.6.9.3
-            ├── libQt6Multimedia.so.6.9.3
-            ├── libQt6Network.so -> libQt6Network.so.6
-            ├── libQt6Network.so.6 -> libQt6Network.so.6.9.3
-            ├── libQt6Network.so.6.9.3
-            ├── libQt6Widgets.so -> libQt6Widgets.so.6
-            ├── libQt6Widgets.so.6 -> libQt6Widgets.so.6.9.3
-            └── libQt6Widgets.so.6.9.3
+├── assets
+│    └── rd_config
+│       └── qt-config.ini
+└── 
 ```
 

@@ -1,54 +1,68 @@
 ## Example: component_recipe.json - Multi Source - RetroArch
 
 ```
-{
+{{
   "retroarch": [
     {
-      "source_url": "org.libretro.RetroArch",
-      "source_type": "flatpak_id",
-      "version": "$RETROARCH_DESIRED_VERSION",
-      "dest": "user",
-      "extraction_type": "flatpak",
+      "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch.7z",
+      "source_type": "http",
+      "version": "1.22.2",
+      "extraction_type": "archive",
       "assets": [
         {
           "type": "dir",
-          "source": "bin",
-          "dest": "bin"
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
+          "dest": "$WORKDIR/cores"
         },
         {
           "type": "dir",
-          "source": "share/libretro/assets",
-          "dest": "share/libretro/assets"
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/overlays",
+          "dest": "$WORKDIR/overlays"
+        },
+        {
+          "type": "merge",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_extras/borders",
+          "dest": "$WORKDIR/overlays/borders"
         },
         {
           "type": "dir",
-          "source": "share/libretro/autoconfig",
-          "dest": "share/libretro/autoconfig"
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/assets",
+          "dest": "assets"
         },
         {
           "type": "dir",
-          "source": "share/libretro/database",
-          "dest": "share/libretro/database"
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/autoconfig",
+          "dest": "autoconfig"
         },
         {
           "type": "dir",
-          "source": "share/libretro/info",
-          "dest": "share/libretro/info"
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/database/cursors",
+          "dest": "database/cursors"
+        },
+        {
+          "type": "dir",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/database/rdb",
+          "dest": "database/rdb"
+        },
+        {
+          "type": "dir",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/filters",
+          "dest": "filters"
         },
         {
           "type": "tar.gz",
-          "source": "share/libretro/shaders",
-          "dest": "extras/shaders"
-        },
-        {
-          "type": "tar.gz",
-          "source": "share/libretro/overlays",
-          "dest": "extras/overlays"
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/shaders/.",
+          "dest": "rd_extras/shaders"
         },
         {
           "type": "dir",
-          "source": "lib/retroarch",
-          "dest": "lib/retroarch"
+          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_config",
+          "dest": "rd_config"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_extras/ScummVM.zip",
+          "dest": "rd_extras"
         },
         {
           "type": "create",
@@ -58,87 +72,56 @@
         {
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_functions.sh",
-           "dest": "$COMPONENT_ARTIFACT_ROOT"
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_launcher.sh",
-           "dest": "$COMPONENT_ARTIFACT_ROOT"
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_manifest.json",
-           "dest": "$COMPONENT_ARTIFACT_ROOT"
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_recipe.json",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_prepare.sh",
-           "dest": "$COMPONENT_ARTIFACT_ROOT"
-        }
-      ],
-      "libs": [
-        {
-          "library": "libQt6Core.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "$DESIRED_QT6_RUNTIME_VERSION",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Gui.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "$DESIRED_QT6_RUNTIME_VERSION",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Widgets.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "$DESIRED_QT6_RUNTIME_VERSION",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Concurrent.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "$DESIRED_QT6_RUNTIME_VERSION",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libQt6Network.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "$DESIRED_QT6_RUNTIME_VERSION",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libCg.so",
-          "source": "lib",
-          "dest": "shared-libs"
-        },
-        {
-          "library": "libCgGL.so",
-          "source": "lib",
-          "dest": "shared-libs"
-        }
-      ],
-      "extras": [
-        {
-          "type": "dir",
-          "source": "$REPO_ROOT/$COMPONENT_NAME",
           "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
-          "type": "create",
-          "dest": "component_version",
-          "contents": "$SOURCE_VERSION"
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_update.sh",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        }
+      ],
+      "libs": []
+    },
+    {
+      "source_url": "$EXTRACTED_PATH/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage",
+      "source_type": "local",
+      "extraction_type": "appimage",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "usr/bin",
+          "dest": "bin"
         }
       ]
     },
     {
       "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
       "source_type": "http",
-      "version": "1.21.0",
+      "version": "1.22.2",
       "extraction_type": "archive",
       "assets": [
         {
-          "type": "dir",
+          "type": "merge",
           "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
           "dest": "$WORKDIR/cores"
         }
@@ -205,9 +188,9 @@
       "extraction_type": "local",
       "assets": [
         {
-          "type": "merge",
-          "source": "cht",
-          "dest": "share/libretro/database/cht"
+          "type": "tar.gz",
+          "source": "cht/.",
+          "dest": "rd_extras/cheats"
         }
       ]
     },
@@ -220,12 +203,12 @@
         {
           "type": "dir",
           "source": "Machines",
-          "dest": "extras/MSX/Machines"
+          "dest": "rd_extras/MSX/Machines"
         },
         {
           "type": "dir",
           "source": "Databases",
-          "dest": "extras/MSX/Databases"
+          "dest": "rd_extras/MSX/Databases"
         }
       ]
     },
@@ -238,23 +221,36 @@
         {
           "type": "file",
           "source": "Linux/x86-64/capsimg.so",
-          "dest": "extras/Amiga"
+          "dest": "rd_extras/Amiga"
         }
       ]
     },
     {
-      "source_url": "cores",
+      "source_url": "$WORKDIR",
       "source_type": "local",
       "extraction_type": "local",
       "assets": [
         {
           "type": "tar.gz",
-          "source": "",
-          "dest": "extras/cores"
+          "source": "cores",
+          "dest": "rd_extras/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "$WORKDIR",
+      "source_type": "local",
+      "extraction_type": "local",
+      "assets": [
+        {
+          "type": "tar.gz",
+          "source": "overlays/.",
+          "dest": "rd_extras/overlays"
         }
       ]
     }
   ]
 }
+
 
 ```

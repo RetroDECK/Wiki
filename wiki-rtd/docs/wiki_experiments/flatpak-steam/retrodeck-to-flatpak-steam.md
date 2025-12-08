@@ -2,10 +2,15 @@
 
 <img src="../../../wiki_icons/pixelitos/steam.png" width="75">
 
-RetroDECK can be added to the Steam Flatpak version using the **RetroDECK Configurator**, just like with the regular installation. However, due to the sandboxing restrictions of Flatpak, additional steps are required to allow RetroDECK to launch other Flatpaks.
+RetroDECK can be added to the Steam Flatpak version using the **RetroDECK Configurator**, just like with the regular installation. However, due to the sandboxing restrictions of Flatpak, additional steps are required to allow Steam to launch other Flatpaks.
 
 **Note:**  
 RetroDECK always recommends using the non-Flatpak native version for the best compatibility.
+
+
+### Disclaimer on Experiments 
+
+These experiments are created by the RetroDECK Team and/or Community. The guides are intended for people with technical knowledge and a passion for tinkering. Using these guides *might* put RetroDECK and your data at risk. The RetroDECK Team can't provide any support for these experiments or fix any issues they might cause on your system or RetroDECK installation.
 
 ---
 

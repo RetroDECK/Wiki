@@ -291,7 +291,6 @@ nav:
     - Multidisk/file Games: wiki_management/multi-disk/multi-disk.md
     - Spreading Files over Multiple Drives: wiki_management/spread-files/spread-files.md
     - Software Recommendations: wiki_management/software-recommendations/software-recommendations.md
-    - Add RetroDECK to Steam Flatpak Version: wiki_management/flatpak-steam/retrodeck-to-flatpak-steam.md
 
   - Guides - Clients 📟:
 
@@ -392,6 +391,7 @@ nav:
   - RetroDECK Experiments ⚗️:
 
     - About Experiments: wiki_experiments/about-experiments.md
+    - Add RetroDECK to Steam Flatpak Version: wiki_experiments/flatpak-steam/retrodeck-to-flatpak-steam.md
     - Autoboot into RetroDECK not Game Mode: wiki_experiments/retrodeck-gamemode-boot/retrodeck-gamemode-boot.md
     - ES-DE Background Music:  wiki_experiments/retrodeck-music-player/retrodeck-music-player.md
     - Launch Desktop Games & Apps:

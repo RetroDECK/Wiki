@@ -11,6 +11,8 @@ More info: [ES-DE UserGuide: Folders as Files](https://gitlab.com/es-de/emulatio
 - It is recommended to use **.chd** files, as they take up less disk space if the component supports it. You can use the built-in compressor tool in the RetroDECK Configurator to convert other formats.
 - If you have **.bin / .cue** files, only include the **.cue** files in the `.m3u` playlist.
 
+---
+
 ## Example: PlayStation 1 Game: Dragon Fantasy VII
 
 Let's use the fake PlayStation 1 game `Dragon Fantasy VII` as an example.
@@ -26,6 +28,8 @@ Let's use the fake PlayStation 1 game `Dragon Fantasy VII` as an example.
 ```
 
 RetroDECK will see the folder as a **single game** and launch the `.m3u` file.
+
+---
 
 ## Create a .m3u Sub-folder
 
@@ -44,6 +48,8 @@ RetroDECK will see the folder as a **single game** and launch the `.m3u` file.
     └── Dragon Fantasy VII - Disk3.chd <--- Game Disc
 ```
 
+---
+
 ## Create the .m3u File
 
 Inside the folder, create a file named **exactly** like the folder: `Dragon Fantasy VII.m3u`.
@@ -51,6 +57,8 @@ Inside the folder, create a file named **exactly** like the folder: `Dragon Fant
 **File Path:**
 
 `retrodeck/roms/psx/Dragon Fantasy VII.m3u/Dragon Fantasy VII.m3u`
+
+---
 
 ## Populate the .m3u File
 
@@ -69,3 +77,5 @@ Dragon Fantasy VII - Disk3.chd
 ```
 
 RetroDECK will now recognize the folder as **one game** and launch it correctly.
+
+---

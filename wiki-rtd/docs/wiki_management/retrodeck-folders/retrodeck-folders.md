@@ -2,243 +2,261 @@
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="75">
 
-Here is the RetroDECK folder structure for userdata.
+This page provides an overview of the RetroDECK folder structure for **userdata**, showing where configuration files, roms, saves, states, bios and other things  are stored.
+
+---
 
 ## Main Folders
 
-| **Folder Name**         | **Folder Path**                                                              | **Comment**                                                                 |
-|:----------------:|:-----------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
-| userdata Folder  | `retrodeck/`                                                            | Contains userdata. Has a dynamic location, chosen by the user.              |
-| /.var/app/net.retrodeck.retrodeck/ Folder  | `~/.var/app/net.retrodeck.retrodeck/`                                   | Exposes configuration, cache, and system data from the Flatpak environment. |
-| cache Folder |`~/.var/app/net.retrodeck.retrodeck/cache/` |  cache files and temp data  for components |  
-| config Folder |`~/.var/app/net.retrodeck.retrodeck/config/` | configuration files for components    |  
-| data Folder |`~/.var/app/net.retrodeck.retrodeck/data/` |  data structures for components      |  
-| config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retrodeck/` | `retrodeck.cfg`   |  
+| Folder Path                                          | Folder Name / Description                | Description                                                                 |
+|------------------------------------------------------|-----------------------------------------|-----------------------------------------------------------------------------|
+| retrodeck/                                           | userdata Folder                          | Contains all RetroDECK user data. Location is dynamic and chosen by the user. |
+| ~/.var/app/net.retrodeck.retrodeck/                 | Flatpak Root Folder                      | Exposes configuration, cache, and system data from the Flatpak environment. |
+| ~/.var/app/net.retrodeck.retrodeck/cache/           | Cache Folder                             | Stores cache files and temporary data for RetroDECK components.             |
+| ~/.var/app/net.retrodeck.retrodeck/config/          | Config Folder                            | Stores configuration files for RetroDECK components.                        |
+| ~/.var/app/net.retrodeck.retrodeck/config/retrodeck/ | RetroDECK Config Folder                  | Contains the main `retrodeck.cfg` configuration file.                        |
+| ~/.var/app/net.retrodeck.retrodeck/data/            | Data Folder                              | Stores data structures used by RetroDECK components.                         |
+
+---
 
 ## Userdata Folder - retrodeck/
 
-| **Folder Name**             | **Folder Path**                 | **Comment**                                           |
-|:--------------------:|:-------------------------:|:-----------------------------------------------------:|
-| BIOS Folder          | `retrodeck/bios`          | BIOS folder (follows the RetroArch BIOS structure).   |
-| Borders Folder       | `retrodeck/borders`       | Border files for supported systems                    |
-| Cheats Folder        | `retrodeck/cheats`        |                                                       |
-| ES-DE Folder         | `retrodeck/ES-DE`         | Userdata from ES-DE                                   |
-| Logs Folder          | `retrodeck/logs`          | RetroDECK logfiles                                    |
-| Mods Folder          | `retrodeck/mods`          | Mods folders for supported systems                    |
-| PortMaster Folder    | `retrodeck/PortMaster`    | PortMaster downloaded games data                      |
-| ROMs Folder          | `retrodeck/roms`          | ROMs folders                                          |
-| Saves Folder         | `retrodeck/saves`         | Save folders for supported systems                    |
-| Screenshots Folder   | `retrodeck/saves`         | Screenshots folders for supported systems             |
-| Shaders Folder       | `retrodeck/shaders`       | Shader folders for supported systems                  |
-| States Folder        | `retrodeck/states`        | State (save state) folders for supported systems      |
-| Texture Packs Folder | `retrodeck/texture_packs` | Texture Packs folders for supported systems           |
+| Folder Path                  | Folder Name / Description        | Description                                                                 |
+|-------------------------------|---------------------------------|-----------------------------------------------------------------------------|
+| retrodeck/bios                | BIOS Folder                     | BIOS files for supported emulators (follows the RetroArch BIOS structure).  |
+| retrodeck/borders             | Borders Folder                  | Border images for supported systems displayed in the interface.            |
+| retrodeck/cheats              | Cheats Folder                   | Cheat files for supported systems and emulators.                            |
+| retrodeck/ES-DE               | ES-DE Folder                    | Userdata and configuration files from EmulationStation-DE.                  |
+| retrodeck/logs                | Logs Folder                     | RetroDECK log files for debugging and tracking.                              |
+| retrodeck/mods                | Mods Folder                     | Modifications and additional content for supported systems.                 |
+| retrodeck/roms                | ROMs Folder                     | Game ROMs for supported systems.                                            |
+| retrodeck/saves               | Saves Folder                    | Save files for supported systems.                                           |
+| retrodeck/screenshots         | Screenshots Folder              | In-game screenshots captured from supported systems.                        |
+| retrodeck/storage             | Storage Folder                  | Miscellaneous storage for DLC, installations, PortMaster data, and other files. |
+| retrodeck/shaders             | Shaders Folder                  | Shader files for graphical enhancements in emulators.                       |
+| retrodeck/states              | States Folder                   | Save states for supported emulators and systems.                             |
+| retrodeck/texture_packs       | Texture Packs Folder            | Texture packs used for graphical enhancements in supported systems.         |
+
+
+---
 
 ## ES-DE Folder
 
-| **Folder Name**               | **Folder Path**            | **Comment**                      |
-|:----------------------:|:-------------------:|:--------------------------------:|
-| Collections Folder     | collections         | Custom ES-DE Collection          |
-| Custom Systems Folder  | custom_systems      | Custom Systems                   |
-| Downloaded Media Folder| downloaded_media    | Scraping data                    |
-| Gamelists Folder       | gamelists           | ES-DE gamelist.xml files         |
-| Themes Folder          | themes              | ES-DE Themes                     |
+| Folder Path         | Folder Name / Description      | Description                     |
+|--------------------|-------------------------------|---------------------------------|
+| collections         | Collections Folder            | Custom EmulationStation-DE collections. |
+| custom_systems      | Custom Systems Folder         | Folder for user-defined or additional systems. |
+| downloaded_media    | Downloaded Media Folder       | Stores scraped media assets like images, videos, and metadata. |
+| gamelists           | Gamelists Folder              | Contains ES-DE gamelist.xml files for system organization. |
+| themes              | Themes Folder                 | Stores themes for the EmulationStation-DE interface. |
+
+
+
+---
 
 ## BIOS Folder
 
-Most BIOS files are put in the root of the folder. 
+Most BIOS files are put in the root of the folder.
 
-| **Folder Name**             | **Folder Path**            | **Comment** |
-|:--------------------:|:-------------------:|:-----------:|
-| Cemu Folder          | cemu                |             |
-| Citra Folder         | citra               |             |
-| Databases Folder     | Databases           |             |
-| Dc Folder            | dc                  |             |
-| Fbneo Folder         | fbneo               |             |
-| Gzdoom Folder        | gzdoom              |             |
-| HdPacks Folder       | HdPacks             |             |
-| Machines Folder      | Machines            |             |
-| Mame-sa Folder       | mame-sa             |             |
-| Mupen64plus Folder   | Mupen64plus         |             |
-| Np2kai Folder        | np2kai              |             |
-| Pico-8 Folder        | pico-8              |             |
-| PPSSPP Folder        | PPSSPP              |             |
-| Quasi88 Folder       | quasi88             |             |
-| Rpcs3 Folder         | rpcs3               |             |
-| Switch Folder        | switch              |             |
-| Themes Folder        | themes              |             |
-| Vita3K Folder        | Vita3K              |             |
+| Folder Path   | System Name / Folder Name | Description |
+|---------------|--------------------------|-------------|
+| cemu          | Cemu                     | Wii U emulator. Place BIOS files if required by specific games. |
+| citra         | Citra                    | Nintendo 3DS emulator. Stores BIOS files needed for emulation. |
+| Databases     | Databases                | Folder for storing emulator and system database files. |
+| dc            | Dreamcast                | Sega Dreamcast BIOS files used for emulation. |
+| fbneo         | Final Burn Neo           | Arcade emulator BIOS files. |
+| gzdoom        | GZDoom                   | Source port for Doom games; stores configuration and IWAD files. |
+| HdPacks       | HdPacks                  | Folder for high-definition graphics packs used by certain emulators. |
+| Machines      | Machines                 | Folder for BIOS files of various supported emulated machines. |
+| mame-sa       | MAME Standalone          | Standalone MAME emulator BIOS files. |
+| Mupen64plus   | Mupen64Plus              | Nintendo 64 emulator BIOS files for accurate emulation. |
+| np2kai        | Neko Project II Kai      | PC-9801/other Japanese computer emulator BIOS files. |
+| pico-8        | Pico-8                   | Fantasy console; stores cartridge and system files. |
+| PPSSPP        | PPSSPP                   | PlayStation Portable emulator BIOS files for accurate emulation. |
+| quasi88       | Quasi88                  | NEC PC-8801 emulator BIOS files. |
+| rpcs3         | RPCS3                    | PlayStation 3 emulator BIOS files and firmware. |
+| switch        | Nintendo Switch          | Switch emulator BIOS files and firmware. |
+| themes        | Themes                   | Optional folder for BIOS-related UI themes or overlays. |
+| Vita3K        | Vita3K                   | PlayStation Vita emulator BIOS files and system firmware. |
+
+
+---
 
 ## ROMs Folder
 
 RetroDECK Follows the ES-DE ROMs Folder Structure. 
 
-| **Folder Name** | **Folder Path**   | **Comment** |
-|  :---:  | :---:       |   :---:     |
-| 3DO Folder | 3do | A 32-bit console known for its high price and multimedia capabilities. |
-| Adam Folder | adam | A home computer and game console hybrid released by Coleco. |
-| Amiga Folder | amiga | A family of personal computers known for their graphics and sound capabilities. |
-| Amiga1200 Folder | amiga1200 | An advanced model of the Amiga computer with improved graphics and processing power. |
-| Amiga600 Folder | amiga600 | A compact version of the Amiga computer with fewer expansion options. |
-| Amigacd32 Folder | amigacd32 | A CD-ROM based game console version of the Amiga computer. |
-| Amstradcpc Folder | amstradcpc | A series of 8-bit home computers popular in Europe. |
-| Apple2 Folder | apple2 | One of the first highly successful mass-produced microcomputers. |
-| Apple2gs Folder | apple2gs | An advanced model of the Apple II with better graphics and sound. |
-| Arcade Folder | arcade | Coin-operated entertainment machines found in public places. |
-| Arcadia Folder | arcadia | A lesser-known console with a small library of games. |
-| Archimedes Folder | archimedes | A family of personal computers developed by Acorn Computers. |
-| Arduboy Folder | arduboy | A handheld game console based on Arduino technology. |
-| Astrocde Folder | astrocde | A second-generation home video game console released by Emerson Radio. |
-| Atari2600 Folder | atari2600 | One of the first successful home video game consoles. |
-| Atari5200 Folder | atari5200 | A follow-up to the Atari 2600 with improved graphics and sound. |
-| Atari7800 Folder | atari7800 | A backward-compatible console with better graphics than its predecessors. |
-| Atari800 Folder | atari800 | An 8-bit home computer known for its gaming capabilities. |
-| Atarijaguar Folder | atarijaguar | A 64-bit game console with a limited library of games. |
-| Atarilynx Folder | atarilynx | A handheld game console with a color display. |
-| Atarist Folder | atarist | A family of home computers known for their MIDI capabilities. |
-| Atarixe Folder | atarixe | An 8-bit home computer similar to the Atari 800. |
-| Atomiswave Folder | atomiswave | An arcade system board developed by Sammy Corporation. |
-| BBC Micro Folder | bbcmicro | A series of microcomputers developed by Acorn Computers for the BBC. |
-| C64 Folder | c64 | One of the best-selling home computers of all time. |
-| CD-i Mono-I Folder | cdimono1 | A multimedia CD-ROM game console developed by Philips. |
-| CDTV Folder | cdtv | A multimedia platform based on the Amiga computer. |
-| ChaiLove Folder | chailove | A retro game framework for creating games in Lua. |
-| Channel F Folder | channelf | A second-generation home video game console released by Fairchild. |
-| Colecovision Folder | colecovision | A second-generation home video game console known for its arcade ports. |
-| Consolearcade Folder | consolearcade | A general folder for home consoles that play arcade-style games. |
-| Cps Folder | cps | Capcom's arcade system board used for many popular games. |
-| Cps1 Folder | cps1 | The first version of Capcom's arcade system board. |
-| Cps2 Folder | cps2 | The second version of Capcom's arcade system board with improved security. |
-| Cps3 Folder | cps3 | The third version of Capcom's arcade system board with advanced graphics. |
-| Crvision Folder | crvision | A home computer and game console hybrid released by VTech. |
-| Daphne Folder | daphne | An emulator for laserdisc arcade games. |
-| Desktop Folder | desktop | Folder for .desktop files. |
-| DOOM Folder | doom | A folder containing files related to the classic first-person shooter game. |
-| DOS Folder | dos | An operating system for IBM-compatible personal computers. |
-| Dreamcast Folder | dreamcast | A 128-bit game console developed by Sega. |
-| Easyrpg Folder | easyrpg | An open-source RPG game engine. |
-| Electron Folder | electron | A budget home computer developed by Acorn Computers. |
-| Emulators Folder | emulators | Software that allows one computer system to behave like another. |
-| Famicom Folder | famicom | The Japanese version of the Nintendo Entertainment System. |
-| Fba Folder | fba | Final Burn Alpha, an arcade game emulator. |
-| Fbneo Folder | fbneo | Final Burn Neo, an updated version of Final Burn Alpha. |
-| Fds Folder | fds | Famicom Disk System, a floppy disk add-on for the Famicom. |
-| Flash Folder | flash | A folder containing files related to Adobe Flash content. |
-| Fm7 Folder | fm7 | A home computer developed by Fujitsu. |
-| Fmtowns Folder | fmtowns | A series of personal computers developed by Fujitsu. |
-| Gamate Folder | gamate | A handheld game console developed by Bit Corporation. |
-| Gameandwatch Folder | gameandwatch | A series of handheld electronic games developed by Nintendo. |
-| Gamecom Folder | gamecom | A handheld game console developed by Tiger Electronics. |
-| Gamegear Folder | gamegear | A handheld game console developed by Sega. |
-| GB Folder | gb | Game Boy, a handheld game console developed by Nintendo. |
-| GBA Folder | gba | Game Boy Advance, a handheld game console developed by Nintendo. |
-| GBC Folder | gbc | Game Boy Color, a handheld game console developed by Nintendo. |
-| GC Folder | gc | GameCube, a home video game console developed by Nintendo. |
-| Genesis Folder | genesis | A 16-bit game console developed by Sega. |
-| Gmaster Folder | gmaster | A handheld game console developed by Watara. |
-| Gx4000 Folder | gx4000 | A game console developed by Amstrad. |
-| Intellivision Folder | intellivision | A second-generation home video game console developed by Mattel. |
-| J2me Folder | j2me | Java 2 Platform, Micro Edition, used for mobile devices. |
-| Laserdisc Folder | laserdisc | A folder containing files related to laserdisc content. |
-| Lcdgames Folder | lcdgames | A folder containing files related to LCD handheld games. |
-| Lowresnx Folder | lowresnx | A fantasy console for making games in a low-resolution environment. |
-| Lutris Folder | lutris | An open-source gaming platform for Linux. |
-| Lutro Folder | lutro | A framework for creating retro-style games in Lua. |
-| Macintosh Folder | macintosh | A family of personal computers developed by Apple. |
-| MAME Folder | mame | Multiple Arcade Machine Emulator, a software for emulating arcade games. |
-| Master System Folder | mastersystem | A third-generation home video game console developed by Sega. |
-| Mega CD Folder | megacd | A CD-ROM add-on for the Sega Genesis. |
-| Mega CD JP Folder | megacdjp | The Japanese version of the Sega CD add-on. |
-| Mega Drive Folder | megadrive | The international name for the Sega Genesis. |
-| Mega Duck Folder | megaduck | A handheld game console developed by Welback Holdings. |
-| MESS Folder | mess | Multi Emulator Super System, an emulator for various consoles and computers. |
-| Model2 Folder | model2 | An arcade system board developed by Sega. |
-| Moto Folder | moto | A folder containing files related to motorcycle games. |
-| MSX Folder | msx | A standardized home computer architecture. |
-| MSX1 Folder | msx1 | The first generation of the MSX computer standard. |
-| MSX2 Folder | msx2 | The second generation of the MSX computer standard. |
-| MSX turbo R Folder | msxturbor | An enhanced version of the MSX2 computer standard. |
-| M.U.G.E.N Folder | mugen | IkemanGO a customizable fighting game engine. |
-| Multivision Folder | multivision | A home computer and game console hybrid developed by Samsung. |
-| N3DS Folder | n3ds | Nintendo 3DS, a handheld game console developed by Nintendo. |
-| N64 Folder | n64 | Nintendo 64, a 64-bit game console developed by Nintendo. |
-| N64DD Folder | n64dd | A disk drive add-on for the Nintendo 64. |
-| Naomi Folder | naomi | An arcade system board developed by Sega. |
-| Naomi2 Folder | naomi2 | An enhanced version of the Sega Naomi arcade system board. |
-| Naomigd Folder | naomigd | A GD-ROM add-on for the Sega Naomi arcade system board. |
-| NDS Folder | nds | Nintendo DS, a handheld game console developed by Nintendo. |
-| Neo Geo Folder | neogeo | A cartridge-based arcade and home video game system developed by SNK. |
-| Neo Geo CD Folder | neogeocd | A CD-ROM based version of the Neo Geo system. |
-| Neo Geo CD JP Folder | neogeocdjp | The Japanese version of the Neo Geo CD system. |
-| NES Folder | nes | Nintendo Entertainment System, an 8-bit home video game console. |
-| NGP Folder | ngp | Neo Geo Pocket, a handheld game console developed by SNK. |
-| NGPC Folder | ngpc | Neo Geo Pocket Color, an upgraded version of the Neo Geo Pocket. |
-| Odyssey2 Folder | odyssey2 | A second-generation home video game console developed by Magnavox. |
-| Openbor Folder | openbor | Open Beats of Rage, a customizable beat 'em up game engine. |
-| Palm Folder | palm | A folder containing files related to Palm OS devices. |
-| PC Folder | pc | Uses for some PC game ports. |
-| PC88 Folder | pc88 | A series of home computers developed by NEC. |
-| PC98 Folder | pc98 | An upgraded series of home computers developed by NEC. |
-| PCArcade Folder | pcarcade | A folder containing files related to PC arcade games. |
-| PC Engine Folder | pcengine | A home video game console developed by NEC. |
-| PC Engine CD Folder | pcenginecd | A CD-ROM add-on for the PC Engine. |
-| PCFX Folder | pcfx | A 32-bit home video game console developed by NEC. |
-| Pico8 Folder | pico8 | A fantasy console for making, sharing, and playing tiny games. |
-| Plus4 Folder | plus4 | A home computer developed by Commodore. |
-| Pokemini Folder | pokemini | An emulator for the Pokémon Mini handheld game console. |
-| PortMaster Folder | portmaster | A folder containing files related to PortMaster. |
-| Ports Folder | ports | A folder containing files related to game ports. |
-| PS2 Folder | ps2 | PlayStation 2, a home video game console developed by Sony. |
-| PS3 Folder | ps3 | PlayStation 3, a home video game console developed by Sony. |
-| PSP Folder | psp | PlayStation Portable, a handheld game console developed by Sony. |
-| PSVita Folder | psvita | PlayStation Vita, a handheld game console developed by Sony. |
-| PSX Folder | psx | PlayStation, a home video game console developed by Sony. |
-| Pv1000 Folder | pv1000 | A home video game console developed by Casio. |
-| Quake Folder | quake | A folder containing files related to the Quake series of games. |
-| Satellaview Folder | satellaview | A satellite modem add-on for the Super Famicom. |
-| Saturn Folder | saturn | A 32-bit home video game console developed by Sega. |
-| Satun JP Folder | saturnjp | The Japanese version of the Sega Saturn. |
-| SCUMMVM Folder | scummvm | An emulator for classic point-and-click adventure games. |
-| SCV Folder | scv | Super Cassette Vision, a home video game console developed by Epoch. |
-| Sega32x Folder | sega32x | A 32-bit add-on for the Sega Genesis. |
-| Sega32x JP Folder | sega32xjp | The Japanese version of the Sega 32X add-on. |
-| Sega 32x NA Folder | sega32xna | The North American version of the Sega 32X add-on. |
-| Sega CD Folder | segacd | A CD-ROM add-on for the Sega Genesis. |
-| Sega Mark III Folder | mark3 | Japanese version of the Master System. |
-| SFC Folder | sfc | Super Famicom, the Japanese version of the Super Nintendo. |
-| SG-1000 Folder | sg-1000 | A home video game console developed by Sega. |
-| SGB Folder | sgb | Super Game Boy, an adapter for playing Game Boy games on the SNES. |
-| SNES Folder | snes | Super Nintendo Entertainment System, a 16-bit home video game console. |
-| SNES NA Folder | snesna | The North American version of the Super Nintendo. |
-| Solarus Folder | solarus | An open-source game engine for action-RPGs. |
-| Spectravideo Folder | spectravideo | A series of home computers developed by Spectravideo. |
-| STV Folder | stv | Sega Titan Video, an arcade system board developed by Sega. |
-| Sufami Folder | sufami | Sufami Turbo, an add-on for the Super Famicom. |
-| Supergrafx Folder | supergrafx | An upgraded version of the PC Engine. |
-| Supervision Folder | supervision | A handheld game console developed by Watara. |
-| Supracan Folder | supracan | A 16-bit home video game console developed by Funtech. |
-| Switch Folder | switch | A hybrid home and handheld game console developed by Nintendo. |
-| TG16 Folder | tg16 | TurboGrafx-16, the North American version of the PC Engine. |
-| TG-CD Folder | tg-cd | A CD-ROM add-on for the TurboGrafx-16. |
-| TI99 Folder | ti99 | A series of home computers developed by Texas Instruments. |
-| TIC80 Folder | tic80 | A fantasy computer for making, sharing, and playing tiny games. |
-| TO8 Folder | to8 | A home computer developed by Thomson. |
-| Uzebox Folder | uzebox | An open-source retro-minimalist game console. |
-| Vectrex Folder | vectrex | A vector display-based home video game console. |
-| Vic20 Folder | vic20 | A home computer developed by Commodore. |
-| Vircon32 Folder | vircon32 | Vircon32 is a 32-bit virtual console. |
-| Videopac Folder | videopac | The European version of the Magnavox Odyssey². |
-| Virtualboy Folder | virtualboy | A 3D gaming console developed by Nintendo. |
-| Vsmile Folder | vsmile | An educational game console developed by VTech. |
-| WASM4 Folder | wasm4 | A fantasy console for making, sharing, and playing tiny games. |
-| Wii Folder | wii | A home video game console developed by Nintendo. |
-| WiiU Folder | wiiu | A home video game console developed by Nintendo. |
-| Windows Folder | windows | A folder containing files related to the Windows operating system. |
-| Windows3x Folder | windows3x | A folder containing files related to Windows 3.x. |
-| Windows9x Folder | windows9x | A folder containing files related to Windows 9x. |
-| Wonderswan Folder | wonderswan | A handheld game console developed by Bandai. |
-| Wonderswancolor Folder | wonderswancolor | An upgraded version of the WonderSwan with a color display. |
-| X1 Folder | x1 | A series of home computers developed by Sharp. |
-| X68000 Folder | x68000 | A home computer developed by Sharp. |
-| Xbox Folder | xbox | A home video game console developed by Microsoft. |
-| Zx81 Folder | zx81 | A home computer developed by Sinclair Research. |
-| Zxspectrum Folder | zxspectrum | A series of home computers developed by Sinclair Research. |
+| Folder Path | System Name | Description |
+|-------------|-------------|-------------|
+| 3do | 3DO | 32-bit home console known for multimedia capabilities and high-quality graphics. |
+| adam | Coleco Adam | Home computer and game console hybrid released by Coleco. |
+| amiga | Amiga | Family of personal computers known for advanced graphics and sound capabilities. |
+| amiga1200 | Amiga 1200 | Advanced model of Amiga with improved graphics, sound, and processing power. |
+| amiga600 | Amiga 600 | Compact version of Amiga with fewer expansion options. |
+| amigacd32 | Amiga CD32 | CD-ROM based game console version of the Amiga computer. |
+| amstradcpc | Amstrad CPC | 8-bit home computer series popular in Europe. |
+| apple2 | Apple II | One of the first highly successful mass-produced microcomputers. |
+| apple2gs | Apple IIgs | Advanced Apple II model with improved graphics and sound. |
+| arcade | Arcade | Coin-operated entertainment machines found in public places. |
+| arcadia | Arcadia | Lesser-known 8-bit console with a small library of games. |
+| archimedes | Acorn Archimedes | Family of personal computers developed by Acorn Computers. |
+| arduboy | Arduboy | Handheld game console based on Arduino hardware. |
+| astrocde | Astrocade | Second-generation home video game console released by Emerson Radio. |
+| atari2600 | Atari 2600 | One of the first widely successful home video game consoles. |
+| atari5200 | Atari 5200 | Follow-up to the Atari 2600 with improved graphics and sound. |
+| atari7800 | Atari 7800 | Backward-compatible console with enhanced graphics over predecessors. |
+| atari800 | Atari 800 | 8-bit home computer known for gaming capabilities. |
+| atarijaguar | Atari Jaguar | 64-bit home console with a limited library of games. |
+| atarilynx | Atari Lynx | Handheld game console with color display. |
+| atarist | Atari ST | Family of home computers known for MIDI and productivity capabilities. |
+| atarixe | Atari XE | 8-bit home computer similar to Atari 800. |
+| atomiswave | Atomiswave | Arcade system board developed by Sammy Corporation. |
+| bbcmicro | BBC Micro | Series of microcomputers developed by Acorn for educational use. |
+| c64 | Commodore 64 | One of the best-selling 8-bit home computers of all time. |
+| cdimono1 | Philips CD-i Mono-I | Multimedia CD-ROM console developed by Philips. |
+| cdtv | Commodore CDTV | Multimedia platform based on Amiga computers. |
+| chailove | ChaiLove | Retro game framework for creating games in Lua. |
+| channelf | Fairchild Channel F | Second-generation home video game console. |
+| coco | Tandy CoCo | Color Computer line of home computers by Tandy/Radio Shack. |
+| colecovision | ColecoVision | Second-generation home video game console known for arcade ports. |
+| consolearcade | Console Arcade | General folder for home consoles that play arcade-style games. |
+| cps | Capcom CPS | Capcom arcade system boards used in numerous arcade titles. |
+| cps1 | Capcom CPS-1 | First version of Capcom's arcade system board. |
+| cps2 | Capcom CPS-2 | Second version with improved graphics and encryption. |
+| cps3 | Capcom CPS-3 | Third-generation arcade system board with advanced 3D graphics. |
+| crvision | VTech CreatiVision | Hybrid home computer and game console. |
+| daphne | Daphne | Emulator for laserdisc-based arcade games. |
+| desktop | Desktop | Folder for .desktop and misc files in Linux/SteamOS. |
+| doom | DOOM | Folder containing files related to the classic first-person shooter. |
+| dos | DOS | Microsoft Disk Operating System, widely used for early PC games. |
+| dragon32 | Dragon 32 | Home computer released in the UK with 8-bit architecture. |
+| dreamcast | Sega Dreamcast | 128-bit home console with innovative online features. |
+| easyrpg | EasyRPG | Open-source RPG engine compatible with RPG Maker 2000/2003 games. |
+| electron | Acorn Electron | Budget 8-bit home computer developed by Acorn. |
+| emulators | Emulators | Software that mimics other systems or consoles. |
+| famicom | Nintendo Famicom | Japanese version of the Nintendo Entertainment System (NES). |
+| fba | Final Burn Alpha | Arcade emulator for CPS, Neo Geo, and other boards. |
+| fbneo | Final Burn Neo | Updated version of Final Burn Alpha with additional features. |
+| fds | Famicom Disk System | Floppy disk add-on for Famicom in Japan. |
+| flash | Adobe Flash | Folder containing Flash game or animation files. |
+| fm7 | Fujitsu FM-7 | 8-bit home computer for education and gaming in Japan. |
+| fmtowns | Fujitsu FM Towns | Series of 16-bit/32-bit home computers for gaming and multimedia. |
+| gamate | Gamate | Handheld console developed by Bit Corporation. |
+| gameandwatch | Nintendo Game & Watch | Series of handheld LCD games by Nintendo. |
+| gamecom | Tiger Game.com | Handheld console with touchscreen and limited library. |
+| gamegear | Sega Game Gear | Color handheld console competing with Nintendo Game Boy. |
+| gb | Nintendo Game Boy | Original 8-bit handheld console by Nintendo. |
+| gba | Nintendo Game Boy Advance | 32-bit handheld console with backward compatibility. |
+| gbc | Nintendo Game Boy Color | Color version of the original Game Boy. |
+| gc | Nintendo GameCube | 128-bit home console with small optical discs. |
+| genesis | Sega Genesis | 16-bit home console known for arcade ports and fast gameplay. |
+| gmaster | Watara GMaster | Handheld game console. |
+| gx4000 | Amstrad GX4000 | 8-bit/16-bit home console with limited commercial success. |
+| intellivision | Mattel Intellivision | Second-generation home console with improved graphics. |
+| j2me | Java 2 Micro Edition | Platform for mobile games and applications. |
+| laserdisc | Laserdisc | Folder containing laserdisc arcade or media content. |
+| lcdgames | LCD Games | Folder containing handheld LCD game files. |
+| lowresnx | LowResNX | Fantasy console for creating low-resolution retro games. |
+| lutro | Lutro | Lua-based retro-style game framework. |
+| macintosh | Macintosh | Family of Apple personal computers. |
+| mark3 | Sega Mark III | Japanese version of the Master System. |
+| mame | MAME | Multiple Arcade Machine Emulator. |
+| mastersystem | Sega Master System | 8-bit console with strong 2D graphics. |
+| megacd | Sega Mega CD | CD-ROM add-on for Sega Genesis/Mega Drive. |
+| megacdjp | Sega Mega CD (Japan) | Japanese version of the Mega CD. |
+| megadrive | Sega Mega Drive | International name for Sega Genesis. |
+| megadrivejp | Sega Mega Drive (Japan) | Japanese release of the Mega Drive. |
+| megaduck | Welback Mega Duck | Handheld console compatible with some Game Boy games. |
+| mess | MESS | Multi Emulator Super System for computers and consoles. |
+| model2 | Sega Model 2 | Arcade board with 3D graphics capabilities. |
+| moto | Motorcycle Games | Folder for motorcycle racing titles. |
+| msx | MSX | Standardized 8-bit home computer platform. |
+| msx1 | MSX 1 | First generation of MSX home computers. |
+| msx2 | MSX 2 | Second generation of MSX with improved graphics/sound. |
+| msxturbor | MSX turbo R | Enhanced final generation of the MSX standard. |
+| mugen | M.U.G.E.N | Customizable 2D fighting game engine. |
+| multivision | Samsung Multivision | Hybrid console/computer released in South Korea. |
+| n3ds | Nintendo 3DS | Handheld console with stereoscopic 3D and backward compatibility. |
+| n64 | Nintendo 64 | 64-bit home console using cartridges. |
+| n64dd | Nintendo 64DD | Disk drive add-on for Nintendo 64. |
+| naomi | Sega NAOMI | Arcade board based on Dreamcast hardware. |
+| naomi2 | Sega NAOMI 2 | Upgraded NAOMI arcade hardware. |
+| naomigd | Sega NAOMI GD-ROM | GD-ROM add-on for NAOMI arcade system. |
+| nds | Nintendo DS | Dual-screen handheld console. |
+| neogeo | Neo Geo AES/MVS | Cartridge-based arcade/home console by SNK. |
+| neogeocd | Neo Geo CD | CD-ROM version of Neo Geo. |
+| neogeocdjp | Neo Geo CD (Japan) | Japanese release of Neo Geo CD. |
+| nes | Nintendo Entertainment System | 8-bit home console by Nintendo. |
+| ngp | Neo Geo Pocket | Monochrome handheld console. |
+| ngpc | Neo Geo Pocket Color | Color handheld console by SNK. |
+| odyssey2 | Magnavox Odyssey² | Second-generation console with keyboard for educational titles. |
+| openbor | OpenBOR | 2D beat ’em up game engine. |
+| palm | Palm OS Devices | Folder for Palm handheld applications/games. |
+| pc | PC / DOS | Folder for PC game ports and DOS titles. |
+| pc88 | NEC PC-8800 Series | 8-bit/16-bit home computer line popular in Japan. |
+| pc98 | NEC PC-9800 Series | 16-bit Japanese home computers. |
+| pcarcade | PC Arcade | PC-based arcade games or emulation. |
+| pcengine | NEC PC Engine / TurboGrafx-16 | 8/16-bit home console known for HuCards. |
+| pcenginecd | NEC PC Engine CD | CD-ROM add-on for PC Engine. |
+| pcfx | NEC PC-FX | 32-bit home console focusing on FMV games. |
+| pico8 | Pico-8 | Fantasy console for tiny retro-style games. |
+| plus4 | Commodore Plus/4 | Successor to VIC-20 with built-in productivity software. |
+| pokemini | Pokémon Mini | Nintendo handheld console. |
+| portmaster | PortMaster Games | Folder for PortMaster games/engine. |
+| ports | Game Ports | Folder for cross-platform ports. |
+| ps2 | Sony PlayStation 2 | 128-bit console with DVD playback. |
+| ps3 | Sony PlayStation 3 | HD console with Blu-ray support. |
+| psp | Sony PlayStation Portable | Handheld console with multimedia support. |
+| psvita | Sony PlayStation Vita | Advanced handheld with OLED/LED display. |
+| psx | Sony PlayStation | 32-bit home console. |
+| pv1000 | Casio PV-1000 | Early 8-bit home console. |
+| quake | Quake Engine | Folder for Quake engine or source ports. |
+| satellaview | Satellaview | Satellite modem add-on for Super Famicom. |
+| saturn | Sega Saturn | 32-bit console emphasizing 2D arcade ports. |
+| saturnjp | Sega Saturn (Japan) | Japanese release with exclusive titles. |
+| scummvm | ScummVM | Emulator for classic point-and-click adventure games. |
+| scv | Epoch Super Cassette Vision | Japanese 8-bit home console. |
+| sega32x | Sega 32X | 32-bit add-on for Genesis. |
+| sega32xjp | Sega 32X (Japan) | Japanese version of 32X. |
+| sega32xna | Sega 32X (NA) | North American version of 32X. |
+| segacd | Sega CD | CD-ROM add-on for Genesis. |
+| snes | Super Nintendo Entertainment System | 16-bit console. |
+| snesna | SNES (North America) | North American SNES release. |
+| sfc | Super Famicom | Japanese SNES release. |
+| solarus | Solarus Engine | Open-source action-RPG engine. |
+| spectravideo | Spectravideo | 8-bit computers that influenced MSX design. |
+| stv | Sega Titan Video | Arcade board with 2D sprite hardware. |
+| sufami | Sufami Turbo | Super Famicom cartridge add-on. |
+| supergrafx | NEC SuperGrafx | Enhanced PC Engine with better graphics. |
+| supervision | Watara Supervision | 8-bit handheld console. |
+| supracan | Funtech Super Acan | 16-bit console released in Taiwan. |
+| switch | Nintendo Switch | Hybrid home/handheld console. |
+| symbian | Symbian OS | Early smartphone platform. |
+| tanodragon | Tano Dragon | Fantasy/retro gaming system. |
+| tg16 | TurboGrafx-16 | North American PC Engine. |
+| tg-cd | TurboGrafx-CD | CD-ROM add-on for TG16. |
+| ti99 | TI-99 | 16-bit home computer by Texas Instruments. |
+| tic80 | TIC-80 | Fantasy console for retro-style games in Lua. |
+| to8 | Thomson TO8 | 8-bit French home computer. |
+| uzebox | Uzebox | Open-source 8-bit minimalist retro console. |
+| vectrex | Vectrex | Vector-based home console with built-in screen. |
+| vic20 | Commodore VIC-20 | 8-bit home computer. |
+| vircon32 | Vircon32 | 32-bit fantasy console. |
+| videopac | Magnavox Videopac | European Odyssey² console. |
+| virtualboy | Nintendo Virtual Boy | 3D stereoscopic home console. |
+| vsmile | VTech V.Smile | Educational console for children. |
+| wasm4 | WASM-4 | Fantasy console for retro games in WebAssembly. |
+| wii | Nintendo Wii | Home console with motion controls. |
+| wiiu | Nintendo Wii U | Home console with GamePad touchscreen controller. |
+| windows3x | Windows 3.x | Early Windows OS series supporting games. |
+| windows9x | Windows 95/98/ME | Consumer-oriented Windows OS series. |
+| wonderswan | Bandai WonderSwan | Monochrome handheld console. |
+| wonderswancolor | Bandai WonderSwan Color | Color version of WonderSwan handheld console. |
+| x1 | Sharp X1 | Japanese 8-bit home computer. |
+| x68000 | Sharp X68000 | High-end Japanese home computer with arcade-quality graphics. |
+| xbox | Microsoft Xbox | First-generation 128-bit console introducing Xbox Live. |
+| zx81 | Sinclair ZX81 | Early low-cost 8-bit home computer. |
+| zxspectrum | ZX Spectrum | Popular 8-bit UK home computer. |
+| zmachine | Z-Machine | Virtual machine for running text-based interactive fiction. |
+
+---

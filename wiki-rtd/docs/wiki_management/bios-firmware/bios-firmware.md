@@ -80,3 +80,5 @@ Each entry contains:
 ### Can I help update the List?
 
 Yes, you can help update the list by submitting pull requests on our GitHub. Follow the same structure to add more BIOS/Firmware or correct any mistakes.
+
+---

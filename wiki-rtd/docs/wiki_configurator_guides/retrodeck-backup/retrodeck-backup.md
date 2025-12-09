@@ -1,4 +1,4 @@
-# How-to: Backup RetroDECK
+# RetroDECK: Backup
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-backup.png" width="75">
 

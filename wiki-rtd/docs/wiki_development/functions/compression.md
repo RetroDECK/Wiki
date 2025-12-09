@@ -1,118 +1,68 @@
-# Compress games
+# Game Compressor
 
+RetroDECK includes a compression tool built into its framework. 
 
-## Compression shell script
+This tool enables compression of ROMs and disc images into more space-efficient formats (e.g. CHD, ZIP, RVZ), while maintaining compatibility with supported emulators. 
 
-The shell script:
+---
 
-[functions/compression.sh](https://github.com/XargonWan/RetroDECK/blob/main/functions/compression.sh)
+## Script: `functions/compression.sh`
 
-With in the script there are several functions.
+The core logic for compression is implemented in the shell script located at: 
 
+[compression.sh]](https://github.com/RetroDECK/RetroDECK/blob/cooker/functions/compression.sh)
 
-### compress_game()
+### Key Functions
 
-Description:
-```
-  # Function for compressing one or more files to .chd format
-  # USAGE: compress_game $format $full_path_to_input_file
-```
+| Function | Description / Behavior | Usage |
+|----------|------------------------|--------|
+| **`compress_game()`** | Compresses a given input file into a target format (`chd`, `zip`, or `rvz`) depending on parameters and system type. The function handles path resolution, file naming, and uses appropriate compression commands (e.g. `chdman`, `zip`, or other tools). | `compress_game <format> <full_path_to_input_file> [system]` |
+| **`find_compatible_compression_format()`** | Inspects a file’s path and filename to determine if it belongs to a supported ROM system, and returns which compression format (if any) is compatible for that system — based on configuration.  | `find_compatible_compression_format "$file"` |
+| **`cli_compress_all_games()`** | Batch-process wrapper: iterates over all supported systems (or a subset depending on user input), searches for compatible game files, validates them, and compresses them to appropriate format. Offers optional post-compression cleanup (remove original files). {index=5} | `cli_compress_all_games <compression_format|all>` |
+| *(Other internal/utility functions)* | Various utility and helper logic to support validation, cleanup, error handling inside the script. | N/A — internal use |
 
-### find_compatible_compression_format()
+---
 
+## Compression Targets: Configuration File
 
-Description:
-```
-  # This function will determine what compression format, if any, the file and system are compatible with from the compression_targets.cfg
-  # USAGE: find_compatible_compression_format "$file"
-```
+Supported compression formats per system are defined in the configuration file `compression_targets.cfg`.  
 
-### validate_for_chd()
+- This file maps each supported system (i.e. a ROM directory name under `/roms/<system>/`) to exactly one compression format: `chd`, `rvz`, or `zip`. 
+- The script uses this mapping to detect which format to use for each ROM when compressing.
 
-Description:
-```
-  # Function for validating chd compression candidates, and compresses if validation passes. Supports .cue, .iso and .gdi formats ONLY
-  # USAGE: validate_for_chd $input_file
-```
+⚠️ Because each system may support only one compression format, ensure you assign the correct format before compressing.  
 
+---
 
-### cli_compress_single_game()
+## How Compression Works — Workflow Overview
 
-Description:
-```
-  # This function will compress a single file passed from the CLI arguments
-  # USAGE: cli_compress_single_game $full_file_path
-```
+1. User runs the compression tool: either for a single game or for a batch of ROMs.  
+2. For each file found under `/roms/<system>/`, the script runs `find_compatible_compression_format()` to detect if the system supports compression and which format.  
+3. If a compatible format is found, `compress_game()` is executed to convert the file into the new format (e.g. `.chd`, `.zip`, `.rvz`).  
+4. If the user requested post-compression cleanup, original files (e.g. `.iso`, `.cue`, `.bin`, etc.) are optionally removed. This cleanup also handles multi-file disc sets (e.g. `.cue + .bin`).
+5. The resulting compressed files remain playable via RetroDECK’s configured emulators.  
 
-### cli_compress_all_games()
-Description:
-```
-  # This function will compress a all games passed from the CLI arguments
-```
+This compression workflow can drastically reduce storage usage while keeping games functional. 
 
+---
 
-## Reference list: compression_targets.cfg
+## Best Practices & Considerations
 
-This is used by the `find_compatible_compression_format()` function above.
+- Always ensure your emulator supports the target compression format before compressing — especially for disc-based systems.  
+- After compression, you may optionally remove original uncompressed files to reclaim space.  
+- Compression is best done before adding games to your frontend/library (e.g. before scraping or indexing), to avoid duplicate entries or confusion.  
+- If you use a batch compress command (compress-all), be prepared: compressing many games — especially discs (e.g. PS2, Dreamcast) — can take significant time depending on hardware.  
 
-The reference list:
+---
 
-[emu-configs/defaults/retrodeck/reference_lists/reference_lists/compression_targets.cfg](https://github.com/XargonWan/RetroDECK/blob/main/emu-configs/defaults/retrodeck/reference_lists/compression_targets.cfg)
+## Extending Compression Support
 
-The config is populated with compression formats with within `[]`.
-Each new system has to be on a new line under it's compression format.
+To add or update compression support for a new system:
 
-Each system can only have one format and is using the es-de roms subfolders default names under `/roms/`.<br>
+1. Confirm the emulator supports the intended compression format (CHD, RVZ, or ZIP).  
+2. Update `compression_targets.cfg`, adding the system under the correct format header.  
+3. If using ZIP compression for a new file type, ensure that only suitable file extensions are included (so as to avoid compression of unsupported or incompatible files).  
+4. Run the compression tool and test the resulting files in the emulator to verify they work correctly.  
 
-**Example:** <br>
-You want to add `gb` to the list.
-
-- Make sure that the subfolder under roms also called the same: `roms/gb`
-- Then add the `gb` entry to under the `[zip]`
-
-### Example from compression_targets.cfg
-
-```
-[chd]
-3do
-amigacd32
-[rvz]
-gc
-[zip]
-atari2600
-
-```
-
-- 3do and amigcd32 is compressed to chd
-- gc is compressed to rvz
-- atari2600 is compressed to zip
-
-## Reference list: zip_compressable_extensions.cfg
-
-This is used by the `find_compatible_compression_format()` function above.
-
-The [zip_compressable_extensions.cfg](https://github.com/XargonWan/RetroDECK/blob/main/emu-configs/defaults/retrodeck/reference_lists/zip_compressable_extensions.cfg) contains the list of file exstensions that can be zipped into a .zip file and used by the systems that have enabled .zip compression in the `compression_targets.cfg`. This is to make sure only supported file formats are compressed and remove the risk of a double compression.
-
-
-### Example from zip_compressable_extensions.cfg
-
-List of file extensions
-
-```
-.32x
-.68k
-.NDS
-.a26
-.a52
-.a78
-.abs
-```
-
-
-## Tips on adding new system to compress
-
-1. Make sure the emulator supports the compression format and RetroDECK is using that version that supports it.
-2. Verify that it does work with the emulator.
-3. Make sure the system supports the compression format file format under the `<extension>` for that system in the [es_systems.xml](https://github.com/XargonWan/RetroDECK/blob/main/es-configs/es_systems.xml)  file. Otherwise it won't be found after it is compressed in the interface.
-4. Add the es-de folder name to `compression_targets.cfg` to the compression format it supports. If it is a new format that you want to compress to a .zip, add the new file extention to `zip_compressable_extensions.cfg`
+---
 

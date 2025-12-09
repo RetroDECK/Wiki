@@ -1,47 +1,76 @@
-# Steam Sync Process 
+# Steam Sync (Steam-Shortcuts Integration)
 
-**Prerequisite:** This procedure assumes that a previous Steam Sync operation has already been performed.
+RetroDECK supports synchronizing your ES-DE “favorite” games with Steam ROM Manager (SRM), adding them as Steam shortcuts so you can launch them directly from your Steam library. The sync logic lives in the shell script `functions/steam_sync.sh`.  
 
-The Steam Sync routine synchronizes RetroDECK ES-DE marked “favorites” with Steam shortcuts. It generates a temporary manifest of the current favorites, compares it against the existing manifest, and updates Steam shortcuts accordingly using SRM (Steam ROM Manager).
+---
 
-## Detailed Steps
+## Script: `functions/steam_sync.sh`
 
-1. **Collect Favorites**
-   - Scan all RetroDECK gamelists across every system.
-   - Compile a comprehensive list of every entry marked as a *favorite*.
+This script scans RetroDECK’s gamelists for user-marked favorites and builds a manifest used by SRM to import (or remove) games into Steam. 
 
-2. **Generate Shortcut JSON Objects**
-   - For each favorite, create a JSON object that defines a Steam shortcut.
-   - The shortcut command follows the pattern:
-     ```
-     flatpak run net.retrodeck.retrodeck -s "<ROM_PATH>"
-     ```
-   - This leverages RetroDECK’s `-s` flag to launch the specified ROM directly from Steam.
+The `steam_sync.sh` script in RetroDECK automates the process of exporting your curated list of retro games from ES-DE to Steam, maintaining a clean, up-to-date Steam library that reflects your favorites. Through manifest diffing, selective updating, and integration with SRM, Steam Sync provides a powerful yet unobtrusive way to merge retro gaming and Steam workflows.
 
-3. **Write Temporary Manifest**
-   - Serialize the collection of JSON objects into a new temporary file (e.g., `favorites_new.json`).
+### What it does
 
-4. **Compare Manifests**
-   - Perform a diff between `favorites_new.json` and the existing favorites manifest (`favorites_current.json`).
-   - **If identical:** No changes detected → terminate the sync process.
-   - **If different:** Proceed to identify additions and removals.
+Searches through all ES-DE gamelists across all supported systems. 
 
-5. **Detect Removed Favorites**
-   - Determine which entries exist in `favorites_current.json` but are absent from `favorites_new.json`.
-   - Create a secondary temporary manifest (`favorites_removed.json`) containing only these removed entries.
+For each game marked as “favorite”, verifies that the ROM/file exists in the `roms/` directory before including it in the manifest (to avoid stale or removed ROM entries).
 
-6. **Update Steam Shortcuts via SRM**
-   - **Remove obsolete shortcuts:**  
-     Load `favorites_removed.json` and invoke SRM with the *remove* operation to delete the corresponding Steam shortcuts.
-   - **Add new shortcuts:**  
-     Load `favorites_new.json` and invoke SRM with the *add* operation to create shortcuts for newly‑favorited games.
+Builds a JSON manifest of favorites, where each entry includes:  
+  - A `title` (the game name),  
+  - A `target` (e.g. “flatpak”),  
+  - A `launchOptions` command to launch RetroDECK with that ROM. 
 
-7. **Finalize**
-   - Replace `favorites_current.json` with `favorites_new.json`, making the new manifest the authoritative source.
-   - Delete all auxiliary temporary files (`favorites_new.json`, `favorites_removed.json`, etc.).
+Compares the newly generated manifest against any existing manifest. 
 
-### Notes
+Determines changes:  
 
-- All file paths are relative to RetroDECK’s data directory unless otherwise specified.
-- Ensure SRM is configured correctly to recognize the JSON schema used for shortcut definitions.
-- This process can be automated via a script or scheduled task to keep Steam shortcuts in sync with RetroDECK favorites continuously.
+  - New games to add,  
+  - Games removed from favorites → to remove from Steam,  
+  - If no favorites remain, optionally purge all synced entries. 
+  
+Runs SRM commands to add or remove shortcuts based on the diff.
+
+Therefore the script ensures Steam reflects the user’s current favorites in ES-DE, avoiding duplicate additions or stale entries.
+
+---
+
+## How to Use Steam Sync in RetroDECK
+
+| Step | Action |
+|------|--------|
+| 1 | In ES-DE, mark games as favorites (🌟) press the “favorite” button in the UI.  |
+| 2 | Open the RetroDECK Configurator → **Steam Tools** → Enable **Automatic Steam Sync** *or* choose **Manual Steam Sync**. |
+| 3 | If Automatic: exit RetroDECK (the sync runs on quit). If Manual: trigger the sync yourself. The script will scan favorites and update Steam accordingly. |
+| 4 | Once sync completes, restart or reload Steam so that new shortcuts appear in your library. |
+| 5 | To remove synced games and un-favorite them in ES-DE, then run Steam Sync again. The script will detect removed entries and instruct SRM to remove them. |
+| 6 | Optional: If something went wrong (bad shortcuts, corrupted manifest), use the **Purge Steam Sync Shortcuts** tool via Configurator to wipe all synced entries, then re-sync. |
+
+---
+
+## Under the Hood — What the Script Actually Does
+
+- Ensures SRM configuration is initialized if not present.
+- Walks through each system folder in `ES-DE/gamelists/`. Skipping cleanup folders and systems without gamelist files. 
+- For each favorite entry (`<game favorite="true">`), extracts the path, ensures the corresponding ROM exists under `roms/<system>/`, then adds a JSON object to a new manifest.
+- Uses JSON manipulation (via `jq`) to build a manifest file, compare with previous manifest, and detect additions or removals.
+- Delegates to SRM via CLI to add or remove Steam shortcuts accordingly. 
+
+---
+
+## Features & Improvements (as of Steam Sync 2.0)
+
+- Sync can run automatically on exit or manually at any time.
+- More efficient manifest comparison: only changed items (added or removed) are synced, rather than rebuilding the entire library every time.
+- A “Purge” function: completely removes all synced shortcuts if something goes wrong, allowing a clean restart.
+
+---
+
+## Important Notes & Limitations
+
+- Filenames containing certain “unsafe” characters (like `/`, `\`, `<`, `>`, `'`, `*`) may break Steam-sync or cause SRM parsing issues.
+- After syncing, you must restart or reload Steam for new shortcuts to appear — RetroDECK cannot force-restart Steam automatically.
+- If you move or rename ROM files after syncing, the shortcuts may become invalid — a fresh sync is recommended.  
+- The sync only includes games marked as favorite in ES-DE; non-favorites are ignored (unless later favorited and synced).  
+- 
+---

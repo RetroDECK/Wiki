@@ -26,7 +26,7 @@ RetroDECK is a Flatpak — a sandboxed bundle containing applications, configura
 | Flatpak Runtimes      | `~/.local/share/flatpak/runtime/`       | `/var/lib/flatpak/runtime/`        | Stores runtime libraries such as `org.kde.Platform`, `org.freedesktop.Platform`, `org.gnome.Platform`. |
 | Flatpak Overrides     | `~/.local/share/flatpak/overrides/`     | `/var/lib/flatpak/overrides/`      | Flatpak-specific overrides for sandboxed applications. |
 
-
+---
 
 ## RetroDECK Flatpak CLI Shell Folder Paths
 
@@ -41,6 +41,16 @@ flatpak run --command=bash net.retrodeck.retrodeck --debug
 | `/app` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/`<br>or<br>`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/`<br>Contains: `bin`, `lib`, `libexec`, `manifest-base-1.json`, `manifest.json`, `retrodeck`, `share`, `tools` | Read-only runtime environment provided by the Flatpak package. |
 | `/var` | `~/.var/app/net.retrodeck.retrodeck/` including subfolders: `cache`, `config`, `data`, `db`, `home`, `mnt`, `opt`, `run`, `srv`, `tmp` | Writable portion of the sandbox storing configuration, cache, and component data. |
 
+
+---
+
+## Steam: Folder Structure
+
+| **Folder Name** | **Folder Path** | **Comment** |
+|-----------------|----------------|-------------|
+| Steam Default Templates | `~/.steam/steam/controller_base/templates/` | RetroDECK injects Steam Input templates here. |
+| Application Templates | `~/.steam/steam/steamapps/common/Steam Controller Configs/<AppID>/config/retrodeck/` | Temporary changes stored here if user modifies templates. |
+| Steam Binding Icons | `~/.steam/steam/tenfoot/resource/images/library/controller/binding_icons/` | RetroDECK injects Steam Input icons here. |
 
 ---
 
@@ -227,12 +237,3 @@ The structure mirrors `retrodeck/components/`. Many files are later copied to `~
 
 ---
 
-## Steam: Folder Structure
-
-| **Folder Name** | **Folder Path** | **Comment** |
-|-----------------|----------------|-------------|
-| Steam Default Templates | `~/.steam/steam/controller_base/templates/` | RetroDECK injects Steam Input templates here. |
-| Application Templates | `~/.steam/steam/steamapps/common/Steam Controller Configs/<AppID>/config/retrodeck/` | Temporary changes stored here if user modifies templates. |
-| Steam Binding Icons | `~/.steam/steam/tenfoot/resource/images/library/controller/binding_icons/` | RetroDECK injects Steam Input icons here. |
-
----

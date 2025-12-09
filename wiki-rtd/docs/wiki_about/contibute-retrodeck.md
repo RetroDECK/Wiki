@@ -4,46 +4,17 @@ Can I contribute to the project?
 
 Yes! Everybody is welcome to contribute in any way possible if it is personal time or funds.
 
-- **Developers:** Submit PRs and feedback.
-- **Graphics, Art, UI & UX Design:** Join the creators corner.
-- **Communication:** Help populate the wiki or do community maintenance.
-- **Support:** Guide people on various communication platforms.
-- **Early Testing:** Find bugs, issues, and provide suggestions on cooker releases.
-- **Experimenting and Tweaking:** Find the best configurations for emulators and engines.
-- **Donations:** Donate to the project over at [Donations & Licenses 🎁](../wiki_about/donations-licenses.md)..
+| **Contribution Area** | **Examples of How You Can Help** |
+|------------------------|-----------------------------------|
+| **Developers** | - Submit PRs and feedback<br>- Add new features and improve RetroDECK<br>- Speed up releases<br>- Improve the Godot Configurator and prepare it for release<br>- Create versions for new OSes/architectures (e.g., ARM)<br>- Contribute any innovative or experimental ideas |
+| **Graphics, Art, UI & UX Design** | - Join the Creators Corner<br>- Create the Vtuber Mascot Genie: **Rekku**<br>- Design new pixel art for radial menus<br>- Produce holiday/event easter-egg art<br>- Create menu art for the new Configurator<br>- Produce input art shown when starting a game<br>- Produce input-art guides for the wiki (Steam Deck + other controllers)<br>- Create patch-note and hype videos<br>- Produce instruction/tutorial videos |
+| **Communication & Documentation** | - Help populate and maintain the wiki<br>- Assist with community maintenance<br>- Share suggestions on GitHub<br>- Participate in discussions on Discord / Matrix |
+| **Support** | - Help users troubleshoot issues across communication platforms<br>- Provide friendly and clear guidance |
+| **Early Testing / Testers** | - Test cooker and pre-release builds<br>- Report bugs, issues, and usability problems<br>- Provide suggestions for improvements |
+| **Experimenting & Tweaking** | - Discover optimal configurations for emulators and engines<br>- Share findings and improvements with the team |
+| **Donations** | - Support the project financially via the [Donations & Licenses 🎁](../wiki_about/donations-licenses.md).|
+| **Everyone** | - Be kind and follow community rules<br>- Spread the word about RetroDECK<br>- Engage with the community<br>- Offer constructive suggestions |
 
-## Any specific examples of what you need help with?
-
-### Graphics, Art, UI & UX Design:
-
-- Create our Vtuber Mascot Genie: Rekku. 
-- New pixel art for Radial menus.
-- Easter egg art for holidays and functions.
-- Menu art for a new Configurator.
-- Input art for when you start a game.
-- Input art guides for the wiki (Steam Deck and other controllers).
-- Patch note and hype videos.
-- Instruction videos.
-
-### Developers:
-
-- Add new features and improve RetroDECK
-- Speed up releases.
-- Improve the Godot Configurator and make it release-ready.
-- Create versions for new OSes/architectures (e.g., ARM).
-- Any other crazy ideas you might have.
-
-### Testers:
-
-- Test cooker and pre-release builds.
-- Submit bugs reports and feedback.
-
-### Everyone:
-
-
-- Be kind and follow the rules.
-- Spread the word about RetroDECK.
-- Share suggestions on GitHub or discuss on Discord / Matrix.
-- Engage with the community.
+---
 
 

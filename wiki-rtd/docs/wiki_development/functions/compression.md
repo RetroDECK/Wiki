@@ -18,7 +18,7 @@ The core logic for compression is implemented in the shell script located at:
 |----------|------------------------|--------|
 | **`compress_game()`** | Compresses a given input file into a target format (`chd`, `zip`, or `rvz`) depending on parameters and system type. The function handles path resolution, file naming, and uses appropriate compression commands (e.g. `chdman`, `zip`, or other tools). | `compress_game <format> <full_path_to_input_file> [system]` |
 | **`find_compatible_compression_format()`** | Inspects a file’s path and filename to determine if it belongs to a supported ROM system, and returns which compression format (if any) is compatible for that system — based on configuration.  | `find_compatible_compression_format "$file"` |
-| **`cli_compress_all_games()`** | Batch-process wrapper: iterates over all supported systems (or a subset depending on user input), searches for compatible game files, validates them, and compresses them to appropriate format. Offers optional post-compression cleanup (remove original files). {index=5} | `cli_compress_all_games <compression_format|all>` |
+| **`cli_compress_all_games()`** | Batch-process wrapper: iterates over all supported systems (or a subset depending on user input), searches for compatible game files, validates them, and compresses them to appropriate format. Offers optional post-compression cleanup (remove original files). | `cli_compress_all_games <compression_format|all>` |
 | *(Other internal/utility functions)* | Various utility and helper logic to support validation, cleanup, error handling inside the script. | N/A — internal use |
 
 ---

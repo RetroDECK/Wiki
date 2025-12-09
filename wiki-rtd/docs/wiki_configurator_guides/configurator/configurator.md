@@ -4,8 +4,8 @@
 
  **Note:** 
  
-- The Configurator will undergo a full redesign into a controller-friendly **Godot-based application**.
-- The interface shown here represents the legacy implementation and is **not the final design**.
+- The Configurator will undergo a full redesign into a controller-friendly **Godot-based application** in the long term.
+- The interface shown here represents the current implementation and is **not the final design**.
 
 
 ---

@@ -1,482 +1,166 @@
 # RetroDECK Variables List
 
-A collection of variables used by RetroDECK
+A collection of variables used by RetroDECK.
 
+---
 
-## Linux
+## Linux Variables
 
-### $HOME
+| Variable | Description | Example / Path |
+|----------|------------|----------------|
+| `$HOME` | User's home directory | `~` |
+| `LD_LIBRARY_PATH` | Directories for dynamic linker to search shared libraries | `/usr/lib:/usr/local/lib` |
 
-Contains the location of the user's home directory.
+---
 
-`~`
+## Flatpak XDG Variables
 
-### LD_LIBRARY_PATH
+| Variable | Description | Example / Path |
+|----------|------------|----------------|
+| `$XDG_SESSION_DESKTOP` | Desktop session name | — |
+| `$XDG_SESSION_TYPE` | Session type | — |
+| `$XDG_CACHE_HOME` | Non-essential user-specific cache data | `.var/app/net.retrodeck.retrodeck/cache/` |
+| `$XDG_CONFIG_HOME` | User-specific configuration files | `.var/app/net.retrodeck.retrodeck/config/` |
+| `$XDG_DATA_HOME` | User-specific data files | `.var/app/net.retrodeck.retrodeck/data/` |
+| `$XDG_STATE_HOME` | State data (e.g., undo history) | `.var/app/net.retrodeck.retrodeck/.local/state/` |
 
-Is an environment variable on Unix systems that specifies a list of directories for the dynamic linker to search for shared libraries before searching the default directories. It helps ensure that the correct versions of libraries are used when running applications.
+---
 
-## Flatpak XDG 
+## QT Variables
 
-### $XDG_SESSION_DESKTOP
+| Variable | Description | Example / Path |
+|----------|------------|----------------|
+| `QT_PLUGIN_PATH` | QT plugin search path | — |
+| `QT_QPA_PLATFORM` | QT platform type | — |
+| `QT_QPA_PLATFORM_PLUGIN_PATH` | QT platform plugin path | — |
+| `QT_QPA_PLATFORMTHEME` | QT platform theme | — |
 
-Desktop Session
-
-### $XDG_SESSION_TYPE
-
-Session Type
-
-### $XDG_CACHE_HOME
-
-Non-essential user-specific data
-    
-
-
-`.var/app/net.retrodeck.retrodeck/cache/`
-
-### $XDG_CONFIG_HOME
-
-User-specific configuration files
-
-`.var/app/net.retrodeck.retrodeck/config/`
-
-### $XDG_DATA_HOME
-
-User-specific data
-
-`.var/app/net.retrodeck.retrodeck/data/`
-
-### $XDG_STATE_HOME
-
-State data such as undo history
-
-`.var/app/net.retrodeck.retrodeck/.local/state/`
-
-## QT
-
-### QT_PLUGIN_PATH
-
-### QT_QPA_PLATFORM
-
-### QT_QPA_PLATFORM_PLUGIN_PATH
-
-### QT_QPA_PLATFORMTHEME
+---
 
 ## RetroDECK Pathing Variables
 
-
-### $backups_folder
-
-`retrodeck/backups`
-
-### $bios_folder
-
-`retrodeck/bios/`
-
-### $borders_folder
-
-`retrodeck/borders`
-
-### $config
-
-Folder with all the default emulator configs
-
-`/app/retrodeck/config`
-
-### $cheats_folder
-
-`retrodeck/cheats/`
-
-### $helper_files_folder
-
-The parent folder of RetroDECK documentation files for deployment
-
-`$config/retrodeck/helper_files`
-
-### $logs_folder
-
-`retrodeck/logs/`
-
-**Was:** $rd_logs_folder
-
-
-### $media_folder
-
-`retrodeck/ES-DE/downloaded_media`
-
-### $presets_dir
-
-Repository for all system preset config files
-
-`$config/retrodeck/presets`
-
-### $rdhome 
-
-`retrodeck/`
-
-### $rd_components
-
-`/app/retrodeck/components`
-
-### $rd_shared_libs
-
-`/app/retrodeck/components/shared-libs`
-
-### $roms_folder
-
-`retrodeck/roms/`
-
-### $saves_folder
-
-`retrodeck/saves/`
-
-### $screenshots_folder
-
-`retrodeck/screenshots/`
-
-### $sdcard
-
-**Example:**
-
-`/run/media/mmcblk0p1`
-
-### $shaders_folder
-
-`retrodeck/shaders/`
-
-### $states_folder
-
-`retrodeck/states/`
-
-### $splashscreen_dir
-
-The default location of extra splash screens
-
-`$XDG_CONFIG_HOME/ES-DE/resources/graphics/extra_splashes`                                   
-
-### $texture_packs_folder
-
-`retrodeck/texture_packs/`
-
-### $themes_folder
-
-`retrodeck/ES-DE/themes`
-
-
-## Components
-
-### $component_name
-
-Name of the component
-
-### component_folder_path=
-
-`"$(cd "$(dirname "${BASH_SOURCE[0]}" )" && pwd)"`
-
-### Component Function Variables
-
-Are defined by each components component_functions.sh.
-
-**See examples on the components repo:**
-
-https://github.com/RetroDECK/components/blob/cooker/
-
-
-## RetroDECK Harware / OS
-
-### $distro_name 
-
-`distro_name=$(flatpak-spawn --host grep '^ID=' /etc/os-release | cut -d'=' -f2)`
-
-
-### $distro_version
-
-`distro_version=$(flatpak-spawn --host grep '^VERSIONgi_ID=' /etc/os-release | cut -d'=' -f2)`
-
-### $gpu_info
-
-`gpu_info=$(flatpak-spawn --host lspci | grep -i 'vga\|3d\|2d')`
-
-### $cpu_cores
-
-`cpu_cores=$(nproc)`
-
-### $cpu_cores
-
-`max_threads=$(echo $(($(nproc) / 2)))`
-
-### $width
-
-`grep -oP '\d+(?=x)' /sys/class/graphics/fb0/modes`
-
-### $height
-
-
-`height=$(grep -oP '(?<=x)\d+' /sys/class/graphics/fb0/modes`
-
-### $native_resolution
-
-Used for detecting the Steam Deck resolution.
-
-```
-
-if [[ $width -ne 1280 ]] || [[ $height -ne 800 ]]; then
-  native_resolution=false
-else
-  native_resolution=true
-fi
-```
-
-
-### $hard_version
-
-Hardcoded version (in the readonly filesystem)
-
-`$(cat '/app/retrodeck/version')`
-                    
-                    
-### $version                  
-
-Prints current RetroDECK version
-
-## Static variables
-
-### $bios_checklist
-
-A config file listing BIOS file information that can be verified
-
-`$config/retrodeck/reference_lists/bios.json`
-
-### $current_splash_file
-
-The active ES-DE splash file that will be shown on boot
-
-`$XDG_CONFIG_HOME/ES-DE/resources/graphics/splash.svg`
-
-### $default_splash_file
-
-The default RetroDECK ES-DE splash file.
-
-`$XDG_CONFIG_HOME/ES-DE/resources/graphics/splash-orig.svg` 
-
-### $default_sd
-
-Steam Deck SD default path
-
-`/run/media/mmcblk0p1` 
-
-### $input_validation
-
-A config file listing valid CLI inputs
-
-`$config/retrodeck/reference_lists/input_validation.cfg`
-
-### $features
-
-A file where all the RetroDECK and component capabilities are kept for querying
-
-`$config/retrodeck/reference_lists/features.json`
-
-
-### $finit_options_list
-
-A config file listing available optional installs during finit
-
-`$config/retrodeck/reference_lists/finit_options_list.cfg`
-
-### $multi_user_emulator_config_dirs
-
-A list of emulator config folders that can be safely linked/unlinked entirely in multi-user mode
-
-`$config/retrodeck/reference_lists/multi_user_emulator_config_dirs.cfg`
-
-
-### $rd_conf
-
-RetroDECK config file path
-
-`$XDG_CONFIG_HOME/retrodeck/retrodeck.cfg`
-
-### $rd_conf_backup
-
-Backup of RetroDECK config file from update
-
-`$XDG_CONFIG_HOME/retrodeck/retrodeck.bak`
-
-
-### $rd_defaults
-
-A default RetroDECK config file
-
-`$config/retrodeck/retrodeck.cfg`
-
-### $rd_update_patch
-
-A static location for the temporary patch file used during retrodeck.cfg updates
-
-`$XDG_CONFIG_HOME/retrodeck/rd_update.patch`
-
-### $rd_metainfo
-
-The shipped metainfo XML file for this version
-
-`/app/share/metainfo/net.retrodeck.retrodeck.metainfo.xml`
-
-### $new_home_path
-
-Pathing of the home folder post move action.
-
-
-## API-related variables
-
-### $rd_api_dir
-
-RetroDECK API folder
-
-`$XDG_CONFIG_HOME/retrodeck/api`
-
-
-### $REQUEST_PIPE
-
-`$rd_api_dir/retrodeck_api_pipe`
-
-### $PID_FILE
-
-`$rd_api_dir/retrodeck_api_server.pid`
-
-### $rd_api_socket
-
-`$rd_api_dir/retrodeck_api_server.sock`
-
-### $RD_FILE_LOCK
-
-File lock file for multi-threaded write operations to the same file
-
-`$rd_api_dir/retrodeck_file_lock`
-
-### $lockfile
-
-Where the lockfile is located
-
-`$XDG_CONFIG_HOME/retrodeck/.lock`
-
-## ES-DE
-
-### $es_themes_list
-
-The URL of the ES-DE Themes List
-
-`https://gitlab.com/es-de/themes/themes-list/-/raw/master/themes.json`
-
-### $es_systems
-
-ES-DE supported system list
-
-`/app/share/es-de/resources/systems/linux/es_systems.xml`
-
-### $es_find_rules
-
-ES-DE emulator find rules
-
-`/app/share/es-de/resources/systems/linux/es_find_rules.xml`
-
-
-### $rd_es_themes
-
-The directory where themes packaged with RetroDECK are stored
-
-`/app/share/es-de/themes`
-
-
-
-
-## GitHub
-
-### $cooker_repository_name
-
-The name of the cooker repository under RetroDECK organization
-
-`Cooker`
-
-### $git_organization_name
-
-The name of the organization in our git repository such as GitHub
-
-`RetroDECK`
-
-### $main_repository_name
-
-The name of the main repository under RetroDECK organization
-
-`RetroDECK`
-
-### $rd_repo
-
-The URL of the main RetroDECK GitHub repo
-
-`https://github.com/RetroDECK/RetroDECK`
-                                                  
+| Variable | Description | Example / Path |
+|----------|------------|----------------|
+| `$backups_folder` | Folder for backups | `retrodeck/backups` |
+| `$bios_folder` | Folder for BIOS files | `retrodeck/bios/` |
+| `$borders_folder` | Folder for emulator borders | `retrodeck/borders` |
+| `$config` | Folder with default emulator configs | `/app/retrodeck/config` |
+| `$cheats_folder` | Folder for cheat files | `retrodeck/cheats/` |
+| `$helper_files_folder` | Folder for documentation/helper files | `$config/retrodeck/helper_files` |
+| `$logs_folder` | Logs folder | `retrodeck/logs/` |
+| `$media_folder` | Folder for downloaded media | `retrodeck/ES-DE/downloaded_media` |
+| `$presets_dir` | Folder for system preset configs | `$config/retrodeck/presets` |
+| `$rdhome` | RetroDECK home folder | `retrodeck/` |
+| `$rd_components` | Components folder | `/app/retrodeck/components` |
+| `$rd_shared_libs` | Shared libraries folder | `/app/retrodeck/components/shared-libs` |
+| `$roms_folder` | ROMs folder | `retrodeck/roms/` |
+| `$saves_folder` | Saves folder | `retrodeck/saves/` |
+| `$screenshots_folder` | Screenshots folder | `retrodeck/screenshots/` |
+| `$sdcard` | SD card mount point | `/run/media/mmcblk0p1` |
+| `$shaders_folder` | Shaders folder | `retrodeck/shaders/` |
+| `$states_folder` | States folder | `retrodeck/states/` |
+| `$splashscreen_dir` | Extra splash screens folder | `$XDG_CONFIG_HOME/ES-DE/resources/graphics/extra_splashes` |
+| `$texture_packs_folder` | Texture packs folder | `retrodeck/texture_packs/` |
+| `$themes_folder` | Themes folder | `retrodeck/ES-DE/themes` |
+
+---
+
+## Component Variables
+
+| Variable | Description | Example / Path |
+|----------|------------|----------------|
+| `$component_name` | Name of the component | — |
+| `component_folder_path` | Path of the component folder | `"$(cd "$(dirname "${BASH_SOURCE[0]}" )" && pwd)"` |
+| Component Function Variables | Defined by each component’s `component_functions.sh` | See [components repo](https://github.com/RetroDECK/components/blob/cooker/) |
+
+---
+
+## Hardware / OS Variables
+
+| Variable | Description | Example / Path |
+|----------|------------|----------------|
+| `$distro_name` | Linux distribution name | `$(flatpak-spawn --host grep '^ID=' /etc/os-release | cut -d'=' -f2)` |
+| `$distro_version` | Linux distribution version | `$(flatpak-spawn --host grep '^VERSION_ID=' /etc/os-release | cut -d'=' -f2)` |
+| `$gpu_info` | GPU info | `$(flatpak-spawn --host lspci | grep -i 'vga\|3d\|2d')` |
+| `$cpu_cores` | Number of CPU cores | `$(nproc)` |
+| `$max_threads` | Max threads for RetroDECK | `$(($(nproc)/2))` |
+| `$width` | Display width | `grep -oP '\d+(?=x)' /sys/class/graphics/fb0/modes` |
+| `$height` | Display height | `grep -oP '(?<=x)\d+' /sys/class/graphics/fb0/modes` |
+| `$native_resolution` | Detect Steam Deck resolution | `true/false` |
+| `$hard_version` | Hardcoded RetroDECK version | `$(cat '/app/retrodeck/version')` |
+| `$version` | Current RetroDECK version | — |
+
+---
+
+## Static Variables
+
+| Variable | Description | Example / Path |
+|----------|------------|----------------|
+| `$bios_checklist` | BIOS verification list | `$config/retrodeck/reference_lists/bios.json` |
+| `$current_splash_file` | Active splash file | `$XDG_CONFIG_HOME/ES-DE/resources/graphics/splash.svg` |
+| `$default_splash_file` | Default ES-DE splash file | `$XDG_CONFIG_HOME/ES-DE/resources/graphics/splash-orig.svg` |
+| `$default_sd` | Default Steam Deck SD path | `/run/media/mmcblk0p1` |
+| `$input_validation` | CLI input validation file | `$config/retrodeck/reference_lists/input_validation.cfg` |
+| `$features` | RetroDECK & component capabilities | `$config/retrodeck/reference_lists/features.json` |
+| `$finit_options_list` | Optional installs for `finit` | `$config/retrodeck/reference_lists/finit_options_list.cfg` |
+| `$multi_user_emulator_config_dirs` | Multi-user safe emulator config dirs | `$config/retrodeck/reference_lists/multi_user_emulator_config_dirs.cfg` |
+| `$rd_conf` | RetroDECK config file | `$XDG_CONFIG_HOME/retrodeck/retrodeck.cfg` |
+| `$rd_conf_backup` | Backup of RetroDECK config file | `$XDG_CONFIG_HOME/retrodeck/retrodeck.bak` |
+| `$rd_defaults` | Default RetroDECK config | `$config/retrodeck/retrodeck.cfg` |
+| `$rd_update_patch` | Temporary patch file | `$XDG_CONFIG_HOME/retrodeck/rd_update.patch` |
+| `$rd_metainfo` | Shipped metainfo XML file | `/app/share/metainfo/net.retrodeck.retrodeck.metainfo.xml` |
+| `$new_home_path` | Home path after move | — |
+
+---
+
+## API Variables
+
+| Variable | Description | Example / Path |
+|----------|------------|----------------|
+| `$rd_api_dir` | RetroDECK API folder | `$XDG_CONFIG_HOME/retrodeck/api` |
+| `$REQUEST_PIPE` | RetroDECK API pipe | `$rd_api_dir/retrodeck_api_pipe` |
+| `$PID_FILE` | API server PID file | `$rd_api_dir/retrodeck_api_server.pid` |
+| `$rd_api_socket` | API socket file | `$rd_api_dir/retrodeck_api_server.sock` |
+| `$RD_FILE_LOCK` | File lock for multi-thread writes | `$rd_api_dir/retrodeck_file_lock` |
+| `$lockfile` | Lockfile location | `$XDG_CONFIG_HOME/retrodeck/.lock` |
+
+---
+
+## ES-DE Variables
+
+| Variable | Description | Example / Path |
+|----------|------------|----------------|
+| `$es_themes_list` | URL for ES-DE themes | `https://gitlab.com/es-de/themes/themes-list/-/raw/master/themes.json` |
+| `$es_systems` | Supported systems list | `/app/share/es-de/resources/systems/linux/es_systems.xml` |
+| `$es_find_rules` | Emulator find rules | `/app/share/es-de/resources/systems/linux/es_find_rules.xml` |
+| `$rd_es_themes` | RetroDECK packaged themes | `/app/share/es-de/themes` |
+
+---
+
+## GitHub Variables
+
+| Variable | Description | Example / Path |
+|----------|------------|----------------|
+| `$cooker_repository_name` | Name of cooker repo | `Cooker` |
+| `$git_organization_name` | Git organization | `RetroDECK` |
+| `$main_repository_name` | Main repo name | `RetroDECK` |
+| `$rd_repo` | Main repo URL | `https://github.com/RetroDECK/RetroDECK` |
+
+---
 
 ## URLs
 
-### $rpcs3_firmware
+| Variable | Description | Example / Path |
+|----------|------------|----------------|
+| `$rpcs3_firmware` | RPCS3 firmware download | `http://dus01.ps3.update.playstation.net/.../PS3UPDAT.PUP` |
+| `$RA_API_URL` | RetroAchievements.org API | `https://retroachievements.org/dorequest.php` |
 
-RPCS3 Firmware download location
+---
 
-`http://dus01.ps3.update.playstation.net/update/ps3/image/us/2024_0227_3694eb3fb8d9915c112e6ab41a60c69f/PS3UPDAT.PUP`
+## Network Testing Variables
 
-### $RA_API_URL
-
-API URL for RetroAchievements.org
-
-`https://retroachievements.org/dorequest.php`
-
-## Network Testing
-
-### $remote_network_target_1
-
-The URL of a common internet target for testing network access: 1st
-
-`https://flathub.org`
-
-### $remote_network_target_2
-
-The URL of a common internet target for testing network access: 2nd
-
-`$rd_repo`
-
-### $remote_network_target_3
-
-The URL of a common internet target for testing network access: 3rd
-
-`https://one.one.one.one`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Variable | Description | Example / Path |
+|----------|------------|----------------|
+| `$remote_network_target_1` | Network test target #1 | `https://flathub.org` |
+| `$remote_network_target_2` | Network test target #2 | `$rd_repo` |
+| `$remote_network_target_3` | Network test target #3 | `https://one.one.one.one` |

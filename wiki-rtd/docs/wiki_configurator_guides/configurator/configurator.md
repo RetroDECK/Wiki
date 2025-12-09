@@ -77,10 +77,10 @@ flatpak run net.retrodeck.retrodeck --configurator
 | **Choice**                                    | **Action**                                                                                           | **Comments** |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------|--------------|
 | Backup RetroDECK 📦                           | Backup and compress RetroDECK userdata into a `.tar` file.                                           |              |
-| Move: All of RetroDECK 🚚                     | Move the entire RetroDECK data folder (`retrodecks`) to a new location.                              |              |
+| Move: All of RetroDECK 🚚                     | Move the entire RetroDECK data folder (`retrodeck`) to a new location.                              |              |
 | Move: BIOS folder 🚚                          | Move the BIOS folder to a new location.                                                               |              |
 | Move: Cheats folder 🚚                        | Move the cheats folder to a new location.                                                             |              |
-| Move: Downloaded Media folder 🚚              | Move the ES-DE `downloaded_media` folder to a new location.                                           |              |
+| Move: Downloaded Media folder 🚚              | Move the ES-DE downloaded_media folder to a new location.                                           |              |
 | Move: Mods folder 🚚                          | Move the mods folder to a new location.                                                               |              |
 | Move: ROMs folder 🚚                          | Move the ROMs folder to a new location.                                                               |              |
 | Move: Saves folder 🚚                         | Move the saves folder to a new location.                                                              |              |
@@ -88,7 +88,7 @@ flatpak run net.retrodeck.retrodeck --configurator
 | Move: Shaders folder 🚚                       | Move the shaders folder to a new location.                                                            |              |
 | Move: States folder 🚚                        | Move the states folder to a new location.                                                             |              |
 | Move: Themes folder 🚚                        | Move the ES-DE themes folder to a new location.                                                       |              |
-| Move: Texture Packs folder 🚚                 | Move the `texture_packs` folder to a new location.                                                    |              |
+| Move: Texture Packs folder 🚚                 | Move the texture_packs folder to a new location.                                                    |              |
 | ROMs Folder: Clean Empty Systems 🧹           | Remove empty system folders from the ROMs directory.                                                  |              |
 | ROMs Folder: Rebuild Systems 🔧               | Recreate any missing system folders in the ROMs directory.                                           |              |
 

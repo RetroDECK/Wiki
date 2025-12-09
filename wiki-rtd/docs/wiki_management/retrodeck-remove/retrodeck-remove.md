@@ -4,17 +4,17 @@
 
 ## How Do I Uninstall RetroDECK?
 
-- **Optional Steam Deck Step** Switch to Desktop Mode: `Steam button` -> `Power` -> `Switch to Desktop`
-- Open Discover or your software manager.
-- Go to the Installed tab, find RetroDECK, and press Uninstall.
+- **Optional Steam Deck Step:** Switch to **Desktop Mode** →   `Steam Button` → **Power** → **Switch to Desktop**.
+- Open **Discover** or your preferred software manager.
+- Navigate to the **Installed** tab, locate **RetroDECK**, and select **Uninstall**.
 
-### Does Uninstalling RetroDECK Remove User Data: ROMs, BIOS, Saves/States, etc?
+---
 
-No, you need to manually delete the `retrodeck/` folder to remove these files.
+## FAQ: Removing
 
-## How do I remove RetroDECK from Steam?
+| Question | Answer |
+|---------|--------|
+| **Does uninstalling RetroDECK remove user data (ROMs, BIOS, saves/states, etc.)?** | No. Uninstalling RetroDECK does **not** delete your user data. To fully remove these files, you must manually delete the `retrodeck/` folder. |
+| **How do I remove RetroDECK from Steam?** | 1. **Right-click** the RetroDECK entry in your Steam Library.<br>2. Select **Manage** → **Remove Non-Steam Game from Library**. |
 
-1. `Right click` the RetroDECK entry in the Steam Library.
-2. Press`Manage` -> `Remove non-Steam game from your Library`. 
-
-
+---

@@ -154,7 +154,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ---
 
-# FAQ: SD Cards
+## FAQ: SD Cards
 
 <img src="../../wiki_icons/pixelitos/drive-optical.png" width="30">
 

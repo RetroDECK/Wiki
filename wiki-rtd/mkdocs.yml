@@ -271,7 +271,9 @@ nav:
   - Guides - RetroDECK Configurator 🧰:
 
     - RetroDECK Configurator - General Guide: wiki_configurator_guides/configurator/configurator.md
-    - Tool - Backup RetroDECK : wiki_configurator_guides/retrodeck-backup/retrodeck-backup.md
+    - Tool - RetroDECK Backup  : wiki_configurator_guides/retrodeck-backup/retrodeck-backup.md
+    - Tool - RetroDECK Game Compressor :    wiki_configurator_guides/compress-files/compress-files.md
+
 
   - Guides - RetroDECK Management 📁:
 

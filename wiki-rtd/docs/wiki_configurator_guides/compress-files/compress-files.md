@@ -1,6 +1,6 @@
 # RetroDECK: Games Compressor 
 
-<img src="../../../wiki_icons/pixelitos/compress-blue.png" width="75">
+<img src="../../../wiki_icons/pixelitos/file-roller.png" width="75">
 
 ## The RetroDECK Compression Tool
 

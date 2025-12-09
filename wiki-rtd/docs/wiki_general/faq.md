@@ -24,7 +24,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Documentation & Wiki
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="30">
+<img src="../../wiki_icons/pixelitos/accessories-notes.png" width="30">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -40,7 +40,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Emulation
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="30">
+<img src="../../wiki_icons/pixelitos/retroarch.png" width="30">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -55,7 +55,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Feature Requests - General
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="30">
+<img src="../../wiki_icons/pixelitos/retrodeck.png" width="30">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -70,7 +70,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Feature Requests - OS
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="30">
+<img src="../../wiki_icons/pixelitos/linux.png" width="30">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -86,7 +86,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Flatpak Questions
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="30">
+<img src="../../wiki_icons/pixelitos/balena-etcher-electron.png" width="30">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -97,9 +97,9 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ---
 
-## FAQ: Other Emulation / Retro Gaming Solutions Questions
+## FAQ: Retro Gaming Platform Questions
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="30">
+<img src="../../wiki_icons/pixelitos/folder-green-games.png" width="30">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -118,7 +118,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: RetroDECK - General Questions
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="30">
+<img src="../../wiki_icons/pixelitos/accessories-clock.png" width="30">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -136,7 +136,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: RetroDECK – Usage Questions
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="30">
+<img src="../../wiki_icons/pixelitos/drive-optical.png" width="30">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -156,7 +156,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 # FAQ: SD Cards
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="30">
+<img src="../../wiki_icons/pixelitos/drive-optical.png" width="30">
 
 | **Question** | **Answer** |
 |--------------|------------|

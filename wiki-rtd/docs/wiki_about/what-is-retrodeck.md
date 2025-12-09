@@ -197,16 +197,11 @@ To stay up-to-date with the latest RetroDECK developments:
 
 ---
 
-## The FAQs❔
+## The FAQ❔
 
 Could answers several questions you might have about the project as well.
 
-[FAQ: General Questions](../wiki_faq/faq-rd-general.md)
+[RetroDECK: FAQ](../wiki_general/faq.md)
 
-[FAQ: Usage Questions](../wiki_faq/faq-rd-usage.md)
-
-[FAQ: Feature Requests](../wiki_faq/faq-feature.md)
-
-[FAQ: Documentation Questions](../wiki_faq/faq-documentation.md)
 
 ---

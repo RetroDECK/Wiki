@@ -12,9 +12,11 @@ Depending on what language you have set in `Desktop Mode`, things might be named
 
 ### Want to use your SD Card for RetroDECK?
 
+Check the FAQs SD Card section.
+
 **Read here:**
 
-[FAQ: SD Cards](../../wiki_faq/faq-sdcard.md).
+[RetroDECK: FAQ](../../wiki_general/faq.md).
 
 ---
 
@@ -54,20 +56,12 @@ Launch RetroDECK from `Discover` or the `KDE Program Menu` under `Games` → `Re
 
 ### **Choose where to create the retrodeck/ folder** 
 
-
 <img src="../../../wiki_icons/pixelitos/folder-blue.png" width="50">
-
-
-If you plan to install it on your SD Card 
-
-**Read More:**
-
-- [FAQ: SD Cards](../../wiki_faq/faq-sdcard.md)
 
 **Choose between:**
 
 - `Internal Storage`
-- `SD Card`
+- `SD Card` *If you plan to install it on your SD Card, check the FAQ link above.*
 - `Custom Location`
 
 <img src="../../../wiki_images/retrodeck-finit/1-RD-Finit-Start.png" width="500">

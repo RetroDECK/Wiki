@@ -247,15 +247,7 @@ nav:
       - How to Contribute?: wiki_about/contibute-retrodeck.md
       - Donations & Licenses: wiki_about/donations-licenses.md
 
-  - FAQ ❔:
-
-    - Documentation & Wiki: wiki_faq/faq-documentation.md
-    - Feature Requests: wiki_faq/faq-feature.md
-    - Emulation: wiki_faq/faq-emulation.md
-    - RetroDECK General: wiki_faq/faq-rd-general.md
-    - RetroDECK Usage: wiki_faq/faq-rd-usage.md
-    - SD Cards: wiki_faq/faq-sdcard.md
-    - RetroDECK Cooker: wiki_faq/faq-cooker.md
+  - FAQ ❔: wiki_general/faq.md
 
   - Guides - RetroDECK Controls & Hotkeys 🎮:
 

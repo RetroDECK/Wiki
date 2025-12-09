@@ -96,8 +96,6 @@ flatpak run net.retrodeck.retrodeck --configurator
 
 ## RetroDECK Configurator – Open Component
 
-<img src="../class-configurator-warning-open.png" width="500">
-
 The **Open Component** menu is intended for **advanced users** who wish to tweak or modify default RetroDECK settings for individual components.
 
 ⚠️ **Warning:** Making manual changes to a component's configuration may create serious issues. Some settings may be overwritten during RetroDECK updates or when using presets.

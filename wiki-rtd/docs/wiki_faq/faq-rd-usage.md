@@ -16,13 +16,13 @@ No, RetroDECK installs as a flatpak. Just install it like any other app and laun
 
 Yes, you can move it using the RetroDECK Configurator's "Move Tools".
 
-Read more on: [RetroDECK Configurator 🛠️](../wiki_tool_guides/configurator/configurator.md)
+Read more on: [RetroDECK Configurator 🛠️](../wiki_configurator_guides/configurator/configurator.md)
 
 ## Is There a Way to Reset RetroDECK?
 
 Yes, you can reset various parts of the software using the RetroDECK Configurator's reset functions.
 
-Read more on: [RetroDECK Configurator 🛠️](../wiki_tool_guides/configurator/configurator.md)
+Read more on: [RetroDECK Configurator 🛠️](../wiki_configurator_guides/configurator/configurator.md)
 
 ## How Do I Update RetroDECK?
 

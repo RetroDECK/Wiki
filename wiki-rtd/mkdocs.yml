@@ -276,10 +276,10 @@ nav:
       - Steam Deck - Installation: wiki_devices/steamdeck/steamdeck-start.md
       - Steam Deck - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
 
-  - Guides - RetroDECK Tools 🧰:
+  - Guides - RetroDECK Configurator 🧰:
 
-    - RetroDECK Configurator: wiki_tool_guides/configurator/configurator.md
-    - Backup RetroDECK : wiki_tool_guides/retrodeck-backup/retrodeck-backup.md
+    - RetroDECK Configurator - General Guide: wiki_configurator_guides/configurator/configurator.md
+    - Tool - Backup RetroDECK : wiki_configurator_guides/retrodeck-backup/retrodeck-backup.md
 
   - Guides - RetroDECK Management 📁:
 

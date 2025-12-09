@@ -54,7 +54,7 @@ and more!
 
 **Read more here:**
 
-[RetroDECK Configurator](../wiki_tool_guides/configurator/configurator.md).
+[RetroDECK Configurator](../wiki_configurator_guides/configurator/configurator.md).
 
 ---
 

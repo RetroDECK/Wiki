@@ -344,6 +344,7 @@ nav:
       - RetroArch - General Guide: wiki_emulator_guides/retroarch/retroarch-guide.md
       - RetroArch - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-texture-pack.md
       - RetroArch - Citra Core DLC Guide: wiki_emulator_guides/retroarch/retroarch-citra-dlc.md
+      - RetroArch - PSX DexDrive Convert: wiki_emulator_guides/retroarch/retroarch-psx-dexdrive.md
 
     - RPCS3:
       - RPCS3 - General Guide: wiki_emulator_guides/rpcs3/rpcs3-guide.md

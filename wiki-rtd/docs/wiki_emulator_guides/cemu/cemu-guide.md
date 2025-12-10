@@ -65,12 +65,60 @@ WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/Cemu/`         |   `settings.xml`, `gameProfiles` folder, `controllerProfiles` folder|
 | BIOS Folder | `retrodeck/bios/Cemu` | Contains `usr` and `sys` folders |
 | Data Folder |`~/.var/app/org.retrodeck.retrodeck/data/Cemu` |     |
+| Texture Packs Folder |`retrodeck/texture_packs/Cemu/graphicPacks/` | Cemu/graphicPacks    |
+
+---
+
+## Installing and Using Graphic Packs
+
+#### Automatic Install
+
+1. Open **Cemu**.  
+2. Go to **Options → Graphic Packs**.  
+3. Click **Download latest community graphic packs**.
+
+#### Manual Install
+
+- Place downloaded packs in the `retrodeck/texture_packs/Cemu/graphicPacks/` folder.
+
+### Enabling Graphic Packs
+
+1. Open **Cemu**.  
+2. Go to **Options → Graphic Packs**.  
+3. Check the boxes next to the packs you want to enable. **Note:** Packs only apply to their matching game IDs, so you can enable multiple packs safely.
+1. Exit Cemu.
+2. Launch the game via ES-DE.
+
+### Check if a Graphic Pack Is Active
+
+1. Open **Cemu** and start your game.  
+2. Go to **Options → Graphic Packs**.  
+3. A **green** pack name indicates the pack is currently active.
+
+
+---
+
+## Language Settings
+
+**UI Language**
+
+1. Open **Cemu** from the RetroDECK Configurator.  
+2. Go to **Options → Interface → Language**.  
+3. Choose your preferred language.
+4. Exit and restart Cemu.
+
+**In-Game Language**
+
+1. Open **Cemu** from the RetroDECK Configurator.  
+2. Go to **Options → Console Language**.  
+3. Choose your preferred language.
+4. Exit Cemu.
 
 
 ---
 
 
-## How to install DLC and Updates
+## Installing DLC and Updates
 
 **NOTE:**
 

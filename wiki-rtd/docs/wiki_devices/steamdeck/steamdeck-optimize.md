@@ -93,7 +93,7 @@ Optimal settings depend on the specific hardware component and may vary between 
 
 ### Decky Loader: AutoFlatpaks
 
-**AutoFlatpaks** allows you to manage and update Flatpak applications—such as RetroDECK—directly from **Game Mode**.
+**AutoFlatpaks** allows you to manage and update Flatpak applications-such as RetroDECK-directly from **Game Mode**.
 
 **Installation Steps (in Game Mode)**
 

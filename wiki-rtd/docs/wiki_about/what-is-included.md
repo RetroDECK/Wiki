@@ -62,7 +62,7 @@ and more!
 
 <img src="../../wiki_icons/retrodeck/icon-engine.svg" width="50">
 
-**RetroENGINE** allows you to launch supported game files directly with RetroDECK from the desktop—no need to open the full application.
+**RetroENGINE** allows you to launch supported game files directly with RetroDECK from the desktop-no need to open the full application.
 
 It supports file-type associations for common game extensions, enabling you to start games with a simple double-click. You can also launch titles directly through the command line using RetroENGINE’s CLI interface.
 

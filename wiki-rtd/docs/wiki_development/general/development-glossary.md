@@ -103,7 +103,7 @@ Currently, the API is only accessible through:
 
 <img src="../../../wiki_icons/retrodeck/icon-engine.svg" width="50">
 
-`RetroENGINE` lets you launch games directly from your desktop using RetroDECK — no need to open the full application.
+`RetroENGINE` lets you launch games directly from your desktop using RetroDECK - no need to open the full application.
 
 - Supports file associations for common game file types.
 - Allows launching games via the command line (CLI).
@@ -214,7 +214,7 @@ RetroDECK itself with it's various tools and features is also an component.
 
 **Purpose** 
 
-Directs RetroDECK’s build automation on how to transform a component’s original source—whether an AppImage, Flatpak, pre‑compiled binary, or source code—into a fully packaged RetroDECK component.
+Directs RetroDECK’s build automation on how to transform a component’s original source-whether an AppImage, Flatpak, pre‑compiled binary, or source code-into a fully packaged RetroDECK component.
 
 **Note** 
 

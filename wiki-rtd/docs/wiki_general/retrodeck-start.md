@@ -14,7 +14,7 @@ RetroDECK is an retro gaming platform.
 
 ## Quick Start Guide
 
-### **RetroDECK — Prerequisites**
+### **RetroDECK - Prerequisites**
 
 <img src="../../wiki_icons/pixelitos/emblem-default.png" width="50">
 

@@ -136,7 +136,7 @@ RetroDECK organizes all software as isolated components, each running within a l
 | Feature / Benefit           | Details                                                                                                          |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------|
 | **Isolated Environments**   | Each component only sees the libraries it needs, preventing cross-component interference and ensuring stability. |
-| **Dynamic Layer Stacking**  | When a component runs, RetroDECK dynamically assembles its runtime from the base layer upward—like constructing a lightweight container on demand. |
+| **Dynamic Layer Stacking**  | When a component runs, RetroDECK dynamically assembles its runtime from the base layer upward-like constructing a lightweight container on demand. |
 | **Docker-Inspired Flow**    | The architecture behaves like launching small Docker-style containers built from reusable layers, but inside Flatpak. |
 | **Flexibility**             | New components can be added or customized without altering the base runtime.                                     |
 | **Scalability**             | Easy to expand with more components, each remaining isolated yet efficiently layered.                            |

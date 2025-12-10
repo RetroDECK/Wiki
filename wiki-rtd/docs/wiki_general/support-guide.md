@@ -29,7 +29,7 @@ Our support is ours, and theirs are theirs!
 ## How-to: Reporting an Problem
 
 - The primary issue tracker is **[RetroDECK – GitHub Issues](https://github.com/RetroDECK/RetroDECK/issues)**.  
-- We keep it tidy—only “real” bugs belong here.  
+- We keep it tidy-only “real” bugs belong here.  
 - For general guidance, use the socials, wiki, or the broader RetroDECK community.
 
 ### The wiki is the single source of truth for all RetroDECK documentation and information.

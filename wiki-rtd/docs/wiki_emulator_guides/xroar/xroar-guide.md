@@ -84,7 +84,7 @@ Directly into the folder
 
 ## Controls
 
-XRoar supports multiple input methods—including physical controllers, keyboards, and mice. Though control behavior may vary between games since the originals were designed for home computers.
+XRoar supports multiple input methods-including physical controllers, keyboards, and mice. Though control behavior may vary between games since the originals were designed for home computers.
 
 ### Joystick / Controller Support
 

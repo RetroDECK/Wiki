@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_icons/pixelitos/folder-red-games.png" width="75">
 
-RetroDECK is a Flatpak — a sandboxed bundle containing applications, configurations, and supporting files.  
+RetroDECK is a Flatpak - a sandboxed bundle containing applications, configurations, and supporting files.  
 
 ---
 

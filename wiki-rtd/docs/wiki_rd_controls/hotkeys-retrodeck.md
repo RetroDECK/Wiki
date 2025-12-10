@@ -161,9 +161,9 @@ The touchpads on DualShock 4 and DualSense controllers act as a mouse, allowing 
 
 | Function                | Button / Combination      | System Support | Comment                                      |
 | :---                    | :---:                     | :---:          | :---:                                        |
-| Full Touchpad           | —                         | —              | The entire touchpad acts as a mouse.        |
-| Right Touchpad Click    | `Left Mouse Click`        | —              |                                            |
-| Left Touchpad Click     | `Right Mouse Click`       | —              |                                            |
+| Full Touchpad           | -                         | -              | The entire touchpad acts as a mouse.        |
+| Right Touchpad Click    | `Left Mouse Click`        | -              |                                            |
+| Left Touchpad Click     | `Right Mouse Click`       | -              |                                            |
 
 ---
 
@@ -181,14 +181,14 @@ By pressing `R4`, you can toggle the right touchpad between two modes: **Right J
 
 | Function                        | Button / Combination | Command        | Comment                                     |
 | :---                            | :---:                | :---:          | :---:                                       |
-| Touchpad Mode Switch            | `R4`                 | —              | Switch between **Joystick Mode** and **Mouse Mode**. |
+| Touchpad Mode Switch            | `R4`                 | -              | Switch between **Joystick Mode** and **Mouse Mode**. |
 | Left Click (Mouse Mode)         | `R3`                 | `Left Click`   | In **Mouse Mode**.                         |
 
 By holding `HKB` and moving the **Right Touchpad**, you can use it as a mouse for systems that support mouse input.
 
 | Function                | Button / Combination       | Command        | Comment                                     |
 | :---                    | :---:                      | :---:          | :---:                                       |
-| Touchpad as Mouse       | `HKB + Right Touchpad`     | —              |                                            |
+| Touchpad as Mouse       | `HKB + Right Touchpad`     | -              |                                            |
 | Right Click             | `HKB + L3`                 | `Right Click`  |                                            |
 | Left Click              | `HKB + R3`                 | `Left Click`   |                                            |
 

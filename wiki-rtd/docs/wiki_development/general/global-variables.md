@@ -17,8 +17,8 @@ A collection of variables used by RetroDECK.
 
 | Variable | Description | Example / Path |
 |----------|------------|----------------|
-| `$XDG_SESSION_DESKTOP` | Desktop session name | — |
-| `$XDG_SESSION_TYPE` | Session type | — |
+| `$XDG_SESSION_DESKTOP` | Desktop session name | - |
+| `$XDG_SESSION_TYPE` | Session type | - |
 | `$XDG_CACHE_HOME` | Non-essential user-specific cache data | `.var/app/net.retrodeck.retrodeck/cache/` |
 | `$XDG_CONFIG_HOME` | User-specific configuration files | `.var/app/net.retrodeck.retrodeck/config/` |
 | `$XDG_DATA_HOME` | User-specific data files | `.var/app/net.retrodeck.retrodeck/data/` |
@@ -30,10 +30,10 @@ A collection of variables used by RetroDECK.
 
 | Variable | Description | Example / Path |
 |----------|------------|----------------|
-| `QT_PLUGIN_PATH` | QT plugin search path | — |
-| `QT_QPA_PLATFORM` | QT platform type | — |
-| `QT_QPA_PLATFORM_PLUGIN_PATH` | QT platform plugin path | — |
-| `QT_QPA_PLATFORMTHEME` | QT platform theme | — |
+| `QT_PLUGIN_PATH` | QT plugin search path | - |
+| `QT_QPA_PLATFORM` | QT platform type | - |
+| `QT_QPA_PLATFORM_PLUGIN_PATH` | QT platform plugin path | - |
+| `QT_QPA_PLATFORMTHEME` | QT platform theme | - |
 
 ---
 
@@ -69,7 +69,7 @@ A collection of variables used by RetroDECK.
 
 | Variable | Description | Example / Path |
 |----------|------------|----------------|
-| `$component_name` | Name of the component | — |
+| `$component_name` | Name of the component | - |
 | `component_folder_path` | Path of the component folder | `"$(cd "$(dirname "${BASH_SOURCE[0]}" )" && pwd)"` |
 | Component Function Variables | Defined by each component’s `component_functions.sh` | See [components repo](https://github.com/RetroDECK/components/blob/cooker/) |
 
@@ -88,7 +88,7 @@ A collection of variables used by RetroDECK.
 | `$height` | Display height | `grep -oP '(?<=x)\d+' /sys/class/graphics/fb0/modes` |
 | `$native_resolution` | Detect Steam Deck resolution | `true/false` |
 | `$hard_version` | Hardcoded RetroDECK version | `$(cat '/app/retrodeck/version')` |
-| `$version` | Current RetroDECK version | — |
+| `$version` | Current RetroDECK version | - |
 
 ---
 
@@ -109,7 +109,7 @@ A collection of variables used by RetroDECK.
 | `$rd_defaults` | Default RetroDECK config | `$config/retrodeck/retrodeck.cfg` |
 | `$rd_update_patch` | Temporary patch file | `$XDG_CONFIG_HOME/retrodeck/rd_update.patch` |
 | `$rd_metainfo` | Shipped metainfo XML file | `/app/share/metainfo/net.retrodeck.retrodeck.metainfo.xml` |
-| `$new_home_path` | Home path after move | — |
+| `$new_home_path` | Home path after move | - |
 
 ---
 

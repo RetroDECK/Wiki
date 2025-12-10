@@ -48,7 +48,7 @@ Therefore the script ensures Steam reflects the user’s current favorites in ES
 
 ---
 
-## Under the Hood — What the Script Actually Does
+## Under the Hood - What the Script Actually Does
 
 - Ensures SRM configuration is initialized if not present.
 - Walks through each system folder in `ES-DE/gamelists/`. Skipping cleanup folders and systems without gamelist files. 
@@ -69,8 +69,8 @@ Therefore the script ensures Steam reflects the user’s current favorites in ES
 ## Important Notes & Limitations
 
 - Filenames containing certain “unsafe” characters (like `/`, `\`, `<`, `>`, `'`, `*`) may break Steam-sync or cause SRM parsing issues.
-- After syncing, you must restart or reload Steam for new shortcuts to appear — RetroDECK cannot force-restart Steam automatically.
-- If you move or rename ROM files after syncing, the shortcuts may become invalid — a fresh sync is recommended.  
+- After syncing, you must restart or reload Steam for new shortcuts to appear - RetroDECK cannot force-restart Steam automatically.
+- If you move or rename ROM files after syncing, the shortcuts may become invalid - a fresh sync is recommended.  
 - The sync only includes games marked as favorite in ES-DE; non-favorites are ignored (unless later favorited and synced).  
 - 
 ---

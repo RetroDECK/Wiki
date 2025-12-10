@@ -107,7 +107,7 @@ Before proposing anything, download and run the component locally. Understand ho
 ### What needs to be user-editable?
 
 - Which files or folders should be exposed to the user?
-- Think about what should go into `/home/<user>/.var/app/net.retrodeck.retrodeck/` — under `data`, `cache`, or `config`.
+- Think about what should go into `/home/<user>/.var/app/net.retrodeck.retrodeck/` - under `data`, `cache`, or `config`.
 
 
 ---

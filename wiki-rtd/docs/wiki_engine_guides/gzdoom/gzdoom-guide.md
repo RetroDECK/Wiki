@@ -60,7 +60,7 @@ Below is a combined table containing both **Steam** and **GOG** purchase links f
 
 | Game / Bundle            | Steam Link                                                              | GOG Link                                                               |
 |--------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------|
-| DOOM Classic Bundle      | [Steam](https://store.steampowered.com/bundle/27490/DOOM_Classic_Bundle/)| —                                                                      |
+| DOOM Classic Bundle      | [Steam](https://store.steampowered.com/bundle/27490/DOOM_Classic_Bundle/)| -                                                                      |
 | DOOM + DOOM II           | [Steam](https://store.steampowered.com/app/2280/DOOM__DOOM_II/)        | [GOG](https://www.gog.com/en/game/doom_doom_ii)                       |
 | DOOM 64                  | [Steam](https://store.steampowered.com/app/1148590/DOOM_64/)            | [GOG](https://www.gog.com/en/game/doom_64)                             |
 | DOOM 3                   | [Steam](https://store.steampowered.com/app/208200/DOOM_3/)              | [GOG](https://www.gog.com/en/game/doom_3)                              |

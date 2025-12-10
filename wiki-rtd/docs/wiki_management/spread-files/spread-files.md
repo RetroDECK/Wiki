@@ -4,7 +4,7 @@
 
 ## Using Symbolic Links
 
-Symbolic Links (symlinks) allow you to distribute files across multiple storage locations—internal drives, external drives, or NAS—while making them appear as if they reside in a single location. RetroDECK and other software interpret these links as standard folders or files.
+Symbolic Links (symlinks) allow you to distribute files across multiple storage locations-internal drives, external drives, or NAS-while making them appear as if they reside in a single location. RetroDECK and other software interpret these links as standard folders or files.
 
 ---
 

@@ -107,7 +107,7 @@ Place your `.pnach` files in: **retrodeck/cheats/pcsx2/**
 
 1. Open **PCSX2** via the **RetroDECK Configurator**.   
 2. **Right-click** the game you want to configure and click on **Properties**.  
-3. Adjust any settings you want—changes here apply **only to this specific game**.
+3. Adjust any settings you want and apply.
 
 ---
 

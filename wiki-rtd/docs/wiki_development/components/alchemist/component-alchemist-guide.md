@@ -4,7 +4,7 @@
 
 **The RetroDECK Alchemist** is a magician / chef / bartender who , when given the proper instruction, can transmute one or more base source ingredients into the perfect gem of a component artifact .
 
-*Alchemy* — *noun* — “A power or process that changes or transforms something in a mysterious or impressive way.”
+*Alchemy* - *noun* - “A power or process that changes or transforms something in a mysterious or impressive way.”
 
 (The `alchemist.sh` it is a Plugin‑Based Component Assembler).
 
@@ -81,7 +81,7 @@ All `component_recipe.json` contain at least four parts:
 
 **Asset**  
 
-   - Every component source includes at least one asset—the file(s) pulled from the source ingredient.
+   - Every component source includes at least one asset-the file(s) pulled from the source ingredient.
 
 **Extras**  
 

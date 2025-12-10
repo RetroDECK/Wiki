@@ -240,7 +240,7 @@ Any system with valid ROMs / Games should now appear in ES-DE and be ready to pl
 
 ### Explore the Community
 
-RetroDECK is community-driven—explore, learn, or join in!
+RetroDECK is community-driven-explore, learn, or join in!
 
 - **Development updates:** [RetroDECK Blog](../../blog/index.md)  
 - **Social links:** [Wiki Start Page](../../index.md)  

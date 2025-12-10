@@ -17,9 +17,9 @@ The core logic for compression is implemented in the shell script located at:
 | Function | Description / Behavior | Usage |
 |----------|------------------------|--------|
 | **`compress_game()`** | Compresses a given input file into a target format (`chd`, `zip`, or `rvz`) depending on parameters and system type. The function handles path resolution, file naming, and uses appropriate compression commands (e.g. `chdman`, `zip`, or other tools). | `compress_game <format> <full_path_to_input_file> [system]` |
-| **`find_compatible_compression_format()`** | Inspects a file’s path and filename to determine if it belongs to a supported ROM system, and returns which compression format (if any) is compatible for that system — based on configuration.  | `find_compatible_compression_format "$file"` |
+| **`find_compatible_compression_format()`** | Inspects a file’s path and filename to determine if it belongs to a supported ROM system, and returns which compression format (if any) is compatible for that system - based on configuration.  | `find_compatible_compression_format "$file"` |
 | **`cli_compress_all_games()`** | Batch-process wrapper: iterates over all supported systems (or a subset depending on user input), searches for compatible game files, validates them, and compresses them to appropriate format. Offers optional post-compression cleanup (remove original files). | `cli_compress_all_games <compression_format|all>` |
-| *(Other internal/utility functions)* | Various utility and helper logic to support validation, cleanup, error handling inside the script. | N/A — internal use |
+| *(Other internal/utility functions)* | Various utility and helper logic to support validation, cleanup, error handling inside the script. | N/A - internal use |
 
 ---
 
@@ -34,7 +34,7 @@ Supported compression formats per system are defined in the configuration file `
 
 ---
 
-## How Compression Works — Workflow Overview
+## How Compression Works - Workflow Overview
 
 1. User runs the compression tool: either for a single game or for a batch of ROMs.  
 2. For each file found under `/roms/<system>/`, the script runs `find_compatible_compression_format()` to detect if the system supports compression and which format.  
@@ -48,10 +48,10 @@ This compression workflow can drastically reduce storage usage while keeping gam
 
 ## Best Practices & Considerations
 
-- Always ensure your emulator supports the target compression format before compressing — especially for disc-based systems.  
+- Always ensure your emulator supports the target compression format before compressing - especially for disc-based systems.  
 - After compression, you may optionally remove original uncompressed files to reclaim space.  
 - Compression is best done before adding games to your frontend/library (e.g. before scraping or indexing), to avoid duplicate entries or confusion.  
-- If you use a batch compress command (compress-all), be prepared: compressing many games — especially discs (e.g. PS2, Dreamcast) — can take significant time depending on hardware.  
+- If you use a batch compress command (compress-all), be prepared: compressing many games - especially discs (e.g. PS2, Dreamcast) - can take significant time depending on hardware.  
 
 ---
 

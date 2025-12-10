@@ -48,7 +48,7 @@ We give ImCoKeMaN and the PortMaster Team our biggest thanks.
 
 RetroDECK 0.10.0b is advancing under the “Project Neo” umbrella, that we first talked about in June.
 
-We’re still addressing component‑specific issues, so the final release will take additional time and no ETAs. We’re rebuilding large portions of the application and its build pipeline from the ground up—making this effort feel more like **RetroDECK II** or **RetroDECK Neo**, which explains the name.
+We’re still addressing component‑specific issues, so the final release will take additional time and no ETAs. We’re rebuilding large portions of the application and its build pipeline from the ground up-making this effort feel more like **RetroDECK II** or **RetroDECK Neo**, which explains the name.
 
 We are doing a mix of:
 
@@ -196,7 +196,7 @@ We’re experimenting with several components simultaneously, thanks the the new
 
 *Virtual pinball engine (VP/VPin) VPinballX.*
 
-> **RetroDECK Team Comment:**  If you have experience configuring VPinballX, please reach out to the team—we’d love your input on optimal settings.
+> **RetroDECK Team Comment:**  If you have experience configuring VPinballX, please reach out to the team-we’d love your input on optimal settings.
 
 ### XRoar  
 

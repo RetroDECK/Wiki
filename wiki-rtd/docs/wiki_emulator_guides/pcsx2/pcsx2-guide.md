@@ -72,34 +72,67 @@ Directly into the folder
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/ps2/` |                               |  
+| ROMs Folder |`retrodeck/roms/ps2/` |                               | 
+| Cheat Folder |`retrodeck/cheats/pcsx2/` |             `PCSX2/cheats/`                |  
 | Saves Folder |`retrodeck/saves/ps2/pcsx2/memcards/` |                               |  
 | States Folder |`retrodeck/states/ps2/pcsx2/` |                               |  
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/PCSX2/`         |  |
 | BIOS Folder | `retrodeck/bios/` ||
-| Texture Pack Folder |`retrodeck/texture_packs/PCSX2/` |  Represents `PCSX2/textures/`    |
+| Texture Pack Folder |`retrodeck/texture_packs/pcsx2/` |  Represents `PCSX2/textures/`    |
+
 
 ---
 
-## Emulate the Multitap
+## Enable Cheats
 
-Multitap is a way to have up to 8 players on the Playstation 2, by hooking 4 players in each controller port.
+Place your `.pnach` files in: **retrodeck/cheats/pcsx2/**
 
-Most games do not support this feature and some might not even work with it enabled.
-
-1. Open the Configurator and open `PCSX2`.
-2. Go to `Settings` -> `Controllers` -> `Controller Multitap`
-3. Enable/disable Multitap by clicking the checkbox for either Port 1, Port 2 or both.
-4. Several new controllers called 1A to 1D and 2A to 2D will be enabled to map.
+1. Open **PCSX2** via the **RetroDECK Configurator**.  
+2. **Right-click** the game you want to configure and select **Properties**.  
+3. Open the **Cheats** tab and enable **Cheats**.  
+4. Check **Enabled** next to the cheat you want to activate.
 
 ---
 
-## Emulate the EyeToy
+## Enable Patches: Widescreen and more
 
-You need to have a `USB Webcam` connected or an `Integrated Webcam`.
+1. Open **PCSX2** via the **RetroDECK Configurator**.   
+2. **Right-click** the game you want to configure and click on **Properties**.  
+3. Open **Patches** and enable the patch (if there is one) by checking **Enabled**.
 
-1. Open the Configurator and open `PCSX2`.
-2. Go to `Settings` -> `Controllers` -> Select `USB Port` -> Select `Webcam (EyeToy)` from the Dropdown list -> Select the `Device Name` of your connected Camera from the Dropdown list.
+
+---
+
+## Different Settings Per Game
+
+1. Open **PCSX2** via the **RetroDECK Configurator**.   
+2. **Right-click** the game you want to configure and click on **Properties**.  
+3. Adjust any settings you want—changes here apply **only to this specific game**.
+
+---
+
+## Emulate the Multitap (PCSX2)
+
+Multitap allows up to **8 players** on the PlayStation 2 by connecting 4 controllers to each controller port.
+
+**Note:** Most games do not support this feature, and some may not work with it enabled.
+
+1. Open **PCSX2** via the **RetroDECK Configurator**. 
+2. Go to **Settings → Controllers → Controller Multitap**.  
+3. Enable/disable Multitap for **Port 1**, **Port 2**, or both by checking the box.  
+4. New controller slots (1A–1D and 2A–2D) will appear for mapping.
+
+---
+
+## Emulate the EyeToy (PCSX2)
+
+Requires a **USB webcam** or **integrated webcam**.
+
+1. Open **PCSX2** via the **RetroDECK Configurator**. 
+2. Go to **Settings → Controllers → USB Port**.  
+3. From the dropdown, select **Webcam (EyeToy)**.  
+4. Choose the **Device Name** of your connected camera.
+
 
 
 ---
@@ -108,59 +141,51 @@ You need to have a `USB Webcam` connected or an `Integrated Webcam`.
 
 ### PCSX2 Interface
 
-Normally it should follow your system locale if supported by PCSX2
+PCSX2 typically follows your system locale if supported.
 
-1. Open the Configurator and open `PCSX2`.
-2. Go to `Settings` -> `Interface` -> `Interface`
-3. Under `Preferences` you can change the language from the drop-down menu.
-4. Close `PCSX2`.
+1. Open **PCSX2** via the **RetroDECK Configurator**. 
+2. Navigate to **Settings → Interface → Interface**.  
+3. Under **Preferences**, select your preferred language from the drop-down menu.  
+4. Close **PCSX2**.
 
-### For the BIOS / Games
+### BIOS / In-Game Language
 
-1. Open the Configurator and open `PCSX2`.
-2. Go to `Settings` -> `BIOS`
-3. Under `Options and Patches` uncheck `Fast Boot` and close the menu.
-4. Go to `System` -> `Start BIOS` to open the BIOS.
-5. Within the BIOS navigate to `System Configuration` -> `Language` and change the language.
-6. Close the BIOS go back to `Settings` -> `BIOS` -> `Options and Patches` and check `Fast Boot` checkbox again.
-7. Close `PCSX2`.
+1. Open **PCSX2** via the **RetroDECK Configurator**. 
+2. Go to **Settings → BIOS**.  
+3. Under **Options and Patches**, uncheck **Fast Boot**, then close the menu.  
+4. Go to **System → Start BIOS**.  
+5. In the BIOS, navigate to **System Configuration → Language** and select your preferred language.  
+6. Exit the BIOS, return to **Settings → BIOS → Options and Patches**, and re-enable **Fast Boot**.  
+7. Close **PCSX2**.
 
 ---
 
-## Adding texture packs
+## Adding Texture Packs
 
-The `~/retrodeck/texture_packs/PCSX2/` represents the `/PCSX2/textures/` folder in PCSX2.
-
-**Note:** <br>
-
-Some texture packs could made for a specific version or region of a game. Make sure you have the right game and textures for it.
-
-`TITLEID` is different for every game.
+**Note:** Some texture packs are made for specific game versions or regions. Ensure you have the correct game and textures. Each game has a unique `TITLEID`.
 
 ### Enable Custom Textures
 
-Open up PCSX2 from the `RetroDECK Configurator` by pressing `Open Emulator` - `PCSX2`.
+Open **PCSX2** via the **RetroDECK Configurator**. 
 
-You can either enable textures globally or per game.
+**Globally for All Games**
 
-**Globally for all games**
+1. Go to **Settings → Graphics → Texture Replacement**.  
+2. Enable **Load Textures** and **Async Texture Loading**.
 
-1. Go to `Settings` -> `Graphics` -> `Texture Replacement`
-2. Enable `Load Textures` and `Async Texture Loading`.
+**Per Game**
 
-**Per game**
+1. In the PCSX2 interface, **right-click** the game and open the menu.  
+2. Go to **Game Properties → Graphic Settings → Texture Replacement**.  
+3. Enable **Load Textures** and **Async Texture Loading**.
 
-1. In the main PCXS2 interface `Right Click` the game you want to bring up the menu.
-2. Go to `Game Properties` -> `Graphic Settings` -> `Texture Replacement`
-3. Enable `Load Textures` and `Async Texture Loading`.
+### Adding Texture Packs
 
+1. Extract texture pack files from `.zip` or other compressed formats.  
+2. Navigate to **`retrodeck/texture_packs/pcsx2/`**.  
+3. Locate the correct **`TITLEID`** for your game.  
+4. Move the texture files into: **`retrodeck/texture_packs/pcsx2/<TITLEID>`**  
+5. If the textures match the game, they will load the next time the game is launched.
 
-### Add the texture packs to the correct folder
-
-1. Extract any texture pack files from compressed `.zip` or any other compressed format.
-2. Go into `~/retrodeck/texture_packs/PCSX2/`. 
-3. Find the correct `TITLEID` that mactches your game.
-4. Move textures into the right `~/retrodeck/texture_packs/PCSX2/<TITLEID>` folder.
-5. If the textures match the game they should be loaded on next time you launch the game.
 
 ---

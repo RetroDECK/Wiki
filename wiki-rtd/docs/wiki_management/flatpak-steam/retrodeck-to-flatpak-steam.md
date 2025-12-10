@@ -1,4 +1,5 @@
 # Adding RetroDECK to Steam (Flatpak Version)
+
 <img src="../../../wiki_images/logos/flatpak-logo.svg" width="75">
 
 
@@ -10,10 +11,6 @@ RetroDECK always recommends using the non-Flatpak native version for the best co
 **Warning:** 
  
 This method grants more access to the Flatpak, as it bypasses certain sandbox restrictions. Flatpaks typically cannot execute system commands outside of the sandbox, so enabling this permission exposes the Steam Flatpak to more system-level actions.
-
-### Disclaimer on Experiments 
-
-These experiments are created by the RetroDECK Team and/or Community. The guides are intended for people with technical knowledge and a passion for tinkering. Using these guides *might* put RetroDECK and your data at risk. The RetroDECK Team can't provide any support for these experiments or fix any issues they might cause on your system or RetroDECK installation.
 
 ---
 
@@ -43,26 +40,8 @@ Alternatively, you can add the permission directly from the terminal with the fo
 
 ---
 
-## Configuring RetroDECK in Steam Flatpak
+### Add RetroDECK
 
-Once RetroDECK has been added to Steam, follow these steps to configure it properly:
+If the necessary permissions are granted, navigate to the RetroDECK Configurator, add RetroDECK to Steam and/or enable synchronization of 🌟 Favorites 🌟 with SRM.
 
-1. Right-click the RetroDECK entry in Steam.
-2. Change the **Target** and **Launch Options** as follows:
-
-**Target:**
-
-`/usr/bin/flatpak-spawn`
-
-**Launch options:**
-
-`--host flatpak run --branch=stable --arch=x86_64 net.retrodeck.retrodeck`
-
-After making these changes, you should now be able to launch RetroDECK directly from Steam.
-
-### Steam Sync: Synchronizing with SRM
-
-If you are using the Steam Synchronization in the RetroDECK Configurator, you must apply the the  **Target** and **Launch Options** to each synchronized game entry to ensure proper functionality for that unique launch command.
-
---- 
-
+Both should function as expected.

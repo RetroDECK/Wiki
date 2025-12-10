@@ -276,14 +276,16 @@ nav:
 
   - Guides - RetroDECK Management 📁:
 
-    - RetroDECK Userdata Folders : wiki_management/retrodeck-folders/retrodeck-folders.md
-    - Update RetroDECK : wiki_management/retrodeck-update/retrodeck-update.md
-    - Remove RetroDECK: wiki_management/retrodeck-remove/retrodeck-remove.md
-    - Move RetroDECK to Another Device: wiki_management/retrodeck-move/retrodeck-move.md
+    - Add RetroDECK to Steam Flatpak Version: wiki_management/flatpak-steam/retrodeck-to-flatpak-steam.md
     - BIOS/Firmware: wiki_management/bios-firmware/bios-firmware.md
+    - Move RetroDECK to Another Device: wiki_management/retrodeck-move/retrodeck-move.md
     - Multidisk/file Games: wiki_management/multi-disk/multi-disk.md
-    - Spreading Files over Multiple Drives: wiki_management/spread-files/spread-files.md
+    - Remove RetroDECK: wiki_management/retrodeck-remove/retrodeck-remove.md
+    - RetroDECK Userdata Folders: wiki_management/retrodeck-folders/retrodeck-folders.md
     - Software Recommendations: wiki_management/software-recommendations/software-recommendations.md
+    - Spreading Files over Multiple Drives: wiki_management/spread-files/spread-files.md
+    - Update RetroDECK: wiki_management/retrodeck-update/retrodeck-update.md
+
 
   - Guides - Clients 📟:
 
@@ -387,7 +389,6 @@ nav:
   - RetroDECK Experiments ⚗️:
 
     - About Experiments: wiki_experiments/about-experiments.md
-    - Add RetroDECK to Steam Flatpak Version: wiki_experiments/flatpak-steam/retrodeck-to-flatpak-steam.md
     - Autoboot into RetroDECK not Game Mode: wiki_experiments/retrodeck-gamemode-boot/retrodeck-gamemode-boot.md
     - ES-DE Background Music:  wiki_experiments/retrodeck-music-player/retrodeck-music-player.md
     - Launch Desktop Games & Apps:

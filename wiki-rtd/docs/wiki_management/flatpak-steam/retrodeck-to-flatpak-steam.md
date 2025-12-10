@@ -8,7 +8,7 @@ RetroDECK can be added to the Steam Flatpak version using the **RetroDECK Config
 **Note:**
 RetroDECK always recommends using the non-Flatpak native version for the best compatibility.
 
-**Warning:** 
+### ⚠️ Warning ⚠️
  
 This method grants more access to the Flatpak, as it bypasses certain sandbox restrictions. Flatpaks typically cannot execute system commands outside of the sandbox, so enabling this permission exposes the Steam Flatpak to more system-level actions.
 
@@ -40,8 +40,10 @@ Alternatively, you can add the permission directly from the terminal with the fo
 
 ---
 
-### Add RetroDECK
+## Add RetroDECK and/or SRM Steam Sync
 
 If the necessary permissions are granted, navigate to the RetroDECK Configurator, add RetroDECK to Steam and/or enable synchronization of 🌟 Favorites 🌟 with SRM.
 
 Both should function as expected.
+
+---

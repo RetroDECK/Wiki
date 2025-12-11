@@ -29,7 +29,7 @@ Most listed here are subject to change and is just an outline of what  we are wo
 
 You can find a detailed step-for-step guide here for both Linux Desktop and Steam Deck:
 
-[How to: Move RetroDECK](https://github.com/XargonWan/RetroDECK/wiki/How-to%3A-Move-RetroDECK-to-a-new-device)
+[How to: Move RetroDECK](https://github.com/RetroDECK/RetroDECK/wiki/How-to%3A-Move-RetroDECK-to-a-new-device)
 
 **For a ultra-quick guide:**
 
@@ -106,7 +106,7 @@ All standard type controllers supported by Steam Input will work with  the norma
 
 If you want to try them right now, you can do that by going into the  following github issue and follow the instructions over there (they also  work on current stable, just extract the zipfile in the correct folder  and enjoy):
 
-[Github Issue with Download](https://github.com/XargonWan/RetroDECK/issues/573)
+[Github Issue with Download](https://github.com/RetroDECK/RetroDECK/issues/573)
 
 ## Status update: Multiuser mode
 
@@ -148,8 +148,8 @@ We are always looking for more people to help us with the project.
 
 [Discord](https://discord.gg/WDc5C9YWMx)
 
-[Github](https://github.com/XargonWan/RetroDECK)
+[Github](https://github.com/RetroDECK/RetroDECK)
 
-[Wiki](https://github.com/XargonWan/RetroDECK/wiki)
+[Wiki](https://github.com/RetroDECK/RetroDECK/wiki)
 
-[Donations](https://github.com/XargonWan/RetroDECK/wiki/Misc%3A-Donations-%26-Licenses)
+[Donations](https://github.com/RetroDECK/RetroDECK/wiki/Misc%3A-Donations-%26-Licenses)

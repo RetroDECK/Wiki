@@ -39,7 +39,7 @@ But before we get into what we are working on we want to make a short statement.
 >
 >You can find more about our dependencies on the wiki and how to donate to them or us:
 >
->[https://github.com/XargonWan/RetroDECK/wiki/Donations-%26-Licenses](https://github.com/XargonWan/RetroDECK/wiki/Donations-%26-Licenses)
+>[https://github.com/RetroDECK/RetroDECK/wiki/Donations-%26-Licenses](https://github.com/RetroDECK/RetroDECK/wiki/Donations-%26-Licenses)
 >
 >//The RetroDECK Team
 
@@ -107,10 +107,10 @@ Check out our:
 
 [Discord](https://discord.gg/WDc5C9YWMx)
 
-[Github](https://github.com/XargonWan/RetroDECK)
+[Github](https://github.com/RetroDECK/RetroDECK)
 
-[Wiki](https://github.com/XargonWan/RetroDECK/wiki)
+[Wiki](https://github.com/RetroDECK/RetroDECK/wiki)
 
-[Donations](https://github.com/XargonWan/RetroDECK/wiki/Donations-%26-Licenses)
+[Donations](https://github.com/RetroDECK/RetroDECK/wiki/Donations-%26-Licenses)
 
 [Lemmy](https://lemmy.zip/c/retrodeck)

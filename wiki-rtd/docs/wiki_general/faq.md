@@ -17,7 +17,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **Why do the Cooker releases have strange names?** | Cooker releases have randomly generated names to help users easily identify which version they are running. |
 | **Can I help with testing?** | Yes! You can offer to help with testing by posting in the `💙-i-want-to-help` channel on our [Discord](https://discord.gg/WDc5C9YWMx). While anyone can download and use the cooker builds, we recommend informing the RetroDECK team and flagging yourself as a tester. This ensures the team can provide you with proper support during the testing process. |
 | **How do I start with testing?** | To get started with testing, please read the [Testing Guide](../wiki_development/testing/retrodeck-testing.md). |
-| **How do I upgrade from one Cooker version to another?** | You can update to the latest Cooker version via the auto-updater prompt when launching RetroDECK Cooker. However, the auto-updater might not always function correctly during testing. In such cases, manually download the latest release from the [RetroDECK Cooker GitHub page](https://github.com/XargonWan/RetroDECK-cooker). After updating, verify that you're on the correct Cooker version by checking the version in the ES-DE menu. **Note:** Always ensure you are on the latest Cooker version before reporting any bugs. |
+| **How do I upgrade from one Cooker version to another?** | You can update to the latest Cooker version via the auto-updater prompt when launching RetroDECK Cooker. However, the auto-updater might not always function correctly during testing. In such cases, manually download the latest release from the [RetroDECK Cooker GitHub page](https://github.com/RetroDECK/RetroDECK-cooker). After updating, verify that you're on the correct Cooker version by checking the version in the ES-DE menu. **Note:** Always ensure you are on the latest Cooker version before reporting any bugs. |
 | **How do I uninstall RetroDECK Cooker?** | You can uninstall RetroDECK Cooker through your application manager (e.g., Discover) by searching for RetroDECK and clicking "Uninstall." Alternatively, you can uninstall it via the terminal with the following command: `flatpak remove RetroDECK`. |
 
 ---
@@ -59,7 +59,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 | **Question** | **Answer** |
 |--------------|------------|
-| **Will you implement X/Y/Z system?** | Our goal is to implement and configure the best possible version of each system supported by ES-DE and more. If your preferred system is not currently integrated, you can request it by opening an issue on GitHub. Existing suggestions can be viewed here:<br>**RetroDECK GitHub – New Components:**<br>https://github.com/RetroDECK/RetroDECK/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22New%20Component%20%F0%9F%92%BE%22 |
+| **Will you implement X/Y/Z system?** | Our goal is to implement and configure the best possible version of each system supported by ES-DE and beyond. If your preferred system is not currently integrated, you can request it by opening an issue on GitHub. Existing suggestions can be viewed here:<br><br> [The Great List](https://github.com/orgs/RetroDECK/projects/4) |
 | **I have an idea for a new feature. How do I suggest it?** | First, check whether the idea already exists in the GitHub issue list. If it does not, you may create a new issue and describe your suggestion. You may also discuss your idea within the community before submitting it. |
 | **Will you add Windows versions of emulators via Wine/Proton?** | There are currently no plans to support Windows-based emulators through Wine or Proton. |
 | **Will you implement Cloud Sync/Backup?** | Yes, this is planned for a future update. Users will be able to integrate their own services through easy-to-use tools built into the Configurator. |
@@ -79,7 +79,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **Will you support Windows?** <br><img src="../../wiki_icons/pixelitos/distributor-logo-windows.png" width="15"> | No, RetroDECK does not currently support Windows. Alternatives include **RetroBat** (https://www.retrobat.org/). You may also install a Linux distribution on your device to use RetroDECK. Supporting Windows would require significant development resources. |
 | **Will you support macOS?** <br><img src="../../wiki_icons/pixelitos/distributor-logo-macos.png" width="15"> | No, RetroDECK does not currently support macOS. Alternatives include **OpenEmu** (https://openemu.org/). Using RetroDECK on macOS would require a large engineering effort and additional macOS-experienced developers. |
 | **Will you support ARM mobile devices (iOS, Android)?** <br><img src="../../wiki_icons/pixelitos/android.png" width="15"> | No, RetroDECK does not currently support ARM mobile devices. Supporting mobile ARM platforms would require rewriting major parts of the system due to different emulators, licensing models, and closed-source components (especially on Android). Substantial ARM-experienced development resources would be required. |
-| **Will you support other Linux distribution methods such as Snap, AppImage, AUR, etc.?** | This is not part of the current roadmap. RetroDECK’s build system is based entirely on Flatpak and relies on Flathub for distribution. The team is not large enough to maintain alternative package formats. However, contributions from knowledgeable volunteers are welcome. |
+| **Will you support other Linux distribution methods such as Snap, AppImage, AUR, etc.?** | This is not part of the current roadmap. RetroDECK’s build system is based entirely on Flatpak and relies on Flathub for distribution. The team is not large enough to maintain alternative package formats nor do we see any need to in this moment. |
 
 
 ---
@@ -92,8 +92,11 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 |--------------|------------|
 | **What is Flatpak?** | Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux. It ensures consistent behavior across distributions and protects apps from system updates. It is the recommended distribution method for immutable systems such as **SteamOS**. <br> Learn more: **[Introduction to Flatpak](https://docs.flatpak.org/en/latest/introduction.html)** |
 | **What is Flathub?** | Flathub is the primary repository for Flatpak applications, offering a wide selection of software that can be installed and updated across all Flatpak-enabled distributions. <br> Visit: **[Flathub](https://flathub.org/)** |
-| **Is RetroDECK sandboxed?** | Yes. RetroDECK writes only to:<br>• `~/retrodeck/` (userdata)<br>• `~/.var/net.retrodeck.retrodeck/` (configs & defaults)<br>This isolation prevents conflicts with other systems. Uninstalling RetroDECK does *not* remove your `~/retrodeck/` folder. |
-| **Why does RetroDECK need `filesystem=host` permission?** | This permission is required to access `/media` and `/mnt`, enabling users to load files from SD cards and external drives. Flathub developers recommended increasing the permission due to the needs of modern gaming devices. More granular Flatpak permissions are planned for the future, and RetroDECK will adopt them once available. |
+| **Is RetroDECK sandboxed?** | Yes. RetroDECK writes only to:<br>• `retrodeck/` (userdata)<br>• `.var/net.retrodeck.retrodeck/` (configs & defaults)<br>This isolation prevents conflicts with other systems. Uninstalling RetroDECK does *not* remove your `retrodeck/` folder. |
+| **Why does RetroDECK require the `filesystem=home` permission?** | This permission allows RetroDECK to access the user's home directory, enabling users to move, store, and manage RetroDECK data and game files via the RetroDECK Configurator, and a full overview of all permissions is available in the [net.retrodeck.retrodeck.yml](https://github.com/RetroDECK/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) file on GitHub. |
+
+
+
 
 ---
 
@@ -104,7 +107,8 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **Question** | **Answer** |
 |--------------|------------|
 | **Are you related to ES-DE?** | RetroDECK and ES-DE are separate projects, but they collaborate to provide the best possible experience. ES-DE includes RetroDECK-specific integrations. <br> Learn more: **[ES-DE FAQ](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md#what-is-the-relationship-between-es-de-and-retrodeck)** |
-| **Will you add another frontend like Pegasus in the future?** | Possibly. The team is open to exploring additional frontend options. |
+| **Will you add another frontend like Pegasus in the future?** | Possibly. The team is open to exploring additional frontend options, but we are currently highly dependent on ES-DE for the internal framework. |
+| **How does RetroDECK differ from ES-DE and decide which components to include?** | RetroDECK focuses on a curated selection of the best components rather than including all components supported by ES-DE. It integrates additional components that are hard to compile for end-users, such as XRoar, directly into the app, and supports custom formats like `.doom` (UZDoom) and `.bor` (OpenBOR), among others, for easier use and management. Occasionally, RetroDECK also includes components outside ES-DE’s scope to further enhance the user experience. |
 | **Why create RetroDECK when EmuDeck, Batocera, and others exist?** | RetroDECK predates EmuDeck. Each solution has its own philosophy. RetroDECK aims to sit between EmuDeck and Batocera by providing a **Batocera-like integrated experience** directly inside your OS, without replacing it. |
 | **Are you related to Batocera?** | No. RetroDECK and Batocera are separate projects, but they share knowledge and maintain positive dialogue. |
 | **Can I symlink Batocera ROM folders to RetroDECK?** | Batocera uses different system folder names. Symlinking entire ROM folders is not recommended; link them **system-by-system** instead. |
@@ -112,7 +116,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **What’s the difference between RetroDECK and EmuDeck?** | **EmuDeck**: A shell script interface that installs external emulators and plugins into your system. <br> **RetroDECK**: An all-in-one Flatpak application with all supported systems internally contained and configurable. |
 | **Can I install RetroDECK if I already have EmuDeck?** | Yes. RetroDECK is entirely standalone and can run alongside EmuDeck. |
 | **Can I symlink EmuDeck ROMs to RetroDECK?** | Maybe. As with Batocera, symlink **system-by-system**, not the entire ROM folder tree. |
-| **Batocera, EmuDeck, RetroDECK - I still don’t get it.** | • **Batocera** – A full operating system for emulation. Replaces or boots separately from your main OS.<br>• **EmuDeck** – A setup script that configures standalone emulators within your OS.<br>• **RetroDECK** – An all-in-one Retro Gaming Platform Flatpak delivering a preconfigured environment while staying within your existing OS, keeping all userdata in `~/retrodeck/`. |
+| **Batocera, EmuDeck, RetroDECK - I still don’t get it.** | • **Batocera** – A full operating system for emulation. Replaces or boots separately from your main OS.<br>• **EmuDeck** – A setup script that configures and installs standalone emulators within your OS.<br>• **RetroDECK** – An all-in-one Retro Gaming Platform Flatpak delivering a preconfigured environment while staying within your existing OS, keeping all userdata in `retrodeck/`. |
 
 ---
 
@@ -131,6 +135,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **When does the version after the upcoming version come out?** | After the upcoming version. |
 | **When will version 1.0 be released?** | In the future. |
 | **Can I manually add a system RetroDECK doesn’t support yet?** | Not easily. RetroDECK is sandboxed and designed to include all relevant components internally. The best approach is to wait for official support or contribute to development. |
+| **Is RetroDECK just about emulation?** | No. RetroDECK is a full retro gaming platform designed to provide a complete retro gaming experience by integrating a variety of components, including: clients, ports, emulators, multi-emulators, systems, and more. |
 
 ---
 
@@ -140,17 +145,18 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 | **Question** | **Answer** |
 |--------------|------------|
-| **Do I need to partition or format my Disk/SD Card for RetroDECK?** | No. RetroDECK installs as a Flatpak. Simply install it like any other application and launch it from your desktop or Steam library. |
-| **Where is RetroDECK installed?** | **`~/retrodeck`** – Stores user data (ROMs, saves, mods, themes). This folder remains after uninstallation.<br> **`~/.var/app/net.retrodeck.retrodeck`** – Contains the main Flatpak, emulators, and settings. This folder **is removed** when uninstalling RetroDECK. |
+| **Do I need to partition or format my Disk for RetroDECK?** | No. RetroDECK installs as a Flatpak. Simply install it like any other application and launch it from your desktop or Steam library. |
+| **Where is RetroDECK installed?** | **`retrodeck/`** – Stores user data (ROMs, saves, mods, themes and more). This folder remains after uninstallation.<br> **`.var/app/net.retrodeck.retrodeck`** – Contains the main Flatpak and settings. This folder **is removed** when uninstalling RetroDECK. |
 | **Can I move the RetroDECK folders?** | Yes. You can move them using the **Move Tools** in the RetroDECK Configurator. <br> Read more: **[RetroDECK Configurator 🛠️](../wiki_configurator_guides/configurator/configurator.md)** |
 | **Is there a way to reset RetroDECK?** | Yes. The RetroDECK Configurator includes several reset functions that allow you to reset different parts of the software. <br> Read more: **[RetroDECK Configurator 🛠️](../wiki_configurator_guides/configurator/configurator.md)** |
 | **How do I update RetroDECK?** | Follow the instructions in: **[How-to: Update RetroDECK](../wiki_management/retrodeck-update/retrodeck-update.md)** |
 | **How do I remove RetroDECK?** | Follow the instructions in: **[How-to: Remove RetroDECK](../wiki_management/retrodeck-remove/retrodeck-remove.md)** |
 | **How do I move RetroDECK to a new device?** | Follow the instructions in: **[How-to: Move RetroDECK to a New Device](../wiki_management/retrodeck-move/retrodeck-move.md)** |
-| **Where can I find logfiles?** | Log files are located in the folder: **`retrodeck/.logs/`** |
+| **Where can I find logfiles?** | Log files are located in the hidden folder: **`retrodeck/.logs/`** |
 | **Does RetroDECK ship with stable or nightly versions of systems?** | RetroDECK includes whichever version is best for compatibility and performance. For example:<br>• **RPCS3** → Nightly builds<br>• **RetroArch** → Stable releases (nightly cores only when no stable version exists) |
 | **How can I recover deleted folders (BIOS, Saves, etc.) but not the files?** | Perform a **Full Reset** using the Configurator and redo the initial setup. This will recreate all missing folder structures. |
 | **My `.bin + .cue` games appear twice in ES-DE - why?** | ES-DE detects both the `.bin` and `.cue` files. Use the built-in compression tool in the Configurator to convert them to `.chd`. This eliminates duplicate entries and saves storage space. |
+| **How does RetroDECK handle mods, texture packs, shaders, cheats, and miscellaneous data?** | RetroDECK makes it easy to apply and manage mods, texture packs, shaders, and cheats by exposing dedicated folders in `retrodeck/texture_packs/`, `retrodeck/mods/`, `retrodeck/shaders/`, and `retrodeck/cheats/`. Additionally, a `retrodeck/storage/` folder serves as a catch‑all for miscellaneous user-accessible data, eliminating the need to search for internal Flatpak locations. |
 
 ---
 

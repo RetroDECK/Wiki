@@ -28,10 +28,10 @@ The build process is intensive and time consuming. About three hours on a machin
 From time to time to it can appear to lockup up your device especially during the build process.
 
 ### Download/Clone RetroDeck
-Clone the repository. The --recursive option is used to ensure the RetroDECK sub modules are download(ie Emulators from other projects). The only element that is not downloaded for changing/editing is the [RetroDECK fork of ES-DE](https://github.com/XargonWan/RetroDECK-ES-DE). That should only be needed if you wish to add a new emulator via ES-DE.
+Clone the repository. The --recursive option is used to ensure the RetroDECK sub modules are download(ie Emulators from other projects). The only element that is not downloaded for changing/editing is the [RetroDECK fork of ES-DE](https://github.com/RetroDECK/RetroDECK-ES-DE). That should only be needed if you wish to add a new emulator via ES-DE.
 
 ```bash
-git clone --recursive https://github.com/XargonWan/RetroDECK
+git clone --recursive https://github.com/RetroDECK/RetroDECK
 ```
 If you missed doing a recursive download then can also use the command below. The command is also initiated as part of the build process.
 
@@ -86,13 +86,13 @@ This section covers installing and using self-hosted [github runners.](https://d
   - Also logs progress to actions-runner/_diag/ 
   - Greater stability for build process.
 
-The RetroDECK project has created this Github action. You should have a cloned version of this [workflow file.](https://github.com/XargonWan/RetroDECK/blob/main/.github/workflows/cooker-selfhosted.yml) This file is used for cooker builds and manual builds. If you build against a cooker build it should auto build when you push your changes to your own repository.
+The RetroDECK project has created this Github action. You should have a cloned version of this [workflow file.](https://github.com/RetroDECK/RetroDECK/blob/main/.github/workflows/cooker-selfhosted.yml) This file is used for cooker builds and manual builds. If you build against a cooker build it should auto build when you push your changes to your own repository.
 
 The links provided below are for an actual build on the RetroDECK repository and give a useful view of what to expect during the build process.
 
 
-[Link to an actual cooker build.](https://github.com/XargonWan/RetroDECK/actions/runs/8940312603)
-[Link to full log off the build.](https://github.com/XargonWan/RetroDECK/actions/runs/8940312603/job/24558182428)
+[Link to an actual cooker build.](https://github.com/RetroDECK/RetroDECK/actions/runs/8940312603)
+[Link to full log off the build.](https://github.com/RetroDECK/RetroDECK/actions/runs/8940312603/job/24558182428)
 
 The image below shows that the build is complete and that an artifact file has been created that can be downloaded for testing. The Action also creates a local flatpak build file. 
 
@@ -134,11 +134,11 @@ A link to the RetroDECK manifest yml can be found below. If you have download Re
 RetroDECK/net.retrodeck.retrodeck.yml
 ```
 
-[RetroDECK current manifest](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml)
+[RetroDECK current manifest](https://github.com/RetroDECK/RetroDECK/blob/main/net.retrodeck.retrodeck.yml)
 
 An example of a simple build is shown below. Which downloads the Vita3K emulator latest zip and then copies/links the files for use within RetroDECK.
 
-Please note the sha256 this is populated by this [script.](https://github.com/XargonWan/RetroDECK/blob/main/automation_tools/pre_build_automation.sh) Which pulls in this [cfg file.](https://github.com/XargonWan/RetroDECK/blob/main/automation_tools/automation_task_list.cfg) 
+Please note the sha256 this is populated by this [script.](https://github.com/RetroDECK/RetroDECK/blob/main/automation_tools/pre_build_automation.sh) Which pulls in this [cfg file.](https://github.com/RetroDECK/RetroDECK/blob/main/automation_tools/automation_task_list.cfg) 
 
 If you want to add a new emulator then this also a basic/simple example how this works.
 

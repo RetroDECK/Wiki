@@ -54,7 +54,7 @@ Take a look at the following question and try to answer them
 
 ### Clone RetroDeck
 
-- Fork and clone the main project [RetroDeck Github](https://github.com/XargonWan/RetroDECK/fork)
+- Fork and clone the main project [RetroDeck Github](https://github.com/RetroDECK/RetroDECK/fork)
 - Adding an emulator would be classed as a **new feature** so create a branch based of the label feat, ie: `feat/new_emulator_name`
 - An example for **ruffle** can be seen [Github: Feat Ruffle](https://github.com/monkeyx-net/RetroDECK_UK/tree/feat/ruffle)
 - Initial testing can be done via the Debug Mode
@@ -137,7 +137,7 @@ If it then asks to upgrade the cooker as well. Then say no.
 
 In order for your new system to show in ES-DE it need to be added to ES-DE, which has been forked by the project.
 
-Fork and clone the RetroDECK ES-DE [Github: ES-DE Fork](https://github.com/XargonWan/RetroDECK-ES-DE/fork)
+Fork and clone the RetroDECK ES-DE [Github: ES-DE Fork](https://github.com/RetroDECK/RetroDECK-ES-DE/fork)
 
 Once cloned cd into your cloned directory and create a new branch and then 
 

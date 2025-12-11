@@ -99,7 +99,7 @@ Even the core application it self is a module inside the flatpak that needs to b
 
 RetroDECK flatpak's name is `net.retrodeck.retrodeck` and it's defined in the manifest file.
 
-[net.retrodeck.retrodeck.yml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) in our manifest the RetroDECK.
+[net.retrodeck.retrodeck.yml](https://github.com/RetroDECK/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) in our manifest the RetroDECK.
 
 ## Flatpak Folder Structure
 
@@ -139,7 +139,7 @@ To be published on Flathub a metainfo `.xml` file is needed that contains all th
 
 ### RetroDECK: Metainfo file
 
-[net.retrodeck.retrodeck.metainfo.xml](https://github.com/XargonWan/RetroDECK/blob/main/net.retrodeck.retrodeck.metainfo.xml) on our GitHub repository's root.
+[net.retrodeck.retrodeck.metainfo.xml](https://github.com/RetroDECK/RetroDECK/blob/main/net.retrodeck.retrodeck.metainfo.xml) on our GitHub repository's root.
 
 ---
 

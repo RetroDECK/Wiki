@@ -195,7 +195,7 @@ To stay up-to-date with the latest RetroDECK developments:
 
 - **Follow us on social media** – Links are available on the [Wiki Start Page](../index.md).  
 - **Check the RetroDECK Blog** – Read updates and announcements on the [blog](../blog/index.md).  
-- **Explore GitHub issues** – See ongoing work, planned features, and community discussions on [GitHub](https://github.com/XargonWan/RetroDECK/issues/).  
+- **Explore GitHub issues** – See ongoing work, planned features, and community discussions on [GitHub](https://github.com/RetroDECK/RetroDECK/issues/).  
 
 ## Patch Notes and Known Issues
 

@@ -166,8 +166,8 @@ Thanks everyone!
 
 [Discord](https://discord.gg/WDc5C9YWMx)
 
-[Github](https://github.com/XargonWan/RetroDECK)
+[Github](https://github.com/RetroDECK/RetroDECK)
 
-[Wiki](https://github.com/XargonWan/RetroDECK/wiki)
+[Wiki](https://github.com/RetroDECK/RetroDECK/wiki)
 
 [Donations](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)

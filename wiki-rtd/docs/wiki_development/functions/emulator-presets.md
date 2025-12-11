@@ -5,7 +5,7 @@
 
 `Presets` are really just collections of config changes across one or more emulators.
 
-RetroDECK has pre-configured configs for all emulators [RetroDECK: Emu-Configs](https://github.com/XargonWan/RetroDECK/tree/main/emu-configs) that sets up things like basic controller bindings, optimal graphics settings etc.
+RetroDECK has pre-configured configs for all emulators [RetroDECK: Emu-Configs](https://github.com/RetroDECK/RetroDECK/tree/main/emu-configs) that sets up things like basic controller bindings, optimal graphics settings etc.
 
 The pre-configured settings are considered the `default` states, and by default all `preset` changes are disabled.
 
@@ -34,7 +34,7 @@ This generates an override file in a path we also need to know [RetroArch Overri
 
 ## Where do you store the presets?
 
-Once we have the settings that need to change for the new `preset`, and the core override path for RA cores if needed, they are stored in emulator or core-specific files that hold all settings for all `preset`s for that emulator [RetroDECK: Presets](https://github.com/XargonWan/RetroDECK/tree/main/emu-configs%2Fdefaults%2Fretrodeck%2F`preset`s) These files contain any setting changes needed for any `preset` for each emulator to be considered `enabled`.
+Once we have the settings that need to change for the new `preset`, and the core override path for RA cores if needed, they are stored in emulator or core-specific files that hold all settings for all `preset`s for that emulator [RetroDECK: Presets](https://github.com/RetroDECK/RetroDECK/tree/main/emu-configs%2Fdefaults%2Fretrodeck%2F`preset`s) These files contain any setting changes needed for any `preset` for each emulator to be considered `enabled`.
 
 ## Enable a preset
 

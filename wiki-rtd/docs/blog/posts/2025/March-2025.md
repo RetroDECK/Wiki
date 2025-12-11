@@ -113,9 +113,9 @@ Thanks everyone!
 
 [Matrix](https://matrix.to/#/#retrodeck:matrix.org) 
 
-[GitHub](https://github.com/XargonWan/RetroDECK) 
+[GitHub](https://github.com/RetroDECK/RetroDECK) 
 
-[Wiki](https://github.com/XargonWan/RetroDECK/wiki) 
+[Wiki](https://github.com/RetroDECK/RetroDECK/wiki) 
 
 [Donations](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/) 
 

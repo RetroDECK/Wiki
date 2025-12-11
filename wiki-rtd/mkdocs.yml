@@ -11,7 +11,7 @@ repo_name: RetroDECK/RetroDECK
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: "Copyright &copy <br> CC BY-SA 4.0 <br> 2022-2026 RetroDECK Team"
+copyright: "Copyright &copy 2022-2026 RetroDECK Team"
 
 # Theme Configuration
 theme:
@@ -150,6 +150,22 @@ nav:
 
   - RetroDECK Blog 📬:
     - blog/index.md
+
+  - Credits, Contributing & Donations ❤️:
+
+    - How to Contribute?: wiki_credits_social/contibute-retrodeck.md
+    - Donations & Licenses: wiki_credits_social/donations-licenses.md
+
+    - Social Rules:
+      - Discord/Matrix: wiki_credits_social/social/discord-matrix.md
+      - Lemmy/Reddit: wiki_credits_social/social/lemmy-reddit.md
+
+    - Credits:
+      - Credits - RetroDECK Team: wiki_credits_social/credits/credits-team.md
+      - Credits - RetroDECK Alumni: wiki_credits_social/credits/credits-alumni.md
+      - Credits - Art: wiki_credits_social/credits/credits-art.md
+      - Credits - Additional: wiki_credits_social/credits/credits-additional.md
+      - Credits - Collaborators: wiki_credits_social/credits/credits-collaborators.md
 
   - Controller Vault 🎮:
 
@@ -470,22 +486,6 @@ nav:
     - Tools & Functions:
       - Compression: wiki_development/functions/compression.md
       - Steam Sync: wiki_development/functions/steam-sync.md
-
-  - Credits, Contributing & Donations ❤️:
-
-    - How to Contribute?: wiki_credits_social/contibute-retrodeck.md
-    - Donations & Licenses: wiki_credits_social/donations-licenses.md
-
-    - Social Rules:
-      - Discord/Matrix: wiki_credits_social/social/discord-matrix.md
-      - Lemmy/Reddit: wiki_credits_social/social/lemmy-reddit.md
-
-    - Credits:
-      - Credits - RetroDECK Team: wiki_credits_social/credits/credits-team.md
-      - Credits - RetroDECK Alumni: wiki_credits_social/credits/credits-alumni.md
-      - Credits - Art: wiki_credits_social/credits/credits-art.md
-      - Credits - Additional: wiki_credits_social/credits/credits-additional.md
-      - Credits - Collaborators: wiki_credits_social/credits/credits-collaborators.md
 
   - Archive 🗄️:
 

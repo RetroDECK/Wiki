@@ -14,7 +14,7 @@ This is WIP
 
 ## Cooker builds
 
-Every time a commit or a PR is done, a GitHub action automatically compiles the snapshot with the latest changes and publish them on the [cooker repository](https://github.com/XargonWan/RetroDECK-cooker).
+Every time a commit or a PR is done, a GitHub action automatically compiles the snapshot with the latest changes and publish them on the [cooker repository](https://github.com/RetroDECK/RetroDECK-cooker).
 This can be publicly tested and if it's stable will be merged in the main branch creating a new release..
 
 
@@ -35,7 +35,7 @@ Read more over at Debug Mode
 
 ## Manual installation instructions
 This method is usually for the beta/cooker testers:
-- Download the RetroDECK.flatpak from the [release page](https://github.com/XargonWan/RetroDECK/releases) or from the [cooker release page](https://github.com/XargonWan/RetroDECK-cooker/releases) (be sure to download the correct version, check the date as they're not ordered unfortunately).
+- Download the RetroDECK.flatpak from the [release page](https://github.com/RetroDECK/RetroDECK/releases) or from the [cooker release page](https://github.com/RetroDECK/RetroDECK-cooker/releases) (be sure to download the correct version, check the date as they're not ordered unfortunately).
 - `cd` where the downloded file is located
 - `flatpak install RetroDECK.flatpak` or whatever the filename is
 
@@ -79,7 +79,7 @@ Please check the following link link over ES-DE <br>
 
 ```
 cd ~
-git clone --recursive https://github.com/XargonWan/RetroDECK.git
+git clone --recursive https://github.com/RetroDECK/RetroDECK.git
 cd RetroDECK
 git submodule init
 git submodule update

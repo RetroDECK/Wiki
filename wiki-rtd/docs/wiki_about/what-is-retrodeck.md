@@ -36,14 +36,24 @@ A client is a system or application that connects to a server or online service 
 
 ### Emulators
 
-An emulator is software that replicates the behavior of a specific system, whether it is real hardware (like a console or arcade machine) or a virtual/fantasy platform. Emulators allow games or applications designed for that system to run on a different device or operating environment. They aim to reproduce the original system’s behavior as accurately as possible, including its quirks, limitations, and performance characteristics.
+An **emulator** is a software application designed to replicate the hardware and behavior of a specific system—whether it is a physical device (such as a game console or arcade board) or a virtual/fantasy platform. Emulators enable software created for one system to run on another by accurately reproducing the original system’s functionality, quirks, limitations, and performance characteristics.
 
 **Examples:** 
 
-- **RetroArch** – Multi-emulator frontend.  
 - **PCSX2** – PlayStation 2 emulator.  
+- **Vita3K** – PlayStation Vita emulator.  
 - **Pico-8** – Fantasy console.  
-- **Vita3k** – PSVITA emulator.  
+
+
+### Multi-Emulators
+
+A **multi-emulator** (or multi-system emulator) is a platform capable of running multiple system cores or modules, allowing users to emulate a wide variety of consoles and hardware through a single interface. These tools often focus on modularity, extensibility, and unified configuration across systems.
+
+**Examples:** 
+
+- **RetroArch** – Multi-emulator frontend supporting numerous systems through Libretro cores.  
+- **MAME** – MAME is a multi-purpose emulation framework specializing in arcade hardware preservation.  
+- **ares** – Multi-system emulator focused on accuracy and preservation.
 
 ### Engines
 

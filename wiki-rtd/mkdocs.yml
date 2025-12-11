@@ -11,7 +11,7 @@ repo_name: RetroDECK/RetroDECK
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: "Copyright &copy; 2025 RetroDECK Team"
+copyright: "Copyright &copy <br> CC BY-SA 4.0 <br> 2022-2026 RetroDECK Team"
 
 # Theme Configuration
 theme:

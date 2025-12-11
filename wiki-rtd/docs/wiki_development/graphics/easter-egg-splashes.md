@@ -63,12 +63,13 @@ The Boot Logo or Boot Splashes
 
 **Artists that contributed:**<br>
 
-Everyone here contributed in various ways in the first and second iterations of the logo, colors, icons, steamgridDB or concepts.
+The following contributors played important roles in the development of the first and second iterations of the RetroDECK logo, including work on color schemes, iconography, SteamGridDB assets, and overall conceptual design:
 
 [Pixelguin](https://github.com/Pixelguin)<br>
 [XargonWan](https://github.com/XargonWan)<br>
 [antfortytwo](https://github.com/anthonycaccese/)<br>
 [MorGuux](https://github.com/MorGuux)<br>
+[Weestuarty](https://github.com/Weestuarty)
 Víctor R<br>
 
 ### Xmas Holiday Period

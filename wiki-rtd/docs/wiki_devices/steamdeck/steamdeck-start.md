@@ -244,5 +244,5 @@ RetroDECK is community-driven-explore, learn, or join in!
 
 - **Development updates:** [RetroDECK Blog](../../blog/index.md)  
 - **Social links:** [Wiki Start Page](../../index.md)  
-- **Contribute:** [How to Contribute](../../wiki_about/contibute-retrodeck.md)
-- **Donate to FOSS Space:** [How to Contribute](../../wiki_about/donations-licenses.md)
+- **Contribute:** [How to Contribute](../../wiki_credits_social/contibute-retrodeck.md)
+- **Donate to FOSS Space:** [How to Contribute](../../wiki_credits_social/donations-licenses.md)

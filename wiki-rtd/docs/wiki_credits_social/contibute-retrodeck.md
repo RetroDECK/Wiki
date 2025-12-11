@@ -12,7 +12,7 @@ Yes! Everybody is welcome to contribute in any way possible if it is personal ti
 | **Support** | - Help users troubleshoot issues across communication platforms<br>- Provide friendly and clear guidance |
 | **Early Testing / Testers** | - Test cooker and pre-release builds<br>- Report bugs, issues, and usability problems<br>- Provide suggestions for improvements |
 | **Experimenting & Tweaking** | - Discover optimal configurations for emulators and engines<br>- Share findings and improvements with the team |
-| **Donations** | - Support the project financially via the [Donations & Licenses 🎁](../wiki_about/donations-licenses.md).|
+| **Donations** | - Support the project financially via the [Donations & Licenses 🎁](donations-licenses.md).|
 | **Everyone** | - Be kind and follow community rules<br>- Spread the word about RetroDECK<br>- Engage with the community<br>- Offer constructive suggestions |
 
 ---

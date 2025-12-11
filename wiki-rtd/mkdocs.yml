@@ -243,10 +243,6 @@ nav:
       - Xbox One/S/X - Xbox Wireless Controller: wiki_controllers/xbox/xbox-wireless.md
       - Xbox S/X - Xbox Elite Series 2: wiki_controllers/xbox/xbox-wireless-elite.md
 
-  - Contributing & Donations 🤝:
-      - How to Contribute?: wiki_about/contibute-retrodeck.md
-      - Donations & Licenses: wiki_about/donations-licenses.md
-
   - FAQ ❔: wiki_general/faq.md
 
   - Guides - RetroDECK Controls & Hotkeys 🎮:
@@ -475,7 +471,10 @@ nav:
       - Compression: wiki_development/functions/compression.md
       - Steam Sync: wiki_development/functions/steam-sync.md
 
-  - Credits ❤️:
+  - Credits, Contributing & Donations ❤️:
+
+    - How to Contribute?: wiki_credits_social/contibute-retrodeck.md
+    - Donations & Licenses: wiki_credits_social/donations-licenses.md
 
     - Social Rules:
       - Discord/Matrix: wiki_credits_social/social/discord-matrix.md

@@ -15,6 +15,9 @@
 | **Steam Sync** | Controller templates sometimes fail to associate with Steam entries. | Users must assign templates manually if this occurs. |
 | **ES-DE** | Configuration submenu does not support translations yet. | Translations planned for a future update. |
 | **Dolphin / PrimeHack** | Input mapping and GUI issues occur under Wayland. | Disable **Wayland Windowing System** via *Flatseal* for RetroDECK. |
+| **RetroArch** | UI overscales on Wayland when OS scaling >100%. | Open RA via **RetroDECK Configurator**.<br>Go to **Settings → Video → Output → Video Driver** → switch from **Vulkan** to **GL**.<br>Then **Main Menu → Configuration File → Save Current Configuration** and exit RA. |
+
+
 
 ---
 

@@ -180,13 +180,12 @@ The file `Tales of Innocence R.psvita` contains:
 
 ---
 
-## Installing Custom Textures 
+## Adding Texture Packs
 
 Follow these steps to install custom textures for your games in Vita3K.
 
 This guide uses **Tales of Innocence R** as an example.
 Before starting, make sure you know how to obtain the game’s **Title ID** above.
-
 
 ### Step 1: Preparing the Texture Packs Folder
 
@@ -221,12 +220,11 @@ Open **Vita3K** within the RetroDECK Configurator.
 3. Set **Import Textures** to `Enable`.
 4. Select **Save and Exit** to apply the changes.
 
-
 ---
 
-## Language Settings
+## Configuring Language Settings
 
-### GUI Language
+### Vita3K GUI Language
 
 1. Open **Vita3K** via the **RetroDECK Configurator**.  
 2. Go to **Configuration → Settings → GUI**.

@@ -71,12 +71,13 @@ Or you can put them anywhere as they need to be installed via:
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| Saves Folder |`retrodeck/saves/switch/ryujinx/` or `~/.var/app/net.retrodeck.retrodeck/config/ryubing/bis/user/save/`|      Contains the `nand`, `sdcard` folders, suffers sometimes from symlink issues    |  
+| Saves Folder |`retrodeck/saves/switch/ryujinx/` or `~/.var/app/net.retrodeck.retrodeck/config/ryubing/bis/user/save/`|      Contains the `nand`, `sdcard` folders |
 | Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/ryubing/`         |   Contains most of ryubing internal folders|
 | BIOS Folder | `retrodeck/bios/switch/` | Contains the `firmware`, `keys` folders  |
+| Logs Folder | `retrodeck/logs/switch/Ryubing` | Ryujinx/Logs |
 | Alternate Keys Folder | `~/.var/app/net.retrodeck.retrodeck/config/ryubing/system/` |  |
-| Mods  Folder | `~/.var/app/net.retrodeck.retrodeck/config/ryubing/mods/` |  |
-
+| Mods  Folder | `retrodeck/mods/switch/Ryubing/contents` | Ryujinx/mods/contents/" |
+  
 ---
 
 ## Adding Game Patches
@@ -97,7 +98,7 @@ From within ryubing `Right Click` on a game and select `Open Mods Directory` and
 
 The current mapping for the mods directory is:
 
-`~/.var/app/net.retrodeck.retrodeck/config/ryubing/mods/`
+`retrodeck/mods/switch/Ryubing/contents` 
 
 You can also manged the mods by `Right Click` on a game and select `Manage Mods`
 

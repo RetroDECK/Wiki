@@ -4,7 +4,7 @@ date: 2025-12-XX
 
 --- 
 
-# December 2025: 
+# December 2025: Lucia Preview
 
 Lots of development focused RetroDECK 0.10.0b and 0.11.0b news. 
 
@@ -15,7 +15,10 @@ The RetroDECK Team have been hard at work.
 
 **News**
 
-- 
+- Happy Holidays & Happy New Year
+- 0.10.0b Testing Status
+- Preview: W.I.P. Patch Notes 0.10.0b
+- Preview: 0.11.0b DOSBox-X
 
 <!-- more -->
 
@@ -27,9 +30,50 @@ The RetroDECK Team have been hard at work.
 
 [Donations & Licenses](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)
 
+## Happy Holidays & Happy New Year
 
-## What’s coming next?
+As the final blog post of the year, the team wishes everyone happy holidays to those who celebrate. We also extend warm wishes for a wonderful Lucia Day to our friends in Italy and the Nordic countries, and a Happy New Year to all.
 
+🎅🎁🤶 🎆🧨🎇 🕯️👱‍♀️🕯️
+
+
+---
+
+## 0.10.0b Testing Status
+
+Testing is progressing well thanks to our community testers. A Steam Input related bug was identified, documented, and reported to Valve.
+
+Current efforts are focused on polishing, iteration, and bug fixing, and steady progress is being made.
+
+### Release when?!
+
+**When it’s ready!**
+
+With major holidays approaching, contributors to this volunteer project will have limited availability due to real-life things.
+
+### Throw us a bone! The holidays are coming!
+
+Ok!
+
+A 🎁 in the form of a preview of upcoming changes, see the next section for the patch notes.
+
+---
+
+## Preview: W.I.P. Patch Notes 0.10.0b
+
+Below is a link to the nearly complete patch notes for version 0.10.0b. Please note that these notes are a work in progress and may change before release.
+
+[RetroDECK Patch Notes: 0.10.0b - Dastardly Dansband](https://retrodeck.readthedocs.io/en/latest/wiki_rd_versions/version_0.10.0b/0.10.0b/)
+
+---
+
+## Preview: 0.11.0b DOSBox-X
+
+For version 0.11.0b (the major update following 0.10.0b), we plan to integrate DOSBox-X. Instead of a standard implementation, we aim to provide a **RetroDECK-style experience**.
+
+The goal is to allow Windows 3.1 and 95/98 games to launch directly without navigating the legacy operating systems. Similar to our treatment of OpenBOR and Doom, each game will have its own wrapper to simplify launching.
+
+An early prototype video is available below:
 
 ![type:video](dosbox-x-supercut.webm)
 
@@ -41,7 +85,7 @@ There are more things we are working on, but you will see them in future blog up
 
 And as always if you want to help with development join the 💙-i-want-to-help channel on Discord.
 
-Thanks everyone, our ARMs really hurt now from all that typing! 
+Thank you to everyone for your continued support. Our ARMs are officially worn out from all the typing, we may need to put them in a FRAME'd cast!
 
 //The RetroDECK Team 
 

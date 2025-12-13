@@ -1,6 +1,6 @@
 --- 
 
-date: 2025-12-XX
+date: 2025-12-13
 
 --- 
 
@@ -57,19 +57,19 @@ With major holidays approaching, contributors to this volunteer project will hav
 
 Ok!
 
-A 🎁 in the form of a preview of upcoming changes, see the next section for the patch notes.
+A 🎁 in the form of a preview of upcoming changes, see the next section for the patch notes and a short 0.11.0b preview.
 
 ---
 
-## Preview: W.I.P. Patch Notes 0.10.0b
+## Preview: W.I.P. Patch Notes of 0.10.0b - Dastardly Dansband
 
 Below is a link to the nearly complete patch notes for version 0.10.0b. Please note that these notes are a work in progress and may change before release.
 
-[RetroDECK Patch Notes: 0.10.0b - Dastardly Dansband](https://retrodeck.readthedocs.io/en/latest/wiki_rd_versions/version_0.10.0b/0.10.0b/)
+### 🎁 [RetroDECK Patch Notes: 0.10.0b - Dastardly Dansband](https://retrodeck.readthedocs.io/en/latest/wiki_rd_versions/version_0.10.0b/0.10.0b/) 🎁 
 
 ---
 
-## Preview: 0.11.0b DOSBox-X
+## 🎁 Preview: 0.11.0b DOSBox-X
 
 For version 0.11.0b (the major update following 0.10.0b), we plan to integrate DOSBox-X. Instead of a standard implementation, we aim to provide a **RetroDECK-style experience**.
 

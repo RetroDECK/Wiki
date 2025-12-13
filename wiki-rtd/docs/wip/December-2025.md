@@ -10,6 +10,15 @@ Lots of development focused RetroDECK 0.10.0b and 0.11.0b news.
 
 The RetroDECK Team have been hard at work. 
 
+---
+
+## Happy Holidays & Happy New Year
+
+As the final blog post of the year, the team wishes everyone happy holidays to those who celebrate. We also extend warm wishes for a wonderful Lucia Day to our friends in Italy and the Nordic countries, and a Happy New Year to all.
+
+🎅🎁🤶 🎆🧨🎇 🕯️👱‍♀️🕯️
+
+---
 
 ## Highlights
 
@@ -29,13 +38,6 @@ The RetroDECK Team have been hard at work.
 **Read more here:** 
 
 [Donations & Licenses](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)
-
-## Happy Holidays & Happy New Year
-
-As the final blog post of the year, the team wishes everyone happy holidays to those who celebrate. We also extend warm wishes for a wonderful Lucia Day to our friends in Italy and the Nordic countries, and a Happy New Year to all.
-
-🎅🎁🤶 🎆🧨🎇 🕯️👱‍♀️🕯️
-
 
 ---
 

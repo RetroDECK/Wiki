@@ -85,20 +85,20 @@ There are two ways to install the firmware:
 
 There are two methods of adding the games. For more details read here: [ES-DE RPCS3 Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3)
 
-### Method 1: Game shortcuts .desktop files (recommended and default)
+### Method 1: Game Shortcuts (`.desktop` files) — **Recommended**
 
 <img src="../rpcs3-create-shortcut.png" width="800">
 
 This method can be used for all types of rips/dumps, both directories and installed digital titles. It's the default method for RetroDECK.
 
-1. **Open RPCS3 via the Configurator:** Launch the RPCS3 emulator using the RetroDECK Configurator.
+1. **Open RPCS3:** Open RPCS3 from the RetroDECK Configurator.
 2. **Add the game to RPCS3:** Click on `File` in the menu bar, select `Add Game`, and browse to the location of the game you want to add.
 3. **Verify the game in RPCS3:** The game will now appear in the RPCS3 game list.
 4. **Create a desktop shortcut:** `Right-click` on the game in the RPCS3 game list, select `Manage Game`, and click on `Create Desktop Shortcut`.
 5. **Move the shortcut to the roms/ps3 folder:** This will create a shortcut to the game on your Desktop. Move that shortcut into the `retrodeck/roms/ps3` folder.
 6. **Launch RetroDECK:** The game will now show up in RetroDECK.
 
-### Method 2: Folders as .ps3 files (not recommended)
+### Method 2: Folder-Based Games as `.ps3` Directories — **Not Recommended**
 
 This method can only be used for folder type game dumps. To get the games to show up, you need to rename the folder to end with a `.ps3` file extension.
 
@@ -111,7 +111,7 @@ This method can only be used for folder type game dumps. To get the games to sho
 5. **Rename the folder:** Change the name of the folder so it ends with `.ps3`.
 6. **Launch RetroDECK:** The game will now show up in RetroDECK.
 
-**Example:** 
+### Example
 
 You have a folder dump of a Blu-ray PlayStation 3 game called Hockey World. 
 
@@ -126,12 +126,19 @@ The game will then appear in RetroDECK.
 
 If you want to install some DLC or patch you can do that through RPCS3 itself.
 
-1. **Open RPCS3:** Open RPCS3 from the Configurator.
+
+### Important Note on Installing Game Updates
+
+Game updates must be installed **incrementally and in release order**. For example, updating from version **1.00** to **1.03** requires installing **1.01**, **1.02**, then **1.03**.
+
+### Installing DLC or Patches via RPCS3
+
+1. **Open RPCS3:** Open RPCS3 from the RetroDECK Configurator.
 2. **Navigate to the installation option:** In the RPCS3 interface, go to `File` -> `Install Packages/Raps/Edats`.
 3. **Select the file to install:** In the file browser, navigate and select the file you want to install.
 4. **Launch the game:** The game can be launched via RetroDECK with patches and DLC already installed.
 
-### (OPTIONAL) If you use .ps3 folders
+### Optional: Using `.ps3` Folder Structure
 
 Some users may want to include their DLC or PATCH files inside the game folder for archiving purposes, or just to avoid having these contents spread in the RPCS3 filesystem. It's fully optional but to do so, follow these steps:
 
@@ -140,7 +147,7 @@ Some users may want to include their DLC or PATCH files inside the game folder f
 3. **Move the content:** Move the content of the GAMEID folder into the games folder inside the `retrodeck/roms/ps3/GAMENAME` folder and overwrite & replace the files.
 4. **Remove the old folder:** You can now remove the `retrodeck/bios/rpcs3/dev_hdd0/game/GAMEID` folder as the files have been moved.
 
-**Example:** 
+### Example
 
 The game Hockey World.
 
@@ -156,25 +163,25 @@ The game Hockey World.
 
 The procedure is almost identical to the procedure above.
 
-**NOTE:** On the Steam Deck, this could be easier to do in Desktop Mode. If you want to do it in Game Mode, you need to press the Steam button and switch between windows using the window switcher.
-
 If you want to install some PSN titles, you can do that through RPCS3 itself.
 
-1. **Open RPCS3:** Open RPCS3 from the Configurator.
+### Installing Digital PSN Titles via RPCS3
+
+1. **Open RPCS3:** Open RPCS3 from the RetroDECK Configurator.
 2. **Navigate to the installation option:** In the RPCS3 interface, go to `File` -> `Install Packages/Raps/Edats`.
 3. **Select the file to install:** In the file browser, navigate and select the file you want to install.
 4. **Verify the installation:** The file will be installed inside the games folder on the RPCS3 hard drive under `retrodeck/bios/rpcs3/dev_hdd0/game/GAMEID` where `GAMEID` is unique for each game.
 5. **Install patches or DLC:** Install any patches or DLC for the game by repeating steps 2 and 3 for each file.
 6. **Launch the game:** The game should now show up and be playable inside the ES-DE interface.
 
-### (OPTIONAL) If you use .ps3 folders
+### Optional: Using `.ps3` Folder Structure
 
 Similarly to how it is written above with the DLC and PATCHES, the user can decide to move the digital games outside the RPCS3 filesystem. To do so:
 
 1. **Move the digital games folder:** After the game is ready, move the digital games folder from `retrodeck/bios/rpcs3/dev_hdd0/game/GAMEID` to `retrodeck/roms/ps3`.
 2. **Rename the folder:** Rename the folder to the name of the game and add the `.ps3` file extension to the end of the folder.
 
-**Example:**
+### Example
 
 1. **Install the digital game:** You installed a file that contained the digital game `Hockey World 2`, which created a folder called `BCA123456` under `retrodeck/bios/rpcs3/dev_hdd0/game/`.
 2. **Move the folder:** After that, you moved `BCA123456` from `retrodeck/bios/rpcs3/dev_hdd0/game/` to `retrodeck/roms/ps3`.
@@ -212,3 +219,34 @@ To solve it
 ```
 
 3. Reboot your device
+
+---
+
+
+## Netplay Configuration Guide
+
+### Supported Titles
+
+See the **[RPCN Compatibility List](https://wiki.rpcs3.net/index.php?title=RPCN_Compatibility_List)** for a community-maintained overview of PlayStation 3 titles tested for RPCN netplay.
+
+### Global Configuration
+
+1. **Open RPCS3:** Open RPCS3 from the RetroDECK Configurator.
+2. Go to **Configuration → RPCN → Account**.
+3. Set **Server** to **Official RPCN Server**.
+4. Select **Create Account** and complete the username, password, and email prompts.
+5. Confirm the details when prompted.
+6. Retrieve the RPCN token sent to your email, paste it into the **Token** field, and confirm.
+7. Use **Test Account** to verify successful setup.
+
+### Game-Specific Configuration
+
+1. **Open RPCS3:** Open RPCS3 from the RetroDECK Configurator.
+2. Right-click the desired game and select **Create Custom Configuration**.
+3. Open the **Network** tab.
+4. Set **Network Status** to **Connected**.
+5. Set **PSN Status** to **RPCN**.
+6. Set **DNS** to `8.8.8.8`, unless the game requires a different value.
+7. If required, enter custom server IP or host switches as documented for the game.
+
+---

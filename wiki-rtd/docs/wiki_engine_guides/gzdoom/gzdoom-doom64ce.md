@@ -1,10 +1,11 @@
-# Doom 64 CE
+# Guide: Running Doom 64 CE in RetroDECK
 
-**Doom 64 CE** is a set of overhauled total conversions for **GZDoom**, recreating **PlayStation DOOM** and **DOOM 64** with modern engine capabilities.
+**Doom 64 CE** is a set of overhauled total conversions for **GZDoom**, recreating **PlayStation DOOM** and **DOOM 64** with modern engine features.  
 
-The project builds upon the original **PSX DOOM TC** and **DOOM 64 Retribution**, updating them to fully leverage recent GZDoom versions while introducing features that were not technically feasible at the time of their original release. Significant portions of the codebase are adapted from **GEC Master Edition (DZDoom)**, informed by reverse-engineered game code and existing source ports for accuracy.
+Building on **PSX DOOM TC** and **DOOM 64 Retribution**, it updates the originals to leverage recent GZDoom capabilities and adds features previously unavailable. The codebase incorporates elements from **GEC Master Edition (DZDoom)** and reverse-engineered game code for accuracy.  
 
-Doom 64 CE is designed to be highly modular, offering numerous *optional* enhancements. Players may choose a near-vanilla experience or enable modern visual and gameplay features such as upscaled textures, PBR materials, advanced particle effects, and other enhancements commonly found in contemporary GZDoom mods.
+Highly modular, **Doom 64 CE** allows players to choose a near-vanilla experience or enable enhancements like upscaled textures, PBR materials, and advanced particle effects.
+
 
 ---
 
@@ -38,7 +39,7 @@ Create a folder named **DOOM 64 CE** under one of the following paths:
 
 ---
 
-## Grab DOOM64.WAD (Steam)
+### Grab DOOM64.WAD (Steam)
 
 1. Right-click **DOOM 64** in your Steam library and select.
    **Manage → Browse Local Files**.

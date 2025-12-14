@@ -8,21 +8,25 @@ Doom 64 CE is designed to be highly modular, offering numerous *optional* enhanc
 
 ## Installing Doom 64 CE in RetroDECK
 
-### Prerequisites
+**Prerequisites**
 
 **DOOM64.WAD** from a legal copy of **DOOM 64** (Steam or GOG)
 
 Doom 64 CE requires the original `DOOM64.WAD` to run.
 
+---
+
 ### Download DOOM 64 CE
 
 **Doom 64 CE <latest version> (Full Download)**
 
-Download the latest release from ModDB:  
-[ModDB: DOOM CE](https://www.moddb.com/mods/doom-ce/downloads/)  
+Download the latest release from ModDB:
+[ModDB: DOOM CE](https://www.moddb.com/mods/doom-ce/downloads/)
 Extract the archive to a location of your choice.
 
-## Create the DOOM 64 CE Folder
+---
+
+### Create the DOOM 64 CE Folder
 
 Create a folder named **DOOM 64 CE** under one of the following paths:
 
@@ -30,24 +34,61 @@ Create a folder named **DOOM 64 CE** under one of the following paths:
 
 (Or anywhere under `roms/doom/` within your RetroDECK setup).
 
-## Grab DOOM64.WAD (Steam)
+---
 
-Right-click **DOOM 64** in your Steam library and select  
+### Grab DOOM64.WAD (Steam)
+
+Right-click **DOOM 64** in your Steam library and select
 **Manage → Browse Local Files**.
 
 Copy the `DOOM64.WAD` file to a safe location for later use.
 
-## Open Flips
+---
 
-Open RetroDECK Configurator 
-Open Compoenents 
-Open Flips
-Press Apply Patch
-Go to the doom CE download folder /patcher/ and select the DOOM64.bps and target the `DOOM64.WAD` you copied before. 
+### Apply Flips Patch
 
-This will make a new `DOOM64.WAD` save it into `roms/doom/mods/DOOM 64 CE`
+1. Open **RetroDECK Configurator**.
+2. Go to **Components → Flips**.
+3. Press **Apply Patch**.
+4. Navigate to the Doom 64 CE download folder `/patcher/` and select `DOOM64.bps`.
+5. Set the target to the `DOOM64.WAD` you copied earlier.
+
+This will create a new patched `DOOM64.WAD`. 
+
+Save it into: `roms/doom/mods/DOOM 64 CE`
+
+---
+
+### Add FM Banks and Soundfonts into Storage
+
+Copy the files from the Doom 64 CE package into the following folders:
+
+- `fm_banks` → `storage/gzdoom/audio/fm_banks`
+- `soundfonts` → `storage/gzdoom/audio/soundfonts`
+
+---
 
 
+### Copy the Following Files
+
+Place these files into: `roms/doom/mods/DOOM 64 CE`
+
+```
+DOOM64.CE.ipk3
+DOOM64.CE.Addon.BGM.Extended.pk3
+DOOM64.CE.Addon.GFX.Brightmaps.pk3
+DOOM64.CE.Addon.GFX.Decals.pk3
+DOOM64.CE.Addon.GFX.Extra.pk3
+DOOM64.CE.Addon.GFX.Parallax.pk3
+DOOM64.CE.Addon.GFX.PBR.pk3
+DOOM64.CE.Addon.SFX.HQ.pk3
+brightmaps.pk3
+game_support.pk3
+game_widescreen_gfx.pk3
+lights.pk3
+```
+
+---
 
 ### Create `DOOM 64 CE.doom`
 
@@ -68,3 +109,13 @@ game_support.pk3
 game_widescreen_gfx.pk3
 lights.pk3
 ```
+
+**Optional:** Remove any addon files from the doom file if you prefer a more vanilla experience.
+
+---
+
+### Play DOOM 64 CE
+
+You can now launch your new doom file from RetroDECK and enjoy **DOOM 64 CE**.
+
+

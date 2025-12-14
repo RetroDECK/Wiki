@@ -256,3 +256,13 @@ or
 `My Documents\Saved Games\id Software\DOOM Classic\WADs\`
 
 Then just transfer them with a USB Stick or another way to your Linux machine.
+
+---
+
+## DOOM64.WAD (Steam)
+
+1. Right-click **DOOM 64** in your Steam library and select.
+   **Manage → Browse Local Files**.
+2. Copy the `DOOM64.WAD` file to a safe location.
+
+> Note: While `DOOM64.WAD` can not run as a standard IWAD in GZDoom, it must be patched to be compatible with mods and correctly interpreted as an IWAD.

@@ -310,6 +310,7 @@ nav:
       - GZDoom - General Guide: wiki_engine_guides/gzdoom/gzdoom-guide.md
       - GZDoom - Get started on .doom files: wiki_engine_guides/gzdoom/retrodeck-doomfile.md
       - GZDoom - Get the WADs from bought games: wiki_engine_guides/gzdoom/extract-doom-wads.md
+      - GZDOOM - Running DOOM 64 CE: wiki_engine_guides/gzdoom/gzdoom-doom64ce.md
 
     - IkemenGO / M.U.G.E.N:
       - IkemenGO - General Guide: wiki_engine_guides/ikemengo/ikemengo-guide.md

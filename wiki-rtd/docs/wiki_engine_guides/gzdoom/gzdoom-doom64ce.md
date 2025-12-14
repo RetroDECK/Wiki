@@ -6,9 +6,11 @@ The project builds upon the original **PSX DOOM TC** and **DOOM 64 Retribution**
 
 Doom 64 CE is designed to be highly modular, offering numerous *optional* enhancements. Players may choose a near-vanilla experience or enable modern visual and gameplay features such as upscaled textures, PBR materials, advanced particle effects, and other enhancements commonly found in contemporary GZDoom mods.
 
+---
+
 ## Installing Doom 64 CE in RetroDECK
 
-**Prerequisites**
+#### Prerequisites
 
 **DOOM64.WAD** from a legal copy of **DOOM 64** (Steam or GOG)
 
@@ -36,12 +38,13 @@ Create a folder named **DOOM 64 CE** under one of the following paths:
 
 ---
 
-### Grab DOOM64.WAD (Steam)
+## Grab DOOM64.WAD (Steam)
 
-Right-click **DOOM 64** in your Steam library and select
-**Manage → Browse Local Files**.
+1. Right-click **DOOM 64** in your Steam library and select.
+   **Manage → Browse Local Files**.
+2. Copy the `DOOM64.WAD` file to a safe location.
 
-Copy the `DOOM64.WAD` file to a safe location for later use.
+> Note: While `DOOM64.WAD` can not run as a standard IWAD in GZDoom, it must be patched to be compatible with mods and correctly interpreted as an IWAD.
 
 ---
 

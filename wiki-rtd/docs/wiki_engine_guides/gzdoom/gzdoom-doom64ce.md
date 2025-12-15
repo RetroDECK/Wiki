@@ -1,5 +1,7 @@
 # Guide: Running Doom 64 CE in RetroDECK
 
+<img src="../../../wiki_images/logos/doomce-logo.png" width="150">
+
 **Doom 64 CE** is a set of overhauled total conversions for **GZDoom**, recreating **PlayStation DOOM** and **DOOM 64** with modern engine features.
 
 Building on **PSX DOOM TC** and **DOOM 64 Retribution**, it updates the originals to leverage recent GZDoom capabilities and adds features previously unavailable. The codebase incorporates elements from **GEC Master Edition (DZDoom)** and reverse-engineered game code for accuracy.
@@ -50,6 +52,8 @@ Create a folder named **DOOM 64 CE** under one of the following paths:
 ---
 
 ### Apply Flips Patch
+
+<img src="../../../wiki_images/logos/flips-logo.png" width="25">
 
 1. Open **RetroDECK Configurator**.
 2. Go to **Components → Flips**.

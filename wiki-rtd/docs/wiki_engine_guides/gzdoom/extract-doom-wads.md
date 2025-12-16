@@ -11,14 +11,17 @@ If you are using the **Flatpak version of Steam**, the `~/.local/share/Steam/ste
 
 ---
 
+## DOOM64.WAD (Steam)
 
-## What are the Official Addons wads?
+1. Right-click **DOOM 64** in your Steam library and select.
+   **Manage → Browse Local Files**.
+2. Copy the `DOOM64.WAD` file to a safe location.
 
-[Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
+> Note: While `DOOM64.WAD` can not run as a standard IWAD in GZDoom, it must be patched to be compatible with mods and correctly interpreted as an IWAD.
 
----
+--- 
 
-## 2024 KEX Engine Version
+## 2024 KEX Engine Version (Steam)
 
 Bethesda updated the **DOOM + DOOM II** listin to the new **KEX Engine** as of **2024-08-08**.
 
@@ -26,9 +29,8 @@ The KEX Engine version spreads out the files and assigns a random **BethesdaNet 
 
 ---
 
-### KEX Engine - Steam Version
 
-#### Where are the base core iwads?
+### Where are the base core iwads?
 
 Some are located in:
 
@@ -43,7 +45,7 @@ You can also find the location by
 
 ---
 
-#### Where are the downloaded bnetwads?
+### Where are the downloaded bnetwads?
 
 All of the downloaded bnetwads are located in:
 
@@ -65,6 +67,7 @@ The main game folder contains the following (Master Levels in one wad and Legacy
 | No Rest for the Living   |   Nerve Software                                    |   `NERVE.WAD`        | |
 | The Plutonia Experiment  |   Dario Casali & Milo Casali                        |   `PLUTONIA.WAD`     | |
 | SIGIL                    |   Romero Games                                      |   `SIGIL.WAD`        | |
+| SIGIL II                    |   Romero Games                                      |   `SIGILII.WAD`       | Was added later |
 | TNT: Evilution           |   Team TNT                                          |   `TNT.WAD`          | |
 | Legacy of Rust           |   id Software, Nightdive Studios, MachineGames      |   `ID1.WAD`,  `ID1-WEAP.WAD`, `ID1-RES.WAD`, `ID24RES.WAD`, `IDDM1.WAD` | Uses the new ID24 Standard|
 
@@ -77,8 +80,6 @@ The main game folder contains the following (Master Levels in one wad and Legacy
 
 1. From the **Main Menu**, select a game (e.g., DOOM II) → **Mods Menu** → **Featured Mods**.
 2. For some mods that are no longer on the Featured Mods list, go to **Mods Menu** → **Browse** and search for them to match the Unity Version set.
-
----
 
 #### Where are the BethesdaNet WADs located?
 
@@ -120,7 +121,7 @@ This reveals that `585d6a05-e50c-4ad7-aac7-726d35d23a50.wad` is in fact **SIGILI
 
 ---
 
-#### Addon List with True WAD Names - KEX Engine version
+### Addon List with True WAD Names - KEX Engine version
 
 This list only shows you some of the bnetwads (to match the content of the Unity version).
 
@@ -155,10 +156,11 @@ The `bnetwad id` should tell you what the file is called and also where the file
 
 ## Unity version 2019
 
+### What are the Official Addons wads in Unity?
 
-### Steam
+[Doom Wiki - Official Addons](https://doomwiki.org/wiki/Official_add-ons)
 
-#### Unity version 2019 - Via the Beta Branch
+### Unity version 2019 - Via the Beta Branch
 
 Bethesta updated and removed the unity version as of **2024-08-08**
 
@@ -172,7 +174,7 @@ On Steam you can still access them on the Beta Branch (as of now) by:
 
 ---
 
-#### Steam - Base Core IWADs and DLC Locations
+### Base Core IWADs and DLC Locations (Steam)
 
 | Game     | Type        | Location                                                                                  |
 |----------|------------|-------------------------------------------------------------------------------------------|
@@ -195,7 +197,7 @@ On Steam you can still access them on the Beta Branch (as of now) by:
 
 ---
 
-#### How to Grab the Files?
+### How to Grab the Files?
 
 Each add-on file is located in the `WADs/` folder from the previous step. Each folder is named with an ID number that corresponds to the add-on.
 
@@ -213,7 +215,7 @@ To use it:
 
 ---
 
-#### Addon List with ID - Unity version 
+### Addon List with ID - Unity version 
 
 | Name                     |                      Creator                        |    True WAD name         | ADDON ID |   Comment  |
 | :---                     | :---                                                |        :---:         |  :---:   |       :---:   |
@@ -259,10 +261,3 @@ Then just transfer them with a USB Stick or another way to your Linux machine.
 
 ---
 
-## DOOM64.WAD (Steam)
-
-1. Right-click **DOOM 64** in your Steam library and select.
-   **Manage → Browse Local Files**.
-2. Copy the `DOOM64.WAD` file to a safe location.
-
-> Note: While `DOOM64.WAD` can not run as a standard IWAD in GZDoom, it must be patched to be compatible with mods and correctly interpreted as an IWAD.

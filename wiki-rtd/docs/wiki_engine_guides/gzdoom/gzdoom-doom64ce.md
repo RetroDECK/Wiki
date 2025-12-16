@@ -4,7 +4,7 @@
 
 **Doom 64 CE** is a set of overhauled total conversions for **GZDoom**, recreating **PlayStation DOOM** and **DOOM 64** with modern engine features.
 
-Building on **PSX DOOM TC** and **DOOM 64 Retribution**, it updates the originals to leverage recent GZDoom capabilities and adds features previously unavailable. The codebase incorporates elements from **GEC Master Edition (DZDoom)** and reverse-engineered game code for accuracy.
+Building on **PSX DOOM TC** and **DOOM 64 Retribution**, it updates the originals to leverage recent GZDoom capabilities and adds features previously unavailable.
 
 Highly modular, **Doom 64 CE** allows players to choose a near-vanilla experience or enable enhancements like upscaled textures, PBR materials, and advanced particle effects.
 

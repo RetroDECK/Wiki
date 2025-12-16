@@ -111,7 +111,7 @@ The [IWADs](https://doomwiki.org/wiki/IWAD) GZDoom requires to run are listed be
 | DOOM1.WAD             | Doom                                           |                                 |
 | DOOM2.WAD             | Doom II: Hell on Earth                          |                                 |
 | DOOM2F.WAD            | Doom II French                                 |                                 |
-| DOOM64.WAD            | Doom 64                                        | Needs to be Patched from mods   |
+| DOOM64.WAD            | Doom 64                                        | Needs to be Patched   |
 | DOOM_COMPLETE.PK3     | WadSmoosh Merged Doom                          |                                 |
 | FREEDOOM1.WAD         | Freedoom Phase 1                               |                                 |
 | FREEDOOM2.WAD         | Freedoom Phase 2                               |                                 |

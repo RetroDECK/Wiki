@@ -103,24 +103,40 @@ ES-DE is the default frontend used in RetroDECK.
 
 Scraping enhances your game library with cover art, icons, disc images, videos, and more. ES-DE supports **ScreenScraper** and **TheGamesDB**
 
+### General 
+
 | Topic | Description |
 |------|-------------|
 | **Supported Scraping Services** | • [ScreenScraper](https://www.screenscraper.fr/) <br>• [TheGamesDB](https://thegamesdb.net/) |
 | **Scraping Settings Location** | **ES-DE Menu → Scraping** |
 | **Official Guide** | See the [ES-DE Scraper Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#scraping) for detailed documentation. |
-
-### General Tips
-
-| Topic | Description |
-|------|-------------|
 | **ScreenScraper vs TheGamesDB** | ScreenScraper is recommended in most cases.<br>TheGamesDB may work better for PC titles. |
 | **ScreenScraper Account** | A ScreenScraper account is required.<br>Supporting them on Patreon enables faster downloads, higher daily limits, and priority scraping. |
 | **Account Login** | Log in via **ES-DE Menu → Scraping → Account Settings**. |
 | **Content Selection** | Choose what to scrape under **ES-DE Menu → Scraping → Content Settings**.<br>Each content type may consume several MB per game. |
+
+---
+
+### Scraping Tips
+
+| Topic | Description |
+|------|-------------|
 | **Initial Scrape** | Perform a full scrape of your library first. |
 | **Fix Missing Games** | Enable **Scraping → Other Settings → Interactive Mode → On** and **Auto-Accept Single Game Matches → On**.<br>Then scrape only games missing metadata. |
 | **Name Adjustments** | If scraping fails, try simplifying ROM names (e.g., remove duplicate Japanese/English titles). |
 
+---
+
+### ScreenScraper FAQ
+
+| Question | Answer |
+|---------|--------|
+| **I received a quota-related error after scraping** | ScreenScraper enforces a daily scraping quota, where each scraped item counts toward the daily limit.<br>You can either wait 24 hours for the quota to reset or support ScreenScraper financially to increase your daily quota. |
+| **The server or service is down** | If ScreenScraper is unavailable, check the official [ScreenScraper website](https://www.screenscraper.fr/) for status updates and availability. |
+| **I have donated—how do I get faster scraping?** | You must link your ScreenScraper account with your Patreon account.<br>Refer to the [ScreenScraper Patreon](https://www.patreon.com/screenscraper) page for detailed instructions. |
+| **Scraping is very slow** | ScreenScraper offers multiple donation tiers that increase scraping speed by enabling additional download threads. |
+
+---
 
 ### Scraped Data Management
 
@@ -130,6 +146,8 @@ Scraping enhances your game library with cover art, icons, disc images, videos, 
 | **Move downloaded_media** | Use the **Move RetroDECK** option in the configurator. |
 | **Copy to Another Device** | Yes. Copy the `downloaded_media` folder into the RetroDECK directory on the other device. |
 | **Storage Full After Scraping** | Large media files can quickly consume storage. |
+
+---
 
 ### Storage Cleanup Options
 
@@ -141,7 +159,82 @@ Scraping enhances your game library with cover art, icons, disc images, videos, 
 
 ---
 
-## Manual Media (Without Scraping)
+## ES-DE Scraper Menu Overview
+
+| Section | Description |
+|---------|-------------|
+| **Scrape from** | Select scraper service: ScreenScraper.fr or TheGamesDB.net. |
+| **Scrape these games** | Criteria for which games to scrape:<br>All games, Favorite games, No metadata, No game image, No game video, Folders only.<br>No metadata checks if a description exists; No game image checks for miximage → screenshot → title screen → box cover. |
+| **Scrape these systems** | Choose which systems to scrape. Multiple or all systems can be selected. |
+
+### Account Settings
+
+| Field | Description |
+|-------|-------------|
+| **ScreenScraper username** | Registered username on screenscraper.fr. |
+| **ScreenScraper password** | Registered password (masked). Stored in `es_settings.xml` in clear text. |
+| **Use this account for ScreenScraper** | Enables or disables usage of this account during scraping. Useful for troubleshooting. |
+
+### Content Settings
+
+| Content Type | Description |
+|--------------|-------------|
+| **Game names** | Scrape game names (does not affect filesystem). Used for appearance and sorting. |
+| **Ratings** | Download ratings (ScreenScraper only). |
+| **Other metadata** | Description, release date, developer, publisher, genre, number of players. |
+| **Videos** | Gameplay videos (ScreenScraper only). |
+| **Screenshot images** | Screenshots of gameplay. |
+| **Title screen images** | Screenshot of the title screen. |
+| **Box cover images** | Front box/case art. |
+| **Box back cover images** | Back of box/case. |
+| **Marquee images** | Game logotype for wheels. |
+| **3D box images** | 3D box/case image (ScreenScraper only). |
+| **Physical media images** | Cartridges, disks, tapes, CD-ROMs, etc. |
+| **Fan art images** | Fan-created artwork. |
+| **Game manuals** | PDF manuals (ScreenScraper only). Can be large. |
+
+### Miximage Settings
+
+| Option | Description |
+|--------|-------------|
+| **Miximage resolution** | 1280x960 (default), 1920x1440, 640x480. Lower resolution recommended for weak hardware. |
+| **Miximage file format** | PNG or WebP. WebP is smaller but slower to generate. |
+| **Horizontal / Vertical screenshot fit** | `contain`, `crop`, or `stretch` options. Crop is best for horizontal, contain for vertical. |
+| **Screenshot aspect ratio threshold** | Tolerance for aspect ratio deviations when using crop/contain. Low = strict, High = lenient. |
+| **Blank areas fill color** | Fill color for empty areas when using `contain`. |
+| **Screenshot scaling method** | `Sharp` = nearest-neighbor (retro games), `Smooth` = Lanczos (modern games). |
+| **Box / Physical media size** | Medium, small, or large. |
+| **Generate miximages when scraping** | Enable/disable generation during scraping. |
+| **Overwrite miximages** | Whether to overwrite existing miximages. |
+| **Remove letterboxes/pillarboxes** | Automatically crop black bars from screenshots. |
+| **Rotate horizontally oriented boxes** | Rotate covers printed horizontally (e.g., SNES). |
+| **Include marquee / box / physical media** | Control which images are included in composite miximage.<br>`Use cover image if 3D box is missing` can fallback to 2D box. |
+| **Offline generator** | GUI for generating miximages without scraping. Requires at least a screenshot per game. |
+
+### Other Scraper Settings
+
+| Setting | Description |
+|---------|-------------|
+| **Region** | Region for scraping: Europe, Japan, USA, World, Asia, Australia, Brazil, Canada, China, Germany, France, Italy, Korea, Netherlands, Russia, Sweden, Spain, Taiwan, UK. |
+| **Preferred language** | Language for game descriptions and genres (ScreenScraper only). Falls back to English if unavailable. |
+| **Automatic retries on error** | 0–10 retries (automatic/semi-automatic modes only). |
+| **Retry attempt timer** | 1–30 seconds between retries. |
+| **Hash searches max file size** | Max file size for hash-based search: 32–800 MiB. Larger files fall back to name search. |
+| **Overwrite files and data** | Controls overwriting of metadata and media (does not affect miximages). |
+| **Search using file hashes** | Non-interactive scraper can search using game file hashes for 100% accuracy. |
+| **Search using metadata names** | Use metadata editor names instead of physical filenames for searches. |
+| **Scrape actual folders** | Include folders in multi-scraper (DOS, ScummVM, multi-disc games). |
+| **Interactive mode** | If off, multi-scraper runs fully automatically. |
+| **Auto-accept single game matches** | Automatically confirm searches with a single result (multi-scraper only). |
+| **Respect per-file scraper exclusions** | Overrides per-game exclusions set in metadata editor. |
+| **Exclude folders recursively** | Skip entire folder if parent folder is excluded. |
+| **Convert underscores to spaces** | Replaces `_` with space in game names when searching. |
+| **Remove dots from searches** | Strips `.` from game names in automatic multi-scraper (ScreenScraper only). |
+| **Enable fallback to additional regions** | Scrapes media from additional regions if missing in the selected region (ScreenScraper only). |
+
+---
+
+## Adding Manual Media (Without Scraping)
 
 | Topic | Description |
 |------|-------------|
@@ -185,17 +278,6 @@ screenshots
 titlescreens
 videos
 ```
-
----
-
-## ScreenScraper FAQ
-
-| Question | Answer |
-|---------|--------|
-| **I received a quota-related error after scraping** | ScreenScraper enforces a daily scraping quota, where each scraped item counts toward the daily limit.<br>You can either wait 24 hours for the quota to reset or support ScreenScraper financially to increase your daily quota. |
-| **The server or service is down** | If ScreenScraper is unavailable, check the official [ScreenScraper website](https://www.screenscraper.fr/) for status updates and availability. |
-| **I have donated—how do I get faster scraping?** | You must link your ScreenScraper account with your Patreon account.<br>Refer to the [ScreenScraper Patreon](https://www.patreon.com/screenscraper) page for detailed instructions. |
-| **Scraping is very slow** | ScreenScraper offers multiple donation tiers that increase scraping speed by enabling additional download threads. |
 
 ---
 

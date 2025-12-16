@@ -13,8 +13,7 @@ If you are using the **Flatpak version of Steam**, the `~/.local/share/Steam/ste
 
 ## DOOM64.WAD (Steam)
 
-1. Right-click **DOOM 64** in your Steam library and select.
-   **Manage → Browse Local Files**.
+1. Right-click **DOOM 64** in your Steam library and select: **Manage → Browse Local Files**.
 2. Copy the `DOOM64.WAD` file to a safe location.
 
 > Note: While `DOOM64.WAD` can not run as a standard IWAD in GZDoom, it must be patched to be compatible with mods and correctly interpreted as an IWAD.
@@ -32,16 +31,15 @@ The KEX Engine version spreads out the files and assigns a random **BethesdaNet 
 
 ### Where are the base core iwads?
 
-Some are located in:
+Fnd the location by:
+
+- Right-click **DOOM + DOOM II** in your Steam library and select: **Manage → Browse Local Files**.
+
+Or by browsing to:
 
 `~/.local/share/Steam/steamapps/common/Ultimate Doom/rerelease/`
 
-You can also find the location by
 
-1. `Right Click` on `DOOM + DOOM II` in Steam.
-2. Press `Properties`.
-3. Go to the `Installed Files` tab.
-4. Press the `Browse` button.
 
 ---
 
@@ -166,10 +164,10 @@ Bethesta updated and removed the unity version as of **2024-08-08**
 
 On Steam you can still access them on the Beta Branch (as of now) by:
 
-1. `Right Click` on `DOOM + DOOM II` in Steam.
+1. Right-click **DOOM + DOOM II** in your Steam library.
 2. Press `Properties`.
 3. Go to the `Betas` tab.
-4. Beta Patrticipation change to `Previous re-release 2019 version`
+4. `Beta Participation` change to `Previous re-release 2019 version`
 5. Launch the game and keep following the guide.
 
 ---

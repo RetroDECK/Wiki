@@ -13,15 +13,13 @@ MUD creators can add visual elements or features, while players can script, auto
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[Mudlet: Webpage](https://www.mudlet.org/)
-
-[Mudlet: Wiki](https://wiki.mudlet.org/)
-
-[Mudlet: Packages](https://packages.mudlet.org/)
-
-[Mudlet: Github](https://github.com/Mudlet/Mudlet)
-
-[The Telnet BBS Guide](https://www.telnetbbsguide.com/)
+| Resource | Link |
+|----------|------|
+| Mudlet - Github | [Link](https://github.com/Mudlet/Mudlet) |
+| Mudlet - Packages | [Link](https://packages.mudlet.org/) |
+| Mudlet - Webpage | [Link](https://www.mudlet.org/) |
+| Mudlet - Wiki | [Link](https://wiki.mudlet.org/) |
+| The Telnet BBS Guide | [Link](https://www.telnetbbsguide.com/) |
 
 ---
 

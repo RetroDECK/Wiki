@@ -10,15 +10,14 @@ melonDS, a Nintendo DS emulator.
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[melonDS - Webpage](https://melonds.kuribo64.net/)
+| Resource | Link |
+|----------|------|
+| melonDS - FAQ | [Link](https://melonds.kuribo64.net/faq.php) |
+| melonDS - Forum | [Link](https://melonds.kuribo64.net/board/) |
+| melonDS - Github | [Link](https://github.com/melonDS-emu/melonDS) |
+| melonDS - Webpage | [Link](https://melonds.kuribo64.net/) |
+| melonDS - Wiki | [Link](https://github.com/melonDS-emu/melonDS/wiki) |
 
-[melonDS - Forum](https://melonds.kuribo64.net/board/)
-
-[melonDS - FAQ](https://melonds.kuribo64.net/faq.php)
-
-[melonDS - Wiki](https://github.com/melonDS-emu/melonDS/wiki)
-
-[melonDS - Github](https://github.com/melonDS-emu/melonDS)
 
 ---
 
@@ -75,7 +74,7 @@ Directly into the folder
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

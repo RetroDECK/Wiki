@@ -32,7 +32,7 @@ We also recommend that you add RetroDECK to Steam to utilize Steam Input as ther
 Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you close windows.
 
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

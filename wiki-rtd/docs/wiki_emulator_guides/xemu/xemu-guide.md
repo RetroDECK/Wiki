@@ -10,13 +10,13 @@ A free and open-source application that emulates the original Microsoft Xbox gam
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[xemu Compatibility Guide](https://xemu.app/#compatibility)
+| Resource | Link |
+|----------|------|
+| xemu - Compatibility Guide | [Link](https://xemu.app/#compatibility) |
+| xemu - FAQ | [Link](https://xemu.app/docs/faq/) |
+| xemu - Github | [Link](https://github.com/xemu-project/xemu) |
+| xemu - Webpage | [Link](https://xemu.app/) |
 
-[xemu FAQ](https://xemu.app/docs/faq/)
-
-[xemu Github](https://github.com/xemu-project/xemu)
-
-[xemu Webpage](https://xemu.app/)
 
 ---
 
@@ -60,7 +60,7 @@ Directly into the folder
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

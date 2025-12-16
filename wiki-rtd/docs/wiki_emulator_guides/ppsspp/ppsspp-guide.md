@@ -10,19 +10,16 @@ A PSP emulator that can also upscale textures to make them sharper, and you can 
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[PPSSPP - Webpage](https://www.ppsspp.org/)
+| Resource | Link |
+|----------|------|
+| PPSSPP - Blog | [Link](https://www.ppsspp.org/blog/) |
+| PPSSPP - Docs | [Link](https://www.ppsspp.org/docs/) |
+| PPSSPP - FAQ | [Link](https://www.ppsspp.org/docs/faq/) |
+| PPSSPP - Game Compatibility | [Link](https://report.ppsspp.org/games) |
+| PPSSPP - Getting Started Guide | [Link](https://www.ppsspp.org/docs/getting-started/) |
+| PPSSPP - Github | [Link](https://github.com/hrydgard/ppsspp) |
+| PPSSPP - Webpage | [Link](https://www.ppsspp.org/) |
 
-[PPSSPP - Docs](https://www.ppsspp.org/docs/)
-
-[PPSSPP - Getting Started Guide](https://www.ppsspp.org/docs/getting-started/)
-
-[PPSSPP - Blog](https://www.ppsspp.org/blog/)
-
-[PPSSPP - FAQ](https://www.ppsspp.org/docs/faq/)
-
-[PPSSPP - Game Compatibility](https://report.ppsspp.org/games)
-
-[PPSSPP - Github](https://github.com/hrydgard/ppsspp)
 
 ---
 
@@ -56,7 +53,7 @@ No
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

@@ -10,13 +10,13 @@ Cemu is a Wii U emulator that is able to run most Wii U games and homebrew.
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[Cemu Compatibility Guide](https://compat.cemu.info/)
+| Resource | Link |
+|----------|------|
+| Cemu Compatibility Guide | [Link](https://compat.cemu.info/) |
+| Cemu Github | [Link](https://github.com/cemu-project/Cemu) |
+| Cemu Webpage | [Visit](https://cemu.info/) |
+| Cemu Wiki | [Link](https://wiki.cemu.info/wiki/Main_Page) |
 
-[Cemu Wiki](https://wiki.cemu.info/wiki/Main_Page)
-
-[Cemu Github](https://github.com/cemu-project/Cemu)
-
-[Cemu Webpage](https://cemu.info/)
 
 ---
 
@@ -56,7 +56,7 @@ WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

@@ -10,15 +10,14 @@ RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger.
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[RPCS3 Quickstart Guide](https://rpcs3.net/quickstart)
+| Resource | Link |
+|----------|------|
+| RPCS3 - Github | [Link](https://github.com/RPCS3/rpcs3) |
+| RPCS3 - Quickstart Guide | [Link](https://rpcs3.net/quickstart) |
+| RPCS3 - Save States | [Link](https://wiki.rpcs3.net/index.php?title=Help:Save_State) |
+| RPCS3 - Webpage | [Link](https://rpcs3.net/) |
+| RPCS3 - Wiki | [Link](https://wiki.rpcs3.net/index.php?title=Main_Page) |
 
-[RPCS3 Wiki](https://wiki.rpcs3.net/index.php?title=Main_Page)
-
-[RPCS3 Github](https://github.com/RPCS3/rpcs3)
-
-[RPCS3 Webpage](https://rpcs3.net/)
-
-[RPCS3 Save States](https://wiki.rpcs3.net/index.php?title=Help:Save_State)
 
 ---
 
@@ -70,7 +69,7 @@ There are two ways to install the firmware:
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

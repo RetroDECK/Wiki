@@ -16,11 +16,14 @@ Open Beats of Rage (`OpenBOR`) is a beat 'em up game engine.
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-- [OpenBOR Github](https://github.com/DCurrent/openbor)  
-- [OpenBOR Wiki](https://github.com/DCurrent/openbor/wiki)  
-- [Chronocrash Community](https://www.chronocrash.com/)  
-- [Chronocrash Wiki](https://chronocrash.com/obor/wiki/)  
-- [Chronocrash Forum](https://www.chronocrash.com/forum/)  
+| Resource | Link |
+|----------|------|
+| Chronocrash - Community | [Link](https://www.chronocrash.com/) |
+| Chronocrash - Forum | [Link](https://www.chronocrash.com/forum/) |
+| Chronocrash - Wiki | [Link](https://chronocrash.com/obor/wiki/) |
+| OpenBOR - Github | [Link](https://github.com/DCurrent/openbor) |
+| OpenBOR - Wiki | [Link](https://github.com/DCurrent/openbor/wiki) |
+
 
 ---
 
@@ -55,7 +58,7 @@ To simplify file transfers and ensure compatibility with RetroDECK, both file ex
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

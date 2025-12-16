@@ -16,13 +16,14 @@ It will no longer receive any updates and is working as-is.
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[Duckstation - Webpage](https://www.duckstation.org/)
+| Resource | Link |
+|----------|------|
+| Duckstation - Game Compatibility | [Link](https://docs.google.com/spreadsheets/d/e/2PACX-1vRE0jjiK_aldpICoy5kVQlpk2f81Vo6P4p9vfg4d7YoTOoDlH4PQHoXjTD2F7SdN8SSBLoEAItaIqQo/pubhtml) |
+| Duckstation - Github | [Link](https://github.com/stenzek/duckstation) |
+| Duckstation - Webpage | [Link](https://www.duckstation.org/) |
+| Duckstation - Wiki | [Link](https://www.duckstation.org/wiki/) |
 
-[Duckstation - Wiki](https://www.duckstation.org/wiki/)
 
-[Duckstation - Game Compatibility](https://docs.google.com/spreadsheets/d/e/2PACX-1vRE0jjiK_aldpICoy5kVQlpk2f81Vo6P4p9vfg4d7YoTOoDlH4PQHoXjTD2F7SdN8SSBLoEAItaIqQo/pubhtml)
-
-[Duckstation - Github](https://github.com/stenzek/duckstation)
 
 ---
 
@@ -83,7 +84,7 @@ Directly into the folder
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

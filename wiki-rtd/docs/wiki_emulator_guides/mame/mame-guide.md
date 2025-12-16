@@ -12,13 +12,13 @@ MAME’s purpose is to preserve decades of software history. As electronic techn
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[MAME - Webpage](https://www.mamedev.org/)
+| Resource | Link |
+|----------|------|
+| MAME - Documentation | [Link](https://docs.mamedev.org/) |
+| MAME - Forum | [Link](https://forum.mamedev.org/) |
+| MAME - Webpage | [Link](https://www.mamedev.org/) |
+| MAME - Wiki | [Link](https://wiki.mamedev.org/index.php?title=Main_Page) |
 
-[MAME - Forum](https://forum.mamedev.org/)
-
-[MAME - Wiki](https://wiki.mamedev.org/index.php?title=Main_Page)
-
-[MAME - Documentation](https://docs.mamedev.org/)
 
 ---
 

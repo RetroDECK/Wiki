@@ -10,11 +10,13 @@ GZDoom is the open source source port / game engine for ID Software's older game
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[ZDoom Web Page](https://zdoom.org/index)
+| Resource | Link |
+|----------|------|
+| GZDoom - Github | [Link](https://github.com/ZDoom/gzdoom) |
+| UZDoom - Github | [Link](https://github.com/UZDoom/UZDoom) |
+| ZDoom - Forums | [Link](https://forum.zdoom.org/) |
+| ZDoom - Web Page | [Link](https://zdoom.org/index) |
 
-[GZDoom Github](https://github.com/ZDoom/gzdoom)
-
-[ZDoom Forums](https://forum.zdoom.org/)
 
 ---
 
@@ -80,7 +82,7 @@ It is compatible with most community-made levels, graphics, music, and mods crea
 ---
 
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
 

@@ -6,18 +6,18 @@ Vita3K is an experimental open-source Sony PlayStation Vita emulator.
 
 ---
 
-### Vita3K Links:
-[Vita3K Quickstart Guide](https://vita3k.org/quickstart.html)
+### Vita3K Links
 
-[Vita3K Game Compatibility and ID List](https://vita3k.org/compatibility.html?lang=en)
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[Vita3K Homebrew Compatibility and ID List](https://vita3k.org/compatibility-homebrew.html)
-
-[Vita3K Wiki](https://github.com/Vita3K/Vita3K/wiki)
-
-[Vita3K Github](https://github.com/Vita3K/Vita3K)
-
-[Vita3K Webpage](https://vita3k.org/)
+| Resource | Link |
+|----------|------|
+| Vita3K - Game Compatibility and ID List | [Link](https://vita3k.org/compatibility.html?lang=en) |
+| Vita3K - Github | [Link](https://github.com/Vita3K/Vita3K) |
+| Vita3K - Homebrew Compatibility and ID List | [Link](https://vita3k.org/compatibility-homebrew.html) |
+| Vita3K - Quickstart Guide | [Link](https://vita3k.org/quickstart.html) |
+| Vita3K - Webpage | [Link](https://vita3k.org/) |
+| Vita3K - Wiki | [Link](https://github.com/Vita3K/Vita3K/wiki) |
 
 ---
 
@@ -79,7 +79,7 @@ To play many commercial PSVita games, Vita3K requires license files or keys:
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

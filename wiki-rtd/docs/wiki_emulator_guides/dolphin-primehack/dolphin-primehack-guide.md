@@ -8,29 +8,28 @@ Primehack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouse
 
 ---
 
-
-### Dolphin Links
+## Links
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[Dolphin - Webpage](https://dolphin-emu.org/)
+### Dolphin 
 
-[Dolphin - Wiki](https://wiki.dolphin-emu.org/index.php?title=Main_Page)
+| Resource | Link |
+|----------|------|
+| Dolphin - Webpage | [Link](https://dolphin-emu.org/) |
+| Dolphin - Wiki | [Link](https://wiki.dolphin-emu.org/index.php?title=Main_Page) |
+| Dolphin - Game Compatibility | [Link](https://dolphin-emu.org/compat/) |
+| Dolphin - Performance Guide | [Link](https://dolphin-emu.org/docs/guides/performance-guide/) |
+| Dolphin - Github | [Link](https://github.com/dolphin-emu/dolphin) |
 
-[Dolphin - Game Compatibility](https://dolphin-emu.org/compat/)
+### Primehack 
 
-[Dolphin - Performance Guide](https://dolphin-emu.org/docs/guides/performance-guide/)
+| Resource | Link |
+|----------|------|
+| Primehack - Wiki | [Link](https://github.com/shiiion/dolphin/wiki/) |
+| Primehack - FAQ | [Link](https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questions) |
+| Primehack - Github | [Link](https://github.com/shiiion/dolphin) |
 
-[Dolphin - Github](https://github.com/dolphin-emu/dolphin)
-
-
-### Primehack Links
-
-[Primehack - Wiki](https://github.com/shiiion/dolphin/wiki/)
-
-[Primehack - FAQ](https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questions)
-
-[Primehack - Github](https://github.com/shiiion/dolphin)
 
 ---
 
@@ -93,7 +92,7 @@ Dolphin looks for the `IPL.bin` in the save folders. Put each region's `IPL.bin`
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

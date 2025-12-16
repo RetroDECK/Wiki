@@ -16,12 +16,12 @@ Some games might not work at all or control right.
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
+| Resource | Link |
+|----------|------|
+| Ruffle - Blog | [Link](https://ruffle.rs/blog) |
+| Ruffle - Compatibility List | [Link](https://ruffle.rs/compatibility) |
+| Ruffle - Webpage | [Link](https://ruffle.rs/) |
 
-[Ruffle Webpage](https://ruffle.rs/)
-
-[Ruffle Blog](https://ruffle.rs/blog)
-
-[Ruffle Compatibility list](https://ruffle.rs/compatibility)
 
 
 ---
@@ -50,7 +50,7 @@ No
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
 

@@ -12,11 +12,12 @@ It strives to be compatible with games made for those engines.
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[IkemanGO Github](https://github.com/ikemen-engine/Ikemen-GO)
+| Resource | Link |
+|----------|------|
+| IkemanGO - Github | [Link](https://github.com/ikemen-engine/Ikemen-GO) |
+| IkemanGO - Webpage | [Link](https://ikemen-engine.github.io/) |
+| IkemanGO - Wiki | [Link](https://github.com/ikemen-engine/Ikemen-GO/wiki) |
 
-[IkemanGO Wiki](https://github.com/ikemen-engine/Ikemen-GO/wiki)
-
-[IkemanGO Webpage](https://ikemen-engine.github.io/)
 
 ---
 
@@ -45,7 +46,7 @@ No
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

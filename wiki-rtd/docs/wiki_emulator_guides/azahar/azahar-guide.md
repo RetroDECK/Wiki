@@ -10,13 +10,13 @@ Azahar is a Nintendo 3DS Emulator.
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[Azahar Webpage](https://azahar-emu.org/)
+| Resource | Link |
+|----------|------|
+| Azahar - Changes from Citra | [Link](https://azahar-emu.org/blog/game-loading-changes/) |
+| Azahar Blog | [Link](https://azahar-emu.org/pages/bloglist/) |
+| Azahar Github | [Link](https://azahar-emu.org/pages/bloglist/) |
+| Azahar Webpage | [Visit](https://azahar-emu.org/) |
 
-[Azahar Blog](https://azahar-emu.org/pages/bloglist/)
-
-[Azahar Github](https://azahar-emu.org/pages/bloglist/)
-
-[Azahar - Game Loading Changes from Citra](https://azahar-emu.org/blog/game-loading-changes/)
 
 ---
 
@@ -60,19 +60,19 @@ No
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/3ds/` |                               |  
-| Saves Folder |`retrodeck/saves/n3ds/azahar/` |                               |  
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/azahar/`         |  |
-| BIOS Folder | `/retrodeck/bios/azahar/` |  |
-| Data Folder |`~/.var/app/org.retrodeck.retrodeck/data/azahar` |     |
-| Mods Folder |`retrodeck/mods/azahar/` |  `/load/mods/`   |
-| Texture Packs Folder |`retrodeck/texture_packs/azahar/`|   `/load/textures`  |
+| ROMs |`retrodeck/roms/3ds/` |                               |  
+| Saves |`retrodeck/saves/n3ds/azahar/` |                               |  
+| Config  |`~/.var/app/net.retrodeck.retrodeck/config/azahar/`         |  |
+| BIOS  | `/retrodeck/bios/azahar/` |  |
+| Data  |`~/.var/app/org.retrodeck.retrodeck/data/azahar` |     |
+| Mods  |`retrodeck/mods/azahar/` |  `/load/mods/`   |
+| Texture Packs  |`retrodeck/texture_packs/azahar/`|   `/load/textures`  |
 
 ---
 

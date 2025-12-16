@@ -35,7 +35,7 @@ Citra was a Switch emulator and was removed as part of the `0.8.0b` update.
 Yes, if the games are encrypted then keyfiles are needed: `aes_keys.txt`
 
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

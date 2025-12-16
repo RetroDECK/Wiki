@@ -10,7 +10,7 @@ It was removed as part of the update 0.10.0b.
 
 If you do a Factory Reset of RetroDECK, you will need to repeat the Ponzu process.
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

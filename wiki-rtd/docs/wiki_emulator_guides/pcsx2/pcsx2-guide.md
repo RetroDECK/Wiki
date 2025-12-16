@@ -10,13 +10,14 @@ PCSX2 is a free and open-source PlayStation 2 (PS2) emulator.
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[PCSX2 Documentation](https://pcsx2.net/docs/)
+| Resource | Link |
+|----------|------|
+| PCSX2 Compability List | [Link](https://pcsx2.net/compat/) |
+| PCSX2 Documentation | [Link](https://pcsx2.net/docs/) |
+| PCSX2 Github | [Link](https://github.com/PCSX2/pcsx2) |
+| PCSX2 Website | [Link](https://pcsx2.net/) |
 
-[PCSX2 Website](https://pcsx2.net/)
 
-[PCSX2 Github](https://github.com/PCSX2/pcsx2)
-
-[PCSX2 Compability List](https://pcsx2.net/compat/)
 
 ---
 
@@ -66,7 +67,7 @@ Directly into the folder
 ---
 
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

@@ -6,6 +6,13 @@ Ryubing is Switch emulator.
 
 ---
 
+### Ryubing Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+
+---
+
+
 ## Where to put the games?
 
 Switch games should be put into the `retrodeck/roms/switch/` directory.
@@ -65,7 +72,7 @@ Or you can put them anywhere as they need to be installed via:
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

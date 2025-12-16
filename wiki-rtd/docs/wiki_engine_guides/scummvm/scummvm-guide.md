@@ -14,17 +14,15 @@ ScummVM is a engine which allows you to run certain classic graphical adventure 
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[ScummVM Guides](https://docs.scummvm.org/en/v2.7.1/)
+| Resource | Link |
+|----------|------|
+| ScummVM - Freeware Games | [Link](https://www.scummvm.org/games) |
+| ScummVM - Game Compatibility and ID List | [Link](https://www.scummvm.org/compatibility) |
+| ScummVM - Github | [Link](https://github.com/scummvm/scummvm) |
+| ScummVM - Guides | [Link](https://docs.scummvm.org/en/v2.7.1/) |
+| ScummVM - Webpage | [Link](https://www.scummvm.org/) |
+| ScummVM - Wiki | [Link](https://wiki.scummvm.org/index.php?title=Main_Page) |
 
-[ScummVM Game Compatibility and ID List](https://www.scummvm.org/compatibility)
-
-[ScummVM Wiki](https://wiki.scummvm.org/index.php?title=Main_Page)
-
-[ScummVM Github](https://github.com/scummvm/scummvm)
-
-[ScummVM Webpage](https://www.scummvm.org/)
-
-[ScummVM Freeware Games](https://www.scummvm.org/games)
 
 ---
 
@@ -53,7 +51,7 @@ No
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

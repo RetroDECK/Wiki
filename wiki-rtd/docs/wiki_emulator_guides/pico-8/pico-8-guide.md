@@ -10,13 +10,13 @@ PICO-8 Fantasy Console is a game engine developed by Lexaloffle Games that you n
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[Pico-8 FAQ](https://www.lexaloffle.com/pico-8.php?page=faq)
+| Resource | Link |
+|----------|------|
+| Itch.io - Pico-8 | [Link](https://lexaloffle.itch.io/pico-8) |
+| Pico-8 FAQ | [Link](https://www.lexaloffle.com/pico-8.php?page=faq) |
+| Pico-8 Resources | [Link](https://www.lexaloffle.com/pico-8.php?page=resources) |
+| Pico-8 Website | [Link](https://www.lexaloffle.com/pico-8.php) |
 
-[Pico-8 Resources](https://www.lexaloffle.com/pico-8.php?page=resources)
-
-[Pico-8 Website](https://www.lexaloffle.com/pico-8.php)
-
-[Itch.io - Pico-8](https://lexaloffle.itch.io/pico-8)
 
 ---
 
@@ -51,7 +51,7 @@ You can purchase it from the official [Pico-8 website](https://www.lexaloffle.co
     
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

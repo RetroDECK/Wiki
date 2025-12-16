@@ -16,13 +16,12 @@ Not all ports are available for the `X86_64` system, but the list is continuousl
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[PortMaster Webpage](https://portmaster.games/index.html)
-
-[PortMaster Github](https://github.com/PortsMaster)
-
-[PortMaster Gamelist](https://portmaster.games/games.html)
-
-[PortMaster FAQ](https://portmaster.games/faq.html)
+| Resource | Link |
+|----------|------|
+| PortMaster - FAQ | [Link](https://portmaster.games/faq.html) |
+| PortMaster - Gamelist | [Link](https://portmaster.games/games.html) |
+| PortMaster - Github | [Link](https://github.com/PortsMaster) |
+| PortMaster - Webpage | [Link](https://portmaster.games/index.html) |
 
 ---
 
@@ -36,7 +35,7 @@ PortMaster does not require BIOS or Firmware but depending on the game you might
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

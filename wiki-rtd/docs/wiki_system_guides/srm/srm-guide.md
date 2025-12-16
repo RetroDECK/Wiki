@@ -16,11 +16,11 @@ Additionally, RetroDECK uses Steam ROM Manager as part of its backend for the `S
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[Steam Rom Manager - Webpage](https://steamgriddb.github.io/steam-rom-manager/)
-
-[Steam Rom Manager - Github](https://github.com/SteamGridDB/steam-rom-manager)
-
-[SteamGridDB](https://www.steamgriddb.com/)
+| Resource | Link |
+|----------|------|
+| SteamGridDB - Webpage | [Link](https://www.steamgriddb.com/) |
+| Steam Rom Manager - Github | [Link](https://github.com/SteamGridDB/steam-rom-manager) |
+| Steam Rom Manager - Webpage | [Link](https://steamgriddb.github.io/steam-rom-manager/) |
 
 ---
 
@@ -37,7 +37,7 @@ If your game filenames contain any of the unsafe symbols, consider renaming them
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

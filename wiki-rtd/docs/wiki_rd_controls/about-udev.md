@@ -18,7 +18,7 @@ udev uses **rules** to control how devices are recognized and accessed. These ru
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

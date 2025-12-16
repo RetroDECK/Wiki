@@ -11,13 +11,13 @@ Solarus is an open-source adventure game engine.
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[Solarus Community](https://www.solarus-games.org/community/)
+| Resource | Link |
+|----------|------|
+| Solarus - Community | [Link](https://www.solarus-games.org/community/) |
+| Solarus - Docs | [Link](https://docs.solarus-games.org/) |
+| Solarus - Gitlab | [Link](https://gitlab.com/solarus-games/) |
+| Solarus - Webpage | [Link](https://www.solarus-games.org/) |
 
-[Solarus Docs](https://docs.solarus-games.org/)
-
-[Solarus Gitlab](https://gitlab.com/solarus-games/)
-
-[Solarus Web page](https://www.solarus-games.org/)
 
 ---
 
@@ -46,7 +46,7 @@ No
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

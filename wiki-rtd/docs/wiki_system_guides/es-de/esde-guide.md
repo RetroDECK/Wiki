@@ -17,22 +17,22 @@ ES-DE is the default frontend used in RetroDECK.
 
 | Resource | Link |
 |----------|------|
-| ES-DE: Changelog | [View](https://gitlab.com/es-de/emulationstation-de/-/blob/master/CHANGELOG.md) |
-| ES-DE: FAQ | [View](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md) |
-| ES-DE: Gitlab | [View](https://gitlab.com/es-de/emulationstation-de) |
-| ES-DE: Issues | [View](https://gitlab.com/es-de/emulationstation-de/-/issues) |
-| ES-DE: Roadmap | [View](https://gitlab.com/es-de/emulationstation-de/-/blob/master/ROADMAP.md) |
-| ES-DE: Theme List | [View](https://gitlab.com/es-de/themes/themes-list) |
-| ES-DE: Translations | [View](https://gitlab.com/es-de/emulationstation-de/-/blob/master/TRANSLATIONS.mdl) |
-| ES-DE: Userguide | [View](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md) |
-| ES-DE: Webpage | [Visit](https://es-de.org/) |
- 
+| ES-DE - Changelog | [Link](https://gitlab.com/es-de/emulationstation-de/-/blob/master/CHANGELOG.md) |
+| ES-DE - FAQ | [Link](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md) |
+| ES-DE - Gitlab | [Link](https://gitlab.com/es-de/emulationstation-de) |
+| ES-DE - Issues | [Link](https://gitlab.com/es-de/emulationstation-de/-/issues) |
+| ES-DE - Roadmap | [Link](https://gitlab.com/es-de/emulationstation-de/-/blob/master/ROADMAP.md) |
+| ES-DE - Theme List | [Link](https://gitlab.com/es-de/themes/themes-list) |
+| ES-DE - Translations | [Link](https://gitlab.com/es-de/emulationstation-de/-/blob/master/TRANSLATIONS.mdl) |
+| ES-DE - Userguide | [Link](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md) |
+| ES-DE - Webpage | [Link](https://es-de.org/) |
+
 
 
 ---
 
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
 

@@ -8,29 +8,18 @@ RetroArch is a multi-emulator that play games with emulator cores.
 
 ### RetroArch Links
 
-[Libretro - Webpage](https://www.libretro.com//)
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[Libretro - Docs](https://docs.libretro.com/)
-
-[RetroArch - Github](https://github.com/libretro/RetroArch)
-
-[ES-DE User Guide: Supported Game Systems](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#supported-game-systems)
-
----
-
-### RetroArch Docs - Guide Links
-
-Here follows various quick bookmarks to specific section of the RetroArch Docs that is good to read and always updated with the lastest information.
-
-[RetroArch - BIOS Guide](https://docs.libretro.com/library/bios/)
-
-[RetroArch - Navigation Guide](https://docs.libretro.com/guides/navigating/)
-
-[RetroArch - Cheat Guide](https://docs.libretro.com/guides/cheat-codes/)
-
-[RetroArch - Arcade Systems Guide](https://docs.libretro.com/guides/arcade-getting-started/)
-
-[RetroArch - Shaders Guide](https://docs.libretro.com/guides/shaders/)
+| Resource | Link |
+|----------|------|
+| Libretro - Docs | [Link](https://docs.libretro.com/) |
+| Libretro - Webpage | [Visit](https://www.libretro.com/) |
+| RetroArch - Arcade Systems Guide | [Link](https://docs.libretro.com/guides/arcade-getting-started/) |
+| RetroArch - BIOS Guide | [Link](https://docs.libretro.com/library/bios/) |
+| RetroArch - Cheat Guide | [Link](https://docs.libretro.com/guides/cheat-codes/) |
+| RetroArch - Github | [Link](https://github.com/libretro/RetroArch) |
+| RetroArch - Navigation Guide | [Link](https://docs.libretro.com/guides/navigating/) |
+| RetroArch - Shaders Guide | [Link](https://docs.libretro.com/guides/shaders/) |
 
 ---
 
@@ -77,7 +66,7 @@ It depends on the core, check the links for the most up-to-date information.
 
 ---
 
-## Folder structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

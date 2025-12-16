@@ -6,7 +6,7 @@ BIOS and firmware act as the low-level software that initializes a system and en
 
 ---
 
-## Folder Structure
+## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 

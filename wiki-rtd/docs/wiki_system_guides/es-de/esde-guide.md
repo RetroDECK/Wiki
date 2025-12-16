@@ -281,6 +281,33 @@ videos
 
 ---
 
+## Custom Collections
+
+ Collections created by the user, grouping games from existing game systems.
+
+| Collection Type       | Description                                                                                                                                                                                                                                                                                                                                                                                   |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Automatic collections | Predefined collections: <br>• **All games** – Groups all games from all systems. <br>• **Favorites** – Groups all games marked as favorites. <br>• **Last played** – Lists the 50 last launched games. <br>Can be enabled/disabled via Main Menu → Game collection settings → Automatic game collections.                                                                                         |
+| Custom collections    | User-defined collections. Examples: genres (Shoot 'em up, Fighting) or time periods (1980s, 1990s). <br>• Created via Main Menu → Game collection settings → Create new custom collection. <br>• Name restrictions: *",./:;<>\| automatically removed. <br>• Games added/removed using Y button; can belong to multiple collections. <br>• Only files, not folders, can be added.                           |
+| Collection editing    | • Tick symbol displayed for games in collection (if textlist theme). <br>• Collection badge displayed for selected game (if theme supports badges). <br>• Folder link functionality disabled during editing. <br>• Finish editing via Main Menu or gamelist options menu. <br>• Additional games can be added later via gamelist options → Add/remove games to this collection.                              |
+| Implementation       | • Each collection has a single configuration file in `retrodeck/ES-DE/collections/custom-<name>.cfg`. <br>• File contains a list of ROM paths. <br>• Changes (add/remove games) are immediately written to this file. <br>• Migrating from older versions: must explicitly enable collections via menu; absolute paths are rewritten with `%ROMPATH%` on first edit.                                           |
+
+**Example**
+
+File `retrodeck/ES-DE/collections/custom-Platform.cfg` contains: 
+
+```
+%ROMPATH%/amiga/Flashback_v3.2_1163.hdf
+%ROMPATH%/amiga/JamesPond2_v1.1_AGA_1354.hdf
+%ROMPATH%/amiga/Nebulus_v1.3_0361.hdf
+%ROMPATH%/c64/Bionic Commando.d64
+%ROMPATH%/c64/Great Giana Sisters, The.d64
+%ROMPATH%/c64/Trantor.d64
+%ROMPATH%/c64/Zorro.d64
+```
+
+---
+
 ## Migrating from EmulationStation
 
 | Topic | Description |

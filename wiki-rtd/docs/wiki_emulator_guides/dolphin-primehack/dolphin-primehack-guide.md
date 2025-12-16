@@ -9,7 +9,9 @@ Primehack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouse
 ---
 
 
-### Dolphin Links:
+### Dolphin Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [Dolphin - Webpage](https://dolphin-emu.org/)
 

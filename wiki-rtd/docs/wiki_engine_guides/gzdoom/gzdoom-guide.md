@@ -6,7 +6,9 @@ GZDoom is the open source source port / game engine for ID Software's older game
 
 ---
 
-### GZDoom Links:
+### GZDoom Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [ZDoom Web Page](https://zdoom.org/index)
 

@@ -10,7 +10,9 @@ ScummVM is a engine which allows you to run certain classic graphical adventure 
 
 ---
 
-### ScummVM Links:
+### ScummVM Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [ScummVM Guides](https://docs.scummvm.org/en/v2.7.1/)
 

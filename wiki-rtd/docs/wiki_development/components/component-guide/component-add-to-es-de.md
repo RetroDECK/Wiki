@@ -10,7 +10,9 @@ In ES-DE all applications no matter what it is referred to as an **Emulator**.
 
 In RetroDECK we use the neutral name of **Component**.
 
-### ES-DE General Links:
+### ES-DE General Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [ES-DE: Userguide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md)
 
@@ -22,7 +24,9 @@ In RetroDECK we use the neutral name of **Component**.
 
 [ES-DE: Changelog](https://gitlab.com/es-de/emulationstation-de/-/blob/master/CHANGELOG.md) 
 
-### ES-DE Development Links:
+### ES-DE Development Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [ES-DE: Gitlab](https://gitlab.com/es-de/emulationstation-de)
 

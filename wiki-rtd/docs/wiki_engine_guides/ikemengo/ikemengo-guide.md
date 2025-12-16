@@ -8,7 +8,9 @@ It strives to be compatible with games made for those engines.
 
 ---
 
-### IkemanGO Links:
+### IkemanGO Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [IkemanGO Github](https://github.com/ikemen-engine/Ikemen-GO)
 

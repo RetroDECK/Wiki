@@ -6,7 +6,9 @@ A PSP emulator that can also upscale textures to make them sharper, and you can 
 
 ---
 
-### PPSSPP Links:
+### PPSSPP Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [PPSSPP - Webpage](https://www.ppsspp.org/)
 

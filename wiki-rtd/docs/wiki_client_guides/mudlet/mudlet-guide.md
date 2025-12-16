@@ -9,7 +9,9 @@ MUD creators can add visual elements or features, while players can script, auto
 ---
 
 
-### Mudlet Links:
+### Mudlet Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [Mudlet: Webpage](https://www.mudlet.org/)
 

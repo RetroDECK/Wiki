@@ -7,7 +7,9 @@ Solarus is an open-source adventure game engine.
 ---
 
 
-### Solarus Links:
+### Solarus Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [Solarus Community](https://www.solarus-games.org/community/)
 

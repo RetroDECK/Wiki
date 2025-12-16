@@ -12,7 +12,9 @@ It will no longer receive any updates and is working as-is.
 
 ---
 
-### Duckstation Links:
+### Duckstation Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [Duckstation - Webpage](https://www.duckstation.org/)
 

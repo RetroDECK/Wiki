@@ -11,7 +11,9 @@ ES-DE is the default frontend used in RetroDECK.
 ---
 
 
-### ES-DE Links:
+### ES-DE Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 | Resource | Link |
 |----------|------|

@@ -12,7 +12,9 @@ Not all ports are available for the `X86_64` system, but the list is continuousl
 
 ---
 
-### PortMaster Links:
+### PortMaster Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [PortMaster Webpage](https://portmaster.games/index.html)
 

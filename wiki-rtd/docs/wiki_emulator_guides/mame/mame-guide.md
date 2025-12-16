@@ -8,7 +8,9 @@ MAME’s purpose is to preserve decades of software history. As electronic techn
 
 ---
 
-### MAME Links:
+### MAME Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [MAME - Webpage](https://www.mamedev.org/)
 

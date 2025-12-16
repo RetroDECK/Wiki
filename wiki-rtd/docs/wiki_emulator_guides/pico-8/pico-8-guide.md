@@ -6,7 +6,9 @@ PICO-8 Fantasy Console is a game engine developed by Lexaloffle Games that you n
 
 ---
 
-### Pico-8 Links:
+### Pico-8 Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [Pico-8 FAQ](https://www.lexaloffle.com/pico-8.php?page=faq)
 

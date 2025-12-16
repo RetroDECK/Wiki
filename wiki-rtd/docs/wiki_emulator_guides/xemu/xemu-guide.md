@@ -6,7 +6,9 @@ A free and open-source application that emulates the original Microsoft Xbox gam
 
 ---
 
-### xemu Links:
+### xemu Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [xemu Compatibility Guide](https://xemu.app/#compatibility)
 

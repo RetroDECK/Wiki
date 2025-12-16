@@ -6,7 +6,9 @@ Azahar is a Nintendo 3DS Emulator.
 
 ---
 
-### Azahar Links:
+### Azahar Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [Azahar Webpage](https://azahar-emu.org/)
 

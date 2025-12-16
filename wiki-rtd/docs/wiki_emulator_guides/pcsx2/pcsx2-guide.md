@@ -6,7 +6,9 @@ PCSX2 is a free and open-source PlayStation 2 (PS2) emulator.
 
 ---
 
-### PCSX2 Links:
+### PCSX2 Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [PCSX2 Documentation](https://pcsx2.net/docs/)
 

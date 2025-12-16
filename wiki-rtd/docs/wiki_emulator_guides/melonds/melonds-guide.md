@@ -6,7 +6,9 @@ melonDS, a Nintendo DS emulator.
 
 ---
 
-### melonDS Links:
+### melonDS Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [melonDS - Webpage](https://melonds.kuribo64.net/)
 

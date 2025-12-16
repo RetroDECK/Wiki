@@ -12,7 +12,9 @@ Some games might not work at all or control right.
 
 ---
 
-### Ruffle Links:
+### Ruffle Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 
 [Ruffle Webpage](https://ruffle.rs/)

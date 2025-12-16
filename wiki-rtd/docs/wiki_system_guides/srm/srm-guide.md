@@ -12,7 +12,9 @@ Additionally, RetroDECK uses Steam ROM Manager as part of its backend for the `S
 
 ---
 
-### SRM Links:
+### SRM Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [Steam Rom Manager - Webpage](https://steamgriddb.github.io/steam-rom-manager/)
 

@@ -67,9 +67,8 @@ Below is a combined table containing both **Steam** and **GOG** purchase links f
 | DOOM Classic Bundle      | [Steam](https://store.steampowered.com/bundle/27490/DOOM_Classic_Bundle/)| -                                                                      |
 | DOOM + DOOM II           | [Steam](https://store.steampowered.com/app/2280/DOOM__DOOM_II/)        | [GOG](https://www.gog.com/en/game/doom_doom_ii)                       |
 | DOOM 64                  | [Steam](https://store.steampowered.com/app/1148590/DOOM_64/)            | [GOG](https://www.gog.com/en/game/doom_64)                             |
-| DOOM 3                   | [Steam](https://store.steampowered.com/app/208200/DOOM_3/)              | [GOG](https://www.gog.com/en/game/doom_3)                              |
 
-*Note: DOOM + DOOM II is all you need for GZDoom. The others are optional.*
+**Note:** *DOOM + DOOM II* is sufficient for use with GZDoom. Additional titles are optional; however, *DOOM 64* is required for certain mods. Purchasing the Classic Bundle may be more cost-effective.
 
 ### Freedoom
 

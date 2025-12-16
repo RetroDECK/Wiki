@@ -226,11 +226,9 @@ videos
 
 ---
 
-## ES-DE User Guide Links
+## ES-DE User Guide Quick Links
 
 Here follows various quick bookmarks to specific section of the User Guide that is good to read and always updated with the lastest information.
-
-## ES-DE User Guide Quick Links
 
 | Section | Link |
 |---------|------|

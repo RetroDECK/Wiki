@@ -10,9 +10,11 @@ XRoar is a Dragon and Tandy computer series emulator.
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-[XRoar manual](https://www.6809.org.uk/xroar/doc/xroar.shtml)
+| Resource | Link |
+|----------|------|
+| XRoar - Manual | [Link](https://www.6809.org.uk/xroar/doc/xroar.shtml) |
+| XRoar - Webpage | [Link](https://www.6809.org.uk/xroar/) |
 
-[XRoar Webpage](https://www.6809.org.uk/xroar/)
 
 ---
 

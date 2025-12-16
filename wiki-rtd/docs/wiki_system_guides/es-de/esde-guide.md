@@ -13,23 +13,18 @@ ES-DE is the default frontend used in RetroDECK.
 
 ### ES-DE Links:
 
-[ES-DE: Webpage](https://es-de.org/)
-
-[ES-DE: Gitlab](https://gitlab.com/es-de/emulationstation-de)
-
-[ES-DE: Userguide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md)
-
-[ES-DE: FAQ](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md)
-
-[ES-DE: Theme List](https://gitlab.com/es-de/themes/themes-list)
-
-[ES-DE: Translations](https://gitlab.com/es-de/emulationstation-de/-/blob/master/TRANSLATIONS.mdl)
-
-[ES-DE: Roadmap](https://gitlab.com/es-de/emulationstation-de/-/blob/master/ROADMAP.md)
-
-[ES-DE: Issues](https://gitlab.com/es-de/emulationstation-de/-/issues)
-
-[ES-DE: Changelog](https://gitlab.com/es-de/emulationstation-de/-/blob/master/CHANGELOG.md) 
+| Resource | Link |
+|----------|------|
+| ES-DE: Changelog | [View](https://gitlab.com/es-de/emulationstation-de/-/blob/master/CHANGELOG.md) |
+| ES-DE: FAQ | [View](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md) |
+| ES-DE: Gitlab | [View](https://gitlab.com/es-de/emulationstation-de) |
+| ES-DE: Issues | [View](https://gitlab.com/es-de/emulationstation-de/-/issues) |
+| ES-DE: Roadmap | [View](https://gitlab.com/es-de/emulationstation-de/-/blob/master/ROADMAP.md) |
+| ES-DE: Theme List | [View](https://gitlab.com/es-de/themes/themes-list) |
+| ES-DE: Translations | [View](https://gitlab.com/es-de/emulationstation-de/-/blob/master/TRANSLATIONS.mdl) |
+| ES-DE: Userguide | [View](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md) |
+| ES-DE: Webpage | [Visit](https://es-de.org/) |
+ 
 
 
 ---
@@ -37,9 +32,11 @@ ES-DE is the default frontend used in RetroDECK.
 
 ## Folder structure
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
 | Type| Folder |Comment | 
 |:---:| :---:| :---: |
-| Root ES-DE | `retrodeck/ES-DE/` | |
+| ES-DE Root  | `retrodeck/ES-DE/` | |
 | Collections | `retrodeck/ES-DE/collections/`|Usermade ES-DE collections|
 | Custom Systems | `retrodeck/ES-DE/custom_systems/`|Usermade ES-DE custom systems|
 | Media | `retrodeck/ES-DE/downloaded_media/`|Scraped media files|

@@ -259,7 +259,10 @@ nav:
       - Xbox One/S/X - Xbox Wireless Controller: wiki_controllers/xbox/xbox-wireless.md
       - Xbox S/X - Xbox Elite Series 2: wiki_controllers/xbox/xbox-wireless-elite.md
 
-  - FAQ ❔: wiki_general/faq.md
+  - FAQ ❔:
+
+    - RetroDECK - FAQ: wiki_general/faq.md
+    - What are ROM Hacks?: wiki_general/what-are-romhacks.md
 
   - Guides - RetroDECK Controls & Hotkeys 🎮:
 

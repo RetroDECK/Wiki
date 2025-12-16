@@ -10,7 +10,7 @@
 
 **Concistency is important**
 
-> **Garbage in, garbage out** – [Wikipedia](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out)
+> **Garbage in, garbage out** - [Wikipedia](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out)
 
 **HEREBY BE WARNED**
 
@@ -106,8 +106,8 @@ All `component_recipe.json` contain at least four parts:
 
 ### Key Principles
 
-- **Pin to a Release** – All ingredients must be taken from a fixed release to preserve quality and avoid unpredictable changes.  
-- **Stable Versions List** – The `desired_versions.sh` file enumerates all “stable” source versions. These can be referenced in component recipes as placeholders, reducing the need for frequent edits when a new stable version appears.
+- **Pin to a Release** - All ingredients must be taken from a fixed release to preserve quality and avoid unpredictable changes.  
+- **Stable Versions List** - The `desired_versions.sh` file enumerates all “stable” source versions. These can be referenced in component recipes as placeholders, reducing the need for frequent edits when a new stable version appears.
 
 ---
 
@@ -184,10 +184,10 @@ All `component_recipe.json` contain at least four parts:
 | Field               | Description |
 |---------------------|-------------|
 | **JSON root key**   | Defines the component name and creates the placeholder variable `$COMPONENT_NAME`. |
-| **source_url**      | `{SOURCE_URL}` – URL/path to download the source. Acceptable forms: direct HTTP(S) link, redirect, GitHub repo URL, flathub ID or local filesystem path. Can contain a `{VERSION}` placeholder that will be replaced by the value of the `version` key. Relative local paths expand to `$WORKDIR/`. |
-| **source_type**     | `{SOURCE_TYPE}` – Determines which downloader plugin to use <br>• - `flatpak-id` – Flathub ID  <br> - `github-release` - Github Releases <br> - `http` - Web download  |
-| **version**         | `{VERSION}` – Specific version to fetch. For non‑local sources, this replaces `{VERSION}` in `source_url`. For `local` sources, `latest` can be used if no version is required. Required for all types except `local`. Substituted for `{VERSION}` in `source_url`.<br>• `http` / `github-release` – Specific version string (or `latest` for GitHub) |
-| **extraction_type**| `{EXTRACTION_TYPE}` – Extraction plugin to apply to the downloaded file. Supported methods:<br>• `appimage` – Extract AppImage (`$EXTRACTED_PATH` = `<dest>/<AppImage‑name>-extracted`)<br>• `archive` – Extract any archive (`$EXTRACTED_PATH` = `<dest>/<archive‑name>-extracted`)<br>• `local` / `git` / `flatpak` – Dummy plugins returning `$DOWNLOADED_FILE` as `$EXTRACTED_PATH` |
+| **source_url**      | `{SOURCE_URL}` - URL/path to download the source. Acceptable forms: direct HTTP(S) link, redirect, GitHub repo URL, flathub ID or local filesystem path. Can contain a `{VERSION}` placeholder that will be replaced by the value of the `version` key. Relative local paths expand to `$WORKDIR/`. |
+| **source_type**     | `{SOURCE_TYPE}` - Determines which downloader plugin to use <br>• - `flatpak-id` - Flathub ID  <br> - `github-release` - Github Releases <br> - `http` - Web download  |
+| **version**         | `{VERSION}` - Specific version to fetch. For non‑local sources, this replaces `{VERSION}` in `source_url`. For `local` sources, `latest` can be used if no version is required. Required for all types except `local`. Substituted for `{VERSION}` in `source_url`.<br>• `http` / `github-release` - Specific version string (or `latest` for GitHub) |
+| **extraction_type**| `{EXTRACTION_TYPE}` - Extraction plugin to apply to the downloaded file. Supported methods:<br>• `appimage` - Extract AppImage (`$EXTRACTED_PATH` = `<dest>/<AppImage‑name>-extracted`)<br>• `archive` - Extract any archive (`$EXTRACTED_PATH` = `<dest>/<archive‑name>-extracted`)<br>• `local` / `git` / `flatpak` - Dummy plugins returning `$DOWNLOADED_FILE` as `$EXTRACTED_PATH` |
 | **dest**| *(Optional)*  Absolute destination for download/extraction. Defaults to `$WORKDIR`. For `flatpak-id` it also selects install scope (`user` / `system`).|
 | **additional_sources**| *(Optional)* Array of extra source objects with the same structure, allowing multiple downloads to be processed similarly. |
 
@@ -493,9 +493,9 @@ Configuration contents differ for each component, ranging from individual files 
 
 **Explanation**
 
-1. **Core source** – Downloads `RetroArch.7z` and extracts it as an archive.  
-2. **First additional source** – Treats the already‑extracted AppImage (`RetroArch-Linux-x86_64.AppImage`) as a *local* source, extracts it, and copies its `usr/bin` directory to the artifact’s `bin` folder.  
-3. **Second additional source** – Downloads a second archive (`RetroArch_cores.7z`), extracts it, and copies the cores directory into the artifact’s `cores` folder.
+1. **Core source** - Downloads `RetroArch.7z` and extracts it as an archive.  
+2. **First additional source** - Treats the already‑extracted AppImage (`RetroArch-Linux-x86_64.AppImage`) as a *local* source, extracts it, and copies its `usr/bin` directory to the artifact’s `bin` folder.  
+3. **Second additional source** - Downloads a second archive (`RetroArch_cores.7z`), extracts it, and copies the cores directory into the artifact’s `cores` folder.
 
 By ordering the additional sources array this way, the Alchemist ensures that each step has the necessary data from the previous step before proceeding.
 
@@ -623,16 +623,16 @@ By processing each source object sequentially, the Alchemist maintains strict co
 
 Take the Azahar example for above:
 
-1. **Component Name** – Set to `azahar`.  
-2. **Download URL** – `org.azahar_emu.Azahar`.  
-3. **Downloader Plugin** – `flatpak_id` (selected via `source_type`).  
-4. **Version Resolution** – `$AZAHAR_DESIRED_VERSION` is read from `desired_versions.sh` (e.g., `export AZAHAR_DESIRED_VERSION="2123.3"`). This value replaces `{VERSION}` in the URL.  
-5. **Downloaded File Path** – Stored in `$DOWNLOADED_FILE`.  
-6. **Extraction Plugin** – `flatpak`, applied to `$DOWNLOADED_FILE`.  
-7. **Extracted Destination** – Path returned in `$EXTRACTED_PATH`.  
+1. **Component Name** - Set to `azahar`.  
+2. **Download URL** - `org.azahar_emu.Azahar`.  
+3. **Downloader Plugin** - `flatpak_id` (selected via `source_type`).  
+4. **Version Resolution** - `$AZAHAR_DESIRED_VERSION` is read from `desired_versions.sh` (e.g., `export AZAHAR_DESIRED_VERSION="2123.3"`). This value replaces `{VERSION}` in the URL.  
+5. **Downloaded File Path** - Stored in `$DOWNLOADED_FILE`.  
+6. **Extraction Plugin** - `flatpak`, applied to `$DOWNLOADED_FILE`.  
+7. **Extracted Destination** - Path returned in `$EXTRACTED_PATH`.  
 8. **Copy the full directory** from `$EXTRACTED_PATH/usr/bin` to `$COMPONENT_ARTIFACT_ROOT/bin`.  
-9. **Flatpak Runtime** – Install the required runtime (name and version) if it isn’t already present.  
-10. **Gather Library** – Retrieve `libQt6Widgets.so.6` from the specified Flatpak runtime and place it in the appropriate location within the artifact. 
+9. **Flatpak Runtime** - Install the required runtime (name and version) if it isn’t already present.  
+10. **Gather Library** - Retrieve `libQt6Widgets.so.6` from the specified Flatpak runtime and place it in the appropriate location within the artifact. 
 
 ### Alchemist Process Abstraction
 

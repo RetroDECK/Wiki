@@ -10,9 +10,9 @@ The **Windows version** of MemcardRex is currently the only fully released build
 
 The **Linux version** is still in development, but the Windows version can be run on Linux using **Wine**.
 
-- [MemcardRex – Windows Version](https://github.com/ShendoXT/memcardrex)
+- [MemcardRex - Windows Version](https://github.com/ShendoXT/memcardrex)
 
-- [MemcardRex – Linux Version](https://github.com/robxnano/memcardrex/tree/linux/)
+- [MemcardRex - Linux Version](https://github.com/robxnano/memcardrex/tree/linux/)
   
 ---
 

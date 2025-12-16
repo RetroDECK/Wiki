@@ -63,8 +63,8 @@ This is a tiny showcase on what we are working on so far.
 
 Previously we maintained two separate two files:
 
-- component_libs.json – raw library listings
-- recipe.sh – build instructions
+- component_libs.json - raw library listings
+- recipe.sh - build instructions
 
 Both describe the same entities, so we now combine them into a single component_recipe.json. 
 

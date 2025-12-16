@@ -8,11 +8,11 @@ This API call is a simplified extension of the `set setting_value` function, des
 
 ## Applicable Data Keys
 
-- **setting_name** – The name of the setting to be updated.
+- **setting_name** - The name of the setting to be updated.
 
-- **setting_value** – The new value to assign to the specified setting.
+- **setting_value** - The new value to assign to the specified setting.
 
-- **section_name** *(Optional)* – The section of the configuration file where the setting resides. This can be omitted if the setting is not sectioned.
+- **section_name** *(Optional)* - The section of the configuration file where the setting resides. This can be omitted if the setting is not sectioned.
 
 
 

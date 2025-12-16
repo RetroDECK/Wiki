@@ -64,10 +64,10 @@ This is RetroDECK 0.10.0b and future versions.
 
 It was inspired by Docker and OSTree. 
 
-1. **Base Runtime** – Provides a stable, standard execution environment common to all parts, but it can be diverged if needed by components. 
-2. **Libraries Layer** – A curated collection of libraries and tools that are universally required across components.
-3. **Component Shared Libraries Layer** – A curated collection of libraries that are component specific but can be shared with other components, thus saving space. 
-4. **Component Specific Libraries Layer** – Unique special libraries that are only bound to that component and can not be shared. 
+1. **Base Runtime** - Provides a stable, standard execution environment common to all parts, but it can be diverged if needed by components. 
+2. **Libraries Layer** - A curated collection of libraries and tools that are universally required across components.
+3. **Component Shared Libraries Layer** - A curated collection of libraries that are component specific but can be shared with other components, thus saving space. 
+4. **Component Specific Libraries Layer** - Unique special libraries that are only bound to that component and can not be shared. 
 5. **Component Applications** - The binaries are within their own little environment. 
 6. **RetroDECK** - RetroDECK application at the top calling various components, layers and functions. 
 
@@ -251,7 +251,7 @@ A good way to learn how to write modules is to search on flathub's GitHub for ot
 
 ```
   # -------------------------------------------------------------------------
-  # rclone – manage files on cloud storage.
+  # rclone - manage files on cloud storage.
   # -------------------------------------------------------------------------
 
   - name: rclone
@@ -269,7 +269,7 @@ A good way to learn how to write modules is to search on flathub's GitHub for ot
 
 ```
   # -------------------------------------------------------------------------
-  # p7zip – 7‑Zip compression utilities.
+  # p7zip - 7‑Zip compression utilities.
   # -------------------------------------------------------------------------
 
   - name: p7zip

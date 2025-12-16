@@ -34,12 +34,12 @@ RetroDECK includes an automated BIOS Checker based on the internal `bios.json` f
 
 Each entry contains:
 
-- **BIOS Name** – Expected filename  
-- **md5** – MD5 checksum for validation  
-- **system** – Emulator or system using the BIOS  
-- **description** – Purpose of the file  
-- **required** – Indicates if it is mandatory for system operation  
-- **paths** – Valid alternative locations besides `~/retrodeck/bios`. If no `paths` key is provided, the BIOS Checker defaults to `~/retrodeck/bios`.
+- **BIOS Name** - Expected filename  
+- **md5** - MD5 checksum for validation  
+- **system** - Emulator or system using the BIOS  
+- **description** - Purpose of the file  
+- **required** - Indicates if it is mandatory for system operation  
+- **paths** - Valid alternative locations besides `~/retrodeck/bios`. If no `paths` key is provided, the BIOS Checker defaults to `~/retrodeck/bios`.
 
 **Read more:**
 
@@ -71,7 +71,7 @@ Each entry contains:
       "filename": "panafz1j-kanji.bin",
       "md5": "c23fb5d5e6bb1c240d02cf968972be37",
       "system": "3do",
-      "description": "Kanji font ROM for Panasonic FZ‑1J – required for Japanese games",
+      "description": "Kanji font ROM for Panasonic FZ‑1J - required for Japanese games",
       "required": "Required for some Japanese games."
     },
 

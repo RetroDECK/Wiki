@@ -224,18 +224,18 @@ Scraping enhances your game library with cover art, icons, disc images, videos, 
 | Setting | Description |
 |---------|-------------|
 | Auto-accept single game matches | Automatically confirm searches with a single result (multi-scraper only). |
-| Automatic retries on error | 0–10 retries (automatic/semi-automatic modes only). |
+| Automatic retries on error | 0-10 retries (automatic/semi-automatic modes only). |
 | Convert underscores to spaces | Replaces `_` with space in game names when searching. |
 | Enable fallback to additional regions | Scrapes media from additional regions if missing in the selected region (ScreenScraper only). |
 | Exclude folders recursively | Skip entire folder if parent folder is excluded. |
-| Hash searches max file size | Max file size for hash-based search: 32–800 MiB. Larger files fall back to name search. |
+| Hash searches max file size | Max file size for hash-based search: 32-800 MiB. Larger files fall back to name search. |
 | Interactive mode | If off, multi-scraper runs fully automatically. |
 | Overwrite files and data | Controls overwriting of metadata and media (does not affect miximages). |
 | Preferred language | Language for game descriptions and genres (ScreenScraper only). Falls back to English if unavailable. |
 | Region | Region for scraping: Europe, Japan, USA, World, Asia, Australia, Brazil, Canada, China, Germany, France, Italy, Korea, Netherlands, Russia, Sweden, Spain, Taiwan, UK. |
 | Remove dots from searches | Strips `.` from game names in automatic multi-scraper (ScreenScraper only). |
 | Respect per-file scraper exclusions | Overrides per-game exclusions set in metadata editor. |
-| Retry attempt timer | 1–30 seconds between retries. |
+| Retry attempt timer | 1-30 seconds between retries. |
 | Search using file hashes | Non-interactive scraper can search using game file hashes for 100% accuracy. |
 | Search using metadata names | Use metadata editor names instead of physical filenames for searches. |
 | Scrape actual folders | Include folders in multi-scraper (DOS, ScummVM, multi-disc games). |
@@ -298,7 +298,7 @@ videos
 
 | Collection Type       | Description |
 |----------------------|-------------|
-| Automatic collections | Predefined collections: <br>• **All games** – Groups all games from all systems. <br>• **Favorites** – Groups all games marked as favorites. <br>• **Last played** – Lists the 50 last launched games. <br>Can be enabled/disabled via Main Menu → Game collection settings → Automatic game collections. |
+| Automatic collections | Predefined collections: <br>• **All games** - Groups all games from all systems. <br>• **Favorites** - Groups all games marked as favorites. <br>• **Last played** - Lists the 50 last launched games. <br>Can be enabled/disabled via Main Menu → Game collection settings → Automatic game collections. |
 | Collection editing    | • Tick symbol displayed for games in collection (if textlist theme). <br>• Collection badge displayed for selected game (if theme supports badges). <br>• Folder link functionality disabled during editing. <br>• Finish editing via Main Menu or gamelist options menu. <br>• Additional games can be added later via gamelist options → Add/remove games to this collection. |
 | Custom collections    | User-defined collections. Examples: genres (Shoot 'em up, Fighting) or time periods (1980s, 1990s). <br>• Created via Main Menu → Game collection settings → Create new custom collection. <br>• Name restrictions: *",./:;<>\| automatically removed. <br>• Games added/removed using Y button; can belong to multiple collections. <br>• Only files, not folders, can be added. |
 | Implementation        | • Each collection has a single configuration file in `retrodeck/ES-DE/collections/custom-<name>.cfg`. <br>• File contains a list of ROM paths. <br>• Changes (add/remove games) are immediately written to this file. <br>• Migrating from older versions: must explicitly enable collections via menu; absolute paths are rewritten with `%ROMPATH%` on first edit. |
@@ -324,7 +324,7 @@ File `retrodeck/ES-DE/collections/custom-Platform.cfg` contains:
 
 | Topic | Description |
 |-------|-------------|
-| Compatibility | ES-DE has evolved significantly from EmulationStation.<br>Data, system names, directory structures, and themes are **not transferable**.<br>Only ES-DE–specific themes will work.<br>Media is matched to game/ROM filenames rather than using tags in `gamelist.xml`. |
+| Compatibility | ES-DE has evolved significantly from EmulationStation.<br>Data, system names, directory structures, and themes are **not transferable**.<br>Only ES-DE-specific themes will work.<br>Media is matched to game/ROM filenames rather than using tags in `gamelist.xml`. |
 | Gamelist location | Move `gamelist.xml` files from ROM directories to `~/ES-DE/gamelists/`. |
 | One-way migration | Moving data from EmulationStation to ES-DE may modify `gamelist.xml` and custom collection files, potentially making them incompatible with EmulationStation. |
 | Other differences | Directory structure, metadata handling, and theme engine differences may require manual adjustments. |

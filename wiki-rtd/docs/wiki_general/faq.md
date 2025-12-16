@@ -46,7 +46,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 |--------------|------------|
 | **What is a ROM file used by emulators?** | A ROM file is a digital copy of data from a read-only memory (ROM) chip, typically found in computers or video game cartridges. For arcade systems, data often comes from multiple chips, combined into a *ROM set*. Emulators use ROM files to replicate the functionality of the original hardware, allowing classic games to run on modern devices. |
 | **What are the types of Arcade ROM sets?** | **Non-Merged Sets**: Each game has everything required in a single ZIP file-simple but space-inefficient.<br> **Split Sets**: The parent ROM contains core data, while clones include only differences. More space-efficient.<br> **Merged Sets**: Parent and clone ROMs are packaged together into one ZIP-space-efficient but harder to manage. |
-| **What are CD image formats and disc images?** | Disc images are exact digital copies of physical discs and allow games to be played without the original media. Common disc image formats include:<br><br> **.iso** – Standard uncompressed optical disc image.<br> **.nrg** – Nero-generated CD/DVD image format.<br> **.bin + .cue** – `.bin` contains data/audio; `.cue` contains disc layout and should be loaded by the emulator.<br> **.mdf + .mds** – `.mdf` holds disc data; `.mds` stores track structure.<br> **.chd** – Compressed, lossless format developed for MAME; recommended for systems like 3DO, Dreamcast, Sega CD, Neo Geo CD, PC Engine CD, PSX, PS2, and Saturn. |
+| **What are CD image formats and disc images?** | Disc images are exact digital copies of physical discs and allow games to be played without the original media. Common disc image formats include:<br><br> **.iso** - Standard uncompressed optical disc image.<br> **.nrg** - Nero-generated CD/DVD image format.<br> **.bin + .cue** - `.bin` contains data/audio; `.cue` contains disc layout and should be loaded by the emulator.<br> **.mdf + .mds** - `.mdf` holds disc data; `.mds` stores track structure.<br> **.chd** - Compressed, lossless format developed for MAME; recommended for systems like 3DO, Dreamcast, Sega CD, Neo Geo CD, PC Engine CD, PSX, PS2, and Saturn. |
 | **Why are all emulation games called ROMs?** | Historically, emulation began with cartridge dumps-**ROM** chips. Over time, “ROM” became a general term for any emulated game file, even disc images (which are often called ISOs). Today, “ROM” is commonly used as a catch-all term for all emulated game formats. |
 | **Save States or In-Game Saves-what should I use?** | Always prefer **In-Game Saves** for reliability and compatibility. Save states depend on the emulator and can break during updates or due to errors. <br><br> **Save States**: Emulator-generated snapshots of the exact game state at a specific moment. <br> **In-Game Saves**: The game’s built-in save system, designed for stability and consistency. |
 | **What are Save States in emulation?** | Save states allow you to capture the precise game state at any moment-health, items, location, etc.-and resume instantly from that point.<br><br> **Benefits**:<br> • Convenient for retrying difficult sections.<br> • Useful for experimenting without losing progress.<br><br> **Drawbacks**:<br> • May bypass intended game mechanics.<br> • More prone to corruption than in-game saves.<br> • Can create unfair advantages in competitive play. |
@@ -63,7 +63,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **I have an idea for a new feature. How do I suggest it?** | First, check whether the idea already exists in the GitHub issue list. If it does not, you may create a new issue and describe your suggestion. You may also discuss your idea within the community before submitting it. |
 | **Will you add Windows versions of emulators via Wine/Proton?** | There are currently no plans to support Windows-based emulators through Wine or Proton. |
 | **Will you implement Cloud Sync/Backup?** | Yes, this is planned for a future update. Users will be able to integrate their own services through easy-to-use tools built into the Configurator. |
-| **What can I use now while waiting for Cloud Sync/Backup?** | Recommended open-source alternatives include:<br>• **Rsync** – https://linux.die.net/man/1/rsync <br>• **Nextcloud** – https://nextcloud.com/ <br>• **Syncthing** – https://github.com/syncthing/syncthing <br>• **Syncthing GTK GUI** – https://flathub.org/apps/me.kozec.syncthingtk |
+| **What can I use now while waiting for Cloud Sync/Backup?** | Recommended open-source alternatives include:<br>• **Rsync** - https://linux.die.net/man/1/rsync <br>• **Nextcloud** - https://nextcloud.com/ <br>• **Syncthing** - https://github.com/syncthing/syncthing <br>• **Syncthing GTK GUI** - https://flathub.org/apps/me.kozec.syncthingtk |
 
 
 ---
@@ -116,7 +116,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **What’s the difference between RetroDECK and EmuDeck?** | **EmuDeck**: A shell script interface that installs external emulators and plugins into your system. <br> **RetroDECK**: An all-in-one Flatpak application with all supported systems internally contained and configurable. |
 | **Can I install RetroDECK if I already have EmuDeck?** | Yes. RetroDECK is entirely standalone and can run alongside EmuDeck. |
 | **Can I symlink EmuDeck ROMs to RetroDECK?** | Maybe. As with Batocera, symlink **system-by-system**, not the entire ROM folder tree. |
-| **Batocera, EmuDeck, RetroDECK - I still don’t get it.** | • **Batocera** – A full operating system for emulation. Replaces or boots separately from your main OS.<br>• **EmuDeck** – A setup script that configures and installs standalone emulators within your OS.<br>• **RetroDECK** – An all-in-one Retro Gaming Platform Flatpak delivering a preconfigured environment while staying within your existing OS, keeping all userdata in `retrodeck/`. |
+| **Batocera, EmuDeck, RetroDECK - I still don’t get it.** | • **Batocera** - A full operating system for emulation. Replaces or boots separately from your main OS.<br>• **EmuDeck** - A setup script that configures and installs standalone emulators within your OS.<br>• **RetroDECK** - An all-in-one Retro Gaming Platform Flatpak delivering a preconfigured environment while staying within your existing OS, keeping all userdata in `retrodeck/`. |
 
 ---
 
@@ -139,14 +139,14 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ---
 
-## FAQ: RetroDECK – Usage Questions
+## FAQ: RetroDECK - Usage Questions
 
 <img src="../../wiki_icons/pixelitos/drive-optical.png" width="30">
 
 | **Question** | **Answer** |
 |--------------|------------|
 | **Do I need to partition or format my Disk for RetroDECK?** | No. RetroDECK installs as a Flatpak. Simply install it like any other application and launch it from your desktop or Steam library. |
-| **Where is RetroDECK installed?** | **`retrodeck/`** – Stores user data (ROMs, saves, mods, themes and more). This folder remains after uninstallation.<br> **`~/.var/app/net.retrodeck.retrodeck/`** – Contains the main Flatpak and settings. This folder **is removed** when uninstalling RetroDECK. |
+| **Where is RetroDECK installed?** | **`retrodeck/`** - Stores user data (ROMs, saves, mods, themes and more). This folder remains after uninstallation.<br> **`~/.var/app/net.retrodeck.retrodeck/`** - Contains the main Flatpak and settings. This folder **is removed** when uninstalling RetroDECK. |
 | **Can I move the RetroDECK folders?** | Yes. You can move them using the **Move Tools** in the RetroDECK Configurator. <br> Read more: **[RetroDECK Configurator 🛠️](../wiki_configurator_guides/configurator/configurator.md)** |
 | **Is there a way to reset RetroDECK?** | Yes. The RetroDECK Configurator includes several reset functions that allow you to reset different parts of the software. <br> Read more: **[RetroDECK Configurator 🛠️](../wiki_configurator_guides/configurator/configurator.md)** |
 | **How do I update RetroDECK?** | Follow the instructions in: **[How-to: Update RetroDECK](../wiki_management/retrodeck-update/retrodeck-update.md)** |
@@ -168,7 +168,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 |--------------|------------|
 | **Do I need to prepare my SD card in a specific way for RetroDECK?** | Yes. SD cards can behave unpredictably if not formatted properly or if they contain unsafe characters in their names. It is highly recommended to format your SD card correctly and give it a safe, simple name. |
 | **How should I format my SD card?** | **Steam Deck:**<br>• `Steam` → `Storage` → choose your SD card → press **Y** → **Format Drive**.<br><br>**Other Linux OS:**<br>• Follow the SD card formatting instructions provided by your OS or desktop environment. |
-| **How should I name my SD card?** | Use **only letters and numbers**:<br>• Allowed: `A–Z`, `a–z`, `0–9`<br>• Avoid: spaces, emojis, accents (`é`, `ñ`), punctuation, and symbols. |
+| **How should I name my SD card?** | Use **only letters and numbers**:<br>• Allowed: `A-Z`, `a-z`, `0-9`<br>• Avoid: spaces, emojis, accents (`é`, `ñ`), punctuation, and symbols. |
 | **Why avoid special characters in SD card names?** | Special characters often cause issues in Linux environments:<br>• **Command-line breakage** (e.g., spaces, `!`, `?`, `&`)<br>• **Script failures** when tools can’t parse unusual characters<br>• **Transfer/backup errors** in some protocols that can’t handle special characters |
 | **How do I choose a good SD card?** | Follow these tips to avoid fake or poor-quality cards:<br>• Buy **reputable brands** (SanDisk, Samsung, Kingston)<br>• Purchase from **trusted retailers**, not unknown sellers<br>• Inspect packaging and printing quality<br>• Ensure metal contacts look clean and consistent<br>• Be wary of prices that are **too low**<br>• Test capacity with **F3** (Linux) or **H2testw** (Windows)<br>• Read **recent reviews** for speed & reliability<br>• Check the seller’s reputation before purchase |
 

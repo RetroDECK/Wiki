@@ -145,7 +145,7 @@ An emulator is software that replicates the behavior of a specific system, wheth
 | **Dolphin** | <img src="../../wiki_images/logos/dolphin-logo.png" width="50"> | Wii/GameCube emulator Dolphin | [Dolphin / Primehack - General Guide](../wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md) |
 | **melonDS** | <img src="../../wiki_images/logos/melonds-logo.svg" width="50"> | Nintendo DS emulator melonDS. | [melonDS - General Guide](../wiki_emulator_guides/melonds/melonds-guide.md) |
 | **PCSX2** | <img src="../../wiki_images/logos/pcsx2-logo.png" width="125"> | PlayStation 2 emulator PCSX2. | [PCSX2 - General Guide](../wiki_emulator_guides/pcsx2/pcsx2-guide.md) |
-| **Primehack** | <img src="../../wiki_images/logos/primehack-logo.png" width="50"> | Metroid Prime–optimized fork Primehack. | [Dolphin / Primehack - General Guide](../wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md) |
+| **Primehack** | <img src="../../wiki_images/logos/primehack-logo.png" width="50"> | Metroid Prime-optimized fork Primehack. | [Dolphin / Primehack - General Guide](../wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md) |
 | **PPSSPP** | <img src="../../wiki_images/logos/ppsspp-logo.png" width="50"> | PSP emulator PPSSPP. | [PPSSPP - General Guide](../wiki_emulator_guides/ppsspp/ppsspp-guide.md) |
 | **RPCS3** | <img src="../../wiki_images/logos/rpcs3-logo.png" width="50"> | PlayStation 3 emulator RPCS3. | [RPCS3 - General Guide](../wiki_emulator_guides/rpcs3/rpcs3-guide.md) |
 | **Ruffle** | <img src="../../wiki_images/logos/ruffle-logo.svg" width="50"> | Flash emulator Ruffle. | [Ruffle - General Guide](../wiki_emulator_guides/ruffle/ruffle-guide.md) |

@@ -8,15 +8,15 @@ This API call updates the value of a specified setting within a given configurat
 
 ### Applicable Data Keys
 
-- **setting_file** – The full path or a known variable name (e.g., `$rd_conf`) referencing the configuration file. Variable names must be Bash-compatible and begin with `$`.
+- **setting_file** - The full path or a known variable name (e.g., `$rd_conf`) referencing the configuration file. Variable names must be Bash-compatible and begin with `$`.
 
-- **setting_name** – The name of the setting to be updated.
+- **setting_name** - The name of the setting to be updated.
 
-- **setting_value** – The new value to assign to the specified setting.
+- **setting_value** - The new value to assign to the specified setting.
 
-- **system_name** – The internal RetroDECK system name, matching the component name used in API calls like `get all_components`.
+- **system_name** - The internal RetroDECK system name, matching the component name used in API calls like `get all_components`.
 
-- **section_name** *(Optional)* – The section of the configuration file where the setting is located. Can be omitted if the setting is not sectioned
+- **section_name** *(Optional)* - The section of the configuration file where the setting is located. Can be omitted if the setting is not sectioned
 
 ### Additional Notes
 

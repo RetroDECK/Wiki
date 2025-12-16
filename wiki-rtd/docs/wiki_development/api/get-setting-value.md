@@ -13,13 +13,13 @@ This API call retrieves the value of a specific setting from a known configurati
 
 ### Applicable Data Keys
 
-- **setting_file** – The full path or a known variable name (e.g., `$rd_conf`) for the reference.
+- **setting_file** - The full path or a known variable name (e.g., `$rd_conf`) for the reference.
 
 - **setting_name** - The name of the setting to retrieve.
 
 - **system_name** - The internal RetroDECK system name, matching the component name used in other API calls such as `get all_components`.
 
-- **section_name** - *(Optional)* – The section of the config file where the setting is located. Can be omitted if the setting is not sectioned.
+- **section_name** - *(Optional)* - The section of the config file where the setting is located. Can be omitted if the setting is not sectioned.
 
 ### Additional Notes
 

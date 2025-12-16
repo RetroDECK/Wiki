@@ -10,16 +10,16 @@ Supported components and presets are defined per component and can be retrieved 
 
 ### Applicable Data Keys
 
-- **component** – The internal system name of the component (as used in `get all_components`).
+- **component** - The internal system name of the component (as used in `get all_components`).
 
-- **preset** – The internal name of the preset to be modified (as used in `get current_preset_state`).
+- **preset** - The internal name of the preset to be modified (as used in `get current_preset_state`).
 
-- **state** – The desired new state for the preset.
+- **state** - The desired new state for the preset.
 
-- **cheevos_username** *(Optional)* – Required only when enabling a RetroAchievements-related 
+- **cheevos_username** *(Optional)* - Required only when enabling a RetroAchievements-related 
 preset. This is the username used to log into the RetroAchievements system.
 
-- **cheevos_token** *(Optional)* – Also required for RetroAchievements presets. This token is obtained via the `do cheevos_login` API call.
+- **cheevos_token** *(Optional)* - Also required for RetroAchievements presets. This token is obtained via the `do cheevos_login` API call.
 
 
 ### Additional Notes

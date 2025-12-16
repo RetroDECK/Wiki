@@ -44,7 +44,7 @@ Thank you all!
 
 More development has been going on into this and how it will work in its first iteration is that the games you flag as your favorites can be added to Steam with a tool in the Configurator.
 
-## External Controllers – Button Combo Hotkeys
+## External Controllers - Button Combo Hotkeys
 
 We will ship various Steam Input templates that allows you to use the button bound hotkey combos to do various emulator functions like (Save State, Load State, Quit etc..) for a variety of controllers from 0.8b. All you will need to is plug in / connect your controller, go into Steam Controller setting and choose the RetroDECK template for your controller.
 

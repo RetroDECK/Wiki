@@ -15,7 +15,7 @@ If you plan to use RetroDECK on your SD Card, know that SD cards can be a bit tr
 
 **Use only letters and numbers:** 
 
-- Stick to **A–Z**, **a–z**, and **0–9**.  
+- Stick to **A-Z**, **a-z**, and **0-9**.  
 - Avoid **spaces, emojis, accents (é, ñ), and special characters**.
 
 **Why avoid special characters?**

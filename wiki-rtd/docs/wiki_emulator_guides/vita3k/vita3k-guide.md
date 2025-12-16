@@ -144,7 +144,7 @@ If Vita3K prompts for a **license file** or **key**, provide one of the followin
 
 #### Step 1b: Install DLCs and Patches
 
-Install DLC and game patches the same way as the base game by repeating **Step 1–1b** using their corresponding file type:
+Install DLC and game patches the same way as the base game by repeating **Step 1-1b** using their corresponding file type:
 
 • `.pkg`
 • `.zip`

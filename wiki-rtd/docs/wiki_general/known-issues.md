@@ -25,7 +25,7 @@
 
 | Topic | Issue | Solution |
 |-------|--------|----------|
-| **RetroDECK Hotkeys** | Hotkey support varies widely across emulators. Some have partial or no support. <br><br>Emulators with poor/no hotkey support: <br>• CEMU – almost none <br>• XEMU – none <br>• Vita3K – none <br>• Ryujinx – almost none | RetroDECK plans to map as many hotkeys as possible into the Hotkey System and patch emulator hotkeys as they become available. |
+| **RetroDECK Hotkeys** | Hotkey support varies widely across emulators. Some have partial or no support. <br><br>Emulators with poor/no hotkey support: <br>• CEMU - almost none <br>• XEMU - none <br>• Vita3K - none <br>• Ryujinx - almost none | RetroDECK plans to map as many hotkeys as possible into the Hotkey System and patch emulator hotkeys as they become available. |
 | **Missing Radials on Linux Desktop** | Radial menus may appear behind the game window or the Steam overlay. | Issue has been reported to Valve. |
 | **Who is Player 1?** | Systems may incorrectly assign the Steam Deck or docked controller as Player 1. | Use Steam’s **Reorder Controllers** tool. |
 | **Desktop Layout conflicts with Game Layout (Linux Desktop)** | Desktop Layout sometimes overrides Game Layout, breaking inputs. | Disable Steam Input for Desktop Layout: <br>`Steam` → `Settings` → `Controller` → `Desktop Layout` → `Edit`. |
@@ -40,7 +40,7 @@
 
 ---
 
-## Steam Deck–Specific Issues
+## Steam Deck-Specific Issues
 
 | Topic | Issue | Solution |
 |-------|--------|----------|

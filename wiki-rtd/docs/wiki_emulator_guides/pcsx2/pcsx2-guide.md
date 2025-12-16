@@ -121,7 +121,7 @@ Multitap allows up to **8 players** on the PlayStation 2 by connecting 4 control
 1. Open **PCSX2** via the **RetroDECK Configurator**. 
 2. Go to **Settings → Controllers → Controller Multitap**.
 3. Enable/disable Multitap for **Port 1**, **Port 2**, or both by checking the box.
-4. New controller slots (1A–1D and 2A–2D) will appear for mapping.
+4. New controller slots (1A-1D and 2A-2D) will appear for mapping.
 
 ---
 

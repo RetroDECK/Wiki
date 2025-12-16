@@ -28,7 +28,7 @@ Our support is ours, and theirs are theirs!
 
 ## How-to: Reporting an Problem
 
-- The primary issue tracker is **[RetroDECK – GitHub Issues](https://github.com/RetroDECK/RetroDECK/issues)**.  
+- The primary issue tracker is **[RetroDECK - GitHub Issues](https://github.com/RetroDECK/RetroDECK/issues)**.  
 - We keep it tidy-only “real” bugs belong here.  
 - For general guidance, use the socials, wiki, or the broader RetroDECK community.
 
@@ -44,7 +44,7 @@ Abide by the rules before asking any questions.
 
 ### Is the Problem Already Reported?
 
-- Check the **[RetroDECK – GitHub Issues](https://github.com/RetroDECK/RetroDECK/issues)** page for existing reports.  
+- Check the **[RetroDECK - GitHub Issues](https://github.com/RetroDECK/RetroDECK/issues)** page for existing reports.  
 - Look at the bug‑reporting channels of the specific emulator/engine/system you’re using; wait for RetroDECK to roll out an update if it’s a known issue.  
 - Review the **FAQ ❔** section of this wiki.
 

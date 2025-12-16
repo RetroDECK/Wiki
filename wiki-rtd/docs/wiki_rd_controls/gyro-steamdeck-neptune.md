@@ -23,5 +23,5 @@ This will install **SteamDeckGyroDSU** and create a folder under `$HOME/sdgyrods
 
 ### Important Files in the Installation Folder
 
-- `update.sh` – For updating SteamDeckGyroDSU.  
-- `uninstall.sh` – For uninstalling SteamDeckGyroDSU.
+- `update.sh` - For updating SteamDeckGyroDSU.  
+- `uninstall.sh` - For uninstalling SteamDeckGyroDSU.

@@ -111,7 +111,7 @@ Global hotkeys are activated by **pressing and holding the HotKey Button (HKB)**
 ---
 
 
-## Additional Hotkeys – Components
+## Additional Hotkeys - Components
 
 ### RetroArch: Additional Hotkeys
 
@@ -131,7 +131,7 @@ These hotkeys work for RetroArch, MAME, and other arcade systems.
 
 ---
 
-## Additional Hotkeys – Controllers
+## Additional Hotkeys - Controllers
 
 ### Simple Radial Menu
 
@@ -155,7 +155,7 @@ By holding `SELECT` and moving the `Right Joystick`, you can use it as a mouse f
 
 ---
 
-## Additional Hotkeys – DualShock 4 / DualSense
+## Additional Hotkeys - DualShock 4 / DualSense
 
 The touchpads on DualShock 4 and DualSense controllers act as a mouse, allowing you to navigate mouse-based inputs.
 
@@ -167,7 +167,7 @@ The touchpads on DualShock 4 and DualSense controllers act as a mouse, allowing 
 
 ---
 
-## Additional Hotkeys – Steam Controller (Gordon)
+## Additional Hotkeys - Steam Controller (Gordon)
 
 By pressing `R4`, you can toggle the right touchpad between two modes: **Right Joystick Mode** and **Mouse Mode**. This is useful for games that primarily use the mouse as input, as you don't need to hold `SELECT` or `L4` for mouse functionality.
 
@@ -194,7 +194,7 @@ By holding `HKB` and moving the **Right Touchpad**, you can use it as a mouse fo
 
 ---
 
-## Additional Hotkeys – Steam Deck (Neptune)
+## Additional Hotkeys - Steam Deck (Neptune)
 
 | Function        | Command              | Comment                                                     |
 | :---            | :---:                | :---:                                                       |

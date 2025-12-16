@@ -37,9 +37,9 @@ You can find a detailed step-for-step guide here for both Linux Desktop and Stea
 
 * Just copy the \~/retrodeck folder to the new device to the location you want it.
 * Install RetroDECK on the new device and point to it the new location of \~/retrodeck during first setup:
-   * If you put it on the internal drive – choose that option
-   * If you put it on the sd card – choose that option.
-   * If you put it in a custom location – choose that option.
+   * If you put it on the internal drive - choose that option
+   * If you put it on the sd card - choose that option.
+   * If you put it in a custom location - choose that option.
 * Then proceed installation as normal.
 
 

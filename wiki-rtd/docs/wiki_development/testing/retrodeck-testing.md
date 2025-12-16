@@ -134,8 +134,8 @@ If you are testing a pre-release and the build have left cooker to main the name
  
  Check the RetroDECK team's latest instructions for the recommended path on the current cooker releases on their socials.
 
-1. **Fresh Install** – Start from scratch.
-2. **Upgrade** – Keep your existing setup and update.
+1. **Fresh Install** - Start from scratch.
+2. **Upgrade** - Keep your existing setup and update.
 
 ---
 

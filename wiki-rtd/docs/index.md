@@ -14,7 +14,7 @@ Take a moment to explore the wiki! There’s tons of information waiting for you
 
 ---
 
-### 🚧 Wiki Update in Progress – Version 0.10.0b 🏗️
+### 🚧 Wiki Update in Progress - Version 0.10.0b 🏗️
 
 We’re currently revamping the wiki for the upcoming 0.10.0b release. Over the next few weeks we’ll be:
 

@@ -90,10 +90,10 @@ This is RetroDECK 0.10.0b and future versions.
 
 It was inspired by Docker and OSTree. 
 
-1. **Base Runtime** – Provides a stable, standard execution environment common to all parts, but it can be diverged if needed by components. 
-2. **Libraries Layer** – A curated collection of libraries and tools that are universally required across components.
-2. **Component Shared Libraries Layer** – A curated collection of libraries that are component specific but can be shared with other components, thus saving space. 
-4. **Component Specific Libraries Layer** – Unique special libraries that are only bound to that component and can not be shared. 
+1. **Base Runtime** - Provides a stable, standard execution environment common to all parts, but it can be diverged if needed by components. 
+2. **Libraries Layer** - A curated collection of libraries and tools that are universally required across components.
+2. **Component Shared Libraries Layer** - A curated collection of libraries that are component specific but can be shared with other components, thus saving space. 
+4. **Component Specific Libraries Layer** - Unique special libraries that are only bound to that component and can not be shared. 
 5. **Component Applications** - The binaries are within their own little environment. 
 6. **RetroDECK** - RetroDECK application at the top calling various components, layers and functions. 
 
@@ -246,7 +246,7 @@ The Community Testing Phase of 0.10.0b will start soon.
 
 There will be tons of bugs to iron out and things to configure better. 
 
-Keep in mind that: **Cooker Builds** are for **testers only** – see [How‑to: Start Testing](https://retrodeck.readthedocs.io/en/latest/wiki_development/testing/retrodeck-testing/).
+Keep in mind that: **Cooker Builds** are for **testers only** - see [How‑to: Start Testing](https://retrodeck.readthedocs.io/en/latest/wiki_development/testing/retrodeck-testing/).
 
 1. Do not file GitHub issues for Cooker builds. 
 2. These nightly releases contain **unstable features** and may destabilize or corrupt your RetroDECK setup. 

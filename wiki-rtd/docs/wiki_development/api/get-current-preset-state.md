@@ -12,9 +12,9 @@ This API call retrieves the current state information for a specified preset, co
 
 ### Applicable Data Keys
 
-- **preset** – The name of a specific preset, `any` for all presets, or `all` to retrieve the state of all presets for all components.
+- **preset** - The name of a specific preset, `any` for all presets, or `all` to retrieve the state of all presets for all components.
 
-- **component** *(Optional)* – The internal name of a specific component. If omitted, data will be returned for all applicable components.
+- **component** *(Optional)* - The internal name of a specific component. If omitted, data will be returned for all applicable components.
 
 ### Additional Notes
 

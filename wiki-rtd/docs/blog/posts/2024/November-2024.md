@@ -99,7 +99,7 @@ Xenia will not be part of 0.9.0b.
 
 ## Godot Configurator - status 
 
-**Game Mode – Markdown viewer**
+**Game Mode - Markdown viewer**
 
 We are looking into a sophisticated markdown viewer to integrate into RetroDECK.  
  

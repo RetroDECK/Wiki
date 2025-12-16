@@ -30,7 +30,7 @@ A client is a system or application that connects to a server or online service 
 
 **Examples:** 
 
-- **Mudlet** – A MUD client for connecting to text-based multiplayer servers.
+- **Mudlet** - A MUD client for connecting to text-based multiplayer servers.
 
 ### Emulators
 
@@ -38,9 +38,9 @@ An **emulator** is a software application designed to replicate the hardware and
 
 **Examples:** 
 
-- **PCSX2** – PlayStation 2 emulator.  
-- **Vita3K** – PlayStation Vita emulator.  
-- **Pico-8** – Fantasy console.  
+- **PCSX2** - PlayStation 2 emulator.  
+- **Vita3K** - PlayStation Vita emulator.  
+- **Pico-8** - Fantasy console.  
 
 
 ### Multi-Emulators
@@ -49,9 +49,9 @@ A **multi-emulator** (or multi-system emulator) is a platform capable of running
 
 **Examples:** 
 
-- **RetroArch** – Multi-emulator frontend supporting numerous systems through Libretro cores.  
-- **MAME** – MAME is a multi-purpose emulation framework specializing in arcade hardware preservation.  
-- **ares** – Multi-system emulator focused on accuracy and preservation.
+- **RetroArch** - Multi-emulator frontend supporting numerous systems through Libretro cores.  
+- **MAME** - MAME is a multi-purpose emulation framework specializing in arcade hardware preservation.  
+- **ares** - Multi-system emulator focused on accuracy and preservation.
 
 ### Engines
 
@@ -59,9 +59,9 @@ Engines are game engines or runtime environments designed to run games built spe
 
 **Examples:** 
 
-- **Solarus** – Action-RPG engine.  
-- **UZDoom** – Source port for Doom-engine games.  
-- **OpenBOR** – Open-source Beat ’em Up engine.  
+- **Solarus** - Action-RPG engine.  
+- **UZDoom** - Source port for Doom-engine games.  
+- **OpenBOR** - Open-source Beat ’em Up engine.  
 
 ### Systems
 
@@ -69,10 +69,10 @@ Systems are non-gaming platforms or software environments supported within Retro
 
 **Examples:** 
 
-- **Steam Rom Manager** – Tool for managing and importing ROMs into Steam.  
-- **ES-DE** – RetroDECK’s chosen frontend.  
-- **Flips** – Tool for handling ROMs and patches.  
-- **PortMaster** – Application for managing game ports and installations.  
+- **Steam Rom Manager** - Tool for managing and importing ROMs into Steam.  
+- **ES-DE** - RetroDECK’s chosen frontend.  
+- **Flips** - Tool for handling ROMs and patches.  
+- **PortMaster** - Application for managing game ports and installations.  
 
 ### Ports
 
@@ -125,7 +125,7 @@ A multi-tool with a powerful backend.
 |---------------------------------|---------------------------------------------------------------------------------------------------------------|
 | **Automatic BIOS handling**      | RetroDECK can check for required BIOS files and auto-install supported ones to simplify setup.                |
 | **File-management utilities**    | Tools for organizing or moving folders and components within RetroDECK.                                       |
-| **Full content management**      | Organize all user-accessible content in RetroDECK, including backups, BIOS, borders, cheats, ES-DE, logs, mods, ROMs, saves, screenshots, states, shaders, texture packs, and storage. RetroDECK exposes dedicated folders for easy access: <br>• `retrodeck/backups/` <br>• `retrodeck/bios/` <br>• `retrodeck/borders/` <br>• `retrodeck/cheats/` <br>• `retrodeck/ES-DE/` <br>• `retrodeck/logs/` <br>• `retrodeck/mods/` <br>• `retrodeck/roms/` <br>• `retrodeck/saves/` <br>• `retrodeck/screenshots/` <br>• `retrodeck/states/` <br>• `retrodeck/shaders/` <br>• `retrodeck/texture_packs/` <br>• `retrodeck/storage/` – a catch-all for miscellaneous user-accessible data |
+| **Full content management**      | Organize all user-accessible content in RetroDECK, including backups, BIOS, borders, cheats, ES-DE, logs, mods, ROMs, saves, screenshots, states, shaders, texture packs, and storage. RetroDECK exposes dedicated folders for easy access: <br>• `retrodeck/backups/` <br>• `retrodeck/bios/` <br>• `retrodeck/borders/` <br>• `retrodeck/cheats/` <br>• `retrodeck/ES-DE/` <br>• `retrodeck/logs/` <br>• `retrodeck/mods/` <br>• `retrodeck/roms/` <br>• `retrodeck/saves/` <br>• `retrodeck/screenshots/` <br>• `retrodeck/states/` <br>• `retrodeck/shaders/` <br>• `retrodeck/texture_packs/` <br>• `retrodeck/storage/` - a catch-all for miscellaneous user-accessible data |
 | **Game compression tools**       | Reduce file sizes with built-in compression utilities to save storage space.                                  |
 | **Global presets**               | Configure multiple components at once with universal presets, including: <br> - RetroAchievements <br> - Borders and overlays <br> - Widescreen enhancements <br> - Swapped A/B or X/Y buttons for Nintendo platforms <br> - Additional system-wide options |
 | **Prebuilt Steam Input Templates** | Quickly apply controller templates tailored for Steam Deck, external controllers, and more.                 |
@@ -195,9 +195,9 @@ What are the versions?
 
 To stay up-to-date with the latest RetroDECK developments:  
 
-- **Follow us on social media** – Links are available on the [Wiki Start Page](../index.md).  
-- **Check the RetroDECK Blog** – Read updates and announcements on the [blog](../blog/index.md).  
-- **Explore GitHub issues** – See ongoing work, planned features, and community discussions on [GitHub](https://github.com/RetroDECK/RetroDECK/issues/).  
+- **Follow us on social media** - Links are available on the [Wiki Start Page](../index.md).  
+- **Check the RetroDECK Blog** - Read updates and announcements on the [blog](../blog/index.md).  
+- **Explore GitHub issues** - See ongoing work, planned features, and community discussions on [GitHub](https://github.com/RetroDECK/RetroDECK/issues/).  
 
 ## Patch Notes and Known Issues
 

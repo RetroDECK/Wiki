@@ -8,19 +8,19 @@ This API call returns an array of objects representing games that are compatible
 
 ### Applicable Data Keys
 
-- **format** – Specifies the compression format to check for compatibility
+- **format** - Specifies the compression format to check for compatibility
 
 **Additional details for applicable data keys:**
 
 Valid values for key "format":
 
-- **chd** – CHD compression, commonly used for disc-based systems (e.g., PSP).
+- **chd** - CHD compression, commonly used for disc-based systems (e.g., PSP).
 
-- **rvz** – RVZ compression, specific to Dolphin-based systems (e.g., GameCube).
+- **rvz** - RVZ compression, specific to Dolphin-based systems (e.g., GameCube).
 
-- **zip** – ZIP compression, supported by many systems.
+- **zip** - ZIP compression, supported by many systems.
 
-- **all** – Checks compatibility for all supported compression formats.
+- **all** - Checks compatibility for all supported compression formats.
 
 If `all` is provided as the format, the system will evaluate compatibility across all supported compression types.
 

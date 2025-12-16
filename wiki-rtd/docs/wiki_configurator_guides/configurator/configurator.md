@@ -94,7 +94,7 @@ flatpak run net.retrodeck.retrodeck --configurator
 
 ---
 
-## RetroDECK Configurator – Open Component
+## RetroDECK Configurator - Open Component
 
 The **Open Component** menu is intended for **advanced users** who wish to tweak or modify default RetroDECK settings for individual components.
 
@@ -106,7 +106,7 @@ The RetroDECK team encourages experimentation, but if anything goes wrong, use t
 
 ---
 
-## RetroDECK Configurator – Reset Components
+## RetroDECK Configurator - Reset Components
 
 The **Reset Components** menu allows users to restore **specific components**, multiple components, or the **entire RetroDECK system** to their default settings.
 
@@ -134,7 +134,7 @@ The **Reset Components** menu allows users to restore **specific components**, m
 
 ---
 
-## RetroDECK Configurator – Steam Tools Menu
+## RetroDECK Configurator - Steam Tools Menu
 
 | **Choice**                                 | **Action**                                                                                                                           | **Comments** |
 |--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|--------------|
@@ -146,7 +146,7 @@ The **Reset Components** menu allows users to restore **specific components**, m
 
 ---
 
-## RetroDECK Configurator – Tools Menu 
+## RetroDECK Configurator - Tools Menu 
 
 | **Choice**                             | **Action**                                                                                     | **Comments** |
 |----------------------------------------|-------------------------------------------------------------------------------------------------|--------------|

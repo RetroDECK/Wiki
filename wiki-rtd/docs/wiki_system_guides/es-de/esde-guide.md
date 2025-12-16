@@ -39,202 +39,113 @@ ES-DE is the default frontend used in RetroDECK.
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
-| Top Folder | `retrodeck/ES-DE/`   |   |
-| Collection Folder | `retrodeck/ES-DE/collections/`  |  Usermade ES-DE collections  |
-| Custom Systems Folder | `retrodeck/ES-DE/custom_systems/`  |  Usermade ES-DE custom systems  |
-| Media Folder | `retrodeck/ES-DE/downloaded_media/`  |  Scraped media files  |
-| Gamelists Folder | `retrodeck/ES-DE/gamelists/`  |  Gamelists  |
-| Themes Folder | `retrodeck/ES-DE/themes/`  |  Downloaded themes |
+| Root ES-DE | `retrodeck/ES-DE/`   |   |
+| Collections | `retrodeck/ES-DE/collections/`  |  Usermade ES-DE collections  |
+| Custom Systems | `retrodeck/ES-DE/custom_systems/`  |  Usermade ES-DE custom systems  |
+| Media | `retrodeck/ES-DE/downloaded_media/`  |  Scraped media files  |
+| Gamelists | `retrodeck/ES-DE/gamelists/`  |  Gamelists  |
+| Themes | `retrodeck/ES-DE/themes/`  |  Downloaded themes |
 
 ---
 
 ## ES-DE General Usage
 
-### How-to switch language in ES-DE?
+| Topic | Description |
+|------|-------------|
+| **Change Language in ES-DE** | ES-DE defaults to the system language if supported.<br>To change it manually: open **ES-DE Menu → ES-DE Configurations → UI Settings → Application Language**, then select your preferred language. |
+| **Change Emulator for an Entire System** | Open **ES-DE Menu → ES-DE Configurations → Other Settings → Alternative Emulators**.<br>Select the system, and choose a new default emulator. |
+| **Change Emulator for a Specific Game** | Navigate to the game.<br>Press **Select → Edit This Game’s Metadata → Alternative Emulator**.<br>Choose the emulator, and press **Save**. |
+| **Why Menu Navigation Does Not Wrap (Up/Down)** | ES-DE menus are grid-based rather than simple lists, and grids can include mixed elements such as text entries and buttons.<br>Because layouts vary, wrap-around navigation would behave inconsistently.<br>ES-DE instead provides navigation shortcuts:<br>• **L1 / Page Up** - jump up 6 rows in menus, 10 in gamelists<br>• **R1 / Page Down** - jump down 6 rows in menus, 10 in gamelists<br>• **L2 / Home** - jump to top<br>• **R2 / End** - jump to bottom<br>See the official FAQ for more details: [ES-DE FAQ](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md#why-cant-i-press-the-up-button-in-menus-to-jump-to-the-bottom-row-and-vice-versa). |
 
-ES-DE is by default set to respect your systems language if supported by the frontend. 
-
-If you want to change the locale:
-
-1. Open the `ES-DE Menu`.
-2. `ES-DE Configurations` -> `UI Settings` -> `Application Language`.
-3. Set the language you want. 
-
-### How-to change the Emulator for a whole system?
-
-1. Open the `ES-DE Menu`.
-2. Navigate to `ES-DE Configurations` -> `Other Settings` -> `Alternative Emulators`
-3. A list of systems will be shown and select the system you want to change.
-4. Change the default emulator. 
-
-### How-to change the Emulator for a spefic game?
-
-1. Navigate to the game you want to change emulator for. 
-2. Press `Select` -> `EDIT THIS GAME'S METADATA` -> `Alternative Emulator`
-3. Change the emulator.
-4. Press `SAVE`.
-
-### Why can't I press the up button in menus to jump to the bottom row and vice versa?
-
-[ES-DE: Awnser](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md#why-cant-i-press-the-up-button-in-menus-to-jump-to-the-bottom-row-and-vice-versa)
-
-```
-Why this does not work is that menus in ES-DE are not lists but grids.
-
-A grid can not only contain selectable rows with text but also other features like buttons. <br>
-For example, in one part of the interface there could just be a list of ROMs but in another there could be various button elements as in the scraping menu.
-
-Enabling the up and down buttons to wrap around would therefore not work consistently as it would sometimes jump to the last row of the grid or to a button at random depending on the layout of the grid.
-Every time it would require a different number of button presses depending on the grid layout.
-
-This type of contextual navigation feels very weird in practice, especially when you must press the up button twice to find the underlying cause of a list in some lists but more times in others depending on the button layout.
-```
-
-The solution ES-DE opted for instead is:
-
-- `L1` or `Page Up` Jumps up 6 rows in menus and 10 rows in gamelists.
-- `R1` or `Page Down` Jumps down 6 rows in menus and 10 rows in gamelists.
-- `L2` or `Home` Jumps to the top of the menu or gamelist.
-- `R2` or `End` Jumps to the bottom of the menu or gamelist.
 
 ---
 
 ## ES-DE Themes
 
-ES-DE comes with several themes ready to download.
+ ES-DE includes several themes that can be downloaded and used immediately. A full list of available themes can be found in the [ES-DE Theme List](https://gitlab.com/es-de/themes/themes-list). 
 
-Check the [ES-DE: Theme List](https://gitlab.com/es-de/themes/themes-list) for a list of them.
+| Topic | Description |
+|------|-------------|
+| **Switch Between Themes** | Open **ES-DE Menu → ES-DE Configurations → UI Settings → Theme Set**.<br>Then select the desired theme. |
+| **Add Themes (Theme Downloader)** | Navigate to **ES-DE Menu → ES-DE Configurations → UI Settings → Theme Downloader**.<br>Browse and download additional themes directly within ES-DE. |
+| **Add Themes (From the Internet)** | Ensure the theme is compatible with ES-DE before downloading.<br>Download the theme, extract it if compressed (.zip or .7z), and place the extracted folder in `retrodeck/ES-DE/themes/`.<br>The final path should be `retrodeck/ES-DE/themes/<downloaded_theme_folder>`.<br>Launch RetroDECK and select the theme normally. |
+| **Theme Not Working or Broken Layout** | Verify the theme is explicitly compatible with **ES-DE**.<br>Themes designed for Batocera are not compatible, as ES-DE uses a unique theme engine and themes are not directly portable.<br>Refer to the ES-DE Guide for additional details. |
+| **Squished Theme Layout on Steam Deck** | The Steam Deck uses a `16:10` aspect ratio, while many third-party themes are designed for `16:9`, which can cause layouts to appear squished.<br>All included themes are built for `16:10`.<br>To resolve this issue with external themes, either use a version designed for `16:10` or modify the theme to support that aspect ratio. |
 
-### How-to switch between themes?
-
-Go to `ES-DE Menu` -> `ES-DE Configurations` -> `UI Settings` -> `Theme Set` to select the theme you want to use.
-
-### How do I add additional themes?
-
-**From the Theme Downloader**
-
-Go into `ES-DE Menu` -> `ES-DE Configurations` -> `UI Settings` -> `Theme Downloader` from there you can download a wide array of themes.
-
-**From the Internet**
-
-If you find a theme on the internet you would like to use that is not in the `Theme Downloader`.
-
-**NOTE:** Before you begin always check if the theme is compatible with ES-DE.
-
-1. Download the theme.
-2. Extract it if it is compressed (.zip or .7z).
-3. Put the extracted folder into `retrodeck/ES-DE/themes/`.
-4. The end result should look like `retrodeck/ES-DE/themes/<downloaded theme folder>`.
-5. Launch RetroDECK and select the theme as normal.
-
-### "Why does the theme I am using not work?" or "Why does the layout look broken?" (black screen with blue text)?
-
-- Please make sure you are specifically using a theme that is compatible with [ES-DE](https://www.es-de.org).
-- If you are trying to use a theme that was built for Batocera it will not be compatible.
-- ES-DE uses a unique theme engine so themes are not directly portable from Batocera.
-
-See the ES-DE's Guide 📘 for more details.
-
-
-### Why does the theme layout look squished?
-
-- The Steam Deck has a screen aspect ratio of `16:10` and most themes that you will find are built for an aspect ratio of `16:9`.  Depending on the theme's design this may cause the layout to appear squished when using it on the Steam Deck's display.
-
-- All the included themes are built for 16:10 aspect ratio so you should not see this issue with any of them; however, if you are downloading a theme from another source there is a chance this can occur for you.
-
-- There are 2 ways to fix this if it does occur: (1) see if a specific version was built for `16:10` aspect ratio and use that instead or (2) edit the theme to make it compatible with that aspect ratio.
 
 ---
 
 ## ES-DE Scraping
 
-Scraping allows you to make the games look "pretty" with coverarts, icons, discimages and more.
+Scraping enhances your game library with cover art, icons, disc images, videos, and more. ES-DE supports **ScreenScraper** and **TheGamesDB**
 
-ES-DE supports two scraping services:
-
-- [Screenscraper](https://www.screenscraper.fr/)
-- [THEGAMESDB](https://thegamesdb.net/) 
-
-Read up on the ES-DE userguide on scraping here:
-
-[ES-DE Scraper guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#scraping)
-
-You can find the scraping settings in the ES-DE interface under `ES-DE Menu` -> `Scraping`.
+| Topic | Description |
+|------|-------------|
+| **Supported Scraping Services** | • [ScreenScraper](https://www.screenscraper.fr/) <br>  • [TheGamesDB](https://thegamesdb.net/) |
+| **Scraping Settings Location** | **ES-DE Menu → Scraping** |
+| **Official Guide** | See the [ES-DE Scraper Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#scraping) for detailed documentation. |
 
 ### General Tips
 
-**On Screenscraper vs TheGames**
-
-- On most occasions you want to use ScreenScraper and not THEGAMESDB. But for PC titles scraping from TheGamesDB might be better.
-- You will need to register an account on [ScreenScraper.fr](https://www.screenscraper.fr/) to scrape (support them on Patreon for faster downloads, more scrapes per day and priority scraping).
-- Login to your Screenscraper.fr account inside of the ES-DE interface in RetroDECK under `ES-DE Menu` -> `Scraping` -> `Account Settings`.
-
-**On scraping:**
-
-- Choose what content you want to scrape under `ES-DE Menu` -> `Scraping` -> `Content Settings`. (remember that each content you choose could take up several mb of data per game).
-- Do an initial scrape of all the games you want to scrape.
-- If some games are missed do a more narrow scraping by enabling `Scraper -> Other Settings -> Interactive Mode -> On`& Scraper -> `Other Settings -> Auto-Accept Single Game Matches -> On` and choose to scrape by games missing metadata. This will allow you to select each game from a list and also tweak the searches of the missing games.
-- In some cases you need to remove certain aspects of the name like if a rom comes both with a Japanese name and English name, you could try to remove one of the names to find a better result.
-
-### Where is my scraped data?
-
-In: `~/retrodeck/ES-DE/downloaded_media` folder.
-
-### Can I move the downloaded_media folder?
-
-You can move it with the the move RetroDECK option inside the configurator.
-
-### Can I copy the downloaded_media folder to another device?
-
-Yes, just copy it into the other device RetroDECK folder.
-
-### My systems storage ran out after scraping...
-
-**Try an automatic cleanup:**
-
-`ES-DE Menu` -> `Utilties` - `Orphaned Data Cleanup`
-
-This will remove media files that have no games associated with them.
-
-**Try manual cleanup:**
-
-You can clean out images and videos that takes a lot of space under: `~/retrodeck/ES-DE/downloaded_media`.
-
-**But I still want them all...**.
-
-The only way to still keep them is either delete something else from the storage or buy more storage.
+| Topic | Description |
+|------|-------------|
+| **ScreenScraper vs TheGamesDB** | ScreenScraper is recommended in most cases.<br>TheGamesDB may work better for PC titles. |
+| **ScreenScraper Account** | A ScreenScraper account is required.<br>Supporting them on Patreon enables faster downloads, higher daily limits, and priority scraping. |
+| **Account Login** | Log in via **ES-DE Menu → Scraping → Account Settings**. |
+| **Content Selection** | Choose what to scrape under **ES-DE Menu → Scraping → Content Settings**.<br>Each content type may consume several MB per game. |
+| **Initial Scrape** | Perform a full scrape of your library first. |
+| **Fix Missing Games** | Enable **Scraping → Other Settings → Interactive Mode → On** and **Auto-Accept Single Game Matches → On**.<br>Then scrape only games missing metadata. |
+| **Name Adjustments** | If scraping fails, try simplifying ROM names (e.g., remove duplicate Japanese/English titles). |
 
 
-### How-to: Add manual game media files without scraping
+### Scraped Data Management
 
-**TIP**
+| Topic | Description |
+|------|-------------|
+| **Scraped Data Location** | `~/retrodeck/ES-DE/downloaded_media` |
+| **Move downloaded_media** | Use the **Move RetroDECK** option in the configurator. |
+| **Copy to Another Device** | Yes. Copy the `downloaded_media` folder into the RetroDECK directory on the other device. |
+| **Storage Full After Scraping** | Large media files can quickly consume storage. |
 
-The ES-DE User Guide has their own guide and a handy speadsheet:
+### Storage Cleanup Options
 
-- [Instructions: Manually copying game media files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md?ref_type=heads#manually-copying-game-media-files) 
-- [Spreadsheet: Media Types in ES-DE](https://docs.google.com/spreadsheets/d/18VJAL44aNxsFOd4pVAONmdWwa7srCSzr2Z2SJEiNKnE/edit?gid=1812680930#gid=1812680930)
+| Method | Description |
+|------|-------------|
+| **Automatic Cleanup** | **ES-DE Menu → Utilities → Orphaned Data Cleanup** (removes unused media). |
+| **Manual Cleanup** | Manually delete large files (images/videos) from `~/retrodeck/ES-DE/downloaded_media`. |
+| **Keep Everything** | Free space elsewhere or expand storage capacity. |
 
-**The Guide:**
+---
 
-If you already have a library of game media (images, videos and PDF manuals) you can manually copy these files into RetroDECK (ES-DE). 
+## Manual Media (Without Scraping)
 
-**Requirements & Tips:**
+| Topic | Description |
+|------|-------------|
+| **Overview** | You can manually add images, videos, and manuals without using scraping. |
+| **Official Resources** | • [Manual Media Instructions](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md?ref_type=heads#manually-copying-game-media-files)<br>• [Media Types Spreadsheet](https://docs.google.com/spreadsheets/d/18VJAL44aNxsFOd4pVAONmdWwa7srCSzr2Z2SJEiNKnE/edit?gid=1812680930#gid=1812680930) |
+| **Filename Rules** | Linux is case-sensitive.<br>File extensions must be lowercase and filenames must exactly match the game filename. |
+| **Directory-as-File Games** | For systems like ScummVM, include the directory extension in the media filename (e.g., `dig.scummvm.png`). |
+| **Supported Image Formats** | `.jpg`, `.png` |
+| **Supported Video Formats** | `.avi`, `.mkv`, `.mov`, `.mp4`, `.wmv` |
+| **Supported Documents** | `.pdf` |
 
-- Remember that on Linux filenames are case sensitive.
-- The file extensions must be in lower case in ES-DE (`.png` instead of `.PNG` / `.Png`).
-- The media files names must correspond exactly to the game files name.
-- For directories interpreted as files games (like ScummVM) you will need to add the folder file extension to the media file name example: `dig.scummvm.png`.
-- Supported image file extensions are: `.jpg` and `.png`.
-- Supported document file extensions are: `.pdf`.
-- Supported video file extensions are: `.avi` , `.mkv` , `.mov` , `.mp4` and `.wmv`.
+### Examples
 
-The default media directory is: 
+| Scenario | Path |
+|-------|------|
+| **Multi-disk / Single Game (Screenshot)** | `~/retrodeck/ES-DE/downloaded_media/c64/screenshots/Multidisk/Last Ninja 2/Last Ninja 2.jpg` |
+| **Multi-disk / Single Game (Video)** | `~/retrodeck/ES-DE/downloaded_media/c64/videos/Multidisk/Last Ninja 2/Last Ninja 2.mp4` |
+| **Directory-as-File Game (Screenshot)** | `~/retrodeck/ES-DE/downloaded_media/scummvm/screenshots/dig.scummvm.png` |
+| **Directory-as-File Game (Video)** | `~/retrodeck/ES-DE/downloaded_media/scummvm/videos/dig.scummvm.mp4` |
+
+### Default Media Directory Structure
 
 ```
 ~/retrodeck/ES-DE/downloaded_media/<system name>/<media type>/<files goes here>
 ```
 
-The following media type directories are supported: 
+
+### Supported Media Types
 
 ```
 3dboxes
@@ -251,77 +162,18 @@ titlescreens
 videos
 ```
 
-#### Example adding media files to games
-
-**A multi-disk game or a single game:**
-
-You want to add a screenshot and a video to the game:
-
-```
-~/retrodeck/roms/c64/Multidisk/Last Ninja 2/Last Ninja 2.m3u
-```
-
-Then the media files structure needs to be the following:
-
-Screenshots: 
-
-```
-~/retrodeck/ES-DE/downloaded_media/c64/screenshots/Multidisk/Last Ninja 2/Last Ninja 2.jpg
-```
-
-Videos: 
-
-```
-`~/retrodeck/ES-DE/downloaded_media/c64/videos/Multidisk/Last Ninja 2/Last Ninja 2.mp4`
-```
-
-**A Directories interpreted as files game:**
-
-You want to add a screenshot and a video to the game:
-
-```
-~/retrodeck/roms/scummvm/dig.scummvm
-```
-
-The media files for this directory which is interpreted as a file will be:
-
-Screenshots:
-
-```
-`~/retrodeck/ES-DE/downloaded_media/scummvm/screenshots/dig.scummvm.png
-```
-
-Videos:
-
-```
-~/retrodeck/ES-DE/downloaded_media/scummvm/videos/dig.scummvm.mp4
-```
-
-
 ---
 
+## ScreenScraper FAQ
 
-## Screenscraper FAQ
+| Question | Answer |
+|---------|--------|
+| **I received a quota-related error after scraping** | ScreenScraper enforces a daily scraping quota, where each scraped item counts toward the daily limit.<br>You can either wait 24 hours for the quota to reset or support ScreenScraper financially to increase your daily quota. |
+| **The server or service is down** | If ScreenScraper is unavailable, check the official [ScreenScraper website](https://www.screenscraper.fr/) for status updates and availability. |
+| **I have donated—how do I get faster scraping?** | You must link your ScreenScraper account with your Patreon account.<br>Refer to the [ScreenScraper Patreon](https://www.patreon.com/screenscraper) page for detailed instructions. |
+| **Scraping is very slow** | ScreenScraper offers multiple donation tiers that increase scraping speed by enabling additional download threads. |
 
-### I got some weird error message about quota after scraping?
 
-The error message mentions something about quota. You have a quota limit on how much you can scrape each day from [Screenscraper](https://www.screenscraper.fr/) where each item you scrape counts as 1 quota of the daily total.
-
-You can pay them to get a bit more daily quota and show your support or just wait 24 hours.
-
-### The Server or Service is down?
-
-The service is down, check the [Screenscraper Website](https://www.screenscraper.fr/) when they get back up.
-
-### I have donated how do I get faster scraping?
-
-You have to associate your Screenscraper Account with your Pateron Account.
-
-Check [Screenscraper Pateron](https://www.patreon.com/screenscraper) for instructions.
-
-### The scraping is very slow...
-
-[Screenscraper](https://www.screenscraper.fr/) offers different types of donations that can increase your speed with extra threads.
 
 
 ---
@@ -330,38 +182,24 @@ Check [Screenscraper Pateron](https://www.patreon.com/screenscraper) for instruc
 
 Here follows various quick bookmarks to specific section of the User Guide that is good to read and always updated with the lastest information.
 
-### Navigation and UI Settings
+## ES-DE User Guide Quick Links
 
-[ES-DE: General Navigation](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#general-navigation)
+| Section | Link |
+|---------|------|
+| **Navigation and UI Settings** | [General Navigation](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#general-navigation) |
+|  | [UI Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#ui-settings) |
+|  | [Other UI Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings) |
+|  | [Sound Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sound-settings) |
+| **Game Settings, Collections, and Filters** | [Game Options](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#game-options-menu) |
+|  | [Game Collections](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#game-collections) |
+|  | [Setting Alternative Emulator](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings-1) |
+| **Scraper, Art, Videos, and Images** | [Scraper Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#scraping) |
+|  | [Scraper Accounts](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#account-settings) |
+|  | [Content Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#content-settings) |
+|  | [Custom Media Files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#manually-copying-game-media-files) |
+|  | [Miximage Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#miximage-settings) |
+|  | [Other Scraper Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings) |
+|  | [Metadata Editor](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#metadata-editor) |
 
-[ES-DE: UI Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#ui-settings)
-
-[ES-DE: Other UI settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings)
-
-[ES-DE: Sound Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sound-settings)
-
-### Game settings, collections and filters
-
-[ES-DE: Game Options](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#game-options-menu)
-
-[ES-DE: Game Collections](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#game-collections)
-
-[ES-DE: Setting Alternative Emulator](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings-1)
-
-### Scraper, art, videos and images
-
-[ES-DE: Scraper Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#scraping)
-
-[ES-DE: Scraper Accounts](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#account-settings)
-
-[ES-DE: Content Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#content-settings)
-
-[ES-DE: Custom Media Files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#manually-copying-game-media-files)
-
-[ES-DE: Miximage settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#miximage-settings)
-
-[ES-DE: Other scraper settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings)
-
-[ES-DE: Metadata editor](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#metadata-editor)
 
 ---

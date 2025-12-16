@@ -37,14 +37,14 @@ ES-DE is the default frontend used in RetroDECK.
 
 ## Folder structure
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| Root ES-DE | `retrodeck/ES-DE/`   |   |
-| Collections | `retrodeck/ES-DE/collections/`  |  Usermade ES-DE collections  |
-| Custom Systems | `retrodeck/ES-DE/custom_systems/`  |  Usermade ES-DE custom systems  |
-| Media | `retrodeck/ES-DE/downloaded_media/`  |  Scraped media files  |
-| Gamelists | `retrodeck/ES-DE/gamelists/`  |  Gamelists  |
-| Themes | `retrodeck/ES-DE/themes/`  |  Downloaded themes |
+| Type| Folder |Comment | 
+|:---:| :---:| :---: |
+| Root ES-DE | `retrodeck/ES-DE/` | |
+| Collections | `retrodeck/ES-DE/collections/`|Usermade ES-DE collections|
+| Custom Systems | `retrodeck/ES-DE/custom_systems/`|Usermade ES-DE custom systems|
+| Media | `retrodeck/ES-DE/downloaded_media/`|Scraped media files|
+| Gamelists | `retrodeck/ES-DE/gamelists/`|Gamelists|
+| Themes | `retrodeck/ES-DE/themes/`|Downloaded themes |
 
 ---
 
@@ -57,6 +57,30 @@ ES-DE is the default frontend used in RetroDECK.
 | **Change Emulator for a Specific Game** | Navigate to the game.<br>Press **Select → Edit This Game’s Metadata → Alternative Emulator**.<br>Choose the emulator, and press **Save**. |
 | **Why Menu Navigation Does Not Wrap (Up/Down)** | ES-DE menus are grid-based rather than simple lists, and grids can include mixed elements such as text entries and buttons.<br>Because layouts vary, wrap-around navigation would behave inconsistently.<br>ES-DE instead provides navigation shortcuts:<br>• **L1 / Page Up** - jump up 6 rows in menus, 10 in gamelists<br>• **R1 / Page Down** - jump down 6 rows in menus, 10 in gamelists<br>• **L2 / Home** - jump to top<br>• **R2 / End** - jump to bottom<br>See the official FAQ for more details: [ES-DE FAQ](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md#why-cant-i-press-the-up-button-in-menus-to-jump-to-the-bottom-row-and-vice-versa). |
 
+---
+
+## ES-DE General Navigation 
+
+**Text Input Notes:**
+
+- **Enter** applies changes, **Escape** cancels.
+- Keys mapped to left, right, down, shoulder, or trigger buttons do not work in text fields; use the virtual keyboard instead.
+- Pasting is supported via **Ctrl + V / Shift + Insert**.
+
+| Xbox Button | PlayStation | Nintendo | Default Keyboard | Function |
+|-------------|-------------|----------|-----------------|---------|
+| Up / Down | D-Pad Up / D-Pad Down | D-Pad Up / D-Pad Down | Arrow Up / Arrow Down | Navigate between systems and games in lists, grids, or carousels; also used for menu navigation. In the media viewer, switches between game media and PDFs. |
+| Left / Right | D-Pad Left / D-Pad Right | D-Pad Left / D-Pad Right | Arrow Left / Arrow Right | Navigate between entries in grids or horizontal carousels; switch gamelists if Quick system select is enabled; navigate media files; select random games in video/slideshow screensavers; also used in menus. |
+| Start | Options | + | Escape | Opens/closes main menu. |
+| Back | Share | - | F1 | Opens/closes gamelist options menu. |
+| Left / Right Shoulder | L1 / R1 | L / R | Page Up / Page Down | Quick jumps in lists/menus (6 entries in menus, 10 in gamelists); navigate gamelists with Quick system select; back/blankspace in text edit dialogs; zoom in/out in PDF viewer. |
+| Left / Right Trigger | L2 / R2 | ZL / ZR | Home / End | Jump to first/last entries in carousels, grids, menus, and text edit dialogs; navigate gamelists with Quick system select; jump to first/last entry/page in media viewer. |
+| Left / Right Thumbstick Click | L3 / R3 | L / R Stick Click | F2 / F3 | Jump to random game or system (requires Random entry button configuration). |
+| A Button | Cross | B | Enter | Selects items: open gamelists, launch games, enter folders, select menu entries. |
+| B Button | Circle | A | Back key | Back button. |
+| X Button | Square | Y | Delete | Start media viewer in gamelist or screensaver in system view (if enabled); other minor functions. |
+| Y Button | Triangle | X | Insert | Mark games as favorites (if enabled); other minor functions. |
+| Start + Back | Options + Share | + + - | Ctrl + Q | Quit ES-DE; can be customized via Keyboard quit shortcut. |
 
 ---
 
@@ -81,7 +105,7 @@ Scraping enhances your game library with cover art, icons, disc images, videos, 
 
 | Topic | Description |
 |------|-------------|
-| **Supported Scraping Services** | • [ScreenScraper](https://www.screenscraper.fr/) <br>  • [TheGamesDB](https://thegamesdb.net/) |
+| **Supported Scraping Services** | • [ScreenScraper](https://www.screenscraper.fr/) <br>• [TheGamesDB](https://thegamesdb.net/) |
 | **Scraping Settings Location** | **ES-DE Menu → Scraping** |
 | **Official Guide** | See the [ES-DE Scraper Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#scraping) for detailed documentation. |
 
@@ -173,6 +197,30 @@ videos
 | **I have donated—how do I get faster scraping?** | You must link your ScreenScraper account with your Patreon account.<br>Refer to the [ScreenScraper Patreon](https://www.patreon.com/screenscraper) page for detailed instructions. |
 | **Scraping is very slow** | ScreenScraper offers multiple donation tiers that increase scraping speed by enabling additional download threads. |
 
+---
+
+## Migrating from EmulationStation
+
+| Topic | Description |
+|-------|-------------|
+| **Compatibility** | ES-DE has evolved significantly from EmulationStation. Data, system names, directory structures, and themes are **not transferable**. Only ES-DE–specific themes will work. Media is matched to game/ROM filenames rather than using tags in `gamelist.xml`. |
+| **One-way migration** | Moving data from EmulationStation to ES-DE may modify `gamelist.xml` and custom collection files, potentially making them incompatible with EmulationStation. |
+| **Path tags** | ES-DE requires a leading `./` in path tags.<br>**Incorrect:** `<path>Another World.lha</path>`<br>**Correct:** `<path>./Another World.lha</path>` |
+| **Gamelist location** | Move `gamelist.xml` files from ROM directories to `~/ES-DE/gamelists/`. |
+| **System names** | ES-DE may use different system names than Batocera, RetroBat, or Recalbox.<br>Example: Sega SG-1000 is `sg-1000` in ES-DE vs `sg1000` elsewhere.<br>Check the Supported Game Systems table for correct names. |
+| **Other differences** | Directory structure, metadata handling, and theme engine differences may require manual adjustments. |
+
+---
+
+## Third-Party Tools for ES-DE
+
+| Tool | Description | Link |
+|------|------------|------|
+| ES-DE-Roms-Renamer | Python tool to rename ROMs, update media files, and modify `gamelist.xml` entries. | [GitHub](https://github.com/mirai-toto/ES-DE-Roms-Renamer) |
+| M3U Files Generator | Python script to automate creation of `.m3u` files for various systems.| [GitHub](https://github.com/Jetup13/Retroid-Pocket-4-Pro-Wiki/wiki/Emulators-and-Formats#m3u-file-generator-python-script) |
+| ES-DE - Vita3K | Python script to generate `.psvita` files for populating the PSVita system in ES-DE. | [GitHub](https://github.com/BinaryQuantumSoul/esde-vita3k) |
+| GameList.xml to RetroArch Playlist Converter | Converts ES-DE `gamelist.xml` files to RetroArch playlist format. | [GitHub](https://github.com/bnovakovic/GameList_Converter) |
+
 
 
 
@@ -187,19 +235,19 @@ Here follows various quick bookmarks to specific section of the User Guide that 
 | Section | Link |
 |---------|------|
 | **Navigation and UI Settings** | [General Navigation](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#general-navigation) |
-|  | [UI Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#ui-settings) |
-|  | [Other UI Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings) |
-|  | [Sound Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sound-settings) |
+|| [UI Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#ui-settings) |
+|| [Other UI Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings) |
+|| [Sound Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sound-settings) |
 | **Game Settings, Collections, and Filters** | [Game Options](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#game-options-menu) |
-|  | [Game Collections](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#game-collections) |
-|  | [Setting Alternative Emulator](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings-1) |
+|| [Game Collections](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#game-collections) |
+|| [Setting Alternative Emulator](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings-1) |
 | **Scraper, Art, Videos, and Images** | [Scraper Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#scraping) |
-|  | [Scraper Accounts](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#account-settings) |
-|  | [Content Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#content-settings) |
-|  | [Custom Media Files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#manually-copying-game-media-files) |
-|  | [Miximage Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#miximage-settings) |
-|  | [Other Scraper Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings) |
-|  | [Metadata Editor](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#metadata-editor) |
+|| [Scraper Accounts](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#account-settings) |
+|| [Content Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#content-settings) |
+|| [Custom Media Files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#manually-copying-game-media-files) |
+|| [Miximage Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#miximage-settings) |
+|| [Other Scraper Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings) |
+|| [Metadata Editor](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#metadata-editor) |
 
 
 ---

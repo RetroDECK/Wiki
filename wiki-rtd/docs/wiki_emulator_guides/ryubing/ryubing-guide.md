@@ -10,6 +10,13 @@ Ryubing is Switch emulator.
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
+| Resource | Link |
+|----------|------|
+| Ryubing - Gitlab | [Link](https://git.ryujinx.app/ryubing) |
+| Ryubing - Github | [Link](https://github.com/Ryubing/) |
+| Ryubing - Wiki | [Link](https://git.ryujinx.app/groups/ryubing/-/wikis/home) |
+
+
 ---
 
 

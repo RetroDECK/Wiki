@@ -30,7 +30,6 @@ RetroDECK is a passion-driven, not profit driven project created and maintained 
 
 > We only ask for donations in a limited and modest fashion and we genuinely prefer that you donate **directly to the software, projects, and creators we depend on**, as they are the foundation that makes RetroDECK possible.
 
-
 ### How We Use Your Contributions
 
 | Area                         | What It Funds |

@@ -47,17 +47,18 @@ Below is a list of the currently supported Steam Input Templates with links to t
 
 | Controller | Template Name | Version | Original System | Controller Link | HotKey Button (HKB) | Comment |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Generic Standard | `RetroDECK: Generic - Standard` | v.1b | Varies | [Generic Standard](../wiki_controllers/generic/generic-standard.md) | `Select` | Majority of 3rd party controllers with a standard layout |
-| Switch Pro | `RetroDECK: Switch Pro` | v.1b | Nintendo Switch | [Switch Pro](../wiki_controllers/nintendo/switch-pro.md) | `Minus` |  |
-| Steam Deck: Neptune | `RetroDECK: Steam Deck - Neptune` | v.1.1b | Steam Deck LCD/OLED | [Steam Deck - Neptune](../wiki_controllers/steam/steamdeck-neptune.md) | `L4` `R4` `Select` | Has two radial menu systems |
-| Steam Controller: Gordon | `RetroDECK: Steam Controller - Gordon` | v.1b | Steam Devices | [Steam Controller - Gordon](../wiki_controllers/steam/steam-controller-gordon.md) | `L4` `Select` |  |
 | DualShock 3 | `RetroDECK: DualShock 3` | v.1b | PlayStation 3 | [DualShock 3](../wiki_controllers/playstation/dualshock-3.md) | `Select` |  |
 | DualShock 4 | `RetroDECK: DualShock 4` | v.1b | PlayStation 4 | [DualShock 4](../wiki_controllers/playstation/dualshock-4.md) | `Select` |  |
 | DualSense | `RetroDECK: DualSense` | v.1b | PlayStation 5 | [DualSense](../wiki_controllers/playstation/dualsense.md) | `Select` |  |
 | DualSense Edge | `RetroDECK: DualSense Edge` | v.1b | PlayStation 5 | [DualSense Edge](../wiki_controllers/playstation/dualsense-edge.md) | `Select` |  |
+| Generic Standard | `RetroDECK: Generic - Standard` | v.1b | Varies | [Generic Standard](../wiki_controllers/generic/generic-standard.md) | `Select` | Majority of 3rd party controllers with a standard layout |
+| Steam Controller: Gordon | `RetroDECK: Steam Controller - Gordon` | v.1b | Steam Devices | [Steam Controller - Gordon](../wiki_controllers/steam/steam-controller-gordon.md) | `L4` `Select` |  |
+| Steam Deck: Neptune | `RetroDECK: Steam Deck - Neptune` | v.1.1b | Steam Deck LCD/OLED | [Steam Deck - Neptune](../wiki_controllers/steam/steamdeck-neptune.md) | `L4` `R4` `Select` | Has two radial menu systems |
+| Switch Pro | `RetroDECK: Switch Pro` | v.1b | Nintendo Switch | [Switch Pro](../wiki_controllers/nintendo/switch-pro.md) | `Minus` |  |
 | Xbox 360 | `RetroDECK: Xbox 360` | v.1b | Xbox 360 | [Xbox 360 Controller](../wiki_controllers/xbox/xbox-360.md) | `Select` |  |
-| Xbox Wireless | `RetroDECK: Xbox Wireless` | v.1b | Xbox One / S / X | [Xbox Wireless Controller](../wiki_controllers/xbox/xbox-wireless.md) | `Select` |  |
 | Xbox Elite Wireless Series 1 / 2 | `RetroDECK: Xbox Wireless` | v.1b | Xbox S / X | [Xbox Elite Wireless Controller Series 1 / 2](../wiki_controllers/xbox/xbox-wireless-elite.md) | `Select` |  |
+| Xbox Wireless | `RetroDECK: Xbox Wireless` | v.1b | Xbox One / S / X | [Xbox Wireless Controller](../wiki_controllers/xbox/xbox-wireless.md) | `Select` |  |
+
 
 
 ---
@@ -92,21 +93,26 @@ Global hotkeys are activated by **pressing and holding the HotKey Button (HKB)**
 - **System Support**: Components that recognize the command.  
 - **Comment**: Additional notes.
 
-| Function                 | Icon | Xbox / Steam Deck | Nintendo | PlayStation | Command      | System Support     | Comment |
-| :---                     | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| Pause / Resume            | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30"> | `HKB + A` | `HKB + B` | `HKB + Cross` | `CTRL + P` | `RetroArch`, `Citra (Legacy)`, `Dolphin/Primehack (Standalone)`, `Duckstation (Standalone)`, `MelonDS (Standalone)`, `PCSX2 (Standalone)`, `Yuzu (Legacy)` |  |
-| Take Screenshot           | <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30"> | `HKB + B` | `HKB + A` | `HKB + Circle` | `CTRL + X` | `RetroArch`, `Citra (Legacy)`, `Dolphin/Primehack (Standalone)`, `Duckstation (Standalone)`, `PCSX2 (Standalone)`, `Yuzu (Legacy)` |  |
-| Fullscreen Toggle         | <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30"> | `HKB + X` | `HKB + Y` | `HKB + Square` | `CTRL + ENTER` | `Citra (Legacy)`, `Dolphin/Primehack (Standalone)`, `Duckstation (Standalone)`, `MelonDS (Standalone)`, `PCSX2 (Standalone)`, `Yuzu (Legacy)`, `RPCS3` |  |
-| Open Menu                 | <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30"> | `HKB + Y` | `HKB + X` | `HKB + Triangle` | `CTRL + M` | `RetroArch`, `Duckstation (Standalone)`, `PCSX2 (Standalone)`, `Yuzu (Legacy)`, `RPCS3` |  |
-| Quit Component             | <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> | `HKB + Start` | `HKB + Start` | `HKB + Start` | `CTRL + Q` | `RetroArch`, `Citra (Legacy)`, `Dolphin/Primehack (Standalone)`, `Duckstation (Standalone)`, `PCSX2 (Standalone)`, `Yuzu (Legacy)` |  |
-| Previous State            | <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30"> | `HKB + D-Pad Left` | `HKB + D-Pad Left` | `HKB + D-Pad Left` | `CTRL + J` | `RetroArch`, `Dolphin/Primehack (Standalone)`, `Duckstation (Standalone)`, `PCSX2 (Standalone)` |  |
-| Next State                | <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30"> | `HKB + D-Pad Right` | `HKB + D-Pad Right` | `HKB + D-Pad Right` | `CTRL + K` | `RetroArch`, `Dolphin/Primehack (Standalone)`, `Duckstation (Standalone)`, `PCSX2 (Standalone)` |  |
-| Increase Emulation Speed  | <img src="../../wiki_icons/binding_icons/RD-zoom-in.png" width="30"> | `HKB + D-Pad Up` | `HKB + D-Pad Up` | `HKB + D-Pad Up` | `CTRL + 1` | `Citra (Legacy)`, `Dolphin/Primehack (Standalone)`, `Duckstation (Standalone)`, `PCSX2 (Standalone)` |  |
-| Decrease Emulation Speed  | <img src="../../wiki_icons/binding_icons/RD-zoom-out.png" width="30"> | `HKB + D-Pad Down` | `HKB + D-Pad Down` | `HKB + D-Pad Down` | `CTRL + 2` | `Citra (Legacy)`, `Dolphin/Primehack (Standalone)`, `Duckstation (Standalone)`, `PCSX2 (Standalone)` |  |
-| Load State                | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30"> | `HKB + L1` | `HKB + L1` | `HKB + L1` | `CTRL + A` | `RetroArch`, `Citra (Legacy)`, `Dolphin/Primehack (Standalone)`, `Duckstation (Standalone)`, `PCSX2 (Standalone)` |  |
-| Save State                | <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30"> | `HKB + R1` | `HKB + R1` | `HKB + R1` | `CTRL + S` | `RetroArch`, `Citra (Legacy)`, `Dolphin/Primehack (Standalone)`, `Duckstation (Standalone)`, `PCSX2 (Standalone)` |  |
-| Rewind                    | <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30"> | `HKB + L2` | `HKB + L2` | `HKB + L2` | `CTRL + -` | `RetroArch`, `Duckstation (Standalone)` |  |
-| Fast Forward              | <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30"> | `HKB + R2` | `HKB + R2` | `HKB + R2` | `CTRL + +` | `RetroArch`, `Duckstation (Standalone)`, `MelonDS (Standalone)`, `PCSX2 (Standalone)` |  |
+| Function               | Icon                                                                 | Xbox / Steam Deck       | Nintendo             | PlayStation          | Command       | System Support                                                                                       | Comment |
+|------------------------|:-------------------------------------------------------------------:|:----------------------:|:------------------:|:------------------:|:-------------:|:---------------------------------------------------------------------------------------------------|:--------|
+| Decrease Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-out.png" width="30"> | `HKB + D-Pad Down`     | `HKB + D-Pad Down` | `HKB + D-Pad Down` | `CTRL + 2`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> |         |
+| Fast Forward           | <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30"> | `HKB + R2`             | `HKB + R2`         | `HKB + R2`         | `CTRL + +`   | <ul><li>DuckStation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Increase Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-in.png" width="30"> | `HKB + D-Pad Up`       | `HKB + D-Pad Up`   | `HKB + D-Pad Up`   | `CTRL + 1`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> |         |
+| Load State             | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30"> | `HKB + L1`             | `HKB + L1`         | `HKB + L1`         | `CTRL + A`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Next State             | <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30"> | `HKB + D-Pad Right`    | `HKB + D-Pad Right` | `HKB + D-Pad Right` | `CTRL + K`   | <ul><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Open Menu              | <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30"> | `HKB + Y`              | `HKB + X`          | `HKB + Triangle`   | `CTRL + M`   | <ul><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RPCS3</li><li>RetroArch</li></ul> |         |
+| Pause / Resume         | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30"> | `HKB + A`              | `HKB + B`          | `HKB + Cross`      | `CTRL + P`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Previous State         | <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30"> | `HKB + D-Pad Left`     | `HKB + D-Pad Left` | `HKB + D-Pad Left` | `CTRL + J`   | <ul><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Quit Component         | <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> | `HKB + Start`          | `HKB + Start`      | `HKB + Start`      | `CTRL + Q`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Rewind                 | <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30"> | `HKB + L2`             | `HKB + L2`         | `HKB + L2`         | `CTRL + -`   | <ul><li>DuckStation (Legacy)</li><li>RetroArch</li></ul> |         |
+| Save State             | <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30"> | `HKB + R1`             | `HKB + R1`         | `HKB + R1`         | `CTRL + S`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Take Screenshot        | <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30"> | `HKB + B`              | `HKB + A`          | `HKB + Circle`     | `CTRL + X`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Toggle Fullscreen      | <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30"> | `HKB + X`              | `HKB + Y`          | `HKB + Square`     | `CTRL + ENTER` | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RPCS3</li></ul> |         |
+
+
+
+
+
 
 ---
 
@@ -117,17 +123,19 @@ Global hotkeys are activated by **pressing and holding the HotKey Button (HKB)**
 
 These hotkeys are built into RetroArch and function across supported cores.
 
-| Function       | Button / Combination | System Support | Comment |
-| :---           | :---:               | :---:          | :---:   |
-| Open Menu      | `L3 + R3`           | RetroArch      |         |
+| Function       | Button / Combination | System Support         | Comment |
+| :------------- | :-----------------: | :------------------- | :------ |
+| Open Menu      | `L3 + R3`           | <ul><li>RetroArch</li></ul> |         |
+
 
 ### Arcade Systems: Additional Hotkeys
 
 These hotkeys work for RetroArch, MAME, and other arcade systems.
 
-| Function       | Button / Combination | System Support | Comment |
-| :---           | :---:               | :---:          | :---:   |
-| Insert Credit  | `SELECT`            | RetroArch, MAME (Standalone) |         |
+| Function       | Button / Combination | System Support                                   | Comment |
+| :------------- | :-----------------: | :---------------------------------------------- | :------ |
+| Insert Credit  | `SELECT`            | <ul><li>MAME (Standalone)</li><li>RetroArch</li></ul> |         |
+
 
 ---
 
@@ -145,11 +153,12 @@ All controllers can open the [RetroDECK: Radial Menu - Simple](radial-simple.md)
 
 By holding `SELECT` and moving the `Right Joystick`, you can use it as a mouse for systems that support mouse input.
 
-| Function            | Button / Combination        | Command           | Comment                      |
-| :---                | :---:                        | :---:             | :---:                        |
-| Joystick as Mouse   | `SELECT + Right Stick`       | Movement          |                              |
-| Right Click         | `SELECT + L3`                | `Right Click`     |                              |
-| Left Click          | `SELECT + R3`                | `Left Click`      |                              |
+| Function | Button / Combination | Command | Comment |
+| :--- | :---: | :---: | :---: |
+| Joystick as Mouse | `SELECT + Right Stick` | Movement | |
+| Left Click | `SELECT + R3` | `Left Click` | |
+| Right Click | `SELECT + L3` | `Right Click` | |
+
 
 
 
@@ -159,11 +168,12 @@ By holding `SELECT` and moving the `Right Joystick`, you can use it as a mouse f
 
 The touchpads on DualShock 4 and DualSense controllers act as a mouse, allowing you to navigate mouse-based inputs.
 
-| Function                | Button / Combination      | System Support | Comment                                      |
-| :---                    | :---:                     | :---:          | :---:                                        |
-| Full Touchpad           | -                         | -              | The entire touchpad acts as a mouse.        |
-| Right Touchpad Click    | `Left Mouse Click`        | -              |                                            |
-| Left Touchpad Click     | `Right Mouse Click`       | -              |                                            |
+| Function | Button / Combination | System Support | Comment |
+| :--- | :---: | :---: | :---: |
+| Full Touchpad | - | - | The entire touchpad acts as a mouse. |
+| Left Touchpad Click | `Right Mouse Click` | - | |
+| Right Touchpad Click | `Left Mouse Click` | - | |
+
 
 ---
 
@@ -179,18 +189,20 @@ By pressing `R4`, you can toggle the right touchpad between two modes: **Right J
 
 **Note:** Entering the global hotkeys mode by pressing `SELECT` or `L4` will switch the right touchpad back to **Joystick Mode**.
 
-| Function                        | Button / Combination | Command        | Comment                                     |
-| :---                            | :---:                | :---:          | :---:                                       |
-| Touchpad Mode Switch            | `R4`                 | -              | Switch between **Joystick Mode** and **Mouse Mode**. |
-| Left Click (Mouse Mode)         | `R3`                 | `Left Click`   | In **Mouse Mode**.                         |
+| Function | Button / Combination | Command | Comment |
+| :--- | :---: | :---: | :---: |
+| Left Click (Mouse Mode) | `R3` | `Left Click` | In **Mouse Mode**. |
+| Touchpad Mode Switch | `R4` | - | Switch between **Joystick Mode** and **Mouse Mode**. |
+
 
 By holding `HKB` and moving the **Right Touchpad**, you can use it as a mouse for systems that support mouse input.
 
-| Function                | Button / Combination       | Command        | Comment                                     |
-| :---                    | :---:                      | :---:          | :---:                                       |
-| Touchpad as Mouse       | `HKB + Right Touchpad`     | -              |                                            |
-| Right Click             | `HKB + L3`                 | `Right Click`  |                                            |
-| Left Click              | `HKB + R3`                 | `Left Click`   |                                            |
+| Function | Button / Combination | Command | Comment |
+| :--- | :---: | :---: | :---: |
+| Left Click | `HKB + R3` | `Left Click` | |
+| Right Click | `HKB + L3` | `Right Click` | |
+| Touchpad as Mouse | `HKB + Right Touchpad` | - | |
+
 
 ---
 
@@ -235,26 +247,27 @@ Read more here: [RetroDECK: Radial Menu - Simple](radial-simple.md)
 
 These hotkeys are made by Valve and can be used in Game Mode across all games.
 
-| Function                      | Button / Combination           | Comment |
-| :---                           | :---:                          | :---:   |
-| Joystick Mouse                 | `STEAM + Right Stick`          |         |
-| Joystick Mouse - Left Click    | `STEAM + R3`                   |         |
-| Touchpad Mouse                 | `STEAM + Right Touchpad`       |         |
-| Touchpad Mouse - Left Click    | `STEAM + Right Touchpad Click` |         |
-| Screen Brightness - Increase   | `STEAM + Left Stick Up`        |         |
-| Screen Brightness - Decrease   | `STEAM + Left Stick Down`      |         |
-| Enter                          | `STEAM + D-pad Right`          |         |
-| Tab                            | `STEAM + D-pad Down`           |         |
-| Escape                         | `STEAM + D-pad Left`           |         |
-| Force Quit Application         | `STEAM + B (long press)`       |         |
-| Keyboard - Show / Hide         | `STEAM + X`                    |         |
-| Magnifier Toggle               | `STEAM + L1`                   |         |
-| Take Screenshot                | `STEAM + R1`                   |         |
-| Left Mouse Click               | `STEAM + R2`                   |         |
-| Right Mouse Click              | `STEAM + L2`                   |         |
-| Game Recording - Start/Stop    | `STEAM + A`                    |         |
-| Game Recording - Add timeline marker | `STEAM + Y`                |         |
-| Game Recording - Make a clip   | `STEAM + D-pad Up`             |         |
+| Function | Button / Combination | Comment |
+| :--- | :---: | :---: |
+| Enter | `STEAM + D-pad Right` | |
+| Escape | `STEAM + D-pad Left` | |
+| Force Quit Application | `STEAM + B (long press)` | |
+| Game Recording - Add timeline marker | `STEAM + Y` | |
+| Game Recording - Make a clip | `STEAM + D-pad Up` | |
+| Game Recording - Start/Stop | `STEAM + A` | |
+| Joystick Mouse | `STEAM + Right Stick` | |
+| Joystick Mouse - Left Click | `STEAM + R3` | |
+| Keyboard - Show / Hide | `STEAM + X` | |
+| Left Mouse Click | `STEAM + R2` | |
+| Magnifier Toggle | `STEAM + L1` | |
+| Right Mouse Click | `STEAM + L2` | |
+| Screen Brightness - Decrease | `STEAM + Left Stick Down` | |
+| Screen Brightness - Increase | `STEAM + Left Stick Up` | |
+| Tab | `STEAM + D-pad Down` | |
+| Take Screenshot | `STEAM + R1` | |
+| Touchpad Mouse | `STEAM + Right Touchpad` | |
+| Touchpad Mouse - Left Click | `STEAM + Right Touchpad Click` | |
+
 
 ---
 
@@ -262,34 +275,32 @@ These hotkeys are made by Valve and can be used in Game Mode across all games.
 
 These hotkeys are made by Valve and can be used in Desktop Mode.
 
-| Function                          | Button / Combination              | Comment |
-| :---                               | :---:                             | :---:   |
-| Joystick Mouse                     | `Right Stick`                     |         |
-| Touchpad as Mouse                  | `Right Touchpad`                  |         |
-| Left Mouse Click                   | `R3` / `Right Touchpad Click` / `R2` |         |
-| Middle Mouse Click                 | `Left Touchpad Click`             |         |
-| Right Mouse Click                  | `L2`                              |         |
-| Horizontal and Vertical Scrolling  | `Left Touchpad`                   |         |
-| Left Ctrl                          | `L1`                              |         |
-| Left Alt                           | `R1`                              |         |
-| Space                              | `Y`                               |         |
-| Keyboard - Show / Hide             | `X`                               |         |
-| Escape                             | `B` / `Start`                     |         |
-| Tab                                | `Select`                          |         |
-| Enter                              | `A`                               |         |
-| Left Shift                         | `L4`                              |         |
-| Super Key                          | `L5`                              |         |
-| Page Up                            | `R4`                              |         |
-| Page Down                          | `R5`                              |         |
-| Arrow Key - Up                     | `D-Pad Up` / `Left Stick Up`      |         |
-| Arrow Key - Down                   | `D-Pad Down` / `Left Stick Down`  |         |
-| Arrow Key - Left                   | `D-Pad Left` / `Left Stick Left`  |         |
-| Arrow Key - Right                  | `D-Pad Right` / `Left Stick Right`|         |
-| Game Recording - Start/Stop        | `CTRL + F11`                      | Can be rebound, needs to be enabled |
-| Game Recording - Add timeline marker | `CTRL + F12`                    | Can be rebound, needs to be enabled |
-| Game Recording - Take screenshot   | `F12`                             | Can be rebound, needs to be enabled |
-
----
+| Function | Button / Combination | Comment |
+| :--- | :---: | :---: |
+| Arrow Key - Down | `D-Pad Down` / `Left Stick Down` | |
+| Arrow Key - Left | `D-Pad Left` / `Left Stick Left` | |
+| Arrow Key - Right | `D-Pad Right` / `Left Stick Right` | |
+| Arrow Key - Up | `D-Pad Up` / `Left Stick Up` | |
+| Enter | `A` | |
+| Escape | `B` / `Start` | |
+| Game Recording - Add timeline marker | `CTRL + F12` | Can be rebound, needs to be enabled |
+| Game Recording - Start/Stop | `CTRL + F11` | Can be rebound, needs to be enabled |
+| Game Recording - Take screenshot | `F12` | Can be rebound, needs to be enabled |
+| Joystick Mouse | `Right Stick` | |
+| Keyboard - Show / Hide | `X` | |
+| Left Alt | `R1` | |
+| Left Ctrl | `L1` | |
+| Left Mouse Click | `R3` / `Right Touchpad Click` / `R2` | |
+| Left Shift | `L4` | |
+| Middle Mouse Click | `Left Touchpad Click` | |
+| Page Down | `R5` | |
+| Page Up | `R4` | |
+| Space | `Y` | |
+| Super Key | `L5` | |
+| Tab | `Select` | |
+| Touchpad as Mouse | `Right Touchpad` | |
+| Horizontal and Vertical Scrolling | `Left Touchpad` | |
 
 
 ---
+

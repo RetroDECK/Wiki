@@ -8,7 +8,7 @@ Each RetroArch core handles texture packs differently.
 
 To simplify management, **RetroDECK** tries to organize all texture packs under the following directory for convenience:
 
-`retrodeck/texture_packs/retroarch/<system>`
+`retrodeck/texture_packs/retroarch-core/<system>`
 
 ---
 
@@ -17,12 +17,12 @@ To simplify management, **RetroDECK** tries to organize all texture packs under 
 |  Core        | Texture Pack Locations                          | Source Directory                   | System      |
 |------------------------|-----------------------------------------------------|----------------------------------------------------------|----------------------------|
 | **Beetle PSX HW**      | `retrodeck/roms/psx/<game_filename>-texture-replacements/`    | The folder is next to the game itself               | PlayStation 1              |
-| **Citra**              | `retrodeck/texture_packs/retroarch/Citra/textures`           | `retroarch/saves/Citra/load/textures`                  | Nintendo 3DS               |
-| **Dolphin**            | `retrodeck/texture_packs/retroarch/Dolphin/Textures`         | `retroarch/saves/dolphin-emu/User/Load/Textures/`     | GameCube / Wii             |
-| **Flycast**            | `retrodeck/texture_packs/retroarch/Flycast/textures`         | `system/dc/textures`                                   | Sega Dreamcast             |
+| **Citra**              | `retrodeck/texture_packs/retroarch-core/Citra/textures`           | `retroarch/saves/Citra/load/textures`                  | Nintendo 3DS               |
+| **Dolphin**            | `retrodeck/texture_packs/retroarch-core/Dolphin/Textures`         | `retroarch/saves/dolphin-emu/User/Load/Textures/`     | GameCube / Wii             |
+| **Flycast**            | `retrodeck/texture_packs/retroarch-core/Flycast/textures`         | `system/dc/textures`                                   | Sega Dreamcast             |
 | **Mesen**              | `retrodeck/exture_packs/retroarch/Mesen/HdPacks`            | `retroarch/system/HdPacks`                              | NES                        |
-| **Mupen64Plus**        | **Cached textures:** <br> `retrodeck/texture_packs/retroarch/Mupen64Plus/cache`  <br><br> **Hires textures:** <br> `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_texture`      | **Cached textures:** <br>  `retroarch/system/Mupen64plus/cache`  <br><br>  **Hires textures:** <br>  `retroarch/system/Mupen64plus/hires_texture`     | Nintendo 64    |
-| **PPSSPP**             | `retrodeck/texture_packs/retroarch/PPSSPP/TEXTURES`          | `retroarch/saves/PPSSPP/PSP/TEXTURES`                  | PSP                        |
+| **Mupen64Plus**        | **Cached textures:** <br> `retrodeck/texture_packs/retroarch-core/Mupen64Plus/cache`  <br><br> **Hires textures:** <br> `retrodeck/texture_packs/retroarch-core/Mupen64Plus/hires_texture`      | **Cached textures:** <br>  `retroarch/system/Mupen64plus/cache`  <br><br>  **Hires textures:** <br>  `retroarch/system/Mupen64plus/hires_texture`     | Nintendo 64    |
+| **PPSSPP**             | `retrodeck/texture_packs/retroarch-core/PPSSPP/TEXTURES`          | `retroarch/saves/PPSSPP/PSP/TEXTURES`                  | PSP                        |
 
 
 
@@ -135,14 +135,14 @@ You can search various databases or wikis online to find the correct serial for 
 
 ### How to Add Texture Packs
 
-1. Navigate to `retrodeck/texture_packs/retroarch/Citra/textures`. The folders are named by `TITLE_ID`.
-2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch/Citra/textures/<TITLE_ID>/<textures>`
+1. Navigate to `retrodeck/texture_packs/retroarch-core/Citra/textures`. The folders are named by `TITLE_ID`.
+2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch-core/Citra/textures/<TITLE_ID>/<textures>`
 
 ### Example: 3D Shinobi III: Return of the Ninja Master
 
 The full folder path will be:
 
-`retrodeck/texture_packs/retroarch/Citra/textures/00040000000DE200/<textures>`
+`retrodeck/texture_packs/retroarch-core/Citra/textures/00040000000DE200/<textures>`
 
 ---
 
@@ -174,14 +174,14 @@ You can search various databases or wikis online to find the correct serial for 
 
 ### How to Add Texture Packs
 
-1. Navigate to `retrodeck/texture_packs/retroarch/Dolphin/Textures`. The folders are named by `GAME_ID`.
-2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch/Dolphin/Textures/<GAME_ID>/<textures>`
+1. Navigate to `retrodeck/texture_packs/retroarch-core/Dolphin/Textures`. The folders are named by `GAME_ID`.
+2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch-core/Dolphin/Textures/<GAME_ID>/<textures>`
 
 ### Example: Arc Rise Fantasia
 
 The full folder path will be:
 
-`retrodeck/texture_packs/retroarch/Dolphin/Textures/RPJE7U/<textures>`
+`retrodeck/texture_packs/retroarch-core/Dolphin/Textures/RPJE7U/<textures>`
 
 ---
 
@@ -207,15 +207,15 @@ You can search various databases or wikis online to find the correct serial for 
 
 ### How to Add Texture Packs
 
-1. Navigate to `retrodeck/texture_packs/retroarch/Flycast/textures`. The folders are named by `SERIAL`.
-2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch/Flycast/textures/<SERIAL>/<textures>`
+1. Navigate to `retrodeck/texture_packs/retroarch-core/Flycast/textures`. The folders are named by `SERIAL`.
+2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch-core/Flycast/textures/<SERIAL>/<textures>`
 
 
 ### Example: Legacy of Kain: Soul Reaver
 
 The full folder path will be:
 
-`retrodeck/texture_packs/retroarch/Flycast/textures/T36802N/<textures>`
+`retrodeck/texture_packs/retroarch-core/Flycast/textures/T36802N/<textures>`
 
 ---
 
@@ -246,8 +246,8 @@ Save the configuration for this game via **Core Options → Manage Core Options 
 
 | Texture Type           | Folder to Place In                                                                 |
 |------------------------|-----------------------------------------------------------------------------------|
-| **Compressed (.hts)**  | `retrodeck/texture_packs/retroarch/Mupen64Plus/cache`                             |
-| **Uncompressed (loose folders/files)** | `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_textures`        |
+| **Compressed (.hts)**  | `retrodeck/texture_packs/retroarch-core/Mupen64Plus/cache`                             |
+| **Uncompressed (loose folders/files)** | `retrodeck/texture_packs/retroarch-core/Mupen64Plus/hires_textures`        |
 
 ### Example: Space Station Silicon Valley
 
@@ -255,8 +255,8 @@ For the game `Space Station Silicon Valley (USA).n64` with the downloaded pack `
 
 Place the extracted folder in the following **renamed directory** depending on the type of textures you have:
 
-- `retrodeck/texture_packs/retroarch/Mupen64Plus/cache/Space Station Silicon Valley (USA)/<textures>`
-- `retrodeck/texture_packs/retroarch/Mupen64Plus/hires_textures/Space Station Silicon Valley (USA)/<textures>`
+- `retrodeck/texture_packs/retroarch-core/Mupen64Plus/cache/Space Station Silicon Valley (USA)/<textures>`
+- `retrodeck/texture_packs/retroarch-core/Mupen64Plus/hires_textures/Space Station Silicon Valley (USA)/<textures>`
 
 ---
 
@@ -284,7 +284,7 @@ For the game `Dr. Jekyll and Mr. Hyde (USA).nes` with the downloaded pack `Dr. J
 
 Place the extracted folder in the following **renamed directory**:
 
-`texture_packs/retroarch/Mesen/HdPacks/Dr. Jekyll and Mr. Hyde (USA)/<textures>`
+`texture_packs/retroarch-core/Mesen/HdPacks/Dr. Jekyll and Mr. Hyde (USA)/<textures>`
 
 ---
 
@@ -313,14 +313,14 @@ You can search various databases or wikis online to find the correct serial for 
 
 ### How to Add Texture Packs
 
-1. Navigate to `retrodeck/texture_packs/retroarch/PPSSPP/TEXTURES/`. The folders are named by `SERIAL`.
-2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch/PPSSPP/TEXTURES/<SERIAL>/<textures>`
+1. Navigate to `retrodeck/texture_packs/retroarch-core/PPSSPP/TEXTURES/`. The folders are named by `SERIAL`.
+2. Paste the textures into the correct folder:  `retrodeck/texture_packs/retroarch-core/PPSSPP/TEXTURES/<SERIAL>/<textures>`
 
 
 ### Example: 007-From Russia with Love
 
 The full folder path will be:
 
-`retrodeck/texture_packs/retroarch/Flycast/textures/ULUS-10080/<textures>`
+`retrodeck/texture_packs/retroarch-core/Flycast/textures/ULUS-10080/<textures>`
 
 ---

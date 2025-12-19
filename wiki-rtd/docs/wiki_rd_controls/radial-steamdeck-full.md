@@ -26,67 +26,8 @@ Below is a breakdown of the **Full Radial Menu System** that you can access on t
 
 The `Main Menu` is the top menu and gives you access to all the menus below.
 
----
-
-## <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30"> Quick Menu
-
-Features "best of" hotkeys from other menus.
-
-| Radial Button        | Keyboard Command        | System Support                                                                                   | Icon                                                                 | Comment                                                   |
-| :------------------ | :-------------------- | :------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------ | :--------------------------------------------------------- |
-| Escape               | `ESC`                  | <ul><li>GZDoom</li><li>IkemanGO</li><li>OpenBOR</li><li>PC-Systems</li><li>Ryubing (Standalone)</li><li>Ruffle</li><li>Solarus</li></ul> | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="30"> | Can be used to Quick / Open Menu on certain systems       |
-| Fullscreen Toggle    | `Ctrl + Enter`         | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>Duckstation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RPCS3</li></ul> | <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30"> |                                                         |
-| Load State           | `Ctrl + A`             | <ul><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30"> |                                                         |
-| Open Menu            | `Ctrl + M`             | <ul><li>Azahar</li><li>Duckstation (Legacy)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RPCS3</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30"> |                                                         |
-| Pause / Resume       | `Ctrl + P`             | <ul><li>Azahar</li><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30"> |                                                         |
-| Quit component       | `Ctrl + Q`             | <ul><li>Azahar</li><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li><li>Ruffle</li></ul> | <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> |                                                         |
-| Restart / Reset      | `Ctrl + R`             | <ul><li>Azahar</li><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30"> |                                                         |
-| Save State           | `Ctrl + S`             | <ul><li>Azahar</li><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30"> |                                                         |
-| Swap Screens         | `Ctrl + Tab`           | <ul><li>Azahar</li><li>Cemu (Standalone)</li><li>MelonDS (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-system-switch-user.png" width="30"> |                                                         |
-| Take Screenshot      | `Ctrl + X`             | <ul><li>Azahar</li><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30"> |                                                         |
-
-
-
-
-
-
-## <img src="../../wiki_icons/binding_icons/RD-folder-blue-games.png" width="30"> State Menu
-
-Hotkeys related to saving and loading states.
-
-| Radial Button       | Keyboard Command | System Support                                                                                   | Icon                                                                 | Comment |
-| :----------------- | :--------------- | :------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------ | :------ |
-| Load State          | `Ctrl + A`       | <ul><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30"> |         |
-| Next State          | `Ctrl + K`       | <ul><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30"> |         |
-| Previous State      | `Ctrl + J`       | <ul><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30"> |         |
-| Save State          | `Ctrl + S`       | <ul><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30"> |         |
-| Undo Load State     | `Ctrl + 8`       | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul>                            | <img src="../../wiki_icons/binding_icons/RD-Arrow-33.png" width="30"> |         |
-| Undo Save State     | `Ctrl + 9`       | <ul><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-Arrow-34.png" width="30"> |         |
-
-
-
-
 
 ---
-
-## <img src="../../wiki_icons/binding_icons/RD-supertuxkart.png" width="30"> Speed / Frames Menu
-
-The `Speed / Frames Menu` is where you find anything related to: emulation speed, frame limits, fast forwarding, and rewinding.
-
-| Radial Button                    | Keyboard Command | System Support                                                                 | Icon                                                                 | Comment |
-| :-------------------------------- | :-------------- | :---------------------------------------------------------------------------- | :------------------------------------------------------------------ | :------- |
-| Decrease Emulation Speed          | `CTRL + 2`      | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>Duckstation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-zoom-out.png" width="30"> |         |
-| Disable Emulation Speed Limit     | `CTRL + 0`      | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul>       | <img src="../../wiki_icons/binding_icons/RD-battery-missing.png" width="30"> |         |
-| Fast Forward                      | `Ctrl + +`      | <ul><li>Duckstation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30"> |         |
-| Frame Limit On/Off                | `CTRL + Z`      | <ul><li>PCSX2 (Standalone)</li></ul>                                          | <img src="../../wiki_icons/binding_icons/RD-battery-full-charging.png" width="30"> |         |
-| Increase Emulation Speed          | `CTRL + 1`      | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>Duckstation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-zoom-in.png" width="30"> |         |
-| Rewind                            | `CTRL + -`      | <ul><li>Duckstation (Legacy)</li><li>RetroArch</li></ul>                       | <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30"> |         |
-| Reset Emulation Speed             | `CTRL + 3`      | <ul><li>Duckstation (Legacy)</li></ul>                                         | <img src="../../wiki_icons/binding_icons/RD-zoom-original.png" width="30"> |         |
-
-
-
----
-
 
 ## <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-display.png" width="30"> Display / Graphics Menu
 
@@ -95,13 +36,11 @@ Hotkeys related to `Display / Graphics`.
 | Radial Button                     | Keyboard Command | System Support                                                                                         | Icon                                                                 | Comment |
 | :-------------------------------- | :-------------- | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------ | :------- |
 | Change Dual Screens Layout         | `Ctrl + L`      | <ul><li>Azahar</li></ul>                                                                               | <img src="../../wiki_icons/binding_icons/RD-preferences-system-windows-actions.png" width="30"> |         |
-| Change Widescreen / Aspect Ratio  | `Ctrl + W`      | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>Duckstation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-display.png" width="30"> |         |
-| Decrease Resolution / Upscale     | `Ctrl + Y`      | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>Duckstation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-list-remove.png" width="30"> |         |
-| Fullscreen Toggle                 | `Ctrl + Enter`  | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>Duckstation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30"> |         |
-| Increase Resolution / Upscale     | `Ctrl + U`      | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>Duckstation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-list-add.png" width="30"> |         |
-| Swap Screens                      | `Ctrl + Tab`    | <ul><li>Azahar</li><li>Cemu (Standalone)</li><li>MelonDS (Standalone)</li></ul>                        | <img src="../../wiki_icons/binding_icons/RD-system-switch
-
-
+| Change Widescreen / Aspect Ratio  | `Ctrl + W`      | <ul><li>Dolphin (Standalone)</li><li>Duckstation (Legacy)</li><li>PCSX2 (Standalone)</li><li>PrimeHack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-display.png" width="30"> |         |
+| Decrease Resolution / Upscale     | `Ctrl + Y`      | <ul><li>Dolphin (Standalone)</li><li>Duckstation (Legacy)</li><li>PCSX2 (Standalone)</li><li>PrimeHack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-list-remove.png" width="30"> |         |
+| Fullscreen Toggle                 | `Ctrl + Enter`  | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>Duckstation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>PrimeHack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30"> |         |
+| Increase Resolution / Upscale     | `Ctrl + U`      | <ul><li>Dolphin (Standalone)</li><li>Duckstation (Legacy)</li><li>PCSX2 (Standalone)</li><li>PrimeHack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-list-add.png" width="30"> |         |
+| Swap Screens                      | `Ctrl + Tab`    | <ul><li>Azahar</li><li>Cemu (Standalone)</li><li>MelonDS (Standalone)</li></ul>                        | <img src="../../wiki_icons/binding_icons/RD-system-switch-user.png" width="30"> |         |
 
 
 ---
@@ -122,13 +61,60 @@ Generic and General Hotkeys.
 | Turbo On/Off             | `Ctrl + T`       | <ul><li>Duckstation (Legacy)</li></ul>                                                                | <img src="../../wiki_icons/binding_icons/RD-pcsxr-icon.png" width="30"> |         |
 | Video Recording On/Off   | `Ctrl + V`       | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-video-x-generic.png" width="30"> |         |
 
+---
 
+## <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30"> Quick Menu
 
+Features "best of" hotkeys from other menus.
+
+| Radial Button        | Keyboard Command        | System Support                                                                                   | Icon                                                                 | Comment                                                   |
+| :------------------ | :-------------------- | :------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------ | :--------------------------------------------------------- |
+| Escape               | `ESC`                  | <ul><li>GZDoom</li><li>IkemanGO</li><li>OpenBOR</li><li>PC-Systems</li><li>Ryubing (Standalone)</li><li>Ruffle</li><li>Solarus</li></ul> | <img src="../../wiki_icons/binding_icons/RD-ESC.png" width="30"> | Can be used to Quick / Open Menu on certain systems       |
+| Fullscreen Toggle    | `Ctrl + Enter`         | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>Duckstation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RPCS3</li></ul> | <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30"> |                                                         |
+| Load State           | `Ctrl + A`             | <ul><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30"> |                                                         |
+| Open Menu            | `Ctrl + M`             | <ul><li>Azahar</li><li>Duckstation (Legacy)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RPCS3</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30"> |                                                         |
+| Pause / Resume       | `Ctrl + P`             | <ul><li>Azahar</li><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30"> |                                                         |
+| Quit component       | `Ctrl + Q`             | <ul><li>Azahar</li><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li><li>Ruffle</li></ul> | <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> |                                                         |
+| Restart / Reset      | `Ctrl + R`             | <ul><li>Azahar</li><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30"> |                                                         |
+| Save State           | `Ctrl + S`             | <ul><li>Azahar</li><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30"> |                                                         |
+| Swap Screens         | `Ctrl + Tab`           | <ul><li>Azahar</li><li>Cemu (Standalone)</li><li>MelonDS (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-system-switch-user.png" width="30"> |                                                         |
+| Take Screenshot      | `Ctrl + X`             | <ul><li>Azahar</li><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30"> |                                                         |
+
+---
+
+## <img src="../../wiki_icons/binding_icons/RD-folder-blue-games.png" width="30"> State Menu
+
+Hotkeys related to saving and loading states.
+
+| Radial Button       | Keyboard Command | System Support                                                                                   | Icon                                                                 | Comment |
+| :----------------- | :--------------- | :------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------ | :------ |
+| Load State          | `Ctrl + A`       | <ul><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30"> |         |
+| Next State          | `Ctrl + K`       | <ul><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30"> |         |
+| Previous State      | `Ctrl + J`       | <ul><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30"> |         |
+| Save State          | `Ctrl + S`       | <ul><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>PCSX2 (Standalone)</li><li>PPSSPP (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30"> |         |
+| Undo Load State     | `Ctrl + 8`       | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul>                            | <img src="../../wiki_icons/binding_icons/RD-Arrow-33.png" width="30"> |         |
+| Undo Save State     | `Ctrl + 9`       | <ul><li>Duckstation (Legacy)</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-Arrow-34.png" width="30"> |         |
+
+---
+
+## <img src="../../wiki_icons/binding_icons/RD-supertuxkart.png" width="30"> Speed / Frames Menu
+
+The `Speed / Frames Menu` is where you find anything related to: emulation speed, frame limits, fast forwarding, and rewinding.
+
+| Radial Button                    | Keyboard Command | System Support                                                                 | Icon                                                                 | Comment |
+| :-------------------------------- | :-------------- | :---------------------------------------------------------------------------- | :------------------------------------------------------------------ | :------- |
+| Decrease Emulation Speed          | `CTRL + 2`      | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>Duckstation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-zoom-out.png" width="30"> |         |
+| Disable Emulation Speed Limit     | `CTRL + 0`      | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul>       | <img src="../../wiki_icons/binding_icons/RD-battery-missing.png" width="30"> |         |
+| Fast Forward                      | `Ctrl + +`      | <ul><li>Duckstation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30"> |         |
+| Frame Limit On/Off                | `CTRL + Z`      | <ul><li>PCSX2 (Standalone)</li></ul>                                          | <img src="../../wiki_icons/binding_icons/RD-battery-full-charging.png" width="30"> |         |
+| Increase Emulation Speed          | `CTRL + 1`      | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li><li>Duckstation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-zoom-in.png" width="30"> |         |
+| Rewind                            | `CTRL + -`      | <ul><li>Duckstation (Legacy)</li><li>RetroArch</li></ul>                       | <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30"> |         |
+| Reset Emulation Speed             | `CTRL + 3`      | <ul><li>Duckstation (Legacy)</li></ul>                                         | <img src="../../wiki_icons/binding_icons/RD-zoom-original.png" width="30"> |         |
 
 
 ---
 
-# <img src="../../wiki_icons/binding_icons/RD-steam.png" width="30"> Steam Deck Menu
+## <img src="../../wiki_icons/binding_icons/RD-steam.png" width="30"> Steam Deck / PC Menu
 
 Steam Deck specific hotkeys and PC hotkeys.
 
@@ -160,22 +146,52 @@ The `Component Specific Menu` opens up several system/component-specific sub-men
 
 ---
 
-### <img src="../../wiki_icons/binding_icons/RD-ryujinx.png" width="30"> Switch Menu
+### <img src="../../wiki_icons/binding_icons/RD-citra.png" width="30"> Azahar Menu
 
-Hotkeys for `Ryubing`.
+Hotkeys for `Azahar`.
 
-| Radial Button               | Keyboard Command   | System Support                    | Icon                                                                 | Comment                     |
-| :-------------------------- | :---------------- | :-------------------------------- | :------------------------------------------------------------------ | :-------------------------- |
-| Change GPU Accuracy          | `Alt + G`         | <ul><li>-</li></ul>  | <img src="../../wiki_icons/binding_icons/RD-emblem-new.png" width="30">  |                             |
-| Docked / Undocked Mode       | `Alt + D`         | <ul><li>-</li></ul>  | <img src="../../wiki_icons/binding_icons/RD-emblem-unlocked.png" width="30">  |                             |
-| Load / Remove Amiibo         | `Alt + M`         | <ul><li>-</li></ul>  | <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-accessibility.png" width="30">  |                             |
-| Open Menu Ryubing - F4       | `F4`              | <ul><li>Ryubing (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-F4.png" width="30">    |                             |
+| Radial Button | Keyboard Command | System Support       | Icon                                                                 | Comment |
+| :------------ | :--------------- | :----------------- | :------------------------------------------------------------------- | :------ |
+| Load Amiibo   | `Alt + M`        | <ul><li>Azahar</li></ul> | <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-accessibility.png" width="30"> |         |
+| Remove Amiibo | `Alt + N`        | <ul><li>Azahar</li></ul> | <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-accessibility.png" width="30"> |         |
 
 ---
 
+### <img src="../../wiki_icons/binding_icons/RD-dolphin.png" width="30"> Dolphin / Primehack Menu
+
+Hotkeys for `Dolphin-SA` and `Primehack`.
+
+| Radial Button            | Keyboard Command    | System Support                                 | Icon                                                                 | Comment                        |
+| :----------------------- | :----------------- | :-------------------------------------------- | :------------------------------------------------------------------ | :----------------------------- |
+| Freelook Mode On/Off     | `Alt + F`          | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-edit-find.png" width="30">   |                               |
+| Freelook Mode Reset      | `Alt + R`          | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30"> |                               |
+| Golf Mode On/Off         | `Alt + H`          | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-distributor-logo-netbsd.png" width="30"> |                               |
+| Wii Sync Button          | `Alt + W`          | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-notification-network-wireless.png" width="30"> |                               |
+| Wiimote Sideways         | `Alt + X`          | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-wiimote-side.png" width="30"> |                               |
+| Wiimote Sync - Player 1  | `Alt + W + 1`      | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-wii-1.png" width="30">     |                               |
+| Wiimote Sync - Player 2  | `Alt + W + 2`      | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-wii-2.png" width="30">     |                               |
+| Wiimote Sync - Player 3  | `Alt + W + 3`      | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-wii-3.png" width="30">     |                               |
+| Wiimote Sync - Player 4  | `Alt + W + 4`      | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-wii-4.png" width="30">     |                               |
+| Wiimote Upright          | `Alt + Z`          | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-wiimote-up.png" width="30"> |                               |
+
+
+---
+
+### <img src="../../wiki_icons/binding_icons/RD-gzdoom.png" width="30"> GZDoom Menu
+
+Cheat hotkeys for GZDoom.
+
+| Radial Button          | Keyboard Command | System Support       | Icon                                                                 | Comment |
+| :--------------------- | :--------------- | :----------------- | :------------------------------------------------------------------- | :------ |
+| Give all Items          | `IDFA`           | <ul><li>GZDoom</li></ul>         | <img src="../../wiki_icons/binding_icons/RD-freedoom-pack.png" width="30">  |         |
+| Give all Items + Keys   | `IDKFA`          | <ul><li>GZDoom</li></ul>         | <img src="../../wiki_icons/binding_icons/RD-freedoom-pack2.png" width="30"> |         |
+
+---
+
+
 ### <img src="../../wiki_icons/binding_icons/RD-mame.png" width="30"> MAME Menu
 
-Hotkeys for `MAME-SA`.
+Hotkeys for `MAME (Standalone)`.
 
 | Radial Button            | Keyboard Command    | System Support           | Icon                                                                 | Comment                        |
 | :----------------------- | :----------------- | :---------------------- | :------------------------------------------------------------------ | :----------------------------- |
@@ -194,6 +210,21 @@ Hotkeys for `MAME-SA`.
 
 
 ---
+
+### <img src="../../wiki_icons/binding_icons/RD-melonds.png" width="30"> MelonDS Menu
+
+Hotkeys for `MelonDS (Standalone)`.
+
+| Radial Button          | Keyboard Command | System Support                | Icon                                                                 | Comment |
+| :--------------------- | :--------------- | :--------------------------- | :------------------------------------------------------------------- | :------ |
+| Close/Open Lid         | `Alt + L`        | <ul><li>MelonDS (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-emblem-downloads.png" width="30">   |         |
+| Play Microphone        | `Alt + P`        | <ul><li>MelonDS (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-media-playback-start.png" width="15">   |         |
+| Sunlight +             | `Alt + +`        | <ul><li>MelonDS (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-list-add.png" width="30">   |         |
+| Sunlight -             | `Alt + -`        | <ul><li>MelonDS (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-list-remove.png" width="30">   |         |
+
+
+---
+
 ### <img src="../../wiki_icons/binding_icons/RD-retroarch.png" width="30"> RetroArch Menu
 
 Hotkeys for `RetroArch`.
@@ -205,69 +236,6 @@ Hotkeys for `RetroArch`.
 | Netplay Host On/Off      | `Ctrl + H`         | <ul><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-notification-network-ethernet-connected.png" width="30">   |                               |
 | Next Cheat               | `Ctrl + G`         | <ul><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30">   |                               |
 | Previous Cheat           | `Ctrl + F`         | <ul><li>RetroArch</li></ul> | <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30">   |                               |
-
----
-
-### <img src="../../wiki_icons/binding_icons/RD-dolphin.png" width="30"> Gamecube / Wii Menu
-
-Hotkeys for `Dolphin-SA` and `Primehack`.
-
-| Radial Button            | Keyboard Command    | System Support                                 | Icon                                                                 | Comment                        |
-| :----------------------- | :----------------- | :-------------------------------------------- | :------------------------------------------------------------------ | :----------------------------- |
-| Freelook Mode On/Off     | `Alt + F`          | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-edit-find.png" width="30">   |                               |
-| Freelook Mode Reset      | `Alt + R`          | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30"> |                               |
-| Golf Mode On/Off         | `Alt + H`          | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-distributor-logo-netbsd.png" width="30"> |                               |
-| Wii Sync Button          | `Alt + W`          | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-notification-network-wireless.png" width="30"> |                               |
-| Wiimote Sideways         | `Alt + X`          | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-wiimote-side.png" width="30"> |                               |
-| Wiimote Sync - Player 1  | `Alt + W + 1`      | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-wii-1.png" width="30">     |                               |
-| Wiimote Sync - Player 2  | `Alt + W + 2`      | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-wii-2.png" width="30">     |                               |
-| Wiimote Sync - Player 3  | `Alt + W + 3`      | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-wii-3.png" width="30">     |                               |
-| Wiimote Sync - Player 4  | `Alt + W + 4`      | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-wii-4.png" width="30">     |                               |
-| Wiimote Upright          | `Alt + Z`          | <ul><li>Dolphin (Standalone)</li><li>Primehack (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-wiimote-up.png" width="30"> |                               |
-
-
-
-
----
-
-### <img src="../../wiki_icons/binding_icons/RD-melonds.png" width="30"> NDS Menu
-
-Hotkeys for `MelonDS-SA`.
-
-| Radial Button          | Keyboard Command | System Support                | Icon                                                                 | Comment |
-| :--------------------- | :--------------- | :--------------------------- | :------------------------------------------------------------------- | :------ |
-| Close/Open Lid         | `Alt + L`        | <ul><li>MelonDS (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-emblem-downloads.png" width="30">   |         |
-| Play Microphone        | `Alt + P`        | <ul><li>MelonDS (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-media-playback-start.png" width="15">   |         |
-| Sunlight +             | `Alt + +`        | <ul><li>MelonDS (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-list-add.png" width="30">   |         |
-| Sunlight -             | `Alt + -`        | <ul><li>MelonDS (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-list-remove.png" width="30">   |         |
-
-
-
----
-
-### <img src="../../wiki_icons/binding_icons/RD-citra.png" width="30"> 3DS Menu
-
-Hotkeys for `Citra-SA (Archived)` and `Citra-Core`.
-
-| Radial Button | Keyboard Command | System Support       | Icon                                                                 | Comment |
-| :------------ | :--------------- | :----------------- | :------------------------------------------------------------------- | :------ |
-| Load Amiibo   | `Alt + M`        | <ul><li>Azahar</li></ul> | <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-accessibility.png" width="30"> |         |
-| Remove Amiibo | `Alt + N`        | <ul><li>Azahar</li></ul> | <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-accessibility.png" width="30"> |         |
-
-
-
----
-
-### <img src="../../wiki_icons/binding_icons/RD-gzdoom.png" width="30"> GZDoom Menu
-
-Cheat hotkeys for GZDoom.
-
-| Radial Button          | Keyboard Command | System Support       | Icon                                                                 | Comment |
-| :--------------------- | :--------------- | :----------------- | :------------------------------------------------------------------- | :------ |
-| Give all Items          | `IDFA`           | <ul><li>GZDoom</li></ul>         | <img src="../../wiki_icons/binding_icons/RD-freedoom-pack.png" width="30">  |         |
-| Give all Items + Keys   | `IDKFA`          | <ul><li>GZDoom</li></ul>         | <img src="../../wiki_icons/binding_icons/RD-freedoom-pack2.png" width="30"> |         |
-
-
 
 ---
 
@@ -290,3 +258,29 @@ Hotkeys for ScummVM.
 
 
 ---
+
+
+### <img src="../../wiki_icons/binding_icons/RD-ryujinx.png" width="30"> Switch Menu
+
+Hotkeys for `Ryubing (Standalone)`.
+
+| Radial Button               | Keyboard Command   | System Support                    | Icon                                                                 | Comment                     |
+| :-------------------------- | :---------------- | :-------------------------------- | :------------------------------------------------------------------ | :-------------------------- |
+| Change GPU Accuracy          | `Alt + G`         | <ul><li>-</li></ul>  | <img src="../../wiki_icons/binding_icons/RD-emblem-new.png" width="30">  |                             |
+| Docked / Undocked Mode       | `Alt + D`         | <ul><li>-</li></ul>  | <img src="../../wiki_icons/binding_icons/RD-emblem-unlocked.png" width="30">  |                             |
+| Load / Remove Amiibo         | `Alt + M`         | <ul><li>-</li></ul>  | <img src="../../wiki_icons/binding_icons/RD-preferences-desktop-accessibility.png" width="30">  |                             |
+| Open Menu Ryubing - F4       | `F4`              | <ul><li>Ryubing (Standalone)</li></ul> | <img src="../../wiki_icons/binding_icons/RD-F4.png" width="30">    |                             |
+
+
+---
+
+
+
+
+
+
+
+
+
+
+

@@ -1,34 +1,23 @@
-## Example: component_recipe.json - Azahar
+## Example: component_recipe.json - Github - OpenBOR
 
 ```
 {
-  "azahar": [
+  "openbor": [
     {
-      "source_url": "org.azahar_emu.Azahar",
-      "source_type": "flatpak_id",
-      "version": "$AZAHAR_DESIRED_VERSION",
-      "dest": "user",
-      "extraction_type": "flatpak",
+      "source_url": "https://github.com/DCurrent/openbor/releases/download/{VERSION}/OpenBOR-Linux-x64-v4.0.Build.*.AppImage",
+      "source_type": "github_release",
+      "version": "$OPENBOR_DESIRED_VERSION",
+      "extraction_type": "appimage",
       "assets": [
         {
           "type": "dir",
-          "source": "bin",
+          "source": "usr/bin",
           "dest": "bin"
-        },
-        {
-          "type": "dir",
-          "source": "$REPO_ROOT/$COMPONENT_NAME",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
           "type": "create",
           "dest": "component_version",
           "contents": "$SOURCE_VERSION"
-        },
-        {
-          "type": "dir",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_config",
-          "dest": "rd_config"
         },
         {
           "type": "file",
@@ -56,9 +45,21 @@
           "dest": "$COMPONENT_ARTIFACT_ROOT"
         }
       ],
-      "libs": []
+      "libs": [
+        {
+          "library": "libSDL2_gfx-1.0.so.0",
+          "source": "usr/lib",
+          "dest": "shared-libs"
+        },
+        {
+          "library": "libvpx.so.5",
+          "source": "usr/lib",
+          "dest": "shared-libs"
+        }
+      ]
     }
   ]
 }
+
 
 ```

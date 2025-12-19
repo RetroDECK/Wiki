@@ -19,17 +19,9 @@ The `component_prepare.sh` file is responsible for handling setup tasks unique t
 
 The when the `prepare_component` function is called the `RetroDECK Framework` processes every installed `component` and it will decide if it needs to trigger or not.
 
-## Examples
-
-**Check More Examples:**
-
-[RetroDECK Components/Cooker](https://github.com/RetroDECK/components/tree/cooker)
-
-### PPSSPP
-
+## Example: PPSSPP
 
 ```
-
 #!/bin/bash
 
 # Setting component name and path based on the directory name
@@ -47,20 +39,22 @@ if [[ "$action" == "reset" ]]; then # Run reset-only commands
   set_setting_value "$ppsspp_config" "CurrentDirectory" "$roms_path/psp" "ppsspp" "General"
   dir_prep "$saves_path/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/SAVEDATA"
   dir_prep "$states_path/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/PPSSPP_STATE"
-  dir_prep "$texture_packs_path/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/TEXTURES"
-  dir_prep "$shaders_path/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/assets/shaders"
+  dir_prep "$texture_packs_path/PPSSPP/TEXTURES" "$ppsspp_textures_path"
+  dir_prep "$shaders_path/PPSSPP" "$ppsspp_shaders_path"
+  dir_prep "$mods_path/PPSSPP/PLUGINS" "$ppsspp_mods_path"
+  dir_prep "$logs_path/PPSSPP" "$ppsspp_logs_path"
 
   log i "Preparing PPSSPP cheats"
-  create_dir -d "$cheats_path/PPSSPP-SA"
-  dir_prep "$cheats_path/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/Cheats"
-  if [[ -d "$cheats_path/PPSSPP-SA" && "$(ls -A "$cheats_path"/PPSSPP-SA)" ]]; then
-    backup_file="$backups_path/cheats/PPSSPP-SA-$(date +%y%m%d).tar.gz"
+  create_dir -d "$cheats_path/PPSSPP"
+  dir_prep "$cheats_path/PPSSPP" "$ppsspp_cheats_path"
+  if [[ -d "$cheats_path/PPSSPP" && "$(ls -A "$cheats_path"/PPSSPP-SA)" ]]; then
+    backup_file="$backups_path/cheats/PPSSPP-$(date +%y%m%d).tar.gz"
     create_dir "$(dirname "$backup_file")"
     tar -czf "$backup_file" -C "$cheats_path" PPSSPP
     log i "PPSSPP cheats backed up to $backup_file"
   fi
-  create_dir "$cheats_path/PPSSPP/"
-  unzip -q -o -j "$component_extras/CWCheat-Database-Plus--master.zip" "*/cheat.db" -d "$cheats_path/PPSSPP/"
+
+  unzip -q -o -j "$component_extras/CWCheat-Database-Plus--master.zip" "*/cheat.db" -d "$cheats_path/PPSSPP-SA/"
 
   log i "Preparing PPSSPP BIOS"
   create_dir -d "$bios_path/PPSSPP"
@@ -71,10 +65,16 @@ if [[ "$action" == "postmove" ]]; then # Run only post-move commands
   set_setting_value "$ppsspp_config" "CurrentDirectory" "$roms_path/psp" "ppsspp" "General"
   dir_prep "$saves_path/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/SAVEDATA"
   dir_prep "$states_path/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/PPSSPP_STATE"
-  dir_prep "$texture_packs_path/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/TEXTURES"
-  dir_prep "$shaders_path/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/assets/shaders"
-  dir_prep "$cheats_path/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/Cheats"
+  dir_prep "$texture_packs_path/PPSSPP/TEXTURES" "$ppsspp_textures_path"
+  dir_prep "$shaders_path/PPSSPP" "$ppsspp_shaders_path"
+  dir_prep "$cheats_path/PPSSPP" "$ppsspp_cheats_path"
+  dir_prep "$mods_path/PPSSPP/PLUGINS" "$ppsspp_mods_path"
+  dir_prep "$logs_path/PPSSPP" "$ppsspp_logs_path"
 fi
-
-
 ```
+
+**Check More Examples:**
+
+[RetroDECK Components/Cooker](https://github.com/RetroDECK/components/tree/cooker)
+
+---

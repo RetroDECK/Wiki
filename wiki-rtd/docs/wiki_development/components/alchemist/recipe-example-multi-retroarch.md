@@ -1,7 +1,7 @@
 ## Example: component_recipe.json - Multi Source - RetroArch
 
 ```
-{{
+{
   "retroarch": [
     {
       "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch.7z",
@@ -231,7 +231,7 @@
       "extraction_type": "local",
       "assets": [
         {
-          "type": "tar.gz",
+          "type": "dir",
           "source": "cores",
           "dest": "rd_extras/cores"
         }

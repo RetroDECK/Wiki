@@ -465,7 +465,7 @@ nav:
       - TEMPLATE component_recipe - Multi source: wiki_development/components/alchemist/recipe-template-web-multi.md
       - EXAMPLE component_recipe - Multi source - RetroArch: wiki_development/components/alchemist/recipe-example-multi-retroarch.md
       - TEMPLATE component_recipe - GitHub source: wiki_development/components/alchemist/recipe-template-github.md
-      - EXAMPLE component_recipe - Github source - eka2l1: wiki_development/components/alchemist/recipe-example-github-eka2l1.md
+      - EXAMPLE component_recipe - Github source - OpenBOR: wiki_development/components/alchemist/recipe-example-github-openbor.md
       - TEMPLATE component_recipe - Flathub source: wiki_development/components/alchemist/recipe-template-flathub.md
       - EXAMPLE component_recipe - Flathub source - Azahar: wiki_development/components/alchemist/recipe-example-flathub-azahar.md
 

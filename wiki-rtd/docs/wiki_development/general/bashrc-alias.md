@@ -10,45 +10,6 @@ Copy and paste the following lines to the end of your `~/.bashrc` file on any Li
 #                      RetroDECK
 # ========================================================
 
-# --------------------------------------------------------
-# Function: Cleanup RetroDECK
-# --------------------------------------------------------
-
-# This function removes both the RetroDECK flatpak package and the associated user data directory (~/.var/app/net.retrodeck.retrodeck/).
-# It prompts the user for confirmation before proceeding with the removal to avoid accidental data loss.
-
-rdrm-cleanup() {
-  # Check if RetroDECK flatpak is installed
-  if flatpak info net.retrodeck.retrodeck &>/dev/null; then
-    echo "RetroDECK is currently installed."
-
-    # Ask the user if they want to remove the flatpak package
-    read -p "Do you want to remove the RetroDECK flatpak? (y/n): " remove_fp
-    if [[ "$remove_fp" == "y" || "$remove_fp" == "Y" ]]; then
-      echo "Removing RetroDECK flatpak..."
-      flatpak remove net.retrodeck.retrodeck -y
-    else
-      echo "Skipping flatpak removal."
-    fi
-  else
-    echo "RetroDECK flatpak is not installed. Skipping removal."
-  fi
-
-  # Check if the user data directory exists
-  local path="$HOME/.var/app/net.retrodeck.retrodeck"
-  if [[ -d "$path" ]]; then
-    # Ask the user if they want to remove the user data directory
-    read -p "Do you want to remove the RetroDECK user data directory (~/.var/app/net.retrodeck.retrodeck)? (y/n): " remove_data
-    if [[ "$remove_data" == "y" || "$remove_data" == "Y" ]]; then
-      echo "Removing data directory..."
-      rm -rf "$path"
-    else
-      echo "Skipping data directory removal."
-    fi
-  else
-    echo "RetroDECK user data directory not found. Skipping."
-  fi
-}
 
 # --------------------------------------------------------
 # Main Installer Function: rdi-main
@@ -86,8 +47,6 @@ rdi-main() {
   echo "Downloading 7z bundle..."
   wget -q --show-progress "$PART1_URL" "$PART2_URL"
 
-  rdrm-cleanup  # Cleanup before installation
-
   # Extract the 7z bundle
   echo "Extracting 7z bundle..."
   7z x RetroDECK.flatpak.7z.001
@@ -112,7 +71,6 @@ rdi-main() {
 
 rdi-l-main() {
     echo "Starting full cleanup before local main installation..."
-    rdrm-cleanup  # Perform cleanup before installation
 
     # Install the local flatpak file
     echo "Installing local main flatpak..."
@@ -160,8 +118,6 @@ rdi-cooker() {
   echo "Downloading cooker 7z bundle..."
   wget -q --show-progress "$PART1_URL" "$PART2_URL"
 
-  rdrm-cleanup  # Cleanup before installation
-
   # Extract the cooker 7z bundle
   echo "Extracting cooker 7z bundle..."
   7z x RetroDECK-cooker.flatpak.7z.001
@@ -186,7 +142,6 @@ rdi-cooker() {
 
 rdi-l-cooker() {
     echo "Starting full cleanup before local cooker installation..."
-    rdrm-cleanup  # Perform cleanup before installation
 
     # Install the local cooker flatpak file
     echo "Installing local cooker flatpak..."
@@ -321,6 +276,20 @@ alias rdg-esde='git clone -b retrodeck-main https://github.com/RetroDECK/ES-DE'
 # Usage: rdg-wiki
 # Clones the RetroDECK wiki repository.
 alias rdg-wiki='git clone https://github.com/RetroDECK/Wiki'
+
+
+# --------------------------------------------------------
+# RetroDECK - Git Clone Shortcuts: Website
+# --------------------------------------------------------
+
+# Usage: rdg-web-dev
+# Clones the `dev` branch of the  RetroDECK Website repo.
+alias rdg-web-dev='git clone  -b dev https://github.com/RetroDECK/RetroDECK-Website'
+
+# Usage: rdg-web-prod
+# Clones the `prod` branch of the  RetroDECK Website repo.
+alias rdg-web-prod='git clone  -b prod https://github.com/RetroDECK/RetroDECK-Website'
+
 
 # ========================================================
 #                    END RETRODECK

@@ -41,10 +41,11 @@ If your game filenames contain any of the unsafe symbols, consider renaming them
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| Launch Scripts Folder | `retrodeck/roms/.sync/`   |  This hidden folder contains the auto generated launch scripts for Steam as `.sh` files.   |         | 
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/config/steam-rom-manager/`|   |
+| Type           | Directory                                                     | Comment                                                            |
+|:--------------:|:-------------------------------------------------------------|:------------------------------------------------------------------|
+| Config         | `~/.var/app/net.retrodeck.retrodeck/config/config/steam-rom-manager/` |                                                                    |
+| Launch Scripts | `retrodeck/roms/.sync/`                                       | This hidden folder contains the auto-generated launch scripts for Steam as `.sh` files |
+
 
 ---
 

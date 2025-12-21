@@ -39,11 +39,12 @@ PortMaster does not require BIOS or Firmware but depending on the game you might
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type                  | Folder                                               | Comment                                                                 |
-|:--------------------:|:----------------------------------------------------|:------------------------------------------------------------------------|
-| Launch Scripts        | `retrodeck/roms/portmaster/`                        | Auto-generated launch scripts for ES-DE (`.sh` files).                  |
-| Game Data             | `retrodeck/storage/PortMaster/ports/`               | Game files, savefiles, and other directories for the ports. |
-| Application Data      | `~/.var/app/net.retrodeck.retrodeck/data/PortMaster` | Contains the PortMaster application for userland execution and updating.             |
+| Type             | Directory                                           | Comment                                                                 |
+|:----------------:|:--------------------------------------------------|:------------------------------------------------------------------------|
+| Application Data | `~/.var/app/net.retrodeck.retrodeck/data/PortMaster/` | Contains the PortMaster application for userland execution and updating |
+| Game Data        | `retrodeck/PortMaster/`             | Game files, savefiles, and other directories for the ports              |
+| Launch Scripts   | `retrodeck/roms/portmaster/`                      | Auto-generated launch scripts for ES-DE (`.sh` files)                   |
+
 
 
 ---

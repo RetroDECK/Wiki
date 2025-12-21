@@ -36,14 +36,15 @@ ES-DE is the default frontend used in RetroDECK.
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
 
-| Type| Folder |Comment | 
-|:---:| :---:| :---: |
-| ES-DE Root  | `retrodeck/ES-DE/` | |
-| Collections | `retrodeck/ES-DE/collections/`|Usermade ES-DE collections|
-| Custom Systems | `retrodeck/ES-DE/custom_systems/`|Usermade ES-DE custom systems|
-| Media | `retrodeck/ES-DE/downloaded_media/`|Scraped media files|
-| Gamelists | `retrodeck/ES-DE/gamelists/`|Gamelists|
-| Themes | `retrodeck/ES-DE/themes/`|Downloaded themes |
+| Type           | Directory                           | Comment                   |
+|:--------------:|:----------------------------------|:-------------------------|
+| Collections    | `retrodeck/ES-DE/collections/`     | Usermade ES-DE collections |
+| Custom Systems | `retrodeck/ES-DE/custom_systems/`  | Usermade ES-DE custom systems |
+| Downloaded Media | `retrodeck/ES-DE/downloaded_media/` | Scraped media files        |
+| Gamelists      | `retrodeck/ES-DE/gamelists/`       | Gamelists                 |
+| Themes         | `retrodeck/ES-DE/themes/`          | Downloaded themes          |
+
+
 
 ---
 

@@ -85,12 +85,15 @@ It is compatible with most community-made levels, graphics, music, and mods crea
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/doom/` |                               |  
-| Saves Folder |`retrodeck/saves/wiiu/doom/` |                               |  
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/gzdoom/`         |   `gzdoom.ini`|
-| Data Folder |`~/.var/app/org.retrodeck.retrodeck/data/gzdoom` |   |
+| Type   | Directory                                         | Comment                     |
+|:------:|:-------------------------------------------------|:----------------------------|
+| Audio FM Banks Storage | `retrodeck/storage/gzdoom/audio/fm_banks/` |                             |
+| Audio Soundfonts | `retrodeck/storage/gzdoom/audio/soundfonts/` |                             |
+| BIOS   | `retrodeck/bios/gzdoom/`                         |                             |
+| Config | `~/.var/app/net.retrodeck.retrodeck/config/gzdoom/` | gzdoom.ini                  |
+| Data   | `~/.var/app/org.retrodeck.retrodeck/data/gzdoom/`   |                             |
+| ROMs   | `retrodeck/roms/doom/`                            |                             |
+| Saves  | `retrodeck/saves/wiiu/doom/`                      |                             |
 
 ---
 

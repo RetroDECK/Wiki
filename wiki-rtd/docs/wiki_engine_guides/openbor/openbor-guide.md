@@ -62,9 +62,10 @@ To simplify file transfers and ensure compatibility with RetroDECK, both file ex
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type       | Folder                     | Comment |
-|:---------:|:---------------------------|:-------|
-| ROMs Folder     | `retrodeck/roms/openbor/`  | Root folder for all OpenBOR games |
+| Type | Directory                 | Comment                           |
+|:----:|:--------------------------|:---------------------------------|
+| ROMs | `retrodeck/roms/openbor/` |                                  |
+
 
 ### Example folder structure for a game
 

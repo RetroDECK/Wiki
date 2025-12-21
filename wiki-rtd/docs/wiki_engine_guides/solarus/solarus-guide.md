@@ -50,9 +50,10 @@ No
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/solarus/` |           |
+| Type | Directory                 | Comment |
+|:----:|:-------------------------|:-------|
+| ROMs | `retrodeck/roms/solarus/` |        |
+
 
 ---
 

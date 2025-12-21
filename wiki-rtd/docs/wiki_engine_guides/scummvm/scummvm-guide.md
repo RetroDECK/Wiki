@@ -55,9 +55,10 @@ No
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/scummvm/` |                               |  
+| Type | Directory                  | Comment |
+|:----:|:---------------------------|:-------|
+| ROMs | `retrodeck/roms/scummvm/`  |        |
+
 
 ---
 

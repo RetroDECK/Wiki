@@ -50,9 +50,10 @@ No
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/mugen/` |                               |  
+| Type | Directory               | Comment |
+|:----:|:-----------------------|:-------|
+| ROMs | `retrodeck/roms/mugen/` |        |
+
 
 ### Example folder structure of a IkemanGO game
 

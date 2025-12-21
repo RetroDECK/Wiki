@@ -73,16 +73,16 @@ Directly into the folder
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |      Comment     | 
-|  :---:  |  :---:                 |      :---:     |
-| Tandy Color Computer: ROMs Folder |`retrodeck/roms/coco/` |  |
-| Dragon Data Dragon 32: ROMs Folder |`retrodeck/roms/dragon32/` |  |
-| Tano Dragon: ROMs Folder |`retrodeck/roms/tanodragon/` |  |
-| BIOS Folder | `retrodeck/bios/` | |
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/xroar/`         |   `xroar.config` |
-| Tandy Color Computer: States Folder |`retrodeck/xroar/coco/` | Manual |
-| Dragon Data Dragon 32: States Folder |`retrodeck/xroar/dragon32/` |  Manual |
-| Tano Dragon: States Folder |`retrodeck/xroar/tanodragon/` | Manual |
+| Type                         | Directory                                    | Comment |
+|------------------------------|----------------------------------------------|---------|
+| BIOS                         | `retrodeck/bios/`                            |         |
+| Config                       | `~/.var/app/net.retrodeck.retrodeck/config/xroar/xroar.config` |         |
+| Dragon Data Dragon 32: ROMs  | `retrodeck/roms/dragon32/`                   |         |
+| Dragon Data Dragon 32: States| `retrodeck/xroar/dragon32/`                  | Manual |
+| Tano Dragon: ROMs            | `retrodeck/roms/tanodragon/`                 |         |
+| Tano Dragon: States          | `retrodeck/xroar/tanodragon/`                | Manual |
+| Tandy Color Computer: ROMs   | `retrodeck/roms/coco/`                       |         |
+| Tandy Color Computer: States | `retrodeck/xroar/coco/`                      | Manual |
 
 ---
 
@@ -187,7 +187,7 @@ In **Hardware → Cartridge** you can select different default cartridge types f
 
 XRoar supports state files but does not allow saving them to a standard path. 
 
-Each time you save or load a state, you will be prompted to choose a location.  
+Each time you save or load a state, you will be prompted to choose a location.
 
 We recommend keeping your state files organized in the dedicated folder: `retrodeck/xroar/<computer_type>/`
 

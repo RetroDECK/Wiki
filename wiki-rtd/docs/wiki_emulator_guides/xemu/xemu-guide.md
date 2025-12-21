@@ -64,13 +64,13 @@ Directly into the folder
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |      Comment     | 
-|  :---:  |  :---:                 |      :---:     |
-| Saves Folder |`retrodeck/saves/xbox/xemu/` |                               |  
-| BIOS Folder | `retrodeck/bios/` | |
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/xemu/`         |   `xemu.toml` , shaders folder, shader_cache_list|
-| Shaders Folder |`~/.var/app/net.retrodeck.retrodeck/config/xemu/shaders/`         |   |
-| Data Folder |`~/.var/app/net.retrodeck.retrodeck/data/xemu/`         |   |
+| Type   | Directory                                                        | Comment                                 |
+|--------|------------------------------------------------------------------|-----------------------------------------|
+| BIOS   | `retrodeck/bios/`                                                |                                         |
+| Config | `~/.var/app/net.retrodeck.retrodeck/config/xemu/xemu.toml`      |                                         |
+| Data   | `~/.var/app/net.retrodeck.retrodeck/data/xemu/`                 |                                         |
+| Saves  | `retrodeck/saves/xbox/xemu/`                                    |                                         |
+| Shaders| `retrodeck/shaders/xemu/`       | data/xemu/shaders       |
 
 ---
 

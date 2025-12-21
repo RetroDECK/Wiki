@@ -83,16 +83,18 @@ To play many commercial PSVita games, Vita3K requires license files or keys:
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/psvita/` |                               |  
-| Saves Folder |`retrodeck/saves/psvita/vita3k/` |                               |                             |  
-| Texture Packs Folder |`retrodeck/texture_packs/Vita3K/import` |                               |        Vita3K/ux0/textures/import                     |  
-| Vita3K App Folder |`retrodeck/storage/Vita3K/ux0/app/` |                               |        Vita3K/ux0/app/                     |  
-| Vita3K Lang Folder |`retrodeck/storage/Vita3K/lang` |                               |        Vita3K/lang                     |  
-| Vita3K Patch Folder |`retrodeck/storage/Vita3K/patch` |                               |        Vita3K/patch                     |  
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/Vita3K/`         | `config.yml` |
-| Data Folder |`~/.var/app/net.retrodeck.retrodeck/data/Vita3K/`         | |
+| Type          | Directory                                                          | Comment                                   |
+|---------------|--------------------------------------------------------------------|-------------------------------------------|
+| Config        | `~/.var/app/net.retrodeck.retrodeck/config/Vita3K/config.yml`     |                                           |
+| Data          | `~/.var/app/net.retrodeck.retrodeck/data/Vita3K/`                 |                                           |
+| Lang          | `retrodeck/storage/Vita3K/lang`                                   | Vita3K/lang                               |
+| Patch         | `retrodeck/storage/Vita3K/patch`                                  | Vita3K/patch                              |
+| ROMs          | `retrodeck/roms/psvita/`                                          |                                           |
+| Saves         | `retrodeck/saves/psvita/vita3k/`                                  |                                           |
+| Shaders       | `retrodeck/shaders/vita3k/`                                       | Vita3K/shaders                            |
+| Storage       | `retrodeck/storage/Vita3K/`                                       | ux0 and more                              |
+| Texture Packs | `retrodeck/texture_packs/Vita3K/import`                           | Vita3K/ux0/textures/import                |
+
 
 ---
 
@@ -187,7 +189,7 @@ Follow these steps to install custom textures for your games in Vita3K.
 This guide uses **Tales of Innocence R** as an example.
 Before starting, make sure you know how to obtain the game’s **Title ID** above.
 
-### Step 1: Preparing the Texture Packs Folder
+### Step 1: Preparing the Texture Packs 
 
 Place your **downloaded texture pack folder**, the one containing the actual texture files into:
 

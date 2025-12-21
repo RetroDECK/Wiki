@@ -84,11 +84,12 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 Dolphin looks for the `IPL.bin` in the save folders. Put each region's `IPL.bin` in the corresponding saves folder.
 
-| Type               | Folder                              | Flatpak Source                  | Emulator Folder                | Comment |
-|:------------------:|:-----------------------------------:|:-------------------------------:|:------------------------------:|:-------:|
-| GameCube Saves EU  | `retrodeck/saves/gc/dolphin/EU/`    | `var/data/dolphin-emu/GC/EUR/`  | `dolphin-emu/GC/EUR/`          |         |
-| GameCube Saves US  | `retrodeck/saves/gc/dolphin/US/`    | `var/data/dolphin-emu/GC/USA/`  | `dolphin-emu/GC/USA/`          |         |
-| GameCube Saves JP  | `retrodeck/saves/gc/dolphin/JP/`    | `var/data/dolphin-emu/GC/JAP/`  | `dolphin-emu/GC/JAP/`          |         |
+| Type               | Directory                             | Comment              |
+|:------------------:|:-------------------------------------|:-------------------|
+| GameCube Saves EU   | `retrodeck/saves/gc/dolphin/EU/`    | dolphin-emu/GC/EUR/ |
+| GameCube Saves JP   | `retrodeck/saves/gc/dolphin/JP/`    | dolphin-emu/GC/JAP/ |
+| GameCube Saves US   | `retrodeck/saves/gc/dolphin/US/`    | dolphin-emu/GC/USA/ |
+
 
 ---
 
@@ -102,18 +103,22 @@ Dolphin looks for the `IPL.bin` in the save folders. Put each region's `IPL.bin`
 
 This shows what folder corresponds to each folder in the standard Dolphin structure 
 
-| Type               | Folder                              | Flatpak Source                  | Emulator Folder                | Comment |
-|:------------------:|:-----------------------------------:|:-------------------------------:|:------------------------------:|:-------:|
-| GameCube Saves EU  | `retrodeck/saves/gc/dolphin/EU/`    | `var/data/dolphin-emu/GC/EUR/`  | `dolphin-emu/GC/EUR/`          |         |
-| GameCube Saves JP  | `retrodeck/saves/gc/dolphin/JP/`    | `var/data/dolphin-emu/GC/JAP/`  | `dolphin-emu/GC/JAP/`          |         |
-| GameCube Saves US  | `retrodeck/saves/gc/dolphin/US/`    | `var/data/dolphin-emu/GC/USA/`  | `dolphin-emu/GC/USA/`          |         |
-| Mods               | `retrodeck/mods/Dolphin/`           | `var/data/dolphin-emu/Load/GraphicMods` | `dolphin-emu/Load/GraphicMods/` |         |
-| ROMs Gamecube Folder | `retrodeck/roms/gc/`              |                                 |                                |         |
-| ROMs Wii Folder    | `retrodeck/roms/wii/`               |                                 |                                |         |
-| Screenshots        | `retrodeck/screenshots/`            | `var/data/dolphin-emu/ScreenShots/` | `dolphin-emu/ScreenShots/`     |         |
-| States             | `retrodeck/states/dolphin/`         | `var/data/dolphin-emu/StateSaves/` | `dolphin-emu/StateSaves/`      |         |
-| Texture Packs      | `retrodeck/texture_packs/Dolphin/`  | `var/data/dolphin-emu/Load/Textures/` | `dolphin-emu/Load/Textures/`   |         |
-| Wii Saves          | `retrodeck/saves/wii/dolphin/`      | `var/data/dolphin-emu/Wii/`     | `dolphin-emu/Wii/`             |         |
+| Type               | Directory                             | Comment                        |
+|:------------------:|:-------------------------------------|:-------------------------------|
+| Dump               | `retrodeck/storage/Dolphin/Dump/`   | dolphin-emu/Dump               |
+| GameCube Saves EU   | `retrodeck/saves/gc/dolphin/EU/`    | dolphin-emu/GC/EUR/            |
+| GameCube Saves JP   | `retrodeck/saves/gc/dolphin/JP/`    | dolphin-emu/GC/JAP/            |
+| GameCube Saves US   | `retrodeck/saves/gc/dolphin/US/`    | dolphin-emu/GC/USA/            |
+| Mods               | `retrodeck/mods/Dolphin/`           | dolphin-emu/Load/GraphicMods/  |
+| ROMs Gamecube       | `retrodeck/roms/gc/`               |                                |
+| ROMs Wii            | `retrodeck/roms/wii/`              |                                |
+| Screenshots        | `retrodeck/screenshots/Dolphin/`   | dolphin-emu/ScreenShots/       |
+| Shaders            | `retrodeck/shaders/Dolphin/`       | dolphin-emu/Shaders            |
+| States             | `retrodeck/states/dolphin/`        | dolphin-emu/StateSaves/        |
+| Texture Packs      | `retrodeck/texture_packs/Dolphin/` | dolphin-emu/Load/Textures/     |
+| Wii Saves          | `retrodeck/saves/wii/dolphin/`     | dolphin-emu/Wii/               |
+
+
 
 ---
 
@@ -122,18 +127,21 @@ This shows what folder corresponds to each folder in the standard Dolphin struct
 This shows what folder corresponds to each folder in the standard PrimeHack structure 
 
 
-| Type               | Folder                              | Flatpak Source                  | Emulator Folder                | Comment |
-|:------------------:|:-----------------------------------:|:-------------------------------:|:------------------------------:|:-------:|
-| GameCube Saves EU  | `retrodeck/saves/gc/primehack/EU/`  | `var/data/primehack/GC/EUR/`    | `primehack/GC/EUR/`            |         |
-| GameCube Saves JP  | `retrodeck/saves/gc/primehack/JP/`  | `var/data/primehack/GC/JAP/`    | `primehack/GC/JAP/`            |         |
-| GameCube Saves US  | `retrodeck/saves/gc/primehack/US/`  | `var/data/primehack/GC/USA/`    | `primehack/GC/USA/`            |         |
-| Mods               | `retrodeck/mods/Primehack/`         | `var/data/primehack/Load/GraphicMods` | `primehack/Load/GraphicMods/` |         |
-| ROMs Gamecube Folder | `retrodeck/roms/gc/`              |                                 |                                |         |
-| ROMs Wii Folder    | `retrodeck/roms/wii/`               |                                 |                                |         |
-| Screenshots        | `retrodeck/screenshots/`            | `var/data/primehack/ScreenShots/` | `primehack/ScreenShots/`       |         |
-| States             | `retrodeck/states/primehack/`       | `var/data/primehack/StateSaves/` | `primehack/StateSaves/`        |         |
-| Texture Packs      | `retrodeck/texture_packs/Primehack/`         | `var/data/primehack/Load/Textures/` | `primehack/Load/Textures/`     |         |
-| Wii Saves          | `retrodeck/saves/wii/primehack/`    | `var/data/primehack/Wii/`       | `primehack/Wii/`               |         |
+| Type               | Directory                             | Comment                        |
+|:------------------:|:-------------------------------------|:-------------------------------|
+| Dump               | `retrodeck/storage/Primehack/Dump/`   | primehack/Dump               |
+| GameCube Saves EU   | `retrodeck/saves/gc/primehack/EU/`    | primehack/GC/EUR/            |
+| GameCube Saves JP   | `retrodeck/saves/gc/primehack/JP/`    | primehack/GC/JAP/            |
+| GameCube Saves US   | `retrodeck/saves/gc/primehack/US/`    | primehack/GC/USA/            |
+| Mods               | `retrodeck/mods/Primehack/`           | primehack/Load/GraphicMods/  |
+| ROMs Gamecube       | `retrodeck/roms/gc/`               |                                |
+| ROMs Wii            | `retrodeck/roms/wii/`              |                                |
+| Screenshots        | `retrodeck/screenshots/Primehack/`   | primehack/ScreenShots/       |
+| Shaders            | `retrodeck/shaders/Primehack/`       | primehack/Shaders            |
+| States             | `retrodeck/states/primehack/`        | primehack/StateSaves/        |
+| Texture Packs      | `retrodeck/texture_packs/Primehack/` | primehack/Load/Textures/     |
+| Wii Saves          | `retrodeck/saves/wii/primehack/`     | primehack/Wii/               |
+
 
 ---
 

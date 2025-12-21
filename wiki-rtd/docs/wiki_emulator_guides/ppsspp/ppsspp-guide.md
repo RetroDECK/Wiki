@@ -57,13 +57,17 @@ No
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/psp/` |                               |  
-| Saves Folder |`retrodeck/saves/PSP/PPSSPP-SA/` |                               |  
-| States Folder |`retrodeck/states//PSP/PPSSPP-SA/` |                               |  
-| Texture Packs Folder |`retrodeck/texture_packs/PPSSPP-SA/` |       Corresponds to `PSP/TEXTURES/` folder                        | 
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/PPSSPP-SA/PSP/`         |  |
+| Type          | Directory                                                         | Comment                                |
+|:-------------:|:------------------------------------------------------------------|:---------------------------------------|
+| Cheats        | `retrodeck/cheats/PPSSPP/`                                        | ppsspp/PSP/Cheats                      |
+| Config        | `~/.var/app/net.retrodeck.retrodeck/config/PPSSPP-SA/PSP/`        |                                         |
+| Logs          | `retrodeck/logs/PPSSPP/`                                          | ppsspp/PSP/SYSTEM/DUMP                  |
+| Mods          | `retrodeck/mods/PPSSPP/PLUGINS/`                                   | ppsspp/PSP/PLUGINS                      |
+| ROMs          | `retrodeck/roms/psp/`                                             |                                         |
+| Saves         | `retrodeck/saves/PSP/PPSSPP-SA/`                                   |                                         |
+| Shaders       | `retrodeck/shaders/PPSSPP/`                                        | ppsspp/assets/shaders                   |
+| States        | `retrodeck/states/PSP/PPSSPP-SA/`                                  |                                         |
+| Texture Packs | `retrodeck/texture_packs/PPSSPP/TEXTURES/`                          | ppsspp/PSP/TEXTURES                     |
 
 ---
 

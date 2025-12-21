@@ -69,19 +69,19 @@ It all depends on the game.
 
 MAME comes with several folders for various assets and files.
 
-| Type        | Folder                                          | Comment                                                                                                                            |
-|-------------|-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Cheat       | retrodeck/cheats/mame                           |                                                                                                                                   |
-| CFG         | ~/.var/app/net.retrodeck.retrodeck/config/mame/cfg | This is where the `default.cfg` is and also any custom game configs are saved.                                                    |
-| INI         | ~/.var/app/net.retrodeck.retrodeck/config/mame/ini | This is where `ui.ini` and `mame.ini` files are located. But they should not be touched unless you know what you are doing.          |
-| INP         | ~/.var/app/net.retrodeck.retrodeck/config/mame/inp |                                                                                                                                   |
-| Plugin-Data | retrodeck/mods/mame/plugin-data                 |                                                                                                                                   |
-| Plugins     | retrodeck/mods/mame/plugins                     |                                                                                                                                   |
-| ROMs        | retrodeck/roms/mame/ / retrodeck/roms/arcade/    |                                                                                                                                   |
-| Saves diff  | retrodeck/saves/mame-sa/diff/                   |                                                                                                                                   |
-| Saves hiscore| retrodeck/saves/mame-sa/hiscore/               |                                                                                                                                   |
-| Saves nvram | retrodeck/saves/mame-sa/nvram/                  |                                                                                                                                   |
-| States      | retrodeck/states/mame-sa                        |                                                                                                                                   |
+| Type          | Directory                                           | Comment                                                                                                                            |
+|:-------------:|:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------|
+| Cheat         | `retrodeck/cheats/mame`                             |                                                                                                                                    |
+| CFG           | `~/.var/app/net.retrodeck.retrodeck/config/mame/cfg` | `default.cfg`                                                     |
+| INI           | `~/.var/app/net.retrodeck.retrodeck/config/mame/ini` | `ui.ini` and `mame.ini`     |
+| INP           | `~/.var/app/net.retrodeck.retrodeck/config/mame/inp` |                                                                                                                                    |
+| Plugin-Data   | `retrodeck/mods/mame/plugin-data`                   |                                                                                                                                    |
+| Plugins       | `retrodeck/mods/mame/plugins`                       |                                                                                                                                    |
+| ROMs          | `retrodeck/roms/mame/` / `retrodeck/roms/arcade/`  |                                                                                                                                    |
+| Saves Diff    | `retrodeck/saves/mame-sa/diff/`                     |                                                                                                                                    |
+| Saves Hiscore | `retrodeck/saves/mame-sa/hiscore/`                  |                                                                                                                                    |
+| Saves NVRAM   | `retrodeck/saves/mame-sa/nvram/`                    |                                                                                                                                    |
+| States        | `retrodeck/states/mame-sa/`                         |                                                                                                                                    |
 
 ---
 
@@ -89,36 +89,37 @@ MAME comes with several folders for various assets and files.
 
 Where different types of assets and metadata are stored
 
-| Type          | Folder                                         | Comment |
-|---------------|-----------------------------------------------|---------|
-| Artwork       | retrodeck/storage/mame/artwork                |         |
-| Artwork‑preview| retrodeck/storage/mame/artwork-preview       |         |
-| Bosses        | retrodeck/storage/mame/bosses                 |         |
-| Cabinets      | retrodeck/storage/mame/cabinets               |         |
-| Comments      | retrodeck/storage/mame/comments               |         |
-| Covers        | retrodeck/storage/mame/covers                 |         |
-| Cpanel        | retrodeck/storage/mame/cpanel                 |         |
-| Crosshair     | retrodeck/storage/mame/crosshair              |         |
-| DATS          | retrodeck/storage/mame/dats                   |         |
-| Ends          | retrodeck/storage/mame/ends                   |         |
-| Hash          | retrodeck/storage/mame/hash                   |         |
-| Flyers        | retrodeck/storage/mame/flyers                 |         |
-| Fonts         | retrodeck/storage/mame/fonts                  |         |
-| Folders       | retrodeck/storage/mame/mame/folders           |         |
-| Game Over     | retrodeck/storage/mame/gameover               |         |
-| How‑to        | retrodeck/storage/mame/howto                  |         |
-| Language      | retrodeck/storage/mame/language               |         |
-| Logo          | retrodeck/storage/mame/logo                   |         |
-| Marquees      | retrodeck/storage/mame/marquees               |         |
-| PCB           | retrodeck/storage/mame/pcb                    |         |
-| Samples       | retrodeck/storage/mame/samples                |         |
-| Scores        | retrodeck/storage/mame/scores                 |         |
-| Select        | retrodeck/storage/mame/select                 |         |
-| Share         | retrodeck/storage/mame/share                  |         |
-| Software      | retrodeck/storage/mame/software               |         |
-| Titles        | retrodeck/storage/mame/titles                 |         |
-| UI            | retrodeck/storage/mame/ui                     |         |
-| Versus        | retrodeck/storage/mame/versus                 |         |
+| Type           | Directory                                 | Comment |
+|:--------------:|:-----------------------------------------|:--------|
+| Artwork        | `retrodeck/storage/mame/artwork`          |         |
+| Artwork-Preview| `retrodeck/storage/mame/artwork-preview`  |         |
+| Bosses         | `retrodeck/storage/mame/bosses`           |         |
+| Cabinets       | `retrodeck/storage/mame/cabinets`         |         |
+| Comments       | `retrodeck/storage/mame/comments`         |         |
+| Covers         | `retrodeck/storage/mame/covers`           |         |
+| Cpanel         | `retrodeck/storage/mame/cpanel`           |         |
+| Crosshair      | `retrodeck/storage/mame/crosshair`        |         |
+| DATS           | `retrodeck/storage/mame/dats`             |         |
+| Ends           | `retrodeck/storage/mame/ends`             |         |
+| Hash           | `retrodeck/storage/mame/hash`             |         |
+| Flyers         | `retrodeck/storage/mame/flyers`           |         |
+| Fonts          | `retrodeck/storage/mame/fonts`            |         |
+| Folders        | `retrodeck/storage/mame/mame/folders`     |         |
+| Game Over      | `retrodeck/storage/mame/gameover`         |         |
+| How-to         | `retrodeck/storage/mame/howto`            |         |
+| Language       | `retrodeck/storage/mame/language`         |         |
+| Logo           | `retrodeck/storage/mame/logo`             |         |
+| Marquees       | `retrodeck/storage/mame/marquees`         |         |
+| PCB            | `retrodeck/storage/mame/pcb`              |         |
+| Samples        | `retrodeck/storage/mame/samples`          |         |
+| Scores         | `retrodeck/storage/mame/scores`           |         |
+| Select         | `retrodeck/storage/mame/select`           |         |
+| Share          | `retrodeck/storage/mame/share`            |         |
+| Software       | `retrodeck/storage/mame/software`         |         |
+| Titles         | `retrodeck/storage/mame/titles`           |         |
+| UI             | `retrodeck/storage/mame/ui`               |         |
+| Versus         | `retrodeck/storage/mame/versus`           |         |
+
 
 ---
 

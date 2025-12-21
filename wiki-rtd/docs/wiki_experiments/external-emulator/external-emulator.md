@@ -95,7 +95,7 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
 
 2. Modify the command labels values:
 
-    - Point it towards the `%EMULATOR_FLATPAKSPAWN% --host` system.
+    - Point it towards the `%EMULATOR_FLATPAK-SPAWN% --host` system.
     - Add the `Launch Command` of the external emulator (check How-to). 
     - Change the label="" so it ends with (External) or any other name you want.
     
@@ -123,7 +123,7 @@ The easiest way is just to:
 
 New command label: 
 
-`<command label="Dolphin (External Native)"> %EMULATOR_FLATPAKSPAWN% --host /usr/bin/dolphin-emu -b -e %ROM% </command>`
+`<command label="Dolphin (External Native)"> %EMULATOR_FLATPAK-SPAWN% --host /usr/bin/dolphin-emu -b -e %ROM% </command>`
 
 **Dolphin (Flatpak Application)**
 
@@ -133,7 +133,7 @@ New command label:
 
 New command label:  
 
-`<command label="Dolphin (External Flatpak)"> %EMULATOR_FLATPAKSPAWN% --host flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu -b -e %ROM% </command>`
+`<command label="Dolphin (External Flatpak)"> %EMULATOR_FLATPAK-SPAWN% --host flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu -b -e %ROM% </command>`
 
 
 
@@ -148,8 +148,8 @@ New command label:
         <command label="Dolphin (Standalone)">%INJECT%=%BASENAME%.esprefix %EMULATOR_DOLPHIN% -b -e %ROM%</command>
         <command label="Dolphin">%EMULATOR_RETROARCH% -L %CORE_RETROARCH%/dolphin_libretro.so %ROM%</command>
         <command label="PrimeHack (Standalone)">%INJECT%=%BASENAME%.esprefix %EMULATOR_PRIMEHACK% -b -e %ROM%</command>
-        <command label="Dolphin (External Flatpak)"> %EMULATOR_FLATPAKSPAWN% --host flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu -b -e %ROM% </command>
-        <command label="Dolphin (External Native)"> %EMULATOR_FLATPAKSPAWN% --host /usr/bin/dolphin-emu -b -e %ROM% </command>
+        <command label="Dolphin (External Flatpak)"> %EMULATOR_FLATPAK-SPAWN% --host flatpak run --branch=stable --arch=x86_64 --command=/app/bin/dolphin-emu-wrapper org.DolphinEmu.dolphin-emu -b -e %ROM% </command>
+        <command label="Dolphin (External Native)"> %EMULATOR_FLATPAK-SPAWN% --host /usr/bin/dolphin-emu -b -e %ROM% </command>
         <!-- <command label="Triforce (Standalone)">%INJECT%=%BASENAME%.esprefix %EMULATOR_TRIFORCE% -b -e %ROM%</command> -->
         <platform>gc</platform>
         <theme>gc</theme>

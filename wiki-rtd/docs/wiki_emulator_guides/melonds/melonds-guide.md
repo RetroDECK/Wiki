@@ -78,13 +78,14 @@ Directly into the folder
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |      Comment     | 
-|  :---:  |  :---:                 |      :---:     |
-| ROMs Folder |`retrodeck/roms/nds/` |                               |  
-| Saves Folder |`retrodeck/saves/nds/melonds/` |                               |  
-| States Folder |`retrodeck/states/nds/melonds/` |                               |
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/melonDS/`         |   `melonDS.ini`|
-| BIOS Folder | `retrodeck/bios/` | |
+| Type   | Directory                                         | Comment       |
+|:------:|:--------------------------------------------------|:-------------|
+| BIOS   | `retrodeck/bios/`                                 |               |
+| Config | `~/.var/app/net.retrodeck.retrodeck/config/melonDS/` | `melonDS.ini` |
+| ROMs   | `retrodeck/roms/nds/`                             |               |
+| Saves  | `retrodeck/saves/nds/melonds/`                    |               |
+| States | `retrodeck/states/nds/melonds/`                   |               |
+
 
 ---
 

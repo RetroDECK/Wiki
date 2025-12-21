@@ -55,11 +55,12 @@ You can purchase it from the official [Pico-8 website](https://www.lexaloffle.co
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/pico8/` |                               |  
-| Saves Folder |`retrodeck/saves/pico-8/` |                               |  
-| BIOS Folder | `retrodeck/bios/pico-8/` |  |
+| Type   | Directory                     | Comment |
+|:------:|:------------------------------|:-------:|
+| BIOS   | `retrodeck/bios/pico-8/`      |         |
+| ROMs   | `retrodeck/roms/pico8/`       |         |
+| Saves  | `retrodeck/saves/pico-8/`     |         |
+
 
 ---
 

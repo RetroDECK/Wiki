@@ -71,16 +71,20 @@ Directly into the folder
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type| Folder |Comment | 
-|:---:| :---:| :---: |
-| ROMs Folder |`retrodeck/roms/ps2/` | | 
-| Cheat Folder |`retrodeck/cheats/pcsx2/` | `PCSX2/cheats/`|
-| Saves Folder |`retrodeck/saves/ps2/pcsx2/memcards/` | |
-| States Folder |`retrodeck/states/ps2/pcsx2/` | |
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/PCSX2/` ||
-| BIOS Folder | `retrodeck/bios/` ||
-| Texture Pack Folder |`retrodeck/texture_packs/pcsx2/` |Represents `PCSX2/textures/`|
-
+| Type          | Directory                                         | Comment             |
+|:-------------:|:--------------------------------------------------|:-------------------|
+| BIOS          | `retrodeck/bios/`                                 |                     |
+| Cheats        | `retrodeck/cheats/PCSX2/`                         | PCSX2/cheats       |
+| Config        | `~/.var/app/net.retrodeck.retrodeck/config/PCSX2/` |                     |
+| Logs          | `retrodeck/logs/PCSX2/`                           | PCSX2/logs         |
+| Mods          | `retrodeck/mods/PCSX2/patches/`                   | PCSX2/patches      |
+| ROMs          | `retrodeck/roms/ps2/`                             |                     |
+| Saves         | `retrodeck/saves/ps2/pcsx2/`                      |                     |
+| Memory Cards  | `retrodeck/saves/ps2/pcsx2/memcards/`            |                     |
+| Screenshots   | `retrodeck/screenshots/PCSX2/`                    |                     |
+| States        | `retrodeck/states/ps2/pcsx2/`                    |                     |
+| Texture Packs | `retrodeck/texture_packs/PCSX2/`                 | PCSX2/textures     |
+| Videos        | `retrodeck/videos/PCSX2/`                         |                     |
 
 ---
 

@@ -73,12 +73,22 @@ There are two ways to install the firmware:
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/ps3/` |                               |  
-| Saves Folder |`retrodeck/saves/ps3/rpcs3/` |                               |  
-| States Folder |`retrodeck/states/ps3/rpcs3/` |                               |  
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/rpcs3/`         |  Various config `.yml` and system folders |
+| Type        | Directory                                   | Comment                                  |
+|:-----------:|:--------------------------------------------|:-----------------------------------------|
+| Captures    | `retrodeck/storage/rpcs3/captures`          | Debug captures                 |
+| Config      | `~/.var/app/net.retrodeck.retrodeck/config/rpcs3/` | Various config `.yml` and system folders |
+| Dev_bdvd    | `retrodeck/storage/rpcs3/dev_bdvd`          |                                          |
+| Dev_flash   | `retrodeck/storage/rpcs3/dev_flash`         |                                          |
+| Dev_flash2  | `retrodeck/storage/rpcs3/dev_flash2`        |                                          |
+| Dev_flash3  | `retrodeck/storage/rpcs3/dev_flash3`        |                                          |
+| Dev_hdd0    | `retrodeck/storage/rpcs3/dev_hdd0`          |                                          |
+| Dev_hdd1    | `retrodeck/storage/rpcs3/dev_hdd1`          |                                          |
+| Dev_usb000  | `retrodeck/storage/rpcs3/dev_usb000`        |                                          |
+| Patches     | `retrodeck/storage/rpcs3/patches`           |                                          |
+| ROMs        | `retrodeck/roms/ps3/`                       |                                          |
+| Saves       | `retrodeck/saves/ps3/rpcs3/`                |                                          |
+| States      | `retrodeck/states/ps3/rpcs3/`               |                                          |
+
 
 ---
 

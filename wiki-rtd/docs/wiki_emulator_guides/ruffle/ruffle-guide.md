@@ -54,13 +54,14 @@ No
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/flash/` |                               | 
-| Saves Folder |`retrodeck/saves/flash/` |                               | 
-| Data Folder |`~/.var/app/net.retrodeck.retrodeck/data/ruffle/`   | |
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/ruffle/`   | |
-| Cache Folder |`~/.var/app/net.retrodeck.retrodeck/cache/ruffle/`   | |
+| Type   | Directory                                                     | Comment |
+|:------:|:--------------------------------------------------------------|:-------:|
+| Cache  | `~/.var/app/net.retrodeck.retrodeck/cache/ruffle/`            |         |
+| Config | `~/.var/app/net.retrodeck.retrodeck/config/ruffle/`           |         |
+| Data   | `~/.var/app/net.retrodeck.retrodeck/data/ruffle/`             |         |
+| ROMs   | `retrodeck/roms/flash/`                                       |         |
+| Saves  | `retrodeck/saves/flash/`                                      |         |
+
 
 ---
 

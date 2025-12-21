@@ -70,12 +70,23 @@ It depends on the core, check the links for the most up-to-date information.
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/<multiple>` |                               |          |
-| Saves Folder |`retrodeck/saves/<multiple>` |                               |        |
-| States Folder |`retrodeck/states/<multiple>` |                               |  Save States depends on the core if it has support or not | 
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/retroarch/`         |   |
+| Type          | Directory                                                         | Comment                                                   |
+|:-------------:|:------------------------------------------------------------------|:----------------------------------------------------------|
+| BIOS          | `retrodeck/bios/`                                                 |                                                          |
+| Borders       | `retrodeck/borders/retroarch/`                                     |                                                          |
+| Config        | `~/.var/app/net.retrodeck.retrodeck/config/retroarch/`            |                                                          |
+| Cheats        | `retrodeck/cheats/retroarch/`                                     |                                                          |
+| Logs          | `retrodeck/logs/retroarch/`                                       |                                                          |
+| ROMs          | `retrodeck/roms/<multiple>`                                       |                                                          |
+| Saves         | `retrodeck/saves/<multiple>`                                      |                                                          |
+| States        | `retrodeck/states/<multiple>`                                     | Save States depends on the core if it has support or not |
+| Screenshots   | `retrodeck/screenshots/retroarch/`                                |                                                          |
+| Videos        | `retrodeck/videos/retroarch/`                                     |                                                          |
+| Shaders       | `retrodeck/shaders/retroarch/`                                    |                                                          |
+| Shaders Core  | `retrodeck/shaders/retroarch-core/`                               |                                                          |
+| Texture Packs | `retrodeck/texture_packs/retroarch-core/`                          |                                                          |
+| Storage       | `retrodeck/storage/retroarch/`                                     |                                                          |
+
 
 ---
 

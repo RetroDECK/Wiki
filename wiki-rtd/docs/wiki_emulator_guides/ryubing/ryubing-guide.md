@@ -79,14 +79,15 @@ Alternatively, you can install it via the **RetroDECK Configurator**:
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| Saves Folder |`retrodeck/saves/switch/ryujinx/` or `~/.var/app/net.retrodeck.retrodeck/config/ryubing/bis/user/save/`|      Contains the `nand`, `sdcard` folders |
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/ryubing/`         |   Contains most of ryubing internal folders|
-| BIOS Folder | `retrodeck/bios/switch/` | Contains the `firmware`, `keys` folders  |
-| Logs Folder | `retrodeck/logs/switch/Ryubing` | Ryujinx/Logs |
-| Alternate Keys Folder | `~/.var/app/net.retrodeck.retrodeck/config/ryubing/system/` |  |
-| Mods  Folder | `retrodeck/mods/switch/Ryubing/contents` | Ryujinx/mods/contents/" |
+| Type           | Directory                                                                                                   | Comment                                   |
+|:--------------:|:------------------------------------------------------------------------------------------------------------|:------------------------------------------|
+| Alternate Keys | `~/.var/app/net.retrodeck.retrodeck/config/ryubing/system/`                                                  |                                           |
+| BIOS           | `retrodeck/bios/switch/`                                                                                    | Contains the `firmware`, `keys` folders   |
+| Config         | `~/.var/app/net.retrodeck.retrodeck/config/ryubing/`                                                        | Contains most of ryubing internal folders |
+| Logs           | `retrodeck/logs/switch/Ryubing`                                                                              | Ryujinx/Logs                              |
+| Mods           | `retrodeck/mods/switch/Ryubing/contents`                                                                    | Ryujinx/mods/contents/                   |
+| Saves          | `retrodeck/saves/switch/ryujinx/` or `~/.var/app/net.retrodeck.retrodeck/config/ryubing/bis/user/save/`     | Contains the `nand`, `sdcard` folders     |
+
   
 ---
 

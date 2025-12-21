@@ -88,14 +88,20 @@ Directly into the folder
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/psx/` |                               |  
-| Saves Folder |`retrodeck/saves/psx/duckstation/` |                               |  
-| States Folder |`retrodeck/states/psx/duckstation/` |                               |  
-| Texture Packs Folder |`retrodeck/texture_packs/Duckstation/` |       Corresponds to `duckstation/textures` folder                        | 
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/duckstation/`         |   `settings.xml`, `gameProfiles` folder, `controllerProfiles` folder|
-| BIOS Folder | `retrodeck/bios/` | |
+| Type          | Directory                                         | Comment                                                   |
+|:-------------:|:--------------------------------------------------|:----------------------------------------------------------|
+| BIOS          | `retrodeck/bios/`                                 |                                                          |
+| Config        | `~/.var/app/net.retrodeck.retrodeck/config/duckstation/` | `settings.xml`, `gameProfiles` folder, `controllerProfiles` folder |
+| Dump Audio    | `retrodeck/storage/Duckstation/dump/audio/`      | duckstation/dump/audio                 |
+| Dump Textures | `retrodeck/storage/Duckstation/dump/textures/`   |  duckstation/dump/textures              |
+| ROMs          | `retrodeck/roms/psx/`                             |                                                          |
+| Saves         | `retrodeck/saves/psx/duckstation/`                |                                                          |
+| Shaders       | `retrodeck/shaders/Duckstation/`                 |  duckstation/shaders                             |
+| States        | `retrodeck/states/psx/duckstation/`               |                                                          |
+| Screenshots   | `retrodeck/screenshots/Duckstation/`             | duckstation/screenshots                       |
+| Texture Packs | `retrodeck/texture_packs/Duckstation/`           | duckstation/textures          |
+
+
 
 ---
 

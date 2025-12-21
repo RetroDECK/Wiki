@@ -64,15 +64,19 @@ No
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs |`retrodeck/roms/3ds/` |                               |  
-| Saves |`retrodeck/saves/n3ds/azahar/` |                               |  
-| Config  |`~/.var/app/net.retrodeck.retrodeck/config/azahar/`         |  |
-| BIOS  | `/retrodeck/bios/azahar/` |  |
-| Data  |`~/.var/app/org.retrodeck.retrodeck/data/azahar` |     |
-| Mods  |`retrodeck/mods/azahar/` |  `/load/mods/`   |
-| Texture Packs  |`retrodeck/texture_packs/azahar/`|   `/load/textures`  |
+| Type          | Directory                                | Comment         |
+|:-------------:|:----------------------------------------|:---------------|
+| Cheats        | `retrodeck/cheats/Azahar/`               |     azahar-emu/cheats            |
+| Config        | `~/.var/app/net.retrodeck.retrodeck/config/azahar/` |                 |
+| Data          | `~/.var/app/org.retrodeck.retrodeck/data/azahar/` |                 |
+| Logs          | `retrodeck/logs/Azahar/`                 |  azahar-emu/log               |
+| Mods          | `retrodeck/mods/Azahar/mods/`            |   azahar-emu/load/mods              |
+| ROMs          | `retrodeck/roms/n3ds/`                    |                 |
+| Saves         | `retrodeck/saves/n3ds/azahar/`           |                 |
+| Shaders       | `retrodeck/shaders/Azahar/`              |    azahar-emu/shaders             |
+| Texture Packs | `retrodeck/texture_packs/Azahar/textures/` |      azahar-emu/load/textures           |
+
+
 
 ---
 

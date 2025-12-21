@@ -44,38 +44,34 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
-Yes, `prod.keys` `title.keys` and `.nca` files.
+Yes, Ryubing requires `prod.keys`, `title.keys`, and `.nca` files for proper operation.
 
-**Notice: Do not mix and match versions firmware and keys**
 
-The installed firmware must have have the same version at your keys and .nca files, you can't mix and match as that can lead to crashes and black screens!
+### Important: Do not mix and match firmware versions and keys
 
-You need to make sure that the keys and firmware are from the same version.
+Ensure that the firmware version matches the version of the keys and `.nca` files you are using. Mixing different versions can lead to crashes and black screens.
 
-Generally do not install the firmware from games. Instead provide your own firmware and keys from your own device.
+It is recommended to use firmware and keys from your own device, not from games.
 
-### Where to put the key files?
+### Where to Place the Key Files
 
-Needs the key files `prod.keys`, `title.keys`.
+The key files (`prod.keys`, `title.keys`) should be placed in one of the following locations:
 
-**Keys:** 
-
-`~/retrodeck/bios/switch/keys`
-
-or 
-
-`~/.var/app/net.retrodeck.retrodeck/config/ryubing/system/`
+- `~/retrodeck/bios/switch/keys`
+- `~/.var/app/net.retrodeck.retrodeck/config/ryubing/system/`
 
 
 ### How-to: Install the firmware
 
-You can put the firmware inside the:
+The firmware can be placed in the following directory:
 
-`~/retrodeck/bios/switch/firmware/`
+- `~/retrodeck/bios/switch/firmware/`
 
-Or you can put them anywhere as they need to be installed via:
+Alternatively, you can install it via the **RetroDECK Configurator**:
 
-`RetroDECK Configurator` ->  `Open Emulator` -> `ryubing` ->  `Tools` -> `Install Firmware` -> `Install from XCI or ZIP`
+1. Open RetroDECK Configurator
+2. Navigate to `Open Emulator` → `Ryubing`.
+3. Select  `Tools` → `Install Firmware` → `Install from XCI or ZIP`.
 
 ---
 

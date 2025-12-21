@@ -60,14 +60,16 @@ WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
-| ROMs Folder |`retrodeck/roms/wiiu/` |                               |  
-| Saves Folder |`retrodeck/saves/wiiu/cemu/` |                               |  
-| Config Folder |`~/.var/app/net.retrodeck.retrodeck/config/Cemu/`         |   `settings.xml`, `gameProfiles` folder, `controllerProfiles` folder|
-| BIOS Folder | `retrodeck/bios/Cemu` | Contains `usr` and `sys` folders |
-| Data Folder |`~/.var/app/org.retrodeck.retrodeck/data/Cemu` |     |
-| Texture Packs Folder |`retrodeck/texture_packs/Cemu/graphicPacks/` | Cemu/graphicPacks    |
+| Type          | Directory                                         | Comment                       |
+|:-------------:|:-------------------------------------------------|:------------------------------|
+| BIOS          | `retrodeck/bios/Cemu/`                            | Contains usr and sys folders  |
+| Config        | `~/.var/app/net.retrodeck.retrodeck/config/Cemu/`| settings.xml, gameProfiles folder, controllerProfiles folder |
+| Data          | `~/.var/app/org.retrodeck.retrodeck/data/Cemu/`  |                              |
+| ROMs          | `retrodeck/roms/wiiu/`                           |                              |
+| Saves         | `retrodeck/saves/wiiu/cemu/`                     |                              |
+| Shaders       | `retrodeck/shaders/Cemu/transferable/`          |  Cemu/shaderCache/transferable                            |
+| Texture Packs | `retrodeck/texture_packs/Cemu/graphicPacks/`    | Cemu/graphicPacks             |
+
 
 ---
 

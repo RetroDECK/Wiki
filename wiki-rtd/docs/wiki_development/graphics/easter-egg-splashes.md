@@ -171,7 +171,7 @@ Artist: Weestuarty
 | Tanabata | Jul 7 | Japan | Seasonal festival inspired by folklore | Yes |  |
 | Ferragosto | Aug | Italy | Peak summer holiday period | No |  |
 | Feria de las Flores | Aug | Colombia | Flower parade and cultural celebrations | No |  |
-| Waffle House Fight Club Day | Aug 24 | USA | Commemorates a quirky pop culture event at Waffle House restaurants | No |  |
+| Waffle House Fight Club Day | Aug 24 | USA | Commemorates a quirky pop culture event at Waffle House restaurants and it's birthday | No |  |
 | La Tomatina | Aug (late) | Spain | Large-scale tomato-throwing street festival | No |  |
 | Obon | Aug 13–16 | Japan | Remembrance and family gathering tradition | No |  |
 | Tsukimi / Mid-Autumn Festival / Moon Festival | Sep–Oct (full moon) | Japan / China / East Asia | Harvest and moon-viewing celebration | No |  |

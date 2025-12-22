@@ -171,8 +171,7 @@ Artist: Weestuarty
 | Aug (late) | La Tomatina | Spain | Large-scale tomato-throwing street festival | No |  |
 | Aug 13–16 | Obon | Japan | Remembrance and family gathering tradition | No |  |
 | Aug | Feria de las Flores | Colombia | Flower parade and cultural celebrations | No |  |
-| Sep–Oct (full moon) | Mid-Autumn / Moon Festival | East Asia | Harvest and moon-viewing celebration | Yes |  |
-| Sep–Oct (full moon) | Tsukimi | Japan | Moon-viewing celebration honoring the autumn harvest | Yes |  |
+| Sep–Oct (full moon) | Tsukimi / Mid-Autumn Festival / Moon Festival | Japan / China / East Asia  | Harvest and moon-viewing celebration | No |  |
 | Sep 19 | Talk Like a Pirate Day | International | Humorous parody day | Yes |  |
 | Late Sep–Early Oct | Frühlingsfest | Germany | Spring festival similar to Oktoberfest with food and beer | Yes |  |
 | Late Sep–Early Oct | Oktoberfest | Germany | Large-scale folk and beer festival | Yes |  |

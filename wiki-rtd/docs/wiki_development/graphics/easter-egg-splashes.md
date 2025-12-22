@@ -170,9 +170,10 @@ Artist: Weestuarty
 | Running of the Bulls | Jul (early–mid) | Spain | Cultural street festival involving traditional bull runs | No |  |
 | Tanabata | Jul 7 | Japan | Seasonal festival inspired by folklore | Yes |  |
 | Ferragosto | Aug | Italy | Peak summer holiday period | No |  |
+| Feria de las Flores | Aug | Colombia | Flower parade and cultural celebrations | No |  |
+| Waffle House Fight Club Day | Aug 24 | USA | Commemorates a quirky pop culture event at Waffle House restaurants | No |  |
 | La Tomatina | Aug (late) | Spain | Large-scale tomato-throwing street festival | No |  |
 | Obon | Aug 13–16 | Japan | Remembrance and family gathering tradition | No |  |
-| Feria de las Flores | Aug | Colombia | Flower parade and cultural celebrations | No |  |
 | Tsukimi / Mid-Autumn Festival / Moon Festival | Sep–Oct (full moon) | Japan / China / East Asia | Harvest and moon-viewing celebration | No |  |
 | Talk Like a Pirate Day | Sep 19 | International | Humorous parody day | No |  |
 | Frühlingsfest | Late Sep–Early Oct | Germany | Spring festival similar to Oktoberfest with food and beer | No |  |
@@ -180,9 +181,9 @@ Artist: Weestuarty
 | World Teachers’ Day | Oct 5 | International | Appreciation of teachers and education | No |  |
 | Halloween | Oct 31 | International | Costumes, themed activities, and community events | No |  |
 | Thanksgiving (Canada) | Oct (2nd Monday) | Canada | Holiday to give thanks for the harvest and blessings of the year | No |  |
-| Thanksgiving (USA) | Nov (varies) | USA | Holiday to give thanks for the harvest and blessings of the year | No |  |
-| Black Friday (USA )| Nov Friday (varies) | USA | Major shopping day with widespread sales and discounts | No | |
 | Día de los Muertos | Nov 1–2 | Mexico | Colorful celebration remembering deceased loved ones | No |  |
+| Thanksgiving (USA) | Nov (4th Thursday) | USA | Holiday to give thanks for the harvest and blessings of the year | No |  |
+| Black Friday | Nov (4th Friday) | USA / International | Major shopping day with widespread sales and discounts | No | Often followed by Cyber Monday |
 | Monkey Buffet Festival | Nov (varies) | Thailand | Public feast prepared for local monkeys | No |  |
 | Diwali | Nov 4–10 (varies) | India | Festival of lights celebrating joy and prosperity | No |  |
 | International Men’s Day | Nov 19 | International | Focus on men’s health, well-being, and positive role models | No |  |
@@ -194,6 +195,7 @@ Artist: Weestuarty
 | Lake of Stars Festival | Varies | Malawi | International music and arts festival along Lake Malawi | No |  |
 | Sauti za Busara | Varies | Zanzibar, Tanzania | Music festival celebrating African rhythms and culture | No |  |
 | Bushfire Festival | Varies | Eswatini | International music and arts festival with cultural workshops | No |  |
+
 
 
 

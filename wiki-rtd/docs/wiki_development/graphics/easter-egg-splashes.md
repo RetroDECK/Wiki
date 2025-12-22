@@ -133,63 +133,66 @@ Artist: Weestuarty
 
 ## Looking for Artist
 
-| Date (Typical) | Event | Country / Origin | Short Description | Logo Available | Comments |
+| Event | Date (Typical) | Country / Origin | Short Description | Logo Available | Comments |
 |---|---|---|---|---|---|
-| Dec 31–Jan 1 | New Year’s Eve / Day | International | Celebration marking the end of the year and start of the new year | No |  |
-| Jan–Mar (varies) | Desert Kite Festival | UAE | Large outdoor kite-flying event | No |  |
-| Jan–Mar (varies) | Camel Festival | Saudi Arabia | Cultural festival with camel shows and races | No |  |
-| Jan (late) | Up-Helly-Aa | Scotland | Fire festival with torchlight processions and Viking-inspired themes | No |  |
-| Jan–Feb (varies) | Lunar New Year (春节) | East Asia | New year based on the lunar calendar, marked by family reunions and festivities | Yes |  |
-| Feb 2 | Groundhog Day | USA / Canada | Folklore-based day predicting the length of winter | No |  |
-| Feb 3 | Setsubun | Japan | Seasonal tradition marking the transition to spring | No |  |
-| Feb 14 | Valentine’s Day | International | Celebration of love, affection, and friendship | Yes |  |
-| Feb–Mar (varies) | Carnevale / Mardi Gras / Semmeldagen | Europe | Festive season with parades, costumes, and traditional foods | No |  |
-| Feb | Inti Raymi | Peru | Historic Incan festival celebrating the sun and seasonal change | No |  |
-| Feb 27 | International Polar Bear Day | Arctic / Global | Raises awareness about polar bear conservation and climate change | No |  |
-| Mar 4 | International GM Day / RetroDECK’s Birthday & GM’s Day | Community / Gaming | Honors game masters and celebrates the RetroDECK project | Yes |  |
-| Mar 8 | International Women’s Day | International | Celebration of women’s achievements and equality | No |  |
-| Mar (varies) | Holi | India | Cultural festival celebrating spring and togetherness with colors | No |  |
-| Mar 17 | St. Patrick’s Day | Ireland / International | Celebration of Irish culture with parades, music, and green-themed festivities | Yes |  |
-| Late Mar–Early Apr (varies) | Hanami (花見) | Japan | Viewing and celebrating cherry blossoms | No |  |
-| Apr 1 | April Fools’ Day | International | Day for jokes and harmless pranks | No |  |
-| Apr 22 | Earth Day | International | Awareness and action for environmental protection | No |  |
-| Apr 25 | International Penguin Awareness Day | Global | Raises awareness about penguins and conservation efforts | No |  |
-| Apr 30 | Walpurgis Night (Valborgsmässoafton) | Northern Europe | Traditional spring celebration with bonfires | No |  |
-| May 1 | May Day (Spring Celebration) | Europe / International | Celebration of spring and seasonal change | No |  |
-| May 5 | Kodomo no Hi | Japan | Celebration of children’s health and happiness | Yes |  |
-| May 17 | Syttende Mai | Norway | Community parades, traditional dress, and cultural celebrations | No |  |
-| May (varies) | Cheese Rolling Festival | England | Participants chase a rolling cheese down a steep hill | No |  |
-| May–Jun (varies) | Dragon Boat Festival | East Asia | Boat races and seasonal cultural activities | No |  |
-| May (2nd Sunday) | Mother’s Day | International | Honoring mothers and caregivers | No |  |
-| Jun (varies) | White Night Festivals | Northern Europe | Cultural events celebrating long daylight hours | No |  |
-| Jun–Jul (varies) | Matariki | New Zealand | Māori New Year celebrated with feasts, cultural events, and storytelling | No |  |
-| Jun (3rd Sunday) | Father’s Day | International | Honoring fathers and caregivers | No |  |
-| Mar–Jun (varies) | Pride | International | Celebrations of LGBTQ+ identity and inclusion | Yes |  |
-| Late Jun (Fri–Sat) | Midsommarafton | Sweden | Seasonal celebration of midsummer with food and dancing | No |  |
-| Jul (early–mid) | Running of the Bulls | Spain | Cultural street festival involving traditional bull runs | No |  |
-| Jul 7 | Tanabata | Japan | Seasonal festival inspired by folklore | Yes |  |
-| Aug | Ferragosto | Italy | Peak summer holiday period | No |  |
-| Aug (late) | La Tomatina | Spain | Large-scale tomato-throwing street festival | No |  |
-| Aug 13–16 | Obon | Japan | Remembrance and family gathering tradition | No |  |
-| Aug | Feria de las Flores | Colombia | Flower parade and cultural celebrations | No |  |
-| Sep–Oct (full moon) | Tsukimi / Mid-Autumn Festival / Moon Festival | Japan / China / East Asia  | Harvest and moon-viewing celebration | No |  |
-| Sep 19 | Talk Like a Pirate Day | International | Humorous parody day | No |  |
-| Late Sep–Early Oct | Frühlingsfest | Germany | Spring festival similar to Oktoberfest with food and beer | No |  |
-| Late Sep–Early Oct | Oktoberfest | Germany | Large-scale folk and beer festival | No |  |
-| Oct 5 | World Teachers’ Day | International | Appreciation of teachers and education | No |  |
-| Oct 31 | Halloween | International | Costumes, themed activities, and community events | No |  |
-| Nov 1–2 | Día de los Muertos | Mexico | Colorful celebration remembering deceased loved ones | No |  |
-| Nov (varies) | Monkey Buffet Festival | Thailand | Public feast prepared for local monkeys | No |  |
-| Nov 4–10 (varies) | Diwali | India | Festival of lights celebrating joy and prosperity | No |  |
-| Nov 19 | International Men’s Day | International | Focus on men’s health, well-being, and positive role models | No |  |
-| Dec 13 | Lucia Day (Luciadagen) | Sweden | Cultural festival celebrating light during winter | No |  |
-| Dec 24–Jan 30 | End-of-Year Holiday Period | International | Year-end celebrations and time off | Yes |  |
-| Varies / Seasonal | Powwows | North America | Community gatherings with music, dance, and cultural storytelling | No |  |
-| Winter months | Reindeer Racing | Sámi / Northern Scandinavia | Traditional winter events showcasing reindeer herding and sledding | No |  |
-| Varies | Festival of Masks | West Africa | Traditional mask dances, music, and storytelling | No |  |
-| Varies | Lake of Stars Festival | Malawi | International music and arts festival along Lake Malawi | No |  |
-| Varies | Sauti za Busara | Zanzibar, Tanzania | Music festival celebrating African rhythms and culture | No |  |
-| Varies | Bushfire Festival | Eswatini | International music and arts festival with cultural workshops | No |  |
+| New Year’s Eve / Day | Dec 31–Jan 1 | International | Celebration marking the end of the year and start of the new year | No |  |
+| Desert Kite Festival | Jan–Mar (varies) | UAE | Large outdoor kite-flying event | No |  |
+| Camel Festival | Jan–Mar (varies) | Saudi Arabia | Cultural festival with camel shows and races | No |  |
+| Up-Helly-Aa | Jan (late) | Scotland | Fire festival with torchlight processions and Viking-inspired themes | No |  |
+| Lunar New Year (春节) | Jan–Feb (varies) | East Asia | New year based on the lunar calendar, marked by family reunions and festivities | Yes |  |
+| Groundhog Day | Feb 2 | USA / Canada | Folklore-based day predicting the length of winter | No |  |
+| Setsubun | Feb 3 | Japan | Seasonal tradition marking the transition to spring | No |  |
+| Sámi National Day | Feb 6 | Northern Scandinavia | Celebration of Sámi culture, music, and heritage | No |  |
+| Valentine’s Day | Feb 14 | International | Celebration of love, affection, and friendship | Yes |  |
+| Carnevale / Mardi Gras / Semmeldagen | Feb–Mar (varies) | Europe | Festive season with parades, costumes, and traditional foods | No |  |
+| Inti Raymi | Feb | Peru | Historic Incan festival celebrating the sun and seasonal change | No |  |
+| International Polar Bear Day | Feb 27 | Arctic | Raises awareness about polar bear conservation and climate change | No |  |
+| International GM Day / RetroDECK’s Birthday & GM’s Day | Mar 4 | Community / Gaming | Honors game masters and celebrates the RetroDECK project | Yes |  |
+| International Women’s Day | Mar 8 | International | Celebration of women’s achievements and equality | No |  |
+| Holi | Mar (varies) | India | Cultural festival celebrating spring and togetherness with colors | No |  |
+| St. Patrick’s Day | Mar 17 | Ireland / International | Celebration of Irish culture with parades, music, and green-themed festivities | Yes |  |
+| Hanami (花見) | Late Mar–Early Apr (varies) | Japan | Viewing and celebrating cherry blossoms | No |  |
+| April Fools’ Day | Apr 1 | International | Day for jokes and harmless pranks | No |  |
+| Earth Day | Apr 22 | International | Awareness and action for environmental protection | No |  |
+| International Penguin Awareness Day | Apr 25 | Antarctica | Raises awareness about penguins and conservation efforts | No |  |
+| Walpurgis Night (Valborgsmässoafton) | Apr 30 | Northern Europe | Traditional spring celebration with bonfires | No |  |
+| May Day (Spring Celebration) | May 1 | Europe / International | Celebration of spring and seasonal change | No |  |
+| Kodomo no Hi | May 5 | Japan | Celebration of children’s health and happiness | Yes |  |
+| Syttende Mai | May 17 | Norway | Community parades, traditional dress, and cultural celebrations | No |  |
+| Cheese Rolling Festival | May (varies) | England | Participants chase a rolling cheese down a steep hill | No |  |
+| Dragon Boat Festival | May–Jun (varies) | East Asia | Boat races and seasonal cultural activities | No |  |
+| Mother’s Day | May (2nd Sunday) | International | Honoring mothers and caregivers | No |  |
+| White Night Festivals | Jun (varies) | Northern Europe | Cultural events celebrating long daylight hours | No |  |
+| Matariki | Jun–Jul (varies) | New Zealand | Māori New Year celebrated with feasts, cultural events, and storytelling | No |  |
+| Father’s Day | Jun (3rd Sunday) | International | Honoring fathers and caregivers | No |  |
+| Pride | Mar–Jun (varies) | International | Celebrations of LGBTQ+ identity and inclusion | Yes |  |
+| Midsommarafton | Late Jun (Fri–Sat) | Sweden | Seasonal celebration of midsummer with food and dancing | No |  |
+| Running of the Bulls | Jul (early–mid) | Spain | Cultural street festival involving traditional bull runs | No |  |
+| Tanabata | Jul 7 | Japan | Seasonal festival inspired by folklore | Yes |  |
+| Ferragosto | Aug | Italy | Peak summer holiday period | No |  |
+| La Tomatina | Aug (late) | Spain | Large-scale tomato-throwing street festival | No |  |
+| Obon | Aug 13–16 | Japan | Remembrance and family gathering tradition | No |  |
+| Feria de las Flores | Aug | Colombia | Flower parade and cultural celebrations | No |  |
+| Tsukimi / Mid-Autumn Festival / Moon Festival | Sep–Oct (full moon) | Japan / China / East Asia | Harvest and moon-viewing celebration | No |  |
+| Talk Like a Pirate Day | Sep 19 | International | Humorous parody day | No |  |
+| Frühlingsfest | Late Sep–Early Oct | Germany | Spring festival similar to Oktoberfest with food and beer | No |  |
+| Oktoberfest | Late Sep–Early Oct | Germany | Large-scale folk and beer festival | No |  |
+| World Teachers’ Day | Oct 5 | International | Appreciation of teachers and education | No |  |
+| Halloween | Oct 31 | International | Costumes, themed activities, and community events | No |  |
+| Thanksgiving (Canada) | Oct (2nd Monday) | Canada | Holiday to give thanks for the harvest and blessings of the year | No |  |
+| Thanksgiving (USA) | Nov (4th Thursday) | USA | Holiday to give thanks for the harvest and blessings of the year | No |  |
+| Día de los Muertos | Nov 1–2 | Mexico | Colorful celebration remembering deceased loved ones | No |  |
+| Monkey Buffet Festival | Nov (varies) | Thailand | Public feast prepared for local monkeys | No |  |
+| Diwali | Nov 4–10 (varies) | India | Festival of lights celebrating joy and prosperity | No |  |
+| International Men’s Day | Nov 19 | International | Focus on men’s health, well-being, and positive role models | No |  |
+| Lucia Day (Luciadagen) | Dec 13 | Sweden | Cultural festival celebrating light during winter | No |  |
+| End-of-Year Holiday Period | Dec 24–Jan 1 | International | Year-end celebrations and time off | Yes |  |
+| Powwows | Varies / Seasonal | North America | Community gatherings with music, dance, and cultural storytelling | No |  |
+| Reindeer Racing | Winter months | Arctic | Traditional winter events showcasing reindeer herding and sledding | No |  |
+| Festival of Masks | Varies | West Africa | Traditional mask dances, music, and storytelling | No |  |
+| Lake of Stars Festival | Varies | Malawi | International music and arts festival along Lake Malawi | No |  |
+| Sauti za Busara | Varies | Zanzibar, Tanzania | Music festival celebrating African rhythms and culture | No |  |
+| Bushfire Festival | Varies | Eswatini | International music and arts festival with cultural workshops | No |  |
 
 
 

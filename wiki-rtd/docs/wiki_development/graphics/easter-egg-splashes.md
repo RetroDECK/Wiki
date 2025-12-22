@@ -146,6 +146,7 @@ Artist: Weestuarty
 | Feb 14 | Valentine’s Day | International | Celebration of love, affection, and friendship | Yes |  |
 | Feb–Mar (varies) | Carnevale / Mardi Gras / Semmeldagen | Europe | Festive season with parades, costumes, and traditional foods | Yes |  |
 | Feb | Inti Raymi | Peru | Historic Incan festival celebrating the sun and seasonal change | No |  |
+| Feb 27 | International Polar Bear Day | North Pole | Raises awareness about polar bear conservation and climate change | No |  |
 | Mar 4 | International GM Day / RetroDECK’s Birthday & GM’s Day | Community / Gaming | Honors game masters and celebrates the RetroDECK project | Yes |  |
 | Mar 8 | International Women’s Day | International | Celebration of women’s achievements and equality | Yes |  |
 | Mar (varies) | Holi | India | Cultural festival celebrating spring and togetherness with colors | Yes |  |
@@ -153,6 +154,7 @@ Artist: Weestuarty
 | Late Mar–Early Apr (varies) | Hanami (花見) | Japan | Viewing and celebrating cherry blossoms | No |  |
 | Apr 1 | April Fools’ Day | International | Day for jokes and harmless pranks | No |  |
 | Apr 22 | Earth Day | International | Awareness and action for environmental protection | Yes |  |
+| Apr 25 | International Penguin Awareness Day | South Pole | Raises awareness about penguins and conservation efforts | No |  |
 | Apr 30 | Walpurgis Night (Valborgsmässoafton) | Northern Europe | Traditional spring celebration with bonfires | No |  |
 | May 1 | May Day (Spring Celebration) | Europe / International | Celebration of spring and seasonal change | Yes |  |
 | May 5 | Kodomo no Hi | Japan | Celebration of children’s health and happiness | Yes |  |

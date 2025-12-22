@@ -180,7 +180,8 @@ Artist: Weestuarty
 | World Teachers’ Day | Oct 5 | International | Appreciation of teachers and education | No |  |
 | Halloween | Oct 31 | International | Costumes, themed activities, and community events | No |  |
 | Thanksgiving (Canada) | Oct (2nd Monday) | Canada | Holiday to give thanks for the harvest and blessings of the year | No |  |
-| Thanksgiving (USA) | Nov (4th Thursday) | USA | Holiday to give thanks for the harvest and blessings of the year | No |  |
+| Thanksgiving (USA) | Nov (varies) | USA | Holiday to give thanks for the harvest and blessings of the year | No |  |
+| Black Friday (USA )| Nov Friday (varies) | USA | Major shopping day with widespread sales and discounts | No | |
 | Día de los Muertos | Nov 1–2 | Mexico | Colorful celebration remembering deceased loved ones | No |  |
 | Monkey Buffet Festival | Nov (varies) | Thailand | Public feast prepared for local monkeys | No |  |
 | Diwali | Nov 4–10 (varies) | India | Festival of lights celebrating joy and prosperity | No |  |

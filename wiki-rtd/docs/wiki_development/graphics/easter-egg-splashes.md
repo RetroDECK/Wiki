@@ -142,7 +142,6 @@ Artist: Weestuarty
 | Lunar New Year (春节) | Jan–Feb (varies) | East Asia | New year based on the lunar calendar, marked by family reunions and festivities | Yes |  |
 | Groundhog Day | Feb 2 | USA / Canada | Folklore-based day predicting the length of winter | No |  |
 | Setsubun | Feb 3 | Japan | Seasonal tradition marking the transition to spring | No |  |
-| Sámi National Day | Feb 6 | Northern Scandinavia | Celebration of Sámi culture, music, and heritage | No |  |
 | Valentine’s Day | Feb 14 | International | Celebration of love, affection, and friendship | Yes |  |
 | Carnevale / Mardi Gras / Semmeldagen | Feb–Mar (varies) | Europe | Festive season with parades, costumes, and traditional foods | No |  |
 | Inti Raymi | Feb | Peru | Historic Incan festival celebrating the sun and seasonal change | No |  |

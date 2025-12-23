@@ -157,12 +157,14 @@ Artist: Weestuarty
 | Earth Day | Apr 22 | International | Environmental awareness and action | Earth, leaves | Green, blue | Organic shapes | Hopeful, mindful | No |  |
 | International Penguin Awareness Day | Apr 25 | Antarctica | Penguin conservation awareness | Penguins, ice | Black, white, blue | Ice patterns | Educational | No |  |
 | Walpurgis Night | Apr 30 | Northern Europe | Spring celebration with bonfires | Fires, silhouettes | Orange, dark blue | Flames | Mystical | No |  |
+| Star Wars Day | May 4 | International | Celebration of Star Wars fandom (“May the 4th”) | Lightsabers, stars | Black, white, neon accents | Space, sci-fi UI | Playful, geeky | No | “May the 4th Be With You” |
 | May Day | May 1 | Europe / International | Celebration of spring | Flowers, ribbons | Pastels | Floral wreaths | Fresh, cheerful | No |  |
 | Kodomo no Hi | May 5 | Japan | Celebration of children | Koinobori carp | Red, blue | Fish scales | Cheerful | Yes |  |
 | Syttende Mai | May 17 | Norway | National day with parades | Flags, bunads | Red, white, blue | Clean lines | Proud, joyful | No |  |
 | Cheese Rolling Festival | May (varies) | England | Traditional hill-rolling cheese race | Cheese wheel | Yellow, green | Circular motion | Absurd, energetic | No |  |
 | Dragon Boat Festival | May–Jun (varies) | East Asia | Boat races and traditions | Dragon boats, drums | Red, teal | Wave patterns | Competitive, festive | No |  |
 | Mother’s Day | May (2nd Sunday) | International | Honoring mothers and caregivers | Flowers, cards | Soft pastels | Floral motifs | Warm, thankful | No |  |
+| Towel Day | May 25 | International | Tribute to Douglas Adams and *The Hitchhiker’s Guide to the Galaxy* | Towels, number 42 | Black, neon green, deep blues | Stars, sci-fi UI | Geeky, humorous | No | “Don’t Panic” |
 | White Night Festivals | Jun (varies) | Northern Europe | Cultural events during long daylight | Sun, cityscapes | Light blue, gold | Gradients | Dreamy | No |  |
 | Father’s Day | Jun (3rd Sunday) | International | Honoring fathers and caregivers | Tools, ties | Blue, gray | Simple icons | Appreciative | No |  |
 | Matariki | Jun–Jul (varies) | New Zealand | Māori New Year | Stars, constellations | Deep blue, white | Star patterns | Reflective | No |  |
@@ -194,6 +196,7 @@ Artist: Weestuarty
 | Lake of Stars Festival | Varies | Malawi | Music and arts festival | Lake, stars | Deep blue | Waves | Creative | No |  |
 | Sauti za Busara | Varies | Zanzibar | African music festival | Instruments | Warm tropical | Rhythmic lines | Energetic | No |  |
 | Bushfire Festival | Varies | Eswatini | Music and arts with workshops | Instruments, people | Warm sunset tones | Organic patterns | Community-focused | No |  |
+
 
 
 

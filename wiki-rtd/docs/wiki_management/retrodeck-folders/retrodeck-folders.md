@@ -21,22 +21,23 @@ This page provides an overview of the RetroDECK folder structure for **userdata*
 
 ## Userdata Folder - retrodeck/
 
-| Folder Path                  | Folder Name / Description        | Description                                                                 |
-|------------------------------|----------------------------------|-----------------------------------------------------------------------------|
-| retrodeck/bios                | BIOS Folder                     | BIOS files for emulators (RetroArch structure).                             |
-| retrodeck/borders             | Borders Folder                  | Borders/Bezels for supported systems in the interface.                      |
-| retrodeck/cheats              | Cheats Folder                   | Cheat files for emulators and supported systems.                            |
-| retrodeck/ES-DE               | ES-DE Folder                    | Userdata and config files from ES-DE.                                       |
-| retrodeck/logs                | Logs Folder                     | Log files for RetroDECK for debugging and tracking.                         |
-| retrodeck/mods                | Mods Folder                     | Mods and extra content for supported systems.                               |
-| retrodeck/roms                | ROMs Folder                     | Games / ROMs for supported systems.                                            |
-| retrodeck/saves               | Saves Folder                    | Save files for supported systems.                                           |
-| retrodeck/screenshots         | Screenshots Folder              | In-game screenshots from supported systems.                                 |
-| retrodeck/storage             | Storage Folder                  | Miscellaneous files like DLC, installations, and PortMaster data.          |
-| retrodeck/shaders             | Shaders Folder                  | Shader files for graphical improvements in emulators.                       |
-| retrodeck/states              | States Folder                   | Save states for emulators and supported systems.                            |
-| retrodeck/texture_packs       | Texture Packs Folder            | Texture packs for graphical enhancements.                                  |
-| retrodeck/videos              | Videos Folder                   | In-game videos captured from supported systems.                             |
+| Folder Path                  | Folder Name / Description        | Description (Note: Each folder supports different components)                |
+|------------------------------|----------------------------------|-------------------------------------------------------------------------------|
+| retrodeck/bios                | BIOS Folder                     | BIOS files (RetroArch structure).                                            |
+| retrodeck/borders             | Borders Folder                  | Borders/Bezels images.                                                       |
+| retrodeck/cheats              | Cheats Folder                   | Cheat files.                                        |
+| retrodeck/ES-DE               | ES-DE Folder                    | User data and configuration files from ES-DE.                                |
+| retrodeck/logs                | Logs Folder                     | Log files (debugging and tracking).                             |
+| retrodeck/mods                | Mods Folder                     | Mods and extra content.                                                      |
+| retrodeck/roms                | ROMs Folder                     | Games and ROMs.                                                     |
+| retrodeck/saves               | Saves Folder                    | Save files.                                                    |
+| retrodeck/screenshots         | Screenshots Folder              | In-game screenshots captured during emulation.                               |
+| retrodeck/storage             | Storage Folder                  | Miscellaneous files like DLC and installations.                              |
+| retrodeck/shaders             | Shaders Folder                  | Shader files for graphical enhancements.                                      |
+| retrodeck/states              | States Folder                   | Save states.                                        |
+| retrodeck/texture_packs       | Texture Packs Folder            | Texture packs for graphical improvements.                       |
+| retrodeck/videos              | Videos Folder                   | In-game videos captures.                                    |
+
 
 
 ---
@@ -68,7 +69,6 @@ Most BIOS files are put in the root of the folder.
 | dc            | Dreamcast                 | Sega Dreamcast emulator BIOS files.                             |
 | fbneo         | Final Burn Neo            | Arcade emulator BIOS files.                                     |
 | gzdoom        | GZDoom                    | Doom source port; stores configuration and IWAD files.           |
-| HdPacks       | HdPacks                   | High-definition graphics packs for emulators.                   |
 | Machines      | Machines                  | BIOS files for various emulated machines.                       |
 | mame-sa       | MAME Standalone           | Standalone MAME emulator BIOS files.                            |
 | Mupen64plus   | Mupen64Plus               | Nintendo 64 emulator BIOS files for accurate emulation.         |
@@ -78,7 +78,6 @@ Most BIOS files are put in the root of the folder.
 | quasi88       | Quasi88                   | NEC PC-8801 emulator BIOS files.                                |
 | rpcs3         | RPCS3                     | PlayStation 3 emulator BIOS files and firmware.                 |
 | switch        | Nintendo Switch           | Nintendo Switch emulator BIOS files and firmware.               |
-| themes        | Themes                    | Folder for BIOS-related UI themes or overlays.                   |
 | Vita3K        | Vita3K                    | PlayStation Vita emulator BIOS files and firmware.              |
 
 

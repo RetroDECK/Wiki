@@ -103,7 +103,9 @@ If you are working with UI/UX design and/or have experience with Godot and want 
 
 ## Rekku, the RetroDECK mascot.
 
-Some parts of the team also really wanted a mascot so that will also be a part of the new Configurator. It’s a animated cyborg-cat-like-humanoid that guides you to the various functions in the Configurator. Right now, we only have AI generated concepts of the mascot for reference but if you are an artist and want to help us design the mascot, please contact us on discord.
+Some parts of the team also really wanted a mascot so that will also be a part of the new Configurator. It’s a animated cyborg-cat-like-humanoid that guides you to the various functions in the Configurator.
+
+***Update:** This idea was scraped later for a new mascot in 2026.
 
 
 

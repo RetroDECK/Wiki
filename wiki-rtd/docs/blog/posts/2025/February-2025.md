@@ -72,15 +72,13 @@ Disables the Sync on Shutdown function and lets the user sync manually with the 
 
 ## Still Working on a Mascot
 
-<img src="../../../rekku-no.png" width="150">
-
-<img src="../../../rekku-yes.png" width="150"> 
-
 We have a concept for our project mascot made in VRoid Studio. We want a "Genie of Games 😉" named Rekku, who comes out of an old game cartridge. 
 
 She should be inspired by classic Djinn characters like: I Dream of Jeannie, Jeannie (The Hanna-Barbera Show), Hakushon Daimaō (The Genie Family) and more. 
 
 If you have 3D modeling skills and want to help, please contact the RetroDECK Team on Discord in the 💙-i-want-to-help channel.
+
+***Update:** This idea was scraped later for a new mascot in 2026.
 
 
 

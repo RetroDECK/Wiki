@@ -164,13 +164,19 @@ Their purpose is to reduce library dependency conflicts between components when 
 
 ---
 
-## Rekku or other Mascot
+## RetroDECK Mascot: Reiki the Cyber Shark
 
-Is [Rekku](https://github.com/apps/rekku-retrodeck) RetroDECK virtual assistant and the mascot of the RetroDECK Project.
+**Read more here:**
 
-She will be replaced later by a new mascot, her design is not finished and just a concept.  
+[Reiki the Cyber Shark](../../wiki_credits_social/reiki.md) 
 
-She does GitHub bot announcements and will be more integrated into the project in the future **hopefully**.. 
+---
+
+## Rekku the Build Bot
+
+Is [Rekku](https://github.com/apps/rekku-retrodeck) RetroDECK virtual assistant and a build-bot.
+
+She does GitHub bot announcements.
 
 ---
 

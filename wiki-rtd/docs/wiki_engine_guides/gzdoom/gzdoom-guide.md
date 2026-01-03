@@ -234,7 +234,7 @@ WadSmoosh+ merges **DOOM, DOOM II, and all supported official add-ons** into a s
 
 This makes using mods and switching between episodes much easier.
 
-### How to create: doom_complete.pk3
+### How to create: wadsmoosh+.ipk3
 
 1. Download the latest release of WadSmoosh+.
 2. Place **all required WAD files** into the `source_wads` folder.

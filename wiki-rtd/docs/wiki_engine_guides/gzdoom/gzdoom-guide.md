@@ -239,38 +239,60 @@ This makes using mods and switching between episodes much easier.
  
 ### Wads supported by WadSmoosh+
 
-| WAD File         | Category / Source                                   | Description                         |
-|------------------|------------------------------------------------------|-------------------------------------|
-| betray.wad       | Xbox Doom Bonus Levels                               | Xbox-exclusive bonus map.           |
-| doom.wad         | Doom / Ultimate Doom                                 | Original Doom IWAD.                 |
-| doomunity.wad    | Unity Doom                                           | Unity version of Doom (rename **doom.wad** ➝ **doomunity.wad** ).              |
-| doom2.wad        | Doom II                                              | Original Doom II IWAD.              |
-| doom2bfg.wad     | Doom II BFG Edition                                  | BFG Edition extra content.          |
-| doom2unity.wad   | Unity Doom II                                        | Unity version of Doom II. (rename **doom.wad** ➝ **doom2unity.wad** ).           |
-| doom3do.wad      | Doom 3DO Soundtrack                                  | 3DO music WAD.                      |
-| doomzero.wad     | Doom Zero                                            | Unity-released megawad.             |
-| extras.wad       | Unity Add-ons                                        | Bonus assets for Unity ports.       |
-| freedoom1.wad    | Freedoom Phase 1                                     | Free replacement Doom IWAD.         |
-| freedoom2.wad    | Freedoom Phase 2                                     | Free replacement Doom II IWAD.      |
-| hell2pay.wad     | Hell To Pay                                          | Commercial total conversion.        |
-| id1.wad          | Legacy of Rust (KEX re-release)                      | Extra IWAD-style file.              |
-| id1-res.wad      | Legacy of Rust (KEX re-release)                      | Resource file.                      |
-| id24res.wad      | Legacy of Rust (KEX re-release)                      | Resource file.                      |
-| iddm1.wad        | Legacy of Rust (KEX re-release)                      | Deathmatch pack.                    |
-| jptr_v40.wad     | The Lost Episodes of Doom                            | Early commercial fan episodes.      |
-| neis.wad         | No End in Sight                                      | Ultimate Doom megawad.              |
-| nerve.wad        | No Rest for the Living                               | Official Doom II episode.           |
-| perdgate.wad     | Perdition's Gate                                     | Commercial add-on.                  |
-| pl2.wad          | Plutonia 2                                           | Fan-made Plutonia sequel.           |
-| prcp.wad         | Plutonia Revisited                                   | Community Plutonia project.         |
-| plutonia.wad     | Final Doom                                           | Plutonia IWAD.                      |
-| sewers.wad       | Xbox Doom Bonus Levels                               | Xbox-exclusive bonus map.           |
-| sigil.wad        | Sigil                                                | Romero’s Episode 5.                 |
-| sigil_shreds.wad | Sigil (Music Add-on)                                 | Optional enhanced soundtrack.       |
-| sigil2.wad       | Sigil II                                             | Romero’s Doom II megawad.           |
-| tnt.wad          | Final Doom                                           | TNT IWAD.                           |
-| tnt2_beta6.wad   | TNT: Devilution                                      | Fan-made TNT sequel.                |
-| tntr.wad         | TNT: Revilution                                      | Community TNT sequel.               |
+| WAD File         | Category / Source                                   | Description                                   |
+|------------------|------------------------------------------------------|-----------------------------------------------|
+| attack.wad       | Master Levels for Doom II                            | Master Levels: Attack                         |
+| betray.wad       | Xbox Doom Bonus Levels                               | Xbox-exclusive bonus map.                     |
+| blacktwr.wad     | Master Levels for Doom II                            | Master Levels: Black Tower                    |
+| bloodsea.wad     | Master Levels for Doom II                            | Master Levels: Bloodsea Keep                  |
+| canyon.wad       | Master Levels for Doom II                            | Master Levels: Canyon                         |
+| catwalk.wad      | Master Levels for Doom II                            | Master Levels: The Catwalk                    |
+| combine.wad      | Master Levels for Doom II                            | Master Levels: The Combine                    |
+| doom.wad         | Doom / Ultimate Doom                                 | Original Doom IWAD.                           |
+| doom2.wad        | Doom II                                              | Original Doom II IWAD.                        |
+| doom2bfg.wad     | Doom II BFG Edition                                  | BFG Edition extra content.                    |
+| doom2unity.wad   | Unity Doom II                                        | Unity version of Doom II (rename **doom2.wad** ➝ **doom2unity.wad**). |
+| doom3do.wad      | Doom 3DO Soundtrack                                  | 3DO music WAD.                                |
+| doomunity.wad    | Unity Doom                                           | Unity version of Doom (rename **doom.wad** ➝ **doomunity.wad**). |
+| doomzero.wad     | Doom Zero                                            | Unity-released megawad.                       |
+| extras.wad       | Unity Add-ons                                        | Bonus assets for Unity ports.                 |
+| fistula.wad      | Master Levels for Doom II                            | Master Levels: The Fistula                    |
+| freedoom1.wad    | Freedoom Phase 1                                     | Free replacement Doom IWAD.                   |
+| freedoom2.wad    | Freedoom Phase 2                                     | Free replacement Doom II IWAD.                |
+| garrison.wad     | Master Levels for Doom II                            | Master Levels: The Garrison                   |
+| geryon.wad       | Master Levels for Doom II                            | Master Levels: Geryon: 6th Canto of Inferno   |
+| hell2pay.wad     | Hell To Pay                                          | Commercial total conversion.                  |
+| id1.wad          | Legacy of Rust (KEX re-release)                      | Extra IWAD-style file.                        |
+| id1-res.wad      | Legacy of Rust (KEX re-release)                      | Resource file.                                |
+| id24res.wad      | Legacy of Rust (KEX re-release)                      | Resource file.                                |
+| iddm1.wad        | Legacy of Rust (KEX re-release)                      | Deathmatch pack.                              |
+| jptr_v40.wad     | The Lost Episodes of Doom                            | Early commercial fan episodes.                |
+| manor.wad        | Master Levels for Doom II                            | Master Levels: Titan Manor                   |
+| mephisto.wad     | Master Levels for Doom II                            | Master Levels: Mephisto’s Maosoleum           |
+| minos.wad        | Master Levels for Doom II                            | Master Levels: Minos’ Judgement               |
+| neis.wad         | No End in Sight                                      | Ultimate Doom megawad.                        |
+| nerve.wad        | No Rest for the Living                               | Official Doom II episode.                     |
+| nessus.wad       | Master Levels for Doom II                            | Master Levels: Nessus                         |
+| paradox.wad      | Master Levels for Doom II                            | Master Levels: Paradox                        |
+| perdgate.wad     | Perdition's Gate                                     | Commercial add-on.                            |
+| pl2.wad          | Plutonia 2                                           | Fan-made Plutonia sequel.                     |
+| prcp.wad         | Plutonia Revisited                                   | Community Plutonia project.                   |
+| plutonia.wad     | Final Doom                                           | Plutonia IWAD.                                |
+| sewers.wad       | Xbox Doom Bonus Levels                               | Xbox-exclusive bonus map.                     |
+| sigil.wad        | Sigil                                                | Romero’s Episode 5.                           |
+| sigil2.wad       | Sigil II                                             | Romero’s Doom II megawad.                     |
+| sigil_shreds.wad | Sigil (Music Add-on)                                 | Optional enhanced soundtrack.                 |
+| subspace.wad     | Master Levels for Doom II                            | Master Levels: Subspace                       |
+| subterra.wad     | Master Levels for Doom II                            | Master Levels: Subterra                       |
+| teeth.wad        | Master Levels for Doom II                            | Master Levels: The Express Elevator to Hell + Bad Dream  |
+| tnt.wad          | Final Doom                                           | TNT IWAD.                                     |
+| tnt2_beta6.wad   | TNT: Devilution                                      | Fan-made TNT sequel.                          |
+| tntr.wad         | TNT: Revilution                                      | Community TNT sequel.                         |
+| ttrap.wad        | Master Levels for Doom II                            | Master Levels: Trapped on Titan               |
+| vesperas.wad     | Master Levels for Doom II                            | Master Levels: Vesperas: 7th Canto of Inferno |
+| virgil.wad       | Master Levels for Doom II                            | Master Levels: Virgil’s Lead: 3rd Canto of Inferno |
+
+
 
 ---
 

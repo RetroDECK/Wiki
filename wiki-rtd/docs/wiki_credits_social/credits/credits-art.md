@@ -22,13 +22,22 @@ Adapted specifically for RetroDECK by:
 ## RetroDECK Folder Icons
 
 Lahrs contributed an folder iconset to **RetroDECK**. 
-Some of these icons are based on the original work of **Dan Patrick**, for which Lahrs obtained formal permission to incorporate and adapt.   
+Some of these icons are based on the original work of **Dan Patrick**, for which Lahrs obtained formal permission to incorporate and adapt.
 
 ## Pixelitos Icon Theme
 
 Created by:
 
 - [ItsZariep](https://github.com/ItsZariep)
+
+## RetroDECK Mascot: Reiki the Cyber Shark
+
+We are honored to collaborate with a highly regarded FOSS artist
+who has generously contributed his time and passion to the RetroDECK Mascot.
+
+Check out the portfolio:
+
+- [Tyson Tan](https://tysontan.com/)
 
 ## Assistance with the First Iteration of the VRoid Mascot
 

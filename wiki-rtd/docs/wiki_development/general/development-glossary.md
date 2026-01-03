@@ -168,7 +168,7 @@ Their purpose is to reduce library dependency conflicts between components when 
 
 **Read more here:**
 
-[Reiki the Cyber Shark](../../wiki_credits_social/reiki.md) 
+[Reiki the Cyber Shark](../../reiki/reiki.md) 
 
 ---
 

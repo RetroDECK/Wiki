@@ -49,20 +49,23 @@ Only builds published on **Flathub** are considered stable releases.
 
 ---
 
-### 📌 Quick Tip: Use our bash aliases/functions
+
+## Tips
+
+###  Use our bash aliases/functions
 
 Use the RetroDECK `bashrc` aliases/functions instead of typing full commands manually.
 Copy the alias definitions from:  [RetroDECK: bashrc Functions and Aliases](../general/bashrc-alias.md) into your `~/.bashrc`.
 
 ---
 
-### 📌 Quick Tip: Simulating the post_update between versions
+### Simulating the post_update between versions
 
 If you want to trigger the upgrade script again between a version upgrade to try something out.
 
 You can do it via CLI (recommend) or Manually by editing the CFG file
 
-#### CLI
+**CLI**
 
 Do the following command
 
@@ -74,8 +77,7 @@ Do the following command
 
 This will trigger all the post-updates from `0.8.0b` to the current version you got installed.
 
-
-#### Manually via CFG
+**Manually via CFG**
 
  Go to and edit the `.cfg` file:
 

@@ -18,7 +18,7 @@ Are designed for testers who want early access to new features and can report bu
 - Include the latest features and experimental changes.
 - Intended for early testing; many may never reach a stable release.
 
-### Pre‑Release Builds  
+### Release Candidate (RC) Builds  
 
 Builds published on the main Git release channel that still require final testing.
 
@@ -78,15 +78,15 @@ This will trigger all the post-updates from `0.8.0b` to the current version you 
 
 ---
 
-## Setup the Testing Environment 
+## Setup the Testing Environment: Take Your Backups (Critical!)
 
-### Take Your Backups (Critical!)
+Creating backups is **highly recommended**. The Cooker may overwrite or corrupt existing data.
 
-Backups are **highly recommend**. The Cooker can overwrite or break existing data. 
+**Release Candidate (RC) builds** are generally more stable than Cooker builds, but they can still introduce breaking changes. Regardless of which testing build you use, taking backups is always recommended.
 
-If something goes wrong and you **did not** take backups, your ROMs, BIOS, saves, and configurations may be **lost permanently**.
+If something goes wrong and you **do not** have backups, your ROMs, BIOS files, save data, and configuration files may be **permanently lost**.
 
-The RetroDECK Team is not responsible for your data-loss. 
+The RetroDECK Team is not responsible for any data loss.
 
 | What you should back up | Where|
 |-------------------------|--------------|
@@ -96,15 +96,38 @@ The RetroDECK Team is not responsible for your data-loss.
 
 ---
 
-### Download the Cooker or Pre-Release
+## Release Candidate (RC) Testing 
+
+- Grab the latest pre-release from: [RetroDECK Main: Latest](https://github.com/RetroDECK/RetroDECK/releases/latest) page and place it in `~/Downloads`.
+- Note the `<version_id>` in the filename, e.g. should be the same as the version that is going out to flathub and should contain a pre-release tag and a name ends with RC, example: 0.10.0b-RC1.
+
+
+---
+
+### Upgrading RetroDECK from Stable (Flathub) to RC
+
+1. **Recommended Backups:** Of `~/.var/app/net.retrodeck.retrodeck/` and `~/retrodeck` and put somewhere safe (see above). 
+2. **Uninstall RetroDECK:** Open your app store and uninstall RetroDECK. If prompted, **do not** remove configuration files or additional data.
+3. **Install:** Install your downloaded file with `flatpak install RetroDECK.flatpak`.
+4. **Start RetroDECK with:**  `flatpak run net.retrodeck.retrodeck --debug` this will ensure that any errors that are popping up during the upgrade will be seen in the terminal window. 
+5. **Upgrade:** Press the `Upgrade` button and keep the installation moving until all the steps are complete and RetroDECK will launch.
+
+---
+
+### Start testing
+
+Now feel free to test all the new features of the update and report any issues, check the patch notes for what is new.
+All logs will be saved in the new `retrodeck/logs` folder
+
+Thank you! ❤️
+
+---
+
+## Cooker Testing
 
 - Grab the latest cooker release from the [RetroDECK Cooker: Latest](https://github.com/RetroDECK/Cooker/releases/latest) page and place it in `~/Downloads`.
 - Note the `<version_id>` in the filename, e.g. `RetroDECK-Cooker‑X.X.Xb‑HelloWorld` → `HelloWorld`.
 
-**Note on Pre-Releases:**
-
-- Grab the latest pre-release from: [RetroDECK Main: Latest](https://github.com/RetroDECK/RetroDECK/releases/latest) page and place it in `~/Downloads`.
-- Note the `<version_id>` in the filename, e.g. should be the same as the version that is going out to flathub aka: 0.10.b and might contain a pre-release tag.
 
 ---
 
@@ -116,17 +139,12 @@ Normally under: `cd ~/Downloads`
 
 **Remove existing RetroDECK installations:**
 
-`flatpak remove net.retrodeck.retrodeck -y`  # repeat if multiple versions exist
+`flatpak remove net.retrodeck.retrodeck -y`  # repeat if multiple versions exist or choose the option to remove all. 
 
 **Install the Cooker:**
 
 `flatpak install --user --bundle --noninteractive -y RetroDECK-cooker.flatpak`
 
-**Note on Pre-Releases:**
-
-If you are testing a pre-release and the build have left cooker to main the name is different of the flatpak file:
-
-`flatpak install --user --bundle --noninteractive -y RetroDECK.flatpak` 
 
 ### Choose Your Path
 
@@ -143,7 +161,7 @@ If you are testing a pre-release and the build have left cooker to main the name
 
 To simulate a fresh install
 
-1. **Recommended Backups:** Of  `~/.var/app/net.retrodeck.retrodeck/` and  `~/retrodeck` and put somewhere safe.
+1. **Recommended Backups:** Of `~/.var/app/net.retrodeck.retrodeck/` and `~/retrodeck` and put somewhere safe (see above). 
 2. **Rename RetroDECK data:** `~/.var/app/net.retrodeck.retrodeck/` to `old.net.retrodeck.retrodeck`.
 3. **Rename RetroDECK folder:** `~/retrodeck` to  `~/oldretrodeck`.
 4. **Start RetroDECK with:**  `flatpak run net.retrodeck.retrodeck --debug` this will ensure that any errors that are popping up on first installation will be seen in the terminal window. 
@@ -170,11 +188,7 @@ Avoid the button entirely unless you have a strong valid reason to press it.
 
 ---
 
-## Start testing
-
-
-If you are on `SteamOS` like on the Steam Deck return to `Game Mode` for this step.
-If you are on `Linux Desktop` make sure you launch RetroDECK via Steam, else Steam Input won't work.
+### Start testing
 
 Now feel free to test all the new features of the update and report any issues, check the patch notes for what is new.
 All logs will be saved in the new `retrodeck/logs` folder

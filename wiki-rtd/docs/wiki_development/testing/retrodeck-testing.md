@@ -11,7 +11,7 @@ Please read carefully all information on this page.
 
 ### Cooker Builds
 
-Cooker builds are intended for testers who want early access to new features and are willing to provide feedback and bug reports. These builds are **not recommended for regular use**, as they **will** destabilize your RetroDECK experience.
+Cooker builds are published on the cooker Git release channel.  They are intended for testers who want early access to new features and are willing to provide feedback and bug reports. These builds are **not recommended for regular use**, as they **will** destabilize your RetroDECK experience.
 
 - Represent RetroDECK’s bleeding-edge development builds.
 - Include the latest features and experimental changes.
@@ -27,18 +27,18 @@ Cooker Final builds represent the last stage of the cooker phase before transiti
 
 ### Release Candidate (RC) Builds
 
-Release Candidate (RC) builds are published on the main Git release channel and undergo final testing before being promoted to a stable release.
+Release Candidate (RC) builds are published on the main Git release channel and undergo final testing before being promoted to a master release.
 
 - Serve as a transition phase between cooker builds and official releases.
 - May still contain minor bugs that require resolution.
 
-### Master Releases
+### Master Release
 
 Master releases are published on the main Git release channel and represent completed builds pending distribution.
 
 - Considered fully tested and ready for publication on Flathub.
 
-### Stable Releases
+### Stable Release
 
 Only builds published on **Flathub** are considered stable releases.
 

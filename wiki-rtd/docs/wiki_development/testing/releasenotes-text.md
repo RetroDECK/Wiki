@@ -8,7 +8,7 @@ RetroDECK is **NOT** considered **"released"** until it is published on Flathub.
 
 That is because GitHub releases can on rare occasions break in the publication process between:
 
-`Cooker (GitHub)` ->  `Main (GitHub) RC` -> `Main (GitHub) Master` -> `Flathub Testing` -> `Flathub (Stable)`.
+`Cooker (GitHub)` -> `Cooker Final (GitHub)` ->  `Main RC (GitHub)` -> `Main Master (GitHub)` -> `Testing (Flathub)` -> `Stable (Flathub)`.
 
 The release might need more tweaking and Flathub fixes before the publication happens.
 

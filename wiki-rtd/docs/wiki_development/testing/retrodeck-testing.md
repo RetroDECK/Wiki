@@ -1,36 +1,51 @@
 # RetroDECK Testing Guide
 
----
-
-## Build Types Overview
-
-### Cooker Builds  
-
-**⚠️ Absolutely DO NOT install the Cooker test builds without following this guide ⚠️**
+**⚠️ Absolutely DO NOT install the test builds without following this guide ⚠️**
 
 Skipping steps is known as the *“Rowan Skye Method”* and it **will break things**.
 Please read carefully all information on this page.
 
-**Cooker Builds:** 
+---
 
-Are designed for testers who want early access to new features and can report bugs. Not recommended for regular use, these builds **will** destabilize your RetroDeck experience.
+## Build Types Overview
 
+### Cooker Builds
+
+Cooker builds are intended for testers who want early access to new features and are willing to provide feedback and bug reports. These builds are **not recommended for regular use**, as they **will** destabilize your RetroDECK experience.
+
+- Represent RetroDECK’s bleeding-edge development builds.
 - Include the latest features and experimental changes.
-- Intended for early testing; many may never reach a stable release.
+- Intended exclusively for early testing; many changes may never reach a stable release.
 
-### Release Candidate (RC) Builds  
+### Cooker Final Builds
 
-Builds published on the main Git release channel that still require final testing.
+Cooker Final builds represent the last stage of the cooker phase before transitioning to Release Candidate status.
 
-- Serve as a bridge between cooker and official releases.
-- May undergo last‑minute QA before they’re pushed to Flathub.
+- Feature set and scope are locked.
+- Include all features and changes intended for the upcoming release.
+- No new features are added beyond this point; only stabilization and fixes.
 
-### Stable Releases  
+### Release Candidate (RC) Builds
 
-Only builds that are published on **Flathub** are considered full stable releases.
+Release Candidate (RC) builds are published on the main Git release channel and undergo final testing before being promoted to a stable release.
 
-- Fully vetted, stable, and ready for end‑users.
-- Represent the final, public version of the software.
+- Serve as a transition phase between cooker builds and official releases.
+- May still contain minor bugs that require resolution.
+
+### Master Releases
+
+Master releases are published on the main Git release channel and represent completed builds pending distribution.
+
+- Considered fully tested and ready for publication on Flathub.
+
+### Stable Releases
+
+Only builds published on **Flathub** are considered stable releases.
+
+- Fully vetted, stable, and suitable for end users.
+- Represent the final, publicly supported version of the software.
+
+
 
 ---
 

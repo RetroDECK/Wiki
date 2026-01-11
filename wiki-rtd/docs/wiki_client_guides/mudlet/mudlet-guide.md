@@ -23,12 +23,42 @@ MUD creators can add visual elements or features, while players can script, auto
 
 ---
 
+## Where to put the games?
+
+Mudlet connections should be put under the `retrodeck/roms/muds/` folder.
+
+---
+
+## Does Mudlet require BIOS or Firmware?
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+
+No, Mudlet games are self-contained.
+
+---
+
+## What file formats are supported?
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+
+| File Format | Description |
+|-------------|-------------|
+| .mud    | RetroDECK mud parser file |
+
+
+---
 
 ## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type    | Folder                 |          Comment     | 
-|  :---:  | :---:                  |             :---:     |
+| Type | Directory                 | Comment                           |
+|:----:|:--------------------------|:---------------------------------|
+| ROMs | `retrodeck/roms/muds/`    |                                  |
 
 
+---
+
+## How-to: Get games to show up inside RetroDECK (`.mud` files)
+
+1. **Open Mudlet:** Open Mudlet from the RetroDECK Configurator.

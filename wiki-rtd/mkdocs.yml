@@ -342,29 +342,18 @@ nav:
     - Duckstation (Legacy):
       - Duckstation - General Guide: wiki_emulator_guides/duckstation/duckstation-guide.md
 
-    - MAME:
-      - MAME - General Guide: wiki_emulator_guides/mame/mame-guide.md
-
     - melonDS:
       - melonDS - General Guide: wiki_emulator_guides/melonds/melonds-guide.md
 
     - PCSX2:
       - PCSX2 - General Guide: wiki_emulator_guides/pcsx2/pcsx2-guide.md
 
-    - PPSSPP:
-      - PPSSPP - General Guide: wiki_emulator_guides/ppsspp/ppsspp-guide.md
-
     - Pico-8:
       - Pico-8 - General Guide: wiki_emulator_guides/pico-8/pico-8-guide.md
 
-    - RetroArch:
-      - RetroArch - General Guide: wiki_emulator_guides/retroarch/retroarch-guide.md
-      - RetroArch - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-texture-pack.md
-      - RetroArch - GB/GBC - TGBDual Linking: wiki_emulator_guides/retroarch/retroarch-gb-gc-tgbdual.md
-      - RetroArch - N3DS - Citra - DLC Guide: wiki_emulator_guides/retroarch/retroarch-citra-dlc.md
-      - RetroArch - PSX - DexDrive Convert: wiki_emulator_guides/retroarch/retroarch-psx-dexdrive.md
-      - RetroArch - VB - Beetle VB  - 3D Mode:  wiki_emulator_guides/retroarch/retroarch-vb-3dmode.md
-
+    - PPSSPP:
+      - PPSSPP - General Guide: wiki_emulator_guides/ppsspp/ppsspp-guide.md
+      
     - RPCS3:
       - RPCS3 - General Guide: wiki_emulator_guides/rpcs3/rpcs3-guide.md
 
@@ -382,6 +371,19 @@ nav:
 
     - XRoar:
       - XRoar - General Guide: wiki_emulator_guides/xroar/xroar-guide.md
+
+  - Guides - Multi-Emulators  📕:
+
+    - MAME:
+      - MAME - General Guide: wiki_emulator_guides/mame/mame-guide.md
+
+    - RetroArch:
+      - RetroArch - General Guide: wiki_emulator_guides/retroarch/retroarch-guide.md
+      - RetroArch - Texture Pack Guide: wiki_emulator_guides/retroarch/retroarch-texture-pack.md
+      - RetroArch - GB/GBC - TGBDual Linking: wiki_emulator_guides/retroarch/retroarch-gb-gc-tgbdual.md
+      - RetroArch - N3DS - Citra - DLC Guide: wiki_emulator_guides/retroarch/retroarch-citra-dlc.md
+      - RetroArch - PSX - DexDrive Convert: wiki_emulator_guides/retroarch/retroarch-psx-dexdrive.md
+      - RetroArch - VB - Beetle VB  - 3D Mode:  wiki_emulator_guides/retroarch/retroarch-vb-3dmode.md
 
   - Guides - Systems 🗃️:
 

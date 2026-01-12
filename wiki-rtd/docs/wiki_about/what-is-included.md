@@ -99,12 +99,13 @@ The devices RetroDECK currently support.
 
 ### Folder Icons
 
-
-<img src="../../wiki_icons/folder-iconsets/lahrs-main/saves.ico" width="50">
-
-<img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/pico8.ico" width="50">
-
 Custom artwork folder icons.
+
+**Lahrs folder Icon Set:**
+
+<img src="../../wiki_icons/folder-iconsets/lahrs-main/rd_home.ico" width="50"> 
+<img src="../../wiki_icons/folder-iconsets/lahrs-main/saves.ico" width="50"> <img src="../../wiki_icons/folder-iconsets/lahrs-main/states.ico" width="50"> <img src="../../wiki_icons/folder-iconsets/lahrs-main/bios.ico" width="50"> <img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/pico8.ico" width="50"> <img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/doom.ico" width="50"> <img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/portmaster.ico" width="50"> <img src="../../wiki_icons/folder-iconsets/lahrs-main/ES-DE/downloaded_media.ico" width="50">
+
 
 ---
 
@@ -129,8 +130,9 @@ An multi emulator is software that replicates the behavior of a multiple specifi
 
 | Component | Logo | Description | Guide |
 |----------|-------|-------------|-------|
-| **RetroArch** | <img src="../../wiki_images/logos/retroarch-logo.png" width="50"> | Multi-system frontend using cores. RetroDECK includes all stable cores (nightlies if no stable version exists). | [RetroArch - General Guide](../wiki_emulator_guides/retroarch/retroarch-guide.md) |
 | **MAME** | <img src="../../wiki_images/logos/mame-logo.png" width="100"> | Full version of the multi-arcade emulator MAME. | [MAME - General Guide](../wiki_emulator_guides/mame/mame-guide.md) |
+| **RetroArch** | <img src="../../wiki_images/logos/retroarch-logo.png" width="50"> | Multi-system frontend using cores. RetroDECK includes all stable cores (nightlies if no stable version exists). | [RetroArch - General Guide](../wiki_emulator_guides/retroarch/retroarch-guide.md) |
+
 
 
 ---
@@ -140,18 +142,21 @@ An multi emulator is software that replicates the behavior of a multiple specifi
 An emulator is software that replicates the behavior of a specific system, whether it is real hardware (like a console or arcade machine) or a virtual/fantasy platform.
 
 | Component | Logo | Description | Guide |
-|----------|-------|-------------|-------|
+|-----------|------|-------------|-------|
+| **Azahar** | <img src="../../wiki_images/logos/azahar-logo.svg" width="50"> | N3DS emulator Azahar. | [Azahar - General Guide](../wiki_emulator_guides/azahar/azahar-guide.md) |
 | **CEMU** | <img src="../../wiki_images/logos/cemu-logo.png" width="50"> | Wii U emulator CEMU. | [Cemu - General Guide](../wiki_emulator_guides/cemu/cemu-guide.md) |
 | **Dolphin** | <img src="../../wiki_images/logos/dolphin-logo.png" width="50"> | Wii/GameCube emulator Dolphin | [Dolphin / Primehack - General Guide](../wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md) |
 | **melonDS** | <img src="../../wiki_images/logos/melonds-logo.svg" width="50"> | Nintendo DS emulator melonDS. | [melonDS - General Guide](../wiki_emulator_guides/melonds/melonds-guide.md) |
 | **PCSX2** | <img src="../../wiki_images/logos/pcsx2-logo.png" width="125"> | PlayStation 2 emulator PCSX2. | [PCSX2 - General Guide](../wiki_emulator_guides/pcsx2/pcsx2-guide.md) |
-| **Primehack** | <img src="../../wiki_images/logos/primehack-logo.png" width="50"> | Metroid Prime-optimized fork Primehack. | [Dolphin / Primehack - General Guide](../wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md) |
+| **Pico-8** | <img src="../../wiki_images/logos/pico-8-logo.png" width="75"> | PICO-8 Fantasy Console. | [Pico-8 - General Guide](../wiki_emulator_guides/pico-8/pico-8-guide.md) |
+| **Primehack** | <img src="../../wiki_images/logos/primehack-logo.png" width="50"> | Metroid Prime‑optimized fork Primehack. | [Dolphin / Primehack - General Guide](../wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md) |
 | **PPSSPP** | <img src="../../wiki_images/logos/ppsspp-logo.png" width="50"> | PSP emulator PPSSPP. | [PPSSPP - General Guide](../wiki_emulator_guides/ppsspp/ppsspp-guide.md) |
 | **RPCS3** | <img src="../../wiki_images/logos/rpcs3-logo.png" width="50"> | PlayStation 3 emulator RPCS3. | [RPCS3 - General Guide](../wiki_emulator_guides/rpcs3/rpcs3-guide.md) |
 | **Ruffle** | <img src="../../wiki_images/logos/ruffle-logo.svg" width="50"> | Flash emulator Ruffle. | [Ruffle - General Guide](../wiki_emulator_guides/ruffle/ruffle-guide.md) |
+| **Ryubing** | <img src="../../wiki_images/logos/ryubing-logo.webp" width="50"> | Switch emulator Ryubing. | [Ryubing - General Guide](../wiki_emulator_guides/ryubing/ryubing-guide.md) |
 | **Vita3k** | <img src="../../wiki_images/logos/vita3k-logo.png" width="50"> | PlayStation Vita emulator Vita3k. | [Vita3k - General Guide](../wiki_emulator_guides/vita3k/vita3k-guide.md) |
-| **Pico-8** | <img src="../../wiki_images/logos/pico-8-logo.png" width="75"> | PICO-8 Fantasy Console. | [Pico-8 - General Guide](../wiki_emulator_guides/pico-8/pico-8-guide.md) |
 | **XEMU** | <img src="../../wiki_images/logos/xemu-logo.png" width="50"> | Xbox emulator XEMU. | [XEMU - General Guide](../wiki_emulator_guides/xemu/xemu-guide.md) |
+| **XRoar** | <img src="../../wiki_images/logos/xroar-tano64-logo.jpg" width="100"> | Dragon & Tandy emulator XRoar. | [XRoar - General Guide](../wiki_emulator_guides/xroar/xroar-guide.md) |
 
 
 ---
@@ -160,12 +165,12 @@ An emulator is software that replicates the behavior of a specific system, wheth
 
 Engines are game engines or runtime environments designed to run games built specifically for them. This can include native engines as well as engine re-implementations modern rewrites that replace the original engine while preserving compatibility with classic games.
 
-| Component | Logo | Description | Guide |
-|----------|-------|-------------|-------|
-| **Solarus** | <img src="../../wiki_images/logos/solarus-logo.svg" width="130"> | Open-source 2D engine for games scripted in Lua, inspired by 16-bit action RPGs. | [Solarus - General Guide](../wiki_engine_guides/solarus/solarus-guide.md) |
-| **GZDoom** | <img src="../../wiki_images/logos/gzdoom-logo.png" width="50"> | Feature-rich Doom engine source port with OpenGL and advanced scripting. | [GZDoom - General Guide](../wiki_engine_guides/gzdoom/gzdoom-guide.md) |
-| **IKEMEN Go (M.U.G.E.N)** | <img src="../../wiki_images/logos/ikemen-go-logo.png" width="50"> | Go-based remake of IKEMEN, supporting M.U.G.E.N-compatible fighting games. | [IKEMEN Go - General Guide](../wiki_engine_guides/ikemengo/ikemengo-guide.md) |
-| **OpenBOR** | <img src="../../wiki_images/logos/openbor-logo.svg" width="50"> | Open Beats of Rage - beat 'em up game engine. | [GZDoom - General Guide](../wiki_engine_guides/openbor/openbor-guide.md) |
+| Component                     | Logo                                                                                 | Description                                                                                                   | Guide                                                                                              |
+|-------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| **GZDoom**                    | <img src="../../wiki_images/logos/gzdoom-logo.png" width="50">                     | Feature‑rich Doom engine source port with OpenGL and advanced scripting.                                      | [GZDoom - General Guide](../wiki_engine_guides/gzdoom/gzdoom-guide.md)                           |
+| **IKEMEN Go (M.U.G.E.N)**     | <img src="../../wiki_images/logos/ikemen-go-logo.png" width="50">                  | Go‑based remake of IKEMEN, supporting M.U.G.E.N‑compatible fighting games.                                    | [IKEMEN Go - General Guide](../wiki_engine_guides/ikemengo/ikemengo-guide.md)                   |
+| **OpenBOR**                   | <img src="../../wiki_images/logos/openbor-logo.svg" width="50">                    | Open Beats of Rage – beat ’em up game engine.                                                                | [GZDoom - General Guide](../wiki_engine_guides/openbor/openbor-guide.md)                         |
+| **Solarus**                   | <img src="../../wiki_images/logos/solarus-logo.svg" width="130">                  | Open‑source 2D engine for games scripted in Lua, inspired by 16‑bit action RPGs.                            | [Solarus - General Guide](../wiki_engine_guides/solarus/solarus-guide.md)                       |
 
 ---
 

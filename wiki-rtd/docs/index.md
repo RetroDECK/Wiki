@@ -22,7 +22,7 @@ We’re currently revamping the wiki for the upcoming 0.10.0b release. Over the 
 - Adding new sections, guides, and resources
 - Polishing content to reflect the latest features and improvements
 
-While the site is under construction, some pages may move or be temporarily unavailable. 
+While the site is under construction, some pages may move or be temporarily unavailable and might not reflect current stable. 
 
 Thanks for your patience, exciting new content is on the way!
 

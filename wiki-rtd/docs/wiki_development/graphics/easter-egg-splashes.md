@@ -212,7 +212,7 @@ Artists: RetroDECK Team: Lazorne
 ### Kodomo no Hi - こどもの日
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-kodomo-golden.svg" width="500">
+<img src="../../../wiki_images/extra_splashes/rd-kodomo-golden-splash.svg" width="500">
 
 Artists: RetroDECK Team: XargonWan
 

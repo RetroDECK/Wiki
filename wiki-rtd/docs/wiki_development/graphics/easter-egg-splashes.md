@@ -35,12 +35,12 @@ name_of_holiday": {
  "splash_screens": {
     "new_year": {
       "start_date": "1231",
-      "end_date": "0106",
+      "end_date": "0101",
       "start_time": "0000",
       "end_time": "2359",
       "filename": "newyear.svg"
     },
-    "chinese_new_year": {
+    "chinese_new_year_snake": {
       "start_date": "0209",
       "end_date": "0212",
       "start_time": "0000",
@@ -55,7 +55,22 @@ Here we show both the New Year and Lunar New Year
 
 ## Boot Logo Credits
 
-The Boot Logo or Boot Splashes
+The boot logo (also called the boot splash).
+
+**Note:**
+
+Splashes created by members of the RetroDECK team can be considered as a temporary solution until we can find *better* artists who wish to contribute.
+
+### Special Thanks to FOSS Art
+
+Many use assets are largely created using free‑and‑open‑source resources from the following repositories:
+
+- **Pixelbay**
+- **SVGRepo**
+- **OpenClipart**
+- **KenneyNL** 
+
+We extend our gratitude to all contributors who make these open‑art assets available.
 
 ### Standard Logo
 
@@ -65,68 +80,252 @@ The Boot Logo or Boot Splashes
 
 The following contributors played important roles in the development of the first and second iterations of the RetroDECK logo, including work on color schemes, iconography, SteamGridDB assets, and overall conceptual design:
 
-[Pixelguin](https://github.com/Pixelguin)<br>
-[XargonWan](https://github.com/XargonWan)<br>
-[antfortytwo](https://github.com/anthonycaccese/)<br>
-[MorGuux](https://github.com/MorGuux)<br>
-[Weestuarty](https://github.com/Weestuarty)
-Víctor R<br>
+- [Pixelguin](https://github.com/Pixelguin)
+- [RetroDECK Team: XargonWan](https://github.com/XargonWan)
+- [antfortytwo](https://github.com/anthonycaccese/)
+- [MorGuux](https://github.com/MorGuux)
+- [Weestuarty](https://github.com/Weestuarty)
+- Víctor R
 
-### Xmas Holiday Period
+---
+
+## Q1
+
+### Up Helly Ah
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/eastereggs/rd-xmas-logo.svg" width="500">
+<img src="../../../wiki_images/extra_splashes/rd-up-helly-aa-splash.svg" width="500">
 
-Artist: Weestuarty
+Artists: RetroDECK Team: Lazorne
+
 </details>
+
+---
+
+### Setsubun - 節分
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-setsubun-splash.svg" width="500">
+
+Artists: RetroDECK Team: XargonWan
+
+</details>
+
+---
+
+### Chinese / Lunar New Year - 春节
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-lunar-dragon--splash.svg" width="500">
+<img src="../../../wiki_images/extra_splashes/rd-lunar-snake-splash.svg" width="500">
+<img src="../../../wiki_images/extra_splashes/rd-lunar-horse-splash.svg" width="500">
+
+Artists: Weestuarty, RetroDECK Team: XargonWan
+
+</details>
+
+---
+
 
 ### Valentines Day
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/eastereggs/rd-valentines-logo.svg" width="500">
-Artist: Weestuarty
+<img src="../../../wiki_images/extra_splashes/rd-valentines-logo.svg" width="500">
+
+Artists: Weestuarty
+
 </details>
 
-### Lunar New Year - 春节
+---
+
+### RetroDECK's Birthday & International Game Masters's Day
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/eastereggs/rd-lunar-dragon-cn-logo.svg" width="500">
-Artist: Weestuarty and XargonWan
+<img src="../../../wiki_images/extra_splashes/rd-gm-bday-splash.svg" width="500">
+
+Artists: Weestuarty
+
 </details>
+
+---
+
+### International Women's Day
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-womans-day-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
+---
 
 ### St Patrick's Day
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/eastereggs/rd-stpatricks-logo.svg" width="500">
-Artist: Weestuarty
+<img src="../../../wiki_images/extra_splashes/rd-stpatricks-splash.svg" width="500">
+
+**Artists:**
+
+- Weestuarty
+
 </details>
+
+---
+
+## Q2
+
+
+### Walpurgis Night
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-walpurgis-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
+---
+
 
 ### Kodomo no Hi - こどもの日
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/eastereggs/rd-kodomo-golden.svg" width="500">
-Artist: XargonWan
+<img src="../../../wiki_images/extra_splashes/rd-kodomo-golden.svg" width="500">
+
+Artists: RetroDECK Team: XargonWan
+
 </details>
 
-### RetroDECK's Birthday & GM's day
+---
+
+### Cooper's Hill Cheese-Rolling and Wake
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/eastereggs/rd-gm-bday-splash.svg" width="500">
-Artist: Weestuarty
+<img src="../../../wiki_images/extra_splashes/rd-cheese-wake-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
 </details>
 
-### Tanabata
+
+---
+
+### Midsommarafton
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/eastereggs/rd-tanabata.svg" width="500">
-Artist: XargonWan
+<img src="../../../wiki_images/extra_splashes/rd-midsummer-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
 </details>
+
+
+---
+
+### Dragon Boat Festival - 端午节
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-dragon-boat-festival-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+## Q3
+
+### Running of the Bulls - El Encierro
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-running-bulls-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### Tanabata - たなばた
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-tanabata-splash.svg" width="500">
+
+Artists: RetroDECK Team: XargonWan
+
+</details>
+
+---
+
+### La Tomatina
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-la-tomatina-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+## Q4
+
+### Dia de los Muertos
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-dia-de-los-muertos-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### International Men's Day
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-mens-day-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+
+### Lucia
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-lucia-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+
+### Xmas - Holiday Period
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-xmas-splash.svg" width="500">
+
+Artists:  Weestuarty
+
+</details>
+
+---
+
+## Other
 
 ### Pride
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/eastereggs/rd-pride.svg" width="500">
-Artist: Weestuarty
+<img src="../../../wiki_images/extra_splashes/rd-pride-splash.svg" width="500">
+
+Artists: Weestuarty
+
 </details>
 
 ---

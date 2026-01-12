@@ -115,7 +115,6 @@ Artists: RetroDECK Team: XargonWan
 
 ### Chinese / Lunar New Year - 春节 - Dragon - 龙
 
-
 <details><summary> Spoiler </summary>
 
 <img src="../../../wiki_images/extra_splashes/rd-lunar-dragon-splash.svg" width="500">
@@ -141,8 +140,6 @@ Artists: RetroDECK Team: XargonWan
 ### Chinese / Lunar New Year - 春节 - Horse - 马
 
 <details><summary> Spoiler </summary>
-
-Horse - 马
 
 <img src="../../../wiki_images/extra_splashes/rd-lunar-horse-splash.svg" width="500">
 
@@ -199,7 +196,6 @@ Artists: RetroDECK Team: Lazorne
 ---
 
 ## Q2
-
 
 ### Walpurgis Night
 

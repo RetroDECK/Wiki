@@ -116,9 +116,54 @@ Artists: RetroDECK Team: XargonWan
 ### Chinese / Lunar New Year - 春节
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-lunar-dragon--splash.svg" width="500">
+
+Rat – 鼠
+
+-
+
+Ox – 牛
+
+-
+
+Tiger – 虎
+
+-
+
+Rabbit – 兔
+
+-
+
+Dragon – 龙
+
+<img src="../../../wiki_images/extra_splashes/rd-lunar-dragon-splash.svg" width="500">
+
+Snake – 蛇
+
 <img src="../../../wiki_images/extra_splashes/rd-lunar-snake-splash.svg" width="500">
+
+Horse – 马
+
 <img src="../../../wiki_images/extra_splashes/rd-lunar-horse-splash.svg" width="500">
+
+Goat (Sheep) – 羊
+
+-
+
+Monkey – 猴
+
+-
+
+Rooster – 鸡
+
+-
+
+Dog – 狗
+
+-
+
+Pig – 猪
+
+-
 
 Artists: Weestuarty, RetroDECK Team: XargonWan
 

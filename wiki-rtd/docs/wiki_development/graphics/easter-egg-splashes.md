@@ -155,7 +155,7 @@ Artists: RetroDECK Team: XargonWan
 ### Valentines Day
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-valentines-logo.svg" width="500">
+<img src="../../../wiki_images/extra_splashes/rd-valentines-splash.svg" width="500">
 
 Artists: Weestuarty
 

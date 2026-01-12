@@ -113,64 +113,44 @@ Artists: RetroDECK Team: XargonWan
 
 ---
 
-### Chinese / Lunar New Year - 春节
+### Chinese / Lunar New Year - 春节 - Dragon - 龙
+
 
 <details><summary> Spoiler </summary>
 
-Rat - 鼠
-
--
-
-Ox - 牛
-
--
-
-Tiger - 虎
-
--
-
-Rabbit - 兔
-
--
-
-Dragon - 龙
-
 <img src="../../../wiki_images/extra_splashes/rd-lunar-dragon-splash.svg" width="500">
 
-Snake - 蛇
-
-<img src="../../../wiki_images/extra_splashes/rd-lunar-snake-splash.svg" width="500">
-
-Horse - 马
-
-<img src="../../../wiki_images/extra_splashes/rd-lunar-horse-splash.svg" width="500">
-
-Goat (Sheep) - 羊
-
--
-
-Monkey - 猴
-
--
-
-Rooster - 鸡
-
--
-
-Dog - 狗
-
--
-
-Pig - 猪
-
--
-
-Artists: Weestuarty, RetroDECK Team: XargonWan
+Artists: Weestuarty
 
 </details>
 
 ---
 
+### Chinese / Lunar New Year - 春节 - Snake - 蛇
+
+<details><summary> Spoiler </summary>
+
+<img src="../../../wiki_images/extra_splashes/rd-lunar-snake-splash.svg" width="500">
+
+Artists: RetroDECK Team: XargonWan
+
+</details>
+
+---
+
+### Chinese / Lunar New Year - 春节 - Horse - 马
+
+<details><summary> Spoiler </summary>
+
+Horse - 马
+
+<img src="../../../wiki_images/extra_splashes/rd-lunar-horse-splash.svg" width="500">
+
+Artists: RetroDECK Team: XargonWan
+
+</details>
+
+---
 
 ### Valentines Day
 

@@ -303,6 +303,19 @@ Artists: RetroDECK Team: Lazorne
 
 ---
 
+
+### Festival of Lights - Diwali
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-diwali-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+
 ### International Men's Day
 
 <details><summary> Spoiler </summary>

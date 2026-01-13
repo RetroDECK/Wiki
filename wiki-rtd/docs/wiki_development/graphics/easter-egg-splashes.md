@@ -182,6 +182,7 @@ Artists: RetroDECK Team: Lazorne
 
 ---
 
+
 ### St Patrick's Day
 
 <details><summary> Spoiler </summary>
@@ -192,6 +193,18 @@ Artists: RetroDECK Team: Lazorne
 - Weestuarty
 
 </details>
+
+---
+
+### Eid al-Fitr
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-eid-al-fitr-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
 
 ---
 
@@ -291,6 +304,17 @@ Artists: RetroDECK Team: Lazorne
 ---
 
 ## Q4
+
+### Halloween
+
+<details><summary> Spoiler </summary>
+<img src="../../../wiki_images/extra_splashes/rd-halloween-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
+---
 
 ### Dia de los Muertos
 

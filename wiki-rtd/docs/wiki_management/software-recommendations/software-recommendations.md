@@ -17,6 +17,7 @@ This is a curated list compiled by the RetroDECK Team, featuring recommended too
 | **Decky Plugin: AutoFlatpaks** | - | Manage, update, and install Flatpaks directly from Game Mode, including RetroDECK. | [AutoFlatpaks](https://github.com/jurassicplayer/decky-autoflatpaks) |
 | **Decky Plugin: Decky SteamgridDB** | - | Browse and manage Steam artwork from SteamGridDB or local files within Game Mode. | [Decky SteamgridDB](https://github.com/SteamGridDB/decky-steamgriddb) |
 | **Decky Plugin: PowerTools** | - | Allows tweaking of Steam Deck hardware for better performance on certain games. | [PowerTools](https://git.ngni.us/NG-SD-Plugins/PowerTools) |
+| **Decky Plugin: Decky LSFG-VK** | - | Streamlines the installation of lsfg-vk: Lossless Scaling Frame Generation Vulkan layer| [Decky LSFG-VK](https://github.com/xXJSONDeruloXx/decky-lsfg-vk) | 
 | **Discover Overlay** | <img src="../../../wiki_images/logos/discover-overlay-logo.svg" width="50"> | Adds Discord integration into Steam Deck's Game Mode UI. | [Discover Overlay](https://flathub.org/apps/io.github.trigg.discover_overlay) |
 
 

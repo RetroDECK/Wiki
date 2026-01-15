@@ -93,10 +93,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **What is Flatpak?** | Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux. It ensures consistent behavior across distributions and protects apps from system updates. It is the recommended distribution method for immutable systems such as **SteamOS**. <br> Learn more: **[Introduction to Flatpak](https://docs.flatpak.org/en/latest/introduction.html)** |
 | **What is Flathub?** | Flathub is the primary repository for Flatpak applications, offering a wide selection of software that can be installed and updated across all Flatpak-enabled distributions. <br> Visit: **[Flathub](https://flathub.org/)** |
 | **Is RetroDECK sandboxed?** | Yes. RetroDECK writes only to:<br>• `retrodeck/` (userdata)<br>• `~/.var/net.retrodeck.retrodeck/` (configs & defaults)<br>This isolation prevents conflicts with other systems, and uninstalling RetroDECK does *not* remove your `retrodeck/` folder. <br><br>Since RetroDECK 0.10.0b, all components inside the platform are also sub-sandboxed, further improving security and isolation. Learn more here: [RetroDECK: Flatpak Details](https://retrodeck.readthedocs.io/en/latest/wiki_development/flatpak/retrodeck-flatpak/) |
-| **Why does RetroDECK require the `filesystem=home` permission?** | This permission allows RetroDECK to access the user's home directory, enabling users to move, store, and manage RetroDECK data and game files via the RetroDECK Configurator, and a full overview of all permissions is available in the [net.retrodeck.retrodeck.yml](https://github.com/RetroDECK/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) file on GitHub. |
-
-
-
+| **Why does RetroDECK require the `filesystem=host` permission?** |  This permission was recommended by Flathub maintainers directly to RetroDECK. It lets users select the location for their RetroDECK data directory and sub‑directories via the Configurator and Finit, granting access to the home directory and external storage (SD cards, HDDs, NAS) for moving, storing, and managing data based on user input. A complete overview of all permissions is available in the [net.retrodeck.retrodeck.yml](https://github.com/RetroDECK/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) file on GitHub.   |
 
 ---
 

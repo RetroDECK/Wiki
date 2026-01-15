@@ -25,7 +25,6 @@ Here is a list of some distributions that support Game Mode:
 **Bazzite**
 
 - [Bazzite Webpage](https://bazzite.gg/)
-- [Bazzite: Steam Game Mode](https://universal-blue.discourse.group/t/steam-gaming-mode-overview-for-handheld-htpc-images/)
 
 **Chimera OS**
 

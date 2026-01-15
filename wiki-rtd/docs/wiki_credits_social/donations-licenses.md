@@ -132,7 +132,7 @@ Examples include:
 | Component | Logo | Description | Donate / Support | Licenses |
 |----------|-------|-------------|------------------|----------|
 | **Mudlet** *(Not yet in RetroDECK)* | <img src="../../wiki_images/logos/mudlet-logo.png" width="75"> | MUD client for playing text-based online games. | No donation link available or donations not supported. |  [Licenses](https://github.com/Mudlet/Mudlet?tab=GPL-2.0-1-ov-file#readme) |
-| **Prism Launcher** | <img src="../../wiki_images/logos/prismlauncher-logo.png" width="75"> | Open-source Minecraft Launcher. |  [Donate](https://opencollective.com/prismlauncher) |  [Licenses](https://github.com/PrismLauncher/PrismLauncher/blob/develop/LICENSE) |
+
 
 
 ---
@@ -170,6 +170,7 @@ Things we use or have taken inspiration from or use.
 ---
 
 
+
 ## Components: Proprietary / Closed Source 
 
 These components cannot be added to RetroDECK, but we want to recognize their work and show their donation / purchase links.
@@ -188,3 +189,14 @@ These components cannot be added to RetroDECK, but we want to recognize their wo
 | Component | Logo | Description | Donate / Support | Licenses |
 |----------|-------|-------------|------------------|----------|
 | **DuckStation** | <img src="../../wiki_images/logos/duckstation-logo.png" width="75"> | A PS1 simulator/emulator focused on accuracy, speed, and long-term maintainability. | No donation link available or donations not supported. |  [Licenses](https://github.com/stenzek/duckstation/blob/master/LICENSE) |
+
+
+---
+
+## Software we like 
+
+| Component | Description | Donate / Support | Licenses / Info |
+|----------|-------------|------------------|------------------|
+| **Prism Launcher** | <img src="../../wiki_images/logos/prismlauncher-logo.png" width="75"> | Open-source Minecraft Launcher. |  [Donate](https://opencollective.com/prismlauncher) |  [Licenses](https://github.com/PrismLauncher/PrismLauncher/blob/develop/LICENSE) |
+
+

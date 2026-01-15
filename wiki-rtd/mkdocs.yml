@@ -335,9 +335,9 @@ nav:
     - Cemu:
       - Cemu - General Guide: wiki_emulator_guides/cemu/cemu-guide.md
 
-    - Dolphin / Primehack:
-      - Dolphin / Primehack - General Guide: wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide.md
-      - Dolphin / Primehack - Using Real Wii Remotes: wiki_emulator_guides/dolphin-primehack/dolphin-wii-remote.md
+    - Dolphin :
+      - Dolphin - General Guide: wiki_emulator_guides/dolphin/dolphin-guide.md
+      - Dolphin - Using Real Wii Remotes: wiki_emulator_guides/dolphin/dolphin-wii-remote.md
 
     - Duckstation (Legacy):
       - Duckstation - General Guide: wiki_emulator_guides/duckstation/duckstation-guide.md
@@ -347,6 +347,9 @@ nav:
 
     - PCSX2:
       - PCSX2 - General Guide: wiki_emulator_guides/pcsx2/pcsx2-guide.md
+
+    - Primehack :
+      - Primehack - General Guide: wiki_emulator_guides/primehack/primehack-guide.md
 
     - Pico-8:
       - Pico-8 - General Guide: wiki_emulator_guides/pico-8/pico-8-guide.md

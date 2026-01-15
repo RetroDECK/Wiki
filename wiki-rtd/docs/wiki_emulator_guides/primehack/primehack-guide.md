@@ -1,8 +1,6 @@
-# Dolphin / Primehack - General Guide
+# Primehack - General Guide
 
-<img src="../../../wiki_images/logos/dolphin-logo.png" width="75">  <img src="../../../wiki_images/logos/primehack-logo.png" width="75">
-
-Dolphin feature rich a GameCube and Wii Emulator.
+ <img src="../../../wiki_images/logos/primehack-logo.png" width="75">
 
 Primehack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouselook controls and other improvements.
 
@@ -11,16 +9,6 @@ Primehack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouse
 ## Links
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
-
-### Dolphin 
-
-| Resource | Link |
-|----------|------|
-| Dolphin - Webpage | [Link](https://dolphin-emu.org/) |
-| Dolphin - Wiki | [Link](https://wiki.dolphin-emu.org/index.php?title=Main_Page) |
-| Dolphin - Game Compatibility | [Link](https://dolphin-emu.org/compat/) |
-| Dolphin - Performance Guide | [Link](https://dolphin-emu.org/docs/guides/performance-guide/) |
-| Dolphin - Github | [Link](https://github.com/dolphin-emu/dolphin) |
 
 ### Primehack 
 
@@ -71,7 +59,7 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 `.wbfs` and `.wad` are the original format supported by the Wii console.
 
-## Does Dolphin require BIOS or Firmware?
+## Does Primehack require BIOS or Firmware?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
@@ -82,13 +70,13 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 ### Where to put the GameCube BIOS?
 
-Dolphin looks for the `IPL.bin` in the save folders. Put each region's `IPL.bin` in the corresponding saves folder.
+Primehack looks for the `IPL.bin` in the save folders. Put each region's `IPL.bin` in the corresponding saves folder.
 
 | Type               | Directory                             | Comment              |
 |:------------------:|:-------------------------------------|:-------------------|
-| GameCube Saves EU   | `retrodeck/saves/gc/dolphin/EU/`    | dolphin-emu/GC/EUR/ |
-| GameCube Saves JP   | `retrodeck/saves/gc/dolphin/JP/`    | dolphin-emu/GC/JAP/ |
-| GameCube Saves US   | `retrodeck/saves/gc/dolphin/US/`    | dolphin-emu/GC/USA/ |
+| GameCube Saves EU   | `retrodeck/saves/gc/primehack/EU/`    | primehack/GC/EUR/ |
+| GameCube Saves JP   | `retrodeck/saves/gc/primehack/JP/`    | primehack/GC/JAP/ |
+| GameCube Saves US   | `retrodeck/saves/gc/primehack/US/`    | primehack/GC/USA/ |
 
 
 ---
@@ -96,29 +84,6 @@ Dolphin looks for the `IPL.bin` in the save folders. Put each region's `IPL.bin`
 ## Directory structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
-
----
-
-### Dolphin
-
-This shows what folder corresponds to each folder in the standard Dolphin structure 
-
-| Type               | Directory                             | Comment                        |
-|:------------------:|:-------------------------------------|:-------------------------------|
-| Dump               | `retrodeck/storage/Dolphin/Dump/`   | dolphin-emu/Dump               |
-| GameCube Saves EU   | `retrodeck/saves/gc/dolphin/EU/`    | dolphin-emu/GC/EUR/            |
-| GameCube Saves JP   | `retrodeck/saves/gc/dolphin/JP/`    | dolphin-emu/GC/JAP/            |
-| GameCube Saves US   | `retrodeck/saves/gc/dolphin/US/`    | dolphin-emu/GC/USA/            |
-| Mods               | `retrodeck/mods/Dolphin/`           | dolphin-emu/Load/GraphicMods/  |
-| ROMs Gamecube       | `retrodeck/roms/gc/`               |                                |
-| ROMs Wii            | `retrodeck/roms/wii/`              |                                |
-| Screenshots        | `retrodeck/screenshots/Dolphin/`   | dolphin-emu/ScreenShots/       |
-| Shaders            | `retrodeck/shaders/Dolphin/`       | dolphin-emu/Shaders            |
-| States             | `retrodeck/states/dolphin/`        | dolphin-emu/StateSaves/        |
-| Texture Packs      | `retrodeck/texture_packs/Dolphin/` | dolphin-emu/Load/Textures/     |
-| Wii Saves          | `retrodeck/saves/wii/dolphin/`     | dolphin-emu/Wii/               |
-
-
 
 ---
 
@@ -145,9 +110,9 @@ This shows what folder corresponds to each folder in the standard PrimeHack stru
 
 ---
 
-## How-to: Change the language of Dolphin / Primehack
+## How-to: Change the language of Primehack
 
-1. In the `Configurator` open either `Dolphin` or `Primehack`.
+1. In the `Configurator` open either or `Primehack`.
 2. Navigate to `Options` -> `Configuration` -> `Interface` .
 3. Select preferred language in the drop-down menu.
 4. Close the Emulator, Configurator and return to RetroDECK.
@@ -159,14 +124,14 @@ This shows what folder corresponds to each folder in the standard PrimeHack stru
 
 **Prerequisite:** Place the GameCube `IPL.bin` BIOS in the save folders (see above).
 
-1. Open Dolphin in `RetroDECK Configurator` by selecting `Open Emulator` -> `Dolphin` / `Primehack`.
+1. Open Primehack in `RetroDECK Configurator` by selecting `Open Emulator` -> `Primehack`.
 2. Go to `Options` -> `Configuration` -> `GameCube` and uncheck `Skip Main Menu`.
 
 ---
 
 ## How-to: Enable Wii System Menu
 
-1. Open Dolphin in `RetroDECK Configurator` by selecting `Open Emulator` -> `Dolphin` / `Primehack`.
+1. Open Primehack in `RetroDECK Configurator` by selecting `Open Emulator` -> `Primehack`.
 2. Go to `Tools` -> `Perform Online System Update` -> Select the Region you want for the System Menu and install it.
 3. You can open the System Menu by going to:  `Tools` -> `Load Wii System Menu`.
 
@@ -174,7 +139,7 @@ This shows what folder corresponds to each folder in the standard PrimeHack stru
 
 ## Adding Mods
 
-The `~/retrodeck/mods/dolphin/` / `~/retrodeck/mods/primehack/` that represents the `/load/GraphicMods` folder.
+The`~/retrodeck/mods/primehack/` that represents the `/load/GraphicMods` folder.
 
 
 **Note:** 
@@ -187,7 +152,7 @@ Make sure you have the right game and textures for it.
 
 ### Enable Mods
 
-1. Open up Dolphin or Primehack inside `RetroDECK Configurator` by pressing `Open Emulator` - `Dolphin` / `Primehack`.
+1. Open up Primehack inside `RetroDECK Configurator` by pressing `Open Emulator` - `Primehack`.
 2. Press `Options` -> `Graphic Settings`.
 3. `Enable Graphics Mods` and set it to `On`.
 
@@ -197,8 +162,6 @@ Make sure you have the right game and textures for it.
 2. Go into mods folders, they contain folders that are all named by `GAME_ID`.
 3. Move the mods into the right folder: 
 
-**Dolphin:** `~/retrodeck/mods/dolphin/<GAME_ID>`
-
 **Primehack:** `~/retrodeck/mods/primehack/<GAME_ID>`
 
 If all is correct the mods should be loaded on next game launch.
@@ -207,7 +170,7 @@ If all is correct the mods should be loaded on next game launch.
 
 ## Adding Texture Packs
 
-The `~/retrodeck/texture_packs/dolphin/` & `~/retrodeck/texture_packs/primehack/` represents the `/load/Textures` folder.
+The `~/retrodeck/texture_packs/primehack/` represents the `/load/Textures` folder.
 
 Some texture packs could made for a specific version or region of a game. Make sure you have the right game and textures for it.
 
@@ -215,7 +178,7 @@ Some texture packs could made for a specific version or region of a game. Make s
 
 ### Enable Custom Textures
 
-1. Open up Dolphin inside `RetroDECK Configurator` by pressing `Open Emulator` - `Dolphin` / `Primehack`.
+1. Open up Primehack inside `RetroDECK Configurator` by pressing `Open Emulator` - `Primehack`.
 2. Press `Options` -> `Graphic Settings`
 3. `Load Custom Textures` & `Prefetch Custom Textures`  and set them to `On`.
 
@@ -225,8 +188,6 @@ Some texture packs could made for a specific version or region of a game. Make s
 1. Extract any texture pack files from compressed `.zip` or any other format into folders.
 2. Go into texture pack folders, they contain folders that are all named by `GAME_ID`.
 3. Move the textures into the right folder: 
-
-**Dolphin:** `~/retrodeck/texture_packs/dolphin/<GAME_ID>`
 
 **Primehack:** `~/retrodeck/texture_packs/primehack/<GAME_ID>` <br>
 
@@ -300,15 +261,4 @@ Tilt emulation is made possible by holding the `L2` button and moving the `Right
 | Tilt Up         | `L2 + Right Joystick Up`  |         |
 
 ---
-
-## Using Real Wii Remotes 
-
-How-to use Real Wii Remotes and Nunchuck hardware?
-
-**Read more here:** 
-
-- [Using Real Wii Remotes](dolphin-wii-remote.md)
-
----
-
 

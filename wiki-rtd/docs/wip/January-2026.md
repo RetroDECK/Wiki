@@ -19,11 +19,20 @@ The RetroDECK Team have been hard at work.
 
 <!-- more -->
 
+
+
+
 --- 
 
 https://gardinerbryant.com/2025-wrap-up/
 
 https://ramon.vanraaij.eu/from-proxmox-node-to-retro-console-my-arch-linux-retrodeck-journey/
+
+https://gardinerbryant.com/retrodeck-0-10-0b-is-a-ground-up-rewrite-not-just-an-update/
+
+https://gardinerbryant.com/retrodeck-thtalking-about-their-bigget-update-yet/
+
+https://steamdeckhq.com/news/retrodecks-0-10-0b-update-overhauling-the-backend/
 
 ---
 

@@ -20,11 +20,19 @@ The RetroDECK Team have been hard at work.
 <!-- more -->
 
 
+## Media Coverage
 
+Extra reading material for the community. 
+
+### The Bryant Review
+
+The 
+
+[2025 Wrap-up](https://gardinerbryant.com/2025-wrap-up/) 
 
 --- 
 
-https://gardinerbryant.com/2025-wrap-up/
+
 
 https://ramon.vanraaij.eu/from-proxmox-node-to-retro-console-my-arch-linux-retrodeck-journey/
 

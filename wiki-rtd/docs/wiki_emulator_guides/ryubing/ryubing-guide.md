@@ -86,7 +86,7 @@ Alternatively, you can install it via the **RetroDECK Configurator**:
 | Config         | `~/.var/app/net.retrodeck.retrodeck/config/ryubing/`                                                        | Contains most of ryubing internal folders |
 | Logs           | `retrodeck/logs/switch/Ryubing`                                                                              | Ryujinx/Logs                              |
 | Mods           | `retrodeck/mods/switch/Ryubing/contents`                                                                    | Ryujinx/mods/contents/                   |
-| Saves          | `retrodeck/saves/switch/ryujinx/` or `~/.var/app/net.retrodeck.retrodeck/config/ryubing/bis/user/save/`     | Contains the `nand`, `sdcard` folders     |
+| Saves          | `retrodeck/saves/switch/ryujinx/`    | Contains the `system`, `user` folders from:     `~/.var/app/net.retrodeck.retrodeck/config/ryubing/bis/user/save/`   `~/.var/app/net.retrodeck.retrodeck/config/ryubing/bis/system/save/`   |
 
   
 ---

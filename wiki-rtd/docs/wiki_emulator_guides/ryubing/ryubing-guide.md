@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/ryubing-logo.webp" width="100">
 
-Ryubing is Switch emulator. 
+Ryubing is Switch emulator that is under heavy development and can be unstable. 
 
 ---
 
@@ -47,9 +47,9 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 Yes, Ryubing requires `prod.keys`, `title.keys`, and `.nca` files for proper operation.
 
 
-### Important: Do not mix and match firmware versions and keys
+### ⚠️ Important: Do not mix and match firmware versions and keys ⚠️ 
 
-Ensure that the firmware version matches the version of the keys and `.nca` files you are using. Mixing different versions can lead to crashes and black screens.
+Ensure that the firmware version matches the version of the keys and `.nca` files you are using. Mixing different versions can lead to crashes and black screens. 
 
 It is recommended to use firmware and keys from your own device, not from games.
 

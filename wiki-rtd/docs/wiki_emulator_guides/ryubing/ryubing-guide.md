@@ -63,15 +63,18 @@ The key files (`prod.keys`, `title.keys`) should be placed in one of the followi
 
 ### How-to: Install the firmware
 
-The firmware can be placed in the following directory:
+You can install it via the **RetroDECK Configurator**:
 
-- `~/retrodeck/bios/switch/firmware/`
-
-Alternatively, you can install it via the **RetroDECK Configurator**:
+For devices with a Game Mode, such as the Steam Deck, ROG Ally, or similar handheld PCs. We recommend performing this in Desktop Mode.
 
 1. Open RetroDECK Configurator
 2. Navigate to `Open Emulator` → `Ryubing`.
 3. Select  `Tools` → `Install Firmware` → `Install from XCI or ZIP`.
+
+
+Or, the firmware can be placed in the following directory:
+
+- `~/retrodeck/bios/switch/firmware/`
 
 ---
 

@@ -46,20 +46,18 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 Yes, Ryubing requires `prod.keys`, `title.keys`, and `.nca` files for proper operation.
 
-
 ### ⚠️ Important: Do not mix and match firmware versions and keys ⚠️ 
 
 Ensure that the firmware version matches the version of the keys and `.nca` files you are using. It is recommended to use firmware and keys from your own device, not from games.
 
 Mixing different versions can lead to **crashes / black screens / fail to start**. 
 
-### Where to Place the Key Files
+### ⚠️ Important: Install Firmware ONLY through the RetroDECK Configurator ⚠️
 
-The key files (`prod.keys`, `title.keys`) should be placed in one of the following locations:
+Games cannot be launched from **ES-DE** without firmware installed! Attempting to do so will display a broken Ryubing window.
 
-- `~/retrodeck/bios/switch/keys`
-- `~/.var/app/net.retrodeck.retrodeck/config/ryubing/system/`
-
+- Do **not** try to install firmware from that broken window it can lead to **crashes / black screens / fail to start**.
+- The **only** supported method is to use the **RetroDECK Configurator**. Follow the instructions below.
 
 ### How-to: Install the firmware
 
@@ -74,6 +72,15 @@ For devices with a Game Mode, such as the Steam Deck, ROG Ally, or similar handh
 Or, the firmware can be placed in the following directory:
 
 - `~/retrodeck/bios/switch/firmware/`
+
+### Where to Place the Key Files
+
+The key files (`prod.keys`, `title.keys`) should be placed in one of the following locations:
+
+- `~/retrodeck/bios/switch/keys`
+- `~/.var/app/net.retrodeck.retrodeck/config/ryubing/system/`
+
+
 
 ---
 

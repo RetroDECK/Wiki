@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/ryubing-logo.webp" width="100">
 
-Ryubing is Switch emulator that is under heavy development and can be unstable. 
+Ryubing is Switch emulator that is under heavy development and can be *very unstable*. 
 
 ---
 
@@ -49,9 +49,9 @@ Yes, Ryubing requires `prod.keys`, `title.keys`, and `.nca` files for proper ope
 
 ### ⚠️ Important: Do not mix and match firmware versions and keys ⚠️ 
 
-Ensure that the firmware version matches the version of the keys and `.nca` files you are using. Mixing different versions can lead to crashes and black screens. 
+Ensure that the firmware version matches the version of the keys and `.nca` files you are using. It is recommended to use firmware and keys from your own device, not from games.
 
-It is recommended to use firmware and keys from your own device, not from games.
+Mixing different versions can lead to **crashes / black screens / fail to start**. 
 
 ### Where to Place the Key Files
 
@@ -91,7 +91,21 @@ Or, the firmware can be placed in the following directory:
 | Mods           | `retrodeck/mods/switch/Ryubing/contents`                                                                    | Ryujinx/mods/contents/                   |
 | Saves          | `retrodeck/saves/switch/ryujinx/`    | Contains the `system`, `user` folders from:     `~/.var/app/net.retrodeck.retrodeck/config/ryubing/bis/user/save/`   `~/.var/app/net.retrodeck.retrodeck/config/ryubing/bis/system/save/`   |
 
-  
+
+---
+
+### ⚠️ Important: Controllers outside of Steam / Game Mode ⚠️ 
+
+When using Ryubing, only a single default controller is mapped automatically.  
+If you run RetroDECK outside of **Steam** / **Game Mode**, you must manually assign your controller because RetroDECK defaults to detecting devices via **Steam Input** and if that is not present you need to do it yourself.
+
+1. Open **RetroDECK**.  
+2. Navigate to **Options → Settings → Input**.  
+3. Locate **Input Device**.  
+4. Select your physical controller from the dropdown menu.
+
+**Note:** Some games may **crash / black screen / fail to start** if a controller is not detected. Assigning the correct input device prevents these issues.
+
 ---
 
 ## Adding Game Patches

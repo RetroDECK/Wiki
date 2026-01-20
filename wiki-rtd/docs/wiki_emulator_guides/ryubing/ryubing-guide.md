@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/ryubing-logo.webp" width="100">
 
-Ryubing is Switch emulator that is under heavy development and can be *very unstable*. 
+Ryubing is Switch emulator that is under heavy development and can be ⚠️ *very unstable* ⚠️. 
 
 ---
 
@@ -70,7 +70,6 @@ For devices with a Game Mode, such as the Steam Deck, ROG Ally, or similar handh
 1. Open RetroDECK Configurator
 2. Navigate to `Open Emulator` → `Ryubing`.
 3. Select  `Tools` → `Install Firmware` → `Install from XCI or ZIP`.
-
 
 Or, the firmware can be placed in the following directory:
 

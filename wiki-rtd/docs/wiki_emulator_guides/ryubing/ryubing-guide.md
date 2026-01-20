@@ -94,7 +94,7 @@ Or, the firmware can be placed in the following directory:
 
 ---
 
-### ⚠️ Important: Controllers outside of Steam / Game Mode ⚠️ 
+## ⚠️ Important: Controllers outside of Steam / Game Mode ⚠️ 
 
 When using Ryubing, only a single default controller is mapped automatically.  
 If you run RetroDECK outside of **Steam** / **Game Mode**, you must manually assign your controller because RetroDECK defaults to detecting devices via **Steam Input** and if that is not present you need to do it yourself.

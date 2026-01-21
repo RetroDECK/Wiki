@@ -8,17 +8,18 @@ date: 2026-01-31
 
 The RetroDECK Team have been hard at work. 
 
-
 ---
 
 ## Highlights
 
 **News**
 
-- 
+- The 0.10.0b Release - Aftermath 
+- Development News? 
+- Media Coverage
+- Experiment Showcase: Rámon van Raaij's RetroDECK Console
 
 <!-- more -->
-
 
 ## The 0.10.0b Release - Aftermath 
 
@@ -31,6 +32,12 @@ After ten months of work and more than 2,300+ commits, our first pull request to
 The internal discussions were intense within the team, and yes, our lead architect IceNine does deserve a raise.
 
 <img src="../icedank.png" width="800"> 
+
+## Development News? 
+
+The team is still doing post-release bug fixing in minor patches.
+
+There is nothing to share at this time. 
 
 ## Media Coverage
 

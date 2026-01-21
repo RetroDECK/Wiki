@@ -28,7 +28,7 @@ After ten months of work and more than 2,300+ commits, our first pull request to
 
 <img src="../mainmergedankest.png" width="500"> 
 
-The internal discussions were intense within the team.
+The internal discussions were intense within the team, and yes, our lead architect IceNine does deserve a raise.
 
 <img src="../icedank.png" width="800"> 
 
@@ -36,21 +36,38 @@ The internal discussions were intense within the team.
 
 Extra reading material for the community. 
 
+---
+
 ### SteamDeckHQ
+
+<img src="../sdhq-logo.svg" width="100"> 
 
 [SteamDeckHQ: 0.10.0b - Release](https://steamdeckhq.com/news/retrodecks-0-10-0b-update-overhauling-the-backend/) 
 
+Noah Kupetsky wrote a great article about the release.
+
+
+---
+
 ### The Bryant Review
 
-Gardiner Bryant and dash some cool articles and talked with RetroDECK Developers.
+<img src="../bryant-logo.webp" width="100"> 
 
 [The Bryant Review: 2025 Wrap-up](https://gardinerbryant.com/2025-wrap-up/) 
 
+Some members of the RetroDECK team held a Q&A session during the holidays alongside other developers.
+
 [The Bryant Review: 0.10.0b - Release](https://gardinerbryant.com/retrodeck-0-10-0b-is-a-ground-up-rewrite-not-just-an-update/)
+
+Gardiner Bryant and dash did a great release article.
 
 [The Bryant Review: 0.10.0b - RetroDECK Team Interview](https://gardinerbryant.com/retrodeck-thtalking-about-their-bigget-update-yet/)
 
-### Steam Deck Checker Video
+Dash interviewed the RetroDECK team about the release.
+
+---
+
+### YouTube: Steam Deck Checker
 
 German YouTuber Steam Deck Checker did a video on the release:
 
@@ -69,24 +86,11 @@ Rámon conducted an experiment to create a RetroDECK console without a desktop e
 **Note:** This was done before the 0.10.0b rewrite patch and may no longer be accurate. We still think it's cool tho! Good job Rámon!
 
 *"However, I want to be upfront. If you are starting fresh and just want to play games without the headache, you should probably just look into Batocera."*
+
 *"But, if you are stubborn like me, or you specifically want to run RetroDeck on Arch Linux on older hardware without a full blown Desktop Environment, this guide is for you."*
 
 //Rámon van Raaij
 
-
-
-
----
-
-## Note: We have switched from Patreon to OpenCollective
-
-**Read more here:** 
-
-[Donations & Licenses](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/)
-
----
-
-file:///home/laz/Development/Wiki/wiki-rtd/docs/blog/posts/2025/December-2025.md
 
 ---
 

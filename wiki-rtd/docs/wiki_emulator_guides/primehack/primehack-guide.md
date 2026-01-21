@@ -1,8 +1,8 @@
-# Primehack - General Guide
+# PrimeHack - General Guide
 
- <img src="../../../wiki_images/logos/primehack-logo.png" width="75">
+ <img src="../../../wiki_images/logos/PrimeHack-logo.png" width="75">
 
-Primehack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouselook controls and other improvements.
+PrimeHack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouselook controls and other improvements.
 
 ---
 
@@ -10,13 +10,13 @@ Primehack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouse
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
-### Primehack 
+### PrimeHack 
 
 | Resource | Link |
 |----------|------|
-| Primehack - Wiki | [Link](https://github.com/shiiion/dolphin/wiki/) |
-| Primehack - FAQ | [Link](https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questions) |
-| Primehack - Github | [Link](https://github.com/shiiion/dolphin) |
+| PrimeHack - Wiki | [Link](https://github.com/shiiion/dolphin/wiki/) |
+| PrimeHack - FAQ | [Link](https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questions) |
+| PrimeHack - Github | [Link](https://github.com/shiiion/dolphin) |
 
 
 ---
@@ -24,13 +24,8 @@ Primehack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouse
 
 ## Where to put the games?
 
-**Gamecube:**
 
-Should be put under the `retrodeck/roms/gc/` directory.
-
-**Wii:**
-
-Should be put under the `retrodeck/roms/wii/` directory.
+Should be put under the `retrodeck/roms/PrimeHack/` directory.
 
 ## What file formats are supported?
 
@@ -59,7 +54,7 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 `.wbfs` and `.wad` are the original format supported by the Wii console.
 
-## Does Primehack require BIOS or Firmware?
+## Does PrimeHack require BIOS or Firmware?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
@@ -70,7 +65,7 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 ### Where to put the GameCube BIOS?
 
-Primehack looks for the `IPL.bin` in the save folders. Put each region's `IPL.bin` in the corresponding saves folder.
+PrimeHack looks for the `IPL.bin` in the save folders. Put each region's `IPL.bin` in the corresponding saves folder.
 
 | Type               | Directory                             | Comment              |
 |:------------------:|:-------------------------------------|:-------------------|
@@ -94,25 +89,24 @@ This shows what folder corresponds to each folder in the standard PrimeHack stru
 
 | Type               | Directory                             | Comment                        |
 |:------------------:|:-------------------------------------|:-------------------------------|
-| Dump               | `retrodeck/storage/Primehack/Dump/`   | primehack/Dump               |
+| Dump               | `retrodeck/storage/primehack/Dump/`   | primehack/Dump               |
 | GameCube Saves EU   | `retrodeck/saves/gc/primehack/EU/`    | primehack/GC/EUR/            |
 | GameCube Saves JP   | `retrodeck/saves/gc/primehack/JP/`    | primehack/GC/JAP/            |
 | GameCube Saves US   | `retrodeck/saves/gc/primehack/US/`    | primehack/GC/USA/            |
-| Mods               | `retrodeck/mods/Primehack/`           | primehack/Load/GraphicMods/  |
-| ROMs Gamecube       | `retrodeck/roms/gc/`               |                                |
-| ROMs Wii            | `retrodeck/roms/wii/`              |                                |
-| Screenshots        | `retrodeck/screenshots/Primehack/`   | primehack/ScreenShots/       |
-| Shaders            | `retrodeck/shaders/Primehack/`       | primehack/Shaders            |
+| Mods               | `retrodeck/mods/primehack/`           | primehack/Load/GraphicMods/  |
+| ROMs PrimeHack     | `retrodeck/roms/primehack/`              |                                |
+| Screenshots        | `retrodeck/screenshots/primehack/`   | primehack/ScreenShots/       |
+| Shaders            | `retrodeck/shaders/primehack/`       | primehack/Shaders            |
 | States             | `retrodeck/states/primehack/`        | primehack/StateSaves/        |
-| Texture Packs      | `retrodeck/texture_packs/Primehack/` | primehack/Load/Textures/     |
+| Texture Packs      | `retrodeck/texture_packs/primehack/` | primehack/Load/Textures/     |
 | Wii Saves          | `retrodeck/saves/wii/primehack/`     | primehack/Wii/               |
 
 
 ---
 
-## How-to: Change the language of Primehack
+## How-to: Change the language of PrimeHack
 
-1. In the `Configurator` open either or `Primehack`.
+1. In the `Configurator` open either or `PrimeHack`.
 2. Navigate to `Options` -> `Configuration` -> `Interface` .
 3. Select preferred language in the drop-down menu.
 4. Close the Emulator, Configurator and return to RetroDECK.
@@ -124,14 +118,14 @@ This shows what folder corresponds to each folder in the standard PrimeHack stru
 
 **Prerequisite:** Place the GameCube `IPL.bin` BIOS in the save folders (see above).
 
-1. Open Primehack in `RetroDECK Configurator` by selecting `Open Emulator` -> `Primehack`.
+1. Open PrimeHack in `RetroDECK Configurator` by selecting `Open Emulator` -> `PrimeHack`.
 2. Go to `Options` -> `Configuration` -> `GameCube` and uncheck `Skip Main Menu`.
 
 ---
 
 ## How-to: Enable Wii System Menu
 
-1. Open Primehack in `RetroDECK Configurator` by selecting `Open Emulator` -> `Primehack`.
+1. Open PrimeHack in `RetroDECK Configurator` by selecting `Open Emulator` -> `PrimeHack`.
 2. Go to `Tools` -> `Perform Online System Update` -> Select the Region you want for the System Menu and install it.
 3. You can open the System Menu by going to:  `Tools` -> `Load Wii System Menu`.
 
@@ -152,7 +146,7 @@ Make sure you have the right game and textures for it.
 
 ### Enable Mods
 
-1. Open up Primehack inside `RetroDECK Configurator` by pressing `Open Emulator` - `Primehack`.
+1. Open up PrimeHack inside `RetroDECK Configurator` by pressing `Open Emulator` - `PrimeHack`.
 2. Press `Options` -> `Graphic Settings`.
 3. `Enable Graphics Mods` and set it to `On`.
 
@@ -162,7 +156,7 @@ Make sure you have the right game and textures for it.
 2. Go into mods folders, they contain folders that are all named by `GAME_ID`.
 3. Move the mods into the right folder: 
 
-**Primehack:** `~/retrodeck/mods/primehack/<GAME_ID>`
+**PrimeHack:** `~/retrodeck/mods/PrimeHack/<GAME_ID>`
 
 If all is correct the mods should be loaded on next game launch.
 
@@ -178,7 +172,7 @@ Some texture packs could made for a specific version or region of a game. Make s
 
 ### Enable Custom Textures
 
-1. Open up Primehack inside `RetroDECK Configurator` by pressing `Open Emulator` - `Primehack`.
+1. Open up PrimeHack inside `RetroDECK Configurator` by pressing `Open Emulator` - `PrimeHack`.
 2. Press `Options` -> `Graphic Settings`
 3. `Load Custom Textures` & `Prefetch Custom Textures`  and set them to `On`.
 
@@ -189,7 +183,7 @@ Some texture packs could made for a specific version or region of a game. Make s
 2. Go into texture pack folders, they contain folders that are all named by `GAME_ID`.
 3. Move the textures into the right folder: 
 
-**Primehack:** `~/retrodeck/texture_packs/primehack/<GAME_ID>` <br>
+**PrimeHack:** `~/retrodeck/texture_packs/primehack/<GAME_ID>` <br>
 
 If all is correct the textures should be loaded on next game launch.
 

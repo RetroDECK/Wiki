@@ -2,6 +2,8 @@
 
 <img src="../../wiki_icons/svgrepo/donate.svg" width="100">
 
+---
+
 ## Reiki the Cyber Shark - Names
 
 **English:** Reiki
@@ -75,6 +77,12 @@ If you replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yó
 **游** *(yóu)* part of “gaming” is “swim,” and that matches well with Reiki's shark‑like nature.
 
 ---
+
+## What is Reiki? 
+
+Reiki is a Robotic Gaming Cyber Shark a Shark of Games if you will.
+
+She has a replaceable dorsal fin that slots in the current component she want to use, giving her the right tools and skills for the task at hand. 
 
 ## Tyson Tan - Creator
 

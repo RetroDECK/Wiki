@@ -32,19 +32,19 @@ There is a homophobic relationship between **姬** *(jī)* and **机** *(jī)* (
 
 ### 灵机 - Cleverness and Inspiration**
 
-**灵机** *(líng)(jī)* means Cleverness and Inspiration.
+**灵机** *(líng)(jī)* means **Cleverness** and **Inspiration**.
 
 It was originally used to describe ingenious improvised playing of musical instruments.
 
 ### 灵机一动 - A Flash of Wit/Inspiration**
 
-**灵机一动** *(líng)(jī)(yì dòng)* is a common Chinese idiom used to describe a flash of wit/inspiration, which was the main motif behind the name when designing the character.
+**灵机一动** *(líng)(jī)(yì dòng)* is a common Chinese idiom used to describe a **Flash of Wit/Inspiration**, which was the main motif behind the name when designing the character.
 
-### 游戏机 - Gaming console**
+### 游戏机 - Gaming console
 
 Gaming console is **游戏机** *(yóu)(xì)(jī)*. 
 
-If you replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yóu)(xì)(jī)*that is a common nickname used by Chinese girl video gamers.
+If you replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yóu)(xì)(jī)* that is a common nickname used by Chinese girl Video Gamers.
 
 ### 游戏 - Gaming
 

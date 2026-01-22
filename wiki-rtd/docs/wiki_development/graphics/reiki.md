@@ -20,7 +20,7 @@ Reiki in Chinese **灵姬** is directly translated to **Clever Maiden** but ther
 
 The character: **灵** means Clever or Spiritual.
 
-### 姬 - elegant young woman/maiden/princess/nobel lady
+### 姬 - Elegant Young Woman/Maiden/Princess/Nobel lady
 
 The character: **姬** is, a term traditionally used to denote an elegant young woman/maiden/princess/nobel lady.
 
@@ -38,7 +38,7 @@ It was originally used to describe ingenious improvised playing of music instrum
 
 ### 灵机一动 - A Flash of Wit/Inspiration
 
-**灵机一动** is a common Chinese idiom used to describe A Flash of Wit/Inspiration, which is the main motif behind the name.
+**灵机一动** is a common Chinese idiom used to describe A Flash of Wit/Inspiration, which was the main motif behind the name when designing the character.
 
 ### 游戏机 - Gaming console
 

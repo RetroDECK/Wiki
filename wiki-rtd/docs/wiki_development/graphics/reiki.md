@@ -18,6 +18,10 @@
 
 Reiki in Chinese **灵姬** *(líng)(jī)* is directly translated to **Clever Maiden** but there is more then that.
 
+Beyond the literal meaning, the term carries additional nuance due to Chinese homophonic relationships (words sharing the same pronunciation). 
+
+Let's explore them! 
+
 ---
 
 ### 灵 - Clever or Spiritual
@@ -36,15 +40,13 @@ The character: **姬** *(jī)* is, a term traditionally used to denote an elegan
 
 **机** *(jī)* is **Machine** and is used to describe **Technology**.
 
-There is a homophobic relationship between **姬** *(jī)* and **机** *(jī)* (they are pronounced the same).
-
 ---
 
 ### 灵机 - Cleverness and Inspiration**
 
 **灵机** *(líng)(jī)* means **Cleverness** and **Inspiration**.
 
-It was originally used to describe ingenious improvised playing of musical instruments.
+Historically, it was used to describe inventive, improvised performances on musical instruments.
 
 ---
 

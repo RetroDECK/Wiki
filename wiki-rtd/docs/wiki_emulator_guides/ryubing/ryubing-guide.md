@@ -17,8 +17,42 @@ Ryubing is Switch emulator that is under heavy development and can be ⚠️*ver
 | Ryubing - Wiki | [Link](https://git.ryujinx.app/groups/ryubing/-/wikis/home) |
 
 
+### Question: When I open Ryubing it's still called Ryujinx?
+
+Ryubing is a fork of the original emulator Ryujinx. The project has been rebranded under the name Ryubing for a new identity, but the underlying executable still retains the original name Ryujinx (this might change in the future).
+
 ---
 
+##  ⚠️ Important Warnings! - Read them all! ⚠️
+
+Please read the following to avoid crashes and issues.
+
+### Do not mix and match firmware versions and keys  
+
+Ensure that the firmware version matches the version of the keys and `.nca` files you are using. It is recommended to use firmware and keys from your own device, not from games.
+
+Mixing different versions can lead to **crashes / black screens / fail to start**. 
+
+###  Install Firmware ONLY through the RetroDECK Configurator
+
+Games cannot be launched from **ES-DE** without firmware and keys installed! Attempting to do so will display a broken Ryubing window.
+
+- Do **not** try to install firmware from that broken window it can lead to **crashes / black screens / fail to start**.
+- The **only** supported method is to use the **RetroDECK Configurator**. Follow the instructions below.
+
+### Controllers outside of Steam / Game Mode
+
+When using Ryubing, only a single default controller is mapped automatically.  
+If you run RetroDECK outside of **Steam** / **Game Mode**, you must manually assign your controller because RetroDECK defaults to detecting devices via **Steam Input** and if that is not present you need to do it yourself.
+
+1. Open **RetroDECK**.  
+2. Navigate to **Options → Settings → Input**.  
+3. Locate **Input Device**.  
+4. Select your physical controller from the dropdown menu.
+
+**Note:** Some games may **crash / black screen / fail to start** if a controller is not detected. Assigning the correct input device prevents these issues.
+
+---
 
 ## Where to put the games?
 
@@ -40,34 +74,6 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 ---
 
-##  ⚠️ Important Warnings! - Read them all! ⚠️
-
-Please read the following to avoid crashes and issues.
-
-### Do not mix and match firmware versions and keys  
-
-Ensure that the firmware version matches the version of the keys and `.nca` files you are using. It is recommended to use firmware and keys from your own device, not from games.
-
-Mixing different versions can lead to **crashes / black screens / fail to start**. 
-
-###  Install Firmware ONLY through the RetroDECK Configurator
-
-Games cannot be launched from **ES-DE** without firmware installed! Attempting to do so will display a broken Ryubing window.
-
-- Do **not** try to install firmware from that broken window it can lead to **crashes / black screens / fail to start**.
-- The **only** supported method is to use the **RetroDECK Configurator**. Follow the instructions below.
-
-### Controllers outside of Steam / Game Mode
-
-When using Ryubing, only a single default controller is mapped automatically.  
-If you run RetroDECK outside of **Steam** / **Game Mode**, you must manually assign your controller because RetroDECK defaults to detecting devices via **Steam Input** and if that is not present you need to do it yourself.
-
-1. Open **RetroDECK**.  
-2. Navigate to **Options → Settings → Input**.  
-3. Locate **Input Device**.  
-4. Select your physical controller from the dropdown menu.
-
-**Note:** Some games may **crash / black screen / fail to start** if a controller is not detected. Assigning the correct input device prevents these issues.
 
 ## Does Ryubing require BIOS or Firmware?
 

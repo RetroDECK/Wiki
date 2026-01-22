@@ -45,9 +45,9 @@ Games cannot be launched from **ES-DE** without firmware and keys installed! Att
 When using Ryubing, only a single default controller is mapped automatically.  
 If you run RetroDECK outside of **Steam** / **Game Mode**, you must manually assign your controller because RetroDECK defaults to detecting devices via **Steam Input** and if that is not present you need to do it yourself.
 
-1. Open **RetroDECK**.  
-2. Navigate to **Options → Settings → Input**.  
-3. Locate **Input Device**.  
+1. Open **RetroDECK**.
+2. Navigate to **Options → Settings → Input**.
+3. Locate **Input Device**.
 4. Select your physical controller from the dropdown menu.
 
 **Note:** Some games may **crash / black screen / fail to start** if a controller is not detected. Assigning the correct input device prevents these issues.

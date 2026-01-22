@@ -17,7 +17,7 @@ Ryubing is Switch emulator that is under heavy development and can be ⚠️*ver
 | Ryubing - Wiki | [Link](https://git.ryujinx.app/groups/ryubing/-/wikis/home) |
 
 
-### Question: When I open Ryubing it's still called Ryujinx?
+### Question: Why does the Ryubing component still display Ryujinx when opened?
 
 Ryubing is a fork of the original emulator Ryujinx. The project has been rebranded under the name Ryubing for a new identity, but the underlying executable still retains the original name Ryujinx (this might change in the future).
 

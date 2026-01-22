@@ -27,11 +27,15 @@ Ryubing is a fork of the original emulator Ryujinx. The project has been rebrand
 
 Please read the following to avoid crashes and issues.
 
-### Do not mix and match firmware versions and keys  
+---
+
+### Do not mix and match firmware versions and keys
 
 Ensure that the firmware version matches the version of the keys and `.nca` files you are using. It is recommended to use firmware and keys from your own device, not from games.
 
 Mixing different versions can lead to **crashes / black screens / fail to start**. 
+
+---
 
 ###  Install Firmware ONLY through the RetroDECK Configurator
 
@@ -39,6 +43,8 @@ Games cannot be launched from **ES-DE** without firmware and keys installed! Att
 
 - Do **not** try to install firmware from that broken window it can lead to **crashes / black screens / fail to start**.
 - The **only** supported method is to use the **RetroDECK Configurator**. Follow the instructions below.
+
+---
 
 ### Controllers outside of Steam / Game Mode
 

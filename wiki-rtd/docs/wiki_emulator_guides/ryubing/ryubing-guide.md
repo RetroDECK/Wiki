@@ -23,7 +23,7 @@ Ryubing is a fork of the original emulator Ryujinx. The project has been rebrand
 
 ---
 
-##  ⚠️ Important Warnings! - Read them all! ⚠️
+##  ⚠️ Important Warnings and Tips! - Read them all! ⚠️
 
 Please read the following to avoid crashes and issues.
 
@@ -34,6 +34,12 @@ Please read the following to avoid crashes and issues.
 Ensure that the firmware version matches the version of the keys and `.nca` files you are using. It is recommended to use firmware and keys from your own device, not from games.
 
 Mixing different versions can lead to **crashes / black screens / fail to start**. 
+
+---
+
+### Reinstall Firmware and Keys When Copying from Another Switch Emulator
+
+Please reinstall the firmware and keys using the Ryubing menu rather than copying them directly. This ensures that all keys and firmware are validated through Ryubing. Read the guides below for detailed instructions.
 
 ---
 
@@ -95,20 +101,25 @@ For devices with a Game Mode, such as the Steam Deck, ROG Ally, or similar handh
 
 1. Open RetroDECK Configurator
 2. Navigate to `Open Emulator` → `Ryubing`.
-3. Select  `Tools` → `Install Firmware` → `Install from XCI or ZIP`.
+3. Select  `Tools` → `Install Firmware` → `Install Firmware (.XCI or .ZIP)` or `Install Firmware (Folder)`.
 
-Or, the firmware can be placed in the following directory:
+Once installed the firmware can be found in the following directory:
 
 - `~/retrodeck/bios/switch/firmware/`
 
-### Where to Place the Key Files
+You can also try manually placing the firmware in the directory above. However, we recommend installing them via the menus, as this will flag any non‑working firmware.
 
-The key files (`prod.keys`, `title.keys`) should be placed in one of the following locations:
+### How-to: Install the Key Files
+
+1. Open RetroDECK Configurator
+2. Navigate to `Open Emulator` → `Ryubing`.
+3. Select  `Tools` → `Install keys` → `Install Keys (.KEYS)` or `Install Keys (Folder)`  .
+
+Once installed the keys can be found in the following directory:
 
 - `~/retrodeck/bios/switch/keys`
-- `~/.var/app/net.retrodeck.retrodeck/config/ryubing/system/`
 
-
+You can also try manually placing the keys in the directory above. However, we recommend installing them via the menus, as this will flag any non‑working keys.
 
 ---
 

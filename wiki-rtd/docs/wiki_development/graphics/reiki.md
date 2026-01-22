@@ -60,6 +60,3 @@ If you replace **机** with **姬** you get: **游戏姬** that is a common nick
 Check out the portfolio:
 
 - [Tyson Tan](https://tysontan.com/)
-
-
-**灵姬** (pronounced *líng jī*) combines the characters *灵* (“clever” or “spiritual”) and *姬* (“princess” or “maiden”), a term traditionally used to denote an elegant young woman. The homophonic relationship between *姬* and *机* (“machine”) further evokes the notion of technological ingenuity, as reflected in the compound *灵机*, which historically described inventive, improvised performances on musical instruments.

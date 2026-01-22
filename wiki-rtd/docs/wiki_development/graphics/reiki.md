@@ -12,47 +12,47 @@
 
 **Chinese:** 灵姬
 
-## What does the name mean? 
+## What does the name mean?
 
-Reiki in Chinese **灵姬** is directly translated to **Clever Maiden** but there is more then that.
+Reiki in Chinese **灵姬** *(líng)(jī)* is directly translated to **Clever Maiden** but there is more then that.
 
 ### 灵 - Clever or Spiritual
 
-The character: **灵** means Clever or Spiritual.
+The character: **灵** *(líng)* means Clever or Spiritual.
 
-### 姬 - Elegant Young Woman/Maiden/Princess/Nobel lady
+### 姬 - Elegant Young Woman/Maiden/Princess/Noble lady**
 
-The character: **姬** is, a term traditionally used to denote an elegant young woman/maiden/princess/nobel lady.
+The character: **姬** *(jī)* is, a term traditionally used to denote an elegant young woman/maiden/princess/noble lady.
 
-### 机 - Machine / Technology
+### 机 - Machine / Technology**
 
-**机** is **Machine** and is used to descibe **Technology**.
+**机** *(jī)* is **Machine** and is used to describe **Technology**.
 
-There is a homophonic relationship between **姬** and **机** (they are pronounced the same).
+There is a homophobic relationship between **姬** *(jī)* and **机** *(jī)* (they are pronounced the same).
 
-### 灵机 - Cleverness and Inspiration
+### 灵机 - Cleverness and Inspiration**
 
-**灵机** means Cleverness and Inspiration.
+**灵机** *(líng)(jī)* means Cleverness and Inspiration.
 
-It was originally used to describe ingenious improvised playing of music instruments.
+It was originally used to describe ingenious improvised playing of musical instruments.
 
-### 灵机一动 - A Flash of Wit/Inspiration
+### 灵机一动 - A Flash of Wit/Inspiration**
 
-**灵机一动** is a common Chinese idiom used to describe A Flash of Wit/Inspiration, which was the main motif behind the name when designing the character.
+**灵机一动** *(líng)(jī)(yì dòng)* is a common Chinese idiom used to describe a flash of wit/inspiration, which was the main motif behind the name when designing the character.
 
-### 游戏机 - Gaming console
+### 游戏机 - Gaming console**
 
-Gaming console is **游戏机**. 
+Gaming console is **游戏机** *(yóu)(xì)(jī)*. 
 
-If you replace **机** with **姬** you get: **游戏姬** that is a common nickname used by Chinese Girl Video Gamers.
+If you replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yóu)(xì)(jī)*that is a common nickname used by Chinese girl video gamers.
 
 ### 游戏 - Gaming
 
-**游戏** is gaming.
+**游戏** *(yóu)(xì)* is gaming.
 
 ### 游 - Swim
 
-游 part of Gaming is Swim and that matches quite well with Reiki's sharky nature.
+**游** *(yóu)* part of “gaming” is “swim,” and that matches quite well with Reiki's shark‑like nature.
 
 
 ### Tyson Tan - Creator

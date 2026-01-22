@@ -52,7 +52,7 @@ If you replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yó
 
 ### 游 - Swim
 
-**游** *(yóu)* part of “gaming” is “swim,” and that matches quite well with Reiki's shark‑like nature.
+**游** *(yóu)* part of “gaming” is “swim,” and that matches well with Reiki's shark‑like nature.
 
 
 ### Tyson Tan - Creator

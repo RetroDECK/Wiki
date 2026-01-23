@@ -33,11 +33,22 @@ The internal discussions were intense within the team, and yes, our lead archite
 
 <img src="../icedank.png" width="800"> 
 
-## Development News? 
+We also did see a "bit" of a spike in downloads. 
 
-The team is still doing post-release bug fixing in minor patches.
+<img src="../statsdank.png" width="800"> 
 
-There is nothing to share at this time. 
+
+## Development Update
+
+The RetroDECK Team continues to address post-release issues through a series of minor patches. At this stage, we have no new announcements to share.
+
+Due to the extensive nature of the MASSIVE rewrite update, some team members have been working really really really... hard. 
+
+Some have sacrificed their entire Sunday schedules to focus on bug fixes sitting by their computers from morning to night.
+
+The days after the same members began working early in the mornings on RetroDECK then went to work THEN continued after they came back home.
+
+As this is a hobby project made by a passionate handful, a tiny short respite is required. 💜
 
 ## Media Coverage
 

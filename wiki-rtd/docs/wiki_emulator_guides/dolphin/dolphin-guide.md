@@ -131,9 +131,10 @@ This shows what folder corresponds to each folder in the standard Dolphin struct
 
 ## How-to: Enable Wii System Menu - Online Update
 
-1. Open Dolphin in `RetroDECK Configurator` by selecting `Open Emulator` -> `Dolphin`.
-2. Go to `Tools` -> `Perform Online System Update` -> Select the Region you want for the System Menu and install it.
-3. You can open the System Menu by going to:  `Tools` -> `Load Wii System Menu`.
+1. **RetroDECK Configurator** → Open Components.
+2. Launch **Dolphin**
+3. Go to `Tools` -> `Perform Online System Update` -> Select the Region you want for the System Menu and install it.
+4. You can open the System Menu by going to:  `Tools` -> `Load Wii System Menu`.
 
 ---
 
@@ -142,6 +143,7 @@ This shows what folder corresponds to each folder in the standard Dolphin struct
 1. **RetroDECK Configurator** → Open Components.
 2. Launch **Dolphin**
 3. Go to: `Tools` -> `Manage NAND` -> `Import BootMii NAND Backup` then select your backup file.
+4. You can open the System Menu by going to:  `Tools` -> `Load Wii System Menu`.
 
 ---
 

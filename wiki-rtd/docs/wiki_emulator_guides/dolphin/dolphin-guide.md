@@ -129,11 +129,50 @@ This shows what folder corresponds to each folder in the standard Dolphin struct
 
 ---
 
-## How-to: Enable Wii System Menu
+## How-to: Enable Wii System Menu - Online Update
 
 1. Open Dolphin in `RetroDECK Configurator` by selecting `Open Emulator` -> `Dolphin`.
 2. Go to `Tools` -> `Perform Online System Update` -> Select the Region you want for the System Menu and install it.
 3. You can open the System Menu by going to:  `Tools` -> `Load Wii System Menu`.
+
+---
+
+## How-to: Enable Wii System Menu - BootMii NAND Backup
+
+1. **RetroDECK Configurator** → Open Components.
+2. Launch **Dolphin**
+3. Go to: `Tools` -> `Manage NAND` -> `Import BootMii NAND Backup` then select your backup file.
+
+---
+
+## Hot-to: Enable WiiLink Channels
+
+WiiLink is an open source replacement for Nintendo's servers for both WiiConnect24 and Nintendo Wi-Fi Connection, allowing online connectivity for all, even after the original servers were discontinued.
+
+- [Website: WiiLink](https://wiilink.ca/)
+- [GitHub: WiiLink Patcher Releases](https://github.com/WiiLink24/WiiLink-Patcher-GUI/releases)
+
+### Prerequisites: Wii System Menu / NAND Backup  
+
+- You must have either the Wii System Menu installed **or** a full BootMii NAND backup.  
+- The `Check Mii Out` and `Everybody Votes` channels **require** a genuine BootMii NAND dump.
+- Make sure `Enable WiiConnect24` is checked in Dolphin: **RetroDECK Configurator** → Open Components → Launch **Dolphin** → `Options` → `Configuration` → `Wii` → `Enable WiiConnect24`.
+
+### How-to: Install the Channels
+
+1. Download the latest [WiiLink Patcher Releases](https://github.com/WiiLink24/WiiLink-Patcher-GUI/releases) for Linux from the GitHub releases page and extract it.  
+2. Make the `WiiLinkPatcherGUI` executable and launch it.  
+3. Choose **Custom Setup** in the installer.  
+4. Select the desired channels and their regions.  
+5. Set **Platform** to **Dolphin Emulator**.  
+6. Choose your system region.  
+7. The patcher downloads the selected files to `~/Downloads/WiiLink`.  
+8. **RetroDECK Configurator** → Open Components.
+9. Launch **Dolphin**
+10. Go to `Tools` → `Install WAD`
+11. Install `WiiLink Address Settings.wad` first, then install the remaining WAD files you downloaded in `~/Downloads/WiiLink`.
+12. Go to `Tools` → `Load Wii System Menu` and launch it.
+13. Inside the systems menu go to: `Wii Options` → `Wii Settings` → `WiiConnect24` and accept the EULA.
 
 ---
 

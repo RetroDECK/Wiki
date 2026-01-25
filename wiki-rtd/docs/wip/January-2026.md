@@ -37,7 +37,7 @@ The internal discussions were intense within the team, and yes, our lead archite
 
 ---
 
-<img src="../statsdank.png" width="300"> 
+<img src="../statsdank.png" width="100"> 
 
 We also did see a *bit* of a spike in downloads. 
 

@@ -419,6 +419,7 @@ nav:
       - Launch Steam - Games: wiki_experiments/desktop-launch/desktop-launch-steam.md
       - Launch Lutris - Games: wiki_experiments/desktop-launch/desktop-launch-lutris.md
     - Launch External Emulators: wiki_experiments/external-emulator/external-emulator.md
+    - Rámons RetroDECK Console: wiki_experiments/ramon-console/ramon-console.md
     - Run RetroDECK in WSL:  wiki_experiments/retrodeck-wsl/retrodeck-wsl.md
 
   - RetroDECK Development 🪄:

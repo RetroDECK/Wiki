@@ -104,7 +104,7 @@ This shows what folder corresponds to each folder in the standard Dolphin struct
 | Screenshots        | `retrodeck/screenshots/Dolphin/`   | dolphin-emu/ScreenShots/       |
 | Shaders            | `retrodeck/shaders/Dolphin/`       | dolphin-emu/Shaders            |
 | States             | `retrodeck/states/dolphin/`        | dolphin-emu/StateSaves/        |
-| Texture Packs      | `retrodeck/texture_packs/Dolphin/` | dolphin-emu/Load/Textures/     |
+| Texture Packs      | `retrodeck/texture_packs/Dolphin/Textures` | dolphin-emu/Load/Textures/     |
 | Wii Saves          | `retrodeck/saves/wii/dolphin/`     | dolphin-emu/Wii/               |
 
 
@@ -170,7 +170,7 @@ If all is correct the mods should be loaded on next game launch.
 
 ## Adding Texture Packs
 
-The `~/retrodeck/texture_packs/dolphin/` represents the `/load/Textures` folder.
+The `~/retrodeck/texture_packs/dolphin/Textures` represents the `/load/Textures` folder.
 
 Some texture packs could made for a specific version or region of a game. Make sure you have the right game and textures for it.
 
@@ -189,7 +189,7 @@ Some texture packs could made for a specific version or region of a game. Make s
 2. Go into texture pack folders, they contain folders that are all named by `GAME_ID`.
 3. Move the textures into the right folder: 
 
-**Dolphin:** `~/retrodeck/texture_packs/dolphin/<GAME_ID>`
+**Dolphin:** `~/retrodeck/texture_packs/dolphin/Textures/<GAME_ID>`
 
 If all is correct the textures should be loaded on next game launch.
 

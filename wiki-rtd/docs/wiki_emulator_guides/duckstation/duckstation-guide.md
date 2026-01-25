@@ -120,7 +120,7 @@ Some texture packs could made for a specific version or region of a game. Make s
 ## Adding texture packs
 
 - Open up Duckstation inside `RetroDECK Configurator` by pressing `Open Emulator` - `Duckstation`.
-- Go to `Settings` -> `Advanced` -> `Tweaks/Hacks` <br>
+- Go to `Settings` → `Advanced` → `Tweaks/Hacks` <br>
 
 `Enable VRAM Write Texture Replacement` and set it to `On`.<br>
 

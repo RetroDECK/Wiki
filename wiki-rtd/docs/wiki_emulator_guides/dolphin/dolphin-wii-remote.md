@@ -67,7 +67,7 @@ This method works only with the Official Wii Remote controller and is the easies
 
 <img src="../emulated-bluetooth.png" width="450">
 
-Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `Controller Settings`.
+Open `RetroDECK Configurator` → `Open Emulator` → `Dolphin` → `Options` → `Controller Settings`.
 
 
 ### Step 2: Change the Settings
@@ -143,7 +143,7 @@ sudo echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="8087", ATTRS{idProduct}=="0025", 
 
 ### Step 3: Enable Bluetooth Passthrough in Dolphin
 
-Open `RetroDECK Configurator` -> `Open Emulator` -> `Dolphin` -> `Options` -> `Controller Settings`.
+Open `RetroDECK Configurator` → `Open Emulator` → `Dolphin` → `Options` → `Controller Settings`.
 
 <img src="../dolphin-bluetooth-pass.png" width="450">
 

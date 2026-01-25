@@ -9,7 +9,7 @@ Follow these steps to set up Joy-Cons with the Dolphin on your Steam Deck.
 
 ### Prerequisites: Enable Combine Joy-Con Pairs 
 
-1. Connect the joycons via Bluetooth: `Steam Button` -> `Settings` -> `Bluetooth`.
+1. Connect the joycons via Bluetooth: `Steam Button` → `Settings` → `Bluetooth`.
 2. Go back to `Settings` and into `Controller Settings`.
 3. Enable `Combine Joy-Con Pairs`.
 

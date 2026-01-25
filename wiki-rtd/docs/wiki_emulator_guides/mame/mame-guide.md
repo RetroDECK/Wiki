@@ -138,7 +138,7 @@ RetroDECK already includes the cheat file from [Pugsy's Cheats](https://www.mame
 To enable cheats:
 
 1. Open MAME via the Configurator or while in a MAME game.
-2. In the MAME interface, go to `General Settings` -> `Miscellaneous Options` -> `Cheats` and toggle it to On.
+2. In the MAME interface, go to `General Settings` → `Miscellaneous Options` → `Cheats` and toggle it to On.
 3. Go back, click `Save Settings`, and exit MAME.
 
 When you launch a game, open the `Quick Menu` and go to the `Cheat Menu` to toggle cheats for that game.

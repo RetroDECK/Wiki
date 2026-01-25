@@ -78,8 +78,8 @@ Directly into the folder
 
 <img src="../xemu-input-menu.png" width="600">
 
-1. Open `RetroDECK Configurator` -> `xemu`
-2. Navigate to `Machine` -> `Settings` -> `Input`
+1. Open `RetroDECK Configurator` → `xemu`
+2. Navigate to `Machine` → `Settings` → `Input`
 3. Each controller port 1 to 4 has it's drop-down menu. 
 4. Enable the ports you want and select the corresponding controllers in each port that you want to use.
 

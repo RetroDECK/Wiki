@@ -156,7 +156,7 @@ There are two ways to add texture packs to Azahar.
 Follow the steps below to change the UI language in Azahar:
 
 1. Open up Azahar inside `RetroDECK Configurator` by pressing `Open Component` - `Azahar`.
-2. Press `Emulation` -> `Configure` -> `Graphics` -> `General` -> `UI`.
+2. Press `Emulation` → `Configure` → `Graphics` → `General` → `UI`.
 3. In the UI Tab under `General`, choose the language from the dropdown menu.
 
 --- 
@@ -166,7 +166,7 @@ Follow the steps below to change the UI language in Azahar:
 
 1. Open up Azahar inside `RetroDECK Configurator` by pressing `Open Component` - `Azahar`.
 2. Right-click the game you want to modify and select `Properties`.  
-3. Go to  `Cheats` -> press `Add Cheat`.  
+3. Go to  `Cheats` → press `Add Cheat`.  
 4. Enter a `Name` for the cheat, then paste the cheat code into the `Code` field.  
 5. Click `Save` and enable the cheat by checking the box in the `Available Cheats` pane.
 6. Press OK and and Quit Azahar.

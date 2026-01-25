@@ -98,8 +98,8 @@ Directly into the folder
 
 **Instructions:**
 
-1. Open `Configurator` -> `MelonDS`
-2. Click `Config` -> `Emu settings` -> `DS-Mode` ->  Enable `Use external BIOS/firmware files`
-3. Click `File` -> `Boot firmware` -> `DS icon` (bottom of the screen) -> `⚙️` -> `🌍` -> Set language.
+1. Open `Configurator` → `MelonDS`
+2. Click `Config` → `Emu settings` → `DS-Mode` →  Enable `Use external BIOS/firmware files`
+3. Click `File` → `Boot firmware` → `DS icon` (bottom of the screen) → `⚙️` → `🌍` → Set language.
 
 ---

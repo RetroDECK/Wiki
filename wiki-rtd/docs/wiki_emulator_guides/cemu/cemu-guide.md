@@ -131,7 +131,7 @@ Do not keep DLC and Update files in: `retrodeck/roms/wiiu/`
 **Instructions:**
 
 1. Open the `Configurator` and Open `Cemu`
-2. `Press File` -> `Install game title, update, or DLC...`
+2. `Press File` → `Install game title, update, or DLC...`
 3. Navigate to where you have your files.
 4. Choose the DLC or Update file and press `Open` and it will install.
 5. Repeat for each DLC / Update you want to install.
@@ -148,7 +148,7 @@ Do not keep DLC and Update files in: `retrodeck/roms/wiiu/`
 **Instructions:**
 
 1. Open the `Configurator` and Open `Cemu`
-2. `Press Tools` -> `Title Manager`
+2. `Press Tools` → `Title Manager`
 3. Search for the game you want to convert and check so the `Type` colum says: `base`.
 4. Right click and press the `Convert to compressed Wii U archive`.
 5. Verify in the prompt that everything you want is there: base game, updates and DLC.
@@ -178,7 +178,7 @@ To create a Pretendo Network account.
 **RetroDECK specific file locations:**
 
 -  Wii U User Account’s `usr` and `sys` folders
-    - Located in the `MLC Path` configured in `RetroDECK Configurator` -> `Open Cemu` -> `Options` -> `General settings`  (default: `retrodeck/bios/cemu`) 
+    - Located in the `MLC Path` configured in `RetroDECK Configurator` → `Open Cemu` → `Options` → `General settings`  (default: `retrodeck/bios/cemu`) 
   
 - `otp.bin` and `seeprom.bin`:
     - Located at `~/.var/app/org.retrodeck.retrodeck/data/Cemu`.

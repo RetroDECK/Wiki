@@ -57,13 +57,13 @@ There are two ways to install the firmware:
 2. Press `OK` and this will download the PS3 Firmware and open RPCS3.
 3. You will get a prompt asking if you want to install the firmware from the /tmp/ folder, say `Yes`
 4. Wait for the installation to finish
-5. Exit RPCS3 from the GUI under `File -> Exit`
+5. Exit RPCS3 from the GUI under `File → Exit`
 
 **Manual Download**
 
 1. Download the latest PS3 firmware `PS3UPDAT.PUP` from Sony [here](https://www.playstation.com/en-us/support/hardware/ps3/system-software/)
-2. Open RPCS3 `RetroDECK Configurator -> Open Emulator -> RPCS3`.
-3. In the RPCS3 interface navigate to `File -> Install Firmware`.
+2. Open RPCS3 `RetroDECK Configurator → Open Emulator → RPCS3`.
+3. In the RPCS3 interface navigate to `File → Install Firmware`.
 4. In the file browser navigate and select the file `PS3UPDAT.PUP` file.
 5. The firmware should now be installed.
 
@@ -145,7 +145,7 @@ Game updates must be installed **incrementally and in release order**. For examp
 ### Installing DLC or Patches via RPCS3
 
 1. **Open RPCS3:** Open RPCS3 from the RetroDECK Configurator.
-2. **Navigate to the installation option:** In the RPCS3 interface, go to `File` -> `Install Packages/Raps/Edats`.
+2. **Navigate to the installation option:** In the RPCS3 interface, go to `File` → `Install Packages/Raps/Edats`.
 3. **Select the file to install:** In the file browser, navigate and select the file you want to install.
 4. **Launch the game:** The game can be launched via RetroDECK with patches and DLC already installed.
 
@@ -179,7 +179,7 @@ If you want to install some PSN titles, you can do that through RPCS3 itself.
 ### Installing Digital PSN Titles via RPCS3
 
 1. **Open RPCS3:** Open RPCS3 from the RetroDECK Configurator.
-2. **Navigate to the installation option:** In the RPCS3 interface, go to `File` -> `Install Packages/Raps/Edats`.
+2. **Navigate to the installation option:** In the RPCS3 interface, go to `File` → `Install Packages/Raps/Edats`.
 3. **Select the file to install:** In the file browser, navigate and select the file you want to install.
 4. **Verify the installation:** The file will be installed inside the games folder on the RPCS3 hard drive under `retrodeck/bios/rpcs3/dev_hdd0/game/GAMEID` where `GAMEID` is unique for each game.
 5. **Install patches or DLC:** Install any patches or DLC for the game by repeating steps 2 and 3 for each file.

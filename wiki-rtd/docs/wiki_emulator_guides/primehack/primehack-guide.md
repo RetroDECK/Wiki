@@ -107,7 +107,7 @@ This shows what folder corresponds to each folder in the standard PrimeHack stru
 ## How-to: Change the language of PrimeHack
 
 1. In the `Configurator` open either or `PrimeHack`.
-2. Navigate to `Options` -> `Configuration` -> `Interface` .
+2. Navigate to `Options` → `Configuration` → `Interface` .
 3. Select preferred language in the drop-down menu.
 4. Close the Emulator, Configurator and return to RetroDECK.
 
@@ -118,16 +118,16 @@ This shows what folder corresponds to each folder in the standard PrimeHack stru
 
 **Prerequisite:** Place the GameCube `IPL.bin` BIOS in the save folders (see above).
 
-1. Open PrimeHack in `RetroDECK Configurator` by selecting `Open Emulator` -> `PrimeHack`.
-2. Go to `Options` -> `Configuration` -> `GameCube` and uncheck `Skip Main Menu`.
+1. Open PrimeHack in `RetroDECK Configurator` by selecting `Open Emulator` → `PrimeHack`.
+2. Go to `Options` → `Configuration` → `GameCube` and uncheck `Skip Main Menu`.
 
 ---
 
 ## How-to: Enable Wii System Menu
 
-1. Open PrimeHack in `RetroDECK Configurator` by selecting `Open Emulator` -> `PrimeHack`.
-2. Go to `Tools` -> `Perform Online System Update` -> Select the Region you want for the System Menu and install it.
-3. You can open the System Menu by going to:  `Tools` -> `Load Wii System Menu`.
+1. Open PrimeHack in `RetroDECK Configurator` by selecting `Open Emulator` → `PrimeHack`.
+2. Go to `Tools` → `Perform Online System Update` → Select the Region you want for the System Menu and install it.
+3. You can open the System Menu by going to:  `Tools` → `Load Wii System Menu`.
 
 ---
 
@@ -147,7 +147,7 @@ Make sure you have the right game and textures for it.
 ### Enable Mods
 
 1. Open up PrimeHack inside `RetroDECK Configurator` by pressing `Open Emulator` - `PrimeHack`.
-2. Press `Options` -> `Graphic Settings`.
+2. Press `Options` → `Graphic Settings`.
 3. `Enable Graphics Mods` and set it to `On`.
 
 ### Adding the mods
@@ -173,7 +173,7 @@ Some texture packs could made for a specific version or region of a game. Make s
 ### Enable Custom Textures
 
 1. Open up PrimeHack inside `RetroDECK Configurator` by pressing `Open Emulator` - `PrimeHack`.
-2. Press `Options` -> `Graphic Settings`
+2. Press `Options` → `Graphic Settings`
 3. `Load Custom Textures` & `Prefetch Custom Textures`  and set them to `On`.
 
 

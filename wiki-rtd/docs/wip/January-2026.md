@@ -38,23 +38,25 @@ We also did see a "bit" of a spike in downloads.
 <img src="../statsdank.png" width="800"> 
 
 
+---
+
 ## Development Update
 
-The RetroDECK Team continues to address post-release issues through a series of minor patches. At this stage, we have no new announcements to share.
+We continue to address post-release issues through a series of minor patches. At this stage, we have no new announcements to share.
 
 Due to the extensive nature of the MASSIVE rewrite update, some team members have been working really really really... hard. 
 
-Some have sacrificed their entire Sunday schedules to focus on bug fixes sitting by their computers from morning to night.
+Some have sacrificed their entire Sunday release day schedules to focus on bug fixes sitting by their computers from morning to night.
 
 The days after the same members began working early in the mornings on RetroDECK then went to work THEN continued after they came back home.
 
-As this is a hobby project made by a passionate handful, a tiny short respite is required. 💜
+As this is a hobby project made by a passionate less than handful, a tiny short respite is required. 💜
+
+---
 
 ## Media Coverage
 
 Extra reading material for the community. 
-
----
 
 ### SteamDeckHQ
 
@@ -95,11 +97,22 @@ Since no one on the team speaks German, we hope he had a pleasant time.
 
 --- 
 
+### YouTube: Mr.Sujano
+
+Mr.Sujano mentions RetroDECK in this:
+
+[Video](https://www.youtube.com/watch?v=-lHVbQgF7HQ)
+
+Some team members are big fans.
+
+
+---
+
 ## Experiment Showcase: Rámon van Raaij's RetroDECK Console
 
 [RetroDECK Console Experiment](https://ramon.vanraaij.eu/from-proxmox-node-to-retro-console-my-arch-linux-retrodeck-journey/)
 
-Rámon conducted an experiment to create a RetroDECK console without a desktop environment, launching directly into RetroDECK.
+Rámon conducted an experiment to create a RetroDECK console WITHOUT a desktop environment, launching directly into RetroDECK.
 
 **Note:** This was done before the 0.10.0b rewrite patch and may no longer be accurate. We still think it's cool tho! Good job Rámon!
 

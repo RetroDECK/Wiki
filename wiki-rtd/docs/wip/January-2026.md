@@ -25,32 +25,35 @@ The RetroDECK Team have been hard at work.
 
 <img src="../icon-rd.svg" width="75"> 
 
-After ten months of work and more than 2,300+ commits, our first pull request to main was...coooool!
-
 <img src="../mainmergedankest.png" width="500"> 
 
-The internal discussions were intense within the team, and yes, our lead architect IceNine does deserve a raise.
+After ten months of work and more than 2,300+ commits, our first pull request to main was...coooool!
+
+---
 
 <img src="../icedank.png" width="800"> 
 
-We also did see a "bit" of a spike in downloads. 
+The internal discussions were intense within the team, and yes, our lead architect IceNine does deserve a raise.
+
+---
 
 <img src="../statsdank.png" width="800"> 
 
+We also did see a *bit* of a spike in downloads. 
 
 ---
 
 ## Development Update
 
-We continue to address post-release issues through a series of minor patches. At this stage, we have no new announcements to share.
+We continue to address post-release 0.10.0b issues through a series of minor patches. At this stage, we have no new announcements to share.
 
 Due to the extensive nature of the MASSIVE rewrite update, some team members have been working really really really... hard. 
 
-Some have sacrificed their entire Sunday release day schedules to focus on bug fixes sitting by their computers from morning to night.
+Some have sacrificed their entire Sunday on release day just to focus on bug fixes sitting by their computers from the early morning to late at night.
 
-The days after the same members began working early in the mornings on RetroDECK then went to work THEN continued after they came back home.
+After the release, the same members clocked in on RetroDECK before work and again after getting home almost all week.
 
-As this is a hobby project made by a passionate less than handful, a tiny short respite is required. 💜
+As a hobby project run by a small, passionate team of fewer than a handful, a tiny bit of brief respite is needed. 💜
 
 ---
 
@@ -99,12 +102,9 @@ Since no one on the team speaks German, we hope he had a pleasant time.
 
 ### YouTube: Mr.Sujano
 
-Mr.Sujano mentions RetroDECK in this:
+Mr.Sujano mentions RetroDECK release here:
 
 [Video](https://www.youtube.com/watch?v=-lHVbQgF7HQ)
-
-Some team members are big fans.
-
 
 ---
 

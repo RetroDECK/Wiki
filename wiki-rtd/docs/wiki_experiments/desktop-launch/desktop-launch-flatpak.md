@@ -100,9 +100,9 @@ Rename the file to something more fitting.
 
 **Examples:**
 
-`net.openra.OpenRA.desktop` -> `OpenRA.desktop` or `Red Alert.desktop`
+`net.openra.OpenRA.desktop` → `OpenRA.desktop` or `Red Alert.desktop`
 
-`eu.vcmi.VCMI.desktop` -> `VCMI.desktop` or `Heroes of Might and Magic III.desktop`
+`eu.vcmi.VCMI.desktop` → `VCMI.desktop` or `Heroes of Might and Magic III.desktop`
 
 #### Step 5: Edit the file
 

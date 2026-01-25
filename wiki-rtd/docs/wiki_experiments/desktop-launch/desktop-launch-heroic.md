@@ -54,7 +54,7 @@ Make an empty file with the `<gamename>.desktop`.
 
 1. Open Heroic.
 2. Install the game .
-3. Go to the `Library` -> `Your Game` -> Press the `Three Dotted Menu`.
+3. Go to the `Library` → `Your Game` → Press the `Three Dotted Menu`.
 4. Press `Add Shortcut`.
 5. A shortcut will now be created on the Desktop.
 6. Move or copy that to `retrodeck/roms/desktop/`.

@@ -17,7 +17,7 @@ The scripts supports `.mp3`, `.ogg`, `.flac` and `.wav` music files.
 ## Prerequisites 
 
 - Manually create the `retrodeck/music` folder.
-- Enable the Custom Event Scripts in ES-DE: Go to the `ES-DE Main Menu` -> `ES-DE Configurations` -> `Other Settings` -> `Enable Custom Event Scripts`.
+- Enable the Custom Event Scripts in ES-DE: Go to the `ES-DE Main Menu` → `ES-DE Configurations` → `Other Settings` → `Enable Custom Event Scripts`.
 
 ## How-to: Play Music
 
@@ -63,6 +63,6 @@ VOLUME=0.2              # from 0.0 to 1.0
 
 ## Uninstalling the Scripts
 
-- Disable the Custom Event Scripts in ES-DE: Go to the `ES-DE Main Menu` -> `ES-DE Configurations` -> `Other Settings` -> `Enable Custom Event Scripts`.
+- Disable the Custom Event Scripts in ES-DE: Go to the `ES-DE Main Menu` → `ES-DE Configurations` → `Other Settings` → `Enable Custom Event Scripts`.
 - Delete the scripts in `~/.var/app/net.retrodeck.retrodeck/config/ES-DE/scripts`.
 - Optionally, remove the `retrodeck/music` folder.

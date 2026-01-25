@@ -60,7 +60,7 @@ First, create the `.desktop` file as mentioned above with the game name and put 
 ### Step 2: Get the Steam AppID
 
 1. Open Steam.
-2. In Steam, go to `Library` -> `Right Click` the game -> `Properties` -> `Updates`.
+2. In Steam, go to `Library` → `Right Click` the game → `Properties` → `Updates`.
 3. Make a note of the `AppID`.
 
 

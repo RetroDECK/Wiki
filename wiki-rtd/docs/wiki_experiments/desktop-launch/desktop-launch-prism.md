@@ -47,7 +47,7 @@ Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you
 For a smoother experience enable these settings in Prism Launcher:
 
 1. Open Prism Launcher.
-2. Go to `Settings` -> `Minecraft`
+2. Go to `Settings` → `Minecraft`
 3. Enable ` Start Minecraft maximized` , ` Close Launcher after game window opens` and ` Quit Launcher after game window closes`.
 4. Exit Settings
 
@@ -58,7 +58,7 @@ For a smoother experience enable these settings in Prism Launcher:
 1. Open Prism Launcher.
 2. Make sure you are logged in.
 3. Install a game (specific version or a modpack).
-4. `Right Click` the game -> `Create Shortcut`.
+4. `Right Click` the game → `Create Shortcut`.
 5. Save the shortcut to: `retrodeck/roms/desktop/`.
 
 <img src="../prism-shortcut.png" width="800">
@@ -117,4 +117,4 @@ You can manually add it to your modpacks via (but more then often its already in
 
 Mukul1127 has created a great GitHub page for various Java versions JVM arguments and Optimizations on how to make your Minecraft Java experience more performanant. 
 
-These can be added to Prism Launcher per Minecraft instance or Globally under `Settings` -> `Java` -> `JVM arguments`.
+These can be added to Prism Launcher per Minecraft instance or Globally under `Settings` → `Java` → `JVM arguments`.

@@ -58,7 +58,7 @@ First, create the `.desktop` file as mentioned above with the game name and put 
 ### Step 2: Get Identifier and Internal ID
 
 1. Open Lutris.
-2. In Lutris, `Right Click` the game -> `Configure` and make a note of your `Internal ID` under `Identifier`.
+2. In Lutris, `Right Click` the game → `Configure` and make a note of your `Internal ID` under `Identifier`.
 3. Make a note of the `Identifier` as well.
 
 

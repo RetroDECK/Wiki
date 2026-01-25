@@ -58,7 +58,7 @@ First, create the `.desktop` file as mentioned above with the game name and put 
 ### Step 2: Get Identifier and Internal ID
 
 1. Open Lutris.
-2. In Lutris, `Right Click` the game -> `Configure` and make a note of your `Internal ID` under `Identifier`.
+2. In Lutris, `Right Click` the game → `Configure` and make a note of your `Internal ID` under `Identifier`.
 3. Make a note of the `Identifier` as well.
 
 
@@ -148,7 +148,7 @@ First, create the `.desktop` file as mentioned above with the game name and put 
 ### Step 2: Get the Steam AppID
 
 1. Open Steam.
-2. In Steam, go to `Library` -> `Right Click` the game -> `Properties` -> `Updates`.
+2. In Steam, go to `Library` → `Right Click` the game → `Properties` → `Updates`.
 3. Make a note of the `AppID`.
 
 
@@ -277,9 +277,9 @@ Rename the file to something more fitting.
 
 **Examples:**
 
-`net.openra.OpenRA.desktop` -> `OpenRA.desktop` or `Red Alert.desktop`
+`net.openra.OpenRA.desktop` → `OpenRA.desktop` or `Red Alert.desktop`
 
-`eu.vcmi.VCMI.desktop` -> `VCMI.desktop` or `Heroes of Might and Magic III.desktop`
+`eu.vcmi.VCMI.desktop` → `VCMI.desktop` or `Heroes of Might and Magic III.desktop`
 
 #### Step 5: Edit the file
 
@@ -359,7 +359,7 @@ Categories=Game
 
 1. Open Heroic.
 2. Install the game .
-3. Go to the `Library` -> `Your Game` -> Press the `Three Dotted Menu`.
+3. Go to the `Library` → `Your Game` → Press the `Three Dotted Menu`.
 4. Press `Add Shortcut`.
 5. A shortcut will now be created on the Desktop.
 6. Move or copy that to `retrodeck/roms/desktop/`.
@@ -391,7 +391,7 @@ Categories=Game;
 For a smoother experience enable these settings in Prism Launcher:
 
 1. Open Prism Launcher.
-2. Go to `Settings` -> `Minecraft`
+2. Go to `Settings` → `Minecraft`
 3. Enable ` Start Minecraft maximized` , ` Close Launcher after game window opens` and ` Quit Launcher after game window closes`.
 4. Exit Settings
 
@@ -402,7 +402,7 @@ For a smoother experience enable these settings in Prism Launcher:
 1. Open Prism Launcher.
 2. Make sure you are logged in.
 3. Install a game (specific version or a modpack).
-4. `Right Click` the game -> `Create Shortcut`.
+4. `Right Click` the game → `Create Shortcut`.
 5. Save the shortcut to: `retrodeck/roms/desktop/`.
 
 <img src="../prism-shortcut.png" width="800">

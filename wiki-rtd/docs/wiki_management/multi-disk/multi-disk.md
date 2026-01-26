@@ -70,7 +70,7 @@ Inside the folder, create a file named **exactly** like the folder: `Dragon Fant
 2. List all disk filenames, one per line.
 3. Save the file.
 
-**Example Content:*
+**Example Content:**
 
 This shows the content of the`Dragon Fantasy VII.m3u` file:
 

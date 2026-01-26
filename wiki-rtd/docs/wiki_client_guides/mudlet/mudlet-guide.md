@@ -1,6 +1,6 @@
     # Mudet: General Guide
 
-<img src="../../../wiki_images/logos/mudlet-logo.svg" width="150">
+<img src="../../../wiki_images/logos/mudlet-logo.svg" width="75">
 
 Mudlet is a MUD Client, offering tools for players and creators to enhance gameplay. 
 

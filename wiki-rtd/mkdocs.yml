@@ -377,6 +377,9 @@ nav:
 
   - Guides - Multi-Emulators  📕:
 
+    - ares:
+      - ares - General Guide: wiki_multi_emulator_guides/ares/ares-guide.md
+
     - MAME:
       - MAME - General Guide: wiki_multi_emulator_guides/mame/mame-guide.md
 

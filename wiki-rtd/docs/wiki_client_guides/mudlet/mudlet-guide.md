@@ -1,4 +1,4 @@
-    # Mudet: General Guide
+# Mudet: General Guide
 
 <img src="../../../wiki_images/logos/mudlet-logo.svg" width="75">
 

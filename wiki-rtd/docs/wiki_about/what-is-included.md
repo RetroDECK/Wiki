@@ -130,8 +130,8 @@ An multi emulator is software that replicates the behavior of a multiple specifi
 
 | Component | Logo | Description | Guide |
 |----------|-------|-------------|-------|
-| **MAME** | <img src="../../wiki_images/logos/mame-logo.png" width="100"> | Full version of the multi-arcade emulator MAME. | [MAME - General Guide](../wiki_emulator_guides/mame/mame-guide.md) |
-| **RetroArch** | <img src="../../wiki_images/logos/retroarch-logo.png" width="50"> | Multi-system frontend using cores. RetroDECK includes all stable cores (nightlies if no stable version exists). | [RetroArch - General Guide](../wiki_emulator_guides/retroarch/retroarch-guide.md) |
+| **MAME** | <img src="../../wiki_images/logos/mame-logo.png" width="100"> | Full version of the multi-arcade emulator MAME. | [MAME - General Guide](../wiki_multi_emulator_guides/mame/mame-guide.md) |
+| **RetroArch** | <img src="../../wiki_images/logos/retroarch-logo.png" width="50"> | Multi-system frontend using cores. RetroDECK includes all stable cores (nightlies if no stable version exists). | [RetroArch - General Guide](../wiki_multi_emulator_guides/retroarch/retroarch-guide.md) |
 
 
 

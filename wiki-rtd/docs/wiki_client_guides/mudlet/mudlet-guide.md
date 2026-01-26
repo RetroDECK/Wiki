@@ -2,9 +2,10 @@
 
 <img src="../../../wiki_images/logos/mudlet-logo.svg" width="75">
 
-Mudlet is a MUD Client, offering tools for players and creators to enhance gameplay. 
+Mudlet is a MUD (Multi-User Dungeon) client that allows you to connect to text-based online multiplayer games (the precursors to modern MMOs).
 
-MUD creators can add visual elements or features, while players can script, automate, and customize their experience.
+Mudlet enables MUD server maintainers to add visual elements and custom features, while allowing players to script, automate, and customize their gameplay experience.
+
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 
@@ -27,7 +28,7 @@ MUD creators can add visual elements or features, while players can script, auto
 
 ## Where to put the games?
 
-Mudlet connections should be put under the `retrodeck/roms/muds/` folder.
+You don’t need to add them manually. Mudlet profiles are **automatically** stored in the `retrodeck/roms/muds/` folder.
 
 ---
 
@@ -35,7 +36,8 @@ Mudlet connections should be put under the `retrodeck/roms/muds/` folder.
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
-No, Mudlet games are self-contained.
+No, Mudlet does not require BIOS or firmware, as the games run on remote servers that store all game data.
+
 
 ---
 
@@ -56,7 +58,7 @@ No, Mudlet games are self-contained.
 
 | Type | Directory                 | Comment                           |
 |:----:|:--------------------------|:---------------------------------|
-| ROMs | `retrodeck/roms/muds/<server_profiles>`    |    All server-specific data is stored in its own server profile folder.           |
+| ROMs | `retrodeck/roms/muds/<server_profiles>`    |    All local server-specific data is stored in its own server profile folder.           |
 
 
 ---

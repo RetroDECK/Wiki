@@ -56,11 +56,25 @@ No, Mudlet games are self-contained.
 
 | Type | Directory                 | Comment                           |
 |:----:|:--------------------------|:---------------------------------|
-| ROMs | `retrodeck/roms/muds/`    |                                  |
+| ROMs | `retrodeck/roms/muds/<server_profiles>`    |    All server-specific data is stored in its own server profile folder.           |
 
 
 ---
 
-## How-to: Get games to show up inside RetroDECK (`.mud` files)
+## How-to: Display MUD Games in RetroDECK
 
-1. **Open Mudlet:** Open Mudlet from the RetroDECK Configurator.
+We will use **Midnight Sun II** as an example.
+
+1. **Launch Mudlet:** Open Mudlet via **RetroDECK Configurator** → **Open Component** → **Mudlet**. 
+2. **Log in to the MUD:** Log in to each MUD server you play on, exit after each login, and quit Mudlet when finished.  
+3. **Locate the profile:** Mudlet creates a local profile for the server you logged in on under `retrodeck/roms/muds/`.  
+4. **Rename the folder:** Rename the profile folder so that it ends with `.mud` (for example, `Midnight Sun II.mud`).  
+5. **Launch in ES-DE:** The MUD game will now appear in ES-DE under the **MUDs** system and auto connect to the profile.
+
+---
+
+## Controls: Keyboard
+
+Mudlet cannot be played with a controller and is best used with a physical keyboard or an on-screen virtual keyboard.
+
+---

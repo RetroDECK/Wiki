@@ -1,6 +1,6 @@
 #  ares - General Guide
 
-<img src="../../../wiki_images/logos/ares-logo.png" width="75">
+<img src="../../../wiki_images/logos/ares-logo.png" width="150">
 
 ares is a multi-emulator.
 

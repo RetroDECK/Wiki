@@ -31,11 +31,15 @@ RetroDECK will see the folder as a **single game** and launch the `.m3u` file.
 
 ---
 
-## Create a .m3u Sub-folder
+## How-to: Create the .m3u folder and file.
+
+Using the example game from above `Dragon Fantasy VII`. 
+
+### Create a .m3u folder
 
 1. Create a new folder in `roms/psx/`.
 2. Move all game files into it.
-3. Name the folder `Dragon Fantasy VII.m3u`.
+3. Name the folder `<gamename>.m3u` **Example:** `Dragon Fantasy VII.m3u`.
 
 **Folder Path:** `retrodeck/roms/psx/Dragon Fantasy VII.m3u`
 
@@ -50,7 +54,7 @@ RetroDECK will see the folder as a **single game** and launch the `.m3u` file.
 
 ---
 
-## Create the .m3u File
+### Create the .m3u File
 
 Inside the folder, create a file named **exactly** like the folder: `Dragon Fantasy VII.m3u`.
 
@@ -60,11 +64,11 @@ Inside the folder, create a file named **exactly** like the folder: `Dragon Fant
 
 ---
 
-## Populate the .m3u File
+### Populate the .m3u File
 
 1. Open the `.m3u` file in a text editor.
 2. List all disk filenames, one per line.
-3. Save the file with **Unix (LF) line endings**.
+3. Save the file.
 
 **Example Content:*
 

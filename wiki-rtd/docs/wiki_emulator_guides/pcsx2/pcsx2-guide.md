@@ -83,7 +83,7 @@ Directly into the folder
 | Memory Cards  | `retrodeck/saves/ps2/pcsx2/memcards/`            |                     |
 | Screenshots   | `retrodeck/screenshots/PCSX2/`                    |                     |
 | States        | `retrodeck/states/ps2/pcsx2/`                    |                     |
-| Texture Packs | `retrodeck/texture_packs/PCSX2/`                 | PCSX2/textures     |
+| Texture Packs | `retrodeck/texture_packs/PCSX2/textures/`                 | PCSX2/textures     |
 | Videos        | `retrodeck/videos/PCSX2/`                         |                     |
 
 ---
@@ -185,9 +185,9 @@ Open **PCSX2** via the **RetroDECK Configurator**.
 ### Adding Texture Packs
 
 1. Extract texture pack files from `.zip` or other compressed formats.
-2. Navigate to **`retrodeck/texture_packs/pcsx2/`**.
+2. Navigate to **`retrodeck/texture_packs/PCSX2/textures/`**.
 3. Locate the correct **`TITLEID`** for your game.
-4. Move the texture files into: **`retrodeck/texture_packs/pcsx2/<TITLEID>`**
+4. Move the texture files into: **`retrodeck/texture_packs/PCSX2/textures/<TITLEID>`**
 5. If the textures match the game, they will load the next time the game is launched. 
 
 ---

@@ -42,6 +42,8 @@ ES-DE is the default frontend used in RetroDECK.
 | Custom Systems | `retrodeck/ES-DE/custom_systems/`  | Usermade ES-DE custom systems |
 | Downloaded Media | `retrodeck/ES-DE/downloaded_media/` | Scraped media files        |
 | Gamelists      | `retrodeck/ES-DE/gamelists/`       | Gamelists                 |
+| Screensavers         | `retrodeck/ES-DE/screensavers/`          | Custom Sceensavers          |
+| Scripts         | `retrodeck/ES-DE/scripts/`          | Custom Scripts          |
 | Themes         | `retrodeck/ES-DE/themes/`          | Downloaded themes          |
 
 

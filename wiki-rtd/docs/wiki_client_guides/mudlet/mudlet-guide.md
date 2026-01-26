@@ -6,6 +6,8 @@ Mudlet is a MUD Client, offering tools for players and creators to enhance gamep
 
 MUD creators can add visual elements or features, while players can script, automate, and customize their experience.
 
+⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
+
 ---
 
 

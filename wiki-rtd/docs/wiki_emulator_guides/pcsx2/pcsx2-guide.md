@@ -58,7 +58,7 @@ You need at least one.
 
 - [PCSX2 - BIOS Guide](https://pcsx2.net/docs/setup/bios/)
 
-### Where to put the PSX BIOS?
+### Where to put the PS2 BIOS?
 
 Directly into the folder
 

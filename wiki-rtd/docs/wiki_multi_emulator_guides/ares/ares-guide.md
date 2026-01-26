@@ -4,6 +4,8 @@
 
 ares is a multi-emulator.
 
+⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
+
 ---
 
 ### ares Links

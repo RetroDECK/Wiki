@@ -25,9 +25,43 @@ ares supports a multiple of systems under:
 
 `retrodeck/roms/<multiple>`
 
-RetroDECK follows the ES-DE folder layout:
+| System / Platform                     | Experimental | Path                     |
+|--------------------------------------|:------------:|--------------------------|
+| 32X                                  | No           | roms/sega32x/            |
+| Arcade                               | No           | roms/arcade/             |
+| Atari 2600                           | Yes          | roms/atari2600/          |
+| ColecoVision                         | No           | roms/colecovision/       |
+| Famicom Disk System                  | No           | roms/fds/                |
+| Game Boy                             | No           | roms/gb/                 |
+| Game Boy Advance                     | No           | roms/gba/                |
+| Game Boy Color                       | No           | roms/gbc/                |
+| Game Gear                            | No           | roms/gamegear/           |
+| Master System / Mark III             | No           | roms/mastersystem/       |
+| Mega CD                              | No           | roms/segacd/             |
+| Mega Drive / Genesis                 | No           | roms/genesis/            |
+| MSX                                  | Yes          | roms/msx/                |
+| MSX2                                 | Yes          | roms/msx2/               |
+| My Vision                            | No           | roms/arcade/             |
+| NES / Famicom                        | No           | roms/nes/                |
+| Neo Geo (AES/MVS)                    | Yes          | roms/arcade/             |
+| Neo Geo Pocket                       | No           | roms/ngp/                |
+| Neo Geo Pocket Color                 | No           | roms/ngpc/               |
+| Nintendo 64                          | No           | roms/n64/                |
+| Nintendo 64DD                        | No           | roms/n64dd/              |
+| PC-Engine / TurboGrafx               | No           | roms/pcengine/           |
+| PC-Engine CD / TurboGrafx CD         | Yes          | roms/pcenginecd/         |
+| PC-Engine SuperGrafx                 | No           | roms/supergrafx/         |
+| PlayStation                          | Yes          | roms/psx/                |
+| Pocket Challenge V2                  | No           | roms/supervision/  |
+| Satellaview                          | No           | roms/satellaview/               |
+| SG-1000                              | No           | roms/sg-1000/            |
+| SNES / Super Famicom                 | No           | roms/snes/               |
+| SuFami Turbo                         | No           | roms/sufami/               |
+| Super GameBoy                        | No           | roms/sgb/               |
+| WonderSwan                           | No           | roms/wonderswan/         |
+| WonderSwan Color                     | No           | roms/wonderswancolor/    |
+| ZX Spectrum                          | Yes          | roms/zxspectrum/         |
 
-The `ES-DE User Guide` (above) has an always updated list on what subfolder under `retrodeck/roms/` corresponds to what ares core.
 
 ---
 
@@ -35,9 +69,9 @@ The `ES-DE User Guide` (above) has an always updated list on what subfolder unde
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
 
-Different for each system / core.
+Different for each system.
 
-Check each system on the `ares Docs` and the `ES-DE User Guide` for the latest information (above). 
+Check each system on the `ares Website` for the latest information (above). 
 
 A general guideline is to use compressed formats:
 
@@ -103,56 +137,12 @@ Yes, but not for all systems. The following need BIOS:
 | Type          | Directory                                                         | Comment                                                   |
 |:-------------:|:------------------------------------------------------------------|:----------------------------------------------------------|
 | BIOS          | `retrodeck/bios/`                                                 |                                                          |
-| Borders       | `retrodeck/borders/ares/`                                     |                                                          |
-| Config        | `~/.var/app/net.retrodeck.retrodeck/config/ares/`            |                                                          |
-| Cheats        | `retrodeck/cheats/ares/`                                     |                                                          |
+| Config        | `~/.var/app/net.retrodeck.retrodeck/data/ares/`            |                                                          |
 | Logs          | `retrodeck/logs/ares/`                                       |                                                          |
 | ROMs          | `retrodeck/roms/<multiple>`                                       |                                                          |
-| Saves         | `retrodeck/saves/<multiple>`                                      |                                                          |
-| States        | `retrodeck/states/<multiple>`                                     | Save States depends on the core if it has support or not |
+| Saves         | `retrodeck/saves/ares/`                                    |                                                          |
 | Screenshots   | `retrodeck/screenshots/ares/`                                |                                                          |
-| Videos        | `retrodeck/videos/ares/`                                     |                                                          |
-| Shaders       | `retrodeck/shaders/ares/`                                    |                                                          |
 
 
 ---
 
-## What systems does ares support?
-
-Always check the ares website [Link](https://ares-emu.net/) for the most up to date list.
-
-| System / Platform                     | Experimental |
-|--------------------------------------|:-------------:|
-| Arcade                               | No            |
-| Atari 2600                           | Yes           |
-| WonderSwan                           | No            |
-| WonderSwan Color                     | No            |
-| Pocket Challenge V2                  | No            |
-| ColecoVision                         | No            |
-| MSX                                  | Yes           |
-| MSX2                                 | Yes           |
-| PC-Engine / TurboGrafx               | No            |
-| PC-Engine CD / TurboGrafx CD         | Yes           |
-| PC-Engine SuperGrafx                 | No            |
-| My Vision                            | No            |
-| NES / Famicom                        | No            |
-| Famicom Disk System                  | No            |
-| Game Boy                             | No            |
-| SNES / Super Famicom                 | No            |
-| Satellaview                          | No            |
-| Nintendo 64                          | No            |
-| SuFami Turbo                         | No            |
-| Game Boy Color                       | No            |
-| Nintendo 64DD                        | No            |
-| Game Boy Advance                     | No            |
-| SG-1000                              | No            |
-| Master System / Mark III             | No            |
-| Mega Drive / Genesis                 | No            |
-| Game Gear                            | No            |
-| Mega CD                              | No            |
-| 32X                                  | No            |
-| ZX Spectrum                          | Yes           |
-| Neo Geo (AES/MVS)                    | Yes           |
-| Neo Geo Pocket                       | No            |
-| Neo Geo Pocket Color                 | No            |
-| PlayStation                          | Yes           |

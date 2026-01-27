@@ -40,13 +40,13 @@ On devices with small displays, certain GUI elements in the interface may be dif
 
 ---
 
-##  ⚠️ Important Warnings and Tips! - Read them all! ⚠️
+##   ⚠️ Important Warnings and Tips! - Read them all!  ⚠️
 
 Please read the following to avoid crashes and issues.
 
 ---
 
-###  ⚠️ Do not mix and match firmware versions and keys  ⚠️
+###  Do not mix and match firmware versions and keys  
 
 Ensure that the firmware version matches the version of the keys and `.nca` files you are using. It is recommended to use firmware and keys from your own device, not from games.
 
@@ -54,13 +54,13 @@ Mixing different versions can lead to **crashes / black screens / fail to start*
 
 ---
 
-### ⚠️ Reinstall Firmware and Keys when copying from another Switch Emulator  ⚠️
+### Reinstall Firmware and Keys when copying from another Switch Emulator 
 
 Please reinstall the firmware and keys using the Ryubing menu rather than copying them directly. This ensures that all keys and firmware are validated through Ryubing. Read the guides below for detailed instructions.
 
 ---
 
-###  ⚠️ Install Firmware ONLY through the RetroDECK Configurator  ⚠️
+###  Install Firmware ONLY through the RetroDECK Configurator 
 
 Games cannot be launched from **ES-DE** without firmware and keys installed! Attempting to do so will display a broken Ryubing window.
 
@@ -69,7 +69,7 @@ Games cannot be launched from **ES-DE** without firmware and keys installed! Att
 
 ---
 
-### ⚠️ Controllers outside of Steam / Game Mode  ⚠️
+###  Controllers outside of Steam / Game Mode
 
 When using Ryubing, only a single default controller is mapped automatically.  
 If you run RetroDECK outside of **Steam** / **Game Mode**, you must manually assign your controller because RetroDECK defaults to detecting devices via **Steam Input** and if that is not present you need to do it yourself.

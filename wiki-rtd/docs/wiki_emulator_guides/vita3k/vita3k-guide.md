@@ -6,6 +6,12 @@ Vita3K is an experimental open-source Sony PlayStation Vita emulator.
 
 ---
 
+### ⚠️  Bleeding-Edge Emulator ⚠️ 
+
+This emulator is under rapid development and considered **bleeding edge**. It may be unstable, may not operate at maximum performance across all hardware configurations, may lack certain standard features available in other components, and may be incompatible with portions of the supported game library.
+
+---
+
 ### Vita3K Links
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
@@ -20,10 +26,6 @@ Vita3K is an experimental open-source Sony PlayStation Vita emulator.
 | Vita3K - Wiki | [Link](https://github.com/Vita3K/Vita3K/wiki) |
 
 ---
-
-## ⚠️  Bleeding-Edge Emulator ⚠️ 
-
-This emulator is under rapid development and considered **bleeding edge**. It may be unstable, may not operate at maximum performance across all hardware configurations, may lack certain standard features available in other components, and may be incompatible with portions of the supported game library.
 
 ## Where to put the games?
 

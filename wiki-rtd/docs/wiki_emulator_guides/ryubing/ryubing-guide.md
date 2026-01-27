@@ -2,7 +2,13 @@
 
 <img src="../../../wiki_images/logos/ryubing-logo.webp" width="100">
 
-Ryubing is Switch emulator that is under heavy development and can be ⚠️*very unstable* ⚠️. 
+Ryubing is Switch emulator.
+
+---
+
+### ⚠️  Bleeding-Edge Emulator ⚠️ 
+
+This emulator is under rapid development and considered **bleeding edge**. It may be unstable, may not operate at maximum performance across all hardware configurations, may lack certain standard features available in other components, and may be incompatible with portions of the supported game library.
 
 ---
 
@@ -15,12 +21,6 @@ Ryubing is Switch emulator that is under heavy development and can be ⚠️*ver
 | Ryubing - Gitlab | [Link](https://git.ryujinx.app/ryubing) |
 | Ryubing - Github | [Link](https://github.com/Ryubing/) |
 | Ryubing - Wiki | [Link](https://git.ryujinx.app/groups/ryubing/-/wikis/home) |
-
----
-
-## ⚠️  Bleeding-Edge Emulator ⚠️ 
-
-This emulator is under rapid development and considered **bleeding edge**. It may be unstable, may not operate at maximum performance across all hardware configurations, may lack certain standard features available in other components, and may be incompatible with portions of the supported game library.
 
 ---
 

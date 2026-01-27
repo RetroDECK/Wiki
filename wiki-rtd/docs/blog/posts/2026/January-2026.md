@@ -23,21 +23,21 @@ The RetroDECK Team have been hard at work.
 
 ## The 0.10.0b Release - Aftermath 
 
-<img src="../icon-rd.svg" width="75"> 
+<img src="../../../icon-rd.svg" width="75"> 
 
-<img src="../mainmergedankest.png" width="500"> 
+<img src="../../../mainmergedankest.png" width="500"> 
 
 After ten months of work and more than 2,300+ commits, our first pull request to main was...coooool!
 
 ---
 
-<img src="../icedank.png" width="800"> 
+<img src="../../../icedank.png" width="800"> 
 
 The internal discussions were intense within the team, and yes, our lead architect IceNine does deserve a raise.
 
 ---
 
-<img src="../statsdank.png" width="200"> 
+<img src="../../../statsdank.png" width="200"> 
 
 We also did see a *bit* of a spike in downloads. 
 
@@ -63,7 +63,7 @@ Extra reading material for the community.
 
 ### SteamDeckHQ
 
-<img src="../sdhq-logo.svg" width="100"> 
+<img src="../../../sdhq-logo.svg" width="100"> 
 
 [SteamDeckHQ: 0.10.0b - Release](https://steamdeckhq.com/news/retrodecks-0-10-0b-update-overhauling-the-backend/) 
 
@@ -74,7 +74,7 @@ Noah Kupetsky wrote a great article about the release.
 
 ### The Bryant Review
 
-<img src="../bryant-logo.webp" width="100"> 
+<img src="../../../bryant-logo.webp" width="100"> 
 
 [The Bryant Review: 2025 Wrap-up](https://gardinerbryant.com/2025-wrap-up/) 
 

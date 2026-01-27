@@ -20,6 +20,10 @@ A free and open-source application that emulates the original Microsoft Xbox gam
 
 ---
 
+## ⚠️  Bleeding-Edge Emulator ⚠️ 
+
+This emulator is under rapid development and considered **bleeding edge**. It may be unstable, may not operate at maximum performance across all hardware configurations, may lack certain standard features available in other components, and may be incompatible with portions of the supported game library.
+
 ## Where to put the games
 
 Xbox games should be put under the `retrodeck/roms/xbox/` directory.

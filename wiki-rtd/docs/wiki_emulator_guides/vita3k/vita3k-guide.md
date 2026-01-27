@@ -21,6 +21,10 @@ Vita3K is an experimental open-source Sony PlayStation Vita emulator.
 
 ---
 
+## ⚠️  Bleeding-Edge Emulator ⚠️ 
+
+This emulator is under rapid development and considered **bleeding edge**. It may be unstable, may not operate at maximum performance across all hardware configurations, may lack certain standard features available in other components, and may be incompatible with portions of the supported game library.
+
 ## Where to put the games?
 
 Vita3K games should be put into the `retrodeck/roms/psvita/` directory.

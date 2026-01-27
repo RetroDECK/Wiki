@@ -102,7 +102,7 @@ Since no one on the team speaks German, we hope he had a pleasant time.
 
 ### YouTube: Mr.Sujano
 
-Mr.Sujano mentions RetroDECK release here:
+Mr.Sujano mentions the RetroDECK release here:
 
 [Video](https://www.youtube.com/watch?v=-lHVbQgF7HQ)
 

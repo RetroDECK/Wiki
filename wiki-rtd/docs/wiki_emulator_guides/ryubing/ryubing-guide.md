@@ -40,7 +40,7 @@ On devices with small displays, certain GUI elements in the interface may be dif
 
 ---
 
-##   ⚠️ Important Warnings and Tips! - Read them all!  ⚠️
+##  ⚠️ Important Warnings and Tips! - Read them all!  ⚠️
 
 Please read the following to avoid crashes and issues.
 

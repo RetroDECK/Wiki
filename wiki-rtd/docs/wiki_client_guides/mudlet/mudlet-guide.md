@@ -62,7 +62,7 @@ No, Mudlet does not require BIOS or firmware, as the games run on remote servers
 
 ---
 
-## Controls: Keyboard
+## Controls: Keyboard & Mouse
 
 Mudlet cannot be played with a controller and is best used with a physical keyboard and mouse.
 
@@ -76,5 +76,13 @@ We will use **Midnight Sun II** as an example.
 2. **Connect to the MUD:** Connect to each MUD server you play on, exit after each login, and quit Mudlet when finished. 
 3. **Restart RetroDECK:** During a restart RetroDECK will automatically populate and convert all your logged in profiles into `.mud` (for example, `Midnight Sun II.mud`) during boot and store them in: `retrodeck/roms/muds/` as seperate game entries.
 4. **Launch the game:** All MUD games will now appear in ES-DE under the **MUDs** system and auto connect to the profile when played.
+
+---
+
+## How-to: Migrate profiles from another Mudlet instance to RetroDECK?
+
+1. **Profiles in ROMs:** Put your game profiles in the roms folder `retrodeck/roms/muds/`.
+2. **Restart RetroDECK:** During a restart RetroDECK will automatically populate and convert all your logged in profiles into `.mud` during boot.
+3. **Launch the game:** All your old MUD games will now appear in ES-DE under the **MUDs** system and auto connect to the profile when played.
 
 ---

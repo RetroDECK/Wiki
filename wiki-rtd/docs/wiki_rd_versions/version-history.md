@@ -1,9 +1,12 @@
 # RetroDECK Versions
 
-## 0.11.0b - Everything Explosion
+## 0.11.0 - Everything Explosion
+
+- [0.11.0](version_0.11.0/0.11.0B.md)
 
 ## 0.10.0b - Dastardly Dansband
 
+- [0.10.3b](version_0.10.0b/0.10.3b.md)
 - [0.10.2b](version_0.10.0b/0.10.2b.md)
 - [0.10.1b](version_0.10.0b/0.10.1b.md)
 - [0.10.0b](version_0.10.0b/0.10.0b.md)

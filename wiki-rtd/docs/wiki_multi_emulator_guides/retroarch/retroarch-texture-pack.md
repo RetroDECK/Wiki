@@ -229,13 +229,14 @@ Open the **RetroArch Quick Menu**.
 
 Go to **Core Options → GLideN64** and enable the following:
 
-   - `Use High-Res Textures`→ **On**
-   - `Continuous texrect coords` → **Auto**
-   - `Use High-Res Full Alpha Channel` → **On**
-   - `Use enhanced Hi-Res Storage` → **On**
-   - `Enable inaccurate texture coordinates` → **On**
-   - `Use enhanced Hi-Res Storage` → **Off**
    - `LOD Emulation` → **Off**
+   - `Continuous texrect coords` → **Auto**
+   - `Enable inaccurate texture coordinates` → **On**
+   - `Use High-Res Textures`→ **On**
+   - `Use High-Res Full Alpha Channel` → **On**
+   - `Use enhanced Texture Storage` → **On**
+   - `Use enhanced Hi-Res Storage` → **On**
+
 
 Save the configuration for this game via **Core Options → Manage Core Options → Save Game Options**.
 

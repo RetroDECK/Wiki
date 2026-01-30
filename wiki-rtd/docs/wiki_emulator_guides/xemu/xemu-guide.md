@@ -54,6 +54,7 @@ Yes
 |-----------|-------------|
 | `mcpx_1.0.bin` | Main Xbox MCPX (Media Communications Processor) firmware. |
 | `Complex_4627v1.03.bin` | Xbox security/complex firmware required for system initialization and game compatibility. |
+| `xbox_hdd.qcow2` | xemu's internal Xbox hard drive |
 
 
 ### Where to put the BIOS and Firmware?

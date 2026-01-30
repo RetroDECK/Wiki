@@ -230,9 +230,12 @@ Open the **RetroArch Quick Menu**.
 Go to **Core Options → GLideN64** and enable the following:
 
    - `Use High-Res Textures`→ **On**
-   - `Cache Textures` → **On**
+   - `Continuous texrect coords` → **Auto**
    - `Use High-Res Full Alpha Channel` → **On**
-   - `Use Hi-Res Storage` → **On**
+   - `Use enhanced Hi-Res Storage` → **On**
+   - `Enable inaccurate texture coordinates` → **On**
+   - `Use enhanced Hi-Res Storage` → **Off**
+   - `LOD Emulation` → **Off**
 
 Save the configuration for this game via **Core Options → Manage Core Options → Save Game Options**.
 
@@ -251,12 +254,12 @@ Save the configuration for this game via **Core Options → Manage Core Options 
 
 ### Example: Space Station Silicon Valley
 
-For the game `Space Station Silicon Valley (USA).n64` with the downloaded pack `Space Station Silicon Valley TexturePACK HD.zip`:
+For the game `Space Station Silicon Valley.n64` with the downloaded pack `Space Station Silicon Valley TexturePACK HD.zip`:
 
 Place the extracted folder in the following **renamed directory** depending on the type of textures you have:
 
-- `retrodeck/texture_packs/retroarch-core/Mupen64Plus/cache/Space Station Silicon Valley (USA)/<textures>`
-- `retrodeck/texture_packs/retroarch-core/Mupen64Plus/hires_textures/Space Station Silicon Valley (USA)/<textures>`
+- **HTS file:** `retrodeck/texture_packs/retroarch-core/Mupen64Plus/cache/Space Station Silicon Valley_HIRESTEXTURES.hts`
+- **Folder:** `retrodeck/texture_packs/retroarch-core/Mupen64Plus/hires_textures/Space Station Silicon Valley/<textures>`
 
 ---
 

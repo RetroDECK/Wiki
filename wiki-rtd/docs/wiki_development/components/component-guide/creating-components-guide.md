@@ -22,6 +22,7 @@ Components can broadly be categorized by from the application you want to add:
 
 - **Client**
 - **Emulator**
+- **Multi-Emulator**
 - **Engine**
 - **Port**
 - **System**
@@ -40,7 +41,7 @@ When multiple source formats are available for a component, prioritize them in t
 | Priority | Format              | Description                                                                 |
 |----------|---------------------|-----------------------------------------------------------------------------|
 | 1        | Flatpak             | A sandboxed package format commonly used on Linux for app distribution , published on flathub     |
-| 2       | AppImage            | A portable, self-contained executable that runs without installation        |
+| 2        | AppImage            | A portable, self-contained executable that runs without installation        |
 | 3        | Precompiled Binary  | A ready-to-run executable built for a specific platform                     |
 | 4        | Build from Source   | Raw source code that must be compiled manually before use                   |
 
@@ -52,6 +53,7 @@ When multiple source formats are available for a component, prioritize them in t
 
 - Reduce bloat in the RetroDECK ecosystem.
 - Broaden the benefit to users beyond RetroDECK.
+- There might be other methods in the future outside of PortMaster to add ports that don't fit within PortMasters scope.
 
 Follow the [PortMaster: Porting Guide](https://portmaster.games/porting.html).
 
@@ -64,6 +66,7 @@ In rare cases, it may be beneficial to include a port directly in RetroDECK if o
 - The port needs **frequent or rapid updates**.
 - The port supports **modding or includes a mod downloader**.
 - The port depends on **technologies not supported by PortMaster**, such as: Newer versions of SDL/OpenGL, Vulkan, Wine or other.
+- There might be other methods in the future that can facilitate this in a easier manner inside of RetroDECK.
 
 ---
 
@@ -93,16 +96,17 @@ Before proposing anything, download and run the component locally. Understand ho
 
 ### How should users access it?
 
-- Is it an emulator/engine already supported by ES-DE but not yet added to RetroDECK?
+- Is it an component already supported by ES-DE native but not yet added to RetroDECK?
 - Is it a new component that needs custom menu entries and formats?
 - Is it a port that should go into the ES-DE port menu?
 - Should it be launched via the Configurator?
+- Is there cli launch command for the component and what are they?
+- Other things that might be unique for just that component when it comes to access.
 
 ### Where do the files go?
 
 - What files does the component use?
-- How can you map them into the `retrodeck/` folder structure?
-
+- How can you map them into the `retrodeck/` directory structure?
 
 ### What needs to be user-editable?
 
@@ -142,6 +146,8 @@ flatpak run --command=bash net.retrodeck.retrodeck --debug
 `app/` corresponds to your local Flatpak system environment.
 
 `var/` corresponds to your local Flatpak user environment.
+
+While the runtime itself is the "OS" of the flatpak.
 
 **Read more here:** 
 

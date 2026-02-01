@@ -1,6 +1,6 @@
 # How To: Manage BIOS and Firmware
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="75">
+<img src="../../wiki_icons/pixelitos/cpu.png" width="75">
 
 BIOS and firmware act as the low-level software that initializes a system and ensures hardware operates correctly. In emulation, the correct BIOS/firmware is often essential for accurate system behavior and sometimes required for an emulator to run at all.
 
@@ -8,7 +8,7 @@ BIOS and firmware act as the low-level software that initializes a system and en
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
 By default, BIOS and firmware files should be placed in the main BIOS directory or within its subfolders. Some components also require BIOS/firmware to be located alongside game ROMs.
 

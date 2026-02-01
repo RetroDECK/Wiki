@@ -1,6 +1,6 @@
 # Multidisk/File Games: Folders as Files
 
-<img src="../../../wiki_icons/pixelitos/application-x-iso.png" width="75">
+<img src="../../wiki_icons/pixelitos/application-x-iso.png" width="75">
 
 To keep your game list tidy, you can place all game files inside a **sub-folder**. RetroDECK will treat the folder as a single game, not as a regular folder. The folder must contain a `.m3u` file and be **named exactly** like the `.m3u`.
 

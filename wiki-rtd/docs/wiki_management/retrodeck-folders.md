@@ -1,6 +1,6 @@
 # RetroDECK: Userdata Folder Structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="75">
+<img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="75">
 
 This page provides an overview of the RetroDECK folder structure for **userdata**, showing where configuration files, roms, saves, states, bios and other things  are stored.
 

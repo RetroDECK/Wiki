@@ -1,6 +1,6 @@
 # How-to: Uninstall RetroDECK
 
-<img src="../../../wiki_icons/pixelitos/system-shutdown.png" width="75">
+<img src="../../wiki_icons/pixelitos/system-shutdown.png" width="75">
 
 ## How Do I Uninstall RetroDECK?
 

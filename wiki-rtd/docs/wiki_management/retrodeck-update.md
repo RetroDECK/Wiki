@@ -1,6 +1,6 @@
 # How to Update RetroDECK
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-sync.png" width="75">
+<img src="../../wiki_icons/pixelitos/folder-blue-sync.png" width="75">
 
 There are several ways to keep RetroDECK up to date. The recommended method is through your distribution’s software manager, but alternative options are also available.
 

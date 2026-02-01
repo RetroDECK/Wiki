@@ -1,6 +1,6 @@
 # Moving RetroDECK to a New Device
 
-<img src="../../../wiki_icons/pixelitos/system-switch-user.png" width="75">
+<img src="../../wiki_icons/pixelitos/system-switch-user.png" width="75">
 
 ## Overview
 

@@ -135,7 +135,7 @@ Scraping enhances your game library with cover art, icons, disc images, videos, 
 
 | Question | Answer |
 |---------|--------|
-| I have donated—how do I get faster scraping? | You must link your ScreenScraper account with your Patreon account.<br>Refer to the [ScreenScraper Patreon](https://www.patreon.com/screenscraper) page for detailed instructions. |
+| I have donated-how do I get faster scraping? | You must link your ScreenScraper account with your Patreon account.<br>Refer to the [ScreenScraper Patreon](https://www.patreon.com/screenscraper) page for detailed instructions. |
 | I received a quota-related error after scraping | ScreenScraper enforces a daily scraping quota, where each scraped item counts toward the daily limit.<br>You can either wait 24 hours for the quota to reset or support ScreenScraper financially to increase your daily quota. |
 | Scraping is very slow | ScreenScraper offers multiple donation tiers that increase scraping speed by enabling additional download threads. |
 | The server or service is down | If ScreenScraper is unavailable, check the official [ScreenScraper website](https://www.screenscraper.fr/) for status updates and availability. |

@@ -34,7 +34,7 @@ A client is a system or application that connects to a server or online service 
 
 ### Emulators
 
-An **emulator** is a software application designed to replicate the hardware and behavior of a specific system—whether it is a physical device (such as a game console or arcade board) or a virtual/fantasy platform. Emulators enable software created for one system to run on another by accurately reproducing the original system’s functionality, quirks, limitations, and performance characteristics.
+An **emulator** is a software application designed to replicate the hardware and behavior of a specific system, whether it is a physical device (such as a game console or arcade board) or a virtual/fantasy platform. Emulators enable software created for one system to run on another by accurately reproducing the original system’s functionality, quirks, limitations, and performance characteristics.
 
 **Examples:** 
 
@@ -148,7 +148,7 @@ RetroDECK organizes all software as isolated components, each running within a l
 | Feature / Benefit           | Details                                                                                                          |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------|
 | **Docker-Inspired Flow**    | The architecture behaves like launching small Docker-style containers built from reusable layers, but inside Flatpak. |
-| **Dynamic Layer Stacking**  | When a component runs, RetroDECK dynamically assembles its runtime from the base layer upward—like constructing a lightweight container on demand. |
+| **Dynamic Layer Stacking**  | When a component runs, RetroDECK dynamically assembles its runtime from the base layer upward, like constructing a lightweight container on demand. |
 | **Flexibility**             | New components can be added or customized without altering the base runtime.                                     |
 | **Isolated Environments**   | Each component only sees the libraries it needs, preventing cross-component interference and ensuring stability. |
 | **Scalability**             | Easy to expand with more components, each remaining isolated yet efficiently layered.                            |

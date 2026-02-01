@@ -104,7 +104,7 @@ There are two ways to install the firmware:
 
 There are two methods of adding the games. For more details read here: [ES-DE RPCS3 Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3)
 
-### Method 1: Game Shortcuts (`.desktop` files) — **Recommended**
+### Method 1: Game Shortcuts (`.desktop` files) - **Recommended**
 
 <img src="../rpcs3-create-shortcut.png" width="800">
 
@@ -117,7 +117,7 @@ This method can be used for all types of rips/dumps, both directories and instal
 5. **Move the shortcut to the roms/ps3 folder:** This will create a shortcut to the game on your Desktop. Move that shortcut into the `retrodeck/roms/ps3` folder.
 6. **Launch RetroDECK:** The game will now show up in RetroDECK.
 
-### Method 2: Folder-Based Games as `.ps3` Directories — **Not Recommended**
+### Method 2: Folder-Based Games as `.ps3` Directories - **Not Recommended**
 
 This method can only be used for folder type game dumps. To get the games to show up, you need to rename the folder to end with a `.ps3` file extension.
 

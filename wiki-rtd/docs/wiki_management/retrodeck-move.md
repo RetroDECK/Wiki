@@ -75,7 +75,7 @@ Contains the Flatpak core, components, and configuration files.
 
 **Read more:**
 
-[Steam Deck: Installation and Updates](../../wiki_devices/steamdeck/steamdeck-start.md)
+[Steam Deck: Installation and Updates](../wiki_devices/steamdeck/steamdeck-start.md)
 
 ---
 
@@ -90,7 +90,7 @@ Contains the Flatpak core, components, and configuration files.
 
 **Read more:**
 
-[Linux Desktop - Installation and Updates](../../wiki_devices/linux_desktop/linux-install.md)
+[Linux Desktop - Installation and Updates](../wiki_devices/linux_desktop/linux-install.md)
 
 ---
 
@@ -107,7 +107,8 @@ Contains the Flatpak core, components, and configuration files.
 ### 2. Install RetroDECK on the New Steam Deck
 
 Follow the installation guide:
-**[Steam Deck - Installation and Updates](../../wiki_devices/steamdeck/steamdeck-start.md)**
+
+[Steam Deck - Installation and Updates](../wiki_devices/steamdeck/steamdeck-start.md)
 
 ### 3. Restore Your Files
 
@@ -137,7 +138,7 @@ Install via Discover **but do not launch** RetroDECK.
 
 **Read more:**
 
-[Steam Deck - Installation and Updates](../../wiki_devices/steamdeck/steamdeck-start.md)
+[Steam Deck - Installation and Updates](../wiki_devices/steamdeck/steamdeck-start.md)
 
 ### 3. Restore Your Backups
 

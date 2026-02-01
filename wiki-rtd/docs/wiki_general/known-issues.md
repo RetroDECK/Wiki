@@ -31,7 +31,7 @@
 
 | Topic | Issue | Solution |
 |-------|--------|----------|
-| **Streaming via Steam Remote Play results in a black screen** | This issue occurs with many non-native Steam applications, not just RetroDECK. | Use Moonlight with a Sunshine setup as an alternative streaming solution. |
+| **Streaming via Steam Remote Play results in a black screen** | This issue occurs with many non-native Steam applications, not just RetroDECK. | Use Moonlight and Sunshine setup as an alternative streaming solution check (Software Recommendations). |
 
 ---
 

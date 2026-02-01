@@ -146,9 +146,9 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **Where is RetroDECK installed?** | **`retrodeck/`** - Stores user data (ROMs, saves, mods, themes and more). This folder remains after uninstallation.<br> **`~/.var/app/net.retrodeck.retrodeck/`** - Contains the main Flatpak and settings. This folder **is removed** when uninstalling RetroDECK. |
 | **Can I move the RetroDECK folders?** | Yes. You can move them using the **Move Tools** in the RetroDECK Configurator. <br> Read more: **[RetroDECK Configurator 🛠️](../wiki_configurator_guides/configurator/configurator.md)** |
 | **Is there a way to reset RetroDECK?** | Yes. The RetroDECK Configurator includes several reset functions that allow you to reset different parts of the software. <br> Read more: **[RetroDECK Configurator 🛠️](../wiki_configurator_guides/configurator/configurator.md)** |
-| **How do I update RetroDECK?** | Follow the instructions in: **[How-to: Update RetroDECK](../wiki_management/retrodeck-update/retrodeck-update.md)** |
-| **How do I remove RetroDECK?** | Follow the instructions in: **[How-to: Remove RetroDECK](../wiki_management/retrodeck-remove/retrodeck-remove.md)** |
-| **How do I move RetroDECK to a new device?** | Follow the instructions in: **[How-to: Move RetroDECK to a New Device](../wiki_management/retrodeck-move/retrodeck-move.md)** |
+| **How do I update RetroDECK?** | Follow the instructions in: **[How-to: Update RetroDECK](../wiki_management/retrodeck-update.md)** |
+| **How do I remove RetroDECK?** | Follow the instructions in: **[How-to: Remove RetroDECK](../wiki_management/retrodeck-remove.md)** |
+| **How do I move RetroDECK to a new device?** | Follow the instructions in: **[How-to: Move RetroDECK to a New Device](../wiki_management/retrodeck-move.md)** |
 | **Where can I find logfiles?** | Log files are located in the hidden folder: **`retrodeck/.logs/`** |
 | **Does RetroDECK ship with stable or nightly versions of systems?** | RetroDECK includes whichever version is best for compatibility and performance. For example:<br>• **RPCS3** → Nightly builds<br>• **RetroArch** → Stable releases (nightly cores only when no stable version exists) |
 | **How can I recover deleted folders (BIOS, Saves, etc.) but not the files?** | Perform a **Full Reset** using the Configurator and redo the initial setup. This will recreate all missing folder structures. |

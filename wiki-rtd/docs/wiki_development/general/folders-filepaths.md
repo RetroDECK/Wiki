@@ -10,7 +10,7 @@ RetroDECK is a Flatpak - a sandboxed bundle containing applications, configurati
 
 | **Folder Name**                       | **Folder Path**                             | **Comment**                                                                 |
 |:-------------------------------------:|:-------------------------------------------:|:---------------------------------------------------------------------------:|
-| `retrodeck/` (userdata) Folder        | `<Dynamic Path>/retrodeck/`                 | **Read more:** [RetroDECK: Userdata Folder Structure](../../wiki_management/retrodeck-folders/retrodeck-folders.md) |
+| `retrodeck/` (userdata) Folder        | `<Dynamic Path>/retrodeck/`                 | **Read more:** [RetroDECK: Userdata Folder Structure](../../wiki_management/retrodeck-folders.md) |
 | `/.var/app/net.retrodeck.retrodeck` Folder | `~/.var/app/net.retrodeck.retrodeck`      | Mapped as `/var` inside the Flatpak. Exposes configuration, cache, and system data from the Flatpak environment. |
 | `cache` Folder                        | `~/.var/app/net.retrodeck.retrodeck/cache/` | Stores cache files and temporary data for components.                        |
 | `config` Folder                       | `~/.var/app/net.retrodeck.retrodeck/config/` | Contains copied configuration files for components.                          |

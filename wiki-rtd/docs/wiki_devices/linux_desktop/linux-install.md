@@ -209,7 +209,7 @@ You will find PortMaster inside the ES-DE interface or in the Configurator.
 
 **Read more:**
 
-- [RetroDECK Folders](../../wiki_management/retrodeck-folders/retrodeck-folders.md)
+- [RetroDECK Folders](../../wiki_management/retrodeck-folders.md)
 - All Component specific guides on the wiki.
 
 ---
@@ -224,7 +224,7 @@ Place required BIOS/Firmware files in (if the component require it):
 
 **Read more:**
 
-- [BIOS & Firmware](../../wiki_management/bios-firmware/bios-firmware.md)
+- [BIOS & Firmware](../../wiki_management/bios-firmware.md)
 - All Component specific guides on the wiki.
 
 ---
@@ -287,9 +287,9 @@ Any system with valid ROMs / Games should now appear in ES-DE and be ready to pl
 <img src="../../../wiki_icons/pixelitos/distributor-logo-knoppix.png" width="50">
 
 - **Explore the Wiki:** Read up and check more documentation for the software you want to play.
-- **Check recommended other software:** [Software Recommendations](../../wiki_management/software-recommendations/software-recommendations.md)
-- **Update RetroDECK:** [How-to: Update RetroDECK](../../wiki_management/retrodeck-update/retrodeck-update.md)
-- **Uninstall RetroDECK:** [How-to: Remove RetroDECK](../../wiki_management/retrodeck-remove/retrodeck-remove.md)
+- **Check recommended other software:** [Software Recommendations](../../wiki_management/software-recommendations.md)
+- **Update RetroDECK:** [How-to: Update RetroDECK](../../wiki_management/retrodeck-update.md)
+- **Uninstall RetroDECK:** [How-to: Remove RetroDECK](../../wiki_management/retrodeck-remove.md)
 
 
 ### Explore the Community

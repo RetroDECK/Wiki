@@ -291,15 +291,15 @@ nav:
 
   - Guides - RetroDECK Management 📁:
 
-    - Add RetroDECK to Steam Flatpak Version: wiki_management/flatpak-steam/retrodeck-to-flatpak-steam.md
-    - BIOS/Firmware: wiki_management/bios-firmware/bios-firmware.md
-    - Move RetroDECK to Another Device: wiki_management/retrodeck-move/retrodeck-move.md
-    - Multidisk/file Games: wiki_management/multi-disk/multi-disk.md
-    - Remove RetroDECK: wiki_management/retrodeck-remove/retrodeck-remove.md
-    - RetroDECK Userdata Folders: wiki_management/retrodeck-folders/retrodeck-folders.md
-    - Software Recommendations: wiki_management/software-recommendations/software-recommendations.md
-    - Spreading Files over Multiple Drives: wiki_management/spread-files/spread-files.md
-    - Update RetroDECK: wiki_management/retrodeck-update/retrodeck-update.md
+    - Add RetroDECK to Steam Flatpak Version: wiki_management/retrodeck-to-flatpak-steam.md
+    - BIOS/Firmware: wiki_management/bios-firmware.md
+    - Move RetroDECK to Another Device: wiki_management/retrodeck-move.md
+    - Multidisk/file Games: wiki_management/multi-disk.md
+    - Remove RetroDECK: wiki_management/retrodeck-remove.md
+    - RetroDECK Userdata Folders: wiki_management/retrodeck-folders.md
+    - Spreading Files over Multiple Drives: wiki_management/spread-files.md
+    - Software Recommendations: wiki_management/software-recommendations.md
+    - Update RetroDECK: wiki_management/retrodeck-update.md
 
 
   - Guides - Clients 📟:

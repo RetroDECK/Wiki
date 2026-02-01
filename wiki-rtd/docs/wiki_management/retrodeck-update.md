@@ -30,7 +30,7 @@ You can update all installed Flatpaks, including RetroDECK, using the command li
 If you have **Decky Loader** installed along with the **AutoFlatpaks** plugin, you can update RetroDECK directly from **Game Mode** without switching to Desktop Mode.
 
 For additional details, see:  
-[Software Recommendations](../../wiki_management/software-recommendations/software-recommendations.md)
+[Software Recommendations](software-recommendations.md)
 
 ---
 

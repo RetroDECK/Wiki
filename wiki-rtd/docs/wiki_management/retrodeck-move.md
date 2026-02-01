@@ -25,11 +25,13 @@ Contains the Flatpak core, components, and configuration files.
 ### Recommended: Move Only `retrodeck/`
 
 **Upsides:**
+
 - Fresh install with clean configs  
 - All user content preserved  
 - Minimal risk of conflicts
 
 **Downsides:**  
+
 - Custom emulator settings must be recreated
 
 ---
@@ -37,10 +39,12 @@ Contains the Flatpak core, components, and configuration files.
 ### Not Recommended: Move Both Directories
 
 **Upsides:**
+
 - No first-time setup required  
 - All emulator settings preserved
 
 **Downsides:**
+
 - Risk of version/config conflicts  
 - Controller profiles and some items may require reinstalling  
 - Must match RetroDECK versions exactly

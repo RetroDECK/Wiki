@@ -17,7 +17,21 @@
 | **Dolphin / PrimeHack** | Input mapping and GUI issues occur under Wayland. | Disable **Wayland Windowing System** via *Flatseal* for RetroDECK. |
 | **RetroArch** | UI overscales on Wayland when OS scaling >100%. | Open RA via **RetroDECK Configurator**.<br>Go to **Settings → Video → Output → Video Driver** → switch from **Vulkan** to **GL**.<br>Then **Main Menu → Configuration File → Save Current Configuration** and exit RA. |
 
+---
 
+## Linux Desktop Issues
+
+| Component | Issue | Solution |
+|-----------|--------|----------|
+| **KDE Discover** | Shows incorrect Flatpak version due to caching bug. | Refresh cache: `Discover` → `Settings` → toggle **Flathub** off and on. |
+
+---
+
+## Steam Issues
+
+| Topic | Issue | Solution |
+|-------|--------|----------|
+| **Streaming via Steam Remote Play results in a black screen** | This issue occurs with many non-native Steam applications, not just RetroDECK. | Use Moonlight with a Sunshine setup as an alternative streaming solution. |
 
 ---
 
@@ -32,14 +46,6 @@
 
 ---
 
-## Linux Desktop Issues
-
-| Component | Issue | Solution |
-|-----------|--------|----------|
-| **KDE Discover** | Shows incorrect Flatpak version due to caching bug. | Refresh cache: `Discover` → `Settings` → toggle **Flathub** off and on. |
-
----
-
 ## Steam Deck-Specific Issues
 
 | Topic | Issue | Solution |
@@ -50,3 +56,5 @@
 | **Games Stuck at 30FPS / Slow Fast-Forward** | System framerate accidentally capped. | Press `[...]` → **Power Menu** → ensure **Framerate Limit** is not set to 30FPS. |
 | **Poor Performance When Docked** | Slow performance at high monitor resolutions (e.g., 4K). | Lower resolution in Steam: <br>`⚙️` → `Properties` → `Shortcut` → `Game Resolution` → set to **1920×1080** and enable **internal/external display** option. |
 
+
+---

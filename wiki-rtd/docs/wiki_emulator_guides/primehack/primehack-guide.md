@@ -1,6 +1,6 @@
 # PrimeHack - General Guide
 
- <img src="../../../wiki_images/logos/PrimeHack-logo.png" width="75">
+ <img src="../../../wiki_images/logos/primehack-logo.png" width="75">
 
 PrimeHack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouselook controls and other improvements.
 

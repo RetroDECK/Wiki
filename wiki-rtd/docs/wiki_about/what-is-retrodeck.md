@@ -30,7 +30,7 @@ A client is a system or application that connects to a server or online service 
 
 **Examples:** 
 
-- **Mudlet** - A MUD client for connecting to text-based multiplayer servers.
+- **Mudlet** - A MUD client for connecting to text-based multiplayer servers (not yet in RetroDECK).
 
 ### Emulators
 

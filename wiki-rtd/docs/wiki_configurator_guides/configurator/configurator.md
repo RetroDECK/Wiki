@@ -123,7 +123,7 @@ The **Reset Components** menu allows users to restore **specific components**, m
 | PortMaster in ES-DE 🧭                    | Enable or disable: PortMaster entry in ES-DE.                                                                    |              |
 | Quick Resume ⚡                           | Enable or disable: Automatic save/load of game states in supported components.                                   |              |
 | RetroAchievements 🏆                      | Logging in/out of RetroAchievements in supported components.                                                     |              |
-| RetroAchievements: Hardcore Mode 💀       | Enable or disable: Hardcore mode for RetroAchievements (no cheats, rewind, or save states).                      |              |
+| RetroAchievements: Hardcore Mode 💀       | Enable or disable: Hardcore mode for RetroAchievements (no cheats, rewind, or save states).                      |   You can't combine this with Quick Resume ⚡               |
 | RetroDECK Folder Iconset 🎨              | Enable or disable: RetroDECK folder iconset.                                                                     |              |
 | Rewind ⏪                                 | Enable or disable: Rewind functionality in supported components.                                                 |              |
 | Savestate Auto Load ⏱️                    | Enable or disable: Automatic load of the last saved state in supported components.                               |              |

@@ -32,6 +32,8 @@ Azahar is a Nintendo 3DS Emulator.
 
 | File Format | Description |
 |-------------|-------------|
+| .3ds        | Nintendo 3DS ROM file |
+| .3dsx       | Nintendo 3DS homebrew file |
 | .app        | Nintendo 3DS application file |
 | .axf        | Nintendo 3DS ARM executable file |
 | .cci        | Nintendo 3DS cartridge image file **(Recommended)** |
@@ -40,15 +42,6 @@ Azahar is a Nintendo 3DS Emulator.
 | .7z         | Compressed archive file |
 | .zip        | Compressed archive file |
 
-### Unsupported File Formats in Azahar
-
-Azahar does not support the following file formats:
-
-| File Format | Description |
-|-------------|-------------|
-| `.3ds`      | Legacy Nintendo 3DS ROM format (requires conversion to `.cci` for use) |
-| `.3dsx`     | Homebrew executable format for 3DS (requires conversion to `.cci` for use) |
-| Encrypted ROMs | Any encrypted game dump; must be decrypted |
 
 ---
 

@@ -93,3 +93,17 @@ The game can now be launched from the ES-DE gamelist.
 Splore can now be launched directly from the ES-DE gamelist.
 
 ---
+
+## TIP: Pico-8 Covers in ES-DE
+
+Pico-8 cartridges are image files, allowing them to be used directly as cover art. Copy all contents from:
+
+`retrodeck/roms/pico8/`
+
+to:
+
+`retrodeck/ES-DE/downloaded_media/pico8/covers/`
+
+This enables the original cartridge images to appear in the ES-DE interface, this can be useful since many Pico-8 titles lack metadata on scraping services.
+
+---

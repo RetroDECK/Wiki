@@ -103,10 +103,10 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 | **Question** | **Answer** |
 |--------------|------------|
-| **Are you related to ES-DE?** | RetroDECK and ES-DE are separate projects, but they collaborate to provide the best possible experience. ES-DE includes RetroDECK-specific integrations. <br> Learn more: **[ES-DE FAQ](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md#what-is-the-relationship-between-es-de-and-retrodeck)** |
+| **Are you related to ES-DE?** | RetroDECK and ES-DE are separate projects, but they collaborate to provide the best possible experience. ES-DE includes RetroDECK-specific integrations. <br> Learn more: **[ES-DE FAQ](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md#what-is-the-relationship-between-es-de-and-retrodeck)** while RetroDECK provides others that ES-DE does not support.|
 | **Will you add another frontend like Pegasus in the future?** | Possibly. The team is open to exploring additional frontend options, but we are currently highly dependent on ES-DE for the internal framework. |
 | **How does RetroDECK differ from ES-DE and decide which components to include?** | RetroDECK focuses on a curated selection of the best components rather than including all components supported by ES-DE. It integrates additional components that are hard to compile for end-users, such as XRoar, directly into the app, and supports custom formats like `.doom` (UZDoom) and `.bor` (OpenBOR), among others, for easier use and management. Occasionally, RetroDECK also includes components outside ES-DE’s scope to further enhance the user experience. |
-| **Why create RetroDECK when EmuDeck, Batocera, and others exist?** | RetroDECK predates EmuDeck. Each solution has its own philosophy. RetroDECK aims to sit between EmuDeck and Batocera by providing a **Batocera-like integrated experience** directly inside your OS, without replacing it. |
+| **Why create RetroDECK when EmuDeck, Batocera, and others exist?** | RetroDECK predates EmuDeck and follows it's own distinct philosophy. Each solution targets different use cases. RetroDECK positions itself between EmuDeck and Batocera in one way by offering a **Batocera-like, fully integrated experience** that runs directly within an existing operating system rather than replacing it. But one key point is it also has a **broader scope beyond emulation**, treating emulation as only one component of a larger, curated retro and gaming ecosystem inside the platform. |
 | **Are you related to Batocera?** | No. RetroDECK and Batocera are separate projects, but they share knowledge and maintain positive dialogue. |
 | **Can I symlink Batocera ROM folders to RetroDECK?** | Batocera uses different system folder names. Symlinking entire ROM folders is not recommended; link them **system-by-system** instead. |
 | **Are you related to EmuDeck?** | No. RetroDECK and EmuDeck are separate projects. |
@@ -127,12 +127,13 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **What software is included in RetroDECK?** | See: **[RetroDECK: What’s Included?](../wiki_about/what-is-included.md)** |
 | **Does RetroDECK include any games?** | No, RetroDECK does not include any games. |
 | **Does RetroDECK include Firmware or BIOS files?** | RetroDECK only includes BIOS/Firmware that are **Open-Source** or **Free to use**. All other files must be provided by the user. |
-| **Can you point me to where I can find games, firmware, or BIOS?** | For legally purchased titles, use your own game backups and extract firmware/BIOS from your own consoles. Many classic games can also be purchased through **itch.io**, **GOG**, or **Steam**. |
+| **Can you point me to where I can find games, firmware, or BIOS?** | For legally purchased titles, use your own game backups and extract firmware/BIOS from your own consoles. Many classic games can also be purchased through **itch.io**, **GOG**, or **Steam**. In addition, several **free and open-source games** are available and can be used, such as **Freedoom**. Numerous other open-source, homebrew titles and fangames are available through community repositories and project websites. |
 | **When does the next RetroDECK version come out?** | When it’s ready. |
 | **When does the version after the upcoming version come out?** | After the upcoming version. |
 | **When will version 1.0 be released?** | In the future. |
 | **Can I manually add a system RetroDECK doesn’t support yet?** | Not easily. RetroDECK is sandboxed and designed to include all relevant components internally. The best approach is to wait for official support or contribute to development. |
 | **Is RetroDECK just about emulation?** | No. RetroDECK is a full retro gaming platform designed to provide a complete retro gaming experience by integrating a variety of components, including: clients, ports, emulators, multi-emulators, systems, and more. |
+| **How do I mark a file as executable in a desktop environment?** | **KDE Plasma**:<br>Right-click the file → **Properties** → **Permissions** → enable **Is executable** (or **Allow executing file as program**) → **OK**.<br><br>**GNOME**:<br>Right-click the file → **Properties** → **Permissions** → enable **Allow executing file as program** → **OK**. |
 
 ---
 

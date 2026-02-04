@@ -46,10 +46,9 @@ You can purchase it from the official [Pico-8 website](https://www.lexaloffle.co
 
 1. Download the Linux version of Pico-8: `pico-8_*.*.**_amd64.zip`.
 2. Extract the contents into the following directory: `retrodeck/bios/pico-8/`
-3. It should look like: `retrodeck/bios/pico-8/pico8`
-4. Make sure that the pico8 binary is marked as executable. 
+3. The final path should be: `retrodeck/bios/pico-8/pico8`
+4. Ensure the `pico8` binary has executable permissions.
 
-    
 ---
 
 ## Directory structure

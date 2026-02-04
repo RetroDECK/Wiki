@@ -65,17 +65,31 @@ You can purchase it from the official [Pico-8 website](https://www.lexaloffle.co
 
 ---
 
-## How to download the games?
+## Downloading Games from the Pico-8 Webpage
 
 <img src="../pico-8-vampire.png" width="600">
 
-1. Go to [Pico-8 Carts](https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2).
-2. Go to a game page.
-3. Navigate to the bottom left corner of the game and click on the icon called `Cart` (marked in the image).
-4. A static image will now show up.
-5. `Right click` the image and click `Save Image As`.
-6. Give the file a name that reflects the game. In this example: Vampire vs Pope Army.png
-7. Save the game into `retrodeck/roms/pico8/` 
-8. It can now be launched from ES-DE.
+1. Visit [Pico-8 Carts](https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2).
+2. Open the desired game’s page.
+3. In the bottom-left corner of the game view, click the **Cart** icon (see image).
+4. A static cartridge image will be displayed.
+5. Right-click the image and select **Save Image As**.
+6. Name the file to match the game (e.g. `Vampire vs Pope Army.png`).
+7. Save the file to `retrodeck/roms/pico8/`.
+
+The game can now be launched from the ES-DE gamelist.
+
+---
+
+## Launching only Splore from the ES-DE Gamelist
+
+1. Navigate to `retrodeck/roms/pico8/`.
+2. Create an empty file named `Splore.png`.
+3. Launch **RetroDECK**.
+4. Open the **Pico-8** system and locate the **Splore** entry.
+5. In **ES-DE**, select **Edit this game's metadata**.
+6. Set **Alternative Emulator** to **Pico-8 Splore** and save.
+
+Splore can now be launched directly from the ES-DE gamelist.
 
 ---

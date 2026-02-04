@@ -9,13 +9,11 @@
 | Component / Emulator | Issue | Solution |
 |----------------------|--------|----------|
 | **Dolphin** | Some games flicker on the Steam Deck OLED. | Lower the display refresh rate from **90Hz** to **60Hz**. |
-| **PPSSPP** | RetroAchievements login/logout and Hardcore Mode are not configurable in the Configurator. | Manage these options directly from the emulator interface. |
 | **RetroArch** | Multi-file game saves location bug. | Issue tracked on GitHub: *libretro bug 17589*. |
 | **UZDOOM** | Steam Input conflict causing input looping in menus. | Set the controller as **Player 1** or use Steam’s **Reorder Controllers**. |
 | **Steam Sync** | Controller templates sometimes fail to associate with Steam entries. | Users must assign templates manually if this occurs. |
 | **ES-DE** | Configuration submenu does not support translations yet. | Translations planned for a future update. |
 | **Dolphin / PrimeHack** | Input mapping and GUI issues occur under Wayland. | Disable **Wayland Windowing System** via *Flatseal* for RetroDECK. |
-| **RetroArch** | UI overscales on Wayland when OS scaling >100%. | Open RA via **RetroDECK Configurator**.<br>Go to **Settings → Video → Output → Video Driver** → switch from **Vulkan** to **GL**.<br>Then **Main Menu → Configuration File → Save Current Configuration** and exit RA. |
 
 ---
 
@@ -56,5 +54,12 @@
 | **Games Stuck at 30FPS / Slow Fast-Forward** | System framerate accidentally capped. | Press `[...]` → **Power Menu** → ensure **Framerate Limit** is not set to 30FPS. |
 | **Poor Performance When Docked** | Slow performance at high monitor resolutions (e.g., 4K). | Lower resolution in Steam: <br>`⚙️` → `Properties` → `Shortcut` → `Game Resolution` → set to **1920×1080** and enable **internal/external display** option. |
 
+
+---
+
+## Wayland Issues
+
+| **PPSSPP** | UI overscales on Wayland when OS scaling >100% on Vulkan. | Open RA via **RetroDECK Configurator**.<br>Go to **Settings → Video → Output → Video Driver** → switch from **Vulkan** to **GL**.<br>Then **Main Menu → Configuration File → Save Current Configuration** and exit RA. |
+| **RetroArch** | UI overscales on Wayland when OS scaling >100% on Vulkan. | Open RA via **RetroDECK Configurator**.<br>Go to **Settings → Backend** → switch from **Vulkan** to **OpenGL**.|
 
 ---

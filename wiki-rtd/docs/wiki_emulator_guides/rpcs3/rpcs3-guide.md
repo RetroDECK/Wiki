@@ -161,20 +161,20 @@ Game updates must be installed **incrementally and in release order**. For examp
 
 Some users may want to include their DLC or PATCH files inside the game folder for archiving purposes, or just to avoid having these contents spread in the RPCS3 filesystem. It's fully optional but to do so, follow these steps:
 
-1. **Locate the installed files:** The files will be installed inside a new game folder on the RPCS3 hard drive under `retrodeck/storage/rpcs3/dev_hdd0/game//GAMEID` where `GAMEID` is unique for each game.
+1. **Locate the installed files:** The files will be installed inside a new game folder on the RPCS3 hard drive under `retrodeck/storage/rpcs3/dev_hdd0/game/GAMEID` where `GAMEID` is unique for each game.
 2. **Verify the installation:** The patches or DLC should now be installed inside the `GAMEID` folder.
 3. **Move the content:** Move the content of the GAMEID folder into the games folder inside the `retrodeck/roms/ps3/GAMENAME` folder and overwrite & replace the files.
-4. **Remove the old folder:** You can now remove the `retrodeck/storage/rpcs3/dev_hdd0/game//GAMEID` folder as the files have been moved.
+4. **Remove the old folder:** You can now remove the `retrodeck/storage/rpcs3/dev_hdd0/game/GAMEID` folder as the files have been moved.
 
 ### Example
 
 The game Hockey World.
 
 1. **Install the DLC or patch:** Follow this guide to install the files.
-2. **Locate the new folder:** The installation creates a new folder called `BCA111111` under `retrodeck/storage/rpcs3/dev_hdd0/game//`.
-3. **Copy the content:** Open the folder `retrodeck/storage/rpcs3/dev_hdd0/game//BCA111111` and copy all of its content.
+2. **Locate the new folder:** The installation creates a new folder called `BCA111111` under `retrodeck/storage/rpcs3/dev_hdd0/game`.
+3. **Copy the content:** Open the folder `retrodeck/storage/rpcs3/dev_hdd0/game/BCA111111` and copy all of its content.
 4. **Paste the content:** Paste the copied content into the `retrodeck/roms/ps3/Hockey World` folder and replace/overwrite the files.
-5. **Remove the old folder:** You can then remove the `BCA111111` folder in `retrodeck/storage/rpcs3/dev_hdd0/game//`.
+5. **Remove the old folder:** You can then remove the `BCA111111` folder in `retrodeck/storage/rpcs3/dev_hdd0/game`.
 
 ---
 
@@ -189,7 +189,7 @@ If you want to install some PSN titles, you can do that through RPCS3 itself.
 1. **Open RPCS3:** Open RPCS3 from the RetroDECK Configurator.
 2. **Navigate to the installation option:** In the RPCS3 interface, go to `File` → `Install Packages/Raps/Edats`.
 3. **Select the file to install:** In the file browser, navigate and select the file you want to install.
-4. **Verify the installation:** The file will be installed inside the games folder on the RPCS3 hard drive under `retrodeck/storage/rpcs3/dev_hdd0/game//GAMEID` where `GAMEID` is unique for each game.
+4. **Verify the installation:** The file will be installed inside the games folder on the RPCS3 hard drive under `retrodeck/storage/rpcs3/dev_hdd0/game/GAMEID` where `GAMEID` is unique for each game.
 5. **Install patches or DLC:** Install any patches or DLC for the game by repeating steps 2 and 3 for each file.
 
 ### Method 1: Game Shortcuts (`.desktop` files) - **Recommended**
@@ -202,13 +202,13 @@ If you want to install some PSN titles, you can do that through RPCS3 itself.
 
 Similarly to how it is written above with the DLC and PATCHES, the user can decide to move the digital games outside the RPCS3 filesystem. To do so:
 
-1. **Move the digital games folder:** After the game is ready, move the digital games folder from `retrodeck/storage/rpcs3/dev_hdd0/game//GAMEID` to `retrodeck/roms/ps3`.
+1. **Move the digital games folder:** After the game is ready, move the digital games folder from `retrodeck/storage/rpcs3/dev_hdd0/game/GAMEID` to `retrodeck/roms/ps3`.
 2. **Rename the folder:** Rename the folder to the name of the game and add the `.ps3` file extension to the end of the folder.
 
 **Example**
 
-1. **Install the digital game:** You installed a file that contained the digital game `Hockey World 2`, which created a folder called `BCA123456` under `retrodeck/storage/rpcs3/dev_hdd0/game//`.
-2. **Move the folder:** After that, you moved `BCA123456` from `retrodeck/storage/rpcs3/dev_hdd0/game//` to `retrodeck/roms/ps3`.
+1. **Install the digital game:** You installed a file that contained the digital game `Hockey World 2`, which created a folder called `BCA123456` under `retrodeck/storage/rpcs3/dev_hdd0/game`.
+2. **Move the folder:** After that, you moved `BCA123456` from `retrodeck/storage/rpcs3/dev_hdd0/game` to `retrodeck/roms/ps3`.
 3. **Rename the folder:** The folder `BCA123456` is renamed to `Hockey World 2.ps3`.
 
 ---

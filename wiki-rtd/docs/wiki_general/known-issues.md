@@ -10,7 +10,7 @@
 |----------------------|--------|----------|
 | **Dolphin** | Some games flicker on the Steam Deck OLED. | Lower the display refresh rate from **90Hz** to **60Hz**. |
 | **RetroArch** | Multi-file game saves location bug. | Issue tracked on GitHub: *libretro bug 17589*. |
-| **RetroArch** | Keyboard and Controller conflict in certain PC Linux Desktop Enviroments. |`Settings` →  `Input` →  `Autoconfig`and set to OFF |
+| **RetroArch** | Keyboard and Controller conflict in certain PC Linux Desktop Enviroments. |`Settings` →  `Input` → `Autoconfig` and set to `OFF` |
 | **UZDOOM** | Steam Input conflict causing input looping in menus. | Set the controller as **Player 1** or use Steam’s **Reorder Controllers**. |
 | **Steam Sync** | Controller templates sometimes fail to associate with Steam entries. | Users must assign templates manually if this occurs. |
 | **ES-DE** | Configuration submenu does not support translations yet. | Translations planned for a future update. |

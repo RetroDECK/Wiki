@@ -24,6 +24,7 @@ Always refer to the official list for the most current and up to date informatio
 - **Directory / File name** - Required directory name and corresponding `.scummvm` file.
 - **ScummVM ID** - Engine and game identifier specified in the `.scummvm` file.
 - **ScummVM ID Key** - Key value of the ScummVM ID. 
+
 ---
 
 | Game | Directory / File name   | ScummVM ID  | ScummVM ID Key |

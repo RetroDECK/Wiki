@@ -70,11 +70,16 @@ This guide applies to both **ScummVM-SA** and the **ScummVM RetroArch Core**.
 
 The following example uses *Beneath a Steel Sky*.
 
+---
+
 ### Step 1: Add the Game Files
 
 Move the uncompressed game files into the ScummVM ROM directory:
 
 `retrodeck/roms/scummvm/Beneath a Steel Sky/`
+
+
+---
 
 ### Step 2: Rename the Game Directory
 

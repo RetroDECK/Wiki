@@ -38,7 +38,7 @@ ScummVM games should be put into the `retrodeck/roms/scummvm/` directory.
 
 | File Format | Description |
 |-------------|-------------|
-| .scummvm    | ScummVM game folder |
+| .scummvm    | ScummVM game directory |
 
 ---
 
@@ -62,56 +62,59 @@ No
 
 ---
 
-## Adding ScummVM Games to RetroDECK: Creating .scummvm files
+## Adding ScummVM Games to RetroDECK: Creating `.scummvm` Files
 
-This guide works for both the  `ScummVM-SA` and `ScummVM RetroArch Core`.
+This guide applies to both **ScummVM-SA** and the **ScummVM RetroArch Core**.
 
-**Example:** 
+**Example**
 
-In this example we got a game we want to add: `Beneath a Steel Sky`.
+The following example uses *Beneath a Steel Sky*.
 
-### Step 1: Add the game
+### Step 1: Add the Game Files
 
-Move the uncompressed game into the `retrodeck/roms/scummvm/` folder.
+Move the uncompressed game files into the ScummVM ROM directory:
 
-The result should be: `retrodeck/roms/scummvm/Beneath a Steel Sky/`
+`retrodeck/roms/scummvm/Beneath a Steel Sky/`
 
-### Step 2: Rename the folder
+### Step 2: Rename the Game Directory
 
-Rename and add `.scummvm` at the end of the folder name.
-
-Result:
+Rename the directory by adding `.scummvm` to its name:
 
 `retrodeck/roms/scummvm/Beneath a Steel Sky.scummvm/`
 
-### Step 3: Create the .scummvm file
+---
 
-- The `.scummvm` file starts as a empty textfile that needs to be created in the games folder.
-- It should be named `<GameName>.scummvm`
-- In our example the file will be called `Beneath a Steel Sky.scummvm` and should be created in `retrodeck/roms/scummvm/Beneath a Steel Sky.scummvm/`
+### Step 3: Create the `.scummvm` File
 
-The filename should have the same name as the folder.
+1. Create an empty text file inside the game directory.
+2. Name the file exactly the same as the directory, including the `.scummvm` extension.
 
-The end result should look like:
+Resulting path:
 
 `retrodeck/roms/scummvm/Beneath a Steel Sky.scummvm/Beneath a Steel Sky.scummvm`
 
-### Step 4: Check the ScummVM ID of the game
+---
 
-<img src="../scummvm-sky.png">
+### Step 4: Determine the ScummVM ID
 
-Go into [ScummVM Game Compatibility and ID List](https://www.scummvm.org/compatibility)
+Look up the game’s **ScummVM ID** in the [ScummVM – Gamelist](scummvm-gamelist.md).
 
-Search for `Beneath a Steel Sky` make a note of the `ScummVM ID` in this case called: `sky`
+---
 
-### Step 5: Open the .scummvm file and add the ScummVM ID
+### Step 5: Add the ScummVM ID to the File
 
-Open up the empty `Beneath a Steel Sky.scummvm` file and just type in the `ScummVV ID` in the first row of the file and save in this example `sky`. 
+Open the `.scummvm` file and enter the ScummVM ID on the first line only.
 
-Make sure you don't add any spaces or linebreaks and the file should just contain the word `sky`.
+Example content:
 
-### Step 6: The game should now run
+`sky`
 
-The game should now be able to launch in RetroDECK.
+Do not add spaces, line breaks, or additional text.
+
+---
+
+### Step 6: Launch the Game
+
+The game should now be detected and launch correctly in RetroDECK.
 
 ---

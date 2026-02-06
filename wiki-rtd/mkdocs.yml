@@ -323,6 +323,7 @@ nav:
 
     - ScummVM:
       - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
+      - ScummVM - Gamelist: wiki_engine_guides/scummvm/scummvm-gamelist.md
 
     - Solarus:
       - Solarus - General Guide: wiki_engine_guides/solarus/solarus-guide.md

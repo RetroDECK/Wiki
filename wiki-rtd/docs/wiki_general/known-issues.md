@@ -60,6 +60,8 @@
 
 ## Wayland Issues
 
+| Topic | Issue | Solution |
+|-------|--------|----------|
 | **PPSSPP** | UI overscales on Wayland when OS scaling >100% on Vulkan. | Open RA via **RetroDECK Configurator**.<br>Go to **Settings → Video → Output → Video Driver** → switch from **Vulkan** to **GL**.<br>Then **Main Menu → Configuration File → Save Current Configuration** and exit RA. |
 | **RetroArch** | UI overscales on Wayland when OS scaling >100% on Vulkan. | Open RA via **RetroDECK Configurator**.<br>Go to **Settings → Backend** → switch from **Vulkan** to **OpenGL**.|
 

@@ -102,7 +102,7 @@ Resulting path:
 
 ### Step 4: Determine the ScummVM ID
 
-Look up the game’s **ScummVM ID** in the [ScummVM – Gamelist](scummvm-gamelist.md).
+Look up the game’s **ScummVM ID** in the [ScummVM - Gamelist](scummvm-gamelist.md).
 
 ---
 

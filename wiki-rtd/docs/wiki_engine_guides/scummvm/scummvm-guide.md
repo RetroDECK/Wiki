@@ -107,21 +107,22 @@ Look up the game's **ScummVM ID** or **ScummVM ID Key** in the [ScummVM - Gameli
 
 ---
 
-### Step 5: Add the ScummVM ID or Key to the File
+### Step 5: Add the ScummVM Identifier
 
-Open the `.scummvm` file and enter the ScummVM ID on the first line only.
+Open the `.scummvm` file and add **one** identifier on the **first line only**.
 
-Either ScummVM ID (safer option) or ScummVM ID Key should work. 
+- Use **either** the **ScummVM ID** (recommended) **or** the **ScummVM ID Key**
+- Do **not** add spaces, extra lines, or any other text
 
-Example content:
+**Examples:**
 
-**ScummVM ID** `sky:sky`
+ScummVM ID (recommended):
 
-or: 
+`sky:sky`
+ 
+ScummVM ID Key:
 
-**ScummVM ID Key** `sky`
-
-Do not add spaces, line breaks, or additional text.
+`sky`
 
 ---
 

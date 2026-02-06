@@ -11,7 +11,7 @@ Always refer to the official list for the most current and up to date informatio
 
 1. Open the [ScummVM Game Compatibility and ID List](https://www.scummvm.org/compatibility).
 2. Search for the game title (example: *Beneath a Steel Sky*).
-3. Note the **ScummVM ID** (example: `sky`).
+3. Note the **ScummVM ID** (example: `sky:sky`).
 4. Use this ID to create the required directory and file name:
 
 ---

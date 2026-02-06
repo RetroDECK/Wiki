@@ -102,17 +102,24 @@ Resulting path:
 
 ### Step 4: Determine the ScummVM ID
 
-Look up the game’s **ScummVM ID** in the [ScummVM - Gamelist](scummvm-gamelist.md).
+Look up the game's **ScummVM ID** or **ScummVM ID Key** in the [ScummVM - Gamelist](scummvm-gamelist.md).
+
 
 ---
 
-### Step 5: Add the ScummVM ID to the File
+### Step 5: Add the ScummVM ID or Key to the File
 
 Open the `.scummvm` file and enter the ScummVM ID on the first line only.
 
+Either ScummVM ID (safer option) or ScummVM ID Key should work. 
+
 Example content:
 
-`sky`
+**ScummVM ID** `sky:sky`
+
+or: 
+
+**ScummVM ID Key** `sky`
 
 Do not add spaces, line breaks, or additional text.
 

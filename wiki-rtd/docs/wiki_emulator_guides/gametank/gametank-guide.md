@@ -1,6 +1,6 @@
 # Guide: GameTank
 
-<img src="../../../wiki_images/logos/microvision-logo.png" width="150">
+<img src="../../../wiki_images/logos/gametankman-logo.png" width="150">
 
 GameTankEmulator is a 8-bit GameTank Emulator.
 
@@ -16,6 +16,8 @@ GameTankEmulator is a 8-bit GameTank Emulator.
 |----------|------|
 | GameTank Github | [Link](https://github.com/clydeshaffer/GameTankEmulator) |
 | GameTank Webpage | [Link](https://gametank.zone/) |
+| GameTank Games | [Link](https://gametank.zone/games/) |
+
 
 ---
 

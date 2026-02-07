@@ -58,11 +58,7 @@ No
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
-| BIOS   | `retrodeck/bios/`                                 |               |
-| Config | `~/.var/app/net.retrodeck.retrodeck/config/melonDS/` | `melonDS.ini` |
-| ROMs   | `retrodeck/roms/nds/`                             |               |
-| Saves  | `retrodeck/saves/nds/melonds/`                    |               |
-| States | `retrodeck/states/nds/melonds/`                   |               |
+| ROMs   | `retrodeck/roms/microvision/`                             |               |
 
 
 ## Controls: Keyboard & Mouse

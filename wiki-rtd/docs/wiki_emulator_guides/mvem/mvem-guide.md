@@ -8,7 +8,7 @@ MVEM is a experimental Microvision / Milton Bradley Microvision / MB Microvision
 
 ---
 
-### melMVEMonDS Links
+### MVEM Links
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 

@@ -57,3 +57,5 @@ No
 ---
 
 ## How-to: Play the Built-in Surge the Rabbit Game?
+
+<img src="../../../wiki_images/logos/opensurge-surge.png" width="75">

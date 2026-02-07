@@ -8,7 +8,7 @@ MVEM is a experimental Microvision / Milton Bradley Microvision / MB Microvision
 
 ---
 
-### melonDS Links
+### melMVEMonDS Links
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
@@ -37,7 +37,7 @@ Microvision games should be put under the `retrodeck/roms/microvision/` director
 
 ---
 
-## Does MelonDS require BIOS or Firmware?
+## Does MVEM require BIOS or Firmware?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 

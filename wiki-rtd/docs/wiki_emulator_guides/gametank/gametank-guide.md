@@ -14,7 +14,7 @@ GameTankEmulator is a 8-bit GameTank Emulator.
 
 | Resource | Link |
 |----------|------|
-| GameTank GitHub | [Link](https://github.com/clydeshaffer/GameTankEmulator) |
+| GameTank Github | [Link](https://github.com/clydeshaffer/GameTankEmulator) |
 | GameTank Webpage | [Link](https://gametank.zone/) |
 
 ---
@@ -54,7 +54,11 @@ No
 
 ---
 
-## Controls:  Built-in Hotkeys
+## Controls: Keyboard ⌨️ & Mouse 🖱️ 
+
+Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
+
+### Built-in Hotkeys
 
 | Key(s)          | Action |
 |-----------------|------------------------------------------------------------|

@@ -1,8 +1,8 @@
 # Guide: MVEM
 
-<img src="../../../wiki_images/logos/microvision-logo.png" width="75">
+<img src="../../../wiki_images/logos/microvision-logo.png" width="150">
 
-MVEM is a experimental Microvision / Milton Bradley Microvision / MB Microvision emulator.
+MVEM is a experimental Microvision / Milton Bradley Microvision / MB Microvision emulator running in a maxium **640x480** window.
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 
@@ -63,8 +63,9 @@ The emulator controls are **hardcoded**.
 
 **Analog Controls**
 
-- **Mouse** — Move left/right  
-- **Keyboard** — `O` (left), `P` (right)
+- **Mouse** - Move left/right  
+- **Keyboard** - `O` (left), `P` (right)
+- **Esc** - Exit the emulator
 
 **Microvision Control Pad**
 
@@ -79,18 +80,18 @@ The Microvision keypad is arranged as **3 columns × 4 rows** and mapped as foll
 
 ---
 
-## Debugging Mode
+## Debug Mode
 
-Debugging mode is accessed with **M**. It is generally recommended to avoid this mode unless needed.
+Debug mode is accessed with **M**. It is generally recommended to avoid this mode unless needed.
 
 The following explanation is adapted from Paul Robson:
 
-- **0–9, A–F** — Change displayed address  
-- **G** — Run program until interrupted (with **M**)  
-- **K** — Set breakpoint at current address  
-- **S** — Single-step execution  
-- **V** — Step over  
-- **M** — Return to monitor (if running)  
-- **Esc** — Exit the emulator
+- **0–9, A–F** - Change displayed address  
+- **G** - Run program until interrupted (with **M**)  
+- **K** - Set breakpoint at current address  
+- **S** - Single-step execution  
+- **V** - Step over  
+- **M** - Return to monitor (if running)  
+- **Esc** - Exit Debug Mode
 
 ---

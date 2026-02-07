@@ -14,15 +14,8 @@ MVEM is a experimental Microvision / Milton Bradley Microvision / MB Microvision
 
 | Resource | Link |
 |----------|------|
-| melonDS - FAQ | [Link](https://melonds.kuribo64.net/faq.php) |
-
-
-    "url_rdwiki": "https://retrodeck.readthedocs.io/en/latest/wiki_emulator_guides/mvem/mvem-guide/",
-    "url_source": "https://www.raphkoster.com/2017/05/07/microvision-emulator-release/",
-    "url_source_2": "https://github.com/slaminger/Microvision-Emulation",
-    "url_source_3": "https://mbmicrovision.blogspot.com/",
-    "description": "MVEM is a Microvision Emulator.",
-    "component_type": "Emulator",
+| Microvision Blog 1 | [Link](https://www.raphkoster.com/2017/05/07/microvision-emulator-release/) |
+| Microvision Blog 2 | [Link](https://mbmicrovision.blogspot.com/) |
 
 ---
 
@@ -60,12 +53,13 @@ No
 |:------:|:--------------------------------------------------|:-------------|
 | ROMs   | `retrodeck/roms/microvision/`                             |               |
 
+---
 
-## Controls: Keyboard & Mouse
+## Controls: Keyboard ⌨️ & Mouse 🖱️ 
 
-Mudlet cannot be played with a controller easily and is best used with a physical keyboard and mouse.
+Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
 
-The emulator controls are hardcoded.
+The emulator controls are **hardcoded**.
 
 **Analog Controls**
 
@@ -83,6 +77,8 @@ The Microvision keypad is arranged as **3 columns × 4 rows** and mapped as foll
 | 3   | `A S D` |
 | 4   | `Z X C` |
 
+---
+
 ## Debugging Mode
 
 Debugging mode is accessed with **M**. It is generally recommended to avoid this mode unless needed.
@@ -96,3 +92,5 @@ The following explanation is adapted from Paul Robson:
 - **V** — Step over  
 - **M** — Return to monitor (if running)  
 - **Esc** — Exit the emulator
+
+---

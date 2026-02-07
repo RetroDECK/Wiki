@@ -62,9 +62,11 @@ No, Mudlet does not require BIOS or firmware, as the games run on remote servers
 
 ---
 
-## Controls: Keyboard & Mouse
+## Controls: Keyboard ⌨️ & Mouse 🖱️ 
 
-Mudlet cannot be played with a controller easily and is best used with a physical keyboard and mouse.
+Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
+
+Each MUD server can have different hotkeys and extra controls.
 
 ---
 

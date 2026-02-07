@@ -84,8 +84,6 @@ The Microvision keypad is arranged as **3 columns × 4 rows** and mapped as foll
 
 Debug mode is accessed with **M**. It is generally recommended to avoid this mode unless needed.
 
-The following explanation is adapted from Paul Robson:
-
 - **0–9, A–F** - Change displayed address  
 - **G** - Run program until interrupted (with **M**)  
 - **K** - Set breakpoint at current address  

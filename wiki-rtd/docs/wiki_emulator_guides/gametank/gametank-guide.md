@@ -14,7 +14,7 @@ GameTankEmulator is a 8-bit GameTank Emulator.
 
 | Resource | Link |
 |----------|------|
-| GameTank Github | [Link](https://github.com/clydeshaffer/GameTankEmulator) |
+| GameTank GitHub | [Link](https://github.com/clydeshaffer/GameTankEmulator) |
 | GameTank Webpage | [Link](https://gametank.zone/) |
 
 ---

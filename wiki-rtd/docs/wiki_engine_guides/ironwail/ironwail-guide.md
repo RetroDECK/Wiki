@@ -73,16 +73,16 @@ No
 
 `retrodeck/roms/quake/ironwail/id1`
 
-### Step 2: Create Ironwail.pak
+### Step 2: Create Quake.pak
 
-Create a file named `Ironwail.pak` in:  
+Create a file named `Quake.pak` in:  
 
 `retrodeck/roms/quake/`
 
 ### Step 3: Configuring the Alternative Emulator in RetroDECK
 
 1. Launch **RetroDECK**.  
-2. Navigate to the **Quake** menu and **Ironwail** entry.  
+2. Navigate to the **Quake** menu and **Quake** entry.  
 3. Open the **Edit this game's metadata** menu.  
 4. Select **Alternative Emulator”**.  
 5. Choose **`Ironwail (Standalone)`** from the list.  

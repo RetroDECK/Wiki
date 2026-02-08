@@ -70,7 +70,7 @@ All credit goes to **Simon Owen** (simon@simonowen.com), the creator of SimCoupe
 
 ---
 
-## Conntrols: Keyboard Input
+## Controls: Keyboard Input
 
 SimCoupe provides flexible keyboard input to emulate the **SAM Coupé** accurately.
 

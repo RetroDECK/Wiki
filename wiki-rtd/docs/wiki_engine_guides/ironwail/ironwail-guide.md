@@ -23,6 +23,7 @@ Ironwail is a Quake engine fork based on QuakeSpasm.
 
 Ironwail Quake game files must be placed in the `retrodeck/roms/quake/ironwail/id1` directory.
 
+.local/share/Steam/steamapps/common/Quake/id1/
 
 ---
 
@@ -42,6 +43,38 @@ Ironwail Quake game files must be placed in the `retrodeck/roms/quake/ironwail/i
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
 No
+
+However, you do need copies of the official **QUAKE** game data (PAK files).
+
+--- 
+
+## Where to buy official QUAKE?
+
+Below is a combined table containing both **Steam** and **GOG** purchase links for all relevant DOOM titles.
+
+| Game / Bundle            | Steam Link                                                              | GOG Link                                                               |
+|--------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------|
+| DOOM + DOOM II           | [Steam](https://store.steampowered.com/app/2310/Quake/)        | [GOG](https://www.gog.com/en/game/quake_the_offering)                       |
+
+---
+
+## How-to: Get PAKs from your bought copy of QUAKE
+
+### Notice: Steam Flatpak Version - steamapps/ Location
+
+If you are using the **Flatpak version of Steam**, the `~/.local/share/Steam/steamapps/` folder is located at:
+
+`~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/` when you follow this guide.
+
+### Where are the PAK files? - Steam
+
+Fnd the location by:
+
+- Right-click **Quake** in your Steam library and select: **Manage → Browse Local Files**.
+
+Or by browsing to:
+
+`~/.local/share/Steam/steamapps/common/Quake/id1/`
 
 ---
 

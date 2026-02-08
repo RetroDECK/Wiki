@@ -82,7 +82,11 @@ Or by browsing to:
 |:----:|:--------------------------------------|:-----------------------------------------------|
 | ROMs | `retrodeck/roms/quake/ironwail/id1`   | Contains gamedata, settings, mods, and save data        |
 
-**Note:** Ironwail currently stores all data: including saves and mods within `retrodeck/roms/quake/ironwail/id1`. The engine is hardcoded to use a single path. The RetroDECK team has suggested to the Ironwail developers that future versions support more flexible, dynamic paths. If such an update is implemented, the data will be relocated to the corresponding folders within RetroDECK.
+**Note:** Ironwail currently stores all data: including saves and mods within `retrodeck/roms/quake/ironwail/id1`. The engine is hardcoded to use a single path. 
+
+The RetroDECK team has suggested to the Ironwail developers that future versions support more flexible, dynamic paths. 
+
+If such an update is implemented, the data will be relocated to the corresponding folders within RetroDECK.
 
 
 ---

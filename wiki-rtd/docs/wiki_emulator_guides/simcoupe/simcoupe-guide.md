@@ -225,14 +225,13 @@ filename matching the pattern `prntNNNN.txt`.
 
 The following describes all settings available in **Options (`F10`)**.
 
-
-
 ### Display
 
 | Setting                          | Description                                                                 |
 |---------------------------------|-----------------------------------------------------------------------------|
 | Bi-linear filtering (smoothing)  | Smooths the display when stretching to fill the SimCoupe window.           |
 
+---
 
 ### Drive 1
 
@@ -241,6 +240,7 @@ The following describes all settings available in **Options (`F10`)**.
 | Device  | Select if floppy drive 1 is installed. ROM only boots from drive 1. |
 | Media   | Disk image or real device.               |
 
+---
 
 ### Drive 2
 
@@ -248,6 +248,8 @@ The following describes all settings available in **Options (`F10`)**.
 |---------|-----------------------------------------------------------------------------|
 | Device  | None, Floppy, Atom Classic, or Atom Lite.                                   |
 | Media   | Disk image or real device. Atom/Atom Lite support Master/Slave drives (HDF images or real devices). Requires permissions to access raw devices. |
+
+---
 
 ### Helpers
 
@@ -258,6 +260,8 @@ The following describes all settings available in **Options (`F10`)**.
 | Fast boot after hardware reset              | Speeds up cold-boot, bypassing memory test delay.                                                                    |
 | Fast floppy disk access                      | Speeds up loading/saving from disks.                                                                                 |
 
+---
+
 ### Input
 
 | Setting                       | Description                                                                                   |
@@ -267,12 +271,15 @@ The following describes all settings available in **Options (`F10`)**.
 | Use Alt-Gr for Edit key         | Maps Right-Alt to SAM Edit key.                                                              |
 | Use Left-Alt for Cntrl key      | Maps Left-Alt to SAM Cntrl key. May block normal Windows menu shortcuts.                     |
 
+---
+
 ### Joystick
 
 | Setting     | Description                                                                 |
 |-------------|-----------------------------------------------------------------------------|
 | Player 1/2  | Select devices for SAM joystick 1 (keys 6-0), SAM joystick 2 (keys 1-5), or Kempston joystick (Spectrum). |
 
+---
 
 ### Misc
 
@@ -285,6 +292,8 @@ The following describes all settings available in **Options (`F10`)**.
 | Show emulation speed                     | Shows % of normal SAM speed in the top-right corner.                                         |
 | Show status messages                     | Displays status text in the bottom-right corner to confirm actions.                          |
 
+---
+
 ### Sound
 
 | Setting       | Description                                                                 |
@@ -293,7 +302,7 @@ The following describes all settings available in **Options (`F10`)**.
 | MIDI Out      | Select a device for MIDI output, hardware or software synth.               |
 | SID Interface | Selects type of SID chip: 6581 (classic, gritty sound) or 8580 (cleaner, brighter). |
 
-
+---
 
 ### System
 
@@ -303,6 +312,8 @@ The following describes all settings available in **Options (`F10`)**.
 | External memory                            | External add-on packs can extend memory in 1MB blocks. Requires software support (e.g., MasterDOS, MasterBASIC, TopGun Demo). |
 | Internal RAM                               | Base SAM model has 256kB main memory, extendable to 512kB with an internal add-on. Many software titles require 512kB. |
 | Use AL-BOOT ROM if Atom Lite is connected | Applies ROM patches to automatically boot from Drive 2 if configured as Atom Lite. Not available with a custom ROM. |
+
+---
 
 ### Parallel
 
@@ -318,6 +329,8 @@ The following describes all settings available in **Options (`F10`)**.
 
 The SimCoupe debugger provides code, text, data, and graphical memory views, with features like single-stepping, breakpoints, and execution tracing. It starts in disassembly view, highlighting the next instruction, with symbols shown for ROM and custom code (built with `pyz80 --mapfile=`). The register panel displays the current system state.
 
+---
+
 ### Register Panel
 
 - **Registers:** Z80 registers, highlighting changes in pink.
@@ -328,6 +341,8 @@ The SimCoupe debugger provides code, text, data, and graphical memory views, wit
 - **A/B/C/D:** Four 16K memory banks (ROM/RAM/EXT). Cyan text indicates read-only.
 - **L/H/V/M:** LMPR/HMPR/VMPR paging registers and current display mode (1-4).
 - **Events:** Upcoming events and cycles until due (FINT, FEND, LINT, LEND, MIDI, MEND, MTXF, MOUS, BLUE, TAPE, ASIC).
+
+---
 
 ### Global Keys
 
@@ -351,6 +366,8 @@ The SimCoupe debugger provides code, text, data, and graphical memory views, wit
 | Keypad-2    | Toggle RAM write-protection                 |
 | Keypad-3    | Toggle external RAM                         |
 
+---
+
 ### Disassembly View Keys
 
 | Key             | Function                                                            |
@@ -371,6 +388,7 @@ The SimCoupe debugger provides code, text, data, and graphical memory views, wit
 | U                | Execute until condition                                             |
 | Up/Down          | Scroll 1 instruction                                                |
 
+---
 
 ### Text / Number View Keys
 
@@ -380,6 +398,7 @@ The SimCoupe debugger provides code, text, data, and graphical memory views, wit
 | PgUp/PgDn | Scroll 1 page  |
 | Up/Down   | Scroll 1 line  |
 
+---
 
 ### Graphics View Keys
 
@@ -393,6 +412,7 @@ The SimCoupe debugger provides code, text, data, and graphical memory views, wit
 | PgUp/PgDn        | Scroll 1 column                             |
 | Up/Down          | Scroll 1 line                               |
 
+---
 
 ### Trace View Keys
 
@@ -400,6 +420,8 @@ The SimCoupe debugger provides code, text, data, and graphical memory views, wit
 |-------|----------------------------------|
 | S     | Toggle address symbol display     |
 | Space | Toggle single/double register display |
+
+---
 
 ### Debugger Command Mode
 
@@ -441,6 +463,8 @@ The SimCoupe debugger provides code, text, data, and graphical memory views, wit
 - Single-stepping HALT enters interrupt handler; step-over executes handler fully.
 - Returning to current execution: enter `pc` in new address (`A`) or step normally.
 - Conditional expressions highlight current instruction if active.
+
+---
 
 ### Numeric Expressions
 

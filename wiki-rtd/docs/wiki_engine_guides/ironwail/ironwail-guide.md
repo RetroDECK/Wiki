@@ -62,19 +62,15 @@ Below is a combined table containing both **Steam** and **GOG** purchase links f
 
 ### Where are the PAK files? - Steam
 
-**Notice: Steam Flatpak Version - steamapps/ Location**
-
-If you are using the **Flatpak version of Steam**, the `~/.local/share/Steam/steamapps/` folder is located at:
-
-`~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/` when you follow this guide.
-
 **Find the location by:**
 
 - Right-click **Quake** in your Steam library and select: **Manage → Browse Local Files**.
 
 Or by browsing to:
 
-`~/.local/share/Steam/steamapps/common/Quake/id1/`
+- **Steam:** `~/.local/share/Steam/steamapps/common/Quake/id1/` 
+
+- **Steam Flatpak:** `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Quake/id1/`
 
 ---
 

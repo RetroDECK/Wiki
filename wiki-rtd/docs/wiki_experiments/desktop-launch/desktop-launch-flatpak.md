@@ -1,6 +1,6 @@
 # Launching Flatpak Games & Apps with RetroDECK
 
-<img src="../../../wiki_images/logos/flatpak-logo.png" width="100">
+<img src="../../../wiki_images/logos/flatpak-logo.svg" width="75">
 
 This experiment was initiated by the users **murkl** and **Daeymon**. Then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external desktop games and apps within RetroDECK.
 

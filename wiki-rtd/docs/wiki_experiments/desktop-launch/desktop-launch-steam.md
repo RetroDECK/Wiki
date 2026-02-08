@@ -1,7 +1,7 @@
 # Launching Steam Games with RetroDECK
 
 
-<img src="../../../wiki_images/logos/steam-logo.svg" width="100">
+<img src="../../../wiki_images/logos/steam-logo.svg" width="75">
 
 This experiment was initiated by the users **murkl** and **Daeymon**. Then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external desktop games and apps within RetroDECK.
 

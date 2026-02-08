@@ -20,7 +20,7 @@ Oricutron is a experimental Oric-1/Atmos/Telestrat and Pravetz 8D emulator.
 
 ## Where to put the games
 
-Oricutron games should be put under the `retrodeck/roms/Oricutron/` directory.
+Oricutron games should be put under the `retrodeck/roms/oric/` directory.
 
 ---
 

@@ -23,14 +23,6 @@ Ironwail is a Quake engine fork based on QuakeSpasm.
 
 Ironwail Quake game files must be placed in the `retrodeck/roms/quake/ironwail/id1` directory.
 
-### Required Files
-
-| File Name | Description        |
-|----------|--------------------|
-| pak0.pak | Quake PAK0 file    |
-| pak1.pak | Quake PAK1 file    |
-
-> **Note:** Filenames are case-sensitive. For example, rename `PAK0.PAK` → `pak0.pak` and `PAK1.PAK` → `pak1.pak`.
 
 ---
 
@@ -53,12 +45,49 @@ No
 
 ---
 
-## Directory structure
+## Directory Structure
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type   | Directory                                         | Comment       |
-|:------:|:--------------------------------------------------|:-------------|
-| ROMs   | `retrodeck/roms/quake/ironwail/id1`                             |               |
+| Type | Directory                             | Comment                                         |
+|:----:|:--------------------------------------|:-----------------------------------------------|
+| ROMs | `retrodeck/roms/quake/ironwail/id1`   | Contains gamedata, settings, mods, and save data        |
+
+**Note:** Ironwail currently stores all data: including saves and mods within `retrodeck/roms/quake/ironwail/id1`. The engine is hardcoded to use a single path. The RetroDECK team has suggested to the Ironwail developers that future versions support more flexible, dynamic paths. If such an update is implemented, the data will be relocated to the corresponding folders within RetroDECK.
+
+
+---
+
+## How-to: Play Quake via Ironwail on RetroDECK
+
+### Step 1: Put Required Files
+
+**Note:** Filenames are case-sensitive. Ensure `PAK0.PAK` is renamed to `pak0.pak` and `PAK1.PAK` to `pak1.pak`.
+
+| File Name | Description     |
+|-----------|----------------|
+| pak0.pak  | Quake PAK0 file |
+| pak1.pak  | Quake PAK1 file |
+
+**Placement:**  
+
+`retrodeck/roms/quake/ironwail/id1`
+
+### Step 2: Create Ironwail.pak
+
+Create a file named `Ironwail.pak` in:  
+
+`retrodeck/roms/quake/`
+
+### Step 3: Configuring the Alternative Emulator in RetroDECK
+
+1. Launch **RetroDECK**.  
+2. Navigate to the **Quake** menu and **Ironwail** entry.  
+3. Open the **Edit this game's metadata** menu.  
+4. Select **Alternative Emulator”**.  
+5. Choose **`Ironwail (Standalone)`** from the list.  
+6. Save.  
+
+RetroDECK will now launch Quake using Ironwail.
 
 ---

@@ -116,8 +116,8 @@ Create a file named `Quake.pak` in:
 
 1. Launch **RetroDECK**.  
 2. Navigate to the **Quake** menu and **Quake** entry.  
-3. Open the **Edit this game's metadata** menu.  
-4. Select **Alternative Emulator”**.  
+3. Open the **Edit This Game's Metadata** menu.  
+4. Select **Alternative Emulator**.  
 5. Choose **`Ironwail (Standalone)`** from the list.  
 6. Save.  
 

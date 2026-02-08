@@ -225,85 +225,92 @@ filename matching the pattern `prntNNNN.txt`.
 
 The following describes all settings available in **Options (`F10`)**.
 
-### System
 
-| Setting | Description |
-|---------|-------------|
-| Internal RAM | Base SAM model has 256kB main memory, extendable to 512kB with an internal add-on. Many software titles require 512kB. |
-| External memory | External add-on packs can extend memory in 1MB blocks. Requires software support (e.g., MasterDOS, MasterBASIC, TopGun Demo). |
-| Custom 32K ROM image | If blank, a built-in v3.0 ROM image is used. |
-| Use AL-BOOT ROM if Atom Lite is connected | Applies ROM patches to automatically boot from Drive 2 if configured as Atom Lite. Not available with a custom ROM. |
 
 ### Display
 
-| Setting | Description |
-|---------|-------------|
-| Bi-linear filtering (smoothing) | Smooths the display when stretching to fill the SimCoupe window. |
+| Setting                          | Description                                                                 |
+|---------------------------------|-----------------------------------------------------------------------------|
+| Bi-linear filtering (smoothing)  | Smooths the display when stretching to fill the SimCoupe window.           |
 
-### Sound
-
-| Setting | Description |
-|---------|-------------|
-| SID Interface | Selects type of SID chip: 6581 (classic, gritty sound) or 8580 (cleaner, brighter). |
-| DAC on port 7C | Select DAC device: Blue Alpha (variable speed), SAMVoc, or Paula (simple DAC output). |
-| MIDI Out | Select a device for MIDI output, hardware or software synth. |
-
-### Parallel
-
-| Setting | Description |
-|---------|-------------|
-| Port 1/2 | Select device for the virtual printer port. Options include Printer, Mono-DAC (8-bit mono), EDdac/SAMdac (8-bit stereo, recommended for SAM MOD Player). |
-| Printer device | File or device used for output when Printer is selected. "File:" auto-generates a unique file in the Data Files path. |
-| Automatically flush print jobs | Flush remaining data to output if no data is sent within 2 seconds. |
-
-### Input
-
-| Setting | Description |
-|---------|-------------|
-| Keyboard | Converts typed letters and symbols to the corresponding SAM key sequence. Modes: Automatic, Spectrum, Disabled. |
-| Use Left-Alt for Cntrl key | Maps Left-Alt to SAM Cntrl key. May block normal Windows menu shortcuts. |
-| Use Alt-Gr for Edit key | Maps Right-Alt to SAM Edit key. |
-| Enable mouse interface | Activates mouse support for SAM software. Double-click SimCoupe window for BASIC use; press Esc to release. |
-
-### Joystick
-
-| Setting | Description |
-|---------|-------------|
-| Player 1/2 | Select devices for SAM joystick 1 (keys 6-0), SAM joystick 2 (keys 1-5), or Kempston joystick (Spectrum). |
 
 ### Drive 1
 
-| Setting | Description |
-|---------|-------------|
-| Device | Select if floppy drive 1 is installed. ROM only boots from drive 1. |
-| Media | Disk image or real device. |
+| Setting | Description                               |
+|---------|-------------------------------------------|
+| Device  | Select if floppy drive 1 is installed. ROM only boots from drive 1. |
+| Media   | Disk image or real device.               |
+
 
 ### Drive 2
 
-| Setting | Description |
-|---------|-------------|
-| Device | None, Floppy, Atom Classic, or Atom Lite. |
-| Media | Disk image or real device. Atom/Atom Lite support Master/Slave drives (HDF images or real devices). Requires permissions to access raw devices. |
-
-### Misc
-
-| Setting | Description |
-|---------|-------------|
-| SAMBUS clock | Standard clock hardware interface (used by MasterDOS, BDOS). |
-| DALLAS clock | Advanced clock hardware supported by BDOS. |
-| Show disk drive activity lights | Displays on-screen LEDs (green = floppy, orange = Atom, blue = Atom Lite). |
-| Show status messages | Displays status text in the bottom-right corner to confirm actions. |
-| Show emulation speed | Shows % of normal SAM speed in the top-right corner. |
-| Ask before saving disk image changes | Prompts for confirmation before saving modifications back to disk images. |
+| Setting | Description                                                                 |
+|---------|-----------------------------------------------------------------------------|
+| Device  | None, Floppy, Atom Classic, or Atom Lite.                                   |
+| Media   | Disk image or real device. Atom/Atom Lite support Master/Slave drives (HDF images or real devices). Requires permissions to access raw devices. |
 
 ### Helpers
 
-| Setting | Description |
-|---------|-------------|
-| Fast boot after hardware reset | Speeds up cold-boot, bypassing memory test delay. |
-| Fast floppy disk access | Speeds up loading/saving from disks. |
-| Auto-load media inserted at startup screen | Automatically loads disks and tapes at the stripey boot screen. |
-| Allow booting from non-bootable disks | Detects unbootable disks, temporarily replaces them with a bootable image, and restores the original disk after DOS boot. |
+| Setting                                    | Description                                                                                                           |
+|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Allow booting from non-bootable disks      | Detects unbootable disks, temporarily replaces them with a bootable image, and restores the original disk after DOS boot. |
+| Auto-load media inserted at startup screen | Automatically loads disks and tapes at the stripey boot screen.                                                      |
+| Fast boot after hardware reset              | Speeds up cold-boot, bypassing memory test delay.                                                                    |
+| Fast floppy disk access                      | Speeds up loading/saving from disks.                                                                                 |
+
+### Input
+
+| Setting                       | Description                                                                                   |
+|--------------------------------|-----------------------------------------------------------------------------------------------|
+| Enable mouse interface         | Activates mouse support for SAM software. Double-click SimCoupe window for BASIC use; press Esc to release. |
+| Keyboard                       | Converts typed letters and symbols to the corresponding SAM key sequence. Modes: Automatic, Spectrum, Disabled. |
+| Use Alt-Gr for Edit key         | Maps Right-Alt to SAM Edit key.                                                              |
+| Use Left-Alt for Cntrl key      | Maps Left-Alt to SAM Cntrl key. May block normal Windows menu shortcuts.                     |
+
+### Joystick
+
+| Setting     | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| Player 1/2  | Select devices for SAM joystick 1 (keys 6-0), SAM joystick 2 (keys 1-5), or Kempston joystick (Spectrum). |
+
+
+### Misc
+
+| Setting                                | Description                                                                                  |
+|----------------------------------------|----------------------------------------------------------------------------------------------|
+| Ask before saving disk image changes    | Prompts for confirmation before saving modifications back to disk images.                    |
+| DALLAS clock                            | Advanced clock hardware supported by BDOS.                                                  |
+| SAMBUS clock                             | Standard clock hardware interface (used by MasterDOS, BDOS).                                 |
+| Show disk drive activity lights          | Displays on-screen LEDs (green = floppy, orange = Atom, blue = Atom Lite).                   |
+| Show emulation speed                     | Shows % of normal SAM speed in the top-right corner.                                         |
+| Show status messages                     | Displays status text in the bottom-right corner to confirm actions.                          |
+
+### Sound
+
+| Setting       | Description                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| DAC on port 7C | Select DAC device: Blue Alpha (variable speed), SAMVoc, or Paula (simple DAC output). |
+| MIDI Out      | Select a device for MIDI output, hardware or software synth.               |
+| SID Interface | Selects type of SID chip: 6581 (classic, gritty sound) or 8580 (cleaner, brighter). |
+
+
+
+### System
+
+| Setting                                   | Description                                                                                               |
+|-------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| Custom 32K ROM image                       | If blank, a built-in v3.0 ROM image is used.                                                             |
+| External memory                            | External add-on packs can extend memory in 1MB blocks. Requires software support (e.g., MasterDOS, MasterBASIC, TopGun Demo). |
+| Internal RAM                               | Base SAM model has 256kB main memory, extendable to 512kB with an internal add-on. Many software titles require 512kB. |
+| Use AL-BOOT ROM if Atom Lite is connected | Applies ROM patches to automatically boot from Drive 2 if configured as Atom Lite. Not available with a custom ROM. |
+
+### Parallel
+
+| Setting                        | Description                                                                                                      |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------|
+| Automatically flush print jobs  | Flush remaining data to output if no data is sent within 2 seconds.                                              |
+| Port 1/2                        | Select device for the virtual printer port. Options include Printer, Mono-DAC (8-bit mono), EDdac/SAMdac (8-bit stereo, recommended for SAM MOD Player). |
+| Printer device                   | File or device used for output when Printer is selected. "File:" auto-generates a unique file in the Data Files path. |
 
 ---
 
@@ -324,104 +331,108 @@ The SimCoupe debugger provides code, text, data, and graphical memory views, wit
 
 ### Global Keys
 
-| Key | Function |
-|-----|---------|
-| A | Enter new view address |
-| B | Breakpoint list |
-| C | Code trace history |
-| D | Disassembly view |
-| G | Graphics view |
-| H | Change HMPR page |
-| L | Change LMPR page |
-| M | Change screen mode |
-| N | Number view |
-| T | Text view |
-| V | Change VMPR page |
-| Keypad-0 | Toggle ROM0 |
-| Keypad-1 | Toggle ROM1 |
-| Keypad-2 | Toggle RAM write-protection |
-| Keypad-3 | Toggle external RAM |
-| Ctrl-T | Toggle debugger transparency |
-| Esc | Exit debugger / return to disassembly view |
+| Key         | Function                                   |
+|------------|--------------------------------------------|
+| A           | Enter new view address                     |
+| B           | Breakpoint list                            |
+| C           | Code trace history                          |
+| Ctrl-T      | Toggle debugger transparency               |
+| D           | Disassembly view                           |
+| Esc         | Exit debugger / return to disassembly view |
+| G           | Graphics view                               |
+| H           | Change HMPR page                            |
+| L           | Change LMPR page                            |
+| M           | Change screen mode                           |
+| N           | Number view                                 |
+| T           | Text view                                   |
+| V           | Change VMPR page                            |
+| Keypad-0    | Toggle ROM0                                 |
+| Keypad-1    | Toggle ROM1                                 |
+| Keypad-2    | Toggle RAM write-protection                 |
+| Keypad-3    | Toggle external RAM                         |
 
 ### Disassembly View Keys
 
-| Key | Function |
-|-----|---------|
-| S | Toggle symbol display |
-| U | Execute until condition |
-| Keypad-7 | Single-step 1 instruction |
-| Keypad-8 | Step over instruction |
-| Keypad-9 | Step out of function |
-| Keypad-4 | Step 10 instructions |
-| Keypad-4/5/6 | Step 10/100/1000 instructions |
-| Ctrl-KP4/5/6 | Step 10K/100K/1M instructions |
-| Ctrl-Keypad-8 | Step over with timing (no interrupts, no border contention) |
-| Left/Right | Scroll 1 byte |
-| Up/Down | Scroll 1 instruction |
-| PgUp/PgDn | Scroll 1 page |
-| Ctrl-Left/Right | Move PC 1 byte |
-| Ctrl-Up/Down | Move PC 1 instruction |
-| Return | Enter debugger command mode |
+| Key             | Function                                                            |
+|-----------------|--------------------------------------------------------------------|
+| Ctrl-Keypad-8    | Step over with timing (no interrupts, no border contention)        |
+| Ctrl-KP4/5/6     | Step 10K/100K/1M instructions                                      |
+| Ctrl-Left/Right  | Move PC 1 byte                                                      |
+| Ctrl-Up/Down     | Move PC 1 instruction                                               |
+| Keypad-4         | Step 10 instructions                                                |
+| Keypad-4/5/6     | Step 10/100/1000 instructions                                       |
+| Keypad-7         | Single-step 1 instruction                                           |
+| Keypad-8         | Step over instruction                                               |
+| Keypad-9         | Step out of function                                                |
+| Left/Right       | Scroll 1 byte                                                       |
+| PgUp/PgDn        | Scroll 1 page                                                       |
+| Return           | Enter debugger command mode                                         |
+| S                | Toggle symbol display                                               |
+| U                | Execute until condition                                             |
+| Up/Down          | Scroll 1 instruction                                                |
+
 
 ### Text / Number View Keys
 
-| Key | Function |
-|-----|---------|
-| Up/Down | Scroll 1 line |
-| Left/Right | Scroll 1 byte |
-| PgUp/PgDn | Scroll 1 page |
+| Key       | Function       |
+|-----------|----------------|
+| Left/Right| Scroll 1 byte  |
+| PgUp/PgDn | Scroll 1 page  |
+| Up/Down   | Scroll 1 line  |
+
 
 ### Graphics View Keys
 
-| Key | Function |
-|-----|---------|
-| 1/2/3/4 | Select screen mode |
-| Up/Down | Scroll 1 line |
-| Left/Right | Scroll 1 byte |
-| Ctrl-Up/Down | Zoom in/out |
-| Ctrl-Left/Right | Adjust column width by 1 byte |
-| PgUp/PgDn | Scroll 1 column |
-| Ctrl-PgUp/PgDn | Scroll 1 page |
+| Key             | Function                                    |
+|-----------------|--------------------------------------------|
+| 1/2/3/4         | Select screen mode                          |
+| Ctrl-Left/Right  | Adjust column width by 1 byte             |
+| Ctrl-Up/Down     | Zoom in/out                                |
+| Ctrl-PgUp/PgDn   | Scroll 1 page                               |
+| Left/Right       | Scroll 1 byte                               |
+| PgUp/PgDn        | Scroll 1 column                             |
+| Up/Down          | Scroll 1 line                               |
+
 
 ### Trace View Keys
 
-| Key | Function |
-|-----|---------|
+| Key   | Function                          |
+|-------|----------------------------------|
+| S     | Toggle address symbol display     |
 | Space | Toggle single/double register display |
-| S | Toggle address symbol display |
 
 ### Debugger Command Mode
 
-| Command | Function |
-|---------|---------|
-| di / ei | Disable / enable interrupts |
-| im M | Set interrupt mode M (0-2) |
-| reset | Reset emulation |
-| nmi | Generate non-maskable interrupt |
-| zap | Replace current instruction with NOP |
-| call ADDR | Simulate call to address ADDR |
-| push W | Push 16-bit value W onto stack |
-| pop [reg] | Pop 16-bit value, optionally to register |
-| break | Set paging + interrupts to return to BASIC |
-| x N | Execute N instructions |
-| [x] until COND | Execute until condition is true |
-| bpu COND | Breakpoint on condition (permanent) |
-| bpx ADDR | Execute breakpoint at ADDR (optional condition) |
-| bpm ADDR [r|w|rw] | Memory breakpoint with access specifier |
-| bpmr A B [r|w|rw] | Memory range breakpoint from address A for length B |
-| bpio P [rw|r|w] | I/O breakpoint on port P |
-| bpint I | Breakpoint on interrupt (frame/line/midi) |
-| flag +|- sz5h3vnc | Set/reset flag bits |
-| bc N | Clear breakpoint N (* = all) |
-| bd N | Disable breakpoint N |
-| be N | Enable breakpoint N |
-| exx | Exchange BC/DE/HL with BC'/DE'/HL' |
-| ex de,hl | Exchange DE with HL |
-| ld R,N | Load register R with value N |
-| r R=N | Load register R with value N |
-| out P,N | Write value N to port P |
-| poke A,N1[,N2,...] | Poke address A with one or more values |
+| Command                   | Function                                               |
+|----------------------------|-------------------------------------------------------|
+| [x] until COND             | Execute until condition is true                       |
+| bpc N                      | Clear breakpoint N (* = all)                          |
+| bc N                       | Clear breakpoint N (* = all)                          |
+| bd N                       | Disable breakpoint N                                  |
+| be N                       | Enable breakpoint N                                   |
+| bpio P [rw|r|w]            | I/O breakpoint on port P                              |
+| bpm ADDR [r|w|rw]          | Memory breakpoint with access specifier              |
+| bpmr A B [r|w|rw]          | Memory range breakpoint from address A for length B  |
+| bpint I                    | Breakpoint on interrupt (frame/line/midi)            |
+| bpx ADDR                   | Execute breakpoint at ADDR (optional condition)      |
+| break                      | Set paging + interrupts to return to BASIC           |
+| call ADDR                  | Simulate call to address ADDR                         |
+| di / ei                    | Disable / enable interrupts                           |
+| ex de,hl                   | Exchange DE with HL                                   |
+| exx                        | Exchange BC/DE/HL with BC'/DE'/HL'                   |
+| flag +|- sz5h3vnc          | Set/reset flag bits                                   |
+| im M                       | Set interrupt mode M (0-2)                            |
+| ld R,N                     | Load register R with value N                           |
+| nmi                        | Generate non-maskable interrupt                       |
+| out P,N                    | Write value N to port P                                |
+| poke A,N1[,N2,...]         | Poke address A with one or more values               |
+| pop [reg]                  | Pop 16-bit value, optionally to register             |
+| push W                     | Push 16-bit value W onto stack                        |
+| r R=N                      | Load register R with value N                           |
+| reset                      | Reset emulation                                       |
+| x N                        | Execute N instructions                                 |
+| zap                        | Replace current instruction with NOP                  |
+
 
 **Notes:**
 
@@ -435,45 +446,60 @@ The SimCoupe debugger provides code, text, data, and graphical memory views, wit
 
 **Operators**
 
-- Unary: `+ - ~ ! * =`
-- Binary arithmetic: `+ - * / \ %`
-- Logical: `&& || and or`
-- Comparison: `== != <> < > <= >=`
-- Bitwise arithmetic: `& | ^ band bor bxor`
-- Bitwise shift: `<< >>`
+| Category           | Operators                   |
+|-------------------|----------------------------|
+| Binary arithmetic  | + - * / \ %                |
+| Bitwise arithmetic | & | ^ band bor bxor        |
+| Bitwise shift      | << >>                      |
+| Comparison         | == != <> < > <= >=         |
+| Logical            | && || and or               |
+| Unary              | + - ~ ! * =                |
+
 
 **Symbols**
 
-- Single registers: `a f b c d e h l i r ixh ixl iyh iyl`
-- Double registers: `af bc de hl af' bc' de' hl' ix iy sp pc`
-- Paging: `lpage hpage vpage vmode lepage hepage rom0 rom1 wprot`
-- Registers: `lepr hepr lpen hpen status lmpr hmpr vmpr midi border addr`
-- Interrupts: `ei di iff1 iff2 im`
-- I/O: `inval outval`
-- Display: `dline sline`
-- Execution: `inrom call autoexec`
+| Category         | Items                                                      |
+|-----------------|------------------------------------------------------------|
+| Display          | dline sline                                                |
+| Double registers | af bc de hl af' bc' de' hl' ix iy sp pc                  |
+| Execution        | inrom call autoexec                                        |
+| I/O              | inval outval                                               |
+| Interrupts       | ei di iff1 iff2 im                                        |
+| Paging           | lpage hpage vpage vmode lepage hepage rom0 rom1 wprot    |
+| Registers        | lepr hepr lpen hpen status lmpr hmpr vmpr midi border addr |
+| Single registers | a f b c d e h l i r ixh ixl iyh iyl                       |
+
 
 **Functions**
 
-- `PEEK <addr>` — 8-bit lookup in currently paged RAM
-- `DPEEK <addr>` — 16-bit lookup in currently paged RAM
+| Command   | Description                                |
+|-----------|--------------------------------------------|
+| DPEEK     | 16-bit lookup in currently paged RAM       |
+| PEEK      | 8-bit lookup in currently paged RAM        |
+
 
 **Expression Examples (UNTIL breakpoints)**
 
-- `hl != =hl` — Break when HL changes
-- `peek pc == 0x76` — Break at next HALT
-- `outval == 0n123` — Break when 123 is written to any port
-- `vmode == 3` — Break when screen mode 3 is selected
-- `dpeek sp == 1234` — Break when hex 1234 is top of stack
-- `sline == 0` — Break when raster is drawing line 0
-- `(a == b) && (b == IXl)` — Break when A, B, IXl equal
+| Expression                       | Description                                      |
+|---------------------------------|--------------------------------------------------|
+| (a == b) && (b == IXl)           | Break when A, B, IXl are equal                  |
+| dpeek sp == 1234                  | Break when hex 1234 is top of stack             |
+| hl != =hl                         | Break when HL changes                            |
+| outval == 0n123                   | Break when 123 is written to any port           |
+| peek pc == 0x76                   | Break at next HALT                               |
+| sline == 0                         | Break when raster is drawing line 0             |
+| vmode == 3                        | Break when screen mode 3 is selected            |
+
 
 **Number Bases**
 
-- Decimal: `0n12345`
-- Hex: `0x1234` / `1234h` / `$1234` / `&1234` / `#1234`
-- Character: `"a"` or `'a'`
-- Binary: `%10101100`
-- Octal not supported (leading zeroes ignored)
+| Type       | Format Examples                               | Comments                      |
+|------------|-----------------------------------------------|-------------------------------|
+| Binary     | %10101100                                     |                               |
+| Character  | "a" or 'a'                                    |                               |
+| Decimal    | 0n12345                                       |                               |
+| Hex        | 0x1234 / 1234h / $1234 / &1234 / #1234      |                               |
+| Octal      | Not supported                                 | Leading zeroes ignored        |
+
 
 ---

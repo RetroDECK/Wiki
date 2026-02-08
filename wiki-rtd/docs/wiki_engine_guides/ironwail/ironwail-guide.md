@@ -44,11 +44,11 @@ Ironwail Quake game files must be placed in the `retrodeck/roms/quake/ironwail/i
 
 No
 
-However, you do need copies of the official **QUAKE** game data (PAK files).
+However, you do need copies of the official **Quake** game data (PAK files).
 
 --- 
 
-## Where to buy official Quake?
+## Where to buy Quake?
 
 Below is a combined table containing both **Steam** and **GOG** purchase links for all relevant DOOM titles.
 

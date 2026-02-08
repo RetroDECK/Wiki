@@ -464,43 +464,7 @@ The SimCoupe debugger provides code, text, data, and graphical memory views, wit
 - Returning to current execution: enter `pc` in new address (`A`) or step normally.
 - Conditional expressions highlight current instruction if active.
 
----
-
 ### Numeric Expressions
-
-**Operators**
-
-| Category           | Operators                   |
-|-------------------|----------------------------|
-| Binary arithmetic  | + - * / \ %                |
-| Bitwise arithmetic | & | ^ band bor bxor        |
-| Bitwise shift      | << >>                      |
-| Comparison         | == != <> < > <= >=         |
-| Logical            | && || and or               |
-| Unary              | + - ~ ! * =                |
-
-
-**Symbols**
-
-| Category         | Items                                                      |
-|-----------------|------------------------------------------------------------|
-| Display          | dline sline                                                |
-| Double registers | af bc de hl af' bc' de' hl' ix iy sp pc                  |
-| Execution        | inrom call autoexec                                        |
-| I/O              | inval outval                                               |
-| Interrupts       | ei di iff1 iff2 im                                        |
-| Paging           | lpage hpage vpage vmode lepage hepage rom0 rom1 wprot    |
-| Registers        | lepr hepr lpen hpen status lmpr hmpr vmpr midi border addr |
-| Single registers | a f b c d e h l i r ixh ixl iyh iyl                       |
-
-
-**Functions**
-
-| Command   | Description                                |
-|-----------|--------------------------------------------|
-| DPEEK     | 16-bit lookup in currently paged RAM       |
-| PEEK      | 8-bit lookup in currently paged RAM        |
-
 
 **Expression Examples (UNTIL breakpoints)**
 
@@ -514,6 +478,16 @@ The SimCoupe debugger provides code, text, data, and graphical memory views, wit
 | sline == 0                         | Break when raster is drawing line 0             |
 | vmode == 3                        | Break when screen mode 3 is selected            |
 
+---
+
+**Functions**
+
+| Command   | Description                                |
+|-----------|--------------------------------------------|
+| DPEEK     | 16-bit lookup in currently paged RAM       |
+| PEEK      | 8-bit lookup in currently paged RAM        |
+
+---
 
 **Number Bases**
 
@@ -525,5 +499,32 @@ The SimCoupe debugger provides code, text, data, and graphical memory views, wit
 | Hex        | 0x1234 / 1234h / $1234 / &1234 / #1234      |                               |
 | Octal      | Not supported                                 | Leading zeroes ignored        |
 
+---
+
+**Operators**
+
+| Category           | Operators                   |
+|-------------------|----------------------------|
+| Binary arithmetic  | + - * / \ %                |
+| Bitwise arithmetic | & | ^ band bor bxor        |
+| Bitwise shift      | << >>                      |
+| Comparison         | == != <> < > <= >=         |
+| Logical            | && || and or               |
+| Unary              | + - ~ ! * =                |
+
+---
+
+**Symbols**
+
+| Category         | Items                                                      |
+|-----------------|------------------------------------------------------------|
+| Display          | dline sline                                                |
+| Double registers | af bc de hl af' bc' de' hl' ix iy sp pc                  |
+| Execution        | inrom call autoexec                                        |
+| I/O              | inval outval                                               |
+| Interrupts       | ei di iff1 iff2 im                                        |
+| Paging           | lpage hpage vpage vmode lepage hepage rom0 rom1 wprot    |
+| Registers        | lepr hepr lpen hpen status lmpr hmpr vmpr midi border addr |
+| Single registers | a f b c d e h l i r ixh ixl iyh iyl                       |
 
 ---

@@ -52,7 +52,7 @@ Below is a combined table containing both **Steam** and **GOG** purchase links f
 
 | Game / Bundle            | Steam Link                                                              | GOG Link                                                               |
 |--------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------|
-| DOOM + DOOM II           | [Steam](https://store.steampowered.com/app/2310/Quake/)        | [GOG](https://www.gog.com/en/game/quake_the_offering)                       |
+| Quake           | [Steam](https://store.steampowered.com/app/2310/Quake/)        | [GOG](https://www.gog.com/en/game/quake_the_offering)                       |
 
 ---
 

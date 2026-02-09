@@ -46,7 +46,7 @@ Amiga games should be put under the `retrodeck/roms/amiga/` directory.
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
 
-Yes FS-UAE looks for the following: 
+Yes, other Kickstart files can be used, but the following are recommended by the official website:
 
 | System | ROM File | Comments |
 |------|---------|----------|
@@ -57,7 +57,7 @@ Yes FS-UAE looks for the following:
 | Amiga 600 | amiga-os-205.rom |  |
 | Amiga 1200 | amiga-os-310-a1200.rom |  |
 | Amiga 3000 | amiga-os-310-a3000.rom |  |
-| Amiga 4000 | Kickstart v3.1 r40.68 (1993)(Commodore)(A4000).rom (Recommended) | Preferred Kickstart ROM |
+| Amiga 4000 | Kickstart v3.1 r40.68 (1993)(Commodore)(A4000).rom (Recommended) |  |
 | Amiga 4000 | amiga-os-310.rom |  |
 | Amiga 1000 | amiga-os-120.rom |  |
 | Amiga CD32 | amiga-os-310-cd32.rom  (Recommended) |  |
@@ -67,8 +67,6 @@ Yes FS-UAE looks for the following:
 | Action Replay Mk II | Action Replay Mk II v2.14 (1991)(Datel Electronics)[m].rom |  |
 | Action Replay Mk III | Action Replay Mk III v3.17.rom |  |
 | Action Replay Mk III | Action Replay Mk III v3.17 (1991)(Datel Electronics)[m].rom |  |
-
-
 
 ---
 

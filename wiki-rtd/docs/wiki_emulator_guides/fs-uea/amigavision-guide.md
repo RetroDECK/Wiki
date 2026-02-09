@@ -68,9 +68,11 @@ You have built your AmigaVision collection using the provided scripts and specif
 3. Place the `AmigaVision.rom` file into the BIOS directory: `retrodeck/bios/`
 4. Copy the contents of your folders to the corresponding RetroDECK directories:  
 
-**Shared Directory:** copy contents to `retrodeck/storage/FS-UAE/AmigaVision/shared/`  
-**Listings Directory:** copy contents to `retrodeck/storage/FS-UAE/AmigaVision/listings/`
-**HDD files:** copy `AmigaVision.hdf` and `AmigaVision-Saves.hdf` to `retrodeck/storage/FS-UAE/AmigaVision/`
+**Shared Directory:** Contents to `retrodeck/storage/FS-UAE/AmigaVision/shared/`
+
+**Listings Directory:** Contents to `retrodeck/storage/FS-UAE/AmigaVision/listings/`
+
+**HDD files:** `AmigaVision.hdf` and `AmigaVision-Saves.hdf` to `retrodeck/storage/FS-UAE/AmigaVision/`
 
 ### Step 2: Configuring the Alternative Emulator in RetroDECK
 

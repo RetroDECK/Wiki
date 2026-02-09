@@ -6,6 +6,8 @@
 
 The project includes a minimal Workbench-based system, pre-optimized configurations for up to 4k resolutions, and is compatible with FS-UAE. 
 
+A pre-configued `AmigaVision.fs-uae` configuration file is included by default in RetroDECK.
+
 **When to Use AmigaVision**
 
 - You want the benefit of pre-optimized configurations for games and demos.  
@@ -35,6 +37,7 @@ Yes
 | AmigaVision.rom | Renamed Kickstart 4.0 ROM |  
 | AmigaVision.hdf | AmigaVision main HDD |  
 | AmigaVision-Saves.hdf | AmigaVision saves HDD |  
+
 
 
 ---

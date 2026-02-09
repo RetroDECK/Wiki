@@ -20,6 +20,8 @@ FS-UEA is a Amiga emulator.
 | FS-UAE Known Issues | [Link](https://fs-uae.net/known-issues/) |
 | AmigaForever | [Link](https://www.amigaforever.com/) |
 | AmigaVision Launcher | [Link](https://amiga.vision/) |
+| Amiga.org Forum | [Link](https://forum.amiga.org) |
+
 
 
 ---
@@ -38,7 +40,6 @@ Amiga games should be put under the `retrodeck/roms/amiga/` directory.
 | File Format | Description |
 |-------------|-------------|
 | .bin        | Binary rom file |
-| .bmp        | Overlays |
 
 ---
 

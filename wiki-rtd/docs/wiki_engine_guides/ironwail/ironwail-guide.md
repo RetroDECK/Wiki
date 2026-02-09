@@ -23,8 +23,6 @@ Ironwail is a Quake engine fork based on QuakeSpasm.
 
 Ironwail Quake game files must be placed in the `retrodeck/roms/quake/ironwail/id1` directory.
 
-.local/share/Steam/steamapps/common/Quake/id1/
-
 ---
 
 ## What file formats are supported?

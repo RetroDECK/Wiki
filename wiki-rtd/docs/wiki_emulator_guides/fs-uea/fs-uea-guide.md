@@ -19,7 +19,7 @@ FS-UEA is a Amiga emulator.
 | FS-UAE Github | [Link](https://github.com/FrodeSolheim/fs-uae) |
 | FS-UAE Known Issues | [Link](https://fs-uae.net/known-issues/) |
 | AmigaForever | [Link](https://www.amigaforever.com/) |
-| AmigaVision Frontend | [Link](https://amiga.vision/) |
+| AmigaVision Launcher | [Link](https://amiga.vision/) |
 
 
 ---
@@ -77,10 +77,6 @@ Yes, other Kickstart files can be used, but the following are recommended by the
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
 | ROMs   | `retrodeck/roms/amiga/`                             |               |
-
----
-
-
 
 
 ---

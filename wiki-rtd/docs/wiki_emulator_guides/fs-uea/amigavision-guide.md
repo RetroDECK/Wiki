@@ -46,7 +46,7 @@ Yes
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
-| Main Directory   | `retrodeck/storage/FS-UAE/AmigaVision/`         |               |
+| Main Directory   | `retrodeck/storage/FS-UAE/AmigaVision/`         |   `AmigaVision.hdf`  <br> `AmigaVision-Saves.hdf`          |
 | Listning Directory   | `retrodeck/storage/FS-UAE/AmigaVision/listings/`         |               |
 | Shared Directory   | `retrodeck/storage/FS-UAE/AmigaVision/shared/`         |               |
 
@@ -67,7 +67,7 @@ You have built your AmigaVision collection using the provided scripts and specif
 
 **Shared Directory:** copy contents to `retrodeck/storage/FS-UAE/AmigaVision/shared/`  
 **Listings Directory:** copy contents to `retrodeck/storage/FS-UAE/AmigaVision/listings/`
-
+**HDD files:** copy `AmigaVision.hdf` and `AmigaVision-Saves.hdf` to `retrodeck/storage/FS-UAE/AmigaVision/`
 
 ### Step 2: Configuring the Alternative Emulator in RetroDECK
 

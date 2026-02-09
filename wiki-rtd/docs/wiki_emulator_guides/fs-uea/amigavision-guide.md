@@ -1,6 +1,6 @@
 # Guide: FS-UAE - AmigaVision
 
-<img src="../../../wiki_images/logos/amigavision-logo.png" width="150">
+<img src="../../../wiki_images/logos/amigavision-logo.svg" width="150">
 
 **AmigaVision** is a community-driven, open-source Amiga launcher project designed to provide a streamlined, console-like experience while maintaining hardware accuracy and authenticity. It allows users to create a customized AmigaVision setup from personal game collections.  
 

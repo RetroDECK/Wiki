@@ -31,7 +31,7 @@ Ironwail Quake game files must be placed in the `retrodeck/roms/quake/ironwail/i
 
 | File Format | Description |
 |-------------|-------------|
-| .pak        | Quake PAK file |
+| .pak| Quake PAK file |
 
 
 ---
@@ -50,9 +50,9 @@ However, you do need copies of the official **Quake** game data (PAK files).
 
 Below is a combined table containing both **Steam** and **GOG** purchase links for all relevant DOOM titles.
 
-| Game / Bundle            | Steam Link                                                              | GOG Link                                                               |
+| Game / Bundle| Steam Link| GOG Link |
 |--------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------|
-| Quake           | [Steam](https://store.steampowered.com/app/2310/Quake/)        | [GOG](https://www.gog.com/en/game/quake_the_offering)                       |
+| Quake | [Steam](https://store.steampowered.com/app/2310/Quake/)| [GOG](https://www.gog.com/en/game/quake_the_offering) |
 
 ---
 
@@ -76,9 +76,9 @@ Or by browsing to:
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
 
-| Type | Directory                             | Comment                                         |
+| Type | Directory | Comment |
 |:----:|:--------------------------------------|:-----------------------------------------------|
-| ROMs | `retrodeck/roms/quake/ironwail/id1`   | Contains gamedata, settings, mods, and save data        |
+| ROMs | `retrodeck/roms/quake/ironwail/id1` | Contains gamedata, settings, mods, and save data|
 
 **Note:** Ironwail currently stores all data: including saves and mods within `retrodeck/roms/quake/ironwail/id1`. The engine is hardcoded to use a single path. 
 
@@ -95,29 +95,29 @@ If such an update is implemented, the data will be relocated to the correspondin
 
 **Note:** Filenames are case-sensitive. Ensure `PAK0.PAK` is renamed to `pak0.pak` and `PAK1.PAK` to `pak1.pak`.
 
-| File Name | Description     |
+| File Name | Description |
 |-----------|----------------|
-| pak0.pak  | Quake PAK0 file |
-| pak1.pak  | Quake PAK1 file |
+| pak0.pak| Quake PAK0 file |
+| pak1.pak| Quake PAK1 file |
 
-**Placement:**  
+**Placement:**
 
 `retrodeck/roms/quake/ironwail/id1`
 
 ### Step 2: Create Quake.pak
 
-Create a file named `Quake.pak` in:  
+Create a file named `Quake.pak` in:
 
 `retrodeck/roms/quake/`
 
 ### Step 3: Configuring the Alternative Emulator in RetroDECK
 
-1. Launch **RetroDECK**.  
-2. Navigate to the **Quake** menu and **Quake** entry.  
-3. Open the **Edit This Game's Metadata** menu.  
-4. Select **Alternative Emulator**.  
-5. Choose **`Ironwail (Standalone)`** from the list.  
-6. Save.  
+1. Launch **RetroDECK**.
+2. Navigate to the **Quake** menu and **Quake** entry.
+3. Open the **Edit This Game's Metadata** menu.
+4. Select **Alternative Emulator**.
+5. Choose **`Ironwail (Standalone)`** from the list.
+6. Save.
 
 RetroDECK will now launch Quake using Ironwail.
 

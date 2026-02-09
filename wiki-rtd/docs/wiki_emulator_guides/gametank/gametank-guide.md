@@ -62,14 +62,14 @@ Cannot be played with a controller easily and is best used with a physical keybo
 
 ### Built-in Hotkeys
 
-| Key(s)          | Action |
-|-----------------|------------------------------------------------------------|
-| **F**           | **Fast‑forward** - skips `SDL_Delay` between instruction batches. |
-| **R**           | **Soft reset** - clears registers, jumps to the RESET vector; RAM stays unchanged. |
-| **Shift + R**   | **Hard reset** - randomises memory and registers to emulate a cold boot. |
-| **Esc**         | **Exit** - terminates the program. |
-| **O**           | **Load ROM** - opens a file dialog to load a ROM at runtime (also shown when no ROM is supplied on launch). |
-| **F9**          | **Profiling window** - displays profiling data (only works if the ROM implements debug hooks). |
-| **F10**         | **System state window** - shows CPU status, video/graphics memory contents, and other diagnostics. |
+| Key(s)        | Action |
+|---------------|------------------------------------------------------------|
+| **Esc**       | **Exit** - terminates the program. |
+| **F**         | **Fast‑forward** - skips `SDL_Delay` between instruction batches. |
+| **F9**        | **Profiling window** - displays profiling data (only works if the ROM implements debug hooks). |
+| **F10**       | **System state window** - shows CPU status, video/graphics memory contents, and other diagnostics. |
+| **O**         | **Load ROM** - opens a file dialog to load a ROM at runtime (also shown when no ROM is supplied on launch). |
+| **R**         | **Soft reset** - clears registers, jumps to the RESET vector; RAM stays unchanged. |
+| **Shift + R** | **Hard reset** - randomises memory and registers to emulate a cold boot. |
 
 ---

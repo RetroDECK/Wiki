@@ -26,7 +26,7 @@ You will find Delta Patcher inside the RetroDECK Configurator as its own compone
 
 ## Applying a Patch
 
-<img src="../delta-patcher-patch.png" width="300">
+<img src="../delta-patcher-patch.png" width="600">
 
 1. **Back up the clean, original ROM** before making any modifications (enable backups in ⚙️ Settings or back up manually).
 2. Select the clean, unmodified ROM.
@@ -39,7 +39,7 @@ You will find Delta Patcher inside the RetroDECK Configurator as its own compone
 
 ## Creating a Patch
 
-<img src="../delta-patcher-create.png" width="300">
+<img src="../delta-patcher-create.png" width="600">
 
 1. Switch to **Create Patch Mode** in the Delta Patcher window.
 2. Select the original, unmodified ROM.

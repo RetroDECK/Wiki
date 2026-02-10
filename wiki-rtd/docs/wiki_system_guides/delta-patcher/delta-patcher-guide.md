@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/delta-patcher-logo.png" width="75">
 
-**Delta Patcher** is a system that is able to create and apply xdelta patches.
+**Delta Patcher** is a system that is able to create and apply `.xdelta` patches.
 
 You will find Delta Patcher inside the RetroDECK Configurator as its own component.
 

@@ -6,6 +6,8 @@
 
 You will find Delta Patcher inside the RetroDECK Configurator as its own component.
 
+⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
+
 **Read more:** [What are ROM Hacks?](../../wiki_general/what-are-romhacks.md)
 
 <img src="../delta-patcher-gui.png" width="300">

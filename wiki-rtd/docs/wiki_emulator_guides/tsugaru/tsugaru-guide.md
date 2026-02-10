@@ -1,6 +1,6 @@
 # Guide: Tsugaru 津軽
 
-<img src="../../../wiki_images/logos/microvision-logo.png" width="150">
+<img src="../../../wiki_images/logos/tsugaru-logo.png" width="150">
 
 Tsugaru is a Fujitsu FM Towns / Marty Emulator.
 

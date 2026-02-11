@@ -134,7 +134,7 @@ Examples include:
 
 | Component | Logo | Description | Donate / Support | Licenses |
 |----------|-------|-------------|------------------|----------|
-| **Mudlet** *(Not yet in RetroDECK)* | <img src="../../wiki_images/logos/mudlet-logo.png" width="75"> | MUD client for playing text-based online games. | No donation link available or donations not supported. |  [Licenses](https://github.com/Mudlet/Mudlet?tab=GPL-2.0-1-ov-file#readme) |
+| **Mudlet** *(Not yet in RetroDECK)* | <img src="../../wiki_images/logos/mudlet-logo.svg" width="75"> | MUD client for playing text-based online games. | [Contribute](https://www.mudlet.org/contribute) |  [Licenses](https://github.com/Mudlet/Mudlet?tab=GPL-2.0-1-ov-file#readme) |
 
 
 

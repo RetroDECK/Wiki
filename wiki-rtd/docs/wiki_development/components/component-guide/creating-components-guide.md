@@ -160,6 +160,10 @@ While the runtime itself is the "OS" of the flatpak.
 
 After you have taken all into account follow the one of these General Guides and begin the second step of your journey to add a Component into RetroDECK:
 
+- **Source: Flatpak:** [Creating Component: Flatpak](component-create-flatpak.md)
+
 - **Source: AppImage:** [Creating Component: AppImage](component-create-appimage.md)
 
-- **Source: Flatpak:** [Creating Component: Flatpak](component-create-flatpak.md)
+- **Source: Binary:** [Creating Component: Binary](component-create-binary.md)
+
+- **Source: Build from Source:** [Creating Component: Build from Source](component-create-source.md)

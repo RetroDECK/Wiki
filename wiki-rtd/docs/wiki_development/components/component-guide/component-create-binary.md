@@ -12,6 +12,12 @@ This assumes you have read [Creating Component: Guide](creating-components-guide
 
 ---
 
+### Prerequisite: Check the Internet!
+
+Before building from source, double check whether a prebuilt binary is already exists somewhere on the internet. In many cases, someone may have already compiled and distributed a usable version that you can download instead of building it yourself.
+
+---
+
 ## Step 0: Make a testing directory 
 
 1. Have a local copy of RetroDECK Cooker installed.

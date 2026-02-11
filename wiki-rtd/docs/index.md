@@ -42,7 +42,7 @@ Take a moment to explore the wiki! There’s tons of information waiting for you
 | [Discord](https://discord.gg/WDc5C9YWMx)    |  RetroDECK Discord Server    |
 | [Matrix](https://matrix.to/#/#retrodeck:matrix.org) | RetroDECK Matrix Server |
 | [Lemmy](https://lemmy.zip/c/retrodeck)         | RetroDECK Lemmy Community |
-| [Stoat](https://rvlt.gg/StVaEc0w)              | RetroDECK Stoat Server |
+
 
 ---
 

@@ -18,19 +18,19 @@ There’s no one-size-fits-all guide for adding a component. Each component is u
 
 **Component Type: What is it?**
 
-Components can broadly be categorized by from the application you want to add:  
+Components can broadly be categorized by from the application you want to add:
 
 - **Client**
 - **Emulator**
-- **Multi-Emulator**
 - **Engine**
+- **Multi-Emulator**
 - **Port**
 - **System**
 
 Read here for more details: 
 
 - [Development Glossary](../../general/development-glossary.md) 
-- [What is RetroDECK](../../../wiki_about/what-is-retrodeck.md)
+- [What is RetroDECK?](../../../wiki_about/what-is-retrodeck.md)
 
 ---
 

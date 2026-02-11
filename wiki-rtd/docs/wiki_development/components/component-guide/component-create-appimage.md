@@ -1,4 +1,4 @@
-# Creating Component: AppImage Testing
+# Creating Component: AppImage
 
 <img src="../../../../wiki_images/logos/appimage-logo.svg" width="100">
 
@@ -12,19 +12,18 @@ This assumes you have read [Creating Component: Guide](creating-components-guide
 
 ---
 
-## Step 0: Make a testing folder 
+## Step 0: Make a testing directory 
 
 1. Have a local copy of RetroDECK Cooker installed.
-2. Create a components folder under retrodeck/ userdata folder.
-3. **Result:** `retrodeck/components/`
+2. Create a components directory for example: `~/retrodeck_dev/components/`
 
 ---
 
 ## Step 1: Download the AppImage from Source
 
 1. Download the file from Github/Website or where every you find it.
-2. Put it into `retrodeck/components/`.
-3. Create a folder in `retrodeck/components/<component_name>` that matches the name of the component you want to add.
+2. Put it into `retrodeck_dev/components/`.
+3. Create a directory in `retrodeck_dev/components/<component_name>` that matches the name of the component you want to add.
 
 **Example:**
 
@@ -33,14 +32,14 @@ This assumes you have read [Creating Component: Guide](creating-components-guide
 wget "https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_64.AppImage"
 ```
 
-1. Put it into `retrodeck/components/Cemu-2.6-x86_64.AppImage`.
-2. Create a folder called `retrodeck/components/cemu`.
+1. Put it into `retrodeck_dev/components/Cemu-2.6-x86_64.AppImage`.
+2. Create a directory called `retrodeck_dev/components/cemu`.
 
 ---
 
 ## Step 2: Permissions & Extract 
 
-Open a terminal window in `retrodeck/components/`
+Open a terminal window in `retrodeck_dev/components/`
 
 **Set Permissions:**
 
@@ -63,9 +62,9 @@ chmod +x "Cemu-2.6-x86_64.AppImage"`
 
 ---
 
-## Step 3: New folder and move.
+## Step 3: New directory and move.
 
-A new folder called `retrodeck/components/squashfs-root` has been created.
+A new directory called `retrodeck_dev/components/squashfs-root` has been created.
 
 The structure is different in each AppImage.
 
@@ -77,7 +76,7 @@ The structure is different in each AppImage.
 
 Other standard files such as: **icons**, **.desktop** also exist in every AppImage. 
 
-Most follow these structures (with additional folders and files depending on the app):
+Most follow these structures (with additional directorys and files depending on the app):
 
 
 **AppImage V2:**

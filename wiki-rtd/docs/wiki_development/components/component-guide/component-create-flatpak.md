@@ -1,4 +1,4 @@
-# Creating Component: Flatpak Testing
+# Creating Component: Flatpak
 
 <img src="../../../../wiki_images/logos/flatpak-logo.svg" width="75">
 
@@ -12,32 +12,31 @@ This assumes you have read [Creating Component: Guide](creating-components-guide
 
 ---
 
-## Step 0: Make a testing folder 
+## Step 0: Make a testing directory 
 
 1. Have a local copy of RetroDECK Cooker installed.
-2. Create a components folder under retrodeck/ userdata folder.
-3. **Result:** `retrodeck/components/`
+2. Create a components directory for example: `~/retrodeck_dev/components/`
 
 ---
 
 ## Step 1: Clone the repo from Flathub
 
-1. Go to: `retrodeck/components/`.
-2. Create a folder in `retrodeck/components/<component_name>` that matches the name of the component you want to add.
+1. Go to: `retrodeck_dev/components/`.
+2. Create a directory in `retrodeck_dev/components/<component_name>` that matches the name of the component you want to add.
 3. Go to: [Github:Flathub](https://github.com/flathub/).
-4. Open a terminal window from the component folder.
+4. Open a terminal window from the component directory.
 5. Clone the repo with clone `https://github.com/flathub/<Application>`
-6. You will now a repo folder under `retrodeck/components/<Cloned Repo>`.
+6. You will now a repo directory under `retrodeck_dev/components/<Cloned Repo>`.
 
 **Example:**
 
-Make the folder:
+Make the directory:
 
-`retrodeck/components/uzdoom`
+`retrodeck_dev/components/uzdoom`
 
 Open a terminal window in 
 
-`retrodeck/components/`.
+`retrodeck_dev/components/`.
 
 Type:
 
@@ -45,10 +44,10 @@ Type:
 git clone https://github.com/flathub/org.zdoom.uzdoom.git
 ```
 
-You will now have two folders:
+You will now have two directorys:
 
-- `retrodeck/components/uzdoom`
-- `retrodeck/components/org.zdoom.uzdoom`
+- `retrodeck_dev/components/uzdoom`
+- `retrodeck_dev/components/org.zdoom.uzdoom`
 
 ---
 
@@ -76,17 +75,17 @@ Typically, a Flatpak will extract into this standard structure:
 
 If the flatpak has a premade compressed artifact you can just extract that to the structure under:
 
-- `retrodeck/components/<artifact>`
+- `retrodeck_dev/components/<artifact>`
 
 **Example:**
 
-- `retrodeck/components/uzdoom-artifact`
+- `retrodeck_dev/components/uzdoom-artifact`
 
 ---
 
 ### Step 2b: Build with flatpak-builder
 
-If there is no artifact you will need to build the it with: `flatpak-builder` into a new folder: `<Application>-build-dir`
+If there is no artifact you will need to build the it with: `flatpak-builder` into a new directory: `<Application>-build-dir`
 
 
 ```
@@ -101,7 +100,7 @@ rm -rf <Application>-build-dir/files/lib/debug ## Remove debug files, the locati
 
 **Example:**
 
-Go to: `retrodeck/components/org.zdoom.uzdoom`
+Go to: `retrodeck_dev/components/org.zdoom.uzdoom`
 
 Run the following:
 

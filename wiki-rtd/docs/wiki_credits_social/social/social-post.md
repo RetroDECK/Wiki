@@ -80,8 +80,6 @@ Thanks everyone!
   
 [Discord](https://discord.gg/WDc5C9YWMx) 
 
-[Revolt](https://rvlt.gg/StVaEc0w) 
-
 [Matrix](https://matrix.to/#/#retrodeck:matrix.org) 
 
 [GitHub](https://github.com/RetroDECK/RetroDECK) 

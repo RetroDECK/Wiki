@@ -64,27 +64,35 @@ The resulting SDL2TRS binary will be created in the `build/` directory.
 
 ## Step 3: Testing
 
-During this step, identify and document the following components:
+During this step, identify and document the following:
 
 - **Binary**
-- **Libraries** 
+- **Dependencies**
+- **Libraries**
 - **Other important files**
 
-To begin testing, try launching the binary from RetroDECK's Flatpak shell:
+### Testing Procedure
 
-`flatpak run --command=bash net.retrodeck.retrodeck --debug`
+1. Launch the binary from the RetroDECK Flatpak shell: `flatpak run --command=bash net.retrodeck.retrodeck --debug`
+2. Launch the application normally within your host OS environment (outside RetroDECK).
+3. Document the results in detail.
 
-While testing, make detailed notes on what works, what partially works, and what does not work at all. 
+**While testing, record:**
 
-Fixing these issues will be addressed later during the **Alchemist and Hunter step**. 
+- Fully functional features
+- Partially functional features
+- Non-functional components
+- Errors, warnings, crashes, or unexpected behavior
 
-**Example Considerations** 
+Issue resolution will be handled later during the **Alchemist and Hunter** step.
 
-Does the application report missing libraries? 
+**Example Considerations**
 
-Does it crash at startup or during use? 
+- Are all expected features functioning correctly?
+- Does the application create directories or files in user locations (`~/Documents`, `~/.local`, `~/.config`, `~/`, or other paths)?
+- Does the application report any missing libraries or dependencies, both outside and inside the Flatpak environment?
+- Does it crash at startup or during normal operation, both outside and inside the Flatpak environment?
 
-Are all expected features functioning correctly?
 
 ---
 

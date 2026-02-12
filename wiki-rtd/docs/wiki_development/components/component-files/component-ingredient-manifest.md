@@ -217,10 +217,10 @@ These entries can contain variable names (such as sourced config file paths) or 
 
 Typical values include:<br>
 
-`Required` - Needed for the games to run<br>
-`Required, for some <Country> games` - Needed for country‑specific games to run<br>
-`Required, at least one` - At least one BIOS of this type must be present for games to run<br>
-`Optional` - Not required for general functionality but may enable extra features
+`Required` - Needed for the games to run.<br>
+`Required, for some <Country> games` - Needed for country‑specific games to run.<br>
+`Required, at least one` - At least one BIOS of this type must be present for games to run.<br>
+`Optional` - Not required for general functionality but may enable extra features.
 
 - **paths** *(optional)* - The location where the file should be placed if not in the default `retrodeck/bios` directory.
 

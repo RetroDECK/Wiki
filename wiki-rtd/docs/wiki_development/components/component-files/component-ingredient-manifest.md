@@ -26,6 +26,7 @@ Each manifest includes:
     "description": "PPSSPP is a PlayStation Portable (psp) emulator.",
     "url_rdwiki": "https://retrodeck.readthedocs.io/en/latest/wiki_emulator_guides/ppsspp/ppsspp-guide/",
     "url_webpage": "https://www.ppsspp.org/",
+    "url_donation_purchase": "https://www.ppsspp.org/buygold",
     "url_source": "https://github.com/hrydgard/ppsspp",
     "component_type": "Emulator",
     "system": "psp",
@@ -48,7 +49,9 @@ Each manifest includes:
       "config_file_format": "ppsspp",
       "savestate_auto_load": [
         {
-          "enabled_states": [ "true" ],
+          "enabled_states": [
+            "true"
+          ],
           "setting_name": "AutoLoadSaveState",
           "action": "change",
           "new_setting_value": "2",
@@ -59,7 +62,9 @@ Each manifest includes:
       ],
       "cheevos": [
         {
-          "enabled_states": [ "true" ],
+          "enabled_states": [
+            "true"
+          ],
           "setting_name": "AchievementsEnable",
           "action": "change",
           "new_setting_value": "True",
@@ -68,7 +73,9 @@ Each manifest includes:
           "defaults_file": "$ppsspp_rd_config_dir/ppsspp.ini"
         },
         {
-          "enabled_states": [ "true" ],
+          "enabled_states": [
+            "true"
+          ],
           "setting_name": "AchievementsUserName",
           "action": "change",
           "new_setting_value": "$cheevos_username",
@@ -77,7 +84,9 @@ Each manifest includes:
           "defaults_file": "$ppsspp_rd_config_dir/ppsspp.ini"
         },
         {
-          "enabled_states": [ "true" ],
+          "enabled_states": [
+            "true"
+          ],
           "setting_name": "cheevos_token",
           "action": "change",
           "new_setting_value": "$cheevos_token",
@@ -88,7 +97,9 @@ Each manifest includes:
       ],
       "cheevos_hardcore": [
         {
-          "enabled_states": [ "true" ],
+          "enabled_states": [
+            "true"
+          ],
           "setting_name": "AchievementsChallengeMode",
           "action": "change",
           "new_setting_value": "True",
@@ -96,7 +107,14 @@ Each manifest includes:
           "target_file": "$ppsspp_config",
           "defaults_file": "$ppsspp_rd_config_dir/ppsspp.ini"
         }
-      ]
+      ],
+      "bios": {
+        "filename": "ppge_atlas.zim",
+        "md5": "866855cc330b9b95cc69135fb7b41d38",
+        "system": "psp",
+        "description": "PSP Atlas ZIM - asset package for PSP homebrew",
+        "required": "Optional"
+      }
     }
   }
 }
@@ -114,7 +132,17 @@ Each manifest includes:
 
 - **description** - A human-friendly description for this component, as shown in menu dialogs
 
-- **url** - A link to the RetroDECK wiki entry for this component, or elsewhere if a wiki entry doesn't exist
+- **url_rdwiki** - A link to the RetroDECK wiki entry for this component.
+
+- **url_webpage** - A link to the components webpage.
+
+- **url_flathub** - A link to the components place Flathub (if there is one).
+
+- **url_donation_purchase** - A link to where to donate to or buy the component.
+
+- **url_source** - A link to the source code of the component.
+
+- **url_<other>** - Other relevant links.
 
 - **system** - A single value or array of values of machine-friendly names of the systems emulated by this component
 

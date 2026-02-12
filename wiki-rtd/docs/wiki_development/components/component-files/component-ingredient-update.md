@@ -37,8 +37,8 @@ fi
 if [[ $(check_version_is_older_than "$version_being_updated" "0.7.1b") == "true" ]]; then
   # In version 0.7.1b, the following changes were made that required config file updates/reset or other changes to the filesystem:
   # - Force update PPSSPP standalone keybinds for L/R.
-  set_setting_value "$ppssppcontrolsconf" "L" "1-45,10-193" "ppsspp" "ControlMapping"
-  set_setting_value "$ppssppcontrolsconf" "R" "1-51,10-192" "ppsspp" "ControlMapping"
+  set_setting_value "$ppsspp_config_controls" "L" "1-45,10-193" "ppsspp" "ControlMapping"
+  set_setting_value "$ppsspp_config_controls" "R" "1-51,10-192" "ppsspp" "ControlMapping"
 fi
 
 if [[ $(check_version_is_older_than "$version_being_updated" "0.9.1b") == "true" ]]; then
@@ -49,6 +49,25 @@ if [[ $(check_version_is_older_than "$version_being_updated" "0.9.1b") == "true"
 
   set_setting_value "$rd_conf" "ppsspp" "$(get_setting_value "$rd_defaults" "ppsspp" "retrodeck" "cheevos")" "retrodeck" "cheevos"
   set_setting_value "$rd_conf" "ppsspp" "$(get_setting_value "$rd_defaults" "ppsspp" "retrodeck" "cheevos_hardcore")" "retrodeck" "cheevos_hardcore"
+fi
+
+if [[ $(check_version_is_older_than "$version_being_updated" "0.10.0b") == "true" ]]; then
+
+  log i "0.10.0b Upgrade - Postmove: PPSSPP"
+
+  prepare_component "postmove" "ppsspp"
+  
+  set_setting_value "$ppsspp_config" "GraphicsBackend" "0 (OPENGL)" "ppsspp" "Graphics"
+  set_setting_value "$ppsspp_config" "InternalResolution" "3" "ppsspp" "Graphics"
+  unzip -q -o -j "$ppsspp_rd_extras_dir/CWCheat-Database-Plus--master.zip" "*/cheat.db" -d "$cheats_path/PPSSPP"
+fi
+
+if [[ $(check_version_is_older_than "$version_being_updated" "0.10.3b") == "true" ]]; then
+
+  log i "0.10.3b Upgrade - PPSSPP: Relink Shaders"
+
+  dir_prep "$shaders_path/PPSSPP" "$ppsspp_shaders_path"
+
 fi
 
 ```

@@ -206,3 +206,27 @@ These entries can contain variable names (such as sourced config file paths) or 
 
 ---
 
+### bios
+
+**bios** - Defines BIOS or firmware files that a component may require. RetroDECK’s BIOS Checker Tool uses this section to validate and locate required files.
+
+- **filename** - The exact filename of the file.
+
+- **md5** - The MD5 checksum string.
+
+- **system** - The target system or systems identifier in the ES‑DE/RetroDECK structure that requires the file.
+
+- **description** - A brief explanation of what the BIOS file contains or why it’s needed.
+
+- **required** - Indicates whether the BIOS is mandatory, optional, or if at least one file from a group is needed. 
+
+Typical values include:<br>
+
+`Required` - Needed for the games to run<br>
+`Required, for some <Country> games` - Needed for country‑specific games to run<br>
+`Required, at least one` - At least one BIOS of this type must be present for games to run<br>
+`Optional` - Not required for general functionality but may enable extra features
+
+- **paths** *(optional)* - The location where the file should be placed if not in the default `retrodeck/bios` directory.
+
+---

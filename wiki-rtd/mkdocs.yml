@@ -459,6 +459,9 @@ nav:
       - SET retrodeck_setting: wiki_development/api/set-retrodeck-setting.md
       - SET setting_value: wiki_development/api/set-setting-value.md
 
+    - RetroDECK Alchemist:
+      - Guide - RetroDECK Alchemist: wiki_development/components/alchemist/component-alchemist-guide.md
+
     - Creating Components Guide:
       - Step 1 - Creating Components: wiki_development/components/component-guide/creating-components-guide.md
       - Step 2A - Component AppImage: wiki_development/components/component-guide/component-create-appimage.md
@@ -466,18 +469,19 @@ nav:
       - Step 3 - Component Recipe & Ingredients: wiki_development/components/component-guide/creating-components-ingredients-guide.md
       - Step 4 - Component Add to ES-DE: wiki_development/components/component-guide/component-add-to-es-de.md
 
-    - Component Alchemist & Component Recipe:
-      - Guide - RetroDECK Alchemist & component_recipe.json: wiki_development/components/alchemist/component-alchemist-guide.md
-      - TEMPLATE component_recipe - Web source: wiki_development/components/alchemist/recipe-template-web.md
-      - EXAMPLE component_recipe - Web source - KEGS: wiki_development/components/alchemist/recipe-example-web-kegs.md
-      - TEMPLATE component_recipe - Nested source: wiki_development/components/alchemist/recipe-template-web-nested.md
-      - EXAMPLE component_recipe - Nested source - VPinballX: wiki_development/components/alchemist/recipe-example-nested-vpinballx.md
-      - TEMPLATE component_recipe - Multi source: wiki_development/components/alchemist/recipe-template-web-multi.md
-      - EXAMPLE component_recipe - Multi source - RetroArch: wiki_development/components/alchemist/recipe-example-multi-retroarch.md
-      - TEMPLATE component_recipe - GitHub source: wiki_development/components/alchemist/recipe-template-github.md
-      - EXAMPLE component_recipe - Github source - OpenBOR: wiki_development/components/alchemist/recipe-example-github-openbor.md
-      - TEMPLATE component_recipe - Flathub source: wiki_development/components/alchemist/recipe-template-flathub.md
-      - EXAMPLE component_recipe - Flathub source - Azahar: wiki_development/components/alchemist/recipe-example-flathub-azahar.md
+    - Component Recipe - Examples:
+      - EXAMPLE component_recipe - Web source - KEGS: wiki_development/components/recipes-examples/recipe-example-web-kegs.md
+      - EXAMPLE component_recipe - Nested source - VPinballX: wiki_development/components/recipes-examples/recipe-example-nested-vpinballx.md
+      - EXAMPLE component_recipe - Multi source - RetroArch: wiki_development/components/recipes-examples/recipe-example-multi-retroarch.md
+      - EXAMPLE component_recipe - Github source - OpenBOR: wiki_development/components/recipes-examples/recipe-example-github-openbor.md
+      - EXAMPLE component_recipe - Flathub source - Azahar: wiki_development/components/recipes-examples/recipe-example-flathub-azahar.md
+
+    - Component Recipe - Templates:
+      - TEMPLATE component_recipe - Web source: wiki_development/components/recipes-templates/recipe-template-web.md
+      - TEMPLATE component_recipe - Nested source: wiki_development/components/recipes-templates/recipe-template-web-nested.md
+      - TEMPLATE component_recipe - Multi source: wiki_development/components/recipes-templates/recipe-template-web-multi.md
+      - TEMPLATE component_recipe - GitHub source: wiki_development/components/recipes-templates/recipe-template-github.md
+      - TEMPLATE component_recipe - Flathub source: wiki_development/components/recipes-templates/recipe-template-flathub.md
 
     - Components Ingredient Files:
       - component_functions.sh: wiki_development/components/component-files/component-ingredient-functions.md

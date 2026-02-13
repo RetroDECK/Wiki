@@ -2,17 +2,15 @@
 
 <img src="../../../../wiki_images/logos/es-de-logo.png" width="75">
 
-## Description 
-
-**Note:**
-
 In ES-DE all applications no matter what it is referred to as an **Emulator**.
 
 In RetroDECK we use the neutral name of **Component**.
 
+---
+
 ### ES-DE General Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [ES-DE: Userguide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md)
 
@@ -24,9 +22,11 @@ In RetroDECK we use the neutral name of **Component**.
 
 [ES-DE: Changelog](https://gitlab.com/es-de/emulationstation-de/-/blob/master/CHANGELOG.md) 
 
+---
+
 ### ES-DE Development Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
 
 [ES-DE: Gitlab](https://gitlab.com/es-de/emulationstation-de)
 
@@ -38,6 +38,8 @@ In RetroDECK we use the neutral name of **Component**.
 
 [ES-DE: Development Install](https://gitlab.com/es-de/emulationstation-de/-/blob/master/INSTALL-DEV.md)
 
+---
+
 ## RetroDECK Repository: RetroDECK/ES-DE
 
 [RetroDECK/ES-DE](https://github.com/RetroDECK/ES-DE)
@@ -45,14 +47,19 @@ In RetroDECK we use the neutral name of **Component**.
 RetroDECK Maintains a very light fork of ES-DE with some customizations: 
 
 - Hides specific emulators or systems that RetroDECK don't support yet (Example: Dragon Data Dragon 32).
-- Adds systems to ES-DE that it don't support (Example: GZDoom).
+- Adds systems to ES-DE that it don't support (Example: UZDoom).
 - Adds and changes some main menu entries (Example: RetroDECK Configurator, ES-DE Configurations).
+
+
+---
 
 ## es_find_rules.xml
 
 [ES-DE: es_find_rules.xml Documentation](https://gitlab.com/es-de/emulationstation-de/-/blob/master/INSTALL-DEV.md#es_find_rulesxml)
 
 The `es_find_rules.xml` file is used by ES-DE (EmulationStation Desktop Edition) to help it **find components (emulators)** on your system.
+
+---
 
 ### What does it do?
 
@@ -67,9 +74,10 @@ It defines **rules** that tell ES-DE where to look for:
 | `staticpath`  | Looks in specific folders you define (absolute paths)                       |
 | `corepath`    | Looks for emulator cores (used by RetroArch)                                |
 
-### Adding rules for RetroDECK
 
-#### staticpath
+---
+
+### staticpath
 
 The standard syntax of adding `staticpath` find rule is:
 
@@ -83,7 +91,9 @@ Each of them points towards the components `component_launcher.sh`.
 
 `<entry>/app/retrodeck/components/primehack/component_launcher.sh</entry>`
 
-#### systempath
+---
+
+### systempath
 
 If the system needs a wrapper `systempath` entry is also needed with the wrapper name:
 
@@ -107,13 +117,13 @@ If the system needs a wrapper `systempath` entry is also needed with the wrapper
 | ES-DE Linux Folder (Local Install) |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/retrodeck/components/es-de/share/es-de/resources/systems/linux/` | 
 | ES-DE Linux Folder (System Install)|`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/es-de/share/es-de/resources/systems/linux/` | 
 
-### Examples of Entries
+---
 
+## Examples of Entries: es_find_rules.xml
 
+---
 
-
-
-#### Primehack
+### Primehack
 
 ```
   <emulator name="PRIMEHACK">
@@ -133,7 +143,9 @@ If the system needs a wrapper `systempath` entry is also needed with the wrapper
     </emulator>
 ```
 
-####  RetroArch
+---
+
+###  RetroArch
 
 ```
     <core name="RETROARCH">
@@ -162,7 +174,9 @@ If the system needs a wrapper `systempath` entry is also needed with the wrapper
     </core>
 ```
 
-####  CEMU
+---
+
+###  CEMU
 
 ```
     <emulator name="CEMU">
@@ -190,6 +204,8 @@ If the system needs a wrapper `systempath` entry is also needed with the wrapper
     </emulator>
 ```
     
+---
+
 ## es_systems.xml
 
 [ES-DE: es_find_rules.xml Documentation ](https://gitlab.com/es-de/emulationstation-de/-/blob/master/INSTALL-DEV.md#es_systemsxml)
@@ -198,8 +214,10 @@ The `es_systems.xml` file is a configuration file used by **ES-DE** (EmulationSt
 
 RetroDECK commits out certain aspects of the standard `es_systems.xml` from the ES-DE repo on gitlab, like Components that had have not been added to RetroDECK yet.
 
-RetroDECK also commits into the RetroDECK's version of `es_systems.xml` and adds components that might not be supported by ES-DE proper like GZDoom.
+RetroDECK also commits into the RetroDECK's version of `es_systems.xml` and adds components that might not be supported by ES-DE proper like UZDoom.
 
+
+---
 
 ### What does it include?
 
@@ -212,6 +230,8 @@ Each game system entry in the file defines:
 - **Launch command** (how to start the game)
 - **Platform** (used for scraping game data)
 - **Theme** (visual style)
+
+---
 
 ### Wildcards are supported for binaries
 
@@ -226,6 +246,8 @@ Each game system entry in the file defines:
 ```
 <command>~/App*/xemu*.AppImage %ROM%</command>
 ```
+
+---
 
 ### Variable Reference Table
 
@@ -252,6 +274,8 @@ Each game system entry in the file defines:
 | `%ESCAPESPECIALS%` | (Windows only) Escapes special characters like `&()^=;` in `%ROM%`. |
 | `%ENABLESHORTCUTS%`| (Unix/macOS only) Enables launching `.desktop` or `.app` shortcuts. Requires `%ROM%`. |
 
+---
+
 ### Where is it in RetroDECK?
 
 **RetroDECK Repository Location:** 
@@ -265,11 +289,11 @@ Each game system entry in the file defines:
 | ES-DE Linux Folder (Local Install) |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/retrodeck/components/es-de/share/es-de/resources/systems/linux/` | 
 | ES-DE Linux Folder (System Install)|`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/es-de/share/es-de/resources/systems/linux/` | 
 
+---
 
+## Examples of Entries: es_systems.xml
 
-### Examples of Entries
-
-#### Sega Mark III 
+### Sega Mark III 
 
 - Supported in ES-DE by default.
 - Added support in RetroDECK.
@@ -296,12 +320,14 @@ Each game system entry in the file defines:
     </system>
 ```
 
-#### GZDoom 
+---
 
-- DOOM is supported via other Emulators but not GZDoom in ES-DE by default.
+### UZDoom 
+
+- DOOM is supported via other Emulators but not UZDoom in ES-DE by default.
 - Added support in RetroDECK.
 - Adds a custom format: `<extension>.doom .DOOM` 
-- Launches against RetroDECK's own GZDoom Wrapper: `<command label="GZDoom (Standalone)">gzdoom.sh %ROM%</command>` 
+- Launches against RetroDECK's own UZDoom Wrapper: `<command label="UZDoom (Standalone)">UZDoom.sh %ROM%</command>` 
 
 
 ```
@@ -310,7 +336,7 @@ Each game system entry in the file defines:
         <fullname>Doom</fullname>
         <path>%ROMPATH%/doom</path>
         <extension>.doom .DOOM .desktop .ipk3 .IPK3 .iwad .IWAD .pk3 .PK3 .pk4 .PK4 .pwad .PWAD .sh .wad .WAD</extension>
-        <command label="GZDoom (Standalone)">gzdoom.sh %ROM%</command>
+        <command label="UZDoom (Standalone)">UZDoom.sh %ROM%</command>
         <command label="PrBoom">%EMULATOR_RETROARCH% -L %CORE_RETROARCH%/prboom_libretro.so %ROM%</command>
         <!-- <command label="PrBoom+ (Standalone)">%EMULATOR_PRBOOM-PLUS% -iwad %ROM%</command> -->
         <command label="Boom 3">%EMULATOR_RETROARCH% -L %CORE_RETROARCH%/boom3_libretro.so %ROM%</command>
@@ -322,7 +348,9 @@ Each game system entry in the file defines:
 
 ```
 
-#### Dragon Data Dragon 32 
+---
+
+### Dragon Data Dragon 32 
 
 - Supported in ES-DE by default.
 - Not yet supported in RetroDECK and have been committed out.
@@ -347,6 +375,7 @@ Each game system entry in the file defines:
 -->
 ```
 
+---
 
 
 

@@ -1,37 +1,27 @@
-# RetroDECK Alchemist & component_recipe.json
+# The RetroDECK Alchemist - Guide
 
-## The RetroDECK Alchemist
-
-**The RetroDECK Alchemist** is a magician / chef / bartender who , when given the proper instruction, can transmute one or more base source ingredients into the perfect gem of a component artifact .
+The `alchemist.sh` it is a Plugin‑Based Component Assembler.
 
 *Alchemy* - *noun* - "A power or process that changes or transforms something in a mysterious or impressive way."
 
-(The `alchemist.sh` it is a Plugin‑Based Component Assembler).
+### HEREBY BE WARNED!
 
-**Concistency is important**
+The RetroDECK Alchemist is a magician / chef / bartender
 
----
+Who, when given the proper instruction, can transmute one or more base source ingredients into the perfect creation of a component artifact.
 
-**Garbage in, garbage out**
-
-[Wikipedia](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out)
-
----
-
-**HEREBY BE WARNED**
-
-Alchemy and cooking is, by definition, delicate.  
+Alchemy and cooking are, by definition, delicate.
 
 - The ingredients must be known and pure.  
 - The recipe must be exact.  
+- Any deviation from this process can be **disastrous**.
 
-Any deviation from this process can be **disastrous**.
+To achieve a perfect artifact, the ingredients must be well known.  
+Only by pulling ingredients **when they are just right** can we guarantee consistency.
 
-To achieve a perfect output, the input must be equally well‑known.  
-Only by pulling input from a **specific moment in time** can we guarantee consistency.  
-Dynamic sources that use "latest" versions change without review, making them unreliable for reproducible builds.
+To always chase the freshest ingredients all the time is a fool’s errand and would produce unreliable artifacts.
 
-(Be careful with versioning of components for stable builds).
+(Be careful with versioning of components for stable builds and lock them down.)
 
 ---
 
@@ -186,8 +176,6 @@ All `component_recipe.json` contain at least four parts:
 
 ```
 
----
-
 ## Component Recipes: Component Information & Key‑Value Reference
 
 | Field               | Description |
@@ -293,6 +281,8 @@ In rare cases where a required library is not available via the component packag
 
 - A *nested archive* creates a new archive that also needs extraction.  
 - Objects are processed **in the order they appear** in the recipe, allowing later sources to depend on earlier ones.
+
+---
 
 ### Simplified Example: Extracting a Nested Archive
 
@@ -559,6 +549,8 @@ In rare cases where a required library is not available via the component packag
 By ordering the additional sources array this way, the Alchemist ensures that each step has the necessary data from the previous step before proceeding.
 
 
+---
+
 ### Object 1 - Core Archive (downloaded)
 
 
@@ -577,6 +569,8 @@ By ordering the additional sources array this way, the Alchemist ensures that ea
 - **Extraction:** Treated as an `archive`; it is extracted to the default destination `$WORKDIR/RetroArch.7z-extracted`.  
 - **Post‑extract actions:** None (no assets, libs, or extras).  
 - **Next step:** The Alchemist proceeds to Object 2.
+
+---
 
 ### Object 2 - Local AppImage (extracted from the first archive)
 
@@ -604,6 +598,8 @@ By ordering the additional sources array this way, the Alchemist ensures that ea
 - **Extraction:** Handled as an `appimage`.  
 - **Asset gathering:** The directory `$WORKDIR/$EXTRACTED_PATH/usr/bin/` is collected and copied to `$COMPONENT_ARTIFACT_ROOT/bin/`.
 
+---
+
 ### Object 3 - Additional Cores Archive (downloaded)
 
 
@@ -627,6 +623,7 @@ By ordering the additional sources array this way, the Alchemist ensures that ea
 }
 ```
 
+---
 
 ### Why This Verbose Multi‑Object Approach?
 
@@ -635,10 +632,6 @@ By ordering the additional sources array this way, the Alchemist ensures that ea
 - **Flexibility:** Different classes of files (assets, libs, etc.) can originate from distinct sources, allowing consistent and reproducible builds.  
 
 By processing each source object sequentially, the Alchemist maintains strict control over every step, guaranteeing deterministic results across builds.
-
-
-
-
 
 ---
 
@@ -699,6 +692,8 @@ Take the Azahar example for above:
 9. **Flatpak Runtime** - Install the required runtime (name and version) if it isn’t already present.  
 10. **Gather Library** - Retrieve `libQt6Widgets.so.6` from the specified Flatpak runtime and place it in the appropriate location within the artifact. 
 
+---
+
 ### Alchemist Process Abstraction
 
 At a high level, the Alchemist processes information in this loop:
@@ -709,6 +704,8 @@ At a high level, the Alchemist processes information in this loop:
    - Each parent object contains download sources, extraction commands, asset‑gathering instructions, library‑gathering instructions, and extras‑gathering instructions.  
 4. **Process** each object sequentially.  
 5. **Compress** the contents of the `*-artifact` directory for storage.
+
+---
 
 ### Example: Final Artifact Layout ($COMPONENT_NAME-artifact) for Azahar
 
@@ -729,3 +726,4 @@ azahar-artifact
         └── qt-config.ini
 ```
 
+---

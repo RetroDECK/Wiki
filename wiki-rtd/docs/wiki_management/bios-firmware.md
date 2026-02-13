@@ -30,20 +30,28 @@ Each component guide within this wiki includes detailed steps for installing the
 
 ## RetroDECK BIOS Checker List
 
-RetroDECK includes an automated BIOS Checker based on the internal `bios.json` file. This list is continually updated as new systems and requirements are added.
+RetroDECK includes an automated BIOS Checker based on the each components `component_manifest.json` file under the `bios` key. 
 
-Each entry contains:
+Each entry most likely contains:
 
-- **BIOS Name** - Expected filename  
-- **md5** - MD5 checksum for validation  
-- **system** - Emulator or system using the BIOS  
-- **description** - Purpose of the file  
-- **required** - Indicates if it is mandatory for system operation  
-- **paths** - Valid alternative locations besides `~/retrodeck/bios`. If no `paths` key is provided, the BIOS Checker defaults to `~/retrodeck/bios`.
+- **filename** - The exact filename of the file.
 
-**Read more:**
+- **md5** - The MD5 checksum string.
 
-[RetroDECK Cooker - bios.json](https://github.com/RetroDECK/RetroDECK/blob/cooker/config/retrodeck/reference_lists/bios.json)
+- **system** - The target system or systems identifier in the ES-DE/RetroDECK structure that requires the file.
+
+- **description** - A brief explanation of what the BIOS file contains or why it's needed.
+
+- **required** - Indicates whether the BIOS is mandatory, optional, or if at least one file from a group is needed. 
+
+Typical values include:<br>
+
+`Required` - Needed for the games to run.<br>
+`Required, for some <Country> games` - Needed for country-specific games to run.<br>
+`Required, at least one` - At least one BIOS of this type must be present for games to run.<br>
+`Optional` - Not required for general functionality but may enable extra features.
+
+- **paths** *(optional)* - The location where the file should be placed if not in the default `retrodeck/bios` directory.
 
 ### Examples
 
@@ -71,14 +79,14 @@ Each entry contains:
       "filename": "panafz1j-kanji.bin",
       "md5": "c23fb5d5e6bb1c240d02cf968972be37",
       "system": "3do",
-      "description": "Kanji font ROM for Panasonic FZ‑1J - required for Japanese games",
+      "description": "Kanji font ROM for Panasonic FZ-1J - required for Japanese games",
       "required": "Required for some Japanese games."
     },
 
 ```
 
-### Can I help update the List?
+### Can I help update the Lists?
 
-Yes, you can help update the list by submitting pull requests on our GitHub. Follow the same structure to add more BIOS/Firmware or correct any mistakes.
+Yes, you can help update the lists by submitting pull requests on our GitHub in the components repo. Follow the same structure to add more BIOS/Firmware or correct any mistakes.
 
 ---

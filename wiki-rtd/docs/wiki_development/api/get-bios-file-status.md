@@ -5,13 +5,13 @@
 ### Description
 
 
-This API call retrieves an array of objects representing the current status of all known BIOS files. The data is intended for display in a menu or list format and includes:
+This API call retrieves an array of objects representing the current status of all known BIOS files and read via each components manifest. The data is intended for display in a menu or list format and includes:
 
 - BIOS file name
 - Associated systems
 - Presence in the expected location
 - MD5 hash match status
-- Description of the file’s purpose
+- Description of the file's purpose
 - Expected file paths
 - List of known MD5 hashes
 

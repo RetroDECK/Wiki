@@ -55,7 +55,7 @@ It can be described as a “fantasy console", a reinterpretation of the NES / Ma
 
 ---
 
-### MVEM
+### MVEM (MicroVision EMulator)
 
 <img src="../microvision.png" width="600"> 
 

@@ -27,7 +27,7 @@ The RetroDECK Team have been hard at work.
 
 We have begun development on the upcoming major update, **0.11.0**.  
 
-This release is currently in active early development, with the team evaluating new features, improvements, and several unexpected things.
+This release is currently in active early development, with the team evaluating new features, improvements and several unexpected things.
 
 RetroDECK is a retro gaming platform not an "emulation platform". Our scope extends beyond emulation as that is just one part of RetroDECK. We are focusing on delivering a broader, more comprehensive retro gaming experience.
 

@@ -43,15 +43,23 @@ Is a modern open source 8-bit computer inspired by classic systems, designed for
 
 It can be described as a “fantasy computer”, a reinterpretation of the Commodore 64.
 
+The project sells physical hardware for purchase and an offers an official emulator that we are testing.
+
 
 ---
 
 
 ### GameTank
 
-In the contrast of Commander X16, GameTank is an open-source 8-bit game console built for homebrew development and education.
+<img src="../gametank.png" width="600"> 
+
+GameTank is an open-source 8-bit game console built for homebrew development and education.
 
 It can be described as a “fantasy console", a reinterpretation of the NES / Master System.
+
+The project sells physical hardware for purchase and an offers an official emulator that we are testing.
+
+*Déjà vu*
 
 ---
 

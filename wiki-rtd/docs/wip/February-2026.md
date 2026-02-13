@@ -4,7 +4,7 @@ date: 2026-02-27
 
 --- 
 
-# February 2026: Working on 0.11.0
+# February 2026: Strange Components from Beyond the Ether
 
 The RetroDECK Team have been hard at work. 
 
@@ -14,10 +14,10 @@ The RetroDECK Team have been hard at work.
 
 **News**
 
-- The 0.10.0b Release - Aftermath 
-- Development News? 
-- Media Coverage
-- Experiment Showcase: Rámon van Raaij's RetroDECK Console
+- Development Update: 0.11.0
+- Commander X16
+- GameTank
+- MVEM
 
 <!-- more -->
 
@@ -93,8 +93,6 @@ Thank you to everyone for your continued support.
 [retrodeck.net](https://retrodeck.net/)
   
 [Discord](https://discord.gg/WDc5C9YWMx) 
-
-[Stoat](https://rvlt.gg/StVaEc0w) 
 
 [GitHub](https://github.com/RetroDECK/RetroDECK) 
 

@@ -59,19 +59,21 @@ It can be described as a “fantasy console", a reinterpretation of the NES / Ma
 
 <img src="../microvision.png" width="600"> 
 
-MVEM is a very very unkown emulator for the the Microvision, it was the first handheld console with interchangeable cartridges, released in 1979.
+MVEM is a very very unkown emulator for the Milton Bradley Microvision, it was the first handheld console with interchangeable cartridges, released in 1979 with a resolution of: **16x16** px.
 
-It was first developed by **Paul Robson** in 2014 and later enchanced by **Raph Koster** in 2017.
+The Gameboy released 10 years later in 1989 that had a resolution of: **160x144** px.
 
-While some historical builds were produced for RetroPie ARM Linux by enthusiasts as an addon back in 2021. 
+The emulator was first developed by **Paul Robson** back in 2014 and later enchanced by **Raph Koster** in 2017.
 
-Neither of the old makefiles did not work in initial attempts of trying to build it, however, we later resolved the issues and successfully produced a working binary in a VM and got it to run in RetroDECK.
+Some historical builds were produced for RetroPie ARM Linux by enthusiasts as an none offical addon back in 2021. 
 
-Controller support should not be expected, this little hidden gem was made for a keyboard.
+Neither of the old makefiles did not work in initial attempts of trying to build it, however, we later resolved the issues with some elbow grease and successfully produced a working binary in a VM and got it to run in RetroDECK.
 
 This may be the first time MVEM has been bundled in a setup like ours on a x86_64 Linux environment. 
 
 We are excited to bring it into RetroDECK, offering you access to this unique piece of hardware history.
+
+Good controller support should not be expected, this little hidden gem emulator was made for a keyboard.
 
 ---
 

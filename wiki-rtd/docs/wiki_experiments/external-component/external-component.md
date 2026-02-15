@@ -29,7 +29,7 @@ These experiments are created by the RetroDECK Team and/or Community. The guides
 
 ### Who is this for?
 
-This guide is intended for advanced users who are comfortable experimenting, modifying configurations, and troubleshooting. With sufficient technical expertise, it enables the integration of virtually any compatible component into RetroDECK.
+This guide is intended for advanced users / other developers / tinkerers who are comfortable experimenting, modifying configurations, and troubleshooting. With sufficient technical expertise, it enables the integration of virtually any compatible component into RetroDECK.
 
 
 ---
@@ -48,7 +48,7 @@ If implemented correctly and in accordance with RetroDECK’s guidelines, a comp
 
 It also enables the addition of components beyond RetroDECK’s official scope, including software that cannot be distributed by the project due to licensing constraints, proprietary restrictions (that you own but we can't put in the project), or differences in project vision.
 
-This approach grants ULIMITED POWER the tinkering and development community while preserving the integrity of the core framework.
+This approach grants ULIMITED POWER the creative community while preserving the integrity of the core framework.
 
 The power is in your hands!
 

@@ -48,7 +48,7 @@ It also enables the addition of components beyond RetroDECK’s official scope, 
 
 This approach grants ULIMITED POWER the creative community while preserving the integrity of the core framework.
 
-If implemented correctly and in accordance with RetroDECK’s guidelines, a component may be submitted to the RetroDECK team for review and potential inclusion as an official component in the future as the process is the same.
+If implemented correctly and in accordance with RetroDECK’s guidelines, a component may be submitted to the RetroDECK team for review and potential inclusion as an official component in the future.
 
 
 The power is in your hands!

@@ -150,7 +150,6 @@ You will need to:
 2. Modify the command labels values:
 
     - Point it towards the `%EMULATOR_YOURCOMPONENT%` system.
-    - Add the `Launch Command` of the external component. 
     - Change the label="" so it ends with (External) or any other name you want.
     
 3. Save and close the file.

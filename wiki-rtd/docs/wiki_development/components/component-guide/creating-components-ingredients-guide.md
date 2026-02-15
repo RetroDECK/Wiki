@@ -39,11 +39,13 @@ This assumes you have already tested a component folder from:
 
 ---
 
-## Step 1: RetroDECK Alchemist & RetroDECK Hunter and component_recipe.json 
+## Step 1: The RetroDECK Alchemist
+
+Create the artifact.
 
 **Read more here:** 
 
-- [Guide: Alchemist & component_recipe.json](../alchemist/component-alchemist-guide.md)
+- [Guide: Alchemist & component_recipe.json](../alchemist/alchemist-guide.md)
 
 ---
 

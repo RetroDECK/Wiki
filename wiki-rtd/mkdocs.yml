@@ -423,6 +423,7 @@ nav:
       - Launch Steam - Games: wiki_experiments/desktop-launch/desktop-launch-steam.md
       - Launch Lutris - Games: wiki_experiments/desktop-launch/desktop-launch-lutris.md
     - Launch External Emulators: wiki_experiments/external-emulator/external-emulator.md
+    - Launch External Components: wiki_experiments/external-component/external-component.md
     - Rámons RetroDECK Console: wiki_experiments/ramon-console/ramon-console.md
     - Run RetroDECK in WSL:  wiki_experiments/retrodeck-wsl/retrodeck-wsl.md
 
@@ -460,7 +461,7 @@ nav:
       - SET setting_value: wiki_development/api/set-setting-value.md
 
     - RetroDECK Alchemist:
-      - Guide - RetroDECK Alchemist: wiki_development/components/alchemist/component-alchemist-guide.md
+      - RetroDECK Alchemist - General Guide: wiki_development/components/alchemist/alchemist-guide.md
 
     - Creating Components Guide:
       - Step 1 - Creating Components: wiki_development/components/component-guide/creating-components-guide.md

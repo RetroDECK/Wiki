@@ -42,13 +42,13 @@ This method remains fully contained within the RetroDECK Flatpak environment and
 
 Because this approach leverages the same internal tooling used by RetroDECK itself, it provides a high degree of flexibility and integration opportunities.
 
-This way exposes RetroDECK’s framework through the dedicated directory, creating an open integration point that allows advanced users to interact directly with the internal framework in a structured and controlled manner.
+This exposes RetroDECK’s framework through the dedicated directory, creating an open integration point that allows advanced users / other developers / tinkerers to interact directly with the internal framework in a structured and controlled manner.
 
 If implemented correctly and in accordance with RetroDECK’s guidelines, a component may be submitted to the RetroDECK team for review and potential inclusion as an official component in the future as the process is the same.
 
-It also enables the addition of components beyond RetroDECK’s official scope, including software that cannot be distributed by the project due to licensing constraints, proprietary restrictions, or differences in project vision.
+It also enables the addition of components beyond RetroDECK’s official scope, including software that cannot be distributed by the project due to licensing constraints, proprietary restrictions (that you own but we can't put in the project), or differences in project vision.
 
-This approach grants ULIMITED POWER the tinkering community while preserving the integrity of the core framework.
+This approach grants ULIMITED POWER the tinkering and development community while preserving the integrity of the core framework.
 
 The power is in your hands!
 
@@ -108,7 +108,12 @@ You will need to:
 ---
 
 
+## How-to: Edit `es_find_rules.xml` file
 
+### Step 1: Open `es_find_rules.xml`
+
+
+---
 
 
 ## How-to: Edit es_systems.xml file
@@ -117,7 +122,7 @@ You will need to:
 
 1. Go to the ES-DE custom_systems via the path `retrodeck/ES-DE/custom_systems/`.
 
-2. Find and open `es_systems.xml` in both places.
+2. Find and open `es_systems.xml`.
 
 3. Search for and find the system entry you want to add an external system to in the ES-DE Linux Folder.
 
@@ -144,8 +149,8 @@ You will need to:
 
 2. Modify the command labels values:
 
-    - Point it towards the `%EMULATOR_FLATPAK-SPAWN% --host` system.
-    - Add the `Launch Command` of the external emulator (check How-to). 
+    - Point it towards the `%EMULATOR_YOURCOMPONENT%` system.
+    - Add the `Launch Command` of the external component. 
     - Change the label="" so it ends with (External) or any other name you want.
     
 3. Save and close the file.

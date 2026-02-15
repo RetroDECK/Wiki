@@ -153,7 +153,6 @@ An emulator is software that replicates the behavior of a specific system, wheth
 | **PPSSPP** | <img src="../../wiki_images/logos/ppsspp-logo.png" width="50"> | PSP emulator PPSSPP. | [PPSSPP - General Guide](../wiki_emulator_guides/ppsspp/ppsspp-guide.md) |
 | **RPCS3** | <img src="../../wiki_images/logos/rpcs3-logo.png" width="50"> | PlayStation 3 emulator RPCS3. | [RPCS3 - General Guide](../wiki_emulator_guides/rpcs3/rpcs3-guide.md) |
 | **Ruffle** | <img src="../../wiki_images/logos/ruffle-logo.svg" width="50"> | Flash emulator Ruffle. | [Ruffle - General Guide](../wiki_emulator_guides/ruffle/ruffle-guide.md) |
-| **Ryubing** | <img src="../../wiki_images/logos/ryubing-logo.webp" width="50"> | Switch emulator Ryubing. | [Ryubing - General Guide](../wiki_emulator_guides/ryubing/ryubing-guide.md) |
 | **Vita3k** | <img src="../../wiki_images/logos/vita3k-logo.png" width="50"> | PlayStation Vita emulator Vita3k. | [Vita3k - General Guide](../wiki_emulator_guides/vita3k/vita3k-guide.md) |
 | **XEMU** | <img src="../../wiki_images/logos/xemu-logo.png" width="50"> | Xbox emulator XEMU. | [XEMU - General Guide](../wiki_emulator_guides/xemu/xemu-guide.md) |
 | **XRoar** | <img src="../../wiki_images/logos/xroar-tano64-logo.jpg" width="100"> | Dragon & Tandy emulator XRoar. | [XRoar - General Guide](../wiki_emulator_guides/xroar/xroar-guide.md) |

@@ -44,11 +44,12 @@ Because this approach leverages the same internal tooling used by RetroDECK itse
 
 This exposes RetroDECK’s framework through the dedicated directory, creating an open integration point that allows advanced users / other developers / tinkerers to interact directly with the internal framework in a structured and controlled manner.
 
-If implemented correctly and in accordance with RetroDECK’s guidelines, a component may be submitted to the RetroDECK team for review and potential inclusion as an official component in the future as the process is the same.
-
-It also enables the addition of components beyond RetroDECK’s official scope, including software that cannot be distributed by the project due to licensing constraints, proprietary restrictions (that you own but we can't put in the project), or differences in project vision.
+It also enables the addition of components beyond RetroDECK’s official scope, including software that cannot be distributed by the project due to licensing constraints (maybe you want to put software that you bought into RetroDECK), or differences in project vision (maybe you want to add Kodi to watch movies).
 
 This approach grants ULIMITED POWER the creative community while preserving the integrity of the core framework.
+
+If implemented correctly and in accordance with RetroDECK’s guidelines, a component may be submitted to the RetroDECK team for review and potential inclusion as an official component in the future as the process is the same.
+
 
 The power is in your hands!
 

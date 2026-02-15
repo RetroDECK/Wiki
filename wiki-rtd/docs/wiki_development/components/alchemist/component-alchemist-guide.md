@@ -35,6 +35,71 @@ To always chase the freshest ingredients all the time is a fool’s errand and w
 
 ---
   
+
+## Running Locally
+
+Follow the steps below to build a component artifact locally using **Alchemist**.
+
+### 1. Download Alchemist
+
+Clone or download the Alchemist automation tools directory from the RetroDECK repository: [Cooker: Alchemist](https://github.com/RetroDECK/components/tree/cooker/automation-tools/alchemist)
+
+### 2. Prepare Your Component Directory
+
+Place the component directory (containing the recipe and ingredient files) inside the `alchemist` directory using the following structure:
+
+`alchemist/<new-component-directory>/<files>`
+
+Your component directory must include a `component_recipe.json` and the other ingredient files.
+
+### 3. Build the Artifact
+
+From within the `alchemist` directory, run:
+
+`./alchemist.sh -f <component-directory>/component_recipe.json`
+
+### 4. Output
+
+After a successful build, the generated artifact will be available at:
+
+`<component-directory>/artifact/<component-artifact>.tar.gz`
+
+
+### 5. Extract the Artifact
+
+Extract the generated artifact: `<component-artifact>.tar.gz`
+
+This will create a new component directory.
+
+
+### 6. Install the Component
+
+Move the extracted component directory into RetroDECK’s internal `components` directory.
+
+**Note:**  
+
+The installation path depends on whether RetroDECK is installed locally (user) or system-wide.  
+A system-wide installation requires `sudo` privileges to modify files.
+
+| **Directory Name** | **Path (Local Install)** | **Path (System Install)** | **Comment** |
+|--------------------|--------------------------|---------------------------|-------------|
+| `components` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/` | RetroDECK components directory |
+
+### 7. Launch RetroDECK
+
+Start RetroDECK after installation. If everything is configured correctly, RetroDECK will automatically detect and load the newly installed component.
+
+If the component does not appear in the frontend, you may need to update the ES-DE custom configuration files to register the new component.
+
+**Configuration files:**
+
+`retrodeck/ES-DE/custom_systems/es_find_rules.xml`
+`retrodeck/ES-DE/custom_systems/es_systems.xml`
+
+Add the appropriate entries to ensure the new component is properly defined and discoverable within ES-DE.
+
+---
+
 ## Creating a new componment_recipe.json tips
 
 ---

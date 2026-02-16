@@ -19,37 +19,39 @@ These experiments are created by the RetroDECK Team and/or Community. The guides
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
 | **ES-DE Custom Systems:**   |`retrodeck/ES-DE/custom_systems/` | `es_find_rules.xml` `es_systems.xml` |  
-| **ES-DE User Application:** ES-DE Linux Folder |`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` |  
-| **ES-DE System Application:** ES-DE Linux Folder  |`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` | 
+| **ES-DE Linux Directory:**  |**ES-DE User Install:** `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | <br> **ES-DE System Install:** `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` | 
 | **External Components:**   |`retrodeck/storage/retrodeck/external_components` | Put your component folders here |  
 
 ---
 
 ## Questions
 
-### Who is this for?
+### Who Is This For?
 
-This guide is intended for advanced users / other developers / tinkerers who are comfortable experimenting, modifying configurations, and troubleshooting. With sufficient technical expertise, it enables the integration of virtually any compatible component into RetroDECK.
+This guide is intended for advanced users, developers, and tinkerers who are comfortable experimenting, modifying configurations, and troubleshooting.
+
+With sufficient technical expertise, this method enables the integration of virtually any compatible component into RetroDECK.
 
 
 ---
 
-### What Is the Difference from the “Adding External Emulators” Experiment?
+### What Is the Difference from the “Launching External Emulators” Experiment?
 
 The difference is substantial.
 
-This method remains fully contained within the RetroDECK Flatpak environment and does not require modifying or breaking it open using `flatpak-spawn`. The component is launched directly through RetroDECK and is treated as a native component by the framework.
+This method remains fully contained within the RetroDECK Flatpak environment and does **not** require modifying or breaking the sandbox using `flatpak-spawn`. 
 
-Because this approach leverages the same internal tooling used by RetroDECK itself, it provides a high degree of flexibility and integration opportunities.
+By leveraging the same internal tooling used by RetroDECK itself, any added component is treated as a native component by the framework and exposing RetroDECK’s framework through the dedicated directory:
 
-This exposes RetroDECK’s framework through the dedicated directory, creating an open integration point that allows advanced users / other developers / tinkerers to interact directly with the internal framework in a structured and controlled manner.
+`retrodeck/storage/retrodeck/external_components`. 
+
+This creates an open integration point that allows advanced users, developers, and tinkerers to interact directly with the internal framework in a structured and controlled manner, without modifying the read-only filesystem.
 
 It also enables the addition of components beyond RetroDECK’s official scope, including software that cannot be distributed by the project due to licensing constraints, or differences in project vision (maybe you want to add Kodi to watch movies).
 
 This approach grants ULIMITED POWER the creative community while preserving the integrity of the core framework.
 
-If implemented correctly and in accordance with RetroDECK’s guidelines, a component may be submitted to the RetroDECK team for review and potential inclusion as an official component in the future.
-
+If a component you implemented is done correctly in accordance with RetroDECK’s guidelines, such a components recipe and ingredient files may be submitted to the RetroDECK team for review and potential inclusion as an official component in the future.
 
 The power is in your hands!
 
@@ -59,17 +61,17 @@ The power is in your hands!
 
 As a regular user, you can benefit from content and configurations created by others without needing advanced technical knowledge.
 
-Community members can share pre-configured packages in something like a `.zip` archive that include all required files and settings. To use them, you typically only need to:
+Community members can share pre-configured packages in something like a `.zip` or `.tar.gz` archive that include all required files and settings. To use them, you typically only need to:
 
 1. Place the provided extracted folder into a designated directory: `retrodeck/storage/retrodeck/external_components`
 2. Edit one or two of ES-DE configuration files to integrate the new content in: `retrodeck/ES-DE/custom_systems/` 
 
-#### Example
+#### Example: Kodi
 
 A user may share a `.zip` archive containing a fully configured component of **Kodi** with all required RetroDECK files included. In this case, you would:
 
 1. Extract the archive into: `retrodeck/storage/retrodeck/external_components/Kodi`
-2. Copy and paste the provided configuration lines into two specified files: `retrodeck/ES-DE/custom_systems/`
+2. Copy and paste the provided ES-DE configuration lines into two specified files: `retrodeck/ES-DE/custom_systems/`
 
 After completing these steps, the system magically appear and function correctly within RetroDECK.
 
@@ -86,13 +88,13 @@ You will need to:
 
 - Provide a runnable component (binary, AppImage, or equivalent).
 
-- Create all required support files and directory structures so RetroDECK can detect and launch the component.
+- Create all required component recipe and ingredient files and directory structures so RetroDECK can detect and launch the component.
 
 - Build or obtain the component using one of the following methods:
 
 | Type    |        Comment     | 
 |  :---:  |              :---:     |
-| **Build with RetroDECK Alchemist**   | Recommended |  
+| **Build with RetroDECK Alchemist**   | Only recommended method |  
 | **Extract from an AppImage**   || 
 | **Reuse files from a Flatpak package**  | |  
 | **Use a precompiled/downloaded binary**   |  |  
@@ -102,7 +104,7 @@ You will need to:
 
 - Manually update ES-DE custom system configurations to enable detection of the new component.
 
-- Manually configure input mappings, hotkeys, config files and directory paths to align with RetroDECK’s expected structure.
+- Manually configure input mappings, hotkeys, config files and directory paths to align with RetroDECK’s expected structure and hotkey bindings.
 
 
 

@@ -19,7 +19,7 @@ These experiments are created by the RetroDECK Team and/or Community. The guides
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
 | **ES-DE Custom Systems:**   |`retrodeck/ES-DE/custom_systems/` | `es_find_rules.xml` `es_systems.xml` |  
-| **ES-DE Linux Directory:**  |**ES-DE User Install:** `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | <br> **ES-DE System Install:** `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` | 
+| **ES-DE Linux Directory:**  |**ES-DE User Install:**<br> `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` <br><br> **ES-DE System Install:** <br>`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/es-de/resources/systems/linux/` | `es_find_rules.xml` `es_systems.xml` | 
 | **External Components:**   |`retrodeck/storage/retrodeck/external_components` | Put your component folders here |  
 
 ---

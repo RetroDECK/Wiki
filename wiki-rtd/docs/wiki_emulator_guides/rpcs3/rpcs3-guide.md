@@ -90,13 +90,13 @@ There are two ways to install the firmware:
 | Dev_flash2  | `retrodeck/storage/rpcs3/dev_flash2`        |                                          |
 | Dev_flash3  | `retrodeck/storage/rpcs3/dev_flash3`        |                                          |
 | Dev_hdd0    | `retrodeck/storage/rpcs3/dev_hdd0`          |                                          |
-| Trophy   | `retrodeck/storage/rpcs3/dev_hdd0/home/00000001/trophy/`          |                                |
 | Dev_hdd1    | `retrodeck/storage/rpcs3/dev_hdd1`          |                                          |
 | Dev_usb000  | `retrodeck/storage/rpcs3/dev_usb000`        |                                          |
 | Patches     | `retrodeck/storage/rpcs3/patches`           |                                          |
 | ROMs        | `retrodeck/roms/ps3/`                       |                                          |
 | Saves       | `retrodeck/saves/ps3/rpcs3/`                |                                          |
 | States      | `retrodeck/states/ps3/rpcs3/`               |                                          |
+| Trophy   | `retrodeck/storage/rpcs3/dev_hdd0/home/00000001/trophy/`          |                                |
 
 
 ---

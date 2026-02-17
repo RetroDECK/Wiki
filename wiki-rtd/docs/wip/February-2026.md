@@ -85,6 +85,17 @@ Good controller support should not be expected, this little hidden gem emulator 
 
 ---
 
+
+### Visual Pinball X 
+
+<img src="../vpinballx-mrbubble.png" width="600"> 
+
+Visual Pinball X (vpx) is an virtual pinball (vpinball) engine that simulates pinball tables.
+
+
+
+---
+
 ## That is all for now 
 
 There are more things we are working on, but you will see them in future blog updates!

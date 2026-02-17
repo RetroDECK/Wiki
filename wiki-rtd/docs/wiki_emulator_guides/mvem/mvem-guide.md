@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/microvision-logo.png" width="150">
 
-MVEM is a experimental Microvision / Milton Bradley Microvision / MB Microvision emulator running in a maxium **640x480** window.
+MVEM is a experimental Microvision / Milton Bradley Microvision / MB Microvision emulator.
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 
@@ -33,7 +33,9 @@ Microvision games should be put under the `retrodeck/roms/microvision/` director
 | File Format | Description |
 |-------------|-------------|
 | .bin        | Binary rom file |
-| .bmp        | Overlays |
+| <gamename>.bmp        | Overlays |
+|<gamename>_snap.bmp        | Snap Overlays |
+
 
 ---
 
@@ -51,7 +53,7 @@ No
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
-| ROMs   | `retrodeck/roms/microvision/`                             |               |
+| ROMs   | `retrodeck/roms/microvision/`       |      Games and Overlays         |
 
 ---
 
@@ -59,24 +61,28 @@ No
 
 Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
 
-The emulator controls are **hardcoded**.
+**Exit the emulator**
 
-**Analog Controls**
+  - `CTRL + Q`
+  - `ESC`
 
-- **Mouse** - Move left/right  
-- **Keyboard** - `O` (left), `P` (right)
-- **Esc** - Exit the emulator
+**Move Knob left/right**
+
+  - Mouse
+  - Keyboard: `O` (left), `P` (right)
+
 
 **Microvision Control Pad**
 
 The Microvision keypad is arranged as **3 columns × 4 rows** and mapped as follows:
 
-| Row | Keys |
-|-----|------|
-| 1   | `1 2 3` |
-| 2   | `Q W E` |
-| 3   | `A S D` |
-| 4   | `Z X C` |
+| Row | Col 1 Keys | Col 2 Keys | Col 3 Keys |
+|-----|------------|------------|------------|
+| 1   |     `1`    |     `2`    |     `3`    |
+| 2   |     `Q`    |     `W`    |     `E`    |
+| 3   |     `A`    |     `S`    |     `D`    |
+| 4   |     `Z`    |     `X`    |     `C`    |
+
 
 ---
 
@@ -84,12 +90,12 @@ The Microvision keypad is arranged as **3 columns × 4 rows** and mapped as foll
 
 Debug mode is accessed with **M**. It is generally recommended to avoid this mode unless needed.
 
-- **0–9, A–F** - Change displayed address  
-- **G** - Run program until interrupted (with **M**)  
-- **K** - Set breakpoint at current address  
-- **S** - Single-step execution  
-- **V** - Step over  
-- **M** - Return to monitor (if running)  
-- **Esc** - Exit Debug Mode
+- **Change displayed address** - `0–9`, `A–F`
+- **Exit Debug Mode** - `Esc`
+- **Return to monitor (if running)** - `M`
+- **Run program until interrupted** - `G` (interrupt with `M`)
+- **Set breakpoint at current address** - `K`
+- **Single-step execution** - `S`
+- **Step over** - `V`
 
 ---

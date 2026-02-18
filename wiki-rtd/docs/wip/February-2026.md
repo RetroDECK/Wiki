@@ -86,12 +86,19 @@ Good controller support should not be expected, this little hidden gem emulator 
 ---
 
 
-### Visual Pinball X 
+### Visual Pinball X
 
-<img src="../vpinballx-mrbubble.png" width="600"> 
+<img src="../vpinballx-mrbubble.png" width="600">
 
-Visual Pinball X is an virtual pinball engine that simulates pinball tables.
+Visual Pinball X (VPX) is a virtual pinball engine designed to accurately simulate real-world pinball tables with advanced physics, lighting, and scripting support.
 
+The RetroDECK team is looking for community contributions and expertise in configuring **VPinballX.ini** for:
+
+- Steam Deck and other Linux-based handheld devices  
+- Linux desktop systems  
+- Linux-powered virtual pinball machines (LVPs)  
+
+If you have that experience please contact us and see if we can make a global applicable configuration.
 
 
 ---

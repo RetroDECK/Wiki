@@ -73,11 +73,11 @@ The Gameboy released 10 years later in 1989 that had a resolution of: **160x144*
 
 The emulator was first developed by **Paul Robson** back in 2014 and later enchanced by **Raph Koster** in 2017.
 
-Some historical builds were produced for RetroPie ARM Linux by enthusiasts as an none offical addon back in 2021. 
+Some historical builds were produced for RetroPie Linux ARM by enthusiasts as an none official addon back in 2021. 
 
 Neither of the old makefiles did not work in initial attempts of trying to build it, however, we later resolved the issues with some elbow grease and successfully produced a working binary in a VM and got it to run in RetroDECK.
 
-This may be the first time MVEM has been bundled in a setup like ours on a x86_64 Linux environment. 
+This may be the first time MVEM has been bundled in a setup like ours on a Linux x64 environment. 
 
 We are excited to bring it into RetroDECK, offering you access to this unique piece of hardware history.
 

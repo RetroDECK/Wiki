@@ -364,9 +364,6 @@ nav:
     - Ruffle:
       - Ruffle - General Guide: wiki_emulator_guides/ruffle/ruffle-guide.md
 
-    - Ryubing:
-      - Ryubing - General Guide: wiki_emulator_guides/ryubing/ryubing-guide.md
-
     - Vita3K:
       - Vita3K - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
 
@@ -510,10 +507,9 @@ nav:
     - Citra:
       - Citra - General Guide: wiki_archive/citra/citra-guide.md
 
-    - Yuzu:
+    - Switch:
       - Yuzu - General Guide: wiki_archive/yuzu/yuzu-guide.md
-
-    - Ryujinx:
       - Ryujinx - General Guide: wiki_archive/ryujinx/ryujinx-guide.md
+      - Ryubing - General Guide: wiki_archive/ryubing/ryubing-guide.md
 
     - Ponzu AppImage Loader: wiki_archive/ponzu/ponzu-guide.md

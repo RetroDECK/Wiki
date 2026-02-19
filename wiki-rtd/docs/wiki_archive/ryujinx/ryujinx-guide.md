@@ -6,11 +6,7 @@ Ryujinx was a Switch emulator.
 
 **Note: Archived Emulator**
 
-As of RetroDECK `0.9.0b` Ryujinx was marked as Legacy and has stopped it's development.
-
-It also did not work a 100% as it should as the update that where supposed to fix symlink issues never materialized. 
-
-As of RetroDECK `0.10.0b` Ryujinx has been removed and replaced with Ryubing.
+As of RetroDECK `0.9.0b` Ryujinx was removed from RetroDECK.
 
 ## Where to put the games?
 

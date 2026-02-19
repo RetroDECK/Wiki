@@ -2,7 +2,11 @@
 
 <img src="../../../wiki_images/logos/ryubing-logo.webp" width="100">
 
-Ryubing is Switch emulator.
+Ryubing was a Switch emulator.
+
+**Note: Archived Emulator**
+
+As of RetroDECK `0.10.4b` Ryubing was and all Switch emulation support was removed from RetroDECK.
 
 ---
 

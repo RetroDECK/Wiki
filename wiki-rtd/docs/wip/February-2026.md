@@ -18,6 +18,7 @@ The RetroDECK Team have been hard at work.
 - Commander X16
 - GameTank
 - MVEM
+- Visual Pinball X
 
 <!-- more -->
 
@@ -67,7 +68,7 @@ The project sells physical hardware for purchase and an offers an official emula
 
 <img src="../microvision.png" width="600"> 
 
-MVEM is a very very unkown emulator for the Milton Bradley Microvision, it was the first handheld console with interchangeable cartridges, released in 1979 with a resolution of: **16x16** px.
+MVEM is a very very very... unkown emulator for the Milton Bradley Microvision, it was the first handheld console with interchangeable cartridges, released in 1979 with a resolution of: **16x16** px.
 
 The Gameboy released 10 years later in 1989 that had a resolution of: **160x144** px.
 
@@ -77,7 +78,7 @@ Some historical builds were produced for RetroPie Linux ARM by enthusiasts as an
 
 Neither of the old makefiles did not work in initial attempts of trying to build it, however, we later resolved the issues with some elbow grease and successfully produced a working binary in a VM and got it to run in RetroDECK.
 
-This may be the first time MVEM has been bundled in a setup like ours on a Linux x64 environment. 
+This may be the first time MVEM has been bundled in a setup like ours on a Linux x64 environment? Or? We don't know... anyhow... 
 
 We are excited to bring it into RetroDECK, offering you access to this unique piece of hardware history.
 

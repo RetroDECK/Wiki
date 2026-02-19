@@ -1,6 +1,6 @@
 # RetroDECK Boot Splash / Logo
 
-<img src="../../../wiki_images/logos/rd-esde-logo.svg" width="300">
+<img src="../../../../wiki_images/logos/rd-esde-logo.svg" width="300">
 
 ## Main splash location
 
@@ -17,15 +17,16 @@ The function is part of the [config/retrodeck/reference_lists/features.json](htt
 The `splash_screens"`  looks in the reference .svg files under: [res/extra_splashes/](https://github.com/RetroDECK/RetroDECK/blob/main/res/extra_splashes/) and overrides the bootlogo with one of the .svg files from the referense list.
 
 ```
-name_of_holiday": {
+"splash_screens": {
     "new_year": {
       "start_date": "MMDD",
       "end_date": "MMDD",
       "start_time": "MMDD",
       "end_time": "MMDD",
+      "holiday_type": "stable",
       "filename": "placeholder.svg"
-
-
+      }
+    }
 ```
 
 
@@ -38,18 +39,113 @@ name_of_holiday": {
       "end_date": "0101",
       "start_time": "0000",
       "end_time": "2359",
-      "filename": "newyear.svg"
+      "holiday_type": "stable",
+      "filename": "placeholder.svg"
     },
-    "chinese_new_year_snake": {
-      "start_date": "0209",
-      "end_date": "0212",
+    "up_helly_aa": {
+      "start_date": "0127",
+      "end_date": "0127",
       "start_time": "0000",
       "end_time": "2359",
-      "filename": "rd-lunar-snake-splash.svg"
-    },
+      "holiday_type": "dynamic",
+      "filename": "rd-up-helly-aa-splash.svg"
+    }
+  }
 ```
 
-Here we show both the New Year and Lunar New Year
+Here we show both the New Year and Up Helly Aa
+
+---
+
+## Field Reference
+
+### `start_date`
+
+- **Format:** `MMDD`  
+- **Description:** Calendar start date (Month + Day) when the splash screen becomes eligible for display.
+
+---
+
+### `end_date`
+
+- **Format:** `MMDD`  
+- **Description:** Calendar end date (Month + Day) when the splash screen expires.  
+
+Supports cross-year ranges (e.g., `1231` → `0101`).
+
+---
+
+### `start_time`
+
+- **Format:** `HHMM` (24-hour clock)  
+- **Description:** Daily activation time.
+
+**Examples:**
+
+- `0000` → Midnight  
+- `0900` → 9:00 AM  
+- `2359` → 11:59 PM  
+
+---
+
+### `end_time`
+
+- **Format:** `HHMM` (24-hour clock)  
+- **Description:** Daily deactivation time.
+
+---
+
+### `holiday_type`
+
+- **Allowed Values:** `stable`, `dynamic`  
+
+| Value    | Meaning |
+|----------|----------|
+| `stable` | Occurs on the same calendar date every year. |
+| `dynamic` | Date may change year-to-year. |
+
+#### Overlapping Holiday Handling
+
+If a `stable` (or multi-day `dynamic`) holiday spans across another holiday’s date range, it is recommended to split and re-declare the remaining span after the conflicting holiday rather than relying on overlap resolution.
+
+This avoids priority ambiguity and ensures deterministic rendering behavior. Single-day holidays should always take precedence over multi-day spans (whether `stable` or `dynamic`).
+
+**Example (span split to avoid overlap):**
+
+```
+"chinese_new_year": {
+  "start_date": "0207",
+  "end_date": "0208",
+  "start_time": "0000",
+  "end_time": "2359",
+  "holiday_type": "dynamic",
+  "filename": "rd-lunar-goat-splash.svg"
+},
+"carnival": {
+  "start_date": "0209",
+  "end_date": "0209",
+  "start_time": "0001",
+  "end_time": "2359",
+  "holiday_type": "dynamic",
+  "filename": "rd-carnival-splash.svg"
+},
+"chinese_new_year_2": {
+  "start_date": "0210",
+  "end_date": "0210",
+  "start_time": "0000",
+  "end_time": "2359",
+  "holiday_type": "dynamic",
+  "filename": "rd-lunar-goat-splash.svg"
+}
+```
+
+
+---
+
+### `filename`
+
+- **Description:** File name of the splash screen asset  `rd-<splashname>.svg` from `/res/extra_splashes/`.  
+
 
 ---
 
@@ -74,7 +170,7 @@ We extend our gratitude to all contributors who make these open‑art assets ava
 
 ### Standard Logo
 
-<img src="../../../wiki_images/logos/rd-logo-box.png" width="500">
+<img src="../wiki_images/logos/rd-logo-box.png" width="500">
 
 **Artists that contributed:**<br>
 
@@ -94,7 +190,7 @@ The following contributors played important roles in the development of the firs
 ### Up Helly Ah
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-up-helly-aa-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-up-helly-aa-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -105,7 +201,7 @@ Artists: RetroDECK Team: Lazorne
 ### Setsubun - 節分
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-setsubun-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-setsubun-splash.svg" width="500">
 
 Artists: RetroDECK Team: XargonWan
 
@@ -117,7 +213,7 @@ Artists: RetroDECK Team: XargonWan
 
 <details><summary> Spoiler </summary>
 
-<img src="../../../wiki_images/extra_splashes/rd-lunar-dragon-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-lunar-dragon-splash.svg" width="500">
 
 Artists: Weestuarty
 
@@ -129,7 +225,7 @@ Artists: Weestuarty
 
 <details><summary> Spoiler </summary>
 
-<img src="../../../wiki_images/extra_splashes/rd-lunar-snake-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-lunar-snake-splash.svg" width="500">
 
 Artists: RetroDECK Team: XargonWan
 
@@ -141,7 +237,7 @@ Artists: RetroDECK Team: XargonWan
 
 <details><summary> Spoiler </summary>
 
-<img src="../../../wiki_images/extra_splashes/rd-lunar-horse-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-lunar-horse-splash.svg" width="500">
 
 Artists: RetroDECK Team: XargonWan
 
@@ -152,7 +248,7 @@ Artists: RetroDECK Team: XargonWan
 ### Valentines Day
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-valentines-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-valentines-splash.svg" width="500">
 
 Artists: Weestuarty
 
@@ -163,7 +259,7 @@ Artists: Weestuarty
 ### RetroDECK's Birthday & International Game Masters's Day
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-gm-bday-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-gm-bday-splash.svg" width="500">
 
 Artists: Weestuarty
 
@@ -174,7 +270,7 @@ Artists: Weestuarty
 ### International Women's Day
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-womans-day-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-womans-day-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -186,7 +282,7 @@ Artists: RetroDECK Team: Lazorne
 ### St Patrick's Day
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-stpatricks-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-stpatricks-splash.svg" width="500">
 
 **Artists:**
 
@@ -199,7 +295,7 @@ Artists: RetroDECK Team: Lazorne
 ### Eid al-Fitr
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-eid-al-fitr-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-eid-al-fitr-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -213,7 +309,18 @@ Artists: RetroDECK Team: Lazorne
 ### Walpurgis Night
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-walpurgis-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-walpurgis-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### May day / International Workers Day / Labour Day
+
+<details><summary> Spoiler </summary>
+<img src="../wiki_images/extra_splashes/rd-mayday-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -225,7 +332,7 @@ Artists: RetroDECK Team: Lazorne
 ### Kodomo no Hi - こどもの日
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-kodomo-golden-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-kodomo-golden-splash.svg" width="500">
 
 Artists: RetroDECK Team: XargonWan
 
@@ -236,7 +343,7 @@ Artists: RetroDECK Team: XargonWan
 ### Cooper's Hill Cheese-Rolling and Wake
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-cheese-wake-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-cheese-wake-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -248,7 +355,7 @@ Artists: RetroDECK Team: Lazorne
 ### Midsommarafton
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-midsummer-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-midsummer-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -260,7 +367,7 @@ Artists: RetroDECK Team: Lazorne
 ### Dragon Boat Festival - 端午节
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-dragon-boat-festival-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-dragon-boat-festival-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -273,7 +380,7 @@ Artists: RetroDECK Team: Lazorne
 ### Running of the Bulls - El Encierro
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-running-bulls-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-running-bulls-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -284,7 +391,7 @@ Artists: RetroDECK Team: Lazorne
 ### Tanabata - たなばた
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-tanabata-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-tanabata-splash.svg" width="500">
 
 Artists: RetroDECK Team: XargonWan
 
@@ -295,7 +402,7 @@ Artists: RetroDECK Team: XargonWan
 ### La Tomatina
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-la-tomatina-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-la-tomatina-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -308,7 +415,7 @@ Artists: RetroDECK Team: Lazorne
 ### Halloween
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-halloween-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-halloween-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -319,7 +426,7 @@ Artists: RetroDECK Team: Lazorne
 ### Dia de los Muertos
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-dia-de-los-muertos-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-dia-de-los-muertos-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -331,7 +438,7 @@ Artists: RetroDECK Team: Lazorne
 ### Festival of Lights - Diwali
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-diwali-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-diwali-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -343,7 +450,7 @@ Artists: RetroDECK Team: Lazorne
 ### International Men's Day
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-mens-day-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-mens-day-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -355,7 +462,7 @@ Artists: RetroDECK Team: Lazorne
 ### Lucia
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-lucia-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-lucia-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 
@@ -367,7 +474,7 @@ Artists: RetroDECK Team: Lazorne
 ### Xmas - Holiday Period
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-xmas-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-xmas-splash.svg" width="500">
 
 Artists:  Weestuarty
 
@@ -380,7 +487,7 @@ Artists:  Weestuarty
 ### Pride
 
 <details><summary> Spoiler </summary>
-<img src="../../../wiki_images/extra_splashes/rd-pride-splash.svg" width="500">
+<img src="../wiki_images/extra_splashes/rd-pride-splash.svg" width="500">
 
 Artists: Weestuarty
 

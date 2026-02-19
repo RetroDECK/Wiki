@@ -14,8 +14,8 @@ The RetroDECK Team have been hard at work.
 
 **News**
 
-- Discord evaluation
-- Switch Emulation
+- Discord Evaluation
+- Switch Emulation Support - Will Be Removed
 - Development Update: 0.11.0
 - Commander X16
 - GameTank
@@ -27,7 +27,7 @@ The RetroDECK Team have been hard at work.
 
 --- 
 
-## Discord
+## Discord Evaluation
 
 We are currently evaluating alternatives to Discord, we have already had a Matrix instance since forever. But we are exploring other options as well. 
 

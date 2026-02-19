@@ -229,9 +229,9 @@ alias rddeb-strace='strace -o flatpak run --devel --command=sh net.retrodeck.ret
 # Deletes only the user data folder (~/.var/app/net.retrodeck.retrodeck).
 alias rdrm-var='rm -rf ~/.var/app/net.retrodeck.retrodeck/'
 
-# Usage: rdrm-flat
+# Usage: rdrm-flatpak
 # Removes only the RetroDECK flatpak package.
-alias rdrm-flat='flatpak remove net.retrodeck.retrodeck -y'
+alias rdrm-flatpak='flatpak remove net.retrodeck.retrodeck -y'
 
 # Usage: rdrm-all
 # Removes both the RetroDECK flatpak package AND its user data folder.
@@ -241,11 +241,15 @@ alias rdrm-all='flatpak remove net.retrodeck.retrodeck -y && rm -rf ~/.var/app/n
 # RetroDECK - Git Clone Shortcuts: Components
 # --------------------------------------------------------
 
-# Usage: rdg-cook-comp
+# Usage: rdg-comp-next
+# Clones the <user defined> branch of the components repo, need to be manually updated.
+alias rdg-cook-next='git clone -b 0.11.0 https://github.com/RetroDECK/components'
+
+# Usage: rdg-comp-cooker
 # Clones the `cooker` branch of the components repo.
 alias rdg-cook-comp='git clone -b cooker https://github.com/RetroDECK/components'
 
-# Usage: rdg-main-comp
+# Usage: rdg-comp-main
 # Clones the `main` branch of the components repo.
 alias rdg-main-comp='git clone -b main https://github.com/RetroDECK/components'
 
@@ -253,13 +257,17 @@ alias rdg-main-comp='git clone -b main https://github.com/RetroDECK/components'
 # RetroDECK - Git Clone Shortcuts: RetroDECK
 # --------------------------------------------------------
 
-# Usage: rdg-main-rdmain
+# Usage: rdg-main
 # Clones the `main` branch of the main RetroDECK repo.
 alias rdg-main-rdmain='git clone -b main https://github.com/RetroDECK/RetroDECK'
 
-# Usage: rdg-cook-cooker
+# Usage: rdg-cooker
 # Clones the `cooker` branch of the main RetroDECK repo.
-alias rdg-cook-cooker='git clone -b cooker https://github.com/RetroDECK/RetroDECK'
+alias rdg-cooker='git clone -b cooker https://github.com/RetroDECK/RetroDECK'
+
+# Usage: rdg-next
+# Clones the <user defined> branch of the main RetroDECK repo, need to be manually updated.
+alias rdg-next='git clone -b 0.11.0 https://github.com/RetroDECK/RetroDECK'
 
 # --------------------------------------------------------
 # RetroDECK - Git Clone Shortcuts: ES-DE Fork

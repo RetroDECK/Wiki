@@ -4,6 +4,24 @@
 
 ---
 
+## What is Reiki? 
+
+Reiki is a Gaming Cyber Shark.
+
+A Shark of Games, if you will.
+
+Her main feature is the modular dorsal fin, that she swaps to load the component she needs transforming her abilities and look in an instant. 
+
+- UZDoom module? It's demon slaying time!
+
+- C64 module? The power to collect star cells! 
+
+- Mega Drive module? Gotta go fast!
+
+Each fin grants her the perfect tools and skills for the challenge ahead, making her endlessly adaptable and always ready to dive headfirst into the next adventure.
+
+---
+
 ## Reiki the Cyber Shark - Names
 
 **English:** Reiki
@@ -78,14 +96,12 @@ If you replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yó
 
 ---
 
-## What is Reiki? 
-
-Reiki is a Robotic Gaming Cyber Shark a Shark of Games if you will.
-
-She has a replaceable dorsal fin that slots in the current component she want to use, giving her the right tools and skills for the task at hand. 
 
 ## Tyson Tan - Creator
 
 Check out the portfolio:
 
 - [Tyson Tan](https://tysontan.com/)
+- [Creative Commons BY-SA License](https://creativecommons.org/licenses/by-sa/4.0/)
+
+

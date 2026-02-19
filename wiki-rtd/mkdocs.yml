@@ -415,7 +415,7 @@ nav:
 
     - About Experiments: wiki_experiments/about-experiments.md
     - Autoboot into RetroDECK not Game Mode: wiki_experiments/retrodeck-gamemode-boot/retrodeck-gamemode-boot.md
-    - ES-DE Background Music:  wiki_experiments/retrodeck-music-player/retrodeck-music-player.md
+    - ES-DE Background Music: wiki_experiments/retrodeck-music-player/retrodeck-music-player.md
     - Launch Desktop Games & Apps:
       - Launch Flatpak - Games & Apps: wiki_experiments/desktop-launch/desktop-launch-flatpak.md
       - Launch Prism Launcher - Minecraft Instances: wiki_experiments/desktop-launch/desktop-launch-prism.md
@@ -424,7 +424,7 @@ nav:
       - Launch Lutris - Games: wiki_experiments/desktop-launch/desktop-launch-lutris.md
     - Launch External Emulators: wiki_experiments/external-emulator/external-emulator.md
     - Rámons RetroDECK Console: wiki_experiments/ramon-console/ramon-console.md
-    - Run RetroDECK in WSL:  wiki_experiments/retrodeck-wsl/retrodeck-wsl.md
+    - Run RetroDECK in WSL: wiki_experiments/retrodeck-wsl/retrodeck-wsl.md
 
   - RetroDECK Development 🪄:
 
@@ -491,7 +491,7 @@ nav:
       - component_update.sh: wiki_development/components/component-files/component-ingredient-update.md
 
     - Graphics:
-        - Easter Egg Splashes: wiki_development/graphics/easter-egg-splashes.md
+        - Easter Egg Splashes: wiki_development/graphics/easter-egg/easter-egg-splashes.md
 
     - Flatpak:
       - About RetroDECK Flatpak: wiki_development/flatpak/retrodeck-flatpak.md

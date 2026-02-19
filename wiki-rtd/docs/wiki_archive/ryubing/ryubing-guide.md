@@ -10,9 +10,13 @@ As of RetroDECK `0.10.4b` Ryubing was removed from RetroDECK and and Switch emul
 
 It was installed under: 
 
-**User:** `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/ryubing`
+**User:**
 
-**System:** `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/ryubing`
+`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/ryubing`
+
+**System:** 
+
+`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/ryubing`
 
 ---
 

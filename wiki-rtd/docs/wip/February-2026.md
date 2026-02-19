@@ -43,8 +43,6 @@ What follows are some of our early experiments. As always, we can't guarantee th
 
 <img src="../cx16.png" width="600"> 
 
-
-
 Is a modern open source 8-bit computer inspired by classic systems, designed for retro-style development and learning.
 
 It can be described as a “fantasy computer”, a reinterpretation of the Commodore 64.
@@ -55,9 +53,9 @@ The project sells physical hardware for purchase and an offers an official emula
 
 ## GameTank
 
-<img src="../gametank.png" width="600"> 
-
 *GameTank running in RetroDECK*
+
+<img src="../gametank.png" width="600"> 
 
 GameTank is an open-source 8-bit game console built for homebrew development and education.
 
@@ -71,9 +69,9 @@ The project sells physical hardware for purchase and an offers an official emula
 
 ## MVEM (MicroVision EMulator)
 
-<img src="../microvision.png" width="600"> 
-
 *MVEM running in RetroDECK*
+
+<img src="../microvision.png" width="600"> 
 
 MVEM is a very very very... unknown emulator for the Milton Bradley Microvision, it was the first handheld console with interchangeable cartridges, released in 1979 with a resolution of: **16x16** px.
 
@@ -95,9 +93,9 @@ Good controller support should not be expected, this little hidden gem emulator 
 
 ## Visual Pinball X
 
-<img src="../vpinballx-mrbubble.png" width="600">
-
 *Mr.Bubble fan game running in RetroDECK*
+
+<img src="../vpinballx-mrbubble.png" width="600">
 
 Visual Pinball X (VPX) is a virtual pinball engine designed to accurately simulate real-world pinball tables with advanced physics, lighting, and scripting support.
 
@@ -112,6 +110,8 @@ If you have that experience please contact us and see if we can make a global co
 ---
 
 ## Mudlet
+
+*MUME running in RetroDECK*
 
 <img src="../mume-rd.png" width="600">
 <img src="../mume-rd2.png" width="600">

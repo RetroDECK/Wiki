@@ -36,7 +36,7 @@ RetroDECK has always maintained the policy that the wiki serves as the single so
 
 ---
 
-## Switch Emulation Support – Will Be Removed
+## Switch Emulation Support - Will Be Removed
 
 After waiting a full year before introducing any support for Switch emulators, in order to determine whether such projects would continue to exist, we made the decision to add limited support for Ryubing in 0.10.0b. In light of recent developments, it has become clear that this was not the right course of action.
 

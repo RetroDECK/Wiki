@@ -14,6 +14,8 @@ The RetroDECK Team have been hard at work.
 
 **News**
 
+- Discord evaluation
+- Switch Emulation
 - Development Update: 0.11.0
 - Commander X16
 - GameTank
@@ -22,6 +24,29 @@ The RetroDECK Team have been hard at work.
 - Mudlet
 
 <!-- more -->
+
+--- 
+
+## Discord
+
+We are currently evaluating alternatives to Discord, we have already had a Matrix instance since forever. But we are exploring other options as well. 
+
+RetroDECK has always maintained the policy that the wiki serves as the single source of truth. Access to important information should not require users to create an account on external platforms. We are therefore evaluating potential platforms with this principle in mind as well.
+
+
+---
+
+## Switch Emulation Support - Will be removed
+
+After waiting a full year before introducing any support for Switch emulators, so as to determine whether such projects would be permitted to exist, we made the decision to add limited  in 0.10.0b. In light of recent developments, it has become clear that this was not the right course of action.
+
+Users who still wish to use Switch emulation will need to configure and integrate it manually on their own and it will no longer be not supported.
+
+Switch emulation has consistently been the source of the greatest number of issues within the project, generating the highest volume of warnings, bans, toxicity and support tickets.
+
+Accordingly, in an upcoming tiny update, all Switch emulation support will be permanently removed from RetroDECK **forever**.
+
+Furthermore, discussion of Switch emulation will no longer be permitted on all of our socials as of now, and our community rules will be updated to reflect this change.
 
 ---
 
@@ -37,9 +62,9 @@ What follows are some of our early experiments. As always, we can't guarantee th
 
 ---
 
-## Commander X16
+### Commander X16
 
-*Commander X16 running in RetroDECK*
+*Commander X16 running in RetroDECK.*
 
 <img src="../cx16.png" width="600"> 
 
@@ -51,9 +76,9 @@ The project sells physical hardware for purchase and an offers an official emula
 
 ---
 
-## GameTank
+### GameTank
 
-*GameTank running in RetroDECK*
+*GameTank running in RetroDECK.*
 
 <img src="../gametank.png" width="600"> 
 
@@ -67,9 +92,9 @@ The project sells physical hardware for purchase and an offers an official emula
 
 ---
 
-## MVEM (MicroVision EMulator)
+### MVEM (MicroVision EMulator)
 
-*MVEM running in RetroDECK*
+*MVEM running in RetroDECK.*
 
 <img src="../microvision.png" width="600"> 
 
@@ -91,9 +116,9 @@ Good controller support should not be expected, this little hidden gem emulator 
 
 ---
 
-## Visual Pinball X
+### Visual Pinball X
 
-*Mr.Bubble fan game running in RetroDECK*
+*Mr.Bubble fan game running in RetroDECK.*
 
 <img src="../vpinballx-mrbubble.png" width="600">
 
@@ -109,24 +134,27 @@ If you have that experience please contact us and see if we can make a global co
 
 ---
 
-## Mudlet
+### Mudlet
 
-*MUME running in RetroDECK*
+*MUDS menu in ES-DE.*
 
 <img src="../mume-rd.png" width="600">
+
+*MUME in ES-DE.*
+
 <img src="../mume-rd2.png" width="600">
-<img src="../mume-rd3.png" width="600">
+
+*MUME running in RetroDECK via Mudlet.*
+
+<img src="../mume-rd3.png" width="800">
 
 Mudlet will be the first client-type component added to RetroDECK. A client is a system or application that connects to a server or online service to access multiplayer features, streaming, or remote content. Clients rely on an external host to function.
 
-A powerful MUD (Multi-User Dungeon) client that connects players to text-based online multiplayer games, the precursors to modern MMOs.
+Mudlet is a powerful MUD (Multi-User Dungeon) client that connects players to text-based online multiplayer games, the precursors to modern MMOs.
 
 Enabling server maintainers to add visual elements and custom features and allowing players to script, automate, and fully customize their gameplay experience.
 
 You'll be able to connect using our new `.mud` files and that are tied to server profiles, with all `.mud`  and server specific files stored in `retrodeck/roms/muds/`.
-
-
-
 
 ---
 

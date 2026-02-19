@@ -55,7 +55,7 @@ For a comprehensive overview of available themes, see the official:
 
 Further information is available under:
 
-[Easter Egg Splashes](../../wiki_development/graphics/easter-egg-splashes.md).
+[Easter Egg Splashes](../../wiki_development/graphics/easter-egg/easter-egg-splashes.md).
 
 
 

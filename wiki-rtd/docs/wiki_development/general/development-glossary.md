@@ -168,15 +168,7 @@ Their purpose is to reduce library dependency conflicts between components when 
 
 **Read more here:**
 
-[Reiki the Cyber Shark](../graphics/reiki.md) 
-
----
-
-## Rekku the Build Bot
-
-Is [Rekku](https://github.com/apps/rekku-retrodeck) RetroDECK virtual assistant and a build-bot.
-
-She does GitHub bot announcements.
+[Reiki the Cyber Shark](../graphics/reiki/reiki.md) 
 
 ---
 

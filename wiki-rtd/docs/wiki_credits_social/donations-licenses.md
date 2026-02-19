@@ -26,9 +26,7 @@ No other project should handle or control another project's funding. To ensure y
 
 RetroDECK is a passion-driven, not profit driven project created and maintained in our free time. By donating to RetroDECK, you support the project’s development and our vision of a unified, streamlined experience for retro gaming on Linux handhelds and desktops.
 
-> **Important:** Donations do **not** grant any special privileges, perks, or early access. RetroDECK is a hobby project, not a commercial product. 
-
-> We only ask for donations in a limited and modest fashion and we genuinely prefer that you donate **directly to the software, projects, and creators we depend on**, as they are the foundation that makes RetroDECK possible.
+**Important:** Donations do **not** grant any special privileges, perks, or early access. RetroDECK is a hobby project, not a commercial product.  We only ask for donations in a limited and modest fashion and we genuinely prefer that you donate **directly to the software, projects, and creators we depend on**, as they are the foundation that makes RetroDECK possible.
 
 ### How We Use Your Contributions
 
@@ -50,8 +48,7 @@ Examples include:
 - **Controllers** - major-brand and niche models for compatibility testing and profile creation.
 - **Special peripherals** - light guns, racing wheels, X-Arcade cabinets, V-Boards, accessibility controllers, rhythm controllers, etc.
 
-> **Important:** As of now, **no hardware has ever been purchased using donations**.
-> All devices used for testing and development have been bought with **personal funds** from RetroDECK team members.
+**Important:** As of now, **no hardware has ever been purchased using donations**. All devices used for testing and development have been bought with **personal funds** from RetroDECK team members.
 
   
 ### Where to donate / support the project?

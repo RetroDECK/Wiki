@@ -14,8 +14,8 @@ MVEM is a experimental Microvision / Milton Bradley Microvision / MB Microvision
 
 | Resource | Link |
 |----------|------|
-| Microvision Blog 1 | [Link](https://www.raphkoster.com/2017/05/07/microvision-emulator-release/) |
-| Microvision Blog 2 | [Link](https://mbmicrovision.blogspot.com/) |
+| Microvision Blog 1 - Raph Koster  | [Link](https://www.raphkoster.com/2017/05/07/microvision-emulator-release/) |
+| Microvision Blog 2 - Paul Robson  | [Link](https://mbmicrovision.blogspot.com/) |
 
 ---
 
@@ -32,9 +32,9 @@ Microvision games should be put under the `retrodeck/roms/microvision/` director
 
 | File Format | Description |
 |-------------|-------------|
-| .bin        | Binary rom file |
+| .bin        | Binary ROM Game File |
 | <gamename>.bmp        | Overlays |
-|<gamename>_snap.bmp        | Snap Overlays |
+| <gamename>_snap.bmp        | Snap Overlays |
 
 
 ---
@@ -74,15 +74,45 @@ Cannot be played with a controller easily and is best used with a physical keybo
 
 **Microvision Control Pad**
 
-The Microvision keypad is arranged as **3 columns × 4 rows** and mapped as follows:
+The Microvision control pad features a **3 × 4 matrix layout**, comprising a total of 12 buttons. 
 
-| Row | Col 1 Keys | Col 2 Keys | Col 3 Keys |
-|-----|------------|------------|------------|
-| 1   |     `1`    |     `2`    |     `3`    |
-| 2   |     `Q`    |     `W`    |     `E`    |
-| 3   |     `A`    |     `S`    |     `D`    |
-| 4   |     `Z`    |     `X`    |     `C`    |
+Each game utilizes a distinct input configuration, with button functions defined individually per title and Snap Overlays `<gamename>_snap.bmp` files can be used to display the appropriate control layout for each game.
 
+| Col 1 Keys | Col 2 Keys | Col 3 Keys |
+|------------|------------|------------|
+|     `1`    |     `2`    |     `3`    |
+|     `Q`    |     `W`    |     `E`    |
+|     `A`    |     `S`    |     `D`    |
+|     `Z`    |     `X`    |     `C`    |
+
+
+---
+
+## Overlays                               
+
+<img src="../Bomber.jpg" width="200"> <img src="../Bomber_snap.png" width="200">
+
+Two overlay types are supported and must be placed alongside the ROM files in the `retrodeck/roms/microvision/` directory:
+
+- `<gamename>.bmp` - The primary **playfield overlay** displayed during gameplay.
+- `<gamename>_snap.bmp` - The **control input/device overlay**, representing the Microvision’s 12-button matrix layout. This overlay is shown on the left side of the emulator window.
+
+### Example: Bomber.bin
+
+<img src="../MVEM_Bomber.png" width="800">
+
+| File Name              | Description              |
+|------------------------|--------------------------|
+| `Bomber.bin`           | ROM file                 |
+| `Bomber.bmp`           | Playfield overlay        |
+| `Bomber_snap.bmp`      | Control input overlay    |
+
+In this example, the game **Bomber** uses a specific subset of the Microvision control matrix and the rest of the buttons are covered.
+
+The Snap Overlay indicates the following key mappings are used to play the game:
+
+- **Column 1, Row 1:** `1`  
+- **Column 2 (all rows):** `2`, `W`, `S`, `X`
 
 ---
 

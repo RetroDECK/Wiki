@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/pico-8-logo.png"  width="150">
 
-PICO-8 Fantasy Console is a game engine developed by Lexaloffle Games that you need to buy a license to use.
+PICO-8 is a 8-bit fantasy console emulator.
 
 ---
 

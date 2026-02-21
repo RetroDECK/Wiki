@@ -48,7 +48,7 @@ However, you do need copies of the official **Quake** game data (PAK files).
 
 ## Where to buy Quake?
 
-Below is a combined table containing both **Steam** and **GOG** purchase links for all relevant DOOM titles.
+Below is a combined table containing purchase links.
 
 | Game / Bundle| Steam Link| GOG Link |
 |--------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------|

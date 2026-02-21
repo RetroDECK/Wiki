@@ -1,6 +1,6 @@
 # DOSBox-X: General Guide
 
-<img src="../../../wiki_images/logos/commander-x16-logo.png" width="150">
+<img src="../../../wiki_images/logos/dosbox-x-logo.png" width="150">
 
 DOSBox-X is an open-source DOS emulator for running DOS applications, DOS games, DOS-based Windows 3.x and Windows 9x games. 
 

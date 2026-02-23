@@ -42,7 +42,7 @@ We have begun development on the upcoming major update, **0.11.0**.
 
 This release is currently in active early development, with the team evaluating new features, improvements and several unexpected things.
 
-RetroDECK is a **Retro Gaming Platform** not an *Emulation Platform*. Our scope extends beyond emulation as that is just one tiny part of RetroDECK. We are focusing on delivering a broader, more comprehensive retro gaming experience.
+RetroDECK is a **Retro Gaming Platform** not an *Emulation Platform*. Our scope extends beyond emulation as that is just one part of RetroDECK. We are focusing on delivering a broader, more comprehensive retro gaming experience.
 
 What follows are some of our early experiments. As always, we can't guarantee that everything shown here will make it into version 0.11.0, as development is still at a very early stage.
 

@@ -155,7 +155,7 @@ Below is a combined table containing purchase links.
 | Game / Bundle | Steam Link | GOG Link | itch.io Link | Comments |
 |---------------|------------|----------|--------------|---------|
 | Wolfenstein 3D | [Steam](https://store.steampowered.com/app/2270/Wolfenstein_3D/) | [GOG](https://www.gog.com/en/game/wolfenstein_3d) |  | No version today includes the Spear of Destiny mission packs 2 and 3. |
-| Super 3-D Noah's Ark | [Steam](https://store.steampowered.com/app/371180/Super_3D_Noahs_Ark/) | [GOG](https://www.gog.com/en/game/super_3d_noahs_ark) | [itch.io](https://wisdomtree.itch.io/s3dna) | 100% of itch.io purchases go to ECWolf directly and Steam key included |
+| Super 3-D Noah's Ark | [Steam](https://store.steampowered.com/app/371180/Super_3D_Noahs_Ark/) | [GOG](https://www.gog.com/en/game/super_3d_noahs_ark) |(Recommended) [itch.io](https://wisdomtree.itch.io/s3dna) | 100% of itch.io purchases go to ECWolf directly and Steam key included |
 
 ---
 

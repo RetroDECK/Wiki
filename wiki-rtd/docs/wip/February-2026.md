@@ -166,7 +166,7 @@ ECWolf is a *Wolfenstein 3D*, *Spear of Destiny*, and *Super 3D Noah's Ark*, eng
 
 It incorporates substantial code from ZDoom and focuses on extensive modding capabilities without requiring source code modification. 
 
-ECWolf allows modular content additions—such as new weapons—without redistributing full game data sets. Mods are packaged into single files, similar to Doom engine standards.
+ECWolf allows modular content additions, such as new weapons and without redistributing full game data sets. Mods are packaged into single files, similar to Doom engine standards.
 
 
 ---

@@ -22,7 +22,7 @@ ECWolf is a Wolfenstein 3D game engine.
 
 ## Where to put the games
 
-ECWolf game files must be placed in the `retrodeck/roms/wolf` directory.
+ECWolf game files must be placed in the `retrodeck/roms/wolf/<sub_directory.wolf>` directory.
 
 ---
 
@@ -32,7 +32,13 @@ ECWolf game files must be placed in the `retrodeck/roms/wolf` directory.
 
 | File Format | Description |
 |-------------|-------------|
-| .pak | Wolfenstein PAK file |
+| .wl6       | Full version Wolfenstein 3D data file |
+| .wl1       | Shareware version Wolfenstein 3D data file |
+| .sod       | Spear of Destiny game data file |
+| .sd2       | Spear of Destiny Mission Pack 2 - Return to Danger game data file |
+| .sd3       | Spear of Destiny Mission Pack 3 - Ultimate Challenge game data file |
+| .n3d       | Super 3D Noah's Ark game data file |
+
 
 
 ---
@@ -64,7 +70,8 @@ If purchased through itch.io, all proceeds go to ECWolf and you still get a Stea
 
 Below are the original game data files required by **ECWolf** to run:
 
-- Wolfenstein 3D
+- Wolfenstein 3D (Shareware)
+- Wolfenstein 3D (Full)
 - Spear of Destiny 
 - Spear of Destiny - Mission Pack 2 - Return to Danger
 - Spear of Destiny - Mission Pack 3 - Ultimate Challenge
@@ -72,7 +79,21 @@ Below are the original game data files required by **ECWolf** to run:
 
 These files must be copied from your legally obtained game installation.
 
-### Wolfenstein 3D (Full Version (.WL6)
+###  Wolfenstein 3D - Shareware Version (.WL1)
+
+| File Name        | Description | Comments |
+|------------------|------------|----------|
+| audiohed.wl1     | Audio header file that indexes sound data | |
+| audiot.wl1       | Contains digitized sound effects and AdLib audio data | |
+| config.wl1       | Stores game configuration settings | |
+| gamemaps.wl1     | Contains Episode 1 level map data (shareware episode) |  |
+| maphead.wl1      | Map header information for level lookup | |
+| vgadict.wl1      | VGA graphics dictionary for decompression | |
+| vgagraph.wl1     | Compressed graphics data (sprites, UI, textures) | |
+| vgahead.wl1      | Header for VGA graphics data | |
+| vswap.wl1        | Main asset container (sprites, walls, sounds) | |
+
+### Wolfenstein 3D - Full Version (.WL6)
 
 | File Name        | Description | Comments |
 |------------------|------------|----------|
@@ -88,7 +109,7 @@ These files must be copied from your legally obtained game installation.
 
 ---
 
-### Spear of Destiny (Full Version (.SOD)
+### Spear of Destiny  (.SOD)
 
 | File Name        | Description | Comments |
 |------------------|------------|----------|
@@ -106,8 +127,8 @@ These files must be copied from your legally obtained game installation.
 
 | File Name        | Description | Comments |
 |------------------|------------|----------|
-| gamemaps.sd2     | Level data for Mission Pack 2 (Return to Danger) | |
-| gamemaps.sd3     | Level data for Mission Pack 3 (Ultimate Challenge) | |
+| gamemaps.sd2     | Level data for Mission Pack 2 - Return to Danger | |
+| gamemaps.sd3     | Level data for Mission Pack 3 - Ultimate Challenge | |
 
 ---
 

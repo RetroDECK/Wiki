@@ -51,24 +51,21 @@ No
 
 However, you do need copies of the official game data.
 
---- 
-
-## Where to buy the games?
-
-Below is a combined table containing purchase links.
-
-If purchased through itch.io, all proceeds go to ECWolf and you still get a Steam key!
-
-| Game / Bundle| Steam Link| GOG Link | itch.io Link |
-|--------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|
-| Wolfenstein 3D | [Steam](https://store.steampowered.com/app/2270/Wolfenstein_3D/)| [GOG](https://www.gog.com/en/game/wolfenstein_3d) |  |
-| Super 3-D Noah's Ark | [Steam](https://store.steampowered.com/app/371180/Super_3D_Noahs_Ark/)| [GOG](https://www.gog.com/en/game/super_3d_noahs_ark)| [Itch.io](https://wisdomtree.itch.io/s3dna)  |
-
 ---
+
+## Directory Structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+
+| Type | Directory | Comment |
+|:----:|:--------------------------------------|:-----------------------------------------------|
+| ROMs | `retrodeck/roms/quake/wolf` | |
+
+--- 
 
 ## ECWolf Required Game Data Files
 
-Below are the original game data files required by **ECWolf** to run:
+Below are the original game data files required by **ECWolf**.
 
 - Wolfenstein 3D (Shareware)
 - Wolfenstein 3D (Full)
@@ -78,6 +75,8 @@ Below are the original game data files required by **ECWolf** to run:
 - Super 3D Noah’s Ark
 
 These files must be copied from your legally obtained game installation.
+
+---
 
 ###  Wolfenstein 3D - Shareware Version (.WL1)
 
@@ -92,6 +91,8 @@ These files must be copied from your legally obtained game installation.
 | vgagraph.wl1     | Compressed graphics data (sprites, UI, textures) | |
 | vgahead.wl1      | Header for VGA graphics data | |
 | vswap.wl1        | Main asset container (sprites, walls, sounds) | |
+
+---
 
 ### Wolfenstein 3D - Full Version (.WL6)
 
@@ -145,33 +146,66 @@ These files must be copied from your legally obtained game installation.
 | vgahead.n3d      | Header for VGA graphics data | |
 | vswap.n3d        | Main asset container (sprites, walls, sounds) | |
 
+---
+
+## Where to buy the games?
+
+Below is a combined table containing purchase links.
+
+| Game / Bundle | Steam Link | GOG Link | itch.io Link | Comments |
+|---------------|------------|----------|--------------|---------|
+| Wolfenstein 3D | [Steam](https://store.steampowered.com/app/2270/Wolfenstein_3D/) | [GOG](https://www.gog.com/en/game/wolfenstein_3d) |  | No version today includes the Spear of Destiny mission packs 2 and 3. |
+| Super 3-D Noah's Ark | [Steam](https://store.steampowered.com/app/371180/Super_3D_Noahs_Ark/) | [GOG](https://www.gog.com/en/game/super_3d_noahs_ark) | [itch.io](https://wisdomtree.itch.io/s3dna) | 100% of itch.io purchases go to ECWolf directly and Steam key included |
 
 ---
 
-## How-to: Get PAKs from your bought copy of Wolfenstein
+## How-to: Get game from your bought copy of Wolfenstein 3D?
 
+### Where are the game files? - Steam
 
+1. Open **Steam**
+2. Right-click the game in your Library
+3. Select **Manage → Browse Local Files**
+4. The file manager will open directly to the installation directory
 
-### Where are the PAK files? - Steam
+**Wolfenstein 3D**
 
-**Find the location by:**
+| Platform | Game / Folder | Example Path | Notes |
+|----------|---------------|--------------|-------|
+| Steam (Native) | Wolfenstein 3D | `~/.local/share/Steam/steamapps/common/Wolfenstein 3D/base/` | Main installation directory |
+| Steam (Native) | Wolfenstein 3D / original SOD levels | `~/.local/share/Steam/steamapps/common/Wolfenstein 3D/base/m1/` | Contains only original SOD levels (no extra missions) |
+| Steam (Flatpak) | Wolfenstein 3D | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Wolfenstein 3D/base/` | Flatpak sandbox path |
+| Steam (Flatpak) | Wolfenstein 3D / original SOD levels | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Wolfenstein 3D/base/m1/` | Contains only original SOD levels (no extra missions) |
 
-- Right-click **Wolfenstein** in your Steam library and select: **Manage → Browse Local Files**.
+**Spear of Destiny**
 
-Or by browsing to:
+**Note:** This has been delisted on Steam.
 
-- **Steam:** `~/.local/share/Steam/steamapps/common/Wolfenstein/id1/` 
-
-- **Steam Flatpak:** `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Wolfenstein/id1/`
+| Platform | Game | Example Path | Notes |
+|----------|------|--------------|-------|
+| Steam (Native) | Spear of Destiny | `~/.local/share/Steam/steamapps/common/Spear of Destiny/base/` | Full version including extra missions (.sd2, .sd3) |
+| Steam (Flatpak) | Spear of Destiny | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Spear of Destiny/base/` | Full version including extra missions (.sd2, .sd3) |
 
 ---
 
-## Directory Structure
+### Where Are the Game Files? — GOG (Linux)
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+**Wolfenstein 3D**
 
-| Type | Directory | Comment |
-|:----:|:--------------------------------------|:-----------------------------------------------|
-| ROMs | `retrodeck/roms/quake/wolf` | |
+| Platform / Method | Game / Folder | Example Path | Notes |
+|------------------|---------------|--------------|-------|
+| GOG (Native install) | Wolfenstein 3D | `~/GOG Games/Wolfenstein 3D/` | Default installer “GOG Games” folder |
+| GOG (Native install) | Wolfenstein 3D / original SOD levels | `~/GOG Games/Wolfenstein 3D/base/m1/` | Contains original SOD levels (no extra missions) |
+| GOG (Native install) | Super 3-D Noah’s Ark | `~/GOG Games/Super 3-D Noah’s Ark/` | Full game folder |
+
+**Spear of Destiny**
+
+**Note:** This has been delisted on GOG.
+
+| Platform / Method | Game / Folder | Example Path | Notes |
+|------------------|---------------|--------------|-------|
+| GOG (Native install) | Spear of Destiny | `~/GOG Games/Spear of Destiny/` | Full version including extra missions (.sd2, .sd3) |
+
 
 ---
+

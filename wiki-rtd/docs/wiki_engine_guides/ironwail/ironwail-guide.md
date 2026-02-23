@@ -123,3 +123,47 @@ Create a file named `Quake.pak` in:
 RetroDECK will now launch Quake using Ironwail.
 
 ---
+
+## Cheats
+
+### Classic Quake Cheats
+
+| Cheat / Command       | Effect | Comments |
+|-----------------------|--------|----------|
+| `god`                 | Invincibility | |
+| `impulse 9`           | All weapons + full ammo + keys runes | |
+| `impulse 11`          | Adds rune (repeat for several) | |
+| `impulse 255`         | Quad damage | |
+| `fly`                 | Fly mode | |
+| `noclip`              | Walk through walls | |
+| `notarget`            | Monsters don’t attack unless provoked | |
+| `give h #`            | Set health to # | |
+| `give s #`            | Set shotgun shells | |
+| `give n #`            | Set nails | |
+| `give r #`            | Set rockets | |
+| `give c #`            | Set cells | |
+| `give 3`              | Gives Super Shotgun | |
+| `give 4`              | Gives Nailgun | |
+| `give 5`              | Gives Super Nailgun | |
+| `give 6`              | Gives Grenade Launcher | |
+| `give 7`              | Gives Rocket Launcher | |
+| `give 8`              | Gives Thunderbolt | |
+| `map e#m#`            | Warp to episode/mission | |
+
+---
+
+### Ironwail / Quake Console Commands
+
+| Command              | Effect | Comments |
+|----------------------|--------|----------|
+| `~` (tilde)          | Open console | |
+| `map <mapname>`      | Load specific map | |
+| `changelevel <map>`  | Change level without resetting | |
+| `skill #`            | Set difficulty level | |
+| `sv_gravity #`       | Set game gravity | |
+| `kill`               | Suicide / restart level | |
+| `status`             | Show status info | |
+| `version`            | Show engine version | |
+| `bind <key> "<cmd>"` | Bind key to command | |
+
+---

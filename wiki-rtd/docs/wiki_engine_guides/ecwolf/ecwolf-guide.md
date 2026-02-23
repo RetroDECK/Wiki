@@ -212,7 +212,7 @@ Below is a combined table containing purchase links.
 
 ### Wolfenstein 3D
 
-| Name       | Key Combination | Release                     | Notes |
+| Cheat        | Key Combination | Release                     | Comments |
 |------------|----------------|----------------------------|-------|
 | MIL cheat  | M + I + L       | All                        | Gives goodies, resets score and adds 10 minutes |
 | BAT cheat  | B + A + T       | All                        | Displays a message from Commander Keen  |

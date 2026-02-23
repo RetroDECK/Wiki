@@ -298,8 +298,42 @@ This makes using mods and switching between episodes much easier.
 | vesperas.wad     | Master Levels for Doom II                            | Master Levels: Vesperas: 7th Canto of Inferno |
 | virgil.wad       | Master Levels for Doom II                            | Master Levels: Virgil’s Lead: 3rd Canto of Inferno |
 
+---
 
+## Cheats
+
+### Classic Doom I & II Cheats
+
+| Cheat Code | Effect | Comments |
+|------------|--------|----------|
+| `iddqd`    | God Mode (Invulnerability) | |
+| `idkfa`    | All Weapons + Ammo + Keys | |
+| `idfa`     | All Weapons + Ammo (no keys) | |
+| `idclip`   | No Clipping (walk through walls) | |
+| `iddt`     | Full Automap | |
+| `idchoppers` | Chainsaw | |
+| `idclev XX` | Warp to Level (Doom I: E#M#, Doom II: ##) | |
+| `idmypos`  | Show Coordinates & Angle | |
+| `idbeholdv` | Invulnerability Power-Up | |
+| `idbeholds` | Berserk (Strength) | |
+| `idbeholdi` | Partial Invisibility | |
+| `idbeholdr` | Radiation Suit | |
+| `idbeholda` | Automap Power-Up | |
+| `idbeholdl` | Light Amplification Goggles | |
 
 ---
 
+### GZDoom-Specific Console Commands
+
+| Command | Effect | Comments |
+|---------|--------|----------|
+| `~` / `console` | Open Developer Console | |
+| `god` | God Mode | |
+| `noclip` | No Clipping | |
+| `give all` | All Weapons/Items | |
+| `give ammo` | Max Ammo | |
+| `give keys` | All Keys | |
+| `map mapname` | Load Specific Map (e.g., `map map07`) | |
+
+---
 

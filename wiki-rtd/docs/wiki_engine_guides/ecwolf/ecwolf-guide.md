@@ -188,7 +188,7 @@ Below is a combined table containing purchase links.
 
 ---
 
-### Where Are the Game Files? — GOG (Linux)
+### Where Are the Game Files? - GOG
 
 **Wolfenstein 3D**
 

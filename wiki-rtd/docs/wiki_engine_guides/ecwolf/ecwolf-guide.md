@@ -186,6 +186,14 @@ Below is a combined table containing purchase links.
 | Steam (Native) | Spear of Destiny | `~/.local/share/Steam/steamapps/common/Spear of Destiny/base/` | Full version including extra missions (.sd2, .sd3) |
 | Steam (Flatpak) | Spear of Destiny | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Spear of Destiny/base/` | Full version including extra missions (.sd2, .sd3) |
 
+**Super 3-D Noah's Ark**
+
+| Platform | Game | Example Path | Notes |
+|----------|------|--------------|-------|
+| Steam (Native) | Spear of Destiny | `~/.local/share/Steam/steamapps/common/Super 3-D Noah's Ark/` |  |
+| Steam (Flatpak) | Spear of Destiny | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Super 3-D Noah's Ark/` |  |
+
+
 ---
 
 ### Where Are the Game Files? - GOG
@@ -205,6 +213,13 @@ Below is a combined table containing purchase links.
 | Platform / Method | Game / Folder | Example Path | Notes |
 |------------------|---------------|--------------|-------|
 | GOG (Native install) | Spear of Destiny | `~/GOG Games/Spear of Destiny/` | Full version including extra missions (.sd2, .sd3) |
+
+**Super 3-D Noah's Ark**
+
+| Platform / Method | Game / Folder | Example Path | Notes |
+|------------------|---------------|--------------|-------|
+| GOG (Native install) | Spear of Destiny | `~/GOG Games/Super 3-D Noah's Ark/` | |
+
 
 ---
 

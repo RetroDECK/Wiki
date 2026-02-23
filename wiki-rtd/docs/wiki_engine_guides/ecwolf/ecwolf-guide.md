@@ -218,6 +218,8 @@ Below is a combined table containing purchase links.
 | BAT cheat  | B + A + T       | All                        | Displays a message from Commander Keen  |
 | God Mode   | F10 + Tab + G   | Spear of Destiny        |  |
 
+---
+
 ### Super 3D Noah’s Ark - Quiz Pickups Cheat Sheet
 
 Quiz pickups are scattered throughout the game. The starting question depends on where the player ended the previous playthrough, cycling sequentially until it returns to the first question.

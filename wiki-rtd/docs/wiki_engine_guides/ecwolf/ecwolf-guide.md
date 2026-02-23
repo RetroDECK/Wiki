@@ -112,6 +112,23 @@ These files must be copied from your legally obtained game installation.
 
 ---
 
+### Spear of Destiny Demo (.SDM)
+
+| File Name        | Description | Comments |
+|------------------|------------|----------|
+| audiohed.sdm     | Audio header file that indexes sound data | |
+| audiot.sdm       | Contains digitized sound effects and AdLib audio data | |
+| config.sdm       | Stores game configuration settings | |
+| gamemaps.sdm     | Contains sample level map data | |
+| maphead.sdm      | Map header information for level lookup | |
+| vgadict.sdm      | VGA graphics dictionary for decompression | |
+| vgagraph.sdm     | Compressed graphics data (sprites, UI, textures) | |
+| vgahead.sdm      | Header for VGA graphics data | |
+| vswap.sdm        | Main asset container (sprites, walls, sounds) | |
+
+---
+
+
 ### Spear of Destiny  (.SOD)
 
 | File Name        | Description | Comments |

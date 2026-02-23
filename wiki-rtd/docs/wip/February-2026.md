@@ -21,6 +21,8 @@ The RetroDECK Team have been hard at work.
 - MVEM
 - Visual Pinball X
 - Mudlet
+- Ironwail
+- ECWolf
 
 <!-- more -->
 
@@ -139,6 +141,29 @@ Mudlet is a powerful MUD (Multi-User Dungeon) client that connects players to te
 Enabling server maintainers to add visual elements and custom features and allowing players to script, automate, and fully customize their gameplay experience.
 
 You'll be able to connect using our new `.mud` files and that are tied to server profiles, with all `.mud`  and server specific files stored in `retrodeck/roms/muds/`.
+
+---
+
+### Ironwail
+
+<img src="../ironwail.png" width="600">
+
+Ironwail is a Quake engine based on QuakeSpasm.
+
+This engine improves performance by offloading substantial processing from the CPU to the GPU, including tasks such as culling and lightmap updates. It leverages modern OpenGL features such as instancing, compute shaders, persistent buffer mapping, indirect multi-draw, and bindless textures. As a result, it can maintain high frame rates even on highly complex maps.
+
+---
+
+### ECWolf
+
+<img src="../ecwolf-wolf.png" width="600">
+
+ECWolf is a *Wolfenstein 3D*, *Spear of Destiny*, and *Super 3D Noah's Ark*, engine based of Wolf4SDL.
+
+It incorporates substantial code from ZDoom and focuses on extensive modding capabilities without requiring source code modification. 
+
+ECWolf allows modular content additions—such as new weapons—without redistributing full game data sets. Mods are packaged into single files, similar to Doom engine standards.
+
 
 ---
 

@@ -150,7 +150,7 @@ These files must be copied from your legally obtained game installation.
 
 | File Name        | Description | Comments |
 |------------------|------------|----------|
-| gamemaps.sd3     | Level data for Mission Pack 3 - Ultimate Challenge | |
+| gamemaps.sd3     | Level data for Mission Pack 3 | |
 | maphead.sd3      | Map header information for Mission Pack 3 | |
 | vswap.sd3        | Asset container for Mission Pack 3 | |
 

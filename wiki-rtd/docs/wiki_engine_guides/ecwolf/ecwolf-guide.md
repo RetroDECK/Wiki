@@ -35,6 +35,7 @@ ECWolf game files must be placed in the `retrodeck/roms/wolf/<sub_directory.wolf
 | .wl6       | Full version Wolfenstein 3D data file |
 | .wl1       | Shareware version Wolfenstein 3D data file |
 | .sod       | Spear of Destiny game data file |
+| .sd1       | Spear of Destiny Mission Pack 2 - Return to Danger game data file |
 | .sd2       | Spear of Destiny Mission Pack 2 - Return to Danger game data file |
 | .sd3       | Spear of Destiny Mission Pack 3 - Ultimate Challenge game data file |
 | .n3d       | Super 3D Noah's Ark game data file |
@@ -124,12 +125,33 @@ These files must be copied from your legally obtained game installation.
 | vgahead.sod      | Header for VGA graphics data | |
 | vswap.sod        | Main asset container (sprites, walls, sounds) | |
 
-**Optional Mission Packs**
+### Spear of Destiny - Mission Pack 1 - Return to Danger (.SD1)
+
+| File Name        | Description | Comments |
+|------------------|------------|----------|
+| gamemaps.sd1     | Level data for Mission Pack 1 | |
+| maphead.sd1      | Map header information for Mission Pack 1 | |
+| vswap.sd1        | Asset container for Mission Pack 1 | |
+
+---
+
+### Spear of Destiny - Mission Pack 2 - Return to Danger (.SD2)
 
 | File Name        | Description | Comments |
 |------------------|------------|----------|
 | gamemaps.sd2     | Level data for Mission Pack 2 - Return to Danger | |
+| maphead.sd2      | Map header information for Mission Pack 2 | |
+| vswap.sd2        | Asset container for Mission Pack 2 | |
+
+---
+
+### Spear of Destiny - Mission Pack 3 - Ultimate Challenge (.SD3)
+
+| File Name        | Description | Comments |
+|------------------|------------|----------|
 | gamemaps.sd3     | Level data for Mission Pack 3 - Ultimate Challenge | |
+| maphead.sd3      | Map header information for Mission Pack 3 | |
+| vswap.sd3        | Asset container for Mission Pack 3 | |
 
 ---
 
@@ -183,8 +205,8 @@ Below is a combined table containing purchase links.
 
 | Platform | Game | Example Path | Notes |
 |----------|------|--------------|-------|
-| Steam (Native) | Spear of Destiny | `~/.local/share/Steam/steamapps/common/Spear of Destiny/base/` | Full version including extra missions (.sd2, .sd3) |
-| Steam (Flatpak) | Spear of Destiny | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Spear of Destiny/base/` | Full version including extra missions (.sd2, .sd3) |
+| Steam (Native) | Spear of Destiny | `~/.local/share/Steam/steamapps/common/Spear of Destiny/base/` | Full version including extra missions (.sd1, .sd2, .sd3) |
+| Steam (Flatpak) | Spear of Destiny | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Spear of Destiny/base/` | Full version including extra missions (.sd1, .sd2, .sd3) |
 
 **Super 3-D Noah's Ark**
 
@@ -212,7 +234,7 @@ Below is a combined table containing purchase links.
 
 | Platform / Method | Game / Folder | Example Path | Notes |
 |------------------|---------------|--------------|-------|
-| GOG (Native install) | Spear of Destiny | `~/GOG Games/Spear of Destiny/` | Full version including extra missions (.sd2, .sd3) |
+| GOG (Native install) | Spear of Destiny | `~/GOG Games/Spear of Destiny/` | Full version including extra missions (.sd1, .sd2, .sd3) |
 
 **Super 3-D Noah's Ark**
 

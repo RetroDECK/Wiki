@@ -6,7 +6,7 @@ Ryubing was a Switch emulator.
 
 **Note: Archived Emulator**
 
-As of RetroDECK `0.10.4b` Ryubing was removed from RetroDECK and and Switch emulation as a whole.
+As of RetroDECK `0.10.5b` Ryubing was removed from RetroDECK and and Switch emulation as a whole.
 
 It was installed under: 
 

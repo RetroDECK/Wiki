@@ -6,6 +6,9 @@
 
 ## 0.10.0b - Dastardly Dansband
 
+**Note:** Version 0.10.4b became unavailable due to a broken Flathub server outage spanning 2026-02-17 to 2026-02-24. 0.10.5b replaced it. 
+
+- [0.10.5b](version_0.10.0b/0.10.5b.md)
 - [0.10.3b](version_0.10.0b/0.10.3b.md)
 - [0.10.2b](version_0.10.0b/0.10.2b.md)
 - [0.10.1b](version_0.10.0b/0.10.1b.md)

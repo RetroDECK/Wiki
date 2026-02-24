@@ -20,6 +20,8 @@ Accordingly, in an upcoming minor update, all Switch emulation support will be p
 
 Furthermore, discussion of Switch emulation will no longer be permitted on any of our social platforms **effective immediately**, and our community rules will be updated to reflect this change.
 
-Users who still wish to use Switch emulation will need to configure and integrate it manually on their own, or move it from an old install as a user-made component mod **without any support**. Please note that your existing games and save data will not be touched or removed. However, you will no longer be able to launch or play them within RetroDECK natively.
+Users who still wish to use Switch emulation **will need to configure and integrate it manually** on their own, or move it from an old install to a new one as a **user-made component** mod **without any support**. 
+
+Please note that your existing games and save data will not be touched or removed. However, you will no longer be able to launch or play them within RetroDECK natively.
 
 This is final!

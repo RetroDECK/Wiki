@@ -175,7 +175,7 @@ We extend our gratitude to all contributors who make these open‑art assets ava
 
 <img src="../../../../wiki_images/logos/rd-logo-box.png" width="500">
 
-**Artists that contributed:**<br>
+**Artists that contributed:**
 
 The following contributors played important roles in the development of the first and second iterations of the RetroDECK logo, including work on color schemes, iconography, SteamGridDB assets, and overall conceptual design:
 

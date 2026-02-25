@@ -16,6 +16,11 @@ ECWolf is a Wolfenstein 3D game engine.
 |----------|------|
 | ECWolf Webpage | [Link](https://maniacsvault.net/ecwolf/) |
 | ECWolf GitHub | [Link](https://github.com/ECWolfEngine/ECWolf) |
+| Wolf3D.net | [Link](https://beta.wolf3d.net/) |
+| ZDoom Wolf3D Remastered | [Link](https://forum.zdoom.org/viewtopic.php?f=19&t=48633) |
+
+
+
 
 
 ---

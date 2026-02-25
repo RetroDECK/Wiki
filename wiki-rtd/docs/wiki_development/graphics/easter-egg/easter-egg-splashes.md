@@ -167,6 +167,7 @@ Many use assets are largely created using free‑and‑open‑source resources f
 - **SVGRepo**
 - **OpenClipart**
 - **KenneyNL** 
+- **Creazilla** 
 
 We extend our gratitude to all contributors who make these open‑art assets available.
 
@@ -437,7 +438,7 @@ Artists: RetroDECK Team: Lazorne
 ---
 
 
-### Festival of Lights - Diwali
+### Diwali - Festival of Lights
 
 <details><summary> Spoiler </summary>
 <img src="../rd-diwali-splash.svg" width="500">

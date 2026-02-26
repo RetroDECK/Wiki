@@ -184,7 +184,7 @@ Thank you to everyone for your continued support.
 
 ---
 
-### 🔗 RetroDECK: Community  Links
+###  RetroDECK: Community  Links
 
 | Category | Link | Description |
 |----------|------|-------------|

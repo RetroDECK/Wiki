@@ -413,6 +413,18 @@ Artists: RetroDECK Team: Lazorne
 
 ---
 
+### Oktoberfest
+
+<details><summary> Spoiler </summary>
+<img src="../rd-oktoberfest-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+
 ## Q4
 
 ### Halloween
@@ -454,6 +466,17 @@ Artists: RetroDECK Team: Lazorne
 
 <details><summary> Spoiler </summary>
 <img src="../rd-mens-day-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### Monkey Buffet Festival
+
+<details><summary> Spoiler </summary>
+<img src="../rd-monkey-festival-splash.svg" width="500">
 
 Artists: RetroDECK Team: Lazorne
 

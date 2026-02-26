@@ -23,7 +23,7 @@ Use the sections below to quickly find what you need or use the left-hand panel 
 
 ---
 
-### 📘 About RetroDECK
+### 🧾 About RetroDECK
 
 - [What is RetroDECK?](wiki_about/what-is-retrodeck.md)  
 - [What is Included in RetroDECK?](wiki_about/what-is-included.md)

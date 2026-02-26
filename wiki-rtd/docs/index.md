@@ -8,67 +8,67 @@
 
 ---
 
-## Welcome
+## Welcome to the RetroDECK Wiki
 
-Take a moment to explore the wiki! There’s tons of information waiting for you. To help you get started, here are a few useful links.
+This wiki provides clear, comprehensive documentation to help you install, configure, and get the most out of **RetroDECK**.
 
----
-
-### How-to get started with RetroDECK?
-
-- [How-to: Start using RetroDECK](wiki_general/retrodeck-start.md)
-
-### What is RetroDECK?
-
-- [What is RetroDECK?](wiki_about/what-is-retrodeck.md)
-- [What is included in RetroDECK?](wiki_about/what-is-included.md)
-
-### What devices and operating systems are supported?
-
-- [Supported Devices & OS](wiki_general/supported-devices.md)
-- [Supported Controllers / Hotkeys](wiki_rd_controls/hotkeys-retrodeck.md)
-
----
-
-## Links 
-
-### Community 
-
-| Name                    | Description                                            |
-|-------------------------|------------------------------------------------|
-| [RetroDECK Blog](https://retrodeck.readthedocs.io/en/latest/blog/)   | The RetroDECK Blog |
-| [RetroDECK Website](https://retrodeck.net)      | RetroDECK Wiki   |
-| [Bluesky](https://bsky.app/profile/retrodeck.net) | RetroDECK Bluesky|
-| [Discord](https://discord.gg/WDc5C9YWMx)    |  RetroDECK Discord Server    |
-| [Matrix](https://matrix.to/#/#retrodeck:matrix.org) | RetroDECK Matrix Server |
-| [Lemmy](https://lemmy.zip/c/retrodeck)         | RetroDECK Lemmy Community |
+Use the sections below to quickly find what you need or use the left-hand panel to explore the all of the content.
 
 
 ---
 
-### Repositories
+### 🚀 Getting Started
 
-| Name                                                                                   | Description                                           |
-|----------------------------------------------------------------------------------------|-------------------------------------------------------|
-| [RetroDECK/RetroDECK](https://github.com/RetroDECK/RetroDECK)                          | RetroDECK Repo: Main repo of the RetroDECK Project    |
-| [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker)                                | Cooker Repo: Cooker Build publication repo            |
-| [RetroDECK/Wiki](https://github.com/RetroDECK/Wiki)                                    | Wiki Repo: RetroDECK mkdocs-material Wiki source code |
-| [RetroDECK/RetroDECK-website](https://github.com/RetroDECK/RetroDECK-website)          | Website Repo: Retrodeck.net source code               |
-| [RetroDECK/ES-DE](https://github.com/RetroDECK/ES-DE)                                  | ES-DE Repo: RetroDECK's light fork of ES-DE           |
-| [RetroDECK/components](https://github.com/RetroDECK/components)                        | Components Repo: RetroDECK's central for Components   |
-| [RetroDECK/RetroDECK-theme](https://github.com/RetroDECK/RetroDECK-theme)              | Theme Repo: RetroDECK's ES-DE Theme                   |
-| [flathub/net.retrodeck.retrodeck](https://github.com/flathub/net.retrodeck.retrodeck)  | Flathub Repo: net.retrodeck.retrodeck                 |
-| [RetroDECK/repositories](https://github.com/orgs/RetroDECK/repositories)               | Full Org Repo : All other repos in RetroDECK          |
+- [How-to: Start Using RetroDECK](wiki_general/retrodeck-start.md)
 
 ---
 
-### Services & Other
+### 📘 About RetroDECK
 
-| Name                    | Link                                            |
-|-------------------------|------------------------------------------------|
-| [Github: Service](https://www.githubstatus.com/)     |  Github Service Status   |
-| [RetroDECK on Flathub](https://flathub.org/apps/net.retrodeck.retrodeck)      |  RetroDECK's Flathub Page    |
-| [Flathub: Service](https://status.flathub.org/)      |  Flathub Service Status    |
-| [Flathub: Buildbot](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck) | Flathub RetroDECK Builtbot |
+- [What is RetroDECK?](wiki_about/what-is-retrodeck.md)  
+- [What is Included in RetroDECK?](wiki_about/what-is-included.md)
+
+---
+
+### 💻 Supported Hardware & Software
+
+- [Supported Devices & Operating Systems](wiki_general/supported-devices.md)  
+- [Supported Controllers & Hotkeys](wiki_rd_controls/hotkeys-retrodeck.md)
+
+---
+
+### 🔗 RetroDECK: Community  Links
+
+| Category | Link | Description |
+|----------|------|-------------|
+| 🌐 Website | [retrodeck.net](https://retrodeck.net/) | Official RetroDECK homepage |
+| 💬 Discord | [Join Discord](https://discord.gg/WDc5C9YWMx) | Discord community chat |
+| 💬 Matrix | [Matrix Room](https://matrix.to/#/#retrodeck:matrix.org) | Open Matrix community space |
+| 💬 Lemmy | [Lemmy Community](https://lemmy.zip/c/retrodeck) | RetroDECK community on Lemmy |
+| 💬 Reddit | [r/retrodeck](https://reddit.com/r/retrodeck) | RetroDECK subreddit |
+| 📖 Wiki | [RetroDECK Wiki](https://github.com/RetroDECK/RetroDECK/wiki) | Official documentation and guides |
+| ❤️ Donations | [Donations & Licenses](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/) | Support the project and view license information |
+
+---
+
+### 📦 Repository Links
+
+| Category | Link | Description |
+|----------|------|-------------|
+| 🏢 Organization | [RetroDECK Organization](https://github.com/orgs/RetroDECK) | Official GitHub organization containing all RetroDECK repositories |
+| 🧩 RetroDECK Main | [RetroDECK/RetroDECK](https://github.com/RetroDECK/RetroDECK) | Main source code repository of the RetroDECK project |
+| 🧩 RetroDECK Components | [RetroDECK/components](https://github.com/RetroDECK/components) | Central repository for RetroDECK components |
+| 🧩 RetroDECK Cooker | [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker) | Cooker publication repository |
+| 🎨 ES-DE Frontend | [RetroDECK/ES-DE](https://github.com/RetroDECK/ES-DE) | RetroDECK’s lightweight fork of ES-DE |
+| 🎨 ES-DE Theme | [RetroDECK/RetroDECK-theme](https://github.com/RetroDECK/RetroDECK-theme) | Official RetroDECK theme for ES-DE |
+| 🌍 retrodeck.net | [RetroDECK/RetroDECK-website](https://github.com/RetroDECK/RetroDECK-website) | Source code for the official RetroDECK website |
+| 🌍 Flathub Page | [RetroDECK on Flathub](https://flathub.org/apps/net.retrodeck.retrodeck) | Official RetroDECK application page on Flathub |
+| 📖 RetroDECK Wiki | [RetroDECK/Wiki](https://github.com/RetroDECK/Wiki) | Source code for RetroDECK Wiki |
+| 📦 Flathub Repo  | [flathub/net.retrodeck.retrodeck](https://github.com/flathub/net.retrodeck.retrodeck) | Flathub packaging repository |
+| 🛠 Github Status | [GitHub Status](https://www.githubstatus.com/) | GitHub platform service status |
+| 🛠 Flathub Status | [Flathub Status](https://status.flathub.org/) | Flathub platform service status |
+| 🛠 Flathub Buildbot Status | [Flathub Buildbot](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck) | Live build status for RetroDECK on Flathub |
+
+---
 
 

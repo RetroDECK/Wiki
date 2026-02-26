@@ -176,7 +176,7 @@ ECWolf allows modular content additions, such as new weapons and without redistr
 
 There are more things we are working on, but you will see them in future blog updates!
 
-And as always if you want to help with development join the 💙-i-want-to-help channel on Discord.
+And as always if you want to help with development join the 💙-i-want-to-help channel on Discord or chat us up on Matrix.
 
 Thank you to everyone for your continued support.
 

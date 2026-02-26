@@ -160,7 +160,7 @@ It leverages modern OpenGL features such as instancing, compute shaders, persist
 
 ### ECWolf
 
-*Wolfenstein 3D boot menu running in RetroDECK.*
+*Wolfenstein 3D boot menu running in RetroDECK via ECWolf.*
 
 <img src="../../../ecwolf-wolf.png" width="600">
 

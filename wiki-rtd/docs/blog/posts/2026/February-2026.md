@@ -182,6 +182,7 @@ Thank you to everyone for your continued support.
 
 //The RetroDECK Team 
 
+---
 
 ### 🔗 RetroDECK: Community  Links
 
@@ -194,3 +195,5 @@ Thank you to everyone for your continued support.
 | 💬 Reddit | [r/retrodeck](https://reddit.com/r/retrodeck) | RetroDECK subreddit |
 | 📖 Wiki | [RetroDECK Wiki](https://github.com/RetroDECK/RetroDECK/wiki) | Official documentation and guides |
 | ❤️ Donations | [Donations & Licenses](https://retrodeck.readthedocs.io/en/latest/wiki_about/donations-licenses/) | Support the project and view license information |
+
+---

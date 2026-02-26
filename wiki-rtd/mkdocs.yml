@@ -136,7 +136,10 @@ nav:
   - Welcome:
     - index.md
 
-  - Start using RetroDECK 🏎️: wiki_general/retrodeck-start.md
+  - RetroDECK Blog 📬:
+    - blog/index.md
+
+  - Start using RetroDECK 🚀: wiki_general/retrodeck-start.md
 
   - About RetroDECK 📦:
 
@@ -148,8 +151,6 @@ nav:
     - Known Issues: wiki_general/known-issues.md
     - Version History: wiki_rd_versions/version-history.md
 
-  - RetroDECK Blog 📬:
-    - blog/index.md
 
   - Credits, Contributing & Donations ❤️:
 

@@ -50,7 +50,7 @@ What follows are some of our early experiments. As always, we can't guarantee th
 
 ### Commander X16
 
-*Commander X16 running in RetroDECK.*
+*Commander X16 boot menu running in RetroDECK via Commander X16.*
 
 <img src="../../../cx16.png" width="600"> 
 
@@ -64,7 +64,7 @@ The project sells physical hardware for purchase and an offers an official emula
 
 ### GameTank
 
-*GameTank running in RetroDECK.*
+*A 8-bit RPG running in RetroDECK via GameTank.*
 
 <img src="../../../gametank.png" width="600"> 
 
@@ -80,7 +80,7 @@ The project sells physical hardware for purchase and an offers an official emula
 
 ### MVEM (MicroVision EMulator)
 
-*MVEM running in RetroDECK.*
+*MicroVision fan game Bomber running in RetroDECK via MVEM.*
 
 <img src="../../../microvision.png" width="600"> 
 
@@ -104,7 +104,7 @@ Good controller support should not be expected, this little hidden gem emulator 
 
 ### Visual Pinball X
 
-*Mr.Bubble fan game running in RetroDECK.*
+*Mr.Bubble fan game running in RetroDECK via Visual Pinball X.*
 
 <img src="../../../vpinballx-mrbubble.png" width="600">
 
@@ -146,7 +146,7 @@ You'll be able to connect using our new `.mud` files and that are tied to server
 
 ### Ironwail
 
-*Quake entryway running in RetroDECK.*
+*Quake running in RetroDECK via Ironwail.*
 
 <img src="../../../ironwail.png" width="600">
 
@@ -160,7 +160,7 @@ It leverages modern OpenGL features such as instancing, compute shaders, persist
 
 ### ECWolf
 
-*Wolfenstein 3D Start running in RetroDECK.*
+*Wolfenstein 3D boot menu running in RetroDECK.*
 
 <img src="../../../ecwolf-wolf.png" width="600">
 

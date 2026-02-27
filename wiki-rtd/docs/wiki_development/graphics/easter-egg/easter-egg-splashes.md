@@ -540,6 +540,19 @@ Artists:  Weestuarty
 
 </details>
 
+
+---
+
+
+### New Year
+
+<details><summary> Spoiler </summary>
+<img src="../rd-new-year-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
 ---
 
 ## Other
@@ -559,7 +572,6 @@ Artists: Weestuarty
 
 | Event | Date (Typical) | Region / Country | Description | Key Symbols | Color Palette | Patterns & Motifs | Mood | Logo Available | Comments |
 |---|---|---|---|---|---|---|---|---|---|
-| New Year’s Eve / Day | Dec 31-Jan 1 | International | Celebration marking the end of the year and start of the new year | Fireworks, clocks, champagne | Gold, silver, black, midnight blue | Clocks, sparkles, confetti | Festive, glamorous | No |  |
 | End-of-Year Holiday Period | Dec 24-Jan 1 | International | Year-end celebrations and time off | Lights, gifts | Red, green, gold | Sparkles | Warm | Yes |  |
 | Desert Kite Festival | Jan-Mar (varies) | UAE | Large outdoor kite-flying event | Kites, wind, sky | Bright multicolor, blue | Geometric kite shapes | Joyful, airy | No |  |
 | Camel Festival | Jan-Mar (varies) | Saudi Arabia | Cultural festival with camel shows and races | Camels, desert motifs | Sand, brown, gold | Tribal patterns | Traditional, proud | No |  |

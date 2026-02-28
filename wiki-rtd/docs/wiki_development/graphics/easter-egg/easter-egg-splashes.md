@@ -203,7 +203,7 @@ All assets are largely created using free‑and‑open‑source resources from t
 - **KenneyNL** 
 - **Creazilla** 
 
-We extend our gratitude to all contributors who make these open‑art assets available.
+We extend our gratitude to all contributors who make these open‑art assets available and free to use for all.
 
 ### Standard Logo
 
@@ -229,7 +229,7 @@ The following contributors played important roles in the development of the firs
 <details><summary> Spoiler </summary>
 <img src="../rd-up-helly-aa-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -240,7 +240,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-groundhog-day-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -252,7 +252,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-setsubun-splash.svg" width="500">
 
-Artists: RetroDECK Team: XargonWan
+Artists - RetroDECK Team: XargonWan
 
 </details>
 
@@ -276,7 +276,7 @@ Artists: Weestuarty
 
 <img src="../rd-lunar-snake-splash.svg" width="500">
 
-Artists: RetroDECK Team: XargonWan
+Artists - RetroDECK Team: XargonWan
 
 </details>
 
@@ -288,7 +288,7 @@ Artists: RetroDECK Team: XargonWan
 
 <img src="../rd-lunar-horse-splash.svg" width="500">
 
-Artists: RetroDECK Team: XargonWan
+Artists - RetroDECK Team: XargonWan
 
 </details>
 
@@ -299,7 +299,18 @@ Artists: RetroDECK Team: XargonWan
 <details><summary> Spoiler </summary>
 <img src="../rd-valentines-splash.svg" width="500">
 
-Artists: Weestuarty
+Artists- RetroDECK Team: Weestuarty
+
+</details>
+
+---
+
+### Holi
+
+<details><summary> Spoiler </summary>
+<img src="../rd-holi-splash.svg" width="500">
+
+Artists: Lazorne
 
 </details>
 
@@ -321,7 +332,7 @@ Artists: Weestuarty
 <details><summary> Spoiler </summary>
 <img src="../rd-womans-day-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -333,9 +344,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-stpatricks-splash.svg" width="500">
 
-**Artists:**
-
-- Weestuarty
+Artists: Weestuarty
 
 </details>
 
@@ -346,7 +355,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-eid-al-fitr-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -360,7 +369,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-walpurgis-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -371,7 +380,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-mayday-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -383,7 +392,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-kodomo-golden-splash.svg" width="500">
 
-Artists: RetroDECK Team: XargonWan
+Artists - RetroDECK Team: XargonWan
 
 </details>
 
@@ -394,7 +403,7 @@ Artists: RetroDECK Team: XargonWan
 <details><summary> Spoiler </summary>
 <img src="../rd-cheese-wake-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -406,7 +415,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-midsummer-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -418,7 +427,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-dragon-boat-festival-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -431,7 +440,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-running-bulls-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -442,7 +451,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-tanabata-splash.svg" width="500">
 
-Artists: RetroDECK Team: XargonWan
+Artists - RetroDECK Team: XargonWan
 
 </details>
 
@@ -453,7 +462,7 @@ Artists: RetroDECK Team: XargonWan
 <details><summary> Spoiler </summary>
 <img src="../rd-la-tomatina-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -464,7 +473,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-oktoberfest-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -478,7 +487,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-halloween-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -489,7 +498,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-dia-de-los-muertos-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -501,7 +510,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-diwali-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -513,7 +522,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-mens-day-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -524,7 +533,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-monkey-festival-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -536,7 +545,7 @@ Artists: RetroDECK Team: Lazorne
 <details><summary> Spoiler </summary>
 <img src="../rd-lucia-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -561,7 +570,7 @@ Artists:  Weestuarty
 <details><summary> Spoiler </summary>
 <img src="../rd-new-year-splash.svg" width="500">
 
-Artists: RetroDECK Team: Lazorne
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -588,12 +597,10 @@ Artists: Weestuarty
 | Camel Festival | Jan-Mar (varies) | Saudi Arabia | Cultural festival with camel shows and races | Camels, desert motifs | Sand, brown, gold | Tribal patterns | Traditional, proud | No |  |
 | Inti Raymi | Feb | Peru | Historic Incan festival celebrating the sun | Sun discs, traditional dress | Gold, red | Incan geometry | Ceremonial, proud | No |  |
 | International Polar Bear Day | Feb 27 | Arctic | Awareness day for polar bear conservation | Polar bears, ice | White, icy blue | Ice textures | Reflective, educational | No |  |
-| Holi | Mar (varies) | India | Festival of colors celebrating spring | Colored powders | Bright rainbow | Splashes, gradients | Energetic, joyful | No |  |
 | Hanami (花見) | Late Mar-Early Apr | Japan | Cherry blossom viewing | Sakura petals, picnics | Soft pink, white | Falling petals | Calm, serene | No |  |
 | April Fools’ Day | Apr 1 | International | Day of jokes and pranks | Jester hats, props | Bright primaries | Comic shapes | Silly, playful | No |  |
 | Earth Day | Apr 22 | International | Environmental awareness and action | Earth, leaves | Green, blue | Organic shapes | Hopeful, mindful | No |  |
 | International Penguin Awareness Day | Apr 25 | Antarctica | Penguin conservation awareness | Penguins, ice | Black, white, blue | Ice patterns | Educational | No |  |
-| Kodomo no Hi | May 5 | Japan | Celebration of children | Koinobori carp | Red, blue | Fish scales | Cheerful | Yes |  |
 | Syttende Mai | May 17 | Norway | National day with parades | Flags, bunads | Red, white, blue | Clean lines | Proud, joyful | No |  |
 | Mother’s Day | May (2nd Sunday) | International | Honoring mothers and caregivers | Flowers, cards | Soft pastels | Floral motifs | Warm, thankful | No |  |
 | Towel Day | May 25 | International | Tribute to Douglas Adams and *The Hitchhiker’s Guide to the Galaxy* | Towels, number 42 | Black, neon green, deep blues | Stars, sci-fi UI | Geeky, humorous | No | “Don’t Panic” |

@@ -457,6 +457,16 @@ Artists - RetroDECK Team: XargonWan
 
 ---
 
+### Matariki
+
+<details><summary> Spoiler </summary>
+<img src="../rd-matariki-splash.svg" width="500">
+
+Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
 ### La Tomatina
 
 <details><summary> Spoiler </summary>

@@ -468,6 +468,18 @@ Artists - RetroDECK Team: Lazorne
 
 ---
 
+### International Talk Like a Pirate Day
+
+<details><summary> Spoiler </summary>
+<img src="../rd-pirate-splash.svg" width="500">
+
+Artists - RetroDECK Team: Lazorne
+
+</details>
+
+
+---
+
 ### Oktoberfest
 
 <details><summary> Spoiler </summary>

@@ -187,23 +187,23 @@ This avoids priority ambiguity and ensures deterministic rendering behavior. Sin
 
 ## Boot Logo Credits
 
-The boot logo (also called the boot splash).
+The boot logo (also referred to as the *boot splash*) is displayed during RetroDECK start-up.
 
-**Note:**
+**Note:**  
 
-Splashes created by members of the RetroDECK team can be considered as a temporary solution until we can find *better* artists who wish to contribute.
+Boot splashes created by members of the RetroDECK team are provided on a best-effort basis and serve as an homage to the clipart and WordArt aesthetic associated with the Windows 3.1 to 98 era, in alignment with the Retro theme. These assets are considered provisional and may be replaced by future contributions from REAL artists or community collaborators.
 
-### Special Thanks to FOSS Art
+### Open-Source and Creative Commons Art Resources
 
-All assets are largely created using free‑and‑open‑source resources from the following repositories (or by hand):
+The majority of visual assets incorporated were created using materials distributed under open-source and/or Creative Commons licenses, obtained from the following repositories, or were independently produced:
 
-- **Pixelbay**
 - **SVGRepo**
 - **OpenClipart**
-- **KenneyNL** 
-- **Creazilla** 
+- **KenneyNL**
+- **Creazilla**
+- **Pixabay**
 
-We extend our gratitude to all contributors who make these open‑art assets available and free to use for all.
+We acknowledge and extend our appreciation to the respective creators and contributors who make these assets publicly available under open licenses.
 
 ### Standard Logo
 
@@ -562,6 +562,18 @@ Artists - RetroDECK Team: Lazorne
 ---
 
 
+### Chanukah / Hanukkah
+
+<details><summary> Spoiler </summary>
+<img src="../rd-chanukah-splash.svg" width="500">
+
+Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+
 ### Lucia
 
 <details><summary> Spoiler </summary>
@@ -634,7 +646,6 @@ Artists: Weestuarty
 | Obon | Aug 13-16 | Japan | Remembrance of ancestors | Lanterns | Warm amber | Floating lights | Respectful | No |  |
 | Waffle House Fight Club Day | Aug 24 | USA | Pop-culture anniversary | Waffles | Yellow, brown | Retro diner | Humorous | No |  |
 | Tsukimi / Mid-Autumn Festival | Sep-Oct | East Asia | Moon-viewing and harvest | Moon, lanterns | Gold, navy | Clouds | Tranquil | No |  |
-| Talk Like a Pirate Day | Sep 19 | International | Humorous parody day | Pirate hats | Black, red | Rough textures | Playful | No |  |
 | Frühlingsfest | Late Sep-Early Oct | Germany | Beer and folk festival | Pretzels, steins | Blue, white | Bavarian diamonds | Festive | No |  |
 | Thanksgiving (Canada) | Oct (2nd Mon) | Canada | Harvest and gratitude | Leaves, turkey | Warm browns | Autumn leaves | Cozy | No |  |
 | Thanksgiving (USA) | Nov (4th Thu) | USA | Harvest and gratitude | Turkey, cornucopia | Warm earth tones | Leaves | Cozy | No |  |

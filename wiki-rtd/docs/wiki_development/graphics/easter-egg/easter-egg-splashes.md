@@ -1,10 +1,10 @@
-# RetroDECK Boot Splash / Logo
+# Easter Egg Boot Splash Function
 
 <img src="../../../../wiki_images/logos/rd-esde-logo.svg" width="300">
 
 ## Main splash location
 
-The main retrodeck splash is located in:
+The main retrodeck boot logo called splash in ES-DE is located in:
 
 [res/splash.svg](https://github.com/RetroDECK/RetroDECK/blob/main/res/splash.svg)
 
@@ -195,7 +195,7 @@ Splashes created by members of the RetroDECK team can be considered as a tempora
 
 ### Special Thanks to FOSS Art
 
-Many use assets are largely created using free‑and‑open‑source resources from the following repositories:
+All assets are largely created using free‑and‑open‑source resources from the following repositories (or by hand):
 
 - **Pixelbay**
 - **SVGRepo**
@@ -232,6 +232,18 @@ The following contributors played important roles in the development of the firs
 Artists: RetroDECK Team: Lazorne
 
 </details>
+
+---
+
+### Groundhog Day
+
+<details><summary> Spoiler </summary>
+<img src="../rd-groundhog-day-splash.svg" width="500">
+
+Artists: RetroDECK Team: Lazorne
+
+</details>
+
 
 ---
 
@@ -572,10 +584,8 @@ Artists: Weestuarty
 
 | Event | Date (Typical) | Region / Country | Description | Key Symbols | Color Palette | Patterns & Motifs | Mood | Logo Available | Comments |
 |---|---|---|---|---|---|---|---|---|---|
-| End-of-Year Holiday Period | Dec 24-Jan 1 | International | Year-end celebrations and time off | Lights, gifts | Red, green, gold | Sparkles | Warm | Yes |  |
 | Desert Kite Festival | Jan-Mar (varies) | UAE | Large outdoor kite-flying event | Kites, wind, sky | Bright multicolor, blue | Geometric kite shapes | Joyful, airy | No |  |
 | Camel Festival | Jan-Mar (varies) | Saudi Arabia | Cultural festival with camel shows and races | Camels, desert motifs | Sand, brown, gold | Tribal patterns | Traditional, proud | No |  |
-| Groundhog Day | Feb 2 | USA / Canada | Folklore day predicting length of winter | Groundhog, burrow | Brown, white | Simple folk motifs | Playful, quirky | No |  |
 | Inti Raymi | Feb | Peru | Historic Incan festival celebrating the sun | Sun discs, traditional dress | Gold, red | Incan geometry | Ceremonial, proud | No |  |
 | International Polar Bear Day | Feb 27 | Arctic | Awareness day for polar bear conservation | Polar bears, ice | White, icy blue | Ice textures | Reflective, educational | No |  |
 | Holi | Mar (varies) | India | Festival of colors celebrating spring | Colored powders | Bright rainbow | Splashes, gradients | Energetic, joyful | No |  |
@@ -583,7 +593,6 @@ Artists: Weestuarty
 | April Fools’ Day | Apr 1 | International | Day of jokes and pranks | Jester hats, props | Bright primaries | Comic shapes | Silly, playful | No |  |
 | Earth Day | Apr 22 | International | Environmental awareness and action | Earth, leaves | Green, blue | Organic shapes | Hopeful, mindful | No |  |
 | International Penguin Awareness Day | Apr 25 | Antarctica | Penguin conservation awareness | Penguins, ice | Black, white, blue | Ice patterns | Educational | No |  |
-| Walpurgis Night | Apr 30 | Northern Europe | Spring celebration with bonfires | Fires, silhouettes | Orange, dark blue | Flames | Mystical | No |  |
 | Kodomo no Hi | May 5 | Japan | Celebration of children | Koinobori carp | Red, blue | Fish scales | Cheerful | Yes |  |
 | Syttende Mai | May 17 | Norway | National day with parades | Flags, bunads | Red, white, blue | Clean lines | Proud, joyful | No |  |
 | Mother’s Day | May (2nd Sunday) | International | Honoring mothers and caregivers | Flowers, cards | Soft pastels | Floral motifs | Warm, thankful | No |  |

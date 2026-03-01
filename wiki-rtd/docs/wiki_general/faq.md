@@ -4,6 +4,7 @@
 
 Welcome to the RetroDECK FAQ your all-in-one place for quick answers about installation, usage, features, and more.
 
+
 ---
 
 ## FAQ: Cooker
@@ -158,7 +159,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **Does RetroDECK ship with stable or nightly versions of systems?** | RetroDECK includes whichever version is best for compatibility and performance. For example:<br>- **RPCS3** → Nightly builds<br>- **RetroArch** → Stable releases (nightly cores only when no stable version exists) |
 | **How can I recover deleted folders (BIOS, Saves, etc.) but not the files?** | Perform a **Full Reset** using the Configurator and redo the initial setup. This will recreate all missing folder structures. |
 | **My `.bin + .cue` games appear twice in ES-DE - why?** | ES-DE detects both the `.bin` and `.cue` files. Use the built-in compression tool in the Configurator to convert them to `.chd`. This eliminates duplicate entries and saves storage space. |
-| **How does RetroDECK handle mods, texture packs, shaders, cheats, and miscellaneous data?** | RetroDECK makes it easy to apply and manage mods, texture packs, shaders, and cheats by exposing dedicated folders in `retrodeck/texture_packs/`, `retrodeck/mods/`, `retrodeck/shaders/`, and `retrodeck/cheats/`. Additionally, a `retrodeck/storage/` folder serves as a catch‑all for miscellaneous user-accessible data, eliminating the need to search for internal Flatpak locations. |
+| **How does RetroDECK handle mods, texture packs, shaders, cheats, and miscellaneous data?** | RetroDECK makes it easy to apply and manage mods, texture packs, shaders, and cheats by exposing dedicated folders in such as `retrodeck/texture_packs/`, `retrodeck/mods/`, `retrodeck/shaders/`, `retrodeck/borders/` and `retrodeck/cheats/`. Additionally, a `retrodeck/storage/` folder serves as a catch‑all for miscellaneous user-accessible data, eliminating the need to search for internal Flatpak locations. |
 | **Why does a game not work or run poorly in RetroDECK?** | Several factors may cause a game to fail to launch or perform poorly.<br><br>RetroDECK does not modify or "fix" individual components, it provides unified environment for them. Common causes include:<br><br>- The system’s component does not fully support the game.<br>- Required BIOS files or firmware are missing or incorrect (Configurator → Tools → BIOS Checker).<br>- The ROM/dump is incomplete, corrupted, or in an unsupported format (assistance cannot be provided for bad or incomplete ROMs).<br>- The current core version has known compatibility or performance limitations.<br>- The game requires per-game configuration that cannot be auto-applied.<br>- The host hardware (Steam Deck, handheld PC, or desktop PC) does not meet performance requirements.<br><br>General component troubleshooting is supported, but per-game compatibility issues are not. |
 | **Why can’t components be updated immediately to the newest release? Does this mean they are outdated?** | RetroDECK prioritizes stability and consistency over immediate adoption of every beta or upstream development update.<br><br>Most beta and development updates contain minor fixes that do not significantly affect average users.<br><br>All updates are tested before release and distributed when a stable build provides meaningful improvements.<br><br>Being on a previous minor version does not indicate that a component is broken or significantly outdated.<br><br>If an emergency hotfix is issued in a component’s stable release, RetroDECK aims to push it out in the next release window after testing.<br><br>RetroDECK often waits some weeks after a major new component release to allow upstream hotfixes and stability fixes before integrating it into RetroDECK proper. |
 
@@ -176,5 +177,15 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **How should I name my SD card?** | Use **only letters and numbers**:<br>- Allowed: `A-Z`, `a-z`, `0-9`<br>- Avoid: spaces, emojis, accents (`é`, `ñ`), punctuation, and symbols. |
 | **Why avoid special characters in SD card names?** | Special characters often cause issues in Linux environments:<br>- **Command-line breakage** (e.g., spaces, `!`, `?`, `&`)<br>- **Script failures** when tools can’t parse unusual characters<br>- **Transfer/backup errors** in some protocols that can’t handle special characters |
 | **How do I choose a good SD card?** | Follow these tips to avoid fake or poor-quality cards:<br>- Buy **reputable brands** (SanDisk, Samsung, Kingston)<br>- Purchase from **trusted retailers**, not unknown sellers<br>- Inspect packaging and printing quality<br>- Ensure metal contacts look clean and consistent<br>- Be wary of prices that are **too low**<br>- Test capacity with **F3** (Linux) or **H2testw** (Windows)<br>- Read **recent reviews** for speed & reliability<br>- Check the seller’s reputation before purchase |
+
+---
+
+## FAQ: Other 
+
+<img src="../../wiki_icons/retrodeck/icon-alchemist.svg" width="30">
+
+| **Question** | **Answer** |
+|--------------|------------|
+| **In the DOOM Mod - Project Brutality, why is the visor GUI disabled by default in the RetroDECK configuration?** | The visor GUI is disabled by default because it does not scale well on smaller displays and can cause the interface to appear cramped. Users who prefer this feature may re-enable it in the settings menu. |
 
 ---

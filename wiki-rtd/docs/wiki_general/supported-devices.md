@@ -1,6 +1,6 @@
-# Supported Devices and Operating Systems
+﻿# Supported Devices and Operating Systems
 
-<img src="../../wiki_icons/pixelitos/retrodeck.png" width="75">
+<img src="../../wiki_icons/pixelitos/retrodeck.png" width="75" alt="">
 
 RetroDECK currently supports **x86_64 Linux systems**. Support for additional architectures may be added in the future.
 
@@ -10,7 +10,7 @@ Our community is continuously experimenting, and many users enjoy running RetroD
 
 ## Steam Deck
 
-<img src="../../wiki_icons/pixelitos/steam.png" width="50">
+<img src="../../wiki_icons/pixelitos/steam.png" width="50" alt="">
 
 RetroDECK was originally designed with the **Steam Deck** in mind. The project began as an effort to create a unified retro gaming platform for this device.
 
@@ -19,7 +19,7 @@ RetroDECK was originally designed with the **Steam Deck** in mind. The project b
 
 ## Linux Desktop / HTPC / PC-Console (Steam Machine)
 
-<img src="../../wiki_icons/pixelitos/linux.png" width="50">
+<img src="../../wiki_icons/pixelitos/linux.png" width="50" alt="">
 
 RetroDECK runs on standard **Linux desktop systems**, though its advanced hotkey functionality depends on **Steam Input** for full support.
 
@@ -30,7 +30,7 @@ For the best experience, we recommend using a distribution that includes a built
 
 ## Other x86_64 Linux Handhelds and Devices
 
-<img src="../../wiki_icons/pixelitos/linux.png" width="50">
+<img src="../../wiki_icons/pixelitos/linux.png" width="50" alt="">
 
 
 

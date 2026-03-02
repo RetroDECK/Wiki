@@ -1,6 +1,6 @@
 # How-to: Start Using RetroDECK
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="100">
+<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="100" alt="">
 
 ## New to RetroDECK?
 
@@ -16,7 +16,7 @@ RetroDECK is an retro gaming platform.
 
 ### **RetroDECK - Prerequisites**
 
-<img src="../../wiki_icons/pixelitos/emblem-default.png" width="50">
+<img src="../../wiki_icons/pixelitos/emblem-default.png" width="50" alt="">
 
 Before installing, make sure you have everything RetroDECK needs to function correctly.
 
@@ -47,7 +47,7 @@ You will need:
 
 ### Steam Deck
 
-<img src="../../wiki_icons/pixelitos/steam.png" width="50"> 
+<img src="../../wiki_icons/pixelitos/steam.png" width="50" alt=""> 
 
 **Read more:**
 
@@ -57,7 +57,7 @@ You will need:
 
 ### Linux Desktop (HTPCs / Gaming PCs / PC-Consoles)
 
-<img src="../../wiki_icons/pixelitos/linux.png" width="50">
+<img src="../../wiki_icons/pixelitos/linux.png" width="50" alt="">
 
 **Read more:**
 

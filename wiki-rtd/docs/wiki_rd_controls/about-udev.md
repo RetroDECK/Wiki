@@ -1,6 +1,6 @@
-# udev
+﻿# udev
 
-<img src="../../wiki_icons/pixelitos/utilities-tweak-tool.png" width="75">
+<img src="../../wiki_icons/pixelitos/utilities-tweak-tool.png" width="75" alt="">
 
 ---
 
@@ -20,7 +20,7 @@ udev uses **rules** to control how devices are recognized and accessed. These ru
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 
 | Folder | Description |

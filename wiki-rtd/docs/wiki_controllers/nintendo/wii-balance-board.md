@@ -1,6 +1,6 @@
-# Wii Balance Board
+﻿# Wii Balance Board
 
-<img src="../../../wiki_images/controllers/wii-balance-board.png" width="250">
+<img src="../../../wiki_images/controllers/wii-balance-board.png" width="250" alt="">
 
 Used for various fitness games on the Nintendo Wii the most famous being `Wii Fit`.
 

@@ -1,6 +1,6 @@
-# Cyberbike
+﻿# Cyberbike
 
-<img src="../../../wiki_images/controllers/cyberbike-controller.png" width="230">
+<img src="../../../wiki_images/controllers/cyberbike-controller.png" width="230" alt="">
 
 The Cyberbike controller was released on January 12, 2010 on the Nintendo Wii for Cyberbike Cycling Sports.
 

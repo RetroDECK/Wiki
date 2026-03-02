@@ -1,6 +1,6 @@
-# PICO-8 - General Guide
+﻿# PICO-8 - General Guide
 
-<img src="../../../wiki_images/logos/pico-8-logo.png"  width="150">
+<img src="../../../wiki_images/logos/pico-8-logo.png"  width="150" alt="Pico 8 logo">
 
 PICO-8 is a 8-bit fantasy console emulator.
 
@@ -8,7 +8,7 @@ PICO-8 is a 8-bit fantasy console emulator.
 
 ### Pico-8 Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -28,7 +28,7 @@ PICO-8 games should be put under the `retrodeck/roms/pico8/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -36,7 +36,7 @@ PICO-8 games should be put under the `retrodeck/roms/pico8/` directory.
 
 ## Does Pico-8 require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes, it requires the Pico-8 software. 
 
@@ -52,7 +52,7 @@ You can purchase it from the official [Pico-8 website](https://www.lexaloffle.co
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                     | Comment |
 |:------:|:------------------------------|:-------:|
@@ -65,7 +65,7 @@ You can purchase it from the official [Pico-8 website](https://www.lexaloffle.co
 
 ## Downloading Games from the Pico-8 Webpage
 
-<img src="../pico-8-vampire.png" width="600">
+<img src="../pico-8-vampire.png" width="600" alt="">
 
 1. Visit [Pico-8 Carts](https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2).
 2. Open the desired game’s page.

@@ -1,6 +1,6 @@
-# Launching Lutris Games with RetroDECK
+﻿# Launching Lutris Games with RetroDECK
 
-<img src="../../../wiki_images/logos/lutris-logo.png" width="75">
+<img src="../../../wiki_images/logos/lutris-logo.png" width="75" alt="Lutris logo">
 
 This experiment was initiated by the users **murkl** and **Daeymon**. Then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external desktop games and apps within RetroDECK.
 
@@ -33,7 +33,7 @@ Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
@@ -64,7 +64,7 @@ First, create the `.desktop` file as mentioned above with the game name and put 
 
 **Example:** Ultima I
 
-<img src="../lutris.png" width="800">
+<img src="../lutris.png" width="800" alt="">
 
 **Internal ID:** 2
 
@@ -141,7 +141,7 @@ Categories=Game
 
 ## The Last Step: Launch the Games via RetroDECK & Scrape
 
-<img src="../windows-es-de.png" width="100">
+<img src="../windows-es-de.png" width="100" alt="">
 
 After the `.desktop` files have been created and everything is working as expected, RetroDECK will recognize the `.desktop` file the next time you start it. 
 

@@ -1,6 +1,6 @@
-# Guide: Tsugaru 津軽
+﻿# Guide: Tsugaru 津軽
 
-<img src="../../../wiki_images/logos/tsugaru-logo.png" width="150">
+<img src="../../../wiki_images/logos/tsugaru-logo.png" width="150" alt="Tsugaru logo">
 
 Tsugaru is a Fujitsu FM Towns / Marty Emulator.
 
@@ -10,7 +10,7 @@ Tsugaru is a Fujitsu FM Towns / Marty Emulator.
 
 ### Tsugaru Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -29,7 +29,7 @@ Microvision games should be put under the `retrodeck/roms/fmtowns/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 
 | File Format | Description |
@@ -42,7 +42,7 @@ Microvision games should be put under the `retrodeck/roms/fmtowns/` directory.
 
 ## Does Tsugaru require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes
 
@@ -50,7 +50,7 @@ Yes
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|

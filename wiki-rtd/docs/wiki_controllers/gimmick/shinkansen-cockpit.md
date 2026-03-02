@@ -1,6 +1,6 @@
-# Shinkansen Cockpit
+﻿# Shinkansen Cockpit
 
-<img src="../../../wiki_images/controllers/shinkansen-controller.png" width="250">
+<img src="../../../wiki_images/controllers/shinkansen-controller.png" width="250" alt="">
 
 Used for the Wii game `Densha de Go! Shinkansen`.
 

@@ -1,6 +1,6 @@
-# Guide: SimCoupe
+﻿# Guide: SimCoupe
 
-<img src="../../../wiki_images/logos/simcoupe-logo.png" width="150">
+<img src="../../../wiki_images/logos/simcoupe-logo.png" width="150" alt="Simcoupe logo">
 
 SimCoupe is a emulator for the the SAM Coupé - a British Z80-based home computer released in 1989 by Miles Gordon Technology.
 
@@ -10,7 +10,7 @@ SimCoupe is a emulator for the the SAM Coupé - a British Z80-based home compute
 
 ### SimCoupe Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -28,7 +28,7 @@ Microvision games should be put under the `retrodeck/roms/microvision/` director
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 
 | File Format | Description |
@@ -44,7 +44,7 @@ Microvision games should be put under the `retrodeck/roms/microvision/` director
 
 ## Does SimCoupe require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No
 
@@ -52,7 +52,7 @@ No
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|

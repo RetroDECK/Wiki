@@ -1,6 +1,6 @@
-# Dolphin  - General Guide
+﻿# Dolphin  - General Guide
 
-<img src="../../../wiki_images/logos/dolphin-logo.png" width="75">
+<img src="../../../wiki_images/logos/dolphin-logo.png" width="75" alt="Dolphin logo">
 
 Dolphin feature rich a GameCube and Wii Emulator.
 
@@ -8,7 +8,7 @@ Dolphin feature rich a GameCube and Wii Emulator.
 
 ## Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 ### Dolphin 
 
@@ -35,7 +35,7 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -62,7 +62,7 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 ## Does Dolphin require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
  File Name | Required For | Description |
 |-----------|--------------|-------------|
@@ -84,7 +84,7 @@ Dolphin looks for the `IPL.bin` in the save folders. Put each region's `IPL.bin`
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 ---
 

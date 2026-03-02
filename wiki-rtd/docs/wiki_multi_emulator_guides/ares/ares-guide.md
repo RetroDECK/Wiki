@@ -1,6 +1,6 @@
-#  ares - General Guide
+﻿#  ares - General Guide
 
-<img src="../../../wiki_images/logos/ares-logo.png" width="150">
+<img src="../../../wiki_images/logos/ares-logo.png" width="150" alt="Ares logo">
 
 ares is a multi-emulator.
 
@@ -10,7 +10,7 @@ ares is a multi-emulator.
 
 ### ares Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -69,7 +69,7 @@ ares supports a multiple of systems under:
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 Different for each system.
 
@@ -86,7 +86,7 @@ A general guideline is to use compressed formats:
 
 ## Does ares require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes, but not for all systems. The following need BIOS:
 
@@ -134,7 +134,7 @@ Yes, but not for all systems. The following need BIOS:
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type          | Directory                                                         | Comment                                                   |
 |:-------------:|:------------------------------------------------------------------|:----------------------------------------------------------|

@@ -1,6 +1,6 @@
-# Creating Component: Flatpak on Flathub
+﻿# Creating Component: Flatpak on Flathub
 
-<img src="../../../../wiki_images/logos/flatpak-logo.svg" width="75">
+<img src="../../../../wiki_images/logos/flatpak-logo.svg" width="75" alt="Flatpak logo">
 
 This a part of the How-to: Create Components Guide
 

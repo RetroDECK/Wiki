@@ -1,6 +1,6 @@
-# OpenBOR - General Guide
+﻿# OpenBOR - General Guide
 
-<img src="../../../wiki_images/logos/openbor-logo.svg" width="100">
+<img src="../../../wiki_images/logos/openbor-logo.svg" width="100" alt="Openbor logo">
 
 Open Beats of Rage (`OpenBOR`) is a beat 'em up game engine.
 
@@ -14,7 +14,7 @@ Open Beats of Rage (`OpenBOR`) is a beat 'em up game engine.
 
 ### OpenBOR Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -35,7 +35,7 @@ OpenBOR games should be put under the `retrodeck/roms/openbor/` directory.
 
 ## Does OpenBOR require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No, OpenBOR games are self-contained.
 
@@ -43,7 +43,7 @@ No, OpenBOR games are self-contained.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -60,7 +60,7 @@ To simplify file transfers and ensure compatibility with RetroDECK, both file ex
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type | Directory                 | Comment                           |
 |:----:|:--------------------------|:---------------------------------|

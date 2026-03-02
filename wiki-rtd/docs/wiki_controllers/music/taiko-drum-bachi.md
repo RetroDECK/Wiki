@@ -1,6 +1,6 @@
-# Taiko Drum & Bachi
+﻿# Taiko Drum & Bachi
 
-<img src="../../../wiki_images/controllers/taiko-drum-bachi.png" width="250">
+<img src="../../../wiki_images/controllers/taiko-drum-bachi.png" width="250" alt="">
 
 The Taiko Drum & Bachi controller is a specialized input device designed for playing Taiko no Tatsujin, a popular rhythm game series. The controller consists of a drum (taiko) and two drumsticks (bachi). Players use the drumsticks to hit the drum in time with the music, following the on-screen prompts. 
 

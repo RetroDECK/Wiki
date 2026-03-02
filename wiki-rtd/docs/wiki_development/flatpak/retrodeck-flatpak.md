@@ -1,6 +1,6 @@
-# About Flatpak
+﻿# About Flatpak
 
-<img src="../../../wiki_images/flatpak/flathub-logo.svg" width="100">
+<img src="../../../wiki_images/flatpak/flathub-logo.svg" width="100" alt="">
 
 This is general information about the Flatpak packing format.
 
@@ -24,7 +24,7 @@ Let us explain what we have created.
 
 ### Simple flatpak
 
-<img src="../../../wiki_images/flatpak/flatpak.drawio.png" width="250"> 
+<img src="../../../wiki_images/flatpak/flatpak.drawio.png" width="250" alt=""> 
 
 This is a simple flatpak
 
@@ -34,7 +34,7 @@ This is a simple flatpak
 
 ### Advanced flatpak
 
-<img src="../../../wiki_images/flatpak/flatpakadv.drawio.png" width="250"> 
+<img src="../../../wiki_images/flatpak/flatpakadv.drawio.png" width="250" alt=""> 
 
 This is a more advanced flatpak
 
@@ -44,7 +44,7 @@ This is a more advanced flatpak
 
 ### RetroDECK Classic
 
-<img src="../../../wiki_images/flatpak/flatpakrdclassic.drawio.png" width="250"> 
+<img src="../../../wiki_images/flatpak/flatpakrdclassic.drawio.png" width="250" alt=""> 
 
 This is RetroDECK 0.9.4 and all older versions.
 
@@ -58,7 +58,7 @@ This is RetroDECK 0.9.4 and all older versions.
 
 ### RetroDECK "New"
 
-<img src="../../../wiki_images/flatpak/flatpakrdneo.drawio.png" width="250"> 
+<img src="../../../wiki_images/flatpak/flatpakrdneo.drawio.png" width="250" alt=""> 
 
 This is RetroDECK 0.10.0b and future versions. 
 

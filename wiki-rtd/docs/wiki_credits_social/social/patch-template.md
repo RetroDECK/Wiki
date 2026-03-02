@@ -1,6 +1,6 @@
-# RetroDECK vX.X.Xb 
+﻿# RetroDECK vX.X.Xb 
 
-<img src="../../../wiki_images/logos/rd-logo-box.png" width="600">
+<img src="../../../wiki_images/logos/rd-logo-box.png" width="600" alt="Rd Logo Box logo">
 
 **Release date:** 20XX-XX-XX
 
@@ -9,7 +9,7 @@
 
 ## RetroDECK Framework 
 
-<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="50" alt="">
 
 **Added:**
 
@@ -27,7 +27,7 @@
 
 ## RetroENGINE
 
-<img src="../../../wiki_icons/retrodeck/icon-engine.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-engine.svg" width="50" alt="">
 
 **Added:**
 
@@ -45,7 +45,7 @@
 
 ## RetroDECK Classic (Zenity) Configurator
 
-<img src="../../../wiki_icons/retrodeck/icon-configurator.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-configurator.svg" width="50" alt="">
 
 **Added:**
 

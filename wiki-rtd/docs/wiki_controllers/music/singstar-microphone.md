@@ -1,6 +1,6 @@
-# Singstar - Microphone
+﻿# Singstar - Microphone
 
-<img src="../../../wiki_images/controllers/singstar-microphone.png" width="250">
+<img src="../../../wiki_images/controllers/singstar-microphone.png" width="250" alt="">
 
 Used by the several games in the `Singstar` game series.
 

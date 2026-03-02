@@ -1,6 +1,6 @@
-# RetroDECK Hotkeys
+﻿# RetroDECK Hotkeys
 
-<img src="../../wiki_icons/pixelitos/antimicrox.png" width="50">
+<img src="../../wiki_icons/pixelitos/antimicrox.png" width="50" alt="">
 
 ## RetroDECK Controller Mapping
 
@@ -31,11 +31,11 @@ Via the RetroDECK Configurator
 
 **Steam Deck:**  
 
-<img src="../../wiki_images/steam/steam-controller-icon.png" width="50">
+<img src="../../wiki_images/steam/steam-controller-icon.png" width="50" alt="">
 
 **Linux Desktop:**  
 
-<img src="../../wiki_images/steam/steam-controller-icon-bar.png" width="200">
+<img src="../../wiki_images/steam/steam-controller-icon-bar.png" width="200" alt="">
 
 
 ---
@@ -95,19 +95,19 @@ Global hotkeys are activated by **pressing and holding the HotKey Button (HKB)**
 
 | Function               | Icon                                                                 | Xbox / Steam Deck       | Nintendo             | PlayStation          | Command       | System Support                                                                                       | Comment |
 |------------------------|:-------------------------------------------------------------------:|:----------------------:|:------------------:|:------------------:|:-------------:|:---------------------------------------------------------------------------------------------------|:--------|
-| Decrease Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-out.png" width="30"> | `HKB + D-Pad Down`     | `HKB + D-Pad Down` | `HKB + D-Pad Down` | `CTRL + 2`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> |         |
-| Fast Forward           | <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30"> | `HKB + R2`             | `HKB + R2`         | `HKB + R2`         | `CTRL + +`   | <ul><li>DuckStation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Increase Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-in.png" width="30"> | `HKB + D-Pad Up`       | `HKB + D-Pad Up`   | `HKB + D-Pad Up`   | `CTRL + 1`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> |         |
-| Load State             | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30"> | `HKB + L1`             | `HKB + L1`         | `HKB + L1`         | `CTRL + A`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Next State             | <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30"> | `HKB + D-Pad Right`    | `HKB + D-Pad Right` | `HKB + D-Pad Right` | `CTRL + K`   | <ul><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Open Menu              | <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30"> | `HKB + Y`              | `HKB + X`          | `HKB + Triangle`   | `CTRL + M`   | <ul><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RPCS3</li><li>RetroArch</li></ul> |         |
-| Pause / Resume         | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30"> | `HKB + A`              | `HKB + B`          | `HKB + Cross`      | `CTRL + P`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Previous State         | <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30"> | `HKB + D-Pad Left`     | `HKB + D-Pad Left` | `HKB + D-Pad Left` | `CTRL + J`   | <ul><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Quit Component         | <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30"> | `HKB + Start`          | `HKB + Start`      | `HKB + Start`      | `CTRL + Q`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Rewind                 | <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30"> | `HKB + L2`             | `HKB + L2`         | `HKB + L2`         | `CTRL + -`   | <ul><li>DuckStation (Legacy)</li><li>RetroArch</li></ul> |         |
-| Save State             | <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30"> | `HKB + R1`             | `HKB + R1`         | `HKB + R1`         | `CTRL + S`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Take Screenshot        | <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30"> | `HKB + B`              | `HKB + A`          | `HKB + Circle`     | `CTRL + X`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Toggle Fullscreen      | <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30"> | `HKB + X`              | `HKB + Y`          | `HKB + Square`     | `CTRL + ENTER` | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RPCS3</li></ul> |         |
+| Decrease Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-out.png" width="30" alt=""> | `HKB + D-Pad Down`     | `HKB + D-Pad Down` | `HKB + D-Pad Down` | `CTRL + 2`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> |         |
+| Fast Forward           | <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30" alt=""> | `HKB + R2`             | `HKB + R2`         | `HKB + R2`         | `CTRL + +`   | <ul><li>DuckStation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Increase Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-in.png" width="30" alt=""> | `HKB + D-Pad Up`       | `HKB + D-Pad Up`   | `HKB + D-Pad Up`   | `CTRL + 1`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> |         |
+| Load State             | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30" alt=""> | `HKB + L1`             | `HKB + L1`         | `HKB + L1`         | `CTRL + A`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Next State             | <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30" alt=""> | `HKB + D-Pad Right`    | `HKB + D-Pad Right` | `HKB + D-Pad Right` | `CTRL + K`   | <ul><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Open Menu              | <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30" alt=""> | `HKB + Y`              | `HKB + X`          | `HKB + Triangle`   | `CTRL + M`   | <ul><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RPCS3</li><li>RetroArch</li></ul> |         |
+| Pause / Resume         | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30" alt=""> | `HKB + A`              | `HKB + B`          | `HKB + Cross`      | `CTRL + P`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Previous State         | <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30" alt=""> | `HKB + D-Pad Left`     | `HKB + D-Pad Left` | `HKB + D-Pad Left` | `CTRL + J`   | <ul><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Quit Component         | <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30" alt=""> | `HKB + Start`          | `HKB + Start`      | `HKB + Start`      | `CTRL + Q`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Rewind                 | <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30" alt=""> | `HKB + L2`             | `HKB + L2`         | `HKB + L2`         | `CTRL + -`   | <ul><li>DuckStation (Legacy)</li><li>RetroArch</li></ul> |         |
+| Save State             | <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30" alt=""> | `HKB + R1`             | `HKB + R1`         | `HKB + R1`         | `CTRL + S`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Take Screenshot        | <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30" alt=""> | `HKB + B`              | `HKB + A`          | `HKB + Circle`     | `CTRL + X`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
+| Toggle Fullscreen      | <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30" alt=""> | `HKB + X`              | `HKB + Y`          | `HKB + Square`     | `CTRL + ENTER` | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RPCS3</li></ul> |         |
 
 
 

@@ -1,5 +1,5 @@
-# Rockband Keyboard
-<img src="../../../wiki_images/controllers/rockband-keyboard.png" width="300">
+﻿# Rockband Keyboard
+<img src="../../../wiki_images/controllers/rockband-keyboard.png" width="300" alt="">
 
 Used by the several games in the `Guitar Hero` and `Rockband` game series.
 

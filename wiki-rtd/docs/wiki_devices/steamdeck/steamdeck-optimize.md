@@ -1,6 +1,6 @@
-# Steam Deck: Optimizations & Addons
+﻿# Steam Deck: Optimizations & Addons
 
-<img src="../../../wiki_icons/pixelitos/steam.png" width="75">
+<img src="../../../wiki_icons/pixelitos/steam.png" width="75" alt="">
 
 These optimizations are entirely optional, but they can provide improved performance for certain more demanding components and applications on the Steam Deck.
 

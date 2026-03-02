@@ -1,5 +1,5 @@
-## Guitar Hero & Rockband - Button Guitars
-<img src="../../../wiki_images/controllers/guitar-hero-guitars.png" width="350">
+﻿## Guitar Hero & Rockband - Button Guitars
+<img src="../../../wiki_images/controllers/guitar-hero-guitars.png" width="350" alt="">
 
 Used by the several games in the `Guitar Hero` and `Rockband` game series.
 

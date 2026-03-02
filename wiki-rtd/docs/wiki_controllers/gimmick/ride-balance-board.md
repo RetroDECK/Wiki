@@ -1,6 +1,6 @@
-# RIDE Balance Board
+﻿# RIDE Balance Board
 
-<img src="../../../wiki_images/controllers/ride-controller.png" width="250">
+<img src="../../../wiki_images/controllers/ride-controller.png" width="250" alt="">
 
 The **RIDE Balance Board** is a unique controller designed for the Activision games Tony Hawk Ride and Tony Hawk Shred. Released in **2009**, this controller simulates the experience of riding a skateboard by allowing players to physically balance and perform tricks on the board. 
 

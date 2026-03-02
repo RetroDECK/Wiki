@@ -1,4 +1,4 @@
----
+﻿---
 date: 2024-10-03
 ---
 
@@ -46,7 +46,7 @@ It does feel like a comeback.
 ---
 
 
-<img src="../../../godot.png" width="80">
+<img src="../../../godot.png" width="80" alt="">
 
 ## Godot Configurator - Status
 
@@ -80,7 +80,7 @@ If you like our radial menus, please give follow him on YouTube and/or a Star on
 
 ---
 
-<img src="../../../portmaster.png" width="80">
+<img src="../../../portmaster.png" width="80" alt="">
 
 ## PortMaster - Status
 
@@ -103,7 +103,7 @@ So far there about **90+** ports are already done and been ported with more to c
 
 Look out for sales on Steam or GOG to complete your PortMaster collection!
 
-<img src="../../../mm.png" width="650">
+<img src="../../../mm.png" width="650" alt="">
 
 ### Question: How do you launch the ports?
 
@@ -133,7 +133,7 @@ Just launch PortMaster and it will update itself and its ports if needed.
 ---
 
 
-<img src="../../../srm-logo.png" width="80">
+<img src="../../../srm-logo.png" width="80" alt="">
 
 ## Steam ROM Manager - SRM (Add to Steam) - Status
 
@@ -162,7 +162,7 @@ If you want that a high level of customization you will need to open the SRM int
 
 ### Question: Can I quickly change the SRM filters?
 
-<img src="../../../SRM-filters.png" width="800">
+<img src="../../../SRM-filters.png" width="800" alt="">
 
 The goal is to expose them inside the Godot Configurator. With various dropdowns menus, toggles and checkboxes.
 

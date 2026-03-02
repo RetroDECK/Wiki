@@ -1,6 +1,6 @@
-# Steel Battalion Cockpit
+﻿# Steel Battalion Cockpit
 
-<img src="../../../wiki_images/controllers/steel-battalion.png" width="250">
+<img src="../../../wiki_images/controllers/steel-battalion.png" width="250" alt="">
 
 The **Steel Battalion Cockpit** is a unique and elaborate controller designed for the original Xbox game **Steel Battalion**. Released on **November 20, 2002**, this controller features 44 input points, including buttons, joysticks, a throttle handle, a radio channel dial, five switches, an eject button, and three foot pedals.
 

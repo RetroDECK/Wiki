@@ -1,5 +1,5 @@
-# Guitar Hero & Rockband - Microphone
-<img src="../../../wiki_images/controllers/guitar-hero-microhpone.png" width="153">
+﻿# Guitar Hero & Rockband - Microphone
+<img src="../../../wiki_images/controllers/guitar-hero-microhpone.png" width="153" alt="">
 
 Used by the several games in the `Guitar Hero` and `Rockband` game series.
 

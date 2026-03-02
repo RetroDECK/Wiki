@@ -1,6 +1,6 @@
-# ES-DE Frontend: General Guide
+﻿# ES-DE Frontend: General Guide
 
-<img src="../../../wiki_images/logos/es-de-logo.png" width="100">
+<img src="../../../wiki_images/logos/es-de-logo.png" width="100" alt="Es De logo">
 
 ES-DE Frontend (EmulationStation Desktop Edition) is a frontend for browsing and launching games from your multi-platform collection. 
 
@@ -13,7 +13,7 @@ ES-DE is the default frontend used in RetroDECK.
 
 ### ES-DE Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -34,7 +34,7 @@ ES-DE is the default frontend used in RetroDECK.
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | Type           | Directory                           | Comment                   |
 |:--------------:|:----------------------------------|:-------------------------|

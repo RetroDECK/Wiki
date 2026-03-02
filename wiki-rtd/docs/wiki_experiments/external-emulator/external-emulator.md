@@ -1,6 +1,6 @@
-# Launching External Emulator 
+﻿# Launching External Emulator 
 
-<img src="../dolphin-result.png" width="800">
+<img src="../dolphin-result.png" width="800" alt="">
 
 This experiment was initiated by the user **TopHatCat** and later expanded upon by the RetroDECK Team. **TopHatCats** goal was to explore the possibility of launching games against external Emulators from within RetroDECK (limited to the systems ES-DE supports). 
 
@@ -49,7 +49,7 @@ We also recommend that you add RetroDECK to Steam to utilize Steam Input if you 
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 The Flatpak paths for RetroDECK vary based on how you installed it. You can install it as either a system or user application.
 
@@ -102,7 +102,7 @@ The Flatpak paths for RetroDECK vary based on how you installed it. You can inst
 
 ##### How-to: Finding the Launch Command
 
-<img src="../dolphin-emu-flatpak.png" width="800">
+<img src="../dolphin-emu-flatpak.png" width="800" alt="">
 
 **Note:** This was done in KDE.
 

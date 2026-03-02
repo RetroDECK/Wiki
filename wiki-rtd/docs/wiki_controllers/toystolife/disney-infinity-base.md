@@ -1,6 +1,6 @@
-# Disney Infinity - Infinity Base
+﻿# Disney Infinity - Infinity Base
 
-<img src="../../../wiki_images/controllers/disney-infinity-base.png" width="250">
+<img src="../../../wiki_images/controllers/disney-infinity-base.png" width="250" alt="">
 
 The Disney Infinity Base is an accessory used by the Disney Infinity games. It is a hexagonal flat platform onto which Figures, Game Pieces, and Power Discs are placed in order to use them in the games. The base has three slots: two circular and one hexagonal. The hexagonal slot is for Game Pieces and Hexagonal Power Discs (the power discs that spawn toys or change customizations in the Toy Box). The two circular slots are for Figures, as well as Circular Power Discs, which can be stacked under the figures to give them special abilities. Players can place up to three hexagonal discs and two circular discs on the base at one time. The base also emits different colors of light.
 

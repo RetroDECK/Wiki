@@ -1,4 +1,4 @@
-# Flight Controllers
+﻿# Flight Controllers
 
 Flight Controllers are used for playing games where you fly airplanes or other things like magic carpets. Some may lack Linux drivers or udev rules, but there are community efforts to make them work. Some require Windows-only software to configure inputs and buttons.
 
@@ -12,24 +12,24 @@ If you have a Flight Controller that didn't work on Linux but found a way to mak
 
 ## Flight Sticks - Arcade
 
-<img src="../../../wiki_images/controllers/flightstick-arcade.png" width="250">
+<img src="../../../wiki_images/controllers/flightstick-arcade.png" width="250" alt="">
 
 Arcade flight sticks are used mainly for flight arcade games.
 
 ## Flight Sticks - Professional
 
-<img src="../../../wiki_images/controllers/flightstick-pro.png" width="250">
+<img src="../../../wiki_images/controllers/flightstick-pro.png" width="250" alt="">
 
 Professional level flight sticks are used mainly for flight simulation games.
 
 ## Cockpit Style Sticks
 
-<img src="../../../wiki_images/controllers/flight-cockpit.png" width="250">
+<img src="../../../wiki_images/controllers/flight-cockpit.png" width="250" alt="">
 
 Cockpit Style flight sticks are used mainly for flight simulation games.
 
 ## Flight Pedals
 
-<img src="../../../wiki_images/controllers/flight-pedals.png" width="250">
+<img src="../../../wiki_images/controllers/flight-pedals.png" width="250" alt="">
 
 Flight Pedals are used mainly for flight simulation games.

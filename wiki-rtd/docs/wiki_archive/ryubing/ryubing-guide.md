@@ -1,6 +1,6 @@
-# Ryubing - General Guide
+﻿# Ryubing - General Guide
 
-<img src="../../../wiki_images/logos/ryubing-logo.webp" width="100">
+<img src="../../../wiki_images/logos/ryubing-logo.webp" width="100" alt="Ryubing logo">
 
 Ryubing was a Switch emulator.
 
@@ -28,7 +28,7 @@ This emulator is under rapid development and considered **bleeding edge**. It ma
 
 ### Ryubing Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -105,7 +105,7 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -120,7 +120,7 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 ## Does Ryubing require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes, Ryubing requires `prod.keys`, `title.keys`, and `.nca` files for proper operation.
 
@@ -156,7 +156,7 @@ You can also try manually placing the keys in the directory above. However, we r
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type           | Directory                                                                                                   | Comment                                   |
 |:--------------:|:------------------------------------------------------------------------------------------------------------|:------------------------------------------|

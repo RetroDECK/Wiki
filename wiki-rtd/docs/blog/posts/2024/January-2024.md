@@ -1,4 +1,4 @@
----
+﻿---
 date: 2024-01-24
 ---
 
@@ -34,7 +34,7 @@ We are also thankful for the new people that have shown up to help with various 
 
 ---
 
-<img src="../../../vita3k-logo.png" width="100">
+<img src="../../../vita3k-logo.png" width="100" alt="">
 
 ## Cooperation between projects: Vita3K
 
@@ -44,7 +44,7 @@ We are hopeful that these discussions lead to improvements for both projects.
 
 ---
 
-<img src="../../../boilr-logo.png" width="100">
+<img src="../../../boilr-logo.png" width="100" alt="">
 
 ## Cooperation between projects: BoilR
 
@@ -164,7 +164,7 @@ The following wiki pages are always updated with the latest efforts of the above
 ## Status Update: Godot Configurator
 
 
-<img src="../../../january-2024-1.webp" width="800">
+<img src="../../../january-2024-1.webp" width="800" alt="">
 
 The Godot Configurator is still a work progresses.
 
@@ -172,7 +172,7 @@ It has gotten many major overhauls and improvements already since last time it w
 
 
 ### Translations
-<img src="../../../january-2024-2.webp" width="800">
+<img src="../../../january-2024-2.webp" width="800" alt="">
 
 We are also working on translation files, and we hope to have some language options:
 

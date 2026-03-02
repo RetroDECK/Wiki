@@ -1,6 +1,6 @@
-# Xbox One/S/X - Xbox Elite Wireless Controller Series 1/2
+﻿# Xbox One/S/X - Xbox Elite Wireless Controller Series 1/2
 
-<img src="../../../wiki_images/controllers/xbox-elite-wireless-series.png" width="250">
+<img src="../../../wiki_images/controllers/xbox-elite-wireless-series.png" width="250" alt="">
 
 The Xbox Elite Wireless Controller Series 1, released on October 2015, is a premium gamepad developed by Microsoft for the Xbox One console. The Series 2, released on November 4, 2019, introduced several improvements including adjustable-tension thumbsticks, shorter hair trigger locks, and a wrap-around rubberized grip.
 

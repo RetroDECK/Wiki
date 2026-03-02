@@ -1,6 +1,6 @@
-# Guide: melonDS
+﻿# Guide: melonDS
 
-<img src="../../../wiki_images/logos/melonds-logo.svg" width="75">
+<img src="../../../wiki_images/logos/melonds-logo.svg" width="75" alt="Melonds logo">
 
 melonDS, a Nintendo DS emulator.
 
@@ -8,7 +8,7 @@ melonDS, a Nintendo DS emulator.
 
 ### melonDS Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -29,7 +29,7 @@ NDS games should be put under the `retrodeck/roms/nds/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 
 | File Format | Description |
@@ -42,7 +42,7 @@ NDS games should be put under the `retrodeck/roms/nds/` directory.
 
 ## Does MelonDS require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 MelonDS can run without BIOS or firmware files, but including them improves accuracy and compatibility. 
 
@@ -76,7 +76,7 @@ Directly into the folder
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|

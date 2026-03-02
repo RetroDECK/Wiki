@@ -1,6 +1,6 @@
-# Sinden
+﻿# Sinden
 
-<img src="../../../wiki_images/controllers/lightgun-sinden.png" width="250">
+<img src="../../../wiki_images/controllers/lightgun-sinden.png" width="250" alt="">
 
 The Sinden uses a software or a built in emulator overlay that adds a thin black border around the screen to navigate.
 

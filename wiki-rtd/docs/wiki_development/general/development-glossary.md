@@ -1,4 +1,4 @@
-# Development Glossary 
+﻿# Development Glossary 
 
 Here we are listing all the development lingo and features of the RetroDECK Project.
 
@@ -8,7 +8,7 @@ Here we are listing all the development lingo and features of the RetroDECK Proj
 
 ## Github Repositories
 
-<img src="../../../wiki_icons/pixelitos/github.png" width="50">
+<img src="../../../wiki_icons/pixelitos/github.png" width="50" alt="">
 
 **Main / Main Releases**
 
@@ -45,7 +45,7 @@ Holds shared component artifacts used throughout the project.
 
 ## RetroDECK Development to Publication Process 
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="50">
+<img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="50" alt="">
 
 How the publication process works:
 
@@ -71,7 +71,7 @@ You can only answer **YES** when it has been verified that it is out on Flathub.
 
 ## RetroDECK Framework
 
-<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="50" alt="">
 
 The `RetroDECK Framework` is the entire back-end system of RetroDECK.  
 It includes everything that powers the platform, such as:
@@ -88,7 +88,7 @@ In short, it's the engine that makes RetroDECK run.
 
 ## RetroDECK API
 
-<img src="../../../wiki_icons/retrodeck/icon-api.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-api.svg" width="50" alt="">
 
 The `RetroDECK API` allows external applications to interact with the `RetroDECK Framework`, enabling them to operate like the RetroDECK Configurator.
 
@@ -101,7 +101,7 @@ Currently, the API is only accessible through:
 
 ## RetroEngine
 
-<img src="../../../wiki_icons/retrodeck/icon-engine.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-engine.svg" width="50" alt="">
 
 `RetroENGINE` lets you launch games directly from your desktop using RetroDECK - no need to open the full application.
 
@@ -113,7 +113,7 @@ Currently, the API is only accessible through:
 
 ## RetroDECK Configurator
 
-<img src="../../../wiki_icons/retrodeck/icon-configurator.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-configurator.svg" width="50" alt="">
 
 The `RetroDECK Configurator` is a unique, multi-purpose utility built into RetroDECK.
 
@@ -135,7 +135,7 @@ A `RetroDECK Tool` is the name given to a function (or group of functions) that 
 
 ## RetroDECK Assembler
 
-<img src="../../../wiki_icons/retrodeck/icon-assembler.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-assembler.svg" width="50" alt="">
 
 The `RetroDECK Assembler` is the total sum of the building engine part of the `RetroDECK Framework`.
 
@@ -152,7 +152,7 @@ The `RetroDECK Alchemist` is the part of the `RetroDECK Assembler` that handles 
 
 ## Library Gather & Library Hunter
 
-<img src="../../../wiki_icons/retrodeck/icon-hunter.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-hunter.svg" width="50" alt="">
 
 The library managers or `Library Gatherer & Library Hunter` are the part of the `RetroDECK Framework`. 
 
@@ -174,7 +174,7 @@ Their purpose is to reduce library dependency conflicts between components when 
 
 ## RetroDECK Components
 
-<img src="../../../wiki_icons/retrodeck/icon-component.svg" width="50">
+<img src="../../../wiki_icons/retrodeck/icon-component.svg" width="50" alt="">
 
 RetroDECK is made by assembling various components.
 
@@ -214,9 +214,8 @@ RetroDECK itself with it's various tools and features is also an component.
 
 Directs RetroDECK’s build automation on how to transform a component’s original source-whether an AppImage, Flatpak, pre‑compiled binary, or source code-into a fully packaged RetroDECK component.
 
-**Note** 
-
-`component_recipe.sh` is used only during the build process and is **not** shipped with the final component package.
+!!! note
+    `component_recipe.sh` is used only during the build process and is **not** shipped with the final component package.
 
 ---
 

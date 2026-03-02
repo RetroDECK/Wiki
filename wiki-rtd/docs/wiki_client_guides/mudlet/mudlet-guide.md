@@ -1,6 +1,6 @@
-# Mudlet: General Guide
+﻿# Mudlet: General Guide
 
-<img src="../../../wiki_images/logos/mudlet-logo.svg" width="75">
+<img src="../../../wiki_images/logos/mudlet-logo.svg" width="75" alt="Mudlet logo">
 
 Mudlet is a MUD (Multi-User Dungeon) client that allows you to connect to text-based online multiplayer games (the precursors to modern MMOs).
 
@@ -14,7 +14,7 @@ Mudlet enables MUD server maintainers to add visual elements and custom features
 
 ### Mudlet Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -34,7 +34,7 @@ You don’t need to add them manually. Mudlet profiles are **automatically** sto
 
 ## Does Mudlet require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No, Mudlet does not require BIOS or firmware, as the games run on remote servers that store all game data.
 
@@ -43,7 +43,7 @@ No, Mudlet does not require BIOS or firmware, as the games run on remote servers
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -54,7 +54,7 @@ No, Mudlet does not require BIOS or firmware, as the games run on remote servers
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type | Directory                 | Comment                           |
 |:----:|:--------------------------|:---------------------------------|

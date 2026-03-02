@@ -1,6 +1,6 @@
-# IkemenGO / M.U.G.E.N - General Guide
+﻿# IkemenGO / M.U.G.E.N - General Guide
 
-<img src="../../../wiki_images/logos/ikemen-go-logo.png" width="75">
+<img src="../../../wiki_images/logos/ikemen-go-logo.png" width="75" alt="Ikemen Go logo">
 
 `IkemenGO` is a fighting game engine and the spiritual successor to the projects `Ikemen` and `M.U.G.E.N`. 
 
@@ -10,7 +10,7 @@ It strives to be compatible with games made for those engines.
 
 ### IkemanGO Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -29,7 +29,7 @@ It strives to be compatible with games made for those engines.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -40,7 +40,7 @@ It strives to be compatible with games made for those engines.
 
 ## Does IkemenGO require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No
 
@@ -48,7 +48,7 @@ No
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type | Directory               | Comment |
 |:----:|:-----------------------|:-------|

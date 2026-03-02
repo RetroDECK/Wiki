@@ -1,6 +1,6 @@
-# DOSBox-X: General Guide
+﻿# DOSBox-X: General Guide
 
-<img src="../../../wiki_images/logos/dosbox-x-logo.png" width="150">
+<img src="../../../wiki_images/logos/dosbox-x-logo.png" width="150" alt="Dosbox X logo">
 
 DOSBox-X is an open-source DOS emulator for running DOS applications, DOS games, DOS-based Windows 3.x and Windows 9x games. 
 
@@ -10,7 +10,7 @@ DOSBox-X is an open-source DOS emulator for running DOS applications, DOS games,
 
 ### DOSBox-X Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -28,7 +28,7 @@ DOSBox-X games should be put under the `retrodeck/roms/dos/`, `retrodeck/roms/wi
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 
 | File Format | Description |
@@ -41,7 +41,7 @@ DOSBox-X games should be put under the `retrodeck/roms/dos/`, `retrodeck/roms/wi
 
 ## Does DOSBox-X require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No, but you will need a copy of Windows 98 to play Windows 9x games or Windows 3.1 to play Windows 3.x games.
 
@@ -49,7 +49,7 @@ No, but you will need a copy of Windows 98 to play Windows 9x games or Windows 3
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|

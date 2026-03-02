@@ -1,6 +1,6 @@
-# RetroDECK ES-DE Background Music
+﻿# RetroDECK ES-DE Background Music
 
-<img src="../../../wiki_icons/pixelitos/applications-multimedia.png" width="75">
+<img src="../../../wiki_icons/pixelitos/applications-multimedia.png" width="75" alt="">
 
 This experiment was initiated by the users **Partack** and **TopHatCat**, then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of doing custom scripts to enable very basic music playback in ES-DE.
 

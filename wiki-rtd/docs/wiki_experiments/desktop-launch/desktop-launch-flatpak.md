@@ -1,6 +1,6 @@
-# Launching Flatpak Games & Apps with RetroDECK
+﻿# Launching Flatpak Games & Apps with RetroDECK
 
-<img src="../../../wiki_images/logos/flatpak-logo.svg" width="75">
+<img src="../../../wiki_images/logos/flatpak-logo.svg" width="75" alt="Flatpak logo">
 
 This experiment was initiated by the users **murkl** and **Daeymon**. Then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external desktop games and apps within RetroDECK.
 
@@ -35,7 +35,7 @@ Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
@@ -56,7 +56,7 @@ Make an empty file with the `<gamename>.desktop`.
 
 You can either copy and edit the desktop files or make your own.
 
-<img src="../discover.png" width="800">
+<img src="../discover.png" width="800" alt="">
 
 **Tips on Applications with Launchers:** 
 
@@ -137,7 +137,7 @@ Note this was done in KDE
 
 [OpenRA - Flathub](https://flathub.org/apps/net.openra.OpenRA)
 
-<img src="../openra.png" width="800">
+<img src="../openra.png" width="800" alt="">
 
 - **Run command:** flatpak run net.openra.OpenRA
 - **Full Flatpak Name:** net.openra.OpenRA
@@ -176,7 +176,7 @@ Categories=Game
 
 ## The Last Step: Launch the Games via RetroDECK & Scrape
 
-<img src="../windows-es-de.png" width="100">
+<img src="../windows-es-de.png" width="100" alt="">
 
 After the `.desktop` files have been created and everything is working as expected, RetroDECK will recognize the `.desktop` file the next time you start it. 
 

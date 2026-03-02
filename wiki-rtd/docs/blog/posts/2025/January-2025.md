@@ -1,4 +1,4 @@
---- 
+﻿--- 
 
 date: 2025-01-27
 
@@ -16,7 +16,7 @@ A new year and a new blog post!
 
 <!-- more -->
 
-<img src="../../../rd-lunar-snake-cn-logo.svg" width="600"> 
+<img src="../../../rd-lunar-snake-cn-logo.svg" width="600" alt=""> 
 
 🐍 We wish everyone a happy Chinese New Year / Lunar New Year to those who celebrate it! 🎇
 

@@ -1,6 +1,6 @@
-# Vita3K - General Guide
+﻿# Vita3K - General Guide
 
-<img src="../../../wiki_images/logos/vita3k-logo.png" width="75">
+<img src="../../../wiki_images/logos/vita3k-logo.png" width="75" alt="Vita3k logo">
 
 Vita3K is an experimental open-source Sony PlayStation Vita emulator.
 
@@ -14,7 +14,7 @@ This emulator is under rapid development and considered **bleeding edge**. It ma
 
 ### Vita3K Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -35,7 +35,7 @@ Vita3K games should be put into the `retrodeck/roms/psvita/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -45,7 +45,7 @@ Vita3K games should be put into the `retrodeck/roms/psvita/` directory.
 
 ## Does Vita3K require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes, it requires firmware. 
 
@@ -87,7 +87,7 @@ To play many commercial PSVita games, Vita3K requires license files or keys:
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type          | Directory                                                          | Comment                                   |
 |---------------|--------------------------------------------------------------------|-------------------------------------------|
@@ -106,7 +106,7 @@ To play many commercial PSVita games, Vita3K requires license files or keys:
 
 ### How-to: Get the Title ID
 
-<img src="../vita3k-titleid.png" width="800">
+<img src="../vita3k-titleid.png" width="800" alt="">
 
 1. Open the Vita3K emulator via Configurator
 2. The third column contains the `Title ID` of the game you just installed (this is unique to every game).
@@ -170,7 +170,7 @@ Install DLC and game patches the same way as the base game by repeating **Step 1
 
 ### Step 3: Add the Game’s Title ID
 
-<img src="../psvita-kate.png" width="800">
+<img src="../psvita-kate.png" width="800" alt="">
 
 1. Open the newly created `.psvita` file in a text editor.
 2. In the first line, type the **Title ID only** no spaces, no extra lines.

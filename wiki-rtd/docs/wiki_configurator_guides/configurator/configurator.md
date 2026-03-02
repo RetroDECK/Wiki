@@ -1,18 +1,16 @@
 # RetroDECK Configurator
 
-<img src="../../../wiki_icons/retrodeck/icon-configurator.svg" width="100">
+<img src="../../../wiki_icons/retrodeck/icon-configurator.svg" width="100" alt="">
 
- **Note:** 
- 
-- The Configurator will undergo a full redesign into a controller-friendly **Godot-based application** in the long term.
-- The interface shown here represents the current implementation and is **not the final design**.
+!!! note "Configurator Redesign Notice"
+    The Configurator will undergo a full redesign into a controller-friendly **Godot-based application** in the long term. The interface shown here represents the current implementation and is **not the final design**.
 
 
 ---
 
 ## Overview
 
-<img src="../classic-configurator.png" width="800">
+<img src="../classic-configurator.png" width="800" alt="RetroDECK Configurator main menu showing all tool categories including Data Management, Settings, and Tools">
 
 The **RetroDECK Configurator** is a comprehensive, multi-purpose utility integrated directly into RetroDECK.
 It serves as the primary management interface, giving users access to both core functionality and advanced tooling within the **RetroDECK Framework**.
@@ -33,7 +31,7 @@ The Configurator can be launched through multiple methods:
 
 Navigate to the main ES-DE menu and select **RetroDECK Configurator**.
 
-<img src="../configurator-esde.png" width="500">
+<img src="../configurator-esde.png" width="500" alt="ES-DE main menu with the RetroDECK Configurator option highlighted">
 
 **2. From the Desktop Environment**
 

@@ -1,6 +1,6 @@
-# Reporting a Problem & Support
+﻿# Reporting a Problem & Support
 
-<img src="../../wiki_icons/pixelitos/edit-delete.png" width="75">
+<img src="../../wiki_icons/pixelitos/edit-delete.png" width="75" alt="">
 
 ## Before you report a Problem
 

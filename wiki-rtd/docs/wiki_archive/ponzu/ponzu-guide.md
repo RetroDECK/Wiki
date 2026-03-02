@@ -1,6 +1,6 @@
-# Ponzu - AppImage Loader: General Guide (Archive)
+﻿# Ponzu - AppImage Loader: General Guide (Archive)
 
-<img src="../../../wiki_icons/retrodeck/icon-ponzu.svg" width="100">
+<img src="../../../wiki_icons/retrodeck/icon-ponzu.svg" width="100" alt="">
 
 Ponzu was an AppImage Loader that can be used to search for user-provided AppImages and add them to RetroDECK.
 
@@ -12,7 +12,7 @@ If you do a Factory Reset of RetroDECK, you will need to repeat the Ponzu proces
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

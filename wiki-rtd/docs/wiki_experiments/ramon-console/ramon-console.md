@@ -1,6 +1,6 @@
-# Rámons RetroDECK Console
+﻿# Rámons RetroDECK Console
 
-<img src="../../../wiki_icons/pixelitos/preferences-system-splash.png" width="75">
+<img src="../../../wiki_icons/pixelitos/preferences-system-splash.png" width="75" alt="">
 
 This experiment was initiated by the user **Rámon van Raaij**. 
 

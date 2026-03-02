@@ -1,4 +1,4 @@
-# Guide: Using Real Wii Remotes in Dolphin
+﻿# Guide: Using Real Wii Remotes in Dolphin
 
 **Tip:** Sync Wiimote Button Hotkey
 
@@ -8,7 +8,7 @@ RetroDECK has a built-in hotkey for pressing the Dolphin `Sync Wiimote` button (
 
 ## Hardware Prerequisites
 
-<img src="../../../wiki_images/devices/wii-bar.png" width="150"> <img src="../../../wiki_images/devices/bluetooth-dongle.png" width="80">
+<img src="../../../wiki_images/devices/wii-bar.png" width="150" alt=""> <img src="../../../wiki_images/devices/bluetooth-dongle.png" width="80" alt="">
 
 - A Wii Sensor Bar alternative (wireless or wired).
 - A Linux compatible Bluetooth dongle or built-in Bluetooth adapter.
@@ -65,7 +65,7 @@ This method works only with the Official Wii Remote controller and is the easies
 
 ### Step 1: Open Dolphins Controller Settings
 
-<img src="../emulated-bluetooth.png" width="450">
+<img src="../emulated-bluetooth.png" width="450" alt="">
 
 Open `RetroDECK Configurator` → `Open Emulator` → `Dolphin` → `Options` → `Controller Settings`.
 
@@ -145,7 +145,7 @@ sudo echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="8087", ATTRS{idProduct}=="0025", 
 
 Open `RetroDECK Configurator` → `Open Emulator` → `Dolphin` → `Options` → `Controller Settings`.
 
-<img src="../dolphin-bluetooth-pass.png" width="450">
+<img src="../dolphin-bluetooth-pass.png" width="450" alt="">
 
 Change Bluetooth type:
 
@@ -153,7 +153,7 @@ Change Bluetooth type:
 
 Enable the following checkboxes:
 
-<img src="../dolphin-connect-scan.png" width="450">
+<img src="../dolphin-connect-scan.png" width="450" alt="">
 
 - `Connect Wii Remotes for Emulated Controllers`
 - `Continuous Scanning`

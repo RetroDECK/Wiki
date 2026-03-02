@@ -1,4 +1,4 @@
-# Launching Desktop Games & Apps with RetroDECK
+﻿# Launching Desktop Games & Apps with RetroDECK
 
 This experiment was initiated by the users **murkl** and **Daeymon**. Then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external desktop games and apps within RetroDECK.
 
@@ -33,7 +33,7 @@ Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
@@ -64,7 +64,7 @@ First, create the `.desktop` file as mentioned above with the game name and put 
 
 **Example:** Ultima I
 
-<img src="../lutris.png" width="800">
+<img src="../lutris.png" width="800" alt="">
 
 **Internal ID:** 2
 
@@ -154,7 +154,7 @@ First, create the `.desktop` file as mentioned above with the game name and put 
 
 **Example:** ASTLIBRA Revision
 
-<img src="../steam.png" width="800">
+<img src="../steam.png" width="800" alt="">
 
 **App ID:** 1718570
 
@@ -233,7 +233,7 @@ Categories=Game
 
 You can either copy and edit the desktop files or make your own.
 
-<img src="../discover.png" width="800">
+<img src="../discover.png" width="800" alt="">
 
 **Tips on Applications with Launchers:** 
 
@@ -314,7 +314,7 @@ Note this was done in KDE
 
 [OpenRA - Flathub](https://flathub.org/apps/net.openra.OpenRA)
 
-<img src="../openra.png" width="800">
+<img src="../openra.png" width="800" alt="">
 
 - **Run command:** flatpak run net.openra.OpenRA
 - **Full Flatpak Name:** net.openra.OpenRA
@@ -364,7 +364,7 @@ Categories=Game
 5. A shortcut will now be created on the Desktop.
 6. Move or copy that to `retrodeck/roms/desktop/`.
 
-<img src="../heroic-shortcut.png" width="800">
+<img src="../heroic-shortcut.png" width="800" alt="">
 
 ### Step 2: Edit the .desktop file
 
@@ -395,7 +395,7 @@ For a smoother experience enable these settings in Prism Launcher:
 3. Enable ` Start Minecraft maximized` , ` Close Launcher after game window opens` and ` Quit Launcher after game window closes`.
 4. Exit Settings
 
-<img src="../prism-settings.png" width="800">
+<img src="../prism-settings.png" width="800" alt="">
 
 ### Step 1: Create .desktop file from Prism Launcher
 
@@ -405,7 +405,7 @@ For a smoother experience enable these settings in Prism Launcher:
 4. `Right Click` the game → `Create Shortcut`.
 5. Save the shortcut to: `retrodeck/roms/desktop/`.
 
-<img src="../prism-shortcut.png" width="800">
+<img src="../prism-shortcut.png" width="800" alt="">
 
 ### Step 2: Edit the .desktop file
 
@@ -438,7 +438,7 @@ Icon=/var/home/deck/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/
 
 ## The Last Step: Launch the Games via RetroDECK & Scrape
 
-<img src="../windows-es-de.png" width="100">
+<img src="../windows-es-de.png" width="100" alt="">
 
 After the `.desktop` files have been created and everything is working as expected, RetroDECK will recognize the `.desktop` file the next time you start it. 
 

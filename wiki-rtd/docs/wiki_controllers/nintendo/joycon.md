@@ -1,6 +1,6 @@
-# Joy-Cons
+﻿# Joy-Cons
 
-<img src="../../../wiki_images/controllers/joy-con.png" width="250">
+<img src="../../../wiki_images/controllers/joy-con.png" width="250" alt="">
 
 Official Controllers for the Nintendo Switch
 

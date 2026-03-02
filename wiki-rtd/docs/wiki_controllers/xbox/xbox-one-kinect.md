@@ -1,6 +1,6 @@
-# Xbox One - Kinect V2
+﻿# Xbox One - Kinect V2
 
-<img src="../../../wiki_images/controllers/xbox-kinect-one.png" width="250">
+<img src="../../../wiki_images/controllers/xbox-kinect-one.png" width="250" alt="">
 
 The Xbox One Kinect, released on November 22, 2013, is an advanced motion-sensing input device developed by Microsoft for the Xbox One console. It has undergone several revisions, including the standalone Kinect for Xbox One released on October 7, 2014.
 

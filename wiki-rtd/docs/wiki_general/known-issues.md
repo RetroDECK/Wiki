@@ -1,6 +1,6 @@
-# Known Issues
+﻿# Known Issues
 
-<img src="../../wiki_icons/pixelitos/edit-delete.png" width="75">
+<img src="../../wiki_icons/pixelitos/edit-delete.png" width="75" alt="">
 
 ---
 

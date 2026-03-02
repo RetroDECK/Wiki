@@ -1,6 +1,6 @@
-### Ring Fit
+﻿### Ring Fit
 
-<img src="../../../wiki_images/controllers/ring-fit.png" width="250">
+<img src="../../../wiki_images/controllers/ring-fit.png" width="250" alt="">
 
 Is a JoyCon attachment used for `Ring Fit Adventure` the fitness game on the Nintendo Switch.
 

@@ -1,0 +1,100 @@
+/* ================================================================
+   RetroDECK Wiki — WCAG 2.2 Accessibility Fixes
+   File: docs/stylesheets/extra.css
+
+   Issues addressed:
+     1.4.10  Reflow               — wide-table horizontal scroll
+     2.4.7   Focus Visible        — robust focus ring (keyboard only)
+     2.4.11  Focus Not Obscured   — scroll-padding for sticky header
+     2.4.12  Focus Not Obscured   — (Enhanced, AAA) same rule covers it
+     1.4.12  Text Spacing         — nav items tolerate spacing overrides
+     2.5.8   Target Size (Min)    — inline link touch/click target size
+   ================================================================ */
+
+/* ---------------------------------------------------------------
+   1.4.10 Reflow
+   Prevent wide tables from causing two-dimensional scrolling at
+   320 CSS px viewport width (e.g. 400% browser zoom on 1280px).
+   Wrapped tables scroll independently — viewport remains single-axis.
+--------------------------------------------------------------- */
+.md-typeset__table,
+.md-typeset table:not([class]) {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ---------------------------------------------------------------
+   2.4.7 Focus Visible
+   Enforce a 3 px high-contrast focus ring on all interactive
+   elements during keyboard navigation.
+   
+   Uses :focus-visible (not :focus) — ring only appears for
+   keyboard/switch access, not mouse clicks.
+   
+   --md-accent-fg-color resolves to #ffffff (accent: white).
+   White on the slate dark background (#191f2e) is ~17:1 contrast.
+--------------------------------------------------------------- */
+:focus-visible {
+  outline: 3px solid var(--md-accent-fg-color);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Prevent double-ring on elements that carry their own outline */
+.md-search__input:focus-visible,
+.md-button:focus-visible {
+  outline: 3px solid var(--md-accent-fg-color);
+  outline-offset: 3px;
+}
+
+/* ---------------------------------------------------------------
+   2.4.11 / 2.4.12 Focus Not Obscured
+   The Material sticky header overlays page content when scrolling.
+   scroll-padding-top offsets keyboard-Tab scroll targets below the
+   header height so focused elements are never fully hidden.
+   
+   --md-header-height is set by the Material theme (typically 3rem).
+   Extra 0.5 rem gives a comfortable visual buffer above the item.
+--------------------------------------------------------------- */
+html {
+  scroll-padding-top: calc(var(--md-header-height, 3rem) + 0.5rem);
+}
+
+/* ---------------------------------------------------------------
+   1.4.12 Text Spacing
+   Users who apply accessibility text-spacing overrides
+   (line-height ≥1.5, letter-spacing ≥0.12em, word-spacing ≥0.16em)
+   must not lose content or functionality.
+   
+   Material nav items use height/overflow that clips text under
+   these conditions. Switching to auto height + overflow: visible
+   prevents clipping while maintaining the standard sidebar layout.
+--------------------------------------------------------------- */
+.md-nav__item,
+.md-nav__link {
+  height: auto;
+  overflow: visible;
+  white-space: normal;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  overflow: visible;
+}
+
+/* ---------------------------------------------------------------
+   2.5.8 Target Size (Minimum)  [new in WCAG 2.2]
+   Interactive targets must meet 24×24 CSS px OR have sufficient
+   offset spacing. Inline links in dense table cells and list items
+   are the primary risk area in this wiki.
+   
+   padding-block expands the clickable area vertically without
+   affecting surrounding text flow.
+--------------------------------------------------------------- */
+.md-typeset table a,
+.md-typeset li a {
+  padding-block: 0.15em;
+  display: inline-block;
+  min-height: 1.5rem; /* ≈ 24 px at 16 px base font */
+}

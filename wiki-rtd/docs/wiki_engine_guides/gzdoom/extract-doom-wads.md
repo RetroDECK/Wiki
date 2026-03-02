@@ -1,6 +1,6 @@
-# How-to: Get WADs from your bought copies of DOOM
+﻿# How-to: Get WADs from your bought copies of DOOM
 
-<img src="../../../wiki_images/logos/gzdoom-logo.png" width="75">
+<img src="../../../wiki_images/logos/gzdoom-logo.png" width="75" alt="Gzdoom logo">
 
 
 ### Notice: Steam Flatpak Version - steamapps/ Location

@@ -1,8 +1,8 @@
-# RetroDECK ‐ Story & Philosophy
+﻿# RetroDECK ‐ Story & Philosophy
 
 ## RetroDECK's Story: How RetroDECK was born?
 
-<img src="../../wiki_images/logos/351e-deck-logo.png" width="400">
+<img src="../../wiki_images/logos/351e-deck-logo.png" width="400" alt="351E Deck logo">
 
 Let's take a step back.
 

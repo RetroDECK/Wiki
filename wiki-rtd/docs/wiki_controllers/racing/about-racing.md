@@ -1,4 +1,4 @@
-# Racing Controllers
+﻿# Racing Controllers
 
 Racing Controllers are used for playing racing games and include a variety of third-party and first-party controllers. Some may lack Linux drivers or udev rules, but there are community efforts to make them work. Some require Windows-only software to configure inputs and buttons.
 
@@ -17,7 +17,7 @@ You'll still need a driver module that enables the hardware on Linux. Most wheel
 
 ## Steering Wheels, Pedals and Gear Shifters
 
-<img src="../../../wiki_images/controllers/racing-kit.png" width="250">
+<img src="../../../wiki_images/controllers/racing-kit.png" width="250" alt="">
 
 - Steering Wheel
 - Pedals

@@ -1,4 +1,4 @@
-# Development and Build Locally Notes
+﻿# Development and Build Locally Notes
 This is a WIP document to help build RetroDECK locally. It is based on notes taken while adding the Ruffle(Flash Emulator) to the RetroDECK project. 
 
 ## Overview
@@ -15,7 +15,7 @@ It would also be worth running RetroDECK in [debug mode](https://retrodeck.readt
 
 Note that you can run most applications in the app folder that have been built via flatpak.
 
-<img src="../../../wiki_images/graphics/development/retrodeck-overview.png" width="500">
+<img src="../../../wiki_images/graphics/development/retrodeck-overview.png" width="500" alt="">
 
 ### Project Resources
 In order to save project resources. Please try and use a self-hosted runner to test your build process.
@@ -100,7 +100,7 @@ The image below shows that the build is complete and that an artifact file has b
 actions-runner/_work/RetroDECK/RetroDECK/RetroDECK-cooker.flatpak
 ```
 
-<img src="../../../wiki_images/graphics/development/github_retrodeck_action.png" width="600">
+<img src="../../../wiki_images/graphics/development/github_retrodeck_action.png" width="600" alt="">
 
 
 #### Install self-hosted github runner

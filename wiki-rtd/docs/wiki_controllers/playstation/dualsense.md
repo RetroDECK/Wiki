@@ -1,6 +1,6 @@
-# PlayStation 5 - DualSense
+﻿# PlayStation 5 - DualSense
 
-<img src="../../../wiki_images/controllers/ps5-dualsense.png" width="250">
+<img src="../../../wiki_images/controllers/ps5-dualsense.png" width="250" alt="">
 
 The DualSense controller, released on November 12, 2020, is the wireless gamepad developed by Sony for the PlayStation 5 console. It features haptic feedback, adaptive triggers, and a built-in microphone, providing an immersive gaming experience. The controller has undergone several revisions, including internal adjustments for improved stability and efficiency.
 

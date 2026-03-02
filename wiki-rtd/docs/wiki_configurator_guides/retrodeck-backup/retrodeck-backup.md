@@ -1,10 +1,10 @@
-# RetroDECK: Backup
+﻿# RetroDECK: Backup
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-backup.png" width="75">
+<img src="../../../wiki_icons/pixelitos/folder-blue-backup.png" width="75" alt="">
 
 ## The Backup RetroDECK Tool
 
-<img src="../classic-configurator-backup-prompt.png" width="800">
+<img src="../classic-configurator-backup-prompt.png" width="800" alt="">
 
 The Backup RetroDECK tool creates a `.tar` file of your selected backup type and stores it under:
 

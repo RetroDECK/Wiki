@@ -1,10 +1,10 @@
-# RetroDECK: Games Compressor 
+﻿# RetroDECK: Games Compressor 
 
-<img src="../../../wiki_icons/pixelitos/file-roller.png" width="75">
+<img src="../../../wiki_icons/pixelitos/file-roller.png" width="75" alt="">
 
 ## The RetroDECK Compression Tool
 
-<img src="../classic-configurator-compress.png" width="800">
+<img src="../classic-configurator-compress.png" width="800" alt="">
 
 The RetroDECK Compression Tool allows you to compress game files into `.chd`, `.zip`, or `.rvz` formats. Compressed files are saved alongside the original games in your ROM directories, with the option to delete the originals automatically.
 

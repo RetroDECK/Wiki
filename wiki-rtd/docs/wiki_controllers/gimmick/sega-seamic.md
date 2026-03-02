@@ -1,6 +1,6 @@
-# SEGA Seamic Controller
+﻿# SEGA Seamic Controller
 
-<img src="../../../wiki_images/controllers/sega-seamic-ps2.png" width="230">
+<img src="../../../wiki_images/controllers/sega-seamic-ps2.png" width="230" alt="">
 
 The **SEGA Seamic Controller** is a unique controller designed for the PlayStation 2 games **Seaman: Kindan no Pet** and **Seaman 2: Peking Genjin Ikusei Kit**. 
 

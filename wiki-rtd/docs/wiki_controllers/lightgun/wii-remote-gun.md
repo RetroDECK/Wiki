@@ -1,6 +1,6 @@
-# Wii Remote Gun
+﻿# Wii Remote Gun
 
-<img src="../../../wiki_images/controllers/lightgun-wiigun.png" width="150">
+<img src="../../../wiki_images/controllers/lightgun-wiigun.png" width="150" alt="">
 
 Some emulators support usage of the Wii Remote as Lightgun emulation. This is not a standard configuration as supported by Dolphin.
 

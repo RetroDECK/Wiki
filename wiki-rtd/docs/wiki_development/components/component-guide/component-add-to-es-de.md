@@ -1,6 +1,6 @@
-# Component: Add to ES-DE
+﻿# Component: Add to ES-DE
 
-<img src="../../../../wiki_images/logos/es-de-logo.png" width="75">
+<img src="../../../../wiki_images/logos/es-de-logo.png" width="75" alt="Es De logo">
 
 In ES-DE all applications no matter what it is referred to as an **Emulator**.
 
@@ -10,7 +10,7 @@ In RetroDECK we use the neutral name of **Component**.
 
 ### ES-DE General Links
 
-<img src="../../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 [ES-DE: Userguide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md)
 
@@ -26,7 +26,7 @@ In RetroDECK we use the neutral name of **Component**.
 
 ### ES-DE Development Links
 
-<img src="../../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 [ES-DE: Gitlab](https://gitlab.com/es-de/emulationstation-de)
 

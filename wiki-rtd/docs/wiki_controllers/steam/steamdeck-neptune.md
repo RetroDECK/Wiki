@@ -1,6 +1,6 @@
 # Steam Deck: Neptune
 
-<img src="../../../wiki_images/graphics/steamdeck/rd_sd_screen1.jpeg" width="350">
+<img src="../../../wiki_images/graphics/steamdeck/rd_sd_screen1.jpeg" width="350" alt="Steam Deck handheld gaming device running RetroDECK">
 
 The Steam Deck, released on February 25, 2022, is a handheld gaming computer developed by Valve Corporation. 
 
@@ -39,7 +39,7 @@ KERNEL=="hidraw*", KERNELS=="*28DE:*", MODE="0666"
 
 ## Input Map
 
-<img src="../../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550">
+<img src="../../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550" alt="Steam Deck controller input map labelling all buttons, triggers, trackpads, sticks, and d-pad">
 
 ## RetroDECK Hotkeys
 

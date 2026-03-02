@@ -1,6 +1,6 @@
-# Yuzu - General Guide (Archive)
+﻿# Yuzu - General Guide (Archive)
 
-<img src="../../../wiki_images/logos//yuzu-logo.svg" width="75">
+<img src="../../../wiki_images/logos//yuzu-logo.svg" width="75" alt="/Yuzu logo">
 
 Yuzu was a Switch emulator.
 
@@ -14,7 +14,7 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -27,7 +27,7 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 ## Does Yuzu require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes, `prod.keys` `title.keys` and `.nca` files.
 
@@ -165,7 +165,7 @@ Open the `RetroDECK Configurator` and launch Yuzu from: `Main Menu` - `RetroDECK
 
 **In Yuzu:**
 
-<img src="../yuzu-controls.png" width="600">
+<img src="../yuzu-controls.png" width="600" alt="">
 
 Go to: `Emulation` - `Configure` - `Controls`
 
@@ -175,7 +175,7 @@ Make sure that the `Motion` is checked in the bottom left and click the `Configu
 
 ### Step 4: Test and Configure Motion
 
-<img src="../yuzu-motion-configure.png" width="600">
+<img src="../yuzu-motion-configure.png" width="600" alt="">
 
 Make sure that the localhost IP-adress and port exists on the left side of the menu.
 
@@ -193,13 +193,13 @@ If all has gone well, you will get a message saying:
 
 ### Step 5: Go back to Controls and press the motion button
 
-<img src="../yuzu-hidden-motion.png" width="600">
+<img src="../yuzu-hidden-motion.png" width="600" alt="">
 
 Go back to `Controls`
 
 Now you need to press the `Motion` button and `Shake the Steam Deck` to bind the motion.
 
-<img src="../yuzu-gyro-box.png" width="600">
+<img src="../yuzu-gyro-box.png" width="600" alt="">
 
 If all is working correctly the tiny box in the middle of the controller should move with your built-in Gyro.
 

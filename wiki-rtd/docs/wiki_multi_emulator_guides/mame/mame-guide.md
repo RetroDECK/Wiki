@@ -1,6 +1,6 @@
-# MAME - General Guide
+﻿# MAME - General Guide
 
-<img src="../../../wiki_images/logos/mame-logo.png" width="200">
+<img src="../../../wiki_images/logos/mame-logo.png" width="200" alt="Mame logo">
 
 MAME is a multi-purpose emulation framework.
 
@@ -10,7 +10,7 @@ MAME’s purpose is to preserve decades of software history. As electronic techn
 
 ### MAME Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -30,7 +30,7 @@ Games that you want to run with MAME should be put under the `retrodeck/roms/mam
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -41,7 +41,7 @@ Games that you want to run with MAME should be put under the `retrodeck/roms/mam
 
 ## Does MAME require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes, it depends on the game.
 
@@ -65,7 +65,7 @@ It all depends on the game.
 
 ## MAME Folders
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 MAME comes with several folders for various assets and files.
 

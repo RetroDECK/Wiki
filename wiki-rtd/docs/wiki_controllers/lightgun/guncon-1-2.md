@@ -1,9 +1,9 @@
-# ConCon 1 and 2
+﻿# ConCon 1 and 2
 
-<img src="../../../wiki_images/logos/guncon-logo.png" width="150">
+<img src="../../../wiki_images/logos/guncon-logo.png" width="150" alt="Guncon logo">
 
-<img src="../../../wiki_images/controllers/lightgun-guncon1.png" width="150">
-<img src="../../../wiki_images/controllers/lightgun-guncon2.png" width="150">
+<img src="../../../wiki_images/controllers/lightgun-guncon1.png" width="150" alt="">
+<img src="../../../wiki_images/controllers/lightgun-guncon2.png" width="150" alt="">
 
 The GunCon, known as the G-Con in Europe, is a family of gun peripherals designed by Namco for the PlayStation consoles.
 

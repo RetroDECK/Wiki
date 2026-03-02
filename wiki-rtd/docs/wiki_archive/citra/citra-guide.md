@@ -1,6 +1,6 @@
-# Citra - General Guide (Archive)
+﻿# Citra - General Guide (Archive)
 
-<img src="../../../wiki_images/logos/citra-logo.svg" width="75">
+<img src="../../../wiki_images/logos/citra-logo.svg" width="75" alt="Citra logo">
 
 Citra was a Nintendo 3DS Emulator.
 
@@ -14,7 +14,7 @@ Citra was a Switch emulator and was removed as part of the `0.8.0b` update.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -30,14 +30,14 @@ Citra was a Switch emulator and was removed as part of the `0.8.0b` update.
 
 ## Does Citra require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes, if the games are encrypted then keyfiles are needed: `aes_keys.txt`
 
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

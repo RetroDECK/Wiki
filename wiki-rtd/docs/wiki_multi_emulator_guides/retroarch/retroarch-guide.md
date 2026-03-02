@@ -1,6 +1,6 @@
-#  RetroArch - General Guide
+﻿#  RetroArch - General Guide
 
-<img src="../../../wiki_images/logos/retroarch-logo.png" width="75">
+<img src="../../../wiki_images/logos/retroarch-logo.png" width="75" alt="Retroarch logo">
 
 RetroArch is a multi-emulator that play games with emulator cores.
 
@@ -8,7 +8,7 @@ RetroArch is a multi-emulator that play games with emulator cores.
 
 ### RetroArch Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -38,7 +38,7 @@ The `ES-DE User Guide` (above) has an always updated list on what subfolder unde
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 Different for each system / core.
 
@@ -55,7 +55,7 @@ A general guideline is to use compressed formats:
 
 ## Does RetroArch require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 It depends on the core, check the links for the most up-to-date information.
 
@@ -68,7 +68,7 @@ It depends on the core, check the links for the most up-to-date information.
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type          | Directory                                                         | Comment                                                   |
 |:-------------:|:------------------------------------------------------------------|:----------------------------------------------------------|

@@ -1,6 +1,6 @@
-# Skylanders - Portal of Power
+﻿# Skylanders - Portal of Power
 
-<img src="../../../wiki_images/controllers/portal-of-power.png" width="250">
+<img src="../../../wiki_images/controllers/portal-of-power.png" width="250" alt="">
 
 **Spyro's Adventure Portal**
 

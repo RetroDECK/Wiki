@@ -1,6 +1,6 @@
-# Xbox Adaptive Controller (XAC)
+﻿# Xbox Adaptive Controller (XAC)
 
-<img src="../../../wiki_images/controllers/xbox-adaptive.png" width="250">
+<img src="../../../wiki_images/controllers/xbox-adaptive.png" width="250" alt="">
 
 [Microsoft XAC Website](https://www.xbox.com/en-US/accessories/controllers/xbox-adaptive-controller)
 

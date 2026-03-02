@@ -1,6 +1,6 @@
-# Run RetroDECK in WSL on Windows 11
+﻿# Run RetroDECK in WSL on Windows 11
 
-<img src="../../../wiki_icons/pixelitos/windows.png" width="75">
+<img src="../../../wiki_icons/pixelitos/windows.png" width="75" alt="">
 
 This experiment was initiated by a stupid idea in the RetroDECK Team. 
 

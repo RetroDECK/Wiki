@@ -1,10 +1,10 @@
-# How-to: Change Controller Order in Steam Input
+﻿# How-to: Change Controller Order in Steam Input
 
-<img src="../../wiki_icons/pixelitos/emblem-synchronizing.png" width="75">
+<img src="../../wiki_icons/pixelitos/emblem-synchronizing.png" width="75" alt="">
 
 ### Prerequisites
 
-<img src="../../wiki_images/steam/steam-controller-order.png" width="300">
+<img src="../../wiki_images/steam/steam-controller-order.png" width="300" alt="">
 
 - RetroDECK must be added to Steam.  
 - More than one controller must be connected.  

@@ -1,6 +1,6 @@
-# Commander X16: General Guide
+﻿# Commander X16: General Guide
 
-<img src="../../../wiki_images/logos/commander-x16-logo.png" width="150">
+<img src="../../../wiki_images/logos/commander-x16-logo.png" width="150" alt="Commander X16 logo">
 
 Commander X16 is a 8-bit fantasy computer emulator.
 
@@ -10,7 +10,7 @@ Commander X16 is a 8-bit fantasy computer emulator.
 
 ### Commander X16 Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -28,7 +28,7 @@ Commander X16 games should be put under the `retrodeck/roms/commander-x16/` dire
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 
 | File Format | Description |
@@ -39,7 +39,7 @@ Commander X16 games should be put under the `retrodeck/roms/commander-x16/` dire
 
 ## Does Commander X16 require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No
 
@@ -47,7 +47,7 @@ No
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|

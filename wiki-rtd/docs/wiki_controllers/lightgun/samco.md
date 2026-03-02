@@ -1,5 +1,5 @@
-# SAMCO - Arduino Powered IR Light Gun
-<img src="../../../wiki_images/controllers/lightgun-guncon1.png" width="150">
+﻿# SAMCO - Arduino Powered IR Light Gun
+<img src="../../../wiki_images/controllers/lightgun-guncon1.png" width="150" alt="">
 
 SAMCO is a way to rebuild old Namco GunCon's with Arduino to a IR Light Gun that works with modern displays.
 

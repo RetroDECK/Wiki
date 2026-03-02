@@ -1,6 +1,6 @@
-# Virtual Pinball (VPin / Vboard) Controllers
+﻿# Virtual Pinball (VPin / Vboard) Controllers
 
-<img src="../../../wiki_images/controllers/vpinball.png" width="250">
+<img src="../../../wiki_images/controllers/vpinball.png" width="250" alt="">
 
 Virtual pinball machines are digital recreations of traditional pinball machines, designed to provide an immersive pinball experience using modern technology. These machines typically feature a large screen to display the playfield, along with various physical controls and feedback mechanisms to simulate the feel of a real pinball machine.
 

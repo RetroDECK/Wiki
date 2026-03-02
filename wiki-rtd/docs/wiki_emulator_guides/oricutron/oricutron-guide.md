@@ -1,6 +1,6 @@
-# Guide: Oricutron
+﻿# Guide: Oricutron
 
-<img src="../../../wiki_images/logos/oricutronicon-logo.png" width="150">
+<img src="../../../wiki_images/logos/oricutronicon-logo.png" width="150" alt="Oricutronicon logo">
 
 Oricutron is a experimental Oric-1/Atmos/Telestrat and Pravetz 8D emulator.
 
@@ -10,7 +10,7 @@ Oricutron is a experimental Oric-1/Atmos/Telestrat and Pravetz 8D emulator.
 
 ### Oricutron Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -26,7 +26,7 @@ Oricutron games should be put under the `retrodeck/roms/oric/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 
 | File Format | Description          |
@@ -41,7 +41,7 @@ Oricutron games should be put under the `retrodeck/roms/oric/` directory.
 
 ## Does Oricutron require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No
 
@@ -49,7 +49,7 @@ No
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|

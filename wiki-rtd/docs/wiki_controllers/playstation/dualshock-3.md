@@ -1,6 +1,6 @@
-# PlayStation 3 - DualShock 3 / Sixaxis
+﻿# PlayStation 3 - DualShock 3 / Sixaxis
 
-<img src="../../../wiki_images/controllers/ps3-dualshock3.png" width="250">
+<img src="../../../wiki_images/controllers/ps3-dualshock3.png" width="250" alt="">
 
 **Sixaxis Controller**
 

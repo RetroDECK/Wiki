@@ -1,5 +1,5 @@
-## Guitar Hero & Rockband - Drums
-<img src="../../../wiki_images/controllers/rockband-drums.png" width="153">
+﻿## Guitar Hero & Rockband - Drums
+<img src="../../../wiki_images/controllers/rockband-drums.png" width="153" alt="">
 
 Used by the several games in the `Guitar Hero` and `Rockband` game series.
 

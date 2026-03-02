@@ -1,6 +1,6 @@
-# Guide: SDL2TRS
+﻿# Guide: SDL2TRS
 
-<img src="../../../wiki_images/logos/sdltrs-logo.png" width="150">
+<img src="../../../wiki_images/logos/sdltrs-logo.png" width="150" alt="Sdltrs logo">
 
 SDL2TRS is a Tandy TRS-80 Model I/III/4/4P emulator and the SDL2 version of SDLTRS.
 
@@ -10,7 +10,7 @@ SDL2TRS is a Tandy TRS-80 Model I/III/4/4P emulator and the SDL2 version of SDLT
 
 ### SDL2TRS Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -27,7 +27,7 @@ Microvision games should be put under the `retrodeck/roms/trs-80/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 The emulator supports the following file formats, grouped by where they are used.
 
@@ -53,7 +53,7 @@ In most cases you will use these.
 
 ## Does SDL2TRS require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes
 
@@ -61,7 +61,7 @@ Yes
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|

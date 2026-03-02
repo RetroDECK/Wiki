@@ -1,4 +1,4 @@
-# ScummVM - Gamelist
+﻿# ScummVM - Gamelist
 
 This page is based on the [ScummVM Game Compatibility and ID List](https://www.scummvm.org/compatibility).  
 Always refer to the official list for the most current and up to date information.
@@ -7,7 +7,7 @@ Always refer to the official list for the most current and up to date informatio
 
 ### Missing Games: How to Find the ScummVM ID
 
-<img src="../scummvm-sky.png">
+<img src="../scummvm-sky.png" alt="">
 
 1. Open the [ScummVM Game Compatibility and ID List](https://www.scummvm.org/compatibility).
 2. Search for the game title (example: *Beneath a Steel Sky*).

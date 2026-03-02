@@ -1,6 +1,6 @@
-# RetroDECK FAQ
+﻿# RetroDECK FAQ
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="75">
+<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="75" alt="">
 
 Welcome to the RetroDECK FAQ your all-in-one place for quick answers about installation, usage, features, and more.
 
@@ -9,7 +9,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Cooker
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="30">
+<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="30" alt="">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -25,7 +25,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Documentation & Wiki
 
-<img src="../../wiki_icons/pixelitos/accessories-notes.png" width="30">
+<img src="../../wiki_icons/pixelitos/accessories-notes.png" width="30" alt="">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -41,7 +41,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Emulation
 
-<img src="../../wiki_icons/pixelitos/retroarch.png" width="30">
+<img src="../../wiki_icons/pixelitos/retroarch.png" width="30" alt="">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -57,7 +57,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Feature Requests - General
 
-<img src="../../wiki_icons/pixelitos/retrodeck.png" width="30">
+<img src="../../wiki_icons/pixelitos/retrodeck.png" width="30" alt="">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -65,22 +65,22 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **I have an idea for a new feature. How do I suggest it?** | First, check whether the idea already exists in the GitHub issue list. If it does not, you may create a new issue and describe your suggestion. You may also discuss your idea within the community before submitting it. |
 | **Will you add Windows versions of components via Wine/Proton?** | There are currently no plans to support Windows-based components through Wine or Proton. |
 | **Will you implement Cloud Sync/Backup?** | Yes, this is planned for a future update. Users will be able to integrate their own services through easy-to-use tools built into the Configurator. |
-| **What can I use now while waiting for Cloud Sync/Backup?** | Recommended open-source alternatives include:<br>- **Rsync** - https://linux.die.net/man/1/rsync <br>- **Nextcloud** - https://nextcloud.com/ <br>- **Syncthing** - https://github.com/syncthing/syncthing <br>- **Syncthing GTK GUI** - https://flathub.org/apps/me.kozec.syncthingtk |
+| **What can I use now while waiting for Cloud Sync/Backup?** | Recommended open-source alternatives include:<br>- [Rsync documentation](https://linux.die.net/man/1/rsync)<br>- [Nextcloud](https://nextcloud.com/)<br>- [Syncthing on GitHub](https://github.com/syncthing/syncthing)<br>- [Syncthing GTK GUI on Flathub](https://flathub.org/apps/me.kozec.syncthingtk) |
 
 
 ---
 
 ## FAQ: Feature Requests - OS
 
-<img src="../../wiki_icons/pixelitos/linux.png" width="30">
+<img src="../../wiki_icons/pixelitos/linux.png" width="30" alt="">
 
 | **Question** | **Answer** |
 |--------------|------------|
-| **Will you support AArch64 Linux devices like the Steam Frame or Nvidia N1X?** <br><img src="../../wiki_images/logos/aarch64-logo.svg" width="15"> | The RetroDECK Team is actively investigating the feasibility of supporting these devices. |
-| **Will you support RISC-V?** <br><img src="../../wiki_images/logos/risc-v-logo.png" width="15"> | RISC-V support is an exciting idea, but it would require major development work and additional contributors experienced with the platform. Support may become possible as RISC-V matures and gains broader compatibility. |
-| **Will you support Windows?** <br><img src="../../wiki_icons/pixelitos/distributor-logo-windows.png" width="15"> | No, RetroDECK does not currently support Windows. Alternatives include **RetroBat** (https://www.retrobat.org/). You may also install a Linux distribution on your device to use RetroDECK. Supporting Windows would require significant development resources. |
-| **Will you support macOS?** <br><img src="../../wiki_icons/pixelitos/distributor-logo-macos.png" width="15"> | No, RetroDECK does not currently support macOS. Alternatives include **OpenEmu** (https://openemu.org/). Using RetroDECK on macOS would require a large engineering effort and additional macOS-experienced developers. |
-| **Will you support ARM mobile devices (iOS, Android)?** <br><img src="../../wiki_icons/pixelitos/android.png" width="15"> | No, RetroDECK does not currently support ARM mobile devices. Supporting mobile ARM platforms would require rewriting major parts of the system due to different emulators, licensing models, and closed-source components (especially on Android). Substantial ARM-experienced development resources would be required. |
+| **Will you support AArch64 Linux devices like the Steam Frame or Nvidia N1X?** <br><img src="../../wiki_images/logos/aarch64-logo.svg" width="15" alt="Aarch64 logo"> | The RetroDECK Team is actively investigating the feasibility of supporting these devices. |
+| **Will you support RISC-V?** <br><img src="../../wiki_images/logos/risc-v-logo.png" width="15" alt="Risc V logo"> | RISC-V support is an exciting idea, but it would require major development work and additional contributors experienced with the platform. Support may become possible as RISC-V matures and gains broader compatibility. |
+| **Will you support Windows?** <br><img src="../../wiki_icons/pixelitos/distributor-logo-windows.png" width="15" alt=""> | No, RetroDECK does not currently support Windows. Alternatives include [RetroBat](https://www.retrobat.org/). You may also install a Linux distribution on your device to use RetroDECK. Supporting Windows would require significant development resources. |
+| **Will you support macOS?** <br><img src="../../wiki_icons/pixelitos/distributor-logo-macos.png" width="15" alt=""> | No, RetroDECK does not currently support macOS. Alternatives include [OpenEmu](https://openemu.org/). Using RetroDECK on macOS would require a large engineering effort and additional macOS-experienced developers. |
+| **Will you support ARM mobile devices (iOS, Android)?** <br><img src="../../wiki_icons/pixelitos/android.png" width="15" alt=""> | No, RetroDECK does not currently support ARM mobile devices. Supporting mobile ARM platforms would require rewriting major parts of the system due to different emulators, licensing models, and closed-source components (especially on Android). Substantial ARM-experienced development resources would be required. |
 | **Will you support other Linux distribution methods such as Snap, AppImage, AUR, etc.?** | This is not part of the current roadmap. RetroDECK’s build system is based entirely on Flatpak and relies on Flathub for distribution. The team is not large enough to maintain alternative package formats nor do we see any need to in this moment. |
 
 
@@ -88,12 +88,12 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Flatpak Questions
 
-<img src="../../wiki_icons/pixelitos/balena-etcher-electron.png" width="30">
+<img src="../../wiki_icons/pixelitos/balena-etcher-electron.png" width="30" alt="">
 
 | **Question** | **Answer** |
 |--------------|------------|
 | **What is Flatpak?** | Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux. It ensures consistent behavior across distributions and protects apps from system updates. It is the recommended distribution method for immutable systems such as **SteamOS**. <br> Learn more: [Introduction to Flatpak](https://docs.flatpak.org/en/latest/introduction.html) |
-| **What is Flathub?** | Flathub is the primary repository for Flatpak applications, offering a wide selection of software that can be installed and updated across all Flatpak-enabled distributions. <br> Visit: **[Flathub](https://flathub.org/)** |
+| **What is Flathub?** | Flathub is the primary repository for Flatpak applications, offering a wide selection of software that can be installed and updated across all Flatpak-enabled distributions. <br> Visit: [Flathub](https://flathub.org/) |
 | **Is RetroDECK sandboxed?** | Yes. RetroDECK writes only to:<br>- `retrodeck/` (userdata)<br>- `~/.var/net.retrodeck.retrodeck/` (configs & defaults)<br>This isolation prevents conflicts with other systems, and uninstalling RetroDECK does *not* remove your `retrodeck/` folder. <br><br>Since RetroDECK 0.10.0b, all components inside the platform are also sub-sandboxed, further improving security and isolation. Learn more here: [RetroDECK: Flatpak Details](https://retrodeck.readthedocs.io/en/latest/wiki_development/flatpak/retrodeck-flatpak/) |
 | **Why does RetroDECK require the `filesystem=host` permission?** |  This permission was recommended by Flathub maintainers directly to RetroDECK. It lets users select the location for their RetroDECK data directory and sub‑directories via the Configurator and Finit, granting access to the home directory and external storage (SD cards, HDDs, NAS) for moving, storing, and managing data based on user input. A complete overview of all permissions is available in the [net.retrodeck.retrodeck.yml](https://github.com/RetroDECK/RetroDECK/blob/main/net.retrodeck.retrodeck.yml) file on GitHub.   |
 
@@ -101,7 +101,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Retro Gaming Platform Questions
 
-<img src="../../wiki_icons/pixelitos/folder-green-games.png" width="30">
+<img src="../../wiki_icons/pixelitos/folder-green-games.png" width="30" alt="">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -121,7 +121,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: RetroDECK - General Questions
 
-<img src="../../wiki_icons/pixelitos/accessories-clock.png" width="30">
+<img src="../../wiki_icons/pixelitos/accessories-clock.png" width="30" alt="">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -144,7 +144,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: RetroDECK - Usage Questions
 
-<img src="../../wiki_icons/pixelitos/drive-optical.png" width="30">
+<img src="../../wiki_icons/pixelitos/drive-optical.png" width="30" alt="">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -169,7 +169,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: SD Cards
 
-<img src="../../wiki_icons/pixelitos/drive-optical.png" width="30">
+<img src="../../wiki_icons/pixelitos/drive-optical.png" width="30" alt="">
 
 | **Question** | **Answer** |
 |--------------|------------|
@@ -183,7 +183,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Other 
 
-<img src="../../wiki_icons/retrodeck/icon-alchemist.svg" width="30">
+<img src="../../wiki_icons/retrodeck/icon-alchemist.svg" width="30" alt="">
 
 | **Question** | **Answer** |
 |--------------|------------|

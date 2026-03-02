@@ -1,6 +1,6 @@
-# Buzz Buzzers
+﻿# Buzz Buzzers
 
-<img src="../../../wiki_images/controllers/buzz-buzzers.png" width="250">
+<img src="../../../wiki_images/controllers/buzz-buzzers.png" width="250" alt="">
 
 The Buzz controllers are specially designed buzzers with large colored buttons, created for the original Buzz Game Series on the PlayStation. They come in both wired and wireless versions, with the wireless ones requiring a dongle.
 

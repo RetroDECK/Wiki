@@ -1,6 +1,6 @@
-# Duckstation - General Guide
+﻿# Duckstation - General Guide
 
-<img src="../../../wiki_images/logos/duckstation-logo.png" width="100">
+<img src="../../../wiki_images/logos/duckstation-logo.png" width="100" alt="Duckstation logo">
 
 Duckstation is a Playstation 1 - PSX Emulator.
 
@@ -14,7 +14,7 @@ It will no longer receive any updates and is working as-is.
 
 ### Duckstation Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -36,7 +36,7 @@ PSX games should be put under the `retrodeck/roms/psx/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -52,7 +52,7 @@ PSX games should be put under the `retrodeck/roms/psx/` directory.
 
 ## Does Duckstation require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 
 Yes, there exists several PSX BIOS from different regions and hardware versions.
@@ -86,7 +86,7 @@ Directly into the folder
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type          | Directory                                         | Comment                                                   |
 |:-------------:|:--------------------------------------------------|:----------------------------------------------------------|

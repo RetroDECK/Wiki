@@ -1,6 +1,6 @@
-# PPSSPP - General Guide
+﻿# PPSSPP - General Guide
 
-<img src="../../../wiki_images/logos/ppsspp-logo.png" width="75">
+<img src="../../../wiki_images/logos/ppsspp-logo.png" width="75" alt="Ppsspp logo">
 
 A PSP emulator that can also upscale textures to make them sharper, and you can enable post-processing shaders to adjust color and brightness the way you like, and other effects. 
 
@@ -8,7 +8,7 @@ A PSP emulator that can also upscale textures to make them sharper, and you can 
 
 ### PPSSPP Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -31,7 +31,7 @@ PSP games should be put under the `retrodeck/roms/psp/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 
 | File Format | Description |
@@ -47,7 +47,7 @@ PSP games should be put under the `retrodeck/roms/psp/` directory.
 
 ## Does PPSSPP require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No
 
@@ -55,7 +55,7 @@ No
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type          | Directory                                                         | Comment                                |
 |:-------------:|:------------------------------------------------------------------|:---------------------------------------|

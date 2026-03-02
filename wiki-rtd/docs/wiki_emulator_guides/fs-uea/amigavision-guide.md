@@ -1,6 +1,6 @@
-# Guide: FS-UAE - AmigaVision
+﻿# Guide: FS-UAE - AmigaVision
 
-<img src="../../../wiki_images/logos/amigavision-logo.svg" width="150">
+<img src="../../../wiki_images/logos/amigavision-logo.svg" width="150" alt="Amigavision logo">
 
 **AmigaVision** is a community-driven, open-source Amiga launcher project designed to provide a streamlined, console-like experience while maintaining hardware accuracy and authenticity. It allows users to create a customized AmigaVision setup from personal game collections.  
 
@@ -17,7 +17,7 @@ A pre-configued `AmigaVision.fs-uae` configuration file is included by default i
 
 ### AmigaVision Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -28,7 +28,7 @@ A pre-configued `AmigaVision.fs-uae` configuration file is included by default i
 
 ## Does AmigaVision require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes
 
@@ -45,7 +45,7 @@ Yes
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|

@@ -1,6 +1,6 @@
-# Guide: OpenSurge
+﻿# Guide: OpenSurge
 
-<img src="../../../wiki_images/logos/opensurge-logo.png" width="150">
+<img src="../../../wiki_images/logos/opensurge-logo.png" width="150" alt="Opensurge logo">
 
 Open Surge is a 2D retro game engine in the spirit of classic 16-bit Sonic platformers of the 1990s.
 
@@ -10,7 +10,7 @@ Open Surge is a 2D retro game engine in the spirit of classic 16-bit Sonic platf
 
 ### OpenSurge Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -28,7 +28,7 @@ OpenSurge games should be put under the `retrodeck/roms/opensurge/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -40,7 +40,7 @@ OpenSurge games should be put under the `retrodeck/roms/opensurge/` directory.
 
 ## Does OpenSurge require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No
 
@@ -48,7 +48,7 @@ No
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
@@ -58,4 +58,4 @@ No
 
 ## How-to: Play the Built-in Surge the Rabbit Game?
 
-<img src="../../../wiki_images/logos/opensurge-surge.png" width="75">
+<img src="../../../wiki_images/logos/opensurge-surge.png" width="75" alt="Opensurge Surge logo">

@@ -1,6 +1,6 @@
-# Steam Deck with SteamDeckGyroDSU
+﻿# Steam Deck with SteamDeckGyroDSU
 
-<img src="../../wiki_icons/pixelitos/steam.png" width="75">
+<img src="../../wiki_icons/pixelitos/steam.png" width="75" alt="">
 
 Learn how to enable Gyro on the Steam Deck using [SteamDeckGyroDSU](https://github.com/kmicki/SteamDeckGyroDSU) via the DSU protocol.
 

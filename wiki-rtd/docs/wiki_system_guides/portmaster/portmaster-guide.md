@@ -1,6 +1,6 @@
-# PortMaster - General Guide
+﻿# PortMaster - General Guide
 
-<img src="../../../wiki_images/logos/portmaster-logo.png" width="150">
+<img src="../../../wiki_images/logos/portmaster-logo.png" width="150" alt="Portmaster logo">
 
 PortMaster is a simple GUI tool designed to facilitate the downloading and installation of game ports for Linux devices and is self contained.
 
@@ -14,7 +14,7 @@ Not all ports are available for the `X86_64` system, but the list is continuousl
 
 ### PortMaster Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -37,7 +37,7 @@ PortMaster does not require BIOS or Firmware but depending on the game you might
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type             | Directory                                           | Comment                                                                 |
 |:----------------:|:--------------------------------------------------|:------------------------------------------------------------------------|
@@ -51,7 +51,7 @@ PortMaster does not require BIOS or Firmware but depending on the game you might
 
 ## Launching PortMaster
 
-<img src="../pm-mainwindow.png" width="800">
+<img src="../pm-mainwindow.png" width="800" alt="">
 
 You go into the PortMaster menu in ES-DE and Open `PortMaster`. 
 
@@ -85,7 +85,7 @@ Yes, the PortMaster team is continuously updating the Ports list. As the applica
 
 ## Adding PortMaster Games to RetroDECK
 
-<img src="../pm-banana.png" width="800">
+<img src="../pm-banana.png" width="800" alt="">
 
 Open `PortMaster` -> `All Ports` and choose the port you want to install (some ports might require additional files).
 
@@ -95,9 +95,9 @@ After you have downloaded the games you want to play exit PortMaster.
 
 In the ES-DE Frontend go to the Utilities Menu
 
-<img src="../pm-rescan.png" width="800">
+<img src="../pm-rescan.png" width="800" alt="">
 
-<img src="../../../wiki_images/esde/esde-utilities.png" width="800">
+<img src="../../../wiki_images/esde/esde-utilities.png" width="800" alt="">
 
 Press the `Rescan Rom Directory` to have the games show up (you could also just restart RetroDECK).
 

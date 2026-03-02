@@ -1,6 +1,6 @@
-# Guide: GZDoom
+﻿# Guide: GZDoom
 
-<img src="../../../wiki_images/logos/gzdoom-logo.png" width="75">
+<img src="../../../wiki_images/logos/gzdoom-logo.png" width="75" alt="Gzdoom logo">
 
 GZDoom is the open source source port / game engine for ID Software's older games like DOOM, DOOM2, HEXEN and HERETIC or it's own unique games.
 
@@ -8,7 +8,7 @@ GZDoom is the open source source port / game engine for ID Software's older game
 
 ### GZDoom Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -52,7 +52,7 @@ DOOM games should be put under the `retrodeck/roms/doom/` directory.
 
 ## Does GZDOOM require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No. GZDoom does not require any BIOS or firmware files.
 
@@ -83,7 +83,7 @@ It is compatible with most community-made levels, graphics, music, and mods crea
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment                     |
 |:------:|:-------------------------------------------------|:----------------------------|

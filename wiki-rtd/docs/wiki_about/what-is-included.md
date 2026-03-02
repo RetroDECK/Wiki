@@ -1,6 +1,6 @@
 # RetroDECK: What's included?
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="100">
+<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="100" alt="">
 
 What follows is a list of features and software currently included in RetroDECK.
 
@@ -18,7 +18,7 @@ What follows is a list of features and software currently included in RetroDECK.
 
 ### RetroDECK Framework
 
-<img src="../../wiki_icons/retrodeck/icon-framework.svg" width="50">
+<img src="../../wiki_icons/retrodeck/icon-framework.svg" width="50" alt="">
 
 RetroDECK includes the **RetroDECK Framework**, which provides deeper integration between all built-in software.  
 It streamlines access to many features that would normally need to be configured individually for each system, helping create a consistent and unified experience across all emulators.
@@ -27,7 +27,7 @@ It streamlines access to many features that would normally need to be configured
 
 ### RetroDECK Configurator 
 
-<img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="50">
+<img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="50" alt="">
 
 The RetroDECK Configurator is a powerful `Utility` that exposes some parts of the `RetroDECK Framework` to the RetroDECK users.
 
@@ -60,7 +60,7 @@ and more!
 
 ### RetroENGINE
 
-<img src="../../wiki_icons/retrodeck/icon-engine.svg" width="50">
+<img src="../../wiki_icons/retrodeck/icon-engine.svg" width="50" alt="">
 
 **RetroENGINE** allows you to launch supported game files directly with RetroDECK from the desktop-no need to open the full application.
 
@@ -74,7 +74,7 @@ It supports file-type associations for common game extensions, enabling you to s
 
 ### Global Hotkeys and Steam Input Controller Templates
 
-<img src="../../wiki_icons/pixelitos/antimicrox.png" width="50">
+<img src="../../wiki_icons/pixelitos/antimicrox.png" width="50" alt="">
 
 For all Global Hotkeys & Steam Inputs Templates included in RetroDECK.
 
@@ -86,7 +86,7 @@ For all Global Hotkeys & Steam Inputs Templates included in RetroDECK.
 
 ### Supported Devices
 
-<img src="../../wiki_icons/kennynl/controllers/controller_steamdeck.png" width="50">
+<img src="../../wiki_icons/kennynl/controllers/controller_steamdeck.png" width="50" alt="">
 
 The devices RetroDECK currently support. 
 
@@ -103,8 +103,8 @@ Custom artwork folder icons.
 
 **Lahrs folder Icon Set:**
 
-<img src="../../wiki_icons/folder-iconsets/lahrs-main/rd_home.ico" width="50"> 
-<img src="../../wiki_icons/folder-iconsets/lahrs-main/saves.ico" width="50"> <img src="../../wiki_icons/folder-iconsets/lahrs-main/states.ico" width="50"> <img src="../../wiki_icons/folder-iconsets/lahrs-main/bios.ico" width="50"> <img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/pico8.ico" width="50"> <img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/doom.ico" width="50"> <img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/portmaster.ico" width="50"> <img src="../../wiki_icons/folder-iconsets/lahrs-main/ES-DE/downloaded_media.ico" width="50">
+<img src="../../wiki_icons/folder-iconsets/lahrs-main/rd_home.ico" width="50" alt="Sample Lahrs folder icon set showing custom icons for RetroDECK folders"> 
+<img src="../../wiki_icons/folder-iconsets/lahrs-main/saves.ico" width="50" alt=""> <img src="../../wiki_icons/folder-iconsets/lahrs-main/states.ico" width="50" alt=""> <img src="../../wiki_icons/folder-iconsets/lahrs-main/bios.ico" width="50" alt=""> <img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/pico8.ico" width="50" alt=""> <img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/doom.ico" width="50" alt=""> <img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/portmaster.ico" width="50" alt=""> <img src="../../wiki_icons/folder-iconsets/lahrs-main/ES-DE/downloaded_media.ico" width="50" alt="">
 
 
 ---
@@ -115,10 +115,10 @@ Systems are non-gaming platforms or software environments supported within Retro
 
 | Component | Logo | Description | Guide |
 |----------|-------|-------------|-------|
-| **ES-DE** | <img src="../../wiki_images/logos/es-de-logo.png" width="50"> | Base frontend for RetroDECK with custom tweaks such as the RetroDECK Configurator. | [ES-DE Frontend - General Guide](../wiki_system_guides/es-de/esde-guide.md) |
-| **Flips** | <img src="../../wiki_images/logos/flips-logo.png" width="50"> | Tiny `.ips` `.bps` patcher for ROMs (used for patching ROM Hacks). | Open from Configurator | - |
-| **PortMaster** | <img src="../../wiki_images/logos/portmaster-logo.png" width="75"> | GUI tool to download and install game ports on Linux devices. | [PortMaster - General Guide](../wiki_system_guides/portmaster/portmaster-guide.md) |
-| **Steam ROM Manager** | <img src="../../wiki_images/logos/srm-logo.png" width="50"> | Bulk game importer and artwork manager for Steam. Adds games automatically and configures Steam Input templates. | [SRM - General Guide](../wiki_system_guides/srm/srm-guide.md) |
+| **ES-DE** | <img src="../../wiki_images/logos/es-de-logo.png" width="50" alt="ES-DE logo"> | Base frontend for RetroDECK with custom tweaks such as the RetroDECK Configurator. | [ES-DE Frontend - General Guide](../wiki_system_guides/es-de/esde-guide.md) |
+| **Flips** | <img src="../../wiki_images/logos/flips-logo.png" width="50" alt="Flips logo"> | Tiny `.ips` `.bps` patcher for ROMs (used for patching ROM Hacks). | Open from Configurator | - |
+| **PortMaster** | <img src="../../wiki_images/logos/portmaster-logo.png" width="75" alt="PortMaster logo"> | GUI tool to download and install game ports on Linux devices. | [PortMaster - General Guide](../wiki_system_guides/portmaster/portmaster-guide.md) |
+| **Steam ROM Manager** | <img src="../../wiki_images/logos/srm-logo.png" width="50" alt="Steam ROM Manager logo"> | Bulk game importer and artwork manager for Steam. Adds games automatically and configures Steam Input templates. | [SRM - General Guide](../wiki_system_guides/srm/srm-guide.md) |
 
 
 
@@ -130,8 +130,8 @@ An multi emulator is software that replicates the behavior of a multiple specifi
 
 | Component | Logo | Description | Guide |
 |----------|-------|-------------|-------|
-| **MAME** | <img src="../../wiki_images/logos/mame-logo.png" width="100"> | Full version of the multi-arcade emulator MAME. | [MAME - General Guide](../wiki_multi_emulator_guides/mame/mame-guide.md) |
-| **RetroArch** | <img src="../../wiki_images/logos/retroarch-logo.png" width="50"> | Multi-system frontend using cores. RetroDECK includes all stable cores (nightlies if no stable version exists). | [RetroArch - General Guide](../wiki_multi_emulator_guides/retroarch/retroarch-guide.md) |
+| **MAME** | <img src="../../wiki_images/logos/mame-logo.png" width="100" alt="MAME logo"> | Full version of the multi-arcade emulator MAME. | [MAME - General Guide](../wiki_multi_emulator_guides/mame/mame-guide.md) |
+| **RetroArch** | <img src="../../wiki_images/logos/retroarch-logo.png" width="50" alt="RetroArch logo"> | Multi-system frontend using cores. RetroDECK includes all stable cores (nightlies if no stable version exists). | [RetroArch - General Guide](../wiki_multi_emulator_guides/retroarch/retroarch-guide.md) |
 
 
 
@@ -143,19 +143,19 @@ An emulator is software that replicates the behavior of a specific system, wheth
 
 | Component | Logo | Description | Guide |
 |-----------|------|-------------|-------|
-| **Azahar** | <img src="../../wiki_images/logos/azahar-logo.svg" width="50"> | N3DS emulator Azahar. | [Azahar - General Guide](../wiki_emulator_guides/azahar/azahar-guide.md) |
-| **CEMU** | <img src="../../wiki_images/logos/cemu-logo.png" width="50"> | Wii U emulator CEMU. | [Cemu - General Guide](../wiki_emulator_guides/cemu/cemu-guide.md) |
-| **Dolphin** | <img src="../../wiki_images/logos/dolphin-logo.png" width="50"> | Wii/GameCube emulator Dolphin | [Dolphin / Primehack - General Guide](../wiki_emulator_guides/dolphin/dolphin-guide.md) |
-| **melonDS** | <img src="../../wiki_images/logos/melonds-logo.svg" width="50"> | Nintendo DS emulator melonDS. | [melonDS - General Guide](../wiki_emulator_guides/melonds/melonds-guide.md) |
-| **PCSX2** | <img src="../../wiki_images/logos/pcsx2-logo.png" width="125"> | PlayStation 2 emulator PCSX2. | [PCSX2 - General Guide](../wiki_emulator_guides/pcsx2/pcsx2-guide.md) |
-| **Pico-8** | <img src="../../wiki_images/logos/pico-8-logo.png" width="75"> | PICO-8 Fantasy Console. | [Pico-8 - General Guide](../wiki_emulator_guides/pico-8/pico-8-guide.md) |
-| **Primehack** | <img src="../../wiki_images/logos/primehack-logo.png" width="50"> | Metroid Prime‑optimized fork Primehack. | [Dolphin / Primehack - General Guide](../wiki_emulator_guides/primehack/primehack-guide.md) |
-| **PPSSPP** | <img src="../../wiki_images/logos/ppsspp-logo.png" width="50"> | PSP emulator PPSSPP. | [PPSSPP - General Guide](../wiki_emulator_guides/ppsspp/ppsspp-guide.md) |
-| **RPCS3** | <img src="../../wiki_images/logos/rpcs3-logo.png" width="50"> | PlayStation 3 emulator RPCS3. | [RPCS3 - General Guide](../wiki_emulator_guides/rpcs3/rpcs3-guide.md) |
-| **Ruffle** | <img src="../../wiki_images/logos/ruffle-logo.svg" width="50"> | Flash emulator Ruffle. | [Ruffle - General Guide](../wiki_emulator_guides/ruffle/ruffle-guide.md) |
-| **Vita3k** | <img src="../../wiki_images/logos/vita3k-logo.png" width="50"> | PlayStation Vita emulator Vita3k. | [Vita3k - General Guide](../wiki_emulator_guides/vita3k/vita3k-guide.md) |
-| **XEMU** | <img src="../../wiki_images/logos/xemu-logo.png" width="50"> | Xbox emulator XEMU. | [XEMU - General Guide](../wiki_emulator_guides/xemu/xemu-guide.md) |
-| **XRoar** | <img src="../../wiki_images/logos/xroar-tano64-logo.jpg" width="100"> | Dragon & Tandy emulator XRoar. | [XRoar - General Guide](../wiki_emulator_guides/xroar/xroar-guide.md) |
+| **Azahar** | <img src="../../wiki_images/logos/azahar-logo.svg" width="50" alt="Azahar logo"> | N3DS emulator Azahar. | [Azahar - General Guide](../wiki_emulator_guides/azahar/azahar-guide.md) |
+| **CEMU** | <img src="../../wiki_images/logos/cemu-logo.png" width="50" alt="CEMU logo"> | Wii U emulator CEMU. | [Cemu - General Guide](../wiki_emulator_guides/cemu/cemu-guide.md) |
+| **Dolphin** | <img src="../../wiki_images/logos/dolphin-logo.png" width="50" alt="Dolphin logo"> | Wii/GameCube emulator Dolphin | [Dolphin / Primehack - General Guide](../wiki_emulator_guides/dolphin/dolphin-guide.md) |
+| **melonDS** | <img src="../../wiki_images/logos/melonds-logo.svg" width="50" alt="melonDS logo"> | Nintendo DS emulator melonDS. | [melonDS - General Guide](../wiki_emulator_guides/melonds/melonds-guide.md) |
+| **PCSX2** | <img src="../../wiki_images/logos/pcsx2-logo.png" width="125" alt="PCSX2 logo"> | PlayStation 2 emulator PCSX2. | [PCSX2 - General Guide](../wiki_emulator_guides/pcsx2/pcsx2-guide.md) |
+| **Pico-8** | <img src="../../wiki_images/logos/pico-8-logo.png" width="75" alt="Pico-8 logo"> | PICO-8 Fantasy Console. | [Pico-8 - General Guide](../wiki_emulator_guides/pico-8/pico-8-guide.md) |
+| **Primehack** | <img src="../../wiki_images/logos/primehack-logo.png" width="50" alt="Primehack logo"> | Metroid Prime‑optimized fork Primehack. | [Dolphin / Primehack - General Guide](../wiki_emulator_guides/primehack/primehack-guide.md) |
+| **PPSSPP** | <img src="../../wiki_images/logos/ppsspp-logo.png" width="50" alt="PPSSPP logo"> | PSP emulator PPSSPP. | [PPSSPP - General Guide](../wiki_emulator_guides/ppsspp/ppsspp-guide.md) |
+| **RPCS3** | <img src="../../wiki_images/logos/rpcs3-logo.png" width="50" alt="RPCS3 logo"> | PlayStation 3 emulator RPCS3. | [RPCS3 - General Guide](../wiki_emulator_guides/rpcs3/rpcs3-guide.md) |
+| **Ruffle** | <img src="../../wiki_images/logos/ruffle-logo.svg" width="50" alt="Ruffle logo"> | Flash emulator Ruffle. | [Ruffle - General Guide](../wiki_emulator_guides/ruffle/ruffle-guide.md) |
+| **Vita3k** | <img src="../../wiki_images/logos/vita3k-logo.png" width="50" alt="Vita3k logo"> | PlayStation Vita emulator Vita3k. | [Vita3k - General Guide](../wiki_emulator_guides/vita3k/vita3k-guide.md) |
+| **XEMU** | <img src="../../wiki_images/logos/xemu-logo.png" width="50" alt="XEMU logo"> | Xbox emulator XEMU. | [XEMU - General Guide](../wiki_emulator_guides/xemu/xemu-guide.md) |
+| **XRoar** | <img src="../../wiki_images/logos/xroar-tano64-logo.jpg" width="100" alt="XRoar logo"> | Dragon & Tandy emulator XRoar. | [XRoar - General Guide](../wiki_emulator_guides/xroar/xroar-guide.md) |
 
 
 ---
@@ -166,10 +166,10 @@ Engines are game engines or runtime environments designed to run games built spe
 
 | Component                     | Logo                                                                                 | Description                                                                                                   | Guide                                                                                              |
 |-------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| **GZDoom**                    | <img src="../../wiki_images/logos/gzdoom-logo.png" width="50">                     | Feature‑rich Doom engine source port with OpenGL and advanced scripting.                                      | [GZDoom - General Guide](../wiki_engine_guides/gzdoom/gzdoom-guide.md)                           |
-| **IKEMEN Go (M.U.G.E.N)**     | <img src="../../wiki_images/logos/ikemen-go-logo.png" width="50">                  | Go‑based remake of IKEMEN, supporting M.U.G.E.N‑compatible fighting games.                                    | [IKEMEN Go - General Guide](../wiki_engine_guides/ikemengo/ikemengo-guide.md)                   |
-| **OpenBOR**                   | <img src="../../wiki_images/logos/openbor-logo.svg" width="50">                    | Open Beats of Rage – beat ’em up game engine.                                                                | [OpenBOR - General Guide](../wiki_engine_guides/openbor/openbor-guide.md)                         |
-| **Solarus**                   | <img src="../../wiki_images/logos/solarus-logo.svg" width="130">                  | Open‑source 2D engine for games scripted in Lua, inspired by 16‑bit action RPGs.                            | [Solarus - General Guide](../wiki_engine_guides/solarus/solarus-guide.md)                       |
+| **GZDoom**                    | <img src="../../wiki_images/logos/gzdoom-logo.png" width="50" alt="GZDoom logo">                     | Feature‑rich Doom engine source port with OpenGL and advanced scripting.                                      | [GZDoom - General Guide](../wiki_engine_guides/gzdoom/gzdoom-guide.md)                           |
+| **IKEMEN Go (M.U.G.E.N)**     | <img src="../../wiki_images/logos/ikemen-go-logo.png" width="50" alt="IKEMEN Go logo">                  | Go‑based remake of IKEMEN, supporting M.U.G.E.N‑compatible fighting games.                                    | [IKEMEN Go - General Guide](../wiki_engine_guides/ikemengo/ikemengo-guide.md)                   |
+| **OpenBOR**                   | <img src="../../wiki_images/logos/openbor-logo.svg" width="50" alt="OpenBOR logo">                    | Open Beats of Rage – beat ’em up game engine.                                                                | [OpenBOR - General Guide](../wiki_engine_guides/openbor/openbor-guide.md)                         |
+| **Solarus**                   | <img src="../../wiki_images/logos/solarus-logo.svg" width="130" alt="Solarus logo">                  | Open‑source 2D engine for games scripted in Lua, inspired by 16‑bit action RPGs.                            | [Solarus - General Guide](../wiki_engine_guides/solarus/solarus-guide.md)                       |
 
 ---
 
@@ -182,6 +182,6 @@ They are provided **as-is** and will not receive future updates or improvements.
 
 | Component | Logo | Description | Guide |
 |----------|-------|-------------|-------|
-| **Duckstation (Legacy)** | <img src="../../wiki_images/logos/duckstation-logo.png" width="50"> | PlayStation 1 emulator; legacy due to licensing changes. Provided as-is. | [Duckstation - General Guide](../wiki_emulator_guides/duckstation/duckstation-guide.md) |
+| **Duckstation (Legacy)** | <img src="../../wiki_images/logos/duckstation-logo.png" width="50" alt="Duckstation logo"> | PlayStation 1 emulator; legacy due to licensing changes. Provided as-is. | [Duckstation - General Guide](../wiki_emulator_guides/duckstation/duckstation-guide.md) |
 
 

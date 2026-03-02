@@ -1,6 +1,6 @@
-# Steam ROM Manager (SRM) - General Guide
+﻿# Steam ROM Manager (SRM) - General Guide
 
-<img src="../../../wiki_images/logos/srm-logo.png" width="75">
+<img src="../../../wiki_images/logos/srm-logo.png" width="75" alt="Srm logo">
 
 Steam ROM Manager is a tool that helps you import games in bulk and manage artwork for Steam. It has been integrated into RetroDECK since version 0.9.0b. 
 
@@ -14,7 +14,7 @@ Additionally, RetroDECK uses Steam ROM Manager as part of its backend for the `S
 
 ### SRM Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -39,7 +39,7 @@ If your game filenames contain any of the unsafe symbols, consider renaming them
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type           | Directory                                                     | Comment                                                            |
 |:--------------:|:-------------------------------------------------------------|:------------------------------------------------------------------|
@@ -56,21 +56,21 @@ Games marked as favorites in ES-DE (with a 🌟 or another icon depending on the
 
 ### Step 1: Mark games as 🌟 favorites in ES-DE
 
-<img src="../es-de-favorite.png" width="800">
+<img src="../es-de-favorite.png" width="800" alt="">
 
 Navigate to a game in ES-DE and press the `north button` to mark it as a favorite. This corresponds to the `Y` button on Xbox, the `Triangle` button on PlayStation, and the `X` button on Nintendo.
 
 ### Step 2: Enable in Configurator
 
-<img src="../steam-tools-menu.png" width="800">
+<img src="../steam-tools-menu.png" width="800" alt="">
 
-<img src="../sync-prompt.png" width="800">
+<img src="../sync-prompt.png" width="800" alt="">
 
 Navigate to -> `RetroDECK Configurator` -> `Steam Tools` -> `Automatic Steam Sync` and enable it by pressing `Yes`.
 
 ### Step 3: Exit RetroDECK to start the Sync
 
-<img src="../sync-loading.png" width="800">
+<img src="../sync-loading.png" width="800" alt="">
 
 This process might take a while based on your hardware and game library size. The Steam Sync will only happen when changes are made to the favorite lists. 
 
@@ -84,7 +84,7 @@ On a PC, simply `Exit Steam` and relaunch it as usual.
 
 ### Step 5: Results
 
-<img src="../steam-burger.png" width="800">
+<img src="../steam-burger.png" width="800" alt="">
 
 If everything went correctly, the games should now be added to Steam.
 
@@ -139,7 +139,7 @@ If games don't sync check the following:
 
 ## Add RetroDECK .doom files with the Grid and Tear Project 
 
-<img src="../brutaldoom.png" width="800">
+<img src="../brutaldoom.png" width="800" alt="">
 
 [SteamGridDB: Grid and Tear](https://www.steamgriddb.com/projects/grid-and-tear) is a project for adding art for various doom mods. 
 
@@ -168,7 +168,7 @@ The file in this case is called `Brutal Doom.doom`.
 
 ## Can I do advanced tweaking in SRM?
 
-<img src="../srm-window.png" width="800">
+<img src="../srm-window.png" width="800" alt="">
 
 Yes, you can open the entire SRM interface from the Configurator. You can tweak it as much as you like.
 

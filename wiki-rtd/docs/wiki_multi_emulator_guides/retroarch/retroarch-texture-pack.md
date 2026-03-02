@@ -1,6 +1,6 @@
-# RetroArch - Texture Pack Guide
+﻿# RetroArch - Texture Pack Guide
 
-<img src="../../../wiki_images/logos/retroarch-logo.png" width="75">
+<img src="../../../wiki_images/logos/retroarch-logo.png" width="75" alt="Retroarch logo">
 
 ## About Texture Packs
 

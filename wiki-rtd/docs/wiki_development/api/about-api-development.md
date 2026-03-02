@@ -1,6 +1,6 @@
-# About RetroDECK API Development
+﻿# About RetroDECK API Development
 
-<img src="../../../wiki_icons/retrodeck/icon-api.svg" width="100">
+<img src="../../../wiki_icons/retrodeck/icon-api.svg" width="100" alt="">
 
 The **RetroDECK API** enables external applications to access information and perform actions through the RetroDECK Framework, allowing them to function as the RetroDECK Configurator.
 

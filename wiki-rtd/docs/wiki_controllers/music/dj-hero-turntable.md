@@ -1,6 +1,6 @@
-# DJ Hero - Turntable
+﻿# DJ Hero - Turntable
 
-<img src="../../../wiki_images/controllers/dj-hero-turntable.png" width="250">
+<img src="../../../wiki_images/controllers/dj-hero-turntable.png" width="250" alt="">
 
 Used by the games `DJ Hero` and `DJ Hero 2`.
 

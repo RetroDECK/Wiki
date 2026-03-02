@@ -1,6 +1,6 @@
-# Creating Component: Build from Source
+﻿# Creating Component: Build from Source
 
-<img src="../../../../wiki_images/logos/open-source-logo.svg" width="75">
+<img src="../../../../wiki_images/logos/open-source-logo.svg" width="75" alt="Open Source logo">
 
 This a part of the How-to: Create Components Guide
 

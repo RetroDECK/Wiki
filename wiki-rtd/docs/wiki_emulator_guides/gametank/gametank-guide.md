@@ -1,6 +1,6 @@
-# Guide: GameTank
+﻿# Guide: GameTank
 
-<img src="../../../wiki_images/logos/gametankman-logo.png" width="150">
+<img src="../../../wiki_images/logos/gametankman-logo.png" width="150" alt="Gametankman logo">
 
 GameTank is a 8-bit fantasy console emulator.
 
@@ -10,7 +10,7 @@ GameTank is a 8-bit fantasy console emulator.
 
 ### GameTank Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -29,7 +29,7 @@ GameTank games should be put under the `retrodeck/roms/gametank/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 
 | File Format | Description |
@@ -40,7 +40,7 @@ GameTank games should be put under the `retrodeck/roms/gametank/` directory.
 
 ## Does GameTank require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No
 
@@ -48,7 +48,7 @@ No
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|

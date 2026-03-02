@@ -1,6 +1,6 @@
-# RetroDECK CLI Commmands & Arguments
+﻿# RetroDECK CLI Commmands & Arguments
 
-<img src="../../../wiki_icons/pixelitos/folder-red-cd.png" width="75">
+<img src="../../../wiki_icons/pixelitos/folder-red-cd.png" width="75" alt="">
 
 This page showcases many of the commands and arguments you can run via CLI.
 

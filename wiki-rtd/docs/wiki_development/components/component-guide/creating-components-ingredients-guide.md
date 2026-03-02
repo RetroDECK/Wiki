@@ -1,6 +1,6 @@
-# Creating Component: Ingredients, Libraries and Recipe Files Guide
+﻿# Creating Component: Ingredients, Libraries and Recipe Files Guide
 
-<img src="../../../../wiki_icons/retrodeck/icon-assembler.svg" width="75">
+<img src="../../../../wiki_icons/retrodeck/icon-assembler.svg" width="75" alt="">
 
 ## Description 
 

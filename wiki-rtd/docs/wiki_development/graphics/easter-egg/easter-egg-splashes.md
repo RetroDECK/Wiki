@@ -1,6 +1,6 @@
-# Easter Egg Boot Splash Function
+﻿# Easter Egg Boot Splash Function
 
-<img src="../../../../wiki_images/logos/rd-esde-logo.svg" width="300">
+<img src="../../../../wiki_images/logos/rd-esde-logo.svg" width="300" alt="Rd Esde logo">
 
 ## Main splash location
 
@@ -207,7 +207,7 @@ We acknowledge and extend our appreciation to the respective creators and contri
 
 ### Standard Logo
 
-<img src="../../../../wiki_images/logos/rd-logo-box.png" width="500">
+<img src="../../../../wiki_images/logos/rd-logo-box.png" width="500" alt="Rd Logo Box logo">
 
 **Artists that contributed:**
 
@@ -227,7 +227,7 @@ The following contributors played important roles in the development of the firs
 ### Up Helly Ah
 
 <details><summary> Spoiler </summary>
-<img src="../rd-up-helly-aa-splash.svg" width="500">
+<img src="../rd-up-helly-aa-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -238,7 +238,7 @@ Artists - RetroDECK Team: Lazorne
 ### Groundhog Day
 
 <details><summary> Spoiler </summary>
-<img src="../rd-groundhog-day-splash.svg" width="500">
+<img src="../rd-groundhog-day-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -250,7 +250,7 @@ Artists - RetroDECK Team: Lazorne
 ### Setsubun - 節分
 
 <details><summary> Spoiler </summary>
-<img src="../rd-setsubun-splash.svg" width="500">
+<img src="../rd-setsubun-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: XargonWan
 
@@ -262,7 +262,7 @@ Artists - RetroDECK Team: XargonWan
 
 <details><summary> Spoiler </summary>
 
-<img src="../rd-lunar-dragon-splash.svg" width="500">
+<img src="../rd-lunar-dragon-splash.svg" width="500" alt="">
 
 Artists: Weestuarty
 
@@ -274,7 +274,7 @@ Artists: Weestuarty
 
 <details><summary> Spoiler </summary>
 
-<img src="../rd-lunar-snake-splash.svg" width="500">
+<img src="../rd-lunar-snake-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: XargonWan
 
@@ -286,7 +286,7 @@ Artists - RetroDECK Team: XargonWan
 
 <details><summary> Spoiler </summary>
 
-<img src="../rd-lunar-horse-splash.svg" width="500">
+<img src="../rd-lunar-horse-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: XargonWan
 
@@ -297,7 +297,7 @@ Artists - RetroDECK Team: XargonWan
 ### Valentines Day
 
 <details><summary> Spoiler </summary>
-<img src="../rd-valentines-splash.svg" width="500">
+<img src="../rd-valentines-splash.svg" width="500" alt="">
 
 Artists- RetroDECK Team: Weestuarty
 
@@ -308,7 +308,7 @@ Artists- RetroDECK Team: Weestuarty
 ### Holi
 
 <details><summary> Spoiler </summary>
-<img src="../rd-holi-splash.svg" width="500">
+<img src="../rd-holi-splash.svg" width="500" alt="">
 
 Artists: Lazorne
 
@@ -319,7 +319,7 @@ Artists: Lazorne
 ### RetroDECK's Birthday & International Game Masters's Day
 
 <details><summary> Spoiler </summary>
-<img src="../rd-gm-bday-splash.svg" width="500">
+<img src="../rd-gm-bday-splash.svg" width="500" alt="">
 
 Artists: Weestuarty
 
@@ -330,7 +330,7 @@ Artists: Weestuarty
 ### International Women's Day
 
 <details><summary> Spoiler </summary>
-<img src="../rd-womans-day-splash.svg" width="500">
+<img src="../rd-womans-day-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -342,7 +342,7 @@ Artists - RetroDECK Team: Lazorne
 ### St Patrick's Day
 
 <details><summary> Spoiler </summary>
-<img src="../rd-stpatricks-splash.svg" width="500">
+<img src="../rd-stpatricks-splash.svg" width="500" alt="">
 
 Artists: Weestuarty
 
@@ -353,7 +353,7 @@ Artists: Weestuarty
 ### Eid al-Fitr
 
 <details><summary> Spoiler </summary>
-<img src="../rd-eid-al-fitr-splash.svg" width="500">
+<img src="../rd-eid-al-fitr-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -367,7 +367,7 @@ Artists - RetroDECK Team: Lazorne
 ### Walpurgis Night
 
 <details><summary> Spoiler </summary>
-<img src="../rd-walpurgis-splash.svg" width="500">
+<img src="../rd-walpurgis-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -378,7 +378,7 @@ Artists - RetroDECK Team: Lazorne
 ### May day / International Workers Day / Labour Day
 
 <details><summary> Spoiler </summary>
-<img src="../rd-mayday-splash.svg" width="500">
+<img src="../rd-mayday-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -390,7 +390,7 @@ Artists - RetroDECK Team: Lazorne
 ### Kodomo no Hi - こどもの日
 
 <details><summary> Spoiler </summary>
-<img src="../rd-kodomo-golden-splash.svg" width="500">
+<img src="../rd-kodomo-golden-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: XargonWan
 
@@ -401,7 +401,7 @@ Artists - RetroDECK Team: XargonWan
 ### Cooper's Hill Cheese-Rolling and Wake
 
 <details><summary> Spoiler </summary>
-<img src="../rd-cheese-wake-splash.svg" width="500">
+<img src="../rd-cheese-wake-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -413,7 +413,7 @@ Artists - RetroDECK Team: Lazorne
 ### Midsommarafton
 
 <details><summary> Spoiler </summary>
-<img src="../rd-midsummer-splash.svg" width="500">
+<img src="../rd-midsummer-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -425,7 +425,7 @@ Artists - RetroDECK Team: Lazorne
 ### Dragon Boat Festival - 端午节
 
 <details><summary> Spoiler </summary>
-<img src="../rd-dragon-boat-festival-splash.svg" width="500">
+<img src="../rd-dragon-boat-festival-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -438,7 +438,7 @@ Artists - RetroDECK Team: Lazorne
 ### Running of the Bulls - El Encierro
 
 <details><summary> Spoiler </summary>
-<img src="../rd-running-bulls-splash.svg" width="500">
+<img src="../rd-running-bulls-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -449,7 +449,7 @@ Artists - RetroDECK Team: Lazorne
 ### Tanabata - たなばた
 
 <details><summary> Spoiler </summary>
-<img src="../rd-tanabata-splash.svg" width="500">
+<img src="../rd-tanabata-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: XargonWan
 
@@ -460,7 +460,7 @@ Artists - RetroDECK Team: XargonWan
 ### Matariki
 
 <details><summary> Spoiler </summary>
-<img src="../rd-matariki-splash.svg" width="500">
+<img src="../rd-matariki-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -470,7 +470,7 @@ Artists - RetroDECK Team: Lazorne
 ### La Tomatina
 
 <details><summary> Spoiler </summary>
-<img src="../rd-la-tomatina-splash.svg" width="500">
+<img src="../rd-la-tomatina-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -481,7 +481,7 @@ Artists - RetroDECK Team: Lazorne
 ### International Talk Like a Pirate Day
 
 <details><summary> Spoiler </summary>
-<img src="../rd-pirate-splash.svg" width="500">
+<img src="../rd-pirate-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -493,7 +493,7 @@ Artists - RetroDECK Team: Lazorne
 ### Oktoberfest
 
 <details><summary> Spoiler </summary>
-<img src="../rd-oktoberfest-splash.svg" width="500">
+<img src="../rd-oktoberfest-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -507,7 +507,7 @@ Artists - RetroDECK Team: Lazorne
 ### Halloween
 
 <details><summary> Spoiler </summary>
-<img src="../rd-halloween-splash.svg" width="500">
+<img src="../rd-halloween-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -518,7 +518,7 @@ Artists - RetroDECK Team: Lazorne
 ### Dia de los Muertos
 
 <details><summary> Spoiler </summary>
-<img src="../rd-dia-de-los-muertos-splash.svg" width="500">
+<img src="../rd-dia-de-los-muertos-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -530,7 +530,7 @@ Artists - RetroDECK Team: Lazorne
 ### Diwali - Festival of Lights
 
 <details><summary> Spoiler </summary>
-<img src="../rd-diwali-splash.svg" width="500">
+<img src="../rd-diwali-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -542,7 +542,7 @@ Artists - RetroDECK Team: Lazorne
 ### International Men's Day
 
 <details><summary> Spoiler </summary>
-<img src="../rd-mens-day-splash.svg" width="500">
+<img src="../rd-mens-day-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -553,7 +553,7 @@ Artists - RetroDECK Team: Lazorne
 ### Monkey Buffet Festival
 
 <details><summary> Spoiler </summary>
-<img src="../rd-monkey-festival-splash.svg" width="500">
+<img src="../rd-monkey-festival-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -565,7 +565,7 @@ Artists - RetroDECK Team: Lazorne
 ### Chanukah / Hanukkah
 
 <details><summary> Spoiler </summary>
-<img src="../rd-chanukah-splash.svg" width="500">
+<img src="../rd-chanukah-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -577,7 +577,7 @@ Artists - RetroDECK Team: Lazorne
 ### Lucia
 
 <details><summary> Spoiler </summary>
-<img src="../rd-lucia-splash.svg" width="500">
+<img src="../rd-lucia-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -589,7 +589,7 @@ Artists - RetroDECK Team: Lazorne
 ### Xmas - Holiday Period
 
 <details><summary> Spoiler </summary>
-<img src="../rd-xmas-splash.svg" width="500">
+<img src="../rd-xmas-splash.svg" width="500" alt="">
 
 Artists:  Weestuarty
 
@@ -602,7 +602,7 @@ Artists:  Weestuarty
 ### New Year
 
 <details><summary> Spoiler </summary>
-<img src="../rd-new-year-splash.svg" width="500">
+<img src="../rd-new-year-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -615,7 +615,7 @@ Artists - RetroDECK Team: Lazorne
 ### Pride
 
 <details><summary> Spoiler </summary>
-<img src="../rd-pride-splash.svg" width="500">
+<img src="../rd-pride-splash.svg" width="500" alt="">
 
 Artists: Weestuarty
 

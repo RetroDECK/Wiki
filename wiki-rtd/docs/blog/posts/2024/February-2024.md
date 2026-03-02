@@ -1,4 +1,4 @@
----
+﻿---
 date: 2024-02-23
 ---
 
@@ -31,7 +31,7 @@ But we are closing in on the finishing line!
 
 ---
 
-<img src="../../../es-de-logo.png" width="100">
+<img src="../../../es-de-logo.png" width="100" alt="">
 
 ## ES-DE 3.0 in 0.8.0b
 
@@ -63,7 +63,7 @@ If you intend to buy it use the correct link, listed above and always on their w
 
 ## Update: Godot Configurator Translations
 
-<img src="../../../configurator-cn.webp" width="750">
+<img src="../../../configurator-cn.webp" width="750" alt="">
 
 (Still WIP)
 
@@ -136,7 +136,7 @@ For the Steam Controller the `R4` button will toggle the `Right Touchpad` betwee
 
 ## Steam Deck: ScummVM Radial Menu
 
-<img src="../../../scummvm-radial.webp" width="300">
+<img src="../../../scummvm-radial.webp" width="300" alt="">
 
 On the Steam Deck we have added a new radial menu for ScummVM that allows you quick access to the various letter commands used by many ScummVM games.
 

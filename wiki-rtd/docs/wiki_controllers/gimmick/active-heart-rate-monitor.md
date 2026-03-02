@@ -1,6 +1,6 @@
-# Active Heart Rate Monitor
+﻿# Active Heart Rate Monitor
 
-<img src="../../../wiki_images/controllers/ea-sports-active2.png" width="250">
+<img src="../../../wiki_images/controllers/ea-sports-active2.png" width="250" alt="">
 
 The heart rate monitors type controllers for the game `EA Sports Active 2`.
 

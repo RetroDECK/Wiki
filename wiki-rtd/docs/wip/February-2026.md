@@ -1,4 +1,4 @@
---- 
+﻿--- 
 
 date: 2026-02-28
 
@@ -52,7 +52,7 @@ What follows are some of our early experiments. As always, we can't guarantee th
 
 *Commander X16 running in RetroDECK.*
 
-<img src="../cx16.png" width="600"> 
+<img src="../cx16.png" width="600" alt=""> 
 
 Is a modern open source 8-bit computer inspired by classic systems, designed for retro-style development and learning.
 
@@ -66,7 +66,7 @@ The project sells physical hardware for purchase and an offers an official emula
 
 *GameTank running in RetroDECK.*
 
-<img src="../gametank.png" width="600"> 
+<img src="../gametank.png" width="600" alt=""> 
 
 GameTank is an open-source 8-bit game console built for homebrew development and education.
 
@@ -82,7 +82,7 @@ The project sells physical hardware for purchase and an offers an official emula
 
 *MVEM running in RetroDECK.*
 
-<img src="../microvision.png" width="600"> 
+<img src="../microvision.png" width="600" alt=""> 
 
 MVEM is a very very very... unknown emulator for the Milton Bradley Microvision, it was the first handheld console with interchangeable cartridges, released in 1979 with a resolution of: **16x16** px.
 
@@ -106,7 +106,7 @@ Good controller support should not be expected, this little hidden gem emulator 
 
 *Mr.Bubble fan game running in RetroDECK.*
 
-<img src="../vpinballx-mrbubble.png" width="600">
+<img src="../vpinballx-mrbubble.png" width="600" alt="">
 
 Visual Pinball X (VPX) is a virtual pinball engine designed to accurately simulate real-world pinball tables with advanced physics, lighting, and scripting support.
 
@@ -124,15 +124,15 @@ If you have that experience please contact us and see if we can make a global co
 
 *MUDS menu in ES-DE.*
 
-<img src="../mume-rd.png" width="600">
+<img src="../mume-rd.png" width="600" alt="">
 
 *MUME in ES-DE.*
 
-<img src="../mume-rd2.png" width="600">
+<img src="../mume-rd2.png" width="600" alt="">
 
 *MUME running in RetroDECK via Mudlet.*
 
-<img src="../mume-rd3.png" width="800">
+<img src="../mume-rd3.png" width="800" alt="">
 
 Mudlet will be the first client-type component added to RetroDECK. A client is a system or application that connects to a server or online service to access multiplayer features, streaming, or remote content. Clients rely on an external host to function.
 
@@ -148,7 +148,7 @@ You'll be able to connect using our new `.mud` files and that are tied to server
 
 *Quake entryway running in RetroDECK.*
 
-<img src="../ironwail.png" width="600">
+<img src="../ironwail.png" width="600" alt="">
 
 Ironwail is a Quake engine based on QuakeSpasm.
 
@@ -160,7 +160,7 @@ This engine improves performance by offloading substantial processing from the C
 
 *Wolfenstein 3D Start running in RetroDECK.*
 
-<img src="../ecwolf-wolf.png" width="600">
+<img src="../ecwolf-wolf.png" width="600" alt="">
 
 ECWolf is a *Wolfenstein 3D*, *Spear of Destiny*, and *Super 3D Noah's Ark*, engine based of Wolf4SDL.
 

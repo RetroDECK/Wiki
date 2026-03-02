@@ -1,4 +1,4 @@
----
+﻿---
 date: 2023-12-18
 ---
 # December 2023: RetroDECK's Doomy December
@@ -14,7 +14,7 @@ Rip and tear!
 <br>
 <!-- more -->
 
-<img src="../../../doom-esde.png" width="550">
+<img src="../../../doom-esde.png" width="550" alt="">
 
 *Theme is Alekfull NX (Revisited) by antfortytwo and fagnerpc. Also testing and feedback by Lazorne (RetroDECK).*
 

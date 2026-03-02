@@ -1,6 +1,6 @@
-# Flips (Floating IPS) Patcher - General Guide
+﻿# Flips (Floating IPS) Patcher - General Guide
 
-<img src="../../../wiki_images/logos/flips-logo.png" width="75">
+<img src="../../../wiki_images/logos/flips-logo.png" width="75" alt="Flips logo">
 
 **Flips** (Floating IPS) is a lightweight, patcher that supports both `.ips` and `.bps` formats, allowing users to apply and create ROM Hack patches.
 
@@ -8,7 +8,7 @@ You will find Flips inside the RetroDECK Configurator as its own component.
 
 **Read more:** [What are ROM Hacks?](../../wiki_general/what-are-romhacks.md)
 
-<img src="../flips-gui.png" width="300">
+<img src="../flips-gui.png" width="300" alt="">
 
 ---
 

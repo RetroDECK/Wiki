@@ -1,6 +1,6 @@
-# Guide: ECWolf
+﻿# Guide: ECWolf
 
-<img src="../../../wiki_images/logos/ecwolf-logo.webp" width="150">
+<img src="../../../wiki_images/logos/ecwolf-logo.webp" width="150" alt="Ecwolf logo">
 
 ECWolf is a Wolfenstein 3D game engine.
 
@@ -10,7 +10,7 @@ ECWolf is a Wolfenstein 3D game engine.
 
 ### ECWolf Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -33,7 +33,7 @@ ECWolf game files must be placed in the `retrodeck/roms/wolf/<sub_directory.wolf
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -54,7 +54,7 @@ ECWolf game files must be placed in the `retrodeck/roms/wolf/<sub_directory.wolf
 
 ## Does ECWolf require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No
 
@@ -64,7 +64,7 @@ However, you do need copies of the official game data.
 
 ## Directory Structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type | Directory | Comment |
 |:----:|:--------------------------------------|:-----------------------------------------------|

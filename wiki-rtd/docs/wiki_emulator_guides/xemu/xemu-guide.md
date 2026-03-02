@@ -1,6 +1,6 @@
-# xemu - General Guide
+﻿# xemu - General Guide
 
-<img src="../../../wiki_images/logos/xemu-logo.png" width="75">
+<img src="../../../wiki_images/logos/xemu-logo.png" width="75" alt="Xemu logo">
 
 A free and open-source application that emulates the original Microsoft Xbox game console.
 
@@ -8,7 +8,7 @@ A free and open-source application that emulates the original Microsoft Xbox gam
 
 ### xemu Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -32,7 +32,7 @@ Xbox games should be put under the `retrodeck/roms/xbox/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -46,7 +46,7 @@ Read more here: [xemu - Disc Images ](https://xemu.app/docs/disc-images/)
 
 ## Does xemu require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes
 
@@ -67,7 +67,7 @@ Directly into the folder
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                                        | Comment                                 |
 |--------|------------------------------------------------------------------|-----------------------------------------|
@@ -81,7 +81,7 @@ Directly into the folder
 
 ## Enable Multiplayer 
 
-<img src="../xemu-input-menu.png" width="600">
+<img src="../xemu-input-menu.png" width="600" alt="">
 
 1. Open `RetroDECK Configurator` → `xemu`
 2. Navigate to `Machine` → `Settings` → `Input`

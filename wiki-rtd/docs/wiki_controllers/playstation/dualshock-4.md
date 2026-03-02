@@ -1,6 +1,6 @@
-# PlayStation 4 - DualShock 4
+﻿# PlayStation 4 - DualShock 4
 
-<img src="../../../wiki_images/controllers/ps4-dualshock4.png" width="250">
+<img src="../../../wiki_images/controllers/ps4-dualshock4.png" width="250" alt="">
 
 The DualShock 4 controller, released on November 15, 2013, is the wireless gamepad developed by Sony for the PlayStation 4 console. It features a touchpad, light bar, and improved ergonomics over its predecessor. The controller has undergone several revisions.
 

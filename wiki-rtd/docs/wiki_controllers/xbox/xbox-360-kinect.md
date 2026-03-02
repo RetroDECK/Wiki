@@ -1,6 +1,6 @@
-# Xbox 360 - Kinect v1
+﻿# Xbox 360 - Kinect v1
 
-<img src="../../../wiki_images/controllers/xbox-kinect-360.png" width="250">
+<img src="../../../wiki_images/controllers/xbox-kinect-360.png" width="250" alt="">
 
 The Xbox 360 Kinect, released on November 4, 2010, is a motion-sensing input device developed by Microsoft for the Xbox 360 console. It has undergone several revisions, including the Xbox 360 S and E models, which feature dedicated ports for Kinect, eliminating the need for an external power supply.
 

@@ -1,6 +1,6 @@
-#  Adventure Game Studio (AGS) - General Guide
+﻿#  Adventure Game Studio (AGS) - General Guide
 
-<img src="../../../wiki_images/logos/ags-logo.svg" width="100">
+<img src="../../../wiki_images/logos/ags-logo.svg" width="100" alt="Ags logo">
 
 Adventure Game Studio is a engine which allows you to run certain classic graphical point-and-click adventure games.
 
@@ -15,7 +15,7 @@ AGS games should be put into the `retrodeck/roms/ags/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -27,7 +27,7 @@ AGS games should be put into the `retrodeck/roms/ags/` directory.
 
 ## Does ags require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No
 
@@ -35,7 +35,7 @@ No
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type | Directory                  | Comment |
 |:----:|:---------------------------|:-------|

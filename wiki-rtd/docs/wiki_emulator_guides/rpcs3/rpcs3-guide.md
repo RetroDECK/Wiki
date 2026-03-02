@@ -1,6 +1,6 @@
-# RPCS3 - General Guide
+﻿# RPCS3 - General Guide
 
-<img src="../../../wiki_images/logos/rpcs3-logo.png" width="75">
+<img src="../../../wiki_images/logos/rpcs3-logo.png" width="75" alt="Rpcs3 logo">
 
 RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger.
 
@@ -14,7 +14,7 @@ This emulator is under rapid development and considered **bleeding edge**. It ma
 
 ### RPCS3 Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -39,7 +39,7 @@ PS3 games should be put under the `retrodeck/roms/ps3/` folder.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -51,7 +51,7 @@ PS3 games should be put under the `retrodeck/roms/ps3/` folder.
 
 ## Does RPCS3 require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes, the `PS3UPDAT.PUP` firmware needs to be installed in the emulator.
 
@@ -79,7 +79,7 @@ There are two ways to install the firmware:
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type        | Directory                                   | Comment                                  |
 |:-----------:|:--------------------------------------------|:-----------------------------------------|
@@ -107,7 +107,7 @@ There are two methods of adding the games. For more details read here: [ES-DE RP
 
 ### Method 1: Game Shortcuts (`.desktop` files) - **Recommended**
 
-<img src="../rpcs3-create-shortcut.png" width="800">
+<img src="../rpcs3-create-shortcut.png" width="800" alt="">
 
 This method can be used for all types of rips/dumps, both directories and installed digital titles. It's the default method for RetroDECK.
 

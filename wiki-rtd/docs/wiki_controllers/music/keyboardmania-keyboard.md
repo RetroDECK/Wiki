@@ -1,6 +1,6 @@
-# Keyboardmania - Keyboard
+﻿# Keyboardmania - Keyboard
 
-<img src="../../../wiki_images/controllers/keyboardmania-keyboard.png" width="250">
+<img src="../../../wiki_images/controllers/keyboardmania-keyboard.png" width="250" alt="">
 
 **Keyboardmania** is a rhythm video game developed and published by Konami. It was released for the PlayStation 2 on **September 21, 2000**. 
 

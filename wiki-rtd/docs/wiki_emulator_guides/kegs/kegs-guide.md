@@ -1,6 +1,6 @@
-# Guide: KEGS
+﻿# Guide: KEGS
 
-<img src="../../../wiki_images/logos/kegs-logo.png" width="150">
+<img src="../../../wiki_images/logos/kegs-logo.png" width="150" alt="Kegs logo">
 
 KEGS (Kent's Emulated GS) is an advanced Apple IIgs emulator.
 
@@ -10,7 +10,7 @@ KEGS (Kent's Emulated GS) is an advanced Apple IIgs emulator.
 
 ### KEGS Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -29,7 +29,7 @@ KEGS games should be put under the `retrodeck/roms/apple2gs/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 
 | Format | Description |
@@ -47,7 +47,7 @@ KEGS games should be put under the `retrodeck/roms/apple2gs/` directory.
 
 ## Does KEGS require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes, it requires 
 
@@ -60,7 +60,7 @@ Yes, it requires
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|

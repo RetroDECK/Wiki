@@ -1,6 +1,6 @@
-# Launching Heroic (Epic, GOG, Amazon) Games with RetroDECK
+﻿# Launching Heroic (Epic, GOG, Amazon) Games with RetroDECK
 
-<img src="../../../wiki_images/logos/heroic-logo.png" width="75">
+<img src="../../../wiki_images/logos/heroic-logo.png" width="75" alt="Heroic logo">
 
 This experiment was initiated by the users **murkl** and **Daeymon**. Then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external desktop games and apps within RetroDECK.
 
@@ -33,7 +33,7 @@ Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
@@ -59,7 +59,7 @@ Make an empty file with the `<gamename>.desktop`.
 5. A shortcut will now be created on the Desktop.
 6. Move or copy that to `retrodeck/roms/desktop/`.
 
-<img src="../heroic-shortcut.png" width="800">
+<img src="../heroic-shortcut.png" width="800" alt="">
 
 ### Step 2: Edit the .desktop file
 
@@ -82,7 +82,7 @@ Categories=Game;
 
 ## The Last Step: Launch the Games via RetroDECK & Scrape
 
-<img src="../windows-es-de.png" width="100">
+<img src="../windows-es-de.png" width="100" alt="">
 
 After the `.desktop` files have been created and everything is working as expected, RetroDECK will recognize the `.desktop` file the next time you start it. 
 

@@ -1,4 +1,4 @@
---- 
+﻿--- 
 
 date: 2025-02-23
 
@@ -27,13 +27,13 @@ Let's just say we have had ***a bit*** of a spike in both users and reported iss
 
 ❤️ Thanks Russ and Thanks all new Community Members ❤️
 
-<img src="../../../RetroDECK_Stonks.png" width="800"> 
+<img src="../../../RetroDECK_Stonks.png" width="800" alt=""> 
 
 ---
 
 ## 0.9.1b
 
-<img src="../../../logo_stacked_merged.svg" width="400"> 
+<img src="../../../logo_stacked_merged.svg" width="400" alt=""> 
 
 We have been vigilant in monitoring all socials: Discord, Matrix, Lemmy, Reddit, Blusky, etc... for reported issues even with a bigger userbase. 
 
@@ -54,7 +54,7 @@ It's also good to read the: [Cooker Testing Guide](https://retrodeck.readthedocs
 
 ## SRM and Steam Sync 2.0
 
-<img src="../../../srm-logo.png" width="75"> 
+<img src="../../../srm-logo.png" width="75" alt=""> 
 
 The first step of Steam Sync was to get the functionality working and released inside of RetroDECK as we did as part of update 0.9.0b. We always wanted to do several improvements to it. 
 

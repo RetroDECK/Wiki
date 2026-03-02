@@ -1,6 +1,6 @@
-# RetroDECK: Debugging
+﻿# RetroDECK: Debugging
 
-<img src="../../../wiki_icons/pixelitos/folder-red-android.png" width="75">
+<img src="../../../wiki_icons/pixelitos/folder-red-android.png" width="75" alt="">
 
 
 ## Launch RetroDECK with debug log level

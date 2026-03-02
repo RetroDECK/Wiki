@@ -1,6 +1,6 @@
-# ScummVM - General Guide
+﻿# ScummVM - General Guide
 
-<img src="../../../wiki_images/logos/scummvm-logo.svg" width="100">
+<img src="../../../wiki_images/logos/scummvm-logo.svg" width="100" alt="Scummvm logo">
 
 ScummVM is a engine which allows you to run certain classic graphical adventure and role-playing games.
 
@@ -12,7 +12,7 @@ ScummVM is a engine which allows you to run certain classic graphical adventure 
 
 ### ScummVM Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -34,7 +34,7 @@ ScummVM games should be put into the `retrodeck/roms/scummvm/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -45,7 +45,7 @@ ScummVM games should be put into the `retrodeck/roms/scummvm/` directory.
 
 ## Does ScummVM require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No
 
@@ -53,7 +53,7 @@ No
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type | Directory                  | Comment |
 |:----:|:---------------------------|:-------|

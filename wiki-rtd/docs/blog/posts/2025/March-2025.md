@@ -1,4 +1,4 @@
---- 
+﻿--- 
 
 date: 2025-03-16
 
@@ -24,7 +24,7 @@ Things are happening in the community.
 
 ## RetroDECK 0.9.1b was Released
 
-<img src="../../../icon-rd.svg" width="75"> 
+<img src="../../../icon-rd.svg" width="75" alt=""> 
 
 The huge bugfix and quality-of-life changes patch, version 0.9.1b, has been released.
 
@@ -37,7 +37,7 @@ Additionally, we are in the early planning stages for the next major update, 0.1
 ## Repair-Paths Tool
 
 
-<img src="../../../icon-configurator.svg" width="75"> 
+<img src="../../../icon-configurator.svg" width="75" alt=""> 
 
 We are currently experimenting with a new Configurator Tool: **Repair-Paths Tool**. 
 
@@ -75,15 +75,15 @@ The goal is to have a nice icon on most of the folders shipped within RetroDECK.
 
 **Frames:** 
 
-<img src="../../../RetroDECK_Flat.webp" width="75">  <img src="../../../n64-wip.webp" width="75">  <img src="../../../xbox.webp" width="75"> 
+<img src="../../../RetroDECK_Flat.webp" width="75" alt="">  <img src="../../../n64-wip.webp" width="75" alt="">  <img src="../../../xbox.webp" width="75" alt=""> 
 
-<img src="../../../lahrs3.webp" width="400"> 
+<img src="../../../lahrs3.webp" width="400" alt=""> 
 
 **Themes:** 
 
-<img src="../../../lahrs1.webp" width="400"> 
+<img src="../../../lahrs1.webp" width="400" alt=""> 
 
-<img src="../../../lahrs2.webp" width="400"> 
+<img src="../../../lahrs2.webp" width="400" alt=""> 
 
 
 These are still very early in the making, but us in the RetroDECK Team think they are really neat! 

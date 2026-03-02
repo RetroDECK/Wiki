@@ -1,6 +1,6 @@
-## AimTrak
+﻿## AimTrak
 
-<img src="../../../wiki_images/controllers/lightgun-aimtrak.png" width="150">
+<img src="../../../wiki_images/controllers/lightgun-aimtrak.png" width="150" alt="">
 
 ### Steam Input support
 No

@@ -1,6 +1,6 @@
-# Different Button Prompts in Games
+﻿# Different Button Prompts in Games
 
-<img src="../../wiki_icons/pixelitos/game-input.png" width="75">
+<img src="../../wiki_icons/pixelitos/game-input.png" width="75" alt="">
 
 ## Information
 
@@ -16,10 +16,10 @@ The Xbox layout is used by **Xbox Controllers**, Steam Deck, Rog Alley, and many
 
 | Button Placement | Button | Name |
 | :--- | :---: | :---: |
-| North | <img src="../../wiki_icons/binding_icons/RD-button-y.png" width="30"> | Y |
-| West  | <img src="../../wiki_icons/binding_icons/RD-button-x.png" width="30"> | X |
-| East  | <img src="../../wiki_icons/binding_icons/RD-button-b.png" width="30"> | B |
-| South | <img src="../../wiki_icons/binding_icons/RD-button-a.png" width="30"> | A |
+| North | <img src="../../wiki_icons/binding_icons/RD-button-y.png" width="30" alt=""> | Y |
+| West  | <img src="../../wiki_icons/binding_icons/RD-button-x.png" width="30" alt=""> | X |
+| East  | <img src="../../wiki_icons/binding_icons/RD-button-b.png" width="30" alt=""> | B |
+| South | <img src="../../wiki_icons/binding_icons/RD-button-a.png" width="30" alt=""> | A |
 
 **Example:**  
 If a game calls for the button `B`, it corresponds to the **right button**.
@@ -34,10 +34,10 @@ The Nintendo layout is used by **Nintendo Controllers** and other generic third-
 
 | Button Placement | Button | Name |
 | :--- | :---: | :---: |
-| North | <img src="../../wiki_icons/binding_icons/RD-button-x.png" width="30"> | X |
-| West  | <img src="../../wiki_icons/binding_icons/RD-button-y.png" width="30"> | Y |
-| East  | <img src="../../wiki_icons/binding_icons/RD-button-a.png" width="30"> | A |
-| South | <img src="../../wiki_icons/binding_icons/RD-button-b.png" width="30"> | B |
+| North | <img src="../../wiki_icons/binding_icons/RD-button-x.png" width="30" alt=""> | X |
+| West  | <img src="../../wiki_icons/binding_icons/RD-button-y.png" width="30" alt=""> | Y |
+| East  | <img src="../../wiki_icons/binding_icons/RD-button-a.png" width="30" alt=""> | A |
+| South | <img src="../../wiki_icons/binding_icons/RD-button-b.png" width="30" alt=""> | B |
 
 **Example:**  
 If a Nintendo game calls for the button `A`, it corresponds to the **right button**.
@@ -52,10 +52,10 @@ The PlayStation layout is used by **PlayStation Controllers** and other generic 
 
 | Button Placement | Button | Name |
 | :--- | :---: | :---: |
-| North | <img src="../../wiki_icons/playstation/playstation-triangle.png" width="20"> | Triangle |
-| West  | <img src="../../wiki_icons/playstation/playstation-square.png" width="20"> | Square |
-| East  | <img src="../../wiki_icons/playstation/playstation-circle.png" width="20"> | Circle |
-| South | <img src="../../wiki_icons/playstation/playstation-cross.png" width="20"> | Cross |
+| North | <img src="../../wiki_icons/playstation/playstation-triangle.png" width="20" alt=""> | Triangle |
+| West  | <img src="../../wiki_icons/playstation/playstation-square.png" width="20" alt=""> | Square |
+| East  | <img src="../../wiki_icons/playstation/playstation-circle.png" width="20" alt=""> | Circle |
+| South | <img src="../../wiki_icons/playstation/playstation-cross.png" width="20" alt=""> | Cross |
 
 **Example:**  
 If a PlayStation game calls for the button `Circle`, it corresponds to the **right button**.

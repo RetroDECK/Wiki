@@ -1,6 +1,6 @@
-# Xbox 360 Controller
+﻿# Xbox 360 Controller
 
-<img src="../../../wiki_images/controllers/xbox-360.png" width="250">
+<img src="../../../wiki_images/controllers/xbox-360.png" width="250" alt="">
 
 The Xbox 360 controller is a popular gamepad developed by Microsoft for the Xbox 360 console, released on November 22, 2005. It is known for its ergonomic design and compatibility with various gaming platforms. 
 

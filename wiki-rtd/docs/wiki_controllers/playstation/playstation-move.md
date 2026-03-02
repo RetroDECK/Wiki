@@ -1,6 +1,6 @@
-# PlayStation Eye & PlayStation Move
+﻿# PlayStation Eye & PlayStation Move
 
-<img src="../../../wiki_images/controllers/playstation-eye.png" width="150"><img src="../../../wiki_images/controllers/playstation-move.png" width="150">
+<img src="../../../wiki_images/controllers/playstation-eye.png" width="150" alt=""><img src="../../../wiki_images/controllers/playstation-move.png" width="150" alt="">
 
 **PlayStation Eye**
 

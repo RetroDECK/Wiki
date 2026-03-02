@@ -1,6 +1,6 @@
-# RetroDECK Flathub Publication
+﻿# RetroDECK Flathub Publication
 
-<img src="../../../wiki_images/flatpak/flathub-logo.svg" width="100">
+<img src="../../../wiki_images/flatpak/flathub-logo.svg" width="100" alt="">
 
 ## Process to Publish
 

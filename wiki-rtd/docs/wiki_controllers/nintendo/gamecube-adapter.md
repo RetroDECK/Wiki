@@ -1,6 +1,6 @@
-# GameCube Controller Adapter for Wii U
+﻿# GameCube Controller Adapter for Wii U
 
-<img src="../../../wiki_images/controllers/wiiu-gcpad-adapter.png" width="250">
+<img src="../../../wiki_images/controllers/wiiu-gcpad-adapter.png" width="250" alt="">
 
 ### Steam Input support
 Yes, but the connected controllers shows up as Generic Controllers.

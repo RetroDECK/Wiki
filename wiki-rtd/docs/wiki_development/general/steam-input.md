@@ -1,6 +1,6 @@
-# Steam Input - Development
+﻿# Steam Input - Development
 
-<img src="../../../wiki_icons/pixelitos/folder-red-steam.png" width="75">
+<img src="../../../wiki_icons/pixelitos/folder-red-steam.png" width="75" alt="">
 
 **Note:** 
 

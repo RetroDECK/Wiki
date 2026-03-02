@@ -1,6 +1,6 @@
-# PrimeHack - General Guide
+﻿# PrimeHack - General Guide
 
- <img src="../../../wiki_images/logos/primehack-logo.png" width="75">
+ <img src="../../../wiki_images/logos/primehack-logo.png" width="75" alt="Primehack logo">
 
 PrimeHack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouselook controls and other improvements.
 
@@ -8,7 +8,7 @@ PrimeHack is a fork of Dolphin intended just to give Metroid Prime Trilogy mouse
 
 ## Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 ### PrimeHack 
 
@@ -29,7 +29,7 @@ Should be put under the `retrodeck/roms/PrimeHack/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -56,7 +56,7 @@ Should be put under the `retrodeck/roms/PrimeHack/` directory.
 
 ## Does PrimeHack require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
  File Name | Required For | Description |
 |-----------|--------------|-------------|
@@ -78,7 +78,7 @@ PrimeHack looks for the `IPL.bin` in the save folders. Put each region's `IPL.bi
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 ---
 

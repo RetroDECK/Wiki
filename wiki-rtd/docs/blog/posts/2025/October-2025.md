@@ -1,4 +1,4 @@
---- 
+﻿--- 
 
 date: 2025-10-31
 
@@ -36,7 +36,7 @@ We also wish you a 🎃 Happy Halloween 🎃 for those that celebrate it.
 
 ## Lahrs joined the Team
 
-<img src="../../../astrocde.ico" width="75">
+<img src="../../../astrocde.ico" width="75" alt="">
 
 Lahrs has been an invaluable contributor to our RetroDECK for several months, consistently delivering high‑quality support, helping and overseeing the community. 
 
@@ -47,7 +47,7 @@ We are pleased to formally welcome Lahrs to the team.
 
 ## RetroDECK 0.10.0b - Status
 
-<img src="../../../icon-rd.svg" width="75"> 
+<img src="../../../icon-rd.svg" width="75" alt=""> 
 
 RetroDECK 0.10.0b is advancing under the “Project Neo” umbrella it's very complex with tons of architectural discussions and changes. 
 
@@ -59,7 +59,7 @@ This is a tiny showcase on what we are working on so far.
 
 ### Merger of component_libs and component_recipe
 
-<img src="../../../icon-component.svg" width="75">
+<img src="../../../icon-component.svg" width="75" alt="">
 
 Previously we maintained two separate two files:
 
@@ -188,7 +188,7 @@ We still have not decided the name for this as we want it to fit with the "magic
 ### RetroDECK Alchemist: Plugin‑Based Component Assembler
 
 
-<img src="../../../icon-alchemist.svg" width="75">
+<img src="../../../icon-alchemist.svg" width="75" alt="">
 
 The original assembler was monolithic. Refactoring it into a plugin system provides:
 
@@ -200,7 +200,7 @@ The original assembler was monolithic. Refactoring it into a plugin system provi
 
 ### Library Hunter & Gatherer
 
-<img src="../../../icon-hunter.svg" width="75"> 
+<img src="../../../icon-hunter.svg" width="75" alt=""> 
 
 The Hunter & Gatherer scripts replaced the overly complex first POC Libman for easier library management ealier.
 
@@ -291,7 +291,7 @@ All components shared-libs are merged into the single shared-libs componment upo
 
 ##  Next Steps 
 
-<img src="../../../icon-framework.svg" width="75"> 
+<img src="../../../icon-framework.svg" width="75" alt=""> 
 
 ### Assembler
 

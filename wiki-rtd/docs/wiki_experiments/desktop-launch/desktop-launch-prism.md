@@ -1,6 +1,6 @@
-# Launching Prism Launcher - Minecraft Games with RetroDECK
+﻿# Launching Prism Launcher - Minecraft Games with RetroDECK
 
-<img src="../../../wiki_images/logos/prismlauncher-logo.png" width="75">
+<img src="../../../wiki_images/logos/prismlauncher-logo.png" width="75" alt="Prismlauncher logo">
 
 This experiment was initiated by the users **murkl** and **Daeymon**. Then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external desktop games and apps within RetroDECK.
 
@@ -34,7 +34,7 @@ Also some RetroDECK built-in hotkeys in the radials like `Alt+F4` might help you
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |
@@ -51,7 +51,7 @@ For a smoother experience enable these settings in Prism Launcher:
 3. Enable ` Start Minecraft maximized` , ` Close Launcher after game window opens` and ` Quit Launcher after game window closes`.
 4. Exit Settings
 
-<img src="../prism-settings.png" width="800">
+<img src="../prism-settings.png" width="800" alt="">
 
 ### Step 1: Create .desktop file from Prism Launcher
 
@@ -61,7 +61,7 @@ For a smoother experience enable these settings in Prism Launcher:
 4. `Right Click` the game → `Create Shortcut`.
 5. Save the shortcut to: `retrodeck/roms/desktop/`.
 
-<img src="../prism-shortcut.png" width="800">
+<img src="../prism-shortcut.png" width="800" alt="">
 
 ### Step 2: Edit the .desktop file
 
@@ -94,7 +94,7 @@ Icon=/var/home/deck/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/
 
 ## The Last Step: Launch the Games via RetroDECK 
 
-<img src="../windows-es-de.png" width="100">
+<img src="../windows-es-de.png" width="100" alt="">
 
 After the `.desktop` files have been created and everything is working as expected, RetroDECK will recognize the `.desktop` file the next time you start it. 
 

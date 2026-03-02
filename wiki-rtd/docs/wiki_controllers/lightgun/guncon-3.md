@@ -1,8 +1,8 @@
-# GunCon 3
+﻿# GunCon 3
 
-<img src="../../../wiki_images/logos/guncon-logo.png" width="150">
+<img src="../../../wiki_images/logos/guncon-logo.png" width="150" alt="Guncon logo">
 
-<img src="../../../wiki_images/controllers/lightgun-guncon3.png" width="150">
+<img src="../../../wiki_images/controllers/lightgun-guncon3.png" width="150" alt="">
 
 The GunCon 3 for the Playstation 3.
 

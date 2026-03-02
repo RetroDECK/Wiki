@@ -1,6 +1,6 @@
-# Autoboot into RetroDECK and not Game Mode
+﻿# Autoboot into RetroDECK and not Game Mode
 
-<img src="../../../wiki_icons/pixelitos/preferences-system-splash.png" width="75">
+<img src="../../../wiki_icons/pixelitos/preferences-system-splash.png" width="75" alt="">
 
 This experiment was initiated by the user **Daeymon**. It was later expanded upon by the RetroDECK Team. Daeymon goal was to explore the possibility of autobooting into RetroDECK when the Steam Deck's Game Mode is launched.
 

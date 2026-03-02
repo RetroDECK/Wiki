@@ -1,6 +1,6 @@
-# Guide: MVEM
+﻿# Guide: MVEM
 
-<img src="../../../wiki_images/logos/microvision-logo.png" width="150">
+<img src="../../../wiki_images/logos/microvision-logo.png" width="150" alt="Microvision logo">
 
 MVEM is a experimental Microvision / Milton Bradley Microvision / MB Microvision emulator.
 
@@ -10,7 +10,7 @@ MVEM is a experimental Microvision / Milton Bradley Microvision / MB Microvision
 
 ### MVEM Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -27,7 +27,7 @@ Microvision games should be put under the `retrodeck/roms/microvision/` director
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 
 | File Format | Description |
@@ -41,7 +41,7 @@ Microvision games should be put under the `retrodeck/roms/microvision/` director
 
 ## Does MVEM require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No
 
@@ -49,7 +49,7 @@ No
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
@@ -90,7 +90,7 @@ Each game utilizes a distinct input configuration, with button functions defined
 
 ## Overlays                               
 
-<img src="../Bomber.jpg" width="200"> <img src="../Bomber_snap.png" width="200">
+<img src="../Bomber.jpg" width="200" alt=""> <img src="../Bomber_snap.png" width="200" alt="">
 
 Two overlay types are supported and must be placed alongside the ROM files in the `retrodeck/roms/microvision/` directory:
 
@@ -99,7 +99,7 @@ Two overlay types are supported and must be placed alongside the ROM files in th
 
 ### Example: Bomber.bin
 
-<img src="../MVEM_Bomber.png" width="800">
+<img src="../MVEM_Bomber.png" width="800" alt="">
 
 | File Name              | Description              |
 |------------------------|--------------------------|

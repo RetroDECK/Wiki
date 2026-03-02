@@ -1,6 +1,6 @@
-# XRoar  - General Guide
+﻿# XRoar  - General Guide
 
-<img src="../../../wiki_images/logos/xroar-tano64-logo.jpg" width="200">
+<img src="../../../wiki_images/logos/xroar-tano64-logo.jpg" width="200" alt="Xroar Tano64 logo">
 
 XRoar is a Dragon and Tandy computer series emulator.
 
@@ -8,7 +8,7 @@ XRoar is a Dragon and Tandy computer series emulator.
 
 ### XRoar Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -30,7 +30,7 @@ XRoar games should be put in the following directories
 
 ## Does XRoar require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes, you'll need the BIOS for the computer you're emulating. Some operating systems and even certain programs might also require their own BIOS files.
 
@@ -58,7 +58,7 @@ Directly into the folder
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -71,7 +71,7 @@ Directly into the folder
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type                         | Directory                                    | Comment |
 |------------------------------|----------------------------------------------|---------|
@@ -92,7 +92,7 @@ XRoar supports multiple input methods-including physical controllers, keyboards,
 
 ### Joystick / Controller Support
 
-<img src="../XRoar-GamePad.png" width="350">
+<img src="../XRoar-GamePad.png" width="350" alt="">
 
 - RetroDECK includes the **SDL_GameControllerDB**, a community-maintained database of controller mappings used by SDL. XRoar is configured to use this database, ensuring wide compatibility with modern gamepads.
 - If you have a physical joystick/gamepad attached, XRoar will detect it and map it as `joy0`, `joy1`, etc. 
@@ -118,7 +118,7 @@ You can choose among the built-in profiles above (keyboard-based, mouse-based, o
 
 The **Hardware → Machine** menu in XRoar lets you choose which system you want to emulate. XRoar supports several Dragon and CoCo models, each with its own hardware capabilities and compatibility differences.
 
-<img src="../XRoar-Machine.png" width="250">
+<img src="../XRoar-Machine.png" width="250" alt="">
 
 ### Machine Profiles in XRoar
 
@@ -163,7 +163,7 @@ In **Hardware → Cartridge** you can select different default cartridge types f
 
 - Cartridges might require corresponding BIOS files to be present for XRoar to load them correctly in `retrodeck/bios/`.
 
-<img src="../XRoar-Cartidge.png" width="250">
+<img src="../XRoar-Cartidge.png" width="250" alt="">
 
 | Option                              | Description                                                                                                                                                  |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|

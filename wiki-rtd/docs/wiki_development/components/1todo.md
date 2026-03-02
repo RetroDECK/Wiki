@@ -152,7 +152,8 @@ Create `component_manifest.json` with metadata and configuration presets. The Re
 }
 ```
 
-**Note**: The `preset_actions` are automatically handled by the RetroDECK configurator - you don't need to implement preset logic in your component scripts.
+!!! note
+    The `preset_actions` are automatically handled by the RetroDECK configurator — you don't need to implement preset logic in your component scripts.
 
 ### 6. Create Component Functions
 
@@ -280,7 +281,8 @@ To determine which libraries your component needs:
 
 5. **Add missing libraries** to your `component_recipe.json` in the `libs` section
 
-**Tip**: You can edit files directly in the Flatpak location (e.g., `/home/$USER/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/components/mycomponent`) and save in place to test changes without rebuilding everything.
+!!! tip
+    You can edit files directly in the Flatpak location (e.g., `/home/$USER/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/components/mycomponent`) and save in place to test changes without rebuilding everything.
 
 ### 10. Build and Test
 

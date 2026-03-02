@@ -1,4 +1,4 @@
----
+﻿---
 date: 2024-04-23
 ---
 
@@ -15,7 +15,7 @@ date: 2024-04-23
 
 ## Bonsai Banana 0.8.0b - Was released
 
-<img src="../../../bonsai-banana.png" width="250">
+<img src="../../../bonsai-banana.png" width="250" alt="">
 
 We thank everyone for your patience!
 
@@ -74,7 +74,7 @@ For certain ports/games it might make more sense to install them directly via:
 
 ## I don't care about any of this, I just want to add my games to Steam!
 
-<img src="../../../add-to-steam.jpg" width="150">
+<img src="../../../add-to-steam.jpg" width="150" alt="">
 
 The team is working on integrating working proof of concept version of SRM (Steam ROM Manager), BoilR or another solution within RetroDECK with functions exposed in the configurator that allow you to synchronize your favorites to Steam.
 

@@ -1,4 +1,4 @@
----
+﻿---
 date: 2024-09-06
 ---
 
@@ -17,7 +17,7 @@ date: 2024-09-06
 
 <!-- more -->
 
-<img src="../../../rd-circle.png" width="150">
+<img src="../../../rd-circle.png" width="150" alt="">
 
 
 ## Post-summer blog
@@ -30,7 +30,7 @@ Some of the things in this blog post have already been shown by SteamDeckHQ in t
 
 ---
 
-<img src="../../../disk-usage-analyzer.png" width="80">
+<img src="../../../disk-usage-analyzer.png" width="80" alt="">
 
 ## NEWS: Lighter Manifest for 0.9.0b
 
@@ -80,7 +80,7 @@ The majority of this freed space will probably be eaten up later by the new syst
 
 ---
 
-<img src="../../../godot.png" width="80">
+<img src="../../../godot.png" width="80" alt="">
 
 ## Godot Configurator
 
@@ -140,7 +140,7 @@ The goals of the new RetroDECK Configurator are the same:
 
 ### POC: RetroArch sub-menu
 
-<img src="../../../submenu-ra.png" width="750">
+<img src="../../../submenu-ra.png" width="750" alt="">
 
 This is a prototype sub-menu for RetroArch.
 
@@ -151,8 +151,8 @@ This is a prototype sub-menu for RetroArch.
 
 ### POC: Border Selection and buttons
 
-<img src="../../../buttons.png" width="450">
-<img src="../../../newbutton.webp" width="150">
+<img src="../../../buttons.png" width="450" alt="">
+<img src="../../../newbutton.webp" width="150" alt="">
 
 We want to present graphical buttons all over the Configurator.
 
@@ -179,7 +179,7 @@ But sometimes other things in life take priority (good and bad).
 
 ### Can you test it now?
 
-<img src="../../../ES-DECooker.png" width="450">
+<img src="../../../ES-DECooker.png" width="450" alt="">
 
 We have enabled the Godot Configurator in our Cooker Builds as a separate ES-DE menu entry.
 

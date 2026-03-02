@@ -1,6 +1,6 @@
-# PCSX2 - General Guide
+﻿# PCSX2 - General Guide
 
-<img src="../../../wiki_images/logos/pcsx2-logo.png" width="100">
+<img src="../../../wiki_images/logos/pcsx2-logo.png" width="100" alt="Pcsx2 logo">
 
 PCSX2 is a free and open-source PlayStation 2 (PS2) emulator.
 
@@ -8,7 +8,7 @@ PCSX2 is a free and open-source PlayStation 2 (PS2) emulator.
 
 ### PCSX2 Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -29,7 +29,7 @@ Playstation 2 games should be put under the `retrodeck/roms/ps2/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -41,7 +41,7 @@ Playstation 2 games should be put under the `retrodeck/roms/ps2/` directory.
 
 ## Does PCSX2 require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes, there exists several PS2 BIOS from different regions and hardware versions.
 
@@ -69,7 +69,7 @@ Directly into the folder
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type          | Directory                                         | Comment             |
 |:-------------:|:--------------------------------------------------|:-------------------|

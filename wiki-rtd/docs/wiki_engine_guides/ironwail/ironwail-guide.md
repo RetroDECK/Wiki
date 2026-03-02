@@ -1,6 +1,6 @@
-# Guide: Ironwail
+﻿# Guide: Ironwail
 
-<img src="../../../wiki_images/logos/quakespasm-logo.png" width="150">
+<img src="../../../wiki_images/logos/quakespasm-logo.png" width="150" alt="Quakespasm logo">
 
 Ironwail is a Quake engine fork based on QuakeSpasm.
 
@@ -10,7 +10,7 @@ Ironwail is a Quake engine fork based on QuakeSpasm.
 
 ### Ironwail Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -27,7 +27,7 @@ Ironwail Quake game files must be placed in the `retrodeck/roms/quake/ironwail/i
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -38,7 +38,7 @@ Ironwail Quake game files must be placed in the `retrodeck/roms/quake/ironwail/i
 
 ## Does Ironwail require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 No
 
@@ -74,7 +74,7 @@ Or by browsing to:
 
 ## Directory Structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type | Directory | Comment |
 |:----:|:--------------------------------------|:-----------------------------------------------|

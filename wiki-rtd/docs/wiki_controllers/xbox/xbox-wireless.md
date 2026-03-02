@@ -1,6 +1,6 @@
-## Xbox One/S/X - Xbox Wireless Controller
+﻿## Xbox One/S/X - Xbox Wireless Controller
 
-<img src="../../../wiki_images/controllers/xbox-wireless.png" width="250">
+<img src="../../../wiki_images/controllers/xbox-wireless.png" width="250" alt="">
 
 The Xbox Wireless controller for the Xbox One S and X, released on August 2, 2016, is an updated version of the original Xbox One controller. It features Bluetooth connectivity, a 3.5mm audio jack, and several design improvements for better ergonomics and functionality. 
 

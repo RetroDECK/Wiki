@@ -1,6 +1,6 @@
-# RetroDECK: Flatpak Directory Structure
+﻿# RetroDECK: Flatpak Directory Structure
 
-<img src="../../../wiki_icons/pixelitos/Directory-red-games.png" width="75">
+<img src="../../../wiki_icons/pixelitos/Directory-red-games.png" width="75" alt="">
 
 RetroDECK is a Flatpak - a sandboxed bundle containing applications, configurations, and supporting files.  
 

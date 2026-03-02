@@ -1,6 +1,6 @@
-# RetroENGINE: Run with RetroDECK
+﻿# RetroENGINE: Run with RetroDECK
 
-<img src="../../../wiki_icons/retrodeck/icon-engine.svg" width="75">
+<img src="../../../wiki_icons/retrodeck/icon-engine.svg" width="75" alt="">
 
 `RetroENGINE` lets you launch games directly from your desktop using RetroDECK - no need to open the full application.
 
@@ -32,13 +32,13 @@ You can also launch games directly with RetroENGINE via CLI.
 
 ## Examples
 
-<img src="../littlemedusa.png" width="300"> 
+<img src="../littlemedusa.png" width="300" alt=""> 
 
 In these examples, we will use the [Little Medusa - Demo](https://megacatstudios.com/pages/little-medusa) a `.nes` file called `LittleMedusa_8bitdemo.nes` from Mega Cat Studios.
 
 ### Example 1:  The Game Inside the Correct Roms Folder
 
-<img src="../re-infolder.png" width="300"> 
+<img src="../re-infolder.png" width="300" alt=""> 
 
 In this example, the `LittleMedusa_8bitdemo.nes` file is inside the `retrodeck/roms/nes` folder. 
 
@@ -48,7 +48,7 @@ RetroDECK knows that because you opened it from the `/roms/nes` folder, the game
 
 ### Example 2: The Game Outside the Roms Folder
 
-<img src="../re-nonedir.png" width="500"> 
+<img src="../re-nonedir.png" width="500" alt=""> 
 
 In this example, the `LittleMedusa_8bitdemo.nes` file is not inside the `retrodeck/roms/nes` folder but in the `download` folder. 
 

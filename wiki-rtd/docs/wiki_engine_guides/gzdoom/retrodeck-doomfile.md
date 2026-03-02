@@ -1,6 +1,6 @@
-# The .doom file
+﻿# The .doom file
 
-<img src="../../../wiki_images/logos/gzdoom-logo.png" width="75">
+<img src="../../../wiki_images/logos/gzdoom-logo.png" width="75" alt="Gzdoom logo">
 
 The `.doom` file is a feature for easy loading of DOOM files with mods. It is based on the work done by [AmberELEC .doom](https://amberelec.org/systems/doom.html) and others, with additional improvements made by RetroDECK.
 
@@ -203,7 +203,7 @@ Then you can just type the name as normal into the file.
 
 ## Adding .doom Files to Steam 
 
-<img src="../../../wiki_system_guides/srm/brutaldoom.png" width="800">
+<img src="../../../wiki_system_guides/srm/brutaldoom.png" width="800" alt="">
 
 You can use the built-in `Steam Sync` function to add .doom files as separate games in Steam with art.
 

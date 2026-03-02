@@ -1,6 +1,6 @@
-# Dance Pads
+﻿# Dance Pads
 
-<img src="../../../wiki_images/controllers/dance-pad.png" width="250">
+<img src="../../../wiki_images/controllers/dance-pad.png" width="250" alt="">
 
 Used by many `Dance Games` over many different systems most famous is the `Dance Dance Revolution` series.
 

@@ -29,9 +29,8 @@ If you want to test RC builds you need to read the:
 
 🔗 Link: [Testing Guide](https://retrodeck.readthedocs.io/en/latest/wiki_development/testing/retrodeck-testing/)
 
- **Note**
-
- The `org.kde.Platform` runtime has been upgraded. Depending on your system configuration, you may need to manually install version **6.10** to use Release Candidate (RC) builds:
+!!! note
+    The `org.kde.Platform` runtime has been upgraded. Depending on your system configuration, you may need to manually install version **6.10** to use Release Candidate (RC) builds:
 
 ```
  flatpak install org.kde.Platform

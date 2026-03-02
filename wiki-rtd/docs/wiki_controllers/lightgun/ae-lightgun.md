@@ -1,6 +1,6 @@
-# AE Lightgun
+﻿# AE Lightgun
 
-<img src="../../../wiki_images/controllers/lightgun-aelightgun.png" width="250">
+<img src="../../../wiki_images/controllers/lightgun-aelightgun.png" width="250" alt="">
 
 [AE Lightgun Website](https://www.aelightgun.com/)
 

@@ -1,6 +1,6 @@
-# Drawsome Tablet
+﻿# Drawsome Tablet
 
-<img src="../../../wiki_images/controllers/drawsome-tablet.png" width="250">
+<img src="../../../wiki_images/controllers/drawsome-tablet.png" width="250" alt="">
 
 Used for the Ubisoft games `Drawsome! Artist` & `Drawsome! Sketch Quest` for the Wii.
 

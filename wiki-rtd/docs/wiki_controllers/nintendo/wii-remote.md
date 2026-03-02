@@ -1,6 +1,6 @@
-# Wii Remote (Wiimote) & Nunchuck
+﻿# Wii Remote (Wiimote) & Nunchuck
 
-<img src="../../../wiki_images/controllers/wii-mote.png" width="250"><img src="../../../wiki_images/controllers/wii-nunchuck.png" width="250">
+<img src="../../../wiki_images/controllers/wii-mote.png" width="250" alt=""><img src="../../../wiki_images/controllers/wii-nunchuck.png" width="250" alt="">
 
 
 The Wiimote, released on November 19, 2006, is the primary game controller for Nintendo's Wii home video game console. It features motion sensing technology, including an accelerometer and infrared sensor, allowing players to interact with games through physical gestures and pointing. The Wiimote has undergone several revisions, including the addition of Wii MotionPlus in 2009, which enhances the accuracy and precision of the motion sensing capabilities.
@@ -58,7 +58,7 @@ RetroDECK has a built-in hotkey for pressing the Dolphin `Sync Wiimote` button (
 
 ## Dolphin: Hardware Prerequisites
 
-<img src="../../../wiki_images/devices/wii-bar.png" width="150"> <img src="../../../wiki_images/devices/bluetooth-dongle.png" width="80">
+<img src="../../../wiki_images/devices/wii-bar.png" width="150" alt=""> <img src="../../../wiki_images/devices/bluetooth-dongle.png" width="80" alt="">
 
 - A Wii Sensor Bar alternative (wireless or wired).
 - A Linux compatible Bluetooth dongle or built-in Bluetooth adapter.

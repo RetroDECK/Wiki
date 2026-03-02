@@ -1,6 +1,6 @@
-# DK Bongos
+﻿# DK Bongos
 
-<img src="../../../wiki_images/controllers/dk-bongos.png" width="250">
+<img src="../../../wiki_images/controllers/dk-bongos.png" width="250" alt="">
 
 Used by the game `Donkey Konga` on the GameCube.
 

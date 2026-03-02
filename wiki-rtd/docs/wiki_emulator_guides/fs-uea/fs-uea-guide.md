@@ -1,6 +1,6 @@
-# Guide: FS-UEA
+﻿# Guide: FS-UEA
 
-<img src="../../../wiki_images/logos/fs-uae-logo.png" width="150">
+<img src="../../../wiki_images/logos/fs-uae-logo.png" width="150" alt="Fs Uae logo">
 
 FS-UEA is a Amiga emulator.
 
@@ -10,7 +10,7 @@ FS-UEA is a Amiga emulator.
 
 ### FS-UEA Links
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35">
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
@@ -34,7 +34,7 @@ Amiga games should be put under the `retrodeck/roms/amiga/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 
 | File Format | Description |
@@ -45,7 +45,7 @@ Amiga games should be put under the `retrodeck/roms/amiga/` directory.
 
 ## Does FS-UEA require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes, other Kickstart files can be used, but the following are recommended by the official website:
 
@@ -73,7 +73,7 @@ Yes, other Kickstart files can be used, but the following are recommended by the
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|

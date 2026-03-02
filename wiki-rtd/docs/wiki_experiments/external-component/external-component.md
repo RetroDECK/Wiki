@@ -1,9 +1,9 @@
-# Adding an External Component 
+﻿# Adding an External Component 
 
 W.I.P
 
 
-<img src="../dolphin-result.png" width="800">
+<img src="../dolphin-result.png" width="800" alt="">
 
 
 ### Disclaimer on Experiments 
@@ -14,7 +14,7 @@ These experiments are created by the RetroDECK Team and/or Community. The guides
 
 ### Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

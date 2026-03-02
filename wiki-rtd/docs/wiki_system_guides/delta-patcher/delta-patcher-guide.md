@@ -1,6 +1,6 @@
-# Delta Patcher - General Guide
+﻿# Delta Patcher - General Guide
 
-<img src="../../../wiki_images/logos/delta-patcher-logo.png" width="75">
+<img src="../../../wiki_images/logos/delta-patcher-logo.png" width="75" alt="Delta Patcher logo">
 
 **Delta Patcher** is a system that is able to create and apply `.xdelta` patches.
 
@@ -10,7 +10,7 @@ You will find Delta Patcher inside the RetroDECK Configurator as its own compone
 
 **Read more:** [What are ROM Hacks?](../../wiki_general/what-are-romhacks.md)
 
-<img src="../delta-patcher-gui.png" width="300">
+<img src="../delta-patcher-gui.png" width="300" alt="">
 
 ---
 
@@ -26,7 +26,7 @@ You will find Delta Patcher inside the RetroDECK Configurator as its own compone
 
 ## Applying a Patch
 
-<img src="../delta-patcher-patch.png" width="600">
+<img src="../delta-patcher-patch.png" width="600" alt="">
 
 1. **Back up the clean, original ROM** before making any modifications (enable backups in ⚙️ Settings or back up manually).
 2. Select the clean, unmodified ROM.
@@ -39,7 +39,7 @@ You will find Delta Patcher inside the RetroDECK Configurator as its own compone
 
 ## Creating a Patch
 
-<img src="../delta-patcher-create.png" width="600">
+<img src="../delta-patcher-create.png" width="600" alt="">
 
 1. Switch to **Create Patch Mode** in the Delta Patcher window.
 2. Select the original, unmodified ROM.

@@ -1,6 +1,6 @@
-# Reiki / レイキ / 霊姫 / 灵姬 the Cyber Shark 
+﻿# Reiki / レイキ / 霊姫 / 灵姬 the Cyber Shark 
 
-<img src="../../wiki_icons/svgrepo/donate.svg" width="100">
+<img src="../../wiki_icons/svgrepo/donate.svg" width="100" alt="">
 
 ---
 

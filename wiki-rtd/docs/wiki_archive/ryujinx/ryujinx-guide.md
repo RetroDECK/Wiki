@@ -1,6 +1,6 @@
-# Ryujinx - General Guide (Archive)
+﻿# Ryujinx - General Guide (Archive)
 
-<img src="../../../wiki_images/logos/ryujinx-logo.svg" width="75">
+<img src="../../../wiki_images/logos/ryujinx-logo.svg" width="75" alt="Ryujinx logo">
 
 Ryujinx was a Switch emulator. 
 
@@ -14,7 +14,7 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -27,7 +27,7 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 ## Does Ryujinx require BIOS or Firmware?
 
-<img src="../../../wiki_icons/pixelitos/cpu.png" width="35">
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
 Yes, `prod.keys` `title.keys` and `.nca` files.
 
@@ -64,7 +64,7 @@ Or you can put them anywhere as they need to be installed via:
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type    | Folder                 |          Comment     | 
 |  :---:  | :---:                  |             :---:     |

@@ -1,14 +1,5 @@
 /* ================================================================
    RetroDECK Wiki — WCAG 2.2 Accessibility Fixes
-   File: docs/stylesheets/extra.css
-
-   Issues addressed:
-     1.4.10  Reflow               — wide-table horizontal scroll
-     2.4.7   Focus Visible        — robust focus ring (keyboard only)
-     2.4.11  Focus Not Obscured   — scroll-padding for sticky header
-     2.4.12  Focus Not Obscured   — (Enhanced, AAA) same rule covers it
-     1.4.12  Text Spacing         — nav items tolerate spacing overrides
-     2.5.8   Target Size (Min)    — inline link touch/click target size
    ================================================================ */
 
 /* ---------------------------------------------------------------

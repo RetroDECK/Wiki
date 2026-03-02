@@ -8,11 +8,14 @@
    320 CSS px viewport width (e.g. 400% browser zoom on 1280px).
    Wrapped tables scroll independently — viewport remains single-axis.
 --------------------------------------------------------------- */
-.md-typeset__table,
-.md-typeset table:not([class]) {
-  display: block;
+.md-typeset__table {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+.md-typeset__table table {
+  width: max-content;     /* prevents small tables from stretching */
+  min-width: 100%;        /* ensures wide tables can scroll */
 }
 
 /* ---------------------------------------------------------------

@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="wiki_images/logos/rd-esde-logo.svg" alt="RetroDECK logo" width="550"/>
+  <img src="wiki_images/logos/rd-logo-box.png" alt="RetroDECK Logo" width="550"/>
 </p>
 
 # **The RetroDECK Wiki**

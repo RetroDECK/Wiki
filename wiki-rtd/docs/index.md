@@ -1,19 +1,16 @@
-﻿# The RetroDECK Wiki
+﻿<p align="center">
+  <img src="wiki_images/logos/rd-esde-logo.svg" alt="RetroDECK logo" width="550"/>
+</p>
 
-<img src="wiki_images/logos/rd-esde-logo.svg" width="500" alt="Rd Esde logo">
-
-![Flathub](https://img.shields.io/flathub/downloads/net.retrodeck.retrodeck)
-![Flathub](https://img.shields.io/flathub/v/net.retrodeck.retrodeck)
-![GitHub](https://img.shields.io/github/license/XargonWan/RetroDECK)
-
----
-
-## Welcome to the RetroDECK Wiki
+# **The RetroDECK Wiki**
 
 This wiki provides clear, comprehensive documentation to help you install, configure, and get the most out of **RetroDECK**.
 
 Use the sections below to quickly find what you need or use the left-hand panel to explore the all of the content.
 
+![Flathub](https://img.shields.io/flathub/downloads/net.retrodeck.retrodeck)
+![Flathub](https://img.shields.io/flathub/v/net.retrodeck.retrodeck)
+![GitHub](https://img.shields.io/github/license/XargonWan/RetroDECK)
 
 ---
 

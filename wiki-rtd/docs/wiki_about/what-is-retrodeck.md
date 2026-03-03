@@ -1,6 +1,6 @@
 # What is RetroDECK?
 
-<img src="../../wiki_images/logos/rd-esde-logo.svg" width="400" alt="RetroDECK and ES-DE logo">
+<img src="../../wiki_images/logos/rd-logo-box.png" width="400" alt="RetroDECK and ES-DE logo">
 
 For a quick overview check the website.
 

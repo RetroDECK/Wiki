@@ -1,6 +1,6 @@
 ﻿# Easter Egg Boot Splash Function
 
-<img src="../../../../wiki_images/logos/rd-esde-logo.svg" width="300" alt="Rd Esde logo">
+<img src="../../../../wiki_images/logos/rd-logo-box.png" width="300" alt="Rd Esde logo">
 
 ## Main splash location
 

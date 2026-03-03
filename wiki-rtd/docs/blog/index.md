@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="rd-blog-logo.svg" alt="RetroDECK blog logo" width="550"/>
+  <img src="rd-blog-logo.png" alt="RetroDECK blog logo" width="550"/>
 </p>
 
 # **The RetroDECK Blog** 

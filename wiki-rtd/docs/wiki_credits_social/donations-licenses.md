@@ -69,10 +69,9 @@ Examples include:
 | Component                 | Logo                                                                  | Description                                                                                         | Donate / Support                                                                                           | Licenses                                                                 |
 |---------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | **ES-DE Frontend**        | <img src="../../wiki_images/logos/es-de-logo.png" width="75" alt="Es De logo">         | A frontend for browsing and launching games from your multi-platform game backup collection.        | [Patreon: Android App](https://www.patreon.com/es_de/)                                                    | [License](https://gitlab.com/es-de/emulationstation-de/-/blob/master/LICENSE) [Licenses](https://gitlab.com/es-de/emulationstation-de/-/tree/master/licenses) |
-| **Flatpak**               | <img src="../../wiki_images/logos/flatpak-logo.svg" width="95" alt="Flatpak logo">       | As a flatpak we are nothing without the technology.                                                  | [Flathub Donate](https://flathub.org/donate) | - |
 | **PortMaster**            | <img src="../../wiki_images/logos/portmaster-logo.png" width="75" alt="Portmaster logo">    | Your Ultimate Linux Port Manager.                                                                    | [Patreon](https://opencollective.com/portmaster)                                                           | [Licenses](https://github.com/PortsMaster/PortMaster-New?tab=MIT-1-ov-file#readme) |
 | **Steam Rom Manager (SRM)** | <img src="../../wiki_images/logos/srm-logo.png" width="75" alt="Srm logo">          | Makers of Steam Rom Manager and SteamGridDB.                                                         | [Open Collective](https://www.patreon.com/steamgriddb)                                                    | [Licenses](https://github.com/SteamGridDB/steam-rom-manager?tab=GPL-3.0-1-ov-file#readme) |
-| **Wine**                  | <img src="../../wiki_images/logos/wine-logo.png" width="75" alt="Wine logo">          | Wine compatibility layer.                                                                            | [Wine Development Fund](https://www.winehq.org/donate)                                                    | [Licenses](https://gitlab.winehq.org/wine) |
+| **Flips** | <img src="../../wiki_images/logos/flips-logo.png" width="75" alt="Srm logo">          | Makers of Steam Rom Manager and SteamGridDB.                                                         |No donation link available or donations not supported.                                                    | GPL3 |
 
 
 
@@ -132,8 +131,18 @@ Examples include:
 | **Mudlet** *(Not yet in RetroDECK)* | <img src="../../wiki_images/logos/mudlet-logo.svg" width="75" alt="Mudlet logo"> | MUD client for playing text-based online games. | [Contribute](https://www.mudlet.org/contribute) |  [Licenses](https://github.com/Mudlet/Mudlet?tab=GPL-2.0-1-ov-file#readme) |
 
 
+---
+
+## Architecture 
+
+| Component | Logo | Description | Donate / Support | Licenses |
+|----------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| **Flatpak**               | <img src="../../wiki_images/logos/flatpak-logo.svg" width="95" alt="Flatpak logo">       | As a flatpak we are nothing without the technology.                                                  | [Flathub Donate](https://flathub.org/donate) | - |
+| **Wine**                  | <img src="../../wiki_images/logos/wine-logo.png" width="75" alt="Wine logo">          | Wine compatibility layer.                                                                            | [Wine Development Fund](https://www.winehq.org/donate)                                                    | [Licenses](https://gitlab.winehq.org/wine) |
+
 
 ---
+
 
 ## Art and Assets
 
@@ -197,5 +206,6 @@ These components cannot be added to RetroDECK, but we want to recognize their wo
 | Component | Description | Donate / Support | Licenses / Info |
 |----------|-------------|------------------|------------------|
 | **Prism Launcher** | <img src="../../wiki_images/logos/prismlauncher-logo.png" width="75" alt="Prismlauncher logo"> | Open-source Minecraft Launcher. |  [Donate](https://opencollective.com/prismlauncher) |  [Licenses](https://github.com/PrismLauncher/PrismLauncher/blob/develop/LICENSE) |
+
 
 

@@ -44,7 +44,7 @@ If such a purchase is ever necessary, we will **always consult the community bef
 
 Examples include:
 
-- **Gaming handhelds** - e.g., Steam Deck, ROG Ally, and similar devices.
+- **Gaming handhelds** - Steam Deck, ROG Ally, and similar devices.
 - **Controllers** - major-brand and niche models for compatibility testing and profile creation.
 - **Special peripherals** - light guns, racing wheels, X-Arcade cabinets, V-Boards, accessibility controllers, rhythm controllers, etc.
 
@@ -135,14 +135,22 @@ Examples include:
 
 ## Architecture 
 
-| Component | Logo | Description | Donate / Support | Licenses |
-|----------------|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| **Flatpak**               | <img src="../../wiki_images/logos/flatpak-logo.svg" width="95" alt="Flatpak logo">       | As a flatpak we are nothing without the technology.                                                  | [Flathub Donate](https://flathub.org/donate) | - |
-| **Wine**                  | <img src="../../wiki_images/logos/wine-logo.png" width="75" alt="Wine logo">          | Wine compatibility layer.                                                                            | [Wine Development Fund](https://www.winehq.org/donate)                                                    | [Licenses](https://gitlab.winehq.org/wine) |
+| Component                | Description                                                                 | Donate / Support                                              | Licenses |
+|--------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------------|----------|
+| **dxvk**                 | Vulkan-based implementation of D3D8, 9, 10 and 11 for Linux / Wine.        | -                                                             | [Licenses](https://github.com/doitsujin/dxvk) |
+| **Flatpak**              | As a flatpak we are nothing without the technology.                         | [Flathub Donate](https://flathub.org/donate)                 | [Licenses](https://github.com/flatpak/flatpak?tab=LGPL-2.1-1-ov-file#readme) |
+| **GameScope**            | Valves session compositing window manager.                                  | -                                                             | [Licenses](https://github.com/ValveSoftware/gamescope?tab=License-1-ov-file#readme) |
+| **Godot Engine**         | Multi-platform 2D and 3D game engine.                                        | [Godot Donate](https://godotengine.org/donate/)              | [Licenses](https://github.com/mdqinc/SDL_GameControllerDB) |
+| **InputPlumber**         | Open source input router and remapper daemon for Linux.                     | -                                                             | [Licenses](https://github.com/ShadowBlip/InputPlumber) |
+| **OpenGamePadUI**        | Open source gamepad-native game launcher and overlay.                       | -                                                             | [Licenses](https://github.com/ShadowBlip/OpenGamepadUI?tab=GPL-3.0-1-ov-file#readme) |
+| **Proton**               | Valves compatibility tool.                                                  | -                                                             | [Licenses](https://github.com/ValveSoftware/Proton/blob/proton_9.0/LICENSE) |
+| **SDL_GameControllerDB** | A community sourced database of game controller mappings for SDL Game Controller functionality. | - | [Licenses](https://github.com/mdqinc/SDL_GameControllerDB) |
+| **umu-launcher**         | Unified launcher for Windows games on Linux.                                | -                                                             | [Licenses](https://github.com/Open-Wine-Components/umu-launcher?tab=GPL-3.0-1-ov-file#readme) |
+| **Wine**                 | Wine compatibility layer.                                                   | [Wine Development Fund](https://www.winehq.org/donate)      | [Licenses](https://gitlab.winehq.org/wine) |
+
 
 
 ---
-
 
 ## Art and Assets
 
@@ -158,26 +166,16 @@ Examples include:
 | **Pixelitos**                              | Pixel-based icon theme.                                                                            | -                                                                                                         |  [Licenses](https://github.com/ItzSelenux/pixelitos-icon-theme/blob/main/LICENSE) |
 | **SVG Repo**                               | Asset repository of SVG graphics.                                                                  |  [Website](https://www.svgrepo.com/)                                                                       | Various                                                  |
 
-
 ---
 
-## Other Licenses & Credits
+## Components: Legacy 
 
-Things we use or have taken inspiration from or use.
-
-| Item                     | Description                                                                                                                                                                                                                                                                          | Source / Donate                            | Licenses                                                                                     |
-|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|----------------------------------------------------------------------------------------------|
-| **Batocera**             | Open-source retro OS referenced for ideas.                                                                                                                                                                                                                                            | -                                           | [Licenses](https://github.com/batocera-linux/batocera.linux?tab=License-1-ov-file#readme)    |
-| **Lutris**               | Linux game management platform referenced for inspiration.                                                                                                                                                                                                                            | -                                           | [Licenses](https://github.com/lutris/lutris/blob/master/LICENSE)                             |
-| **Other Trademarks**     | All trademarks, logos, controller images, and brand names referenced in this project are the property of their respective owners. Use is for identification/descriptive purposes only and does not imply any affiliation, sponsorship, or endorsement from the respective holders.       | -                                           | Trademark notice (Various)                                                                   |
-| **Pugsy's Cheats for MAME** | MAME cheat database.                                                                                                                                                                                                                                                                | [Website](https://www.mamecheat.co.uk/)     | -                                                                                            |
-| **Steam Deck & Logo**    | The Steam Deck device and associated logos are trademarks or registered trademarks of Valve Corporation. RetroDECK is an independent project and is not affiliated with, endorsed by, or sponsored by Valve Corporation.                                                               | -                                           | Trademark notice (Valve Corporation)                                                         |
-| **Zulip**             | Zulip is an organized team chat app designed for efficient communication. ideas.                               |   [Website](https://zulip.com/)      | Zulip is sponsoring RetroDECK's Zulip instance a big thanks to the Zulip Team    |
+| Component | Logo | Description | Donate / Support | Licenses |
+|----------|-------|-------------|------------------|----------|
+| **DuckStation (Legacy)** | <img src="../../wiki_images/logos/duckstation-logo.png" width="75" alt="Duckstation logo"> | A PS1 simulator/emulator focused on accuracy, speed, and long-term maintainability. Was marked as legacy due to licensing changes. | No donation link available or donations not supported. |  [Licenses](https://github.com/stenzek/duckstation/blob/master/LICENSE) |
 
 
 ---
-
-
 
 ## Components: Proprietary / Closed Source 
 
@@ -188,24 +186,31 @@ These components cannot be added to RetroDECK, but we want to recognize their wo
 | **3DSen** | NES emulator that transforms classic and homebrew games into full 3D experiences. |  [Website](https://geodstudio.net/) | - |
 | **BigPEmu** | First Atari Jaguar emulator with full retail library compatibility, high performance, and unique features. | [Patreon](https://www.patreon.com/richwhitehouse)  [Website](https://www.richwhitehouse.com/jaguar/) |  [BigPEmu FAQ](https://www.richwhitehouse.com/jaguar/index.php?content=faq) |
 | **ReDream** | Sega Dreamcast emulator. |  [Website](https://redream.io/)   [Premium Upgrade](https://redream.io/premium) | - |
-
-
----
-
-## Components: Legacy 
-
-| Component | Logo | Description | Donate / Support | Licenses |
-|----------|-------|-------------|------------------|----------|
-| **DuckStation** | <img src="../../wiki_images/logos/duckstation-logo.png" width="75" alt="Duckstation logo"> | A PS1 simulator/emulator focused on accuracy, speed, and long-term maintainability. | No donation link available or donations not supported. |  [Licenses](https://github.com/stenzek/duckstation/blob/master/LICENSE) |
-
+| **DREAMM** | DREAMM is a emulator for LucasArts, Lucasfilm, and Lucas Learning games. . |  [Website](https://dreamm.aarongiles.com/)   [Donate](https://ko-fi.com/aaronsgiles) | - |
 
 ---
 
-## Software we like 
+## Other:  Software we like 
 
 | Component | Description | Donate / Support | Licenses / Info |
 |----------|-------------|------------------|------------------|
 | **Prism Launcher** | <img src="../../wiki_images/logos/prismlauncher-logo.png" width="75" alt="Prismlauncher logo"> | Open-source Minecraft Launcher. |  [Donate](https://opencollective.com/prismlauncher) |  [Licenses](https://github.com/PrismLauncher/PrismLauncher/blob/develop/LICENSE) |
 
+---
+
+## Other: Licenses & Credits
+
+Things we use or have taken inspiration from or use.
+
+| Item                     | Description                                                                                                                                                                                                                                                                          | Source / Donate                            | Licenses                                                                                     |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|----------------------------------------------------------------------------------------------|
+| **Batocera**             | Open-source retro OS referenced for ideas.                                                                                                                                                                                                                                            | -                                           | [Licenses](https://github.com/batocera-linux/batocera.linux?tab=License-1-ov-file#readme)    |
+| **Lutris**               | Linux game management platform referenced for inspiration.                                                                                                                                                                                                                            | -                                           | [Licenses](https://github.com/lutris/lutris/blob/master/LICENSE)                             |
+| **Other Trademarks**     | All trademarks, logos, controller images, and brand names referenced in this project are the property of their respective owners. Use is for identification/descriptive purposes only and does not imply any affiliation, sponsorship, or endorsement from the respective holders.       | -                                           | Trademark notice (Various)                                                                   |
+| **Pugsy's Cheats for MAME** | MAME cheat database.                                                                                                                                                                                                                                                                | [Website](https://www.mamecheat.co.uk/)     | -                                                                                            |
+| **Steam Deck & Logo**    | The Steam Deck device and associated logos are trademarks or registered trademarks of Valve Corporation. RetroDECK is an independent project and is not affiliated with, endorsed by, or sponsored by Valve Corporation.                                                               | -                                           | Trademark notice (Valve Corporation)                                                         |
+| **Zulip**             | Zulip is an organized team chat app designed for efficient communication. ideas.                               |   [Website](https://zulip.com/)      | Zulip did sponsoring of RetroDECK's Zulip instance for a try out a big thanks to the Zulip Team    |
+
+---
 
 

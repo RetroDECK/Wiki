@@ -129,6 +129,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **What software is included in RetroDECK?** | See: **[RetroDECK: What’s Included?](../wiki_about/what-is-included.md)** |
 | **Does RetroDECK include any games?** | No, RetroDECK does not include any games. |
 | **Does RetroDECK include Firmware or BIOS files?** | RetroDECK only includes BIOS/Firmware that are **Open-Source** or **Free to use**. All other files must be provided by the user. |
+| **Do you provide support for older RetroDECK versions?** | No. RetroDECK only supports the **latest released version**. Please update to the most recent version before requesting support. |
 | **Can you point me to where I can find games, firmware, or BIOS?** | For legally purchased titles, use your own game backups and extract firmware/BIOS from your own consoles. Many classic games can also be purchased through **itch.io**, **GOG**, or **Steam**. In addition, several **free and open-source games** are available and can be used, such as **Freedoom**. Numerous other open-source, homebrew titles and fangames are available through community repositories and project websites. |
 | **When does the next RetroDECK version come out?** | When it’s ready. |
 | **When does the version after the upcoming version come out?** | After the upcoming version. |

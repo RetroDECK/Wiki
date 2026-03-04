@@ -68,7 +68,7 @@ With the updated publication pipeline, that number will increase to **four**.
 
 *A user who cultivates refined taste and appreciation, eager to savor even the smallest preview of the latest culinary experiences, an apéritif of what is yet to come.*
 
-**RetroDECK Epicure** is a new testing branch designed to bridge the gap between the Cooker and Stable releases by leveraging the `flathub.beta` repository intended for testing users..
+**RetroDECK Epicure** is a new testing branch designed to bridge the gap between the Cooker and Stable releases by leveraging the `flathub.beta` repository intended for testing users.
 
 Installation and updates are streamlined: users simply install RetroDECK Epicure from the `flathub.beta` repository. Updates are then delivered automatically through Flathub via your software center, such as Discover, Bazaar, or GNOME Software.
 

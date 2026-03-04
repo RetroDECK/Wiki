@@ -95,7 +95,7 @@ Epicure follows a automatic biweekly release schedule.
 
 Countertop excludes the standard bundled components, providing a lightweight environment for experimentation and integration work. It serves as a practical sandbox for developers who wish to prototype and test new components within the RetroDECK ecosystem without repeatedly downloading the full suite of packages.
 
-This streamlined configuration enables faster iteration and more focused development within the RetroDECK Retro Gaming Platform.
+This streamlined configuration enables faster iteration and more focused development within the RetroDECK *Retro Gaming Platform*
 
 ---
 

@@ -60,25 +60,42 @@ With the updated publication pipeline, that number will increase to **four**.
 
 ---
 
-## RetroDECK Epicure
+### RetroDECK Epicure
 
 <img src="../rd-epicure-icon.svg" width="75" alt="RetroDECK Countertop Icon"> <img src="../rd-epicure-configurator.svg" width="75" alt="RetroDECK Countertop Configurator Icon"> 
 
-**Epicure**  
+**Epicure**
 
-*A person who cultivates refined taste and appreciation, eager to savor even the smallest preview of the latest culinary experiences, an apéritif of what is yet to come.*
+*A user who cultivates refined taste and appreciation, eager to savor even the smallest preview of the latest culinary experiences, an apéritif of what is yet to come.*
+
+**RetroDECK Epicure** is a new testing branch designed to bridge the gap between the Cooker and Stable releases by leveraging the `flathub.beta` repository intended for testing users..
+
+Installation and updates are streamlined: users simply install RetroDECK Epicure from the `flathub.beta` repository. Updates are then delivered automatically through Flathub via your software center, such as Discover, Bazaar, or GNOME Software.
+
+Unlike Cooker, which focuses on bleeding-edge changes and new features. Epicure is built on the Stable branch while automatically integrating the latest pre-release or unstable builds of individual components.
+
+This approach provides testing users with access to newer component versions while maintaining a reliable and stable base system. However, if a component introduces major changes, automatic builds may temporarily break for that component until addressed in a subsequent Epicure update.
+
+Epicure has a dual purpose: to satisfy users who prefer more bleeding-edge, less stable component versions, and to expand the tester base to identify and report issues earlier in the release cycle before they reach the Stable branch.
+
+Epicure follows a automatic biweekly release schedule.
 
 ---
 
 
-## RetroDECK Countertop
+### RetroDECK Countertop
 
 <img src="../rd-countertop-icon.svg" width="75" alt="RetroDECK Countertop Icon"> <img src="../rd-countertop-configurator.svg" width="75" alt="RetroDECK Countertop Configurator Icon"> 
 
-**Countertop**  
+**Countertop**
 
 *A self-directed chef. One who brings their own ingredients, crafts their own masterpiece, and refines their recipe with the ambition of one day contributing to the final buffet.*
 
+**RetroDECK Countertop** is a development branch based on Cooker and intended for developers. It is a minimal, stripped-down build of RetroDECK that includes the RetroDECK Framework, ES-DE, and a set of development tools.
+
+Countertop excludes the standard bundled components, providing a lightweight environment for experimentation and integration work. It serves as a practical sandbox for developers who wish to prototype and test new components within the RetroDECK ecosystem without repeatedly downloading the full suite of packages.
+
+This streamlined configuration enables faster iteration and more focused development within the RetroDECK Retro Gaming Platform.
 
 ---
 

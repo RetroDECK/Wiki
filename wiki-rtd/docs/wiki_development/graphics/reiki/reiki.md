@@ -27,9 +27,15 @@ The initial internal concept was a cyborg cat. However, the idea was considered 
 
 This led to exploring retro-inspired mascot designs, aiming for a character that could represent the project globally across its various components. During this phase, the concept evolved into a “retro genie” style mascot, inspired by classic characters such as the Game Genie.
 
-In 2022, discussions between Tyson Tan and a team member planted the seed for a new direction, though scheduling constraints delayed progress. Over the following years, dialogue continued, ultimately leading to a revised concept that combined both the cyber aspect of the cat and the retro cheat mascot elements from earlier Game Genie-inspired ideas, culminating in Reiki the Cyber Shark.
+In the end of 2022, discussions between Tyson Tan and a team member planted the star that would become the seed for a new direction, though scheduling constraints delayed progress. Over the following years, dialogue continued and new ideas emerged, ultimately leading to a revised concept suggested by Tyson that combined both the cyber aspect of the cat and the retro cheat mascot elements from earlier Game Genie-inspired ideas, culminating in Reiki the Cyber Shark as a riff on "Game Shark."
 
-Reiki serves as a tribute and love to RetroDECK's component modularity, retro gaming culture, modding, romhacks, game cheat codes, and the broader spirit of playful innovation.
+Reiki serves as a tribute to RetroDECK's component modularity, as well as:
+
+- Retro gaming culture
+- Modding & ROM hacks 
+- Game cheat codes 
+
+and celebrates the broader spirit of playful innovation.
 
 ---
 

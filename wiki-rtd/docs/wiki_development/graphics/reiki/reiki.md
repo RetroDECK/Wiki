@@ -10,7 +10,7 @@
 
 Her most distinctive feature is her component based **modular dorsal fin system**.
 
-Reiki uses her **dorsal fin slot** allowing her to swap **component-fins** depending on the task at hand. Each **component-fin-module** changes both her **appearance** and **abilities**, effectively giving her a "loadout change" for every adventure.
+Reiki uses her **dorsal fin slot** allowing her to swap **component-fins** depending on the task at hand. Each **component-fin-module** changes both her **appearance** and **abilities**, effectively giving her a *loadout change* for every mission.
 
 - UZDoom component? *Rip and tear, until it is done 🦈!*
 

@@ -6,9 +6,11 @@
 
 ## What is Reiki? 
 
-Reiki is a Gaming Cyber Shark, a true shark of games.
+**Reiki** is a gaming cyber shark, a true shark of games and the official mascot of the **RetroDECK Project**.  
 
-Her main feature is the modular dorsal fin, that she swaps to load the component she needs, **transforming her abilities and look** in an instant. 
+Her most distinctive feature is her component based **modular dorsal fin system**.
+
+Reiki uses her **dorsal fin slot** allowing her to swap **component-fins** depending on the task at hand. Each **component-fin-module** changes both her **appearance** and **abilities**, effectively giving her a "loadout change" for every adventure.
 
 - UZDoom component? *Rip and tear, until it is done 🦈!*
 

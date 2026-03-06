@@ -4,6 +4,35 @@
 
 ---
 
+## Tyson Tan - Creator
+
+Check out the portfolio:
+
+- [Tyson Tan](https://tysontan.com/)
+- [Creative Commons BY-SA License](https://creativecommons.org/licenses/by-sa/4.0/)
+
+---
+
+## Why create a mascot?
+
+From its earliest stages, the project aimed to include a mascot as a core part of its identity. This goal was established as one of the pillars defining the vision for a 1.0 release and was given equal importance alongside other major features, such as cloud synchronization.
+
+The concept also reflects the project's blend of Western and Asian influences, which helped shape the decision to create Reiki.
+
+---
+
+### Early Concepts and Goals
+
+The initial internal concept was a cyborg cat. However, the idea was considered too generic, and the team sought to collaborate with an artist to develop a more distinctive character.
+
+This led to exploring retro-inspired mascot designs, aiming for a character that could represent the project globally across its various components. During this phase, the concept evolved into a “retro genie” style mascot, inspired by classic characters such as the Game Genie.
+
+In 2022, discussions between Tyson Tan and a team member planted the seed for a new direction, though scheduling constraints delayed progress. Over the following years, dialogue continued, ultimately leading to a revised concept that combined both the cyber aspect of the cat and the retro cheat mascot elements from earlier Game Genie-inspired ideas, culminating in Reiki the Cyber Shark.
+
+Reiki serves as a tribute and love to RetroDECK's component modularity, retro gaming culture, modding, romhacks, game cheat codes, and the broader spirit of playful innovation.
+
+---
+
 ## What is Reiki? 
 
 **Reiki** is a gaming cyber shark, a true shark of games and the official mascot of the **RetroDECK Project**.  
@@ -96,32 +125,5 @@ If you replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yó
 
 **游** *(yóu)* part of “gaming” is “swim,” and that matches well with Reiki's shark‑like nature.
 
----
-
-## Why create a mascot?
-
-From its earliest stages, the project aimed to include a mascot as a core part of its identity. This goal was established as one of the pillars defining the vision for a 1.0 release and was given equal importance alongside other major features, such as cloud synchronization.
-
-The concept also reflects the project's blend of Western and Asian influences, which helped shape the decision to create Reiki.
-
-### Early Concepts and Goals
-
-The initial internal concept was a cyborg cat. However, the idea was considered too generic, and the team sought to collaborate with an artist to develop a more distinctive character.
-
-This led to exploring retro-inspired mascot designs, aiming for a character that could represent the project globally across its various components. During this phase, the concept evolved into a “retro genie” style mascot, inspired by classic characters such as the Game Genie.
-
-In 2022, discussions between Tyson Tan and a team member planted the seed for a new direction, though scheduling constraints delayed progress. Over the following years, dialogue continued, ultimately leading to a revised concept that combined both the cyber aspect of the cat and the retro cheat mascot elements from earlier Game Genie-inspired ideas, culminating in Reiki the Cyber Shark.
-
-Reiki serves as a tribute to RetroDECK's component modularity, retro gaming culture, modding, romhacks, game cheat codes, and the broader spirit of playful innovation.
 
 ---
-
-## Tyson Tan - Creator
-
-Check out the portfolio:
-
-- [Tyson Tan](https://tysontan.com/)
-- [Creative Commons BY-SA License](https://creativecommons.org/licenses/by-sa/4.0/)
-
----
-

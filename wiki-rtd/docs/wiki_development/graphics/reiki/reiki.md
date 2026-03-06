@@ -6,9 +6,7 @@
 
 ## What is Reiki? 
 
-Reiki is a Gaming Cyber Shark.
-
-A Shark of Games, if you will.
+Reiki is a Gaming Cyber Shark, a true shark of games.
 
 Her main feature is the modular dorsal fin, that she swaps to load the component she needs, **transforming her abilities and look** in an instant. 
 

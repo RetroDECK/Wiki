@@ -12,11 +12,13 @@ Her most distinctive feature is her component based **modular dorsal fin system*
 
 Reiki uses her **dorsal fin slot** allowing her to swap **component-fins** depending on the task at hand. Each **component-fin-module** changes both her **appearance** and **abilities**, effectively giving her a *loadout change* for every mission.
 
-- UZDoom component? *Rip and tear, until it is done 🦈!*
+- UZDoom component - *Rip and tear, until it is done 🦈!*
 
-- C64 component? *Take the fight to the Ur-Quan Hierarchy!* 
+- C64 component - *Take the fight to the Ur-Quan Hierarchy!* 
 
-- Mega Drive component? *Gotta go fast!*
+- Mega Drive component - *Gotta go fast!*
+
+- PCSX2 component - *Emotion Engine activated*
 
 Each fin grants her the perfect tools and skills for the challenge ahead, making her endlessly adaptable and always ready to dive headfirst into the next adventure.
 
@@ -96,6 +98,23 @@ If you replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yó
 
 ---
 
+## Why create a mascot?
+
+From its earliest stages, the project aimed to include a mascot as a core part of its identity. This goal was established as one of the pillars defining the vision for a 1.0 release and was given equal importance alongside other major features, such as cloud synchronization.
+
+The concept also reflects the project's blend of Western and Asian influences, which helped shape the decision to create Reiki.
+
+### Early Concepts and Goals
+
+The initial internal concept was a cyborg cat. However, the idea was considered too generic, and the team sought to collaborate with an artist to develop a more distinctive character.
+
+This led to exploring retro-inspired mascot designs, aiming for a character that could represent the project globally across its various components. During this phase, the concept evolved into a “retro genie” style mascot, inspired by classic characters such as the Game Genie.
+
+In 2022, discussions between Tyson Tan and a team member planted the seed for a new direction, though scheduling constraints delayed progress. Over the following years, dialogue continued, ultimately leading to a revised concept that combined both the cyber aspect of the cat and the retro cheat mascot elements from earlier Game Genie-inspired ideas, culminating in Reiki the Cyber Shark.
+
+Reiki serves as a tribute to RetroDECK's component modularity, retro gaming culture, modding, romhacks, game cheat codes, and the broader spirit of playful innovation.
+
+---
 
 ## Tyson Tan - Creator
 
@@ -104,4 +123,5 @@ Check out the portfolio:
 - [Tyson Tan](https://tysontan.com/)
 - [Creative Commons BY-SA License](https://creativecommons.org/licenses/by-sa/4.0/)
 
+---
 

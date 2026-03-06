@@ -64,7 +64,7 @@ With the updated publication pipeline, that number will increase to **four**.
 
 <img src="../rd-epicure-icon.svg" width="75" alt="RetroDECK Countertop Icon"> <img src="../rd-epicure-configurator.svg" width="75" alt="RetroDECK Countertop Configurator Icon"> 
 
-**Epicure**
+*Epicure*
 
 *A user who cultivates refined taste and appreciation, eager to savor even the smallest preview of the latest culinary experiences, an apéritif of what is yet to come.*
 
@@ -87,15 +87,15 @@ Epicure follows a automatic biweekly release schedule.
 
 <img src="../rd-countertop-icon.svg" width="75" alt="RetroDECK Countertop Icon"> <img src="../rd-countertop-configurator.svg" width="75" alt="RetroDECK Countertop Configurator Icon"> 
 
-**Countertop**
+*Countertop*
 
 *A self-directed chef. One who brings their own ingredients, crafts their own masterpiece, and refines their recipe with the ambition of one day contributing to the final buffet.*
 
-**RetroDECK Countertop** is a development branch based on Cooker and intended for developers. It is a minimal, stripped-down build of RetroDECK that includes the RetroDECK Framework, ES-DE, and a set of development tools.
+**RetroDECK Countertop** is a development branch based on Cooker and intended for other developers. It is a minimal, stripped-down build of RetroDECK that includes the RetroDECK Framework, ES-DE, and a set of development tools.
 
-Countertop excludes the standard bundled components, providing a lightweight environment for experimentation and integration work. It serves as a practical sandbox for developers who wish to prototype and test new components within the RetroDECK ecosystem without repeatedly downloading the full suite of packages.
+Countertop excludes the standard bundled components, providing a lightweight environment for experimentation, tinkering and integration work. It serves as a practical sandbox for developers who wish to prototype and test new components within the RetroDECK ecosystem without repeatedly downloading the full suite of RetroDECK with all the components.
 
-This streamlined configuration enables faster iteration and more focused development within the RetroDECK *Retro Gaming Platform*
+This streamlined configuration enables faster iteration and more focused development within the RetroDECK enviroment.
 
 ---
 

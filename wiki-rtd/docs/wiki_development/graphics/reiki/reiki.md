@@ -10,13 +10,13 @@ Reiki is a Gaming Cyber Shark.
 
 A Shark of Games, if you will.
 
-Her main feature is the modular dorsal fin, that she swaps to load the component she needs transforming her abilities and look in an instant. 
+Her main feature is the modular dorsal fin, that she swaps to load the component she needs, **transforming her abilities and look** in an instant. 
 
-- UZDoom module? It's demon slaying time!
+- UZDoom component? *Rip and tear, until it is done 🦈!*
 
-- C64 module? The power to collect star cells! 
+- C64 component? *Take the fight to the Ur-Quan Hierarchy!* 
 
-- Mega Drive module? Gotta go fast!
+- Mega Drive component? *Gotta go fast!*
 
 Each fin grants her the perfect tools and skills for the challenge ahead, making her endlessly adaptable and always ready to dive headfirst into the next adventure.
 

@@ -119,11 +119,10 @@ In the end, Tyson and the RetroDECK team got together again in 2025 when both th
 
 Reiki serves as a tribute to RetroDECK's component modularity, as well as:
 
-- Video game preservation and emulation
-- Retro gaming culture
-- Modding & ROM hacks 
-- Game cheat codes
-
+- Cheat Codes, Text Walkthroughs and FAQs
+- Game Modding and ROM Hacks
+- Game Preservation and Emulation
+- Retro Gaming Culture and Community
 
 ---
 

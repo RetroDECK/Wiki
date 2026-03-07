@@ -111,7 +111,7 @@ The concept also reflects the project's blend of Western and Asian influences, w
 
 The first initial internal concept was a cyborg cat. However, the idea was considered too generic, and the team sought to collaborate with an artist to develop a more distinctive character.
 
-This led to exploring retro-inspired mascot designs, aiming for a character that could represent the project globally across its various components. During this phase, the concept evolved into a “retro genie” mascot, inspired by classic characters such as the Game Genie, Shantae, Jeannie and Jinn Genie.
+This led to exploring retro-inspired mascot designs, aiming for a character that could represent the project globally across its various components. During this phase, the concept evolved into a "retro genie" mascot, inspired by classic characters such as the Game Genie, Shantae, Jeannie and Jinn Genie.
 
 At the end of 2022, discussions between Tyson Tan and a RetroDECK team member planted the seed for a mascot, though due to scheduling constraints nothing emerged at that time. Over the following years, the dialogue continued and new ideas emerged, while the RetroDECK team in parallel explored other options as well.
 

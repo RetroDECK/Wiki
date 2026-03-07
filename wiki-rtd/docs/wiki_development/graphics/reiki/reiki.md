@@ -115,7 +115,7 @@ This led to exploring retro-inspired mascot designs, aiming for a character that
 
 At the end of 2022, discussions between Tyson Tan and a RetroDECK team member planted the seed for a mascot, though due to scheduling constraints nothing emerged at that time. Over the following years, the dialogue continued and new ideas emerged, while the RetroDECK team in parallel explored other options as well.
 
-In the end, Tyson and the RetroDECK team got together again in 2025 when both their schedules aligned, ultimately leading to a revised concept suggested by Tyson that combined the cyber aspect of the cat with the retro cheat-mascot elements from earlier genie inspired ideas, culminating in Reiki the Cyber Shark as a riff on “GameShark.”
+In the end, Tyson and the RetroDECK team got together again in 2025 when both their schedules aligned, ultimately leading to a revised concept suggested by Tyson that combined the cyber aspect of the cat with the retro cheat-mascot elements from earlier genie inspired ideas, culminating in Reiki the Cyber Shark as a riff on "GameShark".
 
 Reiki serves as a tribute to RetroDECK's component modularity, as well as:
 

@@ -4,15 +4,6 @@
 
 ---
 
-## Tyson Tan - Creator
-
-Check out the portfolio:
-
-- [Tyson Tan](https://tysontan.com/)
-- [Creative Commons BY-SA License](https://creativecommons.org/licenses/by-sa/4.0/)
-
----
-
 ## What is Reiki? 
 
 **Reiki** is a gaming cyber shark, a true shark of games and the official mascot of the **RetroDECK Project**.  
@@ -27,7 +18,7 @@ Reiki uses her **dorsal fin slot** allowing her to swap **component-fins** depen
 
 - Mega Drive component - *Gotta go fast!*
 
-- PCSX2 component - *Emotion Engine activated*
+- PCSX2 component - *Emotion Engine activated!*
 
 Each fin grants her the perfect tools and skills for the challenge ahead, making her endlessly adaptable and always ready to dive headfirst into the next adventure.
 
@@ -110,7 +101,7 @@ If you replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yó
 
 ## Why create a mascot?
 
-From its earliest stages, the project aimed to include a mascot as a core part of its identity. This goal was established as one of the pillars defining the vision for a 1.0 release and was given equal importance alongside other major features, such as cloud synchronization.
+From its earliest stages, the project aimed to include a mascot as a core part of its identity. This goal was established as one of the pillars defining the vision for a 1.0 release and was given equal importance alongside other major features, such as cloud synchronization, steam synchronization and more.
 
 The concept also reflects the project's blend of Western and Asian influences, which helped shape the decision to create Reiki.
 
@@ -118,18 +109,30 @@ The concept also reflects the project's blend of Western and Asian influences, w
 
 ### Early Concepts and Goals
 
-The initial internal concept was a cyborg cat. However, the idea was considered too generic, and the team sought to collaborate with an artist to develop a more distinctive character.
+The first initial internal concept was a cyborg cat. However, the idea was considered too generic, and the team sought to collaborate with an artist to develop a more distinctive character.
 
-This led to exploring retro-inspired mascot designs, aiming for a character that could represent the project globally across its various components. During this phase, the concept evolved into a “retro genie” style mascot, inspired by classic characters such as the Game Genie.
+This led to exploring retro-inspired mascot designs, aiming for a character that could represent the project globally across its various components. During this phase, the concept evolved into a “retro genie” mascot, inspired by classic characters such as the Game Genie, Shantae, Jeannie and Jinn Genie.
 
-In the end of 2022, discussions between Tyson Tan and a team member planted the star that would become the seed for a new direction, though scheduling constraints delayed progress. Over the following years, dialogue continued and new ideas emerged, ultimately leading to a revised concept suggested by Tyson that combined both the cyber aspect of the cat and the retro cheat mascot elements from earlier Game Genie-inspired ideas, culminating in Reiki the Cyber Shark as a riff on "Game Shark."
+At the end of 2022, discussions between Tyson Tan and a RetroDECK team member planted the seed for a mascot, though due to scheduling constraints nothing emerged at that time. Over the following years, the dialogue continued and new ideas emerged, while the RetroDECK team in parallel explored other options as well.
+
+In the end, Tyson and the RetroDECK team got together again in 2025 when both their schedules aligned, ultimately leading to a revised concept suggested by Tyson that combined the cyber aspect of the cat with the retro cheat-mascot elements from earlier genie inspired ideas, culminating in Reiki the Cyber Shark as a riff on “GameShark.”
 
 Reiki serves as a tribute to RetroDECK's component modularity, as well as:
 
+- Video game preservation and emulation
 - Retro gaming culture
 - Modding & ROM hacks 
-- Game cheat codes 
+- Game cheat codes
 
-and celebrates the broader spirit of playful innovation.
 
 ---
+
+## Tyson Tan - Creator
+
+Check out the portfolio:
+
+- [Tyson Tan](https://tysontan.com/)
+- [Creative Commons BY-SA License](https://creativecommons.org/licenses/by-sa/4.0/)
+
+---
+

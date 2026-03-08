@@ -94,7 +94,7 @@ If you replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yó
 
 ### 游 - Swim
 
-**游** *(yóu)* part of “gaming” is “swim,” and that matches well with Reiki's shark‑like nature.
+**游** *(yóu)* part of "gaming" is "swim," and that matches well with Reiki's shark-like nature.
 
 
 ---
@@ -119,19 +119,38 @@ In the end, Tyson and the RetroDECK team got together again in 2025 when both th
 
 Reiki serves as a tribute to RetroDECK's component modularity, as well as:
 
-- Cheat Codes, Text Walkthroughs and FAQs
+- Cheat Codes, Ancient text Walkthroughs, READMEs and FAQs
 - Game Modding and ROM Hacks
 - Game Preservation and Emulation
 - Retro Gaming Culture and Community
 
 ---
 
-## Tyson Tan - Creator
+## Tyson Tan - Artist / Creator
 
-Check out the portfolio:
+Copyright © Tyson Tan (钛山). All rights reserved.
 
-- [Tyson Tan](https://tysontan.com/)
-- [Creative Commons BY-SA License](https://creativecommons.org/licenses/by-sa/4.0/)
+Check out his portfolio:
+
+- [Tyson Tan: Website](https://tysontan.com/)
+
+---
+
+### Creative Commons Attribution-ShareAlike 4.0 International
+
+Reiki, the official RetroDECK mascot, is made available under the terms of the [Creative Commons BY-SA License](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
+Subject to the terms of the CC BY-SA license, the artwork may be shared, reproduced, and adapted for any purpose, provided that:
+
+1. Appropriate credit is given to Tyson Tan (钛山) (and optionally but appreciated the RetroDECK Team or the RetroDECK Project).
+2. A reference to the applicable Creative Commons BY-SA license is included.
+3. Any redistributed or derivative works are licensed under the same CC BY-SA terms.
+
+Both Tyson Tan (钛山) and the RetroDECK Team warmly encourage fan art and creative reinterpretations of Reiki. 
+
+We would love to see your unique contributions, please share them with us via our official social media channels or community platforms!
+
+If you wish to create Reiki artwork specifically for inclusion within the RetroDECK Project, please contact the RetroDECK Team directly for guidance and submission details.
 
 ---
 

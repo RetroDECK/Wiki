@@ -15,6 +15,7 @@
 | **Steam Sync** | Controller templates sometimes fail to associate with Steam entries. | Users must assign templates manually if this occurs. |
 | **ES-DE** | Configuration submenu does not support translations yet. | Translations planned for a future update. |
 | **Dolphin / PrimeHack** | Input mapping and GUI issues occur under Wayland. | Disable **Wayland Windowing System** via *Flatseal* for RetroDECK. |
+| **Dolphin / PrimeHack** | Does not launch .m3u files. | Make sure the .m3u is saved with UNIX line endings and not Windows. |
 
 ---
 

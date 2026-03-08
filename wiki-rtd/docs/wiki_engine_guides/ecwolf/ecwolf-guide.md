@@ -42,7 +42,6 @@ ECWolf game files must be placed in the `retrodeck/roms/wolf/<sub_directory.wolf
 | .wl1       | Wolfenstein 3D - Shareware version data file |
 | .sod       | Spear of Destiny - Full versio game data file |
 | .sod       | Spear of Destiny - Demo version game data file |
-| .sd1       | Spear of Destiny Mission Pack 1 - Return to Danger game data file |
 | .sd2       | Spear of Destiny Mission Pack 2 - Return to Danger game data file |
 | .sd3       | Spear of Destiny Mission Pack 3 - Ultimate Challenge game data file |
 | .n3d       | Super 3D Noah's Ark game data file |

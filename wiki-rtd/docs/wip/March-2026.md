@@ -48,16 +48,13 @@ This release is currently in active early development, with the team evaluating 
 
 ---
 
-## Publication Pipeline Changes
+### Publication Pipeline Changes
 
 With the release of **0.10.0b**, RetroDECK underwent a comprehensive architectural overhaul. The project transitioned to an internal modular component structure.
 
 At the time, certain build and publication pipelines were intentionally left unchanged due to we simply did not have time to redo them all. These remaining pipelines are now being renovated as part of the road toward the **0.11.0** release.
 
----
-
-
-### So, what’s changing?
+**So, what’s changing?**
 
 Previously, we maintained **two** release variants of RetroDECK.  
 
@@ -67,9 +64,9 @@ Previously, we maintained **two** release variants of RetroDECK.
 With the updated publication pipeline, that number will increase to **four**.
 
 - Stable
-- Epicure
+- **Epicure**
 - Cooker
-- Countertop
+- **Countertop**
 
 
 ---
@@ -92,7 +89,7 @@ This approach provides testing users with access to newer component versions whi
 
 Epicure has a dual purpose: to satisfy users who prefer more bleeding-edge, less stable component versions, and to expand the tester base to identify and report issues earlier in the release cycle before they reach the Stable branch.
 
-Epicure follows a automatic biweekly release schedule.
+The goal is for Epicure follows a automatic biweekly release schedule.
 
 ---
 

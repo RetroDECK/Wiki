@@ -119,10 +119,11 @@ In the end, Tyson and the RetroDECK team got together again in 2025 when both th
 
 Reiki serves as a tribute to RetroDECK's component modularity, as well as:
 
-- Cheat Codes, Ancient text Walkthroughs, READMEs and FAQs
-- Game Modding and ROM Hacks
+- Cheat Codes
+- Game Modding, Enhancements and ROM Hacks
 - Game Preservation and Emulation
 - Retro Gaming Culture and Community
+- Text Walkthroughs, READMEs and FAQs
 
 ---
 
@@ -130,14 +131,14 @@ Reiki serves as a tribute to RetroDECK's component modularity, as well as:
 
 Reiki, the official RetroDECK mascot, is made available under the terms of the:
 
--[Creative Commons BY-SA License](https://creativecommons.org/licenses/by-sa/4.0/)
--[GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+- [Creative Commons BY-SA License](https://creativecommons.org/licenses/by-sa/4.0/)
+- [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ### Tyson Tan - Artist / Creator
 
 Tyson Tan is responsible for the base design of the current Reiki.
 
-You may request new Reiki artworks as well as to alter the existing itterations by contacting Tyson.
+You may request new Reiki artworks as well as to alter the existing iterations by contacting Tyson.
 
 **Contact:**
 
@@ -166,7 +167,7 @@ If you wish to create Reiki artwork specifically for inclusion within the RetroD
 - The artwork should ideally follow specifications similar to those used by Tyson Tan.
 - You do not need to strictly follow the original design.
 - All submitted artwork must be your own original work.
-- You agree to license it under **Creative Commons BY-SA**, **GPL3**.
+- You agree to license it under **Creative Commons BY-SA** and/or **GPL3**.
 
 ### Using Existing Artwork as a Base
 

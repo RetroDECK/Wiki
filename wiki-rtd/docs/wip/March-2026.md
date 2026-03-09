@@ -14,6 +14,7 @@ The RetroDECK Team have been hard at work stirring the development cauldron.
 
 **News**
 
+- Community Showcase: Decky Plugin - RetroDECKY
 - Development Update: 0.11.0
 - Publication Pipeline Changes
 - RetroDECK Epicure

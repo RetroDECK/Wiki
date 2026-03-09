@@ -127,12 +127,14 @@ Reiki serves as a tribute to RetroDECK's component modularity, as well as:
 
 ---
 
-## Artists & Licences 
+## Licences 
 
 Reiki, the official RetroDECK mascot, is made available under the terms of the:
 
 - [Creative Commons BY-SA License](https://creativecommons.org/licenses/by-sa/4.0/)
 - [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+##  Artists
 
 ### Tyson Tan (钛山) - Artist / Creator
 

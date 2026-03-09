@@ -138,6 +138,8 @@ Reiki, the official RetroDECK mascot, is made available under the terms of the:
 - [Creative Commons BY-SA License](https://creativecommons.org/licenses/by-sa/4.0/)
 - [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
+---
+
 ##  Artists
 
 ### Tyson Tan (钛山) - Artist / Creator
@@ -168,12 +170,15 @@ We would love to see your unique contributions, please share them with us via ou
 
 If you wish to create Reiki artwork specifically for inclusion within the RetroDECK Project, please contact the RetroDECK Team directly and follow the guidelines.
 
+---
+
 ### Guidelines
 
-- The artwork should ideally follow specifications similar to those used by Tyson Tan.
-- You do not need to strictly follow the original design.
+- The artwork should ideally follow specifications similar to those used by Tyson Tan but you do not need to strictly follow the original design.
 - All submitted artwork must be your own original work.
 - You agree to license it under **Creative Commons BY-SA** and / or **GPL3**.
+
+---
 
 ### Using Existing Artwork as a Base
 
@@ -190,5 +195,17 @@ If your work is based on other artwork, the original source must meet one of the
 - GPL3
 
 **Licensed under a compatible license** with Creative Commons BY-SA and / or GPL3.
+
+---
+
+### Tips and inspiration
+
+The design is open to your artistic interpretation. 
+
+You could highlight a specific game or feature by incorporating it directly into the **component-fin-module**.
+
+For example, the fin could include a built-in CD, tape, or cartridge-style container that holds the featured game or feature OR the design could use her smaller detachable fins as **mini-modules** to represent specific games, texture packs, or ROM hacks in combination with the main **component-fin-module**.
+
+It's all up to you!
 
 ---

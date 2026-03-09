@@ -39,7 +39,9 @@ Additional features are planned, including a manual reader and other quality-of-
 
 If you have suggestions for Teppichseite or would like to contribute, please submit feedback or issues on the project's GitHub repository.
 
-**Note:** This is an extremely early piece of software and should not be considered to be in an alpha stage (it is currently only a proof-of-concept).
+**Note:** 
+
+This is an extremely early piece of software and should not be considered to be in an alpha stage (it is currently only a proof-of-concept).
 
 **RetroDECK Team Comment:**
 

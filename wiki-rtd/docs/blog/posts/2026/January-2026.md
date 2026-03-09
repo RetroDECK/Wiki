@@ -6,7 +6,7 @@ date: 2026-01-27
 
 # January 2026: Starts with a bang!
 
-The RetroDECK Team have been hard at work. 
+The RetroDECK Team have been hard at work stirring the development cauldron. 
 
 ---
 

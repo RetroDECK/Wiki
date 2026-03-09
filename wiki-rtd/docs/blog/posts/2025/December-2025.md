@@ -8,7 +8,7 @@ date: 2025-12-13
 
 Lots of development focused RetroDECK 0.10.0b and 0.11.0b news. 
 
-The RetroDECK Team have been hard at work. 
+The RetroDECK Team have been hard at work stirring the development cauldron. 
 
 ---
 

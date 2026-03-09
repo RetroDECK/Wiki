@@ -6,7 +6,7 @@ date: 2026-02-26
 
 # February 2026: Strange Components from Beyond the Ether
 
-The RetroDECK Team have been hard at work. 
+The RetroDECK Team have been hard at work stirring the development cauldron. 
 
 ---
 

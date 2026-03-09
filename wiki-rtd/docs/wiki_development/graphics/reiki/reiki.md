@@ -204,7 +204,7 @@ The design is open to your artistic interpretation.
 
 You could highlight a specific game or feature by incorporating it directly into the **component-fin-module**.
 
-For example, the fin could include a built-in CD, tape, or cartridge-style container that holds the featured game or feature OR the design could use her smaller detachable fins as **mini-modules** to represent specific games, texture packs, or ROM hacks in combination with the main **component-fin-module**.
+For example, the fin could include a built-in CD, tape, or cartridge-style container that holds the featured game or feature OR the design could use her smaller fins as **mini-modules** to represent specific games, texture packs, or ROM hacks in combination with the main **component-fin-module**.
 
 It's all up to you!
 

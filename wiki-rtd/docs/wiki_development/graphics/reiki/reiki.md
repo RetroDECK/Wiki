@@ -117,16 +117,14 @@ At the end of 2022, discussions between Tyson Tan and a RetroDECK team member pl
 
 In the end, Tyson and the RetroDECK team got together again in 2025 when both their schedules aligned, ultimately leading to a revised concept suggested by Tyson that combined the cyber aspect of the cat with the retro cheat-mascot elements from earlier genie inspired ideas, culminating in Reiki the Cyber Shark as a riff on "GameShark".
 
-Reiki serves as a tribute to RetroDECK's component modularity, as well as:
+Reiki serves as a tribute to RetroDECK's component modularity, as well as a huge tribute to:
 
 - Cheat Codes & Easter Eggs
-- Emulation Technologies
-- Game Modding & Enhancements
+- Emulation
+- Game Modding & Enhancements & ROM Hacks
 - Game Preservation Efforts
-- Game Reverse Engineering
-- Open-Source Retro Game Engines
+- Game Reverse Engineering & Open-Source Retro Game Engines
 - Retro Gaming Culture
-- ROM Hacks
 - Old School Text Walkthroughs, FAQs, and README
 
 ---

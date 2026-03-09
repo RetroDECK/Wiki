@@ -134,7 +134,7 @@ Reiki, the official RetroDECK mascot, is made available under the terms of the:
 - [Creative Commons BY-SA License](https://creativecommons.org/licenses/by-sa/4.0/)
 - [GPL3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-### Tyson Tan - Artist / Creator
+### Tyson Tan (钛山) - Artist / Creator
 
 Tyson Tan created the base design of the current Reiki character.
 

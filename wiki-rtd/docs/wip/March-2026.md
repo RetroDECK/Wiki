@@ -33,11 +33,19 @@ The RetroDECK Team have been hard at work.
 
 **Link:** [GitHub: RetroDECKY](https://github.com/Teppichseite/RetroDecky)
 
-**RetroDECKY** is a newly launched Decky plugin created by community developer *Teppichseite*. It introduces an in‑game popup menu for RetroDECK, enabling users to trigger component hotkey actions via virtual buttons (this serves as a complement to radial menus and built‑in hotkeys) and show es-de artwork. Teppichseite also plans to add more features in the future, such as a manual reader.
+**RetroDECKY** is a newly released Decky plugin developed by community contributor *Teppichseite*. It provides an in-game popup menu for RetroDECK that allows users to trigger component hotkey actions through virtual buttons, complementing existing radial menus and built-in hotkeys. It can also display ES-DE artwork.
+
+Additional features are planned, including a manual reader and other quality-of-life improvements.
+
+If you have suggestions for Teppichseite or would like to contribute, please submit feedback or issues on the project's GitHub repository.
+
+**Note:** This is an extremely early piece of software and should not be considered to be in an alpha stage; it is currently only a concept.
 
 **RetroDECK Team Comment:**
 
-RetroDECKs design philosophy is that all functionality should be contained within RetroDECK itself, you download it and you get it all. Nonetheless, the team actively welcomes community contributions such as RetroDECKY, which introduce fresh ways to enhance and tinker with RetroDECK. We closely follow its development and provide ongoing feedback to Teppichseite or any other developers pursuing new projects.
+RetroDECKs design philosophy is that all functionality should be contained within RetroDECK itself, you download it and you get it all. Nonetheless, the team actively welcomes community contributions such as RetroDECKY, which introduce fresh ways to enhance and tinker with RetroDECK. 
+
+We closely follow its development and provide ongoing feedback to Teppichseite or any other developers pursuing new projects.
 
 ---
 
@@ -45,7 +53,7 @@ RetroDECKs design philosophy is that all functionality should be contained withi
 
 We have begun development on the upcoming major update, **0.11.0**.
 
-This release is currently in active early development, with the team evaluating new features, improvements and several unexpected things.
+This release is currently in active early development, with the team adding new features, improvements and several unexpected things.
 
 ---
 

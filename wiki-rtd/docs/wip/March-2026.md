@@ -55,15 +55,15 @@ We have begun development on the upcoming major update, **0.11.0**.
 
 This release is currently in active early development, with the team adding new features, improvements and several unexpected things.
 
----
-
-### Remaining Rewrites
+**Remaining Rewrites**
 
 With the release of **0.10.0b**, RetroDECK underwent a comprehensive architectural overhaul, transitioning to an internal modular component structure. As part of the roadmap toward **0.11.0**, we have begun working on the remaining things that were not included in the initial rewrite.
 
 This work will be covered in greater detail in future blog posts.
 
-This month we will focus on:
+This month we will focus on: Publication Pipeline Changes
+
+---
 
 ### Publication Pipeline Changes
 

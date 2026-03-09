@@ -169,7 +169,7 @@ If you wish to create Reiki artwork specifically for inclusion within the RetroD
 - The artwork should ideally follow specifications similar to those used by Tyson Tan.
 - You do not need to strictly follow the original design.
 - All submitted artwork must be your own original work.
-- You agree to license it under **Creative Commons BY-SA** and/or **GPL3**.
+- You agree to license it under **Creative Commons BY-SA** and / or **GPL3**.
 
 ### Using Existing Artwork as a Base
 
@@ -177,13 +177,13 @@ If your work is based on other artwork, the original source must meet one of the
 
 **Not copyrighted**, such as:
 
-  - Public Domain
-  - Creative Commons Zero (CC0)
+- Public Domain
+- Creative Commons Zero (CC0)
 
 **Licensed under one of the following:**
 
-  - Creative Commons BY-SA
-  - GPL3
+- Creative Commons BY-SA
+- GPL3
 
 **Licensed under a compatible license** with Creative Commons BY-SA and / or GPL3.
 

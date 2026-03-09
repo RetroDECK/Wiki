@@ -4,9 +4,9 @@ date: 2026-02-26
 
 --- 
 
-# March 2026: A cooking experince
+# March 2026: A Culinary Experience
 
-The RetroDECK Team have been hard at work. 
+The RetroDECK Team have been stiring the development pot. 
 
 ---
 

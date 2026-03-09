@@ -10,17 +10,15 @@
 
 Her most distinctive feature is her component based **modular dorsal fin system**.
 
-Reiki uses her **dorsal fin slot** allowing her to swap **component-fins** depending on the task at hand. Each **component-fin-module** changes both her **appearance** and **abilities**, effectively giving her a *loadout change* for every mission.
+Reiki uses her **dorsal fin slot** allowing her to swap **component-fins** depending on the task at hand. Each **component-fin-module** changes both her **appearance** and **abilities**, effectively giving her a *loadout change* for every mission, making her endlessly adaptable.
 
-- UZDoom component - *Rip and tear, until it is done 🦈!*
+- UZDoom component - *Rip and tear, until it is done 🦈!* *Angry Shark Noices*
 
-- C64 component - *Take the fight to the Ur-Quan Hierarchy!* 
+- C64 component - *Take a bite of the Ur-Quan Hierarchy!* 
 
-- Mega Drive component - *Gotta go fast!*
+- Mega Drive component - *Gotta swim fast!*
 
 - PCSX2 component - *Emotion Engine activated!*
-
-Each fin grants her the perfect tools and skills for the challenge ahead, making her endlessly adaptable and always ready to dive headfirst into the next adventure.
 
 ---
 

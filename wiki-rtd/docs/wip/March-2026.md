@@ -44,7 +44,7 @@ If you have suggestions for Teppichseite or would like to contribute, please sub
 
 This is an extremely early piece of software and should not be considered to be in an alpha stage (it is currently only a proof-of-concept).
 
-**RetroDECK Team Comment:**
+### RetroDECK Team Comment
 
 RetroDECKs design philosophy is that all functionality should be contained within RetroDECK itself, you download it and you get it all. Nonetheless, the team actively welcomes community contributions such as RetroDECKY, which introduce fresh ways to enhance and tinker with RetroDECK. 
 

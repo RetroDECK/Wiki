@@ -124,15 +124,15 @@ This streamlined configuration enables faster iteration and more focused develop
 
 ---
 
-## That is all for now 
+## That is all for now
 
-There are more things we are working on, but you will see them in future blog updates!
+There are more features and improvements in the works, which will be shared in future blog updates!
 
-And as always if you want to help with development join the 💙-i-want-to-help channel on Discord or chat us up on Matrix.
+As always, if you want to help with development, join the *💙-i-want-to-help* channel on **Discord**, or reach out to us on **Matrix** or other socials.
 
 Thank you to everyone for your continued support.
 
-//The RetroDECK Team 
+// The RetroDECK Team
 
 ---
 

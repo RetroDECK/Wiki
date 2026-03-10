@@ -6,19 +6,19 @@
 
 ## What is Reiki? 
 
-**Reiki** is a gaming cyber shark, a true shark of games and the official mascot of the **RetroDECK Project**.  
+**Reiki** is a gaming Cyber Shark, a true shark of games and the official mascot of the **RetroDECK Project**.
 
 Her most distinctive feature is her component based **modular dorsal fin system**.
 
-Reiki uses her **dorsal fin slot** allowing her to swap **component-fins** depending on the task at hand. Each **component-fin-module** changes both her **appearance** and **abilities**, effectively giving her a *loadout change* for every mission, making her endlessly adaptable.
+Reiki uses her **dorsal fin slot** allowing her to swap **component-fins** depending on the task at hand. Each **component-fin-module** changes both her appearance and abilities, effectively giving her a "loadout change" for every challenge and making her endlessly adaptable.
 
-- UZDoom component - Rip and tear, until it is done! *🦈 Angry Shark Noices 🦈*
+- UZDoom component - Rip and tear, until it is done 🦈!
 
 - C64 component - Take a bite of the Ur-Quan Hierarchy!
 
 - Mega Drive component - Gotta swim fast!
 
-- PCSX2 component - Emotion Engine activated!
+- PCSX2 component - Start the boats Emotion Engine and go help Cocoto fish!
 
 ---
 
@@ -99,7 +99,7 @@ If you replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yó
 
 ## Why create a mascot?
 
-From its earliest stages, the project aimed to include a mascot as a core part of its identity. This goal was established as one of the pillars defining the vision for a 1.0 release and was given equal importance alongside other major features, such as cloud synchronization, steam synchronization and more.
+From its earliest stages, the project aimed to include a mascot as a core part of its identity. This goal was established as one of the pillars defining the vision for a 1.0 release and was given equal importance alongside other major features, such as cloud synchronization, component support, steam synchronization and more.
 
 The concept also reflects the project's blend of Western and Asian influences, which helped shape the decision to create Reiki.
 
@@ -109,17 +109,21 @@ The concept also reflects the project's blend of Western and Asian influences, w
 
 The first initial internal concept was a cyborg cat. However, the idea was considered too generic, and the team sought to collaborate with an artist to develop a more distinctive character.
 
-This led to exploring retro-inspired mascot designs, aiming for a character that could represent the project globally across its various components. During this phase, the concept evolved into a "retro genie" mascot, inspired by classic characters such as the Game Genie, Shantae, Jeannie and Jinn Genie.
+This led to exploring retro-inspired mascot designs, aiming for a character that could represent the project globally across its various components. During this phase, the concept evolved into a "retro genie" mascot, inspired by classic characters such as the Game Genie, Shantae, Jeannie, Shamir Shamazel and Jinn Genie.
 
-At the end of 2022, discussions between Tyson Tan and a RetroDECK team member planted the seed for a mascot, though due to scheduling constraints nothing emerged at that time. Over the following years, the dialogue continued and new ideas emerged, while the RetroDECK team in parallel explored other options as well.
+At the end of 2022, discussions between Tyson Tan and a RetroDECK team member planted the seed for a collaboration on a mascot, though due to scheduling constraints nothing emerged at that time. Over the following years, the dialogue continued, while the RetroDECK team in parallel explored other options as well.
 
-In the end, Tyson and the RetroDECK team got together again in 2025 when both their schedules aligned, ultimately leading to a revised concept suggested by Tyson that combined the cyber aspect of the cat with the retro cheat-mascot elements from earlier genie inspired ideas, culminating in Reiki the Cyber Shark as a riff on "GameShark".
+In the end, Tyson and the RetroDECK team got together again in 2025 when both their schedules aligned, ultimately leading to a revised concept suggested by Tyson that combined the cyber aspect and animal concept of the cat with the retro genie elements from earlier inspired ideas, culminating in Reiki the Cyber Shark as a riff on "GameShark".
 
-Reiki serves as a tribute to RetroDECK's component modularity, as well as a huge tribute to:
+---
+
+### Reiki is a Tribute
+
+Reiki serves as a tribute to RetroDECK's component modularity, but also as a huge tribute to:
 
 - Cheat Codes & Easter Eggs
 - Emulation
-- Game Modding & Enhancements & ROM Hacks
+- Game Modding & Game Enhancements & ROM Hacks
 - Game Preservation Efforts
 - Game Reverse Engineering & Open-Source Retro Game Engines
 - Retro Gaming Culture

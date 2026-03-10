@@ -18,7 +18,7 @@ Reiki uses her **dorsal fin slot** allowing her to swap **component-fins** depen
 
 - Mega Drive component - Gotta swim fast!
 
-- PCSX2 component - Start the boats Emotion Engine and go help Cocoto fish!
+- PCSX2 component - Start the Emotion Engine and go help Cocoto fish!
 
 ---
 

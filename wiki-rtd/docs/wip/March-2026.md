@@ -34,7 +34,7 @@ The RetroDECK Team have been hard at work stirring the development cauldron.
 
 **Link:** [GitHub: RetroDECKY](https://github.com/Teppichseite/RetroDecky)
 
-**RetroDECKY** is a newly released Decky plugin developed by community contributor *Teppichseite*. It provides an in-game popup menu for RetroDECK that allows users to trigger component hotkey actions through virtual buttons, complementing existing radial menus and built-in hotkeys. It can also display ES-DE artwork.
+**RetroDECKY** is a newly released 3rd party and none official Decky plugin developed by community contributor *Teppichseite*. It provides an in-game popup menu for RetroDECK that allows users to trigger component hotkey actions through virtual buttons, complementing existing radial menus and built-in hotkeys. It can also display ES-DE artwork.
 
 Additional features are planned, including a manual reader and other quality-of-life improvements.
 

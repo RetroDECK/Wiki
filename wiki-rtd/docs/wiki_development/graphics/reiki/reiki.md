@@ -210,10 +210,10 @@ One approach is to highlight a specific game or feature by integrating it direct
 
 For example, the main dorsal **component-fin** could feature a built-in CD, tape, or cartridge-style container that holds the featured game. Accessories or clothing elements could symbolize texture packs, mods, or other features associated with it.
 
-Alternatively, her smaller fins can function as **mini-modules**, representing individual games, texture packs, ROM hacks, or other features. These smaller modules can complement the primary **component-fin**, which acts as the main **console, engine, or client**.
+Alternatively, her smaller fins can function as **mini-modules**, representing individual games, texture packs, ROM hacks, or other features. These smaller modules can complement the primary **component-fin**, which acts as the main console, engine, or client.
 
 Ultimately, the creative direction is up to you. 
 
-Use her **modular concept** to express things you are passionate about in retro space.
+Use her modular concept to express things you are passionate about in retro space.
 
 ---

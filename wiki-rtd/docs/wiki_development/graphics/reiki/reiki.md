@@ -206,11 +206,15 @@ If your work is based on other artwork, the original source must meet one of the
 
 Her design is open to your artistic interpretation.
 
-One approach is to highlight a specific game or feature by integrating it directly into the **component-fin** module. Since her modules influence both her abilities and appearance, the **component-fin** can act as the visual and functional centerpiece.
+One approach is to highlight a specific game or feature by integrating it directly into the main dorsal **component-fin** module. Since her modules influence both her abilities and appearance, the **component-fin** can act as the visual and functional centerpiece and the the main representation of a console, engine, or client.
 
-For example, the main dorsal **component-fin** could feature a built-in CD, tape, or cartridge-style container that holds the featured game. Accessories or clothing elements could symbolize texture packs, mods, or other features associated with it.
+**Example:**
 
-Alternatively, her smaller fins can function as **mini-modules**, representing individual games, texture packs, ROM hacks, or other features. These smaller modules can complement the primary **component-fin**, which acts as the main console, engine, or client.
+The **component-fin** could feature a built-in CD, tape, or cartridge-style container that holds the featured game. Accessories or clothing elements could symbolize texture packs, mods, or other features associated with it.
+
+AND / OR
+
+Her smaller fins can function as **mini-modules**, representing individual games, texture packs, ROM hacks, or other features, complementing the main **component-fin** module.
 
 Ultimately, the creative direction is up to you. 
 

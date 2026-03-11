@@ -72,15 +72,7 @@ Historically, it was used to describe inventive, improvised performances on musi
 
 ### 灵机一动 - A Flash of Wit/Inspiration
 
-**灵机一动** *(líng)(jī)(yì dòng)* is a common Chinese idiom used to describe a **Flash of Wit/Inspiration**, which was the main motif behind the name when designing the character.
-
----
-
-### 游戏机 - Gaming Console
-
-Gaming console is **游戏机** *(yóu)(xì)(jī)*. 
-
-If you replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yóu)(xì)(jī)* that is a common nickname used by Chinese girl Video Gamers.
+**灵机一动** *(líng)(jī)(yì dòng)* is a common Chinese idiom used to describe a **Flash of Wit/Inspiration** (which was the main motif behind the name when designing the character).
 
 ---
 
@@ -92,8 +84,20 @@ If you replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yó
 
 ### 游 - Swim
 
-**游** *(yóu)* part of "gaming" is "swim," and that matches well with Reiki's shark-like nature.
+**游** *(yóu)* part of "gaming" is "swim," and that matches well with Reiki's sharky nature.
 
+
+---
+
+### 游戏机 - Gaming Console
+
+Gaming console is **游戏机** *(yóu)(xì)(jī)*. 
+
+---
+
+### 游戏姬 - Common Chinese Female Video Gamers Nickname
+
+If you take **游戏机** (gaming console) replace **机** *(jī)* with **姬** *(jī)* you get: **游戏姬** *(yóu)(xì)(jī)* and that is a common nickname used by Chinese female Video Gamers / Video Game Streamers.
 
 ---
 

@@ -202,18 +202,18 @@ If your work is based on other artwork, the original source must meet one of the
 
 ---
 
-### Tips and Inspiration
+### Tips & Inspiration
 
-The design is open to your artistic interpretation. 
+Her design is open to your artistic interpretation.
 
-You could highlight a specific game or feature by incorporating it directly into the **component-fin-module**.
+One approach is to highlight a specific game or feature by integrating it directly into the **component-fin** module. Since her modules influence both her abilities and appearance, the **component-fin** can act as the visual and functional centerpiece.
 
-For example, the fin could include a built-in CD, tape, or cartridge-style container that holds the featured game or feature. 
+For example, the main dorsal **component-fin** could feature a built-in CD, tape, or cartridge-style container that holds the featured game. Accessories or clothing elements could symbolize texture packs, mods, or other features associated with it.
 
-OR 
+Alternatively, her smaller fins can function as **mini-modules**, representing individual games, texture packs, ROM hacks, or other features. These smaller modules can complement the primary **component-fin**, which acts as the main **console, engine, or client**.
 
-The design could use her smaller fins as **mini-modules** to represent specific games, texture packs, or ROM hacks in combination with the main **component-fin-module**.
+Ultimately, the creative direction is up to you. 
 
-It's all up to you!
+Use her **modular concept** to express things you are passionate about in retro space.
 
 ---

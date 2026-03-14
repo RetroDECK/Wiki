@@ -28,23 +28,45 @@ The RetroDECK Team have been hard at work stirring the development cauldron.
 
 ## Community Showcase: Decky Plugin - RetroDECKY
 
-<img src="../icon-RetroDECKY.svg" width="75" alt="RetroDECKY Icon"> 
-
-<img src="../rdecky1.png" width="200" alt="RetroDECKY Screenshot 1"> 
-<img src="../rdecky2.png" width="200" alt="RetroDECKY Screenshot 2"> 
-<img src="../rdecky3.png" width="200" alt="RetroDECKY Screenshot 3"> 
+<img src="./icon-RetroDECKY.svg" width="75" alt="RetroDECKY Icon"> 
 
 **Link:** [GitHub: RetroDECKY](https://github.com/Teppichseite/RetroDecky)
 
-**RetroDECKY** is a newly released 3rd party and currently nonofficial Decky plugin developed by community contributor *Teppichseite*. It provides an in-game popup menu for RetroDECK that allows users to trigger component hotkey actions through virtual buttons, complementing existing radial menus and built-in hotkeys. It can also display ES-DE artwork.
+---
 
-Additional features are planned, including a manual reader and other quality-of-life improvements.
+### Screenshots
+
+<p>
+  <img src="./screenshot1.png" alt="RetroDECKY in-game menu" width="200">
+  <img src="./screenshot2.png" alt="RetroDECKY Adventure Art" width="200">
+  <img src="./screenshot3.png" alt="RetroDECKY Hotkey overview" width="200">
+</p>
+
+<p>
+  <img src="./screenshot4.png" alt="RetroDECKY Hotkey Explination" width="600">
+</p>
+
+---
+
+### About
+
+**RetroDECKY** is a newly released 3rd party and currently nonofficial Decky plugin developed by community contributor *Teppichseite*. 
+
+This is an extremely early piece of software and should be considered to be in an pre-alpha stage and is not yet out on the Decky plugin store and ddditional features are planned.
 
 If you have suggestions for Teppichseite or would like to contribute, please submit feedback or issues on the project's GitHub repository or on the RetroDECK Discord.
 
-**Note:** 
+### Features
 
-This is an extremely early piece of software and should be considered to be in an pre-alpha stage and is not yet out on the Decky plugin store.
+- **Running Game Actions** - Displays hotkey actions specific to the currently running game.
+
+- **Running Game Information** - Displays data from ES-DE such as artwork, covers and metadata.
+
+- **Hotkey Triggering** - Execute hotkey functions through Decky menu buttons instead of keyboard hotkeys, button combos or radial menus.
+
+- **Boot into RetroDECK** - A function to automatically start RetroDECK when Steam launches in Game Mode.
+
+- **PDF Manual Viewer** - Read game manuals without leaving the game session.
 
 ---
 

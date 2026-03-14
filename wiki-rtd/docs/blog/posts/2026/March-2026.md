@@ -58,6 +58,8 @@ If you have suggestions for Teppichseite or would like to contribute, please sub
 
 ### Features
 
+Read more on the project GitHub page.
+
 - **Running Game Actions** - Displays hotkey actions specific to the currently running game.
 
 - **Running Game Information** - Displays data from ES-DE such as artwork, covers and metadata.
@@ -68,6 +70,8 @@ If you have suggestions for Teppichseite or would like to contribute, please sub
 
 - **PDF Manual Viewer** - Read game manuals without leaving the game session.
 
+
+
 ---
 
 ### RetroDECK Team Comment
@@ -75,6 +79,8 @@ If you have suggestions for Teppichseite or would like to contribute, please sub
 RetroDECKs design philosophy is that all functionality should be contained within RetroDECK itself, you download it and you get it all. Nonetheless, the team actively welcomes community contributions such as RetroDECKY, which introduce fresh ways to enhance and tinker with RetroDECK. 
 
 We closely follow its development and provide ongoing feedback to Teppichseite or any other developers pursuing new projects.
+
+
 
 ---
 

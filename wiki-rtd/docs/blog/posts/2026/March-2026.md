@@ -52,7 +52,7 @@ The RetroDECK Team have been hard at work stirring the development cauldron.
 
 **RetroDECKY** is a newly released 3rd party and currently nonofficial Decky plugin developed by community contributor *Teppichseite*. 
 
-This is an extremely early piece of software and should be considered to be in an pre-alpha stage and is not yet out on the Decky plugin store and ddditional features are planned.
+This is an extremely early piece of software and should be considered to be in an pre-alpha stage and is not yet out on the Decky plugin store and additional features are planned.
 
 If you have suggestions for Teppichseite or would like to contribute, please submit feedback or issues on the project's GitHub repository or on the RetroDECK Discord.
 

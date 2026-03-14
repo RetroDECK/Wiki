@@ -1,4 +1,4 @@
-﻿# RetroDECK v0.11.0b - Everything Explosion
+﻿# RetroDECK vX.X.X - Xargonian Xargon
 
 <img src="../../../wiki_images/logos/rd-logo-box.png" width="600" alt="Rd Logo Box logo">
 

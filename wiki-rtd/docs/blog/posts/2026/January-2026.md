@@ -131,7 +131,7 @@ There are more things we are working on, but you will see them in future blog up
 
 And as always if you want to help with development join the 💙-i-want-to-help channel on Discord.
 
-Thank you to everyone for your continued support.
+A big thank you to everyone for your continued support.
 
 //The RetroDECK Team 
 

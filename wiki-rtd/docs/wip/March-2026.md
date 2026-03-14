@@ -159,7 +159,7 @@ There are more features and improvements in the works, which will be shared in f
 
 As always, if you want to help with development, join the *💙-i-want-to-help* channel on **Discord**, or reach out to us on **Matrix** or other socials.
 
-Thank you to everyone for your continued support 🦈. 
+A big thank you to everyone for your continued support 🦈. 
 
 // The RetroDECK Team
 

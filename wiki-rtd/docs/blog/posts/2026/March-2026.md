@@ -1,6 +1,6 @@
 ﻿--- 
 
-date: 2026-02-26
+date: 2026-03-14
 
 --- 
 
@@ -28,7 +28,7 @@ The RetroDECK Team have been hard at work stirring the development cauldron.
 
 ## Community Showcase: Decky Plugin - RetroDECKY
 
-<img src="./icon-RetroDECKY.svg" width="75" alt="RetroDECKY Icon"> 
+<img src="../../../icon-RetroDECKY.svg" width="75" alt="RetroDECKY Icon"> 
 
 **Link:** [GitHub: RetroDECKY](https://github.com/Teppichseite/RetroDecky)
 
@@ -37,13 +37,13 @@ The RetroDECK Team have been hard at work stirring the development cauldron.
 ### Screenshots
 
 <p>
-  <img src="./screenshot1.png" alt="RetroDECKY in-game menu" width="200">
-  <img src="./screenshot2.png" alt="RetroDECKY Adventure Art" width="200">
-  <img src="./screenshot3.png" alt="RetroDECKY Hotkey overview" width="200">
+  <img src="../../../screenshot1.png" alt="RetroDECKY in-game menu" width="200">
+  <img src="../../../screenshot2.png" alt="RetroDECKY Adventure Art" width="200">
+  <img src="../../../screenshot3.png" alt="RetroDECKY Hotkey overview" width="200">
 </p>
 
 <p>
-  <img src="./screenshot4.png" alt="RetroDECKY Hotkey Explination" width="600">
+  <img src="../../../screenshot4.png" alt="RetroDECKY Hotkey Explination" width="600">
 </p>
 
 ---
@@ -116,40 +116,50 @@ With the updated publication pipeline, that number will increase to **four**:
 
 ### RetroDECK Epicure
 
-<img src="../rd-epicure-icon.svg" width="75" alt="RetroDECK Countertop Icon"> <img src="../rd-epicure-configurator.svg" width="75" alt="RetroDECK Countertop Configurator Icon"> 
+<img src="../../../rd-epicure-icon.svg" width="75" alt="RetroDECK Countertop Icon"> <img src="../../../rd-epicure-configurator.svg" width="75" alt="RetroDECK Countertop Configurator Icon"> 
 
-*Epicure*
-
-*A user who cultivates refined taste and appreciation, eager to savor even the smallest preview of the latest culinary experiences, an apéritif of what is yet to come.*
+*Epicure: A user who cultivates refined taste and appreciation, eager to savor even the smallest preview of the latest culinary experiences, an apéritif of what is yet to come.*
 
 **RetroDECK Epicure** is a new testing branch designed to bridge the gap between the **Cooker** and **Stable** releases by leveraging the `flathub.beta` repository intended for testing users.
 
 Installation and updates are streamlined: users simply install RetroDECK Epicure from the `flathub.beta` repository. Updates are then delivered automatically through Flathub via your software center, such as Discover, Bazaar, or GNOME Software.
 
-Unlike **Cooker**, which focuses on bleeding-edge changes and new features, **Epicure** is built on the **Stable** branch while automatically integrating the latest pre-release or unstable builds of individual components.
+Unlike **Cooker**, which focuses on bleeding-edge changes and new features. **Epicure** is built on the **Stable** branch while automatically integrating the latest pre-release or unstable builds of individual components.
 
 The goal is for Epicure to follow an automatic biweekly release schedule.
 
 This approach provides testing users with access to newer component versions while maintaining a reliable and stable base. However, if a component introduces major changes, automatic builds may temporarily break for that component until they are addressed in a subsequent Epicure update.
 
-Epicure serves a dual purpose: to support users who prefer more bleeding-edge, less stable component versions (with all the risks that entails, as this is still a testing branch) and to expand the tester base to identify and report issues earlier in the release cycle before they reach the **Stable** branch.
+Epicure serves a dual purpose: 
+
+- To support users who prefer more bleeding-edge, less stable component versions (with all the risks that entails, as this is still a testing branch).
+- To expand the tester base to identify and report issues earlier in the release cycle before they reach the **Stable** branch.
+
+#### RetroDECK Team Comment
+
+We decided on a green and yellow logo that symbolize ingredients that are not yet fully cooked and are being prepared over an open flame.
 
 ---
 
-
 ### RetroDECK Countertop
 
-<img src="../rd-countertop-icon.svg" width="75" alt="RetroDECK Countertop Icon"> <img src="../rd-countertop-configurator.svg" width="75" alt="RetroDECK Countertop Configurator Icon"> 
+<img src="../../../rd-countertop-icon.svg" width="75" alt="RetroDECK Countertop Icon"> <img src="../../../rd-countertop-configurator.svg" width="75" alt="RetroDECK Countertop Configurator Icon"> 
 
-*Countertop*
+*Countertop: a self-directed chef. One who brings their own ingredients, crafts their own masterpiece and refines their recipe with the ambition of one day contributing to the final buffet.*
 
-*A self-directed chef. One who brings their own ingredients, crafts their own masterpiece, and refines their recipe with the ambition of one day contributing to the final buffet.*
+**RetroDECK Countertop** is a development branch based on **Cooker** and intended for developers. 
 
-**RetroDECK Countertop** is a development branch based on **Cooker** and intended for developers. It is a minimal, stripped-down build of RetroDECK that includes the RetroDECK Framework, ES-DE, and a set of development tools.
+It is a minimal, stripped-down build of RetroDECK that includes the RetroDECK Framework, ES-DE, and a set of development tools.
 
-Countertop excludes the standard bundled components, providing a lightweight environment for experimentation, tinkering, and integration work. It serves as a practical sandbox for developers who wish to prototype and test new components within the RetroDECK ecosystem without repeatedly downloading the full RetroDECK package with all components included.
+Countertop excludes the standard bundled components, providing a lightweight environment for experimentation, tinkering, and integration work. 
 
-This streamlined configuration enables faster iteration and more focused development within the RetroDECK environment.
+It serves as a practical sandbox for developers who wish to prototype and test new components within the RetroDECK ecosystem without repeatedly downloading the full RetroDECK package with all components included.
+
+This streamlined "Mini-RetroDECK" should enable faster iteration and more focused development within the RetroDECK environment.
+
+#### RetroDECK Team Comment
+
+We chose a white logo to symbolize a blank slate, an empty canvas or a white marble kitchen island ready for ingredients.
 
 ---
 

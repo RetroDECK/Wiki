@@ -23,7 +23,7 @@ Cooker Final builds represent the last stage of the cooker phase before transiti
 
 - Feature set and scope are locked.
 - Include all features and changes intended for the upcoming release.
-- No new features are added beyond this point; only stabilization and fixes.
+- No new features are added beyond this point, only stabilization and fixes.
 
 ### Release Candidate (RC) Builds
 
@@ -45,8 +45,6 @@ Only builds published on **Flathub** are considered stable releases.
 - Fully vetted, stable, and suitable for end users.
 - Represent the final, publicly supported version of the software.
 
-
-
 ---
 
 
@@ -63,7 +61,7 @@ Copy the alias definitions from:  [RetroDECK: bashrc Functions and Aliases](../g
 
 If you want to trigger the upgrade script again between a version upgrade to try something out.
 
-You can do it via CLI (recommend) or Manually by editing the CFG file
+You can do it via CLI (recommend) or Manually by editing the CFG file.
 
 **CLI**
 
@@ -212,4 +210,4 @@ All logs will be saved in the new `retrodeck/logs` folder
 
 Thank you! ❤️
 
-
+---

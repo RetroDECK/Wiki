@@ -7,15 +7,31 @@ Please read carefully all information on this page.
 
 ---
 
-## Build Types Overview
+
+## Build Types Overview: Development & Test Builds
+
+| Build Type | Description |
+|------------|-------------|
+| **Countertop Builds** | Development builds for other developers. |
+| **Cooker Builds** | Bleeding-edge development builds for early testers with new features. |
+| **Cooker Final Builds** | Last stage of cooker before Release Candidate. |
+| **Epicure Builds** | Stable based testing builds published on Flathub-Beta with bleeding edge components. |
+
+### Countertop Builds
+
+Development builds intended for other developers.
+
+- Based on the current Cooker release.  
+- Includes only ES-DE, development tools, and the RetroDECK framework, no additional components.  
+- This is still a **testing branch** and backup steps still apply.
 
 ### Cooker Builds
 
 Cooker builds are published on the cooker Git release channel.  They are intended for testers who want early access to new features and are willing to provide feedback and bug reports. These builds are **not recommended for regular use**, as they **will** destabilize your RetroDECK experience.
 
-- Represent RetroDECK’s bleeding-edge development builds.
+- Represent RetroDECKs bleeding-edge development builds.
 - Include the latest features and experimental changes.
-- Intended exclusively for early testing; many changes may never reach a stable release.
+- Intended exclusively for early testing and many changes may never reach a stable release.
 
 ### Cooker Final Builds
 
@@ -24,6 +40,23 @@ Cooker Final builds represent the last stage of the cooker phase before transiti
 - Feature set and scope are locked.
 - Include all features and changes intended for the upcoming release.
 - No new features are added beyond this point, only stabilization and fixes.
+
+### Epicure Builds
+
+Test builds published on **Flathub-Beta**.
+
+- Based on the current stable release.  
+- Includes unvetted, bleeding-edge component versions instead of fully vetted stable components.  
+- More stable than **Cooker builds**, but may contain breaking bugs from upstream. There have been cases where a bleeding-edge component **corrupted or deleted** games, save files, or other data**.  
+- This is still a **testing branch** and backup steps still apply.
+
+## Build Types Overview: Pre-Release & Stable Builds
+
+| Build Type | Description |
+|------------|-------------|
+| **Release Candidate (RC) Builds** | Final testing builds before master release. |
+| **Master Release** | Completed builds pending distribution to flathub. |
+| **Stable Release** | Fully vetted builds published on Flathub. |
 
 ### Release Candidate (RC) Builds
 
@@ -95,19 +128,20 @@ This will trigger all the post-updates from `0.8.0b` to the current version you 
 
 ## Setup the Testing Environment: Take Your Backups (Critical!)
 
-Creating backups is **highly recommended**. The Cooker may overwrite or corrupt existing data.
+| What you should back up | Where|
+|-------------------------|--------------|
+| **RetroDECK Flatpak Persistent Data**  | `~/.var/app/net.retrodeck.retrodeck/` (settings, configs, internal files)  |
+| **RetroDECK Userdata** |  `~/retrodeck`  (or SD-card/external drive path)  |
 
-**Release Candidate (RC) builds** are generally more stable than Cooker builds, but they can still introduce breaking changes. Regardless of which testing build you use, taking backups is always recommended.
+Creating backups is **highly recommended** as development bleeding edge Cooker builds may overwrite, add or change existing data.
+
+Because the `retrodeck/` and `/var` directories are shared across versions and branches, **regular backups are recommended**, especially when testing beta or development builds that may modify configuration or data formats in both directories. Jumping from a bleeding-edge development build back to stable is **not recommended**.
+
+Regardless of which testing build you use, taking backups is always recommended.
 
 If something goes wrong and you **do not** have backups, your ROMs, BIOS files, save data, and configuration files may be **permanently lost**.
 
 The RetroDECK Team is not responsible for any data loss.
-
-| What you should back up | Where|
-|-------------------------|--------------|
-| **RetroDECK data** (settings, configs, internal files) | `~/.var/app/net.retrodeck.retrodeck/` |
-| **RetroDECK folder** (main folder)| ( `~/retrodeck` or SD-card/external drive path)  |
-
 
 ---
 
@@ -141,7 +175,7 @@ Thank you! ❤️
 ## Cooker Testing
 
 - Grab the latest cooker release from the [RetroDECK Cooker: Latest](https://github.com/RetroDECK/Cooker/releases/latest) page and place it in `~/Downloads`.
-- Note the `<version_id>` in the filename, e.g. `RetroDECK-Cooker‑X.X.Xb‑HelloWorld` → `HelloWorld`.
+- Note the `<version_id>` in the filename: `RetroDECK-Cooker‑X.X.Xb‑HelloWorld` → `HelloWorld`.
 
 
 ---

@@ -28,19 +28,40 @@ RetroDECK is a Flatpak - a sandboxed bundle containing applications, configurati
 
 ---
 
-## RetroDECK Flatpak CLI Shell Directory Paths
+## RetroDECK Flatpak Sandbox and Persistent Data
 
-In Debug Mode, the `/var` and `/app` directories inside the Flatpak sandbox are mapped differently from the host Linux filesystem.
+When accessing the Flatpak sandbox via the CLI in Debug Mode, internal directories such as `/app` and `/var` map to different locations on the host filesystem.
 
-```
-flatpak run --command=bash net.retrodeck.retrodeck --debug
-```
+This is part of Flatpak's sandboxing model:
 
-| **Sandbox Path** | **Corresponding Host Path** | **Comment** |
-|------------------|-----------------------------|-------------|
-| `/app` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/`<br>or<br>`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/`<br>Contains: `bin`, `lib`, `libexec`, `manifest-base-1.json`, `manifest.json`, `retrodeck`, `share`, `tools` | Read-only runtime environment provided by the Flatpak package. |
-| `/var` | `~/.var/app/net.retrodeck.retrodeck/` including subdirectories: `cache`, `config`, `data`, `db`, `home`, `mnt`, `opt`, `run`, `srv`, `tmp` | Writable portion of the sandbox storing configuration, cache, and component data. |
+- The application runtime under `/app` is **read-only**.  
+- `/var` provides **writable directories** for persistent user data, such as configuration, cache, and application-specific files.  
+- RetroDECK also creates a user-defined **userdata directory** `retrodeck/`, which can be placed wherever the user chooses.
 
+When the application is updated, the runtime under `/app` changes, but the writable data under `/var` (for example `config`, `cache`, and `data`) remains mostly unchanged (depending on the update).
+
+Because the `retrodeck/` and `/var` directories are shared across versions and branches, **regular backups are recommended**, especially when testing beta or development builds that may modify configuration or data formats in both directories. Jumping from a bleeding-edge development build back to stable is **not recommended**.
+
+See the [RetroDECK Testing Guide](https://retrodeck.readthedocs.io/en/latest/wiki_development/testing/retrodeck-testing/) for instructions on creating backups.
+
+| **Internal Path** | **Host Path** | **Comment** |
+|---|---|---|
+| `/app` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/`<br>or<br>`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | Read-only runtime environment provided by the Flatpak package. Contains: `bin`, `lib`, `libexec`, `manifest-base-1.json`, `manifest.json`, `retrodeck`, `share`, `tools`. |
+| `/var` | `~/.var/app/net.retrodeck.retrodeck/` | Writable portion of the sandbox. Contains application state directories such as `cache`, `config`, and `data`. |
+
+---
+
+## XDG Base Directory Paths in Flatpak
+
+The following table shows how XDG base directory variables map to their corresponding host paths. 
+
+These directories follow the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/latest/).
+
+| **XDG Variable** | **Host Path** | **Comment** |
+|---|---|---|
+| `XDG_CACHE_HOME` | `~/.var/app/net.retrodeck.retrodeck/cache/` | Cache directory. Corresponds to `$HOME/.cache` inside the Flatpak sandbox. |
+| `XDG_CONFIG_HOME` | `~/.var/app/net.retrodeck.retrodeck/config/` | Configuration directory. Corresponds to `$HOME/.config` inside the Flatpak sandbox. |
+| `XDG_DATA_HOME` | `~/.var/app/net.retrodeck.retrodeck/data/` | Application data directory. Corresponds to `$HOME/.local/share` inside the Flatpak sandbox. |
 
 ---
 

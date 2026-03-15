@@ -50,6 +50,8 @@ Test builds published on **Flathub-Beta**.
 - More stable than **Cooker builds**, but may contain breaking bugs from upstream. There have been cases where a bleeding-edge component **corrupted or deleted** games, save files, or other data**.  
 - This is still a **testing branch** and backup steps still apply.
 
+---
+
 ## Build Types Overview: Pre-Release & Stable Builds
 
 | Build Type | Description |

@@ -49,9 +49,9 @@ You need at least one.
 
 | Region | Typical BIOS Region / Use Case |
 |--------------|----------------------------------------|
-| NTSC‑U (USA / North America) | Used for North American PS2 games (60 Hz, NTSC format) |
-| PAL (Europe / Australia)| Used for European / PAL‑region games (50 Hz) |
-| NTSC‑J (Japan / Asia) | Required for Japanese PS2 games and imports (NTSC format)|
+| NTSC-U (USA / North America) | Used for North American PS2 games (60 Hz, NTSC format) |
+| PAL (Europe / Australia)| Used for European / PAL-region games (50 Hz) |
+| NTSC-J (Japan / Asia) | Required for Japanese PS2 games and imports (NTSC format)|
 
 
 **Read more here:** 

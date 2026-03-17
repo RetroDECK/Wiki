@@ -64,21 +64,28 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
- File Name | Required For | Description |
-|-----------|--------------|-------------|
-| `IPL.bin` | GameCube boot animation (optional) | Contains the GameCube system BIOS used to display the original startup intro and system menu before launching a game. |
+| File Name | Description |
+|-----------|-------------|
+| `IPL.bin` | GameCube boot animation (optional) |
+| `segaboot.gcm` | Triforce BIOS. |
 
 
 ### Where to put the GameCube BIOS?
 
 Dolphin looks for the `IPL.bin` in the save folders. Put each region's `IPL.bin` in the corresponding saves folder.
 
-| Type               | Directory                             | Comment              |
+| File Name                | Directory                             | Comment              |
 |:------------------:|:-------------------------------------|:-------------------|
-| GameCube Saves EU   | `retrodeck/saves/gc/dolphin/EU/`    | dolphin-emu/GC/EUR/ |
-| GameCube Saves JP   | `retrodeck/saves/gc/dolphin/JP/`    | dolphin-emu/GC/JAP/ |
-| GameCube Saves US   | `retrodeck/saves/gc/dolphin/US/`    | dolphin-emu/GC/USA/ |
+| `IPL.bin` EU   | `retrodeck/saves/gc/dolphin/EU/`    | dolphin-emu/GC/EUR/ |
+| `IPL.bin` JP   | `retrodeck/saves/gc/dolphin/JP/`    | dolphin-emu/GC/JAP/ |
+| `IPL.bin` US   | `retrodeck/saves/gc/dolphin/US/`    | dolphin-emu/GC/USA/ |
 
+
+### Where to put the Triforce BIOS?
+
+| File Name               | Directory                             | Comment              |
+|:------------------:|:-------------------------------------|:-------------------|
+|    `segaboot.gcm`     | `retrodeck/bios/Triforce/`    | dolphin-emu/Trifoce/ |
 
 ---
 
@@ -98,6 +105,7 @@ This shows what folder corresponds to each folder in the standard Dolphin struct
 | GameCube Saves EU   | `retrodeck/saves/gc/dolphin/EU/`    | dolphin-emu/GC/EUR/            |
 | GameCube Saves JP   | `retrodeck/saves/gc/dolphin/JP/`    | dolphin-emu/GC/JAP/            |
 | GameCube Saves US   | `retrodeck/saves/gc/dolphin/US/`    | dolphin-emu/GC/USA/            |
+| Triforce BIOS          | `retrodeck/bios/Triforce/`    | dolphin-emu/Trifoce/            |
 | Mods               | `retrodeck/mods/Dolphin/`           | dolphin-emu/Load/GraphicMods/  |
 | ROMs Gamecube       | `retrodeck/roms/gc/`               |                                |
 | ROMs Wii            | `retrodeck/roms/wii/`              |                                |

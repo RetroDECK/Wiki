@@ -244,7 +244,7 @@ If all is correct the textures should be loaded on next game launch.
 
 ---
 
-## Gamecube Controls
+## Gamecube / Triforce Controls
 
 The controls here are described as an Xbox Layout style controller.
 
@@ -262,6 +262,9 @@ The controls here are described as an Xbox Layout style controller.
 | D-Pad Down      | `D-Pad Down` |         |
 | D-Pad Left      | `D-Pad Left` |         |
 | D-Pad Right     | `D-Pad Right`|         |
+| Triforce Test Mode     | `L3` |         |
+| Triforce Service Mode     | `R3` |         |
+| Triforce Insert Credit     | `SELECT`|         |
 
 ---
 

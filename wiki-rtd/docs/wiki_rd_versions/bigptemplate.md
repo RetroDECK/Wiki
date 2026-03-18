@@ -24,25 +24,25 @@ This is a huge update we do recommend you take a backup before doing it on your 
 
 ### RetroDECK API
 
-<img src="../../../wiki_icons/retrodeck/icon-api.svg" width="75" alt="">
+<img src="../../../wiki_icons/retrodeck/icon-api.svg" width="75" alt="RetroDECK API Icon">
 
 ### Core Architecture
 
-<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="75" alt="">
+<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="75" alt="RetroDECK Framework Logo">
 
 ### RetroDECK Assembler 
 
-<img src="../../../wiki_icons/retrodeck/icon-assembler.svg" width="75" alt="">
+<img src="../../../wiki_icons/retrodeck/icon-assembler.svg" width="75" alt="RetroDECK Assembler Icon">
 
 ### RetroDECK Alchemist & The Component System
 
-<img src="../../../wiki_icons/retrodeck/icon-alchemist.svg" width="75" alt=""> 
+<img src="../../../wiki_icons/retrodeck/icon-alchemist.svg" width="75" alt="RetroDECK Alchemist Icon"> 
 
 ---
 
 ## RetroDECK Framework
 
-<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="75" alt="">
+<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="75" alt="RetroDECK Framework Logo">
 
 **Added:** 
 
@@ -63,7 +63,7 @@ This is a huge update we do recommend you take a backup before doing it on your 
 
 ## RetroDECK Configurator
 
-<img src="../../../wiki_icons/retrodeck/icon-configurator.svg" width="75" alt="">
+<img src="../../../wiki_icons/retrodeck/icon-configurator.svg" width="75" alt="RetroDECK Configurator Icon">
 
 
 **Added:** 

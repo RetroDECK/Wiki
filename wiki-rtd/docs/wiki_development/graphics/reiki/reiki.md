@@ -127,7 +127,7 @@ Reiki serves as a tribute to RetroDECK's component modularity, but also as a hug
 
 - Cheat Codes & Easter Eggs
 - Emulation
-- Game Modding & Game Enhancements & ROM Hacks
+- Game Modding & Game Enhancements & Fan Patches & ROM Hacks
 - Game Preservation Efforts
 - Game Reverse Engineering & Open-Source Retro Game Engines
 - Retro Gaming Culture

@@ -39,26 +39,6 @@ Configuring a sudo password is required for many optimizations and system-level 
 
 ---
 
-## Installing CryoUtilities
-
-**Prerequisite:** A configured `sudo` password is required before installation.
-
-CryoUtilities can create a 16 GB swap file, which may improve performance for certain components. Be aware that this swap file will consume 16 GB of storage space on your Steam Deck.
-
-**Installation Steps**
-
-1. Switch to **Desktop Mode** on your Steam Deck.  
-2. Open a web browser and navigate to the official  
-   **[CryoUtilities GitHub repository](https://github.com/CryoByte33/steam-deck-utilities)**.  
-3. Open the **Releases** section.  
-4. Download the latest `cryo_utilities` release and save it to your **Desktop** or **Home** directory.  
-5. Locate and double-click the downloaded file to begin the installation process.  
-6. After installation completes, a new desktop icon labeled **CryoUtilities** will appear.  
-7. Launch **CryoUtilities**.  
-8. Select **Recommended Settings** to apply the optimized configuration.
-
----
-
 ## Installing Decky Loader
 
 **Prerequisite:** A configured `sudo` password is required before installation.
@@ -104,4 +84,3 @@ Optimal settings depend on the specific hardware component and may vary between 
 AutoFlatpaks will now be accessible through the Decky Loader menu for convenient Flatpak management.
 
 ---
-

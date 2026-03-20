@@ -12,7 +12,6 @@ This is a curated list compiled by the RetroDECK Team, featuring recommended too
 
 | Tool / Plugin | Logo | Description | Link |
 |---------------|------|-------------|------|
-| **CryoUtilities** | <img src="../../wiki_images/logos/cryoutilities-logo.png" width="50" alt="Cryoutilities logo"> | Utility to improve performance and manage storage on the Steam Deck. | [CryoUtilities](https://github.com/CryoByte33/steam-deck-utilities) |
 | **Decky Loader** | <img src="../../wiki_images/logos/decky-loader-logo.png" width="200" alt="Decky Loader logo"> | Enables custom plugins in Steam Deck's Game Mode for advanced features. Follow the GitHub guide for installation. | [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) |
 | **Decky Plugin: AutoFlatpaks** | - | Manage, update, and install Flatpaks directly from Game Mode, including RetroDECK. | [AutoFlatpaks](https://github.com/jurassicplayer/decky-autoflatpaks) |
 | **Decky Plugin: Decky SteamgridDB** | - | Browse and manage Steam artwork from SteamGridDB or local files within Game Mode. | [Decky SteamgridDB](https://github.com/SteamGridDB/decky-steamgriddb) |

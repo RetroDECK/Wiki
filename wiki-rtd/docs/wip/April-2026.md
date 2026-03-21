@@ -39,7 +39,6 @@ This release is currently in active early development, with the team adding new 
 
 Version 0.11.0 introduces a new modular component: LibreOffice.
 
-
 ### Productivity Integration
 
 <img src="../LibreAlekfull.png" alt="LibreOffice" width="600">
@@ -70,11 +69,15 @@ LibreOffice can also be launched from the RetroDECK Configurator alongside other
 
 <img src="../LibreConfigurator.png" alt="LibreOffice Configurator" width="600">
 
+---
+
 ### 1990s Office Gaming Compatibility
 
 RetroDECK will also support legacy spreadsheet-based games created in the 1990s. Built in Excel using macros, clipart and complex logic systems by some madman in accounting.
 
 These files are compatible via LibreOffice, allowing users to run and explore classic “Excel games” within RetroDECK.
+
+---
 
 ### Example: Epic Office Races (1995)
 

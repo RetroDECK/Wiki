@@ -72,7 +72,7 @@ Use the sections below to quickly find what you need or use the left-hand panel 
 |----------|------|-------------|
 | 🌍 Github Status | [GitHub Status](https://www.githubstatus.com/) | GitHub platform service status |
 | 🌍 Flathub Status | [Flathub Status](https://status.flathub.org/) | Flathub platform service status |
-| 🤖 Flathub Buildbot Status | [Flathub Buildbot](https://buildbot.flathub.org/#/apps/net.retrodeck.retrodeck) | Live build status for net.retrodeck.retrodeck on Flathub |
+| 🤖 Flathub Buildbot Status | [Flathub Buildbot](https://builds.flathub.org/status/net.retrodeck.retrodeck) | Live build status for net.retrodeck.retrodeck on Flathub |
 
 ---
 

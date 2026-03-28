@@ -2,7 +2,9 @@
 
 ## [XargonWan](https://github.com/XargonWan)
 
-Founder of RetroDECK and one of the founding members of [AmberELEC](https://amberelec.org/).
+**Founder of RetroDECK**
+
+Primary founder and driving force behind RetroDECK also one founding member of [AmberELEC](https://amberelec.org/).
 
 Without him the project would not exist. 
 
@@ -14,14 +16,17 @@ Without him the project would not exist.
 - RetroENGINE
 ```
 
-
 <details><summary> </summary>
 Grand General of the LDPI (La Legione Della Pizza Italiana) also known as the Napoletanan Fist in the internal pizza war.
 </details>
 
+---
+
 ## [Lazorne](https://github.com/Lazorne)
 
-Maestro of RetroDECK.
+**Maestro of RetroDECK**
+
+Orchestrates community engagement, technical coordination and project governance to ensure the ecosystem's stability and growth.
 
 ```
 - Community Management/Outreach
@@ -34,33 +39,17 @@ Maestro of RetroDECK.
 - Wiki Documentation
 ```
 
-
-
 <details><summary> </summary>
 Maestro of the Wiki and also the cult leader of the NPC (The Nordic Pizza Cult) also called by the others as "The Pizza Heresy Cult" or "Harbingers of Pizza Chaos". Instigator of the internal pizza war.
 </details>
 
-## [jiannazzone](https://github.com/jiannazzone)
-
-Front end  and UI/UX Development.
-
-```
-- Community Outreach
-- Front end and UI/UX
-- Godot
-- Website
-- Art & Assets
-```
-
-<details><summary> </summary>
-MCCP branch operative against the NPC faction and have a loose alliance with the IPL. 
-</details>
+---
 
 ## [IceNine451](https://github.com/icenine451)
 
-Lead Technical Architect.
+**Lead Technical Architect**
 
-Creator of the `RetroDECK Configurator`, the `RetroDECK Framework` and various cool things.
+Creator and primary architect of the RetroDECK ecosystem. Including the RetroDECK Framework and RetroDECK Configurator, alongside additional cool things.
 
 
 ```
@@ -71,28 +60,18 @@ Creator of the `RetroDECK Configurator`, the `RetroDECK Framework` and various c
 - RetroDECK API
 ```
 
-
 <details><summary> </summary>
 Freedom loving leader of the MCCP (Murican Cheese Crust Patriots) in the internal pizza war.
 </details>
 
-
-## [WallK](https://github.com/WallK)
-
-Godot Development.
-
-```
-- Godot Development
-```
-
-
-<details><summary> </summary>
-Pizza Mercenary
-</details>
+---
 
 ## Lahrs 
 
-Arcade veteran, deep knowledge of all things retro.
+**Arcade Veteran & Retro Specialist**
+
+Deeply knowledgeable in retro gaming history and architecture. Serving as a vital link between technical development and the user base also got expertise in artistic direction and iconography.
+
 
 ```
 - Component Configurations
@@ -109,6 +88,23 @@ Arcade veteran, deep knowledge of all things retro.
 MCCP champion of the Pizza buffét.
 </details>
 
+---
+
+## [WallK](https://github.com/WallK)
+
+**Godot Engine Developer**
+
+Specializes in the design, implementation and optimization of the Godot game engine parts in RetroDECK.
+
+```
+- Godot Development
+```
+
+<details><summary> </summary>
+Pizza Mercenary
+</details>
+
+---
 
 
 ## Special Thanks
@@ -128,3 +124,5 @@ MCCP champion of the Pizza buffét.
 - All the community creators who creates various art and assets for the community.
 
 You are all the ones that makes this project possible.
+
+---

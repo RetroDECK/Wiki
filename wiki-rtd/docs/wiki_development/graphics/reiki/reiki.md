@@ -10,7 +10,11 @@
 
 Her most distinctive feature is her component based **modular dorsal fin system**.
 
-Reiki uses her **dorsal fin slot** allowing her to swap **component-fins** depending on the task at hand. Each **component-fin** module changes both her appearance and abilities, effectively giving her a "loadout change" for every challenge and making her endlessly adaptable.
+Reiki uses her **dorsal fin slot** allowing her to swap **component-fins** depending on the task at hand. 
+
+Each **component-fin** module changes both her appearance and abilities, effectively giving her a "loadout change" for every challenge and making her endlessly adaptable.
+
+**Examples:**
 
 - UZDoom component - Rip and tear, until it is done 🦈!
 
@@ -18,7 +22,7 @@ Reiki uses her **dorsal fin slot** allowing her to swap **component-fins** depen
 
 - Mega Drive component - Gotta swim fast!
 
-- PCSX2 component - Start the Emotion Engine and go help Cocoto fish!
+- PCSX2 component - Start the Emotion Engine!
 
 ---
 
@@ -111,13 +115,15 @@ The concept also reflects the project's blend of Western and Asian influences, w
 
 ### Early Concepts and Goals
 
-The first initial internal concept was a cyborg cat. However, the idea was considered too generic, and the team sought to collaborate with an artist to develop a more distinctive character.
+The first initial internal concept was a cyborg cat. However, the idea was considered too generic and the team sought to collaborate with an artist to develop a more distinctive character.
 
-This led to exploring retro-inspired mascot designs, aiming for a character that could represent the project globally across its various components. During this phase, the concept evolved into a "retro genie" mascot, inspired by classic characters such as the Game Genie, Shantae, Jeannie, Shamir Shamazel and Jinn Genie.
+This led to exploring retro-inspired mascot designs. Aiming for a character that could represent the project globally across its various components. 
 
-At the end of 2022, discussions between Tyson Tan and a RetroDECK team member planted the seed for a collaboration on a mascot, though due to scheduling constraints nothing emerged at that time. Over the following years, the dialogue continued, while the RetroDECK team in parallel explored other options as well.
+The concept evolved into a "retro genie" mascot inspired by classic characters such as: the Game Genie, Shantae, Jeannie, Shamir Shamazel and Jinn Genie.
 
-In the end, Tyson and the RetroDECK team got together again in 2025 when both their schedules aligned, ultimately leading to a revised concept suggested by Tyson that combined the cyber aspect and animal concept of the cat with the retro genie elements from earlier inspired ideas, culminating in Reiki the Cyber Shark as a riff on "GameShark".
+At the end of 2022, discussions between Tyson Tan and a RetroDECK team member planted the seed for a collaboration on a mascot. Though due to scheduling constraints nothing emerged at that time. Over the following years the dialogue continued, while the RetroDECK team in parallel explored other options as well.
+
+Tyson and the RetroDECK team got together again in 2025 when both their schedules aligned, ultimately leading to a revised concept suggested by Tyson that combined the cyber aspect and animal concept of the cat with the retro genie elements from earlier inspired ideas thus culminating in Reiki the Cyber Shark as a riff on "GameShark".
 
 ---
 
@@ -129,9 +135,10 @@ Reiki serves as a tribute to RetroDECK's component modularity, but also as a hug
 - Emulation
 - Game Modding & Game Enhancements & Fan Patches & ROM Hacks
 - Game Preservation Efforts
+- Shareware, Abandonware and Vaporware
 - Game Reverse Engineering & Open-Source Retro Game Engines
 - Retro Gaming Culture
-- Old School Text Walkthroughs, FAQs, and README
+- Old School Text Walkthroughs, FAQs and READMES
 
 ---
 

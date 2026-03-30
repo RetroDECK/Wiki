@@ -8,11 +8,11 @@ Applications that are not native on Steam get a random AppID number.
 
 ## Steam Folder structure
 
-| Type    | Folder                 | Comment     | 
-|  :---:  | :---:                  | :---:     |
-| Steam Default Templates Folder |`~/.steam/steam/controller_base/templates/` |                           |  
-| Application Templates Folder |`~/.steam/steam/steamapps/common/Steam Controller Configs/<AppID>/config/retrodeck/` | Temporary changes are stored here |
-| Steam Binding Icons Folder |`~/.steam/steam/tenfoot/resource/images/library/controller/binding_icons/` |                               |                             |  
+|              Type              |                                        Folder                                        |              Comment              |
+| :----------------------------: | :----------------------------------------------------------------------------------: | :-------------------------------: |
+| Steam Default Templates Folder |                     `~/.steam/steam/controller_base/templates/`                      |                                   |
+|  Application Templates Folder  | `~/.steam/steam/steamapps/common/Steam Controller Configs/<AppID>/config/retrodeck/` | Temporary changes are stored here |
+|   Steam Binding Icons Folder   |      `~/.steam/steam/tenfoot/resource/images/library/controller/binding_icons/`      |                                   |  |
 
 
 
@@ -163,22 +163,30 @@ We add the template type by the end of the title and description.
 
 ### What Controllers does Steam Input Support?
 
-| Manufacturer | System              | Controller                | .vdf file                                 | RetroDECK Support | Comment |
-|--------------|---------------------|---------------------------|-------------------------------------------|------------|---------|
-| 3rd Party / Generic    | Many      |                           | `controller_generic.vdf`                  | Yes        |         |
-| Android      | Cellphones / Tables | Touchscreen               | `controller_android.vdf`                  | No         |         |
-| Apple        | Cellphones / Tables | Touchscreen               | `controller_apple.vdf`                    | No         |         |
-| Generic Mobile| Cellphones / Tables | Touchscreen               | `controller_mobile_touch.vdf`            | No         |         |
-| Microsoft    | Xbox 360            | Xbox 360 Controller       | `controller_xbox360.vdf`                  | Yes        |         |
-| Microsoft    | Xbox One            | Xbox One Controller       | `controller_xboxone.vdf`                  | Yes        |         |
-| Microsoft    | Xbox Series X       | Xbox Series X Controller  | `controller_xboxone.vdf`                  | Yes        |         |
-| Nintendo     | Nintendo Switch     | Nintendo Switch Pro       | `controller_switch_pro.vdf`               | Yes        |         |
-| Nintendo     | Nintendo Switch     | Switch Joycons            | `controller_switch_joycon_left.vdf` and `controller_switch_joycon_right.vdf` | No         |         |
-| Sony         | PlayStation 3       | DualShock 3               | `controller_ps3.vdf`                      | Yes        |         |
-| Sony         | PlayStation 4       | DualShock 4               | `controller_ps4.vdf`                      | Yes        |         |
-| Sony         | PlayStation 5       | DualSense                 | `controller_ps5.vdf`                      | Yes        |         |
-| Valve        | Steam               | Steam Controller          | `controller_steamcontroller_gordon.vdf`   | Yes        |         |
-| Valve        | Steam Deck          | Steam Deck Controller     | `controller_neptune.vdf`                  | Yes        |         |
+| Manufacturer        | System              | Controller                    | .vdf file                                                                    | RetroDECK Support | controller_type                                                      | Comment |
+| ------------------- | ------------------- | ----------------------------- | ---------------------------------------------------------------------------- | ----------------- | -------------------------------------------------------------------- | ------- |
+| 3rd Party / Generic | -                   | Multiple                      | `controller_generic.vdf`                                                     | Yes               | `controller_generic`                                                 |         |
+| ASUS                | -                   | ROG Ally                      | `controller_rog_ally.vdf`                                                    | No                | `controller_rog_ally`                                                |         |
+| Android             | Cellphones / Tables | Touchscreen                   | `controller_android.vdf`                                                     | No                | `controller_android`                                                 |         |
+| Apple               | Cellphones / Tables | Touchscreen                   | `controller_apple.vdf`                                                       | No                | `controller_apple`                                                   |         |
+| Generic Mobile      | Cellphones / Tables | Touchscreen                   | `controller_mobile_touch.vdf`                                                | No                | `controller_mobile_touch`                                            |         |
+| Hori                | -                   | Wireless HORIPAD for Steam    | `controller_hori_steam.vdf`                                                  | No                | `controller_hori_steam`                                              |         |
+| Lenovo              | Lenovo Legion Go S  | Lenovo Legion Go S Controller | `controller_legion_go_s.vdf`                                                 | No                | `controller_legion_go_s`                                             |         |
+| Microsoft           | Xbox 360            | Xbox 360 Controller           | `controller_xbox360.vdf`                                                     | Yes               | `controller_xbox360`                                                 |         |
+| Microsoft           | Xbox One            | Xbox One Controller           | `controller_xboxone.vdf`                                                     | Yes               | `controller_xboxone`                                                 |         |
+| Microsoft           | Xbox One            | Xbox Series X Controller      | `controller_xboxone.vdf`                                                     | Yes               | `controller_xboxone`                                                 |         |
+| Microsoft           | Xbox Series X       | Xbox Elite Controller         | `controller_xboxelite.vdf`                                                   | No                | `controller_xboxelite`                                               |         |
+| Nintendo            | Nintendo Switch     | Nintendo Switch Pro           | `controller_switch_pro.vdf`                                                  | Yes               | `controller_switch_pro`                                              |         |
+| Nintendo            | Nintendo Switch     | Switch Joycons                | `controller_switch_joycon_left.vdf` and `controller_switch_joycon_right.vdf` | No                | `controller_switch_joycon_left` and `controller_switch_joycon_right` |         |
+| Sony                | PlayStation 3       | DualShock 3                   | `controller_ps3.vdf`                                                         | Yes               | `controller_ps3`                                                     |         |
+| Sony                | PlayStation 4       | DualShock 4                   | `controller_ps4.vdf`                                                         | Yes               | `controller_ps4`                                                     |         |
+| Sony                | PlayStation 5       | DualSense                     | `controller_ps5.vdf`                                                         | Yes               | `controller_ps5`                                                     |         |
+| Sony                | PlayStation 5       | DualSense Edge                | `controller_ps5_edge.vdf`                                                    | Yes               | `controller_ps5_edge`                                                |         |
+| Valve               | Steam Machine 2014  | Steam Controller (Gordon)     | `controller_steamcontroller_gordon.vdf`                                      | Yes               | `controller_steamcontroller_gordon`                                  |         |
+| Valve               | Steam Machine 2026  | Steam Controller (Headcrab)   | `controller_steamcontroller_headcrab.vdf`                                    | No                | `controller_steamcontroller_headcrab`                                |         |
+| Valve               | Steam Deck          | Steam Deck Controller         | `controller_neptune.vdf`                                                     | Yes               | `controller_neptune`                                                 |         |
+
+
 
 ### How does RetroDECK Inject the Templates and Custom Icons?
 

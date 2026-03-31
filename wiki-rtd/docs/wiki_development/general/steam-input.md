@@ -182,10 +182,12 @@ We add the template type by the end of the title and description.
 | Sony                | PlayStation 4       | DualShock 4                   | `controller_ps4.vdf`                                                         | Yes               | `controller_ps4`                                                     |         |
 | Sony                | PlayStation 5       | DualSense                     | `controller_ps5.vdf`                                                         | Yes               | `controller_ps5`                                                     |         |
 | Sony                | PlayStation 5       | DualSense Edge                | `controller_ps5_edge.vdf`                                                    | Yes               | `controller_ps5_edge`                                                |         |
-| Valve               | Steam Machine 2014  | Steam Controller (Gordon)     | `controller_steamcontroller_gordon.vdf`                                      | Yes               | `controller_steamcontroller_gordon`                                  |         |
-| Valve               | Steam Machine 2026  | Steam Controller (Headcrab)   | `controller_steamcontroller_headcrab.vdf`                                    | No                | `controller_steamcontroller_headcrab`                                |         |
+| Valve               | Steam Machine 2015  | Steam Controller (Gordon)     | `controller_steamcontroller_gordon.vdf`                                      | Yes               | `controller_steamcontroller_gordon`                                  |         |
+| Valve               | Steam Machine 2026  | Steam Controller (Triton)   | `controller_triton.vdf`                                    | No                | `controller_triton`                                |         |
 | Valve               | Steam Deck          | Steam Deck Controller         | `controller_neptune.vdf`                                                     | Yes               | `controller_neptune`                                                 |         |
 
+
+controller_triton
 
 
 ### How does RetroDECK Inject the Templates and Custom Icons?

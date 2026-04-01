@@ -27,7 +27,7 @@ The RetroDECK Team have been hard at work stirring the development cauldron.
 
 ## Development Update: 0.11.0
 
-<img src="../rd-april-fools-2026-splash.svg" alt="LibreOffice Bootlogo" width="500">
+<img src="../../../rd-april-fools-2026-splash.svg" alt="LibreOffice Bootlogo" width="500">
 
 We have begun development on the upcoming major update, **0.11.0**.
 
@@ -41,7 +41,7 @@ Version 0.11.0 introduces a new modular component: LibreOffice.
 
 ### Productivity Integration
 
-<img src="../LibreAlekfull.png" alt="LibreOffice" width="600">
+<img src="../../../LibreAlekfull.png" alt="LibreOffice" width="600">
 
 RetroDECK includes basic productivity support through integrated LibreOffice, enabling users to open and edit standard document formats directly within the environment.
 
@@ -67,7 +67,7 @@ It supports all major Microsoft Office and LibreOffice document types.
 
 LibreOffice can also be launched from the RetroDECK Configurator alongside other components.
 
-<img src="../LibreConfigurator.png" alt="LibreOffice Configurator" width="600">
+<img src="../../../LibreConfigurator.png" alt="LibreOffice Configurator" width="600">
 
 ---
 
@@ -81,7 +81,7 @@ These files are compatible via LibreOffice, allowing users to run and explore cl
 
 ### Example: Epic Office Races (1995)
 
-<img src="../LibreAlekfull2.png" alt="LibreOffice Configurator" width="600">
+<img src="../../../LibreAlekfull2.png" alt="LibreOffice Configurator" width="600">
 
 *Epic Office Races (1995)* is a classic spreadsheet-based game built in Excel, known being highly moddable. Tracks can be extended by editing cells in what ever shape you want.
 

@@ -12,6 +12,10 @@ Use the sections below to quickly find what you need or use the left-hand panel 
 ![Flathub](https://img.shields.io/flathub/v/net.retrodeck.retrodeck)
 ![GitHub](https://img.shields.io/github/license/XargonWan/RetroDECK)
 
+🏗️ **Updating for 0.11.0**  🏗️
+
+This wiki is being slowly updated for version **0.11.0**. Some articles may not reflect the current stable release.
+
 ---
 
 ### 🚀 Getting Started

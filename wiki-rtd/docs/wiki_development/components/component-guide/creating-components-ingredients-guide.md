@@ -19,8 +19,6 @@ component_recipe.json
 component_launcher.sh
 component_functions.sh
 component_manifest.json
-component_prepare.sh
-component_update.sh
 ```
 
 
@@ -78,9 +76,6 @@ Then PR it to the [RetroDECK/components/cooker](https://github.com/RetroDECK/com
 
 - [component_manifest.json](../component-files/component-ingredient-manifest.md)
 
-- [component_prepare.sh](../component-files/component-ingredient-prepare.md)
-
-
 ---
 
 ## Step 5: Add the Ingredient files
@@ -91,7 +86,6 @@ Add the Ingredient files to: `retrodeck/components/<component_name>`
 components/<component_name>/component_launcher.sh 
 components/<component_name>/component_manifest.json
 components/<component_name>/component_functions.sh
-components/<component_name>/component_prepare.sh
 ```
 
 **Example:**
@@ -100,7 +94,6 @@ components/<component_name>/component_prepare.sh
 components/cemu/component_launcher.sh 
 components/cemu/component_manifest.json
 components/cemu/component_functions.sh
-components/cemu/component_prepare.sh
 ```
 
 

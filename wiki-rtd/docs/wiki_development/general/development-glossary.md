@@ -239,10 +239,6 @@ Provide the RetroDECK framework with all the metadata, scripts, and library info
 | Ingredient File                     | Role |
 |--------------------------|------------------------------------------------------------|
 | **component_launcher.sh** | Sets up the environment and launches the component in its sandbox. |
-| **component_functions.sh** | Declares config‑file paths and component‑specific helper functions (e.g., firmware install, configurator actions). |
+| **component_functions.sh** | Declares config‑file paths and component‑specific helper functions (e.g., firmware install, configurator actions).  Handles one‑time setup: reset configs, prepare directories, move/backup data, upgrading tasks between RetroDECK versions and apply post‑move tweaks.|
 | **component_manifest.json** | Stores metadata and functional data for RetroDECK: name, description, supported systems, menu entries, preset options, actions, and optional core info. |
-| **component_prepare.sh** | Handles one‑time setup: reset configs, prepare directories, move/backup data, and apply post‑move tweaks. |
-| **component_update.sh** | It's like prepare but keeps track of upgrading tasks between RetroDECK versions for that specific component. |
-
-
 ---

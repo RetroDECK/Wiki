@@ -31,15 +31,15 @@ This emulator is under rapid development and considered **bleeding edge**. It ma
 
 ## Where to put the games?
 
-PS3 games comes either as a Blu-ray rip folder with a bunch of different files or a digital PSN title that needs to be installed (see guide on this page).
+PS3 games comes either as a Blu-ray rip directory with a bunch of different files or a digital PSN title that needs to be installed (see guide on this page).
 
-PS3 games should be put under the `retrodeck/roms/ps3/` folder.
+PS3 games should be put under the `retrodeck/roms/ps3/` directory.
 
 ---
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
+<img src="../../../wiki_icons/pixelitos/directory-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -63,7 +63,7 @@ There are two ways to install the firmware:
 
 1. Open RPCS3 `RetroDECK Configurator` - `RetroDECK: Tools` - `Install: RPCS3 Firmware`.
 2. Press `OK` and this will download the PS3 Firmware and open RPCS3.
-3. You will get a prompt asking if you want to install the firmware from the /tmp/ folder, say `Yes`
+3. You will get a prompt asking if you want to install the firmware from the /tmp/ directory, say `Yes`
 4. Wait for the installation to finish
 5. Exit RPCS3 from the GUI under `File → Exit`
 
@@ -79,12 +79,12 @@ There are two ways to install the firmware:
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
+<img src="../../../wiki_icons/pixelitos/directory-blue-activities.png" width="35" alt="">
 
 | Type        | Directory                                   | Comment                                  |
 |:-----------:|:--------------------------------------------|:-----------------------------------------|
 | Captures    | `retrodeck/storage/rpcs3/captures`          | Debug captures                 |
-| Config      | `~/.var/app/net.retrodeck.retrodeck/config/rpcs3/` | Various config `.yml` and system folders |
+| Config      | `~/.var/app/net.retrodeck.retrodeck/config/rpcs3/` | Various config `.yml` and system directorys |
 | Dev_bdvd    | `retrodeck/storage/rpcs3/dev_bdvd`          |                                          |
 | Dev_flash   | `retrodeck/storage/rpcs3/dev_flash`         |                                          |
 | Dev_flash2  | `retrodeck/storage/rpcs3/dev_flash2`        |                                          |
@@ -109,33 +109,39 @@ There are two methods of adding the games. For more details read here: [ES-DE RP
 
 <img src="../rpcs3-create-shortcut.png" width="800" alt="">
 
-This method can be used for all types of rips/dumps, both directories and installed digital titles. It's the default method for RetroDECK.
+This method can be used for all types of rips/dumps, directories, isos and installed digital titles. It's the default method for RetroDECK.
 
 1. **Open RPCS3:** Open RPCS3 from the RetroDECK Configurator.
 2. **Add the game to RPCS3:** Click on `File` in the menu bar, select `Add Game`, and browse to the location of the game you want to add.
 3. **Verify the game in RPCS3:** The game will now appear in the RPCS3 game list.
 4. **Create a desktop shortcut:** `Right-click` on the game in the RPCS3 game list, select `Manage Game`, and click on `Create Desktop Shortcut`.
-5. **Move the shortcut to the roms/ps3 folder:** This will create a shortcut to the game on your Desktop. Move that shortcut into the `retrodeck/roms/ps3` folder.
+5. **Move the shortcut to the roms/ps3 directory:** This will create a shortcut to the game on your Desktop. Move that shortcut into the `retrodeck/roms/ps3` directory.
 6. **Restart and Launch RetroDECK:** If RetroDECK was previously open, restart it to ensure corrected file paths are applied during startup. The game will then appear under the **PS3** category.
+
+#### Note: Encrypted .iso
+
+A encrypted iso image needs to be decrypted with it's corresponding `.dkey` or `.key` file next to the game inside `retrodeck/roms/ps3`.
+
+**Example:**  `retrodeck/roms/ps3/Hockey World.iso` & `retrodeck/roms/ps3/Hockey World.key`
 
 ### Method 2: Folder-Based Games as `.ps3` Directories - **Not Recommended**
 
-This method can only be used for folder type game dumps. To get the games to show up, you need to rename the folder to end with a `.ps3` file extension.
+This method can only be used for directory type game dumps. To get the games to show up, you need to rename the directory to end with a `.ps3` file extension.
 
 **Prerequisite:** You will need to change the ES-DE Settings from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)` in ES-DE.
 
 1. **Open RetroDECK and access ES-DE settings:** Launch RetroDECK and in the ES-DE Frontend, navigate to **ES-DE Configurations**.
 2. **Modify the PS3 emulator settings:** Go to **Other Settings**, select **Alternative Emulators**, and choose **PS3**.
 3. **Change the emulator type:** Change the value from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)`, and exit RetroDECK to save the changes.
-4. **Locate the game folder:** Go to the `retrodeck/roms/ps3` folder and place your folder dumps there.
-5. **Rename the folder:** Change the name of the folder so it ends with `.ps3`.
+4. **Locate the game directory:** Go to the `retrodeck/roms/ps3` directory and place your directory dumps there.
+5. **Rename the directory:** Change the name of the directory so it ends with `.ps3`.
 6. **Restart and Launch RetroDECK:** If RetroDECK was previously open, restart it to ensure corrected file paths are applied during startup. The game will then appear under the **PS3** category.
 
 ### Example
 
-You have a folder dump of a Blu-ray PlayStation 3 game called Hockey World. 
+You have a directory dump of a Blu-ray PlayStation 3 game called Hockey World. 
 
-The folder is named `Hockey World`. To get it to show up, you need to rename it to `Hockey World.ps3`. 
+The directory is named `Hockey World`. To get it to show up, you need to rename it to `Hockey World.ps3`. 
 
 The game will then appear in RetroDECK.
 
@@ -160,22 +166,22 @@ Game updates must be installed **incrementally and in release order**. For examp
 
 ### Optional: Using `.ps3` Folder Structure
 
-Some users may want to include their DLC or PATCH files inside the game folder for archiving purposes, or just to avoid having these contents spread in the RPCS3 filesystem. It's fully optional but to do so, follow these steps:
+Some users may want to include their DLC or PATCH files inside the game directory for archiving purposes, or just to avoid having these contents spread in the RPCS3 filesystem. It's fully optional but to do so, follow these steps:
 
-1. **Locate the installed files:** The files will be installed inside a new game folder on the RPCS3 hard drive under `retrodeck/storage/rpcs3/dev_hdd0/game/GAMEID` where `GAMEID` is unique for each game.
-2. **Verify the installation:** The patches or DLC should now be installed inside the `GAMEID` folder.
-3. **Move the content:** Move the content of the GAMEID folder into the games folder inside the `retrodeck/roms/ps3/GAMENAME` folder and overwrite & replace the files.
-4. **Remove the old folder:** You can now remove the `retrodeck/storage/rpcs3/dev_hdd0/game/GAMEID` folder as the files have been moved.
+1. **Locate the installed files:** The files will be installed inside a new game directory on the RPCS3 hard drive under `retrodeck/storage/rpcs3/dev_hdd0/game/GAMEID` where `GAMEID` is unique for each game.
+2. **Verify the installation:** The patches or DLC should now be installed inside the `GAMEID` directory.
+3. **Move the content:** Move the content of the GAMEID directory into the games directory inside the `retrodeck/roms/ps3/GAMENAME` directory and overwrite & replace the files.
+4. **Remove the old directory:** You can now remove the `retrodeck/storage/rpcs3/dev_hdd0/game/GAMEID` directory as the files have been moved.
 
 ### Example
 
 The game Hockey World.
 
 1. **Install the DLC or patch:** Follow this guide to install the files.
-2. **Locate the new folder:** The installation creates a new folder called `BCA111111` under `retrodeck/storage/rpcs3/dev_hdd0/game`.
-3. **Copy the content:** Open the folder `retrodeck/storage/rpcs3/dev_hdd0/game/BCA111111` and copy all of its content.
-4. **Paste the content:** Paste the copied content into the `retrodeck/roms/ps3/Hockey World` folder and replace/overwrite the files.
-5. **Remove the old folder:** You can then remove the `BCA111111` folder in `retrodeck/storage/rpcs3/dev_hdd0/game`.
+2. **Locate the new directory:** The installation creates a new directory called `BCA111111` under `retrodeck/storage/rpcs3/dev_hdd0/game`.
+3. **Copy the content:** Open the directory `retrodeck/storage/rpcs3/dev_hdd0/game/BCA111111` and copy all of its content.
+4. **Paste the content:** Paste the copied content into the `retrodeck/roms/ps3/Hockey World` directory and replace/overwrite the files.
+5. **Remove the old directory:** You can then remove the `BCA111111` directory in `retrodeck/storage/rpcs3/dev_hdd0/game`.
 
 ---
 
@@ -190,27 +196,27 @@ If you want to install some PSN titles, you can do that through RPCS3 itself.
 1. **Open RPCS3:** Open RPCS3 from the RetroDECK Configurator.
 2. **Navigate to the installation option:** In the RPCS3 interface, go to `File` → `Install Packages/Raps/Edats`.
 3. **Select the file to install:** In the file browser, navigate and select the file you want to install.
-4. **Verify the installation:** The file will be installed inside the games folder on the RPCS3 hard drive under `retrodeck/storage/rpcs3/dev_hdd0/game/GAMEID` where `GAMEID` is unique for each game.
+4. **Verify the installation:** The file will be installed inside the games directory on the RPCS3 hard drive under `retrodeck/storage/rpcs3/dev_hdd0/game/GAMEID` where `GAMEID` is unique for each game.
 5. **Install patches or DLC:** Install any patches or DLC for the game by repeating steps 2 and 3 for each file.
 
 ### Method 1: Game Shortcuts (`.desktop` files) - **Recommended**
 
 1. **Create a desktop shortcut:** `Right-click` on the game in the RPCS3 game list, select `Manage Game`, and click on `Create Desktop Shortcut`.
-2. **Move the shortcut to the roms/ps3 folder:** This will create a shortcut to the game on your Desktop. Move that shortcut into the `retrodeck/roms/ps3` folder.
+2. **Move the shortcut to the roms/ps3 directory:** This will create a shortcut to the game on your Desktop. Move that shortcut into the `retrodeck/roms/ps3` directory.
 3. **Restart and Launch RetroDECK:** If RetroDECK was previously open, restart it to ensure corrected file paths are applied during startup. The game will then appear under the **PS3** category.
 
 ### Method 2: Folder-Based Games as `.ps3` Directories - **Not Recommended**
 
 Similarly to how it is written above with the DLC and PATCHES, the user can decide to move the digital games outside the RPCS3 filesystem. To do so:
 
-1. **Move the digital games folder:** After the game is ready, move the digital games folder from `retrodeck/storage/rpcs3/dev_hdd0/game/GAMEID` to `retrodeck/roms/ps3`.
-2. **Rename the folder:** Rename the folder to the name of the game and add the `.ps3` file extension to the end of the folder.
+1. **Move the digital games directory:** After the game is ready, move the digital games directory from `retrodeck/storage/rpcs3/dev_hdd0/game/GAMEID` to `retrodeck/roms/ps3`.
+2. **Rename the directory:** Rename the directory to the name of the game and add the `.ps3` file extension to the end of the directory.
 
 **Example**
 
-1. **Install the digital game:** You installed a file that contained the digital game `Hockey World 2`, which created a folder called `BCA123456` under `retrodeck/storage/rpcs3/dev_hdd0/game`.
-2. **Move the folder:** After that, you moved `BCA123456` from `retrodeck/storage/rpcs3/dev_hdd0/game` to `retrodeck/roms/ps3`.
-3. **Rename the folder:** The folder `BCA123456` is renamed to `Hockey World 2.ps3`.
+1. **Install the digital game:** You installed a file that contained the digital game `Hockey World 2`, which created a directory called `BCA123456` under `retrodeck/storage/rpcs3/dev_hdd0/game`.
+2. **Move the directory:** After that, you moved `BCA123456` from `retrodeck/storage/rpcs3/dev_hdd0/game` to `retrodeck/roms/ps3`.
+3. **Rename the directory:** The directory `BCA123456` is renamed to `Hockey World 2.ps3`.
 
 ---
 

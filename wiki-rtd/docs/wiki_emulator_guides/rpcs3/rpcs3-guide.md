@@ -84,7 +84,7 @@ There are two ways to install the firmware:
 | Type        | Directory                                   | Comment                                  |
 |:-----------:|:--------------------------------------------|:-----------------------------------------|
 | Captures    | `retrodeck/storage/rpcs3/captures`          | Debug captures                 |
-| Config      | `~/.var/app/net.retrodeck.retrodeck/config/rpcs3/` | Various config `.yml` and system directorys |
+| Config      | `~/.var/app/net.retrodeck.retrodeck/config/rpcs3/` | Various config `.yml` and system directories |
 | Dev_bdvd    | `retrodeck/storage/rpcs3/dev_bdvd`          |                                          |
 | Dev_flash   | `retrodeck/storage/rpcs3/dev_flash`         |                                          |
 | Dev_flash2  | `retrodeck/storage/rpcs3/dev_flash2`        |                                          |

@@ -238,13 +238,15 @@ Similarly to how it is written above with the DLC and PATCHES, the user can deci
 
 Save States don't work the same as other emulators you might be used to and are `disabled by default` in RetroDECK. 
 
-You can enable them but first read up on the lastest information and how-to's on RPCS3 wiki page.
+You can enable them but first read up on the latest information and how-to on RPCS3 wiki page.
 
 Link: [RPCS3 Save States](https://wiki.rpcs3.net/index.php?title=Help:Save_State)
 
 ---
 
-## Failed to set RLIMIT_MEMLOCK size to 2 GiB
+## Known Issues
+
+### Failed to set RLIMIT_MEMLOCK size to 2 GiB
 
 Some Linux distributions gets this error.
 
@@ -264,6 +266,16 @@ To solve it
 ```
 
 3. Reboot your device
+
+### Input Issues
+
+Following the removal of `evdev` support in RPCS3 in recent updates, some users may experience input detection issues when using SDL-based controllers. In such cases, manual configuration of the input device is required.
+
+1. Open **RetroDECK Configurator**
+2. Navigate to: `Open Component → RPCS3 → Pads → Devices`
+3. In the **Devices** dropdown menu, select your controller manually for each player.
+
+This ensures the correct input device is recognized and used by RPCS3.
 
 ---
 

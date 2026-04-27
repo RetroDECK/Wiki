@@ -2,13 +2,13 @@
 
 <img src="../../../wiki_images/logos/satellaview+-logo.png" width="150" alt="Dosbox X logo">
 
-**Satellaview+** is a client and revival service for **St.GIGA's** satellite-based platform, *Satellaview*. It enables users to access and experience Satellaview-exclusive content, including games, digital magazines, and other broadcast material originally delivered via satellite.
+**Satellaview+** is a client and revival service for **St.GIGA's** satellite-based platform, *Satellaview*. It enables users to access and experience Satellaview-exclusive content, including games, digital magazines and other broadcast material originally delivered via satellite.
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 
 ---
 
-### DOSBox-X Links
+### Satellaview+ Links
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 

@@ -47,7 +47,8 @@ No
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
-| -   | `-`                             |               |
+| Satellaview+ storage | `retrodeck/storage/satellaview+/`    |        |
+
 
 
 ---

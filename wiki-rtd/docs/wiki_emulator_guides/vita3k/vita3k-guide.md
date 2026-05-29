@@ -247,3 +247,15 @@ Open **Vita3K** within the RetroDECK Configurator.
 3. Select **Save** to apply the changes.
 
 ---
+
+## Known Issues
+
+### Input Issues
+
+Some users may experience input detection issues when using SDL-based controllers. In such cases, manual configuration of the input device is required.
+
+1. Open **RetroDECK Configurator**
+2. Navigate to: `Open Component → Vita3k → Controls`
+3. In the **Controls** menu, manually assign the desired controller to each player port.
+
+This ensures the correct input device is recognized and used by RPCS3.

@@ -269,11 +269,11 @@ To solve it
 
 ### Input Issues
 
-Following the removal of `evdev` support in RPCS3 in recent updates, some users may experience input detection issues when using SDL-based controllers. In such cases, manual configuration of the input device is required.
+Some users may experience input detection issues when using SDL-based controllers. In such cases, manual configuration of the input device is required.
 
 1. Open **RetroDECK Configurator**
 2. Navigate to: `Open Component → RPCS3 → Pads → Devices`
-3. In the **Devices** dropdown menu, select your controller manually for each player.
+3. In the **Devices** dropdown menu, manually assign the desired controller to each player port.
 
 This ensures the correct input device is recognized and used by RPCS3.
 

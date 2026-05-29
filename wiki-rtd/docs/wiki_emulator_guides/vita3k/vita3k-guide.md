@@ -8,7 +8,7 @@ Vita3K is an experimental open-source Sony PlayStation Vita emulator.
 
 ### ⚠️  Bleeding-Edge Emulator ⚠️ 
 
-This emulator is under rapid development and considered **bleeding edge**. It may be unstable, may not operate at maximum performance across all hardware configurations, may lack certain standard features available in other components, and may be incompatible with portions of the supported game library.
+This emulator is under rapid development and considered **bleeding edge**. It may be unstable, may not operate at maximum performance across all hardware configurations, may lack certain standard features available in other components and may be incompatible with portions of the supported game library.
 
 ---
 
@@ -130,8 +130,8 @@ Open the **Vita3K** emulator through the RetroDECK Configurator.
 
 Go to **File** and choose the appropriate install option:
 
-- **Install .pkg**
-- **Install .zip, .vpk**
+- **Install Package (.pkg)**
+- **Install Archive (.zip / .vpk)**
    
 After installation, you may delete the original package file if desired. Only the installed game files (and later the `.psvita` file) are needed.
 
@@ -217,16 +217,16 @@ Open **Vita3K** within the RetroDECK Configurator.
 
 **Global**
 
-1. Go to **Configuration → Settings → GPU → Texture Replacement**.
+1. Go to **Settings → Graphics**.
 2. Set **Import Textures** to `Enable`.
-3. Select **Save and Exit** to apply the changes.
+3. Select **Save** to apply the changes.
 
 **Per-Game**
 
 1. Right-click a game inside Vita3K.
-2. Choose **Custom Config → Create → GPU → Texture Replacement**.
+2. Choose **Custom Config → Create → Graphics**.
 3. Set **Import Textures** to `Enable`.
-4. Select **Save and Exit** to apply the changes.
+4. Select **Save** to apply the changes.
 
 ---
 
@@ -235,14 +235,15 @@ Open **Vita3K** within the RetroDECK Configurator.
 ### Vita3K GUI Language
 
 1. Open **Vita3K** via the **RetroDECK Configurator**.  
-2. Go to **Configuration → Settings → GUI**.
-3. Set **GUI Language** to your preferred language.
-4. Close **Vita3K**.
+2. Go to **Settings → Interface**.
+3. Set **Interface Language** to your preferred language.
+4. Select **Save** to apply the changes.
 
 ### In-Game Language
 
-1. Open **Vita3K** via the **RetroDECK Configurator** and launch the **🧰 Settings** app.
-2. Go to **Language → System Language** and select your preferred language.
-3. Close **Vita3K**.
+1. Open **Vita3K** via the **RetroDECK Configurator**.  
+2. Go to **Settings → System**.
+3. Set **IME Languages** to your preferred language.
+3. Select **Save** to apply the changes.
 
 ---

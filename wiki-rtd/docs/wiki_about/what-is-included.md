@@ -68,7 +68,7 @@ It supports file-type associations for common game extensions, enabling you to s
 
 **Read more here:**
 
-[RetroDECK's RetroENGINE](../wiki_system_guides/retroengine/retroengine-guide.md).
+[RetroDECK's RetroENGINE](../wiki_utility_guides/retroengine/retroengine-guide.md).
 
 ---
 
@@ -109,16 +109,16 @@ Custom artwork folder icons.
 
 ---
 
-## Components: Systems
+## Components: Utilities
 
-Systems are non-gaming platforms or software environments supported within RetroDECK. These may include tools, utilities, frontends, media systems that enhance functionality but are not games themselves.
+Utilities are non-gaming platforms or software environments supported within RetroDECK. These may include tools, frontends, media systems that enhance functionality but are not running games themselves .
 
 | Component | Logo | Description | Guide |
 |----------|-------|-------------|-------|
-| **ES-DE** | <img src="../../wiki_images/logos/es-de-logo.png" width="50" alt="ES-DE logo"> | Base frontend for RetroDECK with custom tweaks such as the RetroDECK Configurator. | [ES-DE Frontend - General Guide](../wiki_system_guides/es-de/esde-guide.md) |
+| **ES-DE** | <img src="../../wiki_images/logos/es-de-logo.png" width="50" alt="ES-DE logo"> | Base frontend for RetroDECK with custom tweaks such as the RetroDECK Configurator. | [ES-DE Frontend - General Guide](../wiki_utility_guides/es-de/esde-guide.md) |
 | **Flips** | <img src="../../wiki_images/logos/flips-logo.png" width="50" alt="Flips logo"> | Tiny `.ips` `.bps` patcher for ROMs (used for patching ROM Hacks). | Open from Configurator | - |
-| **PortMaster** | <img src="../../wiki_images/logos/portmaster-logo.png" width="75" alt="PortMaster logo"> | GUI tool to download and install game ports on Linux devices. | [PortMaster - General Guide](../wiki_system_guides/portmaster/portmaster-guide.md) |
-| **Steam ROM Manager** | <img src="../../wiki_images/logos/srm-logo.png" width="50" alt="Steam ROM Manager logo"> | Bulk game importer and artwork manager for Steam. Adds games automatically and configures Steam Input templates. | [SRM - General Guide](../wiki_system_guides/srm/srm-guide.md) |
+| **PortMaster** | <img src="../../wiki_images/logos/portmaster-logo.png" width="75" alt="PortMaster logo"> | GUI tool to download and install game ports on Linux devices. | [PortMaster - General Guide](../wiki_utility_guides/portmaster/portmaster-guide.md) |
+| **Steam ROM Manager** | <img src="../../wiki_images/logos/srm-logo.png" width="50" alt="Steam ROM Manager logo"> | Bulk game importer and artwork manager for Steam. Adds games automatically and configures Steam Input templates. | [SRM - General Guide](../wiki_utility_guides/srm/srm-guide.md) |
 
 
 

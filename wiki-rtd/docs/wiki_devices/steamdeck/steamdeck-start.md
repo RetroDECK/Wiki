@@ -174,7 +174,7 @@ Understanding its basics will help you customize themes, scrape metadata, manage
 
 **Read more:**
 
-- [ES-DE Frontend Guide](../../wiki_system_guides/es-de/esde-guide.md)
+- [ES-DE Frontend Guide](../../wiki_utility_guides/es-de/esde-guide.md)
 
 ---
 

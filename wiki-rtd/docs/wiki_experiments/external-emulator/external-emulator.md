@@ -161,7 +161,7 @@ New command label:
 
 1. Launch RetroDECK.
 
-2. Check the [ES-DE Frontend: General Guide](../../wiki_system_guides/es-de/esde-guide.md) on How-to set alternative emulators either per game or per system.
+2. Check the [ES-DE Frontend: General Guide](../../wiki_utility_guides/es-de/esde-guide.md) on How-to set alternative emulators either per game or per system.
 
 3. If everything is correct, the game should launch with the External System. You will need to manually configure it, considering all the drawbacks listed.
 

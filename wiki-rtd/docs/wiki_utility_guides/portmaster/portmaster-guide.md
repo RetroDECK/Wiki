@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/portmaster-logo.png" width="150" alt="Portmaster logo">
 
-PortMaster is a simple GUI tool designed to facilitate the downloading and installation of game ports for Linux devices and is self contained.
+PortMaster is a simple GUI utility designed to facilitate the downloading and installation of game ports for Linux devices and is self contained.
 
 One of the goals of PortMaster is to not install or upgrade any existing OS libraries for any ports. Any of the ports that need a particular non-standard library are maintained within the ports' folder and made available specifically to that port during execution. 
 

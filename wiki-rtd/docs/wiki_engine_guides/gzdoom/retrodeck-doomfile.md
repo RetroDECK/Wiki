@@ -211,7 +211,7 @@ Check the SRM Guide for more information.
 
 **Check the:**
 
-[SRM Guide](../../wiki_system_guides/srm/srm-guide.md) for more information.
+[SRM Guide](../../wiki_utility_guides/srm/srm-guide.md) for more information.
 
 
 ---

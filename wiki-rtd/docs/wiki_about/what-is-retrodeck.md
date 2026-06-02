@@ -63,16 +63,16 @@ Engines are game engines or runtime environments designed to run games built spe
 - **UZDoom** - Source port for Doom-engine games.  
 - **OpenBOR** - Open-source Beat ’em Up engine.  
 
-### Systems
+### Utilities
 
-Systems are non-gaming platforms or software environments supported within RetroDECK. These may include tools, utilities, frontends, media systems that enhance functionality but are not games themselves.
+Utilities are non-gaming platforms or software environments supported within RetroDECK. These may include tools, frontends, media systems that enhance functionality but are not running games themselves.
 
 **Examples:** 
 
-- **Steam Rom Manager** - Tool for managing and importing ROMs into Steam.  
-- **ES-DE** - RetroDECK’s chosen frontend.  
-- **Flips** - Tool for handling ROMs and patches.  
-- **PortMaster** - Application for managing game ports and installations.  
+- **Steam Rom Manager** - Tool for managing and importing ROMs into Steam.
+- **ES-DE** - RetroDECK’s chosen frontend.
+- **Flips** - Tool for handling ROMs and patches.
+- **PortMaster** - Application for managing game ports and installations.
 
 ### Ports
 
@@ -81,7 +81,7 @@ Ports are individual games that have been adapted to run natively through a spec
 **Examples:** 
 
 - All games installed via **PortMaster**. 
-- Games built directly into **RetroDECK**.  
+- Games built directly into **RetroDECK**.
 
 --- 
 

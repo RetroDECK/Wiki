@@ -171,7 +171,7 @@ In this case, the Steam Deck can display a **perfect 5x integer-scaled GBA image
 
 **Integer Scaling Table**
 
-**Note:** *RetroArch does not support extreme scaling ratios. The table below outlines the theoretical maximum values required to fully fill the screen for each display type. Select the setting closest to your needs that your hardware can comfortably handle.*
+**Note:** *RetroArch does not support extreme scaling ratios. The table below outlines the theoretical maximum values required to fully fill the screen for each display type. Select the setting closest to your needs that your hardware can comfortably handle and the core supports.*
 
 | Resolution | Aspect | Consoles / Systems | Steam Deck (1280x800) | HD (1920x1080) | 4K (3840x2160) | 8K (7680x4320) |
 |------------|---------|--------------------|-----------------------|----------------|----------------|----------------|

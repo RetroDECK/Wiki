@@ -1,8 +1,12 @@
-# RetroArch: Display, Filters, Shaders & Overlays
+# RetroArch - Display, Filters, Shaders & Overlays Guide
+
+<img src="../../../wiki_images/logos/retroarch-logo.png" width="75" alt="Retroarch logo"→
 
 ## Display Concepts
  
 This section explains the difference between **PPI**, **size**, **resolution**, and **aspect ratio**, which are often confused but describe different properties of a display.
+
+---
 
 ### Pixel Density (PPI)
 
@@ -11,9 +15,13 @@ Pixel density describes how tightly pixels are packed into a screen.
 - Higher PPI = sharper image
 - Depends on both resolution AND display size
 
+---
+
 ### Display Size
 
 Display dimensions measured diagonally in inches. Relevant primarily when calculating **pixel density** (PPI).
+
+---
 
 ### Resolution
 
@@ -49,6 +57,8 @@ Total pixel count expressed as horizontal x vertical (e.g., 640x480) on the disp
 | 5120x2160 | 5K Ultrawide | Professional creative work |
 | 5120x2880 | 5K | High-end desktop displays |
 | 7680x4320 | 8K UHD | Next-generation displays |
+
+---
 
 ### Aspect Ratio
 
@@ -135,6 +145,8 @@ Here are some examples:
 
 Scaling refers to enlarging a game image beyond its native resolution to fit the display surface while preserving the original aspect ratio.
 
+---
+
 ### Integer Scaling
 
 Scales pixels by whole number multipliers only. Preserves perfect pixel balance but may not fill the screen.
@@ -149,6 +161,8 @@ Scales pixels by whole number multipliers only. Preserves perfect pixel balance 
 - 6x Scale: 1440x960 (exceeds display bounds)
 
 In this case, the Steam Deck can display a **perfect 5x integer-scaled GBA image** with no unused vertical space.
+
+---
 
 ### Non-Integer Scaling
 
@@ -165,16 +179,103 @@ To fill the entire width, RetroArch must use a non-integer horizontal scale, whi
 
 ---
 
+## Filters vs Shaders
+
+Filters are simpler and usually CPU-based. Shaders are GPU-based and far more powerful, but generally cannot be combined with filters.
+
+- **Filters:** lightweight, simple effects and CPU-based.
+- **Shaders:** advanced visual control (CRT, scaling, smoothing, etc.) and GPU-based.
+
+---
+
+## Shaders
+
+Shaders are GPU-based post-processing effects applied to the final image. Compared to CPU-based filters, they typically offer higher visual flexibility with lower performance impact on modern hardware, as they leverage unused GPU resources.
+
+RetroArch supports two main shader formats: **GLSL** and **SLANG**.
+
+---
+
+### Shader Categories
+
+**Interpolation Shaders**  
+
+Improve scaling quality while preserving pixel structure. Used for clean, sharp pixel scaling without CPU filters.
+
+**Handheld Shaders**  
+
+Simulate LCD characteristics or add pixel grid effects. Emulates Game Boy, GBA, DS, and similar screens.
+
+**CRT Shaders**  
+
+Simulate analog CRT displays (scanlines, bloom, curvature). Used for authentic retro TV and arcade visuals.
+
+**Signal / Composite Shaders**  
+
+Simulate analog video transmission artifacts like NTSC/PAL, color bleed, and RF noise.
+
+**Mask / Subpixel Shaders**  
+
+Replicate physical pixel layouts (RGB stripes, shadow masks, aperture grille) to improve perceived sharpness and realism.
+
+**Post-Processing Shaders**  
+
+General image enhancement such as sharpening, color correction, bloom, and LUT-based grading.
+
+**Dithering / Reconstruction Shaders**  
+
+Improve or reconstruct dithering patterns and reduce banding in retro graphics.
+
+**Stylization Shaders**  
+
+Artistic effects such as VHS distortion, sketch filters, or glitch-style rendering.
+
+**Utility / Debug Shaders**  
+
+Technical tools used for framebuffer inspection, texture viewing, and rendering diagnostics.
+
+---
+
+### Shader Formats
+
+**GLSL**
+
+Set video driver: `Settings → Video → Output → OpenGL`
+
+  - OpenGL-based
+  - Common on lightweight Linux handhelds
+  - Broad compatibility, lower feature set
+
+**SLANG**
+
+Set video driver: `Settings → Video → Output → Vulkan`
+
+  - Modern Vulkan/DirectX/OpenGL backend support
+  - Preferred on Android, Windows, and handheld PCs
+  - More advanced and actively developed
+
+### Shaders: Usage 
+
+**Shaders are applied via:**
+
+`Quick Menu → Shaders → Load Preset`
+
+**Adjust via:**
+
+`Shader Parameters`
+
+**Save options:**
+
+- **Game Preset**: single game
+- **Core Preset**: emulator core
+- **Directory Preset**: system folder
+
+---
+
 ## Filters
 
 Filters are post-processing effects applied to the final image in RetroArch. Most are lightweight, but some can be CPU-intensive and impact performance depending on the system.
 
-**Filters vs Shaders**
-
-Filters are simpler and usually CPU-based. Shaders are GPU-based and far more powerful, but generally cannot be combined with filters.
-
-- Filters: lightweight, simple effects
-- Shaders: advanced visual control (CRT, scaling, smoothing, etc.)
 
 ### Bilinear Filtering
 
@@ -185,18 +286,7 @@ Smooths pixel edges by blending them together. Useful for non-integer scaling, b
 - No filter: sharp pixels
 - Bilinear: smoother, softer image
 
-### Filter Combinations
-
-A common setup is:
-
-- Bilinear filter (on)
-- Video Filter: `Normal2x`
-
-Path: `Settings → Video → Video Filter`
-
-This helps rebalance softness and sharpness when using non-integer scaling, producing a more readable image.
-
-### CRT / Retro Filters (Blargg)
+**CRT / Retro Filters (Blargg)**
 
 Includes NTSC, S-Video, and composite simulation filters.
 
@@ -204,12 +294,68 @@ Includes NTSC, S-Video, and composite simulation filters.
 - Mimics CRT display output
 - More performance-heavy than bilinear filters
 
-### Saving Settings (Overrides)
+### Filters: Usage 
 
-Use `Quick Menu → Overrides` to save configurations:
+**Filters are applied via:**
 
-- Game Override → single game
-- Core Override → entire emulator core
-- Content Directory Override → full system folder
+`Settings → Video → Video Filter`
+
+**Save options:**
+
+`Quick Menu → Overrides`
+
+- **Game Override**: single game
+- **Core Override**: emulator core
+- **Content Directory Override**: system folder
+
+---
+
+## Overlays
+
+Overlays are image layers applied on top of the game screen. Unlike shaders or filters, they do not modify the game image itself-instead, they act as **visual frames, bezels, or textures** that sit over or around the gameplay area.
+
+They are commonly used to:
+
+- Fill black bars on widescreen displays
+- Add console-specific bezels
+- Simulate printed artwork or handheld shells
+- Overlay scanlines or grid effects
+
+---
+
+### Types of Overlays
+
+**Bezels**  
+Decorative frames that fill unused screen space, often matching the original hardware or arcade cabinet.
+
+**Screen Frames / Artwork Overlays**  
+Recreate the look of the original device (Game Boy shell, arcade monitor borders, etc.).
+
+**Scanline / Grid Overlays**  
+Semi-transparent layers that simulate display artifacts, sometimes combined with shaders.
+
+**Touch Control Overlays (Mobile)**  
+On-screen virtual controls used on Android/iOS devices by default.
+
+---
+
+
+### Overlays: Usage 
+
+**Overlays are applied via:**
+
+`Quick Menu → On-Screen Overlay → Display Overlay → ON`
+
+**Adjust via:**
+
+`Overlay Preset`
+
+**Save options:**
+
+`Quick Menu → Overrides`
+
+- **Game Override**: single game
+- **Core Override**: emulator core
+- **Content Directory Override**: system folder
 
 ---

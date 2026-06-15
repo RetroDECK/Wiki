@@ -294,6 +294,8 @@ Set video driver: `Settings → Video → Output → Vulkan`
   - Preferred on Android, Windows, and handheld PCs
   - More advanced and actively developed
 
+---
+
 ### Shaders: Usage 
 
 **Shaders are applied via:**
@@ -333,6 +335,8 @@ Includes NTSC, S-Video, and composite simulation filters.
 - Adds scanlines, color bleed, and analog softness
 - Mimics CRT display output
 - More performance-heavy than bilinear filters
+
+---
 
 ### Filters: Usage 
 

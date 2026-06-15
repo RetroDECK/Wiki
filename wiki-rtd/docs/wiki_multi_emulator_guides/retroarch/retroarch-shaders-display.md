@@ -1,4 +1,4 @@
-# RetroArch - Display, Filters, Shaders & Overlays Guide
+# RetroArch - Display, Filters, Scaling, Shaders & Overlays Guide
 
 <img src="../../../wiki_images/logos/retroarch-logo.png" width="75" alt="Retroarch logo">
 

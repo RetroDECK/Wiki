@@ -2,11 +2,16 @@
 
 <img src="../../../wiki_images/logos/retroarch-logo.png" width="75" alt="Retroarch logo">
 
+
+## Warning: Hardware-Intensive Operations
+
+Adjusting Display settings, Filters, Shaders, Scaling and Overlays in RetroArch can be extremely demanding on your hardware. Applying too many of these features simultaneously may cause significant performance drops or freeze the game. We recommend tweaking these settings incrementally and monitoring system performance to ensure your hardware can handle the load.
+
+---
+
 ## Display Concepts
  
 This section explains the difference between **PPI**, **size**, **resolution**, and **aspect ratio**, which are often confused but describe different properties of a display.
-
----
 
 ### Pixel Density (PPI)
 
@@ -165,6 +170,8 @@ Scales pixels by whole number multipliers only. Preserves perfect pixel balance 
 In this case, the Steam Deck can display a **perfect 5x integer-scaled GBA image** with no unused vertical space.
 
 **Integer Scaling Table**
+
+**Note:** *RetroArch does not support extreme scaling ratios. The table below outlines the theoretical maximum values required to fully fill the screen for each display type. Select the setting closest to your needs that your hardware can comfortably handle.*
 
 | Resolution | Aspect | Consoles / Systems | Steam Deck (1280x800) | HD (1920x1080) | 4K (3840x2160) | 8K (7680x4320) |
 |------------|---------|--------------------|-----------------------|----------------|----------------|----------------|

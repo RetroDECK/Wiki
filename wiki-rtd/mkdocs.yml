@@ -376,7 +376,7 @@ nav:
     - RetroArch:
       - RetroArch - General Guide: wiki_multi_emulator_guides/retroarch/retroarch-guide.md
       - RetroArch - Texture Pack Guide: wiki_multi_emulator_guides/retroarch/retroarch-texture-pack.md
-      - RetroArch - Display, Filters, Shaders  Guide: wiki_multi_emulator_guides/retroarch/retroarch-guide.md
+      - RetroArch - Display, Filters, Shaders, Overlays Guide: wiki_multi_emulator_guides/retroarch/retroarch-guide.md
       - RetroArch - GB/GBC - TGBDual Linking: wiki_multi_emulator_guides/retroarch/retroarch-gb-gc-tgbdual.md
       - RetroArch - N3DS - Citra - DLC Guide: wiki_multi_emulator_guides/retroarch/retroarch-citra-dlc.md
       - RetroArch - PSX - DexDrive Convert: wiki_multi_emulator_guides/retroarch/retroarch-psx-dexdrive.md

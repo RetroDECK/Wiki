@@ -107,6 +107,7 @@ Here are some examples:
 | Nintendo | Nintendo 64 | Home | 640 | 480 | 1.33 (4:3) |
 | Nintendo | GameCube | Home | 640 | 480 | 1.33 (4:3) |
 | Nintendo | Wii | Home | 640 | 480 | 1.33 (4:3) |
+| Nintendo | Wii U | Home | 1920 | 1080 | 1.78 (16:9) |
 | Nintendo | Pokémon Mini | Handheld | 96 | 64 | 1.50 (3:2) |
 | Nintendo | Game Boy | Handheld | 160 | 144 | 1.11 (10:9) |
 | Nintendo | Game Boy Color | Handheld | 160 | 144 | 1.11 (10:9) |
@@ -135,6 +136,7 @@ Here are some examples:
 | Sony | PlayStation 2 | Home | 640 | 480 | 1.33 (4:3) |
 | Sony | PSP | Handheld | 480 | 272 | 1.76 (30:17) |
 | Sony | PlayStation Vita | Handheld | 960 | 544 | 1.76 (30:17) |
+| Sony | PlayStation 3 | Home | 1920 | 1080 | 1.78 (16:9) |
 | Tiger | Game.com | Handheld | 200 | 160 | 1.25 (5:4) |
 | Tiger | R-Zone | Handheld | 160 | 120 | 1.33 (4:3) |
 | Watara | Supervision | Handheld | 160 | 160 | 1.00 (1:1) |
@@ -161,6 +163,44 @@ Scales pixels by whole number multipliers only. Preserves perfect pixel balance 
 - 6x Scale: 1440x960 (exceeds display bounds)
 
 In this case, the Steam Deck can display a **perfect 5x integer-scaled GBA image** with no unused vertical space.
+
+**Integer Scaling Table**
+
+| Resolution | Aspect | Consoles / Systems | Steam Deck (1280x800) | HD (1920x1080) | 4K (3840x2160) | 8K (7680x4320) |
+|------------|---------|--------------------|-----------------------|----------------|----------------|----------------|
+| 32x32 | 1:1 | PocketStation | 25x | 33x | 67x | 135x |
+| 75x64 | 1.17 | Game Pocket Computer | 12x | 16x | 33x | 67x |
+| 96x64 | 3:2 | Pokémon Mini | 12x | 16x | 33x | 67x |
+| 128x64 | 2:1 | Channel F | 10x | 15x | 30x | 60x |
+| 128x208 | 8:13 | Arcadia 2001 | 3x | 5x | 10x | 20x |
+| 160x102 | 80:51 | Atari Lynx | 7x | 10x | 21x | 42x |
+| 160x120 | 4:3 | Tiger R-Zone | 6x | 9x | 18x | 36x |
+| 160x144 | 10:9 | Game Boy, Game Boy Color, Game Gear | 5x | 7x | 15x | 30x |
+| 160x152 | 20:19 | Neo Geo Pocket, Neo Geo Pocket Color | 5x | 7x | 14x | 28x |
+| 160x160 | 1:1 | Watara Supervision | 5x | 6x | 13x | 27x |
+| 160x192 | 5:6 | Atari 2600, Intellivision | 4x | 5x | 11x | 22x |
+| 160x200 | 4:5 | Odyssey² / Videopac | 4x | 5x | 10x | 21x |
+| 176x208 | 11:13 | Nokia N-Gage | 3x | 5x | 10x | 20x |
+| 192x192 | 1:1 | Nintendo Color TV-Game | 4x | 5x | 11x | 22x |
+| 200x160 | 5:4 | Tiger Game.com | 5x | 6x | 13x | 27x |
+| 224x144 | 14:9 | WonderSwan, WonderSwan Color, SwanCrystal | 5x | 7x | 15x | 30x |
+| 240x160 | 3:2 | Game Boy Advance | 5x | 6x | 13x | 27x |
+| 240x320 | 3:4 | Vectrex | 2x | 3x | 6x | 13x |
+| 256x192 | 4:3 | PV-1000, ColecoVision, SG-1000, SC-3000, Master System, Nintendo DS | 4x | 5x | 11x | 22x |
+| 256x222 | 1.15 | Super Cassette Vision | 3x | 4x | 9x | 18x |
+| 256x224 | 8:7 | Casio Loopy, SNES, Super Famicom, Satellaview | 3x | 4x | 9x | 18x |
+| 256x239 | 1.07 | PC Engine, TurboGrafx-16, CoreGrafx, SuperGrafx, PC Engine CD-ROM² | 3x | 4x | 9x | 18x |
+| 256x240 | 16:15 | NES, Famicom, Famicom Disk System | 3x | 4x | 9x | 18x |
+| 320x192 | 5:3 | Atari 5200 | 4x | 5x | 11x | 22x |
+| 320x224 | 10:7 | Genesis, Mega Drive, Sega CD, Saturn, Nomad, Pico, Neo Geo AES, Neo Geo CD | 3x | 4x | 9x | 18x |
+| 320x240 | 4:3 | Atari 7800, Jaguar, Jaguar CD, Playdia, PC-FX, 3DO, PlayStation | 3x | 4x | 9x | 18x |
+| 384x224 | 12:7 | Virtual Boy | 3x | 4x | 9x | 18x |
+| 400x240 | 5:3 | Nintendo 3DS (top screen) | 3x | 4x | 9x | 18x |
+| 400x270 | 1.48 | TurboExpress | 2x | 4x | 8x | 16x |
+| 480x272 | 30:17 | PSP | 2x | 3x | 7x | 15x |
+| 640x480 | 4:3 | HyperScan, Xbox, Nintendo 64, GameCube, Wii, Dreamcast, PlayStation 2 | 1x | 2x | 4x | 9x |
+| 960x544 | 30:17 | PlayStation Vita | 1x | 1x | 3x | 7x |
+| 1280x720 | 16:9 | Xbox 360, PlayStation 3, Wii U | 1x | 1x | 3x | 6x |
 
 ---
 

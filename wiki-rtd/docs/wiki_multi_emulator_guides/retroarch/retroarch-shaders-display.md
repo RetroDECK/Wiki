@@ -1,49 +1,60 @@
-# RetroArch: Shaders & Overlays
+# RetroArch: Display, Filters, Shaders & Overlays
 
-## Core Concepts
+## Display Concepts
+ 
+This section explains the difference between **PPI**, **size**, **resolution**, and **aspect ratio**, which are often confused but describe different properties of a display.
 
-### Size
+### Pixel Density (PPI)
+
+Pixel density describes how tightly pixels are packed into a screen.
+
+- Higher PPI = sharper image
+- Depends on both resolution AND display size
+
+### Display Size
 
 Display dimensions measured diagonally in inches. Relevant primarily when calculating **pixel density** (PPI).
 
 ### Resolution
 
-Total pixel count expressed as horizontal × vertical (e.g., 640×480). Higher resolution yields sharper imagery through increased PPI.
+Total pixel count expressed as horizontal x vertical (e.g., 640x480) on the display. Higher resolution yields sharper imagery through increased PPI.
 
 | Resolution | Common Name | Typical Use |
 |------------|-------------|-------------|
-| 160×144 | GB | Game Boy, Game Gear |
-| 240×160 | GBA | Game Boy Advance |
-| 256×192 | DS | Nintendo DS |
-| 320×200 | QVGA+ | DOS games, early PC gaming |
-| 320×240 | QVGA | PS1, Saturn, arcade games |
-| 400×240 | 3DS | Nintendo 3DS top screen |
-| 480×272 | WQVGA | PSP |
-| 640×480 | 480p / VGA | Dreamcast, GameCube, PS2, Wii |
-| 720×480 | EDTV | DVD video, enhanced-definition consoles |
-| 800×600 | SVGA | Late DOS / early Windows gaming |
-| 960×544 | qHD+ | PlayStation Vita |
-| 1024×768 | XGA | Early LCD monitors |
-| 1280×720 | 720p HD | Xbox 360, PS3, HDTV standard |
-| 1280×800 | WXGA | Steam Deck, laptops, handheld PCs |
-| 1366×768 | HD Ready | Budget LCD displays |
-| 1440×900 | WXGA+ | Widescreen desktop monitors |
-| 1600×900 | HD+ | Mid-range monitors |
-| 1680×1050 | WSXGA+ | Professional LCDs |
-| 1920×1080 | 1080p Full HD | Modern displays, consoles, streaming |
-| 1920×1200 | WUXGA | Productivity monitors |
-| 2560×1440 | 1440p QHD | Gaming monitors |
-| 2560×1600 | WQXGA | High-end productivity displays |
-| 3440×1440 | UWQHD | Ultrawide gaming monitors |
-| 3840×2160 | 4K UHD | Modern TVs and monitors |
-| 5120×1440 | DQHD | Super-ultrawide displays |
-| 5120×2160 | 5K Ultrawide | Professional creative work |
-| 5120×2880 | 5K | High-end desktop displays |
-| 7680×4320 | 8K UHD | Next-generation displays |
+| 160x144 | GB | Game Boy, Game Gear |
+| 240x160 | GBA | Game Boy Advance |
+| 256x192 | DS | Nintendo DS |
+| 320x200 | QVGA+ | DOS games, early PC gaming |
+| 320x240 | QVGA | PS1, Saturn, arcade games |
+| 400x240 | 3DS | Nintendo 3DS top screen |
+| 480x272 | WQVGA | PSP |
+| 640x480 | 480p / VGA | Dreamcast, GameCube, PS2, Wii |
+| 720x480 | EDTV | DVD video, enhanced-definition consoles |
+| 800x600 | SVGA | Late DOS / early Windows gaming |
+| 960x544 | qHD+ | PlayStation Vita |
+| 1024x768 | XGA | Early LCD monitors |
+| 1280x720 | 720p HD | Xbox 360, PS3, HDTV standard |
+| 1280x800 | WXGA | Steam Deck, laptops, handheld PCs |
+| 1366x768 | HD Ready | Budget LCD displays |
+| 1440x900 | WXGA+ | Widescreen desktop monitors |
+| 1600x900 | HD+ | Mid-range monitors |
+| 1680x1050 | WSXGA+ | Professional LCDs |
+| 1920x1080 | 1080p Full HD | Modern displays, consoles, streaming |
+| 1920x1200 | WUXGA | Productivity monitors |
+| 2560x1440 | 1440p QHD | Gaming monitors |
+| 2560x1600 | WQXGA | High-end productivity displays |
+| 3440x1440 | UWQHD | Ultrawide gaming monitors |
+| 3840x2160 | 4K UHD | Modern TVs and monitors |
+| 5120x1440 | DQHD | Super-ultrawide displays |
+| 5120x2160 | 5K Ultrawide | Professional creative work |
+| 5120x2880 | 5K | High-end desktop displays |
+| 7680x4320 | 8K UHD | Next-generation displays |
 
 ### Aspect Ratio
 
 Proportional relationship between width and height, derived by simplifying the horizontal/vertical pixel ratio.
+
+Here are some examples:
 
 | Manufacturer | System | Type | Width (px) | Height (px) | Aspect Ratio |
 |-------------|--------|------|-----------:|------------:|-------------|
@@ -128,16 +139,16 @@ Scaling refers to enlarging a game image beyond its native resolution to fit the
 
 Scales pixels by whole number multipliers only. Preserves perfect pixel balance but may not fill the screen.
 
-**Path**: `RetroArch Settings > Video > Scaling > Integer Scaling`
+**Path**: `RetroArch Settings → Video → Scaling → Integer Scaling`
 
-**Example: GBA on Steam Deck (1280×800)**
+**Example: GBA on Steam Deck (1280x800)**
 
-- Original: 240×160 (3:2)
-- 4× Scale: 960×640 (fits within 1280×800)
-- 5× Scale: 1200×800 (fits perfectly)
-- 6× Scale: 1440×960 (exceeds display bounds)
+- Original: 240x160 (3:2)
+- 4x Scale: 960x640 (fits within 1280x800)
+- 5x Scale: 1200x800 (fits perfectly)
+- 6x Scale: 1440x960 (exceeds display bounds)
 
-In this case, the Steam Deck can display a **perfect 5× integer-scaled GBA image** with no unused vertical space.
+In this case, the Steam Deck can display a **perfect 5x integer-scaled GBA image** with no unused vertical space.
 
 ### Non-Integer Scaling
 
@@ -145,12 +156,60 @@ Fills the screen completely using fractional multipliers. May cause pixel distor
 
 **Example: GBA on Steam Deck (Fullscreen)**
 
-- Original: 240×160
-- Display: 1280×800
-- Horizontal Scale: 1280 ÷ 240 = 5.333×
-- Vertical Scale: 800 ÷ 160 = 5×
+- Original: 240x160
+- Display: 1280x800
+- Horizontal Scale: 1280 ÷ 240 = 5.333x
+- Vertical Scale: 800 ÷ 160 = 5x
 
 To fill the entire width, RetroArch must use a non-integer horizontal scale, which can introduce uneven pixel widths.
 
 ---
 
+## Filters
+
+Filters are post-processing effects applied to the final image in RetroArch. Most are lightweight, but some can be CPU-intensive and impact performance depending on the system.
+
+**Filters vs Shaders**
+
+Filters are simpler and usually CPU-based. Shaders are GPU-based and far more powerful, but generally cannot be combined with filters.
+
+- Filters: lightweight, simple effects
+- Shaders: advanced visual control (CRT, scaling, smoothing, etc.)
+
+### Bilinear Filtering
+
+Enable via: `Settings → Video → Scaling → Bilinear Filtering`
+
+Smooths pixel edges by blending them together. Useful for non-integer scaling, but can make pixel art look slightly blurry.
+
+- No filter: sharp pixels
+- Bilinear: smoother, softer image
+
+### Filter Combinations
+
+A common setup is:
+
+- Bilinear filter (on)
+- Video Filter: `Normal2x`
+
+Path: `Settings → Video → Video Filter`
+
+This helps rebalance softness and sharpness when using non-integer scaling, producing a more readable image.
+
+### CRT / Retro Filters (Blargg)
+
+Includes NTSC, S-Video, and composite simulation filters.
+
+- Adds scanlines, color bleed, and analog softness
+- Mimics CRT display output
+- More performance-heavy than bilinear filters
+
+### Saving Settings (Overrides)
+
+Use `Quick Menu → Overrides` to save configurations:
+
+- Game Override → single game
+- Core Override → entire emulator core
+- Content Directory Override → full system folder
+
+---

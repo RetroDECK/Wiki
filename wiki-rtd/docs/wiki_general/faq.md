@@ -4,7 +4,6 @@
 
 Welcome to the RetroDECK FAQ your all-in-one place for quick answers about installation, usage, features, and more.
 
-
 ---
 
 ## FAQ: Cooker
@@ -39,7 +38,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ---
 
-## FAQ: Emulation
+## FAQ: Emulation - General
 
 <img src="../../wiki_icons/pixelitos/retroarch.png" width="30" alt="">
 
@@ -52,6 +51,9 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **Why are all emulation games called ROMs?** | Historically, emulation began with cartridge dumps-**ROM** chips. Over time, “ROM” became a general term for any emulated game file, even disc images (which are often called ISOs). Today, “ROM” is commonly used as a catch-all term for all emulated game formats. |
 | **Save States or In-Game Saves-what should I use?** | Always prefer **In-Game Saves** for reliability and compatibility. Save states are bound to a specific emulator version / core version, making them vulnerable to breakage after updates, configuration changes, or errors. Additionally, save states are not cross-compatible between different emulators / cores.  <br><br> **Save States**: Emulator-generated snapshots of the exact game state at a specific moment. <br> **In-Game Saves**: The game’s built-in save system, designed for stability and consistency. |
 | **What are Save States in emulation?** | Save states allow you to capture the precise game state at any moment-health, items, location, etc.-and resume instantly from that point.<br><br> **Benefits**:<br> - Convenient for retrying difficult sections.<br> - Useful for experimenting without losing progress.<br><br> **Drawbacks**:<br> - May bypass intended game mechanics.<br> - More prone to corruption than in-game saves, and may break after emulator updates. <br> - Not transferable between emulators. |
+
+
+
 
 ---
 
@@ -182,12 +184,3 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ---
 
-## FAQ: Other 
-
-<img src="../../wiki_icons/retrodeck/icon-alchemist.svg" width="30" alt="">
-
-| **Question** | **Answer** |
-|--------------|------------|
-| **In the DOOM Mod - Project Brutality, why is the visor GUI disabled by default in the RetroDECK configuration?** | The visor GUI is disabled by default because it does not scale well on smaller displays and can cause the interface to appear cramped. Users who prefer this feature may re-enable it in the settings menu. |
-
----

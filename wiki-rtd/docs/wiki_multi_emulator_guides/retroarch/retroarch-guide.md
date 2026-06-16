@@ -428,3 +428,14 @@ The following cores support the `Rewind` function.
 7. **Save Configuration:** `Settings → Configuration → Save Current Configuration`.
 
 ---
+
+## FAQ: RetroArch
+
+| **Question** | **Answer** |
+|--------------|------------|
+| **How do I remove black bars in certain games?** | Black bars in certain games could be due to internal video processing. Navigate to **Settings → Video → Scaling →> Aspect Ratio**. Set to **Custom**, adjust parameters to fill the screen, then save via **Overrides → Save Game Overrides**. |
+| **How do I fix scrambled text in certain N64 games?** | Scrambled text could in N64 games could be caused by texture caching issues. While in-game, open the **Quick Menu** → **Core Options → GLideN64**, and set **Cache Textures** to **Off**. Then go to **Manage Core Options** and click **Save Game Options** to apply this setting only for this title. |
+| **Steam Deck: How do I resolve a 30fps cap on certain games?** | A 30fps limit might be the cause of the rewind feature. Disable it by opening the **Quick Menu** → **Settings → Frame Throttling → Rewind** and turning it **Off**. Apply the change globally for all titles via **Overrides → Save Core Overrides**. |
+| **Steam Deck: Why am I experiencing slowdown or stuttering?** | RetroArch requires the Steam Deck to run at 60Hz. If you experience slowdown, press the three dots button and go to the **Battery (Performance)** section and ensure both **Framerate Limit** and **Refresh Rate** are set to **60**. |
+
+---

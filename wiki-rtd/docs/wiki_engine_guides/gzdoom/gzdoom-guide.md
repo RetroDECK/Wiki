@@ -337,3 +337,11 @@ This makes using mods and switching between episodes much easier.
 
 ---
 
+
+## FAQ: GZDoom 
+
+| **Question** | **Answer** |
+|--------------|------------|
+| **In the DOOM Mod - Project Brutality, why is the visor GUI disabled by default in the RetroDECK configuration?** | The visor GUI is disabled by default because it does not scale well on smaller displays and can cause the interface to appear cramped. Users who prefer this feature may re-enable it in the settings menu. |
+
+---

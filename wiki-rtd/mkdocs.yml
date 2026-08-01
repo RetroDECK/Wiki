@@ -398,7 +398,8 @@ nav:
     - RetroDECKY:
       - RetroDECKY - General Guide: wiki_utility_guides/retrodecky/retrodecky-guide.md
       - RetroDECKY - Development Architecture: wiki_utility_guides/retrodecky/retrodecky-development-architecture.md
-
+      - RetroDECKY - Version History: wiki_utility_guides/retrodecky/retrodecky-version-history.md
+      
     - PortMaster:
       - PortMaster - General Guide: wiki_utility_guides/portmaster/portmaster-guide.md
 

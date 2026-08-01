@@ -2,8 +2,6 @@
 
 <img src="../../..//wiki_icons/retrodeck/icon-RetroDECKY.svg" width="75" alt="RetroDECKY logo">
 
-RetroDECKY is a third-party Decky plugin designed for RetroDECK, the all-in-one retro gaming platform.
-
 ---
 
 ## Architecture Overview

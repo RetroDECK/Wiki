@@ -70,7 +70,7 @@ Engines are game engines or runtime environments designed to run games built spe
 
 ### Utilities
 
-Utilities are non-gaming platforms or software environments supported within RetroDECK. These may include tools, media systems that enhance functionality but are not running games themselves.
+Utilities are non-gaming platforms or software environments supported within RetroDECK. These may include tools, media systems and other applications that enhance functionality but are not running games themselves.
 
 **Examples:** 
 

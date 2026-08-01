@@ -42,6 +42,11 @@ An **emulator** is a software application designed to replicate the hardware and
 - **Vita3K** - PlayStation Vita emulator.  
 - **Pico-8** - Fantasy console.  
 
+### Frontends
+
+Frontends serve as the primary user interface layer within RetroDECK, providing the graphical experience through which users browse, launch and manage their game libraries.
+
+- **ES-DE** - Base frontend for RetroDECK with custom tweaks
 
 ### Multi-Emulators
 
@@ -65,12 +70,11 @@ Engines are game engines or runtime environments designed to run games built spe
 
 ### Utilities
 
-Utilities are non-gaming platforms or software environments supported within RetroDECK. These may include tools, frontends, media systems that enhance functionality but are not running games themselves.
+Utilities are non-gaming platforms or software environments supported within RetroDECK. These may include tools, media systems that enhance functionality but are not running games themselves.
 
 **Examples:** 
 
 - **Steam Rom Manager** - Tool for managing and importing ROMs into Steam.
-- **ES-DE** - RetroDECK’s chosen frontend.
 - **Flips** - Tool for handling ROMs and patches.
 - **PortMaster** - Application for managing game ports and installations.
 
@@ -81,7 +85,7 @@ Ports are individual games that have been adapted to run natively through a spec
 **Examples:** 
 
 - All games installed via **PortMaster**. 
-- Games built directly into **RetroDECK**.
+- Games built directly into or downloaded via **RetroDECK**.
 
 --- 
 

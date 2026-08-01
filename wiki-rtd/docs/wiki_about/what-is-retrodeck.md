@@ -46,7 +46,7 @@ An **emulator** is a software application designed to replicate the hardware and
 
 Frontends serve as the primary user interface layer within RetroDECK, providing the graphical experience through which users browse, launch and manage their game libraries.
 
-- **ES-DE** - Base frontend for RetroDECK with custom tweaks
+- **ES-DE (EmulationStation Desktop Edition)** - Is the default frontend for RetroDECK with tiny custom tweaks.
 
 ### Multi-Emulators
 

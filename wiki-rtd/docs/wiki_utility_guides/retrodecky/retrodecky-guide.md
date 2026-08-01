@@ -2,7 +2,10 @@
 
 <img src="../../..//wiki_icons/retrodeck/icon-RetroDECKY.svg" width="75" alt="RetroDECKY logo">
 
-RetroDECKY is a third-party Decky plugin designed for RetroDECK, the all-in-one retro gaming platform.
+**RetroDECKY** is an **unofficial, third-party** (at this moment) Decky plugin developed by **Teppichseite** for use with RetroDECK.
+
+>  **Note:** The RetroDECK team provides advisory support and development guidance to assist Teppichseite with the ongoing development of RetroDECKY. The RetroDECK Wiki serves as the official documentation portal for RetroDECKY and the RetroDECK Discord hosts the official RetroDECKY community as part of the wider RetroDECK community.
+
 
 ---
 
@@ -13,6 +16,7 @@ RetroDECKY is a third-party Decky plugin designed for RetroDECK, the all-in-one 
 | Resource | Link |
 |----------|------|
 | RetroDECKY - Github | [Link](https://github.com/Teppichseite/RetroDecky) |
+| RetroDECKY - Discord | RetroDECKY uses the RetroDECK Discord |
 
 ---
 

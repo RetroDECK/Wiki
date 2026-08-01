@@ -1,6 +1,6 @@
 ﻿# RetroDECKY - General Guide
 
-<img src="../../..//wiki_icons/retrodeck/icon-RetroDECKY.svg" width="75" alt="RetroDECKY logo">
+<img src="../../../wiki_icons/retrodeck/icon-RetroDECKY.svg" width="75" alt="RetroDECKY logo">
 
 **RetroDECKY** is an **unofficial, third-party** (at this moment) Decky plugin developed by **Teppichseite** for use with RetroDECK.
 

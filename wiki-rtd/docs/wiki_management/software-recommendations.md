@@ -12,7 +12,8 @@ This is a curated list compiled by the RetroDECK Team, featuring recommended too
 
 | Tool / Plugin | Logo | Description | Link |
 |---------------|------|-------------|------|
-| **Decky Loader** | <img src="../../wiki_images/logos/decky-loader-logo.png" width="200" alt="Decky Loader logo"> | Enables custom plugins in Steam Deck's Game Mode for advanced features. Follow the GitHub guide for installation. | [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) |
+| **Decky Loader** | <img src="../../wiki_images/logos/decky-loader-logo.png" width="50" alt="Decky Loader logo"> | Enables custom plugins in Steam Deck's Game Mode for advanced features. Follow the GitHub guide for installation. | [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader) |
+| **Decky Plugin: RetroDECKY** | <img src="../../wiki_icons/retrodeck/icon-RetroDECKY.svg" width="50" alt="Decky Loader logo"> | **RetroDECKY** is an **unofficial, third-party** Decky plugin for use with RetroDECK. | [RetroDECKY](../wiki_utility_guides/retrodecky/retrodecky-guide.md) |
 | **Decky Plugin: AutoFlatpaks** | - | Manage, update, and install Flatpaks directly from Game Mode, including RetroDECK. | [AutoFlatpaks](https://github.com/jurassicplayer/decky-autoflatpaks) |
 | **Decky Plugin: Decky SteamgridDB** | - | Browse and manage Steam artwork from SteamGridDB or local files within Game Mode. | [Decky SteamgridDB](https://github.com/SteamGridDB/decky-steamgriddb) |
 | **Decky Plugin: PowerTools** | - | Allows tweaking of Steam Deck hardware for better performance on certain games. | [PowerTools](https://git.ngni.us/NG-SD-Plugins/PowerTools) |

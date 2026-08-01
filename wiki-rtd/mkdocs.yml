@@ -368,7 +368,12 @@ nav:
     - XRoar:
       - XRoar - General Guide: wiki_emulator_guides/xroar/xroar-guide.md
 
-  - Guides - Multi-Emulators  📕:
+  - Guides - Frontends 🖼️:
+
+    - ES-DE:
+      - ES-DE - General Guide: wiki_frontend_guides/es-de/esde-guide.md
+
+  - Guides - Multi-Emulators 📕:
 
     - MAME:
       - MAME - General Guide: wiki_multi_emulator_guides/mame/mame-guide.md
@@ -384,14 +389,15 @@ nav:
 
   - Guides - Utilities 🗃️:
 
-    - ES-DE Frontend:
-      - ES-DE - General Guide: wiki_utility_guides/es-de/esde-guide.md
-
     - Flips:
       - Flips - General Guide: wiki_utility_guides/flips/flips-guide.md
 
     - RetroENGINE:
       - RetroENGINE - General Guide: wiki_utility_guides/retroengine/retroengine-guide.md
+
+    - RetroDECKY:
+      - RetroDECKY - General Guide: wiki_utility_guides/retrodecky/retrodecky-guide.md
+      - RetroDECKY - Development Architecture: wiki_utility_guides/retrodecky/retrodecky-development-architecture.md
 
     - PortMaster:
       - PortMaster - General Guide: wiki_utility_guides/portmaster/portmaster-guide.md

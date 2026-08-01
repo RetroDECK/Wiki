@@ -106,6 +106,17 @@ Custom artwork folder icons.
 <img src="../../wiki_icons/folder-iconsets/lahrs-main/rd_home.ico" width="50" alt="Sample Lahrs folder icon set showing custom icons for RetroDECK folders"> 
 <img src="../../wiki_icons/folder-iconsets/lahrs-main/saves.ico" width="50" alt=""> <img src="../../wiki_icons/folder-iconsets/lahrs-main/states.ico" width="50" alt=""> <img src="../../wiki_icons/folder-iconsets/lahrs-main/bios.ico" width="50" alt=""> <img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/pico8.ico" width="50" alt=""> <img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/doom.ico" width="50" alt=""> <img src="../../wiki_icons/folder-iconsets/lahrs-main/roms/portmaster.ico" width="50" alt=""> <img src="../../wiki_icons/folder-iconsets/lahrs-main/ES-DE/downloaded_media.ico" width="50" alt="">
 
+---
+
+## Components: Frontends
+
+Frontends serve as the primary user interface layer within RetroDECK, providing the graphical experience through which users browse, launch and manage their game libraries.
+
+| Component | Logo | Description | Guide |
+|----------|-------|-------------|-------|
+| **ES-DE** | <img src="../../wiki_images/logos/es-de-logo.png" width="50" alt="ES-DE logo"> | Base frontend for RetroDECK with custom tweaks such as the RetroDECK Configurator. | [ES-DE Frontend - General Guide](../wiki_frontend_guides/es-de/esde-guide.md) |
+
+
 
 ---
 
@@ -115,7 +126,6 @@ Utilities are non-gaming platforms or software environments supported within Ret
 
 | Component | Logo | Description | Guide |
 |----------|-------|-------------|-------|
-| **ES-DE** | <img src="../../wiki_images/logos/es-de-logo.png" width="50" alt="ES-DE logo"> | Base frontend for RetroDECK with custom tweaks such as the RetroDECK Configurator. | [ES-DE Frontend - General Guide](../wiki_utility_guides/es-de/esde-guide.md) |
 | **Flips** | <img src="../../wiki_images/logos/flips-logo.png" width="50" alt="Flips logo"> | Tiny `.ips` `.bps` patcher for ROMs (used for patching ROM Hacks). | Open from Configurator | - |
 | **PortMaster** | <img src="../../wiki_images/logos/portmaster-logo.png" width="75" alt="PortMaster logo"> | GUI tool to download and install game ports on Linux devices. | [PortMaster - General Guide](../wiki_utility_guides/portmaster/portmaster-guide.md) |
 | **Steam ROM Manager** | <img src="../../wiki_images/logos/srm-logo.png" width="50" alt="Steam ROM Manager logo"> | Bulk game importer and artwork manager for Steam. Adds games automatically and configures Steam Input templates. | [SRM - General Guide](../wiki_utility_guides/srm/srm-guide.md) |

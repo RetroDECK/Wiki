@@ -381,11 +381,12 @@ nav:
     - RetroArch:
       - RetroArch - General Guide: wiki_multi_emulator_guides/retroarch/retroarch-guide.md
       - RetroArch - Texture Pack Guide: wiki_multi_emulator_guides/retroarch/retroarch-texture-pack.md
+      - RetroArch - RPG Maker - RTP Guide: wiki_multi_emulator_guides/retroarch/retroarch-rpgmaker-rtp-guide.md
       - RetroArch - Display, Filters, Scaling, Shaders & Overlays Guide: wiki_multi_emulator_guides/retroarch/retroarch-shaders-display.md
       - RetroArch - GB/GBC - TGBDual Linking: wiki_multi_emulator_guides/retroarch/retroarch-gb-gc-tgbdual.md
       - RetroArch - N3DS - Citra - DLC Guide: wiki_multi_emulator_guides/retroarch/retroarch-citra-dlc.md
       - RetroArch - PSX - DexDrive Convert: wiki_multi_emulator_guides/retroarch/retroarch-psx-dexdrive.md
-      - RetroArch - VB - Beetle VB  - 3D Mode:  wiki_multi_emulator_guides/retroarch/retroarch-vb-3dmode.md
+      - RetroArch - VB - Beetle VB - 3D Mode:  wiki_multi_emulator_guides/retroarch/retroarch-vb-3dmode.md
 
   - Guides - Utilities 🗃️:
 

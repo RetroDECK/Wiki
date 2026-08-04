@@ -18,7 +18,9 @@ RetroDECK uses Gargoyle both as an **Infocom Z-Machine** emulator and an **Inter
 | Resource | Link |
 |----------|------|
 | Gargoyle Github | [Link](https://github.com/garglk/garglk/) |
-| Historical Source  Github | [Link](https://github.com/historicalsource?tab=repositories) |
+| Gargoyle Webpage | [Link](https://ccxvii.net/gargoyle/) |
+| Historical Source Github | [Link](https://github.com/historicalsource?tab=repositories) |
+
 
 ---
 
@@ -98,3 +100,27 @@ The following keyboard shortcuts are available during gameplay.
 | <kbd>Ctrl</kbd> + <kbd>Q</kbd> | Quit application | Quits the application. |
 
 ---
+
+## Inform: Making your own Interactive Fiction
+
+If you want to make your own Interactive Fiction games to play within RetroDECK you can use **Inform**. It is a domain-specific programming language and integrated development environment (IDE) for creating interactive fiction, compiling games for the Z-machine and Glulx virtual machines.  
+
+It uses a natural-language-inspired syntax and can produce portable story files such as `.z8`, `.ulx`, and `.gblorb` for Gargoyle.
+
+| Resource | Link |
+|----------|------|
+| Infrom Github | [Link](https://github.com/ganelson/inform) |
+| Inform Website | [Link](https://ganelson.github.io/inform-website/) |
+| Inform Documentation | [Link](https://ganelson.github.io/inform-website/doc/) |
+| Inform Flathub | [Link](https://flathub.org/en/apps/com.inform7.IDE) |
+
+
+| Export Format | Type  | Common Use |
+|--------|------------|-------------|
+| `.gblorb` | Glulx Blorb | Most common for released games with images, sound, cover art and metadata. | 
+| `.ulx` | Glulx Story  | Common for testing, development and text-only releases. |
+| `.z8` | Z-machine Version 8 | Used for compatibility with Z-machine. |
+
+---
+
+

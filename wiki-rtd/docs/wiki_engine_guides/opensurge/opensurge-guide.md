@@ -1,6 +1,6 @@
 ﻿# Guide: Open Surge
 
-<img src="../../../wiki_images/logos/opensurge-logo.png" width="150" alt="Open Surge logo">
+<img src="../../../wiki_images/logos/opensurge-logo.png" width="250" alt="Open Surge logo">
 
 Open Surge is a 2D retro game engine in the spirit of classic 16-bit Sonic platformers of the 1990s.
 
@@ -59,7 +59,7 @@ No
 
 ## How-to: Play Open Surge Games in RetroDECK?
 
-<img src="../opensurge-speedy.png" width="150" alt="Speedy Folder">
+<img src="../opensurge-speedy.png" width="800" alt="Speedy Folder">
 
 This guide uses **Speedy The Rollerskater** as an example, but the steps apply to any Open Surge game.
 
@@ -78,8 +78,6 @@ This guide uses **Speedy The Rollerskater** as an example, but the steps apply t
 <img src="../../../wiki_images/logos/opensurge-surge.png" width="75" alt="Opensurge Surge logo">
 
 You can enable the built-in **Surge the Rabbit** game using one of two methods below.
-
----
 
 ### Method 1: Using the Configurator
 
@@ -109,8 +107,6 @@ You can enable the built-in **Surge the Rabbit** game using one of two methods b
 ## How-to: Disable the Surge the Rabbit Game in RetroDECK?
 
 You can disable the built-in **Surge the Rabbit** game using one of two methods below.
-
----
 
 ### Method 1: Using the Configurator
 

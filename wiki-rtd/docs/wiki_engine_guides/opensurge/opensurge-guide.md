@@ -113,7 +113,7 @@ You can disable the built-in **Surge the Rabbit** game using one of two methods 
 
 ## How to Play Open Surge Games in RetroDECK
 
-<img src="opensurge-speedy.png" width="150" alt="Speedy Folder">
+<img src="../opensurge-speedy.png" width="150" alt="Speedy Folder">
 
 This guide uses **Speedy The Rollerskater** as an example, but the steps apply to any Open Surge game.
 

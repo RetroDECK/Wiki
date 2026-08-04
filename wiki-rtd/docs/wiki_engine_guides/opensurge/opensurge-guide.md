@@ -64,12 +64,12 @@ No
 This guide uses **Speedy The Rollerskater** as an example, but the steps apply to any Open Surge game.
 
 1. Download the game of your choice.
-2. Extract the archive if the download is in a compressed format (`.zip`, `.tar.gz`, etc...)
-3. Move the extracted folder to: `retrodeck/roms/opensurge/`
-4. Ensure the path matches this pattern: `retrodeck/roms/opensurge/<your_game_folder>/`*(Example: `retrodeck/roms/opensurge/Speedy The Rollerskater/`)*
-5. Rename the folder so it ends with `.surge`: `retrodeck/roms/opensurge/Speedy The Rollerskater.surge`
-6. The game now appears in **ES-DE** under the Open Surge submenu
-7. **Launch the game**
+2. Extract the archive if the download is in a compressed format (`.zip`, `.tar.gz`, etc...).
+3. Move the extracted folder to: `retrodeck/roms/opensurge/`.
+4. Ensure the path matches this pattern: `retrodeck/roms/opensurge/<your_game_folder>/`*(Example: `retrodeck/roms/opensurge/Speedy The Rollerskater/`)*.
+5. Rename the folder so it ends with `.surge`: `retrodeck/roms/opensurge/Speedy The Rollerskater.surge`.
+6. The game now appears in **ES-DE** under the Open Surge submenu.
+7. **Launch the game**.
 
 ---
 
@@ -83,8 +83,8 @@ You can enable the built-in **Surge the Rabbit** game using one of two methods b
 
 ### Method 1: Using the Configurator
 
-1. Open **RetroDECK Configurator**
-2. Navigate to **Settings** → **Open Surge: Surge the Rabbit**
+1. Open **RetroDECK Configurator**.
+2. Navigate to **Settings** → **Open Surge: Surge the Rabbit**.
 3. Press the **Enable** button (when enabled, a file named `Surge the Rabbit.surge` is created at: `retrodeck/roms/opensurge/`).
 4. **Restart RetroDECK**.
 5. In **ES-DE**, navigate to **Surge the Rabbit** in the Open Surge submenu.

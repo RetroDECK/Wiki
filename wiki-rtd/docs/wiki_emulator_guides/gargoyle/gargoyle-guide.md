@@ -4,7 +4,7 @@
 
 Gargoyle is an interactive fiction emulator that supports all major IF game formats by bundling multiple interpreters into a single application. Since interactive fiction is distributed in a variety of portable game file formats, Gargoyle eliminates the need for a separate interpreter for each one. 
 
-RetroDECK uses Gargoyle specifically as an **Infocom Z-Machine** and **Interactive Fiction** emulator.
+RetroDECK uses Gargoyle both as an **Infocom Z-Machine** emulator and an **Interactive Fiction** emulator.
 
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
@@ -32,7 +32,7 @@ Gargoyle games should be put under the `retrodeck/roms/zmachine/` directory for 
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
-Gargoyle supports a wide range of interactive fiction game formats. The following table lists the supported Z-machine file extensions.
+Gargoyle supports a wide range of interactive fiction game formats.
 
 | Interpreter | Engine / Format | File Extensions |
 |------------|------------------|------------------|
@@ -66,8 +66,8 @@ No
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
-| ROMs   | `retrodeck/roms/zmachine/`                       |   Infocom Z-machine: Bocfel            |
-| ROMs   | `retrodeck/roms/if/`                             |   Interactive Fiction *all formats*         |
+| ROMs   | `retrodeck/roms/zmachine/`                       |   Infocom Z-machine *Only Infocom Z-machine formats*    |
+| ROMs   | `retrodeck/roms/if/`                             |   Interactive Fiction *All formats*         |
 
 ---
 

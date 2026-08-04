@@ -57,7 +57,7 @@ No
 
 ---
 
-## How-to: Play Open Surge Games in RetroDECK
+## How-to: Play Open Surge Games in RetroDECK?
 
 <img src="../opensurge-speedy.png" width="150" alt="Speedy Folder">
 

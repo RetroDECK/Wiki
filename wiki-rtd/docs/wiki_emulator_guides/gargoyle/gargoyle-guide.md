@@ -2,16 +2,16 @@
 
 <img src="../../../wiki_images/logos/gargoyle-logo.webp" width="150" alt="Gargoyle logo">
 
-Gargoyle is an interactive fiction player that supports all major IF game formats by bundling multiple interpreters into a single application. Since interactive fiction is distributed in a variety of portable game file formats, Gargoyle eliminates the need for a separate interpreter for each one. 
+Gargoyle is an interactive fiction emulator that supports all major IF game formats by bundling multiple interpreters into a single application. Since interactive fiction is distributed in a variety of portable game file formats, Gargoyle eliminates the need for a separate interpreter for each one. 
 
-RetroDECK uses Gargoyle specifically as an Infocom Z-Machine and an Interactive Fiction emulator.
+RetroDECK uses Gargoyle specifically as an **Infocom Z-Machine** and **Interactive Fiction** emulator.
 
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 
 ---
 
-### GameTank Links
+### Gargyole Links
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
@@ -39,7 +39,7 @@ Gargoyle supports a wide range of interactive fiction game formats. The followin
 | AdvSys | Adventure System | `.dat` |
 | Agility | AGT (Adventure Game Toolkit) | `.agx`, `.d$$` |
 | Alan 2/3 | Alan 2 / Alan 3 | `.acd`, `.a3c` |
-| Bocfel | **Infocom Z-machine** | `.z1`, `.z2`, `.z3`, `.z4`, `.z5`, `.z6`, `.z7`, `.z8`, `.zblorb`, `.zlb` |
+| Bocfel | Infocom Z-machine | `.z1`, `.z2`, `.z3`, `.z4`, `.z5`, `.z6`, `.z7`, `.z8`, `.zblorb`, `.zlb` |
 | Git | Glulx | `.ulx`, `.blb`, `.gblorb`, `.glb` |
 | Glulxe | Glulx | `.ulx`, `.blb`, `.gblorb`, `.glb` |
 | Hugo | Hugo | `.hex`, `.hdx`, `.blorb` |
@@ -66,8 +66,8 @@ No
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
-| ROMs   | `retrodeck/roms/zmachine/`                       |   Bocfel            |
-| ROMs   | `retrodeck/roms/if/`                             |     Interactive Fiction *all formats*         |
+| ROMs   | `retrodeck/roms/zmachine/`                       |   Infocom Z-machine: Bocfel            |
+| ROMs   | `retrodeck/roms/if/`                             |   Interactive Fiction *all formats*         |
 
 ---
 
@@ -77,7 +77,7 @@ Cannot be played with a controller easily and is best used with a physical keybo
 
 ### Keyboard Shortcuts
 
-Gargoyle is designed to stay out of the way while a game is running, displaying only the interpreter. The following keyboard shortcuts are available during gameplay.
+The following keyboard shortcuts are available during gameplay.
 
 | Shortcut | Action | Description |
 |----------|--------|-------------|
@@ -85,7 +85,7 @@ Gargoyle is designed to stay out of the way while a game is running, displaying 
 | <kbd>Ctrl</kbd> + <kbd>.</kbd> | Show configuration paths | Displays all configuration file paths and theme search paths used by Gargoyle. |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> | List available themes | Displays all installed color themes. |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Save scrollback | Saves the current scrollback buffer to a file, creating a transcript of the current session. |
-| <kbd>Alt</kbd> + <kbd>Enter</kbd><br>*(Windows/Linux)*<br><br><kbd>Command</kbd> + <kbd>Ctrl</kbd> + <kbd>F</kbd><br>*(macOS)* | Toggle fullscreen | Switches between windowed and fullscreen mode. |
+| <kbd>Alt</kbd> + <kbd>Enter</kbd><br> | Toggle fullscreen | Switches between windowed and fullscreen mode. |
 | <kbd>Ctrl</kbd> + <kbd>A</kbd> | Beginning of line | Moves the cursor to the beginning of the current line. |
 | <kbd>Ctrl</kbd> + <kbd>B</kbd> | Move left | Moves the cursor one character to the left. |
 | <kbd>Ctrl</kbd> + <kbd>D</kbd> | Delete character | Deletes the character under the cursor. |

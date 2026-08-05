@@ -55,13 +55,15 @@ In most cases you will use these.
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
-Yes
+Yes the following are required:
 
-- `level2.rom` - minimum requirement, system ROM
-- `boot.dsk` - minimum requirement, boot disk image of `NewDos/80 v2.0` renamed to `boot.dsk`.
+- `level2.rom` - system ROM
+- `boot.dsk` - boot disk image of `NewDos/80 v2.0` renamed to `boot.dsk`.
 
 
-**Additional BIOS:** For other computer-specific BIOS or peripheral firmware, please consult the [SDL2TRS GitLab repository](https://gitlab.com/jengun/sdltrs/) linked above.
+**Additional BIOS:** 
+
+For other computer-specific BIOS or peripheral firmware, please consult the [SDL2TRS GitLab repository](https://gitlab.com/jengun/sdltrs/) linked above.
 
 ### Where to put the SDL2TRS BIOS?
 
@@ -83,23 +85,64 @@ Directly into the folder
 
 ---
 
+## Playing TRS-80 Games in RetroDECK
 
+RetroDECK supports three methods for launching TRS-80 software in ES-DE.
 
-## SDLTRS User Manual
+Most TRS-80 software is distributed as **DOS diskettes**, which is the default launch method.
+
+To use **Bootable Diskette** or **CMD File** instead, change the game's **Alternative Emulator**:
+
+1. Open **Edit This Game's Metadata**.
+2. Select **Alternative Emulator**.
+3. Choose the desired emulator from the list.
+4. Save your changes.
+
+### DOS Diskette (Recommended)(Default)
+
+Use **sdl2trs DOS Diskette (Standalone)** in ES-DE.
+
+- `boot.dsk` is mounted as **Drive 0** and boots automatically.
+- The selected game disk is mounted as **Drive 1** from `retrodeck/roms/trs-80/<game>.dsk`.
+
+Start the game from the DOS prompt:
+
+1. Type `DIR` to list the files on the game disk.
+2. Find the desired `.CMD` program.
+3. Launch it by entering its filename **without** the `.CMD` extension.
+
+**Example ZORK2:**
+
+- Type `DIR` 
+- It lists `ZORK2/CMD`
+- Type ZORK2
+- You are now playing ZORK 2
+
+### Bootable Diskette
+
+Use **sdl2trs Bootable Diskette (Standalone)**.
+
+The selected `.dsk` is inserted into Drive 0 and boots automatically.
+
+### CMD Programs
+
+Use **sdl2trs CMD File (Standalone)**.
+
+The selected `.cmd` file is loaded and executed automatically.
+
+---
+
+### Controls: Keyboard ⌨️ & Mouse 🖱️ 
+
+Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
+
+The emulator controls are **hardcoded**.
 
 This section is derived from SRLTRS Documentation and has been restructured to
 conform to the RetroDECK wiki format. Only Linux-specific and RetroDECK-relevant
 content is included.
 
 All credit goes to **Jens Guenther** / **Tim Mannr** / **libSDL Team** / **Mark Grebe**
-
----
-
-## Controls: Keyboard ⌨️ & Mouse 🖱️ 
-
-Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
-
-The emulator controls are **hardcoded**.
 
 ---
 

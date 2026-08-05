@@ -28,7 +28,7 @@ Mudlet enables MUD server maintainers to add visual elements and custom features
 
 ## Where to put the games?
 
-You don't need to add them manually. Mudlet profiles are **automatically** stored in the `retrodeck/roms/muds/` folder upon connection.
+You don't need to add them manually. Mudlet profiles are **automatically** stored in the `retrodeck/roms/muds/` directory upon connection.
 
 ---
 
@@ -58,7 +58,8 @@ No, Mudlet does not require BIOS or firmware, as the games run on remote servers
 
 | Type | Directory                 | Comment                           |
 |:----:|:--------------------------|:---------------------------------|
-| ROMs | `retrodeck/roms/muds/<server_profiles>`    |    All local server-specific data is stored in its own server profile folder.           |
+| ROMs | `retrodeck/roms/muds/<server_profiles>`    |    All local server-specific data is stored in its own server profile directory.           |
+| Plugins | `retrodeck/storage/mudlet/plugins/`    |   Mudlet Plugins directory     |
 
 ---
 
@@ -101,7 +102,7 @@ Some profile names may contain characters that are not handled correctly by the 
 
 ## How-to: Migrate profiles from another Mudlet instance to RetroDECK?
 
-1. **Profiles in ROMs:** Put your game profiles in the roms folder `retrodeck/roms/muds/`.
+1. **Profiles in ROMs:** Put your game profiles in the roms directory `retrodeck/roms/muds/`.
 2. **Restart RetroDECK:** During a restart RetroDECK will automatically populate and convert all your logged in profiles into `.mud` during boot.
 3. **Launch the game:** All your old MUD games will now appear in ES-DE under the **MUDs** system and auto connect to the profile when played.
 

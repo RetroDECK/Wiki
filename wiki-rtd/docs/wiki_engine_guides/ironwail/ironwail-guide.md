@@ -76,17 +76,18 @@ Or by browsing to:
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
-| Type | Directory | Comment |
-|:----:|:--------------------------------------|:-----------------------------------------------|
-| ROMs | `retrodeck/roms/quake/ironwail/id1` | |
-| Saves, Mods, Settings | `retrodeck/roms/quake/ironwail/` | |
-
-**Note:** Ironwail currently stores all data: including saves and mods within `retrodeck/roms/quake/ironwail/id1`. The engine is hardcoded to use a single path for everything. 
+**Note:** Ironwail currently stores all data: including saves and mods within `retrodeck/roms/quake/ironwail/`. The engine is hardcoded to use a single path for everything. 
 
 The RetroDECK team has suggested to the Ironwail developers that future versions support more flexible, dynamic paths. 
 
 If such an update is implemented, the data will be relocated to the corresponding folders within RetroDECK.
 
+| Type | Directory | Comment |
+|:----:|:--------------------------------------|:-----------------------------------------------|
+| ROMs       | `retrodeck/roms/quake/ironwail/id1`          |  `pak0.pak`  `pak1.pak`.                                                                       |
+| Settings   | `retrodeck/roms/quake/ironwail/id1`          | `ironwail.cfg`                                                                    |
+| Mods       | `retrodeck/roms/quake/ironwail/mods/<dir>`   | Each downloaded mod resides in its own subdirectory.                                           |
+| Saves      | `retrodeck/roms/quake/ironwail/<dir>`        | Base game saves live in `id1/`; mod saves live in each respective `mods/<dir>` subdirectory. |
 
 ---
 

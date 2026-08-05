@@ -124,6 +124,81 @@ RetroDECK will now launch Quake using Ironwail.
 
 ---
 
+## Ironwail Controls
+
+### Controls: Keyboard ⌨️ & Mouse 🖱️ 
+
+
+| Input | Action |
+|:------|:-------|
+| <kbd>W</kbd> / <kbd>↑</kbd> | Move Forward |
+| <kbd>S</kbd> / <kbd>↓</kbd> | Move Backward |
+| <kbd>A</kbd> / <kbd>,</kbd> | Strafe Left |
+| <kbd>D</kbd> / <kbd>.</kbd> | Strafe Right |
+| <kbd>←</kbd> | Turn Left |
+| <kbd>→</kbd> | Turn Right |
+| <kbd>Space</kbd> | Jump |
+| <kbd>Shift</kbd> | Run (Speed Modifier) |
+| <kbd>Alt</kbd> | Strafe Modifier |
+| <kbd>E</kbd> | Swim/Fly Up |
+| <kbd>C</kbd> | Swim/Fly Down |
+| <kbd>Left Mouse</kbd> / <kbd>Ctrl</kbd> | Attack / Fire Weapon |
+| <kbd>Mouse Wheel ↑</kbd> | Previous Weapon |
+| <kbd>Mouse Wheel ↓</kbd> | Next Weapon |
+| <kbd>0</kbd> | Select Weapon 0 |
+| <kbd>1</kbd> | Select Weapon 1 |
+| <kbd>2</kbd> | Select Weapon 2 |
+| <kbd>3</kbd> | Select Weapon 3 |
+| <kbd>4</kbd> | Select Weapon 4 |
+| <kbd>5</kbd> | Select Weapon 5 |
+| <kbd>6</kbd> | Select Weapon 6 |
+| <kbd>7</kbd> | Select Weapon 7 |
+| <kbd>8</kbd> | Select Weapon 8 |
+| <kbd>/</kbd> | Next Weapon |
+| <kbd>\</kbd> | Mouse Look |
+| <kbd>Insert</kbd> | Keyboard Look |
+| <kbd>Page Down</kbd> | Look Up |
+| <kbd>Delete</kbd> | Look Down |
+| <kbd>End</kbd> | Center View |
+| <kbd>F11</kbd> | Zoom In |
+| <kbd>Tab</kbd> | Show Scoreboard |
+| <kbd>Esc</kbd> | Open Menu |
+| <kbd>T</kbd> | Open Chat |
+| <kbd>`</kbd> / <kbd>~</kbd> | Toggle Console |
+| <kbd>Pause</kbd> | Pause Game |
+| <kbd>+</kbd> / <kbd>=</kbd> | Increase Screen Size |
+| <kbd>-</kbd> | Decrease Screen Size |
+| <kbd>F1</kbd> | Help |
+| <kbd>F2</kbd> | Save Game Menu |
+| <kbd>F3</kbd> | Load Game Menu |
+| <kbd>F4</kbd> | Options Menu |
+| <kbd>F5</kbd> | Multiplayer Menu |
+| <kbd>F6</kbd> | Quick Save |
+| <kbd>F9</kbd> | Quick Load |
+| <kbd>F10</kbd> | Quit Game |
+| <kbd>F12</kbd> / <kbd>Print Screen</kbd> | Screenshot |
+
+
+---
+
+### Controls: Keyboard 🎮 Gamepad
+
+| Input | Action |
+|:------|:-------|
+| <kbd>RT</kbd> | Attack / Fire Weapon |
+| <kbd>LT</kbd> / <kbd>B</kbd>  | Jump |
+| <kbd>LB</kbd> | Previous Weapon |
+| <kbd>RB</kbd> | Next Weapon |
+| <kbd>L3</kbd> | Zoom |
+| <kbd>R3</kbd> | Center View |
+| <kbd>D-Pad ↑</kbd> | Swim/Fly Up |
+| <kbd>D-Pad ↓</kbd> | Swim/Fly Down |
+| <kbd>D-Pad ←</kbd> | Show Scoreboard |
+| <kbd>Menu</kbd> | Pause Game |
+
+
+---
+
 ## Cheats
 
 ### Classic Quake Cheats

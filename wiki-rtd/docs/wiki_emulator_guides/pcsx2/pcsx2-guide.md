@@ -60,7 +60,7 @@ You need at least one.
 
 ### Where to put the PS2 BIOS?
 
-Directly into the folder
+Directly into the directory:
 
 `retrodeck/bios/`
 

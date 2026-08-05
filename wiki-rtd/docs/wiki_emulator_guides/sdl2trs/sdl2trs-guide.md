@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/sdltrs-logo.png" width="150" alt="Sdltrs logo">
 
-SDL2TRS is a Tandy TRS-80 Model I/III/4/4P emulator and the SDL2 version of SDLTRS.
+SDL2TRS is a Tandy TRS-80 Model I/III/4/4P emulator.
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 
@@ -14,14 +14,14 @@ SDL2TRS is a Tandy TRS-80 Model I/III/4/4P emulator and the SDL2 version of SDLT
 
 | Resource | Link |
 |----------|------|
-| SDLTRS / SDL2TRS GitLab | [Link](https://gitlab.com/jengun/sdltrs/-/tree/sdl2) |
-| SDLTRS Documentation | [Link](https://jengun.gitlab.io/sdltrs/) |
+| SDL2TRS GitLab | [Link](https://gitlab.com/jengun/sdltrs/-/tree/sdl2) |
+| SDL2TRS Documentation | [Link](https://jengun.gitlab.io/sdltrs/) |
 
 ---
 
 ## Where to put the games
 
-Microvision games should be put under the `retrodeck/roms/trs-80/` directory.
+Tandy TRS-80 games should be put under the `retrodeck/roms/trs-80/` directory.
 
 ---
 
@@ -57,6 +57,19 @@ In most cases you will use these.
 
 Yes
 
+- `level2.rom` - minimum requirement, system ROM
+- `boot.dsk` - minimum requirement, boot disk image
+
+
+**Additional BIOS:** For other computer-specific BIOS or peripheral firmware, please consult the [SDL2TRS GitLab repository](https://gitlab.com/jengun/sdltrs/) linked above.
+
+### Where to put the SDL2TRS BIOS?
+
+Directly into the folder
+
+`retrodeck/roms/trs-80`
+
+
 ---
 
 ## Directory structure
@@ -65,7 +78,8 @@ Yes
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
-| ROMs   | `retrodeck/roms/microvision/`                             |               |
+| ROMs   | `retrodeck/roms/trs-80/`                             |               |
+| BIOS   | `retrodeck/roms/trs-80/`                             |  BIOS Files needs to be with the ROMs   |
 
 ---
 
@@ -89,119 +103,153 @@ The emulator controls are **hardcoded**.
 
 ---
 
-### Emulator Controls
+### Emulator Hotkeys
 
-| Host Key | Function |
-|---------|----------|
-| 1-6 (Numeric Keypad) | P1-P5 and ESC for TCS Genie IIIs |
-| Alt-'+' or Alt-9 | Increase Z80 CPU clock rate (use with caution) |
-| Alt-'-' or Alt-8 | Decrease Z80 CPU clock rate (use with caution) |
-| Alt-. | Show or hide mouse pointer in emulator window |
-| Alt-0…7 | Insert floppy disk into drive 0…7 |
-| Alt-A | Select all on TRS-80 emulator screen |
-| Alt-B | Toggle LED display at bottom of emulator screen |
-| Alt-C | Copy from TRS-80 emulator to clipboard |
-| Alt-D or Alt-F | Floppy disk management |
-| Alt-E | Emulator settings |
-| Alt-End or Alt-Q | Quit SDLTRS |
-| Alt-Enter | Toggle fullscreen/windowed mode |
-| Alt-G | Stringy floppy wafer management |
-| Alt-H | Hard disk management |
-| Alt-Home | Set windowed mode scaling to lowest size |
-| Alt-I | Display (interface) settings |
-| Alt-Insert | Insert key via virtual keyboard |
-| Alt-J | Joystick GUI |
-| Alt-K | Show key bindings |
-| Alt-L | Load emulator state |
-| Alt-M or Alt-Comma | Main menu |
-| Alt-N | Toggle turbo mode |
-| Alt-O | Miscellaneous settings |
-| Alt-P or Pause | Pause or resume emulator |
-| Alt-Page Down | Increase windowed mode scaling |
-| Alt-Page Up | Decrease windowed mode scaling |
-| Alt-R | Read configuration |
-| Alt-S | Save emulator state |
-| Alt-Shift-0…7 | Remove floppy disk from drive 0…7 |
-| Alt-Shift-Delete | Hard reset |
-| Alt-T | Cassette (tape) management |
-| Alt-U | Toggle sound output (mute/unmute) |
-| Alt-V | Paste from clipboard to emulator |
-| Alt-W | Write configuration |
-| Alt-X | Execute selected CMD file in emulator |
-| Alt-Y | Toggle scanlines in emulator window |
-| Alt-Z | Enter zbx debugger or toggle fullscreen mode |
-| Alt-Backspace | Reset Z80 CPU clock rate to default |
-| Alt-Delete | Soft reset |
-| Control | TRS-80 Control key or TCS Genie IIs/SpeedMaster P1 |
-| Delete or Home | TRS-80 Clear key |
-| Down Arrow | TRS-80 Down Arrow key |
-| End | TRS-80 Shifted Down Arrow; Control key in some software; ESC (Genie III); P2 (Genie IIs/SpeedMaster) |
-| ESC | TRS-80 Break key |
-| F1 | TRS-80 F1 key |
-| F2 | TRS-80 F2 key |
-| F3 | TRS-80 F3 key |
-| F4 | TRS-80 Model 4/4P Caps Lock or F4 key |
-| F5 or Scroll Lock | TRS-80 '@' key or F5 key |
-| F6 | TRS-80 shifted '0' or F6 key |
-| F7 | Main menu |
-| F8 | Quit SDLTRS |
-| F9 | Enter zbx debugger or toggle fullscreen mode |
-| F10 | Soft reset |
-| F11 | Show key bindings |
-| F12 | Toggle turbo mode |
-| Insert | TRS-80 Underscore key |
-| Left Arrow or Backspace | TRS-80 Left Arrow key |
-| Num Lock | Toggle numeric keypad joystick emulation |
-| Page Down | TRS-80 Right Shift key |
-| Page Up | TRS-80 Left Shift key |
-| Print Screen | Save screenshot as BMP |
-| Right Arrow or Tab | TRS-80 Right Arrow key |
-| Shift-F7 | Emulator settings |
-| Shift-F8 | Abort SDLTRS |
-| Shift-F9 | Toggle CPU panel in window title bar |
-| Shift-F10 | Hard reset |
-| Shift-F11 | Save screenshot as BMP |
-| Shift-F12 | Reset Z80 CPU clock rate to default |
-| Shift-Page Down | Switch to slow Z80 CPU clock speed |
-| Shift-Page Up | Switch to fast Z80 CPU clock speed |
-| Shift-Print Screen | Copy screen to printer file |
-| Shift-Up Arrow | TRS-80 ESC key |
-| Up Arrow | TRS-80 Up Arrow key (caret/exponent) |
+| **Shortcut** | **Action** |
+|:--|:--|
+| <kbd>Alt</kbd> + <kbd>,</kbd> or <kbd>Alt</kbd> + <kbd>M</kbd> | Open main menu |
+| <kbd>Alt</kbd> + <kbd>E</kbd> | Emulator settings |
+| <kbd>Alt</kbd> + <kbd>I</kbd> | Display/interface settings |
+| <kbd>Alt</kbd> + <kbd>O</kbd> | Miscellaneous settings |
+| <kbd>Alt</kbd> + <kbd>K</kbd> or <kbd>F11</kbd> | Show keyboard shortcuts |
+| <kbd>Alt</kbd> + <kbd>Enter</kbd> | Toggle fullscreen |
+| <kbd>Alt</kbd> + <kbd>.</kbd> | Show/hide mouse cursor |
+| <kbd>Alt</kbd> + <kbd>Home</kbd> | Minimum window scale |
+| <kbd>Alt</kbd> + <kbd>Page Up</kbd> | Decrease window scale |
+| <kbd>Alt</kbd> + <kbd>Page Down</kbd> | Increase window scale |
+
+### Storage
+
+| **Shortcut** | **Action** |
+|:--|:--|
+| <kbd>Alt</kbd> + <kbd>0</kbd>-<kbd>7</kbd> | Insert floppy into drive 0-7 |
+| <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>0</kbd>-<kbd>7</kbd> | Eject floppy from drive 0-7 |
+| <kbd>Alt</kbd> + <kbd>D</kbd> or <kbd>Alt</kbd> + <kbd>F</kbd> | Floppy disk manager |
+| <kbd>Alt</kbd> + <kbd>H</kbd> | Hard disk manager |
+| <kbd>Alt</kbd> + <kbd>T</kbd> | Cassette (tape) manager |
+| <kbd>Alt</kbd> + <kbd>G</kbd> | Stringy Floppy wafer manager |
+
+### State & Configuration
+
+| **Shortcut** | **Action** |
+|:--|:--|
+| <kbd>Alt</kbd> + <kbd>S</kbd> | Save emulator state |
+| <kbd>Alt</kbd> + <kbd>L</kbd> | Load emulator state |
+| <kbd>Alt</kbd> + <kbd>W</kbd> | Write configuration |
+| <kbd>Alt</kbd> + <kbd>R</kbd> | Read configuration |
+
+### Performance & Execution
+
+| **Shortcut** | **Action** |
+|:--|:--|
+| <kbd>Alt</kbd> + <kbd>N</kbd> or <kbd>F12</kbd> | Toggle turbo mode |
+| <kbd>Alt</kbd> + <kbd>+</kbd> or <kbd>Alt</kbd> + <kbd>9</kbd> | Increase Z80 clock speed |
+| <kbd>Alt</kbd> + <kbd>-</kbd> or <kbd>Alt</kbd> + <kbd>8</kbd> | Decrease Z80 clock speed |
+| <kbd>Alt</kbd> + <kbd>Backspace</kbd> or <kbd>Shift</kbd> + <kbd>F12</kbd> | Restore default Z80 clock speed |
+| <kbd>Shift</kbd> + <kbd>Page Up</kbd> | Fast CPU preset |
+| <kbd>Shift</kbd> + <kbd>Page Down</kbd> | Slow CPU preset |
+
+**Warning:** Changing the Z80 clock speed may affect software compatibility and timing.
+
+### Reset & Exit
+
+| **Shortcut** | **Action** |
+|:--|:--|
+| <kbd>Alt</kbd> + <kbd>Delete</kbd> or <kbd>F10</kbd> | Soft reset |
+| <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Delete</kbd> or <kbd>Shift</kbd> + <kbd>F10</kbd> | Hard reset |
+| <kbd>Alt</kbd> + <kbd>End</kbd> or <kbd>Alt</kbd> + <kbd>Q</kbd> | Quit SDLTRS |
+| <kbd>F8</kbd> | Quit SDLTRS |
+| <kbd>Shift</kbd> + <kbd>F8</kbd> | Abort SDLTRS immediately |
+
+### Clipboard & Screenshots
+
+| **Shortcut** | **Action** |
+|:--|:--|
+| <kbd>Alt</kbd> + <kbd>C</kbd> | Copy emulator screen to clipboard |
+| <kbd>Alt</kbd> + <kbd>V</kbd> | Paste clipboard into emulator |
+| <kbd>Alt</kbd> + <kbd>A</kbd> | Select all emulator screen text |
+| <kbd>Print Screen</kbd> | Save screenshot (BMP) |
+| <kbd>Shift</kbd> + <kbd>Print Screen</kbd> | Copy screen to printer file |
+| <kbd>Shift</kbd> + <kbd>F11</kbd> | Save screenshot (BMP) |
 
 ---
 
-### Keyboard Behavior and Special Mappings
+### Miscellaneous
 
-In **Model III, Model 4, and Model 4P** modes, the **left and right Shift keys are distinct**. In **Model I** mode, both Shift keys map to the same function.
-
-The keys **`[ \ ] ^ _ { | } ~`** activate otherwise unused positions in the TRS-80 keyboard matrix (**address bit 3, data bits 3-7**). Behavior depends on the keyboard driver:
-- Some drivers map these keys to their corresponding ASCII characters.
-- Others ignore them entirely.
-
-In certain configurations, the **Shift state may be reversed**. For example, pressing `[` may produce `{`. This can be corrected using the **`-shiftbracket`** or **`-noshiftbracket`** options.
-
-The **Insert** key maps to the same keyboard matrix position as **underscore** (**address bit 3, data bit 7**), allowing it to function both shifted and unshifted. With many TRS-80 keyboard drivers, one of these mappings produces **ASCII 0x7F**.
+| **Shortcut** | **Action** |
+|:--|:--|
+| <kbd>Alt</kbd> + <kbd>B</kbd> | Toggle LED display |
+| <kbd>Alt</kbd> + <kbd>U</kbd> | Toggle sound |
+| <kbd>Alt</kbd> + <kbd>Y</kbd> | Toggle scanlines |
+| <kbd>Alt</kbd> + <kbd>P</kbd> or <kbd>Pause</kbd> | Pause/resume emulation |
+| <kbd>Alt</kbd> + <kbd>X</kbd> | Execute selected CMD file |
+| <kbd>Alt</kbd> + <kbd>J</kbd> | Open joystick configuration |
+| <kbd>Alt</kbd> + <kbd>Z</kbd> or <kbd>F9</kbd> | Open ZBX debugger / toggle fullscreen |
+| <kbd>Shift</kbd> + <kbd>F9</kbd> | Toggle CPU panel in title bar |
 
 ---
 
-### Numeric Keypad Joystick Emulation
+### TRS-80 Keyboard Mapping
 
-When **Num Lock is disabled**, the numeric keypad emulates an **Alpha Products joystick**:
+| **Host Key** | **TRS-80 Function** |
+|:--|:--|
+| <kbd>Ctrl</kbd> | Control (or **P1** on Genie IIs/SpeedMaster) |
+| <kbd>Esc</kbd> | Break |
+| <kbd>Delete</kbd>, <kbd>Home</kbd> | Clear |
+| <kbd>Insert</kbd> | Underscore |
+| <kbd>←</kbd>, <kbd>Backspace</kbd> | Left Arrow |
+| <kbd>→</kbd>, <kbd>Tab</kbd> | Right Arrow |
+| <kbd>↑</kbd> | Up Arrow (Caret/Exponent) |
+| <kbd>↓</kbd> | Down Arrow |
+| <kbd>Shift</kbd> + <kbd>↑</kbd> | ESC |
+| <kbd>Page Up</kbd> | Left Shift |
+| <kbd>Page Down</kbd> | Right Shift |
+| <kbd>End</kbd> | Shifted Down Arrow, Control (some software), ESC (Genie III), or P2 (Genie IIs/SpeedMaster) |
+| <kbd>F1</kbd>-<kbd>F6</kbd> | TRS-80 function keys |
+| <kbd>F4</kbd> | Caps Lock (Model 4/4P) or F4 |
+| <kbd>F5</kbd>, <kbd>Scroll Lock</kbd> | `@` or F5 |
+| <kbd>Num Lock</kbd> | Toggle keypad joystick mode |
+| <kbd>1</kbd>-<kbd>6</kbd> (Numeric Keypad) | **P1-P5** and **ESC** for TCS Genie III |
 
-- **Directional keys**
-  - `2` (KP_Down) - Down  
-  - `4` (KP_Left) - Left  
-  - `6` (KP_Right) - Right  
-  - `8` (KP_Up) - Up  
+---
 
-- **Diagonal movement**
-  - `1` (KP_End) - Down-Left  
-  - `3` (KP_Page_Down) - Down-Right  
-  - `7` (KP_Home) - Up-Left  
-  - `9` (KP_Page_Up) - Up-Right  
+### Keyboard Behavior
 
-- **Fire button**
-  - `0` (KP_Insert) or `5` (KP_Begin)
+- On **Model III**, **Model 4**, and **Model 4P**, the **left** and **right Shift** keys are mapped independently.
+- On **Model I**, both Shift keys perform the same function.
 
+The following host keys occupy otherwise unused positions in the TRS-80 keyboard matrix:
+
+`[  \  ]  ^  _  {  |  }  ~`
+
+Depending on the active keyboard driver, these keys may:
+
+- Produce their corresponding ASCII characters.
+- Be ignored entirely.
+
+Some keyboard layouts invert bracket shifting (for example, `[` produces `{`). This behavior can be controlled using:
+
+- `-shiftbracket`
+- `-noshiftbracket`
+
+The **Insert** key shares the same keyboard matrix position as **Underscore**, allowing both shifted and unshifted operation. With many keyboard drivers, one mapping generates **ASCII 0x7F**.
+
+---
+
+### Numeric Keypad Joystick
+
+When **Num Lock** is **Off**, the numeric keypad emulates an **Alpha Products joystick**.
+
+| **Key** | **Direction** |
+|:--|:--|
+| <kbd>8</kbd> | ↑ Up |
+| <kbd>2</kbd> | ↓ Down |
+| <kbd>4</kbd> | ← Left |
+| <kbd>6</kbd> | → Right |
+| <kbd>7</kbd> | ↖ Up-Left |
+| <kbd>9</kbd> | ↗ Up-Right |
+| <kbd>1</kbd> | ↙ Down-Left |
+| <kbd>3</kbd> | ↘ Down-Right |
+| <kbd>0</kbd> or <kbd>5</kbd> | Fire |
 
 ---

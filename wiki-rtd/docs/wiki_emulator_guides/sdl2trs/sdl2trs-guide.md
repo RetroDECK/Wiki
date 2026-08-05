@@ -58,7 +58,7 @@ In most cases you will use these.
 Yes
 
 - `level2.rom` - minimum requirement, system ROM
-- `boot.dsk` - minimum requirement, boot disk image
+- `boot.dsk` - minimum requirement, boot disk image of `NewDos/80 v2.0` renamed to `boot.dsk`.
 
 
 **Additional BIOS:** For other computer-specific BIOS or peripheral firmware, please consult the [SDL2TRS GitLab repository](https://gitlab.com/jengun/sdltrs/) linked above.

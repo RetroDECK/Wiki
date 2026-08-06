@@ -74,6 +74,17 @@ All credit goes to **Simon Owen** (simon@simonowen.com), the creator of SimCoup�
 
 Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
 
+| **Shortcut** | **Action** |
+|---|---|
+| <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> | Move |
+| <kbd>Space</kbd> | Fire / Jump / Action |
+| <kbd>Enter</kbd> | Start / Confirm |
+| <kbd>Esc</kbd> | Menu / Quit (game-dependent) |
+| <kbd>Alt</kbd>+<kbd>F4</kbd> | Exit application |
+| <kbd>Q</kbd><kbd>A</kbd><kbd>O</kbd><kbd>P</kbd> | Alternative movement (some games) |
+| <kbd>NumPad 8</kbd><kbd>4</kbd><kbd>6</kbd><kbd>2</kbd> | Alternative movement (some games) |
+| <kbd>NumPad 0</kbd> | Fire / Action (some games) |
+
 ### Input Modes
 
 - **Default SAM Mode**: Letters, digits, and symbols are typed normally and automatically converted to the corresponding SAM key sequences.  

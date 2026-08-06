@@ -134,6 +134,7 @@ or long program sequences.
 ### SAM Shift Modifiers & Special Symbols
 
 | **Shortcut** | **Action** |
+|---|---|
 | <kbd>`</kbd> (backtick) | © |
 | <kbd>.</kbd> (on keypad) | © |
 | <kbd>Delete</kbd> | Shift+Delete |

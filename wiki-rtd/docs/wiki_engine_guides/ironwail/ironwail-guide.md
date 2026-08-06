@@ -127,7 +127,7 @@ RetroDECK will now launch Quake using Ironwail.
 
 ## Ironwail Controls
 
-### Controls: Keyboard ⌨️ & Mouse 🖱️ 
+### Controls: ⌨️ Keyboard & 🖱️ Mouse
 
 
 | Input | Action |

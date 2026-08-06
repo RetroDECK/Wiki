@@ -132,7 +132,7 @@ The selected `.cmd` file is loaded and executed automatically.
 
 ---
 
-### Controls: Keyboard ⌨️ & Mouse 🖱️ 
+### Controls: ⌨️ Keyboard & 🖱️ Mouse
 
 Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
 

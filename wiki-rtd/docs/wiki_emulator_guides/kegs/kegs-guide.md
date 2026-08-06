@@ -36,7 +36,7 @@ KEGS games should be put under the `retrodeck/roms/apple2gs/` directory.
 |-------|-------------|
 | `.2mg` | Preferred Apple II disk image with metadata. |
 | `.po`  | ProDOS-ordered raw disk image. |
-| `.do`  | DOS 3.3–ordered raw disk image. |
+| `.do`  | DOS 3.3-ordered raw disk image. |
 | `.dsk` | Generic raw disk image. |
 | `.nib` | Nibble image for copy-protected disks. |
 | `.woz` | High-fidelity flux disk image. |
@@ -55,6 +55,9 @@ Yes, it requires
 |----------|-------------|
 | `ROM.ROM` | Apple IIgs ROM image of either ROM01 (recommended) or ROM03.  |
 
+### Where should I put the BIOS?
+
+You put the ROM.ROM into `retrodeck/bios/`
 
 ---
 
@@ -65,46 +68,41 @@ Yes, it requires
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
 | ROMs   | `retrodeck/roms/apple2gs/`                             |               |
+| BIOS   | `retrodeck/bios/`                             |  `ROM.ROM`             |
 
 ---
 
-## Controls: Keyboard ⌨️ & Mouse 🖱️ 
+## Controls: ⌨️ Keyboard & 🖱️ Mouse  
 
 Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
 
 ### Emulator Keys
 
-**Function Keys**
+| Shortcut | Action |
+|-----------|--------|
+| <kbd>Ctrl</kbd> + <kbd>F9</kbd> | Copy the current text screen to the host clipboard |
+| <kbd>F1</kbd> | Apple **Command** key |
+| <kbd>F2</kbd> | Apple **Option** key |
+| <kbd>F3</kbd> | **Esc** (Windows compatibility) |
+| <kbd>F4</kbd> | Open the configuration panel |
+| <kbd>F5</kbd> | Toggle status lines |
+| <kbd>F6</kbd> | Cycle CPU speed: Unlimited → 1 MHz → 2.8 MHz → 8.0 MHz (ZipGS) |
+| <kbd>Shift</kbd> + <kbd>F6</kbd> | Enter the KEGS debugger |
+| <kbd>F7</kbd> | Toggle debugger window |
+| <kbd>Shift</kbd> + <kbd>F7</kbd> | Toggle `fast_disk_emul` |
+| <kbd>F8</kbd> | Toggle mouse pointer hiding |
+| <kbd>F9</kbd> | Invert joystick direction |
+| <kbd>Shift</kbd> + <kbd>F9</kbd> | Swap X/Y joystick or paddle axes |
+| <kbd>F12</kbd> | **Reset** (Pause/Break alias) |
 
-| Key Combination | Action |
-|-----------------|--------|
-| Ctrl + F9 | Copy text screen to host clipboard |
-| F1 | Alias for **Command** |
-| F12 | Alias for Pause/Break (Reset) |
-| F2 | Alias for **Option** |
-| F3 | Alias for **ESC** (Windows compatibility) |
-| F4 | Open Configuration Panel |
-| F5 | Toggle status lines on/off |
-| F6 | Cycle speed modes: Unlimited, 1 MHz, 2.8 MHz, 8.0 MHz (ZipGS) |
-| F7 | Toggle debugger window |
-| F8 | Toggle pointer hiding on/off |
-| F9 | Invert joystick direction |
-| Shift + F6 | Enter KEGS debugger |
-| Shift + F7 | Toggle `fast_disk_emul` on/off |
-| Shift + F9 | Swap X and Y joystick/paddle axes |
+### Key Aliases
 
----
-
-**Key Aliases**
-
-| Logical Key | Physical Keys |
-|-------------|---------------|
-| Command | Cancel, Command, F1, Meta_L, Scroll_Lock |
-| Home | Keypad `=` |
-| Keypad Clear | Num_Lock |
-| Option | Alt_R, F2, Menu, Meta_R, Mode_switch, Option, Print |
-| Reset | Break, F12, Pause |
-
-> **Note:** Reset on an Apple IIgs requires holding **Ctrl**.
+| Apple IIgs Key | Host Keyboard Mapping |
+|----------------|-----------------------|
+| **Command** | <kbd>Cancel</kbd>, <kbd>Command</kbd>, <kbd>F1</kbd>, <kbd>Meta&nbsp;L</kbd>, <kbd>Scroll Lock</kbd> |
+| **Option** | <kbd>Alt&nbsp;R</kbd>, <kbd>F2</kbd>, <kbd>Menu</kbd>, <kbd>Meta&nbsp;R</kbd>, <kbd>Mode Switch</kbd>, <kbd>Option</kbd>, <kbd>Print Screen</kbd> |
+| **Reset** | <kbd>Break</kbd>, <kbd>Pause</kbd>, <kbd>F12</kbd> |
+| **Home** | Keypad <kbd>=</kbd> |
+| **Keypad Clear** | <kbd>Num Lock</kbd> |
 
 ---

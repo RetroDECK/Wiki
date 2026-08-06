@@ -61,65 +61,67 @@ No
 
 Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
 
-### Emulator Keys
+### Main Emulator Controls
 
-| Key         | Action                                      |
-|------------|--------------------------------------------|
-| AltGr      | Additional modifier                          |
-| F1         | Bring up the menu                           |
-| F10        | Start/Stop AVI capture                       |
-| F11        | Copy text screen to clipboard               |
-| F12        | Paste                                       |
-| F2         | Go to debugger/monitor                      |
-| F3         | Reset button (NMI)                          |
-| F4         | Hard reset                                  |
-| F5         | Toggle FPS                                  |
-| F6         | Toggle warp speed                            |
-| F7         | Save all modified disks                     |
-| F8         | Toggle fullscreen                           |
-| F9         | Save tape output                            |
-| Help       | Show guide                                  |
-| PrtSc      | Save screen as BMP                           |
-| Shift+F4   | Jasmin reset                                |
-| Shift+F7   | Save all modified disks to new disk images |
+| Key | Action |
+|-----|--------|
+| `<kbd>AltGr</kbd>` | Additional modifier |
+| `<kbd>F1</kbd>` | Bring up the menu |
+| `<kbd>F2</kbd>` | Go to debugger/monitor |
+| `<kbd>F3</kbd>` | Reset button (NMI) |
+| `<kbd>F4</kbd>` | Hard reset |
+| `<kbd>F5</kbd>` | Toggle FPS display |
+| `<kbd>F6</kbd>` | Toggle warp speed |
+| `<kbd>F7</kbd>` | Save all modified disks |
+| `<kbd>F8</kbd>` | Toggle fullscreen |
+| `<kbd>F9</kbd>` | Save tape output |
+| `<kbd>F10</kbd>` | Start/stop AVI capture |
+| `<kbd>F11</kbd>` | Copy screen text to clipboard |
+| `<kbd>F12</kbd>` | Paste |
+| `<kbd>PrtSc</kbd>` | Save screen as BMP |
+| `<kbd>Help</kbd>` | Show guide |
+| `<kbd>Shift+F4</kbd>` | Jasmin reset |
+| `<kbd>Shift+F7</kbd>` | Save disks to new images |
 
-### Menus Keys
+---
 
-| Key         | Action                |
-|------------|----------------------|
-| Backspace  | Go back              |
-| Cursors    | Navigate             |
-| Enter      | Perform option       |
-| Escape     | Exit menus           |
-| Mouse      | Navigate/select      |
+### Menu Navigation
+
+| Key | Action |
+|-----|--------|
+| `<kbd>Backspace</kbd>` | Go back |
+| `<kbd>Cursors</kbd>` | Navigate options |
+| `<kbd>Enter</kbd>` | Perform selection |
+| `<kbd>Escape</kbd>` | Exit menus |
+| `<kbd>Mouse</kbd>` | Navigate/select |
+
+---
 
 ### Debugger/Monitor Keys
 
-| Key   | Action                                           |
-|-------|-------------------------------------------------|
-| F1    | Go to the menu                                  |
-| F10   | Step over code                                  |
-| F11   | Step over code without tracing into subroutines|
-| F12   | Skip instruction                                |
-| F2    | Return to the emulator                           |
-| F3    | Toggle console/debug output/memwatch            |
-| F4    | Toggle VIA/AY/disk info/Twilighte board regs   |
-| F9    | Reset cycle count                               |
+| Key | Action |
+|-----|--------|
+| `<kbd>F1</kbd>` | Open menu |
+| `<kbd>F2</kbd>` | Return to emulator |
+| `<kbd>F3</kbd>` | Toggle console/debug output/memwatch |
+| `<kbd>F4</kbd>` | Toggle VIA/AY/disk info/Twilighte registers |
+| `<kbd>F9</kbd>` | Reset cycle count |
+| `<kbd>F10</kbd>` | Step over code |
+| `<kbd>F11</kbd>` | Step without tracing subroutines |
+| `<kbd>F12</kbd>` | Skip instruction |
 
-### Console Keys
+---
 
-| Key      | Action          |
-|----------|----------------|
-| Up/Down  | Command history |
+### Console & Memwatch
 
-### Memwatch Keys
-
-| Key               | Action                       |
-|------------------|-------------------------------|
-| Hex digits        | Enter address                 |
-| Page Up/Page Down | Page up/down                  |
-| S                 | Toggle split mode             |
-| Tab               | Switch windows in split mode  |
-| Up/Down           | Scroll (+Shift for page up/down) |
+| Context | Key | Action |
+|---------|-----|--------|
+| Console | `<kbd>Up/Down</kbd>` | Command history |
+| Memwatch | `<kbd>Hex digits</kbd>` | Enter address |
+| Memwatch | `<kbd>Page Up/Down</kbd>` | Page navigation |
+| Memwatch | `<kbd>S</kbd>` | Toggle split mode |
+| Memwatch | `<kbd>Tab</kbd>` | Switch windows (split mode) |
+| Memwatch | `<kbd>Up/Down</kbd>` | Scroll |
+| Memwatch | `<kbd>Shift+Up/Down</kbd>` | Page scroll |
 
 ---

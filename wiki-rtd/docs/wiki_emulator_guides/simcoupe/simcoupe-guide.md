@@ -1,28 +1,28 @@
-﻿# Guide: SimCoupe
+﻿# Guide: SimCoupé
 
 <img src="../../../wiki_images/logos/simcoupe-logo.png" width="150" alt="Simcoupe logo">
 
-SimCoupe is a emulator for the the SAM Coupé - a British Z80-based home computer released in 1989 by Miles Gordon Technology.
+SimCoupé is a emulator for the the SAM Coupé - a British Z80-based home computer released in 1989 by Miles Gordon Technology.
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 
 ---
 
-### SimCoupe Links
+### SimCoupé Links
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
-| SimCoupe Website | [Link](https://simonowen.com/simcoupe/) |
-| SimCoupe GitHub | [Link](https://github.com/simonowen/simcoupe) |
+| SimCoupé Website | [Link](https://simonowen.com/simcoupe/) |
+| SimCoupé GitHub | [Link](https://github.com/simonowen/simcoupe) |
 | World of Sam | [Link](https://www.worldofsam.org/) |
 
 ---
 
 ## Where to put the games
 
-Microvision games should be put under the `retrodeck/roms/microvision/` directory.
+Samcoupe games should be put under the `retrodeck/roms/samcoupe/` directory.
 
 ---
 
@@ -42,7 +42,7 @@ Microvision games should be put under the `retrodeck/roms/microvision/` director
 
 ---
 
-## Does SimCoupe require BIOS or Firmware?
+## Does SimCoupé require BIOS or Firmware?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
@@ -60,19 +60,19 @@ No
 
 ---
 
-## SimCoupe User Manual
+## SimCoupé User Manual
 
-This section is derived from SimCoupe’s `Manual.md` and has been restructured to
+This section is derived from SimCoupé’s `Manual.md` and has been restructured to
 conform to the RetroDECK wiki format. Only Linux-specific and RetroDECK-relevant
 content is included.
 
-All credit goes to **Simon Owen** (simon@simonowen.com), the creator of SimCoupe.
+All credit goes to **Simon Owen** (simon@simonowen.com), the creator of SimCoupé.
 
 ---
 
-## Controls: Keyboard Input
+### Controls: ⌨️ Keyboard & 🖱️ Mouse
 
-SimCoupe provides flexible keyboard input to emulate the **SAM Coupé** accurately.
+Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
 
 ### Input Modes
 
@@ -82,44 +82,44 @@ SimCoupe provides flexible keyboard input to emulate the **SAM Coupé** accurate
 
 ### SAM Keypad
 
-The SAM has function keys **F0-F9** on the right side of the keyboard. In SimCoupe, these map to the **numeric keypad**. NumLock must be enabled. When SAM software refers to function keys, use the numeric keypad.
+The SAM has function keys **F0-F9** on the right side of the keyboard. In SimCoupé, these map to the **numeric keypad**. NumLock must be enabled. When SAM software refers to function keys, use the numeric keypad.
 
-### Emulator Function Keys & Mappings
+### Emulator Hotkeys
 
 F1-F12 on your keyboard control emulator functions. On macOS, F9-F12 require the **Command** key due to system shortcuts. Holding **Windows key + F1-F10** generates the corresponding SAM function key (F1-F0). On some Windows versions, Win-F1 triggers Help; use **Win-F11** for SAM F1.
 
-| Key / Combination    | Function Description                        |
-|---------------------|--------------------------------------------|
-| Alt + F1            | New disk 1                                  |
-| Alt + F2            | New disk 2                                  |
-| Alt + F4            | Exit application                            |
-| Ctrl + Break        | Reset                                       |
-| Ctrl + F1           | Save disk 1                                 |
-| Ctrl + F2           | Save disk 2                                 |
-| Ctrl + F12          | Exit application                            |
-| Ctrl + Keypad *     | Reset                                       |
-| Ctrl + Keypad -     | Normal emulation speed                       |
-| F1                  | Open disk 1                                 |
-| F2                  | Open disk 2                                 |
-| F3                  | Tape browser                                |
-| F4                  | Import data                                 |
-| F5                  | Toggle TV aspect ratio                      |
-| F6                  | Toggle display smoothing                    |
-| F8                  | Toggle full-screen                           |
-| F9                  | Debugger                                    |
-| F10                 | Options                                     |
-| F11                 | NMI Button                                  |
-| F12                 | Reset button                                |
-| Keypad +            | Increase emulation speed                     |
-| Keypad *            | Turbo speed                                 |
-| Keypad -            | Reduce emulation speed                       |
-| Pause               | Pause emulation                             |
-| PrintScrn           | Save SAM screenshot in PNG format           |
-| Shift + F1          | Eject disk 1                                |
-| Shift + F2          | Eject disk 2                                |
-| Shift + F4          | Export data                                 |
-| Shift + F9          | Save SAM screenshot in PNG format           |
-| Win + Fx            | Generate SAM function key Fx (F1-F0)       |
+| **Shortcut** | **Action** |
+|---|---|
+| <kbd>Alt</kbd>+<kbd>F1</kbd> | New disk 1 |
+| <kbd>Alt</kbd>+<kbd>F2</kbd> | New disk 2 |
+| <kbd>Alt</kbd>+<kbd>F4</kbd> | Exit application |
+| <kbd>Ctrl</kbd>+<kbd>Break</kbd> | Reset |
+| <kbd>Ctrl</kbd>+<kbd>F1</kbd> | Save disk 1 |
+| <kbd>Ctrl</kbd>+<kbd>F2</kbd> | Save disk 2 |
+| <kbd>Ctrl</kbd>+<kbd>F12</kbd> | Exit application |
+| <kbd>Ctrl</kbd>+<kbd>Keypad</kbd> <kbd>*</kbd> | Reset |
+| <kbd>Ctrl</kbd>+<kbd>Keypad</kbd> <kbd>-</kbd> | Normal emulation speed |
+| <kbd>F1</kbd> | Open disk 1 |
+| <kbd>F2</kbd> | Open disk 2 |
+| <kbd>F3</kbd> | Tape browser |
+| <kbd>F4</kbd> | Import data |
+| <kbd>F5</kbd> | Toggle TV aspect ratio |
+| <kbd>F6</kbd> | Toggle display smoothing |
+| <kbd>F8</kbd> | Toggle full-screen |
+| <kbd>F9</kbd> | Debugger |
+| <kbd>F10</kbd> | Options |
+| <kbd>F11</kbd> | NMI Button |
+| <kbd>F12</kbd> | Reset button |
+| <kbd>Keypad</kbd> <kbd>+</kbd> | Increase emulation speed |
+| <kbd>Keypad</kbd> <kbd>*</kbd> | Turbo speed |
+| <kbd>Keypad</kbd> <kbd>-</kbd> | Reduce emulation speed |
+| <kbd>Pause</kbd> | Pause emulation |
+| <kbd>PrintScrn</kbd> | Save SAM screenshot in PNG format |
+| <kbd>Shift</kbd>+<kbd>F1</kbd> | Eject disk 1 |
+| <kbd>Shift</kbd>+<kbd>F2</kbd> | Eject disk 2 |
+| <kbd>Shift</kbd>+<kbd>F4</kbd> | Export data |
+| <kbd>Shift</kbd>+<kbd>F9</kbd> | Save SAM screenshot in PNG format |
+| <kbd>Win</kbd>+<kbd>Fx</kbd> | Generate SAM function key Fx (F1–F0) |
 
 
 ### Turbo Speed
@@ -133,23 +133,22 @@ or long program sequences.
 
 ### SAM Shift Modifiers & Special Symbols
 
-| Key / Combination       | SAM Function                              |
-|-------------------------|-------------------------------------------|
-| ` (backtick)            | (c)                                       |
-| . (on keypad)           | (c)                                       |
-| Delete                  | Shift-Delete                              |
-| End                     | Cntrl-Right                               |
-| Home                    | Cntrl-Left                                |
-| Insert                  | Inv                                       |
-| Left-Alt (if enabled)   | Cntrl                                     |
-| Left-Ctrl               | Symbol                                    |
-| Menu Key                | Edit                                      |
-| Numlock                 | Symbol-Edit (toggles SAM BASIC keypad)   |
-| Page Down               | F1                                        |
-| Page Up                 | F4                                        |
-| Right-Alt (if enabled)  | Edit                                      |
-| Right-Ctrl              | Cntrl                                     |
-| § (section)             | #                                         |
+| **Shortcut** | **Action** |
+| <kbd>`</kbd> (backtick) | © |
+| <kbd>.</kbd> (on keypad) | © |
+| <kbd>Delete</kbd> | Shift+Delete |
+| <kbd>End</kbd> | Ctrl+Right |
+| <kbd>Home</kbd> | Ctrl+Left |
+| <kbd>Insert</kbd> | Inv |
+| <kbd>Left-Alt</kbd> (if enabled) | Ctrl |
+| <kbd>Left-Ctrl</kbd> | Symbol |
+| <kbd>Menu Key</kbd> | Edit |
+| <kbd>Numlock</kbd> | Symbol+Edit (toggles SAM BASIC keypad) |
+| <kbd>Page Down</kbd> | F1 |
+| <kbd>Page Up</kbd> | F4 |
+| <kbd>Right-Alt</kbd> (if enabled) | Edit |
+| <kbd>Right-Ctrl</kbd> | Ctrl |
+| <kbd>§</kbd> (section) | # |
 
 
 
@@ -157,20 +156,20 @@ or long program sequences.
 
 ## Using Hard Disks - Real or HDF
 
-SimCoupe emulates the **Atom** and **Atom Lite** hard disk interfaces. Atom DOS (BDOS)
+SimCoupé emulates the **Atom** and **Atom Lite** hard disk interfaces. Atom DOS (BDOS)
 is compatible with the original **SAMDOS**, and hard disks are presented as an
 array of floppy-sized records, ensuring strong compatibility with existing
 software.
 
-SimCoupe supports real hard disks and CompactFlash (CF) cards on providing a fast and reliable method for sharing data with a
+SimCoupé supports real hard disks and CompactFlash (CF) cards on providing a fast and reliable method for sharing data with a
 real SAM Coupé system. For safety reasons, only **USB-connected** disks can be
-accessed by SimCoupe.
+accessed by SimCoupé.
 
 ### Using Existing Hard Disk Image Files (HDF)
 
 If no physical device is available, existing HDF images can be used:
 
-1. Press **F10** to open the SimCoupe Options.
+1. Press **F10** to open the SimCoupé Options.
 2. In the **Disks** section, click **“…”** next to the **Atom** interface.
 3. Browse to and select an existing **HDF** file.
 4. Click **OK** twice and boot **BDOS**.
@@ -179,7 +178,7 @@ If no physical device is available, existing HDF images can be used:
 
 To create a new hard disk image:
 
-1. Press **F10** to open the SimCoupe Options.
+1. Press **F10** to open the SimCoupé Options.
 2. In the **Disks** section, click **“…”** next to the **Atom** interface.
 3. Enter a new file path and size in megabytes  
    *(e.g. 32 MB = 40 floppy records)*.
@@ -200,7 +199,7 @@ For detailed documentation on BDOS usage, see Edwin Blink’s resources:
 
 ## Printing
 
-SimCoupe supports **print-to-file** on all platforms, allowing code listings and
+SimCoupé supports **print-to-file** on all platforms, allowing code listings and
 other output to be exported as plain text files.
 
 ### Configuration
@@ -229,7 +228,7 @@ The following describes all settings available in **Options (`F10`)**.
 
 | Setting                          | Description                                                                 |
 |---------------------------------|-----------------------------------------------------------------------------|
-| Bi-linear filtering (smoothing)  | Smooths the display when stretching to fill the SimCoupe window.           |
+| Bi-linear filtering (smoothing)  | Smooths the display when stretching to fill the SimCoupé window.           |
 
 ---
 
@@ -266,7 +265,7 @@ The following describes all settings available in **Options (`F10`)**.
 
 | Setting                       | Description                                                                                   |
 |--------------------------------|-----------------------------------------------------------------------------------------------|
-| Enable mouse interface         | Activates mouse support for SAM software. Double-click SimCoupe window for BASIC use; press Esc to release. |
+| Enable mouse interface         | Activates mouse support for SAM software. Double-click SimCoupé window for BASIC use; press Esc to release. |
 | Keyboard                       | Converts typed letters and symbols to the corresponding SAM key sequence. Modes: Automatic, Spectrum, Disabled. |
 | Use Alt-Gr for Edit key         | Maps Right-Alt to SAM Edit key.                                                              |
 | Use Left-Alt for Cntrl key      | Maps Left-Alt to SAM Cntrl key. May block normal Windows menu shortcuts.                     |
@@ -327,7 +326,7 @@ The following describes all settings available in **Options (`F10`)**.
 
 ## Debugger
 
-The SimCoupe debugger provides code, text, data, and graphical memory views, with features like single-stepping, breakpoints, and execution tracing. It starts in disassembly view, highlighting the next instruction, with symbols shown for ROM and custom code (built with `pyz80 --mapfile=`). The register panel displays the current system state.
+The SimCoupé debugger provides code, text, data, and graphical memory views, with features like single-stepping, breakpoints, and execution tracing. It starts in disassembly view, highlighting the next instruction, with symbols shown for ROM and custom code (built with `pyz80 --mapfile=`). The register panel displays the current system state.
 
 ---
 

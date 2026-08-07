@@ -1,8 +1,8 @@
-﻿# Commander X16: General Guide
+﻿# X16 Emulator: General Guide
 
 <img src="../../../wiki_images/logos/commander-x16-logo.png" width="150" alt="Commander X16 logo">
 
-Commander X16 is a 8-bit fantasy computer emulator.
+X16 Emulator is a 8-bit fantasy computer Commander X16 emulator.
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 
@@ -22,7 +22,8 @@ Commander X16 is a 8-bit fantasy computer emulator.
 
 ## Where to put the games
 
-Commander X16 games should be put under the `retrodeck/roms/commander-x16/` directory.
+- Commander X16 game directories should be put under the `retrodeck/roms/commander-x16/system` directory.
+- Commander X16 BASIC program files should be put under the `retrodeck/roms/commander-x16/` directory.
 
 ---
 
@@ -33,7 +34,7 @@ Commander X16 games should be put under the `retrodeck/roms/commander-x16/` dire
 
 | File Format | Description |
 |-------------|-------------|
-| .prg        | Commander-X16 Program File |
+| `.BAS`       | Commander-X16 BASIC program File |
 
 ---
 
@@ -51,15 +52,87 @@ No
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
-| ROMs   | `retrodeck/roms/commander-x16/`                             |               |
+| ROMs (Game Folders)   | `retrodeck/roms/commander-x16/system`      |  Game Directories goes here             |
+| ROMs (`.BAS` )   | `retrodeck/roms/commander-x16/`             |   `.BAS` files            |
 
 ---
 
-## Controls: Keyboard ⌨️ & Mouse 🖱️ 
+## How-to: Play Commander X16 games in RetroDECK?
 
-Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
+⚠️ Use only **UPPERCASE** names for both the game directory and the corresponding `.BAS` file. Lowercase or mixed-case names will prevent the game from launching correctly. ⚠️
 
-### Built-in Hotkeys
+### Step 1: Prepare a Commander X16 Game
+
+This example uses **TETRADS**.
+
+1. Download the game archive.
+2. Extract the game into an directory under: `retrodeck/roms/commander-x16/system/<GAME_FOLDER>/`. | Example: `retrodeck/roms/commander-x16/system/TETRADS/`.
+3. Locate the game's `.PRG` file in the `<GAME_FOLDER>`. | Example: `retrodeck/roms/commander-x16/system/TETRADS/TETRADS.PRG`.
+4. Navigate to: `retrodeck/roms/commander-x16/`.
+5. Create a BASIC launcher named **exactly** after the game folder. | Example: `TETRADS.BAS`
+
+### Step 2: Edit the .BAS File
+
+- Open the `.BAS` file in a text editor and add the following BASIC:
+
+```
+DOS "CD:<GAME_FOLDER>"
+LOAD "<GAME_FILE>.PRG"
+RUN
+```
+
+**Example**
+
+`TETRADS.BAS`
+
+```
+DOS "CD:TETRADS"
+LOAD "TETRADS.PRG"
+RUN
+```
+
+- Save the file.
+- Launch the `.BAS` file from RetroDECK in the Commander X16 menu to start the game.
+
+
+
+## Commander X16 Controls  
+
+### Gamepad / Keyboard
+
+The following keyboard keys map to the corresponding SNES style controller buttons when playing games:
+
+| Keyboard | SNES Button |
+|----------|-------------|
+| <kbd>X</kbd> or <kbd>Ctrl</kbd> | <kbd>A</kbd> |
+| <kbd>Z</kbd> or <kbd>Alt</kbd> | <kbd>B</kbd> |
+| <kbd>S</kbd> | <kbd>X</kbd> |
+| <kbd>A</kbd> | <kbd>Y</kbd> |
+| <kbd>D</kbd> | <kbd>L</kbd> |
+| <kbd>C</kbd> | <kbd>R</kbd> |
+| <kbd>Shift</kbd> | <kbd>SELECT</kbd> |
+| <kbd>Enter</kbd> | <kbd>START</kbd> |
+| <kbd>↑</kbd> | <kbd>HAT UP</kbd> |
+| <kbd>↓</kbd> | <kbd>HAT DOWN</kbd> |
+| <kbd>←</kbd> | <kbd>HAT LEFT</kbd> |
+| <kbd>→</kbd> | <kbd>HAT RIGHT</kbd> |
+
+
+### Runtime Shortcuts
+
+The following keyboard shortcuts are available while the emulator is running:
+
+| Shortcut | Function |
+|----------|----------|
+| <kbd>Ctrl</kbd> + <kbd>F</kbd> or <kbd>Ctrl</kbd> + <kbd>Enter</kbd> | Toggle fullscreen mode |
+| <kbd>Ctrl</kbd> + <kbd>M</kbd> | Toggle mouse capture |
+| <kbd>Ctrl</kbd> + <kbd>P</kbd> | Save a screenshot as a PNG file |
+| <kbd>Ctrl</kbd> + <kbd>R</kbd> | Reset the virtual computer |
+| <kbd>Ctrl</kbd> + <kbd>Backspace</kbd> | Send a non-maskable interrupt (NMI), equivalent to the **RESTORE** key |
+| <kbd>Ctrl</kbd> + <kbd>S</kbd> | Save a system dump (configured with the `-dump` option) |
+| <kbd>Ctrl</kbd> + <kbd>V</kbd> | Paste the clipboard by simulating keyboard input |
+| <kbd>Ctrl</kbd> + <kbd>=</kbd> or <kbd>Ctrl</kbd> + <kbd>+</kbd> | Toggle warp mode |
+| <kbd>Alt</kbd> + <kbd>F4</kbd> | Exit Application |
 
 
 ---

@@ -94,7 +94,7 @@ RUN
 ```
 
 - Save the file.
-- Launch the game from RetroDECK in the Commander X16 menu.
+- Launch the game from RetroDECK in the Commander X16 menu in ES-DE.
 
 ---
 

@@ -65,15 +65,15 @@ No
 
 This example uses **TETRADS**.
 
-1. Download the game archive.
-2. Extract the game into an directory under: `retrodeck/roms/commander-x16/system/<GAME_FOLDER>/`. | Example: `retrodeck/roms/commander-x16/system/TETRADS/`.
-3. Locate the game's `.PRG` file in the `<GAME_FOLDER>`. | Example: `retrodeck/roms/commander-x16/system/TETRADS/TETRADS.PRG`.
-4. Navigate to: `retrodeck/roms/commander-x16/`.
-5. Create a BASIC launcher named **exactly** after the game folder. | Example: `TETRADS.BAS`
+- Download the game archive.
+- Extract the game into an directory under: `retrodeck/roms/commander-x16/system/<GAME_FOLDER>/`. **Example:** `retrodeck/roms/commander-x16/system/TETRADS/`.
+- Locate the game's `.PRG` file in the `<GAME_FOLDER>`. **Example:** `retrodeck/roms/commander-x16/system/TETRADS/TETRADS.PRG`.
+- Navigate to: `retrodeck/roms/commander-x16/`.
+- Create a BASIC `.BAS` launcher named **exactly** after the game folder `GAME_FOLDER.BAS`. **Example:** `TETRADS.BAS` 
 
 ### Step 2: Edit the .BAS File
 
-- Open the `.BAS` file in a text editor and add the following BASIC:
+Open the `.BAS` file in a text editor and add the following BASIC:
 
 ```
 DOS "CD:<GAME_FOLDER>"
@@ -94,13 +94,15 @@ RUN
 - Save the file.
 - Launch the `.BAS` file from RetroDECK in the Commander X16 menu to start the game.
 
+---
 
+## Commander X16 Controls: ⌨️ Keyboard & 🖱️ Mouse  
 
-## Commander X16 Controls  
+While the Commander X16 computer supports SNES-style controllers for standard gameplay, certain system functions and shortcuts require a keyboard and mouse for full compatibility.
 
-### Gamepad / Keyboard
+### Game Keys
 
-The following keyboard keys map to the corresponding SNES style controller buttons when playing games:
+The following keyboard keys map to the corresponding SNES style controller buttons when playing games.
 
 | Keyboard | SNES Button |
 |----------|-------------|
@@ -120,7 +122,7 @@ The following keyboard keys map to the corresponding SNES style controller butto
 
 ### Runtime Shortcuts
 
-The following keyboard shortcuts are available while the emulator is running:
+The following keyboard shortcuts are available while the emulator is running.
 
 | Shortcut | Function |
 |----------|----------|

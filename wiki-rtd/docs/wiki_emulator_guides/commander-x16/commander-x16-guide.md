@@ -94,7 +94,7 @@ RUN
 ```
 
 - Save the file.
-- Launch the `.BAS` file from RetroDECK in the Commander X16 menu to start the game.
+- Launch the game from RetroDECK in the Commander X16 menu to start the game.
 
 ---
 

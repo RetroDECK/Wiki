@@ -1,0 +1,100 @@
+# Guide: ZExarUX
+
+<img src="../../../wiki_images/logos/microvision-logo.png" width="150" alt="Microvision logo">
+
+## ZEsarUX
+
+**ZEsarUX** is an advanced open-source multi-platform emulator for a wide range of retro computers and consoles, with a strong focus on Sinclair ZX Spectrum systems and related hardware. 
+
+**RetroDECK** uses **ZEsarUX** as an **ZX Spectrum Next** emulator only.
+
+
+
+⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
+
+---
+
+### MVEM Links
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
+
+| Resource | Link |
+|----------|------|
+| ZEsarUX - Github | [Link](https://github.com/chernandezba/zesarux) |
+
+---
+
+## Where to put the games
+
+Microvision games should be put under the `retrodeck/roms/microvision/` directory.
+
+---
+
+## What file formats are supported?
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
+
+
+| File Format | Description |
+|-------------|-------------|
+| .bin        | Binary rom file |
+| .bmp        | Overlays |
+
+---
+
+## Does MVEM require BIOS or Firmware?
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
+
+No
+
+---
+
+## Directory structure
+
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
+
+| Type   | Directory                                         | Comment       |
+|:------:|:--------------------------------------------------|:-------------|
+| ROMs   | `retrodeck/roms/microvision/`                             |               |
+
+---
+
+## Controls: Keyboard ⌨️ & Mouse 🖱️ 
+
+Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
+
+The emulator controls are **hardcoded**.
+
+**Analog Controls**
+
+- **Mouse** - Move left/right  
+- **Keyboard** - `O` (left), `P` (right)
+- **Esc** - Exit the emulator
+
+**Microvision Control Pad**
+
+The Microvision keypad is arranged as **3 columns × 4 rows** and mapped as follows:
+
+| Row | Keys |
+|-----|------|
+| 1   | `1 2 3` |
+| 2   | `Q W E` |
+| 3   | `A S D` |
+| 4   | `Z X C` |
+
+---
+
+## Debug Mode
+
+Debug mode is accessed with **M**. It is generally recommended to avoid this mode unless needed.
+
+- **0–9, A–F** - Change displayed address  
+- **G** - Run program until interrupted (with **M**)  
+- **K** - Set breakpoint at current address  
+- **S** - Single-step execution  
+- **V** - Step over  
+- **M** - Return to monitor (if running)  
+- **Esc** - Exit Debug Mode
+
+---

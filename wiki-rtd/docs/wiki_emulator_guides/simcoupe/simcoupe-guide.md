@@ -76,14 +76,15 @@ Cannot be played with a controller easily and is best used with a physical keybo
 
 | **Shortcut** | **Action** |
 |---|---|
-| <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> | Move |
+| <kbd>↑</kbd><kbd>↓</kbd><kbd>←</kbd><kbd>→</kbd> | Movement |
+| <kbd>Q</kbd><kbd>A</kbd><kbd>O</kbd><kbd>P</kbd> | Alternative movement (some games) |
+| <kbd>NumPad 8</kbd><kbd>4</kbd><kbd>6</kbd><kbd>2</kbd> | Alternative movement (some games) |
 | <kbd>Space</kbd> | Fire / Jump / Action |
+| <kbd>NumPad 0</kbd> | Fire / Action (some games) |
 | <kbd>Enter</kbd> | Start / Confirm |
 | <kbd>Esc</kbd> | Menu / Quit (game-dependent) |
 | <kbd>Alt</kbd>+<kbd>F4</kbd> | Exit application |
-| <kbd>Q</kbd><kbd>A</kbd><kbd>O</kbd><kbd>P</kbd> | Alternative movement (some games) |
-| <kbd>NumPad 8</kbd><kbd>4</kbd><kbd>6</kbd><kbd>2</kbd> | Alternative movement (some games) |
-| <kbd>NumPad 0</kbd> | Fire / Action (some games) |
+
 
 ### Input Modes
 

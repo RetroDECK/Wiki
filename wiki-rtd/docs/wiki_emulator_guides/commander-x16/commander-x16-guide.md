@@ -61,9 +61,9 @@ No
 
 ⚠️ Use only **UPPERCASE** names for both the game directory and the corresponding `.BAS` file. Lowercase or mixed-case names will prevent the game from launching correctly. ⚠️
 
-### Step 1: Prepare a Commander X16 Game
+In this guide we will use the game **TETRADS** as an example.
 
-This example uses **TETRADS**.
+### Step 1: Prepare a Commander X16 Game
 
 - Download the game archive.
 - Extract the game into an directory under: `retrodeck/roms/commander-x16/system/<GAME_FOLDER>/`. **Example:** `retrodeck/roms/commander-x16/system/TETRADS/`.
@@ -81,9 +81,11 @@ LOAD "<GAME_FILE>.PRG"
 RUN
 ```
 
-**Example**
+- Replace `<GAME_FOLDER>` with your games folder. **Example:** `DOS "CD:TETRADS"`
+- Replace `<GAME_FILE.PRG>` with your games .PRG file. **Example:** `LOAD "TETRADS.PRG"`
+- **Note:** If a game has multiple `.PRG` files only use the one that has the same name as the `<GAME_FOLDER>`.
 
-`TETRADS.BAS`
+**Full Example: `TETRADS.BAS`**
 
 ```
 DOS "CD:TETRADS"

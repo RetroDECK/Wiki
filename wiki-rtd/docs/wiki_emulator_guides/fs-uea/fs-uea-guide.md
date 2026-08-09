@@ -26,9 +26,13 @@ FS-UEA is a Amiga emulator.
 
 ---
 
-## Where to put the games
+## Where to put the games?
 
-Amiga games should be put under the `retrodeck/roms/amiga/` directory.
+Amiga games should be put under the `retrodeck/roms/amiga/` directory is the **recommended** default.
+
+Amiga 600 games can be put under the `retrodeck/roms/amiga600/` directory.
+
+Amiga 1200 games can be put under the `retrodeck/roms/amiga1200/` directory.
 
 ---
 
@@ -38,8 +42,26 @@ Amiga games should be put under the `retrodeck/roms/amiga/` directory.
 
 
 | File Format | Description |
-|-------------|-------------|
-| .bin        | Binary rom file |
+| ----------- | ----------- |
+| .7z         | 7-Zip archive |
+| .adf        | Amiga Disk File |
+| .adz        | Compressed Amiga Disk File |
+| .ccd        | CloneCD disc image |
+| .chd        | Compressed Hunks of Data image |
+| .cue        | Cue sheet |
+| .dms        | Disk Masher System image |
+| .fdi        | Floppy Disk Image |
+| .hdf        | Amiga Hard Disk File |
+| .hdz        | Compressed HDF hard disk image |
+| .ipf        | Interchangeable Preservation Format |
+| .iso        | ISO disc image |
+| .lha        | LHA archive |
+| .m3u        | Media playlist |
+| .mds        | Media Descriptor file |
+| .nrg        | Nero disc image |
+| .rp9        | Amiga RP9 package |
+| .uae        | UAE configuration file |
+| .zip        | ZIP archive |
 
 ---
 
@@ -47,27 +69,35 @@ Amiga games should be put under the `retrodeck/roms/amiga/` directory.
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
-Yes, other Kickstart files can be used, but the following are recommended by the official website:
+Yes
 
 | System | ROM File | Comments |
 |------|---------|----------|
-| Amiga 500 | Kickstart v1.3 r34.5 (1987)(Commodore)(A500-A1000-A2000-CDTV)[!].rom (Recommended) |  |
+| Amiga 500 | Kickstart v1.3 r34.5 (1987)(Commodore)(A500-A1000-A2000-CDTV)[!].rom  |  |
 | Amiga 500 | amiga-os-130.rom |  |
 | Amiga 500 | Kickstart v1.3 r34.5 (1987)(Commodore)(A500-A1000-A2000-CDTV)[o].rom |  |
 | Amiga 500+ | amiga-os-204.rom |  |
 | Amiga 600 | amiga-os-205.rom |  |
 | Amiga 1200 | amiga-os-310-a1200.rom |  |
 | Amiga 3000 | amiga-os-310-a3000.rom |  |
-| Amiga 4000 | Kickstart v3.1 r40.68 (1993)(Commodore)(A4000).rom (Recommended) |  |
+| Amiga 4000 | Kickstart v3.1 r40.68 (1993)(Commodore)(A4000).rom  | **Recommended** |
 | Amiga 4000 | amiga-os-310.rom |  |
 | Amiga 1000 | amiga-os-120.rom |  |
-| Amiga CD32 | amiga-os-310-cd32.rom  (Recommended) |  |
-| Amiga CD32 | amiga-ext-310-cd32.rom  (Recommended)|  |
+| Amiga CD32 | amiga-os-310-cd32.rom   | **Recommended** |
+| Amiga CD32 | amiga-ext-310-cd32.rom  (Recommended)| **Recommended** |
 | Commodore CDTV | amiga-ext-130-cdtv.rom | Requires Amiga 500 Kickstart |
 | Action Replay Mk II | Action Replay Mk II v2.14.rom |  |
 | Action Replay Mk II | Action Replay Mk II v2.14 (1991)(Datel Electronics)[m].rom |  |
 | Action Replay Mk III | Action Replay Mk III v3.17.rom |  |
 | Action Replay Mk III | Action Replay Mk III v3.17 (1991)(Datel Electronics)[m].rom |  |
+
+Other Kickstart files can be used, but the these are recommended by the official website.
+
+
+### Where to put the BIOS files?
+
+In `retrodeck/bios/` 
+
 
 ---
 
@@ -75,9 +105,25 @@ Yes, other Kickstart files can be used, but the following are recommended by the
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
-| Type   | Directory                                         | Comment       |
-|:------:|:--------------------------------------------------|:-------------|
-| ROMs   | `retrodeck/roms/amiga/`                             |               |
-
+|       Type      | Directory                                  | Comment               |
+| :-------------: | :----------------------------------------- | :-------------------- |
+|   AmigaVision   | `retrodeck/storage/FS-UAE/AmigaVision`     |                       |
+|       BIOS      | `retrodeck/bios/`                           |                       |
+|     CD-ROMs     | `retrodeck/storage/FS-UAE/CD-ROMs`         |                       |
+|  Configurations | `retrodeck/storage/FS-UAE/Configurations`  |                       |
+|   Controllers   | `retrodeck/storage/FS-UAE/Controllers`     |                       |
+|      Covers     | `retrodeck/storage/FS-UAE/Covers`          |                       |
+|      Custom     | `retrodeck/storage/FS-UAE/Custom`          |                       |
+|   Flash Memory  | `retrodeck/storage/FS-UAE/Flash Memory`    |                       |
+|     Floppies    | `retrodeck/storage/FS-UAE/Floppies`        |                       |
+| Floppy Overlays | `retrodeck/storage/FS-UAE/Floppy Overlays` |                       |
+|   Hard Drives   | `retrodeck/storage/FS-UAE/Hard Drives`     |                       |
+|      Logs       | `retrodeck/logs/FS-UAE/`                   |                       |
+|   Logs Cache    | `retrodeck/logs/FS-UAE/Cache/Logs/`        |                       |
+|      ROMs       | `retrodeck/roms/amiga/`                    |                       |
+|   Save States   | `retrodeck/states/amiga/FS-UAE/`           |                       |
+|      System     | `retrodeck/storage/FS-UAE/System`          | `CAPSImg` `QEMU-UAE`  |
+|      Themes     | `retrodeck/storage/FS-UAE/Themes`          |                       |
+|      Titles     | `retrodeck/storage/FS-UAE/Titles`          |                       |
 
 ---

@@ -111,7 +111,7 @@ In `retrodeck/bios/`
 |  Configurations | `retrodeck/storage/FS-UAE/Configurations`  |                       |
 |   Controllers   | `retrodeck/storage/FS-UAE/Controllers`     |                       |
 |      Covers     | `retrodeck/storage/FS-UAE/Covers`          |                       |
-|      Custom     | `retrodeck/storage/FS-UAE/Custom`          |                       |
+|      Custom     | `retrodeck/storage/FS-UAE/Custom`          | RetroDECKs `custom-XXX.fs-uae` files                     |
 |   Flash Memory  | `retrodeck/storage/FS-UAE/Flash Memory`    |                       |
 |     Floppies    | `retrodeck/storage/FS-UAE/Floppies`        |                       |
 | Floppy Overlays | `retrodeck/storage/FS-UAE/Floppy Overlays` |                       |
@@ -123,5 +123,37 @@ In `retrodeck/bios/`
 |      System     | `retrodeck/storage/FS-UAE/System`          | `CAPSImg` `QEMU-UAE`  |
 |      Themes     | `retrodeck/storage/FS-UAE/Themes`          |                       |
 |      Titles     | `retrodeck/storage/FS-UAE/Titles`          |                       |
+
+---
+
+## Controls: Keyboard Shortcuts
+
+| **Shortcut** | **Action** |
+| :--- | :--- |
+| <kbd>Alt</kbd> + <kbd>,</kbd> | Decrease volume |
+| <kbd>Alt</kbd> + <kbd>.</kbd> | Increase volume |
+| <kbd>Alt</kbd> + <kbd>Arrow Keys</kbd> | Emulate Amiga joystick cursor |
+| <kbd>Alt</kbd> + <kbd>B</kbd> | Toggle extra visible border |
+| <kbd>Alt</kbd> + <kbd>C</kbd> | Activate cartridge |
+| <kbd>Alt</kbd> + <kbd>D</kbd> | Open debugger |
+| <kbd>Alt</kbd> + <kbd>F</kbd> / <kbd>Alt</kbd> + <kbd>Enter</kbd> | Toggle fullscreen |
+| <kbd>Alt</kbd> + <kbd>F4</kbd> | Exit FS-UAE |
+| <kbd>Alt</kbd> + <kbd>F9</kbd> | Toggle chipset/RTG display |
+| <kbd>Alt</kbd> + <kbd>G</kbd> | Release/acquire input grab |
+| <kbd>Alt</kbd> + <kbd>K</kbd> | Enable full keyboard emulation |
+| <kbd>Alt</kbd> + <kbd>M</kbd> | Toggle audio mute |
+| <kbd>Alt</kbd> + <kbd>N</kbd> | Toggle floppy-sound mute |
+| <kbd>Alt</kbd> + <kbd>P</kbd> / <kbd>Pause</kbd> | Toggle pause |
+| <kbd>Alt</kbd> + <kbd>Q</kbd> | Exit FS-UAE |
+| <kbd>Alt</kbd> + <kbd>R</kbd> | Soft reset |
+| <kbd>Alt</kbd> + <kbd>S</kbd> / <kbd>Print Scrn</kbd> | Save screenshot |
+| <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd> | Disable full keyboard emulation |
+| <kbd>Alt</kbd> + <kbd>T</kbd> | Hard reset |
+| <kbd>Alt</kbd> + <kbd>Tab</kbd> | Switch window/release input grab |
+| <kbd>Alt</kbd> + <kbd>W</kbd> | Toggle warp mode |
+| <kbd>Alt</kbd> + <kbd>Z</kbd> / <kbd>F11</kbd> | Cycle zoom modes |
+| <kbd>Ctrl</kbd> + <kbd>F10</kbd> | Toggle performance/FPS display |
+| <kbd>F12</kbd> | Open/close FS-UAE menu |
+| <kbd>Tab</kbd> | Toggle net-play chat |
 
 ---

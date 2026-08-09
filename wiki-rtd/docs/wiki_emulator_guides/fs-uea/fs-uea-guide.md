@@ -157,3 +157,36 @@ In `retrodeck/bios/`
 | <kbd>Tab</kbd> | Toggle net-play chat |
 
 ---
+
+## RetroDECK: Custom Amiga Profiles
+
+FS-UAE provides many options for configuring Amiga hardware through `.fs-uae` profiles. RetroDECK cannot ship a profile for every possible Amiga hardware configuration in existence.
+
+### Custom Profile Locations
+
+RetroDECK provides three custom profiles that you can modify if you have the necessary knowledge and experience:
+
+| **Profile** | **Profile Location** | **Corresponding ROM Directory** | **Comments** |
+|---|---|---|---|
+| `custom-amiga.fs-uae` | `retrodeck/storage/FS-UAE/Custom/` | `retrodeck/roms/amiga/` | Custom Amiga profile |
+| `custom-amiga600.fs-uae` | `retrodeck/storage/FS-UAE/Custom/` | `retrodeck/roms/amiga600/` | Custom Amiga 600 profile |
+| `custom-amiga1200.fs-uae` | `retrodeck/storage/FS-UAE/Custom/` | `retrodeck/roms/amiga1200/` | Custom Amiga 1200 profile |
+
+Edit the profile you want to use with a text editor, make your changes, and save the file.
+
+### Using a Custom Profile in ES-DE
+
+1. Launch RetroDECK.
+2. In ES-DE, navigate to **Amiga**, **Amiga 600**, or **Amiga 1200**.
+3. Select the game you want to configure.
+4. Press **Select** or **F1** to open **Edit This Game's Metadata**.
+5. Select **Alternative Emulator**.
+6. Choose **FS-UAE (Standalone) Custom**.
+7. Save the changes.
+8. Launch the game.
+
+The game will use the corresponding custom FS-UAE profile from:
+
+`retrodeck/storage/FS-UAE/Custom/`
+
+---

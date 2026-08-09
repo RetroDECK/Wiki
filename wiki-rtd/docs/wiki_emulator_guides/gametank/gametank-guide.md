@@ -21,6 +21,12 @@ GameTank is a 8-bit fantasy console emulator.
 
 ---
 
+## ⚠️ Bleeding-Edge Emulator ⚠️ 
+
+This emulator is under rapid development and considered **bleeding edge**. It may be unstable, may not operate at maximum performance across all hardware configurations, may lack certain standard features available in other components, and may be incompatible with portions of the supported game library.
+
+---
+
 ## Where to put the games
 
 GameTank games should be put under the `retrodeck/roms/gametank/` directory.
@@ -62,14 +68,27 @@ Cannot be played with a controller easily and is best used with a physical keybo
 
 ### Built-in Hotkeys
 
-| Key(s)        | Action |
-|---------------|------------------------------------------------------------|
-| **Esc**       | **Exit** - terminates the program. |
-| **F**         | **Fast‑forward** - skips `SDL_Delay` between instruction batches. |
-| **F9**        | **Profiling window** - displays profiling data (only works if the ROM implements debug hooks). |
-| **F10**       | **System state window** - shows CPU status, video/graphics memory contents, and other diagnostics. |
-| **O**         | **Load ROM** - opens a file dialog to load a ROM at runtime (also shown when no ROM is supplied on launch). |
-| **R**         | **Soft reset** - clears registers, jumps to the RESET vector; RAM stays unchanged. |
-| **Shift + R** | **Hard reset** - randomises memory and registers to emulate a cold boot. |
+| **Shortcuts** | **Action** | **Comment** |
+|:--|:--|:--|
+| <kbd>Esc</kbd> | Exit | Terminates the program. |
+| <kbd>F</kbd> | Fast-forward | Skips `SDL_Delay` between instruction batches. |
+| <kbd>F9</kbd> | Profiling window | Displays profiling data (requires ROM debug hooks). |
+| <kbd>F10</kbd> | System state window | Shows CPU status, video/graphics memory, and diagnostics. |
+| <kbd>O</kbd> | Load ROM | Opens a file dialog at runtime; also shown on launch without a ROM. |
+| <kbd>R</kbd> | Soft reset | Clears registers, jumps to RESET vector; RAM unchanged. |
+| <kbd>Shift</kbd> + <kbd>R</kbd> | Hard reset | Randomises memory and registers to emulate a cold boot. |
+
+
+---
+
+## Troubleshooting
+
+### Input schemes vary per game
+
+Input schemes vary per game refer to individual game documentation for mappings.
+
+### No Fullscreen
+
+The emulator is experimental and there is no fullscreen.
 
 ---

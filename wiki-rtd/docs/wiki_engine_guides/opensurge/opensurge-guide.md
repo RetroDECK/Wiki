@@ -73,7 +73,7 @@ This guide uses **Speedy The Rollerskater** as an example, but the steps apply t
 
 ---
 
-## How-to: Enable the Surge the Rabbit Game in RetroDECK?
+## How-to: Enable the Surge the Rabbit Game in RetroDECK
 
 <img src="../../../wiki_images/logos/opensurge-surge.png" width="75" alt="Opensurge Surge logo">
 

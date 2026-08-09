@@ -1,6 +1,6 @@
 ﻿# Xenia Edge - General Guide
 
-<img src="../../../wiki_images/logos/Xenia Edge-logo.png" width="75" alt="Xenia Edge logo">
+<img src="../../../wiki_images/logos/xenia-edge-logo.png" width="75" alt="Xenia Edge logo">
 
 Xenia Edge is a Microsoft Xbox 360 emulator based on Xenia.
 
@@ -13,11 +13,11 @@ Xenia Edge is a Microsoft Xbox 360 emulator based on Xenia.
 | Resource | Link |
 |----------|------|
 | Xenia Edge - Github | [Link](https://github.com/has207/xenia-edge) |
-| Xenia - Website | [Link](https://xenia.jp/) |
+| Xenia Manager - Compability DB | [Link](https://xenia-manager.github.io/compatibility) |
 
 ---
 
-## ⚠️  Bleeding-Edge Emulator ⚠️ 
+## ⚠️ Bleeding-Edge Emulator ⚠️ 
 
 This emulator is under rapid development and considered **bleeding edge**. It may be unstable, may not operate at maximum performance across all hardware configurations, may lack certain standard features available in other components, and may be incompatible with portions of the supported game library.
 
@@ -64,10 +64,20 @@ No
 | Cache0   | `retrodeck/storage/Xenia/cache0/`                                          |                                         |
 | Cache1   | `retrodeck/storage/Xenia/cache1/`                                        |                                         |
 | Library   | `retrodeck/storage/Xenia/library/`                                         |                                         |
-| Content   | `retrodeck/storage/Xenia/content/`                                         |                                         |
+| Content   | `retrodeck/saves/xbox360/Xenia/content/`                                         |                                         |
+| Plugins   | `retrodeck/mods/Xenia/plugins/`                                         |                                         |
 
 ---
 
+
+## Xenia Edge: Keyboard Shortcuts
+
+| **Shortcuts** | **Action** | **Comment** |
+|:--|:--|:--|
+| <kbd>Alt</kbd> + <kbd>F4</kbd> | Exit Application |   |
+| <kbd>F11</kbd> / <kbd>ESC</kbd> | Exit Fullscreen |   |
+
+---
 
 ## How-to: Play Xbox 360 Games in RetroDECK?
 
@@ -77,10 +87,9 @@ Place single-disc ISO images directly in the `retrodeck/roms/xbox360/` directory
 
 ### Xbox Live Arcade (XBLA)
 
-⚠️ Warning: Do **not** add a file extension to the XBLA game. ⚠️
+⚠️ **Warning:** Do **not** add a file extension to the XBLA game. ⚠️
 
 XBLA games are typically stored as folders containing extensionless files with cryptic filenames.
-
 
 #### Step 1: Find the Game File
 
@@ -142,5 +151,26 @@ For available options and game-specific recommendations, refer to the Xenia Edge
 ```
 
 Sets the game language to Spanish.
+
+---
+
+## How-to: Add Plugins (mods)
+
+**NOTE:** Plugins can be game version and region-specific. Each game uses a unique `TITLEID` identifier.
+
+- Extract the plugin archive (`.zip`, `.7z` etc.) to obtain the `.xex` file(s).
+- Open the plugins directory: `retrodeck/mods/Xenia/plugins/`
+- Identify the game's `TITLEID` using one of these methods:
+
+**Xenia Edge:** 
+
+Right-click the game → **Config Overrides** — the `TITLEID` appears in the game name.
+
+**File system:** 
+
+Match the game folder name under:`retrodeck/saves/xbox360/Xenia/content/<TITLEID>`
+
+- Place the `.xex` file(s) into the matching `TITLEID` folder:`retrodeck/mods/Xenia/plugins/<TITLEID>/`
+- Launch the game - compatible plugins load automatically.
 
 ---

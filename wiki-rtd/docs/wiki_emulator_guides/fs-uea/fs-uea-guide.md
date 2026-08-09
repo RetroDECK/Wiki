@@ -69,7 +69,7 @@ Amiga 1200 games can be put under the `retrodeck/roms/amiga1200/` directory.
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
-Yes
+Yes, these are recommended by the official website:
 
 | System | ROM File | Comments |
 |------|---------|----------|
@@ -90,8 +90,6 @@ Yes
 | Action Replay Mk II | Action Replay Mk II v2.14 (1991)(Datel Electronics)[m].rom |  |
 | Action Replay Mk III | Action Replay Mk III v3.17.rom |  |
 | Action Replay Mk III | Action Replay Mk III v3.17 (1991)(Datel Electronics)[m].rom |  |
-
-Other Kickstart files can be used, but the these are recommended by the official website.
 
 
 ### Where to put the BIOS files?

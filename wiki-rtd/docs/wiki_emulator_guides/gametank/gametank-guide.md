@@ -1,8 +1,8 @@
-﻿# Guide: GameTank
+﻿# Guide: GameTankEmulator
 
 <img src="../../../wiki_images/logos/gametankman-logo.png" width="150" alt="Gametankman logo">
 
-GameTank is a 8-bit fantasy console emulator.
+GameTankEmulator is a GameTank console emulator.
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 

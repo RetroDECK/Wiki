@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/commander-x16-logo.png" width="150" alt="Commander X16 logo">
 
-X16 Emulator is a 8-bit fantasy computer Commander X16 emulator.
+X16 Emulator is a Commander X16 computer emulator.
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 

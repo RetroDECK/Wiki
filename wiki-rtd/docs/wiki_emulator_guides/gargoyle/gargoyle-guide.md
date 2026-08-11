@@ -130,7 +130,7 @@ These commands are common in interactive fiction games.
 | `quit` | Quit | Ends the current game session. |
 | `restart` | Restart | Begins the game again from the start. |
 | `restore` | Load save | Loads a previously saved game. |
-| `save` | Save state | Stores the current game state for later restoration. |
+| `save` | Save | Stores the current game state for later restoration. |
 | `score` | Show score | Displays the current score, when the game uses scoring. |
 | `script` / `transcript` | Transcript | Starts, stops, or manages a transcript of the game session, when supported. |
 | `superbrief` | Minimal descriptions | Requests the shortest available room descriptions, when supported. |
@@ -240,7 +240,7 @@ Type `save` in Gargoyle to open the save prompt.
 
 The save prompt may display a path such as:
 
-`/home/<user>/.var/app/net.retrodeck.retrodeck/data/gargoyle/<game_name_dir>/<prompt_location>`
+`/home/<user>/.var/app/net.retrodeck.retrodeck/data/gargoyle/gamedata/<game_name_dir>/<prompt_location>`
 
 However, RetroDECK redirects Gargoyle's save data to:
 

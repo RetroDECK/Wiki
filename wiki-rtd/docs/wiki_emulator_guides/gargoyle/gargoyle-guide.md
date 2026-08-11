@@ -298,8 +298,8 @@ Or if you are using sub directories under `retrodeck/roms/if/`:
 
 ```
 retrodeck/roms/if/MyGame
-                                    ├── MyGame.ulx
-                                    └── MyGame.ini
+        ├── MyGame.ulx
+        └── MyGame.ini
 ```
     
 **Example:**
@@ -329,7 +329,7 @@ Example:
 
 ```
 retrodeck/storage/gargoyle/themes/
-                                                    └── My Cool Dark Theme.json
+                └── My Cool Dark Theme.json
 ```
 
 A theme contains color definitions, for example:

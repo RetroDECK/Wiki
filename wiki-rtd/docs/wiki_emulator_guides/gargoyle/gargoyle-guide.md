@@ -11,7 +11,7 @@ RetroDECK uses Gargoyle both as an **Infocom Z-Machine** emulator and an **Inter
 
 ---
 
-### Gargyole Links
+### Gargoyle Links
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 

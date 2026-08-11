@@ -117,106 +117,107 @@ These commands are common in interactive fiction games.
 
 **Note:** Command availability and behavior are determined by the individual game or interpreter. Not all commands are supported by all games.
 
-### General
+### Game Commands
 
 | Command | Action | Description |
-|---------|--------|-------------|
-| `save` | Save game | Saves the current game state to a save file. |
-| `restore` | Load game | Restores a previously saved game state. |
-| `undo` | Undo turn | Reverses the most recent game turn, when supported. |
-| `restart` | Restart game | Restarts the current game from its initial state. |
-| `quit` | Quit game | Exits the current game. |
-| `again` | Repeat command | Repeats the previous command, when supported. |
-| `oops` | Correct word | Corrects a misspelled or incorrectly entered word, when supported. |
-| `transcript` | Transcript | Starts, stops, or manages a transcript of the game session, when supported. |
-| `script` | Transcript | Alternative command used by some interpreters/games to control transcripts. |
-| `score` | Show score | Displays the current score, when the game uses scoring. |
+| --- | --- | --- |
+| `about` | About | Displays information about the game, author, or release. |
+| `again` | Repeat | Repeats the previous command, when supported. |
+| `brief` | Brief descriptions | Requests shorter room descriptions. |
 | `full score` | Detailed score | Displays a more detailed score breakdown, when supported. |
-| `inventory` | Show inventory | Lists objects currently carried by the player. |
-| `i` | Show inventory | Common abbreviation for `inventory`. |
-| `look` | Look around | Describes the current location or scene. |
-| `l` | Look around | Common abbreviation for `look`. |
-| `examine <object>` | Examine object | Provides a detailed description of an object. |
-| `x <object>` | Examine object | Common abbreviation for `examine`. |
 | `help` | Help | Displays game-specific instructions or help. |
 | `hint` | Hint | Requests a hint, when the game provides a hint system. |
-| `about` | About | Displays information about the game, author, or release. |
-| `version` | Version | Displays game or interpreter version information, when supported. |
-| `verbose` | Verbose descriptions | Requests full room descriptions rather than abbreviated descriptions. |
-| `brief` | Brief descriptions | Requests shorter room descriptions. |
-| `superbrief` | Minimal descriptions | Requests the shortest available room descriptions, when supported. |
-| `wait` | Wait | Advances the game by one turn without performing another action. |
-| `z` | Wait | Common abbreviation for `wait`. |
-| `restart` | Restart | Begins the game again from the start. |
-| `undo` | Undo | Reverts the previous turn, if the interpreter/game supports undo. |
-| `again` | Repeat | Repeats the previous command, if supported. |
-| `restore` | Restore save | Loads a previously saved game. |
-| `save` | Save state | Stores the current game state for later restoration. |
 | `quit` | Quit | Ends the current game session. |
+| `restart` | Restart | Begins the game again from the start. |
+| `restore` | Load save | Loads a previously saved game. |
+| `save` | Save state | Stores the current game state for later restoration. |
+| `score` | Show score | Displays the current score, when the game uses scoring. |
+| `script` / `transcript` | Transcript | Starts, stops, or manages a transcript of the game session, when supported. |
+| `superbrief` | Minimal descriptions | Requests the shortest available room descriptions, when supported. |
+| `undo` | Undo | Reverts the previous turn, if the interpreter/game supports undo. |
+| `verbose` | Verbose descriptions | Requests full room descriptions rather than abbreviated descriptions. |
+| `version` | Version | Displays game or interpreter version information, when supported. |
+| `wait` / `z` | Wait | Advances the game by one turn without performing another action. |
 
 ---
 
-###  Direction Commands
+### Movement Commands
 
-| Command | Action |
-|---------|--------|
-| `north` / `n` | Move north |
-| `south` / `s` | Move south |
-| `east` / `e` | Move east |
-| `west` / `w` | Move west |
-| `northeast` / `ne` | Move northeast |
-| `northwest` / `nw` | Move northwest |
-| `southeast` / `se` | Move southeast |
-| `southwest` / `sw` | Move southwest |
-| `up` / `u` | Move up |
-| `down` / `d` | Move down |
-| `in` | Move inside |
-| `out` | Move outside |
+| Command | Action | Description |
+| --- | --- | --- |
+| `down` / `d` | Move down | Moves the player downward. |
+| `east` / `e` | Move east | Moves the player east. |
+| `enter <object>` | Enter | Enters a vehicle, location, or other object. |
+| `exit` | Exit | Leaves a vehicle, location, or enclosed object. |
+| `in` | Move inside | Moves the player inside. |
+| `north` / `n` | Move north | Moves the player north. |
+| `northeast` / `ne` | Move northeast | Moves the player northeast. |
+| `northwest` / `nw` | Move northwest | Moves the player northwest. |
+| `out` | Move outside | Moves the player outside. |
+| `south` / `s` | Move south | Moves the player south. |
+| `southeast` / `se` | Move southeast | Moves the player southeast. |
+| `southwest` / `sw` | Move southwest | Moves the player southwest. |
+| `up` / `u` | Move up | Moves the player upward. |
+| `west` / `w` | Move west | Moves the player west. |
 
 ---
 
 ### Object Commands
 
-| Command | Action |
-|---------|--------|
-| `take <object>` | Pick up an object. |
-| `get <object>` | Common alternative to `take`. |
-| `drop <object>` | Drop an object. |
-| `open <object>` | Open an object. |
-| `close <object>` | Close an object. |
-| `lock <object>` | Lock an object. |
-| `unlock <object>` | Unlock an object. |
-| `enter <object>` | Enter a vehicle, location, or other object. |
-| `exit` | Leave a vehicle, location, or enclosed object. |
-| `put <object> in <container>` | Put an object inside a container. |
-| `put <object> on <surface>` | Put an object on a surface. |
-| `remove <object>` | Remove an object from a container or surface. |
-| `give <object> to <person>` | Give an object to another character. |
-| `show <object> to <person>` | Show an object to another character. |
-| `ask <person> about <topic>` | Ask a character about a topic. |
-| `tell <person> about <topic>` | Tell a character about a topic. |
-| `talk to <person>` | Talk to another character, when supported. |
+| Command | Action | Description |
+| --- | --- | --- |
+| `close <object>` | Close object | Closes an object. |
+| `drop <object>` | Drop object | Drops an object. |
+| `get <object>` / `take <object>` | Take object | Picks up an object. |
+| `lock <object>` | Lock object | Locks an object. |
+| `open <object>` | Open object | Opens an object. |
+| `put <object> in <container>` | Put in container | Puts an object inside a container. |
+| `put <object> on <surface>` | Put on surface | Puts an object on a surface. |
+| `remove <object>` | Remove object | Removes an object from a container or surface. |
+| `unlock <object>` | Unlock object | Unlocks an object. |
 
 ---
 
-###  Action Commands
+### Character Commands
 
-| Command | Action |
-|---------|--------|
-| `read <object>` | Read an object. |
-| `search <object>` | Search an object or location. |
-| `listen` | Listen to the surroundings. |
-| `smell` | Smell the surroundings. |
-| `touch <object>` | Touch an object. |
-| `feel <object>` | Feel an object. |
-| `use <object>` | Use an object, when supported. |
-| `push <object>` | Push an object. |
-| `pull <object>` | Pull an object. |
-| `turn <object>` | Turn an object. |
-| `wear <object>` | Wear an object. |
-| `remove <object>` | Remove worn equipment. |
-| `eat <object>` | Eat an object. |
-| `drink <object>` | Drink an object. |
+| Command | Action | Description |
+| --- | --- | --- |
+| `ask <person> about <topic>` | Ask about topic | Asks a character about a topic. |
+| `give <object> to <person>` | Give object | Gives an object to another character. |
+| `inventory` / `i` | Show inventory | Lists objects currently carried by the player. |
+| `show <object> to <person>` | Show object | Shows an object to another character. |
+| `talk to <person>` | Talk | Talks to another character, when supported. |
+| `tell <person> about <topic>` | Tell about topic | Tells a character about a topic. |
+
+---
+
+### Sensory Commands
+
+| Command | Action | Description |
+| --- | --- | --- |
+| `examine <object>` / `x <object>` | Examine object | Provides a detailed description of an object. |
+| `feel <object>` | Feel object | Feels an object. |
+| `listen` | Listen | Listens to the surroundings. |
+| `look` / `l` | Look around | Describes the current location or scene. |
+| `search <object>` | Search | Searches an object or location. |
+| `smell` | Smell | Smells the surroundings. |
+| `touch <object>` | Touch object | Touches an object. |
+
+---
+
+### Action Commands
+
+| Command | Action | Description |
+| --- | --- | --- |
+| `drink <object>` | Drink object | Drinks an object. |
+| `eat <object>` | Eat object | Eats an object. |
+| `pull <object>` | Pull object | Pulls an object. |
+| `push <object>` | Push object | Pushes an object. |
+| `read <object>` | Read object | Reads an object. |
+| `remove <object>` | Remove worn equipment | Removes worn equipment. |
+| `turn <object>` | Turn object | Turns an object. |
+| `use <object>` | Use object | Uses an object, when supported. |
+| `wear <object>` | Wear object | Wears an object. |
 
 ---
 

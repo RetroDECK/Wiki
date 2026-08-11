@@ -1,4 +1,4 @@
-﻿# Guide: Gargyole
+﻿# Guide: Gargoyle
 
 <img src="../../../wiki_images/logos/gargoyle-logo.webp" width="150" alt="Gargoyle logo">
 

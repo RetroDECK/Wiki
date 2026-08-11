@@ -68,9 +68,12 @@ No
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
-| ROMs   | `retrodeck/roms/zmachine/`                       |   Infocom Z-machine *Only Infocom Z-machine formats*    |
-| ROMs   | `retrodeck/roms/if/`                             |   Interactive Fiction *All formats*         |
+| Z-machine ROMs   | `retrodeck/roms/zmachine/`                       |   Infocom Z-machine *Only Infocom Z-machine formats*    |
+| Interactive Fiction ROMs   | `retrodeck/roms/if/`                             |   Interactive Fiction *All formats*         |
+| Saves   | `retrodeck/saves/if/gargoyle/`                             |   Corresponds to  `gamedata`    |
+| Themes   | `retrodeck/storage/gargoyle/themes/`                             |  Corresponds to  `themes`        |
 
+ 
 ---
 
 ## Controls: Keyboard ⌨️
@@ -215,6 +218,61 @@ These commands are common in interactive fiction games.
 | `eat <object>` | Eat an object. |
 | `drink <object>` | Drink an object. |
 
+---
+
+## Saving and Loading Games
+
+All Gargoyle saves managed by RetroDECK are stored under the `retrodeck/saves/if/gargoyle` directory and use the `.glksave` format..
+
+Gargoyle saves are **not** stored under `retrodeck/saves/zmachine`, even if your game files are stored in the `retrodeck/roms/zmachine` directory.
+
+The `retrodeck/saves/zmachine/` directory is used by RetroArch Z-machine cores. 
+
+Gargoyle supports only a single save location, so its saves are stored under `retrodeck/saves/if/gargoyle`.
+
+
+### Saving a Game
+
+<img src="../gargoyle-save-window.png" width="800" alt="Gargoyle Save Prompt">
+
+Type `save` in Gargoyle to open the save prompt. 
+
+The save prompt may display a path such as:
+
+`/home/<user>/.var/app/net.retrodeck.retrodeck/data/gargoyle/<game_name_dir>/<prompt_location>`
+
+However, RetroDECK redirects Gargoyle's save data to:
+
+`retrodeck/saves/if/gargoyle/<game_name_dir>/<save_file>`
+
+Gargoyle creates a separate directory for each game using the game's full filename.
+
+**Example:**
+
+`zork1.z3`
+
+The save directory is:
+
+`retrodeck/saves/if/gargoyle/zork1.z3/`
+
+The game directory is created automatically when the save prompt is opened.
+
+Because save files are specific to each game, use descriptive names that indicate the location or situation in the game. 
+
+**For example:**
+
+`retrodeck/saves/if/gargoyle/zork1.z3/`
+
+- `eaten-by-a-grue.glksave`
+- `basement.glksave`
+
+### Loading a Game
+
+To load a saved game:
+
+1. Type `restore` in Gargoyle.
+2. Select the desired `.glksave` file.
+3. Confirm the selection to load the game.
 
 ---
 

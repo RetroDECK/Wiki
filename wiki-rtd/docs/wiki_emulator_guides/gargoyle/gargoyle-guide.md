@@ -73,31 +73,38 @@ No
 
 ---
 
-## Controls: Keyboard ⌨️ & Mouse 🖱️ 
+## Controls: Keyboard ⌨️
 
-Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
-
-### Keyboard Shortcuts
+Cannot be played with a controller easily and is best used with a physical keyboard.
 
 The following keyboard shortcuts are available during gameplay.
+
+### Gargoyle Keyboard Shortcuts
 
 | Shortcut | Action | Description |
 |----------|--------|-------------|
 | <kbd>Ctrl</kbd> + <kbd>,</kbd> | Open configuration | Opens Gargoyle's configuration file in the default text editor. |
-| <kbd>Ctrl</kbd> + <kbd>.</kbd> | Show configuration paths | Displays all configuration file paths and theme search paths used by Gargoyle. |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> | List available themes | Displays all installed color themes. |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Save scrollback | Saves the current scrollback buffer to a file, creating a transcript of the current session. |
-| <kbd>Alt</kbd> + <kbd>Enter</kbd><br> | Toggle fullscreen | Switches between windowed and fullscreen mode. |
+| <kbd>Ctrl</kbd> + <kbd>.</kbd> | Show configuration paths | Displays Gargoyle's configuration and theme search paths. |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> | List themes | Displays the available Gargoyle color themes. |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> | Save scrollback | Saves the current scrollback buffer to a file. |
+| <kbd>Alt</kbd> + <kbd>Enter</kbd> | Toggle fullscreen | Switches between windowed and fullscreen mode. |
+| <kbd>Ctrl</kbd> + <kbd>Q</kbd> | Quit | Exits Gargoyle. |
+
+### Emacs-Style Text Editing
+
+These keys provide Emacs-style editing and navigation while entering commands.
+
+| Shortcut | Action | Description |
+|----------|--------|-------------|
 | <kbd>Ctrl</kbd> + <kbd>A</kbd> | Beginning of line | Moves the cursor to the beginning of the current line. |
 | <kbd>Ctrl</kbd> + <kbd>B</kbd> | Move left | Moves the cursor one character to the left. |
 | <kbd>Ctrl</kbd> + <kbd>D</kbd> | Delete character | Deletes the character under the cursor. |
 | <kbd>Ctrl</kbd> + <kbd>E</kbd> | End of line | Moves the cursor to the end of the current line. |
 | <kbd>Ctrl</kbd> + <kbd>F</kbd> | Move right | Moves the cursor one character to the right. |
 | <kbd>Ctrl</kbd> + <kbd>H</kbd> | Backspace | Deletes the character to the left of the cursor. |
-| <kbd>Ctrl</kbd> + <kbd>N</kbd> | Next history | Moves to the next command in the input history. |
-| <kbd>Ctrl</kbd> + <kbd>P</kbd> | Previous history | Moves to the previous command in the input history. |
-| <kbd>Ctrl</kbd> + <kbd>U</kbd> | Clear line | Deletes the entire current input line. |
-| <kbd>Ctrl</kbd> + <kbd>Q</kbd> | Quit application | Quits the application. |
+| <kbd>Ctrl</kbd> + <kbd>N</kbd> | Next history | Moves to the next command in input history. |
+| <kbd>Ctrl</kbd> + <kbd>P</kbd> | Previous history | Moves to the previous command in input history. |
+| <kbd>Ctrl</kbd> + <kbd>U</kbd> | Clear line | Deletes the current input line. |
 
 ---
 

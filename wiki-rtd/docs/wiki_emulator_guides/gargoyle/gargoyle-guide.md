@@ -18,6 +18,7 @@ RetroDECK uses Gargoyle both as an **Infocom Z-Machine** emulator and an **Inter
 | Resource | Link |
 |----------|------|
 | Gargoyle Github | [Link](https://github.com/garglk/garglk/) |
+| Gargoyle Github - Themes Guide| [Link](https://github.com/garglk/garglk/blob/master/THEMES.md) |
 | Gargoyle Webpage | [Link](https://ccxvii.net/gargoyle/) |
 | Historical Source Github | [Link](https://github.com/historicalsource?tab=repositories) |
 
@@ -274,6 +275,119 @@ To load a saved game:
 1. Type `restore` in Gargoyle.
 2. Select the desired `.glksave` file.
 3. Confirm the selection to load the game.
+
+---
+
+## Gargoyle: Game-Specific Configuration
+
+Gargoyle can automatically load a game-specific `.ini` file when the game is launched.
+
+### Game-Specific INI
+
+Place `<game_name>.ini` beside the game file. 
+
+**Note:** INI filename must correspond to the game filename exactly.
+
+```
+retrodeck/roms/if/
+                            ├── MyGame.ulx
+                            └── MyGame.ini
+```
+
+Or if you are using sub directories under `retrodeck/roms/if/`:
+
+```
+retrodeck/roms/if/MyGame
+                                    ├── MyGame.ulx
+                                    └── MyGame.ini
+```
+    
+**Example:**
+
+`Zork1.z3` →  `Zork1.ini`
+
+Example content of `Zork1.ini`:
+
+```
+theme My Game Dark
+propsize 22
+monosize 18
+leading 30
+```
+
+For all INI file options, refer to the official Gargoyle GitHub repository linked above.
+
+---
+
+### Adding Custom Themes to a Game
+
+Gargoyle themes are JSON files. Install the theme in `retrodeck/storage/gargoyle/themes/`.
+
+You will need to create a custom game `.ini` file for the games you want to use a specific theme (see above).
+
+Example:
+
+```
+retrodeck/storage/gargoyle/themes/
+                                                    └── My Cool Dark Theme.json
+```
+
+A theme contains color definitions, for example:
+
+```
+    {
+      "name": "My Cool Dark Theme",
+      "window": "#202124",
+      "border": "#5f6368",
+      "caret": "#ffffff",
+      "link": "#8ab4f8",
+      "more": "#fdd663",
+      "scrollbar": {
+        "fg": "#5f6368",
+        "bg": "#202124"
+      },
+      "text_buffer": {
+        "default": {
+          "fg": "#f1f3f4",
+          "bg": "#202124"
+        }
+      },
+      "text_grid": {
+        "default": {
+          "fg": "#f1f3f4",
+          "bg": "#202124"
+        }
+      }
+    }
+```
+
+Add the theme to the game's custom `.ini`. The theme name must match the JSON file's `"name"` property and is case-sensitive.
+
+**Example:**
+
+ `Zork1.ini`
+
+```
+theme My Cool Dark Theme
+```
+
+For all more theme documentation refer to the official Gargoyle Theme Guide linked above.
+
+### Built-in Themes
+
+Gargoyle includes built-in themes accessible via configuring the INI file.
+
+```
+theme Blue
+theme Lectrote Dark
+theme Lectrote Sepia
+theme Lectrote Slate
+theme Pencil
+theme Zoom
+theme dark
+theme light
+theme system
+```
 
 ---
 

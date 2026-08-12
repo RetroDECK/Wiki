@@ -67,13 +67,13 @@ However, you do need copies of the official game data.
 
 | Type | Directory | Comment |
 |:----:|:--------------------------------------|:-----------------------------------------------|
-| ROMs | `retrodeck/roms/quake/wolf` | |
+| ROMs | `retrodeck/roms/wolf` | |
 
 --- 
 
 ## ECWolf Required Game Data Files
 
-Below are the original game data files required by **ECWolf**.
+Below are the original game data files required by **ECWolf** to run that version.
 
 - Wolfenstein 3D (Shareware)
 - Wolfenstein 3D (Full)
@@ -84,7 +84,7 @@ Below are the original game data files required by **ECWolf**.
 - Spear of Destiny - Mission Pack 3 - Ultimate Challenge
 - Super 3D Noah’s Ark
 
-These files must be copied from your legally obtained game installation.
+These files must be copied from your original game installation.
 
 ---
 
@@ -150,6 +150,8 @@ These files must be copied from your legally obtained game installation.
 | vgagraph.sod     | Compressed graphics data (sprites, UI, textures) | |
 | vgahead.sod      | Header for VGA graphics data | |
 | vswap.sod        | Main asset container (sprites, walls, sounds) | |
+
+---
 
 ### Spear of Destiny - Mission Pack 1 - Return to Danger (.SD1)
 

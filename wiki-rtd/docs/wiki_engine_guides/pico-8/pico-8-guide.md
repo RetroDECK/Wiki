@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/pico-8-logo.png"  width="150" alt="Pico 8 logo">
 
-PICO-8 is a 8-bit fantasy console emulator.
+PICO-8 is a 8-bit fantasy console engine.
 
 ---
 

@@ -316,6 +316,9 @@ nav:
     - OpenBOR:
       - OpenBOR - General Guide: wiki_engine_guides/openbor/openbor-guide.md
 
+    - Pico-8:
+      - Pico-8 - General Guide: wiki_engine_guides/pico-8/pico-8-guide.md
+
     - ScummVM:
       - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
       - ScummVM - Gamelist: wiki_engine_guides/scummvm/scummvm-gamelist.md
@@ -346,9 +349,6 @@ nav:
 
     - PrimeHack:
       - PrimeHack - General Guide: wiki_emulator_guides/primehack/primehack-guide.md
-
-    - Pico-8:
-      - Pico-8 - General Guide: wiki_emulator_guides/pico-8/pico-8-guide.md
 
     - PPSSPP:
       - PPSSPP - General Guide: wiki_emulator_guides/ppsspp/ppsspp-guide.md

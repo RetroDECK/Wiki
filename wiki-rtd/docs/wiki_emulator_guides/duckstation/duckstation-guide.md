@@ -99,38 +99,46 @@ Directly into the folder
 | Shaders       | `retrodeck/shaders/Duckstation/`                 |  duckstation/shaders                             |
 | States        | `retrodeck/states/psx/duckstation/`               |                                                          |
 | Screenshots   | `retrodeck/screenshots/Duckstation/`             | duckstation/screenshots                       |
-| Texture Packs | `retrodeck/texture_packs/Duckstation/`           | duckstation/textures          |
+| Texture Packs | `retrodeck/texture_packs/Duckstation/textures`           | duckstation/textures          |
 
 
 
 ---
 
-## Adding Texture Packs
+## How-to: Add Texture Packs
 
-The `~/retrodeck/texture_packs/duckstaiton/` represents the `/duckstation/textures/` folder in Duckstation.
+The `retrodeck/texture_packs/duckstation/textures` directory represents the `/duckstation/textures/` directory in Duckstation.
 
-**Note:** <br>
-Some texture packs could made for a specific version or region of a game. Make sure you have the right game and textures for it.
+### Enable Custom Textures
 
-**Note:**<br>
-`TITLEID` is different for every game.
+If texture replacements are disabled:
 
----
+- Open Duckstation inside `RetroDECK Configurator` by selecting `Open Emulator` → `Duckstation`.
+- Go to `Settings` → `Advanced` → `Tweaks/Hacks`.
+- Set `Enable VRAM Write Texture Replacement` to `On`.
+- Set `Preload Texture Replacements` to `On`.
 
-## Adding texture packs
+### Texture Folder
 
-- Open up Duckstation inside `RetroDECK Configurator` by pressing `Open Emulator` - `Duckstation`.
-- Go to `Settings` → `Advanced` → `Tweaks/Hacks` <br>
+**Note:** Texture packs may be designed for a specific game version or region. Make sure the texture pack matches your game.
 
-`Enable VRAM Write Texture Replacement` and set it to `On`.<br>
+**Note:** `TITLEID` is unique to each game. Check a reliable online resource to find the correct ID.
 
-`Preload Texture Replacements` and set it to `On`.<br>
+1. Extract the texture pack from its `.zip` or other compressed archive.
+2. Open `retrodeck/texture_packs/duckstation/textures`. 
+3. Move the extracted texture folder into the `textures` directory. The folders are often named by `TITLEID`.
+4. Rename the folder so that it matches the game's `TITLEID` **exactly** and remove additional suffixes such as `_LQ`, `_MQ`, or `_HQ` folder name if there are any.
 
-### Texture folder
+The resulting directory should follow this structure:
 
-1. Extract any texture pack files from compressed `.zip` or any other format into folders.
-2. Go into `~/retrodeck/texture_packs/duckstation/`. The folders are all named by `TITLEID`.
-3. Move textures into the right `~/retrodeck/texture_packs/duckstation/<TITLEID>` folder.
+```
+retrodeck/
+└── texture_packs/
+    └── Flycast/
+        └── textures/
+            └── TITLEID/
+                └── <texture files>
+```
 
 ---
 

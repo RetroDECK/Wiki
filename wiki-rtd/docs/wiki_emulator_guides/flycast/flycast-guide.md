@@ -14,6 +14,7 @@ Flycast is a emulator for SEGA Dreamcast, Sammy Corporation Atomiswave, Sega NAO
 | Resource | Link |
 |----------|------|
 | Flycast - Github | [Link](https://github.com/flyinghead/flycast) |
+| Flycast - Website | [Link](https://flycast.org/) |
 
 
 ---
@@ -60,7 +61,7 @@ Games should be put under:
 Yes 
 
 | System | BIOS File | Description |
-|---|---|---|---|
+|---|---|---|
 | Dreamcast | `dc_boot.bin` | Dreamcast BIOS |
 | NAOMI | `naomi.zip` | NAOMI BIOS | 
 | NAOMI | `naomi_boot.bin` | NAOMI boot BIOS | 
@@ -70,7 +71,7 @@ Yes
 Some NAOMI games require additional BIOS files:
 
 | BIOS File | Game/System |
-|---|---|---|
+|---|---|
 | `hod2bios.zip` | The House of the Dead 2 | 
 | `f355dlx.zip` | Ferrari F355 Challenge Deluxe | 
 | `f355bios.zip` | Ferrari F355 Challenge Twin/Deluxe | 

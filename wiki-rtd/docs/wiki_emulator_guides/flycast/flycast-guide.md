@@ -1,6 +1,6 @@
 ﻿# Flycast - General Guide
 
-<img src="../../../wiki_images/logos/Flycast-logo.png" width="100" alt="Flycast logo">
+<img src="../../../wiki_images/logos/flycast-logo.webp" width="100" alt="Flycast logo">
 
 Flycast is a emulator for SEGA Dreamcast, Sammy Corporation Atomiswave, Sega NAOMI, Sega NAOMI II and Sega NAOMI GD-ROM.
 
@@ -14,7 +14,6 @@ Flycast is a emulator for SEGA Dreamcast, Sammy Corporation Atomiswave, Sega NAO
 | Resource | Link |
 |----------|------|
 | Flycast - Github | [Link](https://github.com/flyinghead/flycast) |
-| Flycast - Website | [Link](https://flycast.org/) |
 
 
 ---

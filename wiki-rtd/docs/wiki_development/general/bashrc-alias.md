@@ -473,23 +473,23 @@ alias rdu-test='flatpak run net.retrodeck.retrodeck --test-upgrade'
 # RetroDECK - Debug Shortcuts
 # --------------------------------------------------------
 
-# rddeb-rd
+# rddebug-rd
 # Launch RetroDECK in debug mode.
 alias rddeb-rd='flatpak run net.retrodeck.retrodeck --debug'
 
-# rddeb-conf
+# rddebug-conf
 # Launch RetroDECK Configurator in debug mode.
 alias rddeb-conf='flatpak run net.retrodeck.retrodeck --debug --configurator'
 
-# rddeb-cli
+# rddebug-cli
 # Launch RetroDECK in debug mode and open an interactive Bash shell inside the Flatpak sandbox.
 alias rddeb-cli='flatpak run --command=bash net.retrodeck.retrodeck -debug'
 
-# rddeb-devel
+# rddebug-devel
 # Launch RetroDECK in debug mode with --devel and open an interactive shell inside the sandbox.
 alias rddeb-devel='flatpak run --devel --command=sh net.retrodeck.retrodeck -debug'
 
-# rddeb-strace
+# rddebug-strace
 # Launch RetroDECK in debug mode with --devel, opening an interactive shell inside the sandbox, while tracing system calls using strace.
 alias rddeb-strace='strace -o flatpak run --devel --command=sh net.retrodeck.retrodeck -debug'
 

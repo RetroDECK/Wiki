@@ -6,9 +6,15 @@ RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger.
 
 ---
 
-### ⚠️  Bleeding-Edge Emulator ⚠️ 
+### ⚠️ Bleeding-Edge Component ⚠️ 
 
-This emulator is under rapid development and considered **bleeding edge**. It may be unstable, may not operate at maximum performance across all hardware configurations, may lack certain standard features available in other components, and may be incompatible with portions of the supported game library.
+**Warning:** This component is under rapid development and may be unstable.
+
+- Performance may vary across hardware configurations.
+- Some standard features available in other components may not yet be supported.
+- Controllers or other input devices may require manual configuration.
+- Compatibility may vary across the supported game library.
+- Functionality, performance, and compatibility may change as development progresses.
 
 ---
 

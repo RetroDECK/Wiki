@@ -4,8 +4,6 @@
 
 Visual Pinball X (vpx) is an virtual pinball (vpinball) engine that simulates pinball tables.
 
-
-
 ### Visual Pinball X
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
@@ -17,6 +15,11 @@ Visual Pinball X (vpx) is an virtual pinball (vpinball) engine that simulates pi
 | Internet Pinball Machine Database (IPDB) | [Link](https://www.ipdb.org/) |
 | Visual Pinball X - GitHub | [Link](https://github.com/vpinball/vpinball/) |
 
+---
+
+## ⚠️ Advanced configuration required ⚠️ 
+
+Visual Pinball X is a extremly complex pinball simulation engine. Each table may have unique hardware requirements, dependencies and configuration needs. There is no universal checklist or magical silver ball that covers every table. For table-specific guidance, consult the community resources linked above.
 
 
 ---
@@ -102,21 +105,6 @@ However, each table may require its **own set of additional files and dependenci
 
 ## How-to: Play Pinball games in RetroDECK
 
-⚠️ **Advanced configuration required:** Visual Pinball X is a complex simulation engine. Each table may have unique hardware requirements, dependencies and configuration needs. There is no universal checklist and silver bullet (ball) that covers every table. For table-specific guidance, consult the community resources linked above. ⚠️ 
-
-**Example:** Funhouse (Williams 1990)
-
-```
-retrodeck/roms/vpinball/Funhouse (Williams 1990)
-├── pinmame/
-├── Funhouse (Williams 1990).directb2s
-├── Funhouse (Williams 1990).ini
-├── Funhouse (Williams 1990).vbs
-└── Funhouse (Williams 1990).vpx <--- the .vpx Game File
-```
-
-### Guide: Folder as File
-
 To ensure ES-DE detects the table correctly, rename the folder using the same extension as the game file:
 
 - `.vpx` for VPX games
@@ -124,7 +112,7 @@ To ensure ES-DE detects the table correctly, rename the folder using the same ex
 
 The folder extension must **exactly match** the extension and name of the game file inside the folder.
 
-**Example:**
+**Example:** Funhouse (Williams 1990)
 
 `retrodeck/roms/vpinball/Funhouse (Williams 1990).vpx`
 

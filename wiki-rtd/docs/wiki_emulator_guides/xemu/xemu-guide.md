@@ -30,6 +30,8 @@ A free and open-source application that emulates the original Microsoft Xbox gam
 - Compatibility may vary across the supported game library.
 - Functionality, performance, and compatibility may change as development progresses.
 
+---
+
 ## Where to put the games
 
 Xbox games should be put under the `retrodeck/roms/xbox/` directory.

@@ -1,8 +1,8 @@
-﻿# X16 Emulator: General Guide
+﻿# Commander X16 Emulator: General Guide
 
 <img src="../../../wiki_images/logos/commander-x16-logo.png" width="150" alt="Commander X16 logo">
 
-X16 Emulator is a Commander X16 computer emulator.
+Commander X16 Emulator is a Commander X16 computer emulator.
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 
@@ -77,8 +77,7 @@ Open the `.BAS` file in a text editor and add the following BASIC:
 
 ```
 DOS "CD:<GAME_FOLDER>"
-LOAD "<GAME_FILE>.PRG"
-RUN
+LOAD "<GAME_FILE>.PRG" RUN
 ```
 
 - Replace `<GAME_FOLDER>` with your games folder. **Example:** `DOS "CD:TETRADS"`
@@ -89,8 +88,7 @@ RUN
 
 ```
 DOS "CD:TETRADS"
-LOAD "TETRADS.PRG"
-RUN
+LOAD "TETRADS.PRG" RUN
 ```
 
 - Save the file.

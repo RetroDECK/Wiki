@@ -449,25 +449,25 @@ rdgit() {
 
 
 # --------------------------------------------------------
-# RetroDECK - Launch Shortcut
+# RetroDECK - Launch Shortcuts
 # --------------------------------------------------------
 
-# Usage: rdl-rd
+# Usage: rdlaunch-retrodeck
 # Launches RetroDECK.
-alias rdl-rd='flatpak run net.retrodeck.retrodeck'
+alias rdlaunch-retrodeck='flatpak run net.retrodeck.retrodeck'
 
-# Usage: rdl-conf
+# Usage: rdlaunch-configurator
 # Launches RetroDECK Configurator.
-alias rdl-conf='flatpak run net.retrodeck.retrodeck --configurator'
+alias rdlaunch-configurator='flatpak run net.retrodeck.retrodeck --configurator'
 
 
 # --------------------------------------------------------
 # RetroDECK - Upgrade Simulated
 # --------------------------------------------------------
 
-# Usage: rdu-test
-# Simulates an upgrade Between RetroDECK Versions argument with <version>: rdu-test 0.9.4b.
-alias rdu-test='flatpak run net.retrodeck.retrodeck --test-upgrade'
+# Usage: rdtest-upgrade
+# Simulates an upgrade Between RetroDECK Versions argument with <version>: rdtest-upgrade 0.9.4b.
+alias rdtest-upgrade='flatpak run net.retrodeck.retrodeck --test-upgrade'
 
 # --------------------------------------------------------
 # RetroDECK - Debug Shortcuts
@@ -475,23 +475,23 @@ alias rdu-test='flatpak run net.retrodeck.retrodeck --test-upgrade'
 
 # rddebug-rd
 # Launch RetroDECK in debug mode.
-alias rddeb-rd='flatpak run net.retrodeck.retrodeck --debug'
+alias rddebug-rd='flatpak run net.retrodeck.retrodeck --debug'
 
 # rddebug-conf
 # Launch RetroDECK Configurator in debug mode.
-alias rddeb-conf='flatpak run net.retrodeck.retrodeck --debug --configurator'
+alias rddebug-conf='flatpak run net.retrodeck.retrodeck --debug --configurator'
 
 # rddebug-cli
 # Launch RetroDECK in debug mode and open an interactive Bash shell inside the Flatpak sandbox.
-alias rddeb-cli='flatpak run --command=bash net.retrodeck.retrodeck -debug'
+alias rddebug-cli='flatpak run --command=bash net.retrodeck.retrodeck -debug'
 
 # rddebug-devel
 # Launch RetroDECK in debug mode with --devel and open an interactive shell inside the sandbox.
-alias rddeb-devel='flatpak run --devel --command=sh net.retrodeck.retrodeck -debug'
+alias rddebug-devel='flatpak run --devel --command=sh net.retrodeck.retrodeck -debug'
 
 # rddebug-strace
 # Launch RetroDECK in debug mode with --devel, opening an interactive shell inside the sandbox, while tracing system calls using strace.
-alias rddeb-strace='strace -o flatpak run --devel --command=sh net.retrodeck.retrodeck -debug'
+alias rddebug-strace='strace -o flatpak run --devel --command=sh net.retrodeck.retrodeck -debug'
 
 
 # ========================================================

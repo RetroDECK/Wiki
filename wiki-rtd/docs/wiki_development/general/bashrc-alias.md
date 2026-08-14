@@ -473,13 +473,13 @@ alias rdtest-upgrade='flatpak run net.retrodeck.retrodeck --test-upgrade'
 # RetroDECK - Debug Shortcuts
 # --------------------------------------------------------
 
-# rddebug-rd
+# rddebug-retrodeck
 # Launch RetroDECK in debug mode.
-alias rddebug-rd='flatpak run net.retrodeck.retrodeck --debug'
+alias rddebug-retrodeck='flatpak run net.retrodeck.retrodeck --debug'
 
-# rddebug-conf
+# rddebug-configurator
 # Launch RetroDECK Configurator in debug mode.
-alias rddebug-conf='flatpak run net.retrodeck.retrodeck --debug --configurator'
+alias rddebug-configurator='flatpak run net.retrodeck.retrodeck --debug --configurator'
 
 # rddebug-cli
 # Launch RetroDECK in debug mode and open an interactive Bash shell inside the Flatpak sandbox.

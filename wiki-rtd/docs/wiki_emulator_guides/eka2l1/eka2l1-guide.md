@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/eka2l1-logo.png" width="150" alt="Kegs logo">
 
-EKA2L1 is an emulator for Nokia/Symbian smartphones 
+EKA2L1 is an emulator for Nokia/Symbian smartphones and the Nokia N-Gage. 
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 

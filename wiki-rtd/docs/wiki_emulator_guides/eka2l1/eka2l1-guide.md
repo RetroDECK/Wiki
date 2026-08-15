@@ -222,7 +222,7 @@ retrodeck/
 
 ## How-to: Run Nokia N-Gage Games in RetroDECK 
 
-You will need to have installed the BIOS.
+You will need to have installed the BIOS and drive.
 
 There are two ways to launch the games. 
 

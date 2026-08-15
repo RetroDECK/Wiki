@@ -33,16 +33,13 @@ EKA2L1 is an experimental Symbian OS emulator
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
-
 | Format | Description |
-|-------|-------------|
-| `.2mg` | Preferred Apple II disk image with metadata. |
-| `.po`  | ProDOS-ordered raw disk image. |
-| `.do`  | DOS 3.3-ordered raw disk image. |
-| `.dsk` | Generic raw disk image. |
-| `.nib` | Nibble image for copy-protected disks. |
-| `.woz` | High-fidelity flux disk image. |
-| `.hdv` | ProDOS hard-disk image. |
+|---|---|
+| `.sis` | Symbian installation package for installing applications on Symbian devices. |
+| `.sisx` | Symbian installation package using the extended SISX format. |
+| `.symbian` | Symbian application or package format. |
+| `.ngage` | N-Gage game package format. |
+| `.zip` | ZIP archive. |
 
 
 ---

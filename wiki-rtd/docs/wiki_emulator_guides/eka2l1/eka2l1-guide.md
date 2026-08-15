@@ -291,7 +291,7 @@ The `.ngage` filename must exactly match the **installed GameID** recognized by 
 1. Open **RetroDECK Configurator**.
 2. Select the Device you want to install too from the `Device` list.
 3. Select **Components → EKA2L1**.
-4. Select **File → Install → Package**.
+4. Select **File → Install → N-Gage card game**.
 5. Select the game package you want to install.
 6. Complete the installation in EKA2L1.
 

@@ -36,7 +36,7 @@ EKA2L1 is an emulator for Nokia/Symbian smartphones and the Nokia N-Gage.
 
 ## Where to put the games
 
-- Symbian games should be put under the `retrodeck/roms/apple2gs/` directory.
+- Symbian games should be put under the `retrodeck/roms/symbian/` directory.
 - Nokia N-Gage games should be put under the `retrodeck/roms/ngage/` directory.
 
 ---
@@ -47,8 +47,8 @@ EKA2L1 is an emulator for Nokia/Symbian smartphones and the Nokia N-Gage.
 
 | Format | Description |
 |---|---|
-| `.sis` | Symbian installation package for installing applications on Symbian devices. |
-| `.sisx` | Symbian installation package using the extended SISX format. |
+| `.sis` | Software Installation Script. |
+| `.sisx` | Software Installation Script Extended. |
 | `.symbian` | Symbian launcher format. |
 | `.ngage` | N-Gage game launcher format. |
 | `.zip` | ZIP archive. |
@@ -134,7 +134,7 @@ retrodeck/
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
-| ROMs   | `retrodeck/roms/apple2gs/`                             |               |
+| ROMs   | `retrodeck/roms/ngage/`    `retrodeck/roms/symbian/`                         |               |
 | BIOS   | `retrodeck/bios/EKA2L1/<device_ID>`                             |             |
 | Drives   | `retrodeck/storage/EKA2L1`                             |           |
 | Drives: Devices  | `retrodeck/storage/EKA2L1/z/<device_ID>/<files>`                             |         |
@@ -286,13 +286,14 @@ The game must first be installed through EKA2L1. Once installed, RetroDECK uses 
 
 The `.ngage` filename must exactly match the **installed GameID** recognized by EKA2L1.
 
-#### Installing a game
+#### Installing a game package
 
 1. Open **RetroDECK Configurator**.
-2. Select **Components → EKA2L1**.
-3. Select **File → Install → Package**.
-4. Select the game package you want to install.
-5. Complete the installation in EKA2L1.
+2. Select the Device you want to install too from the `Device` list.
+3. Select **Components → EKA2L1**.
+4. Select **File → Install → Package**.
+5. Select the game package you want to install.
+6. Complete the installation in EKA2L1.
 
 #### Creating the `.ngage` launcher
 
@@ -321,9 +322,9 @@ Games are launched with the following ES-DE launch profiles:
 - **EKA2L1 [Nokia N-Gage] (Standalone)**
 - **EKA2L1 [Nokia N70] (Standalone)**
 - **EKA2L1 [Nokia N97] (Standalone)**
-- **EKA2L1 [Custom device] (Standalone)**
+- **EKA2L1 [Custom device] (Standalone)** See Guide
 
-### Using a Custom Device for Symbian
+### Using a Custom Device for Symbian Games
 
 If you want to use a device profile that is not included in the predefined
 ES-DE launch profiles, select **EKA2L1 [Custom device] (Standalone)**.
@@ -352,3 +353,32 @@ retrodeck/
     └── symbian/
         └── SGH-i450.device
 ```
+
+### Installing a Game
+
+Symbian requires you to install the games. 
+
+#### Installing a Game Package
+
+1. Place `<GAME_NAME>.sis` or `<GAME_NAME>.sisx` in `retrodeck/roms/symbian/`.
+2. Open **RetroDECK Configurator**.
+3. Select **Components → EKA2L1**.
+4. Select the target device from the **Device** list.
+5. Select **File → Install → Package**.
+6. Select the game package to install.
+7. Complete the installation in EKA2L1.
+8. Verify that the `<GAME_NAME>.sis` or `<GAME_NAME>.sisx` filename exactly matches the name reported by EKA2L1 in `retrodeck/roms/symbian/`.
+9. Launch the game from RetroDECK.
+
+#### Creating a `.symbian` Launcher
+
+As an alternative to keeping the full `.sis` or `.sisx` package in `retrodeck/roms/symbian/`, you can create a `.symbian` launcher.
+
+After installing the game:
+
+1. Open `retrodeck/roms/symbian/`.
+2. Create a `.symbian` file using the exact **GAME_NAME** recognized by EKA2L1.
+3. Place the `.symbian` file in `retrodeck/roms/symbian/`.
+4. Launch the game from RetroDECK.
+
+---

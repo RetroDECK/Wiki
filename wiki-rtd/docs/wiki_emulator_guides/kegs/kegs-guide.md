@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/kegs-logo.png" width="150" alt="Kegs logo">
 
-KEGS (Kent's Emulated GS) is an advanced Apple IIgs emulator.
+KEGS (Kent's Emulated GS) is an advanced Apple IIGS emulator.
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 
@@ -23,7 +23,7 @@ KEGS (Kent's Emulated GS) is an advanced Apple IIgs emulator.
 
 ## Where to put the games
 
-KEGS games should be put under the `retrodeck/roms/apple2gs/` directory.
+Apple IIGS games should be put under the `retrodeck/roms/apple2gs/` directory.
 
 ---
 
@@ -53,7 +53,7 @@ Yes, it requires
 
 | File Name | Description |
 |----------|-------------|
-| `ROM.ROM` | Apple IIgs ROM image of either ROM01 (recommended) or ROM03.  |
+| `ROM.ROM` | Renamed Apple IIGS ROM image of either ROM01 (recommended) or ROM03.  |
 
 ### Where should I put the BIOS?
 

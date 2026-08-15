@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/eka2l1-logo.png" width="150" alt="Kegs logo">
 
-EKA2L1 is an experimental Symbian OS emulator
+EKA2L1 is an emulator for Nokia/Symbian smartphones 
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 
@@ -20,7 +20,7 @@ EKA2L1 is an experimental Symbian OS emulator
 
 ---
 
-### KEGS Links
+### EKA2L1 Links
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
@@ -85,21 +85,21 @@ retrodeck/
 │           └── ROOT-<ID>.dmp
 └── storage/
     └── EKA2L1/
-        └── z/
+        └── <drive_letter>/
             └── <device_ID>/
                 └── <files>
 ```
 
-### Example: Nokia N-Gage
+### Example: Nokia N-Gage QD
 
-The Nokia N-Gage has the device ID `RH-29`.
+The Nokia N-Gage QD has the device ID `RH-29`.
 
 | File or Directory | Description |
 |---|---|
 | `SYM.ROM` | Nokia N-Gage Symbian ROM image. |
 | `BOOT-101FB2B1.dmp` | Nokia N-Gage BOOT ROM dump. |
 | `ROOT-101FB2B1.dmp` | Nokia N-Gage ROOT ROM dump. |
-| `drives/<drive_letter>/RH-29/` | Nokia N-Gage system drive. |
+| `drives/<drive_letter>/RH-29/<system_files>` | Nokia N-Gage system drive. |
 
 ```
 retrodeck/
@@ -111,10 +111,12 @@ retrodeck/
 │           └── ROOT-101FB2B1.dmp
 └── storage/
     └── EKA2L1/
-        └── z/
+        └── <drive_letter>/
             └── RH-29/
                 └── <system_files>
 ```
+
+
 
 ---
 
@@ -130,5 +132,83 @@ retrodeck/
 | Drives: Devices  | `retrodeck/storage/EKA2L1/z/<device_ID>/<files>`                             |         |
 | j2me  | `retrodeck/storage/EKA2L1/j2me`                             |           |
 
+
+---
+
+# EKA2L1: Device ID List
+
+This page lists device IDs available for use with EKA2L1.
+
+**Note:** This is not a full complete list of all Symbian OS devices in existance. 
+
+## Device IDs
+
+| Device name | Device ID | Notes |
+|---|---|---|
+| Nokia 5320 XpressMusic | `RM-409` |  N-Gage 2.0-capable device. |
+| Nokia 5530 XpressMusic | `RM-504` | |
+| Nokia 5800 XpressMusic | `RM-356` | |
+| Nokia 6630 | `RM-1` | |
+| Nokia 6650 Fold - AT&T | `RM-324` | |
+| Nokia 6730 Classic | `RM-566` | |
+| Nokia E50 | `RM-170` | |
+| Nokia N-Gage | `NEM-4` | Original N-Gage retail device. |
+| Nokia N-Gage QD Dev | `RH-4` | Developer version of the N-Gage QD. |
+| Nokia N-Gage QD Retail | `RH-29` | **Recommended** Retail version of the N-Gage QD. |
+| Nokia N70 | `RM-84` | **Recommended**  N-Gage 2.0-capable device.|
+| Nokia N85 | `RM-333` | |
+| Nokia N95 | `RM-320` | N-Gage 2.0-capable device. |
+| Nokia N97 | `RM-507` |  **Recommended** N-Gage 2.0-capable device. |
+| Samsung i450 | `SGH-i450` | |
+| Siemens SX1 | `Appl SW 12.2_15` | |
+
+The **recommended** device profiles have preconfigured launch commands in
+ES-DE, making them the easiest options to use.
+
+- **EKA2L1 [Nokia N-Gage] (Standalone)**
+- **EKA2L1 [Nokia N70] (Standalone)**
+- **EKA2L1 [Nokia N97] (Standalone)**
+
+---
+
+## ROM Directory and Device Selection
+
+The available device options in ES-DE depend on the ROM directory being used:
+
+- **`retrodeck/roms/ngage/`**: **EKA2L1 [Nokia N-Gage] (Standalone)** and its
+  variants are the only available launch options.
+- **`retrodeck/roms/symbian/`**: All supported device profiles are available including the Nokia N-Gage.
+
+---
+
+## Using a Custom Device for Symbian
+
+If you want to use a device profile that is not included in the predefined
+ES-DE launch commands, select **EKA2L1 [Custom device] (Standalone)**.
+
+To use a custom device, create a `.device` file in:
+
+`retrodeck/roms/symbian/`
+
+The filename must match the device ID, followed by the `.device` extension:
+
+`<device_ID>.device`
+
+For example, to use the **Samsung i450** (`SGH-i450`), create the following
+file:
+
+`retrodeck/roms/symbian/SGH-i450.device`
+
+The **EKA2L1 [Custom device] (Standalone)** option will automatically detect
+the device ID from the filename and use the corresponding device profile.
+
+The final directory structure should look like this:
+
+```
+retrodeck/
+└── roms/
+    └── symbian/
+        └── SGH-i450.device
+```
 
 ---

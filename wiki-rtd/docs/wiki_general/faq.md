@@ -121,6 +121,18 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ---
 
+## FAQ: RetroDECK - Update Questions
+
+| **Question** | **Answer** |
+|--------------|------------|
+| **When does the next RetroDECK version come out?** | When it’s ready. |
+| **When does the version after the upcoming version come out?** | After the upcoming version. |
+| **When will version 1.0 be released?** | In the future. |
+| **When will version the AARCH64 version be released?** | Sometime between now and the end of time. |
+| **When will version the RISC-V version be released?** | When the stars are right. |
+
+---
+
 ## FAQ: RetroDECK - General Questions
 
 <img src="../../wiki_icons/pixelitos/accessories-clock.png" width="30" alt="">
@@ -128,14 +140,12 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 | **Question** | **Answer** |
 |--------------|------------|
 | **What does the “b” stand for in the version number?** | It stands for **Beta**. |
+| **What was the “b” removed in version 0.11.0** | People on Lemmy did not like the b. |
 | **What software is included in RetroDECK?** | See: **[RetroDECK: What’s Included?](../wiki_about/what-is-included.md)** |
 | **Does RetroDECK include any games?** | No, RetroDECK does not include any games. |
 | **Does RetroDECK include Firmware or BIOS files?** | RetroDECK only includes BIOS/Firmware that are **Open-Source** or **Free to use**. All other files must be provided by the user. |
 | **Do you provide support for older RetroDECK versions?** | No. RetroDECK only supports the **latest released version**. Please update to the most recent version before requesting support. |
 | **Can you point me to where I can find games, firmware, or BIOS?** | For legally purchased titles, use your own game backups and extract firmware/BIOS from your own consoles. Many classic games can also be purchased through **itch.io**, **GOG**, or **Steam**. In addition, several **free and open-source games** are available and can be used, such as **Freedoom**. Numerous other open-source, homebrew titles and fangames are available through community repositories and project websites. |
-| **When does the next RetroDECK version come out?** | When it’s ready. |
-| **When does the version after the upcoming version come out?** | After the upcoming version. |
-| **When will version 1.0 be released?** | In the future. |
 | **Can I manually add a system RetroDECK doesn’t support yet?** | Not easily. RetroDECK is sandboxed and designed to include all relevant components internally. The best approach is to wait for official support or contribute to development. |
 | **Is RetroDECK just about emulation?** | No. RetroDECK is a full retro gaming platform designed to provide a complete retro gaming experience by integrating a variety of components, including: clients, ports, emulators, multi-emulators, systems, and more. |
 | **How do I mark a file as executable in a desktop environment?** | **KDE Plasma**:<br>Right-click the file → **Properties** → **Permissions** → enable **Is executable** (or **Allow executing file as program**) → **OK**.<br><br>**GNOME**:<br>Right-click the file → **Properties** → **Permissions** → enable **Allow executing file as program** → **OK**. |

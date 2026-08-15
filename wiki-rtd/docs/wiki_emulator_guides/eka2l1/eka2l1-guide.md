@@ -68,6 +68,8 @@ Typical requirements include:
 - Device system-drive directories.
 - `BOOT-<ID>.dmp` and `ROOT-<ID>.dmp` for some devices.
 
+The `SYM.ROM` also needs to be installed via EKA2L1-
+
 
 ### Where should I put the BIOS?
 
@@ -116,7 +118,13 @@ retrodeck/
                 └── <system_files>
 ```
 
+### Installing Device `SYM.ROM` in EKA2L1
 
+1. Open **RetroDECK Configurator**.
+2. Select **Components → EKA2L1**.
+3. Select **File → Install → Device → Browse**.
+4. Navigate to: `retrodeck/bios/EKA2L1/<device_ID>/`
+5. Select the required **`SYM.ROM`** file and select **Install**.
 
 ---
 

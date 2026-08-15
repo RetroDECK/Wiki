@@ -8,6 +8,18 @@ EKA2L1 is an experimental Symbian OS emulator
 
 ---
 
+### ⚠️ Bleeding-Edge Component ⚠️ 
+
+**Warning:** This component is under rapid development and may be unstable.
+
+- Performance may vary across hardware configurations.
+- Some standard features available in other components may not yet be supported.
+- Controllers or other input devices may require manual configuration.
+- Compatibility may vary across the supported game library.
+- Functionality, performance, and compatibility may change as development progresses.
+
+---
+
 ### KEGS Links
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">

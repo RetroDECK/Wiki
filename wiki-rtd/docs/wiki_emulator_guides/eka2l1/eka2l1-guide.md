@@ -143,7 +143,7 @@ retrodeck/
 
 ---
 
-# EKA2L1: Device ID List
+## Device ID List
 
 This page lists device IDs available for use with EKA2L1.
 
@@ -184,38 +184,6 @@ The available device options in ES-DE depend on the ROM directory being used:
 - **`retrodeck/roms/ngage/`**: **EKA2L1 [Nokia N-Gage] (Standalone)** and its
   variants are the only available launch options.
 - **`retrodeck/roms/symbian/`**: All supported device profiles are available including the Nokia N-Gage.
-
----
-
-## Using a Custom Device for Symbian
-
-If you want to use a device profile that is not included in the predefined
-ES-DE launch commands, select **EKA2L1 [Custom device] (Standalone)**.
-
-To use a custom device, create a `.device` file in:
-
-`retrodeck/roms/symbian/`
-
-The filename must match the device ID, followed by the `.device` extension:
-
-`<device_ID>.device`
-
-For example, to use the **Samsung i450** (`SGH-i450`), create the following
-file:
-
-`retrodeck/roms/symbian/SGH-i450.device`
-
-The **EKA2L1 [Custom device] (Standalone)** option will automatically detect
-the device ID from the filename and use the corresponding device profile.
-
-The final directory structure should look like this:
-
-```
-retrodeck/
-└── roms/
-    └── symbian/
-        └── SGH-i450.device
-```
 
 ---
 
@@ -343,3 +311,44 @@ retrodeck/roms/ngage/FreeStyle.ngage
 ```
 
 ---
+
+## How-to: Run Symbian Games in RetroDECK 
+
+You will need to have installed the BIOS and drive for the device you want to use.
+
+Games are launched with the following ES-DE launch profiles:
+
+- **EKA2L1 [Nokia N-Gage] (Standalone)**
+- **EKA2L1 [Nokia N70] (Standalone)**
+- **EKA2L1 [Nokia N97] (Standalone)**
+- **EKA2L1 [Custom device] (Standalone)**
+
+### Using a Custom Device for Symbian
+
+If you want to use a device profile that is not included in the predefined
+ES-DE launch profiles, select **EKA2L1 [Custom device] (Standalone)**.
+
+To use a custom device, create a `.device` file in:
+
+`retrodeck/roms/symbian/`
+
+The filename must match the device ID, followed by the `.device` extension:
+
+`<device_ID>.device`
+
+For example, to use the **Samsung i450** (`SGH-i450`), create the following
+file:
+
+`retrodeck/roms/symbian/SGH-i450.device`
+
+The **EKA2L1 [Custom device] (Standalone)** option will automatically detect
+the device ID from the filename and use the corresponding device profile.
+
+The final directory structure should look like this:
+
+```
+retrodeck/
+└── roms/
+    └── symbian/
+        └── SGH-i450.device
+```

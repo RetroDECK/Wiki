@@ -141,8 +141,6 @@ This page lists device IDs available for use with EKA2L1.
 
 **Note:** This is not a full complete list of all Symbian OS devices in existance. 
 
-## Device IDs
-
 | Device name | Device ID | Notes |
 |---|---|---|
 | Nokia 5320 XpressMusic | `RM-409` |  N-Gage 2.0-capable device. |

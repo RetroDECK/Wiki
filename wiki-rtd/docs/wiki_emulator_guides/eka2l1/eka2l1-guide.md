@@ -65,8 +65,8 @@ Yes. EKA2L1 requires several device-specific firmware files and system-drive dir
 Typical requirements include:
 
 - `SYM.ROM`
-- Device system-drive directories
-- `BOOT-<ID>.dmp` and `ROOT-<ID>.dmp` for some devices
+- Device system-drive directories.
+- `BOOT-<ID>.dmp` and `ROOT-<ID>.dmp` for some devices.
 
 
 ### Where should I put the BIOS?

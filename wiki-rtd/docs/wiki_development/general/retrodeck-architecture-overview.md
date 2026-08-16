@@ -92,6 +92,37 @@ Depending on whether RetroDECK is installed as a user or system Flatpak, this ma
 
 For more information, see **[RetroDECK: Flatpak Directory Structure](https://retrodeck.readthedocs.io/en/latest/wiki_development/general/folders-filepaths)** on the wiki.
  
+--- 
+
+## What are the component files?
+
+In a broad sence component files tell the RetroDECK Framework and RetroDECK Alchemist how to build, install, configure, update and launch a component. They contain the component's metadata, scripts, configuration logic, capabilities and library information required for it to be displayed, configured and launched correctly.
+
+All component-specific logic should live within the component's own component files rather than being stored centrally in RetroDECK. This keeps components self-contained: when a component is removed, all of its associated logic is removed with it.
+
+### The Recipe
+
+Read by the `RetroDECK Alchemist`.
+
+**`component_recipe.json`**
+
+Defines how RetroDECK Alchemist should source a component's from AppImage, Flatpak, pre-compiled binary or compile from source code and turn it into a fully packaged RetroDECK component artifact.
+
+### The Ingredients
+
+Read by the `RetroDECK Framework`.
+
+**`component_launcher.sh`**
+
+Defines how the component is launched, including the binary location, libraries and other required resources, additional command-line arguments and any paths or launch options required for the optimal user experience.
+
+**`component_manifest.json`**
+
+Contains the component's metadata and integration information, including its name, supported systems, ES-DE launch commands, compatible preset actions, backup behavior, and other information used by RetroDECK and other components when interacting with it.
+
+**`component_functions.sh`**
+
+Contains the component-specific logic and functions, including path creation and management, file operations, configuration editing, and other functions required to configure, install, maintain, or integrate the component.
 
 ---
 

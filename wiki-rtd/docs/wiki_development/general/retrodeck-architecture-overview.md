@@ -65,11 +65,11 @@ The result is a controlled, isolated environment that improves compatibility whi
 
 A simplified RetroDECK architecture looks like this, but the pathings in the layers are different per component.
 
-### Component Container & Environment 
+### Component Container: Environment
 
-The sourced application binaries and files are stored here in RetroDECK's component environment.
+The **Component Container: Environment** contains the application binaries, resources and supporting files used by a RetroDECK component.
 
-They are stored with RetroDECK's Component Files that define runtime behavior, update/installation, application sourcing, metadata, configurations and more.
+These files are combined with RetroDECK's **Component Files**, which define the component's runtime behavior, installation and update procedures, application sourcing, metadata, configuration and other integration logic.
 
 **Example: ScummVM**
 
@@ -77,122 +77,162 @@ They are stored with RetroDECK's Component Files that define runtime behavior, u
 ┌── scummvm/
 │
 ├── bin/
-│   └── (executable files) <--- From ScummVM's Flatpak
+│   └── (executable files)       <--- Sourced from ScummVM's Flatpak
 │
 ├── docs/
-│   └── (documentation files) <--- From ScummVM's Flatpak
+│   └── (documentation files)    <--- Sourced from ScummVM's Flatpak
 │
 ├── rd_config/
-│   └── (configuration files) <--- From ScummVM but tweaked for RetroDECK's enviroment and moved into a specific folder.
+│   └── (configuration files)    <--- Adapted from ScummVM and adjusted
+│                                    for the RetroDECK environment
 │
 ├── share/
-│   └── (shared resources) <--- From ScummVM's Flatpak
+│   └── (shared resources)       <--- Sourced from ScummVM's Flatpak
 │
-├── component_functions.sh 
-├── component_launcher.sh     <--- RetroDECK Component Files
-├── component_manifest.json
-└── component_recipe.json
+├── component_functions.sh       <--- RetroDECK Component Ingredient File
+├── component_launcher.sh        <--- RetroDECK Component Ingredient File
+├── component_manifest.json      <--- RetroDECK Component Ingredient File
+└── component_recipe.json        <--- RetroDECK Component Recipe File
 ```
 
 ⬇️
 
+---
 
-### Component Specific: libaries/files 
+### Component-Specific: Libraries & Files
 
-A minimal set of the components require this enviroment when they cannot have their libraries decoupled and are hardcoded to expect paths under `/lib` or other locations.
-
-⬇️
-
-### Component Shared: shared-libaries
-
-The `shared-libs` component is a standalone module that maintains a centralized library repository, storing all dependencies required across components. This enables consistent version referencing from a single source while supporting multiple Flatpak runtime sources. As a result, RetroDECK maintains only the minimum libraries necessary for each component.
+A small number of components require a dedicated environment when their libraries cannot be decoupled or when they are hardcoded to expect files or libraries at paths such as `/lib` or other system locations.
 
 ⬇️
 
-### Component: Additional Depedenices
+---
 
-A minimal set of the components require this enviroment require specific decpendecies.
+### Component-Shared: Shared Libraries
+
+The `shared-libs` component is a standalone module that maintains a centralized repository of libraries and dependencies shared across components.
+
+This provides:
+
+- A single source for shared library versions.
+- Consistent dependency references across components.
+- Support for libraries sourced from multiple component sources including other Flatpak runtime enviroments.
 
 ⬇️
 
-### Flatpak Runtime: org.KDE.Platform
+---
 
-The Flatpak environment supplies all remaining host OS-level libraries required by the components. In essence, the Flatpak Runtime simulates the Host OS layer, providing:
+### Component: Additional Dependencies
+
+A small number of components require additional dependencies that are not provided by the shared library environment. These dependencies are maintained specifically for the components that require them.
+
+⬇️
+
+---
+
+### Flatpak Runtime: `org.kde.Platform`
+
+The Flatpak Runtime provides the remaining host OS-level libraries and interfaces required by components.
+
+In practice, the Flatpak Runtime acts as an abstraction layer between RetroDECK components and the host operating system, providing interfaces such as:
 
 ```
 │
 ├── system libraries
 ├── graphics drivers
 ├── audio system
-└── other
+└── other system interfaces
 ```
-
-This Flatpak abstraction layer ensures components interact with standardized system interfaces rather than direct host hardware.
 
 ---
 
 ## Simplified Architecture: Component and RetroDECK Building
 
-A simplified RetroDECK building architecture looks like this.
+A simplified overview of the RetroDECK component and build architecture is shown below.
+
+---
 
 ### RetroDECK GitHub: Components Repository
 
-Component repository store data in `component/<component_files>/` directories organized as follows:
+The Components Repository stores component definitions under `component/<component_files>/` directories.
 
-**The Component Recipe**
+Each component is organized around the following files:
 
-- component_recipe.json
+**Component Recipe**
 
-**The Component Ingredients** 
+- `component_recipe.json` - Defines the component's sources, dependencies and build requirements.
 
-- component_functions.sh  
-- component_launcher.sh
-- component_manifest.json
+**Component Ingredients**
+
+- `component_functions.sh` - Component-specific functions and helper logic.
+- `component_launcher.sh` - Defines how the component is launched.
+- `component_manifest.json` - Defines component metadata and runtime configuration.
 
 #### `component/rd_assets/<extra_assets>`
 
-The repo hosts extra assets that cannot be easily sourced from the recipe. These may include graphical assets, mods, or supplementary software that complement the component.
+Contains additional assets that cannot be conveniently sourced through the component recipe. These may include graphical assets, mods, patches, or supplementary software.
 
 #### `component/rd_assets/rd_config/<component_config_files>`
 
-Components may include pre-configured configuration files tailored for the RetroDECK environment.
+Contains pre-configured configuration files adapted for the RetroDECK environment.
 
 #### `component/rd_assets/bin/<binary>`
 
-A few exceptions store pre-built binaries compiled from source. These are typically minimal components, such as lightweight retro PC emulators.
+Contains pre-built binaries used by a small number of components. These are typically lightweight applications, such as minimal retro PC emulators or tiny utilties.
 
 ⬇️
 
-### RetroDECK Components Repository: RetroDECK Alchemist 
+---
 
-The Alchemist functions as both a GitHub module and an internal RetroDECK module. It reads `component_recipe.json` to determine:
+### RetroDECK Components Repository: RetroDECK Alchemist
 
-- Application source location
-- Required dependencies (libraries, assets)
-- External resources requiring retrieval
+The **RetroDECK Alchemist** is both a GitHub module and an internal RetroDECK module responsible for processing component recipes.
 
-The Alchemist supports diverse sources: Flatpak packages from Flathub, AppImages from GitLab, binaries from SourceForge, or source code from various websites. Based on the recipe, it synthesizes all components into a functional application. As long as the recipe is correct magic will happen.
+It reads `component_recipe.json` to determine:
+
+- Application source locations.
+- Required libraries, dependencies and assets.
+- External resources that need to be retrieved.
+- How the component should be assembled.
+
+The Alchemist supports multiple source types, including:
+
+- Flatpak packages from Flathub.
+- AppImages from GitLab and other sources.
+- Pre-built binaries from services such as SourceForge.
+- Source code from upstream websites and repositories.
+
+Based on the recipe, the Alchemist retrieves and assembles the required resources into a functional RetroDECK component.
+
+**As long as the recipe is correct, the Alchemist magic handles.**
 
 ⬇️
+
+---
 
 ### RetroDECK Components Repository: RetroDECK Assembler
 
-The RetroDECK Assembler is the collective term for GitHub Runners that build releases within their Linux build environments.
+The **RetroDECK Assembler** is the collective term for the GitHub Actions runners and Linux build environments used to build component releases.
 
-Combined with The Alchemist, it assembles these builds into RetroDECK component releases. Depending on the release type, components are distributed to one to the correct release channel:
+Working together with the Alchemist, the Assembler packages the processed components into distributable RetroDECK component releases.
 
-- Components Cooker - Feature Branches (merged into Cooker upon readiness).
-- Components Cooker - (bleeding-edge testing environment).
-- Components Main (stable production releases).
+Components are distributed according to their target release channel:
+
+- **Cooker Feature Branches** - Development branches merged into Cooker when ready.
+- **Cooker** - Bleeding-edge testing environment.
+- **Main** - Stable production releases.
 
 ⬇️
 
+---
+
 ### RetroDECK Main Repository: RetroDECK Assembler
 
-When the RetroDECK build is triggered, the Assembler sources components alongside the RetroDECK Application to produce a Flatpak release. The target channel depends on the source branch:
+When a RetroDECK build is triggered, the Assembler sources the required components alongside the RetroDECK application and produces the final Flatpak release.
 
-- Cooker - Feature Branches (Published on the Cooker Releases Repository). 
-- Cooker - (Published on the Cooker Releases Repository). 
-- Main (Published on RetroDECK Main Repository).
+The source branch determines the target release channel:
+
+- **Cooker Feature Branches** - Published through the Cooker Releases Repository.
+- **Cooker** - Published through the Cooker Releases Repository.
+- **Main** - Published through the RetroDECK Main Repository.
 
 ---

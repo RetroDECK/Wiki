@@ -2,7 +2,7 @@
 
 How RetroDECK works is that each component is subsandboxed into the flatpak.
 
-## What Is a Subsandbox?
+## What is a Subsandbox?
 
 A subsandbox is a container-launching mechanism managed by the RetroDECK Framework. It leverages the RetroDECK Flatpak container and Flatpak Runtime, which contain shared libraries and dependencies for components to use.
 
@@ -62,13 +62,15 @@ A minimal set of the components require this enviroment require specific decpend
 
 The Flatpak environment supplies all remaining host OS-level libraries required by the components. In essence, the Flatpak Runtime simulates the Host OS layer, providing:
 
+```
 │
 ├── system libraries
 ├── graphics drivers
 ├── audio system
 └── other
+```
 
-This abstraction layer ensures components interact with standardized system interfaces rather than direct host hardware.
+This Flatpak abstraction layer ensures components interact with standardized system interfaces rather than direct host hardware.
 
 ---
 

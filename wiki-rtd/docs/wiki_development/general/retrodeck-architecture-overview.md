@@ -188,7 +188,7 @@ A small number of components require additional dependencies that are not provid
 
 The Flatpak Runtime provides the remaining host OS-level libraries and interfaces required by components.
 
-In practice, the Flatpak Runtime acts as an abstraction layer between RetroDECK components and the host operating system, providing interfaces such as:
+In practice, the Flatpak Runtime acts as an abstraction layer between RetroDECK components and acts as their Host OS.
 
 ```
 │

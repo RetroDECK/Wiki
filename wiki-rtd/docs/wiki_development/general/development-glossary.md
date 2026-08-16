@@ -12,11 +12,11 @@ Here we are listing all the development lingo and features of the RetroDECK Proj
 
 **Main / Main Releases**
 
-Stable, feature‑frozen builds (pre‑releases). Full releases are on Flathub.
+Stable, feature-frozen builds (pre-releases). Full releases are on Flathub.
 
 **Cooker / Cooker Releases**
 
-Unstable, cutting‑edge branch for testers and developers.
+Unstable, cutting-edge branch for testers and developers.
 
 **Feature Branches**
 
@@ -180,20 +180,22 @@ RetroDECK is made by assembling various components.
 
 ### What are Components?
 
-A component is a complete packaged executable of a:
+A component is a complete packaged subsandboxed executable we group into the following categories:
 
 - Client
 - Emulator
+- Frontend
+- Multi-Emulator
 - Engine
-- Port
-- System
-- RetroDECK: Feature & Functions
+- Port (Ports are only targeting one game they split into subcategories like Port:Game, Port:Engine)
+- Utility
+- RetroDECK's: Feature & Functions
 
 They are built via a `component_recipe.sh` (the **Recipe**) that pulls and compiles the original source.
 
 A component includes **Component Ingredient Files** that tell RetroDECK how to use it.
 
-A component is stored in it's own isolated file structure under `/app/retrodeck/components/<component‑name>/`.
+A component is stored in it's own isolated file structure under `/app/retrodeck/components/<component-name>/`.
 
 The sum of all components **Recipe** + **Ingredient Files** is just referred as `Component Files`.
 
@@ -212,14 +214,11 @@ RetroDECK itself with it's various tools and features is also an component.
 
 **Purpose** 
 
-Directs RetroDECK’s build automation on how to transform a component’s original source-whether an AppImage, Flatpak, pre‑compiled binary, or source code-into a fully packaged RetroDECK component.
-
-!!! note
-    `component_recipe.sh` is used only during the build process and is **not** shipped with the final component package.
+Directs RetroDECK's build automation on how to transform a component's original source-whether an AppImage, Flatpak, pre-compiled binary, or source code-into a fully packaged RetroDECK component.
 
 ---
 
-## Component Ingredient Files (a.k.a. “Ingredients”)
+## Component Ingredient Files (a.k.a. "Ingredients")
 
 **Purpose**
 
@@ -227,18 +226,19 @@ Provide the RetroDECK framework with all the metadata, scripts, and library info
 
 **Key Contents**
 
-- **Human‑readable info**- Metadata such as name, description, menu text and more for UI menus.  
+- **Component Metadata**- Metadata such as name, description, menu text, links and more for UI menus.  
 - **Preset actions** - steps to run when a user changes a preset.  
-- **Component‑specific Bash helpers** - setup, firmware install, etc..  
-- **Config‑file paths** - other environment details.  
 - **Launch instructions** - how RetroDECK should start the component.
-- **Upgrade instructions** - how RetroDECK should upgrade the component.
+- **Component Config-file settnings** - Filepaths, config options.  
+- **Install / Upgrade instructions** - how RetroDECK should install or upgrade the component and what directories / files / symlinks to create.
 
 ### What are the Component Ingredient Files?
 
 | Ingredient File                     | Role |
 |--------------------------|------------------------------------------------------------|
 | **component_launcher.sh** | Sets up the environment and launches the component in its sandbox. |
-| **component_functions.sh** | Declares config‑file paths and component‑specific helper functions (e.g., firmware install, configurator actions).  Handles one‑time setup: reset configs, prepare directories, move/backup data, upgrading tasks between RetroDECK versions and apply post‑move tweaks.|
+| **component_functions.sh** | Declares config-file paths and component-specific helper functions (e.g., firmware install, configurator actions).  Handles one-time setup: reset configs, prepare directories, move/backup data, upgrading tasks between RetroDECK versions and apply post-move tweaks.|
 | **component_manifest.json** | Stores metadata and functional data for RetroDECK: name, description, supported systems, menu entries, preset options, actions, and optional core info. |
+
 ---
+

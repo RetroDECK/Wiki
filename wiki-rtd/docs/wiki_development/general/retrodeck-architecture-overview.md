@@ -340,17 +340,7 @@ A simplified overview of the RetroDECK component and build architecture is shown
 
 The Components Repository stores component definitions under `component/<component_files>/` directories.
 
-Each component is organized around the following files:
-
-**Component Recipe**
-
-- `component_recipe.json` - Defines the component's sources, dependencies and build requirements.
-
-**Component Ingredients**
-
-- `component_functions.sh` - Component-specific functions and helper logic.
-- `component_launcher.sh` - Defines how the component is launched.
-- `component_manifest.json` - Defines component metadata and runtime configuration.
+Each component is organized around the the four component files.
 
 #### `component/rd_assets/<extra_assets>`
 
@@ -377,7 +367,7 @@ Contains pre-built binaries used by a small number of components. These are typi
 
 The **RetroDECK Alchemist** is both a GitHub module and an internal RetroDECK module responsible for processing component recipes.
 
-It reads `component_recipe.json` to determine:
+It reads each `component_recipe.json` on the repo to determine:
 
 - Application source locations.
 - Required libraries, dependencies and assets.
@@ -386,12 +376,12 @@ It reads `component_recipe.json` to determine:
 
 The Alchemist supports multiple source types, including:
 
-- Flatpak packages from Flathub.
+- Flatpak packages from Flathub or other source.
 - AppImages from GitLab and other sources.
 - Pre-built binaries from services such as SourceForge.
 - Source code from upstream websites and repositories.
 
-Based on the recipe, the Alchemist retrieves and assembles the required resources into a functional RetroDECK component.
+Based on the recipe, the Alchemist retrieves and assembles the required resources into a functional RetroDECK component compressed .zip artifact.
 
 **As long as the recipe is correct, the Alchemists magic handles the rest.**
 
@@ -402,7 +392,7 @@ Based on the recipe, the Alchemist retrieves and assembles the required resource
 
 The **RetroDECK Assembler** is the collective term for the GitHub Actions runners and Linux build environments used to build component releases.
 
-Working together with the Alchemist, the Assembler packages the processed components into distributable RetroDECK component releases.
+Working together with the Alchemist, the Assembler packages the processed components artifacts into distributable RetroDECK component releases.
 
 Components are distributed according to their target release channel:
 

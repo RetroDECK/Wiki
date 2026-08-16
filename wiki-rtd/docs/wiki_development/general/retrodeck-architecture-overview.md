@@ -65,7 +65,7 @@ RetroDECK manages the component environment through:
 This approach ensures that components:
 
 - Access the libraries and dependencies they require.
-- Store configuration, cache, and application data within the Flatpak architecture.
+- Store configuration, cache and application data within the Flatpak architecture.
 - Avoid scattering files throughout the user's filesystem.
 - Can be cleanly removed along with the RetroDECK installation.
 
@@ -97,7 +97,7 @@ For more information, see **[RetroDECK: Flatpak Directory Structure](https://ret
 
 ## RetroDECK's Flatpak Enviroment 
 
-A simplified RetroDECK architecture looks like this, but the pathings in the layers are different per component.
+The pathings in the layers are different per component.
 
 ### Component Container: Environment
 
@@ -129,7 +129,6 @@ These files are combined with RetroDECK's **Component Files**, which define the 
 └── component_recipe.json        <--- RetroDECK Component Recipe File
 ```
 
-⬇️
 
 ---
 
@@ -137,7 +136,6 @@ These files are combined with RetroDECK's **Component Files**, which define the 
 
 A small number of components require a dedicated environment when their libraries cannot be decoupled or when they are hardcoded to expect files or libraries at paths such as `/lib` or other system locations.
 
-⬇️
 
 ---
 
@@ -172,7 +170,6 @@ $rd_shared_libs/org.gnome.Platform/49/
 $rd_shared_libs/org.kde.Platform/6.10/plugins/
 ```
 
-⬇️
 
 ---
 
@@ -180,7 +177,6 @@ $rd_shared_libs/org.kde.Platform/6.10/plugins/
 
 A small number of components require additional dependencies that are not provided by the shared library environment. These dependencies are maintained specifically for the components that require them.
 
-⬇️
 
 ---
 
@@ -223,7 +219,7 @@ RetroDECK exposes the relevant `/retrodeck` paths to the components so they can 
 ├── bios/             # BIOS and firmware files.
 ├── borders/          # Borders and related artwork.
 ├── cheats/           # Cheat files.
-├── ES-DE/            # ES-DE user data, including downloaded media, gamelists, and more.
+├── ES-DE/            # ES-DE user data, including downloaded media, gamelists and more.
 ├── logs/             # Symlink to XDG_CACHE_HOME/retrodeck/logs; component log output is redirected here.
 ├── mods/             # Component-specific mod directories.
 ├── PortMaster/       # PortMaster data and installed ports.
@@ -333,7 +329,6 @@ When a configuration is reset, RetroDECK copies the original file back to the us
 
 Contains pre-built binaries used by a small number of components. These are typically lightweight applications, such as minimal retro PC emulators or tiny utilties.
 
-⬇️
 
 ---
 
@@ -359,7 +354,6 @@ Based on the recipe, the Alchemist retrieves and assembles the required resource
 
 **As long as the recipe is correct, the Alchemists magic handles the rest.**
 
-⬇️
 
 ---
 
@@ -375,7 +369,6 @@ Components are distributed according to their target release channel:
 - **Cooker** - Bleeding-edge testing environment.
 - **Main** - Stable production releases.
 
-⬇️
 
 ---
 

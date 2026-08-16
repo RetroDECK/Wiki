@@ -127,6 +127,26 @@ This provides:
 - Consistent dependency references across components.
 - Support for libraries sourced from multiple component sources including other Flatpak runtime enviroments.
 
+
+**References**
+
+Shared libraries are referenced using `$rd_shared_libs`, which is the root directory where shared libraries are stored.
+
+Specific runtimes and their associated libraries are stored in subdirectories and can be referenced using their runtime-specific paths.
+
+**Example: GNOME Platform runtime version 49**
+
+
+```
+$rd_shared_libs/org.gnome.Platform/49/
+```
+
+**Example: Qt plugins for the KDE Platform runtime version 6.10**
+
+```
+$rd_shared_libs/org.kde.Platform/6.10/plugins/
+```
+
 ⬇️
 
 ---
@@ -179,7 +199,7 @@ Each component is organized around the following files:
 
 #### `component/rd_assets/<extra_assets>`
 
-Contains additional assets that cannot be conveniently sourced through the component recipe. These may include graphical assets, mods, patches, or supplementary software.
+Contains additional assets that cannot be conveniently sourced through the component recipe. These may include graphical assets, mods, patches, or supplementary software or other paths within the flatpak enviroment.
 
 #### `component/rd_assets/rd_config/<component_config_files>`
 

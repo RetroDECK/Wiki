@@ -91,7 +91,7 @@ This Flatpak abstraction layer ensures components interact with standardized sys
 
 ## Architectural Overview: Non-Standard Flatpak aka The Fatpak
 
-<img src="../../../wiki_images/flatpak/flatpakrdneo.drawio.png" width="600" alt="RetroDECK Flatpak">
+<img src="../../../wiki_images/flatpak/flatpakrdneo.drawio.png" width="300" alt="RetroDECK Flatpak">
 
 The following flowchart illustrates how multiple components interact within RetroDECK. Components route to different layers, though not all utilize every layer.
 
@@ -102,7 +102,7 @@ While conceptually similar to Docker and Valves Steam's Proton Pressure Vessel. 
 
 ### Reference: A minimal flatpak
 
-<img src="../../../wiki_images/flatpak/flatpak.drawio.png" width="600" alt="RetroDECK Flatpak">
+<img src="../../../wiki_images/flatpak/flatpak.drawio.png" width="300" alt="RetroDECK Flatpak">
 
 A minimal Flatpak retrieves all required libraries and dependencies from the Flatpak Runtime. 
 
@@ -111,7 +111,7 @@ A minimal Flatpak retrieves all required libraries and dependencies from the Fla
 
 ### Reference: Advanced Flatpak Design
 
-<img src="../../../wiki_images/flatpak/flatpakadv.drawio.png" width="600" alt="Diagram showing advanced Flatpak structure with additional component layers beyond Flatpak Runtime">
+<img src="../../../wiki_images/flatpak/flatpakadv.drawio.png" width="300" alt="Diagram showing advanced Flatpak structure with additional component layers beyond Flatpak Runtime">
 
 An advanced Flatpak requires supplementary libraries and dependencies beyond those provided by the Flatpak Runtime. 
 

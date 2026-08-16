@@ -10,7 +10,7 @@ A short overview of the RetroDECK Architecture.
 
 The following flowchart illustrates how multiple components interact within RetroDECK. Components route to different layers, though not all utilize every layer.
 
-Each component has unique requirements. The goal is to minimize dependency overhead and eliminate library duplication, conserving user-space while ensuring each application operates within its precisely configured subsandbox environment.
+Each component has unique requirements. The goals are to minimize dependency overhead and eliminate library duplication, operate within a precisely isolated subsandbox environment where all application data remains contained within the Flatpak filesystem and conserve user-space resources while ensuring secure isolation.
 
 While conceptually similar to Docker and Valves Steam's Proton Pressure Vessel. RetroDECK's framework, subsandboxing and architecture is a distinct solution developed by the RetroDECK Team that operates entirely within a single Flatpak application.
 
@@ -35,15 +35,29 @@ An advanced Flatpak requires supplementary libraries and dependencies beyond tho
 
 ## What is a Subsandbox?
 
-A subsandbox is a container-launching mechanism managed by the RetroDECK Framework. It leverages the RetroDECK Flatpak container and Flatpak Runtime, which contain shared libraries and dependencies for components to use.
+A **subsandbox** is a container-launching mechanism managed by the RetroDECK Framework. It uses the RetroDECK Flatpak container and Flatpak Runtime, which provide shared libraries and dependencies for components.
 
-A subsandbox controls which libraries and files a component can access. This isolation allows RetroDECK to override the Flatpak Runtime's default library versions when needed.
+A subsandbox controls which libraries and files a component can access. This isolation allows RetroDECK to override Flatpak Runtime library versions when required, enabling support for components built against different environments.
 
-This enables RetroDECK to support components built for diverse environments.
+RetroDECK manages the component environment through:
 
-**Example**
+- `LD_LIBRARY_PATH`
+- `QT_PLUGIN_PATH`
+- `QT_QPA_PLATFORM_PLUGIN_PATH`
+- `XDG_CONFIG_HOME`
+- `XDG_CACHE_HOME`
+- `XDG_DATA_HOME`
 
-The Flatpak Runtime may ship with `libSomething.so.5`, but a component may have been designed or tested against a different version. The RetroDECK Framework configures the environment so the component uses the appropriate version rather than accepting whatever the runtime provides.
+Where necessary, RetroDECK may also override `HOME`, typically directing it to a component-specific directory under `XDG_DATA_HOME` or `XDG_CACHE_HOME`. This accommodates components that are hardcoded to store files directly in the home directory.
+
+This approach ensures that components:
+
+- Access the libraries and dependencies they require.
+- Store configuration, cache, and application data within the Flatpak architecture.
+- Avoid scattering files throughout the user's filesystem.
+- Can be cleanly removed along with the RetroDECK installation.
+
+The result is a controlled, isolated environment that improves compatibility while keeping the host filesystem clean.
 
 ---
 

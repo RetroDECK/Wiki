@@ -130,11 +130,11 @@ Contains the component-specific logic and functions, including path creation and
 
 The pathings in the layers are different per component.
 
-### Component Container: Environment
+### Component Container: Subsandbox Environment
 
 <img src="../../../wiki_images/flatpak/flatpakrd-component.png" width="300" alt="RetroDECK Flatpak architecture">
 
-The **Component Container: Environment** contains the application binaries, resources and supporting files used by a RetroDECK component.
+The **Subsandbox Environment** contains the application binaries, resources and supporting files used by a RetroDECK component.
 
 These files are combined with RetroDECK's **Component Files**, which define the component's runtime behavior, installation and update procedures, application sourcing, metadata, configuration and other integration logic.
 

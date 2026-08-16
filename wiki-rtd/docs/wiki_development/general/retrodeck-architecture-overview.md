@@ -212,7 +212,7 @@ The Alchemist supports multiple source types, including:
 
 Based on the recipe, the Alchemist retrieves and assembles the required resources into a functional RetroDECK component.
 
-**As long as the recipe is correct, the Alchemist magic handles.**
+**As long as the recipe is correct, the Alchemist magic handles the rest.**
 
 ⬇️
 

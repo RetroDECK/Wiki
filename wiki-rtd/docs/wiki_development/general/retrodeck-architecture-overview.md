@@ -56,8 +56,8 @@ RetroDECK manages the component environment through:
 - `XDG_CONFIG_HOME` - Defines the location for component configuration data.
 - `XDG_CACHE_HOME` - Defines the location for component cache data.
 - `XDG_DATA_HOME` - Defines the location for component application data.
-- **Components own Configurations Files** - Components may provide their own configuration options for defining paths and storage locations.
-- **Component CLI options** - Components may provide command-line options for defining paths and storage locations.
+- **Component Configurations Files** - Components may provide their own configuration options for defining paths and storage locations in their config files.
+- **Component CLI Options** - Components may provide command-line options for defining paths and storage locations.
 - `HOME` - Where necessary, RetroDECK may override `HOME` and redirect it to a component-specific directory, typically under `XDG_DATA_HOME` or `XDG_CACHE_HOME`. This accommodates components that are hardcoded to store files directly in the home directory.
 
 This approach ensures that components:

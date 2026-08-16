@@ -102,9 +102,11 @@ A simplified RetroDECK building architecture looks like this.
 Component repository store data in `component/<component_files>/` directories organized as follows:
 
 **The Component Recipe**
+
 - component_recipe.json
 
 **The Component Ingredients** 
+
 - component_functions.sh  
 - component_launcher.sh
 - component_manifest.json

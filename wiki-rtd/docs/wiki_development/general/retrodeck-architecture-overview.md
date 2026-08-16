@@ -138,7 +138,7 @@ Contains the component's metadata and integration information, including its nam
 
 **`component_functions.sh`**
 
-Contains the component-specific logic and functions, including path creation and management, file operations, configuration editing and other functions required to configure, install, maintain, or integrate the component.
+Contains the component-specific logic and functions, including path creation and management, file operations, configuration editing and other functions required to configure and integrate the component.
 
 ---
 

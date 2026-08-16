@@ -56,9 +56,10 @@ RetroDECK manages the component environment through:
 - `XDG_CONFIG_HOME` - Defines the location for component configuration data.
 - `XDG_CACHE_HOME` - Defines the location for component cache data.
 - `XDG_DATA_HOME` - Defines the location for component application data.
+- `HOME` - Where necessary, RetroDECK may override `HOME` and redirect it to a component-specific directory, typically under `XDG_DATA_HOME` or `XDG_CACHE_HOME`. This accommodates components that are hardcoded to store files directly in the home directory.
 - **Component Configurations Files** - Components may provide their own configuration options for defining paths and storage locations in their config files.
 - **Component CLI Options** - Components may provide command-line options for defining paths and storage locations.
-- `HOME` - Where necessary, RetroDECK may override `HOME` and redirect it to a component-specific directory, typically under `XDG_DATA_HOME` or `XDG_CACHE_HOME`. This accommodates components that are hardcoded to store files directly in the home directory.
+- **Symbolic links** - Used as a last resort when other path-management mechanisms simply don't work.
 
 This approach ensures that components:
 
@@ -92,9 +93,10 @@ Depending on whether RetroDECK is installed as a user or system Flatpak, this ma
 
 For more information, see **[RetroDECK: Flatpak Directory Structure](#)** on the wiki.
  
+
 ---
 
-## Simplified Architecture: RetroDECK
+## RetroDECK's Flatpak Enviroment 
 
 A simplified RetroDECK architecture looks like this, but the pathings in the layers are different per component.
 
@@ -104,7 +106,7 @@ The **Component Container: Environment** contains the application binaries, reso
 
 These files are combined with RetroDECK's **Component Files**, which define the component's runtime behavior, installation and update procedures, application sourcing, metadata, configuration and other integration logic.
 
-**Example: ScummVM**
+**Example: ScummVM's Subsandbox Enviroment**
 
 ```
 ┌── scummvm/
@@ -199,7 +201,94 @@ In practice, the Flatpak Runtime acts as an abstraction layer between RetroDECK 
 
 ---
 
-## Simplified Architecture: Component and RetroDECK Building
+## RetroDECK User-Data Directory
+
+The `/retrodeck` directory contains the user's persistent data and other important files shared with RetroDECK components. This data is intended to remain available even if RetroDECK is uninstalled.
+
+**Location**
+
+The location of `/retrodeck` is dynamic and determined by the user during installation. It may reside in any supported storage location, including:
+
+- The user's home directory
+- An SD card
+- An external HDD or SSD
+- Other storage devices like a NAS
+
+RetroDECK exposes the relevant `/retrodeck` paths to the components so they can access the user's persistent data.
+
+### RetroDECK User-Data Directory Structure
+
+```
+/retrodeck
+├── backups/          # RetroDECK backup data used during upgrades.
+├── bios/             # BIOS and firmware files.
+├── borders/          # Borders and related artwork.
+├── cheats/           # Cheat files.
+├── ES-DE/            # ES-DE user data, including downloaded media, gamelists, and more.
+├── logs/             # Symlink to XDG_CACHE_HOME/retrodeck/logs; component log output is redirected here.
+├── mods/             # Component-specific mod directories.
+├── PortMaster/       # PortMaster data and installed ports.
+├── roms/             # Game ROMs and other game files.
+├── saves/             # Persistent game save data.
+├── screenshots/      # Captured screenshots.
+├── shaders/          # Shader files.
+├── states/           # Save states.
+├── storage/          # Component-specific persistent data or exposed directories.
+├── texture_packs/    # Texture packs and related assets.
+└── videos/           # Captured video files.
+```
+
+### Path Management
+
+Components can receive their paths through the following mechanisms, listed in order of compatibility:
+
+- **Component configuration files** - Components may provide configuration options for defining paths and storage locations. In most cases, these configuration files are located under `XDG_CONFIG_HOME/<component_name>`.
+
+- **Component CLI options** - Components may provide command-line options for defining paths and storage locations.
+
+- **Symbolic links** - Used as a last resort when configuration files and CLI options cannot provide the required path mapping. In most cases, symbolic links are created under `XDG_DATA_HOME/<component_name>`, but some components may require them under `XDG_CONFIG_HOME/<component_name>`.
+
+Each component is unique and may require a different approach to accommodate its requirements while keeping its data as accessible and user-friendly as possible.
+
+RetroDECK aims to go beyond the minimum required integration for every component it supports. In addition to essential paths such as game files and save data, RetroDECK tries to expose other files and directories that may provide value to users. 
+
+All component-specific path management and integration logic is defined in the component's `component_functions.sh` file.
+
+
+### Example: RPCS3 Path Management via `component_functions.sh`
+
+The following is a breakdown of how RPCS3's `component_functions.sh` manages its configuration, storage, save data, and other user-accessible paths.
+
+```
+# Create the RPCS3 configuration directory and copy and RetroDECK-provided configuration files into it.
+create_dir -d "$XDG_CONFIG_HOME/rpcs3/"
+cp -fr "$component_config/"* "$XDG_CONFIG_HOME/rpcs3/"
+
+# Configure RPCS3's virtual filesystem paths.
+set_setting_value "$rpcs3_config_vfs" '$(EmulatorDir)' "$storage_path/rpcs3/" "rpcs3"
+set_setting_value "$rpcs3_config_vfs" "/games/" "$roms_path/ps3/" "rpcs3"
+
+# Redirect PS3 save data and save states to their corresponding RetroDECK user-data directories.
+dir_prep "$saves_path/ps3/rpcs3" "$storage_path/rpcs3/dev_hdd0/home/00000001/savedata"
+dir_prep "$states_path/ps3/rpcs3" "$XDG_CONFIG_HOME/rpcs3/savestates"
+
+# Create the directories required by the RPCS3 filesystem.
+create_dir "$storage_path/rpcs3/dev_hdd0"
+create_dir "$storage_path/rpcs3/dev_hdd1"
+create_dir "$storage_path/rpcs3/dev_flash"
+create_dir "$storage_path/rpcs3/dev_flash2"
+create_dir "$storage_path/rpcs3/dev_flash3"
+create_dir "$storage_path/rpcs3/dev_bdvd"
+create_dir "$storage_path/rpcs3/dev_usb000"
+
+# Redirect RPCS3 captures and patches to persistent RetroDECK storage.
+dir_prep "$storage_path/rpcs3/captures" "$XDG_CONFIG_HOME/rpcs3/captures"
+dir_prep "$storage_path/rpcs3/patches" "$XDG_CONFIG_HOME/rpcs3/patches"
+```
+
+---
+
+## RetroDECK's Build Enviroment
 
 A simplified overview of the RetroDECK component and build architecture is shown below.
 
@@ -228,6 +317,12 @@ Contains additional assets that cannot be conveniently sourced through the compo
 #### `component/rd_assets/rd_config/<component_config_files>`
 
 Contains pre-configured configuration files adapted for the RetroDECK environment.
+
+These files are copied to `XDG_CONFIG_HOME/<component_name>` and referenced by the component as its active configuration.
+
+The original configuration files are always stored in the read-only (RO) filesystem. This provides a clean source for the reset function if the user modifies or corrupts their configuration.
+
+When a configuration is reset, RetroDECK copies the original file back to the user's configuration directory and applies any required RetroDECK-specific path changes.
 
 #### `component/rd_assets/bin/<binary>`
 
@@ -290,3 +385,4 @@ The source branch determines the target release channel:
 - **Main** - Published through the RetroDECK Main Repository.
 
 ---
+

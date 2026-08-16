@@ -305,7 +305,7 @@ Together, in the case of RPCS3 these operations form a cohesive path-management 
 create_dir -d "$XDG_CONFIG_HOME/rpcs3/"
 cp -fr "$component_config/"* "$XDG_CONFIG_HOME/rpcs3/"
 
-# Configure RPCS3's virtual filesystem paths.
+# Configure RPCS3's virtual filesystem paths against the RPCS3 own config_vfs file.
 set_setting_value "$rpcs3_config_vfs" '$(EmulatorDir)' "$storage_path/rpcs3/" "rpcs3"
 set_setting_value "$rpcs3_config_vfs" "/games/" "$roms_path/ps3/" "rpcs3"
 
@@ -313,7 +313,7 @@ set_setting_value "$rpcs3_config_vfs" "/games/" "$roms_path/ps3/" "rpcs3"
 dir_prep "$saves_path/ps3/rpcs3" "$storage_path/rpcs3/dev_hdd0/home/00000001/savedata"
 dir_prep "$states_path/ps3/rpcs3" "$XDG_CONFIG_HOME/rpcs3/savestates"
 
-# Create the directories required by the RPCS3 filesystem.
+# Create the targeted directories required by the RPCS3 filesystem and the config_vfs edits.
 create_dir "$storage_path/rpcs3/dev_hdd0"
 create_dir "$storage_path/rpcs3/dev_hdd1"
 create_dir "$storage_path/rpcs3/dev_flash"

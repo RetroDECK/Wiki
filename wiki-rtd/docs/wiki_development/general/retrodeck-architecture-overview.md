@@ -264,7 +264,7 @@ RetroDECK exposes the relevant `/retrodeck` paths to the components so they can 
 ├── mods/             # Component-specific mod directories.
 ├── PortMaster/       # PortMaster data and installed ports.
 ├── roms/             # Game ROMs and other game files.
-├── saves/             # Persistent game save data.
+├── saves/            # Persistent game save data.
 ├── screenshots/      # Captured screenshots.
 ├── shaders/          # Shader files.
 ├── states/           # Save states.

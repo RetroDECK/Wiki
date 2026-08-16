@@ -22,13 +22,17 @@ The Flatpak Runtime may ship with `libSomething.so.5`, but a component may have 
 
 A simplified RetroDECK architecture looks like this, but the pathings in the layers are different per component.
 
+```
     +---------------------------+
     |        Component          |        
     |  Container / environment  |           
     +-------------+-------------+            
+```
 
 Binaries and application files stored here with RetroDECK's component environment with component files. 
 Component files define runtime behavior, update/installation and metadata used by the RetroDECK Framework.
+
+```
                   |
                   v
     +---------------------------+
@@ -36,8 +40,11 @@ Component files define runtime behavior, update/installation and metadata used b
     |                           |
     |      libaries/files       |
     +-------------+-------------+
+```
 
 A minimal set of the components require this enviroment when they cannot have their libraries decoupled and are hardcoded to expect paths under `/lib` or other locations.
+
+```
                   |
                   v
     +---------------------------+
@@ -45,22 +52,28 @@ A minimal set of the components require this enviroment when they cannot have th
     |                           |
     |   shared-libaries/files   |
     +-------------+-------------+
+```
 
 The `shared-libs` component is a standalone module that maintains a centralized library repository, storing all dependencies required across components. This enables consistent version referencing from a single source while supporting multiple Flatpak runtime sources. As a result, RetroDECK maintains only the minimum libraries necessary for each component.
 
+```
                   |
                   v
     +---------------------------+
     |   Additional Depedenices  |
     +-------------+-------------+
+```
 
 A minimal set of the components require this enviroment require specific decpendecies.
+
+```
                   |
                   v
     +---------------------------+
     |      Flatpak Runtime      |
     |     org.KDE.Platform      |
     +-------------+-------------+
+```
 
 The Flatpak environment supplies all remaining host OS-level libraries required by the components. In essence, the Flatpak Runtime simulates the Host OS layer, providing:
 
@@ -111,10 +124,12 @@ An advanced Flatpak requires supplementary libraries and dependencies beyond tho
 
 A simplified RetroDECK building architecture looks like this.
 
+```
     +---------------------------+
     |   RetroDECK Components    |        
     |           Repo            |           
     +-------------+-------------+   
+```
 
 Component repository store data in `component/<component_files>/` directories organized as follows:
 
@@ -138,13 +153,15 @@ Components may include pre-configured configuration files tailored for the Retro
 
 A few exceptions store pre-built binaries compiled from source. These are typically minimal components, such as lightweight retro PC emulators.
 
+```
                   |
                   v
     +---------------------------+
     |   RetroDECK Alchemist     |        
     |                           |           
     +-------------+-------------+            
-    
+```
+
 The Alchemist functions as both a GitHub module and an internal RetroDECK module. It reads `component_recipe.json` to determine:
 
 - Application source location
@@ -153,12 +170,14 @@ The Alchemist functions as both a GitHub module and an internal RetroDECK module
 
 The Alchemist supports diverse sources: Flatpak packages from Flathub, AppImages from GitLab, binaries from SourceForge, or source code from various websites. Based on the recipe, it synthesizes all components into a functional application. As long as the recipe is correct magic will happen.
 
+```
                   |
                   v
     +---------------------------+
     |    RetroDECK Assembler    |
     |     Component Releses     |
     +-------------+-------------+
+```
 
 The RetroDECK Assembler is the collective term for GitHub Runners that build releases within their Linux build environments.
 
@@ -168,12 +187,14 @@ Combined with The Alchemist, it assembles these builds into RetroDECK component 
 - Components Cooker - (bleeding-edge testing environment)
 - Components Main (stable production releases)
 
+```
                   |
                   v
     +---------------------------+
     |    RetroDECK Assembler    |
     |     RetroDECK Releses     |
     +-------------+-------------+
+```
 
 When the RetroDECK build is triggered, the Assembler sources components alongside the RetroDECK Application to produce a Flatpak release. The target channel depends on the source branch:
 

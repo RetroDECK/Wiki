@@ -78,8 +78,6 @@ The Flatpak sandbox already defines the XDG Base Directory locations within the 
 - `XDG_CACHE_HOME` - Maps to `/var/cache` inside the Flatpak and `~/.var/app/net.retrodeck.net/cache` in the user's filesystem.
 - `XDG_DATA_HOME` - Maps to `/var/data` inside the Flatpak and `~/.var/app/net.retrodeck.net/data` in the user's filesystem.
 
-For more information, see **[RetroDECK: Flatpak Directory Structure](#)** on the wiki.
-
 #### Flatpak RO Filesystem
 
 Component subsandboxes are stored alongside their binaries with RetroDECK on read-only filesystem.
@@ -91,7 +89,7 @@ Depending on whether RetroDECK is installed as a user or system Flatpak, this ma
 - **User installation:** `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/`
 - **System installation:** `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` 
 
-For more information, see **[RetroDECK: Flatpak Directory Structure](#)** on the wiki.
+For more information, see **[RetroDECK: Flatpak Directory Structure](https://retrodeck.readthedocs.io/en/latest/wiki_development/general/folders-filepaths)** on the wiki.
  
 
 ---
@@ -238,6 +236,8 @@ RetroDECK exposes the relevant `/retrodeck` paths to the components so they can 
 └── videos/           # Captured video files.
 ```
 
+For more information, see **[RetroDECK: User-data Directory Structure](https://retrodeck.readthedocs.io/en/latest/wiki_management/retrodeck-folders/)** on the wiki.
+
 ### Path Management
 
 Components can receive their paths through the following mechanisms, listed in order of compatibility:
@@ -257,7 +257,9 @@ All component-specific path management and integration logic is defined in the c
 
 ### Example: RPCS3 Path Management via `component_functions.sh`
 
-The following is a breakdown of how RPCS3's `component_functions.sh` manages its configuration, storage, save data, and other user-accessible paths.
+This example shows how RPCS3's `component_functions.sh` manages configuration, storage, save data, save states, captures, patches and other user-accessible paths within RetroDECK.
+
+Together, in the case of RPCS3 these operations form a cohesive path-management layer that utilises configuration editing, symlinks, file copying and directory creation to expose RPCS3 to different parts of user space.
 
 ```
 # Create the RPCS3 configuration directory and copy and RetroDECK-provided configuration files into it.

@@ -1,67 +1,68 @@
-﻿# RetroDECK: Userdata Folder Structure
+﻿# RetroDECK: User-data Directory Structure
 
-<img src="../../wiki_icons/pixelitos/folder-blue-games.png" width="75" alt="">
+<img src="../../wiki_icons/pixelitos/Directory-blue-games.png" width="75" alt="">
 
-This page provides an overview of the RetroDECK folder structure for **userdata**, showing where configuration files, roms, saves, states, bios and other things  are stored.
+This page provides an overview of the RetroDECK Directory structure for **user-data**, showing where configuration files, roms, saves, states, bios and other things are stored.
 
 ---
 
-## Main Folders
+## Main Directories
 
-| Folder Path                                          | Folder Name / Description                | Description                                                                 |
+| Directory Path                                          | Directory Name / Description                | Description                                                                 |
 |------------------------------------------------------|-----------------------------------------|-----------------------------------------------------------------------------|
-| retrodeck/                                           | userdata Folder                          | Contains all RetroDECK user data. Location is dynamic and chosen by the user. |
-| ~/.var/app/net.retrodeck.retrodeck/                 | Flatpak Root Folder                      | Exposes configuration, cache, and system data from the Flatpak environment. |
-| ~/.var/app/net.retrodeck.retrodeck/cache/           | Cache Folder                             | Stores cache files and temporary data for RetroDECK components.             |
-| ~/.var/app/net.retrodeck.retrodeck/config/          | Config Folder                            | Stores configuration files for RetroDECK components.                        |
-| ~/.var/app/net.retrodeck.retrodeck/config/retrodeck/ | RetroDECK Config Folder                  | Contains the main `retrodeck.cfg` configuration file.                        |
-| ~/.var/app/net.retrodeck.retrodeck/data/            | Data Folder                              | Stores data structures used by RetroDECK components.                         |
+| retrodeck/                                           | user-data Directory                          | Contains all RetroDECK user data. Location is dynamic and chosen by the user. |
+| ~/.var/app/net.retrodeck.retrodeck/                 | Flatpak Root Directory                      | Exposes configuration, cache, and system data from the Flatpak environment. |
+| ~/.var/app/net.retrodeck.retrodeck/cache/           | Cache Directory                             | Stores cache files and temporary data for RetroDECK components.             |
+| ~/.var/app/net.retrodeck.retrodeck/config/          | Config Directory                            | Stores configuration files for RetroDECK components.                        |
+| ~/.var/app/net.retrodeck.retrodeck/config/retrodeck/ | RetroDECK Config Directory                  | Contains the main `retrodeck.cfg` configuration file.                        |
+| ~/.var/app/net.retrodeck.retrodeck/data/            | Data Directory                              | Stores data structures used by RetroDECK components.                         |
 
 ---
 
-## Userdata Folder - retrodeck/
+## user-data Directory - retrodeck/
 
-| Folder Path                  | Folder Name / Description        | Description (Note: Each folder supports different components)                |
+| Directory Path                  | Directory Name / Description        | Description (Note: Each Directory supports different components)                |
 |------------------------------|----------------------------------|-------------------------------------------------------------------------------|
-| retrodeck/bios                | BIOS Folder                     | BIOS files (RetroArch structure).                                            |
-| retrodeck/borders             | Borders Folder                  | Borders/Bezels images.                                                       |
-| retrodeck/cheats              | Cheats Folder                   | Cheat files.                                        |
-| retrodeck/ES-DE               | ES-DE Folder                    | User data and configuration files from ES-DE.                                |
-| retrodeck/logs                | Logs Folder                     | Log files (debugging and tracking).                             |
-| retrodeck/mods                | Mods Folder                     | Mods and extra content.                                                      |
-| retrodeck/roms                | ROMs Folder                     | Games and ROMs.                                                     |
-| retrodeck/saves               | Saves Folder                    | Save files.                                                    |
-| retrodeck/screenshots         | Screenshots Folder              | In-game screenshots captured during emulation.                               |
-| retrodeck/storage             | Storage Folder                  | Miscellaneous files like DLC and installations.                              |
-| retrodeck/shaders             | Shaders Folder                  | Shader files for graphical enhancements.                                      |
-| retrodeck/states              | States Folder                   | Save states.                                        |
-| retrodeck/texture_packs       | Texture Packs Folder            | Texture packs for graphical improvements.                       |
-| retrodeck/videos              | Videos Folder                   | In-game videos captures.                                    |
+| retrodeck/backups             | Backups Directory                  | Used during RetroDECK Upgrades.                                            |
+| retrodeck/bios                | BIOS Directory                     | BIOS files (RetroArch structure).                                            |
+| retrodeck/borders             | Borders Directory                  | Borders/Bezels images.                                                       |
+| retrodeck/cheats              | Cheats Directory                   | Cheat files.                                        |
+| retrodeck/ES-DE               | ES-DE Directory                    | User data and configuration files from ES-DE.                                |
+| retrodeck/logs                | Logs Directory                     | Log files (debugging and tracking).                             |
+| retrodeck/mods                | Mods Directory                     | Mods and extra content.                                                      |
+| retrodeck/roms                | ROMs Directory                     | Games and ROMs.                                                     |
+| retrodeck/saves               | Saves Directory                    | Save files.                                                    |
+| retrodeck/screenshots         | Screenshots Directory              | In-game screenshots captured during emulation.                               |
+| retrodeck/storage             | Storage Directory                  | Miscellaneous files like DLC and installations.                              |
+| retrodeck/shaders             | Shaders Directory                  | Shader files for graphical enhancements.                                      |
+| retrodeck/states              | States Directory                   | Save states.                                        |
+| retrodeck/texture_packs       | Texture Packs Directory            | Texture packs for graphical improvements.                       |
+| retrodeck/videos              | Videos Directory                   | In-game videos captures.                                    |
 
 
 
 ---
 
-## ES-DE Folder
+## ES-DE Directory
 
-| Folder Path         | Folder Name / Description      | Description                     |
+| Directory Path         | Directory Name / Description      | Description                     |
 |---------------------|-------------------------------|---------------------------------|
-| collections         | Collections Folder            | Stores custom ES-DE collections. |
-| custom_systems      | Custom Systems Folder         | Contains user-defined or extra systems. |
-| downloaded_media    | Downloaded Media Folder       | Holds media assets like images, videos, and metadata. |
-| gamelists           | Gamelists Folder              | Contains ES-DE gamelist.xml files for system organization. |
-| screensavers        | Screensavers Folder           | Stores screensavers for the ES-DE interface. |
-| scripts             | Scripts Folder                | Stores custom scripts for the ES-DE interface. |
-| themes              | Themes Folder                 | Contains themes for the ES-DE interface. |
+| collections         | Collections Directory            | Stores custom ES-DE collections. |
+| custom_systems      | Custom Systems Directory         | Contains user-defined or extra systems. |
+| downloaded_media    | Downloaded Media Directory       | Holds media assets like images, videos, and metadata. |
+| gamelists           | Gamelists Directory              | Contains ES-DE gamelist.xml files for system organization. |
+| screensavers        | Screensavers Directory           | Stores screensavers for the ES-DE interface. |
+| scripts             | Scripts Directory                | Stores custom scripts for the ES-DE interface. |
+| themes              | Themes Directory                 | Contains themes for the ES-DE interface. |
 
 
 ---
 
-## BIOS Folder
+## BIOS Directory
 
-Most BIOS files are put in the root of the folder.
+Most BIOS files are put in the root of the Directory.
 
-| Folder Path   | System Name / Folder Name | Description                                                      |
+| Directory Path   | System Name / Directory Name | Description                                                      |
 |---------------|---------------------------|------------------------------------------------------------------|
 | cemu          | Cemu                      | Wii U emulator; stores BIOS files for specific games.           |
 | citra         | Citra                     | Nintendo 3DS emulator; stores required BIOS files.              |
@@ -83,11 +84,11 @@ Most BIOS files are put in the root of the folder.
 
 ---
 
-## ROMs Folder
+## ROMs Directory
 
-RetroDECK Follows the ES-DE ROMs Folder Structure. 
+RetroDECK Follows the ES-DE ROMs Directory Structure. 
 
-| Folder Path | System Name | Description |
+| Directory Path | System Name | Description |
 |-------------|-------------|-------------|
 | 3do | 3DO | 32-bit home console known for multimedia capabilities and high-quality graphics. |
 | adam | Coleco Adam | Home computer and game console hybrid released by Coleco. |
@@ -120,15 +121,15 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 | channelf | Fairchild Channel F | Second-generation home video game console. |
 | coco | Tandy CoCo | Color Computer line of home computers by Tandy/Radio Shack. |
 | colecovision | ColecoVision | Second-generation home video game console known for arcade ports. |
-| consolearcade | Console Arcade | General folder for home consoles that play arcade-style games. |
+| consolearcade | Console Arcade | General Directory for home consoles that play arcade-style games. |
 | cps | Capcom CPS | Capcom arcade system boards used in numerous arcade titles. |
 | cps1 | Capcom CPS-1 | First version of Capcom's arcade system board. |
 | cps2 | Capcom CPS-2 | Second version with improved graphics and encryption. |
 | cps3 | Capcom CPS-3 | Third-generation arcade system board with advanced 3D graphics. |
 | crvision | VTech CreatiVision | Hybrid home computer and game console. |
 | daphne | Daphne | Emulator for laserdisc-based arcade games. |
-| desktop | Desktop | Folder for .desktop and misc files in Linux/SteamOS. |
-| doom | DOOM | Folder containing files related to the classic first-person shooter. |
+| desktop | Desktop | Directory for .desktop and misc files in Linux/SteamOS. |
+| doom | DOOM | Directory containing files related to the classic first-person shooter. |
 | dos | DOS | Microsoft Disk Operating System, widely used for early PC games. |
 | dragon32 | Dragon 32 | Home computer released in the UK with 8-bit architecture. |
 | dreamcast | Sega Dreamcast | 128-bit home console with innovative online features. |
@@ -139,7 +140,7 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 | fba | Final Burn Alpha | Arcade emulator for CPS, Neo Geo, and other boards. |
 | fbneo | Final Burn Neo | Updated version of Final Burn Alpha with additional features. |
 | fds | Famicom Disk System | Floppy disk add-on for Famicom in Japan. |
-| flash | Adobe Flash | Folder containing Flash game or animation files. |
+| flash | Adobe Flash | Directory containing Flash game or animation files. |
 | fm7 | Fujitsu FM-7 | 8-bit home computer for education and gaming in Japan. |
 | fmtowns | Fujitsu FM Towns | Series of 16-bit/32-bit home computers for gaming and multimedia. |
 | gamate | Gamate | Handheld console developed by Bit Corporation. |
@@ -155,8 +156,8 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 | gx4000 | Amstrad GX4000 | 8-bit/16-bit home console with limited commercial success. |
 | intellivision | Mattel Intellivision | Second-generation home console with improved graphics. |
 | j2me | Java 2 Micro Edition | Platform for mobile games and applications. |
-| laserdisc | Laserdisc | Folder containing laserdisc arcade or media content. |
-| lcdgames | LCD Games | Folder containing handheld LCD game files. |
+| laserdisc | Laserdisc | Directory containing laserdisc arcade or media content. |
+| lcdgames | LCD Games | Directory containing handheld LCD game files. |
 | lowresnx | LowResNX | Fantasy console for creating low-resolution retro games. |
 | lutro | Lutro | Lua-based retro-style game framework. |
 | macintosh | Macintosh | Family of Apple personal computers. |
@@ -170,7 +171,7 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 | megaduck | Welback Mega Duck | Handheld console compatible with some Game Boy games. |
 | mess | MESS | Multi Emulator Super System for computers and consoles. |
 | model2 | Sega Model 2 | Arcade board with 3D graphics capabilities. |
-| moto | Motorcycle Games | Folder for motorcycle racing titles. |
+| moto | Motorcycle Games | Directory for motorcycle racing titles. |
 | msx | MSX | Standardized 8-bit home computer platform. |
 | msx1 | MSX 1 | First generation of MSX home computers. |
 | msx2 | MSX 2 | Second generation of MSX with improved graphics/sound. |
@@ -192,8 +193,8 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 | ngpc | Neo Geo Pocket Color | Color handheld console by SNK. |
 | odyssey2 | Magnavox Odyssey² | Second-generation console with keyboard for educational titles. |
 | openbor | OpenBOR | 2D beat ’em up game engine. |
-| palm | Palm OS Devices | Folder for Palm handheld applications/games. |
-| pc | PC / DOS | Folder for PC game ports and DOS titles. |
+| palm | Palm OS Devices | Directory for Palm handheld applications/games. |
+| pc | PC / DOS | Directory for PC game ports and DOS titles. |
 | pc88 | NEC PC-8800 Series | 8-bit/16-bit home computer line popular in Japan. |
 | pc98 | NEC PC-9800 Series | 16-bit Japanese home computers. |
 | pcarcade | PC Arcade | PC-based arcade games or emulation. |
@@ -203,15 +204,15 @@ RetroDECK Follows the ES-DE ROMs Folder Structure.
 | pico8 | Pico-8 | Fantasy console for tiny retro-style games. |
 | plus4 | Commodore Plus/4 | Successor to VIC-20 with built-in productivity software. |
 | pokemini | Pokémon Mini | Nintendo handheld console. |
-| portmaster | PortMaster Games | Folder for PortMaster games/engine. |
-| ports | Game Ports | Folder for cross-platform ports. |
+| portmaster | PortMaster Games | Directory for PortMaster games/engine. |
+| ports | Game Ports | Directory for cross-platform ports. |
 | ps2 | Sony PlayStation 2 | 128-bit console with DVD playback. |
 | ps3 | Sony PlayStation 3 | HD console with Blu-ray support. |
 | psp | Sony PlayStation Portable | Handheld console with multimedia support. |
 | psvita | Sony PlayStation Vita | Advanced handheld with OLED/LED display. |
 | psx | Sony PlayStation | 32-bit home console. |
 | pv1000 | Casio PV-1000 | Early 8-bit home console. |
-| quake | Quake Engine | Folder for Quake engine or source ports. |
+| quake | Quake Engine | Directory for Quake engine or source ports. |
 | satellaview | Satellaview | Satellite modem add-on for Super Famicom. |
 | saturn | Sega Saturn | 32-bit console emphasizing 2D arcade ports. |
 | saturnjp | Sega Saturn (Japan) | Japanese release with exclusive titles. |

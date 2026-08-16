@@ -119,7 +119,7 @@ A small number of components require a dedicated environment when their librarie
 
 ### Component-Shared: Shared Libraries
 
-The `shared-libs` component is a standalone module that maintains a centralized repository of libraries and dependencies shared across components.
+The `shared-libs` component is a standalone module that maintains a centralized repository of libraries shared across components.
 
 This provides:
 

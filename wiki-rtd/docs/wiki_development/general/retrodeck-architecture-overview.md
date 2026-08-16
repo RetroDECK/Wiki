@@ -24,7 +24,7 @@ While RetroDECK shares some conceptual similarities with technologies such as Do
 
 ### Reference: Minimal Flatpak
 
-<img src="../../../wiki_images/flatpak/flatpak.drawio.png" width="300" alt="Minimal Flatpak architecture">
+<img src="../../../wiki_images/flatpak/flatpakrd.drawio.png" width="300" alt="Minimal Flatpak architecture">
 
 A minimal Flatpak obtains its required libraries and dependencies primarily from the Flatpak Runtime.
 

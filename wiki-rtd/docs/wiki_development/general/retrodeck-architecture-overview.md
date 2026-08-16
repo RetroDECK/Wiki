@@ -50,14 +50,15 @@ A subsandbox controls which libraries and files a component can access. This iso
 
 RetroDECK manages the component environment through:
 
-- `LD_LIBRARY_PATH`
-- `QT_PLUGIN_PATH`
-- `QT_QPA_PLATFORM_PLUGIN_PATH`
-- `XDG_CONFIG_HOME`
-- `XDG_CACHE_HOME`
-- `XDG_DATA_HOME`
-
-Where necessary, RetroDECK may also override `HOME`, typically directing it to a component-specific directory under `XDG_DATA_HOME` or `XDG_CACHE_HOME`. This accommodates components that are hardcoded to store files directly in the home directory.
+- `LD_LIBRARY_PATH` - Controls library search paths.
+- `QT_PLUGIN_PATH` - Controls Qt plugin search paths.
+- `QT_QPA_PLATFORM_PLUGIN_PATH` - Controls Qt platform plugin paths.
+- `XDG_CONFIG_HOME` - Defines the location for component configuration data.
+- `XDG_CACHE_HOME` - Defines the location for component cache data.
+- `XDG_DATA_HOME` - Defines the location for component application data.
+- **Components own Configurations Files** - Components may provide their own configuration options for defining paths and storage locations.
+- **Component CLI options** - Components may provide command-line options for defining paths and storage locations.
+- `HOME` - Where necessary, RetroDECK may override `HOME` and redirect it to a component-specific directory, typically under `XDG_DATA_HOME` or `XDG_CACHE_HOME`. This accommodates components that are hardcoded to store files directly in the home directory.
 
 This approach ensures that components:
 

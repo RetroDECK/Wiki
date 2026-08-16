@@ -44,6 +44,8 @@ An advanced Flatpak may require supplementary libraries and dependencies that ar
 
 ## What is a Subsandbox?
 
+<img src="../../../wiki_icons/retrodeck/icon-ponzu.svg" width="75" alt="RetroDECK Flatpak architecture">
+
 A **subsandbox** is a container-launching mechanism managed by the RetroDECK Framework. It uses the RetroDECK Flatpak container and Flatpak Runtime, which provide shared libraries and dependencies for components.
 
 A subsandbox controls which libraries and files a component can access. This isolation allows RetroDECK to override Flatpak Runtime library versions when required, enabling support for components built against different environments.
@@ -71,7 +73,9 @@ This approach ensures that components:
 
 The result is a controlled, isolated environment that improves compatibility while keeping the host filesystem clean.
 
-#### XDG Base Directory in a Flatpak
+---
+
+### XDG Base Directory in a Flatpak
 
 The Flatpak sandbox already defines the XDG Base Directory locations within the Flatpak environment.
 
@@ -79,7 +83,9 @@ The Flatpak sandbox already defines the XDG Base Directory locations within the 
 - `XDG_CACHE_HOME` - Maps to `/var/cache` inside the Flatpak and `~/.var/app/net.retrodeck.net/cache` in the user's filesystem.
 - `XDG_DATA_HOME` - Maps to `/var/data` inside the Flatpak and `~/.var/app/net.retrodeck.net/data` in the user's filesystem.
 
-#### Flatpak RO Filesystem
+---
+
+### Flatpak RO Filesystem
 
 Component subsandboxes are stored alongside their binaries with RetroDECK on read-only filesystem.
 
@@ -96,11 +102,17 @@ For more information, see **[RetroDECK: Flatpak Directory Structure](https://ret
 
 ## What are the component files?
 
+<img src="../../../wiki_icons/retrodeck/icon-component.svg" width="75" alt="RetroDECK Flatpak architecture">
+
 In a broad sence component files tell the RetroDECK Framework and RetroDECK Alchemist how to build, install, configure, update and launch a component. They contain the component's metadata, scripts, configuration logic, capabilities and library information required for it to be displayed, configured and launched correctly.
 
 All component-specific logic should live within the component's own component files rather than being stored centrally in RetroDECK. This keeps components self-contained: when a component is removed, all of its associated logic is removed with it.
 
+---
+
 ### The Recipe
+
+<img src="../../../wiki_icons/retrodeck/icon-alchemist.svg" width="35" alt="RetroDECK Flatpak architecture">
 
 Read by the `RetroDECK Alchemist`.
 
@@ -108,7 +120,11 @@ Read by the `RetroDECK Alchemist`.
 
 Defines how RetroDECK Alchemist should source a component's from AppImage, Flatpak, pre-compiled binary or compile from source code and turn it into a fully packaged RetroDECK component artifact.
 
+---
+
 ### The Ingredients
+
+<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="35" alt="RetroDECK Flatpak architecture">
 
 Read by the `RetroDECK Framework`.
 
@@ -238,6 +254,8 @@ In practice, the Flatpak Runtime acts as an abstraction layer between RetroDECK 
 
 ## RetroDECK User-Data Directory
 
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
+
 The `/retrodeck` directory contains the user's persistent data and other important files shared with RetroDECK components. This data is intended to remain available even if RetroDECK is uninstalled.
 
 **Location**
@@ -331,6 +349,8 @@ dir_prep "$storage_path/rpcs3/patches" "$XDG_CONFIG_HOME/rpcs3/patches"
 
 ## RetroDECK's Build Enviroment
 
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
+
 A simplified overview of the RetroDECK component and build architecture is shown below.
 
 ---
@@ -364,6 +384,8 @@ Contains pre-built binaries used by a small number of components. These are typi
 
 ### RetroDECK Components Repository: RetroDECK Alchemist
 
+<img src="../../../wiki_icons/retrodeck/icon-alchemist.svg" width="35" alt="RetroDECK Flatpak architecture">
+
 The **RetroDECK Alchemist** is both a GitHub module and an internal RetroDECK module responsible for processing component recipes.
 
 It reads each `component_recipe.json` on the repo to determine:
@@ -389,6 +411,9 @@ Based on the recipe, the Alchemist retrieves and assembles the required resource
 
 ### RetroDECK Components Repository: RetroDECK Assembler
 
+
+<img src="../../../wiki_icons/retrodeck/icon-assembler.svg" width="35" alt="RetroDECK Flatpak architecture">
+
 The **RetroDECK Assembler** is the collective term for the GitHub Actions runners and Linux build environments used to build component releases.
 
 Working together with the Alchemist, the Assembler packages the processed components artifacts into distributable RetroDECK component releases.
@@ -403,6 +428,8 @@ Components are distributed according to their target release channel:
 ---
 
 ### RetroDECK Main Repository: RetroDECK Assembler
+
+<img src="../../../wiki_icons/retrodeck/icon-assembler.svg" width="35" alt="RetroDECK Flatpak architecture">
 
 When a RetroDECK build is triggered, the Assembler sources the required components alongside the RetroDECK application and produces the final Flatpak release.
 

@@ -59,6 +59,7 @@ RetroDECK manages the component environment through:
 - `HOME` - Where necessary, RetroDECK may override `HOME` and redirect it to a component-specific directory, typically under `XDG_DATA_HOME` or `XDG_CACHE_HOME`. This accommodates components that are hardcoded to store files directly in the home directory.
 - **Component Configurations Files** - Components may provide their own configuration options for defining paths and storage locations in their config files.
 - **Component CLI Options** - Components may provide command-line options for defining paths and storage locations.
+- **Directory and file operations:** Move, create and manipulate directories and files.
 - **Symbolic links** - Used as a last resort when other path-management mechanisms simply don't work.
 
 This approach ensures that components:
@@ -246,9 +247,11 @@ Components can receive their paths through the following mechanisms, listed in o
 
 - **Component CLI options** - Components may provide command-line options for defining paths and storage locations.
 
+- **Directory and file operations:** Move, create and manipulate directories and files.
+
 - **Symbolic links** - Used as a last resort when configuration files and CLI options cannot provide the required path mapping. In most cases, symbolic links are created under `XDG_DATA_HOME/<component_name>`, but some components may require them under `XDG_CONFIG_HOME/<component_name>`.
 
-Each component is unique and may require a different approach to accommodate its requirements while keeping its data as accessible and user-friendly as possible.
+Each component is **unique** and may require a different approach to accommodate its requirements while keeping its data as accessible and user-friendly as possible.
 
 RetroDECK aims to go beyond the minimum required integration for every component it supports. In addition to essential paths such as game files and save data, RetroDECK tries to expose other files and directories that may provide value to users. 
 

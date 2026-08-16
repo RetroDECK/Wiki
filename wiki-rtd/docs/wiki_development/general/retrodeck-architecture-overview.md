@@ -6,7 +6,7 @@ A short overview of the RetroDECK Architecture.
 
 ## Architectural Overview: Non-Standard Flatpak "The Fatpak"
 
-<img src="../../../wiki_images/flatpak/flatpakrdneo.drawio.png" width="300" alt="RetroDECK Flatpak architecture">
+<img src="../../../wiki_images/flatpak/flatpakrd.drawio.png" width="300" alt="RetroDECK Flatpak architecture">
 
 The following flowchart illustrates how multiple components interact within RetroDECK. Components can use different architectural layers depending on their individual requirements; not every component requires every layer.
 
@@ -132,6 +132,8 @@ The pathings in the layers are different per component.
 
 ### Component Container: Environment
 
+<img src="../../../wiki_images/flatpak/flatpakrd-component.png" width="300" alt="RetroDECK Flatpak architecture">
+
 The **Component Container: Environment** contains the application binaries, resources and supporting files used by a RetroDECK component.
 
 These files are combined with RetroDECK's **Component Files**, which define the component's runtime behavior, installation and update procedures, application sourcing, metadata, configuration and other integration logic.
@@ -165,12 +167,16 @@ These files are combined with RetroDECK's **Component Files**, which define the 
 
 ### Component-Specific: Libraries & Files
 
+<img src="../../../wiki_images/flatpak/flatpakrd-lib.png" width="300" alt="RetroDECK Flatpak architecture">
+
 A small number of components require a dedicated environment when their libraries cannot be decoupled or when they are hardcoded to expect files or libraries at paths such as `/lib` or other system locations.
 
 
 ---
 
 ### Component-Shared: Shared Libraries
+
+<img src="../../../wiki_images/flatpak/flatpakrd-shared-libs.png" width="300" alt="RetroDECK Flatpak architecture">
 
 The `shared-libs` component is a standalone module that maintains a centralized repository of libraries shared across components.
 
@@ -206,12 +212,16 @@ $rd_shared_libs/org.kde.Platform/6.10/plugins/
 
 ### Component: Additional Dependencies
 
+<img src="../../../wiki_images/flatpak/flatpakrd-additional.png" width="300" alt="RetroDECK Flatpak architecture">
+
 A small number of components require additional dependencies that are not provided by the shared library environment. These dependencies are maintained specifically for the components that require them.
 
 
 ---
 
 ### Flatpak Runtime: `org.kde.Platform`
+
+<img src="../../../wiki_images/flatpak/flatpakrd-runtime.png" width="300" alt="RetroDECK Flatpak architecture">
 
 The Flatpak Runtime provides the remaining host OS-level libraries and interfaces required by components.
 

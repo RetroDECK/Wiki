@@ -150,9 +150,8 @@ These files are combined with RetroDECK's **Component Files**, which define the 
 │   └── (documentation files)    <--- Sourced from ScummVM's Flatpak
 │
 ├── rd_config/
-│   └── (configuration files)    <--- Adapted from ScummVM and adjusted
-│                                    for the RetroDECK environment
-│
+│   └── (configuration files)    <--- Adapted from ScummVM and adjusted for the RetroDECK environment
+│                                    
 ├── share/
 │   └── (shared resources)       <--- Sourced from ScummVM's Flatpak
 │

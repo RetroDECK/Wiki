@@ -134,8 +134,9 @@ Shared libraries are referenced using `$rd_shared_libs`, which is the root direc
 
 Specific runtimes and their associated libraries are stored in subdirectories and can be referenced using their runtime-specific paths.
 
-**Example: GNOME Platform runtime version 49**
+In general, applications use the same KDE runtime version as RetroDECK or remain compatible with the libraries provided by the built-in runtime. Only in rare cases should an application require a specific runtime version. In those cases, the entire runtime is not included; instead, only the specific libraries required by the component are sourced from it.
 
+**Example: GNOME Platform runtime version 49**
 
 ```
 $rd_shared_libs/org.gnome.Platform/49/

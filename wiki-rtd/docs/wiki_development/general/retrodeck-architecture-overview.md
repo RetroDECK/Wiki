@@ -4,32 +4,41 @@ A short overview of the RetroDECK Architecture.
 
 ---
 
-## Architectural Overview: Non-Standard Flatpak aka The Fatpak
+## Architectural Overview: Non-Standard Flatpak — "The Fatpak"
 
-<img src="../../../wiki_images/flatpak/flatpakrdneo.drawio.png" width="300" alt="RetroDECK Flatpak">
+<img src="../../../wiki_images/flatpak/flatpakrdneo.drawio.png" width="300" alt="RetroDECK Flatpak architecture">
 
-The following flowchart illustrates how multiple components interact within RetroDECK. Components route to different layers, though not all utilize every layer.
+The following flowchart illustrates how multiple components interact within RetroDECK. Components can use different architectural layers depending on their individual requirements; not every component requires every layer.
 
-Each component has unique requirements. The goals are to minimize dependency overhead and eliminate library duplication, operate within a precisely isolated subsandbox environment where all application data remains contained within the Flatpak filesystem and conserve user-space resources while ensuring secure isolation.
+The architecture is designed to:
 
-While conceptually similar to Docker and Valves Steam's Proton Pressure Vessel. RetroDECK's framework, subsandboxing and architecture is a distinct solution developed by the RetroDECK Team that operates entirely within a single Flatpak application.
+- Minimize dependency overhead.
+- Eliminate unnecessary library duplication.
+- Provide precisely isolated subsandbox environments.
+- Keep application data contained within the Flatpak filesystem.
+- Maintain strong isolation between components and the host system.
 
-### Reference: A minimal flatpak
+While RetroDECK shares some conceptual similarities with technologies such as Docker and Valve's Steam Proton Pressure Vessel, its framework, subsandboxing model and component architecture are distinct solutions developed by the RetroDECK Team. The entire system operates within a **single Flatpak application**.
 
-<img src="../../../wiki_images/flatpak/flatpak.drawio.png" width="300" alt="RetroDECK Flatpak">
+---
 
-A minimal Flatpak retrieves all required libraries and dependencies from the Flatpak Runtime. 
+### Reference: Minimal Flatpak
 
-**Most Flatpak applications**
+<img src="../../../wiki_images/flatpak/flatpak.drawio.png" width="300" alt="Minimal Flatpak architecture">
 
+A minimal Flatpak obtains its required libraries and dependencies primarily from the Flatpak Runtime.
+
+**Typical Flatpak application**
+
+---
 
 ### Reference: Advanced Flatpak Design
 
-<img src="../../../wiki_images/flatpak/flatpakadv.drawio.png" width="300" alt="Diagram showing advanced Flatpak structure with additional component layers beyond Flatpak Runtime">
+<img src="../../../wiki_images/flatpak/flatpakadv.drawio.png" width="300" alt="Advanced Flatpak architecture with additional component layers">
 
-An advanced Flatpak requires supplementary libraries and dependencies beyond those provided by the Flatpak Runtime. 
+An advanced Flatpak may require supplementary libraries and dependencies that are not provided by the Flatpak Runtime.
 
-**Only a minority of Flatpaks**
+**Minority of Flatpak applications**
 
 ---
 

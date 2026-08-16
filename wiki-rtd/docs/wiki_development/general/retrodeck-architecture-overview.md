@@ -134,7 +134,7 @@ Defines how the component is launched, including the binary location, libraries 
 
 **`component_manifest.json`**
 
-Contains the component's metadata and integration information, including its name, supported systems, ES-DE launch commands, compatible preset actions, backup behavior, and other information used by RetroDECK and other components when interacting with it.
+Contains the component's metadata and integration information, including its name, supported systems, ES-DE launch commands, compatible preset actions, backup behavior and other information used by RetroDECK and other components when interacting with it like the `RetroDECK Configurator`.
 
 **`component_functions.sh`**
 

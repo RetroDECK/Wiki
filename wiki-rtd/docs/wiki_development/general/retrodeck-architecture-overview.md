@@ -111,15 +111,15 @@ Component repository store data in `component/<component_files>/` directories or
 - component_launcher.sh
 - component_manifest.json
 
-`component/rd_assets/<extra_assets>`
+#### `component/rd_assets/<extra_assets>`
 
 The repo hosts extra assets that cannot be easily sourced from the recipe. These may include graphical assets, mods, or supplementary software that complement the component.
 
-`component/rd_assets/rd_config/<component_config_files>`
+#### `component/rd_assets/rd_config/<component_config_files>`
 
 Components may include pre-configured configuration files tailored for the RetroDECK environment.
 
-`component/rd_assets/bin/<binary>`
+#### `component/rd_assets/bin/<binary>`
 
 A few exceptions store pre-built binaries compiled from source. These are typically minimal components, such as lightweight retro PC emulators.
 

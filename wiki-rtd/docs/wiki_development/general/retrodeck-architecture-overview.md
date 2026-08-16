@@ -53,8 +53,32 @@ A simplified RetroDECK architecture looks like this, but the pathings in the lay
 
 ### Component Container & Environment 
 
-Binaries and application files stored here with RetroDECK's component environment with component files. 
-Component files define runtime behavior, update/installation and metadata used by the RetroDECK Framework.
+The sourced application binaries and files are stored here in RetroDECK's component environment.
+
+They are stored with RetroDECK's Component Files that define runtime behavior, update/installation, application sourcing, metadata, configurations and more.
+
+**Example: ScummVM**
+
+```
+┌── scummvm/
+│
+├── bin/
+│   └── (executable files) <--- From ScummVM's Flatpak
+│
+├── docs/
+│   └── (documentation files) <--- From ScummVM's Flatpak
+│
+├── rd_config/
+│   └── (configuration files) <--- From ScummVM but tweaked for RetroDECK's enviroment and moved into a specific folder.
+│
+├── share/
+│   └── (shared resources) <--- From ScummVM's Flatpak
+│
+├── component_functions.sh 
+├── component_launcher.sh     <--- RetroDECK Component Files
+├── component_manifest.json
+└── component_recipe.json
+```
 
 ⬇️
 

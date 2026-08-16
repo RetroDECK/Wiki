@@ -4,7 +4,7 @@ A short overview of the RetroDECK Architecture.
 
 ---
 
-## Architectural Overview: Non-Standard Flatpak — "The Fatpak"
+## Architectural Overview: Non-Standard Flatpak "The Fatpak"
 
 <img src="../../../wiki_images/flatpak/flatpakrdneo.drawio.png" width="300" alt="RetroDECK Flatpak architecture">
 

@@ -104,7 +104,7 @@ For more information, see **[RetroDECK: Flatpak Directory Structure](https://ret
 
 <img src="../../../wiki_icons/retrodeck/icon-component.svg" width="75" alt="RetroDECK Flatpak architecture">
 
-In a broad sence component files tell the RetroDECK Framework and RetroDECK Alchemist how to build, install, configure, update and launch a component. They contain the component's metadata, scripts, configuration logic, capabilities and library information required for it to be displayed, configured and launched correctly.
+In a broad sence component files tell the `RetroDECK Framework` and `RetroDECK Alchemist` how to build, install, configure, update and launch a component. They contain the component's metadata, scripts, configuration logic, capabilities and library information required for it to be displayed, configured and launched correctly.
 
 All component-specific logic should live within the component's own component files rather than being stored centrally in RetroDECK. This keeps components self-contained: when a component is removed, all of its associated logic is removed with it.
 

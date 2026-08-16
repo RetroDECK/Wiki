@@ -69,6 +69,29 @@ This approach ensures that components:
 
 The result is a controlled, isolated environment that improves compatibility while keeping the host filesystem clean.
 
+#### XDG Base Directory in a Flatpak
+
+The Flatpak sandbox already defines the XDG Base Directory locations within the Flatpak environment.
+
+- `XDG_CONFIG_HOME` - Maps to `/var/config` inside the Flatpak and `~/.var/app/net.retrodeck.net/config` in the user's filesystem.
+- `XDG_CACHE_HOME` - Maps to `/var/cache` inside the Flatpak and `~/.var/app/net.retrodeck.net/cache` in the user's filesystem.
+- `XDG_DATA_HOME` - Maps to `/var/data` inside the Flatpak and `~/.var/app/net.retrodeck.net/data` in the user's filesystem.
+
+For more information, see **[RetroDECK: Flatpak Directory Structure](#)** on the wiki.
+
+#### Flatpak RO Filesystem
+
+Component subsandboxes are stored alongside their binaries with RetroDECK on read-only filesystem.
+
+The filesystem is located at `/app/retrodeck/` inside the Flatpak
+
+Depending on whether RetroDECK is installed as a user or system Flatpak, this maps to:
+
+- **User installation:** `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/`
+- **System installation:** `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` 
+
+For more information, see **[RetroDECK: Flatpak Directory Structure](#)** on the wiki.
+ 
 ---
 
 ## Simplified Architecture: RetroDECK

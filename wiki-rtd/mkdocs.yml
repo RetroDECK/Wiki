@@ -425,10 +425,11 @@ nav:
   - RetroDECK Development 🪄:
 
     - Development General:
+      - RetroDECK Architecture - Overview: wiki_development/general/retrodeck-architecture-overview.md
       - Development Glossary: wiki_development/general/development-glossary.md
       - CLI Guide: wiki_development/general/cli-guide.md
       - Debugging: wiki_development/general/debug-mode.md
-      - .bashrc Alias & Functions: wiki_development/general/bashrc-alias.md
+      - Terminal Shortcuts for bashrc: wiki_development/general/bashrc-alias.md
       - Editing MIME Types: wiki_development/general/edit-mime.md
       - Steam Input: wiki_development/general/steam-input.md
 

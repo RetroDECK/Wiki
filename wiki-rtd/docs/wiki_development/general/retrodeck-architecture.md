@@ -21,19 +21,15 @@ The Flatpak Runtime may ship with `libSomething.so.5`, but a component may have 
 
 ## Simplified Architecture
 
-A simplified RetroDECK architecture looks like this, but the pathings are different per component:
+A simplified RetroDECK architecture looks like this, but the pathings are different per component.
 
     +---------------------------+
-    |        Component          |
-    +-------------+-------------+
-                  |
-                  v
-    +---------------------------+
-    |         RetroDECK         |
-    |         Framework         |
-    |                           |
-    |  Container / environment  |
-    +-------------+-------------+
+    |        Component          |        
+    |  Container / environment  |           
+    +-------------+-------------+            
+
+Binaries and application files stored here with RetroDECK's component environment with component files. 
+Component files define runtime behavior, update/installation and metadata used by the RetroDECK Framework.
                   |
                   v
     +---------------------------+
@@ -41,6 +37,8 @@ A simplified RetroDECK architecture looks like this, but the pathings are differ
     |                           |
     |      libaries/files       |
     +-------------+-------------+
+
+A minimal set of the components require this enviroment when they cannot have their libraries decoupled and are hardcoded to expect paths under `/lib` or other locations.
                   |
                   v
     +---------------------------+
@@ -48,31 +46,36 @@ A simplified RetroDECK architecture looks like this, but the pathings are differ
     |                           |
     |   shared-libaries/files   |
     +-------------+-------------+
+
+The `shared-libs` component is a standalone module that maintains a centralized library repository, storing all dependencies required across components. This enables consistent version referencing from a single source while supporting multiple Flatpak runtime sources. As a result, RetroDECK maintains only the minimum libraries necessary for each component.
+
                   |
                   v
     +---------------------------+
     |   Additional Depedenices  |
     +-------------+-------------+
+
+A minimal set of the components require this enviroment require specific decpendecies.
                   |
                   v
     +---------------------------+
     |      Flatpak Runtime      |
     |     org.KDE.Platform      |
     +-------------+-------------+
-                  |
-                  v
-               Host OS
 
+The Flatpak environment supplies all remaining host OS-level libraries required by the components. In essence, the Flatpak Runtime simulates the Host OS layer, providing:
 
-## Structure
-
-Think of it as the Flatpak Runtime simulates the Host OS
-
-Flatpak Runtime (Host OS)
 │
 ├── system libraries
 ├── graphics drivers
 ├── audio system
+└── other
+
+This abstraction layer ensures components interact with standardized system interfaces rather than direct host hardware.
+
+
+
+
 
 
 

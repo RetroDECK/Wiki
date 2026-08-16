@@ -1,6 +1,8 @@
-# RetroDECK Architecture
+# RetroDECK Architecture: Overview
 
-How RetroDECK works is that each component is subsandboxed into the flatpak.
+A short overview of the RetroDECK Architecture.
+
+---
 
 ## What is a Subsandbox?
 

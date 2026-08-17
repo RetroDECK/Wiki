@@ -211,7 +211,7 @@ We acknowledge and extend our appreciation to the respective creators and contri
 
 **Artists that contributed:**
 
-The following contributors played important roles in the development of the first and second iterations of the RetroDECK logo, including work on color schemes, iconography, SteamGridDB assets, and overall conceptual design:
+The following contributors played important roles in the development of the first and second iterations of the RetroDECK logo, including work on color schemes, iconography, SteamGridDB assets and overall conceptual design:
 
 - [Pixelguin](https://github.com/Pixelguin)
 - [RetroDECK Team: XargonWan](https://github.com/XargonWan)

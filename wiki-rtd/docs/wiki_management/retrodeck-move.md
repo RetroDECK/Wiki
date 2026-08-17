@@ -14,7 +14,7 @@ Contains all user-generated content (ROMs, BIOS, saves, screenshots, scraped dat
 
 - **`~/.var/app/net.retrodeck.retrodeck`**
 
-Contains the Flatpak core, components, and configuration files.
+Contains the Flatpak core, components and configuration files.
   
 *Migration is usually unnecessary and may cause configuration issues.*
 

@@ -174,7 +174,7 @@ It has gotten many major overhauls and improvements already since last time it w
 ### Translations
 <img src="../../../january-2024-2.webp" width="800" alt="">
 
-We are also working on translation files, and we hope to have some language options:
+We are also working on translation files and we hope to have some language options:
 
 - English (got it right now)
 

@@ -42,7 +42,7 @@ In these examples, we will use the [Little Medusa - Demo](https://megacatstudios
 
 In this example, the `LittleMedusa_8bitdemo.nes` file is inside the `retrodeck/roms/nes` folder. 
 
-When you click on it, RetroDECK opens it with the Nintendo Entertainment System emulator, and the game starts. 
+When you click on it, RetroDECK opens it with the Nintendo Entertainment System emulator and the game starts. 
 
 RetroDECK knows that because you opened it from the `/roms/nes` folder, the game must correspond to that system.
 

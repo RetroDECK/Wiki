@@ -52,7 +52,7 @@ No, OpenBOR games are self-contained.
 
 > **Note:** `.openbor` and `.bor` are functionally identical.
 
-Some handhelds, retro platforms, and emulation solutions use `.bor`, while others use `.openbor`. 
+Some handhelds, retro platforms and emulation solutions use `.bor`, while others use `.openbor`. 
 
 To simplify file transfers and ensure compatibility with RetroDECK, both file extensions are supported.
 

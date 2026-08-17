@@ -88,7 +88,7 @@ Cannot be played with a controller easily and is best used with a physical keybo
 
 ### Input Modes
 
-- **Default SAM Mode**: Letters, digits, and symbols are typed normally and automatically converted to the corresponding SAM key sequences.  
+- **Default SAM Mode**: Letters, digits and symbols are typed normally and automatically converted to the corresponding SAM key sequences.  
 - **Spectrum Mode**: Use when running Spectrum software.  
 - **Raw Mode**: Disables automatic key mappings.
 
@@ -170,7 +170,7 @@ or long program sequences.
 ## Using Hard Disks - Real or HDF
 
 SimCoupé emulates the **Atom** and **Atom Lite** hard disk interfaces. Atom DOS (BDOS)
-is compatible with the original **SAMDOS**, and hard disks are presented as an
+is compatible with the original **SAMDOS** and hard disks are presented as an
 array of floppy-sized records, ensuring strong compatibility with existing
 software.
 
@@ -267,7 +267,7 @@ The following describes all settings available in **Options (`F10`)**.
 
 | Setting                                    | Description                                                                                                           |
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| Allow booting from non-bootable disks      | Detects unbootable disks, temporarily replaces them with a bootable image, and restores the original disk after DOS boot. |
+| Allow booting from non-bootable disks      | Detects unbootable disks, temporarily replaces them with a bootable image and restores the original disk after DOS boot. |
 | Auto-load media inserted at startup screen | Automatically loads disks and tapes at the stripey boot screen.                                                      |
 | Fast boot after hardware reset              | Speeds up cold-boot, bypassing memory test delay.                                                                    |
 | Fast floppy disk access                      | Speeds up loading/saving from disks.                                                                                 |
@@ -339,7 +339,7 @@ The following describes all settings available in **Options (`F10`)**.
 
 ## Debugger
 
-The SimCoupé debugger provides code, text, data, and graphical memory views, with features like single-stepping, breakpoints, and execution tracing. It starts in disassembly view, highlighting the next instruction, with symbols shown for ROM and custom code (built with `pyz80 --mapfile=`). The register panel displays the current system state.
+The SimCoupé debugger provides code, text, data and graphical memory views, with features like single-stepping, breakpoints and execution tracing. It starts in disassembly view, highlighting the next instruction, with symbols shown for ROM and custom code (built with `pyz80 --mapfile=`). The register panel displays the current system state.
 
 ---
 

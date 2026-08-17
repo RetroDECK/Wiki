@@ -172,7 +172,7 @@ RetroDECK provides three custom profiles that you can modify if you have the nec
 | `custom-amiga600.fs-uae` | `retrodeck/storage/FS-UAE/Custom/` | `retrodeck/roms/amiga600/` | Custom Amiga 600 profile |
 | `custom-amiga1200.fs-uae` | `retrodeck/storage/FS-UAE/Custom/` | `retrodeck/roms/amiga1200/` | Custom Amiga 1200 profile |
 
-Edit the profile you want to use with a text editor, make your changes, and save the file.
+Edit the profile you want to use with a text editor, make your changes and save the file.
 
 ### Using a Custom Profile in ES-DE
 

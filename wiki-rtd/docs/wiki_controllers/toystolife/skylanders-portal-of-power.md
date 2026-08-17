@@ -8,7 +8,7 @@ The Spyro's Adventure portal was the first portal introduced in the Skylanders s
 
 **Giants Portal**
 
-The Giants portal looks very similar to the Spyro's Adventure portal but uses a wired USB connection instead of wireless. Since it is a wired device, it does not require batteries and lacks a battery compartment. The ring near the bottom of the portal is clear/gray rather than green, and the glyphs on the side of the portal are a darker color. It is intended for use with the game **Skylanders: Giants**, which was released on October 21, 2012[2](https://office.com?path='a9e2ff64-845d-4c27-af8d-14a745a3d349').
+The Giants portal looks very similar to the Spyro's Adventure portal but uses a wired USB connection instead of wireless. Since it is a wired device, it does not require batteries and lacks a battery compartment. The ring near the bottom of the portal is clear/gray rather than green and the glyphs on the side of the portal are a darker color. It is intended for use with the game **Skylanders: Giants**, which was released on October 21, 2012[2](https://office.com?path='a9e2ff64-845d-4c27-af8d-14a745a3d349').
 
 **Swap Force Portal**
 

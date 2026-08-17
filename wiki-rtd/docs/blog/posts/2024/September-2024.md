@@ -170,7 +170,7 @@ Yes, that is the goal.
 
 It should at least match the current Configurator in features.
 
-But this is as long as everything goes to plan, and we can keep the current momentum.
+But this is as long as everything goes to plan and we can keep the current momentum.
 
 FOSS development is volunteer work and the RetroDECK Team is doing our best to try to make this happen.
 
@@ -183,7 +183,7 @@ But sometimes other things in life take priority (good and bad).
 
 We have enabled the Godot Configurator in our Cooker Builds as a separate ES-DE menu entry.
 
-But as of this writing nothing is bound to any functions, and it won't do anything except allow you to click around.
+But as of this writing nothing is bound to any functions and it won't do anything except allow you to click around.
 
 It’s changing daily and will be in a state of constant flux until we are happy with the design.
 

@@ -33,7 +33,7 @@ After ten months of work and more than 2,300+ commits, our first pull request to
 
 <img src="../../../icedank.png" width="800" alt=""> 
 
-The internal discussions were intense within the team, and yes, our lead architect IceNine does deserve a raise.
+The internal discussions were intense within the team and yes, our lead architect IceNine does deserve a raise.
 
 ---
 

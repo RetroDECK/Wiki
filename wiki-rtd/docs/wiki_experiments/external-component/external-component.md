@@ -28,7 +28,7 @@ These experiments are created by the RetroDECK Team and/or Community. The guides
 
 ### Who Is This For?
 
-This guide is intended for advanced users, developers, and tinkerers who are comfortable experimenting, modifying configurations, and troubleshooting.
+This guide is intended for advanced users, developers and tinkerers who are comfortable experimenting, modifying configurations and troubleshooting.
 
 With sufficient technical expertise, this method enables the integration of virtually any compatible component into RetroDECK.
 
@@ -45,7 +45,7 @@ By leveraging the same internal tooling used by RetroDECK itself, any added comp
 
 `retrodeck/storage/retrodeck/external_components`. 
 
-This creates an open integration point that allows advanced users, developers, and tinkerers to interact directly with the internal framework in a structured and controlled manner, without modifying the read-only filesystem.
+This creates an open integration point that allows advanced users, developers and tinkerers to interact directly with the internal framework in a structured and controlled manner, without modifying the read-only filesystem.
 
 It also enables the addition of components beyond RetroDECK’s official scope, including software that cannot be distributed by the project due to licensing constraints, or differences in project vision (maybe you want to add Kodi to watch movies).
 

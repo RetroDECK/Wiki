@@ -1,10 +1,10 @@
 # component_manifest.json
 
-A JSON file that defines metadata, capabilities, and configuration logic for a RetroDECK component. This includes system compatibility, supported presets, menu integration, and core-specific settings.
+A JSON file that defines metadata, capabilities and configuration logic for a RetroDECK component. This includes system compatibility, supported presets, menu integration and core-specific settings.
 
 ## Description
 
-The `component_manifest.json` file provides both informational and functional data used by the RetroDECK Framework, Configurator menus, and API calls. 
+The `component_manifest.json` file provides both informational and functional data used by the RetroDECK Framework, Configurator menus and API calls. 
 
 Each manifest includes:
 

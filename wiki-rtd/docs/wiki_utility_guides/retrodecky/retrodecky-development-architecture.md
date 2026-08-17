@@ -11,12 +11,12 @@ RetroDECKY acts as an intermediary layer between **ES-DE / RetroDECK** (which ru
 | Subsystem | Responsibility |
 |-----------|----------------|
 | **Local HTTP service** | Receives game lifecycle `POST` requests from ES-DE scripts and serves ES-DE media and custom documents to the frontend. |
-| **Decky backend** | The plugin's Python layer that communicates with **Decky Loader**. The UI calls into it for actions, settings, setup checks, and document lists via the standard Decky plugin channel (separate from the local HTTP service). |
+| **Decky backend** | The plugin's Python layer that communicates with **Decky Loader**. The UI calls into it for actions, settings, setup checks and document lists via the standard Decky plugin channel (separate from the local HTTP service). |
 | **Event emission** | When a game event `POST` is handled, the backend emits an update through the Decky event emitter so the menu refreshes immediately rather than polling for the active game. |
 
-The **React** frontend retrieves media data from the local HTTP service, uses the **Decky backend** for structured data, and can dispatch **simulated keyboard shortcuts** to the active emulator or component.
+The **React** frontend retrieves media data from the local HTTP service, uses the **Decky backend** for structured data and can dispatch **simulated keyboard shortcuts** to the active emulator or component.
 
-<img src="./assets/architecture/architecture.svg" alt="Diagram showing how RetroDECKY sits between ES-DE/RetroDECK and SteamOS, illustrating the local HTTP service, Decky backend, and event emission data flow." width="700">
+<img src="./assets/architecture/architecture.svg" alt="Diagram showing how RetroDECKY sits between ES-DE/RetroDECK and SteamOS, illustrating the local HTTP service, Decky backend and event emission data flow." width="700">
 
 ---
 
@@ -34,7 +34,7 @@ Scripts are located under:
     └── game_start_RetroDECKY_v1.sh
 ```
 
-Each script sends a lightweight background HTTP `POST` request to RetroDECKY's local `/api/game-event` endpoint. Both payloads carry the same four fields provided by ES-DE: **ROM path**, **game name**, **system name**, and **system full name**. This allows the plugin to identify the currently running game.
+Each script sends a lightweight background HTTP `POST` request to RetroDECKY's local `/api/game-event` endpoint. Both payloads carry the same four fields provided by ES-DE: **ROM path**, **game name**, **system name** and **system full name**. This allows the plugin to identify the currently running game.
 
 #### Detected ES-DE Metadata
 

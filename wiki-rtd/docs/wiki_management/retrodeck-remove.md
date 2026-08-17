@@ -6,7 +6,7 @@
 
 - **Optional Steam Deck Step:** Switch to **Desktop Mode** →   `Steam Button` → **Power** → **Switch to Desktop**.
 - Open **Discover** or your preferred software manager.
-- Navigate to the **Installed** tab, locate **RetroDECK**, and select **Uninstall**.
+- Navigate to the **Installed** tab, locate **RetroDECK** and select **Uninstall**.
 
 ---
 

@@ -8,7 +8,7 @@ RetroDECK supports synchronizing your ES-DE “favorite” games with Steam ROM 
 
 This script scans RetroDECK’s gamelists for user-marked favorites and builds a manifest used by SRM to import (or remove) games into Steam. 
 
-The `steam_sync.sh` script in RetroDECK automates the process of exporting your curated list of retro games from ES-DE to Steam, maintaining a clean, up-to-date Steam library that reflects your favorites. Through manifest diffing, selective updating, and integration with SRM, Steam Sync provides a powerful yet unobtrusive way to merge retro gaming and Steam workflows.
+The `steam_sync.sh` script in RetroDECK automates the process of exporting your curated list of retro games from ES-DE to Steam, maintaining a clean, up-to-date Steam library that reflects your favorites. Through manifest diffing, selective updating and integration with SRM, Steam Sync provides a powerful yet unobtrusive way to merge retro gaming and Steam workflows.
 
 ### What it does
 
@@ -53,7 +53,7 @@ Therefore the script ensures Steam reflects the user’s current favorites in ES
 - Ensures SRM configuration is initialized if not present.
 - Walks through each system folder in `ES-DE/gamelists/`. Skipping cleanup folders and systems without gamelist files. 
 - For each favorite entry (`<game favorite="true">`), extracts the path, ensures the corresponding ROM exists under `roms/<system>/`, then adds a JSON object to a new manifest.
-- Uses JSON manipulation (via `jq`) to build a manifest file, compare with previous manifest, and detect additions or removals.
+- Uses JSON manipulation (via `jq`) to build a manifest file, compare with previous manifest and detect additions or removals.
 - Delegates to SRM via CLI to add or remove Steam shortcuts accordingly. 
 
 ---

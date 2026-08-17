@@ -24,7 +24,7 @@ If you encounter a problem with an component:
 - Use RetroDECK’s own support channels for any weird behavior.
 - If RetroDECK determines the issue comes from a built‑in component, the RetroDECK team will handle communication with the external developers.
 
-Our support is ours, and theirs are theirs! 
+Our support is ours and theirs are theirs! 
 
 ## How-to: Reporting an Problem
 
@@ -34,7 +34,7 @@ Our support is ours, and theirs are theirs!
 
 ### The wiki is the single source of truth for all RetroDECK documentation and information.
 
-The RetroDECK team works to propagate useful tips, solutions, and clarifications from Discord or other community venues into the wiki: either as new articles or updates to the FAQ.
+The RetroDECK team works to propagate useful tips, solutions and clarifications from Discord or other community venues into the wiki: either as new articles or updates to the FAQ.
 
 ### Discord & Matrix
 

@@ -4,7 +4,7 @@
 
 Mudlet is a MUD (Multi-User Dungeon) client that allows you to connect to text-based online multiplayer games (the precursors to modern MMOs).
 
-Mudlet enables MUD server maintainers to add visual elements and custom features, while allowing players to script, automate, and customize their gameplay experience.
+Mudlet enables MUD server maintainers to add visual elements and custom features, while allowing players to script, automate and customize their gameplay experience.
 
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️

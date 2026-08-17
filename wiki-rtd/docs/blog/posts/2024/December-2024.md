@@ -44,7 +44,7 @@ They are now RetroDECK Alumni with special roles on Discord.
 Life can sometimes pull us away from contributing to open source projects. We want to extend our heartfelt thanks to:
 
 - dottormac for their significant help with early testing of RetroDECK.
-- Lx32 for focusing on the SRM implementation, and for his earlier work on BoilR to finally add games to Steam.
+- Lx32 for focusing on the SRM implementation and for his earlier work on BoilR to finally add games to Steam.
 - MonkeyX for his contributions to the Godot Configurator and more.
 
 We wish them a happy journey ahead and for those who just got into entrepreneurship ventures we hope for a big success. 
@@ -72,7 +72,7 @@ In these examples, we will use the [Little Medusa - Demo](https://megacatstudios
 
 In this example, the `LittleMedusa_8bitdemo.nes` file is inside the `retrodeck/roms/nes` folder. 
 
-When you click on it, RetroDECK opens it with the Nintendo Entertainment System emulator, and the game starts. 
+When you click on it, RetroDECK opens it with the Nintendo Entertainment System emulator and the game starts. 
 
 RetroDECK knows that because you opened it from the `/roms/nes` folder, the game must correspond to that system.
 

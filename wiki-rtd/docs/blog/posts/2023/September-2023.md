@@ -35,7 +35,7 @@ But before we get into what we are working on we want to make a short statement.
 >
 >We also want to add a word for the developers of the third-party projects:
 >
->Please feel free to reach out to us, talk to us for any reason and share your ideas. We value your feedback and suggestions, and our door is always open for collaboration and improvements. You are the backbone of our project, and we appreciate your contributions.
+>Please feel free to reach out to us, talk to us for any reason and share your ideas. We value your feedback and suggestions and our door is always open for collaboration and improvements. You are the backbone of our project and we appreciate your contributions.
 >
 >You can find more about our dependencies on the wiki and how to donate to them or us:
 >
@@ -87,7 +87,7 @@ However, the entire radial menu system is a bit harder as many controllers do no
 
 **Status on the Multi-user system**
 
-We are still working hard on the Multi-user system, but it might not be ready for 0.8b as we had hoped. There are tons of complexity, and we want to make it right. Some parts of the development team have other IRL priorities that take preset over RetroDECK development (new baby incoming and fatherly duties).
+We are still working hard on the Multi-user system, but it might not be ready for 0.8b as we had hoped. There are tons of complexity and we want to make it right. Some parts of the development team have other IRL priorities that take preset over RetroDECK development (new baby incoming and fatherly duties).
 
 
 

@@ -4,7 +4,7 @@
 
 The Cyberbike controller was released on January 12, 2010 on the Nintendo Wii for Cyberbike Cycling Sports.
 
-The Cyberbike controller is a unique exercise bike controller designed to simulate the experience of cycling in a video game. This controller features a stationary bike with pedals, handlebars, and a seat, allowing players to physically pedal and steer while playing the game. 
+The Cyberbike controller is a unique exercise bike controller designed to simulate the experience of cycling in a video game. This controller features a stationary bike with pedals, handlebars and a seat, allowing players to physically pedal and steer while playing the game. 
 
 The Cyberbike controller connects to the gaming console and translates the player's physical movements into in-game actions, providing an immersive and interactive gaming experience. It is designed to promote physical activity while enjoying the fun of video gaming. 
 

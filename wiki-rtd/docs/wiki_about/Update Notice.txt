@@ -3,7 +3,7 @@
 We’re currently revamping the wiki for the upcoming 0.11.0b release. Over the next few weeks we’ll be:
 
 - Reorganizing existing pages for easier navigation 
-- Adding new sections, guides, and resources
+- Adding new sections, guides and resources
 - Polishing content to reflect the latest features and improvements
 
 While the site is under construction, some pages may move or be temporarily unavailable and might not reflect current stable. 

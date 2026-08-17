@@ -10,7 +10,7 @@ Depending on the system you are playing on, the button prompts may not match the
 
 ## Xbox Games
 
-The Xbox layout is used by **Xbox Controllers**, Steam Deck, Rog Alley, and many generic third-party PC or Xbox clone controllers.
+The Xbox layout is used by **Xbox Controllers**, Steam Deck, Rog Alley and many generic third-party PC or Xbox clone controllers.
 
 **Xbox - Button Layout:**
 

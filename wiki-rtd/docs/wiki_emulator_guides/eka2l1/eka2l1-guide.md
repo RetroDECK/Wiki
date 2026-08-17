@@ -16,7 +16,7 @@ EKA2L1 is an emulator for Nokia/Symbian smartphones and the Nokia N-Gage.
 - Some standard features available in other components may not yet be supported.
 - Controllers or other input devices may require manual configuration.
 - Compatibility may vary across the supported game library.
-- Functionality, performance, and compatibility may change as development progresses.
+- Functionality, performance and compatibility may change as development progresses.
 
 ---
 

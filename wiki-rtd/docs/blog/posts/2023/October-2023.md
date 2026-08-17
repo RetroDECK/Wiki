@@ -69,7 +69,7 @@ We will have templates for all the following:
 
 **Special notes on Generic:**
 
-To access all the hotkeys, you must have a controller that has all the normal inputs (two joysticks with clickable L3 and R3, four button dpad, four face buttons, four shoulder buttons, start, and select).
+To access all the hotkeys, you must have a controller that has all the normal inputs (two joysticks with clickable L3 and R3, four button dpad, four face buttons, four shoulder buttons, start and select).
 
 But if you have start and select you can always quit the game (even with a tiny NES USB clone controller).
 
@@ -130,6 +130,6 @@ A: You’re a meanie, but yes!
 
 ## That is all for this month!
 
-A minor patch 0.7.3b will be out later with Emulator updates. But the main feature will be ES-DE 2.2, so we will release it when the ES-DE team are ready, and we can implement it asap.
+A minor patch 0.7.3b will be out later with Emulator updates. But the main feature will be ES-DE 2.2, so we will release it when the ES-DE team are ready and we can implement it asap.
 
 

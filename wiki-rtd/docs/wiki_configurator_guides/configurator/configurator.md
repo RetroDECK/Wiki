@@ -10,7 +10,7 @@
 
 ## Overview
 
-<img src="../classic-configurator.png" width="800" alt="RetroDECK Configurator main menu showing all tool categories including Data Management, Settings, and Tools">
+<img src="../classic-configurator.png" width="800" alt="RetroDECK Configurator main menu showing all tool categories including Data Management, Settings and Tools">
 
 The **RetroDECK Configurator** is a comprehensive, multi-purpose utility integrated directly into RetroDECK.
 It serves as the primary management interface, giving users access to both core functionality and advanced tooling within the **RetroDECK Framework**.
@@ -18,7 +18,7 @@ It serves as the primary management interface, giving users access to both core 
 Key capabilities include:
 
 - Managing numerous system-wide RetroDECK features and settings.
-- Providing access to maintenance tools, data operations, and component-level controls.
+- Providing access to maintenance tools, data operations and component-level controls.
 - Acting as the bridge between the user interface and RetroDECK’s underlying framework and automation systems.
 
 ---
@@ -51,11 +51,11 @@ flatpak run net.retrodeck.retrodeck --configurator
 
 | **Choice**                 | **Action**                                                                 | **Comments**                       |
 |----------------------------|-----------------------------------------------------------------------------|------------------------------------|
-| **About RetroDECK 📖**     | View patch notes, credits, and other project information.                   |      |
+| **About RetroDECK 📖**     | View patch notes, credits and other project information.                   |      |
 | **Data Management 📂**     | Move, clean, empty or rebuild RetroDECK directories.                        |          |
 | **Open Component 🔧**      | Manually launch and configure individual components.  | *Advanced Users Only*       |
 | **Reset Components 🔄**    | Reset a specific component or restore all RetroDECK defaults.               |       |
-| **Settings ⚙️**            | Adjust core RetroDECK: Presets, Visuals, Tweaks, and Logins.                |           |
+| **Settings ⚙️**            | Adjust core RetroDECK: Presets, Visuals, Tweaks and Logins.                |           |
 | **Steam Tools 🕹️**        | Synchronize ES-DE ☀️ Favorites ☀️ or add RetroDECK to Steam.                |           |
 | **Tools ☎️**               | Run various tools: BIOS Checker, File Compressor, optional features, etc.   |     |
 

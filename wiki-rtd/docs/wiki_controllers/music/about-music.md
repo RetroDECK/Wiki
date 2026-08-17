@@ -2,7 +2,7 @@
 
 Music / Rhythm Controllers are specialized controllers designed for playing rhythm games. These games require players to match their inputs to the rhythm of the music, often using unique controllers that mimic musical instruments. This category includes a wide range of controllers from both third-party and first-party manufacturers.
 
-Rhythm games often feature controllers that resemble guitars, drums, dance pads, and even DJ turntables. These controllers provide a more immersive and engaging experience by allowing players to interact with the game in a way that feels like playing a real musical instrument.
+Rhythm games often feature controllers that resemble guitars, drums, dance pads and even DJ turntables. These controllers provide a more immersive and engaging experience by allowing players to interact with the game in a way that feels like playing a real musical instrument.
 
 ## Examples of Music / Rhythm Controllers
 

@@ -11,11 +11,11 @@ The we can use a tool like `Meld` to compare the original incoming manifest with
 
 Check if the header is similar to ours and take note of the differences, if something is added we might have to add it as well. After just delete it. [image1]
 What usually change is the sha and the url of the module, but sometimes the module instructions itselves may change like in this case [image2].
-So let's update our module and here's the results [image3]: in this case I removed the `>-` that is just garbage introduced by the converter. I replaced `/app` with `${FLATPAK_DEST}` but this is not actually needed, just more in line with the flatpak manifest standards, and got rid of all the `metainfo.xml` and `.desktop` files as they are needed for the original manifest and cannot be included into ours (in any case the flatpak builder will discard them as they are not called net.retrodeck.retrodeck).
+So let's update our module and here's the results [image3]: in this case I removed the `>-` that is just garbage introduced by the converter. I replaced `/app` with `${FLATPAK_DEST}` but this is not actually needed, just more in line with the flatpak manifest standards and got rid of all the `metainfo.xml` and `.desktop` files as they are needed for the original manifest and cannot be included into ours (in any case the flatpak builder will discard them as they are not called net.retrodeck.retrodeck).
 
 In this case the original manifest header got an env variable `IN_FLATPAK: 1` but to not make it interfere with the rest of the RetroDECK modules we moved it in the Steam Rom Manager module itself.
 Here is the comparsion results after the edits [image4].
-Do the same for the component's libraries, and be aware that if a library is shared with other modules will be in the common region (up).
+Do the same for the component's libraries and be aware that if a library is shared with other modules will be in the common region (up).
 Paste the new edited manifest over ours, check the changes and commit it like `SRM: module updated`.
 
 **NOTE:** it's a good practice to commit every single module update and not in bulk as if something is wrong is easier to just revert the single commit.
@@ -44,7 +44,7 @@ It means that this module is automatically updated (rolling updates or nightlies
 ## PPSSPP, Dolphin, MelonDS, Solarus
 **Type:** internally outsourced module
 These modules are internally outsourced, it means that the actual module build is not happening on RetroDECK's manifest but on a repo in our organization.
-This repo is producing a flatpak artifact and publish it as a release: we grab this latest release artifact and inject it with proper manifest modules, so this part of the RetroDECK manifest is static, and should not be edited.
+This repo is producing a flatpak artifact and publish it as a release: we grab this latest release artifact and inject it with proper manifest modules, so this part of the RetroDECK manifest is static and should not be edited.
 We are doing this because is nonsense to build the same versions at every build, multiply this for all the modules and you understand why we drastically reduced the building time.
 
 So the change is not happening here but in the outsourced module: let's follow the link to the manifest in our organization as indicated on the module itself: https://github.com/RetroDECK/org.ppsspp.PPSSPP

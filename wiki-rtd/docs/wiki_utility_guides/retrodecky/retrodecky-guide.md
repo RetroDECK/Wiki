@@ -27,7 +27,7 @@ The RetroDECK team provides advisory support and development guidance to assist 
 | Feature | Description |
 |---------|-------------|
 | **Running Game Actions** | Displays hotkey actions specific to the currently active game or emulator. |
-| **Running Game Information** | Shows metadata pulled from ES-DE and RetroDECK, including cover artwork, box art, and other game data. |
+| **Running Game Information** | Shows metadata pulled from ES-DE and RetroDECK, including cover artwork, box art and other game data. |
 | **Hotkey Triggering** | Executes hotkey functions via Decky menu buttons rather than physical keyboard shortcuts, button combinations, or radial menus. |
 | **Boot Into RetroDECK** | Automatically launches RetroDECK when Steam enters Game Mode. |
 | **PDF Manual Viewer** | View game manuals within the active game session without exiting. |
@@ -104,7 +104,7 @@ To reload the setup status if needed: navigate to **Decky Settings â†’ Plugins â
 
 ## Guide: Custom Documents
 
-You can attach custom reference documents to individual games for in-session viewing. Supported formats are **PDF**, **TXT**, and **Markdown** (`.md` or `.markdown`). Documents can be added in two ways:
+You can attach custom reference documents to individual games for in-session viewing. Supported formats are **PDF**, **TXT** and **Markdown** (`.md` or `.markdown`). Documents can be added in two ways:
 
 **Via the Plugin UI**
 

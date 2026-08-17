@@ -18,7 +18,7 @@ You will not get any of the RetroDECK features for these systems, such as:
 
 Essentially, you are creating an Anti-RetroDECK / Bizzaro-RetroDECK / Absolute Heresy inside of RetroDECK. 
 
-Your system will be cluttered, and you will be bound by each emulator's defaults, which you will need to change to your liking.
+Your system will be cluttered and you will be bound by each emulator's defaults, which you will need to change to your liking.
 
 **There is no good reason to launch external emulators via RetroDECK**
 

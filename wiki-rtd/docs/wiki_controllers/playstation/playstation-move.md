@@ -8,7 +8,7 @@ The PlayStation Eye, released on October 23, 2007, is a digital camera device de
 
 **The PlayStation Move** 
 
-Released on September 15, 2010, is a motion game controller developed by Sony for the PlayStation 3 console. It features motion sensing technology using a three-axis accelerometer, three-axis angular rate sensor, and a magnetometer. The Move controller is tracked using the PlayStation Eye camera, which detects the position and movement of the controller's glowing orb. The PlayStation Move system includes both the motion controller and the navigation controller, and it is compatible with the PlayStation 4 and PlayStation VR platforms.
+Released on September 15, 2010, is a motion game controller developed by Sony for the PlayStation 3 console. It features motion sensing technology using a three-axis accelerometer, three-axis angular rate sensor and a magnetometer. The Move controller is tracked using the PlayStation Eye camera, which detects the position and movement of the controller's glowing orb. The PlayStation Move system includes both the motion controller and the navigation controller and it is compatible with the PlayStation 4 and PlayStation VR platforms.
 
 
 ### Steam Input support

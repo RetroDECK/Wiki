@@ -155,9 +155,9 @@ We decided on a green and yellow logo that symbolize ingredients that are not ye
 
 **RetroDECK Countertop** is a development branch based on **Cooker** and intended for developers. 
 
-It is a minimal, stripped-down build of RetroDECK that includes the RetroDECK Framework, ES-DE, and a set of development tools.
+It is a minimal, stripped-down build of RetroDECK that includes the RetroDECK Framework, ES-DE and a set of development tools.
 
-Countertop excludes the standard bundled components, providing a lightweight environment for experimentation, tinkering, and integration work. 
+Countertop excludes the standard bundled components, providing a lightweight environment for experimentation, tinkering and integration work. 
 
 It serves as a practical sandbox for developers who wish to prototype and test new components within the RetroDECK ecosystem without repeatedly downloading the full RetroDECK package with all components included.
 

@@ -149,7 +149,7 @@ All `component_recipe.json` contain at least four parts:
 
 **Extras**  
 
-   - Minimum extras: component launcher, component manifest, and shipped default config.  
+   - Minimum extras: component launcher, component manifest and shipped default config.  
    - May also include prepared symlinks or other locally‑available files that do **not** come from downloaded sources.
 
 ### Optional Inclusions
@@ -263,7 +263,7 @@ Items to copy from the extracted source into the final artifact.
 |-------|-------------|
 | **type** | Defines the kind of asset operation.<br><br>`dir` - Pull an entire directory<br>`file` - Pull a single file<br>`symlink` - Create a symbolic link<br>`create` - Create a file<br>`archive` - Create an archive<br>`merge` - Merge files<br>`file-rename` - Rename files<br>`script` - Run a bash script |
 | **source** | Path to the desired or created file, script, or directory,<br>**relative to** `$EXTRACTED_PATH` (from the extraction stage).<br>Example: `usr/bin` |
-| **dest** | Destination **relative to** `$COMPONENT_ARTIFACT_ROOT` for `dir`, `file`, and `create`.<br><br>For `symlink`, this is an absolute target path.<br>If a relative path is provided, it expands to:<br>`$COMPONENT_ARTIFACT_ROOT/<dest>`<br><br>For `archive`, specify the output archive type:<br>`7z`, `zip`, `tar.gz`, `tgz`, `tar.bz2`, `tbz2`, `tar.xz`, `txz`, `tar` |
+| **dest** | Destination **relative to** `$COMPONENT_ARTIFACT_ROOT` for `dir`, `file` and `create`.<br><br>For `symlink`, this is an absolute target path.<br>If a relative path is provided, it expands to:<br>`$COMPONENT_ARTIFACT_ROOT/<dest>`<br><br>For `archive`, specify the output archive type:<br>`7z`, `zip`, `tar.gz`, `tgz`, `tar.bz2`, `tbz2`, `tar.xz`, `txz`, `tar` |
 | **contents** | *(Optional)* Allows inserting provided content directly into the destination file.<br>For `script`, this can also define arguments such as `--verbose`. |
 
 
@@ -318,7 +318,7 @@ Use `hunt_libraries.sh` to automatically generate the `libs[]` array:
 
 [hunt_libraries.sh](https://github.com/RetroDECK/RetroDECK/blob/cooker/developer_toolbox/hunt_libraries.sh)
 
-Simply run the script against the binary you are integrating, and it will help identify the required libraries.
+Simply run the script against the binary you are integrating and it will help identify the required libraries.
 
 **Note:**  
 This is not a perfect solution, but it provides a solid starting point and can significantly speed up the process.
@@ -608,8 +608,8 @@ In rare cases where a required library is not available via the component packag
 **Explanation**
 
 1. **Core source** - Downloads `RetroArch.7z` and extracts it as an archive.  
-2. **First additional source** - Treats the already‑extracted AppImage (`RetroArch-Linux-x86_64.AppImage`) as a *local* source, extracts it, and copies its `usr/bin` directory to the artifact’s `bin` folder.  
-3. **Second additional source** - Downloads a second archive (`RetroArch_cores.7z`), extracts it, and copies the cores directory into the artifact’s `cores` folder.
+2. **First additional source** - Treats the already‑extracted AppImage (`RetroArch-Linux-x86_64.AppImage`) as a *local* source, extracts it and copies its `usr/bin` directory to the artifact’s `bin` folder.  
+3. **Second additional source** - Downloads a second archive (`RetroArch_cores.7z`), extracts it and copies the cores directory into the artifact’s `cores` folder.
 
 By ordering the additional sources array this way, the Alchemist ensures that each step has the necessary data from the previous step before proceeding.
 
@@ -692,7 +692,7 @@ By ordering the additional sources array this way, the Alchemist ensures that ea
 
 ### Why This Verbose Multi‑Object Approach?
 
-- **Fine‑grained control:** Each object can specify its own assets, libraries, and extras, ensuring precise handling of files.  
+- **Fine‑grained control:** Each object can specify its own assets, libraries and extras, ensuring precise handling of files.  
 - **Avoids conflicts:** Prevents issues where a parent archive contains multiple files with the same extensions (blob‑matching problems).  
 - **Flexibility:** Different classes of files (assets, libs, etc.) can originate from distinct sources, allowing consistent and reproducible builds.  
 
@@ -707,7 +707,7 @@ By processing each source object sequentially, the Alchemist maintains strict co
 | Variable | Description |
 |----------|-------------|
 | **$REPO_ROOT** | Set to the root of the git-cloned repository if `alchemist.sh` is invoked inside one.<br>Otherwise defaults to the directory from which the script is called. |
-| **$WORKDIR** | Working directory for the current component build.<br>Holds downloaded sources, extracted files, and the temporary artifact directory.<br>Can be overridden via an argument to `alchemist.sh`.<br>Otherwise falls back to `$DEFAULT_WORKDIR` defined in `defaults.sh`. |
+| **$WORKDIR** | Working directory for the current component build.<br>Holds downloaded sources, extracted files and the temporary artifact directory.<br>Can be overridden via an argument to `alchemist.sh`.<br>Otherwise falls back to `$DEFAULT_WORKDIR` defined in `defaults.sh`. |
 | **$COMPONENT_NAME** | Name of the component currently being processed.<br>Should match the component directory name in the components repository for consistency. |
 | **$COMPONENT_ARTIFACT_ROOT** | Path to the final artifact directory where all files destined for the archive are placed.<br>Computed as:<br>`$WORKDIR/$COMPONENT_NAME-artifact` |
 
@@ -766,7 +766,7 @@ At a high level, the Alchemist processes information in this loop:
 1. **Read** `component_recipe.json` file.  
 2. **Read** component name from the root key.  
 3. **Generate** a set of *parent objects* to be processed.  
-   - Each parent object contains download sources, extraction commands, asset‑gathering instructions, library‑gathering instructions, and extras‑gathering instructions.  
+   - Each parent object contains download sources, extraction commands, asset‑gathering instructions, library‑gathering instructions and extras‑gathering instructions.  
 4. **Process** each object sequentially.  
 5. **Compress** the contents of the `*-artifact` directory for storage.
 

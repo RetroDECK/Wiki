@@ -22,7 +22,7 @@ Please read carefully all information on this page.
 Development builds intended for other developers.
 
 - Based on the current Cooker release.  
-- Includes only ES-DE, development tools, and the RetroDECK framework, no additional components.  
+- Includes only ES-DE, development tools and the RetroDECK framework, no additional components.  
 - This is still a **testing branch** and backup steps still apply.
 
 ### Cooker Builds
@@ -77,7 +77,7 @@ Master releases are published on the main Git release channel and represent comp
 
 Only builds published on **Flathub** are considered stable releases.
 
-- Fully vetted, stable, and suitable for end users.
+- Fully vetted, stable and suitable for end users.
 - Represent the final, publicly supported version of the software.
 
 ---
@@ -141,7 +141,7 @@ Because the `retrodeck/` and `/var` directories are shared across versions and b
 
 Regardless of which testing build you use, taking backups is always recommended.
 
-If something goes wrong and you **do not** have backups, your ROMs, BIOS files, save data, and configuration files may be **permanently lost**.
+If something goes wrong and you **do not** have backups, your ROMs, BIOS files, save data and configuration files may be **permanently lost**.
 
 The RetroDECK Team is not responsible for any data loss.
 

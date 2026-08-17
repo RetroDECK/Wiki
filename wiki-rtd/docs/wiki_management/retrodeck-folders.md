@@ -11,7 +11,7 @@ This page provides an overview of the RetroDECK Directory structure for **user-d
 | Directory Path                                          | Directory Name / Description                | Description                                                                 |
 |------------------------------------------------------|-----------------------------------------|-----------------------------------------------------------------------------|
 | retrodeck/                                           | user-data Directory                          | Contains all RetroDECK user data. Location is dynamic and chosen by the user. |
-| ~/.var/app/net.retrodeck.retrodeck/                 | Flatpak Root Directory                      | Exposes configuration, cache, and system data from the Flatpak environment. |
+| ~/.var/app/net.retrodeck.retrodeck/                 | Flatpak Root Directory                      | Exposes configuration, cache and system data from the Flatpak environment. |
 | ~/.var/app/net.retrodeck.retrodeck/cache/           | Cache Directory                             | Stores cache files and temporary data for RetroDECK components.             |
 | ~/.var/app/net.retrodeck.retrodeck/config/          | Config Directory                            | Stores configuration files for RetroDECK components.                        |
 | ~/.var/app/net.retrodeck.retrodeck/config/retrodeck/ | RetroDECK Config Directory                  | Contains the main `retrodeck.cfg` configuration file.                        |
@@ -49,7 +49,7 @@ This page provides an overview of the RetroDECK Directory structure for **user-d
 |---------------------|-------------------------------|---------------------------------|
 | collections         | Collections Directory            | Stores custom ES-DE collections. |
 | custom_systems      | Custom Systems Directory         | Contains user-defined or extra systems. |
-| downloaded_media    | Downloaded Media Directory       | Holds media assets like images, videos, and metadata. |
+| downloaded_media    | Downloaded Media Directory       | Holds media assets like images, videos and metadata. |
 | gamelists           | Gamelists Directory              | Contains ES-DE gamelist.xml files for system organization. |
 | screensavers        | Screensavers Directory           | Stores screensavers for the ES-DE interface. |
 | scripts             | Scripts Directory                | Stores custom scripts for the ES-DE interface. |
@@ -93,7 +93,7 @@ RetroDECK Follows the ES-DE ROMs Directory Structure.
 | 3do | 3DO | 32-bit home console known for multimedia capabilities and high-quality graphics. |
 | adam | Coleco Adam | Home computer and game console hybrid released by Coleco. |
 | amiga | Amiga | Family of personal computers known for advanced graphics and sound capabilities. |
-| amiga1200 | Amiga 1200 | Advanced model of Amiga with improved graphics, sound, and processing power. |
+| amiga1200 | Amiga 1200 | Advanced model of Amiga with improved graphics, sound and processing power. |
 | amiga600 | Amiga 600 | Compact version of Amiga with fewer expansion options. |
 | amigacd32 | Amiga CD32 | CD-ROM based game console version of the Amiga computer. |
 | amstradcpc | Amstrad CPC | 8-bit home computer series popular in Europe. |
@@ -137,7 +137,7 @@ RetroDECK Follows the ES-DE ROMs Directory Structure.
 | electron | Acorn Electron | Budget 8-bit home computer developed by Acorn. |
 | emulators | Emulators | Software that mimics other systems or consoles. |
 | famicom | Nintendo Famicom | Japanese version of the Nintendo Entertainment System (NES). |
-| fba | Final Burn Alpha | Arcade emulator for CPS, Neo Geo, and other boards. |
+| fba | Final Burn Alpha | Arcade emulator for CPS, Neo Geo and other boards. |
 | fbneo | Final Burn Neo | Updated version of Final Burn Alpha with additional features. |
 | fds | Famicom Disk System | Floppy disk add-on for Famicom in Japan. |
 | flash | Adobe Flash | Directory containing Flash game or animation files. |

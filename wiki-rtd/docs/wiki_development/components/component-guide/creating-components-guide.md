@@ -10,7 +10,7 @@ Creating a new RetroDECK component is a flexible process that can vary depending
 
 **Note:**
 
-There’s no one-size-fits-all guide for adding a component. Each component is unique software with its own quirks, requirements, and integration challenges. Use this guide as a starting point, but expect to adapt based on the specifics of what you're working with.
+There’s no one-size-fits-all guide for adding a component. Each component is unique software with its own quirks, requirements and integration challenges. Use this guide as a starting point, but expect to adapt based on the specifics of what you're working with.
 
 ---
 

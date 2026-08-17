@@ -88,7 +88,7 @@ Directly into the folder
 
 ## Controls
 
-XRoar supports multiple input methods-including physical controllers, keyboards, and mice. Though control behavior may vary between games since the originals were designed for home computers.
+XRoar supports multiple input methods-including physical controllers, keyboards and mice. Though control behavior may vary between games since the originals were designed for home computers.
 
 ### Joystick / Controller Support
 
@@ -144,7 +144,7 @@ The **Hardware → Machine** menu in XRoar lets you choose which system you want
 | **Tandy MC-10** | MC-10 | NTSC | Compact low-cost 6803 machine; simpler BASIC and limited RAM. |
 | **Matra & Hachette Alice** | MC-10 family | PAL (France) | French variant of the MC-10 with cosmetic and ROM differences. |
 
-Switching machines changes the emulated hardware, such as available RAM, keyboard layout, video mode, and ROM behavior.
+Switching machines changes the emulated hardware, such as available RAM, keyboard layout, video mode and ROM behavior.
 
 ### Choosing the Right Machine
 

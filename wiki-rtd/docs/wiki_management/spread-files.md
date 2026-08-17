@@ -25,7 +25,7 @@ Symbolic Links (symlinks) allow you to distribute files across multiple storage 
 
 **Example: Linking Wii Games**
 
-You have Wii backups on an external drive named `2nddrive` in a folder called `wii games`, and you want them accessible in: `~/retrodeck/roms/wii/`
+You have Wii backups on an external drive named `2nddrive` in a folder called `wii games` and you want them accessible in: `~/retrodeck/roms/wii/`
 
 Full path to external folder: `/var/mnt/2nddrive/wii games`
 
@@ -34,7 +34,7 @@ Full path to external folder: `/var/mnt/2nddrive/wii games`
 1. Navigate to `~/retrodeck/roms/wii/`.
 2. Right-click an empty area and select **Create New → Link to File or Folder**.
 3. Click the file browser button and choose **Folder**.
-4. Locate `/var/mnt/2nddrive/wii games`, highlight it, and click **OK**.
+4. Locate `/var/mnt/2nddrive/wii games`, highlight it and click **OK**.
 
 **Result:**
 

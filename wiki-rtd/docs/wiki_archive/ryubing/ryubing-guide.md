@@ -28,7 +28,7 @@ It was installed under:
 - Some standard features available in other components may not yet be supported.
 - Controllers or other input devices may require manual configuration.
 - Compatibility may vary across the supported game library.
-- Functionality, performance, and compatibility may change as development progresses.
+- Functionality, performance and compatibility may change as development progresses.
 
 ---
 
@@ -128,7 +128,7 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
-Yes, Ryubing requires `prod.keys`, `title.keys`, and `.nca` files for proper operation.
+Yes, Ryubing requires `prod.keys`, `title.keys` and `.nca` files for proper operation.
 
 ### How-to: Install the firmware
 

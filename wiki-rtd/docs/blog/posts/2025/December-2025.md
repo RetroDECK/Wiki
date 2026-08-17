@@ -14,7 +14,7 @@ The RetroDECK Team have been hard at work stirring the development cauldron.
 
 ## Happy Holidays & Happy New Year
 
-As the final blog post of the year, the team wishes everyone happy holidays to those who celebrate. We also extend warm wishes for a wonderful Lucia Day to our friends in Italy and the Nordic countries, and a Happy New Year to all.
+As the final blog post of the year, the team wishes everyone happy holidays to those who celebrate. We also extend warm wishes for a wonderful Lucia Day to our friends in Italy and the Nordic countries and a Happy New Year to all.
 
 🎅🎁🤶 🎆🧨🎇 🕯️👱‍♀️🕯️
 
@@ -43,9 +43,9 @@ As the final blog post of the year, the team wishes everyone happy holidays to t
 
 ## 0.10.0b Testing Status
 
-Testing is progressing well thanks to our community testers. A Steam Input related bug was identified, documented, and reported to Valve.
+Testing is progressing well thanks to our community testers. A Steam Input related bug was identified, documented and reported to Valve.
 
-Current efforts are focused on polishing, iteration, and bug fixing, and steady progress is being made.
+Current efforts are focused on polishing, iteration and bug fixing and steady progress is being made.
 
 ### Release when?!
 

@@ -4,7 +4,7 @@
 
 The Steam Deck, released on February 25, 2022, is a handheld gaming computer developed by Valve Corporation. 
 
-The Steam Deck OLED, introduced on November 16, 2023, features a brighter and larger OLED display, improved battery life, and enhanced cooling features.
+The Steam Deck OLED, introduced on November 16, 2023, features a brighter and larger OLED display, improved battery life and enhanced cooling features.
 
 The Built-In Controller is known as: Neptune
 
@@ -39,7 +39,7 @@ KERNEL=="hidraw*", KERNELS=="*28DE:*", MODE="0666"
 
 ## Input Map
 
-<img src="../../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550" alt="Steam Deck controller input map labelling all buttons, triggers, trackpads, sticks, and d-pad">
+<img src="../../../wiki_images/graphics/steamdeck/steam-deck-inputs.jpg" width="550" alt="Steam Deck controller input map labelling all buttons, triggers, trackpads, sticks and d-pad">
 
 ## RetroDECK Hotkeys
 

@@ -4,7 +4,7 @@
 
 # **The RetroDECK Blog** 
 
-Official updates, development insights, and the latest news from the RetroDECK team.
+Official updates, development insights and the latest news from the RetroDECK team.
 
 ---
 

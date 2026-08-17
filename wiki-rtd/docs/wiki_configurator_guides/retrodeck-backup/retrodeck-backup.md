@@ -10,7 +10,7 @@ The Backup RetroDECK tool creates a `.tar` file of your selected backup type and
 
 `retrodeck/backups/`
 
-**Note:** Backup duration and required storage space depend on the backup type, your hardware, and the amount of data being backed up.
+**Note:** Backup duration and required storage space depend on the backup type, your hardware and the amount of data being backed up.
 
 ### Using the Backup RetroDECK Tool
 
@@ -18,7 +18,7 @@ The Backup RetroDECK tool creates a `.tar` file of your selected backup type and
 2. Navigate to **Data Management Tools** → **Backup RetroDECK**.  
 3. Choose one of the following backup options:
 
-- **Core Backup**: Backs up essential files only, such as saves, states, and gamelists.
+- **Core Backup**: Backs up essential files only, such as saves, states and gamelists.
 - **Custom Backup**: Allows selection of specific folders to back up.
 - **Complete Backup**: Backs up all data, including games and downloaded media.
 

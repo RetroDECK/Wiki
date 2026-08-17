@@ -3,7 +3,7 @@
 
 <img src="../../../wiki_icons/pixelitos/folder-red-activities.png" width="75" alt="">
 
-Libraries in RetroDECK can live in three main places. This structure helps keep things clean, efficient, and modular.
+Libraries in RetroDECK can live in three main places. This structure helps keep things clean, efficient and modular.
 
 ## Library Priority Order
 

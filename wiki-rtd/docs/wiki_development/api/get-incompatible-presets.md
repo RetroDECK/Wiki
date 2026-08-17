@@ -5,7 +5,7 @@
 ### Description
 
 
-This API call returns a key-value list of all known incompatible presets. Some presets cannot be enabled simultaneously (e.g., `borders` and `widescreen`), and this information can be used in a GUI to prevent conflicts. For example, users can be warned if they attempt to enable a preset that conflicts with one already active.
+This API call returns a key-value list of all known incompatible presets. Some presets cannot be enabled simultaneously (e.g., `borders` and `widescreen`) and this information can be used in a GUI to prevent conflicts. For example, users can be warned if they attempt to enable a preset that conflicts with one already active.
 
 ### Applicable Data Keys
 

@@ -3,7 +3,7 @@ date: 2023-12-18
 ---
 # December 2023: RetroDECK's Doomy December
 
-Twas the night before Christmas, and all through Mars space.<br>
+Twas the night before Christmas and all through Mars space.<br>
 Not a creature was stirring, all over the base. <br>
 The chainsaws were hung by the fireplace with care. <br>
 In hopes that the demons would soon be there.<br>

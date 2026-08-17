@@ -108,7 +108,7 @@ Good controller support should not be expected, this little hidden gem emulator 
 
 <img src="../../../vpinballx-mrbubble.png" width="600" alt="">
 
-Visual Pinball X (VPX) is a virtual pinball engine designed to accurately simulate real-world pinball tables with advanced physics, lighting, and scripting support.
+Visual Pinball X (VPX) is a virtual pinball engine designed to accurately simulate real-world pinball tables with advanced physics, lighting and scripting support.
 
 The RetroDECK team is looking for community contributions and expertise in configuring **VPinballX.ini** for:
 
@@ -138,7 +138,7 @@ Mudlet will be the first client-type component added to RetroDECK. A client is a
 
 Mudlet is a powerful MUD (Multi-User Dungeon) client that connects players to text-based online multiplayer games, the precursors to modern MMOs.
 
-Enabling server maintainers to add visual elements and custom features and allowing players to script, automate, and fully customize their gameplay experience.
+Enabling server maintainers to add visual elements and custom features and allowing players to script, automate and fully customize their gameplay experience.
 
 You'll be able to connect using our new `.mud` files and that are tied to server profiles, with all `.mud`  and server specific files stored in `retrodeck/roms/muds/`.
 
@@ -154,7 +154,7 @@ Ironwail is a Quake engine based on QuakeSpasm.
 
 This engine improves performance by offloading substantial processing from the CPU to the GPU, including tasks such as culling and lightmap updates. 
 
-It leverages modern OpenGL features such as instancing, compute shaders, persistent buffer mapping, indirect multi-draw, and bindless textures. As a result, it can maintain high frame rates even on highly complex maps.
+It leverages modern OpenGL features such as instancing, compute shaders, persistent buffer mapping, indirect multi-draw and bindless textures. As a result, it can maintain high frame rates even on highly complex maps.
 
 ---
 
@@ -164,7 +164,7 @@ It leverages modern OpenGL features such as instancing, compute shaders, persist
 
 <img src="../../../ecwolf-wolf.png" width="600" alt="">
 
-ECWolf is a *Wolfenstein 3D*, *Spear of Destiny*, and *Super 3D Noah's Ark*, engine based of Wolf4SDL.
+ECWolf is a *Wolfenstein 3D*, *Spear of Destiny* and *Super 3D Noah's Ark*, engine based of Wolf4SDL.
 
 It incorporates substantial code from ZDoom and focuses on extensive modding capabilities without requiring source code modification. 
 

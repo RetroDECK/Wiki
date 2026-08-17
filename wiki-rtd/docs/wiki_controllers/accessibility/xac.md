@@ -6,7 +6,7 @@
 
 The Xbox Adaptive Controller (XAC), released on September 4, 2018, is a video game controller designed by Microsoft for Windows PCs and the Xbox One and Xbox Series X/S consoles. 
 
-It is a unified hub for devices that helps make gaming more accessible for gamers with limited mobility, allowing them to connect external devices such as switches, buttons, mounts, and joysticks to create a custom controller experience.
+It is a unified hub for devices that helps make gaming more accessible for gamers with limited mobility, allowing them to connect external devices such as switches, buttons, mounts and joysticks to create a custom controller experience.
 
 ### Steam Input Support
 

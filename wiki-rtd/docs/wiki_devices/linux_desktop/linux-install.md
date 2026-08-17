@@ -233,8 +233,8 @@ Place required BIOS/Firmware files in (if the component require it):
 
 <img src="../../../wiki_images/logos/es-de-logo.png" width="55" alt="Es De logo">
 
-ES-DE is the graphical interface where you browse, select, and launch your games that RetroDECK uses.
-Understanding its basics will help you customize themes, scrape metadata, manage playlists, and more.
+ES-DE is the graphical interface where you browse, select and launch your games that RetroDECK uses.
+Understanding its basics will help you customize themes, scrape metadata, manage playlists and more.
 
 **Read more:**
 
@@ -247,7 +247,7 @@ Understanding its basics will help you customize themes, scrape metadata, manage
 
 <img src="../../../wiki_icons/pixelitos/antimicrox.png" width="50" alt="">
 
-RetroDECK uses Steam Input, and each emulator has consistent hotkeys for save states, menus, fast-forward, screenshots, and more.
+RetroDECK uses Steam Input and each emulator has consistent hotkeys for save states, menus, fast-forward, screenshots and more.
 
 **Read more:**
 

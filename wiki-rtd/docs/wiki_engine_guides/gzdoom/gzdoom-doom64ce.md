@@ -6,7 +6,7 @@
 
 Building on **PSX DOOM TC** and **DOOM 64 Retribution**, it updates the originals to leverage recent GZDoom capabilities and adds features previously unavailable.
 
-Highly modular, **Doom 64 CE** allows players to choose a near-vanilla experience or enable enhancements like upscaled textures, PBR materials, and advanced particle effects.
+Highly modular, **Doom 64 CE** allows players to choose a near-vanilla experience or enable enhancements like upscaled textures, PBR materials and advanced particle effects.
 
 
 ---

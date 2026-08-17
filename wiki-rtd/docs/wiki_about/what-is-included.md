@@ -40,13 +40,13 @@ It can help with:
  Feature / Tool | Description |
 |----------------|-------------|
 | **Game Compression** | Helps compress and optimize game files for storage efficiency. |
-| **Texture Pack & Mod Management** | Simplifies installing, updating, and organizing texture packs and mods. |
+| **Texture Pack & Mod Management** | Simplifies installing, updating and organizing texture packs and mods. |
 | **File Management** | Provides convenient tools for organizing and handling various RetroDECK directories. |
-| **Troubleshooting Tools** | Includes a BIOS checker, multi-file structure checker, and options for partial or full resets of specific functions. |
+| **Troubleshooting Tools** | Includes a BIOS checker, multi-file structure checker and options for partial or full resets of specific functions. |
 | **Automatic Installation of Free BIOS/Firmware** | Automatically installs BIOS or firmware that is legally redistributable under open-source licenses. |
 | **Steam Input Profile Installer** | Installs prebuilt controller profiles for devices like the Steam Deck and external gamepads. |
-| **Easy Management of User Content** | Simplifies handling of `mods`, `roms`, `texture_packs`, `scraped media`, `screenshots`, `saves/states`, `gamelists`, and more. |
-| **Global Presets** | Allows enabling presets across multiple emulators at once, such as: `RetroAchievements`, `Borders`, `Widescreen Mode`, `Swap A/B X/Y for Nintendo games`, and more. |
+| **Easy Management of User Content** | Simplifies handling of `mods`, `roms`, `texture_packs`, `scraped media`, `screenshots`, `saves/states`, `gamelists` and more. |
+| **Global Presets** | Allows enabling presets across multiple emulators at once, such as: `RetroAchievements`, `Borders`, `Widescreen Mode`, `Swap A/B X/Y for Nintendo games` and more. |
 | **Steam Sync** | Synchronizes RetroDECK favorites with Steam. |
 | **Additional Utilities** | More helpful tools and features to streamline the RetroDECK experience. |
 

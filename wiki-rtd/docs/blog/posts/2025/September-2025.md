@@ -92,7 +92,7 @@ We’re experimenting with several components simultaneously, thanks the the new
 
 <img src="../../../eka2l1-logo.png" width="75" alt=""> 
 
-*N‑Gage, N‑Gage II, and Symbian devices emulator EKA2L1.*
+*N‑Gage, N‑Gage II and Symbian devices emulator EKA2L1.*
 
 ### Flycast  
 

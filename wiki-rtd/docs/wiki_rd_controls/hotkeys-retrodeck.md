@@ -130,7 +130,7 @@ These hotkeys are built into RetroArch and function across supported cores.
 
 ### Arcade Systems: Additional Hotkeys
 
-These hotkeys work for RetroArch, MAME, and other arcade systems.
+These hotkeys work for RetroArch, MAME and other arcade systems.
 
 | Function       | Button / Combination | System Support                                   | Comment |
 | :------------- | :-----------------: | :---------------------------------------------- | :------ |

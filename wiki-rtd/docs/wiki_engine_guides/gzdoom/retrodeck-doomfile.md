@@ -60,7 +60,7 @@ In this example, we create two folders under the `/roms/doom/` folder, with the 
 
 `/retrodeck/roms/doom/iwads/`
 
-In the `iwads` folder, you can place one or all of the official game WADs made by ID Software/Bethesda, their addons, and/or Freedoom so they are not mixed up with the mods.
+In the `iwads` folder, you can place one or all of the official game WADs made by ID Software/Bethesda, their addons and/or Freedoom so they are not mixed up with the mods.
 
 ---
 
@@ -121,7 +121,7 @@ DOOM2.WAD
 PB_Staging_9f2561c.pk3
 ```
 
-The DOOM2.WAD is first loaded, then the Project Brutality PB_Staging_9f2561c.pk3 file, and the game starts.
+The DOOM2.WAD is first loaded, then the Project Brutality PB_Staging_9f2561c.pk3 file and the game starts.
 
 Project Brutality.doom is accessible from the ES-DE interface.
 

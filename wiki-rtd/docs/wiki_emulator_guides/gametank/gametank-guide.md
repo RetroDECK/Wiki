@@ -29,7 +29,7 @@ GameTankEmulator is a GameTank console emulator.
 - Some standard features available in other components may not yet be supported.
 - Controllers or other input devices may require manual configuration.
 - Compatibility may vary across the supported game library.
-- Functionality, performance, and compatibility may change as development progresses.
+- Functionality, performance and compatibility may change as development progresses.
 
 ---
 
@@ -79,7 +79,8 @@ Cannot be played with a controller easily and is best used with a physical keybo
 | <kbd>Esc</kbd> | Exit | Terminates the program. |
 | <kbd>F</kbd> | Fast-forward | Skips `SDL_Delay` between instruction batches. |
 | <kbd>F9</kbd> | Profiling window | Displays profiling data (requires ROM debug hooks). |
-| <kbd>F10</kbd> | System state window | Shows CPU status, video/graphics memory, and diagnostics. |
+| <kbd>F10</kbd> | System state window | Shows CPU status, video/graphics memory and diagnostics. |
+| <kbd>F11</kbd> | Fullscreen | Go to fullscreen mode **does not always work** |
 | <kbd>O</kbd> | Load ROM | Opens a file dialog at runtime; also shown on launch without a ROM. |
 | <kbd>R</kbd> | Soft reset | Clears registers, jumps to RESET vector; RAM unchanged. |
 | <kbd>Shift</kbd> + <kbd>R</kbd> | Hard reset | Randomises memory and registers to emulate a cold boot. |
@@ -93,8 +94,8 @@ Cannot be played with a controller easily and is best used with a physical keybo
 
 Input schemes vary per game refer to individual game documentation for mappings.
 
-### No Fullscreen
+### Limited Fullscreen
 
-The emulator is experimental and there is no fullscreen.
+The emulator is experimental and fullscreen does not always work as it should.
 
 ---

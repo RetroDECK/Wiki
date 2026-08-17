@@ -292,7 +292,7 @@ Quiz pickups are scattered throughout the game. The starting question depends on
 | Question ID  | Question | Answer / Reference |
 |----|----------|------------------|
 | 1  | Who was Noah's father? | Lamech. (Gen 5:30) |
-| 2  | How old was Noah when he had Shem, Ham, and Japheth? | 500 years old. (Gen 5:32) |
+| 2  | How old was Noah when he had Shem, Ham and Japheth? | 500 years old. (Gen 5:32) |
 | 3  | How many sons did Noah have? | Three: Shem, Ham, Japheth. (Gen 6:10) |
 | 4  | What kind of wood was the Ark made of? | Gopher wood. (Gen 6:14) |
 | 5  | How many cubits long was the Ark? | 300 cubits long, 50 wide, 30 high. (Gen 6:15) |
@@ -341,7 +341,7 @@ Quiz pickups are scattered throughout the game. The starting question depends on
 | 48 | Which ancestor never died? | Enoch. (Gen 5:24) |
 | 49 | Noah's lineage from Adam? | Descendant of Seth. (Luke 3:36-38) |
 | 50 | Why is Noah in Hebrews 11? | Faith, built Ark, saved family. (Heb 11:7) |
-| 51 | Who entered Ark? | Noah, his wife, sons, and sons’ wives. (Gen 7:7) |
+| 51 | Who entered Ark? | Noah, his wife, sons and sons’ wives. (Gen 7:7) |
 | 52 | Where did the flood waters come from? | Fountains of the deep & windows of heaven. (Gen 7:11; 8:2) |
 | 53 | What is a covenant? | A contract or agreement. |
 | 54 | Noah’s title in 2 Peter 2:5? | Preacher of righteousness. (2 Pet 2:5) |
@@ -353,7 +353,7 @@ Quiz pickups are scattered throughout the game. The starting question depends on
 | 60 | Day of Ark landing on Ararat? | 17th day of 7th month. (Gen 8:4) |
 | 61 | What was Noah commanded not to eat? | Flesh with blood. (Gen 9:4) |
 | 62 | What were animals to do after flood? | Multiply abundantly. (Gen 8:7) |
-| 63 | With whom did God make His covenant? | Noah, sons, and all living creatures. (Gen 9:8-10) |
+| 63 | With whom did God make His covenant? | Noah, sons and all living creatures. (Gen 9:8-10) |
 | 64 | Father of Canaanites? | Ham. (Gen 9:22) |
 | 65 | Abraham descended from which son? | Shem. (Luke 3:34-36) |
 | 66 | Which descendant did Noah curse? | Canaan. (Gen 9:25) |

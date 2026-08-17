@@ -27,12 +27,12 @@ Here are just a few:
 
 | Site | Description |
 |------|-------------|
-| [romhacking.net](https://www.romhacking.net/) | Large archive of ROM hacks, translations, utilities, and documentation. |
+| [romhacking.net](https://www.romhacking.net/) | Large archive of ROM hacks, translations, utilities and documentation. |
 | [romhacking.com](https://romhacking.com/) | Community-driven ROM hack sharing platform with user submissions. |
 | [romhackplaza.org](https://romhackplaza.org/) | Hub for various ROM hacks and fan-made game modifications. |
-| [SMW Central](https://www.smwcentral.net/) | Major community for Super Mario World hacks, tools, and resources. |
-| [Metroid Construction](https://metroidconstruction.com/) | Central resource for Metroid series ROM hacks, guides, and tools. |
-| [PokeCommunity ROM Hacking](https://www.pokecommunity.com/) | Active forum for Pokémon ROM hacks, tools, and fan game development. |
+| [SMW Central](https://www.smwcentral.net/) | Major community for Super Mario World hacks, tools and resources. |
+| [Metroid Construction](https://metroidconstruction.com/) | Central resource for Metroid series ROM hacks, guides and tools. |
+| [PokeCommunity ROM Hacking](https://www.pokecommunity.com/) | Active forum for Pokémon ROM hacks, tools and fan game development. |
 | [N64 Vault](https://n64vault.com/) | Repository of Nintendo 64 ROM hacks across multiple games. |
 
 ---

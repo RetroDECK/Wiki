@@ -8,11 +8,11 @@ Virtual pinball machines are digital recreations of traditional pinball machines
 
 ### Standalone Virtual Pinball Machines
 
-These are complete units that include everything needed to play virtual pinball games. They often come with high-definition screens, realistic controls, and built-in software to run various pinball simulations.
+These are complete units that include everything needed to play virtual pinball games. They often come with high-definition screens, realistic controls and built-in software to run various pinball simulations.
 
 ### DIY Virtual Pinball Machines
 
-For those who enjoy building their own machines, DIY kits are available. These kits provide the necessary components, such as screens, buttons, and software, allowing users to assemble and customize their own virtual pinball machines.
+For those who enjoy building their own machines, DIY kits are available. These kits provide the necessary components, such as screens, buttons and software, allowing users to assemble and customize their own virtual pinball machines.
 
 ### Hybrid Virtual Pinball Machines
 
@@ -24,7 +24,7 @@ Designed for portability, these machines are smaller and more compact, making th
 
 ### Arcade-Style Virtual Pinball Machines 
 
-These machines are designed to mimic the look and feel of classic arcade pinball machines. They often feature large cabinets, vibrant artwork, and high-quality sound systems to create an authentic arcade experience.
+These machines are designed to mimic the look and feel of classic arcade pinball machines. They often feature large cabinets, vibrant artwork and high-quality sound systems to create an authentic arcade experience.
 
 ## Inputs and Outputs in Virtual Pinball Machines
 
@@ -37,7 +37,7 @@ Virtual pinball machines have a variety of inputs and outputs to simulate the ex
 - **Coin Door**: This input simulates the action of inserting coins to play the game.
 - **Service Buttons**: These are used for maintenance and configuration of the machine.
 - **LED and Light Controls**: These inputs control the various lights and LEDs on the machine, adding to the visual experience.
-- **Feedback Devices**: These include solenoids, motors, and other devices that provide tactile feedback to the player, simulating the feel of a real pinball machine.
+- **Feedback Devices**: These include solenoids, motors and other devices that provide tactile feedback to the player, simulating the feel of a real pinball machine.
 - **Digital Display**: This shows the score and other game information.
 - **Sound System**: This provides the audio effects and music for the game.
 - **Accelerometer**: This detects the movement and orientation of the machine.

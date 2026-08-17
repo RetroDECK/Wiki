@@ -11,7 +11,7 @@ Adjusting Display settings, Filters, Shaders, Scaling and Overlays in RetroArch 
 
 ## Display Concepts
  
-This section explains the difference between **PPI**, **size**, **resolution**, and **aspect ratio**, which are often confused but describe different properties of a display.
+This section explains the difference between **PPI**, **size**, **resolution** and **aspect ratio**, which are often confused but describe different properties of a display.
 
 ### Pixel Density (PPI)
 
@@ -251,7 +251,7 @@ Improve scaling quality while preserving pixel structure. Used for clean, sharp 
 
 **Handheld Shaders**  
 
-Simulate LCD characteristics or add pixel grid effects. Emulates Game Boy, GBA, DS, and similar screens.
+Simulate LCD characteristics or add pixel grid effects. Emulates Game Boy, GBA, DS and similar screens.
 
 **CRT Shaders**  
 
@@ -259,7 +259,7 @@ Simulate analog CRT displays (scanlines, bloom, curvature). Used for authentic r
 
 **Signal / Composite Shaders**  
 
-Simulate analog video transmission artifacts like NTSC/PAL, color bleed, and RF noise.
+Simulate analog video transmission artifacts like NTSC/PAL, color bleed and RF noise.
 
 **Mask / Subpixel Shaders**  
 
@@ -267,7 +267,7 @@ Replicate physical pixel layouts (RGB stripes, shadow masks, aperture grille) to
 
 **Post-Processing Shaders**  
 
-General image enhancement such as sharpening, color correction, bloom, and LUT-based grading.
+General image enhancement such as sharpening, color correction, bloom and LUT-based grading.
 
 **Dithering / Reconstruction Shaders**  
 
@@ -279,7 +279,7 @@ Artistic effects such as VHS distortion, sketch filters, or glitch-style renderi
 
 **Utility / Debug Shaders**  
 
-Technical tools used for framebuffer inspection, texture viewing, and rendering diagnostics.
+Technical tools used for framebuffer inspection, texture viewing and rendering diagnostics.
 
 ---
 
@@ -298,7 +298,7 @@ Set video driver: `Settings → Video → Output → OpenGL`
 Set video driver: `Settings → Video → Output → Vulkan`
 
   - Modern Vulkan/DirectX/OpenGL backend support
-  - Preferred on Android, Windows, and handheld PCs
+  - Preferred on Android, Windows and handheld PCs
   - More advanced and actively developed
 
 ---
@@ -337,9 +337,9 @@ Smooths pixel edges by blending them together. Useful for non-integer scaling, b
 
 **CRT / Retro Filters (Blargg)**
 
-Includes NTSC, S-Video, and composite simulation filters.
+Includes NTSC, S-Video and composite simulation filters.
 
-- Adds scanlines, color bleed, and analog softness
+- Adds scanlines, color bleed and analog softness
 - Mimics CRT display output
 - More performance-heavy than bilinear filters
 

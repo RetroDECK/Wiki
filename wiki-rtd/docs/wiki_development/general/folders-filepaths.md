@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_icons/pixelitos/Directory-red-games.png" width="75" alt="">
 
-RetroDECK is a Flatpak - a sandboxed bundle containing applications, configurations, and supporting files.  
+RetroDECK is a Flatpak - a sandboxed bundle containing applications, configurations and supporting files.  
 
 ---
 
@@ -11,7 +11,7 @@ RetroDECK is a Flatpak - a sandboxed bundle containing applications, configurati
 | **Directory Name**                       | **Directory Path**                             | **Comment**                                                                 |
 |:-------------------------------------:|:-------------------------------------------:|:---------------------------------------------------------------------------:|
 | `retrodeck/` (userdata) Directory        | `<Dynamic Path>/retrodeck/`                 | **Read more:** [RetroDECK: Userdata Directory Structure](../../wiki_management/retrodeck-folders.md) |
-| `/.var/app/net.retrodeck.retrodeck` Directory | `~/.var/app/net.retrodeck.retrodeck`      | Mapped as `/var` inside the Flatpak. Exposes configuration, cache, and system data from the Flatpak environment. |
+| `/.var/app/net.retrodeck.retrodeck` Directory | `~/.var/app/net.retrodeck.retrodeck`      | Mapped as `/var` inside the Flatpak. Exposes configuration, cache and system data from the Flatpak environment. |
 | `cache` Directory                        | `~/.var/app/net.retrodeck.retrodeck/cache/` | Stores cache files and temporary data for components.                        |
 | `config` Directory                       | `~/.var/app/net.retrodeck.retrodeck/config/` | Contains copied configuration files for components.                          |
 | `data` Directory                         | `~/.var/app/net.retrodeck.retrodeck/data/` | Stores data structures for components.                                       |
@@ -35,10 +35,10 @@ When accessing the Flatpak sandbox via the CLI in Debug Mode, internal directori
 This is part of Flatpak's sandboxing model:
 
 - The application runtime under `/app` is **read-only**.  
-- `/var` provides **writable directories** for persistent user data, such as configuration, cache, and application-specific files.  
+- `/var` provides **writable directories** for persistent user data, such as configuration, cache and application-specific files.  
 - RetroDECK also creates a user-defined **userdata directory** `retrodeck/`, which can be placed wherever the user chooses.
 
-When the application is updated, the runtime under `/app` changes, but the writable data under `/var` (for example `config`, `cache`, and `data`) remains mostly unchanged (depending on the update).
+When the application is updated, the runtime under `/app` changes, but the writable data under `/var` (for example `config`, `cache` and `data`) remains mostly unchanged (depending on the update).
 
 Because the `retrodeck/` and `/var` directories are shared across versions and branches, **regular backups are recommended**, especially when testing beta or development builds that may modify configuration or data formats in both directories. Jumping from a bleeding-edge development build back to stable is **not recommended**.
 
@@ -47,7 +47,7 @@ See the [RetroDECK Testing Guide](https://retrodeck.readthedocs.io/en/latest/wik
 | **Internal Path** | **Host Path** | **Comment** |
 |---|---|---|
 | `/app` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/`<br>or<br>`/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/` | Read-only runtime environment provided by the Flatpak package. Contains: `bin`, `lib`, `libexec`, `manifest-base-1.json`, `manifest.json`, `retrodeck`, `share`, `tools`. |
-| `/var` | `~/.var/app/net.retrodeck.retrodeck/` | Writable portion of the sandbox. Contains application state directories such as `cache`, `config`, and `data`. |
+| `/var` | `~/.var/app/net.retrodeck.retrodeck/` | Writable portion of the sandbox. Contains application state directories such as `cache`, `config` and `data`. |
 
 ---
 
@@ -123,7 +123,7 @@ These directories follow the [XDG Base Directory Specification](https://specific
 
 ### retrodeck/components/
 
-Each component resides in its own subDirectory containing binaries, libraries, and related files.  
+Each component resides in its own subDirectory containing binaries, libraries and related files.  
 
 #### Clients
 

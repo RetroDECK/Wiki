@@ -25,7 +25,7 @@ Xenia Edge is a Microsoft Xbox 360 emulator based on Xenia.
 - Some standard features available in other components may not yet be supported.
 - Controllers or other input devices may require manual configuration.
 - Compatibility may vary across the supported game library.
-- Functionality, performance, and compatibility may change as development progresses.
+- Functionality, performance and compatibility may change as development progresses.
 
 ---
 
@@ -70,8 +70,9 @@ No
 | Cache0   | `retrodeck/storage/Xenia/cache0/`                                          |                                         |
 | Cache1   | `retrodeck/storage/Xenia/cache1/`                                        |                                         |
 | Library   | `retrodeck/storage/Xenia/library/`                                         |                                         |
-| Content   | `retrodeck/saves/xbox360/Xenia/content/`                                         |                                         |
+| Content   | `retrodeck/saves/xbox360/Xenia/content/`                                         |    Saves                                     |
 | Plugins   | `retrodeck/mods/Xenia/plugins/`                                         |                                         |
+
 
 ---
 

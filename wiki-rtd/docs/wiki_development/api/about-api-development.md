@@ -46,7 +46,7 @@ If you would like to communicate with the RetroDECK API, follow this process:
 - If RetroDECK is currently running, the server should already be started. This can be validated by looking for this specific named pipe:
     `~/.var/app/net.retrodeck.retrodeck/config/retrodeck/api/retrodeck_api_pipe`
 
-This is the "listening" pipe used by the API, and all requests will enter the system through this pipe.
+This is the "listening" pipe used by the API and all requests will enter the system through this pipe.
 
 The client making the request must then generate a unique (but arbitrary) "request ID" which will be used to identify the response as well as the correct response pipe. The client must create this pipe itself, named with the following structure:
     `~/.var/app/net.retrodeck.retrodeck/config/retrodeck/api/response_{request_id}`

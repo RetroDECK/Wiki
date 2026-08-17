@@ -4,7 +4,7 @@
 
 Steam ROM Manager is a utility that helps you import games in bulk and manage artwork for Steam. It has been integrated into RetroDECK since version 0.9.0b. 
 
-This utility adds individual games to Steam, incorporates artwork from [SteamGridDB](https://www.steamgriddb.com/), and configures the RetroDECK Steam Input layouts.
+This utility adds individual games to Steam, incorporates artwork from [SteamGridDB](https://www.steamgriddb.com/) and configures the RetroDECK Steam Input layouts.
 
 **Note:**
 
@@ -58,7 +58,7 @@ Games marked as favorites in ES-DE (with a 🌟 or another icon depending on the
 
 <img src="../es-de-favorite.png" width="800" alt="">
 
-Navigate to a game in ES-DE and press the `north button` to mark it as a favorite. This corresponds to the `Y` button on Xbox, the `Triangle` button on PlayStation, and the `X` button on Nintendo.
+Navigate to a game in ES-DE and press the `north button` to mark it as a favorite. This corresponds to the `Y` button on Xbox, the `Triangle` button on PlayStation and the `X` button on Nintendo.
 
 ### Step 2: Enable in Configurator
 
@@ -145,7 +145,7 @@ If games don't sync check the following:
 
 The Steam Sync feature can be used to add RetroDECK doom files. 
 
-To add the `.doom` files, simply mark them as 🌟 favorites in ES-DE, and `Steam Sync` will pick them up.
+To add the `.doom` files, simply mark them as 🌟 favorites in ES-DE and `Steam Sync` will pick them up.
 
 
 **Search if the mod has art**

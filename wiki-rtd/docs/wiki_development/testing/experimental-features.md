@@ -4,7 +4,7 @@ The main function of the experimental features is for the RetroDECK team to do s
 
 Experimental features are a showcase of what proof-of-concepts we are trying out.
 
-All these features are just conceptual, and we hope them release ready in a later major update or scrap them if they don't work out.
+All these features are just conceptual and we hope them release ready in a later major update or scrap them if they don't work out.
 
 ## 🛑 Backup before testing! 🛑
 

@@ -14,7 +14,7 @@ RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and debugger.
 - Some standard features available in other components may not yet be supported.
 - Controllers or other input devices may require manual configuration.
 - Compatibility may vary across the supported game library.
-- Functionality, performance, and compatibility may change as development progresses.
+- Functionality, performance and compatibility may change as development progresses.
 
 ---
 
@@ -120,9 +120,9 @@ There are two methods of adding the games. For more details read here: [ES-DE RP
 This method can be used for all types of rips/dumps, directories, isos and installed digital titles. It's the default method for RetroDECK.
 
 1. **Open RPCS3:** Open RPCS3 from the RetroDECK Configurator.
-2. **Add the game to RPCS3:** Click on `File` in the menu bar, select `Add Game`, and browse to the location of the game you want to add.
+2. **Add the game to RPCS3:** Click on `File` in the menu bar, select `Add Game` and browse to the location of the game you want to add.
 3. **Verify the game in RPCS3:** The game will now appear in the RPCS3 game list.
-4. **Create a desktop shortcut:** `Right-click` on the game in the RPCS3 game list, select `Manage Game`, and click on `Create Desktop Shortcut`.
+4. **Create a desktop shortcut:** `Right-click` on the game in the RPCS3 game list, select `Manage Game` and click on `Create Desktop Shortcut`.
 5. **Move the shortcut to the roms/ps3 directory:** This will create a shortcut to the game on your Desktop. Move that shortcut into the `retrodeck/roms/ps3` directory.
 6. **Restart and Launch RetroDECK:** If RetroDECK was previously open, restart it to ensure corrected file paths are applied during startup. The game will then appear under the **PS3** category.
 
@@ -141,8 +141,8 @@ This method can only be used for directory type game dumps. To get the games to 
 **Prerequisite:** You will need to change the ES-DE Settings from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)` in ES-DE.
 
 1. **Open RetroDECK and access ES-DE settings:** Launch RetroDECK and in the ES-DE Frontend, navigate to **ES-DE Configurations**.
-2. **Modify the PS3 emulator settings:** Go to **Other Settings**, select **Alternative Emulators**, and choose **PS3**.
-3. **Change the emulator type:** Change the value from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)`, and exit RetroDECK to save the changes.
+2. **Modify the PS3 emulator settings:** Go to **Other Settings**, select **Alternative Emulators** and choose **PS3**.
+3. **Change the emulator type:** Change the value from `RPCS3 Shortcut (Standalone)` to `RPCS3 Directory (Standalone)` and exit RetroDECK to save the changes.
 4. **Locate the game directory:** Go to the `retrodeck/roms/ps3` directory and place your directory dumps there.
 5. **Rename the directory:** Change the name of the directory so it ends with `.ps3`.
 6. **Restart and Launch RetroDECK:** If RetroDECK was previously open, restart it to ensure corrected file paths are applied during startup. The game will then appear under the **PS3** category.
@@ -219,7 +219,7 @@ If you want to install some PSN titles, you can do that through RPCS3 itself.
 
 ### Method 1: Game Shortcuts (`.desktop` files) - **Recommended**
 
-1. **Create a desktop shortcut:** `Right-click` on the game in the RPCS3 game list, select `Manage Game`, and click on `Create Desktop Shortcut`.
+1. **Create a desktop shortcut:** `Right-click` on the game in the RPCS3 game list, select `Manage Game` and click on `Create Desktop Shortcut`.
 2. **Move the shortcut to the roms/ps3 directory:** This will create a shortcut to the game on your Desktop. Move that shortcut into the `retrodeck/roms/ps3` directory.
 3. **Restart and Launch RetroDECK:** If RetroDECK was previously open, restart it to ensure corrected file paths are applied during startup. The game will then appear under the **PS3** category.
 
@@ -299,9 +299,9 @@ See the [RPCN Compatibility List](https://wiki.rpcs3.net/index.php?title=RPCN_Co
 1. **Open RPCS3:** Open RPCS3 from the RetroDECK Configurator.
 2. Go to **Configuration → RPCN → Account**.
 3. Set **Server** to **Official RPCN Server**.
-4. Select **Create Account** and complete the username, password, and email prompts.
+4. Select **Create Account** and complete the username, password and email prompts.
 5. Confirm the details when prompted.
-6. Retrieve the RPCN token sent to your email, paste it into the **Token** field, and confirm.
+6. Retrieve the RPCN token sent to your email, paste it into the **Token** field and confirm.
 7. Use **Test Account** to verify successful setup.
 
 ---

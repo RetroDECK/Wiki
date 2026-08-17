@@ -11,7 +11,7 @@ We have the following rules (any breakage of these rules might lead to a warning
 
 # The Rules
 
-The RetroDECK community is global, and we are grateful for that. We want everyone to feel welcome here, so please follow these rules:
+The RetroDECK community is global and we are grateful for that. We want everyone to feel welcome here, so please follow these rules:
 
 ## Piracy & Copyright  
 
@@ -23,7 +23,7 @@ The RetroDECK community is global, and we are grateful for that. We want everyon
 
 ## Commercial & Promotional Activity  
 
-**DO NOT:** Try to sell or promote your products and/or services. This server is not a marketplace.  Sharing experiences, seeking advice, or reviewing gaming‑related products is allowed, but selling or promoting your own goods or services is not. Unless it is in #🎥-self-promo channel but only in concise announcements only and they should be related to Retro Gaming. No spam, no repeated posts, and keep everything rule‑friendly.
+**DO NOT:** Try to sell or promote your products and/or services. This server is not a marketplace.  Sharing experiences, seeking advice, or reviewing gaming‑related products is allowed, but selling or promoting your own goods or services is not. Unless it is in #🎥-self-promo channel but only in concise announcements only and they should be related to Retro Gaming. No spam, no repeated posts and keep everything rule‑friendly.
 
 ## Spoilers
 
@@ -39,13 +39,13 @@ The RetroDECK community is global, and we are grateful for that. We want everyon
 
 **DO NOT:** Attack server members in the channels or private DMs on based on politics, religion, gender, race, sexual orientation, age, or any other characteristic. If you experience harassment, contact a moderator via DM.
 
-**DO NOT:** Joke about self-harm. You will be taken literally, banned, and reported to the Discord global mods and authorities.
+**DO NOT:** Joke about self-harm. You will be taken literally, banned and reported to the Discord global mods and authorities.
 
 ## Support
 
 **DO NOT:** Use #💬-general for support requests. Use #🤝-community-support and ask the community help for before creating a official support thread in #🆘-support.  Before submitting any request, please read up on the  [RetroDECK Wiki](https://retrodeck.readthedocs.io/) and make sure you are on the latest version of RetroDECK. Also [dontasktoask](https://dontasktoask.com).
 
-**DO NOT:** Expect 24/7 support. Remember the RetroDECK Team works on the project out of passion in their free time. When seeking help, follow all rules, remain polite, and treat team members with respect. Rudeness toward staff will result in an immediate ban.
+**DO NOT:** Expect 24/7 support. Remember the RetroDECK Team works on the project out of passion in their free time. When seeking help, follow all rules, remain polite and treat team members with respect. Rudeness toward staff will result in an immediate ban.
 
  **DO NOT:** Direct support inquiries regarding emulators, engines, ports, or other components to their original developers. If a bug is identified, the RetroDECK team will forward it to the appropriate party. In most cases, the issue originates within RetroDECK itself, so refrain from contacting the original developers about it. 
 
@@ -55,9 +55,9 @@ The RetroDECK community is global, and we are grateful for that. We want everyon
 
 ## Community Conduct (DOs)  - Be excellent 
 
-**DO:** Post memes, light‑spam, and funny content mainly in #🐸-random-memes. flooding is never allowed, and all server rules still apply there. A little bit of meme‑style posting in other channels is acceptable.
+**DO:** Post memes, light‑spam and funny content mainly in #🐸-random-memes. flooding is never allowed and all server rules still apply there. A little bit of meme‑style posting in other channels is acceptable.
 
-**DO** Be patient, polite, and respectful to each other. Avoid swearing.  
+**DO** Be patient, polite and respectful to each other. Avoid swearing.  
 
 **DO** Keep discussions in the appropriate channel.  
 

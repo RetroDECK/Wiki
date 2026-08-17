@@ -12,7 +12,7 @@ I am also one of the founding members of **351ELEC** (now **AmberELEC**). My ini
 
 After discussing with the 351ELEC team, we decided not to support another platform like the Steam Deck. I chose to continue the project independently and renamed it **RetroDECK**.  
 
-Early on, I explored several ways to package 351EDECK: a bash script, AppImage, or Flatpak. Initially, I opted for a **simple shell script**, and **RetroDECK (aka 351EDECK v0.1a)** existed only as a script.  
+Early on, I explored several ways to package 351EDECK: a bash script, AppImage, or Flatpak. Initially, I opted for a **simple shell script** and **RetroDECK (aka 351EDECK v0.1a)** existed only as a script.  
 
 However, the community raised concerns about security and people were hesitant to grant root privileges to a random script downloaded from the internet. Evaluating the Steam Deck use case, I realized that approach was not suitable. Users wanted a safer, packaged solution.
 
@@ -24,7 +24,7 @@ Valve recommends **Flatpak** for porting applications to the Steam Deck. Followi
 
 ## RetroDECK's Development Philosophy 
 
-Emulation, engine re-implementations, fantasy consoles, and related projects are global, multi-generational efforts fueled by a shared love of video game preservation. RetroDECK depends on the ongoing work of these projects: emulators, front-ends, game engines, systems, assets, and more. It would be unfair to claim credit, obscure their contributions, or monetize their work for our own gain. Their software is what makes running these games possible RetroDECK is just the platform that brings it together.
+Emulation, engine re-implementations, fantasy consoles and related projects are global, multi-generational efforts fueled by a shared love of video game preservation. RetroDECK depends on the ongoing work of these projects: emulators, front-ends, game engines, systems, assets and more. It would be unfair to claim credit, obscure their contributions, or monetize their work for our own gain. Their software is what makes running these games possible RetroDECK is just the platform that brings it together.
 
 We fully support free and open-source video game preservation and reject predatory profit models. RetroDECK is committed to openness: there will be no misleading donation schemes or artificial divides between paying and non-paying users.
 
@@ -34,9 +34,9 @@ For more information on our dependencies and how to support them, see the Donati
 
 **To the developers of third-party projects:**
 
-We warmly invite you to reach out, share your ideas, and collaborate with us.
+We warmly invite you to reach out, share your ideas and collaborate with us.
 
-Your feedback and suggestions are invaluable. You are the backbone of RetroDECK, and we deeply appreciate your contributions.
+Your feedback and suggestions are invaluable. You are the backbone of RetroDECK and we deeply appreciate your contributions.
 
 // The RetroDECK Team
 
@@ -68,10 +68,10 @@ The application should:
 | Disaster Recovery & Multi-device Support | Include cloud saves and synchronization across devices. |
 | Easy Installation | One-click installation process. |
 | Console-like Experience | Provide a user experience similar to consoles or Batocera. |
-| ROM/Mods Management | Easily manage collections of ROMs, mods, and ROM hacks. |
+| ROM/Mods Management | Easily manage collections of ROMs, mods and ROM hacks. |
 | In-app Configuration | Configure the system without exiting RetroDECK. |
 | Components Integration | Tight integration with bundled components and expose more features to end users. |
-| Security & Stability | Ensure the application is secure, safe, and stable. |
+| Security & Stability | Ensure the application is secure, safe and stable. |
 | Input Management | Simplify managing external controllers and other input devices. |
 | Broad Component Support | Support most components in ES-DE, providing at least one good option per system. |
 | Support for Other Apps | Include applications outside the scope of ES-DE. |

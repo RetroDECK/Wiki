@@ -4,7 +4,7 @@
 
 RetroDECK currently supports **x86_64 Linux systems**. Support for additional architectures may be added in the future.
 
-Our community is continuously experimenting, and many users enjoy running RetroDECK on a wide range of new and unique devices.
+Our community is continuously experimenting and many users enjoy running RetroDECK on a wide range of new and unique devices.
 
 ---
 

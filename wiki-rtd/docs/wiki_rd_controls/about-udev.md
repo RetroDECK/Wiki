@@ -8,7 +8,7 @@
 
 **udev** is the device manager for the Linux kernel. It facilitates communication between the system and hardware devices by dynamically managing device nodes in the `/dev` directory.  
 
-udev uses **rules** to control how devices are recognized and accessed. These rules define permissions, naming conventions, and actions triggered when devices are added or removed. Proper configuration of udev rules is essential for ensuring that hardware, such as custom controllers, functions correctly with applications like **RetroDECK**, **Steam**, and other system components.
+udev uses **rules** to control how devices are recognized and accessed. These rules define permissions, naming conventions and actions triggered when devices are added or removed. Proper configuration of udev rules is essential for ensuring that hardware, such as custom controllers, functions correctly with applications like **RetroDECK**, **Steam** and other system components.
 
 **Additional Resources**
 
@@ -66,7 +66,7 @@ SUBSYSTEM=="input", ATTRS{name}=="8Bitdo FC30 II", ENV{ID_INPUT_JOYSTICK}="1", T
 - `ATTRS{name}` or `ATTRS{prod_id}` matches the device's attributes.  
 - `SYMLINK` creates a persistent symbolic link for easier device identification.  
 - `ENV` and `TAG` are used to set environment variables or permissions for the device.  
-- Rules are evaluated in order, and multiple rules can coexist in the same file.
+- Rules are evaluated in order and multiple rules can coexist in the same file.
 
 ---
 

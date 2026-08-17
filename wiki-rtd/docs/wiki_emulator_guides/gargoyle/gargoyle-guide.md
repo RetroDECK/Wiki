@@ -395,7 +395,7 @@ theme system
 
 If you want to make your own Interactive Fiction games to play within RetroDECK you can use **Inform**. It is a domain-specific programming language and integrated development environment (IDE) for creating interactive fiction, compiling games for the Z-machine and Glulx virtual machines.  
 
-It uses a natural-language-inspired syntax and can produce portable story files such as `.z8`, `.ulx`, and `.gblorb` for Gargoyle.
+It uses a natural-language-inspired syntax and can produce portable story files such as `.z8`, `.ulx` and `.gblorb` for Gargoyle.
 
 | Resource | Link |
 |----------|------|

@@ -52,11 +52,11 @@ Where `<X>` means any combination of characters.
 
 ## Does RetroDECK officially support Yuzu and Citra?
 
-No, RetroDECK does not officially support Yuzu and Citra, and we provide zero support for them. The only official emulators we support are the ones we ship.
+No, RetroDECK does not officially support Yuzu and Citra and we provide zero support for them. The only official emulators we support are the ones we ship.
 
 Since the removal of Citra and Yuzu, we have made it clear that there will be no new configurations, bug fixes, improvements, or support for these emulators. 
 
-Future updates of RetroDECK will break the current temporary compatibility, and this is to be seen as a temporary solution.
+Future updates of RetroDECK will break the current temporary compatibility and this is to be seen as a temporary solution.
 
 We have also updated our social rules to reflect that any discussion about these emulators will result in a warning first and then a ban on where to find those AppImages.
 

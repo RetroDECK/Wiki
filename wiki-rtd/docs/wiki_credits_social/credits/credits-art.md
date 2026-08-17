@@ -4,7 +4,7 @@ More details under [Donations & Licenses](../donations-licenses.md)
 
 ## RetroDECK Logo
 
-The following contributors played important roles in the development of the first and second iterations of the RetroDECK logo, including work on color schemes, iconography, SteamGridDB assets, and overall conceptual design:
+The following contributors played important roles in the development of the first and second iterations of the RetroDECK logo, including work on color schemes, iconography, SteamGridDB assets and overall conceptual design:
 
 - [Pixelguin](https://github.com/Pixelguin)
 - [XargonWan](https://github.com/XargonWan)
@@ -14,7 +14,7 @@ The following contributors played important roles in the development of the firs
 
 ## RetroDECK ES-DE Theme
 
-The RetroDECK ES-DE theme is a remix of the *LaunchBox Mini Banner* theme created by **Weestuarty**, **DerSchlachter**, and **Dan Patrick**. 
+The RetroDECK ES-DE theme is a remix of the *LaunchBox Mini Banner* theme created by **Weestuarty**, **DerSchlachter** and **Dan Patrick**. 
 Adapted specifically for RetroDECK by: 
 
 - [Weestuarty](https://github.com/Weestuarty)

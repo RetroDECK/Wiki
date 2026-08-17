@@ -10,11 +10,11 @@ For a quick overview check the website.
 
 <img src="../../wiki_icons/retrodeck/icon-rd.svg" width="75" alt="">
 
-RetroDECK is a powerful all-in-one retro gaming platform designed for handheld gaming PCs like the Steam Deck, full Linux desktops, Linux HTPC setups, and Linux-based PC consoles such as the Steam Machine. 
+RetroDECK is a powerful all-in-one retro gaming platform designed for handheld gaming PCs like the Steam Deck, full Linux desktops, Linux HTPC setups and Linux-based PC consoles such as the Steam Machine. 
 
 Delivered as a self-contained Flatpak app, it gives you everything you need for retro gaming right out of the box, no manual setup required. 
 
-By integrating a wide range of components such as emulators, game engines, ports, and built-in tools, RetroDECK brings all your favorite games together in one streamlined, easy-to-use package.
+By integrating a wide range of components such as emulators, game engines, ports and built-in tools, RetroDECK brings all your favorite games together in one streamlined, easy-to-use package.
 
 ---
 
@@ -34,7 +34,7 @@ A client is a system or application that connects to a server or online service 
 
 ### Emulators
 
-An **emulator** is a software application designed to replicate the hardware and behavior of a specific system, whether it is a physical device (such as a game console or arcade board) or a virtual/fantasy platform. Emulators enable software created for one system to run on another by accurately reproducing the original system’s functionality, quirks, limitations, and performance characteristics.
+An **emulator** is a software application designed to replicate the hardware and behavior of a specific system, whether it is a physical device (such as a game console or arcade board) or a virtual/fantasy platform. Emulators enable software created for one system to run on another by accurately reproducing the original system’s functionality, quirks, limitations and performance characteristics.
 
 **Examples:** 
 
@@ -50,7 +50,7 @@ Frontends serve as the primary user interface layer within RetroDECK, providing 
 
 ### Multi-Emulators
 
-A **multi-emulator** (or multi-system emulator) is a platform capable of running multiple system cores or modules, allowing users to emulate a wide variety of consoles and hardware through a single interface. These tools often focus on modularity, extensibility, and unified configuration across systems.
+A **multi-emulator** (or multi-system emulator) is a platform capable of running multiple system cores or modules, allowing users to emulate a wide variety of consoles and hardware through a single interface. These tools often focus on modularity, extensibility and unified configuration across systems.
 
 **Examples:** 
 
@@ -109,7 +109,7 @@ Below is a concise overview of RetroDECK’s major features and core concepts:
 | Feature / Concept                     | Description                                                                                                        |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | **All-in-one Contained Design**       | Distributed as a **sandboxed Flatpak**, keeping all important files in minimal locations for easy maintenance and cleanup. |
-| **Easy to Install** | Available on **Flathub** and installable via your software center, including **KDE Discover**, **Bazaar**, and **GNOME Software**. |
+| **Easy to Install** | Available on **Flathub** and installable via your software center, including **KDE Discover**, **Bazaar** and **GNOME Software**. |
 | **Easy to Remove**  | Uninstalling RetroDECK safely removes all application files while keeping user data in `retrodeck/` intact. Everything else is removed automatically by clicking uninstall in your software center. |
 | **Easy to Update**                    | Updates automatically through your software center like any other Flatpak application.                             |
 | **RetroDECK Configurator**            | A multi-tool settings utility accessible directly from the **ES-DE main menu**, allowing you to manage and adjust system configurations from a single, unified interface. |
@@ -129,13 +129,13 @@ A multi-tool with a powerful backend.
 |---------------------------------|---------------------------------------------------------------------------------------------------------------|
 | **Automatic BIOS handling**      | RetroDECK can check for required BIOS files and auto-install supported ones to simplify setup.                |
 | **File-management utilities**    | Tools for organizing or moving folders and components within RetroDECK.                                       |
-| **Full content management**      | Organize all user-accessible content in RetroDECK, including backups, BIOS, borders, cheats, ES-DE, logs, mods, ROMs, saves, screenshots, states, shaders, texture packs, and storage. RetroDECK exposes dedicated folders for easy access: <br>• `retrodeck/backups/` <br>• `retrodeck/bios/` <br>• `retrodeck/borders/` <br>• `retrodeck/cheats/` <br>• `retrodeck/ES-DE/` <br>• `retrodeck/logs/` <br>• `retrodeck/mods/` <br>• `retrodeck/roms/` <br>• `retrodeck/saves/` <br>• `retrodeck/screenshots/` <br>• `retrodeck/states/` <br>• `retrodeck/shaders/` <br>• `retrodeck/texture_packs/` <br>• `retrodeck/storage/` - a catch-all for miscellaneous user-accessible data |
+| **Full content management**      | Organize all user-accessible content in RetroDECK, including backups, BIOS, borders, cheats, ES-DE, logs, mods, ROMs, saves, screenshots, states, shaders, texture packs and storage. RetroDECK exposes dedicated folders for easy access: <br>• `retrodeck/backups/` <br>• `retrodeck/bios/` <br>• `retrodeck/borders/` <br>• `retrodeck/cheats/` <br>• `retrodeck/ES-DE/` <br>• `retrodeck/logs/` <br>• `retrodeck/mods/` <br>• `retrodeck/roms/` <br>• `retrodeck/saves/` <br>• `retrodeck/screenshots/` <br>• `retrodeck/states/` <br>• `retrodeck/shaders/` <br>• `retrodeck/texture_packs/` <br>• `retrodeck/storage/` - a catch-all for miscellaneous user-accessible data |
 | **Game compression tools**       | Reduce file sizes with built-in compression utilities to save storage space.                                  |
 | **Global presets**               | Configure multiple components at once with universal presets, including: <br> - RetroAchievements <br> - Borders and overlays <br> - Widescreen enhancements <br> - Swapped A/B or X/Y buttons for Nintendo platforms <br> - Additional system-wide options |
-| **Prebuilt Steam Input Templates** | Quickly apply controller templates tailored for Steam Deck, external controllers, and more.                 |
+| **Prebuilt Steam Input Templates** | Quickly apply controller templates tailored for Steam Deck, external controllers and more.                 |
 | **Run games with RetroENGINE**   | Launch any supported title with a simple double-click through RetroDECK’s streamlined headless game runner.  |
 | **Sync games with Steam**        | Seamlessly integrate your favorite titles into your Steam library via built-in SRM and ES-DE favorites integration. |
-| **Troubleshooting helpers**      | Diagnose issues using tools like the Multi-File Structure Checker, environment repair options, and one-click reset functions. |
+| **Troubleshooting helpers**      | Diagnose issues using tools like the Multi-File Structure Checker, environment repair options and one-click reset functions. |
 | **Unique Component Wrappers**    | Some components, like **UZDoom** and **OpenBOR**, use custom wrappers to simplify launching. UZDoom supports a custom `.doom` format for easier mod integration, while OpenBOR uses `.bor` or `.openbor` formats for its games. |
 
 
@@ -146,7 +146,7 @@ A multi-tool with a powerful backend.
 
 <img src="../../wiki_icons/retrodeck/icon-framework.svg" width="75" alt="">
 
-RetroDECK organizes all software as isolated components, each running within a layered, self-contained environment. This architecture provides stability, flexibility, and efficient management of emulators, engines, ports, and other systems.
+RetroDECK organizes all software as isolated components, each running within a layered, self-contained environment. This architecture provides stability, flexibility and efficient management of emulators, engines, ports and other systems.
 
 
 | Feature / Benefit           | Details                                                                                                          |
@@ -168,16 +168,16 @@ RetroDECK is actively evolving. It is stable enough for daily use, but major upd
 
 ### Missing Features 
 
-The following features are planned for future RetroDECK releases to enhance functionality, usability, and system support:
+The following features are planned for future RetroDECK releases to enhance functionality, usability and system support:
 
 | Feature                              | Description                                                                                       |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | **Additional Components** | Expand compatibility with more clients, emulators, multi-emulators, engines, ports and more.                                     |
-| **Cloud synchronization**            | Sync saves, states, configurations, and more across devices for seamless gameplay.               |
+| **Cloud synchronization**            | Sync saves, states, configurations and more across devices for seamless gameplay.               |
 | **Dynamic external display resolution** | Adjust resolution automatically for docked setups or multiple displays.                          |
 | **Enhanced gyro support**            | Improved motion control functionality across compatible systems.                                  |
-| **Improved art assets**              | Updated mascot, logos, icons, and new easter eggs for a polished visual experience.               |
-| **Multi-user profile system**        | Support for multiple users on a single device, keeping settings, saves, and preferences separate. |
+| **Improved art assets**              | Updated mascot, logos, icons and new easter eggs for a polished visual experience.               |
+| **Multi-user profile system**        | Support for multiple users on a single device, keeping settings, saves and preferences separate. |
 | **Rebuilt Configurator & first-run installer** | Modernized setup experience developed in Godot for a unified, intuitive interface.          |
 | **SFTP support**                     | Access and manage files remotely using SFTP for flexible workflow.                                |
 | **USB transfer support**             | Easily transfer files and manage RetroDECK content offline via USB.                               |
@@ -201,7 +201,7 @@ To stay up-to-date with the latest RetroDECK developments:
 
 - **Follow us on social media** - Links are available on the [Wiki Start Page](../index.md).  
 - **Check the RetroDECK Blog** - Read updates and announcements on the [blog](../blog/index.md).  
-- **Explore GitHub issues** - See ongoing work, planned features, and community discussions on [GitHub](https://github.com/RetroDECK/RetroDECK/issues/).  
+- **Explore GitHub issues** - See ongoing work, planned features and community discussions on [GitHub](https://github.com/RetroDECK/RetroDECK/issues/).  
 
 ## Patch Notes and Known Issues
 

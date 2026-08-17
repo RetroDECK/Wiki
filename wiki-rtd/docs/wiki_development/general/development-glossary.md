@@ -222,7 +222,7 @@ Directs RetroDECK's build automation on how to transform a component's original 
 
 **Purpose**
 
-Provide the RetroDECK framework with all the metadata, scripts, and library info a component needs to be displayed, configured, and launched correctly.
+Provide the RetroDECK framework with all the metadata, scripts and library info a component needs to be displayed, configured and launched correctly.
 
 **Key Contents**
 
@@ -238,7 +238,7 @@ Provide the RetroDECK framework with all the metadata, scripts, and library info
 |--------------------------|------------------------------------------------------------|
 | **component_launcher.sh** | Sets up the environment and launches the component in its sandbox. |
 | **component_functions.sh** | Declares config-file paths and component-specific helper functions (e.g., firmware install, configurator actions).  Handles one-time setup: reset configs, prepare directories, move/backup data, upgrading tasks between RetroDECK versions and apply post-move tweaks.|
-| **component_manifest.json** | Stores metadata and functional data for RetroDECK: name, description, supported systems, menu entries, preset options, actions, and optional core info. |
+| **component_manifest.json** | Stores metadata and functional data for RetroDECK: name, description, supported systems, menu entries, preset options, actions and optional core info. |
 
 ---
 

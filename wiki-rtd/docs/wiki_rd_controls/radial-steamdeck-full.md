@@ -99,7 +99,7 @@ Hotkeys related to saving and loading states.
 
 ## <img src="../../wiki_icons/binding_icons/RD-supertuxkart.png" width="30" alt=""> Speed / Frames Menu
 
-The `Speed / Frames Menu` is where you find anything related to: emulation speed, frame limits, fast forwarding, and rewinding.
+The `Speed / Frames Menu` is where you find anything related to: emulation speed, frame limits, fast forwarding and rewinding.
 
 | Radial Button                    | Keyboard Command | System Support                                                                 | Icon                                                                 | Comment |
 | :-------------------------------- | :-------------- | :---------------------------------------------------------------------------- | :------------------------------------------------------------------ | :------- |

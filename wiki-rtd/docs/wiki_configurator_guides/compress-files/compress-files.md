@@ -15,8 +15,8 @@ The RetroDECK Compression Tool allows you to compress game files into `.chd`, `.
 - RetroDECK will **skip games that have already been compressed** in the selected format.
 - If a game has no compatible compression formats, it will be skipped.
 - For `.cue` files, associated `.bin` files must exist for CHD compression to succeed.
-- Logs will indicate progress, warnings, and errors throughout the compression process.
-- Compression may take a long time depending on the number of games, file sizes, and your hardware.
+- Logs will indicate progress, warnings and errors throughout the compression process.
+- Compression may take a long time depending on the number of games, file sizes and your hardware.
 
 ---
 
@@ -24,7 +24,7 @@ The RetroDECK Compression Tool allows you to compress game files into `.chd`, `.
 
 | Format | Description | Supported Systems / Notes |
 |--------|------------|---------------------------|
-| **CHD** | Compresses ISO, CUE, or GDI disk images. Best for PS2, PSP, and similar systems. | CUE/BIN validation required for certain systems. |
+| **CHD** | Compresses ISO, CUE, or GDI disk images. Best for PS2, PSP and similar systems. | CUE/BIN validation required for certain systems. |
 | **ZIP** | Standard archive compression. Ideal for ROMs with individual files. | Only specific systems and file extensions are supported. |
 | **RVZ** | Dolphin-compatible compressed GameCube/Wii images. | `.iso` or `.gcm` files only. |
 

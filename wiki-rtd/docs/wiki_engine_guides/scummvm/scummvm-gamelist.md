@@ -168,7 +168,7 @@ Always refer to the official list for the most current and up to date informatio
 | Grim Fandango | Grim Fandango.scummvm | grim:grim | grim |
 | Hades Challenge | Hades Challenge.scummvm | hadesch:hadesch | hadesch |
 | Halls of the Dead: Faery Tale Adventure II | Halls of the Dead: Faery Tale Adventure II.scummvm | saga2:fta2 | fta2 |
-| Harlan Ellison: I Have No Mouth, and I Must Scream | Harlan Ellison: I Have No Mouth, and I Must Scream.scummvm | saga:ihnm | ihnm |
+| Harlan Ellison: I Have No Mouth and I Must Scream | Harlan Ellison: I Have No Mouth and I Must Scream.scummvm | saga:ihnm | ihnm |
 | Harry and the Haunted House | Harry and the Haunted House.scummvm | mohawk:harryhh | harryhh |
 | Heart of China | Heart of China.scummvm | dgds:china | china |
 | Helga Deep In Trouble | Helga Deep In Trouble.scummvm | wintermute:helga | helga |

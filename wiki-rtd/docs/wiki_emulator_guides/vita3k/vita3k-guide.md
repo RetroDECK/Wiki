@@ -182,7 +182,7 @@ The file `Tales of Innocence R.psvita` contains:
 
 ### Step 4: Restart RetroDECK
 
-1. Close **Vita3K**, the **RetroDECK Configurator**, and **RetroDECK** itself.
+1. Close **Vita3K**, the **RetroDECK Configurator** and **RetroDECK** itself.
 2. Relaunch **RetroDECK**.
 3. Your game should now appear in the **ES-DE** frontend and be playable.
 

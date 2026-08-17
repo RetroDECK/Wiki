@@ -120,7 +120,7 @@ Place your `.pnach` files in: **retrodeck/cheats/pcsx2/**
 
 Multitap allows up to **8 players** on the PlayStation 2 by connecting 4 controllers to each controller port.
 
-**Note:** Most games do not support this feature, and some may not work with it enabled.
+**Note:** Most games do not support this feature and some may not work with it enabled.
 
 1. Open **PCSX2** via the **RetroDECK Configurator**. 
 2. Go to **Settings → Controllers → Controller Multitap**.
@@ -158,7 +158,7 @@ PCSX2 typically follows your system locale if supported.
 3. Under **Options and Patches**, uncheck **Fast Boot**, then close the menu.
 4. Go to **System → Start BIOS**.
 5. In the BIOS, navigate to **System Configuration → Language** and select your preferred language.
-6. Exit the BIOS, return to **Settings → BIOS → Options and Patches**, and re-enable **Fast Boot**.
+6. Exit the BIOS, return to **Settings → BIOS → Options and Patches** and re-enable **Fast Boot**.
 7. Close **PCSX2**.
 
 ---

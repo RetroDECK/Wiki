@@ -258,7 +258,7 @@ All credit goes to **Jens Guenther** / **Tim Mannr** / **libSDL Team** / **Mark 
 
 ### Keyboard Behavior
 
-- On **Model III**, **Model 4**, and **Model 4P**, the **left** and **right Shift** keys are mapped independently.
+- On **Model III**, **Model 4** and **Model 4P**, the **left** and **right Shift** keys are mapped independently.
 - On **Model I**, both Shift keys perform the same function.
 
 The following host keys occupy otherwise unused positions in the TRS-80 keyboard matrix:

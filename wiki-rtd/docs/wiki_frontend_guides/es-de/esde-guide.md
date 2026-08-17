@@ -54,10 +54,10 @@ ES-DE is the default frontend used in RetroDECK.
 
 | Topic | Description |
 |------|-------------|
-| Change Emulator for a Specific Game | Navigate to the game.<br>Press **Select → Edit This Game’s Metadata → Alternative Emulator**.<br>Choose the emulator, and press **Save**. |
-| Change Emulator for an Entire System | Open **ES-DE Menu → ES-DE Configurations → Other Settings → Alternative Emulators**.<br>Select the system, and choose a new default emulator. |
+| Change Emulator for a Specific Game | Navigate to the game.<br>Press **Select → Edit This Game’s Metadata → Alternative Emulator**.<br>Choose the emulator and press **Save**. |
+| Change Emulator for an Entire System | Open **ES-DE Menu → ES-DE Configurations → Other Settings → Alternative Emulators**.<br>Select the system and choose a new default emulator. |
 | Change Language in ES-DE | ES-DE defaults to the system language if supported.<br>To change it manually: open **ES-DE Menu → ES-DE Configurations → UI Settings → Application Language**, then select your preferred language. |
-| Why Menu Navigation Does Not Wrap (Up/Down) | ES-DE menus are grid-based rather than simple lists, and grids can include mixed elements such as text entries and buttons.<br>Because layouts vary, wrap-around navigation would behave inconsistently.<br>ES-DE instead provides navigation shortcuts:<br>• **L1 / Page Up** - jump up 6 rows in menus, 10 in gamelists<br>• **R1 / Page Down** - jump down 6 rows in menus, 10 in gamelists<br>• **L2 / Home** - jump to top<br>• **R2 / End** - jump
+| Why Menu Navigation Does Not Wrap (Up/Down) | ES-DE menus are grid-based rather than simple lists and grids can include mixed elements such as text entries and buttons.<br>Because layouts vary, wrap-around navigation would behave inconsistently.<br>ES-DE instead provides navigation shortcuts:<br>• **L1 / Page Up** - jump up 6 rows in menus, 10 in gamelists<br>• **R1 / Page Down** - jump down 6 rows in menus, 10 in gamelists<br>• **L2 / Home** - jump to top<br>• **R2 / End** - jump
 
 
 ---
@@ -77,7 +77,7 @@ ES-DE is the default frontend used in RetroDECK.
 | Start | Options | + | Escape | Opens/closes main menu. |
 | Back | Share | - | F1 | Opens/closes gamelist options menu. |
 | Left / Right Shoulder | L1 / R1 | L / R | Page Up / Page Down | Quick jumps in lists/menus (6 entries in menus, 10 in gamelists); navigate gamelists with Quick system select; back/blankspace in text edit dialogs; zoom in/out in PDF viewer. |
-| Left / Right Trigger | L2 / R2 | ZL / ZR | Home / End | Jump to first/last entries in carousels, grids, menus, and text edit dialogs; navigate gamelists with Quick system select; jump to first/last entry/page in media viewer. |
+| Left / Right Trigger | L2 / R2 | ZL / ZR | Home / End | Jump to first/last entries in carousels, grids, menus and text edit dialogs; navigate gamelists with Quick system select; jump to first/last entry/page in media viewer. |
 | Left / Right Thumbstick Click | L3 / R3 | L / R Stick Click | F2 / F3 | Jump to random game or system (requires Random entry button configuration). |
 | A Button | Cross | B | Enter | Selects items: open gamelists, launch games, enter folders, select menu entries. |
 | B Button | Circle | A | Back key | Back button. |
@@ -93,7 +93,7 @@ ES-DE is the default frontend used in RetroDECK.
 
 | Topic | Description |
 |------|-------------|
-| Add Themes (From the Internet) | Ensure the theme is compatible with ES-DE before downloading.<br>Download the theme, extract it if compressed (.zip or .7z), and place the extracted folder in `retrodeck/ES-DE/themes/`.<br>The final path should be `retrodeck/ES-DE/themes/<downloaded_theme_folder>`.<br>Launch RetroDECK and select the theme normally. |
+| Add Themes (From the Internet) | Ensure the theme is compatible with ES-DE before downloading.<br>Download the theme, extract it if compressed (.zip or .7z) and place the extracted folder in `retrodeck/ES-DE/themes/`.<br>The final path should be `retrodeck/ES-DE/themes/<downloaded_theme_folder>`.<br>Launch RetroDECK and select the theme normally. |
 | Add Themes (Theme Downloader) | Navigate to **ES-DE Menu → ES-DE Configurations → UI Settings → Theme Downloader**.<br>Browse and download additional themes directly within ES-DE. |
 | Squished Theme Layout on Steam Deck | The Steam Deck uses a `16:10` aspect ratio, while many third-party themes are designed for `16:9`, which can cause layouts to appear squished.<br>All included themes are built for `16:10`.<br>To resolve this issue with external themes, either use a version designed for `16:10` or modify the theme to support that aspect ratio. |
 | Switch Between Themes | Open **ES-DE Menu → ES-DE Configurations → UI Settings → Theme Set**.<br>Then select the desired theme. |
@@ -104,7 +104,7 @@ ES-DE is the default frontend used in RetroDECK.
 
 ## ES-DE Scraping
 
-Scraping enhances your game library with cover art, icons, disc images, videos, and more. ES-DE supports **ScreenScraper** and **TheGamesDB**
+Scraping enhances your game library with cover art, icons, disc images, videos and more. ES-DE supports **ScreenScraper** and **TheGamesDB**
 
 ### General 
 
@@ -113,7 +113,7 @@ Scraping enhances your game library with cover art, icons, disc images, videos, 
 | Account Login | Log in via **ES-DE Menu → Scraping → Account Settings**. |
 | Content Selection | Choose what to scrape under **ES-DE Menu → Scraping → Content Settings**.<br>Each content type may consume several MB per game. |
 | Official Guide | See the [ES-DE Scraper Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#scraping) for detailed documentation. |
-| ScreenScraper Account | A ScreenScraper account is required.<br>Supporting them on Patreon enables faster downloads, higher daily limits, and priority scraping. |
+| ScreenScraper Account | A ScreenScraper account is required.<br>Supporting them on Patreon enables faster downloads, higher daily limits and priority scraping. |
 | ScreenScraper vs TheGamesDB | ScreenScraper is recommended in most cases.<br>TheGamesDB may work better for PC titles. |
 | Scraping Settings Location | **ES-DE Menu → Scraping** |
 | Supported Scraping Services | • [ScreenScraper](https://www.screenscraper.fr/) <br>• [TheGamesDB](https://thegamesdb.net/) |
@@ -248,7 +248,7 @@ Scraping enhances your game library with cover art, icons, disc images, videos, 
 
 ## Adding Manual Media (Without Scraping)
 
-You can manually add images, videos, and manuals without using scraping.
+You can manually add images, videos and manuals without using scraping.
 
 | Topic | Description |
 |-------|-------------|
@@ -327,10 +327,10 @@ File `retrodeck/ES-DE/collections/custom-Platform.cfg` contains:
 
 | Topic | Description |
 |-------|-------------|
-| Compatibility | ES-DE has evolved significantly from EmulationStation.<br>Data, system names, directory structures, and themes are **not transferable**.<br>Only ES-DE-specific themes will work.<br>Media is matched to game/ROM filenames rather than using tags in `gamelist.xml`. |
+| Compatibility | ES-DE has evolved significantly from EmulationStation.<br>Data, system names, directory structures and themes are **not transferable**.<br>Only ES-DE-specific themes will work.<br>Media is matched to game/ROM filenames rather than using tags in `gamelist.xml`. |
 | Gamelist location | Move `gamelist.xml` files from ROM directories to `~/ES-DE/gamelists/`. |
 | One-way migration | Moving data from EmulationStation to ES-DE may modify `gamelist.xml` and custom collection files, potentially making them incompatible with EmulationStation. |
-| Other differences | Directory structure, metadata handling, and theme engine differences may require manual adjustments. |
+| Other differences | Directory structure, metadata handling and theme engine differences may require manual adjustments. |
 | Path tags | ES-DE requires a leading `./` in path tags.<br>**Incorrect:** `<path>Another World.lha</path>`<br>**Correct:** `<path>./Another World.lha</path>` |
 | System names | ES-DE may use different system names than Batocera, RetroBat, or Recalbox.<br>Example: Sega SG-1000 is `sg-1000` in ES-DE vs `sg1000` elsewhere.<br>Check the Supported Game Systems table for correct names. |
 
@@ -342,7 +342,7 @@ File `retrodeck/ES-DE/collections/custom-Platform.cfg` contains:
 | Tool | Description | Link |
 |------|------------|------|
 | ES-DE - Vita3K | Python script to generate `.psvita` files for populating the PSVita system in ES-DE. | [GitHub](https://github.com/BinaryQuantumSoul/esde-vita3k) |
-| ES-DE-Roms-Renamer | Python tool to rename ROMs, update media files, and modify `gamelist.xml` entries. | [GitHub](https://github.com/mirai-toto/ES-DE-Roms-Renamer) |
+| ES-DE-Roms-Renamer | Python tool to rename ROMs, update media files and modify `gamelist.xml` entries. | [GitHub](https://github.com/mirai-toto/ES-DE-Roms-Renamer) |
 | GameList.xml to RetroArch Playlist Converter | Converts ES-DE `gamelist.xml` files to RetroArch playlist format. | [GitHub](https://github.com/bnovakovic/GameList_Converter) |
 | M3U Files Generator | Python script to automate creation of `.m3u` files for various systems. | [GitHub](https://github.com/Jetup13/Retroid-Pocket-4-Pro-Wiki/wiki/Emulators-and-Formats#m3u-file-generator-python-script) |
 
@@ -364,7 +364,7 @@ Here are some ES-DE FAQ entries compressed, focusing on RetroDECK-related questi
 | Miximages not updating? | Generated from scraped/media assets; rescrape or run offline generator in Miximage Settings menu. |
 | Relationship with RetroDECK? | Separate project, collaborates to bundle ES-DE with emulators in a Flatpak.<br>Useful for Steam Deck or Linux desktops. |
 | SteamOS language not detected? | SteamOS game mode misconfigures environment; select language manually via UI Settings → Application Language. |
-| What are Miximages in ES-DE and how are they updated? | Miximages are generated from a combination of screenshots, marquees, and 3D box images.<br>They can be updated using the offline generator in the Miximage Settings menu. |
+| What are Miximages in ES-DE and how are they updated? | Miximages are generated from a combination of screenshots, marquees and 3D box images.<br>They can be updated using the offline generator in the Miximage Settings menu. |
 | What is the official name of the project and application? | ES-DE Frontend (originally EmulationStation Desktop Edition).<br>The community mostly refers to it simply as ES-DE. |
 | Why are some game systems missing, like SNES MSU-1 or WiiWare? | Hack/e-shop systems are intentionally not included.<br>You can add them manually or organize them into custom collections. |
 | Why can’t menu wrap around? | Menus are grids; wrapping causes inconsistent navigation.<br>Use shoulder or trigger buttons for consistent jumps. |
@@ -382,10 +382,10 @@ Here follows various quick bookmarks to specific section of the User Guide that 
 || [UI Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#ui-settings) |
 || [Other UI Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings) |
 || [Sound Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sound-settings) |
-| **Game Settings, Collections, and Filters** | [Game Options](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#game-options-menu) |
+| **Game Settings, Collections and Filters** | [Game Options](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#game-options-menu) |
 || [Game Collections](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#game-collections) |
 || [Setting Alternative Emulator](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#other-settings-1) |
-| **Scraper, Art, Videos, and Images** | [Scraper Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#scraping) |
+| **Scraper, Art, Videos and Images** | [Scraper Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#scraping) |
 || [Scraper Accounts](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#account-settings) |
 || [Content Settings](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#content-settings) |
 || [Custom Media Files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#manually-copying-game-media-files) |

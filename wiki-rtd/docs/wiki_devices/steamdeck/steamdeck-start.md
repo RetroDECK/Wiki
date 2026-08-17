@@ -63,7 +63,7 @@ Launch RetroDECK from `Discover` or the `KDE Program Menu` under `Games` → `Re
 - `SD Card` *If you plan to install it on your SD Card, check the FAQ link above.*
 - `Custom Location`
 
-<img src="../../../wiki_images/retrodeck-finit/1-RD-Finit-Start.png" width="500" alt="RetroDECK first-run setup dialog showing storage location options: Internal Storage, SD Card, and Custom Location">
+<img src="../../../wiki_images/retrodeck-finit/1-RD-Finit-Start.png" width="500" alt="RetroDECK first-run setup dialog showing storage location options: Internal Storage, SD Card and Custom Location">
 
 <img src="../../../wiki_images/retrodeck-finit/5-RD-Finit-FirmWait.png" width="500" alt="RetroDECK setup screen showing firmware installation in progress">
 
@@ -169,8 +169,8 @@ Place required BIOS/Firmware files in (if the component require it):
 
 <img src="../../../wiki_images/logos/es-de-logo.png" width="55" alt="ES-DE Frontend logo">
 
-ES-DE is the graphical interface where you browse, select, and launch your games that RetroDECK uses.
-Understanding its basics will help you customize themes, scrape metadata, manage playlists, and more.
+ES-DE is the graphical interface where you browse, select and launch your games that RetroDECK uses.
+Understanding its basics will help you customize themes, scrape metadata, manage playlists and more.
 
 **Read more:**
 
@@ -182,7 +182,7 @@ Understanding its basics will help you customize themes, scrape metadata, manage
 
 <img src="../../../wiki_icons/pixelitos/antimicrox.png" width="50" alt="">
 
-RetroDECK uses Steam Input, and each emulator has consistent hotkeys for save states, menus, fast-forward, screenshots, and more.
+RetroDECK uses Steam Input and each emulator has consistent hotkeys for save states, menus, fast-forward, screenshots and more.
 
 **Read more:**
 

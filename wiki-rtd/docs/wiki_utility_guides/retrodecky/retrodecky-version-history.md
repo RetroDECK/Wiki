@@ -2,6 +2,23 @@
 
 <img src="../../..//wiki_icons/retrodeck/icon-RetroDECKY.svg" width="75" alt="RetroDECKY logo">
 
+[RetroDECKY: Releases](https://github.com/Teppichseite/RetroDECKY/releases/)
+
+---
+
+## 1.2.0
+
+### Release Date
+
+2026-08-16
+
+### Notes
+
+- Added RetroAchievements integration across all supported systems and emulators
+- Allows to display RetroAchievements progress during a game session
+- Supports Regular and Hardcore mode
+
+
 ---
 
 ## 1.1.0

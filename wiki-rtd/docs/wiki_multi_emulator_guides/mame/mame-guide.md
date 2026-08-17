@@ -127,7 +127,7 @@ Where different types of assets and metadata are stored
 
 As MAME updates, so do the ROM Sets. It's important to use the same ROM Set as the current version shipped with RetroDECK.
 
-Read more on: [MAME - Maintaning ROM Sets](https://docs.mamedev.org/usingmame/aboutromsets.html)
+Read more on: [MAME - Maintaining ROM Sets](https://docs.mamedev.org/usingmame/aboutromsets.html)
 
 ---
 

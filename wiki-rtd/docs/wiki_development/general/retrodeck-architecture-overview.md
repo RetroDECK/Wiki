@@ -112,7 +112,7 @@ All component-specific logic should live within the component's own component fi
 
 ### The Recipe
 
-<img src="../../../wiki_icons/retrodeck/icon-alchemist.svg" width="35" alt="RetroDECK Flatpak architecture">
+<img src="../../../wiki_icons/retrodeck/icon-alchemist.svg" width="50" alt="RetroDECK Flatpak architecture">
 
 Read by the `RetroDECK Alchemist`.
 
@@ -124,7 +124,7 @@ Defines how RetroDECK Alchemist should source a component's from AppImage, Flatp
 
 ### The Ingredients
 
-<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="35" alt="RetroDECK Flatpak architecture">
+<img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="50" alt="RetroDECK Flatpak architecture">
 
 Read by the `RetroDECK Framework`.
 

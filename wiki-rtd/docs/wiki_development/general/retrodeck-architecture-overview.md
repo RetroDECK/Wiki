@@ -46,7 +46,7 @@ An advanced Flatpak may require supplementary libraries and dependencies that ar
 
 <img src="../../../wiki_icons/retrodeck/icon-container-sub-sandbox.svg" width="75" alt="RetroDECK Flatpak architecture">
 
-A **subsandbox** is a container-launching mechanism managed by the RetroDECK Framework. It uses the RetroDECK Flatpak container and Flatpak Runtime, which provide shared libraries and dependencies for components.
+A **subsandbox** is a container-launching mechanism managed by the RetroDECK Framework. It uses the RetroDECK Flatpak container and Flatpak Runtime, which provide shared libraries and dependencies for internal components.
 
 A subsandbox controls which libraries and files a component can access. This isolation allows RetroDECK to override Flatpak Runtime library versions when required, enabling support for components built against different environments.
 
@@ -87,7 +87,7 @@ The Flatpak sandbox already defines the XDG Base Directory locations within the 
 
 ### Flatpak RO Filesystem
 
-Component subsandboxes are stored alongside their binaries with RetroDECK on read-only filesystem.
+Internal Component subsandboxes are stored alongside their binaries with RetroDECK on read-only filesystem.
 
 The filesystem is located at `/app/retrodeck/` inside the Flatpak
 
@@ -420,7 +420,7 @@ Working together with the Alchemist, the Assembler packages the processed compon
 
 Components are distributed according to their target release channel:
 
-- **Cooker Feature Branches** - Development branches merged into Cooker when ready.
+- **Cooker `feat/<feature_name>` / `component/<component_name>`  Branches** - Development branches merged into Cooker when ready. One that focuses on new features and one that focuses on adding new internal components.
 - **Cooker** - Bleeding-edge testing environment.
 - **Main** - Stable production releases.
 

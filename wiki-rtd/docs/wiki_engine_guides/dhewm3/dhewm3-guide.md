@@ -32,11 +32,11 @@ DOOM games should be put under the `retrodeck/roms/doom3/` directory.
 
 ---
 
-## Does GZDOOM require BIOS or Firmware?
+## Does dhewm 3 require BIOS or Firmware?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
-No. GZDoom does not require any BIOS or firmware files.
+No, dhewm 3 does not require any BIOS or firmware files. 
 
 However, you do need copies of the official **DOOM 3** and **Doom 3: Resurrection of Evil** game data files and place them in  `retrodeck/roms/doom3/base`,  `retrodeck/roms/doom3/d3xp` / `retrodeck/roms/doom3/d3xp.doom3`. 
 

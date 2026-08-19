@@ -152,7 +152,7 @@ Make sure all the game files are at their proper location **Read Above**.
 1. Navigate to `retrodeck/roms/doom3/`.
 2. Copy the `d3xp` folder containing the required game files.
 3. Rename the copied folder to `d3xp.doom3`.
-4. In ES-DE, highlight **DOOM 3: Resurrection of Evil**.
+4. In ES-DE, highlight **d3xp**.
 5. Open the **Main Menu** and select **Edit This Game's Metadata**.
 6. Change the **Name** field to `DOOM 3: Resurrection of Evil`.
 7. Save the changes and launch the expansion from RetroDECK.

@@ -93,7 +93,7 @@ It is compatible with most community-made levels, graphics, music and mods creat
 | Config | `~/.var/app/net.retrodeck.retrodeck/config/gzdoom/` | gzdoom.ini                  |
 | Data   | `~/.var/app/org.retrodeck.retrodeck/data/gzdoom/`   |                             |
 | ROMs   | `retrodeck/roms/doom/`                            |                             |
-| Saves  | `retrodeck/saves/wiiu/doom/`                      |                             |
+| Saves  | `retrodeck/saves/doom/`                      |                             |
 
 ---
 

@@ -17,7 +17,6 @@ You will find Delta Patcher inside the RetroDECK Configurator as its own compone
 ## Before You Begin
 
 - Always back up the original ROM before patching or modifying anything.  
-- BPS patches are recommended due to better accuracy and safety.  
 - Ensure the ROM used is the exact version required by the patch.  
 - Errors generally indicate a mismatched or modified base ROM.  
 - When applying multiple ROM hacks, **check compatibility** and follow the **recommended order**, as it can vary for each hack.

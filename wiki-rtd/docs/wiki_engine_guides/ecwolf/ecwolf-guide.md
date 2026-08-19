@@ -37,15 +37,8 @@ ECWolf game files must be placed in the `retrodeck/roms/wolf/<sub_directory.wolf
 
 | File Format | Description |
 |-------------|-------------|
-| .wolf      | RetroDECK ECWolf parser format |
-| .wl6       | Wolfenstein 3D - Full version data file |
-| .wl1       | Wolfenstein 3D - Shareware version data file |
-| .sod       | Spear of Destiny - Full versio game data file |
-| .sod       | Spear of Destiny - Demo version game data file |
-| .sd2       | Spear of Destiny Mission Pack 2 - Return to Danger game data file |
-| .sd3       | Spear of Destiny Mission Pack 3 - Ultimate Challenge game data file |
-| .n3d       | Super 3D Noah's Ark game data file |
-| .pk3 | Enhanced engine .zip container |
+| .wolf      | RetroDECK ECWolf launcher format |
+
 
 
 
@@ -67,7 +60,7 @@ However, you do need copies of the official game data.
 
 | Type | Directory | Comment |
 |:----:|:--------------------------------------|:-----------------------------------------------|
-| ROMs | `retrodeck/roms/wolf` | |
+| ROMs | `retrodeck/roms/wolfenstein` | |
 
 --- 
 
@@ -82,7 +75,7 @@ Below are the original game data files required by **ECWolf** to run that versio
 - Spear of Destiny - Mission Pack 1 - Return to Danger
 - Spear of Destiny - Mission Pack 2 - Return to Danger
 - Spear of Destiny - Mission Pack 3 - Ultimate Challenge
-- Super 3D Noah’s Ark
+- Super 3D Noah's Ark
 
 These files must be copied from your original game installation.
 
@@ -183,7 +176,7 @@ These files must be copied from your original game installation.
 
 ---
 
-### Super 3D Noah’s Ark (.N3D)
+### Super 3D Noah's Ark (.N3D)
 
 | File Name        | Description | Comments |
 |------------------|------------|----------|
@@ -205,7 +198,7 @@ Below is a combined table containing purchase links.
 | Game / Bundle | Steam Link | GOG Link | itch.io Link | Comments |
 |---------------|------------|----------|--------------|---------|
 | Wolfenstein 3D | [Steam](https://store.steampowered.com/app/2270/Wolfenstein_3D/) | [GOG](https://www.gog.com/en/game/wolfenstein_3d) |  | No version today includes the Spear of Destiny mission packs 2 and 3. |
-| Super 3-D Noah's Ark | [Steam](https://store.steampowered.com/app/371180/Super_3D_Noahs_Ark/) | [GOG](https://www.gog.com/en/game/super_3d_noahs_ark) |(Recommended) [itch.io](https://wisdomtree.itch.io/s3dna) | 100% of itch.io purchases go to ECWolf directly and Steam key included |
+| Super 3-D Noah's Ark | [Steam](https://store.steampowered.com/app/371180/Super_3D_Noahs_Ark/) | [GOG](https://www.gog.com/en/game/super_3d_noahs_ark) |**(Recommended)** [itch.io](https://wisdomtree.itch.io/s3dna) | 100% of itch.io purchases go to ECWolf directly and the Steam is key included.  |
 
 ---
 
@@ -285,7 +278,7 @@ Below is a combined table containing purchase links.
 
 ---
 
-### Super 3D Noah’s Ark - Quiz Pickups Cheat Sheet
+### Super 3D Noah's Ark - Quiz Pickups Cheat Sheet
 
 Quiz pickups are scattered throughout the game. The starting question depends on where the player ended the previous playthrough, cycling sequentially until it returns to the first question.
 
@@ -304,7 +297,7 @@ Quiz pickups are scattered throughout the game. The starting question depends on
 | 11 | How many days did it rain? | 40 days and nights. (Gen 7:4) |
 | 12 | How old was Noah when the floods came? | 600 years old. (Gen 7:6) |
 | 13 | How many days did Noah wait in the Ark before the flood? | 7 days. (Gen 7:10) |
-| 14 | Did the flood come only from the sky? | No — from sky and fountains of the deep. (Gen 7:11) |
+| 14 | Did the flood come only from the sky? | No - from sky and fountains of the deep. (Gen 7:11) |
 | 15 | How many people were on the Ark? | Noah, his wife, his three sons and their wives. (Gen 7:13) |
 | 16 | Did Noah collect the animals? | Yes, pairs of all living things entered the Ark. (Gen 7:15) |
 | 17 | Who survived the flood? | Only Noah and those with him on the Ark. (Gen 7:23) |
@@ -366,20 +359,20 @@ Quiz pickups are scattered throughout the game. The starting question depends on
 | 73 | How long to recede water for Ark? | 150 days. (Gen 8:3) |
 | 74 | Did God destroy the Ark after flood? | False. |
 | 75 | Why store food? | For Noah and animals. (Gen 6:21) |
-| 76 | Name of Noah’s wife? | False — not Sarah. |
-| 77 | Did Noah have more sons after flood? | No — only Shem, Ham, Japheth. (Gen 9:19) |
+| 76 | Name of Noah’s wife? | False - not Sarah. |
+| 77 | Did Noah have more sons after flood? | No - only Shem, Ham, Japheth. (Gen 9:19) |
 | 78 | Years given to repent before flood? | 120 years. (Gen 6:3) |
 | 79 | Who lived before Noah? | Adam. (Gen 5:1) |
 | 80 | Who lived after Noah? | Example: Joshua. (Luke 3:36-37) |
 | 81 | Did Noah obey God fully? | Yes. (Gen 6:22) |
 | 82 | Next covenant after Noah? | With Abram. (Gen 15:18) |
 | 83 | Kind of covenant with Noah? | God promised no more floods. (Gen 9:11) |
-| 84 | Did people eat vegetables only before flood? | False — they ate green herbs. (Gen 9:3-4) |
+| 84 | Did people eat vegetables only before flood? | False - they ate green herbs. (Gen 9:3-4) |
 | 85 | What will not cease in covenant? | Seed time/harvest, cold/heat, summer/winter, day/night. (Gen 8:22) |
 | 86 | God told Noah to make windows for animals? | Yes. (Gen 6:16) |
-| 87 | Did rainbows exist before flood? | False — rainbow given after flood. (Gen 9:12-17) |
+| 87 | Did rainbows exist before flood? | False - rainbow given after flood. (Gen 9:12-17) |
 | 88 | Length of a cubit? | ~18 inches (finger to elbow) |
-| 89 | Did it take 40 days to find animals? | No — animals came by pairs as commanded. (Gen 7:8-10) |
+| 89 | Did it take 40 days to find animals? | No - animals came by pairs as commanded. (Gen 7:8-10) |
 | 90 | Day Noah saw dry land? | 1st day, 1st month of 601st year. (Gen 8:13) |
 | 91 | Canaan cursed to be servant? | Yes. (Gen 9:25) |
 | 92 | Years Noah lived after flood? | 350 years. (Gen 9:28) |

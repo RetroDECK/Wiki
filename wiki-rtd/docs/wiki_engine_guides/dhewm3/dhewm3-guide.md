@@ -205,7 +205,7 @@ dhewm 3 has native support for the following mods:
 
 ### Loading mods from the Mods Menu
 
-<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="600" alt="">
+<img src="../dhewm3-mods-menu.png" width="600" alt="">
 
 Some mods must be loaded manually from the DOOM 3 Mods menu:
 

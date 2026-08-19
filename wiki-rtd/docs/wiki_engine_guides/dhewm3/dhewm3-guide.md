@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/dhewm3-logo.svg" width="150" alt="dhewm 3 logo">
 
-dhewm 3 is the open source source port / game engine for ID Software's  DOOM 3 and mods.
+dhewm 3 is the open source source port / game engine for ID Softwares  DOOM 3 and mods.
 
 ---
 
@@ -153,7 +153,7 @@ Make sure all the game files are at their proper location **Read Above**.
 2. Copy the `d3xp` folder containing the required game files.
 3. Rename the copied folder to `d3xp.doom3`.
 4. In ES-DE, highlight **d3xp**.
-5. Open the **Main Menu** and select **Edit This Game's Metadata**.
+5. Open the **Main Menu** and select **Edit This Games Metadata**.
 6. Change the **Name** field to `DOOM 3: Resurrection of Evil`.
 7. Save the changes and launch the expansion from RetroDECK.
 
@@ -172,12 +172,12 @@ dhewm 3 has native support for the following mods:
 | Blood Mod v1.8 | `bloodmod`  `bloodmod_roe`|
 | CLASSIC DOOM III | `cdoom` |
 | Doom 3: The Lost Mission | `d3le` |
-| Denton's Enhanced Doom3 | `dentonmod` |
+| Dentons Enhanced Doom3 | `dentonmod` |
 | Desolated - The Crying Fate | `desolated` |
 | ELDOOM | `eldoom` |
 | HeXen: Edge Of Chaos | `eoc` |
 | Fitz Packerton | `fitz` |
-| Grimm: Quest for the Gatherer's Key | `grimm` |
+| Grimm: Quest for the Gatherers Key | `grimm` |
 | Hard Corps v0.8.66 | `hardcorps` |
 | LibreCoop Alpha v1.5 | `librecoop` / `librecoopd3xp` |
 | Perfected Doom3 (ROE) v7 | `perfected` / `perfected_d3xp` |
@@ -210,7 +210,7 @@ dhewm 3 supports two types of native DOOM 3 mods:
 2. For **CLASSIC DOOM III**, rename `cdoom` to `cdoom.doom3`.
 3. The final path should be `retrodeck/roms/doom3/cdoom.doom3`.
 4. In ES-DE, highlight **cdoom**.
-5. Open the **Main Menu** and select **Edit This Game's Metadata**.
+5. Open the **Main Menu** and select **Edit This Games Metadata**.
 6. Set the **Name** field to `CLASSIC DOOM III`.
 7. Save the changes and launch **CLASSIC DOOM III** from RetroDECK.
 

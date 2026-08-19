@@ -102,3 +102,17 @@ You can disable the built-in **Surge the Rabbit** game using the RetroDECK Confi
 
 
 ---
+
+## Where to Download Open Surge Games?
+
+| Resource | Link | Description |
+|----------|------|-------------|
+| Sonic Fan Games HQ | [Link](https://sonicfangameshq.com/forums) | Community forum with extensive game library |
+| SAGE Expo | [Link](https://sagexpo.org/) |  Sonic Amateur Games Expo (SAGE for short)! SAGE is a yearly, non-profit put together by Sonic Fan Games HQ. |
+
+**Note:** 
+
+Only fan games built with the **Open Surge engine** are compatible with RetroDECK. Verify engine requirements before downloading.
+
+---
+

@@ -250,7 +250,9 @@ Then load the mod from the **Mods** menu in DOOM 3.
 
 **Note:** 
 
-This method is **not guaranteed to work** with every odd. If the mod does not launch, remove the .doom3 extension and try loading the mod from the **Mods** menu in DOOM 3.
+This method is **not guaranteed to work** with every mod. 
+
+If the mod does not launch, remove the .doom3 extension and try loading the mod from the **Mods** menu in DOOM 3.
 
 ---
 

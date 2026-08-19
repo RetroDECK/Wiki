@@ -439,3 +439,11 @@ The following cores support the `Rewind` function.
 | **Steam Deck: Why am I experiencing slowdown or stuttering?** | RetroArch requires the Steam Deck to run at 60Hz. If you experience slowdown, press the three dots button and go to the **Battery (Performance)** section and ensure both **Framerate Limit** and **Refresh Rate** are set to **60**. |
 
 ---
+
+## Troubleshooting
+
+| Topic | Issue | Solution |
+|---|---|---|
+| **m3u Save Files Locations** | Multi-file game saves location bug.|  Issue tracked on GitHub: *libretro bug 17589*. |
+| **Keyboard and Controller conflict** | Keyboard and Controller conflict in certain PC Linux Desktop Enviroments. |  `Settings` →  `Input` → `Autoconfig` and set to `OFF`  |
+| **UI overscales on Fullscreen** | UI overscales on Wayland when OS scaling >100% on Vulkan.. |  Open RA via **RetroDECK Configurator**.<br>Go to **Settings → Video → Output → Video Driver** → switch from **Vulkan** to **GL**.<br>Then **Main Menu → Configuration File → Save Current Configuration** and exit RA. |

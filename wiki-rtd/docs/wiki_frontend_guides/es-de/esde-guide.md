@@ -395,3 +395,11 @@ Here follows various quick bookmarks to specific section of the User Guide that 
 
 
 ---
+
+## Troubleshooting
+
+| Topic | Issue | Solution |
+|---|---|---|
+| **"ES-DE Configurations" Translation** |  "ES-DE Configurations" submenu does not support translations yet.| Translations planned for a future update. |
+
+---

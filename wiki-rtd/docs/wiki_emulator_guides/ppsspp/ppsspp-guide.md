@@ -103,3 +103,13 @@ You can search various databases or wikis online to find the correct serial for 
 
 
 ---
+
+
+## Troubleshooting
+
+| Topic | Issue | Solution |
+|---|---|---|
+| **UI overscales on Fullscreen** | UI overscales on Wayland when OS scaling >100% on Vulkan. | Open PPSSPP via **RetroDECK Configurator**.<br>Go to **Settings → Backend** → switch from **Vulkan** to **OpenGL**. |
+| **Steam Deck OLED Flickering** | Some games may flicker on the Steam Deck OLED. | Lower the display refresh rate from **90Hz** to **60Hz**. |
+
+---

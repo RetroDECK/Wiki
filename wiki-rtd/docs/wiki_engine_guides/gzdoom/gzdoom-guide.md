@@ -345,3 +345,12 @@ This makes using mods and switching between episodes much easier.
 | **In the DOOM Mod - Project Brutality, why is the visor GUI disabled by default in the RetroDECK configuration?** | The visor GUI is disabled by default because it does not scale well on smaller displays like the Steam Deck and can cause the interface to appear cramped. Users who prefer this feature may re-enable it in the settings menu. |
 
 ---
+
+
+## Troubleshooting
+
+| Topic | Issue | Solution |
+|---|---|---|
+| **Steam Input: Looping Inputs** |  Steam Input conflict causing input looping in menus. | Set the controller as **Player 1** or use Steam's **Reorder Controllers**.  |
+
+---

@@ -136,9 +136,9 @@ Find the location by:
 
 ---
 
-## Note: System Settings Are Per Game / Mod
+## Note: System Settings and Save Files Are Per Game / Mod
 
-Settings in DOOM 3 are saved per game / mod. 
+All Settings and Save Files in DOOM 3 are saved per game / mod. 
 
 Any changes you make to settings such as display size or controls in DOOM 3 must also be configured separately for its expansion pack, **Resurrection of Evil**.
 
@@ -236,7 +236,7 @@ Then load the mod from the **Mods** menu in DOOM 3.
 
 ---
 
-### Make Mods show up in ES-DE as Standalone Entries
+### Make Mods show up in ES-DE as Standalone Game Entries
 
 **Example:** **CLASSIC DOOM III**
 
@@ -284,10 +284,19 @@ Another option is to launch the mod as a D3XP mod.
 2. Open **Game Options**.
 3. Select **Edit This Game's Metadata**.
 4. Scroll to **Alternative Emulator**.
-5. Select **dhewm3 [Custom D3XP Mod] (Standalone)**.
+5. Select **dhewm 3 [Custom D3XP Mod] (Standalone)**.
 6. Select **Save**.
 
 This launches the mod with the `+set fs_game_base d3xp` option enabled, which may be required by some mods. The required game data files must be located in `retrodeck/roms/doom3/d3xp` for this to work.
+
+---
+
+## Troubleshooting
+
+| Topic | Issue | Solution |
+|---|---|---|
+| **Mods Menu is missing** | You have already entered an active game. | Select **Quit Current Game** to return to the main menu, where the **Mods Menu** will appear again. |
+
 
 ---
 

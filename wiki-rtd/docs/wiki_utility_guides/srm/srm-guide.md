@@ -198,3 +198,10 @@ The second command is for future Steam Flatpak support, as it requires the flatp
 Currently, games are not added to Flatpak Steam via Steam Sync.
 
 ---
+
+
+## Troubleshooting
+
+| Topic | Issue | Solution |
+|---|---|---|
+| **Controller Layouts Fail** |  Controller layouts sometimes fail to associate with Steam entries.|  Users must assign templates manually if this occurs. |

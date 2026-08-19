@@ -324,4 +324,12 @@ How-to use Real Wii Remotes and Nunchuck hardware?
 
 ---
 
+## Troubleshooting
 
+| Topic | Issue | Solution |
+|---|---|---|
+| **Wayland Windowing System** | Input mapping and GUI issues occur under Wayland. | Disable **Wayland Windowing System** via **Flatseal** for RetroDECK. |
+| **.m3u Files** | `.m3u` files do not launch. | Make sure the `.m3u` file is saved with **UNIX line endings** rather than Windows line endings. |
+| **Steam Deck OLED Flickering** | Some games may flicker on the Steam Deck OLED. | Lower the display refresh rate from **90Hz** to **60Hz**. |
+
+---

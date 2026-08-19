@@ -1,69 +1,48 @@
-﻿# Known Issues
+﻿# Known Issues: Global
 
 <img src="../../wiki_icons/pixelitos/edit-delete.png" width="75" alt="">
 
----
+This article documents **global issues** affecting hardware, devices, dependency software, and operating systems.
 
-## Component Specific  Issues
-
-| Component / Emulator | Issue | Solution |
-|----------------------|--------|----------|
-| **Dolphin** | Some games flicker on the Steam Deck OLED. | Lower the display refresh rate from **90Hz** to **60Hz**. |
-| **RetroArch** | Multi-file game saves location bug. | Issue tracked on GitHub: *libretro bug 17589*. |
-| **RetroArch** | Keyboard and Controller conflict in certain PC Linux Desktop Enviroments. |`Settings` →  `Input` → `Autoconfig` and set to `OFF` |
-| **UZDOOM** | Steam Input conflict causing input looping in menus. | Set the controller as **Player 1** or use Steam’s **Reorder Controllers**. |
-| **Steam Sync** | Controller templates sometimes fail to associate with Steam entries. | Users must assign templates manually if this occurs. |
-| **ES-DE** | Configuration submenu does not support translations yet. | Translations planned for a future update. |
-| **Dolphin / PrimeHack** | Input mapping and GUI issues occur under Wayland. | Disable **Wayland Windowing System** via *Flatseal* for RetroDECK. |
-| **Dolphin / PrimeHack** | Does not launch .m3u files. | Make sure the .m3u is saved with UNIX line endings and not Windows. |
+For component-specific issues, refer to the **Troubleshooting** section of the relevant component guide.
 
 ---
 
 ## Linux Desktop Issues
 
-| Component | Issue | Solution |
-|-----------|--------|----------|
-| **KDE Discover** | Shows incorrect Flatpak version due to caching bug. | Refresh cache: `Discover` → `Settings` → toggle **Flathub** off and on. |
+| Topic | Issue | Solution |
+|---|---|---|
+| **KDE Discover: Incorrect Flatpak Version** | KDE Discover may display an incorrect Flatpak version due to a caching issue. | Refresh the cache by opening `Discover → Settings` and toggling **Flathub** off and on. |
 
 ---
 
 ## Steam Issues
 
 | Topic | Issue | Solution |
-|-------|--------|----------|
-| **Streaming via Steam Remote Play results in a black screen** | This issue occurs with many non-native Steam applications, not just RetroDECK. | Use Moonlight and Sunshine setup as an alternative streaming solution check (Software Recommendations). |
+|---|---|---|
+| **Steam Remote Play: Black Screen** | Steam Remote Play may display a black screen when streaming non-native Steam applications, including RetroDECK. | Use **Moonlight + Sunshine** as an alternative streaming setup; see the Software Recommendations section. |
 
 ---
 
 ## Steam Input Issues
 
 | Topic | Issue | Solution |
-|-------|--------|----------|
-| **RetroDECK Hotkeys** | Hotkey support varies widely across emulators. Some have partial or no support. <br><br>Emulators with poor/no hotkey support: <br>• CEMU - almost none <br>• XEMU - none <br>• Vita3K - none <br>• Ryujinx - almost none | RetroDECK plans to map as many hotkeys as possible into the Hotkey System and patch emulator hotkeys as they become available. |
-| **Missing Radials on Linux Desktop** | Radial menus may appear behind the game window or the Steam overlay. | Issue has been reported to Valve. |
-| **Who is Player 1?** | Systems may incorrectly assign the Steam Deck or docked controller as Player 1. | Use Steam’s **Reorder Controllers** tool. |
-| **Desktop Layout conflicts with Game Layout (Linux Desktop)** | Desktop Layout sometimes overrides Game Layout, breaking controller inputs. | Two solutions depending on what device you are using:<br><br>**Option 1 - Disable Steam Input:**<br>`Steam` → `Settings` → `Controller` → `Desktop Layout` → `Edit` → `Disable`<br><br>**Option 2 - Apply RetroDECK Layout:**<br>`Steam` → `Settings` → `Controller` → `Desktop Layout` → `Edit` → `Apply RetroDECK Layout for your controller.` |
+|---|---|---|
+| **RetroDECK Hotkeys** | Hotkey support varies by emulator, with some offering partial or no support. | RetroDECK aims to integrate as many emulator hotkeys as possible into the Hotkey System and patch emulator-specific hotkeys as support becomes available. |
+| **Missing Radials on Linux Desktop** | Steam radial menus may render behind the game window or Steam Overlay. | The issue has been reported to Valve. |
+| **Who Is Player 1?** | The Steam Deck or a docked controller may incorrectly be assigned as Player 1. | Use Steam's **Reorder Controllers** feature to assign the correct player order. |
+| **Desktop Layout Conflicts with Game Layout (Linux Desktop)** | Steam Desktop Layout may override Game Layout, causing controller input conflicts. | Either disable Desktop Layout via `Steam → Settings → Controller → Desktop Layout → Edit → Disable`, or apply the RetroDECK layout via `Steam → Settings → Controller → Desktop Layout → Edit → Apply RetroDECK Layout for your controller`. |
 
 ---
 
 ## Steam Deck-Specific Issues
 
 | Topic | Issue | Solution |
-|-------|--------|----------|
-| **Emulator GUI Scaling** | Emulator UI elements may be cramped or off-screen in Game Mode due to resolution scaling. | Adjust Steam resolution temporarily: <br>1. Exit RetroDECK <br>2. Open RetroDECK in Steam → `⚙️` → `Properties` → `Shortcut` → `Game Resolution` <br>3. Set to **1920×1080** and enable **Set resolution for internal/external display** <br>4. Apply changes in the emulator <br>5. Revert resolution back to Default. |
-| **New SD Card Problems** | Errors, file transfer failures, or incorrect file sizes. | • Buy reputable brands <br>• Avoid special characters in SD card name <br>• Format via `Steam` → `Storage` → select card → `Y` → `Format Drive` <br>• Test suspected fake cards using tools like **f3**. |
-| **Slow Bleeding-Edge Emulators (XEMU, RPCS3, etc.)** | Games run slowly due to emulator immaturity or hardware limits. | Performance should improve over time; check emulator sites for game-specific optimizations. |
-| **Games Stuck at 30FPS / Slow Fast-Forward** | System framerate accidentally capped. | Press `[...]` → **Power Menu** → ensure **Framerate Limit** is not set to 30FPS. |
-| **Poor Performance When Docked** | Slow performance at high monitor resolutions (e.g., 4K). | Lower resolution in Steam: <br>`⚙️` → `Properties` → `Shortcut` → `Game Resolution` → set to **1920×1080** and enable **internal/external display** option. |
-
-
----
-
-## Wayland Issues
-
-| Topic | Issue | Solution |
-|-------|--------|----------|
-| **RetroArch** | UI overscales on Wayland when OS scaling >100% on Vulkan. | Open RA via **RetroDECK Configurator**.<br>Go to **Settings → Video → Output → Video Driver** → switch from **Vulkan** to **GL**.<br>Then **Main Menu → Configuration File → Save Current Configuration** and exit RA. |
-| **PPSSPP**   | UI overscales on Wayland when OS scaling >100% on Vulkan. | Open PPSSPP via **RetroDECK Configurator**.<br>Go to **Settings → Backend** → switch from **Vulkan** to **OpenGL**.|
+|---|---|---|
+| **Emulator GUI Scaling** | Emulator interfaces may appear cramped or extend beyond the screen in Game Mode due to resolution scaling. | Exit RetroDECK, open `Steam → RetroDECK → ⚙️ → Properties → Shortcut`, set **Game Resolution** to `1920×1080`, enable **Set resolution for internal/external display**, apply the required emulator changes, then restore the resolution to **Default**. |
+| **New SD Card Problems** | New SD cards may cause errors, file-transfer failures, or incorrect reported capacity. | Use reputable brands, avoid special characters in the SD card name, format via `Steam → Storage → Select Card → Y → Format Drive`, and test suspected counterfeit cards with tools such as `f3`. |
+| **Slow Bleeding-Edge Emulators (XEMU, RPCS3, etc.)** | Games may run slowly due to emulator maturity or hardware limitations. | Check the relevant emulator documentation and game-specific resources for available optimizations. Performance may improve as emulator development progresses. |
+| **Games Stuck at 30 FPS / Slow Fast-Forward** | A system-level frame-rate limit may have been set accidentally. | Open `[...] → Power Menu` and ensure **Framerate Limit** is not set to `30 FPS`. |
+| **Poor Performance When Docked** | High external-display resolutions, particularly 4K, can significantly reduce performance. | Set `Steam → Properties → Shortcut → Game Resolution` to `1920×1080` and enable the **Set resolution for internal/external display** option. |
 
 ---

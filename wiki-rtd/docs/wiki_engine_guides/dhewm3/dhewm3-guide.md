@@ -136,6 +136,17 @@ Find the location by:
 
 ---
 
+## Note: System Settings Are Per Game / Mod
+
+Settings in DOOM 3 are saved per game / mod. 
+
+Any changes you make to settings such as display size or controls in DOOM 3 must also be configured separately for its expansion pack, **Resurrection of Evil**.
+
+The same applies to mods, each mod has its own separate settings, so any tweaks must be configured individually for each mod.
+
+---
+
+
 ## How-to: Play DOOM 3 in RetroDECK?
 
 Make sure all the game files are at their proper location **Read Above**.
@@ -163,12 +174,9 @@ Make sure all the game files are at their proper location **Read Above**.
 
 ## How-to: Play DOOM 3 Mods in RetroDECK
 
-dhewm 3 supports two types of native DOOM 3 mods:
+dhewm 3 supports many types of mods
 
-- **Standalone Game Mods:** Standalone experiences that should appear as separate games in ES-DE, such as **CLASSIC DOOM III**.
-- **Enhancement Mods:** Mods that modify or enhance the base game, such as **Blood Mod** that adds HD texture packs.
-
-**The following installation steps apply to both types:**
+**The following installation steps apply to all mods:**
 
 1. Download the mod from its respective source.
 2. Extract the mod archive to `retrodeck/roms/doom3/<MOD_NAME>/`.
@@ -209,13 +217,26 @@ dhewm 3 has native support for the following mods:
 
 Some mods must be loaded manually from the DOOM 3 Mods menu:
 
-1. Select Mods
+1. Select `Mods`.
 2. Select the desired mod.
-3. Select Load.
+3. Select `Load Mod`.
+
+
+**Example: Blood Mod**
+
+Extract the mod archive directly into `retrodeck/roms/doom3/`. Do not place mod files inside additional nested directories.
+
+```
+retrodeck/roms/doom3/bloodmod/
+retrodeck/roms/doom3/bloodmod_roe/
+```
+
+Then load the mod from the **Mods** menu in DOOM 3.
+
 
 ---
 
-### Make Standalone Game Mods Show Up in ES-DE
+### Make Mods show up in ES-DE as Standalone Entries
 
 **Example:** **CLASSIC DOOM III**
 
@@ -229,25 +250,7 @@ Some mods must be loaded manually from the DOOM 3 Mods menu:
 
 **Note:** 
 
-This method is **not guaranteed to work** with every Standalone Game Mod. If the mod does not launch, remove the .doom3 extension and try loading the mod from the **Mods** menu in DOOM 3.
-
----
-
-### Enhancement Mods
-
-**Example: Blood Mod**
-
-Extract the mod archive directly into `retrodeck/roms/doom3/`. Do not place mod files inside additional nested directories.
-
-
-**Example:**
-
-```
-retrodeck/roms/doom3/bloodmod/
-retrodeck/roms/doom3/bloodmod_roe/
-```
-
-Then load the mod from the **Mods** menu in DOOM 3.
+This method is **not guaranteed to work** with every odd. If the mod does not launch, remove the .doom3 extension and try loading the mod from the **Mods** menu in DOOM 3.
 
 ---
 
@@ -269,7 +272,7 @@ Try loading the mod from the **Mods** menu in DOOM 3.
 
 If the mod works as a standalone game, try adding the `.doom3` extension so it appears as a separate game in ES-DE.
 
-See the **Make Standalone Game Mods Show Up in ES-DE** guide above.
+See the **Make Mods show up in ES-DE as Standalone Entries** guide above.
 
 #### Try Launching It as a D3XP Mod
 

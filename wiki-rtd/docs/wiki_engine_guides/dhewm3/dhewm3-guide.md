@@ -159,3 +159,70 @@ Make sure all the game files are at their proper location **Read Above**.
 
 **Note:** Some mods are hardcoded to look for the `d3xp` directory. A copy named `d3xp.doom3` is therefore required so the expansion can be used as a non-list entry while preserving the original `d3xp` directory for mod compatibility.
 
+---
+
+## dhewm 3: Built-in MOD Compatibility
+
+dhewm 3 has native support for the following mods:
+
+[dhewm 3 - MOD List](https://dhewm3.org/mods.html)
+
+| Mod Name | Mod ID |
+|----------|--------|
+| Blood Mod v1.8 | `bloodmod`  `bloodmod_roe`|
+| CLASSIC DOOM III | `cdoom` |
+| Doom 3: The Lost Mission | `d3le` |
+| Denton's Enhanced Doom3 | `dentonmod` |
+| Desolated - The Crying Fate | `desolated` |
+| ELDOOM | `eldoom` |
+| HeXen: Edge Of Chaos | `eoc` |
+| Fitz Packerton | `fitz` |
+| Grimm: Quest for the Gatherer's Key | `grimm` |
+| Hard Corps v0.8.66 | `hardcorps` |
+| LibreCoop Alpha v1.5 | `librecoop` / `librecoopd3xp` |
+| Perfected Doom3 (ROE) v7 | `perfected` / `perfected_d3xp` |
+| Real Gibs v1.06 | `realgibs` |
+| Scarlet Rivensin: The Ruiner v0.9.82 | `rivensin` |
+| Sikkmod v1.2 | `sikkmod` |
+| Sikkmod RoE v1.1 | `sikkmodd3xp` |
+
+
+---
+
+## How-to: Play dhewm 3  built-in DOOM 3 Mods in RetroDECK
+
+dhewm 3 supports two types of native DOOM 3 mods:
+
+- **Gameplay Mods:** Standalone experiences that should appear as separate games in ES-DE, such as **CLASSIC DOOM III**.
+- **Enhancement Mods:** Mods that modify or enhance the base game, such as **Blood Mod** that adds HD texture packs and should not appear as separate games.
+
+**The following installation steps apply to both types:**
+
+1. Download the mod from its respective source.
+2. Extract the mod archive to `retrodeck/roms/doom3/<MOD_NAME>/`.
+3. Ensure the mod files are located directly in `retrodeck/roms/doom3/<MOD_NAME>/` and are not nested inside additional subdirectories.
+
+### Gameplay Mods
+
+**Example:** **CLASSIC DOOM III**
+
+1. Rename the mod directory so it uses the `.doom3` extension.
+2. For **CLASSIC DOOM III**, rename `cdoom` to `cdoom.doom3`.
+3. The final path should be `retrodeck/roms/doom3/cdoom.doom3`.
+4. In ES-DE, highlight **cdoom**.
+5. Open the **Main Menu** and select **Edit This Game's Metadata**.
+6. Set the **Name** field to `CLASSIC DOOM III`.
+7. Save the changes and launch **CLASSIC DOOM III** from RetroDECK.
+
+### Enhancement Mods
+
+**Example:** **Blood Mod**
+
+Extract the mod archive directly into `retrodeck/roms/doom3/`, as described above. Do not place the mod files inside additional nested subdirectories.
+
+```
+retrodeck/roms/doom3/bloodmod/
+retrodeck/roms/doom3/bloodmod_roe/
+```
+
+---

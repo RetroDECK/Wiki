@@ -1,8 +1,8 @@
 ﻿# Guide: GZDoom
 
-<img src="../../../wiki_images/logos/gzdoom-logo.png" width="75" alt="Gzdoom logo">
+<img src="../../../wiki_images/logos/uzdoom-logo.png" width="75" alt="Uzdoom logo">
 
-GZDoom is the open source source port / game engine for ID Software's older games like DOOM, DOOM2, HEXEN and HERETIC or it's own unique games.
+GZDoom is the open source source port / game engine for ID Software's older games like DOOM, DOOM2, HEXEN and HERETIC with mods support.
 
 ---
 
@@ -342,6 +342,6 @@ This makes using mods and switching between episodes much easier.
 
 | **Question** | **Answer** |
 |--------------|------------|
-| **In the DOOM Mod - Project Brutality, why is the visor GUI disabled by default in the RetroDECK configuration?** | The visor GUI is disabled by default because it does not scale well on smaller displays and can cause the interface to appear cramped. Users who prefer this feature may re-enable it in the settings menu. |
+| **In the DOOM Mod - Project Brutality, why is the visor GUI disabled by default in the RetroDECK configuration?** | The visor GUI is disabled by default because it does not scale well on smaller displays like the Steam Deck and can cause the interface to appear cramped. Users who prefer this feature may re-enable it in the settings menu. |
 
 ---

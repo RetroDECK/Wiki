@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/dhewm3-logo.svg" width="150" alt="dhewm 3 logo">
 
-dhewm 3 is the open source source port / game engine for ID Softwares  DOOM 3 and mods.
+dhewm 3 is the open source source port / game engine for ID Softwares DOOM 3 with mod support.
 
 ---
 

@@ -32,7 +32,6 @@ DOOM games should be put under the `retrodeck/roms/doom3/` directory.
 
 ---
 
-
 ## Does GZDOOM require BIOS or Firmware?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
@@ -161,7 +160,23 @@ Make sure all the game files are at their proper location **Read Above**.
 
 ---
 
-## dhewm 3: Built-in MOD Compatibility
+
+## How-to: Play DOOM 3 Mods in RetroDECK
+
+dhewm 3 supports two types of native DOOM 3 mods:
+
+- **Standalone Game Mods:** Standalone experiences that should appear as separate games in ES-DE, such as **CLASSIC DOOM III**.
+- **Enhancement Mods:** Mods that modify or enhance the base game, such as **Blood Mod** that adds HD texture packs.
+
+**The following installation steps apply to both types:**
+
+1. Download the mod from its respective source.
+2. Extract the mod archive to `retrodeck/roms/doom3/<MOD_NAME>/`.
+3. Ensure the mod files are located directly in `retrodeck/roms/doom3/<MOD_NAME>/` and are not nested inside additional subdirectories.
+
+---
+
+### dhewm 3: Built-in MOD Compatibility
 
 dhewm 3 has native support for the following mods:
 
@@ -186,23 +201,21 @@ dhewm 3 has native support for the following mods:
 | Sikkmod v1.2 | `sikkmod` |
 | Sikkmod RoE v1.1 | `sikkmodd3xp` |
 
+---
+
+### Loading mods from the Mods Menu
+
+<img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="600" alt="">
+
+Some mods must be loaded manually from the DOOM 3 Mods menu:
+
+1. Select Mods
+2. Select the desired mod.
+3. Select Load.
 
 ---
 
-## How-to: Play dhewm 3  built-in DOOM 3 Mods in RetroDECK
-
-dhewm 3 supports two types of native DOOM 3 mods:
-
-- **Gameplay Mods:** Standalone experiences that should appear as separate games in ES-DE, such as **CLASSIC DOOM III**.
-- **Enhancement Mods:** Mods that modify or enhance the base game, such as **Blood Mod** that adds HD texture packs and should not appear as separate games.
-
-**The following installation steps apply to both types:**
-
-1. Download the mod from its respective source.
-2. Extract the mod archive to `retrodeck/roms/doom3/<MOD_NAME>/`.
-3. Ensure the mod files are located directly in `retrodeck/roms/doom3/<MOD_NAME>/` and are not nested inside additional subdirectories.
-
-### Gameplay Mods
+### Make Standalone Game Mods Show Up in ES-DE
 
 **Example:** **CLASSIC DOOM III**
 
@@ -214,15 +227,62 @@ dhewm 3 supports two types of native DOOM 3 mods:
 6. Set the **Name** field to `CLASSIC DOOM III`.
 7. Save the changes and launch **CLASSIC DOOM III** from RetroDECK.
 
+**Note:** 
+
+This method is **not guaranteed to work** with every Standalone Game Mod. If the mod does not launch, remove the .doom3 extension and try loading the mod from the **Mods** menu in DOOM 3.
+
+---
+
 ### Enhancement Mods
 
-**Example:** **Blood Mod**
+**Example: Blood Mod**
 
-Extract the mod archive directly into `retrodeck/roms/doom3/`, as described above. Do not place the mod files inside additional nested subdirectories.
+Extract the mod archive directly into `retrodeck/roms/doom3/`. Do not place mod files inside additional nested directories.
+
+
+**Example:**
 
 ```
 retrodeck/roms/doom3/bloodmod/
 retrodeck/roms/doom3/bloodmod_roe/
 ```
 
+Then load the mod from the **Mods** menu in DOOM 3.
+
 ---
+
+### Other Mods with No Built-in Support
+
+Try the following options to see what works for your mod.
+
+Extract the mod archive directly into `retrodeck/roms/doom3/` as normal.
+
+**Note:** 
+
+This method can be hit or miss and is **not guaranteed to work**. Compatibility depends on how the mod is designed.
+
+#### Mods Menu
+
+Try loading the mod from the **Mods** menu in DOOM 3.
+
+#### Show Up in ES-DE as `.doom3`
+
+If the mod works as a standalone game, try adding the `.doom3` extension so it appears as a separate game in ES-DE.
+
+See the **Make Standalone Game Mods Show Up in ES-DE** guide above.
+
+#### Try Launching It as a D3XP Mod
+
+Another option is to launch the mod as a D3XP mod.
+
+1. In ES-DE, highlight the mod you want to change.
+2. Open **Game Options**.
+3. Select **Edit This Game's Metadata**.
+4. Scroll to **Alternative Emulator**.
+5. Select **dhewm3 [Custom D3XP Mod] (Standalone)**.
+6. Select **Save**.
+
+This launches the mod with the `+set fs_game_base d3xp` option enabled, which may be required by some mods. The required game data files must be located in `retrodeck/roms/doom3/d3xp` for this to work.
+
+---
+

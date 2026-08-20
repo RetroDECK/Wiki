@@ -146,13 +146,15 @@ These files must be copied from your original game installation.
 
 ---
 
-### Spear of Destiny - Mission Pack 1 - Return to Danger (.SD1)
+### Spear of Destiny - Alternative (.SD1)
+
+.SD1 is an alternative used for the original Spear of Destiny by some releases instead of .SOD 
 
 | File Name        | Description | Comments |
 |------------------|------------|----------|
-| gamemaps.sd1     | Level data for Mission Pack 1 | |
-| maphead.sd1      | Map header information for Mission Pack 1 | |
-| vswap.sd1        | Asset container for Mission Pack 1 | |
+| gamemaps.sd1     | Level data for SOD | |
+| maphead.sd1      | Map header information for SOD | |
+| vswap.sd1        | Asset container for SOD | |
 
 ---
 

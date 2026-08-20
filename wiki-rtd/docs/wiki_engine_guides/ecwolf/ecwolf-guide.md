@@ -99,17 +99,19 @@ These files must be copied from your original game installation.
 
 ### Wolfenstein 3D - Full Version (.WL6)
 
-| File Name        | Description | Comments |
-|------------------|------------|----------|
-| audiohed.wl6     | Audio header file that indexes sound data | |
-| audiot.wl6       | Contains digitized sound effects and AdLib audio data | |
-| config.wl6       | Stores game configuration settings | |
-| gamemaps.wl6     | Contains all level map data | |
-| maphead.wl6      | Map header information for level lookup | |
-| vgadict.wl6      | VGA graphics dictionary for decompression | |
-| vgagraph.wl6     | Compressed graphics data (sprites, UI, textures) | |
-| vgahead.wl6      | Header for VGA graphics data | |
-| vswap.wl6        | Main asset container (sprites, walls, sounds) | |
+| File Name | Description | MD5 | Comments |
+|---|---|---|---|
+| AUDIOHED.WL6 | Audio header file that indexes sound data | `a41af25a2f193e7d4afbcc4301b3d1ce` | |
+| AUDIOT.WL6 | Contains digitized sound effects and AdLib audio data | `2385b488b18f8721633e5b2bdf054853` | |
+| CONFIG.WL6 | Stores game configuration settings | `2d047fa6c554cc3a12f194d982acb2c8` | |
+| GAMEMAPS.WL6 | Contains all level map data | `a4e73706e100dc0cadfb02d23de46481` | |
+| MAPHEAD.WL6 | Map header information for level lookup | `b8d2a78bc7c50da7ec9ab1d94f7975e1` | |
+| VGADICT.WL6 | VGA graphics dictionary for decompression | `dec8939cff5a4ec27ae7b43e8f52ec28` | |
+| VGAGRAPH.WL6 | Compressed graphics data (sprites, UI, textures) | `8b40b5b785f898e229bf1c2f2e3ee003` | |
+| VGAHEAD.WL6 | Header for VGA graphics data | `8e75e3ffb842ed3d08abe6ffea97b231` | |
+| VSWAP.WL6 | Main asset container (sprites, walls, sounds) | `b8ff4997461bafa5ef2a94c11f9de001` | |
+
+
 
 ---
 
@@ -130,66 +132,71 @@ These files must be copied from your original game installation.
 ---
 
 
-### Spear of Destiny  (.SOD)
+### Spear of Destiny (.SOD)
 
-| File Name        | Description | Comments |
-|------------------|------------|----------|
-| audiohed.sod     | Audio header file that indexes sound data | |
-| audiot.sod       | Contains digitized sound effects and AdLib audio data | |
-| config.sod       | Stores game configuration settings | |
-| gamemaps.sod     | Contains all level map data | |
-| maphead.sod      | Map header information for level lookup | |
-| vgadict.sod      | VGA graphics dictionary for decompression | |
-| vgagraph.sod     | Compressed graphics data (sprites, UI, textures) | |
-| vgahead.sod      | Header for VGA graphics data | |
-| vswap.sod        | Main asset container (sprites, walls, sounds) | |
+| File Name | Description | MD5 | Comments |
+|---|---|---|---|
+| AUDIOHED.SOD | Audio header file that indexes sound data | `6e914d15335125872737718470061ad8` / `a41af25a2f193e7d4afbcc4301b3d1ce` | |
+| AUDIOT.SOD | Contains digitized sound effects and AdLib audio data | `10020fce0f04d21bd07b1b5b951c360a` / `2385b488b18f8721633e5b2bdf054853` | |
+| CONFIG.SOD | Stores game configuration settings | `2d047fa6c554cc3a12f194d982acb2c8` | |
+| GAMEMAPS.SOD | Contains all level map data | `29860b87c31348e163e10f8aa6f19295` / `04f16534235b4b57fc379d5709f88f4a` | |
+| MAPHEAD.SOD | Map header information for level lookup | `a8b24dd3d3271e0b7fc6f2f995915f27` / `276c79a4a6419db6b23e7699e41cb9fa` | |
+| VGADICT.SOD | VGA graphics dictionary for decompression | `30b11372b9ec6bc06289eb3e9b2ef0b9` | |
+| VGAGRAPH.SOD | Compressed graphics data (sprites, UI, textures) | `3b85f170098fb48d91d8bedd0cac4e0d` | |
+| VGAHEAD.SOD | Header for VGA graphics data | `fb75007a1167bba05c4acadf90bc30d8` | |
+| VSWAP.SOD | Main asset container (sprites, walls, sounds) | `26697dff80a0f382ed4ffef07ce3b9a2` / `b1dac0a8786c7cdbb09331a4eba00652` | |
+
 
 ---
 
 ### Spear of Destiny - Alternative (.SD1)
 
-.SD1 is an alternative used for the original Spear of Destiny by some releases instead of .SOD 
+.SD1 is an alternative used for the original Spear of Destiny by some releases instead of .SOD.
 
-| File Name        | Description | Comments |
-|------------------|------------|----------|
-| gamemaps.sd1     | Level data for SOD | |
-| maphead.sd1      | Map header information for SOD | |
-| vswap.sd1        | Asset container for SOD | |
+| File Name | Description | MD5 | Comments |
+|---|---|---|---|
+| GAMEMAPS.SD1 | Level data for SOD | `04f16534235b4b57fc379d5709f88f4a` | |
+| MAPHEAD.SD1 | Map header information for SOD | `276c79a4a6419db6b23e7699e41cb9fa` | |
+| VSWAP.SD1 | Asset container for SOD | `b1dac0a8786c7cdbb09331a4eba00652` | |
 
 ---
 
 ### Spear of Destiny - Mission Pack 2 - Return to Danger (.SD2)
 
-| File Name        | Description | Comments |
-|------------------|------------|----------|
-| gamemaps.sd2     | Level data for Mission Pack 2 | |
-| maphead.sd2      | Map header information for Mission Pack 2 | |
-| vswap.sd2        | Asset container for Mission Pack 2 | |
+| File Name | Description | MD5 | Comments |
+|---|---|---|---|
+| GAMEMAPS.SD2 | Level data for Mission Pack 2 | `fa5752c5b1e25ee5c4a9ec0e9d4013a9` | |
+| MAPHEAD.SD2 | Map header information for Mission Pack 2 | `d55508cd58e2e61076ac81b98aeb9269` | |
+| VSWAP.SD2 | Asset container for Mission Pack 2 | `25d92ac0ba012a1e9335c747eb4ab177` | |
 
 ---
 
 ### Spear of Destiny - Mission Pack 3 - Ultimate Challenge (.SD3)
 
-| File Name        | Description | Comments |
-|------------------|------------|----------|
-| gamemaps.sd3     | Level data for Mission Pack 3 | |
-| maphead.sd3      | Map header information for Mission Pack 3 | |
-| vswap.sd3        | Asset container for Mission Pack 3 | |
+| File Name | Description | MD5 | Comments |
+|---|---|---|---|
+| GAMEMAPS.SD3 | Level data for Mission Pack 3 | `29860b87c31348e163e10f8aa6f19295` | |
+| MAPHEAD.SD3 | Map header information for Mission Pack 3 | `a8b24dd3d3271e0b7fc6f2f995915f27` | |
+| VSWAP.SD3 | Asset container for Mission Pack 3 | `94aeef7980ef640c448087f92be16d83` | |
+
 
 ---
 
 ### Super 3D Noah's Ark (.N3D)
 
-| File Name        | Description | Comments |
-|------------------|------------|----------|
-| audiohed.n3d     | Audio header file that indexes sound data | |
-| audiot.n3d       | Contains digitized sound effects and music data | |
-| gamemaps.n3d     | Contains all level map data | |
-| maphead.n3d      | Map header information for level lookup | |
-| vgadict.n3d      | VGA graphics dictionary for decompression | |
-| vgagraph.n3d     | Compressed graphics data (sprites, UI, textures) | |
-| vgahead.n3d      | Header for VGA graphics data | |
-| vswap.n3d        | Main asset container (sprites, walls, sounds) | |
+| File Name | Description | MD5 | Comments |
+|---|---|---|---|
+| AUDIOHED.N3D | Audio header file that indexes sound data | `9c7e08401faf9c7d64e7ee7bceb6c9b8` | |
+| AUDIOT.N3D | Contains digitized sound effects and music data | `8b40a14de58cf8578bb3a783dcb4f7bb` | |
+| GAMEMAPS.N3D | Contains all level map data | `d35ce2257a4fb56f61529df5f7f77adb` | |
+| MAPHEAD.N3D | Map header information for level lookup | `2eaab4dd50856abeaebe75a8bcbbab42` | |
+| VGADICT.N3D | VGA graphics dictionary for decompression | `fb3d87a2e265d87e720ac011b7301b23` | |
+| VGAGRAPH.N3D | Compressed graphics data (sprites, UI, textures) | `58d67ea6f4a9d5c7a788b7406e50dda3` | |
+| VGAHEAD.N3D | Header for VGA graphics data | `fe26baf052f03e92019e221bc106dfec` | |
+| VSWAP.N3D | Main asset container (sprites, walls, sounds) | `8c61a9b3bb38a598990ccb743d2679fa` | |
+| NOAH3D.PK3 | PK3 archive containing game data | `41f374182a0cddba9916617369089053` | |
+| NOAH3D.WAD | WAD archive containing game data | `a59e49bc0da9dbd4e508811c9dea7c09` | |
+
 
 ---
 

@@ -27,7 +27,7 @@ ECWolf is a Wolfenstein 3D game engine.
 
 ## Where to put the games
 
-ECWolf game files must be placed in the `retrodeck/roms/wolf/<sub_directory.wolf>` directory.
+ECWolf game files must be placed in the `retrodeck/roms/wolfenstein/` directory.
 
 ---
 

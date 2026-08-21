@@ -48,7 +48,6 @@ Use the issue to explain your idea and get feedback from the RetroDECK team.
 
 Some components might not fit with RetroDECK’s design goals or technical direction. The RetroDECK team will review each proposal and has the final say on whether a component gets included or not.
 
-
 ### Check Licensing
 
 Make sure the component you're suggesting has a license that is compatible with RetroDECK.
@@ -159,19 +158,26 @@ See the [PortMaster Porting Guide](https://portmaster.games/porting.html) for po
 
 ---
 
-### RetroDECK Built-in: Local External Testing System for Components (LETS-C)
+### RetroLACE: Local Add-on Component Environment
 
-**⚠️ Important: External components are developer modifications and may affect the compatibility, stability, security, or functionality of RetroDECK and is not recommended for general use. ⚠️**
+*“There comes a time in every man's life when he has to tie his own shoes.”*
+- James C. Wood 1976
 
-**LETS-C** is a developer-oriented system for testing external components locally within RetroDECK **(LETS-C - "Let's see" what happens.)**.
+**RetroLACE** or **LACE** (Local Add-on Component Environment) is a developer-oriented system for launching external components locally within RetroDECK.
 
-This feature is primarily intended for developers testing components that may eventually be integrated into RetroDECK or distributed through RetroVERSE. 
+This feature is primarily intended for developers testing components that may eventually be:
+
+- Integrated into RetroDECK as an internal component.
+- Distributed through RetroVERSE as an external compoent. 
+- Distrubuted by the developers own channels and installed via **RetroLACE** as an modification or add-on. 
 
 It can also be used to experiment with software or assets that fall outside the normal scope of RetroDECK.
 
-RetroDECK allows developing users to manually install external components. This feature is **disabled by default** and must be explicitly enabled.
+#### Users and RetroLACE
 
-When enabling it, users must accept a **legal disclaimer** acknowledging that:
+RetroDECK allows users to manually install external components via RetroLACE. This feature is **disabled by default** and must be explicitly enabled.
+
+When enabling **RetroLACE**, users must accept a **legal disclaimer** acknowledging that:
 
 - Their RetroDECK installation will be considered **modified**.
 - External components are **not officially supported** by the RetroDECK team.
@@ -179,7 +185,9 @@ When enabling it, users must accept a **legal disclaimer** acknowledging that:
 - Users are responsible for performing **due diligence and appropriate research** before installing any external component.
 - That they are resposible for any legal or licensing issues related to their use.
 
-External components may be used for development, testing, or software and assets that cannot be included in RetroVERSE or RetroDECK, for example because they:
+#### You as a developer and RetroLACE
+
+**RetroLACE** components may be used for development, testing, or software and assets that cannot be included in RetroVERSE or RetroDECK, for example because they:
 
 - Do not fit RetroDECK's retro-focused scope.
 - Have licensing restrictions that prevent inclusion in RetroVERSE, but the user has obtained a valid license for their own use.
@@ -187,13 +195,14 @@ External components may be used for development, testing, or software and assets
 
 Users download the component from its author's website or repository and extract it into:
 
-`retrodeck/storage/retrodeck/external_components`
+`retrodeck/storage/retrodeck/retrolace`
 
 **Support and Responsibility**
 
 The component author or maintainer (YOU) is responsible for:
 
 - Providing user support and maintaining the component.
+- Making sure the component only installs and uses files within the RetroDECK Sandbox.
 - Ensuring compliance with applicable licenses.
 - Hosting and distributing the component.
 - Resolving issues caused by the component.

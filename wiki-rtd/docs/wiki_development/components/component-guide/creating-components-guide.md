@@ -163,7 +163,7 @@ See the [PortMaster Porting Guide](https://portmaster.games/porting.html) for po
 *“There comes a time in every man's life when he has to tie his own shoes.”*
 - James C. Wood 1976
 
-**RetroLACE** or **LACE** (Local Add-on Component Environment) is a developer-oriented system for launching external components locally within RetroDECK.
+**RetroLACE** or **LACE** (Local Add-on Component Environment) is a developer-oriented system for launching external components locally within RetroDECK and **shoeing** them in.
 
 This feature is primarily intended for developers testing components that may eventually be:
 

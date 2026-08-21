@@ -29,7 +29,7 @@ It streamlines access to many features that would normally need to be configured
 
 <img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="50" alt="">
 
-The RetroDECK Configurator is a powerful `Utility` that exposes some parts of the `RetroDECK Framework` to the RetroDECK users.
+The RetroDECK Configurator is a powerful `Multi-Tool` that exposes some parts of the `RetroDECK Framework` to the RetroDECK users.
 
 It can be used to change/modify and manipulate various aspects of RetroDECK.
 
@@ -54,7 +54,7 @@ and more!
 
 **Read more here:**
 
-[RetroDECK Configurator](../wiki_configurator_guides/configurator/configurator.md).
+[RetroDECK Configurator](../wiki_functions_guides/configurator/configurator.md).
 
 ---
 
@@ -68,7 +68,7 @@ It supports file-type associations for common game extensions, enabling you to s
 
 **Read more here:**
 
-[RetroDECK's RetroENGINE](../wiki_utility_guides/retroengine/retroengine-guide.md).
+[RetroDECK's RetroENGINE](../wiki_functions_guides/retroengine/retroengine-guide.md).
 
 ---
 
@@ -108,46 +108,7 @@ Custom artwork folder icons.
 
 ---
 
-## Components: Frontends
-
-Frontends serve as the primary user interface layer within RetroDECK, providing the graphical experience through which users browse, launch and manage their game libraries.
-
-| Component | Logo | Description | Guide |
-|----------|-------|-------------|-------|
-| **ES-DE** | <img src="../../wiki_images/logos/es-de-logo.png" width="50" alt="ES-DE logo"> | Base frontend for RetroDECK with custom tweaks such as the RetroDECK Configurator. | [ES-DE Frontend - General Guide](../wiki_frontend_guides/es-de/esde-guide.md) |
-
-
-
----
-
-## Components: Utilities
-
-Utilities are non-gaming platforms or software environments supported within RetroDECK. These may include tools, frontends, media systems that enhance functionality but are not running games themselves .
-
-| Component | Logo | Description | Guide |
-|----------|-------|-------------|-------|
-| **Flips** | <img src="../../wiki_images/logos/flips-logo.png" width="50" alt="Flips logo"> | Tiny `.ips` `.bps` patcher for ROMs (used for patching ROM Hacks). | Open from Configurator | - |
-| **PortMaster** | <img src="../../wiki_images/logos/portmaster-logo.png" width="75" alt="PortMaster logo"> | GUI tool to download and install game ports on Linux devices. | [PortMaster - General Guide](../wiki_utility_guides/portmaster/portmaster-guide.md) |
-| **Steam ROM Manager** | <img src="../../wiki_images/logos/srm-logo.png" width="50" alt="Steam ROM Manager logo"> | Bulk game importer and artwork manager for Steam. Adds games automatically and configures Steam Input templates. | [SRM - General Guide](../wiki_utility_guides/srm/srm-guide.md) |
-
-
-
----
-
-## Components: Multi-Emulators
-
-An multi emulator is software that replicates the behavior of a multiple specific systems.
-
-| Component | Logo | Description | Guide |
-|----------|-------|-------------|-------|
-| **MAME** | <img src="../../wiki_images/logos/mame-logo.png" width="100" alt="MAME logo"> | Full version of the multi-arcade emulator MAME. | [MAME - General Guide](../wiki_multi_emulator_guides/mame/mame-guide.md) |
-| **RetroArch** | <img src="../../wiki_images/logos/retroarch-logo.png" width="50" alt="RetroArch logo"> | Multi-system frontend using cores. RetroDECK includes all stable cores (nightlies if no stable version exists). | [RetroArch - General Guide](../wiki_multi_emulator_guides/retroarch/retroarch-guide.md) |
-
-
-
----
-
-## Components: Standalone Emulators
+## Components: Emulators
 
 An emulator is software that replicates the behavior of a specific system, whether it is real hardware (like a console or arcade machine) or a virtual/fantasy platform.
 
@@ -158,7 +119,6 @@ An emulator is software that replicates the behavior of a specific system, wheth
 | **Dolphin** | <img src="../../wiki_images/logos/dolphin-logo.png" width="50" alt="Dolphin logo"> | Wii/GameCube emulator Dolphin | [Dolphin / Primehack - General Guide](../wiki_emulator_guides/dolphin/dolphin-guide.md) |
 | **melonDS** | <img src="../../wiki_images/logos/melonds-logo.svg" width="50" alt="melonDS logo"> | Nintendo DS emulator melonDS. | [melonDS - General Guide](../wiki_emulator_guides/melonds/melonds-guide.md) |
 | **PCSX2** | <img src="../../wiki_images/logos/pcsx2-logo.png" width="125" alt="PCSX2 logo"> | PlayStation 2 emulator PCSX2. | [PCSX2 - General Guide](../wiki_emulator_guides/pcsx2/pcsx2-guide.md) |
-| **Pico-8** | <img src="../../wiki_images/logos/pico-8-logo.png" width="75" alt="Pico-8 logo"> | PICO-8 Fantasy Console. | [Pico-8 - General Guide](../wiki_emulator_guides/pico-8/pico-8-guide.md) |
 | **Primehack** | <img src="../../wiki_images/logos/primehack-logo.png" width="50" alt="Primehack logo"> | Metroid Prime‑optimized fork Primehack. | [Dolphin / Primehack - General Guide](../wiki_emulator_guides/primehack/primehack-guide.md) |
 | **PPSSPP** | <img src="../../wiki_images/logos/ppsspp-logo.png" width="50" alt="PPSSPP logo"> | PSP emulator PPSSPP. | [PPSSPP - General Guide](../wiki_emulator_guides/ppsspp/ppsspp-guide.md) |
 | **RPCS3** | <img src="../../wiki_images/logos/rpcs3-logo.png" width="50" alt="RPCS3 logo"> | PlayStation 3 emulator RPCS3. | [RPCS3 - General Guide](../wiki_emulator_guides/rpcs3/rpcs3-guide.md) |
@@ -179,7 +139,46 @@ Engines are game engines or runtime environments designed to run games built spe
 | **GZDoom**                    | <img src="../../wiki_images/logos/gzdoom-logo.png" width="50" alt="GZDoom logo">                     | Feature‑rich Doom engine source port with OpenGL and advanced scripting.                                      | [GZDoom - General Guide](../wiki_engine_guides/gzdoom/gzdoom-guide.md)                           |
 | **IKEMEN Go (M.U.G.E.N)**     | <img src="../../wiki_images/logos/ikemen-go-logo.png" width="50" alt="IKEMEN Go logo">                  | Go‑based remake of IKEMEN, supporting M.U.G.E.N‑compatible fighting games.                                    | [IKEMEN Go - General Guide](../wiki_engine_guides/ikemengo/ikemengo-guide.md)                   |
 | **OpenBOR**                   | <img src="../../wiki_images/logos/openbor-logo.svg" width="50" alt="OpenBOR logo">                    | Open Beats of Rage – beat ’em up game engine.                                                                | [OpenBOR - General Guide](../wiki_engine_guides/openbor/openbor-guide.md)                         |
+| **Pico-8** | <img src="../../wiki_images/logos/pico-8-logo.png" width="75" alt="Pico-8 logo"> | PICO-8 Fantasy Console. | [Pico-8 - General Guide](../wiki_engine_guides/pico-8/pico-8-guide.md) |
 | **Solarus**                   | <img src="../../wiki_images/logos/solarus-logo.svg" width="130" alt="Solarus logo">                  | Open‑source 2D engine for games scripted in Lua, inspired by 16‑bit action RPGs.                            | [Solarus - General Guide](../wiki_engine_guides/solarus/solarus-guide.md)                       |
+
+---
+
+## Components: Frontends
+
+Frontends serve as the primary user interface layer within RetroDECK, providing the graphical experience through which users browse, launch and manage their game libraries.
+
+| Component | Logo | Description | Guide |
+|----------|-------|-------------|-------|
+| **ES-DE** | <img src="../../wiki_images/logos/es-de-logo.png" width="50" alt="ES-DE logo"> | Base frontend for RetroDECK with custom tweaks such as the RetroDECK Configurator. | [ES-DE Frontend - General Guide](../wiki_frontend_guides/es-de/esde-guide.md) |
+
+
+
+
+---
+
+## Components: Multi-Emulators
+
+An multi emulator is software that replicates the behavior of a multiple specific systems.
+
+| Component | Logo | Description | Guide |
+|----------|-------|-------------|-------|
+| **MAME** | <img src="../../wiki_images/logos/mame-logo.png" width="100" alt="MAME logo"> | Full version of the multi-arcade emulator MAME. | [MAME - General Guide](../wiki_multi_emulator_guides/mame/mame-guide.md) |
+| **RetroArch** | <img src="../../wiki_images/logos/retroarch-logo.png" width="50" alt="RetroArch logo"> | Multi-system frontend using cores. RetroDECK includes all stable cores (nightlies if no stable version exists). | [RetroArch - General Guide](../wiki_multi_emulator_guides/retroarch/retroarch-guide.md) |
+
+
+
+---
+
+## Components: Utilities
+
+Utilities are non-gaming platforms or software environments supported within RetroDECK. These may include tools, frontends, media systems that enhance functionality but are not running games themselves .
+
+| Component | Logo | Description | Guide |
+|----------|-------|-------------|-------|
+| **Flips** | <img src="../../wiki_images/logos/flips-logo.png" width="50" alt="Flips logo"> | Tiny `.ips` `.bps` patcher for ROMs (used for patching ROM Hacks). | Open from Configurator | - |
+| **PortMaster** | <img src="../../wiki_images/logos/portmaster-logo.png" width="75" alt="PortMaster logo"> | GUI tool to download and install game ports on Linux devices. | [PortMaster - General Guide](../wiki_utility_guides/portmaster/portmaster-guide.md) |
+| **Steam ROM Manager** | <img src="../../wiki_images/logos/srm-logo.png" width="50" alt="Steam ROM Manager logo"> | Bulk game importer and artwork manager for Steam. Adds games automatically and configures Steam Input templates. | [SRM - General Guide](../wiki_utility_guides/srm/srm-guide.md) |
 
 ---
 

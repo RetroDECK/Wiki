@@ -137,38 +137,284 @@ nav:
     - index.md
 
   - RetroDECK Blog 📬:
-    - blog/index.md
+    - blog/index.md    
 
-  - Start using RetroDECK 🚀: wiki_general/retrodeck-start.md
+  - Getting Started 🚀:
 
-  - About RetroDECK 🧾:
+    - Start using RetroDECK - Guide: wiki_general/retrodeck-start.md
 
-    - What is RetroDECK?: wiki_about/what-is-retrodeck.md
-    - What is included in RetroDECK?: wiki_about/what-is-included.md
-    - What is the Story Behind RetroDECK?: wiki_about/story-goals.md
-    - Supported Devices & OS: wiki_general/supported-devices.md
-    - Reporting a Problem & Getting Support: wiki_general/support-guide.md
-    - Known Issues: wiki_general/known-issues.md
-    - Version History: wiki_rd_versions/version-history.md
+    - About RetroDECK:
+
+      - What is RetroDECK?: wiki_about/what-is-retrodeck.md
+      - What is included in RetroDECK?: wiki_about/what-is-included.md
+      - What is the Story Behind RetroDECK?: wiki_about/story-goals.md
+      - Supported Devices & OS: wiki_general/supported-devices.md
+      - Reporting a Problem & Getting Support: wiki_general/support-guide.md
+      - Known Issues: wiki_general/known-issues.md
+      - Version History: wiki_rd_versions/version-history.md
+
+    - Supported Devices:
+
+      - Linux Desktop / Steam Machine:
+        - Linux - Installation: wiki_devices/linux_desktop/linux-install.md
+
+      - Steam Deck:
+        - Steam Deck - Installation: wiki_devices/steamdeck/steamdeck-start.md
+        - Steam Deck - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
+
+    - FAQ:
+
+      - RetroDECK - FAQ: wiki_general/faq.md
+      - What are ROM Hacks?: wiki_general/what-are-romhacks.md
+
+    - Credits, Contributing & Donations:
+
+      - How to Contribute?: wiki_credits_social/contibute-retrodeck.md
+      - Donations & Licenses: wiki_credits_social/donations-licenses.md
+
+      - Social Rules:
+        - Discord/Matrix: wiki_credits_social/social/discord-matrix.md
+        - Lemmy/Reddit: wiki_credits_social/social/lemmy-reddit.md
+
+      - Credits:
+        - Credits - RetroDECK Team: wiki_credits_social/credits/credits-team.md
+        - Credits - RetroDECK Alumni: wiki_credits_social/credits/credits-alumni.md
+        - Credits - Art: wiki_credits_social/credits/credits-art.md
+        - Credits - Additional: wiki_credits_social/credits/credits-additional.md
+        - Credits - Collaborators: wiki_credits_social/credits/credits-collaborators.md  
+
+  - Using RetroDECK 🎮:
+
+      - Controls & Hotkeys:
+
+        - RetroDECK - Controller Hotkeys: wiki_rd_controls/hotkeys-retrodeck.md
+        - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
+        - RetroDECK - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
+        - Steam Deck - Gyro: wiki_rd_controls/gyro-steamdeck-neptune.md
+        - Change Controller Order: wiki_rd_controls/change-controller-order-steam.md
+        - Different Button Prompts in Games: wiki_rd_controls/diffrent-game-inputs.md
+        - Udev Rules: wiki_rd_controls/about-udev.md
+
+      - File Management:
+
+        - Add RetroDECK to Steam Flatpak Version: wiki_management/retrodeck-to-flatpak-steam.md
+        - BIOS/Firmware: wiki_management/bios-firmware.md
+        - Move RetroDECK to Another Device: wiki_management/retrodeck-move.md
+        - Multidisk/file Games: wiki_management/multi-disk.md
+        - Remove RetroDECK: wiki_management/retrodeck-remove.md
+        - RetroDECK Userdata Folders: wiki_management/retrodeck-folders.md
+        - Spreading Files over Multiple Drives: wiki_management/spread-files.md
+        - Software Recommendations: wiki_management/software-recommendations.md
+        - Update RetroDECK: wiki_management/retrodeck-update.md
+
+      - Tools & Functions:
+
+        - RetroDECK Configurator - General Guide: wiki_functions_guides/configurator/configurator.md
+        
+        - Tools:
+          - RetroDECK Backup  : wiki_functions_guides/retrodeck-backup/retrodeck-backup.md
+          - RetroDECK Game Compressor : wiki_functions_guides/compress-files/compress-files.md
+
+        - RetroENGINE:
+          - RetroENGINE - General Guide: wiki_functions_guides/retroengine/retroengine-guide.md
+
+  - Component - Engines 🛠️:
+
+    - GZDoom:
+      - GZDoom - General Guide: wiki_engine_guides/gzdoom/gzdoom-guide.md
+      - GZDoom - Get started on .doom files: wiki_engine_guides/gzdoom/retrodeck-doomfile.md
+      - GZDoom - Get the WADs from bought games: wiki_engine_guides/gzdoom/extract-doom-wads.md
+      - GZDOOM - Running DOOM 64 CE: wiki_engine_guides/gzdoom/gzdoom-doom64ce.md
+
+    - IkemenGO / M.U.G.E.N:
+      - IkemenGO - General Guide: wiki_engine_guides/ikemengo/ikemengo-guide.md
+
+    - OpenBOR:
+      - OpenBOR - General Guide: wiki_engine_guides/openbor/openbor-guide.md
+
+    - Pico-8:
+      - Pico-8 - General Guide: wiki_engine_guides/pico-8/pico-8-guide.md
+
+    - ScummVM:
+      - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
+      - ScummVM - Gamelist: wiki_engine_guides/scummvm/scummvm-gamelist.md
+
+    - Solarus:
+      - Solarus - General Guide: wiki_engine_guides/solarus/solarus-guide.md
+
+  - Component - Emulators  📘:
+
+    - Azahar:
+      - Azahar - General Guide: wiki_emulator_guides/azahar/azahar-guide.md
+
+    - Cemu:
+      - Cemu - General Guide: wiki_emulator_guides/cemu/cemu-guide.md
+
+    - Dolphin :
+      - Dolphin - General Guide: wiki_emulator_guides/dolphin/dolphin-guide.md
+      - Dolphin - Using Real Wii Remotes: wiki_emulator_guides/dolphin/dolphin-wii-remote.md
+
+    - Duckstation (Legacy):
+      - Duckstation - General Guide: wiki_emulator_guides/duckstation/duckstation-guide.md
+
+    - melonDS:
+      - melonDS - General Guide: wiki_emulator_guides/melonds/melonds-guide.md
+
+    - PCSX2:
+      - PCSX2 - General Guide: wiki_emulator_guides/pcsx2/pcsx2-guide.md
+
+    - PrimeHack:
+      - PrimeHack - General Guide: wiki_emulator_guides/primehack/primehack-guide.md
+
+    - PPSSPP:
+      - PPSSPP - General Guide: wiki_emulator_guides/ppsspp/ppsspp-guide.md
+      
+    - RPCS3:
+      - RPCS3 - General Guide: wiki_emulator_guides/rpcs3/rpcs3-guide.md
+
+    - Ruffle:
+      - Ruffle - General Guide: wiki_emulator_guides/ruffle/ruffle-guide.md
+
+    - Vita3K:
+      - Vita3K - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
+
+    - xemu:
+      - xemu - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
+
+    - XRoar:
+      - XRoar - General Guide: wiki_emulator_guides/xroar/xroar-guide.md
+
+  - Component - Frontends 🖼️:
+
+    - ES-DE:
+      - ES-DE - General Guide: wiki_frontend_guides/es-de/esde-guide.md
+
+  - Component - Multi-Emulators 📕:
+
+    - MAME:
+      - MAME - General Guide: wiki_multi_emulator_guides/mame/mame-guide.md
+
+    - RetroArch:
+      - RetroArch - General Guide: wiki_multi_emulator_guides/retroarch/retroarch-guide.md
+      - RetroArch - Texture Pack Guide: wiki_multi_emulator_guides/retroarch/retroarch-texture-pack.md
+      - RetroArch - RPG Maker - RTP Guide: wiki_multi_emulator_guides/retroarch/retroarch-rpgmaker-rtp-guide.md
+      - RetroArch - Display, Filters, Scaling, Shaders & Overlays Guide: wiki_multi_emulator_guides/retroarch/retroarch-shaders-display.md
+      - RetroArch - GB/GBC - TGBDual Linking: wiki_multi_emulator_guides/retroarch/retroarch-gb-gc-tgbdual.md
+      - RetroArch - N3DS - Citra - DLC Guide: wiki_multi_emulator_guides/retroarch/retroarch-citra-dlc.md
+      - RetroArch - PSX - DexDrive Convert: wiki_multi_emulator_guides/retroarch/retroarch-psx-dexdrive.md
+      - RetroArch - VB - Beetle VB - 3D Mode:  wiki_multi_emulator_guides/retroarch/retroarch-vb-3dmode.md
+
+  - Component - Utilities 🗃️:
+
+    - Flips:
+      - Flips - General Guide: wiki_utility_guides/flips/flips-guide.md
+
+    - RetroDECKY:
+      - RetroDECKY - General Guide: wiki_utility_guides/retrodecky/retrodecky-guide.md
+      - RetroDECKY - Development Architecture: wiki_utility_guides/retrodecky/retrodecky-development-architecture.md
+      - RetroDECKY - Version History: wiki_utility_guides/retrodecky/retrodecky-version-history.md
+      
+    - PortMaster:
+      - PortMaster - General Guide: wiki_utility_guides/portmaster/portmaster-guide.md
+
+    - Steam Rom Manager:
+      - SRM - General Guide: wiki_utility_guides/srm/srm-guide.md
+
+  - RetroDECK Development 🪄:
+
+    - Development General:
+      - RetroDECK Architecture - Overview: wiki_development/general/retrodeck-architecture-overview.md
+      - Development Glossary: wiki_development/general/development-glossary.md
+      - CLI Guide: wiki_development/general/cli-guide.md
+      - Debugging: wiki_development/general/debug-mode.md
+      - Terminal Shortcuts for bashrc: wiki_development/general/bashrc-alias.md
+      - Editing MIME Types: wiki_development/general/edit-mime.md
+      - Steam Input: wiki_development/general/steam-input.md
+
+    - Development Structures and Lists:
+      - Global Variables List: wiki_development/general/global-variables.md
+      - RetroDECK Flatpak Folders & Filepaths: wiki_development/general/folders-filepaths.md
+      - RetroDECK Library Structure: wiki_development/general/retrodeck-library-structure.md
+
+    - RetroDECK API:
+      - RetroDECK API Development: wiki_development/api/about-api-development.md
+      - DO cheevos_login: wiki_development/api/do-cheevos-login.md
+      - DO compress_games: wiki_development/api/do-compress-games.md
+      - DO install: wiki_development/api/do-install.md
+      - DO reset_component: wiki_development/api/do-reset-component.md
+      - GET bios_file_status: wiki_development/api/get-bios-file-status.md
+      - GET components: wiki_development/api/get-components.md
+      - GET compressible_games: wiki_development/api/get-compressible-games.md
+      - GET current_preset_state: wiki_development/api/get-current-preset-state.md
+      - GET incompatible_presets: wiki_development/api/get-incompatible-presets.md
+      - GET multifile_game_structure: wiki_development/api/get-multifile-game-structure.md
+      - GET retrodeck_settings: wiki_development/api/get-retrodeck-settings.md
+      - GET setting_value: wiki_development/api/get-setting-value.md
+      - SET preset_state: wiki_development/api/set-preset-state.md
+      - SET retrodeck_setting: wiki_development/api/set-retrodeck-setting.md
+      - SET setting_value: wiki_development/api/set-setting-value.md
+
+    - RetroDECK Alchemist:
+      - RetroDECK Alchemist - General Guide: wiki_development/components/alchemist/alchemist-guide.md
+
+    - Creating Components Guide:
+      - Step 1 - Creating Components: wiki_development/components/component-guide/creating-components-guide.md
+      - Step 2A - Component AppImage: wiki_development/components/component-guide/component-create-appimage.md
+      - Step 2B - Component Flatpak: wiki_development/components/component-guide/component-create-flatpak.md
+      - Step 3 - Component Recipe & Ingredients: wiki_development/components/component-guide/creating-components-ingredients-guide.md
+      - Step 4 - Component Add to ES-DE: wiki_development/components/component-guide/component-add-to-es-de.md
+
+    - Component Recipe - Examples:
+      - EXAMPLE component_recipe - Web source - KEGS: wiki_development/components/recipes-examples/recipe-example-web-kegs.md
+      - EXAMPLE component_recipe - Nested source - VPinballX: wiki_development/components/recipes-examples/recipe-example-nested-vpinballx.md
+      - EXAMPLE component_recipe - Multi source - RetroArch: wiki_development/components/recipes-examples/recipe-example-multi-retroarch.md
+      - EXAMPLE component_recipe - Github source - OpenBOR: wiki_development/components/recipes-examples/recipe-example-github-openbor.md
+      - EXAMPLE component_recipe - Flathub source - Azahar: wiki_development/components/recipes-examples/recipe-example-flathub-azahar.md
+
+    - Component Recipe - Templates:
+      - TEMPLATE component_recipe - Web source: wiki_development/components/recipes-templates/recipe-template-web.md
+      - TEMPLATE component_recipe - Nested source: wiki_development/components/recipes-templates/recipe-template-web-nested.md
+      - TEMPLATE component_recipe - Multi source: wiki_development/components/recipes-templates/recipe-template-web-multi.md
+      - TEMPLATE component_recipe - GitHub source: wiki_development/components/recipes-templates/recipe-template-github.md
+      - TEMPLATE component_recipe - Flathub source: wiki_development/components/recipes-templates/recipe-template-flathub.md
+
+    - Components Ingredient Files:
+      - component_functions.sh: wiki_development/components/component-files/component-ingredient-functions.md
+      - component_launcher.sh: wiki_development/components/component-files/component-ingredient-launcher.md
+      - component_manifest.json: wiki_development/components/component-files/component-ingredient-manifest.md
+
+    - Graphics:
+        - Easter Egg Splashes: wiki_development/graphics/easter-egg/easter-egg-splashes.md
+
+    - Flatpak:
+      - About RetroDECK Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
+      - Flathub Publication: wiki_development/flatpak/flathub-publication.md
+
+    - Testing:
+      - Testing - Guide: wiki_development/testing/retrodeck-testing.md
+      - Experimental Features: wiki_development/testing/experimental-features.md
+
+    - Tools & Functions:
+      - Compression: wiki_development/functions/compression.md
+      - Steam Sync: wiki_development/functions/steam-sync.md
+
+  - RetroDECK Experiments ⚗️:
+
+    - About Experiments: wiki_experiments/about-experiments.md
+    - Autoboot into RetroDECK not Game Mode: wiki_experiments/retrodeck-gamemode-boot/retrodeck-gamemode-boot.md
+    - ES-DE Background Music: wiki_experiments/retrodeck-music-player/retrodeck-music-player.md
+    - Launch Desktop Games & Apps:
+      - Launch Flatpak - Games & Apps: wiki_experiments/desktop-launch/desktop-launch-flatpak.md
+      - Launch Prism Launcher - Minecraft Instances: wiki_experiments/desktop-launch/desktop-launch-prism.md
+      - Launch Heroic (GOG, Amazon, Epic) - Games: wiki_experiments/desktop-launch/desktop-launch-heroic.md
+      - Launch Steam - Games: wiki_experiments/desktop-launch/desktop-launch-steam.md
+      - Launch Lutris - Games: wiki_experiments/desktop-launch/desktop-launch-lutris.md
+    - Launch External Emulators: wiki_experiments/external-emulator/external-emulator.md
+    - Rámons RetroDECK Console: wiki_experiments/ramon-console/ramon-console.md
+    - Run RetroDECK in WSL: wiki_experiments/retrodeck-wsl/retrodeck-wsl.md
 
 
-  - Credits, Contributing & Donations ❤️:
-
-    - How to Contribute?: wiki_credits_social/contibute-retrodeck.md
-    - Donations & Licenses: wiki_credits_social/donations-licenses.md
-
-    - Social Rules:
-      - Discord/Matrix: wiki_credits_social/social/discord-matrix.md
-      - Lemmy/Reddit: wiki_credits_social/social/lemmy-reddit.md
-
-    - Credits:
-      - Credits - RetroDECK Team: wiki_credits_social/credits/credits-team.md
-      - Credits - RetroDECK Alumni: wiki_credits_social/credits/credits-alumni.md
-      - Credits - Art: wiki_credits_social/credits/credits-art.md
-      - Credits - Additional: wiki_credits_social/credits/credits-additional.md
-      - Credits - Collaborators: wiki_credits_social/credits/credits-collaborators.md
-
-  - Controller Vault 🎮:
+  - Controller Vault 🕹️:
 
     - Accessibility:
       - About Accessibility Controllers: wiki_controllers/accessibility/about-accessibility.md
@@ -259,246 +505,6 @@ nav:
       - Xbox One - Kinect V2: wiki_controllers/xbox/xbox-one-kinect.md
       - Xbox One/S/X - Xbox Wireless Controller: wiki_controllers/xbox/xbox-wireless.md
       - Xbox S/X - Xbox Elite Series 2: wiki_controllers/xbox/xbox-wireless-elite.md
-
-  - FAQ ❔:
-
-    - RetroDECK - FAQ: wiki_general/faq.md
-    - What are ROM Hacks?: wiki_general/what-are-romhacks.md
-
-  - Guides - RetroDECK Controls & Hotkeys 🎮:
-
-    - RetroDECK - Controller Hotkeys: wiki_rd_controls/hotkeys-retrodeck.md
-    - RetroDECK - Simple Radial Menu: wiki_rd_controls/radial-simple.md
-    - RetroDECK - Full Radial Menu: wiki_rd_controls/radial-steamdeck-full.md
-    - Steam Deck - Gyro: wiki_rd_controls/gyro-steamdeck-neptune.md
-    - Change Controller Order: wiki_rd_controls/change-controller-order-steam.md
-    - Different Button Prompts in Games: wiki_rd_controls/diffrent-game-inputs.md
-    - Udev Rules: wiki_rd_controls/about-udev.md
-
-  - Guides - RetroDECK Devices 🕹️:
-
-    - Linux Desktop:
-      - Linux - Installation: wiki_devices/linux_desktop/linux-install.md
-
-    - Steam Deck:
-      - Steam Deck - Installation: wiki_devices/steamdeck/steamdeck-start.md
-      - Steam Deck - Optimizations: wiki_devices/steamdeck/steamdeck-optimize.md
-
-  - Guides - RetroDECK Configurator 🧰:
-
-    - RetroDECK Configurator - General Guide: wiki_configurator_guides/configurator/configurator.md
-    - Tool - RetroDECK Backup  : wiki_configurator_guides/retrodeck-backup/retrodeck-backup.md
-    - Tool - RetroDECK Game Compressor :    wiki_configurator_guides/compress-files/compress-files.md
-
-  - Guides - RetroDECK Management 📁:
-
-    - Add RetroDECK to Steam Flatpak Version: wiki_management/retrodeck-to-flatpak-steam.md
-    - BIOS/Firmware: wiki_management/bios-firmware.md
-    - Move RetroDECK to Another Device: wiki_management/retrodeck-move.md
-    - Multidisk/file Games: wiki_management/multi-disk.md
-    - Remove RetroDECK: wiki_management/retrodeck-remove.md
-    - RetroDECK Userdata Folders: wiki_management/retrodeck-folders.md
-    - Spreading Files over Multiple Drives: wiki_management/spread-files.md
-    - Software Recommendations: wiki_management/software-recommendations.md
-    - Update RetroDECK: wiki_management/retrodeck-update.md
-
-  - Guides - Engines 🛠️:
-
-    - GZDoom:
-      - GZDoom - General Guide: wiki_engine_guides/gzdoom/gzdoom-guide.md
-      - GZDoom - Get started on .doom files: wiki_engine_guides/gzdoom/retrodeck-doomfile.md
-      - GZDoom - Get the WADs from bought games: wiki_engine_guides/gzdoom/extract-doom-wads.md
-      - GZDOOM - Running DOOM 64 CE: wiki_engine_guides/gzdoom/gzdoom-doom64ce.md
-
-    - IkemenGO / M.U.G.E.N:
-      - IkemenGO - General Guide: wiki_engine_guides/ikemengo/ikemengo-guide.md
-
-    - OpenBOR:
-      - OpenBOR - General Guide: wiki_engine_guides/openbor/openbor-guide.md
-
-    - Pico-8:
-      - Pico-8 - General Guide: wiki_engine_guides/pico-8/pico-8-guide.md
-
-    - ScummVM:
-      - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
-      - ScummVM - Gamelist: wiki_engine_guides/scummvm/scummvm-gamelist.md
-
-    - Solarus:
-      - Solarus - General Guide: wiki_engine_guides/solarus/solarus-guide.md
-
-  - Guides - Emulators  📘:
-
-    - Azahar:
-      - Azahar - General Guide: wiki_emulator_guides/azahar/azahar-guide.md
-
-    - Cemu:
-      - Cemu - General Guide: wiki_emulator_guides/cemu/cemu-guide.md
-
-    - Dolphin :
-      - Dolphin - General Guide: wiki_emulator_guides/dolphin/dolphin-guide.md
-      - Dolphin - Using Real Wii Remotes: wiki_emulator_guides/dolphin/dolphin-wii-remote.md
-
-    - Duckstation (Legacy):
-      - Duckstation - General Guide: wiki_emulator_guides/duckstation/duckstation-guide.md
-
-    - melonDS:
-      - melonDS - General Guide: wiki_emulator_guides/melonds/melonds-guide.md
-
-    - PCSX2:
-      - PCSX2 - General Guide: wiki_emulator_guides/pcsx2/pcsx2-guide.md
-
-    - PrimeHack:
-      - PrimeHack - General Guide: wiki_emulator_guides/primehack/primehack-guide.md
-
-    - PPSSPP:
-      - PPSSPP - General Guide: wiki_emulator_guides/ppsspp/ppsspp-guide.md
-      
-    - RPCS3:
-      - RPCS3 - General Guide: wiki_emulator_guides/rpcs3/rpcs3-guide.md
-
-    - Ruffle:
-      - Ruffle - General Guide: wiki_emulator_guides/ruffle/ruffle-guide.md
-
-    - Vita3K:
-      - Vita3K - General Guide: wiki_emulator_guides/vita3k/vita3k-guide.md
-
-    - xemu:
-      - xemu - General Guide: wiki_emulator_guides/xemu/xemu-guide.md
-
-    - XRoar:
-      - XRoar - General Guide: wiki_emulator_guides/xroar/xroar-guide.md
-
-  - Guides - Frontends 🖼️:
-
-    - ES-DE:
-      - ES-DE - General Guide: wiki_frontend_guides/es-de/esde-guide.md
-
-  - Guides - Multi-Emulators 📕:
-
-    - MAME:
-      - MAME - General Guide: wiki_multi_emulator_guides/mame/mame-guide.md
-
-    - RetroArch:
-      - RetroArch - General Guide: wiki_multi_emulator_guides/retroarch/retroarch-guide.md
-      - RetroArch - Texture Pack Guide: wiki_multi_emulator_guides/retroarch/retroarch-texture-pack.md
-      - RetroArch - RPG Maker - RTP Guide: wiki_multi_emulator_guides/retroarch/retroarch-rpgmaker-rtp-guide.md
-      - RetroArch - Display, Filters, Scaling, Shaders & Overlays Guide: wiki_multi_emulator_guides/retroarch/retroarch-shaders-display.md
-      - RetroArch - GB/GBC - TGBDual Linking: wiki_multi_emulator_guides/retroarch/retroarch-gb-gc-tgbdual.md
-      - RetroArch - N3DS - Citra - DLC Guide: wiki_multi_emulator_guides/retroarch/retroarch-citra-dlc.md
-      - RetroArch - PSX - DexDrive Convert: wiki_multi_emulator_guides/retroarch/retroarch-psx-dexdrive.md
-      - RetroArch - VB - Beetle VB - 3D Mode:  wiki_multi_emulator_guides/retroarch/retroarch-vb-3dmode.md
-
-  - Guides - Utilities 🗃️:
-
-    - Flips:
-      - Flips - General Guide: wiki_utility_guides/flips/flips-guide.md
-
-    - RetroENGINE:
-      - RetroENGINE - General Guide: wiki_utility_guides/retroengine/retroengine-guide.md
-
-    - RetroDECKY:
-      - RetroDECKY - General Guide: wiki_utility_guides/retrodecky/retrodecky-guide.md
-      - RetroDECKY - Development Architecture: wiki_utility_guides/retrodecky/retrodecky-development-architecture.md
-      - RetroDECKY - Version History: wiki_utility_guides/retrodecky/retrodecky-version-history.md
-      
-    - PortMaster:
-      - PortMaster - General Guide: wiki_utility_guides/portmaster/portmaster-guide.md
-
-    - Steam Rom Manager:
-      - SRM - General Guide: wiki_utility_guides/srm/srm-guide.md
-
-  - RetroDECK Experiments ⚗️:
-
-    - About Experiments: wiki_experiments/about-experiments.md
-    - Autoboot into RetroDECK not Game Mode: wiki_experiments/retrodeck-gamemode-boot/retrodeck-gamemode-boot.md
-    - ES-DE Background Music: wiki_experiments/retrodeck-music-player/retrodeck-music-player.md
-    - Launch Desktop Games & Apps:
-      - Launch Flatpak - Games & Apps: wiki_experiments/desktop-launch/desktop-launch-flatpak.md
-      - Launch Prism Launcher - Minecraft Instances: wiki_experiments/desktop-launch/desktop-launch-prism.md
-      - Launch Heroic (GOG, Amazon, Epic) - Games: wiki_experiments/desktop-launch/desktop-launch-heroic.md
-      - Launch Steam - Games: wiki_experiments/desktop-launch/desktop-launch-steam.md
-      - Launch Lutris - Games: wiki_experiments/desktop-launch/desktop-launch-lutris.md
-    - Launch External Emulators: wiki_experiments/external-emulator/external-emulator.md
-    - Rámons RetroDECK Console: wiki_experiments/ramon-console/ramon-console.md
-    - Run RetroDECK in WSL: wiki_experiments/retrodeck-wsl/retrodeck-wsl.md
-
-  - RetroDECK Development 🪄:
-
-    - Development General:
-      - RetroDECK Architecture - Overview: wiki_development/general/retrodeck-architecture-overview.md
-      - Development Glossary: wiki_development/general/development-glossary.md
-      - CLI Guide: wiki_development/general/cli-guide.md
-      - Debugging: wiki_development/general/debug-mode.md
-      - Terminal Shortcuts for bashrc: wiki_development/general/bashrc-alias.md
-      - Editing MIME Types: wiki_development/general/edit-mime.md
-      - Steam Input: wiki_development/general/steam-input.md
-
-    - Development Structures and Lists:
-      - Global Variables List: wiki_development/general/global-variables.md
-      - RetroDECK Flatpak Folders & Filepaths: wiki_development/general/folders-filepaths.md
-      - RetroDECK Library Structure: wiki_development/general/retrodeck-library-structure.md
-
-    - RetroDECK API:
-      - RetroDECK API Development: wiki_development/api/about-api-development.md
-      - DO cheevos_login: wiki_development/api/do-cheevos-login.md
-      - DO compress_games: wiki_development/api/do-compress-games.md
-      - DO install: wiki_development/api/do-install.md
-      - DO reset_component: wiki_development/api/do-reset-component.md
-      - GET bios_file_status: wiki_development/api/get-bios-file-status.md
-      - GET components: wiki_development/api/get-components.md
-      - GET compressible_games: wiki_development/api/get-compressible-games.md
-      - GET current_preset_state: wiki_development/api/get-current-preset-state.md
-      - GET incompatible_presets: wiki_development/api/get-incompatible-presets.md
-      - GET multifile_game_structure: wiki_development/api/get-multifile-game-structure.md
-      - GET retrodeck_settings: wiki_development/api/get-retrodeck-settings.md
-      - GET setting_value: wiki_development/api/get-setting-value.md
-      - SET preset_state: wiki_development/api/set-preset-state.md
-      - SET retrodeck_setting: wiki_development/api/set-retrodeck-setting.md
-      - SET setting_value: wiki_development/api/set-setting-value.md
-
-    - RetroDECK Alchemist:
-      - RetroDECK Alchemist - General Guide: wiki_development/components/alchemist/alchemist-guide.md
-
-    - Creating Components Guide:
-      - Step 1 - Creating Components: wiki_development/components/component-guide/creating-components-guide.md
-      - Step 2A - Component AppImage: wiki_development/components/component-guide/component-create-appimage.md
-      - Step 2B - Component Flatpak: wiki_development/components/component-guide/component-create-flatpak.md
-      - Step 3 - Component Recipe & Ingredients: wiki_development/components/component-guide/creating-components-ingredients-guide.md
-      - Step 4 - Component Add to ES-DE: wiki_development/components/component-guide/component-add-to-es-de.md
-
-    - Component Recipe - Examples:
-      - EXAMPLE component_recipe - Web source - KEGS: wiki_development/components/recipes-examples/recipe-example-web-kegs.md
-      - EXAMPLE component_recipe - Nested source - VPinballX: wiki_development/components/recipes-examples/recipe-example-nested-vpinballx.md
-      - EXAMPLE component_recipe - Multi source - RetroArch: wiki_development/components/recipes-examples/recipe-example-multi-retroarch.md
-      - EXAMPLE component_recipe - Github source - OpenBOR: wiki_development/components/recipes-examples/recipe-example-github-openbor.md
-      - EXAMPLE component_recipe - Flathub source - Azahar: wiki_development/components/recipes-examples/recipe-example-flathub-azahar.md
-
-    - Component Recipe - Templates:
-      - TEMPLATE component_recipe - Web source: wiki_development/components/recipes-templates/recipe-template-web.md
-      - TEMPLATE component_recipe - Nested source: wiki_development/components/recipes-templates/recipe-template-web-nested.md
-      - TEMPLATE component_recipe - Multi source: wiki_development/components/recipes-templates/recipe-template-web-multi.md
-      - TEMPLATE component_recipe - GitHub source: wiki_development/components/recipes-templates/recipe-template-github.md
-      - TEMPLATE component_recipe - Flathub source: wiki_development/components/recipes-templates/recipe-template-flathub.md
-
-    - Components Ingredient Files:
-      - component_functions.sh: wiki_development/components/component-files/component-ingredient-functions.md
-      - component_launcher.sh: wiki_development/components/component-files/component-ingredient-launcher.md
-      - component_manifest.json: wiki_development/components/component-files/component-ingredient-manifest.md
-
-    - Graphics:
-        - Easter Egg Splashes: wiki_development/graphics/easter-egg/easter-egg-splashes.md
-
-    - Flatpak:
-      - About RetroDECK Flatpak: wiki_development/flatpak/retrodeck-flatpak.md
-      - Flathub Publication: wiki_development/flatpak/flathub-publication.md
-
-    - Testing:
-      - Testing - Guide: wiki_development/testing/retrodeck-testing.md
-      - Experimental Features: wiki_development/testing/experimental-features.md
-
-    - Tools & Functions:
-      - Compression: wiki_development/functions/compression.md
-      - Steam Sync: wiki_development/functions/steam-sync.md
 
   - Archive 🗄️:
 

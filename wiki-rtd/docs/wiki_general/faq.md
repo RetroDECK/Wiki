@@ -163,8 +163,8 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 |--------------|------------|
 | **Do I need to partition or format my Disk for RetroDECK?** | No. RetroDECK installs as a Flatpak. Simply install it like any other application and launch it from your desktop or Steam library. |
 | **Where is RetroDECK installed?** | **`retrodeck/`** - Stores user data (ROMs, saves, mods, themes and more). This folder remains after uninstallation.<br> **`~/.var/app/net.retrodeck.retrodeck/`** - Contains the main Flatpak and settings. This folder **is removed** when uninstalling RetroDECK. |
-| **Can I move the RetroDECK folders?** | Yes. You can move them using the **Move Tools** in the RetroDECK Configurator. <br> Read more: **[RetroDECK Configurator 🛠️](../wiki_configurator_guides/configurator/configurator.md)** |
-| **Is there a way to reset RetroDECK?** | Yes. The RetroDECK Configurator includes several reset functions that allow you to reset different parts of the software. <br> Read more: **[RetroDECK Configurator 🛠️](../wiki_configurator_guides/configurator/configurator.md)** |
+| **Can I move the RetroDECK folders?** | Yes. You can move them using the **Move Tools** in the RetroDECK Configurator. <br> Read more: **[RetroDECK Configurator 🛠️](../wiki_functions_guides/configurator/configurator.md)** |
+| **Is there a way to reset RetroDECK?** | Yes. The RetroDECK Configurator includes several reset functions that allow you to reset different parts of the software. <br> Read more: **[RetroDECK Configurator 🛠️](../wiki_functions_guides/configurator/configurator.md)** |
 | **How do I update RetroDECK?** | Follow the instructions in: **[How-to: Update RetroDECK](../wiki_management/retrodeck-update.md)** |
 | **How do I remove RetroDECK?** | Follow the instructions in: **[How-to: Remove RetroDECK](../wiki_management/retrodeck-remove.md)** |
 | **How do I move RetroDECK to a new device?** | Follow the instructions in: **[How-to: Move RetroDECK to a New Device](../wiki_management/retrodeck-move.md)** |

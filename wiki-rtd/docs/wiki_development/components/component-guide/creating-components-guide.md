@@ -199,11 +199,6 @@ The component author or maintainer (YOU) is responsible for:
 - Resolving issues caused by the component.
 - Taking reasonable measures to ensure the component is safe and trustworthy.
 
-The RetroDECK team:
-
-e**.
-
-
 
 ---
 

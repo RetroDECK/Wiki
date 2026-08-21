@@ -14,18 +14,7 @@ There’s no one-size-fits-all guide for adding a component. Each component is u
 
 ---
 
-## About the Components
-
-**Component Type: What is it?**
-
-Components can broadly be categorized by from the application you want to add:
-
-- **Client**
-- **Emulator**
-- **Engine**
-- **Multi-Emulator**
-- **Port**
-- **System**
+## About the Component Types
 
 Read here for more details: 
 
@@ -45,28 +34,7 @@ When multiple source formats are available for a component, prioritize them in t
 | 3        | Precompiled Binary  | A ready-to-run executable built for a specific platform                     |
 | 4        | Build from Source   | Raw source code that must be compiled manually before use                   |
 
----
 
-## On Adding Ports
-
-[PortMaster](https://portmaster.games/) is the recommended method for integrating ports into RetroDECK. Contributing to PortMaster instead of directly adding a port to RetroDECK helps:
-
-- Reduce bloat in the RetroDECK ecosystem.
-- Broaden the benefit to users beyond RetroDECK.
-- There might be other methods in the future outside of PortMaster to add ports that don't fit within PortMasters scope.
-
-Follow the [PortMaster: Porting Guide](https://portmaster.games/porting.html).
-
-### When to Add a Port Directly to RetroDECK?
-
-In rare cases, it may be beneficial to include a port directly in RetroDECK if one or more of the following criteria are met:
-
-- The port requires **online multiplayer** support.
-- The port benefits from **custom launchers**.
-- The port needs **frequent or rapid updates**.
-- The port supports **modding or includes a mod downloader**.
-- The port depends on **technologies not supported by PortMaster**, such as: Newer versions of SDL/OpenGL, Vulkan, Wine or other.
-- There might be other methods in the future that can facilitate this in a easier manner inside of RetroDECK.
 
 ---
 
@@ -74,7 +42,7 @@ In rare cases, it may be beneficial to include a port directly in RetroDECK if o
 
 ### Create an Issue and Talk to the Team
 
-If you want to add a new component, start by opening an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) or check if there already is an issue of the component you want to add. 
+If you want to add a new component either to RetroDECK as an internal component or to the RetroVERSE as an external component, always start by opening an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) or check if there already is an issue of the component you want to add. 
 
 Use the issue to explain your idea and get feedback from the RetroDECK team.
 
@@ -153,6 +121,89 @@ While the runtime itself is the "OS" of the flatpak.
 
 - [Folders & Filepaths](../../general/folders-filepaths.md)
 - [Debug Mode](../../general/debug-mode.md)
+
+---
+
+
+
+## Adding External Components and Assets
+
+When adding an external component or asset, choose the option that best matches its scope, licensing, integration, and support requirements.
+
+---
+
+### RetroDECK's RetroVERSE
+
+Choose **RetroVERSE** when the component or asset is suitable for RetroDECK's retro-focused ecosystem.
+
+- **Scope:** Strictly retro-focused components and assets.
+- **Licensing:** Must comply with applicable open-source licensing requirements. Proprietary code or assets may only be included when the necessary permission has been granted by the rights holder.
+- **Support:** Supported by the RetroDECK team and community.
+- **Review:** Reviewed by the RetroDECK team and community members.
+- **Integration:** Integrates directly with RetroDECK.
+- **Adaptation:** Components are easier to maintain and adapt through RetroDECK component files.
+
+---
+
+### PortMaster
+
+Choose **PortMaster** when the port would benefit users beyond RetroDECK or falls outside the scope of RetroVERSE.
+
+- **Scope:** Broader than RetroVERSE, supporting a wider range of games and ports.
+- **Review:** Reviewed by the PortMaster team and community members.
+- **Support:** Supported by the PortMaster team and community.
+- **Integration:** Less directly integrated with RetroDECK. PortMaster data is maintained under `retrodeck/PortMaster`.
+- **Reach:** Makes the port available to users beyond the RetroDECK ecosystem.
+
+See the [PortMaster Porting Guide](https://portmaster.games/porting.html) for porting requirements and instructions.
+
+---
+
+### RetroDECK Built-in: Local External Testing System for Components (LETS-C)
+
+**⚠️ Important: External components are developer modifications and may affect the compatibility, stability, security, or functionality of RetroDECK and is not recommended for general use. ⚠️**
+
+**LETS-C** is a developer-oriented system for testing external components locally within RetroDECK **(LETS-C - "Let's see" what happens.)**.
+
+This feature is primarily intended for developers testing components that may eventually be integrated into RetroDECK or distributed through RetroVERSE. 
+
+It can also be used to experiment with software or assets that fall outside the normal scope of RetroDECK.
+
+RetroDECK allows developing users to manually install external components. This feature is **disabled by default** and must be explicitly enabled.
+
+When enabling it, users must accept a **legal disclaimer** acknowledging that:
+
+- Their RetroDECK installation will be considered **modified**.
+- External components are **not officially supported** by the RetroDECK team.
+- They are responsible for the external components they install and understand that they may cause **data loss, system damage, or other issues** affecting RetroDECK or the host operating system.
+- Users are responsible for performing **due diligence and appropriate research** before installing any external component.
+- That they are resposible for any legal or licensing issues related to their use.
+
+External components may be used for development, testing, or software and assets that cannot be included in RetroVERSE or RetroDECK, for example because they:
+
+- Do not fit RetroDECK's retro-focused scope.
+- Have licensing restrictions that prevent inclusion in RetroVERSE, but the user has obtained a valid license for their own use.
+- Require proprietary software or assets that cannot be distributed by RetroDECK.
+
+Users download the component from its author's website or repository and extract it into:
+
+`retrodeck/storage/retrodeck/external_components`
+
+**Support and Responsibility**
+
+The component author or maintainer (YOU) is responsible for:
+
+- Providing user support and maintaining the component.
+- Ensuring compliance with applicable licenses.
+- Hosting and distributing the component.
+- Resolving issues caused by the component.
+- Taking reasonable measures to ensure the component is safe and trustworthy.
+
+The RetroDECK team:
+
+e**.
+
+
 
 ---
 

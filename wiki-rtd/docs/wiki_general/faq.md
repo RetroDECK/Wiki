@@ -241,7 +241,7 @@ RetroDECK does **not** base its component classification system on how PortMaste
 
 **PortMaster** uses the term *port* differently from RetroDECK's component classification.
 
-PortMaster distributes games that have been adapted to run on ARM and other architectures. From PortMaster's perspective, these are all considered **ports**, because the games have been specifically adapted for the target architecture from their team by *porting* them.
+PortMaster distributes games that have they been adapting to run on ARM and other architectures. From PortMaster's perspective, these are all considered **ports**, because the games have been specifically adapted for the target architecture from their team by *porting* them.
 
 RetroDECK, however, primarily targets **x86-64** systems (and may support **AArch64** in the future). On supported architectures, RetroDECK can sometimes run the original game software natively without requiring the same type of architectural porting.
 

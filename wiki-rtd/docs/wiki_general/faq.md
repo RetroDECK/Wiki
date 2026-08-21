@@ -194,3 +194,31 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ---
 
+## FAQ: Component Categories
+
+### When Do You Classify It as a Port vs an Engine?
+
+It can be difficult to draw a clear line between **engines** and **ports**, especially when dealing with engine reimplementations. Ultimately, classification depends on the **purpose and scope of the project that the component sources from**.
+
+If a project's primary purpose is to enhance a specific game so that it runs on modern systems while preserving the original game's content and experience, it should generally be classified as a **port**. Graphical improvements, quality-of-life features and other modern enhancements do not change this classification as long as the original game remains the core experience.
+
+The distinction becomes clearer when considering whether the component supports a **single game or multiple games**.
+
+For example, **GZDoom** supports a wide range of mods and standalone games through the same engine. Similarly, **Raze** supports multiple Build Engine games. Both are therefore classified as **engines**.
+
+**Ironwail** follows the same principle. Although it is based on a specific game engine, it supports multiple mods, including mods that can be launched as standalone titles and provide experiences substantially different from the original game.
+
+Generally, **decompilation and reimplementation projects for individual games**, such as those targeting games originally released on the Nintendo 64, GameCube, or other consoles, are classified as **ports** when their primary purpose is to make that specific game run natively on modern systems.
+
+**OpenGOAL**, however, is classified as an **engine** because it supports multiple games in the *Jak and Daxter* series rather than being limited to a single title.
+
+In general, classification should consider the following:
+
+- **Purpose** - Is the component primarily intended to preserve and enhance a specific existing game, or provide a platform for multiple games and experiences?
+- **Scope** - Does it support a single game, or multiple games and/or mods?
+- **Content** - Does it primarily deliver the original game's content, or can it provide distinct experiences through additional games or mods?
+- **Implementation** - Does it replace or reimplement the original engine while maintaining compatibility with its content?
+
+These criteria are guidelines rather than strict rules. Some projects may overlap multiple categories, so classification should ultimately be based on the component's **primary function and intended use within RetroDECK**.
+
+---

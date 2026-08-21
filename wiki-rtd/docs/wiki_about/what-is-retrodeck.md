@@ -22,70 +22,79 @@ By integrating a wide range of components such as emulators, game engines, ports
 
 <img src="../../wiki_icons/retrodeck/icon-component.svg" width="75" alt="">
 
-RetroDECK categorizes all software inside the platform as distinct **components**, organized into the following groups:
+RetroDECK categorizes software within the platform as distinct **components**, organized into the following groups:
 
 ### Clients
 
-A client is a system or application that connects to a server or online service to access multiplayer features, streaming, or remote content. Clients rely on an external host to function.
+**Clients** are applications that connect to external servers or online services to provide access to multiplayer features, streaming, or remote content. They depend on an external host or service to function.
 
-**Examples:** 
+**Example:**
 
-- **Mudlet** - A MUD client for connecting to text-based multiplayer servers (not yet in RetroDECK).
+- **Mudlet** - A MUD client for connecting to text-based multiplayer servers.
 
 ### Emulators
 
-An **emulator** is a software application designed to replicate the hardware and behavior of a specific system, whether it is a physical device (such as a game console or arcade board) or a virtual/fantasy platform. Emulators enable software created for one system to run on another by accurately reproducing the original system’s functionality, quirks, limitations and performance characteristics.
+**Emulators** are applications that reproduce the hardware and behavior of a specific system, such as a game console, arcade board, or virtual/fantasy platform. They allow software designed for one system to run on another by replicating the original system's functionality and characteristics.
 
-**Examples:** 
+**Examples:**
 
-- **PCSX2** - PlayStation 2 emulator.  
-- **Vita3K** - PlayStation Vita emulator.  
-- **Pico-8** - Fantasy console.  
-
-### Frontends
-
-Frontends serve as the primary user interface layer within RetroDECK, providing the graphical experience through which users browse, launch and manage their game libraries.
-
-- **ES-DE (EmulationStation Desktop Edition)** - Is the default frontend for RetroDECK with tiny custom tweaks.
-
-### Multi-Emulators
-
-A **multi-emulator** (or multi-system emulator) is a platform capable of running multiple system cores or modules, allowing users to emulate a wide variety of consoles and hardware through a single interface. These tools often focus on modularity, extensibility and unified configuration across systems.
-
-**Examples:** 
-
-- **RetroArch** - Multi-emulator frontend supporting numerous systems through Libretro cores.  
-- **MAME** - MAME is a multi-purpose emulation framework specializing in arcade hardware preservation.  
-- **ares** - Multi-system emulator focused on accuracy and preservation.
+- **PCSX2** - PlayStation 2 emulator.
+- **PICO-8** - Fantasy console.
+- **Vita3K** - PlayStation Vita emulator.
 
 ### Engines
 
-Engines are game engines or runtime environments designed to run games built specifically for them. This can include native engines as well as **engine re-implementations** modern rewrites that replace the original engine while preserving compatibility with classic games.
+**Engines** are game engines or runtime environments designed to run **multiple games or mods** built for them. This includes native engines and **engine re-implementations** that replace the original engine while maintaining compatibility with existing games.
 
-**Examples:** 
+**Examples:**
 
-- **Solarus** - Action-RPG engine.  
-- **UZDoom** - Source port for Doom-engine games.  
-- **OpenBOR** - Open-source Beat ’em Up engine.  
+- **OpenBOR** - Open-source beat 'em up engine.
+- **Solarus** - Action-RPG engine.
+- **UZDoom** - Source port for Doom-engine games.
 
-### Utilities
+### Frontends
 
-Utilities are non-gaming platforms or software environments supported within RetroDECK. These may include tools, media systems and other applications that enhance functionality but are not running games themselves.
+**Frontends** provide the primary user interface for browsing, launching, and managing games and other supported content.
 
-**Examples:** 
+**Example:**
 
-- **Steam Rom Manager** - Tool for managing and importing ROMs into Steam.
-- **Flips** - Tool for handling ROMs and patches.
-- **PortMaster** - Application for managing game ports and installations.
+- **ES-DE (EmulationStation Desktop Edition)** - The default RetroDECK frontend, with minor customizations.
+
+### Games
+
+**Games** are unique standalone titles.
+
+**Example:**
+
+- Games built into or distributed through **RetroDECK**.
+
+### Multi-Emulators
+
+**Multi-emulators** are platforms capable of emulating multiple systems through a single application. They typically use modular cores or components and provide unified configuration and management across supported systems.
+
+**Examples:**
+
+- **MAME** - Multi-purpose emulation framework focused on preserving and emulating arcade hardware.
+- **RetroArch** - Multi-system frontend and emulation platform supporting numerous systems through Libretro cores.
 
 ### Ports
 
-Ports are individual games that have been adapted to run natively through a specific engine, framework, or platform. They do not require emulation since the game has been reworked or recompiled to run directly on modern systems.
+**Ports** are **single games** adapted or recompiled to run natively on a specific engine, framework, or platform. Unlike emulated games, ports run directly on the target system without requiring emulation.
 
-**Examples:** 
+**Example:**
 
-- All games installed via **PortMaster**. 
-- Games built directly into or downloaded via **RetroDECK**.
+- Games installed through **PortMaster**.
+
+
+### Utilities
+
+**Utilities** are non-gaming applications software. They provide tools or functionality that complement the platform but do not themselves run games.
+
+**Examples:**
+
+- **FLIPS** - Tool for applying and creating .ips ROM patches.
+- **PortMaster** - Application for managing and installing game ports.
+- **Steam ROM Manager** - Tool for managing and importing ROMs into Steam.
 
 --- 
 

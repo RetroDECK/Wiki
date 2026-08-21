@@ -34,22 +34,22 @@ RetroDECK categorizes software within the platform as distinct **components**, o
 
 ### Emulators
 
-**Emulators** are applications that reproduce the hardware and behavior of a specific system, such as a game console, arcade board, or virtual/fantasy platform. They allow software designed for one system to run on another by replicating the original system's functionality and characteristics.
+**Emulators** are applications that reproduce the hardware and behavior of a specific system, such as a game console or an arcade board. They allow software designed for one system to run on another by replicating the original system's functionality and characteristics.
 
 **Examples:**
 
 - **PCSX2** - PlayStation 2 emulator.
-- **PICO-8** - Fantasy console.
 - **Vita3K** - PlayStation Vita emulator.
 
 ### Engines
 
-**Engines** are game engines or runtime environments designed to run **multiple games or mods** built for them. This includes native engines and **engine re-implementations** that replace the original engine while maintaining compatibility with existing games.
+**Engines** are **Game Engines** designed to run **multiple games or mods** built for them. This includes native engines and **engine re-implementations** that replace the original engine while maintaining compatibility with existing games.
 
 **Examples:**
 
 - **OpenBOR** - Open-source beat 'em up engine.
 - **Solarus** - Action-RPG engine.
+- **PICO-8** - Fantasy console.
 - **UZDoom** - Source port for Doom-engine games.
 
 ### Frontends

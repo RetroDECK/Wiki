@@ -196,11 +196,13 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Component Categories
 
-### When Do You Classify It as a Port vs an Engine?
+### When Do You Classify It as a Port vs. an Engine with an Engine Reimplementation Component?
 
-It can be difficult to draw a clear line between **engines** and **ports**, especially when dealing with engine reimplementations. Ultimately, classification depends on the **purpose and scope of the project that the component sources from**.
+It can be difficult to draw a clear line between **engines** and **ports**, particularly when dealing with **engine reimplementations**. The classification should ultimately be based on the **purpose and scope of the project** that the component sources from.
 
-If a project's primary purpose is to enhance a specific game so that it runs on modern systems while preserving the original game's content and experience, it should generally be classified as a **port**. Graphical improvements, quality-of-life features and other modern enhancements do not change this classification as long as the original game remains the core experience.
+An **engine reimplementation** recreates or replaces the original game's engine while retaining compatibility with its original game data.
+
+If a project's primary purpose is to make a **specific game** run natively on modern systems while preserving the original game's content and experience, it should generally be classified as a **port**. Graphical improvements, quality-of-life features and other modern enhancements do not change this classification as long as the original game remains the core experience.
 
 The distinction becomes clearer when considering whether the component supports a **single game or multiple games**.
 
@@ -208,11 +210,11 @@ For example, **GZDoom** supports a wide range of mods and standalone games throu
 
 **Ironwail** follows the same principle. Although it is based on a specific game engine, it supports multiple mods, including mods that can be launched as standalone titles and provide experiences substantially different from the original game.
 
-Generally, **decompilation and reimplementation projects for individual games**, such as those targeting games originally released on the Nintendo 64, GameCube, or other consoles, are classified as **ports** when their primary purpose is to make that specific game run natively on modern systems.
+Generally, **decompilation and reimplementation projects for individual games**, such as projects targeting games originally released on the Nintendo 64, GameCube, or other consoles, are classified as **ports** when their primary purpose is to make that specific game run natively on modern systems.
 
 **OpenGOAL**, however, is classified as an **engine** because it supports multiple games in the *Jak and Daxter* series rather than being limited to a single title.
 
-In general, classification should consider the following:
+In general, classification should consider:
 
 - **Purpose** - Is the component primarily intended to preserve and enhance a specific existing game, or provide a platform for multiple games and experiences?
 - **Scope** - Does it support a single game, or multiple games and/or mods?
@@ -220,5 +222,27 @@ In general, classification should consider the following:
 - **Implementation** - Does it replace or reimplement the original engine while maintaining compatibility with its content?
 
 These criteria are guidelines rather than strict rules. Some projects may overlap multiple categories, so classification should ultimately be based on the component's **primary function and intended use within RetroDECK**.
+
+### When Do You Classify It as a Port vs. a Game?
+
+The distinction between **ports** and **games** is primarily based on how the software is implemented and what it requires to run.
+
+A **port** typically requires the original game's data or source assets to function. The port provides the native engine, executable, or other software required to run the original game on a modern platform, while the user provides the required game files.
+
+A **game**, by contrast, is a **standalone, unique title** that can be launched and played as its own complete experience.
+
+The key question is: **Does it require the original game's files to run?**
+
+If the project provides the software required to run an existing game but requires the original game files, it should generally be classified as a **port**. If it is a self-contained, unique title that does not depend on another game's files, it should generally be classified as a **game**.
+
+#### PortMaster Does Not Use This Distinction
+
+RetroDECK does **not** base its component classification system on how PortMaster categorizes its ports.
+
+**PortMaster** uses the term *port* differently from RetroDECK's component classification.
+
+PortMaster distributes games that have been adapted to run on ARM and other architectures. From PortMaster's perspective, these are all considered **ports**, because the games have been specifically adapted for the target architecture from their team by *porting* them.
+
+RetroDECK, however, primarily targets **x86-64** systems (and may support **AArch64** in the future). On supported architectures, RetroDECK can sometimes run the original game software natively without requiring the same type of architectural porting.
 
 ---

@@ -196,7 +196,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Component Categories
 
-### When Do You Classify It as a Port vs. an Engine with an Engine Reimplementation Component?
+### When Do You Classify It as a Port vs an Engine when adding a Engine Reimplementation Component?
 
 It can be difficult to draw a clear line between **engines** and **ports**, particularly when dealing with **engine reimplementations**. The classification should ultimately be based on the **purpose and scope of the project** that the component sources from.
 
@@ -223,7 +223,7 @@ In general, classification should consider:
 
 These criteria are guidelines rather than strict rules. Some projects may overlap multiple categories, so classification should ultimately be based on the component's **primary function and intended use within RetroDECK**.
 
-### When Do You Classify It as a Port vs. a Game?
+### When Do You Classify It as a Port vs a Game?
 
 The distinction between **ports** and **games** is primarily based on how the software is implemented and what it requires to run.
 

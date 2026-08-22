@@ -49,6 +49,7 @@ However, you do need copies of the official **Quake III Arena** game data files 
 | Quake III Arena - pak6.pk3 | `retrodeck/roms/quake3/baseq3` | `873888a73055c023f6c38b8ca3f2ce05` |  |
 | Quake III Arena - pak7.pk3 | `retrodeck/roms/quake3/baseq3` | `8fd38c53ed814b64f6ab03b5290965e4` |  |
 | Quake III Arena - pak8.pk3 | `retrodeck/roms/quake3/baseq3` | `d8b96d429ca4a9c289071cb7e77e14d2` |  |
+| Quake III Arena - pak8.pk3 | `retrodeck/roms/quake3/baseq3` | `d8b96d429ca4a9c289071cb7e77e14d2` |  |
 
 ---
 
@@ -130,19 +131,60 @@ Make sure all the game files are at their proper location **Read Above**.
 1. Navigate to `retrodeck/roms/quake3/`.
 2. Create an empty file named `Quake 3.quake3`.
 3. Launch **Quake 3** from RetroDECK.
-4. 
+
 ---
 
 
 ## How-to: Play Quake 3Mods in RetroDECK
 
-Quake3e supports many types of mods
+Quake3e supports many types of mods.
 
 **The following installation steps apply to all mods:**
 
 1. Download the mod from its respective source.
 2. Extract the mod archive to `retrodeck/roms/quake3/<MOD_NAME>/`.
 3. Ensure the mod files are located directly in `retrodeck/roms/quake3/<MOD_NAME>/` and are not nested inside additional subdirectories.
+
+---
+
+### Example: Challenge ProMode Arena (CPMA) 
+
+Some mods have additional dependencies or installation requirements. Always check the mod's documentation and adapt the instructions for RetroDECK as needed.
+
+The official [Challenge ProMode Arena: Installation Guide](https://playmorepromode.com/guides/cpma-cnq3-installation) includes instructions that does not apply directly to RetroDECK.
+
+#### CPMA Map Pack
+
+The CPMA guide instructs you to extract `cpma-mappack-full.zip` into the Quake 3 `q3/baseq3` directory.
+
+In RetroDECK, this corresponds to:
+
+```
+retrodeck/roms/quake3/baseq3/
+```
+
+#### Installing the CPMA Mod
+
+Download the latest CPMA release from the [CPMA downloads page](https://playmorepromode.com/files/latest/cpma).
+
+Extract the `cpma` folder directly into the Quake 3 directory, alongside `baseq3`:
+
+```
+retrodeck/
+└── roms/
+    └── quake3/
+        ├── baseq3/
+        └── cpma/
+            └── <Mod_Files>
+```
+
+#### CNQ3 Executable
+
+**This step is not required for RetroDECK.**
+
+The CPMA installation guide instructs you to download the CNQ3 executable.
+
+RetroDECK already includes **Quake3e**, which provides the required Quake 3 engine. You only need to install the mod and any additional files or dependencies it requires not the engine.
 
 ---
 
@@ -160,7 +202,7 @@ Some mods must be loaded manually from the Quake 3Mods menu:
 
 ### Make Mods show up in ES-DE as Standalone Game Entries
 
-**Example:** **Challenge ProMode Arena (CPMA)**
+**Example:** **Challenge ProMode Arena (CPMA)** 
 
 1. Rename the mod directory so it uses the `.quake3` extension.
 2. For **Challenge ProMode Arena**, rename `cpma` to `cpma.quake3`.
@@ -172,9 +214,7 @@ Some mods must be loaded manually from the Quake 3Mods menu:
 
 **Note:** 
 
-This method is **not guaranteed to work** with every mod. 
-
-If the mod does not launch, remove the .quake3 extension and try loading the mod from the **Mods** menu in Quake 3.
+This method is **not guaranteed to work** with every mod. If the mod does not launch, remove the `.quake3` extension and try loading the mod from the **Mods** menu in Quake 3.
 
 ---
 
@@ -182,8 +222,8 @@ If the mod does not launch, remove the .quake3 extension and try loading the mod
 
 | Topic | Issue | Solution |
 |---|---|---|
-| |  |  |
-
+| **Missing Models in Player Selection** | Some graphics cards may have difficulty rendering models in the Player model picker. | **None:** The models function correctly in-game. The issue is limited to the model selection window. |
+| **Invalid CD Key** | CD keys from the GOG and Steam versions are no longer required or valid for online play. This is a legacy requirement from the early days of Quake 3. | Ignore the message. |
 
 ---
 

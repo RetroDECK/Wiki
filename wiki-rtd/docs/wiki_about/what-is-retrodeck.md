@@ -111,19 +111,20 @@ To see the full list on what is included so far, read:
 <img src="../../wiki_icons/retrodeck/icon-assembler.svg" width="75" alt="">
 
 
-We believe that all functionality should be self-contained within the RetroDECK application, with no need for additional external software or dependencies.
+RetroDECK is designed to keep its functionality self-contained within the application, minimizing the need for additional software or external dependencies.
 
-Below is a concise overview of RetroDECK’s major features and core concepts:
+The following table provides a concise overview of RetroDECK's major features and core concepts:
 
-| Feature / Concept                     | Description                                                                                                        |
-|--------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| **All-in-one Contained Design**       | Distributed as a **sandboxed Flatpak**, keeping all important files in minimal locations for easy maintenance and cleanup. |
+| Feature | Description |
+|---|---|
+| **All-in-One, Self-Contained Design** | Distributed as a **sandboxed Flatpak**, keeping application components and files within the Flatpak environment. This simplifies installation, management and cleanup. |
+| **Component Isolation** | Components run in their own **subsandbox** container exposing their core functionality when needed. Clear boundaries between **user space** and the sandbox's **read-only filesystem**. |
 | **Easy to Install** | Available on **Flathub** and installable via your software center, including **KDE Discover**, **Bazaar** and **GNOME Software**. |
 | **Easy to Remove**  | Uninstalling RetroDECK safely removes all application files while keeping user data in `retrodeck/` intact. Everything else is removed automatically by clicking uninstall in your software center. |
 | **Easy to Update**                    | Updates automatically through your software center like any other Flatpak application.                             |
-| **RetroDECK Configurator**            | A multi-tool settings utility accessible directly from the **ES-DE main menu**, allowing you to manage and adjust system configurations from a single, unified interface. |
-| **RetroDECK Framework**               | Enhances emulators and the ES-DE interface for deeper integration and expanded functionality.                       |
-| **RetroDECK RetroENGINE**             | A headless game runner designed for power users and developers.                                                    |
+| **RetroDECK Configurator** | A powerful **multi-tool** accessible directly from the **ES-DE main menu**, providing a unified interface for managing system configurations, using various tools and adding or removing functionality. |
+| **RetroDECK Framework** | The heart and backend of RetroDECK, providing integration through APIs used by all features such as the **RetroDECK Configurator** and other components. |
+| **RetroENGINE**             | A headless game runner designed for power users and developers.                                                    |
 
 
 ---
@@ -144,7 +145,7 @@ A multi-tool with a powerful backend.
 | **Prebuilt Steam Input Templates** | Quickly apply controller templates tailored for Steam Deck, external controllers and more.                 |
 | **Run games with RetroENGINE**   | Launch any supported title with a simple double-click through RetroDECK’s streamlined headless game runner.  |
 | **Sync games with Steam**        | Seamlessly integrate your favorite titles into your Steam library via built-in SRM and ES-DE favorites integration. |
-| **Troubleshooting helpers**      | Diagnose issues using tools like the Multi-File Structure Checker, environment repair options and one-click reset functions. |
+| **Troubleshooting helpers**      | Diagnose issues using tools like the Multi-File Structure Checker, environment repair options and one-click component reset functions. |
 | **Unique Component Wrappers**    | Some components, like **UZDoom** and **OpenBOR**, use custom wrappers to simplify launching. UZDoom supports a custom `.doom` format for easier mod integration, while OpenBOR uses `.bor` or `.openbor` formats for its games. |
 
 

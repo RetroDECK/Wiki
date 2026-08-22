@@ -133,22 +133,19 @@ The following table provides a concise overview of RetroDECK's major features an
 
 <img src="../../wiki_icons/retrodeck/icon-configurator.svg" width="75" alt="">
 
-A multi-tool with a powerful backend. 
+The **RetroDECK Framework & Configurator** combines a powerful backend with a unified set of tools for managing, configuring, and maintaining RetroDECK.
 
-| Feature                          | Description                                                                                                   |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------|
-| **Automatic BIOS handling**      | RetroDECK can check for required BIOS files and auto-install supported ones to simplify setup.                |
-| **File-management utilities**    | Tools for organizing or moving folders and components within RetroDECK.                                       |
-| **Full content management**      | Organize all user-accessible content in RetroDECK, including backups, BIOS, borders, cheats, ES-DE, logs, mods, ROMs, saves, screenshots, states, shaders, texture packs and storage. RetroDECK exposes dedicated folders for easy access: <br>• `retrodeck/backups/` <br>• `retrodeck/bios/` <br>• `retrodeck/borders/` <br>• `retrodeck/cheats/` <br>• `retrodeck/ES-DE/` <br>• `retrodeck/logs/` <br>• `retrodeck/mods/` <br>• `retrodeck/roms/` <br>• `retrodeck/saves/` <br>• `retrodeck/screenshots/` <br>• `retrodeck/states/` <br>• `retrodeck/shaders/` <br>• `retrodeck/texture_packs/` <br>• `retrodeck/storage/` - a catch-all for miscellaneous user-accessible data |
-| **Game compression tools**       | Reduce file sizes with built-in compression utilities to save storage space.                                  |
-| **Global presets**               | Configure multiple components at once with universal presets, including: <br> - RetroAchievements <br> - Borders and overlays <br> - Widescreen enhancements <br> - Swapped A/B or X/Y buttons for Nintendo platforms <br> - Additional system-wide options |
-| **Prebuilt Steam Input Templates** | Quickly apply controller templates tailored for Steam Deck, external controllers and more.                 |
-| **Run games with RetroENGINE**   | Launch any supported title with a simple double-click through RetroDECK’s streamlined headless game runner.  |
-| **Sync games with Steam**        | Seamlessly integrate your favorite titles into your Steam library via built-in SRM and ES-DE favorites integration. |
-| **Troubleshooting helpers**      | Diagnose issues using tools like the Multi-File Structure Checker, environment repair options and one-click component reset functions. |
-| **Unique Component Wrappers**    | Some components, like **UZDoom** and **OpenBOR**, use custom wrappers to simplify launching. UZDoom supports a custom `.doom` format for easier mod integration, while OpenBOR uses `.bor` or `.openbor` formats for its games. |
-
-
+| Feature | Description |
+|---|---|
+| **BIOS Checker** | Checks for required **BIOS, firmware and game data files** for components that require them. |
+| **File Management Utilities** | Provides tools for organizing, moving, and managing files and folders within RetroDECK. |
+| **Full Content Management** | RetroDECK provides dedicated folders for easy access:<ul><li>`retrodeck/backups/`</li><li>`retrodeck/bios/`</li><li>`retrodeck/borders/`</li><li>`retrodeck/cheats/`</li><li>`retrodeck/ES-DE/`</li><li>`retrodeck/logs/`</li><li>`retrodeck/mods/`</li><li>`retrodeck/roms/`</li><li>`retrodeck/saves/`</li><li>`retrodeck/screenshots/`</li><li>`retrodeck/states/`</li><li>`retrodeck/shaders/`</li><li>`retrodeck/texture_packs/`</li><li>`retrodeck/storage/` — miscellaneous user-accessible data</li></ul> |
+| **Game Compression Tools** | Provides built-in compression utilities to reduce file sizes and save storage space. |
+| **Presets** | Applies settings across multiple components or **Libretro cores** at once, including **RetroAchievements**, borders and overlays, widescreen enhancements, Nintendo controller layouts, and other system-wide options. |
+| **Steam Input Layouts** | Provides prebuilt **Steam Input layouts** for the Steam Deck, external controllers and other supported devices. |
+| **Sync Games with Steam** | Integrates supported games with the Steam library using built-in **SRM** and **ES-DE favorites** integration. |
+| **Troubleshooting Helpers** | Provides diagnostic and repair tools, including the Multi-File Structure Checker and one-click component resets. |
+| **Unique Component Wrappers** | Provides custom wrappers for components such as **UZDoom** and **OpenBOR** to simplify launching and integration. UZDoom supports the custom `.doom` format for easier mod integration, while OpenBOR supports `.bor` and `.openbor` game formats. |
 
 ---
 

@@ -26,12 +26,12 @@ RetroDECK categorizes software within the platform as distinct **components**, o
 
 ### Clients
 
-**Clients** are applications that connect to external servers or online services to provide access to multiplayer functionality, streaming, or other remotely hosted content. They rely entirely on an external host or service to function and their **primary functionality is online multiplayer**.
+**Clients** are applications that connect to external servers or online services to provide access to multiplayer functionality, streaming, or other remotely hosted content. They rely entirely on an external host or service to function and their **primary functionality is online or LAN multiplayer**.
 
 **Example:**
 
-- **Mudlet** - A MUD client for connecting to text-based Multi User Dungeon servers.
-- **Quake3e** - A Quake 3 engine re-implementation client for connecting to Quake III Arena multiplayer servers with mod support.
+- **Mudlet** - A MUD client for connecting to text-based **Multi User Dungeon** servers.
+- **Quake3e** - A Quake 3 engine re-implementation client for connecting to **Quake III Arena** multiplayer servers with mod support.
 
 ### Emulators
 
@@ -44,14 +44,14 @@ RetroDECK categorizes software within the platform as distinct **components**, o
 
 ### Engines
 
-**Engines** are **Game Engines** designed to run **multiple local games or mods** built for them. This includes native engines and **engine re-implementations** that replace the original engine while maintaining compatibility with existing games.
+**Engines** are **Game Engines** designed to run **multiple local games or mods** built for them. This includes native engines and **engine re-implementations** that replace the original engine while maintaining compatibility with existing games and requiring the original game's data or source assets.
 
 **Examples:**
 
-- **OpenBOR** - Open-source beat 'em up engine.
-- **Solarus** - Action-RPG engine.
-- **PICO-8** - Fantasy console.
-- **UZDoom** - Source port for Doom-engine games.
+- **OpenBOR** - Open-source beat 'em up engine. <-- Game Engine
+- **Solarus** - Action-RPG engine.  <-- Game Engine
+- **PICO-8** - Fantasy console engine.  <-- Game Engine
+- **UZDoom** - Source port for DOOM-engine games.  <-- Engine re-implementation
 
 ### Frontends
 
@@ -63,7 +63,7 @@ RetroDECK categorizes software within the platform as distinct **components**, o
 
 ### Games
 
-**Games** are unique standalone titles.
+**Games** are **standalone, unique titles** that can be launched and played as its own complete experience.
 
 **Example:**
 
@@ -80,12 +80,11 @@ RetroDECK categorizes software within the platform as distinct **components**, o
 
 ### Ports
 
-**Ports** are **single games** adapted or recompiled to run natively on a specific engine, framework, or platform. Unlike emulated games, ports run directly on the target system without requiring emulation.
+**Ports** are **single games** adapted or recompiled to run natively on a specific engine,framework, or platform. Unlike emulated games, ports run directly on the target system without requiring emulation. A **Port** typically **requires the original game's data or source assets** to function. 
 
 **Example:**
 
-- Games installed through **PortMaster**.
-
+- Ports built into or distributed through **RetroDECK**.
 
 ### Utilities
 

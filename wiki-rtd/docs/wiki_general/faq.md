@@ -198,6 +198,8 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 <img src="../../wiki_icons/retrodeck/icon-component.svg" width="30" alt="">
 
+These criteria are guidelines rather than strict rules. Some projects may overlap multiple categories, so classification should ultimately be based on the component's **primary function and intended use within RetroDECK**.
+
 ### When Should an Engine Reimplementation Be Classified as a Port vs an Engine?
 
 It can be difficult to draw a clear line between **Engines** and **Ports**, particularly when dealing with **engine reimplementations**. The classification should ultimately be based on the **purpose and scope of the project** that the component sources from.
@@ -225,8 +227,6 @@ In general, classification should consider:
 - **Purpose** - Is the component primarily intended to preserve and enhance a specific existing game, or provide a platform for multiple games and experiences?
 - **Scope** - Does it support a single game, or multiple games and/or mods?
 - **Content** - Does it primarily deliver the original game's content, or can it provide distinct experiences through additional games or mods?
-
-These criteria are guidelines rather than strict rules. Some projects may overlap multiple categories, so classification should ultimately be based on the component's **primary function and intended use within RetroDECK**.
 
 ---
 

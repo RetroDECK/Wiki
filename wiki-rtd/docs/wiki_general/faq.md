@@ -196,9 +196,11 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 ## FAQ: Component Categories
 
-### When Do You Classify It as a Port vs an Engine when adding a Engine Reimplementation Component?
+<img src="../../wiki_icons/retrodeck/icon-component.svg" width="30" alt="">
 
-It can be difficult to draw a clear line between **engines** and **ports**, particularly when dealing with **engine reimplementations**. The classification should ultimately be based on the **purpose and scope of the project** that the component sources from.
+### When Should an Engine Reimplementation Be Classified as a Port vs an Engine?
+
+It can be difficult to draw a clear line between **Engines** and **Ports**, particularly when dealing with **engine reimplementations**. The classification should ultimately be based on the **purpose and scope of the project** that the component sources from.
 
 An **engine reimplementation** recreates or replaces the original game's engine while retaining compatibility with its original game data.
 
@@ -206,34 +208,64 @@ If a project's primary purpose is to make a **specific game** run natively on mo
 
 The distinction becomes clearer when considering whether the component supports a **single game or multiple games**.
 
-For example, **GZDoom** supports a wide range of mods and standalone games through the same engine. Similarly, **Raze** supports multiple Build Engine games. Both are therefore classified as **engines**.
+**Examples:** 
 
-**Ironwail** follows the same principle. Although it is based on a specific game engine, it supports multiple mods, including mods that can be launched as standalone titles and provide experiences substantially different from the original game.
+- **UZDoom** supports a wide range of mods and standalone games through the same engine.
+- **Raze** supports multiple Build Engine games and mods. 
+- **Ironwail** follows the same principle for Quake. 
+  
+All of them are therefore classified as **Engines**.
 
-Generally, **decompilation and reimplementation projects for individual games**, such as projects targeting games originally released on the Nintendo 64, GameCube, or other consoles, are classified as **ports** when their primary purpose is to make that specific game run natively on modern systems.
+Generally, **decompilation and reimplementation projects for individual games**, such as projects targeting games originally released on the Nintendo 64, GameCube, or other consoles, are classified as **Ports** when their primary purpose is to make that specific game run natively on modern systems.
 
-**OpenGOAL**, however, is classified as an **engine** because it supports multiple games in the *Jak and Daxter* series rather than being limited to a single title.
+**OpenGOAL**, however, should be classified as an **Engine** because it supports multiple games in the *Jak and Daxter* series rather than being limited to a single title.
 
 In general, classification should consider:
 
 - **Purpose** - Is the component primarily intended to preserve and enhance a specific existing game, or provide a platform for multiple games and experiences?
 - **Scope** - Does it support a single game, or multiple games and/or mods?
 - **Content** - Does it primarily deliver the original game's content, or can it provide distinct experiences through additional games or mods?
-- **Implementation** - Does it replace or reimplement the original engine while maintaining compatibility with its content?
 
 These criteria are guidelines rather than strict rules. Some projects may overlap multiple categories, so classification should ultimately be based on the component's **primary function and intended use within RetroDECK**.
 
-### When Do You Classify It as a Port vs a Game?
+---
 
-The distinction between **ports** and **games** is primarily based on how the software is implemented and what it requires to run.
+### When Should an Engine Reimplementation Be Classified as a Client?
 
-A **port** typically requires the original game's data or source assets to function. The port provides the native engine, executable, or other software required to run the original game on a modern platform, while the user provides the required game files.
+A **Client** classification is appropriate when:
 
-A **game**, by contrast, is a **standalone, unique title** that can be launched and played as its own complete experience.
+- The primary intended gameplay is **online or LAN multiplayer**.
+- Core game data or functionality is hosted on an external server.
 
-The key question is: **Does it require the original game's files to run?**
+For example, **Stellaview+** and **Mudlet** are classified as Clients because their primary functionality depends on server-hosted content. This is comparable to games such as *World of Warcraft* and *RuneScape*, where online play is the primary intended experience.
 
-If the project provides the software required to run an existing game but requires the original game files, it should generally be classified as a **port**. If it is a self-contained, unique title that does not depend on another game's files, it should generally be classified as a **game**.
+**Classic Multiplayer and LAN Games**
+
+An **Engine Reimplementation** should be classified as a **Client** when the original game's primary purpose is online multiplayer and its core functionality depends on an external server.
+
+Engine reimplementations of classic **online multiplayer or LAN-focused games** should generally be classified as **Clients** rather than **Engines**.
+
+For example, **Quake3e** is an engine reimplementation for *Quake III Arena*. Although it supports single-player matches to practice against bots, its primary purpose is to provide the game's intended multiplayer experience, either online or over a local network. Therefore, it should be classified as a **Client**.
+
+**Games With Both Single-Player and Multiplayer are Engines or Ports**
+
+An Engine Reimplementation that provides substantial **single-player and multiplayer** functionality should generally be classified as an **Engine** or **Port**, depending on the criteria defined in the **Port vs. Engine** classification.
+
+The classification should be based on the **primary purpose and scope**, rather than simply whether multiplayer functionality is available.
+
+---
+
+### When Should a Component Be Classified as a Port vs a Game?
+
+The distinction between **Ports** and **Games** is primarily based on how the software is implemented and what it requires to run.
+
+- A **Port** typically **requires the original game's data or source assets** to function. The port provides the native engine, executable, or other software required to run the original game on a modern platform, while the user provides the required game files.
+
+- A **Game**, by contrast, is a **standalone, unique title** that can be launched and played as its own complete experience.
+
+**The key question is: Does it require the original game's files to run?**
+
+If the project provides the software required to run an existing game but requires the original game files, it should generally be classified as a **Port**. If it is a self-contained, unique title that does not depend on another game's files, it should generally be classified as a **Game**.
 
 #### PortMaster Does Not Use This Distinction
 

@@ -31,7 +31,7 @@ RetroDECK categorizes software within the platform as distinct **components**, o
 **Example:**
 
 - **Mudlet** - A MUD client for connecting to text-based Multi User Dungeon servers.
-- **Quake3e** - A Quake 3 client for connecting to Quake III Arena multiplayer servers with mod support.
+- **Quake3e** - A Quake 3 engine re-implementation client for connecting to Quake III Arena multiplayer servers with mod support.
 
 ### Emulators
 

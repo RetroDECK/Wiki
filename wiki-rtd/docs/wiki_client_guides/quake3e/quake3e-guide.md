@@ -135,7 +135,7 @@ Make sure all the game files are at their proper location **Read Above**.
 ---
 
 
-## How-to: Play Quake 3Mods in RetroDECK
+## How-to: Play Quake 3 Mods in RetroDECK
 
 Quake3e supports many types of mods.
 

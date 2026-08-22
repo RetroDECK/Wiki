@@ -198,7 +198,29 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 <img src="../../wiki_icons/retrodeck/icon-component.svg" width="30" alt="">
 
-These criteria are guidelines rather than strict rules. Some projects may overlap multiple categories, so classification should ultimately be based on the component's **primary function and intended use within RetroDECK**.
+These categories are **guidelines rather than strict rules**. Some projects may overlap multiple categories, so classification should ultimately be based on the component's **primary function and intended use within RetroDECK**.
+
+---
+
+### What Is the Purpose of Component Categories?
+
+Component categories serve two primary purposes:
+
+1. **Communication:** They provide users with a clear and consistent way to understand what a component is and how it is intended to be used.
+2. **Classification:** They allow RetroDECK to organize components into meaningful groups instead of presenting users with long, unstructured lists.
+
+In the future, these categories can also be used to create menus and other interfaces that group components by their type, making it easier for users to find what they need.
+
+Categories also help communicate **what is required to use a component**. For example:
+
+- **Emulators:** may require original game media and firmware, such as ROMs, BIOS or disc images.
+- **Engines / Ports:** may require original game assets or data files.
+- **Games:** are ready to run without additional game data.
+- **Clients:** are primarily intended to connect to external servers or services, such as for online / LAN multiplayer.
+
+This distinction helps users understand both **what a component is** and **what they need to provide before using it**.
+
+---
 
 ### When Should an Engine Reimplementation Be Classified as a Port vs an Engine?
 

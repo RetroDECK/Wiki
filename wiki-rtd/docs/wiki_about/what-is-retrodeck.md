@@ -26,11 +26,12 @@ RetroDECK categorizes software within the platform as distinct **components**, o
 
 ### Clients
 
-**Clients** are applications that connect to external servers or online services to provide access to multiplayer features, streaming, or remote content. They depend on an external host or service to function.
+**Clients** are applications that connect to external servers or online services to provide access to multiplayer functionality, streaming, or other remotely hosted content. They rely entirely on an external host or service to function and their **primary functionality is online multiplayer**.
 
 **Example:**
 
-- **Mudlet** - A MUD client for connecting to text-based multiplayer servers.
+- **Mudlet** - A MUD client for connecting to text-based Multi User Dungeon servers.
+- **Quake3e** - A Quake 3 client for connecting to Quake III Arena multiplayer servers with mod support.
 
 ### Emulators
 
@@ -43,7 +44,7 @@ RetroDECK categorizes software within the platform as distinct **components**, o
 
 ### Engines
 
-**Engines** are **Game Engines** designed to run **multiple games or mods** built for them. This includes native engines and **engine re-implementations** that replace the original engine while maintaining compatibility with existing games.
+**Engines** are **Game Engines** designed to run **multiple local games or mods** built for them. This includes native engines and **engine re-implementations** that replace the original engine while maintaining compatibility with existing games.
 
 **Examples:**
 

@@ -11,7 +11,7 @@ Always refer to the official list for the most current and up to date informatio
 
 1. Open the [ScummVM Game Compatibility and ID List](https://www.scummvm.org/compatibility).
 2. Search for the game title (example: *Beneath a Steel Sky*).
-3. Note the **ScummVM ID** (example: `sky:sky`).
+3. Note the **engineID:gameID** (example: `sky:sky`).
 4. Use this ID to create the required directory and file name:
 
 ---
@@ -22,12 +22,12 @@ Always refer to the official list for the most current and up to date informatio
 
 - **Game** - Official game title.
 - **Directory / File name** - Required directory name and corresponding `.scummvm` file.
-- **ScummVM ID** - Engine and game identifier specified in the `.scummvm` file.
-- **ScummVM ID Key** - Key value of the ScummVM ID. 
+- **engineID:gameID** - Engine and game identifier specified in the `.scummvm` file.
+- **gameID** - The games identifier. 
 
 ---
 
-| Game | Directory / File name   | ScummVM ID  | ScummVM ID Key |
+| Game | Directory / File name   | engineID:gameID  | gameID |
 | --- | --- | --- | --- |
 | 007: James Bond - The Stealth Affair | 007: James Bond - The Stealth Affair.scummvm | cine:os | os |
 | 1½ Ritter: Auf der Suche nach der hinreißenden Herzelinde | 1½ Ritter: Auf der Suche nach der hinreißenden Herzelinde.scummvm | wintermute:ritter | ritter |

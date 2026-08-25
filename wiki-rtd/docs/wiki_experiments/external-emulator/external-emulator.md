@@ -2,7 +2,7 @@
 
 <img src="../dolphin-result.png" width="800" alt="">
 
-This experiment was initiated by the user **TopHatCat** and later expanded upon by the RetroDECK Team. **TopHatCats** goal was to explore the possibility of launching games with external emulators from within RetroDECK (limited to the systems that ES-DE supports).
+This experiment was initiated by the user **TopHatCat** and later expanded upon by the RetroDECK Team. **TopHatCats** goal was to explore the possibility of launching games via external emulators from within RetroDECK (limited to the systems that ES-DE supports).
 
 **However, doing this defeats the entire purpose of RetroDECK!**
 

@@ -60,8 +60,8 @@ The ES-DE Team is resposible for new features added into ES-DE, but the RetroDEC
 
 | Installation | Location |
 | :--- | :--- |
-| **Flatpak — Local Install** | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/retrodeck/components/es-de/share/es-de/resources/systems/linux/` |
-| **Flatpak — System Install** | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/es-de/share/es-de/resources/systems/linux/` |
+| **Flatpak - Local Install** | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/retrodeck/components/es-de/share/es-de/resources/systems/linux/` |
+| **Flatpak - System Install** | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/es-de/share/es-de/resources/systems/linux/` |
 | **User Symlink** | `~/.var/app/net.retrodeck.retrodeck/config/ES-DE/systems/` |
 
 
@@ -127,7 +127,7 @@ One difference between the RetroDECK configuration and ES-DE's native XML config
 
 ### `retrodeck_manifest_cache.json`
 
-The cache contains the processed manifest data used by RetroDECK during boot. All configuration injected during the RetroDECK boot process—including ES-DE rules, systems and their associated arguments—is also stored in `retrodeck_manifest_cache.json`.
+The cache contains the processed manifest data used by RetroDECK during boot. All configuration injected during the RetroDECK boot process-including ES-DE rules, systems and their associated arguments-is also stored in `retrodeck_manifest_cache.json`.
 
 The cache is located at:
 
@@ -331,11 +331,11 @@ The **comma-separated values** are ES-DE platform identifiers.
 | Amstrad CPC | `amstradcpc` | 65 | 4914 |
 | Android | `android` | 63 | 4916 |
 | Apple II | `apple2` | 86 | 4942 |
-| Apple IIGS | `apple2gs` | 217 | — |
+| Apple IIGS | `apple2gs` | 217 | - |
 | Apple Macintosh | `macintosh` | 146 | 37 |
 | Arcade | `arcade` | 75 | 23 |
 | Arcadia 2001 | `arcadia` | 94 | 4963 |
-| Arduboy | `arduboy` | 263 | — |
+| Arduboy | `arduboy` | 263 | - |
 | Atari 2600 | `atari2600` | 26 | 22 |
 | Atari 5200 | `atari5200` | 40 | 26 |
 | Atari 7800 | `atari7800` | 41 | 27 |
@@ -357,23 +357,23 @@ The **comma-separated values** are ES-DE platform identifiers.
 | Commodore 64 | `c64` | 66 | 40 |
 | Commodore Amiga | `amiga` | 64 | 4911 |
 | Commodore Amiga CD32 | `amigacd32` | 130 | 4947 |
-| Commodore CDTV | `cdtv` | 129 | — |
+| Commodore CDTV | `cdtv` | 129 | - |
 | Commodore Plus/4 | `plus4` | 99 | 5007 |
 | Commodore VIC-20 | `vic20` | 73 | 4945 |
 | Creatronic Mega Duck | `megaduck` | 90 | 4948 |
 | Daphne | `daphne` | 49 | 23 |
 | DOS / PC | `dos` | 135 | 1 |
 | Dragon 32 | `dragon32` | 91 | 4952 |
-| EasyRPG | `easyrpg` | 231 | — |
-| Epoch Super Cassette Vision | `scv` | 67 | — |
-| Fairchild Channel F | `channelf` | 80 | — |
+| EasyRPG | `easyrpg` | 231 | - |
+| Epoch Super Cassette Vision | `scv` | 67 | - |
+| Fairchild Channel F | `channelf` | 80 | - |
 | FM-7 | `fm7` | 97 | 4978 |
 | FM Towns | `fmtowns` | 253 | 4932 |
-| Future Pinball | `fpinball` | 199 | — |
+| Future Pinball | `fpinball` | 199 | - |
 | Game Boy | `gb` | 9 | 4 |
 | Game Boy Advance | `gba` | 12 | 5 |
 | Game Boy Color | `gbc` | 10 | 41 |
-| Game Master | `gmaster` | 103 | — |
+| Game Master | `gmaster` | 103 | - |
 | Game.com | `gamecom` | 121 | 4940 |
 | Game & Watch | `gameandwatch` | 52 | 4950 |
 | Genesis | `genesis` | 1 | 18 |
@@ -381,13 +381,13 @@ The **comma-separated values** are ES-DE platform identifiers.
 | Intellivision | `intellivision` | 115 | 32 |
 | J2ME | `j2me` | 302 | 5018 |
 | LCD Games | `lcdgames` | 75 | 4951 |
-| LowRes NX | `lowresnx` | 244 | — |
-| Lutro | `lutro` | 206 | — |
+| LowRes NX | `lowresnx` | 244 | - |
+| Lutro | `lutro` | 206 | - |
 | Microsoft Windows | `pcwindows` | 138 | 1 |
 | Microsoft Windows 3.x | `windows3x` | 136 | 1 |
 | Microsoft Xbox | `xbox` | 32 | 14 |
 | Microsoft Xbox 360 | `xbox360` | 33 | 15 |
-| Microsoft Xbox One | `xboxone` | 34 | — |
+| Microsoft Xbox One | `xboxone` | 34 | - |
 | MSX | `msx` | 113 | 4929 |
 | MSX2 | `msx2` | 116 | 4929 |
 | MSX Turbo R | `msxturbor` | 118 | 4929 |
@@ -422,13 +422,13 @@ The **comma-separated values** are ES-DE platform identifiers.
 | Nintendo Wii U | `wiiu` | 18 | 38 |
 | Nokia N-Gage | `ngage` | 30 | 4938 |
 | Odyssey² / Videopac | `odyssey2` | 104 | 4927 |
-| OpenBOR | `openbor` | 214 | — |
+| OpenBOR | `openbor` | 214 | - |
 | Oric | `oric` | 131 | 4986 |
-| Palm OS | `palm` | 219 | — |
+| Palm OS | `palm` | 219 | - |
 | PC | `pc` | 135 | 1 |
 | PC-88 | `pc88` | 221 | 4933 |
 | PC-98 | `pc98` | 208 | 4934 |
-| PICO-8 | `pico8` | 234 | — |
+| PICO-8 | `pico8` | 234 | - |
 | Philips CD-i | `cdimono1` | 133 | 4917 |
 | PlayStation | `psx` | 57 | 10 |
 | PlayStation 2 | `ps2` | 58 | 11 |
@@ -453,34 +453,34 @@ The **comma-separated values** are ES-DE platform identifiers.
 | Sharp X68000 | `x68000` | 79 | 4931 |
 | Sinclair ZX Spectrum | `zxspectrum` | 76 | 4913 |
 | Sinclair ZX81 | `zx81` | 77 | 5010 |
-| Solarus | `solarus` | 223 | — |
-| Spectravideo | `spectravideo` | 218 | — |
+| Solarus | `solarus` | 223 | - |
+| Spectravideo | `spectravideo` | 218 | - |
 | SNES | `snes` | 4 | 6 |
-| SNES MSU-1 | `snes-msu1` | 210 | — |
+| SNES MSU-1 | `snes-msu1` | 210 | - |
 | Super Nintendo | `snes` | 4 | 6 |
 | Supervision | `supervision` | 207 | 4959 |
 | Tandy Color Computer | `coco` | 144 | 4941 |
 | Tandy TRS-80 | `trs-80` | 144 | 4941 |
 | Texas Instruments TI-99 | `ti99` | 205 | 4953 |
-| Thomson MO/TO | `moto` | 141 | — |
-| TIC-80 | `tic80` | 222 | — |
+| Thomson MO/TO | `moto` | 141 | - |
+| TIC-80 | `tic80` | 222 | - |
 | Tiger Game.com | `gamecom` | 121 | 4940 |
-| Uzebox | `uzebox` | 216 | — |
+| Uzebox | `uzebox` | 216 | - |
 | Valve Steam | `steam` | 138 | 1 |
 | Vectrex | `vectrex` | 102 | 4939 |
-| Vircon32 | `vircon32` | 272 | — |
-| Visual Pinball | `vpinball` | 198 | — |
+| Vircon32 | `vircon32` | 272 | - |
+| Visual Pinball | `vpinball` | 198 | - |
 | VTech CreatiVision | `crvision` | 241 | 5005 |
 | VTech V.Smile | `vsmile` | 120 | 4988 |
 | Watara Supervision | `supervision` | 207 | 4959 |
-| WASM-4 | `wasm4` | 262 | — |
+| WASM-4 | `wasm4` | 262 | - |
 | Windows 3.x | `windows3x` | 136 | 1 |
 | WonderSwan | `wonderswan` | 45 | 4925 |
 | WonderSwan Color | `wonderswancolor` | 46 | 4926 |
 | Xbox | `xbox` | 32 | 14 |
 | Xbox 360 | `xbox360` | 33 | 15 |
-| Xbox One | `xboxone` | 34 | — |
-| Z-machine | `zmachine` | 215 | — |
+| Xbox One | `xboxone` | 34 | - |
+| Z-machine | `zmachine` | 215 | - |
 | ZX Spectrum | `zxspectrum` | 76 | 4913 |
 | ZX81 | `zx81` | 77 | 5010 |
 
@@ -504,9 +504,9 @@ This allows RetroDECK to make use of existing metadata platforms while still sup
 
 **Examples of components that do not have a dedicated ES-DE platform:**
 
-- **Quake 3** — `"platform": "pc, pcwindows"`
-- **Doom 3** — `"platform": "pc, pcwindows"`
-- **Mudlet** — `"platform": "pc, pcwindows, dos, zmachine, c64, amiga"` - Mudlet can use a broader platform scope because the games supported by it can ran across multiple modern and retro computer platforms.
+- **Quake 3** - `"platform": "pc, pcwindows"`
+- **Doom 3** - `"platform": "pc, pcwindows"`
+- **Mudlet** - `"platform": "pc, pcwindows, dos, zmachine, c64, amiga"` - Mudlet can use a broader platform scope because the games supported by it can ran across multiple modern and retro computer platforms.
 
 ---
 

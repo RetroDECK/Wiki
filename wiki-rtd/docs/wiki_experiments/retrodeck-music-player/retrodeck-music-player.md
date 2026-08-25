@@ -2,9 +2,9 @@
 
 <img src="../../../wiki_icons/pixelitos/applications-multimedia.png" width="75" alt="">
 
-This experiment was initiated by the users **Partack** and **TopHatCat**, then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of doing custom scripts to enable very basic music playback in ES-DE.
+This experiment was initiated by the users **Partack** and **TopHatCat**, then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of running custom scripts that enable very basic music playback in ES-DE.
 
-**Note:** That ES-DE is working on a built-in Music Player already that will arrive in an upcoming update (it will be better then this).
+**Note:** ES-DE is already working on a built-in Music Player that will arrive in an upcoming update. (And it will likely be more reliable than this experiment)
 
 ### Disclaimer on Experiments 
 

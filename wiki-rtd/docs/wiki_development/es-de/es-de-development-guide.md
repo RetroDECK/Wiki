@@ -291,7 +291,7 @@ Each game system entry in the file defines:
 
 ---
 
-## ES-DE Development: Platform Scraper Mapping  
+## Platform to Scraper Mapping  
 
 ### Overview
 

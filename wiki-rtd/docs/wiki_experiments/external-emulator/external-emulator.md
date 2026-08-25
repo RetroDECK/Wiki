@@ -2,19 +2,19 @@
 
 <img src="../dolphin-result.png" width="800" alt="">
 
-This experiment was initiated by the user **TopHatCat** and later expanded upon by the RetroDECK Team. **TopHatCats** goal was to explore the possibility of launching games against external Emulators from within RetroDECK (limited to the systems ES-DE supports). 
+This experiment was initiated by the user **TopHatCat** and later expanded upon by the RetroDECK Team. **TopHatCats** goal was to explore the possibility of launching games with external emulators from within RetroDECK (limited to the systems that ES-DE supports).
 
-**However, doing this defeats the entire purpose of RetroDECK** 
+**However, doing this defeats the entire purpose of RetroDECK!**
 
-You will not get any of the RetroDECK features for these systems, such as: 
+When you use an external emulator, you won't be able to benefit from RetroDECK's unique features such as:
 
 - Hotkeys
-- Working Inputs 
-- Configurator
+- Working Inputs
+- RetroDECK Configurator
 - Unified Folders
-- Preconfigured 
+- Preconfigured Settings
 - Backups
-- and everything else!
+- and everything else that RetroDECK offers!
 
 Essentially, you are creating an Anti-RetroDECK / Bizzaro-RetroDECK / Absolute Heresy inside of RetroDECK. 
 
@@ -22,7 +22,7 @@ Your system will be cluttered and you will be bound by each emulator's defaults,
 
 **There is no good reason to launch external emulators via RetroDECK**
 
-Instead, you can install ES-DE from their website and set up the emulators as usual. 
+Instead, you can install ES-DE directly from their website and set up the emulators as usual. 
 
 ### Disclaimer on Experiments 
 

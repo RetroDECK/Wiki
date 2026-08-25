@@ -198,7 +198,7 @@ Welcome to the RetroDECK FAQ your all-in-one place for quick answers about insta
 
 <img src="../../wiki_icons/retrodeck/icon-component.svg" width="30" alt="">
 
-These categories are **guidelines rather than strict rules**. Some projects may overlap multiple categories, so classification should ultimately be based on the component's **primary function and intended use within RetroDECK**.
+These categories are **guidelines rather than strict rules**. Some projects may overlap multiple categories, so classification should ultimately be based on the component's **primary function and intended use within RetroDECK** it can also change over time.
 
 ---
 
@@ -240,14 +240,14 @@ The distinction becomes clearer when considering whether the component supports 
   
 All of them are therefore classified as **Engines**.
 
-Generally, **decompilation and reimplementation projects for individual games**, such as projects targeting games originally released on the Nintendo 64, GameCube, or other consoles, are classified as **Ports** when their primary purpose is to make that specific game run natively on modern systems.
+Generally, **decompilation and reimplementation projects for individual games**, such as projects targeting games originally released on the Nintendo 64, GameCube, or other consoles are classified as **Ports** when their primary purpose is to make that **specific game** run natively on modern systems.
 
-**OpenGOAL**, however, should be classified as an **Engine** because it supports multiple games in the *Jak and Daxter* series rather than being limited to a single title.
+**OpenGOAL**, however, should be classified as an **Engine** because it supports **multiple games** in the *Jak and Daxter* series rather than being limited to a single title.
 
 In general, classification should consider:
 
 - **Purpose** - Is the component primarily intended to preserve and enhance a specific existing game, or provide a platform for multiple games and experiences?
-- **Scope** - Does it support a single game, or multiple games and/or mods?
+- **Scope** - Does it support a single game, or multiple games and/or mods? Can they be launched separately from each other? 
 - **Content** - Does it primarily deliver the original game's content, or can it provide distinct experiences through additional games or mods?
 
 ---
@@ -287,7 +287,7 @@ The distinction between **Ports** and **Games** is primarily based on how the so
 
 **The key question is: Does it require the original game's files to run?**
 
-If the project provides the software required to run an existing game but requires the original game files, it should generally be classified as a **Port**. If it is a self-contained, unique title that does not depend on another game's files, it should generally be classified as a **Game**.
+If the project provides the software required to run an existing game but requires the original game files, it should generally be classified as a **Port**. If it is a self-contained, unique title that ships all it needs, it should generally be classified as a **Game**.
 
 #### PortMaster Does Not Use This Distinction
 

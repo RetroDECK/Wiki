@@ -4,9 +4,9 @@
 
 ## Information
 
-RetroDECK is made possible by the open-source community and the many third-party components (Emulators, Engines, Games, Ports, Clients) and dependencies libraries, systems, tools and projects it builds upon. Without these RetroDECK would not be possible.
+RetroDECK is made possible by the open-source community and the many third-party components (Emulators, Multi-Emulators, Game Engines, Games, Ports, Clients) and dependencies (libraries, etc...) it builds upon. Without these RetroDECK would not be possible.
 
-We believe in collaborating openly with other projects to strengthen both RetroDECK and the wider Linux and FOSS ecosystems. Sharing knowledge, contributing upstream and working together helps everyone build better software.
+We believe in collaborating openly with other projects to strengthen both RetroDECK and the wider Linux and FOSS ecosystems. Sharing knowledge, contributing upstream when possible and working together helps everyone build better software.
 
 This page lists current and planned components that we may integrate into RetroDECK, along with their respective licenses and donation links if they have them. These lists are continually updated as the project evolves.
 
@@ -21,7 +21,7 @@ They are the ones doing the foundational work that makes RetroDECK and the games
 
 ### Support Projects Directly
 
-If you want to support a specific frontend, art project, emulator, engine, game, client or other part of the ecosystem, we strongly encourage you to donate **directly** to its creators or maintainers.
+If you want to support a component or other part of the ecosystem, we strongly encourage you to donate **directly** to its creators or maintainers.
 
 Using a third party or proxy to handle donations even when it promises to pass them on can result in funds being misdirected, or the intended project receiving less than expected or none of your contribution.
 

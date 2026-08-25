@@ -364,7 +364,6 @@ nav:
       - Component Source - Flatpak: wiki_development/components/component-guide/component-create-flatpak.md
       - Component Source - Binary/Build: wiki_development/components/component-guide/component-create-flatpak.md
       - Creating Component Files: wiki_development/components/component-guide/creating-components-ingredients-guide.md
-      - ES-DE Development Guide: wiki_development/es-de/es-de-development-guide.md
 
     - Component Recipe - Examples:
       - EXAMPLE component_recipe - Web source - KEGS: wiki_development/components/recipes-examples/recipe-example-web-kegs.md
@@ -384,6 +383,8 @@ nav:
       - component_functions.sh: wiki_development/components/component-files/component-ingredient-functions.md
       - component_launcher.sh: wiki_development/components/component-files/component-ingredient-launcher.md
       - component_manifest.json: wiki_development/components/component-files/component-ingredient-manifest.md
+
+    - ES-DE Development Guide: wiki_development/es-de/es-de-development-guide.md
 
     - Graphics:
         - Easter Egg Splashes: wiki_development/graphics/easter-egg/easter-egg-splashes.md

@@ -1,6 +1,6 @@
 ﻿# ES-DE Development Guide
 
-<img src="../../../../wiki_images/logos/es-de-logo.png" width="75" alt="Es De logo">
+<img src="../../../wiki_images/logos/es-de-logo.png" width="75" alt="Es De logo">
 
 In ES-DE all applications no matter what it is referred to as an **Emulator**.
 

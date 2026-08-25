@@ -8,14 +8,18 @@ For a quick overview check the website.
 
 ## What is RetroDECK?
 
-<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="75" alt="">
+<img src="../../wiki_icons/retrodeck/icon-rd.svg" width="75" alt="RetroDECK logo">
 
-RetroDECK is a powerful all-in-one retro gaming platform designed for handheld gaming PCs like the Steam Deck, full Linux desktops, Linux HTPC setups and Linux-based PC consoles such as the Steam Machine. 
+**RetroDECK** is an **all-in-one retro gaming platform** designed for handheld gaming PCs such as the Steam Deck, Linux desktop computers, Linux-based HTPCs and PC consoles such as the Steam Machine.
 
-Delivered as a self-contained Flatpak app, it gives you everything you need for retro gaming right out of the box, no manual setup required. 
+Distributed as a self-contained **Flatpak** application, RetroDECK provides a ready-to-use gaming environment with minimal setup. Its goal is to bring together the tools, components, and workflows needed to manage and play a wide range of games in one consistent environment.
 
-By integrating a wide range of components such as emulators, game engines, ports and built-in tools, RetroDECK brings all your favorite games together in one streamlined, easy-to-use package.
+- RetroDECK shares similarities with game launcher and management platforms such as **Heroic Games Launcher** and **Lutris**, particularly in its goal of bringing different gaming technologies and runtimes together behind a single user-friendly interface.
 
+- RetroDECK is designed as a **containerized gaming environment** that brings together a wide range of components, including emulators, game engines, ports, clients, native games and other gaming software under a unified frontend and configuration system.
+
+- RetroDECK creates a controlled and consistent environment where different gaming components can coexist. It runs within the **Flatpak sandbox** and uses additional containerization and isolation mechanisms within that environment, known as **subsandboxing**. This allows gaming components and their dependencies to be managed independently, helping prevent them from interfering with the host system or with each other. Its containerized approach is conceptually closer to technologies such as **Steam Pressure Vessel** and **Docker**, while remaining a unique solution with its own architecture. 
+ 
 ---
 
 ## Definition of Components

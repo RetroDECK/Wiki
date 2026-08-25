@@ -4,19 +4,32 @@
 
 ## Information
 
-RetroDECK thrives thanks to the support of the open-source community and relies on a wide range of third-party libraries, systems and tools. Without these vital dependencies, RetroDECK and many other similar projects, would not be possible.
+RetroDECK is made possible by the open-source community and the many third-party components (Emulators, Multi-Emulators, Game Engines, Games, Ports, Clients) and dependencies (libraries, etc...) it builds upon. Without these RetroDECK would not be possible.
 
-Our philosophy is to collaborate openly with other projects to enhance both RetroDECK and the broader Linux ecosystem. We believe in the power of shared knowledge and contribution to drive innovation forward for the entire FOSS ecosystem.
+We believe in collaborating openly with other projects to strengthen both RetroDECK and the wider Linux and FOSS ecosystems. Sharing knowledge, contributing upstream when possible and working together helps everyone build better software.
 
-This several lists of current and future software, features and libraries we plan or hope to integrate into RetroDECK, including their respective licenses. These lists will continue to evolve as we add new components in future updates.
+This page lists current and planned components that we may integrate into RetroDECK, along with their respective licenses and donation links if they have them. These lists are continually updated as the project evolves.
 
-We also highlight some third-party software that we **cannot** integrate due to being proprietary or otherwise incompatible with RetroDECK’s licensing. Even though they cannot be included, we still appreciate their work and want to make it easy for users to find their donation or support links and because good software deserves recognition.
+We also list third-party software that we cannot include in RetroDECK because it is proprietary or otherwise incompatible with our licensing requirements. While these projects cannot be bundled or be available with RetroDECK, we appreciate the work behind them and provide links where users can learn more or support their creators directly buy either buying their software or donating.
 
-### Support the Right Place
+The RetroDECK Team aims to keep our donation needs to a minimum. If we receive donations, they are intended only to cover basic project expenses. RetroDECK exists thanks to the many all other developers, artists and other contributors who make the wider ecosystem possible.
 
-If you're interested in supporting a specific frontend, art asset, emulator, engine, or any other part of the ecosystem, we strongly encourage you to donate **directly** to the creators or maintainers of that project. Donating via a third party or proxy can lead to funds being misdirected, which means the project or person you're hoping to support may not receive the intended support.
+**We encourage you to support those projects first.** 
 
-No other project should handle or control another project's funding. To ensure your contributions are used effectively and reach the right hands, always donate directly to the individuals or projects you care about. Direct contributions are always the most effective way to support the open-source community and ensure that your donations make the greatest impact.
+### Support Projects Directly
+
+If you want to support a component or other part of the ecosystem, we strongly encourage you to donate **directly** to its creators or maintainers.
+
+Using a third party or proxy to handle donations even when it promises to pass them on can result in funds being misdirected, or the intended project receiving less than expected or none of your contribution.
+
+To help ensure your support reaches the right people:
+
+- Donate through the project's official website or donation channels.
+- Support the individual creators or maintainers you want to help.
+- Avoid third-party services that collect or redirect donations on behalf of other projects unless they are officially endorsed by that project.
+
+No project should control or redirect another project's funding without its explicit involvement. Direct contributions are the clearest and most effective way to support the open-source community and ensure your contribution has the intended impact.
+
 
 ---
 

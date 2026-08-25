@@ -285,7 +285,7 @@ The distinction between **Ports** and **Games** is primarily based on how the so
 
 - A **Game**, by contrast, is a **standalone, unique title** that can be launched and played as its own complete experience.
 
-**The key question is: Does it require the original game's files to run?**
+**The key question is: Does it ship with all the game's files it needs to run?**
 
 If the project provides the software required to run an existing game but requires the original game files, it should generally be classified as a **Port**. If it is a self-contained, unique title that ships all it needs, it should generally be classified as a **Game**.
 

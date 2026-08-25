@@ -206,7 +206,7 @@ It defines **rules** that tell ES-DE where to look for:
 
 ---
 
-## `es_systems.xml`
+## es_systems.xml
 
 [`es_systems.xml` Documentation](https://gitlab.com/es-de/emulationstation-de/-/blob/master/INSTALL-DEV.md#es_systemsxml)
 

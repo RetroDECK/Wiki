@@ -291,7 +291,7 @@ Each game system entry in the file defines:
 
 ---
 
-## Platform to Scraper Mapping  
+## `<platform>` to Scraper Mapping  
 
 ### Overview
 

@@ -1,30 +1,61 @@
-﻿# Development Glossary 
+﻿# Development Glossary
 
-Here we are listing all the development lingo and features of the RetroDECK Project.
+This glossary documents the development terminology, concepts, tools and features used throughout the **RetroDECK Project**.
 
-*"RetroDECK uses a lot of words from Cooking / Foods / Alchemy in combination with Technology Jargon / Technobabble."*
+*RetroDECK uses a lot of terminology inspired by cooking, food and alchemy, combined with technology jargon and technobabble.*
 
 ---
 
-## Github Repositories
+## GitHub Repositories
 
 <img src="../../../wiki_icons/pixelitos/github.png" width="50" alt="">
 
-**Main / Main Releases**
+### Main / Main Releases
 
-Stable, feature-frozen builds (pre-releases). Full releases are on Flathub.
+Stable, feature-frozen **pre-release** and **release candidate** builds. 
 
-**Cooker / Cooker Releases**
+`main`
 
-Unstable, cutting-edge branch for testers and developers.
+### Cooker / Cooker Releases
 
-**Feature Branches**
+Unstable, cutting-edge builds intended for **Community Testers**, developers and other testers.
 
-New features are developed here before merging into Cooker.
+`cooker`
 
-**Component Branch**
+Cooker is also used to develop and publish **minor versions** of the current Main release.
 
-Holds shared component artifacts used throughout the project.
+### Version Branches
+
+Unstable, cutting-edge builds intended for **Community Testers**, developers and other testers.
+
+Version branches are used for the development of **major upcoming RetroDECK releases** before they are merged into Cooker as the final development phase.
+
+`<version>`
+
+These branches provide a dedicated development target for an upcoming major release. They can contain feature and component branches specific to that release.
+
+### Feature Branches
+
+Unstable, cutting-edge builds intended for developers.
+
+
+A **Feature Branch** is a subdivision of the **Cooker** branch or an upcoming **Version Branch**. It is used to develop and test new features before they are merged back into the corresponding branch.
+
+**Branch format:**
+
+`feat/<name>`
+
+### Component Branch
+
+Unstable, cutting-edge builds intended for developers.
+
+A **Component Branch** is a subdivision of the **Cooker** branch or an upcoming **Version Branch**. It is used to develop and test new components before they are merged back into the corresponding branch.
+
+**Branch format:**
+
+`component/<name>`
+
+
 
 ### Selected Repositories
 
@@ -43,29 +74,37 @@ Holds shared component artifacts used throughout the project.
 
 ---
 
-## RetroDECK Development to Publication Process 
+## RetroDECK Development to Publication Process
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-games.png" width="50" alt="">
 
-How the publication process works:
+The RetroDECK development and publication process moves through several stages, from initial development and testing to the final **Flathub Stable** release.
 
-1. **Feature Branches (GitHub)** / **Component Branch (GitHub)** - Initial local testing of a specific feature branch or testing a specific new component.
-2. **Cooker (GitHub)** -  Merged and publication of the cooker build. Testing starts with the help of Community Testers and the rest of the RetroDECK Team. When the cooker is stable (mostly bug free 🙏) and feature complete for the scope of the release it moves on to main.
-3. **Main (GitHub)** - The main release is a ***pre-release**. After everything looks good a RetroDECK Team member will trigger the flathub publication process.
-4. **Flathub Testing** - RetroDECK will first do a testbuild on flathub, the testbuild can be downloaded for the final test to verify that everything was built correctly on flathub. If all goes well it will redo the build on stable and publish.
-5. **Flathub Stable** - RetroDECK is out!
+### Publication Process
 
-### When is RetroDECK considered Released?
+1. **Feature Branches / Component Branches (GitHub)** - New features and components are developed and tested independently. Initial testing is performed locally before changes are merged into Cooker.
 
-A version of RetroDECK is only considered released when it is published on [Flathub](https://flathub.org/apps/net.retrodeck.retrodeck).
+2. **Cooker (GitHub)** - Changes are merged into the Cooker branch and published as Cooker builds. Testing is performed by **Community Testers** and the **RetroDECK Team**. Once the Cooker build is sufficiently stable, mostly bug-free (hopefully) and feature-complete for the planned release scope, it can move to Main.
 
-**Communication:**
+3. **Main (GitHub)** - Main represents the **pre-release** and **release candidate** version of RetroDECK. After final checks have passed, a RetroDECK Team member triggers the Flathub publication process.
 
-If a user asks:
+4. **Flathub Testing** - RetroDECK is first built and published to the Flathub testing channel. The test build is downloaded and tested to verify that the Flathub build and packaging process completed correctly. A RetroDECK Team member calls for final testing to ensure that nothing went wrong during the Flathub build process. If everything passes, the build is rebuilt and submitted to Flathub Stable via a merge.
 
-*Is a new version of RetroDECK out?*
+5. **Flathub Stable** - The release is published on Flathub Stable. **A new version of RetroDECK is officially released!**
 
-You can only answer **YES** when it has been verified that it is out on Flathub. 
+### When Is RetroDECK Considered Released?
+
+A version of RetroDECK is **only considered released once it has been published on Flathub**.
+
+[RetroDECK on Flathub](https://flathub.org/apps/net.retrodeck.retrodeck)
+
+When communicating with users about a new version:
+
+**"Is a new version of RetroDECK out?"**
+
+The answer can only be **YES** once the release has been verified as available on **Flathub Stable**.
+
+A version existing on GitHub, Cooker, Main, or Flathub Testing does **not** mean that the version has been officially released.
 
 ---
 
@@ -73,16 +112,21 @@ You can only answer **YES** when it has been verified that it is out on Flathub.
 
 <img src="../../../wiki_icons/retrodeck/icon-framework.svg" width="50" alt="">
 
-The `RetroDECK Framework` is the entire back-end system of RetroDECK.  
-It includes everything that powers the platform, such as:
+The **RetroDECK Framework** is the collective name for the entire backend system that powers RetroDECK.
 
-- Build system
-- Functions
-- Code
-- Scripts
-- And more...
+It contains the underlying functions, code, scripts and supporting systems that make RetroDECK operate.
 
-In short, it's the engine that makes RetroDECK run.
+The RetroDECK Framework includes, but is not limited to:
+
+- **Functions**
+- **Code**
+- **Scripts**
+- **APIs**
+- **Tools**
+- **Component management**
+- **Configuration and system management**
+
+In short, the **RetroDECK Framework is the engine behind RetroDECK**. It provides the backend functionality that powers the application, its components and its user-facing tools.
 
 ---
 
@@ -90,12 +134,15 @@ In short, it's the engine that makes RetroDECK run.
 
 <img src="../../../wiki_icons/retrodeck/icon-api.svg" width="50" alt="">
 
-The `RetroDECK API` allows external applications to interact with the `RetroDECK Framework`, enabling them to operate like the RetroDECK Configurator.
+The **RetroDECK API** allows external applications and internal components to interact with the **RetroDECK Framework**, providing access to framework functionality without requiring the RetroDECK Configurator itself.
 
-Currently, the API is only accessible through:
+This allows compatible applications to perform operations through the same underlying framework functions used by the Configurator.
 
-- **Named pipes**.
-- **Internal calls** within the `RetroDECK Framework`.
+The RetroDECK API is currently accessible through:
+
+- **Named Pipes** - Allows external applications to communicate with the RetroDECK Framework.
+- **Internal Calls** - Allows components and functions within the RetroDECK Framework to communicate directly with each other.
+
 
 ---
 
@@ -103,10 +150,12 @@ Currently, the API is only accessible through:
 
 <img src="../../../wiki_icons/retrodeck/icon-engine.svg" width="50" alt="">
 
-`RetroENGINE` lets you launch games directly from your desktop using RetroDECK - no need to open the full application.
+**RetroENGINE** allows users to launch games directly from the desktop through RetroDECK without opening the full RetroDECK application.
 
-- Supports file associations for common game file types.
-- Allows launching games via the command line (CLI).
+It translates RetroDECK's internal game launch commands into **OS-level file integrations** for supported files in the ROM directory.
+
+- **File Associations** - Registers supported game file types with the operating system, allowing games to be launched directly from the desktop or file manager.
+- **Command-Line Interface (CLI)** - Allows games to be launched through the command line using RetroDECK's launch system.
 
 
 ---
@@ -115,20 +164,27 @@ Currently, the API is only accessible through:
 
 <img src="../../../wiki_icons/retrodeck/icon-configurator.svg" width="50" alt="">
 
-The `RetroDECK Configurator` is a unique, multi-purpose utility built into RetroDECK.
+The **RetroDECK Configurator** is a multi-purpose toolbox built into RetroDECK.
 
-- Manages many aspects of the RetroDECK application
-- Gives users access to features and functions from the `RetroDECK Framework`
+It provides users with a central interface for managing RetroDECK and accessing features and functions provided by the backend **RetroDECK Framework**.
 
-It acts as the main interface between the user and the powerful tools behind the scenes.
+The Configurator acts as the main interface between the user and many of the tools and services operating behind the scenes.
 
-### RetroDECK Tool 
+Its responsibilities include:
 
-A `RetroDECK Tool` is the name given to a function (or group of functions) that is exposed to the end-user through the `RetroDECK Configurator`.
+- Managing various aspects of the RetroDECK application.
+- Providing access to tools and functions from the RetroDECK Framework.
+- Presenting complex backend functionality through a user-friendly interface.
 
-**Example:** 
+### RetroDECK Tool
 
-- `BIOS Checker Tool` - While it consists of many back-end functions, users simply know it as the `BIOS Checker Tool` in the Configurator.
+A **RetroDECK Tool** is the user-facing name given to a function, or group of related functions, that is exposed to the end user through the **RetroDECK Configurator**.
+
+This abstraction allows complex backend operations to be presented as simple, user-facing **Tools**.
+
+**Example:**
+
+- **BIOS Checker** - A tool that reads the `component_manifest.json` of each component to identify required BIOS, game data and firmware files, then uses multiple backend functions to check their availability and provide the results to the user.
 
 
 ---
@@ -137,30 +193,59 @@ A `RetroDECK Tool` is the name given to a function (or group of functions) that 
 
 <img src="../../../wiki_icons/retrodeck/icon-assembler.svg" width="50" alt="">
 
-The `RetroDECK Assembler` is the total sum of the building engine part of the `RetroDECK Framework`.
+The **RetroDECK Assembler** is the overall RetroDECK build and release system, consisting of the build engine and its various GitHub runners.
 
-- It builds RetroDECK into a flatpak.
-- Packages them into official RetroDECK releases in various repositories.
-- Publishes the final builds for distribution on Flathub Stable channels.
+Its responsibilities include:
 
-### RetroDECK Alchemist
-
-The `RetroDECK Alchemist` is the part of the `RetroDECK Assembler` that handles everything to do with component sourcing and building.
-
+- Building RetroDECK into a Flatpak.
+- Packaging RetroDECK releases for distribution through various repositories.
+- Publishing final builds to the **Flathub Stable** channel.
+- Sourcing pre-built component artifacts from **RetroDECK Alchemist**.
 
 ---
 
-## Library Gather & Library Hunter
+## RetroDECK Alchemist
+
+
+<img src="../../../wiki_icons/retrodeck/icon-alchemist.svg" width="50" alt="">
+
+The **RetroDECK Alchemist** toolkit is the component sourcing and building system within the **RetroDECK Assembler**.
+
+Its job is to read each `component_recipe.json`, source the component according to the parameters defined in the recipe, and build it into a compressed **component artifact archive**. The resulting artifact is then picked up by the RetroDECK Assembler and integrated into the RetroDECK build.
+
+The Alchemist uses `version_policy.sh` to determine which version of each component should be sourced.
+
+**Version Selection**
+
+For **Cooker** releases, the Alchemist uses the latest available component versions until the lockdown period for a mainline release begins.
+
+Once the lockdown period starts, component versions are **pinned to specific versions**. These fixed versions define exactly which component builds are included in the upcoming RetroDECK release.
+
+This ensures that mainline releases use reproducible and explicitly defined component versions, while Cooker releases can continue tracking newer upstream versions.
+
+---
+
+## RetroDECK Library Hunter
 
 <img src="../../../wiki_icons/retrodeck/icon-hunter.svg" width="50" alt="">
 
-The library managers or `Library Gatherer & Library Hunter` are the part of the `RetroDECK Framework`. 
+The **Library Hunter** (`hunt_libraries.sh`) is a part of the **RetroDECK Framework**.
 
-Their purpose is to reduce library dependency conflicts between components when libraries could be shared.
+The Library Hunter helps reduce library dependency conflicts between components by identifying libraries that can potentially be shared or provided by the component itself.
 
-`The Gatherer` tries to gather all required extra libraries used by an component and output them into a structured json ingredient file called: `component_libs.json`
+The Hunter scans a component for its required additional libraries and compares them against the available **Flatpak runtimes**. It then outputs the required library information as a structured JSON Ingredient File:
 
-`The Hunter` then reads the `component_libs.json` and tries to "hunt" the location of the libraries and connect them.
+`component_libs.json`
+
+The resulting file can be referenced by the `libs` section of a `component_recipe.json`, allowing the component build process to include only the libraries that are actually required.
+
+**Limitations**
+
+The Library Hunter is a **helper tool, not a complete dependency resolver**. It can provide useful clues about which libraries a component requires, but it is not guaranteed to detect every dependency.
+
+Some libraries may be missed, incorrectly identified, or require additional manual configuration. The generated `component_libs.json` should therefore be tested.
+
+
 
 ---
 
@@ -180,24 +265,28 @@ RetroDECK is made by assembling various components.
 
 ### What are Components?
 
-A component is a complete packaged subsandboxed executable we group into the following categories:
+A **component** is a complete, packaged and sandboxed seperate piece of software or feature that RetroDECK manages as an independent unit in a subsandbox.
 
-- Client
-- Emulator
-- Frontend
-- Multi-Emulator
-- Engine
-- Port (Ports are only targeting one game they split into subcategories like Port:Game, Port:Engine)
-- Utility
-- RetroDECK's: Feature & Functions
+Components are grouped into the following categories:
 
-They are built via a `component_recipe.sh` (the **Recipe**) that pulls and compiles the original source.
+- **Client**
+- **Emulator**
+- **Engine**
+- **Frontend**
+- **Game**
+- **Multi-Emulator**
+- **Port**
+- **Utility**
+- **RetroDECK Features & Functions**
 
-A component includes **Component Ingredient Files** that tell RetroDECK how to use it.
 
-A component is stored in it's own isolated file structure under `/app/retrodeck/components/<component-name>/`.
+Components are built using a `component_recipe.sh` (the **Recipe**), which downloads, splits, configures and compiles the original upstream sources when required.
 
-The sum of all components **Recipe** + **Ingredient Files** is just referred as `Component Files`.
+Each component also includes **Component Ingredient Files** that define how RetroDECK installs, configures, launches, and integrates the component.
+
+Components are stored in their own isolated directory: `/app/retrodeck/components/<component-name>/`.
+
+The combination of the **Recipe** and **Component Ingredient Files** is collectively referred to as the **Component Files**.
 
 
 **Read more here about how we classify components:**
@@ -210,35 +299,42 @@ RetroDECK itself with it's various tools and features is also an component.
 
 ---
 
-## Component Recipe File (a.k.a. "Recipe")
+## The Component Files
 
-**Purpose** 
 
-Directs RetroDECK's build automation on how to transform a component's original source-whether an AppImage, Flatpak, pre-compiled binary, or source code-into a fully packaged RetroDECK component.
-
----
-
-## Component Ingredient Files (a.k.a. "Ingredients")
+### Component Recipe File (a.k.a. "Recipe")
 
 **Purpose**
 
-Provide the RetroDECK framework with all the metadata, scripts and library info a component needs to be displayed, configured and launched correctly.
+The **Component Recipe** directs RetroDECK's build automation on how to transform a component's original source—whether an AppImage, Flatpak, pre-compiled binary, or source code—into a fully packaged RetroDECK component.
+
+The Recipe is processed by **RetroDECK Alchemist**, which builds and packages the component into a compressed **component artifact archive**. These artifacts are then integrated into RetroDECK builds by the **RetroDECK Assembler**.
+
+---
+
+### Component Ingredient Files (a.k.a. "Ingredients")
+
+**Purpose**
+
+**Component Ingredient Files** provide the RetroDECK framework with the metadata, scripts, and configuration information required for a component to be installed, configured, displayed, and launched correctly.
 
 **Key Contents**
 
-- **Component Metadata**- Metadata such as name, description, menu text, links and more for UI menus.  
-- **Preset actions** - steps to run when a user changes a preset.  
-- **Launch instructions** - how RetroDECK should start the component.
-- **Component Config-file settnings** - Filepaths, config options.  
-- **Install / Upgrade instructions** - how RetroDECK should install or upgrade the component and what directories / files / symlinks to create.
+- **Component Metadata** - Name, description, menu text, links, and other information used by RetroDECK.
+- **Preset Actions** - Actions and steps performed when a user changes a preset.
+- **ES-DE Rules / Launch Commands** - Defines how ES-DE launches and finds the component.
+- **Launch Instructions** - Defines how RetroDECK starts the component.
+- **Component Configuration Settings** - Configuration file paths, options, and other component-specific settings.
+- **Install / Upgrade Instructions** - Defines how RetroDECK installs or upgrades the component, including directories, files, and symlinks that need to be created or maintained.
 
-### What are the Component Ingredient Files?
+**What Are the Component Ingredient Files?**
 
-| Ingredient File                     | Role |
-|--------------------------|------------------------------------------------------------|
-| **component_launcher.sh** | Sets up the environment and launches the component in its sandbox. |
-| **component_functions.sh** | Declares config-file paths and component-specific helper functions (e.g., firmware install, configurator actions).  Handles one-time setup: reset configs, prepare directories, move/backup data, upgrading tasks between RetroDECK versions and apply post-move tweaks.|
-| **component_manifest.json** | Stores metadata and functional data for RetroDECK: name, description, supported systems, menu entries, preset options, actions and optional core info. |
+| Ingredient File | Role |
+| :--- | :--- |
+| **`component_functions.sh`** | Declares configuration file paths and component-specific helper functions, such as firmware installation and configurator actions. It also handles one-time setup tasks, including resetting configurations, preparing directories, moving or backing up data, performing upgrade tasks between RetroDECK versions, and applying post-move adjustments. |
+| **`component_launcher.sh`** | Sets up the required environment and launches the component within its sandbox. |
+| **`component_manifest.json`** | Stores metadata and functional data for RetroDECK, including the component name, description, supported systems, menu entries, preset options, ES-DE launch commands, actions, preset compatibility, and optional core information. |
+
 
 ---
 

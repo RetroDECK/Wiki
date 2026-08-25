@@ -4,7 +4,7 @@
 
 This experiment was initiated by the users **murkl** and **Daeymon**. Then later expanded upon by the RetroDECK Team. The goal was to explore the possibility of launching external desktop games and apps within RetroDECK.
 
-**Note:** RetroDECK was never intended to be used in this manner, so things like inputs may work as expected.
+**Note:** RetroDECK was never intended to be used in this manner, so things like inputs may not work as expected.
 
 ### Disclaimer on Experiments 
 

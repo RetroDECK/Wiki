@@ -67,7 +67,7 @@ The ES-DE Team is resposible for new features added into ES-DE, but the RetroDEC
 
 ---
 
-## How RetroDECK Injects ES-DE XML Files via `component_manifest.json`
+## RetroDECK: Injecting ES-DE XML Files via component_manifest.json
 
 RetroDECK uses the `es_de_config` section of `component_manifest.json` to provide ES-DE with system definitions and emulator detection rules.
 
@@ -84,7 +84,6 @@ Tells ES-DE how to detect and locate the Cemu emulator.
 Defines the **Emulator** (ES-DE terms), supported extension formats, launch command, platform and theme.
 
 One difference between the RetroDECK configuration and ES-DE's native XML configuration is how file extensions are handled. The `extension` attribute only needs to contain **lowercase extensions**: RetroDECK automatically generates both lowercase and uppercase variants when passing the configuration to ES-DE.
-
 
 **Example Cemu's `component_manifest.json`**
 
@@ -126,9 +125,18 @@ One difference between the RetroDECK configuration and ES-DE's native XML config
 }
 ```
 
+### `retrodeck_manifest_cache.json`
+
+The cache contains the processed manifest data used by RetroDECK during boot. All configuration injected during the RetroDECK boot process—including ES-DE rules, systems and their associated arguments—is also stored in `retrodeck_manifest_cache.json`.
+
+The cache is located at:
+
+`~/.var/app/net.retrodeck.retrodeck/cache/retrodeck/retrodeck_manifest_cache.json`
+
+
 ---
 
-## E es_find_rules.xml
+## es_find_rules.xml
 
 The `es_find_rules.xml` file is used by ES-DE (EmulationStation Desktop Edition) to help it **find emulators** on your system.
 

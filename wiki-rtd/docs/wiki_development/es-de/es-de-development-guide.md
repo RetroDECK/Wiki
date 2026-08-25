@@ -293,7 +293,7 @@ Each game system entry in the file defines:
 
 ## `<platform>` to Scraper Mapping  
 
-### Overview
+**Overview**
 
 ES-DE uses the `<platform>` value in each system definition to determine which platform identifiers are supplied to its scrapers.
 
@@ -483,6 +483,30 @@ The **comma-separated values** are ES-DE platform identifiers.
 | Z-machine | `zmachine` | 215 | — |
 | ZX Spectrum | `zxspectrum` | 76 | 4913 |
 | ZX81 | `zx81` | 77 | 5010 |
+
+---
+
+### When the Platform Is Not Known
+
+When adding a new component to RetroDECK that is not yet recognized by **ScreenScraper** or **TheGamesDB**, there may be no dedicated platform identifier available.
+
+In these cases, use a broader, compatible platform in `component_manifest.json`.
+
+**For example:**
+
+- `pc`
+- `pcwindows`
+- `arcade`
+
+Using a broader platform increases the chance that games will already have metadata available from ScreenScraper or TheGamesDB, or that metadata can be added to an existing platform in the future. 
+
+This allows RetroDECK to make use of existing metadata platforms while still supporting components that do not have their own dedicated platform identifier.
+
+**Examples of components that do not have a dedicated ES-DE platform:**
+
+- **Quake 3** — `"platform": "pc, pcwindows"`
+- **Doom 3** — `"platform": "pc, pcwindows"`
+- **Mudlet** — `"platform": "pc, pcwindows, dos, zmachine, c64, amiga"` - Mudlet can use a broader platform scope because the games supported by it can ran across multiple modern and retro computer platforms.
 
 ---
 

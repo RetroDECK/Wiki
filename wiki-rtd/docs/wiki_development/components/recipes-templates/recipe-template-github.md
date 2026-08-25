@@ -13,35 +13,44 @@
           "type": "dir",
           "source": "usr/bin",
           "dest": "bin"
-        }
-      ],
-      "libs": [
-        {
-          "library": "runtimeLib.so.6",
-          "runtime_name": "org.kde.Platform",
-          "runtime_version": "6.9",
-          "dest": "shared-libs"
         },
         {
-          "library": "specificComponentLib.so.6",
-          "source": "usr/lib",
-          "dest": "lib"
-        }
-      ],
-      "extras": [
-        {
           "type": "dir",
-          "source": "$PWD",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/rd_assets/rd_config",
+          "dest": "rd_config"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_functions.sh",
           "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
-          "type": "symlink",
-          "source": "/var/config/copmponent",
-          "dest": "$COMPONENT_ARTIFACT_ROOT/portable"
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_launcher.sh",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
-          "type": "create",
-          "dest": "$COMPONENT_ARTIFACT_ROOT/portable.txt"
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_manifest.json",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        },
+        {
+          "type": "file",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/component_recipe.json",
+          "dest": "$COMPONENT_ARTIFACT_ROOT"
+        }
+      ],
+      "libs": []
+    },
+    {
+      "source_url": "https://github.com/otherasset",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "archive",
+          "source": "xyz/assets",
+          "dest": "rd_extras/"
         }
       ]
     }

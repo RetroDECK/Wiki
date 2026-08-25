@@ -22,7 +22,7 @@ Your system will be cluttered and you will be bound by each emulator's defaults,
 
 **There is no good reason to launch external emulators via RetroDECK**
 
-Instead, you can install ES-DE directly from their website and set up the emulators as usual. 
+Instead, you can install ES-DE directly from their website and set up the emulators as you normally would. 
 
 ### Disclaimer on Experiments 
 

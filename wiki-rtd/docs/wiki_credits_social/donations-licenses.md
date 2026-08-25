@@ -16,9 +16,6 @@ The RetroDECK Team aims to keep our donation needs to a minimum. If we receive d
 
 **We encourage you to support those projects first.** 
 
-They are the ones doing the foundational work that makes RetroDECK and the games and experiences it provides possible. We are grateful for any support given to RetroDECK, but supporting the projects and people behind the ecosystem should always be the priority.
-
-
 ### Support Projects Directly
 
 If you want to support a component or other part of the ecosystem, we strongly encourage you to donate **directly** to its creators or maintainers.

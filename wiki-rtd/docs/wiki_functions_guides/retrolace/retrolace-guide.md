@@ -36,7 +36,7 @@ By selecting **Enable RetroLACE** in **RetroDECK Configurator → Settings → R
 
 By enabling RetroLACE, you acknowledge and agree that:
 
-- You understand that enabling RetroLACE and installing **unsupported components** will cause your RetroDECK installation to be considered **Modified** and may affect your ability to receive RetroDECK support for issues related to, or potentially caused by, the modified installation.
+- You understand that enabling RetroLACE and installing **unsupported components** will cause your RetroDECK installation to be considered **Modified** and will affect your ability to receive RetroDECK support for issues related to, or potentially caused by, the modified installation.
 - You understand that **unsupported components** are not officially supported, reviewed, or maintained by the RetroDECK Team.
 - You acknowledge that the RetroDECK Team is **not responsible or liable for problems, errors, data loss, system damage, security issues, or other consequences** resulting from unsupported components.
 - You accept full responsibility for any unsupported components you choose to download, install, configure, or use.

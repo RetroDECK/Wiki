@@ -1,177 +1,191 @@
-# The RetroDECK Alchemist - Guide
+# The RetroDECK Alchemist - A component_recipe.sh and artifact making  guide
 
-The `alchemist.sh` it is a Plugin‑Based Component Assembler.
+`alchemist.sh` reads the `component_recipe` definitions and uses them to build **component artifacts**.
 
-*Alchemy* - *noun* - "A power or process that changes or transforms something in a mysterious or impressive way."
+These artifacts are compressed archives containing the files, binaries and resources required by each RetroDECK component.
+
+The generated artifacts are then consumed by the **RetroDECK Assembler**, which integrates the components into RetroDECK during the release process.
 
 ### HEREBY BE WARNED!
 
-The RetroDECK Alchemist is a magician / chef / bartender
+*Alchemy* - *noun* - "A power or process that changes or transforms something in a mysterious or impressive way."
 
-Who, when given the proper instruction, can transmute one or more base source ingredients into the perfect creation of a component artifact.
+The **RetroDECK Alchemist** is a magician, chef and bartender.
 
-Alchemy and cooking are, by definition, delicate.
+Given the proper recipe, it can transmute one or more **sourced ingredients** into the perfect **component artifact**.
 
-- The ingredients must be known and pure.  
-- The recipe must be exact.  
-- Any deviation from this process can be **disastrous**.
+Alchemy and cooking are, by definition, delicate processes.
 
-To achieve a perfect artifact, the ingredients must be well known.  
-Only by pulling ingredients **when they are just right** can we guarantee consistency.
+- The ingredients must be **known and pure**.
+- The recipe must be **precise and deterministic**.
+- Any deviation from the process can be **disastrous**.
 
-To always chase the freshest ingredients all the time is a fool’s errand and would produce unreliable artifacts.
+To produce a consistent artifact, every ingredient must be well understood. 
 
-(Be careful with versioning of components for stable builds and lock them down.)
+Ingredients should be pulled from the shelf **when they are known to be correct and the time is right**. Always chasing the freshest experimental ingredients is a fool’s errand and can lead to unreliable, non-reproducible artifacts.
 
 ---
 
-### Repository Context
+### In Other Words
 
-- The `alchemist.sh` script is invoked from the `…/components` directory of the cloned repository:  
-  <https://github.com/RetroDECK/components.git>
-- The script’s location is flexible, but **the calling directory matters**:
-  - If run inside a Git repo, `$REPO_ROOT` points to the repo’s root.
-  - Otherwise, `$REPO_ROOT` defaults to the directory containing `alchemist.sh`.
+- **Keep recipes correct:** Ensure every recipe is accurate, reproducible, and well maintained.
+- **Pin stable versions:** Carefully manage component versions and lock dependencies to known-good versions.
+- **Prefer proven releases:** Do not automatically chase nightly, latest, or experimental source releases. These can introduce instability and produce unreliable systems that may break the user environment.
+- **Use bleeding-edge sources only when necessary:** Use nightly or unstable sources only when no stable alternative exists, such as components that are exclusively distributed as daily or otherwise unstable builds.
+- **Check major releases before upgrading:** When a component publishes a new major stable version, check its official channels and social media for known issues or planned hotfixes.
+- **Wait for hotfixes when appropriate:** If a major release has a hotfix planned shortly after release, wait for the hotfix before promoting the new version to a stable RetroDECK release.
+- **Prioritize reliability:** Stable RetroDECK releases should favor known-good, tested component versions over being immediately up to date.
+
+---
+
+## Repository Context
+
+- `alchemist.sh` is invoked from the `components` directory of the cloned [RetroDECK components repository](https://github.com/RetroDECK/components).
+- The script location is flexible, but the **calling directory matters**:
+- When run inside a Git repository, `$REPO_ROOT` points to the repository root.
+- Otherwise, `$REPO_ROOT` defaults to the directory containing `alchemist.sh`.
 
 ---
   
-
 ## Running Locally
 
-Follow the steps below to build a component artifact locally using **Alchemist**.
+Follow these steps to build and test a component artifact locally with **Alchemist**.
 
 ### 1. Download Alchemist
 
-Clone or download the Alchemist automation tools directory from the RetroDECK repository: [Cooker: Alchemist](https://github.com/RetroDECK/components/tree/cooker/automation-tools/alchemist)
+Clone or download the Alchemist automation tools from:
 
-### 2. Prepare Your Component Directory
+[RetroDECK Components - Alchemist](https://github.com/RetroDECK/components/tree/cooker/automation-tools/alchemist)
 
-Place the component directory (containing the recipe and ingredient files) inside the `alchemist` directory using the following structure:
+### 2. Prepare the Component
 
-`alchemist/<new-component-directory>/<files>`
+Place the component directory inside the `alchemist` directory:
 
-Your component directory must include a `component_recipe.json` and the other ingredient files.
+`./alchemist.sh -f <component-directory>/component_recipe.json`
+
+```
+alchemist/
+└── <component_directory>/
+    ├── component_recipe.json
+    └── <ingredient-files>
+```
+
+The component directory must contain a `component_recipe.json` and all required ingredient files.
 
 ### 3. Build the Artifact
 
-From within the `alchemist` directory, run:
+From the `alchemist` directory, run:
 
-`./alchemist.sh -f <component-directory>/component_recipe.json`
+```
+./alchemist.sh -f <component_directory>/component_recipe.json
+```
 
 ### 4. Output
 
 After a successful build, the generated artifact will be available at:
 
-`<component-directory>/artifact/<component-artifact>.tar.gz`
+`<component_directory>/artifact/<component_artifact>.tar.gz`
 
 
 ### 5. Extract the Artifact
 
-Extract the generated artifact: `<component-artifact>.tar.gz`
+Extract the generated `.tar.gz` archive:
 
-This will create a new component directory.
+`<component_artifact>.tar.gz`
 
+This will produce the component directory contained within the artifact.
 
 ### 6. Install the Component
 
-Move the extracted component directory into RetroDECK’s internal `components` directory.
+Move the extracted component directory into RetroDECK's internal `components` directory.
 
-**Note:**  
+The installation path depends on the RetroDECK installation type:
 
-The installation path depends on whether RetroDECK is installed locally (user) or system-wide.  
-A system-wide installation requires `sudo` privileges to modify files.
-
-| **Directory Name** | **Path (Local Install)** | **Path (System Install)** | **Comment** |
-|--------------------|--------------------------|---------------------------|-------------|
-| `components` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/` | RetroDECK components directory |
+| Installation | Components Directory | Privileges |
+|---|---|---|
+| **Local / User** | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/` | User access |
+| **System-wide** | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/` | Requires `sudo` |
 
 ### 7. Launch RetroDECK
 
-Start RetroDECK after installation. If everything is configured correctly, RetroDECK will automatically detect and load the newly installed component.
+Start RetroDECK after installing the component.
 
-If the component does not appear in the frontend, you may need to update the ES-DE custom configuration files to register the new component.
-
-**Configuration files:**
-
-`retrodeck/ES-DE/custom_systems/es_find_rules.xml`
-`retrodeck/ES-DE/custom_systems/es_systems.xml`
-
-Add the appropriate entries to ensure the new component is properly defined and discoverable within ES-DE.
+If the component is component files are configured correctly, RetroDECK should detect and load it automatically.
 
 ---
 
-## Creating a new componment_recipe.json tips
+## Creating a New `component_recipe.json` - Alchemical Tips
+
+These are the **Alchemist's pro tips** for creating reliable, reproducible and maintainable component recipes.
+
+### Key Principles
+
+- **Pin to a Release** - Ingredients should be retrieved from a fixed, known-good release whenever possible. This preserves build quality and prevents unexpected upstream changes from affecting artifacts.
+- **Use Stable Version References** - The `desired_versions.sh` file maintains the versions designated as stable. Recipes can reference these versions as placeholders, reducing the need to modify individual recipes whenever a new stable version is adopted.
+- **Prefer Reproducibility** - A recipe should produce the same artifact from the same pinned inputs. Avoid unpinned URLs, moving targets, and automatically tracking upstream `latest` or nightly releases unless there is no stable alternative.
+
+### Component Source Format - What to Prioritize?
+
+When multiple source formats are available, prioritize them in the following order. This generally provides the easiest and most reliable integration with RetroDECK:
+
+| Priority | Format | Description |
+|---:|---|---|
+| 1 | **Flatpak** | Sandboxed Linux application package, commonly distributed through Flathub. |
+| 2 | **AppImage** | Portable, self-contained application that runs without traditional installation. |
+| 3 | **Precompiled Binary** | Ready-to-run executable built for a specific platform or architecture. |
+| 4 | **Build from Source** | Raw source code that must be compiled before it can be used. |
 
 ---
 
-### Tip 1: Component Source Format: What to Prioritize?
+### Templates and Examples of `component_recipe.json`
 
-When multiple source formats are available for a component, prioritize them in the following order for ease of integration with RetroDECK:
+The wiki pages linked alongside this guide contain templates and example `component_recipe.json` files. Use these as a baseline when creating a new recipe.
 
-| Priority | Format              | Description                                                                 |
-|----------|---------------------|-----------------------------------------------------------------------------|
-| 1        | Flatpak             | A sandboxed package format commonly used on Linux for app distribution , published on flathub     |
-| 2       | AppImage            | A portable, self-contained executable that runs without installation        |
-| 3        | Precompiled Binary  | A ready-to-run executable built for a specific platform                     |
-| 4        | Build from Source   | Raw source code that must be compiled manually before use                   |
+For the most up-to-date recipes, also review the **cooker** or a future **version** branch of the RetroDECK Components repository:
 
----
-
-### Tip 2: Templates and Examples of `component_recipe.json`
-
-On the wiki (linked next to this guide), you’ll find templates and example `component_recipe.json` files.  
-Use these as a baseline when creating a new recipe. More examples will be added over time.
-
-You should also check the cooker components repository for the most up-to-date recipes to use as inspiration:
-
-[RetroDECK Components Repository (cooker branch)](https://github.com/RetroDECK/components/tree/cooker)
-
-
+[RetroDECK Components Repository - cooker](https://github.com/RetroDECK/components/tree/cooker)
 
 ---
 
 ## Structure of component_recipe.json
 
-All `component_recipe.json` contain at least four parts:
+Every `component_recipe.json` contains at least the following core elements:
 
-**Name**  
+### name
 
-   - The root key of the `component_recipe.json` file, indicating the component’s name.  
-   - The artifact name and some source paths (e.g., the directory name in the components repo) are derived from this name, so it should be consistent across the component.
+- The root key of the `component_recipe.json` that identifies the component.
+- The artifact name and some source paths, such as the component directory name in the repository, are derived from this value.
+- Keep the name consistent across the recipe, component directory, and generated artifact.
 
-**Source**  
+### source
 
-   - Each component has a single source from which files are pulled to be stored in the final artifact.
+- Defines where the component files are obtained from.
+- Each component must have at least one source.
 
-**Asset**  
+### assets
 
-   - Every component source includes at least one asset-the file(s) pulled from the source ingredient.
+- Defines the files or resources to retrieve from a source.
+- Every source must contain at least one asset.
 
-**Extras**  
+### Optional: Additional Sources
 
-   - Minimum extras: component launcher, component manifest and shipped default config.  
-   - May also include prepared symlinks or other locally‑available files that do **not** come from downloaded sources.
+Use additional sources when a component requires multiple downloads to obtain all required files.
 
-### Optional Inclusions
+They may also be required when the primary source is a nested archive that needs multiple extraction stages.
 
-**Additional Sources**  
+### Optional: Additional Assets
 
-  - Used when a component requires more than one download to gather all needed files, or when the original source is a nested archive requiring multiple extraction passes.
+Each source can define its own set of assets.
 
-**Additional Assets**  
+Use additional assets to retrieve specific files or resources from their respective sources.
 
-  - Each source can have its own set of assets, directing the recipe to pull specific files from specific sources.
+### Optional: Libraries - libs
 
-**Libraries**  
+Most binary-based sources require additional libraries to function correctly within the base Flatpak environment.
 
-  - Most sources need extra libraries to function within the base Flatpak environment.  
-  - The `hunt_libraries.sh` script can bootstrap a list of requirements for every binary.
+The **RetroDECK: Library Hunter**, `hunt_libraries.sh`, can be used to identify the libraries required by a binary and generate them as a `.json` file.
 
-
-### Key Principles
-
-- **Pin to a Release** - All ingredients must be taken from a fixed release to preserve quality and avoid unpredictable changes.  
-- **Stable Versions List** - The `desired_versions.sh` file enumerates all "stable" source versions. These can be referenced in component recipes as placeholders, reducing the need for frequent edits when a new stable version appears.
+The generated `.json` file can then be copied into the `component_recipe.json` as part of the recipe's library configuration.
 
 ---
 
@@ -204,7 +218,7 @@ All `component_recipe.json` contain at least four parts:
         },
         {
           "type": "dir",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_config",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/rd_assets/rd_config",
           "dest": "rd_config"
         },
         {
@@ -226,11 +240,6 @@ All `component_recipe.json` contain at least four parts:
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_recipe.json",
           "dest": "$COMPONENT_ARTIFACT_ROOT"
-        },
-        {
-          "type": "file",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/component_prepare.sh",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
         }
       ],
       "libs": []
@@ -239,477 +248,652 @@ All `component_recipe.json` contain at least four parts:
 }
 
 
+
 ```
 
-## Component Recipes: Component Information & Key‑Value Reference
+## Component Recipes: Component Information & Key–Value Reference
 
-| Field               | Description |
-|---------------------|-------------|
-| **JSON root key**   | Defines the component name and creates the placeholder variable `$COMPONENT_NAME`. |
-| **source_url**      | `{SOURCE_URL}` - URL/path to download the source. Acceptable forms: direct HTTP(S) link, redirect, GitHub repo URL, flathub ID or local filesystem path. Can contain a `{VERSION}` placeholder that will be replaced by the value of the `version` key. Relative local paths expand to `$WORKDIR/`. |
-| **source_type**     | `{SOURCE_TYPE}` - Determines which downloader plugin to use <br>• - `flatpak-id` - Flathub ID  <br> - `github-release` - Github Releases <br> - `http` - Web download  |
-| **version**         | `{VERSION}` - Specific version to fetch. For non‑local sources, this replaces `{VERSION}` in `source_url`. For `local` sources, `latest` can be used if no version is required. Required for all types except `local`. Substituted for `{VERSION}` in `source_url`.<br>• `http` / `github-release` - Specific version string (or `latest` for GitHub) |
-| **extraction_type**| `{EXTRACTION_TYPE}` - Extraction plugin to apply to the downloaded file. Supported methods:<br>• `appimage` - Extract AppImage (`$EXTRACTED_PATH` = `<dest>/<AppImage‑name>-extracted`)<br>• `archive` - Extract any archive (`$EXTRACTED_PATH` = `<dest>/<archive‑name>-extracted`)<br>• `local` / `git` / `flatpak` - Dummy plugins returning `$DOWNLOADED_FILE` as `$EXTRACTED_PATH` |
-| **dest**| *(Optional)*  Absolute destination for download/extraction. Defaults to `$WORKDIR`. For `flatpak-id` it also selects install scope (`user` / `system`).|
-| **additional_sources**| *(Optional)* Array of extra source objects with the same structure, allowing multiple downloads to be processed similarly. |
+A `component_recipe.json` defines how **Alchemist** obtains component sources, extracts them, collects the required assets and libraries and assembles them into a compressed component artifact.
+
+### Recipe Structure
+
+A component recipe uses the component name as the JSON root key. The value is an array of source definitions.
+
+```
+{
+  "component_name": [
+    {
+      "source_url": "https://example.com/download/v{VERSION}/app.tar.gz",
+      "source_type": "http",
+      "version": "1.0.0",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "bin",
+          "dest": "bin"
+        }
+      ],
+      "libs": [
+        {
+          "library": "libQt6Core.so.6",
+          "runtime_name": "org.kde.Platform",
+          "runtime_version": "6.9",
+          "dest": "lib"
+        }
+      ]
+    }
+  ]
+}
+```
+
+A recipe can contain multiple source objects when a component requires files from multiple sources.
 
 ---
 
-### assets
+## Source Keys
 
-Items to copy from the extracted source into the final artifact.
+The source section defines **where a component is obtained** and **how Alchemist processes the source**.
+
+### Source Fields
 
 | Field | Description |
-|-------|-------------|
-| **type** | Defines the kind of asset operation.<br><br>`dir` - Pull an entire directory<br>`file` - Pull a single file<br>`symlink` - Create a symbolic link<br>`create` - Create a file<br>`archive` - Create an archive<br>`merge` - Merge files<br>`file-rename` - Rename files<br>`script` - Run a bash script |
-| **source** | Path to the desired or created file, script, or directory,<br>**relative to** `$EXTRACTED_PATH` (from the extraction stage).<br>Example: `usr/bin` |
-| **dest** | Destination **relative to** `$COMPONENT_ARTIFACT_ROOT` for `dir`, `file` and `create`.<br><br>For `symlink`, this is an absolute target path.<br>If a relative path is provided, it expands to:<br>`$COMPONENT_ARTIFACT_ROOT/<dest>`<br><br>For `archive`, specify the output archive type:<br>`7z`, `zip`, `tar.gz`, `tgz`, `tar.bz2`, `tbz2`, `tar.xz`, `txz`, `tar` |
-| **contents** | *(Optional)* Allows inserting provided content directly into the destination file.<br>For `script`, this can also define arguments such as `--verbose`. |
+|---|---|
+| **JSON root key** | Defines the component name and the `$COMPONENT_NAME` variable. The name is also used when creating component paths and artifacts. |
+| **source_url** | URL or path used to obtain the source. Depending on `source_type`, this may be an HTTP(S) URL, GitHub/GitLab/Codeberg release, Flathub ID, Git repository, Flatpak bundle, or local filesystem path. Supports the `{VERSION}` placeholder, which is replaced with the resolved version. |
+| **source_type** | Selects the downloader plugin used to obtain the source. See [Supported Source Types](#supported-source-types). |
+| **version** | Version or revision to retrieve. Depending on the source type, this may be a release version, Git tag, branch, commit, or another source-specific revision. The value can also replace `{VERSION}` in `source_url`. |
+| **extraction_type** | Selects the extraction plugin used to process the downloaded source. See [Extraction Types](#extraction-types). |
+| **dest** | Optional destination used during downloading or extraction. If omitted, Alchemist uses its working directory. |
+| **additional_sources** | Optional array of additional source definitions. Use this when a component requires multiple downloads or source packages. Each additional source follows the same source structure. |
 
+### Supported Source Types
 
----
+| Source Type | Purpose |
+|---|---|
+| `http` | Downloads a file from an HTTP(S) URL. |
+| `github-release` | Obtains a release asset from GitHub. |
+| `gitlab-release` | Obtains a release asset from GitLab. |
+| `codeberg-release` | Obtains a release asset from Codeberg. |
+| `flatpak-id` | Obtains a Flatpak application using its application ID. |
+| `flatpak-bundle` | Obtains a Flatpak bundle. |
+| `git` | Obtains source from a Git repository. |
+| `local` | Uses a local file or directory as the source. |
 
-### libs
+### Extraction Types
 
-This section lists additional library objects, each processed identically to the library entries described earlier.  
+| Extraction Type | Purpose |
+|---|---|
+| `archive` | Extracts a supported archive. |
+| `appimage` | Extracts an AppImage. |
+| `local` | Passes the downloaded or local source through without archive extraction. |
 
-For guidance on generating a starting array automatically, refer to the library hunter documentation. It explains how to use `hunt_libraries.sh` to bootstrap your `libs[]` array.
+After the extraction stage, Alchemist exposes the resulting source through:
 
+```
+$EXTRACTED_PATH
+```
+
+Asset source paths are normally resolved relative to `$EXTRACTED_PATH`.
+
+## Assets
+
+The `assets` array defines which files, directories, scripts, links, and other resources Alchemist processes and how they are placed into the final component artifact.
+
+### Asset Fields
 
 | Field | Description |
-|-------|-------------|
-| **library** | Name of the library to collect.<br>Libraries are resolved by stripping the filename to its base extension to capture dynamic symlinks.<br>Example: specifying `libQt6Widgets.so.6` gathers all matching files like `libQt6Widgets.so*` from the source. |
-| **runtime_name** | *(Optional)* Name of the Flatpak runtime from which to obtain the library.<br>Requires `runtime_version`. |
-| **runtime_version** | *(Optional)* Specific Flatpak runtime version to target.<br>Requires `runtime_name`. |
-| **dest** | Directory where the library should be placed,<br>**relative to** `$COMPONENT_ARTIFACT_ROOT`.<br><br>If a runtime is specified, expands to:<br>`$COMPONENT_ARTIFACT_ROOT/<runtime_name>/<runtime_version>/`<br><br>Otherwise expands to:<br>`$COMPONENT_ARTIFACT_ROOT/`<br><br>Most libraries should use `shared-libs` to support the decoupling features in the RetroDECK build process.<br>However, this depends on the application - some require libraries in `lib` or directly next to the binary. |
-| **source** | *(Optional)* Specifies a concrete source location for the library,<br>**relative to** `$EXTRACTED_PATH` when not using a runtime.<br>Used when the library must be taken from a specific asset rather than a Flatpak runtime. |
+|---|---|
+| **type** | Defines the asset operation to perform. |
+| **source** | Source file, directory, or script used by the asset operation. Normally resolved relative to `$EXTRACTED_PATH`. |
+| **dest** | Destination or target used by the asset operation. Its meaning depends on the asset type. |
+| **contents** | Optional content supplied to supported operations, such as `create` and script-related operations. |
+| **executable** | Optional setting used by supported asset handlers to control executable permissions. |
+
+### Asset Types
+
+| Type | Purpose |
+|---|---|
+| `dir` | Copies an entire directory into the component artifact. |
+| `file` | Copies a single file into the component artifact. |
+| `merge` | Merges source contents into a destination. Useful when multiple sources contribute files to the same location. |
+| `file-rename` | Renames or moves a file. |
+| `create` | Creates a new file, optionally using `contents`. |
+| `symlink` | Creates a symbolic link. |
+| `archive` | Extracts an archive from selected files or directories (catch-all for all archives). |
+| `7z` | Extracts a 7z archive. |
+| `zip` | Extracts a ZIP archive. |
+| `tar.gz` | Extracts a gzip-compressed tar archive. |
+| `tgz` | Extracts a gzip-compressed tar archive. |
+| `tar.bz2` | Extracts a bzip2-compressed tar archive. |
+| `tbz2` | Extracts a bzip2-compressed tar archive. |
+| `tar.xz` | Extracts an xz-compressed tar archive. |
+| `txz` | Extracts an xz-compressed tar archive. |
+| `tar` | Extracts an uncompressed tar archive. |
+| `script` | Processes and runs a Bash script through the asset handler. |
+| `source` | Sources a Bash script into the current shell environment. |
+| `execute` | Executes a script as a separate Bash process. |
+| `cleanup` | Removes a file from the extracted source. |
+| `cleanup-dir` | Removes a directory from the extracted source. |
+
+### Asset Path Handling
+
+For standard file and directory operations, paths are generally resolved as follows
+
+source → `$EXTRACTED_PATH/<source>`
+dest   → `$COMPONENT_ARTIFACT_ROOT/<dest>`
+
+
+```
+{
+  "type": "dir",
+  "source": "usr/bin",
+  "dest": "bin"
+}
+```
+
+The asset `source` is resolved relative to: `$EXTRACTED_PATH/usr/bin/` and copied into: `$COMPONENT_ARTIFACT_ROOT/bin/`
+
+### `create`
+
+The `create` asset type creates a new file in the component artifact.
+
+```
+{
+  "type": "create",
+  "dest": "version.txt",
+  "contents": "{VERSION}"
+}
+```
+
+### executable
+
+The `executable` field is supported by the `file` asset operation.
+
+The copied file is marked as executable.
+
+Other local asset types cannot be marked executable through this field.
+
+```
+{
+  "type": "file",
+  "source": "my-app",
+  "dest": "bin",
+  "executable": tr
+```
+
+### script
+
+The `script` and `source` asset types source the specified Bash script into the current shell environment.
+
+```
+{
+  "type": "script",
+  "source": "setup.sh"
+}
+```
+
+The `execute` asset type starts the script as a separate Bash process.
+
+```
+{
+  "type": "execute",
+  "source": "setup.sh",
+  "contents": "argument"
+}
+```
+
+For `execute`, `contents` is passed to the script as an argument; it is **not** written to the script.
+
+### cleanup
+
+Use `cleanup` to remove a file:
+
+```
+{
+  "type": "cleanup",
+  "source": "unwanted-file"
+}
+```
+
+Use `cleanup-dir` to remove a directory and its contents:
+
+```
+{
+  "type": "cleanup-dir",
+  "source": "unwanted-directory"
+}
+```
+
+These operations modify the extracted source before the final artifact is assembled.
 
 
 ---
 
-### $REPO_ROOT/$COMPONENT_NAME/assets/
+## assets: libs
 
-This directory contains all custom, component-specific RetroDECK configuration files and assets that need to be included in the Flatpak environment.
+The `libs` array defines additional libraries that Alchemist must collect for the component.
 
-**Examples:**
+Each library object supports the following fields:
 
-- Component-specific RetroDECK pre-configured files located under `$REPO_ROOT/$COMPONENT_NAME/assets/rd_config`, ranging from individual files to organized subfolders.  
-- Other assets required by the component.
+| Field | Description |
+|---|---|
+| **library** | Library filename to collect. Alchemist resolves the library to its `.so` basename and copies matching dynamic-library files and symlinks. |
+| **runtime_name** | Optional Flatpak runtime name. Must be supplied together with `runtime_version`. |
+| **runtime_version** | Optional Flatpak runtime version. Must be supplied together with `runtime_name`. |
+| **dest** | Destination directory. A relative destination is resolved from `$COMPONENT_ARTIFACT_ROOT`. |
+| **source** | Optional source directory for the library. Relative paths are resolved from `$EXTRACTED_PATH` when a Flatpak runtime is not used. |
 
-For additional examples, see the components repo.
+A library can be collected from either:
+
+- A specified Flatpak runtime.
+- A specific directory in the extracted source.
+
+```
+{
+  "library": "libQt6Core.so.6",
+  "runtime_name": "org.kde.Platform",
+  "runtime_version": "6.9",
+  "dest": "shared-libs"
+}
+```
+
+```
+{
+  "library": "libexample.so.1",
+  "source": "usr/lib",
+  "dest": "shared-libs"
+}
+```
+
+### Runtime Destination
+
+When `runtime_name` and `runtime_version` are provided, the effective destination is:
+
+`$COMPONENT_ARTIFACT_ROOT/<dest>/<runtime_name>/<runtime_version>/`
+
+For example:
+
+`$COMPONENT_ARTIFACT_ROOT/shared-libs/org.kde.Platform/6.9/`
+
+When no runtime is specified, a relative `dest` resolves to:
+
+`$COMPONENT_ARTIFACT_ROOT/<dest>/`
+
+### Library Matching
+
+The requested library name is reduced to its `.so` basename when collecting files.
+
+For example:
+
+`libQt6Widgets.so.6`
+
+is used to locate and copy the matching library family, including matching symlinks such as:
+
+```
+libQt6Widgets.so
+libQt6Widgets.so.6
+libQt6Widgets.so.6.x.y
+```
+
+The exact files available depend on the selected library source.
+
+### Qt Runtime Handling
+
+When a library is collected from `org.kde.Platform`, Alchemist also collects the corresponding Qt plugins when they are available in the runtime.
+
+The plugins are placed under:
+
+`$COMPONENT_ARTIFACT_ROOT/<dest>/org.kde.Platform/<runtime_version>/plugins/`
+
+This behavior is automatic for `org.kde.Platform`.
+
+### Library Placement and shared-libs
+
+Use the destination that matches how the component is expected to locate its dependencies.
+
+For RetroDECK components, `shared-libs` is generally preferred when compatible with the component's library-loading requirements and library-decoupling strategy.
+
+Other destinations, such as `lib`, may be appropriate when an application specifically expects libraries there.
+
 
 ---
 
-### $REPO_ROOT/$COMPONENT_NAME/tmp_assets/
+## Repo hosted assets
 
-This directory stores component-specific temporary files and assets. Not all files in this directory are included in the final Flatpak. Only the files required by the recipe are used.
+### rd_assets
 
-**Examples:**
+This directory contains **component-specific RetroDECK configuration files and assets** that are packaged into the component artifact and made available to the Flatpak environment.
 
-- Built from Source component artifacts compressed into a `.tar.gz` file, stored in `$REPO_ROOT/$COMPONENT_NAME/tmp_assets/<component>.tar.gz` for recipes that cannot fetch them from external sources.
+Use `rd_assets/` for files that are maintained by RetroDECK rather than obtained directly from the component's upstream source.
 
-For additional examples, see the components repo.
+- Pre-configured RetroDECK files under `rd_assets/rd_config/`.
+- Component-specific configuration files.
+- RetroDECK integration assets.
+- Additional files or organized subdirectories required by the component.
+
+Example:
+
+```
+$REPO_ROOT/$COMPONENT_NAME/
+└── rd_assets/
+    └── custom_art/
+        └── artfile.pngf
+    └── rd_config/
+        └── example.conf
+```
+
+Files in `rd_assets/` should be explicitly included by the component recipe when they are required in the final artifact.
+
+For additional examples, see the RetroDECK components repository.
+
+---
+
+### tmp_assets
+
+This directory stores component-specific temporary files and locally generated build assets.
+
+Files placed in `tmp_assets/` are not automatically included in the final component artifact. They must be explicitly referenced by the recipe or otherwise consumed during the build process.
+
+- Locally built component archives.
+- `.tar.gz` files generated from source builds.
+- Locally generated archives that cannot be downloaded from an external source.
+- Temporary files required during component development.
+
+Example:
+
+```
+$REPO_ROOT/$COMPONENT_NAME/
+└── tmp_assets/
+    └── <component>.tar.gz
+```
+
+For example:
+
+`$REPO_ROOT/$COMPONENT_NAME/tmp_assets/example-component.tar.gz`
+
+The locally generated archive can then be referenced by a recipe using the appropriate local source configuration:
+
+```
+{
+  "example-component": [
+    {
+      "source_url": "$REPO_ROOT/example-component/tmp_assets/example-component.tar.gz",
+      "source_type": "local",
+      "version": "1.0.0",
+      "extraction_type": "archive"
+    }
+  ]
+}
+```
+
 
 ---
 
 ## Guide: Adding Libraries - The Library Hunter
 
-Use `hunt_libraries.sh` to automatically generate the `libs[]` array:
+Use the [`hunt_libraries.sh`](https://github.com/RetroDECK/RetroDECK/blob/cooker/developer_toolbox/hunt_libraries.sh) developer tool to identify libraries required by a component and generate a starting `libs[]` configuration.
 
-[hunt_libraries.sh](https://github.com/RetroDECK/RetroDECK/blob/cooker/developer_toolbox/hunt_libraries.sh)
+The tool uses `ldd` to inspect the specified binary and generates a JSON list of libraries that are not already provided by the RetroDECK base runtime. It can also search installed Flatpak runtimes and an optional library path, such as libraries bundled with an AppImage.
 
-Simply run the script against the binary you are integrating and it will help identify the required libraries.
+### Basic Usage
 
-**Note:**  
-This is not a perfect solution, but it provides a solid starting point and can significantly speed up the process.
+Run the hunter against the binary you are integrating:
 
----
+    ./developer_toolbox/hunt_libraries.sh /path/to/binary
 
-### Best Practices While Hunting Libraries
+The script supports the following options:
 
-It is recommended to have multiple **GNOME** and **KDE Platform** runtimes installed, as the hunter can resolve libraries directly from the corresponding runtime.  
+| Option | Description |
+|---|---|
+| `-q, --qt-version` | Specify the KDE runtime version to use when resolving Qt libraries. |
+| `-p, --path` | Search an additional library directory, such as an AppImage's bundled libraries. |
+| `-o, --output` | Specify the output JSON file. |
 
-For older components, dependencies may require libraries from previous runtime versions. Rather than defining these manually, the hunter can automatically pull the correct versions from the appropriate runtime.  
-
-If the hunter cannot locate certain libraries, check whether they are included in the component’s native libraries and grab it from there.  
-
-In rare cases where a required library is not available via the component package **or** the found by the hunter:
-
-  - Locate the library manually (from the web or your host system).  
-  - Include it as a `tmp_asset` in a compressed format.  
-  - Integrate it during the recipe process.
-
-
----
-
-## Nested Archives & additional_sources
-
-- A *nested archive* creates a new archive that also needs extraction.  
-- Objects are processed **in the order they appear** in the recipe, allowing later sources to depend on earlier ones.
-
----
-
-### Simplified Example: Extracting a Nested Archive
+For example:
 
 ```
-{
-  "retroarch": [
+    ./developer_toolbox/hunt_libraries.sh \
+      -p /path/to/component/usr/lib \
+      -o component_libs.json \
+      /path/to/component/usr/bin/example
+```
+
+The generated entries use `shared-libs` as the default destination.
+
+**Note:** 
+
+The Library Hunter is a starting point rather than a complete dependency validator. Always verify the generated libraries in the actual Flatpak environment.
+
+### How the Library Hunter Searches
+
+The hunter checks dependencies in several stages:
+
+1. **RetroDECK base runtime** - Libraries already provided by the RetroDECK `org.freedesktop.Platform` runtime are skipped.
+2. **KDE runtime** - Qt libraries are resolved from `org.kde.Platform`. Qt 5 and Qt 6 use the corresponding configured runtime versions.
+3. **Other installed Flatpak runtimes** - The hunter searches installed user and system runtimes for the required library.
+4. **Custom library path** - If `-p` is supplied, the specified path is searched for libraries that could not otherwise be resolved.
+5. **Unresolved dependencies** - Libraries that cannot be found are retained in the generated JSON with only the `library` field so they can be resolved manually.
+
+The hunter also examines dependencies of discovered libraries, so indirect library dependencies can be added to the generated list.
+
+### Recommended Workflow
+
+Install the relevant Flatpak runtimes before running the hunter. This gives it access to the runtimes from which component dependencies may be collected.
+
+For components using Qt, make sure the appropriate KDE runtime version is installed. You can explicitly select the Qt runtime with:
+
+```
+    ./developer_toolbox/hunt_libraries.sh \
+      --qt-version 6.10 \
+      /path/to/binary
+```
+
+For older components, do not automatically replace an older runtime dependency with the newest runtime. If the component requires a specific runtime version, preserve the runtime and version identified by the dependency analysis and verify it against the component's requirements.
+
+### Using Libraries from an AppImage or Other Local Source
+
+If required libraries are bundled with the component itself, use `--path` to let the hunter search that directory:
+
+```
+    ./developer_toolbox/hunt_libraries.sh \
+      --path /path/to/appimage-libs \
+      /path/to/binary
+```
+
+When a library is found through the custom path, the generated entry contains a source path and uses `shared-libs` as its destination.
+
+Example:
+
+```
     {
-      "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch.7z",
-      "source_type": "http",
-      "version": "1.22.2",
-      "extraction_type": "archive",
-      "assets": [
-        {
-          "type": "dir",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
-          "dest": "$WORKDIR/cores"
-        },
-        {
-          "type": "dir",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/overlays",
-          "dest": "$WORKDIR/overlays"
-        },
-        {
-          "type": "merge",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_extras/borders",
-          "dest": "$WORKDIR/overlays/borders"
-        },
-        {
-          "type": "dir",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/assets",
-          "dest": "assets"
-        },
-        {
-          "type": "dir",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/autoconfig",
-          "dest": "autoconfig"
-        },
-        {
-          "type": "dir",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/database/cursors",
-          "dest": "database/cursors"
-        },
-        {
-          "type": "dir",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/database/rdb",
-          "dest": "database/rdb"
-        },
-        {
-          "type": "dir",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/filters",
-          "dest": "filters"
-        },
-        {
-          "type": "tar.gz",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/shaders/.",
-          "dest": "rd_extras/shaders"
-        },
-        {
-          "type": "dir",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_config",
-          "dest": "rd_config"
-        },
-        {
-          "type": "file",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_extras/ScummVM.zip",
-          "dest": "rd_extras"
-        },
-        {
-          "type": "create",
-          "dest": "component_version",
-          "contents": "$SOURCE_VERSION"
-        },
-        {
-          "type": "file",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/component_functions.sh",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
-        },
-        {
-          "type": "file",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/component_launcher.sh",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
-        },
-        {
-          "type": "file",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/component_manifest.json",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
-        },
-        {
-          "type": "file",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/component_recipe.json",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
-        },
-        {
-          "type": "file",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/component_prepare.sh",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
-        },
-        {
-          "type": "file",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/component_update.sh",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
-        }
-      ],
-      "libs": []
-    },
-    {
-      "source_url": "$EXTRACTED_PATH/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage",
-      "source_type": "local",
-      "extraction_type": "appimage",
-      "assets": [
-        {
-          "type": "dir",
-          "source": "usr/bin",
-          "dest": "bin"
-        }
-      ]
-    },
-    {
-      "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
-      "source_type": "http",
-      "version": "1.22.2",
-      "extraction_type": "archive",
-      "assets": [
-        {
-          "type": "merge",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
-          "dest": "$WORKDIR/cores"
-        }
-      ]
-    },
-    {
-      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/citra_libretro.so.zip",
-      "source_type": "http",
-      "version": "nightly",
-      "extraction_type": "archive",
-      "assets": [
-        {
-          "type": "file",
-          "source": "citra_libretro.so",
-          "dest": "$WORKDIR/cores"
-        }
-      ]
-    },
-    {
-      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/sameduck_libretro.so.zip",
-      "source_type": "http",
-      "version": "nightly",
-      "extraction_type": "archive",
-      "assets": [
-        {
-          "type": "file",
-          "source": "sameduck_libretro.so",
-          "dest": "$WORKDIR/cores"
-        }
-      ]
-    },
-    {
-      "source_url": "https://github.com/RapidEdwin08/Genesis-Plus-GX-Expanded-Rom-Size",
-      "source_type": "git",
-      "version": "latest",
-      "dest": "Genesis-Plus-GX-Expanded-Rom-Size",
-      "extraction_type": "local",
-      "assets": [
-        {
-          "type": "file",
-          "source": "builds/Linux_so64/genesis_plus_gx_libretro.so",
-          "dest": "$WORKDIR/cores"
-        }
-      ]
-    },
-    {
-      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/RetroArch_cores.7z",
-      "source_type": "http",
-      "version": "nightly",
-      "dest": "nightly-cores",
-      "extraction_type": "archive",
-      "assets": [
-        {
-          "type": "merge",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
-          "dest": "$WORKDIR/cores"
-        }
-      ]
-    },
-    {
-      "source_url": "https://github.com/libretro/libretro-database",
-      "source_type": "git",
-      "version": "latest",
-      "extraction_type": "local",
-      "assets": [
-        {
-          "type": "tar.gz",
-          "source": "cht/.",
-          "dest": "rd_extras/cheats"
-        }
-      ]
-    },
-    {
-      "source_url": "http://bluemsx.msxblue.com/rel_download/blueMSXv{VERSION}full.zip",
-      "source_type": "http",
-      "version": "282",
-      "extraction_type": "archive",
-      "assets": [
-        {
-          "type": "dir",
-          "source": "Machines",
-          "dest": "rd_extras/MSX/Machines"
-        },
-        {
-          "type": "dir",
-          "source": "Databases",
-          "dest": "rd_extras/MSX/Databases"
-        }
-      ]
-    },
-    {
-      "source_url": "https://github.com/rsn8887/capsimg/releases/download/{VERSION}/Capsimg_for_Retroarch.zip",
-      "source_type": "github-release",
-      "version": "1.1",
-      "extraction_type": "archive",
-      "assets": [
-        {
-          "type": "file",
-          "source": "Linux/x86-64/capsimg.so",
-          "dest": "rd_extras/Amiga"
-        }
-      ]
-    },
-    {
-      "source_url": "$WORKDIR",
-      "source_type": "local",
-      "extraction_type": "local",
-      "assets": [
-        {
-          "type": "tar.gz",
-          "source": "cores",
-          "dest": "rd_extras/cores"
-        }
-      ]
-    },
-    {
-      "source_url": "$WORKDIR",
-      "source_type": "local",
-      "extraction_type": "local",
-      "assets": [
-        {
-          "type": "tar.gz",
-          "source": "overlays/.",
-          "dest": "rd_extras/overlays"
-        }
-      ]
+      "library": "libexample.so.1",
+      "source": "path/to/lib",
+      "dest": "shared-libs"
     }
-  ]
-}
-
 ```
 
-**Explanation**
+The resulting entry can then be incorporated into the component recipe's `libs[]` array.
 
-1. **Core source** - Downloads `RetroArch.7z` and extracts it as an archive.  
-2. **First additional source** - Treats the already‑extracted AppImage (`RetroArch-Linux-x86_64.AppImage`) as a *local* source, extracts it and copies its `usr/bin` directory to the artifact’s `bin` folder.  
-3. **Second additional source** - Downloads a second archive (`RetroArch_cores.7z`), extracts it and copies the cores directory into the artifact’s `cores` folder.
+### When a Library Cannot Be Found
 
-By ordering the additional sources array this way, the Alchemist ensures that each step has the necessary data from the previous step before proceeding.
-
-
----
-
-### Object 1 - Core Archive (downloaded)
-
-
-```
-{
-  "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch.7z",
-  "source_type": "http",
-  "version": "1.21.0",
-  "extraction_type": "archive"
-}
-```
-
-**Alchemist:**
-
-- **Download:** `RetroArch.7z` is fetched from the internet and placed into `$WORKDIR`.  
-- **Extraction:** Treated as an `archive`; it is extracted to the default destination `$WORKDIR/RetroArch.7z-extracted`.  
-- **Post‑extract actions:** None (no assets, libs, or extras).  
-- **Next step:** The Alchemist proceeds to Object 2.
-
----
-
-### Object 2 - Local AppImage (extracted from the first archive)
+If the hunter cannot locate a library, it reports the library as unresolved and leaves it in the generated JSON:
 
 ```
     {
-      "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
-      "source_type": "http",
-      "version": "1.21.0",
-      "extraction_type": "archive",
-      "assets": [
-        {
-          "type": "dir",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
-          "dest": "cores"
-        }
-      ]
+      "library": "libexample.so.1"
     }
-  ]
-}
 ```
 
-**Alchemist:**
+Do not assume that an unresolved library should immediately be downloaded from an arbitrary website or copied from the host system.
 
-- **Source:** The AppImage located at `$WORKDIR/RetroArch.7z-extracted/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage` (produced by Object 1).  
-- **Extraction:** Handled as an `appimage`.  
-- **Asset gathering:** The directory `$WORKDIR/$EXTRACTED_PATH/usr/bin/` is collected and copied to `$COMPONENT_ARTIFACT_ROOT/bin/`.
+First determine where the library is legitimately supplied:
+
+- Check the component's upstream package or bundled files.
+- Check the appropriate Flatpak runtime.
+- Check an AppImage or other upstream distribution package.
+- Use the hunter's `--path` option when the library is available in a local component source.
+- If the dependency genuinely needs to be packaged separately, obtain it from a trusted and reproducible source and integrate it through the component recipe.
+
+For locally generated or otherwise necessary source material that must be kept with the component, a compressed archive can be stored under:
+
+```
+    $REPO_ROOT/$COMPONENT_NAME/tmp_assets/
+```
+
+The archive must then be explicitly consumed by the recipe; files in `tmp_assets/` are not automatically included in the final artifact.
+
+### Library Placement
+
+The hunter defaults generated libraries to:
+
+```
+    shared-libs
+```
+
+This is also the recommended default for most RetroDECK components because it supports RetroDECK's library-decoupling approach.
+
+A typical generated runtime entry looks like:
+
+```
+    {
+      "library": "libQt6Core.so.6",
+      "runtime_name": "org.kde.Platform",
+      "runtime_version": "6.10",
+      "dest": "shared-libs"
+    }
+    ```
+
+Review the generated entries before committing them. Some applications have specific library-loading requirements and may require a different destination.
+
+### Important Limitations
+
+The Library Hunter should not be treated as a definitive dependency scanner.
+
+It is based on `ldd`, checks the locally installed runtimes, optionally searches a supplied library path, and recursively examines dependencies it can resolve. Its results therefore depend on the binary being inspected and the runtimes and library sources available on the development system.
+
+In particular:
+
+- A library being present on the host does not necessarily mean it should be packaged.
+- A library missing from the hunter's search paths is not necessarily unavailable.
+- The selected runtime version matters for compatibility.
+- The generated `libs[]` list should be reviewed rather than copied blindly.
+- The final component should be tested inside the target Flatpak environment.
+
+
 
 ---
 
-### Object 3 - Additional Cores Archive (downloaded)
+## Reusable Environment Variable Reference
 
-
-- **Download:** A new archive `RetroArch_cores.7z` is retrieved from the internet.  
-- **Extraction:** Treated as an `archive`.  
-- **Asset gathering:** The path `$WORKDIR/$EXTRACTED_PATH/RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores/` is collected and placed into `$COMPONENT_ARTIFACT_ROOT/cores/`.
-
-```
-{
-    "source_url": "https://buildbot.libretro.com/stable/{VERSION}/linux/x86_64/RetroArch_cores.7z",
-    "source_type": "http",
-    "version": "1.21.0",
-    "extraction_type": "archive",
-    "assets": [
-        {
-            "type": "dir",
-            "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/cores",
-            "dest": "cores"
-        }
-    ]
-}
-```
-
----
-
-### Why This Verbose Multi‑Object Approach?
-
-- **Fine‑grained control:** Each object can specify its own assets, libraries and extras, ensuring precise handling of files.  
-- **Avoids conflicts:** Prevents issues where a parent archive contains multiple files with the same extensions (blob‑matching problems).  
-- **Flexibility:** Different classes of files (assets, libs, etc.) can originate from distinct sources, allowing consistent and reproducible builds.  
-
-By processing each source object sequentially, the Alchemist maintains strict control over every step, guaranteeing deterministic results across builds.
-
----
-
-## Reusable Environmental Variable Reference
+Alchemist exposes a small set of environment variables that can be used by recipes, asset handlers, downloaders, extractors and build scripts.
 
 ### Core Paths
 
 | Variable | Description |
-|----------|-------------|
-| **$REPO_ROOT** | Set to the root of the git-cloned repository if `alchemist.sh` is invoked inside one.<br>Otherwise defaults to the directory from which the script is called. |
-| **$WORKDIR** | Working directory for the current component build.<br>Holds downloaded sources, extracted files and the temporary artifact directory.<br>Can be overridden via an argument to `alchemist.sh`.<br>Otherwise falls back to `$DEFAULT_WORKDIR` defined in `defaults.sh`. |
-| **$COMPONENT_NAME** | Name of the component currently being processed.<br>Should match the component directory name in the components repository for consistency. |
-| **$COMPONENT_ARTIFACT_ROOT** | Path to the final artifact directory where all files destined for the archive are placed.<br>Computed as:<br>`$WORKDIR/$COMPONENT_NAME-artifact` |
+|---|---|
+| **$REPO_ROOT** | Root of the Git repository when Alchemist is run inside a Git working tree. Otherwise, defaults to the current working directory. |
+| **$WORKDIR** | Temporary working directory used for the current Alchemist run. It contains downloaded sources, extracted files, and the temporary component artifact directory. An alternative value can be supplied with `-o` / `--output`. If not specified, Alchemist uses `$DEFAULT_WORKDIR`. |
+| **$DEFAULT_WORKDIR** | Default temporary working directory. In `0.11.0`, it is created with `mktemp -d` when Alchemist starts. |
+| **$COMPONENT_NAME** | Component name obtained from the root key of the recipe. It is also used to construct the component artifact path and final artifact filenames. |
+| **$COMPONENT_ARTIFACT_ROOT** | Temporary directory containing the files that will be packaged into the final component archive. Computed as `$WORKDIR/$COMPONENT_NAME-artifact`. |
+
+### Component Artifact Location
+
+During processing:
+
+```
+    $WORKDIR/
+    └── $COMPONENT_NAME-artifact/
+```
+
+The contents of `$COMPONENT_ARTIFACT_ROOT` become the contents of the final component archive.
+
+The final archive is written to:
+
+```
+    $REPO_ROOT/$COMPONENT_NAME/artifacts/$COMPONENT_NAME.tar.gz
+```
+
+A SHA-256 checksum is written alongside it as:
+
+```
+    $REPO_ROOT/$COMPONENT_NAME/artifacts/$COMPONENT_NAME.tar.gz.sha
+```
+
+Alchemist removes the temporary `$WORKDIR` after a normal build.
+
+### Download and Extraction Variables
+
+| Variable | Description |
+|---|---|
+| **`$DOWNLOADED_FILE`** | Full path to the file returned by the downloader for the current source object. It is exported by `alchemist.sh` after `process_download` completes. |
+| **`$SOURCE_VERSION`** | Resolved version returned by the downloader for the current source. The initial value comes from the recipe's `version` field and may be replaced by the downloader's resolved version. |
+| **`$EXTRACTED_PATH`** | Full path to the extracted source for the current source object. It is exported after `process_extract` completes. For a local extraction, the extractor can return the downloaded path without performing archive extraction. |
+
+The variables are per-source values. When a recipe contains multiple source objects, Alchemist updates them as each source is processed.
+
+### Processing Relationship
+
+```
+    source_url
+        │
+        ▼
+    $DOWNLOADED_FILE
+        │
+        ▼
+    $EXTRACTED_PATH
+        │
+        ├── assets
+        │
+        └── libs
+        │
+        ▼
+    $COMPONENT_ARTIFACT_ROOT
+```
+    
+For standard asset operations, the extracted source is the input and `$COMPONENT_ARTIFACT_ROOT` is the assembly destination.
+
+### Flatpak Variables
+
+The following Flatpak-related variables are defined by `lib/defaults.sh` in Alchemist `0.11.0`.
+
+| Variable | Default | Description |
+|---|---|---|
+| **`$FLATPAK_USER_ROOT`** | `$HOME/.local/share/flatpak` | Flatpak user installation root. |
+| **`$FLATPAK_SYSTEM_ROOT`** | `/var/lib/flatpak` | Flatpak system installation root. |
+| **`$FLATPAK_DEFAULT_INSTALL_MODE`** | `user` | Default Flatpak installation mode used by Alchemist tooling. |
+| **`$FLATHUB_REPO`** | `https://flathub.org/repo/flathub.flatpakrepo` | Flathub repository definition used when configuring or accessing Flathub. |
+
+
+## Version Management: $DESIRED_VERSIONS
+
+`$DESIRED_VERSIONS` points to the version-definition file `version_policy.sh` used by the Alchemist version-loading mechanism.
+
+The version loader works as follows:
+
+1. `version_policy.sh` defines `*_VERSION_POLICY` values.
+2. If `version_pins.sh` exists, its `*_PINNED_VERSION` values take precedence.
+3. Alchemist exports the resulting `*_DESIRED_VERSION` variables.
+4. Recipe values are subsequently processed with environment substitution where applicable.
+
+### Version Variables
+
+| Variable Pattern | Description |
+|---|---|
+| **$<COMPONENT>_VERSION_POLICY** | Version resolution policy for a component, such as `latest`, `newest` . |
+| **$<COMPONENT>_PINNED_VERSION** | Optional explicitly pinned version. Takes precedence over the policy. |
+| **$<COMPONENT>_DESIRED_VERSION** | Effective version selected by the version loader. |
+
+For example:
+
+```
+    $AZAHAR_VERSION_POLICY
+    $AZAHAR_PINNED_VERSION
+    $AZAHAR_DESIRED_VERSION
+```
+
+The exact variables available depend on the entries defined in `version_policy.sh` and, when present, `version_pins.sh`.
 
 ---
 
@@ -739,56 +923,5 @@ By processing each source object sequentially, the Alchemist maintains strict co
 |----------|-------------|
 | **$DESIRED_VERSIONS** | Path to the `desired_versions.sh` script containing the catalog of desired component versions.<br>Used to resolve version placeholders in component recipes.<br>Can be overridden per `alchemist.sh` run via an input argument,<br>allowing separate **stable** and **beta** version sets. |
 
-
----
-
-## Alchemist Execution Logic
-
-Take the Azahar example for above:
-
-1. **Component Name** - Set to `azahar`.  
-2. **Download URL** - `org.azahar_emu.Azahar`.  
-3. **Downloader Plugin** - `flatpak_id` (selected via `source_type`).  
-4. **Version Resolution** - `$AZAHAR_DESIRED_VERSION` is read from `desired_versions.sh` (e.g., `export AZAHAR_DESIRED_VERSION="2123.3"`). This value replaces `{VERSION}` in the URL.  
-5. **Downloaded File Path** - Stored in `$DOWNLOADED_FILE`.  
-6. **Extraction Plugin** - `flatpak`, applied to `$DOWNLOADED_FILE`.  
-7. **Extracted Destination** - Path returned in `$EXTRACTED_PATH`.  
-8. **Copy the full directory** from `$EXTRACTED_PATH/usr/bin` to `$COMPONENT_ARTIFACT_ROOT/bin`.  
-9. **Flatpak Runtime** - Install the required runtime (name and version) if it isn’t already present.  
-10. **Gather Library** - Retrieve `libQt6Widgets.so.6` from the specified Flatpak runtime and place it in the appropriate location within the artifact. 
-
----
-
-### Alchemist Process Abstraction
-
-At a high level, the Alchemist processes information in this loop:
-
-1. **Read** `component_recipe.json` file.  
-2. **Read** component name from the root key.  
-3. **Generate** a set of *parent objects* to be processed.  
-   - Each parent object contains download sources, extraction commands, asset‑gathering instructions, library‑gathering instructions and extras‑gathering instructions.  
-4. **Process** each object sequentially.  
-5. **Compress** the contents of the `*-artifact` directory for storage.
-
----
-
-### Example: Final Artifact Layout ($COMPONENT_NAME-artifact) for Azahar
-
-```
-azahar-artifact
-├── bin
-│   ├── azahar
-│   └── qt.conf
-├── component_extras.sh
-├── component_functions.sh
-├── component_launcher.sh
-├── component_libs.json
-├── component_manifest.json
-├── component_prepare.sh
-├── component_recipe.json
-└── assets
-    └── rd_config
-        └── qt-config.ini
-```
 
 ---

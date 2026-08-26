@@ -31,7 +31,7 @@ RetroLACE components should be put into the `retrodeck/storage/retrodeck/retrola
 
 ## How-to: Enable RetroLACE
 
-By selecting **Enable RetroLACE** in **RetroDECK Configurator → Settings → RetroLACE**, you confirm that you have read, understood, accepted this disclaimer and agree to assume responsibility for the risks associated with installing and using external components.
+By selecting **Enable RetroLACE** in **RetroDECK Configurator → Settings → RetroLACE**, you confirm that you have read, understood, accepted this disclaimer and agree to assume responsibility for the risks associated with installing and using unverified external components.
 
 ### Legal Disclaimer
 

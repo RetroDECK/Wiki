@@ -42,7 +42,7 @@ When multiple source formats are available for a component, prioritize them in t
 
 ### Create an Issue and Talk to the Team
 
-If you want to add a new component either to RetroDECK as an internal component or to the RetroVERSE as an external component, always start by opening an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) or check if there already is an issue of the component you want to add. 
+If you want to add a new component either to RetroDECK as an **internal component** or to the **RetroVERSE** as an **external component**, always start by opening an [Issue on Github](https://github.com/RetroDECK/RetroDECK/issues) or check if there already is an issue of the component you want to add. 
 
 Use the issue to explain your idea and get feedback from the RetroDECK team.
 
@@ -127,18 +127,20 @@ While the runtime itself is the "OS" of the flatpak.
 
 ## Adding External Components and Assets
 
-When adding an external component or asset, choose the option that best matches its scope, licensing, integration, and support requirements.
+When adding an external component or asset, choose the option that best matches its scope, licensing, integration and support requirements.
+
+If you are targeting your component to become an internal component of RetroDECK you can skip this step.
 
 ---
 
-### RetroDECK's RetroVERSE
+###  RetroVERSE
 
-Choose **RetroVERSE** when the component or asset is suitable for RetroDECK's retro-focused ecosystem.
+Choose **RetroVERSE** when the component or asset is suitable for RetroDECK's retro-focused  ecosystem.
 
 - **Scope:** Strictly retro-focused components and assets.
 - **Licensing:** Must comply with applicable open-source licensing requirements. Proprietary code or assets may only be included when the necessary permission has been granted by the rights holder.
 - **Support:** Supported by the RetroDECK team and community.
-- **Review:** Reviewed by the RetroDECK team and community members.
+- **Review:** Reviewed by the RetroDECK team and community members.  The RetroDECK team has the final say.
 - **Integration:** Integrates directly with RetroDECK.
 - **Adaptation:** Components are easier to maintain and adapt through RetroDECK component files.
 
@@ -190,7 +192,7 @@ When enabling **RetroLACE**, users must accept a **legal disclaimer** acknowledg
 **RetroLACE** components may be used for development, testing, or software and assets that cannot be included in RetroVERSE or RetroDECK, for example because they:
 
 - Do not fit RetroDECK's retro-focused scope.
-- Have licensing restrictions that prevent inclusion in RetroVERSE, but the user has obtained a valid license for their own use.
+- Have licensing restrictions that prevent inclusion in RetroDECK, but the user has obtained a valid license for their own use.
 - Require proprietary software or assets that cannot be distributed by RetroDECK.
 
 Users download the component from its author's website or repository and extract it into:
@@ -207,7 +209,6 @@ The component author or maintainer (YOU) is responsible for:
 - Hosting and distributing the component.
 - Resolving issues caused by the component.
 - Taking reasonable measures to ensure the component is safe and trustworthy.
-
 
 ---
 

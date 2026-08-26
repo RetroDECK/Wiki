@@ -291,11 +291,9 @@ A recipe can contain multiple source objects when a component requires files fro
 
 ---
 
-## Source Keys
+### Source Fields
 
 The source section defines **where a component is obtained** and **how Alchemist processes the source**.
-
-### Source Fields
 
 | Field | Description |
 |---|---|
@@ -336,11 +334,11 @@ $EXTRACTED_PATH
 
 Asset source paths are normally resolved relative to `$EXTRACTED_PATH`.
 
-## Assets
+## assets
 
 The `assets` array defines which files, directories, scripts, links, and other resources Alchemist processes and how they are placed into the final component artifact.
 
-### Asset Fields
+### asset Fields
 
 | Field | Description |
 |---|---|
@@ -350,7 +348,7 @@ The `assets` array defines which files, directories, scripts, links, and other r
 | **contents** | Optional content supplied to supported operations, such as `create` and script-related operations. |
 | **executable** | Optional setting used by supported asset handlers to control executable permissions. |
 
-### Asset Types
+### asset Types
 
 | Type | Purpose |
 |---|---|
@@ -376,7 +374,7 @@ The `assets` array defines which files, directories, scripts, links, and other r
 | `cleanup` | Removes a file from the extracted source. |
 | `cleanup-dir` | Removes a directory from the extracted source. |
 
-### Asset Path Handling
+### asset Path Handling
 
 For standard file and directory operations, paths are generally resolved as follows
 
@@ -394,7 +392,7 @@ dest   → `$COMPONENT_ARTIFACT_ROOT/<dest>`
 
 The asset `source` is resolved relative to: `$EXTRACTED_PATH/usr/bin/` and copied into: `$COMPONENT_ARTIFACT_ROOT/bin/`
 
-### `create`
+### create
 
 The `create` asset type creates a new file in the component artifact.
 
@@ -420,6 +418,7 @@ Other local asset types cannot be marked executable through this field.
   "source": "my-app",
   "dest": "bin",
   "executable": tr
+}  
 ```
 
 ### script
@@ -432,6 +431,8 @@ The `script` and `source` asset types source the specified Bash script into the 
   "source": "setup.sh"
 }
 ```
+
+### execute
 
 The `execute` asset type starts the script as a separate Bash process.
 
@@ -512,7 +513,7 @@ When `runtime_name` and `runtime_version` are provided, the effective destinatio
 
 `$COMPONENT_ARTIFACT_ROOT/<dest>/<runtime_name>/<runtime_version>/`
 
-For example:
+**Example:**
 
 `$COMPONENT_ARTIFACT_ROOT/shared-libs/org.kde.Platform/6.9/`
 
@@ -524,7 +525,7 @@ When no runtime is specified, a relative `dest` resolves to:
 
 The requested library name is reduced to its `.so` basename when collecting files.
 
-For example:
+**Example:**
 
 `libQt6Widgets.so.6`
 
@@ -572,7 +573,7 @@ Use `rd_assets/` for files that are maintained by RetroDECK rather than obtained
 - RetroDECK integration assets.
 - Additional files or organized subdirectories required by the component.
 
-Example:
+**Example:**
 
 ```
 $REPO_ROOT/$COMPONENT_NAME/
@@ -600,7 +601,7 @@ Files placed in `tmp_assets/` are not automatically included in the final compon
 - Locally generated archives that cannot be downloaded from an external source.
 - Temporary files required during component development.
 
-Example:
+**Example:**
 
 ```
 $REPO_ROOT/$COMPONENT_NAME/
@@ -608,7 +609,7 @@ $REPO_ROOT/$COMPONENT_NAME/
     └── <component>.tar.gz
 ```
 
-For example:
+**Example:**
 
 `$REPO_ROOT/$COMPONENT_NAME/tmp_assets/example-component.tar.gz`
 
@@ -650,7 +651,7 @@ The script supports the following options:
 | `-p, --path` | Search an additional library directory, such as an AppImage's bundled libraries. |
 | `-o, --output` | Specify the output JSON file. |
 
-For example:
+**Example:**
 
 ```
     ./developer_toolbox/hunt_libraries.sh \
@@ -703,7 +704,7 @@ If required libraries are bundled with the component itself, use `--path` to let
 
 When a library is found through the custom path, the generated entry contains a source path and uses `shared-libs` as its destination.
 
-Example:
+**Example:**
 
 ```
     {
@@ -762,7 +763,7 @@ A typical generated runtime entry looks like:
       "runtime_version": "6.10",
       "dest": "shared-libs"
     }
-    ```
+```
 
 Review the generated entries before committing them. Some applications have specific library-loading requirements and may require a different destination.
 
@@ -779,8 +780,6 @@ In particular:
 - The selected runtime version matters for compatibility.
 - The generated `libs[]` list should be reviewed rather than copied blindly.
 - The final component should be tested inside the target Flatpak environment.
-
-
 
 ---
 
@@ -885,7 +884,7 @@ The version loader works as follows:
 | **$<COMPONENT>_PINNED_VERSION** | Optional explicitly pinned version. Takes precedence over the policy. |
 | **$<COMPONENT>_DESIRED_VERSION** | Effective version selected by the version loader. |
 
-For example:
+**Example:**
 
 ```
     $AZAHAR_VERSION_POLICY

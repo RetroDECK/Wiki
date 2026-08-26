@@ -2,9 +2,6 @@
 
 <img src="../../../wiki_icons/retrodeck/icon-retroverse.svg" width="75" alt="">
 
-*“There comes a time in every man's life when he has to tie his own shoes.”*
-- James C. Wood 1976
-
 ## What is it?
 
 **RetroLACE** or **LACE** (Local Add-on Component Environment) is a developer-oriented system for launching external components locally within RetroDECK.
@@ -19,13 +16,13 @@ It can also be used to experiment with software or assets that fall outside the 
 
 But RetroLACE allows you as a user to manually install external components that are not included with the official RetroDECK distribution.
 
-**RetroLACE is disabled by default.** You must explicitly enable it and accept the following disclaimer before you can use this feature.
+RetroLACE is **Disabled** by default. You must explicitly **Enable** it and accept the a legal disclaimer before you can use this feature.
 
 ### Where to put the Components?
 
 <img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
-RetroLACE components should be put into the `retrodeck/storage/retrodeck/retrolace/` directory.
+RetroLACE components should be put into the `retrodeck/storage/retrodeck/retrolace/` directory and correctly written components in this directory are automatically loaded during the next RetroDECK boot.
 
 ---
 

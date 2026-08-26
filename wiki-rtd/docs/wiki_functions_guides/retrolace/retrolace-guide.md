@@ -30,7 +30,7 @@ RetroLACE components should be extracted into the `retrodeck/storage/retrodeck/r
 
 ## How-to: Enable RetroLACE
 
-By selecting **Enable RetroLACE** in **RetroDECK Configurator → Settings → RetroLACE**, you confirm that you have read, understood, accepted the legal disclaimer and agree to assume responsibility for the risks associated with installing and using unsupported external components.
+By selecting **Enable RetroLACE** in **RetroDECK Configurator → Settings → RetroLACE**, you confirm that you have read, understood, accepted the **Legal Disclaimer** and agree to assume responsibility for the risks associated with installing and using unsupported external components.
 
 ### Legal Disclaimer
 

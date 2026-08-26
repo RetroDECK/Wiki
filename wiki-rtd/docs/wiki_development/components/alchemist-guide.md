@@ -641,7 +641,7 @@ The tool uses `ldd` to inspect the specified binary and generates a JSON list of
 
 Run the hunter against the binary you are integrating:
 
-    ./developer_toolbox/hunt_libraries.sh /path/to/binary
+    ./hunt_libraries.sh -f /path/to/binary
 
 The script supports the following options:
 
@@ -744,29 +744,6 @@ For locally generated or otherwise necessary source material that must be kept w
 
 The archive must then be explicitly consumed by the recipe; files in `tmp_assets/` are not automatically included in the final artifact.
 
-### Library Placement
-
-The hunter defaults generated libraries to:
-
-```
-    shared-libs
-```
-
-This is also the recommended default for most RetroDECK components because it supports RetroDECK's library-decoupling approach.
-
-A typical generated runtime entry looks like:
-
-```
-    {
-      "library": "libQt6Core.so.6",
-      "runtime_name": "org.kde.Platform",
-      "runtime_version": "6.10",
-      "dest": "shared-libs"
-    }
-```
-
-Review the generated entries before committing them. Some applications have specific library-loading requirements and may require a different destination.
-
 ### Important Limitations
 
 The Library Hunter should not be treated as a definitive dependency scanner.
@@ -797,7 +774,7 @@ Alchemist exposes a small set of environment variables that can be used by recip
 | **$COMPONENT_NAME** | Component name obtained from the root key of the recipe. It is also used to construct the component artifact path and final artifact filenames. |
 | **$COMPONENT_ARTIFACT_ROOT** | Temporary directory containing the files that will be packaged into the final component archive. Computed as `$WORKDIR/$COMPONENT_NAME-artifact`. |
 
-### Component Artifact Location
+#### Component Artifact Location
 
 During processing:
 
@@ -832,7 +809,7 @@ Alchemist removes the temporary `$WORKDIR` after a normal build.
 
 The variables are per-source values. When a recipe contains multiple source objects, Alchemist updates them as each source is processed.
 
-### Processing Relationship
+#### Processing Relationship
 
 ```
     source_url
@@ -865,7 +842,7 @@ The following Flatpak-related variables are defined by `lib/defaults.sh` in Alch
 | **`$FLATHUB_REPO`** | `https://flathub.org/repo/flathub.flatpakrepo` | Flathub repository definition used when configuring or accessing Flathub. |
 
 
-## Version Management: $DESIRED_VERSIONS
+### Version Management: $DESIRED_VERSIONS
 
 `$DESIRED_VERSIONS` points to the version-definition file `version_policy.sh` used by the Alchemist version-loading mechanism.
 
@@ -876,7 +853,7 @@ The version loader works as follows:
 3. Alchemist exports the resulting `*_DESIRED_VERSION` variables.
 4. Recipe values are subsequently processed with environment substitution where applicable.
 
-### Version Variables
+#### Version Variables
 
 | Variable Pattern | Description |
 |---|---|
@@ -893,34 +870,5 @@ The version loader works as follows:
 ```
 
 The exact variables available depend on the entries defined in `version_policy.sh` and, when present, `version_pins.sh`.
-
----
-
-### Download & Extraction Helpers
-
-| Variable | Description |
-|----------|-------------|
-| **$DOWNLOADED_FILE** | Full path of the most recently downloaded file.<br>Populated by the `download.sh` plugin via:<br>`echo "DOWNLOADED_FILE=..."` |
-| **$EXTRACTED_PATH** | Full path of the most recently extracted archive.<br>Populated by the `extract.sh` plugin via:<br>`echo "EXTRACTED_PATH=..."`<br><br>For **local** extractions (no real archive), a dummy plugin returns the same path as `$DOWNLOADED_FILE`. |
-
----
-
-### Flatpak-Related Variables
-
-| Variable | Description |
-|----------|-------------|
-| **$FLATPAK_USER_ROOT** | Default user install location:<br>`$HOME/.local/share/flatpak/app`<br>Defined in `defaults.sh`. |
-| **$FLATPAK_SYSTEM_ROOT** | Default system install location:<br>`/var/lib/flatpak/app`<br>Defined in `defaults.sh`. |
-| **$FLATPAK_DEFAULT_INSTALL_MODE** | Default install mode for Flatpak packages:<br>`user`<br>System mode may require `sudo`. |
-| **$FLATHUB_REPO** | URL of the Flathub repository:<br>`https://flathub.org/repo/flathub.flatpakrepo`<br>Adjust if the repository location changes. |
-
----
-
-### Version Management
-
-| Variable | Description |
-|----------|-------------|
-| **$DESIRED_VERSIONS** | Path to the `desired_versions.sh` script containing the catalog of desired component versions.<br>Used to resolve version placeholders in component recipes.<br>Can be overridden per `alchemist.sh` run via an input argument,<br>allowing separate **stable** and **beta** version sets. |
-
 
 ---

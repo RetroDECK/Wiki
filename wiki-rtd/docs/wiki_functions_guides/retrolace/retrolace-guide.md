@@ -2,6 +2,8 @@
 
 <img src="../../../wiki_icons/retrodeck/icon-retrolace.svg" width="75" alt="">
 
+*"A tiny lacewing, fragile and translucent, looks up at the sky as the universe gazes back. Its wings mirroring the interconnected webs of the cosmos, dreaming to become a star."*
+
 ## What is it?
 
 **RetroLACE** or **LACE** (Local Add-on Component Environment) is a developer-oriented system for launching external components locally within RetroDECK.

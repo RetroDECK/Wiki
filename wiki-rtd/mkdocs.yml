@@ -367,7 +367,6 @@ nav:
 
     - Component Recipe - Examples:
       - EXAMPLE component_recipe - Web source - KEGS: wiki_development/components/recipes-examples/recipe-example-web-kegs.md
-      - EXAMPLE component_recipe - Nested source - VPinballX: wiki_development/components/recipes-examples/recipe-example-nested-vpinballx.md
       - EXAMPLE component_recipe - Multi source - RetroArch: wiki_development/components/recipes-examples/recipe-example-multi-retroarch.md
       - EXAMPLE component_recipe - Github source - OpenBOR: wiki_development/components/recipes-examples/recipe-example-github-openbor.md
       - EXAMPLE component_recipe - Flathub source - Azahar: wiki_development/components/recipes-examples/recipe-example-flathub-azahar.md
@@ -375,7 +374,6 @@ nav:
     - Component Recipe - Templates:
       - TEMPLATE component_recipe - Web source: wiki_development/components/recipes-templates/recipe-template-web.md
       - TEMPLATE component_recipe - Nested source: wiki_development/components/recipes-templates/recipe-template-web-nested.md
-      - TEMPLATE component_recipe - Multi source: wiki_development/components/recipes-templates/recipe-template-web-multi.md
       - TEMPLATE component_recipe - GitHub source: wiki_development/components/recipes-templates/recipe-template-github.md
       - TEMPLATE component_recipe - Flathub source: wiki_development/components/recipes-templates/recipe-template-flathub.md
 

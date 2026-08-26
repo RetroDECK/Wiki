@@ -1,4 +1,4 @@
-## Example: component_recipe.json - Azahar
+## Example: component_recipe.json - Flathub: Azahar
 
 ```
 {
@@ -27,7 +27,7 @@
         },
         {
           "type": "dir",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_config",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/rd_assets/rd_config",
           "dest": "rd_config"
         },
         {
@@ -49,16 +49,12 @@
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_recipe.json",
           "dest": "$COMPONENT_ARTIFACT_ROOT"
-        },
-        {
-          "type": "file",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/component_prepare.sh",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
         }
       ],
       "libs": []
     }
   ]
 }
+
 
 ```

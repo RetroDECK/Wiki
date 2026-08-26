@@ -1,4 +1,4 @@
-## Example: component_recipe.json - Github - OpenBOR
+## Example: component_recipe.json - Github: OpenBOR
 
 ```
 {
@@ -40,9 +40,9 @@
           "dest": "$COMPONENT_ARTIFACT_ROOT"
         },
         {
-          "type": "file",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/component_prepare.sh",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
+          "type": "dir",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/rd_assets/helper_files",
+          "dest": "helper_files"
         }
       ],
       "libs": [
@@ -60,6 +60,5 @@
     }
   ]
 }
-
 
 ```

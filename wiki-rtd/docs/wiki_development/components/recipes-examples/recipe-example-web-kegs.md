@@ -1,4 +1,4 @@
-## Example: component_recipe.json - Web - KEGS
+## Example: component_recipe.json - Web: KEGS
 
 ```
 {

@@ -1,4 +1,6 @@
-## Example: component_recipe.json - Multi Source - RetroArch
+## Example: component_recipe.json - Multi-Source: RetroArch
+
+One of the largest and most complex recipes in RetroDECK.
 
 ```
 {
@@ -21,18 +23,23 @@
         },
         {
           "type": "merge",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_extras/borders",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/rd_assets/rd_extras/borders",
           "dest": "$WORKDIR/overlays/borders"
+        },
+        {
+          "type": "merge",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/rd_assets/rd_extras/applewin_libretro",
+          "dest": "$WORKDIR/cores"
+        },
+        {
+          "type": "merge",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/rd_assets/rd_extras/genesis_plus_gx_paprium_libretro",
+          "dest": "$WORKDIR/cores"
         },
         {
           "type": "dir",
           "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/assets",
           "dest": "assets"
-        },
-        {
-          "type": "dir",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/autoconfig",
-          "dest": "autoconfig"
         },
         {
           "type": "dir",
@@ -45,9 +52,9 @@
           "dest": "database/rdb"
         },
         {
-          "type": "dir",
-          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/filters",
-          "dest": "filters"
+          "type": "tar.gz",
+          "source": "RetroArch-Linux-x86_64/RetroArch-Linux-x86_64.AppImage.home/.config/retroarch/filters/.",
+          "dest": "rd_extras/filters"
         },
         {
           "type": "tar.gz",
@@ -56,12 +63,17 @@
         },
         {
           "type": "dir",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_config",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/rd_assets/rd_config",
           "dest": "rd_config"
         },
         {
+          "type": "dir",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/rd_assets/helper_files",
+          "dest": "helper_files"
+        },
+        {
           "type": "file",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/assets/rd_extras/ScummVM.zip",
+          "source": "$REPO_ROOT/$COMPONENT_NAME/rd_assets/rd_extras/ScummVM.zip",
           "dest": "rd_extras"
         },
         {
@@ -87,16 +99,6 @@
         {
           "type": "file",
           "source": "$REPO_ROOT/$COMPONENT_NAME/component_recipe.json",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
-        },
-        {
-          "type": "file",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/component_prepare.sh",
-          "dest": "$COMPONENT_ARTIFACT_ROOT"
-        },
-        {
-          "type": "file",
-          "source": "$REPO_ROOT/$COMPONENT_NAME/component_update.sh",
           "dest": "$COMPONENT_ARTIFACT_ROOT"
         }
       ],
@@ -128,6 +130,19 @@
       ]
     },
     {
+      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/amiarcadia_libretro.so.zip",
+      "source_type": "http",
+      "version": "nightly",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "amiarcadia_libretro.so",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
       "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/citra_libretro.so.zip",
       "source_type": "http",
       "version": "nightly",
@@ -136,6 +151,58 @@
         {
           "type": "file",
           "source": "citra_libretro.so",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/easyrpg_libretro.so.zip",
+      "source_type": "http",
+      "version": "nightly",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "easyrpg_libretro.so",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/fbalpha_libretro.so.zip",
+      "source_type": "http",
+      "version": "nightly",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "fbalpha_libretro.so",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/mcsoftserve_libretro.so.zip",
+      "source_type": "http",
+      "version": "nightly",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "mcsoftserve_libretro.so",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/pd777_libretro.so.zip",
+      "source_type": "http",
+      "version": "nightly",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "pd777_libretro.so",
           "dest": "$WORKDIR/cores"
         }
       ]
@@ -154,15 +221,27 @@
       ]
     },
     {
-      "source_url": "https://github.com/RapidEdwin08/Genesis-Plus-GX-Expanded-Rom-Size",
-      "source_type": "git",
-      "version": "latest",
-      "dest": "Genesis-Plus-GX-Expanded-Rom-Size",
-      "extraction_type": "local",
+      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/vice_xcbm2_libretro.so.zip",
+      "source_type": "http",
+      "version": "nightly",
+      "extraction_type": "archive",
       "assets": [
         {
           "type": "file",
-          "source": "builds/Linux_so64/genesis_plus_gx_libretro.so",
+          "source": "vice_xcbm2_libretro.so",
+          "dest": "$WORKDIR/cores"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/{VERSION}/linux/x86_64/latest/vice_xcbm5x0_libretro.so.zip",
+      "source_type": "http",
+      "version": "nightly",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "vice_xcbm5x0_libretro.so",
           "dest": "$WORKDIR/cores"
         }
       ]
@@ -195,24 +274,6 @@
       ]
     },
     {
-      "source_url": "http://bluemsx.msxblue.com/rel_download/blueMSXv{VERSION}full.zip",
-      "source_type": "http",
-      "version": "282",
-      "extraction_type": "archive",
-      "assets": [
-        {
-          "type": "dir",
-          "source": "Machines",
-          "dest": "rd_extras/MSX/Machines"
-        },
-        {
-          "type": "dir",
-          "source": "Databases",
-          "dest": "rd_extras/MSX/Databases"
-        }
-      ]
-    },
-    {
       "source_url": "https://github.com/rsn8887/capsimg/releases/download/{VERSION}/Capsimg_for_Retroarch.zip",
       "source_type": "github-release",
       "version": "1.1",
@@ -238,6 +299,216 @@
       ]
     },
     {
+      "source_url": "https://buildbot.libretro.com/assets/system/blueMSX.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "Machines",
+          "dest": "rd_extras/MSX/Machines"
+        },
+        {
+          "type": "dir",
+          "source": "Databases",
+          "dest": "rd_extras/MSX/Databases"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/Cannonball%20%28ROMs%20Required%29.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "cannonball",
+          "dest": "rd_extras/cannonball"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/Dinothawr.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "dinothawr",
+          "dest": "rd_extras/dinothawr"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/DirkSimple.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "DirkSimple",
+          "dest": "rd_extras/DirkSimple"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/Dolphin.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "dolphin-emu",
+          "dest": "rd_extras/dolphin-emu"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/ECWolf.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "ecwolf.pk3",
+          "dest": "rd_extras"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/FinalBurn%20Neo%20%28hiscore%29.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "fbneo",
+          "dest": "rd_extras/fbneo"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/ScummVM.zip",
+      "source_type": "http",
+      "extraction_type": "local",
+      "assets": [
+        {
+          "type": "file",
+          "source": "$WORKDIR/ScummVM.zip",
+          "dest": "rd_extras"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/LRPS2.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "pcsx2",
+          "dest": "rd_extras/pcsx2"
+        }
+      ]
+    },
+    {
+      "source_url": "https://github.com/libretro/mame2003-plus-libretro",
+      "source_type": "git",
+      "version": "latest",
+      "extraction_type": "local",
+      "assets": [
+        {
+          "type": "tar.gz",
+          "source": "metadata/.",
+          "dest": "rd_extras/mame2003-plus"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/MAME%202003-Plus.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "mame2003-plus",
+          "dest": "rd_extras/mame2003-plus"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/MAME%202003.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "mame2003",
+          "dest": "rd_extras/mame2003"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/NXEngine%20%28Cave%20Story%29.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "nxengine",
+          "dest": "rd_extras/nxengine"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/PPSSPP.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "PPSSPP",
+          "dest": "rd_extras/PPSSPP"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/PrBoom.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "file",
+          "source": "prboom.wad",
+          "dest": "rd_extras"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/QEMU.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "qemu",
+          "dest": "rd_extras/qemu"
+        }
+      ]
+    },
+    {
+      "source_url": "https://buildbot.libretro.com/assets/system/XRick%20%28Rick%20Dangerous%29.zip",
+      "source_type": "http",
+      "extraction_type": "archive",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "xrick",
+          "dest": "rd_extras/xrick"
+        }
+      ]
+    },
+    {
       "source_url": "$WORKDIR",
       "source_type": "local",
       "extraction_type": "local",
@@ -246,6 +517,81 @@
           "type": "tar.gz",
           "source": "overlays/.",
           "dest": "rd_extras/overlays"
+        }
+      ]
+    },
+    {
+      "source_url": "https://github.com/libretro/retroarch-joypad-autoconfig",
+      "source_type": "git",
+      "version": "latest",
+      "extraction_type": "local",
+      "assets": [
+        {
+          "type": "dir",
+          "source": "android",
+          "dest": "$WORKDIR/autoconfig/android"
+        },
+        {
+          "type": "dir",
+          "source": "dinput",
+          "dest": "$WORKDIR/autoconfig/dinput"
+        },
+        {
+          "type": "dir",
+          "source": "hid",
+          "dest": "$WORKDIR/autoconfig/hid"
+        },
+        {
+          "type": "dir",
+          "source": "linuxraw",
+          "dest": "$WORKDIR/autoconfig/linuxraw"
+        },
+        {
+          "type": "dir",
+          "source": "mfi",
+          "dest": "$WORKDIR/autoconfig/mfi"
+        },
+        {
+          "type": "dir",
+          "source": "parport",
+          "dest": "$WORKDIR/autoconfig/parport"
+        },
+        {
+          "type": "dir",
+          "source": "qnx",
+          "dest": "$WORKDIR/autoconfig/qnx"
+        },
+        {
+          "type": "dir",
+          "source": "sdl2",
+          "dest": "$WORKDIR/autoconfig/sdl2"
+        },
+        {
+          "type": "dir",
+          "source": "udev",
+          "dest": "$WORKDIR/autoconfig/udev"
+        },
+        {
+          "type": "dir",
+          "source": "x",
+          "dest": "$WORKDIR/autoconfig/x"
+        },
+        {
+          "type": "dir",
+          "source": "xinput",
+          "dest": "$WORKDIR/autoconfig/xinput"
+        }
+      ]
+    },
+    {
+      "source_url": "$WORKDIR",
+      "source_type": "local",
+      "extraction_type": "local",
+      "assets": [
+        {
+          "type": "tar.gz",
+          "source": "autoconfig/.",
+          "dest": "rd_extras/autoconfig"
         }
       ]
     }

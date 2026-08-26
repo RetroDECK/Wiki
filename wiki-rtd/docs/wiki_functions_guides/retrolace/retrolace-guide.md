@@ -45,6 +45,28 @@ By enabling RetroLACE, you acknowledge and agree that:
 - You are solely responsible for ensuring that your use of unsupported components complies with all **applicable laws, regulations, and licensing requirements**.
 - You understand that enabling RetroLACE does not constitute an endorsement, recommendation, or guarantee of any unsupported component by the RetroDECK Team.
 
----
+### A Final Warning to Users
 
+The RetroDECK Team believes in the spirit of **add-ons, ROM hacks, open source and mods** in making it easy for users to tinker with, customize and modify RetroDECK.
+
+However, RetroLACE is more than a traditional add-on system. It hooks directly into the **core of the RetroDECK Framework**, the same framework used by both **RetroVERSE external components** and **RetroDECK internal components**.
+
+Because of this deep integration, RetroLACE is an **extremely powerful feature**. Unsupported components can affect core RetroDECK functionality and should therefore be treated with appropriate caution.
+
+Please **only install unsupported components from sources you trust**.
+
+Unsupported components may contain **malware or other malicious code** and could potentially:
+
+- Delete or modify your files.
+- Access or steal your personal data.
+- Compromise your RetroDECK installation.
+- Compromise your entire operating system.
+- Affect the security or stability of your system.
+
+Always research and verify the **source, security, compatibility and contents** of an unsupported component before installing it.
+
+**If you do not trust the source, do not install the component.**
+
+
+---
 

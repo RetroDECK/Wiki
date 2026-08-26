@@ -140,23 +140,9 @@ Choose **RetroVERSE** when the component or asset is suitable for RetroDECK's re
 - **Scope:** Strictly retro-focused components and assets.
 - **Licensing:** Must comply with applicable open-source licensing requirements. Proprietary code or assets may only be included when the necessary permission has been granted by the rights holder.
 - **Support:** Supported by the RetroDECK team and community.
-- **Review:** Reviewed by the RetroDECK team and community members.  The RetroDECK team has the final say.
+- **Review:** Reviewed by the RetroDECK team and community members.  The RetroDECK team has the final say in publication.
 - **Integration:** Integrates directly with RetroDECK.
 - **Adaptation:** Components are easier to maintain and adapt through RetroDECK component files.
-
----
-
-### PortMaster
-
-Choose **PortMaster** when the port would benefit users beyond RetroDECK or falls outside the scope of RetroVERSE.
-
-- **Scope:** Broader than RetroVERSE, supporting a wider range of games and ports.
-- **Review:** Reviewed by the PortMaster team and community members.
-- **Support:** Supported by the PortMaster team and community.
-- **Integration:** Less directly integrated with RetroDECK. PortMaster data is maintained under `retrodeck/PortMaster`.
-- **Reach:** Makes the port available to users beyond the RetroDECK ecosystem.
-
-See the [PortMaster Porting Guide](https://portmaster.games/porting.html) for porting requirements and instructions.
 
 ---
 
@@ -165,7 +151,7 @@ See the [PortMaster Porting Guide](https://portmaster.games/porting.html) for po
 *“There comes a time in every man's life when he has to tie his own shoes.”*
 - James C. Wood 1976
 
-**RetroLACE** or **LACE** (Local Add-on Component Environment) is a developer-oriented system for launching external components locally within RetroDECK and **shoeing** them in.
+**RetroLACE** or **LACE** (Local Add-on Component Environment) is a developer-oriented system for launching external components locally within RetroDECK.
 
 This feature is primarily intended for developers testing components that may eventually be:
 
@@ -181,23 +167,24 @@ RetroDECK allows users to manually install external components via RetroLACE. Th
 
 When enabling **RetroLACE**, users must accept a **legal disclaimer** acknowledging that:
 
-- Their RetroDECK installation will be considered **modified**.
-- External components are **not officially supported** by the RetroDECK team.
-- They are responsible for the external components they install and understand that they may cause **data loss, system damage, or other issues** affecting RetroDECK or the host operating system.
+- Their RetroDECK installation will be considered **modified** and 
+- External components are **not officially supported** by the RetroDECK Team, and the **RetroDECK Team is not responsible for any issues** caused by externally installed components.
+- The users are responsible for the external components they install and understand that they may cause **data loss, system damage, or other issues** affecting RetroDECK or the host operating system.
 - Users are responsible for performing **due diligence and appropriate research** before installing any external component.
-- That they are resposible for any legal or licensing issues related to their use.
+- That they are responsible for any legal or licensing issues related to their use.
 
 #### You as a developer and RetroLACE
 
 **RetroLACE** components may be used for development, testing, or software and assets that cannot be included in RetroVERSE or RetroDECK, for example because they:
 
-- Do not fit RetroDECK's retro-focused scope.
-- Have licensing restrictions that prevent inclusion in RetroDECK, but the user has obtained a valid license for their own use.
-- Require proprietary software or assets that cannot be distributed by RetroDECK.
+- Do not fit RetroDECK's **retro-focused scope**.
+- Have **licensing restrictions** that prevent distribution through RetroDECK or RetroVERSE, but can legally be used by a user who has obtained the required licence.
+- Require **proprietary software or assets** that RetroDECK cannot legally distribute.
+- Are still in **development or testing** and are not ready for inclusion in RetroVERSE or RetroDECK.
 
 Users download the component from its author's website or repository and extract it into:
 
-`retrodeck/storage/retrodeck/retrolace`
+`retrodeck/storage/retrodeck/retrolace/`
 
 **Support and Responsibility**
 
@@ -209,6 +196,20 @@ The component author or maintainer (YOU) is responsible for:
 - Hosting and distributing the component.
 - Resolving issues caused by the component.
 - Taking reasonable measures to ensure the component is safe and trustworthy.
+
+---
+
+### PortMaster
+
+Choose **PortMaster** when the port would benefit users beyond RetroDECK or falls outside the scope of RetroVERSE.
+
+- **Scope:** Broader than RetroVERSE, supporting a wider range of games and ports.
+- **Review:** Reviewed by the PortMaster team and community members.
+- **Support:** Supported by the PortMaster team and community.
+- **Integration:** Less directly integrated with RetroDECK. PortMaster data is maintained under `retrodeck/PortMaster`.
+- **Reach:** Makes the port available to users beyond the RetroDECK ecosystem.
+
+See the [PortMaster Porting Guide](https://portmaster.games/porting.html) for porting requirements and instructions.
 
 ---
 

@@ -130,6 +130,86 @@ In short, the **RetroDECK Framework is the engine behind RetroDECK**. It provide
 
 ---
 
+## RetroDECK Components
+
+<img src="../../../wiki_icons/retrodeck/icon-component.svg" width="50" alt="">
+
+RetroDECK is made by assembling various components.
+
+### What are Components?
+
+A **component** is a complete, packaged and sandboxed seperate piece of software or feature that RetroDECK manages as an independent unit in a subsandbox.
+
+Components are grouped into the following categories:
+
+- **Client**
+- **Emulator**
+- **Engine**
+- **Frontend**
+- **Game**
+- **Multi-Emulator**
+- **Port**
+- **Utility**
+- **RetroDECK Features & Functions**
+
+
+Components are built using a `component_recipe.sh` (the **Recipe**), which downloads, splits, configures and compiles the original upstream sources when required.
+
+Each component also includes **Component Ingredient Files** that define how RetroDECK installs, configures, launches, and integrates the component.
+
+Components are stored in their own isolated directory: `/app/retrodeck/components/<component-name>/`.
+
+The combination of the **Recipe** and **Component Ingredient Files** is collectively referred to as the **Component Files**.
+
+
+**Read more here about how we classify components:**
+
+[What is RetroDECK](../../wiki_about/what-is-retrodeck.md) 
+
+### RetroDECK?!
+
+RetroDECK itself with it's various tools and features is also an component.
+
+---
+
+## Component Files
+
+
+### Component Recipe File (a.k.a. "Recipe")
+
+**Purpose**
+
+The **Component Recipe** directs RetroDECK's build automation on how to transform a component's original source-whether an AppImage, Flatpak, pre-compiled binary, or source code-into a fully packaged RetroDECK component.
+
+The Recipe is processed by **RetroDECK Alchemist**, which builds and packages the component into a compressed **component artifact archive**. These artifacts are then integrated into RetroDECK builds by the **RetroDECK Assembler**.
+
+---
+
+### Component Ingredient Files (a.k.a. "Ingredients")
+
+**Purpose**
+
+**Component Ingredient Files** provide the RetroDECK framework with the metadata, scripts, and configuration information required for a component to be installed, configured, displayed, and launched correctly.
+
+**Key Contents**
+
+- **Component Metadata** - Name, description, menu text, links, and other information used by RetroDECK.
+- **Preset Actions** - Actions and steps performed when a user changes a preset.
+- **ES-DE Rules / Launch Commands** - Defines how ES-DE launches and finds the component.
+- **Launch Instructions** - Defines how RetroDECK starts the component.
+- **Component Configuration Settings** - Configuration file paths, options, and other component-specific settings.
+- **Install / Upgrade Instructions** - Defines how RetroDECK installs or upgrades the component, including directories, files, and symlinks that need to be created or maintained.
+
+**What Are the Component Ingredient Files?**
+
+| Ingredient File | Role |
+| :--- | :--- |
+| **`component_functions.sh`** | Declares configuration file paths and component-specific helper functions, such as firmware installation and configurator actions. It also handles one-time setup tasks, including resetting configurations, preparing directories, moving or backing up data, performing upgrade tasks between RetroDECK versions, and applying post-move adjustments. |
+| **`component_launcher.sh`** | Sets up the required environment and launches the component within its sandbox. |
+| **`component_manifest.json`** | Stores metadata and functional data for RetroDECK, including the component name, description, supported systems, menu entries, preset options, ES-DE launch commands, actions, preset compatibility, and optional core information. |
+
+---
+
 ## RetroDECK API
 
 <img src="../../../wiki_icons/retrodeck/icon-api.svg" width="50" alt="">
@@ -206,7 +286,6 @@ Its responsibilities include:
 
 ## RetroDECK Alchemist
 
-
 <img src="../../../wiki_icons/retrodeck/icon-alchemist.svg" width="50" alt="">
 
 The **RetroDECK Alchemist** toolkit is the component sourcing and building system within the **RetroDECK Assembler**.
@@ -245,7 +324,71 @@ The Library Hunter is a **helper tool, not a complete dependency resolver**. It 
 
 Some libraries may be missed, incorrectly identified, or require additional manual configuration. The generated `component_libs.json` should therefore be tested.
 
+---
 
+## RetroVERSE
+
+<img src="../../../wiki_icons/retrodeck/icon-retroverse.svg" width="50" alt="">
+
+RetroVERSE is a repository of instructions and resources for sourcing external **components, assets and other data** for RetroDECK. It is maintained and curated by the RetroDECK Team and Community and follows strict legal, licensing, and project guidelines.
+
+Conceptually, RetroVERSE is similar to an **app store** or projects such as **PortMaster**, providing users with optional content that can be discovered and downloaded independently of the core application. However, RetroVERSE is neither an app store nor PortMaster; it is a purpose-built, curated external resource list for RetroDECK.
+
+RetroVERSE provides optional downloads for resources that fit the RetroDECK scope but are not suitable as built-in components. This allows resources to be distributed and updated independently while keeping the core RetroDECK application focused, lightweight, and maintainable.
+
+The goal is to provide useful resources without increasing the size, maintenance burden, or complexity of the core RetroDECK application.
+
+Unlike internal RetroDECK components, RetroVERSE resources:
+
+- Are **optional** and not required for the core RetroDECK experience.
+- Have a **strictly retro-focused and limited scope**, with content that does not need to be part of the core application.
+- Can be **updated independently** of the RetroDECK core application.
+- Must comply with all applicable **legal, copyright, and licensing requirements**, as well as any **additional guidelines** established by the RetroDECK Team. Open-source content must comply with its applicable licence, while proprietary code or assets may only be included with explicit permission from the rights holder.
+- Are **curated by the RetroDECK Team and Community**. RetroVERSE is not an unrestricted community repository; the RetroDECK Team has final authority over what content is accepted.
+
+Examples of RetroVERSE content include:
+
+- **Standalone components** - such as an engine-reimplementation project supporting a specific game also known as **Ports**.
+- **Open-source games** - games that can legally be distributed under an appropriate open-source or permissive licence.
+- **Art assets** - optional assets such as additional borders, themes, or other visual resources.
+- **Other data** - supplementary resources that are useful to users but do not need to be part of the core application.
+
+The RetroVERSE component directory is:
+
+```
+retrodeck/storage/retrodeck/retroverse/
+```
+
+---
+
+## RetroLACE
+
+<img src="../../../wiki_icons/retrodeck/icon-retrolace.svg" width="50" alt="">
+
+**RetroLACE** (Local Add-on Component Environment)
+
+Is a developer-oriented system for launching and testing local external components within RetroDECK.
+
+Conceptually, RetroLACE provides a controlled way to use components that are **not part of the RetroDECK core** and **do not meet the requirements** for inclusion in RetroVERSE.
+
+RetroLACE is primarily a **development and testing environment** for developers working on software and assets that cannot be included in RetroDECK or RetroVERSE. It can also be used by users to install and run **third-party modifications and add-ons** locally.
+
+RetroDECK users can manually install external components through RetroLACE. This functionality is **disabled by default** and must be explicitly enabled by the user. When enabling **RetroLACE**, users must accept a **legal disclaimer**, that their RetroDECK installation will be considered **modified** and that The RetroDECK Team is not responsible for issues caused by externally installed components.
+
+Users obtain these components directly from the **component author's website, repository, or distribution channel** and install them locally.
+
+It can also be useful to users because it can support components that:
+
+- Do not fit RetroDECK's **retro-focused scope**.
+- Have **licensing restrictions** that prevent distribution through RetroDECK or RetroVERSE, but can legally be used by a user who has obtained the required licence.
+- Require **proprietary software or assets** that RetroDECK cannot legally distribute.
+- Are still in **development or testing** and are not ready for inclusion in RetroVERSE or RetroDECK.
+
+The RetroLACE component directory is:
+
+```
+retrodeck/storage/retrodeck/retrolace/
+```
 
 ---
 
@@ -255,86 +398,6 @@ Some libraries may be missed, incorrectly identified, or require additional manu
 
 [Reiki the Cyber Shark](../graphics/reiki/reiki.md) 
 
----
-
-## RetroDECK Components
-
-<img src="../../../wiki_icons/retrodeck/icon-component.svg" width="50" alt="">
-
-RetroDECK is made by assembling various components.
-
-### What are Components?
-
-A **component** is a complete, packaged and sandboxed seperate piece of software or feature that RetroDECK manages as an independent unit in a subsandbox.
-
-Components are grouped into the following categories:
-
-- **Client**
-- **Emulator**
-- **Engine**
-- **Frontend**
-- **Game**
-- **Multi-Emulator**
-- **Port**
-- **Utility**
-- **RetroDECK Features & Functions**
 
 
-Components are built using a `component_recipe.sh` (the **Recipe**), which downloads, splits, configures and compiles the original upstream sources when required.
-
-Each component also includes **Component Ingredient Files** that define how RetroDECK installs, configures, launches, and integrates the component.
-
-Components are stored in their own isolated directory: `/app/retrodeck/components/<component-name>/`.
-
-The combination of the **Recipe** and **Component Ingredient Files** is collectively referred to as the **Component Files**.
-
-
-**Read more here about how we classify components:**
-
-[What is RetroDECK](../../wiki_about/what-is-retrodeck.md) 
-
-### RetroDECK?!
-
-RetroDECK itself with it's various tools and features is also an component.
-
----
-
-## The Component Files
-
-
-### Component Recipe File (a.k.a. "Recipe")
-
-**Purpose**
-
-The **Component Recipe** directs RetroDECK's build automation on how to transform a component's original source—whether an AppImage, Flatpak, pre-compiled binary, or source code—into a fully packaged RetroDECK component.
-
-The Recipe is processed by **RetroDECK Alchemist**, which builds and packages the component into a compressed **component artifact archive**. These artifacts are then integrated into RetroDECK builds by the **RetroDECK Assembler**.
-
----
-
-### Component Ingredient Files (a.k.a. "Ingredients")
-
-**Purpose**
-
-**Component Ingredient Files** provide the RetroDECK framework with the metadata, scripts, and configuration information required for a component to be installed, configured, displayed, and launched correctly.
-
-**Key Contents**
-
-- **Component Metadata** - Name, description, menu text, links, and other information used by RetroDECK.
-- **Preset Actions** - Actions and steps performed when a user changes a preset.
-- **ES-DE Rules / Launch Commands** - Defines how ES-DE launches and finds the component.
-- **Launch Instructions** - Defines how RetroDECK starts the component.
-- **Component Configuration Settings** - Configuration file paths, options, and other component-specific settings.
-- **Install / Upgrade Instructions** - Defines how RetroDECK installs or upgrades the component, including directories, files, and symlinks that need to be created or maintained.
-
-**What Are the Component Ingredient Files?**
-
-| Ingredient File | Role |
-| :--- | :--- |
-| **`component_functions.sh`** | Declares configuration file paths and component-specific helper functions, such as firmware installation and configurator actions. It also handles one-time setup tasks, including resetting configurations, preparing directories, moving or backing up data, performing upgrade tasks between RetroDECK versions, and applying post-move adjustments. |
-| **`component_launcher.sh`** | Sets up the required environment and launches the component within its sandbox. |
-| **`component_manifest.json`** | Stores metadata and functional data for RetroDECK, including the component name, description, supported systems, menu entries, preset options, ES-DE launch commands, actions, preset compatibility, and optional core information. |
-
-
----
 

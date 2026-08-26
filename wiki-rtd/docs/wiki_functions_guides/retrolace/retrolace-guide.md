@@ -16,7 +16,7 @@ It can also be used to experiment with software or assets that fall outside the 
 
 But RetroLACE allows you as a user to manually install external components that are not included with the official RetroDECK distribution.
 
-RetroLACE is **Disabled** by default. You must explicitly **Enable** it and accept the a legal disclaimer before you can use this feature.
+RetroLACE is **Disabled** by default and you must explicitly **Enable** it.
 
 ### Where to put the Components?
 
@@ -28,7 +28,7 @@ RetroLACE components should be put into the `retrodeck/storage/retrodeck/retrola
 
 ## How-to: Enable RetroLACE
 
-By selecting **Enable RetroLACE** in **RetroDECK Configurator → Settings → RetroLACE**, you confirm that you have read, understood, accepted this disclaimer and agree to assume responsibility for the risks associated with installing and using unverified external components.
+By selecting **Enable RetroLACE** in **RetroDECK Configurator → Settings → RetroLACE**, you confirm that you have read, understood, accepted the legal disclaimer and agree to assume responsibility for the risks associated with installing and using unverified external components.
 
 ### Legal Disclaimer
 

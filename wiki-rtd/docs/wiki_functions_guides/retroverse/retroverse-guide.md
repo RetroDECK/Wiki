@@ -133,7 +133,7 @@ For more information:
 
 ---
 
-### Example 3 - External Components: Decompilation and Recompilation Projects
+### Example 3 - Decompilation and Recompilation Projects
 
 Many **decompilation and recompilation projects** for games across various retro consoles can be provided as full **External Components** under the **Port** category.
 

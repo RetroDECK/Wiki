@@ -95,6 +95,8 @@ Most Component Resources in RetroVERSE will likely fall into the following compo
 - **Ports**
 - **Engines**
 
+---
+
 ### Example 1 - VCMI
 
 **VCMI** is an open-source engine for *Heroes of Might and Magic III*. It is classified as the **Port** because it only supports one game.

@@ -109,8 +109,7 @@ retrodeck/storage/retrodeck/retroverse/<component_dir>
 
 **VCMI** is an open-source engine for *Heroes of Might and Magic III*. It is classified as the **Port** because it only supports one game.
 
-The VCMI component files hosted in RetroVERSE provide the **RetroDECK Alchemist** with the instructions required to obtain, build, package, and integrate VCMI from its official Flatpak on Flathub, as well as define how it should be presented in **ES-DE**. Once installed, VCMI is fully integrated into RetroDECK and follows the same component framework and directory structure as internal components, including locations for logs and where to put the required *Heroes of Might and Magic III* game files.
-
+The VCMI component files hosted in RetroVERSE provide the **RetroDECK Alchemist** with the instructions required to obtain, build, package, and integrate VCMI from its official Flatpak on Flathub, as well as define how it should be presented in **ES-DE**. Once installed, VCMI is fully integrated into RetroDECK and follows the same component framework and directory structure as internal components and defines where to put the required *Heroes of Might and Magic III* game files and how it should be launched.
 
 For more information about VCMI, see the official sources:
 
@@ -123,7 +122,7 @@ For more information about VCMI, see the official sources:
 
 **OpenGOAL**  is an open-source engine for first three *Jak and Daxter* games. It is classified as the **Engine** component type because it supports multiple games.
 
-The OpenGOAL component files hosted in RetroVERSE provide the **RetroDECK Alchemist** with the instructions required to obtain, build, package and integrate OpenGOAL from its official **AppImage**, as well as define how it should be presented in **ES-DE**. Once installed, OpenGOAL is fully integrated into RetroDECK and follows the same component framework and directory structure as internal components, including locations for logs and where to put the required *Jak and Daxter* game files.
+The OpenGOAL component files hosted in RetroVERSE provide the **RetroDECK Alchemist** with the instructions required to obtain, build, package and integrate OpenGOAL from its official **AppImage**, as well as define how it should be presented in **ES-DE**. Once installed, OpenGOAL is fully integrated into RetroDECK and follows the same component framework and directory structure as internal components and defines where to put the required *Jak and Daxter* game files and how they should be launched.
 
 For more information:
 
@@ -152,6 +151,8 @@ Examples can include projects targeting games from:
 
 These projects can be obtained, built, packaged, and integrated into RetroDECK using the standard **External Component** workflow.
 
+Once installed, they are fully integrated into RetroDECK and follows the same component framework and directory structure as internal components and defines where to put the required game files for each **Port** and how it should be launched.
+
 ---
 
 ### Example 4 - Fangames or Standalone Full Titles
@@ -160,7 +161,7 @@ Many **fangames and standalone titles** cannot be provided as Data-Only Resource
 
 These can instead be provided as **External Components** when they include a distributable binary and everything required to run the game independently.
 
-Unlike Data-Only Resources, these titles do not rely on a built-in RetroDECK component to run the game. They are packaged and integrated as a **complete application** through the standard **External Component** workflow and are classified as the **Game** component type.
+Unlike Data-Only Resources, these titles do not rely on a built-in RetroDECK component to run the game. They are packaged and integrated as a **complete application** through the standard **External Component** workflow and are classified as the **Game** component type. Once installed, the game is fully integrated into RetroDECK and follows the same component framework and directory structure and how it should be launched.
 
 ---
 

@@ -46,7 +46,7 @@ This makes it easier for users to discover and find the content they are looking
 
 ### Matching Types
 
-If a **Data Tidbit `data_type`** and a **Component `component_type`** match, they are presented together in the same RetroVERSE category.
+If a **Data Tidbit `tidbit_type`** and a **Component `component_type`** match, they are presented together in the same RetroVERSE category.
 
 **For example two Games:**
 

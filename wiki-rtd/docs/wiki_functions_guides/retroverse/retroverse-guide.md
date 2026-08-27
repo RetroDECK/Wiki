@@ -95,6 +95,12 @@ Most Component Resources in RetroVERSE will likely fall into the following compo
 - **Ports**
 - **Engines**
 
+They are installed under: 
+
+```
+retrodeck/storage/retrodeck/retroverse/<component_dir>
+```
+
 ---
 
 ### Example 1 - VCMI

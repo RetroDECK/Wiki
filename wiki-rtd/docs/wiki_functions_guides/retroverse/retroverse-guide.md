@@ -4,6 +4,8 @@
 
  *"The universe, ever-expanding, never-ending, inspiring and vast. From the smallest bug to the largest animal, all is small and all is equal."*
 
+## What is it?
+
 RetroVERSE is a curated repository of instructions and resources for sourcing external **components, assets and other data** for RetroDECK.
 
 It is maintained by the RetroDECK Team and Community and follows the project's legal, licensing and scope guidelines. RetroVERSE provides **optional downloads** for resources that support the RetroDECK project but are not appropriate for inclusion as built-in components.
@@ -12,7 +14,7 @@ Conceptually, RetroVERSE is similar to an **app store** or projects such as **Po
 
 However, RetroVERSE is **not an app store or PortMaster**. It is a purpose-built, curated resource repository designed specifically for RetroDECK. Resources downloaded through RetroVERSE integrate directly with the **RetroDECK Framework** and are handled by the framework in the same way as built-in internal components.
 
-## RetroVERSE Rules
+### RetroVERSE Rules
 
 All resources available through RetroVERSE:
 

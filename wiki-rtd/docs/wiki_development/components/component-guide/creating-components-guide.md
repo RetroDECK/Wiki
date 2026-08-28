@@ -30,9 +30,9 @@ When multiple source formats are available for a component, prioritize them in t
 | Priority | Format              | Description                                                                 |
 |----------|---------------------|-----------------------------------------------------------------------------|
 | 1        | Flatpak             | A sandboxed package format commonly used on Linux for app distribution.     |
-| 2        | AppImage            | A portable, self-contained executable that runs without installation        |
-| 3        | Precompiled Binary  | A ready-to-run executable built for a specific platform                     |
-| 4        | Build from Source   | Raw source code that must be compiled manually before use                   |
+| 2        | AppImage            | A portable, self-contained executable that runs without installation.       |
+| 3        | Precompiled Binary  | A ready-to-run executable built for a specific platform.                    |
+| 4        | Build from Source   | Raw source code that must be compiled manually to a binary before use.      |
 
 
 

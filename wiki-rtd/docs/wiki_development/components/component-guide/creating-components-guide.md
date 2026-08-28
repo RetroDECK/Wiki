@@ -135,6 +135,8 @@ If you are targeting your component to become an internal component of RetroDECK
 
 ###  RetroVERSE
 
+<img src="../../../wiki_icons/retrodeck/icon-retroverse.svg" width="50" alt="RetroVERSE Logo">
+
 Choose **RetroVERSE** when the component or asset is suitable for RetroDECK's retro-focused ecosystem.
 
 **Read more here:**
@@ -144,6 +146,8 @@ Choose **RetroVERSE** when the component or asset is suitable for RetroDECK's re
 ---
 
 ### RetroLACE: Local Add-on Component Environment
+
+<img src="../../../wiki_icons/retrodeck/icon-retrolace.svg" width="50" alt="RetroLACE Logo">
 
 *“There comes a time in every man's life when he has to tie his own shoes.”*
 - James C. Wood 1976
@@ -192,6 +196,8 @@ The RetroDECK Team may provide limited assistance, provided it complies with:
 ---
 
 ### Another Option: PortMaster
+
+<img src="../../../wiki_images/logos/portmaster-logo.png" width="50" alt="PortMaster Logo">
 
 Choose **PortMaster** when it would benefit users beyond RetroDECK or falls outside the scope of RetroVERSE.
 

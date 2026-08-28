@@ -1,6 +1,6 @@
 ﻿# RetroLACE: Local Add-on Component Environment
 
-<img src="../../../wiki_icons/retrodeck/icon-retrolace.svg" width="75" alt="">
+<img src="../../../wiki_icons/retrodeck/icon-retrolace.svg" width="75" alt="RetroLACE Logo">
 
 *"A tiny lacewing, fragile and translucent, looks up at the sky as the universe gazes back. Its wings mirroring the interconnected webs of the cosmos, dreaming to become a star."*
 

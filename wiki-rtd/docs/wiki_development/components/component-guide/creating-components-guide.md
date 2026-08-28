@@ -150,7 +150,7 @@ Choose **RetroVERSE** when the component or asset is suitable for RetroDECK's re
 
 **RetroLACE** or **LACE** (Local Add-on Component Environment) is a developer-oriented system for launching external components locally within RetroDECK.
 
-RetroDECK allows users to manually install external components via RetroLACE. This feature is **disabled by default** and must be explicitly enabled.
+RetroDECK allows users to manually install external components via RetroLACE. This feature is **Disabled** by default and must be explicitly enabled.
 
 When enabling **RetroLACE**, users must accept a **Legal Disclaimer**.
 

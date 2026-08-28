@@ -45,12 +45,11 @@ In RetroDECK we use the neutral name of **Component**.
 
 [RetroDECK/ES-DE](https://github.com/RetroDECK/ES-DE)
 
-RetroDECK Maintains a very light fork of ES-DE with some customizations: 
+RetroDECK uses a custom ES-DE build configured for integration with the RetroDECK Flatpak environment.
 
-- Adds and changes some main menu entries (Example: RetroDECK Configurator, ES-DE Configurations).
-- Changes the default folder creation to match RetroDECKs structure.
+The build uses the upstream ES-DE codebase and the existing **RETRODECK** build flag to enable RetroDECK-specific adjustments.
 
-The ES-DE Team is resposible for new features added into ES-DE, but the RetroDECK Team collaberates with them when needed.
+Upstream ES-DE development is performed by the ES-DE team. RetroDECK regularly updates its build against upstream changes to remain aligned with the current ES-DE codebase.
 
 ---
 

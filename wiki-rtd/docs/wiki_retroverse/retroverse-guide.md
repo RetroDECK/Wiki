@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_icons/retrodeck/icon-retroverse.svg" width="75" alt="">
 
- *"The universe, ever-expanding, never-ending, inspiring and vast. From the smallest bug to the largest animal, all is small and all is equal."*
+*"The universe, ever-expanding, never-ending, inspiring and vast. From the smallest bug to the largest animal, all is small and all is equal."*
 
 ## What is it?
 
@@ -44,31 +44,14 @@ RetroVERSE uses RetroDECK's existing **Component group classifications** and **D
 
 This makes it easier for users to discover and find the content they are looking for.
 
-### Matching Types
-
-If a **Data Tidbit `tidbit_type`** and a **Component `component_type`** match, they are presented together in the same RetroVERSE category.
-
-**For example two Games:**
-
-```
-"component_type": "Game", <--- The component game. 
-"tidbit_type": "Game" <--- A tidbit game.
-```
-
-Both are presented under the **Games** category.
-
-From the user's perspective, how the game is sourced or implemented does not matter. An open-source ROM, fangame, or standalone game is simply a **game**.
-
-This keeps the RetroVERSE interface focused on **what users are looking for**, rather than how the resource is implemented internally.
-
 
 ---
 
 ## External Data Resources: Data Tidbits
 
-**Data Tidbits** are exclusive to the RetroVERSE. They are separate from **Components** and are intended to provide data *consumed* by RetroDECK's internal components.
+**Data Tidbits** are exclusive to the RetroVERSE. They are separate from **Components** and are intended to provide data *consumed* by RetroDECK's Components.
 
-A Data Tidbit defines how required files are obtained, extracted and placed in a specific RetroDECK directory. It is not a standalone application as a component. A Data Tidbit may use **one or more sources**, but always produces **one defined output**.
+A Data Tidbit defines how required files are obtained, extracted and placed in a specific RetroDECK directory. It is not a standalone application as a Component. A Data Tidbit may use **one or more sources**, but always produces **one defined output**.
 
 The format is intentionally simple and focused on:
 
@@ -76,7 +59,9 @@ The format is intentionally simple and focused on:
 - Extracting or processing them when necessary.
 - Placing the resulting files in the defined RetroDECK location.
 
-### Tidbit Types
+---
+
+### Data Tidbit: Types
 
 Data Tidbits are classified using **`tidbit_type`**, which is equivalent to a Component's **`component_type`**.
 
@@ -84,9 +69,9 @@ The available data types generally correspond to the RetroDECK directory structu
 
 - **Borders** - External borders installed under `retrodeck/borders/<component_borders_dir>`.
 
-- **Cheats** - External cheat databases installed under `retrodeck/cheats/<component_cheats_dir>`.
+- **Cheats** - External cheats installed under `retrodeck/cheats/<component_cheats_dir>`.
 
-- **Game** - Game content that can be used by a built-in Component. This may include fan-made or open-source ROMs, homebrew games, or fan games that can be launched through a supported engine.
+- **Game** - Game content that can be **used by a Component**. This may include fan-made or open-source ROMs, homebrew games, or fan games that can be launched through a supported engine or emulator.
 
 - **Misc** - Other supporting data that does not fit into the categories above. Depending on its purpose, this may be installed under `retrodeck/storage/<component_storage_dir>` or another Component-specific location.
 
@@ -100,32 +85,55 @@ The available data types generally correspond to the RetroDECK directory structu
 
 - **Cheats** - An external MelonDS cheat database.
 - **Freely distributable game content** - Such as DOOM shareware and Freedoom for DOOM.
-- **Open-source ROMs** - Such as the Zork I, II, and III game files for the Z-machine.
+- **Fan-made or Open-source ROMs** - Such as the Zork I, II, and III game files for the Z-machine.
+
+---
 
 ### How It Works
 
-From the user's perspective, the process remains simple. RetroDECK can present an action such as **Download Zork Trilogy** or **Download DOOM Shareware**.
+From the user's perspective, the process remains simple. RetroDECK can present an action such as:
+
+- **Download: Zork Trilogy** 
+- **Download: DOOM Shareware**
 
 The process is handled automatically through the **RetroDECK Framework**:
 
 1. A **Data Tidbit** is added to the RetroVERSE repository with its required instructions.
-2. A **RetroVERSE Release** is built from the Data Tidbit.
-3. The user downloads the Data Tidbit through RetroDECK.
-4. The RetroDECK Framework follows the Data Tidbit's instructions to extract and put the required files in a location.
-5. The resulting data is made available to the appropriate built-in **Component**.
+2. When a **RetroVERSE Release** is built, the Data Tidbit is gathered with it as part of the release.
+3. The user downloads the Data Tidbit through the **RetroVERSE** in **RetroDECK**.
+4. The **RetroDECK Framework** follows the Data Tidbit's instructions on how-to extract and put the required files in a location.
+5. The resulting data is made available to the appropriate **Component**.
 
-This keeps **Data Tidbits** focused on **providing data**, while **Components** remain responsible for **using that data**.
-
+This keeps **Data Tidbits** focused on **providing data**, while **Components** remain responsible for **consuming that data**.
 
 ---
 
-### Example - Data-Only Resources: Zork I, II, and III
+### Matching Types
+
+If a **Data Tidbit `tidbit_type`** and a **Component `component_type`** match, they are presented together in the same RetroVERSE category.
+
+**For example two Games:**
+
+```
+"Component_type": "Game", <--- The Component game. 
+"tidbit_type": "Game" <--- A tidbit game.
+```
+
+Both are presented under the **Games** category.
+
+From the user's perspective, how the game is sourced or implemented does not matter. An open-source ROM, fangame, or standalone game is simply a **game**.
+
+This keeps the RetroVERSE interface focused on **what users are looking for**, rather than how the resource is implemented internally.
+
+---
+
+### Example 1 - Zork I, II, and III
 
 Microsoft released the source code for **Zork I, II, and III** as open source.
 
-In RetroVERSE the Data Tidbit of "The Zork Trilogy" instructs how to download Zork I, II, and III from official source locations, the files to retrieve, how they should be processed, where they should be put and how the feature should be presented in the RetroVERSE menu within RetroDECK.
+In RetroVERSE the Data Tidbit of **"The Zork Trilogy"** instructs how to download Zork I, II, and III from official source locations, the files to retrieve, how they should be processed, where they should be put and how the feature should be presented in the RetroVERSE menu within RetroDECK.
 
-From the user's perspective, this is presented as a simple **"Download Zork Trilogy"** action under the **Games** category in RetroVERSE. The RetroDECK Framework then handles the required download and extraction from a **RetroVERSE Release**, placing the appropriate files in:
+From the user's perspective, this is presented as a simple **"Download Zork Trilogy"** action under the **Games** category in RetroVERSE. The **RetroDECK Framework** then handles the required download and extraction from a **RetroVERSE Release**, placing the appropriate files in:
 
 `retrodeck/roms/zmachine/`
 
@@ -140,27 +148,24 @@ They can then be used by a built-in **Emulator Component**, such as RetroArch or
 
 ---
 
-## Component Resources: External Components
-
-**External Components** follow the same RetroDECK development instructions and standards for how they are obtained, built, and integrated.
+## External Components
 
 Components are **full applications** classified using `component_type` according to RetroDECK standards.
 
-External Components in RetroVERSE are built using the same process as built-in RetroDECK Components. When downloaded, they are extracted and loaded by the **RetroDECK Framework** during the next RetroDECK boot.
+**External Components** follow the same RetroDECK development instructions and standards for how they are obtained, built and integrated as the internal Components.
 
-Once loaded, an External Component is treated as a **fully integrated RetroDECK Component**, just like a built-in Component.
+When downloaded, they are extracted and loaded by the **RetroDECK Framework** during the next RetroDECK boot.
 
-Most External Components in RetroVERSE will likely fall into the following categories:
+Once loaded, an External Component is treated as a **fully integrated RetroDECK Component**, just like a internal Component.
+
+Most External Components in RetroVERSE will *likely* fall into the following categories:
 
 - **Games**
 - **Ports**
 - **Engines**
 
-External Components are installed under:
+External Components are installed under: `retrodeck/storage/retrodeck/retroverse/<component_dir>`
 
-```
-retrodeck/storage/retrodeck/retroverse/<component_dir>
-```
 
 ---
 
@@ -168,7 +173,7 @@ retrodeck/storage/retrodeck/retroverse/<component_dir>
 
 **VCMI** is an open-source engine for *Heroes of Might and Magic III*. It is classified as the **Port** because it only supports one game.
 
-Once installed, VCMI is fully integrated into RetroDECK and follows the same component framework and directory structure as internal components and defines where to put the required *Heroes of Might and Magic III* game files and how it should be launched.
+Once installed, VCMI is fully integrated into RetroDECK and follows the same Component framework and directory structure as internal Components and defines where to put the required *Heroes of Might and Magic III* game files and how it should be launched.
 
 For more information about VCMI, see the official sources:
 
@@ -179,9 +184,9 @@ For more information about VCMI, see the official sources:
 
 ### Example 2 - OpenGOAL
 
-**OpenGOAL**  is an open-source engine for first three *Jak and Daxter* games. It is classified as the **Engine** component type because it supports multiple games.
+**OpenGOAL**  is an open-source engine for first three *Jak and Daxter* games. It is classified as the **Engine** Component type because it supports multiple games.
 
-Once installed, OpenGOAL is fully integrated into RetroDECK and follows the same component framework and directory structure as internal components and defines where to put the required *Jak and Daxter* game files and how they should be launched.
+Once installed, OpenGOAL is fully integrated into RetroDECK and follows the same Component framework and directory structure as internal Components and defines where to put the required *Jak and Daxter* game files and how they should be launched.
 
 For more information:
 
@@ -208,7 +213,7 @@ Examples can include projects targeting games from:
 - **Sega Saturn**
 - **Sega Genesis / Mega Drive**
 
-Once installed, they are fully integrated into RetroDECK and follows the same component framework and directory structure as internal components and defines where to put the required game files for each **Port** and how it should be launched.
+Once installed, they are fully integrated into RetroDECK and follows the same Component framework and directory structure as internal Components and defines where to put the required game files for each **Port** and how it should be launched.
 
 ---
 
@@ -218,9 +223,9 @@ Many **fangames and standalone titles** cannot be provided as Data Tidbits becau
 
 These can instead be provided as **External Components** when they include a distributable binary and everything required to run the game independently.
 
-Unlike Data Tidbits, these titles do not rely on a component to run the game. They are packaged and integrated as a **complete application** and are classified as the **Game** component type. 
+Unlike Data Tidbits, these titles do not rely on a Component to run the game. They are packaged and integrated as a **complete application** and are classified as the **Game** Component type. 
 
-Once installed, the game is fully integrated into RetroDECK and follows the same component framework and directory structure and how it should be launched.
+Once installed, the game is fully integrated into RetroDECK and follows the same Component framework and directory structure and how it should be launched.
 
 ---
 

@@ -1,4 +1,4 @@
-﻿# Duckstation - General Guide
+﻿# Duckstation (Legacy) - General Guide
 
 <img src="../../../wiki_images/logos/duckstation-logo.png" width="100" alt="Duckstation logo">
 
@@ -6,9 +6,9 @@ Duckstation is a Playstation 1 - PSX Emulator.
 
 **Note: Legacy Emulator**
 
-As of RetroDECK `0.9.0b` Duckstation have made licensing changes and is marked as Legacy. 
+Starting with RetroDECK `0.9.0b`, DuckStation changed its licensing from open source to closed source and is therefore marked as **Legacy**.
 
-It will no longer receive any updates and is working as-is. 
+The Legacy version will no longer receive updates and is provided **as-is**.
 
 ---
 
@@ -134,7 +134,7 @@ The resulting directory should follow this structure:
 ```
 retrodeck/
 └── texture_packs/
-    └── Flycast/
+    └── duckstation/
         └── textures/
             └── TITLEID/
                 └── <texture files>

@@ -4,7 +4,7 @@
 
 # **The RetroDECK Wiki**
 
-This wiki provides clear, comprehensive documentation to help you install, configure and get the most out of **RetroDECK**.
+This wiki provides clear, comprehensive documentation to help you install, configure and get the most out of **RetroDECK** the **all-in-one retro gaming platform**.
 
 Use the sections below to quickly find what you need or use the left-hand panel to explore the all of the content.
 

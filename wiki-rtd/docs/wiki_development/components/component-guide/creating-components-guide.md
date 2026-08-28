@@ -55,38 +55,37 @@ Use the issue to explain your idea and get feedback from the RetroDECK team.
 
 Some components might not fit with RetroDECK’s design goals or technical direction. The RetroDECK team will review each proposal and has the final say on whether a component gets included or not.
 
-### Check Licensing
+### Check Licensing, Morals and Ethics
 
-Make sure the component you're suggesting has a license that is compatible with RetroDECK.
+Verify that the component meets RetroDECK's licensing, moral and ethical requirements.
 
-### Test & Research the Component
+- **License:** Confirm that the component's license is compatible with RetroDECK and document any relevant licensing requirements or restrictions.
+- **Morals & Ethics:** Ensure the component aligns with RetroDECK's moral and ethical standards as defined in the **Social Media Guidelines**.
 
-Before proposing anything, download and run the component locally. Understand how it behaves in its native environment.
+### Test, Research and Determine Access
 
-- **Settings**: What options does it support? Look for things like hotkeys, fullscreen, widescreen, auto-close launcher, etc.
-- **CLI/Launch Commands**: Are there any command-line options or launch arguments?
-- **Configuration**: Where are settings saved? Identify any config files or folders used.
+Download and run the component locally to understand its behavior in its native environment and determine how it should be integrated and accessed in RetroDECK.
 
+**Behavior & Input**
 
-### How should users access it?
+- **Settings:** Identify supported options, including keyboard/gamepad shortcuts, fullscreen or widescreen modes, auto-close behavior, and other user-configurable features.
+- **Input Support:** Determine how the component's GUI can be controlled using a gamepad, mouse, keyboard, or a combination of inputs. If the component can launch games, document how those are controlled and whether input behavior can be configured or changed.
 
-- Is it an component already supported by ES-DE native but not yet added to RetroDECK?
-- Is it a new component that needs custom menu entries and formats?
-- Is it a port that should go into the ES-DE port menu?
-- Should it be launched via the Configurator?
-- Is there cli launch command for the component and what are they?
-- Other things that might be unique for just that component when it comes to access.
+**Launch & Configuration**
 
-### Where do the files go?
+- **CLI / Launch Commands:** Document supported command-line options and launch arguments.
 
-- What files does the component use?
-- How can you map them into the `retrodeck/` directory structure?
+**Filesystem & Paths**
 
-### What needs to be user-editable?
+- **Paths:** Determine whether folder paths can be customized through configuration files, CLI options, or both. Document how directories are created, including their location, purpose and creation behavior.
+- **XDG Base Directories:** Determine whether the component supports the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/latest/), including `XDG_CONFIG_HOME`, `XDG_DATA_HOME`, and `XDG_CACHE_HOME`. Determine which component files belong in RetroDECK's Flatpak directories under `/home/<user>/.var/app/net.retrodeck.retrodeck/` and whether they should be stored under `config`, `data`, or `cache`.
+- **Files:** Identify the files and file types used by the component, including configuration files, user data, saves, caches, logs, assets and other relevant data. Determine which files or directories should be exposed to users and mapped into the `retrodeck/` directory structure, documenting the proposed paths and their purpose. Also determine which files should be stored in the Flatpak XDG Base Directories (`config`, `data`, or `cache`), and which should remain internal or be protected by a read-only filesystem.
 
-- Which files or folders should be exposed to the user?
-- Think about what should go into `/home/<user>/.var/app/net.retrodeck.retrodeck/` - under `data`, `cache`, or `config`.
+**Frontend & RetroDECK Integration**
 
+- **Native Frontend Support:** Determine whether the component is already supported natively by ES-DE but not yet integrated into RetroDECK.
+- **Custom Integration:** Determine whether it requires custom menu entries, system definitions, file formats, or other ES-DE configuration.
+- **Configurator:** Determine whether the component should be launched, configured, or managed through the RetroDECK Configurator.
 
 ---
 

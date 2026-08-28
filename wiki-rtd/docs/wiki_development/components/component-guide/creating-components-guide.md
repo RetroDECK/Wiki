@@ -135,14 +135,11 @@ If you are targeting your component to become an internal component of RetroDECK
 
 ###  RetroVERSE
 
-Choose **RetroVERSE** when the component or asset is suitable for RetroDECK's retro-focused  ecosystem.
+Choose **RetroVERSE** when the component or asset is suitable for RetroDECK's retro-focused ecosystem.
 
-- **Scope:** Strictly retro-focused components and assets.
-- **Licensing:** Must comply with applicable open-source licensing requirements. Proprietary code or assets may only be included when the necessary permission has been granted by the rights holder.
-- **Support:** Supported by the RetroDECK team and community.
-- **Review:** Reviewed by the RetroDECK team and community members.  The RetroDECK team has the final say in publication.
-- **Integration:** Integrates directly with RetroDECK.
-- **Adaptation:** Components are easier to maintain and adapt through RetroDECK component files.
+**Read more here:**
+
+[RetroVERSE](../../../wiki_retroverse/retroverse-guide.md)
 
 ---
 
@@ -153,25 +150,13 @@ Choose **RetroVERSE** when the component or asset is suitable for RetroDECK's re
 
 **RetroLACE** or **LACE** (Local Add-on Component Environment) is a developer-oriented system for launching external components locally within RetroDECK.
 
-This feature is primarily intended for developers testing components that may eventually be:
-
-- Integrated into RetroDECK as an internal component.
-- Distributed through RetroVERSE as an external compoent. 
-- Distrubuted by the developers own channels and installed via **RetroLACE** as an modification or add-on. 
-
-It can also be used to experiment with software or assets that fall outside the normal scope of RetroDECK.
-
-#### Users and RetroLACE
-
 RetroDECK allows users to manually install external components via RetroLACE. This feature is **disabled by default** and must be explicitly enabled.
 
-When enabling **RetroLACE**, users must accept a **legal disclaimer** acknowledging that:
+When enabling **RetroLACE**, users must accept a **Legal Disclaimer**.
 
-- Their RetroDECK installation will be considered **modified** and 
-- External components are **not officially supported** by the RetroDECK Team, and the **RetroDECK Team is not responsible for any issues** caused by externally installed components.
-- The users are responsible for the external components they install and understand that they may cause **data loss, system damage, or other issues** affecting RetroDECK or the host operating system.
-- Users are responsible for performing **due diligence and appropriate research** before installing any external component.
-- That they are responsible for any legal or licensing issues related to their use.
+**Read more here:**
+
+[RetroVERSE](../../../wiki_functions_guides/retrolace/retrolace-guide.md)
 
 #### You as a developer and RetroLACE
 
@@ -186,9 +171,11 @@ Users download the component from its author's website or repository and extract
 
 `retrodeck/storage/retrodeck/retrolace/`
 
-**Support and Responsibility**
+**Support and Responsibility: Self Distribution**
 
-The component author or maintainer (YOU) is responsible for:
+If your goal is to distrubute the component in your channels and have the users install it via **RetroLACE** as an modification or add-on.
+
+**You** as the component author and maintainer is responsible for:
 
 - Providing user support and maintaining the component.
 - Making sure the component only installs and uses files within the RetroDECK Sandbox.
@@ -197,11 +184,16 @@ The component author or maintainer (YOU) is responsible for:
 - Resolving issues caused by the component.
 - Taking reasonable measures to ensure the component is safe and trustworthy.
 
+The RetroDECK Team may provide limited assistance, provided it complies with: 
+
+- The **Legal Disclaimer** accepted by the users for using RetroLACE.
+- Our moral and ethical standards outlined in our **Social Media Guidelines**.
+
 ---
 
-### PortMaster
+### Another Option: PortMaster
 
-Choose **PortMaster** when the port would benefit users beyond RetroDECK or falls outside the scope of RetroVERSE.
+Choose **PortMaster** when it would benefit users beyond RetroDECK or falls outside the scope of RetroVERSE.
 
 - **Scope:** Broader than RetroVERSE, supporting a wider range of games and ports.
 - **Review:** Reviewed by the PortMaster team and community members.
@@ -209,7 +201,7 @@ Choose **PortMaster** when the port would benefit users beyond RetroDECK or fall
 - **Integration:** Less directly integrated with RetroDECK. PortMaster data is maintained under `retrodeck/PortMaster`.
 - **Reach:** Makes the port available to users beyond the RetroDECK ecosystem.
 
-See the [PortMaster Porting Guide](https://portmaster.games/porting.html) for porting requirements and instructions.
+See the [PortMaster Porting Guide](https://portmaster.games/porting.html) for porting requirements and instructions. Continue from there, as you are no longer developing a RetroDECK component, but a PortMaster port.
 
 ---
 

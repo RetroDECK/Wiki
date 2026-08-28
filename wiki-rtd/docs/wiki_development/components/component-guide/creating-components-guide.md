@@ -34,6 +34,13 @@ When multiple source formats are available for a component, prioritize them in t
 | 3        | Precompiled Binary  | A ready-to-run executable built for a specific platform.                    |
 | 4        | Build from Source   | Raw source code that must be compiled manually to a binary before use.      |
 
+### What Is Their Recommended Release Format?
+
+If the official documentation recommends a specific release format, use the official format first. Unofficial formats should only be considered when no official format is available.
+
+For example, if an unofficial Flatpak is published on Flathub by an independent contributor, while the application's official team distributes only an AppImage through its GitHub repository, use the official AppImage instead.
+
+For **Priority 4** applications that provide only source code and no official binaries, an unofficial package may be used if it automatically builds from the application's official source repository. In such cases, a Flatpak or AppImage that builds directly from the official source may be used instead of manually compiling the source for each release.
 
 
 ---

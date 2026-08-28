@@ -156,7 +156,7 @@ When enabling **RetroLACE**, users must accept a **Legal Disclaimer**.
 
 **Read more here:**
 
-[RetroVERSE](../../../wiki_functions_guides/retrolace/retrolace-guide.md)
+[RetroLACE](../../../wiki_functions_guides/retrolace/retrolace-guide.md)
 
 #### You as a developer and RetroLACE
 

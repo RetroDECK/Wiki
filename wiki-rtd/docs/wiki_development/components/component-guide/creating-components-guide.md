@@ -191,10 +191,13 @@ If your goal is to distrubute the component in your channels and have the users 
 - Resolving issues caused by the component.
 - Taking reasonable measures to ensure the component is safe and trustworthy.
 
-The RetroDECK Team may provide limited assistance, provided it complies with: 
+**Support and Responsibility: The Exception**
 
-- The **Legal Disclaimer** accepted by the users for using RetroLACE.
-- Our moral and ethical standards outlined in our **Social Media Guidelines**.
+The RetroDECK Team may provide limited support for components that meet all of the following requirements:
+
+- Are developed with the intention of becoming a built-in **Internal Component** of RetroDECK or being published on the **RetroVERSE** as an **External Component**, with RetroLACE being used as the testing and development environment.
+- It complies with the **Legal Disclaimer** accepted by users of RetroLACE.
+- Adhere to the moral and ethical standards defined in RetroDECKs **Social Media Guidelines**.
 
 ---
 

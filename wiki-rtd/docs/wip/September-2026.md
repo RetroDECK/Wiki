@@ -145,7 +145,7 @@ With this update, you will find systems and components that you may not have see
 
 Many of these components are niche and can be difficult to install. Some require users to build the software from source, while others have never previously been available as a Flatpak. With RetroDECK, users should no longer have to deal with that complexity themselves.
 
-As we demonstrated with **XRoar**, we can take build these projects and integrate them directly into RetroDECK, making them much easier to install and use.
+As we demonstrated with **XRoar**, we can build these projects and integrate them directly into RetroDECK, making them much easier to install and use.
 
 With this update, we also want to highlight the incredible variety within the retro-gaming community. Our goal is not simply to support the most well-known systems, but to bring attention to communities and projects across the entire spectrum of retro gaming from historically important systems to niche platforms and projects that might otherwise be overlooked.
 

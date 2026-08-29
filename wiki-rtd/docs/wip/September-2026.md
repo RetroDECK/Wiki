@@ -21,17 +21,17 @@ The RetroDECK Team have been hard at work stirring the development cauldron.
 
 ---
 
-## RetroDECK Travel Log: Shenzhen
+## RetroDECK Summer Travels
 
-With summer coming to an end, members of the RetroDECK team have been traveling and one team member recently visited a particularly unique destination: **Shenzhen, China**.
+With summer coming to an end, members of the RetroDECK team have been traveling. But **ONE** team member recently visited a particularly unique destination: **Shenzhen, China**.
 
-**Note:** The RetroDECK Team does not endorse or promote any particular products, companies, or manufacturers as a result of this visit.
-
-Now on to his story.
+**Disclaimer:** The RetroDECK Team does not endorse or promote any particular products, companies or manufacturers. We are not officially affiliated with the companies mentioned in this travel blog. The visits were made independently as fans and members of the wider open source community.
 
 ---
 
-### Purpose of the Visit
+## RetroDECK Travel Log: Shenzhen
+
+I have always had a personal interest in technology, so when the opportunity arose to visit Shenzhen, it was simply too good to pass up. Shenzhen is widely regarded as one of China's major technology hubs and being able to experience its technology ecosystem firsthand was something I was genuinely excited about.
 
 I traveled with my friend **Tyson Tan**, a well-known KDE and Krita contributor and FOSS artist, who joined me throughout the trip. 
 
@@ -42,8 +42,6 @@ The purpose of these visits **was not** as some might speculate to promote Retro
 We were not representing a for-profit company, nor were we acting as reviewers or media representatives whose work depends on maintaining favorable relationships with these companies. 
 
 We were there simply as fans and members of the open source community and driven by a genuine enthusiasm for FOSS.
-
-I have always had a personal interest in technology, so when the opportunity arose to visit Shenzhen, it was simply too good to pass up. Shenzhen is widely regarded as one of China's major technology hubs and being able to experience its technology ecosystem firsthand was something I was genuinely excited about.
 
 ---
 

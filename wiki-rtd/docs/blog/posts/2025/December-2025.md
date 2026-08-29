@@ -71,13 +71,15 @@ Below is a link to the nearly complete patch notes for version 0.10.0b. Please n
 
 ## 🎁 Preview: 0.11.0b DOSBox-X
 
-For version 0.11.0b (the major update following 0.10.0b), we plan to integrate DOSBox-X. Instead of a standard implementation, we aim to provide a **RetroDECK-style experience**.
+For version 0.11.0b (the major update following 0.10.0b), we hope to integrate DOSBox-X. Instead of a standard implementation, we aim to provide a **RetroDECK-style experience**.
 
 The goal is to allow Windows 3.1 and 95/98 games to launch directly without navigating the legacy operating systems. Similar to our treatment of OpenBOR and Doom, each game will have its own wrapper to simplify launching.
 
 An early prototype video is available below:
 
 ![type:video](dosbox-x-supercut.webm)
+
+*Subject to change depending on the final scope of 0.11.0b*
 
 ---
 

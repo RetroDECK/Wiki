@@ -35,7 +35,7 @@ Now on to his tales!
 
 ## RetroDECK Travel Blog: Team FOSS
 
-<img src="../konqi-bughunt.png" alt="" width="125 "> <img src="../kiki-small.png" alt="" width="125">  
+<img src="../kiki-small.png" alt="" width="125">  <img src="../konqi-bughunt.png" alt="" width="125 "> 
 
 I have always had a personal interest in technology, so when the opportunity arose to visit Shenzhen, it was simply too good to pass up. Shenzhen is widely regarded as one of China's major technology hubs and being able to experience its technology ecosystem firsthand was something I was genuinely excited about.
 
@@ -53,11 +53,9 @@ The purpose of these visits **was not** as some might speculate to promote Retro
 
 ### Finding Information
 
-
-
 For many of these smaller or more niche Chinese companies, simply finding the right information and contacts across the communication and cultural barriers between East and West can be challenging.
 
-As a founding member of the RetroDECK team with a long-standing connection to China and many years of experience visiting the country, I have a personal understanding of some of the challenges involved in communicating across these cultural and geographic boundaries. This includes both the practical difficulties of finding the right contacts and the cultural differences that can sometimes make communication more difficult.
+As a founding member of the RetroDECK team with a long-standing connection to China and many years of experience visiting the country and I consider it my second home, I have a personal understanding of some of the challenges involved in communicating across these cultural and geographic boundaries. This includes both the practical difficulties of finding the right contacts and the cultural differences that can sometimes make communication more difficult.
 
 We hope that our visits helped point them in the right direction and gave them some useful places to start. While we cannot guarantee that anything will come from these conversations, we hope that the information, introductions and connections we shared will prove helpful in the future.
 
@@ -201,7 +199,7 @@ It also got heated when we debated the best **Guo Bao Rou** places.
 
 ---
 
-### Thank You
+### 谢谢
 
 I would like to sincerely thank all the Chinese companies, communities and friends who took the time to meet with me during my little trip through China.
 

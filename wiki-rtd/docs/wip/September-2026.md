@@ -83,7 +83,7 @@ In general, Tyson and I discussed a range of broad topics with all we visted, in
 
 ---
 
-### Community and Project Dynamics
+### The Risk of FOSS Project Dynamics
 
 One light-hearted but important topic was the need to keep an eye on community and project dynamics. Some of the companies we spoke with shared stories about negative experiences with parts of the open source community that they had heard about from other companies (not themselves).
 

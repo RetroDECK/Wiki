@@ -129,7 +129,7 @@ A big thank you to **8BitDo** for hosting us, showing us around and giving us th
 
 ### AKNES
 
-AKNES is a global distributor of hardware, with a particular focus on retro gaming handhelds, controllers and related accessories. The company works with a range of devices and manufacturers and handles everything from packaging and distribution to customer support.
+**AKNES** is a global distributor of hardware, with a particular focus on retro gaming handhelds, controllers and related accessories. The company works with a range of devices and manufacturers and handles everything from packaging and distribution to customer support.
 
 AKNES is a relatively small but steadily growing company. What started as a single small office has grown to the point where the company now occupies almost an entire floor of its office building.
 
@@ -143,7 +143,7 @@ Also eat hotpot, hotpot was great as always.
 
 ### abxylute
 
-abxylute is a manufacturer of handheld gaming devices with a particular focus on cloud gaming and game streaming. They are a relatively small company and during our visit we had the opportunity to speak with their lead engineer about the different philosophies and challenges surrounding cloud-based gaming compared with native gaming.
+**abxylute** is a manufacturer of handheld gaming devices with a particular focus on cloud gaming and game streaming. They are a relatively small company and during our visit we had the opportunity to speak with their lead engineer about the different philosophies and challenges surrounding cloud-based gaming compared with native gaming.
 
 We also discussed the possibility of abxylute doing more with Linux in the future. They are keeping a close eye on the development of **SteamOS** and the broader Linux gaming ecosystem.
 

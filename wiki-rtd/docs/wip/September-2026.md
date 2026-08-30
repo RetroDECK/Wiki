@@ -4,7 +4,7 @@ date: 2026-09-01
 
 --- 
 
-# September 2026: Cloudy Days, Satellite Nights
+# September 2026: A Silicon Summer
 
 The RetroDECK Team have been hard at work stirring the development cauldron.
 

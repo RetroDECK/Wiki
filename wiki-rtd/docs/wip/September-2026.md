@@ -137,8 +137,6 @@ Our visit also had a more personal aspect compared to the others. AKNES and the 
 
 It was therefore particularly nice to finally meet in person and see the company they had built over the years firsthand.
 
-Both AKNES and 8bitdo has a bit of a shared history togheter
-
 Also eat hotpot, hotpot was great as always.
 
 ---

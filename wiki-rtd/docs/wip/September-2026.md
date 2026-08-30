@@ -207,8 +207,6 @@ I am very grateful for the hospitality, conversations, ideas and friendships tha
 
 Thank you all for welcoming me and making the trip so memorable!
 
-//Lazorne of the RetroDECK Team
-
 ---
 
 ## Development Update: 0.11.0

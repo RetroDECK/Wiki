@@ -102,7 +102,7 @@ There have been cases where former project members continued to maintain relatio
 
 <img src="../bitmolab-logo.png" alt="" width="150">
  
-We visited **JSAUX** and its subsidiary brands, **Bitmo Lab** (a collaboration between JSAUX and SSPA). During the visit, we got to see their latest **GAMEBABY** lineup, a range of iPhone-focused gaming cases with built-in controllers.
+We visited **JSAUX** and its subsidiary brand, **Bitmo Lab** (a collaboration between JSAUX and SSPA). During our visit, we got a look at the latest **GAMEBABY** lineup: iPhone gaming cases featuring built-in physical controls that interact directly with virtual touch mappings.
 
 We also got to sit down, play with and discuss the new prototype **Steam Frame E-Ink panel**.
 

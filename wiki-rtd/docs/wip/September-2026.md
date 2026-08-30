@@ -159,7 +159,7 @@ Also eat hotpot, hotpot was great as always.
 
 ---
 
-### Venture Electronics 微翼音频 (VECLAN.COM)
+### Venture Electronics 微翼音频 (VECLAN)
 
 **Note:** Venture Electronics is not located in Shenzhen, but in **Shenyang**. I stopped by there later during the trip.
 

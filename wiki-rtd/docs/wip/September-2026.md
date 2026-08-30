@@ -23,6 +23,8 @@ The RetroDECK Team have been hard at work stirring the development cauldron.
 
 ## RetroDECK Summer Travels
 
+<img src="../../../icon-rd.svg" width="75" alt=""> 
+
 With summer coming to an end, members of the RetroDECK team have been traveling. But **ONE** team member recently visited a particularly unique destination: **Shenzhen, China**. 
 
 **Disclaimer:** The RetroDECK Team does not endorse or promote any specific products, companies, or manufacturers and is not officially affiliated with any of the companies mentioned in this travel blog. All visits were made independently as fans and members of the wider open source community. No sponsorship or other financial support was received for the trip, all travel and related expenses were paid for by the team member himself.
@@ -31,13 +33,15 @@ Now on to his tales!
 
 ---
 
-## RetroDECK Travel Blog: Shenzhen
+## RetroDECK Travel Blog: Team FOSS
+
+<img src="../konqi-bughunt.png" alt="" width="125 "> <img src="../kiki-small.png" alt="" width="125">  
 
 I have always had a personal interest in technology, so when the opportunity arose to visit Shenzhen, it was simply too good to pass up. Shenzhen is widely regarded as one of China's major technology hubs and being able to experience its technology ecosystem firsthand was something I was genuinely excited about.
 
 I traveled with my friend **Tyson Tan**, a well-known KDE and Krita contributor and FOSS artist, who joined me throughout the trip. 
 
-Tyson helped me with translation and communication during our visit. Together, we explored the streets of Shenzhen by day and by night, team FOSS was go!
+Tyson helped me with translation and communication during our visit. Together, we explored the streets of Shenzhen by day and by night, Team FOSS was go!
 
 As we are not representing a for-profit company, nor were we acting as reviewers or media representatives whose work depends on maintaining favorable relationships with these companies, we could simply visit as fans and members of the open source community and driven by a genuine passion for FOSS.
 
@@ -48,6 +52,8 @@ The purpose of these visits **was not** as some might speculate to promote Retro
 ---
 
 ### Finding Information
+
+
 
 For many of these smaller or more niche Chinese companies, simply finding the right information and contacts across the communication and cultural barriers between East and West can be challenging.
 
@@ -92,6 +98,11 @@ There have been cases where former project members continued to maintain relatio
 ---
 
 ### JSAUX / Bitmo Lab
+
+<img src="../jsaux-logo.avif" alt="" width="125 ">
+
+
+<img src="../bitmolab-logo.png" alt="" width="150">
  
 We visited **JSAUX** and its subsidiary brands, **Bitmo Lab** (a collaboration between JSAUX and SSPA). During the visit, we got to see their latest **GAMEBABY** lineup, a range of iPhone-focused gaming cases with built-in controllers.
 
@@ -113,6 +124,8 @@ A big thanks to **JSAUX** and **Bitmo Lab** for hosting us and giving us the opp
 
 ### 8BitDo
 
+<img src="../8bitdo-logo.svg" alt="" width="100"> 
+
 We visited **8BitDo**, who welcomed us to their impressive offices and gave us the opportunity to see their collection of retro consoles and controllers.
 
 One of the things that stood out to us was the scale and professionalism of the company. Compared with some of the other places we visited, 8BitDo felt particularly large while still maintaining a strong connection to its retro gaming roots.
@@ -128,6 +141,8 @@ A big thank you to **8BitDo** for hosting us, showing us around and giving us th
 ---
 
 ### abxylute
+
+<img src="../abxylute-logo.png" alt="" width="150"> 
 
 **abxylute** is a manufacturer of handheld gaming devices with a particular focus on cloud gaming and game streaming. They are a relatively small company and during our visit we had the opportunity to speak with their lead engineer about the different philosophies and challenges surrounding cloud-based gaming compared with native gaming.
 
@@ -145,6 +160,8 @@ We cannot share more details about the prototypes.
 
 ### AKNES
 
+<img src="../aknes-logo.png" alt="" width="175"> 
+
 **AKNES** is a global distributor of hardware, with a particular focus on retro gaming handhelds, controllers and related accessories. The company works with a range of devices and manufacturers and handles everything from packaging and distribution to customer support.
 
 AKNES is a relatively small but steadily growing company. What started as a single small office has grown to the point where the company now occupies almost an entire floor of its office building.
@@ -160,6 +177,8 @@ Also eat hotpot, hotpot was great as always.
 ---
 
 ### Venture Electronics 微翼音频 (VECLAN)
+
+<img src="../veclan-logo.png" alt="" width="175"> 
 
 **Note:** Venture Electronics is not located in Shenzhen, but in **Shenyang**. I stopped by there later during the trip.
 

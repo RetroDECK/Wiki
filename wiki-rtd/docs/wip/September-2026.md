@@ -127,6 +127,22 @@ A big thank you to **8BitDo** for hosting us, showing us around and giving us th
 
 ---
 
+### abxylute
+
+**abxylute** is a manufacturer of handheld gaming devices with a particular focus on cloud gaming and game streaming. They are a relatively small company and during our visit we had the opportunity to speak with their lead engineer about the different philosophies and challenges surrounding cloud-based gaming compared with native gaming.
+
+We also discussed the possibility of abxylute doing more with Linux in the future. They are keeping a close eye on the development of **SteamOS** and the broader Linux gaming ecosystem.
+
+This sentiment was also echoed indirectly by contacts at other companies we did not have time to visit. From the online conversations we had, it was clear that **Valve's SteamOS is receiving a significant amount of attention in Chinas Silicon Valley**. The growing interest in Linux-based gaming appears to be something that several hardware manufacturers are watching closely.
+
+During our visit, abxylute also showed us some prototypes of upcoming hardware and controllers. As enthusiastic supporters of FOSS, we spent a considerable amount of time discussing the importance of users being able to update firmware on Linux.
+
+We cannot share more details about the prototypes.
+
+- [abxylute](https://abxylute.com/)
+
+---
+
 ### AKNES
 
 **AKNES** is a global distributor of hardware, with a particular focus on retro gaming handhelds, controllers and related accessories. The company works with a range of devices and manufacturers and handles everything from packaging and distribution to customer support.
@@ -139,19 +155,7 @@ It was therefore particularly nice to finally meet in person and see the company
 
 Also eat hotpot, hotpot was great as always.
 
----
-
-### abxylute
-
-**abxylute** is a manufacturer of handheld gaming devices with a particular focus on cloud gaming and game streaming. They are a relatively small company and during our visit we had the opportunity to speak with their lead engineer about the different philosophies and challenges surrounding cloud-based gaming compared with native gaming.
-
-We also discussed the possibility of abxylute doing more with Linux in the future. They are keeping a close eye on the development of **SteamOS** and the broader Linux gaming ecosystem.
-
-This sentiment was also echoed indirectly by contacts at other companies we did not have time to visit. From the online conversations we had, it was clear that **Valve's SteamOS is receiving a significant amount of attention in Chinas Silicon Valley**. The growing interest in Linux-based gaming appears to be something that several hardware manufacturers are watching closely.
-
-During our visit, abxylute also showed us some prototypes of upcoming hardware and controllers. As enthusiastic supporters of FOSS, we spent a considerable amount of time discussing the importance of users being able to update firmware on Linux.
-
-We cannot share more details about the prototypes.
+- [AKNES](https://aknes.com/)
 
 ---
 
@@ -214,7 +218,7 @@ We are not ready to reveal everything just yet. For now, the only thing we can s
 
 With this update, you will find components that you may not have seen included in any other retro gaming solution. We have added ideas and software that have rarely, if ever, been packaged together in this way. This is made possible by the technology and infrastructure we have developed within RetroDECK over the years, allowing us to integrate and package a much wider range of software than before.
 
-Many of these components are niche and can be difficult to install. Some require users to build the software from source, while others have never previously been available as a Flatpak. With RetroDECK, users should no longer have to deal with that complexity themselves.
+Many of these components are niche and can be difficult to install. Some require users to build the software from source, while others have never been available as a Flatpak and may previously have only been distributed as `.deb` packages or AUR. With RetroDECK, users should no longer have to deal with that complexity themselves.
 
 As we demonstrated with **XRoar**, we can build these projects and integrate them directly into RetroDECK, making them much easier to use.
 
@@ -230,17 +234,24 @@ By talking directly with these communities, we can better understand their needs
 
 Yes. Gamepad support is not required for every component.
 
-The goal is to bring certain aspects of retro gaming to the platform. Components such as **Mudlet** are included for this reason, even though they are not designed for gamepad-based interaction.
-
-Mudlet provides access to directly connect to **MUDs (Multi-User Dungeons)**, which are considered precursors to modern MMOs. Many MUD servers and their communities are still active decades later. With passion they continue to maintain, develop and expand these vintage virtual worlds.
-
-Including components such as Mudlet allows the **RetroDECK Community** to connect with this part of gaming history and experience online worlds that helped shape many of the games and communities that followed.
-
-This is what we truly mean by an **all-in-one retro gaming platform**. RetroDECK is not limited to games that fit neatly into a traditional controller-based experience, our mission is to make accessible the broader history, culture and technology of retro gaming.
-
-In fact **RetroDECK 0.11.0** will include a number of components with limited or no gamepad support, particularly **retro computer emulators**. These systems were originally designed around keyboard and/or mouse input, so gamepad support is not always practical or appropriate.
+**RetroDECK 0.11.0** will include a number of components with limited or no gamepad support, particularly **retro computer emulators**. These systems were originally designed around keyboard and/or mouse input, so gamepad support is not always practical or appropriate.
 
 At the same time, **the vast majorty** of other components included in 0.11.0 will have gamepad support.
+
+#### Why?!
+
+The goal is to bring certain aspects of retro gaming to the platform. Components such as **Mudlet** are included for this reason, even though they are not designed for gamepad-based gameplay.
+
+Mudlet provides direct access to **MUDs (Multi-User Dungeons)**, the predecessors of modern MMOs. Many MUD servers and their communities remain active decades later, with dedicated developers and players continuing to maintain, expand and evolve these classic virtual worlds.
+
+Including components such as Mudlet allows the wide **RetroDECK Community** to connect with this part of gaming history and experience online worlds that helped shape many of the games and communities that followed.
+
+This is what we mean by an **all-in-one retro gaming platform**. RetroDECK is not limited to games that fit neatly into a traditional controller-based experience or a specific era. Our mission is to make the broader history, culture and technology of retro gaming accessible.
+
+The vast majority of RetroDECK users may never open Mudlet and some may only try it briefly. But there is always a chance that a few will enjoy it enough to discover and become part of the MUD community and its virtual worlds.
+
+For us, that possibility is worth pursuing. If including Mudlet in RetroDECK can help even a small number of users discover and join this niche community, then it aligns with our mission to preserve and make accessible the broader history and culture of retro gaming.
+
 
 ---
 

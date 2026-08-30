@@ -25,7 +25,9 @@ The RetroDECK Team have been hard at work stirring the development cauldron.
 
 With summer coming to an end, members of the RetroDECK team have been traveling. But **ONE** team member recently visited a particularly unique destination: **Shenzhen, China**. 
 
-**Disclaimer:** The RetroDECK Team does not endorse or promote any particular products, companies or manufacturers. We are not officially affiliated with the companies mentioned in this travel blog. The visits were made independently as fans and members of the wider open source community.
+**Disclaimer:** The RetroDECK Team does not endorse or promote any specific products, companies, or manufacturers and is not officially affiliated with any of the companies mentioned in this travel blog. All visits were made independently as fans and members of the wider open source community. No sponsorship or other financial support was received for the trip, all travel and related expenses were paid for by the team member himself.
+
+Now on to his tales!
 
 ---
 
@@ -40,6 +42,8 @@ Tyson helped me with translation and communication during our visit. Together, w
 As we are not representing a for-profit company, nor were we acting as reviewers or media representatives whose work depends on maintaining favorable relationships with these companies, we could simply visit as fans and members of the open source community and driven by a genuine passion for FOSS.
 
 The purpose of these visits **was not** as some might speculate to promote RetroDECK or ask companies to ship RetroDECK on their devices. This was a fan tour with a **FOSS-focused liaison** approach, aimed at building connections, sharing ideas and encouraging better support for open source and Linux.
+
+
 
 ---
 
@@ -59,7 +63,7 @@ Maybe another time!
 
 ### Broad topics
 
-In general, Tyson and I discussed a range of broad topics, including:
+In general, Tyson and I discussed a range of broad topics with all we visted, including:
 
 - **Firmware updates on Linux:** Many vendors hardware currently only provides firmware update tools for Windows and Android, leaving Linux users without official support. We suggested considering standardized firmware updates through **LVFS (Linux Vendor Firmware Service)** to make updates more accessible.
 
@@ -88,10 +92,12 @@ There have been cases where former project members continued to maintain relatio
 ---
 
 ### JSAUX / Bitmo Lab
+ 
+We visited **JSAUX** and its subsidiary brands, **Bitmo Lab** (a collaboration between JSAUX and SSPA). During the visit, we got to see their latest **GAMEBABY** lineup, a range of iPhone-focused gaming cases with built-in controllers.
 
-We visited **JSAUX** and **Bitmo Lab**, where we got to see their new lineup of **GAMEBABY** iPhone-focused gaming cases with built-in controllers.
+We also got to sit down, play with and discuss the new prototype **Steam Frame E-Ink panel**.
 
-We also got to sit down, play with, and discuss the new prototype **Steam Frame E-Ink panel**. Even with a slow refresh rate (that is not a problem), we talked about some interesting possibilities, such as:
+We discussed several interesting possibilities and exchanged ideas, including:
 
 - **Steam Achievements:** Showing achievements or other Steam events on the E-Ink panel as they happen.
 - **Community plugins:** A possible "plugin store" where the community could share and upload their own creations.
@@ -99,6 +105,9 @@ We also got to sit down, play with, and discuss the new prototype **Steam Frame 
 **Note:** These were simply ideas shared and discussed while we were in the same room. **Talking about an idea does not mean it is planned or that anything will be implemented.** It was just a fun opportunity to exchange ideas and see what might be possible.
 
 A big thanks to **JSAUX** and **Bitmo Lab** for hosting us and giving us the opportunity to visit, see their latest work and exchange ideas.
+
+- [JSAUX](https://jsaux.com/)
+- [Bitmo Lab](https://www.bitmolab.com/)
 
 ---
 
@@ -114,6 +123,8 @@ We also talked about some of the major challenges when developing and maintainin
 
 A big thank you to **8BitDo** for hosting us, showing us around and giving us the opportunity to meet.
 
+- [8bitDo](https://www.8bitdo.com/)
+
 ---
 
 ### AKNES
@@ -125,6 +136,8 @@ AKNES is a relatively small but steadily growing company. What started as a sing
 Our visit also had a more personal aspect compared to the others. AKNES and the RetroDECK team share a history of friendship as me and AKNES's second-in-command first got to know each other online many years ago.
 
 It was therefore particularly nice to finally meet in person and see the company they had built over the years firsthand.
+
+Both AKNES and 8bitdo has a bit of a shared history togheter
 
 Also eat hotpot, hotpot was great as always.
 
@@ -146,7 +159,7 @@ We cannot share more details about the prototypes.
 
 ### Venture Electronics 微翼音频 (VECLAN.COM)
 
-**Note:** Venture Electronics is not located in Shenzhen, but in **Shenyang**.
+**Note:** Venture Electronics is not located in Shenzhen, but in **Shenyang**. I stopped by there later during the trip.
 
 **Venture Electronics (VECLAN)** is an audio company founded by **Wild Lee**, a Chinese YouTuber and Bilibili creator known for his reviews of audio equipment and televisions, as well as his extensive collection of CRT TVs.
 
@@ -161,6 +174,9 @@ Lee and I also spent **quite** a bit of time talking about **Dongbei Guo Bao Rou
 One of the things we discussed was how, in our experience, some of the most authentic and memorable Chinese food is often found in small local street shops and family-run restaurants rather than in large shopping malls.
 
 It also got heated when we debated the best **Guo Bao Rou** places.
+
+- [Wild Lee - Youtube](https://www.youtube.com/@WildLee/videos)
+- [Wild Lee - Bilibili](https://space.bilibili.com/38548491)
 
 ---
 

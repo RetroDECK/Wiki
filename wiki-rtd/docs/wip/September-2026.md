@@ -55,7 +55,7 @@ The purpose of these visits **was not** as some might speculate to promote Retro
 
 For many of these smaller or more niche Chinese companies, simply finding the right information and contacts across the communication and cultural barriers between East and West can be challenging.
 
-As a founding member of the RetroDECK team with a long-standing connection to China and many years of experience visiting the country and I consider it my second home. I have a personal understanding of some of the challenges involved in communicating across these cultural and geographic boundaries. This includes both the practical difficulties of finding the right contacts and the cultural differences that can sometimes make communication more difficult.
+As a founding member of the RetroDECK team with a long-standing personal connection to China and many years of experience visiting the country. I have a personal understanding of some of the challenges involved in communicating across these cultural and geographic boundaries. This includes both the practical difficulties of finding the right contacts and the cultural differences that can sometimes make communication more difficult.
 
 We hope that our visits helped point them in the right direction and gave them some useful places to start. While we cannot guarantee that anything will come from these conversations, we hope that the information, introductions and connections we shared will prove helpful in the future.
 

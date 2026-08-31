@@ -10,11 +10,11 @@ Add the following lines to the end of `~/.bashrc` on any Linux system, save the 
 #                      RetroDECK
 # ========================================================
 
-
 # ========================================================
 # RetroDECK - Installer: rdinstall
 #
-# Supports main GitHub cooker, main - Flathub stable 
+# Supports main GitHub latest, Flathub stable and choosing 
+# from the latest 20 Cooker or Main GitHub releases.
 # ========================================================
 
 
@@ -174,7 +174,7 @@ rdinstall() {
             i=1
             while IFS='|' read -r tag date; do
                 [ -z "$tag" ] && continue
-                echo "$i) $tag | $date"
+                printf "%2d) %-50s | %s\n" "$i" "$tag" "$date"
                 tags_array[i]="$tag"
                 ((i++))
             done < <(_rdi_fetch_tags "RetroDECK")
@@ -184,8 +184,11 @@ rdinstall() {
             fi
             echo ""
             read -rp "Pick a release [1-${#tags_array[@]}]: " tag_choice
+            # Strip carriage returns / whitespace (fixes Windows line-ending issues)
+            tag_choice="${tag_choice%%$'\r'}"
+            tag_choice="${tag_choice// /}"
             echo ""
-            if [[ "$tag_choice" =~ ^[0-9]+$ ]] && [ "$tag_choice" -ge 1 ] && [ "$tag_choice" -le ${#tags_array[@]} ]; then
+            if [[ "$tag_choice" =~ ^[0-9]+$ ]] && [[ "$tag_choice" -ge 1 ]] && [[ "$tag_choice" -le ${#tags_array[@]} ]]; then
                 _rdi_github_install "RetroDECK" "${tags_array[$tag_choice]}"
             else
                 echo "Invalid choice."
@@ -197,7 +200,7 @@ rdinstall() {
             i=1
             while IFS='|' read -r tag date; do
                 [ -z "$tag" ] && continue
-                echo "$i) $tag | $date"
+                printf "%2d) %-50s | %s\n" "$i" "$tag" "$date"
                 tags_array[i]="$tag"
                 ((i++))
             done < <(_rdi_fetch_tags "Cooker")
@@ -207,8 +210,11 @@ rdinstall() {
             fi
             echo ""
             read -rp "Pick a release [1-${#tags_array[@]}]: " tag_choice
+            # Strip carriage returns / whitespace (fixes Windows line-ending issues)
+            tag_choice="${tag_choice%%$'\r'}"
+            tag_choice="${tag_choice// /}"
             echo ""
-            if [[ "$tag_choice" =~ ^[0-9]+$ ]] && [ "$tag_choice" -ge 1 ] && [ "$tag_choice" -le ${#tags_array[@]} ]]; then
+            if [[ "$tag_choice" =~ ^[0-9]+$ ]] && [[ "$tag_choice" -ge 1 ]] && [[ "$tag_choice" -le ${#tags_array[@]} ]]; then
                 _rdi_github_install "Cooker" "${tags_array[$tag_choice]}"
             else
                 echo "Invalid choice."
@@ -223,6 +229,7 @@ rdinstall() {
     esac
     echo ""
 }
+
 
 # ========================================================
 # RetroDECK - Flatpak Management Tool: rdflatpak

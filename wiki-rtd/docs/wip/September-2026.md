@@ -95,14 +95,13 @@ There have been cases where former project members continued to maintain relatio
 
 ---
 
-### JSAUX / Bitmo Lab
+### JSAUX GAMING / Bitmo Lab
 
 <img src="../jsaux-logo.avif" alt="" width="125 ">
 
-
 <img src="../bitmolab-logo.png" alt="" width="150">
  
-We visited **JSAUX** and its subsidiary brand, **Bitmo Lab** (a collaboration between JSAUX and SSPA). During our visit, we got a look at the latest **GAMEBABY** lineup: iPhone gaming cases featuring built-in physical controls that interact directly with virtual touch mappings.
+We visited **JSAUX GAMING** and its subsidiary brand, **Bitmo Lab**. During our visit, we got a look at the latest **GAMEBABY** lineup: iPhone gaming cases featuring built-in physical controls that interact directly with virtual touch mappings.
 
 We also got to sit down, play with and discuss the new prototype **Steam Frame E-Ink panel**.
 
@@ -113,9 +112,9 @@ We discussed several interesting possibilities and exchanged ideas, including:
 
 **Note:** These were simply ideas shared and discussed while we were in the same room. **Talking about an idea does not mean it is planned or that anything will be implemented.** It was just a fun opportunity to exchange ideas and see what might be possible.
 
-A big thanks to **JSAUX** and **Bitmo Lab** for hosting us and giving us the opportunity to visit, see their latest work and exchange ideas.
+A big thanks to **JSAUX GAMING** and **Bitmo Lab** for hosting us and giving us the opportunity to visit, see their latest work and exchange ideas.
 
-- [JSAUX](https://jsaux.com/)
+- [JSAUX GAMING](https://jsaux.com/)
 - [Bitmo Lab](https://www.bitmolab.com/)
 
 ---

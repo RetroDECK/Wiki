@@ -2,11 +2,7 @@
 
 Quick terminal shortcuts, tools and functions for RetroDECK development.
 
-Add the following lines to the end of `~/.bashrc` on any Linux system, save the file, then reload your shell:
-
-```
-source ~/.bashrc
-```
+Add the following lines to the end of `~/.bashrc` on any Linux system, save the file, then reload your shell: `source ~/.bashrc`
 
 
 ```
@@ -18,8 +14,7 @@ source ~/.bashrc
 # ========================================================
 # RetroDECK - Installer: rdinstall
 #
-# Supports main GitHub latest, Flathub stable and choosing 
-# from the latest 10 Cooker or Main GitHub releases.
+# Supports main GitHub cooker, main - Flathub stable 
 # ========================================================
 
 
@@ -40,8 +35,14 @@ _rdi_fetch_tags() {
     if ! command -v python3 >/dev/null 2>&1; then
         return 1
     fi
-    local api_url="https://api.github.com/repos/RetroDECK/${repo}/releases?per_page=10"
-    curl -sL "$api_url" | python3 -c 'import sys,json; [print(r["tag_name"]) for r in json.load(sys.stdin)[:10]]' 2>/dev/null
+    local api_url="https://api.github.com/repos/RetroDECK/${repo}/releases?per_page=20"
+    curl -sL "$api_url" | python3 -c '
+import sys, json
+releases = json.load(sys.stdin)[:20]
+# Sort by published_at (date) descending, then tag_name ascending
+releases.sort(key=lambda r: (r["published_at"], r["tag_name"]), reverse=True)
+[print(r["tag_name"] + "|" + r["published_at"][:10]) for r in releases]
+' 2>/dev/null
 }
 
 _rdi_github_install() {
@@ -147,56 +148,33 @@ rdinstall() {
     echo ""
     echo "RetroDECK Installer"
     echo "-------------------"
-    echo "1) Main latest release"
-    echo "2) Flathub stable"
-    echo "3) Cooker release (latest 10)"
-    echo "4) Main release (latest 10)"
+    echo "1) Flathub stable"
+    echo "2) Main latest release"
+    echo "3) Main release (latest 20)"
+    echo "4) Cooker release (latest 20)"
     echo "q) Quit"
     echo ""
     read -rp "Choice [1-4/q]: " choice
     echo ""
     local -a tags_array=()
-    local tag
+    local tag date
     local i
     case "$choice" in
         1)
-            _rdi_github_install "RetroDECK" "latest"
-            ;;
-        2)
             echo "Installing from Flathub..."
             flatpak install flathub net.retrodeck.retrodeck --user -y
             echo "Done."
             ;;
-        3)
-            echo "Fetching latest 10 Cooker releases..."
-            echo ""
-            i=1
-            while IFS= read -r tag; do
-                [ -z "$tag" ] && continue
-                echo "$i) $tag"
-                tags_array[i]="$tag"
-                ((i++))
-            done < <(_rdi_fetch_tags "Cooker")
-            if [ ${#tags_array[@]} -eq 0 ]; then
-                echo "Error: could not fetch tags. Check network or API rate limit."
-                return
-            fi
-            echo ""
-            read -rp "Pick a release [1-${#tags_array[@]}]: " tag_choice
-            echo ""
-            if [[ "$tag_choice" =~ ^[0-9]+$ ]] && [ "$tag_choice" -ge 1 ] && [ "$tag_choice" -le ${#tags_array[@]} ]; then
-                _rdi_github_install "Cooker" "${tags_array[$tag_choice]}"
-            else
-                echo "Invalid choice."
-            fi
+        2)
+            _rdi_github_install "RetroDECK" "latest"
             ;;
-        4)
-            echo "Fetching latest 10 Main releases..."
+        3)
+            echo "Fetching latest 20 Main releases..."
             echo ""
             i=1
-            while IFS= read -r tag; do
+            while IFS='|' read -r tag date; do
                 [ -z "$tag" ] && continue
-                echo "$i) $tag"
+                echo "$i) $tag | $date"
                 tags_array[i]="$tag"
                 ((i++))
             done < <(_rdi_fetch_tags "RetroDECK")
@@ -209,6 +187,29 @@ rdinstall() {
             echo ""
             if [[ "$tag_choice" =~ ^[0-9]+$ ]] && [ "$tag_choice" -ge 1 ] && [ "$tag_choice" -le ${#tags_array[@]} ]; then
                 _rdi_github_install "RetroDECK" "${tags_array[$tag_choice]}"
+            else
+                echo "Invalid choice."
+            fi
+            ;;
+        4)
+            echo "Fetching latest 20 Cooker releases..."
+            echo ""
+            i=1
+            while IFS='|' read -r tag date; do
+                [ -z "$tag" ] && continue
+                echo "$i) $tag | $date"
+                tags_array[i]="$tag"
+                ((i++))
+            done < <(_rdi_fetch_tags "Cooker")
+            if [ ${#tags_array[@]} -eq 0 ]; then
+                echo "Error: could not fetch tags. Check network or API rate limit."
+                return
+            fi
+            echo ""
+            read -rp "Pick a release [1-${#tags_array[@]}]: " tag_choice
+            echo ""
+            if [[ "$tag_choice" =~ ^[0-9]+$ ]] && [ "$tag_choice" -ge 1 ] && [ "$tag_choice" -le ${#tags_array[@]} ]]; then
+                _rdi_github_install "Cooker" "${tags_array[$tag_choice]}"
             else
                 echo "Invalid choice."
             fi

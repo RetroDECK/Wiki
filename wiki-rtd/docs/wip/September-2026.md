@@ -8,13 +8,15 @@ date: 2026-09-01
 
 The RetroDECK Team have been hard at work stirring the development cauldron.
 
+This month is a special edition of the blog featuring summer travels.
+
 ---
 
 ## Highlights
 
 **News**
 
-- RetroDECK Travel Log: Shenzhen
+- RetroDECK Travel Blog: Team FOSS
 - Development Update: 0.11.0
 
 <!-- more -->
@@ -37,7 +39,7 @@ Now on to his tales!
 
 <img src="../kiki-small.png" alt="" width="125">  <img src="../konqi-bughunt.png" alt="" width="125 "> 
 
-I have always had a personal interest in technology, so when the opportunity arose to visit Shenzhen, it was simply too good to pass up. Shenzhen is widely regarded as one of China's major technology hubs and being able to experience its technology ecosystem firsthand was something I was genuinely excited about.
+I have always had a personal interest in technology, so when the opportunity arose to visit Shenzhen during the summer, it was simply too good to pass up. Shenzhen is widely regarded as one of China's major technology hubs and being able to experience its technology ecosystem firsthand was something I was genuinely excited about.
 
 I traveled with my friend **Tyson Tan**, a well-known KDE and Krita contributor and FOSS artist, who joined me throughout the trip. 
 
@@ -47,11 +49,9 @@ As we are not representing a for-profit company, nor were we acting as reviewers
 
 The purpose of these visits **was not** as some might speculate to promote RetroDECK or ask companies to ship RetroDECK on their devices. This was a fan tour with a **FOSS-focused liaison** approach, aimed at building connections, sharing ideas and encouraging better support for open source and Linux.
 
-
-
 ---
 
-### Finding Information
+### A Struggle of Finding Information
 
 For many of these smaller or more niche Chinese companies, simply finding the right information and contacts across the communication and cultural barriers between East and West can be challenging.
 
@@ -65,9 +65,9 @@ Maybe another time!
 
 ---
 
-### Broad topics
+### Broad Topics
 
-In general, Tyson and I discussed a range of broad topics with all we visted, including:
+In general, Tyson and I discussed a range of broad topics with all we visited, including:
 
 - **Firmware updates on Linux:** Many vendors hardware currently only provides firmware update tools for Windows and Android, leaving Linux users without official support. We suggested considering standardized firmware updates through **LVFS (Linux Vendor Firmware Service)** to make updates more accessible.
 

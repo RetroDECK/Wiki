@@ -279,10 +279,19 @@ A big thank you to everyone for your continued support 🦈.
 
 // The RetroDECK Team
 
+---
+
+## Extra: OpenTTD Flathub Maintainer Needed
+
+The current maintainer of the [OpenTTD Flathub](https://github.com/flathub/org.openttd.OpenTTD) has stepped down and marked the package as EOL.
+
+If you are familiar with Flathub packaging and would be willing to take over maintenance, please consider stepping in.
+
+OpenTTD is an important cultural pillar of both **retro gaming** and **FOSS**.
 
 ---
 
-###  RetroDECK: Community  Links
+### RetroDECK: Community Links
 
 | Category | Link | Description |
 |----------|------|-------------|

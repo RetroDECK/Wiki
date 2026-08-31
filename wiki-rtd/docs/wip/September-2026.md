@@ -18,6 +18,8 @@ This month is a special edition of the blog featuring summer travels.
 
 - RetroDECK Travel Blog: Team FOSS
 - Development Update: 0.11.0
+- RetroDECK 0.10.10b
+- Extra: OpenTTD Flathub Maintainer Needed
 
 <!-- more -->
 
@@ -232,7 +234,7 @@ We are not ready to reveal everything just yet. For now, the only thing we can s
 
 With this update, you will find components that you may not have seen included in any other retro gaming solution. We have added ideas and software that have rarely, if ever, been packaged together in this way. This is made possible by the technology and infrastructure we have developed within RetroDECK over the years, allowing us to integrate and package a much wider range of software than before.
 
-Many of these components are niche and can be difficult to install. Some require users to build the software from source, while others have never been available as a Flatpak and may previously have only been distributed as `.deb` packages or AUR. With RetroDECK, users should no longer have to deal with that complexity themselves.
+Many of these components are niche and can be difficult to install. Some require users to build the software from source, while others have never been available as a Flatpak and may previously have only been distributed as `.deb` packages or are only on AUR. With RetroDECK, users should no longer have to deal with that complexity themselves.
 
 As we demonstrated with **XRoar**, we can build these projects and integrate them directly into RetroDECK, making them much easier to use.
 
@@ -246,7 +248,7 @@ By talking directly with these communities, we can better understand their needs
 
 ### Question: Components like Mudlet have no gamepad support?
 
-Yes. Gamepad support is not required for every component.
+Yes, gamepad support is not required for every component.
 
 **RetroDECK 0.11.0** will include a number of components with limited or no gamepad support, particularly **retro computer emulators**. These systems were originally designed around keyboard and/or mouse input, so gamepad support is not always practical or appropriate.
 
@@ -256,7 +258,7 @@ At the same time, **the vast majorty** of other components included in 0.11.0 wi
 
 The goal is to bring certain aspects of retro gaming to the platform. Components such as **Mudlet** are included for this reason, even though they are not designed for gamepad-based gameplay.
 
-Mudlet provides direct access to **MUDs (Multi-User Dungeons)**, the predecessors of modern MMOs. Many MUD servers and their communities remain active decades later, with dedicated developers and players continuing to maintain, expand and evolve these classic virtual worlds.
+Mudlet provides direct access to **MUDs**, the predecessors of modern MMOs. Many MUD servers and their communities remain active decades later, with dedicated developers and players continuing to maintain, expand and evolve these classic virtual worlds.
 
 Including components such as Mudlet allows the wide **RetroDECK Community** to connect with this part of gaming history and experience online worlds that helped shape many of the games and communities that followed.
 
@@ -269,15 +271,17 @@ For us, that possibility is worth pursuing. If including Mudlet in RetroDECK can
 
 ---
 
-## That is all for now
+## RetroDECK 0.10.10b
 
-There are more features and improvements in the works, which will be shared in future blog updates!
+<img src="../../../icon-rd.svg" width="75" alt=""> 
 
-As always, if you want to help with development, join the *💙-i-want-to-help* channel on **Discord**, or reach out to us on **Matrix** or other socials.
+RetroDECK 0.10.10b is in its cooker testing phase. The tiny update features updated components, an upgraded `org.kde.Platform` (a big thing to do) and several bug fixes.
 
-A big thank you to everyone for your continued support 🦈. 
+We hope that we can release it during next week, but it all depends on the amount of issues we find.
 
-// The RetroDECK Team
+Several components, including PCSX2, have recently received new stable releases. We therefore want to allow time for any initial hotfixes to land before finalizing the update as well.
+
+For details, see the [RetroDECK 0.10.10b Patch Notes](https://retrodeck.readthedocs.io/en/latest/wiki_rd_versions/version_0.10.0b/0.10.10b/).
 
 ---
 
@@ -288,6 +292,18 @@ The current maintainer of the [OpenTTD Flathub](https://github.com/flathub/org.o
 If you are familiar with Flathub packaging and would be willing to take over maintenance, please consider stepping in.
 
 OpenTTD is an important cultural pillar of both **retro gaming** and **FOSS**.
+
+---
+
+## That is all for now
+
+There are more features and improvements in the works, which will be shared in future blog updates!
+
+As always, if you want to help with development, join the *💙-i-want-to-help* channel on **Discord**, or reach out to us on **Matrix** or other socials.
+
+A big thank you to everyone for your continued support 🦈. 
+
+// The RetroDECK Team
 
 ---
 

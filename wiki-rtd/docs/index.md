@@ -76,7 +76,9 @@ This wiki is being slowly updated for version **0.11.0**. Some articles may not 
 |----------|------|-------------|
 | 🌍 Github Status | [GitHub Status](https://www.githubstatus.com/) | GitHub platform service status |
 | 🌍 Flathub Status | [Flathub Status](https://status.flathub.org/) | Flathub platform service status |
+| 🌍 Flathub Stats | [Flathub Stats](https://klausenbusk.github.io/flathub-stats/#ref=net.retrodeck.retrodeck) | Flathub stats |
 | 🤖 Flathub Buildbot Status | [Flathub Buildbot](https://builds.flathub.org/status/net.retrodeck.retrodeck) | Live build status for net.retrodeck.retrodeck on Flathub |
+
 
 ---
 

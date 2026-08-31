@@ -6,8 +6,7 @@
 
 ## 0.10.0b - Dastardly Dansband
 
-**Note:** Version 0.10.4b became unavailable due to a broken Flathub server outage spanning 2026-02-17 to 2026-02-24. 0.10.5b replaced it. 
-
+- [0.10.10b](version_0.10.0b/0.10.10b.md)
 - [0.10.9b](version_0.10.0b/0.10.9b.md)
 - [0.10.8b](version_0.10.0b/0.10.8b.md)
 - [0.10.7b](version_0.10.0b/0.10.7b.md)
@@ -17,6 +16,8 @@
 - [0.10.2b](version_0.10.0b/0.10.2b.md)
 - [0.10.1b](version_0.10.0b/0.10.1b.md)
 - [0.10.0b](version_0.10.0b/0.10.0b.md)
+
+**Note:** Version `0.10.4b` was never released and was withdrawn from Flathub following a major server outage and resulting corruption errors between **2026-02-17** and **2026-02-24**. It was superseded by `0.10.5b`, which contains the same changes as `0.10.4b`. The version was bumped to address the affected release artifacts.
 
 ## 0.9.0b - Captain Comeback 
 

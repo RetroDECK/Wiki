@@ -39,7 +39,7 @@ Now on to his tales!
 
 ## RetroDECK Travel Blog: Team FOSS
 
-<img src="../kiki-small.png" alt="" width="125">  <img src="../konqi-bughunt.png" alt="" width="125 "> 
+<img src="../../../kiki-small.png" alt="" width="125">  <img src="../../../konqi-bughunt.png" alt="" width="125 "> 
 
 I have always had a personal interest in technology, so when the opportunity arose to visit Shenzhen during the summer, it was simply too good to pass up. Shenzhen is widely regarded as one of China's major technology hubs and being able to experience its technology ecosystem firsthand was something I was genuinely excited about.
 
@@ -99,9 +99,9 @@ There have been cases where former project members continued to maintain relatio
 
 ### JSAUX GAMING / Bitmo Lab
 
-<img src="../jsaux-logo.avif" alt="" width="125 ">
+<img src="../../../jsaux-logo.avif" alt="" width="125 ">
 
-<img src="../bitmolab-logo.png" alt="" width="150">
+<img src="../../../bitmolab-logo.png" alt="" width="150">
  
 We visited **JSAUX GAMING** and its subsidiary brand, **Bitmo Lab**. During our visit, we got a look at the latest **GAMEBABY** lineup: iPhone gaming cases featuring built-in physical controls that interact directly with virtual touch mappings.
 
@@ -123,7 +123,7 @@ A big thanks to **JSAUX GAMING** and **Bitmo Lab** for hosting us and giving us 
 
 ### 8BitDo
 
-<img src="../8bitdo-logo.svg" alt="" width="100"> 
+<img src="../../../8bitdo-logo.svg" alt="" width="100"> 
 
 We visited **8BitDo**, who welcomed us to their impressive offices and gave us the opportunity to see their collection of retro consoles and controllers.
 
@@ -141,7 +141,7 @@ A big thank you to **8BitDo** for hosting us, showing us around and giving us th
 
 ### abxylute
 
-<img src="../abxylute-logo.png" alt="" width="150"> 
+<img src="../../../abxylute-logo.png" alt="" width="150"> 
 
 **abxylute** is a manufacturer of handheld gaming devices with a particular focus on cloud gaming and game streaming. They are a relatively small company and during our visit we had the opportunity to speak with their lead engineer about the different philosophies and challenges surrounding cloud-based gaming compared with native gaming.
 
@@ -159,7 +159,7 @@ We cannot share more details about the prototypes.
 
 ### AKNES
 
-<img src="../aknes-logo.png" alt="" width="175"> 
+<img src="../../../aknes-logo.png" alt="" width="175"> 
 
 **AKNES** is a global distributor of hardware, with a particular focus on retro gaming handhelds, controllers and related accessories. The company works with a range of devices and manufacturers and handles everything from packaging and distribution to customer support.
 
@@ -177,7 +177,7 @@ Also eat hotpot, hotpot was great as always.
 
 ### Venture Electronics 微翼音频 (VECLAN)
 
-<img src="../veclan-logo.png" alt="" width="175"> 
+<img src="../../../veclan-logo.png" alt="" width="175"> 
 
 **Note:** Venture Electronics is not located in Shenzhen, but in **Shenyang**. I stopped by there later during the trip.
 

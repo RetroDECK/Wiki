@@ -288,6 +288,8 @@ For details, see the [RetroDECK 0.10.10b Patch Notes](https://retrodeck.readthed
 
 ## Extra: OpenTTD Flathub Maintainer Needed
 
+**Update: Maintainer was found, Choo Choo the trains are back!**
+
 The current maintainer of the [OpenTTD Flathub](https://github.com/flathub/org.openttd.OpenTTD) has stepped down and marked the package as EOL.
 
 If you are familiar with Flathub packaging and would be willing to take over maintenance, please consider stepping in.

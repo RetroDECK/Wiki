@@ -195,6 +195,7 @@ One of the things we discussed was how, in our experience, some of the most auth
 
 It also got heated when we debated the best **Guo Bao Rou** places.
 
+- [VECLAN](https://www.veclan.com/)
 - [Wild Lee - Youtube](https://www.youtube.com/@WildLee/videos)
 - [Wild Lee - Bilibili](https://space.bilibili.com/38548491)
 

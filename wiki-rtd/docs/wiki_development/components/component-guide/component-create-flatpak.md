@@ -10,149 +10,286 @@ We are going to use uzdoom as an example and remember that each Flatpak is diffe
 
 This assumes you have read [Creating Component: Guide](creating-components-guide.md).
 
----
+There are two ways to test a flathub package if it can be integrated into RetroDECK.
 
-## Step 0: Make a testing directory 
-
-1. Have a local copy of RetroDECK Cooker installed.
-2. Create a components directory for example: `~/retrodeck_dev/components/`
 
 ---
 
-## Step 1: Clone the repo from Flathub
+## Use the Installed Flathub Flatpak (Recommended)
 
-1. Go to: `retrodeck_dev/components/`.
-2. Create a directory in `retrodeck_dev/components/<component_name>` that matches the name of the component you want to add.
-3. Go to: [Github:Flathub](https://github.com/flathub/).
-4. Open a terminal window from the component directory.
-5. Clone the repo with clone `https://github.com/flathub/<Application>`
-6. You will now a repo directory under `retrodeck_dev/components/<Cloned Repo>`.
+Install the application as a **user Flatpak** and access its installed files directly.
 
-**Example:**
+### Step 1: Install the Flatpak
 
-Make the directory:
+Install the application from Flathub using its Flatpak application ID as a user not systemwide:
 
-`retrodeck_dev/components/uzdoom`
+`flatpak install -u -y flathub <Application>`
 
-Open a terminal window in 
+For example, to install UZDoom:
 
-`retrodeck_dev/components/`.
+`flatpak install -u -y flathub org.zdoom.uzdoom`
 
-Type:
+
+### Step 2: Locate the Installed Files
+
+User-installed Flatpaks are stored under:
+
+`~/.local/share/flatpak/app/`
+
+Navigate to the application's active files directory:
+
+`~/.local/share/flatpak/app/<FlatpakID>/current/active/files/`
+
+For example, UZDoom uses:
+
+`~/.local/share/flatpak/app/org.zdoom.uzdoom/current/active/files/`
+
+You can navigate there directly:
+
+`cd ~/.local/share/flatpak/app/org.zdoom.uzdoom/current/active/files/`
+
+### Step 3: Locate the Application Files
+
+The `files/` directory contains the files installed by the Flatpak.
+
+A typical structure is:
 
 ```
-git clone https://github.com/flathub/org.zdoom.uzdoom.git
-```
-
-You will now have two directorys:
-
-- `retrodeck_dev/components/uzdoom`
-- `retrodeck_dev/components/org.zdoom.uzdoom`
-
----
-
-## Step 2: Extract or build the repo
-
-The structure is different in each Flatpak.
-
-Typically, a Flatpak will extract into this standard structure:
-
-```
-<cloned repo directory>
-    <flatpak-build-dir>
-        - export
-        - var
-        - files
-            - bin (contains the binary)
-            - lib
-            - share
-
+    files/
+    ├── bin/
+    ├── lib/
+    └── share/
 ```
 
 ---
 
-### Step 2a: Compressed Artifact
+## Alternative: Build from Flathub
 
-If the flatpak has a premade compressed artifact you can just extract that to the structure under:
+This method is cloning or building the Flathub repository.
 
-- `retrodeck_dev/components/<artifact>`
+### Step 1: Clone the Flathub Repository
 
-**Example:**
+Before starting, ensure that **RetroDECK Cooker** is installed locally.
 
-- `retrodeck_dev/components/uzdoom-artifact`
+1. Create the components directory:
+
+   `mkdir -p ~/retrodeck_dev/components`
+
+2. Navigate to the components directory:
+
+   `cd ~/retrodeck_dev/components`
+
+3. Create a directory for the component you want to add:
+
+   `mkdir <component_name>`
+
+4. Clone the corresponding repository from [Flathub](https://github.com/flathub/):
+
+   `git clone https://github.com/flathub/<Application>.git`
+
+5. The cloned repository will be created in the components directory.
+
+### Example
+
+Create the component directory:
+
+`mkdir -p ~/retrodeck_dev/components/uzdoom`
+
+Navigate to the components directory:
+
+`cd ~/retrodeck_dev/components`
+
+Clone the UZDoom Flatpak repository:
+
+`git clone https://github.com/flathub/org.zdoom.uzdoom.git`
+
+The directory structure will now contain:
+
+```
+    retrodev_dev/components/
+    ├── uzdoom/
+    └── org.zdoom.uzdoom/
+```
 
 ---
 
-### Step 2b: Build with flatpak-builder
+## Step 2: Extract or Build the Flatpak
 
-If there is no artifact you will need to build the it with: `flatpak-builder` into a new directory: `<Application>-build-dir`
+Flatpak repository structures vary between applications.
 
+A typical Flatpak build directory contains:
+
+```
+    <Application>-build-dir/
+    ├── export/
+    ├── files/
+    │   ├── bin/      # Application binaries
+    │   ├── lib/
+    │   └── share/
+    └── var/
+```
+
+Use one of the following methods depending on whether a prebuilt artifact is available.
+
+### Step 2a: Use a Prebuilt Artifact
+
+If the Flatpak provides a prebuilt compressed artifact, extract it into the component directory.
+
+Example:
+
+```
+    retrodev_dev/components/
+    └── uzdoom-artifact/
+```
+
+The extracted artifact should contain the Flatpak's `files/`, `lib/`, `share/`, and related directories.
+
+### Step 2b: Build with `flatpak-builder`
+
+If no prebuilt artifact is available, build the Flatpak using `flatpak-builder`.
+
+1. Navigate to the cloned repository.
+
+2. Initialize the Git submodules:
+
+   `git submodule init`
+
+3. Update the Git submodules:
+
+   `git submodule update`
+
+4. Build the Flatpak:
+
+   `flatpak-builder --user --force-clean --install-deps-from=flathub --install-deps-from=flathub-beta --repo=<Application>-repo "<Application>-build-dir" "<Application>.yaml"`
+
+5. Remove debug files from the build directory:
+
+   `rm -rf <Application>-build-dir/files/lib/debug`
+
+**Note:** The location of debug files may differ between Flatpaks.
+
+### Example: UZDoom
+
+Navigate to the cloned UZDoom repository: `cd ~/retrodeck_dev/components/org.zdoom.uzdoom`
+
+Initialize and update the submodules:
 
 ```
 git submodule init
-
 git submodule update
-
-flatpak-builder --user --force-clean --install-deps-from=flathub --install-deps-from=flathub-beta --repo=<Application>-repo "<Application>-build-dir" "<Application>.yaml" ## Input the <Application> sources
-
-rm -rf <Application>-build-dir/files/lib/debug ## Remove debug files, the location could be diffrent
 ```
 
-**Example:**
+Build the Flatpak: `flatpak-builder --user --force-clean --install-deps-from=flathub --install-deps-from=flathub-beta --repo=uzdoom-repo "uzdoom-build-dir" "org.zdoom.uzdoom.yaml"`
 
-Go to: `retrodeck_dev/components/org.zdoom.uzdoom`
-
-Run the following:
-
-```
-git submodule init
-
-git submodule update
-
-flatpak-builder --user --force-clean --install-deps-from=flathub --install-deps-from=flathub-beta --repo=uzdoom-repo "uzdoom-build-dir" "org.zdoom.uzdoom.yaml"
-
-rm -rf uzdoom-build-dir/files/lib/debug
-
-```
+Remove the debug files: `rm -rf uzdoom-build-dir/files/lib/debug`
 
 ---
 
-## Step 3: Testing
+## Test the Flatpak
 
-During this step, identify and document the following:
+During this stage, identify and document the files required by the application:
 
 - **Binary**
 - **Dependencies**
 - **Libraries**
 - **Other important files**
 
+### Create the Component Directory
+
+Create a directory for the component under the RetroDECK Flatpak's component directory.
+
+For example, for UZDoom:
+
+`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/uzdoom`
+
+In general:
+
+`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/<component_name>`
+
+### Copy the Application Files
+
+Copy the complete application file structure into the component directory.
+
+Typical structure:
+
+```
+    files/
+    ├── bin/
+    ├── lib/
+    └── share/
+```
+
+Copy the structure into:
+
+`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/<component_name>/`
+
+For example:
+
+`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/uzdoom/`
+
+The resulting structure should resemble:
+
+```
+    components/
+    └── uzdoom/
+        ├── bin/
+        ├── lib/
+        └── share/
+```
+
 ### Testing Procedure
 
-1. Launch the binary from the RetroDECK Flatpak shell: `flatpak run --command=bash net.retrodeck.retrodeck --debug`
-2. Launch the application normally within your host OS environment (outside RetroDECK).
-3. Document the results in detail.
+1. Launch a shell inside the RetroDECK Flatpak:
 
-**While testing, record:**
+   `flatpak run --command=bash net.retrodeck.retrodeck --debug`
 
-- Fully functional features
-- Partially functional features
-- Non-functional components
-- Errors, warnings, crashes, or unexpected behavior
+2. Navigate to the component's `bin` directory:
 
-Issue resolution will be handled later during the **Alchemist and Hunter** step.
+   `cd /app/retrodeck/components/<component_name>/bin/`
 
-**Example Considerations**
+   For example:
 
-- Are all expected features functioning correctly?
-- Does the application create directories or files in user locations (`~/Documents`, `~/.local`, `~/.config`, `~/`, or other paths)?
-- Does the application report any missing libraries or dependencies, both outside and inside the Flatpak environment?
-- Does it crash at startup or during normal operation, both outside and inside the Flatpak environment?
+   `cd /app/retrodeck/components/uzdoom/bin/`
+
+3. Launch the application binary:
+
+   `./<binary>`
+
+4. Test the application and document the results in detail.
+
+### Check Dependencies, File Access and Document the Results
+
+During testing, determine whether the application requires additional libraries, dependencies, configuration files, or data files. Also verify which files and directories the application accesses or creates, both inside and outside the Flatpak environment.
+
+Check and document:
+
+- **Dependencies:** Missing shared libraries, runtime dependencies, data files, or configuration files
+- **Functionality:** Fully functional, partially functional, and non-functional features or components
+- **Application behavior:** Successful startup, startup crashes, crashes during normal operation, errors, warnings, and unexpected behavior
+- **Environment differences:** Differences in behavior, file access, or dependencies between the host and Flatpak environments
+- **File and directory access:** Files and directories created, modified, read, or accessed by the application
+- **User directories:** Check locations such as `~/Documents`, `~/.local`, `~/.config`, `~/`, and other application-specific locations
+- **Flatpak access:** Determine whether the application can access the required locations correctly from inside the Flatpak sandbox
+- **License files:** Location and filenames of all license files
+- **Directory structure:** Complete structure of the application files
+- **`bin/`:** Application binaries and supporting executables
+- **`lib/`:** Shared libraries and other library files
+- **`share/`:** Application data, icons, desktop files, documentation, and other resources
+- **Additional files and directories:** Anything located outside `bin/`, `lib/`, and `share/`
+- **Configuration:** Configuration files and their locations
+- **Runtime files:** Required data files and other files needed for the application to function
+- **File attributes:** Permissions or other file attributes relevant to the component
+
+Document the results clearly, including the paths and purpose of important files and directories. Record any differences or access issues between the standard Flatpak installation from Flathub and the RetroDECK Flatpak environment.
+
+This information will be used later when creating the component's **Ingredient** and **Recipe** files.
 
 ---
 
-## Step 4: Creating Component: Ingredient & Recipe Files 
+## Create the Component: Ingredient and Recipe Files
 
-You now will need to move on to the next step:
+Once testing is complete, continue to the next stage.
 
-**Read more here:** [Creating Component: Ingredient Files Guide](creating-components-ingredients-guide.md)
+**Read more:** [Creating Component: Ingredient Files Guide](creating-components-ingredients-guide.md)
 
+---

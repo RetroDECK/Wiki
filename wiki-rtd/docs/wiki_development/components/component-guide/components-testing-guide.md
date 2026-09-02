@@ -48,7 +48,7 @@ This information will be used later when creating the component's **Ingredient**
 - **License files:** Location and filenames of all license files.
 - **Configuration:** Configuration files and their locations.
 
-#### Flatpak Source
+#### Flatpak / Appimage Source
 
 - **`bin/`:** Application binaries and supporting executables.
 - **`lib/`:** Shared libraries and other library files.

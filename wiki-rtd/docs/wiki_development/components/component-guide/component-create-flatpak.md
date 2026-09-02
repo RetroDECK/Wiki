@@ -240,8 +240,8 @@ The resulting structure should resemble:
 
 ## Testing Guide
 
-Start testing
+Start testing:
 
-**Read more:** [Component Testing Guide](component-testing-guide.md)
+**Read more:** [Component Testing Guide](components-testing-guide.md)
 
 ---

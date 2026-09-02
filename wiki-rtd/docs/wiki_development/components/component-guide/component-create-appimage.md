@@ -1,235 +1,250 @@
 ﻿# Creating Component: AppImage
 
-<img src="../../../../wiki_images/logos/appimage-logo.svg" width="100" alt="Appimage logo">
+<img src="../../../../wiki_images/logos/appimage-logo.svg" width="100" alt="AppImage logo">
 
-This a part of the How-to: Create Components Guide
+This is part of the **How-to: Create Components Guide**.
 
-We are going to use CEMU as an example and remember that each AppImage is different from another. 
+This guide uses **Cemu** as an example. AppImages can have significantly different structures, so inspect each AppImage individually.
 
-**Note:**
-
-This assumes you have read [Creating Component: Guide](creating-components-guide.md).
+> **Note:** This guide assumes you have read the [Creating Component: Guide](creating-components-guide.md).
 
 ---
 
-## Step 0: Make a testing directory 
+## Step 0: Create a Testing Directory
 
-1. Have a local copy of RetroDECK Cooker installed.
-2. Create a components directory for example: `~/retrodeck_dev/components/`
-
----
-
-## Step 1: Download the AppImage from Source
-
-1. Download the file from Github/Website or where every you find it.
-2. Put it into `retrodeck_dev/components/`.
-3. Create a directory in `retrodeck_dev/components/<component_name>` that matches the name of the component you want to add.
-
-**Example:**
-
-
-```
-wget "https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_64.AppImage"
-```
-
-1. Put it into `retrodeck_dev/components/Cemu-2.6-x86_64.AppImage`.
-2. Create a directory called `retrodeck_dev/components/cemu`.
+1. Ensure that a local copy of **RetroDECK Cooker** is installed.
+2. Create the components directory: `mkdir -p ~/retrodeck_dev/components` 
 
 ---
 
-## Step 2: Permissions & Extract 
+## Step 1: Download the AppImage
 
-Open a terminal window in `retrodeck_dev/components/`
 
-**Set Permissions:**
 
-```
-chmod +x "XXX.AppImage"
-```
+1. Download the AppImage from its official website, GitHub repository, or another trusted source.
+2. Place the AppImage in:
 
-**Extract it:**
+   `~/retrodeck_dev/components/`
 
-```
-./XXX.AppImage --appimage-extract
-```
+3. Create a directory matching the component name:
 
-**Example:**
+   `~/retrodeck_dev/components/<component_name>`
 
-```
-chmod +x "Cemu-2.6-x86_64.AppImage"`
-./Cemu-2.6-x86_64.AppImage --appimage-extract
-```
+### Example
+
+Download Cemu:
+
+`wget "https://github.com/cemu-project/Cemu/releases/download/v2.6/Cemu-2.6-x86_64.AppImage"`
+
+The AppImage should be located at:
+
+`~/retrodeck_dev/components/Cemu-2.6-x86_64.AppImage`
+
+Create the component directory:
+
+`mkdir -p ~/retrodeck_dev/components/cemu`
 
 ---
 
-## Step 3: New directory and move.
+## Step 2: Set Permissions and Extract the AppImage
 
-A new directory called `retrodeck_dev/components/squashfs-root` has been created.
+Open a terminal in:
 
-The structure is different in each AppImage.
+`~/retrodeck_dev/components/`
 
-**AppRun** exists in every AppImage and it can be either a:
+### Set Executable Permissions
 
-- Script (that launches the binary).
-- Binary (separate but launches the main binary).
-- Symlink (to the main binary).
+`chmod +x "<Application>.AppImage"`
 
-Other standard files such as: **icons**, **.desktop** also exist in every AppImage. 
+### Extract the AppImage
 
-Most follow these structures (with additional directorys and files depending on the app):
+`./<Application>.AppImage --appimage-extract`
 
+### Example
 
-**AppImage V2:**
+`chmod +x "Cemu-2.6-x86_64.AppImage"`
 
-```
-- squashfs-root
-    - AppRun (a script, binary or symlink)
-    - usr
-        - bin (contains the binary)
-        - lib   
-        - share
-```
+`./Cemu-2.6-x86_64.AppImage --appimage-extract`
 
-**AppImage V3:**
+This creates a directory named:
+
+`squashfs-root`
+
+That will contain:
 
 ```
-squashfs-root (links to AppDir)
-AppDir 
-    - bin (contains the binary)
-    - lib   
-    - share
+    squashfs-root/
+    ├── AppRun
+    ├── apprun-hooks/
+    ├── checkrt
+    └── usr/
+        ├── bin/       # Application binary
+        ├── lib/
+        └── share/
 ```
 
 ---
 
-### Examples of AppImage Structures
+## Test the AppImage
 
-**Cemu**
+During this stage, identify and document the files required by the application:
+
+`AppRun` is present in AppImages and may be:
+
+- A script that launches the application binary.
+- A binary that launches the application.
+- A symbolic link to the application binary.
+
+AppImages commonly also contain resources such as:
+
+- Icons.
+- Desktop files.
+- Libraries.
+- Application data.
+- Documentation.
+- License files.
+- Configuration files.
+- Additional application-specific files and directories.
+
+### Create the Component Directory
+
+Create a directory for the component under the RetroDECK Flatpak's component directory.
+
+For example, for Cemu:
+
+`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/cemu`
+
+In general:
+
+`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/<component_name>`
+
+### Copy the Application Files
+
+Copy the **contents of the `usr/` directory** from the extracted AppImage into the RetroDECK component directory.
+
+Do **not** copy the `usr/` directory itself.
+
+The structure varies between AppImages. For example, Cemu uses:
 
 ```
-squashfs-root
-    - AppRun
-    - apprun-hooks
-    - checkrt
-    - usr
-        - bin (contains the binary)
-        - lib   
-        - share
+    squashfs-root/
+    ├── AppRun
+    ├── apprun-hooks/
+    ├── checkrt
+    └── usr/ <--- Copy under this
+        ├── bin/
+        ├── lib/
+        ├── share/
+        └── <other>/
+```
+
+Copy the required `usr/` structure into:
+
+`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/<component_name>/`
+
+For example:
+
+`~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/cemu/`
+
+The resulting structure should resemble:
+
+
+```
+    components/
+    └── cemu/
+        ├── bin/
+        ├── lib/
+        └── share/
+
+```
+
+
+## Common AppImage Structures
+
+### AppImage V2
+
+    squashfs-root/
+    ├── AppRun
+    └── usr/
+        ├── bin/       # Application binary
+        ├── lib/       # Libraries
+        └── share/     # Application data and resources
+
+### AppImage V3
+
+```
+    squashfs-root/     # Links to AppDir
+    └── AppDir/
+        ├── bin/       # Application binary
+        ├── lib/       # Libraries or symbolic link
+        └── share/     # Application data and resources
 ```
 
 ---
 
-**Eden**
+## AppImage Structure Examples
+
+### Azahar
 
 ```
-squashfs-root (links to AppDir)
-AppDir
-    - bin (contains the binary)
-    - lib (link) 
-    - etc 
-    - share
-    - shared
+    squashfs-root/
+    ├── AppRun
+    ├── apprun-hooks/
+    ├── checkrt
+    └── usr/
+        ├── bin/       # Application binary
+        ├── lib/
+        ├── share/
+        ├── plugins/
+        └── translations/
 ```
 
-**Azahar**
+### Mudlet
 
 ```
-squashfs-root
-    - AppRun 
-    - apprun-hooks
-    - checkrt
-    - usr
-        - bin (contains the binary)
-        - lib   
-        - share
-        - plugins
-        - translations
+    squashfs-root/
+    ├── AppRun
+    ├── <translation files>
+    ├── doc/           # Licenses and documentation
+    ├── lcf/
+    ├── lib/
+    ├── mudlet         # Application binary
+    ├── mudlet-lua
+    ├── plugins/
+    └── translations/
 ```
 
----
-
-**Mudlet**
+### ES-DE
 
 ```
-squashfs-root (contains the binary)
-    - AppRun 
-    - <translation files>
-    - doc (licences)
-    - lcf
-    - lib
-    - mudlet (binary)
-    - mudlet-lua
-    - plugins
-    - translations
+    squashfs-root/
+    ├── AppRun
+    └── usr/
+        ├── bin/       # Application binary
+        ├── lib/
+        └── share/
 ```
 
----
-
-**ES-DE:**
+### OpenGOAL
 
 ```
-squashfs-root
-    - AppRun (a script, binary or symlink)
-    - usr
-        - bin (contains the binary)
-        - lib   
-        - share
-```
-
----
-
-**OpenGOAL:**
-
-```
-squashfs-root
-    - AppRun
-    - apprun-hooks
-    - checkrt
-    - usr
-        - bin (contains the binary)
-        - lib   
-        - share
+    squashfs-root/
+    ├── AppRun
+    ├── apprun-hooks/
+    ├── checkrt
+    └── usr/
+        ├── bin/       # Application binary
+        ├── lib/
+        └── share/
 ```
 
 ---
 
-## Step 5: Testing
 
-During this step, identify and document the following:
+## Testing Guide
 
-- **Binary**
-- **Dependencies**
-- **Libraries**
-- **Other important files**
+Start testing:
 
-### Testing Procedure
-
-1. Launch the binary from the RetroDECK Flatpak shell: `flatpak run --command=bash net.retrodeck.retrodeck --debug`
-2. Launch the application normally within your host OS environment (outside RetroDECK).
-3. Document the results in detail.
-
-**While testing, record:**
-
-- Fully functional features
-- Partially functional features
-- Non-functional components
-- Errors, warnings, crashes, or unexpected behavior
-
-Issue resolution will be handled later during the **Alchemist and Hunter** step.
-
-**Example Considerations**
-
-- Are all expected features functioning correctly?
-- Does the application create directories or files in user locations (`~/Documents`, `~/.local`, `~/.config`, `~/`, or other paths)?
-- Does the application report any missing libraries or dependencies, both outside and inside the Flatpak environment?
-- Does it crash at startup or during normal operation, both outside and inside the Flatpak environment?
-
+**Read more:** [Component Testing Guide](components-testing-guide.md)
 
 ---
-
-## Step 6: Creating Component: Ingredient Files
-
-You now will need to move on to the next step:
-
-**Read more here:** [Creating Component: Ingredient Files Guide](creating-components-ingredients-guide.md)
-

@@ -1,6 +1,8 @@
-# `component_launcher.sh`
+# component_launcher.sh
 
-`component_launcher.sh` is the launcher wrapper for a specific RetroDECK component. It prepares the required environment and executes the component within its sub-sandbox.
+`component_launcher.sh` is part of the component ingredient files. 
+
+Is the launcher wrapper for a specific RetroDECK component. It prepares the required environment and executes the component within its sub-sandbox.
 
 The `component_launcher.sh` file contains the component-specific logic required to launch an application inside its isolated sub-sandbox environment.
 
@@ -13,7 +15,6 @@ The contents vary between components depending on their requirements, including:
 - Component-specific `HOME` directories.
 - Default launch arguments.
 - The location of the component executable.
-- `chmod +x component_launcher.sh` must have executable permissions.
 
 This script is the entry point used when launching a component from:
 
@@ -24,7 +25,7 @@ This script is the entry point used when launching a component from:
 
 Components are launched through the Flatpak Enviroment via:
 
-`/app/retrodeck/components/<component name>/component_launcher.sh`
+`/app/retrodeck/components/<component_name>/component_launcher.sh`
 
 --- 
 

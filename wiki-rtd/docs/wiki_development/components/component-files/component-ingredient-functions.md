@@ -1,6 +1,8 @@
-# `component_functions.sh`
+# component_functions.sh
 
-`component_functions.sh` is a Bash script that defines the component-specific configuration, paths, settings helpers, lifecycle actions, startup actions, optional Configurator tools and more. It provides the logic required by the **RetroDECK Framework** understand how-to to configure, prepare, maintain and migrate the component.
+`component_functions.sh` is part of the component ingredient files. 
+
+That defines the component-specific configuration, paths, settings helpers, lifecycle actions, startup actions, optional Configurator tools and more. It provides the logic required by the **RetroDECK Framework** understand how-to to configure, prepare, maintain and migrate the component.
 
 A component's `component_functions.sh` may contain:
 

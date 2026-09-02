@@ -1,6 +1,8 @@
-# `component_manifest.json`
+# component_manifest.json
 
-The `component_manifest.json` file defines the metadata, capabilities, configuration, compatibility and integration points for a RetroDECK component.
+The `component_manifest.json` is part of the component ingredient files. 
+
+It defines the metadata, capabilities, configuration, compatibility and integration points for a RetroDECK component.
 
 It is consumed by the RetroDECK Framework, Configurator and related tools to identify and manage components.
 

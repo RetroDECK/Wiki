@@ -99,9 +99,9 @@ Make sure the following tools are installed on your system:
 - `git`
 - `gh` *(optional, for GitHub CLI tasks)*
 
-Install them using your distribution’s package manager (e.g. `apt`, `dnf`, `pacman`, etc.).
+Install them using your distribution’s package manager (`apt`, `dnf`, `pacman`, etc.).
 
-### Install Latest RetroDECK Cooker
+### Install Latest RetroDECK Cooker or Test Version
 
 [RetroDECK/Cooker](https://github.com/RetroDECK/Cooker)
 
@@ -128,8 +128,6 @@ While the runtime itself is the "OS" of the flatpak.
 - [Debug Mode](../../general/debug-mode.md)
 
 ---
-
-
 
 ## Publishing External Components 
 
@@ -225,6 +223,4 @@ After you have taken all into account follow the one of these General Guides and
 
 - **Source: AppImage:** [Creating Component: AppImage](component-create-appimage.md)
 
-- **Source: Binary:** [Creating Component: Binary](component-create-binary.md)
-
-- **Source: Build from Source:** [Creating Component: Build from Source](component-create-source.md)
+- **Source: Binary or Build from Source::** [Creating Component: Binary](component-create-binary.md)

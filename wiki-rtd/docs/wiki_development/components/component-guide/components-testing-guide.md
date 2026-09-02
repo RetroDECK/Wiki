@@ -67,6 +67,6 @@ Differences in behavior, file access, dependencies, or other runtime requirement
 
 Once testing is complete, continue to the next stage.
 
-**Read more:** [Creating Component: Component Files Guide](creating-components-ingredients-guide.md)
+**Read more:** [Creating Component: Component Files Guide](creating-components-files-guide.md)
 
 ---

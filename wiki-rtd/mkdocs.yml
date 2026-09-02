@@ -359,11 +359,12 @@ nav:
       - RetroDECK Alchemist - General Guide: wiki_development/components/alchemist-guide.md
 
     - Creating Components Guide:
-      - Creating Components: wiki_development/components/component-guide/creating-components-guide.md
-      - Component Source - AppImage: wiki_development/components/component-guide/component-create-appimage.md
-      - Component Source - Flatpak: wiki_development/components/component-guide/component-create-flatpak.md
-      - Component Source - Binary/Build: wiki_development/components/component-guide/component-create-flatpak.md
-      - Creating Component Files: wiki_development/components/component-guide/creating-components-ingredients-guide.md
+      - 1. Creating Components: wiki_development/components/component-guide/creating-components-guide.md
+      - 2a. Component Source - AppImage: wiki_development/components/component-guide/component-create-appimage.md
+      - 2b. Component Source - Flatpak: wiki_development/components/component-guide/component-create-flatpak.md
+      - 2c. Component Source - Binary/Build: wiki_development/components/component-guide/component-create-binary.md
+      - 3. Creating Testing Guide: wiki_development/components/component-guide/components-testing-guide.md
+      - 4. Creating Component Files: wiki_development/components/component-guide/creating-components-files-guide.md
 
     - Component Recipe - Examples:
       - EXAMPLE component_recipe - Web source - KEGS: wiki_development/components/recipes-examples/recipe-example-web-kegs.md

@@ -4,84 +4,61 @@
 
 This a part of the How-to: Create Components Guide
 
-We are going to use Tsugaru as an example and remember that each binary is different from another. 
-
 **Note:**
 
 This assumes you have read [Creating Component: Guide](creating-components-guide.md).
 
+## Downloading Binaries
+
+
+
 ---
+
+## Building from Source
 
 ### Prerequisite: Check the Internet!
 
-Before building from source, double check whether a prebuilt binary is already exists somewhere on the internet. In many cases, someone may have already compiled and distributed a usable version that you can download instead of building it yourself.
+Before building from source, check whether a prebuilt binary is already available online. In many cases, the application may already be distributed in a usable format, allowing you to avoid compiling it yourself.
+
+Look for existing builds such as:
+
+- **Flatpak**
+- **AppImage**
+- **Standalone binaries**
+
+Always verify that the source is trustworthy and that the build corresponds to the genuine application and an appropriate version. Prefer official project releases and reputable build systems where possible.
+
+Do not assume that an unofficial build is safe simply because it is available online. Verify the source, project ownership, version, and build provenance before using it.
 
 ---
 
-## Step 0: Make a testing directory 
+### Building Is Different for Every Application
 
-1. Have a local copy of RetroDECK Cooker installed.
-2. Create a components directory for example: `~/retrodeck_dev/components/`
+Every project can use different build systems, compilation methods, dependencies and build requirements.
 
----
-
-## Step 1: Download the Binary from Source
-
-1. Download the file from Github/Website or where every you find it.
-2. Put it into `retrodeck_dev/components/`.
-3. Create a directory in `retrodeck_dev/components/<component_name>` that matches the name of the component you want to add.
-
-**Example:**
-
-```
-wget "https://github.com/captainys/TOWNSEMU/releases/download/v20251206/ubuntu_binary_latest.zip"
-```
-
-## Step 2: Set Permissions & Extract Files
-
-1. Place the archive in the following directory: `retrodeck_dev/components/ubuntu_binary_latest.zip`
-2. Create the target directory: `retrodeck_dev/components/tsugaru/`
-3. Extract the archive into the target directory.
-4. Ensure the binary has executable permissions:  `chmod +x <binary_name> `
+Always follow the build instructions provided by the project and identify the dependencies required to produce the binary.
 
 ---
 
-## Step 3: Testing
+### Example: Building SDL2TRS
 
-During this step, identify and document the following:
+See the official [SDL2TRS build instructions](https://gitlab.com/jengun/sdltrs/-/blob/sdl2/BUILDING.md).
 
-- **Binary**
-- **Dependencies**
-- **Libraries**
-- **Other important files**
+Set up a Debian- or Ubuntu-based build environment and install the required dependencies:
 
-### Testing Procedure
+`sudo apt install libsdl2-dev libreadline-dev`
 
-1. Launch the binary from the RetroDECK Flatpak shell: `flatpak run --command=bash net.retrodeck.retrodeck --debug`
-2. Launch the application normally within your host OS environment (outside RetroDECK).
-3. Document the results in detail.
+#### Build with CMake (Recommended)
 
-**While testing, record:**
+`mkdir -p build`
 
-- Fully functional features
-- Partially functional features
-- Non-functional components
-- Errors, warnings, crashes, or unexpected behavior
+`cd build`
 
-Issue resolution will be handled later during the **Alchemist and Hunter** step.
+`cmake ..`
 
-**Example Considerations**
+`cmake --build .`
 
-- Are all expected features functioning correctly?
-- Does the application create directories or files in user locations (`~/Documents`, `~/.local`, `~/.config`, `~/`, or other paths)?
-- Does the application report any missing libraries or dependencies, both outside and inside the Flatpak environment?
-- Does it crash at startup or during normal operation, both outside and inside the Flatpak environment?
+The resulting SDL2TRS binary will be created in the `build/` directory.
 
 ---
-
-## Step 4: Creating Component: Ingredient Files
-
-You now will need to move on to the next step:
-
-**Read more here:** [Creating Component: Ingredient Files Guide](creating-components-ingredients-guide.md)
 

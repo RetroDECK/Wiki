@@ -1,25 +1,20 @@
 # Components Testing Guide
 
-
 ## Testing Procedure
 
-1. Launch a shell inside the RetroDECK Flatpak:
+Launch a shell inside the RetroDECK Flatpak: `flatpak run --command=bash net.retrodeck.retrodeck --debug`
 
-   `flatpak run --command=bash net.retrodeck.retrodeck --debug`
+Navigate to the component's `bin` directory: 
 
-2. Navigate to the component's `bin` directory:
+`cd /app/retrodeck/components/<component_name>/bin/`
 
-   `cd /app/retrodeck/components/<component_name>/bin/`
+For example:
 
-   For example:
+`cd /app/retrodeck/components/uzdoom/bin/`
 
-   `cd /app/retrodeck/components/uzdoom/bin/`
+Launch the application binary: `./<binary>` and test the application and document the results in detail.
 
-3. Launch the application binary:
-
-   `./<binary>`
-
-4. Test the application and document the results in detail.
+---
 
 ## Check Dependencies, File Access, and Document the Results
 
@@ -33,7 +28,7 @@ The goal is to identify: **Environment differences:**
 
 Differences in behavior, file access, dependencies, or other runtime requirements between the standard installation and running of the application and the RetroDECK Flatpak environment.
 
-Think about these topics:
+*Think about these topics:*
 
 ### Application and Functionality
 

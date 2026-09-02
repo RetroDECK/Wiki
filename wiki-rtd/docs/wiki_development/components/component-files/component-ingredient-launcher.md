@@ -22,9 +22,9 @@ This script is the entry point used when launching a component from:
 - RetroDECK CLI.
 - Other RetroDECK Framework functions.
 
-Components are launched through:
+Components are launched through the Flatpak Enviroment via:
 
-    `/app/retrodeck/components/<component name>/component_launcher.sh`
+`/app/retrodeck/components/<component name>/component_launcher.sh`
 
 --- 
 
@@ -33,8 +33,8 @@ Components are launched through:
 The launcher determine its own component name and installation path from its location:
 
 ```
-    component_name="$(basename "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")")"
-    component_path="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+component_name="$(basename "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")")"
+component_path="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ```
 
 This avoids hard-coding the component installation path and allows the launcher to locate files packaged with the component.
@@ -58,15 +58,15 @@ Only variables required by the component should be modified.
 
 --- 
 
-## Component Libraries
+## Component Libraries Mangagement
 
 Components may include their own libraries or require libraries provided by the RetroDECK runtime.
 
-For example: ` export LD_LIBRARY_PATH="$component_path/lib:$rd_shared_libs:${DEFAULT_LD_LIBRARY_PATH}"` 
+For example: `export LD_LIBRARY_PATH="$component_path/lib:$rd_shared_libs:${DEFAULT_LD_LIBRARY_PATH}"` 
 
-A launcher may also add specific runtime dependencies: ` export LD_LIBRARY_PATH="$component_path/lib:$ffmpeg_path/25.08:$rd_shared_libs:${DEFAULT_LD_LIBRARY_PATH}"` 
+A launcher may also add specific runtime dependencies: `export LD_LIBRARY_PATH="$component_path/lib:$ffmpeg_path/25.08:$rd_shared_libs:${DEFAULT_LD_LIBRARY_PATH}"` 
 
-This allows the component to locate libraries from its own package as well as shared RetroDECK runtime resources under ` shared-libs`  or other locations.
+This allows the component to locate libraries from its own package as well as shared RetroDECK runtime resources under `shared-libs`  or other locations.
 
 ### Qt Plugins
 
@@ -75,8 +75,8 @@ Components using Qt may require additional plugin paths.
 For example:
 
 ```
-    export QT_PLUGIN_PATH="$rd_shared_libs/org.kde.Platform/6.10/plugins/:${QT_PLUGIN_PATH}"
-    export QT_QPA_PLATFORM_PLUGIN_PATH="$rd_shared_libs/org.kde.Platform/6.10/plugins/platforms/:${QT_QPA_PLATFORM_PLUGIN_PATH}"
+export QT_PLUGIN_PATH="$rd_shared_libs/org.kde.Platform/6.10/plugins/:${QT_PLUGIN_PATH}"
+export QT_QPA_PLATFORM_PLUGIN_PATH="$rd_shared_libs/org.kde.Platform/6.10/plugins/platforms/:${QT_QPA_PLATFORM_PLUGIN_PATH}"
 ```
 
 These variables should only be configured when required by the component.
@@ -85,7 +85,7 @@ These variables should only be configured when required by the component.
 
 Some components do not respect XDG pathing standards and instead expect configuration or data to be stored under `HOME`. In these cases, the launcher can map `HOME` to the appropriate RetroDECK configuration location in either config or data.
 
-For example: `HOME=/var/config/oricutron`
+For example: `HOME=/var/config/oricutron` or `HOME=/var/data/oricutron`
 
 This redirects the component's home directory to RetroDECK's XDG-based configuration structure while keeping the component's configuration and data isolated from the normal environment.
 
@@ -109,7 +109,7 @@ For example:
 
 A launcher can provide default arguments required by a component while still allowing additional arguments to be passed by the caller.
 
-These are unique per component
+These are unique per component.
 
 For example:
 
@@ -162,11 +162,14 @@ For example, `dhewm3` requires several arguments to configure its RetroDECK envi
 
 Arguments that select a specific game, mod, or game mode can instead be defined in `component_manifest.json`.
 
-For example, `dhewm3` uses the manifest to provide different ES-DE launch commands for launching the base **Doom 3** game or a mod against the **Doom 3: Resurrection of Evil (D3XP)** expansion. The frontend handles the game-specific `+set fs_game` and `+set fs_game_base d3xp` arguments, allowing different launch options to be defined without adding game-specific logic to `component_launcher.sh`.
+**For example: `dhewm3`** 
+
+`dhewm3` uses the manifest to provide different ES-DE launch commands for launching the base **Doom 3** game or a mod against the **Doom 3: Resurrection of Evil (D3XP)** expansion. The frontend handles the game-specific `+set fs_game` and `+set fs_game_base d3xp` arguments, allowing different launch options to be defined without adding game-specific logic to `component_launcher.sh`.
 
 This allows the user to select the appropriate ES-DE launch command based on the game without modifying the core arguments defined by `component_launcher.sh`, such as `+set fs_basepath`, `+set r_fullscreen 1`, and `+set fs_gameDllPath`.
 
 **component_launcher.sh**
+
 ```
 #!/bin/bash
 

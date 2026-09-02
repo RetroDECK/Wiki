@@ -1,119 +1,233 @@
-# component_manifest.json
+# `component_manifest.json`
 
-A JSON file that defines metadata, capabilities and configuration logic for a RetroDECK component. This includes system compatibility, supported presets, menu integration and core-specific settings.
+The `component_manifest.json` file defines the metadata, capabilities, configuration, compatibility and integration points for a RetroDECK component.
 
-## Description
+It is consumed by the RetroDECK Framework, Configurator and related tools to identify and manage components.
 
-The `component_manifest.json` file provides both informational and functional data used by the RetroDECK Framework, Configurator menus and API calls. 
+A manifest can define:
 
-Each manifest includes:
-
-- Component metadata (name, description, supported systems)
+- Component metadata and supported systems
+- Component capabilities
+- Backup locations
 - Configurator menu entries
-- Compatible presets and their possible states
-- Actions required to apply presets
-- Core-specific metadata (if applicable)
+- ES-DE integration
+- Supported presets and their states
+- Actions used to apply presets
+- Core-specific metadata
+- BIOS and firmware requirements
+- Compression support
 
 ---
 
+## File Location
 
-## Example Structure: PPSSPP
+Each component has its own manifest in its component directory inside the Flatpak enviroment:
+
+```
+/app/retrodeck/components/<component_name>/component_manifest.json
+```
+
+For example:
+
+```
+/app/retrodeck/components/dolphin/component_manifest.json
+```
+
+---
+
+## General Structure
+
+A component manifest can contain the following sections and more:
 
 ```
 {
-  "ppsspp": {
-    "name": "PPSSPP",
-    "description": "PPSSPP is a PlayStation Portable (psp) emulator.",
-    "url_rdwiki": "https://retrodeck.readthedocs.io/en/latest/wiki_emulator_guides/ppsspp/ppsspp-guide/",
-    "url_webpage": "https://www.ppsspp.org/",
-    "url_donation_purchase": "https://www.ppsspp.org/buygold",
-    "url_source": "https://github.com/hrydgard/ppsspp",
+  "<component_name>": {
+    "name": "...",
+    "core_framework_compatibility": "...",
+    "component_version": "...",
+    "capabilities": [],
+    "description": "...",
+
+    "url_rdwiki": "...",
+    "url_webpage": "...",
+    "url_flathub": "...",
+    "url_donation_purchase": "...",
+    "url_source": "...",
+
+    "component_type": "...",
+    "system": "...",
+    "system_friendly_name": "...",
+
+    "backup_data": {},
+
+    "configurator_menus": {},
+
+    "es_de_config": {},
+
+    "compatible_presets": {},
+
+    "preset_actions": {},
+
+    "cores": {},
+
+    "bios": [],
+
+    "compression": {}
+  }
+}
+```
+
+Not every section is required. Only sections relevant to the component should be included and can also be expanded with new sections.
+
+---
+
+### Example: Dolphin 
+
+The following example demonstrates the main manifest structures using patterns from components such as Azahar and Dolphin.
+
+```
+{
+  "dolphin": {
+    "name": "Dolphin",
+    "core_framework_compatibility": "1",
+    "component_version": "1.0.0",
     "component_type": "Emulator",
-    "system": "psp",
-    "system_friendly_name": "Playstation Portable",
+    "capabilities": [
+      "reset",
+      "open"
+    ],
+
+    "description": "Nintendo GameCube and Wii emulator for playing GameCube and Wii games.",
+
+    "url_rdwiki": "https://retrodeck.readthedocs.io/en/latest/wiki_emulator_guides/dolphin-primehack/dolphin-primehack-guide/",
+    "url_webpage": "https://dolphin-emu.org",
+    "url_donation_purchase": "",
+    "url_source": "https://github.com/dolphin-emu/dolphin",
+
+    "component_type": "Emulator",
+
+    "system": [
+      "gc",
+      "wii"
+    ],
+
+    "system_friendly_name": [
+      "GameCube",
+      "Wii"
+    ],
+
+    "backup_data": {
+      "core": [
+        {
+          "path": "$XDG_CONFIG_HOME/dolphin-emu"
+        },
+        {
+          "path": "$XDG_DATA_HOME/dolphin-emu"
+        }
+      ]
+    },
+
+    "es_de_config": {
+      "es_find_rules": {
+        "emulators": [
+          {
+            "name": "DOLPHIN",
+            "description": "Nintendo GameCube and Wii emulator Dolphin",
+            "rules": [
+              {
+                "type": "staticpath",
+                "entries": [
+                  "%COMPONENT_PATH%/component_launcher.sh"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+
+      "es_systems": [
+        {
+          "name": "gc",
+          "fullname": "Nintendo GameCube",
+          "path": "%ROMPATH%/gc",
+          "extension": ".7z .ciso .dff .dol .elf .gcm .gcz .iso .json .m3u .rvz .tgc .wad .wbfs .wia .zip",
+
+          "commands": [
+            {
+              "label": "Dolphin (Standalone)",
+              "command": "env QT_QPA_PLATFORM=xcb %EMULATOR_DOLPHIN% -b -e %ROM%",
+              "priority": 10
+            }
+          ],
+
+          "platform": "gc",
+          "theme": "gc"
+        }
+      ]
+    },
+
     "compatible_presets": {
-      "savestate_auto_load": [
+      "ask_to_exit": [
         "false",
         "true"
       ],
       "cheevos": [
-        "false",
-        "true"
-      ],
-      "cheevos_hardcore": [
         "false",
         "true"
       ]
     },
+
     "preset_actions": {
-      "config_file_format": "ppsspp",
-      "savestate_auto_load": [
+      "config_file_format": "dolphin",
+
+      "ask_to_exit": [
         {
           "enabled_states": [
             "true"
           ],
-          "setting_name": "AutoLoadSaveState",
-          "action": "change",
-          "new_setting_value": "2",
-          "section": "General",
-          "target_file": "$ppsspp_config",
-          "defaults_file": "$ppsspp_rd_config_dir/ppsspp.ini"
-        }
-      ],
-      "cheevos": [
-        {
-          "enabled_states": [
-            "true"
-          ],
-          "setting_name": "AchievementsEnable",
+          "setting_name": "ConfirmStop",
           "action": "change",
           "new_setting_value": "True",
-          "section": "Achievements",
-          "target_file": "$ppsspp_config",
-          "defaults_file": "$ppsspp_rd_config_dir/ppsspp.ini"
-        },
-        {
-          "enabled_states": [
-            "true"
-          ],
-          "setting_name": "AchievementsUserName",
-          "action": "change",
-          "new_setting_value": "$cheevos_username",
-          "section": "Achievements",
-          "target_file": "$ppsspp_config",
-          "defaults_file": "$ppsspp_rd_config_dir/ppsspp.ini"
-        },
-        {
-          "enabled_states": [
-            "true"
-          ],
-          "setting_name": "cheevos_token",
-          "action": "change",
-          "new_setting_value": "$cheevos_token",
-          "section": "",
-          "target_file": "$ppsspp_retroachievements_dat",
-          "defaults_file": "$ppsspp_rd_config_dir/ppsspp_retroachievements.dat"
+          "section": "Interface",
+          "target_file": "$dolphin_config",
+          "defaults_file": "$dolphin_rd_config_dir/Dolphin.ini"
         }
       ],
-      "cheevos_hardcore": [
+
+      "universal_dyn_input": [
         {
           "enabled_states": [
             "true"
           ],
-          "setting_name": "AchievementsChallengeMode",
-          "action": "change",
-          "new_setting_value": "True",
-          "section": "Achievements",
-          "target_file": "$ppsspp_config",
-          "defaults_file": "$ppsspp_rd_config_dir/ppsspp.ini"
+          "action": "install",
+          "source": "/app/retrodeck/components/shared-data/DynamicInputTextures/",
+          "destination": "$XDG_DATA_HOME/dolphin-emu/Load/DynamicInputTextures/",
+          "cleanup_type": "purge"
         }
-      ],
-      "bios": {
-        "filename": "ppge_atlas.zim",
-        "md5": "866855cc330b9b95cc69135fb7b41d38",
-        "system": "psp",
-        "description": "PSP Atlas ZIM - asset package for PSP homebrew",
+      ]
+    },
+
+    "bios": [
+      {
+        "filename": "gc-dvd-20010608.bin",
+        "md5": "561532ad496f644897952d2cef5bb431",
+        "system": "gc",
+        "paths": [
+          "$saves_path/gc/dolphin/EU",
+          "$saves_path/gc/dolphin/US",
+          "$saves_path/gc/dolphin/JP"
+        ],
+        "description": "GameCube DVD BIOS",
         "required": "Optional"
+      }
+    ],
+
+    "compression": {
+      "rvz": {
+        "targets": [
+          "gc",
+          "wii"
+        ]
       }
     }
   }
@@ -122,134 +236,597 @@ Each manifest includes:
 
 ---
 
-## Key Sections
+## Component Identifier
 
-### component_name
+### `<component_name>`
 
-**component_name** - This is the internal name for this component as used in the Framework. This name must also match the component folder name. From the current path for these files listed above, this means this manifest file would be found at /app/retrodeck/components/component_name/component_manifest.json
+The top-level JSON key is the component's internal identifier.
 
-- **name** - A human-friendly name for this component, as shown in menu dialogs
+```
+{
+  "dolphin": {
+```
 
-- **description** - A human-friendly description for this component, as shown in menu dialogs
+The identifier:
 
-- **url_rdwiki** - A link to the RetroDECK wiki entry for this component.
+- Must match the component directory name.
+- Is used internally by the RetroDECK Framework.
+- Identifies the component throughout the `component_manifest.json`, `component_launcher.sh`, and `component_functions.sh`.
 
-- **url_webpage** - A link to the components webpage.
 
-- **url_flathub** - A link to the components place Flathub (if there is one).
+For example:
 
-- **url_donation_purchase** - A link to where to donate to or buy the component.
+```
+/app/retrodeck/components/dolphin/component_manifest.json
+```
 
-- **url_source** - A link to the source code of the component.
+must use:
 
-- **url_<other>** - Other relevant links.
+```
+"dolphin"
+```
 
-- **system** - A single value or array of values of machine-friendly names of the systems emulated by this component
-
----
-
-### component_type
-
-Components are broadly categorized:  
-
-- **Client**
-- **Multi-Emulator**
-- **Emulator**
-- **Engine**
-- **Port**
-- **System**
-
-**Example:**
-
-"component_type": "System"
-
-**Read here for more details:** 
-
-- [Development Glossary](../../general/development-glossary.md) 
-- [What is RetroDECK](../../../wiki_about/what-is-retrodeck.md)
+as its top-level key.
 
 ---
 
-### configurator_menus
+## Component Metadata
 
-**configurator_menus** - This is an optional section for components that should have component-specific settings in a given Configurator menu. This does not affect the visibility of presets, but is more used for one-off actions specific to that component (such as installing RPCS3 firmware, Showing/Hiding Portmaster or any of the internal RetroDECK tools like BIOS checking or folder moving.
+These fields identify and describe the component.
 
-- **<menu_name>** - This section is the name of the menu "class" the menu entry applies to. This will be used for dynamically generating menu entries, so if a menu is looking for "settings" menu entries, in this example only the "portmaster" menu entry would be used.
+| Field | Description |
+| --- | --- |
+| `name` | Human-readable component name shown in menus and dialogs. |
+| `core_framework_compatibility` | Framework compatibility level required by the manifest. |
+| `component_version` | Version of the RetroDECK component definition. |
+| `capabilities` | Operations supported by the component, such as `reset` or `open`. |
+| `description` | Human-readable description of the component. |
+| `component_type` | RetroDECKs component category, such as `Emulator`, `Engine`, `Port`, `Game`. |
+| `system` | Machine-readable system identifier, or an array of identifiers. |
+| `system_friendly_name` | Human-readable system name, or an array matching `system`. |
+| `url_rdwiki` | RetroDECK Wiki page for the component. |
+| `url_webpage` | Component website. |
+| `url_flathub` | Flathub page, if applicable. |
+| `url_donation_purchase` | Donation or purchase page, if applicable. |
+| `url_source` | Component source-code repository. |
+| `url_<other>` | Additional relevant URLs. |
 
-- **<entry_name>** - This is an arbitrary name to identify the menu entry for search. It is not currently used internally for anything except identification. As with all JSON keys, it must be uniquely named in its parent object.
-
-- **name** - A human-friendly name of the menu entry, as shown in menu dialogs
-
-- **description** - A human-friendly description of the menu entry, as shown in menu dialogs
-
-- **command** - The command that will be run when the menu entry is selected. This can be a single line command if it is a simple action, or an internally defined function (with optional arguments) for more complex actions. Any component-specific function referenced here should be defined in that components component_functions.sh file.
 
 ---
 
-### compatible_presets
+## Multiple Systems
 
-- **compatible_presets** - A list of objects with the key being the preset name (as found in retrodeck.cfg) and the possible values for this preset for this component. In the array of values, the first value MUST always be the "disabled" state. The state name is arbitrary, but the first value is what is referenced by the Framework as the "disabled" state and all others are some form of "enabled". These entries are also what are referenced when adding new components to the retrodeck.cfg file on update. As new components are added, this section will be checked and any component that supports a given preset but an entry does not yet exist for it in retrodeck.cfg will be added at update time, so the supported presets lists no longer need to be shipped statically in retrodeck.cfg, all the components that exist and support any preset will have their entries maintained in retrodeck.cfg automatically.
+A component supporting multiple systems can define `system` and `system_friendly_name` as arrays.
 
-- **preset_actions** - This is a section containing the actions that should be taken to enable / disable any given preset this component supports (these are replacing the information found the individual preset reference lists in pre-0.10.0b). If the component does not support any presets, this section can be omitted completely. 
+Example:
 
-- **config_file_format** - The format used by functions like set_setting_value for enacting this preset
+```
+"system": [
+  "gc",
+  "wii"
+],
 
-- **preset_name** - The name of the preset, matching the entries in "compatible_presets" that the containing actions should be used for. Alternatively, this can be the name of a component core, if applicable. The rest of the action object will then go inside that core object. If this is a core preset action, the "config_file_format" will also go inside it.
+"system_friendly_name": [
+  "GameCube",
+  "Wii"
+]
+```
 
-- **setting_name** - The name of the setting being changed. This would be the actual line name used in the component config file being edited for this preset.
+The entries correspond by position.
 
-The objects in this section will have the following structure, taken from the legacy preset reference lists:
+---
+
+## `backup_data`
+
+Defines component data that should be included in RetroDECK backup and restore operations.
+
+Example:
+
+```
+"backup_data": {
+  "core": [
+    {
+      "path": "$XDG_CONFIG_HOME/dolphin-emu"
+    },
+    {
+      "path": "$XDG_DATA_HOME/dolphin-emu"
+    }
+  ]
+}
+```
+
+---
+
+## `configurator_menus`
+
+Defines optional component-specific entries for RetroDECK Configurator menus.
+
+This section is intended for component-specific actions rather than general preset configuration.
+
+Typical uses include:
+
+- Running maintenance actions
+- Launching component-specific tools
+- Performing one-off configuration actions
+
+| Field | Description |
+| --- | --- |
+| `<menu_name>` | Menu class to which the entry belongs. |
+| `<entry_name>` | Unique identifier for the entry. |
+| `name` | Human-readable menu entry name. |
+| `description` | Human-readable description. |
+| `command` | Command or internal function executed when selected. |
+
+Component-specific functions referenced by `command` should be defined in the component's `component_functions.sh`.
+
+```
+"configurator_menus": {
+  "<menu_name>": {
+    "<entry_name>": {
+      "name": "...",
+      "description": "...",
+      "command": "..."
+    }
+  }
+}
+```
+
+---
+
+---
+
+## Cores
+
+Defines metadata for RetroArch cores that require their own configuration or menu information.
+
+| Field | Description |
+| --- | --- |
+| `<component_core_name>` | Unique internal identifier for the core. |
+| `name` | Human-readable core name. |
+| `description` | Human-readable core description. |
+| `system` | Machine-readable system identifier, or an array of identifiers. |
+| `system_friendly_name` | Human-readable system name, or an array of names. |
+
+```
+"cores": {
+  "<component_core_name>": {
+    "name": "...",
+    "description": "...",
+    "system": "...",
+    "system_friendly_name": "..."
+  }
+}
+```
+
+---
+
+## BIOS
+
+Defines BIOS and firmware files associated with the component.
+
+RetroDECK's BIOS Checker uses this section to locate and validate specified files.
+
+A component can define multiple BIOS entries
+
+| Field | Description |
+| --- | --- |
+| `filename` | Exact filename expected by RetroDECK. |
+| `md5` | MD5 checksum used to validate the file. |
+| `system` | System identifier associated with the BIOS or firmware. |
+| `paths` | Location or locations where the BIOS may be found. |
+| `description` | Description of the BIOS or firmware file. |
+| `required` | Indicates whether the file is required, optional, or conditionally required. |
+
+**Example: Dolphin**
+
+Dolphin's BIOS needs to be inside the saves folder for the boot logo.
+
+```
+"bios": [
+    {
+      "filename": "gc-pal-10.bin",
+      "md5": "0cdda509e2da83c85bfe423dd87346cc",
+      "system": "gc",
+      "paths": "$saves_path/gc/dolphin/EU",
+      "description": "GameCube EU BIOS (for boot logo)",
+      "required": "Optional"
+    }
+]
+```
+
+**Example: Dreamcast**
 
 
 ```
-action
-new_setting_value
-section
-target_file
-defaults_file
+"bios": [
+    {
+      "filename": "hod2bios.zip",
+      "md5": [
+        "629bb0552463ba116ccf23d9a468a9f0",
+        "f4011d3116500354edf7302a90402711"
+      ],
+      "system": "dreamcast",
+      "description": "House of the Dead 2 Naomi BIOS",
+      "paths": "$bios_path/dc",
+      "required": "Required, for that specific game"
+    }
+]
 ```
 
-These entries can contain variable names (such as sourced config file paths) or be omitted entirely if not needed, such as if the target file does not use sections the "section" line can be left out, or just left empty.
+---
+
+### BIOS Paths
+
+The `paths` field can contain either a single path or an array of paths.
+
+Single path:
+
+```
+"paths": "$saves_path/gc/dolphin/EU"
+```
+
+Multiple paths:
+
+```
+"paths": [
+  "$saves_path/gc/dolphin/EU",
+  "$saves_path/gc/dolphin/US",
+  "$saves_path/gc/dolphin/JP"
+]
+```
+
+If `paths` is not defined, the default location is the root of the `retrodeck/bios` directory.
+
 
 ---
 
-### cores
+### Requried
 
-**cores** - If the component has sub-components (such as RetroArch cores) which need their own information for use in menus etc., they will be stored here. Each object in the "cores" section will have the following structure:
+Common values include:
 
-- **component_core_name** - A unique name that will show up for preset settings in retrodeck.cfg etc.
-
-- **name** - A human friendly name for this core, as shown in menus
-
-- **description** - A human-friendly description of this core, as shown in menus
-
-- **system** - A single value or array of values of machine-friendly names of the systems emulated by this core.
-
-- **system_friendly_name** - A human-friendly name of the system(s) emulated by this core, as shown in menus.
+| Value | Meaning |
+| --- | --- |
+| `Required` | The file is required for the relevant games or functionality. |
+| `Required, for some <Country> games` | Required for games from the specified region. |
+| `Required, at least one` | At least one BIOS from the relevant group must be present. |
+| `Required, for that specific game` | Required for that game. |
+| `Optional` | Not required for normal operation. |
 
 ---
 
-### bios
+## Compression
 
-**bios** - Defines BIOS or firmware files that a component may require. RetroDECK's BIOS Checker Tool uses this section to validate and locate required files.
+Defines compression formats supported by the component and is used by RetroDECK's compression tool.
 
-- **filename** - The exact filename of the file.
+This section is useful when RetroDECK provides component-specific handling for compressed game formats.
 
-- **md5** - The MD5 checksum string.
+| Field | Description |
+| --- | --- |
+| `<format>` | Compression format handled by the component. |
+| `targets` | Systems for which the compression format is supported. |
 
-- **system** - The target system or systems identifier in the ES-DE/RetroDECK structure that requires the file.
+Example:
 
-- **description** - A brief explanation of what the BIOS file contains or why it's needed.
+```
+"compression": {
+  "rvz": {
+    "targets": [
+      "gc",
+      "wii"
+    ]
+  }
+}
+```
 
-- **required** - Indicates whether the BIOS is mandatory, optional, or if at least one file from a group is needed. 
+Indicates that RVZ compression is supported for GameCube and Wii.
 
-Typical values include:<br>
 
-`Required` - Needed for the games to run.<br>
-`Required, for some <Country> games` - Needed for country-specific games to run.<br>
-`Required, at least one` - At least one BIOS of this type must be present for games to run.<br>
-`Optional` - Not required for general functionality but may enable extra features.
+---
 
-- **paths** *(optional)* - The location where the file should be placed if not in the default `retrodeck/bios` directory.
+## ES-DE
+
+ES-DE treats every component or system defined in `es_de_config` under the group name **Emulator**, regardless of the component's actual type or purpose.
+
+### `es_de_config`
+
+Defines the component's integration with ES-DE. 
+
+It contains:
+
+- `es_find_rules` - Defines how ES-DE locates the component.
+- `es_systems` - Defines the systems, ROM paths, supported extensions, and launch commands provided by the component.
+
+### `es_find_rules`
+
+Defines how ES-DE identifies and locates the component executable.
+
+| Key | Description |
+| --- | --- |
+| `emulators` | List of emulator definitions used by ES-DE . |
+| `name` | Name used by ES-DE to identify the emulator defined in uppercase. |
+| `description` | Human-readable description of the emulator. |
+| `rules` | Rules used to locate the emulator. |
+| `type` | Type of rule used to locate the emulator, such as `staticpath`. |
+| `entries` | Paths or entries evaluated by the rule. |
+
+### `es_systems`
+
+Defines the ES-DE systems supported by the component.
+
+| Key | Description |
+| --- | --- |
+| `name` | Machine-readable ES-DE system identifier. |
+| `fullname` | Human-readable name of the system. |
+| `path` | ROM directory associated with the system. Corresponds to `retrodeck/roms/<roms_system_folder>`. |
+| `extension` | Space-separated list of supported file extensions.<br>Only lowercase extensions need to be defined.<br>RetroDECK automatically provides both lowercase and uppercase variants for ES-DE.<br> Unlike standard ES-DE configuration, both cases do not need to be specified. |
+| `commands` | List of launch commands available for the system. |
+| `label` | Human-readable name of the launch command shown by ES-DE. |
+| `command` | Command used to launch the ROM via the component's `component_launcher.sh`. |
+| `priority` | Determines the default launch command when multiple commands are available for the same system, either within a component or across RetroDECK.<br>Lower values have higher priority. The command with the highest priority is used as the default.<br>For example, if both a Dolphin Standalone and a RetroArch core command are available for GameCube, the command with the highest priority is selected as the standard/default option for the users. |
+| `platform` | ES-DE platform identifier. |
+| `theme` | ES-DE theme identifier. |
+
+### Example: Dolphin
+
+```
+"es_de_config": {
+  "es_find_rules": {
+    "emulators": [
+      {
+        "name": "DOLPHIN",
+        "description": "Nintendo GameCube and Wii emulator Dolphin",
+        "rules": [
+          {
+            "type": "staticpath",
+            "entries": [
+              "%COMPONENT_PATH%/component_launcher.sh"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "es_systems": [
+    {
+      "name": "gc",
+      "fullname": "Nintendo GameCube",
+      "path": "%ROMPATH%/gc",
+      "extension": ".7z .ciso .dff .dol .elf .gcm .gcz .iso .json .m3u .rvz .tgc .wad .wbfs .wia .zip",
+      "commands": [
+        {
+          "label": "Dolphin (Standalone)",
+          "command": "env QT_QPA_PLATFORM=xcb %EMULATOR_DOLPHIN% -b -e %ROM%",
+          "priority": 10
+        }
+      ],
+      "platform": "gc",
+      "theme": "gc"
+    },
+    {
+      "name": "triforce",
+      "fullname": "Namco-Sega-Nintendo Triforce",
+      "path": "%ROMPATH%/triforce",
+      "extension": ".7z .ciso .dff .dol .elf .gcm .gcz .iso .json .m3u .rvz .tgc .wad .wbfs .wia .zip",
+      "commands": [
+        {
+          "label": "Dolphin (Standalone)",
+          "command": "env QT_QPA_PLATFORM=xcb %EMULATOR_DOLPHIN% -b -e %ROM%",
+          "priority": 10
+        }
+      ],
+      "platform": "arcade",
+      "theme": "triforce"
+    },
+    {
+      "name": "wii",
+      "fullname": "Nintendo Wii",
+      "path": "%ROMPATH%/wii",
+      "extension": ".7z .ciso .dff .dol .elf .gcm .gcz .iso .json .m3u .rvz .tgc .wad .wbfs .wia .zip",
+      "commands": [
+        {
+          "label": "Dolphin (Standalone)",
+          "command": "env QT_QPA_PLATFORM=xcb %EMULATOR_DOLPHIN% -b -e %ROM%",
+          "priority": 10
+        }
+      ],
+      "platform": "wii",
+      "theme": "wii"
+    }
+  ]
+}
+```
+
+---
+
+## Presets
+
+### `compatible_presets`
+
+Defines the presets supported by the component and their valid states.
+
+Each key is a preset name corresponding to a preset defined and handled by the RetroDECK Framework in:
+
+- `/app/retrodeck/components/framework/component_manifest.json`
+- `/app/retrodeck/components/framework/component_functions.sh`
+
+
+Example:
+
+```
+"compatible_presets": {
+  "ask_to_exit": [
+    "false",
+    "true"
+  ],
+  "cheevos": [
+    "false",
+    "true"
+  ],
+  "cheevos_hardcore": [
+    "false",
+    "true"
+  ],
+  "universal_dyn_input": [
+    "false",
+    "true"
+  ]
+}
+```
+
+### `config_file_format`
+
+Defines the configuration-file format used when applying settings through functions such as `set_setting_value` in the component's own `component_manifest.json`.
+
+Example:
+
+```
+"config_file_format": "dolphin"
+```
+
+
+---
+
+### Preset States
+
+The **first state must always represent the disabled state**.
+
+Example:
+
+```
+"cheevos": [
+  "false",
+  "true"
+]
+```
+
+The Framework interprets this as:
+
+- `false` - disabled
+- `true` - enabled
+
+The state names themselves are component-defined. The first entry is what identifies the disabled state.
+
+
+---
+
+### `preset_actions`
+
+Defines the actions required to apply supported presets using the configuration and logic defined in the component's own `component_manifest.json`.
+
+
+```
+"preset_actions": {
+  "config_file_format": "dolphin",
+
+  "<preset_name>": [
+    {
+      "enabled_states": [
+        "true"
+      ],
+      "setting_name": "...",
+      "action": "change",
+      "new_setting_value": "...",
+      "section": "...",
+      "target_file": "...",
+      "defaults_file": "..."
+    }
+  ]
+}
+```
+
+| Field | Description |
+| --- | --- |
+| `enabled_states` | Preset states for which the action is applied. |
+| `setting_name` | Name of the configuration setting being modified. |
+| `action` | Operation to perform. |
+| `new_setting_value` | Value written by the action. |
+| `section` | Configuration-file section containing the setting, if applicable. |
+| `target_file` | Configuration or data file being modified. |
+| `defaults_file` | Default configuration file used when applicable. |
+| `source` | Source path for actions such as `install`. |
+| `destination` | Destination path for actions such as `install`. |
+| `cleanup_type` | Cleanup behavior associated with an installation action. |
+
+Fields may contain RetroDECK variables.
+
+Fields that are not required by an action can be omitted.
+
+---
+
+### `action: change`
+
+Changes a setting in a configuration file.
+
+Example:
+
+```
+{
+  "enabled_states": [
+    "true"
+  ],
+  "setting_name": "ConfirmStop",
+  "action": "change",
+  "new_setting_value": "True",
+  "section": "Interface",
+  "target_file": "$dolphin_config",
+  "defaults_file": "$dolphin_rd_config_dir/Dolphin.ini"
+}
+```
+
+The action:
+
+1. Selects the specified configuration file.
+2. Locates the specified setting.
+3. Changes its value.
+4. Uses the defaults file where required by the configuration handling functions.
+
+---
+
+### `action: raw_write`
+
+Writes a value directly to a target file.
+
+Example:
+
+```
+{
+  "enabled_states": [
+    "true"
+  ],
+  "action": "raw_write",
+  "new_setting_value": "$cheevos_token",
+  "target_file": "$ppsspp_retroachievements_dat"
+}
+```
+
+`setting_name`, `section`, and `defaults_file` are not required when the action operates directly on the target file.
+
+---
+
+### `action: install`
+
+Installs or copies files from a source location to a destination.
+
+| Field | Description |
+| --- | --- |
+| `source` | Source directory or file to install. |
+| `destination` | Destination directory or file. |
+| `cleanup_type` | Defines how installed data is cleaned up when the preset is disabled or removed. |
+
+
+Example:
+
+```
+{
+  "enabled_states": [
+    "true"
+  ],
+  "action": "install",
+  "source": "/app/retrodeck/components/shared-data/DynamicInputTextures/",
+  "destination": "$XDG_DATA_HOME/dolphin-emu/Load/DynamicInputTextures/",
+  "cleanup_type": "purge"
+}
+```
 
 ---

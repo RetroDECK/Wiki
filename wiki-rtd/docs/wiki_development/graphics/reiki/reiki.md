@@ -4,9 +4,11 @@
 
 ---
 
-## What is Reiki? 
+## Who is Reiki? 
 
-**Reiki** is a gaming Cyber Shark, a true shark of games and the official mascot of the **RetroDECK Project**.
+**Reiki** is a gaming Cyber Shark, a true *game shark* and the official mascot of the **RetroDECK Project**.
+
+She is a collaborative effort between the **RetroDECK Team** and FOSS contributor **Tyson Tan** of KDE and Krita, developed on and off over many years.
 
 Her most distinctive feature is her component based **modular dorsal fin system**.
 
@@ -16,7 +18,7 @@ Each **component-fin** module changes both her appearance and abilities, effecti
 
 **Examples:**
 
-- UZDoom component - Rip and tear, until it is done 🦈!
+- UZDoom component - Rip and tear, until it is done!
 
 - C64 component - Take a bite of the Ur-Quan Hierarchy!
 

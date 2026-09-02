@@ -1,206 +1,452 @@
-# component_functions.sh
+# `component_functions.sh`
 
-A Bash script that defines configuration file paths and component-specific functions. 
-
-### Legacy Note 
-
-This file replaces the legacy `global.sh` structure by decentralizing component logic and configuration. This modular approach simplifies the addition of new components and avoids bloating a single monolithic script.
-
-## Description
-
-The `component_functions.sh` file contains:
-
-- Component-specific path variables.
-- Functions unique to the component (e.g., firmware installation, advanced functions found in the Configurator menus)
-
-Each component has its own `component_functions.sh` file. These files are automatically sourced during system boot, ensuring all paths and functions are globally available without requiring manual inclusion or centralized maintenance.
-
-## Example: PPSSPP
-
-```
-#!/bin/bash
-
-ppsspp_config="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/ppsspp.ini"
-ppsspp_config_controls="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/controls.ini"
-ppsspp_retroachievements_dat="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/ppsspp_retroachievements.dat"
-ppsspp_cheats_db="$rd_components/ppsspp/cheats/cheat.db"
-ppsspp_rd_config_dir="$rd_components/ppsspp/rd_config"
-ppsspp_rd_extras_dir="$rd_components/ppsspp/rd_extras"
-ppsspp_textures_path="$XDG_CONFIG_HOME/ppsspp/PSP/TEXTURES"
-ppsspp_shaders_path="$XDG_CONFIG_HOME/ppsspp/PSP/shaders"
-ppsspp_cheats_path="$XDG_CONFIG_HOME/ppsspp/PSP/Cheats"
-ppsspp_mods_path="$XDG_CONFIG_HOME/ppsspp/PSP/PLUGINS"
-ppsspp_logs_path="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/DUMP"
-```
-
-**Check More Examples:**
-
-[RetroDECK Components/Cooker](https://github.com/RetroDECK/components/tree/cooker)
+`component_functions.sh` is a Bash script that defines the component-specific configuration, paths, settings helpers, lifecycle actions, startup actions, optional Configurator tools and more. It provides the logic required by the **RetroDECK Framework** understand how-to to configure, prepare, maintain and migrate the component.
 
 ---
 
-# component_update.sh
+## Responsibilities
 
-A Bash script that contains component-specific preparation logic like resets and folder moves during RetroDECK updates.
+A component's `component_functions.sh` may contain:
 
-It's like an upgrade only light version of: `component_prepare.sh`
-
-## Description
-
-The `component_update.sh` file is responsible for handling update tasks unique to a specific component, such as:
-
-- Resetting configuration files
-- Preparing directories
-- Moving or backing up data
-- Post-move adjustments
-
-The when the `update_component` function is called the `RetroDECK Framework` processes every installed `component` and it will decide if it needs to trigger or not.
-
-## Example: PPSSPP
-
-```
-#!/bin/bash
-
-#########################################################################
-# These actions happen conditionally based on the version being upgraded
-#########################################################################
-
-if [[ $(check_version_is_older_than "$version_being_updated" "0.7.0b") == "true" ]]; then
-  # In version 0.7.0b, the following changes were made that required config file updates/reset or other changes to the filesystem:
-  # - Move PPSSPP saves/states to appropriate folders
-
-  dir_prep "$saves_path/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/SAVEDATA"
-  dir_prep "$states_path/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/PPSSPP_STATE"
-
-  set_setting_value "$ppssppconf" "AutoLoadSaveState" "0" "ppsspp" "General"
-fi
-
-if [[ $(check_version_is_older_than "$version_being_updated" "0.7.1b") == "true" ]]; then
-  # In version 0.7.1b, the following changes were made that required config file updates/reset or other changes to the filesystem:
-  # - Force update PPSSPP standalone keybinds for L/R.
-  set_setting_value "$ppsspp_config_controls" "L" "1-45,10-193" "ppsspp" "ControlMapping"
-  set_setting_value "$ppsspp_config_controls" "R" "1-51,10-192" "ppsspp" "ControlMapping"
-fi
-
-if [[ $(check_version_is_older_than "$version_being_updated" "0.9.1b") == "true" ]]; then
-  log i "Preparing the cheats for PPSSPP-SA..."
-  create_dir -d "$cheats_path/PPSSPP"
-  dir_prep "$cheats_path/PPSSPP" "$ppsspp_cheats_path"
-  tar -xzf "/app/retrodeck/cheats/ppsspp.tar.gz" -C "$cheats_path/PPSSPP" --overwrite && log i "Cheats for PPSSPP installed"
-
-  set_setting_value "$rd_conf" "ppsspp" "$(get_setting_value "$rd_defaults" "ppsspp" "retrodeck" "cheevos")" "retrodeck" "cheevos"
-  set_setting_value "$rd_conf" "ppsspp" "$(get_setting_value "$rd_defaults" "ppsspp" "retrodeck" "cheevos_hardcore")" "retrodeck" "cheevos_hardcore"
-fi
-
-if [[ $(check_version_is_older_than "$version_being_updated" "0.10.0b") == "true" ]]; then
-
-  log i "0.10.0b Upgrade - Postmove: PPSSPP"
-
-  prepare_component "postmove" "ppsspp"
-  
-  set_setting_value "$ppsspp_config" "GraphicsBackend" "0 (OPENGL)" "ppsspp" "Graphics"
-  set_setting_value "$ppsspp_config" "InternalResolution" "3" "ppsspp" "Graphics"
-  unzip -q -o -j "$ppsspp_rd_extras_dir/CWCheat-Database-Plus--master.zip" "*/cheat.db" -d "$cheats_path/PPSSPP"
-fi
-
-if [[ $(check_version_is_older_than "$version_being_updated" "0.10.3b") == "true" ]]; then
-
-  log i "0.10.3b Upgrade - PPSSPP: Relink Shaders"
-
-  dir_prep "$shaders_path/PPSSPP" "$ppsspp_shaders_path"
-
-fi
-
-```
-
-**Check More Examples:**
-
-[RetroDECK Components/Cooker](https://github.com/RetroDECK/components/tree/cooker)
+- Component-specific path and configuration variables.
+- Configuration read/write helpers.
+- Component preparation and reset functions.
+- RetroDECK Startup actions.
+- Post-move and migration logic.
+- Post-update and legacy migration functions.
+- Configurator tools, other functions and dialogs.
+- Component-specific installation or maintenance functions.
+- New functions that we have not thought of yet.
 
 ---
 
-# component_prepare.sh
+## Naming
 
-A Bash script that contains component-specific preparation logic like resets and folder moves.
+Component-specific variables and functions need to include the component name to avoid naming conflicts.
 
+For example, PPSSPP uses:
 
+- `ppsspp_*` for component-specific variables.
+- `_set_setting_value::ppsspp`
+- `_get_setting_value::ppsspp`
+- `_add_setting::ppsspp`
+- `_delete_setting::ppsspp`
+- `_prepare_component::ppsspp`
+- `_post_update::ppsspp`
+- `_post_update_legacy::ppsspp`
 
-### Legacy Note 
+RPCS3 uses:
 
-Previously centralized in the legacy `prepare_component.sh` core library.
-
-## Description
-
-The `component_prepare.sh` file is responsible for handling setup tasks unique to a specific component, such as:
-
-- Resetting configuration files
-- Preparing directories
-- Moving or backing up data
-- Post-move adjustments
-
-The when the `prepare_component` function is called the `RetroDECK Framework` processes every installed `component` and it will decide if it needs to trigger or not.
-
-## Example: PPSSPP
-
-```
-#!/bin/bash
-
-# Setting component name and path based on the directory name
-component_name="$(basename "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")")"
-component_config="/app/retrodeck/components/$component_name/rd_config"
-component_extras="/app/retrodeck/components/$component_name/rd_extras"
-
-if [[ "$action" == "reset" ]]; then # Run reset-only commands
-  log i "------------------------"
-  log i "Resetting $component_name"
-  log i "------------------------"
-
-  create_dir -d "$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/"
-  cp -fv "$component_config/"* "$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/"
-  set_setting_value "$ppsspp_config" "CurrentDirectory" "$roms_path/psp" "ppsspp" "General"
-  dir_prep "$saves_path/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/SAVEDATA"
-  dir_prep "$states_path/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/PPSSPP_STATE"
-  dir_prep "$texture_packs_path/PPSSPP/TEXTURES" "$ppsspp_textures_path"
-  dir_prep "$shaders_path/PPSSPP" "$ppsspp_shaders_path"
-  dir_prep "$mods_path/PPSSPP/PLUGINS" "$ppsspp_mods_path"
-  dir_prep "$logs_path/PPSSPP" "$ppsspp_logs_path"
-
-  log i "Preparing PPSSPP cheats"
-  create_dir -d "$cheats_path/PPSSPP"
-  dir_prep "$cheats_path/PPSSPP" "$ppsspp_cheats_path"
-  if [[ -d "$cheats_path/PPSSPP" && "$(ls -A "$cheats_path"/PPSSPP)" ]]; then
-    backup_file="$backups_path/cheats/PPSSPP-$(date +%y%m%d).tar.gz"
-    create_dir "$(dirname "$backup_file")"
-    tar -czf "$backup_file" -C "$cheats_path" PPSSPP
-    log i "PPSSPP cheats backed up to $backup_file"
-  fi
-
-  unzip -q -o -j "$component_extras/CWCheat-Database-Plus--master.zip" "*/cheat.db" -d "$cheats_path/PPSSPP"
-
-  log i "Preparing PPSSPP BIOS"
-  create_dir -d "$bios_path/PPSSPP"
-  tar -xzf "$component_extras/ppsspp_foss_bios.tar.gz" -C "$bios_path/PPSSPP" --strip-components=1 assets/ && log i "PPSSPP BIOS files extracted to $bios_path/PPSSPP" || log e "Failed to extract PPSSPP BIOS files."
-fi
-
-if [[ "$action" == "postmove" ]]; then # Run only post-move commands
-  log i "------------------------"
-  log i "Post-moving $component_name"
-  log i "------------------------"
-
-  set_setting_value "$ppsspp_config" "CurrentDirectory" "$roms_path/psp" "ppsspp" "General"
-  dir_prep "$saves_path/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/SAVEDATA"
-  dir_prep "$states_path/PSP/PPSSPP-SA" "$XDG_CONFIG_HOME/ppsspp/PSP/PPSSPP_STATE"
-  dir_prep "$texture_packs_path/PPSSPP/TEXTURES" "$ppsspp_textures_path"
-  dir_prep "$shaders_path/PPSSPP" "$ppsspp_shaders_path"
-  dir_prep "$cheats_path/PPSSPP" "$ppsspp_cheats_path"
-  dir_prep "$mods_path/PPSSPP/PLUGINS" "$ppsspp_mods_path"
-  dir_prep "$logs_path/PPSSPP" "$ppsspp_logs_path"
-fi
-```
-
-**Check More Examples:**
-
-[RetroDECK Components/Cooker](https://github.com/RetroDECK/components/tree/cooker)
+- `rpcs3_*` for component-specific variables.
+- `_set_setting_value::rpcs3`
+- `_get_setting_value::rpcs3`
+- `_prepare_component::rpcs3`
+- `_post_update::rpcs3`
+- `_post_update_legacy::rpcs3`
+- `correct_rpcs3_desktop_files::rpcs3`
 
 ---
 
+## Component Specific Variables
+
+Component Specific Variables should be declared near the top of the file.
+
+Components may define paths for configuration files, logs, caches, input profiles, component resources, firmware and other component-specific data that can be used in later functions inside the file.
+
+### PPSSPP
+
+```
+    export ppsspp_config="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/ppsspp.ini"
+    export ppsspp_config_controls="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/controls.ini"
+    export ppsspp_retroachievements_dat="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/ppsspp_retroachievements.dat"
+    export ppsspp_cheats_db="$rd_components/ppsspp/cheats/cheat.db"
+    export ppsspp_rd_config_dir="$rd_components/ppsspp/rd_config"
+    export ppsspp_rd_extras_dir="$rd_components/ppsspp/rd_extras"
+    export ppsspp_textures_path="$XDG_CONFIG_HOME/ppsspp/PSP/TEXTURES"
+    export ppsspp_shaders_path="$XDG_CONFIG_HOME/ppsspp/PSP/shaders"
+    export ppsspp_cheats_path="$XDG_CONFIG_HOME/ppsspp/PSP/Cheats"
+    export ppsspp_mods_path="$XDG_CONFIG_HOME/ppsspp/PSP/PLUGINS"
+    export ppsspp_logs_path="$XDG_CONFIG_HOME/ppsspp/PSP/SYSTEM/DUMP"
+```
+
+### RPCS3
+
+```
+    export rpcs3_config="$XDG_CONFIG_HOME/rpcs3/config.yml"
+    export rpcs3_config_evdev_positive_axis="$XDG_CONFIG_HOME/rpcs3/evdev_positive_axis.yml"
+    export rpcs3_log="$XDG_CACHE_HOME/rpcs3/RPCS3.log"
+    export rpcs3_config_vfs="$XDG_CONFIG_HOME/rpcs3/vfs.yml"
+    export rpcs3_gui_current_settings="$XDG_CONFIG_HOME/rpcs3/GuiConfigs/CurrentSettings.ini"
+    export rpcs3_input_active_profiles="$XDG_CONFIG_HOME/rpcs3/input_configs/active_profiles.yml"
+    export rpcs3_input_Default="$XDG_CONFIG_HOME/rpcs3/input_configs/global/Default.yml"
+    export rpcs3_component_dir="$rd_components/rpcs3"
+    export rpcs3_firmware="http://dus01.ps3.update.playstation.net/update/ps3/image/us/2026_0318_a2b60b6ac1d2e49e230144345616927c/PS3UPDAT.PUP"
+```
+
+---
+
+## Configuration Helpers
+
+Components must implement helpers for reading and modifying their native configuration formats. The implementation is component-specific, but all helpers must follow the same naming convention. 
+
+| Function | Purpose |
+| --- | --- |
+| `_set_setting_value::<component>` | Sets a configuration value. |
+| `_get_setting_value::<component>` | Reads a configuration value. |
+| `_add_setting::<component>` | Adds a configuration value when supported. |
+| `_delete_setting::<component>` | Removes a configuration value when supported. |
+
+**Tip:** If your component uses a configuration format already supported by another component, such as INI, TOML, or YAML and more. you can reuse the corresponding logic from its `component_functions.sh`. There is no need to reinvent the wheel for every component.
+
+### PPSSPP
+
+PPSSPP uses INI-style configuration files.
+
+```
+    _set_setting_value::ppsspp() {
+      local file="$1"
+      local name=$(sed_escape_pattern "$2")
+      local value=$(sed_escape_replacement "$3")
+      local section="${4:-}"
+
+      # Update the requested PPSSPP configuration value.
+      ...
+    }
+
+    _get_setting_value::ppsspp() {
+      local file="$1"
+      local name="$2"
+      local section="${3:-}"
+
+      # Read the requested PPSSPP configuration value.
+      ...
+    }
+```
+
+### RPCS3
+
+RPCS3 uses both INI and YAML configuration files. Its helpers select the appropriate method based on the file extension.
+
+For YAML files, RPCS3 uses `yq` to access nested configuration values.
+
+```
+    _set_setting_value::rpcs3() {
+      local file="$1" name="$2" value="$3" section="${4:-}"
+
+      if [[ "$file" =~ \.ini$ ]]; then
+        # Update INI configuration.
+        ...
+      elif [[ "$file" =~ \.yml$ ]]; then
+        # Update YAML configuration using yq.
+        ...
+      fi
+    }
+
+    _get_setting_value::rpcs3() {
+      local file="$1" name="$2" section="${3:-}"
+
+      if [[ "$file" =~ \.ini$ ]]; then
+        # Read INI configuration.
+        ...
+      elif [[ "$file" =~ \.yml$ ]]; then
+        # Read YAML configuration using yq.
+        ...
+      fi
+    }
+
+```
+
+---
+
+## Startup Actions
+
+Components can define startup actions that are executed when RetroDECK starts.
+
+Startup actions are useful for component-specific maintenance or corrective operations that must be performed after the component has been initialized.
+
+### RPCS3: Correcting Desktop Files
+
+RPCS3 uses a startup action to correct existing `.desktop` files so that they reference the current component launcher.
+
+```
+    _prepare_component::rpcs3() {
+      local action="$1"
+      shift
+
+      case "$action" in
+        startup)
+          correct_rpcs3_desktop_files::rpcs3
+          ;;
+      esac
+    }
+
+    correct_rpcs3_desktop_files::rpcs3() {
+      rpcs3_component_path="$(get_own_component_path)/component_launcher.sh"
+
+      while IFS= read -r file; do
+        sed -i "s|^Exec=\"[^\"]*\"\(.*\)|Exec=\"${rpcs3_component_path}\"\1|" "$file"
+      done < <(
+        find "$roms_path/ps3" \
+          -mindepth 1 \
+          -type f \
+          -iname "*.desktop"
+      )
+    }
+```
+
+---
+
+## Lifecycle Functions
+
+Lifecycle functions handle each component's unique setup, reset, storage moves, startup operations, what should happen in RetroDECK updates and more.
+
+| Function | Purpose |
+| --- | --- |
+| `_prepare_component::<component>` | Performs component preparation, reset, post-move, or startup actions. |
+| `_post_update::<component>` | Applies bug fixes and migrations required after a component update post `0.11.0`. |
+| `_post_update_legacy::<component>` | Applies bug fixes and migrations from older RetroDECK versions pre `0.11.0`. |
+
+### Preparation Actions
+
+`_prepare_component::<component>` receives an action that determines which operation is performed.
+
+Common actions include:
+
+| Action | Purpose |
+| --- | --- |
+| `reset` | Restores component configuration to default and prepares required directories. |
+| `postmove` | Updates paths and moves component data after a user triggers a directory move. |
+| `startup` | Performs component-specific actions during RetroDECK startup. |
+
+
+### PPSSPP Example: reset & postmove
+
+The PPSSPP reset and post-move operations prepare and link directories for:
+
+- Saves.
+- Save states.
+- Texture packs.
+- Shaders.
+- Cheats.
+- Plugins.
+- Logs.
+
+The reset operation may also install component configuration, prepare cheats, and extract required BIOS files.
+
+```
+    _prepare_component::ppsspp() {
+      local action="$1"
+      shift
+
+      case "$action" in
+        reset)
+          # Reset PPSSPP configuration and prepare directories.
+          ...
+          ;;
+
+        postmove)
+          # Update PPSSPP paths after a storage move.
+          ...
+          ;;
+      esac
+    }
+```
+
+### PPSSPP: update
+
+PPSSPP uses version checks to migrate configuration, fix bugs and data between older versions.
+
+Examples include:
+
+- Moving save data and save states.
+- Updating controller mappings.
+- Installing or migrating cheats.
+- Relinking shaders.
+- Updating graphics settings.
+- Applying Wayland-specific configuration workarounds.
+
+```
+    _post_update_legacy::ppsspp() {
+      local previous_version="$1"
+
+      if check_version_is_older_than "$previous_version" "0.7.0b"; then
+        # Migrate saves and save states.
+        ...
+      fi
+
+      if check_version_is_older_than "$previous_version" "0.7.1b"; then
+        # Update controller mappings.
+        ...
+      fi
+
+      if check_version_is_older_than "$previous_version" "0.10.3b"; then
+        # Relink shaders.
+        ...
+      fi
+    }
+```
+
+### RPCS3 Example: reset & postmove
+
+RPCS3 preparation handles its virtual filesystem, save data, save states, captures, patches and required storage directories.
+
+```
+    _prepare_component::rpcs3() {
+      local action="$1"
+      shift
+
+      case "$action" in
+        reset)
+          # Reset RPCS3 configuration and prepare directories.
+          ...
+          ;;
+
+        postmove)
+          # Update RPCS3 paths after a storage move.
+          ...
+          ;;
+
+        startup)
+          # Perform RPCS3 startup actions.
+          correct_rpcs3_desktop_files::rpcs3
+          ;;
+      esac
+    }
+```
+
+### RPCS3: update
+
+RPCS3 legacy migrations handle changes to configuration and storage locations.
+
+Examples include:
+
+- Migrating the RPCS3 virtual filesystem configuration.
+- Moving existing emulator data from legacy locations.
+- Migrating save data.
+- Creating backups before data migrations.
+- Moving RPCS3 storage directories introduced by newer versions.
+
+```
+    _post_update_legacy::rpcs3() {
+      local previous_version="$1"
+
+      if check_version_is_older_than "$previous_version" "0.7.0b"; then
+        # Migrate RPCS3 configuration and data.
+        ...
+      fi
+
+      if check_version_is_older_than "$previous_version" "0.8.0b"; then
+        # Migrate save data and create a backup.
+        ...
+      fi
+
+      if check_version_is_older_than "$previous_version" "0.10.0b"; then
+        # Migrate RPCS3 storage directories.
+        ...
+      fi
+    }
+```
+
+
+
+
+
+---
+
+## Configurator Tools & Other operations
+
+Component files may define functions used by the RetroDECK Configurator or other operations.
+
+These functions can provide installation, maintenance, or other component-specific operations.
+
+### RPCS3 Firmware Installation
+
+RPCS3 provides a Configurator tool for downloading and installing firmware.
+
+```
+    update_rpcs3_firmware() {
+      if check_network_connectivity; then
+        # Display installation instructions.
+        # Download the firmware.
+        # Launch RPCS3 to install it.
+        # Clean up temporary files.
+        ...
+      else
+        # Display a network connectivity warning.
+        ...
+      fi
+    }
+```
+
+A separate dialog can be used during the initial RetroDECK setup:
+
+```
+    finit_install_rpcs3_firmware_dialog() {
+      # Ask whether RPCS3 firmware should be installed.
+      ...
+    }
+```
+
+---
+
+#
+
+## Example Component Structure
+
+A typical component file can contain some or all of the following:
+
+```
+    #!/bin/bash
+
+    # Component paths
+    export component_config="..."
+    export component_log="..."
+    export component_data="..."
+
+    # Configurator tools
+    component_install_tool() {
+      ...
+    }
+
+    # Configuration helpers
+    _set_setting_value::component() {
+      ...
+    }
+
+    _get_setting_value::component() {
+      ...
+    }
+
+    # Component lifecycle
+    _prepare_component::component() {
+      case "$1" in
+        reset)
+          ...
+          ;;
+        postmove)
+          ...
+          ;;
+        startup)
+          ...
+          ;;
+      esac
+    }
+
+    # Updates
+    _post_update::component() {
+      ...
+    }
+
+    # Legacy migrations
+    _post_update_legacy::component() {
+      ...
+    }
+```
+
+---
+
+## Related Source
+
+- [RetroDECK Components — Cooker](https://github.com/RetroDECK/components/tree/cooker)
+
+---

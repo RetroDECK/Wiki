@@ -29,11 +29,16 @@ Document the results clearly, including the paths and purpose of important files
 
 This information will be used later when creating the component's **Ingredient** and **Recipe** files.
 
+The goal is to identify: **Environment differences:** 
+
+Differences in behavior, file access, dependencies, or other runtime requirements between the standard installation and running of the application and the RetroDECK Flatpak environment.
+
+Think about these topics:
+
 ### Application and Functionality
 
 - **Functionality:** Fully functional, partially functional, and non-functional features or components.
-- **Application behavior:** Successful startup, startup crashes, crashes during normal operation, errors, warnings, and unexpected behavior.
-- **Environment differences:** Differences in behavior, file access, or dependencies between the standard Flathub Flatpak and the RetroDECK Flatpak.
+- **Application behavior:** Successful startup, startup crashes, crashes during normal operation, errors, warnings and unexpected behavior.
 
 ### Dependencies and Runtime Requirements
 
@@ -58,16 +63,15 @@ This information will be used later when creating the component's **Ingredient**
 ### File and Directory Access
 
 - **File and directory access:** Files and directories created, modified, read, or accessed by the application.
-- **User directories:** Check locations such as `~/Documents`, `~/.local`, `~/.config`, `~/`, and other application-specific locations.
-- **Flatpak sandbox access:** Determine whether the application can access required locations correctly inside both Flatpak environments.
-- **Access differences:** Record any differences or access issues between the standard Flathub Flatpak and the RetroDECK Flatpak.
+- **XDG paths:** Determine whether the application respects the XDG Base Directory specification when creating or accessing user files. Check whether it correctly uses paths such as `$XDG_CONFIG_HOME`, `$XDG_DATA_HOME`, `$XDG_CACHE_HOME`.  Instead of writing directly to locations such as `~/.config`, `~/.local`, or `~/`. Document any paths that are used and whether their behavior differs between the standard application installation and the RetroDECK Flatpak environment.
+
 
 ---
 
-## Create the Component: Ingredient and Recipe Files
+## Creating Component: Component Files Guide
 
 Once testing is complete, continue to the next stage.
 
-**Read more:** [Creating Component: Ingredient Files Guide](creating-components-ingredients-guide.md)
+**Read more:** [Creating Component: Component Files Guide](creating-components-ingredients-guide.md)
 
 ---

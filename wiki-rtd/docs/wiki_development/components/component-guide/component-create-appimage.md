@@ -85,26 +85,20 @@ That will contain:
 
 ---
 
-## Test the AppImage
+## Preparing Testing of the AppImage
 
 During this stage, identify and document the files required by the application:
+
+- **Binary**
+- **Dependencies**
+- **Libraries**
+- **Other important files**
 
 `AppRun` is present in AppImages and may be:
 
 - A script that launches the application binary.
 - A binary that launches the application.
 - A symbolic link to the application binary.
-
-AppImages commonly also contain resources such as:
-
-- Icons.
-- Desktop files.
-- Libraries.
-- Application data.
-- Documentation.
-- License files.
-- Configuration files.
-- Additional application-specific files and directories.
 
 ### Create the Component Directory
 

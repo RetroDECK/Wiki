@@ -185,7 +185,7 @@ Remove the debug files: `rm -rf uzdoom-build-dir/files/lib/debug`
 
 ---
 
-## Test the Flatpak
+## Preparing Testing of the Flatpak
 
 During this stage, identify and document the files required by the application:
 

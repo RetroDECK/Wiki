@@ -1,5 +1,7 @@
 # Components Testing Guide
 
+<img src="../../../../wiki_icons/pixelitos/folder-blue-development.png" width="75" alt="Flatpak logo">
+
 ## Testing Procedure
 
 Launch a shell inside the RetroDECK Flatpak: `flatpak run --command=bash net.retrodeck.retrodeck --debug`

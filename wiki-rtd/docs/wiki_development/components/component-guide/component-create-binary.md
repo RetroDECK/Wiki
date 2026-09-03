@@ -1,6 +1,6 @@
 ﻿# Creating Component: Binary Testing
 
-<img src="../../../../wiki_images/logos/appimage-logo.svg" width="100" alt="Appimage logo">
+<img src="../../../../wiki_images/logos/open-source-logo.svg" width="75" alt="Appimage logo">
 
 This a part of the How-to: Create Components Guide
 
@@ -72,7 +72,7 @@ Set up a Debian- or Ubuntu-based build environment and install the required depe
 
 `sudo apt install libsdl2-dev libreadline-dev`
 
-#### Build with CMake (Recommended)
+**Build with CMake**
 
 `mkdir -p build`
 

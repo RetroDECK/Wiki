@@ -396,9 +396,9 @@ nav:
       - Steam Sync: wiki_development/functions/steam-sync.md
 
   - RetroDECKY ⚡:
-    - RetroDECKY - General Guide: wiki_retrodecky/retrodecky/retrodecky-guide.md
-    - RetroDECKY - Development Architecture: wiki_retrodecky/retrodecky/retrodecky-development-architecture.md
-    - RetroDECKY - Version History: wiki_retrodecky/retrodecky/retrodecky-version-history.md
+    - RetroDECKY - General Guide: wiki_retrodecky/retrodecky-guide.md
+    - RetroDECKY - Development Architecture: retrodecky/retrodecky-development-architecture.md
+    - RetroDECKY - Version History: wiki_retrodecky/retrodecky-version-history.md
 
   - RetroDECK Experiments ⚗️:
 

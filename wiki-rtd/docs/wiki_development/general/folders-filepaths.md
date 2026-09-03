@@ -125,58 +125,18 @@ These directories follow the [XDG Base Directory Specification](https://specific
 
 Each component resides in its own subDirectory containing binaries, libraries and related files.  
 
-#### Clients
+**Examples:**
 
 | **Directory Name** | **Path Local** | **Path System** | **Comment** |
-|-----------------|----------------|----------------|-------------|
-| `clientX` | .../retrodeck/components/ | .../retrodeck/components/ | clientX (no clients added yet). |
-
-#### Emulators
-
-| **Directory Name** | **Path Local** | **Path System** | **Comment** |
-|-----------------|----------------|----------------|-------------|
-| `cemu` | .../retrodeck/components/cemu/ | .../retrodeck/components/cemu/ | Cemu emulator. |
-| `dolphin` | .../retrodeck/components/dolphin/ | .../retrodeck/components/dolphin/ | Dolphin emulator. |
-| `duckstation` | .../retrodeck/components/duckstation/ | .../retrodeck/components/duckstation/ | DuckStation (Legacy). |
-| `mame` | .../retrodeck/components/mame/ | .../retrodeck/components/mame/ | MAME emulator. |
-| `melonds` | .../retrodeck/components/melonds/ | .../retrodeck/components/melonds/ | MelonDS emulator. |
-| `pancakes` | .../retrodeck/components/pancakes/ | .../retrodeck/components/pancakes/ | Pancakes emulator. |
-| `pcsx2` | .../retrodeck/components/pcsx2/ | .../retrodeck/components/pcsx2/ | PCSX2 emulator. |
-| `ppsspp` | .../retrodeck/components/ppsspp/ | .../retrodeck/components/ppsspp/ | PPSSPP emulator. |
-| `primehack` | .../retrodeck/components/primehack/ | .../retrodeck/components/primehack/ | PrimeHack emulator. |
-| `retroarch` | .../retrodeck/components/retroarch/ | .../retrodeck/components/retroarch/ | RetroArch frontend. |
-| `rpcs3` | .../retrodeck/components/rpcs3/ | .../retrodeck/components/rpcs3/ | RPCS3 emulator. |
-| `ruffle` | .../retrodeck/components/ruffle/ | .../retrodeck/components/ruffle/ | Ruffle Flash emulator. |
-| `vita3k` | .../retrodeck/components/vita3k/ | .../retrodeck/components/vita3k/ | Vita3K emulator. |
-| `xemu` | .../retrodeck/components/xemu/ | .../retrodeck/components/xemu/ | Xemu emulator. |
-
-#### Engines
-
-| **Directory Name** | **Path Local** | **Path System** | **Comment** |
-|-----------------|----------------|----------------|-------------|
-| `gzdoom` | .../retrodeck/components/gzdoom/ | .../retrodeck/components/gzdoom/ | GZDoom engine. |
-| `solarus` | .../retrodeck/components/solarus/ | .../retrodeck/components/solarus/ | Solarus engine. |
-
-#### Ports
-
-| **Directory Name** | **Path Local** | **Path System** | **Comment** |
-|-----------------|----------------|----------------|-------------|
-| `portX` | .../retrodeck/components/ | .../retrodeck/components/ | PortX (no ports added yet). |
-
-#### Systems
-
-| **Directory Name** | **Path Local** | **Path System** | **Comment** |
-|-----------------|----------------|----------------|-------------|
-| `es-de` Main | .../retrodeck/components/es-de/ | .../retrodeck/components/es-de/ | ES-DE main Directory. |
-| `es-de Linux` | .../share/retrodeck/components/es-de/share/es-de/resources/systems/linux/ | .../share/retrodeck/components/es-de/share/es-de/resources/systems/linux/ | `es_find_rules.xml` and `es_systems.xml`. |
-| `portmaster` | .../retrodeck/components/portmaster/ | .../retrodeck/components/portmaster/ | Portmaster. |
-| `steam-rom-manager` | .../retrodeck/components/steam-rom-manager/ | .../retrodeck/components/steam-rom-manager/ | Steam ROM Manager (SRM). |
-
-#### Other
-
-| **Directory Name** | **Path Local** | **Path System** | **Comment** |
-|-----------------|----------------|----------------|-------------|
-| `shared-libs` | .../retrodeck/components/shared-libs/ | .../retrodeck/components/shared-libs/ | Shared libraries used by components. |
+|---------------------|----------------|-----------------|-------------|
+| `cemu` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/cemu/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/cemu/` | Cemu emulator. |
+| `dolphin` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/dolphin/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/dolphin/` | Dolphin emulator. |
+| `duckstation (Legacy)` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/duckstation/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/duckstation/` | DuckStation (Legacy). |
+| `mame` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/mame/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/mame/` | MAME emulator. |
+| `es-de` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/es-de/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/es-de/` | ES-DE main Directory. |
+| `portmaster` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/portmaster/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/portmaster/` | Portmaster. |
+| `steam-rom-manager` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/steam-rom-manager/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/steam-rom-manager/` | Steam ROM Manager (SRM). |
+| `shared-libs` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/shared-libs/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/components/shared-libs/` | Shared libraries used by components. |
 
 ---
 
@@ -185,76 +145,35 @@ Each component resides in its own subDirectory containing binaries, libraries an
 Each component's default configs and related files (wrappers, graphical assets, other component-specific files) are stored here.  
 The structure mirrors `retrodeck/components/`. Many files are later copied to `~/.var/app/net.retrodeck.retrodeck/config/` for end-user edits via RetroDECK.
 
----
-
-#### Emulators
+**Examples:**
 
 | **Directory Name** | **Path Local** | **Path System** | **Comment** |
-|-----------------|----------------|----------------|-------------|
-| `cemu` | .../retrodeck/config/cemu/ | .../retrodeck/config/cemu/ | Cemu config files. |
-| `dolphin` | .../retrodeck/config/dolphin/ | .../retrodeck/config/dolphin/ | Dolphin config files. |
-| `duckstation` | .../retrodeck/config/duckstation/ | .../retrodeck/config/duckstation/ | DuckStation (Legacy). |
-| `mame` | .../retrodeck/config/mame/ | .../retrodeck/config/mame/ | MAME config files. |
-| `melonds` | .../retrodeck/config/melonds/ | .../retrodeck/config/melonds/ | MelonDS config files. |
-| `pcsx2` | .../retrodeck/config/pcsx2/ | .../retrodeck/config/pcsx2/ | PCSX2 config files. |
-| `ppsspp` | .../retrodeck/config/ppsspp/ | .../retrodeck/config/ppsspp/ | PPSSPP config files. |
-| `primehack` | .../retrodeck/config/primehack/ | .../retrodeck/config/primehack/ | PrimeHack config files. |
-| `retroarch` | .../retrodeck/config/retroarch/ | .../retrodeck/config/retroarch/ | RetroArch configs, borders, core overrides. |
-| `rpcs3` | .../retrodeck/config/rpcs3/ | .../retrodeck/config/rpcs3/ | RPCS3 configs. |
-| `ruffle` | .../retrodeck/config/ruffle/ | .../retrodeck/config/ruffle/ | Ruffle configs. |
-| `ryujinx` | .../retrodeck/config/ryujinx/ | .../retrodeck/config/ryujinx/ | Archived Ryujinx config (binary removed). |
-| `vita3k` | .../retrodeck/config/vita3k/ | .../retrodeck/config/vita3k/ | Vita3K config files. |
-| `xemu` | .../retrodeck/config/xemu/ | .../retrodeck/config/xemu/ | Xemu config files. |
-
----
-
-#### Engines
-
-| **Directory Name** | **Path Local** | **Path System** | **Comment** |
-|-----------------|----------------|----------------|-------------|
-| `gzdoom` | .../retrodeck/config/gzdoom/ | .../retrodeck/config/gzdoom/ | GZDoom wrapper configs. |
-| `solarus` | .../retrodeck/config/solarus/ | .../retrodeck/config/solarus/ | Solarus configs. |
-| `pico-8` | .../retrodeck/config/pico-8/ | .../retrodeck/config/pico-8/ | Pico-8 wrapper configs. |
-
----
-
-#### Ports
-
-| **Directory Name** | **Path Local** | **Path System** | **Comment** |
-|-----------------|----------------|----------------|-------------|
-| `portX` | .../retrodeck/config/ | .../retrodeck/config/ | PortX (no ports added yet). |
-
----
-
-#### Systems
-
-| **Directory Name** | **Path Local** | **Path System** | **Comment** |
-|-----------------|----------------|----------------|-------------|
-| `es-de` | .../retrodeck/config/es-de/ | .../retrodeck/config/es-de/ | ES-DE configs. |
-| `portmaster` | .../retrodeck/config/portmaster/ | .../retrodeck/config/portmaster/ | Portmaster configs. |
-| `steam-rom-manager` | .../retrodeck/config/steam-rom-manager/ | .../retrodeck/config/steam-rom-manager/ | Steam ROM Manager (SRM) configs. |
+|---------------------|----------------|-----------------|-------------|
+| `cemu` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/cemu/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/cemu/` | Cemu config files. |
+| `dolphin` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/dolphin/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/dolphin/` | Dolphin config files. |
+| `duckstation (Legacy)` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/duckstation/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/duckstation/` | DuckStation (Legacy) config files. |
 
 ---
 
 #### retrodeck/config/retrodeck
 
 | **Directory Name** | **Path Local** | **Path System** | **Comment** |
-|-----------------|----------------|----------------|-------------|
-| `retrodeck` | .../retrodeck/config/retrodeck/ | .../retrodeck/config/retrodeck/ | Main RetroDECK configs: `retrodeck.cfg`, MIME files. |
-| `controller_configs` | .../controller_configs/ | .../controller_configs/ | Steam Input templates. |
-| `reference_lists` | .../reference_lists/ | .../reference_lists/ | Lists like `bios.json`, `features.json`. |
-| `helper_files` | .../helper_files/ | .../helper_files/ | Helper lists and support files. |
-| `presets` | .../presets/ | .../presets/ | Default preset configuration files. |
+|---------------------|----------------|-----------------|-------------|
+| `retrodeck` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/retrodeck/` | Main RetroDECK configs: `retrodeck.cfg`, MIME files. |
+| `controller_configs` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/controller_configs/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/controller_configs/` | Steam Input templates. |
+| `reference_lists` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/reference_lists/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/reference_lists/` | Lists like `bios.json`, `features.json`. |
+| `helper_files` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/helper_files/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/helper_files/` | Helper lists and support files. |
+| `presets` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/presets/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/retrodeck/config/presets/` | Default preset configuration files. |
 
 ---
 
 ### share/
 
 | **Directory Name** | **Path Local** | **Path System** | **Comment** |
-|-----------------|----------------|----------------|-------------|
-| `metainfo` | .../share/metainfo/ | .../share/metainfo/ | `net.retrodeck.retrodeck.metainfo.xml` |
-| `mime` | .../share/mime/ | .../share/mime/ | `net.retrodeck.retrodeck.mime.xml` |
-| `icons` | .../share/icons/hicolor/scalable/apps/ | .../share/icons/hicolor/scalable/apps/ | Scalable SVG icons. |
+|---------------------|----------------|-----------------|-------------|
+| `metainfo` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/metainfo/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/metainfo/` | `net.retrodeck.retrodeck.metainfo.xml` |
+| `mime` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/mime/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/mime/` | `net.retrodeck.retrodeck.mime.xml` |
+| `icons` | `~/.local/share/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/icons/hicolor/scalable/apps/` | `/var/lib/flatpak/app/net.retrodeck.retrodeck/current/active/files/share/icons/hicolor/scalable/apps/` | Scalable SVG icons. |
 
 ---
 

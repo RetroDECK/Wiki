@@ -1,6 +1,5 @@
 ﻿# RetroDECK Library Structure
 
-
 <img src="../../../wiki_icons/pixelitos/folder-red-activities.png" width="75" alt="">
 
 Libraries in RetroDECK can live in three main places. This structure helps keep things clean, efficient and modular.
@@ -14,3 +13,5 @@ Libraries in RetroDECK can live in three main places. This structure helps keep 
 | **3. components/<component>/lib/**   | Contains **component-specific libraries** not found in the runtime or shared-libs.               | Usually includes libraries built with the app in its original Flatpak manifest.                |
 
 **Read more here:** [Folders & Filepaths](../general/folders-filepaths.md)
+
+---

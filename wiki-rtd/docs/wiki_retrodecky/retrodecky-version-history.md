@@ -1,6 +1,6 @@
 ﻿# RetroDECKY - Version History
 
-<img src="../../..//wiki_icons/retrodeck/icon-RetroDECKY.svg" width="75" alt="RetroDECKY logo">
+<img src="../../wiki_icons/retrodeck/icon-RetroDECKY.svg" width="75" alt="RetroDECKY logo">
 
 [RetroDECKY: Releases](https://github.com/Teppichseite/RetroDECKY/releases/)
 

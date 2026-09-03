@@ -309,11 +309,6 @@ nav:
 
     - Flips:
       - Flips - General Guide: wiki_utility_guides/flips/flips-guide.md
-
-    - RetroDECKY:
-      - RetroDECKY - General Guide: wiki_utility_guides/retrodecky/retrodecky-guide.md
-      - RetroDECKY - Development Architecture: wiki_utility_guides/retrodecky/retrodecky-development-architecture.md
-      - RetroDECKY - Version History: wiki_utility_guides/retrodecky/retrodecky-version-history.md
       
     - PortMaster:
       - PortMaster - General Guide: wiki_utility_guides/portmaster/portmaster-guide.md
@@ -399,6 +394,11 @@ nav:
     - Tools & Functions:
       - Compression: wiki_development/functions/compression.md
       - Steam Sync: wiki_development/functions/steam-sync.md
+
+  - RetroDECKY ⚡:
+    - RetroDECKY - General Guide: wiki_retrodecky/retrodecky/retrodecky-guide.md
+    - RetroDECKY - Development Architecture: wiki_retrodecky/retrodecky/retrodecky-development-architecture.md
+    - RetroDECKY - Version History: wiki_retrodecky/retrodecky/retrodecky-version-history.md
 
   - RetroDECK Experiments ⚗️:
 

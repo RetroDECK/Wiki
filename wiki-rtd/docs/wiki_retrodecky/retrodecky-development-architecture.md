@@ -20,7 +20,7 @@ The **React** frontend retrieves media data from the local HTTP service, uses th
 
 ---
 
-### Game Event Detection
+## Game Event Detection
 
 RetroDECKY leverages [ES-DE custom event scripts](https://github.com/RetroDECK/ES-DE/blob/retrodeck-main/INSTALL.md#custom-event-scripts). The **game-start** and **game-end** events notify the plugin when a session begins or ends, allowing the menu to display the correct game context and metadata.
 
@@ -36,7 +36,7 @@ Scripts are located under:
 
 Each script sends a lightweight background HTTP `POST` request to RetroDECKY's local `/api/game-event` endpoint. Both payloads carry the same four fields provided by ES-DE: **ROM path**, **game name**, **system name** and **system full name**. This allows the plugin to identify the currently running game.
 
-#### Detected ES-DE Metadata
+### Detected ES-DE Metadata
 
 The plugin automatically resolves assets from **ES-DE** metadata directories located under `${retrodeck_home_path}/ES-DE/` and `${retrodeck_downloaded_media_path}`.
 
@@ -51,7 +51,7 @@ Metadata and assets are served through the **local HTTP** layer described above 
 
 ---
 
-### Hotkey Triggering
+## Hotkey Triggering
 
 RetroDECKY supports most component hotkeys documented in the [RetroDECK Hotkeys reference](https://retrodeck.readthedocs.io/en/latest/wiki_rd_controls/radial-steamdeck-full/).
 
@@ -61,6 +61,14 @@ RetroDECKY supports most component hotkeys documented in the [RetroDECK Hotkeys 
 
 ---
 
-### Game PDF Viewer
+## Game PDF Viewer
 
 The plugin renders PDF documents using **PDF.js** and **react-pdf**, with **WASM** acceleration for improved rendering performance.
+
+---
+
+## RetroAchievements
+
+RetroDECKY uses the official [RetroAchievements API](https://api-docs.retroachievements.org/) to fetch achievement progress for the currently running game. ROM hashes for game matching are computed with [RAHasher](https://github.com/RetroAchievements/RALibretro) from RALibretro (bundled with the plugin).
+
+---

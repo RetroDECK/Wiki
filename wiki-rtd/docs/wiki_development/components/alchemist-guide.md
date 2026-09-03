@@ -1,5 +1,7 @@
 # The RetroDECK Alchemist - A component_recipe.sh and artifact making  guide
 
+<img src="../../../wiki_icons/retrodeck/icon-alchemist.svg" width="75" alt="">
+
 `alchemist.sh` reads the `component_recipe` definitions and uses them to build **component artifacts**.
 
 These artifacts are compressed archives containing the files, binaries and resources required by each RetroDECK component.
@@ -631,7 +633,9 @@ The locally generated archive can then be referenced by a recipe using the appro
 
 ---
 
-## Guide: Adding Libraries - The Library Hunter
+## Guide: Adding Libraries - RetroDECK Library Hunter
+
+<img src="../../../wiki_icons/retrodeck/icon-hunter.svg" width="50" alt="">
 
 Use the [`hunt_libraries.sh`](https://github.com/RetroDECK/RetroDECK/blob/cooker/developer_toolbox/hunt_libraries.sh) developer tool to identify libraries required by a component and generate a starting `libs[]` configuration.
 
@@ -639,9 +643,7 @@ The tool uses `ldd` to inspect the specified binary and generates a JSON list of
 
 ### Basic Usage
 
-Run the hunter against the binary you are integrating:
-
-    ./hunt_libraries.sh -f /path/to/binary
+Run the hunter against the binary you are integrating: `./hunt_libraries.sh -f /path/to/binary`
 
 The script supports the following options:
 

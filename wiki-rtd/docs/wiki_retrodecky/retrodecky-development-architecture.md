@@ -16,7 +16,7 @@ RetroDECKY acts as an intermediary layer between **ES-DE / RetroDECK** (which ru
 
 The **React** frontend retrieves media data from the local HTTP service, uses the **Decky backend** for structured data and can dispatch **simulated keyboard shortcuts** to the active emulator or component.
 
-<img src="./assets/architecture/architecture.svg" alt="Diagram showing how RetroDECKY sits between ES-DE/RetroDECK and SteamOS, illustrating the local HTTP service, Decky backend and event emission data flow." width="700">
+<img src="retrodecky-architecture.svg" alt="Diagram showing how RetroDECKY sits between ES-DE/RetroDECK and SteamOS, illustrating the local HTTP service, Decky backend and event emission data flow." width="700">
 
 ---
 

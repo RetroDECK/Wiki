@@ -1,6 +1,6 @@
 # Components Testing Guide
 
-<img src="../../../../wiki_icons/pixelitos/folder-blue-development.png" width="75" alt="Flatpak logo">
+<img src="../../../../wiki_icons/retrodeck/icon-lets-c.svg" width="75" alt="Test logo">
 
 ## Testing Procedure
 

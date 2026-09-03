@@ -1,4 +1,4 @@
-# RetroDECKY - Hotkey Actions
+# RetroDECKY - Hotkey Actions Guide
 
 <img src="../../wiki_icons/retrodeck/icon-RetroDECKY.svg" width="75" alt="RetroDECKY logo">
 

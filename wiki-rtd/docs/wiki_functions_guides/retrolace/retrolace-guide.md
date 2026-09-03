@@ -34,22 +34,24 @@ RetroLACE components should be extracted into the `retrodeck/storage/retrodeck/r
 
 By selecting **Enable RetroLACE** in **RetroDECK Configurator → Settings → RetroLACE**, you confirm that you have read, understood, accepted the **Legal Disclaimer** and agree to assume responsibility for the risks associated with installing and using unsupported external components.
 
-### Legal Disclaimer
+---
+
+## RetroLACE: Legal Disclaimer
 
 By enabling RetroLACE, you acknowledge and agree that:
 
-- You understand that enabling RetroLACE and installing **unsupported components** will cause your RetroDECK installation to be considered **Modified** and will affect your ability to receive RetroDECK support for issues related to, or potentially caused by, the modified installation.
-- You understand that **unsupported components** are not officially supported, reviewed, or maintained by the RetroDECK Team.
+- You understand that enabling RetroLACE and installing **unsupported components** will cause your RetroDECK installation to be considered **Modified** and will affect your ability to receive RetroDECK support for issues related to, or potentially caused by the modified installation.
+- You understand that **unsupported components** are not officially supported, reviewed or maintained by the RetroDECK Team.
 - You acknowledge that the RetroDECK Team is **not responsible or liable for problems, errors, data loss, system damage, security issues, or other consequences** resulting from unsupported components.
-- You accept full responsibility for any unsupported components you choose to download, install, configure, or use.
+- You accept full responsibility for any unsupported components you choose to download, install, configure or use.
 - You understand that unsupported components may adversely affect RetroDECK, your configuration, your data, or your host operating system.
-- You agree to perform appropriate **due diligence and research** before installing or using any unsupported component, including verifying its source, compatibility, security, and licensing.
+- You agree to perform appropriate **due diligence and research** before installing or using any unsupported component, including verifying its source, compatibility, security and licensing.
 - You are solely responsible for ensuring that your use of unsupported components complies with all **applicable laws, regulations, and licensing requirements**.
 - You understand that enabling RetroLACE does not constitute an endorsement, recommendation, or guarantee of any unsupported component by the RetroDECK Team.
 
-### A Final Warning to Users
+### A Final Warning: To All Users
 
-The RetroDECK Team believes in the spirit of **add-ons, ROM hacks, open source and mods** in making it easy for users to tinker with, customize and modify RetroDECK.
+We in the RetroDECK Team believes in the spirit of **add-ons, ROM hacks, open source and mods** in making it easy for users to tinker with, customize and modify RetroDECK. It's why we made RetroLACE in the first place.
 
 However, RetroLACE is more than a traditional add-on system. It hooks directly into the **core of the RetroDECK Framework**, the same framework used by both **RetroVERSE external components** and **RetroDECK internal components**.
 

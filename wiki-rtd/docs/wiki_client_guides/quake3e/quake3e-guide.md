@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/quake3e-logo.svg" width="150" alt="Quake3e logo">
 
-Quake3e is the open source source port / game engine / client for ID Softwares Quake 3 with mod support.
+**Quake3e** is a modern client and source port of *Quake III Arena*, focused on improved performance, compatibility and mod support.
 
 ---
 

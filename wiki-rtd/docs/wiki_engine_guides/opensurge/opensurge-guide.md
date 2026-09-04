@@ -16,6 +16,10 @@ Open Surge is a 2D retro game engine in the spirit of classic 16-bit Sonic platf
 |----------|------|
 | Open Surge Webpage | [Link](https://opensurge2d.org/) |
 | Open Surge GitHub | [Link](https://github.com/alemart/opensurge) |
+| GameJolt | [Link](https://gamejolt.com/games/) |
+| Sonic Amateur Games Expo (SAGE) | [Link](https://sagexpo.org/) |
+| SFGHQ | [Link](https://sonicfangameshq.com/forums/) |
+
 
 
 ---

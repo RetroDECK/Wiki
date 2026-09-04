@@ -2,7 +2,8 @@
 
 <img src="../../../wiki_images/logos/quakespasm-logo.png" width="150" alt="Quakespasm logo">
 
-Ironwail is the open source source port / game engine based on QuakeSpasm for ID Softwares Quake with mod support.
+Ironwail is a modern Quake engine and source port based on QuakeSpasm. Focused on high performance, enhanced graphics, mod support and compatibility with modern systems.
+
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 

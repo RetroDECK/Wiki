@@ -37,21 +37,21 @@ Gargoyle games should be put under the `retrodeck/roms/zmachine/` directory for 
 
 Gargoyle supports a wide range of interactive fiction game formats.
 
-| Interpreter | Engine / Format | File Extensions |
-|------------|------------------|------------------|
-| AdvSys | Adventure System | `.dat` |
-| Agility | AGT (Adventure Game Toolkit) | `.agx`, `.d$$` |
-| Alan 2/3 | Alan 2 / Alan 3 | `.acd`, `.a3c` |
-| Bocfel | Infocom Z-machine | `.z1`, `.z2`, `.z3`, `.z4`, `.z5`, `.z6`, `.z7`, `.z8`, `.zblorb`, `.zlb` |
-| Git | Glulx | `.ulx`, `.blb`, `.gblorb`, `.glb` |
-| Glulxe | Glulx | `.ulx`, `.blb`, `.gblorb`, `.glb` |
+| Format | Engine | File Extensions |
+|---|---|---|
+| Adventure System | AdvSys | `.dat` |
+| AGT (Adventure Game Toolkit) | Agility | `.agx`, `.d$$` |
+| Alan 2 / Alan 3 | Alan 2/3 | `.acd`, `.a3c` |
+| Infocom Z-machine | Bocfel | `.z1`, `.z2`, `.z3`, `.z4`, `.z5`, `.z6`, `.z7`, `.z8`, `.zblorb`, `.zlb` |
+| Glulx | Git | `.ulx`, `.blb`, `.gblorb`, `.glb` |
+| Glulx | Glulxe | `.ulx`, `.blb`, `.gblorb`, `.glb` |
 | Hugo | Hugo | `.hex`, `.hdx`, `.blorb` |
 | JACL | JACL | `.j2`, `.jacl` |
-| Level 9 | Level 9 Adventures | `.l9` |
-| Magnetic | Magnetic Scrolls | `.mag`, `.gfx` |
-| Scare | ADRIFT | `.taf` |
-| ScottFree | Scott Adams Adventures | `.dat`, `.saga` |
-| TADS 2/3 | TADS 2 / TADS 3 | `.gam`, `.t3` |
+| Level 9 Adventures | Level 9 | `.l9` |
+| Magnetic Scrolls | Magnetic | `.mag`, `.gfx` |
+| ADRIFT | Scare | `.taf` |
+| Scott Adams Adventures | ScottFree | `.dat`, `.saga` |
+| TADS 2 / TADS 3 | TADS 2/3 | `.gam`, `.t3` |
 
 ---
 

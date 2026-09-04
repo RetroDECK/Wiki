@@ -1,14 +1,14 @@
-﻿# Guide: FS-UEA
+﻿# Guide: FS-UAE
 
 <img src="../../../wiki_images/logos/fs-uae-logo.png" width="150" alt="Fs Uae logo">
 
-FS-UEA is a Amiga emulator.
+FS-UAE is a Amiga emulator.
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 
 ---
 
-### FS-UEA Links
+### FS-UAE Links
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
@@ -65,7 +65,7 @@ Amiga 1200 games can be put under the `retrodeck/roms/amiga1200/` directory.
 
 ---
 
-## Does FS-UEA require BIOS or Firmware?
+## Does FS-UAE require BIOS or Firmware?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

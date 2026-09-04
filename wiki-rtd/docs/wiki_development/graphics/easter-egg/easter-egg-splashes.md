@@ -44,11 +44,11 @@ This override remains active only during the configured date and time window.
 
 ---
 
-## splash_screens - features.json
+## splash_screens - ES-DE's component_manifest.json
 
-The function is part of the [config/retrodeck/reference_lists/features.json](https://github.com/RetroDECK/RetroDECK/blob/cooker/config/retrodeck/reference_lists/features.json) json.
+The function is part of the ES-DE's component_manifest.json.
 
-The `splash_screens"`  looks in the reference .svg files under: [res/extra_splashes/](https://github.com/RetroDECK/RetroDECK/blob/main/res/extra_splashes/) and overrides the bootlogo with one of the .svg files from the referense list.
+The `splash_screens"`  looks in the reference .svg files under: `es-de/rd_assets/res/` and overrides the bootlogo with one of the .svg files from the referense list.
 
 ```
 "splash_screens": {

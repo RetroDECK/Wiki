@@ -2,7 +2,12 @@
 
 <img src="../../../wiki_images/logos/oricutronicon-logo.png" width="150" alt="Oricutronicon logo">
 
-Oricutron is a experimental Oric-1/Atmos/Telestrat and Pravetz 8D emulator.
+Oricutron is an emulator for the Oric line of 8-bit computers, including:
+
+- **Oric-1** (1983)
+- **Oric Atmos** (1984)
+- **Pravetz 8D** (1985)
+- **Oric Telestrat** (1986)
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 

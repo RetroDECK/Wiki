@@ -2,7 +2,21 @@
 
 <img src="../../../wiki_images/logos/tsugaru-logo.png" width="150" alt="Tsugaru logo">
 
-Tsugaru is a Fujitsu FM Towns / Marty Emulator.
+Tsugaru is an emulator for Fujitsu's FM TOWNS family of computers and the FM Towns Marty console, with supported systems released between 1989 and 1994.
+
+Supported systems include:
+
+- **FM TOWNS Model 1/2** (1989)
+- **FM TOWNS 1F/2F/1H/2H** (1989)
+- **FM TOWNS 10F/20F/40H/80H** (1990)
+- **FM TOWNS II CX/UX** (1991)
+- **FM TOWNS II UX40** (1992)
+- **FM TOWNS II HR/HG/UG** (1992)
+- **FM Towns Marty** (1993)
+- **FM TOWNS II MX/MA/ME** (1993)
+- **FM TOWNS II MF/Fresh** (1994)
+- **FM TOWNS II Fresh TV** (1994)
+
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 

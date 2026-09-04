@@ -2,7 +2,15 @@
 
 <img src="../../../wiki_images/logos/sdltrs-logo.png" width="150" alt="Sdltrs logo">
 
-SDL2TRS is a Tandy TRS-80 Model I/III/4/4P emulator.
+SDL2TRS is an emulator for Tandy Corporation's TRS-80 line of computers, released between 1977 and 1983.
+
+Supported systems include:
+
+- **TRS-80 Model I** (1977)
+- **TRS-80 Model II** (1979)
+- **TRS-80 Model III** (1980)
+- **TRS-80 Model 4** (1983)
+- **TRS-80 Model 4P** (1983)
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 

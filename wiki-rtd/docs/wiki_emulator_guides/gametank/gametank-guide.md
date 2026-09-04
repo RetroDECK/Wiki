@@ -2,7 +2,11 @@
 
 <img src="../../../wiki_images/logos/gametankman-logo.png" width="150" alt="Gametankman logo">
 
-GameTankEmulator is a GameTank console emulator.
+GameTankEmulator is a emulator for the GameTank.
+
+The GameTank is an open-source 8-bit retro console that can be built and is programmed by its community.
+
+Inspired by fantasy consoles such as the Pico-8 and TIC-80.
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 

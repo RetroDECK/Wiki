@@ -2,9 +2,9 @@
 
 <img src="../../../wiki_images/logos/gargoyle-logo.webp" width="150" alt="Gargoyle logo">
 
-Gargoyle is an interactive fiction emulator that supports all major IF game formats by bundling multiple interpreters into a single application. Since interactive fiction is distributed in a variety of portable game file formats, Gargoyle eliminates the need for a separate interpreter for each one. 
+Gargoyle is an interactive fiction engine that supports all major IF game formats by bundling multiple interpreters into a single application. Since interactive fiction is distributed in a variety of portable game file formats, Gargoyle eliminates the need for a separate interpreter for each one. 
 
-RetroDECK uses Gargoyle both as an **Infocom Z-Machine** emulator and an **Interactive Fiction** emulator.
+RetroDECK uses Gargoyle both as an **Infocom Z-Machine** emulator and an **Interactive Fiction** engine.
 
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️

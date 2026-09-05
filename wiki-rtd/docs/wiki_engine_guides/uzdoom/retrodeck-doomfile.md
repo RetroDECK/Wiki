@@ -1,12 +1,14 @@
-﻿# The .doom file
+﻿# RetroDECK: `.doom` file
 
-<img src="../../../wiki_images/logos/gzdoom-logo.png" width="75" alt="Gzdoom logo">
+<img src="../../../wiki_images/logos/UZDoom-logo.png" width="75" alt="UZDoom logo">
 
-The `.doom` file is a feature for easy loading of DOOM files with mods. It is based on the work done by [AmberELEC .doom](https://amberelec.org/systems/doom.html) and others, with additional improvements made by RetroDECK.
+## About
+
+The `.doom` file is a feature for easy loading of DOOM files with mods. It is based on the work done by [AmberELEC .doom](https://amberelec.org/systems/doom.html) and others, with additional improvements made by the RetroDECK Team.
 
 ---
 
-## The RetroDECK .doom Parser
+## RetroDECK: `.doom` Parser
 
 The `.doom` parser will look for any of the iwads files that could be required to run a DOOM mod in the `retrodeck/roms/doom/` directory.
 

@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/ecwolf-logo.webp" width="150" alt="Ecwolf logo">
 
-ECWolf is a engine and source port of Wolfenstein 3D and its related games, based on the Wolf4SDL engine and powered by the ZDoom codebase.
+ECWolf is a source port engine of Wolfenstein 3D and its related games, based on the Wolf4SDL engine and powered by the ZDoom codebase.
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 

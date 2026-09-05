@@ -221,12 +221,6 @@ nav:
 
   - Component - Engines 🛠️:
 
-    - GZDoom:
-      - GZDoom - General Guide: wiki_engine_guides/gzdoom/gzdoom-guide.md
-      - GZDoom - Get started on .doom files: wiki_engine_guides/gzdoom/retrodeck-doomfile.md
-      - GZDoom - Get the WADs from bought games: wiki_engine_guides/gzdoom/extract-doom-wads.md
-      - GZDOOM - Running DOOM 64 CE: wiki_engine_guides/gzdoom/gzdoom-doom64ce.md
-
     - IkemenGO / M.U.G.E.N:
       - IkemenGO - General Guide: wiki_engine_guides/ikemengo/ikemengo-guide.md
 
@@ -237,11 +231,17 @@ nav:
       - Pico-8 - General Guide: wiki_engine_guides/pico-8/pico-8-guide.md
 
     - ScummVM:
-      - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md
+      - ScummVM - General Guide: wiki_engine_guides/scummvm/scummvm-guide.md    
       - ScummVM - Gamelist: wiki_engine_guides/scummvm/scummvm-gamelist.md
 
     - Solarus:
       - Solarus - General Guide: wiki_engine_guides/solarus/solarus-guide.md
+
+    - UZDoom:
+      - UZDoom - General Guide: wiki_engine_guides/uzdoom/uzdoom-guide.md
+      - UZDoom - Get started on .doom files: wiki_engine_guides/uzdoom/retrodeck-doomfile.md
+      - UZDoom - Get the WADs from bought games: wiki_engine_guides/uzdoom/extract-doom-wads.md
+      - UZDoom - Running DOOM 64 CE: wiki_engine_guides/uzdoom/uzdoom-doom64ce.md
 
   - Component - Emulators  📘:
 
@@ -251,7 +251,7 @@ nav:
     - Cemu:
       - Cemu - General Guide: wiki_emulator_guides/cemu/cemu-guide.md
 
-    - Dolphin :
+    - Dolphin:
       - Dolphin - General Guide: wiki_emulator_guides/dolphin/dolphin-guide.md
       - Dolphin - Using Real Wii Remotes: wiki_emulator_guides/dolphin/dolphin-wii-remote.md
 
@@ -264,12 +264,12 @@ nav:
     - PCSX2:
       - PCSX2 - General Guide: wiki_emulator_guides/pcsx2/pcsx2-guide.md
 
+    - PPSSPP:
+      - PPSSPP - General Guide: wiki_emulator_guides/ppsspp/ppsspp-guide.md
+
     - PrimeHack:
       - PrimeHack - General Guide: wiki_emulator_guides/primehack/primehack-guide.md
 
-    - PPSSPP:
-      - PPSSPP - General Guide: wiki_emulator_guides/ppsspp/ppsspp-guide.md
-      
     - RPCS3:
       - RPCS3 - General Guide: wiki_emulator_guides/rpcs3/rpcs3-guide.md
 
@@ -297,13 +297,13 @@ nav:
 
     - RetroArch:
       - RetroArch - General Guide: wiki_multi_emulator_guides/retroarch/retroarch-guide.md
-      - RetroArch - Texture Pack Guide: wiki_multi_emulator_guides/retroarch/retroarch-texture-pack.md
-      - RetroArch - RPG Maker - RTP Guide: wiki_multi_emulator_guides/retroarch/retroarch-rpgmaker-rtp-guide.md
       - RetroArch - Display, Filters, Scaling, Shaders & Overlays Guide: wiki_multi_emulator_guides/retroarch/retroarch-shaders-display.md
       - RetroArch - GB/GBC - TGBDual Linking: wiki_multi_emulator_guides/retroarch/retroarch-gb-gc-tgbdual.md
       - RetroArch - N3DS - Citra - DLC Guide: wiki_multi_emulator_guides/retroarch/retroarch-citra-dlc.md
       - RetroArch - PSX - DexDrive Convert: wiki_multi_emulator_guides/retroarch/retroarch-psx-dexdrive.md
-      - RetroArch - VB - Beetle VB - 3D Mode:  wiki_multi_emulator_guides/retroarch/retroarch-vb-3dmode.md
+      - RetroArch - RPG Maker - RTP Guide: wiki_multi_emulator_guides/retroarch/retroarch-rpgmaker-rtp-guide.md
+      - RetroArch - Texture Pack Guide: wiki_multi_emulator_guides/retroarch/retroarch-texture-pack.md
+      - RetroArch - VB - Beetle VB - 3D Mode: wiki_multi_emulator_guides/retroarch/retroarch-vb-3dmode.md
 
   - Component - Utilities 🗃️:
 
@@ -313,7 +313,7 @@ nav:
     - PortMaster:
       - PortMaster - General Guide: wiki_utility_guides/portmaster/portmaster-guide.md
 
-    - Steam Rom Manager:
+    - Steam Rom Manager (SRM):
       - SRM - General Guide: wiki_utility_guides/srm/srm-guide.md
 
   - RetroDECK Development 🪄:

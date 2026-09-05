@@ -1,18 +1,23 @@
-﻿# Guide: GZDoom
+﻿# Guide: UZDoom
 
-<img src="../../../wiki_images/logos/uzdoom-logo.png" width="75" alt="Uzdoom logo">
+<img src="../../../wiki_images/logos/uzdoom-logo.svg" width="75" alt="Uzdoom logo">
 
-GZDoom is the open source source port / game engine for ID Software's older games like DOOM, DOOM2, HEXEN and HERETIC with mods support.
+UZDoom is the open source source port engine for ID Software's older games like DOOM, DOOM2, HEXEN and HERETIC with mod support.
+
+**UZDoom replaces GZDoom starting with RetroDECK 0.11.0**
+
+The content in this section is also compatible with **GZDoom** and applies to older RetroDECK versions that used GZDoom.
+
 
 ---
 
-### GZDoom Links
+### UZDoom Links
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
-| GZDoom - Github | [Link](https://github.com/ZDoom/gzdoom) |
+| UZDoom - Github | [Link](https://github.com/ZDoom/UZDoom) |
 | UZDoom - Github | [Link](https://github.com/UZDoom/UZDoom) |
 | ZDoom - Forums | [Link](https://forum.zdoom.org/) |
 | ZDoom - Web Page | [Link](https://zdoom.org/index) |
@@ -26,7 +31,7 @@ DOOM games should be put under the `retrodeck/roms/doom/` directory.
 
 ---
 
-## What file formats does GZDoom support?
+## What file formats does UZDoom support?
 
 | File Type | What is it? | Comments |
 | :--- | :---: | :---: |
@@ -50,11 +55,11 @@ DOOM games should be put under the `retrodeck/roms/doom/` directory.
 ---
 
 
-## Does GZDOOM require BIOS or Firmware?
+## Does UZDoom require BIOS or Firmware?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
-No. GZDoom does not require any BIOS or firmware files.
+No. UZDoom does not require any BIOS or firmware files.
 
 However, you do need copies of the official **DOOM** game data (WAD files) or you can use Freedoom.
 
@@ -68,7 +73,7 @@ Below is a combined table containing both **Steam** and **GOG** purchase links f
 | DOOM + DOOM II           | [Steam](https://store.steampowered.com/app/2280/DOOM__DOOM_II/)        | [GOG](https://www.gog.com/en/game/doom_doom_ii)                       |
 | DOOM 64                  | [Steam](https://store.steampowered.com/app/1148590/DOOM_64/)            | [GOG](https://www.gog.com/en/game/doom_64)                             |
 
-**Note:** *DOOM + DOOM II* is sufficient for use with GZDoom. Additional titles are optional; however, *DOOM 64* is required for certain mods. Purchasing the Classic Bundle may be more cost-effective.
+**Note:** *DOOM + DOOM II* is sufficient for use with UZDoom. Additional titles are optional; however, *DOOM 64* is required for certain mods. Purchasing the Classic Bundle may be more cost-effective.
 
 ### Freedoom
 
@@ -87,20 +92,20 @@ It is compatible with most community-made levels, graphics, music and mods creat
 
 | Type   | Directory                                         | Comment                     |
 |:------:|:-------------------------------------------------|:----------------------------|
-| Audio FM Banks Storage | `retrodeck/storage/gzdoom/audio/fm_banks/` |                             |
-| Audio Soundfonts | `retrodeck/storage/gzdoom/audio/soundfonts/` |                             |
-| BIOS   | `retrodeck/bios/gzdoom/`                         |                             |
-| Config | `~/.var/app/net.retrodeck.retrodeck/config/gzdoom/` | gzdoom.ini                  |
-| Data   | `~/.var/app/org.retrodeck.retrodeck/data/gzdoom/`   |                             |
+| Audio FM Banks Storage | `retrodeck/storage/UZDoom/audio/fm_banks/` |                             |
+| Audio Soundfonts | `retrodeck/storage/UZDoom/audio/soundfonts/` |                             |
+| BIOS   | `retrodeck/bios/UZDoom/`                         |                             |
+| Config | `~/.var/app/net.retrodeck.retrodeck/config/UZDoom/` | UZDoom.ini                  |
+| Data   | `~/.var/app/org.retrodeck.retrodeck/data/UZDoom/`   |                             |
 | ROMs   | `retrodeck/roms/doom/`                            |                             |
 | Saves  | `retrodeck/saves/doom/`                      |                             |
 
 ---
 
 
-## What IWADs is GZDoom looking for?
+## What IWADs is UZDoom looking for?
 
-The [IWADs](https://doomwiki.org/wiki/IWAD) GZDoom requires to run are listed below:
+The [IWADs](https://doomwiki.org/wiki/IWAD) UZDoom requires to run are listed below:
 
 | File                  | What is it?                                     | Comments                        |
 |-----------------------|------------------------------------------------|---------------------------------|
@@ -154,16 +159,16 @@ Here are some popular sources:
 
 ---
 
-## GZDoom Controls
+## UZDoom Controls
 
 **Known Issues**
 
-- Multiple controllers for local multiplayer don't work well due to bugs between GZDoom and Steam Input.
+- Multiple controllers for local multiplayer don't work well due to bugs between UZDoom and Steam Input.
 - Set the primary controller as player one, especially if using an external controller with the Steam Deck. This prevents input loops.
 - Avoid pressing "Save configur## Where to put the games?
 
 WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
-ation" in the GZDoom options menu if you have mods that add extra controls, as it will wipe those extra controls. Inputs will still be saved without pressing save.
+ation" in the UZDoom options menu if you have mods that add extra controls, as it will wipe those extra controls. Inputs will still be saved without pressing save.
 
 ### Standard Controls
 
@@ -206,7 +211,7 @@ Many mods have more inputs than what is bindable on a controller. `L1`,  `L2`, `
 - Use `Dpad - Up`, `Dpad - Down` for things you use less often, like Extra Menus.
 - If it is a new movement type that can replace quick turn, bind it on `R3` and replace Quick Turn or either of the `L1` or `L2`.
 
-You are also free to change any of the default binds shipped by RetroDECK and if you mess something up, you can always reset GZDoom via the Configurator.
+You are also free to change any of the default binds shipped by RetroDECK and if you mess something up, you can always reset UZDoom via the Configurator.
 
 ---
 
@@ -323,7 +328,7 @@ This makes using mods and switching between episodes much easier.
 
 ---
 
-### GZDoom-Specific Console Commands
+### UZDoom-Specific Console Commands
 
 | Command | Effect | Comments |
 |---------|--------|----------|
@@ -338,7 +343,7 @@ This makes using mods and switching between episodes much easier.
 ---
 
 
-## FAQ: GZDoom 
+## FAQ: UZDoom 
 
 | **Question** | **Answer** |
 |--------------|------------|

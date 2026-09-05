@@ -2,9 +2,9 @@
 
 <img src="../../../wiki_images/logos/doomce-logo.png" width="150" alt="Doomce logo">
 
-**Doom 64 CE** is a set of overhauled total conversions for **GZDoom**, recreating **PlayStation DOOM** and **DOOM 64** with modern engine features.
+**Doom 64 CE** is a set of overhauled total conversions for **UZDoom**, recreating **PlayStation DOOM** and **DOOM 64** with modern engine features.
 
-Building on **PSX DOOM TC** and **DOOM 64 Retribution**, it updates the originals to leverage recent GZDoom capabilities and adds features previously unavailable.
+Building on **PSX DOOM TC** and **DOOM 64 Retribution**, it updates the originals to leverage recent UZDoom capabilities and adds features previously unavailable.
 
 Highly modular, **Doom 64 CE** allows players to choose a near-vanilla experience or enable enhancements like upscaled textures, PBR materials and advanced particle effects.
 
@@ -47,7 +47,7 @@ Create a folder named **DOOM 64 CE** under one of the following paths:
    **Manage → Browse Local Files**.
 2. Copy the `DOOM64.WAD` file to a safe location.
 
-> Note: While `DOOM64.WAD` can not run as a standard IWAD in GZDoom, it must be patched to be compatible with mods and correctly interpreted as an IWAD.
+> Note: While `DOOM64.WAD` can not run as a standard IWAD in UZDoom, it must be patched to be compatible with mods and correctly interpreted as an IWAD.
 
 ---
 
@@ -71,8 +71,8 @@ Save it into: `roms/doom/mods/DOOM 64 CE`
 
 Copy the files from the Doom 64 CE package into the following folders:
 
-- `fm_banks` → `storage/gzdoom/audio/fm_banks`
-- `soundfonts` → `storage/gzdoom/audio/soundfonts`
+- `fm_banks` → `storage/UZDoom/audio/fm_banks`
+- `soundfonts` → `storage/UZDoom/audio/soundfonts`
 
 ---
 

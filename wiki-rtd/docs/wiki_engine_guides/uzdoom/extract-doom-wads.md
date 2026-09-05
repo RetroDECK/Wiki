@@ -1,22 +1,18 @@
 ﻿# How-to: Get WADs from your bought copies of DOOM
 
-<img src="../../../wiki_images/logos/gzdoom-logo.png" width="75" alt="Gzdoom logo">
-
-
-### Notice: Steam Flatpak Version - steamapps/ Location
-
-If you are using the **Flatpak version of Steam**, the `~/.local/share/Steam/steamapps/` folder is located at:
-
-`~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/` when you follow this guide.
-
 ---
 
-## DOOM64.WAD (Steam)
+## Doom 64 (Steam)
 
-1. Right-click **DOOM 64** in your Steam library and select: **Manage → Browse Local Files**.
+1. Right-click **DOOM 64** in your Steam library and select **Manage → Browse Local Files**.
 2. Copy the `DOOM64.WAD` file to a safe location.
 
-> Note: While `DOOM64.WAD` can not run as a standard IWAD in GZDoom, it must be patched to be compatible with mods and correctly interpreted as an IWAD.
+| Version | Location |
+|---|---|
+| **Native Steam** | `~/.local/share/Steam/steamapps/common/DOOM 64/DOOM64.WAD` |
+| **Steam Flatpak** | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/DOOM 64/DOOM64.WAD` |
+
+**Note:** `DOOM64.WAD` cannot run as a standard IWAD in UZDoom. It must be patched to make it compatible with mods and correctly interpreted as an IWAD.
 
 --- 
 
@@ -28,27 +24,30 @@ The KEX Engine version spreads out the files and assigns a random **BethesdaNet 
 
 ---
 
+### Where are the base core IWADs?
 
-### Where are the base core iwads?
+You can find the base core IWADs by:
 
-Fnd the location by:
+- Right-clicking **DOOM + DOOM II** in your Steam library.
+- Selecting **Manage → Browse Local Files**.
 
-- Right-click **DOOM + DOOM II** in your Steam library and select: **Manage → Browse Local Files**.
+Or browse directly to:
 
-Or by browsing to:
-
-`~/.local/share/Steam/steamapps/common/Ultimate Doom/rerelease/`
-
-
+| Version | Location |
+|---|---|
+| **Native Steam** | `~/.local/share/Steam/steamapps/common/Ultimate Doom/rerelease/` |
+| **Steam Flatpak** | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Ultimate Doom/rerelease/` |
 
 ---
 
-### Where are the downloaded bnetwads?
+### Where are the downloaded `bnetwads`?
 
-All of the downloaded bnetwads are located in:
+Downloaded `bnetwads` are stored in:
 
-`~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/Nightdive Studios/DOOM/bnetwads/`
-
+| Version | Location |
+|---|---|
+| **Native Steam** | `~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/Nightdive Studios/DOOM/bnetwads/` |
+| **Steam Flatpak** | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/Nightdive Studios/DOOM/bnetwads/` |
 
 ---
 
@@ -144,10 +143,9 @@ This list only shows you some of the bnetwads (to match the content of the Unity
 
 The `bnetwad id` should tell you what the file is called and also where the file is located as the `bnetwad id` always match the contaning folders name.
 
-**Example**:
+**Example Anomaly Report**
 
-`/bnetwads/1d7e0be3-15ef-4227-8f57-12b8fc4540e8/1d7e0be3-15ef-4227-8f57-12b8fc4540e8.wad - Is Anomaly Report's folder and WAD`
-
+`/bnetwads/1d7e0be3-15ef-4227-8f57-12b8fc4540e8/1d7e0be3-15ef-4227-8f57-12b8fc4540e8.wad` 
 
 ---
 
@@ -174,14 +172,17 @@ On Steam you can still access them on the Beta Branch (as of now) by:
 
 ### Base Core IWADs and DLC Locations (Steam)
 
-| Game     | Type        | Location                                                                                  |
-|----------|------------|-------------------------------------------------------------------------------------------|
-| DOOM 2   | Masterbase IWADs | `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/doom2/`                          |
-| DOOM 2   | Masterbase IWADs | `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/master/wads/`                   |
-| DOOM 2   | Masterbase IWADs | `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/Doom 2/masterbase/doom2/`      |
-| DOOM 2   | DLC/WADs   | `~/.local/share/Steam/steamapps/compatdata/2300/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM 2/WADs/` |
-| DOOM 1   | Base IWAD  | `~/.local/share/Steam/steamapps/common/Ultimate Doom/base/`                               |
-| DOOM 1   | DLC/WADs   | `~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM Classic/WADs/` |
+## DOOM WAD and IWAD Locations
+
+| Game | Type | Native Steam | Steam Flatpak |
+|---|---|---|---|
+| **DOOM 2** | Masterbase IWADs | `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/doom2/` | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Doom 2/masterbase/doom2/` |
+| **DOOM 2** | Masterbase IWADs | `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/master/wads/` | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Doom 2/masterbase/master/wads/` |
+| **DOOM 2** | Masterbase IWADs | `~/.local/share/Steam/steamapps/common/Doom 2/masterbase/Doom 2/masterbase/doom2/` | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Doom 2/masterbase/Doom 2/masterbase/doom2/` |
+| **DOOM 2** | DLC/WADs | `~/.local/share/Steam/steamapps/compatdata/2300/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM 2/WADs/` | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/compatdata/2300/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM 2/WADs/` |
+| **DOOM 1** | Base IWAD | `~/.local/share/Steam/steamapps/common/Ultimate Doom/base/` | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Ultimate Doom/base/` |
+| **DOOM 1** | DLC/WADs | `~/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM Classic/WADs/` | `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/compatdata/2280/pfx/drive_c/users/steamuser/Saved Games/id Software/DOOM Classic/WADs/` |
+
 
 
 ---

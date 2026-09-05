@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/vpinballx-logo.png" width="150" alt="Vpinballx logo">
 
-Visual Pinball X (vpx) is an virtual pinball (vpinball) engine that simulates pinball tables.
+**Visual Pinball X** commonly known as **VPX**, is an advanced virtual pinball simulation engine that simulates real-world pinball tables.
 
 ### Visual Pinball X
 

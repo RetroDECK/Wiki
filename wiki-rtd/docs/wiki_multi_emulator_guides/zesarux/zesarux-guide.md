@@ -4,7 +4,9 @@
 
 ## ZEsarUX
 
-**ZEsarUX** is an advanced open-source multi-platform emulator for a wide range of retro computers and consoles, with a strong focus on Sinclair ZX Spectrum systems and related hardware. It features a fully virtual retro computer front panel and can be used to open several programs.
+**ZEsarUX** is a multi-system emulator with support for the **ZX Spectrum Next** and many other systems.
+
+When emulating the ZX Spectrum Next, ZEsarUX can boot **NextZXOS** from a compatible SD/MMC image. This provides the Next's native operating-system environment, including its file browser and software-launching functionality.
 
 <img src="https://raw.githubusercontent.com/chernandezba/zesarux/main/screenshots/screenshot_zxdesktop_multitask.png" width="800" alt="zesarux desktop"> 
 
@@ -12,6 +14,86 @@
 
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
+
+
+---
+
+## Supported Systems
+
+**RetroDECK** uses ZEsarUX specifically as its **ZX Spectrum Next** emulator. Although ZEsarUX supports many additional systems, RetroDECK already includes better-suited emulators for most of them.
+
+As a user, you can therefore explore the **ZX Spectrum Next / NextZXOS environment** within ZEsarUX and use it to launch software supported by the emulated system.
+
+They are listed here for completeness:
+
+### Amstrad
+- CPC 464
+- CPC 664
+- CPC 6128
+- CPC 4128
+- PCW 8256
+- PCW 8512
+
+### Czerweny (Argentina)
+- CZ 1000
+- CZ 1000 Plus
+- CZ 1500
+- CZ 1500 Plus
+- CZ 2000
+- CZ Spectrum
+- CZ Spectrum Plus
+
+### Microdigital (Brazil)
+- TK80
+- TK82
+- TK82C
+- TK83
+- TK85
+- TK90X (Portuguese and Spanish)
+- TK95 (Portuguese and Spanish)
+
+### Sega
+- SG1000
+- Master System
+
+### Sinclair / ZX
+- MK14
+- ZX80
+- ZX81
+- ZX Spectrum
+- QL
+- Z88
+
+### Spectrum Clones
+- Inves Spectrum+
+- Pentagon
+- Chloe 140 SE
+- Chloe 280 SE
+- Chrome
+- Prism
+- ZX-Uno
+- ZX-Evolution BaseConf (beta)
+- ZX-Evolution TS-Conf
+- ZX Spectrum Next
+
+### Spectravideo
+- SV-318
+- SV-328
+
+### Timex Computer
+- TC 2048
+- TC 2068
+
+### Timex Sinclair
+- TS 1000
+- TS 1500
+- TS 2068
+
+### Others
+- Colecovision
+- Jupiter Ace
+- MSX1
+- Sam Coupé
 
 ---
 

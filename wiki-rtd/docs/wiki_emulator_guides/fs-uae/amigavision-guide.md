@@ -2,9 +2,9 @@
 
 <img src="../../../wiki_images/logos/amigavision-logo.svg" width="150" alt="Amigavision logo">
 
-**AmigaVision** is a community-driven, open-source Amiga launcher / frontend project designed to provide a streamlined, console-like experience while maintaining hardware accuracy and authenticity. It allows users to create a customized AmigaVision setup from personal game collections.  
+**AmigaVision** is a community-driven, open-source Amiga frontend project designed to provide a streamlined, console-like experience while maintaining hardware accuracy and authenticity.
 
-The project includes a minimal Workbench-based system, pre-optimized configurations for up to 4k resolutions and is compatible with FS-UAE. 
+The project includes a minimal Workbench-based system, pre-optimized configurations for up to 4k resolutions. 
 
 A pre-configued `AmigaVision.fs-uae` configuration file is included by default in RetroDECK.
 
@@ -54,28 +54,12 @@ You must have an AmigaVision collection ready (built via the provided scripts on
 |:--|:--|
 | **Shared Directory** | `retrodeck/storage/FS-UAE/AmigaVision/shared/` |
 | **Listings Directory** | `retrodeck/storage/FS-UAE/AmigaVision/listings/` |
-| **HDD files** `AmigaVision.hdf` `AmigaVision-Saves.hdf` | `retrodeck/storage/FS-UAME/AmigaVision/` |
+| **HDD files** `AmigaVision.hdf` `AmigaVision-Saves.hdf` | `retrodeck/storage/FS-UAE/AmigaVision/` |
 
-### Step 2: Generate the AmigaVision.fdi
+### Step 2: Enable the AmigaVision
 
-#### Method 1: Using the Configurator
-
-- Open **RetroDECK Configurator** → **FS-UAE: AmigaVision** and enable AmigaVision support.
-- This generates `AmigaVision.fdi` under `retrodeck/roms/amiga/`.
-
-#### Method 2: Manual Setup
-
-- Manually create a file called `AmigaVision.fdi` under `retrodeck/roms/amiga/`.
-
-### Step 3: Configuring the `AmigaVision` Alternative Emulator in RetroDECK
-
-1. Launch **RetroDECK**.
-2. Navigate to **Amiga** → **AmigaVision** in ES-DE.
-3. Press **Select** or **F1** to open **Edit This Game's Metadata**.
-4. Choose **Alternative Emulator**.
-5. Select **FS-UAE (Standalone) AmigaVision**.
-6. Save changes.
-
-RetroDECK will now launch AmigaVision using FS-UAE.
+1. Open **RetroDECK Configurator** → **ES-DE Entries** → **FS-UAE: AmigaVision** and enable AmigaVision support.
+2. Restart RetroDECK
+3. Navigate to **Amiga** and launch **AmigaVision** in ES-DE.
 
 ---

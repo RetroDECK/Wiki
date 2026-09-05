@@ -33,7 +33,7 @@ ECWolf game files must be placed in the `retrodeck/roms/wolfenstein/` directory.
 
 | File Format | Description |
 |-------------|-------------|
-| .wolf      | RetroDECK ECWolf launcher format |
+| .wolf    | RetroDECK ECWolf launcher format |
 
 
 

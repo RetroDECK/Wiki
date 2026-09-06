@@ -1,4 +1,4 @@
-﻿# Guide: FS-UAE - AmigaVision
+﻿# Guide: Amiberry - AmigaVision
 
 <img src="../../../wiki_images/logos/amigavision-logo.svg" width="150" alt="Amigavision logo">
 
@@ -6,7 +6,7 @@
 
 The project includes a minimal Workbench-based system, pre-optimized configurations for up to 4k resolutions. 
 
-A pre-configued `AmigaVision.fs-uae` configuration file is included by default in RetroDECK.
+A pre-configued `AmigaVision.uae` configuration file is included by default in RetroDECK.
 
 **When to Use AmigaVision**
 

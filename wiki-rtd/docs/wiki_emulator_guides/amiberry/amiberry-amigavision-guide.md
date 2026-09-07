@@ -33,9 +33,9 @@ A pre-configued `AmigaVision.uae` configuration file is included by default in R
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
-| Main Directory   | `retrodeck/storage/FS-UAE/AmigaVision/`         |   `AmigaVision.hdf`  <br> `AmigaVision-Saves.hdf`          |
-| Listning Directory   | `retrodeck/storage/FS-UAE/AmigaVision/listings/`         |               |
-| Shared Directory   | `retrodeck/storage/FS-UAE/AmigaVision/shared/`         |               |
+| Main Directory   | `retrodeck/storage/Amiberry/AmigaVision/`         |   `AmigaVision.hdf`  <br> `AmigaVision-Saves.hdf`          |
+| Listning Directory   | `retrodeck/storage/Amiberry/AmigaVision/listings/`         |               |
+| Shared Directory   | `retrodeck/storage/Amiberry/AmigaVision/shared/`         |               |
 
 ---
 
@@ -47,19 +47,19 @@ You must have an AmigaVision collection ready (built via the provided scripts on
 
 ### Step 1: Add the AmigaVision Files
 
-- Navigate to the RetroDECK AmigaVision directory: `retrodeck/storage/FS-UAE/AmigaVision/`
+- Navigate to the RetroDECK AmigaVision directory: `retrodeck/storage/Amiberry/AmigaVision/`
 - Copy / extract the contents of your folders / archive to the corresponding RetroDECK directories:  
 
 | Source Folder | Destination |
 |:--|:--|
-| **Shared Directory** | `retrodeck/storage/FS-UAE/AmigaVision/shared/` |
-| **Listings Directory** | `retrodeck/storage/FS-UAE/AmigaVision/listings/` |
-| **HDD files** `AmigaVision.hdf` `AmigaVision-Saves.hdf` | `retrodeck/storage/FS-UAE/AmigaVision/` |
+| **Shared Directory** | `retrodeck/storage/Amiberry/AmigaVision/shared/` |
+| **Listings Directory** | `retrodeck/storage/Amiberry/AmigaVision/listings/` |
+| **HDD files** `AmigaVision.hdf` `AmigaVision-Saves.hdf` | `retrodeck/storage/Amiberry/AmigaVision/` |
 
 ### Step 2: Enable the AmigaVision
 
-1. Open **RetroDECK Configurator** → **ES-DE Entries** → **FS-UAE: AmigaVision** and enable AmigaVision support.
-2. Restart RetroDECK
+1. Open **RetroDECK Configurator** → **ES-DE Entries** → **Amiberry: AmigaVision** and enable AmigaVision support.
+2. Restart RetroDECK.
 3. Navigate to **Amiga** and launch **AmigaVision** in ES-DE.
 
 ---

@@ -97,13 +97,16 @@ In `retrodeck/bios/`
 | :-------------: | :--------------------------------------------- | :------ |
 |     Bezels      | `retrodeck/borders/Amiberry/Bezels`            |         |
 |     CD-ROMs     | `retrodeck/storage/Amiberry/CD-ROMs`           |         |
+|  Controllers    | `retrodeck/storage/Amiberry/Controllers`            |         |
 |  Configurations | `retrodeck/storage/Amiberry/Configurations`   |         |
 |    Floppies     | `retrodeck/storage/Amiberry/Floppies`          |         |
 |  Hard Drives    | `retrodeck/storage/Amiberry/HardDrives`        |         |
+|  InputRecordings | `retrodeck/storage/Amiberry/InputRecordings`   |         |
 |      LHA        | `retrodeck/storage/Amiberry/LHA`               |         |
 |      Logs       | `retrodeck/logs/Amiberry`                      |         |
 |     NVRAM       | `retrodeck/storage/Amiberry/NVRAM`             |         |
-|      ROMS        | `retrodeck/bios`                               |         |
+|      Ripper        | `retrodeck/storage/Amiberry/Ripper`         |       |
+|      ROMS        | `retrodeck/bios`                               | Kickstarts      |
 |      RP9        | `retrodeck/storage/Amiberry/RP9`               |         |
 |  Save Images    | `retrodeck/storage/Amiberry/SaveImages`        |         |
 |   Screenshots   | `retrodeck/screenshots/Amiberry`              |         |

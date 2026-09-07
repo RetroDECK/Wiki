@@ -122,5 +122,6 @@ In `retrodeck/bios/`
 | :--- | :--- |
 | <kbd>F12</kbd> | Open/close Amiberry GUI |
 | <kbd>Pause</kbd> | Activate Action Replay / HRTMon |
+| <kbd>Ctrl</kbd> +  <kbd>Alt</kbd>| Release Mouse Lock|
 
 ---

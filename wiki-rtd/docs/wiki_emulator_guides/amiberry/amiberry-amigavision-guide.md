@@ -6,7 +6,7 @@
 
 The project includes a minimal Workbench-based system, pre-optimized configurations for up to 4k resolutions. 
 
-A pre-configued `AmigaVision.uae` configuration file is included by default in RetroDECK.
+
 
 **When to Use AmigaVision**
 
@@ -33,9 +33,10 @@ A pre-configued `AmigaVision.uae` configuration file is included by default in R
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
-| Main Directory   | `retrodeck/storage/Amiberry/AmigaVision/`         |   `AmigaVision.hdf`  <br> `AmigaVision-Saves.hdf`          |
-| Listning Directory   | `retrodeck/storage/Amiberry/AmigaVision/listings/`         |               |
-| Shared Directory   | `retrodeck/storage/Amiberry/AmigaVision/shared/`         |               |
+| Main Directory   | `retrodeck/storage/Amiberry/HardDrives`         |   `AmigaVision.hdf`  <br> `AmigaVision-Saves.hdf`          |
+| Listning Directory   | `retrodeck/storage/Amiberry/HardDrives/listings/`         |               |
+| Shared Directory   | `retrodeck/storage/Amiberry/HardDrives/Shared/`         |               |
+| BIOS Directory   | `retrodeck/bios/`         |     `AmigaVision.rom`             |
 
 ---
 
@@ -43,18 +44,21 @@ A pre-configued `AmigaVision.uae` configuration file is included by default in R
 
 **Prerequisite:**  
 
-You must have an AmigaVision collection ready (built via the provided scripts on the website or downloaded a demo collection from the community). Ensure `AmigaVision.hdf` and `AmigaVision-Saves.hdf` are available.
+You must have an AmigaVision collection ready (built via the provided scripts on the website or downloaded a demo collection from the community). Ensure `AmigaVision.hdf`, `AmigaVision.rom` and `AmigaVision-Saves.hdf` are available.
 
 ### Step 1: Add the AmigaVision Files
 
-- Navigate to the RetroDECK AmigaVision directory: `retrodeck/storage/Amiberry/AmigaVision/`
+- Navigate to the HardDrives directory: `retrodeck/storage/Amiberry/HardDrives/`
 - Copy / extract the contents of your folders / archive to the corresponding RetroDECK directories:  
 
 | Source Folder | Destination |
 |:--|:--|
-| **Shared Directory** | `retrodeck/storage/Amiberry/AmigaVision/shared/` |
-| **Listings Directory** | `retrodeck/storage/Amiberry/AmigaVision/listings/` |
-| **HDD files** `AmigaVision.hdf` `AmigaVision-Saves.hdf` | `retrodeck/storage/Amiberry/AmigaVision/` |
+| **Shared Directory** | `retrodeck/storage/Amiberry/HardDrives/shared/` |
+| **Listings Directory** | `retrodeck/storage/Amiberry/HardDrives/listings/` |
+| **HDD files** `AmigaVision.hdf` `AmigaVision-Saves.hdf` | `retrodeck/storage/Amiberry/HardDrives/` |
+| **AmigaVision Kickstart Rom** `AmigaVision.rom` | `retrodeck/bios/` |
+
+**Note:** RetroDECK includes a pre-configured `AmigaVision.uae` file, so no manual setup is needed. The required shaders are also bundled with RetroDECK.
 
 ### Step 2: Enable the AmigaVision
 

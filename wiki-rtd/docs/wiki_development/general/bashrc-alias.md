@@ -14,7 +14,7 @@ Add the following lines to the end of `~/.bashrc` on any Linux system, save the 
 # RetroDECK - Installer: rdinstall
 #
 # Supports main GitHub latest, Flathub stable and choosing 
-# from the latest 20 Cooker or Main GitHub releases.
+# from the latest 40 Cooker or Main GitHub releases.
 # ========================================================
 
 
@@ -35,10 +35,10 @@ _rdi_fetch_tags() {
     if ! command -v python3 >/dev/null 2>&1; then
         return 1
     fi
-    local api_url="https://api.github.com/repos/RetroDECK/${repo}/releases?per_page=20"
+    local api_url="https://api.github.com/repos/RetroDECK/${repo}/releases?per_page=40"
     curl -sL "$api_url" | python3 -c '
 import sys, json
-releases = json.load(sys.stdin)[:20]
+releases = json.load(sys.stdin)[:40]
 # Sort by published_at (date) descending, then tag_name ascending
 releases.sort(key=lambda r: (r["published_at"], r["tag_name"]), reverse=True)
 [print(r["tag_name"] + "|" + r["published_at"][:10]) for r in releases]
@@ -150,8 +150,8 @@ rdinstall() {
     echo "-------------------"
     echo "1) Flathub stable"
     echo "2) Main latest release"
-    echo "3) Main release (latest 20)"
-    echo "4) Cooker release (latest 20)"
+    echo "3) Main release (latest 40)"
+    echo "4) Cooker release (latest 40)"
     echo "q) Quit"
     echo ""
     read -rp "Choice [1-4/q]: " choice
@@ -169,7 +169,7 @@ rdinstall() {
             _rdi_github_install "RetroDECK" "latest"
             ;;
         3)
-            echo "Fetching latest 20 Main releases..."
+            echo "Fetching latest 40 Main releases..."
             echo ""
             i=1
             while IFS='|' read -r tag date; do
@@ -184,7 +184,6 @@ rdinstall() {
             fi
             echo ""
             read -rp "Pick a release [1-${#tags_array[@]}]: " tag_choice
-            # Strip carriage returns / whitespace (fixes Windows line-ending issues)
             tag_choice="${tag_choice%%$'\r'}"
             tag_choice="${tag_choice// /}"
             echo ""
@@ -195,7 +194,7 @@ rdinstall() {
             fi
             ;;
         4)
-            echo "Fetching latest 20 Cooker releases..."
+            echo "Fetching latest 40 Cooker releases..."
             echo ""
             i=1
             while IFS='|' read -r tag date; do
@@ -210,7 +209,6 @@ rdinstall() {
             fi
             echo ""
             read -rp "Pick a release [1-${#tags_array[@]}]: " tag_choice
-            # Strip carriage returns / whitespace (fixes Windows line-ending issues)
             tag_choice="${tag_choice%%$'\r'}"
             tag_choice="${tag_choice// /}"
             echo ""

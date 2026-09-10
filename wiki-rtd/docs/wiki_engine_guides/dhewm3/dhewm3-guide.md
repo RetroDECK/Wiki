@@ -51,8 +51,8 @@ However, you do need copies of the official **DOOM 3** and **Doom 3: Resurrectio
 | DOOM 3 - pak006.pk4 | `retrodeck/roms/doom3/base` | `a6e7003fa9dcc75073dc02b56399b370` | **DOOM 3 v1.3.1** |
 | DOOM 3 - pak007.pk4 | `retrodeck/roms/doom3/base` | `6319f086f930ec1618ab09b4c20c268c` | **DOOM 3 v1.3.1** |
 | DOOM 3 - pak008.pk4 | `retrodeck/roms/doom3/base` | `28750b7841de9453eb335bad6841a2a5` | **DOOM 3 v1.3.1** |
-| DOOM 3: Resurrection of Evil - pak000.pk4 | `retrodeck/roms/doom3/d3xp` / `retrodeck/roms/doom3/d3xp.doom3` | `a883fef0fd10aadeb73d34c462ff865d` | **Optional** |
-| DOOM 3: Resurrection of Evil - pak001.pk4 | `retrodeck/roms/doom3/d3xp` / `retrodeck/roms/doom3/d3xp.doom3` | `06fc9be965e345587064056bf22236d2` | **Optional** |
+| DOOM 3: Resurrection of Evil - pak000.pk4 | `retrodeck/roms/doom3/d3xp`  | `a883fef0fd10aadeb73d34c462ff865d` | **Optional** |
+| DOOM 3: Resurrection of Evil - pak001.pk4 | `retrodeck/roms/doom3/d3xp`  | `06fc9be965e345587064056bf22236d2` | **Optional** |
 
 **Note:** 
 
@@ -69,8 +69,13 @@ However, you do need copies of the official **DOOM 3** and **Doom 3: Resurrectio
 |:------:|:-------------------------------------------------|:----------------------------|
 | ROMs   | `retrodeck/roms/doom3/`                            |                             |
 | base   | `retrodeck/roms/doom3/base`                            |                             |
+<<<<<<< HEAD
+| d3xp   | `retrodeck/roms/doom3/d3xp`                             |                             |
+| Saves  | `retrodeck/roms/doom3/<gamedir>/SavedGames`                      |           Each game is self contained                  |
+=======
 | d3xp   | `retrodeck/roms/doom3/d3xp`                            |                             |
 | Saves  | `retrodeck/roms/doom3/<game_dir>/SavedGames`                      |           Each game is self contained                  |
+>>>>>>> 0adac59d7fe046cc5cda82aec4a33397d59f012e
 
 ---
 
@@ -161,13 +166,11 @@ Make sure all the game files are at their proper location **Read Above**.
 
 1. Navigate to `retrodeck/roms/doom3/`.
 2. Copy the `d3xp` folder containing the required game files.
-3. Rename the copied folder to `d3xp.doom3`.
+3. Create an empty file named `d3xp.doom3`.
 4. In ES-DE, highlight **d3xp**.
 5. Open the **Main Menu** and select **Edit This Games Metadata**.
 6. Change the **Name** field to `DOOM 3: Resurrection of Evil`.
 7. Save the changes and launch the expansion from RetroDECK.
-
-**Note:** Some mods are hardcoded to look for the `d3xp` directory. A copy named `d3xp.doom3` is therefore required so the expansion can be used as a non-list entry while preserving the original `d3xp` directory for mod compatibility.
 
 ---
 
@@ -179,8 +182,8 @@ dhewm 3 supports many types of mods
 **The following installation steps apply to all mods:**
 
 1. Download the mod from its respective source.
-2. Extract the mod archive to `retrodeck/roms/doom3/<MOD_NAME>/`.
-3. Ensure the mod files are located directly in `retrodeck/roms/doom3/<MOD_NAME>/` and are not nested inside additional subdirectories.
+2. Extract the mod archive to `retrodeck/roms/doom3/<Mod_ID>/`.
+3. Ensure the mod files are located directly in `retrodeck/roms/doom3/<Mod_ID>/` and are not nested inside additional subdirectories.
 
 ---
 
@@ -192,22 +195,23 @@ dhewm 3 has native support for the following mods:
 
 | Mod Name | Mod ID |
 |----------|--------|
-| Blood Mod v1.8 | `bloodmod`  `bloodmod_roe`|
+| Blood Mod| `bloodmod`  `bloodmod_roe`|
 | CLASSIC DOOM III | `cdoom` |
-| Doom 3: The Lost Mission | `d3le` |
 | Dentons Enhanced Doom3 | `dentonmod` |
 | Desolated - The Crying Fate | `desolated` |
 | ELDOOM | `eldoom` |
 | HeXen: Edge Of Chaos | `eoc` |
+| hidef2k | `hidef2k` |
 | Fitz Packerton | `fitz` |
 | Grimm: Quest for the Gatherers Key | `grimm` |
-| Hard Corps v0.8.66 | `hardcorps` |
-| LibreCoop Alpha v1.5 | `librecoop` / `librecoopd3xp` |
-| Perfected Doom3 (ROE) v7 | `perfected` / `perfected_d3xp` |
-| Real Gibs v1.06 | `realgibs` |
-| Scarlet Rivensin: The Ruiner v0.9.82 | `rivensin` |
-| Sikkmod v1.2 | `sikkmod` |
-| Sikkmod RoE v1.1 | `sikkmodd3xp` |
+| Hard Corps  | `hardcorps` |
+| LibreCoop Alpha  | `librecoop` / `librecoopd3xp` |
+| Perfected Doom3 (ROE)  | `perfected` / `perfected_d3xp` |
+| Real Gibs  | `realgibs` |
+| Scarlet Rivensin: The Ruiner | `rivensin` |
+| Sikkmod  | `sikkmod` |
+| Sikkmod RoE  | `sikkmodd3xp` |
+| The Lost Mission | `d3le` |
 
 ---
 
@@ -240,8 +244,8 @@ Then load the mod from the **Mods** menu in DOOM 3.
 
 **Example:** **CLASSIC DOOM III**
 
-1. Rename the mod directory so it uses the `.doom3` extension.
-2. For **CLASSIC DOOM III**, rename `cdoom` to `cdoom.doom3`.
+1. Create an empty file named `<Mod_ID>.doom3`.
+2. For **CLASSIC DOOM III**, `cdoom.doom3`.
 3. The final path should be `retrodeck/roms/doom3/cdoom.doom3`.
 4. In ES-DE, highlight **cdoom**.
 5. Open the **Main Menu** and select **Edit This Games Metadata**.
@@ -256,9 +260,9 @@ If the mod does not launch, remove the .doom3 extension and try loading the mod 
 
 ---
 
-### Other Mods with No Built-in Support
+## Mods with No Built-in Support
 
-Try the following options to see what works for your mod.
+Try the following options to see what works for your mod (most mods needs to be remade for dhewm 3).
 
 Extract the mod archive directly into `retrodeck/roms/doom3/` as normal.
 
@@ -266,17 +270,17 @@ Extract the mod archive directly into `retrodeck/roms/doom3/` as normal.
 
 This method can be hit or miss and is **not guaranteed to work**. Compatibility depends on how the mod is designed.
 
-#### Mods Menu
+### Mods Menu
 
 Try loading the mod from the **Mods** menu in DOOM 3.
 
-#### Show Up in ES-DE as `.doom3`
+### Show Up in ES-DE as `.doom3`
 
-If the mod works as a standalone game, try adding the `.doom3` extension so it appears as a separate game in ES-DE.
+If the mod works as a standalone game, creating the `.doom3` file so it appears as a separate game in ES-DE.
 
 See the **Make Mods show up in ES-DE as Standalone Entries** guide above.
 
-#### Try Launching It as a D3XP Mod
+### Try Launching It as a D3XP Mod
 
 Another option is to launch the mod as a D3XP mod.
 

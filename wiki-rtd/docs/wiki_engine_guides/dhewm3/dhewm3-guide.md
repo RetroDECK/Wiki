@@ -69,8 +69,8 @@ However, you do need copies of the official **DOOM 3** and **Doom 3: Resurrectio
 |:------:|:-------------------------------------------------|:----------------------------|
 | ROMs   | `retrodeck/roms/doom3/`                            |                             |
 | base   | `retrodeck/roms/doom3/base`                            |                             |
-| d3xp   | `retrodeck/roms/doom3/d3xp` /  `retrodeck/roms/doom3/d3xp.doom3`                             |                             |
-| Saves  | `retrodeck/roms/doom3/<gamedir>/SavedGames`                      |           Each game is self contained                  |
+| d3xp   | `retrodeck/roms/doom3/d3xp`                            |                             |
+| Saves  | `retrodeck/roms/doom3/<game_dir>/SavedGames`                      |           Each game is self contained                  |
 
 ---
 

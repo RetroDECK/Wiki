@@ -32,7 +32,7 @@ Ironwail Quake game files must be placed in the `retrodeck/roms/quake/ironwail/i
 
 | File Format | Description |
 |-------------|-------------|
-| .pak| Quake PAK file |
+| .quake| RetroDECK Quake File |
 
 
 ---
@@ -43,7 +43,33 @@ Ironwail Quake game files must be placed in the `retrodeck/roms/quake/ironwail/i
 
 No
 
-However, you do need copies of the official **Quake** game data (PAK files).
+However, you do need copies of the official **Quake** game data files  (PAK files).
+
+### Base Game
+
+Ironwail supports both the **2021 rerelease** and the **original release** of Quake.
+The **OG release is recommended**.
+
+| Name | File | ID | Path | MD5 | Comment |
+|---|---|---|---|---|---|
+| Quake Base Game | `pak0.pak` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `f6aa4f85e686e364b24e16928c51e05b` | 2021 Rerelease |
+| Quake Base Game | `PAK0.PAK` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `5906e5998fc3d896ddaf5e6a62e03abb` | Original Release |
+| Quake Mission Data | `PAK1.PAK` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `d76b3e5678f0b64ac74ce5e340e6a685` | Original Release |
+
+### Official Episodes & Expansions
+
+| Name | File | ID | Path | MD5 | Comment |
+|---|---|---|---|---|---|
+| Capture the Flag | `pak0.pak` | `ctf` | `retrodeck/roms/quake/ironwail/ctf` | `6e0f5f6d396c4772fadf8b90a3b45b1a` | Multiplayer Content |
+| Dawn of the Machine | `pak0.pak` | `mg3` | `retrodeck/roms/quake/ironwail/mg3` | `28933eb5dc7c1df55ba8ac579baf3ace` | 2026 Episode |
+| Dimension of the Machine | `pak0.pak` | `mg1` | `retrodeck/roms/quake/ironwail/mg1` | `ce2f07daa4b6f54934825f091cab5caf` | 2021 Episode |
+| Dimension of the Past | `pak0.pak` | `dopa` | `retrodeck/roms/quake/ironwail/dopa` | `054ab18a42d2bba6fa43a485ac294f80` | 2016 Episode |
+| Dissolution of Eternity | `pak0.pak` | `rogue` | `retrodeck/roms/quake/ironwail/rogue` | `8bb743678bd2101614dffebcfd9884a5` | 1997 Expansion |
+| Scourge of Armagon | `pak0.pak` | `hipnotic` | `retrodeck/roms/quake/ironwail/hipnotic` | `58514c45aa39ae60b40a8fa868145e6f` | 1997 Expansion |
+
+
+
+
 
 --- 
 
@@ -67,9 +93,9 @@ Below is a combined table containing purchase links.
 
 Or by browsing to:
 
-- **Steam:** `~/.local/share/Steam/steamapps/common/Quake/id1/` 
+- **Steam:** `~/.local/share/Steam/steamapps/common/Quake/rerelease/` 
 
-- **Steam Flatpak:** `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Quake/id1/`
+- **Steam Flatpak:** `~/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Quake/rerelease/`
 
 ---
 
@@ -79,16 +105,13 @@ Or by browsing to:
 
 **Note:** Ironwail currently stores all data: including saves and mods within `retrodeck/roms/quake/ironwail/`. The engine is hardcoded to use a single path for everything. 
 
-The RetroDECK team has suggested to the Ironwail developers that future versions support more flexible, dynamic paths. 
-
-If such an update is implemented, the data will be relocated to the corresponding folders within RetroDECK.
-
 | Type | Directory | Comment |
-|:----:|:--------------------------------------|:-----------------------------------------------|
-| ROMs       | `retrodeck/roms/quake/ironwail/id1`          |  `pak0.pak`  `pak1.pak`.                                                                       |
-| Settings   | `retrodeck/roms/quake/ironwail/id1`          | `ironwail.cfg`                                                                    |
-| Mods       | `retrodeck/roms/quake/ironwail/mods/<dir>`   | Each downloaded mod resides in its own subdirectory.                                           |
-| Saves      | `retrodeck/roms/quake/ironwail/<dir>`        | Base game saves live in `id1/`; mod saves live in each respective `mods/<dir>` subdirectory. |
+|:---|:---|:---|
+| ROMs   | `retrodeck/roms/quake/ironwail/`                            |                             |
+| Base Game   | `retrodeck/roms/quake/ironwail/id1`                            |    id1                         |
+| Saves, Game Data, Settings | `retrodeck/roms/quake/ironwail/<game_dir>` | Saves, settings (`ironwail.cfg`) and `.pak` files are stored in each respective `<game_dir>` subdirectory. |
+
+
 
 ---
 
@@ -109,7 +132,7 @@ If such an update is implemented, the data will be relocated to the correspondin
 
 ### Step 2: Create Quake.pak
 
-Create a file named `Quake.pak` in:
+Create a file named `Quake.quake` in:
 
 `retrodeck/roms/quake/`
 
@@ -123,6 +146,45 @@ Create a file named `Quake.pak` in:
 6. Save.
 
 RetroDECK will now launch Quake using Ironwail.
+
+---
+
+## Built-in mods
+
+These mods can be downloaded from the built-in mod downloader from the main menu.
+
+| Mod Name | ID | Path |
+|---|---|---|
+| Beyond Belief | `bbelief` | `retrodeck/roms/quake/ironwail/bbelief` |
+| Contract Revoked | `contract` | `retrodeck/roms/quake/ironwail/contract` |
+| Dark Triad | `darktriad` | `retrodeck/roms/quake/ironwail/darktriad` |
+| Deathmatch Dimension | `dmd` | `retrodeck/roms/quake/ironwail/dmd` |
+| Elder World Jam | `sm218` | `retrodeck/roms/quake/ironwail/sm218` |
+| Empire of Disorder | `eod` | `retrodeck/roms/quake/ironwail/eod` |
+| Epochs of Enmity | `eoe` | `retrodeck/roms/quake/ironwail/eoe` |
+| Euclid's Nightmare | `euclid` | `retrodeck/roms/quake/ironwail/euclid` |
+| Honey | `honey` | `retrodeck/roms/quake/ironwail/honey` |
+| IKSPQ | `ikspq` | `retrodeck/roms/quake/ironwail/ikspq` |
+| Insomnia | `insomnia` | `retrodeck/roms/quake/ironwail/insomnia` |
+| Koohoo Retro Jam | `koohoojam` | `retrodeck/roms/quake/ironwail/koohoojam` |
+| Map Jam X: Insomnia | `mapjamx` | `retrodeck/roms/quake/ironwail/mapjamx` |
+| Operation: Urth Majik | `oum` | `retrodeck/roms/quake/ironwail/oum` |
+| Punishment Due | `pun` | `retrodeck/roms/quake/ironwail/pun` |
+| QDOOM | `qdoom` | `retrodeck/roms/quake/ironwail/qdoom` |
+| Quake 64 | `q64` | `retrodeck/roms/quake/ironwail/q64` |
+| Realm of Tiddles | `tiddles` | `retrodeck/roms/quake/ironwail/tiddles` |
+| ReProject MOON | `moon` | `retrodeck/roms/quake/ironwail/moon` |
+| Rubicon 2 | `rubicon2` | `retrodeck/roms/quake/ironwail/rubicon2` |
+| Sacrilege | `sacrilege` | `retrodeck/roms/quake/ironwail/sacrilege` |
+| Slave Zero X | `enyo` | `retrodeck/roms/quake/ironwail/enyo` |
+| Spiritworld | `spiritworld` | `retrodeck/roms/quake/ironwail/spiritworld` |
+| Squire of Time | `squire` | `retrodeck/roms/quake/ironwail/squire` |
+| Tainted | `tainted` | `retrodeck/roms/quake/ironwail/tainted` |
+| Terra | `terra` | `retrodeck/roms/quake/ironwail/terra` |
+| Time to Belong | `ttb` | `retrodeck/roms/quake/ironwail/ttb` |
+| Underdark Overbright & Copper | `udob` | `retrodeck/roms/quake/ironwail/udob` |
+| Vestige of V’othlog | `vestige` | `retrodeck/roms/quake/ironwail/vestige` |
+
 
 ---
 

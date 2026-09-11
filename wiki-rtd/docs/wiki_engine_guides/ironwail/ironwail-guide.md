@@ -50,7 +50,7 @@ However, you do need copies of the official **Quake** game data files  (PAK file
 Ironwail supports both the **2021 rerelease** and the **original release** of Quake.
 The **OG release is recommended**.
 
-| Name | File | ID | Path | MD5 | Comment |
+| Name | File | GameID | Path | MD5 | Comment |
 |---|---|---|---|---|---|
 | Quake Base Game | `pak0.pak` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `f6aa4f85e686e364b24e16928c51e05b` | 2021 Rerelease |
 | Quake Base Game | `PAK0.PAK` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `5906e5998fc3d896ddaf5e6a62e03abb` | Original Release |
@@ -58,7 +58,7 @@ The **OG release is recommended**.
 
 ### Official Episodes & Expansions
 
-| Name | File | ID | Path | MD5 | Comment |
+| Name | File | GameID | Path | MD5 | Comment |
 |---|---|---|---|---|---|
 | Capture the Flag | `pak0.pak` | `ctf` | `retrodeck/roms/quake/ironwail/ctf` | `6e0f5f6d396c4772fadf8b90a3b45b1a` | Multiplayer Content |
 | Dawn of the Machine | `pak0.pak` | `mg3` | `retrodeck/roms/quake/ironwail/mg3` | `28933eb5dc7c1df55ba8ac579baf3ace` | 2026 Episode |
@@ -112,48 +112,59 @@ Or by browsing to:
 | Saves, Game Data, Settings | `retrodeck/roms/quake/ironwail/<game_dir>` | Saves, settings (`ironwail.cfg`) and `.pak` files are stored in each respective `<game_dir>` subdirectory. |
 
 
+---
+
+## System Settings Are Per Game / Mod
+
+Ironwail stores settings separately for the base game and each installed mod.
+
+A central configuration is loaded at startup trying to provide compatible controls, but mods may add their own settings or overrides.
+
+As a result, settings such as **display resolution, graphics, keyboard controls and mouse controls** may need to be configured separately for each mod.
 
 ---
 
 ## How-to: Play Quake via Ironwail on RetroDECK
 
-### Step 1: Put Required Files
+Make sure all the game files are at their proper location **Read Above**.
 
-**Note:** Filenames are case-sensitive. Ensure `PAK0.PAK` is renamed to `pak0.pak` and `PAK1.PAK` to `pak1.pak`.
+### Quake
 
-| File Name | Description |
-|-----------|----------------|
-| pak0.pak| Quake PAK0 file |
-| pak1.pak| Quake PAK1 file |
+1. Navigate to `retrodeck/roms/quake`.
+2. Create an empty file named `Quake.quake`.
+3. Launch **Quake** from RetroDECK.
 
-**Placement:**
+### Quake Expansions
 
-`retrodeck/roms/quake/ironwail/id1`
+**Example:**
 
-### Step 2: Create Quake.pak
+`dopa.quake` will launch `Dimension of the Past`.
 
-Create a file named `Quake.quake` in:
-
-`retrodeck/roms/quake/`
-
-### Step 3: Configuring the Alternative Emulator in RetroDECK
-
-1. Launch **RetroDECK**.
-2. Navigate to the **Quake** menu and **Quake** entry.
-3. Open the **Edit This Game's Metadata** menu.
-4. Select **Alternative Emulator**.
-5. Choose **`Ironwail (Standalone)`** from the list.
-6. Save.
-
-RetroDECK will now launch Quake using Ironwail.
+1. Navigate to `retrodeck/roms/quake`.
+2. Create an empty file named `<GameID>.quake`.
+3. Launch **Quake** from RetroDECK.
+4. Open RetroDECK and in ES-DE highlight **`<GameID>`**, Example: **dopa** .
+5. Open the **Main Menu** and select **Edit This Games Metadata**.
+6. Change the **Name** field to `Dimension of the Past`.
+7. Save the changes and launch the expansion from RetroDECK.
 
 ---
 
-## Built-in mods
+## How-to: Play Quake Mods in RetroDECK
 
-These mods can be downloaded from the built-in mod downloader from the main menu.
+Ironwail supports many types of mods
 
-| Mod Name | ID | Path |
+**The following installation steps apply to all mods:**
+
+1. Download the mod from its respective source.
+2. Extract the mod archive to `retrodeck/roms/quake/ironwail/<ModID>/`.
+3. Ensure the mod files are located directly in `retrodeck/roms/quake/ironwail/<ModID>/` and are not nested inside additional subdirectories.
+
+### Built-in MOD Compatibility
+
+Ironwail have built-in support fort he following mods and they can be downloaded from the built-in mod downloader from the main menu.
+
+| Mod Name | ModID | Path |
 |---|---|---|
 | Beyond Belief | `bbelief` | `retrodeck/roms/quake/ironwail/bbelief` |
 | Contract Revoked | `contract` | `retrodeck/roms/quake/ironwail/contract` |
@@ -185,6 +196,29 @@ These mods can be downloaded from the built-in mod downloader from the main menu
 | Underdark Overbright & Copper | `udob` | `retrodeck/roms/quake/ironwail/udob` |
 | Vestige of V’othlog | `vestige` | `retrodeck/roms/quake/ironwail/vestige` |
 
+### Loading mods from the Mods Menu
+
+<img src="../dhewm3-mods-menu.png" width="600" alt="">
+
+Some mods must be loaded manually from the Ironwail Mods menu:
+
+1. Select `Mods`.
+2. Select the desired mod to download and install it.
+
+### Make Mods show up in ES-DE as Standalone Game Entries
+
+**Note:** You will need to have downloaded the mod before either from the internet or mods menu.
+
+1. Navigate to `retrodeck/roms/quake`.
+2. Create an empty file named `<ModID>.quake`.
+3. Open RetroDECK and in ES-DE highlight **`<ModID>`**, Example: **dopa** .
+4. Open the **Main Menu** and select **Edit This Games Metadata**.
+5. Change the **Name** field to `Dimension of the Past`.
+6. Save the changes and launch the expansion from RetroDECK.
+
+**Example:**
+
+`bbelief.quake` will launch `Beyond Belief`.
 
 ---
 

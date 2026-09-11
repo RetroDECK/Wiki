@@ -69,13 +69,8 @@ However, you do need copies of the official **DOOM 3** and **Doom 3: Resurrectio
 |:------:|:-------------------------------------------------|:----------------------------|
 | ROMs   | `retrodeck/roms/doom3/`                            |                             |
 | base   | `retrodeck/roms/doom3/base`                            |                             |
-<<<<<<< HEAD
-| d3xp   | `retrodeck/roms/doom3/d3xp`                             |                             |
-| Saves  | `retrodeck/roms/doom3/<gamedir>/SavedGames`                      |           Each game is self contained                  |
-=======
 | d3xp   | `retrodeck/roms/doom3/d3xp`                            |                             |
 | Saves  | `retrodeck/roms/doom3/<game_dir>/SavedGames`                      |           Each game is self contained                  |
->>>>>>> 0adac59d7fe046cc5cda82aec4a33397d59f012e
 
 ---
 
@@ -141,16 +136,15 @@ Find the location by:
 
 ---
 
-## Note: System Settings and Save Files Are Per Game / Mod
+## System Settings Are Per Game / Mod
 
-All Settings and Save Files in DOOM 3 are saved per game / mod. 
+dhewm3 stores settings separately for the base game and each installed mod.
 
-Any changes you make to settings such as display size or controls in DOOM 3 must also be configured separately for its expansion pack, **Resurrection of Evil**.
+A central configuration is loaded at startup trying to provide compatible controls, but mods may add their own settings or overrides.
 
-The same applies to mods, each mod has its own separate settings, so any tweaks must be configured individually for each mod.
+As a result, settings such as **display resolution, graphics, keyboard controls and mouse controls** may need to be configured separately for each mod.
 
 ---
-
 
 ## How-to: Play DOOM 3 in RetroDECK?
 
@@ -167,7 +161,7 @@ Make sure all the game files are at their proper location **Read Above**.
 1. Navigate to `retrodeck/roms/doom3/`.
 2. Copy the `d3xp` folder containing the required game files.
 3. Create an empty file named `d3xp.doom3`.
-4. In ES-DE, highlight **d3xp**.
+4. Open RetroDECK and in ES-DE highlight **d3xp**.
 5. Open the **Main Menu** and select **Edit This Games Metadata**.
 6. Change the **Name** field to `DOOM 3: Resurrection of Evil`.
 7. Save the changes and launch the expansion from RetroDECK.
@@ -182,18 +176,18 @@ dhewm 3 supports many types of mods
 **The following installation steps apply to all mods:**
 
 1. Download the mod from its respective source.
-2. Extract the mod archive to `retrodeck/roms/doom3/<Mod_ID>/`.
-3. Ensure the mod files are located directly in `retrodeck/roms/doom3/<Mod_ID>/` and are not nested inside additional subdirectories.
+2. Extract the mod archive to `retrodeck/roms/doom3/<ModID>/`.
+3. Ensure the mod files are located directly in `retrodeck/roms/doom3/<ModID>/` and are not nested inside additional subdirectories.
 
 ---
 
-### dhewm 3: Built-in MOD Compatibility
+### Built-in MOD Compatibility
 
-dhewm 3 has native support for the following mods:
+dhewm 3 have built-in support fort he following mods and they can be downloaded from the built-in mod downloader from the main menu.
 
 [dhewm 3 - MOD List](https://dhewm3.org/mods.html)
 
-| Mod Name | Mod ID |
+| Mod Name | ModID |
 |----------|--------|
 | Blood Mod| `bloodmod`  `bloodmod_roe`|
 | CLASSIC DOOM III | `cdoom` |
@@ -244,13 +238,12 @@ Then load the mod from the **Mods** menu in DOOM 3.
 
 **Example:** **CLASSIC DOOM III**
 
-1. Create an empty file named `<Mod_ID>.doom3`.
-2. For **CLASSIC DOOM III**, `cdoom.doom3`.
-3. The final path should be `retrodeck/roms/doom3/cdoom.doom3`.
-4. In ES-DE, highlight **cdoom**.
-5. Open the **Main Menu** and select **Edit This Games Metadata**.
-6. Set the **Name** field to `CLASSIC DOOM III`.
-7. Save the changes and launch **CLASSIC DOOM III** from RetroDECK.
+1. Navigate to `retrodeck/roms/doom3`.
+2. Create an empty file named `<ModID>.doom3`, **Example: CLASSIC DOOM III `cdoom.doom3`**.
+8. Open RetroDECK and in ES-DE highlight **`<ModID>`**, **Example:** cdoom.
+4. Open the **Main Menu** and select **Edit This Games Metadata**.
+5. Set the **Name** field to `CLASSIC DOOM III`.
+6. Save the changes and launch **CLASSIC DOOM III** from RetroDECK.
 
 **Note:** 
 

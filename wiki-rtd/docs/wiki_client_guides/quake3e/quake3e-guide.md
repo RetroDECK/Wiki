@@ -113,11 +113,13 @@ Your installation should contain a `baseq3/` directory similar to:
 
 ---
 
-## Note: System Settings Are Per Game / Mod
+## System Settings Are Per Game / Mod
 
-All settings in Quake3e are stored separately for the base game and for each mod.
+Ironwail stores settings separately for the base game and each installed mod.
 
-Any changes you make to settings such as display resolution, graphics options, keyboard controls, or mouse controls for Quake III Arena may need to be configured separately for each mod you install.
+A central configuration is loaded at startup trying to provide compatible controls, but mods may add their own settings or overrides.
+
+As a result, settings such as **display resolution, graphics, keyboard controls and mouse controls** may need to be configured separately for each mod.
 
 ---
 
@@ -133,7 +135,6 @@ Make sure all the game files are at their proper location **Read Above**.
 3. Launch **Quake 3** from RetroDECK.
 
 ---
-
 
 ## How-to: Play Quake 3 Mods in RetroDECK
 

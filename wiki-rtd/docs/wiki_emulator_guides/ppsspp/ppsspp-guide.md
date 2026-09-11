@@ -59,35 +59,37 @@ No
 
 | Type          | Directory                                                         | Comment                                |
 |:-------------:|:------------------------------------------------------------------|:---------------------------------------|
-| Cheats        | `retrodeck/cheats/PPSSPP/`                                        | ppsspp/PSP/Cheats                      |
-| Config        | `~/.var/app/net.retrodeck.retrodeck/config/PPSSPP-SA/PSP/`        |                                         |
-| Logs          | `retrodeck/logs/PPSSPP/`                                          | ppsspp/PSP/SYSTEM/DUMP                  |
-| Mods          | `retrodeck/mods/PPSSPP/PLUGINS/`                                   | ppsspp/PSP/PLUGINS                      |
+| Cheats        | `retrodeck/cheats/PPSSPP/`                                        | PSP/Cheats                      |
+| Config        | `.var/app/net.retrodeck.retrodeck/config/PPSSPP-SA/PSP/`        |                                         |
+| DLC / Game    | `retrodeck/storage/PPSSPP/GAME/`                                   | PSP/GAME                      |
+| Logs          | `retrodeck/logs/PPSSPP/`                                          | PSP/SYSTEM/DUMP                  |
+| Mods          | `retrodeck/mods/PPSSPP/PLUGINS/`                                   | PSP/PLUGINS                      |
 | ROMs          | `retrodeck/roms/psp/`                                             |                                         |
 | Saves         | `retrodeck/saves/PSP/PPSSPP-SA/`                                   |                                         |
-| Shaders       | `retrodeck/shaders/PPSSPP/`                                        | ppsspp/assets/shaders                   |
+| Shaders       | `retrodeck/shaders/PPSSPP/`                                        | PSP/shaders                   |
 | States        | `retrodeck/states/PSP/PPSSPP-SA/`                                  |                                         |
-| Texture Packs | `retrodeck/texture_packs/PPSSPP/TEXTURES/`                          | ppsspp/PSP/TEXTURES                     |
+| Texture Packs | `retrodeck/texture_packs/PPSSPP/TEXTURES/`                          | PSP/TEXTURES                     |
+
+---
+
+## Finding GameIDs
+
+`GameID` is different for every game. It's a unique code for each released game per region.
+
+**GameID:** `ULUS-10080` corresponds to the NTSC-U release of `007-From Russia with Love`.
+
+You can search various databases or wikis online to find the correct GameID for the version of the game you have for example: 
+
+- [psxdatacenter.com](https://psxdatacenter.com/). 
+- Wikipedia
 
 ---
 
 ## Adding Texture Packs
 
-The `~/retrodeck/texture_packs/ppsspp-sa/` folder represents the `/PSP/TEXTURES/` folder in PPSSPP.
+The `retrodeck/texture_packs/ppsspp-sa/` folder represents the `/PSP/TEXTURES/` folder in PPSSPP.
 
-**Note:**  
-Some texture packs may be made for a specific version or region of the game. Make sure you have the correct ROM and textures for it.
-
-`SERIAL` is different for every game. It's a unique code for each released game per region.
-
-**Example:**
-
-**SERIAL:** `ULUS-10080` corresponds to the NTSC-U release of `007-From Russia with Love`.
-
-You can search various databases or wikis online to find the correct serial for the version of the game you have for example: 
-
-- [psxdatacenter.com](https://psxdatacenter.com/). 
-- Wikipedia
+**Note:** Some texture packs may be made for a specific version or region of the game. 
 
 ### Enable Custom Textures
 
@@ -97,13 +99,26 @@ You can search various databases or wikis online to find the correct serial for 
 ### How to Add Texture Packs
 
 1. Extract the texture pack files from compressed `.zip` or other formats into folders.
-2. Navigate to `retrodeck/texture_packs/PPSSPP-SA/`. The folders are named by `SERIAL`.
-3. Paste the textures into the correct folder:  `retrodeck/texture_packs/PPSSPP-SA/<SERIAL>`
+2. Navigate to `retrodeck/texture_packs/PPSSPP/TEXTURES/`. The folders are named by `GameID`.
+3. Paste the textures into the correct folder:  `retrodeck/texture_packs/PPSSPP/TEXTURES/<GameID>`
 4. If the textures match the game, they should load the next time you launch it.
-
 
 ---
 
+## Adding DLCs
+
+The `retrodeck/storage/PPSSPP/GAME` folder represents the `PSP/GAME/` folder in PPSSPP.
+
+**Note:** Some DLC may be made for a specific version or region of the game. 
+
+### How-to: Add DLC
+
+1. Extract the dlc from compressed `.zip` or other formats into folders.
+2. Navigate to `retrodeck/storage/PPSSPP/GAME/`. The folders are named by `GameID`.
+3. Paste the DLC into the correct folder:  `retrodeck/storage/PPSSPP/GAME/<GameID>`
+4. If the DLC match the game, they should load the next time you launch it.
+
+---
 
 ## Troubleshooting
 

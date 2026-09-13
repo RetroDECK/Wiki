@@ -72,9 +72,20 @@ No
 
 ---
 
-## Controls: Keyboard ⌨️ & Mouse 🖱️ 
+## Controls
 
-Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
+### Game Controls
+
+| **Keyboard** | **GameTank Controller** | **Comment** |
+|:--|:--|:--|
+| <kbd>↑</kbd> | <kbd>D-pad Up</kbd> |  |
+| <kbd>↓</kbd> | <kbd>D-pad Down</kbd> |  |
+| <kbd>←</kbd> | <kbd>D-pad Left</kbd> | |
+| <kbd>→</kbd> | <kbd>D-pad Right</kbd> | |
+| <kbd>Z</kbd> | <kbd>A</kbd> |  |
+| <kbd>X</kbd> | <kbd>B</kbd> |  |
+| <kbd>C</kbd> | <kbd>C</kbd> |  |
+| <kbd>Enter</kbd> | <kbd>Start</kbd> | |
 
 ### Built-in Hotkeys
 

@@ -45,16 +45,24 @@ No
 
 However, you do need copies of the official **Quake** game data files  (PAK files).
 
-### Base Game
-
 Ironwail supports both the **2021 rerelease** and the **original release** of Quake.
-The **OG release is recommended**.
+
+**The original release is recommended.**
+
+Rename the original release's PAK files from uppercase to lowercase:
+
+```
+PAK0.PAK → pak0.pak
+PAK1.PAK → pak1.pak
+```
+
+### Base Game
 
 | Name | File | GameID | Path | MD5 | Comment |
 |---|---|---|---|---|---|
 | Quake Base Game | `pak0.pak` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `f6aa4f85e686e364b24e16928c51e05b` | 2021 Rerelease |
-| Quake Base Game | `PAK0.PAK` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `5906e5998fc3d896ddaf5e6a62e03abb` | Original Release |
-| Quake Mission Data | `PAK1.PAK` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `d76b3e5678f0b64ac74ce5e340e6a685` | Original Release |
+| Quake Base Game | `PAK0.PAK` renamed to `pak0.pak` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `5906e5998fc3d896ddaf5e6a62e03abb` | Original Release **Recommended** |
+| Quake Mission Data | `PAK1.PAK` renamed to `pak1.pak` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `d76b3e5678f0b64ac74ce5e340e6a685` | Original Release **Recommended** |
 
 ### Official Episodes & Expansions
 
@@ -66,10 +74,6 @@ The **OG release is recommended**.
 | Dimension of the Past | `pak0.pak` | `dopa` | `retrodeck/roms/quake/ironwail/dopa` | `054ab18a42d2bba6fa43a485ac294f80` | 2016 Episode |
 | Dissolution of Eternity | `pak0.pak` | `rogue` | `retrodeck/roms/quake/ironwail/rogue` | `8bb743678bd2101614dffebcfd9884a5` | 1997 Expansion |
 | Scourge of Armagon | `pak0.pak` | `hipnotic` | `retrodeck/roms/quake/ironwail/hipnotic` | `58514c45aa39ae60b40a8fa868145e6f` | 1997 Expansion |
-
-
-
-
 
 --- 
 
@@ -128,24 +132,19 @@ As a result, settings such as **display resolution, graphics, keyboard controls 
 
 Make sure all the game files are at their proper location **Read Above**.
 
-### Quake
-
-1. Navigate to `retrodeck/roms/quake`.
-2. Create an empty file named `Quake.quake`.
-3. Launch **Quake** from RetroDECK.
-
-### Quake Expansions
+### Quake & Expansions
 
 **Example:**
 
+`id1.quake` will launch `Quake`.
 `dopa.quake` will launch `Dimension of the Past`.
 
 1. Navigate to `retrodeck/roms/quake`.
 2. Create an empty file named `<GameID>.quake`.
 3. Launch **Quake** from RetroDECK.
-4. Open RetroDECK and in ES-DE highlight **`<GameID>`**, Example: **dopa** .
+4. Open RetroDECK and in ES-DE highlight **`<GameID>`**, Example: **id1** .
 5. Open the **Main Menu** and select **Edit This Games Metadata**.
-6. Change the **Name** field to `Dimension of the Past`.
+6. Change the **Name** field to `Quake`.
 7. Save the changes and launch the expansion from RetroDECK.
 
 ---

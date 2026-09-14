@@ -216,9 +216,8 @@ Ironwail have built-in support fort he following mods and they can be downloaded
 
 [Quake Brutalist Jam III](https://qbj3.slipseer.com/)
 
-1. Download the mod from either the Mods Menu or its respective source. QBJ3 Mod
-2. Extract the mod archive to `retrodeck/roms/quake/ironwail/<ModID>/`.
-3. The result should be: `retrodeck/roms/quake/ironwail/qbj3`
+1. Download the mod and extract the mod archive to `retrodeck/roms/quake/ironwail`.
+2. The result should be: `retrodeck/roms/quake/ironwail/qbj3`
 
 ---
 

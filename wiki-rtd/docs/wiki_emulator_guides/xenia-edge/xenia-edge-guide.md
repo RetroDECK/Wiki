@@ -98,28 +98,24 @@ Place single-disc ISO images directly in the `retrodeck/roms/xbox360/` directory
 
 XBLA games are typically stored as folders containing extensionless files with cryptic filenames.
 
-#### Step 1: Find the Game File
+Open the XBLA game folder and navigate to the deepest level. The extensionless file at the deepest level is the actual game file.
 
-- Open the XBLA game folder and navigate to the deepest level. The extensionless file at the deepest level is the actual game file.
+Move and rename the extensionless game file to: `retrodeck/roms/xbox360/`
 
-**Example:**
+**Example: Castle Crashers**
 
 ```
 Castle Crashers/
 └── 584108B7/
     └── 000D0000/
-        └── F9432A7FE407A3C196C95D0FFD4A540937FD4EEC58
+        └── F9432A7FE407A3C196C95D0FFD4A540937FD4EEC58 <--- Castle Crashers (XBLA)
 ```
-
-- Move the extensionless game file to: `retrodeck/roms/xbox360/`
-
-**Example:** 
 
 `584108B7/000D0000/F9432A7FE407A3C196C95D0FFD4A540937FD4EEC58` is moved and renamed to `Castle Crashers (XBLA)`
 
 The final result should be: `retrodeck/roms/xbox360/Castle Crashers (XBLA)`
 
-- After confirming the file was moved successfully, you can delete the original XBLA folders.
+After confirming the file was moved successfully, you can delete the original XBLA folders.
 
 ---
 
@@ -165,13 +161,13 @@ Sets the game language to Spanish.
 
 **NOTE:** Plugins can be game version and region-specific. Each game uses a unique `TITLEID` identifier.
 
-- Extract the plugin archive (`.zip`, `.7z` etc.) to obtain the `.xex` file(s).
+- Extract the plugin archive to obtain the `.xex` files.
 - Open the plugins directory: `retrodeck/mods/Xenia/plugins/`
 - Identify the game's `TITLEID` using one of these methods:
 
 **Xenia Edge:** 
 
-Right-click the game → **Config Overrides** — the `TITLEID` appears in the game name.
+Right-click the game → **Config Overrides** the `TITLEID` appears in the game name.
 
 **File system:** 
 

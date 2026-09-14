@@ -285,7 +285,7 @@ Some mods must be loaded manually from the Ironwail Mods menu:
 
 ## 🎮 Gamepad
 
-| Control | Xbox - Steam Deck / Playstation / Nintendo | Action | Command |
+| Input | Xbox - Steam Deck / Playstation / Nintendo | Action | Command |
 |---|---|---|---|
 | East button | B / ○ / A | Jump | `_moveUp` |
 | West button | X / □ / Y | Crouch | `_moveDown` |

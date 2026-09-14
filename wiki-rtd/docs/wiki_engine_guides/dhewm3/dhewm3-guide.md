@@ -352,7 +352,7 @@ This launches the mod with the `+set fs_game_base d3xp` option enabled, which ma
 
 ### 🎮 Gamepad
 
-| Control | Xbox - Steam Deck / Playstation / Nintendo | Action | Command |
+| Input | Xbox - Steam Deck / Playstation / Nintendo | Action | Command |
 |---|---|---|---|
 | `JOY_BTN_EAST` | B / ○ / A | Jump | `_moveUp` |
 | `JOY_BTN_WEST` | X / □ / Y | Crouch | `_moveDown` |

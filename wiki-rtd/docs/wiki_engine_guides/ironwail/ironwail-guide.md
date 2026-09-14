@@ -134,12 +134,7 @@ As a result, settings such as **display resolution, graphics, keyboard controls 
 
 Make sure all the game files are at their proper location **Read Above**.
 
-### Quake & Expansions
-
-**Example:**
-
-`id1.quake` will launch `Quake`.
-`dopa.quake` will launch `Dimension of the Past`.
+### Quake & Episodes / Expansions 
 
 1. Navigate to `retrodeck/roms/quake`.
 2. Create an empty file named `<GameID>.quake`.
@@ -148,6 +143,11 @@ Make sure all the game files are at their proper location **Read Above**.
 5. Open the **Main Menu** and select **Edit This Games Metadata**.
 6. Change the **Name** field to `Quake`.
 7. Save the changes and launch the expansion from RetroDECK.
+
+**Example:**
+
+- `id1.quake` will launch `Quake`.
+- `dopa.quake` will launch `Dimension of the Past`.
 
 ---
 
@@ -234,8 +234,8 @@ Ironwail have built-in support fort he following mods and they can be downloaded
 
 **Example:**
 
-`bbelief.quake` will launch `Beyond Belief`.
-`qbj3.quake` will launch `Quake Brutalist Jam III`.
+- `bbelief.quake` will launch `Beyond Belief`.
+- `qbj3.quake` will launch `Quake Brutalist Jam III`.
 
 ---
 

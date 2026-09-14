@@ -168,7 +168,7 @@ Ironwail supports many types of mods
 
 Some mods can be loaded from the Ironwail Mods Menu:
 
-1. In the `Main Menu` Select `Mods`.
+1. In the `Main Menu` select `Mods`.
 2. Select the desired mod to download and install it.
 3. After installation is complete, select the mod to play it.
 
@@ -210,20 +210,20 @@ Ironwail have built-in support fort he following mods and they can be downloaded
 
 ---
 
-### Downloading Mods from the Internet
+### Loading mods that are Downloaded from the Internet
 
 **Example: Quake Brutalist Jam III**
 
 [Quake Brutalist Jam III](https://qbj3.slipseer.com/)
 
-1. Download the mod and extract the mod archive to `retrodeck/roms/quake/ironwail`.
-2. The result should be: `retrodeck/roms/quake/ironwail/qbj3`
+1. Download the mod and extract the mod archive to `retrodeck/roms/quake/ironwail`. In this example the result should be: `retrodeck/roms/quake/ironwail/qbj3`.
+2. In the `Main Menu` select `Mods` and go to the `Installed` section and select `<ModID>`. In this example `Installed` and select `qbj3`.
 
 ---
 
 ### Make Mods show up in ES-DE as Standalone Game Entries
 
-**Note:** You will need to have downloaded the mod before either from the internet or Mods Menu.
+**Note:** You will need to have downloaded the mod before either from the Internet or Mods Menu.
 
 1. Navigate to `retrodeck/roms/quake`.
 2. Create an empty file named `<ModID>.quake`.

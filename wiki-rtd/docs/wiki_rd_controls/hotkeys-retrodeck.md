@@ -236,9 +236,64 @@ Read more here: [RetroDECK: Radial Menu - Simple](radial-simple.md)
 
 ---
 
-## Built-In Hotkeys - Steam Deck
+## Built-In Hotkeys - SteamOS
 
-z
+### Game Mode
+
+These hotkeys are made by Valve and can be used in Game Mode across all games.
+
+| Function | Button / Combination | Comment |
+| :--- | :---: | :---: |
+| Enter | `STEAM + D-pad Right` | |
+| Escape | `STEAM + D-pad Left` | |
+| Force Quit Application | `STEAM + B (long press)` | |
+| Game Recording - Add timeline marker | `STEAM + Y` | |
+| Game Recording - Make a clip | `STEAM + D-pad Up` | |
+| Game Recording - Start/Stop | `STEAM + A` | |
+| Joystick Mouse | `STEAM + Right Stick` | |
+| Joystick Mouse - Left Click | `STEAM + R3` | |
+| Keyboard - Show / Hide | `STEAM + X` | |
+| Left Mouse Click | `STEAM + R2` | |
+| Magnifier Toggle | `STEAM + L1` | |
+| Right Mouse Click | `STEAM + L2` | |
+| Screen Brightness - Decrease | `STEAM + Left Stick Down` | |
+| Screen Brightness - Increase | `STEAM + Left Stick Up` | |
+| Tab | `STEAM + D-pad Down` | |
+| Take Screenshot | `STEAM + R1` | |
+| Touchpad Mouse | `STEAM + Right Touchpad` | |
+| Touchpad Mouse - Left Click | `STEAM + Right Touchpad Click` | |
+
+---
+
+### Desktop Mode
+
+These hotkeys are made by Valve and can be used in Desktop Mode.
+
+| Function | Button / Combination | Comment |
+| :--- | :---: | :---: |
+| Arrow Key - Down | `D-Pad Down` / `Left Stick Down` | |
+| Arrow Key - Left | `D-Pad Left` / `Left Stick Left` | |
+| Arrow Key - Right | `D-Pad Right` / `Left Stick Right` | |
+| Arrow Key - Up | `D-Pad Up` / `Left Stick Up` | |
+| Enter | `A` | |
+| Escape | `B` / `Start` | |
+| Game Recording - Add timeline marker | `CTRL + F12` | Can be rebound, needs to be enabled |
+| Game Recording - Start/Stop | `CTRL + F11` | Can be rebound, needs to be enabled |
+| Game Recording - Take screenshot | `F12` | Can be rebound, needs to be enabled |
+| Joystick Mouse | `Right Stick` | |
+| Keyboard - Show / Hide | `X` | |
+| Left Alt | `R1` | |
+| Left Ctrl | `L1` | |
+| Left Mouse Click | `R3` / `Right Touchpad Click` / `R2` | |
+| Left Shift | `L4` | |
+| Middle Mouse Click | `Left Touchpad Click` | |
+| Page Down | `R5` | |
+| Page Up | `R4` | |
+| Space | `Y` | |
+| Super Key | `L5` | |
+| Tab | `Select` | |
+| Touchpad as Mouse | `Right Touchpad` | |
+| Horizontal and Vertical Scrolling | `Left Touchpad` | |
 
 
 ---

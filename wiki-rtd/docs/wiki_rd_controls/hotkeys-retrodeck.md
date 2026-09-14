@@ -172,7 +172,7 @@ The touchpads on DualShock 4 and DualSense controllers act as a mouse, allowing 
 
 ---
 
-## Additional Hotkeys - Steam Controller (Gordon)
+## Additional Hotkeys - Steam Controller 2015 (Gordon)
 
 By pressing `R4`, you can toggle the right touchpad between two modes: **Right Joystick Mode** and **Mouse Mode**. This is useful for games that primarily use the mouse as input, as you don't need to hold `SELECT` or `L4` for mouse functionality.
 
@@ -237,6 +237,8 @@ Read more here: [RetroDECK: Radial Menu - Simple](radial-simple.md)
 ---
 
 ## Built-In Hotkeys - SteamOS
+
+SteamOS have some hotkeys that can be used with the Steam Deck or Steam Controller 2026 (Triton)
 
 ### Game Mode
 

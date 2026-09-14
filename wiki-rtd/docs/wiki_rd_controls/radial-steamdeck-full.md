@@ -8,9 +8,9 @@ Yes, simply press one of the following buttons on the `HKB` trigger buttons: `L4
 
 ## Radial Menus
 
-Below is a breakdown of the **Full Radial Menu System** that you can access on the **Steam Deck**. To use the radial menu:
+Below is a breakdown of the **Full Radial Menu System** that you can access on the **Steam Deck** and **Steam Controller 2026 (Triton)**. To use the radial menu:
 
-- **Steam Deck**: Use the `Left Touchpad` to bring up the radial menu. Then, press the touchpad to activate the selected radial button.
+Use the `Left Touchpad` to bring up the radial menu. Then, press the touchpad to activate the selected radial button.
 
 ### Column Definitions
 
@@ -114,9 +114,9 @@ The `Speed / Frames Menu` is where you find anything related to: emulation speed
 
 ---
 
-## <img src="../../wiki_icons/binding_icons/RD-steam.png" width="30" alt=""> Steam Deck / PC Menu
+## <img src="../../wiki_icons/binding_icons/RD-steam.png" width="30" alt=""> Steam Deck - Steam Controller / PC Menu
 
-Steam Deck specific hotkeys and PC hotkeys.
+Steam Deck / Controller specific hotkeys and PC hotkeys.
 
 | Radial Button               | Keyboard Command   | System Support                                                                                             | Icon                                                                 | Comment                                             |
 | :-------------------------- | :---------------- | :-------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------ | :-------------------------------------------------- |
@@ -134,7 +134,7 @@ Steam Deck specific hotkeys and PC hotkeys.
 | Slash (`/`)                  | `/`                | <ul><li>PC-Systems</li></ul>                                                                               | <img src="../../wiki_icons/binding_icons/RD-frontslash.png" width="30" alt=""> |                                                     |
 | Space                        | `Space`            | <ul><li>PC-Systems</li></ul>                                                                               | <img src="../../wiki_icons/binding_icons/RD-space.png" width="30" alt="">  |                                                     |
 | Tab                          | `Tab`              | <ul><li>PC-Systems</li></ul>                                                                               | <img src="../../wiki_icons/binding_icons/RD-Tab.png" width="30" alt="">    |                                                     |
-| Show Steam Deck Keyboard     | `none`             | <ul><li>Steam Deck</li></ul>                                                                                |                                                                    |                                                     |
+| Show Steam Keyboard     | `none`             | <ul><li>Steam Deck</li></ul>                                                                                |                                                                    |                                                     |
 | Take Steam Screenshot        | `none`             | <ul><li>Steam Dec
 
 ---
@@ -177,9 +177,9 @@ Hotkeys for `Dolphin-SA` and `Primehack`.
 
 ---
 
-### <img src="../../wiki_icons/binding_icons/RD-gzdoom.png" width="30" alt=""> GZDoom Menu
+### <img src="../../wiki_icons/binding_icons/RD-gzdoom.png" width="30" alt=""> UZDoom Menu
 
-Cheat hotkeys for GZDoom.
+Cheat hotkeys for UZDoom.
 
 | Radial Button          | Keyboard Command | System Support       | Icon                                                                 | Comment |
 | :--------------------- | :--------------- | :----------------- | :------------------------------------------------------------------- | :------ |

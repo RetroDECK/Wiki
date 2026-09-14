@@ -16,6 +16,8 @@ Ironwail is a modern Quake source port engine based on QuakeSpasm. Focused on hi
 | Resource | Link |
 |----------|------|
 | Ironwail GitHub | [Link](https://github.com/andrei-drexler/ironwail) |
+| Slipseer.com | [Link](https://www.slipseer.com/index.php) |
+
 
 
 ---
@@ -155,13 +157,32 @@ Ironwail supports many types of mods
 
 **The following installation steps apply to all mods:**
 
-1. Download the mod from its respective source.
+1. Download the mod from either the Mods Menu or its respective source.
+2. Ensure the mod files are located directly in `retrodeck/roms/quake/ironwail/<ModID>/` and are not nested inside additional subdirectories.
+
+### Downloading Mods from the Internet
+
+**Example: Quake Brutalist Jam III**
+
+[Quake Brutalist Jam III](https://qbj3.slipseer.com/)
+
+1. Download the mod from either the Mods Menu or its respective source. QBJ3 Mod
 2. Extract the mod archive to `retrodeck/roms/quake/ironwail/<ModID>/`.
-3. Ensure the mod files are located directly in `retrodeck/roms/quake/ironwail/<ModID>/` and are not nested inside additional subdirectories.
+3. The result should be: `retrodeck/roms/quake/ironwail/qbj3`
 
-### Built-in MOD Compatibility
+### Loading mods from the Mods Menu
 
-Ironwail have built-in support fort he following mods and they can be downloaded from the built-in mod downloader from the main menu.
+<img src="../dhewm3-mods-menu.png" width="600" alt="">
+
+Some mods can be loaded from the Ironwail Mods Menu:
+
+1. In the `Main Menu` Select `Mods`.
+2. Select the desired mod to download and install it.
+3. After installation is complete, select the mod to play it.
+
+#### Built-in MOD Compatibility
+
+Ironwail have built-in support fort he following mods and they can be downloaded from the built-in Mods Menu.
 
 | Mod Name | ModID | Path |
 |---|---|---|
@@ -195,18 +216,9 @@ Ironwail have built-in support fort he following mods and they can be downloaded
 | Underdark Overbright & Copper | `udob` | `retrodeck/roms/quake/ironwail/udob` |
 | Vestige of V’othlog | `vestige` | `retrodeck/roms/quake/ironwail/vestige` |
 
-### Loading mods from the Mods Menu
-
-<img src="../dhewm3-mods-menu.png" width="600" alt="">
-
-Some mods must be loaded manually from the Ironwail Mods menu:
-
-1. Select `Mods`.
-2. Select the desired mod to download and install it.
-
 ### Make Mods show up in ES-DE as Standalone Game Entries
 
-**Note:** You will need to have downloaded the mod before either from the internet or mods menu.
+**Note:** You will need to have downloaded the mod before either from the internet or Mods Menu.
 
 1. Navigate to `retrodeck/roms/quake`.
 2. Create an empty file named `<ModID>.quake`.
@@ -218,6 +230,7 @@ Some mods must be loaded manually from the Ironwail Mods menu:
 **Example:**
 
 `bbelief.quake` will launch `Beyond Belief`.
+`qbj3.quake` will launch `Quake Brutalist Jam III`.
 
 ---
 

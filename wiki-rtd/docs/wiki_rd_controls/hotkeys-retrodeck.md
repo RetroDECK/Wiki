@@ -95,19 +95,20 @@ Global hotkeys are activated by **pressing and holding the HotKey Button (HKB)**
 
 | Function | Icon | Controller | Keyboard | System Support | Comment |
 |---|:---:|---|---|---|---|
-| Decrease Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-out.png" width="30" alt="Decrease emulation speed"> | `HKB + D-pad ↓` | `CTRL + 2` | Azahar · Dolphin · PrimeHack · DuckStation · PCSX2 | |
-| Fast Forward | <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30" alt="Fast forward"> | `HKB + R2` | `CTRL + +` | DuckStation · melonDS · PCSX2 · RetroArch | |
-| Increase Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-in.png" width="30" alt="Increase emulation speed"> | `HKB + D-pad ↑` | `CTRL + 1` | Azahar · Dolphin · PrimeHack · DuckStation · PCSX2 | |
-| Load State | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30" alt="Load state"> | `HKB + L1` | `CTRL + A` | Azahar · Dolphin · PrimeHack · DuckStation · PCSX2 · RetroArch | |
-| Next State | <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30" alt="Next state"> | `HKB + D-pad →` | `CTRL + K` | Dolphin · PrimeHack · DuckStation · PCSX2 · RetroArch | |
-| Open Menu | <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30" alt="Open menu"> | `Y / X / △` | `CTRL + M` | DuckStation · PCSX2 · RPCS3 · RetroArch | |
-| Pause / Resume | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30" alt="Pause or resume"> | `A / B / ×` | `CTRL + P` | Azahar · Dolphin · PrimeHack · DuckStation · melonDS · PCSX2 · RetroArch | |
-| Previous State | <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30" alt="Previous state"> | `HKB + D-pad ←` | `CTRL + J` | Dolphin · PrimeHack · DuckStation · PCSX2 · RetroArch | |
-| Quit Component | <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30" alt="Quit component"> | `HKB + Start` | `CTRL + Q` | Azahar · Dolphin · PrimeHack · DuckStation · PCSX2 · RetroArch | |
-| Rewind | <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30" alt="Rewind"> | `HKB + L2` | `CTRL + -` | DuckStation · RetroArch | |
-| Save State | <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30" alt="Save state"> | `HKB + R1` | `CTRL + S` | Azahar · Dolphin · PrimeHack · DuckStation · PCSX2 · RetroArch | |
-| Take Screenshot | <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30" alt="Take screenshot"> | `B / A / ○` | `CTRL + X` | Azahar · Dolphin · PrimeHack · DuckStation · PCSX2 · RetroArch | |
-| Toggle Fullscreen | <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30" alt="Toggle fullscreen"> | `X / Y / □` | `CTRL + ENTER` | Azahar · Dolphin · PrimeHack · DuckStation · melonDS · PCSX2 · RPCS3 | |
+| Decrease Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-out.png" width="30" alt="Decrease emulation speed"> | `HKB` + `D-pad ↓` | <kbd>CTRL</kbd> + <kbd>2</kbd> | <ul><li>Azahar</li><li>Dolphin</li><li>PrimeHack</li><li>DuckStation</li><li>PCSX2</li></ul> | |
+| Fast Forward | <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30" alt="Fast forward"> | `HKB` + `R2` | <kbd>CTRL</kbd> + <kbd>+</kbd> | <ul><li>DuckStation</li><li>melonDS</li><li>PCSX2</li><li>RetroArch</li></ul> | |
+| Increase Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-in.png" width="30" alt="Increase emulation speed"> | `HKB` + `D-pad ↑` | <kbd>CTRL</kbd> + <kbd>1</kbd> | <ul><li>Azahar</li><li>Dolphin</li><li>PrimeHack</li><li>DuckStation</li><li>PCSX2</li></ul> | |
+| Load State | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30" alt="Load state"> | `HKB` + `L1` | <kbd>CTRL</kbd> + <kbd>A</kbd> | <ul><li>Azahar</li><li>Dolphin</li><li>PrimeHack</li><li>DuckStation</li><li>PCSX2</li><li>RetroArch</li></ul> | |
+| Next State | <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30" alt="Next state"> | `HKB` + `D-pad →` | <kbd>CTRL</kbd> + <kbd>K</kbd> | <ul><li>Dolphin</li><li>PrimeHack</li><li>DuckStation</li><li>PCSX2</li><li>RetroArch</li></ul> | |
+| Open Menu | <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30" alt="Open menu"> | `HKB` + `Y / X / △` | <kbd>CTRL</kbd> + <kbd>M</kbd> | <ul><li>DuckStation</li><li>PCSX2</li><li>RPCS3</li><li>RetroArch</li></ul> | |
+| Pause / Resume | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30" alt="Pause or resume"> | `HKB` + `A / B / ×` | <kbd>CTRL</kbd> + <kbd>P</kbd> | <ul><li>Azahar</li><li>Dolphin</li><li>PrimeHack</li><li>DuckStation</li><li>melonDS</li><li>PCSX2</li><li>RetroArch</li></ul> | |
+| Previous State | <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30" alt="Previous state"> | `HKB` + `D-pad ←` | <kbd>CTRL</kbd> + <kbd>J</kbd> | <ul><li>Dolphin</li><li>PrimeHack</li><li>DuckStation</li><li>PCSX2</li><li>RetroArch</li></ul> | |
+| Quit Component | <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30" alt="Quit component"> | `HKB` + `Start` | <kbd>CTRL</kbd> + <kbd>Q</kbd> | <ul><li>Azahar</li><li>Dolphin</li><li>PrimeHack</li><li>DuckStation</li><li>PCSX2</li><li>RetroArch</li></ul> | |
+| Rewind | <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30" alt="Rewind"> | `HKB` + `L2` | <kbd>CTRL</kbd> + <kbd>-</kbd> | <ul><li>DuckStation</li><li>RetroArch</li></ul> | |
+| Save State | <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30" alt="Save state"> | `HKB` + `R1` | <kbd>CTRL</kbd> + <kbd>S</kbd> | <ul><li>Azahar</li><li>Dolphin</li><li>PrimeHack</li><li>DuckStation</li><li>PCSX2</li><li>RetroArch</li></ul> | |
+| Take Screenshot | <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30" alt="Take screenshot"> | `HKB` + `B / A / ○` | <kbd>CTRL</kbd> + <kbd>X</kbd> | <ul><li>Azahar</li><li>Dolphin</li><li>PrimeHack</li><li>DuckStation</li><li>PCSX2</li><li>RetroArch</li></ul> | |
+| Toggle Fullscreen | <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30" alt="Toggle fullscreen"> | `HKB` + `X / Y / □` | <kbd>CTRL</kbd> + <kbd>ENTER</kbd> | <ul><li>Azahar</li><li>Dolphin</li><li>PrimeHack</li><li>DuckStation</li><li>melonDS</li><li>PCSX2</li><li>RPCS3</li></ul> | |
+
 
 ---
 
@@ -177,6 +178,7 @@ The touchpads on DualShock 4 and DualSense controllers act as a mouse, allowing 
 By pressing `R4`, you can toggle the right touchpad between two modes: **Right Joystick Mode** and **Mouse Mode**. This is useful for games that primarily use the mouse as input, as you don't need to hold `SELECT` or `L4` for mouse functionality.
 
 **Example Use Cases:**
+
 - **ScummVM** for point-and-click games.
 - **Dolphin** for Wiimote movement.
 - Lightgun games.
@@ -238,7 +240,7 @@ Read more here: [RetroDECK: Radial Menu - Simple](radial-simple.md)
 
 ## Built-In Hotkeys - SteamOS
 
-SteamOS have some hotkeys that can be used with the Steam Deck or Steam Controller 2026 (Triton)
+SteamOS has some hotkeys that can be used with the Steam Deck or Steam Controller 2026 (Triton).
 
 ### Game Mode
 
@@ -246,24 +248,24 @@ These hotkeys are made by Valve and can be used in Game Mode across all games.
 
 | Function | Button / Combination | Comment |
 | :--- | :---: | :---: |
-| Enter | `STEAM + D-pad Right` | |
-| Escape | `STEAM + D-pad Left` | |
-| Force Quit Application | `STEAM + B (long press)` | |
-| Game Recording - Add timeline marker | `STEAM + Y` | |
-| Game Recording - Make a clip | `STEAM + D-pad Up` | |
-| Game Recording - Start/Stop | `STEAM + A` | |
-| Joystick Mouse | `STEAM + Right Stick` | |
-| Joystick Mouse - Left Click | `STEAM + R3` | |
-| Keyboard - Show / Hide | `STEAM + X` | |
-| Left Mouse Click | `STEAM + R2` | |
-| Magnifier Toggle | `STEAM + L1` | |
-| Right Mouse Click | `STEAM + L2` | |
-| Screen Brightness - Decrease | `STEAM + Left Stick Down` | |
-| Screen Brightness - Increase | `STEAM + Left Stick Up` | |
-| Tab | `STEAM + D-pad Down` | |
-| Take Screenshot | `STEAM + R1` | |
-| Touchpad Mouse | `STEAM + Right Touchpad` | |
-| Touchpad Mouse - Left Click | `STEAM + Right Touchpad Click` | |
+| Enter | `STEAM` + `D-pad Right` | |
+| Escape | `STEAM` + `D-pad Left` | |
+| Force Quit Application | `STEAM` + `B (long press)` | |
+| Game Recording - Add timeline marker | `STEAM` + `Y` | |
+| Game Recording - Make a clip | `STEAM` + `D-pad Up` | |
+| Game Recording - Start/Stop | `STEAM` + `A` | |
+| Joystick Mouse | `STEAM` + `Right Stick` | |
+| Joystick Mouse - Left Click | `STEAM` + `R3` | |
+| Keyboard - Show / Hide | `STEAM` + `X` | |
+| Left Mouse Click | `STEAM` + `R2` | |
+| Magnifier Toggle | `STEAM` + `L1` | |
+| Right Mouse Click | `STEAM` + `L2` | |
+| Screen Brightness - Decrease | `STEAM` + `Left Stick Down` | |
+| Screen Brightness - Increase | `STEAM` + `Left Stick Up` | |
+| Tab | `STEAM` + `D-pad Down` | |
+| Take Screenshot | `STEAM` + `R1` | |
+| Touchpad Mouse | `STEAM` + `Right Touchpad` | |
+| Touchpad Mouse - Left Click | `STEAM` + `Right Touchpad Click` | |
 
 ---
 
@@ -273,20 +275,20 @@ These hotkeys are made by Valve and can be used in Desktop Mode.
 
 | Function | Button / Combination | Comment |
 | :--- | :---: | :---: |
-| Arrow Key - Down | `D-Pad Down` / `Left Stick Down` | |
-| Arrow Key - Left | `D-Pad Left` / `Left Stick Left` | |
-| Arrow Key - Right | `D-Pad Right` / `Left Stick Right` | |
-| Arrow Key - Up | `D-Pad Up` / `Left Stick Up` | |
+| Arrow Key - Down | <ul><li>`D-Pad Down`</li><li>`Left Stick Down`</li></ul> | |
+| Arrow Key - Left | <ul><li>`D-Pad Left`</li><li>`Left Stick Left`</li></ul> | |
+| Arrow Key - Right | <ul><li>`D-Pad Right`</li><li>`Left Stick Right`</li></ul> | |
+| Arrow Key - Up | <ul><li>`D-Pad Up`</li><li>`Left Stick Up`</li></ul> | |
 | Enter | `A` | |
-| Escape | `B` / `Start` | |
-| Game Recording - Add timeline marker | `CTRL + F12` | Can be rebound, needs to be enabled |
-| Game Recording - Start/Stop | `CTRL + F11` | Can be rebound, needs to be enabled |
-| Game Recording - Take screenshot | `F12` | Can be rebound, needs to be enabled |
+| Escape | <ul><li>`B`</li><li>`Start`</li></ul> | |
+| Game Recording - Add timeline marker | <kbd>CTRL</kbd> + <kbd>F12</kbd> | Can be rebound, needs to be enabled |
+| Game Recording - Start/Stop | <kbd>CTRL</kbd> + <kbd>F11</kbd> | Can be rebound, needs to be enabled |
+| Game Recording - Take screenshot | <kbd>F12</kbd> | Can be rebound, needs to be enabled |
 | Joystick Mouse | `Right Stick` | |
 | Keyboard - Show / Hide | `X` | |
 | Left Alt | `R1` | |
 | Left Ctrl | `L1` | |
-| Left Mouse Click | `R3` / `Right Touchpad Click` / `R2` | |
+| Left Mouse Click | <ul><li>`R3`</li><li>`Right Touchpad Click`</li><li>`R2`</li></ul> | |
 | Left Shift | `L4` | |
 | Middle Mouse Click | `Left Touchpad Click` | |
 | Page Down | `R5` | |
@@ -296,7 +298,6 @@ These hotkeys are made by Valve and can be used in Desktop Mode.
 | Tab | `Select` | |
 | Touchpad as Mouse | `Right Touchpad` | |
 | Horizontal and Vertical Scrolling | `Left Touchpad` | |
-
 
 ---
 

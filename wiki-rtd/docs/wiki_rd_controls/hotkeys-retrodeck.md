@@ -1,4 +1,4 @@
-﻿# RetroDECK Hotkeys
+# RetroDECK Hotkeys
 
 <img src="../../wiki_icons/pixelitos/antimicrox.png" width="50" alt="">
 
@@ -45,19 +45,19 @@ Via the RetroDECK Configurator
 
 Below is a list of the currently supported Steam Input Templates with links to their controller guides.
 
-| Controller | Template Name | Version | Original System | Controller Link | HotKey Button (HKB) | Comment |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| DualShock 3 | `RetroDECK: DualShock 3` | v.1b | PlayStation 3 | [DualShock 3](../wiki_controllers/playstation/dualshock-3.md) | `Select` |  |
-| DualShock 4 | `RetroDECK: DualShock 4` | v.1b | PlayStation 4 | [DualShock 4](../wiki_controllers/playstation/dualshock-4.md) | `Select` |  |
-| DualSense | `RetroDECK: DualSense` | v.1b | PlayStation 5 | [DualSense](../wiki_controllers/playstation/dualsense.md) | `Select` |  |
-| DualSense Edge | `RetroDECK: DualSense Edge` | v.1b | PlayStation 5 | [DualSense Edge](../wiki_controllers/playstation/dualsense-edge.md) | `Select` |  |
-| Generic Standard | `RetroDECK: Generic - Standard` | v.1b | Varies | [Generic Standard](../wiki_controllers/generic/generic-standard.md) | `Select` | Majority of 3rd party controllers with a standard layout |
-| Steam Controller: Gordon | `RetroDECK: Steam Controller - Gordon` | v.1b | Steam Devices | [Steam Controller - Gordon](../wiki_controllers/steam/steam-controller-gordon.md) | `L4` `Select` |  |
-| Steam Deck: Neptune | `RetroDECK: Steam Deck - Neptune` | v.1.1b | Steam Deck LCD/OLED | [Steam Deck - Neptune](../wiki_controllers/steam/steamdeck-neptune.md) | `L4` `R4` `Select` | Has two radial menu systems |
-| Switch Pro | `RetroDECK: Switch Pro` | v.1b | Nintendo Switch | [Switch Pro](../wiki_controllers/nintendo/switch-pro.md) | `Minus` |  |
-| Xbox 360 | `RetroDECK: Xbox 360` | v.1b | Xbox 360 | [Xbox 360 Controller](../wiki_controllers/xbox/xbox-360.md) | `Select` |  |
-| Xbox Elite Wireless Series 1 / 2 | `RetroDECK: Xbox Wireless` | v.1b | Xbox S / X | [Xbox Elite Wireless Controller Series 1 / 2](../wiki_controllers/xbox/xbox-wireless-elite.md) | `Select` |  |
-| Xbox Wireless | `RetroDECK: Xbox Wireless` | v.1b | Xbox One / S / X | [Xbox Wireless Controller](../wiki_controllers/xbox/xbox-wireless.md) | `Select` |  |
+| Controller | Template | Version | System | Controller Link | HKB | Comment |
+|:---|:---|:---:|:---|:---|:---:|:---|
+| DualShock 3 | `DualShock 3` | v1b | PlayStation 3 | [DualShock 3](../wiki_controllers/playstation/dualshock-3.md) | `Select` | |
+| DualShock 4 | `DualShock 4` | v1b | PlayStation 4 | [DualShock 4](../wiki_controllers/playstation/dualshock-4.md) | `Select` | |
+| DualSense | `DualSense` | v1b | PlayStation 5 | [DualSense](../wiki_controllers/playstation/dualsense.md) | `Select` | |
+| DualSense Edge | `DualSense Edge` | v1b | PlayStation 5 | [DualSense Edge](../wiki_controllers/playstation/dualsense-edge.md) | `Select` | |
+| Generic Standard | `Generic - Standard` | v1b | Varies | [Generic Standard](../wiki_controllers/generic/generic-standard.md) | `Select` | Most 3rd-party controllers with a standard layout |
+| Steam Controller: Gordon | `Steam Controller - Gordon` | v1b | Steam Devices | [Steam Controller - Gordon](../wiki_controllers/steam/steam-controller-gordon.md) | `L4` / `Select` | |
+| Steam Deck: Neptune | `Steam Deck - Neptune` | v1.1b | Steam Deck LCD/OLED | [Steam Deck - Neptune](../wiki_controllers/steam/steamdeck-neptune.md) | `L4` / `R4` / `Select` | Two radial menu systems |
+| Switch Pro | `Switch Pro` | v1b | Nintendo Switch | [Switch Pro](../wiki_controllers/nintendo/switch-pro.md) | `Minus` | |
+| Xbox 360 | `Xbox 360` | v1b | Xbox 360 | [Xbox 360 Controller](../wiki_controllers/xbox/xbox-360.md) | `Select` | |
+| Xbox Elite Wireless Series 1 / 2 | `Xbox Wireless` | v1b | Xbox Series S/X | [Xbox Elite Wireless Series 1 / 2](../wiki_controllers/xbox/xbox-wireless-elite.md) | `Select` | |
+| Xbox Wireless | `Xbox Wireless` | v1b | Xbox One / Series S/X | [Xbox Wireless Controller](../wiki_controllers/xbox/xbox-wireless.md) | `Select` | |
 
 
 
@@ -88,31 +88,26 @@ Global hotkeys are activated by **pressing and holding the HotKey Button (HKB)**
 
 - **Function**: Description of the hotkey's action.  
 - **Icon**: Visual representation of the corresponding function in radial menus.  
-- **Controller Type Columns**: Input combination needed to trigger the command for each controller type.  
+- **Controller Type Columns**: Input combination needed to trigger the command for each controller type,  Xbox / Steam Deck · Nintendo · PlayStation.  
 - **Command**: The key combination sent to the component.  
 - **System Support**: Components that recognize the command.  
 - **Comment**: Additional notes.
 
-| Function               | Icon                                                                 | Xbox / Steam Deck       | Nintendo             | PlayStation          | Command       | System Support                                                                                       | Comment |
-|------------------------|:-------------------------------------------------------------------:|:----------------------:|:------------------:|:------------------:|:-------------:|:---------------------------------------------------------------------------------------------------|:--------|
-| Decrease Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-out.png" width="30" alt=""> | `HKB + D-Pad Down`     | `HKB + D-Pad Down` | `HKB + D-Pad Down` | `CTRL + 2`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> |         |
-| Fast Forward           | <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30" alt=""> | `HKB + R2`             | `HKB + R2`         | `HKB + R2`         | `CTRL + +`   | <ul><li>DuckStation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Increase Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-in.png" width="30" alt=""> | `HKB + D-Pad Up`       | `HKB + D-Pad Up`   | `HKB + D-Pad Up`   | `CTRL + 1`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li></ul> |         |
-| Load State             | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30" alt=""> | `HKB + L1`             | `HKB + L1`         | `HKB + L1`         | `CTRL + A`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Next State             | <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30" alt=""> | `HKB + D-Pad Right`    | `HKB + D-Pad Right` | `HKB + D-Pad Right` | `CTRL + K`   | <ul><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Open Menu              | <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30" alt=""> | `HKB + Y`              | `HKB + X`          | `HKB + Triangle`   | `CTRL + M`   | <ul><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RPCS3</li><li>RetroArch</li></ul> |         |
-| Pause / Resume         | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30" alt=""> | `HKB + A`              | `HKB + B`          | `HKB + Cross`      | `CTRL + P`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Previous State         | <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30" alt=""> | `HKB + D-Pad Left`     | `HKB + D-Pad Left` | `HKB + D-Pad Left` | `CTRL + J`   | <ul><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Quit Component         | <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30" alt=""> | `HKB + Start`          | `HKB + Start`      | `HKB + Start`      | `CTRL + Q`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Rewind                 | <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30" alt=""> | `HKB + L2`             | `HKB + L2`         | `HKB + L2`         | `CTRL + -`   | <ul><li>DuckStation (Legacy)</li><li>RetroArch</li></ul> |         |
-| Save State             | <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30" alt=""> | `HKB + R1`             | `HKB + R1`         | `HKB + R1`         | `CTRL + S`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Take Screenshot        | <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30" alt=""> | `HKB + B`              | `HKB + A`          | `HKB + Circle`     | `CTRL + X`   | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>PCSX2 (Standalone)</li><li>RetroArch</li></ul> |         |
-| Toggle Fullscreen      | <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30" alt=""> | `HKB + X`              | `HKB + Y`          | `HKB + Square`     | `CTRL + ENTER` | <ul><li>Azahar</li><li>Dolphin (Standalone)</li><li>PrimeHack (Standalone)</li><li>DuckStation (Legacy)</li><li>MelonDS (Standalone)</li><li>PCSX2 (Standalone)</li><li>RPCS3</li></ul> |         |
-
-
-
-
-
+| Function | Icon | Controller | Keyboard | System Support | Comment |
+|---|:---:|---|---|---|---|
+| Decrease Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-out.png" width="30" alt="Decrease emulation speed"> | `HKB + D-pad ↓` | `CTRL + 2` | Azahar · Dolphin · PrimeHack · DuckStation · PCSX2 | |
+| Fast Forward | <img src="../../wiki_icons/binding_icons/RD-org.xfce.session.png" width="30" alt="Fast forward"> | `HKB + R2` | `CTRL + +` | DuckStation · melonDS · PCSX2 · RetroArch | |
+| Increase Emulation Speed | <img src="../../wiki_icons/binding_icons/RD-zoom-in.png" width="30" alt="Increase emulation speed"> | `HKB + D-pad ↑` | `CTRL + 1` | Azahar · Dolphin · PrimeHack · DuckStation · PCSX2 | |
+| Load State | <img src="../../wiki_icons/binding_icons/RD-folder-blue-backup.png" width="30" alt="Load state"> | `HKB + L1` | `CTRL + A` | Azahar · Dolphin · PrimeHack · DuckStation · PCSX2 · RetroArch | |
+| Next State | <img src="../../wiki_icons/binding_icons/RD-go-next.png" width="30" alt="Next state"> | `HKB + D-pad →` | `CTRL + K` | Dolphin · PrimeHack · DuckStation · PCSX2 · RetroArch | |
+| Open Menu | <img src="../../wiki_icons/binding_icons/RD-preferences-tweaks-shadows.png" width="30" alt="Open menu"> | `Y / X / △` | `CTRL + M` | DuckStation · PCSX2 · RPCS3 · RetroArch | |
+| Pause / Resume | <img src="../../wiki_icons/binding_icons/RD-media-playback-pause.png" width="30" alt="Pause or resume"> | `A / B / ×` | `CTRL + P` | Azahar · Dolphin · PrimeHack · DuckStation · melonDS · PCSX2 · RetroArch | |
+| Previous State | <img src="../../wiki_icons/binding_icons/RD-go-previous.png" width="30" alt="Previous state"> | `HKB + D-pad ←` | `CTRL + J` | Dolphin · PrimeHack · DuckStation · PCSX2 · RetroArch | |
+| Quit Component | <img src="../../wiki_icons/binding_icons/RD-process-stop.png" width="30" alt="Quit component"> | `HKB + Start` | `CTRL + Q` | Azahar · Dolphin · PrimeHack · DuckStation · PCSX2 · RetroArch | |
+| Rewind | <img src="../../wiki_icons/binding_icons/RD-view-refresh.png" width="30" alt="Rewind"> | `HKB + L2` | `CTRL + -` | DuckStation · RetroArch | |
+| Save State | <img src="../../wiki_icons/binding_icons/RD-document-save.png" width="30" alt="Save state"> | `HKB + R1` | `CTRL + S` | Azahar · Dolphin · PrimeHack · DuckStation · PCSX2 · RetroArch | |
+| Take Screenshot | <img src="../../wiki_icons/binding_icons/RD-camera-photo.png" width="30" alt="Take screenshot"> | `B / A / ○` | `CTRL + X` | Azahar · Dolphin · PrimeHack · DuckStation · PCSX2 · RetroArch | |
+| Toggle Fullscreen | <img src="../../wiki_icons/binding_icons/RD-zoom-fit-best.png" width="30" alt="Toggle fullscreen"> | `X / Y / □` | `CTRL + ENTER` | Azahar · Dolphin · PrimeHack · DuckStation · melonDS · PCSX2 · RPCS3 | |
 
 ---
 
@@ -243,63 +238,7 @@ Read more here: [RetroDECK: Radial Menu - Simple](radial-simple.md)
 
 ## Built-In Hotkeys - Steam Deck
 
-### SteamOS: Game Mode
-
-These hotkeys are made by Valve and can be used in Game Mode across all games.
-
-| Function | Button / Combination | Comment |
-| :--- | :---: | :---: |
-| Enter | `STEAM + D-pad Right` | |
-| Escape | `STEAM + D-pad Left` | |
-| Force Quit Application | `STEAM + B (long press)` | |
-| Game Recording - Add timeline marker | `STEAM + Y` | |
-| Game Recording - Make a clip | `STEAM + D-pad Up` | |
-| Game Recording - Start/Stop | `STEAM + A` | |
-| Joystick Mouse | `STEAM + Right Stick` | |
-| Joystick Mouse - Left Click | `STEAM + R3` | |
-| Keyboard - Show / Hide | `STEAM + X` | |
-| Left Mouse Click | `STEAM + R2` | |
-| Magnifier Toggle | `STEAM + L1` | |
-| Right Mouse Click | `STEAM + L2` | |
-| Screen Brightness - Decrease | `STEAM + Left Stick Down` | |
-| Screen Brightness - Increase | `STEAM + Left Stick Up` | |
-| Tab | `STEAM + D-pad Down` | |
-| Take Screenshot | `STEAM + R1` | |
-| Touchpad Mouse | `STEAM + Right Touchpad` | |
-| Touchpad Mouse - Left Click | `STEAM + Right Touchpad Click` | |
-
-
----
-
-### SteamOS: Desktop Mode
-
-These hotkeys are made by Valve and can be used in Desktop Mode.
-
-| Function | Button / Combination | Comment |
-| :--- | :---: | :---: |
-| Arrow Key - Down | `D-Pad Down` / `Left Stick Down` | |
-| Arrow Key - Left | `D-Pad Left` / `Left Stick Left` | |
-| Arrow Key - Right | `D-Pad Right` / `Left Stick Right` | |
-| Arrow Key - Up | `D-Pad Up` / `Left Stick Up` | |
-| Enter | `A` | |
-| Escape | `B` / `Start` | |
-| Game Recording - Add timeline marker | `CTRL + F12` | Can be rebound, needs to be enabled |
-| Game Recording - Start/Stop | `CTRL + F11` | Can be rebound, needs to be enabled |
-| Game Recording - Take screenshot | `F12` | Can be rebound, needs to be enabled |
-| Joystick Mouse | `Right Stick` | |
-| Keyboard - Show / Hide | `X` | |
-| Left Alt | `R1` | |
-| Left Ctrl | `L1` | |
-| Left Mouse Click | `R3` / `Right Touchpad Click` / `R2` | |
-| Left Shift | `L4` | |
-| Middle Mouse Click | `Left Touchpad Click` | |
-| Page Down | `R5` | |
-| Page Up | `R4` | |
-| Space | `Y` | |
-| Super Key | `L5` | |
-| Tab | `Select` | |
-| Touchpad as Mouse | `Right Touchpad` | |
-| Horizontal and Vertical Scrolling | `Left Touchpad` | |
+z
 
 
 ---

@@ -223,75 +223,88 @@ Some mods must be loaded manually from the Ironwail Mods menu:
 
 ## Ironwail Controls
 
-### Controls: ⌨️ Keyboard & 🖱️ Mouse
+### ⌨️ Keyboard & 🖱️ Mouse
 
+| Input | Action | Command |
+|---|---|---|
+| `TAB` | Show scores | `+showscores` |
+| `ESCAPE` | Open / close menu | `togglemenu` |
+| `SPACE` | Jump | `+jump` |
+| `+` | Increase screen size | `sizeup` |
+| `,` | Move left | `+moveleft` |
+| `-` | Decrease screen size | `sizedown` |
+| `.` | Move right | `+moveright` |
+| `/` | Next weapon | `impulse 10` |
+| `0` | No standard action | `impulse 0` |
+| `1` | Axe | `impulse 1` |
+| `2` | Shotgun | `impulse 2` |
+| `3` | Double-Barreled Shotgun | `impulse 3` |
+| `4` | Nailgun | `impulse 4` |
+| `5` | Super Nailgun | `impulse 5` |
+| `6` | Grenade Launcher | `impulse 6` |
+| `7` | Rocket Launcher | `impulse 7` |
+| `8` | Thunderbolt | `impulse 8` |
+| `=` | Increase screen size | `sizeup` |
+| `\` | Mouse look | `+mlook` |
+| `` ` `` | Toggle console | `toggleconsole` |
+| `A` | Move left | `+moveleft` |
+| `C` | Crouch / move down | `+movedown` |
+| `D` | Move right | `+moveright` |
+| `E` | Move up / swim up | `+moveup` |
+| `S` | Move backward | `+back` |
+| `T` | Chat | `messagemode` |
+| `W` | Move forward | `+forward` |
+| `~` | Toggle console | `toggleconsole` |
+| `UPARROW` | Move forward | `+forward` |
+| `DOWNARROW` | Move backward | `+back` |
+| `LEFTARROW` | Turn left | `+left` |
+| `RIGHTARROW` | Turn right | `+right` |
+| `ALT` | Strafe modifier | `+strafe` |
+| `CTRL` | Attack / Fire | `+attack` |
+| `SHIFT` | Run / Speed | `+speed` |
+| `INS` | Keyboard look | `+klook` |
+| `DEL` | Look down | `+lookdown` |
+| `PGDN` | Look up | `+lookup` |
+| `END` | Center view | `centerview` |
+| `PAUSE` | Pause | `pause` |
+| `F1` | Help | `help` |
+| `F2` | Save menu | `menu_save` |
+| `F3` | Load menu | `menu_load` |
+| `F4` | Options menu | `menu_options` |
+| `F5` | Multiplayer menu | `menu_multiplayer` |
+| `F6` | Quick save | `save quick` |
+| `F9` | Quick load | `load quick` |
+| `F10` | Quit | `quit` |
+| `F11` | Zoom in | `zoom_in` |
+| `F12` | Screenshot | `screenshot` |
+| `PRINTSCREEN` | Screenshot | `screenshot` |
+| `MOUSE1` | Attack / Fire | `+attack` |
+| `MOUSE2` | Jump | `+jump` |
+| `MWHEELUP` | Previous weapon | `impulse 12` |
+| `MWHEELDOWN` | Next weapon | `impulse 10` |
 
-| Input | Action |
-|:------|:-------|
-| <kbd>W</kbd> / <kbd>↑</kbd> | Move Forward |
-| <kbd>S</kbd> / <kbd>↓</kbd> | Move Backward |
-| <kbd>A</kbd> / <kbd>,</kbd> | Strafe Left |
-| <kbd>D</kbd> / <kbd>.</kbd> | Strafe Right |
-| <kbd>←</kbd> | Turn Left |
-| <kbd>→</kbd> | Turn Right |
-| <kbd>Space</kbd> | Jump |
-| <kbd>Shift</kbd> | Run (Speed Modifier) |
-| <kbd>Alt</kbd> | Strafe Modifier |
-| <kbd>E</kbd> | Swim/Fly Up |
-| <kbd>C</kbd> | Swim/Fly Down |
-| <kbd>Left Mouse</kbd> / <kbd>Ctrl</kbd> | Attack / Fire Weapon |
-| <kbd>Mouse Wheel ↑</kbd> | Previous Weapon |
-| <kbd>Mouse Wheel ↓</kbd> | Next Weapon |
-| <kbd>0</kbd> | Select Weapon 0 |
-| <kbd>1</kbd> | Select Weapon 1 |
-| <kbd>2</kbd> | Select Weapon 2 |
-| <kbd>3</kbd> | Select Weapon 3 |
-| <kbd>4</kbd> | Select Weapon 4 |
-| <kbd>5</kbd> | Select Weapon 5 |
-| <kbd>6</kbd> | Select Weapon 6 |
-| <kbd>7</kbd> | Select Weapon 7 |
-| <kbd>8</kbd> | Select Weapon 8 |
-| <kbd>/</kbd> | Next Weapon |
-| <kbd>\</kbd> | Mouse Look |
-| <kbd>Insert</kbd> | Keyboard Look |
-| <kbd>Page Down</kbd> | Look Up |
-| <kbd>Delete</kbd> | Look Down |
-| <kbd>End</kbd> | Center View |
-| <kbd>F11</kbd> | Zoom In |
-| <kbd>Tab</kbd> | Show Scoreboard |
-| <kbd>Esc</kbd> | Open Menu |
-| <kbd>T</kbd> | Open Chat |
-| <kbd>`</kbd> / <kbd>~</kbd> | Toggle Console |
-| <kbd>Pause</kbd> | Pause Game |
-| <kbd>+</kbd> / <kbd>=</kbd> | Increase Screen Size |
-| <kbd>-</kbd> | Decrease Screen Size |
-| <kbd>F1</kbd> | Help |
-| <kbd>F2</kbd> | Save Game Menu |
-| <kbd>F3</kbd> | Load Game Menu |
-| <kbd>F4</kbd> | Options Menu |
-| <kbd>F5</kbd> | Multiplayer Menu |
-| <kbd>F6</kbd> | Quick Save |
-| <kbd>F9</kbd> | Quick Load |
-| <kbd>F10</kbd> | Quit Game |
-| <kbd>F12</kbd> / <kbd>Print Screen</kbd> | Screenshot |
+## 🎮 Gamepad
 
-
----
-
-### Controls: 🎮 Gamepad
-
-| Input | Action |
-|:------|:-------|
-| <kbd>RT</kbd> | Attack / Fire Weapon |
-| <kbd>LT</kbd> / <kbd>B</kbd>  | Jump |
-| <kbd>LB</kbd> | Previous Weapon |
-| <kbd>RB</kbd> | Next Weapon |
-| <kbd>L3</kbd> | Zoom |
-| <kbd>R3</kbd> | Center View |
-| <kbd>D-Pad ↑</kbd> | Swim/Fly Up |
-| <kbd>D-Pad ↓</kbd> | Swim/Fly Down |
-| <kbd>D-Pad ←</kbd> | Show Scoreboard |
-| <kbd>Menu</kbd> | Pause Game |
+| Control | Xbox - Steam Deck / Playstation / Nintendo | Action | Command |
+|---|---|---|---|
+| East button | B / ○ / A | Jump | `_moveUp` |
+| West button | X / □ / Y | Crouch | `_moveDown` |
+| North button | Y / △ / X | Reload | `_impulse13` |
+| Right stick click | R3 | Zoom | `_zoom` |
+| Left shoulder | LB / L1 / L | Flashlight | `_impulse11` |
+| D-pad Up | ↑ | PDA / Scoreboard | `_impulse19` |
+| D-pad Left | ← | Previous weapon | `_impulse15` |
+| D-pad Right | → | Next weapon | `_impulse14` |
+| Left stick ↑ | ↑ | Move forward | `_forward` |
+| Left stick ↓ | ↓ | Move backward | `_back` |
+| Left stick ← | ← | Move left | `_moveLeft` |
+| Left stick → | → | Move right | `_moveRight` |
+| Right stick ↑ | ↑ | Look up | `_lookUp` |
+| Right stick ↓ | ↓ | Look down | `_lookDown` |
+| Right stick ← | ← | Turn left | `_left` |
+| Right stick → | → | Turn right | `_right` |
+| Left trigger | LT / L2 / ZL | Run / Sprint | `_speed` |
+| Right trigger | RT / R2 / ZR | Attack / Fire | `_attack` |
 
 
 ---

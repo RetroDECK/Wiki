@@ -28,7 +28,7 @@ Mudlet enables MUD server maintainers to add visual elements and custom features
 
 ## Where to put the games?
 
-You don't need to add them manually. Mudlet profiles are **automatically** stored in the `retrodeck/roms/muds/` directory upon connection.
+You do not need to add MUDs manually. Mudlet profiles are **automatically detected** in the `retrodeck/roms/muds/` directory when the profile and `.mud` file are created.
 
 ---
 
@@ -36,8 +36,7 @@ You don't need to add them manually. Mudlet profiles are **automatically** store
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
-No, Mudlet does not require BIOS or firmware, as the games run on remote servers that store all game data.
-
+No, Mudlet does **not** require a BIOS or firmware. MUDs run on remote servers, where the game data and server-side logic are stored.
 
 ---
 
@@ -63,47 +62,37 @@ No, Mudlet does not require BIOS or firmware, as the games run on remote servers
 
 ---
 
-## Controls: Keyboard ⌨️ & Mouse 🖱️ 
+## Controls: Keyboard ⌨️ & Mouse 🖱️
 
-Cannot be played with a controller easily and is best used with a physical keyboard and mouse.
+MUDs are best played with a physical **keyboard and mouse**. Controller support is limited and may not be practical.
 
-Each MUD server can have different hotkeys and extra controls.
+Controls and hotkeys can vary between MUD servers. Refer to the individual MUD's documentation for server-specific commands and controls.
 
 ---
 
-## How-to: Display MUD Games in RetroDECK
+## How-to: Add MUD Games to RetroDECK
 
-<img src="../mudlet-login-screen.png" width="800" alt="">
+<img src="../mudlet-login-screen.png" width="800" alt="Mudlet login screen">
 
-This example uses **Fierymud**, but the same process applies to any supported MUD.
+This example uses **Fierymud** and **Midnight Sun 2**, but the same process applies to any supported MUD.
 
 1. Launch **Mudlet** from **RetroDECK Configurator** → **Open Component** → **Mudlet**.
-2. At the Mudlet login screen, create or select a profile for the MUD you want to play from the built-in server list or by adding one manually.
-3. Rename the profile so its name ends with the `.mud` extension. For example, rename `Fierymud` to `Fierymud.mud`.
+2. At the Mudlet login screen, create or select a profile for the MUD you want to play. You can use the built-in server list or add a server manually.
+3. Rename the profile so it ends with the `.mud` extension and uses **letters and numbers only**. Do not use spaces, symbols, or exotic/special characters. For example, rename `Fierymud` to `Fierymud.mud` or `Midnight Sun 2.mud` to `MidnightSun2.mud`.
 4. Select **Connect** once to create the profile. You do **not** need to log in to the MUD.
-5. Restart RetroDECK. During startup, RetroDECK automatically detects all `.mud` profiles in `retrodeck/roms/muds/`.
-6. Launch the game from the **Multi-User Dungeon** menu in ES-DE. Mudlet automatically opens and connects using the selected profile.
+5. Restart RetroDECK. During startup, RetroDECK automatically detects `.mud` profiles in `retrodeck/roms/muds/`.
+6. Open the **Multi-User Dungeon** menu and highlight the MUD.
+7. Open the **Main Menu** and select **Edit This Game's Metadata**.
+8. Change the **Name** field to the name you want to display. For example, change `MidnightSun2` to `Midnight Sun 2`.
+9. Save the changes and launch the MUD from RetroDECK.
+10. Mudlet automatically opens and connects using the selected profile.
 
 ---
 
 ## Troubleshooting
 
-### Mudlet opens to the login screen instead of connecting
-
-Some profile names may contain characters that are not handled correctly by the ES-DE parser.
-
-1. Rename the Mudlet profile using only letters and numbers. For example, rename `Midnight Sun 2.mud` to `MidnightSun2.mud`.
-2. Restart RetroDECK.
-3. In ES-DE, highlight the game under the **Multi-User Dungeon** menu and press **Select** or **F1**.
-4. Select **Edit This Game's Metadata**.
-5. Change the **Name** field to the desired display name, for example `Midnight Sun 2`. This only changes the name shown in ES-DE and does not affect the Mudlet profile.
-
----
-
-## How-to: Migrate profiles from another Mudlet instance to RetroDECK?
-
-1. **Profiles in ROMs:** Put your game profiles in the roms directory `retrodeck/roms/muds/`.
-2. **Restart RetroDECK:** During a restart RetroDECK will automatically populate and convert all your logged in profiles into `.mud` during boot.
-3. **Launch the game:** All your old MUD games will now appear in ES-DE under the **MUDs** system and auto connect to the profile when played.
+| Topic | Issue | Solution |
+|---|---|---|
+| **Mudlet opens to the login screen instead of connecting directly to the MUD** | The profile name contains spaces or exotic/special characters that are not handled correctly by the parser. | Rename the Mudlet profile using **letters and numbers only**. Do not use spaces, symbols, or exotic characters. For example, `Midnight Sun 2.mud` → `MidnightSun2.mud`. Then restart RetroDECK. |
 
 ---

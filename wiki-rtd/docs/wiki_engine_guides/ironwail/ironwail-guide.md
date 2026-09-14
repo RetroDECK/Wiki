@@ -283,7 +283,7 @@ Some mods must be loaded manually from the Ironwail Mods menu:
 | `MWHEELUP` | Previous weapon | `impulse 12` |
 | `MWHEELDOWN` | Next weapon | `impulse 10` |
 
-## 🎮 Gamepad
+### 🎮 Gamepad
 
 | Input | Xbox - Steam Deck / Playstation / Nintendo | Action | Command |
 |---|---|---|---|

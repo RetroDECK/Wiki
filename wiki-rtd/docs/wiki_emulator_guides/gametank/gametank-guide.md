@@ -1,6 +1,6 @@
 ﻿# Guide: GameTankEmulator
 
-<img src="../../../wiki_images/logos/gametankman-logo.png" width="150" alt="Gametankman logo">
+<img src="../../../wiki_images/logos/gametank-logo.png" width="150" alt="Gametankman logo">
 
 GameTankEmulator is a emulator for the GameTank.
 

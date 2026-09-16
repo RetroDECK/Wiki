@@ -39,7 +39,7 @@ DOSBox-X games should be put under the `retrodeck/roms/dos/`, `retrodeck/roms/wi
 
 ---
 
-## Does DOSBox-X require BIOS or Firmware?
+## Does DOSBox-X require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

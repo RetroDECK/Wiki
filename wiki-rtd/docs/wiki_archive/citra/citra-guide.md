@@ -28,7 +28,7 @@ Citra was a Switch emulator and was removed as part of the `0.8.0b` update.
 | .7z         | Compressed archive file |
 | .zip        | Compressed archive file |
 
-## Does Citra require BIOS or Firmware?
+## Does Citra require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

@@ -124,7 +124,7 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 ---
 
 
-## Does Ryubing require BIOS or Firmware?
+## Does Ryubing require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

@@ -39,7 +39,7 @@ Ironwail Quake game files must be placed in the `retrodeck/roms/quake/ironwail/i
 
 ---
 
-## Does Ironwail require BIOS or Firmware?
+## Does Ironwail require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

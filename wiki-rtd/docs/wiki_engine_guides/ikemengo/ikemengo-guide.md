@@ -38,7 +38,7 @@ It strives to be compatible with games made for those engines.
 
 ---
 
-## Does IkemenGO require BIOS or Firmware?
+## Does IkemenGO require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

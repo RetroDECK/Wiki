@@ -45,7 +45,7 @@ PSP games should be put under the `retrodeck/roms/psp/` directory.
 
 ---
 
-## Does PPSSPP require BIOS or Firmware?
+## Does PPSSPP require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

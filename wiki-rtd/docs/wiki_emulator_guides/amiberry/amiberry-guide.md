@@ -64,7 +64,7 @@ Amiga 1200 games can be put under the `retrodeck/roms/amiga1200/` directory.
 
 ---
 
-## Does Amiberry require BIOS or Firmware?
+## Does Amiberry require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

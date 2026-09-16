@@ -39,7 +39,7 @@ Games that you want to run with MAME should be put under the `retrodeck/roms/mam
 
 ---
 
-## Does MAME require BIOS or Firmware?
+## Does MAME require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

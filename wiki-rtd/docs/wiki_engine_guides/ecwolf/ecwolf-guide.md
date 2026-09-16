@@ -40,7 +40,7 @@ ECWolf game files must be placed in the `retrodeck/roms/wolfenstein/` directory.
 
 ---
 
-## Does ECWolf require BIOS or Firmware?
+## Does ECWolf require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

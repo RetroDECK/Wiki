@@ -38,7 +38,7 @@ Commander X16 Emulator is a Commander X16 computer emulator.
 
 ---
 
-## Does Commander X16 require BIOS or Firmware?
+## Does Commander X16 require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

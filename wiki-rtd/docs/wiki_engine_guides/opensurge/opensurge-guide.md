@@ -42,7 +42,7 @@ Open Surge games should be put under the `retrodeck/roms/opensurge/` directory.
 
 ---
 
-## Does Open Surge require BIOS or Firmware?
+## Does Open Surge require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

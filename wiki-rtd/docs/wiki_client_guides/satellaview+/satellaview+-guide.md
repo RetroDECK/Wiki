@@ -33,7 +33,7 @@ None, it's a stream.
 
 ---
 
-## Does Satellaview+ Require BIOS or Firmware?
+## Does Satellaview+ require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

@@ -54,7 +54,7 @@ Should be put under the `retrodeck/roms/PrimeHack/` directory.
 
 `.wbfs` and `.wad` are the original format supported by the Wii console.
 
-## Does PrimeHack require BIOS or Firmware?
+## Does PrimeHack require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

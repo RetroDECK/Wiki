@@ -32,7 +32,7 @@ You do not need to add MUDs manually. Mudlet profiles are **automatically detect
 
 ---
 
-## Does Mudlet require BIOS or Firmware?
+## Does Mudlet require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

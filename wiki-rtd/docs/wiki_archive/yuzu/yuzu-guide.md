@@ -25,7 +25,7 @@ Switch games should be put into the `retrodeck/roms/switch/` directory.
 | .nro        | Nintendo Switch Homebrew |
 
 
-## Does Yuzu require BIOS or Firmware?
+## Does Yuzu require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

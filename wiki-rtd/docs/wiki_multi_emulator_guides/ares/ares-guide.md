@@ -84,7 +84,7 @@ A general guideline is to use compressed formats:
 
 ---
 
-## Does ares require BIOS or Firmware?
+## Does ares require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

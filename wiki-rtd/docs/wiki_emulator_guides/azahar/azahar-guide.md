@@ -45,7 +45,7 @@ Azahar is a Nintendo 3DS Emulator.
 
 ---
 
-## Does Azahar require BIOS or Firmware?
+## Does Azahar require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

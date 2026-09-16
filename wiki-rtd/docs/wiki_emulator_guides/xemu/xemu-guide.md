@@ -52,7 +52,7 @@ Read more here: [xemu - Disc Images ](https://xemu.app/docs/disc-images/)
 
 ---
 
-## Does xemu require BIOS or Firmware?
+## Does xemu require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

@@ -54,7 +54,7 @@ Games should be put under:
 
 ---
 
-## Does Flycast require BIOS or Firmware?
+## Does Flycast require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

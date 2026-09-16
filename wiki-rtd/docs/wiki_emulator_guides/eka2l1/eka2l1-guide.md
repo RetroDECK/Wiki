@@ -56,7 +56,7 @@ EKA2L1 is an emulator for Nokia/Symbian smartphones and the Nokia N-Gage.
 
 ---
 
-## Does EKA2LA require BIOS or Firmware?
+## Does EKA2LA require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

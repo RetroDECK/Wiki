@@ -43,7 +43,7 @@ Vita3K games should be put into the `retrodeck/roms/psvita/` directory.
 
 ---
 
-## Does Vita3K require BIOS or Firmware?
+## Does Vita3K require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

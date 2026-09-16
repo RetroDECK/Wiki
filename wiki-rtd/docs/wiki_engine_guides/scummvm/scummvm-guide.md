@@ -39,7 +39,7 @@ ScummVM games should be put into the `retrodeck/roms/scummvm/` directory.
 ---
 
 
-## Does ScummVM require BIOS or Firmware?
+## Does ScummVM require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

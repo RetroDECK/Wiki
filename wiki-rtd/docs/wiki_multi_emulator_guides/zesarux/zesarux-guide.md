@@ -134,7 +134,7 @@ They are listed here for completeness:
 
 ---
 
-## Does ZExarUX require BIOS or Firmware?
+## Does ZExarUX require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

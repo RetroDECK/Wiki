@@ -32,32 +32,29 @@ DOOM games should be put under the `retrodeck/roms/doom3/` directory.
 
 ---
 
-## Does dhewm 3 require BIOS or Firmware?
+## Does dhewm 3 require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
-No, dhewm 3 does not require any BIOS or firmware files. 
-
-However, you do need copies of the official **DOOM 3** and **Doom 3: Resurrection of Evil** game data files and place them in  `retrodeck/roms/doom3/base`,  `retrodeck/roms/doom3/d3xp` / `retrodeck/roms/doom3/d3xp.doom3`. 
+Yes, you do need copies of the official **DOOM 3** and **Doom 3: Resurrection of Evil**  game data files patched to **v1.3.1** (this is already done in GOG and Steam) and place them in  `retrodeck/roms/doom3/base`,  `retrodeck/roms/doom3/d3xp` / `retrodeck/roms/doom3/d3xp.doom3`. 
 
 | pk4 File | Path | MD5 | Comments |
 |------|------|-----|----------|
-| DOOM 3 - pak000.pk4 | `retrodeck/roms/doom3/base` | `71b8d37b2444d3d86a36fd61783844fe` | **DOOM 3 v1.3.1** |
-| DOOM 3 - pak001.pk4 | `retrodeck/roms/doom3/base` | `4bc4f3ba04ec2b4f4837be40e840a3c1` | **DOOM 3 v1.3.1** |
-| DOOM 3 - pak002.pk4 | `retrodeck/roms/doom3/base` | `fa84069e9642ad9aa4b49624150cc345` | **DOOM 3 v1.3.1** |
-| DOOM 3 - pak003.pk4 | `retrodeck/roms/doom3/base` | `f22d8464997924e4913e467e7d62d5fe` | **DOOM 3 v1.3.1** |
-| DOOM 3 - pak004.pk4 | `retrodeck/roms/doom3/base` | `38561a3c73f93f2e6fd31abf1d4e9102` | **DOOM 3 v1.3.1** |
-| DOOM 3 - pak005.pk4 | `retrodeck/roms/doom3/base` | `2afd4ece27d36393b7538d55a345b90d` | **DOOM 3 v1.3.1** |
-| DOOM 3 - pak006.pk4 | `retrodeck/roms/doom3/base` | `a6e7003fa9dcc75073dc02b56399b370` | **DOOM 3 v1.3.1** |
-| DOOM 3 - pak007.pk4 | `retrodeck/roms/doom3/base` | `6319f086f930ec1618ab09b4c20c268c` | **DOOM 3 v1.3.1** |
-| DOOM 3 - pak008.pk4 | `retrodeck/roms/doom3/base` | `28750b7841de9453eb335bad6841a2a5` | **DOOM 3 v1.3.1** |
-| DOOM 3: Resurrection of Evil - pak000.pk4 | `retrodeck/roms/doom3/d3xp`  | `a883fef0fd10aadeb73d34c462ff865d` | **Optional** |
-| DOOM 3: Resurrection of Evil - pak001.pk4 | `retrodeck/roms/doom3/d3xp`  | `06fc9be965e345587064056bf22236d2` | **Optional** |
+| pak000.pk4 | `retrodeck/roms/doom3/base` | `71b8d37b2444d3d86a36fd61783844fe` | DOOM 3 **v1.3.1** |
+| pak001.pk4 | `retrodeck/roms/doom3/base` | `4bc4f3ba04ec2b4f4837be40e840a3c1` | DOOM 3 **v1.3.1** |
+| pak002.pk4 | `retrodeck/roms/doom3/base` | `fa84069e9642ad9aa4b49624150cc345` | DOOM 3 **v1.3.1** |
+| pak003.pk4 | `retrodeck/roms/doom3/base` | `f22d8464997924e4913e467e7d62d5fe` | DOOM 3 **v1.3.1** |
+| pak004.pk4 | `retrodeck/roms/doom3/base` | `38561a3c73f93f2e6fd31abf1d4e9102` | DOOM 3 **v1.3.1** |
+| pak005.pk4 | `retrodeck/roms/doom3/base` | `2afd4ece27d36393b7538d55a345b90d` | DOOM 3 **v1.3.1** |
+| pak006.pk4 | `retrodeck/roms/doom3/base` | `a6e7003fa9dcc75073dc02b56399b370` | DOOM 3 **v1.3.1** |
+| pak007.pk4 | `retrodeck/roms/doom3/base` | `6319f086f930ec1618ab09b4c20c268c` | DOOM 3 **v1.3.1** |
+| pak008.pk4 | `retrodeck/roms/doom3/base` | `28750b7841de9453eb335bad6841a2a5` | DOOM 3 **v1.3.1** |
+| pak000.pk4 | `retrodeck/roms/doom3/d3xp` | `a883fef0fd10aadeb73d34c462ff865d` | DOOM 3: Resurrection of Evil **Optional** |
+| pak001.pk4 | `retrodeck/roms/doom3/d3xp` | `06fc9be965e345587064056bf22236d2` | DOOM 3: Resurrection of Evil **Optional** |
 
 **Note:** 
 
-- The setup requires the original **DOOM 3** patched to **v1.3.1** (this is already done in GOG and Steam) and **Doom 3: Resurrection of Evil** files. 
-- The remastered **DOOM 3: BFG Edition** is not supported.
+- The remastered DOOM 3: BFG Edition **is not supported**.
 
 ---
 

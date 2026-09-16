@@ -60,7 +60,7 @@ Should be put under the `retrodeck/roms/wii/` directory.
 
 `.wbfs` and `.wad` are the original format supported by the Wii console.
 
-## Does Dolphin require BIOS or Firmware?
+## Does Dolphin require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

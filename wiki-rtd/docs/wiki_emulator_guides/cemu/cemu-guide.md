@@ -39,7 +39,7 @@ WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 
 ---
 
-## Does Cemu require BIOS or Firmware?
+## Does Cemu require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 

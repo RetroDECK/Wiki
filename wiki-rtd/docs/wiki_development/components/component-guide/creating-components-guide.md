@@ -183,6 +183,7 @@ If your goal is to distrubute the component in your channels and have the users 
 **You** as the component author and maintainer is responsible for:
 
 - Providing user support and maintaining the component.
+- Data Tidbit, Component Files and other files created for integration with RetroDECK shall be licensed under the GPLv3, consistent with RetroDECK’s licensing. This requirement applies only to files created specifically for RetroVERSE or RetroDECK integration. Files sourced from third-party projects remain subject to their original project’s applicable license.
 - Making sure the component only installs and uses files within the RetroDECK Sandbox.
 - Ensuring compliance with applicable licenses.
 - Hosting and distributing the component.

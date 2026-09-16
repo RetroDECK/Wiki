@@ -148,7 +148,8 @@ No
 
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
-| ROMs   | `retrodeck/roms/zxnext/`                             |               |
+| ROMs   | `retrodeck/roms/zxnext/`                          |               |
+| ESXDOS   | `retrodeck/storage/zesarux/esxdos`              | `esxdos-root-dir`       |
 
 ---
 

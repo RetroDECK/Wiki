@@ -168,48 +168,142 @@ Here are some popular sources:
 WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 ation" in the UZDoom options menu if you have mods that add extra controls, as it will wipe those extra controls. Inputs will still be saved without pressing save.
 
-### Standard Controls
 
-The controls are semi-based on the inputs from `Timesplitters: Future Perfect` for the PlayStation 2 and are described as an Xbox Layout style controller.
+### ⌨️ Keyboard and 🖱️ Mouse
 
-|  Action                                    |    Button        |    Comment      |
-| :---                                      | :---:           |         :---:   |
-| Primary Fire                              |   `R2`          |                 |
-| Secondary Fire                            |   `R1`          |                |
-| Action / Open                             |   `A`     |                |
-| Jump                                      |   `B`     |                |
-| Reload                                    |   `Y`     |                |
-| Crouch                                    |   `X`     |                |
-| Quick Turn                                |   `R3`     |            |
-| Run Toggle                                |   `L3`     |                |
-| Main Menu                                 |   `Start`     |         |
-| Open Map                                  |   `Select`     |         |
-| Use Item                                  |   `Dpad - Down`     |         |
-| Select Item                               |   `Dpad - Up`     |         |
-| Swap Next Weapon                          |   `Dpad - Right`     |         |
-| Swap Previous Weapon                      |   `Dpad - Left`     |         |
-| Movement: Forward / Back + Strafe         |   `Left Joystick`     |                  |
-| Movement: Look Up / Down + Turn           |   `Right Joystick`     |                  |
+| Action | Input | Command |
+|---|---|---|
+| Alt Attack | `MOUSE2` | `+altattack` |
+| Attack | `MOUSE1` | `+attack` |
+| Center view | `END` | `centerview` |
+| Chat | `T` | `messagemode` |
+| Crouch | `C` | `+crouch` |
+| Gamma | `F11` | `bumpgamma` |
+| Inventory use | `ENTER` | `invuse` |
+| Land | `HOME` | `land` |
+| Look down | `DEL` | `+lookdown` |
+| Look up | `PGDN` | `+lookup` |
+| Map clear marks | `C` | `am_clearmarks` |
+| Map grid toggle | `G` | `am_togglegrid` |
+| Map mark | `M` | `am_setmark` |
+| Map texture toggle | `P` | `am_toggletexture` |
+| Map toggle | `TAB` | `togglemap` |
+| Map zoom in | `EQUALS` | `+am_zoomin` |
+| Map zoom in | `KP+` | `+am_zoomin` |
+| Map zoom out | `-` | `+am_zoomout` |
+| Map zoom out | `KP-` | `+am_zoomout` |
+| Move backward | `DOWNARROW` | `+back` |
+| Move backward | `S` | `+back` |
+| Move forward | `UPARROW` | `+forward` |
+| Move forward | `W` | `+forward` |
+| Move left | `A` | `+moveleft` |
+| Move left | `LEFTARROW` | `+moveleft` |
+| Move right | `D` | `+moveright` |
+| Move right | `RIGHTARROW` | `+moveright` |
+| Pan map down | `DOWNARROW` | `+am_pandown` |
+| Pan map left | `LEFTARROW` | `+am_panleft` |
+| Pan map right | `RIGHTARROW` | `+am_panright` |
+| Pan map up | `UPARROW` | `+am_panup` |
+| Pause | `PAUSE` | `pause` |
+| Previous weapon | `MWHEELUP` | `weapprev` |
+| Quick load | `F9` | `quickload` |
+| Quick save | `F6` | `quicksave` |
+| Run / Sprint | `SHIFT` | `+speed` |
+| Screenshot | `SYSRQ` | `screenshot` |
+| Show scores | `\` | `+showscores` |
+| Show scores | `SCROLL` | `+showscores` |
+| Skip song | `.` | `di_skipSong` |
+| Song previous | `,` | `di_prevSong` |
+| Slot 0 | `0` | `slot 0` |
+| Slot 1 | `1` | `slot 1` |
+| Slot 2 | `2` | `slot 2` |
+| Slot 3 | `3` | `slot 3` |
+| Slot 4 | `4` | `slot 4` |
+| Slot 5 | `5` | `slot 5` |
+| Slot 6 | `6` | `slot 6` |
+| Slot 7 | `7` | `slot 7` |
+| Slot 8 | `8` | `slot 8` |
+| Slot 9 | `9` | `slot 9` |
+| Toggle console | `` ` `` | `toggleconsole` |
+| Toggle follow | `F` | `am_togglefollow` |
+| Toggle infrared | `I` | `di_toggleinfrared` |
+| Toggle messages | `F8` | `togglemessages` |
+| Toggle run | `CAPSLOCK` | `toggle cl_run` |
+| Use | `E` | `+use` |
+| Use item | `F` | `di_useitem_bind` |
+| Weapon next | `MWHEELDOWN` | `weapnext` |
+| Weapon size down | `-` | `sizedown` |
+| Weapon size up | `EQUALS` | `sizeup` |
+| Zoom map 1.2× | `MWHEELUP` | `am_zoom 1.2` |
+| Zoom map −1.2× | `MWHEELDOWN` | `am_zoom -1.2` |
 
-### Mod Controls - Extras
+### 🎮 Gamepad
 
-Optional extra binds for certain `Project Brutality` or `Brutal Doom` based mods.
+The controls are semi-based on the inputs from `Timesplitters: Future Perfect` for the PlayStation 2.
 
-|  Action                                    |    Button        |    Comment      |
-| :---                                      | :---:           |         :---:   |
-| Quick Melee / Special Action              |   `L1`          |                 |
-| Throw Grenade / Second Special Action     |   `L2`          |    Replaces Zoom (most DOOM mods use Secondary Fire for this anyhow)          |
-| Dash                                      |   `R3`          |    Replaces Quick Turn           |
+| Action | Xbox - Steam Deck / Playstation / Nintendo | Input | Command |
+|---|---|---|---|
+| Alt Attack | RB / R1 / R | `JOY6` | `+altattack` |
+| Attack | RT / R2 / ZR | `AXIS6PLUS` | `+attack` |
+| Crouch | X / □ / Y | `JOY3` | `+crouch` |
+| Inventory next | D-pad ↑ | `POV1UP` | `invnext` |
+| Inventory use | D-pad ↓ | `POV1DOWN` | `invuse` |
+| Jump | B / ○ / A | `JOY2` | `+jump` |
+| Look down | Right Stick ↓ | `AXIS5PLUS` | `+lookdown` |
+| Look up | Right Stick ↑ | `AXIS5MINUS` | `+lookup` |
+| Main menu | Menu / Options / + | `JOY8` | `menu_main` |
+| Map toggle | View / − / Select | `JOY7` | `togglemap` |
+| Move backward | Left Stick ↓ | `AXIS2PLUS` | `+back` |
+| Move forward | Left Stick ↑ | `AXIS2MINUS` | `+forward` |
+| Move left | Left Stick ← | `AXIS1MINUS` | `+moveleft` |
+| Move right | Left Stick → | `AXIS1PLUS` | `+moveright` |
+| Toggle run | — | `JOY10` | `toggle cl_run` |
+| Turn 180° | — | `JOY11` | `turn180` |
+| Turn left | Right Stick ← | `AXIS4MINUS` | `+left` |
+| Turn right | Right Stick → | `AXIS4PLUS` | `+right` |
+| Use | A / × / B | `JOY1` | `+use` |
+| Use item | Y / △ / X | `JOY5` | `di_useitem_bind` |
+| Weapon next | D-pad → | `POV1RIGHT` | `weapnext` |
+| Weapon previous | D-pad ← | `POV1LEFT` | `weapprev` |
 
-### The Mod Needs More Inputs
+---
 
-Many mods have more inputs than what is bindable on a controller. `L1`,  `L2`, `Dpad - Up`, `Dpad - Down` are mostly free for those types of actions.
+## Mod Controls
 
-- Bind `L1` and `L2` to more action-oriented things you need to use more often.
-- Use `Dpad - Up`, `Dpad - Down` for things you use less often, like Extra Menus.
-- If it is a new movement type that can replace quick turn, bind it on `R3` and replace Quick Turn or either of the `L1` or `L2`.
+Some mods provide additional actions that require extra controller or keyboard bindings. This is particularly common with [Project Brutality](https://project-brutality.com/) and [Brutal Doom](https://www.moddb.com/mods/brutal-doom) based mods.
 
-You are also free to change any of the default binds shipped by RetroDECK and if you mess something up, you can always reset UZDoom via the Configurator.
+You can change any default bindings provided by RetroDECK. If the bindings become misconfigured, reset UZDoom using the **Configurator**.
+
+**Example: Optional Extra Bindings**
+
+RetroDECK ships with the following optional bindings by default:
+
+| Action | Xbox / Steam Deck | PlayStation | Nintendo | PC | Comment |
+|:--|:--:|:--:|:--:|:--:|:--|
+| Dash | R3 | R3 | R3 | `Shift` | Replaces Quick Turn |
+| Quick Melee / Special Action | LB | L1 | L | `Q` |  |
+| Reload | Y | △ | X | `R` |  |
+| Throw Grenade / Second Special Action | LT | L2 | ZL | `G` | Replaces Zoom, many DOOM mods use Secondary Fire for this. |
+
+### ⌨️ Keyboard and 🖱️ Mouse
+
+- **Q / E:** Suitable for frequently used secondary actions.
+- **F:** Suitable for context-sensitive actions or interactions.
+- **G:** Suitable for grenades or other secondary attacks.
+- **R:** Typically used for Reload.
+- **Shift / Ctrl / Alt:** Suitable for movement modifiers or frequently used secondary actions.
+- **Number keys:** Useful for additional weapons or less frequently accessed functions.
+- **Unused letter keys:** Suitable for mod-specific actions and extra menus.
+
+### 🎮 Gamepad
+
+The following inputs are generally available for additional bindings:
+
+- **L1 / LB:** Use for action-oriented functions that require frequent access.
+- **L2 / LT:** Use for another frequently accessed action.
+- **D-pad Up:** Use for less frequently accessed functions, such as extra menus.
+- **D-pad Down:** Use for other infrequent functions, such as extra menus.
+- **R3:** If a mod adds a movement ability that can replace Quick Turn, bind it to R3.
 
 ---
 

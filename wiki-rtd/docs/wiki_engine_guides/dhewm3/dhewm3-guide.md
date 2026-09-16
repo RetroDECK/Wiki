@@ -290,85 +290,85 @@ This launches the mod with the `+set fs_game_base d3xp` option enabled, which ma
 
 ### ⌨️ Keyboard and 🖱️ Mouse
 
-| Input | Action | Command |
+| Action | Input | Command |
 |---|---|---|
-| `TAB` | PDA / Scoreboard | `_impulse19` |
-| `ENTER` | Action / Button 2 | `_button2` |
-| `ESCAPE` | Menu | `togglemenu` |
-| `SPACE` | Jump | `_moveup` |
-| `0` | Weapon slot 10 | `_impulse10` |
-| `1` | Weapon slot 1 | `_impulse0` |
-| `2` | Weapon slot 2 | `_impulse1` |
-| `3` | Weapon slot 3 | `_impulse2` |
-| `4` | Weapon slot 4 | `_impulse3` |
-| `5` | Weapon slot 5 | `_impulse4` |
-| `6` | Weapon slot 6 | `_impulse5` |
-| `7` | Weapon slot 7 | `_impulse6` |
-| `8` | Weapon slot 8 | `_impulse7` |
-| `9` | Weapon slot 9 | `_impulse8` |
-| `[` | Previous weapon | `_impulse15` |
-| `\` | Mouse look | `_mlook` |
-| `]` | Next weapon | `_impulse14` |
-| `A` | Move left | `_moveleft` |
-| `C` | Crouch | `_movedown` |
-| `D` | Move right | `_moveright` |
-| `F` | Flashlight | `_impulse11` |
-| `Q` | Weapon slot 10 / special weapon | `_impulse9` |
-| `R` | Reload | `_impulse13` |
-| `S` | Move backward | `_back` |
-| `T` | Chat | `clientMessageMode` |
-| `W` | Move forward | `_forward` |
-| `Y` | Team chat | `clientMessageMode 1` |
-| `Z` | Zoom | `_zoom` |
-| `BACKSPACE` | Drop weapon | `clientDropWeapon` |
-| `PAUSE` | Pause | `pause` |
-| `UPARROW` | Move forward | `_forward` |
-| `DOWNARROW` | Move backward | `_back` |
-| `LEFTARROW` | Turn left | `_left` |
-| `RIGHTARROW` | Turn right | `_right` |
-| `ALT` | Strafe | `_strafe` |
-| `CTRL` | Attack / Fire | `_attack` |
-| `SHIFT` | Run / Sprint | `_speed` |
-| `DEL` | Look down | `_lookdown` |
-| `PGDN` | Look up | `_lookup` |
-| `END` | Center view | `_impulse18` |
-| `F1` | Vote yes | `_impulse28` |
-| `F2` | Vote no | `_impulse29` |
-| `F3` | Toggle ready | `_impulse17` |
-| `F5` | Quick save | `savegame quick` |
-| `F6` | Change team | `_impulse20` |
-| `F7` | Toggle spectator | `_impulse22` |
-| `F9` | Quick load | `loadgame quick` |
-| `F10` | dhewm3 Settings | `dhewm3Settings` |
-| `F12` | Screenshot | `screenshot` |
-| `MOUSE1` | Attack / Fire | `_attack` |
-| `MOUSE2` | Jump | `_moveup` |
-| `MOUSE3` | Zoom | `_zoom` |
-| `MWHEELDOWN` | Next weapon | `_impulse14` |
-| `MWHEELUP` | Previous weapon | `_impulse15` |
+| Action / Button 2 | `ENTER` | `_button2` |
+| Attack / Fire | `CTRL` | `_attack` |
+| Attack / Fire | `MOUSE1` | `_attack` |
+| Center view | `END` | `_impulse18` |
+| Change team | `F6` | `_impulse20` |
+| Chat | `T` | `clientMessageMode` |
+| Crouch | `C` | `_movedown` |
+| dhewm3 Settings | `F10` | `dhewm3Settings` |
+| Drop weapon | `BACKSPACE` | `clientDropWeapon` |
+| Flashlight | `F` | `_impulse11` |
+| Jump | `MOUSE2` | `_moveup` |
+| Jump | `SPACE` | `_moveup` |
+| Look down | `DEL` | `_lookdown` |
+| Look up | `PGDN` | `_lookup` |
+| Menu | `ESCAPE` | `togglemenu` |
+| Mouse look | `\` | `_mlook` |
+| Move backward | `DOWNARROW` | `_back` |
+| Move backward | `S` | `_back` |
+| Move forward | `UPARROW` | `_forward` |
+| Move forward | `W` | `_forward` |
+| Move left | `A` | `_moveleft` |
+| Move right | `D` | `_moveright` |
+| Next weapon | `]` | `_impulse14` |
+| Next weapon | `MWHEELDOWN` | `_impulse14` |
+| PDA / Scoreboard | `TAB` | `_impulse19` |
+| Pause | `PAUSE` | `pause` |
+| Previous weapon | `[` | `_impulse15` |
+| Previous weapon | `MWHEELUP` | `_impulse15` |
+| Quick load | `F9` | `loadgame quick` |
+| Quick save | `F5` | `savegame quick` |
+| Reload | `R` | `_impulse13` |
+| Run / Sprint | `SHIFT` | `_speed` |
+| Screenshot | `F12` | `screenshot` |
+| Strafe | `ALT` | `_strafe` |
+| Team chat | `Y` | `clientMessageMode 1` |
+| Toggle ready | `F3` | `_impulse17` |
+| Toggle spectator | `F7` | `_impulse22` |
+| Turn left | `LEFTARROW` | `_left` |
+| Turn right | `RIGHTARROW` | `_right` |
+| Vote no | `F2` | `_impulse29` |
+| Vote yes | `F1` | `_impulse28` |
+| Weapon slot 1 | `1` | `_impulse0` |
+| Weapon slot 10 | `0` | `_impulse10` |
+| Weapon slot 10 / special weapon | `Q` | `_impulse9` |
+| Weapon slot 2 | `2` | `_impulse1` |
+| Weapon slot 3 | `3` | `_impulse2` |
+| Weapon slot 4 | `4` | `_impulse3` |
+| Weapon slot 5 | `5` | `_impulse4` |
+| Weapon slot 6 | `6` | `_impulse5` |
+| Weapon slot 7 | `7` | `_impulse6` |
+| Weapon slot 8 | `8` | `_impulse7` |
+| Weapon slot 9 | `9` | `_impulse8` |
+| Zoom | `MOUSE3` | `_zoom` |
+| Zoom | `Z` | `_zoom` |
 
 ### 🎮 Gamepad
 
-| Input | Xbox - Steam Deck / Playstation / Nintendo | Action | Command |
+| Action | Xbox - Steam Deck / Playstation / Nintendo | Input | Command |
 |---|---|---|---|
-| `JOY_BTN_EAST` | B / ○ / A | Jump | `_moveUp` |
-| `JOY_BTN_WEST` | X / □ / Y | Crouch | `_moveDown` |
-| `JOY_BTN_NORTH` | Y / △ / X | Reload | `_impulse13` |
-| `JOY_BTN_RSTICK` | R3 | Zoom | `_zoom` |
-| `JOY_BTN_LSHOULDER` | LB / L1 / L | Flashlight | `_impulse11` |
-| `JOY_DPAD_UP` | D-pad ↑ | PDA / Scoreboard | `_impulse19` |
-| `JOY_DPAD_LEFT` | D-pad ← | Previous weapon | `_impulse15` |
-| `JOY_DPAD_RIGHT` | D-pad → | Next weapon | `_impulse14` |
-| `JOY_STICK1_UP` | Left Stick ↑ | Move forward | `_forward` |
-| `JOY_STICK1_DOWN` | Left Stick ↓ | Move backward | `_back` |
-| `JOY_STICK1_LEFT` | Left Stick ← | Move left | `_moveLeft` |
-| `JOY_STICK1_RIGHT` | Left Stick → | Move right | `_moveRight` |
-| `JOY_STICK2_UP` | Right Stick ↑ | Look up | `_lookUp` |
-| `JOY_STICK2_DOWN` | Right Stick ↓ | Look down | `_lookDown` |
-| `JOY_STICK2_LEFT` | Right Stick ← | Turn left | `_left` |
-| `JOY_STICK2_RIGHT` | Right Stick → | Turn right | `_right` |
-| `JOY_TRIGGER1` | LT / L2 / ZL | Run / Sprint | `_speed` |
-| `JOY_TRIGGER2` | RT / R2 / ZR | Attack / Fire | `_attack` |
+| Attack / Fire | RT / R2 / ZR | `JOY_TRIGGER2` | `_attack` |
+| Crouch | X / □ / Y | `JOY_BTN_WEST` | `_moveDown` |
+| Flashlight | LB / L1 / L | `JOY_BTN_LSHOULDER` | `_impulse11` |
+| Jump | B / ○ / A | `JOY_BTN_EAST` | `_moveUp` |
+| Look down | Right Stick ↓ | `JOY_STICK2_DOWN` | `_lookDown` |
+| Look up | Right Stick ↑ | `JOY_STICK2_UP` | `_lookUp` |
+| Move backward | Left Stick ↓ | `JOY_STICK1_DOWN` | `_back` |
+| Move forward | Left Stick ↑ | `JOY_STICK1_UP` | `_forward` |
+| Move left | Left Stick ← | `JOY_STICK1_LEFT` | `_moveLeft` |
+| Move right | Left Stick → | `JOY_STICK1_RIGHT` | `_moveRight` |
+| Next weapon | D-pad → | `JOY_DPAD_RIGHT` | `_impulse14` |
+| PDA / Scoreboard | D-pad ↑ | `JOY_DPAD_UP` | `_impulse19` |
+| Previous weapon | D-pad ← | `JOY_DPAD_LEFT` | `_impulse15` |
+| Reload | Y / △ / X | `JOY_BTN_NORTH` | `_impulse13` |
+| Run / Sprint | LT / L2 / ZL | `JOY_TRIGGER1` | `_speed` |
+| Turn left | Right Stick ← | `JOY_STICK2_LEFT` | `_left` |
+| Turn right | Right Stick → | `JOY_STICK2_RIGHT` | `_right` |
+| Zoom | R3 | `JOY_BTN_RSTICK` | `_zoom` |
 
 
 ---

@@ -24,6 +24,7 @@ All resources available through RetroVERSE:
 - Have a **strictly retro-focused and limited scope**, covering resources that do not need to be included in the core application.
 - Can be **updated independently** of the RetroDECK core application.
 - Must comply with all applicable **legal, copyright and licensing requirements**, as well as any additional guidelines established by the RetroDECK Team. Open-source content must comply with its applicable license. Proprietary code or assets require **explicit permission from the rights holder**.
+- Data Tidbit, Component Files and other files created for integration with RetroDECK and submitted to RetroVERSE shall be licensed under the GPLv3, consistent with RetroDECK’s licensing. This requirement applies only to files created specifically for RetroVERSE or RetroDECK integration. Files sourced from third-party projects remain subject to their original project’s applicable license.
 - Are **curated by the RetroDECK Team and Community**. RetroVERSE is **not an unrestricted community repository**. The RetroDECK Team has final authority over which resources are accepted, maintained, or removed.
 
 ---

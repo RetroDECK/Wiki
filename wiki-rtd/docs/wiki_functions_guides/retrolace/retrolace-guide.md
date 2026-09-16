@@ -10,9 +10,9 @@
 
 This feature is primarily intended for developers testing components that may eventually be:
 
-- Integrated into RetroDECK as an internal component.
-- Distributed through RetroVERSE as an external compoent. 
-- Distrubuted by the developers own channels and installed via **RetroLACE** as an modification or add-on. 
+- Integrated into RetroDECK as internal components, licensed under the GPLv3.
+- Distributed through RetroVERSE as external components, licensed under the GPLv3.
+- Distributed through the developer’s own channels and installed via **RetroLACE** as modifications or add-ons, licensed under the GPLv3. 
 
 It can also be used to experiment with software or assets that fall outside the normal scope of RetroDECK.
 

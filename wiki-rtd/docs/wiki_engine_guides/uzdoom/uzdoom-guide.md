@@ -59,9 +59,7 @@ DOOM games should be put under the `retrodeck/roms/doom/` directory.
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
-No. UZDoom does not require any BIOS or firmware files.
-
-However, you do need copies of the official **DOOM** game data (WAD files) or you can use Freedoom.
+Yes, you do need copies of the official **DOOM** game data (WAD files) or you can use Freedoom.
 
 ### Where to buy official DOOM?
 

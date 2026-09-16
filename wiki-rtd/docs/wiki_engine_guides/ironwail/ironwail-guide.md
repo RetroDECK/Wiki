@@ -43,13 +43,9 @@ Ironwail Quake game files must be placed in the `retrodeck/roms/quake/ironwail/i
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
-No
+Yes, you do need copies of the official **Quake** game data files  (PAK files).
 
-However, you do need copies of the official **Quake** game data files  (PAK files).
-
-Ironwail supports both the **2021 rerelease** and the **original release** of Quake.
-
-**The original release is recommended.**
+Ironwail supports both the 2021 rerelease and the original release of Quake, **the original release is recommended**.
 
 Rename the original release's PAK files from uppercase to lowercase:
 
@@ -58,18 +54,11 @@ PAK0.PAK → pak0.pak
 PAK1.PAK → pak1.pak
 ```
 
-### Base Game
-
 | Name | File | GameID | Path | MD5 | Comment |
 |---|---|---|---|---|---|
-| Quake Base Game | `pak0.pak` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `f6aa4f85e686e364b24e16928c51e05b` | 2021 Rerelease |
-| Quake Base Game | `PAK0.PAK` renamed to `pak0.pak` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `5906e5998fc3d896ddaf5e6a62e03abb` | Original Release **Recommended** |
-| Quake Mission Data | `PAK1.PAK` renamed to `pak1.pak` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `d76b3e5678f0b64ac74ce5e340e6a685` | Original Release **Recommended** |
-
-### Official Episodes & Expansions
-
-| Name | File | GameID | Path | MD5 | Comment |
-|---|---|---|---|---|---|
+| Quake Base Game OG |  `pak0.pak` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `5906e5998fc3d896ddaf5e6a62e03abb` | Original Release **Recommended** |
+| Quake Mission Data | `pak1.pak` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `d76b3e5678f0b64ac74ce5e340e6a685` | Original Release **Recommended** |
+| Quake Base Game 2021 | `pak0.pak` | `id1` | `retrodeck/roms/quake/ironwail/id1` | `f6aa4f85e686e364b24e16928c51e05b` | 2021 Rerelease |
 | Capture the Flag | `pak0.pak` | `ctf` | `retrodeck/roms/quake/ironwail/ctf` | `6e0f5f6d396c4772fadf8b90a3b45b1a` | Multiplayer Content |
 | Dawn of the Machine | `pak0.pak` | `mg3` | `retrodeck/roms/quake/ironwail/mg3` | `28933eb5dc7c1df55ba8ac579baf3ace` | 2026 Episode |
 | Dimension of the Machine | `pak0.pak` | `mg1` | `retrodeck/roms/quake/ironwail/mg1` | `ce2f07daa4b6f54934825f091cab5caf` | 2021 Episode |
@@ -130,9 +119,13 @@ As a result, settings such as **display resolution, graphics, keyboard controls 
 
 ---
 
+
+
+---
+
 ## How-to: Play Quake via Ironwail on RetroDECK
 
-Make sure all the game files are at their proper location **Read Above**.
+Make sure all the game files are at their proper location.
 
 ### Quake & Episodes / Expansions 
 

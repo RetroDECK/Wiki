@@ -287,11 +287,11 @@ RetroDECK ships with the following optional bindings by default:
 
 ### ⌨️ Keyboard and 🖱️ Mouse
 
-- **Q / E:** Suitable for frequently used secondary actions.
+- **Q / E:** Suitable for action-oriented functions that require frequent access.
 - **F:** Suitable for context-sensitive actions or interactions.
 - **G:** Suitable for grenades or other secondary attacks.
 - **R:** Typically used for Reload.
-- **Shift / Ctrl / Alt:** Suitable for movement modifiers or frequently used secondary actions.
+- **Shift / Ctrl / Alt:** Suitable for movement modifiers or used secondary actions.
 - **Number keys:** Useful for additional weapons or less frequently accessed functions.
 - **Unused letter keys:** Suitable for mod-specific actions and extra menus.
 
@@ -299,11 +299,12 @@ RetroDECK ships with the following optional bindings by default:
 
 The following inputs are generally available for additional bindings:
 
-- **L1 / LB:** Use for action-oriented functions that require frequent access.
-- **L2 / LT:** Use for another frequently accessed action.
-- **D-pad Up:** Use for less frequently accessed functions, such as extra menus.
-- **D-pad Down:** Use for other infrequent functions, such as extra menus.
-- **R3:** If a mod adds a movement ability that can replace Quick Turn, bind it to R3.
+- **L1 / LB:** Suitable for action-oriented functions that require frequent access.
+- **L2 / LT:** Suitable for another frequently accessed action.
+- **D-pad Up:** Suitable for infrequent functions, such as extra menus or item use.
+- **D-pad Down:** Suitable for infrequent functions, such as extra menus or item use.
+- **Right Stick Click / R3:** Suitable for movement modifiers or used secondary actions.
+- **Left Stick Click / L3:** Suitable for movement modifiers or used secondary actions.
 
 ---
 

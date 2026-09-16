@@ -276,14 +276,15 @@ You can change any default bindings provided by RetroDECK. If the bindings becom
 
 **Example: Optional Extra Bindings**
 
-RetroDECK ships with the following optional bindings by default:
+RetroDECK ships with the following optional bindings by default used by some mods:
 
-| Action | Xbox / Steam Deck | PlayStation | Nintendo | PC | Comment |
-|:--|:--:|:--:|:--:|:--:|:--|
-| Dash | R3 | R3 | R3 | `Shift` | Replaces Quick Turn |
-| Quick Melee / Special Action | LB | L1 | L | `Q` |  |
-| Reload | Y | △ | X | `R` |  |
-| Throw Grenade / Second Special Action | LT | L2 | ZL | `G` | Replaces Zoom, many DOOM mods use Secondary Fire for this. |
+| Action | Xbox - Steam Deck / PlayStation / Nintendo | PC | Comment |
+|:--|:--:|:--:|:--|
+| Dash | R3 | `Shift` | |
+| Quick Melee / Special Action | LB / L1 / L | `Q` | |
+| Reload | Y / △ / X | `R` | |
+| Throw Grenade / Second Special Action | LT / L2 / ZL | `G` | |
+
 
 ### ⌨️ Keyboard and 🖱️ Mouse
 
@@ -303,8 +304,8 @@ The following inputs are generally available for additional bindings:
 - **L2 / LT:** Suitable for another frequently accessed action.
 - **D-pad Up:** Suitable for infrequent functions, such as extra menus or item use.
 - **D-pad Down:** Suitable for infrequent functions, such as extra menus or item use.
-- **Right Stick Click / R3:** Suitable for movement modifiers or used secondary actions.
-- **Left Stick Click / L3:** Suitable for movement modifiers or used secondary actions.
+- **R3:** Suitable for movement modifiers or used secondary actions.
+- **L3:** Suitable for movement modifiers or used secondary actions.
 
 ---
 

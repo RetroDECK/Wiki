@@ -221,80 +221,87 @@ This method is **not guaranteed to work** with every mod. If the mod does not la
 
 ### ⌨️ Keyboard and 🖱️ Mouse
 
-| Input | Action | Command |
+| Action | Input | Command |
 |---|---|---|
-| `TAB` | Scores | `+scores` |
-| `ENTER` | Use item | `+button2` |
-| `ESCAPE` | Menu | `togglemenu` |
-| `SPACE` | Jump | `+moveup` |
-| `+` / `=` | Increase screen size | `sizeup` |
-| `-` / `_` | Decrease screen size | `sizedown` |
-| `/` / `]` | Next weapon | `weapnext` |
-| `[` | Previous weapon | `weapprev` |
-| `0` | Grappling Hook | `weapon 10` |
-| `1` | Gauntlet | `weapon 1` |
-| `2` | Machine Gun | `weapon 2` |
-| `3` | Shotgun | `weapon 3` |
-| `4` | Grenade Launcher | `weapon 4` |
-| `5` | Rocket Launcher | `weapon 5` |
-| `6` | Lightning Gun | `weapon 6` |
-| `7` | Railgun | `weapon 7` |
-| `8` | Plasma Gun | `weapon 8` |
-| `9` | BFG 10K | `weapon 9` |
-| `\` | Mouse look | `+mlook` |
-| `` ` `` / `~` | Console | `toggleconsole` |
-| `A` | Move left | `+moveleft` |
-| `C` | Crouch | `+movedown` |
-| `D` | Move right | `+moveright` |
-| `S` | Move backward | `+back` |
-| `T` | Chat | `messagemode` |
-| `W` | Move forward | `+forward` |
-| `PAUSE` | Pause | `pause` |
-| `↑` | Move forward | `+forward` |
-| `↓` | Move backward | `+back` |
-| `←` | Turn left | `+left` |
-| `→` | Turn right | `+right` |
-| `ALT` | Strafe | `+strafe` |
-| `CTRL` | Attack / Fire | `+attack` |
-| `SHIFT` | Run / Sprint | `+speed` |
-| `DEL` | Look down | `+lookdown` |
-| `PGDN` | Look up | `+lookup` |
-| `END` | Center view | `centerview` |
-| `F1` | Vote yes | `vote yes` |
-| `F2` | Vote no | `vote no` |
-| `F3` | Team orders | `ui_teamorders` |
-| `F11` | Screenshot | `screenshot` |
-| `MOUSE1` | Attack / Fire | `+attack` |
-| `MOUSE2` | Strafe | `+strafe` |
-| `MOUSE3` | Zoom | `+zoom` |
-| `MWHEELUP` | Previous weapon | `weapprev` |
-| `MWHEELDOWN` | Next weapon | `weapnext` |
+| Attack / Fire | `CTRL` | `+attack` |
+| Attack / Fire | `MOUSE1` | `+attack` |
+| BFG 10K | `9` | `weapon 9` |
+| Center view | `END` | `centerview` |
+| Chat | `T` | `messagemode` |
+| Console | `` ` `` / `~` | `toggleconsole` |
+| Crouch | `C` | `+movedown` |
+| Decrease screen size | `-` / `_` | `sizedown` |
+| Increase screen size | `+` / `=` | `sizeup` |
+| Jump | `SPACE` | `+moveup` |
+| Lightning Gun | `6` | `weapon 6` |
+| Look down | `DEL` | `+lookdown` |
+| Look up | `PGDN` | `+lookup` |
+| Machine Gun | `2` | `weapon 2` |
+| Menu | `ESCAPE` | `togglemenu` |
+| Mouse look | `\` | `+mlook` |
+| Move backward | `S` | `+back` |
+| Move backward | `↓` | `+back` |
+| Move forward | `W` | `+forward` |
+| Move forward | `↑` | `+forward` |
+| Move left | `A` | `+moveleft` |
+| Move right | `D` | `+moveright` |
+| Next weapon | `/` / `]` | `weapnext` |
+| Next weapon | `MWHEELDOWN` | `weapnext` |
+| Pause | `PAUSE` | `pause` |
+| Plasma Gun | `8` | `weapon 8` |
+| Previous weapon | `[` | `weapprev` |
+| Previous weapon | `MWHEELUP` | `weapprev` |
+| Railgun | `7` | `weapon 7` |
+| Rocket Launcher | `5` | `weapon 5` |
+| Run / Sprint | `SHIFT` | `+speed` |
+| Scores | `TAB` | `+scores` |
+| Screenshot | `F11` | `screenshot` |
+| Shotgun | `3` | `weapon 3` |
+| Strafe | `ALT` | `+strafe` |
+| Strafe | `MOUSE2` | `+strafe` |
+| Team orders | `F3` | `ui_teamorders` |
+| Turn left | `←` | `+left` |
+| Turn right | `→` | `+right` |
+| Use item | `ENTER` | `+button2` |
+| Vote no | `F2` | `vote no` |
+| Vote yes | `F1` | `vote yes` |
+| Weapon 0 - Grappling Hook | `0` | `weapon 10` |
+| Weapon 1 - Gauntlet | `1` | `weapon 1` |
+| Weapon 2 - Machine Gun | `2` | `weapon 2` |
+| Weapon 3 - Shotgun | `3` | `weapon 3` |
+| Weapon 4 - Grenade Launcher | `4` | `weapon 4` |
+| Weapon 5 - Rocket Launcher | `5` | `weapon 5` |
+| Weapon 6 - Lightning Gun | `6` | `weapon 6` |
+| Weapon 7 - Railgun | `7` | `weapon 7` |
+| Weapon 8 - Plasma Gun | `8` | `weapon 8` |
+| Weapon 9 - BFG 10K | `9` | `weapon 9` |
+| Zoom | `MOUSE3` | `+zoom` |
 
 
 ### 🎮 Gamepad
 
-| Input | Xbox / Steam Deck / PlayStation / Nintendo | Action | Command |
+| Action | Xbox / Steam Deck / PlayStation / Nintendo | Input | Command |
 |---|---|---|---|
-| `PAD0_B` | B / ○ / A | Jump | `+moveup` |
-| `PAD0_A` | A / × / B | Crouch | `+movedown` |
-| `PAD0_Y` | Y / △ / X | Use item | `+button2` |
-| `PAD0_RIGHTTRIGGER` | RT / R2 / ZR | Attack / Fire | `+attack` |
-| `PAD0_RIGHTSHOULDER` | RB / R1 / R | Run / Sprint | `+speed` |
-| `PAD0_RIGHTSTICK_CLICK` | R3 | Zoom | `+zoom` |
-| `PAD0_LEFTSTICK_CLICK` | L3 | Center view | `centerview` |
-| `PAD0_DPAD_UP` | ↑ | Scores | `+scores` |
-| `PAD0_DPAD_DOWN` | ↓ | Console | `toggleconsole` |
-| `PAD0_DPAD_LEFT` | ← | Previous weapon | `weapprev` |
-| `PAD0_DPAD_RIGHT` | → | Next weapon | `weapnext` |
-| `PAD0_START` | Start / Options / + | Menu | `togglemenu` |
-| `PAD0_LEFTSTICK_UP` | Left Stick ↑ | Move forward | `+forward` |
-| `PAD0_LEFTSTICK_DOWN` | Left Stick ↓ | Move backward | `+back` |
-| `PAD0_LEFTSTICK_LEFT` | Left Stick ← | Move left | `+moveleft` |
-| `PAD0_LEFTSTICK_RIGHT` | Left Stick → | Move right | `+moveright` |
-| `PAD0_RIGHTSTICK_UP` | Right Stick ↑ | Look up | `+lookup` |
-| `PAD0_RIGHTSTICK_DOWN` | Right Stick ↓ | Look down | `+lookdown` |
-| `PAD0_RIGHTSTICK_LEFT` | Right Stick ← | Turn left | `+left` |
-| `PAD0_RIGHTSTICK_RIGHT` | Right Stick → | Turn right | `+right` |
+| Attack / Fire | RT / R2 / ZR | `PAD0_RIGHTTRIGGER` | `+attack` |
+| Center view | L3 | `PAD0_LEFTSTICK_CLICK` | `centerview` |
+| Console | ↓ | `PAD0_DPAD_DOWN` | `toggleconsole` |
+| Crouch | A / × / B | `PAD0_A` | `+movedown` |
+| Jump | B / ○ / A | `PAD0_B` | `+moveup` |
+| Look down | Right Stick ↓ | `PAD0_RIGHTSTICK_DOWN` | `+lookdown` |
+| Look up | Right Stick ↑ | `PAD0_RIGHTSTICK_UP` | `+lookup` |
+| Menu | Start / Options / + | `PAD0_START` | `togglemenu` |
+| Move backward | Left Stick ↓ | `PAD0_LEFTSTICK_DOWN` | `+back` |
+| Move forward | Left Stick ↑ | `PAD0_LEFTSTICK_UP` | `+forward` |
+| Move left | Left Stick ← | `PAD0_LEFTSTICK_LEFT` | `+moveleft` |
+| Move right | Left Stick → | `PAD0_LEFTSTICK_RIGHT` | `+moveright` |
+| Next weapon | → | `PAD0_DPAD_RIGHT` | `weapnext` |
+| Previous weapon | ← | `PAD0_DPAD_LEFT` | `weapprev` |
+| Run / Sprint | RB / R1 / R | `PAD0_RIGHTSHOULDER` | `+speed` |
+| Scores | ↑ | `PAD0_DPAD_UP` | `+scores` |
+| Turn left | Right Stick ← | `PAD0_RIGHTSTICK_LEFT` | `+left` |
+| Turn right | Right Stick → | `PAD0_RIGHTSTICK_RIGHT` | `+right` |
+| Use item | Y / △ / X | `PAD0_Y` | `+button2` |
+| Zoom | R3 | `PAD0_RIGHTSTICK_CLICK` | `+zoom` |
 
 
 ---

@@ -223,59 +223,52 @@ This method is **not guaranteed to work** with every mod. If the mod does not la
 
 | Action | Input | Command |
 |---|---|---|
-| Attack / Fire | `CTRL` | `+attack` |
-| Attack / Fire | `MOUSE1` | `+attack` |
-| BFG 10K | `9` | `weapon 9` |
-| Center view | `END` | `centerview` |
-| Chat | `T` | `messagemode` |
-| Console | `` ` `` / `~` | `toggleconsole` |
-| Crouch | `C` | `+movedown` |
-| Decrease screen size | `-` / `_` | `sizedown` |
-| Increase screen size | `+` / `=` | `sizeup` |
-| Jump | `SPACE` | `+moveup` |
-| Lightning Gun | `6` | `weapon 6` |
-| Look down | `DEL` | `+lookdown` |
-| Look up | `PGDN` | `+lookup` |
-| Machine Gun | `2` | `weapon 2` |
-| Menu | `ESCAPE` | `togglemenu` |
-| Mouse look | `\` | `+mlook` |
-| Move backward | `S` | `+back` |
-| Move backward | `↓` | `+back` |
-| Move forward | `W` | `+forward` |
-| Move forward | `↑` | `+forward` |
-| Move left | `A` | `+moveleft` |
-| Move right | `D` | `+moveright` |
-| Next weapon | `/` / `]` | `weapnext` |
-| Next weapon | `MWHEELDOWN` | `weapnext` |
-| Pause | `PAUSE` | `pause` |
-| Plasma Gun | `8` | `weapon 8` |
-| Previous weapon | `[` | `weapprev` |
-| Previous weapon | `MWHEELUP` | `weapprev` |
-| Railgun | `7` | `weapon 7` |
-| Rocket Launcher | `5` | `weapon 5` |
-| Run / Sprint | `SHIFT` | `+speed` |
-| Scores | `TAB` | `+scores` |
-| Screenshot | `F11` | `screenshot` |
-| Shotgun | `3` | `weapon 3` |
-| Strafe | `ALT` | `+strafe` |
-| Strafe | `MOUSE2` | `+strafe` |
-| Team orders | `F3` | `ui_teamorders` |
-| Turn left | `←` | `+left` |
-| Turn right | `→` | `+right` |
-| Use item | `ENTER` | `+button2` |
-| Vote no | `F2` | `vote no` |
-| Vote yes | `F1` | `vote yes` |
-| Weapon 0 - Grappling Hook | `0` | `weapon 10` |
-| Weapon 1 - Gauntlet | `1` | `weapon 1` |
-| Weapon 2 - Machine Gun | `2` | `weapon 2` |
-| Weapon 3 - Shotgun | `3` | `weapon 3` |
-| Weapon 4 - Grenade Launcher | `4` | `weapon 4` |
-| Weapon 5 - Rocket Launcher | `5` | `weapon 5` |
-| Weapon 6 - Lightning Gun | `6` | `weapon 6` |
-| Weapon 7 - Railgun | `7` | `weapon 7` |
-| Weapon 8 - Plasma Gun | `8` | `weapon 8` |
-| Weapon 9 - BFG 10K | `9` | `weapon 9` |
-| Zoom | `MOUSE3` | `+zoom` |
+| Attack / Fire | <kbd>CTRL</kbd> | `+attack` |
+| Attack / Fire | <kbd>MOUSE1</kbd> | `+attack` |
+| Center view | <kbd>END</kbd> | `centerview` |
+| Chat | <kbd>T</kbd> | `messagemode` |
+| Console | <kbd>`</kbd> / <kbd>~</kbd> | `toggleconsole` |
+| Crouch | <kbd>C</kbd> | `+movedown` |
+| Decrease screen size | <kbd>-</kbd> / <kbd>_</kbd> | `sizedown` |
+| Increase screen size | <kbd>+</kbd> / <kbd>=</kbd> | `sizeup` |
+| Jump | <kbd>SPACE</kbd> | `+moveup` |
+| Look down | <kbd>DEL</kbd> | `+lookdown` |
+| Look up | <kbd>PGDN</kbd> | `+lookup` |
+| Menu | <kbd>ESCAPE</kbd> | `togglemenu` |
+| Mouse look | <kbd>\</kbd> | `+mlook` |
+| Move backward | <kbd>S</kbd> | `+back` |
+| Move backward | <kbd>↓</kbd> | `+back` |
+| Move forward | <kbd>W</kbd> | `+forward` |
+| Move forward | <kbd>↑</kbd> | `+forward` |
+| Move left | <kbd>A</kbd> | `+moveleft` |
+| Move right | <kbd>D</kbd> | `+moveright` |
+| Next weapon | <kbd>/</kbd> / <kbd>]</kbd> | `weapnext` |
+| Next weapon | <kbd>MWHEELDOWN</kbd> | `weapnext` |
+| Pause | <kbd>PAUSE</kbd> | `pause` |
+| Previous weapon | <kbd>[</kbd> | `weapprev` |
+| Previous weapon | <kbd>MWHEELUP</kbd> | `weapprev` |
+| Run / Sprint | <kbd>SHIFT</kbd> | `+speed` |
+| Scores | <kbd>TAB</kbd> | `+scores` |
+| Screenshot | <kbd>F11</kbd> | `screenshot` |
+| Strafe | <kbd>ALT</kbd> | `+strafe` |
+| Strafe | <kbd>MOUSE2</kbd> | `+strafe` |
+| Team orders | <kbd>F3</kbd> | `ui_teamorders` |
+| Turn left | <kbd>←</kbd> | `+left` |
+| Turn right | <kbd>→</kbd> | `+right` |
+| Use item | <kbd>ENTER</kbd> | `+button2` |
+| Vote no | <kbd>F2</kbd> | `vote no` |
+| Vote yes | <kbd>F1</kbd> | `vote yes` |
+| Weapon 0 - Grappling Hook | <kbd>0</kbd> | `weapon 10` |
+| Weapon 1 - Gauntlet | <kbd>1</kbd> | `weapon 1` |
+| Weapon 2 - Machine Gun | <kbd>2</kbd> | `weapon 2` |
+| Weapon 3 - Shotgun | <kbd>3</kbd> | `weapon 3` |
+| Weapon 4 - Grenade Launcher | <kbd>4</kbd> | `weapon 4` |
+| Weapon 5 - Rocket Launcher | <kbd>5</kbd> | `weapon 5` |
+| Weapon 6 - Lightning Gun | <kbd>6</kbd> | `weapon 6` |
+| Weapon 7 - Railgun | <kbd>7</kbd> | `weapon 7` |
+| Weapon 8 - Plasma Gun | <kbd>8</kbd> | `weapon 8` |
+| Weapon 9 - BFG 10K | <kbd>9</kbd> | `weapon 9` |
+| Zoom | <kbd>MOUSE3</kbd> | `+zoom` |
 
 
 ### 🎮 Gamepad

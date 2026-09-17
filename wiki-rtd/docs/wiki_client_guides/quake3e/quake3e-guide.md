@@ -34,22 +34,20 @@ Quake 3 games should be put under the `retrodeck/roms/quake3/` directory.
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
-No, Quake3e does not require any BIOS or firmware files. 
-
-However, you do need copies of the official **Quake III Arena** game data files and place them in  `retrodeck/roms/quake3/baseq3`. 
+Yes, you do need copies of the official **Quake III Arena** game data files and place them in  `retrodeck/roms/quake3/baseq3`. 
 
 | pk3 File | Path | MD5 | Comments |
 |------|------|-----|----------|
-| Quake III Arena - pak0.pk3 | `retrodeck/roms/quake3/baseq3` | `1197ca3df1e65f3c380f8abc10ca43bf` |  |
-| Quake III Arena - pak1.pk3 | `retrodeck/roms/quake3/baseq3` | `48911719d91be25adb957f2d325db4a0` |  |
-| Quake III Arena - pak2.pk3 | `retrodeck/roms/quake3/baseq3` | `d550ce896130c47166ca44b53f8a670a` |  |
-| Quake III Arena - pak3.pk3 | `retrodeck/roms/quake3/baseq3` | `968dfd0f30dad67056115c8e92344ddc` |  |
-| Quake III Arena - pak4.pk3 | `retrodeck/roms/quake3/baseq3` | `24bb1f4fcabd95f6e320c0e2f62f19ca` |  |
-| Quake III Arena - pak5.pk3 | `retrodeck/roms/quake3/baseq3` | `734dcd06d2cbc7a16432ff6697f1c5ba` |  |
-| Quake III Arena - pak6.pk3 | `retrodeck/roms/quake3/baseq3` | `873888a73055c023f6c38b8ca3f2ce05` |  |
-| Quake III Arena - pak7.pk3 | `retrodeck/roms/quake3/baseq3` | `8fd38c53ed814b64f6ab03b5290965e4` |  |
-| Quake III Arena - pak8.pk3 | `retrodeck/roms/quake3/baseq3` | `d8b96d429ca4a9c289071cb7e77e14d2` |  |
-| Quake III Arena - pak8.pk3 | `retrodeck/roms/quake3/baseq3` | `d8b96d429ca4a9c289071cb7e77e14d2` |  |
+| pak0.pk3 | `retrodeck/roms/quake3/baseq3` | `1197ca3df1e65f3c380f8abc10ca43bf` |  |
+| pak1.pk3 | `retrodeck/roms/quake3/baseq3` | `48911719d91be25adb957f2d325db4a0` |  |
+| pak2.pk3 | `retrodeck/roms/quake3/baseq3` | `d550ce896130c47166ca44b53f8a670a` |  |
+| pak3.pk3 | `retrodeck/roms/quake3/baseq3` | `968dfd0f30dad67056115c8e92344ddc` |  |
+| pak4.pk3 | `retrodeck/roms/quake3/baseq3` | `24bb1f4fcabd95f6e320c0e2f62f19ca` |  |
+| pak5.pk3 | `retrodeck/roms/quake3/baseq3` | `734dcd06d2cbc7a16432ff6697f1c5ba` |  |
+| pak6.pk3 | `retrodeck/roms/quake3/baseq3` | `873888a73055c023f6c38b8ca3f2ce05` |  |
+| pak7.pk3 | `retrodeck/roms/quake3/baseq3` | `8fd38c53ed814b64f6ab03b5290965e4` |  |
+| pak8.pk3 | `retrodeck/roms/quake3/baseq3` | `d8b96d429ca4a9c289071cb7e77e14d2` |  |
+| pak8.pk3 | `retrodeck/roms/quake3/baseq3` | `d8b96d429ca4a9c289071cb7e77e14d2` |  |
 
 ---
 

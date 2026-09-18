@@ -241,51 +241,68 @@ rdflatpak() {
     echo ""
     echo "RetroDECK Flatpak Tools"
     echo "-----------------------"
-    echo "1) Show RetroDECK package info"
-    echo "2) Update RetroDECK only"
-    echo "3) Repair RetroDECK only"
-    echo "4) Reset RetroDECK user overrides (fixes bwrap/execvp errors)"
-    echo "5) Update ALL Flatpaks (system + user)"
-    echo "6) Repair ALL Flatpaks (system + user)"
+    echo "1) Update: RetroDECK"
+    echo "2) Show: RetroDECK package info"
+    echo "3) Show: RetroDECK Flatpak log"
+    echo "4) Repair: RetroDECK Flatpak"
+    echo "5) Reset: RetroDECK Flatpak overrides (fixes bwrap/execvp errors)"
+    echo "6) Update: ALL Flatpaks (system + user)"
+    echo "7) Repair: ALL Flatpaks (system + user)"
+    echo "8) Show: Flathub history for Flatpak ID"
     echo "q) Quit"
     echo ""
-    read -rp "Choice [1-6/q]: " choice
+    read -rp "Choice [1-8/q]: " choice
     echo ""
     case "$choice" in
         1)
-            echo "Fetching package info..."
-            flatpak info -e net.retrodeck.retrodeck
-            echo "Done."
-            ;;
-        2)
             echo "Updating RetroDECK..."
             flatpak update net.retrodeck.retrodeck -y
             echo "Done."
             ;;
+        2)
+            echo "Fetching package info..."
+            flatpak info -e net.retrodeck.retrodeck
+            echo "Done."
+            ;;
         3)
+            echo "Fetching RetroDECK Flatpak log..."
+            flatpak remote-info --log flathub net.retrodeck.retrodeck
+            echo "Done."
+            ;;
+        4)
             echo "Repairing RetroDECK..."
             flatpak repair net.retrodeck.retrodeck
             flatpak repair --user net.retrodeck.retrodeck
             echo "Done."
             ;;
-        4)
+        5)
             echo "Resetting RetroDECK user overrides..."
             flatpak override --user net.retrodeck.retrodeck --reset
             echo "Done."
             ;;
-        5)
+        6)
             echo "Updating system Flatpaks..."
             flatpak update
             echo "Updating user Flatpaks..."
             flatpak update --user
             echo "Done."
             ;;
-        6)
+        7)
             echo "Repairing system Flatpaks..."
             flatpak repair
             echo "Repairing user Flatpaks..."
             flatpak repair --user
             echo "Done."
+            ;;
+        8)
+            read -rp "Enter Flatpak ID (e.g. org.mozilla.firefox): " flatpakid
+            echo ""
+            if [[ -n "$flatpakid" ]]; then
+                echo "Fetching Flathub history for $flatpakid..."
+                flatpak remote-info --log flathub "$flatpakid"
+            else
+                echo "No Flatpak ID entered."
+            fi
             ;;
         q|Q)
             echo "Cancelled."
@@ -296,6 +313,7 @@ rdflatpak() {
     esac
     echo ""
 }
+
 
 # ========================================================
 # RetroDECK Remove Tool: rdremove

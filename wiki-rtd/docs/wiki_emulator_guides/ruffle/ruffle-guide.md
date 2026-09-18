@@ -75,20 +75,24 @@ No
 
 ---
 
-## Controls in Games
+## Ruffle Controls
 
 Most flash games were designed for mouse and/or keyboard controls, with each game having its own unique setup. 
 
-There's no one-size-fits-all solution for game inputs. 
+There's **no one-size-fits-all** solution for game inputs. 
 
-Some games might use the keyboard (WASD, arrow keys, numpad), the mouse, or a combination of these.
+**Some games might use:**
 
-Suggestions on how to control games:
+- Keyboard: WASD, arrow keys, numpad or other.
+- Mouse.
+- A combination of mixed inputs.
+
+**Suggestions on how to control games:**
 
 - Use a real keyboard and mouse.
-- Use RetroDECK's Steam Input Layouts to emulate mouse input using a joystick.
-- Use the built-in touchpads on controllers or devices like the DualSense, DualShock 4, Steam Deck and Steam Controller.
-- Use the built-in touchscreens on devices like the Steam Deck.
+- Use RetroDECK's Steam Input Layouts to emulate mouse input on a controller using the right joystick.
+- Use the built-in touchpads as a mouse on controllers or devices like the DualSense, DualShock 4, Steam Deck and Steam Controller 2015 / 2026.
+- Use the built-in touchscreens as a mouse on devices like the Steam Deck.
 - Summon built-in virtual keyboards in SteamOS or your Linux distribution with a button combo.
 
 ---

@@ -219,6 +219,8 @@ This method is **not guaranteed to work** with every mod. If the mod does not la
 
 ## Controls
 
+Quake 3 should be played with ⌨️ Keyboard and 🖱️ Mouse
+
 ### ⌨️ Keyboard and 🖱️ Mouse
 
 | Action | Input | Command |
@@ -273,6 +275,33 @@ This method is **not guaranteed to work** with every mod. If the mod does not la
 
 ### 🎮 Gamepad
 
+Gamepad input is currently not supported.
+
+If you launch RetroDECK through Steam, you can use **Steam Input** with the `Keyboard (WASD) and Mouse` controller template. Edit the template as needed to match your controller.
+
+This configuration can be used with **Quake III Arena**. However, due to the game's fast-paced gameplay, controller input may not provide an optimal experience.
+
+For the best experience, **Quake III Arena is recommended to be played with a keyboard and mouse**.
+
+**Note:** 
+
+If you change RetroDECK's input type, remember to restore it to your previous configuration after exiting Quake III Arena.
+
+---
+
+## Troubleshooting
+
+| Topic | Issue | Solution |
+|---|---|---|
+| **Missing Models in Player Selection** | Some graphics cards may have difficulty rendering models in the Player model picker. | **None:** The models function correctly in-game. The issue is limited to the model selection window. |
+| **Invalid CD Key** | CD keys from the GOG and Steam versions are no longer required or valid for online play. This is a legacy requirement from the early days of Quake 3. | Ignore the message. |
+| **Controller Bindings does not work** | External bug. | Wait for updates. |
+
+
+### 🎮 Gamepad
+
+Intended none working gamepad inputs.
+
 | Action | Xbox / Steam Deck / PlayStation / Nintendo | Input | Command |
 |---|---|---|---|
 | Attack / Fire | RT / R2 / ZR | `PAD0_RIGHTTRIGGER` | `+attack` |
@@ -295,16 +324,6 @@ This method is **not guaranteed to work** with every mod. If the mod does not la
 | Turn right | Right Stick → | `PAD0_RIGHTSTICK_RIGHT` | `+right` |
 | Use item | Y / △ / X | `PAD0_Y` | `+button2` |
 | Zoom | R3 | `PAD0_RIGHTSTICK_CLICK` | `+zoom` |
-
-
----
-
-## Troubleshooting
-
-| Topic | Issue | Solution |
-|---|---|---|
-| **Missing Models in Player Selection** | Some graphics cards may have difficulty rendering models in the Player model picker. | **None:** The models function correctly in-game. The issue is limited to the model selection window. |
-| **Invalid CD Key** | CD keys from the GOG and Steam versions are no longer required or valid for online play. This is a legacy requirement from the early days of Quake 3. | Ignore the message. |
 
 ---
 

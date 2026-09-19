@@ -91,6 +91,30 @@ This example uses **Fierymud** and **Midnight Sun 2**, but the same process appl
 
 ---
 
+## How-To: Install Mudlet Packages
+
+[Mudlet Package Repository](https://packages.mudlet.org/packages) add functionality to Mudlet. Some packages are designed for a specific MUD, while others can be used across multiple MUDs.
+
+**Note:** Packages are installed per Mudlet profile. You must be connected to the profile where you want to install the package.
+
+### Install a Package: From a File
+
+1. Open Mudlet and connect to the profile where you want to install the package.
+2. Open **Toolbox → Package Manager** or press `Alt+O`.
+3. Select **Install from file**.
+4. Select the package file and follow the prompts to complete the installation.
+
+### Install a Package: Drag and Drop
+
+1. Open the package's page.
+2. Select **Drag into Mudlet**.
+3. Drag the package to the Mudlet game window.
+4. Release the package to start the installation.
+
+If drag-and-drop is difficult or unavailable, use **Install from file** instead.
+
+---
+
 ## Troubleshooting
 
 | Topic | Issue | Solution |

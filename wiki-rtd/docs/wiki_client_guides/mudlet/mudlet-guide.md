@@ -58,7 +58,6 @@ No, Mudlet does **not** require a BIOS or firmware. MUDs run on remote servers, 
 | Type | Directory                 | Comment                           |
 |:----:|:--------------------------|:---------------------------------|
 | ROMs | `retrodeck/roms/muds/<server_profiles>`    |    All local server-specific data is stored in its own server profile directory.           |
-| Plugins | `retrodeck/storage/mudlet/plugins/`    |   Mudlet Plugins directory     |
 
 ---
 

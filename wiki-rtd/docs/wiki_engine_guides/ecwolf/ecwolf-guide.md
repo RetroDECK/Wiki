@@ -271,6 +271,68 @@ Below is a combined table containing purchase links.
 
 ---
 
+
+### ⌨️ Keyboard and 🖱️ Mouse
+
+| Action | Input | Command |
+|---|---|---|
+| Alt Attack | `MOUSE2` | `Mouse_Alt_Attack` |
+| Attack | `CTRL` / `MOUSE1` | `Keyboard_Attack` / `Mouse_Attack` |
+| Automap |  | `Keyboard_Automap` / `Mouse_Automap` |
+| Backward | `S` | `Keyboard_Backward` |
+| Forward | `W` | `Keyboard_Forward` |
+| Next Weapon | `MOUSE4` (Scoll up) | `Mouse_Next_Weapon` |
+| Pause | `PAUSE` | `Keyboard_Pause` |
+| Previous Weapon | `MOUSE3` (Scoll down) | `Mouse_Prev_Weapon` |
+| Reload |  | `Keyboard_Reload` / `Mouse_Reload` |
+| Run | `SHIFT` | `Keyboard_Run` |
+| Show Status | `TAB` | `Keyboard_Show_Status` |
+| Strafe | `ALT` | `Keyboard_Strafe` |
+| Strafe Left | `Q` | `Keyboard_Strafe_Left` |
+| Strafe Right | `E` | `Keyboard_Strafe_Right` |
+| Turn Left | `A` | `Keyboard_Turn_Left` |
+| Turn Right | `D` | `Keyboard_Turn_Right` |
+| Use | `SPACE` | `Keyboard_Use` |
+| Weapon Slot 0 | `0` | `Keyboard_Slot_0` |
+| Weapon Slot 1 | `1` | `Keyboard_Slot_1` |
+| Weapon Slot 2 | `2` | `Keyboard_Slot_2` |
+| Weapon Slot 3 | `3` | `Keyboard_Slot_3` |
+| Weapon Slot 4 | `4` | `Keyboard_Slot_4` |
+| Weapon Slot 5 | `5` | `Keyboard_Slot_5` |
+| Weapon Slot 6 | `6` | `Keyboard_Slot_6` |
+| Weapon Slot 7 | `7` | `Keyboard_Slot_7` |
+| Weapon Slot 8 | `8` | `Keyboard_Slot_8` |
+| Weapon Slot 9 | `9` | `Keyboard_Slot_9` |
+| Zoom |  | `Keyboard_Zoom` / `Mouse_Zoom` |
+
+
+### 🎮 Gamepad
+
+| Action | Xbox - Steam Deck / Playstation / Nintendo | Input | Command |
+|---|---|---|---|
+| Alt Attack |  | `JOY41` | `Joystick_Alt_Attack` |
+| Attack |  | `JOY43` | `Joystick_Attack` |
+| Automap |  | `JOY11` | `Joystick_Automap` |
+| Backward |  | `AXIS1PLUS` | `Joystick_Backward` |
+| Forward |  | `AXIS1MINUS` | `Joystick_Forward` |
+| Next Weapon |  | `JOY10` | `Joystick_Next_Weapon` |
+| Pause |  | `JOY4` | `Joystick_Pause` |
+| Previous Weapon |  | `JOY9` | `Joystick_Prev_Weapon` |
+| Reload |  | `JOY1` | `Joystick_Reload` |
+| Run |  | `JOY2` | `Joystick_Run` |
+| Show Status |  | `JOY12` | `Joystick_Show_Status` |
+| Strafe |  | `JOY3` | `Joystick_Strafe` |
+| Strafe Left |  | `AXIS0MINUS` | `Joystick_Strafe_Left` |
+| Strafe Right |  | `AXIS0PLUS` | `Joystick_Strafe_Right` |
+| Turn Left |  | `AXIS3MINUS` | `Joystick_Turn_Left` |
+| Turn Right |  | `AXIS3PLUS` | `Joystick_Turn_Right` |
+| Use |  | `JOY0` | `Joystick_Use` |
+| Zoom |  | `JOY8` | `Joystick_Zoom` |
+
+
+---
+
+
 ## Cheats
 
 ### Wolfenstein 3D

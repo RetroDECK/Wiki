@@ -378,7 +378,9 @@ nav:
       - component_launcher.sh: wiki_development/components/component-files/component-ingredient-launcher.md
       - component_manifest.json: wiki_development/components/component-files/component-ingredient-manifest.md
 
-    - ES-DE Development Guide: wiki_development/es-de/es-de-development-guide.md
+    - ES-DE Development:
+      - ES-DE Development Guide: wiki_development/es-de/es-de-development-guide.md
+      - ES-DE RetroDECK Theme Development: wiki_development/es-de/es-de-retrodeck-themes.md
 
     - Graphics:
         - Easter Egg Splashes: wiki_development/graphics/easter-egg/easter-egg-splashes.md

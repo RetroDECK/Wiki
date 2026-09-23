@@ -13,7 +13,7 @@ Use the official RetroDECK theme as a reference and starting point:
 
 | System | Theme | Platform | Comments |
 |---|---|---|---|
-| Commander X16 | `commander-x16` | `commander-x16, x16, pc, pcwindows` | |
+| Commander X16 | `commander-x16` | `commander-x16, x16, pc, c64` | |
 | Doom 3 | `doom3` | `pc, pcwindows` | |
 | Interactive Fiction | `if` | `zmachine, if, pc, pcwindows, dos, c64` | |
 | Microvision | `microvision` | `microvision` | |

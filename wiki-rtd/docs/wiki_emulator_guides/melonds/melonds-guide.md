@@ -81,6 +81,7 @@ Directly into the folder
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
 | BIOS   | `retrodeck/bios/`                                 |               |
+| Cheats | `retrodeck/cheats/MelonDS/`                       |               |
 | Config | `~/.var/app/net.retrodeck.retrodeck/config/melonDS/` | `melonDS.ini` |
 | ROMs   | `retrodeck/roms/nds/`                             |               |
 | Saves  | `retrodeck/saves/nds/melonds/`                    |               |

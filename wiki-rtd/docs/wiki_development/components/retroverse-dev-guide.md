@@ -1,4 +1,4 @@
-﻿# RetroVERSE
+﻿# RetroVERSE - Development Guide
 
 <img src="../../wiki_icons/retrodeck/icon-retroverse.svg" width="75" alt="RetroVERSE Logo">
 

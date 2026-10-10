@@ -86,7 +86,7 @@ These are the default controls shipped by sm2-emu
 | Left | D-pad ← | POV1LEFT |
 | Right | D-pad → | POV1RIGHT |
 | Start | Menu / Options / + | JOY7 |
-| Coin | View / Share / − | JOY5 |
+| Coin | View / Share / Select | JOY5 |
 | Gear up | RB / R1 / R | JOY11 |
 | Gear down | LB / L1 / L | JOY10 |
 

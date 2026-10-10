@@ -90,5 +90,61 @@ These are the default controls shipped by sm2-emu
 | Gear up | RB / R1 / R | JOY11 |
 | Gear down | LB / L1 / L | JOY10 |
 
+### Official Documentation Controls
+
+This is a copy from:
+
+https://github.com/dmanlfc/sm2-emu/blob/main/README.md
+
+Every game is playable with either a standard gamepad or keyboard.
+Wheels, light guns and a mouse are supported as the preferred devices for the
+driving and gun titles, but none is required. Gamepads are read through SDL's
+gamepad layer, so anything with a mapping works without configuration. 
+
+The first pad to connect is player 1, pads can come and go while the game runs, and
+`--list-gamepads` shows what was recognised. Face buttons are read by position
+rather than by label.
+
+| Gamepad | Function |
+|---------|----------|
+| D-pad or left stick | Stick, steering and other centred analog axes |
+| A B X Y | Buttons 1 to 4 (also VR 1-4 on titles with view buttons) |
+| Left / right shoulder | Buttons 3/4; also gear/shift down/up on racers |
+| Left / right trigger | Brake / accelerate on driving titles |
+| Either stick | Aim on gun titles (no mouse needed); right trigger fires, left trigger reloads |
+| Start / Back | Start / insert a coin |
+| Guide + Start / Back | Service / Test (operator menus) |
+
+The keyboard is live at the same time, so a second player can join on it and
+the operator controls stay reachable without a pad:
+
+| Keys | Function |
+|------|----------|
+| `5` `6` | Coin 1, coin 2 |
+| `1` `2` | Start 1, start 2 |
+| `9` `0` | Service, test |
+| Arrows, `Z` `X` `C` `V` | Player 1 stick and buttons |
+| `W` `A` `S` `D`, `G` `H` `J` `K` | Player 2 stick and buttons |
+| Arrows | Steering and other centred analog axes |
+| `Left Ctrl` / `Left Alt` | Accelerate / brake (driving titles) |
+| `F1` / `F2` | Shift up / down (Indy 500, Manx TT family) |
+| `F1`–`F4`, `F5` | Gears 1 to 4, neutral (on gate-gearbox titles) |
+| `B` `N` `M` `,` | VR / view buttons 1 to 4 (on titles that have them) |
+| `Space` | Desert Tank forward/reverse shift |
+| Arrows + `Left Ctrl` | Aim + fire on gun titles (no mouse needed) |
+| `Escape` | Return to the game picker (quits if launched with no picker) |
+| `P` | Pause |
+| `F6` / `F7` | Quick-save / quick-load the current game's state |
+| `F8` | Toggle the FPS counter |
+| `F9` | Quit |
+| `F10` | Toggle the settings menu |
+| `F11` | Toggle fullscreen (`Cmd+F` on macOS, where the OS reserves F11) |
+| `F12` | Save a screenshot |
+| `Tab` (held) | Fast-forward |
+
+**Virtual On** (a twin-stick cabinet) on the keyboard: `W`/`A`/`S`/`D` are the
+left lever, the arrow keys the right lever, `Q`/`E` the left shot/dash and
+`Right Shift`/`Right Ctrl` the right shot/dash. On a pad the two analog sticks
+are the levers, the triggers the shots and the bumpers the dashes.
 
 

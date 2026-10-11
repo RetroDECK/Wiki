@@ -13,6 +13,7 @@ Use the official RetroDECK theme as a reference and starting point:
 
 | System | Theme | Platform | Comments |
 |---|---|---|---|
+| 2-XL Robot | `2-xl` | `2-xl` | |
 | BBK Electronic Dictionary | `bbk` | `bbk` | |
 | Bandai Playdia | `playdia` | `playdia` | |
 | Bandai Tamagotchi | `tamagotchi` | `tamagotchi` | |

@@ -21,6 +21,10 @@ For further details, refer to the [EasyRPG documentation on Libretro](https://do
 
 ## mkxp-z
 
+⚠️ **Note:** This is not yet in RetroDECK nor RetroArch ⚠️
+
+PR for RetroArch Native support is here: https://github.com/mkxp-z/mkxp-z/pull/255 and is being worked on. 
+
 **Supported Engines:**
 
 | Engine | 

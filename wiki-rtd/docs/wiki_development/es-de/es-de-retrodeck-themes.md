@@ -34,6 +34,7 @@ Use the official RetroDECK theme as a reference and starting point:
 | Open Surge | `opensurge` | `pc, pcwindows` | |
 | Philips P2000T | `p2000t` | `p2000t` | |
 | PrimeHack | `gc` / `wii` | `gc` / `wii` | |
+| Quake 2 | `quake2` | `pc, pcwindows` | |
 | Quake 3 | `quake3` | `pc, pcwindows` | |
 | Raze | `raze` | `pc, pcwindows, dos` | Duke Nukem |
 | RetroArch Internet Radio | `radio` | `radio` | |

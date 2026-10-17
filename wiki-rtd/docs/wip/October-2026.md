@@ -37,24 +37,26 @@ RetroDECK's core missions is to make retro gaming easy and accessible:
 - **Easy to explore** vintage games and platforms you may never have experienced before.
 - **Easy to discover** the people and communities that continue to preserve, reinterpret and expand retro gaming culture.
 
-### SDHQ - Teaser Article 
+---
+
+## SDHQ - Teaser Article 
 
 [SDHQ - EXCLUSIVE: RetroDECK Teases Massive 0.11.0 Update With 23 New Components](https://steamdeckhq.com/news/exclusive-retrodeck-teases-massive-0-11-0-update-with-23-new-components/)
 
 We had a nice interview with Noah Kupetsky of SDHQ spilling the beans of many of the new components in the 0.11.0 update. But this is **not all!**.
 
-#### Clients
+### Clients
 
 - **Mudlet** (Multi-User Dungeon client)
 - **Quake3e** (Quake III Arena)
 
-#### Emulators: Consoles / Arcade
+### Emulators: Consoles / Arcade
 
 - **Flycast** (SEGA Dreamcast)
 - **GameTankEmulator** (GameTank)
 - **Xenia Edge** (Xbox 360)
 
-#### Emulators: Retro Computers
+### Emulators: Retro Computers
 
 - **Amiberry** (Commodore Amiga)
 - **Commander X16 Emulator** (Commander X16)
@@ -65,7 +67,7 @@ We had a nice interview with Noah Kupetsky of SDHQ spilling the beans of many of
 - **Tsugaru** (FM Towns)
 - **ZEsarUX** (ZX Spectrum Next)
 
-#### Engines
+### Engines
 
 - **dhewm 3** (DOOM 3)
 - **ECWolf** (Wolfenstein 3D)
@@ -76,7 +78,7 @@ We had a nice interview with Noah Kupetsky of SDHQ spilling the beans of many of
 - **UZDoom** (DOOM)
 - **Visual Pinball X** (Pinball machine simulator)
 
-#### Utilities
+### Utilities
 
 - **Delta Patcher** (.xdelta ROM hacks)
 

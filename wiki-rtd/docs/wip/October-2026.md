@@ -107,7 +107,7 @@ The one of the roots of Dungeons & Dragons goes back to **Chainmail**, a medieva
 
 This tradition continued through later wargames, including **Gettysburg** by Avalon Hill in 1958.
 
-D&D also influenced the creation of many of the fantasy worlds we know today, including **Warhammer**, **Ultima** and **Warcraft**. 
+D&D also influenced the creation of many of the fantasy worlds we know today, including **Warhammer** and **Warcraft**. 
 
 In Japan, TRPG-inspired campaigns helped shape fantasy storytelling in manga and anime, for example: **Record of Lodoss War** that originated from a series of D&D-inspired tabletop role-playing sessions. These influences also helped shape Japanese RPGs like *Dragon Quest* and *Final Fantasy*, while also being inspired by Western computer RPGs such as *Ultima*.
 

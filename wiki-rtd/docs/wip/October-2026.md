@@ -120,11 +120,15 @@ It's important to have this in context when thinking about the earliest of the i
 By incorporating a engine component like **Gargoyle**, an interactive fiction interpreter, it becomes possible to revisit many of these early works and experience the pioneering forms of storytelling that influenced an entire generation of game designers and players.
 
 Building on this idea, a client component like **Mudlet** allows you to connect to MUD (Multi-User Dungeon) servers, representing a natural evolution of interactive fiction into shared, multiplayer experiences. 
+ 
+What if these stories could be experienced together with others? Like a tabletop D&D campaign? 
 
-- What if these stories could be experienced together with others? 
-- Like a tabletop D&D campaign? 
+- A world where players can meet each other
+- Form guilds and teams
+- Participate in player-driven economies  
+- Explore vast and freely navigable sandbox worlds
 
-A world where players can meet friends, form guilds and teams, participate in player-driven economies and explore vast, freely navigable worlds, all through text.
+All through text!
 
 This vision transformed interactive fiction from a solitary experience into a shared adventure, where players could shape the world together through their actions and interactions. Many pioneers of the MUD era went on to work on commercial online games, including creating **Ultima Online** and creation of the MMORPG genre and influence the development of sandbox style games.
 

@@ -88,7 +88,9 @@ We had a nice interview with Noah Kupetsky of SDHQ spilling the beans of many of
 
 Mudlet, Gargoyle and retro-computing emulators such as KEGS and Oricutron all offer ways to explore the history of interactive storytelling and early gaming.
 
-Interactive fiction games popular on these systems introduced a new way of experiencing stories, allowing players to influence events through their choices and actions. One of the defining early works was **Colossal Cave Adventure**, which helped establish the foundations of the adventure game genre. Later, **Zork** expanded on these ideas, offering a more detailed world and greater complexity.
+Interactive fiction games popular on these systems introduced a new way of experiencing stories, allowing players to influence events through their choices and actions. 
+
+One of the defining early works was **Colossal Cave Adventure**, that established the foundations of the adventure game genre and later **Zork** expanded on these ideas.
 
 The same era also saw the rise of branching narratives in print, maybe influenced by the popularity of interactive fiction games. By the late 1970s, *Choose Your Own Adventure* books were introducing readers to stories in which their decisions determined the direction of the narrative.
 

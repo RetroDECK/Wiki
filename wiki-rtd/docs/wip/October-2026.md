@@ -237,7 +237,7 @@ We also want to establish a future proof directory structure even as RetroArch c
 
 Our goal is to enable all these new experimental cores in version 0.11.0 while ensuring that standalone emulators are no longer bound by RetroArch's directory structure and future shenanigans.
 
-It's a rather time consuming task for the team as we want to get it right and we even might need to isolate RetroArch further into it's own save directory as well. 
+It's a rather time consuming task for the team as we want to get it right and we even might need to isolate RetroArch further into it's own save / state directories as well. 
 
 ### More Linked Directories
 

@@ -103,7 +103,7 @@ Dungeons & Dragons helped popularise many conventions now associated with role-p
 - Dungeon crawling
 - And much more
 
-The one of the roots of Dungeons & Dragons goes back to **Chainmail**, a medieval miniatures wargame published in 1971 by co creator of D&D Gary Gygax and Jeff Perren. Chainmail drew on a long tradition of military simulation wargames with a shared history from **Gettysburg** by Avalon Hill in 1958, to the ealiest Prussian wargaming scene in between 1780-1824 and the creation of the game **Kriegsspiel**. 
+One of the roots of Dungeons & Dragons goes back to **Chainmail**, a medieval miniatures wargame published in 1971 by co creator of D&D Gary Gygax and Jeff Perren. Chainmail drew on a long tradition of military simulation wargames with a shared history from **Gettysburg** by Avalon Hill in 1958, to the ealiest Prussian wargaming scene in between 1780-1824 and the creation of the game **Kriegsspiel**. 
 
 D&D also influenced the creation of many of the gaming fantasy worlds we know today, including **Warhammer** and **Warcraft**. 
 

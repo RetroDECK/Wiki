@@ -126,7 +126,7 @@ What if these stories could be experienced together with others? Like a tabletop
 - A world where players can meet each other
 - Form guilds and teams
 - Participate in player-driven economies  
-- Explore vast and freely navigable sandbox worlds
+- Explore vast and freely navigable worlds
 
 All through text!
 
@@ -164,7 +164,7 @@ While a software like Delta Patcher helps you patch rom hacks AKA mods to your d
 
 ### Fan Interpretations
 
-This selection of components represents the very niece fan interpretations community:
+This selection of components represents the very niche fan interpretations community:
 
 - **Open Surge** (Sonic-inspired 2D games)
 - **Commander X16 Emulator** (Commander X16)

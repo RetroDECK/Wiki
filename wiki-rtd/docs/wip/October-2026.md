@@ -107,7 +107,7 @@ One of the roots of Dungeons & Dragons goes back to **Chainmail**, a medieval mi
 
 D&D also influenced the creation of many of the gaming fantasy worlds we know today, including **Warhammer** and **Warcraft**. 
 
-In Japan, TRPG-inspired campaigns helped shape fantasy storytelling in manga and anime, for example: **Record of Lodoss War** that originated from a series of D&D (and later Sword World) sessions. These influences also helped shape Japanese RPGs like *Dragon Quest* and *Final Fantasy*, while also being inspired by Western computer RPGs such as *Ultima* (it also came from D&D).
+In Japan, TRPG-inspired campaigns helped shape fantasy storytelling in manga and anime, for example: **Record of Lodoss War** that originated from a series of D&D (and later Sword World) sessions. These influences also helped shape Japanese RPGs like **Dragon Quest** and **Final Fantasy**, while also being inspired by Western computer RPGs such as **Ultima** (it also came from D&D).
 
 TRPGs laid the groundwork for countless worlds that grew from the imagination of players around the tabletop that is felt to this day in modern video games and games of that era.
 

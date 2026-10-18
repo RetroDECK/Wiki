@@ -103,15 +103,17 @@ Dungeons & Dragons helped popularise many conventions now associated with role-p
 - Dungeon crawling
 - And much more
 
-The one of the roots of Dungeons & Dragons goes back to **Chainmail**, a medieval miniatures wargame published in 1971 by Gary Gygax and Jeff Perren. That drew on a long tradition of military simulation games, stretching all the way back to Prussian wargaming in 1780 and later the making of the Prussian game *Kriegsspiel* in the early 1820. 
+The one of the roots of Dungeons & Dragons goes back to **Chainmail**, a medieval miniatures wargame published in 1971 by co creator of D&D Gary Gygax and Jeff Perren. 
 
-This tradition continued through later wargames, including **Gettysburg** by Avalon Hill in 1958.
+Chainmail drew on a long tradition of military simulation wargames with a shared history from **Gettysburg** by Avalon Hill in 1958. To the ealiest Prussian wargaming scene in 1780 and that culminated in the game *Kriegsspiel* in 1820. 
 
 D&D also influenced the creation of many of the fantasy worlds we know today, including **Warhammer** and **Warcraft**. 
 
 In Japan, TRPG-inspired campaigns helped shape fantasy storytelling in manga and anime, for example: **Record of Lodoss War** that originated from a series of D&D-inspired tabletop role-playing sessions. These influences also helped shape Japanese RPGs like *Dragon Quest* and *Final Fantasy*, while also being inspired by Western computer RPGs such as *Ultima*.
 
 By establishing many of the core mechanics, character archetypes and storytelling conventions of fantasy role-playing, D&D laid the groundwork for countless worlds that grew from the imagination of players around the tabletop that is felt to this day in modern video games and games of that era.
+
+It's important to have this in context when thinking about the earliest of the interactive fiction games, what the broader gaming landscape looked like at that time.
 
 ---
 

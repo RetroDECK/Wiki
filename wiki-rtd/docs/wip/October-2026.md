@@ -215,6 +215,23 @@ Just grab a mouse and keyboard but as the Millennials might say: *"Stop being su
 
 ---
 
+
+## Standalone Save / State Migration Planned for 0.11.0
+
+RetroArch is expanding with many new cores, some of which use hardcoded paths that conflict with standalone emulator save / state locations currently in RetroDECK.
+
+To prevent path conflicts and potential save-state or save-data corruption, some standalone emulators will have their save and state locations migrated in version 0.11.0. 
+
+The final directory structure has not yet been determined as we are doing a comprehensive audit of RetroArch's core file structure to account for differences in how individual cores store saves, states and other required files.
+
+We also want to make something sustainable that last into the future even if RetroArch starts to expand even more.
+
+As part of the audit, additional core-specific directories will be identified, pre-created and exposed through existing RetroDECK structures such as `texture_packs`, `mods` and `storage`. This will make hard-to-find directories more accessible, reducing the need to search documentation or community posts for these obscure locations.
+
+This will also apply to all newly integrated cores, ensuring they are preconfigured when first introduced in RetroDECK. The directory structure will be aligned with each core's capabilities and standalone counterpart wherever possible.
+
+---
+
 ## That is all for now
 
 There are more features and improvements in the works, which will be shared in future blog updates!

@@ -151,7 +151,7 @@ This selection of components represents the modding and source port community:
 - **dhewm 3** (DOOM 3)
 - **ECWolf** (Wolfenstein 3D)
 - **Ironwail** (Quake)
-- **UZDoom** (DOOM) — replaces GZDoom
+- **UZDoom** (DOOM) Replaces GZDoom
 - **Delta Patcher** (.xdelta ROM hacks)
 
 We want to simplify launching these games and their mods as separate entries in ES-DE, making their vast library of community-created content easier to discover and play. Thus we have introduced new custom parser formats (`.doom3`, `.wolf`, and `.quake`), following a similar concept as our existing `.doom` format.
@@ -215,20 +215,25 @@ Just grab a mouse and keyboard but as the Millennials might say: *"Stop being su
 
 ---
 
+## Pre-Warning: Standalone Emulator Save / State Migration Planned for 0.11.0
 
-## Standalone Save / State Migration Planned for 0.11.0
+RetroArch is expanding rapidly with many new cores like that we did not thought was possible like RPCS3, Xenia Edge, Cemu, Vita3k among others. Some of which use hardcoded paths that conflict with standalone emulator save / state locations currently in RetroDECK.
 
-RetroArch is expanding with many new cores, some of which use hardcoded paths that conflict with standalone emulator save / state locations currently in RetroDECK.
+To prevent path conflicts and potential save-state, save-data or other data corruption, many standalone emulators will have their save and state locations migrated in version 0.11.0. 
 
-To prevent path conflicts and potential save-state or save-data corruption, some standalone emulators will have their save and state locations migrated in version 0.11.0. 
+The final directory structure has not yet been determined as we are doing a comprehensive audit of RetroArch and on the Standalone Emulators. We are looking into file RetroArch cores file-structures to account for differences in how individual cores store saves, states and other required files. 
 
-The final directory structure has not yet been determined as we are doing a comprehensive audit of RetroArch's core file structure to account for differences in how individual cores store saves, states and other required files.
+We also want to make something sustainable that last into the future even if RetroArch starts to expand even more. 
 
-We also want to make something sustainable that last into the future even if RetroArch starts to expand even more.
+The goal is to enable all these new experimental cores in 0.11.0 but the Standalone Emulators should no longer be bound by RetroArch's directory structure and be selfcontained.
 
-As part of the audit, additional core-specific directories will be identified, pre-created and exposed through existing RetroDECK structures such as `texture_packs`, `mods` and `storage`. This will make hard-to-find directories more accessible, reducing the need to search documentation or community posts for these obscure locations.
+### More Linked Directories
 
-This will also apply to all newly integrated cores, ensuring they are preconfigured when first introduced in RetroDECK. The directory structure will be aligned with each core's capabilities and standalone counterpart wherever possible.
+As part of the audit, additional core-specific directories will be identified and exposed through existing RetroDECK structures such as `texture_packs`, `mods`, `storage` and more. This will make hard-to-find directories more accessible, reducing the need to search lacking documentation or weird community posts on the dark side of Reddit for these obscure locations.
+
+This will also apply to all newly integrated cores, ensuring they are preconfigured when first introduced in RetroDECK. 
+
+The directory structure will be aligned with each core's capabilities and standalone counterpart wherever possible.
 
 ---
 

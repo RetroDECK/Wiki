@@ -166,15 +166,15 @@ This selection of components represents the very niece fan interpretations commu
 - **Commander X16 Emulator** (Commander X16)
 - **GameTankEmulator** (GameTank)
 
-Just as Solarus provides an engine for creating classic Zelda-inspired games (Zelda-like), Open Surge does the same for classic Sonic-inspired games the Sonic-like.
+Just as Solarus provides an engine for creating classic Zelda-inspired games the "Zelda-like", Open Surge does the same for classic Sonic-inspired games the "Sonic-like".
 
 To make launching these games in ES-DE easier, we've also created a custom parser format: `.surge`.
 
 With RetroDECK 0.11.0, launching Open Surge games is now easier than using the official Open Surge Flatpak.
 
-The GameTank and Commander X16 are both modern interpretations of 8-bit computing and gaming. The Commander X16 is inspired by classic home computers like the Commodore 64, while the GameTank is an 8-bit gaming console inspired by the Sega Master System and NES. 
+The GameTank and Commander X16 are both modern interpretations of 8-bit computing and gaming. The Commander X16 is inspired by classic home computers like the Commodore 64, while the GameTank is an gaming console inspired by the Master System and NES. 
 
-Both projects offer real fan hardware as well as their own emulators.
+Both projects offer real hardware as well as their own emulators.
 
 ### Preservation
 

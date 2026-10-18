@@ -246,7 +246,7 @@ As part of the audit, additional core-specific directories will be identified an
 - The dark side of Reddit
 - Ancient forums 
  
-On how-to find for these strange default locations.
+On how-to find for these strange locations.
 
 This will also apply to all new experimental cores from the start, ensuring they are preconfigured when first introduced in RetroDECK. 
 

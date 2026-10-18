@@ -215,7 +215,7 @@ Just grab a mouse and keyboard but as the Millennials might say: *"Stop being su
 
 ---
 
-## Pre-Warning: Standalone Emulator Save / State Migration Planned for 0.11.0
+## Pre-Warning: Save / State Migration Planned for 0.11.0
 
 RetroArch sure is expanding rapidly... introducing new cores that we previously thought were impossible to support, such as:
 

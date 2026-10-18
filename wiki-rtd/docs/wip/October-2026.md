@@ -1,4 +1,4 @@
-﻿--- 
+--- 
 
 date: 2026-10-10
 
@@ -225,9 +225,9 @@ RetroArch sure is expanding rapidly... introducing new cores that we previously 
 - Vita3K
 - and many others. 
 
-Some of these cores use hardcoded paths that conflict with the save and state locations currently used by standalone emulators in RetroDECK. We will have to account for these changes in 0.11.0.
+Some of these cores use hardcoded paths that conflict with the save and state locations currently used by standalone emulators in RetroDECK. Thus we will have to account for these changes in 0.11.0.
 
-To prevent path conflicts and potential corruption of save states, save data and other files for users that use both. The save and state locations of many standalone emulators will be migrated in version 0.11.0.
+To prevent path conflicts and potential corruption of save states, save data and other files. The save and state locations of many standalone emulators will be migrated in version 0.11.0.
 
 The final directory structure has not yet been desided, as we are conducting a comprehensive audit of both RetroArch and the standalone emulators. We are examining the file structures used by RetroArch cores to account for differences in how individual cores store saves, states and other required files.
 
@@ -239,7 +239,14 @@ It's a rather time consuming task for the team as we want to get it right and we
 
 ### More Linked Directories
 
-As part of the audit, additional core-specific directories will be identified and exposed through existing directories such as `texture_packs`, `mods`, `storage` and more. This will make these *hard-to-find* directories more accessible, reducing the need to search lacking documentation or weird community posts on the dark side of Reddit or ancient forums for these strange locations.
+As part of the audit, additional core-specific directories will be identified and exposed through existing directories such as `texture_packs`, `mods`, `storage` and more. This will make these *hard-to-find* directories more accessible, reducing the need to search:
+
+- Lacking documentation 
+- Weird community posts
+- The dark side of Reddit
+- Ancient forums 
+ 
+On how-to find for these strange default locations.
 
 This will also apply to all new experimental cores from the start, ensuring they are preconfigured when first introduced in RetroDECK. 
 

@@ -200,7 +200,7 @@ Since we've already included MAME as a major part of our arcade preservation eff
 
 ---
 
-## Why? Other?!
+## Why? More?!
 
 - **Xenia Edge** (Xbox 360)
 - **Quake3e** (Quake III Arena)

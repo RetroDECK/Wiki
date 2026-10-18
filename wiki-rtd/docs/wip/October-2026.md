@@ -217,23 +217,31 @@ Just grab a mouse and keyboard but as the Millennials might say: *"Stop being su
 
 ## Pre-Warning: Standalone Emulator Save / State Migration Planned for 0.11.0
 
-RetroArch is expanding rapidly with many new cores like that we did not thought was possible like RPCS3, Xenia Edge, Cemu, Vita3k among others. Some of which use hardcoded paths that conflict with standalone emulator save / state locations currently in RetroDECK.
+RetroArch sure is expanding rapidly, introducing new cores that we previously thought were impossible to support, such as:
 
-To prevent path conflicts and potential save-state, save-data or other data corruption, many standalone emulators will have their save and state locations migrated in version 0.11.0. 
+- RPCS3
+- Xenia Edge
+- Cemu
+- Vita3K
+- and others. 
 
-The final directory structure has not yet been determined as we are doing a comprehensive audit of RetroArch and on the Standalone Emulators. We are looking into file RetroArch cores file-structures to account for differences in how individual cores store saves, states and other required files. 
+Some of these cores use hardcoded paths that conflict with the save and state locations currently used by standalone emulators in RetroDECK.
 
-We also want to make something sustainable that last into the future even if RetroArch starts to expand even more. 
+We will have to account for these in 0.11.0.
 
-The goal is to enable all these new experimental cores in 0.11.0 but the Standalone Emulators should no longer be bound by RetroArch's directory structure and be selfcontained.
+To prevent path conflicts and potential corruption of save states, save data and other files. The save and state locations of many standalone emulators will be migrated in version 0.11.0.
+
+The final directory structure has not yet been desided, as we are conducting a comprehensive audit of both RetroArch and the standalone emulators. We are examining the file structures used by RetroArch cores to account for differences in how individual cores store saves, states and other required files.
+
+We also want to establish a future proof directory structure even as RetroArch continues to expand.
+
+Our goal is to enable all these new experimental cores in version 0.11.0 while ensuring that standalone emulators are no longer bound by RetroArch's directory structure and future shenanigans.
 
 ### More Linked Directories
 
-As part of the audit, additional core-specific directories will be identified and exposed through existing RetroDECK structures such as `texture_packs`, `mods`, `storage` and more. This will make hard-to-find directories more accessible, reducing the need to search lacking documentation or weird community posts on the dark side of Reddit for these obscure locations.
+As part of the audit, additional core-specific directories will be identified and exposed through existing directories such as `texture_packs`, `mods`, `storage` and more. This will make these *hard-to-find* directories more accessible, reducing the need to search lacking documentation or weird community posts on the dark side of Reddit for these strange locations.
 
-This will also apply to all newly integrated cores, ensuring they are preconfigured when first introduced in RetroDECK. 
-
-The directory structure will be aligned with each core's capabilities and standalone counterpart wherever possible.
+This will also apply to all new experimental cores from the start, ensuring they are preconfigured when first introduced in RetroDECK. 
 
 ---
 

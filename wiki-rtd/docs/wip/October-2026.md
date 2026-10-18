@@ -92,7 +92,7 @@ Interactive fiction games popular on these systems introduced a new way of exper
 
 The same era also saw the rise of branching narratives in print, maybe influenced by the popularity of interactive fiction games. By the late 1970s, *Choose Your Own Adventure* books were introducing readers to stories in which their decisions determined the direction of the narrative.
 
-Another major milestone that changed gaming forever came in 1974, when Gary Gygax and Dave Arneson published **Dungeons & Dragons** (D&D). This was followed by the **Dungeons & Dragons Basic Set** and **Advanced Dungeons & Dragons** helping to establish the tabletop role-playing game (TRPG) genre.
+Another major milestone that changed gaming forever came in 1974, when Gary Gygax and Dave Arneson published **Dungeons & Dragons** helping to establish the new tabletop role-playing game (TRPG) genre.
 
 Dungeons & Dragons helped popularise many conventions now associated with role-playing games, including:
 
@@ -103,15 +103,13 @@ Dungeons & Dragons helped popularise many conventions now associated with role-p
 - Dungeon crawling
 - And much more
 
-The one of the roots of Dungeons & Dragons goes back to **Chainmail**, a medieval miniatures wargame published in 1971 by co creator of D&D Gary Gygax and Jeff Perren. 
-
-Chainmail drew on a long tradition of military simulation wargames with a shared history from **Gettysburg** by Avalon Hill in 1958. To the ealiest Prussian wargaming scene in 1780 and that culminated in the game *Kriegsspiel* in 1820. 
+The one of the roots of Dungeons & Dragons goes back to **Chainmail**, a medieval miniatures wargame published in 1971 by co creator of D&D Gary Gygax and Jeff Perren. Chainmail drew on a long tradition of military simulation wargames with a shared history from **Gettysburg** by Avalon Hill in 1958, to the ealiest Prussian wargaming scene in between 1780-1824 and the creation of the game **Kriegsspiel**. 
 
 D&D also influenced the creation of many of the gaming fantasy worlds we know today, including **Warhammer** and **Warcraft**. 
 
 In Japan, TRPG-inspired campaigns helped shape fantasy storytelling in manga and anime, for example: **Record of Lodoss War** that originated from a series of D&D-inspired tabletop role-playing sessions. These influences also helped shape Japanese RPGs like *Dragon Quest* and *Final Fantasy*, while also being inspired by Western computer RPGs such as *Ultima* (it also came from D&D).
 
-D&D laid the groundwork for countless worlds that grew from the imagination of players around the tabletop that is felt to this day in modern video games and games of that era.
+TRPGs laid the groundwork for countless worlds that grew from the imagination of players around the tabletop that is felt to this day in modern video games and games of that era.
 
 It's important to have this in context when thinking about the earliest of the interactive fiction games, what the broader gaming landscape looked like at that time.
 

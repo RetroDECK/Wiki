@@ -225,9 +225,7 @@ RetroArch sure is expanding rapidly, introducing new cores that we previously th
 - Vita3K
 - and others. 
 
-Some of these cores use hardcoded paths that conflict with the save and state locations currently used by standalone emulators in RetroDECK.
-
-We will have to account for these in 0.11.0.
+Some of these cores use hardcoded paths that conflict with the save and state locations currently used by standalone emulators in RetroDECK currently. We will have to account for these changes in 0.11.0.
 
 To prevent path conflicts and potential corruption of save states, save data and other files. The save and state locations of many standalone emulators will be migrated in version 0.11.0.
 
@@ -236,6 +234,8 @@ The final directory structure has not yet been desided, as we are conducting a c
 We also want to establish a future proof directory structure even as RetroArch continues to expand.
 
 Our goal is to enable all these new experimental cores in version 0.11.0 while ensuring that standalone emulators are no longer bound by RetroArch's directory structure and future shenanigans.
+
+It's a rather time consuming task for the team as we want to get it right. 
 
 ### More Linked Directories
 

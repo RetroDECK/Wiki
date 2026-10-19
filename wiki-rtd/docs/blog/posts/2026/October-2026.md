@@ -4,7 +4,7 @@ date: 2026-10-19
 
 --- 
 
-# October 2026: Haunting History Lesson
+# October 2026: Ominous History Lesson
 
 The RetroDECK Team have been hard at work stirring the development cauldron.
 

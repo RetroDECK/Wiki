@@ -63,7 +63,7 @@ We had a nice interview with Noah Kupetsky of SDHQ spilling the beans of many of
 - **Amiberry** (Commodore Amiga)
 - **Commander X16 Emulator** (Commander X16)
 - **KEGS** (Apple IIGS)
-- **Oricutron** (Oric-1, Atmos, Telestrat, and Pravetz)
+- **Oricutron** (Oric-1, Atmos, Telestrat and Pravetz)
 - **SDL2TRS** (Tandy TRS-80 Models I, III, 4, and 4P)
 - **Simcoupé** (MGT SAM Coupé)
 - **Tsugaru** (FM Towns)
@@ -166,7 +166,7 @@ This selection of components represents the modding and source port community:
 - **UZDoom** (DOOM) Replaces GZDoom
 - **Delta Patcher** (.xdelta ROM hacks)
 
-We want to simplify launching these games and their mods as separate entries in ES-DE, making their vast library of community-created content easier to discover and play. Thus we have introduced new custom parser formats (`.doom3`, `.wolf`, and `.quake`), following a similar concept as our existing `.doom` format.
+We want to simplify launching these games and their mods as separate entries in ES-DE, making their vast library of community-created content easier to discover and play. Thus we have introduced new custom parser formats (`.doom3`, `.wolf` and `.quake`), following a similar concept as our existing `.doom` format.
 
 While a software like Delta Patcher helps you patch rom hacks AKA mods to your disc based games. 
 
@@ -198,7 +198,7 @@ This selection of components represents the game preservation community:
 
 ScummVM is well known as an engine for playing classic point-and-click adventure games and role-playing games. Although we've always supported it through a RetroArch core, it was time to include the full application in RetroDECK and the same is true for Flycast.
 
-Visual Pinball X is a pinball simulator that plays an important role in the retro gaming and pinball preservation communities. Enthusiasts use it to build their own interactive virtual pinball tables, recreate classic machines, and practice before tournaments.
+Visual Pinball X is a pinball simulator that plays an important role in the retro gaming and pinball preservation communities. Enthusiasts use it to build their own interactive virtual pinball tables, recreate classic machines and practice before tournaments.
 
 The pinball scene has also experienced something of a renaissance in both the US and Europe, with Gen X and Millennials helping revive pinball halls and arcades.
 
@@ -256,7 +256,7 @@ As part of the audit, additional core-specific directories will be identified an
 - The dark side of Reddit
 - Ancient forums 
  
-On how-to find for these strange locations.
+On how-to find these strange locations.
 
 This will also apply to all new experimental cores from the start, ensuring they are preconfigured when first introduced in RetroDECK. 
 

@@ -41,6 +41,8 @@ RetroDECK's core missions is to make retro gaming easy and accessible:
 
 ## SDHQ - Teaser Article 
 
+<img src="../../../sdhq-logo.svg" width="75" alt=""> 
+
 [SDHQ - EXCLUSIVE: RetroDECK Teases Massive 0.11.0 Update With 23 New Components](https://steamdeckhq.com/news/exclusive-retrodeck-teases-massive-0-11-0-update-with-23-new-components/)
 
 We had a nice interview with Noah Kupetsky of SDHQ spilling the beans of many of the new components in the 0.11.0 update. But this is **not all!**.
@@ -85,6 +87,8 @@ We had a nice interview with Noah Kupetsky of SDHQ spilling the beans of many of
 ---
 
 ## Why the oddball systems? Retro Gaming Computers, Mudlet and Gargoyle - A shared history 
+
+<img src="../../../icon-component.svg" width="75" alt=""> 
 
 Mudlet, Gargoyle and retro-computing emulators such as KEGS and Oricutron all offer ways to explore the history of interactive storytelling and early gaming.
 
@@ -147,6 +151,8 @@ Or maybe you will find inspiration deep within the very caves of **Zork** or **C
 ---
 
 ## Why the oddball systems? Modding,  Fan Interpretations and Preservation
+
+<img src="../../../icon-alchemist.svg" width="75" alt=""> 
 
 The goal is simply to make the extensive range of community-created content more accessible for people to experience.
 
@@ -223,6 +229,8 @@ Just grab a mouse and keyboard but as the Millennials might say: *"Stop being su
 
 ## Pre-Warning: Save / State Migration Planned for 0.11.0
 
+<img src="../../../rd-countertop-icon.svg" width="75" alt=""> 
+
 RetroArch sure is expanding rapidly... introducing new cores that we previously thought were impossible to support:
 
 - RPCS3
@@ -260,7 +268,9 @@ There are more features and improvements in the works, which will be shared in f
 
 As always, if you want to help with development, join the *💙-i-want-to-help* channel on **Discord** or reach out to us on other socials.
 
-A big thank you to everyone for your continued support 🦈. 
+A big thank you to everyone for your continued support 🦈.
+
+And for those that celebrate it we wish you a Happy Halloween!
 
 // The RetroDECK Team
 

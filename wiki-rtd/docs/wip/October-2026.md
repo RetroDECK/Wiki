@@ -4,7 +4,7 @@ date: 2026-10-10
 
 --- 
 
-# October 2026: What Has Science Done? 
+# October 2026: Haunting History Lesson
 
 The RetroDECK Team have been hard at work stirring the development cauldron.
 
@@ -146,7 +146,7 @@ Or maybe you will find inspiration deep within the very caves of **Zork** or **C
 
 ---
 
-## Why the oddball systems? Modding, Preservation and Fan Interpretations
+## Why the oddball systems? Modding,  Fan Interpretations and Preservation
 
 The goal is simply to make the extensive range of community-created content more accessible for people to experience.
 
@@ -182,7 +182,7 @@ The GameTank and Commander X16 are both modern interpretations of 8-bit computin
 
 Both projects offer real hardware as well as their own emulators.
 
-### Preservation
+### Preservation & Options
 
 This selection of components represents the game preservation community:
 
@@ -202,7 +202,7 @@ Since we've already included MAME as a major part of our arcade preservation eff
 
 ---
 
-## Why? More?!
+### More?!
 
 - **Xenia Edge** (Xbox 360)
 - **Quake3e** (Quake III Arena)
@@ -223,7 +223,7 @@ Just grab a mouse and keyboard but as the Millennials might say: *"Stop being su
 
 ## Pre-Warning: Save / State Migration Planned for 0.11.0
 
-RetroArch sure is expanding rapidly... introducing new cores that we previously thought were impossible to support, such as:
+RetroArch sure is expanding rapidly... introducing new cores that we previously thought were impossible to support:
 
 - RPCS3
 - Xenia Edge
@@ -231,15 +231,11 @@ RetroArch sure is expanding rapidly... introducing new cores that we previously 
 - Vita3K
 - and many others. 
 
-Some of these cores use hardcoded paths that conflict with the save and state locations currently used by standalone emulators in RetroDECK. Thus we will have to account for these changes in 0.11.0.
-
-To prevent path conflicts and potential corruption of save states, save data and other files. The save and state locations of many standalone emulators will be migrated in version 0.11.0.
+Sadly, some of these cores use hardcoded paths conflict with the locations currently used by standalone emulators in RetroDECK. We will have to account for these changes and migrate save and state locations of the standalone emulators in version 0.11.0. This to prevent potential conflicts and that could cause corruption of save states, save data and other files.
 
 The final directory structure has not yet been desided, as we are conducting a comprehensive audit of both RetroArch and the standalone emulators. We are examining the file structures used by RetroArch cores to account for differences in how individual cores store saves, states and other required files.
 
-We also want to establish a future proof directory structure even as RetroArch continues to expand.
-
-Our goal is to enable all these new experimental cores in version 0.11.0 while ensuring that standalone emulators are no longer bound by RetroArch's directory structure and future shenanigans.
+We want to establish a future proof directory structure even as RetroArch continues to expand and be able enable all these new experimental cores in version 0.11.0. While also ensuring that standalone emulators are no longer bound by RetroArch's directory structure and future shenanigans .
 
 It's a rather time consuming task for the team as we want to get it right and we even might need to isolate RetroArch further into it's own save / state directories as well. 
 

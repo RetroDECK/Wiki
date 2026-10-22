@@ -43,11 +43,11 @@ WiiU games should be put under the `retrodeck/roms/wiiu/` directory.
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
-| File Name        | Required For                       | Description |
-|------------------|------------------------------------|-------------|
-| `keys.txt`       | Running encrypted game files        | Contains the necessary decryption keys that allow Cemu to load and run encrypted Wii U titles. |
-| `otp.bin`        | Online functionality (optional)     | A system dump containing one-time programmable console data used to properly emulate online services. |
-| `seeprom.bin`    | Online functionality (optional)     | Stores console-specific data needed for accurate online communication and identity emulation. |
+| File Name       | Description |
+|-----------------|-------------|
+| `keys.txt`       | Optional, decryption keys that allow Cemu to load and run encrypted Wii U titles. | 
+| `otp.bin`        | Optional for online functionality. |  
+| `seeprom.bin`    | Optional for online functionality. |  
 
 ### Where to put the BIOS / Firmware files?
 

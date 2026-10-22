@@ -105,13 +105,13 @@ In `retrodeck/bios/`
 |      LHA        | `retrodeck/storage/Amiberry/LHA`               |         |
 |      Logs       | `retrodeck/logs/Amiberry`                      |         |
 |     NVRAM       | `retrodeck/storage/Amiberry/NVRAM`             |         |
-|      Ripper        | `retrodeck/storage/Amiberry/Ripper`         |       |
-|      ROMS        | `retrodeck/bios`                               | Kickstarts      |
+|      Ripper     | `retrodeck/storage/Amiberry/Ripper`         |       |
+|      ROMS       | `retrodeck/bios/amiga`                         | Kickstarts      |
 |      RP9        | `retrodeck/storage/Amiberry/RP9`               |         |
 |  Save Images    | `retrodeck/storage/Amiberry/SaveImages`        |         |
 |   Screenshots   | `retrodeck/screenshots/Amiberry`              |         |
 |     Shaders     | `retrodeck/shaders/Amiberry/Shaders`           |         |
-|     States      | `retrodeck/states/amiga/Amiberry`             |         |
+|     States      | `retrodeck/states/Amiberry-SA`             |         |
 |     Themes      | `retrodeck/storage/Amiberry/Visuals/Themes`    |         |
 |     Videos      | `retrodeck/videos/Amiberry`                   |         |
 |    WHDBoot      | `retrodeck/storage/Amiberry/WHDBoot`           |         |

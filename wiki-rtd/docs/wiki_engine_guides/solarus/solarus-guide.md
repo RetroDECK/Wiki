@@ -2,7 +2,7 @@
 
 <img src="../../../wiki_images/logos/solarus-logo.svg" width="150" alt="Solarus logo">
 
-Solarus is an open-source adventure game engine.
+Solarus is an 2D action-RPG engine for classic 16/32-bit Zelda-like games.
 
 ---
 

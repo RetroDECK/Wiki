@@ -45,7 +45,7 @@ PS3 games should be put under the `retrodeck/roms/ps3/` directory.
 
 ## What file formats are supported?
 
-<img src="../../../wiki_icons/pixelitos/directory-blue-applications.png" width="35" alt="">
+<img src="../../../wiki_icons/pixelitos/folder-blue-applications.png" width="35" alt="">
 
 | File Format | Description |
 |-------------|-------------|
@@ -85,7 +85,7 @@ There are two ways to install the firmware:
 
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/directory-blue-activities.png" width="35" alt="">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 | Type        | Directory                                   | Comment                                  |
 |:-----------:|:--------------------------------------------|:-----------------------------------------|

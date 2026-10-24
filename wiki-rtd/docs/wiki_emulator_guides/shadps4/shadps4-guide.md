@@ -48,13 +48,22 @@ PS4 games should be put under the `retrodeck/roms/PS4/` directory.
 | ----------- | ------------------------------------ |
 | .desktop    | Desktop entry file **(Recommended)** |
 | .ps4        | PlayStation 4 Directory              |
-| .bin        |                                      |
+| .bin        | .bin file                            |
 
 ---
 
+## Does shadPS4 require BIOS, Game Data or Firmware files?
+
+<img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
+
+No
+
+---
+
+
 ## Directory structure
 
-<img src="../../../wiki_icons/pixelitos/directory-blue-activities.png" width="35" alt="">
+<img src="../../../wiki_icons/pixelitos/folder-blue-activities.png" width="35" alt="">
 
 |      Type      | Directory                                   | Comment            |
 | :------------: | :------------------------------------------ | :----------------- |

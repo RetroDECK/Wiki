@@ -36,7 +36,7 @@ shadPS4 is a multi-platform open-source Sony PlayStation 4 emulator.
 
 PS4 games comes either as a Blu-ray rip directory with a bunch of different files or a digital PSN title that needs to be installed (see guide on this page).
 
-PS4 games should be put under the `retrodeck/roms/PS4/` directory.
+PS4 games should be put under the `retrodeck/roms/ps4/` directory.
 
 ---
 
@@ -79,6 +79,7 @@ No
 |   Installed    | `retrodeck/storage/installed`               | Installed content  |
 |      Logs      | `retrodeck/logs/shadPS4/`                   |                    |
 |    Patches     | `retrodeck/mods/shadPS4/patches`            |                    |
+|      ROMs      | `retrodeck/roms/ps4`                        |                    |
 |  Saves (Home)  | `retrodeck/saves/shadPS4-SA/home`           |                    |
 | Saves (Trophy) | `retrodeck/saves/shadPS4-SA/trophy`         |                    |
 |  Screenshots   | `retrodeck/screenshots/shadPS4/screenshots` |                    |

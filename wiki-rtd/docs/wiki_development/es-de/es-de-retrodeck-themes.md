@@ -46,6 +46,7 @@ Use the official RetroDECK theme as a reference and starting point:
 | VaporSpec | `vaporspec` | `vaporspec` | |
 | VM Labs NUON | `nuon` | `nuon` | |
 | Wolfenstein 3D | `wolfenstein` | `pc, pcwindows, dos` | |
+| ZQuest Classic | `zquest` | `pc, pcwindows, zquest` | |
 
 ---
 

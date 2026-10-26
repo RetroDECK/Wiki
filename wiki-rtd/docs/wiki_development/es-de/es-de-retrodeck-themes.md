@@ -21,7 +21,7 @@ Use the official RetroDECK theme as a reference and starting point:
 | Commander X16 | `commander-x16` | `commander-x16, x16, pc, c64` | |
 | Dingoo A320 | `dingoo` | `dingoo` | |
 | Doom 3 | `doom3` | `pc, pcwindows` | |
-| Electronika BK | `electronika` | `electronika` | Core: `bk` |
+| Elektronika (elektronika) BK | `elektronika` | `elektronika` | Core: `bk` |
 | Galaksija | `galaksija` | `galaksija` | Core: `galaksija` |
 | Enterprise 64/128 | `enterprise` | `enterprise` | |
 | Interactive Fiction | `if` | `zmachine, if, pc, pcwindows, dos, c64` | |

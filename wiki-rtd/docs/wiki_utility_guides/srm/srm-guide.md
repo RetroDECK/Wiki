@@ -26,9 +26,8 @@ Additionally, RetroDECK uses Steam ROM Manager as part of its backend for the `S
 
 Some game game filenames contain symbols that may cause issues with the parser, preventing the game from launching.  
 
-✅ **Safe symbols:** `( ) [ ]`  
-
-❌ **Avoid using:** `/ \ { } < > ' * `  
+- **Safe symbols:** `( ) [ ]`
+- **Avoid using:** `/ \ { } < > ' * `
 
 If your game filenames contain any of the unsafe symbols, consider renaming them before running the scripts.
 
@@ -160,7 +159,7 @@ The file in this case is called `Brutal Doom.doom`.
 
 **If you are unsure on how to create doom files**
 
-[Guide: How to create RetroDECK .doom file](../../wiki_engine_guides/gzdoom/retrodeck-doomfile.md)
+[Guide: How to create RetroDECK .doom file](../../wiki_engine_guides/uzdoom/retrodeck-doomfile.md)
 
 ---
 

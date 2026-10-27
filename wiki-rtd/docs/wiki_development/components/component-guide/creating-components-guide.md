@@ -145,7 +145,7 @@ Choose **RetroVERSE** when the component is suitable for RetroDECK's retro-focus
 
 **Read more here:**
 
-[RetroVERSE](../../../wiki_retroverse/retroverse-guide.md)
+[RetroVERSE](../retroverse-dev-guide.md)
 
 ---
 

@@ -48,7 +48,7 @@ Before you can install **RetroDECKY** ensure the following are installed:
 
 RetroDECK must be installed before using the plugin.
 
-- [RetroDECK Installation Guide](../../wiki_general/retrodeck-start.md)
+- [RetroDECK Installation Guide](../wiki_general/retrodeck-start.md)
 
 ---
 

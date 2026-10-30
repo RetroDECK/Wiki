@@ -58,6 +58,8 @@ The `splash_screens"`  looks in the reference .svg files under: `es-de/rd_assets
       "start_time": "MMDD",
       "end_time": "MMDD",
       "holiday_type": "stable",
+      "name": "New Year's Eve.",
+      "information": "",
       "filename": "placeholder.svg"
       }
     }
@@ -70,24 +72,16 @@ The `splash_screens"`  looks in the reference .svg files under: `es-de/rd_assets
  "splash_screens": {
     "new_year": {
       "start_date": "1231",
-      "end_date": "0101",
+      "end_date": "1231",
       "start_time": "0000",
       "end_time": "2359",
       "holiday_type": "stable",
-      "filename": "placeholder.svg"
-    },
-    "up_helly_aa": {
-      "start_date": "0127",
-      "end_date": "0127",
-      "start_time": "0000",
-      "end_time": "2359",
-      "holiday_type": "dynamic",
-      "filename": "rd-up-helly-aa-splash.svg"
+      "name": "New Year's Eve.",
+      "information": "",
+      "filename": "rd-new-year-splash.svg"
     }
   }
 ```
-
-Here we show both the New Year and Up Helly Aa
 
 ---
 
@@ -140,7 +134,25 @@ Supports cross-year ranges (e.g., `1231` → `0101`).
 
 ---
 
-### Overlapping Holiday Handling
+### `name`
+
+The name of the holiday. 
+
+---
+
+### `information`
+
+Additional information or notes, example: `Only held biennially even-numbered years`.
+
+---
+
+### `filename`
+
+- **Description:** File name of the splash screen asset  `rd-<splashname>.svg` from `/res/extra_splashes/`.  
+
+---
+
+## Overlapping Holiday Handling
 
 If a `stable` (or multi-day `dynamic`) holiday spans across another holiday’s date range, it is recommended to split and re-declare the remaining span after the conflicting holiday rather than relying on overlap resolution.
 
@@ -175,37 +187,9 @@ This avoids priority ambiguity and ensures deterministic rendering behavior. Sin
 }
 ```
 
-
 ---
 
-### `filename`
-
-- **Description:** File name of the splash screen asset  `rd-<splashname>.svg` from `/res/extra_splashes/`.  
-
-
----
-
-## Boot Logo Credits
-
-The boot logo (also referred to as the *boot splash*) is displayed during RetroDECK start-up.
-
-**Note:**  
-
-Boot splashes created by members of the RetroDECK team are provided on a best-effort basis and serve as an homage to the clipart and WordArt aesthetic associated with the Windows 3.1 to 98 era, in alignment with the Retro theme. These assets are considered provisional and may be replaced by future contributions from REAL artists or community collaborators.
-
-### Open-Source and Creative Commons Art Resources
-
-The majority of visual assets incorporated were created using materials distributed under open-source and/or Creative Commons licenses, obtained from the following repositories, or were independently produced:
-
-- **SVGRepo**
-- **OpenClipart**
-- **KenneyNL**
-- **Creazilla**
-- **Pixabay**
-
-We acknowledge and extend our appreciation to the respective creators and contributors who make these assets publicly available under open licenses.
-
-### Standard Logo
+## The RetroDECK Logo
 
 <img src="../../../../wiki_images/logos/rd-logo-box.png" width="500" alt="Rd Logo Box logo">
 
@@ -222,37 +206,41 @@ The following contributors played important roles in the development of the firs
 
 ---
 
+## Easter Boot Logo Credits
+
+The boot logo (also referred to as the *boot splash*) is displayed during RetroDECK start-up.
+
+**Note:**  
+
+Boot splashes created by members of the RetroDECK team are provided on a best-effort basis and serve as an homage to the clipart and WordArt aesthetic associated with the Windows 3.1 to 98 era, in alignment with the Retro theme. These assets are considered provisional and may be replaced by future contributions from other artists or community collaborators.
+
+### Open-Source and Creative Commons Art Resources
+
+The majority of visual assets incorporated were created using materials distributed under open-source and/or Creative Commons licenses, obtained from the following repositories, or were independently produced:
+
+- [Coco Material](https://cocomaterial.com/)
+- [Creazilla](https://www.creazilla.com/)
+- [KenneyNL](https://kenney.nl/)
+- [Magdeleine](https://magdeleine.co/browse/)
+- [Open Clipart](https://openclipart.org/)
+- [Openverse](https://wordpress.org/openverse/)
+- [Pexels](https://www.pexels.com/)
+- [Pixabay](https://pixabay.com/)
+- [SVGRepo](https://www.svgrepo.com/)
+- [Unsplash](https://unsplash.com/)
+
+We acknowledge and extend our appreciation to the respective creators and contributors who make these assets publicly available under open licenses.
+
+---
+
 ## Q1
 
-### Up Helly Ah
+### Desert Kite Festival
 
 <details><summary> Spoiler </summary>
-<img src="../rd-up-helly-aa-splash.svg" width="500" alt="">
+<img src="../rd-desert-kite-festival-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
-
-</details>
-
----
-
-### Groundhog Day
-
-<details><summary> Spoiler </summary>
-<img src="../rd-groundhog-day-splash.svg" width="500" alt="">
-
-Artists - RetroDECK Team: Lazorne
-
-</details>
-
-
----
-
-### Setsubun - 節分
-
-<details><summary> Spoiler </summary>
-<img src="../rd-setsubun-splash.svg" width="500" alt="">
-
-Artists - RetroDECK Team: XargonWan
 
 </details>
 
@@ -270,13 +258,13 @@ Artists: Weestuarty
 
 ---
 
-### Chinese / Lunar New Year - 春节 - Snake - 蛇
+### Chinese / Lunar New Year - 春节 - Goat - 羊
 
 <details><summary> Spoiler </summary>
 
-<img src="../rd-lunar-snake-splash.svg" width="500" alt="">
+<img src="../rd-lunar-goat-splash.svg" width="500" alt="">
 
-Artists - RetroDECK Team: XargonWan
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -294,12 +282,46 @@ Artists - RetroDECK Team: XargonWan
 
 ---
 
-### Valentines Day
+### Chinese / Lunar New Year - 春节 - Snake - 蛇
 
 <details><summary> Spoiler </summary>
-<img src="../rd-valentines-splash.svg" width="500" alt="">
 
-Artists- RetroDECK Team: Weestuarty
+<img src="../rd-lunar-snake-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: XargonWan
+
+</details>
+
+---
+
+### Desert Kite Festival
+
+<details><summary> Spoiler </summary>
+<img src="../rd-desert-kite-festival-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### Eid al-Fitr
+
+<details><summary> Spoiler </summary>
+<img src="../rd-eid-al-fitr-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### Groundhog Day
+
+<details><summary> Spoiler </summary>
+<img src="../rd-groundhog-day-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: Lazorne
 
 </details>
 
@@ -316,17 +338,6 @@ Artists: Lazorne
 
 ---
 
-### RetroDECK's Birthday & International Game Masters's Day
-
-<details><summary> Spoiler </summary>
-<img src="../rd-gm-bday-splash.svg" width="500" alt="">
-
-Artists: Weestuarty
-
-</details>
-
----
-
 ### International Women's Day
 
 <details><summary> Spoiler </summary>
@@ -338,6 +349,27 @@ Artists - RetroDECK Team: Lazorne
 
 ---
 
+### RetroDECK's Birthday & International Game Masters's Day
+
+<details><summary> Spoiler </summary>
+<img src="../rd-gm-bday-splash.svg" width="500" alt="">
+
+Artists: Weestuarty
+
+</details>
+
+---
+
+### Setsubun - 節分
+
+<details><summary> Spoiler </summary>
+<img src="../rd-setsubun-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: XargonWan
+
+</details>
+
+---
 
 ### St Patrick's Day
 
@@ -350,12 +382,23 @@ Artists: Weestuarty
 
 ---
 
-### Eid al-Fitr
+### Up Helly Ah
 
 <details><summary> Spoiler </summary>
-<img src="../rd-eid-al-fitr-splash.svg" width="500" alt="">
+<img src="../rd-up-helly-aa-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### Valentines Day
+
+<details><summary> Spoiler </summary>
+<img src="../rd-valentines-splash.svg" width="500" alt="">
+
+Artists- RetroDECK Team: Weestuarty
 
 </details>
 
@@ -364,12 +407,34 @@ Artists - RetroDECK Team: Lazorne
 
 ## Q2
 
-### Walpurgis Night
+### Cooper's Hill Cheese-Rolling and Wake
 
 <details><summary> Spoiler </summary>
-<img src="../rd-walpurgis-splash.svg" width="500" alt="">
+<img src="../rd-cheese-wake-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### Dragon Boat Festival - 端午节
+
+<details><summary> Spoiler </summary>
+<img src="../rd-dragon-boat-festival-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### Kodomo no Hi - こどもの日
+
+<details><summary> Spoiler </summary>
+<img src="../rd-kodomo-golden-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: XargonWan
 
 </details>
 
@@ -386,30 +451,6 @@ Artists - RetroDECK Team: Lazorne
 
 ---
 
-
-### Kodomo no Hi - こどもの日
-
-<details><summary> Spoiler </summary>
-<img src="../rd-kodomo-golden-splash.svg" width="500" alt="">
-
-Artists - RetroDECK Team: XargonWan
-
-</details>
-
----
-
-### Cooper's Hill Cheese-Rolling and Wake
-
-<details><summary> Spoiler </summary>
-<img src="../rd-cheese-wake-splash.svg" width="500" alt="">
-
-Artists - RetroDECK Team: Lazorne
-
-</details>
-
-
----
-
 ### Midsommarafton
 
 <details><summary> Spoiler </summary>
@@ -419,13 +460,12 @@ Artists - RetroDECK Team: Lazorne
 
 </details>
 
-
 ---
 
-### Dragon Boat Festival - 端午节
+### Walpurgis Night
 
 <details><summary> Spoiler </summary>
-<img src="../rd-dragon-boat-festival-splash.svg" width="500" alt="">
+<img src="../rd-walpurgis-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -434,6 +474,50 @@ Artists - RetroDECK Team: Lazorne
 ---
 
 ## Q3
+
+### International Talk Like a Pirate Day
+
+<details><summary> Spoiler </summary>
+<img src="../rd-pirate-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### La Tomatina
+
+<details><summary> Spoiler </summary>
+<img src="../rd-la-tomatina-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### Matariki
+
+<details><summary> Spoiler </summary>
+<img src="../rd-matariki-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### Oktoberfest
+
+<details><summary> Spoiler </summary>
+<img src="../rd-oktoberfest-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
 
 ### Running of the Bulls - El Encierro
 
@@ -457,57 +541,13 @@ Artists - RetroDECK Team: XargonWan
 
 ---
 
-### Matariki
-
-<details><summary> Spoiler </summary>
-<img src="../rd-matariki-splash.svg" width="500" alt="">
-
-Artists - RetroDECK Team: Lazorne
-
-</details>
-
----
-### La Tomatina
-
-<details><summary> Spoiler </summary>
-<img src="../rd-la-tomatina-splash.svg" width="500" alt="">
-
-Artists - RetroDECK Team: Lazorne
-
-</details>
-
----
-
-### International Talk Like a Pirate Day
-
-<details><summary> Spoiler </summary>
-<img src="../rd-pirate-splash.svg" width="500" alt="">
-
-Artists - RetroDECK Team: Lazorne
-
-</details>
-
-
----
-
-### Oktoberfest
-
-<details><summary> Spoiler </summary>
-<img src="../rd-oktoberfest-splash.svg" width="500" alt="">
-
-Artists - RetroDECK Team: Lazorne
-
-</details>
-
----
-
 
 ## Q4
 
-### Halloween
+### Chanukah / Hanukkah
 
 <details><summary> Spoiler </summary>
-<img src="../rd-halloween-splash.svg" width="500" alt="">
+<img src="../rd-chanukah-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -526,7 +566,6 @@ Artists - RetroDECK Team: Lazorne
 
 ---
 
-
 ### Diwali - Festival of Lights
 
 <details><summary> Spoiler </summary>
@@ -538,11 +577,32 @@ Artists - RetroDECK Team: Lazorne
 
 ---
 
+### Halloween
+
+<details><summary> Spoiler </summary>
+<img src="../rd-halloween-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
 
 ### International Men's Day
 
 <details><summary> Spoiler </summary>
 <img src="../rd-mens-day-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### Lucia
+
+<details><summary> Spoiler </summary>
+<img src="../rd-lucia-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
 
@@ -561,50 +621,34 @@ Artists - RetroDECK Team: Lazorne
 
 ---
 
-
-### Chanukah / Hanukkah
-
-<details><summary> Spoiler </summary>
-<img src="../rd-chanukah-splash.svg" width="500" alt="">
-
-Artists - RetroDECK Team: Lazorne
-
-</details>
-
----
-
-
-### Lucia
-
-<details><summary> Spoiler </summary>
-<img src="../rd-lucia-splash.svg" width="500" alt="">
-
-Artists - RetroDECK Team: Lazorne
-
-</details>
-
----
-
-
-### Xmas - Holiday Period
-
-<details><summary> Spoiler </summary>
-<img src="../rd-xmas-splash.svg" width="500" alt="">
-
-Artists:  Weestuarty
-
-</details>
-
-
----
-
-
 ### New Year
 
 <details><summary> Spoiler </summary>
 <img src="../rd-new-year-splash.svg" width="500" alt="">
 
 Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### Thanksgiving (US)
+
+<details><summary> Spoiler </summary>
+<img src="../rd-thanksgiving-us-splash.svg" width="500" alt="">
+
+Artists - RetroDECK Team: Lazorne
+
+</details>
+
+---
+
+### Xmas - Holiday Period
+
+<details><summary> Spoiler </summary>
+<img src="../rd-xmas-splash.svg" width="500" alt="">
+
+Artists: Weestuarty
 
 </details>
 
@@ -627,32 +671,21 @@ Artists: Weestuarty
 
 | Event | Date (Typical) | Region / Country | Description | Key Symbols | Color Palette | Patterns & Motifs | Mood | Logo Available | Comments |
 |---|---|---|---|---|---|---|---|---|---|
-| Desert Kite Festival | Jan-Mar (varies) | UAE | Large outdoor kite-flying event | Kites, wind, sky | Bright multicolor, blue | Geometric kite shapes | Joyful, airy | No |  |
 | Camel Festival | Jan-Mar (varies) | Saudi Arabia | Cultural festival with camel shows and races | Camels, desert motifs | Sand, brown, gold | Tribal patterns | Traditional, proud | No |  |
 | Inti Raymi | Feb | Peru | Historic Incan festival celebrating the sun | Sun discs, traditional dress | Gold, red | Incan geometry | Ceremonial, proud | No |  |
 | International Polar Bear Day | Feb 27 | Arctic | Awareness day for polar bear conservation | Polar bears, ice | White, icy blue | Ice textures | Reflective, educational | No |  |
-| Hanami (花見) | Late Mar-Early Apr | Japan | Cherry blossom viewing | Sakura petals, picnics | Soft pink, white | Falling petals | Calm, serene | No |  |
-| April Fools’ Day | Apr 1 | International | Day of jokes and pranks | Jester hats, props | Bright primaries | Comic shapes | Silly, playful | No |  |
 | Earth Day | Apr 22 | International | Environmental awareness and action | Earth, leaves | Green, blue | Organic shapes | Hopeful, mindful | No |  |
 | International Penguin Awareness Day | Apr 25 | Antarctica | Penguin conservation awareness | Penguins, ice | Black, white, blue | Ice patterns | Educational | No |  |
-| Syttende Mai | May 17 | Norway | National day with parades | Flags, bunads | Red, white, blue | Clean lines | Proud, joyful | No |  |
-| Mother’s Day | May (2nd Sunday) | International | Honoring mothers and caregivers | Flowers, cards | Soft pastels | Floral motifs | Warm, thankful | No |  |
 | Towel Day | May 25 | International | Tribute to Douglas Adams and *The Hitchhiker’s Guide to the Galaxy* | Towels, number 42 | Black, neon green, deep blues | Stars, sci-fi UI | Geeky, humorous | No | “Don’t Panic” |
 | White Night Festivals | Jun (varies) | Northern Europe | Cultural events during long daylight | Sun, cityscapes | Light blue, gold | Gradients | Dreamy | No |  |
-| Father’s Day | Jun (3rd Sunday) | International | Honoring fathers and caregivers | Tools, ties | Blue, gray | Simple icons | Appreciative | No |  |
 | Matariki | Jun-Jul (varies) | New Zealand | Māori New Year | Stars, constellations | Deep blue, white | Star patterns | Reflective | No |  |
 | Ferragosto | Aug | Italy | Peak summer holiday | Beach, sun | Aqua, coral | Waves | Relaxed | No |  |
 | Feria de las Flores | Aug | Colombia | Flower parade and culture | Flowers | Bright florals | Petals | Joyful | No |  |
 | Obon | Aug 13-16 | Japan | Remembrance of ancestors | Lanterns | Warm amber | Floating lights | Respectful | No |  |
 | Waffle House Fight Club Day | Aug 24 | USA | Pop-culture anniversary | Waffles | Yellow, brown | Retro diner | Humorous | No |  |
-| Tsukimi / Mid-Autumn Festival | Sep-Oct | East Asia | Moon-viewing and harvest | Moon, lanterns | Gold, navy | Clouds | Tranquil | No |  |
-| Frühlingsfest | Late Sep-Early Oct | Germany | Beer and folk festival | Pretzels, steins | Blue, white | Bavarian diamonds | Festive | No |  |
-| Thanksgiving (Canada) | Oct (2nd Mon) | Canada | Harvest and gratitude | Leaves, turkey | Warm browns | Autumn leaves | Cozy | No |  |
-| Thanksgiving (USA) | Nov (4th Thu) | USA | Harvest and gratitude | Turkey, cornucopia | Warm earth tones | Leaves | Cozy | No |  |
 | Black Friday | Nov (4th Fri) | International | Major shopping day | Price tags | Black, red | Bold typography | Urgent | No | Often followed by Cyber Monday |
 | Powwows | Varies / Seasonal | North America | Indigenous cultural gatherings | Drums, regalia | Earth tones | Feathers | Communal | No |  |
 | Reindeer Racing | Winter months | Arctic | Traditional winter sport | Reindeer, sleds | White, red | Snow textures | Energetic | No |  |
-| Festival of Masks | Varies | West Africa | Traditional mask ceremonies | Masks | Bold earth colors | Tribal patterns | Ceremonial | No |  |
 | Lake of Stars Festival | Varies | Malawi | Music and arts festival | Lake, stars | Deep blue | Waves | Creative | No |  |
 | Sauti za Busara | Varies | Zanzibar | African music festival | Instruments | Warm tropical | Rhythmic lines | Energetic | No |  |
 | Bushfire Festival | Varies | Eswatini | Music and arts with workshops | Instruments, people | Warm sunset tones | Organic patterns | Community-focused | No |  |

@@ -22,7 +22,7 @@ ZQuest Classic is an 2D action-RPG engine for classic 8-bit Zelda-like games.
 ---
 
 
-## Where to put the games?
+## Where to put the games (quests)?
 
 ZQuest Classic games should be put under the `retrodeck/roms/zquest/` directory.
 
@@ -54,5 +54,11 @@ No
 |:----:|:-------------------------|:-------|
 | ROMs | `retrodeck/roms/zquest/` |        |
 | Saves | `retrodeck/saves/ZQuest-SA/saves` |        |
+
+---
+
+## Where to find games (quests)?
+
+The [PureZC- Quest Database](https://www.purezc.net/index.php?page=quests&sort=hits) hosts a large collection of community created quests and assets.
 
 ---

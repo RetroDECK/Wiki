@@ -65,7 +65,7 @@ However, each table may require its **own set of additional files and dependenci
 
 ## Visual Pinball X: Controls
 
-### Keyboard
+### ⌨️ Keyboard & 🖱️ Mouse
 
 | Key | Action |
 |---|---|
@@ -84,7 +84,7 @@ However, each table may require its **own set of additional files and dependenci
 | <kbd>Q</kbd> | Quit |
 | <kbd>F11</kbd> | Performance statistics |
 
-### Gamepad
+### 🎮 Gamepad
 
 | Gamepad | Action |
 |---|---|

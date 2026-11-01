@@ -62,3 +62,23 @@ No
 The [PureZC- Quest Database](https://www.purezc.net/index.php?page=quests&sort=hits) hosts a large collection of community created quests and assets.
 
 ---
+
+## ZQuest Classic: Hotkeys
+
+### ⌨️ Keyboard & 🖱️ Mouse
+
+| Action | Key |
+|---|---|
+| Open Menu | <kbd>ESC</kbd> |
+| Cap FPS | <kbd>F1</kbd> |
+| Show FPS | <kbd>F2</kbd> |
+| Reset | <kbd>F9</kbd> |
+| Quit Menu | <kbd>F10</kbd> |
+
+### 🎮 Gamepad
+
+| Action | Xbox - Steam Deck / Playstation / Nintendo |
+|---|---|
+| Quit Menu | </kbd>UP</kbd> + </kbd>A / X / B</kbd>  + </kbd>B / ○ / A</kbd>  |
+
+---

@@ -1,20 +1,20 @@
-﻿# Guide: sm2-emu
+﻿# Guide: Keishō
 
-<img src="../../../wiki_images/logos/sm2-emu-logo.svg" width="150" alt="sm2-emu logo">
+<img src="../../../wiki_images/logos/keisho-logo.svg" width="150" alt="Keishō logo">
 
-sm2-emu is an open-source emulator for Sega's Model 2 arcade platform. 
+Keishō is an open-source emulator for Sega's Model 1, 2 and 3 arcade platforms. 
 
 ⚠️ W.I.P Article - Not yet in RetroDECK ⚠️
 
 ---
 
-### sm2-emu Links
+### KeishōLinks
 
 <img src="../../../wiki_icons/pixelitos/internet-web-browser.png" width="35" alt="">
 
 | Resource | Link |
 |----------|------|
-| sm2-emu GitHub | [Link](https://github.com/dmanlfc/sm2-emu/tree/main/) |
+| Keishō GitHub | [Link](https://github.com/dmanlfc/keisho/tree/main/) |
 
 ---
 
@@ -32,7 +32,7 @@ sm2-emu is an open-source emulator for Sega's Model 2 arcade platform.
 
 ## Where to put the games?
 
-sm2-emu games should be put under the `retrodeck/roms/model2/` directory.
+Keishō games should be put under the `retrodeck/roms/model2/` directory.
 
 ---
 
@@ -49,7 +49,7 @@ sm2-emu games should be put under the `retrodeck/roms/model2/` directory.
 
 ---
 
-## Does sm2-emu require BIOS, Game Data or Firmware files?
+## Does Keishō require BIOS, Game Data or Firmware files?
 
 <img src="../../../wiki_icons/pixelitos/cpu.png" width="35" alt="">
 
@@ -64,16 +64,16 @@ No
 | Type   | Directory                                         | Comment       |
 |:------:|:--------------------------------------------------|:-------------|
 | ROMs   | `retrodeck/roms/model2/`                          |               |
-| Saves   | `retrodeck/saves/model2/sm2-emu`                 |               |
-| Textures   | `retrodeck/texture_packs/sm2-emu/textures`    | textures/<game>/load textures/<game>/dump            |
+| Saves   | `retrodeck/saves/model2/keisho`                 |               |
+| Textures   | `retrodeck/texture_packs/keisho/textures`    | textures/<game>/load textures/<game>/dump            |
 
 
 ---
 
 
-## sm2-emu: Controls
+## Keisho: Controls
 
-These are the default controls shipped by sm2-emu
+These are the default controls shipped by keisho
 
 | Action | Xbox - Steam Deck / Playstation / Nintendo | Input |
 |---|---|---|
@@ -94,7 +94,7 @@ These are the default controls shipped by sm2-emu
 
 This is a copy from:
 
-https://github.com/dmanlfc/sm2-emu/blob/main/README.md
+https://github.com/dmanlfc/keisho/blob/main/README.md
 
 Every game is playable with either a standard gamepad or keyboard.
 Wheels, light guns and a mouse are supported as the preferred devices for the
